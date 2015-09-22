@@ -1,0 +1,10 @@
+File controllers/front/SitemapController.php
+=========
+Source: [controllers/front/SitemapController.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SitemapController.php)
+
+
+Classes
+-------
+
+* [SitemapControllerCore](class.SitemapControllerCore)
+
