@@ -46,7 +46,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Blowfish.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#L80)
+* Source: [classes/Blowfish.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#L80).
 
 
 ### <a name="property-$_S"></a>$_S
@@ -58,7 +58,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Blowfish.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#L88)
+* Source: [classes/Blowfish.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#L88).
 
 
 ### <a name="property-$_iv"></a>$_iv
@@ -70,7 +70,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Blowfish.php line 355](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#L355)
+* Source: [classes/Blowfish.php line 355](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#L355).
 
 
 ### <a name="property-$_unpackMode"></a>$_unpackMode
@@ -82,7 +82,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Blowfish.php line 357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#L357)
+* Source: [classes/Blowfish.php line 357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#L357).
 
 
 Methods

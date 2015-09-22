@@ -50,7 +50,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerMessage.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L37)
+* Source: [classes/CustomerMessage.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L37).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -62,7 +62,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerMessage.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L38)
+* Source: [classes/CustomerMessage.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L38).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -75,7 +75,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/CustomerMessage.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L44)
+* Source: [classes/CustomerMessage.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L44).
 
 
 ### <a name="property-$file_name"></a>$file_name
@@ -87,7 +87,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerMessage.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L33)
+* Source: [classes/CustomerMessage.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L33).
 
 
 ### <a name="property-$id"></a>$id
@@ -99,7 +99,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerMessage.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L29)
+* Source: [classes/CustomerMessage.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L29).
 
 
 ### <a name="property-$id_customer_thread"></a>$id_customer_thread
@@ -111,7 +111,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerMessage.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L30)
+* Source: [classes/CustomerMessage.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L30).
 
 
 ### <a name="property-$id_employee"></a>$id_employee
@@ -123,7 +123,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerMessage.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L31)
+* Source: [classes/CustomerMessage.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L31).
 
 
 ### <a name="property-$ip_address"></a>$ip_address
@@ -135,7 +135,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerMessage.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L34)
+* Source: [classes/CustomerMessage.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L34).
 
 
 ### <a name="property-$message"></a>$message
@@ -147,7 +147,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerMessage.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L32)
+* Source: [classes/CustomerMessage.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L32).
 
 
 ### <a name="property-$private"></a>$private
@@ -159,7 +159,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerMessage.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L36)
+* Source: [classes/CustomerMessage.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L36).
 
 
 ### <a name="property-$read"></a>$read
@@ -171,7 +171,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerMessage.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L39)
+* Source: [classes/CustomerMessage.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L39).
 
 
 ### <a name="property-$user_agent"></a>$user_agent
@@ -183,7 +183,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerMessage.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L35)
+* Source: [classes/CustomerMessage.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L35).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -195,7 +195,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/CustomerMessage.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L61)
+* Source: [classes/CustomerMessage.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L61).
 
 
 Methods

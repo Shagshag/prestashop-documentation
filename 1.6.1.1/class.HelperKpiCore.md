@@ -49,7 +49,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L29)
+* Source: [classes/helper/HelperKpi.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L29).
 
 
 ### <a name="property-$base_tpl"></a>$base_tpl
@@ -61,7 +61,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L30)
+* Source: [classes/helper/HelperKpi.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L30).
 
 
 ### <a name="property-$chart"></a>$chart
@@ -73,7 +73,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L34)
+* Source: [classes/helper/HelperKpi.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L34).
 
 
 ### <a name="property-$color"></a>$color
@@ -85,7 +85,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L35)
+* Source: [classes/helper/HelperKpi.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L35).
 
 
 ### <a name="property-$data"></a>$data
@@ -97,7 +97,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L39)
+* Source: [classes/helper/HelperKpi.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L39).
 
 
 ### <a name="property-$href"></a>$href
@@ -109,7 +109,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L42)
+* Source: [classes/helper/HelperKpi.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L42).
 
 
 ### <a name="property-$icon"></a>$icon
@@ -121,7 +121,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L33)
+* Source: [classes/helper/HelperKpi.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L33).
 
 
 ### <a name="property-$id"></a>$id
@@ -133,7 +133,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L32)
+* Source: [classes/helper/HelperKpi.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L32).
 
 
 ### <a name="property-$refresh"></a>$refresh
@@ -145,7 +145,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L41)
+* Source: [classes/helper/HelperKpi.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L41).
 
 
 ### <a name="property-$source"></a>$source
@@ -157,7 +157,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L40)
+* Source: [classes/helper/HelperKpi.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L40).
 
 
 ### <a name="property-$subtitle"></a>$subtitle
@@ -169,7 +169,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L37)
+* Source: [classes/helper/HelperKpi.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L37).
 
 
 ### <a name="property-$title"></a>$title
@@ -181,7 +181,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L36)
+* Source: [classes/helper/HelperKpi.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L36).
 
 
 ### <a name="property-$tooltip"></a>$tooltip
@@ -193,7 +193,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L43)
+* Source: [classes/helper/HelperKpi.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L43).
 
 
 ### <a name="property-$value"></a>$value
@@ -205,7 +205,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpi.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L38)
+* Source: [classes/helper/HelperKpi.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L38).
 
 
 Methods

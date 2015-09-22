@@ -36,7 +36,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SmartyCustom.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#L303)
+* Source: [classes/SmartyCustom.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#L303).
 
 
 Methods

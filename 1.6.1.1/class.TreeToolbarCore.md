@@ -53,7 +53,9 @@ Constants
 
 
 
-* Source: [classes/tree/TreeToolbar.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L30)
+
+
+* Source: [classes/tree/TreeToolbar.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L30).
 
 
 ### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
@@ -62,7 +64,9 @@ Constants
 
 
 
-* Source: [classes/tree/TreeToolbar.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L29)
+
+
+* Source: [classes/tree/TreeToolbar.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L29).
 
 
 Properties
@@ -78,7 +82,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbar.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L32)
+* Source: [classes/tree/TreeToolbar.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L32).
 
 
 ### <a name="property-$_context"></a>$_context
@@ -90,7 +94,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbar.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L33)
+* Source: [classes/tree/TreeToolbar.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L33).
 
 
 ### <a name="property-$_data"></a>$_data
@@ -102,7 +106,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbar.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L34)
+* Source: [classes/tree/TreeToolbar.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L34).
 
 
 ### <a name="property-$_template"></a>$_template
@@ -114,7 +118,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbar.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L35)
+* Source: [classes/tree/TreeToolbar.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L35).
 
 
 ### <a name="property-$_template_directory"></a>$_template_directory
@@ -126,7 +130,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbar.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L36)
+* Source: [classes/tree/TreeToolbar.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L36).
 
 
 Methods

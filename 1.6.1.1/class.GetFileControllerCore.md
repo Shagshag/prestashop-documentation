@@ -38,7 +38,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/GetFileController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GetFileController.php#L30)
+* Source: [controllers/front/GetFileController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GetFileController.php#L30).
 
 
 ### <a name="property-$display_header"></a>$display_header
@@ -50,7 +50,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/GetFileController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GetFileController.php#L29)
+* Source: [controllers/front/GetFileController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GetFileController.php#L29).
 
 
 Methods

@@ -47,7 +47,9 @@ Constants
 
 
 
-* Source: [controllers/front/OrderController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L31)
+
+
+* Source: [controllers/front/OrderController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L31).
 
 
 ### <a name="constant-STEP_DELIVERY"></a>STEP_DELIVERY
@@ -56,7 +58,9 @@ Constants
 
 
 
-* Source: [controllers/front/OrderController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L32)
+
+
+* Source: [controllers/front/OrderController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L32).
 
 
 ### <a name="constant-STEP_PAYMENT"></a>STEP_PAYMENT
@@ -65,7 +69,9 @@ Constants
 
 
 
-* Source: [controllers/front/OrderController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L33)
+
+
+* Source: [controllers/front/OrderController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L33).
 
 
 ### <a name="constant-STEP_SUMMARY_EMPTY_CART"></a>STEP_SUMMARY_EMPTY_CART
@@ -74,7 +80,9 @@ Constants
 
 
 
-* Source: [controllers/front/OrderController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L30)
+
+
+* Source: [controllers/front/OrderController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L30).
 
 
 Properties
@@ -90,7 +98,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L29)
+* Source: [controllers/front/OrderController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L29).
 
 
 Methods

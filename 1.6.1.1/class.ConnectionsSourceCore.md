@@ -44,7 +44,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ConnectionsSource.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L33)
+* Source: [classes/ConnectionsSource.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L33).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -57,7 +57,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/ConnectionsSource.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L39)
+* Source: [classes/ConnectionsSource.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L39).
 
 
 ### <a name="property-$http_referer"></a>$http_referer
@@ -69,7 +69,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ConnectionsSource.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L30)
+* Source: [classes/ConnectionsSource.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L30).
 
 
 ### <a name="property-$id_connections"></a>$id_connections
@@ -81,7 +81,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ConnectionsSource.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L29)
+* Source: [classes/ConnectionsSource.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L29).
 
 
 ### <a name="property-$keywords"></a>$keywords
@@ -93,7 +93,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ConnectionsSource.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L32)
+* Source: [classes/ConnectionsSource.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L32).
 
 
 ### <a name="property-$request_uri"></a>$request_uri
@@ -105,7 +105,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ConnectionsSource.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L31)
+* Source: [classes/ConnectionsSource.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L31).
 
 
 ### <a name="property-$uri_max_size"></a>$uri_max_size
@@ -118,7 +118,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/ConnectionsSource.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L34)
+* Source: [classes/ConnectionsSource.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L34).
 
 
 Methods

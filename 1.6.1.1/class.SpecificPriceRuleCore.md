@@ -61,7 +61,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/SpecificPriceRule.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L47)
+* Source: [classes/SpecificPriceRule.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L47).
 
 
 ### <a name="property-$from"></a>$from
@@ -73,7 +73,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SpecificPriceRule.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L39)
+* Source: [classes/SpecificPriceRule.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L39).
 
 
 ### <a name="property-$from_quantity"></a>$from_quantity
@@ -85,7 +85,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SpecificPriceRule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L34)
+* Source: [classes/SpecificPriceRule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L34).
 
 
 ### <a name="property-$id_country"></a>$id_country
@@ -97,7 +97,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SpecificPriceRule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L32)
+* Source: [classes/SpecificPriceRule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L32).
 
 
 ### <a name="property-$id_currency"></a>$id_currency
@@ -109,7 +109,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SpecificPriceRule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L31)
+* Source: [classes/SpecificPriceRule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L31).
 
 
 ### <a name="property-$id_group"></a>$id_group
@@ -121,7 +121,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SpecificPriceRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L33)
+* Source: [classes/SpecificPriceRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L33).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -133,7 +133,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SpecificPriceRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L30)
+* Source: [classes/SpecificPriceRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L30).
 
 
 ### <a name="property-$name"></a>$name
@@ -145,7 +145,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SpecificPriceRule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L29)
+* Source: [classes/SpecificPriceRule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L29).
 
 
 ### <a name="property-$price"></a>$price
@@ -157,7 +157,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SpecificPriceRule.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L35)
+* Source: [classes/SpecificPriceRule.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L35).
 
 
 ### <a name="property-$reduction"></a>$reduction
@@ -169,7 +169,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SpecificPriceRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L36)
+* Source: [classes/SpecificPriceRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L36).
 
 
 ### <a name="property-$reduction_tax"></a>$reduction_tax
@@ -181,7 +181,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SpecificPriceRule.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L37)
+* Source: [classes/SpecificPriceRule.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L37).
 
 
 ### <a name="property-$reduction_type"></a>$reduction_type
@@ -193,7 +193,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SpecificPriceRule.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L38)
+* Source: [classes/SpecificPriceRule.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L38).
 
 
 ### <a name="property-$rules_application_enable"></a>$rules_application_enable
@@ -206,7 +206,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/SpecificPriceRule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L42)
+* Source: [classes/SpecificPriceRule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L42).
 
 
 ### <a name="property-$to"></a>$to
@@ -218,7 +218,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/SpecificPriceRule.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L40)
+* Source: [classes/SpecificPriceRule.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L40).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -230,7 +230,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/SpecificPriceRule.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L66)
+* Source: [classes/SpecificPriceRule.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L66).
 
 
 Methods

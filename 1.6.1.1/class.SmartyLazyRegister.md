@@ -39,7 +39,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [config/smarty.config.inc.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L228)
+* Source: [config/smarty.config.inc.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L228).
 
 
 ### <a name="property-$registry"></a>$registry
@@ -51,7 +51,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [config/smarty.config.inc.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L227)
+* Source: [config/smarty.config.inc.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L227).
 
 
 Methods

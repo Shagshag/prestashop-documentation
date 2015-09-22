@@ -159,7 +159,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L139)
+* Source: [classes/AdminTab.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L139).
 
 
 ### <a name="property-$_defaultFormLanguage"></a>$_defaultFormLanguage
@@ -172,7 +172,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L177)
+* Source: [classes/AdminTab.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L177).
 
 
 ### <a name="property-$_defaultOrderBy"></a>$_defaultOrderBy
@@ -185,7 +185,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L125)
+* Source: [classes/AdminTab.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L125).
 
 
 ### <a name="property-$_errors"></a>$_errors
@@ -198,7 +198,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L136)
+* Source: [classes/AdminTab.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L136).
 
 
 ### <a name="property-$_fieldsOptions"></a>$_fieldsOptions
@@ -211,7 +211,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L162)
+* Source: [classes/AdminTab.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L162).
 
 
 ### <a name="property-$_filter"></a>$_filter
@@ -224,7 +224,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L113)
+* Source: [classes/AdminTab.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L113).
 
 
 ### <a name="property-$_group"></a>$_group
@@ -237,7 +237,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L84)
+* Source: [classes/AdminTab.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L84).
 
 
 ### <a name="property-$_having"></a>$_having
@@ -250,7 +250,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L87)
+* Source: [classes/AdminTab.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L87).
 
 
 ### <a name="property-$_includeContainer"></a>$_includeContainer
@@ -263,7 +263,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L181)
+* Source: [classes/AdminTab.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L181).
 
 
 ### <a name="property-$_includeObj"></a>$_includeObj
@@ -276,7 +276,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L179)
+* Source: [classes/AdminTab.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L179).
 
 
 ### <a name="property-$_includeVars"></a>$_includeVars
@@ -289,7 +289,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L180)
+* Source: [classes/AdminTab.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L180).
 
 
 ### <a name="property-$_join"></a>$_join
@@ -302,7 +302,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L78)
+* Source: [classes/AdminTab.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L78).
 
 
 ### <a name="property-$_languages"></a>$_languages
@@ -315,7 +315,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L176)
+* Source: [classes/AdminTab.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L176).
 
 
 ### <a name="property-$_list"></a>$_list
@@ -328,7 +328,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L107)
+* Source: [classes/AdminTab.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L107).
 
 
 ### <a name="property-$_listTotal"></a>$_listTotal
@@ -341,7 +341,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L110)
+* Source: [classes/AdminTab.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L110).
 
 
 ### <a name="property-$_object"></a>$_object
@@ -354,7 +354,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L142)
+* Source: [classes/AdminTab.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L142).
 
 
 ### <a name="property-$_orderBy"></a>$_orderBy
@@ -367,7 +367,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L122)
+* Source: [classes/AdminTab.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L122).
 
 
 ### <a name="property-$_orderWay"></a>$_orderWay
@@ -380,7 +380,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L128)
+* Source: [classes/AdminTab.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L128).
 
 
 ### <a name="property-$_pagination"></a>$_pagination
@@ -393,7 +393,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L119)
+* Source: [classes/AdminTab.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L119).
 
 
 ### <a name="property-$_redirect"></a>$_redirect
@@ -406,7 +406,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L157)
+* Source: [classes/AdminTab.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L157).
 
 
 ### <a name="property-$_select"></a>$_select
@@ -419,7 +419,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L75)
+* Source: [classes/AdminTab.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L75).
 
 
 ### <a name="property-$_tmpTableFilter"></a>$_tmpTableFilter
@@ -432,7 +432,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L116)
+* Source: [classes/AdminTab.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L116).
 
 
 ### <a name="property-$_where"></a>$_where
@@ -445,7 +445,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L81)
+* Source: [classes/AdminTab.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L81).
 
 
 ### <a name="property-$ajax"></a>$ajax
@@ -458,7 +458,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L183)
+* Source: [classes/AdminTab.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L183).
 
 
 ### <a name="property-$className"></a>$className
@@ -471,7 +471,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L42)
+* Source: [classes/AdminTab.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L42).
 
 
 ### <a name="property-$colorOnBackground"></a>$colorOnBackground
@@ -484,7 +484,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L72)
+* Source: [classes/AdminTab.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L72).
 
 
 ### <a name="property-$context"></a>$context
@@ -497,7 +497,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L174)
+* Source: [classes/AdminTab.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L174).
 
 
 ### <a name="property-$currentIndex"></a>$currentIndex
@@ -511,7 +511,7 @@ Properties
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* Source: [classes/AdminTab.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L150)
+* Source: [classes/AdminTab.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L150).
 
 
 ### <a name="property-$delete"></a>$delete
@@ -524,7 +524,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L57)
+* Source: [classes/AdminTab.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L57).
 
 
 ### <a name="property-$deleted"></a>$deleted
@@ -537,7 +537,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L60)
+* Source: [classes/AdminTab.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L60).
 
 
 ### <a name="property-$duplicate"></a>$duplicate
@@ -550,7 +550,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L63)
+* Source: [classes/AdminTab.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L63).
 
 
 ### <a name="property-$edit"></a>$edit
@@ -563,7 +563,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L51)
+* Source: [classes/AdminTab.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L51).
 
 
 ### <a name="property-$fieldImageSettings"></a>$fieldImageSettings
@@ -576,7 +576,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L90)
+* Source: [classes/AdminTab.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L90).
 
 
 ### <a name="property-$fieldsDisplay"></a>$fieldsDisplay
@@ -589,7 +589,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L96)
+* Source: [classes/AdminTab.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L96).
 
 
 ### <a name="property-$formOptions"></a>$formOptions
@@ -602,7 +602,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L160)
+* Source: [classes/AdminTab.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L160).
 
 
 ### <a name="property-$id"></a>$id
@@ -615,7 +615,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L33)
+* Source: [classes/AdminTab.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L33).
 
 
 ### <a name="property-$identifier"></a>$identifier
@@ -628,7 +628,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L39)
+* Source: [classes/AdminTab.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L39).
 
 
 ### <a name="property-$identifiersDnd"></a>$identifiersDnd
@@ -641,7 +641,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L154)
+* Source: [classes/AdminTab.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L154).
 
 
 ### <a name="property-$ignore_sleep"></a>$ignore_sleep
@@ -654,7 +654,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L189)
+* Source: [classes/AdminTab.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L189).
 
 
 ### <a name="property-$imageType"></a>$imageType
@@ -667,7 +667,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L93)
+* Source: [classes/AdminTab.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L93).
 
 
 ### <a name="property-$lang"></a>$lang
@@ -680,7 +680,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L48)
+* Source: [classes/AdminTab.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L48).
 
 
 ### <a name="property-$maxImageSize"></a>$maxImageSize
@@ -693,7 +693,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L133)
+* Source: [classes/AdminTab.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L133).
 
 
 ### <a name="property-$noLink"></a>$noLink
@@ -706,7 +706,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L66)
+* Source: [classes/AdminTab.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L66).
 
 
 ### <a name="property-$optionTitle"></a>$optionTitle
@@ -719,7 +719,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L98)
+* Source: [classes/AdminTab.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L98).
 
 
 ### <a name="property-$optionsList"></a>$optionsList
@@ -732,7 +732,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L168)
+* Source: [classes/AdminTab.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L168).
 
 
 ### <a name="property-$requiredDatabase"></a>$requiredDatabase
@@ -745,7 +745,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L69)
+* Source: [classes/AdminTab.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L69).
 
 
 ### <a name="property-$shopLinkType"></a>$shopLinkType
@@ -758,7 +758,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L101)
+* Source: [classes/AdminTab.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L101).
 
 
 ### <a name="property-$shopShareDatas"></a>$shopShareDatas
@@ -771,7 +771,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L104)
+* Source: [classes/AdminTab.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L104).
 
 
 ### <a name="property-$smarty"></a>$smarty
@@ -784,7 +784,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L152)
+* Source: [classes/AdminTab.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L152).
 
 
 ### <a name="property-$specificConfirmDelete"></a>$specificConfirmDelete
@@ -797,7 +797,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L148)
+* Source: [classes/AdminTab.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L148).
 
 
 ### <a name="property-$tabAccess"></a>$tabAccess
@@ -810,7 +810,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L145)
+* Source: [classes/AdminTab.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L145).
 
 
 ### <a name="property-$tabParenting"></a>$tabParenting
@@ -824,7 +824,7 @@ if true, ajax-tab will not wait 1 sec
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* Source: [classes/AdminTab.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L191)
+* Source: [classes/AdminTab.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L191).
 
 
 ### <a name="property-$table"></a>$table
@@ -837,7 +837,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L36)
+* Source: [classes/AdminTab.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L36).
 
 
 ### <a name="property-$token"></a>$token
@@ -850,7 +850,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L45)
+* Source: [classes/AdminTab.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L45).
 
 
 ### <a name="property-$view"></a>$view
@@ -863,7 +863,7 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/AdminTab.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L54)
+* Source: [classes/AdminTab.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L54).
 
 
 Methods

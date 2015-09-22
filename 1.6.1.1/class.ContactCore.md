@@ -42,7 +42,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Contact.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L40)
+* Source: [classes/Contact.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L40).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -55,7 +55,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Contact.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L45)
+* Source: [classes/Contact.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L45).
 
 
 ### <a name="property-$description"></a>$description
@@ -67,7 +67,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Contact.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L38)
+* Source: [classes/Contact.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L38).
 
 
 ### <a name="property-$email"></a>$email
@@ -79,7 +79,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Contact.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L35)
+* Source: [classes/Contact.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L35).
 
 
 ### <a name="property-$id"></a>$id
@@ -91,7 +91,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Contact.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L29)
+* Source: [classes/Contact.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L29).
 
 
 ### <a name="property-$name"></a>$name
@@ -103,7 +103,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Contact.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L32)
+* Source: [classes/Contact.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L32).
 
 
 Methods

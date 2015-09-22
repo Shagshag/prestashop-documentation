@@ -89,7 +89,9 @@ Constants
 
 
 
-* Source: [classes/order/OrderInvoice.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L31)
+
+
+* Source: [classes/order/OrderInvoice.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L31).
 
 
 ### <a name="constant-TAX_EXCL"></a>TAX_EXCL
@@ -98,7 +100,9 @@ Constants
 
 
 
-* Source: [classes/order/OrderInvoice.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L29)
+
+
+* Source: [classes/order/OrderInvoice.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L29).
 
 
 ### <a name="constant-TAX_INCL"></a>TAX_INCL
@@ -107,7 +111,9 @@ Constants
 
 
 
-* Source: [classes/order/OrderInvoice.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L30)
+
+
+* Source: [classes/order/OrderInvoice.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L30).
 
 
 Properties
@@ -124,7 +130,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/order/OrderInvoice.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L94)
+* Source: [classes/order/OrderInvoice.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L94).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -136,7 +142,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L91)
+* Source: [classes/order/OrderInvoice.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L91).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -149,7 +155,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/order/OrderInvoice.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L102)
+* Source: [classes/order/OrderInvoice.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L102).
 
 
 ### <a name="property-$delivery_address"></a>$delivery_address
@@ -161,7 +167,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L85)
+* Source: [classes/order/OrderInvoice.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L85).
 
 
 ### <a name="property-$delivery_date"></a>$delivery_date
@@ -173,7 +179,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L43)
+* Source: [classes/order/OrderInvoice.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L43).
 
 
 ### <a name="property-$delivery_number"></a>$delivery_number
@@ -185,7 +191,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L40)
+* Source: [classes/order/OrderInvoice.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L40).
 
 
 ### <a name="property-$id_order"></a>$id_order
@@ -197,7 +203,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L34)
+* Source: [classes/order/OrderInvoice.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L34).
 
 
 ### <a name="property-$invoice_address"></a>$invoice_address
@@ -209,7 +215,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L82)
+* Source: [classes/order/OrderInvoice.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L82).
 
 
 ### <a name="property-$note"></a>$note
@@ -221,7 +227,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L88)
+* Source: [classes/order/OrderInvoice.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L88).
 
 
 ### <a name="property-$number"></a>$number
@@ -233,7 +239,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L37)
+* Source: [classes/order/OrderInvoice.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L37).
 
 
 ### <a name="property-$order"></a>$order
@@ -245,7 +251,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/order/OrderInvoice.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L97)
+* Source: [classes/order/OrderInvoice.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L97).
 
 
 ### <a name="property-$shipping_tax_computation_method"></a>$shipping_tax_computation_method
@@ -257,7 +263,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L70)
+* Source: [classes/order/OrderInvoice.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L70).
 
 
 ### <a name="property-$shop_address"></a>$shop_address
@@ -269,7 +275,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L79)
+* Source: [classes/order/OrderInvoice.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L79).
 
 
 ### <a name="property-$total_discount_tax_excl"></a>$total_discount_tax_excl
@@ -281,7 +287,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L46)
+* Source: [classes/order/OrderInvoice.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L46).
 
 
 ### <a name="property-$total_discount_tax_incl"></a>$total_discount_tax_incl
@@ -293,7 +299,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L49)
+* Source: [classes/order/OrderInvoice.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L49).
 
 
 ### <a name="property-$total_paid_tax_excl"></a>$total_paid_tax_excl
@@ -305,7 +311,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L52)
+* Source: [classes/order/OrderInvoice.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L52).
 
 
 ### <a name="property-$total_paid_tax_incl"></a>$total_paid_tax_incl
@@ -317,7 +323,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L55)
+* Source: [classes/order/OrderInvoice.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L55).
 
 
 ### <a name="property-$total_products"></a>$total_products
@@ -329,7 +335,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L58)
+* Source: [classes/order/OrderInvoice.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L58).
 
 
 ### <a name="property-$total_products_wt"></a>$total_products_wt
@@ -341,7 +347,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L61)
+* Source: [classes/order/OrderInvoice.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L61).
 
 
 ### <a name="property-$total_shipping_tax_excl"></a>$total_shipping_tax_excl
@@ -353,7 +359,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L64)
+* Source: [classes/order/OrderInvoice.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L64).
 
 
 ### <a name="property-$total_shipping_tax_incl"></a>$total_shipping_tax_incl
@@ -365,7 +371,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L67)
+* Source: [classes/order/OrderInvoice.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L67).
 
 
 ### <a name="property-$total_wrapping_tax_excl"></a>$total_wrapping_tax_excl
@@ -377,7 +383,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L73)
+* Source: [classes/order/OrderInvoice.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L73).
 
 
 ### <a name="property-$total_wrapping_tax_incl"></a>$total_wrapping_tax_incl
@@ -389,7 +395,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderInvoice.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L76)
+* Source: [classes/order/OrderInvoice.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L76).
 
 
 Methods

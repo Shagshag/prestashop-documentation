@@ -152,7 +152,9 @@ Constants
 
 
 
-* Source: [classes/Cart.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L149)
+
+
+* Source: [classes/Cart.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L149).
 
 
 ### <a name="constant-BOTH_WITHOUT_SHIPPING"></a>BOTH_WITHOUT_SHIPPING
@@ -161,7 +163,9 @@ Constants
 
 
 
-* Source: [classes/Cart.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L150)
+
+
+* Source: [classes/Cart.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L150).
 
 
 ### <a name="constant-ONLY_DISCOUNTS"></a>ONLY_DISCOUNTS
@@ -170,7 +174,9 @@ Constants
 
 
 
-* Source: [classes/Cart.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L148)
+
+
+* Source: [classes/Cart.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L148).
 
 
 ### <a name="constant-ONLY_PHYSICAL_PRODUCTS_WITHOUT_SHIPPING"></a>ONLY_PHYSICAL_PRODUCTS_WITHOUT_SHIPPING
@@ -179,7 +185,9 @@ Constants
 
 
 
-* Source: [classes/Cart.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L154)
+
+
+* Source: [classes/Cart.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L154).
 
 
 ### <a name="constant-ONLY_PRODUCTS"></a>ONLY_PRODUCTS
@@ -188,7 +196,9 @@ Constants
 
 
 
-* Source: [classes/Cart.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L147)
+
+
+* Source: [classes/Cart.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L147).
 
 
 ### <a name="constant-ONLY_PRODUCTS_WITHOUT_SHIPPING"></a>ONLY_PRODUCTS_WITHOUT_SHIPPING
@@ -197,7 +207,9 @@ Constants
 
 
 
-* Source: [classes/Cart.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L153)
+
+
+* Source: [classes/Cart.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L153).
 
 
 ### <a name="constant-ONLY_SHIPPING"></a>ONLY_SHIPPING
@@ -206,7 +218,9 @@ Constants
 
 
 
-* Source: [classes/Cart.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L151)
+
+
+* Source: [classes/Cart.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L151).
 
 
 ### <a name="constant-ONLY_WRAPPING"></a>ONLY_WRAPPING
@@ -215,7 +229,9 @@ Constants
 
 
 
-* Source: [classes/Cart.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L152)
+
+
+* Source: [classes/Cart.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L152).
 
 
 Properties
@@ -232,7 +248,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Cart.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L94)
+* Source: [classes/Cart.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L94).
 
 
 ### <a name="property-$_carriers"></a>$_carriers
@@ -245,7 +261,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Cart.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L92)
+* Source: [classes/Cart.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L92).
 
 
 ### <a name="property-$_customer"></a>$_customer
@@ -258,7 +274,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Cart.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L97)
+* Source: [classes/Cart.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L97).
 
 
 ### <a name="property-$_isVirtualCart"></a>$_isVirtualCart
@@ -271,7 +287,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Cart.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L87)
+* Source: [classes/Cart.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L87).
 
 
 ### <a name="property-$_nbProducts"></a>$_nbProducts
@@ -284,7 +300,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Cart.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L86)
+* Source: [classes/Cart.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L86).
 
 
 ### <a name="property-$_products"></a>$_products
@@ -296,7 +312,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cart.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L89)
+* Source: [classes/Cart.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L89).
 
 
 ### <a name="property-$_taxCalculationMethod"></a>$_taxCalculationMethod
@@ -308,7 +324,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cart.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L91)
+* Source: [classes/Cart.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L91).
 
 
 ### <a name="property-$_taxes_rate"></a>$_taxes_rate
@@ -321,7 +337,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Cart.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L93)
+* Source: [classes/Cart.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L93).
 
 
 ### <a name="property-$_totalWeight"></a>$_totalWeight
@@ -334,7 +350,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Cart.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L90)
+* Source: [classes/Cart.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L90).
 
 
 ### <a name="property-$allow_seperated_package"></a>$allow_seperated_package
@@ -346,7 +362,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L84)
+* Source: [classes/Cart.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L84).
 
 
 ### <a name="property-$checkedTos"></a>$checkedTos
@@ -358,7 +374,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L77)
+* Source: [classes/Cart.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L77).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -370,7 +386,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L66)
+* Source: [classes/Cart.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L66).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -382,7 +398,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L75)
+* Source: [classes/Cart.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L75).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -395,7 +411,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Cart.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L102)
+* Source: [classes/Cart.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L102).
 
 
 ### <a name="property-$delivery_option"></a>$delivery_option
@@ -407,7 +423,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L81)
+* Source: [classes/Cart.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L81).
 
 
 ### <a name="property-$gift"></a>$gift
@@ -419,7 +435,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L57)
+* Source: [classes/Cart.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L57).
 
 
 ### <a name="property-$gift_message"></a>$gift_message
@@ -431,7 +447,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L60)
+* Source: [classes/Cart.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L60).
 
 
 ### <a name="property-$id"></a>$id
@@ -443,7 +459,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L29)
+* Source: [classes/Cart.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L29).
 
 
 ### <a name="property-$id_address_delivery"></a>$id_address_delivery
@@ -455,7 +471,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L36)
+* Source: [classes/Cart.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L36).
 
 
 ### <a name="property-$id_address_invoice"></a>$id_address_invoice
@@ -467,7 +483,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L39)
+* Source: [classes/Cart.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L39).
 
 
 ### <a name="property-$id_carrier"></a>$id_carrier
@@ -479,7 +495,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L72)
+* Source: [classes/Cart.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L72).
 
 
 ### <a name="property-$id_currency"></a>$id_currency
@@ -491,7 +507,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L42)
+* Source: [classes/Cart.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L42).
 
 
 ### <a name="property-$id_customer"></a>$id_customer
@@ -503,7 +519,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L45)
+* Source: [classes/Cart.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L45).
 
 
 ### <a name="property-$id_guest"></a>$id_guest
@@ -515,7 +531,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L48)
+* Source: [classes/Cart.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L48).
 
 
 ### <a name="property-$id_lang"></a>$id_lang
@@ -527,7 +543,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L51)
+* Source: [classes/Cart.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L51).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -539,7 +555,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L33)
+* Source: [classes/Cart.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L33).
 
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
@@ -551,7 +567,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L31)
+* Source: [classes/Cart.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L31).
 
 
 ### <a name="property-$mobile_theme"></a>$mobile_theme
@@ -563,7 +579,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L63)
+* Source: [classes/Cart.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L63).
 
 
 ### <a name="property-$pictures"></a>$pictures
@@ -575,7 +591,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L78)
+* Source: [classes/Cart.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L78).
 
 
 ### <a name="property-$recyclable"></a>$recyclable
@@ -587,7 +603,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L54)
+* Source: [classes/Cart.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L54).
 
 
 ### <a name="property-$secure_key"></a>$secure_key
@@ -599,7 +615,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L69)
+* Source: [classes/Cart.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L69).
 
 
 ### <a name="property-$textFields"></a>$textFields
@@ -611,7 +627,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Cart.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L79)
+* Source: [classes/Cart.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L79).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -623,7 +639,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cart.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L127)
+* Source: [classes/Cart.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L127).
 
 
 Methods

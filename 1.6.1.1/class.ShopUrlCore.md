@@ -55,7 +55,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopUrl.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L35)
+* Source: [classes/shop/ShopUrl.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L35).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -68,7 +68,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/shop/ShopUrl.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L43)
+* Source: [classes/shop/ShopUrl.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L43).
 
 
 ### <a name="property-$domain"></a>$domain
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopUrl.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L30)
+* Source: [classes/shop/ShopUrl.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L30).
 
 
 ### <a name="property-$domain_ssl"></a>$domain_ssl
@@ -92,7 +92,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopUrl.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L31)
+* Source: [classes/shop/ShopUrl.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L31).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -104,7 +104,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopUrl.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L29)
+* Source: [classes/shop/ShopUrl.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L29).
 
 
 ### <a name="property-$main"></a>$main
@@ -116,7 +116,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopUrl.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L34)
+* Source: [classes/shop/ShopUrl.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L34).
 
 
 ### <a name="property-$main_domain"></a>$main_domain
@@ -129,7 +129,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/shop/ShopUrl.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L37)
+* Source: [classes/shop/ShopUrl.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L37).
 
 
 ### <a name="property-$main_domain_ssl"></a>$main_domain_ssl
@@ -142,7 +142,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/shop/ShopUrl.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L38)
+* Source: [classes/shop/ShopUrl.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L38).
 
 
 ### <a name="property-$physical_uri"></a>$physical_uri
@@ -154,7 +154,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopUrl.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L32)
+* Source: [classes/shop/ShopUrl.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L32).
 
 
 ### <a name="property-$virtual_uri"></a>$virtual_uri
@@ -166,7 +166,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopUrl.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L33)
+* Source: [classes/shop/ShopUrl.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L33).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -178,7 +178,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/shop/ShopUrl.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L57)
+* Source: [classes/shop/ShopUrl.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L57).
 
 
 Methods

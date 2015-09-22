@@ -37,7 +37,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/BestSalesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/BestSalesController.php#L29)
+* Source: [controllers/front/BestSalesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/BestSalesController.php#L29).
 
 
 Methods

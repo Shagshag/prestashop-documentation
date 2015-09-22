@@ -42,7 +42,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/GuestTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L30)
+* Source: [controllers/front/GuestTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L30).
 
 
 ### <a name="property-$ssl"></a>$ssl
@@ -54,7 +54,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/GuestTrackingController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L29)
+* Source: [controllers/front/GuestTrackingController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L29).
 
 
 Methods

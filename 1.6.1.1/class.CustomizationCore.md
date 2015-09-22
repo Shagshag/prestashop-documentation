@@ -56,7 +56,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Customization.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L49)
+* Source: [classes/Customization.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L49).
 
 
 ### <a name="property-$id_address_delivery"></a>$id_address_delivery
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customization.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L32)
+* Source: [classes/Customization.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L32).
 
 
 ### <a name="property-$id_cart"></a>$id_cart
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customization.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L34)
+* Source: [classes/Customization.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L34).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -92,7 +92,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customization.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L36)
+* Source: [classes/Customization.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L36).
 
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
@@ -104,7 +104,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customization.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L30)
+* Source: [classes/Customization.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L30).
 
 
 ### <a name="property-$in_cart"></a>$in_cart
@@ -116,7 +116,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customization.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L44)
+* Source: [classes/Customization.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L44).
 
 
 ### <a name="property-$quantity"></a>$quantity
@@ -128,7 +128,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customization.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L38)
+* Source: [classes/Customization.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L38).
 
 
 ### <a name="property-$quantity_refunded"></a>$quantity_refunded
@@ -140,7 +140,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customization.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L40)
+* Source: [classes/Customization.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L40).
 
 
 ### <a name="property-$quantity_returned"></a>$quantity_returned
@@ -152,7 +152,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customization.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L42)
+* Source: [classes/Customization.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L42).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -164,7 +164,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Customization.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L64)
+* Source: [classes/Customization.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L64).
 
 
 Methods

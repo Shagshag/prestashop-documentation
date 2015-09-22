@@ -38,7 +38,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/PasswordController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PasswordController.php#L30)
+* Source: [controllers/front/PasswordController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PasswordController.php#L30).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -50,7 +50,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/PasswordController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PasswordController.php#L29)
+* Source: [controllers/front/PasswordController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PasswordController.php#L29).
 
 
 Methods

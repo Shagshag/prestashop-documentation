@@ -48,7 +48,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderHistory.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L39)
+* Source: [classes/order/OrderHistory.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L39).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -60,7 +60,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderHistory.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L42)
+* Source: [classes/order/OrderHistory.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L42).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -73,7 +73,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/order/OrderHistory.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L47)
+* Source: [classes/order/OrderHistory.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L47).
 
 
 ### <a name="property-$id_employee"></a>$id_employee
@@ -85,7 +85,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderHistory.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L36)
+* Source: [classes/order/OrderHistory.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L36).
 
 
 ### <a name="property-$id_order"></a>$id_order
@@ -97,7 +97,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderHistory.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L30)
+* Source: [classes/order/OrderHistory.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L30).
 
 
 ### <a name="property-$id_order_state"></a>$id_order_state
@@ -109,7 +109,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderHistory.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L33)
+* Source: [classes/order/OrderHistory.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L33).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -121,7 +121,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderHistory.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L61)
+* Source: [classes/order/OrderHistory.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L61).
 
 
 Methods

@@ -128,7 +128,9 @@ Constants
 
 
 
-* Source: [classes/Validate.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#L29)
+
+
+* Source: [classes/Validate.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#L29).
 
 
 ### <a name="constant-PASSWORD_LENGTH"></a>PASSWORD_LENGTH
@@ -137,7 +139,9 @@ Constants
 
 
 
-* Source: [classes/Validate.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#L30)
+
+
+* Source: [classes/Validate.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#L30).
 
 
 

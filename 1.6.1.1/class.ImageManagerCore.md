@@ -44,7 +44,9 @@ Constants
 
 
 
-* Source: [classes/ImageManager.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageManager.php#L34)
+
+
+* Source: [classes/ImageManager.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageManager.php#L34).
 
 
 ### <a name="constant-ERROR_FILE_WIDTH"></a>ERROR_FILE_WIDTH
@@ -53,7 +55,9 @@ Constants
 
 
 
-* Source: [classes/ImageManager.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageManager.php#L35)
+
+
+* Source: [classes/ImageManager.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageManager.php#L35).
 
 
 ### <a name="constant-ERROR_MEMORY_LIMIT"></a>ERROR_MEMORY_LIMIT
@@ -62,7 +66,9 @@ Constants
 
 
 
-* Source: [classes/ImageManager.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageManager.php#L36)
+
+
+* Source: [classes/ImageManager.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageManager.php#L36).
 
 
 

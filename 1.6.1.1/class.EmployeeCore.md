@@ -88,7 +88,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L82)
+* Source: [classes/Employee.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L82).
 
 
 ### <a name="property-$associated_shops"></a>$associated_shops
@@ -100,7 +100,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Employee.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L140)
+* Source: [classes/Employee.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L140).
 
 
 ### <a name="property-$bo_color"></a>$bo_color
@@ -112,7 +112,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L62)
+* Source: [classes/Employee.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L62).
 
 
 ### <a name="property-$bo_css"></a>$bo_css
@@ -124,7 +124,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L70)
+* Source: [classes/Employee.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L70).
 
 
 ### <a name="property-$bo_menu"></a>$bo_menu
@@ -136,7 +136,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L76)
+* Source: [classes/Employee.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L76).
 
 
 ### <a name="property-$bo_show_screencast"></a>$bo_show_screencast
@@ -148,7 +148,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L79)
+* Source: [classes/Employee.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L79).
 
 
 ### <a name="property-$bo_theme"></a>$bo_theme
@@ -160,7 +160,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L67)
+* Source: [classes/Employee.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L67).
 
 
 ### <a name="property-$bo_width"></a>$bo_width
@@ -172,7 +172,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L73)
+* Source: [classes/Employee.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L73).
 
 
 ### <a name="property-$default_tab"></a>$default_tab
@@ -184,7 +184,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L64)
+* Source: [classes/Employee.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L64).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -197,7 +197,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Employee.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L97)
+* Source: [classes/Employee.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L97).
 
 
 ### <a name="property-$email"></a>$email
@@ -209,7 +209,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L44)
+* Source: [classes/Employee.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L44).
 
 
 ### <a name="property-$firstname"></a>$firstname
@@ -221,7 +221,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L41)
+* Source: [classes/Employee.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L41).
 
 
 ### <a name="property-$id"></a>$id
@@ -233,7 +233,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L29)
+* Source: [classes/Employee.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L29).
 
 
 ### <a name="property-$id_lang"></a>$id_lang
@@ -245,7 +245,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L35)
+* Source: [classes/Employee.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L35).
 
 
 ### <a name="property-$id_last_customer"></a>$id_last_customer
@@ -257,7 +257,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L92)
+* Source: [classes/Employee.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L92).
 
 
 ### <a name="property-$id_last_customer_message"></a>$id_last_customer_message
@@ -269,7 +269,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L91)
+* Source: [classes/Employee.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L91).
 
 
 ### <a name="property-$id_last_order"></a>$id_last_order
@@ -281,7 +281,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L90)
+* Source: [classes/Employee.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L90).
 
 
 ### <a name="property-$id_profile"></a>$id_profile
@@ -293,7 +293,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L32)
+* Source: [classes/Employee.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L32).
 
 
 ### <a name="property-$last_passwd_gen"></a>$last_passwd_gen
@@ -305,7 +305,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L50)
+* Source: [classes/Employee.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L50).
 
 
 ### <a name="property-$lastname"></a>$lastname
@@ -317,7 +317,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L38)
+* Source: [classes/Employee.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L38).
 
 
 ### <a name="property-$optin"></a>$optin
@@ -329,7 +329,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L85)
+* Source: [classes/Employee.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L85).
 
 
 ### <a name="property-$passwd"></a>$passwd
@@ -341,7 +341,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L47)
+* Source: [classes/Employee.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L47).
 
 
 ### <a name="property-$preselect_date_range"></a>$preselect_date_range
@@ -353,7 +353,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L59)
+* Source: [classes/Employee.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L59).
 
 
 ### <a name="property-$remote_addr"></a>$remote_addr
@@ -365,7 +365,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L87)
+* Source: [classes/Employee.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L87).
 
 
 ### <a name="property-$stats_compare_from"></a>$stats_compare_from
@@ -377,7 +377,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L55)
+* Source: [classes/Employee.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L55).
 
 
 ### <a name="property-$stats_compare_option"></a>$stats_compare_option
@@ -389,7 +389,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L57)
+* Source: [classes/Employee.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L57).
 
 
 ### <a name="property-$stats_compare_to"></a>$stats_compare_to
@@ -401,7 +401,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L56)
+* Source: [classes/Employee.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L56).
 
 
 ### <a name="property-$stats_date_from"></a>$stats_date_from
@@ -413,7 +413,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L52)
+* Source: [classes/Employee.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L52).
 
 
 ### <a name="property-$stats_date_to"></a>$stats_date_to
@@ -425,7 +425,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Employee.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L53)
+* Source: [classes/Employee.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L53).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -437,7 +437,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Employee.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L128)
+* Source: [classes/Employee.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L128).
 
 
 Methods

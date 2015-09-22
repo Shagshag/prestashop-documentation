@@ -58,7 +58,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L29)
+* Source: [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L29).
 
 
 ### <a name="property-$instances"></a>$instances
@@ -70,7 +70,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L30)
+* Source: [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L30).
 
 
 ### <a name="property-$namespaceAliases"></a>$namespaceAliases
@@ -82,7 +82,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L31)
+* Source: [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L31).
 
 
 Methods

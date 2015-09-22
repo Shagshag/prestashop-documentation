@@ -64,7 +64,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/ProductDownload.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L56)
+* Source: [classes/ProductDownload.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L56).
 
 
 ### <a name="property-$active"></a>$active
@@ -76,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductDownload.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L51)
+* Source: [classes/ProductDownload.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L51).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -88,7 +88,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductDownload.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L39)
+* Source: [classes/ProductDownload.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L39).
 
 
 ### <a name="property-$date_expiration"></a>$date_expiration
@@ -100,7 +100,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductDownload.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L42)
+* Source: [classes/ProductDownload.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L42).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -113,7 +113,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/ProductDownload.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L61)
+* Source: [classes/ProductDownload.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L61).
 
 
 ### <a name="property-$display_filename"></a>$display_filename
@@ -125,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductDownload.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L33)
+* Source: [classes/ProductDownload.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L33).
 
 
 ### <a name="property-$filename"></a>$filename
@@ -137,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductDownload.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L36)
+* Source: [classes/ProductDownload.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L36).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -149,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductDownload.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L30)
+* Source: [classes/ProductDownload.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L30).
 
 
 ### <a name="property-$is_shareable"></a>$is_shareable
@@ -161,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductDownload.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L54)
+* Source: [classes/ProductDownload.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L54).
 
 
 ### <a name="property-$nb_days_accessible"></a>$nb_days_accessible
@@ -173,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductDownload.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L45)
+* Source: [classes/ProductDownload.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L45).
 
 
 ### <a name="property-$nb_downloadable"></a>$nb_downloadable
@@ -185,7 +185,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductDownload.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L48)
+* Source: [classes/ProductDownload.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L48).
 
 
 Methods

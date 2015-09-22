@@ -57,7 +57,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/GroupReduction.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#L36)
+* Source: [classes/GroupReduction.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#L36).
 
 
 ### <a name="property-$id_category"></a>$id_category
@@ -69,7 +69,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/GroupReduction.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#L30)
+* Source: [classes/GroupReduction.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#L30).
 
 
 ### <a name="property-$id_group"></a>$id_group
@@ -81,7 +81,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/GroupReduction.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#L29)
+* Source: [classes/GroupReduction.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#L29).
 
 
 ### <a name="property-$reduction"></a>$reduction
@@ -93,7 +93,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/GroupReduction.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#L31)
+* Source: [classes/GroupReduction.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#L31).
 
 
 ### <a name="property-$reduction_cache"></a>$reduction_cache
@@ -106,7 +106,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/GroupReduction.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#L46)
+* Source: [classes/GroupReduction.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#L46).
 
 
 Methods

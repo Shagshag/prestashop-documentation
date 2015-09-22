@@ -56,7 +56,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L100)
+* Source: [classes/stock/StockMvt.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L100).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L37)
+* Source: [classes/stock/StockMvt.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L37).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L118)
+* Source: [classes/stock/StockMvt.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L118).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -93,7 +93,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/stock/StockMvt.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L130)
+* Source: [classes/stock/StockMvt.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L130).
 
 
 ### <a name="property-$employee_firstname"></a>$employee_firstname
@@ -105,7 +105,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L48)
+* Source: [classes/stock/StockMvt.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L48).
 
 
 ### <a name="property-$employee_lastname"></a>$employee_lastname
@@ -117,7 +117,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L54)
+* Source: [classes/stock/StockMvt.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L54).
 
 
 ### <a name="property-$id"></a>$id
@@ -129,7 +129,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L32)
+* Source: [classes/stock/StockMvt.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L32).
 
 
 ### <a name="property-$id_employee"></a>$id_employee
@@ -141,7 +141,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L42)
+* Source: [classes/stock/StockMvt.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L42).
 
 
 ### <a name="property-$id_order"></a>$id_order
@@ -153,7 +153,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L76)
+* Source: [classes/stock/StockMvt.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L76).
 
 
 ### <a name="property-$id_stock"></a>$id_stock
@@ -165,7 +165,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L60)
+* Source: [classes/stock/StockMvt.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L60).
 
 
 ### <a name="property-$id_stock_mvt_reason"></a>$id_stock_mvt_reason
@@ -177,7 +177,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L71)
+* Source: [classes/stock/StockMvt.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L71).
 
 
 ### <a name="property-$id_supply_order"></a>$id_supply_order
@@ -189,7 +189,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L88)
+* Source: [classes/stock/StockMvt.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L88).
 
 
 ### <a name="property-$last_wa"></a>$last_wa
@@ -201,7 +201,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L94)
+* Source: [classes/stock/StockMvt.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L94).
 
 
 ### <a name="property-$physical_quantity"></a>$physical_quantity
@@ -213,7 +213,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L66)
+* Source: [classes/stock/StockMvt.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L66).
 
 
 ### <a name="property-$price_te"></a>$price_te
@@ -225,7 +225,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L106)
+* Source: [classes/stock/StockMvt.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L106).
 
 
 ### <a name="property-$quantity"></a>$quantity
@@ -237,7 +237,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L125)
+* Source: [classes/stock/StockMvt.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L125).
 
 
 ### <a name="property-$referer"></a>$referer
@@ -249,7 +249,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L112)
+* Source: [classes/stock/StockMvt.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L112).
 
 
 ### <a name="property-$sign"></a>$sign
@@ -261,7 +261,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvt.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L82)
+* Source: [classes/stock/StockMvt.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L82).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -273,7 +273,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvt.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L151)
+* Source: [classes/stock/StockMvt.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L151).
 
 
 Methods

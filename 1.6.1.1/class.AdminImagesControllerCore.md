@@ -52,7 +52,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminImagesController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#L34)
+* Source: [controllers/admin/AdminImagesController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#L34).
 
 
 ### <a name="property-$max_execution_time"></a>$max_execution_time
@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminImagesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#L33)
+* Source: [controllers/admin/AdminImagesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#L33).
 
 
 ### <a name="property-$object"></a>$object
@@ -76,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminImagesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#L30)
+* Source: [controllers/admin/AdminImagesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#L30).
 
 
 ### <a name="property-$start_time"></a>$start_time
@@ -88,7 +88,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminImagesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#L32)
+* Source: [controllers/admin/AdminImagesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#L32).
 
 
 Methods

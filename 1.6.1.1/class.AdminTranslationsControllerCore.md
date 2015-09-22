@@ -108,9 +108,11 @@ Constants
 
     const DEFAULT_THEME_NAME = _PS_DEFAULT_THEME_NAME_
 
+Name of theme by default
 
 
-* Source: [controllers/admin/AdminTranslationsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L30)
+
+* Source: [controllers/admin/AdminTranslationsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L30).
 
 
 ### <a name="constant-TEXTAREA_SIZED"></a>TEXTAREA_SIZED
@@ -119,7 +121,9 @@ Constants
 
 
 
-* Source: [controllers/admin/AdminTranslationsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L31)
+
+
+* Source: [controllers/admin/AdminTranslationsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L31).
 
 
 Properties
@@ -135,7 +139,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTranslationsController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L43)
+* Source: [controllers/admin/AdminTranslationsController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L43).
 
 
 ### <a name="property-$ignore_folder"></a>$ignore_folder
@@ -148,7 +152,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [controllers/admin/AdminTranslationsController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L49)
+* Source: [controllers/admin/AdminTranslationsController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L49).
 
 
 ### <a name="property-$lang_selected"></a>$lang_selected
@@ -160,7 +164,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTranslationsController.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L67)
+* Source: [controllers/admin/AdminTranslationsController.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L67).
 
 
 ### <a name="property-$languages"></a>$languages
@@ -172,7 +176,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTranslationsController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L55)
+* Source: [controllers/admin/AdminTranslationsController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L55).
 
 
 ### <a name="property-$link_lang_pack"></a>$link_lang_pack
@@ -184,7 +188,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTranslationsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L34)
+* Source: [controllers/admin/AdminTranslationsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L34).
 
 
 ### <a name="property-$missing_translations"></a>$missing_translations
@@ -196,7 +200,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTranslationsController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L40)
+* Source: [controllers/admin/AdminTranslationsController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L40).
 
 
 ### <a name="property-$modules_translations"></a>$modules_translations
@@ -208,7 +212,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTranslationsController.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L46)
+* Source: [controllers/admin/AdminTranslationsController.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L46).
 
 
 ### <a name="property-$post_limit_exceed"></a>$post_limit_exceed
@@ -220,7 +224,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTranslationsController.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L70)
+* Source: [controllers/admin/AdminTranslationsController.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L70).
 
 
 ### <a name="property-$theme_selected"></a>$theme_selected
@@ -232,7 +236,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTranslationsController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L61)
+* Source: [controllers/admin/AdminTranslationsController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L61).
 
 
 ### <a name="property-$themes"></a>$themes
@@ -244,7 +248,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTranslationsController.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L58)
+* Source: [controllers/admin/AdminTranslationsController.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L58).
 
 
 ### <a name="property-$total_expression"></a>$total_expression
@@ -256,7 +260,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTranslationsController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L37)
+* Source: [controllers/admin/AdminTranslationsController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L37).
 
 
 ### <a name="property-$translations_informations"></a>$translations_informations
@@ -268,7 +272,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTranslationsController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L52)
+* Source: [controllers/admin/AdminTranslationsController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L52).
 
 
 ### <a name="property-$type_selected"></a>$type_selected
@@ -280,7 +284,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTranslationsController.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L64)
+* Source: [controllers/admin/AdminTranslationsController.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L64).
 
 
 Methods

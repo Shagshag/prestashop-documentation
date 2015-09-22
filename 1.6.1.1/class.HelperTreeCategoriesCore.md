@@ -127,7 +127,9 @@ Constants
 
 
 
-* Source: [classes/helper/HelperTreeCategories.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L31)
+
+
+* Source: [classes/helper/HelperTreeCategories.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L31).
 
 
 ### <a name="constant-DEFAULT_NODE_FOLDER_TEMPLATE"></a>DEFAULT_NODE_FOLDER_TEMPLATE
@@ -136,7 +138,9 @@ Constants
 
 
 
-* Source: [classes/helper/HelperTreeCategories.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L32)
+
+
+* Source: [classes/helper/HelperTreeCategories.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L32).
 
 
 ### <a name="constant-DEFAULT_NODE_ITEM_TEMPLATE"></a>DEFAULT_NODE_ITEM_TEMPLATE
@@ -145,7 +149,9 @@ Constants
 
 
 
-* Source: [classes/helper/HelperTreeCategories.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L33)
+
+
+* Source: [classes/helper/HelperTreeCategories.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L33).
 
 
 ### <a name="constant-DEFAULT_TEMPLATE"></a>DEFAULT_TEMPLATE
@@ -154,7 +160,9 @@ Constants
 
 
 
-* Source: [classes/helper/HelperTreeCategories.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L30)
+
+
+* Source: [classes/helper/HelperTreeCategories.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L30).
 
 
 ### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
@@ -163,7 +171,9 @@ Constants
 
 
 
-* Source: [classes/helper/HelperTreeCategories.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L29)
+
+
+* Source: [classes/helper/HelperTreeCategories.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L29).
 
 
 Properties
@@ -179,7 +189,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/helper/HelperTreeCategories.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L35)
+* Source: [classes/helper/HelperTreeCategories.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L35).
 
 
 ### <a name="property-$_children_only"></a>$_children_only
@@ -191,7 +201,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L43)
+* Source: [classes/helper/HelperTreeCategories.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L43).
 
 
 ### <a name="property-$_context"></a>$_context
@@ -203,7 +213,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L36)
+* Source: [classes/helper/HelperTreeCategories.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L36).
 
 
 ### <a name="property-$_data"></a>$_data
@@ -215,7 +225,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/helper/HelperTreeCategories.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L37)
+* Source: [classes/helper/HelperTreeCategories.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L37).
 
 
 ### <a name="property-$_data_search"></a>$_data_search
@@ -227,7 +237,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/helper/HelperTreeCategories.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L38)
+* Source: [classes/helper/HelperTreeCategories.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L38).
 
 
 ### <a name="property-$_disabled_categories"></a>$_disabled_categories
@@ -239,7 +249,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L33)
+* Source: [classes/helper/HelperTreeCategories.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L33).
 
 
 ### <a name="property-$_full_tree"></a>$_full_tree
@@ -251,7 +261,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L38)
+* Source: [classes/helper/HelperTreeCategories.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L38).
 
 
 ### <a name="property-$_headerTemplate"></a>$_headerTemplate
@@ -263,7 +273,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/helper/HelperTreeCategories.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L39)
+* Source: [classes/helper/HelperTreeCategories.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L39).
 
 
 ### <a name="property-$_id"></a>$_id
@@ -275,7 +285,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L41)
+* Source: [classes/helper/HelperTreeCategories.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L41).
 
 
 ### <a name="property-$_id_tree"></a>$_id_tree
@@ -287,7 +297,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/helper/HelperTreeCategories.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L40)
+* Source: [classes/helper/HelperTreeCategories.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L40).
 
 
 ### <a name="property-$_input_name"></a>$_input_name
@@ -299,7 +309,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L34)
+* Source: [classes/helper/HelperTreeCategories.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L34).
 
 
 ### <a name="property-$_lang"></a>$_lang
@@ -311,7 +321,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L35)
+* Source: [classes/helper/HelperTreeCategories.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L35).
 
 
 ### <a name="property-$_no_js"></a>$_no_js
@@ -323,7 +333,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L49)
+* Source: [classes/helper/HelperTreeCategories.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L49).
 
 
 ### <a name="property-$_node_folder_template"></a>$_node_folder_template
@@ -335,7 +345,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/helper/HelperTreeCategories.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L42)
+* Source: [classes/helper/HelperTreeCategories.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L42).
 
 
 ### <a name="property-$_node_item_template"></a>$_node_item_template
@@ -347,7 +357,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/helper/HelperTreeCategories.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L43)
+* Source: [classes/helper/HelperTreeCategories.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L43).
 
 
 ### <a name="property-$_root_category"></a>$_root_category
@@ -359,7 +369,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L36)
+* Source: [classes/helper/HelperTreeCategories.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L36).
 
 
 ### <a name="property-$_selected_categories"></a>$_selected_categories
@@ -371,7 +381,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L37)
+* Source: [classes/helper/HelperTreeCategories.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L37).
 
 
 ### <a name="property-$_shop"></a>$_shop
@@ -383,7 +393,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L39)
+* Source: [classes/helper/HelperTreeCategories.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L39).
 
 
 ### <a name="property-$_template"></a>$_template
@@ -395,7 +405,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/helper/HelperTreeCategories.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L44)
+* Source: [classes/helper/HelperTreeCategories.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L44).
 
 
 ### <a name="property-$_template_directory"></a>$_template_directory
@@ -407,7 +417,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L47)
+* Source: [classes/helper/HelperTreeCategories.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L47).
 
 
 ### <a name="property-$_title"></a>$_title
@@ -419,7 +429,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L48)
+* Source: [classes/helper/HelperTreeCategories.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L48).
 
 
 ### <a name="property-$_toolbar"></a>$_toolbar
@@ -431,7 +441,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L52)
+* Source: [classes/helper/HelperTreeCategories.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L52).
 
 
 ### <a name="property-$_use_checkbox"></a>$_use_checkbox
@@ -443,7 +453,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L40)
+* Source: [classes/helper/HelperTreeCategories.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L40).
 
 
 ### <a name="property-$_use_search"></a>$_use_search
@@ -455,7 +465,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L41)
+* Source: [classes/helper/HelperTreeCategories.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L41).
 
 
 ### <a name="property-$_use_shop_restriction"></a>$_use_shop_restriction
@@ -467,7 +477,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperTreeCategories.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L42)
+* Source: [classes/helper/HelperTreeCategories.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L42).
 
 
 Methods

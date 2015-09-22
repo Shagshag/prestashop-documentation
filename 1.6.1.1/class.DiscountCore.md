@@ -45,8 +45,10 @@ Constants
 
 
 
+
+
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* Source: [classes/Discount.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L33)
+* Source: [classes/Discount.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L33).
 
 
 ### <a name="constant-FREE_SHIPPING"></a>FREE_SHIPPING
@@ -55,8 +57,10 @@ Constants
 
 
 
+
+
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* Source: [classes/Discount.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L34)
+* Source: [classes/Discount.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L34).
 
 
 ### <a name="constant-PERCENT"></a>PERCENT
@@ -65,8 +69,10 @@ Constants
 
 
 
+
+
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* Source: [classes/Discount.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L32)
+* Source: [classes/Discount.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L32).
 
 
 

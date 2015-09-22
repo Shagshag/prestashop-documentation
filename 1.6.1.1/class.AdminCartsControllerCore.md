@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminCartsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L30)
+* Source: [controllers/admin/AdminCartsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L30).
 
 
 Methods

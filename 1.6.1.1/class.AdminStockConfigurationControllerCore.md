@@ -49,7 +49,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminStockConfigurationController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L31)
+* Source: [controllers/admin/AdminStockConfigurationController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L31).
 
 
 Methods

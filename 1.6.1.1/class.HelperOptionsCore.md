@@ -41,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperOptions.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#L32)
+* Source: [classes/helper/HelperOptions.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#L32).
 
 
 Methods

@@ -41,7 +41,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/QuickAccess.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L41)
+* Source: [classes/QuickAccess.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L41).
 
 
 ### <a name="property-$link"></a>$link
@@ -53,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/QuickAccess.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L33)
+* Source: [classes/QuickAccess.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L33).
 
 
 ### <a name="property-$name"></a>$name
@@ -65,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/QuickAccess.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L30)
+* Source: [classes/QuickAccess.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L30).
 
 
 ### <a name="property-$new_window"></a>$new_window
@@ -77,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/QuickAccess.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L36)
+* Source: [classes/QuickAccess.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L36).
 
 
 Methods

@@ -39,7 +39,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/FileUploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L29)
+* Source: [classes/FileUploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L29).
 
 
 ### <a name="property-$file"></a>$file
@@ -51,7 +51,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/FileUploader.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L32)
+* Source: [classes/FileUploader.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L32).
 
 
 ### <a name="property-$sizeLimit"></a>$sizeLimit
@@ -63,7 +63,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/FileUploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L33)
+* Source: [classes/FileUploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L33).
 
 
 Methods

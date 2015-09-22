@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminMetaController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L33)
+* Source: [controllers/admin/AdminMetaController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L33).
 
 
 ### <a name="property-$lang"></a>$lang
@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminMetaController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L34)
+* Source: [controllers/admin/AdminMetaController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L34).
 
 
 ### <a name="property-$object"></a>$object
@@ -90,7 +90,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminMetaController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L30)
+* Source: [controllers/admin/AdminMetaController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L30).
 
 
 ### <a name="property-$table"></a>$table
@@ -102,7 +102,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminMetaController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L32)
+* Source: [controllers/admin/AdminMetaController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L32).
 
 
 ### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
@@ -114,7 +114,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminMetaController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L38)
+* Source: [controllers/admin/AdminMetaController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L38).
 
 
 ### <a name="property-$url"></a>$url
@@ -126,7 +126,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminMetaController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L37)
+* Source: [controllers/admin/AdminMetaController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L37).
 
 
 Methods

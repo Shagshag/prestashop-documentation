@@ -39,7 +39,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/CustomizationField.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L41)
+* Source: [classes/CustomizationField.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L41).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -51,7 +51,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomizationField.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L30)
+* Source: [classes/CustomizationField.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L30).
 
 
 ### <a name="property-$name"></a>$name
@@ -63,7 +63,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomizationField.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L36)
+* Source: [classes/CustomizationField.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L36).
 
 
 ### <a name="property-$required"></a>$required
@@ -75,7 +75,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomizationField.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L34)
+* Source: [classes/CustomizationField.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L34).
 
 
 ### <a name="property-$type"></a>$type
@@ -87,7 +87,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomizationField.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L32)
+* Source: [classes/CustomizationField.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L32).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -99,7 +99,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/CustomizationField.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L56)
+* Source: [classes/CustomizationField.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L56).
 
 
 

@@ -49,7 +49,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/PrestaShopBackup.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L34)
+* Source: [classes/PrestaShopBackup.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L34).
 
 
 ### <a name="property-$customBackupDir"></a>$customBackupDir
@@ -61,7 +61,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopBackup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L36)
+* Source: [classes/PrestaShopBackup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L36).
 
 
 ### <a name="property-$error"></a>$error
@@ -73,7 +73,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopBackup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L32)
+* Source: [classes/PrestaShopBackup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L32).
 
 
 ### <a name="property-$id"></a>$id
@@ -85,7 +85,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopBackup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L30)
+* Source: [classes/PrestaShopBackup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L30).
 
 
 ### <a name="property-$psBackupAll"></a>$psBackupAll
@@ -97,7 +97,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopBackup.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L38)
+* Source: [classes/PrestaShopBackup.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L38).
 
 
 ### <a name="property-$psBackupDropTable"></a>$psBackupDropTable
@@ -109,7 +109,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopBackup.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L39)
+* Source: [classes/PrestaShopBackup.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L39).
 
 
 Methods

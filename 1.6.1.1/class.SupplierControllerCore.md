@@ -43,7 +43,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/SupplierController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#L29)
+* Source: [controllers/front/SupplierController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#L29).
 
 
 ### <a name="property-$supplier"></a>$supplier
@@ -55,7 +55,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/SupplierController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#L32)
+* Source: [controllers/front/SupplierController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#L32).
 
 
 Methods

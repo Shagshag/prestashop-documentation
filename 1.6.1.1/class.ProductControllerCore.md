@@ -53,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/ProductController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L35)
+* Source: [controllers/front/ProductController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L35).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -65,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/ProductController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L29)
+* Source: [controllers/front/ProductController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L29).
 
 
 ### <a name="property-$product"></a>$product
@@ -77,7 +77,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/ProductController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L32)
+* Source: [controllers/front/ProductController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L32).
 
 
 Methods

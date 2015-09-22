@@ -53,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminTaxRulesGroupController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L35)
+* Source: [controllers/admin/AdminTaxRulesGroupController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L35).
 
 
 ### <a name="property-$object"></a>$object
@@ -65,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminTaxRulesGroupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L30)
+* Source: [controllers/admin/AdminTaxRulesGroupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L30).
 
 
 ### <a name="property-$selected_countries"></a>$selected_countries
@@ -77,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminTaxRulesGroupController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L33)
+* Source: [controllers/admin/AdminTaxRulesGroupController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L33).
 
 
 ### <a name="property-$selected_states"></a>$selected_states
@@ -89,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminTaxRulesGroupController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L34)
+* Source: [controllers/admin/AdminTaxRulesGroupController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L34).
 
 
 ### <a name="property-$tax_rule"></a>$tax_rule
@@ -101,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminTaxRulesGroupController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L32)
+* Source: [controllers/admin/AdminTaxRulesGroupController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L32).
 
 
 Methods

@@ -47,7 +47,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Connection.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L48)
+* Source: [classes/Connection.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L48).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -60,7 +60,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Connection.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L53)
+* Source: [classes/Connection.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L53).
 
 
 ### <a name="property-$http_referer"></a>$http_referer
@@ -72,7 +72,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Connection.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L39)
+* Source: [classes/Connection.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L39).
 
 
 ### <a name="property-$id_guest"></a>$id_guest
@@ -84,7 +84,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Connection.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L30)
+* Source: [classes/Connection.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L30).
 
 
 ### <a name="property-$id_page"></a>$id_page
@@ -96,7 +96,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Connection.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L33)
+* Source: [classes/Connection.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L33).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -108,7 +108,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Connection.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L42)
+* Source: [classes/Connection.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L42).
 
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
@@ -120,7 +120,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Connection.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L45)
+* Source: [classes/Connection.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L45).
 
 
 ### <a name="property-$ip_address"></a>$ip_address
@@ -132,7 +132,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Connection.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L36)
+* Source: [classes/Connection.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L36).
 
 
 Methods

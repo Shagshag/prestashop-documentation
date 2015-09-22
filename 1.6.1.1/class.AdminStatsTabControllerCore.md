@@ -52,8 +52,8 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined by [AdminPreferencesControllerCore](class.AdminPreferencesControllerCore.md)
-* Source: [controllers/admin/AdminStatsTabController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L30)
+* This property is defined by [AdminPreferencesControllerCore](class.AdminPreferencesControllerCore.md).
+* Source: [controllers/admin/AdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPreferencesController.php#L30).
 
 
 Methods

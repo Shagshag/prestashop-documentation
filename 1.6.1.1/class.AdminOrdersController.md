@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [override/controllers/admin/AdminOrdersController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L45)
+* Source: [override/controllers/admin/AdminOrdersController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L45).
 
 
 ### <a name="property-$toolbar_title"></a>$toolbar_title
@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [override/controllers/admin/AdminOrdersController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L43)
+* Source: [override/controllers/admin/AdminOrdersController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L43).
 
 
 ### <a name="property-$object"></a>$object
@@ -90,8 +90,8 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined by [AdminOrdersControllerCore](class.AdminOrdersControllerCore.md)
-* Source: [override/controllers/admin/AdminOrdersController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L41)
+* This property is defined by [AdminOrdersControllerCore](class.AdminOrdersControllerCore.md).
+* Source: [controllers/admin/AdminOrdersController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L41).
 
 
 Methods

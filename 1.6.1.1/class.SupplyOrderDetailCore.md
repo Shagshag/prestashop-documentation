@@ -65,7 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/stock/SupplyOrderDetail.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L148)
+* Source: [classes/stock/SupplyOrderDetail.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L148).
 
 
 ### <a name="property-$discount_rate"></a>$discount_rate
@@ -77,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L107)
+* Source: [classes/stock/SupplyOrderDetail.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L107).
 
 
 ### <a name="property-$discount_value_te"></a>$discount_value_te
@@ -89,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L112)
+* Source: [classes/stock/SupplyOrderDetail.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L112).
 
 
 ### <a name="property-$ean13"></a>$ean13
@@ -101,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L66)
+* Source: [classes/stock/SupplyOrderDetail.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L66).
 
 
 ### <a name="property-$exchange_rate"></a>$exchange_rate
@@ -113,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L81)
+* Source: [classes/stock/SupplyOrderDetail.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L81).
 
 
 ### <a name="property-$id_currency"></a>$id_currency
@@ -125,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L76)
+* Source: [classes/stock/SupplyOrderDetail.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L76).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -137,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L41)
+* Source: [classes/stock/SupplyOrderDetail.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L41).
 
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
@@ -149,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L46)
+* Source: [classes/stock/SupplyOrderDetail.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L46).
 
 
 ### <a name="property-$id_supply_order"></a>$id_supply_order
@@ -161,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L36)
+* Source: [classes/stock/SupplyOrderDetail.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L36).
 
 
 ### <a name="property-$name"></a>$name
@@ -173,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L61)
+* Source: [classes/stock/SupplyOrderDetail.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L61).
 
 
 ### <a name="property-$price_te"></a>$price_te
@@ -185,7 +185,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L102)
+* Source: [classes/stock/SupplyOrderDetail.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L102).
 
 
 ### <a name="property-$price_ti"></a>$price_ti
@@ -197,7 +197,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L132)
+* Source: [classes/stock/SupplyOrderDetail.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L132).
 
 
 ### <a name="property-$price_with_discount_te"></a>$price_with_discount_te
@@ -209,7 +209,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L117)
+* Source: [classes/stock/SupplyOrderDetail.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L117).
 
 
 ### <a name="property-$price_with_order_discount_te"></a>$price_with_order_discount_te
@@ -221,7 +221,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L143)
+* Source: [classes/stock/SupplyOrderDetail.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L143).
 
 
 ### <a name="property-$quantity_expected"></a>$quantity_expected
@@ -233,7 +233,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L91)
+* Source: [classes/stock/SupplyOrderDetail.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L91).
 
 
 ### <a name="property-$quantity_received"></a>$quantity_received
@@ -245,7 +245,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L96)
+* Source: [classes/stock/SupplyOrderDetail.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L96).
 
 
 ### <a name="property-$reference"></a>$reference
@@ -257,7 +257,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L51)
+* Source: [classes/stock/SupplyOrderDetail.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L51).
 
 
 ### <a name="property-$supplier_reference"></a>$supplier_reference
@@ -269,7 +269,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L56)
+* Source: [classes/stock/SupplyOrderDetail.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L56).
 
 
 ### <a name="property-$tax_rate"></a>$tax_rate
@@ -281,7 +281,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L122)
+* Source: [classes/stock/SupplyOrderDetail.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L122).
 
 
 ### <a name="property-$tax_value"></a>$tax_value
@@ -293,7 +293,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L127)
+* Source: [classes/stock/SupplyOrderDetail.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L127).
 
 
 ### <a name="property-$tax_value_with_order_discount"></a>$tax_value_with_order_discount
@@ -305,7 +305,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L137)
+* Source: [classes/stock/SupplyOrderDetail.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L137).
 
 
 ### <a name="property-$unit_price_te"></a>$unit_price_te
@@ -317,7 +317,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L86)
+* Source: [classes/stock/SupplyOrderDetail.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L86).
 
 
 ### <a name="property-$upc"></a>$upc
@@ -329,7 +329,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderDetail.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L71)
+* Source: [classes/stock/SupplyOrderDetail.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L71).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -341,7 +341,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/SupplyOrderDetail.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L180)
+* Source: [classes/stock/SupplyOrderDetail.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L180).
 
 
 Methods

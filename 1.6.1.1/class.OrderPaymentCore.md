@@ -51,7 +51,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderPayment.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L31)
+* Source: [classes/order/OrderPayment.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L31).
 
 
 ### <a name="property-$card_brand"></a>$card_brand
@@ -63,7 +63,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderPayment.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L36)
+* Source: [classes/order/OrderPayment.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L36).
 
 
 ### <a name="property-$card_expiration"></a>$card_expiration
@@ -75,7 +75,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderPayment.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L37)
+* Source: [classes/order/OrderPayment.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L37).
 
 
 ### <a name="property-$card_holder"></a>$card_holder
@@ -87,7 +87,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderPayment.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L38)
+* Source: [classes/order/OrderPayment.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L38).
 
 
 ### <a name="property-$card_number"></a>$card_number
@@ -99,7 +99,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderPayment.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L35)
+* Source: [classes/order/OrderPayment.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L35).
 
 
 ### <a name="property-$conversion_rate"></a>$conversion_rate
@@ -111,7 +111,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderPayment.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L33)
+* Source: [classes/order/OrderPayment.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L33).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -123,7 +123,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderPayment.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L39)
+* Source: [classes/order/OrderPayment.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L39).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -136,7 +136,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/order/OrderPayment.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L44)
+* Source: [classes/order/OrderPayment.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L44).
 
 
 ### <a name="property-$id_currency"></a>$id_currency
@@ -148,7 +148,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderPayment.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L30)
+* Source: [classes/order/OrderPayment.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L30).
 
 
 ### <a name="property-$order_reference"></a>$order_reference
@@ -160,7 +160,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderPayment.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L29)
+* Source: [classes/order/OrderPayment.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L29).
 
 
 ### <a name="property-$payment_method"></a>$payment_method
@@ -172,7 +172,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderPayment.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L32)
+* Source: [classes/order/OrderPayment.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L32).
 
 
 ### <a name="property-$transaction_id"></a>$transaction_id
@@ -184,7 +184,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderPayment.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L34)
+* Source: [classes/order/OrderPayment.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L34).
 
 
 Methods

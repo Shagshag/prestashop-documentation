@@ -63,7 +63,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminOrdersController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L41)
+* Source: [controllers/admin/AdminOrdersController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L41).
 
 
 ### <a name="property-$statuses_array"></a>$statuses_array
@@ -75,7 +75,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminOrdersController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L45)
+* Source: [controllers/admin/AdminOrdersController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L45).
 
 
 ### <a name="property-$toolbar_title"></a>$toolbar_title
@@ -87,7 +87,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminOrdersController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L43)
+* Source: [controllers/admin/AdminOrdersController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L43).
 
 
 Methods

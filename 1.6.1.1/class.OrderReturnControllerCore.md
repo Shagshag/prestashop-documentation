@@ -55,7 +55,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderReturnController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L29)
+* Source: [controllers/front/OrderReturnController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L29).
 
 
 ### <a name="property-$authRedirection"></a>$authRedirection
@@ -67,7 +67,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderReturnController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L31)
+* Source: [controllers/front/OrderReturnController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L31).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -79,7 +79,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderReturnController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L30)
+* Source: [controllers/front/OrderReturnController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L30).
 
 
 ### <a name="property-$ssl"></a>$ssl
@@ -91,7 +91,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderReturnController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L32)
+* Source: [controllers/front/OrderReturnController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L32).
 
 
 Methods

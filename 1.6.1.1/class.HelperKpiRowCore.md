@@ -38,7 +38,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpiRow.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#L29)
+* Source: [classes/helper/HelperKpiRow.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#L29).
 
 
 ### <a name="property-$base_tpl"></a>$base_tpl
@@ -50,7 +50,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpiRow.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#L30)
+* Source: [classes/helper/HelperKpiRow.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#L30).
 
 
 ### <a name="property-$kpis"></a>$kpis
@@ -62,7 +62,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperKpiRow.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#L32)
+* Source: [classes/helper/HelperKpiRow.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#L32).
 
 
 Methods

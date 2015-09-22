@@ -51,7 +51,7 @@ Set a service container Instance
 
 * Visibility: **private**
 * This property is **static**.
-* Source: [Adapter/Adapter_ServiceLocator.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#L33)
+* Source: [Adapter/Adapter_ServiceLocator.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#L33).
 
 
 Methods

@@ -49,7 +49,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ImportModule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L36)
+* Source: [classes/module/ImportModule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L36).
 
 
 ### <a name="property-$database"></a>$database
@@ -61,7 +61,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/ImportModule.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L44)
+* Source: [classes/module/ImportModule.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L44).
 
 
 ### <a name="property-$passwd"></a>$passwd
@@ -73,7 +73,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/ImportModule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L42)
+* Source: [classes/module/ImportModule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L42).
 
 
 ### <a name="property-$prefix"></a>$prefix
@@ -85,7 +85,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/ImportModule.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L47)
+* Source: [classes/module/ImportModule.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L47).
 
 
 ### <a name="property-$server"></a>$server
@@ -97,7 +97,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/ImportModule.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L38)
+* Source: [classes/module/ImportModule.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L38).
 
 
 ### <a name="property-$user"></a>$user
@@ -109,7 +109,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/ImportModule.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L40)
+* Source: [classes/module/ImportModule.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L40).
 
 
 Methods

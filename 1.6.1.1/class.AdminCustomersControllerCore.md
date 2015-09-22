@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminCustomersController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L34)
+* Source: [controllers/admin/AdminCustomersController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L34).
 
 
 ### <a name="property-$_defaultOrderWay"></a>$_defaultOrderWay
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminCustomersController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L35)
+* Source: [controllers/admin/AdminCustomersController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L35).
 
 
 ### <a name="property-$can_add_customer"></a>$can_add_customer
@@ -92,7 +92,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminCustomersController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L36)
+* Source: [controllers/admin/AdminCustomersController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L36).
 
 
 ### <a name="property-$delete_mode"></a>$delete_mode
@@ -104,7 +104,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminCustomersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L32)
+* Source: [controllers/admin/AdminCustomersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L32).
 
 
 ### <a name="property-$meaning_status"></a>$meaning_status
@@ -117,7 +117,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [controllers/admin/AdminCustomersController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L37)
+* Source: [controllers/admin/AdminCustomersController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L37).
 
 
 ### <a name="property-$object"></a>$object
@@ -129,7 +129,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminCustomersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L30)
+* Source: [controllers/admin/AdminCustomersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L30).
 
 
 Methods

@@ -77,7 +77,9 @@ Constants
 
 
 
-* Source: [classes/helper/HelperUploader.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L31)
+
+
+* Source: [classes/helper/HelperUploader.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L31).
 
 
 ### <a name="constant-DEFAULT_TEMPLATE"></a>DEFAULT_TEMPLATE
@@ -86,7 +88,9 @@ Constants
 
 
 
-* Source: [classes/helper/HelperUploader.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L30)
+
+
+* Source: [classes/helper/HelperUploader.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L30).
 
 
 ### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
@@ -95,7 +99,9 @@ Constants
 
 
 
-* Source: [classes/helper/HelperUploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L29)
+
+
+* Source: [classes/helper/HelperUploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L29).
 
 
 ### <a name="constant-TYPE_FILE"></a>TYPE_FILE
@@ -104,7 +110,9 @@ Constants
 
 
 
-* Source: [classes/helper/HelperUploader.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L34)
+
+
+* Source: [classes/helper/HelperUploader.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L34).
 
 
 ### <a name="constant-TYPE_IMAGE"></a>TYPE_IMAGE
@@ -113,7 +121,9 @@ Constants
 
 
 
-* Source: [classes/helper/HelperUploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L33)
+
+
+* Source: [classes/helper/HelperUploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L33).
 
 
 Properties
@@ -129,7 +139,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperUploader.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L36)
+* Source: [classes/helper/HelperUploader.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L36).
 
 
 ### <a name="property-$_drop_zone"></a>$_drop_zone
@@ -141,7 +151,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperUploader.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L37)
+* Source: [classes/helper/HelperUploader.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L37).
 
 
 ### <a name="property-$_files"></a>$_files
@@ -153,7 +163,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperUploader.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L39)
+* Source: [classes/helper/HelperUploader.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L39).
 
 
 ### <a name="property-$_id"></a>$_id
@@ -165,7 +175,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperUploader.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L38)
+* Source: [classes/helper/HelperUploader.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L38).
 
 
 ### <a name="property-$_max_files"></a>$_max_files
@@ -177,7 +187,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperUploader.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L41)
+* Source: [classes/helper/HelperUploader.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L41).
 
 
 ### <a name="property-$_multiple"></a>$_multiple
@@ -189,7 +199,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperUploader.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L42)
+* Source: [classes/helper/HelperUploader.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L42).
 
 
 ### <a name="property-$_name"></a>$_name
@@ -201,7 +211,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperUploader.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L40)
+* Source: [classes/helper/HelperUploader.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L40).
 
 
 ### <a name="property-$_post_max_size"></a>$_post_max_size
@@ -213,7 +223,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperUploader.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L43)
+* Source: [classes/helper/HelperUploader.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L43).
 
 
 ### <a name="property-$_template"></a>$_template
@@ -225,7 +235,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/helper/HelperUploader.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L44)
+* Source: [classes/helper/HelperUploader.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L44).
 
 
 ### <a name="property-$_template_directory"></a>$_template_directory
@@ -237,7 +247,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperUploader.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L45)
+* Source: [classes/helper/HelperUploader.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L45).
 
 
 ### <a name="property-$_title"></a>$_title
@@ -249,7 +259,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperUploader.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L46)
+* Source: [classes/helper/HelperUploader.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L46).
 
 
 ### <a name="property-$_url"></a>$_url
@@ -261,7 +271,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperUploader.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L47)
+* Source: [classes/helper/HelperUploader.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L47).
 
 
 ### <a name="property-$_use_ajax"></a>$_use_ajax
@@ -273,7 +283,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperUploader.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L48)
+* Source: [classes/helper/HelperUploader.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L48).
 
 
 Methods

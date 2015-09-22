@@ -54,7 +54,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/AttributeGroup.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L41)
+* Source: [classes/AttributeGroup.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L41).
 
 
 ### <a name="property-$group_type"></a>$group_type
@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/AttributeGroup.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L33)
+* Source: [classes/AttributeGroup.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L33).
 
 
 ### <a name="property-$is_color_group"></a>$is_color_group
@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/AttributeGroup.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L31)
+* Source: [classes/AttributeGroup.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L31).
 
 
 ### <a name="property-$name"></a>$name
@@ -90,7 +90,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/AttributeGroup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L30)
+* Source: [classes/AttributeGroup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L30).
 
 
 ### <a name="property-$position"></a>$position
@@ -102,7 +102,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/AttributeGroup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L32)
+* Source: [classes/AttributeGroup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L32).
 
 
 ### <a name="property-$public_name"></a>$public_name
@@ -114,7 +114,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/AttributeGroup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L36)
+* Source: [classes/AttributeGroup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L36).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -126,7 +126,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/AttributeGroup.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L57)
+* Source: [classes/AttributeGroup.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L57).
 
 
 Methods

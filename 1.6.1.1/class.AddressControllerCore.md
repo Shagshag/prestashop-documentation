@@ -50,7 +50,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/AddressController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L38)
+* Source: [controllers/front/AddressController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L38).
 
 
 ### <a name="property-$auth"></a>$auth
@@ -62,7 +62,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/AddressController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L29)
+* Source: [controllers/front/AddressController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L29).
 
 
 ### <a name="property-$authRedirection"></a>$authRedirection
@@ -74,7 +74,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/AddressController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L32)
+* Source: [controllers/front/AddressController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L32).
 
 
 ### <a name="property-$guestAllowed"></a>$guestAllowed
@@ -86,7 +86,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/AddressController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L30)
+* Source: [controllers/front/AddressController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L30).
 
 
 ### <a name="property-$id_country"></a>$id_country
@@ -98,7 +98,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/AddressController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L39)
+* Source: [controllers/front/AddressController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L39).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -110,7 +110,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/AddressController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L31)
+* Source: [controllers/front/AddressController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L31).
 
 
 ### <a name="property-$ssl"></a>$ssl
@@ -122,7 +122,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/AddressController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L33)
+* Source: [controllers/front/AddressController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L33).
 
 
 Methods

@@ -51,7 +51,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Business/Email/Core_Business_Email_EmailLister.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Email/Core_Business_Email_EmailLister.php#L29)
+* Source: [Core/Business/Email/Core_Business_Email_EmailLister.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Email/Core_Business_Email_EmailLister.php#L29).
 
 
 Methods

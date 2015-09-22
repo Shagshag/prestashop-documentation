@@ -106,7 +106,9 @@ Constants
 
 
 
-* Source: [classes/shop/Shop.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L113)
+
+
+* Source: [classes/shop/Shop.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L113).
 
 
 ### <a name="constant-CONTEXT_GROUP"></a>CONTEXT_GROUP
@@ -115,25 +117,31 @@ Constants
 
 
 
-* Source: [classes/shop/Shop.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L112)
+
+
+* Source: [classes/shop/Shop.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L112).
 
 
 ### <a name="constant-CONTEXT_SHOP"></a>CONTEXT_SHOP
 
     const CONTEXT_SHOP = 1
 
+There are 3 kinds of shop context : shop, group shop and general
 
 
-* Source: [classes/shop/Shop.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L111)
+
+* Source: [classes/shop/Shop.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L111).
 
 
 ### <a name="constant-SHARE_CUSTOMER"></a>SHARE_CUSTOMER
 
     const SHARE_CUSTOMER = 'share_customer'
 
+Some data can be shared between shops, like customers or orders
 
 
-* Source: [classes/shop/Shop.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L118)
+
+* Source: [classes/shop/Shop.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L118).
 
 
 ### <a name="constant-SHARE_ORDER"></a>SHARE_ORDER
@@ -142,7 +150,9 @@ Constants
 
 
 
-* Source: [classes/shop/Shop.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L119)
+
+
+* Source: [classes/shop/Shop.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L119).
 
 
 ### <a name="constant-SHARE_STOCK"></a>SHARE_STOCK
@@ -151,7 +161,9 @@ Constants
 
 
 
-* Source: [classes/shop/Shop.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L120)
+
+
+* Source: [classes/shop/Shop.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L120).
 
 
 Properties
@@ -167,7 +179,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/Shop.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L44)
+* Source: [classes/shop/Shop.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L44).
 
 
 ### <a name="property-$asso_tables"></a>$asso_tables
@@ -180,7 +192,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/shop/Shop.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L87)
+* Source: [classes/shop/Shop.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L87).
 
 
 ### <a name="property-$context"></a>$context
@@ -193,7 +205,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/shop/Shop.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L100)
+* Source: [classes/shop/Shop.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L100).
 
 
 ### <a name="property-$context_id_shop"></a>$context_id_shop
@@ -206,7 +218,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/shop/Shop.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L103)
+* Source: [classes/shop/Shop.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L103).
 
 
 ### <a name="property-$context_id_shop_group"></a>$context_id_shop_group
@@ -219,7 +231,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/shop/Shop.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L106)
+* Source: [classes/shop/Shop.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L106).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -232,7 +244,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/shop/Shop.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L71)
+* Source: [classes/shop/Shop.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L71).
 
 
 ### <a name="property-$deleted"></a>$deleted
@@ -244,7 +256,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/Shop.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L45)
+* Source: [classes/shop/Shop.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L45).
 
 
 ### <a name="property-$domain"></a>$domain
@@ -256,7 +268,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/Shop.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L60)
+* Source: [classes/shop/Shop.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L60).
 
 
 ### <a name="property-$domain_ssl"></a>$domain_ssl
@@ -268,7 +280,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/Shop.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L63)
+* Source: [classes/shop/Shop.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L63).
 
 
 ### <a name="property-$group"></a>$group
@@ -280,7 +292,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/shop/Shop.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L66)
+* Source: [classes/shop/Shop.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L66).
 
 
 ### <a name="property-$id_category"></a>$id_category
@@ -292,7 +304,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/Shop.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L36)
+* Source: [classes/shop/Shop.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L36).
 
 
 ### <a name="property-$id_shop_default_tables"></a>$id_shop_default_tables
@@ -305,7 +317,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/shop/Shop.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L88)
+* Source: [classes/shop/Shop.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L88).
 
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
@@ -317,7 +329,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/Shop.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L33)
+* Source: [classes/shop/Shop.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L33).
 
 
 ### <a name="property-$id_theme"></a>$id_theme
@@ -329,7 +341,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/Shop.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L39)
+* Source: [classes/shop/Shop.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L39).
 
 
 ### <a name="property-$initialized"></a>$initialized
@@ -342,7 +354,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/shop/Shop.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L89)
+* Source: [classes/shop/Shop.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L89).
 
 
 ### <a name="property-$name"></a>$name
@@ -354,7 +366,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/Shop.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L42)
+* Source: [classes/shop/Shop.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L42).
 
 
 ### <a name="property-$physical_uri"></a>$physical_uri
@@ -366,7 +378,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/Shop.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L54)
+* Source: [classes/shop/Shop.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L54).
 
 
 ### <a name="property-$shops"></a>$shops
@@ -379,7 +391,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/shop/Shop.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L85)
+* Source: [classes/shop/Shop.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L85).
 
 
 ### <a name="property-$theme_directory"></a>$theme_directory
@@ -391,7 +403,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/Shop.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L51)
+* Source: [classes/shop/Shop.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L51).
 
 
 ### <a name="property-$theme_name"></a>$theme_name
@@ -403,7 +415,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/Shop.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L48)
+* Source: [classes/shop/Shop.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L48).
 
 
 ### <a name="property-$virtual_uri"></a>$virtual_uri
@@ -415,7 +427,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/Shop.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L57)
+* Source: [classes/shop/Shop.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L57).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -427,7 +439,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/shop/Shop.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L91)
+* Source: [classes/shop/Shop.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L91).
 
 
 Methods

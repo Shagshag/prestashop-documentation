@@ -42,7 +42,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Page.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L37)
+* Source: [classes/Page.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L37).
 
 
 ### <a name="property-$id_object"></a>$id_object
@@ -54,7 +54,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Page.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L30)
+* Source: [classes/Page.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L30).
 
 
 ### <a name="property-$id_page_type"></a>$id_page_type
@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Page.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L29)
+* Source: [classes/Page.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L29).
 
 
 ### <a name="property-$name"></a>$name
@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Page.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L32)
+* Source: [classes/Page.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L32).
 
 
 Methods

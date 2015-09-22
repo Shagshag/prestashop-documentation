@@ -111,7 +111,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderDetail.php line 248](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L248)
+* Source: [classes/order/OrderDetail.php line 248](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L248).
 
 
 ### <a name="property-$customer"></a>$customer
@@ -123,7 +123,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderDetail.php line 245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L245)
+* Source: [classes/order/OrderDetail.php line 245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L245).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -136,7 +136,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/order/OrderDetail.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L164)
+* Source: [classes/order/OrderDetail.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L164).
 
 
 ### <a name="property-$discount_quantity_applied"></a>$discount_quantity_applied
@@ -148,7 +148,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L123)
+* Source: [classes/order/OrderDetail.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L123).
 
 
 ### <a name="property-$download_deadline"></a>$download_deadline
@@ -160,7 +160,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L132)
+* Source: [classes/order/OrderDetail.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L132).
 
 
 ### <a name="property-$download_hash"></a>$download_hash
@@ -172,7 +172,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L126)
+* Source: [classes/order/OrderDetail.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L126).
 
 
 ### <a name="property-$download_nb"></a>$download_nb
@@ -184,7 +184,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L129)
+* Source: [classes/order/OrderDetail.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L129).
 
 
 ### <a name="property-$ecotax"></a>$ecotax
@@ -196,7 +196,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L117)
+* Source: [classes/order/OrderDetail.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L117).
 
 
 ### <a name="property-$ecotax_tax_rate"></a>$ecotax_tax_rate
@@ -208,7 +208,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L120)
+* Source: [classes/order/OrderDetail.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L120).
 
 
 ### <a name="property-$group_reduction"></a>$group_reduction
@@ -220,7 +220,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L96)
+* Source: [classes/order/OrderDetail.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L96).
 
 
 ### <a name="property-$id_order"></a>$id_order
@@ -232,7 +232,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L33)
+* Source: [classes/order/OrderDetail.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L33).
 
 
 ### <a name="property-$id_order_detail"></a>$id_order_detail
@@ -244,7 +244,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L30)
+* Source: [classes/order/OrderDetail.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L30).
 
 
 ### <a name="property-$id_order_invoice"></a>$id_order_invoice
@@ -256,7 +256,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L36)
+* Source: [classes/order/OrderDetail.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L36).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -268,7 +268,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L42)
+* Source: [classes/order/OrderDetail.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L42).
 
 
 ### <a name="property-$id_tax_rules_group"></a>$id_tax_rules_group
@@ -280,7 +280,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L144)
+* Source: [classes/order/OrderDetail.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L144).
 
 
 ### <a name="property-$id_warehouse"></a>$id_warehouse
@@ -292,7 +292,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L147)
+* Source: [classes/order/OrderDetail.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L147).
 
 
 ### <a name="property-$original_product_price"></a>$original_product_price
@@ -304,7 +304,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L69)
+* Source: [classes/order/OrderDetail.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L69).
 
 
 ### <a name="property-$original_wholesale_price"></a>$original_wholesale_price
@@ -316,7 +316,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L159)
+* Source: [classes/order/OrderDetail.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L159).
 
 
 ### <a name="property-$outOfStock"></a>$outOfStock
@@ -328,7 +328,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderDetail.php line 233](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L233)
+* Source: [classes/order/OrderDetail.php line 233](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L233).
 
 
 ### <a name="property-$product_attribute_id"></a>$product_attribute_id
@@ -340,7 +340,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L45)
+* Source: [classes/order/OrderDetail.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L45).
 
 
 ### <a name="property-$product_ean13"></a>$product_ean13
@@ -352,7 +352,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L102)
+* Source: [classes/order/OrderDetail.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L102).
 
 
 ### <a name="property-$product_id"></a>$product_id
@@ -364,7 +364,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L39)
+* Source: [classes/order/OrderDetail.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L39).
 
 
 ### <a name="property-$product_name"></a>$product_name
@@ -376,7 +376,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L48)
+* Source: [classes/order/OrderDetail.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L48).
 
 
 ### <a name="property-$product_price"></a>$product_price
@@ -388,7 +388,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L66)
+* Source: [classes/order/OrderDetail.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L66).
 
 
 ### <a name="property-$product_quantity"></a>$product_quantity
@@ -400,7 +400,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L51)
+* Source: [classes/order/OrderDetail.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L51).
 
 
 ### <a name="property-$product_quantity_discount"></a>$product_quantity_discount
@@ -412,7 +412,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L99)
+* Source: [classes/order/OrderDetail.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L99).
 
 
 ### <a name="property-$product_quantity_in_stock"></a>$product_quantity_in_stock
@@ -424,7 +424,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L54)
+* Source: [classes/order/OrderDetail.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L54).
 
 
 ### <a name="property-$product_quantity_refunded"></a>$product_quantity_refunded
@@ -436,7 +436,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L60)
+* Source: [classes/order/OrderDetail.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L60).
 
 
 ### <a name="property-$product_quantity_reinjected"></a>$product_quantity_reinjected
@@ -448,7 +448,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L63)
+* Source: [classes/order/OrderDetail.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L63).
 
 
 ### <a name="property-$product_quantity_return"></a>$product_quantity_return
@@ -460,7 +460,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L57)
+* Source: [classes/order/OrderDetail.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L57).
 
 
 ### <a name="property-$product_reference"></a>$product_reference
@@ -472,7 +472,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L108)
+* Source: [classes/order/OrderDetail.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L108).
 
 
 ### <a name="property-$product_supplier_reference"></a>$product_supplier_reference
@@ -484,7 +484,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L111)
+* Source: [classes/order/OrderDetail.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L111).
 
 
 ### <a name="property-$product_upc"></a>$product_upc
@@ -496,7 +496,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L105)
+* Source: [classes/order/OrderDetail.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L105).
 
 
 ### <a name="property-$product_weight"></a>$product_weight
@@ -508,7 +508,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L114)
+* Source: [classes/order/OrderDetail.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L114).
 
 
 ### <a name="property-$purchase_supplier_price"></a>$purchase_supplier_price
@@ -520,7 +520,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L156)
+* Source: [classes/order/OrderDetail.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L156).
 
 
 ### <a name="property-$reduction_amount"></a>$reduction_amount
@@ -532,7 +532,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L87)
+* Source: [classes/order/OrderDetail.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L87).
 
 
 ### <a name="property-$reduction_amount_tax_excl"></a>$reduction_amount_tax_excl
@@ -544,7 +544,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L90)
+* Source: [classes/order/OrderDetail.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L90).
 
 
 ### <a name="property-$reduction_amount_tax_incl"></a>$reduction_amount_tax_incl
@@ -556,7 +556,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L93)
+* Source: [classes/order/OrderDetail.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L93).
 
 
 ### <a name="property-$reduction_percent"></a>$reduction_percent
@@ -568,7 +568,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L84)
+* Source: [classes/order/OrderDetail.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L84).
 
 
 ### <a name="property-$specificPrice"></a>$specificPrice
@@ -580,7 +580,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderDetail.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L242)
+* Source: [classes/order/OrderDetail.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L242).
 
 
 ### <a name="property-$tax_calculator"></a>$tax_calculator
@@ -592,7 +592,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderDetail.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L236)
+* Source: [classes/order/OrderDetail.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L236).
 
 
 ### <a name="property-$tax_computation_method"></a>$tax_computation_method
@@ -604,7 +604,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L141)
+* Source: [classes/order/OrderDetail.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L141).
 
 
 ### <a name="property-$tax_name"></a>$tax_name
@@ -616,7 +616,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L135)
+* Source: [classes/order/OrderDetail.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L135).
 
 
 ### <a name="property-$tax_rate"></a>$tax_rate
@@ -628,7 +628,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L138)
+* Source: [classes/order/OrderDetail.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L138).
 
 
 ### <a name="property-$total_price_tax_excl"></a>$total_price_tax_excl
@@ -640,7 +640,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L81)
+* Source: [classes/order/OrderDetail.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L81).
 
 
 ### <a name="property-$total_price_tax_incl"></a>$total_price_tax_incl
@@ -652,7 +652,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L78)
+* Source: [classes/order/OrderDetail.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L78).
 
 
 ### <a name="property-$total_shipping_price_tax_excl"></a>$total_shipping_price_tax_excl
@@ -664,7 +664,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L150)
+* Source: [classes/order/OrderDetail.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L150).
 
 
 ### <a name="property-$total_shipping_price_tax_incl"></a>$total_shipping_price_tax_incl
@@ -676,7 +676,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L153)
+* Source: [classes/order/OrderDetail.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L153).
 
 
 ### <a name="property-$unit_price_tax_excl"></a>$unit_price_tax_excl
@@ -688,7 +688,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L75)
+* Source: [classes/order/OrderDetail.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L75).
 
 
 ### <a name="property-$unit_price_tax_incl"></a>$unit_price_tax_incl
@@ -700,7 +700,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderDetail.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L72)
+* Source: [classes/order/OrderDetail.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L72).
 
 
 ### <a name="property-$vat_address"></a>$vat_address
@@ -712,7 +712,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderDetail.php line 239](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L239)
+* Source: [classes/order/OrderDetail.php line 239](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L239).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -724,7 +724,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderDetail.php line 214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L214)
+* Source: [classes/order/OrderDetail.php line 214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L214).
 
 
 Methods

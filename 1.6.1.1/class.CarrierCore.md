@@ -119,7 +119,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L36)
+
+
+* Source: [classes/Carrier.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L36).
 
 
 ### <a name="constant-CARRIERS_MODULE"></a>CARRIERS_MODULE
@@ -128,7 +130,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L33)
+
+
+* Source: [classes/Carrier.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L33).
 
 
 ### <a name="constant-CARRIERS_MODULE_NEED_RANGE"></a>CARRIERS_MODULE_NEED_RANGE
@@ -137,7 +141,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L34)
+
+
+* Source: [classes/Carrier.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L34).
 
 
 ### <a name="constant-PS_CARRIERS_AND_CARRIER_MODULES_NEED_RANGE"></a>PS_CARRIERS_AND_CARRIER_MODULES_NEED_RANGE
@@ -146,16 +152,20 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L35)
+
+
+* Source: [classes/Carrier.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L35).
 
 
 ### <a name="constant-PS_CARRIERS_ONLY"></a>PS_CARRIERS_ONLY
 
     const PS_CARRIERS_ONLY = 1
 
+getCarriers method filter
 
 
-* Source: [classes/Carrier.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L32)
+
+* Source: [classes/Carrier.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L32).
 
 
 ### <a name="constant-SHIPPING_METHOD_DEFAULT"></a>SHIPPING_METHOD_DEFAULT
@@ -164,7 +174,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L38)
+
+
+* Source: [classes/Carrier.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L38).
 
 
 ### <a name="constant-SHIPPING_METHOD_FREE"></a>SHIPPING_METHOD_FREE
@@ -173,7 +185,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L41)
+
+
+* Source: [classes/Carrier.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L41).
 
 
 ### <a name="constant-SHIPPING_METHOD_PRICE"></a>SHIPPING_METHOD_PRICE
@@ -182,7 +196,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L40)
+
+
+* Source: [classes/Carrier.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L40).
 
 
 ### <a name="constant-SHIPPING_METHOD_WEIGHT"></a>SHIPPING_METHOD_WEIGHT
@@ -191,7 +207,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L39)
+
+
+* Source: [classes/Carrier.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L39).
 
 
 ### <a name="constant-SHIPPING_PRICE_EXCEPTION"></a>SHIPPING_PRICE_EXCEPTION
@@ -200,7 +218,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L43)
+
+
+* Source: [classes/Carrier.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L43).
 
 
 ### <a name="constant-SHIPPING_SIZE_EXCEPTION"></a>SHIPPING_SIZE_EXCEPTION
@@ -209,7 +229,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L45)
+
+
+* Source: [classes/Carrier.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L45).
 
 
 ### <a name="constant-SHIPPING_WEIGHT_EXCEPTION"></a>SHIPPING_WEIGHT_EXCEPTION
@@ -218,7 +240,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L44)
+
+
+* Source: [classes/Carrier.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L44).
 
 
 ### <a name="constant-SORT_BY_ASC"></a>SORT_BY_ASC
@@ -227,7 +251,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L50)
+
+
+* Source: [classes/Carrier.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L50).
 
 
 ### <a name="constant-SORT_BY_DESC"></a>SORT_BY_DESC
@@ -236,7 +262,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L51)
+
+
+* Source: [classes/Carrier.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L51).
 
 
 ### <a name="constant-SORT_BY_POSITION"></a>SORT_BY_POSITION
@@ -245,7 +273,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L48)
+
+
+* Source: [classes/Carrier.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L48).
 
 
 ### <a name="constant-SORT_BY_PRICE"></a>SORT_BY_PRICE
@@ -254,7 +284,9 @@ Constants
 
 
 
-* Source: [classes/Carrier.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L47)
+
+
+* Source: [classes/Carrier.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L47).
 
 
 Properties
@@ -270,7 +302,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L66)
+* Source: [classes/Carrier.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L66).
 
 
 ### <a name="property-$cache_tax_rule"></a>$cache_tax_rule
@@ -283,7 +315,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Carrier.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L153)
+* Source: [classes/Carrier.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L153).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -296,7 +328,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Carrier.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L116)
+* Source: [classes/Carrier.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L116).
 
 
 ### <a name="property-$delay"></a>$delay
@@ -308,7 +340,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L63)
+* Source: [classes/Carrier.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L63).
 
 
 ### <a name="property-$deleted"></a>$deleted
@@ -320,7 +352,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L69)
+* Source: [classes/Carrier.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L69).
 
 
 ### <a name="property-$external_module_name"></a>$external_module_name
@@ -332,7 +364,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L90)
+* Source: [classes/Carrier.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L90).
 
 
 ### <a name="property-$grade"></a>$grade
@@ -344,7 +376,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L111)
+* Source: [classes/Carrier.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L111).
 
 
 ### <a name="property-$id_reference"></a>$id_reference
@@ -356,7 +388,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L54)
+* Source: [classes/Carrier.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L54).
 
 
 ### <a name="property-$is_free"></a>$is_free
@@ -368,7 +400,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L81)
+* Source: [classes/Carrier.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L81).
 
 
 ### <a name="property-$is_module"></a>$is_module
@@ -380,7 +412,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L78)
+* Source: [classes/Carrier.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L78).
 
 
 ### <a name="property-$max_depth"></a>$max_depth
@@ -392,7 +424,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L105)
+* Source: [classes/Carrier.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L105).
 
 
 ### <a name="property-$max_height"></a>$max_height
@@ -404,7 +436,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L102)
+* Source: [classes/Carrier.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L102).
 
 
 ### <a name="property-$max_weight"></a>$max_weight
@@ -416,7 +448,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L108)
+* Source: [classes/Carrier.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L108).
 
 
 ### <a name="property-$max_width"></a>$max_width
@@ -428,7 +460,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L99)
+* Source: [classes/Carrier.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L99).
 
 
 ### <a name="property-$name"></a>$name
@@ -440,7 +472,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L57)
+* Source: [classes/Carrier.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L57).
 
 
 ### <a name="property-$need_range"></a>$need_range
@@ -452,7 +484,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L93)
+* Source: [classes/Carrier.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L93).
 
 
 ### <a name="property-$position"></a>$position
@@ -464,7 +496,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L96)
+* Source: [classes/Carrier.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L96).
 
 
 ### <a name="property-$price_by_price"></a>$price_by_price
@@ -477,7 +509,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Carrier.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L150)
+* Source: [classes/Carrier.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L150).
 
 
 ### <a name="property-$price_by_price2"></a>$price_by_price2
@@ -490,7 +522,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Carrier.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L151)
+* Source: [classes/Carrier.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L151).
 
 
 ### <a name="property-$price_by_weight"></a>$price_by_weight
@@ -503,7 +535,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Carrier.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L148)
+* Source: [classes/Carrier.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L148).
 
 
 ### <a name="property-$price_by_weight2"></a>$price_by_weight2
@@ -516,7 +548,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Carrier.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L149)
+* Source: [classes/Carrier.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L149).
 
 
 ### <a name="property-$range_behavior"></a>$range_behavior
@@ -528,7 +560,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L75)
+* Source: [classes/Carrier.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L75).
 
 
 ### <a name="property-$shipping_external"></a>$shipping_external
@@ -540,7 +572,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L87)
+* Source: [classes/Carrier.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L87).
 
 
 ### <a name="property-$shipping_handling"></a>$shipping_handling
@@ -552,7 +584,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L72)
+* Source: [classes/Carrier.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L72).
 
 
 ### <a name="property-$shipping_method"></a>$shipping_method
@@ -564,7 +596,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L84)
+* Source: [classes/Carrier.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L84).
 
 
 ### <a name="property-$url"></a>$url
@@ -576,7 +608,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Carrier.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L60)
+* Source: [classes/Carrier.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L60).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -588,7 +620,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Carrier.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L155)
+* Source: [classes/Carrier.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L155).
 
 
 Methods

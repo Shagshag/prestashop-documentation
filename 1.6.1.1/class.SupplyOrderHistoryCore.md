@@ -40,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderHistory.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L60)
+* Source: [classes/stock/SupplyOrderHistory.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L60).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -53,7 +53,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/stock/SupplyOrderHistory.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L65)
+* Source: [classes/stock/SupplyOrderHistory.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L65).
 
 
 ### <a name="property-$employee_firstname"></a>$employee_firstname
@@ -65,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderHistory.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L45)
+* Source: [classes/stock/SupplyOrderHistory.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L45).
 
 
 ### <a name="property-$employee_lastname"></a>$employee_lastname
@@ -77,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderHistory.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L50)
+* Source: [classes/stock/SupplyOrderHistory.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L50).
 
 
 ### <a name="property-$id_employee"></a>$id_employee
@@ -89,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderHistory.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L40)
+* Source: [classes/stock/SupplyOrderHistory.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L40).
 
 
 ### <a name="property-$id_state"></a>$id_state
@@ -101,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderHistory.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L55)
+* Source: [classes/stock/SupplyOrderHistory.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L55).
 
 
 ### <a name="property-$id_supply_order"></a>$id_supply_order
@@ -113,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderHistory.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L35)
+* Source: [classes/stock/SupplyOrderHistory.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L35).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -125,7 +125,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/SupplyOrderHistory.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L81)
+* Source: [classes/stock/SupplyOrderHistory.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L81).
 
 
 

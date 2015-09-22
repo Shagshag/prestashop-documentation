@@ -80,7 +80,9 @@ Constants
 
 
 
-* Source: [classes/PrestaShopCollection.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L35)
+
+
+* Source: [classes/PrestaShopCollection.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L35).
 
 
 ### <a name="constant-LANG_ALIAS"></a>LANG_ALIAS
@@ -89,7 +91,9 @@ Constants
 
 
 
-* Source: [classes/PrestaShopCollection.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L94)
+
+
+* Source: [classes/PrestaShopCollection.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L94).
 
 
 ### <a name="constant-LEFT_JOIN"></a>LEFT_JOIN
@@ -98,7 +102,9 @@ Constants
 
 
 
-* Source: [classes/PrestaShopCollection.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L34)
+
+
+* Source: [classes/PrestaShopCollection.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L34).
 
 
 ### <a name="constant-LEFT_OUTER_JOIN"></a>LEFT_OUTER_JOIN
@@ -107,7 +113,9 @@ Constants
 
 
 
-* Source: [classes/PrestaShopCollection.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L36)
+
+
+* Source: [classes/PrestaShopCollection.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L36).
 
 
 Properties
@@ -123,7 +131,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L89)
+* Source: [classes/PrestaShopCollection.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L89).
 
 
 ### <a name="property-$alias_iterator"></a>$alias_iterator
@@ -135,7 +143,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L90)
+* Source: [classes/PrestaShopCollection.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L90).
 
 
 ### <a name="property-$association_definition"></a>$association_definition
@@ -147,7 +155,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L92)
+* Source: [classes/PrestaShopCollection.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L92).
 
 
 ### <a name="property-$classname"></a>$classname
@@ -159,7 +167,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L41)
+* Source: [classes/PrestaShopCollection.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L41).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -171,7 +179,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L51)
+* Source: [classes/PrestaShopCollection.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L51).
 
 
 ### <a name="property-$fields"></a>$fields
@@ -183,7 +191,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L88)
+* Source: [classes/PrestaShopCollection.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L88).
 
 
 ### <a name="property-$id_lang"></a>$id_lang
@@ -195,7 +203,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L46)
+* Source: [classes/PrestaShopCollection.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L46).
 
 
 ### <a name="property-$is_hydrated"></a>$is_hydrated
@@ -207,7 +215,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L66)
+* Source: [classes/PrestaShopCollection.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L66).
 
 
 ### <a name="property-$iterator"></a>$iterator
@@ -219,7 +227,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L71)
+* Source: [classes/PrestaShopCollection.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L71).
 
 
 ### <a name="property-$join_list"></a>$join_list
@@ -231,7 +239,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L91)
+* Source: [classes/PrestaShopCollection.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L91).
 
 
 ### <a name="property-$page_number"></a>$page_number
@@ -243,7 +251,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L81)
+* Source: [classes/PrestaShopCollection.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L81).
 
 
 ### <a name="property-$page_size"></a>$page_size
@@ -255,7 +263,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L86)
+* Source: [classes/PrestaShopCollection.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L86).
 
 
 ### <a name="property-$query"></a>$query
@@ -267,7 +275,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L56)
+* Source: [classes/PrestaShopCollection.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L56).
 
 
 ### <a name="property-$results"></a>$results
@@ -279,7 +287,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L61)
+* Source: [classes/PrestaShopCollection.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L61).
 
 
 ### <a name="property-$total"></a>$total
@@ -291,7 +299,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopCollection.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L76)
+* Source: [classes/PrestaShopCollection.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L76).
 
 
 Methods

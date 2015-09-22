@@ -50,7 +50,7 @@ List of data to build the query
 
 
 * Visibility: **protected**
-* Source: [classes/db/DbQuery.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#L39)
+* Source: [classes/db/DbQuery.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#L39).
 
 
 Methods

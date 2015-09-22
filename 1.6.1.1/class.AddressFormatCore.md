@@ -57,7 +57,9 @@ Constants
 
 
 
-* Source: [classes/AddressFormat.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L107)
+
+
+* Source: [classes/AddressFormat.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L107).
 
 
 Properties
@@ -73,7 +75,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/AddressFormat.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L38)
+* Source: [classes/AddressFormat.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L38).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -86,7 +88,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/AddressFormat.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L43)
+* Source: [classes/AddressFormat.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L43).
 
 
 ### <a name="property-$forbiddenClassList"></a>$forbiddenClassList
@@ -99,7 +101,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/AddressFormat.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L103)
+* Source: [classes/AddressFormat.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L103).
 
 
 ### <a name="property-$forbiddenPropertyList"></a>$forbiddenPropertyList
@@ -112,7 +114,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/AddressFormat.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L59)
+* Source: [classes/AddressFormat.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L59).
 
 
 ### <a name="property-$format"></a>$format
@@ -124,7 +126,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/AddressFormat.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L36)
+* Source: [classes/AddressFormat.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L36).
 
 
 ### <a name="property-$id_address_format"></a>$id_address_format
@@ -136,7 +138,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/AddressFormat.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L30)
+* Source: [classes/AddressFormat.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L30).
 
 
 ### <a name="property-$id_country"></a>$id_country
@@ -148,7 +150,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/AddressFormat.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L33)
+* Source: [classes/AddressFormat.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L33).
 
 
 ### <a name="property-$requireFormFieldsList"></a>$requireFormFieldsList
@@ -161,7 +163,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/AddressFormat.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L52)
+* Source: [classes/AddressFormat.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L52).
 
 
 Methods

@@ -188,7 +188,9 @@ Constants
 
 
 
-* Source: [classes/order/Order.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L29)
+
+
+* Source: [classes/order/Order.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L29).
 
 
 ### <a name="constant-ROUND_LINE"></a>ROUND_LINE
@@ -197,7 +199,9 @@ Constants
 
 
 
-* Source: [classes/order/Order.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L30)
+
+
+* Source: [classes/order/Order.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L30).
 
 
 ### <a name="constant-ROUND_TOTAL"></a>ROUND_TOTAL
@@ -206,7 +210,9 @@ Constants
 
 
 
-* Source: [classes/order/Order.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L31)
+
+
+* Source: [classes/order/Order.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L31).
 
 
 Properties
@@ -223,7 +229,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/order/Order.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L279)
+* Source: [classes/order/Order.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L279).
 
 
 ### <a name="property-$_taxCalculationMethod"></a>$_taxCalculationMethod
@@ -235,7 +241,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/Order.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L277)
+* Source: [classes/order/Order.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L277).
 
 
 ### <a name="property-$cacheCustomer"></a>$cacheCustomer
@@ -247,7 +253,7 @@ used to cache order customer
 
 
 * Visibility: **protected**
-* Source: [classes/order/Order.php line 1048](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L1048)
+* Source: [classes/order/Order.php line 1048](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L1048).
 
 
 ### <a name="property-$carrier_tax_rate"></a>$carrier_tax_rate
@@ -259,7 +265,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L127)
+* Source: [classes/order/Order.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L127).
 
 
 ### <a name="property-$conversion_rate"></a>$conversion_rate
@@ -271,7 +277,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L72)
+* Source: [classes/order/Order.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L72).
 
 
 ### <a name="property-$current_state"></a>$current_state
@@ -283,7 +289,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L60)
+* Source: [classes/order/Order.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L60).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -295,7 +301,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L154)
+* Source: [classes/order/Order.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L154).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -307,7 +313,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L157)
+* Source: [classes/order/Order.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L157).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -320,7 +326,7 @@ used to cache order customer
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/order/Order.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L177)
+* Source: [classes/order/Order.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L177).
 
 
 ### <a name="property-$delivery_date"></a>$delivery_date
@@ -332,7 +338,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L148)
+* Source: [classes/order/Order.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L148).
 
 
 ### <a name="property-$delivery_number"></a>$delivery_number
@@ -344,7 +350,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L142)
+* Source: [classes/order/Order.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L142).
 
 
 ### <a name="property-$gift"></a>$gift
@@ -356,7 +362,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L78)
+* Source: [classes/order/Order.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L78).
 
 
 ### <a name="property-$gift_message"></a>$gift_message
@@ -368,7 +374,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L81)
+* Source: [classes/order/Order.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L81).
 
 
 ### <a name="property-$id_address_delivery"></a>$id_address_delivery
@@ -380,7 +386,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L35)
+* Source: [classes/order/Order.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L35).
 
 
 ### <a name="property-$id_address_invoice"></a>$id_address_invoice
@@ -392,7 +398,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L38)
+* Source: [classes/order/Order.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L38).
 
 
 ### <a name="property-$id_carrier"></a>$id_carrier
@@ -404,7 +410,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L57)
+* Source: [classes/order/Order.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L57).
 
 
 ### <a name="property-$id_cart"></a>$id_cart
@@ -416,7 +422,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L45)
+* Source: [classes/order/Order.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L45).
 
 
 ### <a name="property-$id_currency"></a>$id_currency
@@ -428,7 +434,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L48)
+* Source: [classes/order/Order.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L48).
 
 
 ### <a name="property-$id_customer"></a>$id_customer
@@ -440,7 +446,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L54)
+* Source: [classes/order/Order.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L54).
 
 
 ### <a name="property-$id_lang"></a>$id_lang
@@ -452,7 +458,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L51)
+* Source: [classes/order/Order.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L51).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -464,7 +470,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L42)
+* Source: [classes/order/Order.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L42).
 
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
@@ -476,7 +482,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L40)
+* Source: [classes/order/Order.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L40).
 
 
 ### <a name="property-$invoice_date"></a>$invoice_date
@@ -488,7 +494,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L145)
+* Source: [classes/order/Order.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L145).
 
 
 ### <a name="property-$invoice_number"></a>$invoice_number
@@ -500,7 +506,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L139)
+* Source: [classes/order/Order.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L139).
 
 
 ### <a name="property-$mobile_theme"></a>$mobile_theme
@@ -512,7 +518,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L84)
+* Source: [classes/order/Order.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L84).
 
 
 ### <a name="property-$module"></a>$module
@@ -524,7 +530,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L69)
+* Source: [classes/order/Order.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L69).
 
 
 ### <a name="property-$payment"></a>$payment
@@ -536,7 +542,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L66)
+* Source: [classes/order/Order.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L66).
 
 
 ### <a name="property-$recyclable"></a>$recyclable
@@ -548,7 +554,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L75)
+* Source: [classes/order/Order.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L75).
 
 
 ### <a name="property-$reference"></a>$reference
@@ -560,7 +566,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L162)
+* Source: [classes/order/Order.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L162).
 
 
 ### <a name="property-$round_mode"></a>$round_mode
@@ -572,7 +578,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L167)
+* Source: [classes/order/Order.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L167).
 
 
 ### <a name="property-$round_type"></a>$round_type
@@ -584,7 +590,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L172)
+* Source: [classes/order/Order.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L172).
 
 
 ### <a name="property-$secure_key"></a>$secure_key
@@ -596,7 +602,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L63)
+* Source: [classes/order/Order.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L63).
 
 
 ### <a name="property-$shipping_number"></a>$shipping_number
@@ -608,7 +614,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L91)
+* Source: [classes/order/Order.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L91).
 
 
 ### <a name="property-$total_discounts"></a>$total_discounts
@@ -620,7 +626,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L94)
+* Source: [classes/order/Order.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L94).
 
 
 ### <a name="property-$total_discounts_tax_excl"></a>$total_discounts_tax_excl
@@ -632,7 +638,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L97)
+* Source: [classes/order/Order.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L97).
 
 
 ### <a name="property-$total_discounts_tax_incl"></a>$total_discounts_tax_incl
@@ -644,7 +650,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L96)
+* Source: [classes/order/Order.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L96).
 
 
 ### <a name="property-$total_paid"></a>$total_paid
@@ -656,7 +662,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L100)
+* Source: [classes/order/Order.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L100).
 
 
 ### <a name="property-$total_paid_real"></a>$total_paid_real
@@ -668,7 +674,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L109)
+* Source: [classes/order/Order.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L109).
 
 
 ### <a name="property-$total_paid_tax_excl"></a>$total_paid_tax_excl
@@ -680,7 +686,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L106)
+* Source: [classes/order/Order.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L106).
 
 
 ### <a name="property-$total_paid_tax_incl"></a>$total_paid_tax_incl
@@ -692,7 +698,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L103)
+* Source: [classes/order/Order.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L103).
 
 
 ### <a name="property-$total_products"></a>$total_products
@@ -704,7 +710,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L112)
+* Source: [classes/order/Order.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L112).
 
 
 ### <a name="property-$total_products_wt"></a>$total_products_wt
@@ -716,7 +722,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L115)
+* Source: [classes/order/Order.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L115).
 
 
 ### <a name="property-$total_shipping"></a>$total_shipping
@@ -728,7 +734,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L118)
+* Source: [classes/order/Order.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L118).
 
 
 ### <a name="property-$total_shipping_tax_excl"></a>$total_shipping_tax_excl
@@ -740,7 +746,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L124)
+* Source: [classes/order/Order.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L124).
 
 
 ### <a name="property-$total_shipping_tax_incl"></a>$total_shipping_tax_incl
@@ -752,7 +758,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L121)
+* Source: [classes/order/Order.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L121).
 
 
 ### <a name="property-$total_wrapping"></a>$total_wrapping
@@ -764,7 +770,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L130)
+* Source: [classes/order/Order.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L130).
 
 
 ### <a name="property-$total_wrapping_tax_excl"></a>$total_wrapping_tax_excl
@@ -776,7 +782,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L136)
+* Source: [classes/order/Order.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L136).
 
 
 ### <a name="property-$total_wrapping_tax_incl"></a>$total_wrapping_tax_incl
@@ -788,7 +794,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L133)
+* Source: [classes/order/Order.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L133).
 
 
 ### <a name="property-$valid"></a>$valid
@@ -800,7 +806,7 @@ used to cache order customer
 
 
 * Visibility: **public**
-* Source: [classes/order/Order.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L151)
+* Source: [classes/order/Order.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L151).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -812,7 +818,7 @@ used to cache order customer
 
 
 * Visibility: **protected**
-* Source: [classes/order/Order.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L229)
+* Source: [classes/order/Order.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L229).
 
 
 Methods

@@ -59,7 +59,9 @@ Constants
 
 
 
-* Source: [classes/Uploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L29)
+
+
+* Source: [classes/Uploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L29).
 
 
 Properties
@@ -75,7 +77,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/Uploader.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L32)
+* Source: [classes/Uploader.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L32).
 
 
 ### <a name="property-$_check_file_size"></a>$_check_file_size
@@ -87,7 +89,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/Uploader.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L31)
+* Source: [classes/Uploader.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L31).
 
 
 ### <a name="property-$_files"></a>$_files
@@ -99,7 +101,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/Uploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L33)
+* Source: [classes/Uploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L33).
 
 
 ### <a name="property-$_max_size"></a>$_max_size
@@ -111,7 +113,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/Uploader.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L34)
+* Source: [classes/Uploader.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L34).
 
 
 ### <a name="property-$_name"></a>$_name
@@ -123,7 +125,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/Uploader.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L35)
+* Source: [classes/Uploader.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L35).
 
 
 ### <a name="property-$_save_path"></a>$_save_path
@@ -135,7 +137,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/Uploader.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L36)
+* Source: [classes/Uploader.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L36).
 
 
 Methods

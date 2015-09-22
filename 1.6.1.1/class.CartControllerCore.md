@@ -53,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/CartController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L38)
+* Source: [controllers/front/CartController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L38).
 
 
 ### <a name="property-$customization_id"></a>$customization_id
@@ -65,7 +65,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/CartController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L34)
+* Source: [controllers/front/CartController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L34).
 
 
 ### <a name="property-$id_address_delivery"></a>$id_address_delivery
@@ -77,7 +77,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/CartController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L33)
+* Source: [controllers/front/CartController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L33).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -89,7 +89,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/CartController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L31)
+* Source: [controllers/front/CartController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L31).
 
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
@@ -101,7 +101,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/CartController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L32)
+* Source: [controllers/front/CartController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L32).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -113,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/CartController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L29)
+* Source: [controllers/front/CartController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L29).
 
 
 ### <a name="property-$qty"></a>$qty
@@ -125,7 +125,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/CartController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L35)
+* Source: [controllers/front/CartController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L35).
 
 
 ### <a name="property-$ssl"></a>$ssl
@@ -137,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/CartController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L36)
+* Source: [controllers/front/CartController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L36).
 
 
 Methods

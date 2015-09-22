@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L57)
+* Source: [classes/Combination.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L57).
 
 
 ### <a name="property-$default_on"></a>$default_on
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L55)
+* Source: [classes/Combination.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L55).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -93,7 +93,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Combination.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L62)
+* Source: [classes/Combination.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L62).
 
 
 ### <a name="property-$ean13"></a>$ean13
@@ -105,7 +105,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L37)
+* Source: [classes/Combination.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L37).
 
 
 ### <a name="property-$ecotax"></a>$ecotax
@@ -117,7 +117,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L47)
+* Source: [classes/Combination.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L47).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -129,7 +129,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L29)
+* Source: [classes/Combination.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L29).
 
 
 ### <a name="property-$location"></a>$location
@@ -141,7 +141,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L35)
+* Source: [classes/Combination.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L35).
 
 
 ### <a name="property-$minimal_quantity"></a>$minimal_quantity
@@ -153,7 +153,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L49)
+* Source: [classes/Combination.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L49).
 
 
 ### <a name="property-$price"></a>$price
@@ -165,7 +165,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L43)
+* Source: [classes/Combination.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L43).
 
 
 ### <a name="property-$quantity"></a>$quantity
@@ -177,7 +177,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L51)
+* Source: [classes/Combination.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L51).
 
 
 ### <a name="property-$reference"></a>$reference
@@ -189,7 +189,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L31)
+* Source: [classes/Combination.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L31).
 
 
 ### <a name="property-$supplier_reference"></a>$supplier_reference
@@ -201,7 +201,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L33)
+* Source: [classes/Combination.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L33).
 
 
 ### <a name="property-$unit_price_impact"></a>$unit_price_impact
@@ -213,7 +213,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L45)
+* Source: [classes/Combination.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L45).
 
 
 ### <a name="property-$upc"></a>$upc
@@ -225,7 +225,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L39)
+* Source: [classes/Combination.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L39).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -237,7 +237,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Combination.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L86)
+* Source: [classes/Combination.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L86).
 
 
 ### <a name="property-$weight"></a>$weight
@@ -249,7 +249,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L53)
+* Source: [classes/Combination.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L53).
 
 
 ### <a name="property-$wholesale_price"></a>$wholesale_price
@@ -261,7 +261,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Combination.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L41)
+* Source: [classes/Combination.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L41).
 
 
 Methods

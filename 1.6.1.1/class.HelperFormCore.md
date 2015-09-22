@@ -52,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperForm.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L51)
+* Source: [classes/helper/HelperForm.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L51).
 
 
 ### <a name="property-$back_url"></a>$back_url
@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperForm.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L53)
+* Source: [classes/helper/HelperForm.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L53).
 
 
 ### <a name="property-$default_form_language"></a>$default_form_language
@@ -76,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperForm.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L50)
+* Source: [classes/helper/HelperForm.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L50).
 
 
 ### <a name="property-$fields_form"></a>$fields_form
@@ -88,7 +88,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/helper/HelperForm.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L36)
+* Source: [classes/helper/HelperForm.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L36).
 
 
 ### <a name="property-$fields_value"></a>$fields_value
@@ -100,7 +100,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperForm.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L39)
+* Source: [classes/helper/HelperForm.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L39).
 
 
 ### <a name="property-$first_call"></a>$first_call
@@ -112,7 +112,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperForm.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L33)
+* Source: [classes/helper/HelperForm.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L33).
 
 
 ### <a name="property-$id"></a>$id
@@ -124,7 +124,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperForm.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L32)
+* Source: [classes/helper/HelperForm.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L32).
 
 
 ### <a name="property-$languages"></a>$languages
@@ -136,7 +136,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperForm.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L49)
+* Source: [classes/helper/HelperForm.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L49).
 
 
 ### <a name="property-$name_controller"></a>$name_controller
@@ -148,7 +148,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperForm.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L40)
+* Source: [classes/helper/HelperForm.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L40).
 
 
 ### <a name="property-$show_cancel_button"></a>$show_cancel_button
@@ -160,7 +160,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperForm.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L52)
+* Source: [classes/helper/HelperForm.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L52).
 
 
 ### <a name="property-$submit_action"></a>$submit_action
@@ -172,7 +172,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperForm.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L46)
+* Source: [classes/helper/HelperForm.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L46).
 
 
 ### <a name="property-$title"></a>$title
@@ -184,7 +184,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperForm.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L43)
+* Source: [classes/helper/HelperForm.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L43).
 
 
 ### <a name="property-$token"></a>$token
@@ -196,7 +196,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperForm.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L48)
+* Source: [classes/helper/HelperForm.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L48).
 
 
 Methods

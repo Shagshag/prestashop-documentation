@@ -81,7 +81,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Language.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L72)
+* Source: [classes/Language.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L72).
 
 
 ### <a name="property-$_cache_language_installation"></a>$_cache_language_installation
@@ -94,7 +94,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Language.php line 870](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L870)
+* Source: [classes/Language.php line 870](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L870).
 
 
 ### <a name="property-$_checkedLangs"></a>$_checkedLangs
@@ -107,7 +107,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Language.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L71)
+* Source: [classes/Language.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L71).
 
 
 ### <a name="property-$active"></a>$active
@@ -119,7 +119,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Language.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L50)
+* Source: [classes/Language.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L50).
 
 
 ### <a name="property-$countActiveLanguages"></a>$countActiveLanguages
@@ -132,7 +132,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Language.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L73)
+* Source: [classes/Language.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L73).
 
 
 ### <a name="property-$date_format_full"></a>$date_format_full
@@ -144,7 +144,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Language.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L44)
+* Source: [classes/Language.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L44).
 
 
 ### <a name="property-$date_format_lite"></a>$date_format_lite
@@ -156,7 +156,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Language.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L41)
+* Source: [classes/Language.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L41).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -169,7 +169,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Language.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L55)
+* Source: [classes/Language.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L55).
 
 
 ### <a name="property-$id"></a>$id
@@ -181,7 +181,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Language.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L29)
+* Source: [classes/Language.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L29).
 
 
 ### <a name="property-$is_rtl"></a>$is_rtl
@@ -193,7 +193,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Language.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L47)
+* Source: [classes/Language.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L47).
 
 
 ### <a name="property-$iso_code"></a>$iso_code
@@ -205,7 +205,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Language.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L35)
+* Source: [classes/Language.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L35).
 
 
 ### <a name="property-$language_code"></a>$language_code
@@ -217,7 +217,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Language.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L38)
+* Source: [classes/Language.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L38).
 
 
 ### <a name="property-$name"></a>$name
@@ -229,7 +229,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Language.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L32)
+* Source: [classes/Language.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L32).
 
 
 ### <a name="property-$translationsFilesAndVars"></a>$translationsFilesAndVars
@@ -241,7 +241,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Language.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L80)
+* Source: [classes/Language.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L80).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -253,7 +253,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Language.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L75)
+* Source: [classes/Language.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L75).
 
 
 Methods

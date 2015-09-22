@@ -54,7 +54,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGrid.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L50)
+* Source: [classes/module/ModuleGrid.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L50).
 
 
 ### <a name="property-$_employee"></a>$_employee
@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGrid.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L29)
+* Source: [classes/module/ModuleGrid.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L29).
 
 
 ### <a name="property-$_limit"></a>$_limit
@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGrid.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L44)
+* Source: [classes/module/ModuleGrid.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L44).
 
 
 ### <a name="property-$_render"></a>$_render
@@ -90,7 +90,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGrid.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L53)
+* Source: [classes/module/ModuleGrid.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L53).
 
 
 ### <a name="property-$_sort"></a>$_sort
@@ -102,7 +102,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGrid.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L47)
+* Source: [classes/module/ModuleGrid.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L47).
 
 
 ### <a name="property-$_start"></a>$_start
@@ -114,7 +114,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGrid.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L41)
+* Source: [classes/module/ModuleGrid.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L41).
 
 
 ### <a name="property-$_title"></a>$_title
@@ -126,7 +126,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGrid.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L38)
+* Source: [classes/module/ModuleGrid.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L38).
 
 
 ### <a name="property-$_totalCount"></a>$_totalCount
@@ -138,7 +138,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGrid.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L35)
+* Source: [classes/module/ModuleGrid.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L35).
 
 
 ### <a name="property-$_values"></a>$_values
@@ -150,7 +150,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGrid.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L32)
+* Source: [classes/module/ModuleGrid.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L32).
 
 
 Methods

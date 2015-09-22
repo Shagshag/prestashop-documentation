@@ -56,7 +56,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceOutputXML.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#L29)
+* Source: [classes/webservice/WebserviceOutputXML.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#L29).
 
 
 ### <a name="property-$languages"></a>$languages
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceOutputXML.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#L30)
+* Source: [classes/webservice/WebserviceOutputXML.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#L30).
 
 
 ### <a name="property-$schemaToDisplay"></a>$schemaToDisplay
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputXML.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#L32)
+* Source: [classes/webservice/WebserviceOutputXML.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#L32).
 
 
 ### <a name="property-$wsUrl"></a>$wsUrl
@@ -92,7 +92,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputXML.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#L31)
+* Source: [classes/webservice/WebserviceOutputXML.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#L31).
 
 
 Methods

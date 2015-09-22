@@ -56,7 +56,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/db/MySQL.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/MySQL.php#L33)
+* Source: [classes/db/MySQL.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/MySQL.php#L33).
 
 
 ### <a name="property-$result"></a>$result
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/db/MySQL.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/MySQL.php#L36)
+* Source: [classes/db/MySQL.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/MySQL.php#L36).
 
 
 Methods

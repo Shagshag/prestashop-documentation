@@ -50,7 +50,9 @@ Constants
 
 
 
-* Source: [classes/PaymentModule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L34)
+
+
+* Source: [classes/PaymentModule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L34).
 
 
 Properties
@@ -66,7 +68,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PaymentModule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L31)
+* Source: [classes/PaymentModule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L31).
 
 
 ### <a name="property-$currencies_mode"></a>$currencies_mode
@@ -78,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PaymentModule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L32)
+* Source: [classes/PaymentModule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L32).
 
 
 ### <a name="property-$currentOrder"></a>$currentOrder
@@ -90,7 +92,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PaymentModule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L30)
+* Source: [classes/PaymentModule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L30).
 
 
 Methods

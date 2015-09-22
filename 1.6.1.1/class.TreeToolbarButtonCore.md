@@ -64,7 +64,9 @@ Constants
 
 
 
-* Source: [classes/tree/TreeToolbarButton.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L29)
+
+
+* Source: [classes/tree/TreeToolbarButton.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L29).
 
 
 Properties
@@ -80,7 +82,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/tree/TreeToolbarButton.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L31)
+* Source: [classes/tree/TreeToolbarButton.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L31).
 
 
 ### <a name="property-$_class"></a>$_class
@@ -92,7 +94,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarButton.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L32)
+* Source: [classes/tree/TreeToolbarButton.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L32).
 
 
 ### <a name="property-$_context"></a>$_context
@@ -104,7 +106,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarButton.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L33)
+* Source: [classes/tree/TreeToolbarButton.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L33).
 
 
 ### <a name="property-$_id"></a>$_id
@@ -116,7 +118,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarButton.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L34)
+* Source: [classes/tree/TreeToolbarButton.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L34).
 
 
 ### <a name="property-$_label"></a>$_label
@@ -128,7 +130,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarButton.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L35)
+* Source: [classes/tree/TreeToolbarButton.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L35).
 
 
 ### <a name="property-$_name"></a>$_name
@@ -140,7 +142,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarButton.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L36)
+* Source: [classes/tree/TreeToolbarButton.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L36).
 
 
 ### <a name="property-$_template"></a>$_template
@@ -152,7 +154,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/tree/TreeToolbarButton.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L37)
+* Source: [classes/tree/TreeToolbarButton.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L37).
 
 
 ### <a name="property-$_template_directory"></a>$_template_directory
@@ -164,7 +166,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/tree/TreeToolbarButton.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L38)
+* Source: [classes/tree/TreeToolbarButton.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L38).
 
 
 Methods

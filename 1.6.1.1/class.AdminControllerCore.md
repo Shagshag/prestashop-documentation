@@ -260,7 +260,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L102)
+* Source: [classes/controller/AdminController.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L102).
 
 
 ### <a name="property-$_defaultOrderWay"></a>$_defaultOrderWay
@@ -272,7 +272,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L105)
+* Source: [classes/controller/AdminController.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L105).
 
 
 ### <a name="property-$_default_pagination"></a>$_default_pagination
@@ -284,7 +284,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L207)
+* Source: [classes/controller/AdminController.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L207).
 
 
 ### <a name="property-$_filter"></a>$_filter
@@ -296,7 +296,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L195)
+* Source: [classes/controller/AdminController.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L195).
 
 
 ### <a name="property-$_filterHaving"></a>$_filterHaving
@@ -308,7 +308,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L198)
+* Source: [classes/controller/AdminController.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L198).
 
 
 ### <a name="property-$_group"></a>$_group
@@ -320,7 +320,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 276](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L276)
+* Source: [classes/controller/AdminController.php line 276](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L276).
 
 
 ### <a name="property-$_having"></a>$_having
@@ -332,7 +332,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L279)
+* Source: [classes/controller/AdminController.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L279).
 
 
 ### <a name="property-$_includeContainer"></a>$_includeContainer
@@ -344,7 +344,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L318)
+* Source: [classes/controller/AdminController.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L318).
 
 
 ### <a name="property-$_join"></a>$_join
@@ -356,7 +356,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L270)
+* Source: [classes/controller/AdminController.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L270).
 
 
 ### <a name="property-$_languages"></a>$_languages
@@ -368,7 +368,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L51)
+* Source: [classes/controller/AdminController.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L51).
 
 
 ### <a name="property-$_list"></a>$_list
@@ -380,7 +380,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L171)
+* Source: [classes/controller/AdminController.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L171).
 
 
 ### <a name="property-$_listTotal"></a>$_listTotal
@@ -392,7 +392,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L189)
+* Source: [classes/controller/AdminController.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L189).
 
 
 ### <a name="property-$_listsql"></a>$_listsql
@@ -404,7 +404,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L168)
+* Source: [classes/controller/AdminController.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L168).
 
 
 ### <a name="property-$_orderBy"></a>$_orderBy
@@ -416,7 +416,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L210)
+* Source: [classes/controller/AdminController.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L210).
 
 
 ### <a name="property-$_orderWay"></a>$_orderWay
@@ -428,7 +428,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L213)
+* Source: [classes/controller/AdminController.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L213).
 
 
 ### <a name="property-$_pagination"></a>$_pagination
@@ -440,7 +440,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L204)
+* Source: [classes/controller/AdminController.php line 204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L204).
 
 
 ### <a name="property-$_redirect"></a>$_redirect
@@ -452,7 +452,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 330](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L330)
+* Source: [classes/controller/AdminController.php line 330](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L330).
 
 
 ### <a name="property-$_select"></a>$_select
@@ -464,7 +464,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L267)
+* Source: [classes/controller/AdminController.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L267).
 
 
 ### <a name="property-$_tmpTableFilter"></a>$_tmpTableFilter
@@ -476,7 +476,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L201)
+* Source: [classes/controller/AdminController.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L201).
 
 
 ### <a name="property-$_use_found_rows"></a>$_use_found_rows
@@ -488,7 +488,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L282)
+* Source: [classes/controller/AdminController.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L282).
 
 
 ### <a name="property-$_where"></a>$_where
@@ -500,7 +500,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L273)
+* Source: [classes/controller/AdminController.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L273).
 
 
 ### <a name="property-$action"></a>$action
@@ -512,7 +512,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L312)
+* Source: [classes/controller/AdminController.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L312).
 
 
 ### <a name="property-$actions"></a>$actions
@@ -524,7 +524,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L219)
+* Source: [classes/controller/AdminController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L219).
 
 
 ### <a name="property-$actions_available"></a>$actions_available
@@ -536,7 +536,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L216)
+* Source: [classes/controller/AdminController.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L216).
 
 
 ### <a name="property-$admin_webpath"></a>$admin_webpath
@@ -548,7 +548,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L369)
+* Source: [classes/controller/AdminController.php line 369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L369).
 
 
 ### <a name="property-$allow_employee_form_lang"></a>$allow_employee_form_lang
@@ -560,7 +560,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L57)
+* Source: [classes/controller/AdminController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L57).
 
 
 ### <a name="property-$allow_export"></a>$allow_export
@@ -572,7 +572,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 231](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L231)
+* Source: [classes/controller/AdminController.php line 231](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L231).
 
 
 ### <a name="property-$base_tpl_form"></a>$base_tpl_form
@@ -584,7 +584,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L129)
+* Source: [classes/controller/AdminController.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L129).
 
 
 ### <a name="property-$base_tpl_view"></a>$base_tpl_view
@@ -596,7 +596,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L126)
+* Source: [classes/controller/AdminController.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L126).
 
 
 ### <a name="property-$bo_theme"></a>$bo_theme
@@ -608,7 +608,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L327)
+* Source: [classes/controller/AdminController.php line 327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L327).
 
 
 ### <a name="property-$bootstrap"></a>$bootstrap
@@ -620,7 +620,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L63)
+* Source: [classes/controller/AdminController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L63).
 
 
 ### <a name="property-$boxes"></a>$boxes
@@ -632,7 +632,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L261)
+* Source: [classes/controller/AdminController.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L261).
 
 
 ### <a name="property-$breadcrumbs"></a>$breadcrumbs
@@ -644,7 +644,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 354](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L354)
+* Source: [classes/controller/AdminController.php line 354](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L354).
 
 
 ### <a name="property-$bulk_actions"></a>$bulk_actions
@@ -665,7 +665,7 @@ array(
 If your action is named 'actionName', you need to have a method named bulkactionName() that will be executed when the button is clicked.
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L258)
+* Source: [classes/controller/AdminController.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L258).
 
 
 ### <a name="property-$cache_lang"></a>$cache_lang
@@ -678,7 +678,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/controller/AdminController.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L234)
+* Source: [classes/controller/AdminController.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L234).
 
 
 ### <a name="property-$can_import"></a>$can_import
@@ -690,7 +690,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L384)
+* Source: [classes/controller/AdminController.php line 384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L384).
 
 
 ### <a name="property-$className"></a>$className
@@ -702,7 +702,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L84)
+* Source: [classes/controller/AdminController.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L84).
 
 
 ### <a name="property-$colorOnBackground"></a>$colorOnBackground
@@ -714,7 +714,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L306)
+* Source: [classes/controller/AdminController.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L306).
 
 
 ### <a name="property-$confirmations"></a>$confirmations
@@ -726,7 +726,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L45)
+* Source: [classes/controller/AdminController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L45).
 
 
 ### <a name="property-$content"></a>$content
@@ -738,7 +738,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L36)
+* Source: [classes/controller/AdminController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L36).
 
 
 ### <a name="property-$controller_name"></a>$controller_name
@@ -750,7 +750,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L345)
+* Source: [classes/controller/AdminController.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L345).
 
 
 ### <a name="property-$currentIndex"></a>$currentIndex
@@ -763,7 +763,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/controller/AdminController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L33)
+* Source: [classes/controller/AdminController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L33).
 
 
 ### <a name="property-$default_form_language"></a>$default_form_language
@@ -775,7 +775,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L54)
+* Source: [classes/controller/AdminController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L54).
 
 
 ### <a name="property-$deleted"></a>$deleted
@@ -787,7 +787,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L294)
+* Source: [classes/controller/AdminController.php line 294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L294).
 
 
 ### <a name="property-$display"></a>$display
@@ -799,7 +799,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L315)
+* Source: [classes/controller/AdminController.php line 315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L315).
 
 
 ### <a name="property-$errors"></a>$errors
@@ -811,7 +811,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L138)
+* Source: [classes/controller/AdminController.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L138).
 
 
 ### <a name="property-$explicitSelect"></a>$explicitSelect
@@ -823,7 +823,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 264](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L264)
+* Source: [classes/controller/AdminController.php line 264](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L264).
 
 
 ### <a name="property-$fieldImageSettings"></a>$fieldImageSettings
@@ -835,7 +835,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 333](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L333)
+* Source: [classes/controller/AdminController.php line 333](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L333).
 
 
 ### <a name="property-$fields_form"></a>$fields_form
@@ -847,7 +847,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L153)
+* Source: [classes/controller/AdminController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L153).
 
 
 ### <a name="property-$fields_form_override"></a>$fields_form_override
@@ -859,7 +859,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L156)
+* Source: [classes/controller/AdminController.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L156).
 
 
 ### <a name="property-$fields_list"></a>$fields_list
@@ -871,7 +871,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L144)
+* Source: [classes/controller/AdminController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L144).
 
 
 ### <a name="property-$fields_options"></a>$fields_options
@@ -883,7 +883,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L162)
+* Source: [classes/controller/AdminController.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L162).
 
 
 ### <a name="property-$fields_value"></a>$fields_value
@@ -895,7 +895,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L135)
+* Source: [classes/controller/AdminController.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L135).
 
 
 ### <a name="property-$filter"></a>$filter
@@ -907,7 +907,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 297](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L297)
+* Source: [classes/controller/AdminController.php line 297](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L297).
 
 
 ### <a name="property-$filter_modules_list"></a>$filter_modules_list
@@ -919,7 +919,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L147)
+* Source: [classes/controller/AdminController.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L147).
 
 
 ### <a name="property-$helper"></a>$helper
@@ -931,7 +931,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L240)
+* Source: [classes/controller/AdminController.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L240).
 
 
 ### <a name="property-$id"></a>$id
@@ -943,7 +943,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L90)
+* Source: [classes/controller/AdminController.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L90).
 
 
 ### <a name="property-$id_object"></a>$id_object
@@ -955,7 +955,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 342](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L342)
+* Source: [classes/controller/AdminController.php line 342](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L342).
 
 
 ### <a name="property-$identifier"></a>$identifier
@@ -967,7 +967,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L78)
+* Source: [classes/controller/AdminController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L78).
 
 
 ### <a name="property-$identifier_name"></a>$identifier_name
@@ -979,7 +979,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L81)
+* Source: [classes/controller/AdminController.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L81).
 
 
 ### <a name="property-$imageType"></a>$imageType
@@ -991,7 +991,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L336)
+* Source: [classes/controller/AdminController.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L336).
 
 
 ### <a name="property-$informations"></a>$informations
@@ -1003,7 +1003,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L42)
+* Source: [classes/controller/AdminController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L42).
 
 
 ### <a name="property-$is_cms"></a>$is_cms
@@ -1015,7 +1015,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 285](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L285)
+* Source: [classes/controller/AdminController.php line 285](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L285).
 
 
 ### <a name="property-$is_prestashop_up"></a>$is_prestashop_up
@@ -1028,7 +1028,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/controller/AdminController.php line 3976](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L3976)
+* Source: [classes/controller/AdminController.php line 3976](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L3976).
 
 
 ### <a name="property-$lang"></a>$lang
@@ -1040,7 +1040,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L192)
+* Source: [classes/controller/AdminController.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L192).
 
 
 ### <a name="property-$layout"></a>$layout
@@ -1052,7 +1052,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L60)
+* Source: [classes/controller/AdminController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L60).
 
 
 ### <a name="property-$list_id"></a>$list_id
@@ -1064,7 +1064,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L75)
+* Source: [classes/controller/AdminController.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L75).
 
 
 ### <a name="property-$list_natives_modules"></a>$list_natives_modules
@@ -1076,7 +1076,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 372](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L372)
+* Source: [classes/controller/AdminController.php line 372](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L372).
 
 
 ### <a name="property-$list_no_link"></a>$list_no_link
@@ -1088,7 +1088,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L228)
+* Source: [classes/controller/AdminController.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L228).
 
 
 ### <a name="property-$list_partners_modules"></a>$list_partners_modules
@@ -1100,7 +1100,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 375](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L375)
+* Source: [classes/controller/AdminController.php line 375](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L375).
 
 
 ### <a name="property-$list_simple_header"></a>$list_simple_header
@@ -1112,7 +1112,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L141)
+* Source: [classes/controller/AdminController.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L141).
 
 
 ### <a name="property-$list_skip_actions"></a>$list_skip_actions
@@ -1124,7 +1124,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L222)
+* Source: [classes/controller/AdminController.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L222).
 
 
 ### <a name="property-$lite_display"></a>$lite_display
@@ -1136,7 +1136,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L225)
+* Source: [classes/controller/AdminController.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L225).
 
 
 ### <a name="property-$logged_on_addons"></a>$logged_on_addons
@@ -1148,7 +1148,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L381)
+* Source: [classes/controller/AdminController.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L381).
 
 
 ### <a name="property-$meta_title"></a>$meta_title
@@ -1160,7 +1160,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L66)
+* Source: [classes/controller/AdminController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L66).
 
 
 ### <a name="property-$modals"></a>$modals
@@ -1172,7 +1172,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L378)
+* Source: [classes/controller/AdminController.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L378).
 
 
 ### <a name="property-$modules_list"></a>$modules_list
@@ -1184,7 +1184,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L150)
+* Source: [classes/controller/AdminController.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L150).
 
 
 ### <a name="property-$multiple_fieldsets"></a>$multiple_fieldsets
@@ -1196,7 +1196,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L132)
+* Source: [classes/controller/AdminController.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L132).
 
 
 ### <a name="property-$multishop_context"></a>$multishop_context
@@ -1208,7 +1208,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L348)
+* Source: [classes/controller/AdminController.php line 348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L348).
 
 
 ### <a name="property-$multishop_context_group"></a>$multishop_context_group
@@ -1220,7 +1220,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L351)
+* Source: [classes/controller/AdminController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L351).
 
 
 ### <a name="property-$noLink"></a>$noLink
@@ -1232,7 +1232,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L300)
+* Source: [classes/controller/AdminController.php line 300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L300).
 
 
 ### <a name="property-$object"></a>$object
@@ -1244,7 +1244,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L339)
+* Source: [classes/controller/AdminController.php line 339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L339).
 
 
 ### <a name="property-$page_header_toolbar_btn"></a>$page_header_toolbar_btn
@@ -1256,7 +1256,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 363](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L363)
+* Source: [classes/controller/AdminController.php line 363](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L363).
 
 
 ### <a name="property-$page_header_toolbar_title"></a>$page_header_toolbar_title
@@ -1268,7 +1268,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L360)
+* Source: [classes/controller/AdminController.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L360).
 
 
 ### <a name="property-$path"></a>$path
@@ -1280,7 +1280,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L30)
+* Source: [classes/controller/AdminController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L30).
 
 
 ### <a name="property-$position_group_identifier"></a>$position_group_identifier
@@ -1292,7 +1292,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L291)
+* Source: [classes/controller/AdminController.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L291).
 
 
 ### <a name="property-$position_identifier"></a>$position_identifier
@@ -1304,7 +1304,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L288)
+* Source: [classes/controller/AdminController.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L288).
 
 
 ### <a name="property-$required_database"></a>$required_database
@@ -1316,7 +1316,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L93)
+* Source: [classes/controller/AdminController.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L93).
 
 
 ### <a name="property-$required_fields"></a>$required_fields
@@ -1328,7 +1328,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L237)
+* Source: [classes/controller/AdminController.php line 237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L237).
 
 
 ### <a name="property-$row_hover"></a>$row_hover
@@ -1340,7 +1340,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 309](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L309)
+* Source: [classes/controller/AdminController.php line 309](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L309).
 
 
 ### <a name="property-$shopLink"></a>$shopLink
@@ -1352,7 +1352,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L165)
+* Source: [classes/controller/AdminController.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L165).
 
 
 ### <a name="property-$shopLinkType"></a>$shopLinkType
@@ -1364,7 +1364,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L99)
+* Source: [classes/controller/AdminController.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L99).
 
 
 ### <a name="property-$shopShareDatas"></a>$shopShareDatas
@@ -1376,7 +1376,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L48)
+* Source: [classes/controller/AdminController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L48).
 
 
 ### <a name="property-$show_form_cancel_button"></a>$show_form_cancel_button
@@ -1388,7 +1388,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L366)
+* Source: [classes/controller/AdminController.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L366).
 
 
 ### <a name="property-$show_page_header_toolbar"></a>$show_page_header_toolbar
@@ -1400,7 +1400,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L357)
+* Source: [classes/controller/AdminController.php line 357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L357).
 
 
 ### <a name="property-$show_toolbar"></a>$show_toolbar
@@ -1412,7 +1412,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L183)
+* Source: [classes/controller/AdminController.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L183).
 
 
 ### <a name="property-$show_toolbar_options"></a>$show_toolbar_options
@@ -1424,7 +1424,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L186)
+* Source: [classes/controller/AdminController.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L186).
 
 
 ### <a name="property-$specificConfirmDelete"></a>$specificConfirmDelete
@@ -1436,7 +1436,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L303)
+* Source: [classes/controller/AdminController.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L303).
 
 
 ### <a name="property-$submit_action"></a>$submit_action
@@ -1448,7 +1448,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L159)
+* Source: [classes/controller/AdminController.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L159).
 
 
 ### <a name="property-$tabAccess"></a>$tabAccess
@@ -1460,7 +1460,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L87)
+* Source: [classes/controller/AdminController.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L87).
 
 
 ### <a name="property-$tab_modules_list"></a>$tab_modules_list
@@ -1472,7 +1472,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 321](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L321)
+* Source: [classes/controller/AdminController.php line 321](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L321).
 
 
 ### <a name="property-$table"></a>$table
@@ -1484,7 +1484,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L72)
+* Source: [classes/controller/AdminController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L72).
 
 
 ### <a name="property-$template"></a>$template
@@ -1496,7 +1496,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L69)
+* Source: [classes/controller/AdminController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L69).
 
 
 ### <a name="property-$token"></a>$token
@@ -1508,7 +1508,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L96)
+* Source: [classes/controller/AdminController.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L96).
 
 
 ### <a name="property-$toolbar_btn"></a>$toolbar_btn
@@ -1520,7 +1520,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L177)
+* Source: [classes/controller/AdminController.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L177).
 
 
 ### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
@@ -1532,7 +1532,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L180)
+* Source: [classes/controller/AdminController.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L180).
 
 
 ### <a name="property-$toolbar_title"></a>$toolbar_title
@@ -1544,7 +1544,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L174)
+* Source: [classes/controller/AdminController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L174).
 
 
 ### <a name="property-$tpl_delete_link_vars"></a>$tpl_delete_link_vars
@@ -1556,7 +1556,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L114)
+* Source: [classes/controller/AdminController.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L114).
 
 
 ### <a name="property-$tpl_folder"></a>$tpl_folder
@@ -1568,7 +1568,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L324)
+* Source: [classes/controller/AdminController.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L324).
 
 
 ### <a name="property-$tpl_form_vars"></a>$tpl_form_vars
@@ -1580,7 +1580,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L108)
+* Source: [classes/controller/AdminController.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L108).
 
 
 ### <a name="property-$tpl_list_vars"></a>$tpl_list_vars
@@ -1592,7 +1592,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L111)
+* Source: [classes/controller/AdminController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L111).
 
 
 ### <a name="property-$tpl_option_vars"></a>$tpl_option_vars
@@ -1604,7 +1604,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L117)
+* Source: [classes/controller/AdminController.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L117).
 
 
 ### <a name="property-$tpl_required_fields_vars"></a>$tpl_required_fields_vars
@@ -1616,7 +1616,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L123)
+* Source: [classes/controller/AdminController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L123).
 
 
 ### <a name="property-$tpl_view_vars"></a>$tpl_view_vars
@@ -1628,7 +1628,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L120)
+* Source: [classes/controller/AdminController.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L120).
 
 
 ### <a name="property-$translationsTab"></a>$translationsTab
@@ -1640,7 +1640,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* Source: [classes/controller/AdminController.php line 4038](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L4038)
+* Source: [classes/controller/AdminController.php line 4038](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L4038).
 
 
 ### <a name="property-$warnings"></a>$warnings
@@ -1652,7 +1652,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* Source: [classes/controller/AdminController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L39)
+* Source: [classes/controller/AdminController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L39).
 
 
 Methods

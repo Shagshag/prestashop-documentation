@@ -56,7 +56,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L78)
+* Source: [classes/Store.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L78).
 
 
 ### <a name="property-$address1"></a>$address1
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L39)
+* Source: [classes/Store.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L39).
 
 
 ### <a name="property-$address2"></a>$address2
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L42)
+* Source: [classes/Store.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L42).
 
 
 ### <a name="property-$city"></a>$city
@@ -92,7 +92,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L48)
+* Source: [classes/Store.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L48).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -104,7 +104,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L72)
+* Source: [classes/Store.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L72).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -116,7 +116,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L75)
+* Source: [classes/Store.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L75).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -129,7 +129,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Store.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L83)
+* Source: [classes/Store.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L83).
 
 
 ### <a name="property-$email"></a>$email
@@ -141,7 +141,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L69)
+* Source: [classes/Store.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L69).
 
 
 ### <a name="property-$fax"></a>$fax
@@ -153,7 +153,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L63)
+* Source: [classes/Store.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L63).
 
 
 ### <a name="property-$hours"></a>$hours
@@ -165,7 +165,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L57)
+* Source: [classes/Store.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L57).
 
 
 ### <a name="property-$id_country"></a>$id_country
@@ -177,7 +177,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L30)
+* Source: [classes/Store.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L30).
 
 
 ### <a name="property-$id_state"></a>$id_state
@@ -189,7 +189,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L33)
+* Source: [classes/Store.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L33).
 
 
 ### <a name="property-$latitude"></a>$latitude
@@ -201,7 +201,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L51)
+* Source: [classes/Store.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L51).
 
 
 ### <a name="property-$longitude"></a>$longitude
@@ -213,7 +213,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L54)
+* Source: [classes/Store.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L54).
 
 
 ### <a name="property-$name"></a>$name
@@ -225,7 +225,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L36)
+* Source: [classes/Store.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L36).
 
 
 ### <a name="property-$note"></a>$note
@@ -237,7 +237,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L66)
+* Source: [classes/Store.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L66).
 
 
 ### <a name="property-$phone"></a>$phone
@@ -249,7 +249,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L60)
+* Source: [classes/Store.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L60).
 
 
 ### <a name="property-$postcode"></a>$postcode
@@ -261,7 +261,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Store.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L45)
+* Source: [classes/Store.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L45).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -273,7 +273,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Store.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L107)
+* Source: [classes/Store.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L107).
 
 
 Methods

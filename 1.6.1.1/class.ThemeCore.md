@@ -61,7 +61,9 @@ Constants
 
 
 
-* Source: [classes/Theme.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L36)
+
+
+* Source: [classes/Theme.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L36).
 
 
 ### <a name="constant-CACHE_FILE_MUST_HAVE_THEMES_LIST"></a>CACHE_FILE_MUST_HAVE_THEMES_LIST
@@ -70,7 +72,9 @@ Constants
 
 
 
-* Source: [classes/Theme.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L38)
+
+
+* Source: [classes/Theme.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L38).
 
 
 ### <a name="constant-UPLOADED_THEME_DIR_NAME"></a>UPLOADED_THEME_DIR_NAME
@@ -79,7 +83,9 @@ Constants
 
 
 
-* Source: [classes/Theme.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L40)
+
+
+* Source: [classes/Theme.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L40).
 
 
 Properties
@@ -96,7 +102,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Theme.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L43)
+* Source: [classes/Theme.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L43).
 
 
 ### <a name="property-$default_left_column"></a>$default_left_column
@@ -108,7 +114,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Theme.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L32)
+* Source: [classes/Theme.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L32).
 
 
 ### <a name="property-$default_right_column"></a>$default_right_column
@@ -120,7 +126,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Theme.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L33)
+* Source: [classes/Theme.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L33).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -133,7 +139,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Theme.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L47)
+* Source: [classes/Theme.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L47).
 
 
 ### <a name="property-$directory"></a>$directory
@@ -145,7 +151,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Theme.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L30)
+* Source: [classes/Theme.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L30).
 
 
 ### <a name="property-$name"></a>$name
@@ -157,7 +163,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Theme.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L29)
+* Source: [classes/Theme.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L29).
 
 
 ### <a name="property-$product_per_page"></a>$product_per_page
@@ -169,7 +175,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Theme.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L34)
+* Source: [classes/Theme.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L34).
 
 
 ### <a name="property-$responsive"></a>$responsive
@@ -181,7 +187,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Theme.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L31)
+* Source: [classes/Theme.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L31).
 
 
 Methods

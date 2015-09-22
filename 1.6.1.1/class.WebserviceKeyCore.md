@@ -46,7 +46,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceKey.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#L33)
+* Source: [classes/webservice/WebserviceKey.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#L33).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -59,7 +59,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/webservice/WebserviceKey.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#L41)
+* Source: [classes/webservice/WebserviceKey.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#L41).
 
 
 ### <a name="property-$description"></a>$description
@@ -71,7 +71,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceKey.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#L36)
+* Source: [classes/webservice/WebserviceKey.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#L36).
 
 
 ### <a name="property-$key"></a>$key
@@ -83,7 +83,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceKey.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#L30)
+* Source: [classes/webservice/WebserviceKey.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#L30).
 
 
 Methods

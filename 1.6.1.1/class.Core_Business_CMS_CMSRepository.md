@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L30)
+* Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L30).
 
 
 ### <a name="property-$entityManager"></a>$entityManager
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L29)
+* Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L29).
 
 
 ### <a name="property-$entityMetaData"></a>$entityMetaData
@@ -92,7 +92,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L32)
+* Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L32).
 
 
 ### <a name="property-$queryBuilder"></a>$queryBuilder
@@ -104,7 +104,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L33)
+* Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L33).
 
 
 ### <a name="property-$tablesPrefix"></a>$tablesPrefix
@@ -116,7 +116,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L31)
+* Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L31).
 
 
 Methods

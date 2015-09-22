@@ -41,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/pdf/HTMLTemplateOrderReturn.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#L33)
+* Source: [classes/pdf/HTMLTemplateOrderReturn.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#L33).
 
 
 ### <a name="property-$order_return"></a>$order_return
@@ -53,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/pdf/HTMLTemplateOrderReturn.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#L32)
+* Source: [classes/pdf/HTMLTemplateOrderReturn.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#L32).
 
 
 Methods

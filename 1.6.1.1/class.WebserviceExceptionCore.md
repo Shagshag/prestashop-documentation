@@ -45,7 +45,9 @@ Constants
 
 
 
-* Source: [classes/webservice/WebserviceException.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L35)
+
+
+* Source: [classes/webservice/WebserviceException.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L35).
 
 
 ### <a name="constant-SIMPLE"></a>SIMPLE
@@ -54,7 +56,9 @@ Constants
 
 
 
-* Source: [classes/webservice/WebserviceException.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L34)
+
+
+* Source: [classes/webservice/WebserviceException.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L34).
 
 
 Properties
@@ -70,7 +74,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceException.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L31)
+* Source: [classes/webservice/WebserviceException.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L31).
 
 
 ### <a name="property-$status"></a>$status
@@ -82,7 +86,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceException.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L29)
+* Source: [classes/webservice/WebserviceException.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L29).
 
 
 ### <a name="property-$type"></a>$type
@@ -94,7 +98,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceException.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L32)
+* Source: [classes/webservice/WebserviceException.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L32).
 
 
 ### <a name="property-$wrong_value"></a>$wrong_value
@@ -106,7 +110,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceException.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L30)
+* Source: [classes/webservice/WebserviceException.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L30).
 
 
 Methods

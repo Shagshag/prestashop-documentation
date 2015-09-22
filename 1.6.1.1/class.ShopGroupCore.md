@@ -50,7 +50,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopGroup.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L33)
+* Source: [classes/shop/ShopGroup.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L33).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -63,7 +63,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/shop/ShopGroup.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L42)
+* Source: [classes/shop/ShopGroup.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L42).
 
 
 ### <a name="property-$deleted"></a>$deleted
@@ -75,7 +75,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopGroup.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L37)
+* Source: [classes/shop/ShopGroup.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L37).
 
 
 ### <a name="property-$name"></a>$name
@@ -87,7 +87,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopGroup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L32)
+* Source: [classes/shop/ShopGroup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L32).
 
 
 ### <a name="property-$share_customer"></a>$share_customer
@@ -99,7 +99,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopGroup.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L34)
+* Source: [classes/shop/ShopGroup.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L34).
 
 
 ### <a name="property-$share_order"></a>$share_order
@@ -111,7 +111,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopGroup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L36)
+* Source: [classes/shop/ShopGroup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L36).
 
 
 ### <a name="property-$share_stock"></a>$share_stock
@@ -123,7 +123,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/shop/ShopGroup.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L35)
+* Source: [classes/shop/ShopGroup.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L35).
 
 
 Methods

@@ -52,7 +52,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Feature.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#L36)
+* Source: [classes/Feature.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#L36).
 
 
 ### <a name="property-$name"></a>$name
@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Feature.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#L30)
+* Source: [classes/Feature.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#L30).
 
 
 ### <a name="property-$position"></a>$position
@@ -76,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Feature.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#L31)
+* Source: [classes/Feature.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#L31).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -88,7 +88,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Feature.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#L49)
+* Source: [classes/Feature.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#L49).
 
 
 Methods

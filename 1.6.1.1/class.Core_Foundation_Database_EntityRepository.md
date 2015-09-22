@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L30)
+* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L30).
 
 
 ### <a name="property-$entityManager"></a>$entityManager
@@ -76,7 +76,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L29)
+* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L29).
 
 
 ### <a name="property-$entityMetaData"></a>$entityMetaData
@@ -88,7 +88,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L32)
+* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L32).
 
 
 ### <a name="property-$queryBuilder"></a>$queryBuilder
@@ -100,7 +100,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L33)
+* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L33).
 
 
 ### <a name="property-$tablesPrefix"></a>$tablesPrefix
@@ -112,7 +112,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L31)
+* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L31).
 
 
 Methods

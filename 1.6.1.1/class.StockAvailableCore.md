@@ -63,7 +63,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/stock/StockAvailable.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L59)
+* Source: [classes/stock/StockAvailable.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L59).
 
 
 ### <a name="property-$depends_on_stock"></a>$depends_on_stock
@@ -75,7 +75,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockAvailable.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L51)
+* Source: [classes/stock/StockAvailable.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L51).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -87,7 +87,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockAvailable.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L36)
+* Source: [classes/stock/StockAvailable.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L36).
 
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
@@ -99,7 +99,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockAvailable.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L39)
+* Source: [classes/stock/StockAvailable.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L39).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -111,7 +111,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockAvailable.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L42)
+* Source: [classes/stock/StockAvailable.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L42).
 
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
@@ -123,7 +123,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockAvailable.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L45)
+* Source: [classes/stock/StockAvailable.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L45).
 
 
 ### <a name="property-$out_of_stock"></a>$out_of_stock
@@ -135,7 +135,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockAvailable.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L54)
+* Source: [classes/stock/StockAvailable.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L54).
 
 
 ### <a name="property-$quantity"></a>$quantity
@@ -147,7 +147,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockAvailable.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L48)
+* Source: [classes/stock/StockAvailable.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L48).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -159,7 +159,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockAvailable.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L76)
+* Source: [classes/stock/StockAvailable.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L76).
 
 
 Methods

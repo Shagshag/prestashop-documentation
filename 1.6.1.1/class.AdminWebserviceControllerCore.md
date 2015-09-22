@@ -48,7 +48,7 @@ this will be filled later
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminWebserviceController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#L33)
+* Source: [controllers/admin/AdminWebserviceController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#L33).
 
 
 ### <a name="property-$object"></a>$object
@@ -60,7 +60,7 @@ this will be filled later
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminWebserviceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#L30)
+* Source: [controllers/admin/AdminWebserviceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#L30).
 
 
 ### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
@@ -72,7 +72,7 @@ this will be filled later
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminWebserviceController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#L34)
+* Source: [controllers/admin/AdminWebserviceController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#L34).
 
 
 Methods

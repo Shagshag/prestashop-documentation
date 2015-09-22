@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cookie.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L49)
+* Source: [classes/Cookie.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L49).
 
 
 ### <a name="property-$_cipherTool"></a>$_cipherTool
@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cookie.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L45)
+* Source: [classes/Cookie.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L45).
 
 
 ### <a name="property-$_content"></a>$_content
@@ -90,7 +90,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cookie.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L30)
+* Source: [classes/Cookie.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L30).
 
 
 ### <a name="property-$_domain"></a>$_domain
@@ -102,7 +102,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cookie.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L39)
+* Source: [classes/Cookie.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L39).
 
 
 ### <a name="property-$_expire"></a>$_expire
@@ -114,7 +114,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cookie.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L36)
+* Source: [classes/Cookie.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L36).
 
 
 ### <a name="property-$_modified"></a>$_modified
@@ -126,7 +126,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cookie.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L47)
+* Source: [classes/Cookie.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L47).
 
 
 ### <a name="property-$_name"></a>$_name
@@ -138,7 +138,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cookie.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L33)
+* Source: [classes/Cookie.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L33).
 
 
 ### <a name="property-$_path"></a>$_path
@@ -150,7 +150,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cookie.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L42)
+* Source: [classes/Cookie.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L42).
 
 
 ### <a name="property-$_salt"></a>$_salt
@@ -162,7 +162,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cookie.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L51)
+* Source: [classes/Cookie.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L51).
 
 
 ### <a name="property-$_secure"></a>$_secure
@@ -174,7 +174,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cookie.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L55)
+* Source: [classes/Cookie.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L55).
 
 
 ### <a name="property-$_standalone"></a>$_standalone
@@ -186,7 +186,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Cookie.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L53)
+* Source: [classes/Cookie.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L53).
 
 
 Methods

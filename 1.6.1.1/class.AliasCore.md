@@ -44,7 +44,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Alias.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L31)
+* Source: [classes/Alias.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L31).
 
 
 ### <a name="property-$alias"></a>$alias
@@ -56,7 +56,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Alias.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L29)
+* Source: [classes/Alias.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L29).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -69,7 +69,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Alias.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L36)
+* Source: [classes/Alias.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L36).
 
 
 ### <a name="property-$search"></a>$search
@@ -81,7 +81,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Alias.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L30)
+* Source: [classes/Alias.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L30).
 
 
 Methods

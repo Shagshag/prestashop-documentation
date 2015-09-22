@@ -40,7 +40,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/PdfOrderSlipController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#L31)
+* Source: [controllers/front/PdfOrderSlipController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#L31).
 
 
 ### <a name="property-$display_header"></a>$display_header
@@ -52,7 +52,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/PdfOrderSlipController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#L30)
+* Source: [controllers/front/PdfOrderSlipController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#L30).
 
 
 ### <a name="property-$order_slip"></a>$order_slip
@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/PdfOrderSlipController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#L33)
+* Source: [controllers/front/PdfOrderSlipController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#L33).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -76,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/PdfOrderSlipController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#L29)
+* Source: [controllers/front/PdfOrderSlipController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#L29).
 
 
 Methods

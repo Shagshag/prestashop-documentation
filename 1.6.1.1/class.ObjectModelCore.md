@@ -131,9 +131,11 @@ Constants
 
     const FORMAT_COMMON = 1
 
+List of data to format
 
 
-* Source: [classes/ObjectModel.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L44)
+
+* Source: [classes/ObjectModel.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L44).
 
 
 ### <a name="constant-FORMAT_LANG"></a>FORMAT_LANG
@@ -142,7 +144,9 @@ Constants
 
 
 
-* Source: [classes/ObjectModel.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L45)
+
+
+* Source: [classes/ObjectModel.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L45).
 
 
 ### <a name="constant-FORMAT_SHOP"></a>FORMAT_SHOP
@@ -151,7 +155,9 @@ Constants
 
 
 
-* Source: [classes/ObjectModel.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L46)
+
+
+* Source: [classes/ObjectModel.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L46).
 
 
 ### <a name="constant-HAS_MANY"></a>HAS_MANY
@@ -160,16 +166,20 @@ Constants
 
 
 
-* Source: [classes/ObjectModel.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L52)
+
+
+* Source: [classes/ObjectModel.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L52).
 
 
 ### <a name="constant-HAS_ONE"></a>HAS_ONE
 
     const HAS_ONE = 1
 
+List of association types
 
 
-* Source: [classes/ObjectModel.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L51)
+
+* Source: [classes/ObjectModel.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L51).
 
 
 ### <a name="constant-TYPE_BOOL"></a>TYPE_BOOL
@@ -178,7 +188,9 @@ Constants
 
 
 
-* Source: [classes/ObjectModel.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L33)
+
+
+* Source: [classes/ObjectModel.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L33).
 
 
 ### <a name="constant-TYPE_DATE"></a>TYPE_DATE
@@ -187,7 +199,9 @@ Constants
 
 
 
-* Source: [classes/ObjectModel.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L36)
+
+
+* Source: [classes/ObjectModel.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L36).
 
 
 ### <a name="constant-TYPE_FLOAT"></a>TYPE_FLOAT
@@ -196,7 +210,9 @@ Constants
 
 
 
-* Source: [classes/ObjectModel.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L35)
+
+
+* Source: [classes/ObjectModel.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L35).
 
 
 ### <a name="constant-TYPE_HTML"></a>TYPE_HTML
@@ -205,16 +221,20 @@ Constants
 
 
 
-* Source: [classes/ObjectModel.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L37)
+
+
+* Source: [classes/ObjectModel.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L37).
 
 
 ### <a name="constant-TYPE_INT"></a>TYPE_INT
 
     const TYPE_INT = 1
 
+List of field types
 
 
-* Source: [classes/ObjectModel.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L32)
+
+* Source: [classes/ObjectModel.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L32).
 
 
 ### <a name="constant-TYPE_NOTHING"></a>TYPE_NOTHING
@@ -223,7 +243,9 @@ Constants
 
 
 
-* Source: [classes/ObjectModel.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L38)
+
+
+* Source: [classes/ObjectModel.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L38).
 
 
 ### <a name="constant-TYPE_SQL"></a>TYPE_SQL
@@ -232,7 +254,9 @@ Constants
 
 
 
-* Source: [classes/ObjectModel.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L39)
+
+
+* Source: [classes/ObjectModel.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L39).
 
 
 ### <a name="constant-TYPE_STRING"></a>TYPE_STRING
@@ -241,7 +265,9 @@ Constants
 
 
 
-* Source: [classes/ObjectModel.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L34)
+
+
+* Source: [classes/ObjectModel.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L34).
 
 
 Properties
@@ -258,7 +284,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/ObjectModel.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L164)
+* Source: [classes/ObjectModel.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L164).
 
 
 ### <a name="property-$db"></a>$db
@@ -271,7 +297,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/ObjectModel.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L156)
+* Source: [classes/ObjectModel.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L156).
 
 
 ### <a name="property-$def"></a>$def
@@ -283,7 +309,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L150)
+* Source: [classes/ObjectModel.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L150).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -296,7 +322,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/ObjectModel.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L139)
+* Source: [classes/ObjectModel.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L139).
 
 
 ### <a name="property-$fieldsRequired"></a>$fieldsRequired
@@ -308,7 +334,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L88)
+* Source: [classes/ObjectModel.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L88).
 
 
 ### <a name="property-$fieldsRequiredDatabase"></a>$fieldsRequiredDatabase
@@ -321,7 +347,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/ObjectModel.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L70)
+* Source: [classes/ObjectModel.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L70).
 
 
 ### <a name="property-$fieldsRequiredLang"></a>$fieldsRequiredLang
@@ -333,7 +359,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L106)
+* Source: [classes/ObjectModel.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L106).
 
 
 ### <a name="property-$fieldsSize"></a>$fieldsSize
@@ -345,7 +371,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L94)
+* Source: [classes/ObjectModel.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L94).
 
 
 ### <a name="property-$fieldsSizeLang"></a>$fieldsSizeLang
@@ -357,7 +383,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L112)
+* Source: [classes/ObjectModel.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L112).
 
 
 ### <a name="property-$fieldsValidate"></a>$fieldsValidate
@@ -369,7 +395,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L100)
+* Source: [classes/ObjectModel.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L100).
 
 
 ### <a name="property-$fieldsValidateLang"></a>$fieldsValidateLang
@@ -381,7 +407,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L118)
+* Source: [classes/ObjectModel.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L118).
 
 
 ### <a name="property-$force_id"></a>$force_id
@@ -393,7 +419,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ObjectModel.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L159)
+* Source: [classes/ObjectModel.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L159).
 
 
 ### <a name="property-$get_shop_from_context"></a>$get_shop_from_context
@@ -405,7 +431,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L67)
+* Source: [classes/ObjectModel.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L67).
 
 
 ### <a name="property-$id"></a>$id
@@ -417,7 +443,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ObjectModel.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L55)
+* Source: [classes/ObjectModel.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L55).
 
 
 ### <a name="property-$id_lang"></a>$id_lang
@@ -429,7 +455,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L58)
+* Source: [classes/ObjectModel.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L58).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -441,7 +467,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L61)
+* Source: [classes/ObjectModel.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L61).
 
 
 ### <a name="property-$id_shop_list"></a>$id_shop_list
@@ -453,7 +479,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ObjectModel.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L64)
+* Source: [classes/ObjectModel.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L64).
 
 
 ### <a name="property-$identifier"></a>$identifier
@@ -465,7 +491,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L82)
+* Source: [classes/ObjectModel.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L82).
 
 
 ### <a name="property-$image_dir"></a>$image_dir
@@ -477,7 +503,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L130)
+* Source: [classes/ObjectModel.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L130).
 
 
 ### <a name="property-$image_format"></a>$image_format
@@ -489,7 +515,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L133)
+* Source: [classes/ObjectModel.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L133).
 
 
 ### <a name="property-$loaded_classes"></a>$loaded_classes
@@ -502,7 +528,7 @@ Values are assigned during object initialization.
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/ObjectModel.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L147)
+* Source: [classes/ObjectModel.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L147).
 
 
 ### <a name="property-$table"></a>$table
@@ -514,7 +540,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L76)
+* Source: [classes/ObjectModel.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L76).
 
 
 ### <a name="property-$tables"></a>$tables
@@ -526,7 +552,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L124)
+* Source: [classes/ObjectModel.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L124).
 
 
 ### <a name="property-$update_fields"></a>$update_fields
@@ -538,7 +564,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L153)
+* Source: [classes/ObjectModel.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L153).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -550,7 +576,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **protected**
-* Source: [classes/ObjectModel.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L127)
+* Source: [classes/ObjectModel.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L127).
 
 
 Methods

@@ -39,7 +39,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/CMSRole.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L38)
+* Source: [classes/CMSRole.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L38).
 
 
 ### <a name="property-$id_cms"></a>$id_cms
@@ -51,7 +51,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSRole.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L33)
+* Source: [classes/CMSRole.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L33).
 
 
 ### <a name="property-$name"></a>$name
@@ -63,7 +63,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSRole.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L31)
+* Source: [classes/CMSRole.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L31).
 
 
 Methods

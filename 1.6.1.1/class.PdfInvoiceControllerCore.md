@@ -42,7 +42,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/PdfInvoiceController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L33)
+* Source: [controllers/front/PdfInvoiceController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L33).
 
 
 ### <a name="property-$display_footer"></a>$display_footer
@@ -54,7 +54,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/PdfInvoiceController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L31)
+* Source: [controllers/front/PdfInvoiceController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L31).
 
 
 ### <a name="property-$display_header"></a>$display_header
@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/PdfInvoiceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L30)
+* Source: [controllers/front/PdfInvoiceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L30).
 
 
 ### <a name="property-$filename"></a>$filename
@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/PdfInvoiceController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L36)
+* Source: [controllers/front/PdfInvoiceController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L36).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -90,7 +90,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/PdfInvoiceController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L29)
+* Source: [controllers/front/PdfInvoiceController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L29).
 
 
 ### <a name="property-$template"></a>$template
@@ -102,7 +102,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/PdfInvoiceController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L35)
+* Source: [controllers/front/PdfInvoiceController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L35).
 
 
 Methods

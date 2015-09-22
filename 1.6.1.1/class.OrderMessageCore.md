@@ -40,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderMessage.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#L36)
+* Source: [classes/order/OrderMessage.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#L36).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -53,7 +53,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/order/OrderMessage.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#L41)
+* Source: [classes/order/OrderMessage.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#L41).
 
 
 ### <a name="property-$message"></a>$message
@@ -65,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderMessage.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#L33)
+* Source: [classes/order/OrderMessage.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#L33).
 
 
 ### <a name="property-$name"></a>$name
@@ -77,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderMessage.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#L30)
+* Source: [classes/order/OrderMessage.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#L30).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -89,7 +89,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderMessage.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#L54)
+* Source: [classes/order/OrderMessage.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#L54).
 
 
 Methods

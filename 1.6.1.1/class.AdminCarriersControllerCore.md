@@ -53,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminCarriersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L30)
+* Source: [controllers/admin/AdminCarriersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L30).
 
 
 ### <a name="property-$position_identifier"></a>$position_identifier
@@ -65,7 +65,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminCarriersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L32)
+* Source: [controllers/admin/AdminCarriersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L32).
 
 
 Methods

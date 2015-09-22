@@ -39,7 +39,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/ModuleAdminController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#L33)
+* Source: [classes/controller/ModuleAdminController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#L33).
 
 
 Methods

@@ -69,7 +69,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L31)
+* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L31).
 
 
 ### <a name="property-$callToActionText"></a>$callToActionText
@@ -81,7 +81,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L29)
+* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L29).
 
 
 ### <a name="property-$form"></a>$form
@@ -93,7 +93,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L34)
+* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L34).
 
 
 ### <a name="property-$inputs"></a>$inputs
@@ -105,7 +105,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L33)
+* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L33).
 
 
 ### <a name="property-$logo"></a>$logo
@@ -117,7 +117,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L30)
+* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L30).
 
 
 ### <a name="property-$method"></a>$method
@@ -129,7 +129,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L32)
+* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L32).
 
 
 ### <a name="property-$moduleName"></a>$moduleName
@@ -141,7 +141,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L35)
+* Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L35).
 
 
 Methods

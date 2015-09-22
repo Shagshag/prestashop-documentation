@@ -48,7 +48,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Tag.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L38)
+* Source: [classes/Tag.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L38).
 
 
 ### <a name="property-$id_lang"></a>$id_lang
@@ -60,7 +60,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Tag.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L30)
+* Source: [classes/Tag.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L30).
 
 
 ### <a name="property-$name"></a>$name
@@ -72,7 +72,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Tag.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L33)
+* Source: [classes/Tag.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L33).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -84,7 +84,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Tag.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L48)
+* Source: [classes/Tag.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L48).
 
 
 Methods

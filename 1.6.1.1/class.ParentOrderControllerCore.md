@@ -51,7 +51,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/ParentOrderController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L42)
+* Source: [controllers/front/ParentOrderController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L42).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -63,7 +63,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/ParentOrderController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L40)
+* Source: [controllers/front/ParentOrderController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L40).
 
 
 ### <a name="property-$ssl"></a>$ssl
@@ -75,7 +75,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/ParentOrderController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L39)
+* Source: [controllers/front/ParentOrderController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L39).
 
 
 Methods

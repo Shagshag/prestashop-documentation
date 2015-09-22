@@ -38,7 +38,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockManagerModule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerModule.php#L32)
+* Source: [classes/stock/StockManagerModule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerModule.php#L32).
 
 
 Methods

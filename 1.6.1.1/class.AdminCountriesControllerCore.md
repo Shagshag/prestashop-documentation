@@ -47,7 +47,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminCountriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L30)
+* Source: [controllers/admin/AdminCountriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L30).
 
 
 Methods

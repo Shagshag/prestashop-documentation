@@ -60,16 +60,20 @@ Constants
 
 
 
-* Source: [classes/Dispatcher.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L36)
+
+
+* Source: [classes/Dispatcher.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L36).
 
 
 ### <a name="constant-FC_FRONT"></a>FC_FRONT
 
     const FC_FRONT = 1
 
+List of available front controllers types
 
 
-* Source: [classes/Dispatcher.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L35)
+
+* Source: [classes/Dispatcher.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L35).
 
 
 ### <a name="constant-FC_MODULE"></a>FC_MODULE
@@ -78,7 +82,9 @@ Constants
 
 
 
-* Source: [classes/Dispatcher.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L37)
+
+
+* Source: [classes/Dispatcher.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L37).
 
 
 Properties
@@ -94,7 +100,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Dispatcher.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L157)
+* Source: [classes/Dispatcher.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L157).
 
 
 ### <a name="property-$controller_not_found"></a>$controller_not_found
@@ -106,7 +112,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Dispatcher.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L178)
+* Source: [classes/Dispatcher.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L178).
 
 
 ### <a name="property-$default_controller"></a>$default_controller
@@ -118,7 +124,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Dispatcher.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L172)
+* Source: [classes/Dispatcher.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L172).
 
 
 ### <a name="property-$default_routes"></a>$default_routes
@@ -130,7 +136,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Dispatcher.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L47)
+* Source: [classes/Dispatcher.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L47).
 
 
 ### <a name="property-$empty_route"></a>$empty_route
@@ -142,7 +148,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Dispatcher.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L167)
+* Source: [classes/Dispatcher.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L167).
 
 
 ### <a name="property-$front_controller"></a>$front_controller
@@ -154,7 +160,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Dispatcher.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L183)
+* Source: [classes/Dispatcher.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L183).
 
 
 ### <a name="property-$instance"></a>$instance
@@ -167,7 +173,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Dispatcher.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L42)
+* Source: [classes/Dispatcher.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L42).
 
 
 ### <a name="property-$multilang_activated"></a>$multilang_activated
@@ -179,7 +185,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Dispatcher.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L147)
+* Source: [classes/Dispatcher.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L147).
 
 
 ### <a name="property-$request_uri"></a>$request_uri
@@ -191,7 +197,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Dispatcher.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L162)
+* Source: [classes/Dispatcher.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L162).
 
 
 ### <a name="property-$routes"></a>$routes
@@ -203,7 +209,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Dispatcher.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L152)
+* Source: [classes/Dispatcher.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L152).
 
 
 ### <a name="property-$use_default_controller"></a>$use_default_controller
@@ -215,7 +221,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Dispatcher.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L173)
+* Source: [classes/Dispatcher.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L173).
 
 
 ### <a name="property-$use_routes"></a>$use_routes
@@ -227,7 +233,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Dispatcher.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L145)
+* Source: [classes/Dispatcher.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L145).
 
 
 Methods

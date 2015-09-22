@@ -44,7 +44,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementSearch.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L30)
+* Source: [classes/webservice/WebserviceSpecificManagementSearch.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L30).
 
 
 ### <a name="property-$output"></a>$output
@@ -56,7 +56,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementSearch.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L31)
+* Source: [classes/webservice/WebserviceSpecificManagementSearch.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L31).
 
 
 ### <a name="property-$wsObject"></a>$wsObject
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementSearch.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L34)
+* Source: [classes/webservice/WebserviceSpecificManagementSearch.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L34).
 
 
 Methods

@@ -44,7 +44,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminQuickAccessesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L30)
+* Source: [controllers/admin/AdminQuickAccessesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L30).
 
 
 Methods

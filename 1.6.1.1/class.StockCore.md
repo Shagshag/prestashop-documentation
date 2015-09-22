@@ -52,7 +52,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/stock/Stock.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L64)
+* Source: [classes/stock/Stock.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L64).
 
 
 ### <a name="property-$ean13"></a>$ean13
@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Stock.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L47)
+* Source: [classes/stock/Stock.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L47).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -76,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Stock.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L38)
+* Source: [classes/stock/Stock.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L38).
 
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
@@ -88,7 +88,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Stock.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L41)
+* Source: [classes/stock/Stock.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L41).
 
 
 ### <a name="property-$id_warehouse"></a>$id_warehouse
@@ -100,7 +100,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Stock.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L35)
+* Source: [classes/stock/Stock.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L35).
 
 
 ### <a name="property-$physical_quantity"></a>$physical_quantity
@@ -112,7 +112,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Stock.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L53)
+* Source: [classes/stock/Stock.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L53).
 
 
 ### <a name="property-$price_te"></a>$price_te
@@ -124,7 +124,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Stock.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L59)
+* Source: [classes/stock/Stock.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L59).
 
 
 ### <a name="property-$reference"></a>$reference
@@ -136,7 +136,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Stock.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L44)
+* Source: [classes/stock/Stock.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L44).
 
 
 ### <a name="property-$upc"></a>$upc
@@ -148,7 +148,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Stock.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L50)
+* Source: [classes/stock/Stock.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L50).
 
 
 ### <a name="property-$usable_quantity"></a>$usable_quantity
@@ -160,7 +160,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Stock.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L56)
+* Source: [classes/stock/Stock.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L56).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -172,7 +172,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/Stock.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L83)
+* Source: [classes/stock/Stock.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L83).
 
 
 Methods

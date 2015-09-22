@@ -61,7 +61,7 @@ Json content
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputJSON.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L48)
+* Source: [classes/webservice/WebserviceOutputJSON.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L48).
 
 
 ### <a name="property-$currentAssociatedEntity"></a>$currentAssociatedEntity
@@ -73,7 +73,7 @@ Current association
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputJSON.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L43)
+* Source: [classes/webservice/WebserviceOutputJSON.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L43).
 
 
 ### <a name="property-$currentEntity"></a>$currentEntity
@@ -85,7 +85,7 @@ Current entity
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputJSON.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L38)
+* Source: [classes/webservice/WebserviceOutputJSON.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L38).
 
 
 ### <a name="property-$docUrl"></a>$docUrl
@@ -97,7 +97,7 @@ Current entity
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceOutputJSON.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L30)
+* Source: [classes/webservice/WebserviceOutputJSON.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L30).
 
 
 ### <a name="property-$languages"></a>$languages
@@ -109,7 +109,7 @@ Current entity
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceOutputJSON.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L31)
+* Source: [classes/webservice/WebserviceOutputJSON.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L31).
 
 
 ### <a name="property-$schemaToDisplay"></a>$schemaToDisplay
@@ -121,7 +121,7 @@ Current entity
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputJSON.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L33)
+* Source: [classes/webservice/WebserviceOutputJSON.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L33).
 
 
 ### <a name="property-$wsUrl"></a>$wsUrl
@@ -133,7 +133,7 @@ Current entity
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputJSON.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L32)
+* Source: [classes/webservice/WebserviceOutputJSON.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L32).
 
 
 Methods

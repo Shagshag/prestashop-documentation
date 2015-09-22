@@ -48,7 +48,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminStockCoverController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L31)
+* Source: [controllers/admin/AdminStockCoverController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L31).
 
 
 ### <a name="property-$stock_cover_periods"></a>$stock_cover_periods
@@ -60,7 +60,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminStockCoverController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L34)
+* Source: [controllers/admin/AdminStockCoverController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L34).
 
 
 ### <a name="property-$stock_cover_warehouses"></a>$stock_cover_warehouses
@@ -72,7 +72,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminStockCoverController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L33)
+* Source: [controllers/admin/AdminStockCoverController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L33).
 
 
 Methods

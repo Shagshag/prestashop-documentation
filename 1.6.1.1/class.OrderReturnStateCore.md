@@ -38,7 +38,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderReturnState.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#L33)
+* Source: [classes/order/OrderReturnState.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#L33).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -51,7 +51,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/order/OrderReturnState.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#L38)
+* Source: [classes/order/OrderReturnState.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#L38).
 
 
 ### <a name="property-$name"></a>$name
@@ -63,7 +63,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderReturnState.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#L30)
+* Source: [classes/order/OrderReturnState.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#L30).
 
 
 Methods

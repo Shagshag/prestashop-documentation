@@ -38,7 +38,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/log/FileLogger.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#L29)
+* Source: [classes/log/FileLogger.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#L29).
 
 
 Methods

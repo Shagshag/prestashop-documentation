@@ -52,7 +52,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [controllers/admin/AdminRequestSqlController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L35)
+* Source: [controllers/admin/AdminRequestSqlController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L35).
 
 
 ### <a name="property-$object"></a>$object
@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminRequestSqlController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L30)
+* Source: [controllers/admin/AdminRequestSqlController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L30).
 
 
 Methods

@@ -45,7 +45,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CompareProduct.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#L33)
+* Source: [classes/CompareProduct.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#L33).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -57,7 +57,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CompareProduct.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#L35)
+* Source: [classes/CompareProduct.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#L35).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -70,7 +70,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/CompareProduct.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#L40)
+* Source: [classes/CompareProduct.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#L40).
 
 
 ### <a name="property-$id_compare"></a>$id_compare
@@ -82,7 +82,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CompareProduct.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#L29)
+* Source: [classes/CompareProduct.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#L29).
 
 
 ### <a name="property-$id_customer"></a>$id_customer
@@ -94,7 +94,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CompareProduct.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#L31)
+* Source: [classes/CompareProduct.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#L31).
 
 
 Methods

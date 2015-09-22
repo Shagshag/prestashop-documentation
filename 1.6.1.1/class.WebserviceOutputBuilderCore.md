@@ -77,7 +77,9 @@ Constants
 
 
 
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L36)
+
+
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L36).
 
 
 ### <a name="constant-VIEW_LIST"></a>VIEW_LIST
@@ -86,7 +88,9 @@ Constants
 
 
 
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L35)
+
+
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L35).
 
 
 Properties
@@ -103,7 +107,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L52)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L52).
 
 
 ### <a name="property-$depth"></a>$depth
@@ -115,7 +119,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L44)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L44).
 
 
 ### <a name="property-$fieldsToDisplay"></a>$fieldsToDisplay
@@ -127,7 +131,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L46)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L46).
 
 
 ### <a name="property-$headerParams"></a>$headerParams
@@ -139,7 +143,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L55)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L55).
 
 
 ### <a name="property-$objectRender"></a>$objectRender
@@ -151,7 +155,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L42)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L42).
 
 
 ### <a name="property-$output"></a>$output
@@ -163,7 +167,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L39)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L39).
 
 
 ### <a name="property-$schemaToDisplay"></a>$schemaToDisplay
@@ -175,7 +179,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L45)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L45).
 
 
 ### <a name="property-$specificFields"></a>$specificFields
@@ -187,7 +191,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L47)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L47).
 
 
 ### <a name="property-$status"></a>$status
@@ -199,7 +203,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L65)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L65).
 
 
 ### <a name="property-$statusInt"></a>$statusInt
@@ -211,7 +215,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L49)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L49).
 
 
 ### <a name="property-$virtualFields"></a>$virtualFields
@@ -223,7 +227,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L48)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L48).
 
 
 ### <a name="property-$wsParamOverrides"></a>$wsParamOverrides
@@ -235,7 +239,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L50)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L50).
 
 
 ### <a name="property-$wsResource"></a>$wsResource
@@ -247,7 +251,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L43)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L43).
 
 
 ### <a name="property-$wsUrl"></a>$wsUrl
@@ -259,7 +263,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceOutputBuilder.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L38)
+* Source: [classes/webservice/WebserviceOutputBuilder.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L38).
 
 
 Methods

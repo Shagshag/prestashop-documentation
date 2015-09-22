@@ -38,7 +38,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Rijndael.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#L30)
+* Source: [classes/Rijndael.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#L30).
 
 
 ### <a name="property-$_key"></a>$_key
@@ -50,7 +50,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Rijndael.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#L29)
+* Source: [classes/Rijndael.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#L29).
 
 
 Methods

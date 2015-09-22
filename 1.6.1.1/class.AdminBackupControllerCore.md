@@ -47,7 +47,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminBackupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#L30)
+* Source: [controllers/admin/AdminBackupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#L30).
 
 
 ### <a name="property-$sort_by"></a>$sort_by
@@ -59,7 +59,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminBackupController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#L33)
+* Source: [controllers/admin/AdminBackupController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#L33).
 
 
 Methods

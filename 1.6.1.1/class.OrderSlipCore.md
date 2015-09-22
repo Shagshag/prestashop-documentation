@@ -67,7 +67,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L54)
+* Source: [classes/order/OrderSlip.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L54).
 
 
 ### <a name="property-$conversion_rate"></a>$conversion_rate
@@ -79,7 +79,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L39)
+* Source: [classes/order/OrderSlip.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L39).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -91,7 +91,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L66)
+* Source: [classes/order/OrderSlip.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L66).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -103,7 +103,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L69)
+* Source: [classes/order/OrderSlip.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L69).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -116,7 +116,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/order/OrderSlip.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L77)
+* Source: [classes/order/OrderSlip.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L77).
 
 
 ### <a name="property-$id"></a>$id
@@ -128,7 +128,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L30)
+* Source: [classes/order/OrderSlip.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L30).
 
 
 ### <a name="property-$id_customer"></a>$id_customer
@@ -140,7 +140,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L33)
+* Source: [classes/order/OrderSlip.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L33).
 
 
 ### <a name="property-$id_order"></a>$id_order
@@ -152,7 +152,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L36)
+* Source: [classes/order/OrderSlip.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L36).
 
 
 ### <a name="property-$order_slip_type"></a>$order_slip_type
@@ -164,7 +164,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L72)
+* Source: [classes/order/OrderSlip.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L72).
 
 
 ### <a name="property-$partial"></a>$partial
@@ -176,7 +176,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L63)
+* Source: [classes/order/OrderSlip.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L63).
 
 
 ### <a name="property-$shipping_cost"></a>$shipping_cost
@@ -188,7 +188,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L57)
+* Source: [classes/order/OrderSlip.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L57).
 
 
 ### <a name="property-$shipping_cost_amount"></a>$shipping_cost_amount
@@ -200,7 +200,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L60)
+* Source: [classes/order/OrderSlip.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L60).
 
 
 ### <a name="property-$total_products_tax_excl"></a>$total_products_tax_excl
@@ -212,7 +212,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L42)
+* Source: [classes/order/OrderSlip.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L42).
 
 
 ### <a name="property-$total_products_tax_incl"></a>$total_products_tax_incl
@@ -224,7 +224,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L45)
+* Source: [classes/order/OrderSlip.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L45).
 
 
 ### <a name="property-$total_shipping_tax_excl"></a>$total_shipping_tax_excl
@@ -236,7 +236,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L48)
+* Source: [classes/order/OrderSlip.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L48).
 
 
 ### <a name="property-$total_shipping_tax_incl"></a>$total_shipping_tax_incl
@@ -248,7 +248,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderSlip.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L51)
+* Source: [classes/order/OrderSlip.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L51).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -260,7 +260,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderSlip.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L98)
+* Source: [classes/order/OrderSlip.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L98).
 
 
 Methods

@@ -56,7 +56,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/tax/Tax.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L59)
+* Source: [classes/tax/Tax.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L59).
 
 
 ### <a name="property-$_product_tax_via_rules"></a>$_product_tax_via_rules
@@ -69,7 +69,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/tax/Tax.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L60)
+* Source: [classes/tax/Tax.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L60).
 
 
 ### <a name="property-$active"></a>$active
@@ -81,7 +81,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/Tax.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L37)
+* Source: [classes/tax/Tax.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L37).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -94,7 +94,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/tax/Tax.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L45)
+* Source: [classes/tax/Tax.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L45).
 
 
 ### <a name="property-$deleted"></a>$deleted
@@ -106,7 +106,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/Tax.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L40)
+* Source: [classes/tax/Tax.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L40).
 
 
 ### <a name="property-$name"></a>$name
@@ -118,7 +118,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/Tax.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L31)
+* Source: [classes/tax/Tax.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L31).
 
 
 ### <a name="property-$rate"></a>$rate
@@ -130,7 +130,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/Tax.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L34)
+* Source: [classes/tax/Tax.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L34).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -142,7 +142,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/tax/Tax.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L62)
+* Source: [classes/tax/Tax.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L62).
 
 
 Methods

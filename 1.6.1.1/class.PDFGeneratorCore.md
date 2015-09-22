@@ -48,7 +48,9 @@ Constants
 
 
 
-* Source: [classes/pdf/PDFGenerator.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L35)
+
+
+* Source: [classes/pdf/PDFGenerator.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L35).
 
 
 Properties
@@ -64,7 +66,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/pdf/PDFGenerator.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L39)
+* Source: [classes/pdf/PDFGenerator.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L39).
 
 
 ### <a name="property-$font"></a>$font
@@ -76,7 +78,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/pdf/PDFGenerator.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L40)
+* Source: [classes/pdf/PDFGenerator.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L40).
 
 
 ### <a name="property-$font_by_lang"></a>$font_by_lang
@@ -88,7 +90,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/pdf/PDFGenerator.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L42)
+* Source: [classes/pdf/PDFGenerator.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L42).
 
 
 ### <a name="property-$footer"></a>$footer
@@ -100,7 +102,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/pdf/PDFGenerator.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L38)
+* Source: [classes/pdf/PDFGenerator.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L38).
 
 
 ### <a name="property-$header"></a>$header
@@ -112,7 +114,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/pdf/PDFGenerator.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L37)
+* Source: [classes/pdf/PDFGenerator.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L37).
 
 
 Methods

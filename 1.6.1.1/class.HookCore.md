@@ -89,7 +89,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Hook.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L79)
+* Source: [classes/Hook.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L79).
 
 
 ### <a name="property-$_hook_modules_cache_exec"></a>$_hook_modules_cache_exec
@@ -102,7 +102,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Hook.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L84)
+* Source: [classes/Hook.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L84).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -115,7 +115,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Hook.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L64)
+* Source: [classes/Hook.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L64).
 
 
 ### <a name="property-$description"></a>$description
@@ -127,7 +127,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Hook.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L42)
+* Source: [classes/Hook.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L42).
 
 
 ### <a name="property-$executed_hooks"></a>$executed_hooks
@@ -140,7 +140,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Hook.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L57)
+* Source: [classes/Hook.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L57).
 
 
 ### <a name="property-$live_edit"></a>$live_edit
@@ -152,7 +152,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Hook.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L52)
+* Source: [classes/Hook.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L52).
 
 
 ### <a name="property-$name"></a>$name
@@ -164,7 +164,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Hook.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L32)
+* Source: [classes/Hook.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L32).
 
 
 ### <a name="property-$native_module"></a>$native_module
@@ -177,7 +177,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Hook.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L59)
+* Source: [classes/Hook.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L59).
 
 
 ### <a name="property-$position"></a>$position
@@ -189,7 +189,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Hook.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L47)
+* Source: [classes/Hook.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L47).
 
 
 ### <a name="property-$title"></a>$title
@@ -201,7 +201,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Hook.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L37)
+* Source: [classes/Hook.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L37).
 
 
 Methods

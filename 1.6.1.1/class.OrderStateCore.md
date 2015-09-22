@@ -56,7 +56,9 @@ Constants
 
 
 
-* Source: [classes/order/OrderState.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L110)
+
+
+* Source: [classes/order/OrderState.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L110).
 
 
 ### <a name="constant-FLAG_LOGABLE"></a>FLAG_LOGABLE
@@ -65,7 +67,9 @@ Constants
 
 
 
-* Source: [classes/order/OrderState.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L109)
+
+
+* Source: [classes/order/OrderState.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L109).
 
 
 ### <a name="constant-FLAG_NO_HIDDEN"></a>FLAG_NO_HIDDEN
@@ -74,7 +78,9 @@ Constants
 
 
 
-* Source: [classes/order/OrderState.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L108)
+
+
+* Source: [classes/order/OrderState.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L108).
 
 
 ### <a name="constant-FLAG_PAID"></a>FLAG_PAID
@@ -83,7 +89,9 @@ Constants
 
 
 
-* Source: [classes/order/OrderState.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L112)
+
+
+* Source: [classes/order/OrderState.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L112).
 
 
 ### <a name="constant-FLAG_SHIPPED"></a>FLAG_SHIPPED
@@ -92,7 +100,9 @@ Constants
 
 
 
-* Source: [classes/order/OrderState.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L111)
+
+
+* Source: [classes/order/OrderState.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L111).
 
 
 Properties
@@ -108,7 +118,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L44)
+* Source: [classes/order/OrderState.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L44).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -121,7 +131,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/order/OrderState.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L75)
+* Source: [classes/order/OrderState.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L75).
 
 
 ### <a name="property-$deleted"></a>$deleted
@@ -133,7 +143,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L70)
+* Source: [classes/order/OrderState.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L70).
 
 
 ### <a name="property-$delivery"></a>$delivery
@@ -145,7 +155,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L52)
+* Source: [classes/order/OrderState.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L52).
 
 
 ### <a name="property-$hidden"></a>$hidden
@@ -157,7 +167,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L55)
+* Source: [classes/order/OrderState.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L55).
 
 
 ### <a name="property-$invoice"></a>$invoice
@@ -169,7 +179,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L41)
+* Source: [classes/order/OrderState.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L41).
 
 
 ### <a name="property-$logable"></a>$logable
@@ -181,7 +191,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L49)
+* Source: [classes/order/OrderState.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L49).
 
 
 ### <a name="property-$module_name"></a>$module_name
@@ -193,7 +203,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L38)
+* Source: [classes/order/OrderState.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L38).
 
 
 ### <a name="property-$name"></a>$name
@@ -205,7 +215,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L30)
+* Source: [classes/order/OrderState.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L30).
 
 
 ### <a name="property-$paid"></a>$paid
@@ -217,7 +227,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L61)
+* Source: [classes/order/OrderState.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L61).
 
 
 ### <a name="property-$pdf_delivery"></a>$pdf_delivery
@@ -229,7 +239,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L67)
+* Source: [classes/order/OrderState.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L67).
 
 
 ### <a name="property-$pdf_invoice"></a>$pdf_invoice
@@ -241,7 +251,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L64)
+* Source: [classes/order/OrderState.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L64).
 
 
 ### <a name="property-$send_email"></a>$send_email
@@ -253,7 +263,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L36)
+* Source: [classes/order/OrderState.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L36).
 
 
 ### <a name="property-$shipped"></a>$shipped
@@ -265,7 +275,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L58)
+* Source: [classes/order/OrderState.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L58).
 
 
 ### <a name="property-$template"></a>$template
@@ -277,7 +287,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L33)
+* Source: [classes/order/OrderState.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L33).
 
 
 ### <a name="property-$unremovable"></a>$unremovable
@@ -289,7 +299,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderState.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L46)
+* Source: [classes/order/OrderState.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L46).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -301,7 +311,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderState.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L100)
+* Source: [classes/order/OrderState.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L100).
 
 
 Methods

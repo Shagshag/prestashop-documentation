@@ -47,7 +47,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/OrderOpcController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L32)
+* Source: [controllers/front/OrderOpcController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L32).
 
 
 ### <a name="property-$isLogged"></a>$isLogged
@@ -59,7 +59,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderOpcController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L30)
+* Source: [controllers/front/OrderOpcController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L30).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -71,7 +71,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderOpcController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L29)
+* Source: [controllers/front/OrderOpcController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L29).
 
 
 Methods

@@ -58,7 +58,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Supplier.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L59)
+* Source: [classes/Supplier.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L59).
 
 
 ### <a name="property-$cache_name"></a>$cache_name
@@ -71,7 +71,7 @@ Return name from id
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Supplier.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L187)
+* Source: [classes/Supplier.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L187).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -83,7 +83,7 @@ Return name from id
 
 
 * Visibility: **public**
-* Source: [classes/Supplier.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L41)
+* Source: [classes/Supplier.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L41).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -95,7 +95,7 @@ Return name from id
 
 
 * Visibility: **public**
-* Source: [classes/Supplier.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L44)
+* Source: [classes/Supplier.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L44).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -108,7 +108,7 @@ Return name from id
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Supplier.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L64)
+* Source: [classes/Supplier.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L64).
 
 
 ### <a name="property-$description"></a>$description
@@ -120,7 +120,7 @@ Return name from id
 
 
 * Visibility: **public**
-* Source: [classes/Supplier.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L38)
+* Source: [classes/Supplier.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L38).
 
 
 ### <a name="property-$id"></a>$id
@@ -132,7 +132,7 @@ Return name from id
 
 
 * Visibility: **public**
-* Source: [classes/Supplier.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L29)
+* Source: [classes/Supplier.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L29).
 
 
 ### <a name="property-$id_supplier"></a>$id_supplier
@@ -144,7 +144,7 @@ Return name from id
 
 
 * Visibility: **public**
-* Source: [classes/Supplier.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L32)
+* Source: [classes/Supplier.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L32).
 
 
 ### <a name="property-$link_rewrite"></a>$link_rewrite
@@ -156,7 +156,7 @@ Return name from id
 
 
 * Visibility: **public**
-* Source: [classes/Supplier.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L47)
+* Source: [classes/Supplier.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L47).
 
 
 ### <a name="property-$meta_description"></a>$meta_description
@@ -168,7 +168,7 @@ Return name from id
 
 
 * Visibility: **public**
-* Source: [classes/Supplier.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L56)
+* Source: [classes/Supplier.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L56).
 
 
 ### <a name="property-$meta_keywords"></a>$meta_keywords
@@ -180,7 +180,7 @@ Return name from id
 
 
 * Visibility: **public**
-* Source: [classes/Supplier.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L53)
+* Source: [classes/Supplier.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L53).
 
 
 ### <a name="property-$meta_title"></a>$meta_title
@@ -192,7 +192,7 @@ Return name from id
 
 
 * Visibility: **public**
-* Source: [classes/Supplier.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L50)
+* Source: [classes/Supplier.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L50).
 
 
 ### <a name="property-$name"></a>$name
@@ -204,7 +204,7 @@ Return name from id
 
 
 * Visibility: **public**
-* Source: [classes/Supplier.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L35)
+* Source: [classes/Supplier.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L35).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -216,7 +216,7 @@ Return name from id
 
 
 * Visibility: **protected**
-* Source: [classes/Supplier.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L82)
+* Source: [classes/Supplier.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L82).
 
 
 Methods

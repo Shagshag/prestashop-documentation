@@ -37,7 +37,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminOrderPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderPreferencesController.php#L30)
+* Source: [controllers/admin/AdminOrderPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderPreferencesController.php#L30).
 
 
 Methods

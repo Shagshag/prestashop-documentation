@@ -42,7 +42,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminSearchConfController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#L30)
+* Source: [controllers/admin/AdminSearchConfController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#L30).
 
 
 ### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
@@ -54,7 +54,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminSearchConfController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#L32)
+* Source: [controllers/admin/AdminSearchConfController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#L32).
 
 
 Methods

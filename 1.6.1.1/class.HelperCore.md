@@ -60,7 +60,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L47)
+* Source: [classes/helper/Helper.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L47).
 
 
 ### <a name="property-$base_tpl"></a>$base_tpl
@@ -72,7 +72,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L60)
+* Source: [classes/helper/Helper.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L60).
 
 
 ### <a name="property-$bootstrap"></a>$bootstrap
@@ -84,7 +84,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L39)
+* Source: [classes/helper/Helper.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L39).
 
 
 ### <a name="property-$context"></a>$context
@@ -96,7 +96,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L37)
+* Source: [classes/helper/Helper.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L37).
 
 
 ### <a name="property-$currentIndex"></a>$currentIndex
@@ -108,7 +108,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L29)
+* Source: [classes/helper/Helper.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L29).
 
 
 ### <a name="property-$identifier"></a>$identifier
@@ -120,7 +120,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L31)
+* Source: [classes/helper/Helper.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L31).
 
 
 ### <a name="property-$module"></a>$module
@@ -132,7 +132,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L44)
+* Source: [classes/helper/Helper.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L44).
 
 
 ### <a name="property-$override_folder"></a>$override_folder
@@ -144,7 +144,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L50)
+* Source: [classes/helper/Helper.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L50).
 
 
 ### <a name="property-$ps_help_context"></a>$ps_help_context
@@ -156,7 +156,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L34)
+* Source: [classes/helper/Helper.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L34).
 
 
 ### <a name="property-$show_toolbar"></a>$show_toolbar
@@ -168,7 +168,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L36)
+* Source: [classes/helper/Helper.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L36).
 
 
 ### <a name="property-$table"></a>$table
@@ -180,7 +180,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L30)
+* Source: [classes/helper/Helper.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L30).
 
 
 ### <a name="property-$title"></a>$title
@@ -192,7 +192,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L35)
+* Source: [classes/helper/Helper.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L35).
 
 
 ### <a name="property-$token"></a>$token
@@ -204,7 +204,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L32)
+* Source: [classes/helper/Helper.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L32).
 
 
 ### <a name="property-$toolbar_btn"></a>$toolbar_btn
@@ -216,7 +216,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L33)
+* Source: [classes/helper/Helper.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L33).
 
 
 ### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
@@ -228,7 +228,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L38)
+* Source: [classes/helper/Helper.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L38).
 
 
 ### <a name="property-$tpl"></a>$tpl
@@ -240,7 +240,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/helper/Helper.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L55)
+* Source: [classes/helper/Helper.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L55).
 
 
 ### <a name="property-$tpl_vars"></a>$tpl_vars
@@ -252,7 +252,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/Helper.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L62)
+* Source: [classes/helper/Helper.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L62).
 
 
 Methods

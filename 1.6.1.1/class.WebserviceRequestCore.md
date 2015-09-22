@@ -98,7 +98,9 @@ Constants
 
 
 
-* Source: [classes/webservice/WebserviceRequest.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L29)
+
+
+* Source: [classes/webservice/WebserviceRequest.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L29).
 
 
 ### <a name="constant-HTTP_POST"></a>HTTP_POST
@@ -107,7 +109,9 @@ Constants
 
 
 
-* Source: [classes/webservice/WebserviceRequest.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L30)
+
+
+* Source: [classes/webservice/WebserviceRequest.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L30).
 
 
 ### <a name="constant-HTTP_PUT"></a>HTTP_PUT
@@ -116,7 +120,9 @@ Constants
 
 
 
-* Source: [classes/webservice/WebserviceRequest.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L31)
+
+
+* Source: [classes/webservice/WebserviceRequest.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L31).
 
 
 Properties
@@ -132,7 +138,7 @@ Set if the authentication key was checked
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceRequest.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L68)
+* Source: [classes/webservice/WebserviceRequest.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L68).
 
 
 ### <a name="property-$_available_languages"></a>$_available_languages
@@ -144,7 +150,7 @@ Set if the authentication key was checked
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceRequest.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L33)
+* Source: [classes/webservice/WebserviceRequest.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L33).
 
 
 ### <a name="property-$_docUrl"></a>$_docUrl
@@ -156,7 +162,7 @@ PrestaShop Webservice Documentation URL
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceRequest.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L62)
+* Source: [classes/webservice/WebserviceRequest.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L62).
 
 
 ### <a name="property-$_inputXml"></a>$_inputXml
@@ -168,7 +174,7 @@ If we are in PUT or POST case, we use this attribute to store the xml string val
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceRequest.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L147)
+* Source: [classes/webservice/WebserviceRequest.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L147).
 
 
 ### <a name="property-$_instance"></a>$_instance
@@ -181,7 +187,7 @@ Object instance for singleton
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/webservice/WebserviceRequest.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L153)
+* Source: [classes/webservice/WebserviceRequest.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L153).
 
 
 ### <a name="property-$_key"></a>$_key
@@ -193,7 +199,7 @@ Key used for authentication
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceRequest.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L159)
+* Source: [classes/webservice/WebserviceRequest.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L159).
 
 
 ### <a name="property-$_object"></a>$_object
@@ -205,7 +211,7 @@ The current object to support, it extends the PrestaShop ObjectModel
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceRequest.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L128)
+* Source: [classes/webservice/WebserviceRequest.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L128).
 
 
 ### <a name="property-$_outputEnabled"></a>$_outputEnabled
@@ -217,7 +223,7 @@ Set if return should display content or not
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceRequest.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L44)
+* Source: [classes/webservice/WebserviceRequest.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L44).
 
 
 ### <a name="property-$_startTime"></a>$_startTime
@@ -229,7 +235,7 @@ The time in microseconds of the start of the execution of the web service reques
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceRequest.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L92)
+* Source: [classes/webservice/WebserviceRequest.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L92).
 
 
 ### <a name="property-$depth"></a>$depth
@@ -241,7 +247,7 @@ This is used to have a deeper tree diagram.
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceRequest.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L165)
+* Source: [classes/webservice/WebserviceRequest.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L165).
 
 
 ### <a name="property-$errors"></a>$errors
@@ -253,7 +259,7 @@ Errors triggered at execution
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceRequest.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L38)
+* Source: [classes/webservice/WebserviceRequest.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L38).
 
 
 ### <a name="property-$fieldsToDisplay"></a>$fieldsToDisplay
@@ -265,7 +271,7 @@ The fields to display. These fields will be displayed when retrieving objects
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceRequest.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L141)
+* Source: [classes/webservice/WebserviceRequest.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L141).
 
 
 ### <a name="property-$keyPermissions"></a>$keyPermissions
@@ -277,7 +283,7 @@ The permissions for the current key
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceRequest.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L110)
+* Source: [classes/webservice/WebserviceRequest.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L110).
 
 
 ### <a name="property-$method"></a>$method
@@ -289,7 +295,7 @@ HTTP Method to support
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceRequest.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L74)
+* Source: [classes/webservice/WebserviceRequest.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L74).
 
 
 ### <a name="property-$objOutput"></a>$objOutput
@@ -301,7 +307,7 @@ The object to build the output.
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceRequest.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L177)
+* Source: [classes/webservice/WebserviceRequest.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L177).
 
 
 ### <a name="property-$objectSpecificManagement"></a>$objectSpecificManagement
@@ -313,7 +319,7 @@ Set if the management is specific or if it is classic (entity management)
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceRequest.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L50)
+* Source: [classes/webservice/WebserviceRequest.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L50).
 
 
 ### <a name="property-$objects"></a>$objects
@@ -325,7 +331,7 @@ The list of objects to display
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceRequest.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L122)
+* Source: [classes/webservice/WebserviceRequest.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L122).
 
 
 ### <a name="property-$outputFormat"></a>$outputFormat
@@ -337,7 +343,7 @@ Name of the output format
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceRequest.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L171)
+* Source: [classes/webservice/WebserviceRequest.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L171).
 
 
 ### <a name="property-$resourceConfiguration"></a>$resourceConfiguration
@@ -349,7 +355,7 @@ The configuration parameters of the current resource
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceRequest.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L104)
+* Source: [classes/webservice/WebserviceRequest.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L104).
 
 
 ### <a name="property-$resourceList"></a>$resourceList
@@ -361,7 +367,7 @@ The list of each resources manageable via web service
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceRequest.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L98)
+* Source: [classes/webservice/WebserviceRequest.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L98).
 
 
 ### <a name="property-$schemaToDisplay"></a>$schemaToDisplay
@@ -373,7 +379,7 @@ The schema to display.
 If null, no schema have to be displayed and normal management has to be performed
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceRequest.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L135)
+* Source: [classes/webservice/WebserviceRequest.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L135).
 
 
 ### <a name="property-$shopIDs"></a>$shopIDs
@@ -386,7 +392,7 @@ If null, no schema have to be displayed and normal management has to be performe
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/webservice/WebserviceRequest.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L186)
+* Source: [classes/webservice/WebserviceRequest.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L186).
 
 
 ### <a name="property-$specificOutput"></a>$specificOutput
@@ -398,7 +404,7 @@ The XML string to display if web service call succeed
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceRequest.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L116)
+* Source: [classes/webservice/WebserviceRequest.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L116).
 
 
 ### <a name="property-$urlFragments"></a>$urlFragments
@@ -410,7 +416,7 @@ The segment list of the URL after the "api" segment
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceRequest.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L86)
+* Source: [classes/webservice/WebserviceRequest.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L86).
 
 
 ### <a name="property-$urlSegment"></a>$urlSegment
@@ -422,7 +428,7 @@ The segment of the URL
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceRequest.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L80)
+* Source: [classes/webservice/WebserviceRequest.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L80).
 
 
 ### <a name="property-$wsUrl"></a>$wsUrl
@@ -434,7 +440,7 @@ Base PrestaShop webservice URL
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceRequest.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L56)
+* Source: [classes/webservice/WebserviceRequest.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L56).
 
 
 ### <a name="property-$ws_current_classname"></a>$ws_current_classname
@@ -447,7 +453,7 @@ Save the class name for override used in getInstance()
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/webservice/WebserviceRequest.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L183)
+* Source: [classes/webservice/WebserviceRequest.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L183).
 
 
 Methods

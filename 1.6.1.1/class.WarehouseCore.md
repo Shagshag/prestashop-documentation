@@ -69,7 +69,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/stock/Warehouse.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L65)
+* Source: [classes/stock/Warehouse.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L65).
 
 
 ### <a name="property-$deleted"></a>$deleted
@@ -81,7 +81,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Warehouse.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L53)
+* Source: [classes/stock/Warehouse.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L53).
 
 
 ### <a name="property-$id"></a>$id
@@ -93,7 +93,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Warehouse.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L35)
+* Source: [classes/stock/Warehouse.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L35).
 
 
 ### <a name="property-$id_address"></a>$id_address
@@ -105,7 +105,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Warehouse.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L38)
+* Source: [classes/stock/Warehouse.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L38).
 
 
 ### <a name="property-$id_currency"></a>$id_currency
@@ -117,7 +117,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Warehouse.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L50)
+* Source: [classes/stock/Warehouse.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L50).
 
 
 ### <a name="property-$id_employee"></a>$id_employee
@@ -129,7 +129,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/Warehouse.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L47)
+* Source: [classes/stock/Warehouse.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L47).
 
 
 ### <a name="property-$management_type"></a>$management_type
@@ -141,7 +141,7 @@ Describes the way a Warehouse is managed
 
 
 * Visibility: **public**
-* Source: [classes/stock/Warehouse.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L60)
+* Source: [classes/stock/Warehouse.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L60).
 
 
 ### <a name="property-$name"></a>$name
@@ -153,7 +153,7 @@ Describes the way a Warehouse is managed
 
 
 * Visibility: **public**
-* Source: [classes/stock/Warehouse.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L44)
+* Source: [classes/stock/Warehouse.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L44).
 
 
 ### <a name="property-$reference"></a>$reference
@@ -165,7 +165,7 @@ Describes the way a Warehouse is managed
 
 
 * Visibility: **public**
-* Source: [classes/stock/Warehouse.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L41)
+* Source: [classes/stock/Warehouse.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L41).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -177,7 +177,7 @@ Describes the way a Warehouse is managed
 
 
 * Visibility: **protected**
-* Source: [classes/stock/Warehouse.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L82)
+* Source: [classes/stock/Warehouse.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#L82).
 
 
 Methods

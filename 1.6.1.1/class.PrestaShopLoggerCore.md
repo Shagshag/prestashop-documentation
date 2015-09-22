@@ -50,7 +50,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopLogger.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L51)
+* Source: [classes/PrestaShopLogger.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L51).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -62,7 +62,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopLogger.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L54)
+* Source: [classes/PrestaShopLogger.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L54).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -75,7 +75,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/PrestaShopLogger.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L59)
+* Source: [classes/PrestaShopLogger.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L59).
 
 
 ### <a name="property-$error_code"></a>$error_code
@@ -87,7 +87,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopLogger.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L36)
+* Source: [classes/PrestaShopLogger.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L36).
 
 
 ### <a name="property-$id_employee"></a>$id_employee
@@ -99,7 +99,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopLogger.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L48)
+* Source: [classes/PrestaShopLogger.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L48).
 
 
 ### <a name="property-$id_log"></a>$id_log
@@ -111,7 +111,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopLogger.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L30)
+* Source: [classes/PrestaShopLogger.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L30).
 
 
 ### <a name="property-$is_present"></a>$is_present
@@ -124,7 +124,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/PrestaShopLogger.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L74)
+* Source: [classes/PrestaShopLogger.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L74).
 
 
 ### <a name="property-$message"></a>$message
@@ -136,7 +136,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopLogger.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L39)
+* Source: [classes/PrestaShopLogger.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L39).
 
 
 ### <a name="property-$object_id"></a>$object_id
@@ -148,7 +148,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopLogger.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L45)
+* Source: [classes/PrestaShopLogger.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L45).
 
 
 ### <a name="property-$object_type"></a>$object_type
@@ -160,7 +160,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopLogger.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L42)
+* Source: [classes/PrestaShopLogger.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L42).
 
 
 ### <a name="property-$severity"></a>$severity
@@ -172,7 +172,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopLogger.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L33)
+* Source: [classes/PrestaShopLogger.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L33).
 
 
 Methods

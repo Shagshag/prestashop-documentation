@@ -42,7 +42,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Gender.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L39)
+* Source: [classes/Gender.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L39).
 
 
 ### <a name="property-$id_gender"></a>$id_gender
@@ -54,7 +54,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Gender.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L32)
+* Source: [classes/Gender.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L32).
 
 
 ### <a name="property-$name"></a>$name
@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Gender.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L33)
+* Source: [classes/Gender.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L33).
 
 
 ### <a name="property-$type"></a>$type
@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Gender.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L34)
+* Source: [classes/Gender.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L34).
 
 
 Methods

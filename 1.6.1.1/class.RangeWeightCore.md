@@ -44,7 +44,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/range/RangeWeight.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#L36)
+* Source: [classes/range/RangeWeight.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#L36).
 
 
 ### <a name="property-$delimiter1"></a>$delimiter1
@@ -56,7 +56,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/range/RangeWeight.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#L30)
+* Source: [classes/range/RangeWeight.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#L30).
 
 
 ### <a name="property-$delimiter2"></a>$delimiter2
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/range/RangeWeight.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#L31)
+* Source: [classes/range/RangeWeight.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#L31).
 
 
 ### <a name="property-$id_carrier"></a>$id_carrier
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/range/RangeWeight.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#L29)
+* Source: [classes/range/RangeWeight.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#L29).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -92,7 +92,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/range/RangeWeight.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#L46)
+* Source: [classes/range/RangeWeight.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#L46).
 
 
 Methods

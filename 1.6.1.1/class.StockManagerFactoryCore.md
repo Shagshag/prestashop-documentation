@@ -37,7 +37,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/stock/StockManagerFactory.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerFactory.php#L36)
+* Source: [classes/stock/StockManagerFactory.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerFactory.php#L36).
 
 
 Methods

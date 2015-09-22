@@ -44,7 +44,9 @@ Constants
 
 
 
-* Source: [classes/log/AbstractLogger.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L37)
+
+
+* Source: [classes/log/AbstractLogger.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L37).
 
 
 ### <a name="constant-ERROR"></a>ERROR
@@ -53,7 +55,9 @@ Constants
 
 
 
-* Source: [classes/log/AbstractLogger.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L40)
+
+
+* Source: [classes/log/AbstractLogger.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L40).
 
 
 ### <a name="constant-INFO"></a>INFO
@@ -62,7 +66,9 @@ Constants
 
 
 
-* Source: [classes/log/AbstractLogger.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L38)
+
+
+* Source: [classes/log/AbstractLogger.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L38).
 
 
 ### <a name="constant-WARNING"></a>WARNING
@@ -71,7 +77,9 @@ Constants
 
 
 
-* Source: [classes/log/AbstractLogger.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L39)
+
+
+* Source: [classes/log/AbstractLogger.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L39).
 
 
 Properties
@@ -87,7 +95,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/log/AbstractLogger.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L29)
+* Source: [classes/log/AbstractLogger.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L29).
 
 
 ### <a name="property-$level_value"></a>$level_value
@@ -99,7 +107,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/log/AbstractLogger.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L30)
+* Source: [classes/log/AbstractLogger.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L30).
 
 
 Methods

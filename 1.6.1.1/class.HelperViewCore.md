@@ -41,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperView.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L29)
+* Source: [classes/helper/HelperView.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L29).
 
 
 ### <a name="property-$table"></a>$table
@@ -53,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperView.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L31)
+* Source: [classes/helper/HelperView.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L31).
 
 
 ### <a name="property-$title"></a>$title
@@ -65,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperView.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L35)
+* Source: [classes/helper/HelperView.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L35).
 
 
 ### <a name="property-$token"></a>$token
@@ -77,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperView.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L32)
+* Source: [classes/helper/HelperView.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L32).
 
 
 ### <a name="property-$toolbar"></a>$toolbar
@@ -89,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/helper/HelperView.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L30)
+* Source: [classes/helper/HelperView.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L30).
 
 
 Methods

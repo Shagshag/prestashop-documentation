@@ -42,7 +42,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CSV.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L35)
+* Source: [classes/CSV.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L35).
 
 
 ### <a name="property-$delimiter"></a>$delimiter
@@ -54,7 +54,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CSV.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L36)
+* Source: [classes/CSV.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L36).
 
 
 ### <a name="property-$filename"></a>$filename
@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CSV.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L34)
+* Source: [classes/CSV.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L34).
 
 
 Methods

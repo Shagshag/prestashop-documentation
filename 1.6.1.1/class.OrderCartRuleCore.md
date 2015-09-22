@@ -43,7 +43,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/order/OrderCartRule.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L56)
+* Source: [classes/order/OrderCartRule.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L56).
 
 
 ### <a name="property-$free_shipping"></a>$free_shipping
@@ -55,7 +55,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCartRule.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L51)
+* Source: [classes/order/OrderCartRule.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L51).
 
 
 ### <a name="property-$id_cart_rule"></a>$id_cart_rule
@@ -67,7 +67,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCartRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L36)
+* Source: [classes/order/OrderCartRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L36).
 
 
 ### <a name="property-$id_order"></a>$id_order
@@ -79,7 +79,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCartRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L33)
+* Source: [classes/order/OrderCartRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L33).
 
 
 ### <a name="property-$id_order_cart_rule"></a>$id_order_cart_rule
@@ -91,7 +91,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCartRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L30)
+* Source: [classes/order/OrderCartRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L30).
 
 
 ### <a name="property-$id_order_invoice"></a>$id_order_invoice
@@ -103,7 +103,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCartRule.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L39)
+* Source: [classes/order/OrderCartRule.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L39).
 
 
 ### <a name="property-$name"></a>$name
@@ -115,7 +115,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCartRule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L42)
+* Source: [classes/order/OrderCartRule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L42).
 
 
 ### <a name="property-$value"></a>$value
@@ -127,7 +127,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCartRule.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L45)
+* Source: [classes/order/OrderCartRule.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L45).
 
 
 ### <a name="property-$value_tax_excl"></a>$value_tax_excl
@@ -139,7 +139,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCartRule.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L48)
+* Source: [classes/order/OrderCartRule.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L48).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -151,7 +151,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderCartRule.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L70)
+* Source: [classes/order/OrderCartRule.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L70).
 
 
 

@@ -42,7 +42,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Chart.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L147)
+* Source: [classes/Chart.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L147).
 
 
 ### <a name="property-$type"></a>$type
@@ -54,7 +54,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Chart.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L148)
+* Source: [classes/Chart.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L148).
 
 
 ### <a name="property-$values"></a>$values
@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Chart.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L146)
+* Source: [classes/Chart.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L146).
 
 
 Methods

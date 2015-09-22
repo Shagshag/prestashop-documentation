@@ -43,7 +43,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/CmsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L30)
+* Source: [controllers/front/CmsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L30).
 
 
 ### <a name="property-$cms"></a>$cms
@@ -55,7 +55,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/CmsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L31)
+* Source: [controllers/front/CmsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L31).
 
 
 ### <a name="property-$cms_category"></a>$cms_category
@@ -67,7 +67,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/CmsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L34)
+* Source: [controllers/front/CmsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L34).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -79,7 +79,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/CmsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L29)
+* Source: [controllers/front/CmsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L29).
 
 
 ### <a name="property-$ssl"></a>$ssl
@@ -91,7 +91,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/CmsController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L35)
+* Source: [controllers/front/CmsController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L35).
 
 
 Methods

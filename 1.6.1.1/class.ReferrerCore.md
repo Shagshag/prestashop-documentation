@@ -68,7 +68,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Referrer.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L72)
+* Source: [classes/Referrer.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L72).
 
 
 ### <a name="property-$base_fee"></a>$base_fee
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L42)
+* Source: [classes/Referrer.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L42).
 
 
 ### <a name="property-$click_fee"></a>$click_fee
@@ -92,7 +92,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L44)
+* Source: [classes/Referrer.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L44).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -104,7 +104,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L46)
+* Source: [classes/Referrer.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L46).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -117,7 +117,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Referrer.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L51)
+* Source: [classes/Referrer.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L51).
 
 
 ### <a name="property-$http_referer_like"></a>$http_referer_like
@@ -129,7 +129,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L34)
+* Source: [classes/Referrer.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L34).
 
 
 ### <a name="property-$http_referer_like_not"></a>$http_referer_like_not
@@ -141,7 +141,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L38)
+* Source: [classes/Referrer.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L38).
 
 
 ### <a name="property-$http_referer_regexp"></a>$http_referer_regexp
@@ -153,7 +153,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L33)
+* Source: [classes/Referrer.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L33).
 
 
 ### <a name="property-$http_referer_regexp_not"></a>$http_referer_regexp_not
@@ -165,7 +165,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L37)
+* Source: [classes/Referrer.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L37).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -177,7 +177,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L29)
+* Source: [classes/Referrer.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L29).
 
 
 ### <a name="property-$name"></a>$name
@@ -189,7 +189,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L30)
+* Source: [classes/Referrer.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L30).
 
 
 ### <a name="property-$passwd"></a>$passwd
@@ -201,7 +201,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L31)
+* Source: [classes/Referrer.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L31).
 
 
 ### <a name="property-$percent_fee"></a>$percent_fee
@@ -213,7 +213,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L43)
+* Source: [classes/Referrer.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L43).
 
 
 ### <a name="property-$request_uri_like"></a>$request_uri_like
@@ -225,7 +225,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L36)
+* Source: [classes/Referrer.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L36).
 
 
 ### <a name="property-$request_uri_like_not"></a>$request_uri_like_not
@@ -237,7 +237,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L40)
+* Source: [classes/Referrer.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L40).
 
 
 ### <a name="property-$request_uri_regexp"></a>$request_uri_regexp
@@ -249,7 +249,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L35)
+* Source: [classes/Referrer.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L35).
 
 
 ### <a name="property-$request_uri_regexp_not"></a>$request_uri_regexp_not
@@ -261,7 +261,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Referrer.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L39)
+* Source: [classes/Referrer.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L39).
 
 
 Methods

@@ -94,7 +94,9 @@ Constants
 
 
 
-* Source: [classes/db/Db.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L37)
+
+
+* Source: [classes/db/Db.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L37).
 
 
 ### <a name="constant-INSERT_IGNORE"></a>INSERT_IGNORE
@@ -103,7 +105,9 @@ Constants
 
 
 
-* Source: [classes/db/Db.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L40)
+
+
+* Source: [classes/db/Db.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L40).
 
 
 ### <a name="constant-ON_DUPLICATE_KEY"></a>ON_DUPLICATE_KEY
@@ -112,7 +116,9 @@ Constants
 
 
 
-* Source: [classes/db/Db.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L46)
+
+
+* Source: [classes/db/Db.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L46).
 
 
 ### <a name="constant-REPLACE"></a>REPLACE
@@ -121,7 +127,9 @@ Constants
 
 
 
-* Source: [classes/db/Db.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L43)
+
+
+* Source: [classes/db/Db.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L43).
 
 
 Properties
@@ -138,7 +146,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/db/Db.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L73)
+* Source: [classes/db/Db.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L73).
 
 
 ### <a name="property-$_slave_servers_loaded"></a>$_slave_servers_loaded
@@ -151,7 +159,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/db/Db.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L78)
+* Source: [classes/db/Db.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L78).
 
 
 ### <a name="property-$database"></a>$database
@@ -163,7 +171,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/db/Db.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L58)
+* Source: [classes/db/Db.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L58).
 
 
 ### <a name="property-$instance"></a>$instance
@@ -176,7 +184,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/db/Db.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L70)
+* Source: [classes/db/Db.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L70).
 
 
 ### <a name="property-$is_cache_enabled"></a>$is_cache_enabled
@@ -188,7 +196,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/db/Db.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L61)
+* Source: [classes/db/Db.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L61).
 
 
 ### <a name="property-$last_cached"></a>$last_cached
@@ -200,7 +208,7 @@ Last cached query
 
 
 * Visibility: **protected**
-* Source: [classes/db/Db.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L99)
+* Source: [classes/db/Db.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L99).
 
 
 ### <a name="property-$last_query"></a>$last_query
@@ -212,7 +220,7 @@ Store last executed query
 
 
 * Visibility: **protected**
-* Source: [classes/db/Db.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L85)
+* Source: [classes/db/Db.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L85).
 
 
 ### <a name="property-$last_query_hash"></a>$last_query_hash
@@ -224,7 +232,7 @@ Store hash of the last executed query
 
 
 * Visibility: **protected**
-* Source: [classes/db/Db.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L92)
+* Source: [classes/db/Db.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L92).
 
 
 ### <a name="property-$link"></a>$link
@@ -236,7 +244,7 @@ Store hash of the last executed query
 
 
 * Visibility: **protected**
-* Source: [classes/db/Db.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L64)
+* Source: [classes/db/Db.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L64).
 
 
 ### <a name="property-$password"></a>$password
@@ -248,7 +256,7 @@ Store hash of the last executed query
 
 
 * Visibility: **protected**
-* Source: [classes/db/Db.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L55)
+* Source: [classes/db/Db.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L55).
 
 
 ### <a name="property-$result"></a>$result
@@ -260,7 +268,7 @@ Store hash of the last executed query
 
 
 * Visibility: **protected**
-* Source: [classes/db/Db.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L67)
+* Source: [classes/db/Db.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L67).
 
 
 ### <a name="property-$server"></a>$server
@@ -272,7 +280,7 @@ Store hash of the last executed query
 
 
 * Visibility: **protected**
-* Source: [classes/db/Db.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L49)
+* Source: [classes/db/Db.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L49).
 
 
 ### <a name="property-$user"></a>$user
@@ -284,7 +292,7 @@ Store hash of the last executed query
 
 
 * Visibility: **protected**
-* Source: [classes/db/Db.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L52)
+* Source: [classes/db/Db.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L52).
 
 
 Methods

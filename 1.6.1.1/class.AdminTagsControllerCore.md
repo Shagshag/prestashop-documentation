@@ -41,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminTagsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L32)
+* Source: [controllers/admin/AdminTagsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L32).
 
 
 ### <a name="property-$object"></a>$object
@@ -53,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminTagsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L30)
+* Source: [controllers/admin/AdminTagsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L30).
 
 
 Methods

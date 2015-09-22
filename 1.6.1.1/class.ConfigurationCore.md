@@ -81,7 +81,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Configuration.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L64)
+* Source: [classes/Configuration.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L64).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -93,7 +93,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Configuration.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L41)
+* Source: [classes/Configuration.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L41).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -105,7 +105,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Configuration.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L44)
+* Source: [classes/Configuration.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L44).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -118,7 +118,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Configuration.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L49)
+* Source: [classes/Configuration.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L49).
 
 
 ### <a name="property-$id"></a>$id
@@ -130,7 +130,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Configuration.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L29)
+* Source: [classes/Configuration.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L29).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -142,7 +142,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Configuration.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L35)
+* Source: [classes/Configuration.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L35).
 
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
@@ -154,7 +154,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Configuration.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L34)
+* Source: [classes/Configuration.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L34).
 
 
 ### <a name="property-$name"></a>$name
@@ -166,7 +166,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Configuration.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L32)
+* Source: [classes/Configuration.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L32).
 
 
 ### <a name="property-$types"></a>$types
@@ -179,7 +179,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Configuration.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L67)
+* Source: [classes/Configuration.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L67).
 
 
 ### <a name="property-$value"></a>$value
@@ -191,7 +191,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Configuration.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L38)
+* Source: [classes/Configuration.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L38).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -203,7 +203,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Configuration.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L69)
+* Source: [classes/Configuration.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L69).
 
 
 Methods

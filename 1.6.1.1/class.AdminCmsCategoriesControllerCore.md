@@ -41,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminCmsCategoriesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L33)
+* Source: [controllers/admin/AdminCmsCategoriesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L33).
 
 
 ### <a name="property-$object"></a>$object
@@ -53,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminCmsCategoriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L30)
+* Source: [controllers/admin/AdminCmsCategoriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L30).
 
 
 ### <a name="property-$position_identifier"></a>$position_identifier
@@ -65,7 +65,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminCmsCategoriesController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L35)
+* Source: [controllers/admin/AdminCmsCategoriesController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L35).
 
 
 Methods

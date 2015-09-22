@@ -151,7 +151,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminProductsController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L38)
+* Source: [controllers/admin/AdminProductsController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L38).
 
 
 ### <a name="property-$available_tabs"></a>$available_tabs
@@ -163,7 +163,7 @@ The order in the array decides the order in the list of tab. If an element's val
 The tabs are preloaded from the smallest to the highest number.
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminProductsController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L50)
+* Source: [controllers/admin/AdminProductsController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L50).
 
 
 ### <a name="property-$available_tabs_lang"></a>$available_tabs_lang
@@ -175,7 +175,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminProductsController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L54)
+* Source: [controllers/admin/AdminProductsController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L54).
 
 
 ### <a name="property-$default_tab"></a>$default_tab
@@ -187,7 +187,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminProductsController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L52)
+* Source: [controllers/admin/AdminProductsController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L52).
 
 
 ### <a name="property-$id_current_category"></a>$id_current_category
@@ -199,7 +199,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminProductsController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L60)
+* Source: [controllers/admin/AdminProductsController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L60).
 
 
 ### <a name="property-$max_file_size"></a>$max_file_size
@@ -211,7 +211,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminProductsController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L35)
+* Source: [controllers/admin/AdminProductsController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L35).
 
 
 ### <a name="property-$max_image_size"></a>$max_image_size
@@ -223,7 +223,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminProductsController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L36)
+* Source: [controllers/admin/AdminProductsController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L36).
 
 
 ### <a name="property-$object"></a>$object
@@ -235,7 +235,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminProductsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L30)
+* Source: [controllers/admin/AdminProductsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L30).
 
 
 ### <a name="property-$position_identifier"></a>$position_identifier
@@ -247,7 +247,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminProductsController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L56)
+* Source: [controllers/admin/AdminProductsController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L56).
 
 
 ### <a name="property-$submitted_tabs"></a>$submitted_tabs
@@ -259,7 +259,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminProductsController.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L58)
+* Source: [controllers/admin/AdminProductsController.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L58).
 
 
 ### <a name="property-$tab_display"></a>$tab_display
@@ -271,7 +271,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminProductsController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L42)
+* Source: [controllers/admin/AdminProductsController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L42).
 
 
 ### <a name="property-$tab_display_module"></a>$tab_display_module
@@ -283,7 +283,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminProductsController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L43)
+* Source: [controllers/admin/AdminProductsController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L43).
 
 
 Methods

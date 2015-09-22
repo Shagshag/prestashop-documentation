@@ -56,7 +56,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Attribute.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L34)
+* Source: [classes/Attribute.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L34).
 
 
 ### <a name="property-$default"></a>$default
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Attribute.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L36)
+* Source: [classes/Attribute.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L36).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -81,7 +81,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Attribute.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L41)
+* Source: [classes/Attribute.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L41).
 
 
 ### <a name="property-$id_attribute_group"></a>$id_attribute_group
@@ -93,7 +93,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Attribute.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L30)
+* Source: [classes/Attribute.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L30).
 
 
 ### <a name="property-$image_dir"></a>$image_dir
@@ -105,7 +105,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Attribute.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L56)
+* Source: [classes/Attribute.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L56).
 
 
 ### <a name="property-$name"></a>$name
@@ -117,7 +117,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Attribute.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L33)
+* Source: [classes/Attribute.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L33).
 
 
 ### <a name="property-$position"></a>$position
@@ -129,7 +129,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Attribute.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L35)
+* Source: [classes/Attribute.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L35).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -141,7 +141,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Attribute.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L58)
+* Source: [classes/Attribute.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L58).
 
 
 Methods

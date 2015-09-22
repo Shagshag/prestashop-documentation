@@ -56,7 +56,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminManufacturersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#L32)
+* Source: [controllers/admin/AdminManufacturersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#L32).
 
 
 ### <a name="property-$countries_array"></a>$countries_array
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminManufacturersController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#L34)
+* Source: [controllers/admin/AdminManufacturersController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#L34).
 
 
 ### <a name="property-$object"></a>$object
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminManufacturersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#L30)
+* Source: [controllers/admin/AdminManufacturersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#L30).
 
 
 Methods

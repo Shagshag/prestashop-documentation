@@ -60,7 +60,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/RequestSql.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L68)
+* Source: [classes/RequestSql.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L68).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -73,7 +73,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/RequestSql.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L35)
+* Source: [classes/RequestSql.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L35).
 
 
 ### <a name="property-$error_sql"></a>$error_sql
@@ -85,7 +85,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/RequestSql.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L74)
+* Source: [classes/RequestSql.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L74).
 
 
 ### <a name="property-$name"></a>$name
@@ -97,7 +97,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/RequestSql.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L29)
+* Source: [classes/RequestSql.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L29).
 
 
 ### <a name="property-$sql"></a>$sql
@@ -109,7 +109,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/RequestSql.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L30)
+* Source: [classes/RequestSql.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L30).
 
 
 ### <a name="property-$tested"></a>$tested
@@ -121,7 +121,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/RequestSql.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L45)
+* Source: [classes/RequestSql.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L45).
 
 
 Methods

@@ -182,7 +182,9 @@ Constants
 
 
 
-* Source: [classes/module/Module.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L171)
+
+
+* Source: [classes/module/Module.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L171).
 
 
 ### <a name="constant-CACHE_FILE_CUSTOMER_MODULES_LIST"></a>CACHE_FILE_CUSTOMER_MODULES_LIST
@@ -191,7 +193,9 @@ Constants
 
 
 
-* Source: [classes/module/Module.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L174)
+
+
+* Source: [classes/module/Module.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L174).
 
 
 ### <a name="constant-CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST"></a>CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST
@@ -200,7 +204,9 @@ Constants
 
 
 
-* Source: [classes/module/Module.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L172)
+
+
+* Source: [classes/module/Module.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L172).
 
 
 ### <a name="constant-CACHE_FILE_MODULES_LIST"></a>CACHE_FILE_MODULES_LIST
@@ -209,7 +215,9 @@ Constants
 
 
 
-* Source: [classes/module/Module.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L167)
+
+
+* Source: [classes/module/Module.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L167).
 
 
 ### <a name="constant-CACHE_FILE_MUST_HAVE_MODULES_LIST"></a>CACHE_FILE_MUST_HAVE_MODULES_LIST
@@ -218,7 +226,9 @@ Constants
 
 
 
-* Source: [classes/module/Module.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L176)
+
+
+* Source: [classes/module/Module.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L176).
 
 
 ### <a name="constant-CACHE_FILE_TAB_MODULES_LIST"></a>CACHE_FILE_TAB_MODULES_LIST
@@ -227,7 +237,9 @@ Constants
 
 
 
-* Source: [classes/module/Module.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L169)
+
+
+* Source: [classes/module/Module.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L169).
 
 
 ### <a name="constant-CACHE_FILE_TRUSTED_MODULES_LIST"></a>CACHE_FILE_TRUSTED_MODULES_LIST
@@ -236,7 +248,9 @@ Constants
 
 
 
-* Source: [classes/module/Module.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L178)
+
+
+* Source: [classes/module/Module.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L178).
 
 
 ### <a name="constant-CACHE_FILE_UNTRUSTED_MODULES_LIST"></a>CACHE_FILE_UNTRUSTED_MODULES_LIST
@@ -245,7 +259,9 @@ Constants
 
 
 
-* Source: [classes/module/Module.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L179)
+
+
+* Source: [classes/module/Module.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L179).
 
 
 Properties
@@ -262,7 +278,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/module/Module.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L131)
+* Source: [classes/module/Module.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L131).
 
 
 ### <a name="property-$_batch_mode"></a>$_batch_mode
@@ -275,7 +291,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/module/Module.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L153)
+* Source: [classes/module/Module.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L153).
 
 
 ### <a name="property-$_confirmations"></a>$_confirmations
@@ -287,7 +303,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/Module.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L119)
+* Source: [classes/module/Module.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L119).
 
 
 ### <a name="property-$_defered_clearCache"></a>$_defered_clearCache
@@ -300,7 +316,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/module/Module.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L154)
+* Source: [classes/module/Module.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L154).
 
 
 ### <a name="property-$_defered_func_call"></a>$_defered_func_call
@@ -313,7 +329,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/module/Module.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L155)
+* Source: [classes/module/Module.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L155).
 
 
 ### <a name="property-$_errors"></a>$_errors
@@ -325,7 +341,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/Module.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L116)
+* Source: [classes/module/Module.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L116).
 
 
 ### <a name="property-$_generate_config_xml_mode"></a>$_generate_config_xml_mode
@@ -338,7 +354,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/module/Module.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L134)
+* Source: [classes/module/Module.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L134).
 
 
 ### <a name="property-$_lang"></a>$_lang
@@ -350,7 +366,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/Module.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L105)
+* Source: [classes/module/Module.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L105).
 
 
 ### <a name="property-$_log_modules_perfs"></a>$_log_modules_perfs
@@ -363,7 +379,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/module/Module.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L163)
+* Source: [classes/module/Module.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L163).
 
 
 ### <a name="property-$_log_modules_perfs_session"></a>$_log_modules_perfs_session
@@ -376,7 +392,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/module/Module.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L165)
+* Source: [classes/module/Module.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L165).
 
 
 ### <a name="property-$_path"></a>$_path
@@ -388,7 +404,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/Module.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L108)
+* Source: [classes/module/Module.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L108).
 
 
 ### <a name="property-$active"></a>$active
@@ -400,7 +416,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L85)
+* Source: [classes/module/Module.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L85).
 
 
 ### <a name="property-$additional_description"></a>$additional_description
@@ -412,7 +428,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L68)
+* Source: [classes/module/Module.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L68).
 
 
 ### <a name="property-$allow_push"></a>$allow_push
@@ -424,7 +440,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L158)
+* Source: [classes/module/Module.php line 158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L158).
 
 
 ### <a name="property-$author"></a>$author
@@ -436,7 +452,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L58)
+* Source: [classes/module/Module.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L58).
 
 
 ### <a name="property-$author_uri"></a>$author_uri
@@ -448,7 +464,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L61)
+* Source: [classes/module/Module.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L61).
 
 
 ### <a name="property-$avg_rate"></a>$avg_rate
@@ -460,7 +476,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L74)
+* Source: [classes/module/Module.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L74).
 
 
 ### <a name="property-$badges"></a>$badges
@@ -472,7 +488,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L76)
+* Source: [classes/module/Module.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L76).
 
 
 ### <a name="property-$cache_permissions"></a>$cache_permissions
@@ -485,7 +501,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/module/Module.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L140)
+* Source: [classes/module/Module.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L140).
 
 
 ### <a name="property-$classInModule"></a>$classInModule
@@ -498,7 +514,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/module/Module.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L102)
+* Source: [classes/module/Module.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L102).
 
 
 ### <a name="property-$compatibility"></a>$compatibility
@@ -510,7 +526,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L70)
+* Source: [classes/module/Module.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L70).
 
 
 ### <a name="property-$context"></a>$context
@@ -522,7 +538,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/Module.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L143)
+* Source: [classes/module/Module.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L143).
 
 
 ### <a name="property-$controllers"></a>$controllers
@@ -534,7 +550,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L99)
+* Source: [classes/module/Module.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L99).
 
 
 ### <a name="property-$current_subtemplate"></a>$current_subtemplate
@@ -546,7 +562,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/Module.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L149)
+* Source: [classes/module/Module.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L149).
 
 
 ### <a name="property-$database_version"></a>$database_version
@@ -558,7 +574,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L34)
+* Source: [classes/module/Module.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L34).
 
 
 ### <a name="property-$dependencies"></a>$dependencies
@@ -570,7 +586,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L46)
+* Source: [classes/module/Module.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L46).
 
 
 ### <a name="property-$description"></a>$description
@@ -582,7 +598,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L55)
+* Source: [classes/module/Module.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L55).
 
 
 ### <a name="property-$description_full"></a>$description_full
@@ -594,7 +610,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L66)
+* Source: [classes/module/Module.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L66).
 
 
 ### <a name="property-$displayName"></a>$displayName
@@ -606,7 +622,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L52)
+* Source: [classes/module/Module.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L52).
 
 
 ### <a name="property-$enable_device"></a>$enable_device
@@ -618,7 +634,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L93)
+* Source: [classes/module/Module.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L93).
 
 
 ### <a name="property-$hosted_modules_blacklist"></a>$hosted_modules_blacklist
@@ -631,7 +647,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/module/Module.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L181)
+* Source: [classes/module/Module.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L181).
 
 
 ### <a name="property-$id"></a>$id
@@ -643,7 +659,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L30)
+* Source: [classes/module/Module.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L30).
 
 
 ### <a name="property-$identifier"></a>$identifier
@@ -655,7 +671,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/Module.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L125)
+* Source: [classes/module/Module.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L125).
 
 
 ### <a name="property-$l_cache"></a>$l_cache
@@ -668,7 +684,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/module/Module.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L137)
+* Source: [classes/module/Module.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L137).
 
 
 ### <a name="property-$limited_countries"></a>$limited_countries
@@ -680,7 +696,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L96)
+* Source: [classes/module/Module.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L96).
 
 
 ### <a name="property-$local_path"></a>$local_path
@@ -692,7 +708,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/Module.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L113)
+* Source: [classes/module/Module.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L113).
 
 
 ### <a name="property-$module_key"></a>$module_key
@@ -704,7 +720,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L64)
+* Source: [classes/module/Module.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L64).
 
 
 ### <a name="property-$modules_cache"></a>$modules_cache
@@ -717,7 +733,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/module/Module.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L128)
+* Source: [classes/module/Module.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L128).
 
 
 ### <a name="property-$name"></a>$name
@@ -729,7 +745,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L49)
+* Source: [classes/module/Module.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L49).
 
 
 ### <a name="property-$nb_rates"></a>$nb_rates
@@ -741,7 +757,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L72)
+* Source: [classes/module/Module.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L72).
 
 
 ### <a name="property-$need_instance"></a>$need_instance
@@ -753,7 +769,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L79)
+* Source: [classes/module/Module.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L79).
 
 
 ### <a name="property-$ps_versions_compliancy"></a>$ps_versions_compliancy
@@ -765,7 +781,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L43)
+* Source: [classes/module/Module.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L43).
 
 
 ### <a name="property-$push_time_limit"></a>$push_time_limit
@@ -777,7 +793,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L160)
+* Source: [classes/module/Module.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L160).
 
 
 ### <a name="property-$registered_version"></a>$registered_version
@@ -789,7 +805,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L40)
+* Source: [classes/module/Module.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L40).
 
 
 ### <a name="property-$smarty"></a>$smarty
@@ -801,7 +817,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/Module.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L146)
+* Source: [classes/module/Module.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L146).
 
 
 ### <a name="property-$tab"></a>$tab
@@ -813,7 +829,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L82)
+* Source: [classes/module/Module.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L82).
 
 
 ### <a name="property-$table"></a>$table
@@ -825,7 +841,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/Module.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L122)
+* Source: [classes/module/Module.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L122).
 
 
 ### <a name="property-$trusted"></a>$trusted
@@ -837,7 +853,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L88)
+* Source: [classes/module/Module.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L88).
 
 
 ### <a name="property-$update_translations_after_install"></a>$update_translations_after_install
@@ -850,7 +866,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/module/Module.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L151)
+* Source: [classes/module/Module.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L151).
 
 
 ### <a name="property-$version"></a>$version
@@ -862,7 +878,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L33)
+* Source: [classes/module/Module.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L33).
 
 
 ### <a name="property-$warning"></a>$warning
@@ -874,7 +890,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/module/Module.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L91)
+* Source: [classes/module/Module.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L91).
 
 
 Methods

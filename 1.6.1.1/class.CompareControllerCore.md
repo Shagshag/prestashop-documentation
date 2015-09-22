@@ -38,7 +38,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/CompareController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#L29)
+* Source: [controllers/front/CompareController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#L29).
 
 
 Methods

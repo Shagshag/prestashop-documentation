@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminCategoriesController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L35)
+* Source: [controllers/admin/AdminCategoriesController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L35).
 
 
 ### <a name="property-$disable_products"></a>$disable_products
@@ -76,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminCategoriesController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L42)
+* Source: [controllers/admin/AdminCategoriesController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L42).
 
 
 ### <a name="property-$object"></a>$object
@@ -88,7 +88,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminCategoriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L30)
+* Source: [controllers/admin/AdminCategoriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L30).
 
 
 ### <a name="property-$original_filter"></a>$original_filter
@@ -100,7 +100,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [controllers/admin/AdminCategoriesController.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L44)
+* Source: [controllers/admin/AdminCategoriesController.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L44).
 
 
 ### <a name="property-$position_identifier"></a>$position_identifier
@@ -112,7 +112,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminCategoriesController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L36)
+* Source: [controllers/admin/AdminCategoriesController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L36).
 
 
 ### <a name="property-$remove_products"></a>$remove_products
@@ -124,7 +124,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminCategoriesController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L39)
+* Source: [controllers/admin/AdminCategoriesController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L39).
 
 
 Methods

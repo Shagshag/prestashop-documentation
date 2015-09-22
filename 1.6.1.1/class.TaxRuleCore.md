@@ -52,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRule.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L35)
+* Source: [classes/tax/TaxRule.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L35).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -65,7 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/tax/TaxRule.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L41)
+* Source: [classes/tax/TaxRule.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L41).
 
 
 ### <a name="property-$description"></a>$description
@@ -77,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L36)
+* Source: [classes/tax/TaxRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L36).
 
 
 ### <a name="property-$id_country"></a>$id_country
@@ -89,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L30)
+* Source: [classes/tax/TaxRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L30).
 
 
 ### <a name="property-$id_state"></a>$id_state
@@ -101,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L31)
+* Source: [classes/tax/TaxRule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L31).
 
 
 ### <a name="property-$id_tax"></a>$id_tax
@@ -113,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L34)
+* Source: [classes/tax/TaxRule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L34).
 
 
 ### <a name="property-$id_tax_rules_group"></a>$id_tax_rules_group
@@ -125,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L29)
+* Source: [classes/tax/TaxRule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L29).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -137,7 +137,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/tax/TaxRule.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L56)
+* Source: [classes/tax/TaxRule.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L56).
 
 
 ### <a name="property-$zipcode_from"></a>$zipcode_from
@@ -149,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L32)
+* Source: [classes/tax/TaxRule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L32).
 
 
 ### <a name="property-$zipcode_to"></a>$zipcode_to
@@ -161,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L33)
+* Source: [classes/tax/TaxRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L33).
 
 
 Methods

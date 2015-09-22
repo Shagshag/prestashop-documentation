@@ -58,7 +58,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L42)
+* Source: [classes/Guest.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L42).
 
 
 ### <a name="property-$adobe_director"></a>$adobe_director
@@ -70,7 +70,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L38)
+* Source: [classes/Guest.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L38).
 
 
 ### <a name="property-$adobe_flash"></a>$adobe_flash
@@ -82,7 +82,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L37)
+* Source: [classes/Guest.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L37).
 
 
 ### <a name="property-$apple_quicktime"></a>$apple_quicktime
@@ -94,7 +94,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L39)
+* Source: [classes/Guest.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L39).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -107,7 +107,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Guest.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L48)
+* Source: [classes/Guest.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L48).
 
 
 ### <a name="property-$id_customer"></a>$id_customer
@@ -119,7 +119,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L31)
+* Source: [classes/Guest.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L31).
 
 
 ### <a name="property-$id_operating_system"></a>$id_operating_system
@@ -131,7 +131,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L29)
+* Source: [classes/Guest.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L29).
 
 
 ### <a name="property-$id_web_browser"></a>$id_web_browser
@@ -143,7 +143,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L30)
+* Source: [classes/Guest.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L30).
 
 
 ### <a name="property-$javascript"></a>$javascript
@@ -155,7 +155,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L32)
+* Source: [classes/Guest.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L32).
 
 
 ### <a name="property-$mobile_theme"></a>$mobile_theme
@@ -167,7 +167,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L43)
+* Source: [classes/Guest.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L43).
 
 
 ### <a name="property-$real_player"></a>$real_player
@@ -179,7 +179,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L40)
+* Source: [classes/Guest.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L40).
 
 
 ### <a name="property-$screen_color"></a>$screen_color
@@ -191,7 +191,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L35)
+* Source: [classes/Guest.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L35).
 
 
 ### <a name="property-$screen_resolution_x"></a>$screen_resolution_x
@@ -203,7 +203,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L33)
+* Source: [classes/Guest.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L33).
 
 
 ### <a name="property-$screen_resolution_y"></a>$screen_resolution_y
@@ -215,7 +215,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L34)
+* Source: [classes/Guest.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L34).
 
 
 ### <a name="property-$sun_java"></a>$sun_java
@@ -227,7 +227,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L36)
+* Source: [classes/Guest.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L36).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -239,7 +239,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Guest.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L70)
+* Source: [classes/Guest.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L70).
 
 
 ### <a name="property-$windows_media"></a>$windows_media
@@ -251,7 +251,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Guest.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L41)
+* Source: [classes/Guest.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L41).
 
 
 Methods

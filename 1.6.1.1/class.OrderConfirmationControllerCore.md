@@ -45,7 +45,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderConfirmationController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L31)
+* Source: [controllers/front/OrderConfirmationController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L31).
 
 
 ### <a name="property-$id_module"></a>$id_module
@@ -57,7 +57,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderConfirmationController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L32)
+* Source: [controllers/front/OrderConfirmationController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L32).
 
 
 ### <a name="property-$id_order"></a>$id_order
@@ -69,7 +69,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderConfirmationController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L33)
+* Source: [controllers/front/OrderConfirmationController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L33).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -81,7 +81,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderConfirmationController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L30)
+* Source: [controllers/front/OrderConfirmationController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L30).
 
 
 ### <a name="property-$reference"></a>$reference
@@ -93,7 +93,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderConfirmationController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L34)
+* Source: [controllers/front/OrderConfirmationController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L34).
 
 
 ### <a name="property-$secure_key"></a>$secure_key
@@ -105,7 +105,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderConfirmationController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L35)
+* Source: [controllers/front/OrderConfirmationController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L35).
 
 
 ### <a name="property-$ssl"></a>$ssl
@@ -117,7 +117,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/OrderConfirmationController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L29)
+* Source: [controllers/front/OrderConfirmationController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L29).
 
 
 Methods

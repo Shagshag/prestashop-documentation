@@ -46,7 +46,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminPatternsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L29)
+* Source: [controllers/admin/AdminPatternsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L29).
 
 
 Methods

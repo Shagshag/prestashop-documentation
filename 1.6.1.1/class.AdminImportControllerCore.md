@@ -92,7 +92,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminImportController.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L46)
+* Source: [controllers/admin/AdminImportController.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L46).
 
 
 ### <a name="property-$cache_image_deleted"></a>$cache_image_deleted
@@ -104,7 +104,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminImportController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L50)
+* Source: [controllers/admin/AdminImportController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L50).
 
 
 ### <a name="property-$column_mask"></a>$column_mask
@@ -117,7 +117,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [controllers/admin/AdminImportController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L42)
+* Source: [controllers/admin/AdminImportController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L42).
 
 
 ### <a name="property-$default_values"></a>$default_values
@@ -130,7 +130,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [controllers/admin/AdminImportController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L52)
+* Source: [controllers/admin/AdminImportController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L52).
 
 
 ### <a name="property-$entities"></a>$entities
@@ -142,7 +142,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminImportController.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L44)
+* Source: [controllers/admin/AdminImportController.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L44).
 
 
 ### <a name="property-$multiple_value_separator"></a>$multiple_value_separator
@@ -154,7 +154,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminImportController.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L79)
+* Source: [controllers/admin/AdminImportController.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L79).
 
 
 ### <a name="property-$required_fields"></a>$required_fields
@@ -166,7 +166,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminImportController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L48)
+* Source: [controllers/admin/AdminImportController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L48).
 
 
 ### <a name="property-$separator"></a>$separator
@@ -178,7 +178,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminImportController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L78)
+* Source: [controllers/admin/AdminImportController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L78).
 
 
 ### <a name="property-$validators"></a>$validators
@@ -191,7 +191,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [controllers/admin/AdminImportController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L54)
+* Source: [controllers/admin/AdminImportController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L54).
 
 
 Methods

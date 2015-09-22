@@ -41,7 +41,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/TranslatedConfiguration.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L39)
+* Source: [classes/TranslatedConfiguration.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L39).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -53,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/TranslatedConfiguration.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L29)
+* Source: [classes/TranslatedConfiguration.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L29).
 
 
 Methods

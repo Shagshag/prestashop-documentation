@@ -55,7 +55,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L30)
+* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L30).
 
 
 ### <a name="property-$tableName"></a>$tableName
@@ -67,7 +67,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L29)
+* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L29).
 
 
 Methods

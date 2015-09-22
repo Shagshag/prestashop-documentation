@@ -77,7 +77,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/CMSCategory.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L70)
+* Source: [classes/CMSCategory.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L70).
 
 
 ### <a name="property-$active"></a>$active
@@ -89,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L38)
+* Source: [classes/CMSCategory.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L38).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -101,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L65)
+* Source: [classes/CMSCategory.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L65).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -113,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L68)
+* Source: [classes/CMSCategory.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L68).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -126,7 +126,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/CMSCategory.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L75)
+* Source: [classes/CMSCategory.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L75).
 
 
 ### <a name="property-$description"></a>$description
@@ -138,7 +138,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L41)
+* Source: [classes/CMSCategory.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L41).
 
 
 ### <a name="property-$id"></a>$id
@@ -150,7 +150,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L29)
+* Source: [classes/CMSCategory.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L29).
 
 
 ### <a name="property-$id_cms_category"></a>$id_cms_category
@@ -162,7 +162,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L32)
+* Source: [classes/CMSCategory.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L32).
 
 
 ### <a name="property-$id_parent"></a>$id_parent
@@ -174,7 +174,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L44)
+* Source: [classes/CMSCategory.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L44).
 
 
 ### <a name="property-$level_depth"></a>$level_depth
@@ -186,7 +186,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L50)
+* Source: [classes/CMSCategory.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L50).
 
 
 ### <a name="property-$link_rewrite"></a>$link_rewrite
@@ -198,7 +198,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L53)
+* Source: [classes/CMSCategory.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L53).
 
 
 ### <a name="property-$meta_description"></a>$meta_description
@@ -210,7 +210,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L62)
+* Source: [classes/CMSCategory.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L62).
 
 
 ### <a name="property-$meta_keywords"></a>$meta_keywords
@@ -222,7 +222,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L59)
+* Source: [classes/CMSCategory.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L59).
 
 
 ### <a name="property-$meta_title"></a>$meta_title
@@ -234,7 +234,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L56)
+* Source: [classes/CMSCategory.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L56).
 
 
 ### <a name="property-$name"></a>$name
@@ -246,7 +246,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L35)
+* Source: [classes/CMSCategory.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L35).
 
 
 ### <a name="property-$position"></a>$position
@@ -258,7 +258,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMSCategory.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L47)
+* Source: [classes/CMSCategory.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L47).
 
 
 Methods

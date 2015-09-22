@@ -35,7 +35,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/ParentOrderController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L32)
+* Source: [controllers/front/ParentOrderController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L32).
 
 
 ### <a name="property-$displayName"></a>$displayName
@@ -47,7 +47,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/ParentOrderController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L34)
+* Source: [controllers/front/ParentOrderController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L34).
 
 
 ### <a name="property-$name"></a>$name
@@ -59,7 +59,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/ParentOrderController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L33)
+* Source: [controllers/front/ParentOrderController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L33).
 
 
 

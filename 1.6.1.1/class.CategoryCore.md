@@ -131,7 +131,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Category.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L87)
+* Source: [classes/Category.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L87).
 
 
 ### <a name="property-$active"></a>$active
@@ -143,7 +143,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L38)
+* Source: [classes/Category.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L38).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -155,7 +155,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L74)
+* Source: [classes/Category.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L74).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -167,7 +167,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L77)
+* Source: [classes/Category.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L77).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -180,7 +180,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Category.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L92)
+* Source: [classes/Category.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L92).
 
 
 ### <a name="property-$description"></a>$description
@@ -192,7 +192,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L44)
+* Source: [classes/Category.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L44).
 
 
 ### <a name="property-$groupBox"></a>$groupBox
@@ -204,7 +204,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L85)
+* Source: [classes/Category.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L85).
 
 
 ### <a name="property-$id"></a>$id
@@ -216,7 +216,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L29)
+* Source: [classes/Category.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L29).
 
 
 ### <a name="property-$id_category"></a>$id_category
@@ -228,7 +228,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L32)
+* Source: [classes/Category.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L32).
 
 
 ### <a name="property-$id_category_default"></a>$id_category_default
@@ -240,7 +240,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L50)
+* Source: [classes/Category.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L50).
 
 
 ### <a name="property-$id_image"></a>$id_image
@@ -252,7 +252,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L119)
+* Source: [classes/Category.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L119).
 
 
 ### <a name="property-$id_parent"></a>$id_parent
@@ -264,7 +264,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L47)
+* Source: [classes/Category.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L47).
 
 
 ### <a name="property-$id_shop_default"></a>$id_shop_default
@@ -276,7 +276,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L83)
+* Source: [classes/Category.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L83).
 
 
 ### <a name="property-$is_root_category"></a>$is_root_category
@@ -288,7 +288,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L80)
+* Source: [classes/Category.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L80).
 
 
 ### <a name="property-$level_depth"></a>$level_depth
@@ -300,7 +300,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L53)
+* Source: [classes/Category.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L53).
 
 
 ### <a name="property-$link_rewrite"></a>$link_rewrite
@@ -312,7 +312,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L62)
+* Source: [classes/Category.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L62).
 
 
 ### <a name="property-$meta_description"></a>$meta_description
@@ -324,7 +324,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L71)
+* Source: [classes/Category.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L71).
 
 
 ### <a name="property-$meta_keywords"></a>$meta_keywords
@@ -336,7 +336,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L68)
+* Source: [classes/Category.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L68).
 
 
 ### <a name="property-$meta_title"></a>$meta_title
@@ -348,7 +348,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L65)
+* Source: [classes/Category.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L65).
 
 
 ### <a name="property-$name"></a>$name
@@ -360,7 +360,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L35)
+* Source: [classes/Category.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L35).
 
 
 ### <a name="property-$nleft"></a>$nleft
@@ -372,7 +372,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L56)
+* Source: [classes/Category.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L56).
 
 
 ### <a name="property-$nright"></a>$nright
@@ -384,7 +384,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L59)
+* Source: [classes/Category.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L59).
 
 
 ### <a name="property-$position"></a>$position
@@ -396,7 +396,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Category.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L41)
+* Source: [classes/Category.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L41).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -408,7 +408,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Category.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L121)
+* Source: [classes/Category.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L121).
 
 
 Methods

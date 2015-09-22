@@ -42,7 +42,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Risk.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#L34)
+* Source: [classes/Risk.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#L34).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -55,7 +55,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Risk.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#L37)
+* Source: [classes/Risk.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#L37).
 
 
 ### <a name="property-$id_risk"></a>$id_risk
@@ -67,7 +67,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Risk.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#L32)
+* Source: [classes/Risk.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#L32).
 
 
 ### <a name="property-$name"></a>$name
@@ -79,7 +79,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Risk.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#L33)
+* Source: [classes/Risk.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#L33).
 
 
 ### <a name="property-$percent"></a>$percent
@@ -91,7 +91,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Risk.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#L35)
+* Source: [classes/Risk.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#L35).
 
 
 Methods

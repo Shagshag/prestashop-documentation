@@ -142,7 +142,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L179)
+* Source: [admin/filemanager/include/php_image_magician.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L179).
 
 
 ### <a name="property-$captionBoxPositionArray"></a>$captionBoxPositionArray
@@ -154,7 +154,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L192)
+* Source: [admin/filemanager/include/php_image_magician.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L192).
 
 
 ### <a name="property-$cropFromTopPercent"></a>$cropFromTopPercent
@@ -166,7 +166,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L196)
+* Source: [admin/filemanager/include/php_image_magician.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L196).
 
 
 ### <a name="property-$debug"></a>$debug
@@ -178,7 +178,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L175)
+* Source: [admin/filemanager/include/php_image_magician.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L175).
 
 
 ### <a name="property-$errorArray"></a>$errorArray
@@ -190,7 +190,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L176)
+* Source: [admin/filemanager/include/php_image_magician.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L176).
 
 
 ### <a name="property-$fileExtension"></a>$fileExtension
@@ -202,7 +202,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L173)
+* Source: [admin/filemanager/include/php_image_magician.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L173).
 
 
 ### <a name="property-$fileName"></a>$fileName
@@ -214,7 +214,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L165)
+* Source: [admin/filemanager/include/php_image_magician.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L165).
 
 
 ### <a name="property-$fillColorArray"></a>$fillColorArray
@@ -226,7 +226,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L183)
+* Source: [admin/filemanager/include/php_image_magician.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L183).
 
 
 ### <a name="property-$filterOverlayPath"></a>$filterOverlayPath
@@ -238,7 +238,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L188)
+* Source: [admin/filemanager/include/php_image_magician.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L188).
 
 
 ### <a name="property-$fontDir"></a>$fontDir
@@ -250,7 +250,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L194)
+* Source: [admin/filemanager/include/php_image_magician.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L194).
 
 
 ### <a name="property-$forceStretch"></a>$forceStretch
@@ -262,7 +262,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L178)
+* Source: [admin/filemanager/include/php_image_magician.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L178).
 
 
 ### <a name="property-$height"></a>$height
@@ -274,7 +274,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L171)
+* Source: [admin/filemanager/include/php_image_magician.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L171).
 
 
 ### <a name="property-$heightOriginal"></a>$heightOriginal
@@ -286,7 +286,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L169)
+* Source: [admin/filemanager/include/php_image_magician.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L169).
 
 
 ### <a name="property-$image"></a>$image
@@ -298,7 +298,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L166)
+* Source: [admin/filemanager/include/php_image_magician.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L166).
 
 
 ### <a name="property-$imageResized"></a>$imageResized
@@ -310,7 +310,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [admin/filemanager/include/php_image_magician.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L167)
+* Source: [admin/filemanager/include/php_image_magician.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L167).
 
 
 ### <a name="property-$imageSize"></a>$imageSize
@@ -322,7 +322,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L172)
+* Source: [admin/filemanager/include/php_image_magician.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L172).
 
 
 ### <a name="property-$isInterlace"></a>$isInterlace
@@ -334,7 +334,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L190)
+* Source: [admin/filemanager/include/php_image_magician.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L190).
 
 
 ### <a name="property-$keepTransparency"></a>$keepTransparency
@@ -346,7 +346,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L182)
+* Source: [admin/filemanager/include/php_image_magician.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L182).
 
 
 ### <a name="property-$psdReaderPath"></a>$psdReaderPath
@@ -358,7 +358,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L187)
+* Source: [admin/filemanager/include/php_image_magician.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L187).
 
 
 ### <a name="property-$sharpenArray"></a>$sharpenArray
@@ -370,7 +370,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L185)
+* Source: [admin/filemanager/include/php_image_magician.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L185).
 
 
 ### <a name="property-$transparentArray"></a>$transparentArray
@@ -382,7 +382,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L181)
+* Source: [admin/filemanager/include/php_image_magician.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L181).
 
 
 ### <a name="property-$width"></a>$width
@@ -394,7 +394,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L170)
+* Source: [admin/filemanager/include/php_image_magician.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L170).
 
 
 ### <a name="property-$widthOriginal"></a>$widthOriginal
@@ -406,7 +406,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L168)
+* Source: [admin/filemanager/include/php_image_magician.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L168).
 
 
 Methods

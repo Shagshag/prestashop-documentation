@@ -79,7 +79,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Media.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L89)
+* Source: [classes/Media.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L89).
 
 
 ### <a name="property-$inline_script"></a>$inline_script
@@ -92,7 +92,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Media.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L74)
+* Source: [classes/Media.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L74).
 
 
 ### <a name="property-$inline_script_src"></a>$inline_script_src
@@ -105,7 +105,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Media.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L79)
+* Source: [classes/Media.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L79).
 
 
 ### <a name="property-$jquery_ui_dependencies"></a>$jquery_ui_dependencies
@@ -118,7 +118,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Media.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L29)
+* Source: [classes/Media.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L29).
 
 
 ### <a name="property-$js_def"></a>$js_def
@@ -131,7 +131,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Media.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L69)
+* Source: [classes/Media.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L69).
 
 
 ### <a name="property-$pattern_callback"></a>$pattern_callback
@@ -144,7 +144,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Media.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L84)
+* Source: [classes/Media.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L84).
 
 
 ### <a name="property-$pattern_js"></a>$pattern_js
@@ -157,7 +157,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Media.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L94)
+* Source: [classes/Media.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L94).
 
 
 Methods

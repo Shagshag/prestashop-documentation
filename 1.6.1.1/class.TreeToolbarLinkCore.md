@@ -73,7 +73,9 @@ Constants
 
 
 
-* Source: [classes/tree/TreeToolbarLink.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L29)
+
+
+* Source: [classes/tree/TreeToolbarLink.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L29).
 
 
 Properties
@@ -89,7 +91,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarLink.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L30)
+* Source: [classes/tree/TreeToolbarLink.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L30).
 
 
 ### <a name="property-$_attributes"></a>$_attributes
@@ -101,7 +103,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/tree/TreeToolbarLink.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L31)
+* Source: [classes/tree/TreeToolbarLink.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L31).
 
 
 ### <a name="property-$_class"></a>$_class
@@ -113,7 +115,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarLink.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L32)
+* Source: [classes/tree/TreeToolbarLink.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L32).
 
 
 ### <a name="property-$_context"></a>$_context
@@ -125,7 +127,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarLink.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L33)
+* Source: [classes/tree/TreeToolbarLink.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L33).
 
 
 ### <a name="property-$_icon_class"></a>$_icon_class
@@ -137,7 +139,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarLink.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L31)
+* Source: [classes/tree/TreeToolbarLink.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L31).
 
 
 ### <a name="property-$_id"></a>$_id
@@ -149,7 +151,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarLink.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L34)
+* Source: [classes/tree/TreeToolbarLink.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L34).
 
 
 ### <a name="property-$_label"></a>$_label
@@ -161,7 +163,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarLink.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L35)
+* Source: [classes/tree/TreeToolbarLink.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L35).
 
 
 ### <a name="property-$_link"></a>$_link
@@ -173,7 +175,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarLink.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L32)
+* Source: [classes/tree/TreeToolbarLink.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L32).
 
 
 ### <a name="property-$_name"></a>$_name
@@ -185,7 +187,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/tree/TreeToolbarLink.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L36)
+* Source: [classes/tree/TreeToolbarLink.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L36).
 
 
 ### <a name="property-$_template"></a>$_template
@@ -197,7 +199,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/tree/TreeToolbarLink.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L37)
+* Source: [classes/tree/TreeToolbarLink.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L37).
 
 
 ### <a name="property-$_template_directory"></a>$_template_directory
@@ -209,7 +211,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/tree/TreeToolbarLink.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L38)
+* Source: [classes/tree/TreeToolbarLink.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L38).
 
 
 Methods

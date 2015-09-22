@@ -325,7 +325,9 @@ Constants
 
 
 
-* Source: [classes/Product.php line 465](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L465)
+
+
+* Source: [classes/Product.php line 465](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L465).
 
 
 ### <a name="constant-CUSTOMIZE_TEXTFIELD"></a>CUSTOMIZE_TEXTFIELD
@@ -334,7 +336,9 @@ Constants
 
 
 
-* Source: [classes/Product.php line 466](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L466)
+
+
+* Source: [classes/Product.php line 466](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L466).
 
 
 ### <a name="constant-PTYPE_PACK"></a>PTYPE_PACK
@@ -343,16 +347,20 @@ Constants
 
 
 
-* Source: [classes/Product.php line 472](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L472)
+
+
+* Source: [classes/Product.php line 472](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L472).
 
 
 ### <a name="constant-PTYPE_SIMPLE"></a>PTYPE_SIMPLE
 
     const PTYPE_SIMPLE = 0
 
+Note:  prefix is "PTYPE" because TYPE_ is used in ObjectModel (definition)
 
 
-* Source: [classes/Product.php line 471](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L471)
+
+* Source: [classes/Product.php line 471](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L471).
 
 
 ### <a name="constant-PTYPE_VIRTUAL"></a>PTYPE_VIRTUAL
@@ -361,7 +369,9 @@ Constants
 
 
 
-* Source: [classes/Product.php line 473](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L473)
+
+
+* Source: [classes/Product.php line 473](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L473).
 
 
 Properties
@@ -378,7 +388,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Product.php line 254](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L254)
+* Source: [classes/Product.php line 254](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L254).
 
 
 ### <a name="property-$_cart_quantity"></a>$_cart_quantity
@@ -391,7 +401,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Product.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L251)
+* Source: [classes/Product.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L251).
 
 
 ### <a name="property-$_frontFeaturesCache"></a>$_frontFeaturesCache
@@ -404,7 +414,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Product.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L255)
+* Source: [classes/Product.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L255).
 
 
 ### <a name="property-$_incat"></a>$_incat
@@ -417,7 +427,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Product.php line 245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L245)
+* Source: [classes/Product.php line 245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L245).
 
 
 ### <a name="property-$_prices"></a>$_prices
@@ -430,7 +440,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Product.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L243)
+* Source: [classes/Product.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L243).
 
 
 ### <a name="property-$_pricesLevel2"></a>$_pricesLevel2
@@ -443,7 +453,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Product.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L244)
+* Source: [classes/Product.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L244).
 
 
 ### <a name="property-$_taxCalculationMethod"></a>$_taxCalculationMethod
@@ -456,7 +466,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Product.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L242)
+* Source: [classes/Product.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L242).
 
 
 ### <a name="property-$_tax_rules_group"></a>$_tax_rules_group
@@ -469,7 +479,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Product.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L253)
+* Source: [classes/Product.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L253).
 
 
 ### <a name="property-$active"></a>$active
@@ -481,7 +491,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L167)
+* Source: [classes/Product.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L167).
 
 
 ### <a name="property-$additional_shipping_cost"></a>$additional_shipping_cost
@@ -493,7 +503,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L89)
+* Source: [classes/Product.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L89).
 
 
 ### <a name="property-$advanced_stock_management"></a>$advanced_stock_management
@@ -505,7 +515,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 220](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L220)
+* Source: [classes/Product.php line 220](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L220).
 
 
 ### <a name="property-$available_date"></a>$available_date
@@ -517,7 +527,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L179)
+* Source: [classes/Product.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L179).
 
 
 ### <a name="property-$available_for_order"></a>$available_for_order
@@ -529,7 +539,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L176)
+* Source: [classes/Product.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L176).
 
 
 ### <a name="property-$available_later"></a>$available_later
@@ -541,7 +551,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L81)
+* Source: [classes/Product.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L81).
 
 
 ### <a name="property-$available_now"></a>$available_now
@@ -553,7 +563,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L78)
+* Source: [classes/Product.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L78).
 
 
 ### <a name="property-$base_price"></a>$base_price
@@ -565,7 +575,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L206)
+* Source: [classes/Product.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L206).
 
 
 ### <a name="property-$cacheStock"></a>$cacheStock
@@ -578,7 +588,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Product.php line 259](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L259)
+* Source: [classes/Product.php line 259](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L259).
 
 
 ### <a name="property-$cache_default_attribute"></a>$cache_default_attribute
@@ -590,7 +600,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 230](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L230)
+* Source: [classes/Product.php line 230](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L230).
 
 
 ### <a name="property-$cache_has_attachments"></a>$cache_has_attachments
@@ -602,7 +612,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L227)
+* Source: [classes/Product.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L227).
 
 
 ### <a name="property-$cache_is_pack"></a>$cache_is_pack
@@ -614,7 +624,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L226)
+* Source: [classes/Product.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L226).
 
 
 ### <a name="property-$category"></a>$category
@@ -626,7 +636,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L235)
+* Source: [classes/Product.php line 235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L235).
 
 
 ### <a name="property-$condition"></a>$condition
@@ -638,7 +648,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L182)
+* Source: [classes/Product.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L182).
 
 
 ### <a name="property-$customizable"></a>$customizable
@@ -650,7 +660,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L155)
+* Source: [classes/Product.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L155).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -662,7 +672,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L194)
+* Source: [classes/Product.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L194).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -674,7 +684,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 197](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L197)
+* Source: [classes/Product.php line 197](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L197).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -687,7 +697,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Product.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L261)
+* Source: [classes/Product.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L261).
 
 
 ### <a name="property-$depends_on_stock"></a>$depends_on_stock
@@ -699,7 +709,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L222)
+* Source: [classes/Product.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L222).
 
 
 ### <a name="property-$depth"></a>$depth
@@ -711,7 +721,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L128)
+* Source: [classes/Product.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L128).
 
 
 ### <a name="property-$description"></a>$description
@@ -723,7 +733,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L66)
+* Source: [classes/Product.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L66).
 
 
 ### <a name="property-$description_short"></a>$description_short
@@ -735,7 +745,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L69)
+* Source: [classes/Product.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L69).
 
 
 ### <a name="property-$ean13"></a>$ean13
@@ -747,7 +757,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L134)
+* Source: [classes/Product.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L134).
 
 
 ### <a name="property-$ecotax"></a>$ecotax
@@ -759,7 +769,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L110)
+* Source: [classes/Product.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L110).
 
 
 ### <a name="property-$height"></a>$height
@@ -771,7 +781,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L125)
+* Source: [classes/Product.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L125).
 
 
 ### <a name="property-$id_category_default"></a>$id_category_default
@@ -783,7 +793,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L51)
+* Source: [classes/Product.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L51).
 
 
 ### <a name="property-$id_color_default"></a>$id_color_default
@@ -795,7 +805,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L214)
+* Source: [classes/Product.php line 214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L214).
 
 
 ### <a name="property-$id_manufacturer"></a>$id_manufacturer
@@ -807,7 +817,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L45)
+* Source: [classes/Product.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L45).
 
 
 ### <a name="property-$id_pack_product_attribute"></a>$id_pack_product_attribute
@@ -819,7 +829,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L229)
+* Source: [classes/Product.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L229).
 
 
 ### <a name="property-$id_product_redirected"></a>$id_product_redirected
@@ -831,7 +841,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L173)
+* Source: [classes/Product.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L173).
 
 
 ### <a name="property-$id_shop_default"></a>$id_shop_default
@@ -843,7 +853,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L54)
+* Source: [classes/Product.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L54).
 
 
 ### <a name="property-$id_supplier"></a>$id_supplier
@@ -855,7 +865,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L48)
+* Source: [classes/Product.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L48).
 
 
 ### <a name="property-$id_tax_rules_group"></a>$id_tax_rules_group
@@ -867,7 +877,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 208](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L208)
+* Source: [classes/Product.php line 208](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L208).
 
 
 ### <a name="property-$indexed"></a>$indexed
@@ -879,7 +889,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L188)
+* Source: [classes/Product.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L188).
 
 
 ### <a name="property-$isFullyLoaded"></a>$isFullyLoaded
@@ -891,7 +901,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L224)
+* Source: [classes/Product.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L224).
 
 
 ### <a name="property-$is_virtual"></a>$is_virtual
@@ -903,7 +913,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L228)
+* Source: [classes/Product.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L228).
 
 
 ### <a name="property-$link_rewrite"></a>$link_rewrite
@@ -915,7 +925,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L140)
+* Source: [classes/Product.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L140).
 
 
 ### <a name="property-$location"></a>$location
@@ -927,7 +937,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L119)
+* Source: [classes/Product.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L119).
 
 
 ### <a name="property-$manufacturer_name"></a>$manufacturer_name
@@ -939,7 +949,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L57)
+* Source: [classes/Product.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L57).
 
 
 ### <a name="property-$meta_description"></a>$meta_description
@@ -951,7 +961,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L143)
+* Source: [classes/Product.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L143).
 
 
 ### <a name="property-$meta_keywords"></a>$meta_keywords
@@ -963,7 +973,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L146)
+* Source: [classes/Product.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L146).
 
 
 ### <a name="property-$meta_title"></a>$meta_title
@@ -975,7 +985,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L149)
+* Source: [classes/Product.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L149).
 
 
 ### <a name="property-$minimal_quantity"></a>$minimal_quantity
@@ -987,7 +997,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L75)
+* Source: [classes/Product.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L75).
 
 
 ### <a name="property-$name"></a>$name
@@ -999,7 +1009,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L63)
+* Source: [classes/Product.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L63).
 
 
 ### <a name="property-$new"></a>$new
@@ -1011,7 +1021,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L158)
+* Source: [classes/Product.php line 158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L158).
 
 
 ### <a name="property-$on_sale"></a>$on_sale
@@ -1023,7 +1033,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L95)
+* Source: [classes/Product.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L95).
 
 
 ### <a name="property-$online_only"></a>$online_only
@@ -1035,7 +1045,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L98)
+* Source: [classes/Product.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L98).
 
 
 ### <a name="property-$out_of_stock"></a>$out_of_stock
@@ -1047,7 +1057,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L221)
+* Source: [classes/Product.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L221).
 
 
 ### <a name="property-$pack_stock_type"></a>$pack_stock_type
@@ -1059,7 +1069,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L240)
+* Source: [classes/Product.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L240).
 
 
 ### <a name="property-$price"></a>$price
@@ -1071,7 +1081,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L84)
+* Source: [classes/Product.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L84).
 
 
 ### <a name="property-$producPropertiesCache"></a>$producPropertiesCache
@@ -1084,7 +1094,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Product.php line 256](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L256)
+* Source: [classes/Product.php line 256](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L256).
 
 
 ### <a name="property-$quantity"></a>$quantity
@@ -1096,7 +1106,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L72)
+* Source: [classes/Product.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L72).
 
 
 ### <a name="property-$quantity_discount"></a>$quantity_discount
@@ -1108,7 +1118,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L152)
+* Source: [classes/Product.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L152).
 
 
 ### <a name="property-$redirect_type"></a>$redirect_type
@@ -1120,7 +1130,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L170)
+* Source: [classes/Product.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L170).
 
 
 ### <a name="property-$reference"></a>$reference
@@ -1132,7 +1142,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L113)
+* Source: [classes/Product.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L113).
 
 
 ### <a name="property-$show_price"></a>$show_price
@@ -1144,7 +1154,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L185)
+* Source: [classes/Product.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L185).
 
 
 ### <a name="property-$specificPrice"></a>$specificPrice
@@ -1156,7 +1166,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L86)
+* Source: [classes/Product.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L86).
 
 
 ### <a name="property-$supplier_name"></a>$supplier_name
@@ -1168,7 +1178,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L60)
+* Source: [classes/Product.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L60).
 
 
 ### <a name="property-$supplier_reference"></a>$supplier_reference
@@ -1180,7 +1190,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L116)
+* Source: [classes/Product.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L116).
 
 
 ### <a name="property-$tags"></a>$tags
@@ -1192,7 +1202,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L200)
+* Source: [classes/Product.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L200).
 
 
 ### <a name="property-$tax_name"></a>$tax_name
@@ -1204,7 +1214,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L39)
+* Source: [classes/Product.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L39).
 
 
 ### <a name="property-$tax_rate"></a>$tax_rate
@@ -1216,7 +1226,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L42)
+* Source: [classes/Product.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L42).
 
 
 ### <a name="property-$text_fields"></a>$text_fields
@@ -1228,7 +1238,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L164)
+* Source: [classes/Product.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L164).
 
 
 ### <a name="property-$unit_price"></a>$unit_price
@@ -1240,7 +1250,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L104)
+* Source: [classes/Product.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L104).
 
 
 ### <a name="property-$unit_price_ratio"></a>$unit_price_ratio
@@ -1252,7 +1262,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L107)
+* Source: [classes/Product.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L107).
 
 
 ### <a name="property-$unity"></a>$unity
@@ -1264,7 +1274,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L101)
+* Source: [classes/Product.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L101).
 
 
 ### <a name="property-$upc"></a>$upc
@@ -1276,7 +1286,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L137)
+* Source: [classes/Product.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L137).
 
 
 ### <a name="property-$uploadable_files"></a>$uploadable_files
@@ -1288,7 +1298,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L161)
+* Source: [classes/Product.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L161).
 
 
 ### <a name="property-$visibility"></a>$visibility
@@ -1300,7 +1310,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L191)
+* Source: [classes/Product.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L191).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -1312,7 +1322,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **protected**
-* Source: [classes/Product.php line 346](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L346)
+* Source: [classes/Product.php line 346](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L346).
 
 
 ### <a name="property-$weight"></a>$weight
@@ -1324,7 +1334,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L131)
+* Source: [classes/Product.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L131).
 
 
 ### <a name="property-$wholesale_price"></a>$wholesale_price
@@ -1336,7 +1346,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L92)
+* Source: [classes/Product.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L92).
 
 
 ### <a name="property-$width"></a>$width
@@ -1348,7 +1358,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* Source: [classes/Product.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L122)
+* Source: [classes/Product.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L122).
 
 
 Methods

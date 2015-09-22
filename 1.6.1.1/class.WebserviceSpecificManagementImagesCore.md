@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L72)
+* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L72).
 
 
 ### <a name="property-$defaultImage"></a>$defaultImage
@@ -90,7 +90,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L82)
+* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L82).
 
 
 ### <a name="property-$imageResource"></a>$imageResource
@@ -102,7 +102,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L88)
+* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L88).
 
 
 ### <a name="property-$imageType"></a>$imageType
@@ -114,7 +114,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L62)
+* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L62).
 
 
 ### <a name="property-$imageTypes"></a>$imageTypes
@@ -126,7 +126,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L44)
+* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L44).
 
 
 ### <a name="property-$imgExtension"></a>$imgExtension
@@ -138,7 +138,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L39)
+* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L39).
 
 
 ### <a name="property-$imgMaxUploadSize"></a>$imgMaxUploadSize
@@ -150,7 +150,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L67)
+* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L67).
 
 
 ### <a name="property-$imgToDisplay"></a>$imgToDisplay
@@ -162,7 +162,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L87)
+* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L87).
 
 
 ### <a name="property-$objOutput"></a>$objOutput
@@ -174,7 +174,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L30)
+* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L30).
 
 
 ### <a name="property-$output"></a>$output
@@ -186,7 +186,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L31)
+* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L31).
 
 
 ### <a name="property-$productImageDeclinationId"></a>$productImageDeclinationId
@@ -198,7 +198,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L77)
+* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L77).
 
 
 ### <a name="property-$wsObject"></a>$wsObject
@@ -210,7 +210,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L34)
+* Source: [classes/webservice/WebserviceSpecificManagementImages.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L34).
 
 
 Methods

@@ -156,9 +156,11 @@ Constants
 
     const FORMAT_COMMON = 1
 
+List of data to format
 
 
-* Source: [classes/stock/StockMvtWS.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L44)
+
+* Source: [classes/stock/StockMvtWS.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L44).
 
 
 ### <a name="constant-FORMAT_LANG"></a>FORMAT_LANG
@@ -167,7 +169,9 @@ Constants
 
 
 
-* Source: [classes/stock/StockMvtWS.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L45)
+
+
+* Source: [classes/stock/StockMvtWS.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L45).
 
 
 ### <a name="constant-FORMAT_SHOP"></a>FORMAT_SHOP
@@ -176,7 +180,9 @@ Constants
 
 
 
-* Source: [classes/stock/StockMvtWS.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L46)
+
+
+* Source: [classes/stock/StockMvtWS.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L46).
 
 
 ### <a name="constant-HAS_MANY"></a>HAS_MANY
@@ -185,16 +191,20 @@ Constants
 
 
 
-* Source: [classes/stock/StockMvtWS.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L52)
+
+
+* Source: [classes/stock/StockMvtWS.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L52).
 
 
 ### <a name="constant-HAS_ONE"></a>HAS_ONE
 
     const HAS_ONE = 1
 
+List of association types
 
 
-* Source: [classes/stock/StockMvtWS.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L51)
+
+* Source: [classes/stock/StockMvtWS.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L51).
 
 
 ### <a name="constant-TYPE_BOOL"></a>TYPE_BOOL
@@ -203,7 +213,9 @@ Constants
 
 
 
-* Source: [classes/stock/StockMvtWS.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L33)
+
+
+* Source: [classes/stock/StockMvtWS.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L33).
 
 
 ### <a name="constant-TYPE_DATE"></a>TYPE_DATE
@@ -212,7 +224,9 @@ Constants
 
 
 
-* Source: [classes/stock/StockMvtWS.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L36)
+
+
+* Source: [classes/stock/StockMvtWS.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L36).
 
 
 ### <a name="constant-TYPE_FLOAT"></a>TYPE_FLOAT
@@ -221,7 +235,9 @@ Constants
 
 
 
-* Source: [classes/stock/StockMvtWS.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L35)
+
+
+* Source: [classes/stock/StockMvtWS.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L35).
 
 
 ### <a name="constant-TYPE_HTML"></a>TYPE_HTML
@@ -230,16 +246,20 @@ Constants
 
 
 
-* Source: [classes/stock/StockMvtWS.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L37)
+
+
+* Source: [classes/stock/StockMvtWS.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L37).
 
 
 ### <a name="constant-TYPE_INT"></a>TYPE_INT
 
     const TYPE_INT = 1
 
+List of field types
 
 
-* Source: [classes/stock/StockMvtWS.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L32)
+
+* Source: [classes/stock/StockMvtWS.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L32).
 
 
 ### <a name="constant-TYPE_NOTHING"></a>TYPE_NOTHING
@@ -248,7 +268,9 @@ Constants
 
 
 
-* Source: [classes/stock/StockMvtWS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L38)
+
+
+* Source: [classes/stock/StockMvtWS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L38).
 
 
 ### <a name="constant-TYPE_SQL"></a>TYPE_SQL
@@ -257,7 +279,9 @@ Constants
 
 
 
-* Source: [classes/stock/StockMvtWS.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L39)
+
+
+* Source: [classes/stock/StockMvtWS.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L39).
 
 
 ### <a name="constant-TYPE_STRING"></a>TYPE_STRING
@@ -266,7 +290,9 @@ Constants
 
 
 
-* Source: [classes/stock/StockMvtWS.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L34)
+
+
+* Source: [classes/stock/StockMvtWS.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L34).
 
 
 Properties
@@ -283,7 +309,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/stock/StockMvtWS.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L164)
+* Source: [classes/stock/StockMvtWS.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L164).
 
 
 ### <a name="property-$current_wa"></a>$current_wa
@@ -295,7 +321,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L93)
+* Source: [classes/stock/StockMvtWS.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L93).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -307,7 +333,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L38)
+* Source: [classes/stock/StockMvtWS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L38).
 
 
 ### <a name="property-$db"></a>$db
@@ -320,7 +346,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/stock/StockMvtWS.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L156)
+* Source: [classes/stock/StockMvtWS.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L156).
 
 
 ### <a name="property-$def"></a>$def
@@ -332,7 +358,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L150)
+* Source: [classes/stock/StockMvtWS.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L150).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -345,7 +371,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/stock/StockMvtWS.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L139)
+* Source: [classes/stock/StockMvtWS.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L139).
 
 
 ### <a name="property-$ean13"></a>$ean13
@@ -357,7 +383,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L138)
+* Source: [classes/stock/StockMvtWS.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L138).
 
 
 ### <a name="property-$employee_firstname"></a>$employee_firstname
@@ -369,7 +395,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L48)
+* Source: [classes/stock/StockMvtWS.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L48).
 
 
 ### <a name="property-$employee_lastname"></a>$employee_lastname
@@ -381,7 +407,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L53)
+* Source: [classes/stock/StockMvtWS.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L53).
 
 
 ### <a name="property-$fieldsRequired"></a>$fieldsRequired
@@ -393,7 +419,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L88)
+* Source: [classes/stock/StockMvtWS.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L88).
 
 
 ### <a name="property-$fieldsRequiredDatabase"></a>$fieldsRequiredDatabase
@@ -406,7 +432,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/stock/StockMvtWS.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L70)
+* Source: [classes/stock/StockMvtWS.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L70).
 
 
 ### <a name="property-$fieldsRequiredLang"></a>$fieldsRequiredLang
@@ -418,7 +444,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L106)
+* Source: [classes/stock/StockMvtWS.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L106).
 
 
 ### <a name="property-$fieldsSize"></a>$fieldsSize
@@ -430,7 +456,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L94)
+* Source: [classes/stock/StockMvtWS.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L94).
 
 
 ### <a name="property-$fieldsSizeLang"></a>$fieldsSizeLang
@@ -442,7 +468,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L112)
+* Source: [classes/stock/StockMvtWS.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L112).
 
 
 ### <a name="property-$fieldsValidate"></a>$fieldsValidate
@@ -454,7 +480,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L100)
+* Source: [classes/stock/StockMvtWS.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L100).
 
 
 ### <a name="property-$fieldsValidateLang"></a>$fieldsValidateLang
@@ -466,7 +492,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L118)
+* Source: [classes/stock/StockMvtWS.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L118).
 
 
 ### <a name="property-$force_id"></a>$force_id
@@ -478,7 +504,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L159)
+* Source: [classes/stock/StockMvtWS.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L159).
 
 
 ### <a name="property-$get_shop_from_context"></a>$get_shop_from_context
@@ -490,7 +516,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L67)
+* Source: [classes/stock/StockMvtWS.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L67).
 
 
 ### <a name="property-$id"></a>$id
@@ -502,7 +528,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L55)
+* Source: [classes/stock/StockMvtWS.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L55).
 
 
 ### <a name="property-$id_currency"></a>$id_currency
@@ -514,7 +540,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L123)
+* Source: [classes/stock/StockMvtWS.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L123).
 
 
 ### <a name="property-$id_employee"></a>$id_employee
@@ -526,7 +552,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L43)
+* Source: [classes/stock/StockMvtWS.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L43).
 
 
 ### <a name="property-$id_lang"></a>$id_lang
@@ -538,7 +564,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L58)
+* Source: [classes/stock/StockMvtWS.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L58).
 
 
 ### <a name="property-$id_order"></a>$id_order
@@ -550,7 +576,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L73)
+* Source: [classes/stock/StockMvtWS.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L73).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -562,7 +588,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L108)
+* Source: [classes/stock/StockMvtWS.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L108).
 
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
@@ -574,7 +600,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L113)
+* Source: [classes/stock/StockMvtWS.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L113).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -586,7 +612,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L61)
+* Source: [classes/stock/StockMvtWS.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L61).
 
 
 ### <a name="property-$id_shop_list"></a>$id_shop_list
@@ -598,7 +624,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L64)
+* Source: [classes/stock/StockMvtWS.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L64).
 
 
 ### <a name="property-$id_stock"></a>$id_stock
@@ -610,7 +636,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L58)
+* Source: [classes/stock/StockMvtWS.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L58).
 
 
 ### <a name="property-$id_stock_mvt_reason"></a>$id_stock_mvt_reason
@@ -622,7 +648,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L68)
+* Source: [classes/stock/StockMvtWS.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L68).
 
 
 ### <a name="property-$id_supply_order"></a>$id_supply_order
@@ -634,7 +660,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L83)
+* Source: [classes/stock/StockMvtWS.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L83).
 
 
 ### <a name="property-$id_warehouse"></a>$id_warehouse
@@ -646,7 +672,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L118)
+* Source: [classes/stock/StockMvtWS.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L118).
 
 
 ### <a name="property-$identifier"></a>$identifier
@@ -658,7 +684,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L82)
+* Source: [classes/stock/StockMvtWS.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L82).
 
 
 ### <a name="property-$image_dir"></a>$image_dir
@@ -670,7 +696,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L130)
+* Source: [classes/stock/StockMvtWS.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L130).
 
 
 ### <a name="property-$image_format"></a>$image_format
@@ -682,7 +708,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L133)
+* Source: [classes/stock/StockMvtWS.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L133).
 
 
 ### <a name="property-$last_wa"></a>$last_wa
@@ -694,7 +720,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L88)
+* Source: [classes/stock/StockMvtWS.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L88).
 
 
 ### <a name="property-$loaded_classes"></a>$loaded_classes
@@ -707,7 +733,7 @@ Values are assigned during object initialization.
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/stock/StockMvtWS.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L147)
+* Source: [classes/stock/StockMvtWS.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L147).
 
 
 ### <a name="property-$management_type"></a>$management_type
@@ -719,7 +745,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L128)
+* Source: [classes/stock/StockMvtWS.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L128).
 
 
 ### <a name="property-$physical_quantity"></a>$physical_quantity
@@ -731,7 +757,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L63)
+* Source: [classes/stock/StockMvtWS.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L63).
 
 
 ### <a name="property-$price_te"></a>$price_te
@@ -743,7 +769,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L98)
+* Source: [classes/stock/StockMvtWS.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L98).
 
 
 ### <a name="property-$product_name"></a>$product_name
@@ -755,7 +781,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L133)
+* Source: [classes/stock/StockMvtWS.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L133).
 
 
 ### <a name="property-$reference"></a>$reference
@@ -767,7 +793,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L148)
+* Source: [classes/stock/StockMvtWS.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L148).
 
 
 ### <a name="property-$referer"></a>$referer
@@ -779,7 +805,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L103)
+* Source: [classes/stock/StockMvtWS.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L103).
 
 
 ### <a name="property-$sign"></a>$sign
@@ -791,7 +817,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L78)
+* Source: [classes/stock/StockMvtWS.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L78).
 
 
 ### <a name="property-$table"></a>$table
@@ -803,7 +829,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L76)
+* Source: [classes/stock/StockMvtWS.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L76).
 
 
 ### <a name="property-$tables"></a>$tables
@@ -815,7 +841,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L124)
+* Source: [classes/stock/StockMvtWS.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L124).
 
 
 ### <a name="property-$tables_assoc"></a>$tables_assoc
@@ -827,7 +853,7 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L205)
+* Source: [classes/stock/StockMvtWS.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L205).
 
 
 ### <a name="property-$upc"></a>$upc
@@ -839,7 +865,7 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **public**
-* Source: [classes/stock/StockMvtWS.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L143)
+* Source: [classes/stock/StockMvtWS.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L143).
 
 
 ### <a name="property-$update_fields"></a>$update_fields
@@ -851,7 +877,7 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L153)
+* Source: [classes/stock/StockMvtWS.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L153).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -863,7 +889,7 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* Source: [classes/stock/StockMvtWS.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L127)
+* Source: [classes/stock/StockMvtWS.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L127).
 
 
 Methods

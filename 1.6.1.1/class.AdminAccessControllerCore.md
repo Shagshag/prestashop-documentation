@@ -45,7 +45,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminAccessController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L33)
+* Source: [controllers/admin/AdminAccessController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L33).
 
 
 ### <a name="property-$object"></a>$object
@@ -57,7 +57,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminAccessController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L30)
+* Source: [controllers/admin/AdminAccessController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L30).
 
 
 Methods

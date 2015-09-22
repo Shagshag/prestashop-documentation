@@ -42,7 +42,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/SearchController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L31)
+* Source: [controllers/front/SearchController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L31).
 
 
 ### <a name="property-$instant_search"></a>$instant_search
@@ -54,7 +54,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/SearchController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L30)
+* Source: [controllers/front/SearchController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L30).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/SearchController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L29)
+* Source: [controllers/front/SearchController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L29).
 
 
 Methods

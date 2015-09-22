@@ -64,7 +64,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Group.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L68)
+* Source: [classes/Group.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L68).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -76,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Group.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L44)
+* Source: [classes/Group.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L44).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -88,7 +88,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Group.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L47)
+* Source: [classes/Group.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L47).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -101,7 +101,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Group.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L52)
+* Source: [classes/Group.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L52).
 
 
 ### <a name="property-$group_price_display_method"></a>$group_price_display_method
@@ -114,7 +114,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Group.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L69)
+* Source: [classes/Group.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L69).
 
 
 ### <a name="property-$id"></a>$id
@@ -126,7 +126,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Group.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L29)
+* Source: [classes/Group.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L29).
 
 
 ### <a name="property-$name"></a>$name
@@ -138,7 +138,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Group.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L32)
+* Source: [classes/Group.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L32).
 
 
 ### <a name="property-$price_display_method"></a>$price_display_method
@@ -150,7 +150,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Group.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L38)
+* Source: [classes/Group.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L38).
 
 
 ### <a name="property-$reduction"></a>$reduction
@@ -162,7 +162,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Group.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L35)
+* Source: [classes/Group.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L35).
 
 
 ### <a name="property-$show_prices"></a>$show_prices
@@ -174,7 +174,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Group.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L41)
+* Source: [classes/Group.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L41).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -186,7 +186,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Group.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L71)
+* Source: [classes/Group.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L71).
 
 
 Methods

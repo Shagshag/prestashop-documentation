@@ -54,7 +54,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Pack.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#L30)
+* Source: [classes/Pack.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#L30).
 
 
 ### <a name="property-$cacheIsPacked"></a>$cacheIsPacked
@@ -67,7 +67,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Pack.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#L31)
+* Source: [classes/Pack.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#L31).
 
 
 ### <a name="property-$cachePackItems"></a>$cachePackItems
@@ -80,7 +80,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Pack.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#L29)
+* Source: [classes/Pack.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#L29).
 
 
 Methods

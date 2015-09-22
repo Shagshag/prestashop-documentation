@@ -54,7 +54,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGraph.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#L29)
+* Source: [classes/module/ModuleGraph.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#L29).
 
 
 ### <a name="property-$_legend"></a>$_legend
@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGraph.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#L35)
+* Source: [classes/module/ModuleGraph.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#L35).
 
 
 ### <a name="property-$_render"></a>$_render
@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGraph.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#L41)
+* Source: [classes/module/ModuleGraph.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#L41).
 
 
 ### <a name="property-$_titles"></a>$_titles
@@ -90,7 +90,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGraph.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#L38)
+* Source: [classes/module/ModuleGraph.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#L38).
 
 
 ### <a name="property-$_values"></a>$_values
@@ -102,7 +102,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/module/ModuleGraph.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#L32)
+* Source: [classes/module/ModuleGraph.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#L32).
 
 
 Methods

@@ -67,7 +67,9 @@ Constants
 
 
 
-* Source: [classes/Tab.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L49)
+
+
+* Source: [classes/Tab.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L49).
 
 
 Properties
@@ -84,7 +86,7 @@ Get tabs
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Tab.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L251)
+* Source: [classes/Tab.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L251).
 
 
 ### <a name="property-$_getIdFromClassName"></a>$_getIdFromClassName
@@ -97,7 +99,7 @@ Get tabs
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Tab.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L70)
+* Source: [classes/Tab.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L70).
 
 
 ### <a name="property-$active"></a>$active
@@ -109,7 +111,7 @@ Get tabs
 
 
 * Visibility: **public**
-* Source: [classes/Tab.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L44)
+* Source: [classes/Tab.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L44).
 
 
 ### <a name="property-$class_name"></a>$class_name
@@ -121,7 +123,7 @@ Get tabs
 
 
 * Visibility: **public**
-* Source: [classes/Tab.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L33)
+* Source: [classes/Tab.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L33).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -134,7 +136,7 @@ Get tabs
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Tab.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L54)
+* Source: [classes/Tab.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L54).
 
 
 ### <a name="property-$hide_host_mode"></a>$hide_host_mode
@@ -146,7 +148,7 @@ Get tabs
 
 
 * Visibility: **public**
-* Source: [classes/Tab.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L47)
+* Source: [classes/Tab.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L47).
 
 
 ### <a name="property-$id_parent"></a>$id_parent
@@ -158,7 +160,7 @@ Get tabs
 
 
 * Visibility: **public**
-* Source: [classes/Tab.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L38)
+* Source: [classes/Tab.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L38).
 
 
 ### <a name="property-$module"></a>$module
@@ -170,7 +172,7 @@ Get tabs
 
 
 * Visibility: **public**
-* Source: [classes/Tab.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L35)
+* Source: [classes/Tab.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L35).
 
 
 ### <a name="property-$name"></a>$name
@@ -182,7 +184,7 @@ Get tabs
 
 
 * Visibility: **public**
-* Source: [classes/Tab.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L30)
+* Source: [classes/Tab.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L30).
 
 
 ### <a name="property-$position"></a>$position
@@ -194,7 +196,7 @@ Get tabs
 
 
 * Visibility: **public**
-* Source: [classes/Tab.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L41)
+* Source: [classes/Tab.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L41).
 
 
 Methods

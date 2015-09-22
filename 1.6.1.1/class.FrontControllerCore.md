@@ -116,7 +116,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L72)
+* Source: [classes/controller/FrontController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L72).
 
 
 ### <a name="property-$authRedirection"></a>$authRedirection
@@ -128,7 +128,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L88)
+* Source: [classes/controller/FrontController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L88).
 
 
 ### <a name="property-$cart"></a>$cart
@@ -141,7 +141,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/controller/FrontController.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L51)
+* Source: [classes/controller/FrontController.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L51).
 
 
 ### <a name="property-$cookie"></a>$cookie
@@ -154,7 +154,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/controller/FrontController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L39)
+* Source: [classes/controller/FrontController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L39).
 
 
 ### <a name="property-$currentCustomerGroups"></a>$currentCustomerGroups
@@ -167,7 +167,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/controller/FrontController.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L116)
+* Source: [classes/controller/FrontController.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L116).
 
 
 ### <a name="property-$display_column_left"></a>$display_column_left
@@ -179,7 +179,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L100)
+* Source: [classes/controller/FrontController.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L100).
 
 
 ### <a name="property-$display_column_right"></a>$display_column_right
@@ -191,7 +191,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L103)
+* Source: [classes/controller/FrontController.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L103).
 
 
 ### <a name="property-$errors"></a>$errors
@@ -203,7 +203,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L54)
+* Source: [classes/controller/FrontController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L54).
 
 
 ### <a name="property-$guestAllowed"></a>$guestAllowed
@@ -215,7 +215,7 @@ If set to true, user can be logged in as guest when checking if logged in.
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L80)
+* Source: [classes/controller/FrontController.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L80).
 
 
 ### <a name="property-$initialized"></a>$initialized
@@ -228,7 +228,7 @@ Prevents initializing controller more than once.
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/controller/FrontController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L111)
+* Source: [classes/controller/FrontController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L111).
 
 
 ### <a name="property-$iso"></a>$iso
@@ -240,7 +240,7 @@ Prevents initializing controller more than once.
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L57)
+* Source: [classes/controller/FrontController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L57).
 
 
 ### <a name="property-$link"></a>$link
@@ -253,7 +253,7 @@ Prevents initializing controller more than once.
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/controller/FrontController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L45)
+* Source: [classes/controller/FrontController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L45).
 
 
 ### <a name="property-$maintenance"></a>$maintenance
@@ -265,7 +265,7 @@ Prevents initializing controller more than once.
 
 
 * Visibility: **protected**
-* Source: [classes/controller/FrontController.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L97)
+* Source: [classes/controller/FrontController.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L97).
 
 
 ### <a name="property-$n"></a>$n
@@ -277,7 +277,7 @@ Prevents initializing controller more than once.
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L69)
+* Source: [classes/controller/FrontController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L69).
 
 
 ### <a name="property-$nb_items_per_page"></a>$nb_items_per_page
@@ -289,7 +289,7 @@ Prevents initializing controller more than once.
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L121)
+* Source: [classes/controller/FrontController.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L121).
 
 
 ### <a name="property-$orderBy"></a>$orderBy
@@ -301,7 +301,7 @@ Prevents initializing controller more than once.
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L60)
+* Source: [classes/controller/FrontController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L60).
 
 
 ### <a name="property-$orderWay"></a>$orderWay
@@ -313,7 +313,7 @@ Prevents initializing controller more than once.
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L63)
+* Source: [classes/controller/FrontController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L63).
 
 
 ### <a name="property-$p"></a>$p
@@ -325,7 +325,7 @@ Prevents initializing controller more than once.
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L66)
+* Source: [classes/controller/FrontController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L66).
 
 
 ### <a name="property-$restrictedCountry"></a>$restrictedCountry
@@ -337,7 +337,7 @@ Prevents initializing controller more than once.
 
 
 * Visibility: **protected**
-* Source: [classes/controller/FrontController.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L94)
+* Source: [classes/controller/FrontController.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L94).
 
 
 ### <a name="property-$smarty"></a>$smarty
@@ -350,7 +350,7 @@ Prevents initializing controller more than once.
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/controller/FrontController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L33)
+* Source: [classes/controller/FrontController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L33).
 
 
 ### <a name="property-$ssl"></a>$ssl
@@ -362,7 +362,7 @@ Prevents initializing controller more than once.
 
 
 * Visibility: **public**
-* Source: [classes/controller/FrontController.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L91)
+* Source: [classes/controller/FrontController.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L91).
 
 
 Methods

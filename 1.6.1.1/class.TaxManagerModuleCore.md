@@ -38,7 +38,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxManagerModule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#L29)
+* Source: [classes/tax/TaxManagerModule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#L29).
 
 
 Methods

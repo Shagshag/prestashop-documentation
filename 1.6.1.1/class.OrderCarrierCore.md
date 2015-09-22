@@ -43,7 +43,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCarrier.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L54)
+* Source: [classes/order/OrderCarrier.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L54).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -56,7 +56,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/order/OrderCarrier.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L59)
+* Source: [classes/order/OrderCarrier.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L59).
 
 
 ### <a name="property-$id_carrier"></a>$id_carrier
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCarrier.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L36)
+* Source: [classes/order/OrderCarrier.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L36).
 
 
 ### <a name="property-$id_order"></a>$id_order
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCarrier.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L33)
+* Source: [classes/order/OrderCarrier.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L33).
 
 
 ### <a name="property-$id_order_carrier"></a>$id_order_carrier
@@ -92,7 +92,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCarrier.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L30)
+* Source: [classes/order/OrderCarrier.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L30).
 
 
 ### <a name="property-$id_order_invoice"></a>$id_order_invoice
@@ -104,7 +104,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCarrier.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L39)
+* Source: [classes/order/OrderCarrier.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L39).
 
 
 ### <a name="property-$shipping_cost_tax_excl"></a>$shipping_cost_tax_excl
@@ -116,7 +116,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCarrier.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L45)
+* Source: [classes/order/OrderCarrier.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L45).
 
 
 ### <a name="property-$shipping_cost_tax_incl"></a>$shipping_cost_tax_incl
@@ -128,7 +128,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCarrier.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L48)
+* Source: [classes/order/OrderCarrier.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L48).
 
 
 ### <a name="property-$tracking_number"></a>$tracking_number
@@ -140,7 +140,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCarrier.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L51)
+* Source: [classes/order/OrderCarrier.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L51).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -152,7 +152,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/order/OrderCarrier.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L74)
+* Source: [classes/order/OrderCarrier.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L74).
 
 
 ### <a name="property-$weight"></a>$weight
@@ -164,7 +164,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderCarrier.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L42)
+* Source: [classes/order/OrderCarrier.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L42).
 
 
 

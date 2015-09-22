@@ -40,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/StatisticsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L30)
+* Source: [controllers/front/StatisticsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L30).
 
 
 ### <a name="property-$display_header"></a>$display_header
@@ -52,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/StatisticsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L29)
+* Source: [controllers/front/StatisticsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L29).
 
 
 ### <a name="property-$param_token"></a>$param_token
@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/StatisticsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L32)
+* Source: [controllers/front/StatisticsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L32).
 
 
 Methods

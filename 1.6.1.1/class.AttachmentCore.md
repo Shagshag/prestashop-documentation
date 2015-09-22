@@ -52,7 +52,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Attachment.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L42)
+* Source: [classes/Attachment.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L42).
 
 
 ### <a name="property-$description"></a>$description
@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Attachment.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L34)
+* Source: [classes/Attachment.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L34).
 
 
 ### <a name="property-$file"></a>$file
@@ -76,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Attachment.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L29)
+* Source: [classes/Attachment.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L29).
 
 
 ### <a name="property-$file_name"></a>$file_name
@@ -88,7 +88,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Attachment.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L30)
+* Source: [classes/Attachment.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L30).
 
 
 ### <a name="property-$file_size"></a>$file_size
@@ -100,7 +100,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Attachment.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L31)
+* Source: [classes/Attachment.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L31).
 
 
 ### <a name="property-$mime"></a>$mime
@@ -112,7 +112,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Attachment.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L33)
+* Source: [classes/Attachment.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L33).
 
 
 ### <a name="property-$name"></a>$name
@@ -124,7 +124,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Attachment.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L32)
+* Source: [classes/Attachment.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L32).
 
 
 ### <a name="property-$position"></a>$position
@@ -136,7 +136,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Attachment.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L37)
+* Source: [classes/Attachment.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L37).
 
 
 Methods

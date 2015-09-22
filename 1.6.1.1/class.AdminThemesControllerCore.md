@@ -103,7 +103,9 @@ Constants
 
 
 
-* Source: [controllers/admin/AdminThemesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L32)
+
+
+* Source: [controllers/admin/AdminThemesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L32).
 
 
 Properties
@@ -121,7 +123,7 @@ and also checks prestashop current configuration if not match.
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [controllers/admin/AdminThemesController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L55)
+* Source: [controllers/admin/AdminThemesController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L55).
 
 
 ### <a name="property-$check_features_version"></a>$check_features_version
@@ -135,7 +137,7 @@ higher version number will be used in [theme]/config.xml
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [controllers/admin/AdminThemesController.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L47)
+* Source: [controllers/admin/AdminThemesController.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L47).
 
 
 ### <a name="property-$className"></a>$className
@@ -147,7 +149,7 @@ higher version number will be used in [theme]/config.xml
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminThemesController.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L109)
+* Source: [controllers/admin/AdminThemesController.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L109).
 
 
 ### <a name="property-$img_error"></a>$img_error
@@ -159,7 +161,7 @@ higher version number will be used in [theme]/config.xml
 
 
 * Visibility: **private**
-* Source: [controllers/admin/AdminThemesController.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L112)
+* Source: [controllers/admin/AdminThemesController.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L112).
 
 
 ### <a name="property-$object"></a>$object
@@ -171,7 +173,7 @@ higher version number will be used in [theme]/config.xml
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminThemesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L30)
+* Source: [controllers/admin/AdminThemesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L30).
 
 
 ### <a name="property-$table"></a>$table
@@ -183,7 +185,7 @@ higher version number will be used in [theme]/config.xml
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminThemesController.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L110)
+* Source: [controllers/admin/AdminThemesController.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L110).
 
 
 ### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
@@ -195,7 +197,7 @@ higher version number will be used in [theme]/config.xml
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminThemesController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L111)
+* Source: [controllers/admin/AdminThemesController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L111).
 
 
 Methods

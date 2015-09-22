@@ -46,7 +46,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminReferrersController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L59)
+* Source: [controllers/admin/AdminReferrersController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L59).
 
 
 Methods

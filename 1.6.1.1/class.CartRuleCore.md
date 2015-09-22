@@ -96,7 +96,9 @@ Constants
 
 
 
-* Source: [classes/CartRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L36)
+
+
+* Source: [classes/CartRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L36).
 
 
 ### <a name="constant-FILTER_ACTION_ALL"></a>FILTER_ACTION_ALL
@@ -105,7 +107,9 @@ Constants
 
 
 
-* Source: [classes/CartRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L30)
+
+
+* Source: [classes/CartRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L30).
 
 
 ### <a name="constant-FILTER_ACTION_ALL_NOCAP"></a>FILTER_ACTION_ALL_NOCAP
@@ -114,7 +118,9 @@ Constants
 
 
 
-* Source: [classes/CartRule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L34)
+
+
+* Source: [classes/CartRule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L34).
 
 
 ### <a name="constant-FILTER_ACTION_GIFT"></a>FILTER_ACTION_GIFT
@@ -123,7 +129,9 @@ Constants
 
 
 
-* Source: [classes/CartRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L33)
+
+
+* Source: [classes/CartRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L33).
 
 
 ### <a name="constant-FILTER_ACTION_REDUCTION"></a>FILTER_ACTION_REDUCTION
@@ -132,7 +140,9 @@ Constants
 
 
 
-* Source: [classes/CartRule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L32)
+
+
+* Source: [classes/CartRule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L32).
 
 
 ### <a name="constant-FILTER_ACTION_SHIPPING"></a>FILTER_ACTION_SHIPPING
@@ -141,7 +151,9 @@ Constants
 
 
 
-* Source: [classes/CartRule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L31)
+
+
+* Source: [classes/CartRule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L31).
 
 
 Properties
@@ -157,7 +169,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L71)
+* Source: [classes/CartRule.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L71).
 
 
 ### <a name="property-$carrier_restriction"></a>$carrier_restriction
@@ -169,7 +181,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L57)
+* Source: [classes/CartRule.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L57).
 
 
 ### <a name="property-$cart_rule_restriction"></a>$cart_rule_restriction
@@ -181,7 +193,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L59)
+* Source: [classes/CartRule.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L59).
 
 
 ### <a name="property-$code"></a>$code
@@ -193,7 +205,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L51)
+* Source: [classes/CartRule.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L51).
 
 
 ### <a name="property-$country_restriction"></a>$country_restriction
@@ -205,7 +217,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L56)
+* Source: [classes/CartRule.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L56).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -217,7 +229,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L72)
+* Source: [classes/CartRule.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L72).
 
 
 ### <a name="property-$date_from"></a>$date_from
@@ -229,7 +241,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L44)
+* Source: [classes/CartRule.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L44).
 
 
 ### <a name="property-$date_to"></a>$date_to
@@ -241,7 +253,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L45)
+* Source: [classes/CartRule.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L45).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -253,7 +265,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L73)
+* Source: [classes/CartRule.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L73).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -266,7 +278,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/CartRule.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L78)
+* Source: [classes/CartRule.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L78).
 
 
 ### <a name="property-$description"></a>$description
@@ -278,7 +290,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L46)
+* Source: [classes/CartRule.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L46).
 
 
 ### <a name="property-$free_shipping"></a>$free_shipping
@@ -290,7 +302,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L62)
+* Source: [classes/CartRule.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L62).
 
 
 ### <a name="property-$gift_product"></a>$gift_product
@@ -302,7 +314,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L68)
+* Source: [classes/CartRule.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L68).
 
 
 ### <a name="property-$gift_product_attribute"></a>$gift_product_attribute
@@ -314,7 +326,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L69)
+* Source: [classes/CartRule.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L69).
 
 
 ### <a name="property-$group_restriction"></a>$group_restriction
@@ -326,7 +338,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L58)
+* Source: [classes/CartRule.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L58).
 
 
 ### <a name="property-$highlight"></a>$highlight
@@ -338,7 +350,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L70)
+* Source: [classes/CartRule.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L70).
 
 
 ### <a name="property-$id"></a>$id
@@ -350,7 +362,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L41)
+* Source: [classes/CartRule.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L41).
 
 
 ### <a name="property-$id_customer"></a>$id_customer
@@ -362,7 +374,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L43)
+* Source: [classes/CartRule.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L43).
 
 
 ### <a name="property-$minimum_amount"></a>$minimum_amount
@@ -374,7 +386,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L52)
+* Source: [classes/CartRule.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L52).
 
 
 ### <a name="property-$minimum_amount_currency"></a>$minimum_amount_currency
@@ -386,7 +398,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L54)
+* Source: [classes/CartRule.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L54).
 
 
 ### <a name="property-$minimum_amount_shipping"></a>$minimum_amount_shipping
@@ -398,7 +410,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L55)
+* Source: [classes/CartRule.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L55).
 
 
 ### <a name="property-$minimum_amount_tax"></a>$minimum_amount_tax
@@ -410,7 +422,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L53)
+* Source: [classes/CartRule.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L53).
 
 
 ### <a name="property-$name"></a>$name
@@ -422,7 +434,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L42)
+* Source: [classes/CartRule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L42).
 
 
 ### <a name="property-$only_one_gift"></a>$only_one_gift
@@ -435,7 +447,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/CartRule.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L39)
+* Source: [classes/CartRule.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L39).
 
 
 ### <a name="property-$partial_use"></a>$partial_use
@@ -447,7 +459,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L50)
+* Source: [classes/CartRule.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L50).
 
 
 ### <a name="property-$priority"></a>$priority
@@ -459,7 +471,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L49)
+* Source: [classes/CartRule.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L49).
 
 
 ### <a name="property-$product_restriction"></a>$product_restriction
@@ -471,7 +483,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L60)
+* Source: [classes/CartRule.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L60).
 
 
 ### <a name="property-$quantity"></a>$quantity
@@ -483,7 +495,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L47)
+* Source: [classes/CartRule.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L47).
 
 
 ### <a name="property-$quantity_per_user"></a>$quantity_per_user
@@ -495,7 +507,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L48)
+* Source: [classes/CartRule.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L48).
 
 
 ### <a name="property-$reduction_amount"></a>$reduction_amount
@@ -507,7 +519,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L64)
+* Source: [classes/CartRule.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L64).
 
 
 ### <a name="property-$reduction_currency"></a>$reduction_currency
@@ -519,7 +531,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L66)
+* Source: [classes/CartRule.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L66).
 
 
 ### <a name="property-$reduction_percent"></a>$reduction_percent
@@ -531,7 +543,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L63)
+* Source: [classes/CartRule.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L63).
 
 
 ### <a name="property-$reduction_product"></a>$reduction_product
@@ -543,7 +555,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L67)
+* Source: [classes/CartRule.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L67).
 
 
 ### <a name="property-$reduction_tax"></a>$reduction_tax
@@ -555,7 +567,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L65)
+* Source: [classes/CartRule.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L65).
 
 
 ### <a name="property-$shop_restriction"></a>$shop_restriction
@@ -567,7 +579,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CartRule.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L61)
+* Source: [classes/CartRule.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L61).
 
 
 Methods

@@ -64,7 +64,9 @@ Constants
 
 
 
-* Source: [classes/helper/HelperCalendar.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L30)
+
+
+* Source: [classes/helper/HelperCalendar.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L30).
 
 
 ### <a name="constant-DEFAULT_DATE_FORMAT"></a>DEFAULT_DATE_FORMAT
@@ -73,7 +75,9 @@ Constants
 
 
 
-* Source: [classes/helper/HelperCalendar.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L29)
+
+
+* Source: [classes/helper/HelperCalendar.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L29).
 
 
 Properties
@@ -89,7 +93,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperCalendar.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L32)
+* Source: [classes/helper/HelperCalendar.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L32).
 
 
 ### <a name="property-$_compare_actions"></a>$_compare_actions
@@ -101,7 +105,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperCalendar.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L33)
+* Source: [classes/helper/HelperCalendar.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L33).
 
 
 ### <a name="property-$_compare_date_from"></a>$_compare_date_from
@@ -113,7 +117,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperCalendar.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L34)
+* Source: [classes/helper/HelperCalendar.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L34).
 
 
 ### <a name="property-$_compare_date_option"></a>$_compare_date_option
@@ -125,7 +129,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperCalendar.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L36)
+* Source: [classes/helper/HelperCalendar.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L36).
 
 
 ### <a name="property-$_compare_date_to"></a>$_compare_date_to
@@ -137,7 +141,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperCalendar.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L35)
+* Source: [classes/helper/HelperCalendar.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L35).
 
 
 ### <a name="property-$_date_format"></a>$_date_format
@@ -149,7 +153,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperCalendar.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L37)
+* Source: [classes/helper/HelperCalendar.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L37).
 
 
 ### <a name="property-$_date_from"></a>$_date_from
@@ -161,7 +165,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperCalendar.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L38)
+* Source: [classes/helper/HelperCalendar.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L38).
 
 
 ### <a name="property-$_date_to"></a>$_date_to
@@ -173,7 +177,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperCalendar.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L39)
+* Source: [classes/helper/HelperCalendar.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L39).
 
 
 ### <a name="property-$_rtl"></a>$_rtl
@@ -185,7 +189,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [classes/helper/HelperCalendar.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L40)
+* Source: [classes/helper/HelperCalendar.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L40).
 
 
 Methods

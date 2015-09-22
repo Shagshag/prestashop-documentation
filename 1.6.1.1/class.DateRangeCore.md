@@ -39,7 +39,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/DateRange.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/DateRange.php#L35)
+* Source: [classes/DateRange.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/DateRange.php#L35).
 
 
 ### <a name="property-$time_end"></a>$time_end
@@ -51,7 +51,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/DateRange.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/DateRange.php#L30)
+* Source: [classes/DateRange.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/DateRange.php#L30).
 
 
 ### <a name="property-$time_start"></a>$time_start
@@ -63,7 +63,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/DateRange.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/DateRange.php#L29)
+* Source: [classes/DateRange.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/DateRange.php#L29).
 
 
 Methods

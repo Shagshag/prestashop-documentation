@@ -49,7 +49,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/ProductSupplier.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L65)
+* Source: [classes/ProductSupplier.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L65).
 
 
 ### <a name="property-$id_currency"></a>$id_currency
@@ -61,7 +61,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductSupplier.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L55)
+* Source: [classes/ProductSupplier.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L55).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -73,7 +73,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductSupplier.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L35)
+* Source: [classes/ProductSupplier.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L35).
 
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
@@ -85,7 +85,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductSupplier.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L40)
+* Source: [classes/ProductSupplier.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L40).
 
 
 ### <a name="property-$id_supplier"></a>$id_supplier
@@ -97,7 +97,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductSupplier.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L45)
+* Source: [classes/ProductSupplier.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L45).
 
 
 ### <a name="property-$product_supplier_price_te"></a>$product_supplier_price_te
@@ -109,7 +109,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductSupplier.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L60)
+* Source: [classes/ProductSupplier.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L60).
 
 
 ### <a name="property-$product_supplier_reference"></a>$product_supplier_reference
@@ -121,7 +121,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ProductSupplier.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L50)
+* Source: [classes/ProductSupplier.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L50).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -133,7 +133,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ProductSupplier.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L81)
+* Source: [classes/ProductSupplier.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L81).
 
 
 Methods

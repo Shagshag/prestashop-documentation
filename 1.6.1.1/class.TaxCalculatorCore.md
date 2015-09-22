@@ -39,18 +39,24 @@ Constants
 
     const COMBINE_METHOD = 1
 
+COMBINE_METHOD sum taxes
+eg: 100€ * (10% + 15%)
 
 
-* Source: [classes/tax/TaxCalculator.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#L38)
+
+* Source: [classes/tax/TaxCalculator.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#L38).
 
 
 ### <a name="constant-ONE_AFTER_ANOTHER_METHOD"></a>ONE_AFTER_ANOTHER_METHOD
 
     const ONE_AFTER_ANOTHER_METHOD = 2
 
+ONE_AFTER_ANOTHER_METHOD apply taxes one after another
+eg: (100€ * 10%) * 15%
 
 
-* Source: [classes/tax/TaxCalculator.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#L44)
+
+* Source: [classes/tax/TaxCalculator.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#L44).
 
 
 Properties
@@ -66,7 +72,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxCalculator.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#L54)
+* Source: [classes/tax/TaxCalculator.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#L54).
 
 
 ### <a name="property-$taxes"></a>$taxes
@@ -78,7 +84,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxCalculator.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#L49)
+* Source: [classes/tax/TaxCalculator.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#L49).
 
 
 Methods

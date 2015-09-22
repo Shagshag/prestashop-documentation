@@ -58,7 +58,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Meta.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L30)
+* Source: [classes/Meta.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L30).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -71,7 +71,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Meta.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L39)
+* Source: [classes/Meta.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L39).
 
 
 ### <a name="property-$description"></a>$description
@@ -83,7 +83,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Meta.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L32)
+* Source: [classes/Meta.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L32).
 
 
 ### <a name="property-$keywords"></a>$keywords
@@ -95,7 +95,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Meta.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L33)
+* Source: [classes/Meta.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L33).
 
 
 ### <a name="property-$page"></a>$page
@@ -107,7 +107,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Meta.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L29)
+* Source: [classes/Meta.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L29).
 
 
 ### <a name="property-$title"></a>$title
@@ -119,7 +119,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Meta.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L31)
+* Source: [classes/Meta.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L31).
 
 
 ### <a name="property-$url_rewrite"></a>$url_rewrite
@@ -131,7 +131,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Meta.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L34)
+* Source: [classes/Meta.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L34).
 
 
 Methods

@@ -57,7 +57,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Scene.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L33)
+* Source: [classes/Scene.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L33).
 
 
 ### <a name="property-$categories"></a>$categories
@@ -69,7 +69,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Scene.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L39)
+* Source: [classes/Scene.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L39).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -82,7 +82,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Scene.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L47)
+* Source: [classes/Scene.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L47).
 
 
 ### <a name="property-$feature_active"></a>$feature_active
@@ -95,7 +95,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Scene.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L59)
+* Source: [classes/Scene.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L59).
 
 
 ### <a name="property-$name"></a>$name
@@ -107,7 +107,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Scene.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L30)
+* Source: [classes/Scene.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L30).
 
 
 ### <a name="property-$products"></a>$products
@@ -119,7 +119,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Scene.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L42)
+* Source: [classes/Scene.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L42).
 
 
 ### <a name="property-$zones"></a>$zones
@@ -131,7 +131,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Scene.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L36)
+* Source: [classes/Scene.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L36).
 
 
 Methods

@@ -52,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ImageType.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L44)
+* Source: [classes/ImageType.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L44).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -65,7 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/ImageType.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L61)
+* Source: [classes/ImageType.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L61).
 
 
 ### <a name="property-$height"></a>$height
@@ -77,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ImageType.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L38)
+* Source: [classes/ImageType.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L38).
 
 
 ### <a name="property-$id"></a>$id
@@ -89,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ImageType.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L29)
+* Source: [classes/ImageType.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L29).
 
 
 ### <a name="property-$images_types_cache"></a>$images_types_cache
@@ -102,7 +102,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/ImageType.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L80)
+* Source: [classes/ImageType.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L80).
 
 
 ### <a name="property-$images_types_name_cache"></a>$images_types_name_cache
@@ -115,7 +115,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/ImageType.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L82)
+* Source: [classes/ImageType.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L82).
 
 
 ### <a name="property-$manufacturers"></a>$manufacturers
@@ -127,7 +127,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ImageType.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L47)
+* Source: [classes/ImageType.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L47).
 
 
 ### <a name="property-$name"></a>$name
@@ -139,7 +139,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ImageType.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L32)
+* Source: [classes/ImageType.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L32).
 
 
 ### <a name="property-$products"></a>$products
@@ -151,7 +151,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ImageType.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L41)
+* Source: [classes/ImageType.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L41).
 
 
 ### <a name="property-$scenes"></a>$scenes
@@ -163,7 +163,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ImageType.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L53)
+* Source: [classes/ImageType.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L53).
 
 
 ### <a name="property-$stores"></a>$stores
@@ -175,7 +175,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ImageType.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L56)
+* Source: [classes/ImageType.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L56).
 
 
 ### <a name="property-$suppliers"></a>$suppliers
@@ -187,7 +187,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ImageType.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L50)
+* Source: [classes/ImageType.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L50).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -199,7 +199,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/ImageType.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L84)
+* Source: [classes/ImageType.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L84).
 
 
 ### <a name="property-$width"></a>$width
@@ -211,7 +211,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/ImageType.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L35)
+* Source: [classes/ImageType.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L35).
 
 
 Methods

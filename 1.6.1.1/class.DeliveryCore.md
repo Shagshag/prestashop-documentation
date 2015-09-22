@@ -46,7 +46,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Delivery.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L56)
+* Source: [classes/Delivery.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L56).
 
 
 ### <a name="property-$id_carrier"></a>$id_carrier
@@ -58,7 +58,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Delivery.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L39)
+* Source: [classes/Delivery.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L39).
 
 
 ### <a name="property-$id_delivery"></a>$id_delivery
@@ -70,7 +70,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Delivery.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L30)
+* Source: [classes/Delivery.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L30).
 
 
 ### <a name="property-$id_range_price"></a>$id_range_price
@@ -82,7 +82,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Delivery.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L42)
+* Source: [classes/Delivery.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L42).
 
 
 ### <a name="property-$id_range_weight"></a>$id_range_weight
@@ -94,7 +94,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Delivery.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L45)
+* Source: [classes/Delivery.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L45).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -106,7 +106,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Delivery.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L33)
+* Source: [classes/Delivery.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L33).
 
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
@@ -118,7 +118,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Delivery.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L36)
+* Source: [classes/Delivery.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L36).
 
 
 ### <a name="property-$id_zone"></a>$id_zone
@@ -130,7 +130,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Delivery.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L48)
+* Source: [classes/Delivery.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L48).
 
 
 ### <a name="property-$price"></a>$price
@@ -142,7 +142,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Delivery.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L51)
+* Source: [classes/Delivery.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L51).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -154,7 +154,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Delivery.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L70)
+* Source: [classes/Delivery.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L70).
 
 
 Methods

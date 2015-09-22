@@ -49,7 +49,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Chart.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L41)
+* Source: [classes/Chart.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L41).
 
 
 ### <a name="property-$format"></a>$format
@@ -61,7 +61,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Chart.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L38)
+* Source: [classes/Chart.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L38).
 
 
 ### <a name="property-$from"></a>$from
@@ -73,7 +73,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Chart.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L36)
+* Source: [classes/Chart.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L36).
 
 
 ### <a name="property-$granularity"></a>$granularity
@@ -85,7 +85,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Chart.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L39)
+* Source: [classes/Chart.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L39).
 
 
 ### <a name="property-$height"></a>$height
@@ -97,7 +97,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Chart.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L32)
+* Source: [classes/Chart.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L32).
 
 
 ### <a name="property-$poolId"></a>$poolId
@@ -110,7 +110,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Chart.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L29)
+* Source: [classes/Chart.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L29).
 
 
 ### <a name="property-$timeMode"></a>$timeMode
@@ -122,7 +122,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Chart.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L35)
+* Source: [classes/Chart.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L35).
 
 
 ### <a name="property-$to"></a>$to
@@ -134,7 +134,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Chart.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L37)
+* Source: [classes/Chart.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L37).
 
 
 ### <a name="property-$width"></a>$width
@@ -146,7 +146,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Chart.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L31)
+* Source: [classes/Chart.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L31).
 
 
 Methods

@@ -224,7 +224,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Tools.php line 2251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2251)
+* Source: [classes/Tools.php line 2251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2251).
 
 
 ### <a name="property-$_caching"></a>$_caching
@@ -237,7 +237,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Tools.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L31)
+* Source: [classes/Tools.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L31).
 
 
 ### <a name="property-$_forceCompile"></a>$_forceCompile
@@ -250,7 +250,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Tools.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L30)
+* Source: [classes/Tools.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L30).
 
 
 ### <a name="property-$_user_browser"></a>$_user_browser
@@ -263,7 +263,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Tools.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L33)
+* Source: [classes/Tools.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L33).
 
 
 ### <a name="property-$_user_plateform"></a>$_user_plateform
@@ -276,7 +276,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Tools.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L32)
+* Source: [classes/Tools.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L32).
 
 
 ### <a name="property-$file_exists_cache"></a>$file_exists_cache
@@ -289,7 +289,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Tools.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L29)
+* Source: [classes/Tools.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L29).
 
 
 ### <a name="property-$is_addons_up"></a>$is_addons_up
@@ -302,7 +302,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Tools.php line 3347](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3347)
+* Source: [classes/Tools.php line 3347](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3347).
 
 
 ### <a name="property-$round_mode"></a>$round_mode
@@ -315,7 +315,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Tools.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L35)
+* Source: [classes/Tools.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L35).
 
 
 Methods

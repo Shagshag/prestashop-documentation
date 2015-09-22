@@ -44,7 +44,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Profile.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L45)
+* Source: [classes/Profile.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L45).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -57,7 +57,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Profile.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L35)
+* Source: [classes/Profile.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L35).
 
 
 ### <a name="property-$name"></a>$name
@@ -69,7 +69,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Profile.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L30)
+* Source: [classes/Profile.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L30).
 
 
 Methods

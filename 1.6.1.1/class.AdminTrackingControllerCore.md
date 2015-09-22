@@ -51,7 +51,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminTrackingController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L35)
+* Source: [controllers/admin/AdminTrackingController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L35).
 
 
 ### <a name="property-$bootstrap"></a>$bootstrap
@@ -63,7 +63,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminTrackingController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L32)
+* Source: [controllers/admin/AdminTrackingController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L32).
 
 
 ### <a name="property-$object"></a>$object
@@ -75,7 +75,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L30)
+* Source: [controllers/admin/AdminTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L30).
 
 
 Methods

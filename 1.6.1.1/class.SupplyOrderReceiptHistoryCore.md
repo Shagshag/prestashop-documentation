@@ -41,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderReceiptHistory.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L66)
+* Source: [classes/stock/SupplyOrderReceiptHistory.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L66).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -54,7 +54,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/stock/SupplyOrderReceiptHistory.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L71)
+* Source: [classes/stock/SupplyOrderReceiptHistory.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L71).
 
 
 ### <a name="property-$employee_firstname"></a>$employee_firstname
@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderReceiptHistory.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L46)
+* Source: [classes/stock/SupplyOrderReceiptHistory.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L46).
 
 
 ### <a name="property-$employee_lastname"></a>$employee_lastname
@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderReceiptHistory.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L51)
+* Source: [classes/stock/SupplyOrderReceiptHistory.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L51).
 
 
 ### <a name="property-$id_employee"></a>$id_employee
@@ -90,7 +90,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderReceiptHistory.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L41)
+* Source: [classes/stock/SupplyOrderReceiptHistory.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L41).
 
 
 ### <a name="property-$id_supply_order_detail"></a>$id_supply_order_detail
@@ -102,7 +102,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderReceiptHistory.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L36)
+* Source: [classes/stock/SupplyOrderReceiptHistory.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L36).
 
 
 ### <a name="property-$id_supply_order_state"></a>$id_supply_order_state
@@ -114,7 +114,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderReceiptHistory.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L56)
+* Source: [classes/stock/SupplyOrderReceiptHistory.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L56).
 
 
 ### <a name="property-$quantity"></a>$quantity
@@ -126,7 +126,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/SupplyOrderReceiptHistory.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L61)
+* Source: [classes/stock/SupplyOrderReceiptHistory.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L61).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -138,7 +138,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/SupplyOrderReceiptHistory.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L88)
+* Source: [classes/stock/SupplyOrderReceiptHistory.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L88).
 
 
 

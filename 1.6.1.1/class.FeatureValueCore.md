@@ -47,7 +47,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/FeatureValue.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#L36)
+* Source: [classes/FeatureValue.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#L36).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -60,7 +60,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/FeatureValue.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#L41)
+* Source: [classes/FeatureValue.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#L41).
 
 
 ### <a name="property-$id_feature"></a>$id_feature
@@ -72,7 +72,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/FeatureValue.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#L30)
+* Source: [classes/FeatureValue.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#L30).
 
 
 ### <a name="property-$value"></a>$value
@@ -84,7 +84,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/FeatureValue.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#L33)
+* Source: [classes/FeatureValue.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#L33).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -96,7 +96,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/FeatureValue.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#L54)
+* Source: [classes/FeatureValue.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#L54).
 
 
 Methods

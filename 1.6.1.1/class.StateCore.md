@@ -52,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/State.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L42)
+* Source: [classes/State.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L42).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -65,7 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/State.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L47)
+* Source: [classes/State.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L47).
 
 
 ### <a name="property-$id_country"></a>$id_country
@@ -77,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/State.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L30)
+* Source: [classes/State.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L30).
 
 
 ### <a name="property-$id_zone"></a>$id_zone
@@ -89,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/State.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L33)
+* Source: [classes/State.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L33).
 
 
 ### <a name="property-$iso_code"></a>$iso_code
@@ -101,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/State.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L36)
+* Source: [classes/State.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L36).
 
 
 ### <a name="property-$name"></a>$name
@@ -113,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/State.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L39)
+* Source: [classes/State.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L39).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -125,7 +125,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/State.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L59)
+* Source: [classes/State.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L59).
 
 
 Methods

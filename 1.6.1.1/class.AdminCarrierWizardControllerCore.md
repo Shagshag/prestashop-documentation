@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminCarrierWizardController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L30)
+* Source: [controllers/admin/AdminCarrierWizardController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L30).
 
 
 ### <a name="property-$wizard_access"></a>$wizard_access
@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminCarrierWizardController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L32)
+* Source: [controllers/admin/AdminCarrierWizardController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L32).
 
 
 Methods

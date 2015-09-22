@@ -57,7 +57,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminEmployeesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#L30)
+* Source: [controllers/admin/AdminEmployeesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#L30).
 
 
 ### <a name="property-$profiles_array"></a>$profiles_array
@@ -69,7 +69,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminEmployeesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#L33)
+* Source: [controllers/admin/AdminEmployeesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#L33).
 
 
 ### <a name="property-$restrict_edition"></a>$restrict_edition
@@ -81,7 +81,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminEmployeesController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#L41)
+* Source: [controllers/admin/AdminEmployeesController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#L41).
 
 
 ### <a name="property-$tabs_list"></a>$tabs_list
@@ -93,7 +93,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminEmployeesController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#L39)
+* Source: [controllers/admin/AdminEmployeesController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#L39).
 
 
 ### <a name="property-$themes"></a>$themes
@@ -105,7 +105,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminEmployeesController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#L36)
+* Source: [controllers/admin/AdminEmployeesController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#L36).
 
 
 Methods

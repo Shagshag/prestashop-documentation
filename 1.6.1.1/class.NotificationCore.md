@@ -38,7 +38,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Notification.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#L29)
+* Source: [classes/Notification.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#L29).
 
 
 Methods

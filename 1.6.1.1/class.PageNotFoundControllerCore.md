@@ -40,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/PageNotFoundController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L30)
+* Source: [controllers/front/PageNotFoundController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L30).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -52,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/PageNotFoundController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L29)
+* Source: [controllers/front/PageNotFoundController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L29).
 
 
 ### <a name="property-$ssl"></a>$ssl
@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/PageNotFoundController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L31)
+* Source: [controllers/front/PageNotFoundController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L31).
 
 
 Methods

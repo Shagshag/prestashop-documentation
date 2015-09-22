@@ -58,7 +58,9 @@ Constants
 
 
 
-* Source: [classes/Upgrader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L29)
+
+
+* Source: [classes/Upgrader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L29).
 
 
 Properties
@@ -74,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Upgrader.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L46)
+* Source: [classes/Upgrader.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L46).
 
 
 ### <a name="property-$autoupgrade_last_version"></a>$autoupgrade_last_version
@@ -86,7 +88,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Upgrader.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L48)
+* Source: [classes/Upgrader.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L48).
 
 
 ### <a name="property-$autoupgrade_module"></a>$autoupgrade_module
@@ -98,7 +100,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Upgrader.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L47)
+* Source: [classes/Upgrader.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L47).
 
 
 ### <a name="property-$autoupgrade_module_link"></a>$autoupgrade_module_link
@@ -110,7 +112,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Upgrader.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L49)
+* Source: [classes/Upgrader.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L49).
 
 
 ### <a name="property-$changed_files"></a>$changed_files
@@ -122,7 +124,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Upgrader.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L36)
+* Source: [classes/Upgrader.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L36).
 
 
 ### <a name="property-$changelog"></a>$changelog
@@ -134,7 +136,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Upgrader.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L50)
+* Source: [classes/Upgrader.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L50).
 
 
 ### <a name="property-$link"></a>$link
@@ -146,7 +148,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Upgrader.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L45)
+* Source: [classes/Upgrader.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L45).
 
 
 ### <a name="property-$md5"></a>$md5
@@ -158,7 +160,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Upgrader.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L51)
+* Source: [classes/Upgrader.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L51).
 
 
 ### <a name="property-$missing_files"></a>$missing_files
@@ -170,7 +172,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Upgrader.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L37)
+* Source: [classes/Upgrader.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L37).
 
 
 ### <a name="property-$need_upgrade"></a>$need_upgrade
@@ -182,7 +184,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Upgrader.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L35)
+* Source: [classes/Upgrader.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L35).
 
 
 ### <a name="property-$rss_md5file_link_dir"></a>$rss_md5file_link_dir
@@ -194,7 +196,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Upgrader.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L31)
+* Source: [classes/Upgrader.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L31).
 
 
 ### <a name="property-$rss_version_link"></a>$rss_version_link
@@ -206,7 +208,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Upgrader.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L30)
+* Source: [classes/Upgrader.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L30).
 
 
 ### <a name="property-$version_is_modified"></a>$version_is_modified
@@ -218,7 +220,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Upgrader.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L41)
+* Source: [classes/Upgrader.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L41).
 
 
 ### <a name="property-$version_name"></a>$version_name
@@ -230,7 +232,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Upgrader.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L39)
+* Source: [classes/Upgrader.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L39).
 
 
 ### <a name="property-$version_num"></a>$version_num
@@ -242,7 +244,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Upgrader.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L40)
+* Source: [classes/Upgrader.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L40).
 
 
 Methods

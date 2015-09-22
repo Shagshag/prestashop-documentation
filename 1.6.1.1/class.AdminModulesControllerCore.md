@@ -86,7 +86,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [controllers/admin/AdminModulesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L29)
+* Source: [controllers/admin/AdminModulesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L29).
 
 
 ### <a name="property-$filter_configuration"></a>$filter_configuration
@@ -98,7 +98,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L61)
+* Source: [controllers/admin/AdminModulesController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L61).
 
 
 ### <a name="property-$id_employee"></a>$id_employee
@@ -110,7 +110,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L59)
+* Source: [controllers/admin/AdminModulesController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L59).
 
 
 ### <a name="property-$iso_default_country"></a>$iso_default_country
@@ -122,7 +122,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L60)
+* Source: [controllers/admin/AdminModulesController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L60).
 
 
 ### <a name="property-$list_modules_categories"></a>$list_modules_categories
@@ -134,7 +134,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L48)
+* Source: [controllers/admin/AdminModulesController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L48).
 
 
 ### <a name="property-$list_natives_modules"></a>$list_natives_modules
@@ -146,7 +146,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L50)
+* Source: [controllers/admin/AdminModulesController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L50).
 
 
 ### <a name="property-$list_partners_modules"></a>$list_partners_modules
@@ -158,7 +158,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L49)
+* Source: [controllers/admin/AdminModulesController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L49).
 
 
 ### <a name="property-$map"></a>$map
@@ -170,7 +170,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L37)
+* Source: [controllers/admin/AdminModulesController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L37).
 
 
 ### <a name="property-$modules_authors"></a>$modules_authors
@@ -182,7 +182,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L57)
+* Source: [controllers/admin/AdminModulesController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L57).
 
 
 ### <a name="property-$nb_modules_activated"></a>$nb_modules_activated
@@ -194,7 +194,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L54)
+* Source: [controllers/admin/AdminModulesController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L54).
 
 
 ### <a name="property-$nb_modules_installed"></a>$nb_modules_installed
@@ -206,7 +206,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L53)
+* Source: [controllers/admin/AdminModulesController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L53).
 
 
 ### <a name="property-$nb_modules_total"></a>$nb_modules_total
@@ -218,7 +218,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L52)
+* Source: [controllers/admin/AdminModulesController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L52).
 
 
 ### <a name="property-$serial_modules"></a>$serial_modules
@@ -230,7 +230,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L56)
+* Source: [controllers/admin/AdminModulesController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L56).
 
 
 ### <a name="property-$xml_modules_list"></a>$xml_modules_list
@@ -242,7 +242,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminModulesController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L63)
+* Source: [controllers/admin/AdminModulesController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L63).
 
 
 Methods

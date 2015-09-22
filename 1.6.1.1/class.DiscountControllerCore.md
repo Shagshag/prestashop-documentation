@@ -39,7 +39,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/DiscountController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/DiscountController.php#L29)
+* Source: [controllers/front/DiscountController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/DiscountController.php#L29).
 
 
 ### <a name="property-$authRedirection"></a>$authRedirection
@@ -51,7 +51,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/DiscountController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/DiscountController.php#L31)
+* Source: [controllers/front/DiscountController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/DiscountController.php#L31).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -63,7 +63,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/DiscountController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/DiscountController.php#L30)
+* Source: [controllers/front/DiscountController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/DiscountController.php#L30).
 
 
 ### <a name="property-$ssl"></a>$ssl
@@ -75,7 +75,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/DiscountController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/DiscountController.php#L32)
+* Source: [controllers/front/DiscountController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/DiscountController.php#L32).
 
 
 Methods

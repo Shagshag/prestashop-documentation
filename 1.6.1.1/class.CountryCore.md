@@ -70,7 +70,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Country.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L64)
+* Source: [classes/Country.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L64).
 
 
 ### <a name="property-$active"></a>$active
@@ -82,7 +82,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Country.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L62)
+* Source: [classes/Country.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L62).
 
 
 ### <a name="property-$cache_iso_by_id"></a>$cache_iso_by_id
@@ -95,7 +95,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Country.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L94)
+* Source: [classes/Country.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L94).
 
 
 ### <a name="property-$call_prefix"></a>$call_prefix
@@ -107,7 +107,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Country.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L41)
+* Source: [classes/Country.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L41).
 
 
 ### <a name="property-$contains_states"></a>$contains_states
@@ -119,7 +119,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Country.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L47)
+* Source: [classes/Country.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L47).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -132,7 +132,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Country.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L69)
+* Source: [classes/Country.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L69).
 
 
 ### <a name="property-$display_tax_label"></a>$display_tax_label
@@ -144,7 +144,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Country.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L59)
+* Source: [classes/Country.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L59).
 
 
 ### <a name="property-$id"></a>$id
@@ -156,7 +156,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Country.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L29)
+* Source: [classes/Country.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L29).
 
 
 ### <a name="property-$id_currency"></a>$id_currency
@@ -168,7 +168,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Country.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L35)
+* Source: [classes/Country.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L35).
 
 
 ### <a name="property-$id_zone"></a>$id_zone
@@ -180,7 +180,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Country.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L32)
+* Source: [classes/Country.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L32).
 
 
 ### <a name="property-$iso_code"></a>$iso_code
@@ -192,7 +192,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Country.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L38)
+* Source: [classes/Country.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L38).
 
 
 ### <a name="property-$name"></a>$name
@@ -204,7 +204,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Country.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L44)
+* Source: [classes/Country.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L44).
 
 
 ### <a name="property-$need_identification_number"></a>$need_identification_number
@@ -216,7 +216,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Country.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L50)
+* Source: [classes/Country.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L50).
 
 
 ### <a name="property-$need_zip_code"></a>$need_zip_code
@@ -228,7 +228,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Country.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L53)
+* Source: [classes/Country.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L53).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -240,7 +240,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Country.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L96)
+* Source: [classes/Country.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L96).
 
 
 ### <a name="property-$zip_code_format"></a>$zip_code_format
@@ -252,7 +252,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Country.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L56)
+* Source: [classes/Country.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L56).
 
 
 Methods

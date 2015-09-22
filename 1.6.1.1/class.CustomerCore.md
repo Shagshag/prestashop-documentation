@@ -122,7 +122,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Customer.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L195)
+* Source: [classes/Customer.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L195).
 
 
 ### <a name="property-$_customer_groups"></a>$_customer_groups
@@ -135,7 +135,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Customer.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L196)
+* Source: [classes/Customer.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L196).
 
 
 ### <a name="property-$_defaultGroupId"></a>$_defaultGroupId
@@ -148,7 +148,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Customer.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L194)
+* Source: [classes/Customer.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L194).
 
 
 ### <a name="property-$active"></a>$active
@@ -160,7 +160,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L105)
+* Source: [classes/Customer.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L105).
 
 
 ### <a name="property-$ape"></a>$ape
@@ -172,7 +172,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L84)
+* Source: [classes/Customer.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L84).
 
 
 ### <a name="property-$birthday"></a>$birthday
@@ -184,7 +184,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L57)
+* Source: [classes/Customer.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L57).
 
 
 ### <a name="property-$company"></a>$company
@@ -196,7 +196,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L78)
+* Source: [classes/Customer.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L78).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -208,7 +208,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L114)
+* Source: [classes/Customer.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L114).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -220,7 +220,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L117)
+* Source: [classes/Customer.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L117).
 
 
 ### <a name="property-$days"></a>$days
@@ -232,7 +232,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L120)
+* Source: [classes/Customer.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L120).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -245,7 +245,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Customer.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L157)
+* Source: [classes/Customer.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L157).
 
 
 ### <a name="property-$deleted"></a>$deleted
@@ -257,7 +257,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L111)
+* Source: [classes/Customer.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L111).
 
 
 ### <a name="property-$email"></a>$email
@@ -269,7 +269,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L60)
+* Source: [classes/Customer.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L60).
 
 
 ### <a name="property-$firstname"></a>$firstname
@@ -281,7 +281,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L54)
+* Source: [classes/Customer.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L54).
 
 
 ### <a name="property-$geoloc_id_country"></a>$geoloc_id_country
@@ -293,7 +293,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L124)
+* Source: [classes/Customer.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L124).
 
 
 ### <a name="property-$geoloc_id_state"></a>$geoloc_id_state
@@ -305,7 +305,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L126)
+* Source: [classes/Customer.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L126).
 
 
 ### <a name="property-$geoloc_postcode"></a>$geoloc_postcode
@@ -317,7 +317,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L128)
+* Source: [classes/Customer.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L128).
 
 
 ### <a name="property-$groupBox"></a>$groupBox
@@ -329,7 +329,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L136)
+* Source: [classes/Customer.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L136).
 
 
 ### <a name="property-$id"></a>$id
@@ -341,7 +341,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L29)
+* Source: [classes/Customer.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L29).
 
 
 ### <a name="property-$id_default_group"></a>$id_default_group
@@ -353,7 +353,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L45)
+* Source: [classes/Customer.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L45).
 
 
 ### <a name="property-$id_gender"></a>$id_gender
@@ -365,7 +365,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L42)
+* Source: [classes/Customer.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L42).
 
 
 ### <a name="property-$id_guest"></a>$id_guest
@@ -377,7 +377,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L134)
+* Source: [classes/Customer.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L134).
 
 
 ### <a name="property-$id_lang"></a>$id_lang
@@ -389,7 +389,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L48)
+* Source: [classes/Customer.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L48).
 
 
 ### <a name="property-$id_risk"></a>$id_risk
@@ -401,7 +401,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L93)
+* Source: [classes/Customer.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L93).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -413,7 +413,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L31)
+* Source: [classes/Customer.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L31).
 
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
@@ -425,7 +425,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L33)
+* Source: [classes/Customer.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L33).
 
 
 ### <a name="property-$ip_registration_newsletter"></a>$ip_registration_newsletter
@@ -437,7 +437,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L66)
+* Source: [classes/Customer.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L66).
 
 
 ### <a name="property-$is_guest"></a>$is_guest
@@ -449,7 +449,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L108)
+* Source: [classes/Customer.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L108).
 
 
 ### <a name="property-$last_passwd_gen"></a>$last_passwd_gen
@@ -461,7 +461,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L102)
+* Source: [classes/Customer.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L102).
 
 
 ### <a name="property-$lastname"></a>$lastname
@@ -473,7 +473,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L51)
+* Source: [classes/Customer.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L51).
 
 
 ### <a name="property-$logged"></a>$logged
@@ -485,7 +485,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L131)
+* Source: [classes/Customer.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L131).
 
 
 ### <a name="property-$max_payment_days"></a>$max_payment_days
@@ -497,7 +497,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L96)
+* Source: [classes/Customer.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L96).
 
 
 ### <a name="property-$months"></a>$months
@@ -509,7 +509,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L121)
+* Source: [classes/Customer.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L121).
 
 
 ### <a name="property-$newsletter"></a>$newsletter
@@ -521,7 +521,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L63)
+* Source: [classes/Customer.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L63).
 
 
 ### <a name="property-$newsletter_date_add"></a>$newsletter_date_add
@@ -533,7 +533,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L69)
+* Source: [classes/Customer.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L69).
 
 
 ### <a name="property-$note"></a>$note
@@ -545,7 +545,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L39)
+* Source: [classes/Customer.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L39).
 
 
 ### <a name="property-$optin"></a>$optin
@@ -557,7 +557,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L72)
+* Source: [classes/Customer.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L72).
 
 
 ### <a name="property-$outstanding_allow_amount"></a>$outstanding_allow_amount
@@ -569,7 +569,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L87)
+* Source: [classes/Customer.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L87).
 
 
 ### <a name="property-$passwd"></a>$passwd
@@ -581,7 +581,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L99)
+* Source: [classes/Customer.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L99).
 
 
 ### <a name="property-$secure_key"></a>$secure_key
@@ -593,7 +593,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L36)
+* Source: [classes/Customer.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L36).
 
 
 ### <a name="property-$show_public_prices"></a>$show_public_prices
@@ -605,7 +605,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L90)
+* Source: [classes/Customer.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L90).
 
 
 ### <a name="property-$siret"></a>$siret
@@ -617,7 +617,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L81)
+* Source: [classes/Customer.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L81).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -629,7 +629,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Customer.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L138)
+* Source: [classes/Customer.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L138).
 
 
 ### <a name="property-$website"></a>$website
@@ -641,7 +641,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L75)
+* Source: [classes/Customer.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L75).
 
 
 ### <a name="property-$years"></a>$years
@@ -653,7 +653,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Customer.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L119)
+* Source: [classes/Customer.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L119).
 
 
 Methods

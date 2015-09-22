@@ -49,7 +49,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminAttributeGeneratorController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L34)
+* Source: [controllers/admin/AdminAttributeGeneratorController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L34).
 
 
 ### <a name="property-$object"></a>$object
@@ -61,7 +61,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminAttributeGeneratorController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L32)
+* Source: [controllers/admin/AdminAttributeGeneratorController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L32).
 
 
 ### <a name="property-$product"></a>$product
@@ -73,7 +73,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminAttributeGeneratorController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L37)
+* Source: [controllers/admin/AdminAttributeGeneratorController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L37).
 
 
 Methods

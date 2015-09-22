@@ -75,7 +75,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L59)
+* Source: [classes/Currency.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L59).
 
 
 ### <a name="property-$blank"></a>$blank
@@ -87,7 +87,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L44)
+* Source: [classes/Currency.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L44).
 
 
 ### <a name="property-$conversion_rate"></a>$conversion_rate
@@ -99,7 +99,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L47)
+* Source: [classes/Currency.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L47).
 
 
 ### <a name="property-$countActiveCurrencies"></a>$countActiveCurrencies
@@ -112,7 +112,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Currency.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L84)
+* Source: [classes/Currency.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L84).
 
 
 ### <a name="property-$currencies"></a>$currencies
@@ -125,7 +125,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Currency.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L83)
+* Source: [classes/Currency.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L83).
 
 
 ### <a name="property-$decimals"></a>$decimals
@@ -137,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L56)
+* Source: [classes/Currency.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L56).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -150,7 +150,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Currency.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L64)
+* Source: [classes/Currency.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L64).
 
 
 ### <a name="property-$deleted"></a>$deleted
@@ -162,7 +162,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L50)
+* Source: [classes/Currency.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L50).
 
 
 ### <a name="property-$format"></a>$format
@@ -174,7 +174,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L53)
+* Source: [classes/Currency.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L53).
 
 
 ### <a name="property-$id"></a>$id
@@ -186,7 +186,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L29)
+* Source: [classes/Currency.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L29).
 
 
 ### <a name="property-$iso_code"></a>$iso_code
@@ -198,7 +198,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L35)
+* Source: [classes/Currency.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L35).
 
 
 ### <a name="property-$iso_code_num"></a>$iso_code_num
@@ -210,7 +210,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L38)
+* Source: [classes/Currency.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L38).
 
 
 ### <a name="property-$name"></a>$name
@@ -222,7 +222,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L32)
+* Source: [classes/Currency.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L32).
 
 
 ### <a name="property-$prefix"></a>$prefix
@@ -234,7 +234,7 @@ contains the sign to display before price, according to its format
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L94)
+* Source: [classes/Currency.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L94).
 
 
 ### <a name="property-$sign"></a>$sign
@@ -246,7 +246,7 @@ contains the sign to display before price, according to its format
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L41)
+* Source: [classes/Currency.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L41).
 
 
 ### <a name="property-$suffix"></a>$suffix
@@ -258,7 +258,7 @@ contains the sign to display after price, according to its format
 
 
 * Visibility: **public**
-* Source: [classes/Currency.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L99)
+* Source: [classes/Currency.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L99).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -270,7 +270,7 @@ contains the sign to display after price, according to its format
 
 
 * Visibility: **protected**
-* Source: [classes/Currency.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L86)
+* Source: [classes/Currency.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L86).
 
 
 Methods

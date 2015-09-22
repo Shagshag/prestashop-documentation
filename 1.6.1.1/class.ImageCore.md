@@ -80,7 +80,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Image.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L76)
+* Source: [classes/Image.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L76).
 
 
 ### <a name="property-$access_rights"></a>$access_rights
@@ -93,7 +93,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Image.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L59)
+* Source: [classes/Image.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L59).
 
 
 ### <a name="property-$cover"></a>$cover
@@ -105,7 +105,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Image.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L41)
+* Source: [classes/Image.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L41).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -118,7 +118,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Image.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L64)
+* Source: [classes/Image.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L64).
 
 
 ### <a name="property-$existing_path"></a>$existing_path
@@ -130,7 +130,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Image.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L56)
+* Source: [classes/Image.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L56).
 
 
 ### <a name="property-$folder"></a>$folder
@@ -142,7 +142,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Image.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L53)
+* Source: [classes/Image.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L53).
 
 
 ### <a name="property-$id"></a>$id
@@ -154,7 +154,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Image.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L29)
+* Source: [classes/Image.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L29).
 
 
 ### <a name="property-$id_image"></a>$id_image
@@ -166,7 +166,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Image.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L32)
+* Source: [classes/Image.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L32).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -178,7 +178,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Image.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L35)
+* Source: [classes/Image.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L35).
 
 
 ### <a name="property-$image_format"></a>$image_format
@@ -190,7 +190,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Image.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L47)
+* Source: [classes/Image.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L47).
 
 
 ### <a name="property-$legend"></a>$legend
@@ -202,7 +202,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Image.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L44)
+* Source: [classes/Image.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L44).
 
 
 ### <a name="property-$position"></a>$position
@@ -214,7 +214,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Image.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L38)
+* Source: [classes/Image.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L38).
 
 
 ### <a name="property-$source_index"></a>$source_index
@@ -226,7 +226,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Image.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L50)
+* Source: [classes/Image.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L50).
 
 
 Methods

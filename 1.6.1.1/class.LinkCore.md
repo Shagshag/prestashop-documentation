@@ -62,7 +62,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Link.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L30)
+* Source: [classes/Link.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L30).
 
 
 ### <a name="property-$cache"></a>$cache
@@ -75,7 +75,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Link.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L32)
+* Source: [classes/Link.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L32).
 
 
 ### <a name="property-$category_disable_rewrite"></a>$category_disable_rewrite
@@ -88,7 +88,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Link.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L39)
+* Source: [classes/Link.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L39).
 
 
 ### <a name="property-$protocol_content"></a>$protocol_content
@@ -100,7 +100,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Link.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L35)
+* Source: [classes/Link.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L35).
 
 
 ### <a name="property-$protocol_link"></a>$protocol_link
@@ -112,7 +112,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Link.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L34)
+* Source: [classes/Link.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L34).
 
 
 ### <a name="property-$ssl_enable"></a>$ssl_enable
@@ -124,7 +124,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Link.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L37)
+* Source: [classes/Link.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L37).
 
 
 ### <a name="property-$url"></a>$url
@@ -136,7 +136,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Link.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L31)
+* Source: [classes/Link.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L31).
 
 
 Methods

@@ -43,7 +43,9 @@ Constants
 
 
 
-* Source: [classes/pdf/PDF.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L41)
+
+
+* Source: [classes/pdf/PDF.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L41).
 
 
 ### <a name="constant-TEMPLATE_INVOICE"></a>TEMPLATE_INVOICE
@@ -52,7 +54,9 @@ Constants
 
 
 
-* Source: [classes/pdf/PDF.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L38)
+
+
+* Source: [classes/pdf/PDF.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L38).
 
 
 ### <a name="constant-TEMPLATE_ORDER_RETURN"></a>TEMPLATE_ORDER_RETURN
@@ -61,7 +65,9 @@ Constants
 
 
 
-* Source: [classes/pdf/PDF.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L39)
+
+
+* Source: [classes/pdf/PDF.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L39).
 
 
 ### <a name="constant-TEMPLATE_ORDER_SLIP"></a>TEMPLATE_ORDER_SLIP
@@ -70,7 +76,9 @@ Constants
 
 
 
-* Source: [classes/pdf/PDF.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L40)
+
+
+* Source: [classes/pdf/PDF.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L40).
 
 
 ### <a name="constant-TEMPLATE_SUPPLY_ORDER_FORM"></a>TEMPLATE_SUPPLY_ORDER_FORM
@@ -79,7 +87,9 @@ Constants
 
 
 
-* Source: [classes/pdf/PDF.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L42)
+
+
+* Source: [classes/pdf/PDF.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L42).
 
 
 Properties
@@ -95,7 +105,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/pdf/PDF.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L32)
+* Source: [classes/pdf/PDF.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L32).
 
 
 ### <a name="property-$objects"></a>$objects
@@ -107,7 +117,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/pdf/PDF.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L34)
+* Source: [classes/pdf/PDF.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L34).
 
 
 ### <a name="property-$pdf_renderer"></a>$pdf_renderer
@@ -119,7 +129,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/pdf/PDF.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L33)
+* Source: [classes/pdf/PDF.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L33).
 
 
 ### <a name="property-$send_bulk_flag"></a>$send_bulk_flag
@@ -131,7 +141,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/pdf/PDF.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L36)
+* Source: [classes/pdf/PDF.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L36).
 
 
 ### <a name="property-$template"></a>$template
@@ -143,7 +153,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/pdf/PDF.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L35)
+* Source: [classes/pdf/PDF.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L35).
 
 
 Methods

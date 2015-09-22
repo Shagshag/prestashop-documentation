@@ -57,7 +57,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L38)
+* Source: [classes/CMS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L38).
 
 
 ### <a name="property-$content"></a>$content
@@ -69,7 +69,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMS.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L33)
+* Source: [classes/CMS.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L33).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -82,7 +82,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/CMS.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L43)
+* Source: [classes/CMS.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L43).
 
 
 ### <a name="property-$id_cms_category"></a>$id_cms_category
@@ -94,7 +94,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMS.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L35)
+* Source: [classes/CMS.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L35).
 
 
 ### <a name="property-$indexation"></a>$indexation
@@ -106,7 +106,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMS.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L37)
+* Source: [classes/CMS.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L37).
 
 
 ### <a name="property-$link_rewrite"></a>$link_rewrite
@@ -118,7 +118,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMS.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L34)
+* Source: [classes/CMS.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L34).
 
 
 ### <a name="property-$meta_description"></a>$meta_description
@@ -130,7 +130,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMS.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L31)
+* Source: [classes/CMS.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L31).
 
 
 ### <a name="property-$meta_keywords"></a>$meta_keywords
@@ -142,7 +142,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMS.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L32)
+* Source: [classes/CMS.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L32).
 
 
 ### <a name="property-$meta_title"></a>$meta_title
@@ -154,7 +154,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMS.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L30)
+* Source: [classes/CMS.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L30).
 
 
 ### <a name="property-$position"></a>$position
@@ -166,7 +166,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CMS.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L36)
+* Source: [classes/CMS.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L36).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -178,7 +178,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/CMS.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L63)
+* Source: [classes/CMS.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L63).
 
 
 Methods

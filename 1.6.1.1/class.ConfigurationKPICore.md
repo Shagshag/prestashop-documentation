@@ -54,7 +54,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/ConfigurationKPI.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L29)
+* Source: [classes/ConfigurationKPI.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L29).
 
 
 Methods

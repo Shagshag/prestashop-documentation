@@ -55,7 +55,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/tax/TaxRulesGroup.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L65)
+* Source: [classes/tax/TaxRulesGroup.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L65).
 
 
 ### <a name="property-$active"></a>$active
@@ -67,7 +67,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRulesGroup.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L33)
+* Source: [classes/tax/TaxRulesGroup.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L33).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -79,7 +79,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRulesGroup.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L38)
+* Source: [classes/tax/TaxRulesGroup.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L38).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -91,7 +91,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRulesGroup.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L41)
+* Source: [classes/tax/TaxRulesGroup.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L41).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -104,7 +104,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/tax/TaxRulesGroup.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L46)
+* Source: [classes/tax/TaxRulesGroup.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L46).
 
 
 ### <a name="property-$deleted"></a>$deleted
@@ -116,7 +116,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRulesGroup.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L35)
+* Source: [classes/tax/TaxRulesGroup.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L35).
 
 
 ### <a name="property-$name"></a>$name
@@ -128,7 +128,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/tax/TaxRulesGroup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L30)
+* Source: [classes/tax/TaxRulesGroup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L30).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -140,7 +140,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/tax/TaxRulesGroup.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L58)
+* Source: [classes/tax/TaxRulesGroup.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L58).
 
 
 Methods

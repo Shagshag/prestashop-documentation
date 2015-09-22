@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/Controller.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L61)
+* Source: [classes/controller/Controller.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L61).
 
 
 ### <a name="property-$content_only"></a>$content_only
@@ -92,7 +92,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/Controller.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L58)
+* Source: [classes/controller/Controller.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L58).
 
 
 ### <a name="property-$context"></a>$context
@@ -104,7 +104,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/Controller.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L34)
+* Source: [classes/controller/Controller.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L34).
 
 
 ### <a name="property-$controller_type"></a>$controller_type
@@ -116,7 +116,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/Controller.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L76)
+* Source: [classes/controller/Controller.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L76).
 
 
 ### <a name="property-$css_files"></a>$css_files
@@ -128,7 +128,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/Controller.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L37)
+* Source: [classes/controller/Controller.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L37).
 
 
 ### <a name="property-$display_footer"></a>$display_footer
@@ -140,7 +140,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/Controller.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L55)
+* Source: [classes/controller/Controller.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L55).
 
 
 ### <a name="property-$display_header"></a>$display_header
@@ -152,7 +152,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/Controller.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L46)
+* Source: [classes/controller/Controller.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L46).
 
 
 ### <a name="property-$display_header_javascript"></a>$display_header_javascript
@@ -164,7 +164,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/Controller.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L49)
+* Source: [classes/controller/Controller.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L49).
 
 
 ### <a name="property-$js_files"></a>$js_files
@@ -176,7 +176,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/Controller.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L40)
+* Source: [classes/controller/Controller.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L40).
 
 
 ### <a name="property-$json"></a>$json
@@ -188,7 +188,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/Controller.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L64)
+* Source: [classes/controller/Controller.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L64).
 
 
 ### <a name="property-$php_errors"></a>$php_errors
@@ -201,7 +201,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/controller/Controller.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L43)
+* Source: [classes/controller/Controller.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L43).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -213,7 +213,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/controller/Controller.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L79)
+* Source: [classes/controller/Controller.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L79).
 
 
 ### <a name="property-$redirect_after"></a>$redirect_after
@@ -225,7 +225,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/Controller.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L73)
+* Source: [classes/controller/Controller.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L73).
 
 
 ### <a name="property-$status"></a>$status
@@ -237,7 +237,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/Controller.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L67)
+* Source: [classes/controller/Controller.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L67).
 
 
 ### <a name="property-$template"></a>$template
@@ -249,7 +249,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/controller/Controller.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L52)
+* Source: [classes/controller/Controller.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L52).
 
 
 Methods

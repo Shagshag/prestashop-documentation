@@ -67,7 +67,9 @@ Constants
 
 
 
-* Source: [classes/Context.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L99)
+
+
+* Source: [classes/Context.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L99).
 
 
 ### <a name="constant-DEVICE_MOBILE"></a>DEVICE_MOBILE
@@ -76,7 +78,9 @@ Constants
 
 
 
-* Source: [classes/Context.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L105)
+
+
+* Source: [classes/Context.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L105).
 
 
 ### <a name="constant-DEVICE_TABLET"></a>DEVICE_TABLET
@@ -85,7 +89,9 @@ Constants
 
 
 
-* Source: [classes/Context.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L102)
+
+
+* Source: [classes/Context.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L102).
 
 
 ### <a name="constant-MODE_HOST"></a>MODE_HOST
@@ -94,7 +100,9 @@ Constants
 
 
 
-* Source: [classes/Context.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L117)
+
+
+* Source: [classes/Context.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L117).
 
 
 ### <a name="constant-MODE_HOST_CONTRIB"></a>MODE_HOST_CONTRIB
@@ -103,7 +111,9 @@ Constants
 
 
 
-* Source: [classes/Context.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L114)
+
+
+* Source: [classes/Context.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L114).
 
 
 ### <a name="constant-MODE_STD"></a>MODE_STD
@@ -112,7 +122,9 @@ Constants
 
 
 
-* Source: [classes/Context.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L108)
+
+
+* Source: [classes/Context.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L108).
 
 
 ### <a name="constant-MODE_STD_CONTRIB"></a>MODE_STD_CONTRIB
@@ -121,7 +133,9 @@ Constants
 
 
 
-* Source: [classes/Context.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L111)
+
+
+* Source: [classes/Context.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L111).
 
 
 Properties
@@ -137,7 +151,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L38)
+* Source: [classes/Context.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L38).
 
 
 ### <a name="property-$controller"></a>$controller
@@ -149,7 +163,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L56)
+* Source: [classes/Context.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L56).
 
 
 ### <a name="property-$cookie"></a>$cookie
@@ -161,7 +175,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L44)
+* Source: [classes/Context.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L44).
 
 
 ### <a name="property-$country"></a>$country
@@ -173,7 +187,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L50)
+* Source: [classes/Context.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L50).
 
 
 ### <a name="property-$currency"></a>$currency
@@ -185,7 +199,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L65)
+* Source: [classes/Context.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L65).
 
 
 ### <a name="property-$customer"></a>$customer
@@ -197,7 +211,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L41)
+* Source: [classes/Context.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L41).
 
 
 ### <a name="property-$employee"></a>$employee
@@ -209,7 +223,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L53)
+* Source: [classes/Context.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L53).
 
 
 ### <a name="property-$instance"></a>$instance
@@ -222,7 +236,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Context.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L35)
+* Source: [classes/Context.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L35).
 
 
 ### <a name="property-$is_mobile"></a>$is_mobile
@@ -234,7 +248,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Context.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L93)
+* Source: [classes/Context.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L93).
 
 
 ### <a name="property-$is_tablet"></a>$is_tablet
@@ -246,7 +260,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Context.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L96)
+* Source: [classes/Context.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L96).
 
 
 ### <a name="property-$language"></a>$language
@@ -258,7 +272,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L62)
+* Source: [classes/Context.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L62).
 
 
 ### <a name="property-$link"></a>$link
@@ -270,7 +284,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L47)
+* Source: [classes/Context.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L47).
 
 
 ### <a name="property-$mobile_detect"></a>$mobile_detect
@@ -282,7 +296,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L80)
+* Source: [classes/Context.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L80).
 
 
 ### <a name="property-$mobile_device"></a>$mobile_device
@@ -294,7 +308,7 @@ Mobile device of the customer
 
 
 * Visibility: **protected**
-* Source: [classes/Context.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L90)
+* Source: [classes/Context.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L90).
 
 
 ### <a name="property-$mode"></a>$mode
@@ -306,7 +320,7 @@ Mobile device of the customer
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L83)
+* Source: [classes/Context.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L83).
 
 
 ### <a name="property-$override_controller_name_for_translations"></a>$override_controller_name_for_translations
@@ -318,7 +332,7 @@ Mobile device of the customer
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L59)
+* Source: [classes/Context.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L59).
 
 
 ### <a name="property-$shop"></a>$shop
@@ -330,7 +344,7 @@ Mobile device of the customer
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L71)
+* Source: [classes/Context.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L71).
 
 
 ### <a name="property-$smarty"></a>$smarty
@@ -342,7 +356,7 @@ Mobile device of the customer
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L77)
+* Source: [classes/Context.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L77).
 
 
 ### <a name="property-$tab"></a>$tab
@@ -354,7 +368,7 @@ Mobile device of the customer
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L68)
+* Source: [classes/Context.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L68).
 
 
 ### <a name="property-$theme"></a>$theme
@@ -366,7 +380,7 @@ Mobile device of the customer
 
 
 * Visibility: **public**
-* Source: [classes/Context.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L74)
+* Source: [classes/Context.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L74).
 
 
 Methods

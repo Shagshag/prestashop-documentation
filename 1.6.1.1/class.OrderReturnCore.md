@@ -52,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderReturn.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L45)
+* Source: [classes/order/OrderReturn.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L45).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -64,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderReturn.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L48)
+* Source: [classes/order/OrderReturn.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L48).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -77,7 +77,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/order/OrderReturn.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L53)
+* Source: [classes/order/OrderReturn.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L53).
 
 
 ### <a name="property-$id"></a>$id
@@ -89,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderReturn.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L30)
+* Source: [classes/order/OrderReturn.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L30).
 
 
 ### <a name="property-$id_customer"></a>$id_customer
@@ -101,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderReturn.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L33)
+* Source: [classes/order/OrderReturn.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L33).
 
 
 ### <a name="property-$id_order"></a>$id_order
@@ -113,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderReturn.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L36)
+* Source: [classes/order/OrderReturn.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L36).
 
 
 ### <a name="property-$question"></a>$question
@@ -125,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderReturn.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L42)
+* Source: [classes/order/OrderReturn.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L42).
 
 
 ### <a name="property-$state"></a>$state
@@ -137,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/order/OrderReturn.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L39)
+* Source: [classes/order/OrderReturn.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L39).
 
 
 Methods

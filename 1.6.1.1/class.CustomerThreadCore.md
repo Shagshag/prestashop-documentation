@@ -56,7 +56,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerThread.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L39)
+* Source: [classes/CustomerThread.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L39).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerThread.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L40)
+* Source: [classes/CustomerThread.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L40).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -81,7 +81,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/CustomerThread.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L45)
+* Source: [classes/CustomerThread.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L45).
 
 
 ### <a name="property-$email"></a>$email
@@ -93,7 +93,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerThread.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L37)
+* Source: [classes/CustomerThread.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L37).
 
 
 ### <a name="property-$id"></a>$id
@@ -105,7 +105,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerThread.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L29)
+* Source: [classes/CustomerThread.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L29).
 
 
 ### <a name="property-$id_contact"></a>$id_contact
@@ -117,7 +117,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerThread.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L32)
+* Source: [classes/CustomerThread.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L32).
 
 
 ### <a name="property-$id_customer"></a>$id_customer
@@ -129,7 +129,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerThread.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L33)
+* Source: [classes/CustomerThread.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L33).
 
 
 ### <a name="property-$id_lang"></a>$id_lang
@@ -141,7 +141,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerThread.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L31)
+* Source: [classes/CustomerThread.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L31).
 
 
 ### <a name="property-$id_order"></a>$id_order
@@ -153,7 +153,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerThread.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L34)
+* Source: [classes/CustomerThread.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L34).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -165,7 +165,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerThread.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L35)
+* Source: [classes/CustomerThread.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L35).
 
 
 ### <a name="property-$id_shop"></a>$id_shop
@@ -177,7 +177,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerThread.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L30)
+* Source: [classes/CustomerThread.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L30).
 
 
 ### <a name="property-$status"></a>$status
@@ -189,7 +189,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerThread.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L36)
+* Source: [classes/CustomerThread.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L36).
 
 
 ### <a name="property-$token"></a>$token
@@ -201,7 +201,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/CustomerThread.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L38)
+* Source: [classes/CustomerThread.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L38).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -213,7 +213,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/CustomerThread.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L63)
+* Source: [classes/CustomerThread.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L63).
 
 
 Methods

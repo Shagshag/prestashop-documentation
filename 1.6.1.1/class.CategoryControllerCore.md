@@ -47,7 +47,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/CategoryController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CategoryController.php#L42)
+* Source: [controllers/front/CategoryController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CategoryController.php#L42).
 
 
 ### <a name="property-$category"></a>$category
@@ -59,7 +59,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/CategoryController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CategoryController.php#L33)
+* Source: [controllers/front/CategoryController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CategoryController.php#L33).
 
 
 ### <a name="property-$customer_access"></a>$customer_access
@@ -71,7 +71,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/front/CategoryController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CategoryController.php#L36)
+* Source: [controllers/front/CategoryController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CategoryController.php#L36).
 
 
 ### <a name="property-$nbProducts"></a>$nbProducts
@@ -83,7 +83,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/front/CategoryController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CategoryController.php#L39)
+* Source: [controllers/front/CategoryController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CategoryController.php#L39).
 
 
 ### <a name="property-$php_self"></a>$php_self
@@ -95,7 +95,7 @@ string Internal controller name
 
 
 * Visibility: **public**
-* Source: [controllers/front/CategoryController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CategoryController.php#L30)
+* Source: [controllers/front/CategoryController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CategoryController.php#L30).
 
 
 Methods

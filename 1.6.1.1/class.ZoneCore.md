@@ -41,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Zone.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#L33)
+* Source: [classes/Zone.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#L33).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -54,7 +54,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Zone.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#L38)
+* Source: [classes/Zone.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#L38).
 
 
 ### <a name="property-$name"></a>$name
@@ -66,7 +66,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Zone.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#L30)
+* Source: [classes/Zone.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#L30).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -78,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Zone.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#L47)
+* Source: [classes/Zone.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#L47).
 
 
 Methods

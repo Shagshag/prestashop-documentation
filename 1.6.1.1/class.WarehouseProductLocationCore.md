@@ -45,7 +45,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/stock/WarehouseProductLocation.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L54)
+* Source: [classes/stock/WarehouseProductLocation.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L54).
 
 
 ### <a name="property-$id_product"></a>$id_product
@@ -57,7 +57,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/WarehouseProductLocation.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L34)
+* Source: [classes/stock/WarehouseProductLocation.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L34).
 
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
@@ -69,7 +69,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/WarehouseProductLocation.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L39)
+* Source: [classes/stock/WarehouseProductLocation.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L39).
 
 
 ### <a name="property-$id_warehouse"></a>$id_warehouse
@@ -81,7 +81,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/WarehouseProductLocation.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L44)
+* Source: [classes/stock/WarehouseProductLocation.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L44).
 
 
 ### <a name="property-$location"></a>$location
@@ -93,7 +93,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/stock/WarehouseProductLocation.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L49)
+* Source: [classes/stock/WarehouseProductLocation.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L49).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -105,7 +105,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/stock/WarehouseProductLocation.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L68)
+* Source: [classes/stock/WarehouseProductLocation.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L68).
 
 
 Methods

@@ -46,7 +46,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminSuppliersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L32)
+* Source: [controllers/admin/AdminSuppliersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L32).
 
 
 ### <a name="property-$object"></a>$object
@@ -58,7 +58,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminSuppliersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L30)
+* Source: [controllers/admin/AdminSuppliersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L30).
 
 
 Methods

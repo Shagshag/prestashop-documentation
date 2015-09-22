@@ -54,8 +54,10 @@ Constants
 
 
 
+
+
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* Source: [classes/County.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L54)
+* Source: [classes/County.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L54).
 
 
 ### <a name="constant-USE_COUNTY_TAX"></a>USE_COUNTY_TAX
@@ -64,8 +66,10 @@ Constants
 
 
 
+
+
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* Source: [classes/County.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L55)
+* Source: [classes/County.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L55).
 
 
 ### <a name="constant-USE_STATE_TAX"></a>USE_STATE_TAX
@@ -74,8 +78,10 @@ Constants
 
 
 
+
+
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* Source: [classes/County.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L56)
+* Source: [classes/County.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L56).
 
 
 Properties
@@ -93,7 +99,7 @@ Properties
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* Source: [classes/County.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L52)
+* Source: [classes/County.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L52).
 
 
 ### <a name="property-$_cache_get_counties"></a>$_cache_get_counties
@@ -107,7 +113,7 @@ Properties
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* Source: [classes/County.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L51)
+* Source: [classes/County.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L51).
 
 
 ### <a name="property-$active"></a>$active
@@ -120,7 +126,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/County.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L36)
+* Source: [classes/County.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L36).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -134,7 +140,7 @@ Properties
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* Source: [classes/County.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L41)
+* Source: [classes/County.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L41).
 
 
 ### <a name="property-$id"></a>$id
@@ -147,7 +153,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/County.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L33)
+* Source: [classes/County.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L33).
 
 
 ### <a name="property-$id_state"></a>$id_state
@@ -160,7 +166,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/County.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L35)
+* Source: [classes/County.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L35).
 
 
 ### <a name="property-$name"></a>$name
@@ -173,7 +179,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/County.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L34)
+* Source: [classes/County.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L34).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -186,7 +192,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* Source: [classes/County.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L58)
+* Source: [classes/County.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L58).
 
 
 Methods

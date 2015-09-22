@@ -49,7 +49,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminWarehousesController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L31)
+* Source: [controllers/admin/AdminWarehousesController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L31).
 
 
 Methods

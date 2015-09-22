@@ -41,9 +41,11 @@ Constants
 
     const INDEX_FILE = 'cache/class_index.php'
 
+File where classes index is stored
 
 
-* Source: [classes/PrestaShopAutoload.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L35)
+
+* Source: [classes/PrestaShopAutoload.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L35).
 
 
 Properties
@@ -59,7 +61,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopAutoload.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L52)
+* Source: [classes/PrestaShopAutoload.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L52).
 
 
 ### <a name="property-$class_aliases"></a>$class_aliases
@@ -72,7 +74,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/PrestaShopAutoload.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L54)
+* Source: [classes/PrestaShopAutoload.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L54).
 
 
 ### <a name="property-$index"></a>$index
@@ -84,7 +86,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/PrestaShopAutoload.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L50)
+* Source: [classes/PrestaShopAutoload.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L50).
 
 
 ### <a name="property-$instance"></a>$instance
@@ -97,7 +99,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/PrestaShopAutoload.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L40)
+* Source: [classes/PrestaShopAutoload.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L40).
 
 
 ### <a name="property-$root_dir"></a>$root_dir
@@ -109,7 +111,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/PrestaShopAutoload.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L45)
+* Source: [classes/PrestaShopAutoload.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L45).
 
 
 Methods

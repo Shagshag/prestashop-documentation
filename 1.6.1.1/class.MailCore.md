@@ -49,7 +49,9 @@ Constants
 
 
 
-* Source: [classes/Mail.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L68)
+
+
+* Source: [classes/Mail.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L68).
 
 
 ### <a name="constant-TYPE_HTML"></a>TYPE_HTML
@@ -58,7 +60,9 @@ Constants
 
 
 
-* Source: [classes/Mail.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L66)
+
+
+* Source: [classes/Mail.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L66).
 
 
 ### <a name="constant-TYPE_TEXT"></a>TYPE_TEXT
@@ -67,7 +71,9 @@ Constants
 
 
 
-* Source: [classes/Mail.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L67)
+
+
+* Source: [classes/Mail.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L67).
 
 
 Properties
@@ -83,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Mail.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L49)
+* Source: [classes/Mail.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L49).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -96,7 +102,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Mail.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L54)
+* Source: [classes/Mail.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L54).
 
 
 ### <a name="property-$id"></a>$id
@@ -108,7 +114,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Mail.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L34)
+* Source: [classes/Mail.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L34).
 
 
 ### <a name="property-$id_lang"></a>$id_lang
@@ -120,7 +126,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Mail.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L46)
+* Source: [classes/Mail.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L46).
 
 
 ### <a name="property-$recipient"></a>$recipient
@@ -132,7 +138,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Mail.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L37)
+* Source: [classes/Mail.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L37).
 
 
 ### <a name="property-$subject"></a>$subject
@@ -144,7 +150,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Mail.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L43)
+* Source: [classes/Mail.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L43).
 
 
 ### <a name="property-$template"></a>$template
@@ -156,7 +162,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Mail.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L40)
+* Source: [classes/Mail.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L40).
 
 
 Methods

@@ -94,7 +94,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Address.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L102)
+* Source: [classes/Address.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L102).
 
 
 ### <a name="property-$_idZones"></a>$_idZones
@@ -107,7 +107,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* Source: [classes/Address.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L101)
+* Source: [classes/Address.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L101).
 
 
 ### <a name="property-$_includeContainer"></a>$_includeContainer
@@ -119,7 +119,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Address.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L137)
+* Source: [classes/Address.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L137).
 
 
 ### <a name="property-$_includeVars"></a>$_includeVars
@@ -131,7 +131,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Address.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L136)
+* Source: [classes/Address.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L136).
 
 
 ### <a name="property-$address1"></a>$address1
@@ -143,7 +143,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L66)
+* Source: [classes/Address.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L66).
 
 
 ### <a name="property-$address2"></a>$address2
@@ -155,7 +155,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L69)
+* Source: [classes/Address.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L69).
 
 
 ### <a name="property-$alias"></a>$alias
@@ -167,7 +167,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L54)
+* Source: [classes/Address.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L54).
 
 
 ### <a name="property-$city"></a>$city
@@ -179,7 +179,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L75)
+* Source: [classes/Address.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L75).
 
 
 ### <a name="property-$company"></a>$company
@@ -191,7 +191,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L57)
+* Source: [classes/Address.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L57).
 
 
 ### <a name="property-$country"></a>$country
@@ -203,7 +203,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L51)
+* Source: [classes/Address.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L51).
 
 
 ### <a name="property-$date_add"></a>$date_add
@@ -215,7 +215,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L93)
+* Source: [classes/Address.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L93).
 
 
 ### <a name="property-$date_upd"></a>$date_upd
@@ -227,7 +227,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L96)
+* Source: [classes/Address.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L96).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -240,7 +240,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Address.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L107)
+* Source: [classes/Address.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L107).
 
 
 ### <a name="property-$deleted"></a>$deleted
@@ -252,7 +252,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L99)
+* Source: [classes/Address.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L99).
 
 
 ### <a name="property-$dni"></a>$dni
@@ -264,7 +264,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L90)
+* Source: [classes/Address.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L90).
 
 
 ### <a name="property-$firstname"></a>$firstname
@@ -276,7 +276,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L63)
+* Source: [classes/Address.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L63).
 
 
 ### <a name="property-$id_country"></a>$id_country
@@ -288,7 +288,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L45)
+* Source: [classes/Address.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L45).
 
 
 ### <a name="property-$id_customer"></a>$id_customer
@@ -300,7 +300,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L30)
+* Source: [classes/Address.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L30).
 
 
 ### <a name="property-$id_manufacturer"></a>$id_manufacturer
@@ -312,7 +312,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L33)
+* Source: [classes/Address.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L33).
 
 
 ### <a name="property-$id_state"></a>$id_state
@@ -324,7 +324,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L48)
+* Source: [classes/Address.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L48).
 
 
 ### <a name="property-$id_supplier"></a>$id_supplier
@@ -336,7 +336,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L36)
+* Source: [classes/Address.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L36).
 
 
 ### <a name="property-$id_warehouse"></a>$id_warehouse
@@ -348,7 +348,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L42)
+* Source: [classes/Address.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L42).
 
 
 ### <a name="property-$lastname"></a>$lastname
@@ -360,7 +360,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L60)
+* Source: [classes/Address.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L60).
 
 
 ### <a name="property-$other"></a>$other
@@ -372,7 +372,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L78)
+* Source: [classes/Address.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L78).
 
 
 ### <a name="property-$phone"></a>$phone
@@ -384,7 +384,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L81)
+* Source: [classes/Address.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L81).
 
 
 ### <a name="property-$phone_mobile"></a>$phone_mobile
@@ -396,7 +396,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L84)
+* Source: [classes/Address.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L84).
 
 
 ### <a name="property-$postcode"></a>$postcode
@@ -408,7 +408,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L72)
+* Source: [classes/Address.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L72).
 
 
 ### <a name="property-$vat_number"></a>$vat_number
@@ -420,7 +420,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Address.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L87)
+* Source: [classes/Address.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L87).
 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
@@ -432,7 +432,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [classes/Address.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L139)
+* Source: [classes/Address.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L139).
 
 
 Methods

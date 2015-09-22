@@ -47,7 +47,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Message.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L50)
+* Source: [classes/Message.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L50).
 
 
 ### <a name="property-$definition"></a>$definition
@@ -60,7 +60,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* Source: [classes/Message.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L55)
+* Source: [classes/Message.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L55).
 
 
 ### <a name="property-$id"></a>$id
@@ -72,7 +72,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Message.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L29)
+* Source: [classes/Message.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L29).
 
 
 ### <a name="property-$id_cart"></a>$id_cart
@@ -84,7 +84,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Message.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L35)
+* Source: [classes/Message.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L35).
 
 
 ### <a name="property-$id_customer"></a>$id_customer
@@ -96,7 +96,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Message.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L41)
+* Source: [classes/Message.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L41).
 
 
 ### <a name="property-$id_employee"></a>$id_employee
@@ -108,7 +108,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Message.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L44)
+* Source: [classes/Message.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L44).
 
 
 ### <a name="property-$id_order"></a>$id_order
@@ -120,7 +120,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Message.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L38)
+* Source: [classes/Message.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L38).
 
 
 ### <a name="property-$message"></a>$message
@@ -132,7 +132,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Message.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L32)
+* Source: [classes/Message.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L32).
 
 
 ### <a name="property-$private"></a>$private
@@ -144,7 +144,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [classes/Message.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L47)
+* Source: [classes/Message.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L47).
 
 
 Methods

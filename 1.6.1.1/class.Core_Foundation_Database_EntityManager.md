@@ -56,7 +56,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#L30)
+* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#L30).
 
 
 ### <a name="property-$db"></a>$db
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#L29)
+* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#L29).
 
 
 ### <a name="property-$entityMetaData"></a>$entityMetaData
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#L32)
+* Source: [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#L32).
 
 
 Methods

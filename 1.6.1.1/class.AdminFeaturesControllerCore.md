@@ -56,7 +56,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminFeaturesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#L32)
+* Source: [controllers/admin/AdminFeaturesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#L32).
 
 
 ### <a name="property-$feature_name"></a>$feature_name
@@ -68,7 +68,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminFeaturesController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#L34)
+* Source: [controllers/admin/AdminFeaturesController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#L34).
 
 
 ### <a name="property-$object"></a>$object
@@ -80,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* Source: [controllers/admin/AdminFeaturesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#L30)
+* Source: [controllers/admin/AdminFeaturesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#L30).
 
 
 ### <a name="property-$position_identifier"></a>$position_identifier
@@ -92,7 +92,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [controllers/admin/AdminFeaturesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#L33)
+* Source: [controllers/admin/AdminFeaturesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#L33).
 
 
 Methods
