@@ -9,9 +9,11 @@ Class HelperCore
 * Source: [classes/helper/Helper.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$base_folder](#property-$base_folder)
 * [$base_tpl](#property-$base_tpl)
@@ -31,8 +33,8 @@ Properties
 * [$tpl](#property-$tpl)
 * [$tpl_vars](#property-$tpl_vars)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [createTemplate](#method-createTemplate)
 * [generate](#method-generate)
@@ -53,7 +55,9 @@ Properties
 
 ### <a name="property-$base_folder"></a>$base_folder
 
-    public string $base_folder
+```php
+public string $base_folder
+```
 
 
 
@@ -65,7 +69,9 @@ Properties
 
 ### <a name="property-$base_tpl"></a>$base_tpl
 
-    public string $base_tpl = 'content.tpl'
+```php
+public string $base_tpl = 'content.tpl'
+```
 
 
 
@@ -77,7 +83,9 @@ Properties
 
 ### <a name="property-$bootstrap"></a>$bootstrap
 
-    public mixed $bootstrap = false
+```php
+public mixed $bootstrap = false
+```
 
 
 
@@ -89,7 +97,9 @@ Properties
 
 ### <a name="property-$context"></a>$context
 
-    public mixed $context
+```php
+public mixed $context
+```
 
 
 
@@ -101,7 +111,9 @@ Properties
 
 ### <a name="property-$currentIndex"></a>$currentIndex
 
-    public mixed $currentIndex
+```php
+public mixed $currentIndex
+```
 
 
 
@@ -113,7 +125,9 @@ Properties
 
 ### <a name="property-$identifier"></a>$identifier
 
-    public mixed $identifier
+```php
+public mixed $identifier
+```
 
 
 
@@ -125,7 +139,9 @@ Properties
 
 ### <a name="property-$module"></a>$module
 
-    public \Module $module
+```php
+public \Module $module
+```
 
 
 
@@ -137,7 +153,9 @@ Properties
 
 ### <a name="property-$override_folder"></a>$override_folder
 
-    public string $override_folder
+```php
+public string $override_folder
+```
 
 
 
@@ -149,7 +167,9 @@ Properties
 
 ### <a name="property-$ps_help_context"></a>$ps_help_context
 
-    public mixed $ps_help_context
+```php
+public mixed $ps_help_context
+```
 
 
 
@@ -161,7 +181,9 @@ Properties
 
 ### <a name="property-$show_toolbar"></a>$show_toolbar
 
-    public mixed $show_toolbar = true
+```php
+public mixed $show_toolbar = true
+```
 
 
 
@@ -173,7 +195,9 @@ Properties
 
 ### <a name="property-$table"></a>$table
 
-    public mixed $table = 'configuration'
+```php
+public mixed $table = 'configuration'
+```
 
 
 
@@ -185,7 +209,9 @@ Properties
 
 ### <a name="property-$title"></a>$title
 
-    public mixed $title
+```php
+public mixed $title
+```
 
 
 
@@ -197,7 +223,9 @@ Properties
 
 ### <a name="property-$token"></a>$token
 
-    public mixed $token
+```php
+public mixed $token
+```
 
 
 
@@ -209,7 +237,9 @@ Properties
 
 ### <a name="property-$toolbar_btn"></a>$toolbar_btn
 
-    public mixed $toolbar_btn
+```php
+public mixed $toolbar_btn
+```
 
 
 
@@ -221,7 +251,9 @@ Properties
 
 ### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
 
-    public mixed $toolbar_scroll = false
+```php
+public mixed $toolbar_scroll = false
+```
 
 
 
@@ -233,7 +265,9 @@ Properties
 
 ### <a name="property-$tpl"></a>$tpl
 
-    protected \Smarty_Internal_Template $tpl
+```php
+protected \Smarty_Internal_Template $tpl
+```
 
 
 
@@ -245,7 +279,9 @@ Properties
 
 ### <a name="property-$tpl_vars"></a>$tpl_vars
 
-    public mixed $tpl_vars = array()
+```php
+public mixed $tpl_vars = array()
+```
 
 
 
@@ -261,7 +297,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed HelperCore::__construct()
+```php
+mixed HelperCore::__construct()
+```
 
 
 
@@ -275,7 +313,9 @@ Methods
 
 ### <a name="method-createTemplate"></a>createTemplate
 
-    \Smarty_Internal_Template HelperCore::createTemplate(string $tpl_name)
+```php
+\Smarty_Internal_Template HelperCore::createTemplate(string $tpl_name)
+```
 
 Create a template from the override file, else from the base file.
 
@@ -292,7 +332,9 @@ Create a template from the override file, else from the base file.
 
 ### <a name="method-generate"></a>generate
 
-    string HelperCore::generate()
+```php
+string HelperCore::generate()
+```
 
 default behaviour for helper is to return a tpl fetched
 
@@ -306,7 +348,9 @@ default behaviour for helper is to return a tpl fetched
 
 ### <a name="method-l"></a>l
 
-    string HelperCore::l(mixed $string, string $class, boolean $addslashes, boolean $htmlentities)
+```php
+string HelperCore::l(mixed $string, string $class, boolean $addslashes, boolean $htmlentities)
+```
 
 use translations files to replace english expression.
 
@@ -326,7 +370,9 @@ use translations files to replace english expression.
 
 ### <a name="method-renderAdminCategorieTree"></a>renderAdminCategorieTree
 
-    mixed HelperCore::renderAdminCategorieTree($translations, $selected_cat, $input_name, $use_radio, $use_search, $disabled_categories, $use_in_popup)
+```php
+mixed HelperCore::renderAdminCategorieTree($translations, $selected_cat, $input_name, $use_radio, $use_search, $disabled_categories, $use_in_popup)
+```
 
 
 
@@ -350,7 +396,9 @@ use translations files to replace english expression.
 
 ### <a name="method-renderCategoryTree"></a>renderCategoryTree
 
-    string HelperCore::renderCategoryTree(array $root, array $selected_cat, string $input_name, boolean $use_radio, boolean $use_search, array $disabled_categories)
+```php
+string HelperCore::renderCategoryTree(array $root, array $selected_cat, string $input_name, boolean $use_radio, boolean $use_search, array $disabled_categories)
+```
 
 
 
@@ -387,7 +435,9 @@ use translations files to replace english expression.
 
 ### <a name="method-renderModulesList"></a>renderModulesList
 
-    mixed HelperCore::renderModulesList($modules_list)
+```php
+mixed HelperCore::renderModulesList($modules_list)
+```
 
 
 
@@ -404,7 +454,9 @@ use translations files to replace english expression.
 
 ### <a name="method-renderRequiredFields"></a>renderRequiredFields
 
-    string HelperCore::renderRequiredFields(string $class_name, string $identifier, array $table_fields)
+```php
+string HelperCore::renderRequiredFields(string $class_name, string $identifier, array $table_fields)
+```
 
 Render a form with potentials required fields
 
@@ -423,7 +475,9 @@ Render a form with potentials required fields
 
 ### <a name="method-renderShopList"></a>renderShopList
 
-    string HelperCore::renderShopList()
+```php
+string HelperCore::renderShopList()
+```
 
 Render shop list
 
@@ -438,7 +492,9 @@ Render shop list
 
 ### <a name="method-setTpl"></a>setTpl
 
-    mixed HelperCore::setTpl($tpl)
+```php
+mixed HelperCore::setTpl($tpl)
+```
 
 
 

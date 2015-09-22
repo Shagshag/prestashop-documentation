@@ -24,11 +24,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Core/Foundation/Exception/Core_Foundation_Exception_Exception.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Exception/Core_Foundation_Exception_Exception.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 
 
@@ -42,7 +44,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed Core_Foundation_Exception_Exception::__construct($message, $code, \Exception $previous)
+```php
+mixed Core_Foundation_Exception_Exception::__construct($message, $code, \Exception $previous)
+```
 
 
 

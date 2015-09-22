@@ -10,9 +10,11 @@ Class HTMLTemplateCore
 * Source: [classes/pdf/HTMLTemplate.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$available_in_your_account](#property-$available_in_your_account)
 * [$date](#property-$date)
@@ -20,8 +22,8 @@ Properties
 * [$smarty](#property-$smarty)
 * [$title](#property-$title)
 
-Methods
--------
+### Methods
+
 * [assignCommonHeaderData](#method-assignCommonHeaderData)
 * [assignHookData](#method-assignHookData)
 * [getBulkFilename](#method-getBulkFilename)
@@ -44,7 +46,9 @@ Properties
 
 ### <a name="property-$available_in_your_account"></a>$available_in_your_account
 
-    public mixed $available_in_your_account = true
+```php
+public mixed $available_in_your_account = true
+```
 
 
 
@@ -56,7 +60,9 @@ Properties
 
 ### <a name="property-$date"></a>$date
 
-    public mixed $date
+```php
+public mixed $date
+```
 
 
 
@@ -68,7 +74,9 @@ Properties
 
 ### <a name="property-$shop"></a>$shop
 
-    public \Shop $shop
+```php
+public \Shop $shop
+```
 
 
 
@@ -80,7 +88,9 @@ Properties
 
 ### <a name="property-$smarty"></a>$smarty
 
-    public \Smarty $smarty
+```php
+public \Smarty $smarty
+```
 
 
 
@@ -92,7 +102,9 @@ Properties
 
 ### <a name="property-$title"></a>$title
 
-    public mixed $title
+```php
+public mixed $title
+```
 
 
 
@@ -108,7 +120,9 @@ Methods
 
 ### <a name="method-assignCommonHeaderData"></a>assignCommonHeaderData
 
-    mixed HTMLTemplateCore::assignCommonHeaderData()
+```php
+mixed HTMLTemplateCore::assignCommonHeaderData()
+```
 
 Assign common header data to smarty variables
 
@@ -122,7 +136,9 @@ Assign common header data to smarty variables
 
 ### <a name="method-assignHookData"></a>assignHookData
 
-    mixed HTMLTemplateCore::assignHookData(\ObjectModel $object)
+```php
+mixed HTMLTemplateCore::assignHookData(\ObjectModel $object)
+```
 
 Assign hook data
 
@@ -139,7 +155,9 @@ Assign hook data
 
 ### <a name="method-getBulkFilename"></a>getBulkFilename
 
-    string HTMLTemplateCore::getBulkFilename()
+```php
+string HTMLTemplateCore::getBulkFilename()
+```
 
 Returns the template filename when using bulk rendering
 
@@ -154,7 +172,9 @@ Returns the template filename when using bulk rendering
 
 ### <a name="method-getContent"></a>getContent
 
-    string HTMLTemplateCore::getContent()
+```php
+string HTMLTemplateCore::getContent()
+```
 
 Returns the template's HTML content
 
@@ -169,7 +189,9 @@ Returns the template's HTML content
 
 ### <a name="method-getFilename"></a>getFilename
 
-    string HTMLTemplateCore::getFilename()
+```php
+string HTMLTemplateCore::getFilename()
+```
 
 Returns the template filename
 
@@ -184,7 +206,9 @@ Returns the template filename
 
 ### <a name="method-getFooter"></a>getFooter
 
-    string HTMLTemplateCore::getFooter()
+```php
+string HTMLTemplateCore::getFooter()
+```
 
 Returns the template's HTML footer
 
@@ -198,7 +222,9 @@ Returns the template's HTML footer
 
 ### <a name="method-getHeader"></a>getHeader
 
-    string HTMLTemplateCore::getHeader()
+```php
+string HTMLTemplateCore::getHeader()
+```
 
 Returns the template's HTML header
 
@@ -212,7 +238,9 @@ Returns the template's HTML header
 
 ### <a name="method-getLogo"></a>getLogo
 
-    mixed HTMLTemplateCore::getLogo()
+```php
+mixed HTMLTemplateCore::getLogo()
+```
 
 Returns the invoice logo
 
@@ -226,7 +254,9 @@ Returns the invoice logo
 
 ### <a name="method-getShopAddress"></a>getShopAddress
 
-    string HTMLTemplateCore::getShopAddress()
+```php
+string HTMLTemplateCore::getShopAddress()
+```
 
 Returns the shop address
 
@@ -240,7 +270,9 @@ Returns the shop address
 
 ### <a name="method-getTemplate"></a>getTemplate
 
-    string HTMLTemplateCore::getTemplate($template_name)
+```php
+string HTMLTemplateCore::getTemplate($template_name)
+```
 
 If the template is not present in the theme directory, it will return the default template
 in _PS_PDF_DIR_ directory
@@ -258,7 +290,9 @@ in _PS_PDF_DIR_ directory
 
 ### <a name="method-l"></a>l
 
-    string HTMLTemplateCore::l(string $string)
+```php
+string HTMLTemplateCore::l(string $string)
+```
 
 Translation method
 
@@ -276,7 +310,9 @@ Translation method
 
 ### <a name="method-setShopId"></a>setShopId
 
-    mixed HTMLTemplateCore::setShopId()
+```php
+mixed HTMLTemplateCore::setShopId()
+```
 
 
 

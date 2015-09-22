@@ -10,9 +10,11 @@ Class ShopGroupCore
 * Source: [classes/shop/ShopGroup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$definition](#property-$definition)
@@ -22,8 +24,8 @@ Properties
 * [$share_order](#property-$share_order)
 * [$share_stock](#property-$share_stock)
 
-Methods
--------
+### Methods
+
 * [getFields](#method-getFields)
 * [getIdByName](#method-getIdByName)
 * [getShopGroups](#method-getShopGroups)
@@ -43,7 +45,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public mixed $active = true
+```php
+public mixed $active = true
+```
 
 
 
@@ -55,7 +59,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'shop_group', 'primary' => 'id_shop_group', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'share_customer' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'share_order' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'share_stock' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```php
+public mixed $definition = array('table' => 'shop_group', 'primary' => 'id_shop_group', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'share_customer' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'share_order' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'share_stock' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```
 
 
 
@@ -68,7 +74,9 @@ Properties
 
 ### <a name="property-$deleted"></a>$deleted
 
-    public mixed $deleted
+```php
+public mixed $deleted
+```
 
 
 
@@ -80,7 +88,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -92,7 +102,9 @@ Properties
 
 ### <a name="property-$share_customer"></a>$share_customer
 
-    public mixed $share_customer
+```php
+public mixed $share_customer
+```
 
 
 
@@ -104,7 +116,9 @@ Properties
 
 ### <a name="property-$share_order"></a>$share_order
 
-    public mixed $share_order
+```php
+public mixed $share_order
+```
 
 
 
@@ -116,7 +130,9 @@ Properties
 
 ### <a name="property-$share_stock"></a>$share_stock
 
-    public mixed $share_stock
+```php
+public mixed $share_stock
+```
 
 
 
@@ -132,7 +148,9 @@ Methods
 
 ### <a name="method-getFields"></a>getFields
 
-    array ShopGroupCore::getFields()
+```php
+array ShopGroupCore::getFields()
+```
 
 
 
@@ -146,7 +164,9 @@ Methods
 
 ### <a name="method-getIdByName"></a>getIdByName
 
-    integer ShopGroupCore::getIdByName(string $name)
+```php
+integer ShopGroupCore::getIdByName(string $name)
+```
 
 Return a group shop ID from group shop name
 
@@ -164,7 +184,9 @@ Return a group shop ID from group shop name
 
 ### <a name="method-getShopGroups"></a>getShopGroups
 
-    mixed ShopGroupCore::getShopGroups($active)
+```php
+mixed ShopGroupCore::getShopGroups($active)
+```
 
 
 
@@ -182,7 +204,9 @@ Return a group shop ID from group shop name
 
 ### <a name="method-getShopsFromGroup"></a>getShopsFromGroup
 
-    mixed ShopGroupCore::getShopsFromGroup($id_group)
+```php
+mixed ShopGroupCore::getShopsFromGroup($id_group)
+```
 
 
 
@@ -200,7 +224,9 @@ Return a group shop ID from group shop name
 
 ### <a name="method-getTotalShopGroup"></a>getTotalShopGroup
 
-    integer ShopGroupCore::getTotalShopGroup($active)
+```php
+integer ShopGroupCore::getTotalShopGroup($active)
+```
 
 
 
@@ -218,7 +244,9 @@ Return a group shop ID from group shop name
 
 ### <a name="method-getTotalShops"></a>getTotalShops
 
-    mixed ShopGroupCore::getTotalShops()
+```php
+mixed ShopGroupCore::getTotalShops()
+```
 
 
 
@@ -232,7 +260,9 @@ Return a group shop ID from group shop name
 
 ### <a name="method-hasDependency"></a>hasDependency
 
-    boolean ShopGroupCore::hasDependency(integer $id_shop_group, string $check)
+```php
+boolean ShopGroupCore::hasDependency(integer $id_shop_group, string $check)
+```
 
 Detect dependency with customer or orders
 
@@ -251,7 +281,9 @@ Detect dependency with customer or orders
 
 ### <a name="method-haveShops"></a>haveShops
 
-    mixed ShopGroupCore::haveShops()
+```php
+mixed ShopGroupCore::haveShops()
+```
 
 
 
@@ -265,7 +297,9 @@ Detect dependency with customer or orders
 
 ### <a name="method-shopNameExists"></a>shopNameExists
 
-    mixed ShopGroupCore::shopNameExists($name, $id_shop)
+```php
+mixed ShopGroupCore::shopNameExists($name, $id_shop)
+```
 
 
 

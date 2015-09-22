@@ -24,11 +24,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Adapter/Adapter_Exception.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_Exception.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 
 
@@ -42,7 +44,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed Adapter_Exception::__construct($message, $code, \Exception $previous)
+```php
+mixed Adapter_Exception::__construct($message, $code, \Exception $previous)
+```
 
 
 

@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Adapter/Adapter_Configuration.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_Configuration.php#L27)
 * This class implements: [Core_Business_ConfigurationInterface](interface.Core_Business_ConfigurationInterface.md)
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [get](#method-get)
 
 
@@ -41,7 +43,9 @@ Methods
 
 ### <a name="method-get"></a>get
 
-    mixed Adapter_Configuration::get($key)
+```php
+mixed Adapter_Configuration::get($key)
+```
 
 Returns constant defined by given $key if exists or check directly into PrestaShop
 Configuration

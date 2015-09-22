@@ -10,15 +10,17 @@ Class AdminBackupControllerCore
 * Source: [controllers/admin/AdminBackupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 * [$sort_by](#property-$sort_by)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getList](#method-getList)
 * [initContent](#method-initContent)
@@ -40,7 +42,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \PrestaShopBackup $object
+```php
+public \PrestaShopBackup $object
+```
 
 
 
@@ -52,7 +56,9 @@ Properties
 
 ### <a name="property-$sort_by"></a>$sort_by
 
-    protected string $sort_by = 'date'
+```php
+protected string $sort_by = 'date'
+```
 
 
 
@@ -68,7 +74,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminBackupControllerCore::__construct()
+```php
+mixed AdminBackupControllerCore::__construct()
+```
 
 
 
@@ -82,7 +90,9 @@ Methods
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminBackupControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```php
+mixed AdminBackupControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```
 
 
 
@@ -104,7 +114,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminBackupControllerCore::initContent()
+```php
+mixed AdminBackupControllerCore::initContent()
+```
 
 
 
@@ -118,7 +130,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminBackupControllerCore::initToolbar()
+```php
+mixed AdminBackupControllerCore::initToolbar()
+```
 
 
 
@@ -132,7 +146,9 @@ Methods
 
 ### <a name="method-initViewDownload"></a>initViewDownload
 
-    mixed AdminBackupControllerCore::initViewDownload()
+```php
+mixed AdminBackupControllerCore::initViewDownload()
+```
 
 
 
@@ -146,7 +162,9 @@ Methods
 
 ### <a name="method-intSort"></a>intSort
 
-    mixed AdminBackupControllerCore::intSort($a, $b)
+```php
+mixed AdminBackupControllerCore::intSort($a, $b)
+```
 
 
 
@@ -164,7 +182,9 @@ Methods
 
 ### <a name="method-loadObject"></a>loadObject
 
-    object AdminBackupControllerCore::loadObject(boolean $opt)
+```php
+object AdminBackupControllerCore::loadObject(boolean $opt)
+```
 
 Load class object using identifier in $_GET (if possible)
 otherwise return an empty object
@@ -184,7 +204,9 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminBackupControllerCore::postProcess()
+```php
+mixed AdminBackupControllerCore::postProcess()
+```
 
 
 
@@ -198,7 +220,9 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminBackupControllerCore::renderList()
+```php
+mixed AdminBackupControllerCore::renderList()
+```
 
 
 
@@ -212,7 +236,9 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminBackupControllerCore::renderView()
+```php
+mixed AdminBackupControllerCore::renderView()
+```
 
 
 
@@ -226,7 +252,9 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 ### <a name="method-strSort"></a>strSort
 
-    mixed AdminBackupControllerCore::strSort($a, $b)
+```php
+mixed AdminBackupControllerCore::strSort($a, $b)
+```
 
 
 

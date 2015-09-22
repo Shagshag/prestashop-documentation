@@ -10,15 +10,17 @@ Class AdminTabsControllerCore
 * Source: [controllers/admin/AdminTabsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 * [$position_identifier](#property-$position_identifier)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterImageUpload](#method-afterImageUpload)
 * [ajaxProcessUpdatePositions](#method-ajaxProcessUpdatePositions)
@@ -38,7 +40,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Tab $object
+```php
+public \Tab $object
+```
 
 
 
@@ -50,7 +54,9 @@ Properties
 
 ### <a name="property-$position_identifier"></a>$position_identifier
 
-    protected mixed $position_identifier = 'id_tab'
+```php
+protected mixed $position_identifier = 'id_tab'
+```
 
 
 
@@ -66,7 +72,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminTabsControllerCore::__construct()
+```php
+mixed AdminTabsControllerCore::__construct()
+```
 
 
 
@@ -80,7 +88,9 @@ Methods
 
 ### <a name="method-afterImageUpload"></a>afterImageUpload
 
-    mixed AdminTabsControllerCore::afterImageUpload()
+```php
+mixed AdminTabsControllerCore::afterImageUpload()
+```
 
 
 
@@ -94,7 +104,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdatePositions"></a>ajaxProcessUpdatePositions
 
-    mixed AdminTabsControllerCore::ajaxProcessUpdatePositions()
+```php
+mixed AdminTabsControllerCore::ajaxProcessUpdatePositions()
+```
 
 
 
@@ -108,7 +120,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminTabsControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminTabsControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -122,7 +136,9 @@ Methods
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminTabsControllerCore::initProcess()
+```php
+mixed AdminTabsControllerCore::initProcess()
+```
 
 
 
@@ -136,7 +152,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminTabsControllerCore::postProcess()
+```php
+mixed AdminTabsControllerCore::postProcess()
+```
 
 
 
@@ -150,7 +168,9 @@ Methods
 
 ### <a name="method-renderDetails"></a>renderDetails
 
-    mixed AdminTabsControllerCore::renderDetails()
+```php
+mixed AdminTabsControllerCore::renderDetails()
+```
 
 
 
@@ -164,7 +184,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminTabsControllerCore::renderForm()
+```php
+mixed AdminTabsControllerCore::renderForm()
+```
 
 AdminController::renderForm() override
 
@@ -178,7 +200,9 @@ AdminController::renderForm() override
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminTabsControllerCore::renderList()
+```php
+mixed AdminTabsControllerCore::renderList()
+```
 
 AdminController::renderList() override
 

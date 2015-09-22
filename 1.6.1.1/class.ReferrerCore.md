@@ -10,9 +10,11 @@ Class ReferrerCore
 * Source: [classes/Referrer.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_join](#property-$_join)
 * [$base_fee](#property-$base_fee)
@@ -32,8 +34,8 @@ Properties
 * [$request_uri_regexp](#property-$request_uri_regexp)
 * [$request_uri_regexp_not](#property-$request_uri_regexp_not)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [cacheNewSource](#method-cacheNewSource)
 * [getAjaxProduct](#method-getAjaxProduct)
@@ -53,7 +55,8 @@ Properties
 
 ### <a name="property-$_join"></a>$_join
 
-    protected mixed $_join = '(r.http_referer_like IS NULL OR r.http_referer_like = \'\' OR cs.http_referer LIKE r.http_referer_like)
+```php
+protected mixed $_join = '(r.http_referer_like IS NULL OR r.http_referer_like = \'\' OR cs.http_referer LIKE r.http_referer_like)
 			AND (r.request_uri_like IS NULL OR r.request_uri_like = \'\' OR cs.request_uri LIKE r.request_uri_like)
 			AND (r.http_referer_like_not IS NULL OR r.http_referer_like_not = \'\' OR cs.http_referer NOT LIKE r.http_referer_like_not)
 			AND (r.request_uri_like_not IS NULL OR r.request_uri_like_not = \'\' OR cs.request_uri NOT LIKE r.request_uri_like_not)
@@ -61,6 +64,7 @@ Properties
 			AND (r.request_uri_regexp IS NULL OR r.request_uri_regexp = \'\' OR cs.request_uri REGEXP r.request_uri_regexp)
 			AND (r.http_referer_regexp_not IS NULL OR r.http_referer_regexp_not = \'\' OR cs.http_referer NOT REGEXP r.http_referer_regexp_not)
 			AND (r.request_uri_regexp_not IS NULL OR r.request_uri_regexp_not = \'\' OR cs.request_uri NOT REGEXP r.request_uri_regexp_not)'
+```
 
 
 
@@ -73,7 +77,9 @@ Properties
 
 ### <a name="property-$base_fee"></a>$base_fee
 
-    public mixed $base_fee
+```php
+public mixed $base_fee
+```
 
 
 
@@ -85,7 +91,9 @@ Properties
 
 ### <a name="property-$click_fee"></a>$click_fee
 
-    public mixed $click_fee
+```php
+public mixed $click_fee
+```
 
 
 
@@ -97,7 +105,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public mixed $date_add
+```php
+public mixed $date_add
+```
 
 
 
@@ -109,7 +119,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'referrer', 'primary' => 'id_referrer', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'passwd' => array('type' => self::TYPE_STRING, 'validate' => 'isPasswd', 'size' => 32), 'http_referer_regexp' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 64), 'request_uri_regexp' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 64), 'http_referer_like' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 64), 'request_uri_like' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 64), 'http_referer_regexp_not' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml'), 'request_uri_regexp_not' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml'), 'http_referer_like_not' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml'), 'request_uri_like_not' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml'), 'base_fee' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'percent_fee' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPercentage'), 'click_fee' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'referrer', 'primary' => 'id_referrer', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'passwd' => array('type' => self::TYPE_STRING, 'validate' => 'isPasswd', 'size' => 32), 'http_referer_regexp' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 64), 'request_uri_regexp' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 64), 'http_referer_like' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 64), 'request_uri_like' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 64), 'http_referer_regexp_not' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml'), 'request_uri_regexp_not' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml'), 'http_referer_like_not' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml'), 'request_uri_like_not' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml'), 'base_fee' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'percent_fee' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPercentage'), 'click_fee' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -122,7 +134,9 @@ Properties
 
 ### <a name="property-$http_referer_like"></a>$http_referer_like
 
-    public mixed $http_referer_like
+```php
+public mixed $http_referer_like
+```
 
 
 
@@ -134,7 +148,9 @@ Properties
 
 ### <a name="property-$http_referer_like_not"></a>$http_referer_like_not
 
-    public mixed $http_referer_like_not
+```php
+public mixed $http_referer_like_not
+```
 
 
 
@@ -146,7 +162,9 @@ Properties
 
 ### <a name="property-$http_referer_regexp"></a>$http_referer_regexp
 
-    public mixed $http_referer_regexp
+```php
+public mixed $http_referer_regexp
+```
 
 
 
@@ -158,7 +176,9 @@ Properties
 
 ### <a name="property-$http_referer_regexp_not"></a>$http_referer_regexp_not
 
-    public mixed $http_referer_regexp_not
+```php
+public mixed $http_referer_regexp_not
+```
 
 
 
@@ -170,7 +190,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public mixed $id_shop
+```php
+public mixed $id_shop
+```
 
 
 
@@ -182,7 +204,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -194,7 +218,9 @@ Properties
 
 ### <a name="property-$passwd"></a>$passwd
 
-    public mixed $passwd
+```php
+public mixed $passwd
+```
 
 
 
@@ -206,7 +232,9 @@ Properties
 
 ### <a name="property-$percent_fee"></a>$percent_fee
 
-    public mixed $percent_fee
+```php
+public mixed $percent_fee
+```
 
 
 
@@ -218,7 +246,9 @@ Properties
 
 ### <a name="property-$request_uri_like"></a>$request_uri_like
 
-    public mixed $request_uri_like
+```php
+public mixed $request_uri_like
+```
 
 
 
@@ -230,7 +260,9 @@ Properties
 
 ### <a name="property-$request_uri_like_not"></a>$request_uri_like_not
 
-    public mixed $request_uri_like_not
+```php
+public mixed $request_uri_like_not
+```
 
 
 
@@ -242,7 +274,9 @@ Properties
 
 ### <a name="property-$request_uri_regexp"></a>$request_uri_regexp
 
-    public mixed $request_uri_regexp
+```php
+public mixed $request_uri_regexp
+```
 
 
 
@@ -254,7 +288,9 @@ Properties
 
 ### <a name="property-$request_uri_regexp_not"></a>$request_uri_regexp_not
 
-    public mixed $request_uri_regexp_not
+```php
+public mixed $request_uri_regexp_not
+```
 
 
 
@@ -270,7 +306,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed ReferrerCore::add($autodate, $null_values)
+```php
+mixed ReferrerCore::add($autodate, $null_values)
+```
 
 
 
@@ -288,7 +326,9 @@ Methods
 
 ### <a name="method-cacheNewSource"></a>cacheNewSource
 
-    mixed ReferrerCore::cacheNewSource($id_connections_source)
+```php
+mixed ReferrerCore::cacheNewSource($id_connections_source)
+```
 
 
 
@@ -306,7 +346,9 @@ Methods
 
 ### <a name="method-getAjaxProduct"></a>getAjaxProduct
 
-    mixed ReferrerCore::getAjaxProduct($id_referrer, $id_product, $employee)
+```php
+mixed ReferrerCore::getAjaxProduct($id_referrer, $id_product, $employee)
+```
 
 
 
@@ -326,7 +368,9 @@ Methods
 
 ### <a name="method-getReferrers"></a>getReferrers
 
-    mixed ReferrerCore::getReferrers(integer $id_customer)
+```php
+mixed ReferrerCore::getReferrers(integer $id_customer)
+```
 
 Get list of referrers connections of a customer
 
@@ -344,7 +388,9 @@ Get list of referrers connections of a customer
 
 ### <a name="method-getRegistrations"></a>getRegistrations
 
-    mixed ReferrerCore::getRegistrations(integer $id_product, integer $employee)
+```php
+mixed ReferrerCore::getRegistrations(integer $id_product, integer $employee)
+```
 
 Get some statistics on customers registrations for current referrer
 
@@ -362,7 +408,9 @@ Get some statistics on customers registrations for current referrer
 
 ### <a name="method-getStatsSales"></a>getStatsSales
 
-    mixed ReferrerCore::getStatsSales(integer $id_product, integer $employee)
+```php
+mixed ReferrerCore::getStatsSales(integer $id_product, integer $employee)
+```
 
 Get some statistics on orders for current referrer
 
@@ -380,7 +428,9 @@ Get some statistics on orders for current referrer
 
 ### <a name="method-getStatsVisits"></a>getStatsVisits
 
-    mixed ReferrerCore::getStatsVisits(integer $id_product, integer $employee)
+```php
+mixed ReferrerCore::getStatsVisits(integer $id_product, integer $employee)
+```
 
 Get some statistics on visitors connection for current referrer
 
@@ -398,7 +448,9 @@ Get some statistics on visitors connection for current referrer
 
 ### <a name="method-refreshCache"></a>refreshCache
 
-    true ReferrerCore::refreshCache(array $referrers, integer $employee)
+```php
+true ReferrerCore::refreshCache(array $referrers, integer $employee)
+```
 
 Refresh cache data of referrer statistics in referrer_shop table
 
@@ -417,7 +469,9 @@ Refresh cache data of referrer statistics in referrer_shop table
 
 ### <a name="method-refreshIndex"></a>refreshIndex
 
-    mixed ReferrerCore::refreshIndex(array $referrers)
+```php
+mixed ReferrerCore::refreshIndex(array $referrers)
+```
 
 Cache liaison between connections_source data and referrers data
 

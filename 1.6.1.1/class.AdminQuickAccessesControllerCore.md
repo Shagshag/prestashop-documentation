@@ -10,14 +10,16 @@ Class AdminQuickAccessesControllerCore
 * Source: [controllers/admin/AdminQuickAccessesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [addQuickLink](#method-addQuickLink)
 * [ajaxProcessGetUrl](#method-ajaxProcessGetUrl)
@@ -37,7 +39,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \QuickAccess $object
+```php
+public \QuickAccess $object
+```
 
 
 
@@ -53,7 +57,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminQuickAccessesControllerCore::__construct()
+```php
+mixed AdminQuickAccessesControllerCore::__construct()
+```
 
 
 
@@ -67,7 +73,9 @@ Methods
 
 ### <a name="method-addQuickLink"></a>addQuickLink
 
-    mixed AdminQuickAccessesControllerCore::addQuickLink()
+```php
+mixed AdminQuickAccessesControllerCore::addQuickLink()
+```
 
 
 
@@ -81,7 +89,9 @@ Methods
 
 ### <a name="method-ajaxProcessGetUrl"></a>ajaxProcessGetUrl
 
-    mixed AdminQuickAccessesControllerCore::ajaxProcessGetUrl()
+```php
+mixed AdminQuickAccessesControllerCore::ajaxProcessGetUrl()
+```
 
 
 
@@ -95,7 +105,9 @@ Methods
 
 ### <a name="method-getLinkToken"></a>getLinkToken
 
-    mixed AdminQuickAccessesControllerCore::getLinkToken($item)
+```php
+mixed AdminQuickAccessesControllerCore::getLinkToken($item)
+```
 
 
 
@@ -112,7 +124,9 @@ Methods
 
 ### <a name="method-getQuickAccessesList"></a>getQuickAccessesList
 
-    mixed AdminQuickAccessesControllerCore::getQuickAccessesList()
+```php
+mixed AdminQuickAccessesControllerCore::getQuickAccessesList()
+```
 
 
 
@@ -126,7 +140,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminQuickAccessesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminQuickAccessesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -140,7 +156,9 @@ Methods
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminQuickAccessesControllerCore::initProcess()
+```php
+mixed AdminQuickAccessesControllerCore::initProcess()
+```
 
 
 
@@ -154,7 +172,9 @@ Methods
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminQuickAccessesControllerCore::processDelete()
+```php
+mixed AdminQuickAccessesControllerCore::processDelete()
+```
 
 
 
@@ -168,7 +188,9 @@ Methods
 
 ### <a name="method-processNewWindow"></a>processNewWindow
 
-    mixed AdminQuickAccessesControllerCore::processNewWindow()
+```php
+mixed AdminQuickAccessesControllerCore::processNewWindow()
+```
 
 
 

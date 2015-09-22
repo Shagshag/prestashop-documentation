@@ -23,14 +23,16 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$db](#property-$db)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [buildWhereConditions](#method-buildWhereConditions)
 * [quote](#method-quote)
@@ -44,7 +46,9 @@ Properties
 
 ### <a name="property-$db"></a>$db
 
-    private mixed $db
+```php
+private mixed $db
+```
 
 
 
@@ -60,7 +64,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed Core_Foundation_Database_EntityManager_QueryBuilder::__construct(\Core_Foundation_Database_DatabaseInterface $db)
+```php
+mixed Core_Foundation_Database_EntityManager_QueryBuilder::__construct(\Core_Foundation_Database_DatabaseInterface $db)
+```
 
 
 
@@ -77,7 +83,9 @@ Methods
 
 ### <a name="method-buildWhereConditions"></a>buildWhereConditions
 
-    mixed Core_Foundation_Database_EntityManager_QueryBuilder::buildWhereConditions($andOrOr, array $conditions)
+```php
+mixed Core_Foundation_Database_EntityManager_QueryBuilder::buildWhereConditions($andOrOr, array $conditions)
+```
 
 
 
@@ -95,7 +103,9 @@ Methods
 
 ### <a name="method-quote"></a>quote
 
-    mixed Core_Foundation_Database_EntityManager_QueryBuilder::quote($value)
+```php
+mixed Core_Foundation_Database_EntityManager_QueryBuilder::quote($value)
+```
 
 
 

@@ -10,9 +10,11 @@ Class ProductDownloadCore
 * Source: [classes/ProductDownload.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_productIds](#property-$_productIds)
 * [$active](#property-$active)
@@ -26,8 +28,8 @@ Properties
 * [$nb_days_accessible](#property-$nb_days_accessible)
 * [$nb_downloadable](#property-$nb_downloadable)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [checkFile](#method-checkFile)
@@ -56,7 +58,9 @@ Properties
 
 ### <a name="property-$_productIds"></a>$_productIds
 
-    protected mixed $_productIds = array()
+```php
+protected mixed $_productIds = array()
+```
 
 
 
@@ -69,7 +73,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = 1
+```php
+public boolean $active = 1
+```
 
 
 
@@ -81,7 +87,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -93,7 +101,9 @@ Properties
 
 ### <a name="property-$date_expiration"></a>$date_expiration
 
-    public string $date_expiration
+```php
+public string $date_expiration
+```
 
 
 
@@ -105,7 +115,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'product_download', 'primary' => 'id_product_download', 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'display_filename' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 255), 'filename' => array('type' => self::TYPE_STRING, 'validate' => 'isSha1', 'size' => 255), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_expiration' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'nb_days_accessible' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'size' => 10), 'nb_downloadable' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'size' => 10), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'is_shareable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```php
+public mixed $definition = array('table' => 'product_download', 'primary' => 'id_product_download', 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'display_filename' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 255), 'filename' => array('type' => self::TYPE_STRING, 'validate' => 'isSha1', 'size' => 255), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_expiration' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'nb_days_accessible' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'size' => 10), 'nb_downloadable' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'size' => 10), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'is_shareable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```
 
 
 
@@ -118,7 +130,9 @@ Properties
 
 ### <a name="property-$display_filename"></a>$display_filename
 
-    public string $display_filename
+```php
+public string $display_filename
+```
 
 
 
@@ -130,7 +144,9 @@ Properties
 
 ### <a name="property-$filename"></a>$filename
 
-    public string $filename
+```php
+public string $filename
+```
 
 
 
@@ -142,7 +158,9 @@ Properties
 
 ### <a name="property-$id_product"></a>$id_product
 
-    public integer $id_product
+```php
+public integer $id_product
+```
 
 
 
@@ -154,7 +172,9 @@ Properties
 
 ### <a name="property-$is_shareable"></a>$is_shareable
 
-    public boolean $is_shareable
+```php
+public boolean $is_shareable
+```
 
 
 
@@ -166,7 +186,9 @@ Properties
 
 ### <a name="property-$nb_days_accessible"></a>$nb_days_accessible
 
-    public string $nb_days_accessible
+```php
+public string $nb_days_accessible
+```
 
 
 
@@ -178,7 +200,9 @@ Properties
 
 ### <a name="property-$nb_downloadable"></a>$nb_downloadable
 
-    public string $nb_downloadable
+```php
+public string $nb_downloadable
+```
 
 
 
@@ -194,7 +218,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ProductDownloadCore::__construct(integer $id_product_download)
+```php
+mixed ProductDownloadCore::__construct(integer $id_product_download)
+```
 
 Build a virtual product
 
@@ -211,7 +237,9 @@ Build a virtual product
 
 ### <a name="method-add"></a>add
 
-    mixed ProductDownloadCore::add($autodate, $null_values)
+```php
+mixed ProductDownloadCore::add($autodate, $null_values)
+```
 
 
 
@@ -229,7 +257,9 @@ Build a virtual product
 
 ### <a name="method-checkFile"></a>checkFile
 
-    boolean ProductDownloadCore::checkFile()
+```php
+boolean ProductDownloadCore::checkFile()
+```
 
 Check if file exists
 
@@ -243,7 +273,9 @@ Check if file exists
 
 ### <a name="method-checkWritableDir"></a>checkWritableDir
 
-    boolean ProductDownloadCore::checkWritableDir()
+```php
+boolean ProductDownloadCore::checkWritableDir()
+```
 
 Check if download repository is writable
 
@@ -258,7 +290,9 @@ Check if download repository is writable
 
 ### <a name="method-delete"></a>delete
 
-    mixed ProductDownloadCore::delete($delete_file)
+```php
+mixed ProductDownloadCore::delete($delete_file)
+```
 
 
 
@@ -275,7 +309,9 @@ Check if download repository is writable
 
 ### <a name="method-deleteFile"></a>deleteFile
 
-    boolean ProductDownloadCore::deleteFile(integer $id_product_download)
+```php
+boolean ProductDownloadCore::deleteFile(integer $id_product_download)
+```
 
 Delete the file
 
@@ -292,7 +328,9 @@ Delete the file
 
 ### <a name="method-getDeadline"></a>getDeadline
 
-    string ProductDownloadCore::getDeadline()
+```php
+string ProductDownloadCore::getDeadline()
+```
 
 Return a deadline
 
@@ -306,7 +344,9 @@ Return a deadline
 
 ### <a name="method-getFields"></a>getFields
 
-    array ProductDownloadCore::getFields()
+```php
+array ProductDownloadCore::getFields()
+```
 
 
 
@@ -320,7 +360,9 @@ Return a deadline
 
 ### <a name="method-getFilenameFromFilename"></a>getFilenameFromFilename
 
-    string ProductDownloadCore::getFilenameFromFilename(string $filename)
+```php
+string ProductDownloadCore::getFilenameFromFilename(string $filename)
+```
 
 Return the display filename from a physical filename
 
@@ -338,7 +380,9 @@ Return the display filename from a physical filename
 
 ### <a name="method-getFilenameFromIdProduct"></a>getFilenameFromIdProduct
 
-    string ProductDownloadCore::getFilenameFromIdProduct(integer $id_product)
+```php
+string ProductDownloadCore::getFilenameFromIdProduct(integer $id_product)
+```
 
 Return the filename from an id_product
 
@@ -356,7 +400,9 @@ Return the filename from an id_product
 
 ### <a name="method-getHash"></a>getHash
 
-    string ProductDownloadCore::getHash()
+```php
+string ProductDownloadCore::getHash()
+```
 
 Return a hash for control download access
 
@@ -370,7 +416,9 @@ Return a hash for control download access
 
 ### <a name="method-getHtmlLink"></a>getHtmlLink
 
-    string ProductDownloadCore::getHtmlLink(string $class, boolean $admin, boolean $hash)
+```php
+string ProductDownloadCore::getHtmlLink(string $class, boolean $admin, boolean $hash)
+```
 
 Return html link
 
@@ -389,7 +437,9 @@ Return html link
 
 ### <a name="method-getIdFromFilename"></a>getIdFromFilename
 
-    integer ProductDownloadCore::getIdFromFilename(string $filename)
+```php
+integer ProductDownloadCore::getIdFromFilename(string $filename)
+```
 
 Return the display filename from a physical filename
 
@@ -407,7 +457,9 @@ Return the display filename from a physical filename
 
 ### <a name="method-getIdFromIdProduct"></a>getIdFromIdProduct
 
-    integer ProductDownloadCore::getIdFromIdProduct(integer $id_product)
+```php
+integer ProductDownloadCore::getIdFromIdProduct(integer $id_product)
+```
 
 Return the id_product_download from an id_product
 
@@ -425,7 +477,9 @@ Return the id_product_download from an id_product
 
 ### <a name="method-getNewFilename"></a>getNewFilename
 
-    string ProductDownloadCore::getNewFilename()
+```php
+string ProductDownloadCore::getNewFilename()
+```
 
 Return a sha1 filename
 
@@ -440,7 +494,9 @@ Return a sha1 filename
 
 ### <a name="method-getTextLink"></a>getTextLink
 
-    string ProductDownloadCore::getTextLink(boolean $admin, string $hash)
+```php
+string ProductDownloadCore::getTextLink(boolean $admin, string $hash)
+```
 
 Return html link
 
@@ -458,7 +514,9 @@ Return html link
 
 ### <a name="method-isFeatureActive"></a>isFeatureActive
 
-    boolean ProductDownloadCore::isFeatureActive()
+```php
+boolean ProductDownloadCore::isFeatureActive()
+```
 
 This method is allow to know if a feature is used or active
 
@@ -473,7 +531,9 @@ This method is allow to know if a feature is used or active
 
 ### <a name="method-update"></a>update
 
-    mixed ProductDownloadCore::update($null_values)
+```php
+mixed ProductDownloadCore::update($null_values)
+```
 
 
 

@@ -10,14 +10,16 @@ Class AdminProfilesControllerCore
 * Source: [controllers/admin/AdminProfilesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProfilesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
 * [postProcess](#method-postProcess)
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Profile $object
+```php
+public \Profile $object
+```
 
 
 
@@ -47,7 +51,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminProfilesControllerCore::__construct()
+```php
+mixed AdminProfilesControllerCore::__construct()
+```
 
 
 
@@ -61,7 +67,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminProfilesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminProfilesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -75,7 +83,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminProfilesControllerCore::postProcess()
+```php
+mixed AdminProfilesControllerCore::postProcess()
+```
 
 
 

@@ -10,16 +10,18 @@ Class StatisticsControllerCore
 * Source: [controllers/front/StatisticsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$display_footer](#property-$display_footer)
 * [$display_header](#property-$display_header)
 * [$param_token](#property-$param_token)
 
-Methods
--------
+### Methods
+
 * [postProcess](#method-postProcess)
 * [processNavigationStats](#method-processNavigationStats)
 * [processPageTime](#method-processPageTime)
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$display_footer"></a>$display_footer
 
-    public mixed $display_footer = false
+```php
+public mixed $display_footer = false
+```
 
 
 
@@ -45,7 +49,9 @@ Properties
 
 ### <a name="property-$display_header"></a>$display_header
 
-    public mixed $display_header = false
+```php
+public mixed $display_header = false
+```
 
 
 
@@ -57,7 +63,9 @@ Properties
 
 ### <a name="property-$param_token"></a>$param_token
 
-    protected mixed $param_token
+```php
+protected mixed $param_token
+```
 
 
 
@@ -73,7 +81,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed StatisticsControllerCore::postProcess()
+```php
+mixed StatisticsControllerCore::postProcess()
+```
 
 
 
@@ -87,7 +97,9 @@ Methods
 
 ### <a name="method-processNavigationStats"></a>processNavigationStats
 
-    mixed StatisticsControllerCore::processNavigationStats()
+```php
+mixed StatisticsControllerCore::processNavigationStats()
+```
 
 Log statistics on navigation (resolution, plugins, etc.)
 
@@ -101,7 +113,9 @@ Log statistics on navigation (resolution, plugins, etc.)
 
 ### <a name="method-processPageTime"></a>processPageTime
 
-    mixed StatisticsControllerCore::processPageTime()
+```php
+mixed StatisticsControllerCore::processPageTime()
+```
 
 Log statistics on time spend on pages
 

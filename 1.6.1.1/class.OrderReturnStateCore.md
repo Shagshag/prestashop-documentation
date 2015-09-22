@@ -10,16 +10,18 @@ Class OrderReturnStateCore
 * Source: [classes/order/OrderReturnState.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$color](#property-$color)
 * [$definition](#property-$definition)
 * [$name](#property-$name)
 
-Methods
--------
+### Methods
+
 * [getOrderReturnStates](#method-getOrderReturnStates)
 
 
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$color"></a>$color
 
-    public string $color
+```php
+public string $color
+```
 
 
 
@@ -43,7 +47,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'order_return_state', 'primary' => 'id_order_return_state', 'multilang' => true, 'fields' => array('color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 64)))
+```php
+public mixed $definition = array('table' => 'order_return_state', 'primary' => 'id_order_return_state', 'multilang' => true, 'fields' => array('color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 64)))
+```
 
 
 
@@ -56,7 +62,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -72,7 +80,9 @@ Methods
 
 ### <a name="method-getOrderReturnStates"></a>getOrderReturnStates
 
-    array OrderReturnStateCore::getOrderReturnStates(integer $id_lang)
+```php
+array OrderReturnStateCore::getOrderReturnStates(integer $id_lang)
+```
 
 Get all available order statuses
 

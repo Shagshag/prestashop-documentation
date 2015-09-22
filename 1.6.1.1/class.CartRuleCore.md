@@ -9,8 +9,11 @@ Class CartRuleCore
 * Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/CartRule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [BO_ORDER_CODE_PREFIX](#constant-BO_ORDER_CODE_PREFIX)
 * [FILTER_ACTION_ALL](#constant-FILTER_ACTION_ALL)
@@ -19,8 +22,7 @@ Constants
 * [FILTER_ACTION_REDUCTION](#constant-FILTER_ACTION_REDUCTION)
 * [FILTER_ACTION_SHIPPING](#constant-FILTER_ACTION_SHIPPING)
 
-Properties
-----------
+### Properties
 
 * [$active](#property-$active)
 * [$carrier_restriction](#property-$carrier_restriction)
@@ -58,8 +60,8 @@ Properties
 * [$reduction_tax](#property-$reduction_tax)
 * [$shop_restriction](#property-$shop_restriction)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [array_uintersect](#method-array_uintersect)
 * [array_uintersect_compare](#method-array_uintersect_compare)
@@ -92,7 +94,9 @@ Constants
 
 ### <a name="constant-BO_ORDER_CODE_PREFIX"></a>BO_ORDER_CODE_PREFIX
 
-    const BO_ORDER_CODE_PREFIX = 'BO_ORDER_'
+```php
+const BO_ORDER_CODE_PREFIX = 'BO_ORDER_'
+```
 
 
 
@@ -103,7 +107,9 @@ Constants
 
 ### <a name="constant-FILTER_ACTION_ALL"></a>FILTER_ACTION_ALL
 
-    const FILTER_ACTION_ALL = 1
+```php
+const FILTER_ACTION_ALL = 1
+```
 
 
 
@@ -114,7 +120,9 @@ Constants
 
 ### <a name="constant-FILTER_ACTION_ALL_NOCAP"></a>FILTER_ACTION_ALL_NOCAP
 
-    const FILTER_ACTION_ALL_NOCAP = 5
+```php
+const FILTER_ACTION_ALL_NOCAP = 5
+```
 
 
 
@@ -125,7 +133,9 @@ Constants
 
 ### <a name="constant-FILTER_ACTION_GIFT"></a>FILTER_ACTION_GIFT
 
-    const FILTER_ACTION_GIFT = 4
+```php
+const FILTER_ACTION_GIFT = 4
+```
 
 
 
@@ -136,7 +146,9 @@ Constants
 
 ### <a name="constant-FILTER_ACTION_REDUCTION"></a>FILTER_ACTION_REDUCTION
 
-    const FILTER_ACTION_REDUCTION = 3
+```php
+const FILTER_ACTION_REDUCTION = 3
+```
 
 
 
@@ -147,7 +159,9 @@ Constants
 
 ### <a name="constant-FILTER_ACTION_SHIPPING"></a>FILTER_ACTION_SHIPPING
 
-    const FILTER_ACTION_SHIPPING = 2
+```php
+const FILTER_ACTION_SHIPPING = 2
+```
 
 
 
@@ -162,7 +176,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public mixed $active = 1
+```php
+public mixed $active = 1
+```
 
 
 
@@ -174,7 +190,9 @@ Properties
 
 ### <a name="property-$carrier_restriction"></a>$carrier_restriction
 
-    public mixed $carrier_restriction
+```php
+public mixed $carrier_restriction
+```
 
 
 
@@ -186,7 +204,9 @@ Properties
 
 ### <a name="property-$cart_rule_restriction"></a>$cart_rule_restriction
 
-    public mixed $cart_rule_restriction
+```php
+public mixed $cart_rule_restriction
+```
 
 
 
@@ -198,7 +218,9 @@ Properties
 
 ### <a name="property-$code"></a>$code
 
-    public mixed $code
+```php
+public mixed $code
+```
 
 
 
@@ -210,7 +232,9 @@ Properties
 
 ### <a name="property-$country_restriction"></a>$country_restriction
 
-    public mixed $country_restriction
+```php
+public mixed $country_restriction
+```
 
 
 
@@ -222,7 +246,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public mixed $date_add
+```php
+public mixed $date_add
+```
 
 
 
@@ -234,7 +260,9 @@ Properties
 
 ### <a name="property-$date_from"></a>$date_from
 
-    public mixed $date_from
+```php
+public mixed $date_from
+```
 
 
 
@@ -246,7 +274,9 @@ Properties
 
 ### <a name="property-$date_to"></a>$date_to
 
-    public mixed $date_to
+```php
+public mixed $date_to
+```
 
 
 
@@ -258,7 +288,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public mixed $date_upd
+```php
+public mixed $date_upd
+```
 
 
 
@@ -270,7 +302,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'cart_rule', 'primary' => 'id_cart_rule', 'multilang' => true, 'fields' => array('id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'date_from' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true), 'date_to' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true), 'description' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 65534), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'quantity_per_user' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'priority' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'partial_use' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'code' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 254), 'minimum_amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'minimum_amount_tax' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'minimum_amount_currency' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'minimum_amount_shipping' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'country_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'carrier_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'group_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'cart_rule_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'product_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'shop_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'free_shipping' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'reduction_percent' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPercentage'), 'reduction_amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'reduction_tax' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'reduction_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'reduction_product' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'gift_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'gift_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'highlight' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 254)))
+```php
+public mixed $definition = array('table' => 'cart_rule', 'primary' => 'id_cart_rule', 'multilang' => true, 'fields' => array('id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'date_from' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true), 'date_to' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true), 'description' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 65534), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'quantity_per_user' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'priority' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'partial_use' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'code' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 254), 'minimum_amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'minimum_amount_tax' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'minimum_amount_currency' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'minimum_amount_shipping' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'country_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'carrier_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'group_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'cart_rule_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'product_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'shop_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'free_shipping' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'reduction_percent' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPercentage'), 'reduction_amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'reduction_tax' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'reduction_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'reduction_product' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'gift_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'gift_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'highlight' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 254)))
+```
 
 
 
@@ -283,7 +317,9 @@ Properties
 
 ### <a name="property-$description"></a>$description
 
-    public mixed $description
+```php
+public mixed $description
+```
 
 
 
@@ -295,7 +331,9 @@ Properties
 
 ### <a name="property-$free_shipping"></a>$free_shipping
 
-    public mixed $free_shipping
+```php
+public mixed $free_shipping
+```
 
 
 
@@ -307,7 +345,9 @@ Properties
 
 ### <a name="property-$gift_product"></a>$gift_product
 
-    public mixed $gift_product
+```php
+public mixed $gift_product
+```
 
 
 
@@ -319,7 +359,9 @@ Properties
 
 ### <a name="property-$gift_product_attribute"></a>$gift_product_attribute
 
-    public mixed $gift_product_attribute
+```php
+public mixed $gift_product_attribute
+```
 
 
 
@@ -331,7 +373,9 @@ Properties
 
 ### <a name="property-$group_restriction"></a>$group_restriction
 
-    public mixed $group_restriction
+```php
+public mixed $group_restriction
+```
 
 
 
@@ -343,7 +387,9 @@ Properties
 
 ### <a name="property-$highlight"></a>$highlight
 
-    public mixed $highlight
+```php
+public mixed $highlight
+```
 
 
 
@@ -355,7 +401,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -367,7 +415,9 @@ Properties
 
 ### <a name="property-$id_customer"></a>$id_customer
 
-    public mixed $id_customer
+```php
+public mixed $id_customer
+```
 
 
 
@@ -379,7 +429,9 @@ Properties
 
 ### <a name="property-$minimum_amount"></a>$minimum_amount
 
-    public mixed $minimum_amount
+```php
+public mixed $minimum_amount
+```
 
 
 
@@ -391,7 +443,9 @@ Properties
 
 ### <a name="property-$minimum_amount_currency"></a>$minimum_amount_currency
 
-    public mixed $minimum_amount_currency
+```php
+public mixed $minimum_amount_currency
+```
 
 
 
@@ -403,7 +457,9 @@ Properties
 
 ### <a name="property-$minimum_amount_shipping"></a>$minimum_amount_shipping
 
-    public mixed $minimum_amount_shipping
+```php
+public mixed $minimum_amount_shipping
+```
 
 
 
@@ -415,7 +471,9 @@ Properties
 
 ### <a name="property-$minimum_amount_tax"></a>$minimum_amount_tax
 
-    public mixed $minimum_amount_tax
+```php
+public mixed $minimum_amount_tax
+```
 
 
 
@@ -427,7 +485,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -439,7 +499,9 @@ Properties
 
 ### <a name="property-$only_one_gift"></a>$only_one_gift
 
-    protected mixed $only_one_gift = array()
+```php
+protected mixed $only_one_gift = array()
+```
 
 
 
@@ -452,7 +514,9 @@ Properties
 
 ### <a name="property-$partial_use"></a>$partial_use
 
-    public mixed $partial_use = 1
+```php
+public mixed $partial_use = 1
+```
 
 
 
@@ -464,7 +528,9 @@ Properties
 
 ### <a name="property-$priority"></a>$priority
 
-    public mixed $priority = 1
+```php
+public mixed $priority = 1
+```
 
 
 
@@ -476,7 +542,9 @@ Properties
 
 ### <a name="property-$product_restriction"></a>$product_restriction
 
-    public mixed $product_restriction
+```php
+public mixed $product_restriction
+```
 
 
 
@@ -488,7 +556,9 @@ Properties
 
 ### <a name="property-$quantity"></a>$quantity
 
-    public mixed $quantity = 1
+```php
+public mixed $quantity = 1
+```
 
 
 
@@ -500,7 +570,9 @@ Properties
 
 ### <a name="property-$quantity_per_user"></a>$quantity_per_user
 
-    public mixed $quantity_per_user = 1
+```php
+public mixed $quantity_per_user = 1
+```
 
 
 
@@ -512,7 +584,9 @@ Properties
 
 ### <a name="property-$reduction_amount"></a>$reduction_amount
 
-    public mixed $reduction_amount
+```php
+public mixed $reduction_amount
+```
 
 
 
@@ -524,7 +598,9 @@ Properties
 
 ### <a name="property-$reduction_currency"></a>$reduction_currency
 
-    public mixed $reduction_currency
+```php
+public mixed $reduction_currency
+```
 
 
 
@@ -536,7 +612,9 @@ Properties
 
 ### <a name="property-$reduction_percent"></a>$reduction_percent
 
-    public mixed $reduction_percent
+```php
+public mixed $reduction_percent
+```
 
 
 
@@ -548,7 +626,9 @@ Properties
 
 ### <a name="property-$reduction_product"></a>$reduction_product
 
-    public mixed $reduction_product
+```php
+public mixed $reduction_product
+```
 
 
 
@@ -560,7 +640,9 @@ Properties
 
 ### <a name="property-$reduction_tax"></a>$reduction_tax
 
-    public mixed $reduction_tax
+```php
+public mixed $reduction_tax
+```
 
 
 
@@ -572,7 +654,9 @@ Properties
 
 ### <a name="property-$shop_restriction"></a>$shop_restriction
 
-    public mixed $shop_restriction
+```php
+public mixed $shop_restriction
+```
 
 
 
@@ -588,7 +672,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed CartRuleCore::add($autodate, $null_values)
+```php
+mixed CartRuleCore::add($autodate, $null_values)
+```
 
 
 
@@ -606,7 +692,9 @@ Methods
 
 ### <a name="method-array_uintersect"></a>array_uintersect
 
-    mixed CartRuleCore::array_uintersect($array1, $array2)
+```php
+mixed CartRuleCore::array_uintersect($array1, $array2)
+```
 
 
 
@@ -625,7 +713,9 @@ Methods
 
 ### <a name="method-array_uintersect_compare"></a>array_uintersect_compare
 
-    mixed CartRuleCore::array_uintersect_compare($a, $b)
+```php
+mixed CartRuleCore::array_uintersect_compare($a, $b)
+```
 
 
 
@@ -644,7 +734,9 @@ Methods
 
 ### <a name="method-autoAddToCart"></a>autoAddToCart
 
-    mixed CartRuleCore::autoAddToCart(\Context|null $context)
+```php
+mixed CartRuleCore::autoAddToCart(\Context|null $context)
+```
 
 
 
@@ -662,7 +754,9 @@ Methods
 
 ### <a name="method-autoRemoveFromCart"></a>autoRemoveFromCart
 
-    mixed CartRuleCore::autoRemoveFromCart($context)
+```php
+mixed CartRuleCore::autoRemoveFromCart($context)
+```
 
 
 
@@ -680,7 +774,9 @@ Methods
 
 ### <a name="method-cartRuleExists"></a>cartRuleExists
 
-    boolean CartRuleCore::cartRuleExists($name)
+```php
+boolean CartRuleCore::cartRuleExists($name)
+```
 
 
 
@@ -698,7 +794,9 @@ Methods
 
 ### <a name="method-checkProductRestrictions"></a>checkProductRestrictions
 
-    mixed CartRuleCore::checkProductRestrictions(\Context $context, $return_products, $display_error, $already_in_cart)
+```php
+mixed CartRuleCore::checkProductRestrictions(\Context $context, $return_products, $display_error, $already_in_cart)
+```
 
 
 
@@ -718,7 +816,9 @@ Methods
 
 ### <a name="method-checkValidity"></a>checkValidity
 
-    boolean|mixed|string CartRuleCore::checkValidity(\Context $context, boolean $alreadyInCart, boolean $display_error, $check_carrier)
+```php
+boolean|mixed|string CartRuleCore::checkValidity(\Context $context, boolean $alreadyInCart, boolean $display_error, $check_carrier)
+```
 
 Check if this cart rule can be applied
 
@@ -738,7 +838,9 @@ Check if this cart rule can be applied
 
 ### <a name="method-cleanCache"></a>cleanCache
 
-    mixed CartRuleCore::cleanCache()
+```php
+mixed CartRuleCore::cleanCache()
+```
 
 Make sure caches are empty
 Must be called before calling multiple time getContextualValue()
@@ -754,7 +856,9 @@ Must be called before calling multiple time getContextualValue()
 
 ### <a name="method-cleanProductRuleIntegrity"></a>cleanProductRuleIntegrity
 
-    mixed CartRuleCore::cleanProductRuleIntegrity($type, $list)
+```php
+mixed CartRuleCore::cleanProductRuleIntegrity($type, $list)
+```
 
 
 
@@ -773,7 +877,9 @@ Must be called before calling multiple time getContextualValue()
 
 ### <a name="method-copyConditions"></a>copyConditions
 
-    mixed CartRuleCore::copyConditions(integer $id_cart_rule_source, integer $id_cart_rule_destination)
+```php
+mixed CartRuleCore::copyConditions(integer $id_cart_rule_source, integer $id_cart_rule_destination)
+```
 
 Copy conditions from one cart rule to an other
 
@@ -792,7 +898,9 @@ Copy conditions from one cart rule to an other
 
 ### <a name="method-delete"></a>delete
 
-    mixed CartRuleCore::delete()
+```php
+mixed CartRuleCore::delete()
+```
 
 
 
@@ -806,7 +914,9 @@ Copy conditions from one cart rule to an other
 
 ### <a name="method-deleteByIdCustomer"></a>deleteByIdCustomer
 
-    boolean CartRuleCore::deleteByIdCustomer($id_customer)
+```php
+boolean CartRuleCore::deleteByIdCustomer($id_customer)
+```
 
 
 
@@ -824,7 +934,9 @@ Copy conditions from one cart rule to an other
 
 ### <a name="method-getAssociatedRestrictions"></a>getAssociatedRestrictions
 
-    array|boolean CartRuleCore::getAssociatedRestrictions(string $type, boolean $active_only, boolean $i18n, integer $offset, integer $limit, string $search_cart_rule_name)
+```php
+array|boolean CartRuleCore::getAssociatedRestrictions(string $type, boolean $active_only, boolean $i18n, integer $offset, integer $limit, string $search_cart_rule_name)
+```
 
 
 
@@ -846,7 +958,9 @@ Copy conditions from one cart rule to an other
 
 ### <a name="method-getCartRuleCombinations"></a>getCartRuleCombinations
 
-    array CartRuleCore::getCartRuleCombinations(integer $offset, integer $limit, string $search)
+```php
+array CartRuleCore::getCartRuleCombinations(integer $offset, integer $limit, string $search)
+```
 
 
 
@@ -865,7 +979,9 @@ Copy conditions from one cart rule to an other
 
 ### <a name="method-getCartsRuleByCode"></a>getCartsRuleByCode
 
-    array CartRuleCore::getCartsRuleByCode($name, $id_lang, $extended)
+```php
+array CartRuleCore::getCartsRuleByCode($name, $id_lang, $extended)
+```
 
 
 
@@ -885,7 +1001,9 @@ Copy conditions from one cart rule to an other
 
 ### <a name="method-getContextualValue"></a>getContextualValue
 
-    float|integer|string CartRuleCore::getContextualValue(boolean $use_tax, \Context $context, $filter, $package, boolean $use_cache)
+```php
+float|integer|string CartRuleCore::getContextualValue(boolean $use_tax, \Context $context, $filter, $package, boolean $use_cache)
+```
 
 The reduction value is POSITIVE
 
@@ -906,7 +1024,9 @@ The reduction value is POSITIVE
 
 ### <a name="method-getCustomerCartRules"></a>getCustomerCartRules
 
-    array CartRuleCore::getCustomerCartRules($id_lang, $id_customer, boolean $active, boolean $includeGeneric, boolean $inStock, \Cart|null $cart, boolean $free_shipping_only, boolean $highlight_only)
+```php
+array CartRuleCore::getCustomerCartRules($id_lang, $id_customer, boolean $active, boolean $includeGeneric, boolean $inStock, \Cart|null $cart, boolean $free_shipping_only, boolean $highlight_only)
+```
 
 
 
@@ -931,7 +1051,9 @@ The reduction value is POSITIVE
 
 ### <a name="method-getIdByCode"></a>getIdByCode
 
-    integer|boolean CartRuleCore::getIdByCode(string $code)
+```php
+integer|boolean CartRuleCore::getIdByCode(string $code)
+```
 
 Retrieves the id associated to the given code
 
@@ -949,7 +1071,9 @@ Retrieves the id associated to the given code
 
 ### <a name="method-getProductRuleGroups"></a>getProductRuleGroups
 
-    array CartRuleCore::getProductRuleGroups()
+```php
+array CartRuleCore::getProductRuleGroups()
+```
 
 
 
@@ -963,7 +1087,9 @@ Retrieves the id associated to the given code
 
 ### <a name="method-getProductRules"></a>getProductRules
 
-    array CartRuleCore::getProductRules($id_product_rule_group)
+```php
+array CartRuleCore::getProductRules($id_product_rule_group)
+```
 
 
 
@@ -980,7 +1106,9 @@ Retrieves the id associated to the given code
 
 ### <a name="method-isFeatureActive"></a>isFeatureActive
 
-    boolean CartRuleCore::isFeatureActive()
+```php
+boolean CartRuleCore::isFeatureActive()
+```
 
 
 
@@ -995,7 +1123,9 @@ Retrieves the id associated to the given code
 
 ### <a name="method-update"></a>update
 
-    mixed CartRuleCore::update($null_values)
+```php
+mixed CartRuleCore::update($null_values)
+```
 
 
 
@@ -1012,7 +1142,9 @@ Retrieves the id associated to the given code
 
 ### <a name="method-usedByCustomer"></a>usedByCustomer
 
-    boolean CartRuleCore::usedByCustomer($id_customer)
+```php
+boolean CartRuleCore::usedByCustomer($id_customer)
+```
 
 
 

@@ -10,9 +10,11 @@ Class ManufacturerCore
 * Source: [classes/Manufacturer.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$cacheName](#property-$cacheName)
@@ -31,8 +33,8 @@ Properties
 * [$short_description](#property-$short_description)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [delete](#method-delete)
 * [deleteSelection](#method-deleteSelection)
@@ -57,7 +59,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active
+```php
+public boolean $active
+```
 
 
 
@@ -69,7 +73,9 @@ Properties
 
 ### <a name="property-$cacheName"></a>$cacheName
 
-    protected mixed $cacheName = array()
+```php
+protected mixed $cacheName = array()
+```
 
 Return name from id
 
@@ -82,7 +88,9 @@ Return name from id
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -94,7 +102,9 @@ Return name from id
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -106,7 +116,9 @@ Return name from id
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'manufacturer', 'primary' => 'id_manufacturer', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isCatalogName', 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL), 'date_add' => array('type' => self::TYPE_DATE), 'date_upd' => array('type' => self::TYPE_DATE), 'description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'short_description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName')))
+```php
+public mixed $definition = array('table' => 'manufacturer', 'primary' => 'id_manufacturer', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isCatalogName', 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL), 'date_add' => array('type' => self::TYPE_DATE), 'date_upd' => array('type' => self::TYPE_DATE), 'description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'short_description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName')))
+```
 
 
 
@@ -119,7 +131,9 @@ Return name from id
 
 ### <a name="property-$description"></a>$description
 
-    public string $description
+```php
+public string $description
+```
 
 
 
@@ -131,7 +145,9 @@ Return name from id
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -143,7 +159,9 @@ Return name from id
 
 ### <a name="property-$id_address"></a>$id_address
 
-    public integer $id_address
+```php
+public integer $id_address
+```
 
 
 
@@ -155,7 +173,9 @@ Return name from id
 
 ### <a name="property-$id_manufacturer"></a>$id_manufacturer
 
-    public integer $id_manufacturer
+```php
+public integer $id_manufacturer
+```
 
 
 
@@ -167,7 +187,9 @@ Return name from id
 
 ### <a name="property-$link_rewrite"></a>$link_rewrite
 
-    public string $link_rewrite
+```php
+public string $link_rewrite
+```
 
 
 
@@ -179,7 +201,9 @@ Return name from id
 
 ### <a name="property-$meta_description"></a>$meta_description
 
-    public string $meta_description
+```php
+public string $meta_description
+```
 
 
 
@@ -191,7 +215,9 @@ Return name from id
 
 ### <a name="property-$meta_keywords"></a>$meta_keywords
 
-    public string $meta_keywords
+```php
+public string $meta_keywords
+```
 
 
 
@@ -203,7 +229,9 @@ Return name from id
 
 ### <a name="property-$meta_title"></a>$meta_title
 
-    public string $meta_title
+```php
+public string $meta_title
+```
 
 
 
@@ -215,7 +243,9 @@ Return name from id
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -227,7 +257,9 @@ Return name from id
 
 ### <a name="property-$short_description"></a>$short_description
 
-    public string $short_description
+```php
+public string $short_description
+```
 
 
 
@@ -239,7 +271,9 @@ Return name from id
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('active' => array(), 'link_rewrite' => array('getter' => 'getLink', 'setter' => false)), 'associations' => array('addresses' => array('resource' => 'address', 'setter' => false, 'fields' => array('id' => array('xlink_resource' => 'addresses')))))
+```php
+protected mixed $webserviceParameters = array('fields' => array('active' => array(), 'link_rewrite' => array('getter' => 'getLink', 'setter' => false)), 'associations' => array('addresses' => array('resource' => 'address', 'setter' => false, 'fields' => array('id' => array('xlink_resource' => 'addresses')))))
+```
 
 
 
@@ -255,7 +289,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ManufacturerCore::__construct($id, $id_lang)
+```php
+mixed ManufacturerCore::__construct($id, $id_lang)
+```
 
 
 
@@ -273,7 +309,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed ManufacturerCore::delete()
+```php
+mixed ManufacturerCore::delete()
+```
 
 
 
@@ -287,7 +325,9 @@ Methods
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    mixed ManufacturerCore::deleteSelection($selection)
+```php
+mixed ManufacturerCore::deleteSelection($selection)
+```
 
 Delete several objects from database
 
@@ -304,7 +344,9 @@ return boolean Deletion result
 
 ### <a name="method-getAddresses"></a>getAddresses
 
-    mixed ManufacturerCore::getAddresses($id_lang)
+```php
+mixed ManufacturerCore::getAddresses($id_lang)
+```
 
 
 
@@ -321,7 +363,9 @@ return boolean Deletion result
 
 ### <a name="method-getIdByName"></a>getIdByName
 
-    mixed ManufacturerCore::getIdByName($name)
+```php
+mixed ManufacturerCore::getIdByName($name)
+```
 
 
 
@@ -339,7 +383,9 @@ return boolean Deletion result
 
 ### <a name="method-getLink"></a>getLink
 
-    mixed ManufacturerCore::getLink()
+```php
+mixed ManufacturerCore::getLink()
+```
 
 
 
@@ -353,7 +399,9 @@ return boolean Deletion result
 
 ### <a name="method-getManufacturerAddress"></a>getManufacturerAddress
 
-    mixed ManufacturerCore::getManufacturerAddress()
+```php
+mixed ManufacturerCore::getManufacturerAddress()
+```
 
 
 
@@ -367,7 +415,9 @@ return boolean Deletion result
 
 ### <a name="method-getManufacturers"></a>getManufacturers
 
-    array ManufacturerCore::getManufacturers(boolean $get_nb_products, integer $id_lang, boolean $active, integer $p, integer $n, boolean $all_group, $group_by)
+```php
+array ManufacturerCore::getManufacturers(boolean $get_nb_products, integer $id_lang, boolean $active, integer $p, integer $n, boolean $all_group, $group_by)
+```
 
 Return manufacturers
 
@@ -391,7 +441,9 @@ Return manufacturers
 
 ### <a name="method-getNameById"></a>getNameById
 
-    mixed ManufacturerCore::getNameById($id_manufacturer)
+```php
+mixed ManufacturerCore::getNameById($id_manufacturer)
+```
 
 
 
@@ -409,7 +461,9 @@ Return manufacturers
 
 ### <a name="method-getProducts"></a>getProducts
 
-    mixed ManufacturerCore::getProducts($id_manufacturer, $id_lang, $p, $n, $order_by, $order_way, $get_total, $active, $active_category, \Context $context)
+```php
+mixed ManufacturerCore::getProducts($id_manufacturer, $id_lang, $p, $n, $order_by, $order_way, $get_total, $active, $active_category, \Context $context)
+```
 
 
 
@@ -436,7 +490,9 @@ Return manufacturers
 
 ### <a name="method-getProductsLite"></a>getProductsLite
 
-    mixed ManufacturerCore::getProductsLite($id_lang)
+```php
+mixed ManufacturerCore::getProductsLite($id_lang)
+```
 
 
 
@@ -453,7 +509,9 @@ Return manufacturers
 
 ### <a name="method-getWsAddresses"></a>getWsAddresses
 
-    mixed ManufacturerCore::getWsAddresses()
+```php
+mixed ManufacturerCore::getWsAddresses()
+```
 
 
 
@@ -467,7 +525,9 @@ Return manufacturers
 
 ### <a name="method-manufacturerExists"></a>manufacturerExists
 
-    mixed ManufacturerCore::manufacturerExists($id_manufacturer)
+```php
+mixed ManufacturerCore::manufacturerExists($id_manufacturer)
+```
 
 
 
@@ -485,7 +545,9 @@ Return manufacturers
 
 ### <a name="method-setWsAddresses"></a>setWsAddresses
 
-    mixed ManufacturerCore::setWsAddresses($id_addresses)
+```php
+mixed ManufacturerCore::setWsAddresses($id_addresses)
+```
 
 
 

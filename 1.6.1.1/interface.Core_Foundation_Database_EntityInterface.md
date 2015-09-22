@@ -23,12 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * This is an **interface**
 * Source: [Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php#L27)
 
+Contents
+--------
 
 
 
+### Methods
 
-Methods
--------
 * [delete](#method-delete)
 * [getRepositoryClassName](#method-getRepositoryClassName)
 * [hydrate](#method-hydrate)
@@ -45,7 +46,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed Core_Foundation_Database_EntityInterface::delete()
+```php
+mixed Core_Foundation_Database_EntityInterface::delete()
+```
 
 
 
@@ -59,7 +62,9 @@ Methods
 
 ### <a name="method-getRepositoryClassName"></a>getRepositoryClassName
 
-    string Core_Foundation_Database_EntityInterface::getRepositoryClassName()
+```php
+string Core_Foundation_Database_EntityInterface::getRepositoryClassName()
+```
 
 Returns the name of the repository class for this entity.
 
@@ -74,7 +79,9 @@ If unspecified, a generic repository will be used for the entity.
 
 ### <a name="method-hydrate"></a>hydrate
 
-    mixed Core_Foundation_Database_EntityInterface::hydrate(array $keyValueData)
+```php
+mixed Core_Foundation_Database_EntityInterface::hydrate(array $keyValueData)
+```
 
 
 
@@ -91,7 +98,9 @@ If unspecified, a generic repository will be used for the entity.
 
 ### <a name="method-save"></a>save
 
-    mixed Core_Foundation_Database_EntityInterface::save()
+```php
+mixed Core_Foundation_Database_EntityInterface::save()
+```
 
 
 

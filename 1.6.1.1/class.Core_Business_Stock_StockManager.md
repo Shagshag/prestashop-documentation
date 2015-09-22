@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Core/Business/Stock/Core_Business_Stock_StockManager.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Stock/Core_Business_Stock_StockManager.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [updatePackQuantity](#method-updatePackQuantity)
 * [updatePacksQuantityContainingProduct](#method-updatePacksQuantityContainingProduct)
 * [updateQuantity](#method-updateQuantity)
@@ -43,7 +45,9 @@ Methods
 
 ### <a name="method-updatePackQuantity"></a>updatePackQuantity
 
-    mixed Core_Business_Stock_StockManager::updatePackQuantity(\Product $product, \StockAvailable $stock_available, integer $delta_quantity, integer|null $id_shop)
+```php
+mixed Core_Business_Stock_StockManager::updatePackQuantity(\Product $product, \StockAvailable $stock_available, integer $delta_quantity, integer|null $id_shop)
+```
 
 This will update a Pack quantity and will decrease the quantity of containing Products if needed.
 
@@ -63,7 +67,9 @@ This will update a Pack quantity and will decrease the quantity of containing Pr
 
 ### <a name="method-updatePacksQuantityContainingProduct"></a>updatePacksQuantityContainingProduct
 
-    mixed Core_Business_Stock_StockManager::updatePacksQuantityContainingProduct(\Product $product, integer $id_product_attribute, \StockAvailable $stock_available, integer|null $id_shop)
+```php
+mixed Core_Business_Stock_StockManager::updatePacksQuantityContainingProduct(\Product $product, integer $id_product_attribute, \StockAvailable $stock_available, integer|null $id_shop)
+```
 
 This will decrease (if needed) Packs containing this product
 (with the right declinaison) if there is not enough product in stocks.
@@ -84,7 +90,9 @@ This will decrease (if needed) Packs containing this product
 
 ### <a name="method-updateQuantity"></a>updateQuantity
 
-    mixed Core_Business_Stock_StockManager::updateQuantity(\Product $product, integer $id_product_attribute, integer $delta_quantity, integer|null $id_shop)
+```php
+mixed Core_Business_Stock_StockManager::updateQuantity(\Product $product, integer $id_product_attribute, integer $delta_quantity, integer|null $id_shop)
+```
 
 Will update Product available stock int he given declinaison. If product is a Pack, could decrease the sub products.
 

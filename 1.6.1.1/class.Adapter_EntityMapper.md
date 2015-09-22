@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Adapter/Adapter_EntityMapper.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_EntityMapper.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [load](#method-load)
 
 
@@ -41,7 +43,9 @@ Methods
 
 ### <a name="method-load"></a>load
 
-    mixed Adapter_EntityMapper::load($id, $id_lang, $entity, $entity_defs, $id_shop, $should_cache_objects)
+```php
+mixed Adapter_EntityMapper::load($id, $id_lang, $entity, $entity_defs, $id_shop, $should_cache_objects)
+```
 
 Load ObjectModel
 

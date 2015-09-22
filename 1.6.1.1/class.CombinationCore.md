@@ -10,9 +10,11 @@ Class CombinationCore
 * Source: [classes/Combination.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$available_date](#property-$available_date)
 * [$default_on](#property-$default_on)
@@ -32,8 +34,8 @@ Properties
 * [$weight](#property-$weight)
 * [$wholesale_price](#property-$wholesale_price)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [delete](#method-delete)
 * [deleteAssociations](#method-deleteAssociations)
@@ -61,7 +63,9 @@ Properties
 
 ### <a name="property-$available_date"></a>$available_date
 
-    public mixed $available_date = '0000-00-00'
+```php
+public mixed $available_date = '0000-00-00'
+```
 
 
 
@@ -73,7 +77,9 @@ Properties
 
 ### <a name="property-$default_on"></a>$default_on
 
-    public mixed $default_on
+```php
+public mixed $default_on
+```
 
 
 
@@ -85,7 +91,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'product_attribute', 'primary' => 'id_product_attribute', 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'shop' => 'both', 'validate' => 'isUnsignedId', 'required' => true), 'location' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 64), 'ean13' => array('type' => self::TYPE_STRING, 'validate' => 'isEan13', 'size' => 13), 'upc' => array('type' => self::TYPE_STRING, 'validate' => 'isUpc', 'size' => 12), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'size' => 10), 'reference' => array('type' => self::TYPE_STRING, 'size' => 32), 'supplier_reference' => array('type' => self::TYPE_STRING, 'size' => 32), 'wholesale_price' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice', 'size' => 27), 'price' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isNegativePrice', 'size' => 20), 'ecotax' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice', 'size' => 20), 'weight' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isFloat'), 'unit_price_impact' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isNegativePrice', 'size' => 20), 'minimal_quantity' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedId', 'required' => true), 'default_on' => array('type' => self::TYPE_BOOL, 'allow_null' => true, 'shop' => true, 'validate' => 'isBool'), 'available_date' => array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDateFormat')))
+```php
+public mixed $definition = array('table' => 'product_attribute', 'primary' => 'id_product_attribute', 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'shop' => 'both', 'validate' => 'isUnsignedId', 'required' => true), 'location' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 64), 'ean13' => array('type' => self::TYPE_STRING, 'validate' => 'isEan13', 'size' => 13), 'upc' => array('type' => self::TYPE_STRING, 'validate' => 'isUpc', 'size' => 12), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'size' => 10), 'reference' => array('type' => self::TYPE_STRING, 'size' => 32), 'supplier_reference' => array('type' => self::TYPE_STRING, 'size' => 32), 'wholesale_price' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice', 'size' => 27), 'price' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isNegativePrice', 'size' => 20), 'ecotax' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice', 'size' => 20), 'weight' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isFloat'), 'unit_price_impact' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isNegativePrice', 'size' => 20), 'minimal_quantity' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedId', 'required' => true), 'default_on' => array('type' => self::TYPE_BOOL, 'allow_null' => true, 'shop' => true, 'validate' => 'isBool'), 'available_date' => array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDateFormat')))
+```
 
 
 
@@ -98,7 +106,9 @@ Properties
 
 ### <a name="property-$ean13"></a>$ean13
 
-    public mixed $ean13
+```php
+public mixed $ean13
+```
 
 
 
@@ -110,7 +120,9 @@ Properties
 
 ### <a name="property-$ecotax"></a>$ecotax
 
-    public mixed $ecotax
+```php
+public mixed $ecotax
+```
 
 
 
@@ -122,7 +134,9 @@ Properties
 
 ### <a name="property-$id_product"></a>$id_product
 
-    public mixed $id_product
+```php
+public mixed $id_product
+```
 
 
 
@@ -134,7 +148,9 @@ Properties
 
 ### <a name="property-$location"></a>$location
 
-    public mixed $location
+```php
+public mixed $location
+```
 
 
 
@@ -146,7 +162,9 @@ Properties
 
 ### <a name="property-$minimal_quantity"></a>$minimal_quantity
 
-    public mixed $minimal_quantity = 1
+```php
+public mixed $minimal_quantity = 1
+```
 
 
 
@@ -158,7 +176,9 @@ Properties
 
 ### <a name="property-$price"></a>$price
 
-    public mixed $price
+```php
+public mixed $price
+```
 
 
 
@@ -170,7 +190,9 @@ Properties
 
 ### <a name="property-$quantity"></a>$quantity
 
-    public mixed $quantity
+```php
+public mixed $quantity
+```
 
 
 
@@ -182,7 +204,9 @@ Properties
 
 ### <a name="property-$reference"></a>$reference
 
-    public mixed $reference
+```php
+public mixed $reference
+```
 
 
 
@@ -194,7 +218,9 @@ Properties
 
 ### <a name="property-$supplier_reference"></a>$supplier_reference
 
-    public mixed $supplier_reference
+```php
+public mixed $supplier_reference
+```
 
 
 
@@ -206,7 +232,9 @@ Properties
 
 ### <a name="property-$unit_price_impact"></a>$unit_price_impact
 
-    public mixed $unit_price_impact
+```php
+public mixed $unit_price_impact
+```
 
 
 
@@ -218,7 +246,9 @@ Properties
 
 ### <a name="property-$upc"></a>$upc
 
-    public mixed $upc
+```php
+public mixed $upc
+```
 
 
 
@@ -230,7 +260,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectNodeName' => 'combination', 'objectsNodeName' => 'combinations', 'fields' => array('id_product' => array('required' => true, 'xlink_resource' => 'products')), 'associations' => array('product_option_values' => array('resource' => 'product_option_value'), 'images' => array('resource' => 'image', 'api' => 'images/products')))
+```php
+protected mixed $webserviceParameters = array('objectNodeName' => 'combination', 'objectsNodeName' => 'combinations', 'fields' => array('id_product' => array('required' => true, 'xlink_resource' => 'products')), 'associations' => array('product_option_values' => array('resource' => 'product_option_value'), 'images' => array('resource' => 'image', 'api' => 'images/products')))
+```
 
 
 
@@ -242,7 +274,9 @@ Properties
 
 ### <a name="property-$weight"></a>$weight
 
-    public mixed $weight
+```php
+public mixed $weight
+```
 
 
 
@@ -254,7 +288,9 @@ Properties
 
 ### <a name="property-$wholesale_price"></a>$wholesale_price
 
-    public mixed $wholesale_price
+```php
+public mixed $wholesale_price
+```
 
 
 
@@ -270,7 +306,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed CombinationCore::add($autodate, $null_values)
+```php
+mixed CombinationCore::add($autodate, $null_values)
+```
 
 
 
@@ -288,7 +326,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed CombinationCore::delete()
+```php
+mixed CombinationCore::delete()
+```
 
 
 
@@ -302,7 +342,9 @@ Methods
 
 ### <a name="method-deleteAssociations"></a>deleteAssociations
 
-    mixed CombinationCore::deleteAssociations()
+```php
+mixed CombinationCore::deleteAssociations()
+```
 
 
 
@@ -316,7 +358,9 @@ Methods
 
 ### <a name="method-deleteFromSupplier"></a>deleteFromSupplier
 
-    mixed CombinationCore::deleteFromSupplier($id_product)
+```php
+mixed CombinationCore::deleteFromSupplier($id_product)
+```
 
 
 
@@ -333,7 +377,9 @@ Methods
 
 ### <a name="method-getAttributesName"></a>getAttributesName
 
-    mixed CombinationCore::getAttributesName($id_lang)
+```php
+mixed CombinationCore::getAttributesName($id_lang)
+```
 
 
 
@@ -350,7 +396,9 @@ Methods
 
 ### <a name="method-getColorsAttributes"></a>getColorsAttributes
 
-    mixed CombinationCore::getColorsAttributes()
+```php
+mixed CombinationCore::getColorsAttributes()
+```
 
 
 
@@ -364,7 +412,9 @@ Methods
 
 ### <a name="method-getIdByReference"></a>getIdByReference
 
-    integer CombinationCore::getIdByReference(integer $id_product, string $reference)
+```php
+integer CombinationCore::getIdByReference(integer $id_product, string $reference)
+```
 
 For a given product_attribute reference, returns the corresponding id
 
@@ -383,7 +433,9 @@ For a given product_attribute reference, returns the corresponding id
 
 ### <a name="method-getPrice"></a>getPrice
 
-    float CombinationCore::getPrice(integer $id_product_attribute)
+```php
+float CombinationCore::getPrice(integer $id_product_attribute)
+```
 
 Retrive the price of combination
 
@@ -401,7 +453,9 @@ Retrive the price of combination
 
 ### <a name="method-getWsImages"></a>getWsImages
 
-    mixed CombinationCore::getWsImages()
+```php
+mixed CombinationCore::getWsImages()
+```
 
 
 
@@ -415,7 +469,9 @@ Retrive the price of combination
 
 ### <a name="method-getWsProductOptionValues"></a>getWsProductOptionValues
 
-    mixed CombinationCore::getWsProductOptionValues()
+```php
+mixed CombinationCore::getWsProductOptionValues()
+```
 
 
 
@@ -429,7 +485,9 @@ Retrive the price of combination
 
 ### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
 
-    boolean CombinationCore::isCurrentlyUsed($table, $has_active_column)
+```php
+boolean CombinationCore::isCurrentlyUsed($table, $has_active_column)
+```
 
 This method is allow to know if a Combination entity is currently used
 
@@ -448,7 +506,9 @@ This method is allow to know if a Combination entity is currently used
 
 ### <a name="method-isFeatureActive"></a>isFeatureActive
 
-    boolean CombinationCore::isFeatureActive()
+```php
+boolean CombinationCore::isFeatureActive()
+```
 
 This method is allow to know if a feature is active
 
@@ -463,7 +523,9 @@ This method is allow to know if a feature is active
 
 ### <a name="method-setAttributes"></a>setAttributes
 
-    mixed CombinationCore::setAttributes($ids_attribute)
+```php
+mixed CombinationCore::setAttributes($ids_attribute)
+```
 
 
 
@@ -480,7 +542,9 @@ This method is allow to know if a feature is active
 
 ### <a name="method-setImages"></a>setImages
 
-    mixed CombinationCore::setImages($ids_image)
+```php
+mixed CombinationCore::setImages($ids_image)
+```
 
 
 
@@ -497,7 +561,9 @@ This method is allow to know if a feature is active
 
 ### <a name="method-setWsImages"></a>setWsImages
 
-    mixed CombinationCore::setWsImages($values)
+```php
+mixed CombinationCore::setWsImages($values)
+```
 
 
 
@@ -514,7 +580,9 @@ This method is allow to know if a feature is active
 
 ### <a name="method-setWsProductOptionValues"></a>setWsProductOptionValues
 
-    mixed CombinationCore::setWsProductOptionValues($values)
+```php
+mixed CombinationCore::setWsProductOptionValues($values)
+```
 
 
 
@@ -531,7 +599,9 @@ This method is allow to know if a feature is active
 
 ### <a name="method-update"></a>update
 
-    mixed CombinationCore::update($null_values)
+```php
+mixed CombinationCore::update($null_values)
+```
 
 
 

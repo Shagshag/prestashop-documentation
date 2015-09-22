@@ -10,11 +10,13 @@ Class AdminDashboardControllerCore
 * Source: [controllers/admin/AdminDashboardController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessGetBlogRss](#method-ajaxProcessGetBlogRss)
 * [ajaxProcessRefreshDashboard](#method-ajaxProcessRefreshDashboard)
@@ -38,7 +40,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminDashboardControllerCore::__construct()
+```php
+mixed AdminDashboardControllerCore::__construct()
+```
 
 
 
@@ -52,7 +56,9 @@ Methods
 
 ### <a name="method-ajaxProcessGetBlogRss"></a>ajaxProcessGetBlogRss
 
-    mixed AdminDashboardControllerCore::ajaxProcessGetBlogRss()
+```php
+mixed AdminDashboardControllerCore::ajaxProcessGetBlogRss()
+```
 
 
 
@@ -66,7 +72,9 @@ Methods
 
 ### <a name="method-ajaxProcessRefreshDashboard"></a>ajaxProcessRefreshDashboard
 
-    mixed AdminDashboardControllerCore::ajaxProcessRefreshDashboard()
+```php
+mixed AdminDashboardControllerCore::ajaxProcessRefreshDashboard()
+```
 
 
 
@@ -80,7 +88,9 @@ Methods
 
 ### <a name="method-ajaxProcessSaveDashConfig"></a>ajaxProcessSaveDashConfig
 
-    mixed AdminDashboardControllerCore::ajaxProcessSaveDashConfig()
+```php
+mixed AdminDashboardControllerCore::ajaxProcessSaveDashConfig()
+```
 
 
 
@@ -94,7 +104,9 @@ Methods
 
 ### <a name="method-ajaxProcessSetSimulationMode"></a>ajaxProcessSetSimulationMode
 
-    mixed AdminDashboardControllerCore::ajaxProcessSetSimulationMode()
+```php
+mixed AdminDashboardControllerCore::ajaxProcessSetSimulationMode()
+```
 
 
 
@@ -108,7 +120,9 @@ Methods
 
 ### <a name="method-getOptionFields"></a>getOptionFields
 
-    mixed AdminDashboardControllerCore::getOptionFields()
+```php
+mixed AdminDashboardControllerCore::getOptionFields()
+```
 
 
 
@@ -122,7 +136,9 @@ Methods
 
 ### <a name="method-getWarningDomainName"></a>getWarningDomainName
 
-    mixed AdminDashboardControllerCore::getWarningDomainName()
+```php
+mixed AdminDashboardControllerCore::getWarningDomainName()
+```
 
 
 
@@ -136,7 +152,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminDashboardControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminDashboardControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -150,7 +168,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminDashboardControllerCore::postProcess()
+```php
+mixed AdminDashboardControllerCore::postProcess()
+```
 
 
 
@@ -164,7 +184,9 @@ Methods
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminDashboardControllerCore::renderView()
+```php
+mixed AdminDashboardControllerCore::renderView()
+```
 
 
 
@@ -178,7 +200,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminDashboardControllerCore::setMedia()
+```php
+mixed AdminDashboardControllerCore::setMedia()
+```
 
 
 

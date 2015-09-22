@@ -10,9 +10,11 @@ Class MetaCore
 * Source: [classes/Meta.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$configurable](#property-$configurable)
 * [$definition](#property-$definition)
@@ -22,8 +24,8 @@ Properties
 * [$title](#property-$title)
 * [$url_rewrite](#property-$url_rewrite)
 
-Methods
--------
+### Methods
+
 * [completeMetaTags](#method-completeMetaTags)
 * [delete](#method-delete)
 * [deleteSelection](#method-deleteSelection)
@@ -51,7 +53,9 @@ Properties
 
 ### <a name="property-$configurable"></a>$configurable
 
-    public mixed $configurable = 1
+```php
+public mixed $configurable = 1
+```
 
 
 
@@ -63,7 +67,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'meta', 'primary' => 'id_meta', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('page' => array('type' => self::TYPE_STRING, 'validate' => 'isFileName', 'required' => true, 'size' => 64), 'configurable' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'url_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'size' => 255)))
+```php
+public mixed $definition = array('table' => 'meta', 'primary' => 'id_meta', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('page' => array('type' => self::TYPE_STRING, 'validate' => 'isFileName', 'required' => true, 'size' => 64), 'configurable' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'url_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'size' => 255)))
+```
 
 
 
@@ -76,7 +82,9 @@ Properties
 
 ### <a name="property-$description"></a>$description
 
-    public mixed $description
+```php
+public mixed $description
+```
 
 
 
@@ -88,7 +96,9 @@ Properties
 
 ### <a name="property-$keywords"></a>$keywords
 
-    public mixed $keywords
+```php
+public mixed $keywords
+```
 
 
 
@@ -100,7 +110,9 @@ Properties
 
 ### <a name="property-$page"></a>$page
 
-    public mixed $page
+```php
+public mixed $page
+```
 
 
 
@@ -112,7 +124,9 @@ Properties
 
 ### <a name="property-$title"></a>$title
 
-    public mixed $title
+```php
+public mixed $title
+```
 
 
 
@@ -124,7 +138,9 @@ Properties
 
 ### <a name="property-$url_rewrite"></a>$url_rewrite
 
-    public mixed $url_rewrite
+```php
+public mixed $url_rewrite
+```
 
 
 
@@ -140,7 +156,9 @@ Methods
 
 ### <a name="method-completeMetaTags"></a>completeMetaTags
 
-    mixed MetaCore::completeMetaTags($meta_tags, $default_value, \Context $context)
+```php
+mixed MetaCore::completeMetaTags($meta_tags, $default_value, \Context $context)
+```
 
 
 
@@ -160,7 +178,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed MetaCore::delete()
+```php
+mixed MetaCore::delete()
+```
 
 
 
@@ -174,7 +194,9 @@ Methods
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    mixed MetaCore::deleteSelection($selection)
+```php
+mixed MetaCore::deleteSelection($selection)
+```
 
 
 
@@ -191,7 +213,9 @@ Methods
 
 ### <a name="method-getCategoryMetas"></a>getCategoryMetas
 
-    array MetaCore::getCategoryMetas(integer $id_category, integer $id_lang, string $page_name, $title)
+```php
+array MetaCore::getCategoryMetas(integer $id_category, integer $id_lang, string $page_name, $title)
+```
 
 Get category meta tags
 
@@ -212,7 +236,9 @@ Get category meta tags
 
 ### <a name="method-getCmsCategoryMetas"></a>getCmsCategoryMetas
 
-    array MetaCore::getCmsCategoryMetas(integer $id_cms_category, integer $id_lang, string $page_name)
+```php
+array MetaCore::getCmsCategoryMetas(integer $id_cms_category, integer $id_lang, string $page_name)
+```
 
 Get CMS category meta tags
 
@@ -232,7 +258,9 @@ Get CMS category meta tags
 
 ### <a name="method-getCmsMetas"></a>getCmsMetas
 
-    array MetaCore::getCmsMetas(integer $id_cms, integer $id_lang, string $page_name)
+```php
+array MetaCore::getCmsMetas(integer $id_cms, integer $id_lang, string $page_name)
+```
 
 Get CMS meta tags
 
@@ -252,7 +280,9 @@ Get CMS meta tags
 
 ### <a name="method-getEquivalentUrlRewrite"></a>getEquivalentUrlRewrite
 
-    mixed MetaCore::getEquivalentUrlRewrite($new_id_lang, $id_lang, $url_rewrite)
+```php
+mixed MetaCore::getEquivalentUrlRewrite($new_id_lang, $id_lang, $url_rewrite)
+```
 
 
 
@@ -272,7 +302,9 @@ Get CMS meta tags
 
 ### <a name="method-getHomeMetas"></a>getHomeMetas
 
-    array MetaCore::getHomeMetas(integer $id_lang, string $page_name)
+```php
+array MetaCore::getHomeMetas(integer $id_lang, string $page_name)
+```
 
 Get meta tags for a given page
 
@@ -291,7 +323,9 @@ Get meta tags for a given page
 
 ### <a name="method-getManufacturerMetas"></a>getManufacturerMetas
 
-    array MetaCore::getManufacturerMetas(integer $id_manufacturer, integer $id_lang, string $page_name)
+```php
+array MetaCore::getManufacturerMetas(integer $id_manufacturer, integer $id_lang, string $page_name)
+```
 
 Get manufacturer meta tags
 
@@ -311,7 +345,9 @@ Get manufacturer meta tags
 
 ### <a name="method-getMetaByPage"></a>getMetaByPage
 
-    mixed MetaCore::getMetaByPage($page, $id_lang)
+```php
+mixed MetaCore::getMetaByPage($page, $id_lang)
+```
 
 
 
@@ -330,7 +366,9 @@ Get manufacturer meta tags
 
 ### <a name="method-getMetaTags"></a>getMetaTags
 
-    mixed MetaCore::getMetaTags($id_lang, $page_name, $title)
+```php
+mixed MetaCore::getMetaTags($id_lang, $page_name, $title)
+```
 
 
 
@@ -350,7 +388,9 @@ Get manufacturer meta tags
 
 ### <a name="method-getMetas"></a>getMetas
 
-    mixed MetaCore::getMetas()
+```php
+mixed MetaCore::getMetas()
+```
 
 
 
@@ -365,7 +405,9 @@ Get manufacturer meta tags
 
 ### <a name="method-getMetasByIdLang"></a>getMetasByIdLang
 
-    mixed MetaCore::getMetasByIdLang($id_lang)
+```php
+mixed MetaCore::getMetasByIdLang($id_lang)
+```
 
 
 
@@ -383,7 +425,9 @@ Get manufacturer meta tags
 
 ### <a name="method-getPages"></a>getPages
 
-    mixed MetaCore::getPages($exclude_filled, $add_page)
+```php
+mixed MetaCore::getPages($exclude_filled, $add_page)
+```
 
 
 
@@ -402,7 +446,9 @@ Get manufacturer meta tags
 
 ### <a name="method-getProductMetas"></a>getProductMetas
 
-    array MetaCore::getProductMetas(integer $id_product, integer $id_lang, string $page_name)
+```php
+array MetaCore::getProductMetas(integer $id_product, integer $id_lang, string $page_name)
+```
 
 Get product meta tags
 
@@ -422,7 +468,9 @@ Get product meta tags
 
 ### <a name="method-getSupplierMetas"></a>getSupplierMetas
 
-    array MetaCore::getSupplierMetas(integer $id_supplier, integer $id_lang, string $page_name)
+```php
+array MetaCore::getSupplierMetas(integer $id_supplier, integer $id_lang, string $page_name)
+```
 
 Get supplier meta tags
 
@@ -442,7 +490,9 @@ Get supplier meta tags
 
 ### <a name="method-update"></a>update
 
-    mixed MetaCore::update($null_values)
+```php
+mixed MetaCore::update($null_values)
+```
 
 
 

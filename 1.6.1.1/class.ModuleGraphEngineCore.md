@@ -11,14 +11,16 @@ Class ModuleGraphEngineCore
 * Source: [classes/module/ModuleGraphEngine.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_type](#property-$_type)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [createValues](#method-createValues)
 * [draw](#method-draw)
@@ -37,7 +39,9 @@ Properties
 
 ### <a name="property-$_type"></a>$_type
 
-    protected mixed $_type
+```php
+protected mixed $_type
+```
 
 
 
@@ -53,7 +57,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ModuleGraphEngineCore::__construct($type)
+```php
+mixed ModuleGraphEngineCore::__construct($type)
+```
 
 
 
@@ -70,7 +76,9 @@ Methods
 
 ### <a name="method-createValues"></a>createValues
 
-    mixed ModuleGraphEngineCore::createValues($values)
+```php
+mixed ModuleGraphEngineCore::createValues($values)
+```
 
 
 
@@ -88,7 +96,9 @@ Methods
 
 ### <a name="method-draw"></a>draw
 
-    mixed ModuleGraphEngineCore::draw()
+```php
+mixed ModuleGraphEngineCore::draw()
+```
 
 
 
@@ -103,7 +113,9 @@ Methods
 
 ### <a name="method-getGraphEngines"></a>getGraphEngines
 
-    mixed ModuleGraphEngineCore::getGraphEngines()
+```php
+mixed ModuleGraphEngineCore::getGraphEngines()
+```
 
 
 
@@ -118,7 +130,9 @@ Methods
 
 ### <a name="method-install"></a>install
 
-    mixed ModuleGraphEngineCore::install()
+```php
+mixed ModuleGraphEngineCore::install()
+```
 
 
 
@@ -132,7 +146,9 @@ Methods
 
 ### <a name="method-setLegend"></a>setLegend
 
-    mixed ModuleGraphEngineCore::setLegend($legend)
+```php
+mixed ModuleGraphEngineCore::setLegend($legend)
+```
 
 
 
@@ -150,7 +166,9 @@ Methods
 
 ### <a name="method-setSize"></a>setSize
 
-    mixed ModuleGraphEngineCore::setSize($width, $height)
+```php
+mixed ModuleGraphEngineCore::setSize($width, $height)
+```
 
 
 
@@ -169,7 +187,9 @@ Methods
 
 ### <a name="method-setTitles"></a>setTitles
 
-    mixed ModuleGraphEngineCore::setTitles($titles)
+```php
+mixed ModuleGraphEngineCore::setTitles($titles)
+```
 
 
 

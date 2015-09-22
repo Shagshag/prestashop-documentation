@@ -10,15 +10,17 @@ Class AdminSearchConfControllerCore
 * Source: [controllers/admin/AdminSearchConfController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 * [$toolbar_scroll](#property-$toolbar_scroll)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
 * [initProcess](#method-initProcess)
@@ -35,7 +37,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Alias $object
+```php
+public \Alias $object
+```
 
 
 
@@ -47,7 +51,9 @@ Properties
 
 ### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
 
-    protected mixed $toolbar_scroll = false
+```php
+protected mixed $toolbar_scroll = false
+```
 
 
 
@@ -63,7 +69,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminSearchConfControllerCore::__construct()
+```php
+mixed AdminSearchConfControllerCore::__construct()
+```
 
 
 
@@ -77,7 +85,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminSearchConfControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminSearchConfControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -91,7 +101,9 @@ Methods
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminSearchConfControllerCore::initProcess()
+```php
+mixed AdminSearchConfControllerCore::initProcess()
+```
 
 
 
@@ -105,7 +117,9 @@ Methods
 
 ### <a name="method-processSave"></a>processSave
 
-    mixed AdminSearchConfControllerCore::processSave()
+```php
+mixed AdminSearchConfControllerCore::processSave()
+```
 
 
 
@@ -119,7 +133,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminSearchConfControllerCore::renderForm()
+```php
+mixed AdminSearchConfControllerCore::renderForm()
+```
 
 
 
@@ -133,7 +149,9 @@ Methods
 
 ### <a name="method-renderOptions"></a>renderOptions
 
-    mixed AdminSearchConfControllerCore::renderOptions()
+```php
+mixed AdminSearchConfControllerCore::renderOptions()
+```
 
 Function used to render the options for this controller
 

@@ -9,15 +9,17 @@ Class OrderInvoiceCore
 * Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/OrderInvoice.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DETAIL](#constant-DETAIL)
 * [TAX_EXCL](#constant-TAX_EXCL)
 * [TAX_INCL](#constant-TAX_INCL)
 
-Properties
-----------
+### Properties
 
 * [$_total_paid_cache](#property-$_total_paid_cache)
 * [$date_add](#property-$date_add)
@@ -43,8 +45,8 @@ Properties
 * [$total_wrapping_tax_excl](#property-$total_wrapping_tax_excl)
 * [$total_wrapping_tax_incl](#property-$total_wrapping_tax_incl)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [displayTaxBasesInProductTaxesBreakdown](#method-displayTaxBasesInProductTaxesBreakdown)
 * [fixAllShopAddresses](#method-fixAllShopAddresses)
@@ -85,7 +87,9 @@ Constants
 
 ### <a name="constant-DETAIL"></a>DETAIL
 
-    const DETAIL = 2
+```php
+const DETAIL = 2
+```
 
 
 
@@ -96,7 +100,9 @@ Constants
 
 ### <a name="constant-TAX_EXCL"></a>TAX_EXCL
 
-    const TAX_EXCL = 0
+```php
+const TAX_EXCL = 0
+```
 
 
 
@@ -107,7 +113,9 @@ Constants
 
 ### <a name="constant-TAX_INCL"></a>TAX_INCL
 
-    const TAX_INCL = 1
+```php
+const TAX_INCL = 1
+```
 
 
 
@@ -122,7 +130,9 @@ Properties
 
 ### <a name="property-$_total_paid_cache"></a>$_total_paid_cache
 
-    protected array $_total_paid_cache = array()
+```php
+protected array $_total_paid_cache = array()
+```
 
 
 
@@ -135,7 +145,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public integer $date_add
+```php
+public integer $date_add
+```
 
 
 
@@ -147,7 +159,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'order_invoice', 'primary' => 'id_order_invoice', 'fields' => array('id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'number' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'delivery_number' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'delivery_date' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat'), 'total_discount_tax_excl' => array('type' => self::TYPE_FLOAT), 'total_discount_tax_incl' => array('type' => self::TYPE_FLOAT), 'total_paid_tax_excl' => array('type' => self::TYPE_FLOAT), 'total_paid_tax_incl' => array('type' => self::TYPE_FLOAT), 'total_products' => array('type' => self::TYPE_FLOAT), 'total_products_wt' => array('type' => self::TYPE_FLOAT), 'total_shipping_tax_excl' => array('type' => self::TYPE_FLOAT), 'total_shipping_tax_incl' => array('type' => self::TYPE_FLOAT), 'shipping_tax_computation_method' => array('type' => self::TYPE_INT), 'total_wrapping_tax_excl' => array('type' => self::TYPE_FLOAT), 'total_wrapping_tax_incl' => array('type' => self::TYPE_FLOAT), 'shop_address' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml', 'size' => 1000), 'invoice_address' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml', 'size' => 1000), 'delivery_address' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml', 'size' => 1000), 'note' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 65000), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'order_invoice', 'primary' => 'id_order_invoice', 'fields' => array('id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'number' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'delivery_number' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'delivery_date' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat'), 'total_discount_tax_excl' => array('type' => self::TYPE_FLOAT), 'total_discount_tax_incl' => array('type' => self::TYPE_FLOAT), 'total_paid_tax_excl' => array('type' => self::TYPE_FLOAT), 'total_paid_tax_incl' => array('type' => self::TYPE_FLOAT), 'total_products' => array('type' => self::TYPE_FLOAT), 'total_products_wt' => array('type' => self::TYPE_FLOAT), 'total_shipping_tax_excl' => array('type' => self::TYPE_FLOAT), 'total_shipping_tax_incl' => array('type' => self::TYPE_FLOAT), 'shipping_tax_computation_method' => array('type' => self::TYPE_INT), 'total_wrapping_tax_excl' => array('type' => self::TYPE_FLOAT), 'total_wrapping_tax_incl' => array('type' => self::TYPE_FLOAT), 'shop_address' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml', 'size' => 1000), 'invoice_address' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml', 'size' => 1000), 'delivery_address' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml', 'size' => 1000), 'note' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 65000), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -160,7 +174,9 @@ Properties
 
 ### <a name="property-$delivery_address"></a>$delivery_address
 
-    public string $delivery_address
+```php
+public string $delivery_address
+```
 
 
 
@@ -172,7 +188,9 @@ Properties
 
 ### <a name="property-$delivery_date"></a>$delivery_date
 
-    public integer $delivery_date = '0000-00-00 00:00:00'
+```php
+public integer $delivery_date = '0000-00-00 00:00:00'
+```
 
 
 
@@ -184,7 +202,9 @@ Properties
 
 ### <a name="property-$delivery_number"></a>$delivery_number
 
-    public integer $delivery_number
+```php
+public integer $delivery_number
+```
 
 
 
@@ -196,7 +216,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public integer $id_order
+```php
+public integer $id_order
+```
 
 
 
@@ -208,7 +230,9 @@ Properties
 
 ### <a name="property-$invoice_address"></a>$invoice_address
 
-    public string $invoice_address
+```php
+public string $invoice_address
+```
 
 
 
@@ -220,7 +244,9 @@ Properties
 
 ### <a name="property-$note"></a>$note
 
-    public string $note
+```php
+public string $note
+```
 
 
 
@@ -232,7 +258,9 @@ Properties
 
 ### <a name="property-$number"></a>$number
 
-    public integer $number
+```php
+public integer $number
+```
 
 
 
@@ -244,7 +272,9 @@ Properties
 
 ### <a name="property-$order"></a>$order
 
-    private \Order $order
+```php
+private \Order $order
+```
 
 
 
@@ -256,7 +286,9 @@ Properties
 
 ### <a name="property-$shipping_tax_computation_method"></a>$shipping_tax_computation_method
 
-    public integer $shipping_tax_computation_method
+```php
+public integer $shipping_tax_computation_method
+```
 
 
 
@@ -268,7 +300,9 @@ Properties
 
 ### <a name="property-$shop_address"></a>$shop_address
 
-    public string $shop_address
+```php
+public string $shop_address
+```
 
 
 
@@ -280,7 +314,9 @@ Properties
 
 ### <a name="property-$total_discount_tax_excl"></a>$total_discount_tax_excl
 
-    public float $total_discount_tax_excl
+```php
+public float $total_discount_tax_excl
+```
 
 
 
@@ -292,7 +328,9 @@ Properties
 
 ### <a name="property-$total_discount_tax_incl"></a>$total_discount_tax_incl
 
-    public float $total_discount_tax_incl
+```php
+public float $total_discount_tax_incl
+```
 
 
 
@@ -304,7 +342,9 @@ Properties
 
 ### <a name="property-$total_paid_tax_excl"></a>$total_paid_tax_excl
 
-    public float $total_paid_tax_excl
+```php
+public float $total_paid_tax_excl
+```
 
 
 
@@ -316,7 +356,9 @@ Properties
 
 ### <a name="property-$total_paid_tax_incl"></a>$total_paid_tax_incl
 
-    public float $total_paid_tax_incl
+```php
+public float $total_paid_tax_incl
+```
 
 
 
@@ -328,7 +370,9 @@ Properties
 
 ### <a name="property-$total_products"></a>$total_products
 
-    public float $total_products
+```php
+public float $total_products
+```
 
 
 
@@ -340,7 +384,9 @@ Properties
 
 ### <a name="property-$total_products_wt"></a>$total_products_wt
 
-    public float $total_products_wt
+```php
+public float $total_products_wt
+```
 
 
 
@@ -352,7 +398,9 @@ Properties
 
 ### <a name="property-$total_shipping_tax_excl"></a>$total_shipping_tax_excl
 
-    public float $total_shipping_tax_excl
+```php
+public float $total_shipping_tax_excl
+```
 
 
 
@@ -364,7 +412,9 @@ Properties
 
 ### <a name="property-$total_shipping_tax_incl"></a>$total_shipping_tax_incl
 
-    public float $total_shipping_tax_incl
+```php
+public float $total_shipping_tax_incl
+```
 
 
 
@@ -376,7 +426,9 @@ Properties
 
 ### <a name="property-$total_wrapping_tax_excl"></a>$total_wrapping_tax_excl
 
-    public float $total_wrapping_tax_excl
+```php
+public float $total_wrapping_tax_excl
+```
 
 
 
@@ -388,7 +440,9 @@ Properties
 
 ### <a name="property-$total_wrapping_tax_incl"></a>$total_wrapping_tax_incl
 
-    public float $total_wrapping_tax_incl
+```php
+public float $total_wrapping_tax_incl
+```
 
 
 
@@ -404,7 +458,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed OrderInvoiceCore::add($autodate, $null_values)
+```php
+mixed OrderInvoiceCore::add($autodate, $null_values)
+```
 
 
 
@@ -422,7 +478,9 @@ Methods
 
 ### <a name="method-displayTaxBasesInProductTaxesBreakdown"></a>displayTaxBasesInProductTaxesBreakdown
 
-    mixed OrderInvoiceCore::displayTaxBasesInProductTaxesBreakdown()
+```php
+mixed OrderInvoiceCore::displayTaxBasesInProductTaxesBreakdown()
+```
 
 
 
@@ -436,7 +494,9 @@ Methods
 
 ### <a name="method-fixAllShopAddresses"></a>fixAllShopAddresses
 
-    mixed OrderInvoiceCore::fixAllShopAddresses()
+```php
+mixed OrderInvoiceCore::fixAllShopAddresses()
+```
 
 This method is used to fix shop addresses that cannot be fixed during upgrade process
 (because uses the whole environnement of PS classes that is not available during upgrade).
@@ -453,7 +513,9 @@ This method is triggered once during a (non bulk) creation of a PDF from an Orde
 
 ### <a name="method-getByDateInterval"></a>getByDateInterval
 
-    array OrderInvoiceCore::getByDateInterval($date_from, $date_to)
+```php
+array OrderInvoiceCore::getByDateInterval($date_from, $date_to)
+```
 
 Returns all the order invoice that match the date interval
 
@@ -472,7 +534,9 @@ Returns all the order invoice that match the date interval
 
 ### <a name="method-getByDeliveryDateInterval"></a>getByDeliveryDateInterval
 
-    array OrderInvoiceCore::getByDeliveryDateInterval($date_from, $date_to)
+```php
+array OrderInvoiceCore::getByDeliveryDateInterval($date_from, $date_to)
+```
 
 
 
@@ -491,7 +555,9 @@ Returns all the order invoice that match the date interval
 
 ### <a name="method-getByStatus"></a>getByStatus
 
-    array OrderInvoiceCore::getByStatus($id_order_state)
+```php
+array OrderInvoiceCore::getByStatus($id_order_state)
+```
 
 
 
@@ -509,7 +575,9 @@ Returns all the order invoice that match the date interval
 
 ### <a name="method-getCarrier"></a>getCarrier
 
-    mixed OrderInvoiceCore::getCarrier($id_order_invoice)
+```php
+mixed OrderInvoiceCore::getCarrier($id_order_invoice)
+```
 
 
 
@@ -527,7 +595,9 @@ Returns all the order invoice that match the date interval
 
 ### <a name="method-getCarrierId"></a>getCarrierId
 
-    mixed OrderInvoiceCore::getCarrierId($id_order_invoice)
+```php
+mixed OrderInvoiceCore::getCarrierId($id_order_invoice)
+```
 
 
 
@@ -545,7 +615,9 @@ Returns all the order invoice that match the date interval
 
 ### <a name="method-getCurrentFormattedShopAddress"></a>getCurrentFormattedShopAddress
 
-    mixed OrderInvoiceCore::getCurrentFormattedShopAddress($id_shop)
+```php
+mixed OrderInvoiceCore::getCurrentFormattedShopAddress($id_shop)
+```
 
 
 
@@ -563,7 +635,9 @@ Returns all the order invoice that match the date interval
 
 ### <a name="method-getEcoTaxTaxesBreakdown"></a>getEcoTaxTaxesBreakdown
 
-    array OrderInvoiceCore::getEcoTaxTaxesBreakdown()
+```php
+array OrderInvoiceCore::getEcoTaxTaxesBreakdown()
+```
 
 Returns the ecotax taxes breakdown
 
@@ -577,7 +651,9 @@ Returns the ecotax taxes breakdown
 
 ### <a name="method-getGlobalRestPaid"></a>getGlobalRestPaid
 
-    mixed OrderInvoiceCore::getGlobalRestPaid()
+```php
+mixed OrderInvoiceCore::getGlobalRestPaid()
+```
 
 Get global rest to paid
    This method will return something different of the method getRestPaid if
@@ -593,7 +669,9 @@ Get global rest to paid
 
 ### <a name="method-getInvoiceByNumber"></a>getInvoiceByNumber
 
-    mixed OrderInvoiceCore::getInvoiceByNumber($id_invoice)
+```php
+mixed OrderInvoiceCore::getInvoiceByNumber($id_invoice)
+```
 
 
 
@@ -611,7 +689,9 @@ Get global rest to paid
 
 ### <a name="method-getInvoiceNumberFormatted"></a>getInvoiceNumberFormatted
 
-    string OrderInvoiceCore::getInvoiceNumberFormatted(integer $id_lang, $id_shop)
+```php
+string OrderInvoiceCore::getInvoiceNumberFormatted(integer $id_lang, $id_shop)
+```
 
 Get the formatted number of invoice
 
@@ -629,7 +709,9 @@ Get the formatted number of invoice
 
 ### <a name="method-getOrder"></a>getOrder
 
-    mixed OrderInvoiceCore::getOrder()
+```php
+mixed OrderInvoiceCore::getOrder()
+```
 
 
 
@@ -643,7 +725,9 @@ Get the formatted number of invoice
 
 ### <a name="method-getOrderPaymentCollection"></a>getOrderPaymentCollection
 
-    \PrestaShopCollection OrderInvoiceCore::getOrderPaymentCollection()
+```php
+\PrestaShopCollection OrderInvoiceCore::getOrderPaymentCollection()
+```
 
 
 
@@ -657,7 +741,9 @@ Get the formatted number of invoice
 
 ### <a name="method-getProductTaxesBreakdown"></a>getProductTaxesBreakdown
 
-    mixed OrderInvoiceCore::getProductTaxesBreakdown($order)
+```php
+mixed OrderInvoiceCore::getProductTaxesBreakdown($order)
+```
 
 
 
@@ -674,7 +760,9 @@ Get the formatted number of invoice
 
 ### <a name="method-getProducts"></a>getProducts
 
-    array OrderInvoiceCore::getProducts($products, $selected_products, $selected_qty)
+```php
+array OrderInvoiceCore::getProducts($products, $selected_products, $selected_qty)
+```
 
 Get order products
 
@@ -693,7 +781,9 @@ Get order products
 
 ### <a name="method-getProductsDetail"></a>getProductsDetail
 
-    mixed OrderInvoiceCore::getProductsDetail()
+```php
+mixed OrderInvoiceCore::getProductsDetail()
+```
 
 
 
@@ -707,7 +797,9 @@ Get order products
 
 ### <a name="method-getRestPaid"></a>getRestPaid
 
-    float OrderInvoiceCore::getRestPaid()
+```php
+float OrderInvoiceCore::getRestPaid()
+```
 
 Rest Paid
 
@@ -721,7 +813,9 @@ Rest Paid
 
 ### <a name="method-getShippingTaxesBreakdown"></a>getShippingTaxesBreakdown
 
-    array OrderInvoiceCore::getShippingTaxesBreakdown(\Order $order)
+```php
+array OrderInvoiceCore::getShippingTaxesBreakdown(\Order $order)
+```
 
 Returns the shipping taxes breakdown
 
@@ -738,7 +832,9 @@ Returns the shipping taxes breakdown
 
 ### <a name="method-getSibling"></a>getSibling
 
-    \PrestaShopCollection|array OrderInvoiceCore::getSibling()
+```php
+\PrestaShopCollection|array OrderInvoiceCore::getSibling()
+```
 
 Return collection of order invoice object linked to the payments of the current order invoice object
 
@@ -752,7 +848,9 @@ Return collection of order invoice object linked to the payments of the current 
 
 ### <a name="method-getSiblingTotal"></a>getSiblingTotal
 
-    mixed OrderInvoiceCore::getSiblingTotal(integer $mod)
+```php
+mixed OrderInvoiceCore::getSiblingTotal(integer $mod)
+```
 
 Return total to paid of sibling invoices
 
@@ -769,7 +867,9 @@ Return total to paid of sibling invoices
 
 ### <a name="method-getTotalPaid"></a>getTotalPaid
 
-    float OrderInvoiceCore::getTotalPaid()
+```php
+float OrderInvoiceCore::getTotalPaid()
+```
 
 Amounts of payments
 
@@ -783,7 +883,9 @@ Amounts of payments
 
 ### <a name="method-getWrappingTaxesBreakdown"></a>getWrappingTaxesBreakdown
 
-    array OrderInvoiceCore::getWrappingTaxesBreakdown()
+```php
+array OrderInvoiceCore::getWrappingTaxesBreakdown()
+```
 
 Returns the wrapping taxes breakdown
 
@@ -797,7 +899,9 @@ Returns the wrapping taxes breakdown
 
 ### <a name="method-isPaid"></a>isPaid
 
-    boolean OrderInvoiceCore::isPaid()
+```php
+boolean OrderInvoiceCore::isPaid()
+```
 
 
 
@@ -811,7 +915,9 @@ Returns the wrapping taxes breakdown
 
 ### <a name="method-retrieveOneById"></a>retrieveOneById
 
-    \OrderInvoice OrderInvoiceCore::retrieveOneById(integer $id)
+```php
+\OrderInvoice OrderInvoiceCore::retrieveOneById(integer $id)
+```
 
 
 
@@ -829,7 +935,9 @@ Returns the wrapping taxes breakdown
 
 ### <a name="method-saveCarrierTaxCalculator"></a>saveCarrierTaxCalculator
 
-    mixed OrderInvoiceCore::saveCarrierTaxCalculator(array $taxes_amount)
+```php
+mixed OrderInvoiceCore::saveCarrierTaxCalculator(array $taxes_amount)
+```
 
 
 
@@ -846,7 +954,9 @@ Returns the wrapping taxes breakdown
 
 ### <a name="method-saveWrappingTaxCalculator"></a>saveWrappingTaxCalculator
 
-    mixed OrderInvoiceCore::saveWrappingTaxCalculator(array $taxes_amount)
+```php
+mixed OrderInvoiceCore::saveWrappingTaxCalculator(array $taxes_amount)
+```
 
 
 
@@ -863,7 +973,9 @@ Returns the wrapping taxes breakdown
 
 ### <a name="method-setProductCurrentStock"></a>setProductCurrentStock
 
-    mixed OrderInvoiceCore::setProductCurrentStock($product)
+```php
+mixed OrderInvoiceCore::setProductCurrentStock($product)
+```
 
 This method allow to add stock information on a product detail
 
@@ -880,7 +992,9 @@ This method allow to add stock information on a product detail
 
 ### <a name="method-setProductCustomizedDatas"></a>setProductCustomizedDatas
 
-    mixed OrderInvoiceCore::setProductCustomizedDatas($product, $customized_datas)
+```php
+mixed OrderInvoiceCore::setProductCustomizedDatas($product, $customized_datas)
+```
 
 
 
@@ -898,7 +1012,9 @@ This method allow to add stock information on a product detail
 
 ### <a name="method-setProductImageInformations"></a>setProductImageInformations
 
-    mixed OrderInvoiceCore::setProductImageInformations($product)
+```php
+mixed OrderInvoiceCore::setProductImageInformations($product)
+```
 
 This method allow to add image information on a product detail
 
@@ -915,7 +1031,9 @@ This method allow to add image information on a product detail
 
 ### <a name="method-useOneAfterAnotherTaxComputationMethod"></a>useOneAfterAnotherTaxComputationMethod
 
-    boolean OrderInvoiceCore::useOneAfterAnotherTaxComputationMethod()
+```php
+boolean OrderInvoiceCore::useOneAfterAnotherTaxComputationMethod()
+```
 
 This method returns true if at least one order details uses the
 One After Another tax computation method.

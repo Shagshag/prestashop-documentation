@@ -9,12 +9,13 @@ StockManagerInterface : defines a way to manage stock
 * This is an **interface**
 * Source: [classes/stock/StockManagerInterface.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerInterface.php#L31)
 
+Contents
+--------
 
 
 
+### Methods
 
-Methods
--------
 * [addProduct](#method-addProduct)
 * [getProductCoverage](#method-getProductCoverage)
 * [getProductPhysicalQuantities](#method-getProductPhysicalQuantities)
@@ -34,7 +35,9 @@ Methods
 
 ### <a name="method-addProduct"></a>addProduct
 
-    boolean StockManagerInterface::addProduct(integer $id_product, integer $id_product_attribute, \Warehouse $warehouse, integer $quantity, integer $id_stock_movement_reason, float $price_te, boolean $is_usable, integer $id_supply_order)
+```php
+boolean StockManagerInterface::addProduct(integer $id_product, integer $id_product_attribute, \Warehouse $warehouse, integer $quantity, integer $id_stock_movement_reason, float $price_te, boolean $is_usable, integer $id_supply_order)
+```
 
 For a given product, adds a given quantity
 
@@ -58,7 +61,9 @@ For a given product, adds a given quantity
 
 ### <a name="method-getProductCoverage"></a>getProductCoverage
 
-    integer StockManagerInterface::getProductCoverage(integer $id_product, integer $id_product_attribute, integer $coverage, integer $id_warehouse)
+```php
+integer StockManagerInterface::getProductCoverage(integer $id_product, integer $id_product_attribute, integer $coverage, integer $id_warehouse)
+```
 
 For a given product, returns the time left before being out of stock.
 
@@ -78,7 +83,9 @@ By default, for the given product, it will use sum(quantities removed in all war
 
 ### <a name="method-getProductPhysicalQuantities"></a>getProductPhysicalQuantities
 
-    integer StockManagerInterface::getProductPhysicalQuantities(integer $id_product, integer $id_product_attribute, array|integer $ids_warehouse, boolean $usable)
+```php
+integer StockManagerInterface::getProductPhysicalQuantities(integer $id_product, integer $id_product_attribute, array|integer $ids_warehouse, boolean $usable)
+```
 
 For a given product, returns its physical quantity
 If the given product has combinations and $id_product_attribute is null, returns the sum for all combinations
@@ -99,7 +106,9 @@ If the given product has combinations and $id_product_attribute is null, returns
 
 ### <a name="method-getProductRealQuantities"></a>getProductRealQuantities
 
-    integer StockManagerInterface::getProductRealQuantities(integer $id_product, integer $id_product_attribute, array|integer $ids_warehouse, boolean $usable)
+```php
+integer StockManagerInterface::getProductRealQuantities(integer $id_product, integer $id_product_attribute, array|integer $ids_warehouse, boolean $usable)
+```
 
 For a given product, returns its real quantity
 If the given product has combinations and $id_product_attribute is null, returns the sum for all combinations
@@ -122,7 +131,9 @@ If $usable is defined, real quantity: usable_qty + supply_orders_qty - client_or
 
 ### <a name="method-isAvailable"></a>isAvailable
 
-    \StockManagerInterface StockManagerInterface::isAvailable()
+```php
+\StockManagerInterface StockManagerInterface::isAvailable()
+```
 
 Checks if the StockManager is available
 
@@ -137,7 +148,9 @@ Checks if the StockManager is available
 
 ### <a name="method-removeProduct"></a>removeProduct
 
-    array StockManagerInterface::removeProduct(integer $id_product, integer $id_product_attribute, \Warehouse $warehouse, integer $quantity, integer $id_stock_movement_reason, boolean $is_usable, integer $id_order)
+```php
+array StockManagerInterface::removeProduct(integer $id_product, integer $id_product_attribute, \Warehouse $warehouse, integer $quantity, integer $id_stock_movement_reason, boolean $is_usable, integer $id_order)
+```
 
 For a given product, removes a given quantity
 
@@ -160,7 +173,9 @@ For a given product, removes a given quantity
 
 ### <a name="method-transferBetweenWarehouses"></a>transferBetweenWarehouses
 
-    boolean StockManagerInterface::transferBetweenWarehouses(integer $id_product, integer $id_product_attribute, integer $quantity, integer $warehouse_from, integer $warehouse_to, boolean $usable_from, boolean $usable_to)
+```php
+boolean StockManagerInterface::transferBetweenWarehouses(integer $id_product, integer $id_product_attribute, integer $quantity, integer $warehouse_from, integer $warehouse_to, boolean $usable_from, boolean $usable_to)
+```
 
 For a given product, transfers quantities between two warehouses
 By default, it manages usable quantities

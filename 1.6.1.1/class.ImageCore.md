@@ -10,9 +10,11 @@ Class ImageCore
 * Source: [classes/Image.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_cacheGetSize](#property-$_cacheGetSize)
 * [$access_rights](#property-$access_rights)
@@ -28,8 +30,8 @@ Properties
 * [$position](#property-$position)
 * [$source_index](#property-$source_index)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [clearTmpDir](#method-clearTmpDir)
@@ -72,7 +74,9 @@ Properties
 
 ### <a name="property-$_cacheGetSize"></a>$_cacheGetSize
 
-    protected mixed $_cacheGetSize = array()
+```php
+protected mixed $_cacheGetSize = array()
+```
 
 
 
@@ -85,7 +89,9 @@ Properties
 
 ### <a name="property-$access_rights"></a>$access_rights
 
-    protected integer $access_rights = 509
+```php
+protected integer $access_rights = 509
+```
 
 
 
@@ -98,7 +104,9 @@ Properties
 
 ### <a name="property-$cover"></a>$cover
 
-    public boolean $cover
+```php
+public boolean $cover
+```
 
 
 
@@ -110,7 +118,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'image', 'primary' => 'id_image', 'multilang' => true, 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'shop' => 'both', 'validate' => 'isUnsignedId', 'required' => true), 'position' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'cover' => array('type' => self::TYPE_BOOL, 'allow_null' => true, 'validate' => 'isBool', 'shop' => true), 'legend' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128)))
+```php
+public mixed $definition = array('table' => 'image', 'primary' => 'id_image', 'multilang' => true, 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'shop' => 'both', 'validate' => 'isUnsignedId', 'required' => true), 'position' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'cover' => array('type' => self::TYPE_BOOL, 'allow_null' => true, 'validate' => 'isBool', 'shop' => true), 'legend' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128)))
+```
 
 
 
@@ -123,7 +133,9 @@ Properties
 
 ### <a name="property-$existing_path"></a>$existing_path
 
-    protected string $existing_path
+```php
+protected string $existing_path
+```
 
 
 
@@ -135,7 +147,9 @@ Properties
 
 ### <a name="property-$folder"></a>$folder
 
-    protected string $folder
+```php
+protected string $folder
+```
 
 
 
@@ -147,7 +161,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -159,7 +175,9 @@ Properties
 
 ### <a name="property-$id_image"></a>$id_image
 
-    public integer $id_image
+```php
+public integer $id_image
+```
 
 
 
@@ -171,7 +189,9 @@ Properties
 
 ### <a name="property-$id_product"></a>$id_product
 
-    public integer $id_product
+```php
+public integer $id_product
+```
 
 
 
@@ -183,7 +203,9 @@ Properties
 
 ### <a name="property-$image_format"></a>$image_format
 
-    public string $image_format = 'jpg'
+```php
+public string $image_format = 'jpg'
+```
 
 
 
@@ -195,7 +217,9 @@ Properties
 
 ### <a name="property-$legend"></a>$legend
 
-    public string $legend
+```php
+public string $legend
+```
 
 
 
@@ -207,7 +231,9 @@ Properties
 
 ### <a name="property-$position"></a>$position
 
-    public integer $position
+```php
+public integer $position
+```
 
 
 
@@ -219,7 +245,9 @@ Properties
 
 ### <a name="property-$source_index"></a>$source_index
 
-    public string $source_index
+```php
+public string $source_index
+```
 
 
 
@@ -235,7 +263,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ImageCore::__construct($id, $id_lang)
+```php
+mixed ImageCore::__construct($id, $id_lang)
+```
 
 
 
@@ -253,7 +283,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed ImageCore::add($autodate, $null_values)
+```php
+mixed ImageCore::add($autodate, $null_values)
+```
 
 
 
@@ -271,7 +303,9 @@ Methods
 
 ### <a name="method-clearTmpDir"></a>clearTmpDir
 
-    mixed ImageCore::clearTmpDir()
+```php
+mixed ImageCore::clearTmpDir()
+```
 
 Clear all images in tmp dir
 
@@ -286,7 +320,9 @@ Clear all images in tmp dir
 
 ### <a name="method-createImgFolder"></a>createImgFolder
 
-    boolean ImageCore::createImgFolder()
+```php
+boolean ImageCore::createImgFolder()
+```
 
 Create parent folders for the image in the new filesystem
 
@@ -300,7 +336,9 @@ Create parent folders for the image in the new filesystem
 
 ### <a name="method-delete"></a>delete
 
-    mixed ImageCore::delete()
+```php
+mixed ImageCore::delete()
+```
 
 
 
@@ -314,7 +352,9 @@ Create parent folders for the image in the new filesystem
 
 ### <a name="method-deleteAllImages"></a>deleteAllImages
 
-    boolean ImageCore::deleteAllImages(string $path, string $format)
+```php
+boolean ImageCore::deleteAllImages(string $path, string $format)
+```
 
 Recursively deletes all product images in the given folder tree and removes empty folders.
 
@@ -333,7 +373,9 @@ Recursively deletes all product images in the given folder tree and removes empt
 
 ### <a name="method-deleteCover"></a>deleteCover
 
-    boolean ImageCore::deleteCover(integer $id_product)
+```php
+boolean ImageCore::deleteCover(integer $id_product)
+```
 
 Delete product cover
 
@@ -351,7 +393,9 @@ Delete product cover
 
 ### <a name="method-deleteImage"></a>deleteImage
 
-    mixed ImageCore::deleteImage($force_delete)
+```php
+mixed ImageCore::deleteImage($force_delete)
+```
 
 Delete the product image from disk and remove the containing folder if empty
 Handles both legacy and new image filesystems
@@ -369,7 +413,9 @@ Handles both legacy and new image filesystems
 
 ### <a name="method-deleteProductAttributeImage"></a>deleteProductAttributeImage
 
-    mixed ImageCore::deleteProductAttributeImage()
+```php
+mixed ImageCore::deleteProductAttributeImage()
+```
 
 Delete Image - Product attribute associations for this image
 
@@ -383,7 +429,9 @@ Delete Image - Product attribute associations for this image
 
 ### <a name="method-duplicateAttributeImageAssociations"></a>duplicateAttributeImageAssociations
 
-    boolean ImageCore::duplicateAttributeImageAssociations($combination_images)
+```php
+boolean ImageCore::duplicateAttributeImageAssociations($combination_images)
+```
 
 Duplicate product attribute image associations
 
@@ -401,7 +449,9 @@ Duplicate product attribute image associations
 
 ### <a name="method-duplicateProductImages"></a>duplicateProductImages
 
-    mixed ImageCore::duplicateProductImages(integer $id_product_old, boolean $id_product_new, $combination_images)
+```php
+mixed ImageCore::duplicateProductImages(integer $id_product_old, boolean $id_product_new, $combination_images)
+```
 
 Copy images from a product to another
 
@@ -421,7 +471,9 @@ Copy images from a product to another
 
 ### <a name="method-getAllImages"></a>getAllImages
 
-    array ImageCore::getAllImages()
+```php
+array ImageCore::getAllImages()
+```
 
 Return Images
 
@@ -436,7 +488,9 @@ Return Images
 
 ### <a name="method-getBestImageAttribute"></a>getBestImageAttribute
 
-    array ImageCore::getBestImageAttribute(integer $id_shop, integer $id_lang, integer $id_product, integer $id_product_attribute)
+```php
+array ImageCore::getBestImageAttribute(integer $id_shop, integer $id_lang, integer $id_product, integer $id_product_attribute)
+```
 
 Return first image (by position) associated with a product attribute
 
@@ -457,7 +511,9 @@ Return first image (by position) associated with a product attribute
 
 ### <a name="method-getCover"></a>getCover
 
-    boolean ImageCore::getCover(integer $id_product)
+```php
+boolean ImageCore::getCover(integer $id_product)
+```
 
 Get product cover
 
@@ -475,7 +531,9 @@ Get product cover
 
 ### <a name="method-getExistingImgPath"></a>getExistingImgPath
 
-    mixed ImageCore::getExistingImgPath()
+```php
+mixed ImageCore::getExistingImgPath()
+```
 
 Returns image path in the old or in the new filesystem
 
@@ -489,7 +547,9 @@ Returns image path in the old or in the new filesystem
 
 ### <a name="method-getHeight"></a>getHeight
 
-    mixed ImageCore::getHeight($params, $smarty)
+```php
+mixed ImageCore::getHeight($params, $smarty)
+```
 
 
 
@@ -508,7 +568,9 @@ Returns image path in the old or in the new filesystem
 
 ### <a name="method-getHighestPosition"></a>getHighestPosition
 
-    integer ImageCore::getHighestPosition(integer $id_product)
+```php
+integer ImageCore::getHighestPosition(integer $id_product)
+```
 
 Return highest position of images for a product
 
@@ -526,7 +588,9 @@ Return highest position of images for a product
 
 ### <a name="method-getImages"></a>getImages
 
-    array ImageCore::getImages(integer $id_lang, integer $id_product, integer $id_product_attribute)
+```php
+array ImageCore::getImages(integer $id_lang, integer $id_product, integer $id_product_attribute)
+```
 
 Return available images for a product
 
@@ -546,7 +610,9 @@ Return available images for a product
 
 ### <a name="method-getImagesTotal"></a>getImagesTotal
 
-    integer ImageCore::getImagesTotal(integer $id_product)
+```php
+integer ImageCore::getImagesTotal(integer $id_product)
+```
 
 Return number of images for a product
 
@@ -564,7 +630,9 @@ Return number of images for a product
 
 ### <a name="method-getImgFolder"></a>getImgFolder
 
-    string ImageCore::getImgFolder()
+```php
+string ImageCore::getImgFolder()
+```
 
 Returns the path to the folder containing the image in the new filesystem
 
@@ -578,7 +646,9 @@ Returns the path to the folder containing the image in the new filesystem
 
 ### <a name="method-getImgFolderStatic"></a>getImgFolderStatic
 
-    string ImageCore::getImgFolderStatic(mixed $id_image)
+```php
+string ImageCore::getImgFolderStatic(mixed $id_image)
+```
 
 Returns the path to the folder containing the image in the new filesystem
 
@@ -596,7 +666,9 @@ Returns the path to the folder containing the image in the new filesystem
 
 ### <a name="method-getImgPath"></a>getImgPath
 
-    string ImageCore::getImgPath()
+```php
+string ImageCore::getImgPath()
+```
 
 Returns the path to the image without file extension
 
@@ -610,7 +682,9 @@ Returns the path to the image without file extension
 
 ### <a name="method-getPathForCreation"></a>getPathForCreation
 
-    string ImageCore::getPathForCreation()
+```php
+string ImageCore::getPathForCreation()
+```
 
 Returns the path where a product image should be created (without file format)
 
@@ -624,7 +698,9 @@ Returns the path where a product image should be created (without file format)
 
 ### <a name="method-getSize"></a>getSize
 
-    mixed ImageCore::getSize($type)
+```php
+mixed ImageCore::getSize($type)
+```
 
 
 
@@ -642,7 +718,9 @@ Returns the path where a product image should be created (without file format)
 
 ### <a name="method-getWidth"></a>getWidth
 
-    mixed ImageCore::getWidth($params, $smarty)
+```php
+mixed ImageCore::getWidth($params, $smarty)
+```
 
 
 
@@ -661,7 +739,9 @@ Returns the path where a product image should be created (without file format)
 
 ### <a name="method-hasImages"></a>hasImages
 
-    boolean ImageCore::hasImages(integer $id_lang, integer $id_product, integer $id_product_attribute)
+```php
+boolean ImageCore::hasImages(integer $id_lang, integer $id_product, integer $id_product_attribute)
+```
 
 Check if a product has an image available
 
@@ -681,7 +761,9 @@ Check if a product has an image available
 
 ### <a name="method-moveToNewFileSystem"></a>moveToNewFileSystem
 
-    mixed ImageCore::moveToNewFileSystem(integer $max_execution_time)
+```php
+mixed ImageCore::moveToNewFileSystem(integer $max_execution_time)
+```
 
 Move all legacy product image files from the image folder root to their subfolder in the new filesystem.
 
@@ -700,7 +782,9 @@ If any image cannot be moved, stops and returns "false"
 
 ### <a name="method-positionImage"></a>positionImage
 
-    mixed ImageCore::positionImage(integer $position, boolean $direction)
+```php
+mixed ImageCore::positionImage(integer $position, boolean $direction)
+```
 
 Reposition image
 
@@ -718,7 +802,9 @@ Reposition image
 
 ### <a name="method-replaceAttributeImageAssociationId"></a>replaceAttributeImageAssociationId
 
-    mixed ImageCore::replaceAttributeImageAssociationId($combination_images, $saved_id, $id_image)
+```php
+mixed ImageCore::replaceAttributeImageAssociationId($combination_images, $saved_id, $id_image)
+```
 
 
 
@@ -738,7 +824,9 @@ Reposition image
 
 ### <a name="method-testFileSystem"></a>testFileSystem
 
-    boolean ImageCore::testFileSystem()
+```php
+boolean ImageCore::testFileSystem()
+```
 
 Try to create and delete some folders to check if moving images to new file system will be possible
 
@@ -753,7 +841,9 @@ Try to create and delete some folders to check if moving images to new file syst
 
 ### <a name="method-update"></a>update
 
-    mixed ImageCore::update($null_values)
+```php
+mixed ImageCore::update($null_values)
+```
 
 
 
@@ -770,7 +860,9 @@ Try to create and delete some folders to check if moving images to new file syst
 
 ### <a name="method-updatePosition"></a>updatePosition
 
-    integer ImageCore::updatePosition(integer $way, integer $position)
+```php
+integer ImageCore::updatePosition(integer $way, integer $position)
+```
 
 Change an image position and update relative positions
 

@@ -5,12 +5,16 @@ Function epr
 
 
 
-    mixed epr($var, $message_type, $destination, $extra_headers)
+```php
+mixed epr($var, $message_type, $destination, $extra_headers)
+```
 
 * Function name: epr
-* Source: [config/alias.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/alias.php#L52)
+* Source: [config/alias.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/alias.php#L52).
 
-#### Arguments
+Arguments
+---------
+
 * $var **mixed**
 * $message_type **mixed**
 * $destination **mixed**

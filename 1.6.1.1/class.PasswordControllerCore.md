@@ -10,15 +10,17 @@ Class PasswordControllerCore
 * Source: [controllers/front/PasswordController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PasswordController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$auth](#property-$auth)
 * [$php_self](#property-$php_self)
 
-Methods
--------
+### Methods
+
 * [initContent](#method-initContent)
 * [postProcess](#method-postProcess)
 
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public mixed $auth = false
+```php
+public mixed $auth = false
+```
 
 
 
@@ -43,7 +47,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'password'
+```php
+public mixed $php_self = 'password'
+```
 
 
 
@@ -59,7 +65,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed PasswordControllerCore::initContent()
+```php
+mixed PasswordControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -73,7 +81,9 @@ Assign template vars related to page content
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed PasswordControllerCore::postProcess()
+```php
+mixed PasswordControllerCore::postProcess()
+```
 
 Start forms process
 

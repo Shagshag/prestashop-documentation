@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Core/Business/Core_Business_ContainerBuilder.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Core_Business_ContainerBuilder.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [build](#method-build)
 
 
@@ -41,7 +43,9 @@ Methods
 
 ### <a name="method-build"></a>build
 
-    \Core_Foundation_IoC_Container Core_Business_ContainerBuilder::build()
+```php
+\Core_Foundation_IoC_Container Core_Business_ContainerBuilder::build()
+```
 
 Construct PrestaShop Core Service container
 

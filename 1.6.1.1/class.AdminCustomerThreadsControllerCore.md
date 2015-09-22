@@ -10,14 +10,16 @@ Class AdminCustomerThreadsControllerCore
 * Source: [controllers/admin/AdminCustomerThreadsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessMarkAsRead](#method-ajaxProcessMarkAsRead)
 * [ajaxProcessSyncImap](#method-ajaxProcessSyncImap)
@@ -46,7 +48,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \CustomerThread $object
+```php
+public \CustomerThread $object
+```
 
 
 
@@ -62,7 +66,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminCustomerThreadsControllerCore::__construct()
+```php
+mixed AdminCustomerThreadsControllerCore::__construct()
+```
 
 
 
@@ -76,7 +82,9 @@ Methods
 
 ### <a name="method-ajaxProcessMarkAsRead"></a>ajaxProcessMarkAsRead
 
-    mixed AdminCustomerThreadsControllerCore::ajaxProcessMarkAsRead()
+```php
+mixed AdminCustomerThreadsControllerCore::ajaxProcessMarkAsRead()
+```
 
 
 
@@ -90,7 +98,9 @@ Methods
 
 ### <a name="method-ajaxProcessSyncImap"></a>ajaxProcessSyncImap
 
-    mixed AdminCustomerThreadsControllerCore::ajaxProcessSyncImap()
+```php
+mixed AdminCustomerThreadsControllerCore::ajaxProcessSyncImap()
+```
 
 Call the IMAP synchronization during an AJAX process.
 
@@ -104,7 +114,9 @@ Call the IMAP synchronization during an AJAX process.
 
 ### <a name="method-displayButton"></a>displayButton
 
-    mixed AdminCustomerThreadsControllerCore::displayButton($content)
+```php
+mixed AdminCustomerThreadsControllerCore::displayButton($content)
+```
 
 
 
@@ -121,7 +133,9 @@ Call the IMAP synchronization during an AJAX process.
 
 ### <a name="method-displayMessage"></a>displayMessage
 
-    mixed AdminCustomerThreadsControllerCore::displayMessage($message, $email, $id_employee)
+```php
+mixed AdminCustomerThreadsControllerCore::displayMessage($message, $email, $id_employee)
+```
 
 
 
@@ -140,7 +154,9 @@ Call the IMAP synchronization during an AJAX process.
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminCustomerThreadsControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```php
+mixed AdminCustomerThreadsControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```
 
 AdminController::getList() override
 
@@ -162,7 +178,9 @@ AdminController::getList() override
 
 ### <a name="method-getTimeline"></a>getTimeline
 
-    mixed AdminCustomerThreadsControllerCore::getTimeline($messages, $id_order)
+```php
+mixed AdminCustomerThreadsControllerCore::getTimeline($messages, $id_order)
+```
 
 
 
@@ -180,7 +198,9 @@ AdminController::getList() override
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminCustomerThreadsControllerCore::initContent()
+```php
+mixed AdminCustomerThreadsControllerCore::initContent()
+```
 
 
 
@@ -194,7 +214,9 @@ AdminController::getList() override
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminCustomerThreadsControllerCore::initToolbar()
+```php
+mixed AdminCustomerThreadsControllerCore::initToolbar()
+```
 
 
 
@@ -208,7 +230,9 @@ AdminController::getList() override
 
 ### <a name="method-openUploadedFile"></a>openUploadedFile
 
-    mixed AdminCustomerThreadsControllerCore::openUploadedFile()
+```php
+mixed AdminCustomerThreadsControllerCore::openUploadedFile()
+```
 
 
 
@@ -222,7 +246,9 @@ AdminController::getList() override
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminCustomerThreadsControllerCore::postProcess()
+```php
+mixed AdminCustomerThreadsControllerCore::postProcess()
+```
 
 
 
@@ -236,7 +262,9 @@ AdminController::getList() override
 
 ### <a name="method-renderKpis"></a>renderKpis
 
-    mixed AdminCustomerThreadsControllerCore::renderKpis()
+```php
+mixed AdminCustomerThreadsControllerCore::renderKpis()
+```
 
 
 
@@ -250,7 +278,9 @@ AdminController::getList() override
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminCustomerThreadsControllerCore::renderList()
+```php
+mixed AdminCustomerThreadsControllerCore::renderList()
+```
 
 
 
@@ -264,7 +294,9 @@ AdminController::getList() override
 
 ### <a name="method-renderOptions"></a>renderOptions
 
-    mixed AdminCustomerThreadsControllerCore::renderOptions()
+```php
+mixed AdminCustomerThreadsControllerCore::renderOptions()
+```
 
 
 
@@ -278,7 +310,9 @@ AdminController::getList() override
 
 ### <a name="method-renderProcessSyncImap"></a>renderProcessSyncImap
 
-    mixed AdminCustomerThreadsControllerCore::renderProcessSyncImap()
+```php
+mixed AdminCustomerThreadsControllerCore::renderProcessSyncImap()
+```
 
 Call the IMAP synchronization during the render process.
 
@@ -292,7 +326,9 @@ Call the IMAP synchronization during the render process.
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminCustomerThreadsControllerCore::renderView()
+```php
+mixed AdminCustomerThreadsControllerCore::renderView()
+```
 
 
 
@@ -306,7 +342,9 @@ Call the IMAP synchronization during the render process.
 
 ### <a name="method-syncImap"></a>syncImap
 
-    array AdminCustomerThreadsControllerCore::syncImap()
+```php
+array AdminCustomerThreadsControllerCore::syncImap()
+```
 
 Imap synchronization method.
 
@@ -320,7 +358,9 @@ Imap synchronization method.
 
 ### <a name="method-updateOptionPsSavImapOpt"></a>updateOptionPsSavImapOpt
 
-    mixed AdminCustomerThreadsControllerCore::updateOptionPsSavImapOpt($value)
+```php
+mixed AdminCustomerThreadsControllerCore::updateOptionPsSavImapOpt($value)
+```
 
 
 

@@ -9,9 +9,11 @@ Class ChartCore
 * Source: [classes/Chart.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$curves](#property-$curves)
 * [$format](#property-$format)
@@ -23,8 +25,8 @@ Properties
 * [$to](#property-$to)
 * [$width](#property-$width)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [display](#method-display)
 * [fetch](#method-fetch)
@@ -42,7 +44,9 @@ Properties
 
 ### <a name="property-$curves"></a>$curves
 
-    protected mixed $curves = array()
+```php
+protected mixed $curves = array()
+```
 
 
 
@@ -54,7 +58,9 @@ Properties
 
 ### <a name="property-$format"></a>$format
 
-    protected mixed $format
+```php
+protected mixed $format
+```
 
 
 
@@ -66,7 +72,9 @@ Properties
 
 ### <a name="property-$from"></a>$from
 
-    protected mixed $from
+```php
+protected mixed $from
+```
 
 
 
@@ -78,7 +86,9 @@ Properties
 
 ### <a name="property-$granularity"></a>$granularity
 
-    protected mixed $granularity
+```php
+protected mixed $granularity
+```
 
 
 
@@ -90,7 +100,9 @@ Properties
 
 ### <a name="property-$height"></a>$height
 
-    protected mixed $height = 300
+```php
+protected mixed $height = 300
+```
 
 
 
@@ -102,7 +114,9 @@ Properties
 
 ### <a name="property-$poolId"></a>$poolId
 
-    protected mixed $poolId
+```php
+protected mixed $poolId
+```
 
 
 
@@ -115,7 +129,9 @@ Properties
 
 ### <a name="property-$timeMode"></a>$timeMode
 
-    protected mixed $timeMode = false
+```php
+protected mixed $timeMode = false
+```
 
 
 
@@ -127,7 +143,9 @@ Properties
 
 ### <a name="property-$to"></a>$to
 
-    protected mixed $to
+```php
+protected mixed $to
+```
 
 
 
@@ -139,7 +157,9 @@ Properties
 
 ### <a name="property-$width"></a>$width
 
-    protected mixed $width = 600
+```php
+protected mixed $width = 600
+```
 
 
 
@@ -155,7 +175,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ChartCore::__construct()
+```php
+mixed ChartCore::__construct()
+```
 
 
 
@@ -169,7 +191,9 @@ Methods
 
 ### <a name="method-display"></a>display
 
-    mixed ChartCore::display()
+```php
+mixed ChartCore::display()
+```
 
 
 
@@ -183,7 +207,9 @@ Methods
 
 ### <a name="method-fetch"></a>fetch
 
-    mixed ChartCore::fetch()
+```php
+mixed ChartCore::fetch()
+```
 
 
 
@@ -197,7 +223,9 @@ Methods
 
 ### <a name="method-getCurve"></a>getCurve
 
-    mixed ChartCore::getCurve($i)
+```php
+mixed ChartCore::getCurve($i)
+```
 
 
 
@@ -214,7 +242,9 @@ Methods
 
 ### <a name="method-init"></a>init
 
-    mixed ChartCore::init()
+```php
+mixed ChartCore::init()
+```
 
 
 
@@ -229,7 +259,9 @@ Methods
 
 ### <a name="method-setSize"></a>setSize
 
-    mixed ChartCore::setSize($width, $height)
+```php
+mixed ChartCore::setSize($width, $height)
+```
 
 
 
@@ -247,7 +279,9 @@ Methods
 
 ### <a name="method-setTimeMode"></a>setTimeMode
 
-    mixed ChartCore::setTimeMode($from, $to, $granularity)
+```php
+mixed ChartCore::setTimeMode($from, $to, $granularity)
+```
 
 
 

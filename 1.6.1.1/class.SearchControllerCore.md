@@ -10,16 +10,18 @@ Class SearchControllerCore
 * Source: [controllers/front/SearchController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$ajax_search](#property-$ajax_search)
 * [$instant_search](#property-$instant_search)
 * [$php_self](#property-$php_self)
 
-Methods
--------
+### Methods
+
 * [displayFooter](#method-displayFooter)
 * [displayHeader](#method-displayHeader)
 * [init](#method-init)
@@ -35,7 +37,9 @@ Properties
 
 ### <a name="property-$ajax_search"></a>$ajax_search
 
-    public mixed $ajax_search
+```php
+public mixed $ajax_search
+```
 
 
 
@@ -47,7 +51,9 @@ Properties
 
 ### <a name="property-$instant_search"></a>$instant_search
 
-    public mixed $instant_search
+```php
+public mixed $instant_search
+```
 
 
 
@@ -59,7 +65,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'search'
+```php
+public mixed $php_self = 'search'
+```
 
 
 
@@ -75,7 +83,9 @@ Methods
 
 ### <a name="method-displayFooter"></a>displayFooter
 
-    mixed SearchControllerCore::displayFooter($display)
+```php
+mixed SearchControllerCore::displayFooter($display)
+```
 
 
 
@@ -92,7 +102,9 @@ Methods
 
 ### <a name="method-displayHeader"></a>displayHeader
 
-    mixed SearchControllerCore::displayHeader($display)
+```php
+mixed SearchControllerCore::displayHeader($display)
+```
 
 
 
@@ -109,7 +121,9 @@ Methods
 
 ### <a name="method-init"></a>init
 
-    mixed SearchControllerCore::init()
+```php
+mixed SearchControllerCore::init()
+```
 
 Initialize search controller
 
@@ -123,7 +137,9 @@ Initialize search controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed SearchControllerCore::initContent()
+```php
+mixed SearchControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -137,7 +153,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed SearchControllerCore::setMedia()
+```php
+mixed SearchControllerCore::setMedia()
+```
 
 
 

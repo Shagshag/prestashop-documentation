@@ -10,9 +10,11 @@ Class RangePriceCore
 * Source: [classes/range/RangePrice.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangePrice.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$delimiter1](#property-$delimiter1)
@@ -20,8 +22,8 @@ Properties
 * [$id_carrier](#property-$id_carrier)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [getRanges](#method-getRanges)
 * [isOverlapping](#method-isOverlapping)
@@ -36,7 +38,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'range_price', 'primary' => 'id_range_price', 'fields' => array('id_carrier' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'delimiter1' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat', 'required' => true), 'delimiter2' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'range_price', 'primary' => 'id_range_price', 'fields' => array('id_carrier' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'delimiter1' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat', 'required' => true), 'delimiter2' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat', 'required' => true)))
+```
 
 
 
@@ -49,7 +53,9 @@ Properties
 
 ### <a name="property-$delimiter1"></a>$delimiter1
 
-    public mixed $delimiter1
+```php
+public mixed $delimiter1
+```
 
 
 
@@ -61,7 +67,9 @@ Properties
 
 ### <a name="property-$delimiter2"></a>$delimiter2
 
-    public mixed $delimiter2
+```php
+public mixed $delimiter2
+```
 
 
 
@@ -73,7 +81,9 @@ Properties
 
 ### <a name="property-$id_carrier"></a>$id_carrier
 
-    public mixed $id_carrier
+```php
+public mixed $id_carrier
+```
 
 
 
@@ -85,7 +95,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'price_ranges', 'objectNodeName' => 'price_range', 'fields' => array('id_carrier' => array('xlink_resource' => 'carriers')))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'price_ranges', 'objectNodeName' => 'price_range', 'fields' => array('id_carrier' => array('xlink_resource' => 'carriers')))
+```
 
 
 
@@ -101,7 +113,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    boolean RangePriceCore::add(boolean $autodate, boolean $null_values)
+```php
+boolean RangePriceCore::add(boolean $autodate, boolean $null_values)
+```
 
 Override add to create delivery value for all zones
 
@@ -119,7 +133,9 @@ Override add to create delivery value for all zones
 
 ### <a name="method-getRanges"></a>getRanges
 
-    array RangePriceCore::getRanges($id_carrier)
+```php
+array RangePriceCore::getRanges($id_carrier)
+```
 
 Get all available price ranges
 
@@ -137,7 +153,9 @@ Get all available price ranges
 
 ### <a name="method-isOverlapping"></a>isOverlapping
 
-    mixed RangePriceCore::isOverlapping($id_carrier, $delimiter1, $delimiter2, $id_rang)
+```php
+mixed RangePriceCore::isOverlapping($id_carrier, $delimiter1, $delimiter2, $id_rang)
+```
 
 
 
@@ -158,7 +176,9 @@ Get all available price ranges
 
 ### <a name="method-rangeExist"></a>rangeExist
 
-    mixed RangePriceCore::rangeExist($id_carrier, $delimiter1, $delimiter2)
+```php
+mixed RangePriceCore::rangeExist($id_carrier, $delimiter1, $delimiter2)
+```
 
 
 

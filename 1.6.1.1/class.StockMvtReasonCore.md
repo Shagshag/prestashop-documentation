@@ -10,9 +10,11 @@ Class StockMvtReasonCore
 * Source: [classes/stock/StockMvtReason.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$date_upd](#property-$date_upd)
@@ -23,8 +25,8 @@ Properties
 * [$sign](#property-$sign)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [exists](#method-exists)
 * [getStockMvtReasons](#method-getStockMvtReasons)
 * [getStockMvtReasonsWithFilter](#method-getStockMvtReasonsWithFilter)
@@ -38,7 +40,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -50,7 +54,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -62,7 +68,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'stock_mvt_reason', 'primary' => 'id_stock_mvt_reason', 'multilang' => true, 'fields' => array('sign' => array('type' => self::TYPE_INT), 'deleted' => array('type' => self::TYPE_BOOL), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 255)))
+```php
+public mixed $definition = array('table' => 'stock_mvt_reason', 'primary' => 'id_stock_mvt_reason', 'multilang' => true, 'fields' => array('sign' => array('type' => self::TYPE_INT), 'deleted' => array('type' => self::TYPE_BOOL), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 255)))
+```
 
 
 
@@ -75,7 +83,9 @@ Properties
 
 ### <a name="property-$deleted"></a>$deleted
 
-    public boolean $deleted
+```php
+public boolean $deleted
+```
 
 
 
@@ -87,7 +97,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public integer $id
+```php
+public integer $id
+```
 
 
 
@@ -99,7 +111,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -111,7 +125,9 @@ Properties
 
 ### <a name="property-$sign"></a>$sign
 
-    public integer $sign
+```php
+public integer $sign
+```
 
 
 
@@ -123,7 +139,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'stock_movement_reasons', 'objectNodeName' => 'stock_movement_reason', 'fields' => array('sign' => array()))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'stock_movement_reasons', 'objectNodeName' => 'stock_movement_reason', 'fields' => array('sign' => array()))
+```
 
 
 
@@ -139,7 +157,9 @@ Methods
 
 ### <a name="method-exists"></a>exists
 
-    boolean StockMvtReasonCore::exists(integer $id_stock_mvt_reason)
+```php
+boolean StockMvtReasonCore::exists(integer $id_stock_mvt_reason)
+```
 
 For a given id_stock_mvt_reason, tells if it exists
 
@@ -157,7 +177,9 @@ For a given id_stock_mvt_reason, tells if it exists
 
 ### <a name="method-getStockMvtReasons"></a>getStockMvtReasons
 
-    array StockMvtReasonCore::getStockMvtReasons(integer $id_lang, integer $sign)
+```php
+array StockMvtReasonCore::getStockMvtReasons(integer $id_lang, integer $sign)
+```
 
 Gets Stock Mvt Reasons
 
@@ -176,7 +198,9 @@ Gets Stock Mvt Reasons
 
 ### <a name="method-getStockMvtReasonsWithFilter"></a>getStockMvtReasonsWithFilter
 
-    mixed StockMvtReasonCore::getStockMvtReasonsWithFilter(integer $id_lang, array $ids_ignore, integer $sign)
+```php
+mixed StockMvtReasonCore::getStockMvtReasonsWithFilter(integer $id_lang, array $ids_ignore, integer $sign)
+```
 
 Same as StockMvtReason::getStockMvtReasons(), ignoring a specific lists of ids
 

@@ -9,8 +9,11 @@ Class HelperTreeShopsCore
 * Parent class: [TreeCore](class.TreeCore.md)
 * Source: [classes/helper/HelperTreeShops.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeShops.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEFAULT_HEADER_TEMPLATE](#constant-DEFAULT_HEADER_TEMPLATE)
 * [DEFAULT_NODE_FOLDER_TEMPLATE](#constant-DEFAULT_NODE_FOLDER_TEMPLATE)
@@ -18,8 +21,7 @@ Constants
 * [DEFAULT_TEMPLATE](#constant-DEFAULT_TEMPLATE)
 * [DEFAULT_TEMPLATE_DIRECTORY](#constant-DEFAULT_TEMPLATE_DIRECTORY)
 
-Properties
-----------
+### Properties
 
 * [$_attributes](#property-$_attributes)
 * [$_context](#property-$_context)
@@ -38,8 +40,8 @@ Properties
 * [$_title](#property-$_title)
 * [$_toolbar](#property-$_toolbar)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [__toString](#method-__toString)
 * [_normalizeDirectory](#method-_normalizeDirectory)
@@ -94,7 +96,9 @@ Constants
 
 ### <a name="constant-DEFAULT_HEADER_TEMPLATE"></a>DEFAULT_HEADER_TEMPLATE
 
-    const DEFAULT_HEADER_TEMPLATE = 'tree_header.tpl'
+```php
+const DEFAULT_HEADER_TEMPLATE = 'tree_header.tpl'
+```
 
 
 
@@ -105,7 +109,9 @@ Constants
 
 ### <a name="constant-DEFAULT_NODE_FOLDER_TEMPLATE"></a>DEFAULT_NODE_FOLDER_TEMPLATE
 
-    const DEFAULT_NODE_FOLDER_TEMPLATE = 'tree_node_folder.tpl'
+```php
+const DEFAULT_NODE_FOLDER_TEMPLATE = 'tree_node_folder.tpl'
+```
 
 
 
@@ -116,7 +122,9 @@ Constants
 
 ### <a name="constant-DEFAULT_NODE_ITEM_TEMPLATE"></a>DEFAULT_NODE_ITEM_TEMPLATE
 
-    const DEFAULT_NODE_ITEM_TEMPLATE = 'tree_node_item.tpl'
+```php
+const DEFAULT_NODE_ITEM_TEMPLATE = 'tree_node_item.tpl'
+```
 
 
 
@@ -127,7 +135,9 @@ Constants
 
 ### <a name="constant-DEFAULT_TEMPLATE"></a>DEFAULT_TEMPLATE
 
-    const DEFAULT_TEMPLATE = 'tree.tpl'
+```php
+const DEFAULT_TEMPLATE = 'tree.tpl'
+```
 
 
 
@@ -138,7 +148,9 @@ Constants
 
 ### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
 
-    const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
+```php
+const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
+```
 
 
 
@@ -153,7 +165,9 @@ Properties
 
 ### <a name="property-$_attributes"></a>$_attributes
 
-    protected mixed $_attributes
+```php
+protected mixed $_attributes
+```
 
 
 
@@ -165,7 +179,9 @@ Properties
 
 ### <a name="property-$_context"></a>$_context
 
-    private mixed $_context
+```php
+private mixed $_context
+```
 
 
 
@@ -177,7 +193,9 @@ Properties
 
 ### <a name="property-$_data"></a>$_data
 
-    protected mixed $_data
+```php
+protected mixed $_data
+```
 
 
 
@@ -189,7 +207,9 @@ Properties
 
 ### <a name="property-$_data_search"></a>$_data_search
 
-    protected mixed $_data_search
+```php
+protected mixed $_data_search
+```
 
 
 
@@ -201,7 +221,9 @@ Properties
 
 ### <a name="property-$_headerTemplate"></a>$_headerTemplate
 
-    protected mixed $_headerTemplate
+```php
+protected mixed $_headerTemplate
+```
 
 
 
@@ -213,7 +235,9 @@ Properties
 
 ### <a name="property-$_id"></a>$_id
 
-    private mixed $_id
+```php
+private mixed $_id
+```
 
 
 
@@ -225,7 +249,9 @@ Properties
 
 ### <a name="property-$_id_tree"></a>$_id_tree
 
-    protected mixed $_id_tree
+```php
+protected mixed $_id_tree
+```
 
 
 
@@ -237,7 +263,9 @@ Properties
 
 ### <a name="property-$_lang"></a>$_lang
 
-    private mixed $_lang
+```php
+private mixed $_lang
+```
 
 
 
@@ -249,7 +277,9 @@ Properties
 
 ### <a name="property-$_no_js"></a>$_no_js
 
-    private mixed $_no_js
+```php
+private mixed $_no_js
+```
 
 
 
@@ -261,7 +291,9 @@ Properties
 
 ### <a name="property-$_node_folder_template"></a>$_node_folder_template
 
-    protected mixed $_node_folder_template
+```php
+protected mixed $_node_folder_template
+```
 
 
 
@@ -273,7 +305,9 @@ Properties
 
 ### <a name="property-$_node_item_template"></a>$_node_item_template
 
-    protected mixed $_node_item_template
+```php
+protected mixed $_node_item_template
+```
 
 
 
@@ -285,7 +319,9 @@ Properties
 
 ### <a name="property-$_selected_shops"></a>$_selected_shops
 
-    private mixed $_selected_shops
+```php
+private mixed $_selected_shops
+```
 
 
 
@@ -297,7 +333,9 @@ Properties
 
 ### <a name="property-$_template"></a>$_template
 
-    protected mixed $_template
+```php
+protected mixed $_template
+```
 
 
 
@@ -309,7 +347,9 @@ Properties
 
 ### <a name="property-$_template_directory"></a>$_template_directory
 
-    private string $_template_directory
+```php
+private string $_template_directory
+```
 
 
 
@@ -321,7 +361,9 @@ Properties
 
 ### <a name="property-$_title"></a>$_title
 
-    private mixed $_title
+```php
+private mixed $_title
+```
 
 
 
@@ -333,7 +375,9 @@ Properties
 
 ### <a name="property-$_toolbar"></a>$_toolbar
 
-    private \TreeToolbar $_toolbar
+```php
+private \TreeToolbar $_toolbar
+```
 
 
 
@@ -349,7 +393,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed HelperTreeShopsCore::__construct($id, $data)
+```php
+mixed HelperTreeShopsCore::__construct($id, $data)
+```
 
 
 
@@ -367,7 +413,9 @@ Methods
 
 ### <a name="method-__toString"></a>__toString
 
-    mixed HelperTreeShopsCore::__toString()
+```php
+mixed HelperTreeShopsCore::__toString()
+```
 
 
 
@@ -381,7 +429,9 @@ Methods
 
 ### <a name="method-_normalizeDirectory"></a>_normalizeDirectory
 
-    mixed HelperTreeShopsCore::_normalizeDirectory($directory)
+```php
+mixed HelperTreeShopsCore::_normalizeDirectory($directory)
+```
 
 
 
@@ -398,7 +448,9 @@ Methods
 
 ### <a name="method-addAction"></a>addAction
 
-    mixed HelperTreeShopsCore::addAction($action)
+```php
+mixed HelperTreeShopsCore::addAction($action)
+```
 
 
 
@@ -415,7 +467,9 @@ Methods
 
 ### <a name="method-getActions"></a>getActions
 
-    mixed HelperTreeShopsCore::getActions()
+```php
+mixed HelperTreeShopsCore::getActions()
+```
 
 
 
@@ -429,7 +483,9 @@ Methods
 
 ### <a name="method-getAttribute"></a>getAttribute
 
-    mixed HelperTreeShopsCore::getAttribute($name)
+```php
+mixed HelperTreeShopsCore::getAttribute($name)
+```
 
 
 
@@ -446,7 +502,9 @@ Methods
 
 ### <a name="method-getAttributes"></a>getAttributes
 
-    mixed HelperTreeShopsCore::getAttributes()
+```php
+mixed HelperTreeShopsCore::getAttributes()
+```
 
 
 
@@ -460,7 +518,9 @@ Methods
 
 ### <a name="method-getContext"></a>getContext
 
-    mixed HelperTreeShopsCore::getContext()
+```php
+mixed HelperTreeShopsCore::getContext()
+```
 
 
 
@@ -474,7 +534,9 @@ Methods
 
 ### <a name="method-getData"></a>getData
 
-    mixed HelperTreeShopsCore::getData()
+```php
+mixed HelperTreeShopsCore::getData()
+```
 
 
 
@@ -488,7 +550,9 @@ Methods
 
 ### <a name="method-getDataSearch"></a>getDataSearch
 
-    mixed HelperTreeShopsCore::getDataSearch()
+```php
+mixed HelperTreeShopsCore::getDataSearch()
+```
 
 
 
@@ -502,7 +566,9 @@ Methods
 
 ### <a name="method-getHeaderTemplate"></a>getHeaderTemplate
 
-    mixed HelperTreeShopsCore::getHeaderTemplate()
+```php
+mixed HelperTreeShopsCore::getHeaderTemplate()
+```
 
 
 
@@ -516,7 +582,9 @@ Methods
 
 ### <a name="method-getId"></a>getId
 
-    mixed HelperTreeShopsCore::getId()
+```php
+mixed HelperTreeShopsCore::getId()
+```
 
 
 
@@ -530,7 +598,9 @@ Methods
 
 ### <a name="method-getIdTree"></a>getIdTree
 
-    mixed HelperTreeShopsCore::getIdTree()
+```php
+mixed HelperTreeShopsCore::getIdTree()
+```
 
 
 
@@ -544,7 +614,9 @@ Methods
 
 ### <a name="method-getLang"></a>getLang
 
-    mixed HelperTreeShopsCore::getLang()
+```php
+mixed HelperTreeShopsCore::getLang()
+```
 
 
 
@@ -558,7 +630,9 @@ Methods
 
 ### <a name="method-getNodeFolderTemplate"></a>getNodeFolderTemplate
 
-    mixed HelperTreeShopsCore::getNodeFolderTemplate()
+```php
+mixed HelperTreeShopsCore::getNodeFolderTemplate()
+```
 
 
 
@@ -572,7 +646,9 @@ Methods
 
 ### <a name="method-getNodeItemTemplate"></a>getNodeItemTemplate
 
-    mixed HelperTreeShopsCore::getNodeItemTemplate()
+```php
+mixed HelperTreeShopsCore::getNodeItemTemplate()
+```
 
 
 
@@ -586,7 +662,9 @@ Methods
 
 ### <a name="method-getSelectedShops"></a>getSelectedShops
 
-    mixed HelperTreeShopsCore::getSelectedShops()
+```php
+mixed HelperTreeShopsCore::getSelectedShops()
+```
 
 
 
@@ -600,7 +678,9 @@ Methods
 
 ### <a name="method-getTemplate"></a>getTemplate
 
-    mixed HelperTreeShopsCore::getTemplate()
+```php
+mixed HelperTreeShopsCore::getTemplate()
+```
 
 
 
@@ -614,7 +694,9 @@ Methods
 
 ### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
-    string HelperTreeShopsCore::getTemplateDirectory()
+```php
+string HelperTreeShopsCore::getTemplateDirectory()
+```
 
 
 
@@ -628,7 +710,9 @@ Methods
 
 ### <a name="method-getTemplateFile"></a>getTemplateFile
 
-    mixed HelperTreeShopsCore::getTemplateFile($template)
+```php
+mixed HelperTreeShopsCore::getTemplateFile($template)
+```
 
 
 
@@ -645,7 +729,9 @@ Methods
 
 ### <a name="method-getTitle"></a>getTitle
 
-    mixed HelperTreeShopsCore::getTitle()
+```php
+mixed HelperTreeShopsCore::getTitle()
+```
 
 
 
@@ -659,7 +745,9 @@ Methods
 
 ### <a name="method-getToolbar"></a>getToolbar
 
-    mixed HelperTreeShopsCore::getToolbar()
+```php
+mixed HelperTreeShopsCore::getToolbar()
+```
 
 
 
@@ -673,7 +761,9 @@ Methods
 
 ### <a name="method-removeActions"></a>removeActions
 
-    mixed HelperTreeShopsCore::removeActions()
+```php
+mixed HelperTreeShopsCore::removeActions()
+```
 
 
 
@@ -687,7 +777,9 @@ Methods
 
 ### <a name="method-render"></a>render
 
-    mixed HelperTreeShopsCore::render($data)
+```php
+mixed HelperTreeShopsCore::render($data)
+```
 
 
 
@@ -704,7 +796,9 @@ Methods
 
 ### <a name="method-renderNodes"></a>renderNodes
 
-    mixed HelperTreeShopsCore::renderNodes($data)
+```php
+mixed HelperTreeShopsCore::renderNodes($data)
+```
 
 
 
@@ -721,7 +815,9 @@ Methods
 
 ### <a name="method-renderToolbar"></a>renderToolbar
 
-    mixed HelperTreeShopsCore::renderToolbar()
+```php
+mixed HelperTreeShopsCore::renderToolbar()
+```
 
 
 
@@ -735,7 +831,9 @@ Methods
 
 ### <a name="method-setActions"></a>setActions
 
-    mixed HelperTreeShopsCore::setActions($value)
+```php
+mixed HelperTreeShopsCore::setActions($value)
+```
 
 
 
@@ -752,7 +850,9 @@ Methods
 
 ### <a name="method-setAttribute"></a>setAttribute
 
-    mixed HelperTreeShopsCore::setAttribute($name, $value)
+```php
+mixed HelperTreeShopsCore::setAttribute($name, $value)
+```
 
 
 
@@ -770,7 +870,9 @@ Methods
 
 ### <a name="method-setAttributes"></a>setAttributes
 
-    mixed HelperTreeShopsCore::setAttributes($value)
+```php
+mixed HelperTreeShopsCore::setAttributes($value)
+```
 
 
 
@@ -787,7 +889,9 @@ Methods
 
 ### <a name="method-setContext"></a>setContext
 
-    mixed HelperTreeShopsCore::setContext($value)
+```php
+mixed HelperTreeShopsCore::setContext($value)
+```
 
 
 
@@ -804,7 +908,9 @@ Methods
 
 ### <a name="method-setData"></a>setData
 
-    mixed HelperTreeShopsCore::setData($value)
+```php
+mixed HelperTreeShopsCore::setData($value)
+```
 
 
 
@@ -821,7 +927,9 @@ Methods
 
 ### <a name="method-setDataSearch"></a>setDataSearch
 
-    mixed HelperTreeShopsCore::setDataSearch($value)
+```php
+mixed HelperTreeShopsCore::setDataSearch($value)
+```
 
 
 
@@ -838,7 +946,9 @@ Methods
 
 ### <a name="method-setHeaderTemplate"></a>setHeaderTemplate
 
-    mixed HelperTreeShopsCore::setHeaderTemplate($value)
+```php
+mixed HelperTreeShopsCore::setHeaderTemplate($value)
+```
 
 
 
@@ -855,7 +965,9 @@ Methods
 
 ### <a name="method-setId"></a>setId
 
-    mixed HelperTreeShopsCore::setId($value)
+```php
+mixed HelperTreeShopsCore::setId($value)
+```
 
 
 
@@ -872,7 +984,9 @@ Methods
 
 ### <a name="method-setIdTree"></a>setIdTree
 
-    mixed HelperTreeShopsCore::setIdTree($id_tree)
+```php
+mixed HelperTreeShopsCore::setIdTree($id_tree)
+```
 
 
 
@@ -889,7 +1003,9 @@ Methods
 
 ### <a name="method-setLang"></a>setLang
 
-    mixed HelperTreeShopsCore::setLang($value)
+```php
+mixed HelperTreeShopsCore::setLang($value)
+```
 
 
 
@@ -906,7 +1022,9 @@ Methods
 
 ### <a name="method-setNoJS"></a>setNoJS
 
-    mixed HelperTreeShopsCore::setNoJS($value)
+```php
+mixed HelperTreeShopsCore::setNoJS($value)
+```
 
 
 
@@ -923,7 +1041,9 @@ Methods
 
 ### <a name="method-setNodeFolderTemplate"></a>setNodeFolderTemplate
 
-    mixed HelperTreeShopsCore::setNodeFolderTemplate($value)
+```php
+mixed HelperTreeShopsCore::setNodeFolderTemplate($value)
+```
 
 
 
@@ -940,7 +1060,9 @@ Methods
 
 ### <a name="method-setNodeItemTemplate"></a>setNodeItemTemplate
 
-    mixed HelperTreeShopsCore::setNodeItemTemplate($value)
+```php
+mixed HelperTreeShopsCore::setNodeItemTemplate($value)
+```
 
 
 
@@ -957,7 +1079,9 @@ Methods
 
 ### <a name="method-setSelectedShops"></a>setSelectedShops
 
-    mixed HelperTreeShopsCore::setSelectedShops($value)
+```php
+mixed HelperTreeShopsCore::setSelectedShops($value)
+```
 
 
 
@@ -974,7 +1098,9 @@ Methods
 
 ### <a name="method-setTemplate"></a>setTemplate
 
-    mixed HelperTreeShopsCore::setTemplate($value)
+```php
+mixed HelperTreeShopsCore::setTemplate($value)
+```
 
 
 
@@ -991,7 +1117,9 @@ Methods
 
 ### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
-    \Tree HelperTreeShopsCore::setTemplateDirectory($value)
+```php
+\Tree HelperTreeShopsCore::setTemplateDirectory($value)
+```
 
 
 
@@ -1008,7 +1136,9 @@ Methods
 
 ### <a name="method-setTitle"></a>setTitle
 
-    mixed HelperTreeShopsCore::setTitle($value)
+```php
+mixed HelperTreeShopsCore::setTitle($value)
+```
 
 
 
@@ -1025,7 +1155,9 @@ Methods
 
 ### <a name="method-setToolbar"></a>setToolbar
 
-    mixed HelperTreeShopsCore::setToolbar($value)
+```php
+mixed HelperTreeShopsCore::setToolbar($value)
+```
 
 
 
@@ -1042,7 +1174,9 @@ Methods
 
 ### <a name="method-useInput"></a>useInput
 
-    mixed HelperTreeShopsCore::useInput()
+```php
+mixed HelperTreeShopsCore::useInput()
+```
 
 
 
@@ -1056,7 +1190,9 @@ Methods
 
 ### <a name="method-useToolbar"></a>useToolbar
 
-    mixed HelperTreeShopsCore::useToolbar()
+```php
+mixed HelperTreeShopsCore::useToolbar()
+```
 
 
 

@@ -10,14 +10,16 @@ Class AdminPreferencesControllerCore
 * Source: [controllers/admin/AdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPreferencesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [updateOptionPsMultishopFeatureActive](#method-updateOptionPsMultishopFeatureActive)
 
@@ -30,7 +32,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Configuration $object
+```php
+public \Configuration $object
+```
 
 
 
@@ -46,7 +50,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminPreferencesControllerCore::__construct()
+```php
+mixed AdminPreferencesControllerCore::__construct()
+```
 
 
 
@@ -60,7 +66,9 @@ Methods
 
 ### <a name="method-updateOptionPsMultishopFeatureActive"></a>updateOptionPsMultishopFeatureActive
 
-    mixed AdminPreferencesControllerCore::updateOptionPsMultishopFeatureActive(string $value)
+```php
+mixed AdminPreferencesControllerCore::updateOptionPsMultishopFeatureActive(string $value)
+```
 
 Enable / disable multishop menu if multishop feature is activated
 

@@ -5,12 +5,16 @@ Function checkImageUploadError
 
 
 
-    mixed checkImageUploadError($file)
+```php
+mixed checkImageUploadError($file)
+```
 
 * Function name: checkImageUploadError
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
-* Source: [images.inc.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/images.inc.php#L48)
+* Source: [images.inc.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/images.inc.php#L48).
 
-#### Arguments
+Arguments
+---------
+
 * $file **mixed**
 

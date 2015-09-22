@@ -10,9 +10,11 @@ Class SupplyOrderStateCore
 * Source: [classes/stock/SupplyOrderState.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$color](#property-$color)
 * [$definition](#property-$definition)
@@ -24,8 +26,8 @@ Properties
 * [$receipt_state](#property-$receipt_state)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [getStates](#method-getStates)
 * [getSupplyOrderStates](#method-getSupplyOrderStates)
 
@@ -38,7 +40,9 @@ Properties
 
 ### <a name="property-$color"></a>$color
 
-    public string $color
+```php
+public string $color
+```
 
 
 
@@ -50,7 +54,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'supply_order_state', 'primary' => 'id_supply_order_state', 'multilang' => true, 'fields' => array('delivery_note' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'editable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'receipt_state' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'pending_receipt' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'enclosed' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128)))
+```php
+public mixed $definition = array('table' => 'supply_order_state', 'primary' => 'id_supply_order_state', 'multilang' => true, 'fields' => array('delivery_note' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'editable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'receipt_state' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'pending_receipt' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'enclosed' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128)))
+```
 
 
 
@@ -63,7 +69,9 @@ Properties
 
 ### <a name="property-$delivery_note"></a>$delivery_note
 
-    public boolean $delivery_note
+```php
+public boolean $delivery_note
+```
 
 
 
@@ -75,7 +83,9 @@ Properties
 
 ### <a name="property-$editable"></a>$editable
 
-    public boolean $editable
+```php
+public boolean $editable
+```
 
 
 
@@ -87,7 +97,9 @@ Properties
 
 ### <a name="property-$enclosed"></a>$enclosed
 
-    public boolean $enclosed
+```php
+public boolean $enclosed
+```
 
 
 
@@ -99,7 +111,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -111,7 +125,9 @@ Properties
 
 ### <a name="property-$pending_receipt"></a>$pending_receipt
 
-    public boolean $pending_receipt
+```php
+public boolean $pending_receipt
+```
 
 
 
@@ -123,7 +139,9 @@ Properties
 
 ### <a name="property-$receipt_state"></a>$receipt_state
 
-    public boolean $receipt_state
+```php
+public boolean $receipt_state
+```
 
 
 
@@ -135,7 +153,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'supply_order_states', 'objectNodeName' => 'supply_order_state', 'fields' => array())
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'supply_order_states', 'objectNodeName' => 'supply_order_state', 'fields' => array())
+```
 
 
 
@@ -151,7 +171,9 @@ Methods
 
 ### <a name="method-getStates"></a>getStates
 
-    array SupplyOrderStateCore::getStates(array $ids, integer $id_lang)
+```php
+array SupplyOrderStateCore::getStates(array $ids, integer $id_lang)
+```
 
 Gets the list of supply order statuses
 
@@ -170,7 +192,9 @@ Gets the list of supply order statuses
 
 ### <a name="method-getSupplyOrderStates"></a>getSupplyOrderStates
 
-    array SupplyOrderStateCore::getSupplyOrderStates(integer $id_state_referrer, integer $id_lang)
+```php
+array SupplyOrderStateCore::getSupplyOrderStates(integer $id_state_referrer, integer $id_lang)
+```
 
 Gets the list of supply order statuses
 

@@ -10,15 +10,17 @@ Class AdminSupplyOrdersControllerCore
 * Source: [controllers/admin/AdminSupplyOrdersController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L31)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 * [$warehouses](#property-$warehouses)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterAdd](#method-afterAdd)
 * [ajaxProcessSearchProduct](#method-ajaxProcessSearchProduct)
@@ -58,7 +60,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \SupplyOrder $object
+```php
+public \SupplyOrder $object
+```
 
 
 
@@ -70,7 +74,9 @@ Properties
 
 ### <a name="property-$warehouses"></a>$warehouses
 
-    protected array $warehouses
+```php
+protected array $warehouses
+```
 
 
 
@@ -86,7 +92,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminSupplyOrdersControllerCore::__construct()
+```php
+mixed AdminSupplyOrdersControllerCore::__construct()
+```
 
 
 
@@ -100,7 +108,9 @@ Methods
 
 ### <a name="method-afterAdd"></a>afterAdd
 
-    boolean AdminSupplyOrdersControllerCore::afterAdd(\ObjectModel $object)
+```php
+boolean AdminSupplyOrdersControllerCore::afterAdd(\ObjectModel $object)
+```
 
 Overrides AdminController::afterAdd()
 
@@ -117,7 +127,9 @@ Overrides AdminController::afterAdd()
 
 ### <a name="method-ajaxProcessSearchProduct"></a>ajaxProcessSearchProduct
 
-    mixed AdminSupplyOrdersControllerCore::ajaxProcessSearchProduct()
+```php
+mixed AdminSupplyOrdersControllerCore::ajaxProcessSearchProduct()
+```
 
 method call when ajax request is made for search product to add to the order
 
@@ -131,7 +143,9 @@ method call when ajax request is made for search product to add to the order
 
 ### <a name="method-beforeAdd"></a>beforeAdd
 
-    true AdminSupplyOrdersControllerCore::beforeAdd(\SupplyOrder $object)
+```php
+true AdminSupplyOrdersControllerCore::beforeAdd(\SupplyOrder $object)
+```
 
 Overrides AdminController::beforeAdd()
 
@@ -148,7 +162,9 @@ Overrides AdminController::beforeAdd()
 
 ### <a name="method-displayChangestateLink"></a>displayChangestateLink
 
-    string AdminSupplyOrdersControllerCore::displayChangestateLink(string $token, integer $id)
+```php
+string AdminSupplyOrdersControllerCore::displayChangestateLink(string $token, integer $id)
+```
 
 Display receipt action link
 
@@ -166,7 +182,9 @@ Display receipt action link
 
 ### <a name="method-displayCreateSupplyOrderLink"></a>displayCreateSupplyOrderLink
 
-    string AdminSupplyOrdersControllerCore::displayCreateSupplyOrderLink(string $token, integer $id)
+```php
+string AdminSupplyOrdersControllerCore::displayCreateSupplyOrderLink(string $token, integer $id)
+```
 
 Display state action link
 
@@ -184,7 +202,9 @@ Display state action link
 
 ### <a name="method-displayUpdateReceiptLink"></a>displayUpdateReceiptLink
 
-    string AdminSupplyOrdersControllerCore::displayUpdateReceiptLink(string $token, integer $id)
+```php
+string AdminSupplyOrdersControllerCore::displayUpdateReceiptLink(string $token, integer $id)
+```
 
 Display state action link
 
@@ -202,7 +222,9 @@ Display state action link
 
 ### <a name="method-getCurrentWarehouse"></a>getCurrentWarehouse
 
-    integer AdminSupplyOrdersControllerCore::getCurrentWarehouse()
+```php
+integer AdminSupplyOrdersControllerCore::getCurrentWarehouse()
+```
 
 Gets the current warehouse used
 
@@ -216,7 +238,9 @@ Gets the current warehouse used
 
 ### <a name="method-getFilterStatus"></a>getFilterStatus
 
-    integer AdminSupplyOrdersControllerCore::getFilterStatus()
+```php
+integer AdminSupplyOrdersControllerCore::getFilterStatus()
+```
 
 Gets the current filter used
 
@@ -230,7 +254,9 @@ Gets the current filter used
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminSupplyOrdersControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```php
+mixed AdminSupplyOrdersControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```
 
 AdminController::getList() override
 
@@ -252,7 +278,9 @@ AdminController::getList() override
 
 ### <a name="method-init"></a>init
 
-    mixed AdminSupplyOrdersControllerCore::init()
+```php
+mixed AdminSupplyOrdersControllerCore::init()
+```
 
 AdminController::init() override
 
@@ -266,7 +294,9 @@ AdminController::init() override
 
 ### <a name="method-initChangeStateContent"></a>initChangeStateContent
 
-    mixed AdminSupplyOrdersControllerCore::initChangeStateContent()
+```php
+mixed AdminSupplyOrdersControllerCore::initChangeStateContent()
+```
 
 Init the content of change state action
 
@@ -280,7 +310,9 @@ Init the content of change state action
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminSupplyOrdersControllerCore::initContent()
+```php
+mixed AdminSupplyOrdersControllerCore::initContent()
+```
 
 AdminController::initContent() override
 
@@ -294,7 +326,9 @@ AdminController::initContent() override
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminSupplyOrdersControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminSupplyOrdersControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -308,7 +342,9 @@ AdminController::initContent() override
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminSupplyOrdersControllerCore::initProcess()
+```php
+mixed AdminSupplyOrdersControllerCore::initProcess()
+```
 
 
 
@@ -322,7 +358,9 @@ AdminController::initContent() override
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminSupplyOrdersControllerCore::initToolbar()
+```php
+mixed AdminSupplyOrdersControllerCore::initToolbar()
+```
 
 Assigns default actions in toolbar_btn smarty var, if they are not set.
 
@@ -336,7 +374,9 @@ uses override to specifically add, modify or remove items
 
 ### <a name="method-initUpdateReceiptContent"></a>initUpdateReceiptContent
 
-    mixed AdminSupplyOrdersControllerCore::initUpdateReceiptContent()
+```php
+mixed AdminSupplyOrdersControllerCore::initUpdateReceiptContent()
+```
 
 Inits the content of 'update_receipt' action
 Called in initContent()
@@ -351,7 +391,9 @@ Called in initContent()
 
 ### <a name="method-initUpdateSupplyOrderContent"></a>initUpdateSupplyOrderContent
 
-    mixed AdminSupplyOrdersControllerCore::initUpdateSupplyOrderContent()
+```php
+mixed AdminSupplyOrdersControllerCore::initUpdateSupplyOrderContent()
+```
 
 Init the content of change state action
 
@@ -365,7 +407,9 @@ Init the content of change state action
 
 ### <a name="method-loadProducts"></a>loadProducts
 
-    mixed AdminSupplyOrdersControllerCore::loadProducts(integer $threshold)
+```php
+mixed AdminSupplyOrdersControllerCore::loadProducts(integer $threshold)
+```
 
 Loads products which quantity (hysical quantity) is equal or less than $threshold
 
@@ -382,7 +426,9 @@ Loads products which quantity (hysical quantity) is equal or less than $threshol
 
 ### <a name="method-manageOrderProducts"></a>manageOrderProducts
 
-    mixed AdminSupplyOrdersControllerCore::manageOrderProducts()
+```php
+mixed AdminSupplyOrdersControllerCore::manageOrderProducts()
+```
 
 Ths method manage associated products to the order when updating it
 
@@ -396,7 +442,9 @@ Ths method manage associated products to the order when updating it
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminSupplyOrdersControllerCore::postProcess()
+```php
+mixed AdminSupplyOrdersControllerCore::postProcess()
+```
 
 AdminController::postProcess() override
 
@@ -410,7 +458,9 @@ AdminController::postProcess() override
 
 ### <a name="method-postProcessCopyFromTemplate"></a>postProcessCopyFromTemplate
 
-    mixed AdminSupplyOrdersControllerCore::postProcessCopyFromTemplate()
+```php
+mixed AdminSupplyOrdersControllerCore::postProcessCopyFromTemplate()
+```
 
 Helper function for AdminSupplyOrdersController::postProcess()
 
@@ -424,7 +474,9 @@ Helper function for AdminSupplyOrdersController::postProcess()
 
 ### <a name="method-postProcessUpdateReceipt"></a>postProcessUpdateReceipt
 
-    mixed AdminSupplyOrdersControllerCore::postProcessUpdateReceipt()
+```php
+mixed AdminSupplyOrdersControllerCore::postProcessUpdateReceipt()
+```
 
 Helper function for AdminSupplyOrdersController::postProcess()
 
@@ -438,7 +490,9 @@ Helper function for AdminSupplyOrdersController::postProcess()
 
 ### <a name="method-printExportIcons"></a>printExportIcons
 
-    string AdminSupplyOrdersControllerCore::printExportIcons(integer $id_supply_order, string $tr)
+```php
+string AdminSupplyOrdersControllerCore::printExportIcons(integer $id_supply_order, string $tr)
+```
 
 Callback used to display custom content for a given field
 
@@ -456,7 +510,9 @@ Callback used to display custom content for a given field
 
 ### <a name="method-renderCSV"></a>renderCSV
 
-    mixed AdminSupplyOrdersControllerCore::renderCSV()
+```php
+mixed AdminSupplyOrdersControllerCore::renderCSV()
+```
 
 Exports CSV
 
@@ -470,7 +526,9 @@ Exports CSV
 
 ### <a name="method-renderDetails"></a>renderDetails
 
-    mixed AdminSupplyOrdersControllerCore::renderDetails()
+```php
+mixed AdminSupplyOrdersControllerCore::renderDetails()
+```
 
 
 
@@ -484,7 +542,9 @@ Exports CSV
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminSupplyOrdersControllerCore::renderForm()
+```php
+mixed AdminSupplyOrdersControllerCore::renderForm()
+```
 
 AdminController::renderForm() override
 
@@ -498,7 +558,9 @@ AdminController::renderForm() override
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminSupplyOrdersControllerCore::renderList()
+```php
+mixed AdminSupplyOrdersControllerCore::renderList()
+```
 
 AdminController::renderList() override
 
@@ -512,7 +574,9 @@ AdminController::renderList() override
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminSupplyOrdersControllerCore::renderView()
+```php
+mixed AdminSupplyOrdersControllerCore::renderView()
+```
 
 
 

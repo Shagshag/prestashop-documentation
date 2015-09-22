@@ -10,15 +10,17 @@ Class TranslatedConfigurationCore
 * Source: [classes/TranslatedConfiguration.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [getWebserviceObjectList](#method-getWebserviceObjectList)
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'configuration', 'primary' => 'id_configuration', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isConfigName', 'required' => true, 'size' => 32), 'id_shop_group' => array('type' => self::TYPE_NOTHING, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_NOTHING, 'validate' => 'isUnsignedId'), 'value' => array('type' => self::TYPE_STRING, 'lang' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'configuration', 'primary' => 'id_configuration', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isConfigName', 'required' => true, 'size' => 32), 'id_shop_group' => array('type' => self::TYPE_NOTHING, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_NOTHING, 'validate' => 'isUnsignedId'), 'value' => array('type' => self::TYPE_STRING, 'lang' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -46,7 +50,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectNodeName' => 'translated_configuration', 'objectsNodeName' => 'translated_configurations', 'fields' => array('value' => array(), 'date_add' => array(), 'date_upd' => array()))
+```php
+protected mixed $webserviceParameters = array('objectNodeName' => 'translated_configuration', 'objectsNodeName' => 'translated_configurations', 'fields' => array('value' => array(), 'date_add' => array(), 'date_upd' => array()))
+```
 
 
 
@@ -62,7 +68,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed TranslatedConfigurationCore::__construct($id, $id_lang)
+```php
+mixed TranslatedConfigurationCore::__construct($id, $id_lang)
+```
 
 
 
@@ -80,7 +88,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed TranslatedConfigurationCore::add($autodate, $nullValues)
+```php
+mixed TranslatedConfigurationCore::add($autodate, $nullValues)
+```
 
 
 
@@ -98,7 +108,9 @@ Methods
 
 ### <a name="method-getWebserviceObjectList"></a>getWebserviceObjectList
 
-    mixed TranslatedConfigurationCore::getWebserviceObjectList($sql_join, $sql_filter, $sql_sort, $sql_limit)
+```php
+mixed TranslatedConfigurationCore::getWebserviceObjectList($sql_join, $sql_filter, $sql_sort, $sql_limit)
+```
 
 
 
@@ -118,7 +130,9 @@ Methods
 
 ### <a name="method-update"></a>update
 
-    mixed TranslatedConfigurationCore::update($nullValues)
+```php
+mixed TranslatedConfigurationCore::update($nullValues)
+```
 
 
 

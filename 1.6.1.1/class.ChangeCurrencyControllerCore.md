@@ -10,11 +10,13 @@ Class ChangeCurrencyControllerCore
 * Source: [controllers/front/ChangeCurrencyController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ChangeCurrencyController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [initContent](#method-initContent)
 
 
@@ -28,7 +30,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed ChangeCurrencyControllerCore::initContent()
+```php
+mixed ChangeCurrencyControllerCore::initContent()
+```
 
 Assign template vars related to page content
 

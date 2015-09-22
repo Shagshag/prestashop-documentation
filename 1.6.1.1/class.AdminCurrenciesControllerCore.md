@@ -10,14 +10,16 @@ Class AdminCurrenciesControllerCore
 * Source: [controllers/admin/AdminCurrenciesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [checkDeletion](#method-checkDeletion)
 * [checkDisableStatus](#method-checkDisableStatus)
@@ -40,7 +42,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Currency $object
+```php
+public \Currency $object
+```
 
 
 
@@ -56,7 +60,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminCurrenciesControllerCore::__construct()
+```php
+mixed AdminCurrenciesControllerCore::__construct()
+```
 
 
 
@@ -70,7 +76,9 @@ Methods
 
 ### <a name="method-checkDeletion"></a>checkDeletion
 
-    mixed AdminCurrenciesControllerCore::checkDeletion($object)
+```php
+mixed AdminCurrenciesControllerCore::checkDeletion($object)
+```
 
 
 
@@ -87,7 +95,9 @@ Methods
 
 ### <a name="method-checkDisableStatus"></a>checkDisableStatus
 
-    mixed AdminCurrenciesControllerCore::checkDisableStatus($object)
+```php
+mixed AdminCurrenciesControllerCore::checkDisableStatus($object)
+```
 
 
 
@@ -104,7 +114,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminCurrenciesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminCurrenciesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -118,7 +130,9 @@ Methods
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminCurrenciesControllerCore::initProcess()
+```php
+mixed AdminCurrenciesControllerCore::initProcess()
+```
 
 
 
@@ -132,7 +146,9 @@ Methods
 
 ### <a name="method-processBulkDelete"></a>processBulkDelete
 
-    mixed AdminCurrenciesControllerCore::processBulkDelete()
+```php
+mixed AdminCurrenciesControllerCore::processBulkDelete()
+```
 
 
 
@@ -146,7 +162,9 @@ Methods
 
 ### <a name="method-processBulkDisableSelection"></a>processBulkDisableSelection
 
-    mixed AdminCurrenciesControllerCore::processBulkDisableSelection()
+```php
+mixed AdminCurrenciesControllerCore::processBulkDisableSelection()
+```
 
 
 
@@ -160,7 +178,9 @@ Methods
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminCurrenciesControllerCore::processDelete()
+```php
+mixed AdminCurrenciesControllerCore::processDelete()
+```
 
 
 
@@ -174,7 +194,9 @@ Methods
 
 ### <a name="method-processExchangeRates"></a>processExchangeRates
 
-    mixed AdminCurrenciesControllerCore::processExchangeRates()
+```php
+mixed AdminCurrenciesControllerCore::processExchangeRates()
+```
 
 Update currency exchange rates
 
@@ -188,7 +210,9 @@ Update currency exchange rates
 
 ### <a name="method-processStatus"></a>processStatus
 
-    mixed AdminCurrenciesControllerCore::processStatus()
+```php
+mixed AdminCurrenciesControllerCore::processStatus()
+```
 
 
 
@@ -202,7 +226,9 @@ Update currency exchange rates
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminCurrenciesControllerCore::renderForm()
+```php
+mixed AdminCurrenciesControllerCore::renderForm()
+```
 
 
 
@@ -216,7 +242,9 @@ Update currency exchange rates
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminCurrenciesControllerCore::renderList()
+```php
+mixed AdminCurrenciesControllerCore::renderList()
+```
 
 
 

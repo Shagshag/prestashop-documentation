@@ -10,9 +10,11 @@ Class RequestSqlCore
 * Source: [classes/RequestSql.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$attributes](#property-$attributes)
 * [$definition](#property-$definition)
@@ -21,8 +23,8 @@ Properties
 * [$sql](#property-$sql)
 * [$tested](#property-$tested)
 
-Methods
--------
+### Methods
+
 * [attributExistInTable](#method-attributExistInTable)
 * [checkedFrom](#method-checkedFrom)
 * [checkedGroupBy](#method-checkedGroupBy)
@@ -53,7 +55,9 @@ Properties
 
 ### <a name="property-$attributes"></a>$attributes
 
-    public mixed $attributes = array('passwd' => '*******************', 'secure_key' => '*******************')
+```php
+public mixed $attributes = array('passwd' => '*******************', 'secure_key' => '*******************')
+```
 
 
 
@@ -65,7 +69,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'request_sql', 'primary' => 'id_request_sql', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isString', 'required' => true, 'size' => 200), 'sql' => array('type' => self::TYPE_SQL, 'validate' => 'isString', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'request_sql', 'primary' => 'id_request_sql', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isString', 'required' => true, 'size' => 200), 'sql' => array('type' => self::TYPE_SQL, 'validate' => 'isString', 'required' => true)))
+```
 
 
 
@@ -78,7 +84,9 @@ Properties
 
 ### <a name="property-$error_sql"></a>$error_sql
 
-    public array $error_sql = array()
+```php
+public array $error_sql = array()
+```
 
 
 
@@ -90,7 +98,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -102,7 +112,9 @@ Properties
 
 ### <a name="property-$sql"></a>$sql
 
-    public mixed $sql
+```php
+public mixed $sql
+```
 
 
 
@@ -114,7 +126,9 @@ Properties
 
 ### <a name="property-$tested"></a>$tested
 
-    public array $tested = array('required' => array('SELECT', 'FROM'), 'option' => array('WHERE', 'ORDER', 'LIMIT', 'HAVING', 'GROUP', 'UNION'), 'operator' => array('AND', '&&', 'BETWEEN', 'AND', 'BINARY', '&', '~', '|', '^', 'CASE', 'WHEN', 'END', 'DIV', '/', '<=>', '=', '>=', '>', 'IS', 'NOT', 'NULL', '<<', '<=', '<', 'LIKE', '-', '%', '!=', '<>', 'REGEXP', '!', '||', 'OR', '+', '>>', 'RLIKE', 'SOUNDS', '*', '-', 'XOR', 'IN'), 'function' => array('AVG', 'SUM', 'COUNT', 'MIN', 'MAX', 'STDDEV', 'STDDEV_SAMP', 'STDDEV_POP', 'VARIANCE', 'VAR_SAMP', 'VAR_POP', 'GROUP_CONCAT', 'BIT_AND', 'BIT_OR', 'BIT_XOR'), 'unauthorized' => array('DELETE', 'ALTER', 'INSERT', 'REPLACE', 'CREATE', 'TRUNCATE', 'OPTIMIZE', 'GRANT', 'REVOKE', 'SHOW', 'HANDLER', 'LOAD', 'ROLLBACK', 'SAVEPOINT', 'UNLOCK', 'INSTALL', 'UNINSTALL', 'ANALZYE', 'BACKUP', 'CHECK', 'CHECKSUM', 'REPAIR', 'RESTORE', 'CACHE', 'DESCRIBE', 'EXPLAIN', 'USE', 'HELP', 'SET', 'DUPLICATE', 'VALUES', 'INTO', 'RENAME', 'CALL', 'PROCEDURE', 'FUNCTION', 'DATABASE', 'SERVER', 'LOGFILE', 'DEFINER', 'RETURNS', 'EVENT', 'TABLESPACE', 'VIEW', 'TRIGGER', 'DATA', 'DO', 'PASSWORD', 'USER', 'PLUGIN', 'FLUSH', 'KILL', 'RESET', 'START', 'STOP', 'PURGE', 'EXECUTE', 'PREPARE', 'DEALLOCATE', 'LOCK', 'USING', 'DROP', 'FOR', 'UPDATE', 'BEGIN', 'BY', 'ALL', 'SHARE', 'MODE', 'TO', 'KEY', 'DISTINCTROW', 'DISTINCT', 'HIGH_PRIORITY', 'LOW_PRIORITY', 'DELAYED', 'IGNORE', 'FORCE', 'STRAIGHT_JOIN', 'SQL_SMALL_RESULT', 'SQL_BIG_RESULT', 'QUICK', 'SQL_BUFFER_RESULT', 'SQL_CACHE', 'SQL_NO_CACHE', 'SQL_CALC_FOUND_ROWS', 'WITH'))
+```php
+public array $tested = array('required' => array('SELECT', 'FROM'), 'option' => array('WHERE', 'ORDER', 'LIMIT', 'HAVING', 'GROUP', 'UNION'), 'operator' => array('AND', '&&', 'BETWEEN', 'AND', 'BINARY', '&', '~', '|', '^', 'CASE', 'WHEN', 'END', 'DIV', '/', '<=>', '=', '>=', '>', 'IS', 'NOT', 'NULL', '<<', '<=', '<', 'LIKE', '-', '%', '!=', '<>', 'REGEXP', '!', '||', 'OR', '+', '>>', 'RLIKE', 'SOUNDS', '*', '-', 'XOR', 'IN'), 'function' => array('AVG', 'SUM', 'COUNT', 'MIN', 'MAX', 'STDDEV', 'STDDEV_SAMP', 'STDDEV_POP', 'VARIANCE', 'VAR_SAMP', 'VAR_POP', 'GROUP_CONCAT', 'BIT_AND', 'BIT_OR', 'BIT_XOR'), 'unauthorized' => array('DELETE', 'ALTER', 'INSERT', 'REPLACE', 'CREATE', 'TRUNCATE', 'OPTIMIZE', 'GRANT', 'REVOKE', 'SHOW', 'HANDLER', 'LOAD', 'ROLLBACK', 'SAVEPOINT', 'UNLOCK', 'INSTALL', 'UNINSTALL', 'ANALZYE', 'BACKUP', 'CHECK', 'CHECKSUM', 'REPAIR', 'RESTORE', 'CACHE', 'DESCRIBE', 'EXPLAIN', 'USE', 'HELP', 'SET', 'DUPLICATE', 'VALUES', 'INTO', 'RENAME', 'CALL', 'PROCEDURE', 'FUNCTION', 'DATABASE', 'SERVER', 'LOGFILE', 'DEFINER', 'RETURNS', 'EVENT', 'TABLESPACE', 'VIEW', 'TRIGGER', 'DATA', 'DO', 'PASSWORD', 'USER', 'PLUGIN', 'FLUSH', 'KILL', 'RESET', 'START', 'STOP', 'PURGE', 'EXECUTE', 'PREPARE', 'DEALLOCATE', 'LOCK', 'USING', 'DROP', 'FOR', 'UPDATE', 'BEGIN', 'BY', 'ALL', 'SHARE', 'MODE', 'TO', 'KEY', 'DISTINCTROW', 'DISTINCT', 'HIGH_PRIORITY', 'LOW_PRIORITY', 'DELAYED', 'IGNORE', 'FORCE', 'STRAIGHT_JOIN', 'SQL_SMALL_RESULT', 'SQL_BIG_RESULT', 'QUICK', 'SQL_BUFFER_RESULT', 'SQL_CACHE', 'SQL_NO_CACHE', 'SQL_CALC_FOUND_ROWS', 'WITH'))
+```
 
 
 
@@ -130,7 +144,9 @@ Methods
 
 ### <a name="method-attributExistInTable"></a>attributExistInTable
 
-    boolean RequestSqlCore::attributExistInTable($attr, $table)
+```php
+boolean RequestSqlCore::attributExistInTable($attr, $table)
+```
 
 Check if an attributes existe in an table
 
@@ -148,7 +164,9 @@ Check if an attributes existe in an table
 
 ### <a name="method-checkedFrom"></a>checkedFrom
 
-    boolean RequestSqlCore::checkedFrom($from)
+```php
+boolean RequestSqlCore::checkedFrom($from)
+```
 
 Check a "FROM" sentence
 
@@ -165,7 +183,9 @@ Check a "FROM" sentence
 
 ### <a name="method-checkedGroupBy"></a>checkedGroupBy
 
-    boolean RequestSqlCore::checkedGroupBy($group, $from)
+```php
+boolean RequestSqlCore::checkedGroupBy($group, $from)
+```
 
 Check a "GROUP BY" sentence
 
@@ -183,7 +203,9 @@ Check a "GROUP BY" sentence
 
 ### <a name="method-checkedHaving"></a>checkedHaving
 
-    boolean RequestSqlCore::checkedHaving($having, $from)
+```php
+boolean RequestSqlCore::checkedHaving($having, $from)
+```
 
 Check a "HAVING" sentence
 
@@ -201,7 +223,9 @@ Check a "HAVING" sentence
 
 ### <a name="method-checkedLimit"></a>checkedLimit
 
-    boolean RequestSqlCore::checkedLimit($limit)
+```php
+boolean RequestSqlCore::checkedLimit($limit)
+```
 
 Check a "LIMIT" sentence
 
@@ -218,7 +242,9 @@ Check a "LIMIT" sentence
 
 ### <a name="method-checkedOrder"></a>checkedOrder
 
-    boolean RequestSqlCore::checkedOrder($order, $from)
+```php
+boolean RequestSqlCore::checkedOrder($order, $from)
+```
 
 Check a "ORDER" sentence
 
@@ -236,7 +262,9 @@ Check a "ORDER" sentence
 
 ### <a name="method-checkedSelect"></a>checkedSelect
 
-    boolean RequestSqlCore::checkedSelect($select, $from, boolean $in)
+```php
+boolean RequestSqlCore::checkedSelect($select, $from, boolean $in)
+```
 
 Check a "SELECT" sentence
 
@@ -255,7 +283,9 @@ Check a "SELECT" sentence
 
 ### <a name="method-checkedWhere"></a>checkedWhere
 
-    boolean RequestSqlCore::checkedWhere($where, $from, $sql)
+```php
+boolean RequestSqlCore::checkedWhere($where, $from, $sql)
+```
 
 Check a "WHERE" sentence
 
@@ -274,7 +304,9 @@ Check a "WHERE" sentence
 
 ### <a name="method-cutAttribute"></a>cutAttribute
 
-    array|boolean RequestSqlCore::cutAttribute($attr, $from)
+```php
+array|boolean RequestSqlCore::cutAttribute($attr, $from)
+```
 
 Cut an attribute with or without the alias
 
@@ -292,7 +324,9 @@ Cut an attribute with or without the alias
 
 ### <a name="method-cutJoin"></a>cutJoin
 
-    array|boolean RequestSqlCore::cutJoin($attrs, $from)
+```php
+array|boolean RequestSqlCore::cutJoin($attrs, $from)
+```
 
 Cut an join sentence
 
@@ -310,7 +344,9 @@ Cut an join sentence
 
 ### <a name="method-getAttributesByTable"></a>getAttributesByTable
 
-    array RequestSqlCore::getAttributesByTable($table)
+```php
+array RequestSqlCore::getAttributesByTable($table)
+```
 
 Get list of all attributes by an table
 
@@ -327,7 +363,9 @@ Get list of all attributes by an table
 
 ### <a name="method-getRequestSql"></a>getRequestSql
 
-    array|boolean RequestSqlCore::getRequestSql()
+```php
+array|boolean RequestSqlCore::getRequestSql()
+```
 
 Get list of request SQL
 
@@ -342,7 +380,9 @@ Get list of request SQL
 
 ### <a name="method-getRequestSqlById"></a>getRequestSqlById
 
-    array RequestSqlCore::getRequestSqlById($id)
+```php
+array RequestSqlCore::getRequestSqlById($id)
+```
 
 Get list of request SQL by id request
 
@@ -360,7 +400,9 @@ Get list of request SQL by id request
 
 ### <a name="method-getTables"></a>getTables
 
-    array RequestSqlCore::getTables()
+```php
+array RequestSqlCore::getTables()
+```
 
 Get list of all tables
 
@@ -374,7 +416,9 @@ Get list of all tables
 
 ### <a name="method-parsingSql"></a>parsingSql
 
-    boolean RequestSqlCore::parsingSql($sql)
+```php
+boolean RequestSqlCore::parsingSql($sql)
+```
 
 Call the parserSQL() method in Tools class
 Cut the request in table for check it
@@ -392,7 +436,9 @@ Cut the request in table for check it
 
 ### <a name="method-returnNameTable"></a>returnNameTable
 
-    array|boolean RequestSqlCore::returnNameTable(boolean $alias, $tables, $attr)
+```php
+array|boolean RequestSqlCore::returnNameTable(boolean $alias, $tables, $attr)
+```
 
 Get name of table by alias
 
@@ -411,7 +457,9 @@ Get name of table by alias
 
 ### <a name="method-testedRequired"></a>testedRequired
 
-    boolean RequestSqlCore::testedRequired($tab)
+```php
+boolean RequestSqlCore::testedRequired($tab)
+```
 
 Check if all required sentence existing
 
@@ -428,7 +476,9 @@ Check if all required sentence existing
 
 ### <a name="method-testedUnauthorized"></a>testedUnauthorized
 
-    boolean RequestSqlCore::testedUnauthorized($tab)
+```php
+boolean RequestSqlCore::testedUnauthorized($tab)
+```
 
 Check if an unauthorized existing in an array
 
@@ -445,7 +495,9 @@ Check if an unauthorized existing in an array
 
 ### <a name="method-validateParser"></a>validateParser
 
-    boolean RequestSqlCore::validateParser($tab, boolean $in, $sql)
+```php
+boolean RequestSqlCore::validateParser($tab, boolean $in, $sql)
+```
 
 Check if the parsing of the SQL request is good or not
 
@@ -464,7 +516,9 @@ Check if the parsing of the SQL request is good or not
 
 ### <a name="method-validateSql"></a>validateSql
 
-    boolean RequestSqlCore::validateSql($tab, $in, $sql)
+```php
+boolean RequestSqlCore::validateSql($tab, $in, $sql)
+```
 
 Cut the request for check each cutting
 

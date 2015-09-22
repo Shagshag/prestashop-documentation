@@ -10,14 +10,16 @@ Class AdminReferrersControllerCore
 * Source: [controllers/admin/AdminReferrersController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L59)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [displayCalendar](#method-displayCalendar)
 * [displayCalendarForm](#method-displayCalendarForm)
@@ -39,7 +41,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Referrer $object
+```php
+public \Referrer $object
+```
 
 
 
@@ -55,7 +59,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminReferrersControllerCore::__construct()
+```php
+mixed AdminReferrersControllerCore::__construct()
+```
 
 
 
@@ -69,7 +75,9 @@ Methods
 
 ### <a name="method-displayCalendar"></a>displayCalendar
 
-    mixed AdminReferrersControllerCore::displayCalendar($action, $table, $identifier, $id)
+```php
+mixed AdminReferrersControllerCore::displayCalendar($action, $table, $identifier, $id)
+```
 
 
 
@@ -89,7 +97,9 @@ Methods
 
 ### <a name="method-displayCalendarForm"></a>displayCalendarForm
 
-    mixed AdminReferrersControllerCore::displayCalendarForm($translations, $token, $action, $table, $identifier, $id)
+```php
+mixed AdminReferrersControllerCore::displayCalendarForm($translations, $token, $action, $table, $identifier, $id)
+```
 
 
 
@@ -112,7 +122,9 @@ Methods
 
 ### <a name="method-displaySettings"></a>displaySettings
 
-    mixed AdminReferrersControllerCore::displaySettings()
+```php
+mixed AdminReferrersControllerCore::displaySettings()
+```
 
 
 
@@ -126,7 +138,9 @@ Methods
 
 ### <a name="method-enableCalendar"></a>enableCalendar
 
-    mixed AdminReferrersControllerCore::enableCalendar()
+```php
+mixed AdminReferrersControllerCore::enableCalendar()
+```
 
 
 
@@ -140,7 +154,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminReferrersControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminReferrersControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -154,7 +170,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminReferrersControllerCore::postProcess()
+```php
+mixed AdminReferrersControllerCore::postProcess()
+```
 
 
 
@@ -168,7 +186,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminReferrersControllerCore::renderForm()
+```php
+mixed AdminReferrersControllerCore::renderForm()
+```
 
 
 
@@ -182,7 +202,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminReferrersControllerCore::renderList()
+```php
+mixed AdminReferrersControllerCore::renderList()
+```
 
 
 
@@ -196,7 +218,9 @@ Methods
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminReferrersControllerCore::renderView()
+```php
+mixed AdminReferrersControllerCore::renderView()
+```
 
 
 
@@ -210,7 +234,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminReferrersControllerCore::setMedia()
+```php
+mixed AdminReferrersControllerCore::setMedia()
+```
 
 
 

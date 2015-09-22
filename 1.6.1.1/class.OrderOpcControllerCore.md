@@ -10,16 +10,18 @@ Class OrderOpcControllerCore
 * Source: [controllers/front/OrderOpcController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$ajax_refresh](#property-$ajax_refresh)
 * [$isLogged](#property-$isLogged)
 * [$php_self](#property-$php_self)
 
-Methods
--------
+### Methods
+
 * [_assignCarrier](#method-_assignCarrier)
 * [_assignPayment](#method-_assignPayment)
 * [_getCarrierList](#method-_getCarrierList)
@@ -40,7 +42,9 @@ Properties
 
 ### <a name="property-$ajax_refresh"></a>$ajax_refresh
 
-    protected mixed $ajax_refresh = false
+```php
+protected mixed $ajax_refresh = false
+```
 
 
 
@@ -52,7 +56,9 @@ Properties
 
 ### <a name="property-$isLogged"></a>$isLogged
 
-    public mixed $isLogged
+```php
+public mixed $isLogged
+```
 
 
 
@@ -64,7 +70,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'order-opc'
+```php
+public mixed $php_self = 'order-opc'
+```
 
 
 
@@ -80,7 +88,9 @@ Methods
 
 ### <a name="method-_assignCarrier"></a>_assignCarrier
 
-    mixed OrderOpcControllerCore::_assignCarrier()
+```php
+mixed OrderOpcControllerCore::_assignCarrier()
+```
 
 
 
@@ -94,7 +104,9 @@ Methods
 
 ### <a name="method-_assignPayment"></a>_assignPayment
 
-    mixed OrderOpcControllerCore::_assignPayment()
+```php
+mixed OrderOpcControllerCore::_assignPayment()
+```
 
 
 
@@ -108,7 +120,9 @@ Methods
 
 ### <a name="method-_getCarrierList"></a>_getCarrierList
 
-    mixed OrderOpcControllerCore::_getCarrierList()
+```php
+mixed OrderOpcControllerCore::_getCarrierList()
+```
 
 
 
@@ -122,7 +136,9 @@ Methods
 
 ### <a name="method-_getGuestInformations"></a>_getGuestInformations
 
-    mixed OrderOpcControllerCore::_getGuestInformations()
+```php
+mixed OrderOpcControllerCore::_getGuestInformations()
+```
 
 
 
@@ -136,7 +152,9 @@ Methods
 
 ### <a name="method-_getPaymentMethods"></a>_getPaymentMethods
 
-    mixed OrderOpcControllerCore::_getPaymentMethods()
+```php
+mixed OrderOpcControllerCore::_getPaymentMethods()
+```
 
 
 
@@ -150,7 +168,9 @@ Methods
 
 ### <a name="method-_processAddressFormat"></a>_processAddressFormat
 
-    mixed OrderOpcControllerCore::_processAddressFormat()
+```php
+mixed OrderOpcControllerCore::_processAddressFormat()
+```
 
 
 
@@ -164,7 +184,9 @@ Methods
 
 ### <a name="method-getFormatedSummaryDetail"></a>getFormatedSummaryDetail
 
-    mixed OrderOpcControllerCore::getFormatedSummaryDetail()
+```php
+mixed OrderOpcControllerCore::getFormatedSummaryDetail()
+```
 
 
 
@@ -178,7 +200,9 @@ Methods
 
 ### <a name="method-init"></a>init
 
-    mixed OrderOpcControllerCore::init()
+```php
+mixed OrderOpcControllerCore::init()
+```
 
 Initialize order opc controller
 
@@ -192,7 +216,9 @@ Initialize order opc controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed OrderOpcControllerCore::initContent()
+```php
+mixed OrderOpcControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -206,7 +232,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed OrderOpcControllerCore::setMedia()
+```php
+mixed OrderOpcControllerCore::setMedia()
+```
 
 
 

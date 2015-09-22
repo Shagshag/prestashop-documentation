@@ -10,14 +10,16 @@ Class AdminSlipControllerCore
 * Source: [controllers/admin/AdminSlipController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSlipController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initContent](#method-initContent)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
@@ -35,7 +37,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \OrderSlip $object
+```php
+public \OrderSlip $object
+```
 
 
 
@@ -51,7 +55,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminSlipControllerCore::__construct()
+```php
+mixed AdminSlipControllerCore::__construct()
+```
 
 
 
@@ -65,7 +71,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminSlipControllerCore::initContent()
+```php
+mixed AdminSlipControllerCore::initContent()
+```
 
 
 
@@ -79,7 +87,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminSlipControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminSlipControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -93,7 +103,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminSlipControllerCore::initToolbar()
+```php
+mixed AdminSlipControllerCore::initToolbar()
+```
 
 
 
@@ -107,7 +119,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminSlipControllerCore::postProcess()
+```php
+mixed AdminSlipControllerCore::postProcess()
+```
 
 
 
@@ -121,7 +135,9 @@ Methods
 
 ### <a name="method-printPDFIcons"></a>printPDFIcons
 
-    mixed AdminSlipControllerCore::printPDFIcons($id_order_slip, $tr)
+```php
+mixed AdminSlipControllerCore::printPDFIcons($id_order_slip, $tr)
+```
 
 
 
@@ -139,7 +155,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminSlipControllerCore::renderForm()
+```php
+mixed AdminSlipControllerCore::renderForm()
+```
 
 
 

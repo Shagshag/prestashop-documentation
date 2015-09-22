@@ -9,14 +9,16 @@ Class StockManagerFactoryCore
 * Source: [classes/stock/StockManagerFactory.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerFactory.php#L31)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$stock_manager](#property-$stock_manager)
 
-Methods
--------
+### Methods
+
 * [execHookStockManagerFactory](#method-execHookStockManagerFactory)
 * [getManager](#method-getManager)
 
@@ -29,7 +31,9 @@ Properties
 
 ### <a name="property-$stock_manager"></a>$stock_manager
 
-    protected  $stock_manager
+```php
+protected  $stock_manager
+```
 
 
 
@@ -46,7 +50,9 @@ Methods
 
 ### <a name="method-execHookStockManagerFactory"></a>execHookStockManagerFactory
 
-    mixed StockManagerFactoryCore::execHookStockManagerFactory()
+```php
+mixed StockManagerFactoryCore::execHookStockManagerFactory()
+```
 
 Looks for a StockManager in the modules list.
 
@@ -61,7 +67,9 @@ Looks for a StockManager in the modules list.
 
 ### <a name="method-getManager"></a>getManager
 
-    \StockManagerInterface StockManagerFactoryCore::getManager()
+```php
+\StockManagerInterface StockManagerFactoryCore::getManager()
+```
 
 Returns a StockManager
 

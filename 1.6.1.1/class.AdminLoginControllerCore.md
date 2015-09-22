@@ -24,11 +24,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [controllers/admin/AdminLoginController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [checkToken](#method-checkToken)
 * [initContent](#method-initContent)
@@ -49,7 +51,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminLoginControllerCore::__construct()
+```php
+mixed AdminLoginControllerCore::__construct()
+```
 
 
 
@@ -63,7 +67,9 @@ Methods
 
 ### <a name="method-checkToken"></a>checkToken
 
-    mixed AdminLoginControllerCore::checkToken()
+```php
+mixed AdminLoginControllerCore::checkToken()
+```
 
 
 
@@ -77,7 +83,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminLoginControllerCore::initContent()
+```php
+mixed AdminLoginControllerCore::initContent()
+```
 
 
 
@@ -91,7 +99,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminLoginControllerCore::postProcess()
+```php
+mixed AdminLoginControllerCore::postProcess()
+```
 
 
 
@@ -105,7 +115,9 @@ Methods
 
 ### <a name="method-processForgot"></a>processForgot
 
-    mixed AdminLoginControllerCore::processForgot()
+```php
+mixed AdminLoginControllerCore::processForgot()
+```
 
 
 
@@ -119,7 +131,9 @@ Methods
 
 ### <a name="method-processLogin"></a>processLogin
 
-    mixed AdminLoginControllerCore::processLogin()
+```php
+mixed AdminLoginControllerCore::processLogin()
+```
 
 
 
@@ -133,7 +147,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminLoginControllerCore::setMedia()
+```php
+mixed AdminLoginControllerCore::setMedia()
+```
 
 
 
@@ -147,7 +163,9 @@ Methods
 
 ### <a name="method-viewAccess"></a>viewAccess
 
-    boolean AdminLoginControllerCore::viewAccess()
+```php
+boolean AdminLoginControllerCore::viewAccess()
+```
 
 All BO users can access the login page
 

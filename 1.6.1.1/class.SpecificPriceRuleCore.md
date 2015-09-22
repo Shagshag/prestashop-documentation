@@ -10,9 +10,11 @@ Class SpecificPriceRuleCore
 * Source: [classes/SpecificPriceRule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$from](#property-$from)
@@ -30,8 +32,8 @@ Properties
 * [$to](#property-$to)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [addConditions](#method-addConditions)
 * [apply](#method-apply)
 * [applyAllRules](#method-applyAllRules)
@@ -53,7 +55,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'specific_price_rule', 'primary' => 'id_specific_price_rule', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'from_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isNegativePrice', 'required' => true), 'reduction' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'reduction_tax' => array('type' => self::TYPE_INT, 'validate' => 'isBool', 'required' => true), 'reduction_type' => array('type' => self::TYPE_STRING, 'validate' => 'isReductionType', 'required' => true), 'from' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat', 'required' => false), 'to' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat', 'required' => false)))
+```php
+public mixed $definition = array('table' => 'specific_price_rule', 'primary' => 'id_specific_price_rule', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'from_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isNegativePrice', 'required' => true), 'reduction' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'reduction_tax' => array('type' => self::TYPE_INT, 'validate' => 'isBool', 'required' => true), 'reduction_type' => array('type' => self::TYPE_STRING, 'validate' => 'isReductionType', 'required' => true), 'from' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat', 'required' => false), 'to' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat', 'required' => false)))
+```
 
 
 
@@ -66,7 +70,9 @@ Properties
 
 ### <a name="property-$from"></a>$from
 
-    public mixed $from
+```php
+public mixed $from
+```
 
 
 
@@ -78,7 +84,9 @@ Properties
 
 ### <a name="property-$from_quantity"></a>$from_quantity
 
-    public mixed $from_quantity
+```php
+public mixed $from_quantity
+```
 
 
 
@@ -90,7 +98,9 @@ Properties
 
 ### <a name="property-$id_country"></a>$id_country
 
-    public mixed $id_country
+```php
+public mixed $id_country
+```
 
 
 
@@ -102,7 +112,9 @@ Properties
 
 ### <a name="property-$id_currency"></a>$id_currency
 
-    public mixed $id_currency
+```php
+public mixed $id_currency
+```
 
 
 
@@ -114,7 +126,9 @@ Properties
 
 ### <a name="property-$id_group"></a>$id_group
 
-    public mixed $id_group
+```php
+public mixed $id_group
+```
 
 
 
@@ -126,7 +140,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public mixed $id_shop
+```php
+public mixed $id_shop
+```
 
 
 
@@ -138,7 +154,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -150,7 +168,9 @@ Properties
 
 ### <a name="property-$price"></a>$price
 
-    public mixed $price
+```php
+public mixed $price
+```
 
 
 
@@ -162,7 +182,9 @@ Properties
 
 ### <a name="property-$reduction"></a>$reduction
 
-    public mixed $reduction
+```php
+public mixed $reduction
+```
 
 
 
@@ -174,7 +196,9 @@ Properties
 
 ### <a name="property-$reduction_tax"></a>$reduction_tax
 
-    public mixed $reduction_tax
+```php
+public mixed $reduction_tax
+```
 
 
 
@@ -186,7 +210,9 @@ Properties
 
 ### <a name="property-$reduction_type"></a>$reduction_type
 
-    public mixed $reduction_type
+```php
+public mixed $reduction_type
+```
 
 
 
@@ -198,7 +224,9 @@ Properties
 
 ### <a name="property-$rules_application_enable"></a>$rules_application_enable
 
-    protected mixed $rules_application_enable = true
+```php
+protected mixed $rules_application_enable = true
+```
 
 
 
@@ -211,7 +239,9 @@ Properties
 
 ### <a name="property-$to"></a>$to
 
-    public mixed $to
+```php
+public mixed $to
+```
 
 
 
@@ -223,7 +253,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'specific_price_rules', 'objectNodeName' => 'specific_price_rule', 'fields' => array('id_shop' => array('xlink_resource' => 'shops', 'required' => true), 'id_country' => array('xlink_resource' => 'countries', 'required' => true), 'id_currency' => array('xlink_resource' => 'currencies', 'required' => true), 'id_group' => array('xlink_resource' => 'groups', 'required' => true)))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'specific_price_rules', 'objectNodeName' => 'specific_price_rule', 'fields' => array('id_shop' => array('xlink_resource' => 'shops', 'required' => true), 'id_country' => array('xlink_resource' => 'countries', 'required' => true), 'id_currency' => array('xlink_resource' => 'currencies', 'required' => true), 'id_group' => array('xlink_resource' => 'groups', 'required' => true)))
+```
 
 
 
@@ -239,7 +271,9 @@ Methods
 
 ### <a name="method-addConditions"></a>addConditions
 
-    mixed SpecificPriceRuleCore::addConditions($conditions)
+```php
+mixed SpecificPriceRuleCore::addConditions($conditions)
+```
 
 
 
@@ -256,7 +290,9 @@ Methods
 
 ### <a name="method-apply"></a>apply
 
-    mixed SpecificPriceRuleCore::apply($products)
+```php
+mixed SpecificPriceRuleCore::apply($products)
+```
 
 
 
@@ -273,7 +309,9 @@ Methods
 
 ### <a name="method-applyAllRules"></a>applyAllRules
 
-    mixed SpecificPriceRuleCore::applyAllRules(array|boolean $products)
+```php
+mixed SpecificPriceRuleCore::applyAllRules(array|boolean $products)
+```
 
 
 
@@ -291,7 +329,9 @@ Methods
 
 ### <a name="method-applyRuleToProduct"></a>applyRuleToProduct
 
-    mixed SpecificPriceRuleCore::applyRuleToProduct($id_rule, $id_product, $id_product_attribute)
+```php
+mixed SpecificPriceRuleCore::applyRuleToProduct($id_rule, $id_product, $id_product_attribute)
+```
 
 
 
@@ -311,7 +351,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed SpecificPriceRuleCore::delete()
+```php
+mixed SpecificPriceRuleCore::delete()
+```
 
 
 
@@ -325,7 +367,9 @@ Methods
 
 ### <a name="method-deleteConditions"></a>deleteConditions
 
-    mixed SpecificPriceRuleCore::deleteConditions()
+```php
+mixed SpecificPriceRuleCore::deleteConditions()
+```
 
 
 
@@ -339,7 +383,9 @@ Methods
 
 ### <a name="method-disableAnyApplication"></a>disableAnyApplication
 
-    mixed SpecificPriceRuleCore::disableAnyApplication()
+```php
+mixed SpecificPriceRuleCore::disableAnyApplication()
+```
 
 
 
@@ -354,7 +400,9 @@ Methods
 
 ### <a name="method-enableAnyApplication"></a>enableAnyApplication
 
-    mixed SpecificPriceRuleCore::enableAnyApplication()
+```php
+mixed SpecificPriceRuleCore::enableAnyApplication()
+```
 
 
 
@@ -369,7 +417,9 @@ Methods
 
 ### <a name="method-getAffectedProducts"></a>getAffectedProducts
 
-    array SpecificPriceRuleCore::getAffectedProducts(boolean|array $products)
+```php
+array SpecificPriceRuleCore::getAffectedProducts(boolean|array $products)
+```
 
 Return the product list affected by this specific rule.
 
@@ -386,7 +436,9 @@ Return the product list affected by this specific rule.
 
 ### <a name="method-getConditions"></a>getConditions
 
-    mixed SpecificPriceRuleCore::getConditions()
+```php
+mixed SpecificPriceRuleCore::getConditions()
+```
 
 
 
@@ -400,7 +452,9 @@ Return the product list affected by this specific rule.
 
 ### <a name="method-resetApplication"></a>resetApplication
 
-    mixed SpecificPriceRuleCore::resetApplication($products)
+```php
+mixed SpecificPriceRuleCore::resetApplication($products)
+```
 
 
 

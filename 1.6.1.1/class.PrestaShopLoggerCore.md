@@ -10,9 +10,11 @@ Class PrestaShopLoggerCore
 * Source: [classes/PrestaShopLogger.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$date_upd](#property-$date_upd)
@@ -26,8 +28,8 @@ Properties
 * [$object_type](#property-$object_type)
 * [$severity](#property-$severity)
 
-Methods
--------
+### Methods
+
 * [_isPresent](#method-_isPresent)
 * [addLog](#method-addLog)
 * [eraseAllLogs](#method-eraseAllLogs)
@@ -43,7 +45,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -55,7 +59,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -67,7 +73,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'log', 'primary' => 'id_log', 'fields' => array('severity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'error_code' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'message' => array('type' => self::TYPE_STRING, 'validate' => 'isString', 'required' => true), 'object_id' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'object_type' => array('type' => self::TYPE_STRING, 'validate' => 'isName'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'log', 'primary' => 'id_log', 'fields' => array('severity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'error_code' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'message' => array('type' => self::TYPE_STRING, 'validate' => 'isString', 'required' => true), 'object_id' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'object_type' => array('type' => self::TYPE_STRING, 'validate' => 'isName'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -80,7 +88,9 @@ Properties
 
 ### <a name="property-$error_code"></a>$error_code
 
-    public integer $error_code
+```php
+public integer $error_code
+```
 
 
 
@@ -92,7 +102,9 @@ Properties
 
 ### <a name="property-$id_employee"></a>$id_employee
 
-    public integer $id_employee
+```php
+public integer $id_employee
+```
 
 
 
@@ -104,7 +116,9 @@ Properties
 
 ### <a name="property-$id_log"></a>$id_log
 
-    public integer $id_log
+```php
+public integer $id_log
+```
 
 
 
@@ -116,7 +130,9 @@ Properties
 
 ### <a name="property-$is_present"></a>$is_present
 
-    protected mixed $is_present = array()
+```php
+protected mixed $is_present = array()
+```
 
 
 
@@ -129,7 +145,9 @@ Properties
 
 ### <a name="property-$message"></a>$message
 
-    public string $message
+```php
+public string $message
+```
 
 
 
@@ -141,7 +159,9 @@ Properties
 
 ### <a name="property-$object_id"></a>$object_id
 
-    public integer $object_id
+```php
+public integer $object_id
+```
 
 
 
@@ -153,7 +173,9 @@ Properties
 
 ### <a name="property-$object_type"></a>$object_type
 
-    public string $object_type
+```php
+public string $object_type
+```
 
 
 
@@ -165,7 +187,9 @@ Properties
 
 ### <a name="property-$severity"></a>$severity
 
-    public integer $severity
+```php
+public integer $severity
+```
 
 
 
@@ -181,7 +205,9 @@ Methods
 
 ### <a name="method-_isPresent"></a>_isPresent
 
-    true PrestaShopLoggerCore::_isPresent()
+```php
+true PrestaShopLoggerCore::_isPresent()
+```
 
 check if this log message already exists in database.
 
@@ -195,7 +221,9 @@ check if this log message already exists in database.
 
 ### <a name="method-addLog"></a>addLog
 
-    boolean PrestaShopLoggerCore::addLog(string $message, integer $severity, integer $error_code, string $object_type, integer $object_id, boolean $allow_duplicate, $id_employee)
+```php
+boolean PrestaShopLoggerCore::addLog(string $message, integer $severity, integer $error_code, string $object_type, integer $object_id, boolean $allow_duplicate, $id_employee)
+```
 
 add a log item to the database and send a mail if configured for this $severity
 
@@ -219,7 +247,9 @@ add a log item to the database and send a mail if configured for this $severity
 
 ### <a name="method-eraseAllLogs"></a>eraseAllLogs
 
-    mixed PrestaShopLoggerCore::eraseAllLogs()
+```php
+mixed PrestaShopLoggerCore::eraseAllLogs()
+```
 
 
 
@@ -234,7 +264,9 @@ add a log item to the database and send a mail if configured for this $severity
 
 ### <a name="method-getHash"></a>getHash
 
-    string PrestaShopLoggerCore::getHash()
+```php
+string PrestaShopLoggerCore::getHash()
+```
 
 this function md5($this->message.$this->severity.$this->error_code.$this->object_type.$this->object_id)
 
@@ -248,7 +280,9 @@ this function md5($this->message.$this->severity.$this->error_code.$this->object
 
 ### <a name="method-sendByMail"></a>sendByMail
 
-    mixed PrestaShopLoggerCore::sendByMail(\PrestaShopLogger $log)
+```php
+mixed PrestaShopLoggerCore::sendByMail(\PrestaShopLogger $log)
+```
 
 Send e-mail to the shop owner only if the minimal severity level has been reached
 

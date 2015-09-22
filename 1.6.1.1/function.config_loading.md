@@ -5,12 +5,16 @@ Function config_loading
 
 
 
-    mixed config_loading($current_path, $fld)
+```php
+mixed config_loading($current_path, $fld)
+```
 
 * Function name: config_loading
-* Source: [admin-dev/filemanager/include/utils.php line 248](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/utils.php#L248)
+* Source: [admin-dev/filemanager/include/utils.php line 248](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/utils.php#L248).
 
-#### Arguments
+Arguments
+---------
+
 * $current_path **mixed**
 * $fld **mixed**
 

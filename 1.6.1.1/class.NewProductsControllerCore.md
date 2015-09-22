@@ -10,14 +10,16 @@ Class NewProductsControllerCore
 * Source: [controllers/front/NewProductsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/NewProductsController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$php_self](#property-$php_self)
 
-Methods
--------
+### Methods
+
 * [initContent](#method-initContent)
 * [setMedia](#method-setMedia)
 
@@ -30,7 +32,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'new-products'
+```php
+public mixed $php_self = 'new-products'
+```
 
 
 
@@ -46,7 +50,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed NewProductsControllerCore::initContent()
+```php
+mixed NewProductsControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -60,7 +66,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed NewProductsControllerCore::setMedia()
+```php
+mixed NewProductsControllerCore::setMedia()
+```
 
 
 

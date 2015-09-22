@@ -8,13 +8,15 @@ Class UpgraderCore
 * Class name: UpgraderCore
 * Source: [classes/Upgrader.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEFAULT_CHECK_VERSION_DELAY_HOURS](#constant-DEFAULT_CHECK_VERSION_DELAY_HOURS)
 
-Properties
-----------
+### Properties
 
 * [$autoupgrade](#property-$autoupgrade)
 * [$autoupgrade_last_version](#property-$autoupgrade_last_version)
@@ -32,8 +34,8 @@ Properties
 * [$version_name](#property-$version_name)
 * [$version_num](#property-$version_num)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [__get](#method-__get)
 * [addChangedFile](#method-addChangedFile)
@@ -54,7 +56,9 @@ Constants
 
 ### <a name="constant-DEFAULT_CHECK_VERSION_DELAY_HOURS"></a>DEFAULT_CHECK_VERSION_DELAY_HOURS
 
-    const DEFAULT_CHECK_VERSION_DELAY_HOURS = 24
+```php
+const DEFAULT_CHECK_VERSION_DELAY_HOURS = 24
+```
 
 
 
@@ -69,7 +73,9 @@ Properties
 
 ### <a name="property-$autoupgrade"></a>$autoupgrade
 
-    public mixed $autoupgrade
+```php
+public mixed $autoupgrade
+```
 
 
 
@@ -81,7 +87,9 @@ Properties
 
 ### <a name="property-$autoupgrade_last_version"></a>$autoupgrade_last_version
 
-    public mixed $autoupgrade_last_version
+```php
+public mixed $autoupgrade_last_version
+```
 
 
 
@@ -93,7 +101,9 @@ Properties
 
 ### <a name="property-$autoupgrade_module"></a>$autoupgrade_module
 
-    public mixed $autoupgrade_module
+```php
+public mixed $autoupgrade_module
+```
 
 
 
@@ -105,7 +115,9 @@ Properties
 
 ### <a name="property-$autoupgrade_module_link"></a>$autoupgrade_module_link
 
-    public mixed $autoupgrade_module_link
+```php
+public mixed $autoupgrade_module_link
+```
 
 
 
@@ -117,7 +129,9 @@ Properties
 
 ### <a name="property-$changed_files"></a>$changed_files
 
-    protected mixed $changed_files = array()
+```php
+protected mixed $changed_files = array()
+```
 
 
 
@@ -129,7 +143,9 @@ Properties
 
 ### <a name="property-$changelog"></a>$changelog
 
-    public mixed $changelog
+```php
+public mixed $changelog
+```
 
 
 
@@ -141,7 +157,9 @@ Properties
 
 ### <a name="property-$link"></a>$link
 
-    public string $link
+```php
+public string $link
+```
 
 
 
@@ -153,7 +171,9 @@ Properties
 
 ### <a name="property-$md5"></a>$md5
 
-    public mixed $md5
+```php
+public mixed $md5
+```
 
 
 
@@ -165,7 +185,9 @@ Properties
 
 ### <a name="property-$missing_files"></a>$missing_files
 
-    protected mixed $missing_files = array()
+```php
+protected mixed $missing_files = array()
+```
 
 
 
@@ -177,7 +199,9 @@ Properties
 
 ### <a name="property-$need_upgrade"></a>$need_upgrade
 
-    protected boolean $need_upgrade = false
+```php
+protected boolean $need_upgrade = false
+```
 
 
 
@@ -189,7 +213,9 @@ Properties
 
 ### <a name="property-$rss_md5file_link_dir"></a>$rss_md5file_link_dir
 
-    public mixed $rss_md5file_link_dir
+```php
+public mixed $rss_md5file_link_dir
+```
 
 
 
@@ -201,7 +227,9 @@ Properties
 
 ### <a name="property-$rss_version_link"></a>$rss_version_link
 
-    public mixed $rss_version_link
+```php
+public mixed $rss_version_link
+```
 
 
 
@@ -213,7 +241,9 @@ Properties
 
 ### <a name="property-$version_is_modified"></a>$version_is_modified
 
-    public mixed $version_is_modified = null
+```php
+public mixed $version_is_modified = null
+```
 
 
 
@@ -225,7 +255,9 @@ Properties
 
 ### <a name="property-$version_name"></a>$version_name
 
-    public mixed $version_name
+```php
+public mixed $version_name
+```
 
 
 
@@ -237,7 +269,9 @@ Properties
 
 ### <a name="property-$version_num"></a>$version_num
 
-    public mixed $version_num
+```php
+public mixed $version_num
+```
 
 
 
@@ -253,7 +287,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed UpgraderCore::__construct($autoload)
+```php
+mixed UpgraderCore::__construct($autoload)
+```
 
 
 
@@ -270,7 +306,9 @@ Methods
 
 ### <a name="method-__get"></a>__get
 
-    mixed UpgraderCore::__get($var)
+```php
+mixed UpgraderCore::__get($var)
+```
 
 
 
@@ -287,7 +325,9 @@ Methods
 
 ### <a name="method-addChangedFile"></a>addChangedFile
 
-    mixed UpgraderCore::addChangedFile(string $path)
+```php
+mixed UpgraderCore::addChangedFile(string $path)
+```
 
 populate $this->changed_files with $path
 in sub arrays  mail, translation and core items
@@ -305,7 +345,9 @@ in sub arrays  mail, translation and core items
 
 ### <a name="method-addMissingFile"></a>addMissingFile
 
-    mixed UpgraderCore::addMissingFile(string $path)
+```php
+mixed UpgraderCore::addMissingFile(string $path)
+```
 
 populate $this->missing_files with $path
 
@@ -322,7 +364,9 @@ populate $this->missing_files with $path
 
 ### <a name="method-browseXmlAndCompare"></a>browseXmlAndCompare
 
-    mixed UpgraderCore::browseXmlAndCompare($node, $current_path, $level)
+```php
+mixed UpgraderCore::browseXmlAndCompare($node, $current_path, $level)
+```
 
 
 
@@ -341,7 +385,9 @@ populate $this->missing_files with $path
 
 ### <a name="method-checkPSVersion"></a>checkPSVersion
 
-    mixed UpgraderCore::checkPSVersion($force)
+```php
+mixed UpgraderCore::checkPSVersion($force)
+```
 
 checkPSVersion ask to prestashop.com if there is a new version. return an array if yes, false otherwise
 
@@ -358,7 +404,9 @@ checkPSVersion ask to prestashop.com if there is a new version. return an array 
 
 ### <a name="method-compareChecksum"></a>compareChecksum
 
-    mixed UpgraderCore::compareChecksum($path, $original_sum)
+```php
+mixed UpgraderCore::compareChecksum($path, $original_sum)
+```
 
 
 
@@ -376,7 +424,9 @@ checkPSVersion ask to prestashop.com if there is a new version. return an array 
 
 ### <a name="method-downloadLast"></a>downloadLast
 
-    boolean UpgraderCore::downloadLast(string $dest, string $filename)
+```php
+boolean UpgraderCore::downloadLast(string $dest, string $filename)
+```
 
 downloadLast download the last version of PrestaShop and save it in $dest/$filename
 
@@ -394,7 +444,9 @@ downloadLast download the last version of PrestaShop and save it in $dest/$filen
 
 ### <a name="method-getChangedFilesList"></a>getChangedFilesList
 
-    array UpgraderCore::getChangedFilesList()
+```php
+array UpgraderCore::getChangedFilesList()
+```
 
 return an array of files
 that the md5file does not match to the original md5file (provided by $rss_md5file_link_dir )
@@ -409,7 +461,9 @@ that the md5file does not match to the original md5file (provided by $rss_md5fil
 
 ### <a name="method-isAuthenticPrestashopVersion"></a>isAuthenticPrestashopVersion
 
-    mixed UpgraderCore::isAuthenticPrestashopVersion()
+```php
+mixed UpgraderCore::isAuthenticPrestashopVersion()
+```
 
 
 
@@ -423,7 +477,9 @@ that the md5file does not match to the original md5file (provided by $rss_md5fil
 
 ### <a name="method-isLastVersion"></a>isLastVersion
 
-    mixed UpgraderCore::isLastVersion()
+```php
+mixed UpgraderCore::isLastVersion()
+```
 
 
 
@@ -437,7 +493,9 @@ that the md5file does not match to the original md5file (provided by $rss_md5fil
 
 ### <a name="method-loadFromConfig"></a>loadFromConfig
 
-    \Upgrader UpgraderCore::loadFromConfig()
+```php
+\Upgrader UpgraderCore::loadFromConfig()
+```
 
 load the last version informations stocked in base
 

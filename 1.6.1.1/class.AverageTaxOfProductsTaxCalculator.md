@@ -9,17 +9,19 @@ Class AverageTaxOfProductsTaxCalculator
 * Source: [classes/tax/AverageTaxOfProductsTaxCalculator.php line 3](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#L3)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$computation_method](#property-$computation_method)
 * [$configuration](#property-$configuration)
 * [$db](#property-$db)
 * [$id_order](#property-$id_order)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getProductTaxes](#method-getProductTaxes)
 * [getTaxesAmount](#method-getTaxesAmount)
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$computation_method"></a>$computation_method
 
-    public mixed $computation_method = 'average_tax_of_products'
+```php
+public mixed $computation_method = 'average_tax_of_products'
+```
 
 
 
@@ -46,7 +50,9 @@ Properties
 
 ### <a name="property-$configuration"></a>$configuration
 
-    private mixed $configuration
+```php
+private mixed $configuration
+```
 
 
 
@@ -58,7 +64,9 @@ Properties
 
 ### <a name="property-$db"></a>$db
 
-    private mixed $db
+```php
+private mixed $db
+```
 
 
 
@@ -70,7 +78,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    private mixed $id_order
+```php
+private mixed $id_order
+```
 
 
 
@@ -86,7 +96,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AverageTaxOfProductsTaxCalculator::__construct(\Core_Foundation_Database_DatabaseInterface $db, \Core_Business_ConfigurationInterface $configuration)
+```php
+mixed AverageTaxOfProductsTaxCalculator::__construct(\Core_Foundation_Database_DatabaseInterface $db, \Core_Business_ConfigurationInterface $configuration)
+```
 
 
 
@@ -104,7 +116,9 @@ Methods
 
 ### <a name="method-getProductTaxes"></a>getProductTaxes
 
-    mixed AverageTaxOfProductsTaxCalculator::getProductTaxes()
+```php
+mixed AverageTaxOfProductsTaxCalculator::getProductTaxes()
+```
 
 
 
@@ -118,7 +132,9 @@ Methods
 
 ### <a name="method-getTaxesAmount"></a>getTaxesAmount
 
-    mixed AverageTaxOfProductsTaxCalculator::getTaxesAmount($price_before_tax, $price_after_tax, $round_precision, $round_mode)
+```php
+mixed AverageTaxOfProductsTaxCalculator::getTaxesAmount($price_before_tax, $price_after_tax, $round_precision, $round_mode)
+```
 
 
 
@@ -138,7 +154,9 @@ Methods
 
 ### <a name="method-setIdOrder"></a>setIdOrder
 
-    mixed AverageTaxOfProductsTaxCalculator::setIdOrder($id_order)
+```php
+mixed AverageTaxOfProductsTaxCalculator::setIdOrder($id_order)
+```
 
 
 

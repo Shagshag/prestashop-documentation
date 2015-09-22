@@ -24,9 +24,11 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [classes/Hook.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_hook_modules_cache](#property-$_hook_modules_cache)
 * [$_hook_modules_cache_exec](#property-$_hook_modules_cache_exec)
@@ -39,8 +41,8 @@ Properties
 * [$position](#property-$position)
 * [$title](#property-$title)
 
-Methods
--------
+### Methods
+
 * [PDFInvoice](#method-PDFInvoice)
 * [add](#method-add)
 * [addProduct](#method-addProduct)
@@ -81,7 +83,9 @@ Properties
 
 ### <a name="property-$_hook_modules_cache"></a>$_hook_modules_cache
 
-    protected mixed $_hook_modules_cache = null
+```php
+protected mixed $_hook_modules_cache = null
+```
 
 
 
@@ -94,7 +98,9 @@ Properties
 
 ### <a name="property-$_hook_modules_cache_exec"></a>$_hook_modules_cache_exec
 
-    protected mixed $_hook_modules_cache_exec = null
+```php
+protected mixed $_hook_modules_cache_exec = null
+```
 
 
 
@@ -107,7 +113,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'hook', 'primary' => 'id_hook', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isHookName', 'required' => true, 'size' => 64), 'title' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName'), 'description' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml'), 'position' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'live_edit' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```php
+public mixed $definition = array('table' => 'hook', 'primary' => 'id_hook', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isHookName', 'required' => true, 'size' => 64), 'title' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName'), 'description' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml'), 'position' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'live_edit' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```
 
 
 
@@ -120,7 +128,9 @@ Properties
 
 ### <a name="property-$description"></a>$description
 
-    public string $description
+```php
+public string $description
+```
 
 
 
@@ -132,7 +142,9 @@ Properties
 
 ### <a name="property-$executed_hooks"></a>$executed_hooks
 
-    public array $executed_hooks = array()
+```php
+public array $executed_hooks = array()
+```
 
 
 
@@ -145,7 +157,9 @@ Properties
 
 ### <a name="property-$live_edit"></a>$live_edit
 
-    public boolean $live_edit = false
+```php
+public boolean $live_edit = false
+```
 
 
 
@@ -157,7 +171,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -169,7 +185,9 @@ Properties
 
 ### <a name="property-$native_module"></a>$native_module
 
-    public mixed $native_module
+```php
+public mixed $native_module
+```
 
 
 
@@ -182,7 +200,9 @@ Properties
 
 ### <a name="property-$position"></a>$position
 
-    public boolean $position = false
+```php
+public boolean $position = false
+```
 
 
 
@@ -194,7 +214,9 @@ Properties
 
 ### <a name="property-$title"></a>$title
 
-    public string $title
+```php
+public string $title
+```
 
 
 
@@ -210,7 +232,9 @@ Methods
 
 ### <a name="method-PDFInvoice"></a>PDFInvoice
 
-    mixed HookCore::PDFInvoice($pdf, $id_order)
+```php
+mixed HookCore::PDFInvoice($pdf, $id_order)
+```
 
 
 
@@ -229,7 +253,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed HookCore::add($autodate, $null_values)
+```php
+mixed HookCore::add($autodate, $null_values)
+```
 
 
 
@@ -247,7 +273,9 @@ Methods
 
 ### <a name="method-addProduct"></a>addProduct
 
-    mixed HookCore::addProduct($product)
+```php
+mixed HookCore::addProduct($product)
+```
 
 
 
@@ -265,7 +293,9 @@ Methods
 
 ### <a name="method-backBeforePayment"></a>backBeforePayment
 
-    mixed HookCore::backBeforePayment($module)
+```php
+mixed HookCore::backBeforePayment($module)
+```
 
 
 
@@ -283,7 +313,9 @@ Methods
 
 ### <a name="method-coreCallHook"></a>coreCallHook
 
-    mixed HookCore::coreCallHook($module, $method, $params)
+```php
+mixed HookCore::coreCallHook($module, $method, $params)
+```
 
 
 
@@ -303,7 +335,9 @@ Methods
 
 ### <a name="method-deleteProduct"></a>deleteProduct
 
-    mixed HookCore::deleteProduct($product)
+```php
+mixed HookCore::deleteProduct($product)
+```
 
 
 
@@ -321,7 +355,9 @@ Methods
 
 ### <a name="method-exec"></a>exec
 
-    \string/array HookCore::exec(string $hook_name, array $hook_args, integer $id_module, boolean $array_return, boolean $check_exceptions, boolean $use_push, integer $id_shop)
+```php
+\string/array HookCore::exec(string $hook_name, array $hook_args, integer $id_module, boolean $array_return, boolean $check_exceptions, boolean $use_push, integer $id_shop)
+```
 
 Execute modules for specified hook
 
@@ -345,7 +381,9 @@ Execute modules for specified hook
 
 ### <a name="method-get"></a>get
 
-    integer HookCore::get(string $hook_name)
+```php
+integer HookCore::get(string $hook_name)
+```
 
 Return hook ID from name
 
@@ -363,7 +401,9 @@ Return hook ID from name
 
 ### <a name="method-getHookAliasList"></a>getHookAliasList
 
-    array HookCore::getHookAliasList()
+```php
+array HookCore::getHookAliasList()
+```
 
 Get list of hook alias
 
@@ -378,7 +418,9 @@ Get list of hook alias
 
 ### <a name="method-getHookModuleExecList"></a>getHookModuleExecList
 
-    array HookCore::getHookModuleExecList(string $hook_name)
+```php
+array HookCore::getHookModuleExecList(string $hook_name)
+```
 
 Get list of modules we can execute per hook
 
@@ -396,7 +438,9 @@ Get list of modules we can execute per hook
 
 ### <a name="method-getHookModuleList"></a>getHookModuleList
 
-    array HookCore::getHookModuleList()
+```php
+array HookCore::getHookModuleList()
+```
 
 Get list of all registered hooks with modules
 
@@ -411,7 +455,9 @@ Get list of all registered hooks with modules
 
 ### <a name="method-getHooks"></a>getHooks
 
-    array HookCore::getHooks(boolean $position)
+```php
+array HookCore::getHooks(boolean $position)
+```
 
 Return Hooks List
 
@@ -429,7 +475,9 @@ Return Hooks List
 
 ### <a name="method-getIdByName"></a>getIdByName
 
-    integer HookCore::getIdByName(string $hook_name)
+```php
+integer HookCore::getIdByName(string $hook_name)
+```
 
 Return hook ID from name
 
@@ -447,7 +495,9 @@ Return hook ID from name
 
 ### <a name="method-getLiveEditById"></a>getLiveEditById
 
-    mixed HookCore::getLiveEditById($hook_id)
+```php
+mixed HookCore::getLiveEditById($hook_id)
+```
 
 Return hook live edit bool from ID
 
@@ -465,7 +515,9 @@ Return hook live edit bool from ID
 
 ### <a name="method-getModulesFromHook"></a>getModulesFromHook
 
-    array HookCore::getModulesFromHook(integer $id_hook, integer $id_module)
+```php
+array HookCore::getModulesFromHook(integer $id_hook, integer $id_module)
+```
 
 Return Hooks List
 
@@ -484,7 +536,9 @@ Return Hooks List
 
 ### <a name="method-getNameById"></a>getNameById
 
-    mixed HookCore::getNameById($hook_id)
+```php
+mixed HookCore::getNameById($hook_id)
+```
 
 Return hook ID from name
 
@@ -502,7 +556,9 @@ Return hook ID from name
 
 ### <a name="method-getRetroHookName"></a>getRetroHookName
 
-    integer HookCore::getRetroHookName(string $hook_name)
+```php
+integer HookCore::getRetroHookName(string $hook_name)
+```
 
 Return backward compatibility hook name
 
@@ -520,7 +576,9 @@ Return backward compatibility hook name
 
 ### <a name="method-newOrder"></a>newOrder
 
-    string HookCore::newOrder(\Cart $cart, \Order $order, \Customer $customer, \Currency $currency, $order_status)
+```php
+string HookCore::newOrder(\Cart $cart, \Order $order, \Customer $customer, \Currency $currency, $order_status)
+```
 
 Called when quantity of a product is updated.
 
@@ -542,7 +600,9 @@ Called when quantity of a product is updated.
 
 ### <a name="method-orderConfirmation"></a>orderConfirmation
 
-    mixed HookCore::orderConfirmation($id_order)
+```php
+mixed HookCore::orderConfirmation($id_order)
+```
 
 
 
@@ -560,7 +620,9 @@ Called when quantity of a product is updated.
 
 ### <a name="method-paymentReturn"></a>paymentReturn
 
-    mixed HookCore::paymentReturn($id_order, $id_module)
+```php
+mixed HookCore::paymentReturn($id_order, $id_module)
+```
 
 
 
@@ -579,7 +641,9 @@ Called when quantity of a product is updated.
 
 ### <a name="method-postUpdateOrderStatus"></a>postUpdateOrderStatus
 
-    mixed HookCore::postUpdateOrderStatus($new_order_status_id, $id_order)
+```php
+mixed HookCore::postUpdateOrderStatus($new_order_status_id, $id_order)
+```
 
 
 
@@ -598,7 +662,9 @@ Called when quantity of a product is updated.
 
 ### <a name="method-preloadHookModulesCache"></a>preloadHookModulesCache
 
-    boolean HookCore::preloadHookModulesCache()
+```php
+boolean HookCore::preloadHookModulesCache()
+```
 
 Preload hook modules cache
 
@@ -613,7 +679,9 @@ Preload hook modules cache
 
 ### <a name="method-productFooter"></a>productFooter
 
-    mixed HookCore::productFooter($product, $category)
+```php
+mixed HookCore::productFooter($product, $category)
+```
 
 
 
@@ -632,7 +700,9 @@ Preload hook modules cache
 
 ### <a name="method-productOutOfStock"></a>productOutOfStock
 
-    mixed HookCore::productOutOfStock($product)
+```php
+mixed HookCore::productOutOfStock($product)
+```
 
 
 
@@ -650,7 +720,9 @@ Preload hook modules cache
 
 ### <a name="method-updateCarrier"></a>updateCarrier
 
-    mixed HookCore::updateCarrier($id_carrier, $carrier)
+```php
+mixed HookCore::updateCarrier($id_carrier, $carrier)
+```
 
 
 
@@ -669,7 +741,9 @@ Preload hook modules cache
 
 ### <a name="method-updateOrderStatus"></a>updateOrderStatus
 
-    mixed HookCore::updateOrderStatus($new_order_status_id, $id_order)
+```php
+mixed HookCore::updateOrderStatus($new_order_status_id, $id_order)
+```
 
 
 
@@ -688,7 +762,9 @@ Preload hook modules cache
 
 ### <a name="method-updateProduct"></a>updateProduct
 
-    mixed HookCore::updateProduct($product)
+```php
+mixed HookCore::updateProduct($product)
+```
 
 
 
@@ -706,7 +782,9 @@ Preload hook modules cache
 
 ### <a name="method-updateProductAttribute"></a>updateProductAttribute
 
-    mixed HookCore::updateProductAttribute($id_product_attribute)
+```php
+mixed HookCore::updateProductAttribute($id_product_attribute)
+```
 
 
 
@@ -724,7 +802,9 @@ Preload hook modules cache
 
 ### <a name="method-updateQuantity"></a>updateQuantity
 
-    mixed HookCore::updateQuantity($product, $order)
+```php
+mixed HookCore::updateQuantity($product, $order)
+```
 
 
 
@@ -743,7 +823,9 @@ Preload hook modules cache
 
 ### <a name="method-wrapLiveEdit"></a>wrapLiveEdit
 
-    mixed HookCore::wrapLiveEdit($display, $moduleInstance, $id_hook)
+```php
+mixed HookCore::wrapLiveEdit($display, $moduleInstance, $id_hook)
+```
 
 
 

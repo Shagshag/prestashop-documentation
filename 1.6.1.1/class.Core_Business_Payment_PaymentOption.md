@@ -23,9 +23,11 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$action](#property-$action)
 * [$callToActionText](#property-$callToActionText)
@@ -35,8 +37,8 @@ Properties
 * [$method](#property-$method)
 * [$moduleName](#property-$moduleName)
 
-Methods
--------
+### Methods
+
 * [convertLegacyOption](#method-convertLegacyOption)
 * [getAction](#method-getAction)
 * [getCallToActionText](#method-getCallToActionText)
@@ -62,7 +64,9 @@ Properties
 
 ### <a name="property-$action"></a>$action
 
-    private mixed $action
+```php
+private mixed $action
+```
 
 
 
@@ -74,7 +78,9 @@ Properties
 
 ### <a name="property-$callToActionText"></a>$callToActionText
 
-    private mixed $callToActionText
+```php
+private mixed $callToActionText
+```
 
 
 
@@ -86,7 +92,9 @@ Properties
 
 ### <a name="property-$form"></a>$form
 
-    private mixed $form
+```php
+private mixed $form
+```
 
 
 
@@ -98,7 +106,9 @@ Properties
 
 ### <a name="property-$inputs"></a>$inputs
 
-    private mixed $inputs
+```php
+private mixed $inputs
+```
 
 
 
@@ -110,7 +120,9 @@ Properties
 
 ### <a name="property-$logo"></a>$logo
 
-    private mixed $logo
+```php
+private mixed $logo
+```
 
 
 
@@ -122,7 +134,9 @@ Properties
 
 ### <a name="property-$method"></a>$method
 
-    private mixed $method
+```php
+private mixed $method
+```
 
 
 
@@ -134,7 +148,9 @@ Properties
 
 ### <a name="property-$moduleName"></a>$moduleName
 
-    private mixed $moduleName
+```php
+private mixed $moduleName
+```
 
 
 
@@ -150,7 +166,9 @@ Methods
 
 ### <a name="method-convertLegacyOption"></a>convertLegacyOption
 
-    mixed Core_Business_Payment_PaymentOption::convertLegacyOption(array $legacyOption)
+```php
+mixed Core_Business_Payment_PaymentOption::convertLegacyOption(array $legacyOption)
+```
 
 Legacy options were specified this way:
 - either an array with a top level property 'cta_text'
@@ -173,7 +191,9 @@ returns an array of instances of Core_Business_Payment_PaymentOption
 
 ### <a name="method-getAction"></a>getAction
 
-    string Core_Business_Payment_PaymentOption::getAction()
+```php
+string Core_Business_Payment_PaymentOption::getAction()
+```
 
 Return action to perform (POST/GET)
 
@@ -187,7 +207,9 @@ Return action to perform (POST/GET)
 
 ### <a name="method-getCallToActionText"></a>getCallToActionText
 
-    string Core_Business_Payment_PaymentOption::getCallToActionText()
+```php
+string Core_Business_Payment_PaymentOption::getCallToActionText()
+```
 
 Return Call to Action Text
 
@@ -201,7 +223,9 @@ Return Call to Action Text
 
 ### <a name="method-getForm"></a>getForm
 
-    mixed Core_Business_Payment_PaymentOption::getForm()
+```php
+mixed Core_Business_Payment_PaymentOption::getForm()
+```
 
 Get payment option form
 
@@ -215,7 +239,9 @@ Get payment option form
 
 ### <a name="method-getInputs"></a>getInputs
 
-    mixed Core_Business_Payment_PaymentOption::getInputs()
+```php
+mixed Core_Business_Payment_PaymentOption::getInputs()
+```
 
 Return inputs contained in this payment option
 
@@ -229,7 +255,9 @@ Return inputs contained in this payment option
 
 ### <a name="method-getLogo"></a>getLogo
 
-    string Core_Business_Payment_PaymentOption::getLogo()
+```php
+string Core_Business_Payment_PaymentOption::getLogo()
+```
 
 Return logo path
 
@@ -243,7 +271,9 @@ Return logo path
 
 ### <a name="method-getMethod"></a>getMethod
 
-    mixed Core_Business_Payment_PaymentOption::getMethod()
+```php
+mixed Core_Business_Payment_PaymentOption::getMethod()
+```
 
 
 
@@ -257,7 +287,9 @@ Return logo path
 
 ### <a name="method-getModuleName"></a>getModuleName
 
-    string Core_Business_Payment_PaymentOption::getModuleName()
+```php
+string Core_Business_Payment_PaymentOption::getModuleName()
+```
 
 Get related module name to this payment option
 
@@ -271,7 +303,9 @@ Get related module name to this payment option
 
 ### <a name="method-setAction"></a>setAction
 
-    \Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setAction($action)
+```php
+\Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setAction($action)
+```
 
 Set action to be performed by this option
 
@@ -288,7 +322,9 @@ Set action to be performed by this option
 
 ### <a name="method-setCallToActionText"></a>setCallToActionText
 
-    \Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setCallToActionText($callToActionText)
+```php
+\Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setCallToActionText($callToActionText)
+```
 
 Set Call To Action Text
 
@@ -305,7 +341,9 @@ Set Call To Action Text
 
 ### <a name="method-setForm"></a>setForm
 
-    \Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setForm($form)
+```php
+\Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setForm($form)
+```
 
 Set payment option form
 
@@ -322,7 +360,9 @@ Set payment option form
 
 ### <a name="method-setInputs"></a>setInputs
 
-    \Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setInputs($inputs)
+```php
+\Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setInputs($inputs)
+```
 
 Set inputs for this payment option
 
@@ -339,7 +379,9 @@ Set inputs for this payment option
 
 ### <a name="method-setLogo"></a>setLogo
 
-    \Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setLogo($logo)
+```php
+\Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setLogo($logo)
+```
 
 Set logo path
 
@@ -356,7 +398,9 @@ Set logo path
 
 ### <a name="method-setMethod"></a>setMethod
 
-    mixed Core_Business_Payment_PaymentOption::setMethod($method)
+```php
+mixed Core_Business_Payment_PaymentOption::setMethod($method)
+```
 
 
 
@@ -373,7 +417,9 @@ Set logo path
 
 ### <a name="method-setModuleName"></a>setModuleName
 
-    \Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setModuleName($moduleName)
+```php
+\Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setModuleName($moduleName)
+```
 
 Set related module name to this payment option
 

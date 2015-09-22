@@ -10,14 +10,16 @@ Class AdminEmailsControllerCore
 * Source: [controllers/admin/AdminEmailsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessSendMailTest](#method-ajaxProcessSendMailTest)
 * [beforeUpdateOptions](#method-beforeUpdateOptions)
@@ -36,7 +38,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Mail $object
+```php
+public \Mail $object
+```
 
 
 
@@ -52,7 +56,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminEmailsControllerCore::__construct()
+```php
+mixed AdminEmailsControllerCore::__construct()
+```
 
 
 
@@ -66,7 +72,9 @@ Methods
 
 ### <a name="method-ajaxProcessSendMailTest"></a>ajaxProcessSendMailTest
 
-    mixed AdminEmailsControllerCore::ajaxProcessSendMailTest()
+```php
+mixed AdminEmailsControllerCore::ajaxProcessSendMailTest()
+```
 
 
 
@@ -80,7 +88,9 @@ Methods
 
 ### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
-    mixed AdminEmailsControllerCore::beforeUpdateOptions()
+```php
+mixed AdminEmailsControllerCore::beforeUpdateOptions()
+```
 
 
 
@@ -94,7 +104,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminEmailsControllerCore::initContent()
+```php
+mixed AdminEmailsControllerCore::initContent()
+```
 
 AdminController::initContent() override
 
@@ -108,7 +120,9 @@ AdminController::initContent() override
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminEmailsControllerCore::initToolbar()
+```php
+mixed AdminEmailsControllerCore::initToolbar()
+```
 
 
 
@@ -122,7 +136,9 @@ AdminController::initContent() override
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminEmailsControllerCore::processDelete()
+```php
+mixed AdminEmailsControllerCore::processDelete()
+```
 
 
 
@@ -136,7 +152,9 @@ AdminController::initContent() override
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminEmailsControllerCore::setMedia()
+```php
+mixed AdminEmailsControllerCore::setMedia()
+```
 
 
 
@@ -150,7 +168,9 @@ AdminController::initContent() override
 
 ### <a name="method-updateOptionPsMailPasswd"></a>updateOptionPsMailPasswd
 
-    mixed AdminEmailsControllerCore::updateOptionPsMailPasswd($value)
+```php
+mixed AdminEmailsControllerCore::updateOptionPsMailPasswd($value)
+```
 
 
 

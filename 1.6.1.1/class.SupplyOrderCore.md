@@ -10,9 +10,11 @@ Class SupplyOrderCore
 * Source: [classes/stock/SupplyOrder.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrder.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$date_delivery_expected](#property-$date_delivery_expected)
@@ -35,8 +37,8 @@ Properties
 * [$total_with_discount_te](#property-$total_with_discount_te)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [addHistory](#method-addHistory)
 * [calculatePrices](#method-calculatePrices)
@@ -68,7 +70,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -80,7 +84,9 @@ Properties
 
 ### <a name="property-$date_delivery_expected"></a>$date_delivery_expected
 
-    public string $date_delivery_expected
+```php
+public string $date_delivery_expected
+```
 
 
 
@@ -92,7 +98,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -104,7 +112,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'supply_order', 'primary' => 'id_supply_order', 'fields' => array('id_supplier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'supplier_name' => array('type' => self::TYPE_STRING, 'validate' => 'isCatalogName', 'required' => false), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_warehouse' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_supply_order_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_ref_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'reference' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true), 'date_delivery_expected' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true), 'total_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_with_discount_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_ti' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_tax' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'discount_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => false), 'discount_value_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'is_template' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'supply_order', 'primary' => 'id_supply_order', 'fields' => array('id_supplier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'supplier_name' => array('type' => self::TYPE_STRING, 'validate' => 'isCatalogName', 'required' => false), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_warehouse' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_supply_order_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_ref_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'reference' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true), 'date_delivery_expected' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true), 'total_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_with_discount_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_ti' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_tax' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'discount_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => false), 'discount_value_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'is_template' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -117,7 +127,9 @@ Properties
 
 ### <a name="property-$discount_rate"></a>$discount_rate
 
-    public float $discount_rate
+```php
+public float $discount_rate
+```
 
 
 
@@ -129,7 +141,9 @@ Properties
 
 ### <a name="property-$discount_value_te"></a>$discount_value_te
 
-    public float $discount_value_te
+```php
+public float $discount_value_te
+```
 
 
 
@@ -141,7 +155,9 @@ Properties
 
 ### <a name="property-$id_currency"></a>$id_currency
 
-    public integer $id_currency
+```php
+public integer $id_currency
+```
 
 
 
@@ -153,7 +169,9 @@ Properties
 
 ### <a name="property-$id_lang"></a>$id_lang
 
-    public integer $id_lang
+```php
+public integer $id_lang
+```
 
 
 
@@ -165,7 +183,9 @@ Properties
 
 ### <a name="property-$id_ref_currency"></a>$id_ref_currency
 
-    public integer $id_ref_currency
+```php
+public integer $id_ref_currency
+```
 
 
 
@@ -177,7 +197,9 @@ Properties
 
 ### <a name="property-$id_supplier"></a>$id_supplier
 
-    public integer $id_supplier
+```php
+public integer $id_supplier
+```
 
 
 
@@ -189,7 +211,9 @@ Properties
 
 ### <a name="property-$id_supply_order_state"></a>$id_supply_order_state
 
-    public integer $id_supply_order_state
+```php
+public integer $id_supply_order_state
+```
 
 
 
@@ -201,7 +225,9 @@ Properties
 
 ### <a name="property-$id_warehouse"></a>$id_warehouse
 
-    public integer $id_warehouse
+```php
+public integer $id_warehouse
+```
 
 
 
@@ -213,7 +239,9 @@ Properties
 
 ### <a name="property-$is_template"></a>$is_template
 
-    public integer $is_template
+```php
+public integer $is_template
+```
 
 
 
@@ -225,7 +253,9 @@ Properties
 
 ### <a name="property-$reference"></a>$reference
 
-    public string $reference
+```php
+public string $reference
+```
 
 
 
@@ -237,7 +267,9 @@ Properties
 
 ### <a name="property-$supplier_name"></a>$supplier_name
 
-    public string $supplier_name
+```php
+public string $supplier_name
+```
 
 
 
@@ -249,7 +281,9 @@ Properties
 
 ### <a name="property-$total_tax"></a>$total_tax
 
-    public float $total_tax
+```php
+public float $total_tax
+```
 
 
 
@@ -261,7 +295,9 @@ Properties
 
 ### <a name="property-$total_te"></a>$total_te
 
-    public float $total_te
+```php
+public float $total_te
+```
 
 
 
@@ -273,7 +309,9 @@ Properties
 
 ### <a name="property-$total_ti"></a>$total_ti
 
-    public float $total_ti
+```php
+public float $total_ti
+```
 
 
 
@@ -285,7 +323,9 @@ Properties
 
 ### <a name="property-$total_with_discount_te"></a>$total_with_discount_te
 
-    public float $total_with_discount_te
+```php
+public float $total_with_discount_te
+```
 
 
 
@@ -297,7 +337,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_supplier' => array('xlink_resource' => 'suppliers'), 'id_lang' => array('xlink_resource' => 'languages'), 'id_warehouse' => array('xlink_resource' => 'warehouses'), 'id_supply_order_state' => array('xlink_resource' => 'supply_order_states'), 'id_currency' => array('xlink_resource' => 'currencies')), 'hidden_fields' => array('id_ref_currency'), 'associations' => array('supply_order_details' => array('resource' => 'supply_order_detail', 'fields' => array('id' => array(), 'id_product' => array(), 'id_product_attribute' => array(), 'supplier_reference' => array(), 'product_name' => array()))))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_supplier' => array('xlink_resource' => 'suppliers'), 'id_lang' => array('xlink_resource' => 'languages'), 'id_warehouse' => array('xlink_resource' => 'warehouses'), 'id_supply_order_state' => array('xlink_resource' => 'supply_order_states'), 'id_currency' => array('xlink_resource' => 'currencies')), 'hidden_fields' => array('id_ref_currency'), 'associations' => array('supply_order_details' => array('resource' => 'supply_order_detail', 'fields' => array('id' => array(), 'id_product' => array(), 'id_product_attribute' => array(), 'supplier_reference' => array(), 'product_name' => array()))))
+```
 
 
 
@@ -313,7 +355,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed SupplyOrderCore::add($autodate, $null_values)
+```php
+mixed SupplyOrderCore::add($autodate, $null_values)
+```
 
 
 
@@ -331,7 +375,9 @@ Methods
 
 ### <a name="method-addHistory"></a>addHistory
 
-    mixed SupplyOrderCore::addHistory()
+```php
+mixed SupplyOrderCore::addHistory()
+```
 
 Historizes the order : its id, its state, and the employee responsible for the current action
 
@@ -345,7 +391,9 @@ Historizes the order : its id, its state, and the employee responsible for the c
 
 ### <a name="method-calculatePrices"></a>calculatePrices
 
-    mixed SupplyOrderCore::calculatePrices()
+```php
+mixed SupplyOrderCore::calculatePrices()
+```
 
 Checks all products in this order and calculate prices
 Applies the global discount if necessary
@@ -360,7 +408,9 @@ Applies the global discount if necessary
 
 ### <a name="method-exists"></a>exists
 
-    integer SupplyOrderCore::exists(integer|string $match)
+```php
+integer SupplyOrderCore::exists(integer|string $match)
+```
 
 For a given id or reference, tells if the supply order exists
 
@@ -378,7 +428,9 @@ For a given id or reference, tells if the supply order exists
 
 ### <a name="method-getAllExpectedQuantity"></a>getAllExpectedQuantity
 
-    mixed SupplyOrderCore::getAllExpectedQuantity()
+```php
+mixed SupplyOrderCore::getAllExpectedQuantity()
+```
 
 
 
@@ -392,7 +444,9 @@ For a given id or reference, tells if the supply order exists
 
 ### <a name="method-getAllPendingQuantity"></a>getAllPendingQuantity
 
-    mixed SupplyOrderCore::getAllPendingQuantity()
+```php
+mixed SupplyOrderCore::getAllPendingQuantity()
+```
 
 
 
@@ -406,7 +460,9 @@ For a given id or reference, tells if the supply order exists
 
 ### <a name="method-getAllReceivedQuantity"></a>getAllReceivedQuantity
 
-    mixed SupplyOrderCore::getAllReceivedQuantity()
+```php
+mixed SupplyOrderCore::getAllReceivedQuantity()
+```
 
 
 
@@ -420,7 +476,9 @@ For a given id or reference, tells if the supply order exists
 
 ### <a name="method-getEntries"></a>getEntries
 
-    array SupplyOrderCore::getEntries(integer $id_lang)
+```php
+array SupplyOrderCore::getEntries(integer $id_lang)
+```
 
 Retrieves the product entries for the current order
 
@@ -437,7 +495,9 @@ Retrieves the product entries for the current order
 
 ### <a name="method-getEntriesCollection"></a>getEntriesCollection
 
-    \PrestaShopCollection SupplyOrderCore::getEntriesCollection()
+```php
+\PrestaShopCollection SupplyOrderCore::getEntriesCollection()
+```
 
 Retrieves the details entries (i.e. products) collection for the current order
 
@@ -451,7 +511,9 @@ Retrieves the details entries (i.e. products) collection for the current order
 
 ### <a name="method-getReferenceById"></a>getReferenceById
 
-    boolean|string SupplyOrderCore::getReferenceById(integer $id_supply_order)
+```php
+boolean|string SupplyOrderCore::getReferenceById(integer $id_supply_order)
+```
 
 Gets the reference of a given order
 
@@ -469,7 +531,9 @@ Gets the reference of a given order
 
 ### <a name="method-getSupplyOrderByReference"></a>getSupplyOrderByReference
 
-    boolean|\SupplyOrder SupplyOrderCore::getSupplyOrderByReference(string $reference)
+```php
+boolean|\SupplyOrder SupplyOrderCore::getSupplyOrderByReference(string $reference)
+```
 
 For a given reference, returns the corresponding supply order
 
@@ -487,7 +551,9 @@ For a given reference, returns the corresponding supply order
 
 ### <a name="method-getWsSupplyOrderDetails"></a>getWsSupplyOrderDetails
 
-    array SupplyOrderCore::getWsSupplyOrderDetails()
+```php
+array SupplyOrderCore::getWsSupplyOrderDetails()
+```
 
 Webservice : gets the ids supply_order_detail associated to this order
 
@@ -501,7 +567,9 @@ Webservice : gets the ids supply_order_detail associated to this order
 
 ### <a name="method-hasEntries"></a>hasEntries
 
-    boolean SupplyOrderCore::hasEntries()
+```php
+boolean SupplyOrderCore::hasEntries()
+```
 
 Check if the order has entries
 
@@ -515,7 +583,9 @@ Check if the order has entries
 
 ### <a name="method-hydrate"></a>hydrate
 
-    mixed SupplyOrderCore::hydrate(array $data, $id_lang)
+```php
+mixed SupplyOrderCore::hydrate(array $data, $id_lang)
+```
 
 
 
@@ -533,7 +603,9 @@ Check if the order has entries
 
 ### <a name="method-isDeliveryNoteAvailable"></a>isDeliveryNoteAvailable
 
-    boolean SupplyOrderCore::isDeliveryNoteAvailable()
+```php
+boolean SupplyOrderCore::isDeliveryNoteAvailable()
+```
 
 Checks if the current state allows to generate a delivery note for this order
 
@@ -547,7 +619,9 @@ Checks if the current state allows to generate a delivery note for this order
 
 ### <a name="method-isEditable"></a>isEditable
 
-    boolean SupplyOrderCore::isEditable()
+```php
+boolean SupplyOrderCore::isEditable()
+```
 
 Check if the current state allows to edit the current order
 
@@ -561,7 +635,9 @@ Check if the current state allows to edit the current order
 
 ### <a name="method-isInReceiptState"></a>isInReceiptState
 
-    boolean SupplyOrderCore::isInReceiptState()
+```php
+boolean SupplyOrderCore::isInReceiptState()
+```
 
 Checks if the current state allows to add products in stock
 
@@ -575,7 +651,9 @@ Checks if the current state allows to add products in stock
 
 ### <a name="method-resetProducts"></a>resetProducts
 
-    mixed SupplyOrderCore::resetProducts()
+```php
+mixed SupplyOrderCore::resetProducts()
+```
 
 Removes all products from the order
 
@@ -589,7 +667,9 @@ Removes all products from the order
 
 ### <a name="method-supplierHasPendingOrders"></a>supplierHasPendingOrders
 
-    boolean SupplyOrderCore::supplierHasPendingOrders(integer $id_supplier)
+```php
+boolean SupplyOrderCore::supplierHasPendingOrders(integer $id_supplier)
+```
 
 For a given $id_supplier, tells if it has pending supply orders
 
@@ -607,7 +687,9 @@ For a given $id_supplier, tells if it has pending supply orders
 
 ### <a name="method-update"></a>update
 
-    mixed SupplyOrderCore::update($null_values)
+```php
+mixed SupplyOrderCore::update($null_values)
+```
 
 
 
@@ -624,7 +706,9 @@ For a given $id_supplier, tells if it has pending supply orders
 
 ### <a name="method-warehouseHasPendingOrders"></a>warehouseHasPendingOrders
 
-    boolean SupplyOrderCore::warehouseHasPendingOrders(integer $id_warehouse)
+```php
+boolean SupplyOrderCore::warehouseHasPendingOrders(integer $id_warehouse)
+```
 
 For a given $id_warehouse, tells if it has pending supply orders
 

@@ -24,9 +24,11 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [classes/controller/FrontController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$auth](#property-$auth)
 * [$authRedirection](#property-$authRedirection)
@@ -50,8 +52,8 @@ Properties
 * [$smarty](#property-$smarty)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [addCSS](#method-addCSS)
 * [addColorsToProductList](#method-addColorsToProductList)
@@ -109,7 +111,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public boolean $auth = false
+```php
+public boolean $auth = false
+```
 
 
 
@@ -121,7 +125,9 @@ Properties
 
 ### <a name="property-$authRedirection"></a>$authRedirection
 
-    public boolean $authRedirection = false
+```php
+public boolean $authRedirection = false
+```
 
 Route of PrestaShop page to redirect to after forced login.
 
@@ -133,7 +139,9 @@ Route of PrestaShop page to redirect to after forced login.
 
 ### <a name="property-$cart"></a>$cart
 
-    protected  $cart
+```php
+protected  $cart
+```
 
 
 
@@ -146,7 +154,9 @@ Route of PrestaShop page to redirect to after forced login.
 
 ### <a name="property-$cookie"></a>$cookie
 
-    protected  $cookie
+```php
+protected  $cookie
+```
 
 
 
@@ -159,7 +169,9 @@ Route of PrestaShop page to redirect to after forced login.
 
 ### <a name="property-$currentCustomerGroups"></a>$currentCustomerGroups
 
-    protected array $currentCustomerGroups
+```php
+protected array $currentCustomerGroups
+```
 
 
 
@@ -172,7 +184,9 @@ Route of PrestaShop page to redirect to after forced login.
 
 ### <a name="property-$display_column_left"></a>$display_column_left
 
-    public boolean $display_column_left = true
+```php
+public boolean $display_column_left = true
+```
 
 
 
@@ -184,7 +198,9 @@ Route of PrestaShop page to redirect to after forced login.
 
 ### <a name="property-$display_column_right"></a>$display_column_right
 
-    public boolean $display_column_right = true
+```php
+public boolean $display_column_right = true
+```
 
 
 
@@ -196,7 +212,9 @@ Route of PrestaShop page to redirect to after forced login.
 
 ### <a name="property-$errors"></a>$errors
 
-    public array $errors = array()
+```php
+public array $errors = array()
+```
 
 
 
@@ -208,7 +226,9 @@ Route of PrestaShop page to redirect to after forced login.
 
 ### <a name="property-$guestAllowed"></a>$guestAllowed
 
-    public boolean $guestAllowed = false
+```php
+public boolean $guestAllowed = false
+```
 
 If set to true, user can be logged in as guest when checking if logged in.
 
@@ -220,7 +240,9 @@ If set to true, user can be logged in as guest when checking if logged in.
 
 ### <a name="property-$initialized"></a>$initialized
 
-    public boolean $initialized = false
+```php
+public boolean $initialized = false
+```
 
 True if controller has already been initialized.
 
@@ -233,7 +255,9 @@ Prevents initializing controller more than once.
 
 ### <a name="property-$iso"></a>$iso
 
-    public string $iso
+```php
+public string $iso
+```
 
 
 
@@ -245,7 +269,9 @@ Prevents initializing controller more than once.
 
 ### <a name="property-$link"></a>$link
 
-    protected  $link
+```php
+protected  $link
+```
 
 
 
@@ -258,7 +284,9 @@ Prevents initializing controller more than once.
 
 ### <a name="property-$maintenance"></a>$maintenance
 
-    protected boolean $maintenance = false
+```php
+protected boolean $maintenance = false
+```
 
 
 
@@ -270,7 +298,9 @@ Prevents initializing controller more than once.
 
 ### <a name="property-$n"></a>$n
 
-    public integer $n
+```php
+public integer $n
+```
 
 
 
@@ -282,7 +312,9 @@ Prevents initializing controller more than once.
 
 ### <a name="property-$nb_items_per_page"></a>$nb_items_per_page
 
-    public integer $nb_items_per_page
+```php
+public integer $nb_items_per_page
+```
 
 
 
@@ -294,7 +326,9 @@ Prevents initializing controller more than once.
 
 ### <a name="property-$orderBy"></a>$orderBy
 
-    public string $orderBy
+```php
+public string $orderBy
+```
 
 
 
@@ -306,7 +340,9 @@ Prevents initializing controller more than once.
 
 ### <a name="property-$orderWay"></a>$orderWay
 
-    public string $orderWay
+```php
+public string $orderWay
+```
 
 
 
@@ -318,7 +354,9 @@ Prevents initializing controller more than once.
 
 ### <a name="property-$p"></a>$p
 
-    public integer $p
+```php
+public integer $p
+```
 
 
 
@@ -330,7 +368,9 @@ Prevents initializing controller more than once.
 
 ### <a name="property-$restrictedCountry"></a>$restrictedCountry
 
-    protected boolean $restrictedCountry = false
+```php
+protected boolean $restrictedCountry = false
+```
 
 
 
@@ -342,7 +382,9 @@ Prevents initializing controller more than once.
 
 ### <a name="property-$smarty"></a>$smarty
 
-    protected  $smarty
+```php
+protected  $smarty
+```
 
 
 
@@ -355,7 +397,9 @@ Prevents initializing controller more than once.
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public boolean $ssl = false
+```php
+public boolean $ssl = false
+```
 
 
 
@@ -371,7 +415,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed FrontControllerCore::__construct()
+```php
+mixed FrontControllerCore::__construct()
+```
 
 Controller constructor
 
@@ -385,7 +431,9 @@ Controller constructor
 
 ### <a name="method-addCSS"></a>addCSS
 
-    true|void FrontControllerCore::addCSS(array|string $css_uri, string $css_media_type, integer|null $offset, boolean $check_path)
+```php
+true|void FrontControllerCore::addCSS(array|string $css_uri, string $css_media_type, integer|null $offset, boolean $check_path)
+```
 
 Add one or several CSS for front, checking if css files are overridden in theme/css/modules/ directory
 
@@ -405,7 +453,9 @@ Add one or several CSS for front, checking if css files are overridden in theme/
 
 ### <a name="method-addColorsToProductList"></a>addColorsToProductList
 
-    mixed FrontControllerCore::addColorsToProductList(array $products)
+```php
+mixed FrontControllerCore::addColorsToProductList(array $products)
+```
 
 Renders and adds color list HTML for each product in a list
 
@@ -422,7 +472,9 @@ Renders and adds color list HTML for each product in a list
 
 ### <a name="method-addJS"></a>addJS
 
-    true|void FrontControllerCore::addJS(array|string $js_uri, boolean $check_path)
+```php
+true|void FrontControllerCore::addJS(array|string $js_uri, boolean $check_path)
+```
 
 Add one or several JS files for front, checking if js files are overridden in theme/js/modules/ directory
 
@@ -440,7 +492,9 @@ Add one or several JS files for front, checking if js files are overridden in th
 
 ### <a name="method-addMedia"></a>addMedia
 
-    true|void FrontControllerCore::addMedia(string|array $media_uri, string|null $css_media_type, integer|null $offset, boolean $remove, boolean $check_path)
+```php
+true|void FrontControllerCore::addMedia(string|array $media_uri, string|null $css_media_type, integer|null $offset, boolean $remove, boolean $check_path)
+```
 
 Adds a media file(s) (CSS, JS) to page header
 
@@ -461,7 +515,9 @@ Adds a media file(s) (CSS, JS) to page header
 
 ### <a name="method-canonicalRedirection"></a>canonicalRedirection
 
-    mixed FrontControllerCore::canonicalRedirection(string $canonical_url)
+```php
+mixed FrontControllerCore::canonicalRedirection(string $canonical_url)
+```
 
 Redirects to canonical URL
 
@@ -478,7 +534,9 @@ Redirects to canonical URL
 
 ### <a name="method-checkAccess"></a>checkAccess
 
-    boolean FrontControllerCore::checkAccess()
+```php
+boolean FrontControllerCore::checkAccess()
+```
 
 Check if the controller is available for the current user/visitor
 
@@ -492,7 +550,9 @@ Check if the controller is available for the current user/visitor
 
 ### <a name="method-checkLiveEditAccess"></a>checkLiveEditAccess
 
-    boolean FrontControllerCore::checkLiveEditAccess()
+```php
+boolean FrontControllerCore::checkLiveEditAccess()
+```
 
 Checks if the user can use Live Edit feature
 
@@ -506,7 +566,9 @@ Checks if the user can use Live Edit feature
 
 ### <a name="method-display"></a>display
 
-    boolean FrontControllerCore::display()
+```php
+boolean FrontControllerCore::display()
+```
 
 Compiles and outputs full page content
 
@@ -520,7 +582,9 @@ Compiles and outputs full page content
 
 ### <a name="method-displayContent"></a>displayContent
 
-    mixed FrontControllerCore::displayContent()
+```php
+mixed FrontControllerCore::displayContent()
+```
 
 Renders page content.
 
@@ -534,7 +598,9 @@ Used for retrocompatibility with PS 1.4
 
 ### <a name="method-displayFooter"></a>displayFooter
 
-    mixed FrontControllerCore::displayFooter($display)
+```php
+mixed FrontControllerCore::displayFooter($display)
+```
 
 Compiles and outputs page footer section
 
@@ -551,7 +617,9 @@ Compiles and outputs page footer section
 
 ### <a name="method-displayHeader"></a>displayHeader
 
-    mixed FrontControllerCore::displayHeader(boolean $display)
+```php
+mixed FrontControllerCore::displayHeader(boolean $display)
+```
 
 Compiles and outputs page header section (including HTML <head>)
 
@@ -568,7 +636,9 @@ Compiles and outputs page header section (including HTML <head>)
 
 ### <a name="method-displayMaintenancePage"></a>displayMaintenancePage
 
-    mixed FrontControllerCore::displayMaintenancePage()
+```php
+mixed FrontControllerCore::displayMaintenancePage()
+```
 
 Displays maintenance page if shop is closed.
 
@@ -582,7 +652,9 @@ Displays maintenance page if shop is closed.
 
 ### <a name="method-displayRestrictedCountryPage"></a>displayRestrictedCountryPage
 
-    mixed FrontControllerCore::displayRestrictedCountryPage()
+```php
+mixed FrontControllerCore::displayRestrictedCountryPage()
+```
 
 Displays 'country restricted' page if user's country is not allowed.
 
@@ -596,7 +668,9 @@ Displays 'country restricted' page if user's country is not allowed.
 
 ### <a name="method-geolocationManagement"></a>geolocationManagement
 
-    \Country|false FrontControllerCore::geolocationManagement(\Country $default_country)
+```php
+\Country|false FrontControllerCore::geolocationManagement(\Country $default_country)
+```
 
 Geolocation management
 
@@ -613,7 +687,9 @@ Geolocation management
 
 ### <a name="method-getColorsListCacheId"></a>getColorsListCacheId
 
-    string FrontControllerCore::getColorsListCacheId(integer $id_product)
+```php
+string FrontControllerCore::getColorsListCacheId(integer $id_product)
+```
 
 Returns cache ID for product color list
 
@@ -630,7 +706,9 @@ Returns cache ID for product color list
 
 ### <a name="method-getCurrentCustomerGroups"></a>getCurrentCustomerGroups
 
-    array FrontControllerCore::getCurrentCustomerGroups()
+```php
+array FrontControllerCore::getCurrentCustomerGroups()
+```
 
 Sets and returns customer groups that the current customer(visitor) belongs to.
 
@@ -645,7 +723,9 @@ Sets and returns customer groups that the current customer(visitor) belongs to.
 
 ### <a name="method-getLayout"></a>getLayout
 
-    boolean|string FrontControllerCore::getLayout()
+```php
+boolean|string FrontControllerCore::getLayout()
+```
 
 Returns the layout corresponding to the current page by using the override system
 Ex:
@@ -665,7 +745,9 @@ check if the layout exists in the following files (in that order), and return th
 
 ### <a name="method-getLiveEditFooter"></a>getLiveEditFooter
 
-    string FrontControllerCore::getLiveEditFooter()
+```php
+string FrontControllerCore::getLiveEditFooter()
+```
 
 Renders Live Edit widget
 
@@ -679,7 +761,9 @@ Renders Live Edit widget
 
 ### <a name="method-getOverrideTemplate"></a>getOverrideTemplate
 
-    string|boolean FrontControllerCore::getOverrideTemplate()
+```php
+string|boolean FrontControllerCore::getOverrideTemplate()
+```
 
 Returns an overridden template path (if any) for this controller.
 
@@ -694,7 +778,9 @@ specific controller.
 
 ### <a name="method-getOverrideThemeDir"></a>getOverrideThemeDir
 
-    string FrontControllerCore::getOverrideThemeDir()
+```php
+string FrontControllerCore::getOverrideThemeDir()
+```
 
 Returns theme override directory (regular or mobile)
 
@@ -708,7 +794,9 @@ Returns theme override directory (regular or mobile)
 
 ### <a name="method-getTemplatePath"></a>getTemplatePath
 
-    string FrontControllerCore::getTemplatePath(string $template)
+```php
+string FrontControllerCore::getTemplatePath(string $template)
+```
 
 Returns template path
 
@@ -725,7 +813,9 @@ Returns template path
 
 ### <a name="method-getThemeDir"></a>getThemeDir
 
-    string FrontControllerCore::getThemeDir()
+```php
+string FrontControllerCore::getThemeDir()
+```
 
 Returns theme directory (regular or mobile)
 
@@ -739,7 +829,9 @@ Returns theme directory (regular or mobile)
 
 ### <a name="method-init"></a>init
 
-    mixed FrontControllerCore::init()
+```php
+mixed FrontControllerCore::init()
+```
 
 Initializes front controller: sets smarty variables,
 class properties, redirects depending on context, etc.
@@ -754,7 +846,9 @@ class properties, redirects depending on context, etc.
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed FrontControllerCore::initContent()
+```php
+mixed FrontControllerCore::initContent()
+```
 
 Initializes common front page content: header, footer and side columns
 
@@ -768,7 +862,9 @@ Initializes common front page content: header, footer and side columns
 
 ### <a name="method-initCursedPage"></a>initCursedPage
 
-    mixed FrontControllerCore::initCursedPage()
+```php
+mixed FrontControllerCore::initCursedPage()
+```
 
 Renders and outputs maintenance page and ends controller process.
 
@@ -782,7 +878,9 @@ Renders and outputs maintenance page and ends controller process.
 
 ### <a name="method-initFooter"></a>initFooter
 
-    mixed FrontControllerCore::initFooter()
+```php
+mixed FrontControllerCore::initFooter()
+```
 
 Initializes page footer variables
 
@@ -796,7 +894,9 @@ Initializes page footer variables
 
 ### <a name="method-initHeader"></a>initHeader
 
-    mixed FrontControllerCore::initHeader()
+```php
+mixed FrontControllerCore::initHeader()
+```
 
 Initializes page header variables
 
@@ -810,7 +910,9 @@ Initializes page header variables
 
 ### <a name="method-initLogoAndFavicon"></a>initLogoAndFavicon
 
-    array FrontControllerCore::initLogoAndFavicon()
+```php
+array FrontControllerCore::initLogoAndFavicon()
+```
 
 Returns logo and favicon variables, depending
 on active theme type (regular or mobile)
@@ -825,7 +927,9 @@ on active theme type (regular or mobile)
 
 ### <a name="method-isInWhitelistForGeolocation"></a>isInWhitelistForGeolocation
 
-    boolean FrontControllerCore::isInWhitelistForGeolocation()
+```php
+boolean FrontControllerCore::isInWhitelistForGeolocation()
+```
 
 Checks if user's location is whitelisted.
 
@@ -840,7 +944,9 @@ Checks if user's location is whitelisted.
 
 ### <a name="method-isTokenValid"></a>isTokenValid
 
-    boolean FrontControllerCore::isTokenValid()
+```php
+boolean FrontControllerCore::isTokenValid()
+```
 
 Checks if token is valid
 
@@ -854,7 +960,9 @@ Checks if token is valid
 
 ### <a name="method-pagination"></a>pagination
 
-    mixed FrontControllerCore::pagination(integer|null $total_products)
+```php
+mixed FrontControllerCore::pagination(integer|null $total_products)
+```
 
 Assigns product list page pagination variables
 
@@ -871,7 +979,9 @@ Assigns product list page pagination variables
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed FrontControllerCore::postProcess()
+```php
+mixed FrontControllerCore::postProcess()
+```
 
 Method that is executed after init() and checkAccess().
 
@@ -885,7 +995,9 @@ Used to process user input.
 
 ### <a name="method-process"></a>process
 
-    mixed FrontControllerCore::process()
+```php
+mixed FrontControllerCore::process()
+```
 
 Called before compiling common page sections (header, footer, columns).
 
@@ -899,7 +1011,9 @@ Good place to modify smarty variables.
 
 ### <a name="method-productSort"></a>productSort
 
-    mixed FrontControllerCore::productSort()
+```php
+mixed FrontControllerCore::productSort()
+```
 
 Assigns product list page sorting variables
 
@@ -913,7 +1027,9 @@ Assigns product list page sorting variables
 
 ### <a name="method-recoverCart"></a>recoverCart
 
-    integer|false FrontControllerCore::recoverCart()
+```php
+integer|false FrontControllerCore::recoverCart()
+```
 
 Recovers cart information
 
@@ -927,7 +1043,9 @@ Recovers cart information
 
 ### <a name="method-redirect"></a>redirect
 
-    mixed FrontControllerCore::redirect()
+```php
+mixed FrontControllerCore::redirect()
+```
 
 Redirects to redirect_after link
 
@@ -941,7 +1059,9 @@ Redirects to redirect_after link
 
 ### <a name="method-removeCSS"></a>removeCSS
 
-    mixed FrontControllerCore::removeCSS(array|string $css_uri, string $css_media_type, boolean $check_path)
+```php
+mixed FrontControllerCore::removeCSS(array|string $css_uri, string $css_media_type, boolean $check_path)
+```
 
 Removes CSS file(s) from page header
 
@@ -960,7 +1080,9 @@ Removes CSS file(s) from page header
 
 ### <a name="method-removeJS"></a>removeJS
 
-    mixed FrontControllerCore::removeJS(array|string $js_uri, boolean $check_path)
+```php
+mixed FrontControllerCore::removeJS(array|string $js_uri, boolean $check_path)
+```
 
 Removes JS file(s) from page header
 
@@ -978,7 +1100,9 @@ Removes JS file(s) from page header
 
 ### <a name="method-removeMedia"></a>removeMedia
 
-    mixed FrontControllerCore::removeMedia(string|array $media_uri, string|null $css_media_type, boolean $check_path)
+```php
+mixed FrontControllerCore::removeMedia(string|array $media_uri, string|null $css_media_type, boolean $check_path)
+```
 
 Removes media file(s) from page header
 
@@ -997,7 +1121,9 @@ Removes media file(s) from page header
 
 ### <a name="method-setMedia"></a>setMedia
 
-    boolean FrontControllerCore::setMedia()
+```php
+boolean FrontControllerCore::setMedia()
+```
 
 Sets controller CSS and JS files.
 
@@ -1011,7 +1137,9 @@ Sets controller CSS and JS files.
 
 ### <a name="method-setMobileMedia"></a>setMobileMedia
 
-    mixed FrontControllerCore::setMobileMedia()
+```php
+mixed FrontControllerCore::setMobileMedia()
+```
 
 Specific medias for mobile device.
 
@@ -1025,7 +1153,9 @@ If autoload directory is present in the mobile theme, these files will not be lo
 
 ### <a name="method-setMobileTemplate"></a>setMobileTemplate
 
-    mixed FrontControllerCore::setMobileTemplate(string $template)
+```php
+mixed FrontControllerCore::setMobileTemplate(string $template)
+```
 
 Checks if the template set is available for mobile themes,
 otherwise front template is chosen.
@@ -1043,7 +1173,9 @@ otherwise front template is chosen.
 
 ### <a name="method-setTemplate"></a>setTemplate
 
-    mixed FrontControllerCore::setTemplate(string $default_template)
+```php
+mixed FrontControllerCore::setTemplate(string $default_template)
+```
 
 Sets template file for page content output
 
@@ -1060,7 +1192,9 @@ Sets template file for page content output
 
 ### <a name="method-sslRedirection"></a>sslRedirection
 
-    mixed FrontControllerCore::sslRedirection()
+```php
+mixed FrontControllerCore::sslRedirection()
+```
 
 Redirects to correct protocol if settings and request methods don't match.
 
@@ -1074,7 +1208,9 @@ Redirects to correct protocol if settings and request methods don't match.
 
 ### <a name="method-useMobileTheme"></a>useMobileTheme
 
-    boolean FrontControllerCore::useMobileTheme()
+```php
+boolean FrontControllerCore::useMobileTheme()
+```
 
 Checks if mobile theme is active and in use.
 
@@ -1088,7 +1224,9 @@ Checks if mobile theme is active and in use.
 
 ### <a name="method-viewAccess"></a>viewAccess
 
-    boolean FrontControllerCore::viewAccess()
+```php
+boolean FrontControllerCore::viewAccess()
+```
 
 Check if the current user/visitor has valid view permissions
 

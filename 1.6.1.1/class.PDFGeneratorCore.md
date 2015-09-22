@@ -9,13 +9,15 @@ Class PDFGeneratorCore
 * Parent class: TCPDF
 * Source: [classes/pdf/PDFGenerator.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L33)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEFAULT_FONT](#constant-DEFAULT_FONT)
 
-Properties
-----------
+### Properties
 
 * [$content](#property-$content)
 * [$font](#property-$font)
@@ -23,8 +25,8 @@ Properties
 * [$footer](#property-$footer)
 * [$header](#property-$header)
 
-Methods
--------
+### Methods
+
 * [Footer](#method-Footer)
 * [Header](#method-Header)
 * [__construct](#method-__construct)
@@ -44,7 +46,9 @@ Constants
 
 ### <a name="constant-DEFAULT_FONT"></a>DEFAULT_FONT
 
-    const DEFAULT_FONT = 'helvetica'
+```php
+const DEFAULT_FONT = 'helvetica'
+```
 
 
 
@@ -59,7 +63,9 @@ Properties
 
 ### <a name="property-$content"></a>$content
 
-    public mixed $content
+```php
+public mixed $content
+```
 
 
 
@@ -71,7 +77,9 @@ Properties
 
 ### <a name="property-$font"></a>$font
 
-    public mixed $font
+```php
+public mixed $font
+```
 
 
 
@@ -83,7 +91,9 @@ Properties
 
 ### <a name="property-$font_by_lang"></a>$font_by_lang
 
-    public mixed $font_by_lang = array('ja' => 'cid0jp', 'bg' => 'freeserif', 'ru' => 'freeserif', 'uk' => 'freeserif', 'mk' => 'freeserif', 'el' => 'freeserif', 'en' => 'dejavusans', 'vn' => 'dejavusans', 'pl' => 'dejavusans', 'ar' => 'dejavusans', 'fa' => 'dejavusans', 'ur' => 'dejavusans', 'az' => 'dejavusans', 'ca' => 'dejavusans', 'gl' => 'dejavusans', 'hr' => 'dejavusans', 'sr' => 'dejavusans', 'si' => 'dejavusans', 'cs' => 'dejavusans', 'sk' => 'dejavusans', 'ka' => 'dejavusans', 'he' => 'dejavusans', 'lo' => 'dejavusans', 'lt' => 'dejavusans', 'lv' => 'dejavusans', 'tr' => 'dejavusans', 'ko' => 'cid0kr', 'zh' => 'cid0cs', 'tw' => 'cid0cs', 'th' => 'freeserif')
+```php
+public mixed $font_by_lang = array('ja' => 'cid0jp', 'bg' => 'freeserif', 'ru' => 'freeserif', 'uk' => 'freeserif', 'mk' => 'freeserif', 'el' => 'freeserif', 'en' => 'dejavusans', 'vn' => 'dejavusans', 'pl' => 'dejavusans', 'ar' => 'dejavusans', 'fa' => 'dejavusans', 'ur' => 'dejavusans', 'az' => 'dejavusans', 'ca' => 'dejavusans', 'gl' => 'dejavusans', 'hr' => 'dejavusans', 'sr' => 'dejavusans', 'si' => 'dejavusans', 'cs' => 'dejavusans', 'sk' => 'dejavusans', 'ka' => 'dejavusans', 'he' => 'dejavusans', 'lo' => 'dejavusans', 'lt' => 'dejavusans', 'lv' => 'dejavusans', 'tr' => 'dejavusans', 'ko' => 'cid0kr', 'zh' => 'cid0cs', 'tw' => 'cid0cs', 'th' => 'freeserif')
+```
 
 
 
@@ -95,7 +105,9 @@ Properties
 
 ### <a name="property-$footer"></a>$footer
 
-    public mixed $footer
+```php
+public mixed $footer
+```
 
 
 
@@ -107,7 +119,9 @@ Properties
 
 ### <a name="property-$header"></a>$header
 
-    public mixed $header
+```php
+public mixed $header
+```
 
 
 
@@ -123,7 +137,9 @@ Methods
 
 ### <a name="method-Footer"></a>Footer
 
-    mixed PDFGeneratorCore::Footer()
+```php
+mixed PDFGeneratorCore::Footer()
+```
 
 
 
@@ -137,7 +153,9 @@ Methods
 
 ### <a name="method-Header"></a>Header
 
-    mixed PDFGeneratorCore::Header()
+```php
+mixed PDFGeneratorCore::Header()
+```
 
 
 
@@ -151,7 +169,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed PDFGeneratorCore::__construct(boolean $use_cache, string $orientation)
+```php
+mixed PDFGeneratorCore::__construct(boolean $use_cache, string $orientation)
+```
 
 
 
@@ -169,7 +189,9 @@ Methods
 
 ### <a name="method-createContent"></a>createContent
 
-    mixed PDFGeneratorCore::createContent(string $content)
+```php
+mixed PDFGeneratorCore::createContent(string $content)
+```
 
 create the PDF content
 
@@ -186,7 +208,9 @@ create the PDF content
 
 ### <a name="method-createFooter"></a>createFooter
 
-    mixed PDFGeneratorCore::createFooter(string $footer)
+```php
+mixed PDFGeneratorCore::createFooter(string $footer)
+```
 
 set the PDF footer
 
@@ -203,7 +227,9 @@ set the PDF footer
 
 ### <a name="method-createHeader"></a>createHeader
 
-    mixed PDFGeneratorCore::createHeader(string $header)
+```php
+mixed PDFGeneratorCore::createHeader(string $header)
+```
 
 set the PDF header
 
@@ -220,7 +246,9 @@ set the PDF header
 
 ### <a name="method-getRandomSeed"></a>getRandomSeed
 
-    mixed PDFGeneratorCore::getRandomSeed($seed)
+```php
+mixed PDFGeneratorCore::getRandomSeed($seed)
+```
 
 Override of TCPDF::getRandomSeed() - getmypid() is blocked on several hosting
 
@@ -237,7 +265,9 @@ Override of TCPDF::getRandomSeed() - getmypid() is blocked on several hosting
 
 ### <a name="method-render"></a>render
 
-    string PDFGeneratorCore::render(string $filename, boolean $display)
+```php
+string PDFGeneratorCore::render(string $filename, boolean $display)
+```
 
 Render HTML template
 
@@ -255,7 +285,9 @@ Render HTML template
 
 ### <a name="method-setEncoding"></a>setEncoding
 
-    mixed PDFGeneratorCore::setEncoding(string $encoding)
+```php
+mixed PDFGeneratorCore::setEncoding(string $encoding)
+```
 
 set the PDF encoding
 
@@ -272,7 +304,9 @@ set the PDF encoding
 
 ### <a name="method-setFontForLang"></a>setFontForLang
 
-    mixed PDFGeneratorCore::setFontForLang(string $iso_lang)
+```php
+mixed PDFGeneratorCore::setFontForLang(string $iso_lang)
+```
 
 Change the font
 
@@ -289,7 +323,9 @@ Change the font
 
 ### <a name="method-writePage"></a>writePage
 
-    mixed PDFGeneratorCore::writePage()
+```php
+mixed PDFGeneratorCore::writePage()
+```
 
 Write a PDF page
 

@@ -10,9 +10,11 @@ Class AttachmentCore
 * Source: [classes/Attachment.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$description](#property-$description)
@@ -23,8 +25,8 @@ Properties
 * [$name](#property-$name)
 * [$position](#property-$position)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [attachProduct](#method-attachProduct)
 * [attachToProduct](#method-attachToProduct)
@@ -44,7 +46,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'attachment', 'primary' => 'id_attachment', 'multilang' => true, 'fields' => array('file' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 40), 'mime' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 128), 'file_name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 128), 'file_size' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml')))
+```php
+public mixed $definition = array('table' => 'attachment', 'primary' => 'id_attachment', 'multilang' => true, 'fields' => array('file' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 40), 'mime' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 128), 'file_name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 128), 'file_size' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml')))
+```
 
 
 
@@ -57,7 +61,9 @@ Properties
 
 ### <a name="property-$description"></a>$description
 
-    public mixed $description
+```php
+public mixed $description
+```
 
 
 
@@ -69,7 +75,9 @@ Properties
 
 ### <a name="property-$file"></a>$file
 
-    public mixed $file
+```php
+public mixed $file
+```
 
 
 
@@ -81,7 +89,9 @@ Properties
 
 ### <a name="property-$file_name"></a>$file_name
 
-    public mixed $file_name
+```php
+public mixed $file_name
+```
 
 
 
@@ -93,7 +103,9 @@ Properties
 
 ### <a name="property-$file_size"></a>$file_size
 
-    public mixed $file_size
+```php
+public mixed $file_size
+```
 
 
 
@@ -105,7 +117,9 @@ Properties
 
 ### <a name="property-$mime"></a>$mime
 
-    public mixed $mime
+```php
+public mixed $mime
+```
 
 
 
@@ -117,7 +131,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -129,7 +145,9 @@ Properties
 
 ### <a name="property-$position"></a>$position
 
-    public integer $position
+```php
+public integer $position
+```
 
 
 
@@ -145,7 +163,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed AttachmentCore::add($autodate, $null_values)
+```php
+mixed AttachmentCore::add($autodate, $null_values)
+```
 
 
 
@@ -163,7 +183,9 @@ Methods
 
 ### <a name="method-attachProduct"></a>attachProduct
 
-    boolean AttachmentCore::attachProduct(integer $id_product)
+```php
+boolean AttachmentCore::attachProduct(integer $id_product)
+```
 
 associate $id_product to the current object.
 
@@ -180,7 +202,9 @@ associate $id_product to the current object.
 
 ### <a name="method-attachToProduct"></a>attachToProduct
 
-    boolean AttachmentCore::attachToProduct($id_product, $array)
+```php
+boolean AttachmentCore::attachToProduct($id_product, $array)
+```
 
 Associate an array of id_attachment $array to the product $id_product
 and remove eventual previous association
@@ -200,7 +224,9 @@ and remove eventual previous association
 
 ### <a name="method-delete"></a>delete
 
-    mixed AttachmentCore::delete()
+```php
+mixed AttachmentCore::delete()
+```
 
 
 
@@ -214,7 +240,9 @@ and remove eventual previous association
 
 ### <a name="method-deleteProductAttachments"></a>deleteProductAttachments
 
-    boolean AttachmentCore::deleteProductAttachments($id_product)
+```php
+boolean AttachmentCore::deleteProductAttachments($id_product)
+```
 
 Unassociate $id_product from the current object
 
@@ -232,7 +260,9 @@ Unassociate $id_product from the current object
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    mixed AttachmentCore::deleteSelection($attachments)
+```php
+mixed AttachmentCore::deleteSelection($attachments)
+```
 
 
 
@@ -249,7 +279,9 @@ Unassociate $id_product from the current object
 
 ### <a name="method-getAttachments"></a>getAttachments
 
-    mixed AttachmentCore::getAttachments($id_lang, $id_product, $include)
+```php
+mixed AttachmentCore::getAttachments($id_lang, $id_product, $include)
+```
 
 
 
@@ -269,7 +301,9 @@ Unassociate $id_product from the current object
 
 ### <a name="method-getProductAttached"></a>getProductAttached
 
-    mixed AttachmentCore::getProductAttached($id_lang, $list)
+```php
+mixed AttachmentCore::getProductAttached($id_lang, $list)
+```
 
 
 
@@ -288,7 +322,9 @@ Unassociate $id_product from the current object
 
 ### <a name="method-update"></a>update
 
-    mixed AttachmentCore::update($null_values)
+```php
+mixed AttachmentCore::update($null_values)
+```
 
 
 

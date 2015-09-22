@@ -1,5 +1,6 @@
 File classes/Dispatcher.php
 =========
+
 Source: [classes/Dispatcher.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php)
 
 

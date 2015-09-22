@@ -11,14 +11,16 @@ Class ModuleGridEngineCore
 * Source: [classes/module/ModuleGridEngine.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGridEngine.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_type](#property-$_type)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getGridEngines](#method-getGridEngines)
 * [install](#method-install)
@@ -38,7 +40,9 @@ Properties
 
 ### <a name="property-$_type"></a>$_type
 
-    protected mixed $_type
+```php
+protected mixed $_type
+```
 
 
 
@@ -54,7 +58,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ModuleGridEngineCore::__construct($type)
+```php
+mixed ModuleGridEngineCore::__construct($type)
+```
 
 
 
@@ -71,7 +77,9 @@ Methods
 
 ### <a name="method-getGridEngines"></a>getGridEngines
 
-    mixed ModuleGridEngineCore::getGridEngines()
+```php
+mixed ModuleGridEngineCore::getGridEngines()
+```
 
 
 
@@ -86,7 +94,9 @@ Methods
 
 ### <a name="method-install"></a>install
 
-    mixed ModuleGridEngineCore::install()
+```php
+mixed ModuleGridEngineCore::install()
+```
 
 
 
@@ -100,7 +110,9 @@ Methods
 
 ### <a name="method-render"></a>render
 
-    mixed ModuleGridEngineCore::render()
+```php
+mixed ModuleGridEngineCore::render()
+```
 
 
 
@@ -115,7 +127,9 @@ Methods
 
 ### <a name="method-setLimit"></a>setLimit
 
-    mixed ModuleGridEngineCore::setLimit($start, $limit)
+```php
+mixed ModuleGridEngineCore::setLimit($start, $limit)
+```
 
 
 
@@ -134,7 +148,9 @@ Methods
 
 ### <a name="method-setSize"></a>setSize
 
-    mixed ModuleGridEngineCore::setSize($width, $height)
+```php
+mixed ModuleGridEngineCore::setSize($width, $height)
+```
 
 
 
@@ -153,7 +169,9 @@ Methods
 
 ### <a name="method-setTitle"></a>setTitle
 
-    mixed ModuleGridEngineCore::setTitle($title)
+```php
+mixed ModuleGridEngineCore::setTitle($title)
+```
 
 
 
@@ -171,7 +189,9 @@ Methods
 
 ### <a name="method-setTotalCount"></a>setTotalCount
 
-    mixed ModuleGridEngineCore::setTotalCount($total_count)
+```php
+mixed ModuleGridEngineCore::setTotalCount($total_count)
+```
 
 
 
@@ -189,7 +209,9 @@ Methods
 
 ### <a name="method-setValues"></a>setValues
 
-    mixed ModuleGridEngineCore::setValues($values)
+```php
+mixed ModuleGridEngineCore::setValues($values)
+```
 
 
 

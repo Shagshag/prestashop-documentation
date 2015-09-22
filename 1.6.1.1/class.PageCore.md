@@ -10,17 +10,19 @@ Class PageCore
 * Source: [classes/Page.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$id_object](#property-$id_object)
 * [$id_page_type](#property-$id_page_type)
 * [$name](#property-$name)
 
-Methods
--------
+### Methods
+
 * [getCurrentId](#method-getCurrentId)
 * [getPageTypeByName](#method-getPageTypeByName)
 * [setPageViewed](#method-setPageViewed)
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'page', 'primary' => 'id_page', 'fields' => array('id_page_type' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_object' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId')))
+```php
+public mixed $definition = array('table' => 'page', 'primary' => 'id_page', 'fields' => array('id_page_type' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_object' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId')))
+```
 
 
 
@@ -47,7 +51,9 @@ Properties
 
 ### <a name="property-$id_object"></a>$id_object
 
-    public mixed $id_object
+```php
+public mixed $id_object
+```
 
 
 
@@ -59,7 +65,9 @@ Properties
 
 ### <a name="property-$id_page_type"></a>$id_page_type
 
-    public mixed $id_page_type
+```php
+public mixed $id_page_type
+```
 
 
 
@@ -71,7 +79,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -87,7 +97,9 @@ Methods
 
 ### <a name="method-getCurrentId"></a>getCurrentId
 
-    integer PageCore::getCurrentId()
+```php
+integer PageCore::getCurrentId()
+```
 
 
 
@@ -102,7 +114,9 @@ Methods
 
 ### <a name="method-getPageTypeByName"></a>getPageTypeByName
 
-    mixed PageCore::getPageTypeByName(string $name)
+```php
+mixed PageCore::getPageTypeByName(string $name)
+```
 
 Return page type ID from page name
 
@@ -120,7 +134,9 @@ Return page type ID from page name
 
 ### <a name="method-setPageViewed"></a>setPageViewed
 
-    mixed PageCore::setPageViewed($id_page)
+```php
+mixed PageCore::setPageViewed($id_page)
+```
 
 
 

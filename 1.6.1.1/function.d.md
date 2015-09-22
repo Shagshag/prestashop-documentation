@@ -5,11 +5,15 @@ Function d
 
 
 
-    mixed d($var)
+```php
+mixed d($var)
+```
 
 * Function name: d
-* Source: [config/alias.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/alias.php#L37)
+* Source: [config/alias.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/alias.php#L37).
 
-#### Arguments
+Arguments
+---------
+
 * $var **mixed**
 

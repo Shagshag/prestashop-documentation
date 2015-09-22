@@ -10,9 +10,11 @@ Class FreeOrder to use PaymentModule (abstract class, cannot be instancied)
 * Source: [controllers/front/ParentOrderController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$displayName](#property-$displayName)
@@ -28,7 +30,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public mixed $active = 1
+```php
+public mixed $active = 1
+```
 
 
 
@@ -40,7 +44,9 @@ Properties
 
 ### <a name="property-$displayName"></a>$displayName
 
-    public mixed $displayName = 'free_order'
+```php
+public mixed $displayName = 'free_order'
+```
 
 
 
@@ -52,7 +58,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name = 'free_order'
+```php
+public mixed $name = 'free_order'
+```
 
 
 

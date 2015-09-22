@@ -10,9 +10,11 @@ Class AdminAttributesGroupsControllerCore
 * Source: [controllers/admin/AdminAttributesGroupsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$attribute_name](#property-$attribute_name)
 * [$bootstrap](#property-$bootstrap)
@@ -20,8 +22,8 @@ Properties
 * [$object](#property-$object)
 * [$position_identifier](#property-$position_identifier)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessUpdateAttributesPositions](#method-ajaxProcessUpdateAttributesPositions)
 * [ajaxProcessUpdateGroupsPositions](#method-ajaxProcessUpdateGroupsPositions)
@@ -53,7 +55,9 @@ Properties
 
 ### <a name="property-$attribute_name"></a>$attribute_name
 
-    protected mixed $attribute_name
+```php
+protected mixed $attribute_name
+```
 
 
 
@@ -65,7 +69,9 @@ Properties
 
 ### <a name="property-$bootstrap"></a>$bootstrap
 
-    public mixed $bootstrap = true
+```php
+public mixed $bootstrap = true
+```
 
 
 
@@ -77,7 +83,9 @@ Properties
 
 ### <a name="property-$id_attribute"></a>$id_attribute
 
-    protected mixed $id_attribute
+```php
+protected mixed $id_attribute
+```
 
 
 
@@ -89,7 +97,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \AttributeGroup $object
+```php
+public \AttributeGroup $object
+```
 
 
 
@@ -101,7 +111,9 @@ Properties
 
 ### <a name="property-$position_identifier"></a>$position_identifier
 
-    protected mixed $position_identifier = 'id_attribute_group'
+```php
+protected mixed $position_identifier = 'id_attribute_group'
+```
 
 
 
@@ -117,7 +129,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminAttributesGroupsControllerCore::__construct()
+```php
+mixed AdminAttributesGroupsControllerCore::__construct()
+```
 
 
 
@@ -131,7 +145,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateAttributesPositions"></a>ajaxProcessUpdateAttributesPositions
 
-    mixed AdminAttributesGroupsControllerCore::ajaxProcessUpdateAttributesPositions()
+```php
+mixed AdminAttributesGroupsControllerCore::ajaxProcessUpdateAttributesPositions()
+```
 
 
 
@@ -145,7 +161,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateGroupsPositions"></a>ajaxProcessUpdateGroupsPositions
 
-    mixed AdminAttributesGroupsControllerCore::ajaxProcessUpdateGroupsPositions()
+```php
+mixed AdminAttributesGroupsControllerCore::ajaxProcessUpdateGroupsPositions()
+```
 
 
 
@@ -159,7 +177,9 @@ Methods
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminAttributesGroupsControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```php
+mixed AdminAttributesGroupsControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```
 
 AdminController::getList() override
 
@@ -181,7 +201,9 @@ AdminController::getList() override
 
 ### <a name="method-init"></a>init
 
-    mixed AdminAttributesGroupsControllerCore::init()
+```php
+mixed AdminAttributesGroupsControllerCore::init()
+```
 
 AdminController::init() override
 
@@ -195,7 +217,9 @@ AdminController::init() override
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminAttributesGroupsControllerCore::initContent()
+```php
+mixed AdminAttributesGroupsControllerCore::initContent()
+```
 
 AdminController::initContent() override
 
@@ -209,7 +233,9 @@ AdminController::initContent() override
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminAttributesGroupsControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminAttributesGroupsControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -223,7 +249,9 @@ AdminController::initContent() override
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminAttributesGroupsControllerCore::initProcess()
+```php
+mixed AdminAttributesGroupsControllerCore::initProcess()
+```
 
 
 
@@ -237,7 +265,9 @@ AdminController::initContent() override
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminAttributesGroupsControllerCore::initToolbar()
+```php
+mixed AdminAttributesGroupsControllerCore::initToolbar()
+```
 
 
 
@@ -251,7 +281,9 @@ AdminController::initContent() override
 
 ### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
-    mixed AdminAttributesGroupsControllerCore::initToolbarTitle()
+```php
+mixed AdminAttributesGroupsControllerCore::initToolbarTitle()
+```
 
 
 
@@ -265,7 +297,9 @@ AdminController::initContent() override
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminAttributesGroupsControllerCore::postProcess()
+```php
+mixed AdminAttributesGroupsControllerCore::postProcess()
+```
 
 
 
@@ -279,7 +313,9 @@ AdminController::initContent() override
 
 ### <a name="method-processAdd"></a>processAdd
 
-    mixed AdminAttributesGroupsControllerCore::processAdd()
+```php
+mixed AdminAttributesGroupsControllerCore::processAdd()
+```
 
 Override processAdd to change SaveAndStay button action
 
@@ -293,7 +329,9 @@ Override processAdd to change SaveAndStay button action
 
 ### <a name="method-processBulkDelete"></a>processBulkDelete
 
-    mixed AdminAttributesGroupsControllerCore::processBulkDelete()
+```php
+mixed AdminAttributesGroupsControllerCore::processBulkDelete()
+```
 
 Overrides parent to delete items from sublist
 
@@ -307,7 +345,9 @@ Overrides parent to delete items from sublist
 
 ### <a name="method-processPosition"></a>processPosition
 
-    mixed AdminAttributesGroupsControllerCore::processPosition()
+```php
+mixed AdminAttributesGroupsControllerCore::processPosition()
+```
 
 
 
@@ -321,7 +361,9 @@ Overrides parent to delete items from sublist
 
 ### <a name="method-processSave"></a>processSave
 
-    mixed AdminAttributesGroupsControllerCore::processSave()
+```php
+mixed AdminAttributesGroupsControllerCore::processSave()
+```
 
 Call the right method for creating or updating object
 
@@ -335,7 +377,9 @@ Call the right method for creating or updating object
 
 ### <a name="method-processUpdate"></a>processUpdate
 
-    mixed AdminAttributesGroupsControllerCore::processUpdate()
+```php
+mixed AdminAttributesGroupsControllerCore::processUpdate()
+```
 
 Override processUpdate to change SaveAndStay button action
 
@@ -349,7 +393,9 @@ Override processUpdate to change SaveAndStay button action
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminAttributesGroupsControllerCore::renderForm()
+```php
+mixed AdminAttributesGroupsControllerCore::renderForm()
+```
 
 AdminController::renderForm() override
 
@@ -363,7 +409,9 @@ AdminController::renderForm() override
 
 ### <a name="method-renderFormAttributes"></a>renderFormAttributes
 
-    mixed AdminAttributesGroupsControllerCore::renderFormAttributes()
+```php
+mixed AdminAttributesGroupsControllerCore::renderFormAttributes()
+```
 
 
 
@@ -377,7 +425,9 @@ AdminController::renderForm() override
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminAttributesGroupsControllerCore::renderList()
+```php
+mixed AdminAttributesGroupsControllerCore::renderList()
+```
 
 AdminController::renderList() override
 
@@ -391,7 +441,9 @@ AdminController::renderList() override
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminAttributesGroupsControllerCore::renderView()
+```php
+mixed AdminAttributesGroupsControllerCore::renderView()
+```
 
 
 
@@ -405,7 +457,9 @@ AdminController::renderList() override
 
 ### <a name="method-setTypeAttribute"></a>setTypeAttribute
 
-    mixed AdminAttributesGroupsControllerCore::setTypeAttribute()
+```php
+mixed AdminAttributesGroupsControllerCore::setTypeAttribute()
+```
 
 
 

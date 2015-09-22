@@ -10,14 +10,16 @@ Class AdminOutstandingControllerCore
 * Source: [controllers/admin/AdminOutstandingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initToolbar](#method-initToolbar)
 * [printOutstandingCalculation](#method-printOutstandingCalculation)
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \OrderInvoice $object
+```php
+public \OrderInvoice $object
+```
 
 
 
@@ -49,7 +53,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminOutstandingControllerCore::__construct()
+```php
+mixed AdminOutstandingControllerCore::__construct()
+```
 
 
 
@@ -63,7 +69,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    boolean AdminOutstandingControllerCore::initToolbar()
+```php
+boolean AdminOutstandingControllerCore::initToolbar()
+```
 
 Toolbar initialisation
 
@@ -77,7 +85,9 @@ Toolbar initialisation
 
 ### <a name="method-printOutstandingCalculation"></a>printOutstandingCalculation
 
-    mixed AdminOutstandingControllerCore::printOutstandingCalculation($id_invoice, $tr)
+```php
+mixed AdminOutstandingControllerCore::printOutstandingCalculation($id_invoice, $tr)
+```
 
 
 
@@ -95,7 +105,9 @@ Toolbar initialisation
 
 ### <a name="method-printPDFIcons"></a>printPDFIcons
 
-    string AdminOutstandingControllerCore::printPDFIcons($id_invoice, $tr)
+```php
+string AdminOutstandingControllerCore::printPDFIcons($id_invoice, $tr)
+```
 
 Column callback for print PDF incon
 
@@ -113,7 +125,9 @@ Column callback for print PDF incon
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminOutstandingControllerCore::renderView()
+```php
+mixed AdminOutstandingControllerCore::renderView()
+```
 
 View render
 

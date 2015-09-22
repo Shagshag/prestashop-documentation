@@ -10,9 +10,11 @@ Class AdminMetaControllerCore
 * Source: [controllers/admin/AdminMetaController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$className](#property-$className)
 * [$lang](#property-$lang)
@@ -21,8 +23,8 @@ Properties
 * [$toolbar_scroll](#property-$toolbar_scroll)
 * [$url](#property-$url)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [addAllRouteFields](#method-addAllRouteFields)
 * [addFieldRoute](#method-addFieldRoute)
@@ -59,7 +61,9 @@ Properties
 
 ### <a name="property-$className"></a>$className
 
-    public mixed $className = 'Meta'
+```php
+public mixed $className = 'Meta'
+```
 
 
 
@@ -71,7 +75,9 @@ Properties
 
 ### <a name="property-$lang"></a>$lang
 
-    public mixed $lang = true
+```php
+public mixed $lang = true
+```
 
 
 
@@ -83,7 +89,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Meta $object
+```php
+public \Meta $object
+```
 
 
 
@@ -95,7 +103,9 @@ Properties
 
 ### <a name="property-$table"></a>$table
 
-    public mixed $table = 'meta'
+```php
+public mixed $table = 'meta'
+```
 
 
 
@@ -107,7 +117,9 @@ Properties
 
 ### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
 
-    protected mixed $toolbar_scroll = false
+```php
+protected mixed $toolbar_scroll = false
+```
 
 
 
@@ -119,7 +131,9 @@ Properties
 
 ### <a name="property-$url"></a>$url
 
-    protected \ShopUrl $url = false
+```php
+protected \ShopUrl $url = false
+```
 
 
 
@@ -135,7 +149,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminMetaControllerCore::__construct()
+```php
+mixed AdminMetaControllerCore::__construct()
+```
 
 
 
@@ -149,7 +165,9 @@ Methods
 
 ### <a name="method-addAllRouteFields"></a>addAllRouteFields
 
-    mixed AdminMetaControllerCore::addAllRouteFields()
+```php
+mixed AdminMetaControllerCore::addAllRouteFields()
+```
 
 Add all custom route fields to the options form
 
@@ -163,7 +181,9 @@ Add all custom route fields to the options form
 
 ### <a name="method-addFieldRoute"></a>addFieldRoute
 
-    mixed AdminMetaControllerCore::addFieldRoute($route_id, $title)
+```php
+mixed AdminMetaControllerCore::addFieldRoute($route_id, $title)
+```
 
 
 
@@ -181,7 +201,9 @@ Add all custom route fields to the options form
 
 ### <a name="method-checkAndUpdateRoute"></a>checkAndUpdateRoute
 
-    mixed AdminMetaControllerCore::checkAndUpdateRoute(string $route_id)
+```php
+mixed AdminMetaControllerCore::checkAndUpdateRoute(string $route_id)
+```
 
 Validate route syntax and save it in configuration
 
@@ -198,7 +220,9 @@ Validate route syntax and save it in configuration
 
 ### <a name="method-checkConfiguration"></a>checkConfiguration
 
-    boolean AdminMetaControllerCore::checkConfiguration(string $file)
+```php
+boolean AdminMetaControllerCore::checkConfiguration(string $file)
+```
 
 Check if a file is writable
 
@@ -215,7 +239,9 @@ Check if a file is writable
 
 ### <a name="method-generateRobotsFile"></a>generateRobotsFile
 
-    mixed AdminMetaControllerCore::generateRobotsFile()
+```php
+mixed AdminMetaControllerCore::generateRobotsFile()
+```
 
 
 
@@ -229,7 +255,9 @@ Check if a file is writable
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminMetaControllerCore::getList($id_lang, $orderBy, $orderWay, $start, $limit, $id_lang_shop)
+```php
+mixed AdminMetaControllerCore::getList($id_lang, $orderBy, $orderWay, $start, $limit, $id_lang_shop)
+```
 
 
 
@@ -251,7 +279,9 @@ Check if a file is writable
 
 ### <a name="method-getRobotsContent"></a>getRobotsContent
 
-    mixed AdminMetaControllerCore::getRobotsContent()
+```php
+mixed AdminMetaControllerCore::getRobotsContent()
+```
 
 
 
@@ -265,7 +295,9 @@ Check if a file is writable
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminMetaControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminMetaControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -279,7 +311,9 @@ Check if a file is writable
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminMetaControllerCore::initProcess()
+```php
+mixed AdminMetaControllerCore::initProcess()
+```
 
 
 
@@ -293,7 +327,9 @@ Check if a file is writable
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminMetaControllerCore::postProcess()
+```php
+mixed AdminMetaControllerCore::postProcess()
+```
 
 
 
@@ -307,7 +343,9 @@ Check if a file is writable
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminMetaControllerCore::renderForm()
+```php
+mixed AdminMetaControllerCore::renderForm()
+```
 
 
 
@@ -321,7 +359,9 @@ Check if a file is writable
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminMetaControllerCore::renderList()
+```php
+mixed AdminMetaControllerCore::renderList()
+```
 
 
 
@@ -335,7 +375,9 @@ Check if a file is writable
 
 ### <a name="method-renderOptions"></a>renderOptions
 
-    mixed AdminMetaControllerCore::renderOptions()
+```php
+mixed AdminMetaControllerCore::renderOptions()
+```
 
 Function used to render the options for this controller
 
@@ -349,7 +391,9 @@ Function used to render the options for this controller
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminMetaControllerCore::setMedia()
+```php
+mixed AdminMetaControllerCore::setMedia()
+```
 
 
 
@@ -363,7 +407,9 @@ Function used to render the options for this controller
 
 ### <a name="method-updateOptionDomain"></a>updateOptionDomain
 
-    mixed AdminMetaControllerCore::updateOptionDomain(string $value)
+```php
+mixed AdminMetaControllerCore::updateOptionDomain(string $value)
+```
 
 Update shop domain (for mono shop)
 
@@ -380,7 +426,9 @@ Update shop domain (for mono shop)
 
 ### <a name="method-updateOptionDomainSsl"></a>updateOptionDomainSsl
 
-    mixed AdminMetaControllerCore::updateOptionDomainSsl(string $value)
+```php
+mixed AdminMetaControllerCore::updateOptionDomainSsl(string $value)
+```
 
 Update shop SSL domain (for mono shop)
 
@@ -397,7 +445,9 @@ Update shop SSL domain (for mono shop)
 
 ### <a name="method-updateOptionPsRewritingSettings"></a>updateOptionPsRewritingSettings
 
-    mixed AdminMetaControllerCore::updateOptionPsRewritingSettings()
+```php
+mixed AdminMetaControllerCore::updateOptionPsRewritingSettings()
+```
 
 Called when PS_REWRITING_SETTINGS option is saved
 
@@ -411,7 +461,9 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 ### <a name="method-updateOptionPsRouteCategoryRule"></a>updateOptionPsRouteCategoryRule
 
-    mixed AdminMetaControllerCore::updateOptionPsRouteCategoryRule()
+```php
+mixed AdminMetaControllerCore::updateOptionPsRouteCategoryRule()
+```
 
 
 
@@ -425,7 +477,9 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 ### <a name="method-updateOptionPsRouteCmsCategoryRule"></a>updateOptionPsRouteCmsCategoryRule
 
-    mixed AdminMetaControllerCore::updateOptionPsRouteCmsCategoryRule()
+```php
+mixed AdminMetaControllerCore::updateOptionPsRouteCmsCategoryRule()
+```
 
 
 
@@ -439,7 +493,9 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 ### <a name="method-updateOptionPsRouteCmsRule"></a>updateOptionPsRouteCmsRule
 
-    mixed AdminMetaControllerCore::updateOptionPsRouteCmsRule()
+```php
+mixed AdminMetaControllerCore::updateOptionPsRouteCmsRule()
+```
 
 
 
@@ -453,7 +509,9 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 ### <a name="method-updateOptionPsRouteLayeredRule"></a>updateOptionPsRouteLayeredRule
 
-    mixed AdminMetaControllerCore::updateOptionPsRouteLayeredRule()
+```php
+mixed AdminMetaControllerCore::updateOptionPsRouteLayeredRule()
+```
 
 
 
@@ -467,7 +525,9 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 ### <a name="method-updateOptionPsRouteManufacturerRule"></a>updateOptionPsRouteManufacturerRule
 
-    mixed AdminMetaControllerCore::updateOptionPsRouteManufacturerRule()
+```php
+mixed AdminMetaControllerCore::updateOptionPsRouteManufacturerRule()
+```
 
 
 
@@ -481,7 +541,9 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 ### <a name="method-updateOptionPsRouteProductRule"></a>updateOptionPsRouteProductRule
 
-    mixed AdminMetaControllerCore::updateOptionPsRouteProductRule()
+```php
+mixed AdminMetaControllerCore::updateOptionPsRouteProductRule()
+```
 
 
 
@@ -495,7 +557,9 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 ### <a name="method-updateOptionPsRouteSupplierRule"></a>updateOptionPsRouteSupplierRule
 
-    mixed AdminMetaControllerCore::updateOptionPsRouteSupplierRule()
+```php
+mixed AdminMetaControllerCore::updateOptionPsRouteSupplierRule()
+```
 
 
 
@@ -509,7 +573,9 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 ### <a name="method-updateOptionUri"></a>updateOptionUri
 
-    mixed AdminMetaControllerCore::updateOptionUri(string $value)
+```php
+mixed AdminMetaControllerCore::updateOptionUri(string $value)
+```
 
 Update shop physical uri for mono shop)
 

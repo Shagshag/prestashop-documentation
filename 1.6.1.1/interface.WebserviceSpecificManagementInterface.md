@@ -9,12 +9,13 @@ Interface WebserviceSpecificManagementInterface
 * This is an **interface**
 * Source: [classes/webservice/WebserviceSpecificManagementInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementInterface.php#L27)
 
+Contents
+--------
 
 
 
+### Methods
 
-Methods
--------
 * [getContent](#method-getContent)
 * [getObjectOutput](#method-getObjectOutput)
 * [getWsObject](#method-getWsObject)
@@ -33,7 +34,9 @@ Methods
 
 ### <a name="method-getContent"></a>getContent
 
-    array WebserviceSpecificManagementInterface::getContent()
+```php
+array WebserviceSpecificManagementInterface::getContent()
+```
 
 This must be return an array with specific values as WebserviceRequest expects.
 
@@ -47,7 +50,9 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 ### <a name="method-getObjectOutput"></a>getObjectOutput
 
-    mixed WebserviceSpecificManagementInterface::getObjectOutput()
+```php
+mixed WebserviceSpecificManagementInterface::getObjectOutput()
+```
 
 
 
@@ -61,7 +66,9 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 ### <a name="method-getWsObject"></a>getWsObject
 
-    mixed WebserviceSpecificManagementInterface::getWsObject()
+```php
+mixed WebserviceSpecificManagementInterface::getWsObject()
+```
 
 
 
@@ -75,7 +82,9 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 ### <a name="method-manage"></a>manage
 
-    mixed WebserviceSpecificManagementInterface::manage()
+```php
+mixed WebserviceSpecificManagementInterface::manage()
+```
 
 
 
@@ -89,7 +98,9 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 ### <a name="method-setObjectOutput"></a>setObjectOutput
 
-    mixed WebserviceSpecificManagementInterface::setObjectOutput(\WebserviceOutputBuilderCore $obj)
+```php
+mixed WebserviceSpecificManagementInterface::setObjectOutput(\WebserviceOutputBuilderCore $obj)
+```
 
 
 
@@ -106,7 +117,9 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 ### <a name="method-setWsObject"></a>setWsObject
 
-    mixed WebserviceSpecificManagementInterface::setWsObject(\WebserviceRequestCore $obj)
+```php
+mixed WebserviceSpecificManagementInterface::setWsObject(\WebserviceRequestCore $obj)
+```
 
 
 

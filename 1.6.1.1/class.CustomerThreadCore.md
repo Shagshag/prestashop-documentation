@@ -10,9 +10,11 @@ Class CustomerThreadCore
 * Source: [classes/CustomerThread.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$date_upd](#property-$date_upd)
@@ -29,8 +31,8 @@ Properties
 * [$token](#property-$token)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [delete](#method-delete)
 * [getContacts](#method-getContacts)
 * [getCustomerMessages](#method-getCustomerMessages)
@@ -49,7 +51,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public mixed $date_add
+```php
+public mixed $date_add
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public mixed $date_upd
+```php
+public mixed $date_upd
+```
 
 
 
@@ -73,7 +79,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'customer_thread', 'primary' => 'id_customer_thread', 'fields' => array('id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_contact' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'size' => 254), 'token' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true), 'status' => array('type' => self::TYPE_STRING), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'customer_thread', 'primary' => 'id_customer_thread', 'fields' => array('id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_contact' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'size' => 254), 'token' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true), 'status' => array('type' => self::TYPE_STRING), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -86,7 +94,9 @@ Properties
 
 ### <a name="property-$email"></a>$email
 
-    public mixed $email
+```php
+public mixed $email
+```
 
 
 
@@ -98,7 +108,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -110,7 +122,9 @@ Properties
 
 ### <a name="property-$id_contact"></a>$id_contact
 
-    public mixed $id_contact
+```php
+public mixed $id_contact
+```
 
 
 
@@ -122,7 +136,9 @@ Properties
 
 ### <a name="property-$id_customer"></a>$id_customer
 
-    public mixed $id_customer
+```php
+public mixed $id_customer
+```
 
 
 
@@ -134,7 +150,9 @@ Properties
 
 ### <a name="property-$id_lang"></a>$id_lang
 
-    public mixed $id_lang
+```php
+public mixed $id_lang
+```
 
 
 
@@ -146,7 +164,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public mixed $id_order
+```php
+public mixed $id_order
+```
 
 
 
@@ -158,7 +178,9 @@ Properties
 
 ### <a name="property-$id_product"></a>$id_product
 
-    public mixed $id_product
+```php
+public mixed $id_product
+```
 
 
 
@@ -170,7 +192,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public mixed $id_shop
+```php
+public mixed $id_shop
+```
 
 
 
@@ -182,7 +206,9 @@ Properties
 
 ### <a name="property-$status"></a>$status
 
-    public mixed $status
+```php
+public mixed $status
+```
 
 
 
@@ -194,7 +220,9 @@ Properties
 
 ### <a name="property-$token"></a>$token
 
-    public mixed $token
+```php
+public mixed $token
+```
 
 
 
@@ -206,7 +234,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_lang' => array('xlink_resource' => 'languages'), 'id_shop' => array('xlink_resource' => 'shops'), 'id_customer' => array('xlink_resource' => 'customers'), 'id_order' => array('xlink_resource' => 'orders'), 'id_product' => array('xlink_resource' => 'products')), 'associations' => array('customer_messages' => array('resource' => 'customer_message', 'id' => array('required' => true))))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_lang' => array('xlink_resource' => 'languages'), 'id_shop' => array('xlink_resource' => 'shops'), 'id_customer' => array('xlink_resource' => 'customers'), 'id_order' => array('xlink_resource' => 'orders'), 'id_product' => array('xlink_resource' => 'products')), 'associations' => array('customer_messages' => array('resource' => 'customer_message', 'id' => array('required' => true))))
+```
 
 
 
@@ -222,7 +252,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed CustomerThreadCore::delete()
+```php
+mixed CustomerThreadCore::delete()
+```
 
 
 
@@ -236,7 +268,9 @@ Methods
 
 ### <a name="method-getContacts"></a>getContacts
 
-    mixed CustomerThreadCore::getContacts()
+```php
+mixed CustomerThreadCore::getContacts()
+```
 
 
 
@@ -251,7 +285,9 @@ Methods
 
 ### <a name="method-getCustomerMessages"></a>getCustomerMessages
 
-    mixed CustomerThreadCore::getCustomerMessages($id_customer, $read, $id_order)
+```php
+mixed CustomerThreadCore::getCustomerMessages($id_customer, $read, $id_order)
+```
 
 
 
@@ -271,7 +307,9 @@ Methods
 
 ### <a name="method-getIdCustomerThreadByEmailAndIdOrder"></a>getIdCustomerThreadByEmailAndIdOrder
 
-    mixed CustomerThreadCore::getIdCustomerThreadByEmailAndIdOrder($email, $id_order)
+```php
+mixed CustomerThreadCore::getIdCustomerThreadByEmailAndIdOrder($email, $id_order)
+```
 
 
 
@@ -290,7 +328,9 @@ Methods
 
 ### <a name="method-getMessageCustomerThreads"></a>getMessageCustomerThreads
 
-    mixed CustomerThreadCore::getMessageCustomerThreads($id_customer_thread)
+```php
+mixed CustomerThreadCore::getMessageCustomerThreads($id_customer_thread)
+```
 
 
 
@@ -308,7 +348,9 @@ Methods
 
 ### <a name="method-getNextThread"></a>getNextThread
 
-    mixed CustomerThreadCore::getNextThread($id_customer_thread)
+```php
+mixed CustomerThreadCore::getNextThread($id_customer_thread)
+```
 
 
 
@@ -326,7 +368,9 @@ Methods
 
 ### <a name="method-getTotalCustomerThreads"></a>getTotalCustomerThreads
 
-    mixed CustomerThreadCore::getTotalCustomerThreads($where)
+```php
+mixed CustomerThreadCore::getTotalCustomerThreads($where)
+```
 
 
 
@@ -344,7 +388,9 @@ Methods
 
 ### <a name="method-getWsCustomerMessages"></a>getWsCustomerMessages
 
-    mixed CustomerThreadCore::getWsCustomerMessages()
+```php
+mixed CustomerThreadCore::getWsCustomerMessages()
+```
 
 
 

@@ -10,14 +10,16 @@ Class AdminRangePriceControllerCore
 * Source: [controllers/admin/AdminRangePriceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getList](#method-getList)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \RangePrice $object
+```php
+public \RangePrice $object
+```
 
 
 
@@ -49,7 +53,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminRangePriceControllerCore::__construct()
+```php
+mixed AdminRangePriceControllerCore::__construct()
+```
 
 
 
@@ -63,7 +69,9 @@ Methods
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminRangePriceControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```php
+mixed AdminRangePriceControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```
 
 
 
@@ -85,7 +93,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminRangePriceControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminRangePriceControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -99,7 +109,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminRangePriceControllerCore::postProcess()
+```php
+mixed AdminRangePriceControllerCore::postProcess()
+```
 
 
 
@@ -113,7 +125,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminRangePriceControllerCore::renderForm()
+```php
+mixed AdminRangePriceControllerCore::renderForm()
+```
 
 
 

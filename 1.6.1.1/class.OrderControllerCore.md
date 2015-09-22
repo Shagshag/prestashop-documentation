@@ -9,21 +9,23 @@ Class OrderControllerCore
 * Parent class: [ParentOrderController](class.ParentOrderControllerCore.md)
 * Source: [controllers/front/OrderController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [STEP_ADDRESSES](#constant-STEP_ADDRESSES)
 * [STEP_DELIVERY](#constant-STEP_DELIVERY)
 * [STEP_PAYMENT](#constant-STEP_PAYMENT)
 * [STEP_SUMMARY_EMPTY_CART](#constant-STEP_SUMMARY_EMPTY_CART)
 
-Properties
-----------
+### Properties
 
 * [$step](#property-$step)
 
-Methods
--------
+### Methods
+
 * [_assignAddress](#method-_assignAddress)
 * [_assignCarrier](#method-_assignCarrier)
 * [_assignPayment](#method-_assignPayment)
@@ -43,7 +45,9 @@ Constants
 
 ### <a name="constant-STEP_ADDRESSES"></a>STEP_ADDRESSES
 
-    const STEP_ADDRESSES = 1
+```php
+const STEP_ADDRESSES = 1
+```
 
 
 
@@ -54,7 +58,9 @@ Constants
 
 ### <a name="constant-STEP_DELIVERY"></a>STEP_DELIVERY
 
-    const STEP_DELIVERY = 2
+```php
+const STEP_DELIVERY = 2
+```
 
 
 
@@ -65,7 +71,9 @@ Constants
 
 ### <a name="constant-STEP_PAYMENT"></a>STEP_PAYMENT
 
-    const STEP_PAYMENT = 3
+```php
+const STEP_PAYMENT = 3
+```
 
 
 
@@ -76,7 +84,9 @@ Constants
 
 ### <a name="constant-STEP_SUMMARY_EMPTY_CART"></a>STEP_SUMMARY_EMPTY_CART
 
-    const STEP_SUMMARY_EMPTY_CART = -1
+```php
+const STEP_SUMMARY_EMPTY_CART = -1
+```
 
 
 
@@ -91,7 +101,9 @@ Properties
 
 ### <a name="property-$step"></a>$step
 
-    public mixed $step
+```php
+public mixed $step
+```
 
 
 
@@ -107,7 +119,9 @@ Methods
 
 ### <a name="method-_assignAddress"></a>_assignAddress
 
-    mixed OrderControllerCore::_assignAddress()
+```php
+mixed OrderControllerCore::_assignAddress()
+```
 
 Address step
 
@@ -121,7 +135,9 @@ Address step
 
 ### <a name="method-_assignCarrier"></a>_assignCarrier
 
-    mixed OrderControllerCore::_assignCarrier()
+```php
+mixed OrderControllerCore::_assignCarrier()
+```
 
 Carrier step
 
@@ -135,7 +151,9 @@ Carrier step
 
 ### <a name="method-_assignPayment"></a>_assignPayment
 
-    mixed OrderControllerCore::_assignPayment()
+```php
+mixed OrderControllerCore::_assignPayment()
+```
 
 Payment step
 
@@ -149,7 +167,9 @@ Payment step
 
 ### <a name="method-autoStep"></a>autoStep
 
-    mixed OrderControllerCore::autoStep()
+```php
+mixed OrderControllerCore::autoStep()
+```
 
 Order process controller
 
@@ -163,7 +183,9 @@ Order process controller
 
 ### <a name="method-init"></a>init
 
-    mixed OrderControllerCore::init()
+```php
+mixed OrderControllerCore::init()
+```
 
 Initialize order controller
 
@@ -177,7 +199,9 @@ Initialize order controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed OrderControllerCore::initContent()
+```php
+mixed OrderControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -191,7 +215,9 @@ Assign template vars related to page content
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed OrderControllerCore::postProcess()
+```php
+mixed OrderControllerCore::postProcess()
+```
 
 
 
@@ -205,7 +231,9 @@ Assign template vars related to page content
 
 ### <a name="method-processAddress"></a>processAddress
 
-    mixed OrderControllerCore::processAddress()
+```php
+mixed OrderControllerCore::processAddress()
+```
 
 Manage address
 
@@ -219,7 +247,9 @@ Manage address
 
 ### <a name="method-processAddressFormat"></a>processAddressFormat
 
-    mixed OrderControllerCore::processAddressFormat()
+```php
+mixed OrderControllerCore::processAddressFormat()
+```
 
 
 
@@ -233,7 +263,9 @@ Manage address
 
 ### <a name="method-processCarrier"></a>processCarrier
 
-    mixed OrderControllerCore::processCarrier()
+```php
+mixed OrderControllerCore::processCarrier()
+```
 
 Carrier step
 
@@ -247,7 +279,9 @@ Carrier step
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed OrderControllerCore::setMedia()
+```php
+mixed OrderControllerCore::setMedia()
+```
 
 
 

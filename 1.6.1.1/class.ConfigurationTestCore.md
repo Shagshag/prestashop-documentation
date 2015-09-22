@@ -9,14 +9,16 @@ Class ConfigurationTestCore
 * Source: [classes/ConfigurationTest.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$test_files](#property-$test_files)
 
-Methods
--------
+### Methods
+
 * [check](#method-check)
 * [getDefaultTests](#method-getDefaultTests)
 * [getDefaultTestsOp](#method-getDefaultTestsOp)
@@ -67,7 +69,9 @@ Properties
 
 ### <a name="property-$test_files"></a>$test_files
 
-    public mixed $test_files = array('/cache/smarty/compile/index.php', '/classes/log/index.php', '/classes/cache/index.php', '/config/index.php', '/tools/tar/Archive_Tar.php', '/tools/pear/PEAR.php', '/controllers/admin/AdminLoginController.php', '/css/index.php', '/download/index.php', '/img/404.gif', '/js/tools.js', '/js/jquery/plugins/fancybox/jquery.fancybox.js', '/localization/fr.xml', '/mails/index.php', '/modules/index.php', '/override/controllers/front/index.php', '/pdf/order-return.tpl', '/themes/default-bootstrap/css/global.css', '/translations/export/index.php', '/webservice/dispatcher.php', '/upload/index.php', '/index.php')
+```php
+public mixed $test_files = array('/cache/smarty/compile/index.php', '/classes/log/index.php', '/classes/cache/index.php', '/config/index.php', '/tools/tar/Archive_Tar.php', '/tools/pear/PEAR.php', '/controllers/admin/AdminLoginController.php', '/css/index.php', '/download/index.php', '/img/404.gif', '/js/tools.js', '/js/jquery/plugins/fancybox/jquery.fancybox.js', '/localization/fr.xml', '/mails/index.php', '/modules/index.php', '/override/controllers/front/index.php', '/pdf/order-return.tpl', '/themes/default-bootstrap/css/global.css', '/translations/export/index.php', '/webservice/dispatcher.php', '/upload/index.php', '/index.php')
+```
 
 
 
@@ -84,7 +88,9 @@ Methods
 
 ### <a name="method-check"></a>check
 
-    array ConfigurationTestCore::check(array $tests)
+```php
+array ConfigurationTestCore::check(array $tests)
+```
 
 run all test defined in $tests
 
@@ -102,7 +108,9 @@ run all test defined in $tests
 
 ### <a name="method-getDefaultTests"></a>getDefaultTests
 
-    array ConfigurationTestCore::getDefaultTests()
+```php
+array ConfigurationTestCore::getDefaultTests()
+```
 
 getDefaultTests return an array of tests to executes.
 
@@ -118,7 +126,9 @@ all path are _PS_ROOT_DIR_ related
 
 ### <a name="method-getDefaultTestsOp"></a>getDefaultTestsOp
 
-    array ConfigurationTestCore::getDefaultTestsOp()
+```php
+array ConfigurationTestCore::getDefaultTestsOp()
+```
 
 getDefaultTestsOp return an array of tests to executes.
 
@@ -133,7 +143,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-run"></a>run
 
-    mixed ConfigurationTestCore::run($ptr, $arg)
+```php
+mixed ConfigurationTestCore::run($ptr, $arg)
+```
 
 
 
@@ -152,7 +164,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_admin_dir"></a>test_admin_dir
 
-    mixed ConfigurationTestCore::test_admin_dir($dir)
+```php
+mixed ConfigurationTestCore::test_admin_dir($dir)
+```
 
 
 
@@ -170,7 +184,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_cache_dir"></a>test_cache_dir
 
-    mixed ConfigurationTestCore::test_cache_dir($dir)
+```php
+mixed ConfigurationTestCore::test_cache_dir($dir)
+```
 
 
 
@@ -188,7 +204,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_cache_v2_dir"></a>test_cache_v2_dir
 
-    mixed ConfigurationTestCore::test_cache_v2_dir($dir)
+```php
+mixed ConfigurationTestCore::test_cache_v2_dir($dir)
+```
 
 
 
@@ -206,7 +224,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_config_dir"></a>test_config_dir
 
-    mixed ConfigurationTestCore::test_config_dir($dir)
+```php
+mixed ConfigurationTestCore::test_config_dir($dir)
+```
 
 
 
@@ -224,7 +244,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_customizable_products_dir"></a>test_customizable_products_dir
 
-    mixed ConfigurationTestCore::test_customizable_products_dir($dir)
+```php
+mixed ConfigurationTestCore::test_customizable_products_dir($dir)
+```
 
 
 
@@ -242,7 +264,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_dir"></a>test_dir
 
-    mixed ConfigurationTestCore::test_dir($relative_dir, $recursive, $full_report)
+```php
+mixed ConfigurationTestCore::test_dir($relative_dir, $recursive, $full_report)
+```
 
 
 
@@ -262,7 +286,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_dom"></a>test_dom
 
-    mixed ConfigurationTestCore::test_dom()
+```php
+mixed ConfigurationTestCore::test_dom()
+```
 
 
 
@@ -277,7 +303,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_download_dir"></a>test_download_dir
 
-    mixed ConfigurationTestCore::test_download_dir($dir)
+```php
+mixed ConfigurationTestCore::test_download_dir($dir)
+```
 
 
 
@@ -295,7 +323,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_file"></a>test_file
 
-    mixed ConfigurationTestCore::test_file($file_relative)
+```php
+mixed ConfigurationTestCore::test_file($file_relative)
+```
 
 
 
@@ -313,7 +343,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_files"></a>test_files
 
-    mixed ConfigurationTestCore::test_files($full)
+```php
+mixed ConfigurationTestCore::test_files($full)
+```
 
 
 
@@ -331,7 +363,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_fopen"></a>test_fopen
 
-    mixed ConfigurationTestCore::test_fopen()
+```php
+mixed ConfigurationTestCore::test_fopen()
+```
 
 
 
@@ -346,7 +380,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_gd"></a>test_gd
 
-    mixed ConfigurationTestCore::test_gd()
+```php
+mixed ConfigurationTestCore::test_gd()
+```
 
 
 
@@ -361,7 +397,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_gz"></a>test_gz
 
-    mixed ConfigurationTestCore::test_gz()
+```php
+mixed ConfigurationTestCore::test_gz()
+```
 
 
 
@@ -376,7 +414,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_img_dir"></a>test_img_dir
 
-    mixed ConfigurationTestCore::test_img_dir($dir)
+```php
+mixed ConfigurationTestCore::test_img_dir($dir)
+```
 
 
 
@@ -394,7 +434,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_log_dir"></a>test_log_dir
 
-    mixed ConfigurationTestCore::test_log_dir($dir)
+```php
+mixed ConfigurationTestCore::test_log_dir($dir)
+```
 
 
 
@@ -412,7 +454,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_magicquotes"></a>test_magicquotes
 
-    mixed ConfigurationTestCore::test_magicquotes()
+```php
+mixed ConfigurationTestCore::test_magicquotes()
+```
 
 
 
@@ -427,7 +471,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_mails_dir"></a>test_mails_dir
 
-    mixed ConfigurationTestCore::test_mails_dir($dir)
+```php
+mixed ConfigurationTestCore::test_mails_dir($dir)
+```
 
 
 
@@ -445,7 +491,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_mbstring"></a>test_mbstring
 
-    mixed ConfigurationTestCore::test_mbstring()
+```php
+mixed ConfigurationTestCore::test_mbstring()
+```
 
 
 
@@ -460,7 +508,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_mcrypt"></a>test_mcrypt
 
-    mixed ConfigurationTestCore::test_mcrypt()
+```php
+mixed ConfigurationTestCore::test_mcrypt()
+```
 
 
 
@@ -475,7 +525,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_module_dir"></a>test_module_dir
 
-    mixed ConfigurationTestCore::test_module_dir($dir)
+```php
+mixed ConfigurationTestCore::test_module_dir($dir)
+```
 
 
 
@@ -493,7 +545,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_mysql_support"></a>test_mysql_support
 
-    mixed ConfigurationTestCore::test_mysql_support()
+```php
+mixed ConfigurationTestCore::test_mysql_support()
+```
 
 
 
@@ -508,7 +562,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_new_phpversion"></a>test_new_phpversion
 
-    mixed ConfigurationTestCore::test_new_phpversion()
+```php
+mixed ConfigurationTestCore::test_new_phpversion()
+```
 
 
 
@@ -523,7 +579,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_pdo_mysql"></a>test_pdo_mysql
 
-    mixed ConfigurationTestCore::test_pdo_mysql()
+```php
+mixed ConfigurationTestCore::test_pdo_mysql()
+```
 
 
 
@@ -538,7 +596,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_phpversion"></a>test_phpversion
 
-    mixed ConfigurationTestCore::test_phpversion()
+```php
+mixed ConfigurationTestCore::test_phpversion()
+```
 
 
 
@@ -553,7 +613,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_register_globals"></a>test_register_globals
 
-    mixed ConfigurationTestCore::test_register_globals()
+```php
+mixed ConfigurationTestCore::test_register_globals()
+```
 
 
 
@@ -568,7 +630,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_root_dir"></a>test_root_dir
 
-    mixed ConfigurationTestCore::test_root_dir($dir)
+```php
+mixed ConfigurationTestCore::test_root_dir($dir)
+```
 
 
 
@@ -586,7 +650,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_sessions"></a>test_sessions
 
-    mixed ConfigurationTestCore::test_sessions()
+```php
+mixed ConfigurationTestCore::test_sessions()
+```
 
 
 
@@ -601,7 +667,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_sitemap"></a>test_sitemap
 
-    mixed ConfigurationTestCore::test_sitemap($dir)
+```php
+mixed ConfigurationTestCore::test_sitemap($dir)
+```
 
 
 
@@ -619,7 +687,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_system"></a>test_system
 
-    mixed ConfigurationTestCore::test_system($funcs)
+```php
+mixed ConfigurationTestCore::test_system($funcs)
+```
 
 
 
@@ -637,7 +707,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_theme_cache_dir"></a>test_theme_cache_dir
 
-    mixed ConfigurationTestCore::test_theme_cache_dir($dir)
+```php
+mixed ConfigurationTestCore::test_theme_cache_dir($dir)
+```
 
 
 
@@ -655,7 +727,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_theme_lang_dir"></a>test_theme_lang_dir
 
-    mixed ConfigurationTestCore::test_theme_lang_dir($dir)
+```php
+mixed ConfigurationTestCore::test_theme_lang_dir($dir)
+```
 
 
 
@@ -673,7 +747,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_theme_pdf_lang_dir"></a>test_theme_pdf_lang_dir
 
-    mixed ConfigurationTestCore::test_theme_pdf_lang_dir($dir)
+```php
+mixed ConfigurationTestCore::test_theme_pdf_lang_dir($dir)
+```
 
 
 
@@ -691,7 +767,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_tools_v2_dir"></a>test_tools_v2_dir
 
-    mixed ConfigurationTestCore::test_tools_v2_dir($dir)
+```php
+mixed ConfigurationTestCore::test_tools_v2_dir($dir)
+```
 
 
 
@@ -709,7 +787,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_translations_dir"></a>test_translations_dir
 
-    mixed ConfigurationTestCore::test_translations_dir($dir)
+```php
+mixed ConfigurationTestCore::test_translations_dir($dir)
+```
 
 
 
@@ -727,7 +807,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_upload"></a>test_upload
 
-    mixed ConfigurationTestCore::test_upload()
+```php
+mixed ConfigurationTestCore::test_upload()
+```
 
 
 
@@ -742,7 +824,9 @@ key are method name, value are parameters (false for no parameter)
 
 ### <a name="method-test_virtual_products_dir"></a>test_virtual_products_dir
 
-    mixed ConfigurationTestCore::test_virtual_products_dir($dir)
+```php
+mixed ConfigurationTestCore::test_virtual_products_dir($dir)
+```
 
 
 

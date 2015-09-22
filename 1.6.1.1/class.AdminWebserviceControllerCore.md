@@ -10,16 +10,18 @@ Class AdminWebserviceControllerCore
 * Source: [controllers/admin/AdminWebserviceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$fields_form](#property-$fields_form)
 * [$object](#property-$object)
 * [$toolbar_scroll](#property-$toolbar_scroll)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterAdd](#method-afterAdd)
 * [afterUpdate](#method-afterUpdate)
@@ -41,7 +43,9 @@ Properties
 
 ### <a name="property-$fields_form"></a>$fields_form
 
-    public mixed $fields_form = array('webservice form')
+```php
+public mixed $fields_form = array('webservice form')
+```
 
 this will be filled later
 
@@ -53,7 +57,9 @@ this will be filled later
 
 ### <a name="property-$object"></a>$object
 
-    public \WebserviceKey $object
+```php
+public \WebserviceKey $object
+```
 
 
 
@@ -65,7 +71,9 @@ this will be filled later
 
 ### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
 
-    protected mixed $toolbar_scroll = false
+```php
+protected mixed $toolbar_scroll = false
+```
 
 
 
@@ -81,7 +89,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminWebserviceControllerCore::__construct()
+```php
+mixed AdminWebserviceControllerCore::__construct()
+```
 
 
 
@@ -95,7 +105,9 @@ Methods
 
 ### <a name="method-afterAdd"></a>afterAdd
 
-    mixed AdminWebserviceControllerCore::afterAdd($object)
+```php
+mixed AdminWebserviceControllerCore::afterAdd($object)
+```
 
 
 
@@ -112,7 +124,9 @@ Methods
 
 ### <a name="method-afterUpdate"></a>afterUpdate
 
-    mixed AdminWebserviceControllerCore::afterUpdate($object)
+```php
+mixed AdminWebserviceControllerCore::afterUpdate($object)
+```
 
 
 
@@ -129,7 +143,9 @@ Methods
 
 ### <a name="method-checkForWarning"></a>checkForWarning
 
-    mixed AdminWebserviceControllerCore::checkForWarning()
+```php
+mixed AdminWebserviceControllerCore::checkForWarning()
+```
 
 
 
@@ -143,7 +159,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminWebserviceControllerCore::initContent()
+```php
+mixed AdminWebserviceControllerCore::initContent()
+```
 
 
 
@@ -157,7 +175,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminWebserviceControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminWebserviceControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -171,7 +191,9 @@ Methods
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminWebserviceControllerCore::initProcess()
+```php
+mixed AdminWebserviceControllerCore::initProcess()
+```
 
 
 
@@ -185,7 +207,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminWebserviceControllerCore::postProcess()
+```php
+mixed AdminWebserviceControllerCore::postProcess()
+```
 
 
 
@@ -199,7 +223,9 @@ Methods
 
 ### <a name="method-processUpdateOptions"></a>processUpdateOptions
 
-    mixed AdminWebserviceControllerCore::processUpdateOptions()
+```php
+mixed AdminWebserviceControllerCore::processUpdateOptions()
+```
 
 
 
@@ -213,7 +239,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminWebserviceControllerCore::renderForm()
+```php
+mixed AdminWebserviceControllerCore::renderForm()
+```
 
 
 
@@ -227,7 +255,9 @@ Methods
 
 ### <a name="method-renderOptions"></a>renderOptions
 
-    mixed AdminWebserviceControllerCore::renderOptions()
+```php
+mixed AdminWebserviceControllerCore::renderOptions()
+```
 
 Function used to render the options for this controller
 

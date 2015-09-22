@@ -24,17 +24,19 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [controllers/front/OrderReturnController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$auth](#property-$auth)
 * [$authRedirection](#property-$authRedirection)
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [displayAjax](#method-displayAjax)
 * [init](#method-init)
 * [initContent](#method-initContent)
@@ -48,7 +50,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public mixed $auth = true
+```php
+public mixed $auth = true
+```
 
 
 
@@ -60,7 +64,9 @@ Properties
 
 ### <a name="property-$authRedirection"></a>$authRedirection
 
-    public mixed $authRedirection = 'order-follow'
+```php
+public mixed $authRedirection = 'order-follow'
+```
 
 
 
@@ -72,7 +78,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'order-return'
+```php
+public mixed $php_self = 'order-return'
+```
 
 
 
@@ -84,7 +92,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -100,7 +110,9 @@ Methods
 
 ### <a name="method-displayAjax"></a>displayAjax
 
-    mixed OrderReturnControllerCore::displayAjax()
+```php
+mixed OrderReturnControllerCore::displayAjax()
+```
 
 
 
@@ -114,7 +126,9 @@ Methods
 
 ### <a name="method-init"></a>init
 
-    mixed OrderReturnControllerCore::init()
+```php
+mixed OrderReturnControllerCore::init()
+```
 
 Initialize order return controller
 
@@ -128,7 +142,9 @@ Initialize order return controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed OrderReturnControllerCore::initContent()
+```php
+mixed OrderReturnControllerCore::initContent()
+```
 
 Assign template vars related to page content
 

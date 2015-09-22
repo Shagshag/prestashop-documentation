@@ -23,16 +23,18 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$bindings](#property-$bindings)
 * [$instances](#property-$instances)
 * [$namespaceAliases](#property-$namespaceAliases)
 
-Methods
--------
+### Methods
+
 * [aliasNamespace](#method-aliasNamespace)
 * [bind](#method-bind)
 * [doMake](#method-doMake)
@@ -51,7 +53,9 @@ Properties
 
 ### <a name="property-$bindings"></a>$bindings
 
-    private mixed $bindings = array()
+```php
+private mixed $bindings = array()
+```
 
 
 
@@ -63,7 +67,9 @@ Properties
 
 ### <a name="property-$instances"></a>$instances
 
-    private mixed $instances = array()
+```php
+private mixed $instances = array()
+```
 
 
 
@@ -75,7 +81,9 @@ Properties
 
 ### <a name="property-$namespaceAliases"></a>$namespaceAliases
 
-    private mixed $namespaceAliases = array()
+```php
+private mixed $namespaceAliases = array()
+```
 
 
 
@@ -91,7 +99,9 @@ Methods
 
 ### <a name="method-aliasNamespace"></a>aliasNamespace
 
-    mixed Core_Foundation_IoC_Container::aliasNamespace($alias, $namespacePrefix)
+```php
+mixed Core_Foundation_IoC_Container::aliasNamespace($alias, $namespacePrefix)
+```
 
 
 
@@ -109,7 +119,9 @@ Methods
 
 ### <a name="method-bind"></a>bind
 
-    mixed Core_Foundation_IoC_Container::bind($serviceName, $constructor, $shared)
+```php
+mixed Core_Foundation_IoC_Container::bind($serviceName, $constructor, $shared)
+```
 
 
 
@@ -128,7 +140,9 @@ Methods
 
 ### <a name="method-doMake"></a>doMake
 
-    mixed Core_Foundation_IoC_Container::doMake($serviceName, array $alreadySeen)
+```php
+mixed Core_Foundation_IoC_Container::doMake($serviceName, array $alreadySeen)
+```
 
 
 
@@ -146,7 +160,9 @@ Methods
 
 ### <a name="method-knows"></a>knows
 
-    mixed Core_Foundation_IoC_Container::knows($serviceName)
+```php
+mixed Core_Foundation_IoC_Container::knows($serviceName)
+```
 
 
 
@@ -163,7 +179,9 @@ Methods
 
 ### <a name="method-knowsNamespaceAlias"></a>knowsNamespaceAlias
 
-    mixed Core_Foundation_IoC_Container::knowsNamespaceAlias($alias)
+```php
+mixed Core_Foundation_IoC_Container::knowsNamespaceAlias($alias)
+```
 
 
 
@@ -180,7 +198,9 @@ Methods
 
 ### <a name="method-make"></a>make
 
-    mixed Core_Foundation_IoC_Container::make($serviceName)
+```php
+mixed Core_Foundation_IoC_Container::make($serviceName)
+```
 
 
 
@@ -197,7 +217,9 @@ Methods
 
 ### <a name="method-makeInstanceFromClassName"></a>makeInstanceFromClassName
 
-    mixed Core_Foundation_IoC_Container::makeInstanceFromClassName($className, array $alreadySeen)
+```php
+mixed Core_Foundation_IoC_Container::makeInstanceFromClassName($className, array $alreadySeen)
+```
 
 
 
@@ -215,7 +237,9 @@ Methods
 
 ### <a name="method-resolveClassName"></a>resolveClassName
 
-    mixed Core_Foundation_IoC_Container::resolveClassName($className)
+```php
+mixed Core_Foundation_IoC_Container::resolveClassName($className)
+```
 
 
 

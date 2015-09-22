@@ -10,15 +10,17 @@ Class HTMLTemplateOrderReturnCore
 * Source: [classes/pdf/HTMLTemplateOrderReturn.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$order](#property-$order)
 * [$order_return](#property-$order_return)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getBulkFilename](#method-getBulkFilename)
 * [getContent](#method-getContent)
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$order"></a>$order
 
-    public mixed $order
+```php
+public mixed $order
+```
 
 
 
@@ -46,7 +50,9 @@ Properties
 
 ### <a name="property-$order_return"></a>$order_return
 
-    public mixed $order_return
+```php
+public mixed $order_return
+```
 
 
 
@@ -62,7 +68,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed HTMLTemplateOrderReturnCore::__construct(\OrderReturn $order_return, $smarty)
+```php
+mixed HTMLTemplateOrderReturnCore::__construct(\OrderReturn $order_return, $smarty)
+```
 
 
 
@@ -80,7 +88,9 @@ Methods
 
 ### <a name="method-getBulkFilename"></a>getBulkFilename
 
-    string HTMLTemplateOrderReturnCore::getBulkFilename()
+```php
+string HTMLTemplateOrderReturnCore::getBulkFilename()
+```
 
 Returns the template filename when using bulk rendering
 
@@ -94,7 +104,9 @@ Returns the template filename when using bulk rendering
 
 ### <a name="method-getContent"></a>getContent
 
-    string HTMLTemplateOrderReturnCore::getContent()
+```php
+string HTMLTemplateOrderReturnCore::getContent()
+```
 
 Returns the template's HTML content
 
@@ -108,7 +120,9 @@ Returns the template's HTML content
 
 ### <a name="method-getFilename"></a>getFilename
 
-    string HTMLTemplateOrderReturnCore::getFilename()
+```php
+string HTMLTemplateOrderReturnCore::getFilename()
+```
 
 Returns the template filename
 
@@ -122,7 +136,9 @@ Returns the template filename
 
 ### <a name="method-getHeader"></a>getHeader
 
-    string HTMLTemplateOrderReturnCore::getHeader()
+```php
+string HTMLTemplateOrderReturnCore::getHeader()
+```
 
 Returns the template's HTML header
 

@@ -9,22 +9,24 @@ Class AbstractLoggerCore
 * This is an **abstract** class
 * Source: [classes/log/AbstractLogger.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/AbstractLogger.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEBUG](#constant-DEBUG)
 * [ERROR](#constant-ERROR)
 * [INFO](#constant-INFO)
 * [WARNING](#constant-WARNING)
 
-Properties
-----------
+### Properties
 
 * [$level](#property-$level)
 * [$level_value](#property-$level_value)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [log](#method-log)
 * [logDebug](#method-logDebug)
@@ -40,7 +42,9 @@ Constants
 
 ### <a name="constant-DEBUG"></a>DEBUG
 
-    const DEBUG = 0
+```php
+const DEBUG = 0
+```
 
 
 
@@ -51,7 +55,9 @@ Constants
 
 ### <a name="constant-ERROR"></a>ERROR
 
-    const ERROR = 3
+```php
+const ERROR = 3
+```
 
 
 
@@ -62,7 +68,9 @@ Constants
 
 ### <a name="constant-INFO"></a>INFO
 
-    const INFO = 1
+```php
+const INFO = 1
+```
 
 
 
@@ -73,7 +81,9 @@ Constants
 
 ### <a name="constant-WARNING"></a>WARNING
 
-    const WARNING = 2
+```php
+const WARNING = 2
+```
 
 
 
@@ -88,7 +98,9 @@ Properties
 
 ### <a name="property-$level"></a>$level
 
-    public mixed $level
+```php
+public mixed $level
+```
 
 
 
@@ -100,7 +112,9 @@ Properties
 
 ### <a name="property-$level_value"></a>$level_value
 
-    protected mixed $level_value = array(0 => 'DEBUG', 1 => 'INFO', 2 => 'WARNING', 3 => 'ERROR')
+```php
+protected mixed $level_value = array(0 => 'DEBUG', 1 => 'INFO', 2 => 'WARNING', 3 => 'ERROR')
+```
 
 
 
@@ -116,7 +130,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AbstractLoggerCore::__construct($level)
+```php
+mixed AbstractLoggerCore::__construct($level)
+```
 
 
 
@@ -133,7 +149,9 @@ Methods
 
 ### <a name="method-log"></a>log
 
-    mixed AbstractLoggerCore::log($message, $level)
+```php
+mixed AbstractLoggerCore::log($message, $level)
+```
 
 Check the level and log the message if needed
 
@@ -151,7 +169,9 @@ Check the level and log the message if needed
 
 ### <a name="method-logDebug"></a>logDebug
 
-    mixed AbstractLoggerCore::logDebug($message)
+```php
+mixed AbstractLoggerCore::logDebug($message)
+```
 
 Log a debug message
 
@@ -168,7 +188,9 @@ Log a debug message
 
 ### <a name="method-logError"></a>logError
 
-    mixed AbstractLoggerCore::logError($message)
+```php
+mixed AbstractLoggerCore::logError($message)
+```
 
 Log an error message
 
@@ -185,7 +207,9 @@ Log an error message
 
 ### <a name="method-logInfo"></a>logInfo
 
-    mixed AbstractLoggerCore::logInfo($message)
+```php
+mixed AbstractLoggerCore::logInfo($message)
+```
 
 Log an info message
 
@@ -202,7 +226,9 @@ Log an info message
 
 ### <a name="method-logMessage"></a>logMessage
 
-    mixed AbstractLoggerCore::logMessage($message, $level)
+```php
+mixed AbstractLoggerCore::logMessage($message, $level)
+```
 
 Log the message
 
@@ -221,7 +247,9 @@ Log the message
 
 ### <a name="method-logWarning"></a>logWarning
 
-    mixed AbstractLoggerCore::logWarning($message)
+```php
+mixed AbstractLoggerCore::logWarning($message)
+```
 
 Log a warning message
 

@@ -10,14 +10,16 @@ Class AdminStoresControllerCore
 * Source: [controllers/admin/AdminStoresController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_buildOrderedFieldsShop](#method-_buildOrderedFieldsShop)
 * [_getDefaultFieldsContent](#method-_getDefaultFieldsContent)
@@ -41,7 +43,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Store $object
+```php
+public \Store $object
+```
 
 
 
@@ -57,7 +61,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminStoresControllerCore::__construct()
+```php
+mixed AdminStoresControllerCore::__construct()
+```
 
 
 
@@ -71,7 +77,9 @@ Methods
 
 ### <a name="method-_buildOrderedFieldsShop"></a>_buildOrderedFieldsShop
 
-    mixed AdminStoresControllerCore::_buildOrderedFieldsShop($formFields)
+```php
+mixed AdminStoresControllerCore::_buildOrderedFieldsShop($formFields)
+```
 
 
 
@@ -88,7 +96,9 @@ Methods
 
 ### <a name="method-_getDefaultFieldsContent"></a>_getDefaultFieldsContent
 
-    mixed AdminStoresControllerCore::_getDefaultFieldsContent()
+```php
+mixed AdminStoresControllerCore::_getDefaultFieldsContent()
+```
 
 
 
@@ -102,7 +112,9 @@ Methods
 
 ### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
-    mixed AdminStoresControllerCore::beforeUpdateOptions()
+```php
+mixed AdminStoresControllerCore::beforeUpdateOptions()
+```
 
 
 
@@ -116,7 +128,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminStoresControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminStoresControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -130,7 +144,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminStoresControllerCore::initToolbar()
+```php
+mixed AdminStoresControllerCore::initToolbar()
+```
 
 
 
@@ -144,7 +160,9 @@ Methods
 
 ### <a name="method-postImage"></a>postImage
 
-    mixed AdminStoresControllerCore::postImage($id)
+```php
+mixed AdminStoresControllerCore::postImage($id)
+```
 
 
 
@@ -161,7 +179,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminStoresControllerCore::postProcess()
+```php
+mixed AdminStoresControllerCore::postProcess()
+```
 
 
 
@@ -175,7 +195,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminStoresControllerCore::renderForm()
+```php
+mixed AdminStoresControllerCore::renderForm()
+```
 
 
 
@@ -189,7 +211,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminStoresControllerCore::renderList()
+```php
+mixed AdminStoresControllerCore::renderList()
+```
 
 
 
@@ -203,7 +227,9 @@ Methods
 
 ### <a name="method-renderOptions"></a>renderOptions
 
-    mixed AdminStoresControllerCore::renderOptions()
+```php
+mixed AdminStoresControllerCore::renderOptions()
+```
 
 
 
@@ -217,7 +243,9 @@ Methods
 
 ### <a name="method-updateOptionPsShopCountryId"></a>updateOptionPsShopCountryId
 
-    mixed AdminStoresControllerCore::updateOptionPsShopCountryId($value)
+```php
+mixed AdminStoresControllerCore::updateOptionPsShopCountryId($value)
+```
 
 
 
@@ -234,7 +262,9 @@ Methods
 
 ### <a name="method-updateOptionPsShopStateId"></a>updateOptionPsShopStateId
 
-    mixed AdminStoresControllerCore::updateOptionPsShopStateId($value)
+```php
+mixed AdminStoresControllerCore::updateOptionPsShopStateId($value)
+```
 
 
 

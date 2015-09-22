@@ -11,9 +11,11 @@ Class AdminTabCore
 * Source: [classes/AdminTab.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_conf](#property-$_conf)
 * [$_defaultFormLanguage](#property-$_defaultFormLanguage)
@@ -71,8 +73,8 @@ Properties
 * [$token](#property-$token)
 * [$view](#property-$view)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_childValidation](#method-_childValidation)
 * [_displayDeleteLink](#method-_displayDeleteLink)
@@ -151,7 +153,9 @@ Properties
 
 ### <a name="property-$_conf"></a>$_conf
 
-    protected array $_conf
+```php
+protected array $_conf
+```
 
 
 
@@ -164,7 +168,9 @@ Properties
 
 ### <a name="property-$_defaultFormLanguage"></a>$_defaultFormLanguage
 
-    protected mixed $_defaultFormLanguage = null
+```php
+protected mixed $_defaultFormLanguage = null
+```
 
 
 
@@ -177,7 +183,9 @@ Properties
 
 ### <a name="property-$_defaultOrderBy"></a>$_defaultOrderBy
 
-    protected string $_defaultOrderBy = false
+```php
+protected string $_defaultOrderBy = false
+```
 
 
 
@@ -190,7 +198,9 @@ Properties
 
 ### <a name="property-$_errors"></a>$_errors
 
-    public array $_errors = array()
+```php
+public array $_errors = array()
+```
 
 
 
@@ -203,7 +213,9 @@ Properties
 
 ### <a name="property-$_fieldsOptions"></a>$_fieldsOptions
 
-    public mixed $_fieldsOptions = array()
+```php
+public mixed $_fieldsOptions = array()
+```
 
 
 
@@ -216,7 +228,9 @@ Properties
 
 ### <a name="property-$_filter"></a>$_filter
 
-    protected array $_filter
+```php
+protected array $_filter
+```
 
 
 
@@ -229,7 +243,9 @@ Properties
 
 ### <a name="property-$_group"></a>$_group
 
-    protected string $_group
+```php
+protected string $_group
+```
 
 
 
@@ -242,7 +258,9 @@ Properties
 
 ### <a name="property-$_having"></a>$_having
 
-    protected string $_having
+```php
+protected string $_having
+```
 
 
 
@@ -255,7 +273,9 @@ Properties
 
 ### <a name="property-$_includeContainer"></a>$_includeContainer
 
-    protected mixed $_includeContainer = true
+```php
+protected mixed $_includeContainer = true
+```
 
 
 
@@ -268,7 +288,9 @@ Properties
 
 ### <a name="property-$_includeObj"></a>$_includeObj
 
-    protected mixed $_includeObj = array()
+```php
+protected mixed $_includeObj = array()
+```
 
 
 
@@ -281,7 +303,9 @@ Properties
 
 ### <a name="property-$_includeVars"></a>$_includeVars
 
-    protected mixed $_includeVars = false
+```php
+protected mixed $_includeVars = false
+```
 
 
 
@@ -294,7 +318,9 @@ Properties
 
 ### <a name="property-$_join"></a>$_join
 
-    protected string $_join
+```php
+protected string $_join
+```
 
 
 
@@ -307,7 +333,9 @@ Properties
 
 ### <a name="property-$_languages"></a>$_languages
 
-    protected mixed $_languages = null
+```php
+protected mixed $_languages = null
+```
 
 
 
@@ -320,7 +348,9 @@ Properties
 
 ### <a name="property-$_list"></a>$_list
 
-    protected array $_list = array()
+```php
+protected array $_list = array()
+```
 
 
 
@@ -333,7 +363,9 @@ Properties
 
 ### <a name="property-$_listTotal"></a>$_listTotal
 
-    protected integer $_listTotal
+```php
+protected integer $_listTotal
+```
 
 
 
@@ -346,7 +378,9 @@ Properties
 
 ### <a name="property-$_object"></a>$_object
 
-    protected object $_object = false
+```php
+protected object $_object = false
+```
 
 
 
@@ -359,7 +393,9 @@ Properties
 
 ### <a name="property-$_orderBy"></a>$_orderBy
 
-    protected string $_orderBy
+```php
+protected string $_orderBy
+```
 
 
 
@@ -372,7 +408,9 @@ Properties
 
 ### <a name="property-$_orderWay"></a>$_orderWay
 
-    protected string $_orderWay
+```php
+protected string $_orderWay
+```
 
 
 
@@ -385,7 +423,9 @@ Properties
 
 ### <a name="property-$_pagination"></a>$_pagination
 
-    protected array $_pagination = array(20, 50, 100, 300, 1000)
+```php
+protected array $_pagination = array(20, 50, 100, 300, 1000)
+```
 
 
 
@@ -398,7 +438,9 @@ Properties
 
 ### <a name="property-$_redirect"></a>$_redirect
 
-    protected boolean $_redirect = true
+```php
+protected boolean $_redirect = true
+```
 
 
 
@@ -411,7 +453,9 @@ Properties
 
 ### <a name="property-$_select"></a>$_select
 
-    protected string $_select
+```php
+protected string $_select
+```
 
 
 
@@ -424,7 +468,9 @@ Properties
 
 ### <a name="property-$_tmpTableFilter"></a>$_tmpTableFilter
 
-    protected array $_tmpTableFilter = ''
+```php
+protected array $_tmpTableFilter = ''
+```
 
 
 
@@ -437,7 +483,9 @@ Properties
 
 ### <a name="property-$_where"></a>$_where
 
-    protected string $_where
+```php
+protected string $_where
+```
 
 
 
@@ -450,7 +498,9 @@ Properties
 
 ### <a name="property-$ajax"></a>$ajax
 
-    public mixed $ajax = false
+```php
+public mixed $ajax = false
+```
 
 
 
@@ -463,7 +513,9 @@ Properties
 
 ### <a name="property-$className"></a>$className
 
-    public string $className
+```php
+public string $className
+```
 
 
 
@@ -476,7 +528,9 @@ Properties
 
 ### <a name="property-$colorOnBackground"></a>$colorOnBackground
 
-    public boolean $colorOnBackground = false
+```php
+public boolean $colorOnBackground = false
+```
 
 
 
@@ -489,7 +543,9 @@ Properties
 
 ### <a name="property-$context"></a>$context
 
-    public \Context $context
+```php
+public \Context $context
+```
 
 
 
@@ -502,7 +558,9 @@ Properties
 
 ### <a name="property-$currentIndex"></a>$currentIndex
 
-    public mixed $currentIndex
+```php
+public mixed $currentIndex
+```
 
 
 
@@ -516,7 +574,9 @@ Properties
 
 ### <a name="property-$delete"></a>$delete
 
-    public boolean $delete = false
+```php
+public boolean $delete = false
+```
 
 
 
@@ -529,7 +589,9 @@ Properties
 
 ### <a name="property-$deleted"></a>$deleted
 
-    public boolean $deleted = false
+```php
+public boolean $deleted = false
+```
 
 
 
@@ -542,7 +604,9 @@ Properties
 
 ### <a name="property-$duplicate"></a>$duplicate
 
-    public boolean $duplicate = false
+```php
+public boolean $duplicate = false
+```
 
 
 
@@ -555,7 +619,9 @@ Properties
 
 ### <a name="property-$edit"></a>$edit
 
-    public boolean $edit = false
+```php
+public boolean $edit = false
+```
 
 
 
@@ -568,7 +634,9 @@ Properties
 
 ### <a name="property-$fieldImageSettings"></a>$fieldImageSettings
 
-    public array $fieldImageSettings = array()
+```php
+public array $fieldImageSettings = array()
+```
 
 
 
@@ -581,7 +649,9 @@ Properties
 
 ### <a name="property-$fieldsDisplay"></a>$fieldsDisplay
 
-    public array $fieldsDisplay = array()
+```php
+public array $fieldsDisplay = array()
+```
 
 
 
@@ -594,7 +664,9 @@ Properties
 
 ### <a name="property-$formOptions"></a>$formOptions
 
-    protected boolean $formOptions = true
+```php
+protected boolean $formOptions = true
+```
 
 
 
@@ -607,7 +679,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public integer $id = -1
+```php
+public integer $id = -1
+```
 
 
 
@@ -620,7 +694,9 @@ Properties
 
 ### <a name="property-$identifier"></a>$identifier
 
-    protected string $identifier = false
+```php
+protected string $identifier = false
+```
 
 
 
@@ -633,7 +709,9 @@ Properties
 
 ### <a name="property-$identifiersDnd"></a>$identifiersDnd
 
-    protected mixed $identifiersDnd = array('id_product' => 'id_product', 'id_category' => 'id_category_to_move', 'id_cms_category' => 'id_cms_category_to_move', 'id_cms' => 'id_cms', 'id_attribute' => 'id_attribute', 'id_attribute_group' => 'id_attribute_group', 'id_feature' => 'id_feature', 'id_carrier' => 'id_carrier')
+```php
+protected mixed $identifiersDnd = array('id_product' => 'id_product', 'id_category' => 'id_category_to_move', 'id_cms_category' => 'id_cms_category_to_move', 'id_cms' => 'id_cms', 'id_attribute' => 'id_attribute', 'id_attribute_group' => 'id_attribute_group', 'id_feature' => 'id_feature', 'id_carrier' => 'id_carrier')
+```
 
 
 
@@ -646,7 +724,9 @@ Properties
 
 ### <a name="property-$ignore_sleep"></a>$ignore_sleep
 
-    public boolean $ignore_sleep = false
+```php
+public boolean $ignore_sleep = false
+```
 
 if true, ajax-tab will not wait 1 sec
 
@@ -659,7 +739,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$imageType"></a>$imageType
 
-    public string $imageType = 'jpg'
+```php
+public string $imageType = 'jpg'
+```
 
 
 
@@ -672,7 +754,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$lang"></a>$lang
 
-    public boolean $lang = false
+```php
+public boolean $lang = false
+```
 
 
 
@@ -685,7 +769,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$maxImageSize"></a>$maxImageSize
 
-    protected integer $maxImageSize
+```php
+protected integer $maxImageSize
+```
 
 
 
@@ -698,7 +784,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$noLink"></a>$noLink
 
-    public boolean $noLink = false
+```php
+public boolean $noLink = false
+```
 
 
 
@@ -711,7 +799,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$optionTitle"></a>$optionTitle
 
-    public mixed $optionTitle = null
+```php
+public mixed $optionTitle = null
+```
 
 
 
@@ -724,7 +814,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$optionsList"></a>$optionsList
 
-    public array $optionsList = array()
+```php
+public array $optionsList = array()
+```
 
 
 
@@ -737,7 +829,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$requiredDatabase"></a>$requiredDatabase
 
-    public boolean $requiredDatabase = false
+```php
+public boolean $requiredDatabase = false
+```
 
 
 
@@ -750,7 +844,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$shopLinkType"></a>$shopLinkType
 
-    public string $shopLinkType
+```php
+public string $shopLinkType
+```
 
 
 
@@ -763,7 +859,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$shopShareDatas"></a>$shopShareDatas
 
-    public boolean $shopShareDatas = false
+```php
+public boolean $shopShareDatas = false
+```
 
 
 
@@ -776,7 +874,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$smarty"></a>$smarty
 
-    public mixed $smarty
+```php
+public mixed $smarty
+```
 
 
 
@@ -789,7 +889,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$specificConfirmDelete"></a>$specificConfirmDelete
 
-    public string $specificConfirmDelete = null
+```php
+public string $specificConfirmDelete = null
+```
 
 
 
@@ -802,7 +904,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$tabAccess"></a>$tabAccess
 
-    public array $tabAccess
+```php
+public array $tabAccess
+```
 
 
 
@@ -815,7 +919,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$tabParenting"></a>$tabParenting
 
-    public mixed $tabParenting = array('AdminCms' => 'AdminCmsContent', 'AdminCmsCategories' => 'AdminCmsContent', 'AdminOrdersStates' => 'AdminStatuses', 'AdminAttributeGenerator' => 'AdminProducts', 'AdminAttributes' => 'AdminAttributesGroups', 'AdminFeaturesValues' => 'AdminFeatures', 'AdminReturnStates' => 'AdminStatuses', 'AdminStatsTab' => 'AdminStats')
+```php
+public mixed $tabParenting = array('AdminCms' => 'AdminCmsContent', 'AdminCmsCategories' => 'AdminCmsContent', 'AdminOrdersStates' => 'AdminStatuses', 'AdminAttributeGenerator' => 'AdminProducts', 'AdminAttributes' => 'AdminAttributesGroups', 'AdminFeaturesValues' => 'AdminFeatures', 'AdminReturnStates' => 'AdminStatuses', 'AdminStatsTab' => 'AdminStats')
+```
 
 
 
@@ -829,7 +935,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$table"></a>$table
 
-    public string $table
+```php
+public string $table
+```
 
 
 
@@ -842,7 +950,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$token"></a>$token
 
-    public string $token
+```php
+public string $token
+```
 
 
 
@@ -855,7 +965,9 @@ if true, ajax-tab will not wait 1 sec
 
 ### <a name="property-$view"></a>$view
 
-    public boolean $view = false
+```php
+public boolean $view = false
+```
 
 
 
@@ -872,7 +984,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminTabCore::__construct()
+```php
+mixed AdminTabCore::__construct()
+```
 
 
 
@@ -887,7 +1001,9 @@ Methods
 
 ### <a name="method-_childValidation"></a>_childValidation
 
-    mixed AdminTabCore::_childValidation()
+```php
+mixed AdminTabCore::_childValidation()
+```
 
 Overload this method for custom checking
 
@@ -902,7 +1018,9 @@ Overload this method for custom checking
 
 ### <a name="method-_displayDeleteLink"></a>_displayDeleteLink
 
-    mixed AdminTabCore::_displayDeleteLink($token, $id)
+```php
+mixed AdminTabCore::_displayDeleteLink($token, $id)
+```
 
 
 
@@ -921,7 +1039,9 @@ Overload this method for custom checking
 
 ### <a name="method-_displayDuplicate"></a>_displayDuplicate
 
-    mixed AdminTabCore::_displayDuplicate($token, $id)
+```php
+mixed AdminTabCore::_displayDuplicate($token, $id)
+```
 
 
 
@@ -940,7 +1060,9 @@ Overload this method for custom checking
 
 ### <a name="method-_displayEditLink"></a>_displayEditLink
 
-    mixed AdminTabCore::_displayEditLink($token, $id)
+```php
+mixed AdminTabCore::_displayEditLink($token, $id)
+```
 
 
 
@@ -959,7 +1081,9 @@ Overload this method for custom checking
 
 ### <a name="method-_displayEnableLink"></a>_displayEnableLink
 
-    mixed AdminTabCore::_displayEnableLink($token, $id, $value, $active, $id_category, $id_product)
+```php
+mixed AdminTabCore::_displayEnableLink($token, $id, $value, $active, $id_category, $id_product)
+```
 
 
 
@@ -982,7 +1106,9 @@ Overload this method for custom checking
 
 ### <a name="method-_displayViewLink"></a>_displayViewLink
 
-    mixed AdminTabCore::_displayViewLink($token, $id)
+```php
+mixed AdminTabCore::_displayViewLink($token, $id)
+```
 
 
 
@@ -1001,7 +1127,9 @@ Overload this method for custom checking
 
 ### <a name="method-afterAdd"></a>afterAdd
 
-    mixed AdminTabCore::afterAdd($object)
+```php
+mixed AdminTabCore::afterAdd($object)
+```
 
 
 
@@ -1019,7 +1147,9 @@ Overload this method for custom checking
 
 ### <a name="method-afterDelete"></a>afterDelete
 
-    boolean AdminTabCore::afterDelete(object $object, $oldId)
+```php
+boolean AdminTabCore::afterDelete(object $object, $oldId)
+```
 
 Called before deletion
 
@@ -1038,7 +1168,9 @@ Called before deletion
 
 ### <a name="method-afterImageUpload"></a>afterImageUpload
 
-    boolean AdminTabCore::afterImageUpload()
+```php
+boolean AdminTabCore::afterImageUpload()
+```
 
 Check rights to view the current tab
 
@@ -1053,7 +1185,9 @@ Check rights to view the current tab
 
 ### <a name="method-afterUpdate"></a>afterUpdate
 
-    mixed AdminTabCore::afterUpdate($object)
+```php
+mixed AdminTabCore::afterUpdate($object)
+```
 
 
 
@@ -1071,7 +1205,9 @@ Check rights to view the current tab
 
 ### <a name="method-ajaxPreProcess"></a>ajaxPreProcess
 
-    void AdminTabCore::ajaxPreProcess()
+```php
+void AdminTabCore::ajaxPreProcess()
+```
 
 ajaxPreProcess is a method called in ajax-tab.php before displayConf().
 
@@ -1086,7 +1222,9 @@ ajaxPreProcess is a method called in ajax-tab.php before displayConf().
 
 ### <a name="method-ajaxProcess"></a>ajaxProcess
 
-    void AdminTabCore::ajaxProcess()
+```php
+void AdminTabCore::ajaxProcess()
+```
 
 ajaxProcess is the default handle method for request with ajax-tab.php
 
@@ -1101,7 +1239,9 @@ ajaxProcess is the default handle method for request with ajax-tab.php
 
 ### <a name="method-beforeDelete"></a>beforeDelete
 
-    boolean AdminTabCore::beforeDelete(object $object)
+```php
+boolean AdminTabCore::beforeDelete(object $object)
+```
 
 Called before deletion
 
@@ -1119,7 +1259,9 @@ Called before deletion
 
 ### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
-    mixed AdminTabCore::beforeUpdateOptions()
+```php
+mixed AdminTabCore::beforeUpdateOptions()
+```
 
 Can be overriden
 
@@ -1134,7 +1276,9 @@ Can be overriden
 
 ### <a name="method-checkToken"></a>checkToken
 
-    mixed AdminTabCore::checkToken()
+```php
+mixed AdminTabCore::checkToken()
+```
 
 Check for security token
 
@@ -1149,7 +1293,9 @@ Check for security token
 
 ### <a name="method-copyFromPost"></a>copyFromPost
 
-    mixed AdminTabCore::copyFromPost($object, string $table)
+```php
+mixed AdminTabCore::copyFromPost($object, string $table)
+```
 
 Copy datas from $_POST to object
 
@@ -1168,7 +1314,9 @@ Copy datas from $_POST to object
 
 ### <a name="method-deleteImage"></a>deleteImage
 
-    mixed AdminTabCore::deleteImage(integer $id)
+```php
+mixed AdminTabCore::deleteImage(integer $id)
+```
 
 Overload this method for custom checking
 
@@ -1186,7 +1334,9 @@ Overload this method for custom checking
 
 ### <a name="method-display"></a>display
 
-    mixed AdminTabCore::display()
+```php
+mixed AdminTabCore::display()
+```
 
 Manage page display (form, list.
 
@@ -1201,7 +1351,9 @@ Manage page display (form, list.
 
 ### <a name="method-displayAddButton"></a>displayAddButton
 
-    mixed AdminTabCore::displayAddButton()
+```php
+mixed AdminTabCore::displayAddButton()
+```
 
 
 
@@ -1216,7 +1368,9 @@ Manage page display (form, list.
 
 ### <a name="method-displayAjax"></a>displayAjax
 
-    void AdminTabCore::displayAjax()
+```php
+void AdminTabCore::displayAjax()
+```
 
 ajaxDisplay is the default ajax return sytem
 
@@ -1231,7 +1385,9 @@ ajaxDisplay is the default ajax return sytem
 
 ### <a name="method-displayAssoShop"></a>displayAssoShop
 
-    mixed AdminTabCore::displayAssoShop()
+```php
+mixed AdminTabCore::displayAssoShop()
+```
 
 
 
@@ -1246,7 +1402,9 @@ ajaxDisplay is the default ajax return sytem
 
 ### <a name="method-displayBottomOptionCategory"></a>displayBottomOptionCategory
 
-    mixed AdminTabCore::displayBottomOptionCategory($category, $data)
+```php
+mixed AdminTabCore::displayBottomOptionCategory($category, $data)
+```
 
 Can be overriden
 
@@ -1265,7 +1423,9 @@ Can be overriden
 
 ### <a name="method-displayConf"></a>displayConf
 
-    mixed AdminTabCore::displayConf()
+```php
+mixed AdminTabCore::displayConf()
+```
 
 Display confirmations
 
@@ -1280,7 +1440,9 @@ Display confirmations
 
 ### <a name="method-displayErrors"></a>displayErrors
 
-    mixed AdminTabCore::displayErrors()
+```php
+mixed AdminTabCore::displayErrors()
+```
 
 Display errors
 
@@ -1295,7 +1457,9 @@ Display errors
 
 ### <a name="method-displayFlags"></a>displayFlags
 
-    mixed AdminTabCore::displayFlags(array $languages, integer $default_language, string $ids, string $id, boolean $return, boolean $use_vars_instead_of_ids)
+```php
+mixed AdminTabCore::displayFlags(array $languages, integer $default_language, string $ids, string $id, boolean $return, boolean $use_vars_instead_of_ids)
+```
 
 Display flags in forms for translations
 
@@ -1318,7 +1482,9 @@ Display flags in forms for translations
 
 ### <a name="method-displayForm"></a>displayForm
 
-    mixed AdminTabCore::displayForm($firstCall)
+```php
+mixed AdminTabCore::displayForm($firstCall)
+```
 
 Display form
 
@@ -1336,7 +1502,9 @@ Display form
 
 ### <a name="method-displayImage"></a>displayImage
 
-    mixed AdminTabCore::displayImage(integer $id, string $image, integer $size, integer $id_image, string $token, boolean $disableCache)
+```php
+mixed AdminTabCore::displayImage(integer $id, string $image, integer $size, integer $id_image, string $token, boolean $disableCache)
+```
 
 Display image aside object form
 
@@ -1359,7 +1527,9 @@ Display image aside object form
 
 ### <a name="method-displayList"></a>displayList
 
-    mixed AdminTabCore::displayList()
+```php
+mixed AdminTabCore::displayList()
+```
 
 Display list
 
@@ -1374,7 +1544,9 @@ Display list
 
 ### <a name="method-displayListContent"></a>displayListContent
 
-    mixed AdminTabCore::displayListContent($token)
+```php
+mixed AdminTabCore::displayListContent($token)
+```
 
 
 
@@ -1392,7 +1564,9 @@ Display list
 
 ### <a name="method-displayListFooter"></a>displayListFooter
 
-    mixed AdminTabCore::displayListFooter($token)
+```php
+mixed AdminTabCore::displayListFooter($token)
+```
 
 Close list table and submit button
 
@@ -1410,7 +1584,9 @@ Close list table and submit button
 
 ### <a name="method-displayListHeader"></a>displayListHeader
 
-    mixed AdminTabCore::displayListHeader($token)
+```php
+mixed AdminTabCore::displayListHeader($token)
+```
 
 Display list header (filtering, pagination and column names)
 
@@ -1428,7 +1604,9 @@ Display list header (filtering, pagination and column names)
 
 ### <a name="method-displayOptionTypeBool"></a>displayOptionTypeBool
 
-    mixed AdminTabCore::displayOptionTypeBool($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypeBool($key, $field, $value)
+```
 
 Type = bool
 
@@ -1448,7 +1626,9 @@ Type = bool
 
 ### <a name="method-displayOptionTypeDisabled"></a>displayOptionTypeDisabled
 
-    mixed AdminTabCore::displayOptionTypeDisabled($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypeDisabled($key, $field, $value)
+```
 
 Type = disabled
 
@@ -1468,7 +1648,9 @@ Type = disabled
 
 ### <a name="method-displayOptionTypeFile"></a>displayOptionTypeFile
 
-    mixed AdminTabCore::displayOptionTypeFile($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypeFile($key, $field, $value)
+```
 
 Type = file
 
@@ -1488,7 +1670,9 @@ Type = file
 
 ### <a name="method-displayOptionTypeImage"></a>displayOptionTypeImage
 
-    mixed AdminTabCore::displayOptionTypeImage($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypeImage($key, $field, $value)
+```
 
 Type = image
 
@@ -1508,7 +1692,9 @@ Type = image
 
 ### <a name="method-displayOptionTypePassword"></a>displayOptionTypePassword
 
-    mixed AdminTabCore::displayOptionTypePassword($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypePassword($key, $field, $value)
+```
 
 Type = password
 
@@ -1528,7 +1714,9 @@ Type = password
 
 ### <a name="method-displayOptionTypePrice"></a>displayOptionTypePrice
 
-    mixed AdminTabCore::displayOptionTypePrice($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypePrice($key, $field, $value)
+```
 
 Type = price
 
@@ -1548,7 +1736,9 @@ Type = price
 
 ### <a name="method-displayOptionTypeRadio"></a>displayOptionTypeRadio
 
-    mixed AdminTabCore::displayOptionTypeRadio($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypeRadio($key, $field, $value)
+```
 
 Type = radio
 
@@ -1568,7 +1758,9 @@ Type = radio
 
 ### <a name="method-displayOptionTypeSelect"></a>displayOptionTypeSelect
 
-    mixed AdminTabCore::displayOptionTypeSelect($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypeSelect($key, $field, $value)
+```
 
 Type = select
 
@@ -1588,7 +1780,9 @@ Type = select
 
 ### <a name="method-displayOptionTypeSelectLang"></a>displayOptionTypeSelectLang
 
-    mixed AdminTabCore::displayOptionTypeSelectLang($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypeSelectLang($key, $field, $value)
+```
 
 Type = selectLang
 
@@ -1608,7 +1802,9 @@ Type = selectLang
 
 ### <a name="method-displayOptionTypeText"></a>displayOptionTypeText
 
-    mixed AdminTabCore::displayOptionTypeText($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypeText($key, $field, $value)
+```
 
 Type = text
 
@@ -1628,7 +1824,9 @@ Type = text
 
 ### <a name="method-displayOptionTypeTextLang"></a>displayOptionTypeTextLang
 
-    mixed AdminTabCore::displayOptionTypeTextLang($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypeTextLang($key, $field, $value)
+```
 
 Type = textLang
 
@@ -1648,7 +1846,9 @@ Type = textLang
 
 ### <a name="method-displayOptionTypeTextarea"></a>displayOptionTypeTextarea
 
-    mixed AdminTabCore::displayOptionTypeTextarea($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypeTextarea($key, $field, $value)
+```
 
 Type = textarea
 
@@ -1668,7 +1868,9 @@ Type = textarea
 
 ### <a name="method-displayOptionTypeTextareaLang"></a>displayOptionTypeTextareaLang
 
-    mixed AdminTabCore::displayOptionTypeTextareaLang($key, $field, $value)
+```php
+mixed AdminTabCore::displayOptionTypeTextareaLang($key, $field, $value)
+```
 
 Type = TextareaLang
 
@@ -1688,7 +1890,9 @@ Type = TextareaLang
 
 ### <a name="method-displayOptionsList"></a>displayOptionsList
 
-    mixed AdminTabCore::displayOptionsList()
+```php
+mixed AdminTabCore::displayOptionsList()
+```
 
 Options lists
 
@@ -1703,7 +1907,9 @@ Options lists
 
 ### <a name="method-displayRequiredFields"></a>displayRequiredFields
 
-    mixed AdminTabCore::displayRequiredFields()
+```php
+mixed AdminTabCore::displayRequiredFields()
+```
 
 
 
@@ -1718,7 +1924,9 @@ Options lists
 
 ### <a name="method-displayTop"></a>displayTop
 
-    mixed AdminTabCore::displayTop()
+```php
+mixed AdminTabCore::displayTop()
+```
 
 
 
@@ -1733,7 +1941,9 @@ Options lists
 
 ### <a name="method-displayTopOptionCategory"></a>displayTopOptionCategory
 
-    mixed AdminTabCore::displayTopOptionCategory($category, $data)
+```php
+mixed AdminTabCore::displayTopOptionCategory($category, $data)
+```
 
 Can be overriden
 
@@ -1752,7 +1962,9 @@ Can be overriden
 
 ### <a name="method-displayWarning"></a>displayWarning
 
-    mixed AdminTabCore::displayWarning(string $warn)
+```php
+mixed AdminTabCore::displayWarning(string $warn)
+```
 
 Display a warning message
 
@@ -1770,7 +1982,9 @@ Display a warning message
 
 ### <a name="method-filterToField"></a>filterToField
 
-    mixed AdminTabCore::filterToField($key, $filter)
+```php
+mixed AdminTabCore::filterToField($key, $filter)
+```
 
 
 
@@ -1789,7 +2003,9 @@ Display a warning message
 
 ### <a name="method-getAssoShop"></a>getAssoShop
 
-    mixed AdminTabCore::getAssoShop($table, $id_object)
+```php
+mixed AdminTabCore::getAssoShop($table, $id_object)
+```
 
 
 
@@ -1809,7 +2025,9 @@ Display a warning message
 
 ### <a name="method-getCurrentUrl"></a>getCurrentUrl
 
-    string AdminTabCore::getCurrentUrl(array $remove)
+```php
+string AdminTabCore::getCurrentUrl(array $remove)
+```
 
 Get current URL
 
@@ -1827,7 +2045,9 @@ Get current URL
 
 ### <a name="method-getFieldValue"></a>getFieldValue
 
-    string AdminTabCore::getFieldValue(object $obj, string $key, integer $id_lang, $id_shop)
+```php
+string AdminTabCore::getFieldValue(object $obj, string $key, integer $id_lang, $id_shop)
+```
 
 Return field value if possible (both classical and multilingual fields)
 
@@ -1849,7 +2069,9 @@ Case 2 : Return object value
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminTabCore::getList(integer $id_lang, string $orderBy, $orderWay, integer $start, integer $limit, $id_lang_shop)
+```php
+mixed AdminTabCore::getList(integer $id_lang, string $orderBy, $orderWay, integer $start, integer $limit, $id_lang_shop)
+```
 
 Get the current objects' list form the database
 
@@ -1872,7 +2094,9 @@ Get the current objects' list form the database
 
 ### <a name="method-includeSubTab"></a>includeSubTab
 
-    mixed AdminTabCore::includeSubTab($methodname, $actions)
+```php
+mixed AdminTabCore::includeSubTab($methodname, $actions)
+```
 
 
 
@@ -1891,7 +2115,9 @@ Get the current objects' list form the database
 
 ### <a name="method-l"></a>l
 
-    string AdminTabCore::l(string $string, string $class, boolean $addslashes, boolean $htmlentities)
+```php
+string AdminTabCore::l(string $string, string $class, boolean $addslashes, boolean $htmlentities)
+```
 
 Uses translations files to find a translation for a given string (string should be in english).
 
@@ -1912,7 +2138,9 @@ Uses translations files to find a translation for a given string (string should 
 
 ### <a name="method-loadObject"></a>loadObject
 
-    object AdminTabCore::loadObject(boolean $opt)
+```php
+object AdminTabCore::loadObject(boolean $opt)
+```
 
 Load class object using identifier in $_GET (if possible)
 otherwise return an empty object, or die
@@ -1931,7 +2159,9 @@ otherwise return an empty object, or die
 
 ### <a name="method-postImage"></a>postImage
 
-    boolean AdminTabCore::postImage(integer $id)
+```php
+boolean AdminTabCore::postImage(integer $id)
+```
 
 Overload this method for custom checking
 
@@ -1949,7 +2179,9 @@ Overload this method for custom checking
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminTabCore::postProcess()
+```php
+mixed AdminTabCore::postProcess()
+```
 
 Manage page processing
 
@@ -1964,7 +2196,9 @@ Manage page processing
 
 ### <a name="method-updateAssoShop"></a>updateAssoShop
 
-    mixed AdminTabCore::updateAssoShop($id_object)
+```php
+mixed AdminTabCore::updateAssoShop($id_object)
+```
 
 
 
@@ -1982,7 +2216,9 @@ Manage page processing
 
 ### <a name="method-updateOptions"></a>updateOptions
 
-    mixed AdminTabCore::updateOptions(string $token)
+```php
+mixed AdminTabCore::updateOptions(string $token)
+```
 
 Update options and preferences
 
@@ -2000,7 +2236,9 @@ Update options and preferences
 
 ### <a name="method-uploadImage"></a>uploadImage
 
-    mixed AdminTabCore::uploadImage($id, $name, $dir, $ext, $width, $height)
+```php
+mixed AdminTabCore::uploadImage($id, $name, $dir, $ext, $width, $height)
+```
 
 
 
@@ -2023,7 +2261,9 @@ Update options and preferences
 
 ### <a name="method-validateField"></a>validateField
 
-    mixed AdminTabCore::validateField($value, $field)
+```php
+mixed AdminTabCore::validateField($value, $field)
+```
 
 
 
@@ -2042,7 +2282,9 @@ Update options and preferences
 
 ### <a name="method-validateRules"></a>validateRules
 
-    mixed AdminTabCore::validateRules(string $className)
+```php
+mixed AdminTabCore::validateRules(string $className)
+```
 
 Manage page display (form, list.
 
@@ -2060,7 +2302,9 @@ Manage page display (form, list.
 
 ### <a name="method-viewAccess"></a>viewAccess
 
-    boolean AdminTabCore::viewAccess($disable)
+```php
+boolean AdminTabCore::viewAccess($disable)
+```
 
 Check rights to view the current tab
 
@@ -2078,7 +2322,9 @@ Check rights to view the current tab
 
 ### <a name="method-viewDetails"></a>viewDetails
 
-    mixed AdminTabCore::viewDetails()
+```php
+mixed AdminTabCore::viewDetails()
+```
 
 Display object details
 
@@ -2093,7 +2339,9 @@ Display object details
 
 ### <a name="method-warnDomainName"></a>warnDomainName
 
-    mixed AdminTabCore::warnDomainName()
+```php
+mixed AdminTabCore::warnDomainName()
+```
 
 
 

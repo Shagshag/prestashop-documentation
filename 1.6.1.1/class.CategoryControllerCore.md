@@ -10,9 +10,11 @@ Class CategoryControllerCore
 * Source: [controllers/front/CategoryController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CategoryController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$cat_products](#property-$cat_products)
 * [$category](#property-$category)
@@ -20,8 +22,8 @@ Properties
 * [$nbProducts](#property-$nbProducts)
 * [$php_self](#property-$php_self)
 
-Methods
--------
+### Methods
+
 * [assignProductList](#method-assignProductList)
 * [assignScenes](#method-assignScenes)
 * [assignSubcategories](#method-assignSubcategories)
@@ -40,7 +42,9 @@ Properties
 
 ### <a name="property-$cat_products"></a>$cat_products
 
-    protected array $cat_products
+```php
+protected array $cat_products
+```
 
 
 
@@ -52,7 +56,9 @@ Properties
 
 ### <a name="property-$category"></a>$category
 
-    protected \Category $category
+```php
+protected \Category $category
+```
 
 
 
@@ -64,7 +70,9 @@ Properties
 
 ### <a name="property-$customer_access"></a>$customer_access
 
-    public boolean $customer_access = true
+```php
+public boolean $customer_access = true
+```
 
 
 
@@ -76,7 +84,9 @@ Properties
 
 ### <a name="property-$nbProducts"></a>$nbProducts
 
-    protected integer $nbProducts
+```php
+protected integer $nbProducts
+```
 
 
 
@@ -88,7 +98,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'category'
+```php
+public mixed $php_self = 'category'
+```
 
 string Internal controller name
 
@@ -104,7 +116,9 @@ Methods
 
 ### <a name="method-assignProductList"></a>assignProductList
 
-    mixed CategoryControllerCore::assignProductList()
+```php
+mixed CategoryControllerCore::assignProductList()
+```
 
 Assigns product list template variables
 
@@ -118,7 +132,9 @@ Assigns product list template variables
 
 ### <a name="method-assignScenes"></a>assignScenes
 
-    mixed CategoryControllerCore::assignScenes()
+```php
+mixed CategoryControllerCore::assignScenes()
+```
 
 Assigns scenes template variables
 
@@ -132,7 +148,9 @@ Assigns scenes template variables
 
 ### <a name="method-assignSubcategories"></a>assignSubcategories
 
-    mixed CategoryControllerCore::assignSubcategories()
+```php
+mixed CategoryControllerCore::assignSubcategories()
+```
 
 Assigns subcategory templates variables
 
@@ -146,7 +164,9 @@ Assigns subcategory templates variables
 
 ### <a name="method-canonicalRedirection"></a>canonicalRedirection
 
-    mixed CategoryControllerCore::canonicalRedirection(string $canonical_url)
+```php
+mixed CategoryControllerCore::canonicalRedirection(string $canonical_url)
+```
 
 Redirects to canonical or "Not Found" URL
 
@@ -163,7 +183,9 @@ Redirects to canonical or "Not Found" URL
 
 ### <a name="method-getCategory"></a>getCategory
 
-    \Category CategoryControllerCore::getCategory()
+```php
+\Category CategoryControllerCore::getCategory()
+```
 
 Returns an instance of the current category
 
@@ -177,7 +199,9 @@ Returns an instance of the current category
 
 ### <a name="method-init"></a>init
 
-    mixed CategoryControllerCore::init()
+```php
+mixed CategoryControllerCore::init()
+```
 
 Initializes controller
 
@@ -191,7 +215,9 @@ Initializes controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed CategoryControllerCore::initContent()
+```php
+mixed CategoryControllerCore::initContent()
+```
 
 Initializes page content variables
 
@@ -205,7 +231,9 @@ Initializes page content variables
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed CategoryControllerCore::setMedia()
+```php
+mixed CategoryControllerCore::setMedia()
+```
 
 Sets default medias for this controller
 

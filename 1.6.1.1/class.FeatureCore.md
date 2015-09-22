@@ -10,17 +10,19 @@ Class FeatureCore
 * Source: [classes/Feature.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$name](#property-$name)
 * [$position](#property-$position)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [addFeatureImport](#method-addFeatureImport)
 * [cleanPositions](#method-cleanPositions)
@@ -44,7 +46,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'feature', 'primary' => 'id_feature', 'multilang' => true, 'fields' => array('position' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128)))
+```php
+public mixed $definition = array('table' => 'feature', 'primary' => 'id_feature', 'multilang' => true, 'fields' => array('position' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128)))
+```
 
 
 
@@ -57,7 +61,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -69,7 +75,9 @@ Properties
 
 ### <a name="property-$position"></a>$position
 
-    public mixed $position
+```php
+public mixed $position
+```
 
 
 
@@ -81,7 +89,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'product_features', 'objectNodeName' => 'product_feature', 'fields' => array())
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'product_features', 'objectNodeName' => 'product_feature', 'fields' => array())
+```
 
 
 
@@ -97,7 +107,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed FeatureCore::add($autodate, $nullValues)
+```php
+mixed FeatureCore::add($autodate, $nullValues)
+```
 
 
 
@@ -115,7 +127,9 @@ Methods
 
 ### <a name="method-addFeatureImport"></a>addFeatureImport
 
-    mixed FeatureCore::addFeatureImport($name, $position)
+```php
+mixed FeatureCore::addFeatureImport($name, $position)
+```
 
 Create a feature from import
 
@@ -134,7 +148,9 @@ Create a feature from import
 
 ### <a name="method-cleanPositions"></a>cleanPositions
 
-    boolean FeatureCore::cleanPositions()
+```php
+boolean FeatureCore::cleanPositions()
+```
 
 Reorder feature position
 Call it after deleting a feature.
@@ -150,7 +166,9 @@ Call it after deleting a feature.
 
 ### <a name="method-delete"></a>delete
 
-    mixed FeatureCore::delete()
+```php
+mixed FeatureCore::delete()
+```
 
 
 
@@ -164,7 +182,9 @@ Call it after deleting a feature.
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    boolean FeatureCore::deleteSelection(array $selection)
+```php
+boolean FeatureCore::deleteSelection(array $selection)
+```
 
 Delete several objects from database
 
@@ -181,7 +201,9 @@ Delete several objects from database
 
 ### <a name="method-getFeature"></a>getFeature
 
-    array FeatureCore::getFeature(integer $id_lang, integer $id_feature)
+```php
+array FeatureCore::getFeature(integer $id_lang, integer $id_feature)
+```
 
 Get a feature data for a given id_feature and id_lang
 
@@ -200,7 +222,9 @@ Get a feature data for a given id_feature and id_lang
 
 ### <a name="method-getFeatures"></a>getFeatures
 
-    array FeatureCore::getFeatures(integer $id_lang, $with_shop)
+```php
+array FeatureCore::getFeatures(integer $id_lang, $with_shop)
+```
 
 Get all features for a given language
 
@@ -219,7 +243,9 @@ Get all features for a given language
 
 ### <a name="method-getFeaturesForComparison"></a>getFeaturesForComparison
 
-    mixed FeatureCore::getFeaturesForComparison($list_ids_product, $id_lang)
+```php
+mixed FeatureCore::getFeaturesForComparison($list_ids_product, $id_lang)
+```
 
 
 
@@ -238,7 +264,9 @@ Get all features for a given language
 
 ### <a name="method-getHigherPosition"></a>getHigherPosition
 
-    integer FeatureCore::getHigherPosition()
+```php
+integer FeatureCore::getHigherPosition()
+```
 
 getHigherPosition
 
@@ -253,7 +281,9 @@ Get the higher feature position
 
 ### <a name="method-isFeatureActive"></a>isFeatureActive
 
-    boolean FeatureCore::isFeatureActive()
+```php
+boolean FeatureCore::isFeatureActive()
+```
 
 This metohd is allow to know if a feature is used or active
 
@@ -268,7 +298,9 @@ This metohd is allow to know if a feature is used or active
 
 ### <a name="method-nbFeatures"></a>nbFeatures
 
-    integer FeatureCore::nbFeatures(integer $id_lang)
+```php
+integer FeatureCore::nbFeatures(integer $id_lang)
+```
 
 Count number of features for a given language
 
@@ -286,7 +318,9 @@ Count number of features for a given language
 
 ### <a name="method-update"></a>update
 
-    mixed FeatureCore::update($nullValues)
+```php
+mixed FeatureCore::update($nullValues)
+```
 
 
 
@@ -303,7 +337,9 @@ Count number of features for a given language
 
 ### <a name="method-updatePosition"></a>updatePosition
 
-    boolean FeatureCore::updatePosition(boolean $way, integer $position, $id_feature)
+```php
+boolean FeatureCore::updatePosition(boolean $way, integer $position, $id_feature)
+```
 
 Move a feature
 

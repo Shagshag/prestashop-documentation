@@ -10,9 +10,11 @@ Class EmployeeCore
 * Source: [classes/Employee.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$associated_shops](#property-$associated_shops)
@@ -45,8 +47,8 @@ Properties
 * [$stats_date_to](#property-$stats_date_to)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [checkPassword](#method-checkPassword)
@@ -81,7 +83,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = 1
+```php
+public boolean $active = 1
+```
 
 
 
@@ -93,7 +97,9 @@ Properties
 
 ### <a name="property-$associated_shops"></a>$associated_shops
 
-    protected mixed $associated_shops = array()
+```php
+protected mixed $associated_shops = array()
+```
 
 
 
@@ -105,7 +111,9 @@ Properties
 
 ### <a name="property-$bo_color"></a>$bo_color
 
-    public string $bo_color
+```php
+public string $bo_color
+```
 
 
 
@@ -117,7 +125,9 @@ Properties
 
 ### <a name="property-$bo_css"></a>$bo_css
 
-    public string $bo_css = 'admin-theme.css'
+```php
+public string $bo_css = 'admin-theme.css'
+```
 
 
 
@@ -129,7 +139,9 @@ Properties
 
 ### <a name="property-$bo_menu"></a>$bo_menu
 
-    public \bool, $bo_menu = 1
+```php
+public \bool, $bo_menu = 1
+```
 
 
 
@@ -141,7 +153,9 @@ Properties
 
 ### <a name="property-$bo_show_screencast"></a>$bo_show_screencast
 
-    public mixed $bo_show_screencast = false
+```php
+public mixed $bo_show_screencast = false
+```
 
 
 
@@ -153,7 +167,9 @@ Properties
 
 ### <a name="property-$bo_theme"></a>$bo_theme
 
-    public string $bo_theme
+```php
+public string $bo_theme
+```
 
 
 
@@ -165,7 +181,9 @@ Properties
 
 ### <a name="property-$bo_width"></a>$bo_width
 
-    public integer $bo_width
+```php
+public integer $bo_width
+```
 
 
 
@@ -177,7 +195,9 @@ Properties
 
 ### <a name="property-$default_tab"></a>$default_tab
 
-    public mixed $default_tab
+```php
+public mixed $default_tab
+```
 
 
 
@@ -189,7 +209,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'employee', 'primary' => 'id_employee', 'fields' => array('lastname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'firstname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'required' => true, 'size' => 128), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'passwd' => array('type' => self::TYPE_STRING, 'validate' => 'isPasswdAdmin', 'required' => true, 'size' => 32), 'last_passwd_gen' => array('type' => self::TYPE_STRING), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'optin' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'id_profile' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'bo_color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor', 'size' => 32), 'default_tab' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'bo_theme' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 32), 'bo_css' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 64), 'bo_width' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'bo_menu' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'stats_date_from' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'stats_date_to' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'stats_compare_from' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'stats_compare_to' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'stats_compare_option' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'preselect_date_range' => array('type' => self::TYPE_STRING, 'size' => 32), 'id_last_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'id_last_customer_message' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'id_last_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt')))
+```php
+public mixed $definition = array('table' => 'employee', 'primary' => 'id_employee', 'fields' => array('lastname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'firstname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'required' => true, 'size' => 128), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'passwd' => array('type' => self::TYPE_STRING, 'validate' => 'isPasswdAdmin', 'required' => true, 'size' => 32), 'last_passwd_gen' => array('type' => self::TYPE_STRING), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'optin' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'id_profile' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'bo_color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor', 'size' => 32), 'default_tab' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'bo_theme' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 32), 'bo_css' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 64), 'bo_width' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'bo_menu' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'stats_date_from' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'stats_date_to' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'stats_compare_from' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'stats_compare_to' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'stats_compare_option' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'preselect_date_range' => array('type' => self::TYPE_STRING, 'size' => 32), 'id_last_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'id_last_customer_message' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'id_last_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt')))
+```
 
 
 
@@ -202,7 +224,9 @@ Properties
 
 ### <a name="property-$email"></a>$email
 
-    public string $email
+```php
+public string $email
+```
 
 
 
@@ -214,7 +238,9 @@ Properties
 
 ### <a name="property-$firstname"></a>$firstname
 
-    public string $firstname
+```php
+public string $firstname
+```
 
 
 
@@ -226,7 +252,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -238,7 +266,9 @@ Properties
 
 ### <a name="property-$id_lang"></a>$id_lang
 
-    public string $id_lang
+```php
+public string $id_lang
+```
 
 
 
@@ -250,7 +280,9 @@ Properties
 
 ### <a name="property-$id_last_customer"></a>$id_last_customer
 
-    public mixed $id_last_customer
+```php
+public mixed $id_last_customer
+```
 
 
 
@@ -262,7 +294,9 @@ Properties
 
 ### <a name="property-$id_last_customer_message"></a>$id_last_customer_message
 
-    public mixed $id_last_customer_message
+```php
+public mixed $id_last_customer_message
+```
 
 
 
@@ -274,7 +308,9 @@ Properties
 
 ### <a name="property-$id_last_order"></a>$id_last_order
 
-    public mixed $id_last_order
+```php
+public mixed $id_last_order
+```
 
 
 
@@ -286,7 +322,9 @@ Properties
 
 ### <a name="property-$id_profile"></a>$id_profile
 
-    public string $id_profile
+```php
+public string $id_profile
+```
 
 
 
@@ -298,7 +336,9 @@ Properties
 
 ### <a name="property-$last_passwd_gen"></a>$last_passwd_gen
 
-    public \datetime $last_passwd_gen
+```php
+public \datetime $last_passwd_gen
+```
 
 
 
@@ -310,7 +350,9 @@ Properties
 
 ### <a name="property-$lastname"></a>$lastname
 
-    public string $lastname
+```php
+public string $lastname
+```
 
 
 
@@ -322,7 +364,9 @@ Properties
 
 ### <a name="property-$optin"></a>$optin
 
-    public boolean $optin = 1
+```php
+public boolean $optin = 1
+```
 
 
 
@@ -334,7 +378,9 @@ Properties
 
 ### <a name="property-$passwd"></a>$passwd
 
-    public string $passwd
+```php
+public string $passwd
+```
 
 
 
@@ -346,7 +392,9 @@ Properties
 
 ### <a name="property-$preselect_date_range"></a>$preselect_date_range
 
-    public mixed $preselect_date_range
+```php
+public mixed $preselect_date_range
+```
 
 
 
@@ -358,7 +406,9 @@ Properties
 
 ### <a name="property-$remote_addr"></a>$remote_addr
 
-    public mixed $remote_addr
+```php
+public mixed $remote_addr
+```
 
 
 
@@ -370,7 +420,9 @@ Properties
 
 ### <a name="property-$stats_compare_from"></a>$stats_compare_from
 
-    public mixed $stats_compare_from
+```php
+public mixed $stats_compare_from
+```
 
 
 
@@ -382,7 +434,9 @@ Properties
 
 ### <a name="property-$stats_compare_option"></a>$stats_compare_option
 
-    public mixed $stats_compare_option = 1
+```php
+public mixed $stats_compare_option = 1
+```
 
 
 
@@ -394,7 +448,9 @@ Properties
 
 ### <a name="property-$stats_compare_to"></a>$stats_compare_to
 
-    public mixed $stats_compare_to
+```php
+public mixed $stats_compare_to
+```
 
 
 
@@ -406,7 +462,9 @@ Properties
 
 ### <a name="property-$stats_date_from"></a>$stats_date_from
 
-    public mixed $stats_date_from
+```php
+public mixed $stats_date_from
+```
 
 
 
@@ -418,7 +476,9 @@ Properties
 
 ### <a name="property-$stats_date_to"></a>$stats_date_to
 
-    public mixed $stats_date_to
+```php
+public mixed $stats_date_to
+```
 
 
 
@@ -430,7 +490,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_lang' => array('xlink_resource' => 'languages'), 'last_passwd_gen' => array('setter' => null), 'stats_date_from' => array('setter' => null), 'stats_date_to' => array('setter' => null), 'stats_compare_from' => array('setter' => null), 'stats_compare_to' => array('setter' => null), 'passwd' => array('setter' => 'setWsPasswd')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_lang' => array('xlink_resource' => 'languages'), 'last_passwd_gen' => array('setter' => null), 'stats_date_from' => array('setter' => null), 'stats_date_to' => array('setter' => null), 'stats_compare_from' => array('setter' => null), 'stats_compare_to' => array('setter' => null), 'passwd' => array('setter' => 'setWsPasswd')))
+```
 
 
 
@@ -446,7 +508,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed EmployeeCore::__construct($id, $id_lang, $id_shop)
+```php
+mixed EmployeeCore::__construct($id, $id_lang, $id_shop)
+```
 
 
 
@@ -465,7 +529,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed EmployeeCore::add($autodate, $null_values)
+```php
+mixed EmployeeCore::add($autodate, $null_values)
+```
 
 
 
@@ -483,7 +549,9 @@ Methods
 
 ### <a name="method-checkPassword"></a>checkPassword
 
-    boolean EmployeeCore::checkPassword($id_employee, string $passwd)
+```php
+boolean EmployeeCore::checkPassword($id_employee, string $passwd)
+```
 
 Check if employee password is the right one
 
@@ -502,7 +570,9 @@ Check if employee password is the right one
 
 ### <a name="method-countProfile"></a>countProfile
 
-    mixed EmployeeCore::countProfile($id_profile, $active_only)
+```php
+mixed EmployeeCore::countProfile($id_profile, $active_only)
+```
 
 
 
@@ -521,7 +591,9 @@ Check if employee password is the right one
 
 ### <a name="method-employeeExists"></a>employeeExists
 
-    mixed EmployeeCore::employeeExists($email)
+```php
+mixed EmployeeCore::employeeExists($email)
+```
 
 
 
@@ -539,7 +611,9 @@ Check if employee password is the right one
 
 ### <a name="method-favoriteModulesList"></a>favoriteModulesList
 
-    mixed EmployeeCore::favoriteModulesList()
+```php
+mixed EmployeeCore::favoriteModulesList()
+```
 
 
 
@@ -553,7 +627,9 @@ Check if employee password is the right one
 
 ### <a name="method-getByEmail"></a>getByEmail
 
-    \Employee EmployeeCore::getByEmail(string $email, string $passwd, boolean $active_only)
+```php
+\Employee EmployeeCore::getByEmail(string $email, string $passwd, boolean $active_only)
+```
 
 Return employee instance from its e-mail (optionnaly check password)
 
@@ -572,7 +648,9 @@ Return employee instance from its e-mail (optionnaly check password)
 
 ### <a name="method-getDefaultShopID"></a>getDefaultShopID
 
-    integer EmployeeCore::getDefaultShopID()
+```php
+integer EmployeeCore::getDefaultShopID()
+```
 
 Get default id_shop with auth for current employee
 
@@ -586,7 +664,9 @@ Get default id_shop with auth for current employee
 
 ### <a name="method-getEmployees"></a>getEmployees
 
-    array|false EmployeeCore::getEmployees(boolean $active_only)
+```php
+array|false EmployeeCore::getEmployees(boolean $active_only)
+```
 
 Return list of employees
 
@@ -604,7 +684,9 @@ Return list of employees
 
 ### <a name="method-getEmployeesByProfile"></a>getEmployeesByProfile
 
-    mixed EmployeeCore::getEmployeesByProfile($id_profile, $active_only)
+```php
+mixed EmployeeCore::getEmployeesByProfile($id_profile, $active_only)
+```
 
 
 
@@ -623,7 +705,9 @@ Return list of employees
 
 ### <a name="method-getFields"></a>getFields
 
-    array EmployeeCore::getFields()
+```php
+array EmployeeCore::getFields()
+```
 
 
 
@@ -637,7 +721,9 @@ Return list of employees
 
 ### <a name="method-getImage"></a>getImage
 
-    mixed EmployeeCore::getImage()
+```php
+mixed EmployeeCore::getImage()
+```
 
 
 
@@ -651,7 +737,9 @@ Return list of employees
 
 ### <a name="method-getLastElementsForNotify"></a>getLastElementsForNotify
 
-    mixed EmployeeCore::getLastElementsForNotify($element)
+```php
+mixed EmployeeCore::getLastElementsForNotify($element)
+```
 
 
 
@@ -668,7 +756,9 @@ Return list of employees
 
 ### <a name="method-hasAuthOnShop"></a>hasAuthOnShop
 
-    boolean EmployeeCore::hasAuthOnShop(integer $id_shop)
+```php
+boolean EmployeeCore::hasAuthOnShop(integer $id_shop)
+```
 
 Check if the employee is associated to a specific shop
 
@@ -685,7 +775,9 @@ Check if the employee is associated to a specific shop
 
 ### <a name="method-hasAuthOnShopGroup"></a>hasAuthOnShopGroup
 
-    boolean EmployeeCore::hasAuthOnShopGroup($id_shop_group)
+```php
+boolean EmployeeCore::hasAuthOnShopGroup($id_shop_group)
+```
 
 Check if the employee is associated to a specific shop group
 
@@ -702,7 +794,9 @@ Check if the employee is associated to a specific shop group
 
 ### <a name="method-isLastAdmin"></a>isLastAdmin
 
-    mixed EmployeeCore::isLastAdmin()
+```php
+mixed EmployeeCore::isLastAdmin()
+```
 
 
 
@@ -716,7 +810,9 @@ Check if the employee is associated to a specific shop group
 
 ### <a name="method-isLoggedBack"></a>isLoggedBack
 
-    boolean EmployeeCore::isLoggedBack()
+```php
+boolean EmployeeCore::isLoggedBack()
+```
 
 Check employee informations saved into cookie and return employee validity
 
@@ -730,7 +826,9 @@ Check employee informations saved into cookie and return employee validity
 
 ### <a name="method-isSuperAdmin"></a>isSuperAdmin
 
-    boolean EmployeeCore::isSuperAdmin()
+```php
+boolean EmployeeCore::isSuperAdmin()
+```
 
 Check if current employee is super administrator
 
@@ -744,7 +842,9 @@ Check if current employee is super administrator
 
 ### <a name="method-logout"></a>logout
 
-    mixed EmployeeCore::logout()
+```php
+mixed EmployeeCore::logout()
+```
 
 Logout
 
@@ -758,7 +858,9 @@ Logout
 
 ### <a name="method-saveOptin"></a>saveOptin
 
-    mixed EmployeeCore::saveOptin()
+```php
+mixed EmployeeCore::saveOptin()
+```
 
 
 
@@ -772,7 +874,9 @@ Logout
 
 ### <a name="method-setLastConnectionDate"></a>setLastConnectionDate
 
-    mixed EmployeeCore::setLastConnectionDate($id_employee)
+```php
+mixed EmployeeCore::setLastConnectionDate($id_employee)
+```
 
 
 
@@ -790,7 +894,9 @@ Logout
 
 ### <a name="method-setWsPasswd"></a>setWsPasswd
 
-    mixed EmployeeCore::setWsPasswd($passwd)
+```php
+mixed EmployeeCore::setWsPasswd($passwd)
+```
 
 
 
@@ -807,7 +913,9 @@ Logout
 
 ### <a name="method-update"></a>update
 
-    mixed EmployeeCore::update($null_values)
+```php
+mixed EmployeeCore::update($null_values)
+```
 
 
 
@@ -824,7 +932,9 @@ Logout
 
 ### <a name="method-updateTextDirection"></a>updateTextDirection
 
-    mixed EmployeeCore::updateTextDirection()
+```php
+mixed EmployeeCore::updateTextDirection()
+```
 
 
 

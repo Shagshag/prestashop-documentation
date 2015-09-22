@@ -24,9 +24,11 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [classes/Address.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_idCountries](#property-$_idCountries)
 * [$_idZones](#property-$_idZones)
@@ -58,8 +60,8 @@ Properties
 * [$vat_number](#property-$vat_number)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [addressExists](#method-addressExists)
@@ -86,7 +88,9 @@ Properties
 
 ### <a name="property-$_idCountries"></a>$_idCountries
 
-    protected mixed $_idCountries = array()
+```php
+protected mixed $_idCountries = array()
+```
 
 
 
@@ -99,7 +103,9 @@ Properties
 
 ### <a name="property-$_idZones"></a>$_idZones
 
-    protected mixed $_idZones = array()
+```php
+protected mixed $_idZones = array()
+```
 
 
 
@@ -112,7 +118,9 @@ Properties
 
 ### <a name="property-$_includeContainer"></a>$_includeContainer
 
-    protected mixed $_includeContainer = false
+```php
+protected mixed $_includeContainer = false
+```
 
 
 
@@ -124,7 +132,9 @@ Properties
 
 ### <a name="property-$_includeVars"></a>$_includeVars
 
-    protected mixed $_includeVars = array('addressType' => 'table')
+```php
+protected mixed $_includeVars = array('addressType' => 'table')
+```
 
 
 
@@ -136,7 +146,9 @@ Properties
 
 ### <a name="property-$address1"></a>$address1
 
-    public string $address1
+```php
+public string $address1
+```
 
 
 
@@ -148,7 +160,9 @@ Properties
 
 ### <a name="property-$address2"></a>$address2
 
-    public string $address2
+```php
+public string $address2
+```
 
 
 
@@ -160,7 +174,9 @@ Properties
 
 ### <a name="property-$alias"></a>$alias
 
-    public string $alias
+```php
+public string $alias
+```
 
 
 
@@ -172,7 +188,9 @@ Properties
 
 ### <a name="property-$city"></a>$city
 
-    public string $city
+```php
+public string $city
+```
 
 
 
@@ -184,7 +202,9 @@ Properties
 
 ### <a name="property-$company"></a>$company
 
-    public string $company
+```php
+public string $company
+```
 
 
 
@@ -196,7 +216,9 @@ Properties
 
 ### <a name="property-$country"></a>$country
 
-    public string $country
+```php
+public string $country
+```
 
 
 
@@ -208,7 +230,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -220,7 +244,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -232,7 +258,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'address', 'primary' => 'id_address', 'fields' => array('id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId', 'copy_post' => false), 'id_manufacturer' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId', 'copy_post' => false), 'id_supplier' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId', 'copy_post' => false), 'id_warehouse' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId', 'copy_post' => false), 'id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_state' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId'), 'alias' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'company' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 64), 'lastname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'firstname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'vat_number' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName'), 'address1' => array('type' => self::TYPE_STRING, 'validate' => 'isAddress', 'required' => true, 'size' => 128), 'address2' => array('type' => self::TYPE_STRING, 'validate' => 'isAddress', 'size' => 128), 'postcode' => array('type' => self::TYPE_STRING, 'validate' => 'isPostCode', 'size' => 12), 'city' => array('type' => self::TYPE_STRING, 'validate' => 'isCityName', 'required' => true, 'size' => 64), 'other' => array('type' => self::TYPE_STRING, 'validate' => 'isMessage', 'size' => 300), 'phone' => array('type' => self::TYPE_STRING, 'validate' => 'isPhoneNumber', 'size' => 32), 'phone_mobile' => array('type' => self::TYPE_STRING, 'validate' => 'isPhoneNumber', 'size' => 32), 'dni' => array('type' => self::TYPE_STRING, 'validate' => 'isDniLite', 'size' => 16), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'copy_post' => false), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false)))
+```php
+public mixed $definition = array('table' => 'address', 'primary' => 'id_address', 'fields' => array('id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId', 'copy_post' => false), 'id_manufacturer' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId', 'copy_post' => false), 'id_supplier' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId', 'copy_post' => false), 'id_warehouse' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId', 'copy_post' => false), 'id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_state' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId'), 'alias' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'company' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 64), 'lastname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'firstname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'vat_number' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName'), 'address1' => array('type' => self::TYPE_STRING, 'validate' => 'isAddress', 'required' => true, 'size' => 128), 'address2' => array('type' => self::TYPE_STRING, 'validate' => 'isAddress', 'size' => 128), 'postcode' => array('type' => self::TYPE_STRING, 'validate' => 'isPostCode', 'size' => 12), 'city' => array('type' => self::TYPE_STRING, 'validate' => 'isCityName', 'required' => true, 'size' => 64), 'other' => array('type' => self::TYPE_STRING, 'validate' => 'isMessage', 'size' => 300), 'phone' => array('type' => self::TYPE_STRING, 'validate' => 'isPhoneNumber', 'size' => 32), 'phone_mobile' => array('type' => self::TYPE_STRING, 'validate' => 'isPhoneNumber', 'size' => 32), 'dni' => array('type' => self::TYPE_STRING, 'validate' => 'isDniLite', 'size' => 16), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'copy_post' => false), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false)))
+```
 
 
 
@@ -245,7 +273,9 @@ Properties
 
 ### <a name="property-$deleted"></a>$deleted
 
-    public boolean $deleted
+```php
+public boolean $deleted
+```
 
 
 
@@ -257,7 +287,9 @@ Properties
 
 ### <a name="property-$dni"></a>$dni
 
-    public string $dni
+```php
+public string $dni
+```
 
 
 
@@ -269,7 +301,9 @@ Properties
 
 ### <a name="property-$firstname"></a>$firstname
 
-    public string $firstname
+```php
+public string $firstname
+```
 
 
 
@@ -281,7 +315,9 @@ Properties
 
 ### <a name="property-$id_country"></a>$id_country
 
-    public integer $id_country
+```php
+public integer $id_country
+```
 
 
 
@@ -293,7 +329,9 @@ Properties
 
 ### <a name="property-$id_customer"></a>$id_customer
 
-    public integer $id_customer = null
+```php
+public integer $id_customer = null
+```
 
 
 
@@ -305,7 +343,9 @@ Properties
 
 ### <a name="property-$id_manufacturer"></a>$id_manufacturer
 
-    public integer $id_manufacturer = null
+```php
+public integer $id_manufacturer = null
+```
 
 
 
@@ -317,7 +357,9 @@ Properties
 
 ### <a name="property-$id_state"></a>$id_state
 
-    public integer $id_state
+```php
+public integer $id_state
+```
 
 
 
@@ -329,7 +371,9 @@ Properties
 
 ### <a name="property-$id_supplier"></a>$id_supplier
 
-    public integer $id_supplier = null
+```php
+public integer $id_supplier = null
+```
 
 
 
@@ -341,7 +385,9 @@ Properties
 
 ### <a name="property-$id_warehouse"></a>$id_warehouse
 
-    public integer $id_warehouse = null
+```php
+public integer $id_warehouse = null
+```
 
 
 
@@ -353,7 +399,9 @@ Properties
 
 ### <a name="property-$lastname"></a>$lastname
 
-    public string $lastname
+```php
+public string $lastname
+```
 
 
 
@@ -365,7 +413,9 @@ Properties
 
 ### <a name="property-$other"></a>$other
 
-    public string $other
+```php
+public string $other
+```
 
 
 
@@ -377,7 +427,9 @@ Properties
 
 ### <a name="property-$phone"></a>$phone
 
-    public string $phone
+```php
+public string $phone
+```
 
 
 
@@ -389,7 +441,9 @@ Properties
 
 ### <a name="property-$phone_mobile"></a>$phone_mobile
 
-    public string $phone_mobile
+```php
+public string $phone_mobile
+```
 
 
 
@@ -401,7 +455,9 @@ Properties
 
 ### <a name="property-$postcode"></a>$postcode
 
-    public string $postcode
+```php
+public string $postcode
+```
 
 
 
@@ -413,7 +469,9 @@ Properties
 
 ### <a name="property-$vat_number"></a>$vat_number
 
-    public string $vat_number
+```php
+public string $vat_number
+```
 
 
 
@@ -425,7 +483,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'addresses', 'fields' => array('id_customer' => array('xlink_resource' => 'customers'), 'id_manufacturer' => array('xlink_resource' => 'manufacturers'), 'id_supplier' => array('xlink_resource' => 'suppliers'), 'id_warehouse' => array('xlink_resource' => 'warehouse'), 'id_country' => array('xlink_resource' => 'countries'), 'id_state' => array('xlink_resource' => 'states')))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'addresses', 'fields' => array('id_customer' => array('xlink_resource' => 'customers'), 'id_manufacturer' => array('xlink_resource' => 'manufacturers'), 'id_supplier' => array('xlink_resource' => 'suppliers'), 'id_warehouse' => array('xlink_resource' => 'warehouse'), 'id_country' => array('xlink_resource' => 'countries'), 'id_state' => array('xlink_resource' => 'states')))
+```
 
 
 
@@ -441,7 +501,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AddressCore::__construct(integer $id_address, $id_lang)
+```php
+mixed AddressCore::__construct(integer $id_address, $id_lang)
+```
 
 Build an address
 
@@ -459,7 +521,9 @@ Build an address
 
 ### <a name="method-add"></a>add
 
-    mixed AddressCore::add($autodate, $null_values)
+```php
+mixed AddressCore::add($autodate, $null_values)
+```
 
 
 
@@ -477,7 +541,9 @@ Build an address
 
 ### <a name="method-addressExists"></a>addressExists
 
-    boolean AddressCore::addressExists(integer $id_address)
+```php
+boolean AddressCore::addressExists(integer $id_address)
+```
 
 Specify if an address is already in base
 
@@ -495,7 +561,9 @@ Specify if an address is already in base
 
 ### <a name="method-aliasExist"></a>aliasExist
 
-    mixed AddressCore::aliasExist($alias, $id_address, $id_customer)
+```php
+mixed AddressCore::aliasExist($alias, $id_address, $id_customer)
+```
 
 
 
@@ -515,7 +583,9 @@ Specify if an address is already in base
 
 ### <a name="method-delete"></a>delete
 
-    mixed AddressCore::delete()
+```php
+mixed AddressCore::delete()
+```
 
 
 
@@ -529,7 +599,9 @@ Specify if an address is already in base
 
 ### <a name="method-getAddressIdBySupplierId"></a>getAddressIdBySupplierId
 
-    integer AddressCore::getAddressIdBySupplierId(integer $id_supplier)
+```php
+integer AddressCore::getAddressIdBySupplierId(integer $id_supplier)
+```
 
 Returns id_address for a given id_supplier
 
@@ -547,7 +619,9 @@ Returns id_address for a given id_supplier
 
 ### <a name="method-getCountryAndState"></a>getCountryAndState
 
-    mixed AddressCore::getCountryAndState($id_address)
+```php
+mixed AddressCore::getCountryAndState($id_address)
+```
 
 
 
@@ -565,7 +639,9 @@ Returns id_address for a given id_supplier
 
 ### <a name="method-getFieldsRequiredDB"></a>getFieldsRequiredDB
 
-    mixed AddressCore::getFieldsRequiredDB()
+```php
+mixed AddressCore::getFieldsRequiredDB()
+```
 
 
 
@@ -579,7 +655,9 @@ Returns id_address for a given id_supplier
 
 ### <a name="method-getFieldsValidate"></a>getFieldsValidate
 
-    array AddressCore::getFieldsValidate()
+```php
+array AddressCore::getFieldsValidate()
+```
 
 Returns fields required for an address in an array hash
 
@@ -594,7 +672,9 @@ Returns fields required for an address in an array hash
 
 ### <a name="method-getFirstCustomerAddressId"></a>getFirstCustomerAddressId
 
-    mixed AddressCore::getFirstCustomerAddressId($id_customer, $active)
+```php
+mixed AddressCore::getFirstCustomerAddressId($id_customer, $active)
+```
 
 
 
@@ -613,7 +693,9 @@ Returns fields required for an address in an array hash
 
 ### <a name="method-getZoneById"></a>getZoneById
 
-    integer AddressCore::getZoneById(integer $id_address)
+```php
+integer AddressCore::getZoneById(integer $id_address)
+```
 
 Get zone id for a given address
 
@@ -631,7 +713,9 @@ Get zone id for a given address
 
 ### <a name="method-initialize"></a>initialize
 
-    \Address AddressCore::initialize(integer $id_address, boolean $with_geoloc)
+```php
+\Address AddressCore::initialize(integer $id_address, boolean $with_geoloc)
+```
 
 Initiliaze an address corresponding to the specified id address or if empty to the
 default shop configuration
@@ -651,7 +735,9 @@ default shop configuration
 
 ### <a name="method-isCountryActiveById"></a>isCountryActiveById
 
-    integer AddressCore::isCountryActiveById(integer $id_address)
+```php
+integer AddressCore::isCountryActiveById(integer $id_address)
+```
 
 Check if country is active for a given address
 
@@ -669,7 +755,9 @@ Check if country is active for a given address
 
 ### <a name="method-isUsed"></a>isUsed
 
-    integer AddressCore::isUsed()
+```php
+integer AddressCore::isUsed()
+```
 
 Check if address is used (at least one order placed)
 
@@ -683,7 +771,9 @@ Check if address is used (at least one order placed)
 
 ### <a name="method-update"></a>update
 
-    mixed AddressCore::update($null_values)
+```php
+mixed AddressCore::update($null_values)
+```
 
 
 
@@ -700,7 +790,9 @@ Check if address is used (at least one order placed)
 
 ### <a name="method-validateController"></a>validateController
 
-    mixed AddressCore::validateController($htmlentities)
+```php
+mixed AddressCore::validateController($htmlentities)
+```
 
 
 

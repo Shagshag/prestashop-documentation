@@ -24,11 +24,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [controllers/admin/AdminGeolocationController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initContent](#method-initContent)
 * [isGeoLiteCityAvailable](#method-isGeoLiteCityAvailable)
@@ -46,7 +48,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminGeolocationControllerCore::__construct()
+```php
+mixed AdminGeolocationControllerCore::__construct()
+```
 
 
 
@@ -60,7 +64,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminGeolocationControllerCore::initContent()
+```php
+mixed AdminGeolocationControllerCore::initContent()
+```
 
 
 
@@ -74,7 +80,9 @@ Methods
 
 ### <a name="method-isGeoLiteCityAvailable"></a>isGeoLiteCityAvailable
 
-    mixed AdminGeolocationControllerCore::isGeoLiteCityAvailable()
+```php
+mixed AdminGeolocationControllerCore::isGeoLiteCityAvailable()
+```
 
 
 
@@ -88,7 +96,9 @@ Methods
 
 ### <a name="method-processUpdateOptions"></a>processUpdateOptions
 
-    mixed AdminGeolocationControllerCore::processUpdateOptions()
+```php
+mixed AdminGeolocationControllerCore::processUpdateOptions()
+```
 
 
 
@@ -102,7 +112,9 @@ Methods
 
 ### <a name="method-renderOptions"></a>renderOptions
 
-    mixed AdminGeolocationControllerCore::renderOptions()
+```php
+mixed AdminGeolocationControllerCore::renderOptions()
+```
 
 
 

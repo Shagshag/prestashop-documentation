@@ -10,9 +10,11 @@ Class AdminModulesControllerCore
 * Source: [controllers/admin/AdminModulesController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_modules_ad](#property-$_modules_ad)
 * [$filter_configuration](#property-$filter_configuration)
@@ -29,8 +31,8 @@ Properties
 * [$serial_modules](#property-$serial_modules)
 * [$xml_modules_list](#property-$xml_modules_list)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessGetModuleQuickView](#method-ajaxProcessGetModuleQuickView)
 * [ajaxProcessGetTabModulesList](#method-ajaxProcessGetTabModulesList)
@@ -79,7 +81,9 @@ Properties
 
 ### <a name="property-$_modules_ad"></a>$_modules_ad
 
-    private mixed $_modules_ad = array('blockcart' => array('cartabandonmentpro'), 'blocklayered' => array('pm_advancedsearch4'))
+```php
+private mixed $_modules_ad = array('blockcart' => array('cartabandonmentpro'), 'blocklayered' => array('pm_advancedsearch4'))
+```
 
 
 
@@ -91,7 +95,9 @@ Properties
 
 ### <a name="property-$filter_configuration"></a>$filter_configuration
 
-    protected mixed $filter_configuration = array()
+```php
+protected mixed $filter_configuration = array()
+```
 
 
 
@@ -103,7 +109,9 @@ Properties
 
 ### <a name="property-$id_employee"></a>$id_employee
 
-    protected mixed $id_employee
+```php
+protected mixed $id_employee
+```
 
 
 
@@ -115,7 +123,9 @@ Properties
 
 ### <a name="property-$iso_default_country"></a>$iso_default_country
 
-    protected mixed $iso_default_country
+```php
+protected mixed $iso_default_country
+```
 
 
 
@@ -127,7 +137,9 @@ Properties
 
 ### <a name="property-$list_modules_categories"></a>$list_modules_categories
 
-    protected mixed $list_modules_categories = array()
+```php
+protected mixed $list_modules_categories = array()
+```
 
 
 
@@ -139,7 +151,9 @@ Properties
 
 ### <a name="property-$list_natives_modules"></a>$list_natives_modules
 
-    protected mixed $list_natives_modules = array()
+```php
+protected mixed $list_natives_modules = array()
+```
 
 
 
@@ -151,7 +165,9 @@ Properties
 
 ### <a name="property-$list_partners_modules"></a>$list_partners_modules
 
-    protected mixed $list_partners_modules = array()
+```php
+protected mixed $list_partners_modules = array()
+```
 
 
 
@@ -163,7 +179,9 @@ Properties
 
 ### <a name="property-$map"></a>$map
 
-    protected mixed $map = array('check' => 'check', 'install' => 'install', 'uninstall' => 'uninstall', 'configure' => 'getContent', 'update' => 'update', 'delete' => 'delete', 'checkAndUpdate' => 'checkAndUpdate', 'updateAll' => 'updateAll')
+```php
+protected mixed $map = array('check' => 'check', 'install' => 'install', 'uninstall' => 'uninstall', 'configure' => 'getContent', 'update' => 'update', 'delete' => 'delete', 'checkAndUpdate' => 'checkAndUpdate', 'updateAll' => 'updateAll')
+```
 
 
 
@@ -175,7 +193,9 @@ Properties
 
 ### <a name="property-$modules_authors"></a>$modules_authors
 
-    protected mixed $modules_authors = array()
+```php
+protected mixed $modules_authors = array()
+```
 
 
 
@@ -187,7 +207,9 @@ Properties
 
 ### <a name="property-$nb_modules_activated"></a>$nb_modules_activated
 
-    protected mixed $nb_modules_activated
+```php
+protected mixed $nb_modules_activated
+```
 
 
 
@@ -199,7 +221,9 @@ Properties
 
 ### <a name="property-$nb_modules_installed"></a>$nb_modules_installed
 
-    protected mixed $nb_modules_installed
+```php
+protected mixed $nb_modules_installed
+```
 
 
 
@@ -211,7 +235,9 @@ Properties
 
 ### <a name="property-$nb_modules_total"></a>$nb_modules_total
 
-    protected mixed $nb_modules_total
+```php
+protected mixed $nb_modules_total
+```
 
 
 
@@ -223,7 +249,9 @@ Properties
 
 ### <a name="property-$serial_modules"></a>$serial_modules
 
-    protected mixed $serial_modules = ''
+```php
+protected mixed $serial_modules = ''
+```
 
 
 
@@ -235,7 +263,9 @@ Properties
 
 ### <a name="property-$xml_modules_list"></a>$xml_modules_list
 
-    protected mixed $xml_modules_list = _PS_API_MODULES_LIST_16_
+```php
+protected mixed $xml_modules_list = _PS_API_MODULES_LIST_16_
+```
 
 
 
@@ -251,7 +281,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminModulesControllerCore::__construct()
+```php
+mixed AdminModulesControllerCore::__construct()
+```
 
 Admin Modules Controller Constructor
 Init list modules categories
@@ -269,7 +301,9 @@ Load cache file
 
 ### <a name="method-ajaxProcessGetModuleQuickView"></a>ajaxProcessGetModuleQuickView
 
-    mixed AdminModulesControllerCore::ajaxProcessGetModuleQuickView()
+```php
+mixed AdminModulesControllerCore::ajaxProcessGetModuleQuickView()
+```
 
 
 
@@ -283,7 +317,9 @@ Load cache file
 
 ### <a name="method-ajaxProcessGetTabModulesList"></a>ajaxProcessGetTabModulesList
 
-    mixed AdminModulesControllerCore::ajaxProcessGetTabModulesList()
+```php
+mixed AdminModulesControllerCore::ajaxProcessGetTabModulesList()
+```
 
 
 
@@ -297,7 +333,9 @@ Load cache file
 
 ### <a name="method-ajaxProcessLogOnAddonsWebservices"></a>ajaxProcessLogOnAddonsWebservices
 
-    mixed AdminModulesControllerCore::ajaxProcessLogOnAddonsWebservices()
+```php
+mixed AdminModulesControllerCore::ajaxProcessLogOnAddonsWebservices()
+```
 
 
 
@@ -311,7 +349,9 @@ Load cache file
 
 ### <a name="method-ajaxProcessLogOutAddonsWebservices"></a>ajaxProcessLogOutAddonsWebservices
 
-    mixed AdminModulesControllerCore::ajaxProcessLogOutAddonsWebservices()
+```php
+mixed AdminModulesControllerCore::ajaxProcessLogOutAddonsWebservices()
+```
 
 
 
@@ -325,7 +365,9 @@ Load cache file
 
 ### <a name="method-ajaxProcessRefreshModuleList"></a>ajaxProcessRefreshModuleList
 
-    mixed AdminModulesControllerCore::ajaxProcessRefreshModuleList($force_reload_cache)
+```php
+mixed AdminModulesControllerCore::ajaxProcessRefreshModuleList($force_reload_cache)
+```
 
 
 
@@ -342,7 +384,9 @@ Load cache file
 
 ### <a name="method-ajaxProcessReloadModulesList"></a>ajaxProcessReloadModulesList
 
-    mixed AdminModulesControllerCore::ajaxProcessReloadModulesList()
+```php
+mixed AdminModulesControllerCore::ajaxProcessReloadModulesList()
+```
 
 
 
@@ -356,7 +400,9 @@ Load cache file
 
 ### <a name="method-ajaxProcessSaveFavoritePreferences"></a>ajaxProcessSaveFavoritePreferences
 
-    mixed AdminModulesControllerCore::ajaxProcessSaveFavoritePreferences()
+```php
+mixed AdminModulesControllerCore::ajaxProcessSaveFavoritePreferences()
+```
 
 
 
@@ -370,7 +416,9 @@ Load cache file
 
 ### <a name="method-ajaxProcessSaveTabModulePreferences"></a>ajaxProcessSaveTabModulePreferences
 
-    mixed AdminModulesControllerCore::ajaxProcessSaveTabModulePreferences()
+```php
+mixed AdminModulesControllerCore::ajaxProcessSaveTabModulePreferences()
+```
 
 
 
@@ -384,7 +432,9 @@ Load cache file
 
 ### <a name="method-ajaxProcessSetFilter"></a>ajaxProcessSetFilter
 
-    mixed AdminModulesControllerCore::ajaxProcessSetFilter()
+```php
+mixed AdminModulesControllerCore::ajaxProcessSetFilter()
+```
 
 
 
@@ -398,7 +448,9 @@ Load cache file
 
 ### <a name="method-checkCategoriesNames"></a>checkCategoriesNames
 
-    mixed AdminModulesControllerCore::checkCategoriesNames($a, $b)
+```php
+mixed AdminModulesControllerCore::checkCategoriesNames($a, $b)
+```
 
 
 
@@ -416,7 +468,9 @@ Load cache file
 
 ### <a name="method-displayAjaxRefreshModuleList"></a>displayAjaxRefreshModuleList
 
-    mixed AdminModulesControllerCore::displayAjaxRefreshModuleList()
+```php
+mixed AdminModulesControllerCore::displayAjaxRefreshModuleList()
+```
 
 
 
@@ -430,7 +484,9 @@ Load cache file
 
 ### <a name="method-extractArchive"></a>extractArchive
 
-    mixed AdminModulesControllerCore::extractArchive($file, $redirect)
+```php
+mixed AdminModulesControllerCore::extractArchive($file, $redirect)
+```
 
 
 
@@ -448,7 +504,9 @@ Load cache file
 
 ### <a name="method-generateHtmlMessage"></a>generateHtmlMessage
 
-    string AdminModulesControllerCore::generateHtmlMessage($module_errors)
+```php
+string AdminModulesControllerCore::generateHtmlMessage($module_errors)
+```
 
 Generate html errors for a module process
 
@@ -465,7 +523,9 @@ Generate html errors for a module process
 
 ### <a name="method-getCurrentUrl"></a>getCurrentUrl
 
-    mixed AdminModulesControllerCore::getCurrentUrl($remove)
+```php
+mixed AdminModulesControllerCore::getCurrentUrl($remove)
+```
 
 
 
@@ -482,7 +542,9 @@ Generate html errors for a module process
 
 ### <a name="method-getModulesByInstallation"></a>getModulesByInstallation
 
-    mixed AdminModulesControllerCore::getModulesByInstallation($tab_modules_list)
+```php
+mixed AdminModulesControllerCore::getModulesByInstallation($tab_modules_list)
+```
 
 
 
@@ -499,7 +561,9 @@ Generate html errors for a module process
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminModulesControllerCore::initContent()
+```php
+mixed AdminModulesControllerCore::initContent()
+```
 
 
 
@@ -513,7 +577,9 @@ Generate html errors for a module process
 
 ### <a name="method-initModal"></a>initModal
 
-    mixed AdminModulesControllerCore::initModal()
+```php
+mixed AdminModulesControllerCore::initModal()
+```
 
 
 
@@ -527,7 +593,9 @@ Generate html errors for a module process
 
 ### <a name="method-initModulesList"></a>initModulesList
 
-    mixed AdminModulesControllerCore::initModulesList($modules)
+```php
+mixed AdminModulesControllerCore::initModulesList($modules)
+```
 
 
 
@@ -544,7 +612,9 @@ Generate html errors for a module process
 
 ### <a name="method-isModuleFiltered"></a>isModuleFiltered
 
-    mixed AdminModulesControllerCore::isModuleFiltered($module)
+```php
+mixed AdminModulesControllerCore::isModuleFiltered($module)
+```
 
 
 
@@ -561,7 +631,9 @@ Generate html errors for a module process
 
 ### <a name="method-makeModulesStats"></a>makeModulesStats
 
-    mixed AdminModulesControllerCore::makeModulesStats($module)
+```php
+mixed AdminModulesControllerCore::makeModulesStats($module)
+```
 
 
 
@@ -578,7 +650,9 @@ Generate html errors for a module process
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminModulesControllerCore::postProcess()
+```php
+mixed AdminModulesControllerCore::postProcess()
+```
 
 
 
@@ -592,7 +666,9 @@ Generate html errors for a module process
 
 ### <a name="method-postProcessCallback"></a>postProcessCallback
 
-    mixed AdminModulesControllerCore::postProcessCallback()
+```php
+mixed AdminModulesControllerCore::postProcessCallback()
+```
 
 
 
@@ -606,7 +682,9 @@ Generate html errors for a module process
 
 ### <a name="method-postProcessDelete"></a>postProcessDelete
 
-    mixed AdminModulesControllerCore::postProcessDelete()
+```php
+mixed AdminModulesControllerCore::postProcessDelete()
+```
 
 
 
@@ -620,7 +698,9 @@ Generate html errors for a module process
 
 ### <a name="method-postProcessDisable_Device"></a>postProcessDisable_Device
 
-    mixed AdminModulesControllerCore::postProcessDisable_Device()
+```php
+mixed AdminModulesControllerCore::postProcessDisable_Device()
+```
 
 
 
@@ -634,7 +714,9 @@ Generate html errors for a module process
 
 ### <a name="method-postProcessDownload"></a>postProcessDownload
 
-    mixed AdminModulesControllerCore::postProcessDownload()
+```php
+mixed AdminModulesControllerCore::postProcessDownload()
+```
 
 
 
@@ -648,7 +730,9 @@ Generate html errors for a module process
 
 ### <a name="method-postProcessEnable"></a>postProcessEnable
 
-    mixed AdminModulesControllerCore::postProcessEnable()
+```php
+mixed AdminModulesControllerCore::postProcessEnable()
+```
 
 
 
@@ -662,7 +746,9 @@ Generate html errors for a module process
 
 ### <a name="method-postProcessEnable_Device"></a>postProcessEnable_Device
 
-    mixed AdminModulesControllerCore::postProcessEnable_Device()
+```php
+mixed AdminModulesControllerCore::postProcessEnable_Device()
+```
 
 
 
@@ -676,7 +762,9 @@ Generate html errors for a module process
 
 ### <a name="method-postProcessFilterCategory"></a>postProcessFilterCategory
 
-    mixed AdminModulesControllerCore::postProcessFilterCategory()
+```php
+mixed AdminModulesControllerCore::postProcessFilterCategory()
+```
 
 
 
@@ -690,7 +778,9 @@ Generate html errors for a module process
 
 ### <a name="method-postProcessFilterModules"></a>postProcessFilterModules
 
-    mixed AdminModulesControllerCore::postProcessFilterModules()
+```php
+mixed AdminModulesControllerCore::postProcessFilterModules()
+```
 
 
 
@@ -704,7 +794,9 @@ Generate html errors for a module process
 
 ### <a name="method-postProcessReset"></a>postProcessReset
 
-    mixed AdminModulesControllerCore::postProcessReset()
+```php
+mixed AdminModulesControllerCore::postProcessReset()
+```
 
 
 
@@ -718,7 +810,9 @@ Generate html errors for a module process
 
 ### <a name="method-postProcessResetFilterModules"></a>postProcessResetFilterModules
 
-    mixed AdminModulesControllerCore::postProcessResetFilterModules()
+```php
+mixed AdminModulesControllerCore::postProcessResetFilterModules()
+```
 
 
 
@@ -732,7 +826,9 @@ Generate html errors for a module process
 
 ### <a name="method-postProcessUnfilterCategory"></a>postProcessUnfilterCategory
 
-    mixed AdminModulesControllerCore::postProcessUnfilterCategory()
+```php
+mixed AdminModulesControllerCore::postProcessUnfilterCategory()
+```
 
 
 
@@ -746,7 +842,9 @@ Generate html errors for a module process
 
 ### <a name="method-recursiveDeleteOnDisk"></a>recursiveDeleteOnDisk
 
-    mixed AdminModulesControllerCore::recursiveDeleteOnDisk($dir)
+```php
+mixed AdminModulesControllerCore::recursiveDeleteOnDisk($dir)
+```
 
 
 
@@ -763,7 +861,9 @@ Generate html errors for a module process
 
 ### <a name="method-renderKpis"></a>renderKpis
 
-    mixed AdminModulesControllerCore::renderKpis()
+```php
+mixed AdminModulesControllerCore::renderKpis()
+```
 
 
 
@@ -777,7 +877,9 @@ Generate html errors for a module process
 
 ### <a name="method-resetFilterModules"></a>resetFilterModules
 
-    mixed AdminModulesControllerCore::resetFilterModules()
+```php
+mixed AdminModulesControllerCore::resetFilterModules()
+```
 
 
 
@@ -791,7 +893,9 @@ Generate html errors for a module process
 
 ### <a name="method-setFilterModules"></a>setFilterModules
 
-    mixed AdminModulesControllerCore::setFilterModules($module_type, $country_module_value, $module_install, $module_status)
+```php
+mixed AdminModulesControllerCore::setFilterModules($module_type, $country_module_value, $module_install, $module_status)
+```
 
 
 
@@ -811,7 +915,9 @@ Generate html errors for a module process
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminModulesControllerCore::setMedia()
+```php
+mixed AdminModulesControllerCore::setMedia()
+```
 
 
 

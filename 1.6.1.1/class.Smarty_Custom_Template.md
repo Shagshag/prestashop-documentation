@@ -10,14 +10,16 @@ Class Smarty_Custom_Template
 * Source: [classes/SmartyCustom.php line 300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#L300)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$smarty](#property-$smarty)
 
-Methods
--------
+### Methods
+
 * [fetch](#method-fetch)
 
 
@@ -29,7 +31,9 @@ Properties
 
 ### <a name="property-$smarty"></a>$smarty
 
-    public \SmartyCustom $smarty = null
+```php
+public \SmartyCustom $smarty = null
+```
 
 
 
@@ -45,7 +49,9 @@ Methods
 
 ### <a name="method-fetch"></a>fetch
 
-    mixed Smarty_Custom_Template::fetch($template, $cache_id, $compile_id, $parent, $display, $merge_tpl_vars, $no_output_filter)
+```php
+mixed Smarty_Custom_Template::fetch($template, $cache_id, $compile_id, $parent, $display, $merge_tpl_vars, $no_output_filter)
+```
 
 
 

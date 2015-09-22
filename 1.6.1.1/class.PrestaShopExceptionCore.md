@@ -10,11 +10,13 @@ Class PrestaShopExceptionCore
 * Source: [classes/exception/PrestaShopException.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#L30)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [displayArgsDebug](#method-displayArgsDebug)
 * [displayFileDebug](#method-displayFileDebug)
 * [displayMessage](#method-displayMessage)
@@ -33,7 +35,9 @@ Methods
 
 ### <a name="method-displayArgsDebug"></a>displayArgsDebug
 
-    mixed PrestaShopExceptionCore::displayArgsDebug(array $args, string $id)
+```php
+mixed PrestaShopExceptionCore::displayArgsDebug(array $args, string $id)
+```
 
 Display arguments list of traced function
 
@@ -51,7 +55,9 @@ Display arguments list of traced function
 
 ### <a name="method-displayFileDebug"></a>displayFileDebug
 
-    mixed PrestaShopExceptionCore::displayFileDebug(string $file, integer $line, string $id)
+```php
+mixed PrestaShopExceptionCore::displayFileDebug(string $file, integer $line, string $id)
+```
 
 Display lines around current line
 
@@ -70,7 +76,9 @@ Display lines around current line
 
 ### <a name="method-displayMessage"></a>displayMessage
 
-    mixed PrestaShopExceptionCore::displayMessage()
+```php
+mixed PrestaShopExceptionCore::displayMessage()
+```
 
 This method acts like an error handler, if dev mode is on, display the error else use a better silent way
 
@@ -84,7 +92,9 @@ This method acts like an error handler, if dev mode is on, display the error els
 
 ### <a name="method-getExentedMessage"></a>getExentedMessage
 
-    mixed PrestaShopExceptionCore::getExentedMessage($html)
+```php
+mixed PrestaShopExceptionCore::getExentedMessage($html)
+```
 
 
 
@@ -101,7 +111,9 @@ This method acts like an error handler, if dev mode is on, display the error els
 
 ### <a name="method-getExtendedMessage"></a>getExtendedMessage
 
-    string PrestaShopExceptionCore::getExtendedMessage($html)
+```php
+string PrestaShopExceptionCore::getExtendedMessage($html)
+```
 
 Return the content of the Exception
 
@@ -118,7 +130,9 @@ Return the content of the Exception
 
 ### <a name="method-logError"></a>logError
 
-    mixed PrestaShopExceptionCore::logError()
+```php
+mixed PrestaShopExceptionCore::logError()
+```
 
 Log the error on the disk
 

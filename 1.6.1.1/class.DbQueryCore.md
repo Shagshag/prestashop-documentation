@@ -9,14 +9,16 @@ SQL query builder
 * Source: [classes/db/DbQuery.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#L32)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$query](#property-$query)
 
-Methods
--------
+### Methods
+
 * [__toString](#method-__toString)
 * [build](#method-build)
 * [from](#method-from)
@@ -43,7 +45,9 @@ Properties
 
 ### <a name="property-$query"></a>$query
 
-    protected array $query = array('type' => 'SELECT', 'select' => array(), 'from' => '', 'join' => array(), 'where' => array(), 'group' => array(), 'having' => array(), 'order' => array(), 'limit' => array('offset' => 0, 'limit' => 0))
+```php
+protected array $query = array('type' => 'SELECT', 'select' => array(), 'from' => '', 'join' => array(), 'where' => array(), 'group' => array(), 'having' => array(), 'order' => array(), 'limit' => array('offset' => 0, 'limit' => 0))
+```
 
 List of data to build the query
 
@@ -59,7 +63,9 @@ Methods
 
 ### <a name="method-__toString"></a>__toString
 
-    string DbQueryCore::__toString()
+```php
+string DbQueryCore::__toString()
+```
 
 Converts object to string
 
@@ -73,7 +79,9 @@ Converts object to string
 
 ### <a name="method-build"></a>build
 
-    string DbQueryCore::build()
+```php
+string DbQueryCore::build()
+```
 
 Generates query and return SQL string
 
@@ -87,7 +95,9 @@ Generates query and return SQL string
 
 ### <a name="method-from"></a>from
 
-    \DbQuery DbQueryCore::from(string $table, string|null $alias)
+```php
+\DbQuery DbQueryCore::from(string $table, string|null $alias)
+```
 
 Sets table for FROM clause
 
@@ -105,7 +115,9 @@ Sets table for FROM clause
 
 ### <a name="method-groupBy"></a>groupBy
 
-    \DbQuery DbQueryCore::groupBy(string $fields)
+```php
+\DbQuery DbQueryCore::groupBy(string $fields)
+```
 
 Adds a GROUP BY restriction
 
@@ -122,7 +134,9 @@ Adds a GROUP BY restriction
 
 ### <a name="method-having"></a>having
 
-    \DbQuery DbQueryCore::having(string $restriction)
+```php
+\DbQuery DbQueryCore::having(string $restriction)
+```
 
 Adds a restriction in HAVING clause (each restriction will be separated by AND statement)
 
@@ -139,7 +153,9 @@ Adds a restriction in HAVING clause (each restriction will be separated by AND s
 
 ### <a name="method-innerJoin"></a>innerJoin
 
-    \DbQuery DbQueryCore::innerJoin(string $table, string|null $alias, string|null $on)
+```php
+\DbQuery DbQueryCore::innerJoin(string $table, string|null $alias, string|null $on)
+```
 
 Adds an INNER JOIN clause
 E.g. $this->innerJoin('product p ON .
@@ -159,7 +175,9 @@ E.g. $this->innerJoin('product p ON .
 
 ### <a name="method-join"></a>join
 
-    \DbQuery DbQueryCore::join(string $join)
+```php
+\DbQuery DbQueryCore::join(string $join)
+```
 
 Adds JOIN clause
 E.g. $this->join('RIGHT JOIN '._DB_PREFIX_.'product p ON .
@@ -177,7 +195,9 @@ E.g. $this->join('RIGHT JOIN '._DB_PREFIX_.'product p ON .
 
 ### <a name="method-leftJoin"></a>leftJoin
 
-    \DbQuery DbQueryCore::leftJoin(string $table, string|null $alias, string|null $on)
+```php
+\DbQuery DbQueryCore::leftJoin(string $table, string|null $alias, string|null $on)
+```
 
 Adds a LEFT JOIN clause
 
@@ -196,7 +216,9 @@ Adds a LEFT JOIN clause
 
 ### <a name="method-leftOuterJoin"></a>leftOuterJoin
 
-    \DbQuery DbQueryCore::leftOuterJoin(string $table, string|null $alias, string|null $on)
+```php
+\DbQuery DbQueryCore::leftOuterJoin(string $table, string|null $alias, string|null $on)
+```
 
 Adds a LEFT OUTER JOIN clause
 
@@ -215,7 +237,9 @@ Adds a LEFT OUTER JOIN clause
 
 ### <a name="method-limit"></a>limit
 
-    \DbQuery DbQueryCore::limit(integer $limit, integer $offset)
+```php
+\DbQuery DbQueryCore::limit(integer $limit, integer $offset)
+```
 
 Sets query offset and limit
 
@@ -233,7 +257,9 @@ Sets query offset and limit
 
 ### <a name="method-naturalJoin"></a>naturalJoin
 
-    \DbQuery DbQueryCore::naturalJoin(string $table, string|null $alias)
+```php
+\DbQuery DbQueryCore::naturalJoin(string $table, string|null $alias)
+```
 
 Adds a NATURAL JOIN clause
 
@@ -251,7 +277,9 @@ Adds a NATURAL JOIN clause
 
 ### <a name="method-orderBy"></a>orderBy
 
-    \DbQuery DbQueryCore::orderBy(string $fields)
+```php
+\DbQuery DbQueryCore::orderBy(string $fields)
+```
 
 Adds an ORDER BY restriction
 
@@ -268,7 +296,9 @@ Adds an ORDER BY restriction
 
 ### <a name="method-rightJoin"></a>rightJoin
 
-    \DbQuery DbQueryCore::rightJoin(string $table, string|null $alias, string|null $on)
+```php
+\DbQuery DbQueryCore::rightJoin(string $table, string|null $alias, string|null $on)
+```
 
 Adds a RIGHT JOIN clause
 
@@ -287,7 +317,9 @@ Adds a RIGHT JOIN clause
 
 ### <a name="method-select"></a>select
 
-    \DbQuery DbQueryCore::select(string $fields)
+```php
+\DbQuery DbQueryCore::select(string $fields)
+```
 
 Adds fields to SELECT clause
 
@@ -304,7 +336,9 @@ Adds fields to SELECT clause
 
 ### <a name="method-type"></a>type
 
-    \DbQuery DbQueryCore::type(string $type)
+```php
+\DbQuery DbQueryCore::type(string $type)
+```
 
 Sets type of the query
 
@@ -321,7 +355,9 @@ Sets type of the query
 
 ### <a name="method-where"></a>where
 
-    \DbQuery DbQueryCore::where(string $restriction)
+```php
+\DbQuery DbQueryCore::where(string $restriction)
+```
 
 Adds a restriction in WHERE clause (each restriction will be separated by AND statement)
 

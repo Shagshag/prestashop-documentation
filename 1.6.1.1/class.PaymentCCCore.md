@@ -11,9 +11,11 @@ Class PaymentCCCore
 * Source: [classes/PaymentCC.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#L33)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$amount](#property-$amount)
 * [$card_brand](#property-$card_brand)
@@ -29,8 +31,8 @@ Properties
 * [$id_order](#property-$id_order)
 * [$transaction_id](#property-$transaction_id)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [getByOrderId](#method-getByOrderId)
 
@@ -43,7 +45,9 @@ Properties
 
 ### <a name="property-$amount"></a>$amount
 
-    public mixed $amount
+```php
+public mixed $amount
+```
 
 
 
@@ -56,7 +60,9 @@ Properties
 
 ### <a name="property-$card_brand"></a>$card_brand
 
-    public mixed $card_brand
+```php
+public mixed $card_brand
+```
 
 
 
@@ -69,7 +75,9 @@ Properties
 
 ### <a name="property-$card_expiration"></a>$card_expiration
 
-    public mixed $card_expiration
+```php
+public mixed $card_expiration
+```
 
 
 
@@ -82,7 +90,9 @@ Properties
 
 ### <a name="property-$card_holder"></a>$card_holder
 
-    public mixed $card_holder
+```php
+public mixed $card_holder
+```
 
 
 
@@ -95,7 +105,9 @@ Properties
 
 ### <a name="property-$card_number"></a>$card_number
 
-    public mixed $card_number
+```php
+public mixed $card_number
+```
 
 
 
@@ -108,7 +120,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public mixed $date_add
+```php
+public mixed $date_add
+```
 
 
 
@@ -121,7 +135,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'payment_cc', 'primary' => 'id_payment_cc')
+```php
+public mixed $definition = array('table' => 'payment_cc', 'primary' => 'id_payment_cc')
+```
 
 
 
@@ -135,7 +151,9 @@ Properties
 
 ### <a name="property-$fieldsRequired"></a>$fieldsRequired
 
-    protected mixed $fieldsRequired = array('id_currency', 'amount')
+```php
+protected mixed $fieldsRequired = array('id_currency', 'amount')
+```
 
 
 
@@ -148,7 +166,9 @@ Properties
 
 ### <a name="property-$fieldsSize"></a>$fieldsSize
 
-    protected mixed $fieldsSize = array('transaction_id' => 254, 'card_number' => 254, 'card_brand' => 254, 'card_expiration' => 254, 'card_holder' => 254)
+```php
+protected mixed $fieldsSize = array('transaction_id' => 254, 'card_number' => 254, 'card_brand' => 254, 'card_expiration' => 254, 'card_holder' => 254)
+```
 
 
 
@@ -161,7 +181,9 @@ Properties
 
 ### <a name="property-$fieldsValidate"></a>$fieldsValidate
 
-    protected mixed $fieldsValidate = array('id_order' => 'isUnsignedId', 'id_currency' => 'isUnsignedId', 'amount' => 'isPrice', 'transaction_id' => 'isAnything', 'card_number' => 'isAnything', 'card_brand' => 'isAnything', 'card_expiration' => 'isAnything', 'card_holder' => 'isAnything')
+```php
+protected mixed $fieldsValidate = array('id_order' => 'isUnsignedId', 'id_currency' => 'isUnsignedId', 'amount' => 'isPrice', 'transaction_id' => 'isAnything', 'card_number' => 'isAnything', 'card_brand' => 'isAnything', 'card_expiration' => 'isAnything', 'card_holder' => 'isAnything')
+```
 
 
 
@@ -174,7 +196,9 @@ Properties
 
 ### <a name="property-$id_currency"></a>$id_currency
 
-    public mixed $id_currency
+```php
+public mixed $id_currency
+```
 
 
 
@@ -187,7 +211,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public mixed $id_order
+```php
+public mixed $id_order
+```
 
 
 
@@ -200,7 +226,9 @@ Properties
 
 ### <a name="property-$transaction_id"></a>$transaction_id
 
-    public mixed $transaction_id
+```php
+public mixed $transaction_id
+```
 
 
 
@@ -217,7 +245,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed PaymentCCCore::add($autodate, $nullValues)
+```php
+mixed PaymentCCCore::add($autodate, $nullValues)
+```
 
 
 
@@ -236,7 +266,9 @@ Methods
 
 ### <a name="method-getByOrderId"></a>getByOrderId
 
-    array PaymentCCCore::getByOrderId(integer $id_order)
+```php
+array PaymentCCCore::getByOrderId(integer $id_order)
+```
 
 Get the detailed payment of an order
 

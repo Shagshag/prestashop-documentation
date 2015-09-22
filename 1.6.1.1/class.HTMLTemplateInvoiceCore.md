@@ -10,16 +10,18 @@ Class HTMLTemplateInvoiceCore
 * Source: [classes/pdf/HTMLTemplateInvoice.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$available_in_your_account](#property-$available_in_your_account)
 * [$order](#property-$order)
 * [$order_invoice](#property-$order_invoice)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [computeLayout](#method-computeLayout)
 * [getBulkFilename](#method-getBulkFilename)
@@ -39,7 +41,9 @@ Properties
 
 ### <a name="property-$available_in_your_account"></a>$available_in_your_account
 
-    public mixed $available_in_your_account = false
+```php
+public mixed $available_in_your_account = false
+```
 
 
 
@@ -51,7 +55,9 @@ Properties
 
 ### <a name="property-$order"></a>$order
 
-    public mixed $order
+```php
+public mixed $order
+```
 
 
 
@@ -63,7 +69,9 @@ Properties
 
 ### <a name="property-$order_invoice"></a>$order_invoice
 
-    public mixed $order_invoice
+```php
+public mixed $order_invoice
+```
 
 
 
@@ -79,7 +87,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed HTMLTemplateInvoiceCore::__construct(\OrderInvoice $order_invoice, $smarty, $bulk_mode)
+```php
+mixed HTMLTemplateInvoiceCore::__construct(\OrderInvoice $order_invoice, $smarty, $bulk_mode)
+```
 
 
 
@@ -98,7 +108,9 @@ Methods
 
 ### <a name="method-computeLayout"></a>computeLayout
 
-    Array HTMLTemplateInvoiceCore::computeLayout($params)
+```php
+Array HTMLTemplateInvoiceCore::computeLayout($params)
+```
 
 Compute layout elements size
 
@@ -115,7 +127,9 @@ Compute layout elements size
 
 ### <a name="method-getBulkFilename"></a>getBulkFilename
 
-    string HTMLTemplateInvoiceCore::getBulkFilename()
+```php
+string HTMLTemplateInvoiceCore::getBulkFilename()
+```
 
 Returns the template filename when using bulk rendering
 
@@ -129,7 +143,9 @@ Returns the template filename when using bulk rendering
 
 ### <a name="method-getContent"></a>getContent
 
-    string HTMLTemplateInvoiceCore::getContent()
+```php
+string HTMLTemplateInvoiceCore::getContent()
+```
 
 Returns the template's HTML content
 
@@ -143,7 +159,9 @@ Returns the template's HTML content
 
 ### <a name="method-getFilename"></a>getFilename
 
-    string HTMLTemplateInvoiceCore::getFilename()
+```php
+string HTMLTemplateInvoiceCore::getFilename()
+```
 
 Returns the template filename
 
@@ -157,7 +175,9 @@ Returns the template filename
 
 ### <a name="method-getHeader"></a>getHeader
 
-    string HTMLTemplateInvoiceCore::getHeader()
+```php
+string HTMLTemplateInvoiceCore::getHeader()
+```
 
 Returns the template's HTML header
 
@@ -171,7 +191,9 @@ Returns the template's HTML header
 
 ### <a name="method-getTaxBreakdown"></a>getTaxBreakdown
 
-    Array HTMLTemplateInvoiceCore::getTaxBreakdown()
+```php
+Array HTMLTemplateInvoiceCore::getTaxBreakdown()
+```
 
 Returns different tax breakdown elements
 
@@ -185,7 +207,9 @@ Returns different tax breakdown elements
 
 ### <a name="method-getTaxTabContent"></a>getTaxTabContent
 
-    String HTMLTemplateInvoiceCore::getTaxTabContent()
+```php
+String HTMLTemplateInvoiceCore::getTaxTabContent()
+```
 
 Returns the tax tab content
 
@@ -199,7 +223,9 @@ Returns the tax tab content
 
 ### <a name="method-getTemplateByCountry"></a>getTemplateByCountry
 
-    mixed HTMLTemplateInvoiceCore::getTemplateByCountry(string $iso_country)
+```php
+mixed HTMLTemplateInvoiceCore::getTemplateByCountry(string $iso_country)
+```
 
 Returns the invoice template associated to the country iso_code
 

@@ -10,15 +10,17 @@ Class AdminTagsControllerCore
 * Source: [controllers/admin/AdminTagsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$bootstrap](#property-$bootstrap)
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
 * [postProcess](#method-postProcess)
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$bootstrap"></a>$bootstrap
 
-    public mixed $bootstrap = true
+```php
+public mixed $bootstrap = true
+```
 
 
 
@@ -46,7 +50,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Tag $object
+```php
+public \Tag $object
+```
 
 
 
@@ -62,7 +68,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminTagsControllerCore::__construct()
+```php
+mixed AdminTagsControllerCore::__construct()
+```
 
 
 
@@ -76,7 +84,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminTagsControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminTagsControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -90,7 +100,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminTagsControllerCore::postProcess()
+```php
+mixed AdminTagsControllerCore::postProcess()
+```
 
 
 
@@ -104,7 +116,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminTagsControllerCore::renderForm()
+```php
+mixed AdminTagsControllerCore::renderForm()
+```
 
 
 
@@ -118,7 +132,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminTagsControllerCore::renderList()
+```php
+mixed AdminTagsControllerCore::renderList()
+```
 
 
 

@@ -10,14 +10,16 @@ Class AdminReturnControllerCore
 * Source: [controllers/admin/AdminReturnController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReturnController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initToolbar](#method-initToolbar)
 * [postProcess](#method-postProcess)
@@ -32,7 +34,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \OrderReturn $object
+```php
+public \OrderReturn $object
+```
 
 
 
@@ -48,7 +52,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminReturnControllerCore::__construct()
+```php
+mixed AdminReturnControllerCore::__construct()
+```
 
 
 
@@ -62,7 +68,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminReturnControllerCore::initToolbar()
+```php
+mixed AdminReturnControllerCore::initToolbar()
+```
 
 
 
@@ -76,7 +84,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminReturnControllerCore::postProcess()
+```php
+mixed AdminReturnControllerCore::postProcess()
+```
 
 
 
@@ -90,7 +100,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminReturnControllerCore::renderForm()
+```php
+mixed AdminReturnControllerCore::renderForm()
+```
 
 
 

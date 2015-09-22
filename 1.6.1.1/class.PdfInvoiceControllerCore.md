@@ -10,9 +10,11 @@ Class PdfInvoiceControllerCore
 * Source: [controllers/front/PdfInvoiceController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$content_only](#property-$content_only)
 * [$display_footer](#property-$display_footer)
@@ -21,8 +23,8 @@ Properties
 * [$php_self](#property-$php_self)
 * [$template](#property-$template)
 
-Methods
--------
+### Methods
+
 * [display](#method-display)
 * [postProcess](#method-postProcess)
 
@@ -35,7 +37,9 @@ Properties
 
 ### <a name="property-$content_only"></a>$content_only
 
-    public mixed $content_only = true
+```php
+public mixed $content_only = true
+```
 
 
 
@@ -47,7 +51,9 @@ Properties
 
 ### <a name="property-$display_footer"></a>$display_footer
 
-    protected mixed $display_footer = false
+```php
+protected mixed $display_footer = false
+```
 
 
 
@@ -59,7 +65,9 @@ Properties
 
 ### <a name="property-$display_header"></a>$display_header
 
-    protected mixed $display_header = false
+```php
+protected mixed $display_header = false
+```
 
 
 
@@ -71,7 +79,9 @@ Properties
 
 ### <a name="property-$filename"></a>$filename
 
-    public mixed $filename
+```php
+public mixed $filename
+```
 
 
 
@@ -83,7 +93,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'pdf-invoice'
+```php
+public mixed $php_self = 'pdf-invoice'
+```
 
 
 
@@ -95,7 +107,9 @@ Properties
 
 ### <a name="property-$template"></a>$template
 
-    protected mixed $template
+```php
+protected mixed $template
+```
 
 
 
@@ -111,7 +125,9 @@ Methods
 
 ### <a name="method-display"></a>display
 
-    mixed PdfInvoiceControllerCore::display()
+```php
+mixed PdfInvoiceControllerCore::display()
+```
 
 
 
@@ -125,7 +141,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed PdfInvoiceControllerCore::postProcess()
+```php
+mixed PdfInvoiceControllerCore::postProcess()
+```
 
 
 

@@ -9,8 +9,11 @@ Class ModuleCore
 * This is an **abstract** class
 * Source: [classes/module/Module.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [CACHE_FILE_ALL_COUNTRY_MODULES_LIST](#constant-CACHE_FILE_ALL_COUNTRY_MODULES_LIST)
 * [CACHE_FILE_CUSTOMER_MODULES_LIST](#constant-CACHE_FILE_CUSTOMER_MODULES_LIST)
@@ -21,8 +24,7 @@ Constants
 * [CACHE_FILE_TRUSTED_MODULES_LIST](#constant-CACHE_FILE_TRUSTED_MODULES_LIST)
 * [CACHE_FILE_UNTRUSTED_MODULES_LIST](#constant-CACHE_FILE_UNTRUSTED_MODULES_LIST)
 
-Properties
-----------
+### Properties
 
 * [$_INSTANCE](#property-$_INSTANCE)
 * [$_batch_mode](#property-$_batch_mode)
@@ -76,8 +78,8 @@ Properties
 * [$version](#property-$version)
 * [$warning](#property-$warning)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_clearCache](#method-_clearCache)
 * [_deferedClearCache](#method-_deferedClearCache)
@@ -178,7 +180,9 @@ Constants
 
 ### <a name="constant-CACHE_FILE_ALL_COUNTRY_MODULES_LIST"></a>CACHE_FILE_ALL_COUNTRY_MODULES_LIST
 
-    const CACHE_FILE_ALL_COUNTRY_MODULES_LIST = '/config/xml/modules_native_addons.xml'
+```php
+const CACHE_FILE_ALL_COUNTRY_MODULES_LIST = '/config/xml/modules_native_addons.xml'
+```
 
 
 
@@ -189,7 +193,9 @@ Constants
 
 ### <a name="constant-CACHE_FILE_CUSTOMER_MODULES_LIST"></a>CACHE_FILE_CUSTOMER_MODULES_LIST
 
-    const CACHE_FILE_CUSTOMER_MODULES_LIST = '/config/xml/customer_modules_list.xml'
+```php
+const CACHE_FILE_CUSTOMER_MODULES_LIST = '/config/xml/customer_modules_list.xml'
+```
 
 
 
@@ -200,7 +206,9 @@ Constants
 
 ### <a name="constant-CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST"></a>CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST
 
-    const CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST = '/config/xml/default_country_modules_list.xml'
+```php
+const CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST = '/config/xml/default_country_modules_list.xml'
+```
 
 
 
@@ -211,7 +219,9 @@ Constants
 
 ### <a name="constant-CACHE_FILE_MODULES_LIST"></a>CACHE_FILE_MODULES_LIST
 
-    const CACHE_FILE_MODULES_LIST = '/config/xml/modules_list.xml'
+```php
+const CACHE_FILE_MODULES_LIST = '/config/xml/modules_list.xml'
+```
 
 
 
@@ -222,7 +232,9 @@ Constants
 
 ### <a name="constant-CACHE_FILE_MUST_HAVE_MODULES_LIST"></a>CACHE_FILE_MUST_HAVE_MODULES_LIST
 
-    const CACHE_FILE_MUST_HAVE_MODULES_LIST = '/config/xml/must_have_modules_list.xml'
+```php
+const CACHE_FILE_MUST_HAVE_MODULES_LIST = '/config/xml/must_have_modules_list.xml'
+```
 
 
 
@@ -233,7 +245,9 @@ Constants
 
 ### <a name="constant-CACHE_FILE_TAB_MODULES_LIST"></a>CACHE_FILE_TAB_MODULES_LIST
 
-    const CACHE_FILE_TAB_MODULES_LIST = '/config/xml/tab_modules_list.xml'
+```php
+const CACHE_FILE_TAB_MODULES_LIST = '/config/xml/tab_modules_list.xml'
+```
 
 
 
@@ -244,7 +258,9 @@ Constants
 
 ### <a name="constant-CACHE_FILE_TRUSTED_MODULES_LIST"></a>CACHE_FILE_TRUSTED_MODULES_LIST
 
-    const CACHE_FILE_TRUSTED_MODULES_LIST = '/config/xml/trusted_modules_list.xml'
+```php
+const CACHE_FILE_TRUSTED_MODULES_LIST = '/config/xml/trusted_modules_list.xml'
+```
 
 
 
@@ -255,7 +271,9 @@ Constants
 
 ### <a name="constant-CACHE_FILE_UNTRUSTED_MODULES_LIST"></a>CACHE_FILE_UNTRUSTED_MODULES_LIST
 
-    const CACHE_FILE_UNTRUSTED_MODULES_LIST = '/config/xml/untrusted_modules_list.xml'
+```php
+const CACHE_FILE_UNTRUSTED_MODULES_LIST = '/config/xml/untrusted_modules_list.xml'
+```
 
 
 
@@ -270,7 +288,9 @@ Properties
 
 ### <a name="property-$_INSTANCE"></a>$_INSTANCE
 
-    protected array $_INSTANCE = array()
+```php
+protected array $_INSTANCE = array()
+```
 
 
 
@@ -283,7 +303,9 @@ Properties
 
 ### <a name="property-$_batch_mode"></a>$_batch_mode
 
-    protected mixed $_batch_mode = false
+```php
+protected mixed $_batch_mode = false
+```
 
 
 
@@ -296,7 +318,9 @@ Properties
 
 ### <a name="property-$_confirmations"></a>$_confirmations
 
-    protected array $_confirmations = array()
+```php
+protected array $_confirmations = array()
+```
 
 
 
@@ -308,7 +332,9 @@ Properties
 
 ### <a name="property-$_defered_clearCache"></a>$_defered_clearCache
 
-    protected mixed $_defered_clearCache = array()
+```php
+protected mixed $_defered_clearCache = array()
+```
 
 
 
@@ -321,7 +347,9 @@ Properties
 
 ### <a name="property-$_defered_func_call"></a>$_defered_func_call
 
-    protected mixed $_defered_func_call = array()
+```php
+protected mixed $_defered_func_call = array()
+```
 
 
 
@@ -334,7 +362,9 @@ Properties
 
 ### <a name="property-$_errors"></a>$_errors
 
-    protected array $_errors = array()
+```php
+protected array $_errors = array()
+```
 
 
 
@@ -346,7 +376,9 @@ Properties
 
 ### <a name="property-$_generate_config_xml_mode"></a>$_generate_config_xml_mode
 
-    protected boolean $_generate_config_xml_mode = false
+```php
+protected boolean $_generate_config_xml_mode = false
+```
 
 
 
@@ -359,7 +391,9 @@ Properties
 
 ### <a name="property-$_lang"></a>$_lang
 
-    protected array $_lang = array()
+```php
+protected array $_lang = array()
+```
 
 
 
@@ -371,7 +405,9 @@ Properties
 
 ### <a name="property-$_log_modules_perfs"></a>$_log_modules_perfs
 
-    public boolean $_log_modules_perfs = null
+```php
+public boolean $_log_modules_perfs = null
+```
 
 
 
@@ -384,7 +420,9 @@ Properties
 
 ### <a name="property-$_log_modules_perfs_session"></a>$_log_modules_perfs_session
 
-    public boolean $_log_modules_perfs_session = null
+```php
+public boolean $_log_modules_perfs_session = null
+```
 
 
 
@@ -397,7 +435,9 @@ Properties
 
 ### <a name="property-$_path"></a>$_path
 
-    protected string $_path = null
+```php
+protected string $_path = null
+```
 
 
 
@@ -409,7 +449,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = false
+```php
+public boolean $active = false
+```
 
 
 
@@ -421,7 +463,9 @@ Properties
 
 ### <a name="property-$additional_description"></a>$additional_description
 
-    public mixed $additional_description
+```php
+public mixed $additional_description
+```
 
 
 
@@ -433,7 +477,9 @@ Properties
 
 ### <a name="property-$allow_push"></a>$allow_push
 
-    public boolean $allow_push
+```php
+public boolean $allow_push
+```
 
 
 
@@ -445,7 +491,9 @@ Properties
 
 ### <a name="property-$author"></a>$author
 
-    public string $author
+```php
+public string $author
+```
 
 
 
@@ -457,7 +505,9 @@ Properties
 
 ### <a name="property-$author_uri"></a>$author_uri
 
-    public string $author_uri = ''
+```php
+public string $author_uri = ''
+```
 
 
 
@@ -469,7 +519,9 @@ Properties
 
 ### <a name="property-$avg_rate"></a>$avg_rate
 
-    public mixed $avg_rate
+```php
+public mixed $avg_rate
+```
 
 
 
@@ -481,7 +533,9 @@ Properties
 
 ### <a name="property-$badges"></a>$badges
 
-    public mixed $badges
+```php
+public mixed $badges
+```
 
 
 
@@ -493,7 +547,9 @@ Properties
 
 ### <a name="property-$cache_permissions"></a>$cache_permissions
 
-    protected array $cache_permissions = array()
+```php
+protected array $cache_permissions = array()
+```
 
 
 
@@ -506,7 +562,9 @@ Properties
 
 ### <a name="property-$classInModule"></a>$classInModule
 
-    public array $classInModule = array()
+```php
+public array $classInModule = array()
+```
 
 
 
@@ -519,7 +577,9 @@ Properties
 
 ### <a name="property-$compatibility"></a>$compatibility
 
-    public mixed $compatibility
+```php
+public mixed $compatibility
+```
 
 
 
@@ -531,7 +591,9 @@ Properties
 
 ### <a name="property-$context"></a>$context
 
-    protected \Context $context
+```php
+protected \Context $context
+```
 
 
 
@@ -543,7 +605,9 @@ Properties
 
 ### <a name="property-$controllers"></a>$controllers
 
-    public array $controllers = array()
+```php
+public array $controllers = array()
+```
 
 
 
@@ -555,7 +619,9 @@ Properties
 
 ### <a name="property-$current_subtemplate"></a>$current_subtemplate
 
-    protected \Smarty_Internal_Template $current_subtemplate = null
+```php
+protected \Smarty_Internal_Template $current_subtemplate = null
+```
 
 
 
@@ -567,7 +633,9 @@ Properties
 
 ### <a name="property-$database_version"></a>$database_version
 
-    public mixed $database_version
+```php
+public mixed $database_version
+```
 
 
 
@@ -579,7 +647,9 @@ Properties
 
 ### <a name="property-$dependencies"></a>$dependencies
 
-    public array $dependencies = array()
+```php
+public array $dependencies = array()
+```
 
 
 
@@ -591,7 +661,9 @@ Properties
 
 ### <a name="property-$description"></a>$description
 
-    public string $description
+```php
+public string $description
+```
 
 
 
@@ -603,7 +675,9 @@ Properties
 
 ### <a name="property-$description_full"></a>$description_full
 
-    public mixed $description_full
+```php
+public mixed $description_full
+```
 
 
 
@@ -615,7 +689,9 @@ Properties
 
 ### <a name="property-$displayName"></a>$displayName
 
-    public string $displayName
+```php
+public string $displayName
+```
 
 
 
@@ -627,7 +703,9 @@ Properties
 
 ### <a name="property-$enable_device"></a>$enable_device
 
-    public mixed $enable_device = 7
+```php
+public mixed $enable_device = 7
+```
 
 
 
@@ -639,7 +717,9 @@ Properties
 
 ### <a name="property-$hosted_modules_blacklist"></a>$hosted_modules_blacklist
 
-    public mixed $hosted_modules_blacklist = array('autoupgrade')
+```php
+public mixed $hosted_modules_blacklist = array('autoupgrade')
+```
 
 
 
@@ -652,7 +732,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public integer $id = null
+```php
+public integer $id = null
+```
 
 
 
@@ -664,7 +746,9 @@ Properties
 
 ### <a name="property-$identifier"></a>$identifier
 
-    protected string $identifier = 'id_module'
+```php
+protected string $identifier = 'id_module'
+```
 
 
 
@@ -676,7 +760,9 @@ Properties
 
 ### <a name="property-$l_cache"></a>$l_cache
 
-    protected array $l_cache = array()
+```php
+protected array $l_cache = array()
+```
 
 
 
@@ -689,7 +775,9 @@ Properties
 
 ### <a name="property-$limited_countries"></a>$limited_countries
 
-    public array $limited_countries = array()
+```php
+public array $limited_countries = array()
+```
 
 
 
@@ -701,7 +789,9 @@ Properties
 
 ### <a name="property-$local_path"></a>$local_path
 
-    protected string $local_path = null
+```php
+protected string $local_path = null
+```
 
 
 
@@ -713,7 +803,9 @@ Properties
 
 ### <a name="property-$module_key"></a>$module_key
 
-    public string $module_key = ''
+```php
+public string $module_key = ''
+```
 
 
 
@@ -725,7 +817,9 @@ Properties
 
 ### <a name="property-$modules_cache"></a>$modules_cache
 
-    protected array $modules_cache
+```php
+protected array $modules_cache
+```
 
 
 
@@ -738,7 +832,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -750,7 +846,9 @@ Properties
 
 ### <a name="property-$nb_rates"></a>$nb_rates
 
-    public mixed $nb_rates
+```php
+public mixed $nb_rates
+```
 
 
 
@@ -762,7 +860,9 @@ Properties
 
 ### <a name="property-$need_instance"></a>$need_instance
 
-    public integer $need_instance = 1
+```php
+public integer $need_instance = 1
+```
 
 
 
@@ -774,7 +874,9 @@ Properties
 
 ### <a name="property-$ps_versions_compliancy"></a>$ps_versions_compliancy
 
-    public array $ps_versions_compliancy = array()
+```php
+public array $ps_versions_compliancy = array()
+```
 
 
 
@@ -786,7 +888,9 @@ Properties
 
 ### <a name="property-$push_time_limit"></a>$push_time_limit
 
-    public mixed $push_time_limit = 180
+```php
+public mixed $push_time_limit = 180
+```
 
 
 
@@ -798,7 +902,9 @@ Properties
 
 ### <a name="property-$registered_version"></a>$registered_version
 
-    public string $registered_version
+```php
+public string $registered_version
+```
 
 
 
@@ -810,7 +916,9 @@ Properties
 
 ### <a name="property-$smarty"></a>$smarty
 
-    protected \Smarty_Data $smarty
+```php
+protected \Smarty_Data $smarty
+```
 
 
 
@@ -822,7 +930,9 @@ Properties
 
 ### <a name="property-$tab"></a>$tab
 
-    public string $tab = null
+```php
+public string $tab = null
+```
 
 
 
@@ -834,7 +944,9 @@ Properties
 
 ### <a name="property-$table"></a>$table
 
-    protected string $table = 'module'
+```php
+protected string $table = 'module'
+```
 
 
 
@@ -846,7 +958,9 @@ Properties
 
 ### <a name="property-$trusted"></a>$trusted
 
-    public boolean $trusted = false
+```php
+public boolean $trusted = false
+```
 
 
 
@@ -858,7 +972,9 @@ Properties
 
 ### <a name="property-$update_translations_after_install"></a>$update_translations_after_install
 
-    protected mixed $update_translations_after_install = true
+```php
+protected mixed $update_translations_after_install = true
+```
 
 
 
@@ -871,7 +987,9 @@ Properties
 
 ### <a name="property-$version"></a>$version
 
-    public float $version
+```php
+public float $version
+```
 
 
 
@@ -883,7 +1001,9 @@ Properties
 
 ### <a name="property-$warning"></a>$warning
 
-    public string $warning
+```php
+public string $warning
+```
 
 
 
@@ -899,7 +1019,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ModuleCore::__construct(string $name, \Context $context)
+```php
+mixed ModuleCore::__construct(string $name, \Context $context)
+```
 
 Constructor
 
@@ -917,7 +1039,9 @@ Constructor
 
 ### <a name="method-_clearCache"></a>_clearCache
 
-    mixed ModuleCore::_clearCache($template, $cache_id, $compile_id)
+```php
+mixed ModuleCore::_clearCache($template, $cache_id, $compile_id)
+```
 
 
 
@@ -936,7 +1060,9 @@ Constructor
 
 ### <a name="method-_deferedClearCache"></a>_deferedClearCache
 
-    mixed ModuleCore::_deferedClearCache($template_path, $cache_id, $compile_id)
+```php
+mixed ModuleCore::_deferedClearCache($template_path, $cache_id, $compile_id)
+```
 
 
 
@@ -956,7 +1082,9 @@ Constructor
 
 ### <a name="method-_generateConfigXml"></a>_generateConfigXml
 
-    mixed ModuleCore::_generateConfigXml()
+```php
+mixed ModuleCore::_generateConfigXml()
+```
 
 
 
@@ -970,7 +1098,9 @@ Constructor
 
 ### <a name="method-_getApplicableTemplateDir"></a>_getApplicableTemplateDir
 
-    mixed ModuleCore::_getApplicableTemplateDir($template)
+```php
+mixed ModuleCore::_getApplicableTemplateDir($template)
+```
 
 
 
@@ -987,7 +1117,9 @@ Constructor
 
 ### <a name="method-_isTemplateOverloaded"></a>_isTemplateOverloaded
 
-    mixed ModuleCore::_isTemplateOverloaded($template)
+```php
+mixed ModuleCore::_isTemplateOverloaded($template)
+```
 
 
 
@@ -1004,7 +1136,9 @@ Constructor
 
 ### <a name="method-_isTemplateOverloadedStatic"></a>_isTemplateOverloadedStatic
 
-    mixed ModuleCore::_isTemplateOverloadedStatic($module_name, $template)
+```php
+mixed ModuleCore::_isTemplateOverloadedStatic($module_name, $template)
+```
 
 
 
@@ -1023,7 +1157,9 @@ Constructor
 
 ### <a name="method-addOverride"></a>addOverride
 
-    boolean ModuleCore::addOverride(string $classname)
+```php
+boolean ModuleCore::addOverride(string $classname)
+```
 
 Add all methods in a module override to the override class
 
@@ -1040,7 +1176,9 @@ Add all methods in a module override to the override class
 
 ### <a name="method-adminDisplayInformation"></a>adminDisplayInformation
 
-    mixed ModuleCore::adminDisplayInformation(string $msg)
+```php
+mixed ModuleCore::adminDisplayInformation(string $msg)
+```
 
 add a info message to display at the top of the admin page
 
@@ -1057,7 +1195,9 @@ add a info message to display at the top of the admin page
 
 ### <a name="method-adminDisplayWarning"></a>adminDisplayWarning
 
-    mixed ModuleCore::adminDisplayWarning(string $msg)
+```php
+mixed ModuleCore::adminDisplayWarning(string $msg)
+```
 
 add a warning message to display at the top of the admin page
 
@@ -1074,7 +1214,9 @@ add a warning message to display at the top of the admin page
 
 ### <a name="method-checkCompliancy"></a>checkCompliancy
 
-    mixed ModuleCore::checkCompliancy()
+```php
+mixed ModuleCore::checkCompliancy()
+```
 
 
 
@@ -1088,7 +1230,9 @@ add a warning message to display at the top of the admin page
 
 ### <a name="method-checkModuleFromAddonsApi"></a>checkModuleFromAddonsApi
 
-    boolean ModuleCore::checkModuleFromAddonsApi($module_name)
+```php
+boolean ModuleCore::checkModuleFromAddonsApi($module_name)
+```
 
 Create the Addons API call from the module name only
 
@@ -1106,7 +1250,9 @@ Create the Addons API call from the module name only
 
 ### <a name="method-cleanPositions"></a>cleanPositions
 
-    mixed ModuleCore::cleanPositions($id_hook, $shop_list)
+```php
+mixed ModuleCore::cleanPositions($id_hook, $shop_list)
+```
 
 
 
@@ -1124,7 +1270,9 @@ Create the Addons API call from the module name only
 
 ### <a name="method-configXmlStringFormat"></a>configXmlStringFormat
 
-    mixed ModuleCore::configXmlStringFormat($string)
+```php
+mixed ModuleCore::configXmlStringFormat($string)
+```
 
 
 
@@ -1142,7 +1290,9 @@ Create the Addons API call from the module name only
 
 ### <a name="method-coreLoadModule"></a>coreLoadModule
 
-    mixed ModuleCore::coreLoadModule($module_name)
+```php
+mixed ModuleCore::coreLoadModule($module_name)
+```
 
 
 
@@ -1160,7 +1310,9 @@ Create the Addons API call from the module name only
 
 ### <a name="method-disable"></a>disable
 
-    mixed ModuleCore::disable(boolean $force_all)
+```php
+mixed ModuleCore::disable(boolean $force_all)
+```
 
 Desactivate current module.
 
@@ -1177,7 +1329,9 @@ Desactivate current module.
 
 ### <a name="method-disableByName"></a>disableByName
 
-    true ModuleCore::disableByName(array|string $name)
+```php
+true ModuleCore::disableByName(array|string $name)
+```
 
 This function disable module $name. If an $name is an array,
 this will disable all of them
@@ -1196,7 +1350,9 @@ this will disable all of them
 
 ### <a name="method-disableDevice"></a>disableDevice
 
-    mixed ModuleCore::disableDevice($device)
+```php
+mixed ModuleCore::disableDevice($device)
+```
 
 
 
@@ -1213,7 +1369,9 @@ this will disable all of them
 
 ### <a name="method-display"></a>display
 
-    mixed ModuleCore::display($file, $template, $cache_id, $compile_id)
+```php
+mixed ModuleCore::display($file, $template, $cache_id, $compile_id)
+```
 
 
 
@@ -1233,7 +1391,9 @@ this will disable all of them
 
 ### <a name="method-displayConfirmation"></a>displayConfirmation
 
-    mixed ModuleCore::displayConfirmation($string)
+```php
+mixed ModuleCore::displayConfirmation($string)
+```
 
 
 
@@ -1250,7 +1410,9 @@ this will disable all of them
 
 ### <a name="method-displayError"></a>displayError
 
-    string ModuleCore::displayError(string|array $error)
+```php
+string ModuleCore::displayError(string|array $error)
+```
 
 Helper displaying error message(s)
 
@@ -1267,7 +1429,9 @@ Helper displaying error message(s)
 
 ### <a name="method-displayFlags"></a>displayFlags
 
-    mixed ModuleCore::displayFlags(array $languages, integer $default_language, string $ids, string $id, boolean $return, boolean $use_vars_instead_of_ids)
+```php
+mixed ModuleCore::displayFlags(array $languages, integer $default_language, string $ids, string $id, boolean $return, boolean $use_vars_instead_of_ids)
+```
 
 Display flags in forms for translations
 
@@ -1289,7 +1453,9 @@ Display flags in forms for translations
 
 ### <a name="method-displayWarning"></a>displayWarning
 
-    string ModuleCore::displayWarning($warning)
+```php
+string ModuleCore::displayWarning($warning)
+```
 
 Helper displaying warning message(s)
 
@@ -1306,7 +1472,9 @@ Helper displaying warning message(s)
 
 ### <a name="method-editExceptions"></a>editExceptions
 
-    boolean ModuleCore::editExceptions($id_hook, array $excepts)
+```php
+boolean ModuleCore::editExceptions($id_hook, array $excepts)
+```
 
 Edit exceptions for module->Hook
 
@@ -1324,7 +1492,9 @@ Edit exceptions for module->Hook
 
 ### <a name="method-enable"></a>enable
 
-    mixed ModuleCore::enable(boolean $force_all)
+```php
+mixed ModuleCore::enable(boolean $force_all)
+```
 
 Activate current module.
 
@@ -1341,7 +1511,9 @@ Activate current module.
 
 ### <a name="method-enableByName"></a>enableByName
 
-    true ModuleCore::enableByName(array|string $name)
+```php
+true ModuleCore::enableByName(array|string $name)
+```
 
 This function enable module $name. If an $name is an array,
 this will enable all of them
@@ -1360,7 +1532,9 @@ this will enable all of them
 
 ### <a name="method-enableDevice"></a>enableDevice
 
-    mixed ModuleCore::enableDevice($device)
+```php
+mixed ModuleCore::enableDevice($device)
+```
 
 
 
@@ -1377,7 +1551,9 @@ this will enable all of them
 
 ### <a name="method-findTranslation"></a>findTranslation
 
-    mixed ModuleCore::findTranslation($name, $string, $source)
+```php
+mixed ModuleCore::findTranslation($name, $string, $source)
+```
 
 
 
@@ -1397,7 +1573,9 @@ this will enable all of them
 
 ### <a name="method-generateTrustedXml"></a>generateTrustedXml
 
-    mixed ModuleCore::generateTrustedXml()
+```php
+mixed ModuleCore::generateTrustedXml()
+```
 
 Generate XML files for trusted and untrusted modules
 
@@ -1412,7 +1590,9 @@ Generate XML files for trusted and untrusted modules
 
 ### <a name="method-getAuthorizedModules"></a>getAuthorizedModules
 
-    array|null ModuleCore::getAuthorizedModules(integer $group_id)
+```php
+array|null ModuleCore::getAuthorizedModules(integer $group_id)
+```
 
 Get Unauthorized modules for a client group
 
@@ -1430,7 +1610,9 @@ Get Unauthorized modules for a client group
 
 ### <a name="method-getBatchMode"></a>getBatchMode
 
-    boolean ModuleCore::getBatchMode()
+```php
+boolean ModuleCore::getBatchMode()
+```
 
 
 
@@ -1445,7 +1627,9 @@ Get Unauthorized modules for a client group
 
 ### <a name="method-getCacheId"></a>getCacheId
 
-    mixed ModuleCore::getCacheId($name)
+```php
+mixed ModuleCore::getCacheId($name)
+```
 
 
 
@@ -1462,7 +1646,9 @@ Get Unauthorized modules for a client group
 
 ### <a name="method-getConfirmations"></a>getConfirmations
 
-    array ModuleCore::getConfirmations()
+```php
+array ModuleCore::getConfirmations()
+```
 
 Get module messages confirmation
 
@@ -1476,7 +1662,9 @@ Get module messages confirmation
 
 ### <a name="method-getCurrentSubTemplate"></a>getCurrentSubTemplate
 
-    \Smarty_Internal_Template ModuleCore::getCurrentSubTemplate(string $template, string|null $cache_id, string|null $compile_id)
+```php
+\Smarty_Internal_Template ModuleCore::getCurrentSubTemplate(string $template, string|null $cache_id, string|null $compile_id)
+```
 
 
 
@@ -1495,7 +1683,9 @@ Get module messages confirmation
 
 ### <a name="method-getErrors"></a>getErrors
 
-    array ModuleCore::getErrors()
+```php
+array ModuleCore::getErrors()
+```
 
 Get module errors
 
@@ -1509,7 +1699,9 @@ Get module errors
 
 ### <a name="method-getExceptions"></a>getExceptions
 
-    mixed ModuleCore::getExceptions($id_hook, $dispatch)
+```php
+mixed ModuleCore::getExceptions($id_hook, $dispatch)
+```
 
 
 
@@ -1527,7 +1719,9 @@ Get module errors
 
 ### <a name="method-getExceptionsStatic"></a>getExceptionsStatic
 
-    mixed ModuleCore::getExceptionsStatic($id_module, $id_hook, $dispatch)
+```php
+mixed ModuleCore::getExceptionsStatic($id_module, $id_hook, $dispatch)
+```
 
 
 
@@ -1547,7 +1741,9 @@ Get module errors
 
 ### <a name="method-getInstanceById"></a>getInstanceById
 
-    \Module ModuleCore::getInstanceById(integer $id_module)
+```php
+\Module ModuleCore::getInstanceById(integer $id_module)
+```
 
 Return an instance of the specified module
 
@@ -1565,7 +1761,9 @@ Return an instance of the specified module
 
 ### <a name="method-getInstanceByName"></a>getInstanceByName
 
-    \Module ModuleCore::getInstanceByName(string $module_name)
+```php
+\Module ModuleCore::getInstanceByName(string $module_name)
+```
 
 Return an instance of the specified module
 
@@ -1583,7 +1781,9 @@ Return an instance of the specified module
 
 ### <a name="method-getLocalPath"></a>getLocalPath
 
-    string ModuleCore::getLocalPath()
+```php
+string ModuleCore::getLocalPath()
+```
 
 Get local path for module
 
@@ -1597,7 +1797,9 @@ Get local path for module
 
 ### <a name="method-getModuleIdByName"></a>getModuleIdByName
 
-    integer ModuleCore::getModuleIdByName(string $name)
+```php
+integer ModuleCore::getModuleIdByName(string $name)
+```
 
 Get ID module by name
 
@@ -1615,7 +1817,9 @@ Get ID module by name
 
 ### <a name="method-getModuleName"></a>getModuleName
 
-    mixed ModuleCore::getModuleName($module)
+```php
+mixed ModuleCore::getModuleName($module)
+```
 
 
 
@@ -1633,7 +1837,9 @@ Get ID module by name
 
 ### <a name="method-getModuleNameFromClass"></a>getModuleNameFromClass
 
-    boolean|string ModuleCore::getModuleNameFromClass(mixed $current_class)
+```php
+boolean|string ModuleCore::getModuleNameFromClass(mixed $current_class)
+```
 
 This function is used to determine the module name
 of an AdminTab which belongs to a module, in order to keep translation
@@ -1653,7 +1859,9 @@ related to a module in its directory (instead of $_LANGADM)
 
 ### <a name="method-getModulesDirOnDisk"></a>getModulesDirOnDisk
 
-    array ModuleCore::getModulesDirOnDisk()
+```php
+array ModuleCore::getModulesDirOnDisk()
+```
 
 Return modules directory list
 
@@ -1668,7 +1876,9 @@ Return modules directory list
 
 ### <a name="method-getModulesInstalled"></a>getModulesInstalled
 
-    array ModuleCore::getModulesInstalled(integer $position)
+```php
+array ModuleCore::getModulesInstalled(integer $position)
+```
 
 Return installed modules
 
@@ -1686,7 +1896,9 @@ Return installed modules
 
 ### <a name="method-getModulesOnDisk"></a>getModulesOnDisk
 
-    array ModuleCore::getModulesOnDisk(boolean $use_config, $logged_on_addons, $id_employee)
+```php
+array ModuleCore::getModulesOnDisk(boolean $use_config, $logged_on_addons, $id_employee)
+```
 
 Return available modules
 
@@ -1706,7 +1918,9 @@ Return available modules
 
 ### <a name="method-getNativeModuleList"></a>getNativeModuleList
 
-    mixed ModuleCore::getNativeModuleList()
+```php
+mixed ModuleCore::getNativeModuleList()
+```
 
 
 
@@ -1721,7 +1935,9 @@ Return available modules
 
 ### <a name="method-getNonNativeModuleList"></a>getNonNativeModuleList
 
-    array ModuleCore::getNonNativeModuleList()
+```php
+array ModuleCore::getNonNativeModuleList()
+```
 
 Return non native module
 
@@ -1736,7 +1952,9 @@ Return non native module
 
 ### <a name="method-getPathUri"></a>getPathUri
 
-    string ModuleCore::getPathUri()
+```php
+string ModuleCore::getPathUri()
+```
 
 Get uri path for module
 
@@ -1750,7 +1968,9 @@ Get uri path for module
 
 ### <a name="method-getPaymentModules"></a>getPaymentModules
 
-    array ModuleCore::getPaymentModules()
+```php
+array ModuleCore::getPaymentModules()
+```
 
 Returns the list of the payment module associated to the current customer
 
@@ -1765,7 +1985,9 @@ Returns the list of the payment module associated to the current customer
 
 ### <a name="method-getPaypalIgnore"></a>getPaypalIgnore
 
-    mixed ModuleCore::getPaypalIgnore()
+```php
+mixed ModuleCore::getPaypalIgnore()
+```
 
 
 
@@ -1780,7 +2002,9 @@ Returns the list of the payment module associated to the current customer
 
 ### <a name="method-getPermission"></a>getPermission
 
-    boolean ModuleCore::getPermission(array $variable, object $employee)
+```php
+boolean ModuleCore::getPermission(array $variable, object $employee)
+```
 
 Check employee permission for module
 
@@ -1798,7 +2022,9 @@ Check employee permission for module
 
 ### <a name="method-getPermissionStatic"></a>getPermissionStatic
 
-    boolean ModuleCore::getPermissionStatic(integer $id_module, array $variable, object $employee)
+```php
+boolean ModuleCore::getPermissionStatic(integer $id_module, array $variable, object $employee)
+```
 
 Check employee permission for module (static method)
 
@@ -1818,7 +2044,9 @@ Check employee permission for module (static method)
 
 ### <a name="method-getPosition"></a>getPosition
 
-    mixed ModuleCore::getPosition($id_hook)
+```php
+mixed ModuleCore::getPosition($id_hook)
+```
 
 
 
@@ -1835,7 +2063,9 @@ Check employee permission for module (static method)
 
 ### <a name="method-getPossibleHooksList"></a>getPossibleHooksList
 
-    array ModuleCore::getPossibleHooksList()
+```php
+array ModuleCore::getPossibleHooksList()
+```
 
 Return the hooks list where this module can be hooked.
 
@@ -1849,7 +2079,9 @@ Return the hooks list where this module can be hooked.
 
 ### <a name="method-getTemplatePath"></a>getTemplatePath
 
-    string ModuleCore::getTemplatePath(string $template)
+```php
+string ModuleCore::getTemplatePath(string $template)
+```
 
 Get realpath of a template of current module (check if template is overriden too)
 
@@ -1866,7 +2098,9 @@ Get realpath of a template of current module (check if template is overriden too
 
 ### <a name="method-getUpgradeStatus"></a>getUpgradeStatus
 
-    boolean ModuleCore::getUpgradeStatus($module_name)
+```php
+boolean ModuleCore::getUpgradeStatus($module_name)
+```
 
 Return the status of the upgraded module
 
@@ -1884,7 +2118,9 @@ Return the status of the upgraded module
 
 ### <a name="method-hookExec"></a>hookExec
 
-    string ModuleCore::hookExec(string $hook_name, array $hook_args, $id_module)
+```php
+string ModuleCore::hookExec(string $hook_name, array $hook_args, $id_module)
+```
 
 Execute modules for specified hook
 
@@ -1904,7 +2140,9 @@ Execute modules for specified hook
 
 ### <a name="method-hookExecPayment"></a>hookExecPayment
 
-    string ModuleCore::hookExecPayment()
+```php
+string ModuleCore::hookExecPayment()
+```
 
 
 
@@ -1919,7 +2157,9 @@ Execute modules for specified hook
 
 ### <a name="method-initUpgradeModule"></a>initUpgradeModule
 
-    boolean ModuleCore::initUpgradeModule($module)
+```php
+boolean ModuleCore::initUpgradeModule($module)
+```
 
 Init the upgrade module
 
@@ -1937,7 +2177,9 @@ Init the upgrade module
 
 ### <a name="method-install"></a>install
 
-    mixed ModuleCore::install()
+```php
+mixed ModuleCore::install()
+```
 
 Insert module into datable
 
@@ -1951,7 +2193,9 @@ Insert module into datable
 
 ### <a name="method-installControllers"></a>installControllers
 
-    boolean ModuleCore::installControllers()
+```php
+boolean ModuleCore::installControllers()
+```
 
 Install module's controllers using public property $controllers
 
@@ -1965,7 +2209,9 @@ Install module's controllers using public property $controllers
 
 ### <a name="method-installOverrides"></a>installOverrides
 
-    boolean ModuleCore::installOverrides()
+```php
+boolean ModuleCore::installOverrides()
+```
 
 Install overrides files for the module
 
@@ -1979,7 +2225,9 @@ Install overrides files for the module
 
 ### <a name="method-isCached"></a>isCached
 
-    mixed ModuleCore::isCached($template, $cache_id, $compile_id)
+```php
+mixed ModuleCore::isCached($template, $cache_id, $compile_id)
+```
 
 
 
@@ -1998,7 +2246,9 @@ Install overrides files for the module
 
 ### <a name="method-isEnabled"></a>isEnabled
 
-    mixed ModuleCore::isEnabled($module_name)
+```php
+mixed ModuleCore::isEnabled($module_name)
+```
 
 
 
@@ -2016,7 +2266,9 @@ Install overrides files for the module
 
 ### <a name="method-isEnabledForShopContext"></a>isEnabledForShopContext
 
-    mixed ModuleCore::isEnabledForShopContext()
+```php
+mixed ModuleCore::isEnabledForShopContext()
+```
 
 
 
@@ -2030,7 +2282,9 @@ Install overrides files for the module
 
 ### <a name="method-isHookableOn"></a>isHookableOn
 
-    boolean ModuleCore::isHookableOn(string $hook_name)
+```php
+boolean ModuleCore::isHookableOn(string $hook_name)
+```
 
 Check if the module is transplantable on the hook in parameter
 
@@ -2047,7 +2301,9 @@ Check if the module is transplantable on the hook in parameter
 
 ### <a name="method-isInstalled"></a>isInstalled
 
-    mixed ModuleCore::isInstalled($module_name)
+```php
+mixed ModuleCore::isInstalled($module_name)
+```
 
 
 
@@ -2065,7 +2321,9 @@ Check if the module is transplantable on the hook in parameter
 
 ### <a name="method-isModuleTrusted"></a>isModuleTrusted
 
-    integer ModuleCore::isModuleTrusted($module_name)
+```php
+integer ModuleCore::isModuleTrusted($module_name)
+```
 
 Return if the module is provided by addons.prestashop.com or not
 
@@ -2083,7 +2341,9 @@ Return if the module is provided by addons.prestashop.com or not
 
 ### <a name="method-isRegisteredInHook"></a>isRegisteredInHook
 
-    mixed ModuleCore::isRegisteredInHook($hook)
+```php
+mixed ModuleCore::isRegisteredInHook($hook)
+```
 
 
 
@@ -2100,7 +2360,9 @@ Return if the module is provided by addons.prestashop.com or not
 
 ### <a name="method-l"></a>l
 
-    string ModuleCore::l(string $string, boolean|string $specific)
+```php
+string ModuleCore::l(string $string, boolean|string $specific)
+```
 
 Get translation for a given module text
 
@@ -2120,7 +2382,9 @@ when module is loaded with eval() Module::getModulesOnDisk()
 
 ### <a name="method-loadUpgradeVersionList"></a>loadUpgradeVersionList
 
-    boolean ModuleCore::loadUpgradeVersionList($module_name, $module_version, $registered_version)
+```php
+boolean ModuleCore::loadUpgradeVersionList($module_name, $module_version, $registered_version)
+```
 
 Load the available list of upgrade of a specified module
 with an associated version
@@ -2141,7 +2405,9 @@ with an associated version
 
 ### <a name="method-needUpgrade"></a>needUpgrade
 
-    boolean ModuleCore::needUpgrade($module)
+```php
+boolean ModuleCore::needUpgrade($module)
+```
 
 Check if a module need to be upgraded.
 
@@ -2159,7 +2425,9 @@ This method modify the module_cache adding an upgrade list file
 
 ### <a name="method-preCall"></a>preCall
 
-    mixed ModuleCore::preCall($module_name)
+```php
+mixed ModuleCore::preCall($module_name)
+```
 
 
 
@@ -2177,7 +2445,9 @@ This method modify the module_cache adding an upgrade list file
 
 ### <a name="method-processDeferedClearCache"></a>processDeferedClearCache
 
-    mixed ModuleCore::processDeferedClearCache()
+```php
+mixed ModuleCore::processDeferedClearCache()
+```
 
 Clear the caches stored in $_defered_clearCache
 
@@ -2192,7 +2462,9 @@ Clear the caches stored in $_defered_clearCache
 
 ### <a name="method-processDeferedFuncCall"></a>processDeferedFuncCall
 
-    mixed ModuleCore::processDeferedFuncCall()
+```php
+mixed ModuleCore::processDeferedFuncCall()
+```
 
 
 
@@ -2207,7 +2479,9 @@ Clear the caches stored in $_defered_clearCache
 
 ### <a name="method-registerExceptions"></a>registerExceptions
 
-    boolean ModuleCore::registerExceptions(integer $id_hook, array $excepts, array $shop_list)
+```php
+boolean ModuleCore::registerExceptions(integer $id_hook, array $excepts, array $shop_list)
+```
 
 Add exceptions for module->Hook
 
@@ -2226,7 +2500,9 @@ Add exceptions for module->Hook
 
 ### <a name="method-registerHook"></a>registerHook
 
-    boolean ModuleCore::registerHook(string $hook_name, array $shop_list)
+```php
+boolean ModuleCore::registerHook(string $hook_name, array $shop_list)
+```
 
 Connect module to a hook
 
@@ -2244,7 +2520,9 @@ Connect module to a hook
 
 ### <a name="method-removeOverride"></a>removeOverride
 
-    boolean ModuleCore::removeOverride(string $classname)
+```php
+boolean ModuleCore::removeOverride(string $classname)
+```
 
 Remove all methods in a module override from the override class
 
@@ -2261,7 +2539,9 @@ Remove all methods in a module override from the override class
 
 ### <a name="method-resetCurrentSubTemplate"></a>resetCurrentSubTemplate
 
-    mixed ModuleCore::resetCurrentSubTemplate($template, $cache_id, $compile_id)
+```php
+mixed ModuleCore::resetCurrentSubTemplate($template, $cache_id, $compile_id)
+```
 
 
 
@@ -2280,7 +2560,9 @@ Remove all methods in a module override from the override class
 
 ### <a name="method-runUpgradeModule"></a>runUpgradeModule
 
-    array ModuleCore::runUpgradeModule()
+```php
+array ModuleCore::runUpgradeModule()
+```
 
 Run the upgrade for a given module name and version
 
@@ -2294,7 +2576,9 @@ Run the upgrade for a given module name and version
 
 ### <a name="method-setBatchMode"></a>setBatchMode
 
-    mixed ModuleCore::setBatchMode(boolean $value)
+```php
+mixed ModuleCore::setBatchMode(boolean $value)
+```
 
 Set the flag to indicate we are doing an import
 
@@ -2312,7 +2596,9 @@ Set the flag to indicate we are doing an import
 
 ### <a name="method-setUpgradeMessage"></a>setUpgradeMessage
 
-    mixed ModuleCore::setUpgradeMessage($upgrade_detail)
+```php
+mixed ModuleCore::setUpgradeMessage($upgrade_detail)
+```
 
 Set errors, warning or success message of a module upgrade
 
@@ -2329,7 +2615,9 @@ Set errors, warning or success message of a module upgrade
 
 ### <a name="method-uninstall"></a>uninstall
 
-    boolean ModuleCore::uninstall()
+```php
+boolean ModuleCore::uninstall()
+```
 
 Delete module from datable
 
@@ -2343,7 +2631,9 @@ Delete module from datable
 
 ### <a name="method-uninstallOverrides"></a>uninstallOverrides
 
-    boolean ModuleCore::uninstallOverrides()
+```php
+boolean ModuleCore::uninstallOverrides()
+```
 
 Uninstall overrides files for the module
 
@@ -2357,7 +2647,9 @@ Uninstall overrides files for the module
 
 ### <a name="method-unregisterExceptions"></a>unregisterExceptions
 
-    boolean ModuleCore::unregisterExceptions($hook_id, array $shop_list)
+```php
+boolean ModuleCore::unregisterExceptions($hook_id, array $shop_list)
+```
 
 Unregister exceptions linked to module
 
@@ -2375,7 +2667,9 @@ Unregister exceptions linked to module
 
 ### <a name="method-unregisterHook"></a>unregisterHook
 
-    boolean ModuleCore::unregisterHook($hook_id, array $shop_list)
+```php
+boolean ModuleCore::unregisterHook($hook_id, array $shop_list)
+```
 
 Unregister module from hook
 
@@ -2393,7 +2687,9 @@ Unregister module from hook
 
 ### <a name="method-updateModuleTranslations"></a>updateModuleTranslations
 
-    mixed ModuleCore::updateModuleTranslations()
+```php
+mixed ModuleCore::updateModuleTranslations()
+```
 
 
 
@@ -2407,7 +2703,9 @@ Unregister module from hook
 
 ### <a name="method-updatePosition"></a>updatePosition
 
-    mixed ModuleCore::updatePosition($id_hook, $way, $position)
+```php
+mixed ModuleCore::updatePosition($id_hook, $way, $position)
+```
 
 
 
@@ -2426,7 +2724,9 @@ Unregister module from hook
 
 ### <a name="method-updateTranslationsAfterInstall"></a>updateTranslationsAfterInstall
 
-    mixed ModuleCore::updateTranslationsAfterInstall($update)
+```php
+mixed ModuleCore::updateTranslationsAfterInstall($update)
+```
 
 
 
@@ -2444,7 +2744,9 @@ Unregister module from hook
 
 ### <a name="method-upgradeModuleVersion"></a>upgradeModuleVersion
 
-    boolean ModuleCore::upgradeModuleVersion($name, $version)
+```php
+boolean ModuleCore::upgradeModuleVersion($name, $version)
+```
 
 Upgrade the registered version to a new one
 
@@ -2463,7 +2765,9 @@ Upgrade the registered version to a new one
 
 ### <a name="method-useTooMuchMemory"></a>useTooMuchMemory
 
-    mixed ModuleCore::useTooMuchMemory()
+```php
+mixed ModuleCore::useTooMuchMemory()
+```
 
 
 

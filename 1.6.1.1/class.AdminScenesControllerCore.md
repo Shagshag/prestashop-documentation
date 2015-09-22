@@ -10,15 +10,17 @@ Class AdminScenesControllerCore
 * Source: [controllers/admin/AdminScenesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$bootstrap](#property-$bootstrap)
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterImageUpload](#method-afterImageUpload)
 * [initFieldsForm](#method-initFieldsForm)
@@ -36,7 +38,9 @@ Properties
 
 ### <a name="property-$bootstrap"></a>$bootstrap
 
-    public mixed $bootstrap = true
+```php
+public mixed $bootstrap = true
+```
 
 
 
@@ -48,7 +52,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Scene $object
+```php
+public \Scene $object
+```
 
 
 
@@ -64,7 +70,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminScenesControllerCore::__construct()
+```php
+mixed AdminScenesControllerCore::__construct()
+```
 
 
 
@@ -78,7 +86,9 @@ Methods
 
 ### <a name="method-afterImageUpload"></a>afterImageUpload
 
-    mixed AdminScenesControllerCore::afterImageUpload()
+```php
+mixed AdminScenesControllerCore::afterImageUpload()
+```
 
 
 
@@ -92,7 +102,9 @@ Methods
 
 ### <a name="method-initFieldsForm"></a>initFieldsForm
 
-    mixed AdminScenesControllerCore::initFieldsForm()
+```php
+mixed AdminScenesControllerCore::initFieldsForm()
+```
 
 
 
@@ -106,7 +118,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminScenesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminScenesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -120,7 +134,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminScenesControllerCore::initToolbar()
+```php
+mixed AdminScenesControllerCore::initToolbar()
+```
 
 
 
@@ -134,7 +150,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminScenesControllerCore::postProcess()
+```php
+mixed AdminScenesControllerCore::postProcess()
+```
 
 
 
@@ -148,7 +166,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminScenesControllerCore::renderForm()
+```php
+mixed AdminScenesControllerCore::renderForm()
+```
 
 
 

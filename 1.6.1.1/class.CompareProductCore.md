@@ -10,9 +10,11 @@ Class CompareProductCore
 * Source: [classes/CompareProduct.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$date_upd](#property-$date_upd)
@@ -20,8 +22,8 @@ Properties
 * [$id_compare](#property-$id_compare)
 * [$id_customer](#property-$id_customer)
 
-Methods
--------
+### Methods
+
 * [addCompareProduct](#method-addCompareProduct)
 * [cleanCompareProducts](#method-cleanCompareProducts)
 * [getCompareProducts](#method-getCompareProducts)
@@ -38,7 +40,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public mixed $date_add
+```php
+public mixed $date_add
+```
 
 
 
@@ -50,7 +54,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public mixed $date_upd
+```php
+public mixed $date_upd
+```
 
 
 
@@ -62,7 +68,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'compare', 'primary' => 'id_compare', 'fields' => array('id_compare' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'compare', 'primary' => 'id_compare', 'fields' => array('id_compare' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true)))
+```
 
 
 
@@ -75,7 +83,9 @@ Properties
 
 ### <a name="property-$id_compare"></a>$id_compare
 
-    public mixed $id_compare
+```php
+public mixed $id_compare
+```
 
 
 
@@ -87,7 +97,9 @@ Properties
 
 ### <a name="property-$id_customer"></a>$id_customer
 
-    public mixed $id_customer
+```php
+public mixed $id_customer
+```
 
 
 
@@ -103,7 +115,9 @@ Methods
 
 ### <a name="method-addCompareProduct"></a>addCompareProduct
 
-    boolean CompareProductCore::addCompareProduct($id_compare, $id_product)
+```php
+boolean CompareProductCore::addCompareProduct($id_compare, $id_product)
+```
 
 Add a compare product for the customer
 
@@ -122,7 +136,9 @@ Add a compare product for the customer
 
 ### <a name="method-cleanCompareProducts"></a>cleanCompareProducts
 
-    void CompareProductCore::cleanCompareProducts(string $period)
+```php
+void CompareProductCore::cleanCompareProducts(string $period)
+```
 
 Clean entries which are older than the period
 
@@ -140,7 +156,9 @@ Clean entries which are older than the period
 
 ### <a name="method-getCompareProducts"></a>getCompareProducts
 
-    array CompareProductCore::getCompareProducts($id_compare)
+```php
+array CompareProductCore::getCompareProducts($id_compare)
+```
 
 Get all compare products of the customer
 
@@ -158,7 +176,9 @@ Get all compare products of the customer
 
 ### <a name="method-getIdCompareByIdCustomer"></a>getIdCompareByIdCustomer
 
-    integer CompareProductCore::getIdCompareByIdCustomer(integer $id_customer)
+```php
+integer CompareProductCore::getIdCompareByIdCustomer(integer $id_customer)
+```
 
 Get the id_compare by id_customer
 
@@ -176,7 +196,9 @@ Get the id_compare by id_customer
 
 ### <a name="method-getNumberProducts"></a>getNumberProducts
 
-    integer CompareProductCore::getNumberProducts(integer $id_compare)
+```php
+integer CompareProductCore::getNumberProducts(integer $id_compare)
+```
 
 Get the number of compare products of the customer
 
@@ -194,7 +216,9 @@ Get the number of compare products of the customer
 
 ### <a name="method-removeCompareProduct"></a>removeCompareProduct
 
-    boolean CompareProductCore::removeCompareProduct(integer $id_compare, integer $id_product)
+```php
+boolean CompareProductCore::removeCompareProduct(integer $id_compare, integer $id_product)
+```
 
 Remove a compare product for the customer
 

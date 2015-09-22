@@ -10,14 +10,16 @@ Class BestSalesControllerCore
 * Source: [controllers/front/BestSalesController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/BestSalesController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$php_self](#property-$php_self)
 
-Methods
--------
+### Methods
+
 * [initContent](#method-initContent)
 * [setMedia](#method-setMedia)
 
@@ -30,7 +32,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'best-sales'
+```php
+public mixed $php_self = 'best-sales'
+```
 
 
 
@@ -46,7 +50,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed BestSalesControllerCore::initContent()
+```php
+mixed BestSalesControllerCore::initContent()
+```
 
 
 
@@ -60,7 +66,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed BestSalesControllerCore::setMedia()
+```php
+mixed BestSalesControllerCore::setMedia()
+```
 
 
 

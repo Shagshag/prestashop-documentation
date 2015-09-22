@@ -10,9 +10,11 @@ Class HelperFormCore
 * Source: [classes/helper/HelperForm.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$allow_employee_form_lang](#property-$allow_employee_form_lang)
 * [$back_url](#property-$back_url)
@@ -28,8 +30,8 @@ Properties
 * [$title](#property-$title)
 * [$token](#property-$token)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [generate](#method-generate)
 * [generateForm](#method-generateForm)
@@ -45,7 +47,9 @@ Properties
 
 ### <a name="property-$allow_employee_form_lang"></a>$allow_employee_form_lang
 
-    public mixed $allow_employee_form_lang = null
+```php
+public mixed $allow_employee_form_lang = null
+```
 
 
 
@@ -57,7 +61,9 @@ Properties
 
 ### <a name="property-$back_url"></a>$back_url
 
-    public mixed $back_url = '#'
+```php
+public mixed $back_url = '#'
+```
 
 
 
@@ -69,7 +75,9 @@ Properties
 
 ### <a name="property-$default_form_language"></a>$default_form_language
 
-    public mixed $default_form_language = null
+```php
+public mixed $default_form_language = null
+```
 
 
 
@@ -81,7 +89,9 @@ Properties
 
 ### <a name="property-$fields_form"></a>$fields_form
 
-    protected array $fields_form = array()
+```php
+protected array $fields_form = array()
+```
 
 
 
@@ -93,7 +103,9 @@ Properties
 
 ### <a name="property-$fields_value"></a>$fields_value
 
-    public array $fields_value = array()
+```php
+public array $fields_value = array()
+```
 
 
 
@@ -105,7 +117,9 @@ Properties
 
 ### <a name="property-$first_call"></a>$first_call
 
-    public mixed $first_call = true
+```php
+public mixed $first_call = true
+```
 
 
 
@@ -117,7 +131,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -129,7 +145,9 @@ Properties
 
 ### <a name="property-$languages"></a>$languages
 
-    public mixed $languages = null
+```php
+public mixed $languages = null
+```
 
 
 
@@ -141,7 +159,9 @@ Properties
 
 ### <a name="property-$name_controller"></a>$name_controller
 
-    public mixed $name_controller = ''
+```php
+public mixed $name_controller = ''
+```
 
 
 
@@ -153,7 +173,9 @@ Properties
 
 ### <a name="property-$show_cancel_button"></a>$show_cancel_button
 
-    public mixed $show_cancel_button = false
+```php
+public mixed $show_cancel_button = false
+```
 
 
 
@@ -165,7 +187,9 @@ Properties
 
 ### <a name="property-$submit_action"></a>$submit_action
 
-    public string $submit_action
+```php
+public string $submit_action
+```
 
 
 
@@ -177,7 +201,9 @@ Properties
 
 ### <a name="property-$title"></a>$title
 
-    public string $title = null
+```php
+public string $title = null
+```
 
 
 
@@ -189,7 +215,9 @@ Properties
 
 ### <a name="property-$token"></a>$token
 
-    public mixed $token
+```php
+public mixed $token
+```
 
 
 
@@ -205,7 +233,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed HelperFormCore::__construct()
+```php
+mixed HelperFormCore::__construct()
+```
 
 
 
@@ -219,7 +249,9 @@ Methods
 
 ### <a name="method-generate"></a>generate
 
-    mixed HelperFormCore::generate()
+```php
+mixed HelperFormCore::generate()
+```
 
 
 
@@ -233,7 +265,9 @@ Methods
 
 ### <a name="method-generateForm"></a>generateForm
 
-    mixed HelperFormCore::generateForm($fields_form)
+```php
+mixed HelperFormCore::generateForm($fields_form)
+```
 
 
 
@@ -250,7 +284,9 @@ Methods
 
 ### <a name="method-getFieldsRequired"></a>getFieldsRequired
 
-    mixed HelperFormCore::getFieldsRequired()
+```php
+mixed HelperFormCore::getFieldsRequired()
+```
 
 Return true if there are required fields
 
@@ -264,7 +300,9 @@ Return true if there are required fields
 
 ### <a name="method-renderAssoShop"></a>renderAssoShop
 
-    string HelperFormCore::renderAssoShop($disable_shared, $template_directory)
+```php
+string HelperFormCore::renderAssoShop($disable_shared, $template_directory)
+```
 
 Render an area to determinate shop association
 

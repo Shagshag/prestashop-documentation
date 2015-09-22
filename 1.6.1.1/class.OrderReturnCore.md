@@ -10,9 +10,11 @@ Class OrderReturnCore
 * Source: [classes/order/OrderReturn.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$date_upd](#property-$date_upd)
@@ -23,8 +25,8 @@ Properties
 * [$question](#property-$question)
 * [$state](#property-$state)
 
-Methods
--------
+### Methods
+
 * [addReturnDetail](#method-addReturnDetail)
 * [addReturnedQuantity](#method-addReturnedQuantity)
 * [checkEnoughProduct](#method-checkEnoughProduct)
@@ -45,7 +47,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -57,7 +61,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -69,7 +75,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'order_return', 'primary' => 'id_order_return', 'fields' => array('id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'question' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml'), 'state' => array('type' => self::TYPE_STRING), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'order_return', 'primary' => 'id_order_return', 'fields' => array('id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'question' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml'), 'state' => array('type' => self::TYPE_STRING), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -82,7 +90,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public integer $id
+```php
+public integer $id
+```
 
 
 
@@ -94,7 +104,9 @@ Properties
 
 ### <a name="property-$id_customer"></a>$id_customer
 
-    public integer $id_customer
+```php
+public integer $id_customer
+```
 
 
 
@@ -106,7 +118,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public integer $id_order
+```php
+public integer $id_order
+```
 
 
 
@@ -118,7 +132,9 @@ Properties
 
 ### <a name="property-$question"></a>$question
 
-    public string $question
+```php
+public string $question
+```
 
 
 
@@ -130,7 +146,9 @@ Properties
 
 ### <a name="property-$state"></a>$state
 
-    public integer $state
+```php
+public integer $state
+```
 
 
 
@@ -146,7 +164,9 @@ Methods
 
 ### <a name="method-addReturnDetail"></a>addReturnDetail
 
-    mixed OrderReturnCore::addReturnDetail($order_detail_list, $product_qty_list, $customization_ids, $customization_qty_input)
+```php
+mixed OrderReturnCore::addReturnDetail($order_detail_list, $product_qty_list, $customization_ids, $customization_qty_input)
+```
 
 
 
@@ -166,7 +186,9 @@ Methods
 
 ### <a name="method-addReturnedQuantity"></a>addReturnedQuantity
 
-    mixed OrderReturnCore::addReturnedQuantity(array $products, integer $id_order)
+```php
+mixed OrderReturnCore::addReturnedQuantity(array $products, integer $id_order)
+```
 
 Add returned quantity to products list
 
@@ -185,7 +207,9 @@ Add returned quantity to products list
 
 ### <a name="method-checkEnoughProduct"></a>checkEnoughProduct
 
-    mixed OrderReturnCore::checkEnoughProduct($order_detail_list, $product_qty_list, $customization_ids, $customization_qty_input)
+```php
+mixed OrderReturnCore::checkEnoughProduct($order_detail_list, $product_qty_list, $customization_ids, $customization_qty_input)
+```
 
 
 
@@ -205,7 +229,9 @@ Add returned quantity to products list
 
 ### <a name="method-countProduct"></a>countProduct
 
-    mixed OrderReturnCore::countProduct()
+```php
+mixed OrderReturnCore::countProduct()
+```
 
 
 
@@ -219,7 +245,9 @@ Add returned quantity to products list
 
 ### <a name="method-deleteOrderReturnDetail"></a>deleteOrderReturnDetail
 
-    mixed OrderReturnCore::deleteOrderReturnDetail($id_order_return, $id_order_detail, $id_customization)
+```php
+mixed OrderReturnCore::deleteOrderReturnDetail($id_order_return, $id_order_detail, $id_customization)
+```
 
 
 
@@ -239,7 +267,9 @@ Add returned quantity to products list
 
 ### <a name="method-getOrdersReturn"></a>getOrdersReturn
 
-    mixed OrderReturnCore::getOrdersReturn($customer_id, $order_id, $no_denied, \Context $context)
+```php
+mixed OrderReturnCore::getOrdersReturn($customer_id, $order_id, $no_denied, \Context $context)
+```
 
 
 
@@ -260,7 +290,9 @@ Add returned quantity to products list
 
 ### <a name="method-getOrdersReturnDetail"></a>getOrdersReturnDetail
 
-    mixed OrderReturnCore::getOrdersReturnDetail($id_order_return)
+```php
+mixed OrderReturnCore::getOrdersReturnDetail($id_order_return)
+```
 
 
 
@@ -278,7 +310,9 @@ Add returned quantity to products list
 
 ### <a name="method-getOrdersReturnProducts"></a>getOrdersReturnProducts
 
-    array OrderReturnCore::getOrdersReturnProducts(integer $order_return_id, \Order $order)
+```php
+array OrderReturnCore::getOrdersReturnProducts(integer $order_return_id, \Order $order)
+```
 
 
 
@@ -297,7 +331,9 @@ Add returned quantity to products list
 
 ### <a name="method-getProductReturnDetail"></a>getProductReturnDetail
 
-    mixed OrderReturnCore::getProductReturnDetail($id_order_detail)
+```php
+mixed OrderReturnCore::getProductReturnDetail($id_order_detail)
+```
 
 Get return details for one product line
 
@@ -315,7 +351,9 @@ Get return details for one product line
 
 ### <a name="method-getReturnedCustomizedProducts"></a>getReturnedCustomizedProducts
 
-    mixed OrderReturnCore::getReturnedCustomizedProducts($id_order)
+```php
+mixed OrderReturnCore::getReturnedCustomizedProducts($id_order)
+```
 
 
 

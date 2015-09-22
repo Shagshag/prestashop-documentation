@@ -10,16 +10,18 @@ Class ProductControllerCore
 * Source: [controllers/front/ProductController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$category](#property-$category)
 * [$php_self](#property-$php_self)
 * [$product](#property-$product)
 
-Methods
--------
+### Methods
+
 * [assignAttributesCombinations](#method-assignAttributesCombinations)
 * [assignAttributesGroups](#method-assignAttributesGroups)
 * [assignCategory](#method-assignCategory)
@@ -46,7 +48,9 @@ Properties
 
 ### <a name="property-$category"></a>$category
 
-    protected \Category $category
+```php
+protected \Category $category
+```
 
 
 
@@ -58,7 +62,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'product'
+```php
+public mixed $php_self = 'product'
+```
 
 
 
@@ -70,7 +76,9 @@ Properties
 
 ### <a name="property-$product"></a>$product
 
-    protected \Product $product
+```php
+protected \Product $product
+```
 
 
 
@@ -86,7 +94,9 @@ Methods
 
 ### <a name="method-assignAttributesCombinations"></a>assignAttributesCombinations
 
-    mixed ProductControllerCore::assignAttributesCombinations()
+```php
+mixed ProductControllerCore::assignAttributesCombinations()
+```
 
 Get and assign attributes combinations informations
 
@@ -100,7 +110,9 @@ Get and assign attributes combinations informations
 
 ### <a name="method-assignAttributesGroups"></a>assignAttributesGroups
 
-    mixed ProductControllerCore::assignAttributesGroups()
+```php
+mixed ProductControllerCore::assignAttributesGroups()
+```
 
 Assign template vars related to attribute groups and colors
 
@@ -114,7 +126,9 @@ Assign template vars related to attribute groups and colors
 
 ### <a name="method-assignCategory"></a>assignCategory
 
-    mixed ProductControllerCore::assignCategory()
+```php
+mixed ProductControllerCore::assignCategory()
+```
 
 Assign template vars related to category
 
@@ -128,7 +142,9 @@ Assign template vars related to category
 
 ### <a name="method-assignImages"></a>assignImages
 
-    mixed ProductControllerCore::assignImages()
+```php
+mixed ProductControllerCore::assignImages()
+```
 
 Assign template vars related to images
 
@@ -142,7 +158,9 @@ Assign template vars related to images
 
 ### <a name="method-assignPriceAndTax"></a>assignPriceAndTax
 
-    mixed ProductControllerCore::assignPriceAndTax()
+```php
+mixed ProductControllerCore::assignPriceAndTax()
+```
 
 Assign price and tax to the template
 
@@ -156,7 +174,9 @@ Assign price and tax to the template
 
 ### <a name="method-canonicalRedirection"></a>canonicalRedirection
 
-    mixed ProductControllerCore::canonicalRedirection($canonical_url)
+```php
+mixed ProductControllerCore::canonicalRedirection($canonical_url)
+```
 
 
 
@@ -173,7 +193,9 @@ Assign price and tax to the template
 
 ### <a name="method-formTargetFormat"></a>formTargetFormat
 
-    mixed ProductControllerCore::formTargetFormat()
+```php
+mixed ProductControllerCore::formTargetFormat()
+```
 
 
 
@@ -187,7 +209,9 @@ Assign price and tax to the template
 
 ### <a name="method-formatQuantityDiscounts"></a>formatQuantityDiscounts
 
-    mixed ProductControllerCore::formatQuantityDiscounts($specific_prices, $price, $tax_rate, $ecotax_amount)
+```php
+mixed ProductControllerCore::formatQuantityDiscounts($specific_prices, $price, $tax_rate, $ecotax_amount)
+```
 
 
 
@@ -207,7 +231,9 @@ Assign price and tax to the template
 
 ### <a name="method-getCategory"></a>getCategory
 
-    mixed ProductControllerCore::getCategory()
+```php
+mixed ProductControllerCore::getCategory()
+```
 
 
 
@@ -221,7 +247,9 @@ Assign price and tax to the template
 
 ### <a name="method-getProduct"></a>getProduct
 
-    mixed ProductControllerCore::getProduct()
+```php
+mixed ProductControllerCore::getProduct()
+```
 
 
 
@@ -235,7 +263,9 @@ Assign price and tax to the template
 
 ### <a name="method-init"></a>init
 
-    mixed ProductControllerCore::init()
+```php
+mixed ProductControllerCore::init()
+```
 
 Initialize product controller
 
@@ -249,7 +279,9 @@ Initialize product controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed ProductControllerCore::initContent()
+```php
+mixed ProductControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -263,7 +295,9 @@ Assign template vars related to page content
 
 ### <a name="method-pictureUpload"></a>pictureUpload
 
-    mixed ProductControllerCore::pictureUpload()
+```php
+mixed ProductControllerCore::pictureUpload()
+```
 
 
 
@@ -277,7 +311,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed ProductControllerCore::setMedia()
+```php
+mixed ProductControllerCore::setMedia()
+```
 
 
 
@@ -291,7 +327,9 @@ Assign template vars related to page content
 
 ### <a name="method-textRecord"></a>textRecord
 
-    mixed ProductControllerCore::textRecord()
+```php
+mixed ProductControllerCore::textRecord()
+```
 
 
 
@@ -305,7 +343,9 @@ Assign template vars related to page content
 
 ### <a name="method-transformDescriptionWithImg"></a>transformDescriptionWithImg
 
-    mixed ProductControllerCore::transformDescriptionWithImg($desc)
+```php
+mixed ProductControllerCore::transformDescriptionWithImg($desc)
+```
 
 
 

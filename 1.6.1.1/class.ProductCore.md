@@ -9,8 +9,11 @@ Class ProductCore
 * Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Product.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L36)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [CUSTOMIZE_FILE](#constant-CUSTOMIZE_FILE)
 * [CUSTOMIZE_TEXTFIELD](#constant-CUSTOMIZE_TEXTFIELD)
@@ -18,8 +21,7 @@ Constants
 * [PTYPE_SIMPLE](#constant-PTYPE_SIMPLE)
 * [PTYPE_VIRTUAL](#constant-PTYPE_VIRTUAL)
 
-Properties
-----------
+### Properties
 
 * [$_cacheFeatures](#property-$_cacheFeatures)
 * [$_cart_quantity](#property-$_cart_quantity)
@@ -103,8 +105,8 @@ Properties
 * [$wholesale_price](#property-$wholesale_price)
 * [$width](#property-$width)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_checkLabelField](#method-_checkLabelField)
 * [_createLabel](#method-_createLabel)
@@ -321,7 +323,9 @@ Constants
 
 ### <a name="constant-CUSTOMIZE_FILE"></a>CUSTOMIZE_FILE
 
-    const CUSTOMIZE_FILE = 0
+```php
+const CUSTOMIZE_FILE = 0
+```
 
 
 
@@ -332,7 +336,9 @@ Constants
 
 ### <a name="constant-CUSTOMIZE_TEXTFIELD"></a>CUSTOMIZE_TEXTFIELD
 
-    const CUSTOMIZE_TEXTFIELD = 1
+```php
+const CUSTOMIZE_TEXTFIELD = 1
+```
 
 
 
@@ -343,7 +349,9 @@ Constants
 
 ### <a name="constant-PTYPE_PACK"></a>PTYPE_PACK
 
-    const PTYPE_PACK = 1
+```php
+const PTYPE_PACK = 1
+```
 
 
 
@@ -354,7 +362,9 @@ Constants
 
 ### <a name="constant-PTYPE_SIMPLE"></a>PTYPE_SIMPLE
 
-    const PTYPE_SIMPLE = 0
+```php
+const PTYPE_SIMPLE = 0
+```
 
 Note:  prefix is "PTYPE" because TYPE_ is used in ObjectModel (definition)
 
@@ -365,7 +375,9 @@ Note:  prefix is "PTYPE" because TYPE_ is used in ObjectModel (definition)
 
 ### <a name="constant-PTYPE_VIRTUAL"></a>PTYPE_VIRTUAL
 
-    const PTYPE_VIRTUAL = 2
+```php
+const PTYPE_VIRTUAL = 2
+```
 
 
 
@@ -380,7 +392,9 @@ Properties
 
 ### <a name="property-$_cacheFeatures"></a>$_cacheFeatures
 
-    protected mixed $_cacheFeatures = array()
+```php
+protected mixed $_cacheFeatures = array()
+```
 
 
 
@@ -393,7 +407,9 @@ Properties
 
 ### <a name="property-$_cart_quantity"></a>$_cart_quantity
 
-    protected array $_cart_quantity = array()
+```php
+protected array $_cart_quantity = array()
+```
 
 
 
@@ -406,7 +422,9 @@ Properties
 
 ### <a name="property-$_frontFeaturesCache"></a>$_frontFeaturesCache
 
-    protected mixed $_frontFeaturesCache = array()
+```php
+protected mixed $_frontFeaturesCache = array()
+```
 
 
 
@@ -419,7 +437,9 @@ Properties
 
 ### <a name="property-$_incat"></a>$_incat
 
-    protected mixed $_incat = array()
+```php
+protected mixed $_incat = array()
+```
 
 
 
@@ -432,7 +452,9 @@ Properties
 
 ### <a name="property-$_prices"></a>$_prices
 
-    protected mixed $_prices = array()
+```php
+protected mixed $_prices = array()
+```
 
 
 
@@ -445,7 +467,9 @@ Properties
 
 ### <a name="property-$_pricesLevel2"></a>$_pricesLevel2
 
-    protected mixed $_pricesLevel2 = array()
+```php
+protected mixed $_pricesLevel2 = array()
+```
 
 
 
@@ -458,7 +482,9 @@ Properties
 
 ### <a name="property-$_taxCalculationMethod"></a>$_taxCalculationMethod
 
-    public mixed $_taxCalculationMethod = null
+```php
+public mixed $_taxCalculationMethod = null
+```
 
 
 
@@ -471,7 +497,9 @@ Properties
 
 ### <a name="property-$_tax_rules_group"></a>$_tax_rules_group
 
-    protected mixed $_tax_rules_group = array()
+```php
+protected mixed $_tax_rules_group = array()
+```
 
 
 
@@ -484,7 +512,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = true
+```php
+public boolean $active = true
+```
 
 
 
@@ -496,7 +526,9 @@ Properties
 
 ### <a name="property-$additional_shipping_cost"></a>$additional_shipping_cost
 
-    public float $additional_shipping_cost
+```php
+public float $additional_shipping_cost
+```
 
 
 
@@ -508,7 +540,9 @@ Properties
 
 ### <a name="property-$advanced_stock_management"></a>$advanced_stock_management
 
-    public boolean $advanced_stock_management
+```php
+public boolean $advanced_stock_management
+```
 
 
 
@@ -520,7 +554,9 @@ Properties
 
 ### <a name="property-$available_date"></a>$available_date
 
-    public string $available_date = '0000-00-00'
+```php
+public string $available_date = '0000-00-00'
+```
 
 
 
@@ -532,7 +568,9 @@ Properties
 
 ### <a name="property-$available_for_order"></a>$available_for_order
 
-    public boolean $available_for_order = true
+```php
+public boolean $available_for_order = true
+```
 
 
 
@@ -544,7 +582,9 @@ Properties
 
 ### <a name="property-$available_later"></a>$available_later
 
-    public string $available_later
+```php
+public string $available_later
+```
 
 
 
@@ -556,7 +596,9 @@ Properties
 
 ### <a name="property-$available_now"></a>$available_now
 
-    public string $available_now
+```php
+public string $available_now
+```
 
 
 
@@ -568,7 +610,9 @@ Properties
 
 ### <a name="property-$base_price"></a>$base_price
 
-    public float $base_price
+```php
+public float $base_price
+```
 
 
 
@@ -580,7 +624,9 @@ Properties
 
 ### <a name="property-$cacheStock"></a>$cacheStock
 
-    protected array $cacheStock = array()
+```php
+protected array $cacheStock = array()
+```
 
 
 
@@ -593,7 +639,9 @@ Properties
 
 ### <a name="property-$cache_default_attribute"></a>$cache_default_attribute
 
-    public mixed $cache_default_attribute
+```php
+public mixed $cache_default_attribute
+```
 
 
 
@@ -605,7 +653,9 @@ Properties
 
 ### <a name="property-$cache_has_attachments"></a>$cache_has_attachments
 
-    public mixed $cache_has_attachments
+```php
+public mixed $cache_has_attachments
+```
 
 
 
@@ -617,7 +667,9 @@ Properties
 
 ### <a name="property-$cache_is_pack"></a>$cache_is_pack
 
-    public mixed $cache_is_pack
+```php
+public mixed $cache_is_pack
+```
 
 
 
@@ -629,7 +681,9 @@ Properties
 
 ### <a name="property-$category"></a>$category
 
-    public string $category
+```php
+public string $category
+```
 
 
 
@@ -641,7 +695,9 @@ Properties
 
 ### <a name="property-$condition"></a>$condition
 
-    public string $condition
+```php
+public string $condition
+```
 
 
 
@@ -653,7 +709,9 @@ Properties
 
 ### <a name="property-$customizable"></a>$customizable
 
-    public boolean $customizable
+```php
+public boolean $customizable
+```
 
 
 
@@ -665,7 +723,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -677,7 +737,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -689,7 +751,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'product', 'primary' => 'id_product', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('id_shop_default' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_manufacturer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_supplier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference', 'size' => 32), 'supplier_reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference', 'size' => 32), 'location' => array('type' => self::TYPE_STRING, 'validate' => 'isReference', 'size' => 64), 'width' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat'), 'height' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat'), 'depth' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat'), 'weight' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat'), 'quantity_discount' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'ean13' => array('type' => self::TYPE_STRING, 'validate' => 'isEan13', 'size' => 13), 'upc' => array('type' => self::TYPE_STRING, 'validate' => 'isUpc', 'size' => 12), 'cache_is_pack' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'cache_has_attachments' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'is_virtual' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'id_category_default' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedId'), 'id_tax_rules_group' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedId'), 'on_sale' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'online_only' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'ecotax' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice'), 'minimal_quantity' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedInt'), 'price' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice', 'required' => true), 'wholesale_price' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice'), 'unity' => array('type' => self::TYPE_STRING, 'shop' => true, 'validate' => 'isString'), 'unit_price_ratio' => array('type' => self::TYPE_FLOAT, 'shop' => true), 'additional_shipping_cost' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice'), 'customizable' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedInt'), 'text_fields' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedInt'), 'uploadable_files' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedInt'), 'active' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'redirect_type' => array('type' => self::TYPE_STRING, 'shop' => true, 'validate' => 'isString'), 'id_product_redirected' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedId'), 'available_for_order' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'available_date' => array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDateFormat'), 'condition' => array('type' => self::TYPE_STRING, 'shop' => true, 'validate' => 'isGenericName', 'values' => array('new', 'used', 'refurbished'), 'default' => 'new'), 'show_price' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'indexed' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'visibility' => array('type' => self::TYPE_STRING, 'shop' => true, 'validate' => 'isProductVisibility', 'values' => array('both', 'catalog', 'search', 'none'), 'default' => 'both'), 'cache_default_attribute' => array('type' => self::TYPE_INT, 'shop' => true), 'advanced_stock_management' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDate'), 'pack_stock_type' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedInt'), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'link_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'required' => true, 'size' => 128, 'ws_modifier' => array('http_method' => \WebserviceRequest::HTTP_POST, 'modifier' => 'modifierWsLinkRewrite')), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCatalogName', 'required' => true, 'size' => 128), 'description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'description_short' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'available_now' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'available_later' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'IsGenericName', 'size' => 255)), 'associations' => array('manufacturer' => array('type' => self::HAS_ONE), 'supplier' => array('type' => self::HAS_ONE), 'default_category' => array('type' => self::HAS_ONE, 'field' => 'id_category_default', 'object' => 'Category'), 'tax_rules_group' => array('type' => self::HAS_ONE), 'categories' => array('type' => self::HAS_MANY, 'field' => 'id_category', 'object' => 'Category', 'association' => 'category_product'), 'stock_availables' => array('type' => self::HAS_MANY, 'field' => 'id_stock_available', 'object' => 'StockAvailable', 'association' => 'stock_availables')))
+```php
+public mixed $definition = array('table' => 'product', 'primary' => 'id_product', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('id_shop_default' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_manufacturer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_supplier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference', 'size' => 32), 'supplier_reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference', 'size' => 32), 'location' => array('type' => self::TYPE_STRING, 'validate' => 'isReference', 'size' => 64), 'width' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat'), 'height' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat'), 'depth' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat'), 'weight' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat'), 'quantity_discount' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'ean13' => array('type' => self::TYPE_STRING, 'validate' => 'isEan13', 'size' => 13), 'upc' => array('type' => self::TYPE_STRING, 'validate' => 'isUpc', 'size' => 12), 'cache_is_pack' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'cache_has_attachments' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'is_virtual' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'id_category_default' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedId'), 'id_tax_rules_group' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedId'), 'on_sale' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'online_only' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'ecotax' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice'), 'minimal_quantity' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedInt'), 'price' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice', 'required' => true), 'wholesale_price' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice'), 'unity' => array('type' => self::TYPE_STRING, 'shop' => true, 'validate' => 'isString'), 'unit_price_ratio' => array('type' => self::TYPE_FLOAT, 'shop' => true), 'additional_shipping_cost' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice'), 'customizable' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedInt'), 'text_fields' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedInt'), 'uploadable_files' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedInt'), 'active' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'redirect_type' => array('type' => self::TYPE_STRING, 'shop' => true, 'validate' => 'isString'), 'id_product_redirected' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedId'), 'available_for_order' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'available_date' => array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDateFormat'), 'condition' => array('type' => self::TYPE_STRING, 'shop' => true, 'validate' => 'isGenericName', 'values' => array('new', 'used', 'refurbished'), 'default' => 'new'), 'show_price' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'indexed' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'visibility' => array('type' => self::TYPE_STRING, 'shop' => true, 'validate' => 'isProductVisibility', 'values' => array('both', 'catalog', 'search', 'none'), 'default' => 'both'), 'cache_default_attribute' => array('type' => self::TYPE_INT, 'shop' => true), 'advanced_stock_management' => array('type' => self::TYPE_BOOL, 'shop' => true, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDate'), 'pack_stock_type' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedInt'), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'link_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'required' => true, 'size' => 128, 'ws_modifier' => array('http_method' => \WebserviceRequest::HTTP_POST, 'modifier' => 'modifierWsLinkRewrite')), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCatalogName', 'required' => true, 'size' => 128), 'description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'description_short' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'available_now' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'available_later' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'IsGenericName', 'size' => 255)), 'associations' => array('manufacturer' => array('type' => self::HAS_ONE), 'supplier' => array('type' => self::HAS_ONE), 'default_category' => array('type' => self::HAS_ONE, 'field' => 'id_category_default', 'object' => 'Category'), 'tax_rules_group' => array('type' => self::HAS_ONE), 'categories' => array('type' => self::HAS_MANY, 'field' => 'id_category', 'object' => 'Category', 'association' => 'category_product'), 'stock_availables' => array('type' => self::HAS_MANY, 'field' => 'id_stock_available', 'object' => 'StockAvailable', 'association' => 'stock_availables')))
+```
 
 
 
@@ -702,7 +766,9 @@ Properties
 
 ### <a name="property-$depends_on_stock"></a>$depends_on_stock
 
-    public mixed $depends_on_stock
+```php
+public mixed $depends_on_stock
+```
 
 
 
@@ -714,7 +780,9 @@ Properties
 
 ### <a name="property-$depth"></a>$depth
 
-    public string $depth
+```php
+public string $depth
+```
 
 
 
@@ -726,7 +794,9 @@ Properties
 
 ### <a name="property-$description"></a>$description
 
-    public string $description
+```php
+public string $description
+```
 
 
 
@@ -738,7 +808,9 @@ Properties
 
 ### <a name="property-$description_short"></a>$description_short
 
-    public string $description_short
+```php
+public string $description_short
+```
 
 
 
@@ -750,7 +822,9 @@ Properties
 
 ### <a name="property-$ean13"></a>$ean13
 
-    public string $ean13
+```php
+public string $ean13
+```
 
 
 
@@ -762,7 +836,9 @@ Properties
 
 ### <a name="property-$ecotax"></a>$ecotax
 
-    public float $ecotax
+```php
+public float $ecotax
+```
 
 
 
@@ -774,7 +850,9 @@ Properties
 
 ### <a name="property-$height"></a>$height
 
-    public string $height
+```php
+public string $height
+```
 
 
 
@@ -786,7 +864,9 @@ Properties
 
 ### <a name="property-$id_category_default"></a>$id_category_default
 
-    public integer $id_category_default
+```php
+public integer $id_category_default
+```
 
 
 
@@ -798,7 +878,9 @@ Properties
 
 ### <a name="property-$id_color_default"></a>$id_color_default
 
-    public mixed $id_color_default
+```php
+public mixed $id_color_default
+```
 
 We keep this variable for retrocompatibility for themes
 
@@ -810,7 +892,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$id_manufacturer"></a>$id_manufacturer
 
-    public integer $id_manufacturer
+```php
+public integer $id_manufacturer
+```
 
 
 
@@ -822,7 +906,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$id_pack_product_attribute"></a>$id_pack_product_attribute
 
-    public mixed $id_pack_product_attribute
+```php
+public mixed $id_pack_product_attribute
+```
 
 
 
@@ -834,7 +920,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$id_product_redirected"></a>$id_product_redirected
 
-    public boolean $id_product_redirected
+```php
+public boolean $id_product_redirected
+```
 
 
 
@@ -846,7 +934,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$id_shop_default"></a>$id_shop_default
 
-    public integer $id_shop_default
+```php
+public integer $id_shop_default
+```
 
 
 
@@ -858,7 +948,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$id_supplier"></a>$id_supplier
 
-    public integer $id_supplier
+```php
+public integer $id_supplier
+```
 
 
 
@@ -870,7 +962,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$id_tax_rules_group"></a>$id_tax_rules_group
 
-    public mixed $id_tax_rules_group = 1
+```php
+public mixed $id_tax_rules_group = 1
+```
 
 
 
@@ -882,7 +976,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$indexed"></a>$indexed
 
-    public boolean $indexed
+```php
+public boolean $indexed
+```
 
 
 
@@ -894,7 +990,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$isFullyLoaded"></a>$isFullyLoaded
 
-    public mixed $isFullyLoaded = false
+```php
+public mixed $isFullyLoaded = false
+```
 
 
 
@@ -906,7 +1004,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$is_virtual"></a>$is_virtual
 
-    public mixed $is_virtual
+```php
+public mixed $is_virtual
+```
 
 
 
@@ -918,7 +1018,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$link_rewrite"></a>$link_rewrite
 
-    public string $link_rewrite
+```php
+public string $link_rewrite
+```
 
 
 
@@ -930,7 +1032,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$location"></a>$location
 
-    public string $location
+```php
+public string $location
+```
 
 
 
@@ -942,7 +1046,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$manufacturer_name"></a>$manufacturer_name
 
-    public string $manufacturer_name
+```php
+public string $manufacturer_name
+```
 
 
 
@@ -954,7 +1060,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$meta_description"></a>$meta_description
 
-    public string $meta_description
+```php
+public string $meta_description
+```
 
 
 
@@ -966,7 +1074,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$meta_keywords"></a>$meta_keywords
 
-    public string $meta_keywords
+```php
+public string $meta_keywords
+```
 
 
 
@@ -978,7 +1088,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$meta_title"></a>$meta_title
 
-    public string $meta_title
+```php
+public string $meta_title
+```
 
 
 
@@ -990,7 +1102,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$minimal_quantity"></a>$minimal_quantity
 
-    public integer $minimal_quantity = 1
+```php
+public integer $minimal_quantity = 1
+```
 
 
 
@@ -1002,7 +1116,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -1014,7 +1130,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$new"></a>$new
 
-    public boolean $new = null
+```php
+public boolean $new = null
+```
 
 
 
@@ -1026,7 +1144,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$on_sale"></a>$on_sale
 
-    public boolean $on_sale = false
+```php
+public boolean $on_sale = false
+```
 
 
 
@@ -1038,7 +1158,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$online_only"></a>$online_only
 
-    public boolean $online_only = false
+```php
+public boolean $online_only = false
+```
 
 
 
@@ -1050,7 +1172,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$out_of_stock"></a>$out_of_stock
 
-    public mixed $out_of_stock
+```php
+public mixed $out_of_stock
+```
 
 
 
@@ -1062,7 +1186,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$pack_stock_type"></a>$pack_stock_type
 
-    public integer $pack_stock_type = 3
+```php
+public integer $pack_stock_type = 3
+```
 
 
 
@@ -1074,7 +1200,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$price"></a>$price
 
-    public float $price
+```php
+public float $price
+```
 
 
 
@@ -1086,7 +1214,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$producPropertiesCache"></a>$producPropertiesCache
 
-    protected mixed $producPropertiesCache = array()
+```php
+protected mixed $producPropertiesCache = array()
+```
 
 
 
@@ -1099,7 +1229,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$quantity"></a>$quantity
 
-    public integer $quantity
+```php
+public integer $quantity
+```
 
 
 
@@ -1111,7 +1243,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$quantity_discount"></a>$quantity_discount
 
-    public boolean $quantity_discount
+```php
+public boolean $quantity_discount
+```
 
 
 
@@ -1123,7 +1257,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$redirect_type"></a>$redirect_type
 
-    public boolean $redirect_type = ''
+```php
+public boolean $redirect_type = ''
+```
 
 
 
@@ -1135,7 +1271,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$reference"></a>$reference
 
-    public string $reference
+```php
+public string $reference
+```
 
 
 
@@ -1147,7 +1285,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$show_price"></a>$show_price
 
-    public boolean $show_price = true
+```php
+public boolean $show_price = true
+```
 
 
 
@@ -1159,7 +1299,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$specificPrice"></a>$specificPrice
 
-    public mixed $specificPrice
+```php
+public mixed $specificPrice
+```
 
 
 
@@ -1171,7 +1313,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$supplier_name"></a>$supplier_name
 
-    public string $supplier_name
+```php
+public string $supplier_name
+```
 
 
 
@@ -1183,7 +1327,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$supplier_reference"></a>$supplier_reference
 
-    public string $supplier_reference
+```php
+public string $supplier_reference
+```
 
 
 
@@ -1195,7 +1341,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$tags"></a>$tags
 
-    public mixed $tags
+```php
+public mixed $tags
+```
 
 
 
@@ -1207,7 +1355,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$tax_name"></a>$tax_name
 
-    public string $tax_name
+```php
+public string $tax_name
+```
 
 
 
@@ -1219,7 +1369,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$tax_rate"></a>$tax_rate
 
-    public string $tax_rate
+```php
+public string $tax_rate
+```
 
 
 
@@ -1231,7 +1383,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$text_fields"></a>$text_fields
 
-    public integer $text_fields
+```php
+public integer $text_fields
+```
 
 
 
@@ -1243,7 +1397,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$unit_price"></a>$unit_price
 
-    public float $unit_price
+```php
+public float $unit_price
+```
 
 
 
@@ -1255,7 +1411,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$unit_price_ratio"></a>$unit_price_ratio
 
-    public float $unit_price_ratio
+```php
+public float $unit_price_ratio
+```
 
 
 
@@ -1267,7 +1425,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$unity"></a>$unity
 
-    public string $unity = null
+```php
+public string $unity = null
+```
 
 
 
@@ -1279,7 +1439,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$upc"></a>$upc
 
-    public string $upc
+```php
+public string $upc
+```
 
 
 
@@ -1291,7 +1453,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$uploadable_files"></a>$uploadable_files
 
-    public integer $uploadable_files
+```php
+public integer $uploadable_files
+```
 
 
 
@@ -1303,7 +1467,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$visibility"></a>$visibility
 
-    public string $visibility
+```php
+public string $visibility
+```
 
 
 
@@ -1315,7 +1481,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectMethods' => array('add' => 'addWs', 'update' => 'updateWs'), 'objectNodeNames' => 'products', 'fields' => array('id_manufacturer' => array('xlink_resource' => 'manufacturers'), 'id_supplier' => array('xlink_resource' => 'suppliers'), 'id_category_default' => array('xlink_resource' => 'categories'), 'new' => array(), 'cache_default_attribute' => array(), 'id_default_image' => array('getter' => 'getCoverWs', 'setter' => 'setCoverWs', 'xlink_resource' => array('resourceName' => 'images', 'subResourceName' => 'products')), 'id_default_combination' => array('getter' => 'getWsDefaultCombination', 'setter' => 'setWsDefaultCombination', 'xlink_resource' => array('resourceName' => 'combinations')), 'id_tax_rules_group' => array('xlink_resource' => array('resourceName' => 'tax_rule_groups')), 'position_in_category' => array('getter' => 'getWsPositionInCategory', 'setter' => 'setWsPositionInCategory'), 'manufacturer_name' => array('getter' => 'getWsManufacturerName', 'setter' => false), 'quantity' => array('getter' => false, 'setter' => false), 'type' => array('getter' => 'getWsType', 'setter' => 'setWsType')), 'associations' => array('categories' => array('resource' => 'category', 'fields' => array('id' => array('required' => true))), 'images' => array('resource' => 'image', 'fields' => array('id' => array())), 'combinations' => array('resource' => 'combination', 'fields' => array('id' => array('required' => true))), 'product_option_values' => array('resource' => 'product_option_value', 'fields' => array('id' => array('required' => true))), 'product_features' => array('resource' => 'product_feature', 'fields' => array('id' => array('required' => true), 'id_feature_value' => array('required' => true, 'xlink_resource' => 'product_feature_values'))), 'tags' => array('resource' => 'tag', 'fields' => array('id' => array('required' => true))), 'stock_availables' => array('resource' => 'stock_available', 'fields' => array('id' => array('required' => true), 'id_product_attribute' => array('required' => true)), 'setter' => false), 'accessories' => array('resource' => 'product', 'api' => 'products', 'fields' => array('id' => array('required' => true, 'xlink_resource' => 'product'))), 'product_bundle' => array('resource' => 'product', 'api' => 'products', 'fields' => array('id' => array('required' => true), 'quantity' => array()))))
+```php
+protected mixed $webserviceParameters = array('objectMethods' => array('add' => 'addWs', 'update' => 'updateWs'), 'objectNodeNames' => 'products', 'fields' => array('id_manufacturer' => array('xlink_resource' => 'manufacturers'), 'id_supplier' => array('xlink_resource' => 'suppliers'), 'id_category_default' => array('xlink_resource' => 'categories'), 'new' => array(), 'cache_default_attribute' => array(), 'id_default_image' => array('getter' => 'getCoverWs', 'setter' => 'setCoverWs', 'xlink_resource' => array('resourceName' => 'images', 'subResourceName' => 'products')), 'id_default_combination' => array('getter' => 'getWsDefaultCombination', 'setter' => 'setWsDefaultCombination', 'xlink_resource' => array('resourceName' => 'combinations')), 'id_tax_rules_group' => array('xlink_resource' => array('resourceName' => 'tax_rule_groups')), 'position_in_category' => array('getter' => 'getWsPositionInCategory', 'setter' => 'setWsPositionInCategory'), 'manufacturer_name' => array('getter' => 'getWsManufacturerName', 'setter' => false), 'quantity' => array('getter' => false, 'setter' => false), 'type' => array('getter' => 'getWsType', 'setter' => 'setWsType')), 'associations' => array('categories' => array('resource' => 'category', 'fields' => array('id' => array('required' => true))), 'images' => array('resource' => 'image', 'fields' => array('id' => array())), 'combinations' => array('resource' => 'combination', 'fields' => array('id' => array('required' => true))), 'product_option_values' => array('resource' => 'product_option_value', 'fields' => array('id' => array('required' => true))), 'product_features' => array('resource' => 'product_feature', 'fields' => array('id' => array('required' => true), 'id_feature_value' => array('required' => true, 'xlink_resource' => 'product_feature_values'))), 'tags' => array('resource' => 'tag', 'fields' => array('id' => array('required' => true))), 'stock_availables' => array('resource' => 'stock_available', 'fields' => array('id' => array('required' => true), 'id_product_attribute' => array('required' => true)), 'setter' => false), 'accessories' => array('resource' => 'product', 'api' => 'products', 'fields' => array('id' => array('required' => true, 'xlink_resource' => 'product'))), 'product_bundle' => array('resource' => 'product', 'api' => 'products', 'fields' => array('id' => array('required' => true), 'quantity' => array()))))
+```
 
 
 
@@ -1327,7 +1495,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$weight"></a>$weight
 
-    public string $weight
+```php
+public string $weight
+```
 
 
 
@@ -1339,7 +1509,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$wholesale_price"></a>$wholesale_price
 
-    public float $wholesale_price
+```php
+public float $wholesale_price
+```
 
 
 
@@ -1351,7 +1523,9 @@ We keep this variable for retrocompatibility for themes
 
 ### <a name="property-$width"></a>$width
 
-    public string $width
+```php
+public string $width
+```
 
 
 
@@ -1367,7 +1541,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ProductCore::__construct($id_product, $full, $id_lang, $id_shop, \Context $context)
+```php
+mixed ProductCore::__construct($id_product, $full, $id_lang, $id_shop, \Context $context)
+```
 
 
 
@@ -1388,7 +1564,9 @@ Methods
 
 ### <a name="method-_checkLabelField"></a>_checkLabelField
 
-    mixed ProductCore::_checkLabelField($field, $value)
+```php
+mixed ProductCore::_checkLabelField($field, $value)
+```
 
 
 
@@ -1406,7 +1584,9 @@ Methods
 
 ### <a name="method-_createLabel"></a>_createLabel
 
-    mixed ProductCore::_createLabel($languages, $type)
+```php
+mixed ProductCore::_createLabel($languages, $type)
+```
 
 
 
@@ -1424,7 +1604,9 @@ Methods
 
 ### <a name="method-_deleteOldLabels"></a>_deleteOldLabels
 
-    mixed ProductCore::_deleteOldLabels()
+```php
+mixed ProductCore::_deleteOldLabels()
+```
 
 
 
@@ -1438,7 +1620,9 @@ Methods
 
 ### <a name="method-_getAttributeImageAssociations"></a>_getAttributeImageAssociations
 
-    array ProductCore::_getAttributeImageAssociations(integer $id_product_attribute)
+```php
+array ProductCore::_getAttributeImageAssociations(integer $id_product_attribute)
+```
 
 Get product attribute image associations
 
@@ -1456,7 +1640,9 @@ Get product attribute image associations
 
 ### <a name="method-_getCustomizationFieldsNLabels"></a>_getCustomizationFieldsNLabels
 
-    mixed ProductCore::_getCustomizationFieldsNLabels($product_id, $id_shop)
+```php
+mixed ProductCore::_getCustomizationFieldsNLabels($product_id, $id_shop)
+```
 
 
 
@@ -1475,7 +1661,9 @@ Get product attribute image associations
 
 ### <a name="method-_getProductIdByDate"></a>_getProductIdByDate
 
-    mixed ProductCore::_getProductIdByDate($beginning, $ending, \Context $context, $with_combination)
+```php
+mixed ProductCore::_getProductIdByDate($beginning, $ending, \Context $context, $with_combination)
+```
 
 
 
@@ -1496,7 +1684,9 @@ Get product attribute image associations
 
 ### <a name="method-add"></a>add
 
-    mixed ProductCore::add($autodate, $null_values)
+```php
+mixed ProductCore::add($autodate, $null_values)
+```
 
 
 
@@ -1514,7 +1704,9 @@ Get product attribute image associations
 
 ### <a name="method-addAttribute"></a>addAttribute
 
-    mixed ProductCore::addAttribute(float $price, float $weight, $unit_impact, float $ecotax, integer $id_images, string $reference, string $ean13, boolean $default, string $location, $upc, integer $minimal_quantity, array $id_shop_list, $available_date)
+```php
+mixed ProductCore::addAttribute(float $price, float $weight, $unit_impact, float $ecotax, integer $id_images, string $reference, string $ean13, boolean $default, string $location, $upc, integer $minimal_quantity, array $id_shop_list, $available_date)
+```
 
 Add a product attribute
 
@@ -1543,7 +1735,9 @@ Add a product attribute
 
 ### <a name="method-addAttributeCombinaison"></a>addAttributeCombinaison
 
-    array ProductCore::addAttributeCombinaison(integer $id_product_attribute, array $attributes)
+```php
+array ProductCore::addAttributeCombinaison(integer $id_product_attribute, array $attributes)
+```
 
 Add a product attributes combinaison
 
@@ -1561,7 +1755,9 @@ Add a product attributes combinaison
 
 ### <a name="method-addAttributeCombinationMultiple"></a>addAttributeCombinationMultiple
 
-    boolean ProductCore::addAttributeCombinationMultiple($id_attributes, $combinations)
+```php
+boolean ProductCore::addAttributeCombinationMultiple($id_attributes, $combinations)
+```
 
 
 
@@ -1579,7 +1775,9 @@ Add a product attributes combinaison
 
 ### <a name="method-addCombinationEntity"></a>addCombinationEntity
 
-    mixed ProductCore::addCombinationEntity($wholesale_price, $price, $weight, $unit_impact, $ecotax, integer $quantity, $id_images, $reference, $id_supplier, $ean13, $default, $location, $upc, $minimal_quantity, array $id_shop_list, $available_date)
+```php
+mixed ProductCore::addCombinationEntity($wholesale_price, $price, $weight, $unit_impact, $ecotax, integer $quantity, $id_images, $reference, $id_supplier, $ean13, $default, $location, $upc, $minimal_quantity, array $id_shop_list, $available_date)
+```
 
 
 
@@ -1611,7 +1809,9 @@ Add a product attributes combinaison
 
 ### <a name="method-addCustomizationPrice"></a>addCustomizationPrice
 
-    mixed ProductCore::addCustomizationPrice($products, $customized_datas)
+```php
+mixed ProductCore::addCustomizationPrice($products, $customized_datas)
+```
 
 
 
@@ -1630,7 +1830,9 @@ Add a product attributes combinaison
 
 ### <a name="method-addFeatureProductImport"></a>addFeatureProductImport
 
-    mixed ProductCore::addFeatureProductImport($id_product, $id_feature, $id_feature_value)
+```php
+mixed ProductCore::addFeatureProductImport($id_product, $id_feature, $id_feature_value)
+```
 
 
 
@@ -1650,7 +1852,9 @@ Add a product attributes combinaison
 
 ### <a name="method-addFeaturesCustomToDB"></a>addFeaturesCustomToDB
 
-    mixed ProductCore::addFeaturesCustomToDB($id_value, $lang, $cust)
+```php
+mixed ProductCore::addFeaturesCustomToDB($id_value, $lang, $cust)
+```
 
 Add new feature to product
 
@@ -1669,7 +1873,9 @@ Add new feature to product
 
 ### <a name="method-addFeaturesToDB"></a>addFeaturesToDB
 
-    mixed ProductCore::addFeaturesToDB($id_feature, $id_value, $cust)
+```php
+mixed ProductCore::addFeaturesToDB($id_feature, $id_value, $cust)
+```
 
 
 
@@ -1688,7 +1894,9 @@ Add new feature to product
 
 ### <a name="method-addProductAttribute"></a>addProductAttribute
 
-    mixed ProductCore::addProductAttribute($price, $weight, $unit_impact, $ecotax, $quantity, $id_images, $reference, $id_supplier, $ean13, $default, $location, $upc, $minimal_quantity)
+```php
+mixed ProductCore::addProductAttribute($price, $weight, $unit_impact, $ecotax, $quantity, $id_images, $reference, $id_supplier, $ean13, $default, $location, $upc, $minimal_quantity)
+```
 
 addProductAttribute is deprecated
 
@@ -1718,7 +1926,9 @@ The supplier_reference params now set the supplier reference of the default supp
 
 ### <a name="method-addProductAttributeMultiple"></a>addProductAttributeMultiple
 
-    array ProductCore::addProductAttributeMultiple($attributes, boolean $set_default)
+```php
+array ProductCore::addProductAttributeMultiple($attributes, boolean $set_default)
+```
 
 
 
@@ -1736,7 +1946,9 @@ The supplier_reference params now set the supplier reference of the default supp
 
 ### <a name="method-addStockMvt"></a>addStockMvt
 
-    boolean ProductCore::addStockMvt(integer $quantity, integer $id_reason, integer $id_product_attribute, integer $id_order, integer $id_employee)
+```php
+boolean ProductCore::addStockMvt(integer $quantity, integer $id_reason, integer $id_product_attribute, integer $id_order, integer $id_employee)
+```
 
 Add a stock movement for current product
 
@@ -1763,7 +1975,9 @@ DEPRECATED
 
 ### <a name="method-addSupplierReference"></a>addSupplierReference
 
-    mixed ProductCore::addSupplierReference(integer $id_supplier, integer $id_product_attribute, string $supplier_reference, float $price, integer $id_currency)
+```php
+mixed ProductCore::addSupplierReference(integer $id_supplier, integer $id_product_attribute, string $supplier_reference, float $price, integer $id_currency)
+```
 
 Sets or updates Supplier Reference
 
@@ -1784,7 +1998,9 @@ Sets or updates Supplier Reference
 
 ### <a name="method-addToCategories"></a>addToCategories
 
-    boolean ProductCore::addToCategories(mixed $categories)
+```php
+boolean ProductCore::addToCategories(mixed $categories)
+```
 
 addToCategories add this product to the category/ies if not exists.
 
@@ -1801,7 +2017,9 @@ addToCategories add this product to the category/ies if not exists.
 
 ### <a name="method-addWs"></a>addWs
 
-    mixed ProductCore::addWs($autodate, $null_values)
+```php
+mixed ProductCore::addWs($autodate, $null_values)
+```
 
 
 
@@ -1819,7 +2037,9 @@ addToCategories add this product to the category/ies if not exists.
 
 ### <a name="method-cacheFrontFeatures"></a>cacheFrontFeatures
 
-    mixed ProductCore::cacheFrontFeatures($product_ids, $id_lang)
+```php
+mixed ProductCore::cacheFrontFeatures($product_ids, $id_lang)
+```
 
 
 
@@ -1838,7 +2058,9 @@ addToCategories add this product to the category/ies if not exists.
 
 ### <a name="method-cacheProductsFeatures"></a>cacheProductsFeatures
 
-    mixed ProductCore::cacheProductsFeatures($product_ids)
+```php
+mixed ProductCore::cacheProductsFeatures($product_ids)
+```
 
 
 
@@ -1856,7 +2078,9 @@ addToCategories add this product to the category/ies if not exists.
 
 ### <a name="method-changeAccessories"></a>changeAccessories
 
-    mixed ProductCore::changeAccessories(array $accessories_id)
+```php
+mixed ProductCore::changeAccessories(array $accessories_id)
+```
 
 Link accessories with product
 
@@ -1873,7 +2097,9 @@ Link accessories with product
 
 ### <a name="method-checkAccess"></a>checkAccess
 
-    mixed ProductCore::checkAccess($id_customer)
+```php
+mixed ProductCore::checkAccess($id_customer)
+```
 
 
 
@@ -1890,7 +2116,9 @@ Link accessories with product
 
 ### <a name="method-checkAccessStatic"></a>checkAccessStatic
 
-    mixed ProductCore::checkAccessStatic($id_product, $id_customer)
+```php
+mixed ProductCore::checkAccessStatic($id_product, $id_customer)
+```
 
 
 
@@ -1909,7 +2137,9 @@ Link accessories with product
 
 ### <a name="method-checkDefaultAttributes"></a>checkDefaultAttributes
 
-    mixed ProductCore::checkDefaultAttributes()
+```php
+mixed ProductCore::checkDefaultAttributes()
+```
 
 Check if there is no default attribute and create it if not
 
@@ -1923,7 +2153,9 @@ Check if there is no default attribute and create it if not
 
 ### <a name="method-checkQty"></a>checkQty
 
-    boolean ProductCore::checkQty(integer $qty)
+```php
+boolean ProductCore::checkQty(integer $qty)
+```
 
 Check product availability
 
@@ -1940,7 +2172,9 @@ Check product availability
 
 ### <a name="method-cleanPositions"></a>cleanPositions
 
-    mixed ProductCore::cleanPositions($id_category, $position)
+```php
+mixed ProductCore::cleanPositions($id_category, $position)
+```
 
 
 
@@ -1959,7 +2193,9 @@ Check product availability
 
 ### <a name="method-convertAndFormatPrice"></a>convertAndFormatPrice
 
-    mixed ProductCore::convertAndFormatPrice($price, $currency, \Context $context)
+```php
+mixed ProductCore::convertAndFormatPrice($price, $currency, \Context $context)
+```
 
 
 
@@ -1979,7 +2215,9 @@ Check product availability
 
 ### <a name="method-convertPrice"></a>convertPrice
 
-    string ProductCore::convertPrice(array $params, $smarty)
+```php
+string ProductCore::convertPrice(array $params, $smarty)
+```
 
 Display price with right format and currency
 
@@ -1998,7 +2236,9 @@ Display price with right format and currency
 
 ### <a name="method-convertPriceWithCurrency"></a>convertPriceWithCurrency
 
-    string ProductCore::convertPriceWithCurrency(array $params, object $smarty)
+```php
+string ProductCore::convertPriceWithCurrency(array $params, object $smarty)
+```
 
 Convert price with currency
 
@@ -2017,7 +2257,9 @@ Convert price with currency
 
 ### <a name="method-createLabels"></a>createLabels
 
-    mixed ProductCore::createLabels($uploadable_files, $text_fields)
+```php
+mixed ProductCore::createLabels($uploadable_files, $text_fields)
+```
 
 
 
@@ -2035,7 +2277,9 @@ Convert price with currency
 
 ### <a name="method-defineProductImage"></a>defineProductImage
 
-    mixed ProductCore::defineProductImage($row, $id_lang)
+```php
+mixed ProductCore::defineProductImage($row, $id_lang)
+```
 
 
 
@@ -2054,7 +2298,9 @@ Convert price with currency
 
 ### <a name="method-delete"></a>delete
 
-    mixed ProductCore::delete()
+```php
+mixed ProductCore::delete()
+```
 
 
 
@@ -2068,7 +2314,9 @@ Convert price with currency
 
 ### <a name="method-deleteAccessories"></a>deleteAccessories
 
-    mixed ProductCore::deleteAccessories()
+```php
+mixed ProductCore::deleteAccessories()
+```
 
 Delete product accessories
 
@@ -2082,7 +2330,9 @@ Delete product accessories
 
 ### <a name="method-deleteAttachments"></a>deleteAttachments
 
-    array ProductCore::deleteAttachments($update_attachment_cache)
+```php
+array ProductCore::deleteAttachments($update_attachment_cache)
+```
 
 Delete product attachments
 
@@ -2099,7 +2349,9 @@ Delete product attachments
 
 ### <a name="method-deleteAttributeCombinaison"></a>deleteAttributeCombinaison
 
-    mixed ProductCore::deleteAttributeCombinaison(integer $id_product_attribute)
+```php
+mixed ProductCore::deleteAttributeCombinaison(integer $id_product_attribute)
+```
 
 
 
@@ -2116,7 +2368,9 @@ Delete product attachments
 
 ### <a name="method-deleteAttributeCombination"></a>deleteAttributeCombination
 
-    array ProductCore::deleteAttributeCombination(integer $id_product_attribute)
+```php
+array ProductCore::deleteAttributeCombination(integer $id_product_attribute)
+```
 
 Delete a product attributes combination
 
@@ -2133,7 +2387,9 @@ Delete a product attributes combination
 
 ### <a name="method-deleteAttributesImpacts"></a>deleteAttributesImpacts
 
-    boolean ProductCore::deleteAttributesImpacts()
+```php
+boolean ProductCore::deleteAttributesImpacts()
+```
 
 Delete product attributes impacts
 
@@ -2147,7 +2403,9 @@ Delete product attributes impacts
 
 ### <a name="method-deleteCartProducts"></a>deleteCartProducts
 
-    array ProductCore::deleteCartProducts()
+```php
+array ProductCore::deleteCartProducts()
+```
 
 Delete product from cart
 
@@ -2161,7 +2419,9 @@ Delete product from cart
 
 ### <a name="method-deleteCategories"></a>deleteCategories
 
-    array ProductCore::deleteCategories(boolean $clean_positions)
+```php
+array ProductCore::deleteCategories(boolean $clean_positions)
+```
 
 Delete all association to category where product is indexed
 
@@ -2178,7 +2438,9 @@ Delete all association to category where product is indexed
 
 ### <a name="method-deleteCategory"></a>deleteCategory
 
-    boolean ProductCore::deleteCategory(mixed $id_category, mixed $clean_positions)
+```php
+boolean ProductCore::deleteCategory(mixed $id_category, mixed $clean_positions)
+```
 
 deleteCategory delete this product from the category $id_category
 
@@ -2196,7 +2458,9 @@ deleteCategory delete this product from the category $id_category
 
 ### <a name="method-deleteCustomization"></a>deleteCustomization
 
-    array ProductCore::deleteCustomization()
+```php
+array ProductCore::deleteCustomization()
+```
 
 Delete product customizations
 
@@ -2210,7 +2474,9 @@ Delete product customizations
 
 ### <a name="method-deleteDefaultAttributes"></a>deleteDefaultAttributes
 
-    mixed ProductCore::deleteDefaultAttributes()
+```php
+mixed ProductCore::deleteDefaultAttributes()
+```
 
 Del all default attributes for product
 
@@ -2224,7 +2490,9 @@ Del all default attributes for product
 
 ### <a name="method-deleteDownload"></a>deleteDownload
 
-    boolean ProductCore::deleteDownload()
+```php
+boolean ProductCore::deleteDownload()
+```
 
 Remove all downloadable files for product and its attributes
 
@@ -2238,7 +2506,9 @@ Remove all downloadable files for product and its attributes
 
 ### <a name="method-deleteFeatures"></a>deleteFeatures
 
-    mixed ProductCore::deleteFeatures()
+```php
+mixed ProductCore::deleteFeatures()
+```
 
 Delete features
 
@@ -2252,7 +2522,9 @@ Delete features
 
 ### <a name="method-deleteFromAccessories"></a>deleteFromAccessories
 
-    mixed ProductCore::deleteFromAccessories()
+```php
+mixed ProductCore::deleteFromAccessories()
+```
 
 Delete product from other products accessories
 
@@ -2266,7 +2538,9 @@ Delete product from other products accessories
 
 ### <a name="method-deleteFromCartRules"></a>deleteFromCartRules
 
-    mixed ProductCore::deleteFromCartRules()
+```php
+mixed ProductCore::deleteFromCartRules()
+```
 
 
 
@@ -2280,7 +2554,9 @@ Delete product from other products accessories
 
 ### <a name="method-deleteFromSupplier"></a>deleteFromSupplier
 
-    mixed ProductCore::deleteFromSupplier()
+```php
+mixed ProductCore::deleteFromSupplier()
+```
 
 
 
@@ -2294,7 +2570,9 @@ Delete product from other products accessories
 
 ### <a name="method-deleteImages"></a>deleteImages
 
-    boolean ProductCore::deleteImages()
+```php
+boolean ProductCore::deleteImages()
+```
 
 Delete product images from database
 
@@ -2308,7 +2586,9 @@ Delete product images from database
 
 ### <a name="method-deletePack"></a>deletePack
 
-    array ProductCore::deletePack()
+```php
+array ProductCore::deletePack()
+```
 
 Delete product pack details
 
@@ -2322,7 +2602,9 @@ Delete product pack details
 
 ### <a name="method-deleteProductAttributes"></a>deleteProductAttributes
 
-    array ProductCore::deleteProductAttributes()
+```php
+array ProductCore::deleteProductAttributes()
+```
 
 Delete product attributes
 
@@ -2336,7 +2618,9 @@ Delete product attributes
 
 ### <a name="method-deleteProductFeatures"></a>deleteProductFeatures
 
-    array ProductCore::deleteProductFeatures()
+```php
+array ProductCore::deleteProductFeatures()
+```
 
 Delete product features
 
@@ -2350,7 +2634,9 @@ Delete product features
 
 ### <a name="method-deleteProductSale"></a>deleteProductSale
 
-    array ProductCore::deleteProductSale()
+```php
+array ProductCore::deleteProductSale()
+```
 
 Delete product sales
 
@@ -2364,7 +2650,9 @@ Delete product sales
 
 ### <a name="method-deleteSceneProducts"></a>deleteSceneProducts
 
-    array ProductCore::deleteSceneProducts()
+```php
+array ProductCore::deleteSceneProducts()
+```
 
 Delete product in its scenes
 
@@ -2378,7 +2666,9 @@ Delete product in its scenes
 
 ### <a name="method-deleteSearchIndexes"></a>deleteSearchIndexes
 
-    array ProductCore::deleteSearchIndexes()
+```php
+array ProductCore::deleteSearchIndexes()
+```
 
 Delete product indexed words
 
@@ -2392,7 +2682,9 @@ Delete product indexed words
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    mixed ProductCore::deleteSelection($products)
+```php
+mixed ProductCore::deleteSelection($products)
+```
 
 
 
@@ -2409,7 +2701,9 @@ Delete product indexed words
 
 ### <a name="method-deleteTags"></a>deleteTags
 
-    array ProductCore::deleteTags()
+```php
+array ProductCore::deleteTags()
+```
 
 Delete products tags entries
 
@@ -2423,7 +2717,9 @@ Delete products tags entries
 
 ### <a name="method-deleteWsTags"></a>deleteWsTags
 
-    array ProductCore::deleteWsTags()
+```php
+array ProductCore::deleteWsTags()
+```
 
 Delete products tags entries without delete tags for webservice usage
 
@@ -2437,7 +2733,9 @@ Delete products tags entries without delete tags for webservice usage
 
 ### <a name="method-displayWtPrice"></a>displayWtPrice
 
-    mixed ProductCore::displayWtPrice($params, $smarty)
+```php
+mixed ProductCore::displayWtPrice($params, $smarty)
+```
 
 
 
@@ -2456,7 +2754,9 @@ Delete products tags entries without delete tags for webservice usage
 
 ### <a name="method-displayWtPriceWithCurrency"></a>displayWtPriceWithCurrency
 
-    string ProductCore::displayWtPriceWithCurrency(array $params, \Smarty $smarty)
+```php
+string ProductCore::displayWtPriceWithCurrency(array $params, \Smarty $smarty)
+```
 
 Display WT price with currency
 
@@ -2475,7 +2775,9 @@ Display WT price with currency
 
 ### <a name="method-duplicateAccessories"></a>duplicateAccessories
 
-    mixed ProductCore::duplicateAccessories($id_product_old, $id_product_new)
+```php
+mixed ProductCore::duplicateAccessories($id_product_old, $id_product_new)
+```
 
 
 
@@ -2494,7 +2796,9 @@ Display WT price with currency
 
 ### <a name="method-duplicateAttachments"></a>duplicateAttachments
 
-    mixed ProductCore::duplicateAttachments($id_product_old, $id_product_new)
+```php
+mixed ProductCore::duplicateAttachments($id_product_old, $id_product_new)
+```
 
 
 
@@ -2513,7 +2817,9 @@ Display WT price with currency
 
 ### <a name="method-duplicateAttributes"></a>duplicateAttributes
 
-    mixed ProductCore::duplicateAttributes(integer $id_product_old, integer $id_product_new)
+```php
+mixed ProductCore::duplicateAttributes(integer $id_product_old, integer $id_product_new)
+```
 
 Duplicate attributes when duplicating a product
 
@@ -2532,7 +2838,9 @@ Duplicate attributes when duplicating a product
 
 ### <a name="method-duplicateCustomizationFields"></a>duplicateCustomizationFields
 
-    mixed ProductCore::duplicateCustomizationFields($old_product_id, $product_id)
+```php
+mixed ProductCore::duplicateCustomizationFields($old_product_id, $product_id)
+```
 
 
 
@@ -2551,7 +2859,9 @@ Duplicate attributes when duplicating a product
 
 ### <a name="method-duplicateDownload"></a>duplicateDownload
 
-    mixed ProductCore::duplicateDownload($id_product_old, $id_product_new)
+```php
+mixed ProductCore::duplicateDownload($id_product_old, $id_product_new)
+```
 
 
 
@@ -2570,7 +2880,9 @@ Duplicate attributes when duplicating a product
 
 ### <a name="method-duplicateFeatures"></a>duplicateFeatures
 
-    mixed ProductCore::duplicateFeatures(integer $id_product_old, $id_product_new)
+```php
+mixed ProductCore::duplicateFeatures(integer $id_product_old, $id_product_new)
+```
 
 Duplicate features when duplicating a product
 
@@ -2589,7 +2901,9 @@ Duplicate features when duplicating a product
 
 ### <a name="method-duplicateSpecificPrices"></a>duplicateSpecificPrices
 
-    mixed ProductCore::duplicateSpecificPrices($old_product_id, $product_id)
+```php
+mixed ProductCore::duplicateSpecificPrices($old_product_id, $product_id)
+```
 
 
 
@@ -2608,7 +2922,9 @@ Duplicate features when duplicating a product
 
 ### <a name="method-duplicateSuppliers"></a>duplicateSuppliers
 
-    mixed ProductCore::duplicateSuppliers(integer $id_product_old, integer $id_product_new)
+```php
+mixed ProductCore::duplicateSuppliers(integer $id_product_old, integer $id_product_new)
+```
 
 Adds suppliers from old product onto a newly duplicated product
 
@@ -2627,7 +2943,9 @@ Adds suppliers from old product onto a newly duplicated product
 
 ### <a name="method-duplicateTags"></a>duplicateTags
 
-    mixed ProductCore::duplicateTags($id_product_old, $id_product_new)
+```php
+mixed ProductCore::duplicateTags($id_product_old, $id_product_new)
+```
 
 
 
@@ -2646,7 +2964,9 @@ Adds suppliers from old product onto a newly duplicated product
 
 ### <a name="method-existsRefInDatabase"></a>existsRefInDatabase
 
-    boolean ProductCore::existsRefInDatabase($reference)
+```php
+boolean ProductCore::existsRefInDatabase($reference)
+```
 
 Checks if reference exists
 
@@ -2663,7 +2983,9 @@ Checks if reference exists
 
 ### <a name="method-flushPriceCache"></a>flushPriceCache
 
-    mixed ProductCore::flushPriceCache()
+```php
+mixed ProductCore::flushPriceCache()
+```
 
 This method allows to flush price cache
 
@@ -2678,7 +3000,9 @@ This method allows to flush price cache
 
 ### <a name="method-generateMultipleCombinations"></a>generateMultipleCombinations
 
-    mixed ProductCore::generateMultipleCombinations($combinations, $attributes)
+```php
+mixed ProductCore::generateMultipleCombinations($combinations, $attributes)
+```
 
 
 
@@ -2696,7 +3020,9 @@ This method allows to flush price cache
 
 ### <a name="method-getAccessories"></a>getAccessories
 
-    array ProductCore::getAccessories(integer $id_lang, $active)
+```php
+array ProductCore::getAccessories(integer $id_lang, $active)
+```
 
 Get product accessories
 
@@ -2714,7 +3040,9 @@ Get product accessories
 
 ### <a name="method-getAccessoriesLight"></a>getAccessoriesLight
 
-    array ProductCore::getAccessoriesLight(integer $id_lang, integer $id_product)
+```php
+array ProductCore::getAccessoriesLight(integer $id_lang, integer $id_product)
+```
 
 Get product accessories (only names)
 
@@ -2733,7 +3061,9 @@ Get product accessories (only names)
 
 ### <a name="method-getAccessoryById"></a>getAccessoryById
 
-    mixed ProductCore::getAccessoryById($accessory_id)
+```php
+mixed ProductCore::getAccessoryById($accessory_id)
+```
 
 
 
@@ -2751,7 +3081,9 @@ Get product accessories (only names)
 
 ### <a name="method-getAllCustomizedDatas"></a>getAllCustomizedDatas
 
-    mixed ProductCore::getAllCustomizedDatas($id_cart, $id_lang, $only_in_cart, $id_shop)
+```php
+mixed ProductCore::getAllCustomizedDatas($id_cart, $id_lang, $only_in_cart, $id_shop)
+```
 
 
 
@@ -2772,7 +3104,9 @@ Get product accessories (only names)
 
 ### <a name="method-getAnchor"></a>getAnchor
 
-    string ProductCore::getAnchor(integer $id_product_attribute, $with_id)
+```php
+string ProductCore::getAnchor(integer $id_product_attribute, $with_id)
+```
 
 Get the combination url anchor of the product
 
@@ -2790,7 +3124,9 @@ Get the combination url anchor of the product
 
 ### <a name="method-getAttachments"></a>getAttachments
 
-    mixed ProductCore::getAttachments($id_lang)
+```php
+mixed ProductCore::getAttachments($id_lang)
+```
 
 
 
@@ -2807,7 +3143,9 @@ Get the combination url anchor of the product
 
 ### <a name="method-getAttachmentsStatic"></a>getAttachmentsStatic
 
-    mixed ProductCore::getAttachmentsStatic($id_lang, $id_product)
+```php
+mixed ProductCore::getAttachmentsStatic($id_lang, $id_product)
+```
 
 
 
@@ -2826,7 +3164,9 @@ Get the combination url anchor of the product
 
 ### <a name="method-getAttributeCombinaisons"></a>getAttributeCombinaisons
 
-    mixed ProductCore::getAttributeCombinaisons(integer $id_lang)
+```php
+mixed ProductCore::getAttributeCombinaisons(integer $id_lang)
+```
 
 
 
@@ -2843,7 +3183,9 @@ Get the combination url anchor of the product
 
 ### <a name="method-getAttributeCombinations"></a>getAttributeCombinations
 
-    array ProductCore::getAttributeCombinations(integer $id_lang)
+```php
+array ProductCore::getAttributeCombinations(integer $id_lang)
+```
 
 Get all available product attributes combinations
 
@@ -2860,7 +3202,9 @@ Get all available product attributes combinations
 
 ### <a name="method-getAttributeCombinationsById"></a>getAttributeCombinationsById
 
-    array ProductCore::getAttributeCombinationsById(integer $id_product_attribute, integer $id_lang)
+```php
+array ProductCore::getAttributeCombinationsById(integer $id_product_attribute, integer $id_lang)
+```
 
 Get product attribute combination by id_product_attribute
 
@@ -2878,7 +3222,9 @@ Get product attribute combination by id_product_attribute
 
 ### <a name="method-getAttributesColorList"></a>getAttributesColorList
 
-    mixed ProductCore::getAttributesColorList(array $products, $have_stock)
+```php
+mixed ProductCore::getAttributesColorList(array $products, $have_stock)
+```
 
 
 
@@ -2897,7 +3243,9 @@ Get product attribute combination by id_product_attribute
 
 ### <a name="method-getAttributesGroups"></a>getAttributesGroups
 
-    array ProductCore::getAttributesGroups(integer $id_lang)
+```php
+array ProductCore::getAttributesGroups(integer $id_lang)
+```
 
 Get all available attribute groups
 
@@ -2914,7 +3262,9 @@ Get all available attribute groups
 
 ### <a name="method-getAttributesImpacts"></a>getAttributesImpacts
 
-    mixed ProductCore::getAttributesImpacts($id_product)
+```php
+mixed ProductCore::getAttributesImpacts($id_product)
+```
 
 
 
@@ -2932,7 +3282,9 @@ Get all available attribute groups
 
 ### <a name="method-getAttributesInformationsByProduct"></a>getAttributesInformationsByProduct
 
-    mixed ProductCore::getAttributesInformationsByProduct(integer $id_product)
+```php
+mixed ProductCore::getAttributesInformationsByProduct(integer $id_product)
+```
 
 
 
@@ -2950,7 +3302,9 @@ Get all available attribute groups
 
 ### <a name="method-getAttributesParams"></a>getAttributesParams
 
-    array ProductCore::getAttributesParams(integer $id_product, $id_product_attribute)
+```php
+array ProductCore::getAttributesParams(integer $id_product, $id_product_attribute)
+```
 
 Get label by lang and value by lang too
 
@@ -2969,7 +3323,9 @@ Get label by lang and value by lang too
 
 ### <a name="method-getAttributesResume"></a>getAttributesResume
 
-    array ProductCore::getAttributesResume(integer $id_lang, $attribute_value_separator, $attribute_separator)
+```php
+array ProductCore::getAttributesResume(integer $id_lang, $attribute_value_separator, $attribute_separator)
+```
 
 Get all available product attributes resume
 
@@ -2988,7 +3344,9 @@ Get all available product attributes resume
 
 ### <a name="method-getAvailableDate"></a>getAvailableDate
 
-    \string/null ProductCore::getAvailableDate(integer $id_product, integer $id_product_attribute)
+```php
+\string/null ProductCore::getAvailableDate(integer $id_product, integer $id_product_attribute)
+```
 
 For a given id_product and id_product_attribute, return available date
 
@@ -3007,7 +3365,9 @@ For a given id_product and id_product_attribute, return available date
 
 ### <a name="method-getCarriers"></a>getCarriers
 
-    mixed ProductCore::getCarriers()
+```php
+mixed ProductCore::getCarriers()
+```
 
 Gets carriers assigned to the product
 
@@ -3021,7 +3381,9 @@ Gets carriers assigned to the product
 
 ### <a name="method-getCategories"></a>getCategories
 
-    array ProductCore::getCategories()
+```php
+array ProductCore::getCategories()
+```
 
 getCategories return an array of categories which this product belongs to
 
@@ -3035,7 +3397,9 @@ getCategories return an array of categories which this product belongs to
 
 ### <a name="method-getColorsListCacheId"></a>getColorsListCacheId
 
-    mixed ProductCore::getColorsListCacheId($id_product)
+```php
+mixed ProductCore::getColorsListCacheId($id_product)
+```
 
 
 
@@ -3053,7 +3417,9 @@ getCategories return an array of categories which this product belongs to
 
 ### <a name="method-getCombinationImageById"></a>getCombinationImageById
 
-    mixed ProductCore::getCombinationImageById($id_product_attribute, $id_lang)
+```php
+mixed ProductCore::getCombinationImageById($id_product_attribute, $id_lang)
+```
 
 
 
@@ -3072,7 +3438,9 @@ getCategories return an array of categories which this product belongs to
 
 ### <a name="method-getCombinationImages"></a>getCombinationImages
 
-    mixed ProductCore::getCombinationImages($id_lang)
+```php
+mixed ProductCore::getCombinationImages($id_lang)
+```
 
 
 
@@ -3089,7 +3457,9 @@ getCategories return an array of categories which this product belongs to
 
 ### <a name="method-getCover"></a>getCover
 
-    array ProductCore::getCover($id_product, \Context $context)
+```php
+array ProductCore::getCover($id_product, \Context $context)
+```
 
 Get product cover image
 
@@ -3108,7 +3478,9 @@ Get product cover image
 
 ### <a name="method-getCoverWs"></a>getCoverWs
 
-    integer ProductCore::getCoverWs()
+```php
+integer ProductCore::getCoverWs()
+```
 
 Webservice getter : get virtual field id_default_image in category
 
@@ -3122,7 +3494,9 @@ Webservice getter : get virtual field id_default_image in category
 
 ### <a name="method-getCustomizationFieldIds"></a>getCustomizationFieldIds
 
-    mixed ProductCore::getCustomizationFieldIds()
+```php
+mixed ProductCore::getCustomizationFieldIds()
+```
 
 
 
@@ -3136,7 +3510,9 @@ Webservice getter : get virtual field id_default_image in category
 
 ### <a name="method-getCustomizationFields"></a>getCustomizationFields
 
-    mixed ProductCore::getCustomizationFields($id_lang, $id_shop)
+```php
+mixed ProductCore::getCustomizationFields($id_lang, $id_shop)
+```
 
 
 
@@ -3154,7 +3530,9 @@ Webservice getter : get virtual field id_default_image in category
 
 ### <a name="method-getDefaultAttribute"></a>getDefaultAttribute
 
-    integer ProductCore::getDefaultAttribute($id_product, $minimum_quantity, $reset)
+```php
+integer ProductCore::getDefaultAttribute($id_product, $minimum_quantity, $reset)
+```
 
 Get the default attribute for a product
 
@@ -3174,7 +3552,9 @@ Get the default attribute for a product
 
 ### <a name="method-getDefaultCategory"></a>getDefaultCategory
 
-    mixed ProductCore::getDefaultCategory()
+```php
+mixed ProductCore::getDefaultCategory()
+```
 
 get the default category according to the shop
 
@@ -3188,7 +3568,9 @@ get the default category according to the shop
 
 ### <a name="method-getDefaultIdProductAttribute"></a>getDefaultIdProductAttribute
 
-    mixed ProductCore::getDefaultIdProductAttribute()
+```php
+mixed ProductCore::getDefaultIdProductAttribute()
+```
 
 
 
@@ -3202,7 +3584,9 @@ get the default category according to the shop
 
 ### <a name="method-getFeatures"></a>getFeatures
 
-    array ProductCore::getFeatures()
+```php
+array ProductCore::getFeatures()
+```
 
 Select all features for the object
 
@@ -3216,7 +3600,9 @@ Select all features for the object
 
 ### <a name="method-getFeaturesStatic"></a>getFeaturesStatic
 
-    mixed ProductCore::getFeaturesStatic($id_product)
+```php
+mixed ProductCore::getFeaturesStatic($id_product)
+```
 
 
 
@@ -3234,7 +3620,9 @@ Select all features for the object
 
 ### <a name="method-getFieldsShop"></a>getFieldsShop
 
-    array ProductCore::getFieldsShop()
+```php
+array ProductCore::getFieldsShop()
+```
 
 
 
@@ -3248,7 +3636,9 @@ Select all features for the object
 
 ### <a name="method-getFrontFeatures"></a>getFrontFeatures
 
-    mixed ProductCore::getFrontFeatures($id_lang)
+```php
+mixed ProductCore::getFrontFeatures($id_lang)
+```
 
 
 
@@ -3265,7 +3655,9 @@ Select all features for the object
 
 ### <a name="method-getFrontFeaturesStatic"></a>getFrontFeaturesStatic
 
-    mixed ProductCore::getFrontFeaturesStatic($id_lang, $id_product)
+```php
+mixed ProductCore::getFrontFeaturesStatic($id_lang, $id_product)
+```
 
 
 
@@ -3284,7 +3676,9 @@ Select all features for the object
 
 ### <a name="method-getIdByEan13"></a>getIdByEan13
 
-    integer ProductCore::getIdByEan13(string $ean13)
+```php
+integer ProductCore::getIdByEan13(string $ean13)
+```
 
 For a given ean13 reference, returns the corresponding id
 
@@ -3302,7 +3696,9 @@ For a given ean13 reference, returns the corresponding id
 
 ### <a name="method-getIdProductAttributeMostExpensive"></a>getIdProductAttributeMostExpensive
 
-    mixed ProductCore::getIdProductAttributeMostExpensive()
+```php
+mixed ProductCore::getIdProductAttributeMostExpensive()
+```
 
 
 
@@ -3316,7 +3712,9 @@ For a given ean13 reference, returns the corresponding id
 
 ### <a name="method-getIdTaxRulesGroup"></a>getIdTaxRulesGroup
 
-    mixed ProductCore::getIdTaxRulesGroup()
+```php
+mixed ProductCore::getIdTaxRulesGroup()
+```
 
 
 
@@ -3330,7 +3728,9 @@ For a given ean13 reference, returns the corresponding id
 
 ### <a name="method-getIdTaxRulesGroupByIdProduct"></a>getIdTaxRulesGroupByIdProduct
 
-    mixed ProductCore::getIdTaxRulesGroupByIdProduct($id_product, \Context $context)
+```php
+mixed ProductCore::getIdTaxRulesGroupByIdProduct($id_product, \Context $context)
+```
 
 
 
@@ -3349,7 +3749,9 @@ For a given ean13 reference, returns the corresponding id
 
 ### <a name="method-getIdTaxRulesGroupMostUsed"></a>getIdTaxRulesGroupMostUsed
 
-    mixed ProductCore::getIdTaxRulesGroupMostUsed()
+```php
+mixed ProductCore::getIdTaxRulesGroupMostUsed()
+```
 
 
 
@@ -3364,7 +3766,9 @@ For a given ean13 reference, returns the corresponding id
 
 ### <a name="method-getImages"></a>getImages
 
-    array ProductCore::getImages(integer $id_lang, \Context $context)
+```php
+array ProductCore::getImages(integer $id_lang, \Context $context)
+```
 
 Get product images and legends
 
@@ -3382,7 +3786,9 @@ Get product images and legends
 
 ### <a name="method-getLink"></a>getLink
 
-    mixed ProductCore::getLink(\Context $context)
+```php
+mixed ProductCore::getLink(\Context $context)
+```
 
 Get the link of the product page of this product
 
@@ -3399,7 +3805,9 @@ Get the link of the product page of this product
 
 ### <a name="method-getNewProducts"></a>getNewProducts
 
-    array ProductCore::getNewProducts(integer $id_lang, $page_number, $nb_products, $count, $order_by, $order_way, \Context $context)
+```php
+array ProductCore::getNewProducts(integer $id_lang, $page_number, $nb_products, $count, $order_by, $order_way, \Context $context)
+```
 
 Get new products
 
@@ -3423,7 +3831,9 @@ Get new products
 
 ### <a name="method-getNoPackPrice"></a>getNoPackPrice
 
-    mixed ProductCore::getNoPackPrice()
+```php
+mixed ProductCore::getNoPackPrice()
+```
 
 
 
@@ -3437,7 +3847,9 @@ Get new products
 
 ### <a name="method-getParentCategories"></a>getParentCategories
 
-    array ProductCore::getParentCategories(integer $id_lang)
+```php
+array ProductCore::getParentCategories(integer $id_lang)
+```
 
 Get list of parent categories
 
@@ -3454,7 +3866,9 @@ Get list of parent categories
 
 ### <a name="method-getPrice"></a>getPrice
 
-    float ProductCore::getPrice(boolean $tax, integer $id_product_attribute, integer $decimals, integer $divisor, $only_reduc, $usereduc, $quantity)
+```php
+float ProductCore::getPrice(boolean $tax, integer $id_product_attribute, integer $decimals, integer $divisor, $only_reduc, $usereduc, $quantity)
+```
 
 Get product price
 Same as static function getPriceStatic, no need to specify product id
@@ -3478,7 +3892,9 @@ Same as static function getPriceStatic, no need to specify product id
 
 ### <a name="method-getPriceStatic"></a>getPriceStatic
 
-    float ProductCore::getPriceStatic(integer $id_product, boolean $usetax, integer|null $id_product_attribute, integer $decimals, integer|null $divisor, boolean $only_reduc, boolean $usereduc, integer $quantity, boolean $force_associated_tax, integer|null $id_customer, integer|null $id_cart, integer|null $id_address, null $specific_price_output, boolean $with_ecotax, boolean $use_group_reduction, \Context $context, boolean $use_customer_price)
+```php
+float ProductCore::getPriceStatic(integer $id_product, boolean $usetax, integer|null $id_product_attribute, integer $decimals, integer|null $divisor, boolean $only_reduc, boolean $usereduc, integer $quantity, boolean $force_associated_tax, integer|null $id_customer, integer|null $id_cart, integer|null $id_address, null $specific_price_output, boolean $with_ecotax, boolean $use_group_reduction, \Context $context, boolean $use_customer_price)
+```
 
 Returns product price
 
@@ -3518,7 +3934,9 @@ Returns product price
 
 ### <a name="method-getPriceWithoutReduct"></a>getPriceWithoutReduct
 
-    mixed ProductCore::getPriceWithoutReduct($notax, $id_product_attribute, $decimals)
+```php
+mixed ProductCore::getPriceWithoutReduct($notax, $id_product_attribute, $decimals)
+```
 
 
 
@@ -3537,7 +3955,9 @@ Returns product price
 
 ### <a name="method-getPricesDrop"></a>getPricesDrop
 
-    array ProductCore::getPricesDrop(integer $id_lang, $page_number, $nb_products, boolean $count, $order_by, $order_way, $beginning, $ending, \Context $context)
+```php
+array ProductCore::getPricesDrop(integer $id_lang, $page_number, $nb_products, boolean $count, $order_by, $order_way, $beginning, $ending, \Context $context)
+```
 
 Get prices drop
 
@@ -3563,7 +3983,9 @@ Get prices drop
 
 ### <a name="method-getProductAttributePrice"></a>getProductAttributePrice
 
-    mixed ProductCore::getProductAttributePrice($id_product_attribute)
+```php
+mixed ProductCore::getProductAttributePrice($id_product_attribute)
+```
 
 
 
@@ -3581,7 +4003,9 @@ Get prices drop
 
 ### <a name="method-getProductAttributesIds"></a>getProductAttributesIds
 
-    array ProductCore::getProductAttributesIds(integer $id_product, $shop_only)
+```php
+array ProductCore::getProductAttributesIds(integer $id_product, $shop_only)
+```
 
 Get all product attributes ids
 
@@ -3600,7 +4024,9 @@ Get all product attributes ids
 
 ### <a name="method-getProductCategories"></a>getProductCategories
 
-    array ProductCore::getProductCategories($id_product)
+```php
+array ProductCore::getProductCategories($id_product)
+```
 
 getProductCategories return an array of categories which this product belongs to
 
@@ -3618,7 +4044,9 @@ getProductCategories return an array of categories which this product belongs to
 
 ### <a name="method-getProductCategoriesFull"></a>getProductCategoriesFull
 
-    mixed ProductCore::getProductCategoriesFull($id_product, $id_lang)
+```php
+mixed ProductCore::getProductCategoriesFull($id_product, $id_lang)
+```
 
 
 
@@ -3637,7 +4065,9 @@ getProductCategories return an array of categories which this product belongs to
 
 ### <a name="method-getProductName"></a>getProductName
 
-    string ProductCore::getProductName(integer $id_product, integer $id_product_attribute, integer $id_lang)
+```php
+string ProductCore::getProductName(integer $id_product, integer $id_product_attribute, integer $id_lang)
+```
 
 Gets the name of a given product, in the given lang
 
@@ -3657,7 +4087,9 @@ Gets the name of a given product, in the given lang
 
 ### <a name="method-getProductProperties"></a>getProductProperties
 
-    mixed ProductCore::getProductProperties($id_lang, $row, \Context $context)
+```php
+mixed ProductCore::getProductProperties($id_lang, $row, \Context $context)
+```
 
 
 
@@ -3677,7 +4109,9 @@ Gets the name of a given product, in the given lang
 
 ### <a name="method-getProducts"></a>getProducts
 
-    array ProductCore::getProducts(integer $id_lang, integer $start, integer $limit, string $order_by, string $order_way, $id_category, $only_active, \Context $context)
+```php
+array ProductCore::getProducts(integer $id_lang, integer $start, integer $limit, string $order_by, string $order_way, $id_category, $only_active, \Context $context)
+```
 
 Get all available products
 
@@ -3702,7 +4136,9 @@ Get all available products
 
 ### <a name="method-getProductsProperties"></a>getProductsProperties
 
-    mixed ProductCore::getProductsProperties($id_lang, $query_result)
+```php
+mixed ProductCore::getProductsProperties($id_lang, $query_result)
+```
 
 
 
@@ -3721,7 +4157,9 @@ Get all available products
 
 ### <a name="method-getPublicPrice"></a>getPublicPrice
 
-    mixed ProductCore::getPublicPrice($tax, $id_product_attribute, $decimals, $divisor, $only_reduc, $usereduc, $quantity)
+```php
+mixed ProductCore::getPublicPrice($tax, $id_product_attribute, $decimals, $divisor, $only_reduc, $usereduc, $quantity)
+```
 
 
 
@@ -3744,7 +4182,9 @@ Get all available products
 
 ### <a name="method-getQuantity"></a>getQuantity
 
-    integer ProductCore::getQuantity(integer $id_product, integer $id_product_attribute, $cache_is_pack)
+```php
+integer ProductCore::getQuantity(integer $id_product, integer $id_product_attribute, $cache_is_pack)
+```
 
 Get available product quantities
 
@@ -3764,7 +4204,9 @@ Get available product quantities
 
 ### <a name="method-getRandomSpecial"></a>getRandomSpecial
 
-    array ProductCore::getRandomSpecial(integer $id_lang, $beginning, $ending, \Context $context)
+```php
+array ProductCore::getRandomSpecial(integer $id_lang, $beginning, $ending, \Context $context)
+```
 
 Get a random special
 
@@ -3785,7 +4227,9 @@ Get a random special
 
 ### <a name="method-getRealQuantity"></a>getRealQuantity
 
-    integer ProductCore::getRealQuantity(integer $id_product, integer $id_product_attribute, integer $id_warehouse, integer $id_shop)
+```php
+integer ProductCore::getRealQuantity(integer $id_product, integer $id_product_attribute, integer $id_warehouse, integer $id_shop)
+```
 
 For a given product, returns its real quantity
 
@@ -3806,7 +4250,9 @@ For a given product, returns its real quantity
 
 ### <a name="method-getRequiredCustomizableFields"></a>getRequiredCustomizableFields
 
-    mixed ProductCore::getRequiredCustomizableFields()
+```php
+mixed ProductCore::getRequiredCustomizableFields()
+```
 
 
 
@@ -3820,7 +4266,9 @@ For a given product, returns its real quantity
 
 ### <a name="method-getRequiredCustomizableFieldsStatic"></a>getRequiredCustomizableFieldsStatic
 
-    mixed ProductCore::getRequiredCustomizableFieldsStatic($id)
+```php
+mixed ProductCore::getRequiredCustomizableFieldsStatic($id)
+```
 
 
 
@@ -3838,7 +4286,9 @@ For a given product, returns its real quantity
 
 ### <a name="method-getShopsByProduct"></a>getShopsByProduct
 
-    mixed ProductCore::getShopsByProduct($id_product)
+```php
+mixed ProductCore::getShopsByProduct($id_product)
+```
 
 
 
@@ -3856,7 +4306,9 @@ For a given product, returns its real quantity
 
 ### <a name="method-getSimpleProducts"></a>getSimpleProducts
 
-    mixed ProductCore::getSimpleProducts($id_lang, \Context $context)
+```php
+mixed ProductCore::getSimpleProducts($id_lang, \Context $context)
+```
 
 
 
@@ -3875,7 +4327,9 @@ For a given product, returns its real quantity
 
 ### <a name="method-getStockMvts"></a>getStockMvts
 
-    mixed ProductCore::getStockMvts($id_lang)
+```php
+mixed ProductCore::getStockMvts($id_lang)
+```
 
 
 
@@ -3892,7 +4346,9 @@ For a given product, returns its real quantity
 
 ### <a name="method-getTags"></a>getTags
 
-    mixed ProductCore::getTags($id_lang)
+```php
+mixed ProductCore::getTags($id_lang)
+```
 
 
 
@@ -3909,7 +4365,9 @@ For a given product, returns its real quantity
 
 ### <a name="method-getTaxCalculationMethod"></a>getTaxCalculationMethod
 
-    mixed ProductCore::getTaxCalculationMethod($id_customer)
+```php
+mixed ProductCore::getTaxCalculationMethod($id_customer)
+```
 
 
 
@@ -3927,7 +4385,9 @@ For a given product, returns its real quantity
 
 ### <a name="method-getTaxesInformations"></a>getTaxesInformations
 
-    mixed ProductCore::getTaxesInformations($row, \Context $context)
+```php
+mixed ProductCore::getTaxesInformations($row, \Context $context)
+```
 
 
 
@@ -3946,7 +4406,9 @@ For a given product, returns its real quantity
 
 ### <a name="method-getTaxesRate"></a>getTaxesRate
 
-    float ProductCore::getTaxesRate(\Address|null $address)
+```php
+float ProductCore::getTaxesRate(\Address|null $address)
+```
 
 Returns tax rate.
 
@@ -3963,7 +4425,9 @@ Returns tax rate.
 
 ### <a name="method-getType"></a>getType
 
-    integer ProductCore::getType()
+```php
+integer ProductCore::getType()
+```
 
 Get the product type (simple, virtual, pack)
 
@@ -3977,7 +4441,9 @@ Get the product type (simple, virtual, pack)
 
 ### <a name="method-getUrlRewriteInformations"></a>getUrlRewriteInformations
 
-    mixed ProductCore::getUrlRewriteInformations($id_product)
+```php
+mixed ProductCore::getUrlRewriteInformations($id_product)
+```
 
 
 
@@ -3995,7 +4461,9 @@ Get the product type (simple, virtual, pack)
 
 ### <a name="method-getWsAccessories"></a>getWsAccessories
 
-    array ProductCore::getWsAccessories()
+```php
+array ProductCore::getWsAccessories()
+```
 
 Webservice getter : get product accessories ids of current product for association
 
@@ -4009,7 +4477,9 @@ Webservice getter : get product accessories ids of current product for associati
 
 ### <a name="method-getWsCategories"></a>getWsCategories
 
-    array ProductCore::getWsCategories()
+```php
+array ProductCore::getWsCategories()
+```
 
 Webservice getter : get category ids of current product for association
 
@@ -4023,7 +4493,9 @@ Webservice getter : get category ids of current product for association
 
 ### <a name="method-getWsCombinations"></a>getWsCombinations
 
-    array ProductCore::getWsCombinations()
+```php
+array ProductCore::getWsCombinations()
+```
 
 Webservice getter : get combination ids of current product for association
 
@@ -4037,7 +4509,9 @@ Webservice getter : get combination ids of current product for association
 
 ### <a name="method-getWsDefaultCombination"></a>getWsDefaultCombination
 
-    integer ProductCore::getWsDefaultCombination()
+```php
+integer ProductCore::getWsDefaultCombination()
+```
 
 Webservice getter : get virtual field default combination
 
@@ -4051,7 +4525,9 @@ Webservice getter : get virtual field default combination
 
 ### <a name="method-getWsImages"></a>getWsImages
 
-    array ProductCore::getWsImages()
+```php
+array ProductCore::getWsImages()
+```
 
 Webservice getter : get image ids of current product for association
 
@@ -4065,7 +4541,9 @@ Webservice getter : get image ids of current product for association
 
 ### <a name="method-getWsManufacturerName"></a>getWsManufacturerName
 
-    mixed ProductCore::getWsManufacturerName()
+```php
+mixed ProductCore::getWsManufacturerName()
+```
 
 
 
@@ -4079,7 +4557,9 @@ Webservice getter : get image ids of current product for association
 
 ### <a name="method-getWsPositionInCategory"></a>getWsPositionInCategory
 
-    integer ProductCore::getWsPositionInCategory()
+```php
+integer ProductCore::getWsPositionInCategory()
+```
 
 Webservice getter : get virtual field position in category
 
@@ -4093,7 +4573,9 @@ Webservice getter : get virtual field position in category
 
 ### <a name="method-getWsProductBundle"></a>getWsProductBundle
 
-    mixed ProductCore::getWsProductBundle()
+```php
+mixed ProductCore::getWsProductBundle()
+```
 
 
 
@@ -4107,7 +4589,9 @@ Webservice getter : get virtual field position in category
 
 ### <a name="method-getWsProductFeatures"></a>getWsProductFeatures
 
-    array ProductCore::getWsProductFeatures()
+```php
+array ProductCore::getWsProductFeatures()
+```
 
 Webservice getter : get product features association
 
@@ -4121,7 +4605,9 @@ Webservice getter : get product features association
 
 ### <a name="method-getWsProductOptionValues"></a>getWsProductOptionValues
 
-    array ProductCore::getWsProductOptionValues()
+```php
+array ProductCore::getWsProductOptionValues()
+```
 
 Webservice getter : get product option ids of current product for association
 
@@ -4135,7 +4621,9 @@ Webservice getter : get product option ids of current product for association
 
 ### <a name="method-getWsStockAvailables"></a>getWsStockAvailables
 
-    mixed ProductCore::getWsStockAvailables()
+```php
+mixed ProductCore::getWsStockAvailables()
+```
 
 
 
@@ -4149,7 +4637,9 @@ Webservice getter : get product option ids of current product for association
 
 ### <a name="method-getWsTags"></a>getWsTags
 
-    mixed ProductCore::getWsTags()
+```php
+mixed ProductCore::getWsTags()
+```
 
 
 
@@ -4163,7 +4653,9 @@ Webservice getter : get product option ids of current product for association
 
 ### <a name="method-getWsType"></a>getWsType
 
-    mixed ProductCore::getWsType()
+```php
+mixed ProductCore::getWsType()
+```
 
 
 
@@ -4177,7 +4669,9 @@ Webservice getter : get product option ids of current product for association
 
 ### <a name="method-hasAllRequiredCustomizableFields"></a>hasAllRequiredCustomizableFields
 
-    mixed ProductCore::hasAllRequiredCustomizableFields(\Context $context)
+```php
+mixed ProductCore::hasAllRequiredCustomizableFields(\Context $context)
+```
 
 
 
@@ -4194,7 +4688,9 @@ Webservice getter : get product option ids of current product for association
 
 ### <a name="method-hasAttributes"></a>hasAttributes
 
-    integer ProductCore::hasAttributes()
+```php
+integer ProductCore::hasAttributes()
+```
 
 Check if product has attributes combinations
 
@@ -4208,7 +4704,9 @@ Check if product has attributes combinations
 
 ### <a name="method-hasAttributesInOtherShops"></a>hasAttributesInOtherShops
 
-    mixed ProductCore::hasAttributesInOtherShops()
+```php
+mixed ProductCore::hasAttributesInOtherShops()
+```
 
 
 
@@ -4222,7 +4720,9 @@ Check if product has attributes combinations
 
 ### <a name="method-idIsOnCategoryId"></a>idIsOnCategoryId
 
-    boolean ProductCore::idIsOnCategoryId(integer $id_product, array $categories)
+```php
+boolean ProductCore::idIsOnCategoryId(integer $id_product, array $categories)
+```
 
 Checks if the product is in at least one of the submited categories
 
@@ -4241,7 +4741,9 @@ Checks if the product is in at least one of the submited categories
 
 ### <a name="method-initPricesComputation"></a>initPricesComputation
 
-    mixed ProductCore::initPricesComputation($id_customer)
+```php
+mixed ProductCore::initPricesComputation($id_customer)
+```
 
 
 
@@ -4259,7 +4761,9 @@ Checks if the product is in at least one of the submited categories
 
 ### <a name="method-isAvailableWhenOutOfStock"></a>isAvailableWhenOutOfStock
 
-    mixed ProductCore::isAvailableWhenOutOfStock($out_of_stock)
+```php
+mixed ProductCore::isAvailableWhenOutOfStock($out_of_stock)
+```
 
 
 
@@ -4277,7 +4781,9 @@ Checks if the product is in at least one of the submited categories
 
 ### <a name="method-isColorUnavailable"></a>isColorUnavailable
 
-    mixed ProductCore::isColorUnavailable($id_attribute, $id_shop)
+```php
+mixed ProductCore::isColorUnavailable($id_attribute, $id_shop)
+```
 
 
 
@@ -4295,7 +4801,9 @@ Checks if the product is in at least one of the submited categories
 
 ### <a name="method-isDiscounted"></a>isDiscounted
 
-    mixed ProductCore::isDiscounted($id_product, $quantity, \Context $context)
+```php
+mixed ProductCore::isDiscounted($id_product, $quantity, \Context $context)
+```
 
 
 
@@ -4315,7 +4823,9 @@ Checks if the product is in at least one of the submited categories
 
 ### <a name="method-isNew"></a>isNew
 
-    mixed ProductCore::isNew()
+```php
+mixed ProductCore::isNew()
+```
 
 
 
@@ -4329,7 +4839,9 @@ Checks if the product is in at least one of the submited categories
 
 ### <a name="method-loadStockData"></a>loadStockData
 
-    mixed ProductCore::loadStockData()
+```php
+mixed ProductCore::loadStockData()
+```
 
 Fill the variables used for stock management
 
@@ -4343,7 +4855,9 @@ Fill the variables used for stock management
 
 ### <a name="method-modifierWsLinkRewrite"></a>modifierWsLinkRewrite
 
-    mixed ProductCore::modifierWsLinkRewrite()
+```php
+mixed ProductCore::modifierWsLinkRewrite()
+```
 
 
 
@@ -4357,7 +4871,9 @@ Fill the variables used for stock management
 
 ### <a name="method-priceCalculation"></a>priceCalculation
 
-    float ProductCore::priceCalculation(integer $id_shop, integer $id_product, integer $id_product_attribute, integer $id_country, integer $id_state, string $zipcode, integer $id_currency, integer $id_group, integer $quantity, boolean $use_tax, integer $decimals, boolean $only_reduc, boolean $use_reduc, boolean $with_ecotax, null $specific_price, boolean $use_group_reduction, integer $id_customer, boolean $use_customer_price, integer $id_cart, integer $real_quantity)
+```php
+float ProductCore::priceCalculation(integer $id_shop, integer $id_product, integer $id_product_attribute, integer $id_country, integer $id_state, string $zipcode, integer $id_currency, integer $id_group, integer $quantity, boolean $use_tax, integer $decimals, boolean $only_reduc, boolean $use_reduc, boolean $with_ecotax, null $specific_price, boolean $use_group_reduction, integer $id_customer, boolean $use_customer_price, integer $id_cart, integer $real_quantity)
+```
 
 Price calculation / Get product price
 
@@ -4395,7 +4911,9 @@ Price calculation / Get product price
 
 ### <a name="method-productAttributeExists"></a>productAttributeExists
 
-    mixed ProductCore::productAttributeExists($attributes_list, $current_product_attribute, \Context $context, $all_shops, $return_id)
+```php
+mixed ProductCore::productAttributeExists($attributes_list, $current_product_attribute, \Context $context, $all_shops, $return_id)
+```
 
 
 
@@ -4416,7 +4934,9 @@ Price calculation / Get product price
 
 ### <a name="method-reinjectQuantities"></a>reinjectQuantities
 
-    false ProductCore::reinjectQuantities()
+```php
+false ProductCore::reinjectQuantities()
+```
 
 
 
@@ -4431,7 +4951,9 @@ Price calculation / Get product price
 
 ### <a name="method-resetEcoTax"></a>resetEcoTax
 
-    mixed ProductCore::resetEcoTax()
+```php
+mixed ProductCore::resetEcoTax()
+```
 
 
 
@@ -4446,7 +4968,9 @@ Price calculation / Get product price
 
 ### <a name="method-searchByName"></a>searchByName
 
-    array ProductCore::searchByName(integer $id_lang, string $query, \Context $context)
+```php
+array ProductCore::searchByName(integer $id_lang, string $query, \Context $context)
+```
 
 Admin panel product search
 
@@ -4466,7 +4990,9 @@ Admin panel product search
 
 ### <a name="method-setAdvancedStockManagement"></a>setAdvancedStockManagement
 
-    mixed ProductCore::setAdvancedStockManagement($value)
+```php
+mixed ProductCore::setAdvancedStockManagement($value)
+```
 
 
 
@@ -4483,7 +5009,9 @@ Admin panel product search
 
 ### <a name="method-setAvailableDate"></a>setAvailableDate
 
-    mixed ProductCore::setAvailableDate($available_date)
+```php
+mixed ProductCore::setAvailableDate($available_date)
+```
 
 
 
@@ -4500,7 +5028,9 @@ Admin panel product search
 
 ### <a name="method-setCarriers"></a>setCarriers
 
-    mixed ProductCore::setCarriers($carrier_list)
+```php
+mixed ProductCore::setCarriers($carrier_list)
+```
 
 Sets carriers assigned to the product
 
@@ -4517,7 +5047,9 @@ Sets carriers assigned to the product
 
 ### <a name="method-setCoverWs"></a>setCoverWs
 
-    boolean ProductCore::setCoverWs($id_image)
+```php
+boolean ProductCore::setCoverWs($id_image)
+```
 
 Webservice setter : set virtual field id_default_image in category
 
@@ -4534,7 +5066,9 @@ Webservice setter : set virtual field id_default_image in category
 
 ### <a name="method-setDefaultAttribute"></a>setDefaultAttribute
 
-    mixed ProductCore::setDefaultAttribute($id_product_attribute)
+```php
+mixed ProductCore::setDefaultAttribute($id_product_attribute)
+```
 
 
 
@@ -4551,7 +5085,9 @@ Webservice setter : set virtual field id_default_image in category
 
 ### <a name="method-setGroupReduction"></a>setGroupReduction
 
-    mixed ProductCore::setGroupReduction()
+```php
+mixed ProductCore::setGroupReduction()
+```
 
 Set Group reduction if needed
 
@@ -4565,7 +5101,9 @@ Set Group reduction if needed
 
 ### <a name="method-setPackStockType"></a>setPackStockType
 
-    mixed ProductCore::setPackStockType($id_product, $pack_stock_type)
+```php
+mixed ProductCore::setPackStockType($id_product, $pack_stock_type)
+```
 
 
 
@@ -4584,7 +5122,9 @@ Set Group reduction if needed
 
 ### <a name="method-setWsAccessories"></a>setWsAccessories
 
-    mixed ProductCore::setWsAccessories($accessories)
+```php
+mixed ProductCore::setWsAccessories($accessories)
+```
 
 Webservice setter : set product accessories ids of current product for association
 
@@ -4601,7 +5141,9 @@ Webservice setter : set product accessories ids of current product for associati
 
 ### <a name="method-setWsCategories"></a>setWsCategories
 
-    boolean ProductCore::setWsCategories(array $category_ids)
+```php
+boolean ProductCore::setWsCategories(array $category_ids)
+```
 
 Webservice setter : set category ids of current product for association
 
@@ -4618,7 +5160,9 @@ Webservice setter : set category ids of current product for association
 
 ### <a name="method-setWsCombinations"></a>setWsCombinations
 
-    mixed ProductCore::setWsCombinations($combinations)
+```php
+mixed ProductCore::setWsCombinations($combinations)
+```
 
 Webservice setter : set combination ids of current product for association
 
@@ -4635,7 +5179,9 @@ Webservice setter : set combination ids of current product for association
 
 ### <a name="method-setWsDefaultCombination"></a>setWsDefaultCombination
 
-    boolean ProductCore::setWsDefaultCombination(integer $id_combination)
+```php
+boolean ProductCore::setWsDefaultCombination(integer $id_combination)
+```
 
 Webservice setter : set virtual field default combination
 
@@ -4652,7 +5198,9 @@ Webservice setter : set virtual field default combination
 
 ### <a name="method-setWsPositionInCategory"></a>setWsPositionInCategory
 
-    boolean ProductCore::setWsPositionInCategory($position)
+```php
+boolean ProductCore::setWsPositionInCategory($position)
+```
 
 Webservice setter : set virtual field position in category
 
@@ -4669,7 +5217,9 @@ Webservice setter : set virtual field position in category
 
 ### <a name="method-setWsProductBundle"></a>setWsProductBundle
 
-    mixed ProductCore::setWsProductBundle($items)
+```php
+mixed ProductCore::setWsProductBundle($items)
+```
 
 
 
@@ -4686,7 +5236,9 @@ Webservice setter : set virtual field position in category
 
 ### <a name="method-setWsProductFeatures"></a>setWsProductFeatures
 
-    boolean ProductCore::setWsProductFeatures($product_features)
+```php
+boolean ProductCore::setWsProductFeatures($product_features)
+```
 
 Webservice setter : set product features association
 
@@ -4703,7 +5255,9 @@ Webservice setter : set product features association
 
 ### <a name="method-setWsTags"></a>setWsTags
 
-    mixed ProductCore::setWsTags($tag_ids)
+```php
+mixed ProductCore::setWsTags($tag_ids)
+```
 
 Webservice setter : set tag ids of current product for association
 
@@ -4720,7 +5274,9 @@ Webservice setter : set tag ids of current product for association
 
 ### <a name="method-setWsType"></a>setWsType
 
-    mixed ProductCore::setWsType($type_str)
+```php
+mixed ProductCore::setWsType($type_str)
+```
 
 
 
@@ -4737,7 +5293,9 @@ Webservice setter : set tag ids of current product for association
 
 ### <a name="method-sqlStock"></a>sqlStock
 
-    string ProductCore::sqlStock($product_alias, $product_attribute, $inner_join, \Shop $shop)
+```php
+string ProductCore::sqlStock($product_alias, $product_attribute, $inner_join, \Shop $shop)
+```
 
 Create JOIN query with 'stock_available' table
 
@@ -4758,7 +5316,9 @@ Create JOIN query with 'stock_available' table
 
 ### <a name="method-toggleStatus"></a>toggleStatus
 
-    mixed ProductCore::toggleStatus()
+```php
+mixed ProductCore::toggleStatus()
+```
 
 
 
@@ -4772,7 +5332,9 @@ Create JOIN query with 'stock_available' table
 
 ### <a name="method-update"></a>update
 
-    mixed ProductCore::update($null_values)
+```php
+mixed ProductCore::update($null_values)
+```
 
 
 
@@ -4789,7 +5351,9 @@ Create JOIN query with 'stock_available' table
 
 ### <a name="method-updateAttribute"></a>updateAttribute
 
-    array ProductCore::updateAttribute(integer $id_product_attribute, float $wholesale_price, float $price, float $weight, float $unit, float $ecotax, $id_images, string $reference, string $ean13, integer $default, $location, string $upc, string $minimal_quantity, $available_date, $update_all_fields, array $id_shop_list)
+```php
+array ProductCore::updateAttribute(integer $id_product_attribute, float $wholesale_price, float $price, float $weight, float $unit, float $ecotax, $id_images, string $reference, string $ean13, integer $default, $location, string $upc, string $minimal_quantity, $available_date, $update_all_fields, array $id_shop_list)
+```
 
 Update a product attribute
 
@@ -4821,7 +5385,9 @@ Update a product attribute
 
 ### <a name="method-updateCacheAttachment"></a>updateCacheAttachment
 
-    mixed ProductCore::updateCacheAttachment($id_product)
+```php
+mixed ProductCore::updateCacheAttachment($id_product)
+```
 
 
 
@@ -4839,7 +5405,9 @@ Update a product attribute
 
 ### <a name="method-updateCategories"></a>updateCategories
 
-    array ProductCore::updateCategories($categories, boolean $keeping_current_pos)
+```php
+array ProductCore::updateCategories($categories, boolean $keeping_current_pos)
+```
 
 Update categories to index product into
 
@@ -4857,7 +5425,9 @@ Update categories to index product into
 
 ### <a name="method-updateDefaultAttribute"></a>updateDefaultAttribute
 
-    mixed ProductCore::updateDefaultAttribute($id_product)
+```php
+mixed ProductCore::updateDefaultAttribute($id_product)
+```
 
 
 
@@ -4875,7 +5445,9 @@ Update categories to index product into
 
 ### <a name="method-updateIsVirtual"></a>updateIsVirtual
 
-    mixed ProductCore::updateIsVirtual($id_product, $is_virtual)
+```php
+mixed ProductCore::updateIsVirtual($id_product, $is_virtual)
+```
 
 
 
@@ -4894,7 +5466,9 @@ Update categories to index product into
 
 ### <a name="method-updateLabels"></a>updateLabels
 
-    mixed ProductCore::updateLabels()
+```php
+mixed ProductCore::updateLabels()
+```
 
 
 
@@ -4908,7 +5482,9 @@ Update categories to index product into
 
 ### <a name="method-updatePosition"></a>updatePosition
 
-    mixed ProductCore::updatePosition(boolean $way, integer $position)
+```php
+mixed ProductCore::updatePosition(boolean $way, integer $position)
+```
 
 Move a product inside its category
 
@@ -4926,7 +5502,9 @@ Move a product inside its category
 
 ### <a name="method-updateProductAttribute"></a>updateProductAttribute
 
-    mixed ProductCore::updateProductAttribute($id_product_attribute, $wholesale_price, $price, $weight, $unit, $ecotax, $id_images, $reference, $id_supplier, $ean13, $default, $location, $upc, $minimal_quantity, $available_date)
+```php
+mixed ProductCore::updateProductAttribute($id_product_attribute, $wholesale_price, $price, $weight, $unit, $ecotax, $id_images, $reference, $id_supplier, $ean13, $default, $location, $upc, $minimal_quantity, $available_date)
+```
 
 Update a product attribute
 
@@ -4957,7 +5535,9 @@ Update a product attribute
 
 ### <a name="method-updateQuantity"></a>updateQuantity
 
-    false ProductCore::updateQuantity()
+```php
+false ProductCore::updateQuantity()
+```
 
 
 
@@ -4972,7 +5552,9 @@ Update a product attribute
 
 ### <a name="method-updateQuantityProductWithAttributeQuantity"></a>updateQuantityProductWithAttributeQuantity
 
-    mixed ProductCore::updateQuantityProductWithAttributeQuantity()
+```php
+mixed ProductCore::updateQuantityProductWithAttributeQuantity()
+```
 
 
 
@@ -4986,7 +5568,9 @@ Update a product attribute
 
 ### <a name="method-updateWs"></a>updateWs
 
-    mixed ProductCore::updateWs($null_values)
+```php
+mixed ProductCore::updateWs($null_values)
+```
 
 
 
@@ -5003,7 +5587,9 @@ Update a product attribute
 
 ### <a name="method-useAdvancedStockManagement"></a>useAdvancedStockManagement
 
-    mixed ProductCore::useAdvancedStockManagement()
+```php
+mixed ProductCore::useAdvancedStockManagement()
+```
 
 
 
@@ -5017,7 +5603,9 @@ Update a product attribute
 
 ### <a name="method-usesAdvancedStockManagement"></a>usesAdvancedStockManagement
 
-    boolean ProductCore::usesAdvancedStockManagement(integer $id_product)
+```php
+boolean ProductCore::usesAdvancedStockManagement(integer $id_product)
+```
 
 For a given product, tells if it uses the advanced stock management
 
@@ -5035,7 +5623,9 @@ For a given product, tells if it uses the advanced stock management
 
 ### <a name="method-validateField"></a>validateField
 
-    mixed ProductCore::validateField($field, $value, $id_lang, $skip, $human_errors)
+```php
+mixed ProductCore::validateField($field, $value, $id_lang, $skip, $human_errors)
+```
 
 
 

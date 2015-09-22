@@ -9,11 +9,13 @@ Handle file uploads via XMLHttpRequest
 * Source: [classes/FileUploader.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L178)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [copyImage](#method-copyImage)
 * [getName](#method-getName)
 * [getSize](#method-getSize)
@@ -31,7 +33,9 @@ Methods
 
 ### <a name="method-copyImage"></a>copyImage
 
-    mixed QqUploadedFileXhr::copyImage($id_product, $id_image, $method)
+```php
+mixed QqUploadedFileXhr::copyImage($id_product, $id_image, $method)
+```
 
 
 
@@ -50,7 +54,9 @@ Methods
 
 ### <a name="method-getName"></a>getName
 
-    mixed QqUploadedFileXhr::getName()
+```php
+mixed QqUploadedFileXhr::getName()
+```
 
 
 
@@ -64,7 +70,9 @@ Methods
 
 ### <a name="method-getSize"></a>getSize
 
-    mixed QqUploadedFileXhr::getSize()
+```php
+mixed QqUploadedFileXhr::getSize()
+```
 
 
 
@@ -78,7 +86,9 @@ Methods
 
 ### <a name="method-save"></a>save
 
-    mixed QqUploadedFileXhr::save()
+```php
+mixed QqUploadedFileXhr::save()
+```
 
 
 
@@ -92,7 +102,9 @@ Methods
 
 ### <a name="method-upload"></a>upload
 
-    boolean QqUploadedFileXhr::upload($path)
+```php
+boolean QqUploadedFileXhr::upload($path)
+```
 
 Save the file to the specified path
 

@@ -10,17 +10,19 @@ Class OrderDetailControllerCore
 * Source: [controllers/front/OrderDetailController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$auth](#property-$auth)
 * [$authRedirection](#property-$authRedirection)
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [displayAjax](#method-displayAjax)
 * [init](#method-init)
 * [initContent](#method-initContent)
@@ -36,7 +38,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public mixed $auth = true
+```php
+public mixed $auth = true
+```
 
 
 
@@ -48,7 +52,9 @@ Properties
 
 ### <a name="property-$authRedirection"></a>$authRedirection
 
-    public mixed $authRedirection = 'history'
+```php
+public mixed $authRedirection = 'history'
+```
 
 
 
@@ -60,7 +66,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'order-detail'
+```php
+public mixed $php_self = 'order-detail'
+```
 
 
 
@@ -72,7 +80,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -88,7 +98,9 @@ Methods
 
 ### <a name="method-displayAjax"></a>displayAjax
 
-    mixed OrderDetailControllerCore::displayAjax()
+```php
+mixed OrderDetailControllerCore::displayAjax()
+```
 
 
 
@@ -102,7 +114,9 @@ Methods
 
 ### <a name="method-init"></a>init
 
-    mixed OrderDetailControllerCore::init()
+```php
+mixed OrderDetailControllerCore::init()
+```
 
 Initialize order detail controller
 
@@ -116,7 +130,9 @@ Initialize order detail controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed OrderDetailControllerCore::initContent()
+```php
+mixed OrderDetailControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -130,7 +146,9 @@ Assign template vars related to page content
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed OrderDetailControllerCore::postProcess()
+```php
+mixed OrderDetailControllerCore::postProcess()
+```
 
 Start forms process
 
@@ -144,7 +162,9 @@ Start forms process
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed OrderDetailControllerCore::setMedia()
+```php
+mixed OrderDetailControllerCore::setMedia()
+```
 
 
 

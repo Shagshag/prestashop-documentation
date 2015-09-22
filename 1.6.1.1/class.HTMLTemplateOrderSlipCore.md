@@ -10,15 +10,17 @@ Class HTMLTemplateOrderSlipCore
 * Source: [classes/pdf/HTMLTemplateOrderSlip.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$order](#property-$order)
 * [$order_slip](#property-$order_slip)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getBulkFilename](#method-getBulkFilename)
 * [getContent](#method-getContent)
@@ -38,7 +40,9 @@ Properties
 
 ### <a name="property-$order"></a>$order
 
-    public mixed $order
+```php
+public mixed $order
+```
 
 
 
@@ -50,7 +54,9 @@ Properties
 
 ### <a name="property-$order_slip"></a>$order_slip
 
-    public mixed $order_slip
+```php
+public mixed $order_slip
+```
 
 
 
@@ -66,7 +72,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed HTMLTemplateOrderSlipCore::__construct(\OrderSlip $order_slip, $smarty)
+```php
+mixed HTMLTemplateOrderSlipCore::__construct(\OrderSlip $order_slip, $smarty)
+```
 
 
 
@@ -84,7 +92,9 @@ Methods
 
 ### <a name="method-getBulkFilename"></a>getBulkFilename
 
-    string HTMLTemplateOrderSlipCore::getBulkFilename()
+```php
+string HTMLTemplateOrderSlipCore::getBulkFilename()
+```
 
 Returns the template filename when using bulk rendering
 
@@ -98,7 +108,9 @@ Returns the template filename when using bulk rendering
 
 ### <a name="method-getContent"></a>getContent
 
-    string HTMLTemplateOrderSlipCore::getContent()
+```php
+string HTMLTemplateOrderSlipCore::getContent()
+```
 
 Returns the template's HTML content
 
@@ -112,7 +124,9 @@ Returns the template's HTML content
 
 ### <a name="method-getFilename"></a>getFilename
 
-    string HTMLTemplateOrderSlipCore::getFilename()
+```php
+string HTMLTemplateOrderSlipCore::getFilename()
+```
 
 Returns the template filename
 
@@ -126,7 +140,9 @@ Returns the template filename
 
 ### <a name="method-getHeader"></a>getHeader
 
-    string HTMLTemplateOrderSlipCore::getHeader()
+```php
+string HTMLTemplateOrderSlipCore::getHeader()
+```
 
 Returns the template's HTML header
 
@@ -140,7 +156,9 @@ Returns the template's HTML header
 
 ### <a name="method-getProductTaxesBreakdown"></a>getProductTaxesBreakdown
 
-    mixed HTMLTemplateOrderSlipCore::getProductTaxesBreakdown()
+```php
+mixed HTMLTemplateOrderSlipCore::getProductTaxesBreakdown()
+```
 
 
 
@@ -154,7 +172,9 @@ Returns the template's HTML header
 
 ### <a name="method-getShippingTaxesBreakdown"></a>getShippingTaxesBreakdown
 
-    Array HTMLTemplateOrderSlipCore::getShippingTaxesBreakdown()
+```php
+Array HTMLTemplateOrderSlipCore::getShippingTaxesBreakdown()
+```
 
 Returns Shipping tax breakdown elements
 
@@ -168,7 +188,9 @@ Returns Shipping tax breakdown elements
 
 ### <a name="method-getTaxBreakdown"></a>getTaxBreakdown
 
-    Array HTMLTemplateOrderSlipCore::getTaxBreakdown()
+```php
+Array HTMLTemplateOrderSlipCore::getTaxBreakdown()
+```
 
 Returns different tax breakdown elements
 
@@ -182,7 +204,9 @@ Returns different tax breakdown elements
 
 ### <a name="method-getTaxTabContent"></a>getTaxTabContent
 
-    String HTMLTemplateOrderSlipCore::getTaxTabContent()
+```php
+String HTMLTemplateOrderSlipCore::getTaxTabContent()
+```
 
 Returns the tax tab content
 

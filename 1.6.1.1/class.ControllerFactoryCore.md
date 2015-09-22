@@ -10,11 +10,13 @@ Controllers don&#039;t need to be loaded with includeController anymore since th
 * Source: [classes/ControllerFactory.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ControllerFactory.php#L32)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [getController](#method-getController)
 * [includeController](#method-includeController)
 
@@ -29,7 +31,9 @@ Methods
 
 ### <a name="method-getController"></a>getController
 
-    mixed ControllerFactoryCore::getController($className, $auth, $ssl)
+```php
+mixed ControllerFactoryCore::getController($className, $auth, $ssl)
+```
 
 
 
@@ -50,7 +54,9 @@ Methods
 
 ### <a name="method-includeController"></a>includeController
 
-    mixed ControllerFactoryCore::includeController($className)
+```php
+mixed ControllerFactoryCore::includeController($className)
+```
 
 
 

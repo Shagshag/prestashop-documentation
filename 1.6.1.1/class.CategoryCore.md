@@ -10,9 +10,11 @@ Class CategoryCore
 * Source: [classes/Category.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_links](#property-$_links)
 * [$active](#property-$active)
@@ -39,8 +41,8 @@ Properties
 * [$position](#property-$position)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_subTree](#method-_subTree)
 * [add](#method-add)
@@ -123,7 +125,9 @@ Properties
 
 ### <a name="property-$_links"></a>$_links
 
-    protected mixed $_links = array()
+```php
+protected mixed $_links = array()
+```
 
 
 
@@ -136,7 +140,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = 1
+```php
+public boolean $active = 1
+```
 
 
 
@@ -148,7 +154,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -160,7 +168,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -172,7 +182,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'category', 'primary' => 'id_category', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('nleft' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'nright' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'level_depth' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'id_parent' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'id_shop_default' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'is_root_category' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'position' => array('type' => self::TYPE_INT), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCatalogName', 'required' => true, 'size' => 128), 'link_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'required' => true, 'size' => 128), 'description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255)))
+```php
+public mixed $definition = array('table' => 'category', 'primary' => 'id_category', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('nleft' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'nright' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'level_depth' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'id_parent' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'id_shop_default' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'is_root_category' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'position' => array('type' => self::TYPE_INT), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCatalogName', 'required' => true, 'size' => 128), 'link_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'required' => true, 'size' => 128), 'description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255)))
+```
 
 
 
@@ -185,7 +197,9 @@ Properties
 
 ### <a name="property-$description"></a>$description
 
-    public string $description
+```php
+public string $description
+```
 
 
 
@@ -197,7 +211,9 @@ Properties
 
 ### <a name="property-$groupBox"></a>$groupBox
 
-    public mixed $groupBox
+```php
+public mixed $groupBox
+```
 
 
 
@@ -209,7 +225,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -221,7 +239,9 @@ Properties
 
 ### <a name="property-$id_category"></a>$id_category
 
-    public integer $id_category
+```php
+public integer $id_category
+```
 
 
 
@@ -233,7 +253,9 @@ Properties
 
 ### <a name="property-$id_category_default"></a>$id_category_default
 
-    public integer $id_category_default
+```php
+public integer $id_category_default
+```
 
 
 
@@ -245,7 +267,9 @@ Properties
 
 ### <a name="property-$id_image"></a>$id_image
 
-    public string $id_image = 'default'
+```php
+public string $id_image = 'default'
+```
 
 
 
@@ -257,7 +281,9 @@ Properties
 
 ### <a name="property-$id_parent"></a>$id_parent
 
-    public integer $id_parent
+```php
+public integer $id_parent
+```
 
 
 
@@ -269,7 +295,9 @@ Properties
 
 ### <a name="property-$id_shop_default"></a>$id_shop_default
 
-    public integer $id_shop_default
+```php
+public integer $id_shop_default
+```
 
 
 
@@ -281,7 +309,9 @@ Properties
 
 ### <a name="property-$is_root_category"></a>$is_root_category
 
-    public boolean $is_root_category
+```php
+public boolean $is_root_category
+```
 
 
 
@@ -293,7 +323,9 @@ Properties
 
 ### <a name="property-$level_depth"></a>$level_depth
 
-    public integer $level_depth
+```php
+public integer $level_depth
+```
 
 
 
@@ -305,7 +337,9 @@ Properties
 
 ### <a name="property-$link_rewrite"></a>$link_rewrite
 
-    public string $link_rewrite
+```php
+public string $link_rewrite
+```
 
 
 
@@ -317,7 +351,9 @@ Properties
 
 ### <a name="property-$meta_description"></a>$meta_description
 
-    public string $meta_description
+```php
+public string $meta_description
+```
 
 
 
@@ -329,7 +365,9 @@ Properties
 
 ### <a name="property-$meta_keywords"></a>$meta_keywords
 
-    public string $meta_keywords
+```php
+public string $meta_keywords
+```
 
 
 
@@ -341,7 +379,9 @@ Properties
 
 ### <a name="property-$meta_title"></a>$meta_title
 
-    public string $meta_title
+```php
+public string $meta_title
+```
 
 
 
@@ -353,7 +393,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -365,7 +407,9 @@ Properties
 
 ### <a name="property-$nleft"></a>$nleft
 
-    public integer $nleft
+```php
+public integer $nleft
+```
 
 
 
@@ -377,7 +421,9 @@ Properties
 
 ### <a name="property-$nright"></a>$nright
 
-    public integer $nright
+```php
+public integer $nright
+```
 
 
 
@@ -389,7 +435,9 @@ Properties
 
 ### <a name="property-$position"></a>$position
 
-    public integer $position
+```php
+public integer $position
+```
 
 
 
@@ -401,7 +449,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'categories', 'hidden_fields' => array('nleft', 'nright', 'groupBox'), 'fields' => array('id_parent' => array('xlink_resource' => 'categories'), 'level_depth' => array('setter' => false), 'nb_products_recursive' => array('getter' => 'getWsNbProductsRecursive', 'setter' => false)), 'associations' => array('categories' => array('getter' => 'getChildrenWs', 'resource' => 'category'), 'products' => array('getter' => 'getProductsWs', 'resource' => 'product')))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'categories', 'hidden_fields' => array('nleft', 'nright', 'groupBox'), 'fields' => array('id_parent' => array('xlink_resource' => 'categories'), 'level_depth' => array('setter' => false), 'nb_products_recursive' => array('getter' => 'getWsNbProductsRecursive', 'setter' => false)), 'associations' => array('categories' => array('getter' => 'getChildrenWs', 'resource' => 'category'), 'products' => array('getter' => 'getProductsWs', 'resource' => 'product')))
+```
 
 
 
@@ -417,7 +467,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed CategoryCore::__construct($id_category, $id_lang, $id_shop)
+```php
+mixed CategoryCore::__construct($id_category, $id_lang, $id_shop)
+```
 
 
 
@@ -436,7 +488,9 @@ Methods
 
 ### <a name="method-_subTree"></a>_subTree
 
-    mixed CategoryCore::_subTree($categories, $id_category, $n)
+```php
+mixed CategoryCore::_subTree($categories, $id_category, $n)
+```
 
 
 
@@ -456,7 +510,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed CategoryCore::add($autodate, $null_values)
+```php
+mixed CategoryCore::add($autodate, $null_values)
+```
 
 
 
@@ -474,7 +530,9 @@ Methods
 
 ### <a name="method-addGroups"></a>addGroups
 
-    mixed CategoryCore::addGroups($groups)
+```php
+mixed CategoryCore::addGroups($groups)
+```
 
 
 
@@ -491,7 +549,9 @@ Methods
 
 ### <a name="method-addGroupsIfNoExist"></a>addGroupsIfNoExist
 
-    mixed CategoryCore::addGroupsIfNoExist($id_group)
+```php
+mixed CategoryCore::addGroupsIfNoExist($id_group)
+```
 
 
 
@@ -508,7 +568,9 @@ Methods
 
 ### <a name="method-addPosition"></a>addPosition
 
-    mixed CategoryCore::addPosition($position, $id_shop)
+```php
+mixed CategoryCore::addPosition($position, $id_shop)
+```
 
 
 
@@ -526,7 +588,9 @@ Methods
 
 ### <a name="method-addShop"></a>addShop
 
-    boolean CategoryCore::addShop(integer $id_shop)
+```php
+boolean CategoryCore::addShop(integer $id_shop)
+```
 
 Add association between shop and categories
 
@@ -543,7 +607,9 @@ Add association between shop and categories
 
 ### <a name="method-addToShop"></a>addToShop
 
-    boolean CategoryCore::addToShop(array $categories, $id_shop)
+```php
+boolean CategoryCore::addToShop(array $categories, $id_shop)
+```
 
 Add some categories to a shop
 
@@ -562,7 +628,9 @@ Add some categories to a shop
 
 ### <a name="method-calcLevelDepth"></a>calcLevelDepth
 
-    integer CategoryCore::calcLevelDepth()
+```php
+integer CategoryCore::calcLevelDepth()
+```
 
 Get the depth level for the category
 
@@ -576,7 +644,9 @@ Get the depth level for the category
 
 ### <a name="method-categoryExists"></a>categoryExists
 
-    boolean CategoryCore::categoryExists(integer $id_category)
+```php
+boolean CategoryCore::categoryExists(integer $id_category)
+```
 
 Specify if a category already in base
 
@@ -594,7 +664,9 @@ Specify if a category already in base
 
 ### <a name="method-checkAccess"></a>checkAccess
 
-    boolean CategoryCore::checkAccess(mixed $id_customer)
+```php
+boolean CategoryCore::checkAccess(mixed $id_customer)
+```
 
 checkAccess return true if id_customer is in a group allowed to see this category.
 
@@ -611,7 +683,9 @@ checkAccess return true if id_customer is in a group allowed to see this categor
 
 ### <a name="method-checkBeforeMove"></a>checkBeforeMove
 
-    boolean CategoryCore::checkBeforeMove(integer $id_category, integer $id_parent)
+```php
+boolean CategoryCore::checkBeforeMove(integer $id_category, integer $id_parent)
+```
 
 Check if category can be moved in another one.
 
@@ -630,7 +704,9 @@ The category cannot be moved in a child category.
 
 ### <a name="method-cleanAssoProducts"></a>cleanAssoProducts
 
-    mixed CategoryCore::cleanAssoProducts()
+```php
+mixed CategoryCore::cleanAssoProducts()
+```
 
 
 
@@ -644,7 +720,9 @@ The category cannot be moved in a child category.
 
 ### <a name="method-cleanGroups"></a>cleanGroups
 
-    mixed CategoryCore::cleanGroups()
+```php
+mixed CategoryCore::cleanGroups()
+```
 
 
 
@@ -658,7 +736,9 @@ The category cannot be moved in a child category.
 
 ### <a name="method-cleanPositions"></a>cleanPositions
 
-    boolean CategoryCore::cleanPositions(mixed $id_category_parent)
+```php
+boolean CategoryCore::cleanPositions(mixed $id_category_parent)
+```
 
 cleanPositions keep order of category in $id_category_parent,
 but remove duplicate position. Should not be used if positions
@@ -678,7 +758,9 @@ are clean at the beginning !
 
 ### <a name="method-delete"></a>delete
 
-    mixed CategoryCore::delete()
+```php
+mixed CategoryCore::delete()
+```
 
 
 
@@ -692,7 +774,9 @@ are clean at the beginning !
 
 ### <a name="method-deleteCategoriesFromShop"></a>deleteCategoriesFromShop
 
-    boolean CategoryCore::deleteCategoriesFromShop($id_shop)
+```php
+boolean CategoryCore::deleteCategoriesFromShop($id_shop)
+```
 
 Delete every categories
 
@@ -710,7 +794,9 @@ Delete every categories
 
 ### <a name="method-deleteFromShop"></a>deleteFromShop
 
-    boolean CategoryCore::deleteFromShop(integer $id_shop)
+```php
+boolean CategoryCore::deleteFromShop(integer $id_shop)
+```
 
 Delete category from shop $id_shop
 
@@ -727,7 +813,9 @@ Delete category from shop $id_shop
 
 ### <a name="method-deleteLite"></a>deleteLite
 
-    mixed CategoryCore::deleteLite()
+```php
+mixed CategoryCore::deleteLite()
+```
 
 
 
@@ -741,7 +829,9 @@ Delete category from shop $id_shop
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    mixed CategoryCore::deleteSelection($categories)
+```php
+mixed CategoryCore::deleteSelection($categories)
+```
 
 Delete several categories from database
 
@@ -758,7 +848,9 @@ return boolean Deletion result
 
 ### <a name="method-duplicateProductCategories"></a>duplicateProductCategories
 
-    boolean CategoryCore::duplicateProductCategories(integer $id_old, boolean $id_new)
+```php
+boolean CategoryCore::duplicateProductCategories(integer $id_old, boolean $id_new)
+```
 
 Copy products from a category to another
 
@@ -777,7 +869,9 @@ Copy products from a category to another
 
 ### <a name="method-existsInShop"></a>existsInShop
 
-    mixed CategoryCore::existsInShop($id_shop)
+```php
+mixed CategoryCore::existsInShop($id_shop)
+```
 
 
 
@@ -794,7 +888,9 @@ Copy products from a category to another
 
 ### <a name="method-getAllCategoriesName"></a>getAllCategoriesName
 
-    mixed CategoryCore::getAllCategoriesName($root_category, $id_lang, $active, $groups, $use_shop_restriction, $sql_filter, $sql_sort, $sql_limit)
+```php
+mixed CategoryCore::getAllCategoriesName($root_category, $id_lang, $active, $groups, $use_shop_restriction, $sql_filter, $sql_sort, $sql_limit)
+```
 
 
 
@@ -819,7 +915,9 @@ Copy products from a category to another
 
 ### <a name="method-getAllChildren"></a>getAllChildren
 
-    \PrestaShopCollection CategoryCore::getAllChildren(integer $id_lang)
+```php
+\PrestaShopCollection CategoryCore::getAllChildren(integer $id_lang)
+```
 
 Return an array of all children of the current category
 
@@ -836,7 +934,9 @@ Return an array of all children of the current category
 
 ### <a name="method-getAllParents"></a>getAllParents
 
-    \PrestaShopCollection CategoryCore::getAllParents(integer $id_lang)
+```php
+\PrestaShopCollection CategoryCore::getAllParents(integer $id_lang)
+```
 
 Return an array of all parents of the current category
 
@@ -853,7 +953,9 @@ Return an array of all parents of the current category
 
 ### <a name="method-getCategories"></a>getCategories
 
-    array CategoryCore::getCategories(integer $id_lang, boolean $active, $order, $sql_filter, $sql_sort, $sql_limit)
+```php
+array CategoryCore::getCategories(integer $id_lang, boolean $active, $order, $sql_filter, $sql_sort, $sql_limit)
+```
 
 Return available categories
 
@@ -876,7 +978,9 @@ Return available categories
 
 ### <a name="method-getCategoriesWithoutParent"></a>getCategoriesWithoutParent
 
-    mixed CategoryCore::getCategoriesWithoutParent()
+```php
+mixed CategoryCore::getCategoriesWithoutParent()
+```
 
 
 
@@ -891,7 +995,9 @@ Return available categories
 
 ### <a name="method-getCategoryInformations"></a>getCategoryInformations
 
-    Array CategoryCore::getCategoryInformations(Array $ids_category, integer $id_lang)
+```php
+Array CategoryCore::getCategoryInformations(Array $ids_category, integer $id_lang)
+```
 
 
 
@@ -910,7 +1016,9 @@ Return available categories
 
 ### <a name="method-getChildren"></a>getChildren
 
-    array CategoryCore::getChildren(integer $id_parent, integer $id_lang, boolean $active, boolean $id_shop)
+```php
+array CategoryCore::getChildren(integer $id_parent, integer $id_lang, boolean $active, boolean $id_shop)
+```
 
 
 
@@ -931,7 +1039,9 @@ Return available categories
 
 ### <a name="method-getChildrenWithNbSelectedSubCat"></a>getChildrenWithNbSelectedSubCat
 
-    array CategoryCore::getChildrenWithNbSelectedSubCat(integer $id_parent, $selected_cat, integer $id_lang, \Shop $shop, $use_shop_context)
+```php
+array CategoryCore::getChildrenWithNbSelectedSubCat(integer $id_parent, $selected_cat, integer $id_lang, \Shop $shop, $use_shop_context)
+```
 
 This method allow to return children categories with the number of sub children selected for a product
 
@@ -953,7 +1063,9 @@ This method allow to return children categories with the number of sub children 
 
 ### <a name="method-getChildrenWs"></a>getChildrenWs
 
-    mixed CategoryCore::getChildrenWs()
+```php
+mixed CategoryCore::getChildrenWs()
+```
 
 
 
@@ -967,7 +1079,9 @@ This method allow to return children categories with the number of sub children 
 
 ### <a name="method-getDescriptionClean"></a>getDescriptionClean
 
-    mixed CategoryCore::getDescriptionClean($description)
+```php
+mixed CategoryCore::getDescriptionClean($description)
+```
 
 
 
@@ -985,7 +1099,9 @@ This method allow to return children categories with the number of sub children 
 
 ### <a name="method-getDuplicatePosition"></a>getDuplicatePosition
 
-    array CategoryCore::getDuplicatePosition()
+```php
+array CategoryCore::getDuplicatePosition()
+```
 
 Search for another category with the same parent and the same position
 
@@ -999,7 +1115,9 @@ Search for another category with the same parent and the same position
 
 ### <a name="method-getGroups"></a>getGroups
 
-    mixed CategoryCore::getGroups()
+```php
+mixed CategoryCore::getGroups()
+```
 
 
 
@@ -1013,7 +1131,9 @@ Search for another category with the same parent and the same position
 
 ### <a name="method-getHomeCategories"></a>getHomeCategories
 
-    array CategoryCore::getHomeCategories(integer $id_lang, boolean $active, $id_shop)
+```php
+array CategoryCore::getHomeCategories(integer $id_lang, boolean $active, $id_shop)
+```
 
 Return main categories
 
@@ -1033,7 +1153,9 @@ Return main categories
 
 ### <a name="method-getInterval"></a>getInterval
 
-    array CategoryCore::getInterval(integer $id)
+```php
+array CategoryCore::getInterval(integer $id)
+```
 
 Return nleft and nright fields for a given category
 
@@ -1051,7 +1173,9 @@ Return nleft and nright fields for a given category
 
 ### <a name="method-getLastPosition"></a>getLastPosition
 
-    integer CategoryCore::getLastPosition(integer $id_category_parent, integer $id_shop)
+```php
+integer CategoryCore::getLastPosition(integer $id_category_parent, integer $id_shop)
+```
 
 this function return the number of category + 1 having $id_category_parent as parent.
 
@@ -1070,7 +1194,9 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 ### <a name="method-getLink"></a>getLink
 
-    mixed CategoryCore::getLink(\Link $link, $id_lang)
+```php
+mixed CategoryCore::getLink(\Link $link, $id_lang)
+```
 
 
 
@@ -1088,7 +1214,9 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 ### <a name="method-getLinkRewrite"></a>getLinkRewrite
 
-    mixed CategoryCore::getLinkRewrite($id_category, $id_lang)
+```php
+mixed CategoryCore::getLinkRewrite($id_category, $id_lang)
+```
 
 
 
@@ -1107,7 +1235,9 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 ### <a name="method-getName"></a>getName
 
-    mixed CategoryCore::getName($id_lang)
+```php
+mixed CategoryCore::getName($id_lang)
+```
 
 
 
@@ -1124,7 +1254,9 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 ### <a name="method-getNestedCategories"></a>getNestedCategories
 
-    mixed CategoryCore::getNestedCategories($root_category, $id_lang, $active, $groups, $use_shop_restriction, $sql_filter, $sql_sort, $sql_limit)
+```php
+mixed CategoryCore::getNestedCategories($root_category, $id_lang, $active, $groups, $use_shop_restriction, $sql_filter, $sql_sort, $sql_limit)
+```
 
 
 
@@ -1149,7 +1281,9 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 ### <a name="method-getParentsCategories"></a>getParentsCategories
 
-    array CategoryCore::getParentsCategories(integer $id_lang)
+```php
+array CategoryCore::getParentsCategories(integer $id_lang)
+```
 
 Get Each parent category of this category until the root category
 
@@ -1166,7 +1300,9 @@ Get Each parent category of this category until the root category
 
 ### <a name="method-getProducts"></a>getProducts
 
-    array|integer|false CategoryCore::getProducts(integer $id_lang, integer $p, integer $n, string|null $order_by, string|null $order_way, boolean $get_total, boolean $active, boolean $random, integer $random_number_products, boolean $check_access, \Context|null $context)
+```php
+array|integer|false CategoryCore::getProducts(integer $id_lang, integer $p, integer $n, string|null $order_by, string|null $order_way, boolean $get_total, boolean $active, boolean $random, integer $random_number_products, boolean $check_access, \Context|null $context)
+```
 
 Returns category products
 
@@ -1194,7 +1330,9 @@ Returns category products
 
 ### <a name="method-getProductsWs"></a>getProductsWs
 
-    mixed CategoryCore::getProductsWs()
+```php
+mixed CategoryCore::getProductsWs()
+```
 
 
 
@@ -1208,7 +1346,9 @@ Returns category products
 
 ### <a name="method-getRootCategories"></a>getRootCategories
 
-    mixed CategoryCore::getRootCategories($id_lang, $active)
+```php
+mixed CategoryCore::getRootCategories($id_lang, $active)
+```
 
 
 
@@ -1227,7 +1367,9 @@ Returns category products
 
 ### <a name="method-getRootCategory"></a>getRootCategory
 
-    mixed CategoryCore::getRootCategory($id_lang, \Shop $shop)
+```php
+mixed CategoryCore::getRootCategory($id_lang, \Shop $shop)
+```
 
 
 
@@ -1246,7 +1388,9 @@ Returns category products
 
 ### <a name="method-getShopID"></a>getShopID
 
-    mixed CategoryCore::getShopID()
+```php
+mixed CategoryCore::getShopID()
+```
 
 
 
@@ -1260,7 +1404,9 @@ Returns category products
 
 ### <a name="method-getShopsByCategory"></a>getShopsByCategory
 
-    mixed CategoryCore::getShopsByCategory($id_category)
+```php
+mixed CategoryCore::getShopsByCategory($id_category)
+```
 
 
 
@@ -1278,7 +1424,9 @@ Returns category products
 
 ### <a name="method-getSimpleCategories"></a>getSimpleCategories
 
-    mixed CategoryCore::getSimpleCategories($id_lang)
+```php
+mixed CategoryCore::getSimpleCategories($id_lang)
+```
 
 
 
@@ -1296,7 +1444,9 @@ Returns category products
 
 ### <a name="method-getSubCategories"></a>getSubCategories
 
-    array CategoryCore::getSubCategories(integer $id_lang, boolean $active)
+```php
+array CategoryCore::getSubCategories(integer $id_lang, boolean $active)
+```
 
 Return current category childs
 
@@ -1314,7 +1464,9 @@ Return current category childs
 
 ### <a name="method-getTopCategory"></a>getTopCategory
 
-    \Category CategoryCore::getTopCategory(null $id_lang)
+```php
+\Category CategoryCore::getTopCategory(null $id_lang)
+```
 
 
 
@@ -1332,7 +1484,9 @@ Return current category childs
 
 ### <a name="method-getUrlRewriteInformations"></a>getUrlRewriteInformations
 
-    mixed CategoryCore::getUrlRewriteInformations($id_category)
+```php
+mixed CategoryCore::getUrlRewriteInformations($id_category)
+```
 
 
 
@@ -1350,7 +1504,9 @@ Return current category childs
 
 ### <a name="method-getWsNbProductsRecursive"></a>getWsNbProductsRecursive
 
-    mixed CategoryCore::getWsNbProductsRecursive()
+```php
+mixed CategoryCore::getWsNbProductsRecursive()
+```
 
 
 
@@ -1364,7 +1520,9 @@ Return current category childs
 
 ### <a name="method-hasChildren"></a>hasChildren
 
-    array CategoryCore::hasChildren(integer $id_parent, integer $id_lang, boolean $active, boolean $id_shop)
+```php
+array CategoryCore::hasChildren(integer $id_parent, integer $id_lang, boolean $active, boolean $id_shop)
+```
 
 
 
@@ -1385,7 +1543,9 @@ Return current category childs
 
 ### <a name="method-inShop"></a>inShop
 
-    boolean CategoryCore::inShop(\Shop $shop)
+```php
+boolean CategoryCore::inShop(\Shop $shop)
+```
 
 Check if current category is a child of shop root category
 
@@ -1402,7 +1562,9 @@ Check if current category is a child of shop root category
 
 ### <a name="method-inShopStatic"></a>inShopStatic
 
-    mixed CategoryCore::inShopStatic($id_category, \Shop $shop)
+```php
+mixed CategoryCore::inShopStatic($id_category, \Shop $shop)
+```
 
 
 
@@ -1421,7 +1583,9 @@ Check if current category is a child of shop root category
 
 ### <a name="method-isParentCategoryAvailable"></a>isParentCategoryAvailable
 
-    boolean CategoryCore::isParentCategoryAvailable($id_shop)
+```php
+boolean CategoryCore::isParentCategoryAvailable($id_shop)
+```
 
 
 
@@ -1438,7 +1602,9 @@ Check if current category is a child of shop root category
 
 ### <a name="method-isRootCategoryForAShop"></a>isRootCategoryForAShop
 
-    mixed CategoryCore::isRootCategoryForAShop()
+```php
+mixed CategoryCore::isRootCategoryForAShop()
+```
 
 
 
@@ -1452,7 +1618,9 @@ Check if current category is a child of shop root category
 
 ### <a name="method-recalculateLevelDepth"></a>recalculateLevelDepth
 
-    mixed CategoryCore::recalculateLevelDepth(integer $id_category)
+```php
+mixed CategoryCore::recalculateLevelDepth(integer $id_category)
+```
 
 Updates level_depth for all children of the given id_category
 
@@ -1469,7 +1637,9 @@ Updates level_depth for all children of the given id_category
 
 ### <a name="method-recurseCategory"></a>recurseCategory
 
-    mixed CategoryCore::recurseCategory($categories, $current, $id_category, $id_selected)
+```php
+mixed CategoryCore::recurseCategory($categories, $current, $id_category, $id_selected)
+```
 
 
 
@@ -1490,7 +1660,9 @@ Updates level_depth for all children of the given id_category
 
 ### <a name="method-recurseLiteCategTree"></a>recurseLiteCategTree
 
-    array CategoryCore::recurseLiteCategTree(integer $max_depth, integer $current_depth, integer $id_lang, array $excluded_ids_array)
+```php
+array CategoryCore::recurseLiteCategTree(integer $max_depth, integer $current_depth, integer $id_lang, array $excluded_ids_array)
+```
 
 Recursive scan of subcategories
 
@@ -1510,7 +1682,9 @@ Recursive scan of subcategories
 
 ### <a name="method-recursiveDelete"></a>recursiveDelete
 
-    mixed CategoryCore::recursiveDelete($to_delete, integer $id_category)
+```php
+mixed CategoryCore::recursiveDelete($to_delete, integer $id_category)
+```
 
 Recursively add specified category childs to $to_delete array
 
@@ -1528,7 +1702,9 @@ Recursively add specified category childs to $to_delete array
 
 ### <a name="method-regenerateEntireNtree"></a>regenerateEntireNtree
 
-    mixed CategoryCore::regenerateEntireNtree()
+```php
+mixed CategoryCore::regenerateEntireNtree()
+```
 
 Re-calculate the values of all branches of the nested tree
 
@@ -1543,7 +1719,9 @@ Re-calculate the values of all branches of the nested tree
 
 ### <a name="method-searchByName"></a>searchByName
 
-    array CategoryCore::searchByName(integer $id_lang, string $query, boolean $unrestricted, boolean $skip_cache)
+```php
+array CategoryCore::searchByName(integer $id_lang, string $query, boolean $unrestricted, boolean $skip_cache)
+```
 
 Light back office search for categories
 
@@ -1564,7 +1742,9 @@ Light back office search for categories
 
 ### <a name="method-searchByNameAndParentCategoryId"></a>searchByNameAndParentCategoryId
 
-    array CategoryCore::searchByNameAndParentCategoryId(integer $id_lang, string $category_name, integer $id_parent_category)
+```php
+array CategoryCore::searchByNameAndParentCategoryId(integer $id_lang, string $category_name, integer $id_parent_category)
+```
 
 Retrieve category by name and parent category id
 
@@ -1584,7 +1764,9 @@ Retrieve category by name and parent category id
 
 ### <a name="method-searchByPath"></a>searchByPath
 
-    array CategoryCore::searchByPath(integer $id_lang, string $path, boolean $object_to_create, $method_to_create)
+```php
+array CategoryCore::searchByPath(integer $id_lang, string $path, boolean $object_to_create, $method_to_create)
+```
 
 Search with Pathes for categories
 
@@ -1606,7 +1788,9 @@ Search with Pathes for categories
 
 ### <a name="method-setNewGroupForHome"></a>setNewGroupForHome
 
-    mixed CategoryCore::setNewGroupForHome($id_group)
+```php
+mixed CategoryCore::setNewGroupForHome($id_group)
+```
 
 
 
@@ -1624,7 +1808,9 @@ Search with Pathes for categories
 
 ### <a name="method-toggleStatus"></a>toggleStatus
 
-    mixed CategoryCore::toggleStatus()
+```php
+mixed CategoryCore::toggleStatus()
+```
 
 
 
@@ -1638,7 +1824,9 @@ Search with Pathes for categories
 
 ### <a name="method-update"></a>update
 
-    boolean CategoryCore::update(mixed $null_values)
+```php
+boolean CategoryCore::update(mixed $null_values)
+```
 
 update category positions in parent
 
@@ -1655,7 +1843,9 @@ update category positions in parent
 
 ### <a name="method-updateFromShop"></a>updateFromShop
 
-    array CategoryCore::updateFromShop(string $categories, string $id_shop)
+```php
+array CategoryCore::updateFromShop(string $categories, string $id_shop)
+```
 
 Update categories for a shop
 
@@ -1674,7 +1864,9 @@ Update categories for a shop
 
 ### <a name="method-updateGroup"></a>updateGroup
 
-    mixed CategoryCore::updateGroup(array $list)
+```php
+mixed CategoryCore::updateGroup(array $list)
+```
 
 Update customer groups associated to the object
 
@@ -1691,7 +1883,9 @@ Update customer groups associated to the object
 
 ### <a name="method-updatePosition"></a>updatePosition
 
-    mixed CategoryCore::updatePosition($way, $position)
+```php
+mixed CategoryCore::updatePosition($way, $position)
+```
 
 
 

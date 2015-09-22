@@ -10,14 +10,16 @@ Class AdminCartsControllerCore
 * Source: [controllers/admin/AdminCartsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxPreProcess](#method-ajaxPreProcess)
 * [ajaxProcessAddVoucher](#method-ajaxProcessAddVoucher)
@@ -57,7 +59,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Cart $object
+```php
+public \Cart $object
+```
 
 
 
@@ -73,7 +77,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminCartsControllerCore::__construct()
+```php
+mixed AdminCartsControllerCore::__construct()
+```
 
 
 
@@ -87,7 +93,9 @@ Methods
 
 ### <a name="method-ajaxPreProcess"></a>ajaxPreProcess
 
-    mixed AdminCartsControllerCore::ajaxPreProcess()
+```php
+mixed AdminCartsControllerCore::ajaxPreProcess()
+```
 
 
 
@@ -101,7 +109,9 @@ Methods
 
 ### <a name="method-ajaxProcessAddVoucher"></a>ajaxProcessAddVoucher
 
-    mixed AdminCartsControllerCore::ajaxProcessAddVoucher()
+```php
+mixed AdminCartsControllerCore::ajaxProcessAddVoucher()
+```
 
 
 
@@ -115,7 +125,9 @@ Methods
 
 ### <a name="method-ajaxProcessDeleteProduct"></a>ajaxProcessDeleteProduct
 
-    mixed AdminCartsControllerCore::ajaxProcessDeleteProduct()
+```php
+mixed AdminCartsControllerCore::ajaxProcessDeleteProduct()
+```
 
 
 
@@ -129,7 +141,9 @@ Methods
 
 ### <a name="method-ajaxProcessDeleteVoucher"></a>ajaxProcessDeleteVoucher
 
-    mixed AdminCartsControllerCore::ajaxProcessDeleteVoucher()
+```php
+mixed AdminCartsControllerCore::ajaxProcessDeleteVoucher()
+```
 
 
 
@@ -143,7 +157,9 @@ Methods
 
 ### <a name="method-ajaxProcessDuplicateOrder"></a>ajaxProcessDuplicateOrder
 
-    mixed AdminCartsControllerCore::ajaxProcessDuplicateOrder()
+```php
+mixed AdminCartsControllerCore::ajaxProcessDuplicateOrder()
+```
 
 
 
@@ -157,7 +173,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateAddress"></a>ajaxProcessUpdateAddress
 
-    mixed AdminCartsControllerCore::ajaxProcessUpdateAddress()
+```php
+mixed AdminCartsControllerCore::ajaxProcessUpdateAddress()
+```
 
 
 
@@ -171,7 +189,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateAddresses"></a>ajaxProcessUpdateAddresses
 
-    mixed AdminCartsControllerCore::ajaxProcessUpdateAddresses()
+```php
+mixed AdminCartsControllerCore::ajaxProcessUpdateAddresses()
+```
 
 
 
@@ -185,7 +205,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateCurrency"></a>ajaxProcessUpdateCurrency
 
-    mixed AdminCartsControllerCore::ajaxProcessUpdateCurrency()
+```php
+mixed AdminCartsControllerCore::ajaxProcessUpdateCurrency()
+```
 
 
 
@@ -199,7 +221,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateCustomizationFields"></a>ajaxProcessUpdateCustomizationFields
 
-    mixed AdminCartsControllerCore::ajaxProcessUpdateCustomizationFields()
+```php
+mixed AdminCartsControllerCore::ajaxProcessUpdateCustomizationFields()
+```
 
 
 
@@ -213,7 +237,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateDeliveryOption"></a>ajaxProcessUpdateDeliveryOption
 
-    mixed AdminCartsControllerCore::ajaxProcessUpdateDeliveryOption()
+```php
+mixed AdminCartsControllerCore::ajaxProcessUpdateDeliveryOption()
+```
 
 
 
@@ -227,7 +253,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateLang"></a>ajaxProcessUpdateLang
 
-    mixed AdminCartsControllerCore::ajaxProcessUpdateLang()
+```php
+mixed AdminCartsControllerCore::ajaxProcessUpdateLang()
+```
 
 
 
@@ -241,7 +269,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateOrderMessage"></a>ajaxProcessUpdateOrderMessage
 
-    mixed AdminCartsControllerCore::ajaxProcessUpdateOrderMessage()
+```php
+mixed AdminCartsControllerCore::ajaxProcessUpdateOrderMessage()
+```
 
 
 
@@ -255,7 +285,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateProductPrice"></a>ajaxProcessUpdateProductPrice
 
-    mixed AdminCartsControllerCore::ajaxProcessUpdateProductPrice()
+```php
+mixed AdminCartsControllerCore::ajaxProcessUpdateProductPrice()
+```
 
 
 
@@ -269,7 +301,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateQty"></a>ajaxProcessUpdateQty
 
-    mixed AdminCartsControllerCore::ajaxProcessUpdateQty()
+```php
+mixed AdminCartsControllerCore::ajaxProcessUpdateQty()
+```
 
 
 
@@ -283,7 +317,9 @@ Methods
 
 ### <a name="method-ajaxProcessupdateFreeShipping"></a>ajaxProcessupdateFreeShipping
 
-    mixed AdminCartsControllerCore::ajaxProcessupdateFreeShipping()
+```php
+mixed AdminCartsControllerCore::ajaxProcessupdateFreeShipping()
+```
 
 
 
@@ -297,7 +333,9 @@ Methods
 
 ### <a name="method-ajaxReturnVars"></a>ajaxReturnVars
 
-    mixed AdminCartsControllerCore::ajaxReturnVars()
+```php
+mixed AdminCartsControllerCore::ajaxReturnVars()
+```
 
 
 
@@ -311,7 +349,9 @@ Methods
 
 ### <a name="method-displayAjaxGetSummary"></a>displayAjaxGetSummary
 
-    mixed AdminCartsControllerCore::displayAjaxGetSummary()
+```php
+mixed AdminCartsControllerCore::displayAjaxGetSummary()
+```
 
 
 
@@ -325,7 +365,9 @@ Methods
 
 ### <a name="method-displayAjaxSearchCarts"></a>displayAjaxSearchCarts
 
-    mixed AdminCartsControllerCore::displayAjaxSearchCarts()
+```php
+mixed AdminCartsControllerCore::displayAjaxSearchCarts()
+```
 
 
 
@@ -339,7 +381,9 @@ Methods
 
 ### <a name="method-displayDeleteLink"></a>displayDeleteLink
 
-    mixed AdminCartsControllerCore::displayDeleteLink($token, $id, $name)
+```php
+mixed AdminCartsControllerCore::displayDeleteLink($token, $id, $name)
+```
 
 
 
@@ -358,7 +402,9 @@ Methods
 
 ### <a name="method-getCartSummary"></a>getCartSummary
 
-    mixed AdminCartsControllerCore::getCartSummary()
+```php
+mixed AdminCartsControllerCore::getCartSummary()
+```
 
 
 
@@ -372,7 +418,9 @@ Methods
 
 ### <a name="method-getDeliveryOptionList"></a>getDeliveryOptionList
 
-    mixed AdminCartsControllerCore::getDeliveryOptionList()
+```php
+mixed AdminCartsControllerCore::getDeliveryOptionList()
+```
 
 
 
@@ -386,7 +434,9 @@ Methods
 
 ### <a name="method-getOrderTotalUsingTaxCalculationMethod"></a>getOrderTotalUsingTaxCalculationMethod
 
-    mixed AdminCartsControllerCore::getOrderTotalUsingTaxCalculationMethod($id_cart)
+```php
+mixed AdminCartsControllerCore::getOrderTotalUsingTaxCalculationMethod($id_cart)
+```
 
 
 
@@ -404,7 +454,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminCartsControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminCartsControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -418,7 +470,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminCartsControllerCore::initToolbar()
+```php
+mixed AdminCartsControllerCore::initToolbar()
+```
 
 
 
@@ -432,7 +486,9 @@ Methods
 
 ### <a name="method-renderKpis"></a>renderKpis
 
-    mixed AdminCartsControllerCore::renderKpis()
+```php
+mixed AdminCartsControllerCore::renderKpis()
+```
 
 
 
@@ -446,7 +502,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminCartsControllerCore::renderList()
+```php
+mixed AdminCartsControllerCore::renderList()
+```
 
 
 
@@ -460,7 +518,9 @@ Methods
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminCartsControllerCore::renderView()
+```php
+mixed AdminCartsControllerCore::renderView()
+```
 
 
 
@@ -474,7 +534,9 @@ Methods
 
 ### <a name="method-replaceZeroByShopName"></a>replaceZeroByShopName
 
-    mixed AdminCartsControllerCore::replaceZeroByShopName($echo, $tr)
+```php
+mixed AdminCartsControllerCore::replaceZeroByShopName($echo, $tr)
+```
 
 
 

@@ -1,5 +1,6 @@
 File classes/Category.php
 =========
+
 Source: [classes/Category.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php)
 
 

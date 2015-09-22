@@ -10,14 +10,16 @@ Class AdminContactsControllerCore
 * Source: [controllers/admin/AdminContactsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminContactsController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
 * [renderForm](#method-renderForm)
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Contact $object
+```php
+public \Contact $object
+```
 
 
 
@@ -47,7 +51,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminContactsControllerCore::__construct()
+```php
+mixed AdminContactsControllerCore::__construct()
+```
 
 
 
@@ -61,7 +67,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminContactsControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminContactsControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -75,7 +83,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminContactsControllerCore::renderForm()
+```php
+mixed AdminContactsControllerCore::renderForm()
+```
 
 
 

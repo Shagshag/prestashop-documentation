@@ -10,15 +10,17 @@ Class DbMySQLiCore
 * Source: [classes/db/DbMySQLi.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L32)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$link](#property-$link)
 * [$result](#property-$result)
 
-Methods
--------
+### Methods
+
 * [Affected_Rows](#method-Affected_Rows)
 * [Insert_ID](#method-Insert_ID)
 * [_escape](#method-_escape)
@@ -49,7 +51,9 @@ Properties
 
 ### <a name="property-$link"></a>$link
 
-    protected \mysqli $link
+```php
+protected \mysqli $link
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$result"></a>$result
 
-    protected mixed $result
+```php
+protected mixed $result
+```
 
 
 
@@ -77,7 +83,9 @@ Methods
 
 ### <a name="method-Affected_Rows"></a>Affected_Rows
 
-    integer DbMySQLiCore::Affected_Rows()
+```php
+integer DbMySQLiCore::Affected_Rows()
+```
 
 Return the number of rows affected by the last SQL query.
 
@@ -91,7 +99,9 @@ Return the number of rows affected by the last SQL query.
 
 ### <a name="method-Insert_ID"></a>Insert_ID
 
-    string|integer DbMySQLiCore::Insert_ID()
+```php
+string|integer DbMySQLiCore::Insert_ID()
+```
 
 Returns ID of the last inserted row.
 
@@ -105,7 +115,9 @@ Returns ID of the last inserted row.
 
 ### <a name="method-_escape"></a>_escape
 
-    string DbMySQLiCore::_escape(string $str)
+```php
+string DbMySQLiCore::_escape(string $str)
+```
 
 Escapes illegal characters in a string.
 
@@ -122,7 +134,9 @@ Escapes illegal characters in a string.
 
 ### <a name="method-_numRows"></a>_numRows
 
-    integer DbMySQLiCore::_numRows(boolean|\mysqli_result $result)
+```php
+integer DbMySQLiCore::_numRows(boolean|\mysqli_result $result)
+```
 
 Returns row count from the result set.
 
@@ -139,7 +153,9 @@ Returns row count from the result set.
 
 ### <a name="method-_query"></a>_query
 
-    boolean|\mysqli_result DbMySQLiCore::_query(string $sql)
+```php
+boolean|\mysqli_result DbMySQLiCore::_query(string $sql)
+```
 
 Executes an SQL statement, returning a result set as a mysqli_result object or true/false.
 
@@ -156,7 +172,9 @@ Executes an SQL statement, returning a result set as a mysqli_result object or t
 
 ### <a name="method-checkAutoIncrement"></a>checkAutoIncrement
 
-    boolean DbMySQLiCore::checkAutoIncrement(string $server, string $user, string $pwd)
+```php
+boolean DbMySQLiCore::checkAutoIncrement(string $server, string $user, string $pwd)
+```
 
 Checks if auto increment value and offset is 1
 
@@ -176,7 +194,9 @@ Checks if auto increment value and offset is 1
 
 ### <a name="method-checkCreatePrivilege"></a>checkCreatePrivilege
 
-    boolean|string DbMySQLiCore::checkCreatePrivilege(string $server, string $user, string $pwd, string $db, string $prefix, string|null $engine)
+```php
+boolean|string DbMySQLiCore::checkCreatePrivilege(string $server, string $user, string $pwd, string $db, string $prefix, string|null $engine)
+```
 
 Tries to connect to the database and create a table (checking creation privileges)
 
@@ -199,7 +219,9 @@ Tries to connect to the database and create a table (checking creation privilege
 
 ### <a name="method-connect"></a>connect
 
-    \mysqli DbMySQLiCore::connect()
+```php
+\mysqli DbMySQLiCore::connect()
+```
 
 Tries to connect to the database
 
@@ -213,7 +235,9 @@ Tries to connect to the database
 
 ### <a name="method-createDatabase"></a>createDatabase
 
-    boolean|\mysqli_result DbMySQLiCore::createDatabase(string $host, string|null $user, string|null $password, string|null $database, boolean $dropit)
+```php
+boolean|\mysqli_result DbMySQLiCore::createDatabase(string $host, string|null $user, string|null $password, string|null $database, boolean $dropit)
+```
 
 Tries to connect and create a new database
 
@@ -235,7 +259,9 @@ Tries to connect and create a new database
 
 ### <a name="method-disconnect"></a>disconnect
 
-    mixed DbMySQLiCore::disconnect()
+```php
+mixed DbMySQLiCore::disconnect()
+```
 
 Destroys the database connection link
 
@@ -249,7 +275,9 @@ Destroys the database connection link
 
 ### <a name="method-getAll"></a>getAll
 
-    array|false DbMySQLiCore::getAll(boolean|\mysqli_result $result)
+```php
+array|false DbMySQLiCore::getAll(boolean|\mysqli_result $result)
+```
 
 Returns all rows from the result set.
 
@@ -266,7 +294,9 @@ Returns all rows from the result set.
 
 ### <a name="method-getBestEngine"></a>getBestEngine
 
-    string DbMySQLiCore::getBestEngine()
+```php
+string DbMySQLiCore::getBestEngine()
+```
 
 Selects best table engine.
 
@@ -280,7 +310,9 @@ Selects best table engine.
 
 ### <a name="method-getMsgError"></a>getMsgError
 
-    string DbMySQLiCore::getMsgError(boolean $query)
+```php
+string DbMySQLiCore::getMsgError(boolean $query)
+```
 
 Returns error message.
 
@@ -297,7 +329,9 @@ Returns error message.
 
 ### <a name="method-getNumberError"></a>getNumberError
 
-    integer DbMySQLiCore::getNumberError()
+```php
+integer DbMySQLiCore::getNumberError()
+```
 
 Returns error code.
 
@@ -311,7 +345,9 @@ Returns error code.
 
 ### <a name="method-getVersion"></a>getVersion
 
-    string DbMySQLiCore::getVersion()
+```php
+string DbMySQLiCore::getVersion()
+```
 
 Returns database server version.
 
@@ -325,7 +361,9 @@ Returns database server version.
 
 ### <a name="method-hasTableWithSamePrefix"></a>hasTableWithSamePrefix
 
-    boolean DbMySQLiCore::hasTableWithSamePrefix(string $server, string $user, string $pwd, string $db, string $prefix)
+```php
+boolean DbMySQLiCore::hasTableWithSamePrefix(string $server, string $user, string $pwd, string $db, string $prefix)
+```
 
 Try a connection to the database and check if at least one table with same prefix exists
 
@@ -347,7 +385,9 @@ Try a connection to the database and check if at least one table with same prefi
 
 ### <a name="method-nextRow"></a>nextRow
 
-    array|boolean DbMySQLiCore::nextRow(boolean|\mysqli_result $result)
+```php
+array|boolean DbMySQLiCore::nextRow(boolean|\mysqli_result $result)
+```
 
 Returns the next row from the result set.
 
@@ -364,7 +404,9 @@ Returns the next row from the result set.
 
 ### <a name="method-set_db"></a>set_db
 
-    boolean DbMySQLiCore::set_db(string $db_name)
+```php
+boolean DbMySQLiCore::set_db(string $db_name)
+```
 
 Switches to a different database.
 
@@ -381,7 +423,9 @@ Switches to a different database.
 
 ### <a name="method-tryToConnect"></a>tryToConnect
 
-    integer DbMySQLiCore::tryToConnect(string $server, string $user, string $pwd, string $db, $new_db_link, string|boolean $engine, integer $timeout)
+```php
+integer DbMySQLiCore::tryToConnect(string $server, string $user, string $pwd, string $db, $new_db_link, string|boolean $engine, integer $timeout)
+```
 
 Try a connection to the database
 
@@ -405,7 +449,9 @@ Try a connection to the database
 
 ### <a name="method-tryUTF8"></a>tryUTF8
 
-    boolean DbMySQLiCore::tryUTF8(string $server, string $user, string $pwd)
+```php
+boolean DbMySQLiCore::tryUTF8(string $server, string $user, string $pwd)
+```
 
 Try a connection to the database and set names to UTF-8
 

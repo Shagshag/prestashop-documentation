@@ -10,9 +10,11 @@ Class SupplierCore
 * Source: [classes/Supplier.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$cache_name](#property-$cache_name)
@@ -29,8 +31,8 @@ Properties
 * [$name](#property-$name)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [delete](#method-delete)
 * [getIdByName](#method-getIdByName)
@@ -51,7 +53,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active
+```php
+public boolean $active
+```
 
 
 
@@ -63,7 +67,9 @@ Properties
 
 ### <a name="property-$cache_name"></a>$cache_name
 
-    protected mixed $cache_name = array()
+```php
+protected mixed $cache_name = array()
+```
 
 Return name from id
 
@@ -76,7 +82,9 @@ Return name from id
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -88,7 +96,9 @@ Return name from id
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -100,7 +110,9 @@ Return name from id
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'supplier', 'primary' => 'id_supplier', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isCatalogName', 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255)))
+```php
+public mixed $definition = array('table' => 'supplier', 'primary' => 'id_supplier', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isCatalogName', 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255)))
+```
 
 
 
@@ -113,7 +125,9 @@ Return name from id
 
 ### <a name="property-$description"></a>$description
 
-    public string $description
+```php
+public string $description
+```
 
 
 
@@ -125,7 +139,9 @@ Return name from id
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -137,7 +153,9 @@ Return name from id
 
 ### <a name="property-$id_supplier"></a>$id_supplier
 
-    public integer $id_supplier
+```php
+public integer $id_supplier
+```
 
 
 
@@ -149,7 +167,9 @@ Return name from id
 
 ### <a name="property-$link_rewrite"></a>$link_rewrite
 
-    public string $link_rewrite
+```php
+public string $link_rewrite
+```
 
 
 
@@ -161,7 +181,9 @@ Return name from id
 
 ### <a name="property-$meta_description"></a>$meta_description
 
-    public string $meta_description
+```php
+public string $meta_description
+```
 
 
 
@@ -173,7 +195,9 @@ Return name from id
 
 ### <a name="property-$meta_keywords"></a>$meta_keywords
 
-    public string $meta_keywords
+```php
+public string $meta_keywords
+```
 
 
 
@@ -185,7 +209,9 @@ Return name from id
 
 ### <a name="property-$meta_title"></a>$meta_title
 
-    public string $meta_title
+```php
+public string $meta_title
+```
 
 
 
@@ -197,7 +223,9 @@ Return name from id
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -209,7 +237,9 @@ Return name from id
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('link_rewrite' => array('sqlId' => 'link_rewrite')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('link_rewrite' => array('sqlId' => 'link_rewrite')))
+```
 
 
 
@@ -225,7 +255,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed SupplierCore::__construct($id, $id_lang)
+```php
+mixed SupplierCore::__construct($id, $id_lang)
+```
 
 
 
@@ -243,7 +275,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed SupplierCore::delete()
+```php
+mixed SupplierCore::delete()
+```
 
 
 
@@ -257,7 +291,9 @@ Methods
 
 ### <a name="method-getIdByName"></a>getIdByName
 
-    mixed SupplierCore::getIdByName($name)
+```php
+mixed SupplierCore::getIdByName($name)
+```
 
 
 
@@ -275,7 +311,9 @@ Methods
 
 ### <a name="method-getLink"></a>getLink
 
-    mixed SupplierCore::getLink()
+```php
+mixed SupplierCore::getLink()
+```
 
 
 
@@ -289,7 +327,9 @@ Methods
 
 ### <a name="method-getNameById"></a>getNameById
 
-    mixed SupplierCore::getNameById($id_supplier)
+```php
+mixed SupplierCore::getNameById($id_supplier)
+```
 
 
 
@@ -307,7 +347,9 @@ Methods
 
 ### <a name="method-getProductInformationsBySupplier"></a>getProductInformationsBySupplier
 
-    array SupplierCore::getProductInformationsBySupplier(integer $id_supplier, integer $id_product, integer $id_product_attribute)
+```php
+array SupplierCore::getProductInformationsBySupplier(integer $id_supplier, integer $id_product, integer $id_product_attribute)
+```
 
 Gets product informations
 
@@ -327,7 +369,9 @@ Gets product informations
 
 ### <a name="method-getProducts"></a>getProducts
 
-    mixed SupplierCore::getProducts($id_supplier, $id_lang, $p, $n, $order_by, $order_way, $get_total, $active, $active_category)
+```php
+mixed SupplierCore::getProducts($id_supplier, $id_lang, $p, $n, $order_by, $order_way, $get_total, $active, $active_category)
+```
 
 
 
@@ -353,7 +397,9 @@ Gets product informations
 
 ### <a name="method-getProductsLite"></a>getProductsLite
 
-    mixed SupplierCore::getProductsLite($id_lang)
+```php
+mixed SupplierCore::getProductsLite($id_lang)
+```
 
 
 
@@ -370,7 +416,9 @@ Gets product informations
 
 ### <a name="method-getSuppliers"></a>getSuppliers
 
-    array SupplierCore::getSuppliers($get_nb_products, $id_lang, $active, $p, $n, $all_groups)
+```php
+array SupplierCore::getSuppliers($get_nb_products, $id_lang, $active, $p, $n, $all_groups)
+```
 
 Return suppliers
 
@@ -393,7 +441,9 @@ Return suppliers
 
 ### <a name="method-supplierExists"></a>supplierExists
 
-    mixed SupplierCore::supplierExists($id_supplier)
+```php
+mixed SupplierCore::supplierExists($id_supplier)
+```
 
 
 

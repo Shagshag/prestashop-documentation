@@ -23,16 +23,18 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$configuration](#property-$configuration)
 * [$db](#property-$db)
 * [$entityMetaData](#property-$entityMetaData)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [delete](#method-delete)
 * [getDatabase](#method-getDatabase)
@@ -49,7 +51,9 @@ Properties
 
 ### <a name="property-$configuration"></a>$configuration
 
-    private mixed $configuration
+```php
+private mixed $configuration
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$db"></a>$db
 
-    private mixed $db
+```php
+private mixed $db
+```
 
 
 
@@ -73,7 +79,9 @@ Properties
 
 ### <a name="property-$entityMetaData"></a>$entityMetaData
 
-    private mixed $entityMetaData = array()
+```php
+private mixed $entityMetaData = array()
+```
 
 
 
@@ -89,7 +97,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed Core_Foundation_Database_EntityManager::__construct(\Core_Foundation_Database_DatabaseInterface $db, \Core_Business_ConfigurationInterface $configuration)
+```php
+mixed Core_Foundation_Database_EntityManager::__construct(\Core_Foundation_Database_DatabaseInterface $db, \Core_Business_ConfigurationInterface $configuration)
+```
 
 
 
@@ -107,7 +117,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    \Core_Foundation_Database_EntityManager Core_Foundation_Database_EntityManager::delete(\Core_Foundation_Database_EntityInterface $entity)
+```php
+\Core_Foundation_Database_EntityManager Core_Foundation_Database_EntityManager::delete(\Core_Foundation_Database_EntityInterface $entity)
+```
 
 DElete entity from DB
 
@@ -124,7 +136,9 @@ DElete entity from DB
 
 ### <a name="method-getDatabase"></a>getDatabase
 
-    \Core_Foundation_Database_DatabaseInterface Core_Foundation_Database_EntityManager::getDatabase()
+```php
+\Core_Foundation_Database_DatabaseInterface Core_Foundation_Database_EntityManager::getDatabase()
+```
 
 Return current database object used
 
@@ -138,7 +152,9 @@ Return current database object used
 
 ### <a name="method-getEntityMetaData"></a>getEntityMetaData
 
-    mixed Core_Foundation_Database_EntityManager::getEntityMetaData($className)
+```php
+mixed Core_Foundation_Database_EntityManager::getEntityMetaData($className)
+```
 
 Return entity's meta data
 
@@ -155,7 +171,9 @@ Return entity's meta data
 
 ### <a name="method-getRepository"></a>getRepository
 
-    mixed Core_Foundation_Database_EntityManager::getRepository($className)
+```php
+mixed Core_Foundation_Database_EntityManager::getRepository($className)
+```
 
 Return current repository used
 
@@ -172,7 +190,9 @@ Return current repository used
 
 ### <a name="method-save"></a>save
 
-    \Core_Foundation_Database_EntityManager Core_Foundation_Database_EntityManager::save(\Core_Foundation_Database_EntityInterface $entity)
+```php
+\Core_Foundation_Database_EntityManager Core_Foundation_Database_EntityManager::save(\Core_Foundation_Database_EntityInterface $entity)
+```
 
 Flush entity to DB
 

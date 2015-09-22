@@ -10,16 +10,18 @@ Class ProfileCore
 * Source: [classes/Profile.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_cache_accesses](#property-$_cache_accesses)
 * [$definition](#property-$definition)
 * [$name](#property-$name)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [delete](#method-delete)
 * [getProfile](#method-getProfile)
@@ -36,7 +38,9 @@ Properties
 
 ### <a name="property-$_cache_accesses"></a>$_cache_accesses
 
-    protected mixed $_cache_accesses = array()
+```php
+protected mixed $_cache_accesses = array()
+```
 
 
 
@@ -49,7 +53,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'profile', 'primary' => 'id_profile', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32)))
+```php
+public mixed $definition = array('table' => 'profile', 'primary' => 'id_profile', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32)))
+```
 
 
 
@@ -62,7 +68,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -78,7 +86,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed ProfileCore::add($autodate, $null_values)
+```php
+mixed ProfileCore::add($autodate, $null_values)
+```
 
 
 
@@ -96,7 +106,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed ProfileCore::delete()
+```php
+mixed ProfileCore::delete()
+```
 
 
 
@@ -110,7 +122,9 @@ Methods
 
 ### <a name="method-getProfile"></a>getProfile
 
-    string ProfileCore::getProfile($id_profile, $id_lang)
+```php
+string ProfileCore::getProfile($id_profile, $id_lang)
+```
 
 Get the current profile name
 
@@ -129,7 +143,9 @@ Get the current profile name
 
 ### <a name="method-getProfileAccess"></a>getProfileAccess
 
-    mixed ProfileCore::getProfileAccess($id_profile, $id_tab)
+```php
+mixed ProfileCore::getProfileAccess($id_profile, $id_tab)
+```
 
 
 
@@ -148,7 +164,9 @@ Get the current profile name
 
 ### <a name="method-getProfileAccesses"></a>getProfileAccesses
 
-    mixed ProfileCore::getProfileAccesses($id_profile, $type)
+```php
+mixed ProfileCore::getProfileAccesses($id_profile, $type)
+```
 
 
 
@@ -167,7 +185,9 @@ Get the current profile name
 
 ### <a name="method-getProfiles"></a>getProfiles
 
-    array ProfileCore::getProfiles($id_lang)
+```php
+array ProfileCore::getProfiles($id_lang)
+```
 
 Get all available profiles
 

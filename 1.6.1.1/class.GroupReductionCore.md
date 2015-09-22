@@ -10,9 +10,11 @@ Class GroupReductionCore
 * Source: [classes/GroupReduction.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$id_category](#property-$id_category)
@@ -20,8 +22,8 @@ Properties
 * [$reduction](#property-$reduction)
 * [$reduction_cache](#property-$reduction_cache)
 
-Methods
--------
+### Methods
+
 * [_clearCache](#method-_clearCache)
 * [_setCache](#method-_setCache)
 * [_updateCache](#method-_updateCache)
@@ -49,7 +51,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'group_reduction', 'primary' => 'id_group_reduction', 'fields' => array('id_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_category' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'reduction' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'group_reduction', 'primary' => 'id_group_reduction', 'fields' => array('id_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_category' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'reduction' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true)))
+```
 
 
 
@@ -62,7 +66,9 @@ Properties
 
 ### <a name="property-$id_category"></a>$id_category
 
-    public mixed $id_category
+```php
+public mixed $id_category
+```
 
 
 
@@ -74,7 +80,9 @@ Properties
 
 ### <a name="property-$id_group"></a>$id_group
 
-    public mixed $id_group
+```php
+public mixed $id_group
+```
 
 
 
@@ -86,7 +94,9 @@ Properties
 
 ### <a name="property-$reduction"></a>$reduction
 
-    public mixed $reduction
+```php
+public mixed $reduction
+```
 
 
 
@@ -98,7 +108,9 @@ Properties
 
 ### <a name="property-$reduction_cache"></a>$reduction_cache
 
-    protected mixed $reduction_cache = array()
+```php
+protected mixed $reduction_cache = array()
+```
 
 
 
@@ -115,7 +127,9 @@ Methods
 
 ### <a name="method-_clearCache"></a>_clearCache
 
-    mixed GroupReductionCore::_clearCache()
+```php
+mixed GroupReductionCore::_clearCache()
+```
 
 
 
@@ -129,7 +143,9 @@ Methods
 
 ### <a name="method-_setCache"></a>_setCache
 
-    mixed GroupReductionCore::_setCache()
+```php
+mixed GroupReductionCore::_setCache()
+```
 
 
 
@@ -143,7 +159,9 @@ Methods
 
 ### <a name="method-_updateCache"></a>_updateCache
 
-    mixed GroupReductionCore::_updateCache()
+```php
+mixed GroupReductionCore::_updateCache()
+```
 
 
 
@@ -157,7 +175,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed GroupReductionCore::add($autodate, $null_values)
+```php
+mixed GroupReductionCore::add($autodate, $null_values)
+```
 
 
 
@@ -175,7 +195,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed GroupReductionCore::delete()
+```php
+mixed GroupReductionCore::delete()
+```
 
 
 
@@ -189,7 +211,9 @@ Methods
 
 ### <a name="method-deleteCategory"></a>deleteCategory
 
-    mixed GroupReductionCore::deleteCategory($id_category)
+```php
+mixed GroupReductionCore::deleteCategory($id_category)
+```
 
 
 
@@ -207,7 +231,9 @@ Methods
 
 ### <a name="method-deleteProductReduction"></a>deleteProductReduction
 
-    mixed GroupReductionCore::deleteProductReduction($id_product)
+```php
+mixed GroupReductionCore::deleteProductReduction($id_product)
+```
 
 
 
@@ -225,7 +251,9 @@ Methods
 
 ### <a name="method-doesExist"></a>doesExist
 
-    mixed GroupReductionCore::doesExist($id_group, $id_category)
+```php
+mixed GroupReductionCore::doesExist($id_group, $id_category)
+```
 
 
 
@@ -244,7 +272,9 @@ Methods
 
 ### <a name="method-duplicateReduction"></a>duplicateReduction
 
-    mixed GroupReductionCore::duplicateReduction($id_product_old, $id_product)
+```php
+mixed GroupReductionCore::duplicateReduction($id_product_old, $id_product)
+```
 
 
 
@@ -263,7 +293,9 @@ Methods
 
 ### <a name="method-getGroupByCategoryId"></a>getGroupByCategoryId
 
-    array|null GroupReductionCore::getGroupByCategoryId(integer $id_category)
+```php
+array|null GroupReductionCore::getGroupByCategoryId(integer $id_category)
+```
 
 
 
@@ -281,7 +313,9 @@ Methods
 
 ### <a name="method-getGroupReductionByCategoryId"></a>getGroupReductionByCategoryId
 
-    array|null GroupReductionCore::getGroupReductionByCategoryId(integer $id_category)
+```php
+array|null GroupReductionCore::getGroupReductionByCategoryId(integer $id_category)
+```
 
 
 
@@ -299,7 +333,9 @@ Methods
 
 ### <a name="method-getGroupReductions"></a>getGroupReductions
 
-    mixed GroupReductionCore::getGroupReductions($id_group, $id_lang)
+```php
+mixed GroupReductionCore::getGroupReductions($id_group, $id_lang)
+```
 
 
 
@@ -318,7 +354,9 @@ Methods
 
 ### <a name="method-getGroupsByCategoryId"></a>getGroupsByCategoryId
 
-    mixed GroupReductionCore::getGroupsByCategoryId($id_category)
+```php
+mixed GroupReductionCore::getGroupsByCategoryId($id_category)
+```
 
 
 
@@ -336,7 +374,9 @@ Methods
 
 ### <a name="method-getGroupsReductionByCategoryId"></a>getGroupsReductionByCategoryId
 
-    mixed GroupReductionCore::getGroupsReductionByCategoryId($id_category)
+```php
+mixed GroupReductionCore::getGroupsReductionByCategoryId($id_category)
+```
 
 
 
@@ -354,7 +394,9 @@ Methods
 
 ### <a name="method-getValueForProduct"></a>getValueForProduct
 
-    mixed GroupReductionCore::getValueForProduct($id_product, $id_group)
+```php
+mixed GroupReductionCore::getValueForProduct($id_product, $id_group)
+```
 
 
 
@@ -373,7 +415,9 @@ Methods
 
 ### <a name="method-setProductReduction"></a>setProductReduction
 
-    mixed GroupReductionCore::setProductReduction($id_product, $id_group, $id_category, $reduction)
+```php
+mixed GroupReductionCore::setProductReduction($id_product, $id_group, $id_category, $reduction)
+```
 
 
 
@@ -394,7 +438,9 @@ Methods
 
 ### <a name="method-update"></a>update
 
-    mixed GroupReductionCore::update($null_values)
+```php
+mixed GroupReductionCore::update($null_values)
+```
 
 
 

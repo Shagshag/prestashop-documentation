@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Adapter/Adapter_HookManager.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_HookManager.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [exec](#method-exec)
 
 
@@ -41,7 +43,9 @@ Methods
 
 ### <a name="method-exec"></a>exec
 
-    \string/array Adapter_HookManager::exec(string $hook_name, array $hook_args, integer $id_module, boolean $array_return, boolean $check_exceptions, boolean $use_push, integer $id_shop)
+```php
+\string/array Adapter_HookManager::exec(string $hook_name, array $hook_args, integer $id_module, boolean $array_return, boolean $check_exceptions, boolean $use_push, integer $id_shop)
+```
 
 Execute modules for specified hook
 

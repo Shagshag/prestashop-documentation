@@ -10,15 +10,17 @@ Class AdminZonesControllerCore
 * Source: [controllers/admin/AdminZonesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$asso_type](#property-$asso_type)
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
 * [renderForm](#method-renderForm)
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$asso_type"></a>$asso_type
 
-    public mixed $asso_type = 'shop'
+```php
+public mixed $asso_type = 'shop'
+```
 
 
 
@@ -45,7 +49,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Zone $object
+```php
+public \Zone $object
+```
 
 
 
@@ -61,7 +67,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminZonesControllerCore::__construct()
+```php
+mixed AdminZonesControllerCore::__construct()
+```
 
 
 
@@ -75,7 +83,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminZonesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminZonesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -89,7 +99,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminZonesControllerCore::renderForm()
+```php
+mixed AdminZonesControllerCore::renderForm()
+```
 
 
 
@@ -103,7 +115,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminZonesControllerCore::renderList()
+```php
+mixed AdminZonesControllerCore::renderList()
+```
 
 
 

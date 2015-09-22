@@ -10,9 +10,11 @@ Class CMSCore
 * Source: [classes/CMS.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$content](#property-$content)
@@ -26,8 +28,8 @@ Properties
 * [$position](#property-$position)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [cleanPositions](#method-cleanPositions)
 * [delete](#method-delete)
@@ -50,7 +52,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public mixed $active
+```php
+public mixed $active
+```
 
 
 
@@ -62,7 +66,9 @@ Properties
 
 ### <a name="property-$content"></a>$content
 
-    public mixed $content
+```php
+public mixed $content
+```
 
 
 
@@ -74,7 +80,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'cms', 'primary' => 'id_cms', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('id_cms_category' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'position' => array('type' => self::TYPE_INT), 'indexation' => array('type' => self::TYPE_BOOL), 'active' => array('type' => self::TYPE_BOOL), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128), 'link_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'required' => true, 'size' => 128), 'content' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml', 'size' => 3999999999999.0)))
+```php
+public mixed $definition = array('table' => 'cms', 'primary' => 'id_cms', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('id_cms_category' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'position' => array('type' => self::TYPE_INT), 'indexation' => array('type' => self::TYPE_BOOL), 'active' => array('type' => self::TYPE_BOOL), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128), 'link_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'required' => true, 'size' => 128), 'content' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml', 'size' => 3999999999999.0)))
+```
 
 
 
@@ -87,7 +95,9 @@ Properties
 
 ### <a name="property-$id_cms_category"></a>$id_cms_category
 
-    public mixed $id_cms_category
+```php
+public mixed $id_cms_category
+```
 
 
 
@@ -99,7 +109,9 @@ Properties
 
 ### <a name="property-$indexation"></a>$indexation
 
-    public mixed $indexation
+```php
+public mixed $indexation
+```
 
 
 
@@ -111,7 +123,9 @@ Properties
 
 ### <a name="property-$link_rewrite"></a>$link_rewrite
 
-    public mixed $link_rewrite
+```php
+public mixed $link_rewrite
+```
 
 
 
@@ -123,7 +137,9 @@ Properties
 
 ### <a name="property-$meta_description"></a>$meta_description
 
-    public mixed $meta_description
+```php
+public mixed $meta_description
+```
 
 
 
@@ -135,7 +151,9 @@ Properties
 
 ### <a name="property-$meta_keywords"></a>$meta_keywords
 
-    public mixed $meta_keywords
+```php
+public mixed $meta_keywords
+```
 
 
 
@@ -147,7 +165,9 @@ Properties
 
 ### <a name="property-$meta_title"></a>$meta_title
 
-    public string $meta_title
+```php
+public string $meta_title
+```
 
 
 
@@ -159,7 +179,9 @@ Properties
 
 ### <a name="property-$position"></a>$position
 
-    public mixed $position
+```php
+public mixed $position
+```
 
 
 
@@ -171,7 +193,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectNodeName' => 'content', 'objectsNodeName' => 'content_management_system')
+```php
+protected mixed $webserviceParameters = array('objectNodeName' => 'content', 'objectsNodeName' => 'content_management_system')
+```
 
 
 
@@ -187,7 +211,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed CMSCore::add($autodate, $null_values)
+```php
+mixed CMSCore::add($autodate, $null_values)
+```
 
 
 
@@ -205,7 +231,9 @@ Methods
 
 ### <a name="method-cleanPositions"></a>cleanPositions
 
-    mixed CMSCore::cleanPositions($id_category)
+```php
+mixed CMSCore::cleanPositions($id_category)
+```
 
 
 
@@ -223,7 +251,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed CMSCore::delete()
+```php
+mixed CMSCore::delete()
+```
 
 
 
@@ -237,7 +267,9 @@ Methods
 
 ### <a name="method-getCMSContent"></a>getCMSContent
 
-    mixed CMSCore::getCMSContent($id_cms, $id_lang, $id_shop)
+```php
+mixed CMSCore::getCMSContent($id_cms, $id_lang, $id_shop)
+```
 
 
 
@@ -257,7 +289,9 @@ Methods
 
 ### <a name="method-getCMSPages"></a>getCMSPages
 
-    mixed CMSCore::getCMSPages($id_lang, $id_cms_category, $active, $id_shop)
+```php
+mixed CMSCore::getCMSPages($id_lang, $id_cms_category, $active, $id_shop)
+```
 
 
 
@@ -278,7 +312,9 @@ Methods
 
 ### <a name="method-getLastPosition"></a>getLastPosition
 
-    mixed CMSCore::getLastPosition($id_category)
+```php
+mixed CMSCore::getLastPosition($id_category)
+```
 
 
 
@@ -296,7 +332,9 @@ Methods
 
 ### <a name="method-getLinks"></a>getLinks
 
-    mixed CMSCore::getLinks($id_lang, $selection, $active, \Link $link)
+```php
+mixed CMSCore::getLinks($id_lang, $selection, $active, \Link $link)
+```
 
 
 
@@ -317,7 +355,9 @@ Methods
 
 ### <a name="method-getRepositoryClassName"></a>getRepositoryClassName
 
-    mixed CMSCore::getRepositoryClassName()
+```php
+mixed CMSCore::getRepositoryClassName()
+```
 
 
 
@@ -332,7 +372,9 @@ Methods
 
 ### <a name="method-getUrlRewriteInformations"></a>getUrlRewriteInformations
 
-    mixed CMSCore::getUrlRewriteInformations($id_cms)
+```php
+mixed CMSCore::getUrlRewriteInformations($id_cms)
+```
 
 
 
@@ -350,7 +392,9 @@ Methods
 
 ### <a name="method-listCms"></a>listCms
 
-    mixed CMSCore::listCms($id_lang, $id_block, $active)
+```php
+mixed CMSCore::listCms($id_lang, $id_block, $active)
+```
 
 
 
@@ -370,7 +414,9 @@ Methods
 
 ### <a name="method-update"></a>update
 
-    mixed CMSCore::update($null_values)
+```php
+mixed CMSCore::update($null_values)
+```
 
 
 
@@ -387,7 +433,9 @@ Methods
 
 ### <a name="method-updatePosition"></a>updatePosition
 
-    mixed CMSCore::updatePosition($way, $position)
+```php
+mixed CMSCore::updatePosition($way, $position)
+```
 
 
 

@@ -8,15 +8,17 @@ Class DispatcherCore
 * Class name: DispatcherCore
 * Source: [classes/Dispatcher.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#L30)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [FC_ADMIN](#constant-FC_ADMIN)
 * [FC_FRONT](#constant-FC_FRONT)
 * [FC_MODULE](#constant-FC_MODULE)
 
-Properties
-----------
+### Properties
 
 * [$controller](#property-$controller)
 * [$controller_not_found](#property-$controller_not_found)
@@ -31,8 +33,8 @@ Properties
 * [$use_default_controller](#property-$use_default_controller)
 * [$use_routes](#property-$use_routes)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [addRoute](#method-addRoute)
 * [createUrl](#method-createUrl)
@@ -56,7 +58,9 @@ Constants
 
 ### <a name="constant-FC_ADMIN"></a>FC_ADMIN
 
-    const FC_ADMIN = 2
+```php
+const FC_ADMIN = 2
+```
 
 
 
@@ -67,7 +71,9 @@ Constants
 
 ### <a name="constant-FC_FRONT"></a>FC_FRONT
 
-    const FC_FRONT = 1
+```php
+const FC_FRONT = 1
+```
 
 List of available front controllers types
 
@@ -78,7 +84,9 @@ List of available front controllers types
 
 ### <a name="constant-FC_MODULE"></a>FC_MODULE
 
-    const FC_MODULE = 3
+```php
+const FC_MODULE = 3
+```
 
 
 
@@ -93,7 +101,9 @@ Properties
 
 ### <a name="property-$controller"></a>$controller
 
-    protected string $controller
+```php
+protected string $controller
+```
 
 
 
@@ -105,7 +115,9 @@ Properties
 
 ### <a name="property-$controller_not_found"></a>$controller_not_found
 
-    protected string $controller_not_found = 'pagenotfound'
+```php
+protected string $controller_not_found = 'pagenotfound'
+```
 
 
 
@@ -117,7 +129,9 @@ Properties
 
 ### <a name="property-$default_controller"></a>$default_controller
 
-    protected string $default_controller
+```php
+protected string $default_controller
+```
 
 
 
@@ -129,7 +143,9 @@ Properties
 
 ### <a name="property-$default_routes"></a>$default_routes
 
-    public array $default_routes = array('category_rule' => array('controller' => 'category', 'rule' => '{id}-{rewrite}', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_category'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'))), 'supplier_rule' => array('controller' => 'supplier', 'rule' => '{id}__{rewrite}', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_supplier'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'))), 'manufacturer_rule' => array('controller' => 'manufacturer', 'rule' => '{id}_{rewrite}', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_manufacturer'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'))), 'cms_rule' => array('controller' => 'cms', 'rule' => 'content/{id}-{rewrite}', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_cms'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'))), 'cms_category_rule' => array('controller' => 'cms', 'rule' => 'content/category/{id}-{rewrite}', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_cms_category'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'))), 'module' => array('controller' => null, 'rule' => 'module/{module}{/:controller}', 'keywords' => array('module' => array('regexp' => '[_a-zA-Z0-9_-]+', 'param' => 'module'), 'controller' => array('regexp' => '[_a-zA-Z0-9_-]+', 'param' => 'controller')), 'params' => array('fc' => 'module')), 'product_rule' => array('controller' => 'product', 'rule' => '{category:/}{id}-{rewrite}{-:ean13}.html', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_product'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'ean13' => array('regexp' => '[0-9\pL]*'), 'category' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'categories' => array('regexp' => '[/_a-zA-Z0-9-\pL]*'), 'reference' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'manufacturer' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'supplier' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'price' => array('regexp' => '[0-9\.,]*'), 'tags' => array('regexp' => '[a-zA-Z0-9-\pL]*'))), 'layered_rule' => array('controller' => 'category', 'rule' => '{id}-{rewrite}{/:selected_filters}', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_category'), 'selected_filters' => array('regexp' => '.*', 'param' => 'selected_filters'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'))))
+```php
+public array $default_routes = array('category_rule' => array('controller' => 'category', 'rule' => '{id}-{rewrite}', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_category'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'))), 'supplier_rule' => array('controller' => 'supplier', 'rule' => '{id}__{rewrite}', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_supplier'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'))), 'manufacturer_rule' => array('controller' => 'manufacturer', 'rule' => '{id}_{rewrite}', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_manufacturer'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'))), 'cms_rule' => array('controller' => 'cms', 'rule' => 'content/{id}-{rewrite}', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_cms'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'))), 'cms_category_rule' => array('controller' => 'cms', 'rule' => 'content/category/{id}-{rewrite}', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_cms_category'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'))), 'module' => array('controller' => null, 'rule' => 'module/{module}{/:controller}', 'keywords' => array('module' => array('regexp' => '[_a-zA-Z0-9_-]+', 'param' => 'module'), 'controller' => array('regexp' => '[_a-zA-Z0-9_-]+', 'param' => 'controller')), 'params' => array('fc' => 'module')), 'product_rule' => array('controller' => 'product', 'rule' => '{category:/}{id}-{rewrite}{-:ean13}.html', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_product'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'ean13' => array('regexp' => '[0-9\pL]*'), 'category' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'categories' => array('regexp' => '[/_a-zA-Z0-9-\pL]*'), 'reference' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'manufacturer' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'supplier' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'price' => array('regexp' => '[0-9\.,]*'), 'tags' => array('regexp' => '[a-zA-Z0-9-\pL]*'))), 'layered_rule' => array('controller' => 'category', 'rule' => '{id}-{rewrite}{/:selected_filters}', 'keywords' => array('id' => array('regexp' => '[0-9]+', 'param' => 'id_category'), 'selected_filters' => array('regexp' => '.*', 'param' => 'selected_filters'), 'rewrite' => array('regexp' => '[_a-zA-Z0-9\pL\pS-]*'), 'meta_keywords' => array('regexp' => '[_a-zA-Z0-9-\pL]*'), 'meta_title' => array('regexp' => '[_a-zA-Z0-9-\pL]*'))))
+```
 
 
 
@@ -141,7 +157,9 @@ Properties
 
 ### <a name="property-$empty_route"></a>$empty_route
 
-    protected array $empty_route
+```php
+protected array $empty_route
+```
 
 
 
@@ -153,7 +171,9 @@ Properties
 
 ### <a name="property-$front_controller"></a>$front_controller
 
-    protected string $front_controller = self::FC_FRONT
+```php
+protected string $front_controller = self::FC_FRONT
+```
 
 
 
@@ -165,7 +185,9 @@ Properties
 
 ### <a name="property-$instance"></a>$instance
 
-    public \Dispatcher $instance = null
+```php
+public \Dispatcher $instance = null
+```
 
 
 
@@ -178,7 +200,9 @@ Properties
 
 ### <a name="property-$multilang_activated"></a>$multilang_activated
 
-    protected mixed $multilang_activated = false
+```php
+protected mixed $multilang_activated = false
+```
 
 
 
@@ -190,7 +214,9 @@ Properties
 
 ### <a name="property-$request_uri"></a>$request_uri
 
-    protected string $request_uri
+```php
+protected string $request_uri
+```
 
 
 
@@ -202,7 +228,9 @@ Properties
 
 ### <a name="property-$routes"></a>$routes
 
-    protected array $routes = array()
+```php
+protected array $routes = array()
+```
 
 
 
@@ -214,7 +242,9 @@ Properties
 
 ### <a name="property-$use_default_controller"></a>$use_default_controller
 
-    protected mixed $use_default_controller = false
+```php
+protected mixed $use_default_controller = false
+```
 
 
 
@@ -226,7 +256,9 @@ Properties
 
 ### <a name="property-$use_routes"></a>$use_routes
 
-    protected boolean $use_routes = false
+```php
+protected boolean $use_routes = false
+```
 
 
 
@@ -242,7 +274,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed DispatcherCore::__construct()
+```php
+mixed DispatcherCore::__construct()
+```
 
 Need to be instancied from getInstance() method
 
@@ -256,7 +290,9 @@ Need to be instancied from getInstance() method
 
 ### <a name="method-addRoute"></a>addRoute
 
-    mixed DispatcherCore::addRoute(string $route_id, string $rule, string $controller, integer $id_lang, array $keywords, array $params, integer $id_shop)
+```php
+mixed DispatcherCore::addRoute(string $route_id, string $rule, string $controller, integer $id_lang, array $keywords, array $params, integer $id_shop)
+```
 
 
 
@@ -279,7 +315,9 @@ Need to be instancied from getInstance() method
 
 ### <a name="method-createUrl"></a>createUrl
 
-    mixed DispatcherCore::createUrl(string $route_id, integer $id_lang, array $params, $force_routes, string $anchor, $id_shop)
+```php
+mixed DispatcherCore::createUrl(string $route_id, integer $id_lang, array $params, $force_routes, string $anchor, $id_shop)
+```
 
 Create an url from
 
@@ -301,7 +339,9 @@ Create an url from
 
 ### <a name="method-dispatch"></a>dispatch
 
-    mixed DispatcherCore::dispatch()
+```php
+mixed DispatcherCore::dispatch()
+```
 
 Find the controller and instantiate it
 
@@ -315,7 +355,9 @@ Find the controller and instantiate it
 
 ### <a name="method-getController"></a>getController
 
-    string DispatcherCore::getController($id_shop)
+```php
+string DispatcherCore::getController($id_shop)
+```
 
 Retrieve the controller from url or request uri if routes are activated
 
@@ -332,7 +374,9 @@ Retrieve the controller from url or request uri if routes are activated
 
 ### <a name="method-getControllers"></a>getControllers
 
-    array DispatcherCore::getControllers($dirs)
+```php
+array DispatcherCore::getControllers($dirs)
+```
 
 Get list of all available FO controllers
 
@@ -350,7 +394,9 @@ Get list of all available FO controllers
 
 ### <a name="method-getControllersInDirectory"></a>getControllersInDirectory
 
-    array DispatcherCore::getControllersInDirectory(string $dir)
+```php
+array DispatcherCore::getControllersInDirectory(string $dir)
+```
 
 Get list of available controllers from the specified dir
 
@@ -368,7 +414,9 @@ Get list of available controllers from the specified dir
 
 ### <a name="method-getInstance"></a>getInstance
 
-    \Dispatcher DispatcherCore::getInstance()
+```php
+\Dispatcher DispatcherCore::getInstance()
+```
 
 Get current instance of dispatcher (singleton)
 
@@ -383,7 +431,9 @@ Get current instance of dispatcher (singleton)
 
 ### <a name="method-getModuleControllers"></a>getModuleControllers
 
-    array DispatcherCore::getModuleControllers($type, $module)
+```php
+array DispatcherCore::getModuleControllers($type, $module)
+```
 
 Get list of all available Module Front controllers
 
@@ -402,7 +452,9 @@ Get list of all available Module Front controllers
 
 ### <a name="method-hasKeyword"></a>hasKeyword
 
-    boolean DispatcherCore::hasKeyword(string $route_id, integer $id_lang, string $keyword, integer $id_shop)
+```php
+boolean DispatcherCore::hasKeyword(string $route_id, integer $id_lang, string $keyword, integer $id_shop)
+```
 
 Check if a keyword is written in a route rule
 
@@ -422,7 +474,9 @@ Check if a keyword is written in a route rule
 
 ### <a name="method-hasRoute"></a>hasRoute
 
-    boolean DispatcherCore::hasRoute(string $route_id, integer $id_lang, integer $id_shop)
+```php
+boolean DispatcherCore::hasRoute(string $route_id, integer $id_lang, integer $id_shop)
+```
 
 Check if a route exists
 
@@ -441,7 +495,9 @@ Check if a route exists
 
 ### <a name="method-loadRoutes"></a>loadRoutes
 
-    mixed DispatcherCore::loadRoutes($id_shop)
+```php
+mixed DispatcherCore::loadRoutes($id_shop)
+```
 
 Load default routes group by languages
 
@@ -458,7 +514,9 @@ Load default routes group by languages
 
 ### <a name="method-setRequestUri"></a>setRequestUri
 
-    mixed DispatcherCore::setRequestUri()
+```php
+mixed DispatcherCore::setRequestUri()
+```
 
 Set request uri and iso lang
 
@@ -472,7 +530,9 @@ Set request uri and iso lang
 
 ### <a name="method-useDefaultController"></a>useDefaultController
 
-    mixed DispatcherCore::useDefaultController()
+```php
+mixed DispatcherCore::useDefaultController()
+```
 
 
 
@@ -486,7 +546,9 @@ Set request uri and iso lang
 
 ### <a name="method-validateRoute"></a>validateRoute
 
-    mixed DispatcherCore::validateRoute(string $route_id, string $rule, array $errors)
+```php
+mixed DispatcherCore::validateRoute(string $route_id, string $rule, array $errors)
+```
 
 Check if a route rule contain all required keywords of default route definition
 

@@ -10,14 +10,16 @@ Class AdminStockMvtControllerCore
 * Source: [controllers/admin/AdminStockMvtController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#L31)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getCurrentWarehouseId](#method-getCurrentWarehouseId)
 * [getList](#method-getList)
@@ -37,7 +39,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \StockMvt $object
+```php
+public \StockMvt $object
+```
 
 
 
@@ -53,7 +57,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminStockMvtControllerCore::__construct()
+```php
+mixed AdminStockMvtControllerCore::__construct()
+```
 
 
 
@@ -67,7 +73,9 @@ Methods
 
 ### <a name="method-getCurrentWarehouseId"></a>getCurrentWarehouseId
 
-    integer AdminStockMvtControllerCore::getCurrentWarehouseId()
+```php
+integer AdminStockMvtControllerCore::getCurrentWarehouseId()
+```
 
 Gets the current warehouse for this controller
 
@@ -81,7 +89,9 @@ Gets the current warehouse for this controller
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminStockMvtControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```php
+mixed AdminStockMvtControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```
 
 AdminController::getList() override
 
@@ -103,7 +113,9 @@ AdminController::getList() override
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminStockMvtControllerCore::initContent()
+```php
+mixed AdminStockMvtControllerCore::initContent()
+```
 
 
 
@@ -117,7 +129,9 @@ AdminController::getList() override
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminStockMvtControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminStockMvtControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -131,7 +145,9 @@ AdminController::getList() override
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminStockMvtControllerCore::initProcess()
+```php
+mixed AdminStockMvtControllerCore::initProcess()
+```
 
 
 
@@ -145,7 +161,9 @@ AdminController::getList() override
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminStockMvtControllerCore::initToolbar()
+```php
+mixed AdminStockMvtControllerCore::initToolbar()
+```
 
 
 
@@ -159,7 +177,9 @@ AdminController::getList() override
 
 ### <a name="method-renderCSV"></a>renderCSV
 
-    mixed AdminStockMvtControllerCore::renderCSV()
+```php
+mixed AdminStockMvtControllerCore::renderCSV()
+```
 
 Exports CSV
 
@@ -173,7 +193,9 @@ Exports CSV
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminStockMvtControllerCore::renderList()
+```php
+mixed AdminStockMvtControllerCore::renderList()
+```
 
 AdminController::renderList() override
 

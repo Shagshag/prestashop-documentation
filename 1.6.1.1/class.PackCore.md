@@ -10,16 +10,18 @@ Class PackCore
 * Source: [classes/Pack.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$cacheIsPack](#property-$cacheIsPack)
 * [$cacheIsPacked](#property-$cacheIsPacked)
 * [$cachePackItems](#property-$cachePackItems)
 
-Methods
--------
+### Methods
+
 * [addItem](#method-addItem)
 * [allUsesAdvancedStockManagement](#method-allUsesAdvancedStockManagement)
 * [deleteItems](#method-deleteItems)
@@ -46,7 +48,9 @@ Properties
 
 ### <a name="property-$cacheIsPack"></a>$cacheIsPack
 
-    protected mixed $cacheIsPack = array()
+```php
+protected mixed $cacheIsPack = array()
+```
 
 
 
@@ -59,7 +63,9 @@ Properties
 
 ### <a name="property-$cacheIsPacked"></a>$cacheIsPacked
 
-    protected mixed $cacheIsPacked = array()
+```php
+protected mixed $cacheIsPacked = array()
+```
 
 
 
@@ -72,7 +78,9 @@ Properties
 
 ### <a name="property-$cachePackItems"></a>$cachePackItems
 
-    protected mixed $cachePackItems = array()
+```php
+protected mixed $cachePackItems = array()
+```
 
 
 
@@ -89,7 +97,9 @@ Methods
 
 ### <a name="method-addItem"></a>addItem
 
-    boolean PackCore::addItem(integer $id_product, integer $id_item, integer $qty, integer $id_attribute_item)
+```php
+boolean PackCore::addItem(integer $id_product, integer $id_item, integer $qty, integer $id_attribute_item)
+```
 
 Add an item to the pack
 
@@ -110,7 +120,9 @@ Add an item to the pack
 
 ### <a name="method-allUsesAdvancedStockManagement"></a>allUsesAdvancedStockManagement
 
-    boolean PackCore::allUsesAdvancedStockManagement(integer $id_product)
+```php
+boolean PackCore::allUsesAdvancedStockManagement(integer $id_product)
+```
 
 For a given pack, tells if all products using the advanced stock management
 
@@ -128,7 +140,9 @@ For a given pack, tells if all products using the advanced stock management
 
 ### <a name="method-deleteItems"></a>deleteItems
 
-    mixed PackCore::deleteItems($id_product)
+```php
+mixed PackCore::deleteItems($id_product)
+```
 
 
 
@@ -146,7 +160,9 @@ For a given pack, tells if all products using the advanced stock management
 
 ### <a name="method-duplicate"></a>duplicate
 
-    mixed PackCore::duplicate($id_product_old, $id_product_new)
+```php
+mixed PackCore::duplicate($id_product_old, $id_product_new)
+```
 
 
 
@@ -165,7 +181,9 @@ For a given pack, tells if all products using the advanced stock management
 
 ### <a name="method-getItemTable"></a>getItemTable
 
-    mixed PackCore::getItemTable($id_product, $id_lang, $full)
+```php
+mixed PackCore::getItemTable($id_product, $id_lang, $full)
+```
 
 
 
@@ -185,7 +203,9 @@ For a given pack, tells if all products using the advanced stock management
 
 ### <a name="method-getItems"></a>getItems
 
-    mixed PackCore::getItems($id_product, $id_lang)
+```php
+mixed PackCore::getItems($id_product, $id_lang)
+```
 
 
 
@@ -204,7 +224,9 @@ For a given pack, tells if all products using the advanced stock management
 
 ### <a name="method-getPacksContainingItem"></a>getPacksContainingItem
 
-    \array[Product] PackCore::getPacksContainingItem(integer $id_item, integer $id_attribute_item, integer $id_lang)
+```php
+\array[Product] PackCore::getPacksContainingItem(integer $id_item, integer $id_attribute_item, integer $id_lang)
+```
 
 Returns Packs that conatins the given product in the right declinaison.
 
@@ -224,7 +246,9 @@ Returns Packs that conatins the given product in the right declinaison.
 
 ### <a name="method-getPacksTable"></a>getPacksTable
 
-    mixed PackCore::getPacksTable($id_product, $id_lang, $full, $limit)
+```php
+mixed PackCore::getPacksTable($id_product, $id_lang, $full, $limit)
+```
 
 
 
@@ -245,7 +269,9 @@ Returns Packs that conatins the given product in the right declinaison.
 
 ### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
 
-    boolean PackCore::isCurrentlyUsed($table, $has_active_column)
+```php
+boolean PackCore::isCurrentlyUsed($table, $has_active_column)
+```
 
 This method is allow to know if a Pack entity is currently used
 
@@ -264,7 +290,9 @@ This method is allow to know if a Pack entity is currently used
 
 ### <a name="method-isFeatureActive"></a>isFeatureActive
 
-    boolean PackCore::isFeatureActive()
+```php
+boolean PackCore::isFeatureActive()
+```
 
 This method is allow to know if a feature is used or active
 
@@ -279,7 +307,9 @@ This method is allow to know if a feature is used or active
 
 ### <a name="method-isInStock"></a>isInStock
 
-    mixed PackCore::isInStock($id_product)
+```php
+mixed PackCore::isInStock($id_product)
+```
 
 
 
@@ -297,7 +327,9 @@ This method is allow to know if a feature is used or active
 
 ### <a name="method-isPack"></a>isPack
 
-    boolean PackCore::isPack($id_product)
+```php
+boolean PackCore::isPack($id_product)
+```
 
 Is product a pack?
 
@@ -315,7 +347,9 @@ Is product a pack?
 
 ### <a name="method-isPacked"></a>isPacked
 
-    boolean PackCore::isPacked($id_product, $id_product_attribute)
+```php
+boolean PackCore::isPacked($id_product, $id_product_attribute)
+```
 
 Is product in a pack?
 If $id_product_attribute specified, then will restrict search on the given combination,
@@ -336,7 +370,9 @@ else this method will match a product if at least one of all its combination is 
 
 ### <a name="method-noPackPrice"></a>noPackPrice
 
-    mixed PackCore::noPackPrice($id_product)
+```php
+mixed PackCore::noPackPrice($id_product)
+```
 
 
 
@@ -354,7 +390,9 @@ else this method will match a product if at least one of all its combination is 
 
 ### <a name="method-noPackWholesalePrice"></a>noPackWholesalePrice
 
-    mixed PackCore::noPackWholesalePrice($id_product)
+```php
+mixed PackCore::noPackWholesalePrice($id_product)
+```
 
 
 
@@ -372,7 +410,9 @@ else this method will match a product if at least one of all its combination is 
 
 ### <a name="method-usesAdvancedStockManagement"></a>usesAdvancedStockManagement
 
-    boolean PackCore::usesAdvancedStockManagement(integer $id_product)
+```php
+boolean PackCore::usesAdvancedStockManagement(integer $id_product)
+```
 
 For a given pack, tells if it has at least one product using the advanced stock management
 

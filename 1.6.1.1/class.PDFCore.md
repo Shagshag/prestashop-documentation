@@ -8,8 +8,11 @@ Class PDFCore
 * Class name: PDFCore
 * Source: [classes/pdf/PDF.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L30)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [TEMPLATE_DELIVERY_SLIP](#constant-TEMPLATE_DELIVERY_SLIP)
 * [TEMPLATE_INVOICE](#constant-TEMPLATE_INVOICE)
@@ -17,8 +20,7 @@ Constants
 * [TEMPLATE_ORDER_SLIP](#constant-TEMPLATE_ORDER_SLIP)
 * [TEMPLATE_SUPPLY_ORDER_FORM](#constant-TEMPLATE_SUPPLY_ORDER_FORM)
 
-Properties
-----------
+### Properties
 
 * [$filename](#property-$filename)
 * [$objects](#property-$objects)
@@ -26,8 +28,8 @@ Properties
 * [$send_bulk_flag](#property-$send_bulk_flag)
 * [$template](#property-$template)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getTemplateObject](#method-getTemplateObject)
 * [render](#method-render)
@@ -39,7 +41,9 @@ Constants
 
 ### <a name="constant-TEMPLATE_DELIVERY_SLIP"></a>TEMPLATE_DELIVERY_SLIP
 
-    const TEMPLATE_DELIVERY_SLIP = 'DeliverySlip'
+```php
+const TEMPLATE_DELIVERY_SLIP = 'DeliverySlip'
+```
 
 
 
@@ -50,7 +54,9 @@ Constants
 
 ### <a name="constant-TEMPLATE_INVOICE"></a>TEMPLATE_INVOICE
 
-    const TEMPLATE_INVOICE = 'Invoice'
+```php
+const TEMPLATE_INVOICE = 'Invoice'
+```
 
 
 
@@ -61,7 +67,9 @@ Constants
 
 ### <a name="constant-TEMPLATE_ORDER_RETURN"></a>TEMPLATE_ORDER_RETURN
 
-    const TEMPLATE_ORDER_RETURN = 'OrderReturn'
+```php
+const TEMPLATE_ORDER_RETURN = 'OrderReturn'
+```
 
 
 
@@ -72,7 +80,9 @@ Constants
 
 ### <a name="constant-TEMPLATE_ORDER_SLIP"></a>TEMPLATE_ORDER_SLIP
 
-    const TEMPLATE_ORDER_SLIP = 'OrderSlip'
+```php
+const TEMPLATE_ORDER_SLIP = 'OrderSlip'
+```
 
 
 
@@ -83,7 +93,9 @@ Constants
 
 ### <a name="constant-TEMPLATE_SUPPLY_ORDER_FORM"></a>TEMPLATE_SUPPLY_ORDER_FORM
 
-    const TEMPLATE_SUPPLY_ORDER_FORM = 'SupplyOrderForm'
+```php
+const TEMPLATE_SUPPLY_ORDER_FORM = 'SupplyOrderForm'
+```
 
 
 
@@ -98,7 +110,9 @@ Properties
 
 ### <a name="property-$filename"></a>$filename
 
-    public mixed $filename
+```php
+public mixed $filename
+```
 
 
 
@@ -110,7 +124,9 @@ Properties
 
 ### <a name="property-$objects"></a>$objects
 
-    public mixed $objects
+```php
+public mixed $objects
+```
 
 
 
@@ -122,7 +138,9 @@ Properties
 
 ### <a name="property-$pdf_renderer"></a>$pdf_renderer
 
-    public mixed $pdf_renderer
+```php
+public mixed $pdf_renderer
+```
 
 
 
@@ -134,7 +152,9 @@ Properties
 
 ### <a name="property-$send_bulk_flag"></a>$send_bulk_flag
 
-    public mixed $send_bulk_flag = false
+```php
+public mixed $send_bulk_flag = false
+```
 
 
 
@@ -146,7 +166,9 @@ Properties
 
 ### <a name="property-$template"></a>$template
 
-    public mixed $template
+```php
+public mixed $template
+```
 
 
 
@@ -162,7 +184,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed PDFCore::__construct($objects, $template, $smarty, string $orientation)
+```php
+mixed PDFCore::__construct($objects, $template, $smarty, string $orientation)
+```
 
 
 
@@ -182,7 +206,9 @@ Methods
 
 ### <a name="method-getTemplateObject"></a>getTemplateObject
 
-    \HTMLTemplate|false PDFCore::getTemplateObject(mixed $object)
+```php
+\HTMLTemplate|false PDFCore::getTemplateObject(mixed $object)
+```
 
 Get correct PDF template classes
 
@@ -199,7 +225,9 @@ Get correct PDF template classes
 
 ### <a name="method-render"></a>render
 
-    mixed PDFCore::render(boolean $display)
+```php
+mixed PDFCore::render(boolean $display)
+```
 
 Render PDF
 

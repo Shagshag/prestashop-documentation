@@ -23,15 +23,17 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$primaryKeyFieldnames](#property-$primaryKeyFieldnames)
 * [$tableName](#property-$tableName)
 
-Methods
--------
+### Methods
+
 * [getEntityClassName](#method-getEntityClassName)
 * [getPrimaryKeyFieldnames](#method-getPrimaryKeyFieldnames)
 * [getTableName](#method-getTableName)
@@ -48,7 +50,9 @@ Properties
 
 ### <a name="property-$primaryKeyFieldnames"></a>$primaryKeyFieldnames
 
-    private mixed $primaryKeyFieldnames
+```php
+private mixed $primaryKeyFieldnames
+```
 
 
 
@@ -60,7 +64,9 @@ Properties
 
 ### <a name="property-$tableName"></a>$tableName
 
-    private mixed $tableName
+```php
+private mixed $tableName
+```
 
 
 
@@ -76,7 +82,9 @@ Methods
 
 ### <a name="method-getEntityClassName"></a>getEntityClassName
 
-    mixed Core_Foundation_Database_EntityMetaData::getEntityClassName()
+```php
+mixed Core_Foundation_Database_EntityMetaData::getEntityClassName()
+```
 
 
 
@@ -90,7 +98,9 @@ Methods
 
 ### <a name="method-getPrimaryKeyFieldnames"></a>getPrimaryKeyFieldnames
 
-    mixed Core_Foundation_Database_EntityMetaData::getPrimaryKeyFieldnames()
+```php
+mixed Core_Foundation_Database_EntityMetaData::getPrimaryKeyFieldnames()
+```
 
 
 
@@ -104,7 +114,9 @@ Methods
 
 ### <a name="method-getTableName"></a>getTableName
 
-    mixed Core_Foundation_Database_EntityMetaData::getTableName()
+```php
+mixed Core_Foundation_Database_EntityMetaData::getTableName()
+```
 
 
 
@@ -118,7 +130,9 @@ Methods
 
 ### <a name="method-setEntityClassName"></a>setEntityClassName
 
-    mixed Core_Foundation_Database_EntityMetaData::setEntityClassName($entityClassName)
+```php
+mixed Core_Foundation_Database_EntityMetaData::setEntityClassName($entityClassName)
+```
 
 
 
@@ -135,7 +149,9 @@ Methods
 
 ### <a name="method-setPrimaryKeyFieldNames"></a>setPrimaryKeyFieldNames
 
-    mixed Core_Foundation_Database_EntityMetaData::setPrimaryKeyFieldNames(array $primaryKeyFieldnames)
+```php
+mixed Core_Foundation_Database_EntityMetaData::setPrimaryKeyFieldNames(array $primaryKeyFieldnames)
+```
 
 
 
@@ -152,7 +168,9 @@ Methods
 
 ### <a name="method-setTableName"></a>setTableName
 
-    mixed Core_Foundation_Database_EntityMetaData::setTableName($name)
+```php
+mixed Core_Foundation_Database_EntityMetaData::setTableName($name)
+```
 
 
 

@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Adapter/Adapter_AddressFactory.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_AddressFactory.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [addressExists](#method-addressExists)
 * [findOrCreate](#method-findOrCreate)
 
@@ -42,7 +44,9 @@ Methods
 
 ### <a name="method-addressExists"></a>addressExists
 
-    boolean Adapter_AddressFactory::addressExists($id_address)
+```php
+boolean Adapter_AddressFactory::addressExists($id_address)
+```
 
 Check if an address exists depending on given $id_address
 
@@ -59,7 +63,9 @@ Check if an address exists depending on given $id_address
 
 ### <a name="method-findOrCreate"></a>findOrCreate
 
-    \Address Adapter_AddressFactory::findOrCreate(null $id_address, boolean $with_geoloc)
+```php
+\Address Adapter_AddressFactory::findOrCreate(null $id_address, boolean $with_geoloc)
+```
 
 Initilize an address corresponding to the specified id address or if empty to the
 default shop configuration

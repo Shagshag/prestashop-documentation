@@ -10,9 +10,11 @@ Class OrderHistoryCore
 * Source: [classes/order/OrderHistory.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$date_upd](#property-$date_upd)
@@ -22,8 +24,8 @@ Properties
 * [$id_order_state](#property-$id_order_state)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [addWithemail](#method-addWithemail)
 * [addWs](#method-addWs)
@@ -41,7 +43,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -53,7 +57,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -65,7 +71,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'order_history', 'primary' => 'id_order_history', 'fields' => array('id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'order_history', 'primary' => 'id_order_history', 'fields' => array('id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -78,7 +86,9 @@ Properties
 
 ### <a name="property-$id_employee"></a>$id_employee
 
-    public integer $id_employee
+```php
+public integer $id_employee
+```
 
 
 
@@ -90,7 +100,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public integer $id_order
+```php
+public integer $id_order
+```
 
 
 
@@ -102,7 +114,9 @@ Properties
 
 ### <a name="property-$id_order_state"></a>$id_order_state
 
-    public integer $id_order_state
+```php
+public integer $id_order_state
+```
 
 
 
@@ -114,7 +128,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'order_histories', 'fields' => array('id_employee' => array('xlink_resource' => 'employees'), 'id_order_state' => array('required' => true, 'xlink_resource' => 'order_states'), 'id_order' => array('xlink_resource' => 'orders')), 'objectMethods' => array('add' => 'addWs'))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'order_histories', 'fields' => array('id_employee' => array('xlink_resource' => 'employees'), 'id_order_state' => array('required' => true, 'xlink_resource' => 'order_states'), 'id_order' => array('xlink_resource' => 'orders')), 'objectMethods' => array('add' => 'addWs'))
+```
 
 
 
@@ -130,7 +146,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed OrderHistoryCore::add($autodate, $null_values)
+```php
+mixed OrderHistoryCore::add($autodate, $null_values)
+```
 
 
 
@@ -148,7 +166,9 @@ Methods
 
 ### <a name="method-addWithemail"></a>addWithemail
 
-    boolean OrderHistoryCore::addWithemail(boolean $autodate, array $template_vars, \Context $context)
+```php
+boolean OrderHistoryCore::addWithemail(boolean $autodate, array $template_vars, \Context $context)
+```
 
 
 
@@ -167,7 +187,9 @@ Methods
 
 ### <a name="method-addWs"></a>addWs
 
-    boolean OrderHistoryCore::addWs()
+```php
+boolean OrderHistoryCore::addWs()
+```
 
 Add method for webservice create resource Order History
 If sendemail=1 GET parameter is present sends email to customer otherwise does not
@@ -182,7 +204,9 @@ If sendemail=1 GET parameter is present sends email to customer otherwise does n
 
 ### <a name="method-changeIdOrderState"></a>changeIdOrderState
 
-    mixed OrderHistoryCore::changeIdOrderState(integer $new_order_state, \int/object $id_order, boolean $use_existing_payment)
+```php
+mixed OrderHistoryCore::changeIdOrderState(integer $new_order_state, \int/object $id_order, boolean $use_existing_payment)
+```
 
 Sets the new state of the given order
 
@@ -201,7 +225,9 @@ Sets the new state of the given order
 
 ### <a name="method-getLastOrderState"></a>getLastOrderState
 
-    \OrderState|boolean OrderHistoryCore::getLastOrderState(integer $id_order)
+```php
+\OrderState|boolean OrderHistoryCore::getLastOrderState(integer $id_order)
+```
 
 Returns the last order status
 
@@ -219,7 +245,9 @@ Returns the last order status
 
 ### <a name="method-isValidated"></a>isValidated
 
-    integer OrderHistoryCore::isValidated()
+```php
+integer OrderHistoryCore::isValidated()
+```
 
 
 
@@ -233,7 +261,9 @@ Returns the last order status
 
 ### <a name="method-sendEmail"></a>sendEmail
 
-    mixed OrderHistoryCore::sendEmail($order, $template_vars)
+```php
+mixed OrderHistoryCore::sendEmail($order, $template_vars)
+```
 
 
 

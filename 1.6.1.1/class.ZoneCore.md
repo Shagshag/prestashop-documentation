@@ -10,17 +10,19 @@ Class ZoneCore
 * Source: [classes/Zone.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$definition](#property-$definition)
 * [$name](#property-$name)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [delete](#method-delete)
 * [getIdByName](#method-getIdByName)
 * [getZones](#method-getZones)
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = true
+```php
+public boolean $active = true
+```
 
 
 
@@ -46,7 +50,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'zone', 'primary' => 'id_zone', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```php
+public mixed $definition = array('table' => 'zone', 'primary' => 'id_zone', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```
 
 
 
@@ -59,7 +65,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -71,7 +79,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array()
+```php
+protected mixed $webserviceParameters = array()
+```
 
 
 
@@ -87,7 +97,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    boolean ZoneCore::delete()
+```php
+boolean ZoneCore::delete()
+```
 
 Delete a zone
 
@@ -101,7 +113,9 @@ Delete a zone
 
 ### <a name="method-getIdByName"></a>getIdByName
 
-    integer ZoneCore::getIdByName(string $name)
+```php
+integer ZoneCore::getIdByName(string $name)
+```
 
 Get a zone ID from its default language name
 
@@ -119,7 +133,9 @@ Get a zone ID from its default language name
 
 ### <a name="method-getZones"></a>getZones
 
-    array ZoneCore::getZones(boolean $active)
+```php
+array ZoneCore::getZones(boolean $active)
+```
 
 Get all available geographical zones
 

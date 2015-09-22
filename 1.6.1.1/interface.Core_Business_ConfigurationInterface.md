@@ -23,12 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * This is an **interface**
 * Source: [Core/Business/Core_Business_ConfigurationInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Core_Business_ConfigurationInterface.php#L27)
 
+Contents
+--------
 
 
 
+### Methods
 
-Methods
--------
 * [get](#method-get)
 
 
@@ -42,7 +43,9 @@ Methods
 
 ### <a name="method-get"></a>get
 
-    mixed Core_Business_ConfigurationInterface::get($key)
+```php
+mixed Core_Business_ConfigurationInterface::get($key)
+```
 
 
 

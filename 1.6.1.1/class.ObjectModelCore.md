@@ -23,8 +23,11 @@ needs please refer to http://www.prestashop.com for more information.
 * This is an **abstract** class
 * Source: [classes/ObjectModel.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L27)
 * This class implements: [Core_Foundation_Database_EntityInterface](interface.Core_Foundation_Database_EntityInterface.md)
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [FORMAT_COMMON](#constant-FORMAT_COMMON)
 * [FORMAT_LANG](#constant-FORMAT_LANG)
@@ -40,8 +43,7 @@ Constants
 * [TYPE_SQL](#constant-TYPE_SQL)
 * [TYPE_STRING](#constant-TYPE_STRING)
 
-Properties
-----------
+### Properties
 
 * [$cache_objects](#property-$cache_objects)
 * [$db](#property-$db)
@@ -69,8 +71,8 @@ Properties
 * [$update_fields](#property-$update_fields)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [addFieldsRequiredDatabase](#method-addFieldsRequiredDatabase)
@@ -129,7 +131,9 @@ Constants
 
 ### <a name="constant-FORMAT_COMMON"></a>FORMAT_COMMON
 
-    const FORMAT_COMMON = 1
+```php
+const FORMAT_COMMON = 1
+```
 
 List of data to format
 
@@ -140,7 +144,9 @@ List of data to format
 
 ### <a name="constant-FORMAT_LANG"></a>FORMAT_LANG
 
-    const FORMAT_LANG = 2
+```php
+const FORMAT_LANG = 2
+```
 
 
 
@@ -151,7 +157,9 @@ List of data to format
 
 ### <a name="constant-FORMAT_SHOP"></a>FORMAT_SHOP
 
-    const FORMAT_SHOP = 3
+```php
+const FORMAT_SHOP = 3
+```
 
 
 
@@ -162,7 +170,9 @@ List of data to format
 
 ### <a name="constant-HAS_MANY"></a>HAS_MANY
 
-    const HAS_MANY = 2
+```php
+const HAS_MANY = 2
+```
 
 
 
@@ -173,7 +183,9 @@ List of data to format
 
 ### <a name="constant-HAS_ONE"></a>HAS_ONE
 
-    const HAS_ONE = 1
+```php
+const HAS_ONE = 1
+```
 
 List of association types
 
@@ -184,7 +196,9 @@ List of association types
 
 ### <a name="constant-TYPE_BOOL"></a>TYPE_BOOL
 
-    const TYPE_BOOL = 2
+```php
+const TYPE_BOOL = 2
+```
 
 
 
@@ -195,7 +209,9 @@ List of association types
 
 ### <a name="constant-TYPE_DATE"></a>TYPE_DATE
 
-    const TYPE_DATE = 5
+```php
+const TYPE_DATE = 5
+```
 
 
 
@@ -206,7 +222,9 @@ List of association types
 
 ### <a name="constant-TYPE_FLOAT"></a>TYPE_FLOAT
 
-    const TYPE_FLOAT = 4
+```php
+const TYPE_FLOAT = 4
+```
 
 
 
@@ -217,7 +235,9 @@ List of association types
 
 ### <a name="constant-TYPE_HTML"></a>TYPE_HTML
 
-    const TYPE_HTML = 6
+```php
+const TYPE_HTML = 6
+```
 
 
 
@@ -228,7 +248,9 @@ List of association types
 
 ### <a name="constant-TYPE_INT"></a>TYPE_INT
 
-    const TYPE_INT = 1
+```php
+const TYPE_INT = 1
+```
 
 List of field types
 
@@ -239,7 +261,9 @@ List of field types
 
 ### <a name="constant-TYPE_NOTHING"></a>TYPE_NOTHING
 
-    const TYPE_NOTHING = 7
+```php
+const TYPE_NOTHING = 7
+```
 
 
 
@@ -250,7 +274,9 @@ List of field types
 
 ### <a name="constant-TYPE_SQL"></a>TYPE_SQL
 
-    const TYPE_SQL = 8
+```php
+const TYPE_SQL = 8
+```
 
 
 
@@ -261,7 +287,9 @@ List of field types
 
 ### <a name="constant-TYPE_STRING"></a>TYPE_STRING
 
-    const TYPE_STRING = 3
+```php
+const TYPE_STRING = 3
+```
 
 
 
@@ -276,7 +304,9 @@ Properties
 
 ### <a name="property-$cache_objects"></a>$cache_objects
 
-    protected boolean $cache_objects = true
+```php
+protected boolean $cache_objects = true
+```
 
 
 
@@ -289,7 +319,9 @@ Properties
 
 ### <a name="property-$db"></a>$db
 
-    protected \Db $db = false
+```php
+protected \Db $db = false
+```
 
 
 
@@ -302,7 +334,9 @@ Properties
 
 ### <a name="property-$def"></a>$def
 
-    protected array $def
+```php
+protected array $def
+```
 
 
 
@@ -314,7 +348,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public array $definition = array()
+```php
+public array $definition = array()
+```
 
 
 
@@ -327,7 +363,9 @@ Properties
 
 ### <a name="property-$fieldsRequired"></a>$fieldsRequired
 
-    protected array $fieldsRequired = array()
+```php
+protected array $fieldsRequired = array()
+```
 
 
 
@@ -339,7 +377,9 @@ Properties
 
 ### <a name="property-$fieldsRequiredDatabase"></a>$fieldsRequiredDatabase
 
-    protected array $fieldsRequiredDatabase = null
+```php
+protected array $fieldsRequiredDatabase = null
+```
 
 
 
@@ -352,7 +392,9 @@ Properties
 
 ### <a name="property-$fieldsRequiredLang"></a>$fieldsRequiredLang
 
-    protected array $fieldsRequiredLang = array()
+```php
+protected array $fieldsRequiredLang = array()
+```
 
 
 
@@ -364,7 +406,9 @@ Properties
 
 ### <a name="property-$fieldsSize"></a>$fieldsSize
 
-    protected array $fieldsSize = array()
+```php
+protected array $fieldsSize = array()
+```
 
 
 
@@ -376,7 +420,9 @@ Properties
 
 ### <a name="property-$fieldsSizeLang"></a>$fieldsSizeLang
 
-    protected array $fieldsSizeLang = array()
+```php
+protected array $fieldsSizeLang = array()
+```
 
 
 
@@ -388,7 +434,9 @@ Properties
 
 ### <a name="property-$fieldsValidate"></a>$fieldsValidate
 
-    protected array $fieldsValidate = array()
+```php
+protected array $fieldsValidate = array()
+```
 
 
 
@@ -400,7 +448,9 @@ Properties
 
 ### <a name="property-$fieldsValidateLang"></a>$fieldsValidateLang
 
-    protected array $fieldsValidateLang = array()
+```php
+protected array $fieldsValidateLang = array()
+```
 
 
 
@@ -412,7 +462,9 @@ Properties
 
 ### <a name="property-$force_id"></a>$force_id
 
-    public boolean $force_id = false
+```php
+public boolean $force_id = false
+```
 
 
 
@@ -424,7 +476,9 @@ Properties
 
 ### <a name="property-$get_shop_from_context"></a>$get_shop_from_context
 
-    protected boolean $get_shop_from_context = true
+```php
+protected boolean $get_shop_from_context = true
+```
 
 
 
@@ -436,7 +490,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public integer $id
+```php
+public integer $id
+```
 
 
 
@@ -448,7 +504,9 @@ Properties
 
 ### <a name="property-$id_lang"></a>$id_lang
 
-    protected integer $id_lang = null
+```php
+protected integer $id_lang = null
+```
 
 
 
@@ -460,7 +518,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    protected integer $id_shop = null
+```php
+protected integer $id_shop = null
+```
 
 
 
@@ -472,7 +532,9 @@ Properties
 
 ### <a name="property-$id_shop_list"></a>$id_shop_list
 
-    public array $id_shop_list = null
+```php
+public array $id_shop_list = null
+```
 
 
 
@@ -484,7 +546,9 @@ Properties
 
 ### <a name="property-$identifier"></a>$identifier
 
-    protected string $identifier
+```php
+protected string $identifier
+```
 
 
 
@@ -496,7 +560,9 @@ Properties
 
 ### <a name="property-$image_dir"></a>$image_dir
 
-    protected string $image_dir = null
+```php
+protected string $image_dir = null
+```
 
 
 
@@ -508,7 +574,9 @@ Properties
 
 ### <a name="property-$image_format"></a>$image_format
 
-    protected String $image_format = 'jpg'
+```php
+protected String $image_format = 'jpg'
+```
 
 
 
@@ -520,7 +588,9 @@ Properties
 
 ### <a name="property-$loaded_classes"></a>$loaded_classes
 
-    protected array $loaded_classes = array()
+```php
+protected array $loaded_classes = array()
+```
 
 Holds compiled definitions of each ObjectModel class.
 
@@ -533,7 +603,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$table"></a>$table
 
-    protected string $table
+```php
+protected string $table
+```
 
 
 
@@ -545,7 +617,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$tables"></a>$tables
 
-    protected array $tables = array()
+```php
+protected array $tables = array()
+```
 
 
 
@@ -557,7 +631,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$update_fields"></a>$update_fields
 
-    protected array $update_fields = null
+```php
+protected array $update_fields = null
+```
 
 
 
@@ -569,7 +645,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected array $webserviceParameters = array()
+```php
+protected array $webserviceParameters = array()
+```
 
 
 
@@ -585,7 +663,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ObjectModelCore::__construct(integer|null $id, integer|null $id_lang, integer|null $id_shop)
+```php
+mixed ObjectModelCore::__construct(integer|null $id, integer|null $id_lang, integer|null $id_shop)
+```
 
 Builds the object
 
@@ -604,7 +684,9 @@ Builds the object
 
 ### <a name="method-add"></a>add
 
-    boolean ObjectModelCore::add(boolean $auto_date, boolean $null_values)
+```php
+boolean ObjectModelCore::add(boolean $auto_date, boolean $null_values)
+```
 
 Adds current object to the database
 
@@ -622,7 +704,9 @@ Adds current object to the database
 
 ### <a name="method-addFieldsRequiredDatabase"></a>addFieldsRequiredDatabase
 
-    boolean ObjectModelCore::addFieldsRequiredDatabase(array $fields)
+```php
+boolean ObjectModelCore::addFieldsRequiredDatabase(array $fields)
+```
 
 Sets required field for this class in the database.
 
@@ -639,7 +723,9 @@ Sets required field for this class in the database.
 
 ### <a name="method-associateTo"></a>associateTo
 
-    boolean|void ObjectModelCore::associateTo(integer|array $id_shops)
+```php
+boolean|void ObjectModelCore::associateTo(integer|array $id_shops)
+```
 
 This function associate an item to its context
 
@@ -656,7 +742,9 @@ This function associate an item to its context
 
 ### <a name="method-cacheFieldsRequiredDatabase"></a>cacheFieldsRequiredDatabase
 
-    mixed ObjectModelCore::cacheFieldsRequiredDatabase(boolean $all)
+```php
+mixed ObjectModelCore::cacheFieldsRequiredDatabase(boolean $all)
+```
 
 Caches data about required objects fields in memory
 
@@ -673,7 +761,9 @@ Caches data about required objects fields in memory
 
 ### <a name="method-clearCache"></a>clearCache
 
-    mixed ObjectModelCore::clearCache(boolean $all)
+```php
+mixed ObjectModelCore::clearCache(boolean $all)
+```
 
 Clears cache entries that have this object's ID.
 
@@ -690,7 +780,9 @@ Clears cache entries that have this object's ID.
 
 ### <a name="method-delete"></a>delete
 
-    boolean ObjectModelCore::delete()
+```php
+boolean ObjectModelCore::delete()
+```
 
 Deletes current object from database
 
@@ -704,7 +796,9 @@ Deletes current object from database
 
 ### <a name="method-deleteImage"></a>deleteImage
 
-    boolean ObjectModelCore::deleteImage(boolean $force_delete)
+```php
+boolean ObjectModelCore::deleteImage(boolean $force_delete)
+```
 
 Delete images associated with the object
 
@@ -721,7 +815,9 @@ Delete images associated with the object
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    boolean ObjectModelCore::deleteSelection(array $ids)
+```php
+boolean ObjectModelCore::deleteSelection(array $ids)
+```
 
 Deletes multiple objects from the database at once
 
@@ -738,7 +834,9 @@ Deletes multiple objects from the database at once
 
 ### <a name="method-disableCache"></a>disableCache
 
-    mixed ObjectModelCore::disableCache()
+```php
+mixed ObjectModelCore::disableCache()
+```
 
 Disables object caching
 
@@ -753,7 +851,9 @@ Disables object caching
 
 ### <a name="method-displayFieldName"></a>displayFieldName
 
-    string ObjectModelCore::displayFieldName(string $field, string $class, boolean $htmlentities, \Context|null $context)
+```php
+string ObjectModelCore::displayFieldName(string $field, string $class, boolean $htmlentities, \Context|null $context)
+```
 
 Returns field name translation
 
@@ -774,7 +874,9 @@ Returns field name translation
 
 ### <a name="method-duplicateObject"></a>duplicateObject
 
-    \ObjectModel|false ObjectModelCore::duplicateObject()
+```php
+\ObjectModel|false ObjectModelCore::duplicateObject()
+```
 
 Takes current object ID, gets its values from database,
 saves them in a new row and loads newly saved values as a new object.
@@ -789,7 +891,9 @@ saves them in a new row and loads newly saved values as a new object.
 
 ### <a name="method-duplicateShops"></a>duplicateShops
 
-    boolean|void ObjectModelCore::duplicateShops($id)
+```php
+boolean|void ObjectModelCore::duplicateShops($id)
+```
 
 Copies shop association data from object with specified ID.
 
@@ -806,7 +910,9 @@ Copies shop association data from object with specified ID.
 
 ### <a name="method-enableCache"></a>enableCache
 
-    mixed ObjectModelCore::enableCache()
+```php
+mixed ObjectModelCore::enableCache()
+```
 
 Enables object caching
 
@@ -821,7 +927,9 @@ Enables object caching
 
 ### <a name="method-existsInDatabase"></a>existsInDatabase
 
-    boolean ObjectModelCore::existsInDatabase(integer $id_entity, string $table)
+```php
+boolean ObjectModelCore::existsInDatabase(integer $id_entity, string $table)
+```
 
 Checks if an object exists in database.
 
@@ -840,7 +948,9 @@ Checks if an object exists in database.
 
 ### <a name="method-formatFields"></a>formatFields
 
-    array ObjectModelCore::formatFields(integer $type, integer $id_lang)
+```php
+array ObjectModelCore::formatFields(integer $type, integer $id_lang)
+```
 
 Formats values of each fields.
 
@@ -858,7 +968,9 @@ Formats values of each fields.
 
 ### <a name="method-formatValue"></a>formatValue
 
-    mixed ObjectModelCore::formatValue(mixed $value, integer $type, boolean $with_quotes, boolean $purify, boolean $allow_null)
+```php
+mixed ObjectModelCore::formatValue(mixed $value, integer $type, boolean $with_quotes, boolean $purify, boolean $allow_null)
+```
 
 Formats a value
 
@@ -880,7 +992,9 @@ Formats a value
 
 ### <a name="method-getAssociatedShops"></a>getAssociatedShops
 
-    array ObjectModelCore::getAssociatedShops()
+```php
+array ObjectModelCore::getAssociatedShops()
+```
 
 Gets the list of associated shop IDs
 
@@ -894,7 +1008,9 @@ Gets the list of associated shop IDs
 
 ### <a name="method-getDefinition"></a>getDefinition
 
-    array ObjectModelCore::getDefinition(string $class, string|null $field)
+```php
+array ObjectModelCore::getDefinition(string $class, string|null $field)
+```
 
 Returns object definition
 
@@ -913,7 +1029,9 @@ Returns object definition
 
 ### <a name="method-getFieldByLang"></a>getFieldByLang
 
-    mixed ObjectModelCore::getFieldByLang(string $field_name, integer|null $id_lang)
+```php
+mixed ObjectModelCore::getFieldByLang(string $field_name, integer|null $id_lang)
+```
 
 Return the field value for the specified language if the field is multilang,
 else the field value.
@@ -932,7 +1050,9 @@ else the field value.
 
 ### <a name="method-getFields"></a>getFields
 
-    array ObjectModelCore::getFields()
+```php
+array ObjectModelCore::getFields()
+```
 
 Prepare fields for ObjectModel class (add, update)
 All fields are verified (pSQL, intval, .
@@ -947,7 +1067,9 @@ All fields are verified (pSQL, intval, .
 
 ### <a name="method-getFieldsLang"></a>getFieldsLang
 
-    array ObjectModelCore::getFieldsLang()
+```php
+array ObjectModelCore::getFieldsLang()
+```
 
 Prepare multilang fields
 
@@ -961,7 +1083,9 @@ Prepare multilang fields
 
 ### <a name="method-getFieldsRequiredDatabase"></a>getFieldsRequiredDatabase
 
-    array|null ObjectModelCore::getFieldsRequiredDatabase(boolean $all)
+```php
+array|null ObjectModelCore::getFieldsRequiredDatabase(boolean $all)
+```
 
 Returns an array of required fields
 
@@ -978,7 +1102,9 @@ Returns an array of required fields
 
 ### <a name="method-getFieldsShop"></a>getFieldsShop
 
-    array ObjectModelCore::getFieldsShop()
+```php
+array ObjectModelCore::getFieldsShop()
+```
 
 Prepare fields for multishop
 Fields are not validated here, we consider they are already validated in getFields() method,
@@ -994,7 +1120,9 @@ this is not the best solution but this is the only one possible for retro compat
 
 ### <a name="method-getRepositoryClassName"></a>getRepositoryClassName
 
-    mixed ObjectModelCore::getRepositoryClassName()
+```php
+mixed ObjectModelCore::getRepositoryClassName()
+```
 
 Returns the name of the repository class for this entity.
 
@@ -1009,7 +1137,9 @@ If unspecified, a generic repository will be used for the entity.
 
 ### <a name="method-getTranslationsFields"></a>getTranslationsFields
 
-    array ObjectModelCore::getTranslationsFields(array $fields_array)
+```php
+array ObjectModelCore::getTranslationsFields(array $fields_array)
+```
 
 
 
@@ -1026,7 +1156,9 @@ If unspecified, a generic repository will be used for the entity.
 
 ### <a name="method-getValidationRules"></a>getValidationRules
 
-    array ObjectModelCore::getValidationRules(string $class)
+```php
+array ObjectModelCore::getValidationRules(string $class)
+```
 
 Returns object validation rules (fields validity)
 
@@ -1044,7 +1176,9 @@ Returns object validation rules (fields validity)
 
 ### <a name="method-getWebserviceObjectList"></a>getWebserviceObjectList
 
-    array|null ObjectModelCore::getWebserviceObjectList(string $sql_join, string $sql_filter, string $sql_sort, string $sql_limit)
+```php
+array|null ObjectModelCore::getWebserviceObjectList(string $sql_join, string $sql_filter, string $sql_sort, string $sql_limit)
+```
 
 Returns webservice object list.
 
@@ -1064,7 +1198,9 @@ Returns webservice object list.
 
 ### <a name="method-getWebserviceParameters"></a>getWebserviceParameters
 
-    array ObjectModelCore::getWebserviceParameters(string|null $ws_params_attribute_name)
+```php
+array ObjectModelCore::getWebserviceParameters(string|null $ws_params_attribute_name)
+```
 
 Returns webservice parameters of this object.
 
@@ -1081,7 +1217,9 @@ Returns webservice parameters of this object.
 
 ### <a name="method-hasMultishopEntries"></a>hasMultishopEntries
 
-    boolean ObjectModelCore::hasMultishopEntries()
+```php
+boolean ObjectModelCore::hasMultishopEntries()
+```
 
 Checks if there is more than one entry in associated shop table for current object.
 
@@ -1095,7 +1233,9 @@ Checks if there is more than one entry in associated shop table for current obje
 
 ### <a name="method-hydrate"></a>hydrate
 
-    mixed ObjectModelCore::hydrate(array $data, integer|null $id_lang)
+```php
+mixed ObjectModelCore::hydrate(array $data, integer|null $id_lang)
+```
 
 Fill an object with given data. Data must be an array with this syntax:
 array(objProperty => value, objProperty2 => value, etc.)
@@ -1114,7 +1254,9 @@ array(objProperty => value, objProperty2 => value, etc.)
 
 ### <a name="method-hydrateCollection"></a>hydrateCollection
 
-    array ObjectModelCore::hydrateCollection(string $class, array $datas, integer|null $id_lang)
+```php
+array ObjectModelCore::hydrateCollection(string $class, array $datas, integer|null $id_lang)
+```
 
 Fill (hydrate) a list of objects in order to get a collection of these objects
 
@@ -1134,7 +1276,9 @@ Fill (hydrate) a list of objects in order to get a collection of these objects
 
 ### <a name="method-isAssociatedToShop"></a>isAssociatedToShop
 
-    boolean ObjectModelCore::isAssociatedToShop(integer|null $id_shop)
+```php
+boolean ObjectModelCore::isAssociatedToShop(integer|null $id_shop)
+```
 
 Checks if current object is associated to a shop.
 
@@ -1151,7 +1295,9 @@ Checks if current object is associated to a shop.
 
 ### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
 
-    boolean ObjectModelCore::isCurrentlyUsed(string|null $table, boolean $has_active_column)
+```php
+boolean ObjectModelCore::isCurrentlyUsed(string|null $table, boolean $has_active_column)
+```
 
 Checks if an object type exists in the database.
 
@@ -1170,7 +1316,9 @@ Checks if an object type exists in the database.
 
 ### <a name="method-isLangMultishop"></a>isLangMultishop
 
-    boolean ObjectModelCore::isLangMultishop()
+```php
+boolean ObjectModelCore::isLangMultishop()
+```
 
 Checks if the object is both multi-language and multi-shop.
 
@@ -1184,7 +1332,9 @@ Checks if the object is both multi-language and multi-shop.
 
 ### <a name="method-isMultiShopField"></a>isMultiShopField
 
-    boolean ObjectModelCore::isMultiShopField(string $field)
+```php
+boolean ObjectModelCore::isMultiShopField(string $field)
+```
 
 Checks if a field is a multi-shop field.
 
@@ -1201,7 +1351,9 @@ Checks if a field is a multi-shop field.
 
 ### <a name="method-isMultishop"></a>isMultishop
 
-    boolean ObjectModelCore::isMultishop()
+```php
+boolean ObjectModelCore::isMultishop()
+```
 
 Checks if object is multi-shop object.
 
@@ -1215,7 +1367,9 @@ Checks if object is multi-shop object.
 
 ### <a name="method-makeTranslationFields"></a>makeTranslationFields
 
-    mixed ObjectModelCore::makeTranslationFields(array $fields, array $fields_array, integer $id_language)
+```php
+mixed ObjectModelCore::makeTranslationFields(array $fields, array $fields_array, integer $id_language)
+```
 
 
 
@@ -1234,7 +1388,9 @@ Checks if object is multi-shop object.
 
 ### <a name="method-save"></a>save
 
-    boolean ObjectModelCore::save(boolean $null_values, boolean $auto_date)
+```php
+boolean ObjectModelCore::save(boolean $null_values, boolean $auto_date)
+```
 
 Saves current object to database (add or update)
 
@@ -1252,7 +1408,9 @@ Saves current object to database (add or update)
 
 ### <a name="method-setDefinitionRetrocompatibility"></a>setDefinitionRetrocompatibility
 
-    mixed ObjectModelCore::setDefinitionRetrocompatibility()
+```php
+mixed ObjectModelCore::setDefinitionRetrocompatibility()
+```
 
 Retrocompatibility for classes without $definition static
 
@@ -1266,7 +1424,9 @@ Retrocompatibility for classes without $definition static
 
 ### <a name="method-setFieldsToUpdate"></a>setFieldsToUpdate
 
-    mixed ObjectModelCore::setFieldsToUpdate(array $fields)
+```php
+mixed ObjectModelCore::setFieldsToUpdate(array $fields)
+```
 
 Set a list of specific fields to update
 array(field1 => true, field2 => false,
@@ -1285,7 +1445,9 @@ langfield1 => array(1 => true, 2 => false))
 
 ### <a name="method-toggleStatus"></a>toggleStatus
 
-    boolean ObjectModelCore::toggleStatus()
+```php
+boolean ObjectModelCore::toggleStatus()
+```
 
 Toggles object status in database
 
@@ -1299,7 +1461,9 @@ Toggles object status in database
 
 ### <a name="method-update"></a>update
 
-    boolean ObjectModelCore::update(boolean $null_values)
+```php
+boolean ObjectModelCore::update(boolean $null_values)
+```
 
 Updates the current object in the database
 
@@ -1316,7 +1480,9 @@ Updates the current object in the database
 
 ### <a name="method-updateMultishopTable"></a>updateMultishopTable
 
-    boolean ObjectModelCore::updateMultishopTable(string $classname, array $data, string $where, string $specific_where)
+```php
+boolean ObjectModelCore::updateMultishopTable(string $classname, array $data, string $where, string $specific_where)
+```
 
 Updates a table and splits the common datas and the shop datas.
 
@@ -1337,7 +1503,9 @@ Updates a table and splits the common datas and the shop datas.
 
 ### <a name="method-validateControler"></a>validateControler
 
-    array ObjectModelCore::validateControler(boolean $htmlentities)
+```php
+array ObjectModelCore::validateControler(boolean $htmlentities)
+```
 
 
 
@@ -1354,7 +1522,9 @@ Updates a table and splits the common datas and the shop datas.
 
 ### <a name="method-validateController"></a>validateController
 
-    array ObjectModelCore::validateController(boolean $htmlentities)
+```php
+array ObjectModelCore::validateController(boolean $htmlentities)
+```
 
 Validates submitted values and returns an array of errors, if any.
 
@@ -1371,7 +1541,9 @@ Validates submitted values and returns an array of errors, if any.
 
 ### <a name="method-validateField"></a>validateField
 
-    true|string ObjectModelCore::validateField(string $field, mixed $value, integer|null $id_lang, array $skip, boolean $human_errors)
+```php
+true|string ObjectModelCore::validateField(string $field, mixed $value, integer|null $id_lang, array $skip, boolean $human_errors)
+```
 
 Validate a single field
 
@@ -1392,7 +1564,9 @@ Validate a single field
 
 ### <a name="method-validateFields"></a>validateFields
 
-    boolean|string ObjectModelCore::validateFields(boolean $die, boolean $error_return)
+```php
+boolean|string ObjectModelCore::validateFields(boolean $die, boolean $error_return)
+```
 
 Checks if object field values are valid before database interaction
 
@@ -1410,7 +1584,9 @@ Checks if object field values are valid before database interaction
 
 ### <a name="method-validateFieldsLang"></a>validateFieldsLang
 
-    boolean|string ObjectModelCore::validateFieldsLang(boolean $die, boolean $error_return)
+```php
+boolean|string ObjectModelCore::validateFieldsLang(boolean $die, boolean $error_return)
+```
 
 Checks if multilingual object field values are valid before database interaction.
 
@@ -1428,7 +1604,9 @@ Checks if multilingual object field values are valid before database interaction
 
 ### <a name="method-validateFieldsRequiredDatabase"></a>validateFieldsRequiredDatabase
 
-    array ObjectModelCore::validateFieldsRequiredDatabase(boolean $htmlentities)
+```php
+array ObjectModelCore::validateFieldsRequiredDatabase(boolean $htmlentities)
+```
 
 Validate required fields.
 

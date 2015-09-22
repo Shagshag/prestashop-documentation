@@ -10,15 +10,17 @@ Class GuestTrackingControllerCore
 * Source: [controllers/front/GuestTrackingController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [assignOrderTracking](#method-assignOrderTracking)
 * [init](#method-init)
 * [initContent](#method-initContent)
@@ -35,7 +37,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'guest-tracking'
+```php
+public mixed $php_self = 'guest-tracking'
+```
 
 
 
@@ -47,7 +51,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -63,7 +69,9 @@ Methods
 
 ### <a name="method-assignOrderTracking"></a>assignOrderTracking
 
-    mixed GuestTrackingControllerCore::assignOrderTracking(\PrestaShopCollection $order_collection)
+```php
+mixed GuestTrackingControllerCore::assignOrderTracking(\PrestaShopCollection $order_collection)
+```
 
 Assigns template vars related to order tracking information
 
@@ -80,7 +88,9 @@ Assigns template vars related to order tracking information
 
 ### <a name="method-init"></a>init
 
-    mixed GuestTrackingControllerCore::init()
+```php
+mixed GuestTrackingControllerCore::init()
+```
 
 Initialize guest tracking controller
 
@@ -94,7 +104,9 @@ Initialize guest tracking controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed GuestTrackingControllerCore::initContent()
+```php
+mixed GuestTrackingControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -108,7 +120,9 @@ Assign template vars related to page content
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed GuestTrackingControllerCore::postProcess()
+```php
+mixed GuestTrackingControllerCore::postProcess()
+```
 
 Start forms process
 
@@ -122,7 +136,9 @@ Start forms process
 
 ### <a name="method-processAddressFormat"></a>processAddressFormat
 
-    mixed GuestTrackingControllerCore::processAddressFormat(\Address $delivery, \Address $invoice)
+```php
+mixed GuestTrackingControllerCore::processAddressFormat(\Address $delivery, \Address $invoice)
+```
 
 
 
@@ -140,7 +156,9 @@ Start forms process
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed GuestTrackingControllerCore::setMedia()
+```php
+mixed GuestTrackingControllerCore::setMedia()
+```
 
 
 

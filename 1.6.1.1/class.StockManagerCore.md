@@ -9,11 +9,13 @@ StockManager : implementation of StockManagerInterface
 * Source: [classes/stock/StockManager.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L31)
 * This class implements: [StockManagerInterface](interface.StockManagerInterface.md)
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [addProduct](#method-addProduct)
 * [calculateWA](#method-calculateWA)
 * [getProductCoverage](#method-getProductCoverage)
@@ -36,7 +38,9 @@ Methods
 
 ### <a name="method-addProduct"></a>addProduct
 
-    boolean StockManagerCore::addProduct(integer $id_product, integer $id_product_attribute, \Warehouse $warehouse, integer $quantity, integer $id_stock_mvt_reason, float $price_te, boolean $is_usable, integer|null $id_supply_order, \Employee|null $employee)
+```php
+boolean StockManagerCore::addProduct(integer $id_product, integer $id_product_attribute, \Warehouse $warehouse, integer $quantity, integer $id_stock_mvt_reason, float $price_te, boolean $is_usable, integer|null $id_supply_order, \Employee|null $employee)
+```
 
 For a given product, adds a given quantity
 
@@ -61,7 +65,9 @@ For a given product, adds a given quantity
 
 ### <a name="method-calculateWA"></a>calculateWA
 
-    integer StockManagerCore::calculateWA(\Stock|\PrestaShopCollection $stock, integer $quantity, float $price_te)
+```php
+integer StockManagerCore::calculateWA(\Stock|\PrestaShopCollection $stock, integer $quantity, float $price_te)
+```
 
 For a given stock, calculates its new WA(Weighted Average) price based on the new quantities and price
 Formula : (physicalStock * lastCump + quantityToAdd * unitPrice) / (physicalStock + quantityToAdd)
@@ -81,7 +87,9 @@ Formula : (physicalStock * lastCump + quantityToAdd * unitPrice) / (physicalStoc
 
 ### <a name="method-getProductCoverage"></a>getProductCoverage
 
-    integer StockManagerCore::getProductCoverage($id_product, $id_product_attribute, $coverage, $id_warehouse)
+```php
+integer StockManagerCore::getProductCoverage($id_product, $id_product_attribute, $coverage, $id_warehouse)
+```
 
 For a given product, returns the time left before being out of stock.
 
@@ -101,7 +109,9 @@ By default, for the given product, it will use sum(quantities removed in all war
 
 ### <a name="method-getProductPhysicalQuantities"></a>getProductPhysicalQuantities
 
-    mixed StockManagerCore::getProductPhysicalQuantities($id_product, $id_product_attribute, $ids_warehouse, $usable)
+```php
+mixed StockManagerCore::getProductPhysicalQuantities($id_product, $id_product_attribute, $ids_warehouse, $usable)
+```
 
 For a given product, returns its physical quantity
 If the given product has combinations and $id_product_attribute is null, returns the sum for all combinations
@@ -122,7 +132,9 @@ If the given product has combinations and $id_product_attribute is null, returns
 
 ### <a name="method-getProductRealQuantities"></a>getProductRealQuantities
 
-    mixed StockManagerCore::getProductRealQuantities($id_product, $id_product_attribute, $ids_warehouse, $usable)
+```php
+mixed StockManagerCore::getProductRealQuantities($id_product, $id_product_attribute, $ids_warehouse, $usable)
+```
 
 For a given product, returns its real quantity
 If the given product has combinations and $id_product_attribute is null, returns the sum for all combinations
@@ -145,7 +157,9 @@ If $usable is defined, real quantity: usable_qty + supply_orders_qty - client_or
 
 ### <a name="method-getStockByCarrier"></a>getStockByCarrier
 
-    integer StockManagerCore::getStockByCarrier(integer $id_product, integer $id_product_attribute, array $delivery_option)
+```php
+integer StockManagerCore::getStockByCarrier(integer $id_product, integer $id_product_attribute, array $delivery_option)
+```
 
 For a given product, retrieves the stock in function of the delivery option
 
@@ -165,7 +179,9 @@ For a given product, retrieves the stock in function of the delivery option
 
 ### <a name="method-getStockCollection"></a>getStockCollection
 
-    \PrestaShopCollection StockManagerCore::getStockCollection(integer $id_product, integer $id_product_attribute, integer $id_warehouse, integer $price_te)
+```php
+\PrestaShopCollection StockManagerCore::getStockCollection(integer $id_product, integer $id_product_attribute, integer $id_warehouse, integer $price_te)
+```
 
 For a given product, retrieves the stock collection
 
@@ -185,7 +201,9 @@ For a given product, retrieves the stock collection
 
 ### <a name="method-isAvailable"></a>isAvailable
 
-    mixed StockManagerCore::isAvailable()
+```php
+mixed StockManagerCore::isAvailable()
+```
 
 Checks if the StockManager is available
 
@@ -200,7 +218,9 @@ Checks if the StockManager is available
 
 ### <a name="method-removeProduct"></a>removeProduct
 
-    array StockManagerCore::removeProduct(integer $id_product, integer|null $id_product_attribute, \Warehouse $warehouse, integer $quantity, integer $id_stock_mvt_reason, boolean $is_usable, integer|null $id_order, integer $ignore_pack, \Employee|null $employee)
+```php
+array StockManagerCore::removeProduct(integer $id_product, integer|null $id_product_attribute, \Warehouse $warehouse, integer $quantity, integer $id_stock_mvt_reason, boolean $is_usable, integer|null $id_order, integer $ignore_pack, \Employee|null $employee)
+```
 
 For a given product, removes a given quantity
 
@@ -225,7 +245,9 @@ For a given product, removes a given quantity
 
 ### <a name="method-transferBetweenWarehouses"></a>transferBetweenWarehouses
 
-    mixed StockManagerCore::transferBetweenWarehouses($id_product, $id_product_attribute, $quantity, $id_warehouse_from, $id_warehouse_to, $usable_from, $usable_to)
+```php
+mixed StockManagerCore::transferBetweenWarehouses($id_product, $id_product_attribute, $quantity, $id_warehouse_from, $id_warehouse_to, $usable_from, $usable_to)
+```
 
 For a given product, transfers quantities between two warehouses
 By default, it manages usable quantities

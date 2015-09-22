@@ -10,17 +10,19 @@ Class AdminFeaturesControllerCore
 * Source: [controllers/admin/AdminFeaturesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$bootstrap](#property-$bootstrap)
 * [$feature_name](#property-$feature_name)
 * [$object](#property-$object)
 * [$position_identifier](#property-$position_identifier)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessUpdatePositions](#method-ajaxProcessUpdatePositions)
 * [getList](#method-getList)
@@ -49,7 +51,9 @@ Properties
 
 ### <a name="property-$bootstrap"></a>$bootstrap
 
-    public mixed $bootstrap = true
+```php
+public mixed $bootstrap = true
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$feature_name"></a>$feature_name
 
-    protected mixed $feature_name
+```php
+protected mixed $feature_name
+```
 
 
 
@@ -73,7 +79,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Feature $object
+```php
+public \Feature $object
+```
 
 
 
@@ -85,7 +93,9 @@ Properties
 
 ### <a name="property-$position_identifier"></a>$position_identifier
 
-    protected mixed $position_identifier = 'id_feature'
+```php
+protected mixed $position_identifier = 'id_feature'
+```
 
 
 
@@ -101,7 +111,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminFeaturesControllerCore::__construct()
+```php
+mixed AdminFeaturesControllerCore::__construct()
+```
 
 
 
@@ -115,7 +127,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdatePositions"></a>ajaxProcessUpdatePositions
 
-    mixed AdminFeaturesControllerCore::ajaxProcessUpdatePositions()
+```php
+mixed AdminFeaturesControllerCore::ajaxProcessUpdatePositions()
+```
 
 
 
@@ -129,7 +143,9 @@ Methods
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminFeaturesControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```php
+mixed AdminFeaturesControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```
 
 AdminController::getList() override
 
@@ -151,7 +167,9 @@ AdminController::getList() override
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminFeaturesControllerCore::initContent()
+```php
+mixed AdminFeaturesControllerCore::initContent()
+```
 
 AdminController::initContent() override
 
@@ -165,7 +183,9 @@ AdminController::initContent() override
 
 ### <a name="method-initFormFeatureValue"></a>initFormFeatureValue
 
-    mixed AdminFeaturesControllerCore::initFormFeatureValue()
+```php
+mixed AdminFeaturesControllerCore::initFormFeatureValue()
+```
 
 AdminController::renderForm() override
 
@@ -179,7 +199,9 @@ AdminController::renderForm() override
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminFeaturesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminFeaturesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -193,7 +215,9 @@ AdminController::renderForm() override
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminFeaturesControllerCore::initProcess()
+```php
+mixed AdminFeaturesControllerCore::initProcess()
+```
 
 
 
@@ -207,7 +231,9 @@ AdminController::renderForm() override
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminFeaturesControllerCore::initToolbar()
+```php
+mixed AdminFeaturesControllerCore::initToolbar()
+```
 
 AdminController::initToolbar() override
 
@@ -221,7 +247,9 @@ AdminController::initToolbar() override
 
 ### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
-    mixed AdminFeaturesControllerCore::initToolbarTitle()
+```php
+mixed AdminFeaturesControllerCore::initToolbarTitle()
+```
 
 
 
@@ -235,7 +263,9 @@ AdminController::initToolbar() override
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminFeaturesControllerCore::postProcess()
+```php
+mixed AdminFeaturesControllerCore::postProcess()
+```
 
 
 
@@ -249,7 +279,9 @@ AdminController::initToolbar() override
 
 ### <a name="method-processAdd"></a>processAdd
 
-    mixed AdminFeaturesControllerCore::processAdd()
+```php
+mixed AdminFeaturesControllerCore::processAdd()
+```
 
 Override processAdd to change SaveAndStay button action
 
@@ -263,7 +295,9 @@ Override processAdd to change SaveAndStay button action
 
 ### <a name="method-processSave"></a>processSave
 
-    mixed AdminFeaturesControllerCore::processSave()
+```php
+mixed AdminFeaturesControllerCore::processSave()
+```
 
 Call the right method for creating or updating object
 
@@ -277,7 +311,9 @@ Call the right method for creating or updating object
 
 ### <a name="method-processUpdate"></a>processUpdate
 
-    mixed AdminFeaturesControllerCore::processUpdate()
+```php
+mixed AdminFeaturesControllerCore::processUpdate()
+```
 
 Override processUpdate to change SaveAndStay button action
 
@@ -291,7 +327,9 @@ Override processUpdate to change SaveAndStay button action
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminFeaturesControllerCore::renderForm()
+```php
+mixed AdminFeaturesControllerCore::renderForm()
+```
 
 AdminController::renderForm() override
 
@@ -305,7 +343,9 @@ AdminController::renderForm() override
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminFeaturesControllerCore::renderList()
+```php
+mixed AdminFeaturesControllerCore::renderList()
+```
 
 AdminController::renderList() override
 
@@ -319,7 +359,9 @@ AdminController::renderList() override
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminFeaturesControllerCore::renderView()
+```php
+mixed AdminFeaturesControllerCore::renderView()
+```
 
 
 
@@ -333,7 +375,9 @@ AdminController::renderList() override
 
 ### <a name="method-setTypeFeature"></a>setTypeFeature
 
-    mixed AdminFeaturesControllerCore::setTypeFeature()
+```php
+mixed AdminFeaturesControllerCore::setTypeFeature()
+```
 
 Change object type to feature (use when processing a feature)
 
@@ -347,7 +391,9 @@ Change object type to feature (use when processing a feature)
 
 ### <a name="method-setTypeValue"></a>setTypeValue
 
-    mixed AdminFeaturesControllerCore::setTypeValue()
+```php
+mixed AdminFeaturesControllerCore::setTypeValue()
+```
 
 Change object type to feature value (use when processing a feature value)
 

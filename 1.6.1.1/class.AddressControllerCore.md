@@ -10,9 +10,11 @@ Class AddressControllerCore
 * Source: [controllers/front/AddressController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_address](#property-$_address)
 * [$auth](#property-$auth)
@@ -22,8 +24,8 @@ Properties
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [assignAddressFormat](#method-assignAddressFormat)
 * [assignCountries](#method-assignCountries)
 * [assignVatNumber](#method-assignVatNumber)
@@ -43,7 +45,9 @@ Properties
 
 ### <a name="property-$_address"></a>$_address
 
-    protected \Address $_address
+```php
+protected \Address $_address
+```
 
 
 
@@ -55,7 +59,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public mixed $auth = true
+```php
+public mixed $auth = true
+```
 
 
 
@@ -67,7 +73,9 @@ Properties
 
 ### <a name="property-$authRedirection"></a>$authRedirection
 
-    public mixed $authRedirection = 'addresses'
+```php
+public mixed $authRedirection = 'addresses'
+```
 
 
 
@@ -79,7 +87,9 @@ Properties
 
 ### <a name="property-$guestAllowed"></a>$guestAllowed
 
-    public mixed $guestAllowed = true
+```php
+public mixed $guestAllowed = true
+```
 
 
 
@@ -91,7 +101,9 @@ Properties
 
 ### <a name="property-$id_country"></a>$id_country
 
-    protected mixed $id_country
+```php
+protected mixed $id_country
+```
 
 
 
@@ -103,7 +115,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'address'
+```php
+public mixed $php_self = 'address'
+```
 
 
 
@@ -115,7 +129,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -131,7 +147,9 @@ Methods
 
 ### <a name="method-assignAddressFormat"></a>assignAddressFormat
 
-    mixed AddressControllerCore::assignAddressFormat()
+```php
+mixed AddressControllerCore::assignAddressFormat()
+```
 
 Assign template vars related to address format
 
@@ -145,7 +163,9 @@ Assign template vars related to address format
 
 ### <a name="method-assignCountries"></a>assignCountries
 
-    mixed AddressControllerCore::assignCountries()
+```php
+mixed AddressControllerCore::assignCountries()
+```
 
 Assign template vars related to countries display
 
@@ -159,7 +179,9 @@ Assign template vars related to countries display
 
 ### <a name="method-assignVatNumber"></a>assignVatNumber
 
-    mixed AddressControllerCore::assignVatNumber()
+```php
+mixed AddressControllerCore::assignVatNumber()
+```
 
 Assign template vars related to vat number
 
@@ -173,7 +195,9 @@ Assign template vars related to vat number
 
 ### <a name="method-displayAjax"></a>displayAjax
 
-    mixed AddressControllerCore::displayAjax()
+```php
+mixed AddressControllerCore::displayAjax()
+```
 
 
 
@@ -187,7 +211,9 @@ Assign template vars related to vat number
 
 ### <a name="method-init"></a>init
 
-    mixed AddressControllerCore::init()
+```php
+mixed AddressControllerCore::init()
+```
 
 Initialize address controller
 
@@ -201,7 +227,9 @@ Initialize address controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AddressControllerCore::initContent()
+```php
+mixed AddressControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -215,7 +243,9 @@ Assign template vars related to page content
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AddressControllerCore::postProcess()
+```php
+mixed AddressControllerCore::postProcess()
+```
 
 Start forms process
 
@@ -229,7 +259,9 @@ Start forms process
 
 ### <a name="method-processSubmitAddress"></a>processSubmitAddress
 
-    mixed AddressControllerCore::processSubmitAddress()
+```php
+mixed AddressControllerCore::processSubmitAddress()
+```
 
 Process changes on an address
 
@@ -243,7 +275,9 @@ Process changes on an address
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AddressControllerCore::setMedia()
+```php
+mixed AddressControllerCore::setMedia()
+```
 
 Set default medias for this controller
 

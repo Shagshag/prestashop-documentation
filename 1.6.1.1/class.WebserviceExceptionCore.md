@@ -9,22 +9,24 @@ Class WebserviceExceptionCore
 * Parent class: Exception
 * Source: [classes/webservice/WebserviceException.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DID_YOU_MEAN](#constant-DID_YOU_MEAN)
 * [SIMPLE](#constant-SIMPLE)
 
-Properties
-----------
+### Properties
 
 * [$available_values](#property-$available_values)
 * [$status](#property-$status)
 * [$type](#property-$type)
 * [$wrong_value](#property-$wrong_value)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getAvailableValues](#method-getAvailableValues)
 * [getStatus](#method-getStatus)
@@ -41,7 +43,9 @@ Constants
 
 ### <a name="constant-DID_YOU_MEAN"></a>DID_YOU_MEAN
 
-    const DID_YOU_MEAN = 1
+```php
+const DID_YOU_MEAN = 1
+```
 
 
 
@@ -52,7 +56,9 @@ Constants
 
 ### <a name="constant-SIMPLE"></a>SIMPLE
 
-    const SIMPLE = 0
+```php
+const SIMPLE = 0
+```
 
 
 
@@ -67,7 +73,9 @@ Properties
 
 ### <a name="property-$available_values"></a>$available_values
 
-    protected mixed $available_values
+```php
+protected mixed $available_values
+```
 
 
 
@@ -79,7 +87,9 @@ Properties
 
 ### <a name="property-$status"></a>$status
 
-    protected mixed $status
+```php
+protected mixed $status
+```
 
 
 
@@ -91,7 +101,9 @@ Properties
 
 ### <a name="property-$type"></a>$type
 
-    protected mixed $type
+```php
+protected mixed $type
+```
 
 
 
@@ -103,7 +115,9 @@ Properties
 
 ### <a name="property-$wrong_value"></a>$wrong_value
 
-    protected mixed $wrong_value
+```php
+protected mixed $wrong_value
+```
 
 
 
@@ -119,7 +133,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed WebserviceExceptionCore::__construct($message, $code)
+```php
+mixed WebserviceExceptionCore::__construct($message, $code)
+```
 
 
 
@@ -137,7 +153,9 @@ Methods
 
 ### <a name="method-getAvailableValues"></a>getAvailableValues
 
-    mixed WebserviceExceptionCore::getAvailableValues()
+```php
+mixed WebserviceExceptionCore::getAvailableValues()
+```
 
 
 
@@ -151,7 +169,9 @@ Methods
 
 ### <a name="method-getStatus"></a>getStatus
 
-    mixed WebserviceExceptionCore::getStatus()
+```php
+mixed WebserviceExceptionCore::getStatus()
+```
 
 
 
@@ -165,7 +185,9 @@ Methods
 
 ### <a name="method-getType"></a>getType
 
-    mixed WebserviceExceptionCore::getType()
+```php
+mixed WebserviceExceptionCore::getType()
+```
 
 
 
@@ -179,7 +201,9 @@ Methods
 
 ### <a name="method-getWrongValue"></a>getWrongValue
 
-    mixed WebserviceExceptionCore::getWrongValue()
+```php
+mixed WebserviceExceptionCore::getWrongValue()
+```
 
 
 
@@ -193,7 +217,9 @@ Methods
 
 ### <a name="method-setDidYouMean"></a>setDidYouMean
 
-    mixed WebserviceExceptionCore::setDidYouMean($wrong_value, $available_values)
+```php
+mixed WebserviceExceptionCore::setDidYouMean($wrong_value, $available_values)
+```
 
 
 
@@ -211,7 +237,9 @@ Methods
 
 ### <a name="method-setStatus"></a>setStatus
 
-    mixed WebserviceExceptionCore::setStatus($status)
+```php
+mixed WebserviceExceptionCore::setStatus($status)
+```
 
 
 
@@ -228,7 +256,9 @@ Methods
 
 ### <a name="method-setType"></a>setType
 
-    mixed WebserviceExceptionCore::setType($type)
+```php
+mixed WebserviceExceptionCore::setType($type)
+```
 
 
 

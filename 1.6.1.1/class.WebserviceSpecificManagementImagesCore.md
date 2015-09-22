@@ -23,9 +23,11 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [classes/webservice/WebserviceSpecificManagementImages.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L27)
 * This class implements: [WebserviceSpecificManagementInterface](interface.WebserviceSpecificManagementInterface.md)
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$acceptedImgMimeTypes](#property-$acceptedImgMimeTypes)
 * [$defaultImage](#property-$defaultImage)
@@ -40,8 +42,8 @@ Properties
 * [$productImageDeclinationId](#property-$productImageDeclinationId)
 * [$wsObject](#property-$wsObject)
 
-Methods
--------
+### Methods
+
 * [deleteImageOnDisk](#method-deleteImageOnDisk)
 * [getContent](#method-getContent)
 * [getCustomizations](#method-getCustomizations)
@@ -71,7 +73,9 @@ Properties
 
 ### <a name="property-$acceptedImgMimeTypes"></a>$acceptedImgMimeTypes
 
-    protected array $acceptedImgMimeTypes = array('image/gif', 'image/jpg', 'image/jpeg', 'image/pjpeg', 'image/png', 'image/x-png')
+```php
+protected array $acceptedImgMimeTypes = array('image/gif', 'image/jpg', 'image/jpeg', 'image/pjpeg', 'image/png', 'image/x-png')
+```
 
 
 
@@ -83,7 +87,9 @@ Properties
 
 ### <a name="property-$defaultImage"></a>$defaultImage
 
-    protected boolean $defaultImage = false
+```php
+protected boolean $defaultImage = false
+```
 
 
 
@@ -95,7 +101,9 @@ Properties
 
 ### <a name="property-$imageResource"></a>$imageResource
 
-    public mixed $imageResource = null
+```php
+public mixed $imageResource = null
+```
 
 
 
@@ -107,7 +115,9 @@ Properties
 
 ### <a name="property-$imageType"></a>$imageType
 
-    protected string $imageType = null
+```php
+protected string $imageType = null
+```
 
 
 
@@ -119,7 +129,9 @@ Properties
 
 ### <a name="property-$imageTypes"></a>$imageTypes
 
-    protected array $imageTypes = array('general' => array('header' => array(), 'mail' => array(), 'invoice' => array(), 'store_icon' => array()), 'products' => array(), 'categories' => array(), 'manufacturers' => array(), 'suppliers' => array(), 'stores' => array(), 'customizations' => array())
+```php
+protected array $imageTypes = array('general' => array('header' => array(), 'mail' => array(), 'invoice' => array(), 'store_icon' => array()), 'products' => array(), 'categories' => array(), 'manufacturers' => array(), 'suppliers' => array(), 'stores' => array(), 'customizations' => array())
+```
 
 
 
@@ -131,7 +143,9 @@ Properties
 
 ### <a name="property-$imgExtension"></a>$imgExtension
 
-    protected string $imgExtension
+```php
+protected string $imgExtension
+```
 
 
 
@@ -143,7 +157,9 @@ Properties
 
 ### <a name="property-$imgMaxUploadSize"></a>$imgMaxUploadSize
 
-    protected integer $imgMaxUploadSize = 3000000
+```php
+protected integer $imgMaxUploadSize = 3000000
+```
 
 
 
@@ -155,7 +171,9 @@ Properties
 
 ### <a name="property-$imgToDisplay"></a>$imgToDisplay
 
-    public string $imgToDisplay = null
+```php
+public string $imgToDisplay = null
+```
 
 
 
@@ -167,7 +185,9 @@ Properties
 
 ### <a name="property-$objOutput"></a>$objOutput
 
-    protected \WebserviceOutputBuilder $objOutput
+```php
+protected \WebserviceOutputBuilder $objOutput
+```
 
 
 
@@ -179,7 +199,9 @@ Properties
 
 ### <a name="property-$output"></a>$output
 
-    protected mixed $output
+```php
+protected mixed $output
+```
 
 
 
@@ -191,7 +213,9 @@ Properties
 
 ### <a name="property-$productImageDeclinationId"></a>$productImageDeclinationId
 
-    protected string $productImageDeclinationId = null
+```php
+protected string $productImageDeclinationId = null
+```
 
 
 
@@ -203,7 +227,9 @@ Properties
 
 ### <a name="property-$wsObject"></a>$wsObject
 
-    protected \WebserviceRequest $wsObject
+```php
+protected \WebserviceRequest $wsObject
+```
 
 
 
@@ -219,7 +245,9 @@ Methods
 
 ### <a name="method-deleteImageOnDisk"></a>deleteImageOnDisk
 
-    boolean WebserviceSpecificManagementImagesCore::deleteImageOnDisk(string $file_path, array $image_types, string $parent_path)
+```php
+boolean WebserviceSpecificManagementImagesCore::deleteImageOnDisk(string $file_path, array $image_types, string $parent_path)
+```
 
 Delete the image on disk
 
@@ -238,7 +266,9 @@ Delete the image on disk
 
 ### <a name="method-getContent"></a>getContent
 
-    mixed WebserviceSpecificManagementImagesCore::getContent()
+```php
+mixed WebserviceSpecificManagementImagesCore::getContent()
+```
 
 This must be return an array with specific values as WebserviceRequest expects.
 
@@ -252,7 +282,9 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 ### <a name="method-getCustomizations"></a>getCustomizations
 
-    mixed WebserviceSpecificManagementImagesCore::getCustomizations()
+```php
+mixed WebserviceSpecificManagementImagesCore::getCustomizations()
+```
 
 
 
@@ -266,7 +298,9 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 ### <a name="method-getObjectOutput"></a>getObjectOutput
 
-    mixed WebserviceSpecificManagementImagesCore::getObjectOutput()
+```php
+mixed WebserviceSpecificManagementImagesCore::getObjectOutput()
+```
 
 
 
@@ -280,7 +314,9 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 ### <a name="method-getWsObject"></a>getWsObject
 
-    mixed WebserviceSpecificManagementImagesCore::getWsObject()
+```php
+mixed WebserviceSpecificManagementImagesCore::getWsObject()
+```
 
 
 
@@ -294,7 +330,9 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 ### <a name="method-manage"></a>manage
 
-    mixed WebserviceSpecificManagementImagesCore::manage()
+```php
+mixed WebserviceSpecificManagementImagesCore::manage()
+```
 
 
 
@@ -308,7 +346,9 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 ### <a name="method-manageCustomizationImages"></a>manageCustomizationImages
 
-    mixed WebserviceSpecificManagementImagesCore::manageCustomizationImages()
+```php
+mixed WebserviceSpecificManagementImagesCore::manageCustomizationImages()
+```
 
 
 
@@ -322,7 +362,9 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 ### <a name="method-manageDeclinatedImages"></a>manageDeclinatedImages
 
-    boolean WebserviceSpecificManagementImagesCore::manageDeclinatedImages(string $directory)
+```php
+boolean WebserviceSpecificManagementImagesCore::manageDeclinatedImages(string $directory)
+```
 
 Management of normal images (as categories, suppliers, manufacturers and stores)
 
@@ -339,7 +381,9 @@ Management of normal images (as categories, suppliers, manufacturers and stores)
 
 ### <a name="method-manageDeclinatedImagesCRUD"></a>manageDeclinatedImagesCRUD
 
-    boolean WebserviceSpecificManagementImagesCore::manageDeclinatedImagesCRUD(boolean $filename_exists, string $filename, array $image_sizes, string $directory)
+```php
+boolean WebserviceSpecificManagementImagesCore::manageDeclinatedImagesCRUD(boolean $filename_exists, string $filename, array $image_sizes, string $directory)
+```
 
 Management of normal images CRUD
 
@@ -359,7 +403,9 @@ Management of normal images CRUD
 
 ### <a name="method-manageDefaultDeclinatedImages"></a>manageDefaultDeclinatedImages
 
-    mixed WebserviceSpecificManagementImagesCore::manageDefaultDeclinatedImages($directory, $normal_image_sizes)
+```php
+mixed WebserviceSpecificManagementImagesCore::manageDefaultDeclinatedImages($directory, $normal_image_sizes)
+```
 
 
 
@@ -377,7 +423,9 @@ Management of normal images CRUD
 
 ### <a name="method-manageEntityDeclinatedImages"></a>manageEntityDeclinatedImages
 
-    mixed WebserviceSpecificManagementImagesCore::manageEntityDeclinatedImages($directory, $normal_image_sizes)
+```php
+mixed WebserviceSpecificManagementImagesCore::manageEntityDeclinatedImages($directory, $normal_image_sizes)
+```
 
 
 
@@ -395,7 +443,9 @@ Management of normal images CRUD
 
 ### <a name="method-manageGeneralImages"></a>manageGeneralImages
 
-    boolean WebserviceSpecificManagementImagesCore::manageGeneralImages()
+```php
+boolean WebserviceSpecificManagementImagesCore::manageGeneralImages()
+```
 
 Management of general images
 
@@ -409,7 +459,9 @@ Management of general images
 
 ### <a name="method-manageImages"></a>manageImages
 
-    boolean WebserviceSpecificManagementImagesCore::manageImages()
+```php
+boolean WebserviceSpecificManagementImagesCore::manageImages()
+```
 
 Management of images URL segment
 
@@ -423,7 +475,9 @@ Management of images URL segment
 
 ### <a name="method-manageListDeclinatedImages"></a>manageListDeclinatedImages
 
-    mixed WebserviceSpecificManagementImagesCore::manageListDeclinatedImages($directory, $normal_image_sizes)
+```php
+mixed WebserviceSpecificManagementImagesCore::manageListDeclinatedImages($directory, $normal_image_sizes)
+```
 
 
 
@@ -441,7 +495,9 @@ Management of images URL segment
 
 ### <a name="method-manageProductImages"></a>manageProductImages
 
-    mixed WebserviceSpecificManagementImagesCore::manageProductImages()
+```php
+mixed WebserviceSpecificManagementImagesCore::manageProductImages()
+```
 
 
 
@@ -455,7 +511,9 @@ Management of images URL segment
 
 ### <a name="method-setObjectOutput"></a>setObjectOutput
 
-    \WebserviceSpecificManagementInterface WebserviceSpecificManagementImagesCore::setObjectOutput(\WebserviceOutputBuilderCore $obj)
+```php
+\WebserviceSpecificManagementInterface WebserviceSpecificManagementImagesCore::setObjectOutput(\WebserviceOutputBuilderCore $obj)
+```
 
 
 
@@ -472,7 +530,9 @@ Management of images URL segment
 
 ### <a name="method-setWsObject"></a>setWsObject
 
-    mixed WebserviceSpecificManagementImagesCore::setWsObject(\WebserviceRequestCore $obj)
+```php
+mixed WebserviceSpecificManagementImagesCore::setWsObject(\WebserviceRequestCore $obj)
+```
 
 
 
@@ -489,7 +549,9 @@ Management of images URL segment
 
 ### <a name="method-writeImageOnDisk"></a>writeImageOnDisk
 
-    string WebserviceSpecificManagementImagesCore::writeImageOnDisk(string $base_path, string $new_path, integer $dest_width, integer $dest_height, array $image_types, string $parent_path)
+```php
+string WebserviceSpecificManagementImagesCore::writeImageOnDisk(string $base_path, string $new_path, integer $dest_width, integer $dest_height, array $image_types, string $parent_path)
+```
 
 Write the image on disk
 
@@ -511,7 +573,9 @@ Write the image on disk
 
 ### <a name="method-writePostedImageOnDisk"></a>writePostedImageOnDisk
 
-    boolean WebserviceSpecificManagementImagesCore::writePostedImageOnDisk(string $reception_path, integer $dest_width, integer $dest_height, array $image_types, string $parent_path)
+```php
+boolean WebserviceSpecificManagementImagesCore::writePostedImageOnDisk(string $reception_path, integer $dest_width, integer $dest_height, array $image_types, string $parent_path)
+```
 
 Write the posted image on disk
 

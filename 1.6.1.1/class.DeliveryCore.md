@@ -10,9 +10,11 @@ Class DeliveryCore
 * Source: [classes/Delivery.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$id_carrier](#property-$id_carrier)
@@ -25,8 +27,8 @@ Properties
 * [$price](#property-$price)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [getFields](#method-getFields)
 
 
@@ -38,7 +40,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'delivery', 'primary' => 'id_delivery', 'fields' => array('id_carrier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_range_price' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_range_weight' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_zone' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_shop' => array('type' => self::TYPE_INT), 'id_shop_group' => array('type' => self::TYPE_INT), 'price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'delivery', 'primary' => 'id_delivery', 'fields' => array('id_carrier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_range_price' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_range_weight' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_zone' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_shop' => array('type' => self::TYPE_INT), 'id_shop_group' => array('type' => self::TYPE_INT), 'price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true)))
+```
 
 
 
@@ -51,7 +55,9 @@ Properties
 
 ### <a name="property-$id_carrier"></a>$id_carrier
 
-    public integer $id_carrier
+```php
+public integer $id_carrier
+```
 
 
 
@@ -63,7 +69,9 @@ Properties
 
 ### <a name="property-$id_delivery"></a>$id_delivery
 
-    public integer $id_delivery
+```php
+public integer $id_delivery
+```
 
 
 
@@ -75,7 +83,9 @@ Properties
 
 ### <a name="property-$id_range_price"></a>$id_range_price
 
-    public integer $id_range_price
+```php
+public integer $id_range_price
+```
 
 
 
@@ -87,7 +97,9 @@ Properties
 
 ### <a name="property-$id_range_weight"></a>$id_range_weight
 
-    public integer $id_range_weight
+```php
+public integer $id_range_weight
+```
 
 
 
@@ -99,7 +111,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public integer $id_shop
+```php
+public integer $id_shop
+```
 
 
 
@@ -111,7 +125,9 @@ Properties
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
 
-    public integer $id_shop_group
+```php
+public integer $id_shop_group
+```
 
 
 
@@ -123,7 +139,9 @@ Properties
 
 ### <a name="property-$id_zone"></a>$id_zone
 
-    public integer $id_zone
+```php
+public integer $id_zone
+```
 
 
 
@@ -135,7 +153,9 @@ Properties
 
 ### <a name="property-$price"></a>$price
 
-    public float $price
+```php
+public float $price
+```
 
 
 
@@ -147,7 +167,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'deliveries', 'fields' => array('id_carrier' => array('xlink_resource' => 'carriers'), 'id_range_price' => array('xlink_resource' => 'price_ranges'), 'id_range_weight' => array('xlink_resource' => 'weight_ranges'), 'id_zone' => array('xlink_resource' => 'zones')))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'deliveries', 'fields' => array('id_carrier' => array('xlink_resource' => 'carriers'), 'id_range_price' => array('xlink_resource' => 'price_ranges'), 'id_range_weight' => array('xlink_resource' => 'weight_ranges'), 'id_zone' => array('xlink_resource' => 'zones')))
+```
 
 
 
@@ -163,7 +185,9 @@ Methods
 
 ### <a name="method-getFields"></a>getFields
 
-    mixed DeliveryCore::getFields()
+```php
+mixed DeliveryCore::getFields()
+```
 
 
 

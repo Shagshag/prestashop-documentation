@@ -10,16 +10,18 @@ Class SearchEngineCore
 * Source: [classes/SearchEngine.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SearchEngine.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$getvar](#property-$getvar)
 * [$server](#property-$server)
 
-Methods
--------
+### Methods
+
 * [getKeywords](#method-getKeywords)
 
 
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'search_engine', 'primary' => 'id_search_engine', 'fields' => array('server' => array('type' => self::TYPE_STRING, 'validate' => 'isUrl', 'required' => true), 'getvar' => array('type' => self::TYPE_STRING, 'validate' => 'isModuleName', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'search_engine', 'primary' => 'id_search_engine', 'fields' => array('server' => array('type' => self::TYPE_STRING, 'validate' => 'isUrl', 'required' => true), 'getvar' => array('type' => self::TYPE_STRING, 'validate' => 'isModuleName', 'required' => true)))
+```
 
 
 
@@ -44,7 +48,9 @@ Properties
 
 ### <a name="property-$getvar"></a>$getvar
 
-    public mixed $getvar
+```php
+public mixed $getvar
+```
 
 
 
@@ -56,7 +62,9 @@ Properties
 
 ### <a name="property-$server"></a>$server
 
-    public mixed $server
+```php
+public mixed $server
+```
 
 
 
@@ -72,7 +80,9 @@ Methods
 
 ### <a name="method-getKeywords"></a>getKeywords
 
-    mixed SearchEngineCore::getKeywords($url)
+```php
+mixed SearchEngineCore::getKeywords($url)
+```
 
 
 

@@ -10,14 +10,16 @@ Class AdminPaymentControllerCore
 * Source: [controllers/admin/AdminPaymentController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$payment_modules](#property-$payment_modules)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initContent](#method-initContent)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
@@ -38,7 +40,9 @@ Properties
 
 ### <a name="property-$payment_modules"></a>$payment_modules
 
-    public mixed $payment_modules = array()
+```php
+public mixed $payment_modules = array()
+```
 
 
 
@@ -54,7 +58,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminPaymentControllerCore::__construct()
+```php
+mixed AdminPaymentControllerCore::__construct()
+```
 
 
 
@@ -68,7 +74,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminPaymentControllerCore::initContent()
+```php
+mixed AdminPaymentControllerCore::initContent()
+```
 
 
 
@@ -82,7 +90,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminPaymentControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminPaymentControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -96,7 +106,9 @@ Methods
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminPaymentControllerCore::initProcess()
+```php
+mixed AdminPaymentControllerCore::initProcess()
+```
 
 
 
@@ -110,7 +122,9 @@ Methods
 
 ### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
-    mixed AdminPaymentControllerCore::initToolbarTitle()
+```php
+mixed AdminPaymentControllerCore::initToolbarTitle()
+```
 
 
 
@@ -124,7 +138,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminPaymentControllerCore::postProcess()
+```php
+mixed AdminPaymentControllerCore::postProcess()
+```
 
 
 
@@ -138,7 +154,9 @@ Methods
 
 ### <a name="method-renderModulesList"></a>renderModulesList
 
-    mixed AdminPaymentControllerCore::renderModulesList()
+```php
+mixed AdminPaymentControllerCore::renderModulesList()
+```
 
 
 
@@ -152,7 +170,9 @@ Methods
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminPaymentControllerCore::renderView()
+```php
+mixed AdminPaymentControllerCore::renderView()
+```
 
 
 
@@ -166,7 +186,9 @@ Methods
 
 ### <a name="method-saveRestrictions"></a>saveRestrictions
 
-    mixed AdminPaymentControllerCore::saveRestrictions($type)
+```php
+mixed AdminPaymentControllerCore::saveRestrictions($type)
+```
 
 
 
@@ -183,7 +205,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminPaymentControllerCore::setMedia()
+```php
+mixed AdminPaymentControllerCore::setMedia()
+```
 
 
 

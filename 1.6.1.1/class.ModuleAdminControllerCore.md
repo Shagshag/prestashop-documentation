@@ -11,14 +11,16 @@ Class ModuleAdminControllerCore
 * Source: [classes/controller/ModuleAdminController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$module](#property-$module)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [createTemplate](#method-createTemplate)
 * [getTemplatePath](#method-getTemplatePath)
@@ -32,7 +34,9 @@ Properties
 
 ### <a name="property-$module"></a>$module
 
-    public \Module $module
+```php
+public \Module $module
+```
 
 
 
@@ -48,7 +52,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ModuleAdminControllerCore::__construct()
+```php
+mixed ModuleAdminControllerCore::__construct()
+```
 
 
 
@@ -62,7 +68,9 @@ Methods
 
 ### <a name="method-createTemplate"></a>createTemplate
 
-    \Smarty_Internal_Template ModuleAdminControllerCore::createTemplate(string $tpl_name)
+```php
+\Smarty_Internal_Template ModuleAdminControllerCore::createTemplate(string $tpl_name)
+```
 
 Creates a template object
 
@@ -79,7 +87,9 @@ Creates a template object
 
 ### <a name="method-getTemplatePath"></a>getTemplatePath
 
-    string ModuleAdminControllerCore::getTemplatePath()
+```php
+string ModuleAdminControllerCore::getTemplatePath()
+```
 
 Get path to back office templates for the module
 

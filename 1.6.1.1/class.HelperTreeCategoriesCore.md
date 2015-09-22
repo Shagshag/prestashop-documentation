@@ -9,8 +9,11 @@ Class HelperTreeCategoriesCore
 * Parent class: [TreeCore](class.TreeCore.md)
 * Source: [classes/helper/HelperTreeCategories.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEFAULT_HEADER_TEMPLATE](#constant-DEFAULT_HEADER_TEMPLATE)
 * [DEFAULT_NODE_FOLDER_TEMPLATE](#constant-DEFAULT_NODE_FOLDER_TEMPLATE)
@@ -18,8 +21,7 @@ Constants
 * [DEFAULT_TEMPLATE](#constant-DEFAULT_TEMPLATE)
 * [DEFAULT_TEMPLATE_DIRECTORY](#constant-DEFAULT_TEMPLATE_DIRECTORY)
 
-Properties
-----------
+### Properties
 
 * [$_attributes](#property-$_attributes)
 * [$_children_only](#property-$_children_only)
@@ -47,8 +49,8 @@ Properties
 * [$_use_search](#property-$_use_search)
 * [$_use_shop_restriction](#property-$_use_shop_restriction)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [__toString](#method-__toString)
 * [_disableCategories](#method-_disableCategories)
@@ -123,7 +125,9 @@ Constants
 
 ### <a name="constant-DEFAULT_HEADER_TEMPLATE"></a>DEFAULT_HEADER_TEMPLATE
 
-    const DEFAULT_HEADER_TEMPLATE = 'tree_header.tpl'
+```php
+const DEFAULT_HEADER_TEMPLATE = 'tree_header.tpl'
+```
 
 
 
@@ -134,7 +138,9 @@ Constants
 
 ### <a name="constant-DEFAULT_NODE_FOLDER_TEMPLATE"></a>DEFAULT_NODE_FOLDER_TEMPLATE
 
-    const DEFAULT_NODE_FOLDER_TEMPLATE = 'tree_node_folder.tpl'
+```php
+const DEFAULT_NODE_FOLDER_TEMPLATE = 'tree_node_folder.tpl'
+```
 
 
 
@@ -145,7 +151,9 @@ Constants
 
 ### <a name="constant-DEFAULT_NODE_ITEM_TEMPLATE"></a>DEFAULT_NODE_ITEM_TEMPLATE
 
-    const DEFAULT_NODE_ITEM_TEMPLATE = 'tree_node_item.tpl'
+```php
+const DEFAULT_NODE_ITEM_TEMPLATE = 'tree_node_item.tpl'
+```
 
 
 
@@ -156,7 +164,9 @@ Constants
 
 ### <a name="constant-DEFAULT_TEMPLATE"></a>DEFAULT_TEMPLATE
 
-    const DEFAULT_TEMPLATE = 'tree.tpl'
+```php
+const DEFAULT_TEMPLATE = 'tree.tpl'
+```
 
 
 
@@ -167,7 +177,9 @@ Constants
 
 ### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
 
-    const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
+```php
+const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
+```
 
 
 
@@ -182,7 +194,9 @@ Properties
 
 ### <a name="property-$_attributes"></a>$_attributes
 
-    protected mixed $_attributes
+```php
+protected mixed $_attributes
+```
 
 
 
@@ -194,7 +208,9 @@ Properties
 
 ### <a name="property-$_children_only"></a>$_children_only
 
-    private mixed $_children_only = false
+```php
+private mixed $_children_only = false
+```
 
 
 
@@ -206,7 +222,9 @@ Properties
 
 ### <a name="property-$_context"></a>$_context
 
-    private mixed $_context
+```php
+private mixed $_context
+```
 
 
 
@@ -218,7 +236,9 @@ Properties
 
 ### <a name="property-$_data"></a>$_data
 
-    protected mixed $_data
+```php
+protected mixed $_data
+```
 
 
 
@@ -230,7 +250,9 @@ Properties
 
 ### <a name="property-$_data_search"></a>$_data_search
 
-    protected mixed $_data_search
+```php
+protected mixed $_data_search
+```
 
 
 
@@ -242,7 +264,9 @@ Properties
 
 ### <a name="property-$_disabled_categories"></a>$_disabled_categories
 
-    private mixed $_disabled_categories
+```php
+private mixed $_disabled_categories
+```
 
 
 
@@ -254,7 +278,9 @@ Properties
 
 ### <a name="property-$_full_tree"></a>$_full_tree
 
-    private mixed $_full_tree = false
+```php
+private mixed $_full_tree = false
+```
 
 
 
@@ -266,7 +292,9 @@ Properties
 
 ### <a name="property-$_headerTemplate"></a>$_headerTemplate
 
-    protected mixed $_headerTemplate
+```php
+protected mixed $_headerTemplate
+```
 
 
 
@@ -278,7 +306,9 @@ Properties
 
 ### <a name="property-$_id"></a>$_id
 
-    private mixed $_id
+```php
+private mixed $_id
+```
 
 
 
@@ -290,7 +320,9 @@ Properties
 
 ### <a name="property-$_id_tree"></a>$_id_tree
 
-    protected mixed $_id_tree
+```php
+protected mixed $_id_tree
+```
 
 
 
@@ -302,7 +334,9 @@ Properties
 
 ### <a name="property-$_input_name"></a>$_input_name
 
-    private mixed $_input_name
+```php
+private mixed $_input_name
+```
 
 
 
@@ -314,7 +348,9 @@ Properties
 
 ### <a name="property-$_lang"></a>$_lang
 
-    private mixed $_lang
+```php
+private mixed $_lang
+```
 
 
 
@@ -326,7 +362,9 @@ Properties
 
 ### <a name="property-$_no_js"></a>$_no_js
 
-    private mixed $_no_js
+```php
+private mixed $_no_js
+```
 
 
 
@@ -338,7 +376,9 @@ Properties
 
 ### <a name="property-$_node_folder_template"></a>$_node_folder_template
 
-    protected mixed $_node_folder_template
+```php
+protected mixed $_node_folder_template
+```
 
 
 
@@ -350,7 +390,9 @@ Properties
 
 ### <a name="property-$_node_item_template"></a>$_node_item_template
 
-    protected mixed $_node_item_template
+```php
+protected mixed $_node_item_template
+```
 
 
 
@@ -362,7 +404,9 @@ Properties
 
 ### <a name="property-$_root_category"></a>$_root_category
 
-    private mixed $_root_category
+```php
+private mixed $_root_category
+```
 
 
 
@@ -374,7 +418,9 @@ Properties
 
 ### <a name="property-$_selected_categories"></a>$_selected_categories
 
-    private mixed $_selected_categories
+```php
+private mixed $_selected_categories
+```
 
 
 
@@ -386,7 +432,9 @@ Properties
 
 ### <a name="property-$_shop"></a>$_shop
 
-    private mixed $_shop
+```php
+private mixed $_shop
+```
 
 
 
@@ -398,7 +446,9 @@ Properties
 
 ### <a name="property-$_template"></a>$_template
 
-    protected mixed $_template
+```php
+protected mixed $_template
+```
 
 
 
@@ -410,7 +460,9 @@ Properties
 
 ### <a name="property-$_template_directory"></a>$_template_directory
 
-    private string $_template_directory
+```php
+private string $_template_directory
+```
 
 
 
@@ -422,7 +474,9 @@ Properties
 
 ### <a name="property-$_title"></a>$_title
 
-    private mixed $_title
+```php
+private mixed $_title
+```
 
 
 
@@ -434,7 +488,9 @@ Properties
 
 ### <a name="property-$_toolbar"></a>$_toolbar
 
-    private \TreeToolbar $_toolbar
+```php
+private \TreeToolbar $_toolbar
+```
 
 
 
@@ -446,7 +502,9 @@ Properties
 
 ### <a name="property-$_use_checkbox"></a>$_use_checkbox
 
-    private mixed $_use_checkbox
+```php
+private mixed $_use_checkbox
+```
 
 
 
@@ -458,7 +516,9 @@ Properties
 
 ### <a name="property-$_use_search"></a>$_use_search
 
-    private mixed $_use_search
+```php
+private mixed $_use_search
+```
 
 
 
@@ -470,7 +530,9 @@ Properties
 
 ### <a name="property-$_use_shop_restriction"></a>$_use_shop_restriction
 
-    private mixed $_use_shop_restriction
+```php
+private mixed $_use_shop_restriction
+```
 
 
 
@@ -486,7 +548,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed HelperTreeCategoriesCore::__construct($id, $data)
+```php
+mixed HelperTreeCategoriesCore::__construct($id, $data)
+```
 
 
 
@@ -504,7 +568,9 @@ Methods
 
 ### <a name="method-__toString"></a>__toString
 
-    mixed HelperTreeCategoriesCore::__toString()
+```php
+mixed HelperTreeCategoriesCore::__toString()
+```
 
 
 
@@ -518,7 +584,9 @@ Methods
 
 ### <a name="method-_disableCategories"></a>_disableCategories
 
-    mixed HelperTreeCategoriesCore::_disableCategories($categories, $disabled_categories)
+```php
+mixed HelperTreeCategoriesCore::_disableCategories($categories, $disabled_categories)
+```
 
 
 
@@ -536,7 +604,9 @@ Methods
 
 ### <a name="method-_getSelectedChildNumbers"></a>_getSelectedChildNumbers
 
-    mixed HelperTreeCategoriesCore::_getSelectedChildNumbers($categories, $selected, $parent)
+```php
+mixed HelperTreeCategoriesCore::_getSelectedChildNumbers($categories, $selected, $parent)
+```
 
 
 
@@ -555,7 +625,9 @@ Methods
 
 ### <a name="method-_normalizeDirectory"></a>_normalizeDirectory
 
-    mixed HelperTreeCategoriesCore::_normalizeDirectory($directory)
+```php
+mixed HelperTreeCategoriesCore::_normalizeDirectory($directory)
+```
 
 
 
@@ -572,7 +644,9 @@ Methods
 
 ### <a name="method-addAction"></a>addAction
 
-    mixed HelperTreeCategoriesCore::addAction($action)
+```php
+mixed HelperTreeCategoriesCore::addAction($action)
+```
 
 
 
@@ -589,7 +663,9 @@ Methods
 
 ### <a name="method-fillTree"></a>fillTree
 
-    mixed HelperTreeCategoriesCore::fillTree($categories, $id_category)
+```php
+mixed HelperTreeCategoriesCore::fillTree($categories, $id_category)
+```
 
 
 
@@ -607,7 +683,9 @@ Methods
 
 ### <a name="method-getActions"></a>getActions
 
-    mixed HelperTreeCategoriesCore::getActions()
+```php
+mixed HelperTreeCategoriesCore::getActions()
+```
 
 
 
@@ -621,7 +699,9 @@ Methods
 
 ### <a name="method-getAttribute"></a>getAttribute
 
-    mixed HelperTreeCategoriesCore::getAttribute($name)
+```php
+mixed HelperTreeCategoriesCore::getAttribute($name)
+```
 
 
 
@@ -638,7 +718,9 @@ Methods
 
 ### <a name="method-getAttributes"></a>getAttributes
 
-    mixed HelperTreeCategoriesCore::getAttributes()
+```php
+mixed HelperTreeCategoriesCore::getAttributes()
+```
 
 
 
@@ -652,7 +734,9 @@ Methods
 
 ### <a name="method-getContext"></a>getContext
 
-    mixed HelperTreeCategoriesCore::getContext()
+```php
+mixed HelperTreeCategoriesCore::getContext()
+```
 
 
 
@@ -666,7 +750,9 @@ Methods
 
 ### <a name="method-getData"></a>getData
 
-    mixed HelperTreeCategoriesCore::getData()
+```php
+mixed HelperTreeCategoriesCore::getData()
+```
 
 
 
@@ -680,7 +766,9 @@ Methods
 
 ### <a name="method-getDataSearch"></a>getDataSearch
 
-    mixed HelperTreeCategoriesCore::getDataSearch()
+```php
+mixed HelperTreeCategoriesCore::getDataSearch()
+```
 
 
 
@@ -694,7 +782,9 @@ Methods
 
 ### <a name="method-getDisabledCategories"></a>getDisabledCategories
 
-    mixed HelperTreeCategoriesCore::getDisabledCategories()
+```php
+mixed HelperTreeCategoriesCore::getDisabledCategories()
+```
 
 
 
@@ -708,7 +798,9 @@ Methods
 
 ### <a name="method-getFullTree"></a>getFullTree
 
-    mixed HelperTreeCategoriesCore::getFullTree()
+```php
+mixed HelperTreeCategoriesCore::getFullTree()
+```
 
 
 
@@ -722,7 +814,9 @@ Methods
 
 ### <a name="method-getHeaderTemplate"></a>getHeaderTemplate
 
-    mixed HelperTreeCategoriesCore::getHeaderTemplate()
+```php
+mixed HelperTreeCategoriesCore::getHeaderTemplate()
+```
 
 
 
@@ -736,7 +830,9 @@ Methods
 
 ### <a name="method-getId"></a>getId
 
-    mixed HelperTreeCategoriesCore::getId()
+```php
+mixed HelperTreeCategoriesCore::getId()
+```
 
 
 
@@ -750,7 +846,9 @@ Methods
 
 ### <a name="method-getIdTree"></a>getIdTree
 
-    mixed HelperTreeCategoriesCore::getIdTree()
+```php
+mixed HelperTreeCategoriesCore::getIdTree()
+```
 
 
 
@@ -764,7 +862,9 @@ Methods
 
 ### <a name="method-getInputName"></a>getInputName
 
-    mixed HelperTreeCategoriesCore::getInputName()
+```php
+mixed HelperTreeCategoriesCore::getInputName()
+```
 
 
 
@@ -778,7 +878,9 @@ Methods
 
 ### <a name="method-getLang"></a>getLang
 
-    mixed HelperTreeCategoriesCore::getLang()
+```php
+mixed HelperTreeCategoriesCore::getLang()
+```
 
 
 
@@ -792,7 +894,9 @@ Methods
 
 ### <a name="method-getNodeFolderTemplate"></a>getNodeFolderTemplate
 
-    mixed HelperTreeCategoriesCore::getNodeFolderTemplate()
+```php
+mixed HelperTreeCategoriesCore::getNodeFolderTemplate()
+```
 
 
 
@@ -806,7 +910,9 @@ Methods
 
 ### <a name="method-getNodeItemTemplate"></a>getNodeItemTemplate
 
-    mixed HelperTreeCategoriesCore::getNodeItemTemplate()
+```php
+mixed HelperTreeCategoriesCore::getNodeItemTemplate()
+```
 
 
 
@@ -820,7 +926,9 @@ Methods
 
 ### <a name="method-getRootCategory"></a>getRootCategory
 
-    mixed HelperTreeCategoriesCore::getRootCategory()
+```php
+mixed HelperTreeCategoriesCore::getRootCategory()
+```
 
 
 
@@ -834,7 +942,9 @@ Methods
 
 ### <a name="method-getSelectedCategories"></a>getSelectedCategories
 
-    mixed HelperTreeCategoriesCore::getSelectedCategories()
+```php
+mixed HelperTreeCategoriesCore::getSelectedCategories()
+```
 
 
 
@@ -848,7 +958,9 @@ Methods
 
 ### <a name="method-getShop"></a>getShop
 
-    mixed HelperTreeCategoriesCore::getShop()
+```php
+mixed HelperTreeCategoriesCore::getShop()
+```
 
 
 
@@ -862,7 +974,9 @@ Methods
 
 ### <a name="method-getTemplate"></a>getTemplate
 
-    mixed HelperTreeCategoriesCore::getTemplate()
+```php
+mixed HelperTreeCategoriesCore::getTemplate()
+```
 
 
 
@@ -876,7 +990,9 @@ Methods
 
 ### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
-    string HelperTreeCategoriesCore::getTemplateDirectory()
+```php
+string HelperTreeCategoriesCore::getTemplateDirectory()
+```
 
 
 
@@ -890,7 +1006,9 @@ Methods
 
 ### <a name="method-getTemplateFile"></a>getTemplateFile
 
-    mixed HelperTreeCategoriesCore::getTemplateFile($template)
+```php
+mixed HelperTreeCategoriesCore::getTemplateFile($template)
+```
 
 
 
@@ -907,7 +1025,9 @@ Methods
 
 ### <a name="method-getTitle"></a>getTitle
 
-    mixed HelperTreeCategoriesCore::getTitle()
+```php
+mixed HelperTreeCategoriesCore::getTitle()
+```
 
 
 
@@ -921,7 +1041,9 @@ Methods
 
 ### <a name="method-getToolbar"></a>getToolbar
 
-    mixed HelperTreeCategoriesCore::getToolbar()
+```php
+mixed HelperTreeCategoriesCore::getToolbar()
+```
 
 
 
@@ -935,7 +1057,9 @@ Methods
 
 ### <a name="method-removeActions"></a>removeActions
 
-    mixed HelperTreeCategoriesCore::removeActions()
+```php
+mixed HelperTreeCategoriesCore::removeActions()
+```
 
 
 
@@ -949,7 +1073,9 @@ Methods
 
 ### <a name="method-render"></a>render
 
-    mixed HelperTreeCategoriesCore::render($data)
+```php
+mixed HelperTreeCategoriesCore::render($data)
+```
 
 
 
@@ -966,7 +1092,9 @@ Methods
 
 ### <a name="method-renderNodes"></a>renderNodes
 
-    mixed HelperTreeCategoriesCore::renderNodes($data)
+```php
+mixed HelperTreeCategoriesCore::renderNodes($data)
+```
 
 
 
@@ -983,7 +1111,9 @@ Methods
 
 ### <a name="method-renderToolbar"></a>renderToolbar
 
-    mixed HelperTreeCategoriesCore::renderToolbar()
+```php
+mixed HelperTreeCategoriesCore::renderToolbar()
+```
 
 
 
@@ -997,7 +1127,9 @@ Methods
 
 ### <a name="method-setActions"></a>setActions
 
-    mixed HelperTreeCategoriesCore::setActions($value)
+```php
+mixed HelperTreeCategoriesCore::setActions($value)
+```
 
 
 
@@ -1014,7 +1146,9 @@ Methods
 
 ### <a name="method-setAttribute"></a>setAttribute
 
-    mixed HelperTreeCategoriesCore::setAttribute($name, $value)
+```php
+mixed HelperTreeCategoriesCore::setAttribute($name, $value)
+```
 
 
 
@@ -1032,7 +1166,9 @@ Methods
 
 ### <a name="method-setAttributes"></a>setAttributes
 
-    mixed HelperTreeCategoriesCore::setAttributes($value)
+```php
+mixed HelperTreeCategoriesCore::setAttributes($value)
+```
 
 
 
@@ -1049,7 +1185,9 @@ Methods
 
 ### <a name="method-setChildrenOnly"></a>setChildrenOnly
 
-    mixed HelperTreeCategoriesCore::setChildrenOnly($value)
+```php
+mixed HelperTreeCategoriesCore::setChildrenOnly($value)
+```
 
 
 
@@ -1066,7 +1204,9 @@ Methods
 
 ### <a name="method-setContext"></a>setContext
 
-    mixed HelperTreeCategoriesCore::setContext($value)
+```php
+mixed HelperTreeCategoriesCore::setContext($value)
+```
 
 
 
@@ -1083,7 +1223,9 @@ Methods
 
 ### <a name="method-setData"></a>setData
 
-    mixed HelperTreeCategoriesCore::setData($value)
+```php
+mixed HelperTreeCategoriesCore::setData($value)
+```
 
 
 
@@ -1100,7 +1242,9 @@ Methods
 
 ### <a name="method-setDataSearch"></a>setDataSearch
 
-    mixed HelperTreeCategoriesCore::setDataSearch($value)
+```php
+mixed HelperTreeCategoriesCore::setDataSearch($value)
+```
 
 
 
@@ -1117,7 +1261,9 @@ Methods
 
 ### <a name="method-setDisabledCategories"></a>setDisabledCategories
 
-    mixed HelperTreeCategoriesCore::setDisabledCategories($value)
+```php
+mixed HelperTreeCategoriesCore::setDisabledCategories($value)
+```
 
 
 
@@ -1134,7 +1280,9 @@ Methods
 
 ### <a name="method-setFullTree"></a>setFullTree
 
-    mixed HelperTreeCategoriesCore::setFullTree($value)
+```php
+mixed HelperTreeCategoriesCore::setFullTree($value)
+```
 
 
 
@@ -1151,7 +1299,9 @@ Methods
 
 ### <a name="method-setHeaderTemplate"></a>setHeaderTemplate
 
-    mixed HelperTreeCategoriesCore::setHeaderTemplate($value)
+```php
+mixed HelperTreeCategoriesCore::setHeaderTemplate($value)
+```
 
 
 
@@ -1168,7 +1318,9 @@ Methods
 
 ### <a name="method-setId"></a>setId
 
-    mixed HelperTreeCategoriesCore::setId($value)
+```php
+mixed HelperTreeCategoriesCore::setId($value)
+```
 
 
 
@@ -1185,7 +1337,9 @@ Methods
 
 ### <a name="method-setIdTree"></a>setIdTree
 
-    mixed HelperTreeCategoriesCore::setIdTree($id_tree)
+```php
+mixed HelperTreeCategoriesCore::setIdTree($id_tree)
+```
 
 
 
@@ -1202,7 +1356,9 @@ Methods
 
 ### <a name="method-setInputName"></a>setInputName
 
-    mixed HelperTreeCategoriesCore::setInputName($value)
+```php
+mixed HelperTreeCategoriesCore::setInputName($value)
+```
 
 
 
@@ -1219,7 +1375,9 @@ Methods
 
 ### <a name="method-setLang"></a>setLang
 
-    mixed HelperTreeCategoriesCore::setLang($value)
+```php
+mixed HelperTreeCategoriesCore::setLang($value)
+```
 
 
 
@@ -1236,7 +1394,9 @@ Methods
 
 ### <a name="method-setNoJS"></a>setNoJS
 
-    mixed HelperTreeCategoriesCore::setNoJS($value)
+```php
+mixed HelperTreeCategoriesCore::setNoJS($value)
+```
 
 
 
@@ -1253,7 +1413,9 @@ Methods
 
 ### <a name="method-setNodeFolderTemplate"></a>setNodeFolderTemplate
 
-    mixed HelperTreeCategoriesCore::setNodeFolderTemplate($value)
+```php
+mixed HelperTreeCategoriesCore::setNodeFolderTemplate($value)
+```
 
 
 
@@ -1270,7 +1432,9 @@ Methods
 
 ### <a name="method-setNodeItemTemplate"></a>setNodeItemTemplate
 
-    mixed HelperTreeCategoriesCore::setNodeItemTemplate($value)
+```php
+mixed HelperTreeCategoriesCore::setNodeItemTemplate($value)
+```
 
 
 
@@ -1287,7 +1451,9 @@ Methods
 
 ### <a name="method-setRootCategory"></a>setRootCategory
 
-    mixed HelperTreeCategoriesCore::setRootCategory($value)
+```php
+mixed HelperTreeCategoriesCore::setRootCategory($value)
+```
 
 
 
@@ -1304,7 +1470,9 @@ Methods
 
 ### <a name="method-setSelectedCategories"></a>setSelectedCategories
 
-    mixed HelperTreeCategoriesCore::setSelectedCategories($value)
+```php
+mixed HelperTreeCategoriesCore::setSelectedCategories($value)
+```
 
 
 
@@ -1321,7 +1489,9 @@ Methods
 
 ### <a name="method-setShop"></a>setShop
 
-    mixed HelperTreeCategoriesCore::setShop($value)
+```php
+mixed HelperTreeCategoriesCore::setShop($value)
+```
 
 
 
@@ -1338,7 +1508,9 @@ Methods
 
 ### <a name="method-setTemplate"></a>setTemplate
 
-    mixed HelperTreeCategoriesCore::setTemplate($value)
+```php
+mixed HelperTreeCategoriesCore::setTemplate($value)
+```
 
 
 
@@ -1355,7 +1527,9 @@ Methods
 
 ### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
-    \Tree HelperTreeCategoriesCore::setTemplateDirectory($value)
+```php
+\Tree HelperTreeCategoriesCore::setTemplateDirectory($value)
+```
 
 
 
@@ -1372,7 +1546,9 @@ Methods
 
 ### <a name="method-setTitle"></a>setTitle
 
-    mixed HelperTreeCategoriesCore::setTitle($value)
+```php
+mixed HelperTreeCategoriesCore::setTitle($value)
+```
 
 
 
@@ -1389,7 +1565,9 @@ Methods
 
 ### <a name="method-setToolbar"></a>setToolbar
 
-    mixed HelperTreeCategoriesCore::setToolbar($value)
+```php
+mixed HelperTreeCategoriesCore::setToolbar($value)
+```
 
 
 
@@ -1406,7 +1584,9 @@ Methods
 
 ### <a name="method-setUseCheckBox"></a>setUseCheckBox
 
-    mixed HelperTreeCategoriesCore::setUseCheckBox($value)
+```php
+mixed HelperTreeCategoriesCore::setUseCheckBox($value)
+```
 
 
 
@@ -1423,7 +1603,9 @@ Methods
 
 ### <a name="method-setUseSearch"></a>setUseSearch
 
-    mixed HelperTreeCategoriesCore::setUseSearch($value)
+```php
+mixed HelperTreeCategoriesCore::setUseSearch($value)
+```
 
 
 
@@ -1440,7 +1622,9 @@ Methods
 
 ### <a name="method-setUseShopRestriction"></a>setUseShopRestriction
 
-    mixed HelperTreeCategoriesCore::setUseShopRestriction($value)
+```php
+mixed HelperTreeCategoriesCore::setUseShopRestriction($value)
+```
 
 
 
@@ -1457,7 +1641,9 @@ Methods
 
 ### <a name="method-useCheckBox"></a>useCheckBox
 
-    mixed HelperTreeCategoriesCore::useCheckBox()
+```php
+mixed HelperTreeCategoriesCore::useCheckBox()
+```
 
 
 
@@ -1471,7 +1657,9 @@ Methods
 
 ### <a name="method-useInput"></a>useInput
 
-    mixed HelperTreeCategoriesCore::useInput()
+```php
+mixed HelperTreeCategoriesCore::useInput()
+```
 
 
 
@@ -1485,7 +1673,9 @@ Methods
 
 ### <a name="method-useSearch"></a>useSearch
 
-    mixed HelperTreeCategoriesCore::useSearch()
+```php
+mixed HelperTreeCategoriesCore::useSearch()
+```
 
 
 
@@ -1499,7 +1689,9 @@ Methods
 
 ### <a name="method-useShopRestriction"></a>useShopRestriction
 
-    mixed HelperTreeCategoriesCore::useShopRestriction()
+```php
+mixed HelperTreeCategoriesCore::useShopRestriction()
+```
 
 
 
@@ -1513,7 +1705,9 @@ Methods
 
 ### <a name="method-useToolbar"></a>useToolbar
 
-    mixed HelperTreeCategoriesCore::useToolbar()
+```php
+mixed HelperTreeCategoriesCore::useToolbar()
+```
 
 
 

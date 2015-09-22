@@ -1,5 +1,6 @@
 File config/alias.php
 =========
+
 Source: [config/alias.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/alias.php)
 
 

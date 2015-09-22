@@ -9,14 +9,16 @@ Class AdminTranslationsControllerCore
 * Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminTranslationsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEFAULT_THEME_NAME](#constant-DEFAULT_THEME_NAME)
 * [TEXTAREA_SIZED](#constant-TEXTAREA_SIZED)
 
-Properties
-----------
+### Properties
 
 * [$all_iso_lang](#property-$all_iso_lang)
 * [$ignore_folder](#property-$ignore_folder)
@@ -32,8 +34,8 @@ Properties
 * [$translations_informations](#property-$translations_informations)
 * [$type_selected](#property-$type_selected)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [addNewTabs](#method-addNewTabs)
 * [changeModulesKeyTranslation](#method-changeModulesKeyTranslation)
@@ -106,7 +108,9 @@ Constants
 
 ### <a name="constant-DEFAULT_THEME_NAME"></a>DEFAULT_THEME_NAME
 
-    const DEFAULT_THEME_NAME = _PS_DEFAULT_THEME_NAME_
+```php
+const DEFAULT_THEME_NAME = _PS_DEFAULT_THEME_NAME_
+```
 
 Name of theme by default
 
@@ -117,7 +121,9 @@ Name of theme by default
 
 ### <a name="constant-TEXTAREA_SIZED"></a>TEXTAREA_SIZED
 
-    const TEXTAREA_SIZED = 70
+```php
+const TEXTAREA_SIZED = 70
+```
 
 
 
@@ -132,7 +138,9 @@ Properties
 
 ### <a name="property-$all_iso_lang"></a>$all_iso_lang
 
-    protected array $all_iso_lang = array()
+```php
+protected array $all_iso_lang = array()
+```
 
 
 
@@ -144,7 +152,9 @@ Properties
 
 ### <a name="property-$ignore_folder"></a>$ignore_folder
 
-    protected array $ignore_folder = array('.', '..', '.svn', '.git', '.htaccess', 'index.php')
+```php
+protected array $ignore_folder = array('.', '..', '.svn', '.git', '.htaccess', 'index.php')
+```
 
 
 
@@ -157,7 +167,9 @@ Properties
 
 ### <a name="property-$lang_selected"></a>$lang_selected
 
-    protected \Language $lang_selected
+```php
+protected \Language $lang_selected
+```
 
 
 
@@ -169,7 +181,9 @@ Properties
 
 ### <a name="property-$languages"></a>$languages
 
-    protected array $languages
+```php
+protected array $languages
+```
 
 
 
@@ -181,7 +195,9 @@ Properties
 
 ### <a name="property-$link_lang_pack"></a>$link_lang_pack
 
-    protected string $link_lang_pack = 'http://www.prestashop.com/download/lang_packs/get_each_language_pack.php'
+```php
+protected string $link_lang_pack = 'http://www.prestashop.com/download/lang_packs/get_each_language_pack.php'
+```
 
 
 
@@ -193,7 +209,9 @@ Properties
 
 ### <a name="property-$missing_translations"></a>$missing_translations
 
-    protected integer $missing_translations
+```php
+protected integer $missing_translations
+```
 
 
 
@@ -205,7 +223,9 @@ Properties
 
 ### <a name="property-$modules_translations"></a>$modules_translations
 
-    protected array $modules_translations = array()
+```php
+protected array $modules_translations = array()
+```
 
 
 
@@ -217,7 +237,9 @@ Properties
 
 ### <a name="property-$post_limit_exceed"></a>$post_limit_exceed
 
-    protected boolean $post_limit_exceed = false
+```php
+protected boolean $post_limit_exceed = false
+```
 
 
 
@@ -229,7 +251,9 @@ Properties
 
 ### <a name="property-$theme_selected"></a>$theme_selected
 
-    protected string $theme_selected
+```php
+protected string $theme_selected
+```
 
 
 
@@ -241,7 +265,9 @@ Properties
 
 ### <a name="property-$themes"></a>$themes
 
-    protected array $themes
+```php
+protected array $themes
+```
 
 
 
@@ -253,7 +279,9 @@ Properties
 
 ### <a name="property-$total_expression"></a>$total_expression
 
-    protected integer $total_expression
+```php
+protected integer $total_expression
+```
 
 
 
@@ -265,7 +293,9 @@ Properties
 
 ### <a name="property-$translations_informations"></a>$translations_informations
 
-    protected array $translations_informations = array()
+```php
+protected array $translations_informations = array()
+```
 
 
 
@@ -277,7 +307,9 @@ Properties
 
 ### <a name="property-$type_selected"></a>$type_selected
 
-    protected string $type_selected
+```php
+protected string $type_selected
+```
 
 
 
@@ -293,7 +325,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminTranslationsControllerCore::__construct()
+```php
+mixed AdminTranslationsControllerCore::__construct()
+```
 
 
 
@@ -307,7 +341,9 @@ Methods
 
 ### <a name="method-addNewTabs"></a>addNewTabs
 
-    array AdminTranslationsControllerCore::addNewTabs(array $iso_code, array $files)
+```php
+array AdminTranslationsControllerCore::addNewTabs(array $iso_code, array $files)
+```
 
 Add new translations tabs by code ISO
 
@@ -326,7 +362,9 @@ Add new translations tabs by code ISO
 
 ### <a name="method-changeModulesKeyTranslation"></a>changeModulesKeyTranslation
 
-    boolean AdminTranslationsControllerCore::changeModulesKeyTranslation(string $path, string $theme_from, string $theme_to)
+```php
+boolean AdminTranslationsControllerCore::changeModulesKeyTranslation(string $path, string $theme_from, string $theme_to)
+```
 
 Change the key translation to according it to theme name.
 
@@ -345,7 +383,9 @@ Change the key translation to according it to theme name.
 
 ### <a name="method-checkAndAddMailsFiles"></a>checkAndAddMailsFiles
 
-    mixed AdminTranslationsControllerCore::checkAndAddMailsFiles($iso_code, $files_list)
+```php
+mixed AdminTranslationsControllerCore::checkAndAddMailsFiles($iso_code, $files_list)
+```
 
 
 
@@ -364,7 +404,9 @@ Change the key translation to according it to theme name.
 
 ### <a name="method-checkAndAddThemesFiles"></a>checkAndAddThemesFiles
 
-    mixed AdminTranslationsControllerCore::checkAndAddThemesFiles(array $files, array $themes_selected)
+```php
+mixed AdminTranslationsControllerCore::checkAndAddThemesFiles(array $files, array $themes_selected)
+```
 
 Move theme translations in selected themes
 
@@ -382,7 +424,9 @@ Move theme translations in selected themes
 
 ### <a name="method-checkDirAndCreate"></a>checkDirAndCreate
 
-    boolean AdminTranslationsControllerCore::checkDirAndCreate(string $dest)
+```php
+boolean AdminTranslationsControllerCore::checkDirAndCreate(string $dest)
+```
 
 This method is only used by AdminTranslations::submitCopyLang().
 
@@ -402,7 +446,9 @@ We have to change the translation key and rewrite the file.
 
 ### <a name="method-checkIfKeyUseSprintf"></a>checkIfKeyUseSprintf
 
-    array|boolean AdminTranslationsControllerCore::checkIfKeyUseSprintf($key)
+```php
+array|boolean AdminTranslationsControllerCore::checkIfKeyUseSprintf($key)
+```
 
 Find sentence which use %d, %s, %%, %1$d, %1$s.
 
@@ -419,7 +465,9 @@ Find sentence which use %d, %s, %%, %1$d, %1$s.
 
 ### <a name="method-checkTranslationFile"></a>checkTranslationFile
 
-    mixed AdminTranslationsControllerCore::checkTranslationFile($content)
+```php
+mixed AdminTranslationsControllerCore::checkTranslationFile($content)
+```
 
 
 
@@ -437,7 +485,9 @@ Find sentence which use %d, %s, %%, %1$d, %1$s.
 
 ### <a name="method-cleanMailContent"></a>cleanMailContent
 
-    mixed AdminTranslationsControllerCore::cleanMailContent($content, $lang, $title)
+```php
+mixed AdminTranslationsControllerCore::cleanMailContent($content, $lang, $title)
+```
 
 
 
@@ -456,7 +506,9 @@ Find sentence which use %d, %s, %%, %1$d, %1$s.
 
 ### <a name="method-clearModuleFiles"></a>clearModuleFiles
 
-    array AdminTranslationsControllerCore::clearModuleFiles($files, string $type_clear, string $path)
+```php
+array AdminTranslationsControllerCore::clearModuleFiles($files, string $type_clear, string $path)
+```
 
 Clear the list of module file by type (file or directory)
 
@@ -475,7 +527,9 @@ Clear the list of module file by type (file or directory)
 
 ### <a name="method-copyMailFilesForAllLanguages"></a>copyMailFilesForAllLanguages
 
-    mixed AdminTranslationsControllerCore::copyMailFilesForAllLanguages()
+```php
+mixed AdminTranslationsControllerCore::copyMailFilesForAllLanguages()
+```
 
 
 
@@ -489,7 +543,9 @@ Clear the list of module file by type (file or directory)
 
 ### <a name="method-displayLimitPostWarning"></a>displayLimitPostWarning
 
-    mixed AdminTranslationsControllerCore::displayLimitPostWarning($count)
+```php
+mixed AdminTranslationsControllerCore::displayLimitPostWarning($count)
+```
 
 
 
@@ -506,7 +562,9 @@ Clear the list of module file by type (file or directory)
 
 ### <a name="method-displayMailBlockHtml"></a>displayMailBlockHtml
 
-    string AdminTranslationsControllerCore::displayMailBlockHtml(array $content, string $lang, string $url, string $mail_name, string $group_name, string|boolean $name_for_module)
+```php
+string AdminTranslationsControllerCore::displayMailBlockHtml(array $content, string $lang, string $url, string $mail_name, string $group_name, string|boolean $name_for_module)
+```
 
 Just build the html structure for display html mails.
 
@@ -528,7 +586,9 @@ Just build the html structure for display html mails.
 
 ### <a name="method-displayMailBlockTxt"></a>displayMailBlockTxt
 
-    string AdminTranslationsControllerCore::displayMailBlockTxt(array $content, string $lang, string $mail_name, string $group_name, string|boolean $name_for_module)
+```php
+string AdminTranslationsControllerCore::displayMailBlockTxt(array $content, string $lang, string $mail_name, string $group_name, string|boolean $name_for_module)
+```
 
 Just build the html structure for display txt mails
 
@@ -549,7 +609,9 @@ Just build the html structure for display txt mails
 
 ### <a name="method-displayMailContent"></a>displayMailContent
 
-    string AdminTranslationsControllerCore::displayMailContent(array $mails, array $all_subject_mail, \Language $obj_lang, string $id_html, string $title, string|boolean $name_for_module)
+```php
+string AdminTranslationsControllerCore::displayMailContent(array $mails, array $all_subject_mail, \Language $obj_lang, string $id_html, string $title, string|boolean $name_for_module)
+```
 
 Display mails in html format.
 
@@ -571,7 +633,9 @@ This was create for factorize the html displaying
 
 ### <a name="method-displayMailEditor"></a>displayMailEditor
 
-    mixed AdminTranslationsControllerCore::displayMailEditor($content, $lang, $url, $mail_name, $group_name, $name_for_module)
+```php
+mixed AdminTranslationsControllerCore::displayMailEditor($content, $lang, $url, $mail_name, $group_name, $name_for_module)
+```
 
 
 
@@ -593,7 +657,9 @@ This was create for factorize the html displaying
 
 ### <a name="method-displayToggleButton"></a>displayToggleButton
 
-    mixed AdminTranslationsControllerCore::displayToggleButton($closed)
+```php
+mixed AdminTranslationsControllerCore::displayToggleButton($closed)
+```
 
 
 
@@ -610,7 +676,9 @@ This was create for factorize the html displaying
 
 ### <a name="method-exportTabs"></a>exportTabs
 
-    mixed AdminTranslationsControllerCore::exportTabs()
+```php
+mixed AdminTranslationsControllerCore::exportTabs()
+```
 
 
 
@@ -624,7 +692,9 @@ This was create for factorize the html displaying
 
 ### <a name="method-fileExists"></a>fileExists
 
-    mixed AdminTranslationsControllerCore::fileExists()
+```php
+mixed AdminTranslationsControllerCore::fileExists()
+```
 
 Include file $dir/$file and return the var $var declared in it.
 
@@ -640,7 +710,9 @@ return array : translations
 
 ### <a name="method-filesListToPaths"></a>filesListToPaths
 
-    array AdminTranslationsControllerCore::filesListToPaths(array $list)
+```php
+array AdminTranslationsControllerCore::filesListToPaths(array $list)
+```
 
 Turn the list returned by
 AdminTranslationsController::filterTranslationFiles()
@@ -661,7 +733,9 @@ Archive_Tar::extractList()
 
 ### <a name="method-filterTranslationFiles"></a>filterTranslationFiles
 
-    array AdminTranslationsControllerCore::filterTranslationFiles(array $list)
+```php
+array AdminTranslationsControllerCore::filterTranslationFiles(array $list)
+```
 
 Filter the translation files contained in a .gzip pack
 and return only the ones that we want.
@@ -682,7 +756,9 @@ are present on the shop (installed or not).
 
 ### <a name="method-findAndFillTranslations"></a>findAndFillTranslations
 
-    mixed AdminTranslationsControllerCore::findAndFillTranslations(array $files, string $theme_name, string $module_name, string|boolean $dir)
+```php
+mixed AdminTranslationsControllerCore::findAndFillTranslations(array $files, string $theme_name, string $module_name, string|boolean $dir)
+```
 
 This method get translation for each files of a module,
 compare with global $_MODULES array and fill AdminTranslations::modules_translations array
@@ -704,7 +780,9 @@ With key as English sentences and values as their iso code translations.
 
 ### <a name="method-findAndWriteTranslationsIntoFile"></a>findAndWriteTranslationsIntoFile
 
-    mixed AdminTranslationsControllerCore::findAndWriteTranslationsIntoFile(string $file_name, array $files, string $theme_name, string $module_name, string|boolean $dir)
+```php
+mixed AdminTranslationsControllerCore::findAndWriteTranslationsIntoFile(string $file_name, array $files, string $theme_name, string $module_name, string|boolean $dir)
+```
 
 This method check each file (tpl or php file), get its sentences to translate,
 compare with posted values and write in iso code translation file.
@@ -726,7 +804,9 @@ compare with posted values and write in iso code translation file.
 
 ### <a name="method-getAllModuleFiles"></a>getAllModuleFiles
 
-    array AdminTranslationsControllerCore::getAllModuleFiles(array $modules, string|null $root_dir, string $lang, boolean $is_default)
+```php
+array AdminTranslationsControllerCore::getAllModuleFiles(array $modules, string|null $root_dir, string $lang, boolean $is_default)
+```
 
 This method get translation in each translations file.
 
@@ -747,7 +827,9 @@ The file depend on $lang param.
 
 ### <a name="method-getFileToParseByTypeTranslation"></a>getFileToParseByTypeTranslation
 
-    array AdminTranslationsControllerCore::getFileToParseByTypeTranslation()
+```php
+array AdminTranslationsControllerCore::getFileToParseByTypeTranslation()
+```
 
 Get list of files which must be parsed by directory and by type of translations
 
@@ -761,7 +843,9 @@ Get list of files which must be parsed by directory and by type of translations
 
 ### <a name="method-getInformations"></a>getInformations
 
-    mixed AdminTranslationsControllerCore::getInformations()
+```php
+mixed AdminTranslationsControllerCore::getInformations()
+```
 
 Get all informations on : languages, theme and the translation type.
 
@@ -775,7 +859,9 @@ Get all informations on : languages, theme and the translation type.
 
 ### <a name="method-getListModules"></a>getListModules
 
-    array AdminTranslationsControllerCore::getListModules()
+```php
+array AdminTranslationsControllerCore::getListModules()
+```
 
 Check if directory and file exist and return an list of modules
 
@@ -789,7 +875,9 @@ Check if directory and file exist and return an list of modules
 
 ### <a name="method-getMailContent"></a>getMailContent
 
-    array AdminTranslationsControllerCore::getMailContent(string $dir, string $file)
+```php
+array AdminTranslationsControllerCore::getMailContent(string $dir, string $file)
+```
 
 Get content of the mail file.
 
@@ -807,7 +895,9 @@ Get content of the mail file.
 
 ### <a name="method-getMailFiles"></a>getMailFiles
 
-    array AdminTranslationsControllerCore::getMailFiles(string $dir, string $group_name)
+```php
+array AdminTranslationsControllerCore::getMailFiles(string $dir, string $group_name)
+```
 
 Get each informations for each mails found in the folder $dir.
 
@@ -825,7 +915,9 @@ Get each informations for each mails found in the folder $dir.
 
 ### <a name="method-getMailPattern"></a>getMailPattern
 
-    mixed AdminTranslationsControllerCore::getMailPattern()
+```php
+mixed AdminTranslationsControllerCore::getMailPattern()
+```
 
 
 
@@ -839,7 +931,9 @@ Get each informations for each mails found in the folder $dir.
 
 ### <a name="method-getModuleTranslations"></a>getModuleTranslations
 
-    mixed AdminTranslationsControllerCore::getModuleTranslations()
+```php
+mixed AdminTranslationsControllerCore::getModuleTranslations()
+```
 
 This method merge each arrays of modules translation in the array of modules translations
 
@@ -853,7 +947,9 @@ This method merge each arrays of modules translation in the array of modules tra
 
 ### <a name="method-getModulesHasMails"></a>getModulesHasMails
 
-    array AdminTranslationsControllerCore::getModulesHasMails(boolean $with_module_name)
+```php
+array AdminTranslationsControllerCore::getModulesHasMails(boolean $with_module_name)
+```
 
 Check in each module if contains mails folder.
 
@@ -870,7 +966,9 @@ Check in each module if contains mails folder.
 
 ### <a name="method-getModulesHasPDF"></a>getModulesHasPDF
 
-    array AdminTranslationsControllerCore::getModulesHasPDF(boolean $classes)
+```php
+array AdminTranslationsControllerCore::getModulesHasPDF(boolean $classes)
+```
 
 Check in each module if contains pdf folder.
 
@@ -887,7 +985,9 @@ Check in each module if contains pdf folder.
 
 ### <a name="method-getSubjectMail"></a>getSubjectMail
 
-    array AdminTranslationsControllerCore::getSubjectMail($dir, $file, $subject_mail)
+```php
+array AdminTranslationsControllerCore::getSubjectMail($dir, $file, $subject_mail)
+```
 
 Get list of subjects of mails
 
@@ -906,7 +1006,9 @@ Get list of subjects of mails
 
 ### <a name="method-getSubjectMailContent"></a>getSubjectMailContent
 
-    array AdminTranslationsControllerCore::getSubjectMailContent($directory)
+```php
+array AdminTranslationsControllerCore::getSubjectMailContent($directory)
+```
 
 
 
@@ -923,7 +1025,9 @@ Get list of subjects of mails
 
 ### <a name="method-getTinyMCEForMails"></a>getTinyMCEForMails
 
-    mixed AdminTranslationsControllerCore::getTinyMCEForMails($iso_lang)
+```php
+mixed AdminTranslationsControllerCore::getTinyMCEForMails($iso_lang)
+```
 
 
 
@@ -940,7 +1044,9 @@ Get list of subjects of mails
 
 ### <a name="method-getTranslationsInformations"></a>getTranslationsInformations
 
-    mixed AdminTranslationsControllerCore::getTranslationsInformations()
+```php
+mixed AdminTranslationsControllerCore::getTranslationsInformations()
+```
 
 Get all translations informations for all type of translations
 
@@ -961,7 +1067,9 @@ array(
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminTranslationsControllerCore::initContent()
+```php
+mixed AdminTranslationsControllerCore::initContent()
+```
 
 AdminController::initContent() override
 
@@ -975,7 +1083,9 @@ AdminController::initContent() override
 
 ### <a name="method-initForm"></a>initForm
 
-    mixed AdminTranslationsControllerCore::initForm($method_name)
+```php
+mixed AdminTranslationsControllerCore::initForm($method_name)
+```
 
 This function create vars by default and call the good method for generate form
 
@@ -992,7 +1102,9 @@ This function create vars by default and call the good method for generate form
 
 ### <a name="method-initFormBack"></a>initFormBack
 
-    mixed AdminTranslationsControllerCore::initFormBack()
+```php
+mixed AdminTranslationsControllerCore::initFormBack()
+```
 
 This method generate the form for back translations
 
@@ -1006,7 +1118,9 @@ This method generate the form for back translations
 
 ### <a name="method-initFormErrors"></a>initFormErrors
 
-    mixed AdminTranslationsControllerCore::initFormErrors()
+```php
+mixed AdminTranslationsControllerCore::initFormErrors()
+```
 
 This method generate the form for errors translations
 
@@ -1020,7 +1134,9 @@ This method generate the form for errors translations
 
 ### <a name="method-initFormFields"></a>initFormFields
 
-    mixed AdminTranslationsControllerCore::initFormFields()
+```php
+mixed AdminTranslationsControllerCore::initFormFields()
+```
 
 This method generate the form for fields translations
 
@@ -1034,7 +1150,9 @@ This method generate the form for fields translations
 
 ### <a name="method-initFormFront"></a>initFormFront
 
-    mixed AdminTranslationsControllerCore::initFormFront()
+```php
+mixed AdminTranslationsControllerCore::initFormFront()
+```
 
 This method generate the form for front translations
 
@@ -1048,7 +1166,9 @@ This method generate the form for front translations
 
 ### <a name="method-initFormMails"></a>initFormMails
 
-    array|string AdminTranslationsControllerCore::initFormMails(boolean $no_display)
+```php
+array|string AdminTranslationsControllerCore::initFormMails(boolean $no_display)
+```
 
 This method generate the form for mails translations
 
@@ -1065,7 +1185,9 @@ This method generate the form for mails translations
 
 ### <a name="method-initFormModules"></a>initFormModules
 
-    mixed AdminTranslationsControllerCore::initFormModules()
+```php
+mixed AdminTranslationsControllerCore::initFormModules()
+```
 
 This method generate the form for modules translations
 
@@ -1079,7 +1201,9 @@ This method generate the form for modules translations
 
 ### <a name="method-initFormPDF"></a>initFormPDF
 
-    mixed AdminTranslationsControllerCore::initFormPDF()
+```php
+mixed AdminTranslationsControllerCore::initFormPDF()
+```
 
 This method generate the form for PDF translations
 
@@ -1093,7 +1217,9 @@ This method generate the form for PDF translations
 
 ### <a name="method-initMain"></a>initMain
 
-    mixed AdminTranslationsControllerCore::initMain()
+```php
+mixed AdminTranslationsControllerCore::initMain()
+```
 
 Generate the Main page
 
@@ -1107,7 +1233,9 @@ Generate the Main page
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminTranslationsControllerCore::initToolbar()
+```php
+mixed AdminTranslationsControllerCore::initToolbar()
+```
 
 AdminController::initToolbar() override
 
@@ -1121,7 +1249,9 @@ AdminController::initToolbar() override
 
 ### <a name="method-listFiles"></a>listFiles
 
-    array AdminTranslationsControllerCore::listFiles(string $dir, array $list, string $file_ext)
+```php
+array AdminTranslationsControllerCore::listFiles(string $dir, array $list, string $file_ext)
+```
 
 Recursively list files in directory $dir
 
@@ -1140,7 +1270,9 @@ Recursively list files in directory $dir
 
 ### <a name="method-parsePdfClass"></a>parsePdfClass
 
-    array AdminTranslationsControllerCore::parsePdfClass(string $file_path, string $file_type, array $lang_array, string $tab, array $tabs_array, array $count_missing)
+```php
+array AdminTranslationsControllerCore::parsePdfClass(string $file_path, string $file_type, array $lang_array, string $tab, array $tabs_array, array $count_missing)
+```
 
 Parse PDF class
 
@@ -1162,7 +1294,9 @@ Parse PDF class
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminTranslationsControllerCore::postProcess()
+```php
+mixed AdminTranslationsControllerCore::postProcess()
+```
 
 AdminController::postProcess() override
 
@@ -1176,7 +1310,9 @@ AdminController::postProcess() override
 
 ### <a name="method-recursiveGetModuleFiles"></a>recursiveGetModuleFiles
 
-    mixed AdminTranslationsControllerCore::recursiveGetModuleFiles(string $path, array $array_files, string $module_name, string $lang_file, boolean $is_default)
+```php
+mixed AdminTranslationsControllerCore::recursiveGetModuleFiles(string $path, array $array_files, string $module_name, string $lang_file, boolean $is_default)
+```
 
 This get files to translate in module directory.
 
@@ -1197,7 +1333,9 @@ Recursive method allow to get each files for a module no matter his depth.
 
 ### <a name="method-redirect"></a>redirect
 
-    mixed AdminTranslationsControllerCore::redirect(boolean $save_and_stay, boolean $conf)
+```php
+mixed AdminTranslationsControllerCore::redirect(boolean $save_and_stay, boolean $conf)
+```
 
 This method redirect in the translation main page or in the translation page
 
@@ -1215,7 +1353,9 @@ This method redirect in the translation main page or in the translation page
 
 ### <a name="method-renderKpis"></a>renderKpis
 
-    mixed AdminTranslationsControllerCore::renderKpis()
+```php
+mixed AdminTranslationsControllerCore::renderKpis()
+```
 
 
 
@@ -1229,7 +1369,9 @@ This method redirect in the translation main page or in the translation page
 
 ### <a name="method-setTypeSelected"></a>setTypeSelected
 
-    mixed AdminTranslationsControllerCore::setTypeSelected($type_selected)
+```php
+mixed AdminTranslationsControllerCore::setTypeSelected($type_selected)
+```
 
 
 
@@ -1246,7 +1388,9 @@ This method redirect in the translation main page or in the translation page
 
 ### <a name="method-submitAddLang"></a>submitAddLang
 
-    mixed AdminTranslationsControllerCore::submitAddLang()
+```php
+mixed AdminTranslationsControllerCore::submitAddLang()
+```
 
 
 
@@ -1260,7 +1404,9 @@ This method redirect in the translation main page or in the translation page
 
 ### <a name="method-submitCopyLang"></a>submitCopyLang
 
-    mixed AdminTranslationsControllerCore::submitCopyLang()
+```php
+mixed AdminTranslationsControllerCore::submitCopyLang()
+```
 
 
 
@@ -1274,7 +1420,9 @@ This method redirect in the translation main page or in the translation page
 
 ### <a name="method-submitExportLang"></a>submitExportLang
 
-    mixed AdminTranslationsControllerCore::submitExportLang()
+```php
+mixed AdminTranslationsControllerCore::submitExportLang()
+```
 
 
 
@@ -1288,7 +1436,9 @@ This method redirect in the translation main page or in the translation page
 
 ### <a name="method-submitImportLang"></a>submitImportLang
 
-    mixed AdminTranslationsControllerCore::submitImportLang()
+```php
+mixed AdminTranslationsControllerCore::submitImportLang()
+```
 
 
 
@@ -1302,7 +1452,9 @@ This method redirect in the translation main page or in the translation page
 
 ### <a name="method-submitTranslationsMails"></a>submitTranslationsMails
 
-    mixed AdminTranslationsControllerCore::submitTranslationsMails()
+```php
+mixed AdminTranslationsControllerCore::submitTranslationsMails()
+```
 
 This method is used to write translation for mails.
 
@@ -1318,7 +1470,9 @@ and mails files.
 
 ### <a name="method-theme_exists"></a>theme_exists
 
-    boolean AdminTranslationsControllerCore::theme_exists(string $theme)
+```php
+boolean AdminTranslationsControllerCore::theme_exists(string $theme)
+```
 
 Checks if theme exists
 
@@ -1335,7 +1489,9 @@ Checks if theme exists
 
 ### <a name="method-userParseFile"></a>userParseFile
 
-    array AdminTranslationsControllerCore::userParseFile($content, $type_translation, string|boolean $type_file, string $module_name)
+```php
+array AdminTranslationsControllerCore::userParseFile($content, $type_translation, string|boolean $type_file, string $module_name)
+```
 
 This method parse a file by type of translation and type file
 
@@ -1355,7 +1511,9 @@ This method parse a file by type of translation and type file
 
 ### <a name="method-writeSubjectTranslationFile"></a>writeSubjectTranslationFile
 
-    mixed AdminTranslationsControllerCore::writeSubjectTranslationFile($sub, $path)
+```php
+mixed AdminTranslationsControllerCore::writeSubjectTranslationFile($sub, $path)
+```
 
 
 
@@ -1373,7 +1531,9 @@ This method parse a file by type of translation and type file
 
 ### <a name="method-writeTranslationFile"></a>writeTranslationFile
 
-    mixed AdminTranslationsControllerCore::writeTranslationFile(boolean $override_file)
+```php
+mixed AdminTranslationsControllerCore::writeTranslationFile(boolean $override_file)
+```
 
 Read the Post var and write the translation file.
 

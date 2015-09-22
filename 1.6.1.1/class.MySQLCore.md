@@ -10,15 +10,17 @@ Class MySQLCore
 * Source: [classes/db/MySQL.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/MySQL.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$link](#property-$link)
 * [$result](#property-$result)
 
-Methods
--------
+### Methods
+
 * [Affected_Rows](#method-Affected_Rows)
 * [Insert_ID](#method-Insert_ID)
 * [_escape](#method-_escape)
@@ -49,7 +51,9 @@ Properties
 
 ### <a name="property-$link"></a>$link
 
-    protected resource $link
+```php
+protected resource $link
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$result"></a>$result
 
-    protected mixed $result
+```php
+protected mixed $result
+```
 
 
 
@@ -77,7 +83,9 @@ Methods
 
 ### <a name="method-Affected_Rows"></a>Affected_Rows
 
-    integer MySQLCore::Affected_Rows()
+```php
+integer MySQLCore::Affected_Rows()
+```
 
 Return the number of rows affected by the last SQL query.
 
@@ -91,7 +99,9 @@ Return the number of rows affected by the last SQL query.
 
 ### <a name="method-Insert_ID"></a>Insert_ID
 
-    integer MySQLCore::Insert_ID()
+```php
+integer MySQLCore::Insert_ID()
+```
 
 Returns ID of the last inserted row.
 
@@ -105,7 +115,9 @@ Returns ID of the last inserted row.
 
 ### <a name="method-_escape"></a>_escape
 
-    string MySQLCore::_escape(string $str)
+```php
+string MySQLCore::_escape(string $str)
+```
 
 Escapes illegal characters in a string.
 
@@ -122,7 +134,9 @@ Escapes illegal characters in a string.
 
 ### <a name="method-_numRows"></a>_numRows
 
-    integer MySQLCore::_numRows(resource $result)
+```php
+integer MySQLCore::_numRows(resource $result)
+```
 
 Returns the next row from the result set.
 
@@ -139,7 +153,9 @@ Returns the next row from the result set.
 
 ### <a name="method-_query"></a>_query
 
-    resource MySQLCore::_query(string $sql)
+```php
+resource MySQLCore::_query(string $sql)
+```
 
 Executes an SQL statement, returning a result set as a result resource object.
 
@@ -156,7 +172,9 @@ Executes an SQL statement, returning a result set as a result resource object.
 
 ### <a name="method-checkAutoIncrement"></a>checkAutoIncrement
 
-    boolean MySQLCore::checkAutoIncrement(string $server, string $user, string $pwd)
+```php
+boolean MySQLCore::checkAutoIncrement(string $server, string $user, string $pwd)
+```
 
 Checks if auto increment value and offset is 1
 
@@ -176,7 +194,9 @@ Checks if auto increment value and offset is 1
 
 ### <a name="method-checkCreatePrivilege"></a>checkCreatePrivilege
 
-    boolean|string MySQLCore::checkCreatePrivilege(string $server, string $user, string $pwd, string $db, string $prefix, string|null $engine)
+```php
+boolean|string MySQLCore::checkCreatePrivilege(string $server, string $user, string $pwd, string $db, string $prefix, string|null $engine)
+```
 
 Tries to connect to the database and create a table (checking creation privileges)
 
@@ -199,7 +219,9 @@ Tries to connect to the database and create a table (checking creation privilege
 
 ### <a name="method-connect"></a>connect
 
-    resource MySQLCore::connect()
+```php
+resource MySQLCore::connect()
+```
 
 Tries to connect to the database
 
@@ -213,7 +235,9 @@ Tries to connect to the database
 
 ### <a name="method-createDatabase"></a>createDatabase
 
-    boolean|resource MySQLCore::createDatabase(string $host, string $user, string $password, string $dbname, boolean $dropit)
+```php
+boolean|resource MySQLCore::createDatabase(string $host, string $user, string $password, string $dbname, boolean $dropit)
+```
 
 Tries to connect and create a new database
 
@@ -235,7 +259,9 @@ Tries to connect and create a new database
 
 ### <a name="method-disconnect"></a>disconnect
 
-    mixed MySQLCore::disconnect()
+```php
+mixed MySQLCore::disconnect()
+```
 
 Destroys the database connection link
 
@@ -249,7 +275,9 @@ Destroys the database connection link
 
 ### <a name="method-getAll"></a>getAll
 
-    array MySQLCore::getAll(boolean|resource $result)
+```php
+array MySQLCore::getAll(boolean|resource $result)
+```
 
 Returns all rows from the result set.
 
@@ -266,7 +294,9 @@ Returns all rows from the result set.
 
 ### <a name="method-getBestEngine"></a>getBestEngine
 
-    string MySQLCore::getBestEngine()
+```php
+string MySQLCore::getBestEngine()
+```
 
 Selects best table engine.
 
@@ -280,7 +310,9 @@ Selects best table engine.
 
 ### <a name="method-getMsgError"></a>getMsgError
 
-    string MySQLCore::getMsgError(boolean $query)
+```php
+string MySQLCore::getMsgError(boolean $query)
+```
 
 Returns error message.
 
@@ -297,7 +329,9 @@ Returns error message.
 
 ### <a name="method-getNumberError"></a>getNumberError
 
-    integer MySQLCore::getNumberError()
+```php
+integer MySQLCore::getNumberError()
+```
 
 Returns error code.
 
@@ -311,7 +345,9 @@ Returns error code.
 
 ### <a name="method-getVersion"></a>getVersion
 
-    string MySQLCore::getVersion()
+```php
+string MySQLCore::getVersion()
+```
 
 Returns database server version.
 
@@ -325,7 +361,9 @@ Returns database server version.
 
 ### <a name="method-hasTableWithSamePrefix"></a>hasTableWithSamePrefix
 
-    boolean MySQLCore::hasTableWithSamePrefix(string $server, string $user, string $pwd, string $db, string $prefix)
+```php
+boolean MySQLCore::hasTableWithSamePrefix(string $server, string $user, string $pwd, string $db, string $prefix)
+```
 
 Try a connection to the database and check if at least one table with same prefix exists
 
@@ -347,7 +385,9 @@ Try a connection to the database and check if at least one table with same prefi
 
 ### <a name="method-nextRow"></a>nextRow
 
-    array|boolean MySQLCore::nextRow(boolean|resource $result)
+```php
+array|boolean MySQLCore::nextRow(boolean|resource $result)
+```
 
 Returns the next row from the result set.
 
@@ -364,7 +404,9 @@ Returns the next row from the result set.
 
 ### <a name="method-set_db"></a>set_db
 
-    boolean MySQLCore::set_db(string $db_name)
+```php
+boolean MySQLCore::set_db(string $db_name)
+```
 
 Switches to a different database.
 
@@ -381,7 +423,9 @@ Switches to a different database.
 
 ### <a name="method-tryToConnect"></a>tryToConnect
 
-    integer MySQLCore::tryToConnect(string $server, string $user, string $pwd, string $db, $new_db_link, string|null $engine, integer $timeout)
+```php
+integer MySQLCore::tryToConnect(string $server, string $user, string $pwd, string $db, $new_db_link, string|null $engine, integer $timeout)
+```
 
 Try a connection to the database
 
@@ -405,7 +449,9 @@ Try a connection to the database
 
 ### <a name="method-tryUTF8"></a>tryUTF8
 
-    boolean MySQLCore::tryUTF8(string $server, string $user, string $pwd)
+```php
+boolean MySQLCore::tryUTF8(string $server, string $user, string $pwd)
+```
 
 Try a connection to the database and set names to UTF-8
 

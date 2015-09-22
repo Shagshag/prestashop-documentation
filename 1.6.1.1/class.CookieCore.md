@@ -9,9 +9,11 @@ Class CookieCore
 * Source: [classes/Cookie.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_allow_writing](#property-$_allow_writing)
 * [$_cipherTool](#property-$_cipherTool)
@@ -25,8 +27,8 @@ Properties
 * [$_secure](#property-$_secure)
 * [$_standalone](#property-$_standalone)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [__destruct](#method-__destruct)
 * [__get](#method-__get)
@@ -59,7 +61,9 @@ Properties
 
 ### <a name="property-$_allow_writing"></a>$_allow_writing
 
-    protected mixed $_allow_writing
+```php
+protected mixed $_allow_writing
+```
 
 
 
@@ -71,7 +75,9 @@ Properties
 
 ### <a name="property-$_cipherTool"></a>$_cipherTool
 
-    protected array $_cipherTool
+```php
+protected array $_cipherTool
+```
 
 
 
@@ -83,7 +89,9 @@ Properties
 
 ### <a name="property-$_content"></a>$_content
 
-    protected array $_content
+```php
+protected array $_content
+```
 
 
 
@@ -95,7 +103,9 @@ Properties
 
 ### <a name="property-$_domain"></a>$_domain
 
-    protected array $_domain
+```php
+protected array $_domain
+```
 
 
 
@@ -107,7 +117,9 @@ Properties
 
 ### <a name="property-$_expire"></a>$_expire
 
-    protected array $_expire
+```php
+protected array $_expire
+```
 
 
 
@@ -119,7 +131,9 @@ Properties
 
 ### <a name="property-$_modified"></a>$_modified
 
-    protected mixed $_modified = false
+```php
+protected mixed $_modified = false
+```
 
 
 
@@ -131,7 +145,9 @@ Properties
 
 ### <a name="property-$_name"></a>$_name
 
-    protected array $_name
+```php
+protected array $_name
+```
 
 
 
@@ -143,7 +159,9 @@ Properties
 
 ### <a name="property-$_path"></a>$_path
 
-    protected array $_path
+```php
+protected array $_path
+```
 
 
 
@@ -155,7 +173,9 @@ Properties
 
 ### <a name="property-$_salt"></a>$_salt
 
-    protected mixed $_salt
+```php
+protected mixed $_salt
+```
 
 
 
@@ -167,7 +187,9 @@ Properties
 
 ### <a name="property-$_secure"></a>$_secure
 
-    protected mixed $_secure = false
+```php
+protected mixed $_secure = false
+```
 
 
 
@@ -179,7 +201,9 @@ Properties
 
 ### <a name="property-$_standalone"></a>$_standalone
 
-    protected mixed $_standalone
+```php
+protected mixed $_standalone
+```
 
 
 
@@ -195,7 +219,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed CookieCore::__construct($name, $path, $expire, $shared_urls, $standalone, $secure)
+```php
+mixed CookieCore::__construct($name, $path, $expire, $shared_urls, $standalone, $secure)
+```
 
 Get data if the cookie exists and else initialize an new one
 
@@ -217,7 +243,9 @@ Get data if the cookie exists and else initialize an new one
 
 ### <a name="method-__destruct"></a>__destruct
 
-    mixed CookieCore::__destruct()
+```php
+mixed CookieCore::__destruct()
+```
 
 
 
@@ -231,7 +259,9 @@ Get data if the cookie exists and else initialize an new one
 
 ### <a name="method-__get"></a>__get
 
-    string CookieCore::__get(string $key)
+```php
+string CookieCore::__get(string $key)
+```
 
 Magic method wich return cookie data from _content array
 
@@ -248,7 +278,9 @@ Magic method wich return cookie data from _content array
 
 ### <a name="method-__isset"></a>__isset
 
-    boolean CookieCore::__isset(string $key)
+```php
+boolean CookieCore::__isset(string $key)
+```
 
 Magic method which check if key exists in the cookie
 
@@ -265,7 +297,9 @@ Magic method which check if key exists in the cookie
 
 ### <a name="method-__set"></a>__set
 
-    mixed CookieCore::__set(string $key, mixed $value)
+```php
+mixed CookieCore::__set(string $key, mixed $value)
+```
 
 Magic method which adds data into _content array
 
@@ -283,7 +317,9 @@ Magic method which adds data into _content array
 
 ### <a name="method-__unset"></a>__unset
 
-    mixed CookieCore::__unset(string $key)
+```php
+mixed CookieCore::__unset(string $key)
+```
 
 Magic method wich delete data into _content array
 
@@ -300,7 +336,9 @@ Magic method wich delete data into _content array
 
 ### <a name="method-_setcookie"></a>_setcookie
 
-    mixed CookieCore::_setcookie($cookie)
+```php
+mixed CookieCore::_setcookie($cookie)
+```
 
 Setcookie according to php version
 
@@ -317,7 +355,9 @@ Setcookie according to php version
 
 ### <a name="method-disallowWriting"></a>disallowWriting
 
-    mixed CookieCore::disallowWriting()
+```php
+mixed CookieCore::disallowWriting()
+```
 
 
 
@@ -331,7 +371,9 @@ Setcookie according to php version
 
 ### <a name="method-exists"></a>exists
 
-    boolean CookieCore::exists()
+```php
+boolean CookieCore::exists()
+```
 
 Check if the cookie exists
 
@@ -345,7 +387,9 @@ Check if the cookie exists
 
 ### <a name="method-getAll"></a>getAll
 
-    mixed CookieCore::getAll()
+```php
+mixed CookieCore::getAll()
+```
 
 
 
@@ -359,7 +403,9 @@ Check if the cookie exists
 
 ### <a name="method-getDomain"></a>getDomain
 
-    mixed CookieCore::getDomain($shared_urls)
+```php
+mixed CookieCore::getDomain($shared_urls)
+```
 
 
 
@@ -376,7 +422,9 @@ Check if the cookie exists
 
 ### <a name="method-getFamily"></a>getFamily
 
-    mixed CookieCore::getFamily($origin)
+```php
+mixed CookieCore::getFamily($origin)
+```
 
 Get a family of variables (e.g. "filter_")
 
@@ -393,7 +441,9 @@ Get a family of variables (e.g. "filter_")
 
 ### <a name="method-getName"></a>getName
 
-    String CookieCore::getName()
+```php
+String CookieCore::getName()
+```
 
 
 
@@ -407,7 +457,9 @@ Get a family of variables (e.g. "filter_")
 
 ### <a name="method-isLogged"></a>isLogged
 
-    boolean CookieCore::isLogged($withGuest)
+```php
+boolean CookieCore::isLogged($withGuest)
+```
 
 Check customer informations saved into cookie and return customer validity
 
@@ -424,7 +476,9 @@ Check customer informations saved into cookie and return customer validity
 
 ### <a name="method-isLoggedBack"></a>isLoggedBack
 
-    boolean CookieCore::isLoggedBack()
+```php
+boolean CookieCore::isLoggedBack()
+```
 
 Check employee informations saved into cookie and return employee validity
 
@@ -438,7 +492,9 @@ Check employee informations saved into cookie and return employee validity
 
 ### <a name="method-logout"></a>logout
 
-    mixed CookieCore::logout()
+```php
+mixed CookieCore::logout()
+```
 
 Delete cookie
 As of version 1.5 don't call this function, use Customer::logout() or Employee::logout() instead;
@@ -453,7 +509,9 @@ As of version 1.5 don't call this function, use Customer::logout() or Employee::
 
 ### <a name="method-makeNewLog"></a>makeNewLog
 
-    mixed CookieCore::makeNewLog()
+```php
+mixed CookieCore::makeNewLog()
+```
 
 
 
@@ -467,7 +525,9 @@ As of version 1.5 don't call this function, use Customer::logout() or Employee::
 
 ### <a name="method-mylogout"></a>mylogout
 
-    mixed CookieCore::mylogout()
+```php
+mixed CookieCore::mylogout()
+```
 
 Soft logout, delete everything links to the customer
 but leave there affiliate's informations.
@@ -482,7 +542,9 @@ As of version 1.5 don't call this function, use Customer::mylogout() instead;
 
 ### <a name="method-setExpire"></a>setExpire
 
-    mixed CookieCore::setExpire(integer $expire)
+```php
+mixed CookieCore::setExpire(integer $expire)
+```
 
 Set expiration date
 
@@ -499,7 +561,9 @@ Set expiration date
 
 ### <a name="method-unsetFamily"></a>unsetFamily
 
-    mixed CookieCore::unsetFamily($origin)
+```php
+mixed CookieCore::unsetFamily($origin)
+```
 
 
 
@@ -516,7 +580,9 @@ Set expiration date
 
 ### <a name="method-update"></a>update
 
-    mixed CookieCore::update($nullValues)
+```php
+mixed CookieCore::update($nullValues)
+```
 
 Get cookie content
 
@@ -533,7 +599,9 @@ Get cookie content
 
 ### <a name="method-write"></a>write
 
-    mixed CookieCore::write()
+```php
+mixed CookieCore::write()
+```
 
 Save cookie with setcookie()
 

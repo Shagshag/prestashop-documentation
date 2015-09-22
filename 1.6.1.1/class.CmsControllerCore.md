@@ -10,9 +10,11 @@ Class CmsControllerCore
 * Source: [controllers/front/CmsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$assignCase](#property-$assignCase)
 * [$cms](#property-$cms)
@@ -20,8 +22,8 @@ Properties
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [canonicalRedirection](#method-canonicalRedirection)
 * [init](#method-init)
 * [initContent](#method-initContent)
@@ -36,7 +38,9 @@ Properties
 
 ### <a name="property-$assignCase"></a>$assignCase
 
-    public mixed $assignCase
+```php
+public mixed $assignCase
+```
 
 
 
@@ -48,7 +52,9 @@ Properties
 
 ### <a name="property-$cms"></a>$cms
 
-    public mixed $cms
+```php
+public mixed $cms
+```
 
 
 
@@ -60,7 +66,9 @@ Properties
 
 ### <a name="property-$cms_category"></a>$cms_category
 
-    public \CMSCategory $cms_category
+```php
+public \CMSCategory $cms_category
+```
 
 
 
@@ -72,7 +80,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'cms'
+```php
+public mixed $php_self = 'cms'
+```
 
 
 
@@ -84,7 +94,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = false
+```php
+public mixed $ssl = false
+```
 
 
 
@@ -100,7 +112,9 @@ Methods
 
 ### <a name="method-canonicalRedirection"></a>canonicalRedirection
 
-    mixed CmsControllerCore::canonicalRedirection($canonicalURL)
+```php
+mixed CmsControllerCore::canonicalRedirection($canonicalURL)
+```
 
 
 
@@ -117,7 +131,9 @@ Methods
 
 ### <a name="method-init"></a>init
 
-    mixed CmsControllerCore::init()
+```php
+mixed CmsControllerCore::init()
+```
 
 Initialize cms controller
 
@@ -131,7 +147,9 @@ Initialize cms controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed CmsControllerCore::initContent()
+```php
+mixed CmsControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -145,7 +163,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed CmsControllerCore::setMedia()
+```php
+mixed CmsControllerCore::setMedia()
+```
 
 
 

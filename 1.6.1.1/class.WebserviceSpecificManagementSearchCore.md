@@ -9,16 +9,18 @@ Class WebserviceSpecificManagementSearchCore
 * Source: [classes/webservice/WebserviceSpecificManagementSearch.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L27)
 * This class implements: [WebserviceSpecificManagementInterface](interface.WebserviceSpecificManagementInterface.md)
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$objOutput](#property-$objOutput)
 * [$output](#property-$output)
 * [$wsObject](#property-$wsObject)
 
-Methods
--------
+### Methods
+
 * [getContent](#method-getContent)
 * [getObjectOutput](#method-getObjectOutput)
 * [getUrlSegment](#method-getUrlSegment)
@@ -37,7 +39,9 @@ Properties
 
 ### <a name="property-$objOutput"></a>$objOutput
 
-    protected \WebserviceOutputBuilder $objOutput
+```php
+protected \WebserviceOutputBuilder $objOutput
+```
 
 
 
@@ -49,7 +53,9 @@ Properties
 
 ### <a name="property-$output"></a>$output
 
-    protected mixed $output
+```php
+protected mixed $output
+```
 
 
 
@@ -61,7 +67,9 @@ Properties
 
 ### <a name="property-$wsObject"></a>$wsObject
 
-    protected \WebserviceRequest $wsObject
+```php
+protected \WebserviceRequest $wsObject
+```
 
 
 
@@ -77,7 +85,9 @@ Methods
 
 ### <a name="method-getContent"></a>getContent
 
-    string WebserviceSpecificManagementSearchCore::getContent()
+```php
+string WebserviceSpecificManagementSearchCore::getContent()
+```
 
 This must be return a string with specific values as WebserviceRequest expects.
 
@@ -91,7 +101,9 @@ This must be return a string with specific values as WebserviceRequest expects.
 
 ### <a name="method-getObjectOutput"></a>getObjectOutput
 
-    mixed WebserviceSpecificManagementSearchCore::getObjectOutput()
+```php
+mixed WebserviceSpecificManagementSearchCore::getObjectOutput()
+```
 
 
 
@@ -105,7 +117,9 @@ This must be return a string with specific values as WebserviceRequest expects.
 
 ### <a name="method-getUrlSegment"></a>getUrlSegment
 
-    mixed WebserviceSpecificManagementSearchCore::getUrlSegment()
+```php
+mixed WebserviceSpecificManagementSearchCore::getUrlSegment()
+```
 
 
 
@@ -119,7 +133,9 @@ This must be return a string with specific values as WebserviceRequest expects.
 
 ### <a name="method-getWsObject"></a>getWsObject
 
-    mixed WebserviceSpecificManagementSearchCore::getWsObject()
+```php
+mixed WebserviceSpecificManagementSearchCore::getWsObject()
+```
 
 
 
@@ -133,7 +149,9 @@ This must be return a string with specific values as WebserviceRequest expects.
 
 ### <a name="method-manage"></a>manage
 
-    mixed WebserviceSpecificManagementSearchCore::manage()
+```php
+mixed WebserviceSpecificManagementSearchCore::manage()
+```
 
 Management of search
 
@@ -147,7 +165,9 @@ Management of search
 
 ### <a name="method-setObjectOutput"></a>setObjectOutput
 
-    \WebserviceSpecificManagementInterface WebserviceSpecificManagementSearchCore::setObjectOutput(\WebserviceOutputBuilderCore $obj)
+```php
+\WebserviceSpecificManagementInterface WebserviceSpecificManagementSearchCore::setObjectOutput(\WebserviceOutputBuilderCore $obj)
+```
 
 
 
@@ -164,7 +184,9 @@ Management of search
 
 ### <a name="method-setUrlSegment"></a>setUrlSegment
 
-    mixed WebserviceSpecificManagementSearchCore::setUrlSegment($segments)
+```php
+mixed WebserviceSpecificManagementSearchCore::setUrlSegment($segments)
+```
 
 
 
@@ -181,7 +203,9 @@ Management of search
 
 ### <a name="method-setWsObject"></a>setWsObject
 
-    mixed WebserviceSpecificManagementSearchCore::setWsObject(\WebserviceRequestCore $obj)
+```php
+mixed WebserviceSpecificManagementSearchCore::setWsObject(\WebserviceRequestCore $obj)
+```
 
 
 

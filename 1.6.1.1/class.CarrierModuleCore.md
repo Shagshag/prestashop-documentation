@@ -11,11 +11,13 @@ Class CarrierModuleCore
 * Source: [classes/module/CarrierModule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/CarrierModule.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [getOrderShippingCost](#method-getOrderShippingCost)
 * [getOrderShippingCostExternal](#method-getOrderShippingCostExternal)
 
@@ -30,7 +32,9 @@ Methods
 
 ### <a name="method-getOrderShippingCost"></a>getOrderShippingCost
 
-    mixed CarrierModuleCore::getOrderShippingCost($params, $shipping_cost)
+```php
+mixed CarrierModuleCore::getOrderShippingCost($params, $shipping_cost)
+```
 
 
 
@@ -49,7 +53,9 @@ Methods
 
 ### <a name="method-getOrderShippingCostExternal"></a>getOrderShippingCostExternal
 
-    mixed CarrierModuleCore::getOrderShippingCostExternal($params)
+```php
+mixed CarrierModuleCore::getOrderShippingCostExternal($params)
+```
 
 
 

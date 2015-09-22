@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Adapter/Adapter_Database.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_Database.php#L27)
 * This class implements: [Core_Foundation_Database_DatabaseInterface](interface.Core_Foundation_Database_DatabaseInterface.md)
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [escape](#method-escape)
 * [select](#method-select)
 
@@ -42,7 +44,9 @@ Methods
 
 ### <a name="method-escape"></a>escape
 
-    string Adapter_Database::escape($unsafeData)
+```php
+string Adapter_Database::escape($unsafeData)
+```
 
 Escape $unsafe to be used into a SQL statement
 
@@ -59,7 +63,9 @@ Escape $unsafe to be used into a SQL statement
 
 ### <a name="method-select"></a>select
 
-    array|false Adapter_Database::select($sqlString)
+```php
+array|false Adapter_Database::select($sqlString)
+```
 
 Perform a SELECT sql statement
 

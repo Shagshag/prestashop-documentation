@@ -8,17 +8,19 @@ This class includes functions for image manipulation
 * Class name: ImageManagerCore
 * Source: [classes/ImageManager.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageManager.php#L32)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [ERROR_FILE_NOT_EXIST](#constant-ERROR_FILE_NOT_EXIST)
 * [ERROR_FILE_WIDTH](#constant-ERROR_FILE_WIDTH)
 * [ERROR_MEMORY_LIMIT](#constant-ERROR_MEMORY_LIMIT)
 
 
+### Methods
 
-Methods
--------
 * [checkImageMemoryLimit](#method-checkImageMemoryLimit)
 * [create](#method-create)
 * [createWhiteImage](#method-createWhiteImage)
@@ -40,7 +42,9 @@ Constants
 
 ### <a name="constant-ERROR_FILE_NOT_EXIST"></a>ERROR_FILE_NOT_EXIST
 
-    const ERROR_FILE_NOT_EXIST = 1
+```php
+const ERROR_FILE_NOT_EXIST = 1
+```
 
 
 
@@ -51,7 +55,9 @@ Constants
 
 ### <a name="constant-ERROR_FILE_WIDTH"></a>ERROR_FILE_WIDTH
 
-    const ERROR_FILE_WIDTH = 2
+```php
+const ERROR_FILE_WIDTH = 2
+```
 
 
 
@@ -62,7 +68,9 @@ Constants
 
 ### <a name="constant-ERROR_MEMORY_LIMIT"></a>ERROR_MEMORY_LIMIT
 
-    const ERROR_MEMORY_LIMIT = 3
+```php
+const ERROR_MEMORY_LIMIT = 3
+```
 
 
 
@@ -79,7 +87,9 @@ Methods
 
 ### <a name="method-checkImageMemoryLimit"></a>checkImageMemoryLimit
 
-    boolean ImageManagerCore::checkImageMemoryLimit($image)
+```php
+boolean ImageManagerCore::checkImageMemoryLimit($image)
+```
 
 Check if memory limit is too long or not
 
@@ -97,7 +107,9 @@ Check if memory limit is too long or not
 
 ### <a name="method-create"></a>create
 
-    resource ImageManagerCore::create(string $type, string $filename)
+```php
+resource ImageManagerCore::create(string $type, string $filename)
+```
 
 Create an image with GD extension from a given type
 
@@ -116,7 +128,9 @@ Create an image with GD extension from a given type
 
 ### <a name="method-createWhiteImage"></a>createWhiteImage
 
-    resource ImageManagerCore::createWhiteImage(integer $width, integer $height)
+```php
+resource ImageManagerCore::createWhiteImage(integer $width, integer $height)
+```
 
 Create an empty image with white background
 
@@ -135,7 +149,9 @@ Create an empty image with white background
 
 ### <a name="method-cut"></a>cut
 
-    boolean ImageManagerCore::cut(array $src_file, string $dst_file, integer $dst_width, integer $dst_height, string $file_type, integer $dst_x, integer $dst_y)
+```php
+boolean ImageManagerCore::cut(array $src_file, string $dst_file, integer $dst_width, integer $dst_height, string $file_type, integer $dst_x, integer $dst_y)
+```
 
 Cut image
 
@@ -159,7 +175,9 @@ Cut image
 
 ### <a name="method-getMimeTypeByExtension"></a>getMimeTypeByExtension
 
-    string ImageManagerCore::getMimeTypeByExtension(string $file_name)
+```php
+string ImageManagerCore::getMimeTypeByExtension(string $file_name)
+```
 
 Return the mime type by the file extension
 
@@ -177,7 +195,9 @@ Return the mime type by the file extension
 
 ### <a name="method-imagecopyresampled"></a>imagecopyresampled
 
-    mixed ImageManagerCore::imagecopyresampled($dst_image, $src_image, $dst_x, $dst_y, $src_x, $src_y, $dst_w, $dst_h, $src_w, $src_h, $quality)
+```php
+mixed ImageManagerCore::imagecopyresampled($dst_image, $src_image, $dst_x, $dst_y, $src_x, $src_y, $dst_w, $dst_h, $src_w, $src_h, $quality)
+```
 
 
 
@@ -205,7 +225,9 @@ Return the mime type by the file extension
 
 ### <a name="method-isCorrectImageFileExt"></a>isCorrectImageFileExt
 
-    boolean ImageManagerCore::isCorrectImageFileExt(string $filename, array|null $authorized_extensions)
+```php
+boolean ImageManagerCore::isCorrectImageFileExt(string $filename, array|null $authorized_extensions)
+```
 
 Check if image file extension is correct
 
@@ -224,7 +246,9 @@ Check if image file extension is correct
 
 ### <a name="method-isRealImage"></a>isRealImage
 
-    boolean ImageManagerCore::isRealImage(string $filename, string $file_mime_type, array $mime_type_list)
+```php
+boolean ImageManagerCore::isRealImage(string $filename, string $file_mime_type, array $mime_type_list)
+```
 
 Check if file is a real image
 
@@ -244,7 +268,9 @@ Check if file is a real image
 
 ### <a name="method-resize"></a>resize
 
-    boolean ImageManagerCore::resize(string $src_file, string $dst_file, integer $dst_width, integer $dst_height, string $file_type, boolean $force_type, integer $error, integer $tgt_width, integer $tgt_height, integer $quality, integer $src_width, integer $src_height)
+```php
+boolean ImageManagerCore::resize(string $src_file, string $dst_file, integer $dst_width, integer $dst_height, string $file_type, boolean $force_type, integer $error, integer $tgt_width, integer $tgt_height, integer $quality, integer $src_width, integer $src_height)
+```
 
 Resize, cut and optimize image
 
@@ -273,7 +299,9 @@ Resize, cut and optimize image
 
 ### <a name="method-thumbnail"></a>thumbnail
 
-    string ImageManagerCore::thumbnail(string $image, string $cache_image, integer $size, string $image_type, boolean $disable_cache, boolean $regenerate)
+```php
+string ImageManagerCore::thumbnail(string $image, string $cache_image, integer $size, string $image_type, boolean $disable_cache, boolean $regenerate)
+```
 
 Generate a cached thumbnail for object lists (eg. carrier, order statuses.
 
@@ -296,7 +324,9 @@ Generate a cached thumbnail for object lists (eg. carrier, order statuses.
 
 ### <a name="method-validateIconUpload"></a>validateIconUpload
 
-    boolean|string ImageManagerCore::validateIconUpload(array $file, integer $max_file_size)
+```php
+boolean|string ImageManagerCore::validateIconUpload(array $file, integer $max_file_size)
+```
 
 Validate icon upload
 
@@ -315,7 +345,9 @@ Validate icon upload
 
 ### <a name="method-validateUpload"></a>validateUpload
 
-    boolean|string ImageManagerCore::validateUpload(array $file, integer $max_file_size, $types)
+```php
+boolean|string ImageManagerCore::validateUpload(array $file, integer $max_file_size, $types)
+```
 
 Validate image upload (check image type and weight)
 
@@ -335,7 +367,9 @@ Validate image upload (check image type and weight)
 
 ### <a name="method-write"></a>write
 
-    boolean ImageManagerCore::write(string $type, resource $resource, string $filename)
+```php
+boolean ImageManagerCore::write(string $type, resource $resource, string $filename)
+```
 
 Generate and write image
 

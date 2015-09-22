@@ -10,9 +10,11 @@ Class ShopUrlCore
 * Source: [classes/shop/ShopUrl.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$definition](#property-$definition)
@@ -26,8 +28,8 @@ Properties
 * [$virtual_uri](#property-$virtual_uri)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [cacheMainDomainForShop](#method-cacheMainDomainForShop)
 * [canAddThisUrl](#method-canAddThisUrl)
 * [getBaseURI](#method-getBaseURI)
@@ -48,7 +50,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public mixed $active
+```php
+public mixed $active
+```
 
 
 
@@ -60,7 +64,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'shop_url', 'primary' => 'id_shop_url', 'fields' => array('active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'main' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'domain' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 255, 'validate' => 'isCleanHtml'), 'domain_ssl' => array('type' => self::TYPE_STRING, 'size' => 255, 'validate' => 'isCleanHtml'), 'id_shop' => array('type' => self::TYPE_INT, 'required' => true), 'physical_uri' => array('type' => self::TYPE_STRING, 'size' => 64), 'virtual_uri' => array('type' => self::TYPE_STRING, 'size' => 64)))
+```php
+public mixed $definition = array('table' => 'shop_url', 'primary' => 'id_shop_url', 'fields' => array('active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'main' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'domain' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 255, 'validate' => 'isCleanHtml'), 'domain_ssl' => array('type' => self::TYPE_STRING, 'size' => 255, 'validate' => 'isCleanHtml'), 'id_shop' => array('type' => self::TYPE_INT, 'required' => true), 'physical_uri' => array('type' => self::TYPE_STRING, 'size' => 64), 'virtual_uri' => array('type' => self::TYPE_STRING, 'size' => 64)))
+```
 
 
 
@@ -73,7 +79,9 @@ Properties
 
 ### <a name="property-$domain"></a>$domain
 
-    public mixed $domain
+```php
+public mixed $domain
+```
 
 
 
@@ -85,7 +93,9 @@ Properties
 
 ### <a name="property-$domain_ssl"></a>$domain_ssl
 
-    public mixed $domain_ssl
+```php
+public mixed $domain_ssl
+```
 
 
 
@@ -97,7 +107,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public mixed $id_shop
+```php
+public mixed $id_shop
+```
 
 
 
@@ -109,7 +121,9 @@ Properties
 
 ### <a name="property-$main"></a>$main
 
-    public mixed $main
+```php
+public mixed $main
+```
 
 
 
@@ -121,7 +135,9 @@ Properties
 
 ### <a name="property-$main_domain"></a>$main_domain
 
-    protected mixed $main_domain = array()
+```php
+protected mixed $main_domain = array()
+```
 
 
 
@@ -134,7 +150,9 @@ Properties
 
 ### <a name="property-$main_domain_ssl"></a>$main_domain_ssl
 
-    protected mixed $main_domain_ssl = array()
+```php
+protected mixed $main_domain_ssl = array()
+```
 
 
 
@@ -147,7 +165,9 @@ Properties
 
 ### <a name="property-$physical_uri"></a>$physical_uri
 
-    public mixed $physical_uri
+```php
+public mixed $physical_uri
+```
 
 
 
@@ -159,7 +179,9 @@ Properties
 
 ### <a name="property-$virtual_uri"></a>$virtual_uri
 
-    public mixed $virtual_uri
+```php
+public mixed $virtual_uri
+```
 
 
 
@@ -171,7 +193,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_shop' => array('xlink_resource' => 'shops')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_shop' => array('xlink_resource' => 'shops')))
+```
 
 
 
@@ -187,7 +211,9 @@ Methods
 
 ### <a name="method-cacheMainDomainForShop"></a>cacheMainDomainForShop
 
-    mixed ShopUrlCore::cacheMainDomainForShop($id_shop)
+```php
+mixed ShopUrlCore::cacheMainDomainForShop($id_shop)
+```
 
 
 
@@ -205,7 +231,9 @@ Methods
 
 ### <a name="method-canAddThisUrl"></a>canAddThisUrl
 
-    mixed ShopUrlCore::canAddThisUrl($domain, $domain_ssl, $physical_uri, $virtual_uri)
+```php
+mixed ShopUrlCore::canAddThisUrl($domain, $domain_ssl, $physical_uri, $virtual_uri)
+```
 
 
 
@@ -225,7 +253,9 @@ Methods
 
 ### <a name="method-getBaseURI"></a>getBaseURI
 
-    mixed ShopUrlCore::getBaseURI()
+```php
+mixed ShopUrlCore::getBaseURI()
+```
 
 
 
@@ -239,7 +269,9 @@ Methods
 
 ### <a name="method-getFields"></a>getFields
 
-    array ShopUrlCore::getFields()
+```php
+array ShopUrlCore::getFields()
+```
 
 
 
@@ -253,7 +285,9 @@ Methods
 
 ### <a name="method-getMainShopDomain"></a>getMainShopDomain
 
-    mixed ShopUrlCore::getMainShopDomain($id_shop)
+```php
+mixed ShopUrlCore::getMainShopDomain($id_shop)
+```
 
 
 
@@ -271,7 +305,9 @@ Methods
 
 ### <a name="method-getMainShopDomainSSL"></a>getMainShopDomainSSL
 
-    mixed ShopUrlCore::getMainShopDomainSSL($id_shop)
+```php
+mixed ShopUrlCore::getMainShopDomainSSL($id_shop)
+```
 
 
 
@@ -289,7 +325,9 @@ Methods
 
 ### <a name="method-getShopUrls"></a>getShopUrls
 
-    \PrestaShopCollection ShopUrlCore::getShopUrls(boolean $id_shop)
+```php
+\PrestaShopCollection ShopUrlCore::getShopUrls(boolean $id_shop)
+```
 
 Get list of shop urls
 
@@ -307,7 +345,9 @@ Get list of shop urls
 
 ### <a name="method-getURL"></a>getURL
 
-    mixed ShopUrlCore::getURL($ssl)
+```php
+mixed ShopUrlCore::getURL($ssl)
+```
 
 
 
@@ -324,7 +364,9 @@ Get list of shop urls
 
 ### <a name="method-resetMainDomainCache"></a>resetMainDomainCache
 
-    mixed ShopUrlCore::resetMainDomainCache()
+```php
+mixed ShopUrlCore::resetMainDomainCache()
+```
 
 
 
@@ -339,7 +381,9 @@ Get list of shop urls
 
 ### <a name="method-setMain"></a>setMain
 
-    mixed ShopUrlCore::setMain()
+```php
+mixed ShopUrlCore::setMain()
+```
 
 
 

@@ -10,11 +10,13 @@ Class AdminDeliverySlipControllerCore
 * Source: [controllers/admin/AdminDeliverySlipController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDeliverySlipController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initContent](#method-initContent)
 * [postProcess](#method-postProcess)
@@ -31,7 +33,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminDeliverySlipControllerCore::__construct()
+```php
+mixed AdminDeliverySlipControllerCore::__construct()
+```
 
 
 
@@ -45,7 +49,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminDeliverySlipControllerCore::initContent()
+```php
+mixed AdminDeliverySlipControllerCore::initContent()
+```
 
 
 
@@ -59,7 +65,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminDeliverySlipControllerCore::postProcess()
+```php
+mixed AdminDeliverySlipControllerCore::postProcess()
+```
 
 
 
@@ -73,7 +81,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminDeliverySlipControllerCore::renderForm()
+```php
+mixed AdminDeliverySlipControllerCore::renderForm()
+```
 
 
 

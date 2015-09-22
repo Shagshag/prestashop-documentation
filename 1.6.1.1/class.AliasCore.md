@@ -10,17 +10,19 @@ Class AliasCore
 * Source: [classes/Alias.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$alias](#property-$alias)
 * [$definition](#property-$definition)
 * [$search](#property-$search)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [aliasExists](#method-aliasExists)
@@ -37,7 +39,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public mixed $active = true
+```php
+public mixed $active = true
+```
 
 
 
@@ -49,7 +53,9 @@ Properties
 
 ### <a name="property-$alias"></a>$alias
 
-    public mixed $alias
+```php
+public mixed $alias
+```
 
 
 
@@ -61,7 +67,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'alias', 'primary' => 'id_alias', 'fields' => array('search' => array('type' => self::TYPE_STRING, 'validate' => 'isValidSearch', 'required' => true, 'size' => 255), 'alias' => array('type' => self::TYPE_STRING, 'validate' => 'isValidSearch', 'required' => true, 'size' => 255), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```php
+public mixed $definition = array('table' => 'alias', 'primary' => 'id_alias', 'fields' => array('search' => array('type' => self::TYPE_STRING, 'validate' => 'isValidSearch', 'required' => true, 'size' => 255), 'alias' => array('type' => self::TYPE_STRING, 'validate' => 'isValidSearch', 'required' => true, 'size' => 255), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```
 
 
 
@@ -74,7 +82,9 @@ Properties
 
 ### <a name="property-$search"></a>$search
 
-    public mixed $search
+```php
+public mixed $search
+```
 
 
 
@@ -90,7 +100,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AliasCore::__construct($id, $alias, $search, $id_lang)
+```php
+mixed AliasCore::__construct($id, $alias, $search, $id_lang)
+```
 
 
 
@@ -110,7 +122,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed AliasCore::add($autodate, $nullValues)
+```php
+mixed AliasCore::add($autodate, $nullValues)
+```
 
 
 
@@ -128,7 +142,9 @@ Methods
 
 ### <a name="method-aliasExists"></a>aliasExists
 
-    boolean AliasCore::aliasExists($id_alias)
+```php
+boolean AliasCore::aliasExists($id_alias)
+```
 
 This method is allow to know if a alias exist for AdminImportController
 
@@ -146,7 +162,9 @@ This method is allow to know if a alias exist for AdminImportController
 
 ### <a name="method-delete"></a>delete
 
-    mixed AliasCore::delete()
+```php
+mixed AliasCore::delete()
+```
 
 
 
@@ -160,7 +178,9 @@ This method is allow to know if a alias exist for AdminImportController
 
 ### <a name="method-getAliases"></a>getAliases
 
-    mixed AliasCore::getAliases()
+```php
+mixed AliasCore::getAliases()
+```
 
 
 
@@ -174,7 +194,9 @@ This method is allow to know if a alias exist for AdminImportController
 
 ### <a name="method-isFeatureActive"></a>isFeatureActive
 
-    boolean AliasCore::isFeatureActive()
+```php
+boolean AliasCore::isFeatureActive()
+```
 
 This method is allow to know if a feature is used or active
 

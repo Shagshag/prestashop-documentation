@@ -9,9 +9,11 @@ Class PrestaShopBackupCore
 * Source: [classes/PrestaShopBackup.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$backupDir](#property-$backupDir)
 * [$customBackupDir](#property-$customBackupDir)
@@ -20,8 +22,8 @@ Properties
 * [$psBackupAll](#property-$psBackupAll)
 * [$psBackupDropTable](#property-$psBackupDropTable)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [backupExist](#method-backupExist)
@@ -41,7 +43,9 @@ Properties
 
 ### <a name="property-$backupDir"></a>$backupDir
 
-    public string $backupDir = '/backups/'
+```php
+public string $backupDir = '/backups/'
+```
 
 
 
@@ -54,7 +58,9 @@ Properties
 
 ### <a name="property-$customBackupDir"></a>$customBackupDir
 
-    public string $customBackupDir = null
+```php
+public string $customBackupDir = null
+```
 
 
 
@@ -66,7 +72,9 @@ Properties
 
 ### <a name="property-$error"></a>$error
 
-    public string $error
+```php
+public string $error
+```
 
 
 
@@ -78,7 +86,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public integer $id
+```php
+public integer $id
+```
 
 
 
@@ -90,7 +100,9 @@ Properties
 
 ### <a name="property-$psBackupAll"></a>$psBackupAll
 
-    public mixed $psBackupAll = true
+```php
+public mixed $psBackupAll = true
+```
 
 
 
@@ -102,7 +114,9 @@ Properties
 
 ### <a name="property-$psBackupDropTable"></a>$psBackupDropTable
 
-    public mixed $psBackupDropTable = true
+```php
+public mixed $psBackupDropTable = true
+```
 
 
 
@@ -118,7 +132,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed PrestaShopBackupCore::__construct(string $filename)
+```php
+mixed PrestaShopBackupCore::__construct(string $filename)
+```
 
 Creates a new backup object
 
@@ -135,7 +151,9 @@ Creates a new backup object
 
 ### <a name="method-add"></a>add
 
-    boolean PrestaShopBackupCore::add()
+```php
+boolean PrestaShopBackupCore::add()
+```
 
 Creates a new backup file
 
@@ -149,7 +167,9 @@ Creates a new backup file
 
 ### <a name="method-backupExist"></a>backupExist
 
-    boolean PrestaShopBackupCore::backupExist(string $filename)
+```php
+boolean PrestaShopBackupCore::backupExist(string $filename)
+```
 
 Check if a backup file exist
 
@@ -167,7 +187,9 @@ Check if a backup file exist
 
 ### <a name="method-delete"></a>delete
 
-    boolean PrestaShopBackupCore::delete()
+```php
+boolean PrestaShopBackupCore::delete()
+```
 
 Delete the current backup file
 
@@ -181,7 +203,9 @@ Delete the current backup file
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    boolean PrestaShopBackupCore::deleteSelection($list)
+```php
+boolean PrestaShopBackupCore::deleteSelection($list)
+```
 
 Deletes a range of backup files
 
@@ -198,7 +222,9 @@ Deletes a range of backup files
 
 ### <a name="method-getBackupPath"></a>getBackupPath
 
-    string PrestaShopBackupCore::getBackupPath(string $filename)
+```php
+string PrestaShopBackupCore::getBackupPath(string $filename)
+```
 
 Get the full path of the backup file
 
@@ -216,7 +242,9 @@ Get the full path of the backup file
 
 ### <a name="method-getBackupURL"></a>getBackupURL
 
-    string PrestaShopBackupCore::getBackupURL()
+```php
+string PrestaShopBackupCore::getBackupURL()
+```
 
 Get the URL used to retrieve this backup file
 
@@ -230,7 +258,9 @@ Get the URL used to retrieve this backup file
 
 ### <a name="method-getRealBackupPath"></a>getRealBackupPath
 
-    string PrestaShopBackupCore::getRealBackupPath(string $filename)
+```php
+string PrestaShopBackupCore::getRealBackupPath(string $filename)
+```
 
 get the path to use for backup (customBackupDir if specified, or default)
 
@@ -247,7 +277,9 @@ get the path to use for backup (customBackupDir if specified, or default)
 
 ### <a name="method-setCustomBackupPath"></a>setCustomBackupPath
 
-    boolean PrestaShopBackupCore::setCustomBackupPath(string $dir)
+```php
+boolean PrestaShopBackupCore::setCustomBackupPath(string $dir)
+```
 
 you can set a different path with that function
 

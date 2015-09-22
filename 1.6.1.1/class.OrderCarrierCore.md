@@ -10,9 +10,11 @@ Class OrderCarrierCore
 * Source: [classes/order/OrderCarrier.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$definition](#property-$definition)
@@ -36,7 +38,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -48,7 +52,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'order_carrier', 'primary' => 'id_order_carrier', 'fields' => array('id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_carrier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order_invoice' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'weight' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'shipping_cost_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'shipping_cost_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'tracking_number' => array('type' => self::TYPE_STRING, 'validate' => 'isTrackingNumber'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'order_carrier', 'primary' => 'id_order_carrier', 'fields' => array('id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_carrier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order_invoice' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'weight' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'shipping_cost_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'shipping_cost_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'tracking_number' => array('type' => self::TYPE_STRING, 'validate' => 'isTrackingNumber'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -61,7 +67,9 @@ Properties
 
 ### <a name="property-$id_carrier"></a>$id_carrier
 
-    public integer $id_carrier
+```php
+public integer $id_carrier
+```
 
 
 
@@ -73,7 +81,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public integer $id_order
+```php
+public integer $id_order
+```
 
 
 
@@ -85,7 +95,9 @@ Properties
 
 ### <a name="property-$id_order_carrier"></a>$id_order_carrier
 
-    public integer $id_order_carrier
+```php
+public integer $id_order_carrier
+```
 
 
 
@@ -97,7 +109,9 @@ Properties
 
 ### <a name="property-$id_order_invoice"></a>$id_order_invoice
 
-    public integer $id_order_invoice
+```php
+public integer $id_order_invoice
+```
 
 
 
@@ -109,7 +123,9 @@ Properties
 
 ### <a name="property-$shipping_cost_tax_excl"></a>$shipping_cost_tax_excl
 
-    public float $shipping_cost_tax_excl
+```php
+public float $shipping_cost_tax_excl
+```
 
 
 
@@ -121,7 +137,9 @@ Properties
 
 ### <a name="property-$shipping_cost_tax_incl"></a>$shipping_cost_tax_incl
 
-    public float $shipping_cost_tax_incl
+```php
+public float $shipping_cost_tax_incl
+```
 
 
 
@@ -133,7 +151,9 @@ Properties
 
 ### <a name="property-$tracking_number"></a>$tracking_number
 
-    public integer $tracking_number
+```php
+public integer $tracking_number
+```
 
 
 
@@ -145,7 +165,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_order' => array('xlink_resource' => 'orders'), 'id_carrier' => array('xlink_resource' => 'carriers')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_order' => array('xlink_resource' => 'orders'), 'id_carrier' => array('xlink_resource' => 'carriers')))
+```
 
 
 
@@ -157,7 +179,9 @@ Properties
 
 ### <a name="property-$weight"></a>$weight
 
-    public float $weight
+```php
+public float $weight
+```
 
 
 

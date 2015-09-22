@@ -10,9 +10,11 @@ Class StoreCore
 * Source: [classes/Store.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$address1](#property-$address1)
@@ -34,8 +36,8 @@ Properties
 * [$postcode](#property-$postcode)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getWsHours](#method-getWsHours)
 * [setWsHours](#method-setWsHours)
@@ -49,7 +51,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = true
+```php
+public boolean $active = true
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$address1"></a>$address1
 
-    public string $address1
+```php
+public string $address1
+```
 
 
 
@@ -73,7 +79,9 @@ Properties
 
 ### <a name="property-$address2"></a>$address2
 
-    public string $address2
+```php
+public string $address2
+```
 
 
 
@@ -85,7 +93,9 @@ Properties
 
 ### <a name="property-$city"></a>$city
 
-    public string $city
+```php
+public string $city
+```
 
 
 
@@ -97,7 +107,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -109,7 +121,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -121,7 +135,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'store', 'primary' => 'id_store', 'fields' => array('id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_state' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId'), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 128), 'address1' => array('type' => self::TYPE_STRING, 'validate' => 'isAddress', 'required' => true, 'size' => 128), 'address2' => array('type' => self::TYPE_STRING, 'validate' => 'isAddress', 'size' => 128), 'postcode' => array('type' => self::TYPE_STRING, 'size' => 12), 'city' => array('type' => self::TYPE_STRING, 'validate' => 'isCityName', 'required' => true, 'size' => 64), 'latitude' => array('type' => self::TYPE_FLOAT, 'validate' => 'isCoordinate', 'size' => 13), 'longitude' => array('type' => self::TYPE_FLOAT, 'validate' => 'isCoordinate', 'size' => 13), 'hours' => array('type' => self::TYPE_STRING, 'validate' => 'isSerializedArray', 'size' => 65000), 'phone' => array('type' => self::TYPE_STRING, 'validate' => 'isPhoneNumber', 'size' => 16), 'fax' => array('type' => self::TYPE_STRING, 'validate' => 'isPhoneNumber', 'size' => 16), 'note' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 65000), 'email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'size' => 128), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'store', 'primary' => 'id_store', 'fields' => array('id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_state' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId'), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 128), 'address1' => array('type' => self::TYPE_STRING, 'validate' => 'isAddress', 'required' => true, 'size' => 128), 'address2' => array('type' => self::TYPE_STRING, 'validate' => 'isAddress', 'size' => 128), 'postcode' => array('type' => self::TYPE_STRING, 'size' => 12), 'city' => array('type' => self::TYPE_STRING, 'validate' => 'isCityName', 'required' => true, 'size' => 64), 'latitude' => array('type' => self::TYPE_FLOAT, 'validate' => 'isCoordinate', 'size' => 13), 'longitude' => array('type' => self::TYPE_FLOAT, 'validate' => 'isCoordinate', 'size' => 13), 'hours' => array('type' => self::TYPE_STRING, 'validate' => 'isSerializedArray', 'size' => 65000), 'phone' => array('type' => self::TYPE_STRING, 'validate' => 'isPhoneNumber', 'size' => 16), 'fax' => array('type' => self::TYPE_STRING, 'validate' => 'isPhoneNumber', 'size' => 16), 'note' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 65000), 'email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'size' => 128), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -134,7 +150,9 @@ Properties
 
 ### <a name="property-$email"></a>$email
 
-    public string $email
+```php
+public string $email
+```
 
 
 
@@ -146,7 +164,9 @@ Properties
 
 ### <a name="property-$fax"></a>$fax
 
-    public string $fax
+```php
+public string $fax
+```
 
 
 
@@ -158,7 +178,9 @@ Properties
 
 ### <a name="property-$hours"></a>$hours
 
-    public string $hours
+```php
+public string $hours
+```
 
 
 
@@ -170,7 +192,9 @@ Properties
 
 ### <a name="property-$id_country"></a>$id_country
 
-    public integer $id_country
+```php
+public integer $id_country
+```
 
 
 
@@ -182,7 +206,9 @@ Properties
 
 ### <a name="property-$id_state"></a>$id_state
 
-    public integer $id_state
+```php
+public integer $id_state
+```
 
 
 
@@ -194,7 +220,9 @@ Properties
 
 ### <a name="property-$latitude"></a>$latitude
 
-    public float $latitude
+```php
+public float $latitude
+```
 
 
 
@@ -206,7 +234,9 @@ Properties
 
 ### <a name="property-$longitude"></a>$longitude
 
-    public float $longitude
+```php
+public float $longitude
+```
 
 
 
@@ -218,7 +248,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -230,7 +262,9 @@ Properties
 
 ### <a name="property-$note"></a>$note
 
-    public string $note
+```php
+public string $note
+```
 
 
 
@@ -242,7 +276,9 @@ Properties
 
 ### <a name="property-$phone"></a>$phone
 
-    public string $phone
+```php
+public string $phone
+```
 
 
 
@@ -254,7 +290,9 @@ Properties
 
 ### <a name="property-$postcode"></a>$postcode
 
-    public string $postcode
+```php
+public string $postcode
+```
 
 
 
@@ -266,7 +304,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_country' => array('xlink_resource' => 'countries'), 'id_state' => array('xlink_resource' => 'states'), 'hours' => array('getter' => 'getWsHours', 'setter' => 'setWsHours')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_country' => array('xlink_resource' => 'countries'), 'id_state' => array('xlink_resource' => 'states'), 'hours' => array('getter' => 'getWsHours', 'setter' => 'setWsHours')))
+```
 
 
 
@@ -282,7 +322,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed StoreCore::__construct($id_store, $id_lang)
+```php
+mixed StoreCore::__construct($id_store, $id_lang)
+```
 
 
 
@@ -300,7 +342,9 @@ Methods
 
 ### <a name="method-getWsHours"></a>getWsHours
 
-    mixed StoreCore::getWsHours()
+```php
+mixed StoreCore::getWsHours()
+```
 
 
 
@@ -314,7 +358,9 @@ Methods
 
 ### <a name="method-setWsHours"></a>setWsHours
 
-    mixed StoreCore::setWsHours($hours)
+```php
+mixed StoreCore::setWsHours($hours)
+```
 
 
 

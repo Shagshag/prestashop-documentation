@@ -10,14 +10,16 @@ Class ConfigurationKPICore
 * Source: [classes/ConfigurationKPI.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition_backup](#property-$definition_backup)
 
-Methods
--------
+### Methods
+
 * [deleteByName](#method-deleteByName)
 * [deleteFromContext](#method-deleteFromContext)
 * [get](#method-get)
@@ -46,7 +48,9 @@ Properties
 
 ### <a name="property-$definition_backup"></a>$definition_backup
 
-    public mixed $definition_backup
+```php
+public mixed $definition_backup
+```
 
 
 
@@ -63,7 +67,9 @@ Methods
 
 ### <a name="method-deleteByName"></a>deleteByName
 
-    mixed ConfigurationKPICore::deleteByName($key)
+```php
+mixed ConfigurationKPICore::deleteByName($key)
+```
 
 
 
@@ -81,7 +87,9 @@ Methods
 
 ### <a name="method-deleteFromContext"></a>deleteFromContext
 
-    mixed ConfigurationKPICore::deleteFromContext($key)
+```php
+mixed ConfigurationKPICore::deleteFromContext($key)
+```
 
 
 
@@ -99,7 +107,9 @@ Methods
 
 ### <a name="method-get"></a>get
 
-    mixed ConfigurationKPICore::get($key, $id_lang, $id_shop_group, $id_shop)
+```php
+mixed ConfigurationKPICore::get($key, $id_lang, $id_shop_group, $id_shop)
+```
 
 
 
@@ -120,7 +130,9 @@ Methods
 
 ### <a name="method-getGlobalValue"></a>getGlobalValue
 
-    mixed ConfigurationKPICore::getGlobalValue($key, $id_lang)
+```php
+mixed ConfigurationKPICore::getGlobalValue($key, $id_lang)
+```
 
 
 
@@ -139,7 +151,9 @@ Methods
 
 ### <a name="method-getIdByName"></a>getIdByName
 
-    mixed ConfigurationKPICore::getIdByName($key, $id_shop_group, $id_shop)
+```php
+mixed ConfigurationKPICore::getIdByName($key, $id_shop_group, $id_shop)
+```
 
 
 
@@ -159,7 +173,9 @@ Methods
 
 ### <a name="method-getInt"></a>getInt
 
-    mixed ConfigurationKPICore::getInt($key, $id_shop_group, $id_shop)
+```php
+mixed ConfigurationKPICore::getInt($key, $id_shop_group, $id_shop)
+```
 
 
 
@@ -179,7 +195,9 @@ Methods
 
 ### <a name="method-getMultiple"></a>getMultiple
 
-    mixed ConfigurationKPICore::getMultiple($keys, $id_lang, $id_shop_group, $id_shop)
+```php
+mixed ConfigurationKPICore::getMultiple($keys, $id_lang, $id_shop_group, $id_shop)
+```
 
 
 
@@ -200,7 +218,9 @@ Methods
 
 ### <a name="method-hasContext"></a>hasContext
 
-    mixed ConfigurationKPICore::hasContext($key, $id_lang, $context)
+```php
+mixed ConfigurationKPICore::hasContext($key, $id_lang, $context)
+```
 
 
 
@@ -220,7 +240,9 @@ Methods
 
 ### <a name="method-hasKey"></a>hasKey
 
-    mixed ConfigurationKPICore::hasKey($key, $id_lang, $id_shop_group, $id_shop)
+```php
+mixed ConfigurationKPICore::hasKey($key, $id_lang, $id_shop_group, $id_shop)
+```
 
 
 
@@ -241,7 +263,9 @@ Methods
 
 ### <a name="method-isLangKey"></a>isLangKey
 
-    mixed ConfigurationKPICore::isLangKey($key)
+```php
+mixed ConfigurationKPICore::isLangKey($key)
+```
 
 
 
@@ -259,7 +283,9 @@ Methods
 
 ### <a name="method-isOverridenByCurrentContext"></a>isOverridenByCurrentContext
 
-    mixed ConfigurationKPICore::isOverridenByCurrentContext($key)
+```php
+mixed ConfigurationKPICore::isOverridenByCurrentContext($key)
+```
 
 
 
@@ -277,7 +303,9 @@ Methods
 
 ### <a name="method-loadConfiguration"></a>loadConfiguration
 
-    mixed ConfigurationKPICore::loadConfiguration()
+```php
+mixed ConfigurationKPICore::loadConfiguration()
+```
 
 
 
@@ -292,7 +320,9 @@ Methods
 
 ### <a name="method-set"></a>set
 
-    mixed ConfigurationKPICore::set($key, $values, $id_shop_group, $id_shop)
+```php
+mixed ConfigurationKPICore::set($key, $values, $id_shop_group, $id_shop)
+```
 
 
 
@@ -313,7 +343,9 @@ Methods
 
 ### <a name="method-setKpiDefinition"></a>setKpiDefinition
 
-    mixed ConfigurationKPICore::setKpiDefinition()
+```php
+mixed ConfigurationKPICore::setKpiDefinition()
+```
 
 
 
@@ -328,7 +360,9 @@ Methods
 
 ### <a name="method-sqlRestriction"></a>sqlRestriction
 
-    mixed ConfigurationKPICore::sqlRestriction($id_shop_group, $id_shop)
+```php
+mixed ConfigurationKPICore::sqlRestriction($id_shop_group, $id_shop)
+```
 
 
 
@@ -347,7 +381,9 @@ Methods
 
 ### <a name="method-unsetKpiDefinition"></a>unsetKpiDefinition
 
-    mixed ConfigurationKPICore::unsetKpiDefinition()
+```php
+mixed ConfigurationKPICore::unsetKpiDefinition()
+```
 
 
 
@@ -362,7 +398,9 @@ Methods
 
 ### <a name="method-updateGlobalValue"></a>updateGlobalValue
 
-    mixed ConfigurationKPICore::updateGlobalValue($key, $values, $html)
+```php
+mixed ConfigurationKPICore::updateGlobalValue($key, $values, $html)
+```
 
 
 
@@ -382,7 +420,9 @@ Methods
 
 ### <a name="method-updateValue"></a>updateValue
 
-    mixed ConfigurationKPICore::updateValue($key, $values, $html, $id_shop_group, $id_shop)
+```php
+mixed ConfigurationKPICore::updateValue($key, $values, $html, $id_shop_group, $id_shop)
+```
 
 
 

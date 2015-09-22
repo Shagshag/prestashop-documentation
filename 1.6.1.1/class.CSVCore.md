@@ -10,16 +10,18 @@ Uses CollectionCore
 * Source: [classes/CSV.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L32)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$collection](#property-$collection)
 * [$delimiter](#property-$delimiter)
 * [$filename](#property-$filename)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [export](#method-export)
 * [headers](#method-headers)
@@ -35,7 +37,9 @@ Properties
 
 ### <a name="property-$collection"></a>$collection
 
-    public mixed $collection
+```php
+public mixed $collection
+```
 
 
 
@@ -47,7 +51,9 @@ Properties
 
 ### <a name="property-$delimiter"></a>$delimiter
 
-    public mixed $delimiter
+```php
+public mixed $delimiter
+```
 
 
 
@@ -59,7 +65,9 @@ Properties
 
 ### <a name="property-$filename"></a>$filename
 
-    public mixed $filename
+```php
+public mixed $filename
+```
 
 
 
@@ -75,7 +83,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed CSVCore::__construct(array|\Iterator $collection, string $filename, string $delimiter)
+```php
+mixed CSVCore::__construct(array|\Iterator $collection, string $filename, string $delimiter)
+```
 
 Loads objects, filename and optionnaly a delimiter.
 
@@ -94,7 +104,9 @@ Loads objects, filename and optionnaly a delimiter.
 
 ### <a name="method-export"></a>export
 
-    mixed CSVCore::export()
+```php
+mixed CSVCore::export()
+```
 
 Main function
 Adds headers
@@ -110,7 +122,9 @@ Outputs
 
 ### <a name="method-headers"></a>headers
 
-    mixed CSVCore::headers()
+```php
+mixed CSVCore::headers()
+```
 
 Adds headers
 
@@ -124,7 +138,9 @@ Adds headers
 
 ### <a name="method-output"></a>output
 
-    mixed CSVCore::output($data)
+```php
+mixed CSVCore::output($data)
+```
 
 Wraps data and echoes
 Uses defined delimiter
@@ -142,7 +158,9 @@ Uses defined delimiter
 
 ### <a name="method-wrap"></a>wrap
 
-    string CSVCore::wrap(string $data)
+```php
+string CSVCore::wrap(string $data)
+```
 
 Escapes data
 

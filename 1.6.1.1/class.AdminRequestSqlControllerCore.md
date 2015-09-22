@@ -10,15 +10,17 @@ Class AdminRequestSqlControllerCore
 * Source: [controllers/admin/AdminRequestSqlController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$encoding_file](#property-$encoding_file)
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_childValidation](#method-_childValidation)
 * [ajaxProcess](#method-ajaxProcess)
@@ -44,7 +46,9 @@ Properties
 
 ### <a name="property-$encoding_file"></a>$encoding_file
 
-    public array $encoding_file = array(array('value' => 1, 'name' => 'utf-8'), array('value' => 2, 'name' => 'iso-8859-1'))
+```php
+public array $encoding_file = array(array('value' => 1, 'name' => 'utf-8'), array('value' => 2, 'name' => 'iso-8859-1'))
+```
 
 
 
@@ -57,7 +61,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \RequestSql $object
+```php
+public \RequestSql $object
+```
 
 
 
@@ -73,7 +79,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminRequestSqlControllerCore::__construct()
+```php
+mixed AdminRequestSqlControllerCore::__construct()
+```
 
 
 
@@ -87,7 +95,9 @@ Methods
 
 ### <a name="method-_childValidation"></a>_childValidation
 
-    mixed AdminRequestSqlControllerCore::_childValidation()
+```php
+mixed AdminRequestSqlControllerCore::_childValidation()
+```
 
 
 
@@ -101,7 +111,9 @@ Methods
 
 ### <a name="method-ajaxProcess"></a>ajaxProcess
 
-    mixed AdminRequestSqlControllerCore::ajaxProcess()
+```php
+mixed AdminRequestSqlControllerCore::ajaxProcess()
+```
 
 method call when ajax request is made with the details row action
 
@@ -115,7 +127,9 @@ method call when ajax request is made with the details row action
 
 ### <a name="method-displayError"></a>displayError
 
-    mixed AdminRequestSqlControllerCore::displayError($e)
+```php
+mixed AdminRequestSqlControllerCore::displayError($e)
+```
 
 Display all errors
 
@@ -132,7 +146,9 @@ Display all errors
 
 ### <a name="method-displayExportLink"></a>displayExportLink
 
-    string AdminRequestSqlControllerCore::displayExportLink($token, integer $id)
+```php
+string AdminRequestSqlControllerCore::displayExportLink($token, integer $id)
+```
 
 Display export action link
 
@@ -150,7 +166,9 @@ Display export action link
 
 ### <a name="method-generateExport"></a>generateExport
 
-    mixed AdminRequestSqlControllerCore::generateExport()
+```php
+mixed AdminRequestSqlControllerCore::generateExport()
+```
 
 Genrating a export file
 
@@ -164,7 +182,9 @@ Genrating a export file
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminRequestSqlControllerCore::initContent()
+```php
+mixed AdminRequestSqlControllerCore::initContent()
+```
 
 
 
@@ -178,7 +198,9 @@ Genrating a export file
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminRequestSqlControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminRequestSqlControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -192,7 +214,9 @@ Genrating a export file
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminRequestSqlControllerCore::initProcess()
+```php
+mixed AdminRequestSqlControllerCore::initProcess()
+```
 
 
 
@@ -206,7 +230,9 @@ Genrating a export file
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminRequestSqlControllerCore::initToolbar()
+```php
+mixed AdminRequestSqlControllerCore::initToolbar()
+```
 
 
 
@@ -220,7 +246,9 @@ Genrating a export file
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminRequestSqlControllerCore::postProcess()
+```php
+mixed AdminRequestSqlControllerCore::postProcess()
+```
 
 
 
@@ -234,7 +262,9 @@ Genrating a export file
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminRequestSqlControllerCore::renderForm()
+```php
+mixed AdminRequestSqlControllerCore::renderForm()
+```
 
 
 
@@ -248,7 +278,9 @@ Genrating a export file
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminRequestSqlControllerCore::renderList()
+```php
+mixed AdminRequestSqlControllerCore::renderList()
+```
 
 
 
@@ -262,7 +294,9 @@ Genrating a export file
 
 ### <a name="method-renderOptions"></a>renderOptions
 
-    mixed AdminRequestSqlControllerCore::renderOptions()
+```php
+mixed AdminRequestSqlControllerCore::renderOptions()
+```
 
 
 
@@ -276,7 +310,9 @@ Genrating a export file
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminRequestSqlControllerCore::renderView()
+```php
+mixed AdminRequestSqlControllerCore::renderView()
+```
 
 
 

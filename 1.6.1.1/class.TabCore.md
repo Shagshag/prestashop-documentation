@@ -9,13 +9,15 @@ Class TabCore
 * Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Tab.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [TAB_MODULE_LIST_URL](#constant-TAB_MODULE_LIST_URL)
 
-Properties
-----------
+### Properties
 
 * [$_cache_tabs](#property-$_cache_tabs)
 * [$_getIdFromClassName](#property-$_getIdFromClassName)
@@ -28,8 +30,8 @@ Properties
 * [$name](#property-$name)
 * [$position](#property-$position)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [checkTabRights](#method-checkTabRights)
 * [cleanPositions](#method-cleanPositions)
@@ -63,7 +65,9 @@ Constants
 
 ### <a name="constant-TAB_MODULE_LIST_URL"></a>TAB_MODULE_LIST_URL
 
-    const TAB_MODULE_LIST_URL = _PS_TAB_MODULE_LIST_URL_
+```php
+const TAB_MODULE_LIST_URL = _PS_TAB_MODULE_LIST_URL_
+```
 
 
 
@@ -78,7 +82,9 @@ Properties
 
 ### <a name="property-$_cache_tabs"></a>$_cache_tabs
 
-    protected mixed $_cache_tabs = array()
+```php
+protected mixed $_cache_tabs = array()
+```
 
 Get tabs
 
@@ -91,7 +97,9 @@ Get tabs
 
 ### <a name="property-$_getIdFromClassName"></a>$_getIdFromClassName
 
-    protected mixed $_getIdFromClassName = null
+```php
+protected mixed $_getIdFromClassName = null
+```
 
 
 
@@ -104,7 +112,9 @@ Get tabs
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = true
+```php
+public boolean $active = true
+```
 
 
 
@@ -116,7 +126,9 @@ Get tabs
 
 ### <a name="property-$class_name"></a>$class_name
 
-    public string $class_name
+```php
+public string $class_name
+```
 
 
 
@@ -128,7 +140,9 @@ Get tabs
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'tab', 'primary' => 'id_tab', 'multilang' => true, 'fields' => array('id_parent' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'position' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'module' => array('type' => self::TYPE_STRING, 'validate' => 'isTabName', 'size' => 64), 'class_name' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'hide_host_mode' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'required' => true, 'validate' => 'isTabName', 'size' => 64)))
+```php
+public mixed $definition = array('table' => 'tab', 'primary' => 'id_tab', 'multilang' => true, 'fields' => array('id_parent' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'position' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'module' => array('type' => self::TYPE_STRING, 'validate' => 'isTabName', 'size' => 64), 'class_name' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'hide_host_mode' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'required' => true, 'validate' => 'isTabName', 'size' => 64)))
+```
 
 
 
@@ -141,7 +155,9 @@ Get tabs
 
 ### <a name="property-$hide_host_mode"></a>$hide_host_mode
 
-    public integer $hide_host_mode = false
+```php
+public integer $hide_host_mode = false
+```
 
 
 
@@ -153,7 +169,9 @@ Get tabs
 
 ### <a name="property-$id_parent"></a>$id_parent
 
-    public integer $id_parent
+```php
+public integer $id_parent
+```
 
 
 
@@ -165,7 +183,9 @@ Get tabs
 
 ### <a name="property-$module"></a>$module
 
-    public mixed $module
+```php
+public mixed $module
+```
 
 
 
@@ -177,7 +197,9 @@ Get tabs
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -189,7 +211,9 @@ Get tabs
 
 ### <a name="property-$position"></a>$position
 
-    public integer $position
+```php
+public integer $position
+```
 
 
 
@@ -205,7 +229,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    integer TabCore::add(boolean $autodate, boolean $null_values)
+```php
+integer TabCore::add(boolean $autodate, boolean $null_values)
+```
 
 additionnal treatments for Tab when creating new one :
 - generate a new position
@@ -225,7 +251,9 @@ additionnal treatments for Tab when creating new one :
 
 ### <a name="method-checkTabRights"></a>checkTabRights
 
-    mixed TabCore::checkTabRights($id_tab)
+```php
+mixed TabCore::checkTabRights($id_tab)
+```
 
 
 
@@ -243,7 +271,9 @@ additionnal treatments for Tab when creating new one :
 
 ### <a name="method-cleanPositions"></a>cleanPositions
 
-    mixed TabCore::cleanPositions($id_parent)
+```php
+mixed TabCore::cleanPositions($id_parent)
+```
 
 
 
@@ -260,7 +290,9 @@ additionnal treatments for Tab when creating new one :
 
 ### <a name="method-delete"></a>delete
 
-    mixed TabCore::delete()
+```php
+mixed TabCore::delete()
+```
 
 
 
@@ -274,7 +306,9 @@ additionnal treatments for Tab when creating new one :
 
 ### <a name="method-disablingForModule"></a>disablingForModule
 
-    boolean TabCore::disablingForModule($module)
+```php
+boolean TabCore::disablingForModule($module)
+```
 
 Disabling tabs for module
 
@@ -292,7 +326,9 @@ Disabling tabs for module
 
 ### <a name="method-enablingForModule"></a>enablingForModule
 
-    boolean TabCore::enablingForModule($module)
+```php
+boolean TabCore::enablingForModule($module)
+```
 
 Enabling tabs for module
 
@@ -310,7 +346,9 @@ Enabling tabs for module
 
 ### <a name="method-getClassNameById"></a>getClassNameById
 
-    mixed TabCore::getClassNameById($id_tab)
+```php
+mixed TabCore::getClassNameById($id_tab)
+```
 
 
 
@@ -328,7 +366,9 @@ Enabling tabs for module
 
 ### <a name="method-getCollectionFromModule"></a>getCollectionFromModule
 
-    array|\PrestaShopCollection TabCore::getCollectionFromModule($module, null $id_lang)
+```php
+array|\PrestaShopCollection TabCore::getCollectionFromModule($module, null $id_lang)
+```
 
 Get collection from module name
 
@@ -347,7 +387,9 @@ Get collection from module name
 
 ### <a name="method-getCurrentParentId"></a>getCurrentParentId
 
-    integer TabCore::getCurrentParentId()
+```php
+integer TabCore::getCurrentParentId()
+```
 
 Get tab parent id
 
@@ -362,7 +404,9 @@ Get tab parent id
 
 ### <a name="method-getCurrentTabId"></a>getCurrentTabId
 
-    integer TabCore::getCurrentTabId()
+```php
+integer TabCore::getCurrentTabId()
+```
 
 Get tab id
 
@@ -377,7 +421,9 @@ Get tab id
 
 ### <a name="method-getIdFromClassName"></a>getIdFromClassName
 
-    integer TabCore::getIdFromClassName(string $class_name)
+```php
+integer TabCore::getIdFromClassName(string $class_name)
+```
 
 Get tab id from name
 
@@ -395,7 +441,9 @@ Get tab id from name
 
 ### <a name="method-getInstanceFromClassName"></a>getInstanceFromClassName
 
-    \Tab TabCore::getInstanceFromClassName($class_name, $id_lang)
+```php
+\Tab TabCore::getInstanceFromClassName($class_name, $id_lang)
+```
 
 Get Instance from tab class name
 
@@ -414,7 +462,9 @@ Get Instance from tab class name
 
 ### <a name="method-getModuleTabList"></a>getModuleTabList
 
-    array TabCore::getModuleTabList()
+```php
+array TabCore::getModuleTabList()
+```
 
 Return the list of tab used by a module
 
@@ -429,7 +479,9 @@ Return the list of tab used by a module
 
 ### <a name="method-getNbTabs"></a>getNbTabs
 
-    mixed TabCore::getNbTabs($id_parent)
+```php
+mixed TabCore::getNbTabs($id_parent)
+```
 
 
 
@@ -447,7 +499,9 @@ Return the list of tab used by a module
 
 ### <a name="method-getNewLastPosition"></a>getNewLastPosition
 
-    integer TabCore::getNewLastPosition(mixed $id_parent)
+```php
+integer TabCore::getNewLastPosition(mixed $id_parent)
+```
 
 return an available position in subtab for parent $id_parent
 
@@ -465,7 +519,9 @@ return an available position in subtab for parent $id_parent
 
 ### <a name="method-getTab"></a>getTab
 
-    array TabCore::getTab($id_lang, $id_tab)
+```php
+array TabCore::getTab($id_lang, $id_tab)
+```
 
 Get tab
 
@@ -484,7 +540,9 @@ Get tab
 
 ### <a name="method-getTabByIdProfile"></a>getTabByIdProfile
 
-    mixed TabCore::getTabByIdProfile($id_parent, $id_profile)
+```php
+mixed TabCore::getTabByIdProfile($id_parent, $id_profile)
+```
 
 
 
@@ -503,7 +561,9 @@ Get tab
 
 ### <a name="method-getTabModulesList"></a>getTabModulesList
 
-    mixed TabCore::getTabModulesList($id_tab)
+```php
+mixed TabCore::getTabModulesList($id_tab)
+```
 
 
 
@@ -521,7 +581,9 @@ Get tab
 
 ### <a name="method-getTabs"></a>getTabs
 
-    mixed TabCore::getTabs($id_lang, $id_parent)
+```php
+mixed TabCore::getTabs($id_lang, $id_parent)
+```
 
 
 
@@ -540,7 +602,9 @@ Get tab
 
 ### <a name="method-initAccess"></a>initAccess
 
-    boolean TabCore::initAccess(integer $id_tab, \Context $context)
+```php
+boolean TabCore::initAccess(integer $id_tab, \Context $context)
+```
 
 When creating a new tab $id_tab, this add default rights to the table access
 
@@ -559,7 +623,9 @@ When creating a new tab $id_tab, this add default rights to the table access
 
 ### <a name="method-move"></a>move
 
-    mixed TabCore::move($direction)
+```php
+mixed TabCore::move($direction)
+```
 
 
 
@@ -576,7 +642,9 @@ When creating a new tab $id_tab, this add default rights to the table access
 
 ### <a name="method-recursiveTab"></a>recursiveTab
 
-    mixed TabCore::recursiveTab($id_tab, $tabs)
+```php
+mixed TabCore::recursiveTab($id_tab, $tabs)
+```
 
 
 
@@ -595,7 +663,9 @@ When creating a new tab $id_tab, this add default rights to the table access
 
 ### <a name="method-save"></a>save
 
-    mixed TabCore::save($null_values, $autodate)
+```php
+mixed TabCore::save($null_values, $autodate)
+```
 
 
 
@@ -613,7 +683,9 @@ When creating a new tab $id_tab, this add default rights to the table access
 
 ### <a name="method-update"></a>update
 
-    boolean TabCore::update(boolean $null_values)
+```php
+boolean TabCore::update(boolean $null_values)
+```
 
 Overrides update to set position to last when changing parent tab
 
@@ -630,7 +702,9 @@ Overrides update to set position to last when changing parent tab
 
 ### <a name="method-updatePosition"></a>updatePosition
 
-    mixed TabCore::updatePosition($way, $position)
+```php
+mixed TabCore::updatePosition($way, $position)
+```
 
 
 

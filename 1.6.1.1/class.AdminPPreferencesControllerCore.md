@@ -10,14 +10,16 @@ Class AdminPPreferencesControllerCore
 * Source: [controllers/admin/AdminPPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPPreferencesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [beforeUpdateOptions](#method-beforeUpdateOptions)
 
@@ -30,7 +32,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Configuration $object
+```php
+public \Configuration $object
+```
 
 
 
@@ -46,7 +50,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminPPreferencesControllerCore::__construct()
+```php
+mixed AdminPPreferencesControllerCore::__construct()
+```
 
 
 
@@ -60,7 +66,9 @@ Methods
 
 ### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
-    mixed AdminPPreferencesControllerCore::beforeUpdateOptions()
+```php
+mixed AdminPPreferencesControllerCore::beforeUpdateOptions()
+```
 
 
 

@@ -10,9 +10,11 @@ Class TaxCore
 * Source: [classes/tax/Tax.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L28)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_product_country_tax](#property-$_product_country_tax)
 * [$_product_tax_via_rules](#property-$_product_tax_via_rules)
@@ -23,8 +25,8 @@ Properties
 * [$rate](#property-$rate)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [_onStatusChange](#method-_onStatusChange)
 * [delete](#method-delete)
 * [excludeTaxeOption](#method-excludeTaxeOption)
@@ -48,7 +50,9 @@ Properties
 
 ### <a name="property-$_product_country_tax"></a>$_product_country_tax
 
-    protected mixed $_product_country_tax = array()
+```php
+protected mixed $_product_country_tax = array()
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$_product_tax_via_rules"></a>$_product_tax_via_rules
 
-    protected mixed $_product_tax_via_rules = array()
+```php
+protected mixed $_product_tax_via_rules = array()
+```
 
 
 
@@ -74,7 +80,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active
+```php
+public boolean $active
+```
 
 
 
@@ -86,7 +94,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'tax', 'primary' => 'id_tax', 'multilang' => true, 'fields' => array('rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'active' => array('type' => self::TYPE_BOOL), 'deleted' => array('type' => self::TYPE_BOOL), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32)))
+```php
+public mixed $definition = array('table' => 'tax', 'primary' => 'id_tax', 'multilang' => true, 'fields' => array('rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'active' => array('type' => self::TYPE_BOOL), 'deleted' => array('type' => self::TYPE_BOOL), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32)))
+```
 
 
 
@@ -99,7 +109,9 @@ Properties
 
 ### <a name="property-$deleted"></a>$deleted
 
-    public boolean $deleted
+```php
+public boolean $deleted
+```
 
 
 
@@ -111,7 +123,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -123,7 +137,9 @@ Properties
 
 ### <a name="property-$rate"></a>$rate
 
-    public float $rate
+```php
+public float $rate
+```
 
 
 
@@ -135,7 +151,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'taxes')
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'taxes')
+```
 
 
 
@@ -151,7 +169,9 @@ Methods
 
 ### <a name="method-_onStatusChange"></a>_onStatusChange
 
-    mixed TaxCore::_onStatusChange()
+```php
+mixed TaxCore::_onStatusChange()
+```
 
 
 
@@ -165,7 +185,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed TaxCore::delete()
+```php
+mixed TaxCore::delete()
+```
 
 
 
@@ -179,7 +201,9 @@ Methods
 
 ### <a name="method-excludeTaxeOption"></a>excludeTaxeOption
 
-    mixed TaxCore::excludeTaxeOption()
+```php
+mixed TaxCore::excludeTaxeOption()
+```
 
 
 
@@ -194,7 +218,9 @@ Methods
 
 ### <a name="method-getCarrierTaxRate"></a>getCarrierTaxRate
 
-    float TaxCore::getCarrierTaxRate($id_carrier, $id_address)
+```php
+float TaxCore::getCarrierTaxRate($id_carrier, $id_address)
+```
 
 Returns the carrier tax rate
 
@@ -213,7 +239,9 @@ Returns the carrier tax rate
 
 ### <a name="method-getProductEcotaxRate"></a>getProductEcotaxRate
 
-    float TaxCore::getProductEcotaxRate($id_address)
+```php
+float TaxCore::getProductEcotaxRate($id_address)
+```
 
 Returns the ecotax tax rate
 
@@ -231,7 +259,9 @@ Returns the ecotax tax rate
 
 ### <a name="method-getProductTaxRate"></a>getProductTaxRate
 
-    \Tax TaxCore::getProductTaxRate(integer $id_product, $id_address, \Context $context)
+```php
+\Tax TaxCore::getProductTaxRate(integer $id_product, $id_address, \Context $context)
+```
 
 Returns the product tax
 
@@ -251,7 +281,9 @@ Returns the product tax
 
 ### <a name="method-getProductTaxRateViaRules"></a>getProductTaxRateViaRules
 
-    \Tax TaxCore::getProductTaxRateViaRules(integer $id_product, integer $id_country, $id_state, $zipcode)
+```php
+\Tax TaxCore::getProductTaxRateViaRules(integer $id_product, integer $id_country, $id_state, $zipcode)
+```
 
 Return the product tax rate using the tax rules system
 
@@ -272,7 +304,9 @@ Return the product tax rate using the tax rules system
 
 ### <a name="method-getTaxIdByName"></a>getTaxIdByName
 
-    mixed TaxCore::getTaxIdByName(string $tax_name, boolean $active)
+```php
+mixed TaxCore::getTaxIdByName(string $tax_name, boolean $active)
+```
 
 Return the tax id associated to the specified name
 
@@ -291,7 +325,9 @@ Return the tax id associated to the specified name
 
 ### <a name="method-getTaxes"></a>getTaxes
 
-    array TaxCore::getTaxes($id_lang, $active_only)
+```php
+array TaxCore::getTaxes($id_lang, $active_only)
+```
 
 Get all available taxes
 
@@ -310,7 +346,9 @@ Get all available taxes
 
 ### <a name="method-historize"></a>historize
 
-    mixed TaxCore::historize()
+```php
+mixed TaxCore::historize()
+```
 
 Save the object with the field deleted to true
 
@@ -324,7 +362,9 @@ Save the object with the field deleted to true
 
 ### <a name="method-isUsed"></a>isUsed
 
-    boolean TaxCore::isUsed()
+```php
+boolean TaxCore::isUsed()
+```
 
 Returns true if the tax is used in an order details
 
@@ -338,7 +378,9 @@ Returns true if the tax is used in an order details
 
 ### <a name="method-toggleStatus"></a>toggleStatus
 
-    mixed TaxCore::toggleStatus()
+```php
+mixed TaxCore::toggleStatus()
+```
 
 
 
@@ -352,7 +394,9 @@ Returns true if the tax is used in an order details
 
 ### <a name="method-update"></a>update
 
-    mixed TaxCore::update($null_values)
+```php
+mixed TaxCore::update($null_values)
+```
 
 
 

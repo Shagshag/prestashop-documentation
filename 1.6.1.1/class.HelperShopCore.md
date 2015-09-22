@@ -24,11 +24,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [classes/helper/HelperShop.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperShop.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [getRenderedShopList](#method-getRenderedShopList)
 
 
@@ -42,7 +44,9 @@ Methods
 
 ### <a name="method-getRenderedShopList"></a>getRenderedShopList
 
-    string HelperShopCore::getRenderedShopList()
+```php
+string HelperShopCore::getRenderedShopList()
+```
 
 Render shop list
 

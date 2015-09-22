@@ -10,15 +10,17 @@ Class AdminSuppliersControllerCore
 * Source: [controllers/admin/AdminSuppliersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$bootstrap](#property-$bootstrap)
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterAdd](#method-afterAdd)
 * [afterImageUpload](#method-afterImageUpload)
@@ -39,7 +41,9 @@ Properties
 
 ### <a name="property-$bootstrap"></a>$bootstrap
 
-    public mixed $bootstrap = true
+```php
+public mixed $bootstrap = true
+```
 
 
 
@@ -51,7 +55,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Supplier $object
+```php
+public \Supplier $object
+```
 
 
 
@@ -67,7 +73,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminSuppliersControllerCore::__construct()
+```php
+mixed AdminSuppliersControllerCore::__construct()
+```
 
 
 
@@ -81,7 +89,9 @@ Methods
 
 ### <a name="method-afterAdd"></a>afterAdd
 
-    boolean AdminSuppliersControllerCore::afterAdd(\Supplier $object)
+```php
+boolean AdminSuppliersControllerCore::afterAdd(\Supplier $object)
+```
 
 
 
@@ -98,7 +108,9 @@ Methods
 
 ### <a name="method-afterImageUpload"></a>afterImageUpload
 
-    mixed AdminSuppliersControllerCore::afterImageUpload()
+```php
+mixed AdminSuppliersControllerCore::afterImageUpload()
+```
 
 
 
@@ -112,7 +124,9 @@ Methods
 
 ### <a name="method-afterUpdate"></a>afterUpdate
 
-    boolean AdminSuppliersControllerCore::afterUpdate(\Supplier $object)
+```php
+boolean AdminSuppliersControllerCore::afterUpdate(\Supplier $object)
+```
 
 
 
@@ -129,7 +143,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminSuppliersControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminSuppliersControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -143,7 +159,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminSuppliersControllerCore::initToolbar()
+```php
+mixed AdminSuppliersControllerCore::initToolbar()
+```
 
 AdminController::initToolbar() override
 
@@ -157,7 +175,9 @@ AdminController::initToolbar() override
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminSuppliersControllerCore::postProcess()
+```php
+mixed AdminSuppliersControllerCore::postProcess()
+```
 
 AdminController::postProcess() override
 
@@ -171,7 +191,9 @@ AdminController::postProcess() override
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminSuppliersControllerCore::renderForm()
+```php
+mixed AdminSuppliersControllerCore::renderForm()
+```
 
 
 
@@ -185,7 +207,9 @@ AdminController::postProcess() override
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminSuppliersControllerCore::renderView()
+```php
+mixed AdminSuppliersControllerCore::renderView()
+```
 
 
 
@@ -199,7 +223,9 @@ AdminController::postProcess() override
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminSuppliersControllerCore::setMedia()
+```php
+mixed AdminSuppliersControllerCore::setMedia()
+```
 
 
 

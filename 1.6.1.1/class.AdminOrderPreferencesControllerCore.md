@@ -10,14 +10,16 @@ Class AdminOrderPreferencesControllerCore
 * Source: [controllers/admin/AdminOrderPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderPreferencesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [beforeUpdateOptions](#method-beforeUpdateOptions)
 
@@ -30,7 +32,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Configuration $object
+```php
+public \Configuration $object
+```
 
 
 
@@ -46,7 +50,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminOrderPreferencesControllerCore::__construct()
+```php
+mixed AdminOrderPreferencesControllerCore::__construct()
+```
 
 
 
@@ -60,7 +66,9 @@ Methods
 
 ### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
-    mixed AdminOrderPreferencesControllerCore::beforeUpdateOptions()
+```php
+mixed AdminOrderPreferencesControllerCore::beforeUpdateOptions()
+```
 
 This method is called before we start to update options configuration
 

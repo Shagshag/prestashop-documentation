@@ -10,15 +10,17 @@ Class SupplierControllerCore
 * Source: [controllers/front/SupplierController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$php_self](#property-$php_self)
 * [$supplier](#property-$supplier)
 
-Methods
--------
+### Methods
+
 * [assignAll](#method-assignAll)
 * [assignOne](#method-assignOne)
 * [canonicalRedirection](#method-canonicalRedirection)
@@ -36,7 +38,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'supplier'
+```php
+public mixed $php_self = 'supplier'
+```
 
 
 
@@ -48,7 +52,9 @@ Properties
 
 ### <a name="property-$supplier"></a>$supplier
 
-    protected \Supplier $supplier
+```php
+protected \Supplier $supplier
+```
 
 
 
@@ -64,7 +70,9 @@ Methods
 
 ### <a name="method-assignAll"></a>assignAll
 
-    mixed SupplierControllerCore::assignAll()
+```php
+mixed SupplierControllerCore::assignAll()
+```
 
 Assign template vars if displaying the supplier list
 
@@ -78,7 +86,9 @@ Assign template vars if displaying the supplier list
 
 ### <a name="method-assignOne"></a>assignOne
 
-    mixed SupplierControllerCore::assignOne()
+```php
+mixed SupplierControllerCore::assignOne()
+```
 
 Assign template vars if displaying one supplier
 
@@ -92,7 +102,9 @@ Assign template vars if displaying one supplier
 
 ### <a name="method-canonicalRedirection"></a>canonicalRedirection
 
-    mixed SupplierControllerCore::canonicalRedirection($canonicalURL)
+```php
+mixed SupplierControllerCore::canonicalRedirection($canonicalURL)
+```
 
 
 
@@ -109,7 +121,9 @@ Assign template vars if displaying one supplier
 
 ### <a name="method-getSupplier"></a>getSupplier
 
-    mixed SupplierControllerCore::getSupplier()
+```php
+mixed SupplierControllerCore::getSupplier()
+```
 
 Get instance of current supplier
 
@@ -123,7 +137,9 @@ Get instance of current supplier
 
 ### <a name="method-init"></a>init
 
-    mixed SupplierControllerCore::init()
+```php
+mixed SupplierControllerCore::init()
+```
 
 Initialize supplier controller
 
@@ -137,7 +153,9 @@ Initialize supplier controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed SupplierControllerCore::initContent()
+```php
+mixed SupplierControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -151,7 +169,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed SupplierControllerCore::setMedia()
+```php
+mixed SupplierControllerCore::setMedia()
+```
 
 
 

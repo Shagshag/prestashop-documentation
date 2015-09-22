@@ -10,15 +10,17 @@ Class BoOrder
 * Source: [controllers/admin/AdminOrdersController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$name](#property-$name)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 
 
@@ -30,7 +32,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public mixed $active = 1
+```php
+public mixed $active = 1
+```
 
 
 
@@ -42,7 +46,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name = 'bo_order'
+```php
+public mixed $name = 'bo_order'
+```
 
 
 
@@ -58,7 +64,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed BoOrder::__construct()
+```php
+mixed BoOrder::__construct()
+```
 
 
 

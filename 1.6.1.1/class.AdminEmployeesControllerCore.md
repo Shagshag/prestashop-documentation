@@ -10,9 +10,11 @@ Class AdminEmployeesControllerCore
 * Source: [controllers/admin/AdminEmployeesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 * [$profiles_array](#property-$profiles_array)
@@ -20,8 +22,8 @@ Properties
 * [$tabs_list](#property-$tabs_list)
 * [$themes](#property-$themes)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_childValidation](#method-_childValidation)
 * [afterUpdate](#method-afterUpdate)
@@ -50,7 +52,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Employee $object
+```php
+public \Employee $object
+```
 
 
 
@@ -62,7 +66,9 @@ Properties
 
 ### <a name="property-$profiles_array"></a>$profiles_array
 
-    protected array $profiles_array = array()
+```php
+protected array $profiles_array = array()
+```
 
 
 
@@ -74,7 +80,9 @@ Properties
 
 ### <a name="property-$restrict_edition"></a>$restrict_edition
 
-    protected mixed $restrict_edition = false
+```php
+protected mixed $restrict_edition = false
+```
 
 
 
@@ -86,7 +94,9 @@ Properties
 
 ### <a name="property-$tabs_list"></a>$tabs_list
 
-    protected array $tabs_list = array()
+```php
+protected array $tabs_list = array()
+```
 
 
 
@@ -98,7 +108,9 @@ Properties
 
 ### <a name="property-$themes"></a>$themes
 
-    protected array $themes = array()
+```php
+protected array $themes = array()
+```
 
 
 
@@ -114,7 +126,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminEmployeesControllerCore::__construct()
+```php
+mixed AdminEmployeesControllerCore::__construct()
+```
 
 
 
@@ -128,7 +142,9 @@ Methods
 
 ### <a name="method-_childValidation"></a>_childValidation
 
-    mixed AdminEmployeesControllerCore::_childValidation()
+```php
+mixed AdminEmployeesControllerCore::_childValidation()
+```
 
 
 
@@ -142,7 +158,9 @@ Methods
 
 ### <a name="method-afterUpdate"></a>afterUpdate
 
-    boolean AdminEmployeesControllerCore::afterUpdate(\Employee $object)
+```php
+boolean AdminEmployeesControllerCore::afterUpdate(\Employee $object)
+```
 
 
 
@@ -159,7 +177,9 @@ Methods
 
 ### <a name="method-ajaxProcessFormLanguage"></a>ajaxProcessFormLanguage
 
-    mixed AdminEmployeesControllerCore::ajaxProcessFormLanguage()
+```php
+mixed AdminEmployeesControllerCore::ajaxProcessFormLanguage()
+```
 
 
 
@@ -173,7 +193,9 @@ Methods
 
 ### <a name="method-ajaxProcessGetTabByIdProfile"></a>ajaxProcessGetTabByIdProfile
 
-    mixed AdminEmployeesControllerCore::ajaxProcessGetTabByIdProfile()
+```php
+mixed AdminEmployeesControllerCore::ajaxProcessGetTabByIdProfile()
+```
 
 
 
@@ -187,7 +209,9 @@ Methods
 
 ### <a name="method-ajaxProcessToggleMenu"></a>ajaxProcessToggleMenu
 
-    mixed AdminEmployeesControllerCore::ajaxProcessToggleMenu()
+```php
+mixed AdminEmployeesControllerCore::ajaxProcessToggleMenu()
+```
 
 
 
@@ -201,7 +225,9 @@ Methods
 
 ### <a name="method-canModifyEmployee"></a>canModifyEmployee
 
-    mixed AdminEmployeesControllerCore::canModifyEmployee()
+```php
+mixed AdminEmployeesControllerCore::canModifyEmployee()
+```
 
 
 
@@ -215,7 +241,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminEmployeesControllerCore::initContent()
+```php
+mixed AdminEmployeesControllerCore::initContent()
+```
 
 
 
@@ -229,7 +257,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminEmployeesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminEmployeesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -243,7 +273,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminEmployeesControllerCore::postProcess()
+```php
+mixed AdminEmployeesControllerCore::postProcess()
+```
 
 
 
@@ -257,7 +289,9 @@ Methods
 
 ### <a name="method-processBulkDelete"></a>processBulkDelete
 
-    mixed AdminEmployeesControllerCore::processBulkDelete()
+```php
+mixed AdminEmployeesControllerCore::processBulkDelete()
+```
 
 
 
@@ -271,7 +305,9 @@ Methods
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminEmployeesControllerCore::processDelete()
+```php
+mixed AdminEmployeesControllerCore::processDelete()
+```
 
 
 
@@ -285,7 +321,9 @@ Methods
 
 ### <a name="method-processSave"></a>processSave
 
-    mixed AdminEmployeesControllerCore::processSave()
+```php
+mixed AdminEmployeesControllerCore::processSave()
+```
 
 
 
@@ -299,7 +337,9 @@ Methods
 
 ### <a name="method-processStatus"></a>processStatus
 
-    mixed AdminEmployeesControllerCore::processStatus()
+```php
+mixed AdminEmployeesControllerCore::processStatus()
+```
 
 
 
@@ -313,7 +353,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminEmployeesControllerCore::renderForm()
+```php
+mixed AdminEmployeesControllerCore::renderForm()
+```
 
 
 
@@ -327,7 +369,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminEmployeesControllerCore::renderList()
+```php
+mixed AdminEmployeesControllerCore::renderList()
+```
 
 
 
@@ -341,7 +385,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminEmployeesControllerCore::setMedia()
+```php
+mixed AdminEmployeesControllerCore::setMedia()
+```
 
 
 
@@ -355,7 +401,9 @@ Methods
 
 ### <a name="method-validateRules"></a>validateRules
 
-    mixed AdminEmployeesControllerCore::validateRules($class_name)
+```php
+mixed AdminEmployeesControllerCore::validateRules($class_name)
+```
 
 
 

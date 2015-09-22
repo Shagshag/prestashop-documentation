@@ -10,11 +10,13 @@ Class AdminInformationControllerCore
 * Source: [controllers/admin/AdminInformationController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [displayAjaxCheckFiles](#method-displayAjaxCheckFiles)
 * [getListOfUpdatedFiles](#method-getListOfUpdatedFiles)
@@ -35,7 +37,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminInformationControllerCore::__construct()
+```php
+mixed AdminInformationControllerCore::__construct()
+```
 
 
 
@@ -49,7 +53,9 @@ Methods
 
 ### <a name="method-displayAjaxCheckFiles"></a>displayAjaxCheckFiles
 
-    mixed AdminInformationControllerCore::displayAjaxCheckFiles()
+```php
+mixed AdminInformationControllerCore::displayAjaxCheckFiles()
+```
 
 
 
@@ -63,7 +69,9 @@ Methods
 
 ### <a name="method-getListOfUpdatedFiles"></a>getListOfUpdatedFiles
 
-    mixed AdminInformationControllerCore::getListOfUpdatedFiles(\SimpleXMLElement $dir, $path)
+```php
+mixed AdminInformationControllerCore::getListOfUpdatedFiles(\SimpleXMLElement $dir, $path)
+```
 
 
 
@@ -81,7 +89,9 @@ Methods
 
 ### <a name="method-getTestResult"></a>getTestResult
 
-    array AdminInformationControllerCore::getTestResult()
+```php
+array AdminInformationControllerCore::getTestResult()
+```
 
 get all tests
 
@@ -95,7 +105,9 @@ get all tests
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminInformationControllerCore::initContent()
+```php
+mixed AdminInformationControllerCore::initContent()
+```
 
 
 
@@ -109,7 +121,9 @@ get all tests
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminInformationControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminInformationControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -123,7 +137,9 @@ get all tests
 
 ### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
-    mixed AdminInformationControllerCore::initToolbarTitle()
+```php
+mixed AdminInformationControllerCore::initToolbarTitle()
+```
 
 
 
@@ -137,7 +153,9 @@ get all tests
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminInformationControllerCore::renderView()
+```php
+mixed AdminInformationControllerCore::renderView()
+```
 
 
 

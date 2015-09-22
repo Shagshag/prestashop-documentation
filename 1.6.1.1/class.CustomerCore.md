@@ -10,9 +10,11 @@ Class CustomerCore
 * Source: [classes/Customer.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_customerHasAddress](#property-$_customerHasAddress)
 * [$_customer_groups](#property-$_customer_groups)
@@ -60,8 +62,8 @@ Properties
 * [$website](#property-$website)
 * [$years](#property-$years)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [addGroups](#method-addGroups)
@@ -114,7 +116,9 @@ Properties
 
 ### <a name="property-$_customerHasAddress"></a>$_customerHasAddress
 
-    protected mixed $_customerHasAddress = array()
+```php
+protected mixed $_customerHasAddress = array()
+```
 
 
 
@@ -127,7 +131,9 @@ Properties
 
 ### <a name="property-$_customer_groups"></a>$_customer_groups
 
-    protected mixed $_customer_groups = array()
+```php
+protected mixed $_customer_groups = array()
+```
 
 
 
@@ -140,7 +146,9 @@ Properties
 
 ### <a name="property-$_defaultGroupId"></a>$_defaultGroupId
 
-    protected mixed $_defaultGroupId = array()
+```php
+protected mixed $_defaultGroupId = array()
+```
 
 
 
@@ -153,7 +161,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = true
+```php
+public boolean $active = true
+```
 
 
 
@@ -165,7 +175,9 @@ Properties
 
 ### <a name="property-$ape"></a>$ape
 
-    public string $ape
+```php
+public string $ape
+```
 
 
 
@@ -177,7 +189,9 @@ Properties
 
 ### <a name="property-$birthday"></a>$birthday
 
-    public string $birthday = null
+```php
+public string $birthday = null
+```
 
 
 
@@ -189,7 +203,9 @@ Properties
 
 ### <a name="property-$company"></a>$company
 
-    public string $company
+```php
+public string $company
+```
 
 
 
@@ -201,7 +217,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -213,7 +231,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -225,7 +245,9 @@ Properties
 
 ### <a name="property-$days"></a>$days
 
-    public mixed $days
+```php
+public mixed $days
+```
 
 
 
@@ -237,7 +259,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'customer', 'primary' => 'id_customer', 'fields' => array('secure_key' => array('type' => self::TYPE_STRING, 'validate' => 'isMd5', 'copy_post' => false), 'lastname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'firstname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'required' => true, 'size' => 128), 'passwd' => array('type' => self::TYPE_STRING, 'validate' => 'isPasswd', 'required' => true, 'size' => 32), 'last_passwd_gen' => array('type' => self::TYPE_STRING, 'copy_post' => false), 'id_gender' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'birthday' => array('type' => self::TYPE_DATE, 'validate' => 'isBirthDate'), 'newsletter' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'newsletter_date_add' => array('type' => self::TYPE_DATE, 'copy_post' => false), 'ip_registration_newsletter' => array('type' => self::TYPE_STRING, 'copy_post' => false), 'optin' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'website' => array('type' => self::TYPE_STRING, 'validate' => 'isUrl'), 'company' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName'), 'siret' => array('type' => self::TYPE_STRING, 'validate' => 'isSiret'), 'ape' => array('type' => self::TYPE_STRING, 'validate' => 'isApe'), 'outstanding_allow_amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'copy_post' => false), 'show_public_prices' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'copy_post' => false), 'id_risk' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'copy_post' => false), 'max_payment_days' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'copy_post' => false), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'copy_post' => false), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'copy_post' => false), 'note' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml', 'size' => 65000, 'copy_post' => false), 'is_guest' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'copy_post' => false), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'copy_post' => false), 'id_shop_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'copy_post' => false), 'id_default_group' => array('type' => self::TYPE_INT, 'copy_post' => false), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'copy_post' => false), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false)))
+```php
+public mixed $definition = array('table' => 'customer', 'primary' => 'id_customer', 'fields' => array('secure_key' => array('type' => self::TYPE_STRING, 'validate' => 'isMd5', 'copy_post' => false), 'lastname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'firstname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'required' => true, 'size' => 128), 'passwd' => array('type' => self::TYPE_STRING, 'validate' => 'isPasswd', 'required' => true, 'size' => 32), 'last_passwd_gen' => array('type' => self::TYPE_STRING, 'copy_post' => false), 'id_gender' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'birthday' => array('type' => self::TYPE_DATE, 'validate' => 'isBirthDate'), 'newsletter' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'newsletter_date_add' => array('type' => self::TYPE_DATE, 'copy_post' => false), 'ip_registration_newsletter' => array('type' => self::TYPE_STRING, 'copy_post' => false), 'optin' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'website' => array('type' => self::TYPE_STRING, 'validate' => 'isUrl'), 'company' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName'), 'siret' => array('type' => self::TYPE_STRING, 'validate' => 'isSiret'), 'ape' => array('type' => self::TYPE_STRING, 'validate' => 'isApe'), 'outstanding_allow_amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'copy_post' => false), 'show_public_prices' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'copy_post' => false), 'id_risk' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'copy_post' => false), 'max_payment_days' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'copy_post' => false), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'copy_post' => false), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'copy_post' => false), 'note' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml', 'size' => 65000, 'copy_post' => false), 'is_guest' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'copy_post' => false), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'copy_post' => false), 'id_shop_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'copy_post' => false), 'id_default_group' => array('type' => self::TYPE_INT, 'copy_post' => false), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'copy_post' => false), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false)))
+```
 
 
 
@@ -250,7 +274,9 @@ Properties
 
 ### <a name="property-$deleted"></a>$deleted
 
-    public boolean $deleted
+```php
+public boolean $deleted
+```
 
 
 
@@ -262,7 +288,9 @@ Properties
 
 ### <a name="property-$email"></a>$email
 
-    public string $email
+```php
+public string $email
+```
 
 
 
@@ -274,7 +302,9 @@ Properties
 
 ### <a name="property-$firstname"></a>$firstname
 
-    public string $firstname
+```php
+public string $firstname
+```
 
 
 
@@ -286,7 +316,9 @@ Properties
 
 ### <a name="property-$geoloc_id_country"></a>$geoloc_id_country
 
-    public integer $geoloc_id_country
+```php
+public integer $geoloc_id_country
+```
 
 
 
@@ -298,7 +330,9 @@ Properties
 
 ### <a name="property-$geoloc_id_state"></a>$geoloc_id_state
 
-    public integer $geoloc_id_state
+```php
+public integer $geoloc_id_state
+```
 
 
 
@@ -310,7 +344,9 @@ Properties
 
 ### <a name="property-$geoloc_postcode"></a>$geoloc_postcode
 
-    public string $geoloc_postcode
+```php
+public string $geoloc_postcode
+```
 
 
 
@@ -322,7 +358,9 @@ Properties
 
 ### <a name="property-$groupBox"></a>$groupBox
 
-    public mixed $groupBox
+```php
+public mixed $groupBox
+```
 
 
 
@@ -334,7 +372,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -346,7 +386,9 @@ Properties
 
 ### <a name="property-$id_default_group"></a>$id_default_group
 
-    public integer $id_default_group
+```php
+public integer $id_default_group
+```
 
 
 
@@ -358,7 +400,9 @@ Properties
 
 ### <a name="property-$id_gender"></a>$id_gender
 
-    public integer $id_gender
+```php
+public integer $id_gender
+```
 
 
 
@@ -370,7 +414,9 @@ Properties
 
 ### <a name="property-$id_guest"></a>$id_guest
 
-    public integer $id_guest
+```php
+public integer $id_guest
+```
 
 
 
@@ -382,7 +428,9 @@ Properties
 
 ### <a name="property-$id_lang"></a>$id_lang
 
-    public integer $id_lang
+```php
+public integer $id_lang
+```
 
 
 
@@ -394,7 +442,9 @@ Properties
 
 ### <a name="property-$id_risk"></a>$id_risk
 
-    public integer $id_risk
+```php
+public integer $id_risk
+```
 
 
 
@@ -406,7 +456,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public mixed $id_shop
+```php
+public mixed $id_shop
+```
 
 
 
@@ -418,7 +470,9 @@ Properties
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
 
-    public mixed $id_shop_group
+```php
+public mixed $id_shop_group
+```
 
 
 
@@ -430,7 +484,9 @@ Properties
 
 ### <a name="property-$ip_registration_newsletter"></a>$ip_registration_newsletter
 
-    public string $ip_registration_newsletter
+```php
+public string $ip_registration_newsletter
+```
 
 
 
@@ -442,7 +498,9 @@ Properties
 
 ### <a name="property-$is_guest"></a>$is_guest
 
-    public boolean $is_guest
+```php
+public boolean $is_guest
+```
 
 
 
@@ -454,7 +512,9 @@ Properties
 
 ### <a name="property-$last_passwd_gen"></a>$last_passwd_gen
 
-    public string $last_passwd_gen
+```php
+public string $last_passwd_gen
+```
 
 
 
@@ -466,7 +526,9 @@ Properties
 
 ### <a name="property-$lastname"></a>$lastname
 
-    public string $lastname
+```php
+public string $lastname
+```
 
 
 
@@ -478,7 +540,9 @@ Properties
 
 ### <a name="property-$logged"></a>$logged
 
-    public boolean $logged
+```php
+public boolean $logged
+```
 
 
 
@@ -490,7 +554,9 @@ Properties
 
 ### <a name="property-$max_payment_days"></a>$max_payment_days
 
-    public integer $max_payment_days
+```php
+public integer $max_payment_days
+```
 
 
 
@@ -502,7 +568,9 @@ Properties
 
 ### <a name="property-$months"></a>$months
 
-    public mixed $months
+```php
+public mixed $months
+```
 
 
 
@@ -514,7 +582,9 @@ Properties
 
 ### <a name="property-$newsletter"></a>$newsletter
 
-    public boolean $newsletter
+```php
+public boolean $newsletter
+```
 
 
 
@@ -526,7 +596,9 @@ Properties
 
 ### <a name="property-$newsletter_date_add"></a>$newsletter_date_add
 
-    public string $newsletter_date_add
+```php
+public string $newsletter_date_add
+```
 
 
 
@@ -538,7 +610,9 @@ Properties
 
 ### <a name="property-$note"></a>$note
 
-    public string $note
+```php
+public string $note
+```
 
 
 
@@ -550,7 +624,9 @@ Properties
 
 ### <a name="property-$optin"></a>$optin
 
-    public boolean $optin
+```php
+public boolean $optin
+```
 
 
 
@@ -562,7 +638,9 @@ Properties
 
 ### <a name="property-$outstanding_allow_amount"></a>$outstanding_allow_amount
 
-    public float $outstanding_allow_amount
+```php
+public float $outstanding_allow_amount
+```
 
 
 
@@ -574,7 +652,9 @@ Properties
 
 ### <a name="property-$passwd"></a>$passwd
 
-    public integer $passwd
+```php
+public integer $passwd
+```
 
 
 
@@ -586,7 +666,9 @@ Properties
 
 ### <a name="property-$secure_key"></a>$secure_key
 
-    public string $secure_key
+```php
+public string $secure_key
+```
 
 
 
@@ -598,7 +680,9 @@ Properties
 
 ### <a name="property-$show_public_prices"></a>$show_public_prices
 
-    public integer $show_public_prices
+```php
+public integer $show_public_prices
+```
 
 
 
@@ -610,7 +694,9 @@ Properties
 
 ### <a name="property-$siret"></a>$siret
 
-    public string $siret
+```php
+public string $siret
+```
 
 
 
@@ -622,7 +708,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_default_group' => array('xlink_resource' => 'groups'), 'id_lang' => array('xlink_resource' => 'languages'), 'newsletter_date_add' => array(), 'ip_registration_newsletter' => array(), 'last_passwd_gen' => array('setter' => null), 'secure_key' => array('setter' => null), 'deleted' => array(), 'passwd' => array('setter' => 'setWsPasswd')), 'associations' => array('groups' => array('resource' => 'group')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_default_group' => array('xlink_resource' => 'groups'), 'id_lang' => array('xlink_resource' => 'languages'), 'newsletter_date_add' => array(), 'ip_registration_newsletter' => array(), 'last_passwd_gen' => array('setter' => null), 'secure_key' => array('setter' => null), 'deleted' => array(), 'passwd' => array('setter' => 'setWsPasswd')), 'associations' => array('groups' => array('resource' => 'group')))
+```
 
 
 
@@ -634,7 +722,9 @@ Properties
 
 ### <a name="property-$website"></a>$website
 
-    public string $website
+```php
+public string $website
+```
 
 
 
@@ -646,7 +736,9 @@ Properties
 
 ### <a name="property-$years"></a>$years
 
-    public mixed $years
+```php
+public mixed $years
+```
 
 
 
@@ -662,7 +754,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed CustomerCore::__construct($id)
+```php
+mixed CustomerCore::__construct($id)
+```
 
 
 
@@ -679,7 +773,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed CustomerCore::add($autodate, $null_values)
+```php
+mixed CustomerCore::add($autodate, $null_values)
+```
 
 
 
@@ -697,7 +793,9 @@ Methods
 
 ### <a name="method-addGroups"></a>addGroups
 
-    mixed CustomerCore::addGroups($groups)
+```php
+mixed CustomerCore::addGroups($groups)
+```
 
 
 
@@ -714,7 +812,9 @@ Methods
 
 ### <a name="method-checkPassword"></a>checkPassword
 
-    boolean CustomerCore::checkPassword($id_customer, string $passwd)
+```php
+boolean CustomerCore::checkPassword($id_customer, string $passwd)
+```
 
 Check if customer password is the right one
 
@@ -733,7 +833,9 @@ Check if customer password is the right one
 
 ### <a name="method-cleanGroups"></a>cleanGroups
 
-    mixed CustomerCore::cleanGroups()
+```php
+mixed CustomerCore::cleanGroups()
+```
 
 
 
@@ -747,7 +849,9 @@ Check if customer password is the right one
 
 ### <a name="method-customerExists"></a>customerExists
 
-    \Customer CustomerCore::customerExists(string $email, $return_id, $ignore_guest)
+```php
+\Customer CustomerCore::customerExists(string $email, $return_id, $ignore_guest)
+```
 
 Check if e-mail is already registered in database
 
@@ -767,7 +871,9 @@ Check if e-mail is already registered in database
 
 ### <a name="method-customerHasAddress"></a>customerHasAddress
 
-    boolean CustomerCore::customerHasAddress(integer $id_customer, integer $id_address)
+```php
+boolean CustomerCore::customerHasAddress(integer $id_customer, integer $id_address)
+```
 
 Check if an address is owned by a customer
 
@@ -786,7 +892,9 @@ Check if an address is owned by a customer
 
 ### <a name="method-customerIdExists"></a>customerIdExists
 
-    mixed CustomerCore::customerIdExists($id_customer)
+```php
+mixed CustomerCore::customerIdExists($id_customer)
+```
 
 
 
@@ -803,7 +911,9 @@ Check if an address is owned by a customer
 
 ### <a name="method-customerIdExistsStatic"></a>customerIdExistsStatic
 
-    mixed CustomerCore::customerIdExistsStatic($id_customer)
+```php
+mixed CustomerCore::customerIdExistsStatic($id_customer)
+```
 
 
 
@@ -821,7 +931,9 @@ Check if an address is owned by a customer
 
 ### <a name="method-delete"></a>delete
 
-    mixed CustomerCore::delete()
+```php
+mixed CustomerCore::delete()
+```
 
 
 
@@ -835,7 +947,9 @@ Check if an address is owned by a customer
 
 ### <a name="method-getAddresses"></a>getAddresses
 
-    array CustomerCore::getAddresses(integer $id_lang)
+```php
+array CustomerCore::getAddresses(integer $id_lang)
+```
 
 Return customer addresses
 
@@ -852,7 +966,9 @@ Return customer addresses
 
 ### <a name="method-getAddressesTotalById"></a>getAddressesTotalById
 
-    integer CustomerCore::getAddressesTotalById(integer $id_customer)
+```php
+integer CustomerCore::getAddressesTotalById(integer $id_customer)
+```
 
 Count the number of addresses for a customer
 
@@ -870,7 +986,9 @@ Count the number of addresses for a customer
 
 ### <a name="method-getBoughtProducts"></a>getBoughtProducts
 
-    mixed CustomerCore::getBoughtProducts()
+```php
+mixed CustomerCore::getBoughtProducts()
+```
 
 
 
@@ -884,7 +1002,9 @@ Count the number of addresses for a customer
 
 ### <a name="method-getByEmail"></a>getByEmail
 
-    \Customer CustomerCore::getByEmail(string $email, string $passwd, $ignore_guest)
+```php
+\Customer CustomerCore::getByEmail(string $email, string $passwd, $ignore_guest)
+```
 
 Return customer instance from its e-mail (optionnaly check password)
 
@@ -903,7 +1023,9 @@ Return customer instance from its e-mail (optionnaly check password)
 
 ### <a name="method-getCurrentCountry"></a>getCurrentCountry
 
-    mixed CustomerCore::getCurrentCountry($id_customer, \Cart $cart)
+```php
+mixed CustomerCore::getCurrentCountry($id_customer, \Cart $cart)
+```
 
 
 
@@ -922,7 +1044,9 @@ Return customer instance from its e-mail (optionnaly check password)
 
 ### <a name="method-getCustomers"></a>getCustomers
 
-    array CustomerCore::getCustomers()
+```php
+array CustomerCore::getCustomers()
+```
 
 Return customers list
 
@@ -937,7 +1061,9 @@ Return customers list
 
 ### <a name="method-getCustomersByEmail"></a>getCustomersByEmail
 
-    array CustomerCore::getCustomersByEmail($email)
+```php
+array CustomerCore::getCustomersByEmail($email)
+```
 
 Retrieve customers by email address
 
@@ -955,7 +1081,9 @@ Retrieve customers by email address
 
 ### <a name="method-getDefaultGroupId"></a>getDefaultGroupId
 
-    mixed CustomerCore::getDefaultGroupId($id_customer)
+```php
+mixed CustomerCore::getDefaultGroupId($id_customer)
+```
 
 
 
@@ -973,7 +1101,9 @@ Retrieve customers by email address
 
 ### <a name="method-getGroups"></a>getGroups
 
-    mixed CustomerCore::getGroups()
+```php
+mixed CustomerCore::getGroups()
+```
 
 
 
@@ -987,7 +1117,9 @@ Retrieve customers by email address
 
 ### <a name="method-getGroupsStatic"></a>getGroupsStatic
 
-    mixed CustomerCore::getGroupsStatic($id_customer)
+```php
+mixed CustomerCore::getGroupsStatic($id_customer)
+```
 
 
 
@@ -1005,7 +1137,9 @@ Retrieve customers by email address
 
 ### <a name="method-getLastCart"></a>getLastCart
 
-    mixed CustomerCore::getLastCart($with_order)
+```php
+mixed CustomerCore::getLastCart($with_order)
+```
 
 
 
@@ -1022,7 +1156,9 @@ Retrieve customers by email address
 
 ### <a name="method-getLastConnections"></a>getLastConnections
 
-    mixed CustomerCore::getLastConnections()
+```php
+mixed CustomerCore::getLastConnections()
+```
 
 
 
@@ -1036,7 +1172,9 @@ Retrieve customers by email address
 
 ### <a name="method-getLastEmails"></a>getLastEmails
 
-    mixed CustomerCore::getLastEmails()
+```php
+mixed CustomerCore::getLastEmails()
+```
 
 
 
@@ -1050,7 +1188,9 @@ Retrieve customers by email address
 
 ### <a name="method-getOutstanding"></a>getOutstanding
 
-    mixed CustomerCore::getOutstanding()
+```php
+mixed CustomerCore::getOutstanding()
+```
 
 
 
@@ -1064,7 +1204,9 @@ Retrieve customers by email address
 
 ### <a name="method-getStats"></a>getStats
 
-    array CustomerCore::getStats()
+```php
+array CustomerCore::getStats()
+```
 
 Return several useful statistics about customer
 
@@ -1078,7 +1220,9 @@ Return several useful statistics about customer
 
 ### <a name="method-getWebserviceObjectList"></a>getWebserviceObjectList
 
-    mixed CustomerCore::getWebserviceObjectList($sql_join, $sql_filter, $sql_sort, $sql_limit)
+```php
+mixed CustomerCore::getWebserviceObjectList($sql_join, $sql_filter, $sql_sort, $sql_limit)
+```
 
 
 
@@ -1098,7 +1242,9 @@ Return several useful statistics about customer
 
 ### <a name="method-getWsGroups"></a>getWsGroups
 
-    mixed CustomerCore::getWsGroups()
+```php
+mixed CustomerCore::getWsGroups()
+```
 
 
 
@@ -1112,7 +1258,9 @@ Return several useful statistics about customer
 
 ### <a name="method-isBanned"></a>isBanned
 
-    boolean CustomerCore::isBanned($id_customer)
+```php
+boolean CustomerCore::isBanned($id_customer)
+```
 
 Check id the customer is active or not
 
@@ -1130,7 +1278,9 @@ Check id the customer is active or not
 
 ### <a name="method-isGuest"></a>isGuest
 
-    mixed CustomerCore::isGuest()
+```php
+mixed CustomerCore::isGuest()
+```
 
 
 
@@ -1144,7 +1294,9 @@ Check id the customer is active or not
 
 ### <a name="method-isLogged"></a>isLogged
 
-    boolean CustomerCore::isLogged(boolean $with_guest)
+```php
+boolean CustomerCore::isLogged(boolean $with_guest)
+```
 
 Check customer informations and return customer validity
 
@@ -1161,7 +1313,9 @@ Check customer informations and return customer validity
 
 ### <a name="method-isUsed"></a>isUsed
 
-    mixed CustomerCore::isUsed()
+```php
+mixed CustomerCore::isUsed()
+```
 
 
 
@@ -1175,7 +1329,9 @@ Check customer informations and return customer validity
 
 ### <a name="method-logout"></a>logout
 
-    mixed CustomerCore::logout()
+```php
+mixed CustomerCore::logout()
+```
 
 Logout
 
@@ -1189,7 +1345,9 @@ Logout
 
 ### <a name="method-mylogout"></a>mylogout
 
-    mixed CustomerCore::mylogout()
+```php
+mixed CustomerCore::mylogout()
+```
 
 Soft logout, delete everything links to the customer
 but leave there affiliate's informations
@@ -1204,7 +1362,9 @@ but leave there affiliate's informations
 
 ### <a name="method-resetAddressCache"></a>resetAddressCache
 
-    mixed CustomerCore::resetAddressCache($id_customer, $id_address)
+```php
+mixed CustomerCore::resetAddressCache($id_customer, $id_address)
+```
 
 
 
@@ -1223,7 +1383,9 @@ but leave there affiliate's informations
 
 ### <a name="method-searchByIp"></a>searchByIp
 
-    mixed CustomerCore::searchByIp(string $ip)
+```php
+mixed CustomerCore::searchByIp(string $ip)
+```
 
 Search for customers by ip address
 
@@ -1241,7 +1403,9 @@ Search for customers by ip address
 
 ### <a name="method-searchByName"></a>searchByName
 
-    array|false|\mysqli_result|null|\PDOStatement|resource CustomerCore::searchByName(string $query, null|integer $limit)
+```php
+array|false|\mysqli_result|null|\PDOStatement|resource CustomerCore::searchByName(string $query, null|integer $limit)
+```
 
 Light back office search for customers
 
@@ -1260,7 +1424,9 @@ Light back office search for customers
 
 ### <a name="method-setWsGroups"></a>setWsGroups
 
-    mixed CustomerCore::setWsGroups($result)
+```php
+mixed CustomerCore::setWsGroups($result)
+```
 
 
 
@@ -1277,7 +1443,9 @@ Light back office search for customers
 
 ### <a name="method-setWsPasswd"></a>setWsPasswd
 
-    mixed CustomerCore::setWsPasswd($passwd)
+```php
+mixed CustomerCore::setWsPasswd($passwd)
+```
 
 
 
@@ -1294,7 +1462,9 @@ Light back office search for customers
 
 ### <a name="method-toggleStatus"></a>toggleStatus
 
-    mixed CustomerCore::toggleStatus()
+```php
+mixed CustomerCore::toggleStatus()
+```
 
 
 
@@ -1308,7 +1478,9 @@ Light back office search for customers
 
 ### <a name="method-transformToCustomer"></a>transformToCustomer
 
-    mixed CustomerCore::transformToCustomer($id_lang, $password)
+```php
+mixed CustomerCore::transformToCustomer($id_lang, $password)
+```
 
 
 
@@ -1326,7 +1498,9 @@ Light back office search for customers
 
 ### <a name="method-update"></a>update
 
-    mixed CustomerCore::update($nullValues)
+```php
+mixed CustomerCore::update($nullValues)
+```
 
 
 
@@ -1343,7 +1517,9 @@ Light back office search for customers
 
 ### <a name="method-updateGroup"></a>updateGroup
 
-    mixed CustomerCore::updateGroup(array $list)
+```php
+mixed CustomerCore::updateGroup(array $list)
+```
 
 Update customer groups associated to the object
 

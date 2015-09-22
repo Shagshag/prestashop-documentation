@@ -10,9 +10,11 @@ Class ProductSupplierCore
 * Source: [classes/ProductSupplier.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$id_currency](#property-$id_currency)
@@ -23,8 +25,8 @@ Properties
 * [$product_supplier_reference](#property-$product_supplier_reference)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [delete](#method-delete)
 * [getIdByProductAndSupplier](#method-getIdByProductAndSupplier)
 * [getProductPrice](#method-getProductPrice)
@@ -41,7 +43,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'product_supplier', 'primary' => 'id_product_supplier', 'fields' => array('product_supplier_reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference', 'size' => 32), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_supplier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'product_supplier_price_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId')))
+```php
+public mixed $definition = array('table' => 'product_supplier', 'primary' => 'id_product_supplier', 'fields' => array('product_supplier_reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference', 'size' => 32), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_supplier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'product_supplier_price_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId')))
+```
 
 
 
@@ -54,7 +58,9 @@ Properties
 
 ### <a name="property-$id_currency"></a>$id_currency
 
-    public integer $id_currency
+```php
+public integer $id_currency
+```
 
 
 
@@ -66,7 +72,9 @@ Properties
 
 ### <a name="property-$id_product"></a>$id_product
 
-    public integer $id_product
+```php
+public integer $id_product
+```
 
 
 
@@ -78,7 +86,9 @@ Properties
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
-    public integer $id_product_attribute
+```php
+public integer $id_product_attribute
+```
 
 
 
@@ -90,7 +100,9 @@ Properties
 
 ### <a name="property-$id_supplier"></a>$id_supplier
 
-    public integer $id_supplier
+```php
+public integer $id_supplier
+```
 
 
 
@@ -102,7 +114,9 @@ Properties
 
 ### <a name="property-$product_supplier_price_te"></a>$product_supplier_price_te
 
-    public string $product_supplier_price_te
+```php
+public string $product_supplier_price_te
+```
 
 
 
@@ -114,7 +128,9 @@ Properties
 
 ### <a name="property-$product_supplier_reference"></a>$product_supplier_reference
 
-    public string $product_supplier_reference
+```php
+public string $product_supplier_reference
+```
 
 
 
@@ -126,7 +142,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'product_suppliers', 'objectNodeName' => 'product_supplier', 'fields' => array('id_product' => array('xlink_resource' => 'products'), 'id_product_attribute' => array('xlink_resource' => 'combinations'), 'id_supplier' => array('xlink_resource' => 'suppliers'), 'id_currency' => array('xlink_resource' => 'currencies')))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'product_suppliers', 'objectNodeName' => 'product_supplier', 'fields' => array('id_product' => array('xlink_resource' => 'products'), 'id_product_attribute' => array('xlink_resource' => 'combinations'), 'id_supplier' => array('xlink_resource' => 'suppliers'), 'id_currency' => array('xlink_resource' => 'currencies')))
+```
 
 
 
@@ -142,7 +160,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed ProductSupplierCore::delete()
+```php
+mixed ProductSupplierCore::delete()
+```
 
 
 
@@ -156,7 +176,9 @@ Methods
 
 ### <a name="method-getIdByProductAndSupplier"></a>getIdByProductAndSupplier
 
-    array ProductSupplierCore::getIdByProductAndSupplier(integer $id_product, integer $id_product_attribute, integer $id_supplier)
+```php
+array ProductSupplierCore::getIdByProductAndSupplier(integer $id_product, integer $id_product_attribute, integer $id_supplier)
+```
 
 For a given product and supplier, gets corresponding ProductSupplier ID
 
@@ -176,7 +198,9 @@ For a given product and supplier, gets corresponding ProductSupplier ID
 
 ### <a name="method-getProductPrice"></a>getProductPrice
 
-    Array ProductSupplierCore::getProductPrice($id_supplier, integer $id_product, integer $id_product_attribute, boolean $converted_price)
+```php
+Array ProductSupplierCore::getProductPrice($id_supplier, integer $id_product, integer $id_product_attribute, boolean $converted_price)
+```
 
 For a given Supplier, Product, returns the purchased price
 
@@ -197,7 +221,9 @@ For a given Supplier, Product, returns the purchased price
 
 ### <a name="method-getProductSupplierPrice"></a>getProductSupplierPrice
 
-    array ProductSupplierCore::getProductSupplierPrice(integer $id_product, integer $id_product_attribute, integer $id_supplier, boolean $with_currency)
+```php
+array ProductSupplierCore::getProductSupplierPrice(integer $id_product, integer $id_product_attribute, integer $id_supplier, boolean $with_currency)
+```
 
 For a given product and supplier, gets the product supplier unit price
 
@@ -218,7 +244,9 @@ For a given product and supplier, gets the product supplier unit price
 
 ### <a name="method-getProductSupplierReference"></a>getProductSupplierReference
 
-    string ProductSupplierCore::getProductSupplierReference(integer $id_product, integer $id_product_attribute, integer $id_supplier)
+```php
+string ProductSupplierCore::getProductSupplierReference(integer $id_product, integer $id_product_attribute, integer $id_supplier)
+```
 
 For a given product and supplier, gets the product supplier reference
 
@@ -238,7 +266,9 @@ For a given product and supplier, gets the product supplier reference
 
 ### <a name="method-getSupplierCollection"></a>getSupplierCollection
 
-    \PrestaShopCollection ProductSupplierCore::getSupplierCollection(integer $id_product, integer $group_by_supplier)
+```php
+\PrestaShopCollection ProductSupplierCore::getSupplierCollection(integer $id_product, integer $group_by_supplier)
+```
 
 For a given product, retrieves its suppliers
 

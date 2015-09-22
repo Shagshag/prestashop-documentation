@@ -10,9 +10,11 @@ Class CMSCategoryCore
 * Source: [classes/CMSCategory.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_links](#property-$_links)
 * [$active](#property-$active)
@@ -31,8 +33,8 @@ Properties
 * [$name](#property-$name)
 * [$position](#property-$position)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [calcLevelDepth](#method-calcLevelDepth)
 * [checkBeforeMove](#method-checkBeforeMove)
@@ -69,7 +71,9 @@ Properties
 
 ### <a name="property-$_links"></a>$_links
 
-    protected mixed $_links = array()
+```php
+protected mixed $_links = array()
+```
 
 
 
@@ -82,7 +86,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = 1
+```php
+public boolean $active = 1
+```
 
 
 
@@ -94,7 +100,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -106,7 +114,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -118,7 +128,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'cms_category', 'primary' => 'id_cms_category', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'id_parent' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'position' => array('type' => self::TYPE_INT), 'level_depth' => array('type' => self::TYPE_INT), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCatalogName', 'required' => true, 'size' => 64), 'link_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'required' => true, 'size' => 64), 'description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml'), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255)))
+```php
+public mixed $definition = array('table' => 'cms_category', 'primary' => 'id_cms_category', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'id_parent' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'position' => array('type' => self::TYPE_INT), 'level_depth' => array('type' => self::TYPE_INT), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCatalogName', 'required' => true, 'size' => 64), 'link_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'required' => true, 'size' => 64), 'description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml'), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255)))
+```
 
 
 
@@ -131,7 +143,9 @@ Properties
 
 ### <a name="property-$description"></a>$description
 
-    public string $description
+```php
+public string $description
+```
 
 
 
@@ -143,7 +157,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -155,7 +171,9 @@ Properties
 
 ### <a name="property-$id_cms_category"></a>$id_cms_category
 
-    public integer $id_cms_category
+```php
+public integer $id_cms_category
+```
 
 
 
@@ -167,7 +185,9 @@ Properties
 
 ### <a name="property-$id_parent"></a>$id_parent
 
-    public integer $id_parent
+```php
+public integer $id_parent
+```
 
 
 
@@ -179,7 +199,9 @@ Properties
 
 ### <a name="property-$level_depth"></a>$level_depth
 
-    public integer $level_depth
+```php
+public integer $level_depth
+```
 
 
 
@@ -191,7 +213,9 @@ Properties
 
 ### <a name="property-$link_rewrite"></a>$link_rewrite
 
-    public string $link_rewrite
+```php
+public string $link_rewrite
+```
 
 
 
@@ -203,7 +227,9 @@ Properties
 
 ### <a name="property-$meta_description"></a>$meta_description
 
-    public string $meta_description
+```php
+public string $meta_description
+```
 
 
 
@@ -215,7 +241,9 @@ Properties
 
 ### <a name="property-$meta_keywords"></a>$meta_keywords
 
-    public string $meta_keywords
+```php
+public string $meta_keywords
+```
 
 
 
@@ -227,7 +255,9 @@ Properties
 
 ### <a name="property-$meta_title"></a>$meta_title
 
-    public string $meta_title
+```php
+public string $meta_title
+```
 
 
 
@@ -239,7 +269,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -251,7 +283,9 @@ Properties
 
 ### <a name="property-$position"></a>$position
 
-    public integer $position
+```php
+public integer $position
+```
 
 
 
@@ -267,7 +301,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed CMSCategoryCore::add($autodate, $null_values)
+```php
+mixed CMSCategoryCore::add($autodate, $null_values)
+```
 
 
 
@@ -285,7 +321,9 @@ Methods
 
 ### <a name="method-calcLevelDepth"></a>calcLevelDepth
 
-    integer CMSCategoryCore::calcLevelDepth()
+```php
+integer CMSCategoryCore::calcLevelDepth()
+```
 
 Get the number of parent categories
 
@@ -299,7 +337,9 @@ Get the number of parent categories
 
 ### <a name="method-checkBeforeMove"></a>checkBeforeMove
 
-    boolean CMSCategoryCore::checkBeforeMove($id_cms_category, integer $id_parent)
+```php
+boolean CMSCategoryCore::checkBeforeMove($id_cms_category, integer $id_parent)
+```
 
 Check if CMSCategory can be moved in another one
 
@@ -318,7 +358,9 @@ Check if CMSCategory can be moved in another one
 
 ### <a name="method-cleanPositions"></a>cleanPositions
 
-    mixed CMSCategoryCore::cleanPositions($id_category_parent)
+```php
+mixed CMSCategoryCore::cleanPositions($id_category_parent)
+```
 
 
 
@@ -336,7 +378,9 @@ Check if CMSCategory can be moved in another one
 
 ### <a name="method-delete"></a>delete
 
-    mixed CMSCategoryCore::delete()
+```php
+mixed CMSCategoryCore::delete()
+```
 
 
 
@@ -350,7 +394,9 @@ Check if CMSCategory can be moved in another one
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    mixed CMSCategoryCore::deleteSelection($categories)
+```php
+mixed CMSCategoryCore::deleteSelection($categories)
+```
 
 Delete several categories from database
 
@@ -367,7 +413,9 @@ return boolean Deletion result
 
 ### <a name="method-getCategories"></a>getCategories
 
-    array CMSCategoryCore::getCategories(integer $id_lang, boolean $active, $order)
+```php
+array CMSCategoryCore::getCategories(integer $id_lang, boolean $active, $order)
+```
 
 Return available categories
 
@@ -387,7 +435,9 @@ Return available categories
 
 ### <a name="method-getChildren"></a>getChildren
 
-    mixed CMSCategoryCore::getChildren($id_parent, $id_lang, $active)
+```php
+mixed CMSCategoryCore::getChildren($id_parent, $id_lang, $active)
+```
 
 
 
@@ -407,7 +457,9 @@ Return available categories
 
 ### <a name="method-getHomeCategories"></a>getHomeCategories
 
-    array CMSCategoryCore::getHomeCategories(integer $id_lang, boolean $active)
+```php
+array CMSCategoryCore::getHomeCategories(integer $id_lang, boolean $active)
+```
 
 Return main categories
 
@@ -426,7 +478,9 @@ Return main categories
 
 ### <a name="method-getLastPosition"></a>getLastPosition
 
-    mixed CMSCategoryCore::getLastPosition($id_category_parent)
+```php
+mixed CMSCategoryCore::getLastPosition($id_category_parent)
+```
 
 
 
@@ -444,7 +498,9 @@ Return main categories
 
 ### <a name="method-getLink"></a>getLink
 
-    mixed CMSCategoryCore::getLink(\Link $link)
+```php
+mixed CMSCategoryCore::getLink(\Link $link)
+```
 
 
 
@@ -461,7 +517,9 @@ Return main categories
 
 ### <a name="method-getLinkRewrite"></a>getLinkRewrite
 
-    mixed CMSCategoryCore::getLinkRewrite($id_cms_category, $id_lang)
+```php
+mixed CMSCategoryCore::getLinkRewrite($id_cms_category, $id_lang)
+```
 
 
 
@@ -480,7 +538,9 @@ Return main categories
 
 ### <a name="method-getName"></a>getName
 
-    mixed CMSCategoryCore::getName($id_lang)
+```php
+mixed CMSCategoryCore::getName($id_lang)
+```
 
 
 
@@ -497,7 +557,9 @@ Return main categories
 
 ### <a name="method-getParentsCategories"></a>getParentsCategories
 
-    array CMSCategoryCore::getParentsCategories(integer $id_lang)
+```php
+array CMSCategoryCore::getParentsCategories(integer $id_lang)
+```
 
 Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
@@ -514,7 +576,9 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 ### <a name="method-getRecurseCategory"></a>getRecurseCategory
 
-    mixed CMSCategoryCore::getRecurseCategory($id_lang, $current, $active, $links, \Link $link)
+```php
+mixed CMSCategoryCore::getRecurseCategory($id_lang, $current, $active, $links, \Link $link)
+```
 
 
 
@@ -536,7 +600,9 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 ### <a name="method-getSimpleCategories"></a>getSimpleCategories
 
-    mixed CMSCategoryCore::getSimpleCategories($id_lang)
+```php
+mixed CMSCategoryCore::getSimpleCategories($id_lang)
+```
 
 
 
@@ -554,7 +620,9 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 ### <a name="method-getSubCategories"></a>getSubCategories
 
-    array CMSCategoryCore::getSubCategories(integer $id_lang, boolean $active)
+```php
+array CMSCategoryCore::getSubCategories(integer $id_lang, boolean $active)
+```
 
 Return current CMSCategory childs
 
@@ -572,7 +640,9 @@ Return current CMSCategory childs
 
 ### <a name="method-getUrlRewriteInformations"></a>getUrlRewriteInformations
 
-    mixed CMSCategoryCore::getUrlRewriteInformations($id_category)
+```php
+mixed CMSCategoryCore::getUrlRewriteInformations($id_category)
+```
 
 
 
@@ -590,7 +660,9 @@ Return current CMSCategory childs
 
 ### <a name="method-hideCMSCategoryPosition"></a>hideCMSCategoryPosition
 
-    string CMSCategoryCore::hideCMSCategoryPosition(string $name)
+```php
+string CMSCategoryCore::hideCMSCategoryPosition(string $name)
+```
 
 Hide CMSCategory prefix used for position
 
@@ -608,7 +680,9 @@ Hide CMSCategory prefix used for position
 
 ### <a name="method-recurseCMSCategory"></a>recurseCMSCategory
 
-    mixed CMSCategoryCore::recurseCMSCategory($categories, $current, $id_cms_category, $id_selected, $is_html)
+```php
+mixed CMSCategoryCore::recurseCMSCategory($categories, $current, $id_cms_category, $id_selected, $is_html)
+```
 
 
 
@@ -630,7 +704,9 @@ Hide CMSCategory prefix used for position
 
 ### <a name="method-recurseLiteCategTree"></a>recurseLiteCategTree
 
-    array CMSCategoryCore::recurseLiteCategTree(integer $max_depth, integer $currentDepth, $id_lang, array $excluded_ids_array, \Link $link)
+```php
+array CMSCategoryCore::recurseLiteCategTree(integer $max_depth, integer $currentDepth, $id_lang, array $excluded_ids_array, \Link $link)
+```
 
 Recursive scan of subcategories
 
@@ -651,7 +727,9 @@ Recursive scan of subcategories
 
 ### <a name="method-recursiveDelete"></a>recursiveDelete
 
-    mixed CMSCategoryCore::recursiveDelete($to_delete, array|integer $id_cms_category)
+```php
+mixed CMSCategoryCore::recursiveDelete($to_delete, array|integer $id_cms_category)
+```
 
 Recursively add specified CMSCategory childs to $toDelete array
 
@@ -669,7 +747,9 @@ Recursively add specified CMSCategory childs to $toDelete array
 
 ### <a name="method-searchByName"></a>searchByName
 
-    array CMSCategoryCore::searchByName(integer $id_lang, string $query, boolean $unrestricted)
+```php
+array CMSCategoryCore::searchByName(integer $id_lang, string $query, boolean $unrestricted)
+```
 
 Light back office search for categories
 
@@ -689,7 +769,9 @@ Light back office search for categories
 
 ### <a name="method-searchByNameAndParentCMSCategoryId"></a>searchByNameAndParentCMSCategoryId
 
-    array CMSCategoryCore::searchByNameAndParentCMSCategoryId(integer $id_lang, string $CMSCategory_name, integer $id_parent_CMSCategory)
+```php
+array CMSCategoryCore::searchByNameAndParentCMSCategoryId(integer $id_lang, string $CMSCategory_name, integer $id_parent_CMSCategory)
+```
 
 Retrieve CMSCategory by name and parent CMSCategory id
 
@@ -709,7 +791,9 @@ Retrieve CMSCategory by name and parent CMSCategory id
 
 ### <a name="method-update"></a>update
 
-    mixed CMSCategoryCore::update($null_values)
+```php
+mixed CMSCategoryCore::update($null_values)
+```
 
 
 
@@ -726,7 +810,9 @@ Retrieve CMSCategory by name and parent CMSCategory id
 
 ### <a name="method-updatePosition"></a>updatePosition
 
-    mixed CMSCategoryCore::updatePosition($way, $position)
+```php
+mixed CMSCategoryCore::updatePosition($way, $position)
+```
 
 
 

@@ -1,5 +1,6 @@
 File classes/module/Module.php
 =========
+
 Source: [classes/module/Module.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php)
 
 

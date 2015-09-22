@@ -24,9 +24,11 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [classes/Configuration.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_cache](#property-$_cache)
 * [$date_add](#property-$date_add)
@@ -40,8 +42,8 @@ Properties
 * [$value](#property-$value)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [clearConfigurationCacheForTesting](#method-clearConfigurationCacheForTesting)
 * [configurationIsLoaded](#method-configurationIsLoaded)
 * [deleteByName](#method-deleteByName)
@@ -73,7 +75,9 @@ Properties
 
 ### <a name="property-$_cache"></a>$_cache
 
-    protected array $_cache = array()
+```php
+protected array $_cache = array()
+```
 
 
 
@@ -86,7 +90,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -98,7 +104,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -110,7 +118,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'configuration', 'primary' => 'id_configuration', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isConfigName', 'required' => true, 'size' => 254), 'id_shop_group' => array('type' => self::TYPE_NOTHING, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_NOTHING, 'validate' => 'isUnsignedId'), 'value' => array('type' => self::TYPE_STRING), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'configuration', 'primary' => 'id_configuration', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isConfigName', 'required' => true, 'size' => 254), 'id_shop_group' => array('type' => self::TYPE_NOTHING, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_NOTHING, 'validate' => 'isUnsignedId'), 'value' => array('type' => self::TYPE_STRING), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -123,7 +133,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -135,7 +147,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public mixed $id_shop
+```php
+public mixed $id_shop
+```
 
 
 
@@ -147,7 +161,9 @@ Properties
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
 
-    public mixed $id_shop_group
+```php
+public mixed $id_shop_group
+```
 
 
 
@@ -159,7 +175,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -171,7 +189,9 @@ Properties
 
 ### <a name="property-$types"></a>$types
 
-    protected array $types = array()
+```php
+protected array $types = array()
+```
 
 
 
@@ -184,7 +204,9 @@ Properties
 
 ### <a name="property-$value"></a>$value
 
-    public string $value
+```php
+public string $value
+```
 
 
 
@@ -196,7 +218,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('value' => array()))
+```php
+protected mixed $webserviceParameters = array('fields' => array('value' => array()))
+```
 
 
 
@@ -212,7 +236,9 @@ Methods
 
 ### <a name="method-clearConfigurationCacheForTesting"></a>clearConfigurationCacheForTesting
 
-    mixed ConfigurationCore::clearConfigurationCacheForTesting()
+```php
+mixed ConfigurationCore::clearConfigurationCacheForTesting()
+```
 
 WARNING: For testing only. Do NOT rely on this method, it may be removed at any time.
 
@@ -227,7 +253,9 @@ WARNING: For testing only. Do NOT rely on this method, it may be removed at any 
 
 ### <a name="method-configurationIsLoaded"></a>configurationIsLoaded
 
-    mixed ConfigurationCore::configurationIsLoaded()
+```php
+mixed ConfigurationCore::configurationIsLoaded()
+```
 
 
 
@@ -242,7 +270,9 @@ WARNING: For testing only. Do NOT rely on this method, it may be removed at any 
 
 ### <a name="method-deleteByName"></a>deleteByName
 
-    boolean ConfigurationCore::deleteByName(string $key)
+```php
+boolean ConfigurationCore::deleteByName(string $key)
+```
 
 Delete a configuration key in database (with or without language management)
 
@@ -260,7 +290,9 @@ Delete a configuration key in database (with or without language management)
 
 ### <a name="method-deleteFromContext"></a>deleteFromContext
 
-    mixed ConfigurationCore::deleteFromContext(string $key)
+```php
+mixed ConfigurationCore::deleteFromContext(string $key)
+```
 
 Delete configuration key from current context.
 
@@ -278,7 +310,9 @@ Delete configuration key from current context.
 
 ### <a name="method-get"></a>get
 
-    string ConfigurationCore::get(string $key, integer $id_lang, $id_shop_group, $id_shop)
+```php
+string ConfigurationCore::get(string $key, integer $id_lang, $id_shop_group, $id_shop)
+```
 
 Get a single configuration value (in one language only)
 
@@ -299,7 +333,9 @@ Get a single configuration value (in one language only)
 
 ### <a name="method-getFieldsLang"></a>getFieldsLang
 
-    boolean|array ConfigurationCore::getFieldsLang()
+```php
+boolean|array ConfigurationCore::getFieldsLang()
+```
 
 
 
@@ -313,7 +349,9 @@ Get a single configuration value (in one language only)
 
 ### <a name="method-getGlobalValue"></a>getGlobalValue
 
-    mixed ConfigurationCore::getGlobalValue($key, $id_lang)
+```php
+mixed ConfigurationCore::getGlobalValue($key, $id_lang)
+```
 
 
 
@@ -332,7 +370,9 @@ Get a single configuration value (in one language only)
 
 ### <a name="method-getIdByName"></a>getIdByName
 
-    integer ConfigurationCore::getIdByName(string $key, integer $id_shop_group, integer $id_shop)
+```php
+integer ConfigurationCore::getIdByName(string $key, integer $id_shop_group, integer $id_shop)
+```
 
 Return ID a configuration key
 
@@ -352,7 +392,9 @@ Return ID a configuration key
 
 ### <a name="method-getInt"></a>getInt
 
-    array ConfigurationCore::getInt(string $key, integer $id_shop_group, integer $id_shop)
+```php
+array ConfigurationCore::getInt(string $key, integer $id_shop_group, integer $id_shop)
+```
 
 Get a single configuration value (in multiple languages)
 
@@ -372,7 +414,9 @@ Get a single configuration value (in multiple languages)
 
 ### <a name="method-getMultiShopValues"></a>getMultiShopValues
 
-    array ConfigurationCore::getMultiShopValues(string $key, integer $id_lang)
+```php
+array ConfigurationCore::getMultiShopValues(string $key, integer $id_lang)
+```
 
 Get a single configuration value for all shops
 
@@ -391,7 +435,9 @@ Get a single configuration value for all shops
 
 ### <a name="method-getMultiple"></a>getMultiple
 
-    array ConfigurationCore::getMultiple(array $keys, integer $id_lang, integer $id_shop_group, integer $id_shop)
+```php
+array ConfigurationCore::getMultiple(array $keys, integer $id_lang, integer $id_shop_group, integer $id_shop)
+```
 
 Get several configuration values (in one language only)
 
@@ -412,7 +458,9 @@ Get several configuration values (in one language only)
 
 ### <a name="method-getWebserviceObjectList"></a>getWebserviceObjectList
 
-    array ConfigurationCore::getWebserviceObjectList($sql_join, $sql_filter, $sql_sort, $sql_limit)
+```php
+array ConfigurationCore::getWebserviceObjectList($sql_join, $sql_filter, $sql_sort, $sql_limit)
+```
 
 This method is override to allow TranslatedConfiguration entity
 
@@ -432,7 +480,9 @@ This method is override to allow TranslatedConfiguration entity
 
 ### <a name="method-hasContext"></a>hasContext
 
-    mixed ConfigurationCore::hasContext(string $key, integer $id_lang, integer $context)
+```php
+mixed ConfigurationCore::hasContext(string $key, integer $id_lang, integer $context)
+```
 
 Check if configuration var is defined in given context
 
@@ -452,7 +502,9 @@ Check if configuration var is defined in given context
 
 ### <a name="method-hasKey"></a>hasKey
 
-    boolean ConfigurationCore::hasKey(string $key, integer $id_lang, integer $id_shop_group, integer $id_shop)
+```php
+boolean ConfigurationCore::hasKey(string $key, integer $id_lang, integer $id_shop_group, integer $id_shop)
+```
 
 Check if key exists in configuration
 
@@ -473,7 +525,9 @@ Check if key exists in configuration
 
 ### <a name="method-isLangKey"></a>isLangKey
 
-    boolean ConfigurationCore::isLangKey(string $key)
+```php
+boolean ConfigurationCore::isLangKey(string $key)
+```
 
 Check if a key was loaded as multi lang
 
@@ -491,7 +545,9 @@ Check if a key was loaded as multi lang
 
 ### <a name="method-isOverridenByCurrentContext"></a>isOverridenByCurrentContext
 
-    mixed ConfigurationCore::isOverridenByCurrentContext($key)
+```php
+mixed ConfigurationCore::isOverridenByCurrentContext($key)
+```
 
 
 
@@ -509,7 +565,9 @@ Check if a key was loaded as multi lang
 
 ### <a name="method-loadConfiguration"></a>loadConfiguration
 
-    mixed ConfigurationCore::loadConfiguration()
+```php
+mixed ConfigurationCore::loadConfiguration()
+```
 
 Load all configuration data
 
@@ -524,7 +582,9 @@ Load all configuration data
 
 ### <a name="method-set"></a>set
 
-    mixed ConfigurationCore::set(string $key, mixed $values, integer $id_shop_group, integer $id_shop)
+```php
+mixed ConfigurationCore::set(string $key, mixed $values, integer $id_shop_group, integer $id_shop)
+```
 
 Set TEMPORARY a single configuration value (in one language only)
 
@@ -545,7 +605,9 @@ Set TEMPORARY a single configuration value (in one language only)
 
 ### <a name="method-sqlRestriction"></a>sqlRestriction
 
-    string ConfigurationCore::sqlRestriction(integer $id_shop_group, integer $id_shop)
+```php
+string ConfigurationCore::sqlRestriction(integer $id_shop_group, integer $id_shop)
+```
 
 Add SQL restriction on shops for configuration table
 
@@ -564,7 +626,9 @@ Add SQL restriction on shops for configuration table
 
 ### <a name="method-updateGlobalValue"></a>updateGlobalValue
 
-    boolean ConfigurationCore::updateGlobalValue(string $key, mixed $values, boolean $html)
+```php
+boolean ConfigurationCore::updateGlobalValue(string $key, mixed $values, boolean $html)
+```
 
 Update configuration key for global context only
 
@@ -584,7 +648,9 @@ Update configuration key for global context only
 
 ### <a name="method-updateValue"></a>updateValue
 
-    boolean ConfigurationCore::updateValue(string $key, mixed $values, boolean $html, integer $id_shop_group, integer $id_shop)
+```php
+boolean ConfigurationCore::updateValue(string $key, mixed $values, boolean $html, integer $id_shop_group, integer $id_shop)
+```
 
 Update configuration key and value into database (automatically insert if key does not exist)
 

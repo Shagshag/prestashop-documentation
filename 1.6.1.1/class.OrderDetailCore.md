@@ -10,9 +10,11 @@ Class OrderDetailCore
 * Source: [classes/order/OrderDetail.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$context](#property-$context)
 * [$customer](#property-$customer)
@@ -67,8 +69,8 @@ Properties
 * [$vat_address](#property-$vat_address)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [checkProductStock](#method-checkProductStock)
@@ -104,7 +106,9 @@ Properties
 
 ### <a name="property-$context"></a>$context
 
-    protected \Context $context = null
+```php
+protected \Context $context = null
+```
 
 
 
@@ -116,7 +120,9 @@ Properties
 
 ### <a name="property-$customer"></a>$customer
 
-    protected \Customer $customer = null
+```php
+protected \Customer $customer = null
+```
 
 
 
@@ -128,7 +134,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'order_detail', 'primary' => 'id_order_detail', 'fields' => array('id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order_invoice' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_warehouse' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'product_id' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'product_attribute_id' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'product_name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true), 'product_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'product_quantity_in_stock' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'product_quantity_return' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'product_quantity_refunded' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'product_quantity_reinjected' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'product_price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'reduction_percent' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'reduction_amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'reduction_amount_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'reduction_amount_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'group_reduction' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'product_quantity_discount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'product_ean13' => array('type' => self::TYPE_STRING, 'validate' => 'isEan13'), 'product_upc' => array('type' => self::TYPE_STRING, 'validate' => 'isUpc'), 'product_reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference'), 'product_supplier_reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference'), 'product_weight' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'tax_name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName'), 'tax_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'tax_computation_method' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_tax_rules_group' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'ecotax' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'ecotax_tax_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'discount_quantity_applied' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'download_hash' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName'), 'download_nb' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'download_deadline' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat'), 'unit_price_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'unit_price_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_price_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_price_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_shipping_price_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_shipping_price_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'purchase_supplier_price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'original_product_price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'original_wholesale_price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice')))
+```php
+public mixed $definition = array('table' => 'order_detail', 'primary' => 'id_order_detail', 'fields' => array('id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order_invoice' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_warehouse' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'product_id' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'product_attribute_id' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'product_name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true), 'product_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'product_quantity_in_stock' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'product_quantity_return' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'product_quantity_refunded' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'product_quantity_reinjected' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'product_price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'reduction_percent' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'reduction_amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'reduction_amount_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'reduction_amount_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'group_reduction' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'product_quantity_discount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'product_ean13' => array('type' => self::TYPE_STRING, 'validate' => 'isEan13'), 'product_upc' => array('type' => self::TYPE_STRING, 'validate' => 'isUpc'), 'product_reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference'), 'product_supplier_reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference'), 'product_weight' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'tax_name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName'), 'tax_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'tax_computation_method' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_tax_rules_group' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'ecotax' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'ecotax_tax_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'discount_quantity_applied' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'download_hash' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName'), 'download_nb' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'download_deadline' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat'), 'unit_price_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'unit_price_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_price_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_price_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_shipping_price_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_shipping_price_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'purchase_supplier_price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'original_product_price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'original_wholesale_price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice')))
+```
 
 
 
@@ -141,7 +149,9 @@ Properties
 
 ### <a name="property-$discount_quantity_applied"></a>$discount_quantity_applied
 
-    public integer $discount_quantity_applied
+```php
+public integer $discount_quantity_applied
+```
 
 
 
@@ -153,7 +163,9 @@ Properties
 
 ### <a name="property-$download_deadline"></a>$download_deadline
 
-    public \datetime $download_deadline
+```php
+public \datetime $download_deadline
+```
 
 
 
@@ -165,7 +177,9 @@ Properties
 
 ### <a name="property-$download_hash"></a>$download_hash
 
-    public string $download_hash
+```php
+public string $download_hash
+```
 
 
 
@@ -177,7 +191,9 @@ Properties
 
 ### <a name="property-$download_nb"></a>$download_nb
 
-    public integer $download_nb
+```php
+public integer $download_nb
+```
 
 
 
@@ -189,7 +205,9 @@ Properties
 
 ### <a name="property-$ecotax"></a>$ecotax
 
-    public float $ecotax
+```php
+public float $ecotax
+```
 
 
 
@@ -201,7 +219,9 @@ Properties
 
 ### <a name="property-$ecotax_tax_rate"></a>$ecotax_tax_rate
 
-    public float $ecotax_tax_rate
+```php
+public float $ecotax_tax_rate
+```
 
 
 
@@ -213,7 +233,9 @@ Properties
 
 ### <a name="property-$group_reduction"></a>$group_reduction
 
-    public float $group_reduction
+```php
+public float $group_reduction
+```
 
 
 
@@ -225,7 +247,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public integer $id_order
+```php
+public integer $id_order
+```
 
 
 
@@ -237,7 +261,9 @@ Properties
 
 ### <a name="property-$id_order_detail"></a>$id_order_detail
 
-    public integer $id_order_detail
+```php
+public integer $id_order_detail
+```
 
 
 
@@ -249,7 +275,9 @@ Properties
 
 ### <a name="property-$id_order_invoice"></a>$id_order_invoice
 
-    public integer $id_order_invoice
+```php
+public integer $id_order_invoice
+```
 
 
 
@@ -261,7 +289,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public integer $id_shop
+```php
+public integer $id_shop
+```
 
 
 
@@ -273,7 +303,9 @@ Properties
 
 ### <a name="property-$id_tax_rules_group"></a>$id_tax_rules_group
 
-    public integer $id_tax_rules_group
+```php
+public integer $id_tax_rules_group
+```
 
 
 
@@ -285,7 +317,9 @@ Properties
 
 ### <a name="property-$id_warehouse"></a>$id_warehouse
 
-    public integer $id_warehouse
+```php
+public integer $id_warehouse
+```
 
 
 
@@ -297,7 +331,9 @@ Properties
 
 ### <a name="property-$original_product_price"></a>$original_product_price
 
-    public float $original_product_price
+```php
+public float $original_product_price
+```
 
 
 
@@ -309,7 +345,9 @@ Properties
 
 ### <a name="property-$original_wholesale_price"></a>$original_wholesale_price
 
-    public float $original_wholesale_price
+```php
+public float $original_wholesale_price
+```
 
 
 
@@ -321,7 +359,9 @@ Properties
 
 ### <a name="property-$outOfStock"></a>$outOfStock
 
-    protected boolean $outOfStock = false
+```php
+protected boolean $outOfStock = false
+```
 
 
 
@@ -333,7 +373,9 @@ Properties
 
 ### <a name="property-$product_attribute_id"></a>$product_attribute_id
 
-    public integer $product_attribute_id
+```php
+public integer $product_attribute_id
+```
 
 
 
@@ -345,7 +387,9 @@ Properties
 
 ### <a name="property-$product_ean13"></a>$product_ean13
 
-    public string $product_ean13
+```php
+public string $product_ean13
+```
 
 
 
@@ -357,7 +401,9 @@ Properties
 
 ### <a name="property-$product_id"></a>$product_id
 
-    public integer $product_id
+```php
+public integer $product_id
+```
 
 
 
@@ -369,7 +415,9 @@ Properties
 
 ### <a name="property-$product_name"></a>$product_name
 
-    public string $product_name
+```php
+public string $product_name
+```
 
 
 
@@ -381,7 +429,9 @@ Properties
 
 ### <a name="property-$product_price"></a>$product_price
 
-    public float $product_price
+```php
+public float $product_price
+```
 
 
 
@@ -393,7 +443,9 @@ Properties
 
 ### <a name="property-$product_quantity"></a>$product_quantity
 
-    public integer $product_quantity
+```php
+public integer $product_quantity
+```
 
 
 
@@ -405,7 +457,9 @@ Properties
 
 ### <a name="property-$product_quantity_discount"></a>$product_quantity_discount
 
-    public float $product_quantity_discount
+```php
+public float $product_quantity_discount
+```
 
 
 
@@ -417,7 +471,9 @@ Properties
 
 ### <a name="property-$product_quantity_in_stock"></a>$product_quantity_in_stock
 
-    public integer $product_quantity_in_stock
+```php
+public integer $product_quantity_in_stock
+```
 
 
 
@@ -429,7 +485,9 @@ Properties
 
 ### <a name="property-$product_quantity_refunded"></a>$product_quantity_refunded
 
-    public integer $product_quantity_refunded
+```php
+public integer $product_quantity_refunded
+```
 
 
 
@@ -441,7 +499,9 @@ Properties
 
 ### <a name="property-$product_quantity_reinjected"></a>$product_quantity_reinjected
 
-    public integer $product_quantity_reinjected
+```php
+public integer $product_quantity_reinjected
+```
 
 
 
@@ -453,7 +513,9 @@ Properties
 
 ### <a name="property-$product_quantity_return"></a>$product_quantity_return
 
-    public integer $product_quantity_return
+```php
+public integer $product_quantity_return
+```
 
 
 
@@ -465,7 +527,9 @@ Properties
 
 ### <a name="property-$product_reference"></a>$product_reference
 
-    public string $product_reference
+```php
+public string $product_reference
+```
 
 
 
@@ -477,7 +541,9 @@ Properties
 
 ### <a name="property-$product_supplier_reference"></a>$product_supplier_reference
 
-    public string $product_supplier_reference
+```php
+public string $product_supplier_reference
+```
 
 
 
@@ -489,7 +555,9 @@ Properties
 
 ### <a name="property-$product_upc"></a>$product_upc
 
-    public string $product_upc
+```php
+public string $product_upc
+```
 
 
 
@@ -501,7 +569,9 @@ Properties
 
 ### <a name="property-$product_weight"></a>$product_weight
 
-    public float $product_weight
+```php
+public float $product_weight
+```
 
 
 
@@ -513,7 +583,9 @@ Properties
 
 ### <a name="property-$purchase_supplier_price"></a>$purchase_supplier_price
 
-    public float $purchase_supplier_price
+```php
+public float $purchase_supplier_price
+```
 
 
 
@@ -525,7 +597,9 @@ Properties
 
 ### <a name="property-$reduction_amount"></a>$reduction_amount
 
-    public float $reduction_amount
+```php
+public float $reduction_amount
+```
 
 
 
@@ -537,7 +611,9 @@ Properties
 
 ### <a name="property-$reduction_amount_tax_excl"></a>$reduction_amount_tax_excl
 
-    public float $reduction_amount_tax_excl
+```php
+public float $reduction_amount_tax_excl
+```
 
 
 
@@ -549,7 +625,9 @@ Properties
 
 ### <a name="property-$reduction_amount_tax_incl"></a>$reduction_amount_tax_incl
 
-    public float $reduction_amount_tax_incl
+```php
+public float $reduction_amount_tax_incl
+```
 
 
 
@@ -561,7 +639,9 @@ Properties
 
 ### <a name="property-$reduction_percent"></a>$reduction_percent
 
-    public float $reduction_percent
+```php
+public float $reduction_percent
+```
 
 
 
@@ -573,7 +653,9 @@ Properties
 
 ### <a name="property-$specificPrice"></a>$specificPrice
 
-    protected \Address $specificPrice = null
+```php
+protected \Address $specificPrice = null
+```
 
 
 
@@ -585,7 +667,9 @@ Properties
 
 ### <a name="property-$tax_calculator"></a>$tax_calculator
 
-    protected \TaxCalculator $tax_calculator = null
+```php
+protected \TaxCalculator $tax_calculator = null
+```
 
 
 
@@ -597,7 +681,9 @@ Properties
 
 ### <a name="property-$tax_computation_method"></a>$tax_computation_method
 
-    public float $tax_computation_method
+```php
+public float $tax_computation_method
+```
 
 
 
@@ -609,7 +695,9 @@ Properties
 
 ### <a name="property-$tax_name"></a>$tax_name
 
-    public string $tax_name
+```php
+public string $tax_name
+```
 
 
 
@@ -621,7 +709,9 @@ Properties
 
 ### <a name="property-$tax_rate"></a>$tax_rate
 
-    public float $tax_rate
+```php
+public float $tax_rate
+```
 
 
 
@@ -633,7 +723,9 @@ Properties
 
 ### <a name="property-$total_price_tax_excl"></a>$total_price_tax_excl
 
-    public float $total_price_tax_excl
+```php
+public float $total_price_tax_excl
+```
 
 
 
@@ -645,7 +737,9 @@ Properties
 
 ### <a name="property-$total_price_tax_incl"></a>$total_price_tax_incl
 
-    public float $total_price_tax_incl
+```php
+public float $total_price_tax_incl
+```
 
 
 
@@ -657,7 +751,9 @@ Properties
 
 ### <a name="property-$total_shipping_price_tax_excl"></a>$total_shipping_price_tax_excl
 
-    public float $total_shipping_price_tax_excl
+```php
+public float $total_shipping_price_tax_excl
+```
 
 
 
@@ -669,7 +765,9 @@ Properties
 
 ### <a name="property-$total_shipping_price_tax_incl"></a>$total_shipping_price_tax_incl
 
-    public float $total_shipping_price_tax_incl
+```php
+public float $total_shipping_price_tax_incl
+```
 
 
 
@@ -681,7 +779,9 @@ Properties
 
 ### <a name="property-$unit_price_tax_excl"></a>$unit_price_tax_excl
 
-    public float $unit_price_tax_excl
+```php
+public float $unit_price_tax_excl
+```
 
 
 
@@ -693,7 +793,9 @@ Properties
 
 ### <a name="property-$unit_price_tax_incl"></a>$unit_price_tax_incl
 
-    public float $unit_price_tax_incl
+```php
+public float $unit_price_tax_incl
+```
 
 
 
@@ -705,7 +807,9 @@ Properties
 
 ### <a name="property-$vat_address"></a>$vat_address
 
-    protected \Address $vat_address = null
+```php
+protected \Address $vat_address = null
+```
 
 
 
@@ -717,7 +821,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_order' => array('xlink_resource' => 'orders'), 'product_id' => array('xlink_resource' => 'products'), 'product_attribute_id' => array('xlink_resource' => 'combinations'), 'product_quantity_reinjected' => array(), 'group_reduction' => array(), 'discount_quantity_applied' => array(), 'download_hash' => array(), 'download_deadline' => array()), 'hidden_fields' => array('tax_rate', 'tax_name'), 'associations' => array('taxes' => array('resource' => 'tax', 'getter' => 'getWsTaxes', 'setter' => false, 'fields' => array('id' => array()))))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_order' => array('xlink_resource' => 'orders'), 'product_id' => array('xlink_resource' => 'products'), 'product_attribute_id' => array('xlink_resource' => 'combinations'), 'product_quantity_reinjected' => array(), 'group_reduction' => array(), 'discount_quantity_applied' => array(), 'download_hash' => array(), 'download_deadline' => array()), 'hidden_fields' => array('tax_rate', 'tax_name'), 'associations' => array('taxes' => array('resource' => 'tax', 'getter' => 'getWsTaxes', 'setter' => false, 'fields' => array('id' => array()))))
+```
 
 
 
@@ -733,7 +839,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed OrderDetailCore::__construct($id, $id_lang, $context)
+```php
+mixed OrderDetailCore::__construct($id, $id_lang, $context)
+```
 
 
 
@@ -752,7 +860,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed OrderDetailCore::add($autodate, $null_values)
+```php
+mixed OrderDetailCore::add($autodate, $null_values)
+```
 
 
 
@@ -770,7 +880,9 @@ Methods
 
 ### <a name="method-checkProductStock"></a>checkProductStock
 
-    mixed OrderDetailCore::checkProductStock(array $product, integer $id_order_state)
+```php
+mixed OrderDetailCore::checkProductStock(array $product, integer $id_order_state)
+```
 
 Check the order status
 
@@ -788,7 +900,9 @@ Check the order status
 
 ### <a name="method-create"></a>create
 
-    mixed OrderDetailCore::create(object $order, object $cart, array $product, $id_order_state, integer $id_order_invoice, boolean $use_taxes, $id_warehouse)
+```php
+mixed OrderDetailCore::create(object $order, object $cart, array $product, $id_order_state, integer $id_order_invoice, boolean $use_taxes, $id_warehouse)
+```
 
 Create an order detail liable to an id_order
 
@@ -811,7 +925,9 @@ Create an order detail liable to an id_order
 
 ### <a name="method-createList"></a>createList
 
-    mixed OrderDetailCore::createList(object $order, object $cart, $id_order_state, $product_list, integer $id_order_invoice, boolean $use_taxes, $id_warehouse)
+```php
+mixed OrderDetailCore::createList(object $order, object $cart, $id_order_state, $product_list, integer $id_order_invoice, boolean $use_taxes, $id_warehouse)
+```
 
 Create a list of order detail for a specified id_order using cart
 
@@ -834,7 +950,9 @@ Create a list of order detail for a specified id_order using cart
 
 ### <a name="method-delete"></a>delete
 
-    mixed OrderDetailCore::delete()
+```php
+mixed OrderDetailCore::delete()
+```
 
 
 
@@ -848,7 +966,9 @@ Create a list of order detail for a specified id_order using cart
 
 ### <a name="method-getCrossSells"></a>getCrossSells
 
-    mixed OrderDetailCore::getCrossSells($id_product, $id_lang, $limit)
+```php
+mixed OrderDetailCore::getCrossSells($id_product, $id_lang, $limit)
+```
 
 
 
@@ -868,7 +988,9 @@ Create a list of order detail for a specified id_order using cart
 
 ### <a name="method-getDownloadFromHash"></a>getDownloadFromHash
 
-    mixed OrderDetailCore::getDownloadFromHash($hash)
+```php
+mixed OrderDetailCore::getDownloadFromHash($hash)
+```
 
 
 
@@ -886,7 +1008,9 @@ Create a list of order detail for a specified id_order using cart
 
 ### <a name="method-getList"></a>getList
 
-    array OrderDetailCore::getList(integer $id_order)
+```php
+array OrderDetailCore::getList(integer $id_order)
+```
 
 Get a detailed order list of an id_order
 
@@ -904,7 +1028,9 @@ Get a detailed order list of an id_order
 
 ### <a name="method-getStockState"></a>getStockState
 
-    array OrderDetailCore::getStockState()
+```php
+array OrderDetailCore::getStockState()
+```
 
 Get the state of the current stock product
 
@@ -918,7 +1044,9 @@ Get the state of the current stock product
 
 ### <a name="method-getTaxCalculator"></a>getTaxCalculator
 
-    \TaxCalculator OrderDetailCore::getTaxCalculator()
+```php
+\TaxCalculator OrderDetailCore::getTaxCalculator()
+```
 
 Returns the tax calculator associated to this order detail.
 
@@ -932,7 +1060,9 @@ Returns the tax calculator associated to this order detail.
 
 ### <a name="method-getTaxCalculatorStatic"></a>getTaxCalculatorStatic
 
-    \TaxCalculator OrderDetailCore::getTaxCalculatorStatic(integer $id_order_detail)
+```php
+\TaxCalculator OrderDetailCore::getTaxCalculatorStatic(integer $id_order_detail)
+```
 
 Return the tax calculator associated to this order_detail
 
@@ -950,7 +1080,9 @@ Return the tax calculator associated to this order_detail
 
 ### <a name="method-getTaxList"></a>getTaxList
 
-    mixed OrderDetailCore::getTaxList()
+```php
+mixed OrderDetailCore::getTaxList()
+```
 
 
 
@@ -964,7 +1096,9 @@ Return the tax calculator associated to this order_detail
 
 ### <a name="method-getTaxListStatic"></a>getTaxListStatic
 
-    mixed OrderDetailCore::getTaxListStatic($id_order_detail)
+```php
+mixed OrderDetailCore::getTaxListStatic($id_order_detail)
+```
 
 
 
@@ -982,7 +1116,9 @@ Return the tax calculator associated to this order_detail
 
 ### <a name="method-getWholeSalePrice"></a>getWholeSalePrice
 
-    mixed OrderDetailCore::getWholeSalePrice()
+```php
+mixed OrderDetailCore::getWholeSalePrice()
+```
 
 
 
@@ -996,7 +1132,9 @@ Return the tax calculator associated to this order_detail
 
 ### <a name="method-getWsTaxes"></a>getWsTaxes
 
-    mixed OrderDetailCore::getWsTaxes()
+```php
+mixed OrderDetailCore::getWsTaxes()
+```
 
 
 
@@ -1010,7 +1148,9 @@ Return the tax calculator associated to this order_detail
 
 ### <a name="method-incrementDownload"></a>incrementDownload
 
-    mixed OrderDetailCore::incrementDownload($id_order_detail, $increment)
+```php
+mixed OrderDetailCore::incrementDownload($id_order_detail, $increment)
+```
 
 
 
@@ -1029,7 +1169,9 @@ Return the tax calculator associated to this order_detail
 
 ### <a name="method-saveTaxCalculator"></a>saveTaxCalculator
 
-    boolean OrderDetailCore::saveTaxCalculator(\Order $order, $replace)
+```php
+boolean OrderDetailCore::saveTaxCalculator(\Order $order, $replace)
+```
 
 Save the tax calculator
 
@@ -1047,7 +1189,9 @@ Save the tax calculator
 
 ### <a name="method-setContext"></a>setContext
 
-    mixed OrderDetailCore::setContext($id_shop)
+```php
+mixed OrderDetailCore::setContext($id_shop)
+```
 
 
 
@@ -1064,7 +1208,9 @@ Save the tax calculator
 
 ### <a name="method-setDetailProductPrice"></a>setDetailProductPrice
 
-    mixed OrderDetailCore::setDetailProductPrice(object $order, object $cart, array $product)
+```php
+mixed OrderDetailCore::setDetailProductPrice(object $order, object $cart, array $product)
+```
 
 Set detailed product price to the order detail
 
@@ -1083,7 +1229,9 @@ Set detailed product price to the order detail
 
 ### <a name="method-setProductTax"></a>setProductTax
 
-    mixed OrderDetailCore::setProductTax(object $order, array $product)
+```php
+mixed OrderDetailCore::setProductTax(object $order, array $product)
+```
 
 Apply tax to the product
 
@@ -1101,7 +1249,9 @@ Apply tax to the product
 
 ### <a name="method-setShippingCost"></a>setShippingCost
 
-    mixed OrderDetailCore::setShippingCost(\Order $order, $product)
+```php
+mixed OrderDetailCore::setShippingCost(\Order $order, $product)
+```
 
 Set the additional shipping information
 
@@ -1119,7 +1269,9 @@ Set the additional shipping information
 
 ### <a name="method-setSpecificPrice"></a>setSpecificPrice
 
-    mixed OrderDetailCore::setSpecificPrice(object $order, $product)
+```php
+mixed OrderDetailCore::setSpecificPrice(object $order, $product)
+```
 
 Set specific price of the product
 
@@ -1137,7 +1289,9 @@ Set specific price of the product
 
 ### <a name="method-setVirtualProductInformation"></a>setVirtualProductInformation
 
-    mixed OrderDetailCore::setVirtualProductInformation($product)
+```php
+mixed OrderDetailCore::setVirtualProductInformation($product)
+```
 
 
 
@@ -1154,7 +1308,9 @@ Set specific price of the product
 
 ### <a name="method-updateTaxAmount"></a>updateTaxAmount
 
-    mixed OrderDetailCore::updateTaxAmount($order)
+```php
+mixed OrderDetailCore::updateTaxAmount($order)
+```
 
 
 

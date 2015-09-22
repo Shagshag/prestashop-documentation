@@ -10,14 +10,16 @@ Class AdminAdminPreferencesControllerCore
 * Source: [controllers/admin/AdminAdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [postProcess](#method-postProcess)
 * [updateOptionPsAttachementMaximumSize](#method-updateOptionPsAttachementMaximumSize)
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Configuration $object
+```php
+public \Configuration $object
+```
 
 
 
@@ -47,7 +51,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminAdminPreferencesControllerCore::__construct()
+```php
+mixed AdminAdminPreferencesControllerCore::__construct()
+```
 
 
 
@@ -61,7 +67,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminAdminPreferencesControllerCore::postProcess()
+```php
+mixed AdminAdminPreferencesControllerCore::postProcess()
+```
 
 
 
@@ -75,7 +83,9 @@ Methods
 
 ### <a name="method-updateOptionPsAttachementMaximumSize"></a>updateOptionPsAttachementMaximumSize
 
-    mixed AdminAdminPreferencesControllerCore::updateOptionPsAttachementMaximumSize($value)
+```php
+mixed AdminAdminPreferencesControllerCore::updateOptionPsAttachementMaximumSize($value)
+```
 
 Update PS_ATTACHMENT_MAXIMUM_SIZE
 

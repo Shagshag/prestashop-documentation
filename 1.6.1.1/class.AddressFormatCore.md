@@ -9,13 +9,15 @@ Class AddressFormatCore
 * Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/AddressFormat.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [_CLEANING_REGEX_](#constant-_CLEANING_REGEX_)
 
-Properties
-----------
+### Properties
 
 * [$_errorFormatList](#property-$_errorFormatList)
 * [$definition](#property-$definition)
@@ -26,8 +28,8 @@ Properties
 * [$id_country](#property-$id_country)
 * [$requireFormFieldsList](#property-$requireFormFieldsList)
 
-Methods
--------
+### Methods
+
 * [_checkLiableAssociation](#method-_checkLiableAssociation)
 * [_checkValidateClassField](#method-_checkValidateClassField)
 * [_getFormatDB](#method-_getFormatDB)
@@ -53,7 +55,9 @@ Constants
 
 ### <a name="constant-_CLEANING_REGEX_"></a>_CLEANING_REGEX_
 
-    const _CLEANING_REGEX_ = '#([^\w:_]+)#i'
+```php
+const _CLEANING_REGEX_ = '#([^\w:_]+)#i'
+```
 
 
 
@@ -68,7 +72,9 @@ Properties
 
 ### <a name="property-$_errorFormatList"></a>$_errorFormatList
 
-    protected mixed $_errorFormatList = array()
+```php
+protected mixed $_errorFormatList = array()
+```
 
 
 
@@ -80,7 +86,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'address_format', 'primary' => 'id_country', 'fields' => array('format' => array('type' => self::TYPE_HTML, 'validate' => 'isGenericName', 'required' => true), 'id_country' => array('type' => self::TYPE_INT)))
+```php
+public mixed $definition = array('table' => 'address_format', 'primary' => 'id_country', 'fields' => array('format' => array('type' => self::TYPE_HTML, 'validate' => 'isGenericName', 'required' => true), 'id_country' => array('type' => self::TYPE_INT)))
+```
 
 
 
@@ -93,7 +101,9 @@ Properties
 
 ### <a name="property-$forbiddenClassList"></a>$forbiddenClassList
 
-    public mixed $forbiddenClassList = array('Manufacturer', 'Supplier')
+```php
+public mixed $forbiddenClassList = array('Manufacturer', 'Supplier')
+```
 
 
 
@@ -106,7 +116,9 @@ Properties
 
 ### <a name="property-$forbiddenPropertyList"></a>$forbiddenPropertyList
 
-    public mixed $forbiddenPropertyList = array('deleted', 'date_add', 'alias', 'secure_key', 'note', 'newsletter', 'ip_registration_newsletter', 'newsletter_date_add', 'optin', 'passwd', 'last_passwd_gen', 'active', 'is_guest', 'date_upd', 'country', 'years', 'days', 'months', 'description', 'meta_description', 'short_description', 'link_rewrite', 'meta_title', 'meta_keywords', 'display_tax_label', 'need_zip_code', 'contains_states', 'call_prefixes', 'show_public_prices', 'max_payment', 'max_payment_days', 'geoloc_postcode', 'logged', 'account_number', 'groupBox', 'ape', 'max_payment', 'outstanding_allow_amount', 'call_prefix', 'definition', 'debug_list')
+```php
+public mixed $forbiddenPropertyList = array('deleted', 'date_add', 'alias', 'secure_key', 'note', 'newsletter', 'ip_registration_newsletter', 'newsletter_date_add', 'optin', 'passwd', 'last_passwd_gen', 'active', 'is_guest', 'date_upd', 'country', 'years', 'days', 'months', 'description', 'meta_description', 'short_description', 'link_rewrite', 'meta_title', 'meta_keywords', 'display_tax_label', 'need_zip_code', 'contains_states', 'call_prefixes', 'show_public_prices', 'max_payment', 'max_payment_days', 'geoloc_postcode', 'logged', 'account_number', 'groupBox', 'ape', 'max_payment', 'outstanding_allow_amount', 'call_prefix', 'definition', 'debug_list')
+```
 
 
 
@@ -119,7 +131,9 @@ Properties
 
 ### <a name="property-$format"></a>$format
 
-    public string $format
+```php
+public string $format
+```
 
 
 
@@ -131,7 +145,9 @@ Properties
 
 ### <a name="property-$id_address_format"></a>$id_address_format
 
-    public integer $id_address_format
+```php
+public integer $id_address_format
+```
 
 
 
@@ -143,7 +159,9 @@ Properties
 
 ### <a name="property-$id_country"></a>$id_country
 
-    public integer $id_country
+```php
+public integer $id_country
+```
 
 
 
@@ -155,7 +173,9 @@ Properties
 
 ### <a name="property-$requireFormFieldsList"></a>$requireFormFieldsList
 
-    public mixed $requireFormFieldsList = array('firstname', 'lastname', 'address1', 'city', 'Country:name')
+```php
+public mixed $requireFormFieldsList = array('firstname', 'lastname', 'address1', 'city', 'Country:name')
+```
 
 
 
@@ -172,7 +192,9 @@ Methods
 
 ### <a name="method-_checkLiableAssociation"></a>_checkLiableAssociation
 
-    mixed AddressFormatCore::_checkLiableAssociation($patternName, $fieldsValidate)
+```php
+mixed AddressFormatCore::_checkLiableAssociation($patternName, $fieldsValidate)
+```
 
 
 
@@ -190,7 +212,9 @@ Methods
 
 ### <a name="method-_checkValidateClassField"></a>_checkValidateClassField
 
-    mixed AddressFormatCore::_checkValidateClassField($className, $fieldName, $isIdField)
+```php
+mixed AddressFormatCore::_checkValidateClassField($className, $fieldName, $isIdField)
+```
 
 
 
@@ -209,7 +233,9 @@ Methods
 
 ### <a name="method-_getFormatDB"></a>_getFormatDB
 
-    mixed AddressFormatCore::_getFormatDB($id_country)
+```php
+mixed AddressFormatCore::_getFormatDB($id_country)
+```
 
 
 
@@ -226,7 +252,9 @@ Methods
 
 ### <a name="method-_setOriginalDisplayFormat"></a>_setOriginalDisplayFormat
 
-    mixed AddressFormatCore::_setOriginalDisplayFormat($formattedValueList, $currentLine, $currentKeyList)
+```php
+mixed AddressFormatCore::_setOriginalDisplayFormat($formattedValueList, $currentLine, $currentKeyList)
+```
 
 
 
@@ -246,7 +274,9 @@ Methods
 
 ### <a name="method-checkFormatFields"></a>checkFormatFields
 
-    mixed AddressFormatCore::checkFormatFields()
+```php
+mixed AddressFormatCore::checkFormatFields()
+```
 
 
 
@@ -260,7 +290,9 @@ Methods
 
 ### <a name="method-cleanOrderedAddress"></a>cleanOrderedAddress
 
-    mixed AddressFormatCore::cleanOrderedAddress($orderedAddressField)
+```php
+mixed AddressFormatCore::cleanOrderedAddress($orderedAddressField)
+```
 
 
 
@@ -278,7 +310,9 @@ Methods
 
 ### <a name="method-generateAddress"></a>generateAddress
 
-    string AddressFormatCore::generateAddress(\Address $address, array $patternRules, string $newLine, string $separator, array $style)
+```php
+string AddressFormatCore::generateAddress(\Address $address, array $patternRules, string $newLine, string $separator, array $style)
+```
 
 Generates the full address text
 
@@ -300,7 +334,9 @@ Generates the full address text
 
 ### <a name="method-generateAddressSmarty"></a>generateAddressSmarty
 
-    mixed AddressFormatCore::generateAddressSmarty($params, $smarty)
+```php
+mixed AddressFormatCore::generateAddressSmarty($params, $smarty)
+```
 
 
 
@@ -319,7 +355,9 @@ Generates the full address text
 
 ### <a name="method-getAddressCountryFormat"></a>getAddressCountryFormat
 
-    String AddressFormatCore::getAddressCountryFormat(integer $id_country)
+```php
+String AddressFormatCore::getAddressCountryFormat(integer $id_country)
+```
 
 Returns address format by country if not defined using default country
 
@@ -337,7 +375,9 @@ Returns address format by country if not defined using default country
 
 ### <a name="method-getErrorList"></a>getErrorList
 
-    mixed AddressFormatCore::getErrorList()
+```php
+mixed AddressFormatCore::getErrorList()
+```
 
 
 
@@ -351,7 +391,9 @@ Returns address format by country if not defined using default country
 
 ### <a name="method-getFieldsRequired"></a>getFieldsRequired
 
-    mixed AddressFormatCore::getFieldsRequired()
+```php
+mixed AddressFormatCore::getFieldsRequired()
+```
 
 
 
@@ -366,7 +408,9 @@ Returns address format by country if not defined using default country
 
 ### <a name="method-getFormat"></a>getFormat
 
-    String AddressFormatCore::getFormat(integer $id_country)
+```php
+String AddressFormatCore::getFormat(integer $id_country)
+```
 
 Returns address format by country
 
@@ -383,7 +427,9 @@ Returns address format by country
 
 ### <a name="method-getFormattedAddressFieldsValues"></a>getFormattedAddressFieldsValues
 
-    mixed AddressFormatCore::getFormattedAddressFieldsValues($address, $addressFormat, $id_lang)
+```php
+mixed AddressFormatCore::getFormattedAddressFieldsValues($address, $addressFormat, $id_lang)
+```
 
 
 
@@ -403,7 +449,9 @@ Returns address format by country
 
 ### <a name="method-getFormattedLayoutData"></a>getFormattedLayoutData
 
-    mixed AddressFormatCore::getFormattedLayoutData($address)
+```php
+mixed AddressFormatCore::getFormattedLayoutData($address)
+```
 
 
 
@@ -421,7 +469,9 @@ Returns address format by country
 
 ### <a name="method-getLiableClass"></a>getLiableClass
 
-    mixed AddressFormatCore::getLiableClass($className)
+```php
+mixed AddressFormatCore::getLiableClass($className)
+```
 
 
 
@@ -439,7 +489,9 @@ Returns address format by country
 
 ### <a name="method-getOrderedAddressFields"></a>getOrderedAddressFields
 
-    Array AddressFormatCore::getOrderedAddressFields(integer $id_country, boolean $split_all, boolean $cleaned)
+```php
+Array AddressFormatCore::getOrderedAddressFields(integer $id_country, boolean $split_all, boolean $cleaned)
+```
 
 Returns address format fields in array by country
 
@@ -459,7 +511,9 @@ Returns address format fields in array by country
 
 ### <a name="method-getValidateFields"></a>getValidateFields
 
-    array AddressFormatCore::getValidateFields($className)
+```php
+array AddressFormatCore::getValidateFields($className)
+```
 
 Returns selected fields required for an address in an array according to a selection hash
 

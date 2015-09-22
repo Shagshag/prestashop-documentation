@@ -23,8 +23,11 @@ needs please refer to http://www.prestashop.com for more information.
 * Parent class: [ObjectModelCore](class.ObjectModelCore.md)
 * Source: [classes/stock/StockMvtWS.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L31)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [FORMAT_COMMON](#constant-FORMAT_COMMON)
 * [FORMAT_LANG](#constant-FORMAT_LANG)
@@ -40,8 +43,7 @@ Constants
 * [TYPE_SQL](#constant-TYPE_SQL)
 * [TYPE_STRING](#constant-TYPE_STRING)
 
-Properties
-----------
+### Properties
 
 * [$cache_objects](#property-$cache_objects)
 * [$current_wa](#property-$current_wa)
@@ -93,8 +95,8 @@ Properties
 * [$update_fields](#property-$update_fields)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [addFieldsRequiredDatabase](#method-addFieldsRequiredDatabase)
@@ -154,7 +156,9 @@ Constants
 
 ### <a name="constant-FORMAT_COMMON"></a>FORMAT_COMMON
 
-    const FORMAT_COMMON = 1
+```php
+const FORMAT_COMMON = 1
+```
 
 List of data to format
 
@@ -165,7 +169,9 @@ List of data to format
 
 ### <a name="constant-FORMAT_LANG"></a>FORMAT_LANG
 
-    const FORMAT_LANG = 2
+```php
+const FORMAT_LANG = 2
+```
 
 
 
@@ -176,7 +182,9 @@ List of data to format
 
 ### <a name="constant-FORMAT_SHOP"></a>FORMAT_SHOP
 
-    const FORMAT_SHOP = 3
+```php
+const FORMAT_SHOP = 3
+```
 
 
 
@@ -187,7 +195,9 @@ List of data to format
 
 ### <a name="constant-HAS_MANY"></a>HAS_MANY
 
-    const HAS_MANY = 2
+```php
+const HAS_MANY = 2
+```
 
 
 
@@ -198,7 +208,9 @@ List of data to format
 
 ### <a name="constant-HAS_ONE"></a>HAS_ONE
 
-    const HAS_ONE = 1
+```php
+const HAS_ONE = 1
+```
 
 List of association types
 
@@ -209,7 +221,9 @@ List of association types
 
 ### <a name="constant-TYPE_BOOL"></a>TYPE_BOOL
 
-    const TYPE_BOOL = 2
+```php
+const TYPE_BOOL = 2
+```
 
 
 
@@ -220,7 +234,9 @@ List of association types
 
 ### <a name="constant-TYPE_DATE"></a>TYPE_DATE
 
-    const TYPE_DATE = 5
+```php
+const TYPE_DATE = 5
+```
 
 
 
@@ -231,7 +247,9 @@ List of association types
 
 ### <a name="constant-TYPE_FLOAT"></a>TYPE_FLOAT
 
-    const TYPE_FLOAT = 4
+```php
+const TYPE_FLOAT = 4
+```
 
 
 
@@ -242,7 +260,9 @@ List of association types
 
 ### <a name="constant-TYPE_HTML"></a>TYPE_HTML
 
-    const TYPE_HTML = 6
+```php
+const TYPE_HTML = 6
+```
 
 
 
@@ -253,7 +273,9 @@ List of association types
 
 ### <a name="constant-TYPE_INT"></a>TYPE_INT
 
-    const TYPE_INT = 1
+```php
+const TYPE_INT = 1
+```
 
 List of field types
 
@@ -264,7 +286,9 @@ List of field types
 
 ### <a name="constant-TYPE_NOTHING"></a>TYPE_NOTHING
 
-    const TYPE_NOTHING = 7
+```php
+const TYPE_NOTHING = 7
+```
 
 
 
@@ -275,7 +299,9 @@ List of field types
 
 ### <a name="constant-TYPE_SQL"></a>TYPE_SQL
 
-    const TYPE_SQL = 8
+```php
+const TYPE_SQL = 8
+```
 
 
 
@@ -286,7 +312,9 @@ List of field types
 
 ### <a name="constant-TYPE_STRING"></a>TYPE_STRING
 
-    const TYPE_STRING = 3
+```php
+const TYPE_STRING = 3
+```
 
 
 
@@ -301,7 +329,9 @@ Properties
 
 ### <a name="property-$cache_objects"></a>$cache_objects
 
-    protected boolean $cache_objects = true
+```php
+protected boolean $cache_objects = true
+```
 
 
 
@@ -314,7 +344,9 @@ Properties
 
 ### <a name="property-$current_wa"></a>$current_wa
 
-    public float $current_wa = null
+```php
+public float $current_wa = null
+```
 
 
 
@@ -326,7 +358,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -338,7 +372,9 @@ Properties
 
 ### <a name="property-$db"></a>$db
 
-    protected \Db $db = false
+```php
+protected \Db $db = false
+```
 
 
 
@@ -351,7 +387,9 @@ Properties
 
 ### <a name="property-$def"></a>$def
 
-    protected array $def
+```php
+protected array $def
+```
 
 
 
@@ -363,7 +401,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public array $definition = array()
+```php
+public array $definition = array()
+```
 
 
 
@@ -376,7 +416,9 @@ Properties
 
 ### <a name="property-$ean13"></a>$ean13
 
-    public string $ean13
+```php
+public string $ean13
+```
 
 
 
@@ -388,7 +430,9 @@ Properties
 
 ### <a name="property-$employee_firstname"></a>$employee_firstname
 
-    public string $employee_firstname
+```php
+public string $employee_firstname
+```
 
 
 
@@ -400,7 +444,9 @@ Properties
 
 ### <a name="property-$employee_lastname"></a>$employee_lastname
 
-    public string $employee_lastname
+```php
+public string $employee_lastname
+```
 
 
 
@@ -412,7 +458,9 @@ Properties
 
 ### <a name="property-$fieldsRequired"></a>$fieldsRequired
 
-    protected array $fieldsRequired = array()
+```php
+protected array $fieldsRequired = array()
+```
 
 
 
@@ -424,7 +472,9 @@ Properties
 
 ### <a name="property-$fieldsRequiredDatabase"></a>$fieldsRequiredDatabase
 
-    protected array $fieldsRequiredDatabase = null
+```php
+protected array $fieldsRequiredDatabase = null
+```
 
 
 
@@ -437,7 +487,9 @@ Properties
 
 ### <a name="property-$fieldsRequiredLang"></a>$fieldsRequiredLang
 
-    protected array $fieldsRequiredLang = array()
+```php
+protected array $fieldsRequiredLang = array()
+```
 
 
 
@@ -449,7 +501,9 @@ Properties
 
 ### <a name="property-$fieldsSize"></a>$fieldsSize
 
-    protected array $fieldsSize = array()
+```php
+protected array $fieldsSize = array()
+```
 
 
 
@@ -461,7 +515,9 @@ Properties
 
 ### <a name="property-$fieldsSizeLang"></a>$fieldsSizeLang
 
-    protected array $fieldsSizeLang = array()
+```php
+protected array $fieldsSizeLang = array()
+```
 
 
 
@@ -473,7 +529,9 @@ Properties
 
 ### <a name="property-$fieldsValidate"></a>$fieldsValidate
 
-    protected array $fieldsValidate = array()
+```php
+protected array $fieldsValidate = array()
+```
 
 
 
@@ -485,7 +543,9 @@ Properties
 
 ### <a name="property-$fieldsValidateLang"></a>$fieldsValidateLang
 
-    protected array $fieldsValidateLang = array()
+```php
+protected array $fieldsValidateLang = array()
+```
 
 
 
@@ -497,7 +557,9 @@ Properties
 
 ### <a name="property-$force_id"></a>$force_id
 
-    public boolean $force_id = false
+```php
+public boolean $force_id = false
+```
 
 
 
@@ -509,7 +571,9 @@ Properties
 
 ### <a name="property-$get_shop_from_context"></a>$get_shop_from_context
 
-    protected boolean $get_shop_from_context = true
+```php
+protected boolean $get_shop_from_context = true
+```
 
 
 
@@ -521,7 +585,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public integer $id
+```php
+public integer $id
+```
 
 
 
@@ -533,7 +599,9 @@ Properties
 
 ### <a name="property-$id_currency"></a>$id_currency
 
-    public integer $id_currency
+```php
+public integer $id_currency
+```
 
 
 
@@ -545,7 +613,9 @@ Properties
 
 ### <a name="property-$id_employee"></a>$id_employee
 
-    public integer $id_employee
+```php
+public integer $id_employee
+```
 
 
 
@@ -557,7 +627,9 @@ Properties
 
 ### <a name="property-$id_lang"></a>$id_lang
 
-    protected integer $id_lang = null
+```php
+protected integer $id_lang = null
+```
 
 
 
@@ -569,7 +641,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public integer $id_order = null
+```php
+public integer $id_order = null
+```
 
 
 
@@ -581,7 +655,9 @@ Properties
 
 ### <a name="property-$id_product"></a>$id_product
 
-    public integer $id_product
+```php
+public integer $id_product
+```
 
 
 
@@ -593,7 +669,9 @@ Properties
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
-    public integer $id_product_attribute
+```php
+public integer $id_product_attribute
+```
 
 
 
@@ -605,7 +683,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    protected integer $id_shop = null
+```php
+protected integer $id_shop = null
+```
 
 
 
@@ -617,7 +697,9 @@ Properties
 
 ### <a name="property-$id_shop_list"></a>$id_shop_list
 
-    public array $id_shop_list = null
+```php
+public array $id_shop_list = null
+```
 
 
 
@@ -629,7 +711,9 @@ Properties
 
 ### <a name="property-$id_stock"></a>$id_stock
 
-    public integer $id_stock
+```php
+public integer $id_stock
+```
 
 
 
@@ -641,7 +725,9 @@ Properties
 
 ### <a name="property-$id_stock_mvt_reason"></a>$id_stock_mvt_reason
 
-    public integer $id_stock_mvt_reason
+```php
+public integer $id_stock_mvt_reason
+```
 
 
 
@@ -653,7 +739,9 @@ Properties
 
 ### <a name="property-$id_supply_order"></a>$id_supply_order
 
-    public integer $id_supply_order = null
+```php
+public integer $id_supply_order = null
+```
 
 
 
@@ -665,7 +753,9 @@ Properties
 
 ### <a name="property-$id_warehouse"></a>$id_warehouse
 
-    public integer $id_warehouse
+```php
+public integer $id_warehouse
+```
 
 
 
@@ -677,7 +767,9 @@ Properties
 
 ### <a name="property-$identifier"></a>$identifier
 
-    protected string $identifier
+```php
+protected string $identifier
+```
 
 
 
@@ -689,7 +781,9 @@ Properties
 
 ### <a name="property-$image_dir"></a>$image_dir
 
-    protected string $image_dir = null
+```php
+protected string $image_dir = null
+```
 
 
 
@@ -701,7 +795,9 @@ Properties
 
 ### <a name="property-$image_format"></a>$image_format
 
-    protected String $image_format = 'jpg'
+```php
+protected String $image_format = 'jpg'
+```
 
 
 
@@ -713,7 +809,9 @@ Properties
 
 ### <a name="property-$last_wa"></a>$last_wa
 
-    public float $last_wa = null
+```php
+public float $last_wa = null
+```
 
 
 
@@ -725,7 +823,9 @@ Properties
 
 ### <a name="property-$loaded_classes"></a>$loaded_classes
 
-    protected array $loaded_classes = array()
+```php
+protected array $loaded_classes = array()
+```
 
 Holds compiled definitions of each ObjectModel class.
 
@@ -738,7 +838,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$management_type"></a>$management_type
 
-    public string $management_type
+```php
+public string $management_type
+```
 
 
 
@@ -750,7 +852,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$physical_quantity"></a>$physical_quantity
 
-    public integer $physical_quantity
+```php
+public integer $physical_quantity
+```
 
 
 
@@ -762,7 +866,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$price_te"></a>$price_te
 
-    public float $price_te
+```php
+public float $price_te
+```
 
 
 
@@ -774,7 +880,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$product_name"></a>$product_name
 
-    public mixed $product_name
+```php
+public mixed $product_name
+```
 
 
 
@@ -786,7 +894,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$reference"></a>$reference
 
-    public string $reference
+```php
+public string $reference
+```
 
 
 
@@ -798,7 +908,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$referer"></a>$referer
 
-    public integer $referer
+```php
+public integer $referer
+```
 
 
 
@@ -810,7 +922,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$sign"></a>$sign
 
-    public integer $sign
+```php
+public integer $sign
+```
 
 
 
@@ -822,7 +936,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$table"></a>$table
 
-    protected string $table
+```php
+protected string $table
+```
 
 
 
@@ -834,7 +950,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$tables"></a>$tables
 
-    protected array $tables = array()
+```php
+protected array $tables = array()
+```
 
 
 
@@ -846,7 +964,9 @@ Values are assigned during object initialization.
 
 ### <a name="property-$tables_assoc"></a>$tables_assoc
 
-    protected Array $tables_assoc = array('id_product' => array('table' => 's'), 'id_product_attribute' => array('table' => 's'), 'id_warehouse' => array('table' => 's'), 'id_currency' => array('table' => 's'), 'management_type' => array('table' => 'w'), 'ean13' => array('table' => 's'), 'upc' => array('table' => 's'), 'reference' => array('table' => 's'))
+```php
+protected Array $tables_assoc = array('id_product' => array('table' => 's'), 'id_product_attribute' => array('table' => 's'), 'id_warehouse' => array('table' => 's'), 'id_currency' => array('table' => 's'), 'management_type' => array('table' => 'w'), 'ean13' => array('table' => 's'), 'upc' => array('table' => 's'), 'reference' => array('table' => 's'))
+```
 
 Associations tables for attributes that require different tables than stated in ObjectModel::definition
 
@@ -858,7 +978,9 @@ Associations tables for attributes that require different tables than stated in 
 
 ### <a name="property-$upc"></a>$upc
 
-    public string $upc
+```php
+public string $upc
+```
 
 
 
@@ -870,7 +992,9 @@ Associations tables for attributes that require different tables than stated in 
 
 ### <a name="property-$update_fields"></a>$update_fields
 
-    protected array $update_fields = null
+```php
+protected array $update_fields = null
+```
 
 
 
@@ -882,7 +1006,9 @@ Associations tables for attributes that require different tables than stated in 
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected array $webserviceParameters = array()
+```php
+protected array $webserviceParameters = array()
+```
 
 
 
@@ -898,7 +1024,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed StockMvtWSCore::__construct(integer|null $id, integer|null $id_lang, integer|null $id_shop)
+```php
+mixed StockMvtWSCore::__construct(integer|null $id, integer|null $id_lang, integer|null $id_shop)
+```
 
 Builds the object
 
@@ -917,7 +1045,9 @@ Builds the object
 
 ### <a name="method-add"></a>add
 
-    boolean StockMvtWSCore::add(boolean $auto_date, boolean $null_values)
+```php
+boolean StockMvtWSCore::add(boolean $auto_date, boolean $null_values)
+```
 
 Adds current object to the database
 
@@ -935,7 +1065,9 @@ Adds current object to the database
 
 ### <a name="method-addFieldsRequiredDatabase"></a>addFieldsRequiredDatabase
 
-    boolean StockMvtWSCore::addFieldsRequiredDatabase(array $fields)
+```php
+boolean StockMvtWSCore::addFieldsRequiredDatabase(array $fields)
+```
 
 Sets required field for this class in the database.
 
@@ -952,7 +1084,9 @@ Sets required field for this class in the database.
 
 ### <a name="method-associateTo"></a>associateTo
 
-    boolean|void StockMvtWSCore::associateTo(integer|array $id_shops)
+```php
+boolean|void StockMvtWSCore::associateTo(integer|array $id_shops)
+```
 
 This function associate an item to its context
 
@@ -969,7 +1103,9 @@ This function associate an item to its context
 
 ### <a name="method-cacheFieldsRequiredDatabase"></a>cacheFieldsRequiredDatabase
 
-    mixed StockMvtWSCore::cacheFieldsRequiredDatabase(boolean $all)
+```php
+mixed StockMvtWSCore::cacheFieldsRequiredDatabase(boolean $all)
+```
 
 Caches data about required objects fields in memory
 
@@ -986,7 +1122,9 @@ Caches data about required objects fields in memory
 
 ### <a name="method-clearCache"></a>clearCache
 
-    mixed StockMvtWSCore::clearCache(boolean $all)
+```php
+mixed StockMvtWSCore::clearCache(boolean $all)
+```
 
 Clears cache entries that have this object's ID.
 
@@ -1003,7 +1141,9 @@ Clears cache entries that have this object's ID.
 
 ### <a name="method-delete"></a>delete
 
-    boolean StockMvtWSCore::delete()
+```php
+boolean StockMvtWSCore::delete()
+```
 
 Deletes current object from database
 
@@ -1017,7 +1157,9 @@ Deletes current object from database
 
 ### <a name="method-deleteImage"></a>deleteImage
 
-    boolean StockMvtWSCore::deleteImage(boolean $force_delete)
+```php
+boolean StockMvtWSCore::deleteImage(boolean $force_delete)
+```
 
 Delete images associated with the object
 
@@ -1034,7 +1176,9 @@ Delete images associated with the object
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    boolean StockMvtWSCore::deleteSelection(array $ids)
+```php
+boolean StockMvtWSCore::deleteSelection(array $ids)
+```
 
 Deletes multiple objects from the database at once
 
@@ -1051,7 +1195,9 @@ Deletes multiple objects from the database at once
 
 ### <a name="method-disableCache"></a>disableCache
 
-    mixed StockMvtWSCore::disableCache()
+```php
+mixed StockMvtWSCore::disableCache()
+```
 
 Disables object caching
 
@@ -1066,7 +1212,9 @@ Disables object caching
 
 ### <a name="method-displayFieldName"></a>displayFieldName
 
-    string StockMvtWSCore::displayFieldName(string $field, string $class, boolean $htmlentities, \Context|null $context)
+```php
+string StockMvtWSCore::displayFieldName(string $field, string $class, boolean $htmlentities, \Context|null $context)
+```
 
 Returns field name translation
 
@@ -1087,7 +1235,9 @@ Returns field name translation
 
 ### <a name="method-duplicateObject"></a>duplicateObject
 
-    \ObjectModel|false StockMvtWSCore::duplicateObject()
+```php
+\ObjectModel|false StockMvtWSCore::duplicateObject()
+```
 
 Takes current object ID, gets its values from database,
 saves them in a new row and loads newly saved values as a new object.
@@ -1102,7 +1252,9 @@ saves them in a new row and loads newly saved values as a new object.
 
 ### <a name="method-duplicateShops"></a>duplicateShops
 
-    boolean|void StockMvtWSCore::duplicateShops($id)
+```php
+boolean|void StockMvtWSCore::duplicateShops($id)
+```
 
 Copies shop association data from object with specified ID.
 
@@ -1119,7 +1271,9 @@ Copies shop association data from object with specified ID.
 
 ### <a name="method-enableCache"></a>enableCache
 
-    mixed StockMvtWSCore::enableCache()
+```php
+mixed StockMvtWSCore::enableCache()
+```
 
 Enables object caching
 
@@ -1134,7 +1288,9 @@ Enables object caching
 
 ### <a name="method-existsInDatabase"></a>existsInDatabase
 
-    boolean StockMvtWSCore::existsInDatabase(integer $id_entity, string $table)
+```php
+boolean StockMvtWSCore::existsInDatabase(integer $id_entity, string $table)
+```
 
 Checks if an object exists in database.
 
@@ -1153,7 +1309,9 @@ Checks if an object exists in database.
 
 ### <a name="method-formatFields"></a>formatFields
 
-    array StockMvtWSCore::formatFields(integer $type, integer $id_lang)
+```php
+array StockMvtWSCore::formatFields(integer $type, integer $id_lang)
+```
 
 Formats values of each fields.
 
@@ -1171,7 +1329,9 @@ Formats values of each fields.
 
 ### <a name="method-formatValue"></a>formatValue
 
-    mixed StockMvtWSCore::formatValue(mixed $value, integer $type, boolean $with_quotes, boolean $purify, boolean $allow_null)
+```php
+mixed StockMvtWSCore::formatValue(mixed $value, integer $type, boolean $with_quotes, boolean $purify, boolean $allow_null)
+```
 
 Formats a value
 
@@ -1193,7 +1353,9 @@ Formats a value
 
 ### <a name="method-getAssociatedShops"></a>getAssociatedShops
 
-    array StockMvtWSCore::getAssociatedShops()
+```php
+array StockMvtWSCore::getAssociatedShops()
+```
 
 Gets the list of associated shop IDs
 
@@ -1207,7 +1369,9 @@ Gets the list of associated shop IDs
 
 ### <a name="method-getDefinition"></a>getDefinition
 
-    array StockMvtWSCore::getDefinition(string $class, string|null $field)
+```php
+array StockMvtWSCore::getDefinition(string $class, string|null $field)
+```
 
 Returns object definition
 
@@ -1226,7 +1390,9 @@ Returns object definition
 
 ### <a name="method-getFieldByLang"></a>getFieldByLang
 
-    mixed StockMvtWSCore::getFieldByLang(string $field_name, integer|null $id_lang)
+```php
+mixed StockMvtWSCore::getFieldByLang(string $field_name, integer|null $id_lang)
+```
 
 Return the field value for the specified language if the field is multilang,
 else the field value.
@@ -1245,7 +1411,9 @@ else the field value.
 
 ### <a name="method-getFields"></a>getFields
 
-    array StockMvtWSCore::getFields()
+```php
+array StockMvtWSCore::getFields()
+```
 
 Prepare fields for ObjectModel class (add, update)
 All fields are verified (pSQL, intval, .
@@ -1260,7 +1428,9 @@ All fields are verified (pSQL, intval, .
 
 ### <a name="method-getFieldsLang"></a>getFieldsLang
 
-    array StockMvtWSCore::getFieldsLang()
+```php
+array StockMvtWSCore::getFieldsLang()
+```
 
 Prepare multilang fields
 
@@ -1274,7 +1444,9 @@ Prepare multilang fields
 
 ### <a name="method-getFieldsRequiredDatabase"></a>getFieldsRequiredDatabase
 
-    array|null StockMvtWSCore::getFieldsRequiredDatabase(boolean $all)
+```php
+array|null StockMvtWSCore::getFieldsRequiredDatabase(boolean $all)
+```
 
 Returns an array of required fields
 
@@ -1291,7 +1463,9 @@ Returns an array of required fields
 
 ### <a name="method-getFieldsShop"></a>getFieldsShop
 
-    array StockMvtWSCore::getFieldsShop()
+```php
+array StockMvtWSCore::getFieldsShop()
+```
 
 Prepare fields for multishop
 Fields are not validated here, we consider they are already validated in getFields() method,
@@ -1307,7 +1481,9 @@ this is not the best solution but this is the only one possible for retro compat
 
 ### <a name="method-getRepositoryClassName"></a>getRepositoryClassName
 
-    mixed StockMvtWSCore::getRepositoryClassName()
+```php
+mixed StockMvtWSCore::getRepositoryClassName()
+```
 
 Returns the name of the repository class for this entity.
 
@@ -1322,7 +1498,9 @@ If unspecified, a generic repository will be used for the entity.
 
 ### <a name="method-getTranslationsFields"></a>getTranslationsFields
 
-    array StockMvtWSCore::getTranslationsFields(array $fields_array)
+```php
+array StockMvtWSCore::getTranslationsFields(array $fields_array)
+```
 
 
 
@@ -1339,7 +1517,9 @@ If unspecified, a generic repository will be used for the entity.
 
 ### <a name="method-getValidationRules"></a>getValidationRules
 
-    array StockMvtWSCore::getValidationRules(string $class)
+```php
+array StockMvtWSCore::getValidationRules(string $class)
+```
 
 Returns object validation rules (fields validity)
 
@@ -1357,7 +1537,9 @@ Returns object validation rules (fields validity)
 
 ### <a name="method-getWSProductName"></a>getWSProductName
 
-    mixed StockMvtWSCore::getWSProductName()
+```php
+mixed StockMvtWSCore::getWSProductName()
+```
 
 Webservice : getter for the product name
 
@@ -1371,7 +1553,9 @@ Webservice : getter for the product name
 
 ### <a name="method-getWebserviceObjectList"></a>getWebserviceObjectList
 
-    array|null StockMvtWSCore::getWebserviceObjectList(string $sql_join, string $sql_filter, string $sql_sort, string $sql_limit)
+```php
+array|null StockMvtWSCore::getWebserviceObjectList(string $sql_join, string $sql_filter, string $sql_sort, string $sql_limit)
+```
 
 Returns webservice object list.
 
@@ -1391,7 +1575,9 @@ Returns webservice object list.
 
 ### <a name="method-getWebserviceParameters"></a>getWebserviceParameters
 
-    array StockMvtWSCore::getWebserviceParameters(string|null $ws_params_attribute_name)
+```php
+array StockMvtWSCore::getWebserviceParameters(string|null $ws_params_attribute_name)
+```
 
 Returns webservice parameters of this object.
 
@@ -1408,7 +1594,9 @@ Returns webservice parameters of this object.
 
 ### <a name="method-hasMultishopEntries"></a>hasMultishopEntries
 
-    boolean StockMvtWSCore::hasMultishopEntries()
+```php
+boolean StockMvtWSCore::hasMultishopEntries()
+```
 
 Checks if there is more than one entry in associated shop table for current object.
 
@@ -1422,7 +1610,9 @@ Checks if there is more than one entry in associated shop table for current obje
 
 ### <a name="method-hydrate"></a>hydrate
 
-    mixed StockMvtWSCore::hydrate(array $data, integer|null $id_lang)
+```php
+mixed StockMvtWSCore::hydrate(array $data, integer|null $id_lang)
+```
 
 Fill an object with given data. Data must be an array with this syntax:
 array(objProperty => value, objProperty2 => value, etc.)
@@ -1441,7 +1631,9 @@ array(objProperty => value, objProperty2 => value, etc.)
 
 ### <a name="method-hydrateCollection"></a>hydrateCollection
 
-    array StockMvtWSCore::hydrateCollection(string $class, array $datas, integer|null $id_lang)
+```php
+array StockMvtWSCore::hydrateCollection(string $class, array $datas, integer|null $id_lang)
+```
 
 Fill (hydrate) a list of objects in order to get a collection of these objects
 
@@ -1461,7 +1653,9 @@ Fill (hydrate) a list of objects in order to get a collection of these objects
 
 ### <a name="method-isAssociatedToShop"></a>isAssociatedToShop
 
-    boolean StockMvtWSCore::isAssociatedToShop(integer|null $id_shop)
+```php
+boolean StockMvtWSCore::isAssociatedToShop(integer|null $id_shop)
+```
 
 Checks if current object is associated to a shop.
 
@@ -1478,7 +1672,9 @@ Checks if current object is associated to a shop.
 
 ### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
 
-    boolean StockMvtWSCore::isCurrentlyUsed(string|null $table, boolean $has_active_column)
+```php
+boolean StockMvtWSCore::isCurrentlyUsed(string|null $table, boolean $has_active_column)
+```
 
 Checks if an object type exists in the database.
 
@@ -1497,7 +1693,9 @@ Checks if an object type exists in the database.
 
 ### <a name="method-isLangMultishop"></a>isLangMultishop
 
-    boolean StockMvtWSCore::isLangMultishop()
+```php
+boolean StockMvtWSCore::isLangMultishop()
+```
 
 Checks if the object is both multi-language and multi-shop.
 
@@ -1511,7 +1709,9 @@ Checks if the object is both multi-language and multi-shop.
 
 ### <a name="method-isMultiShopField"></a>isMultiShopField
 
-    boolean StockMvtWSCore::isMultiShopField(string $field)
+```php
+boolean StockMvtWSCore::isMultiShopField(string $field)
+```
 
 Checks if a field is a multi-shop field.
 
@@ -1528,7 +1728,9 @@ Checks if a field is a multi-shop field.
 
 ### <a name="method-isMultishop"></a>isMultishop
 
-    boolean StockMvtWSCore::isMultishop()
+```php
+boolean StockMvtWSCore::isMultishop()
+```
 
 Checks if object is multi-shop object.
 
@@ -1542,7 +1744,9 @@ Checks if object is multi-shop object.
 
 ### <a name="method-makeTranslationFields"></a>makeTranslationFields
 
-    mixed StockMvtWSCore::makeTranslationFields(array $fields, array $fields_array, integer $id_language)
+```php
+mixed StockMvtWSCore::makeTranslationFields(array $fields, array $fields_array, integer $id_language)
+```
 
 
 
@@ -1561,7 +1765,9 @@ Checks if object is multi-shop object.
 
 ### <a name="method-save"></a>save
 
-    boolean StockMvtWSCore::save(boolean $null_values, boolean $auto_date)
+```php
+boolean StockMvtWSCore::save(boolean $null_values, boolean $auto_date)
+```
 
 Saves current object to database (add or update)
 
@@ -1579,7 +1785,9 @@ Saves current object to database (add or update)
 
 ### <a name="method-setDefinitionRetrocompatibility"></a>setDefinitionRetrocompatibility
 
-    mixed StockMvtWSCore::setDefinitionRetrocompatibility()
+```php
+mixed StockMvtWSCore::setDefinitionRetrocompatibility()
+```
 
 Retrocompatibility for classes without $definition static
 
@@ -1593,7 +1801,9 @@ Retrocompatibility for classes without $definition static
 
 ### <a name="method-setFieldsToUpdate"></a>setFieldsToUpdate
 
-    mixed StockMvtWSCore::setFieldsToUpdate(array $fields)
+```php
+mixed StockMvtWSCore::setFieldsToUpdate(array $fields)
+```
 
 Set a list of specific fields to update
 array(field1 => true, field2 => false,
@@ -1612,7 +1822,9 @@ langfield1 => array(1 => true, 2 => false))
 
 ### <a name="method-toggleStatus"></a>toggleStatus
 
-    boolean StockMvtWSCore::toggleStatus()
+```php
+boolean StockMvtWSCore::toggleStatus()
+```
 
 Toggles object status in database
 
@@ -1626,7 +1838,9 @@ Toggles object status in database
 
 ### <a name="method-update"></a>update
 
-    boolean StockMvtWSCore::update(boolean $null_values)
+```php
+boolean StockMvtWSCore::update(boolean $null_values)
+```
 
 Updates the current object in the database
 
@@ -1643,7 +1857,9 @@ Updates the current object in the database
 
 ### <a name="method-updateMultishopTable"></a>updateMultishopTable
 
-    boolean StockMvtWSCore::updateMultishopTable(string $classname, array $data, string $where, string $specific_where)
+```php
+boolean StockMvtWSCore::updateMultishopTable(string $classname, array $data, string $where, string $specific_where)
+```
 
 Updates a table and splits the common datas and the shop datas.
 
@@ -1664,7 +1880,9 @@ Updates a table and splits the common datas and the shop datas.
 
 ### <a name="method-validateControler"></a>validateControler
 
-    array StockMvtWSCore::validateControler(boolean $htmlentities)
+```php
+array StockMvtWSCore::validateControler(boolean $htmlentities)
+```
 
 
 
@@ -1681,7 +1899,9 @@ Updates a table and splits the common datas and the shop datas.
 
 ### <a name="method-validateController"></a>validateController
 
-    array StockMvtWSCore::validateController(boolean $htmlentities)
+```php
+array StockMvtWSCore::validateController(boolean $htmlentities)
+```
 
 Validates submitted values and returns an array of errors, if any.
 
@@ -1698,7 +1918,9 @@ Validates submitted values and returns an array of errors, if any.
 
 ### <a name="method-validateField"></a>validateField
 
-    true|string StockMvtWSCore::validateField(string $field, mixed $value, integer|null $id_lang, array $skip, boolean $human_errors)
+```php
+true|string StockMvtWSCore::validateField(string $field, mixed $value, integer|null $id_lang, array $skip, boolean $human_errors)
+```
 
 Validate a single field
 
@@ -1719,7 +1941,9 @@ Validate a single field
 
 ### <a name="method-validateFields"></a>validateFields
 
-    boolean|string StockMvtWSCore::validateFields(boolean $die, boolean $error_return)
+```php
+boolean|string StockMvtWSCore::validateFields(boolean $die, boolean $error_return)
+```
 
 Checks if object field values are valid before database interaction
 
@@ -1737,7 +1961,9 @@ Checks if object field values are valid before database interaction
 
 ### <a name="method-validateFieldsLang"></a>validateFieldsLang
 
-    boolean|string StockMvtWSCore::validateFieldsLang(boolean $die, boolean $error_return)
+```php
+boolean|string StockMvtWSCore::validateFieldsLang(boolean $die, boolean $error_return)
+```
 
 Checks if multilingual object field values are valid before database interaction.
 
@@ -1755,7 +1981,9 @@ Checks if multilingual object field values are valid before database interaction
 
 ### <a name="method-validateFieldsRequiredDatabase"></a>validateFieldsRequiredDatabase
 
-    array StockMvtWSCore::validateFieldsRequiredDatabase(boolean $htmlentities)
+```php
+array StockMvtWSCore::validateFieldsRequiredDatabase(boolean $htmlentities)
+```
 
 Validate required fields.
 

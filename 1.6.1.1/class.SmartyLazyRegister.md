@@ -9,15 +9,17 @@ Used to delay loading of external classes with smarty-&gt;register_plugin
 * Source: [config/smarty.config.inc.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L225)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$instance](#property-$instance)
 * [$registry](#property-$registry)
 
-Methods
--------
+### Methods
+
 * [__call](#method-__call)
 * [getInstance](#method-getInstance)
 * [register](#method-register)
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$instance"></a>$instance
 
-    protected mixed $instance
+```php
+protected mixed $instance
+```
 
 
 
@@ -44,7 +48,9 @@ Properties
 
 ### <a name="property-$registry"></a>$registry
 
-    protected mixed $registry = array()
+```php
+protected mixed $registry = array()
+```
 
 
 
@@ -60,7 +66,9 @@ Methods
 
 ### <a name="method-__call"></a>__call
 
-    mixed SmartyLazyRegister::__call(string $name, mixed $arguments)
+```php
+mixed SmartyLazyRegister::__call(string $name, mixed $arguments)
+```
 
 Dynamically call static function or method
 
@@ -78,7 +86,9 @@ Dynamically call static function or method
 
 ### <a name="method-getInstance"></a>getInstance
 
-    mixed SmartyLazyRegister::getInstance()
+```php
+mixed SmartyLazyRegister::getInstance()
+```
 
 
 
@@ -93,7 +103,9 @@ Dynamically call static function or method
 
 ### <a name="method-register"></a>register
 
-    mixed SmartyLazyRegister::register(string|array $params)
+```php
+mixed SmartyLazyRegister::register(string|array $params)
+```
 
 Register a function or method to be dynamically called later
 

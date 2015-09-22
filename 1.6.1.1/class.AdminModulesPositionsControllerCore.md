@@ -10,14 +10,16 @@ Class AdminModulesPositionsControllerCore
 * Source: [controllers/admin/AdminModulesPositionsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$display_key](#property-$display_key)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessGetHookableList](#method-ajaxProcessGetHookableList)
 * [ajaxProcessGetHookableModuleList](#method-ajaxProcessGetHookableModuleList)
@@ -41,7 +43,9 @@ Properties
 
 ### <a name="property-$display_key"></a>$display_key
 
-    protected mixed $display_key
+```php
+protected mixed $display_key
+```
 
 
 
@@ -57,7 +61,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminModulesPositionsControllerCore::__construct()
+```php
+mixed AdminModulesPositionsControllerCore::__construct()
+```
 
 
 
@@ -71,7 +77,9 @@ Methods
 
 ### <a name="method-ajaxProcessGetHookableList"></a>ajaxProcessGetHookableList
 
-    mixed AdminModulesPositionsControllerCore::ajaxProcessGetHookableList()
+```php
+mixed AdminModulesPositionsControllerCore::ajaxProcessGetHookableList()
+```
 
 
 
@@ -85,7 +93,9 @@ Methods
 
 ### <a name="method-ajaxProcessGetHookableModuleList"></a>ajaxProcessGetHookableModuleList
 
-    mixed AdminModulesPositionsControllerCore::ajaxProcessGetHookableModuleList()
+```php
+mixed AdminModulesPositionsControllerCore::ajaxProcessGetHookableModuleList()
+```
 
 
 
@@ -99,7 +109,9 @@ Methods
 
 ### <a name="method-ajaxProcessGetPossibleHookingListForModule"></a>ajaxProcessGetPossibleHookingListForModule
 
-    null AdminModulesPositionsControllerCore::ajaxProcessGetPossibleHookingListForModule()
+```php
+null AdminModulesPositionsControllerCore::ajaxProcessGetPossibleHookingListForModule()
+```
 
 Return a json array containing the possible hooks for a module.
 
@@ -113,7 +125,9 @@ Return a json array containing the possible hooks for a module.
 
 ### <a name="method-ajaxProcessSaveHook"></a>ajaxProcessSaveHook
 
-    mixed AdminModulesPositionsControllerCore::ajaxProcessSaveHook()
+```php
+mixed AdminModulesPositionsControllerCore::ajaxProcessSaveHook()
+```
 
 
 
@@ -127,7 +141,9 @@ Return a json array containing the possible hooks for a module.
 
 ### <a name="method-ajaxProcessUpdatePositions"></a>ajaxProcessUpdatePositions
 
-    mixed AdminModulesPositionsControllerCore::ajaxProcessUpdatePositions()
+```php
+mixed AdminModulesPositionsControllerCore::ajaxProcessUpdatePositions()
+```
 
 
 
@@ -141,7 +157,9 @@ Return a json array containing the possible hooks for a module.
 
 ### <a name="method-displayModuleExceptionList"></a>displayModuleExceptionList
 
-    mixed AdminModulesPositionsControllerCore::displayModuleExceptionList($file_list, $shop_id)
+```php
+mixed AdminModulesPositionsControllerCore::displayModuleExceptionList($file_list, $shop_id)
+```
 
 
 
@@ -159,7 +177,9 @@ Return a json array containing the possible hooks for a module.
 
 ### <a name="method-getLiveEditUrl"></a>getLiveEditUrl
 
-    mixed AdminModulesPositionsControllerCore::getLiveEditUrl($live_edit_params)
+```php
+mixed AdminModulesPositionsControllerCore::getLiveEditUrl($live_edit_params)
+```
 
 
 
@@ -176,7 +196,9 @@ Return a json array containing the possible hooks for a module.
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminModulesPositionsControllerCore::initContent()
+```php
+mixed AdminModulesPositionsControllerCore::initContent()
+```
 
 
 
@@ -190,7 +212,9 @@ Return a json array containing the possible hooks for a module.
 
 ### <a name="method-initMain"></a>initMain
 
-    mixed AdminModulesPositionsControllerCore::initMain()
+```php
+mixed AdminModulesPositionsControllerCore::initMain()
+```
 
 
 
@@ -204,7 +228,9 @@ Return a json array containing the possible hooks for a module.
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminModulesPositionsControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminModulesPositionsControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -218,7 +244,9 @@ Return a json array containing the possible hooks for a module.
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminModulesPositionsControllerCore::postProcess()
+```php
+mixed AdminModulesPositionsControllerCore::postProcess()
+```
 
 
 
@@ -232,7 +260,9 @@ Return a json array containing the possible hooks for a module.
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminModulesPositionsControllerCore::renderForm()
+```php
+mixed AdminModulesPositionsControllerCore::renderForm()
+```
 
 
 

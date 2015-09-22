@@ -9,12 +9,13 @@ Interface ITreeToolbarCore
 * This is an **interface**
 * Source: [classes/tree/ITreeToolbar.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L27)
 
+Contents
+--------
 
 
 
+### Methods
 
-Methods
--------
 * [__toString](#method-__toString)
 * [addAction](#method-addAction)
 * [getActions](#method-getActions)
@@ -41,7 +42,9 @@ Methods
 
 ### <a name="method-__toString"></a>__toString
 
-    mixed ITreeToolbarCore::__toString()
+```php
+mixed ITreeToolbarCore::__toString()
+```
 
 
 
@@ -55,7 +58,9 @@ Methods
 
 ### <a name="method-addAction"></a>addAction
 
-    mixed ITreeToolbarCore::addAction($action)
+```php
+mixed ITreeToolbarCore::addAction($action)
+```
 
 
 
@@ -72,7 +77,9 @@ Methods
 
 ### <a name="method-getActions"></a>getActions
 
-    mixed ITreeToolbarCore::getActions()
+```php
+mixed ITreeToolbarCore::getActions()
+```
 
 
 
@@ -86,7 +93,9 @@ Methods
 
 ### <a name="method-getContext"></a>getContext
 
-    mixed ITreeToolbarCore::getContext()
+```php
+mixed ITreeToolbarCore::getContext()
+```
 
 
 
@@ -100,7 +109,9 @@ Methods
 
 ### <a name="method-getData"></a>getData
 
-    mixed ITreeToolbarCore::getData()
+```php
+mixed ITreeToolbarCore::getData()
+```
 
 
 
@@ -114,7 +125,9 @@ Methods
 
 ### <a name="method-getTemplate"></a>getTemplate
 
-    mixed ITreeToolbarCore::getTemplate()
+```php
+mixed ITreeToolbarCore::getTemplate()
+```
 
 
 
@@ -128,7 +141,9 @@ Methods
 
 ### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
-    mixed ITreeToolbarCore::getTemplateDirectory()
+```php
+mixed ITreeToolbarCore::getTemplateDirectory()
+```
 
 
 
@@ -142,7 +157,9 @@ Methods
 
 ### <a name="method-removeActions"></a>removeActions
 
-    mixed ITreeToolbarCore::removeActions()
+```php
+mixed ITreeToolbarCore::removeActions()
+```
 
 
 
@@ -156,7 +173,9 @@ Methods
 
 ### <a name="method-render"></a>render
 
-    mixed ITreeToolbarCore::render()
+```php
+mixed ITreeToolbarCore::render()
+```
 
 
 
@@ -170,7 +189,9 @@ Methods
 
 ### <a name="method-setActions"></a>setActions
 
-    mixed ITreeToolbarCore::setActions($value)
+```php
+mixed ITreeToolbarCore::setActions($value)
+```
 
 
 
@@ -187,7 +208,9 @@ Methods
 
 ### <a name="method-setContext"></a>setContext
 
-    mixed ITreeToolbarCore::setContext($value)
+```php
+mixed ITreeToolbarCore::setContext($value)
+```
 
 
 
@@ -204,7 +227,9 @@ Methods
 
 ### <a name="method-setData"></a>setData
 
-    mixed ITreeToolbarCore::setData($value)
+```php
+mixed ITreeToolbarCore::setData($value)
+```
 
 
 
@@ -221,7 +246,9 @@ Methods
 
 ### <a name="method-setTemplate"></a>setTemplate
 
-    mixed ITreeToolbarCore::setTemplate($value)
+```php
+mixed ITreeToolbarCore::setTemplate($value)
+```
 
 
 
@@ -238,7 +265,9 @@ Methods
 
 ### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
-    mixed ITreeToolbarCore::setTemplateDirectory($value)
+```php
+mixed ITreeToolbarCore::setTemplateDirectory($value)
+```
 
 
 

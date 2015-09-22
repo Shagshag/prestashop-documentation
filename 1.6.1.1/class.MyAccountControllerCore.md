@@ -10,17 +10,19 @@ Class MyAccountControllerCore
 * Source: [controllers/front/MyAccountController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$auth](#property-$auth)
 * [$authRedirection](#property-$authRedirection)
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [initContent](#method-initContent)
 * [setMedia](#method-setMedia)
 
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public mixed $auth = true
+```php
+public mixed $auth = true
+```
 
 
 
@@ -45,7 +49,9 @@ Properties
 
 ### <a name="property-$authRedirection"></a>$authRedirection
 
-    public mixed $authRedirection = 'my-account'
+```php
+public mixed $authRedirection = 'my-account'
+```
 
 
 
@@ -57,7 +63,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'my-account'
+```php
+public mixed $php_self = 'my-account'
+```
 
 
 
@@ -69,7 +77,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -85,7 +95,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed MyAccountControllerCore::initContent()
+```php
+mixed MyAccountControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -99,7 +111,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed MyAccountControllerCore::setMedia()
+```php
+mixed MyAccountControllerCore::setMedia()
+```
 
 
 

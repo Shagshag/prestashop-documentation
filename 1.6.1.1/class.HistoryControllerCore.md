@@ -10,17 +10,19 @@ Class HistoryControllerCore
 * Source: [controllers/front/HistoryController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/HistoryController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$auth](#property-$auth)
 * [$authRedirection](#property-$authRedirection)
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [initContent](#method-initContent)
 * [setMedia](#method-setMedia)
 
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public mixed $auth = true
+```php
+public mixed $auth = true
+```
 
 
 
@@ -45,7 +49,9 @@ Properties
 
 ### <a name="property-$authRedirection"></a>$authRedirection
 
-    public mixed $authRedirection = 'history'
+```php
+public mixed $authRedirection = 'history'
+```
 
 
 
@@ -57,7 +63,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'history'
+```php
+public mixed $php_self = 'history'
+```
 
 
 
@@ -69,7 +77,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -85,7 +95,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed HistoryControllerCore::initContent()
+```php
+mixed HistoryControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -99,7 +111,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed HistoryControllerCore::setMedia()
+```php
+mixed HistoryControllerCore::setMedia()
+```
 
 
 

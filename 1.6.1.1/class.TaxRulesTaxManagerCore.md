@@ -9,17 +9,19 @@ Class TaxRulesTaxManagerCore
 * Source: [classes/tax/TaxRulesTaxManager.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#L30)
 * This class implements: [TaxManagerInterface](interface.TaxManagerInterface.md)
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$address](#property-$address)
 * [$configurationManager](#property-$configurationManager)
 * [$tax_calculator](#property-$tax_calculator)
 * [$type](#property-$type)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getTaxCalculator](#method-getTaxCalculator)
 * [isAvailableForThisAddress](#method-isAvailableForThisAddress)
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$address"></a>$address
 
-    public mixed $address
+```php
+public mixed $address
+```
 
 
 
@@ -45,7 +49,9 @@ Properties
 
 ### <a name="property-$configurationManager"></a>$configurationManager
 
-    private \Core_Business_ConfigurationInterface $configurationManager
+```php
+private \Core_Business_ConfigurationInterface $configurationManager
+```
 
 
 
@@ -57,7 +63,9 @@ Properties
 
 ### <a name="property-$tax_calculator"></a>$tax_calculator
 
-    public mixed $tax_calculator
+```php
+public mixed $tax_calculator
+```
 
 
 
@@ -69,7 +77,9 @@ Properties
 
 ### <a name="property-$type"></a>$type
 
-    public mixed $type
+```php
+public mixed $type
+```
 
 
 
@@ -85,7 +95,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed TaxRulesTaxManagerCore::__construct(\Address $address, mixed $type, \Core_Business_ConfigurationInterface $configurationManager)
+```php
+mixed TaxRulesTaxManagerCore::__construct(\Address $address, mixed $type, \Core_Business_ConfigurationInterface $configurationManager)
+```
 
 
 
@@ -104,7 +116,9 @@ Methods
 
 ### <a name="method-getTaxCalculator"></a>getTaxCalculator
 
-    \TaxCalculator TaxRulesTaxManagerCore::getTaxCalculator()
+```php
+\TaxCalculator TaxRulesTaxManagerCore::getTaxCalculator()
+```
 
 Return the tax calculator associated to this address
 
@@ -118,7 +132,9 @@ Return the tax calculator associated to this address
 
 ### <a name="method-isAvailableForThisAddress"></a>isAvailableForThisAddress
 
-    boolean TaxRulesTaxManagerCore::isAvailableForThisAddress(\Address $address)
+```php
+boolean TaxRulesTaxManagerCore::isAvailableForThisAddress(\Address $address)
+```
 
 Returns true if this tax manager is available for this address
 

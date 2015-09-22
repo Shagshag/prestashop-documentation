@@ -5,11 +5,15 @@ Returns a new Tab object
 
 
 
-    \mixed(AdminTab, checkingTab(string $tab)
+```php
+\mixed(AdminTab, checkingTab(string $tab)
+```
 
 * Function name: checkingTab
-* Source: [admin-dev/functions.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/functions.php#L258)
+* Source: [admin-dev/functions.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/functions.php#L258).
 
-#### Arguments
+Arguments
+---------
+
 * $tab **string** - class name
 

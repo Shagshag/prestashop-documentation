@@ -24,9 +24,11 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$db](#property-$db)
 * [$entityManager](#property-$entityManager)
@@ -34,8 +36,8 @@ Properties
 * [$queryBuilder](#property-$queryBuilder)
 * [$tablesPrefix](#property-$tablesPrefix)
 
-Methods
--------
+### Methods
+
 * [__call](#method-__call)
 * [__construct](#method-__construct)
 * [convertToDbFieldName](#method-convertToDbFieldName)
@@ -61,7 +63,9 @@ Properties
 
 ### <a name="property-$db"></a>$db
 
-    protected mixed $db
+```php
+protected mixed $db
+```
 
 
 
@@ -73,7 +77,9 @@ Properties
 
 ### <a name="property-$entityManager"></a>$entityManager
 
-    protected mixed $entityManager
+```php
+protected mixed $entityManager
+```
 
 
 
@@ -85,7 +91,9 @@ Properties
 
 ### <a name="property-$entityMetaData"></a>$entityMetaData
 
-    protected mixed $entityMetaData
+```php
+protected mixed $entityMetaData
+```
 
 
 
@@ -97,7 +105,9 @@ Properties
 
 ### <a name="property-$queryBuilder"></a>$queryBuilder
 
-    protected mixed $queryBuilder
+```php
+protected mixed $queryBuilder
+```
 
 
 
@@ -109,7 +119,9 @@ Properties
 
 ### <a name="property-$tablesPrefix"></a>$tablesPrefix
 
-    protected mixed $tablesPrefix
+```php
+protected mixed $tablesPrefix
+```
 
 
 
@@ -125,7 +137,9 @@ Methods
 
 ### <a name="method-__call"></a>__call
 
-    mixed Core_Business_CMS_CMSRepository::__call($method, $arguments)
+```php
+mixed Core_Business_CMS_CMSRepository::__call($method, $arguments)
+```
 
 
 
@@ -143,7 +157,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed Core_Business_CMS_CMSRepository::__construct(\Core_Foundation_Database_EntityManager $entityManager, $tablesPrefix, \Core_Foundation_Database_EntityMetaData $entityMetaData)
+```php
+mixed Core_Business_CMS_CMSRepository::__construct(\Core_Foundation_Database_EntityManager $entityManager, $tablesPrefix, \Core_Foundation_Database_EntityMetaData $entityMetaData)
+```
 
 
 
@@ -162,7 +178,9 @@ Methods
 
 ### <a name="method-convertToDbFieldName"></a>convertToDbFieldName
 
-    string Core_Business_CMS_CMSRepository::convertToDbFieldName($camel_case_field_name)
+```php
+string Core_Business_CMS_CMSRepository::convertToDbFieldName($camel_case_field_name)
+```
 
 Convert a camelCase field name to a snakeCase one
 e.g.: findAllByIdCMS => id_cms
@@ -180,7 +198,9 @@ e.g.: findAllByIdCMS => id_cms
 
 ### <a name="method-doFind"></a>doFind
 
-    array|mixed|null Core_Business_CMS_CMSRepository::doFind($one, array $cumulativeConditions)
+```php
+array|mixed|null Core_Business_CMS_CMSRepository::doFind($one, array $cumulativeConditions)
+```
 
 Constructs and performs 'SELECT' in DB
 
@@ -198,7 +218,9 @@ Constructs and performs 'SELECT' in DB
 
 ### <a name="method-findAll"></a>findAll
 
-    array Core_Business_CMS_CMSRepository::findAll()
+```php
+array Core_Business_CMS_CMSRepository::findAll()
+```
 
 Find all entities in DB
 
@@ -212,7 +234,9 @@ Find all entities in DB
 
 ### <a name="method-findOne"></a>findOne
 
-    array|mixed|null Core_Business_CMS_CMSRepository::findOne($id)
+```php
+array|mixed|null Core_Business_CMS_CMSRepository::findOne($id)
+```
 
 Find one entity in DB
 
@@ -229,7 +253,9 @@ Find one entity in DB
 
 ### <a name="method-getIdFieldName"></a>getIdFieldName
 
-    mixed Core_Business_CMS_CMSRepository::getIdFieldName()
+```php
+mixed Core_Business_CMS_CMSRepository::getIdFieldName()
+```
 
 Return ID field name
 
@@ -243,7 +269,9 @@ Return ID field name
 
 ### <a name="method-getLanguageTableNameWithPrefix"></a>getLanguageTableNameWithPrefix
 
-    string Core_Business_CMS_CMSRepository::getLanguageTableNameWithPrefix()
+```php
+string Core_Business_CMS_CMSRepository::getLanguageTableNameWithPrefix()
+```
 
 Return CMSRepository lang associative table name
 
@@ -257,7 +285,9 @@ Return CMSRepository lang associative table name
 
 ### <a name="method-getNewEntity"></a>getNewEntity
 
-    mixed Core_Business_CMS_CMSRepository::getNewEntity()
+```php
+mixed Core_Business_CMS_CMSRepository::getNewEntity()
+```
 
 Return a new empty Entity depending on current Repository selected
 
@@ -271,7 +301,9 @@ Return a new empty Entity depending on current Repository selected
 
 ### <a name="method-getPrefix"></a>getPrefix
 
-    mixed Core_Business_CMS_CMSRepository::getPrefix()
+```php
+mixed Core_Business_CMS_CMSRepository::getPrefix()
+```
 
 Returns escaped DB table prefix
 
@@ -285,7 +317,9 @@ Returns escaped DB table prefix
 
 ### <a name="method-getTableNameWithPrefix"></a>getTableNameWithPrefix
 
-    mixed Core_Business_CMS_CMSRepository::getTableNameWithPrefix()
+```php
+mixed Core_Business_CMS_CMSRepository::getTableNameWithPrefix()
+```
 
 Returns escaped+prefixed current table name
 
@@ -299,7 +333,9 @@ Returns escaped+prefixed current table name
 
 ### <a name="method-hydrateMany"></a>hydrateMany
 
-    mixed Core_Business_CMS_CMSRepository::hydrateMany(array $rows)
+```php
+mixed Core_Business_CMS_CMSRepository::hydrateMany(array $rows)
+```
 
 
 
@@ -316,7 +352,9 @@ Returns escaped+prefixed current table name
 
 ### <a name="method-hydrateOne"></a>hydrateOne
 
-    mixed Core_Business_CMS_CMSRepository::hydrateOne(array $rows)
+```php
+mixed Core_Business_CMS_CMSRepository::hydrateOne(array $rows)
+```
 
 This function takes an array of database rows as input
 and returns an hydrated entity if there is one row only.
@@ -335,7 +373,9 @@ if there are too many rows.
 
 ### <a name="method-i10nFindAll"></a>i10nFindAll
 
-    array|null Core_Business_CMS_CMSRepository::i10nFindAll($id_lang, $id_shop)
+```php
+array|null Core_Business_CMS_CMSRepository::i10nFindAll($id_lang, $id_shop)
+```
 
 Return all CMSRepositories depending on $id_lang/$id_shop tuple
 
@@ -353,7 +393,9 @@ Return all CMSRepositories depending on $id_lang/$id_shop tuple
 
 ### <a name="method-i10nFindOneById"></a>i10nFindOneById
 
-    \CMS|null Core_Business_CMS_CMSRepository::i10nFindOneById($id_cms, $id_lang, $id_shop)
+```php
+\CMS|null Core_Business_CMS_CMSRepository::i10nFindOneById($id_cms, $id_lang, $id_shop)
+```
 
 Return all CMSRepositories depending on $id_lang/$id_shop tuple
 

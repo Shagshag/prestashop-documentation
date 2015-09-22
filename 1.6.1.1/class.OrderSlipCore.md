@@ -10,9 +10,11 @@ Class OrderSlipCore
 * Source: [classes/order/OrderSlip.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$amount](#property-$amount)
 * [$conversion_rate](#property-$conversion_rate)
@@ -32,8 +34,8 @@ Properties
 * [$total_shipping_tax_incl](#property-$total_shipping_tax_incl)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [addPartialSlipDetail](#method-addPartialSlipDetail)
 * [addProductOrderSlip](#method-addProductOrderSlip)
 * [addSlipDetail](#method-addSlipDetail)
@@ -60,7 +62,9 @@ Properties
 
 ### <a name="property-$amount"></a>$amount
 
-    public integer $amount
+```php
+public integer $amount
+```
 
 
 
@@ -72,7 +76,9 @@ Properties
 
 ### <a name="property-$conversion_rate"></a>$conversion_rate
 
-    public float $conversion_rate
+```php
+public float $conversion_rate
+```
 
 
 
@@ -84,7 +90,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -96,7 +104,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -108,7 +118,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'order_slip', 'primary' => 'id_order_slip', 'fields' => array('id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'conversion_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'total_products_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'total_products_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'total_shipping_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'total_shipping_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'shipping_cost' => array('type' => self::TYPE_INT), 'shipping_cost_amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'partial' => array('type' => self::TYPE_INT), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'order_slip_type' => array('type' => self::TYPE_INT, 'validate' => 'isInt')))
+```php
+public mixed $definition = array('table' => 'order_slip', 'primary' => 'id_order_slip', 'fields' => array('id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'conversion_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'total_products_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'total_products_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'total_shipping_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'total_shipping_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'shipping_cost' => array('type' => self::TYPE_INT), 'shipping_cost_amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'partial' => array('type' => self::TYPE_INT), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'order_slip_type' => array('type' => self::TYPE_INT, 'validate' => 'isInt')))
+```
 
 
 
@@ -121,7 +133,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public integer $id
+```php
+public integer $id
+```
 
 
 
@@ -133,7 +147,9 @@ Properties
 
 ### <a name="property-$id_customer"></a>$id_customer
 
-    public integer $id_customer
+```php
+public integer $id_customer
+```
 
 
 
@@ -145,7 +161,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public integer $id_order
+```php
+public integer $id_order
+```
 
 
 
@@ -157,7 +175,9 @@ Properties
 
 ### <a name="property-$order_slip_type"></a>$order_slip_type
 
-    public integer $order_slip_type
+```php
+public integer $order_slip_type
+```
 
 
 
@@ -169,7 +189,9 @@ Properties
 
 ### <a name="property-$partial"></a>$partial
 
-    public integer $partial
+```php
+public integer $partial
+```
 
 
 
@@ -181,7 +203,9 @@ Properties
 
 ### <a name="property-$shipping_cost"></a>$shipping_cost
 
-    public integer $shipping_cost
+```php
+public integer $shipping_cost
+```
 
 
 
@@ -193,7 +217,9 @@ Properties
 
 ### <a name="property-$shipping_cost_amount"></a>$shipping_cost_amount
 
-    public integer $shipping_cost_amount
+```php
+public integer $shipping_cost_amount
+```
 
 
 
@@ -205,7 +231,9 @@ Properties
 
 ### <a name="property-$total_products_tax_excl"></a>$total_products_tax_excl
 
-    public float $total_products_tax_excl
+```php
+public float $total_products_tax_excl
+```
 
 
 
@@ -217,7 +245,9 @@ Properties
 
 ### <a name="property-$total_products_tax_incl"></a>$total_products_tax_incl
 
-    public float $total_products_tax_incl
+```php
+public float $total_products_tax_incl
+```
 
 
 
@@ -229,7 +259,9 @@ Properties
 
 ### <a name="property-$total_shipping_tax_excl"></a>$total_shipping_tax_excl
 
-    public float $total_shipping_tax_excl
+```php
+public float $total_shipping_tax_excl
+```
 
 
 
@@ -241,7 +273,9 @@ Properties
 
 ### <a name="property-$total_shipping_tax_incl"></a>$total_shipping_tax_incl
 
-    public float $total_shipping_tax_incl
+```php
+public float $total_shipping_tax_incl
+```
 
 
 
@@ -253,7 +287,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectNodeName' => 'order_slip', 'objectsNodeName' => 'order_slips', 'fields' => array('id_customer' => array('xlink_resource' => 'customers'), 'id_order' => array('xlink_resource' => 'orders')), 'associations' => array('order_slip_details' => array('resource' => 'order_slip_detail', 'setter' => false, 'virtual_entity' => true, 'fields' => array('id' => array(), 'id_order_detail' => array('required' => true), 'product_quantity' => array('required' => true), 'amount_tax_excl' => array('required' => true), 'amount_tax_incl' => array('required' => true)))))
+```php
+protected mixed $webserviceParameters = array('objectNodeName' => 'order_slip', 'objectsNodeName' => 'order_slips', 'fields' => array('id_customer' => array('xlink_resource' => 'customers'), 'id_order' => array('xlink_resource' => 'orders')), 'associations' => array('order_slip_details' => array('resource' => 'order_slip_detail', 'setter' => false, 'virtual_entity' => true, 'fields' => array('id' => array(), 'id_order_detail' => array('required' => true), 'product_quantity' => array('required' => true), 'amount_tax_excl' => array('required' => true), 'amount_tax_incl' => array('required' => true)))))
+```
 
 
 
@@ -269,7 +305,9 @@ Methods
 
 ### <a name="method-addPartialSlipDetail"></a>addPartialSlipDetail
 
-    mixed OrderSlipCore::addPartialSlipDetail($order_detail_list)
+```php
+mixed OrderSlipCore::addPartialSlipDetail($order_detail_list)
+```
 
 
 
@@ -286,7 +324,9 @@ Methods
 
 ### <a name="method-addProductOrderSlip"></a>addProductOrderSlip
 
-    mixed OrderSlipCore::addProductOrderSlip($product)
+```php
+mixed OrderSlipCore::addProductOrderSlip($product)
+```
 
 
 
@@ -303,7 +343,9 @@ Methods
 
 ### <a name="method-addSlipDetail"></a>addSlipDetail
 
-    mixed OrderSlipCore::addSlipDetail($orderDetailList, $productQtyList)
+```php
+mixed OrderSlipCore::addSlipDetail($orderDetailList, $productQtyList)
+```
 
 
 
@@ -321,7 +363,9 @@ Methods
 
 ### <a name="method-create"></a>create
 
-    mixed OrderSlipCore::create(\Order $order, $product_list, $shipping_cost, $amount, $amount_choosen, $add_tax)
+```php
+mixed OrderSlipCore::create(\Order $order, $product_list, $shipping_cost, $amount, $amount_choosen, $add_tax)
+```
 
 
 
@@ -344,7 +388,9 @@ Methods
 
 ### <a name="method-createOrderSlip"></a>createOrderSlip
 
-    mixed OrderSlipCore::createOrderSlip($order, $productList, $qtyList, $shipping_cost)
+```php
+mixed OrderSlipCore::createOrderSlip($order, $productList, $qtyList, $shipping_cost)
+```
 
 
 
@@ -365,7 +411,9 @@ Methods
 
 ### <a name="method-createPartialOrderSlip"></a>createPartialOrderSlip
 
-    mixed OrderSlipCore::createPartialOrderSlip($order, $amount, $shipping_cost_amount, $order_detail_list)
+```php
+mixed OrderSlipCore::createPartialOrderSlip($order, $amount, $shipping_cost_amount, $order_detail_list)
+```
 
 
 
@@ -386,7 +434,9 @@ Methods
 
 ### <a name="method-getEcoTaxTaxesBreakdown"></a>getEcoTaxTaxesBreakdown
 
-    mixed OrderSlipCore::getEcoTaxTaxesBreakdown()
+```php
+mixed OrderSlipCore::getEcoTaxTaxesBreakdown()
+```
 
 
 
@@ -400,7 +450,9 @@ Methods
 
 ### <a name="method-getOrdersSlip"></a>getOrdersSlip
 
-    mixed OrderSlipCore::getOrdersSlip($customer_id, $order_id)
+```php
+mixed OrderSlipCore::getOrdersSlip($customer_id, $order_id)
+```
 
 
 
@@ -419,7 +471,9 @@ Methods
 
 ### <a name="method-getOrdersSlipDetail"></a>getOrdersSlipDetail
 
-    mixed OrderSlipCore::getOrdersSlipDetail($id_order_slip, $id_order_detail)
+```php
+mixed OrderSlipCore::getOrdersSlipDetail($id_order_slip, $id_order_detail)
+```
 
 
 
@@ -438,7 +492,9 @@ Methods
 
 ### <a name="method-getOrdersSlipProducts"></a>getOrdersSlipProducts
 
-    array OrderSlipCore::getOrdersSlipProducts(integer $orderSlipId, \Order $order)
+```php
+array OrderSlipCore::getOrdersSlipProducts(integer $orderSlipId, \Order $order)
+```
 
 
 
@@ -457,7 +513,9 @@ Methods
 
 ### <a name="method-getProductSlipDetail"></a>getProductSlipDetail
 
-    mixed OrderSlipCore::getProductSlipDetail($id_order_detail)
+```php
+mixed OrderSlipCore::getProductSlipDetail($id_order_detail)
+```
 
 Get refund details for one product line
 
@@ -475,7 +533,9 @@ Get refund details for one product line
 
 ### <a name="method-getProductSlipResume"></a>getProductSlipResume
 
-    mixed OrderSlipCore::getProductSlipResume($id_order_detail)
+```php
+mixed OrderSlipCore::getProductSlipResume($id_order_detail)
+```
 
 Get resume of all refund for one product line
 
@@ -493,7 +553,9 @@ Get resume of all refund for one product line
 
 ### <a name="method-getProducts"></a>getProducts
 
-    mixed OrderSlipCore::getProducts()
+```php
+mixed OrderSlipCore::getProducts()
+```
 
 
 
@@ -507,7 +569,9 @@ Get resume of all refund for one product line
 
 ### <a name="method-getSlipsIdByDate"></a>getSlipsIdByDate
 
-    mixed OrderSlipCore::getSlipsIdByDate($dateFrom, $dateTo)
+```php
+mixed OrderSlipCore::getSlipsIdByDate($dateFrom, $dateTo)
+```
 
 
 
@@ -526,7 +590,9 @@ Get resume of all refund for one product line
 
 ### <a name="method-getWsOrderSlipDetails"></a>getWsOrderSlipDetails
 
-    mixed OrderSlipCore::getWsOrderSlipDetails()
+```php
+mixed OrderSlipCore::getWsOrderSlipDetails()
+```
 
 
 
@@ -540,7 +606,9 @@ Get resume of all refund for one product line
 
 ### <a name="method-setWsOrderSlipDetails"></a>setWsOrderSlipDetails
 
-    mixed OrderSlipCore::setWsOrderSlipDetails($values)
+```php
+mixed OrderSlipCore::setWsOrderSlipDetails($values)
+```
 
 
 

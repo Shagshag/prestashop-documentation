@@ -9,9 +9,11 @@ Class WebserviceOutputJSON
 * Source: [classes/webservice/WebserviceOutputJSON.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L28)
 * This class implements: [WebserviceOutputInterface](interface.WebserviceOutputInterface.md)
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$content](#property-$content)
 * [$currentAssociatedEntity](#property-$currentAssociatedEntity)
@@ -21,8 +23,8 @@ Properties
 * [$schemaToDisplay](#property-$schemaToDisplay)
 * [$wsUrl](#property-$wsUrl)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getContentType](#method-getContentType)
 * [getNodeName](#method-getNodeName)
@@ -54,7 +56,9 @@ Properties
 
 ### <a name="property-$content"></a>$content
 
-    protected mixed $content = array()
+```php
+protected mixed $content = array()
+```
 
 Json content
 
@@ -66,7 +70,9 @@ Json content
 
 ### <a name="property-$currentAssociatedEntity"></a>$currentAssociatedEntity
 
-    protected mixed $currentAssociatedEntity
+```php
+protected mixed $currentAssociatedEntity
+```
 
 Current association
 
@@ -78,7 +84,9 @@ Current association
 
 ### <a name="property-$currentEntity"></a>$currentEntity
 
-    protected mixed $currentEntity
+```php
+protected mixed $currentEntity
+```
 
 Current entity
 
@@ -90,7 +98,9 @@ Current entity
 
 ### <a name="property-$docUrl"></a>$docUrl
 
-    public mixed $docUrl = ''
+```php
+public mixed $docUrl = ''
+```
 
 
 
@@ -102,7 +112,9 @@ Current entity
 
 ### <a name="property-$languages"></a>$languages
 
-    public mixed $languages = array()
+```php
+public mixed $languages = array()
+```
 
 
 
@@ -114,7 +126,9 @@ Current entity
 
 ### <a name="property-$schemaToDisplay"></a>$schemaToDisplay
 
-    protected mixed $schemaToDisplay
+```php
+protected mixed $schemaToDisplay
+```
 
 
 
@@ -126,7 +140,9 @@ Current entity
 
 ### <a name="property-$wsUrl"></a>$wsUrl
 
-    protected mixed $wsUrl
+```php
+protected mixed $wsUrl
+```
 
 
 
@@ -142,7 +158,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed WebserviceOutputJSON::__construct($languages)
+```php
+mixed WebserviceOutputJSON::__construct($languages)
+```
 
 
 
@@ -159,7 +177,9 @@ Methods
 
 ### <a name="method-getContentType"></a>getContentType
 
-    mixed WebserviceOutputJSON::getContentType()
+```php
+mixed WebserviceOutputJSON::getContentType()
+```
 
 
 
@@ -173,7 +193,9 @@ Methods
 
 ### <a name="method-getNodeName"></a>getNodeName
 
-    mixed WebserviceOutputJSON::getNodeName($params)
+```php
+mixed WebserviceOutputJSON::getNodeName($params)
+```
 
 
 
@@ -190,7 +212,9 @@ Methods
 
 ### <a name="method-getSchemaToDisplay"></a>getSchemaToDisplay
 
-    mixed WebserviceOutputJSON::getSchemaToDisplay()
+```php
+mixed WebserviceOutputJSON::getSchemaToDisplay()
+```
 
 
 
@@ -204,7 +228,9 @@ Methods
 
 ### <a name="method-getWsUrl"></a>getWsUrl
 
-    mixed WebserviceOutputJSON::getWsUrl()
+```php
+mixed WebserviceOutputJSON::getWsUrl()
+```
 
 
 
@@ -218,7 +244,9 @@ Methods
 
 ### <a name="method-overrideContent"></a>overrideContent
 
-    mixed WebserviceOutputJSON::overrideContent($content)
+```php
+mixed WebserviceOutputJSON::overrideContent($content)
+```
 
 
 
@@ -235,7 +263,9 @@ Methods
 
 ### <a name="method-renderAssociationField"></a>renderAssociationField
 
-    mixed WebserviceOutputJSON::renderAssociationField($field)
+```php
+mixed WebserviceOutputJSON::renderAssociationField($field)
+```
 
 
 
@@ -252,7 +282,9 @@ Methods
 
 ### <a name="method-renderAssociationFooter"></a>renderAssociationFooter
 
-    mixed WebserviceOutputJSON::renderAssociationFooter($obj, $params, $assoc_name)
+```php
+mixed WebserviceOutputJSON::renderAssociationFooter($obj, $params, $assoc_name)
+```
 
 
 
@@ -271,7 +303,9 @@ Methods
 
 ### <a name="method-renderAssociationHeader"></a>renderAssociationHeader
 
-    mixed WebserviceOutputJSON::renderAssociationHeader($obj, $params, $assoc_name, $closed_tags)
+```php
+mixed WebserviceOutputJSON::renderAssociationHeader($obj, $params, $assoc_name, $closed_tags)
+```
 
 
 
@@ -291,7 +325,9 @@ Methods
 
 ### <a name="method-renderAssociationWrapperFooter"></a>renderAssociationWrapperFooter
 
-    mixed WebserviceOutputJSON::renderAssociationWrapperFooter()
+```php
+mixed WebserviceOutputJSON::renderAssociationWrapperFooter()
+```
 
 
 
@@ -305,7 +341,9 @@ Methods
 
 ### <a name="method-renderAssociationWrapperHeader"></a>renderAssociationWrapperHeader
 
-    mixed WebserviceOutputJSON::renderAssociationWrapperHeader()
+```php
+mixed WebserviceOutputJSON::renderAssociationWrapperHeader()
+```
 
 
 
@@ -319,7 +357,9 @@ Methods
 
 ### <a name="method-renderErrors"></a>renderErrors
 
-    mixed WebserviceOutputJSON::renderErrors($message, $code)
+```php
+mixed WebserviceOutputJSON::renderErrors($message, $code)
+```
 
 
 
@@ -337,7 +377,9 @@ Methods
 
 ### <a name="method-renderErrorsFooter"></a>renderErrorsFooter
 
-    mixed WebserviceOutputJSON::renderErrorsFooter()
+```php
+mixed WebserviceOutputJSON::renderErrorsFooter()
+```
 
 
 
@@ -351,7 +393,9 @@ Methods
 
 ### <a name="method-renderErrorsHeader"></a>renderErrorsHeader
 
-    mixed WebserviceOutputJSON::renderErrorsHeader()
+```php
+mixed WebserviceOutputJSON::renderErrorsHeader()
+```
 
 
 
@@ -365,7 +409,9 @@ Methods
 
 ### <a name="method-renderField"></a>renderField
 
-    mixed WebserviceOutputJSON::renderField($field)
+```php
+mixed WebserviceOutputJSON::renderField($field)
+```
 
 
 
@@ -382,7 +428,9 @@ Methods
 
 ### <a name="method-renderNodeFooter"></a>renderNodeFooter
 
-    mixed WebserviceOutputJSON::renderNodeFooter($node_name, $params)
+```php
+mixed WebserviceOutputJSON::renderNodeFooter($node_name, $params)
+```
 
 
 
@@ -400,7 +448,9 @@ Methods
 
 ### <a name="method-renderNodeHeader"></a>renderNodeHeader
 
-    mixed WebserviceOutputJSON::renderNodeHeader($node_name, $params, $more_attr, $has_child)
+```php
+mixed WebserviceOutputJSON::renderNodeHeader($node_name, $params, $more_attr, $has_child)
+```
 
 
 
@@ -420,7 +470,9 @@ Methods
 
 ### <a name="method-renderi18nField"></a>renderi18nField
 
-    mixed WebserviceOutputJSON::renderi18nField($field)
+```php
+mixed WebserviceOutputJSON::renderi18nField($field)
+```
 
 
 
@@ -437,7 +489,9 @@ Methods
 
 ### <a name="method-setLanguages"></a>setLanguages
 
-    mixed WebserviceOutputJSON::setLanguages($languages)
+```php
+mixed WebserviceOutputJSON::setLanguages($languages)
+```
 
 
 
@@ -454,7 +508,9 @@ Methods
 
 ### <a name="method-setSchemaToDisplay"></a>setSchemaToDisplay
 
-    mixed WebserviceOutputJSON::setSchemaToDisplay($schema)
+```php
+mixed WebserviceOutputJSON::setSchemaToDisplay($schema)
+```
 
 
 
@@ -471,7 +527,9 @@ Methods
 
 ### <a name="method-setWsUrl"></a>setWsUrl
 
-    mixed WebserviceOutputJSON::setWsUrl($url)
+```php
+mixed WebserviceOutputJSON::setWsUrl($url)
+```
 
 
 

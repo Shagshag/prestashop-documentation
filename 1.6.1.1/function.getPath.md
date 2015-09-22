@@ -5,12 +5,16 @@ Return path to a product category
 
 
 
-    mixed getPath(string $url_base, integer $id_category, string $path, string $highlight, $category_type, $home)
+```php
+mixed getPath(string $url_base, integer $id_category, string $path, string $highlight, $category_type, $home)
+```
 
 * Function name: getPath
-* Source: [admin-dev/functions.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/functions.php#L146)
+* Source: [admin-dev/functions.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/functions.php#L146).
 
-#### Arguments
+Arguments
+---------
+
 * $url_base **string** - Start URL
 * $id_category **integer** - Start category
 * $path **string** - Current path

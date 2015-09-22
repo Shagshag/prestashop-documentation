@@ -10,17 +10,19 @@ Class QuickAccessCore
 * Source: [classes/QuickAccess.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$link](#property-$link)
 * [$name](#property-$name)
 * [$new_window](#property-$new_window)
 
-Methods
--------
+### Methods
+
 * [getQuickAccesses](#method-getQuickAccesses)
 * [toggleNewWindow](#method-toggleNewWindow)
 
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'quick_access', 'primary' => 'id_quick_access', 'multilang' => true, 'fields' => array('link' => array('type' => self::TYPE_STRING, 'validate' => 'isUrl', 'required' => true, 'size' => 255), 'new_window' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 32)))
+```php
+public mixed $definition = array('table' => 'quick_access', 'primary' => 'id_quick_access', 'multilang' => true, 'fields' => array('link' => array('type' => self::TYPE_STRING, 'validate' => 'isUrl', 'required' => true, 'size' => 255), 'new_window' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 32)))
+```
 
 
 
@@ -46,7 +50,9 @@ Properties
 
 ### <a name="property-$link"></a>$link
 
-    public string $link
+```php
+public string $link
+```
 
 
 
@@ -58,7 +64,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -70,7 +78,9 @@ Properties
 
 ### <a name="property-$new_window"></a>$new_window
 
-    public boolean $new_window
+```php
+public boolean $new_window
+```
 
 
 
@@ -86,7 +96,9 @@ Methods
 
 ### <a name="method-getQuickAccesses"></a>getQuickAccesses
 
-    array QuickAccessCore::getQuickAccesses($id_lang)
+```php
+array QuickAccessCore::getQuickAccesses($id_lang)
+```
 
 Get all available quick_accesses
 
@@ -104,7 +116,9 @@ Get all available quick_accesses
 
 ### <a name="method-toggleNewWindow"></a>toggleNewWindow
 
-    mixed QuickAccessCore::toggleNewWindow()
+```php
+mixed QuickAccessCore::toggleNewWindow()
+```
 
 
 

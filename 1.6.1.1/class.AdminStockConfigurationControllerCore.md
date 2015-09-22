@@ -10,14 +10,16 @@ Class AdminStockConfigurationControllerCore
 * Source: [controllers/admin/AdminStockConfigurationController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L31)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessDeliveryNoteSupplyOrderState](#method-ajaxProcessDeliveryNoteSupplyOrderState)
 * [ajaxProcessEditableSupplyOrderState](#method-ajaxProcessEditableSupplyOrderState)
@@ -42,7 +44,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \StockMvtReason $object
+```php
+public \StockMvtReason $object
+```
 
 
 
@@ -58,7 +62,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminStockConfigurationControllerCore::__construct()
+```php
+mixed AdminStockConfigurationControllerCore::__construct()
+```
 
 
 
@@ -72,7 +78,9 @@ Methods
 
 ### <a name="method-ajaxProcessDeliveryNoteSupplyOrderState"></a>ajaxProcessDeliveryNoteSupplyOrderState
 
-    mixed AdminStockConfigurationControllerCore::ajaxProcessDeliveryNoteSupplyOrderState()
+```php
+mixed AdminStockConfigurationControllerCore::ajaxProcessDeliveryNoteSupplyOrderState()
+```
 
 
 
@@ -86,7 +94,9 @@ Methods
 
 ### <a name="method-ajaxProcessEditableSupplyOrderState"></a>ajaxProcessEditableSupplyOrderState
 
-    mixed AdminStockConfigurationControllerCore::ajaxProcessEditableSupplyOrderState()
+```php
+mixed AdminStockConfigurationControllerCore::ajaxProcessEditableSupplyOrderState()
+```
 
 
 
@@ -100,7 +110,9 @@ Methods
 
 ### <a name="method-ajaxProcessEnclosedSupplyOrderState"></a>ajaxProcessEnclosedSupplyOrderState
 
-    mixed AdminStockConfigurationControllerCore::ajaxProcessEnclosedSupplyOrderState()
+```php
+mixed AdminStockConfigurationControllerCore::ajaxProcessEnclosedSupplyOrderState()
+```
 
 
 
@@ -114,7 +126,9 @@ Methods
 
 ### <a name="method-ajaxProcessPendingReceiptSupplyOrderState"></a>ajaxProcessPendingReceiptSupplyOrderState
 
-    mixed AdminStockConfigurationControllerCore::ajaxProcessPendingReceiptSupplyOrderState()
+```php
+mixed AdminStockConfigurationControllerCore::ajaxProcessPendingReceiptSupplyOrderState()
+```
 
 
 
@@ -128,7 +142,9 @@ Methods
 
 ### <a name="method-ajaxProcessReceiptStateSupplyOrderState"></a>ajaxProcessReceiptStateSupplyOrderState
 
-    mixed AdminStockConfigurationControllerCore::ajaxProcessReceiptStateSupplyOrderState()
+```php
+mixed AdminStockConfigurationControllerCore::ajaxProcessReceiptStateSupplyOrderState()
+```
 
 
 
@@ -142,7 +158,9 @@ Methods
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminStockConfigurationControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```php
+mixed AdminStockConfigurationControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```
 
 AdminController::getList() override
 
@@ -164,7 +182,9 @@ AdminController::getList() override
 
 ### <a name="method-init"></a>init
 
-    mixed AdminStockConfigurationControllerCore::init()
+```php
+mixed AdminStockConfigurationControllerCore::init()
+```
 
 
 
@@ -178,7 +198,9 @@ AdminController::getList() override
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminStockConfigurationControllerCore::initContent()
+```php
+mixed AdminStockConfigurationControllerCore::initContent()
+```
 
 
 
@@ -192,7 +214,9 @@ AdminController::getList() override
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminStockConfigurationControllerCore::initProcess()
+```php
+mixed AdminStockConfigurationControllerCore::initProcess()
+```
 
 
 
@@ -206,7 +230,9 @@ AdminController::getList() override
 
 ### <a name="method-initSupplyOrderStatusList"></a>initSupplyOrderStatusList
 
-    mixed AdminStockConfigurationControllerCore::initSupplyOrderStatusList()
+```php
+mixed AdminStockConfigurationControllerCore::initSupplyOrderStatusList()
+```
 
 
 
@@ -220,7 +246,9 @@ AdminController::getList() override
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminStockConfigurationControllerCore::postProcess()
+```php
+mixed AdminStockConfigurationControllerCore::postProcess()
+```
 
 AdminController::postProcess() override
 
@@ -234,7 +262,9 @@ AdminController::postProcess() override
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminStockConfigurationControllerCore::renderForm()
+```php
+mixed AdminStockConfigurationControllerCore::renderForm()
+```
 
 AdminController::renderForm() override
 
@@ -248,7 +278,9 @@ AdminController::renderForm() override
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminStockConfigurationControllerCore::renderList()
+```php
+mixed AdminStockConfigurationControllerCore::renderList()
+```
 
 AdminController::renderList() override
 

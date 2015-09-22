@@ -8,20 +8,22 @@ Class TaxCalculatorCore
 * Class name: TaxCalculatorCore
 * Source: [classes/tax/TaxCalculator.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#L32)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [COMBINE_METHOD](#constant-COMBINE_METHOD)
 * [ONE_AFTER_ANOTHER_METHOD](#constant-ONE_AFTER_ANOTHER_METHOD)
 
-Properties
-----------
+### Properties
 
 * [$computation_method](#property-$computation_method)
 * [$taxes](#property-$taxes)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [addTaxes](#method-addTaxes)
 * [getTaxesAmount](#method-getTaxesAmount)
@@ -37,7 +39,9 @@ Constants
 
 ### <a name="constant-COMBINE_METHOD"></a>COMBINE_METHOD
 
-    const COMBINE_METHOD = 1
+```php
+const COMBINE_METHOD = 1
+```
 
 COMBINE_METHOD sum taxes
 eg: 100€ * (10% + 15%)
@@ -49,7 +53,9 @@ eg: 100€ * (10% + 15%)
 
 ### <a name="constant-ONE_AFTER_ANOTHER_METHOD"></a>ONE_AFTER_ANOTHER_METHOD
 
-    const ONE_AFTER_ANOTHER_METHOD = 2
+```php
+const ONE_AFTER_ANOTHER_METHOD = 2
+```
 
 ONE_AFTER_ANOTHER_METHOD apply taxes one after another
 eg: (100€ * 10%) * 15%
@@ -65,7 +71,9 @@ Properties
 
 ### <a name="property-$computation_method"></a>$computation_method
 
-    public integer $computation_method
+```php
+public integer $computation_method
+```
 
 
 
@@ -77,7 +85,9 @@ Properties
 
 ### <a name="property-$taxes"></a>$taxes
 
-    public array $taxes
+```php
+public array $taxes
+```
 
 
 
@@ -93,7 +103,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed TaxCalculatorCore::__construct(array $taxes, integer $computation_method)
+```php
+mixed TaxCalculatorCore::__construct(array $taxes, integer $computation_method)
+```
 
 
 
@@ -111,7 +123,9 @@ Methods
 
 ### <a name="method-addTaxes"></a>addTaxes
 
-    float TaxCalculatorCore::addTaxes(float $price_te)
+```php
+float TaxCalculatorCore::addTaxes(float $price_te)
+```
 
 Compute and add the taxes to the specified price
 
@@ -128,7 +142,9 @@ Compute and add the taxes to the specified price
 
 ### <a name="method-getTaxesAmount"></a>getTaxesAmount
 
-    array TaxCalculatorCore::getTaxesAmount(float $price_te)
+```php
+array TaxCalculatorCore::getTaxesAmount(float $price_te)
+```
 
 Return the tax amount associated to each taxes of the TaxCalculator
 
@@ -145,7 +161,9 @@ Return the tax amount associated to each taxes of the TaxCalculator
 
 ### <a name="method-getTaxesName"></a>getTaxesName
 
-    mixed TaxCalculatorCore::getTaxesName()
+```php
+mixed TaxCalculatorCore::getTaxesName()
+```
 
 
 
@@ -159,7 +177,9 @@ Return the tax amount associated to each taxes of the TaxCalculator
 
 ### <a name="method-getTaxesTotalAmount"></a>getTaxesTotalAmount
 
-    float TaxCalculatorCore::getTaxesTotalAmount(float $price_te)
+```php
+float TaxCalculatorCore::getTaxesTotalAmount(float $price_te)
+```
 
 Return the total taxes amount
 
@@ -176,7 +196,9 @@ Return the total taxes amount
 
 ### <a name="method-getTotalRate"></a>getTotalRate
 
-    float TaxCalculatorCore::getTotalRate()
+```php
+float TaxCalculatorCore::getTotalRate()
+```
 
 
 
@@ -190,7 +212,9 @@ Return the total taxes amount
 
 ### <a name="method-removeTaxes"></a>removeTaxes
 
-    float TaxCalculatorCore::removeTaxes(float $price_ti)
+```php
+float TaxCalculatorCore::removeTaxes(float $price_ti)
+```
 
 Compute and remove the taxes to the specified price
 

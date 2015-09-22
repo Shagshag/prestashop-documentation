@@ -10,15 +10,17 @@ Class ContactControllerCore
 * Source: [controllers/front/ContactController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ContactController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [assignOrderList](#method-assignOrderList)
 * [getOrder](#method-getOrder)
 * [initContent](#method-initContent)
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'contact'
+```php
+public mixed $php_self = 'contact'
+```
 
 
 
@@ -46,7 +50,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -62,7 +68,9 @@ Methods
 
 ### <a name="method-assignOrderList"></a>assignOrderList
 
-    mixed ContactControllerCore::assignOrderList()
+```php
+mixed ContactControllerCore::assignOrderList()
+```
 
 Assign template vars related to order list and product list ordered by the customer
 
@@ -76,7 +84,9 @@ Assign template vars related to order list and product list ordered by the custo
 
 ### <a name="method-getOrder"></a>getOrder
 
-    mixed ContactControllerCore::getOrder()
+```php
+mixed ContactControllerCore::getOrder()
+```
 
 
 
@@ -90,7 +100,9 @@ Assign template vars related to order list and product list ordered by the custo
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed ContactControllerCore::initContent()
+```php
+mixed ContactControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -104,7 +116,9 @@ Assign template vars related to page content
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed ContactControllerCore::postProcess()
+```php
+mixed ContactControllerCore::postProcess()
+```
 
 Start forms process
 
@@ -118,7 +132,9 @@ Start forms process
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed ContactControllerCore::setMedia()
+```php
+mixed ContactControllerCore::setMedia()
+```
 
 
 

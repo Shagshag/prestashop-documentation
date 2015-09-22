@@ -9,15 +9,17 @@ Class RijndaelCore
 * Source: [classes/Rijndael.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_iv](#property-$_iv)
 * [$_key](#property-$_key)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [decrypt](#method-decrypt)
 * [encrypt](#method-encrypt)
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$_iv"></a>$_iv
 
-    protected mixed $_iv
+```php
+protected mixed $_iv
+```
 
 
 
@@ -43,7 +47,9 @@ Properties
 
 ### <a name="property-$_key"></a>$_key
 
-    protected mixed $_key
+```php
+protected mixed $_key
+```
 
 
 
@@ -59,7 +65,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed RijndaelCore::__construct($key, $iv)
+```php
+mixed RijndaelCore::__construct($key, $iv)
+```
 
 
 
@@ -77,7 +85,9 @@ Methods
 
 ### <a name="method-decrypt"></a>decrypt
 
-    mixed RijndaelCore::decrypt($ciphertext)
+```php
+mixed RijndaelCore::decrypt($ciphertext)
+```
 
 
 
@@ -94,7 +104,9 @@ Methods
 
 ### <a name="method-encrypt"></a>encrypt
 
-    boolean|string RijndaelCore::encrypt(string $plaintext)
+```php
+boolean|string RijndaelCore::encrypt(string $plaintext)
+```
 
 Base64 is not required, but it is be more compact than urlencode
 

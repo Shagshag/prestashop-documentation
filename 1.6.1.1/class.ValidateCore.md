@@ -8,16 +8,18 @@ Class ValidateCore
 * Class name: ValidateCore
 * Source: [classes/Validate.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [ADMIN_PASSWORD_LENGTH](#constant-ADMIN_PASSWORD_LENGTH)
 * [PASSWORD_LENGTH](#constant-PASSWORD_LENGTH)
 
 
+### Methods
 
-Methods
--------
 * [isAbsoluteUrl](#method-isAbsoluteUrl)
 * [isAddress](#method-isAddress)
 * [isAnything](#method-isAnything)
@@ -124,7 +126,9 @@ Constants
 
 ### <a name="constant-ADMIN_PASSWORD_LENGTH"></a>ADMIN_PASSWORD_LENGTH
 
-    const ADMIN_PASSWORD_LENGTH = 8
+```php
+const ADMIN_PASSWORD_LENGTH = 8
+```
 
 
 
@@ -135,7 +139,9 @@ Constants
 
 ### <a name="constant-PASSWORD_LENGTH"></a>PASSWORD_LENGTH
 
-    const PASSWORD_LENGTH = 5
+```php
+const PASSWORD_LENGTH = 5
+```
 
 
 
@@ -152,7 +158,9 @@ Methods
 
 ### <a name="method-isAbsoluteUrl"></a>isAbsoluteUrl
 
-    boolean ValidateCore::isAbsoluteUrl(string $url)
+```php
+boolean ValidateCore::isAbsoluteUrl(string $url)
+```
 
 Check if URL is absolute
 
@@ -170,7 +178,9 @@ Check if URL is absolute
 
 ### <a name="method-isAddress"></a>isAddress
 
-    boolean ValidateCore::isAddress(string $address)
+```php
+boolean ValidateCore::isAddress(string $address)
+```
 
 Check for a postal address validity
 
@@ -188,7 +198,9 @@ Check for a postal address validity
 
 ### <a name="method-isAnything"></a>isAnything
 
-    mixed ValidateCore::isAnything()
+```php
+mixed ValidateCore::isAnything()
+```
 
 
 
@@ -203,7 +215,9 @@ Check for a postal address validity
 
 ### <a name="method-isApe"></a>isApe
 
-    boolean ValidateCore::isApe(string $ape)
+```php
+boolean ValidateCore::isApe(string $ape)
+```
 
 Validate APE Code
 
@@ -221,7 +235,9 @@ Validate APE Code
 
 ### <a name="method-isArrayWithIds"></a>isArrayWithIds
 
-    boolean ValidateCore::isArrayWithIds(array $ids)
+```php
+boolean ValidateCore::isArrayWithIds(array $ids)
+```
 
 
 
@@ -239,7 +255,9 @@ Validate APE Code
 
 ### <a name="method-isBirthDate"></a>isBirthDate
 
-    boolean ValidateCore::isBirthDate(string $date)
+```php
+boolean ValidateCore::isBirthDate(string $date)
+```
 
 Check for birthDate validity
 
@@ -257,7 +275,9 @@ Check for birthDate validity
 
 ### <a name="method-isBool"></a>isBool
 
-    boolean ValidateCore::isBool(boolean $bool)
+```php
+boolean ValidateCore::isBool(boolean $bool)
+```
 
 Check for boolean validity
 
@@ -275,7 +295,9 @@ Check for boolean validity
 
 ### <a name="method-isBoolId"></a>isBoolId
 
-    boolean ValidateCore::isBoolId(string $ids)
+```php
+boolean ValidateCore::isBoolId(string $ids)
+```
 
 Check for bool_id
 
@@ -293,7 +315,9 @@ Check for bool_id
 
 ### <a name="method-isBool_Id"></a>isBool_Id
 
-    mixed ValidateCore::isBool_Id($ids)
+```php
+mixed ValidateCore::isBool_Id($ids)
+```
 
 
 
@@ -311,7 +335,9 @@ Check for bool_id
 
 ### <a name="method-isCarrierName"></a>isCarrierName
 
-    boolean ValidateCore::isCarrierName(string $name)
+```php
+boolean ValidateCore::isCarrierName(string $name)
+```
 
 Check for a carrier name validity
 
@@ -329,7 +355,9 @@ Check for a carrier name validity
 
 ### <a name="method-isCatalogName"></a>isCatalogName
 
-    boolean ValidateCore::isCatalogName(string $name)
+```php
+boolean ValidateCore::isCatalogName(string $name)
+```
 
 Check for product or category name validity
 
@@ -347,7 +375,9 @@ Check for product or category name validity
 
 ### <a name="method-isCityName"></a>isCityName
 
-    boolean ValidateCore::isCityName(string $city)
+```php
+boolean ValidateCore::isCityName(string $city)
+```
 
 Check for city name validity
 
@@ -365,7 +395,9 @@ Check for city name validity
 
 ### <a name="method-isCleanHtml"></a>isCleanHtml
 
-    boolean ValidateCore::isCleanHtml(string $html, $allow_iframe)
+```php
+boolean ValidateCore::isCleanHtml(string $html, $allow_iframe)
+```
 
 Check for HTML field validity (no XSS please !)
 
@@ -384,7 +416,9 @@ Check for HTML field validity (no XSS please !)
 
 ### <a name="method-isColor"></a>isColor
 
-    boolean ValidateCore::isColor($color)
+```php
+boolean ValidateCore::isColor($color)
+```
 
 Check object validity
 
@@ -402,7 +436,9 @@ Check object validity
 
 ### <a name="method-isConfigName"></a>isConfigName
 
-    boolean ValidateCore::isConfigName(string $config_name)
+```php
+boolean ValidateCore::isConfigName(string $config_name)
+```
 
 Check for configuration key validity
 
@@ -420,7 +456,9 @@ Check for configuration key validity
 
 ### <a name="method-isControllerName"></a>isControllerName
 
-    mixed ValidateCore::isControllerName($name)
+```php
+mixed ValidateCore::isControllerName($name)
+```
 
 
 
@@ -438,7 +476,9 @@ Check for configuration key validity
 
 ### <a name="method-isCookie"></a>isCookie
 
-    boolean ValidateCore::isCookie(mixed $data)
+```php
+boolean ValidateCore::isCookie(mixed $data)
+```
 
 Check if $data is a PrestaShop cookie object
 
@@ -456,7 +496,9 @@ Check if $data is a PrestaShop cookie object
 
 ### <a name="method-isCoordinate"></a>isCoordinate
 
-    boolean ValidateCore::isCoordinate(string $data)
+```php
+boolean ValidateCore::isCoordinate(string $data)
+```
 
 Check for Latitude/Longitude
 
@@ -474,7 +516,9 @@ Check for Latitude/Longitude
 
 ### <a name="method-isCountryName"></a>isCountryName
 
-    boolean ValidateCore::isCountryName(string $name)
+```php
+boolean ValidateCore::isCountryName(string $name)
+```
 
 Check for a country name validity
 
@@ -492,7 +536,9 @@ Check for a country name validity
 
 ### <a name="method-isDate"></a>isDate
 
-    boolean ValidateCore::isDate(string $date)
+```php
+boolean ValidateCore::isDate(string $date)
+```
 
 Check for date validity
 
@@ -510,7 +556,9 @@ Check for date validity
 
 ### <a name="method-isDateFormat"></a>isDateFormat
 
-    boolean ValidateCore::isDateFormat(string $date)
+```php
+boolean ValidateCore::isDateFormat(string $date)
+```
 
 Check for date format
 
@@ -528,7 +576,9 @@ Check for date format
 
 ### <a name="method-isDirName"></a>isDirName
 
-    boolean ValidateCore::isDirName(string $dir)
+```php
+boolean ValidateCore::isDirName(string $dir)
+```
 
 Check for standard name directory validity
 
@@ -546,7 +596,9 @@ Check for standard name directory validity
 
 ### <a name="method-isDiscountName"></a>isDiscountName
 
-    boolean ValidateCore::isDiscountName(string $voucher)
+```php
+boolean ValidateCore::isDiscountName(string $voucher)
+```
 
 Check for voucher name validity
 
@@ -564,7 +616,9 @@ Check for voucher name validity
 
 ### <a name="method-isDistanceUnit"></a>isDistanceUnit
 
-    mixed ValidateCore::isDistanceUnit($unit)
+```php
+mixed ValidateCore::isDistanceUnit($unit)
+```
 
 
 
@@ -582,7 +636,9 @@ Check for voucher name validity
 
 ### <a name="method-isDniLite"></a>isDniLite
 
-    boolean ValidateCore::isDniLite(string $dni)
+```php
+boolean ValidateCore::isDniLite(string $dni)
+```
 
 
 
@@ -600,7 +656,9 @@ Check for voucher name validity
 
 ### <a name="method-isEan13"></a>isEan13
 
-    boolean ValidateCore::isEan13(string $ean13)
+```php
+boolean ValidateCore::isEan13(string $ean13)
+```
 
 Check for barcode validity (EAN-13)
 
@@ -618,7 +676,9 @@ Check for barcode validity (EAN-13)
 
 ### <a name="method-isEmail"></a>isEmail
 
-    boolean ValidateCore::isEmail(string $email)
+```php
+boolean ValidateCore::isEmail(string $email)
+```
 
 Check for e-mail validity
 
@@ -636,7 +696,9 @@ Check for e-mail validity
 
 ### <a name="method-isFileName"></a>isFileName
 
-    boolean ValidateCore::isFileName(string $name)
+```php
+boolean ValidateCore::isFileName(string $name)
+```
 
 Check for standard name file validity
 
@@ -654,7 +716,9 @@ Check for standard name file validity
 
 ### <a name="method-isFloat"></a>isFloat
 
-    boolean ValidateCore::isFloat(float $float)
+```php
+boolean ValidateCore::isFloat(float $float)
+```
 
 Check for a float number validity
 
@@ -672,7 +736,9 @@ Check for a float number validity
 
 ### <a name="method-isGenericName"></a>isGenericName
 
-    boolean ValidateCore::isGenericName(string $name)
+```php
+boolean ValidateCore::isGenericName(string $name)
+```
 
 Check for standard name validity
 
@@ -690,7 +756,9 @@ Check for standard name validity
 
 ### <a name="method-isHookName"></a>isHookName
 
-    boolean ValidateCore::isHookName(string $hook)
+```php
+boolean ValidateCore::isHookName(string $hook)
+```
 
 Check for hook name validity
 
@@ -708,7 +776,9 @@ Check for hook name validity
 
 ### <a name="method-isImageSize"></a>isImageSize
 
-    boolean ValidateCore::isImageSize(string $size)
+```php
+boolean ValidateCore::isImageSize(string $size)
+```
 
 Check for an image size validity
 
@@ -726,7 +796,9 @@ Check for an image size validity
 
 ### <a name="method-isImageTypeName"></a>isImageTypeName
 
-    boolean ValidateCore::isImageTypeName(string $type)
+```php
+boolean ValidateCore::isImageTypeName(string $type)
+```
 
 Check for image type name validity
 
@@ -744,7 +816,9 @@ Check for image type name validity
 
 ### <a name="method-isInt"></a>isInt
 
-    boolean ValidateCore::isInt(integer $value)
+```php
+boolean ValidateCore::isInt(integer $value)
+```
 
 Check for an integer validity
 
@@ -762,7 +836,9 @@ Check for an integer validity
 
 ### <a name="method-isIp2Long"></a>isIp2Long
 
-    mixed ValidateCore::isIp2Long($ip)
+```php
+mixed ValidateCore::isIp2Long($ip)
+```
 
 
 
@@ -780,7 +856,9 @@ Check for an integer validity
 
 ### <a name="method-isLabel"></a>isLabel
 
-    boolean ValidateCore::isLabel(string $label)
+```php
+boolean ValidateCore::isLabel(string $label)
+```
 
 Customization fields' label validity
 
@@ -798,7 +876,9 @@ Customization fields' label validity
 
 ### <a name="method-isLangIsoCode"></a>isLangIsoCode
 
-    boolean ValidateCore::isLangIsoCode(string $iso_code)
+```php
+boolean ValidateCore::isLangIsoCode(string $iso_code)
+```
 
 Check for Language Iso Code
 
@@ -816,7 +896,9 @@ Check for Language Iso Code
 
 ### <a name="method-isLanguageCode"></a>isLanguageCode
 
-    mixed ValidateCore::isLanguageCode($s)
+```php
+mixed ValidateCore::isLanguageCode($s)
+```
 
 
 
@@ -834,7 +916,9 @@ Check for Language Iso Code
 
 ### <a name="method-isLanguageFileName"></a>isLanguageFileName
 
-    boolean ValidateCore::isLanguageFileName(string $file_name)
+```php
+boolean ValidateCore::isLanguageFileName(string $file_name)
+```
 
 Check for Language File Name
 
@@ -852,7 +936,9 @@ Check for Language File Name
 
 ### <a name="method-isLanguageIsoCode"></a>isLanguageIsoCode
 
-    boolean ValidateCore::isLanguageIsoCode(string $iso_code)
+```php
+boolean ValidateCore::isLanguageIsoCode(string $iso_code)
+```
 
 Check for language code (ISO) validity
 
@@ -870,7 +956,9 @@ Check for language code (ISO) validity
 
 ### <a name="method-isLinkRewrite"></a>isLinkRewrite
 
-    boolean ValidateCore::isLinkRewrite(string $link)
+```php
+boolean ValidateCore::isLinkRewrite(string $link)
+```
 
 Check for a link (url-rewriting only) validity
 
@@ -888,7 +976,9 @@ Check for a link (url-rewriting only) validity
 
 ### <a name="method-isLoadedObject"></a>isLoadedObject
 
-    boolean ValidateCore::isLoadedObject(object $object)
+```php
+boolean ValidateCore::isLoadedObject(object $object)
+```
 
 Check object validity
 
@@ -906,7 +996,9 @@ Check object validity
 
 ### <a name="method-isLocalizationPackSelection"></a>isLocalizationPackSelection
 
-    boolean ValidateCore::isLocalizationPackSelection(string $data)
+```php
+boolean ValidateCore::isLocalizationPackSelection(string $data)
+```
 
 Check the localization pack part selected
 
@@ -924,7 +1016,9 @@ Check the localization pack part selected
 
 ### <a name="method-isMailName"></a>isMailName
 
-    boolean ValidateCore::isMailName(string $mail_name)
+```php
+boolean ValidateCore::isMailName(string $mail_name)
+```
 
 Check for sender name validity
 
@@ -942,7 +1036,9 @@ Check for sender name validity
 
 ### <a name="method-isMailSubject"></a>isMailSubject
 
-    boolean ValidateCore::isMailSubject(string $mail_subject)
+```php
+boolean ValidateCore::isMailSubject(string $mail_subject)
+```
 
 Check for e-mail subject validity
 
@@ -960,7 +1056,9 @@ Check for e-mail subject validity
 
 ### <a name="method-isMd5"></a>isMd5
 
-    boolean ValidateCore::isMd5(string $md5)
+```php
+boolean ValidateCore::isMd5(string $md5)
+```
 
 Check for MD5 string validity
 
@@ -978,7 +1076,9 @@ Check for MD5 string validity
 
 ### <a name="method-isMessage"></a>isMessage
 
-    boolean ValidateCore::isMessage(string $message)
+```php
+boolean ValidateCore::isMessage(string $message)
+```
 
 Check for a message validity
 
@@ -996,7 +1096,9 @@ Check for a message validity
 
 ### <a name="method-isModuleName"></a>isModuleName
 
-    boolean ValidateCore::isModuleName(string $module_name)
+```php
+boolean ValidateCore::isModuleName(string $module_name)
+```
 
 Check for module name validity
 
@@ -1014,7 +1116,9 @@ Check for module name validity
 
 ### <a name="method-isModuleUrl"></a>isModuleUrl
 
-    boolean ValidateCore::isModuleUrl(string $url, array $errors)
+```php
+boolean ValidateCore::isModuleUrl(string $url, array $errors)
+```
 
 Check for module URL validity
 
@@ -1033,7 +1137,9 @@ Check for module URL validity
 
 ### <a name="method-isMySQLEngine"></a>isMySQLEngine
 
-    mixed ValidateCore::isMySQLEngine($engine)
+```php
+mixed ValidateCore::isMySQLEngine($engine)
+```
 
 
 
@@ -1051,7 +1157,9 @@ Check for module URL validity
 
 ### <a name="method-isName"></a>isName
 
-    boolean ValidateCore::isName(string $name)
+```php
+boolean ValidateCore::isName(string $name)
+```
 
 Check for name validity
 
@@ -1069,7 +1177,9 @@ Check for name validity
 
 ### <a name="method-isNegativePrice"></a>isNegativePrice
 
-    boolean ValidateCore::isNegativePrice(string $price)
+```php
+boolean ValidateCore::isNegativePrice(string $price)
+```
 
 Check for price validity (including negative price)
 
@@ -1087,7 +1197,9 @@ Check for price validity (including negative price)
 
 ### <a name="method-isNullOrUnsignedId"></a>isNullOrUnsignedId
 
-    mixed ValidateCore::isNullOrUnsignedId($id)
+```php
+mixed ValidateCore::isNullOrUnsignedId($id)
+```
 
 
 
@@ -1105,7 +1217,9 @@ Check for price validity (including negative price)
 
 ### <a name="method-isNumericIsoCode"></a>isNumericIsoCode
 
-    mixed ValidateCore::isNumericIsoCode($iso_code)
+```php
+mixed ValidateCore::isNumericIsoCode($iso_code)
+```
 
 
 
@@ -1123,7 +1237,9 @@ Check for price validity (including negative price)
 
 ### <a name="method-isOptFloat"></a>isOptFloat
 
-    boolean ValidateCore::isOptFloat(float $float)
+```php
+boolean ValidateCore::isOptFloat(float $float)
+```
 
 Check for a float number validity
 
@@ -1141,7 +1257,9 @@ Check for a float number validity
 
 ### <a name="method-isOrderBy"></a>isOrderBy
 
-    boolean ValidateCore::isOrderBy(string $order)
+```php
+boolean ValidateCore::isOrderBy(string $order)
+```
 
 Check for table or identifier validity
 Mostly used in database for ordering : ORDER BY field
@@ -1160,7 +1278,9 @@ Mostly used in database for ordering : ORDER BY field
 
 ### <a name="method-isOrderInvoiceNumber"></a>isOrderInvoiceNumber
 
-    mixed ValidateCore::isOrderInvoiceNumber($id)
+```php
+mixed ValidateCore::isOrderInvoiceNumber($id)
+```
 
 
 
@@ -1178,7 +1298,9 @@ Mostly used in database for ordering : ORDER BY field
 
 ### <a name="method-isOrderWay"></a>isOrderWay
 
-    boolean ValidateCore::isOrderWay(string $way)
+```php
+boolean ValidateCore::isOrderWay(string $way)
+```
 
 Check for table or identifier validity
 Mostly used in database for ordering : ASC / DESC
@@ -1197,7 +1319,9 @@ Mostly used in database for ordering : ASC / DESC
 
 ### <a name="method-isPasswd"></a>isPasswd
 
-    boolean ValidateCore::isPasswd(string $passwd, integer $size)
+```php
+boolean ValidateCore::isPasswd(string $passwd, integer $size)
+```
 
 Check for password validity
 
@@ -1216,7 +1340,9 @@ Check for password validity
 
 ### <a name="method-isPasswdAdmin"></a>isPasswdAdmin
 
-    mixed ValidateCore::isPasswdAdmin($passwd)
+```php
+mixed ValidateCore::isPasswdAdmin($passwd)
+```
 
 
 
@@ -1234,7 +1360,9 @@ Check for password validity
 
 ### <a name="method-isPercentage"></a>isPercentage
 
-    boolean ValidateCore::isPercentage(float $value)
+```php
+boolean ValidateCore::isPercentage(float $value)
+```
 
 Check for an percentage validity (between 0 and 100)
 
@@ -1252,7 +1380,9 @@ Check for an percentage validity (between 0 and 100)
 
 ### <a name="method-isPhoneNumber"></a>isPhoneNumber
 
-    boolean ValidateCore::isPhoneNumber(string $number)
+```php
+boolean ValidateCore::isPhoneNumber(string $number)
+```
 
 Check for phone number validity
 
@@ -1270,7 +1400,9 @@ Check for phone number validity
 
 ### <a name="method-isPhpDateFormat"></a>isPhpDateFormat
 
-    boolean ValidateCore::isPhpDateFormat(string $date_format)
+```php
+boolean ValidateCore::isPhpDateFormat(string $date_format)
+```
 
 Check date formats like http://php.net/manual/en/function.date.php
 
@@ -1288,7 +1420,9 @@ Check date formats like http://php.net/manual/en/function.date.php
 
 ### <a name="method-isPostCode"></a>isPostCode
 
-    boolean ValidateCore::isPostCode(string $postcode)
+```php
+boolean ValidateCore::isPostCode(string $postcode)
+```
 
 Check for postal code validity
 
@@ -1306,7 +1440,9 @@ Check for postal code validity
 
 ### <a name="method-isPrestaShopVersion"></a>isPrestaShopVersion
 
-    mixed ValidateCore::isPrestaShopVersion($version)
+```php
+mixed ValidateCore::isPrestaShopVersion($version)
+```
 
 
 
@@ -1324,7 +1460,9 @@ Check for postal code validity
 
 ### <a name="method-isPrice"></a>isPrice
 
-    boolean ValidateCore::isPrice(string $price)
+```php
+boolean ValidateCore::isPrice(string $price)
+```
 
 Check for price validity
 
@@ -1342,7 +1480,9 @@ Check for price validity
 
 ### <a name="method-isPriceDisplayMethod"></a>isPriceDisplayMethod
 
-    boolean ValidateCore::isPriceDisplayMethod(integer $data)
+```php
+boolean ValidateCore::isPriceDisplayMethod(integer $data)
+```
 
 Price display method validity
 
@@ -1360,7 +1500,9 @@ Price display method validity
 
 ### <a name="method-isProductVisibility"></a>isProductVisibility
 
-    boolean ValidateCore::isProductVisibility(string $s)
+```php
+boolean ValidateCore::isProductVisibility(string $s)
+```
 
 Check for product visibility
 
@@ -1378,7 +1520,9 @@ Check for product visibility
 
 ### <a name="method-isReductionType"></a>isReductionType
 
-    boolean ValidateCore::isReductionType(string $data)
+```php
+boolean ValidateCore::isReductionType(string $data)
+```
 
 Check if the data is a reduction type (amout or percentage)
 
@@ -1396,7 +1540,9 @@ Check if the data is a reduction type (amout or percentage)
 
 ### <a name="method-isReference"></a>isReference
 
-    boolean ValidateCore::isReference(string $reference)
+```php
+boolean ValidateCore::isReference(string $reference)
+```
 
 Check for product reference validity
 
@@ -1414,7 +1560,9 @@ Check for product reference validity
 
 ### <a name="method-isRoutePattern"></a>isRoutePattern
 
-    boolean ValidateCore::isRoutePattern(string $pattern)
+```php
+boolean ValidateCore::isRoutePattern(string $pattern)
+```
 
 Check for a route pattern validity
 
@@ -1432,7 +1580,9 @@ Check for a route pattern validity
 
 ### <a name="method-isSceneZones"></a>isSceneZones
 
-    boolean ValidateCore::isSceneZones(array $zones)
+```php
+boolean ValidateCore::isSceneZones(array $zones)
+```
 
 
 
@@ -1450,7 +1600,9 @@ Check for a route pattern validity
 
 ### <a name="method-isSerializedArray"></a>isSerializedArray
 
-    boolean ValidateCore::isSerializedArray(string $data)
+```php
+boolean ValidateCore::isSerializedArray(string $data)
+```
 
 Check for PHP serialized data
 
@@ -1468,7 +1620,9 @@ Check for PHP serialized data
 
 ### <a name="method-isSha1"></a>isSha1
 
-    boolean ValidateCore::isSha1(string $sha1)
+```php
+boolean ValidateCore::isSha1(string $sha1)
+```
 
 Check for SHA1 string validity
 
@@ -1486,7 +1640,9 @@ Check for SHA1 string validity
 
 ### <a name="method-isSiret"></a>isSiret
 
-    boolean ValidateCore::isSiret(string $siret)
+```php
+boolean ValidateCore::isSiret(string $siret)
+```
 
 Validate SIRET Code
 
@@ -1504,7 +1660,9 @@ Validate SIRET Code
 
 ### <a name="method-isSortDirection"></a>isSortDirection
 
-    boolean ValidateCore::isSortDirection(string $value)
+```php
+boolean ValidateCore::isSortDirection(string $value)
+```
 
 Check if the value is a sort direction value (DESC/ASC)
 
@@ -1522,7 +1680,9 @@ Check if the value is a sort direction value (DESC/ASC)
 
 ### <a name="method-isStateIsoCode"></a>isStateIsoCode
 
-    mixed ValidateCore::isStateIsoCode($iso_code)
+```php
+mixed ValidateCore::isStateIsoCode($iso_code)
+```
 
 
 
@@ -1540,7 +1700,9 @@ Check if the value is a sort direction value (DESC/ASC)
 
 ### <a name="method-isStockManagement"></a>isStockManagement
 
-    boolean ValidateCore::isStockManagement(array $stock_management)
+```php
+boolean ValidateCore::isStockManagement(array $stock_management)
+```
 
 
 
@@ -1558,7 +1720,9 @@ Check if the value is a sort direction value (DESC/ASC)
 
 ### <a name="method-isString"></a>isString
 
-    boolean ValidateCore::isString(string $data)
+```php
+boolean ValidateCore::isString(string $data)
+```
 
 Price display method validity
 
@@ -1576,7 +1740,9 @@ Price display method validity
 
 ### <a name="method-isSubDomainName"></a>isSubDomainName
 
-    mixed ValidateCore::isSubDomainName($domain)
+```php
+mixed ValidateCore::isSubDomainName($domain)
+```
 
 
 
@@ -1594,7 +1760,9 @@ Price display method validity
 
 ### <a name="method-isTabName"></a>isTabName
 
-    boolean ValidateCore::isTabName(string $name)
+```php
+boolean ValidateCore::isTabName(string $name)
+```
 
 Check for admin panel tab name validity
 
@@ -1612,7 +1780,9 @@ Check for admin panel tab name validity
 
 ### <a name="method-isTableOrIdentifier"></a>isTableOrIdentifier
 
-    boolean ValidateCore::isTableOrIdentifier(string $table)
+```php
+boolean ValidateCore::isTableOrIdentifier(string $table)
+```
 
 Check for table or identifier validity
 Mostly used in database for table names and id_table
@@ -1631,7 +1801,9 @@ Mostly used in database for table names and id_table
 
 ### <a name="method-isTablePrefix"></a>isTablePrefix
 
-    mixed ValidateCore::isTablePrefix($data)
+```php
+mixed ValidateCore::isTablePrefix($data)
+```
 
 
 
@@ -1649,7 +1821,9 @@ Mostly used in database for table names and id_table
 
 ### <a name="method-isTagsList"></a>isTagsList
 
-    boolean ValidateCore::isTagsList(string $list)
+```php
+boolean ValidateCore::isTagsList(string $list)
+```
 
 Check for tags list validity
 
@@ -1667,7 +1841,9 @@ Check for tags list validity
 
 ### <a name="method-isTplName"></a>isTplName
 
-    boolean ValidateCore::isTplName(string $tpl_name)
+```php
+boolean ValidateCore::isTplName(string $tpl_name)
+```
 
 Check for template name validity
 
@@ -1685,7 +1861,9 @@ Check for template name validity
 
 ### <a name="method-isTrackingNumber"></a>isTrackingNumber
 
-    boolean ValidateCore::isTrackingNumber(string $tracking_number)
+```php
+boolean ValidateCore::isTrackingNumber(string $tracking_number)
+```
 
 Check tracking number validity (disallowed empty string)
 
@@ -1703,7 +1881,9 @@ Check tracking number validity (disallowed empty string)
 
 ### <a name="method-isUnixName"></a>isUnixName
 
-    mixed ValidateCore::isUnixName($data)
+```php
+mixed ValidateCore::isUnixName($data)
+```
 
 
 
@@ -1721,7 +1901,9 @@ Check tracking number validity (disallowed empty string)
 
 ### <a name="method-isUnsignedFloat"></a>isUnsignedFloat
 
-    mixed ValidateCore::isUnsignedFloat($float)
+```php
+mixed ValidateCore::isUnsignedFloat($float)
+```
 
 
 
@@ -1739,7 +1921,9 @@ Check tracking number validity (disallowed empty string)
 
 ### <a name="method-isUnsignedId"></a>isUnsignedId
 
-    boolean ValidateCore::isUnsignedId(integer $id)
+```php
+boolean ValidateCore::isUnsignedId(integer $id)
+```
 
 Check for an integer validity (unsigned)
 Mostly used in database for auto-increment
@@ -1758,7 +1942,9 @@ Mostly used in database for auto-increment
 
 ### <a name="method-isUnsignedInt"></a>isUnsignedInt
 
-    boolean ValidateCore::isUnsignedInt(integer $value)
+```php
+boolean ValidateCore::isUnsignedInt(integer $value)
+```
 
 Check for an integer validity (unsigned)
 
@@ -1776,7 +1962,9 @@ Check for an integer validity (unsigned)
 
 ### <a name="method-isUpc"></a>isUpc
 
-    boolean ValidateCore::isUpc(string $upc)
+```php
+boolean ValidateCore::isUpc(string $upc)
+```
 
 Check for barcode validity (UPC)
 
@@ -1794,7 +1982,9 @@ Check for barcode validity (UPC)
 
 ### <a name="method-isUrl"></a>isUrl
 
-    boolean ValidateCore::isUrl(string $url)
+```php
+boolean ValidateCore::isUrl(string $url)
+```
 
 Check url validity (disallowed empty string)
 
@@ -1812,7 +2002,9 @@ Check url validity (disallowed empty string)
 
 ### <a name="method-isUrlOrEmpty"></a>isUrlOrEmpty
 
-    boolean ValidateCore::isUrlOrEmpty(string $url)
+```php
+boolean ValidateCore::isUrlOrEmpty(string $url)
+```
 
 Check url validity (allowed empty string)
 
@@ -1830,7 +2022,9 @@ Check url validity (allowed empty string)
 
 ### <a name="method-isValidSearch"></a>isValidSearch
 
-    boolean ValidateCore::isValidSearch(string $search)
+```php
+boolean ValidateCore::isValidSearch(string $search)
+```
 
 Check for search query validity
 
@@ -1848,7 +2042,9 @@ Check for search query validity
 
 ### <a name="method-isValuesList"></a>isValuesList
 
-    mixed ValidateCore::isValuesList()
+```php
+mixed ValidateCore::isValuesList()
+```
 
 
 
@@ -1863,7 +2059,9 @@ Check for search query validity
 
 ### <a name="method-isVoucherDescription"></a>isVoucherDescription
 
-    mixed ValidateCore::isVoucherDescription($text)
+```php
+mixed ValidateCore::isVoucherDescription($text)
+```
 
 
 
@@ -1881,7 +2079,9 @@ Check for search query validity
 
 ### <a name="method-isWeightUnit"></a>isWeightUnit
 
-    mixed ValidateCore::isWeightUnit($unit)
+```php
+mixed ValidateCore::isWeightUnit($unit)
+```
 
 
 
@@ -1899,7 +2099,9 @@ Check for search query validity
 
 ### <a name="method-isZipCodeFormat"></a>isZipCodeFormat
 
-    boolean ValidateCore::isZipCodeFormat(string $zip_code)
+```php
+boolean ValidateCore::isZipCodeFormat(string $zip_code)
+```
 
 Check for zip code format validity
 

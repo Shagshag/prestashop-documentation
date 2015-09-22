@@ -1,5 +1,6 @@
 File Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php
 =========
+
 Source: [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php)
 
 

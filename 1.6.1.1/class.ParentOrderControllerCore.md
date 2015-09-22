@@ -10,16 +10,18 @@ Class ParentOrderControllerCore
 * Source: [controllers/front/ParentOrderController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L37)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$nbProducts](#property-$nbProducts)
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [_assignAddress](#method-_assignAddress)
 * [_assignCarrier](#method-_assignCarrier)
 * [_assignPayment](#method-_assignPayment)
@@ -44,7 +46,9 @@ Properties
 
 ### <a name="property-$nbProducts"></a>$nbProducts
 
-    public mixed $nbProducts
+```php
+public mixed $nbProducts
+```
 
 
 
@@ -56,7 +60,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'order'
+```php
+public mixed $php_self = 'order'
+```
 
 
 
@@ -68,7 +74,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -84,7 +92,9 @@ Methods
 
 ### <a name="method-_assignAddress"></a>_assignAddress
 
-    mixed ParentOrderControllerCore::_assignAddress()
+```php
+mixed ParentOrderControllerCore::_assignAddress()
+```
 
 
 
@@ -98,7 +108,9 @@ Methods
 
 ### <a name="method-_assignCarrier"></a>_assignCarrier
 
-    mixed ParentOrderControllerCore::_assignCarrier()
+```php
+mixed ParentOrderControllerCore::_assignCarrier()
+```
 
 
 
@@ -112,7 +124,9 @@ Methods
 
 ### <a name="method-_assignPayment"></a>_assignPayment
 
-    mixed ParentOrderControllerCore::_assignPayment()
+```php
+mixed ParentOrderControllerCore::_assignPayment()
+```
 
 
 
@@ -126,7 +140,9 @@ Methods
 
 ### <a name="method-_assignSummaryInformations"></a>_assignSummaryInformations
 
-    mixed ParentOrderControllerCore::_assignSummaryInformations()
+```php
+mixed ParentOrderControllerCore::_assignSummaryInformations()
+```
 
 
 
@@ -140,7 +156,9 @@ Methods
 
 ### <a name="method-_assignWrappingAndTOS"></a>_assignWrappingAndTOS
 
-    mixed ParentOrderControllerCore::_assignWrappingAndTOS()
+```php
+mixed ParentOrderControllerCore::_assignWrappingAndTOS()
+```
 
 
 
@@ -154,7 +172,9 @@ Methods
 
 ### <a name="method-_checkFreeOrder"></a>_checkFreeOrder
 
-    boolean ParentOrderControllerCore::_checkFreeOrder()
+```php
+boolean ParentOrderControllerCore::_checkFreeOrder()
+```
 
 Check if order is free
 
@@ -168,7 +188,9 @@ Check if order is free
 
 ### <a name="method-_processCarrier"></a>_processCarrier
 
-    mixed ParentOrderControllerCore::_processCarrier()
+```php
+mixed ParentOrderControllerCore::_processCarrier()
+```
 
 
 
@@ -182,7 +204,9 @@ Check if order is free
 
 ### <a name="method-_setDefaultCarrierSelection"></a>_setDefaultCarrierSelection
 
-    \number ParentOrderControllerCore::_setDefaultCarrierSelection(array $carriers)
+```php
+\number ParentOrderControllerCore::_setDefaultCarrierSelection(array $carriers)
+```
 
 Decides what the default carrier is and update the cart with it
 
@@ -199,7 +223,9 @@ Decides what the default carrier is and update the cart with it
 
 ### <a name="method-_updateMessage"></a>_updateMessage
 
-    mixed ParentOrderControllerCore::_updateMessage($messageContent)
+```php
+mixed ParentOrderControllerCore::_updateMessage($messageContent)
+```
 
 
 
@@ -216,7 +242,9 @@ Decides what the default carrier is and update the cart with it
 
 ### <a name="method-init"></a>init
 
-    mixed ParentOrderControllerCore::init()
+```php
+mixed ParentOrderControllerCore::init()
+```
 
 Initialize parent order controller
 
@@ -230,7 +258,9 @@ Initialize parent order controller
 
 ### <a name="method-setDefaultCarrierSelection"></a>setDefaultCarrierSelection
 
-    \number ParentOrderControllerCore::setDefaultCarrierSelection(array $carriers)
+```php
+\number ParentOrderControllerCore::setDefaultCarrierSelection(array $carriers)
+```
 
 Decides what the default carrier is and update the cart with it
 
@@ -247,7 +277,9 @@ Decides what the default carrier is and update the cart with it
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed ParentOrderControllerCore::setMedia()
+```php
+mixed ParentOrderControllerCore::setMedia()
+```
 
 
 
@@ -261,7 +293,9 @@ Decides what the default carrier is and update the cart with it
 
 ### <a name="method-setNoCarrier"></a>setNoCarrier
 
-    mixed ParentOrderControllerCore::setNoCarrier()
+```php
+mixed ParentOrderControllerCore::setNoCarrier()
+```
 
 Set id_carrier to 0 (no shipping price)
 
@@ -275,7 +309,9 @@ Set id_carrier to 0 (no shipping price)
 
 ### <a name="method-validateDeliveryOption"></a>validateDeliveryOption
 
-    boolean ParentOrderControllerCore::validateDeliveryOption(array $delivery_option)
+```php
+boolean ParentOrderControllerCore::validateDeliveryOption(array $delivery_option)
+```
 
 Validate get/post param delivery option
 

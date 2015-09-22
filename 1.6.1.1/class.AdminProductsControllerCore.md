@@ -10,9 +10,11 @@ Class AdminProductsControllerCore
 * Source: [controllers/admin/AdminProductsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_category](#property-$_category)
 * [$available_tabs](#property-$available_tabs)
@@ -27,8 +29,8 @@ Properties
 * [$tab_display](#property-$tab_display)
 * [$tab_display_module](#property-$tab_display_module)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_applyTaxToEcotax](#method-_applyTaxToEcotax)
 * [_cleanMetaKeywords](#method-_cleanMetaKeywords)
@@ -144,7 +146,9 @@ Properties
 
 ### <a name="property-$_category"></a>$_category
 
-    protected mixed $_category
+```php
+protected mixed $_category
+```
 
 
 
@@ -156,7 +160,9 @@ Properties
 
 ### <a name="property-$available_tabs"></a>$available_tabs
 
-    protected array $available_tabs = array()
+```php
+protected array $available_tabs = array()
+```
 
 The order in the array decides the order in the list of tab. If an element's value is a number, it will be preloaded.
 
@@ -168,7 +174,9 @@ The tabs are preloaded from the smallest to the highest number.
 
 ### <a name="property-$available_tabs_lang"></a>$available_tabs_lang
 
-    protected mixed $available_tabs_lang = array()
+```php
+protected mixed $available_tabs_lang = array()
+```
 
 
 
@@ -180,7 +188,9 @@ The tabs are preloaded from the smallest to the highest number.
 
 ### <a name="property-$default_tab"></a>$default_tab
 
-    protected mixed $default_tab = 'Informations'
+```php
+protected mixed $default_tab = 'Informations'
+```
 
 
 
@@ -192,7 +202,9 @@ The tabs are preloaded from the smallest to the highest number.
 
 ### <a name="property-$id_current_category"></a>$id_current_category
 
-    protected mixed $id_current_category
+```php
+protected mixed $id_current_category
+```
 
 
 
@@ -204,7 +216,9 @@ The tabs are preloaded from the smallest to the highest number.
 
 ### <a name="property-$max_file_size"></a>$max_file_size
 
-    protected integer $max_file_size = null
+```php
+protected integer $max_file_size = null
+```
 
 
 
@@ -216,7 +230,9 @@ The tabs are preloaded from the smallest to the highest number.
 
 ### <a name="property-$max_image_size"></a>$max_image_size
 
-    protected mixed $max_image_size = null
+```php
+protected mixed $max_image_size = null
+```
 
 
 
@@ -228,7 +244,9 @@ The tabs are preloaded from the smallest to the highest number.
 
 ### <a name="property-$object"></a>$object
 
-    public \Product $object
+```php
+public \Product $object
+```
 
 
 
@@ -240,7 +258,9 @@ The tabs are preloaded from the smallest to the highest number.
 
 ### <a name="property-$position_identifier"></a>$position_identifier
 
-    protected mixed $position_identifier = 'id_product'
+```php
+protected mixed $position_identifier = 'id_product'
+```
 
 
 
@@ -252,7 +272,9 @@ The tabs are preloaded from the smallest to the highest number.
 
 ### <a name="property-$submitted_tabs"></a>$submitted_tabs
 
-    protected mixed $submitted_tabs
+```php
+protected mixed $submitted_tabs
+```
 
 
 
@@ -264,7 +286,9 @@ The tabs are preloaded from the smallest to the highest number.
 
 ### <a name="property-$tab_display"></a>$tab_display
 
-    protected string $tab_display
+```php
+protected string $tab_display
+```
 
 
 
@@ -276,7 +300,9 @@ The tabs are preloaded from the smallest to the highest number.
 
 ### <a name="property-$tab_display_module"></a>$tab_display_module
 
-    protected mixed $tab_display_module
+```php
+protected mixed $tab_display_module
+```
 
 
 
@@ -292,7 +318,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminProductsControllerCore::__construct()
+```php
+mixed AdminProductsControllerCore::__construct()
+```
 
 
 
@@ -306,7 +334,9 @@ Methods
 
 ### <a name="method-_applyTaxToEcotax"></a>_applyTaxToEcotax
 
-    mixed AdminProductsControllerCore::_applyTaxToEcotax($product)
+```php
+mixed AdminProductsControllerCore::_applyTaxToEcotax($product)
+```
 
 
 
@@ -323,7 +353,9 @@ Methods
 
 ### <a name="method-_cleanMetaKeywords"></a>_cleanMetaKeywords
 
-    mixed AdminProductsControllerCore::_cleanMetaKeywords($keywords)
+```php
+mixed AdminProductsControllerCore::_cleanMetaKeywords($keywords)
+```
 
 
 
@@ -340,7 +372,9 @@ Methods
 
 ### <a name="method-_displayDraftWarning"></a>_displayDraftWarning
 
-    mixed AdminProductsControllerCore::_displayDraftWarning($active)
+```php
+mixed AdminProductsControllerCore::_displayDraftWarning($active)
+```
 
 
 
@@ -357,7 +391,9 @@ Methods
 
 ### <a name="method-_displayLabelField"></a>_displayLabelField
 
-    mixed AdminProductsControllerCore::_displayLabelField($label, $languages, $default_language, $type, $fieldIds, $id_customization_field)
+```php
+mixed AdminProductsControllerCore::_displayLabelField($label, $languages, $default_language, $type, $fieldIds, $id_customization_field)
+```
 
 
 
@@ -379,7 +415,9 @@ Methods
 
 ### <a name="method-_displayLabelFields"></a>_displayLabelFields
 
-    mixed AdminProductsControllerCore::_displayLabelFields($obj, $labels, $languages, $default_language, $type)
+```php
+mixed AdminProductsControllerCore::_displayLabelFields($obj, $labels, $languages, $default_language, $type)
+```
 
 
 
@@ -400,7 +438,9 @@ Methods
 
 ### <a name="method-_displaySpecificPriceModificationForm"></a>_displaySpecificPriceModificationForm
 
-    mixed AdminProductsControllerCore::_displaySpecificPriceModificationForm($defaultCurrency, $shops, $currencies, $countries, $groups)
+```php
+mixed AdminProductsControllerCore::_displaySpecificPriceModificationForm($defaultCurrency, $shops, $currencies, $countries, $groups)
+```
 
 
 
@@ -421,7 +461,9 @@ Methods
 
 ### <a name="method-_displayUnavailableProductWarning"></a>_displayUnavailableProductWarning
 
-    mixed AdminProductsControllerCore::_displayUnavailableProductWarning()
+```php
+mixed AdminProductsControllerCore::_displayUnavailableProductWarning()
+```
 
 
 
@@ -435,7 +477,9 @@ Methods
 
 ### <a name="method-_getCustomizationFieldIds"></a>_getCustomizationFieldIds
 
-    mixed AdminProductsControllerCore::_getCustomizationFieldIds($labels, $alreadyGenerated, $obj)
+```php
+mixed AdminProductsControllerCore::_getCustomizationFieldIds($labels, $alreadyGenerated, $obj)
+```
 
 
 
@@ -454,7 +498,9 @@ Methods
 
 ### <a name="method-_getFinalPrice"></a>_getFinalPrice
 
-    mixed AdminProductsControllerCore::_getFinalPrice($specific_price, $product_price, $tax_rate)
+```php
+mixed AdminProductsControllerCore::_getFinalPrice($specific_price, $product_price, $tax_rate)
+```
 
 
 
@@ -473,7 +519,9 @@ Methods
 
 ### <a name="method-_removeTaxFromEcotax"></a>_removeTaxFromEcotax
 
-    mixed AdminProductsControllerCore::_removeTaxFromEcotax()
+```php
+mixed AdminProductsControllerCore::_removeTaxFromEcotax()
+```
 
 
 
@@ -487,7 +535,9 @@ Methods
 
 ### <a name="method-_validateSpecificPrice"></a>_validateSpecificPrice
 
-    mixed AdminProductsControllerCore::_validateSpecificPrice($id_shop, $id_currency, $id_country, $id_group, $id_customer, $price, $from_quantity, $reduction, $reduction_type, $from, $to, $id_combination)
+```php
+mixed AdminProductsControllerCore::_validateSpecificPrice($id_shop, $id_currency, $id_country, $id_group, $id_customer, $price, $from_quantity, $reduction, $reduction_type, $from, $to, $id_combination)
+```
 
 
 
@@ -515,7 +565,9 @@ Methods
 
 ### <a name="method-addCarriers"></a>addCarriers
 
-    mixed AdminProductsControllerCore::addCarriers($product)
+```php
+mixed AdminProductsControllerCore::addCarriers($product)
+```
 
 
 
@@ -532,7 +584,9 @@ Methods
 
 ### <a name="method-addProductImage"></a>addProductImage
 
-    integer|false AdminProductsControllerCore::addProductImage(\Product $product, string $method)
+```php
+integer|false AdminProductsControllerCore::addProductImage(\Product $product, string $method)
+```
 
 Add or update a product image
 
@@ -550,7 +604,9 @@ Add or update a product image
 
 ### <a name="method-ajaxPreProcess"></a>ajaxPreProcess
 
-    mixed AdminProductsControllerCore::ajaxPreProcess()
+```php
+mixed AdminProductsControllerCore::ajaxPreProcess()
+```
 
 
 
@@ -564,7 +620,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessAddAttachment"></a>ajaxProcessAddAttachment
 
-    mixed AdminProductsControllerCore::ajaxProcessAddAttachment()
+```php
+mixed AdminProductsControllerCore::ajaxProcessAddAttachment()
+```
 
 
 
@@ -578,7 +636,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessCheckProductName"></a>ajaxProcessCheckProductName
 
-    mixed AdminProductsControllerCore::ajaxProcessCheckProductName()
+```php
+mixed AdminProductsControllerCore::ajaxProcessCheckProductName()
+```
 
 
 
@@ -592,7 +652,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessDefaultProductAttribute"></a>ajaxProcessDefaultProductAttribute
 
-    mixed AdminProductsControllerCore::ajaxProcessDefaultProductAttribute()
+```php
+mixed AdminProductsControllerCore::ajaxProcessDefaultProductAttribute()
+```
 
 
 
@@ -606,7 +668,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessDeleteProductAttribute"></a>ajaxProcessDeleteProductAttribute
 
-    mixed AdminProductsControllerCore::ajaxProcessDeleteProductAttribute()
+```php
+mixed AdminProductsControllerCore::ajaxProcessDeleteProductAttribute()
+```
 
 
 
@@ -620,7 +684,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessDeleteProductImage"></a>ajaxProcessDeleteProductImage
 
-    mixed AdminProductsControllerCore::ajaxProcessDeleteProductImage()
+```php
+mixed AdminProductsControllerCore::ajaxProcessDeleteProductImage()
+```
 
 
 
@@ -634,7 +700,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessDeleteSpecificPrice"></a>ajaxProcessDeleteSpecificPrice
 
-    mixed AdminProductsControllerCore::ajaxProcessDeleteSpecificPrice()
+```php
+mixed AdminProductsControllerCore::ajaxProcessDeleteSpecificPrice()
+```
 
 
 
@@ -648,7 +716,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessEditProductAttribute"></a>ajaxProcessEditProductAttribute
 
-    mixed AdminProductsControllerCore::ajaxProcessEditProductAttribute()
+```php
+mixed AdminProductsControllerCore::ajaxProcessEditProductAttribute()
+```
 
 
 
@@ -662,7 +732,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessGetCategoryTree"></a>ajaxProcessGetCategoryTree
 
-    mixed AdminProductsControllerCore::ajaxProcessGetCategoryTree()
+```php
+mixed AdminProductsControllerCore::ajaxProcessGetCategoryTree()
+```
 
 
 
@@ -676,7 +748,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessGetCountriesOptions"></a>ajaxProcessGetCountriesOptions
 
-    mixed AdminProductsControllerCore::ajaxProcessGetCountriesOptions()
+```php
+mixed AdminProductsControllerCore::ajaxProcessGetCountriesOptions()
+```
 
 
 
@@ -690,7 +764,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessGetCurrenciesOptions"></a>ajaxProcessGetCurrenciesOptions
 
-    mixed AdminProductsControllerCore::ajaxProcessGetCurrenciesOptions()
+```php
+mixed AdminProductsControllerCore::ajaxProcessGetCurrenciesOptions()
+```
 
 
 
@@ -704,7 +780,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessGetGroupsOptions"></a>ajaxProcessGetGroupsOptions
 
-    mixed AdminProductsControllerCore::ajaxProcessGetGroupsOptions()
+```php
+mixed AdminProductsControllerCore::ajaxProcessGetGroupsOptions()
+```
 
 
 
@@ -718,7 +796,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessProductManufacturers"></a>ajaxProcessProductManufacturers
 
-    mixed AdminProductsControllerCore::ajaxProcessProductManufacturers()
+```php
+mixed AdminProductsControllerCore::ajaxProcessProductManufacturers()
+```
 
 
 
@@ -732,7 +812,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessProductQuantity"></a>ajaxProcessProductQuantity
 
-    mixed AdminProductsControllerCore::ajaxProcessProductQuantity()
+```php
+mixed AdminProductsControllerCore::ajaxProcessProductQuantity()
+```
 
 
 
@@ -746,7 +828,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessPublishProduct"></a>ajaxProcessPublishProduct
 
-    mixed AdminProductsControllerCore::ajaxProcessPublishProduct()
+```php
+mixed AdminProductsControllerCore::ajaxProcessPublishProduct()
+```
 
 
 
@@ -760,7 +844,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessUpdateCover"></a>ajaxProcessUpdateCover
 
-    mixed AdminProductsControllerCore::ajaxProcessUpdateCover()
+```php
+mixed AdminProductsControllerCore::ajaxProcessUpdateCover()
+```
 
 
 
@@ -774,7 +860,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessUpdateImagePosition"></a>ajaxProcessUpdateImagePosition
 
-    mixed AdminProductsControllerCore::ajaxProcessUpdateImagePosition()
+```php
+mixed AdminProductsControllerCore::ajaxProcessUpdateImagePosition()
+```
 
 
 
@@ -788,7 +876,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessUpdatePositions"></a>ajaxProcessUpdatePositions
 
-    mixed AdminProductsControllerCore::ajaxProcessUpdatePositions()
+```php
+mixed AdminProductsControllerCore::ajaxProcessUpdatePositions()
+```
 
 
 
@@ -802,7 +892,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessUpdateProductImageShopAsso"></a>ajaxProcessUpdateProductImageShopAsso
 
-    mixed AdminProductsControllerCore::ajaxProcessUpdateProductImageShopAsso()
+```php
+mixed AdminProductsControllerCore::ajaxProcessUpdateProductImageShopAsso()
+```
 
 
 
@@ -816,7 +908,9 @@ Add or update a product image
 
 ### <a name="method-ajaxProcessaddProductImage"></a>ajaxProcessaddProductImage
 
-    mixed AdminProductsControllerCore::ajaxProcessaddProductImage()
+```php
+mixed AdminProductsControllerCore::ajaxProcessaddProductImage()
+```
 
 
 
@@ -830,7 +924,9 @@ Add or update a product image
 
 ### <a name="method-checkFeatures"></a>checkFeatures
 
-    mixed AdminProductsControllerCore::checkFeatures($languages, $feature_id)
+```php
+mixed AdminProductsControllerCore::checkFeatures($languages, $feature_id)
+```
 
 
 
@@ -848,7 +944,9 @@ Add or update a product image
 
 ### <a name="method-checkMultishopBox"></a>checkMultishopBox
 
-    mixed AdminProductsControllerCore::checkMultishopBox($field, $context)
+```php
+mixed AdminProductsControllerCore::checkMultishopBox($field, $context)
+```
 
 
 
@@ -866,7 +964,9 @@ Add or update a product image
 
 ### <a name="method-checkProduct"></a>checkProduct
 
-    mixed AdminProductsControllerCore::checkProduct()
+```php
+mixed AdminProductsControllerCore::checkProduct()
+```
 
 Check that a saved product is valid
 
@@ -880,7 +980,9 @@ Check that a saved product is valid
 
 ### <a name="method-copyFromPost"></a>copyFromPost
 
-    mixed AdminProductsControllerCore::copyFromPost(\Product|\ObjectModel $object, string $table)
+```php
+mixed AdminProductsControllerCore::copyFromPost(\Product|\ObjectModel $object, string $table)
+```
 
 
 
@@ -898,7 +1000,9 @@ Check that a saved product is valid
 
 ### <a name="method-copyImage"></a>copyImage
 
-    void|false AdminProductsControllerCore::copyImage(integer $id_product, integer $id_image, string $method)
+```php
+void|false AdminProductsControllerCore::copyImage(integer $id_product, integer $id_image, string $method)
+```
 
 Copy a product image
 
@@ -917,7 +1021,9 @@ Copy a product image
 
 ### <a name="method-displayPreviewLink"></a>displayPreviewLink
 
-    mixed AdminProductsControllerCore::displayPreviewLink($token, $id, $name)
+```php
+mixed AdminProductsControllerCore::displayPreviewLink($token, $id, $name)
+```
 
 
 
@@ -936,7 +1042,9 @@ Copy a product image
 
 ### <a name="method-getCarrierList"></a>getCarrierList
 
-    mixed AdminProductsControllerCore::getCarrierList()
+```php
+mixed AdminProductsControllerCore::getCarrierList()
+```
 
 
 
@@ -950,7 +1058,9 @@ Copy a product image
 
 ### <a name="method-getCombinationImagesJS"></a>getCombinationImagesJS
 
-    mixed AdminProductsControllerCore::getCombinationImagesJS()
+```php
+mixed AdminProductsControllerCore::getCombinationImagesJS()
+```
 
 
 
@@ -964,7 +1074,9 @@ Copy a product image
 
 ### <a name="method-getL"></a>getL
 
-    mixed AdminProductsControllerCore::getL($key)
+```php
+mixed AdminProductsControllerCore::getL($key)
+```
 
 
 
@@ -981,7 +1093,9 @@ Copy a product image
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminProductsControllerCore::getList($id_lang, $orderBy, $orderWay, $start, $limit, $id_lang_shop)
+```php
+mixed AdminProductsControllerCore::getList($id_lang, $orderBy, $orderWay, $start, $limit, $id_lang_shop)
+```
 
 
 
@@ -1003,7 +1117,9 @@ Copy a product image
 
 ### <a name="method-getPackItems"></a>getPackItems
 
-    array AdminProductsControllerCore::getPackItems(\Product $product)
+```php
+array AdminProductsControllerCore::getPackItems(\Product $product)
+```
 
 Get an array of pack items for display from the product object if specified, else from POST/GET values
 
@@ -1020,7 +1136,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-getPreviewUrl"></a>getPreviewUrl
 
-    mixed AdminProductsControllerCore::getPreviewUrl(\Product $product)
+```php
+mixed AdminProductsControllerCore::getPreviewUrl(\Product $product)
+```
 
 
 
@@ -1037,7 +1155,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-getQuantities"></a>getQuantities
 
-    mixed AdminProductsControllerCore::getQuantities($echo, $tr)
+```php
+mixed AdminProductsControllerCore::getQuantities($echo, $tr)
+```
 
 
 
@@ -1056,7 +1176,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-haveThisAccessory"></a>haveThisAccessory
 
-    mixed AdminProductsControllerCore::haveThisAccessory($accessory_id, $accessories)
+```php
+mixed AdminProductsControllerCore::haveThisAccessory($accessory_id, $accessories)
+```
 
 
 
@@ -1074,7 +1196,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminProductsControllerCore::initContent($token)
+```php
+mixed AdminProductsControllerCore::initContent($token)
+```
 
 
 
@@ -1091,7 +1215,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-initFormAssociations"></a>initFormAssociations
 
-    mixed AdminProductsControllerCore::initFormAssociations(\Product $obj)
+```php
+mixed AdminProductsControllerCore::initFormAssociations(\Product $obj)
+```
 
 
 
@@ -1108,7 +1234,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-initFormAttachments"></a>initFormAttachments
 
-    mixed AdminProductsControllerCore::initFormAttachments($obj)
+```php
+mixed AdminProductsControllerCore::initFormAttachments($obj)
+```
 
 
 
@@ -1125,7 +1253,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-initFormAttributes"></a>initFormAttributes
 
-    mixed AdminProductsControllerCore::initFormAttributes(\Product $product)
+```php
+mixed AdminProductsControllerCore::initFormAttributes(\Product $product)
+```
 
 
 
@@ -1142,7 +1272,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-initFormCombinations"></a>initFormCombinations
 
-    mixed AdminProductsControllerCore::initFormCombinations($obj)
+```php
+mixed AdminProductsControllerCore::initFormCombinations($obj)
+```
 
 
 
@@ -1159,7 +1291,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-initFormCustomization"></a>initFormCustomization
 
-    mixed AdminProductsControllerCore::initFormCustomization(\Product $obj)
+```php
+mixed AdminProductsControllerCore::initFormCustomization(\Product $obj)
+```
 
 
 
@@ -1176,7 +1310,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-initFormFeatures"></a>initFormFeatures
 
-    mixed AdminProductsControllerCore::initFormFeatures(\Product $obj)
+```php
+mixed AdminProductsControllerCore::initFormFeatures(\Product $obj)
+```
 
 
 
@@ -1193,7 +1329,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-initFormImages"></a>initFormImages
 
-    mixed AdminProductsControllerCore::initFormImages(\Product $obj)
+```php
+mixed AdminProductsControllerCore::initFormImages(\Product $obj)
+```
 
 
 
@@ -1210,7 +1348,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-initFormInformations"></a>initFormInformations
 
-    mixed AdminProductsControllerCore::initFormInformations(\Product $product)
+```php
+mixed AdminProductsControllerCore::initFormInformations(\Product $product)
+```
 
 
 
@@ -1227,7 +1367,9 @@ Get an array of pack items for display from the product object if specified, els
 
 ### <a name="method-initFormModules"></a>initFormModules
 
-    mixed AdminProductsControllerCore::initFormModules($obj)
+```php
+mixed AdminProductsControllerCore::initFormModules($obj)
+```
 
 AdminProducts display hook
 
@@ -1244,7 +1386,9 @@ AdminProducts display hook
 
 ### <a name="method-initFormPack"></a>initFormPack
 
-    mixed AdminProductsControllerCore::initFormPack(\Product $product)
+```php
+mixed AdminProductsControllerCore::initFormPack(\Product $product)
+```
 
 
 
@@ -1261,7 +1405,9 @@ AdminProducts display hook
 
 ### <a name="method-initFormPrices"></a>initFormPrices
 
-    mixed AdminProductsControllerCore::initFormPrices(\Product $obj)
+```php
+mixed AdminProductsControllerCore::initFormPrices(\Product $obj)
+```
 
 
 
@@ -1278,7 +1424,9 @@ AdminProducts display hook
 
 ### <a name="method-initFormQuantities"></a>initFormQuantities
 
-    mixed AdminProductsControllerCore::initFormQuantities(\Product $obj)
+```php
+mixed AdminProductsControllerCore::initFormQuantities(\Product $obj)
+```
 
 
 
@@ -1295,7 +1443,9 @@ AdminProducts display hook
 
 ### <a name="method-initFormSeo"></a>initFormSeo
 
-    mixed AdminProductsControllerCore::initFormSeo($product)
+```php
+mixed AdminProductsControllerCore::initFormSeo($product)
+```
 
 
 
@@ -1312,7 +1462,9 @@ AdminProducts display hook
 
 ### <a name="method-initFormShipping"></a>initFormShipping
 
-    mixed AdminProductsControllerCore::initFormShipping($obj)
+```php
+mixed AdminProductsControllerCore::initFormShipping($obj)
+```
 
 
 
@@ -1329,7 +1481,9 @@ AdminProducts display hook
 
 ### <a name="method-initFormSuppliers"></a>initFormSuppliers
 
-    mixed AdminProductsControllerCore::initFormSuppliers(\Product $obj)
+```php
+mixed AdminProductsControllerCore::initFormSuppliers(\Product $obj)
+```
 
 
 
@@ -1346,7 +1500,9 @@ AdminProducts display hook
 
 ### <a name="method-initFormVirtualProduct"></a>initFormVirtualProduct
 
-    mixed AdminProductsControllerCore::initFormVirtualProduct($product)
+```php
+mixed AdminProductsControllerCore::initFormVirtualProduct($product)
+```
 
 
 
@@ -1363,7 +1519,9 @@ AdminProducts display hook
 
 ### <a name="method-initFormWarehouses"></a>initFormWarehouses
 
-    mixed AdminProductsControllerCore::initFormWarehouses(\Product $obj)
+```php
+mixed AdminProductsControllerCore::initFormWarehouses(\Product $obj)
+```
 
 
 
@@ -1380,7 +1538,9 @@ AdminProducts display hook
 
 ### <a name="method-initPack"></a>initPack
 
-    mixed AdminProductsControllerCore::initPack(\Product $product)
+```php
+mixed AdminProductsControllerCore::initPack(\Product $product)
+```
 
 
 
@@ -1397,7 +1557,9 @@ AdminProducts display hook
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminProductsControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminProductsControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -1411,7 +1573,9 @@ AdminProducts display hook
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminProductsControllerCore::initProcess()
+```php
+mixed AdminProductsControllerCore::initProcess()
+```
 
 
 
@@ -1425,7 +1589,9 @@ AdminProducts display hook
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminProductsControllerCore::initToolbar()
+```php
+mixed AdminProductsControllerCore::initToolbar()
+```
 
 
 
@@ -1439,7 +1605,9 @@ AdminProducts display hook
 
 ### <a name="method-isProductFieldUpdated"></a>isProductFieldUpdated
 
-    boolean AdminProductsControllerCore::isProductFieldUpdated(string $field, integer $id_lang)
+```php
+boolean AdminProductsControllerCore::isProductFieldUpdated(string $field, integer $id_lang)
+```
 
 Check if a field is edited (if the checkbox is checked)
 This method will do something only for multishop with a context all / group
@@ -1458,7 +1626,9 @@ This method will do something only for multishop with a context all / group
 
 ### <a name="method-isTabSubmitted"></a>isTabSubmitted
 
-    mixed AdminProductsControllerCore::isTabSubmitted($tab_name)
+```php
+mixed AdminProductsControllerCore::isTabSubmitted($tab_name)
+```
 
 
 
@@ -1475,7 +1645,9 @@ This method will do something only for multishop with a context all / group
 
 ### <a name="method-loadObject"></a>loadObject
 
-    mixed AdminProductsControllerCore::loadObject($opt)
+```php
+mixed AdminProductsControllerCore::loadObject($opt)
+```
 
 
 
@@ -1492,7 +1664,9 @@ This method will do something only for multishop with a context all / group
 
 ### <a name="method-postProcess"></a>postProcess
 
-    void AdminProductsControllerCore::postProcess()
+```php
+void AdminProductsControllerCore::postProcess()
+```
 
 postProcess handle every checks before saving products information
 
@@ -1506,7 +1680,9 @@ postProcess handle every checks before saving products information
 
 ### <a name="method-processAdd"></a>processAdd
 
-    mixed AdminProductsControllerCore::processAdd()
+```php
+mixed AdminProductsControllerCore::processAdd()
+```
 
 
 
@@ -1520,7 +1696,9 @@ postProcess handle every checks before saving products information
 
 ### <a name="method-processAttachments"></a>processAttachments
 
-    void AdminProductsControllerCore::processAttachments()
+```php
+void AdminProductsControllerCore::processAttachments()
+```
 
 Attach an existing attachment to the product
 
@@ -1534,7 +1712,9 @@ Attach an existing attachment to the product
 
 ### <a name="method-processBulkDelete"></a>processBulkDelete
 
-    mixed AdminProductsControllerCore::processBulkDelete()
+```php
+mixed AdminProductsControllerCore::processBulkDelete()
+```
 
 
 
@@ -1548,7 +1728,9 @@ Attach an existing attachment to the product
 
 ### <a name="method-processCustomizationConfiguration"></a>processCustomizationConfiguration
 
-    mixed AdminProductsControllerCore::processCustomizationConfiguration()
+```php
+mixed AdminProductsControllerCore::processCustomizationConfiguration()
+```
 
 
 
@@ -1562,7 +1744,9 @@ Attach an existing attachment to the product
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminProductsControllerCore::processDelete()
+```php
+mixed AdminProductsControllerCore::processDelete()
+```
 
 
 
@@ -1576,7 +1760,9 @@ Attach an existing attachment to the product
 
 ### <a name="method-processDeleteVirtualProduct"></a>processDeleteVirtualProduct
 
-    mixed AdminProductsControllerCore::processDeleteVirtualProduct()
+```php
+mixed AdminProductsControllerCore::processDeleteVirtualProduct()
+```
 
 
 
@@ -1590,7 +1776,9 @@ Attach an existing attachment to the product
 
 ### <a name="method-processDuplicate"></a>processDuplicate
 
-    mixed AdminProductsControllerCore::processDuplicate()
+```php
+mixed AdminProductsControllerCore::processDuplicate()
+```
 
 
 
@@ -1604,7 +1792,9 @@ Attach an existing attachment to the product
 
 ### <a name="method-processFeatures"></a>processFeatures
 
-    mixed AdminProductsControllerCore::processFeatures()
+```php
+mixed AdminProductsControllerCore::processFeatures()
+```
 
 
 
@@ -1618,7 +1808,9 @@ Attach an existing attachment to the product
 
 ### <a name="method-processImage"></a>processImage
 
-    mixed AdminProductsControllerCore::processImage()
+```php
+mixed AdminProductsControllerCore::processImage()
+```
 
 
 
@@ -1632,7 +1824,9 @@ Attach an existing attachment to the product
 
 ### <a name="method-processImageLegends"></a>processImageLegends
 
-    mixed AdminProductsControllerCore::processImageLegends()
+```php
+mixed AdminProductsControllerCore::processImageLegends()
+```
 
 
 
@@ -1646,7 +1840,9 @@ Attach an existing attachment to the product
 
 ### <a name="method-processPosition"></a>processPosition
 
-    mixed AdminProductsControllerCore::processPosition()
+```php
+mixed AdminProductsControllerCore::processPosition()
+```
 
 Overrides parent for custom redirect link
 
@@ -1660,7 +1856,9 @@ Overrides parent for custom redirect link
 
 ### <a name="method-processPriceAddition"></a>processPriceAddition
 
-    mixed AdminProductsControllerCore::processPriceAddition()
+```php
+mixed AdminProductsControllerCore::processPriceAddition()
+```
 
 
 
@@ -1674,7 +1872,9 @@ Overrides parent for custom redirect link
 
 ### <a name="method-processPricesModification"></a>processPricesModification
 
-    mixed AdminProductsControllerCore::processPricesModification()
+```php
+mixed AdminProductsControllerCore::processPricesModification()
+```
 
 This function is never called at the moment (specific prices cannot be edited)
 
@@ -1688,7 +1888,9 @@ This function is never called at the moment (specific prices cannot be edited)
 
 ### <a name="method-processProductAttribute"></a>processProductAttribute
 
-    mixed AdminProductsControllerCore::processProductAttribute()
+```php
+mixed AdminProductsControllerCore::processProductAttribute()
+```
 
 
 
@@ -1702,7 +1904,9 @@ This function is never called at the moment (specific prices cannot be edited)
 
 ### <a name="method-processProductCustomization"></a>processProductCustomization
 
-    mixed AdminProductsControllerCore::processProductCustomization()
+```php
+mixed AdminProductsControllerCore::processProductCustomization()
+```
 
 
 
@@ -1716,7 +1920,9 @@ This function is never called at the moment (specific prices cannot be edited)
 
 ### <a name="method-processSpecificPricePriorities"></a>processSpecificPricePriorities
 
-    mixed AdminProductsControllerCore::processSpecificPricePriorities()
+```php
+mixed AdminProductsControllerCore::processSpecificPricePriorities()
+```
 
 
 
@@ -1730,7 +1936,9 @@ This function is never called at the moment (specific prices cannot be edited)
 
 ### <a name="method-processStatus"></a>processStatus
 
-    mixed AdminProductsControllerCore::processStatus()
+```php
+mixed AdminProductsControllerCore::processStatus()
+```
 
 
 
@@ -1744,7 +1952,9 @@ This function is never called at the moment (specific prices cannot be edited)
 
 ### <a name="method-processSuppliers"></a>processSuppliers
 
-    mixed AdminProductsControllerCore::processSuppliers()
+```php
+mixed AdminProductsControllerCore::processSuppliers()
+```
 
 Post treatment for suppliers
 
@@ -1758,7 +1968,9 @@ Post treatment for suppliers
 
 ### <a name="method-processUpdate"></a>processUpdate
 
-    mixed AdminProductsControllerCore::processUpdate()
+```php
+mixed AdminProductsControllerCore::processUpdate()
+```
 
 
 
@@ -1772,7 +1984,9 @@ Post treatment for suppliers
 
 ### <a name="method-processWarehouses"></a>processWarehouses
 
-    mixed AdminProductsControllerCore::processWarehouses()
+```php
+mixed AdminProductsControllerCore::processWarehouses()
+```
 
 Post treatment for warehouses
 
@@ -1786,7 +2000,9 @@ Post treatment for warehouses
 
 ### <a name="method-recurseCategoryForInclude"></a>recurseCategoryForInclude
 
-    string AdminProductsControllerCore::recurseCategoryForInclude($id_obj, array $indexedCategories, array $categories, $current, null $id_category, null $id_category_default, array $has_suite)
+```php
+string AdminProductsControllerCore::recurseCategoryForInclude($id_obj, array $indexedCategories, array $categories, $current, null $id_category, null $id_category_default, array $has_suite)
+```
 
 Build a categories tree
 
@@ -1810,7 +2026,9 @@ Build a categories tree
 
 ### <a name="method-renderForm"></a>renderForm
 
-    string|void AdminProductsControllerCore::renderForm()
+```php
+string|void AdminProductsControllerCore::renderForm()
+```
 
 renderForm contains all necessary initialization needed for all tabs
 
@@ -1824,7 +2042,9 @@ renderForm contains all necessary initialization needed for all tabs
 
 ### <a name="method-renderKpis"></a>renderKpis
 
-    mixed AdminProductsControllerCore::renderKpis()
+```php
+mixed AdminProductsControllerCore::renderKpis()
+```
 
 
 
@@ -1838,7 +2058,9 @@ renderForm contains all necessary initialization needed for all tabs
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminProductsControllerCore::renderList()
+```php
+mixed AdminProductsControllerCore::renderList()
+```
 
 
 
@@ -1852,7 +2074,9 @@ renderForm contains all necessary initialization needed for all tabs
 
 ### <a name="method-renderListAttributes"></a>renderListAttributes
 
-    string AdminProductsControllerCore::renderListAttributes(\Product $product, \Currency|array|integer $currency)
+```php
+string AdminProductsControllerCore::renderListAttributes(\Product $product, \Currency|array|integer $currency)
+```
 
 
 
@@ -1870,7 +2094,9 @@ renderForm contains all necessary initialization needed for all tabs
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminProductsControllerCore::setMedia()
+```php
+mixed AdminProductsControllerCore::setMedia()
+```
 
 
 
@@ -1884,7 +2110,9 @@ renderForm contains all necessary initialization needed for all tabs
 
 ### <a name="method-updateAccessories"></a>updateAccessories
 
-    mixed AdminProductsControllerCore::updateAccessories(object $product)
+```php
+mixed AdminProductsControllerCore::updateAccessories(object $product)
+```
 
 Update product accessories
 
@@ -1901,7 +2129,9 @@ Update product accessories
 
 ### <a name="method-updateAssoShop"></a>updateAssoShop
 
-    mixed AdminProductsControllerCore::updateAssoShop($id_object)
+```php
+mixed AdminProductsControllerCore::updateAssoShop($id_object)
+```
 
 
 
@@ -1918,7 +2148,9 @@ Update product accessories
 
 ### <a name="method-updateDownloadProduct"></a>updateDownloadProduct
 
-    boolean AdminProductsControllerCore::updateDownloadProduct(\Product $product, integer $edit)
+```php
+boolean AdminProductsControllerCore::updateDownloadProduct(\Product $product, integer $edit)
+```
 
 Update product download
 
@@ -1936,7 +2168,9 @@ Update product download
 
 ### <a name="method-updatePackItems"></a>updatePackItems
 
-    boolean AdminProductsControllerCore::updatePackItems(\Product $product)
+```php
+boolean AdminProductsControllerCore::updatePackItems(\Product $product)
+```
 
 delete all items in pack, then check if type_product value is 2.
 
@@ -1953,7 +2187,9 @@ if yes, add the pack items from input "inputPackItems"
 
 ### <a name="method-updateTags"></a>updateTags
 
-    boolean AdminProductsControllerCore::updateTags(array $languages, object $product)
+```php
+boolean AdminProductsControllerCore::updateTags(array $languages, object $product)
+```
 
 Update product tags
 

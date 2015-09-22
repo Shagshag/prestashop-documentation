@@ -9,13 +9,15 @@ Class AdminThemesControllerCore
 * Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminThemesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminThemesController.php#L30)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [MAX_NAME_LENGTH](#constant-MAX_NAME_LENGTH)
 
-Properties
-----------
+### Properties
 
 * [$check_features](#property-$check_features)
 * [$check_features_version](#property-$check_features_version)
@@ -25,8 +27,8 @@ Properties
 * [$table](#property-$table)
 * [$toolbar_scroll](#property-$toolbar_scroll)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_checkConfigForFeatures](#method-_checkConfigForFeatures)
 * [_isThemeCompatible](#method-_isThemeCompatible)
@@ -99,7 +101,9 @@ Constants
 
 ### <a name="constant-MAX_NAME_LENGTH"></a>MAX_NAME_LENGTH
 
-    const MAX_NAME_LENGTH = 128
+```php
+const MAX_NAME_LENGTH = 128
+```
 
 
 
@@ -114,7 +118,9 @@ Properties
 
 ### <a name="property-$check_features"></a>$check_features
 
-    public array $check_features = array('ccc' => array('attributes' => array('available' => array('value' => 'true', 'check_if_not_valid' => array('PS_CSS_THEME_CACHE' => 0, 'PS_JS_THEME_CACHE' => 0, 'PS_HTML_THEME_COMPRESSION' => 0, 'PS_JS_HTML_THEME_COMPRESSION' => 0))), 'error' => 'This theme may not correctly use PrestaShop\'s "combine, compress and cache" options.', 'tab' => 'AdminPerformance'), 'guest_checkout' => array('attributes' => array('available' => array('value' => 'true', 'check_if_not_valid' => array('PS_GUEST_CHECKOUT_ENABLED' => 0))), 'error' => 'This theme may not correctly use PrestaShop\'s "guest checkout" feature.', 'tab' => 'AdminPreferences'), 'one_page_checkout' => array('attributes' => array('available' => array('value' => 'true', 'check_if_not_valid' => array('PS_ORDER_PROCESS_TYPE' => 0))), 'error' => 'This theme may not correctly use PrestaShop\'s "one-page checkout" feature.', 'tab' => 'AdminPreferences'), 'store_locator' => array('attributes' => array('available' => array('value' => 'true', 'check_if_not_valid' => array('PS_STORES_SIMPLIFIED' => 0, 'PS_STORES_DISPLAY_FOOTER' => 0))), 'error' => 'This theme may not correctly use PrestaShop\'s "store locator" feature.', 'tab' => 'AdminStores'))
+```php
+public array $check_features = array('ccc' => array('attributes' => array('available' => array('value' => 'true', 'check_if_not_valid' => array('PS_CSS_THEME_CACHE' => 0, 'PS_JS_THEME_CACHE' => 0, 'PS_HTML_THEME_COMPRESSION' => 0, 'PS_JS_HTML_THEME_COMPRESSION' => 0))), 'error' => 'This theme may not correctly use PrestaShop\'s "combine, compress and cache" options.', 'tab' => 'AdminPerformance'), 'guest_checkout' => array('attributes' => array('available' => array('value' => 'true', 'check_if_not_valid' => array('PS_GUEST_CHECKOUT_ENABLED' => 0))), 'error' => 'This theme may not correctly use PrestaShop\'s "guest checkout" feature.', 'tab' => 'AdminPreferences'), 'one_page_checkout' => array('attributes' => array('available' => array('value' => 'true', 'check_if_not_valid' => array('PS_ORDER_PROCESS_TYPE' => 0))), 'error' => 'This theme may not correctly use PrestaShop\'s "one-page checkout" feature.', 'tab' => 'AdminPreferences'), 'store_locator' => array('attributes' => array('available' => array('value' => 'true', 'check_if_not_valid' => array('PS_STORES_SIMPLIFIED' => 0, 'PS_STORES_DISPLAY_FOOTER' => 0))), 'error' => 'This theme may not correctly use PrestaShop\'s "store locator" feature.', 'tab' => 'AdminStores'))
+```
 
 Multidimensional array used to check [theme]/config.xml values,
 and also checks prestashop current configuration if not match.
@@ -128,7 +134,9 @@ and also checks prestashop current configuration if not match.
 
 ### <a name="property-$check_features_version"></a>$check_features_version
 
-    public string $check_features_version = '1.4'
+```php
+public string $check_features_version = '1.4'
+```
 
 This value is used in isThemeCompatible method. only version node with an
 higher version number will be used in [theme]/config.xml
@@ -142,7 +150,9 @@ higher version number will be used in [theme]/config.xml
 
 ### <a name="property-$className"></a>$className
 
-    public mixed $className = 'Theme'
+```php
+public mixed $className = 'Theme'
+```
 
 
 
@@ -154,7 +164,9 @@ higher version number will be used in [theme]/config.xml
 
 ### <a name="property-$img_error"></a>$img_error
 
-    private mixed $img_error
+```php
+private mixed $img_error
+```
 
 
 
@@ -166,7 +178,9 @@ higher version number will be used in [theme]/config.xml
 
 ### <a name="property-$object"></a>$object
 
-    public \Theme $object
+```php
+public \Theme $object
+```
 
 
 
@@ -178,7 +192,9 @@ higher version number will be used in [theme]/config.xml
 
 ### <a name="property-$table"></a>$table
 
-    public mixed $table = 'theme'
+```php
+public mixed $table = 'theme'
+```
 
 
 
@@ -190,7 +206,9 @@ higher version number will be used in [theme]/config.xml
 
 ### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
 
-    protected mixed $toolbar_scroll = false
+```php
+protected mixed $toolbar_scroll = false
+```
 
 
 
@@ -206,7 +224,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminThemesControllerCore::__construct()
+```php
+mixed AdminThemesControllerCore::__construct()
+```
 
 
 
@@ -220,7 +240,9 @@ Methods
 
 ### <a name="method-_checkConfigForFeatures"></a>_checkConfigForFeatures
 
-    boolean AdminThemesControllerCore::_checkConfigForFeatures(array $arrFeatures, mixed $configItem)
+```php
+boolean AdminThemesControllerCore::_checkConfigForFeatures(array $arrFeatures, mixed $configItem)
+```
 
 _checkConfigForFeatures
 
@@ -238,7 +260,9 @@ _checkConfigForFeatures
 
 ### <a name="method-_isThemeCompatible"></a>_isThemeCompatible
 
-    boolean AdminThemesControllerCore::_isThemeCompatible(string $theme_dir)
+```php
+boolean AdminThemesControllerCore::_isThemeCompatible(string $theme_dir)
+```
 
 This function checks if the theme designer has thunk to make his theme compatible 1.4,
 and noticed it on the $theme_dir/config.xml file. If not, some new functionnalities has
@@ -257,7 +281,9 @@ to be desactivated
 
 ### <a name="method-ajaxProcessGetAddonsThemes"></a>ajaxProcessGetAddonsThemes
 
-    mixed AdminThemesControllerCore::ajaxProcessGetAddonsThemes()
+```php
+mixed AdminThemesControllerCore::ajaxProcessGetAddonsThemes()
+```
 
 
 
@@ -271,7 +297,9 @@ to be desactivated
 
 ### <a name="method-ajaxProcessLeftMeta"></a>ajaxProcessLeftMeta
 
-    mixed AdminThemesControllerCore::ajaxProcessLeftMeta()
+```php
+mixed AdminThemesControllerCore::ajaxProcessLeftMeta()
+```
 
 
 
@@ -285,7 +313,9 @@ to be desactivated
 
 ### <a name="method-ajaxProcessRightMeta"></a>ajaxProcessRightMeta
 
-    mixed AdminThemesControllerCore::ajaxProcessRightMeta()
+```php
+mixed AdminThemesControllerCore::ajaxProcessRightMeta()
+```
 
 
 
@@ -299,7 +329,9 @@ to be desactivated
 
 ### <a name="method-archiveThisFile"></a>archiveThisFile
 
-    mixed AdminThemesControllerCore::archiveThisFile(\ZipArchive $obj, string $file, string $server_path, string $archive_path)
+```php
+mixed AdminThemesControllerCore::archiveThisFile(\ZipArchive $obj, string $file, string $server_path, string $archive_path)
+```
 
 
 
@@ -319,7 +351,9 @@ to be desactivated
 
 ### <a name="method-checkDocumentation"></a>checkDocumentation
 
-    mixed AdminThemesControllerCore::checkDocumentation()
+```php
+mixed AdminThemesControllerCore::checkDocumentation()
+```
 
 
 
@@ -333,7 +367,9 @@ to be desactivated
 
 ### <a name="method-checkNames"></a>checkNames
 
-    mixed AdminThemesControllerCore::checkNames()
+```php
+mixed AdminThemesControllerCore::checkNames()
+```
 
 
 
@@ -347,7 +383,9 @@ to be desactivated
 
 ### <a name="method-checkParentClass"></a>checkParentClass
 
-    mixed AdminThemesControllerCore::checkParentClass($name)
+```php
+mixed AdminThemesControllerCore::checkParentClass($name)
+```
 
 
 
@@ -364,7 +402,9 @@ to be desactivated
 
 ### <a name="method-checkPostedDatas"></a>checkPostedDatas
 
-    mixed AdminThemesControllerCore::checkPostedDatas()
+```php
+mixed AdminThemesControllerCore::checkPostedDatas()
+```
 
 
 
@@ -378,7 +418,9 @@ to be desactivated
 
 ### <a name="method-checkVersionsAndCompatibility"></a>checkVersionsAndCompatibility
 
-    mixed AdminThemesControllerCore::checkVersionsAndCompatibility()
+```php
+mixed AdminThemesControllerCore::checkVersionsAndCompatibility()
+```
 
 
 
@@ -392,7 +434,9 @@ to be desactivated
 
 ### <a name="method-checkXmlFields"></a>checkXmlFields
 
-    mixed AdminThemesControllerCore::checkXmlFields($xml_file)
+```php
+mixed AdminThemesControllerCore::checkXmlFields($xml_file)
+```
 
 
 
@@ -409,7 +453,9 @@ to be desactivated
 
 ### <a name="method-copyTheme"></a>copyTheme
 
-    boolean AdminThemesControllerCore::copyTheme(string $base_theme_dir, string $target_theme_dir)
+```php
+boolean AdminThemesControllerCore::copyTheme(string $base_theme_dir, string $target_theme_dir)
+```
 
 copy $base_theme_dir into $target_theme_dir.
 
@@ -428,7 +474,9 @@ copy $base_theme_dir into $target_theme_dir.
 
 ### <a name="method-downloadAddonsThemes"></a>downloadAddonsThemes
 
-    mixed AdminThemesControllerCore::downloadAddonsThemes()
+```php
+mixed AdminThemesControllerCore::downloadAddonsThemes()
+```
 
 
 
@@ -442,7 +490,9 @@ copy $base_theme_dir into $target_theme_dir.
 
 ### <a name="method-extractTheme"></a>extractTheme
 
-    mixed AdminThemesControllerCore::extractTheme($theme_zip_file, $sandbox)
+```php
+mixed AdminThemesControllerCore::extractTheme($theme_zip_file, $sandbox)
+```
 
 
 
@@ -460,7 +510,9 @@ copy $base_theme_dir into $target_theme_dir.
 
 ### <a name="method-formatHelperArray"></a>formatHelperArray
 
-    mixed AdminThemesControllerCore::formatHelperArray($origin_arr)
+```php
+mixed AdminThemesControllerCore::formatHelperArray($origin_arr)
+```
 
 
 
@@ -477,7 +529,9 @@ copy $base_theme_dir into $target_theme_dir.
 
 ### <a name="method-formatHelperValuesArray"></a>formatHelperValuesArray
 
-    mixed AdminThemesControllerCore::formatHelperValuesArray($originArr)
+```php
+mixed AdminThemesControllerCore::formatHelperValuesArray($originArr)
+```
 
 
 
@@ -494,7 +548,9 @@ copy $base_theme_dir into $target_theme_dir.
 
 ### <a name="method-generateArchive"></a>generateArchive
 
-    mixed AdminThemesControllerCore::generateArchive()
+```php
+mixed AdminThemesControllerCore::generateArchive()
+```
 
 
 
@@ -508,7 +564,9 @@ copy $base_theme_dir into $target_theme_dir.
 
 ### <a name="method-generateXML"></a>generateXML
 
-    mixed AdminThemesControllerCore::generateXML($theme_to_export, $metas)
+```php
+mixed AdminThemesControllerCore::generateXML($theme_to_export, $metas)
+```
 
 
 
@@ -526,7 +584,9 @@ copy $base_theme_dir into $target_theme_dir.
 
 ### <a name="method-getModules"></a>getModules
 
-    mixed AdminThemesControllerCore::getModules($xml)
+```php
+mixed AdminThemesControllerCore::getModules($xml)
+```
 
 
 
@@ -543,7 +603,9 @@ copy $base_theme_dir into $target_theme_dir.
 
 ### <a name="method-getNativeModule"></a>getNativeModule
 
-    array AdminThemesControllerCore::getNativeModule(integer $type)
+```php
+array AdminThemesControllerCore::getNativeModule(integer $type)
+```
 
 
 
@@ -562,7 +624,9 @@ $type = 2 partner
 
 ### <a name="method-hookModule"></a>hookModule
 
-    mixed AdminThemesControllerCore::hookModule($id_module, $module_hooks, $shop)
+```php
+mixed AdminThemesControllerCore::hookModule($id_module, $module_hooks, $shop)
+```
 
 
 
@@ -581,7 +645,9 @@ $type = 2 partner
 
 ### <a name="method-importThemeXmlConfig"></a>importThemeXmlConfig
 
-    array|string AdminThemesControllerCore::importThemeXmlConfig(\SimpleXMLElement $xml, boolean $theme_dir)
+```php
+array|string AdminThemesControllerCore::importThemeXmlConfig(\SimpleXMLElement $xml, boolean $theme_dir)
+```
 
 
 
@@ -599,7 +665,9 @@ $type = 2 partner
 
 ### <a name="method-init"></a>init
 
-    mixed AdminThemesControllerCore::init()
+```php
+mixed AdminThemesControllerCore::init()
+```
 
 
 
@@ -613,7 +681,9 @@ $type = 2 partner
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminThemesControllerCore::initContent()
+```php
+mixed AdminThemesControllerCore::initContent()
+```
 
 
 
@@ -627,7 +697,9 @@ $type = 2 partner
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminThemesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminThemesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -641,7 +713,9 @@ $type = 2 partner
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminThemesControllerCore::initProcess()
+```php
+mixed AdminThemesControllerCore::initProcess()
+```
 
 
 
@@ -655,7 +729,9 @@ $type = 2 partner
 
 ### <a name="method-installTheme"></a>installTheme
 
-    mixed AdminThemesControllerCore::installTheme($theme_dir, $sandbox, $redirect)
+```php
+mixed AdminThemesControllerCore::installTheme($theme_dir, $sandbox, $redirect)
+```
 
 
 
@@ -674,7 +750,9 @@ $type = 2 partner
 
 ### <a name="method-isThemeInstalled"></a>isThemeInstalled
 
-    mixed AdminThemesControllerCore::isThemeInstalled($theme_name)
+```php
+mixed AdminThemesControllerCore::isThemeInstalled($theme_name)
+```
 
 
 
@@ -691,7 +769,9 @@ $type = 2 partner
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminThemesControllerCore::postProcess()
+```php
+mixed AdminThemesControllerCore::postProcess()
+```
 
 This functions make checks about AdminThemes configuration edition only.
 
@@ -705,7 +785,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-printResponsiveIcon"></a>printResponsiveIcon
 
-    mixed AdminThemesControllerCore::printResponsiveIcon($value)
+```php
+mixed AdminThemesControllerCore::printResponsiveIcon($value)
+```
 
 
 
@@ -722,7 +804,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-processAdd"></a>processAdd
 
-    mixed AdminThemesControllerCore::processAdd()
+```php
+mixed AdminThemesControllerCore::processAdd()
+```
 
 
 
@@ -736,7 +820,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-processDefaultLeftColumn"></a>processDefaultLeftColumn
 
-    mixed AdminThemesControllerCore::processDefaultLeftColumn()
+```php
+mixed AdminThemesControllerCore::processDefaultLeftColumn()
+```
 
 
 
@@ -750,7 +836,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-processDefaultRightColumn"></a>processDefaultRightColumn
 
-    mixed AdminThemesControllerCore::processDefaultRightColumn()
+```php
+mixed AdminThemesControllerCore::processDefaultRightColumn()
+```
 
 
 
@@ -764,7 +852,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminThemesControllerCore::processDelete()
+```php
+mixed AdminThemesControllerCore::processDelete()
+```
 
 
 
@@ -778,7 +868,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-processExportTheme"></a>processExportTheme
 
-    mixed AdminThemesControllerCore::processExportTheme()
+```php
+mixed AdminThemesControllerCore::processExportTheme()
+```
 
 
 
@@ -792,7 +884,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-processImportTheme"></a>processImportTheme
 
-    mixed AdminThemesControllerCore::processImportTheme()
+```php
+mixed AdminThemesControllerCore::processImportTheme()
+```
 
 
 
@@ -806,7 +900,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-processLeftMeta"></a>processLeftMeta
 
-    mixed AdminThemesControllerCore::processLeftMeta()
+```php
+mixed AdminThemesControllerCore::processLeftMeta()
+```
 
 
 
@@ -820,7 +916,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-processResponsive"></a>processResponsive
 
-    mixed AdminThemesControllerCore::processResponsive()
+```php
+mixed AdminThemesControllerCore::processResponsive()
+```
 
 
 
@@ -834,7 +932,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-processRightMeta"></a>processRightMeta
 
-    mixed AdminThemesControllerCore::processRightMeta()
+```php
+mixed AdminThemesControllerCore::processRightMeta()
+```
 
 
 
@@ -848,7 +948,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-processThemeInstall"></a>processThemeInstall
 
-    mixed AdminThemesControllerCore::processThemeInstall()
+```php
+mixed AdminThemesControllerCore::processThemeInstall()
+```
 
 
 
@@ -862,7 +964,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-processUpdate"></a>processUpdate
 
-    mixed AdminThemesControllerCore::processUpdate()
+```php
+mixed AdminThemesControllerCore::processUpdate()
+```
 
 
 
@@ -876,7 +980,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-processUpdateOptions"></a>processUpdateOptions
 
-    mixed AdminThemesControllerCore::processUpdateOptions()
+```php
+mixed AdminThemesControllerCore::processUpdateOptions()
+```
 
 
 
@@ -890,7 +996,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-recurseCopy"></a>recurseCopy
 
-    mixed AdminThemesControllerCore::recurseCopy($src, $dst)
+```php
+mixed AdminThemesControllerCore::recurseCopy($src, $dst)
+```
 
 
 
@@ -908,7 +1016,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-renderChooseThemeModule"></a>renderChooseThemeModule
 
-    mixed AdminThemesControllerCore::renderChooseThemeModule()
+```php
+mixed AdminThemesControllerCore::renderChooseThemeModule()
+```
 
 
 
@@ -922,7 +1032,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-renderExportTheme"></a>renderExportTheme
 
-    mixed AdminThemesControllerCore::renderExportTheme()
+```php
+mixed AdminThemesControllerCore::renderExportTheme()
+```
 
 
 
@@ -936,7 +1048,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-renderExportTheme1"></a>renderExportTheme1
 
-    mixed AdminThemesControllerCore::renderExportTheme1()
+```php
+mixed AdminThemesControllerCore::renderExportTheme1()
+```
 
 
 
@@ -950,7 +1064,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminThemesControllerCore::renderForm()
+```php
+mixed AdminThemesControllerCore::renderForm()
+```
 
 
 
@@ -964,7 +1080,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-renderImportTheme"></a>renderImportTheme
 
-    mixed AdminThemesControllerCore::renderImportTheme()
+```php
+mixed AdminThemesControllerCore::renderImportTheme()
+```
 
 
 
@@ -978,7 +1096,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminThemesControllerCore::renderList()
+```php
+mixed AdminThemesControllerCore::renderList()
+```
 
 
 
@@ -992,7 +1112,9 @@ This functions make checks about AdminThemes configuration edition only.
 
 ### <a name="method-renderOptions"></a>renderOptions
 
-    mixed AdminThemesControllerCore::renderOptions()
+```php
+mixed AdminThemesControllerCore::renderOptions()
+```
 
 Function used to render the options for this controller
 
@@ -1006,7 +1128,9 @@ Function used to render the options for this controller
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminThemesControllerCore::renderView()
+```php
+mixed AdminThemesControllerCore::renderView()
+```
 
 
 
@@ -1020,7 +1144,9 @@ Function used to render the options for this controller
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminThemesControllerCore::setMedia()
+```php
+mixed AdminThemesControllerCore::setMedia()
+```
 
 
 
@@ -1034,7 +1160,9 @@ Function used to render the options for this controller
 
 ### <a name="method-updateImages"></a>updateImages
 
-    mixed AdminThemesControllerCore::updateImages($xml)
+```php
+mixed AdminThemesControllerCore::updateImages($xml)
+```
 
 
 
@@ -1051,7 +1179,9 @@ Function used to render the options for this controller
 
 ### <a name="method-updateLogo"></a>updateLogo
 
-    boolean AdminThemesControllerCore::updateLogo($field_name, $logo_prefix)
+```php
+boolean AdminThemesControllerCore::updateLogo($field_name, $logo_prefix)
+```
 
 Generic function which allows logo upload
 
@@ -1069,7 +1199,9 @@ Generic function which allows logo upload
 
 ### <a name="method-updateOptionPsFavicon"></a>updateOptionPsFavicon
 
-    mixed AdminThemesControllerCore::updateOptionPsFavicon()
+```php
+mixed AdminThemesControllerCore::updateOptionPsFavicon()
+```
 
 Update PS_FAVICON
 
@@ -1083,7 +1215,9 @@ Update PS_FAVICON
 
 ### <a name="method-updateOptionPsLogo"></a>updateOptionPsLogo
 
-    mixed AdminThemesControllerCore::updateOptionPsLogo()
+```php
+mixed AdminThemesControllerCore::updateOptionPsLogo()
+```
 
 Update PS_LOGO
 
@@ -1097,7 +1231,9 @@ Update PS_LOGO
 
 ### <a name="method-updateOptionPsLogoInvoice"></a>updateOptionPsLogoInvoice
 
-    mixed AdminThemesControllerCore::updateOptionPsLogoInvoice()
+```php
+mixed AdminThemesControllerCore::updateOptionPsLogoInvoice()
+```
 
 Update PS_LOGO_INVOICE
 
@@ -1111,7 +1247,9 @@ Update PS_LOGO_INVOICE
 
 ### <a name="method-updateOptionPsLogoMail"></a>updateOptionPsLogoMail
 
-    mixed AdminThemesControllerCore::updateOptionPsLogoMail()
+```php
+mixed AdminThemesControllerCore::updateOptionPsLogoMail()
+```
 
 Update PS_LOGO_MAIL
 
@@ -1125,7 +1263,9 @@ Update PS_LOGO_MAIL
 
 ### <a name="method-updateOptionPsLogoMobile"></a>updateOptionPsLogoMobile
 
-    mixed AdminThemesControllerCore::updateOptionPsLogoMobile()
+```php
+mixed AdminThemesControllerCore::updateOptionPsLogoMobile()
+```
 
 Update PS_LOGO_MOBILE
 
@@ -1139,7 +1279,9 @@ Update PS_LOGO_MOBILE
 
 ### <a name="method-updateOptionPsStoresIcon"></a>updateOptionPsStoresIcon
 
-    mixed AdminThemesControllerCore::updateOptionPsStoresIcon()
+```php
+mixed AdminThemesControllerCore::updateOptionPsStoresIcon()
+```
 
 Update PS_STORES_ICON
 
@@ -1153,7 +1295,9 @@ Update PS_STORES_ICON
 
 ### <a name="method-updateOptionThemeForShop"></a>updateOptionThemeForShop
 
-    mixed AdminThemesControllerCore::updateOptionThemeForShop()
+```php
+mixed AdminThemesControllerCore::updateOptionThemeForShop()
+```
 
 Update theme for current shop
 
@@ -1167,7 +1311,9 @@ Update theme for current shop
 
 ### <a name="method-uploadIco"></a>uploadIco
 
-    mixed AdminThemesControllerCore::uploadIco($name, $dest)
+```php
+mixed AdminThemesControllerCore::uploadIco($name, $dest)
+```
 
 
 

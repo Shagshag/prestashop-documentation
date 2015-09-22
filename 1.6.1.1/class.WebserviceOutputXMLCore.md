@@ -9,17 +9,19 @@ Class WebserviceOutputXMLCore
 * Source: [classes/webservice/WebserviceOutputXML.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#L27)
 * This class implements: [WebserviceOutputInterface](interface.WebserviceOutputInterface.md)
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$docUrl](#property-$docUrl)
 * [$languages](#property-$languages)
 * [$schemaToDisplay](#property-$schemaToDisplay)
 * [$wsUrl](#property-$wsUrl)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getContentType](#method-getContentType)
 * [getNodeName](#method-getNodeName)
@@ -49,7 +51,9 @@ Properties
 
 ### <a name="property-$docUrl"></a>$docUrl
 
-    public mixed $docUrl = ''
+```php
+public mixed $docUrl = ''
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$languages"></a>$languages
 
-    public mixed $languages = array()
+```php
+public mixed $languages = array()
+```
 
 
 
@@ -73,7 +79,9 @@ Properties
 
 ### <a name="property-$schemaToDisplay"></a>$schemaToDisplay
 
-    protected mixed $schemaToDisplay
+```php
+protected mixed $schemaToDisplay
+```
 
 
 
@@ -85,7 +93,9 @@ Properties
 
 ### <a name="property-$wsUrl"></a>$wsUrl
 
-    protected mixed $wsUrl
+```php
+protected mixed $wsUrl
+```
 
 
 
@@ -101,7 +111,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed WebserviceOutputXMLCore::__construct($languages)
+```php
+mixed WebserviceOutputXMLCore::__construct($languages)
+```
 
 
 
@@ -118,7 +130,9 @@ Methods
 
 ### <a name="method-getContentType"></a>getContentType
 
-    mixed WebserviceOutputXMLCore::getContentType()
+```php
+mixed WebserviceOutputXMLCore::getContentType()
+```
 
 
 
@@ -132,7 +146,9 @@ Methods
 
 ### <a name="method-getNodeName"></a>getNodeName
 
-    mixed WebserviceOutputXMLCore::getNodeName($params)
+```php
+mixed WebserviceOutputXMLCore::getNodeName($params)
+```
 
 
 
@@ -149,7 +165,9 @@ Methods
 
 ### <a name="method-getSchemaToDisplay"></a>getSchemaToDisplay
 
-    mixed WebserviceOutputXMLCore::getSchemaToDisplay()
+```php
+mixed WebserviceOutputXMLCore::getSchemaToDisplay()
+```
 
 
 
@@ -163,7 +181,9 @@ Methods
 
 ### <a name="method-getWsUrl"></a>getWsUrl
 
-    mixed WebserviceOutputXMLCore::getWsUrl()
+```php
+mixed WebserviceOutputXMLCore::getWsUrl()
+```
 
 
 
@@ -177,7 +197,9 @@ Methods
 
 ### <a name="method-overrideContent"></a>overrideContent
 
-    mixed WebserviceOutputXMLCore::overrideContent($content)
+```php
+mixed WebserviceOutputXMLCore::overrideContent($content)
+```
 
 
 
@@ -194,7 +216,9 @@ Methods
 
 ### <a name="method-renderAssociationFooter"></a>renderAssociationFooter
 
-    mixed WebserviceOutputXMLCore::renderAssociationFooter($obj, $params, $assoc_name)
+```php
+mixed WebserviceOutputXMLCore::renderAssociationFooter($obj, $params, $assoc_name)
+```
 
 
 
@@ -213,7 +237,9 @@ Methods
 
 ### <a name="method-renderAssociationHeader"></a>renderAssociationHeader
 
-    mixed WebserviceOutputXMLCore::renderAssociationHeader($obj, $params, $assoc_name, $closed_tags)
+```php
+mixed WebserviceOutputXMLCore::renderAssociationHeader($obj, $params, $assoc_name, $closed_tags)
+```
 
 
 
@@ -233,7 +259,9 @@ Methods
 
 ### <a name="method-renderAssociationWrapperFooter"></a>renderAssociationWrapperFooter
 
-    mixed WebserviceOutputXMLCore::renderAssociationWrapperFooter()
+```php
+mixed WebserviceOutputXMLCore::renderAssociationWrapperFooter()
+```
 
 
 
@@ -247,7 +275,9 @@ Methods
 
 ### <a name="method-renderAssociationWrapperHeader"></a>renderAssociationWrapperHeader
 
-    mixed WebserviceOutputXMLCore::renderAssociationWrapperHeader()
+```php
+mixed WebserviceOutputXMLCore::renderAssociationWrapperHeader()
+```
 
 
 
@@ -261,7 +291,9 @@ Methods
 
 ### <a name="method-renderErrors"></a>renderErrors
 
-    mixed WebserviceOutputXMLCore::renderErrors($message, $code)
+```php
+mixed WebserviceOutputXMLCore::renderErrors($message, $code)
+```
 
 
 
@@ -279,7 +311,9 @@ Methods
 
 ### <a name="method-renderErrorsFooter"></a>renderErrorsFooter
 
-    mixed WebserviceOutputXMLCore::renderErrorsFooter()
+```php
+mixed WebserviceOutputXMLCore::renderErrorsFooter()
+```
 
 
 
@@ -293,7 +327,9 @@ Methods
 
 ### <a name="method-renderErrorsHeader"></a>renderErrorsHeader
 
-    mixed WebserviceOutputXMLCore::renderErrorsHeader()
+```php
+mixed WebserviceOutputXMLCore::renderErrorsHeader()
+```
 
 
 
@@ -307,7 +343,9 @@ Methods
 
 ### <a name="method-renderField"></a>renderField
 
-    mixed WebserviceOutputXMLCore::renderField($field)
+```php
+mixed WebserviceOutputXMLCore::renderField($field)
+```
 
 
 
@@ -324,7 +362,9 @@ Methods
 
 ### <a name="method-renderNodeFooter"></a>renderNodeFooter
 
-    mixed WebserviceOutputXMLCore::renderNodeFooter($node_name, $params)
+```php
+mixed WebserviceOutputXMLCore::renderNodeFooter($node_name, $params)
+```
 
 
 
@@ -342,7 +382,9 @@ Methods
 
 ### <a name="method-renderNodeHeader"></a>renderNodeHeader
 
-    mixed WebserviceOutputXMLCore::renderNodeHeader($node_name, $params, $more_attr, $has_child)
+```php
+mixed WebserviceOutputXMLCore::renderNodeHeader($node_name, $params, $more_attr, $has_child)
+```
 
 
 
@@ -362,7 +404,9 @@ Methods
 
 ### <a name="method-setLanguages"></a>setLanguages
 
-    mixed WebserviceOutputXMLCore::setLanguages($languages)
+```php
+mixed WebserviceOutputXMLCore::setLanguages($languages)
+```
 
 
 
@@ -379,7 +423,9 @@ Methods
 
 ### <a name="method-setSchemaToDisplay"></a>setSchemaToDisplay
 
-    mixed WebserviceOutputXMLCore::setSchemaToDisplay($schema)
+```php
+mixed WebserviceOutputXMLCore::setSchemaToDisplay($schema)
+```
 
 
 
@@ -396,7 +442,9 @@ Methods
 
 ### <a name="method-setWsUrl"></a>setWsUrl
 
-    mixed WebserviceOutputXMLCore::setWsUrl($url)
+```php
+mixed WebserviceOutputXMLCore::setWsUrl($url)
+```
 
 
 

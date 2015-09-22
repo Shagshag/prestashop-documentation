@@ -12,15 +12,17 @@ needs please refer to http://doc.prestashop.com/display/PS15/Overriding+default+
 * Parent class: [MailCore](class.MailCore.md)
 * Source: [override/classes/Mail.php line 14](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L14)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [TYPE_BOTH](#constant-TYPE_BOTH)
 * [TYPE_HTML](#constant-TYPE_HTML)
 * [TYPE_TEXT](#constant-TYPE_TEXT)
 
-Properties
-----------
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$definition](#property-$definition)
@@ -30,8 +32,8 @@ Properties
 * [$subject](#property-$subject)
 * [$template](#property-$template)
 
-Methods
--------
+### Methods
+
 * [Send](#method-Send)
 * [eraseAllLogs](#method-eraseAllLogs)
 * [eraseLog](#method-eraseLog)
@@ -49,7 +51,9 @@ Constants
 
 ### <a name="constant-TYPE_BOTH"></a>TYPE_BOTH
 
-    const TYPE_BOTH = 3
+```php
+const TYPE_BOTH = 3
+```
 
 
 
@@ -60,7 +64,9 @@ Constants
 
 ### <a name="constant-TYPE_HTML"></a>TYPE_HTML
 
-    const TYPE_HTML = 1
+```php
+const TYPE_HTML = 1
+```
 
 
 
@@ -71,7 +77,9 @@ Constants
 
 ### <a name="constant-TYPE_TEXT"></a>TYPE_TEXT
 
-    const TYPE_TEXT = 2
+```php
+const TYPE_TEXT = 2
+```
 
 
 
@@ -86,7 +94,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public integer $date_add
+```php
+public integer $date_add
+```
 
 
 
@@ -98,7 +108,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'mail', 'primary' => 'id_mail', 'fields' => array('recipient' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'copy_post' => false, 'required' => true, 'size' => 126), 'template' => array('type' => self::TYPE_STRING, 'validate' => 'isTplName', 'copy_post' => false, 'required' => true, 'size' => 62), 'subject' => array('type' => self::TYPE_STRING, 'validate' => 'isMailSubject', 'copy_post' => false, 'required' => true, 'size' => 254), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'copy_post' => false, 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false, 'required' => true)))
+```php
+public mixed $definition = array('table' => 'mail', 'primary' => 'id_mail', 'fields' => array('recipient' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'copy_post' => false, 'required' => true, 'size' => 126), 'template' => array('type' => self::TYPE_STRING, 'validate' => 'isTplName', 'copy_post' => false, 'required' => true, 'size' => 62), 'subject' => array('type' => self::TYPE_STRING, 'validate' => 'isMailSubject', 'copy_post' => false, 'required' => true, 'size' => 254), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'copy_post' => false, 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false, 'required' => true)))
+```
 
 
 
@@ -111,7 +123,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -123,7 +137,9 @@ Properties
 
 ### <a name="property-$id_lang"></a>$id_lang
 
-    public integer $id_lang
+```php
+public integer $id_lang
+```
 
 
 
@@ -135,7 +151,9 @@ Properties
 
 ### <a name="property-$recipient"></a>$recipient
 
-    public string $recipient
+```php
+public string $recipient
+```
 
 
 
@@ -147,7 +165,9 @@ Properties
 
 ### <a name="property-$subject"></a>$subject
 
-    public string $subject
+```php
+public string $subject
+```
 
 
 
@@ -159,7 +179,9 @@ Properties
 
 ### <a name="property-$template"></a>$template
 
-    public string $template
+```php
+public string $template
+```
 
 
 
@@ -175,7 +197,9 @@ Methods
 
 ### <a name="method-Send"></a>Send
 
-    mixed Mail::Send(integer $id_lang, string $template, string $subject, string $template_vars, string $to, string $to_name, string $from, string $from_name, array $file_attachment, $mode_smtp, string $template_path, boolean $die, $id_shop, string $bcc, $reply_to)
+```php
+mixed Mail::Send(integer $id_lang, string $template, string $subject, string $template_vars, string $to, string $to_name, string $from, string $from_name, array $file_attachment, $mode_smtp, string $template_path, boolean $die, $id_shop, string $bcc, $reply_to)
+```
 
 Send Email
 
@@ -207,7 +231,9 @@ Send Email
 
 ### <a name="method-eraseAllLogs"></a>eraseAllLogs
 
-    mixed Mail::eraseAllLogs()
+```php
+mixed Mail::eraseAllLogs()
+```
 
 
 
@@ -222,7 +248,9 @@ Send Email
 
 ### <a name="method-eraseLog"></a>eraseLog
 
-    mixed Mail::eraseLog($id_mail)
+```php
+mixed Mail::eraseLog($id_mail)
+```
 
 
 
@@ -240,7 +268,9 @@ Send Email
 
 ### <a name="method-generateId"></a>generateId
 
-    mixed Mail::generateId($idstring)
+```php
+mixed Mail::generateId($idstring)
+```
 
 
 
@@ -258,7 +288,9 @@ Send Email
 
 ### <a name="method-isMultibyte"></a>isMultibyte
 
-    mixed Mail::isMultibyte($data)
+```php
+mixed Mail::isMultibyte($data)
+```
 
 
 
@@ -276,7 +308,9 @@ Send Email
 
 ### <a name="method-l"></a>l
 
-    mixed Mail::l(string $string, $id_lang, \Context $context)
+```php
+mixed Mail::l(string $string, $id_lang, \Context $context)
+```
 
 This method is used to get the translation for email Object.
 
@@ -297,7 +331,9 @@ we have to return a sentence with accents.
 
 ### <a name="method-mimeEncode"></a>mimeEncode
 
-    mixed Mail::mimeEncode($string, $charset, $newline)
+```php
+mixed Mail::mimeEncode($string, $charset, $newline)
+```
 
 
 
@@ -317,7 +353,9 @@ we have to return a sentence with accents.
 
 ### <a name="method-send"></a>send
 
-    mixed Mail::send($id_lang, $template, $subject, $template_vars, $to, $to_name, $from, $from_name, $file_attachment, $mode_smtp, $template_path, $die, $id_shop, $bcc, $reply_to)
+```php
+mixed Mail::send($id_lang, $template, $subject, $template_vars, $to, $to_name, $from, $from_name, $file_attachment, $mode_smtp, $template_path, $die, $id_shop, $bcc, $reply_to)
+```
 
 
 
@@ -349,7 +387,9 @@ we have to return a sentence with accents.
 
 ### <a name="method-sendMailTest"></a>sendMailTest
 
-    mixed Mail::sendMailTest($smtpChecked, $smtpServer, $content, $subject, $type, $to, $from, $smtpLogin, $smtpPassword, $smtpPort, $smtpEncryption)
+```php
+mixed Mail::sendMailTest($smtpChecked, $smtpServer, $content, $subject, $type, $to, $from, $smtpLogin, $smtpPassword, $smtpPort, $smtpEncryption)
+```
 
 
 

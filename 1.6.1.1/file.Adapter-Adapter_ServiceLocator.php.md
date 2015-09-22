@@ -1,5 +1,6 @@
 File Adapter/Adapter_ServiceLocator.php
 =========
+
 Source: [Adapter/Adapter_ServiceLocator.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php)
 
 

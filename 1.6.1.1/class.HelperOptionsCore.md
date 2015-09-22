@@ -10,14 +10,16 @@ Use this helper to generate preferences forms, with values stored in the configu
 * Source: [classes/helper/HelperOptions.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$required](#property-$required)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [displayOptionTypeDisabled](#method-displayOptionTypeDisabled)
 * [displayOptionTypeImage](#method-displayOptionTypeImage)
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$required"></a>$required
 
-    public mixed $required = false
+```php
+public mixed $required = false
+```
 
 
 
@@ -50,7 +54,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed HelperOptionsCore::__construct()
+```php
+mixed HelperOptionsCore::__construct()
+```
 
 
 
@@ -64,7 +70,9 @@ Methods
 
 ### <a name="method-displayOptionTypeDisabled"></a>displayOptionTypeDisabled
 
-    mixed HelperOptionsCore::displayOptionTypeDisabled($key, $field, $value)
+```php
+mixed HelperOptionsCore::displayOptionTypeDisabled($key, $field, $value)
+```
 
 Type = disabled
 
@@ -83,7 +91,9 @@ Type = disabled
 
 ### <a name="method-displayOptionTypeImage"></a>displayOptionTypeImage
 
-    mixed HelperOptionsCore::displayOptionTypeImage($key, $field, $value)
+```php
+mixed HelperOptionsCore::displayOptionTypeImage($key, $field, $value)
+```
 
 Type = image
 
@@ -102,7 +112,9 @@ Type = image
 
 ### <a name="method-displayOptionTypePrice"></a>displayOptionTypePrice
 
-    mixed HelperOptionsCore::displayOptionTypePrice($key, $field, $value)
+```php
+mixed HelperOptionsCore::displayOptionTypePrice($key, $field, $value)
+```
 
 Type = price
 
@@ -121,7 +133,9 @@ Type = price
 
 ### <a name="method-generateOptions"></a>generateOptions
 
-    string HelperOptionsCore::generateOptions(array $option_list)
+```php
+string HelperOptionsCore::generateOptions(array $option_list)
+```
 
 Generate a form for options
 
@@ -138,7 +152,9 @@ Generate a form for options
 
 ### <a name="method-getOptionValue"></a>getOptionValue
 
-    mixed HelperOptionsCore::getOptionValue($key, $field)
+```php
+mixed HelperOptionsCore::getOptionValue($key, $field)
+```
 
 
 

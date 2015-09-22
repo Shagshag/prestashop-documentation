@@ -10,15 +10,17 @@ Class AdminSpecificPriceRuleControllerCore
 * Source: [controllers/admin/AdminSpecificPriceRuleController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$list_reduction_type](#property-$list_reduction_type)
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getList](#method-getList)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
@@ -35,7 +37,9 @@ Properties
 
 ### <a name="property-$list_reduction_type"></a>$list_reduction_type
 
-    public mixed $list_reduction_type
+```php
+public mixed $list_reduction_type
+```
 
 
 
@@ -47,7 +51,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \SpecificPriceRule $object
+```php
+public \SpecificPriceRule $object
+```
 
 
 
@@ -63,7 +69,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminSpecificPriceRuleControllerCore::__construct()
+```php
+mixed AdminSpecificPriceRuleControllerCore::__construct()
+```
 
 
 
@@ -77,7 +85,9 @@ Methods
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminSpecificPriceRuleControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```php
+mixed AdminSpecificPriceRuleControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```
 
 
 
@@ -99,7 +109,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminSpecificPriceRuleControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminSpecificPriceRuleControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -113,7 +125,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminSpecificPriceRuleControllerCore::postProcess()
+```php
+mixed AdminSpecificPriceRuleControllerCore::postProcess()
+```
 
 
 
@@ -127,7 +141,9 @@ Methods
 
 ### <a name="method-processSave"></a>processSave
 
-    mixed AdminSpecificPriceRuleControllerCore::processSave()
+```php
+mixed AdminSpecificPriceRuleControllerCore::processSave()
+```
 
 
 
@@ -141,7 +157,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminSpecificPriceRuleControllerCore::renderForm()
+```php
+mixed AdminSpecificPriceRuleControllerCore::renderForm()
+```
 
 
 

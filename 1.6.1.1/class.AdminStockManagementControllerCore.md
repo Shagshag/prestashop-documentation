@@ -10,14 +10,16 @@ Class AdminStockManagementControllerCore
 * Source: [controllers/admin/AdminStockManagementController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#L31)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [displayAddstockLink](#method-displayAddstockLink)
 * [displayRemovestockLink](#method-displayRemovestockLink)
@@ -43,7 +45,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Product $object
+```php
+public \Product $object
+```
 
 
 
@@ -59,7 +63,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminStockManagementControllerCore::__construct()
+```php
+mixed AdminStockManagementControllerCore::__construct()
+```
 
 
 
@@ -73,7 +79,9 @@ Methods
 
 ### <a name="method-displayAddstockLink"></a>displayAddstockLink
 
-    string AdminStockManagementControllerCore::displayAddstockLink(string $token, integer $id)
+```php
+string AdminStockManagementControllerCore::displayAddstockLink(string $token, integer $id)
+```
 
 Display addstock action link
 
@@ -91,7 +99,9 @@ Display addstock action link
 
 ### <a name="method-displayRemovestockLink"></a>displayRemovestockLink
 
-    string AdminStockManagementControllerCore::displayRemovestockLink(string $token, integer $id)
+```php
+string AdminStockManagementControllerCore::displayRemovestockLink(string $token, integer $id)
+```
 
 Display removestock action link
 
@@ -109,7 +119,9 @@ Display removestock action link
 
 ### <a name="method-displayTransferstockLink"></a>displayTransferstockLink
 
-    string AdminStockManagementControllerCore::displayTransferstockLink(string $token, integer $id)
+```php
+string AdminStockManagementControllerCore::displayTransferstockLink(string $token, integer $id)
+```
 
 Display transferstock action link
 
@@ -127,7 +139,9 @@ Display transferstock action link
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminStockManagementControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```php
+mixed AdminStockManagementControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```
 
 AdminController::getList() override
 
@@ -149,7 +163,9 @@ AdminController::getList() override
 
 ### <a name="method-init"></a>init
 
-    mixed AdminStockManagementControllerCore::init()
+```php
+mixed AdminStockManagementControllerCore::init()
+```
 
 AdminController::init() override
 
@@ -163,7 +179,9 @@ AdminController::init() override
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminStockManagementControllerCore::initContent()
+```php
+mixed AdminStockManagementControllerCore::initContent()
+```
 
 AdminController::initContent() override
 
@@ -177,7 +195,9 @@ AdminController::initContent() override
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminStockManagementControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminStockManagementControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -191,7 +211,9 @@ AdminController::initContent() override
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminStockManagementControllerCore::initProcess()
+```php
+mixed AdminStockManagementControllerCore::initProcess()
+```
 
 
 
@@ -205,7 +227,9 @@ AdminController::initContent() override
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminStockManagementControllerCore::initToolbar()
+```php
+mixed AdminStockManagementControllerCore::initToolbar()
+```
 
 assign default action in toolbar_btn smarty var, if they are not set.
 
@@ -219,7 +243,9 @@ uses override to specifically add, modify or remove items
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminStockManagementControllerCore::postProcess()
+```php
+mixed AdminStockManagementControllerCore::postProcess()
+```
 
 AdminController::postProcess() override
 
@@ -233,7 +259,9 @@ AdminController::postProcess() override
 
 ### <a name="method-renderDetails"></a>renderDetails
 
-    mixed AdminStockManagementControllerCore::renderDetails()
+```php
+mixed AdminStockManagementControllerCore::renderDetails()
+```
 
 
 
@@ -247,7 +275,9 @@ AdminController::postProcess() override
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminStockManagementControllerCore::renderForm()
+```php
+mixed AdminStockManagementControllerCore::renderForm()
+```
 
 AdminController::renderForm() override
 
@@ -261,7 +291,9 @@ AdminController::renderForm() override
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminStockManagementControllerCore::renderList()
+```php
+mixed AdminStockManagementControllerCore::renderList()
+```
 
 AdminController::renderList() override
 
@@ -275,7 +307,9 @@ AdminController::renderList() override
 
 ### <a name="method-skipActionByStock"></a>skipActionByStock
 
-    mixed AdminStockManagementControllerCore::skipActionByStock(array $item, boolean $is_product_variation)
+```php
+mixed AdminStockManagementControllerCore::skipActionByStock(array $item, boolean $is_product_variation)
+```
 
 Check stock for a given product or product attribute
 and manage available actions in consequence

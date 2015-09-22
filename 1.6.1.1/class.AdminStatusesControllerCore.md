@@ -10,14 +10,16 @@ Class AdminStatusesControllerCore
 * Source: [controllers/admin/AdminStatusesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterImageUpload](#method-afterImageUpload)
 * [ajaxProcessDeliveryOrderState](#method-ajaxProcessDeliveryOrderState)
@@ -46,7 +48,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \OrderState $object
+```php
+public \OrderState $object
+```
 
 
 
@@ -62,7 +66,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminStatusesControllerCore::__construct()
+```php
+mixed AdminStatusesControllerCore::__construct()
+```
 
 
 
@@ -76,7 +82,9 @@ Methods
 
 ### <a name="method-afterImageUpload"></a>afterImageUpload
 
-    mixed AdminStatusesControllerCore::afterImageUpload()
+```php
+mixed AdminStatusesControllerCore::afterImageUpload()
+```
 
 
 
@@ -90,7 +98,9 @@ Methods
 
 ### <a name="method-ajaxProcessDeliveryOrderState"></a>ajaxProcessDeliveryOrderState
 
-    mixed AdminStatusesControllerCore::ajaxProcessDeliveryOrderState()
+```php
+mixed AdminStatusesControllerCore::ajaxProcessDeliveryOrderState()
+```
 
 
 
@@ -104,7 +114,9 @@ Methods
 
 ### <a name="method-ajaxProcessInvoiceOrderState"></a>ajaxProcessInvoiceOrderState
 
-    mixed AdminStatusesControllerCore::ajaxProcessInvoiceOrderState()
+```php
+mixed AdminStatusesControllerCore::ajaxProcessInvoiceOrderState()
+```
 
 
 
@@ -118,7 +130,9 @@ Methods
 
 ### <a name="method-ajaxProcessSendEmailOrderState"></a>ajaxProcessSendEmailOrderState
 
-    mixed AdminStatusesControllerCore::ajaxProcessSendEmailOrderState()
+```php
+mixed AdminStatusesControllerCore::ajaxProcessSendEmailOrderState()
+```
 
 
 
@@ -132,7 +146,9 @@ Methods
 
 ### <a name="method-checkFilterForOrdersReturnsList"></a>checkFilterForOrdersReturnsList
 
-    mixed AdminStatusesControllerCore::checkFilterForOrdersReturnsList()
+```php
+mixed AdminStatusesControllerCore::checkFilterForOrdersReturnsList()
+```
 
 
 
@@ -146,7 +162,9 @@ Methods
 
 ### <a name="method-filterToField"></a>filterToField
 
-    mixed AdminStatusesControllerCore::filterToField($key, $filter)
+```php
+mixed AdminStatusesControllerCore::filterToField($key, $filter)
+```
 
 
 
@@ -164,7 +182,9 @@ Methods
 
 ### <a name="method-getTemplates"></a>getTemplates
 
-    mixed AdminStatusesControllerCore::getTemplates()
+```php
+mixed AdminStatusesControllerCore::getTemplates()
+```
 
 
 
@@ -178,7 +198,9 @@ Methods
 
 ### <a name="method-init"></a>init
 
-    mixed AdminStatusesControllerCore::init()
+```php
+mixed AdminStatusesControllerCore::init()
+```
 
 
 
@@ -192,7 +214,9 @@ Methods
 
 ### <a name="method-initOrderReturnsForm"></a>initOrderReturnsForm
 
-    mixed AdminStatusesControllerCore::initOrderReturnsForm()
+```php
+mixed AdminStatusesControllerCore::initOrderReturnsForm()
+```
 
 
 
@@ -206,7 +230,9 @@ Methods
 
 ### <a name="method-initOrderStatutsList"></a>initOrderStatutsList
 
-    mixed AdminStatusesControllerCore::initOrderStatutsList()
+```php
+mixed AdminStatusesControllerCore::initOrderStatutsList()
+```
 
 init all variables to render the order status list
 
@@ -220,7 +246,9 @@ init all variables to render the order status list
 
 ### <a name="method-initOrdersReturnsList"></a>initOrdersReturnsList
 
-    mixed AdminStatusesControllerCore::initOrdersReturnsList()
+```php
+mixed AdminStatusesControllerCore::initOrdersReturnsList()
+```
 
 init all variables to render the order return list
 
@@ -234,7 +262,9 @@ init all variables to render the order return list
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminStatusesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminStatusesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -248,7 +278,9 @@ init all variables to render the order return list
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminStatusesControllerCore::postProcess()
+```php
+mixed AdminStatusesControllerCore::postProcess()
+```
 
 
 
@@ -262,7 +294,9 @@ init all variables to render the order return list
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminStatusesControllerCore::renderForm()
+```php
+mixed AdminStatusesControllerCore::renderForm()
+```
 
 
 
@@ -276,7 +310,9 @@ init all variables to render the order return list
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminStatusesControllerCore::renderList()
+```php
+mixed AdminStatusesControllerCore::renderList()
+```
 
 Function used to render the list to display for this controller
 
@@ -290,7 +326,9 @@ Function used to render the list to display for this controller
 
 ### <a name="method-renderOrderReturnsForm"></a>renderOrderReturnsForm
 
-    mixed AdminStatusesControllerCore::renderOrderReturnsForm()
+```php
+mixed AdminStatusesControllerCore::renderOrderReturnsForm()
+```
 
 
 
@@ -304,7 +342,9 @@ Function used to render the list to display for this controller
 
 ### <a name="method-renderOrderStatusForm"></a>renderOrderStatusForm
 
-    mixed AdminStatusesControllerCore::renderOrderStatusForm()
+```php
+mixed AdminStatusesControllerCore::renderOrderStatusForm()
+```
 
 
 

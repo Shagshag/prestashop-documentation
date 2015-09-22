@@ -10,9 +10,11 @@ Class ImageTypeCore
 * Source: [classes/ImageType.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$categories](#property-$categories)
 * [$definition](#property-$definition)
@@ -29,8 +31,8 @@ Properties
 * [$webserviceParameters](#property-$webserviceParameters)
 * [$width](#property-$width)
 
-Methods
--------
+### Methods
+
 * [getByNameNType](#method-getByNameNType)
 * [getFormatedName](#method-getFormatedName)
 * [getImagesTypes](#method-getImagesTypes)
@@ -45,7 +47,9 @@ Properties
 
 ### <a name="property-$categories"></a>$categories
 
-    public integer $categories
+```php
+public integer $categories
+```
 
 
 
@@ -57,7 +61,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'image_type', 'primary' => 'id_image_type', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isImageTypeName', 'required' => true, 'size' => 64), 'width' => array('type' => self::TYPE_INT, 'validate' => 'isImageSize', 'required' => true), 'height' => array('type' => self::TYPE_INT, 'validate' => 'isImageSize', 'required' => true), 'categories' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'products' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'manufacturers' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'suppliers' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'scenes' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'stores' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```php
+public mixed $definition = array('table' => 'image_type', 'primary' => 'id_image_type', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isImageTypeName', 'required' => true, 'size' => 64), 'width' => array('type' => self::TYPE_INT, 'validate' => 'isImageSize', 'required' => true), 'height' => array('type' => self::TYPE_INT, 'validate' => 'isImageSize', 'required' => true), 'categories' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'products' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'manufacturers' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'suppliers' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'scenes' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'stores' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```
 
 
 
@@ -70,7 +76,9 @@ Properties
 
 ### <a name="property-$height"></a>$height
 
-    public integer $height
+```php
+public integer $height
+```
 
 
 
@@ -82,7 +90,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -94,7 +104,9 @@ Properties
 
 ### <a name="property-$images_types_cache"></a>$images_types_cache
 
-    protected array $images_types_cache = array()
+```php
+protected array $images_types_cache = array()
+```
 
 
 
@@ -107,7 +119,9 @@ Properties
 
 ### <a name="property-$images_types_name_cache"></a>$images_types_name_cache
 
-    protected mixed $images_types_name_cache = array()
+```php
+protected mixed $images_types_name_cache = array()
+```
 
 
 
@@ -120,7 +134,9 @@ Properties
 
 ### <a name="property-$manufacturers"></a>$manufacturers
 
-    public integer $manufacturers
+```php
+public integer $manufacturers
+```
 
 
 
@@ -132,7 +148,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -144,7 +162,9 @@ Properties
 
 ### <a name="property-$products"></a>$products
 
-    public boolean $products
+```php
+public boolean $products
+```
 
 
 
@@ -156,7 +176,9 @@ Properties
 
 ### <a name="property-$scenes"></a>$scenes
 
-    public integer $scenes
+```php
+public integer $scenes
+```
 
 
 
@@ -168,7 +190,9 @@ Properties
 
 ### <a name="property-$stores"></a>$stores
 
-    public integer $stores
+```php
+public integer $stores
+```
 
 
 
@@ -180,7 +204,9 @@ Properties
 
 ### <a name="property-$suppliers"></a>$suppliers
 
-    public integer $suppliers
+```php
+public integer $suppliers
+```
 
 
 
@@ -192,7 +218,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array()
+```php
+protected mixed $webserviceParameters = array()
+```
 
 
 
@@ -204,7 +232,9 @@ Properties
 
 ### <a name="property-$width"></a>$width
 
-    public integer $width
+```php
+public integer $width
+```
 
 
 
@@ -220,7 +250,9 @@ Methods
 
 ### <a name="method-getByNameNType"></a>getByNameNType
 
-    mixed ImageTypeCore::getByNameNType(string $name, string $type, $order)
+```php
+mixed ImageTypeCore::getByNameNType(string $name, string $type, $order)
+```
 
 Finds image type definition by name and type
 
@@ -240,7 +272,9 @@ Finds image type definition by name and type
 
 ### <a name="method-getFormatedName"></a>getFormatedName
 
-    mixed ImageTypeCore::getFormatedName($name)
+```php
+mixed ImageTypeCore::getFormatedName($name)
+```
 
 
 
@@ -258,7 +292,9 @@ Finds image type definition by name and type
 
 ### <a name="method-getImagesTypes"></a>getImagesTypes
 
-    array ImageTypeCore::getImagesTypes($type, boolean $order_by_size)
+```php
+array ImageTypeCore::getImagesTypes($type, boolean $order_by_size)
+```
 
 Returns image type definitions
 
@@ -277,7 +313,9 @@ Returns image type definitions
 
 ### <a name="method-typeAlreadyExists"></a>typeAlreadyExists
 
-    integer ImageTypeCore::typeAlreadyExists($type_name)
+```php
+integer ImageTypeCore::typeAlreadyExists($type_name)
+```
 
 Check if type already is already registered in database
 

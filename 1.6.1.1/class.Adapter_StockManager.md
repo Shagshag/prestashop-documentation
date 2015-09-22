@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Adapter/Adapter_StockManager.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_StockManager.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [getStockAvailableByProduct](#method-getStockAvailableByProduct)
 
 
@@ -41,7 +43,9 @@ Methods
 
 ### <a name="method-getStockAvailableByProduct"></a>getStockAvailableByProduct
 
-    mixed Adapter_StockManager::getStockAvailableByProduct($product, $id_product_attribute, $id_shop)
+```php
+mixed Adapter_StockManager::getStockAvailableByProduct($product, $id_product_attribute, $id_shop)
+```
 
 
 

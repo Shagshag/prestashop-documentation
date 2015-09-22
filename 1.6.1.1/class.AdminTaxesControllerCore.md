@@ -10,14 +10,16 @@ Class AdminTaxesControllerCore
 * Source: [controllers/admin/AdminTaxesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [displayDeleteLink](#method-displayDeleteLink)
 * [displayEnableLink](#method-displayEnableLink)
@@ -35,7 +37,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Tax $object
+```php
+public \Tax $object
+```
 
 
 
@@ -51,7 +55,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminTaxesControllerCore::__construct()
+```php
+mixed AdminTaxesControllerCore::__construct()
+```
 
 
 
@@ -65,7 +71,9 @@ Methods
 
 ### <a name="method-displayDeleteLink"></a>displayDeleteLink
 
-    string AdminTaxesControllerCore::displayDeleteLink(string|null $token, integer $id)
+```php
+string AdminTaxesControllerCore::displayDeleteLink(string|null $token, integer $id)
+```
 
 Display delete action link
 
@@ -83,7 +91,9 @@ Display delete action link
 
 ### <a name="method-displayEnableLink"></a>displayEnableLink
 
-    mixed AdminTaxesControllerCore::displayEnableLink(string $token, integer $id, integer $value, string $active, integer $id_category, integer $id_product)
+```php
+mixed AdminTaxesControllerCore::displayEnableLink(string $token, integer $id, integer $value, string $active, integer $id_category, integer $id_product)
+```
 
 Fetch the template for action enable
 
@@ -105,7 +115,9 @@ Fetch the template for action enable
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminTaxesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminTaxesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -119,7 +131,9 @@ Fetch the template for action enable
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminTaxesControllerCore::postProcess()
+```php
+mixed AdminTaxesControllerCore::postProcess()
+```
 
 
 
@@ -133,7 +147,9 @@ Fetch the template for action enable
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminTaxesControllerCore::renderForm()
+```php
+mixed AdminTaxesControllerCore::renderForm()
+```
 
 
 
@@ -147,7 +163,9 @@ Fetch the template for action enable
 
 ### <a name="method-updateOptionPsUseEcotax"></a>updateOptionPsUseEcotax
 
-    mixed AdminTaxesControllerCore::updateOptionPsUseEcotax($value)
+```php
+mixed AdminTaxesControllerCore::updateOptionPsUseEcotax($value)
+```
 
 
 

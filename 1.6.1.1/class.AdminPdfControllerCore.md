@@ -10,11 +10,13 @@ Class AdminPdfControllerCore
 * Source: [controllers/admin/AdminPdfController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [checkCacheFolder](#method-checkCacheFolder)
 * [generateDeliverySlipPDFByIdOrder](#method-generateDeliverySlipPDFByIdOrder)
 * [generateDeliverySlipPDFByIdOrderInvoice](#method-generateDeliverySlipPDFByIdOrderInvoice)
@@ -43,7 +45,9 @@ Methods
 
 ### <a name="method-checkCacheFolder"></a>checkCacheFolder
 
-    mixed AdminPdfControllerCore::checkCacheFolder()
+```php
+mixed AdminPdfControllerCore::checkCacheFolder()
+```
 
 
 
@@ -57,7 +61,9 @@ Methods
 
 ### <a name="method-generateDeliverySlipPDFByIdOrder"></a>generateDeliverySlipPDFByIdOrder
 
-    mixed AdminPdfControllerCore::generateDeliverySlipPDFByIdOrder($id_order)
+```php
+mixed AdminPdfControllerCore::generateDeliverySlipPDFByIdOrder($id_order)
+```
 
 
 
@@ -74,7 +80,9 @@ Methods
 
 ### <a name="method-generateDeliverySlipPDFByIdOrderInvoice"></a>generateDeliverySlipPDFByIdOrderInvoice
 
-    mixed AdminPdfControllerCore::generateDeliverySlipPDFByIdOrderInvoice($id_order_invoice)
+```php
+mixed AdminPdfControllerCore::generateDeliverySlipPDFByIdOrderInvoice($id_order_invoice)
+```
 
 
 
@@ -91,7 +99,9 @@ Methods
 
 ### <a name="method-generateInvoicePDFByIdOrder"></a>generateInvoicePDFByIdOrder
 
-    mixed AdminPdfControllerCore::generateInvoicePDFByIdOrder($id_order)
+```php
+mixed AdminPdfControllerCore::generateInvoicePDFByIdOrder($id_order)
+```
 
 
 
@@ -108,7 +118,9 @@ Methods
 
 ### <a name="method-generateInvoicePDFByIdOrderInvoice"></a>generateInvoicePDFByIdOrderInvoice
 
-    mixed AdminPdfControllerCore::generateInvoicePDFByIdOrderInvoice($id_order_invoice)
+```php
+mixed AdminPdfControllerCore::generateInvoicePDFByIdOrderInvoice($id_order_invoice)
+```
 
 
 
@@ -125,7 +137,9 @@ Methods
 
 ### <a name="method-generatePDF"></a>generatePDF
 
-    mixed AdminPdfControllerCore::generatePDF($object, $template)
+```php
+mixed AdminPdfControllerCore::generatePDF($object, $template)
+```
 
 
 
@@ -143,7 +157,9 @@ Methods
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminPdfControllerCore::initProcess()
+```php
+mixed AdminPdfControllerCore::initProcess()
+```
 
 
 
@@ -157,7 +173,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminPdfControllerCore::postProcess()
+```php
+mixed AdminPdfControllerCore::postProcess()
+```
 
 
 
@@ -171,7 +189,9 @@ Methods
 
 ### <a name="method-processGenerateDeliverySlipPDF"></a>processGenerateDeliverySlipPDF
 
-    mixed AdminPdfControllerCore::processGenerateDeliverySlipPDF()
+```php
+mixed AdminPdfControllerCore::processGenerateDeliverySlipPDF()
+```
 
 
 
@@ -185,7 +205,9 @@ Methods
 
 ### <a name="method-processGenerateDeliverySlipsPDF"></a>processGenerateDeliverySlipsPDF
 
-    mixed AdminPdfControllerCore::processGenerateDeliverySlipsPDF()
+```php
+mixed AdminPdfControllerCore::processGenerateDeliverySlipsPDF()
+```
 
 
 
@@ -199,7 +221,9 @@ Methods
 
 ### <a name="method-processGenerateInvoicePdf"></a>processGenerateInvoicePdf
 
-    mixed AdminPdfControllerCore::processGenerateInvoicePdf()
+```php
+mixed AdminPdfControllerCore::processGenerateInvoicePdf()
+```
 
 
 
@@ -213,7 +237,9 @@ Methods
 
 ### <a name="method-processGenerateInvoicesPDF"></a>processGenerateInvoicesPDF
 
-    mixed AdminPdfControllerCore::processGenerateInvoicesPDF()
+```php
+mixed AdminPdfControllerCore::processGenerateInvoicesPDF()
+```
 
 
 
@@ -227,7 +253,9 @@ Methods
 
 ### <a name="method-processGenerateInvoicesPDF2"></a>processGenerateInvoicesPDF2
 
-    mixed AdminPdfControllerCore::processGenerateInvoicesPDF2()
+```php
+mixed AdminPdfControllerCore::processGenerateInvoicesPDF2()
+```
 
 
 
@@ -241,7 +269,9 @@ Methods
 
 ### <a name="method-processGenerateOrderSlipPDF"></a>processGenerateOrderSlipPDF
 
-    mixed AdminPdfControllerCore::processGenerateOrderSlipPDF()
+```php
+mixed AdminPdfControllerCore::processGenerateOrderSlipPDF()
+```
 
 
 
@@ -255,7 +285,9 @@ Methods
 
 ### <a name="method-processGenerateOrderSlipsPDF"></a>processGenerateOrderSlipsPDF
 
-    mixed AdminPdfControllerCore::processGenerateOrderSlipsPDF()
+```php
+mixed AdminPdfControllerCore::processGenerateOrderSlipsPDF()
+```
 
 
 
@@ -269,7 +301,9 @@ Methods
 
 ### <a name="method-processGenerateSupplyOrderFormPDF"></a>processGenerateSupplyOrderFormPDF
 
-    mixed AdminPdfControllerCore::processGenerateSupplyOrderFormPDF()
+```php
+mixed AdminPdfControllerCore::processGenerateSupplyOrderFormPDF()
+```
 
 
 

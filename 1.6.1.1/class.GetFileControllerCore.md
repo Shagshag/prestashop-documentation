@@ -10,15 +10,17 @@ Class GetFileControllerCore
 * Source: [controllers/front/GetFileController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GetFileController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$display_footer](#property-$display_footer)
 * [$display_header](#property-$display_header)
 
-Methods
--------
+### Methods
+
 * [displayCustomError](#method-displayCustomError)
 * [init](#method-init)
 
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$display_footer"></a>$display_footer
 
-    protected mixed $display_footer = false
+```php
+protected mixed $display_footer = false
+```
 
 
 
@@ -43,7 +47,9 @@ Properties
 
 ### <a name="property-$display_header"></a>$display_header
 
-    protected mixed $display_header = false
+```php
+protected mixed $display_header = false
+```
 
 
 
@@ -59,7 +65,9 @@ Methods
 
 ### <a name="method-displayCustomError"></a>displayCustomError
 
-    mixed GetFileControllerCore::displayCustomError(string $msg)
+```php
+mixed GetFileControllerCore::displayCustomError(string $msg)
+```
 
 Display an error message with js
 and redirect using js function
@@ -77,7 +85,9 @@ and redirect using js function
 
 ### <a name="method-init"></a>init
 
-    mixed GetFileControllerCore::init()
+```php
+mixed GetFileControllerCore::init()
+```
 
 
 

@@ -23,9 +23,11 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [classes/Tools.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_cache_nb_media_servers](#property-$_cache_nb_media_servers)
 * [$_caching](#property-$_caching)
@@ -36,8 +38,8 @@ Properties
 * [$is_addons_up](#property-$is_addons_up)
 * [$round_mode](#property-$round_mode)
 
-Methods
--------
+### Methods
+
 * [ZipExtract](#method-ZipExtract)
 * [ZipTest](#method-ZipTest)
 * [addCSS](#method-addCSS)
@@ -216,7 +218,9 @@ Properties
 
 ### <a name="property-$_cache_nb_media_servers"></a>$_cache_nb_media_servers
 
-    protected mixed $_cache_nb_media_servers = null
+```php
+protected mixed $_cache_nb_media_servers = null
+```
 
 
 
@@ -229,7 +233,9 @@ Properties
 
 ### <a name="property-$_caching"></a>$_caching
 
-    protected mixed $_caching
+```php
+protected mixed $_caching
+```
 
 
 
@@ -242,7 +248,9 @@ Properties
 
 ### <a name="property-$_forceCompile"></a>$_forceCompile
 
-    protected mixed $_forceCompile
+```php
+protected mixed $_forceCompile
+```
 
 
 
@@ -255,7 +263,9 @@ Properties
 
 ### <a name="property-$_user_browser"></a>$_user_browser
 
-    protected mixed $_user_browser
+```php
+protected mixed $_user_browser
+```
 
 
 
@@ -268,7 +278,9 @@ Properties
 
 ### <a name="property-$_user_plateform"></a>$_user_plateform
 
-    protected mixed $_user_plateform
+```php
+protected mixed $_user_plateform
+```
 
 
 
@@ -281,7 +293,9 @@ Properties
 
 ### <a name="property-$file_exists_cache"></a>$file_exists_cache
 
-    protected mixed $file_exists_cache = array()
+```php
+protected mixed $file_exists_cache = array()
+```
 
 
 
@@ -294,7 +308,9 @@ Properties
 
 ### <a name="property-$is_addons_up"></a>$is_addons_up
 
-    protected mixed $is_addons_up = true
+```php
+protected mixed $is_addons_up = true
+```
 
 
 
@@ -307,7 +323,9 @@ Properties
 
 ### <a name="property-$round_mode"></a>$round_mode
 
-    public mixed $round_mode = null
+```php
+public mixed $round_mode = null
+```
 
 
 
@@ -324,7 +342,9 @@ Methods
 
 ### <a name="method-ZipExtract"></a>ZipExtract
 
-    boolean ToolsCore::ZipExtract($from_file, $to_dir)
+```php
+boolean ToolsCore::ZipExtract($from_file, $to_dir)
+```
 
 
 
@@ -343,7 +363,9 @@ Methods
 
 ### <a name="method-ZipTest"></a>ZipTest
 
-    boolean ToolsCore::ZipTest($from_file)
+```php
+boolean ToolsCore::ZipTest($from_file)
+```
 
 
 
@@ -361,7 +383,9 @@ Methods
 
 ### <a name="method-addCSS"></a>addCSS
 
-    mixed ToolsCore::addCSS($css_uri, $css_media_type)
+```php
+mixed ToolsCore::addCSS($css_uri, $css_media_type)
+```
 
 
 
@@ -380,7 +404,9 @@ Methods
 
 ### <a name="method-addJS"></a>addJS
 
-    void ToolsCore::addJS(mixed $js_uri)
+```php
+void ToolsCore::addJS(mixed $js_uri)
+```
 
 addJS load a javascript file in the header
 
@@ -398,7 +424,9 @@ addJS load a javascript file in the header
 
 ### <a name="method-addonsRequest"></a>addonsRequest
 
-    mixed ToolsCore::addonsRequest($request, $params)
+```php
+mixed ToolsCore::addonsRequest($request, $params)
+```
 
 
 
@@ -417,7 +445,9 @@ addJS load a javascript file in the header
 
 ### <a name="method-alignVersionNumber"></a>alignVersionNumber
 
-    mixed ToolsCore::alignVersionNumber($v1, $v2)
+```php
+mixed ToolsCore::alignVersionNumber($v1, $v2)
+```
 
 Align 2 version with the same number of sub version
 version_compare will work better for its comparison :)
@@ -438,7 +468,9 @@ version_compare will work better for its comparison :)
 
 ### <a name="method-apacheModExists"></a>apacheModExists
 
-    boolean ToolsCore::apacheModExists(string $name)
+```php
+boolean ToolsCore::apacheModExists(string $name)
+```
 
 apacheModExists return true if the apache module $name is loaded
 
@@ -456,7 +488,9 @@ apacheModExists return true if the apache module $name is loaded
 
 ### <a name="method-argvToGET"></a>argvToGET
 
-    mixed ToolsCore::argvToGET($argc, $argv)
+```php
+mixed ToolsCore::argvToGET($argc, $argv)
+```
 
 
 
@@ -475,7 +509,9 @@ apacheModExists return true if the apache module $name is loaded
 
 ### <a name="method-arrayReplaceRecursive"></a>arrayReplaceRecursive
 
-    mixed ToolsCore::arrayReplaceRecursive(array $base, array $replacements)
+```php
+mixed ToolsCore::arrayReplaceRecursive(array $base, array $replacements)
+```
 
 Replaces elements from passed arrays into the first array recursively
 
@@ -494,7 +530,9 @@ Replaces elements from passed arrays into the first array recursively
 
 ### <a name="method-arrayUnique"></a>arrayUnique
 
-    array ToolsCore::arrayUnique(array $array)
+```php
+array ToolsCore::arrayUnique(array $array)
+```
 
 Reproduce array_unique working before php version 5.2.9
 
@@ -512,7 +550,9 @@ Reproduce array_unique working before php version 5.2.9
 
 ### <a name="method-array_replace"></a>array_replace
 
-    array|mixed|null ToolsCore::array_replace()
+```php
+array|mixed|null ToolsCore::array_replace()
+```
 
 Implement array_replace for PHP <= 5.2
 
@@ -527,7 +567,9 @@ Implement array_replace for PHP <= 5.2
 
 ### <a name="method-boolVal"></a>boolVal
 
-    mixed ToolsCore::boolVal($value)
+```php
+mixed ToolsCore::boolVal($value)
+```
 
 
 
@@ -545,7 +587,9 @@ Implement array_replace for PHP <= 5.2
 
 ### <a name="method-cccCss"></a>cccCss
 
-    mixed ToolsCore::cccCss($css_files)
+```php
+mixed ToolsCore::cccCss($css_files)
+```
 
 
 
@@ -563,7 +607,9 @@ Implement array_replace for PHP <= 5.2
 
 ### <a name="method-cccJS"></a>cccJS
 
-    mixed ToolsCore::cccJS($js_files)
+```php
+mixed ToolsCore::cccJS($js_files)
+```
 
 
 
@@ -581,7 +627,9 @@ Implement array_replace for PHP <= 5.2
 
 ### <a name="method-ceilf"></a>ceilf
 
-    float ToolsCore::ceilf(float $value, integer $precision)
+```php
+float ToolsCore::ceilf(float $value, integer $precision)
+```
 
 returns the rounded value up of $value to specified precision
 
@@ -600,7 +648,9 @@ returns the rounded value up of $value to specified precision
 
 ### <a name="method-changeFileMTime"></a>changeFileMTime
 
-    mixed ToolsCore::changeFileMTime($file_name)
+```php
+mixed ToolsCore::changeFileMTime($file_name)
+```
 
 
 
@@ -618,7 +668,9 @@ returns the rounded value up of $value to specified precision
 
 ### <a name="method-checkPhpVersion"></a>checkPhpVersion
 
-    string ToolsCore::checkPhpVersion()
+```php
+string ToolsCore::checkPhpVersion()
+```
 
 
 
@@ -633,7 +685,9 @@ returns the rounded value up of $value to specified precision
 
 ### <a name="method-chmodr"></a>chmodr
 
-    mixed ToolsCore::chmodr($path, $filemode)
+```php
+mixed ToolsCore::chmodr($path, $filemode)
+```
 
 
 
@@ -652,7 +706,9 @@ returns the rounded value up of $value to specified precision
 
 ### <a name="method-cleanNonUnicodeSupport"></a>cleanNonUnicodeSupport
 
-    string ToolsCore::cleanNonUnicodeSupport(string $pattern)
+```php
+string ToolsCore::cleanNonUnicodeSupport(string $pattern)
+```
 
 Delete unicode class from regular expression patterns
 
@@ -670,7 +726,9 @@ Delete unicode class from regular expression patterns
 
 ### <a name="method-clearCache"></a>clearCache
 
-    mixed ToolsCore::clearCache(\Smarty $smarty, $tpl, $cache_id, $compile_id)
+```php
+mixed ToolsCore::clearCache(\Smarty $smarty, $tpl, $cache_id, $compile_id)
+```
 
 Clear cache for Smarty
 
@@ -691,7 +749,9 @@ Clear cache for Smarty
 
 ### <a name="method-clearColorListCache"></a>clearColorListCache
 
-    mixed ToolsCore::clearColorListCache($id_product)
+```php
+mixed ToolsCore::clearColorListCache($id_product)
+```
 
 
 
@@ -709,7 +769,9 @@ Clear cache for Smarty
 
 ### <a name="method-clearCompile"></a>clearCompile
 
-    mixed ToolsCore::clearCompile($smarty)
+```php
+mixed ToolsCore::clearCompile($smarty)
+```
 
 Clear compile for Smarty
 
@@ -727,7 +789,9 @@ Clear compile for Smarty
 
 ### <a name="method-clearSmartyCache"></a>clearSmartyCache
 
-    mixed ToolsCore::clearSmartyCache()
+```php
+mixed ToolsCore::clearSmartyCache()
+```
 
 Clear Smarty cache and compile folders
 
@@ -742,7 +806,9 @@ Clear Smarty cache and compile folders
 
 ### <a name="method-clearXMLCache"></a>clearXMLCache
 
-    mixed ToolsCore::clearXMLCache()
+```php
+mixed ToolsCore::clearXMLCache()
+```
 
 Clear XML cache folder
 
@@ -757,7 +823,9 @@ Clear XML cache folder
 
 ### <a name="method-completeMetaTags"></a>completeMetaTags
 
-    mixed ToolsCore::completeMetaTags($meta_tags, $default_value, \Context $context)
+```php
+mixed ToolsCore::completeMetaTags($meta_tags, $default_value, \Context $context)
+```
 
 
 
@@ -777,7 +845,9 @@ Clear XML cache folder
 
 ### <a name="method-convertBytes"></a>convertBytes
 
-    integer ToolsCore::convertBytes(string $value)
+```php
+integer ToolsCore::convertBytes(string $value)
+```
 
 Convert a shorthand byte value from a PHP configuration directive to an integer value
 
@@ -795,7 +865,9 @@ Convert a shorthand byte value from a PHP configuration directive to an integer 
 
 ### <a name="method-convertPrice"></a>convertPrice
 
-    float ToolsCore::convertPrice(float $price, object|array $currency, boolean $to_currency, \Context $context)
+```php
+float ToolsCore::convertPrice(float $price, object|array $currency, boolean $to_currency, \Context $context)
+```
 
 Return price converted
 
@@ -816,7 +888,9 @@ Return price converted
 
 ### <a name="method-convertPriceFull"></a>convertPriceFull
 
-    mixed ToolsCore::convertPriceFull(float $amount, \Currency $currency_from, \Currency $currency_to)
+```php
+mixed ToolsCore::convertPriceFull(float $amount, \Currency $currency_from, \Currency $currency_to)
+```
 
 Convert amount from a currency to an other currency automatically
 
@@ -836,7 +910,9 @@ Convert amount from a currency to an other currency automatically
 
 ### <a name="method-copy"></a>copy
 
-    mixed ToolsCore::copy($source, $destination, $stream_context)
+```php
+mixed ToolsCore::copy($source, $destination, $stream_context)
+```
 
 
 
@@ -856,7 +932,9 @@ Convert amount from a currency to an other currency automatically
 
 ### <a name="method-d"></a>d
 
-    mixed ToolsCore::d(object $object, $kill)
+```php
+mixed ToolsCore::d(object $object, $kill)
+```
 
 ALIAS OF dieObject() - Display an error with detailed object
 
@@ -875,7 +953,9 @@ ALIAS OF dieObject() - Display an error with detailed object
 
 ### <a name="method-dateDays"></a>dateDays
 
-    mixed ToolsCore::dateDays()
+```php
+mixed ToolsCore::dateDays()
+```
 
 
 
@@ -890,7 +970,9 @@ ALIAS OF dieObject() - Display an error with detailed object
 
 ### <a name="method-dateFormat"></a>dateFormat
 
-    string ToolsCore::dateFormat(array $params, object $smarty)
+```php
+string ToolsCore::dateFormat(array $params, object $smarty)
+```
 
 Display date regarding to language preferences
 
@@ -909,7 +991,9 @@ Display date regarding to language preferences
 
 ### <a name="method-dateFrom"></a>dateFrom
 
-    mixed ToolsCore::dateFrom($date)
+```php
+mixed ToolsCore::dateFrom($date)
+```
 
 
 
@@ -927,7 +1011,9 @@ Display date regarding to language preferences
 
 ### <a name="method-dateMonths"></a>dateMonths
 
-    mixed ToolsCore::dateMonths()
+```php
+mixed ToolsCore::dateMonths()
+```
 
 
 
@@ -942,7 +1028,9 @@ Display date regarding to language preferences
 
 ### <a name="method-dateTo"></a>dateTo
 
-    mixed ToolsCore::dateTo($date)
+```php
+mixed ToolsCore::dateTo($date)
+```
 
 
 
@@ -960,7 +1048,9 @@ Display date regarding to language preferences
 
 ### <a name="method-dateYears"></a>dateYears
 
-    array ToolsCore::dateYears()
+```php
+array ToolsCore::dateYears()
+```
 
 Generate date form
 
@@ -975,7 +1065,9 @@ Generate date form
 
 ### <a name="method-debug_backtrace"></a>debug_backtrace
 
-    mixed ToolsCore::debug_backtrace($start, $limit)
+```php
+mixed ToolsCore::debug_backtrace($start, $limit)
+```
 
 
 
@@ -994,7 +1086,9 @@ Generate date form
 
 ### <a name="method-deleteDirectory"></a>deleteDirectory
 
-    mixed ToolsCore::deleteDirectory(string $dirname, $delete_self)
+```php
+mixed ToolsCore::deleteDirectory(string $dirname, $delete_self)
+```
 
 Delete directory and subdirectories
 
@@ -1013,7 +1107,9 @@ Delete directory and subdirectories
 
 ### <a name="method-deleteFile"></a>deleteFile
 
-    mixed ToolsCore::deleteFile(string $file, array $exclude_files)
+```php
+mixed ToolsCore::deleteFile(string $file, array $exclude_files)
+```
 
 Delete file
 
@@ -1032,7 +1128,9 @@ Delete file
 
 ### <a name="method-dieObject"></a>dieObject
 
-    \$object ToolsCore::dieObject(mixed $object, boolean $kill)
+```php
+\$object ToolsCore::dieObject(mixed $object, boolean $kill)
+```
 
 Display an error with detailed object
 
@@ -1051,7 +1149,9 @@ Display an error with detailed object
 
 ### <a name="method-dieOrLog"></a>dieOrLog
 
-    boolean ToolsCore::dieOrLog(string $msg, boolean $die)
+```php
+boolean ToolsCore::dieOrLog(string $msg, boolean $die)
+```
 
 Display error and dies or silently log the error.
 
@@ -1070,7 +1170,9 @@ Display error and dies or silently log the error.
 
 ### <a name="method-display404Error"></a>display404Error
 
-    mixed ToolsCore::display404Error()
+```php
+mixed ToolsCore::display404Error()
+```
 
 
 
@@ -1085,7 +1187,9 @@ Display error and dies or silently log the error.
 
 ### <a name="method-displayAsDeprecated"></a>displayAsDeprecated
 
-    mixed ToolsCore::displayAsDeprecated($message)
+```php
+mixed ToolsCore::displayAsDeprecated($message)
+```
 
 Display a warning message indicating that the method is deprecated
 
@@ -1103,7 +1207,9 @@ Display a warning message indicating that the method is deprecated
 
 ### <a name="method-displayDate"></a>displayDate
 
-    string ToolsCore::displayDate(string $date, integer $id_lang, boolean $full, string $separator)
+```php
+string ToolsCore::displayDate(string $date, integer $id_lang, boolean $full, string $separator)
+```
 
 Display date regarding to language preferences
 
@@ -1124,7 +1230,9 @@ Display date regarding to language preferences
 
 ### <a name="method-displayError"></a>displayError
 
-    mixed ToolsCore::displayError(string $string, boolean $htmlentities, \Context $context)
+```php
+mixed ToolsCore::displayError(string $string, boolean $htmlentities, \Context $context)
+```
 
 Display an error according to an error code
 
@@ -1144,7 +1252,9 @@ Display an error according to an error code
 
 ### <a name="method-displayFileAsDeprecated"></a>displayFileAsDeprecated
 
-    mixed ToolsCore::displayFileAsDeprecated()
+```php
+mixed ToolsCore::displayFileAsDeprecated()
+```
 
 
 
@@ -1159,7 +1269,9 @@ Display an error according to an error code
 
 ### <a name="method-displayNumber"></a>displayNumber
 
-    mixed ToolsCore::displayNumber($number, $currency)
+```php
+mixed ToolsCore::displayNumber($number, $currency)
+```
 
 
 
@@ -1178,7 +1290,9 @@ Display an error according to an error code
 
 ### <a name="method-displayParameterAsDeprecated"></a>displayParameterAsDeprecated
 
-    mixed ToolsCore::displayParameterAsDeprecated($parameter)
+```php
+mixed ToolsCore::displayParameterAsDeprecated($parameter)
+```
 
 Display a warning message indicating that the parameter is deprecated
 
@@ -1196,7 +1310,9 @@ Display a warning message indicating that the parameter is deprecated
 
 ### <a name="method-displayPrice"></a>displayPrice
 
-    string ToolsCore::displayPrice(float $price, object|array $currency, $no_utf8, \Context $context)
+```php
+string ToolsCore::displayPrice(float $price, object|array $currency, $no_utf8, \Context $context)
+```
 
 Return price with currency sign for a given product
 
@@ -1217,7 +1333,9 @@ Return price with currency sign for a given product
 
 ### <a name="method-displayPriceSmarty"></a>displayPriceSmarty
 
-    mixed ToolsCore::displayPriceSmarty($params, $smarty)
+```php
+mixed ToolsCore::displayPriceSmarty($params, $smarty)
+```
 
 
 
@@ -1236,7 +1354,9 @@ Return price with currency sign for a given product
 
 ### <a name="method-enableCache"></a>enableCache
 
-    mixed ToolsCore::enableCache($level, \Context $context)
+```php
+mixed ToolsCore::enableCache($level, \Context $context)
+```
 
 
 
@@ -1255,7 +1375,9 @@ Return price with currency sign for a given product
 
 ### <a name="method-encrypt"></a>encrypt
 
-    mixed ToolsCore::encrypt(string $passwd)
+```php
+mixed ToolsCore::encrypt(string $passwd)
+```
 
 Encrypt password
 
@@ -1273,7 +1395,9 @@ Encrypt password
 
 ### <a name="method-encryptIV"></a>encryptIV
 
-    mixed ToolsCore::encryptIV(string $data)
+```php
+mixed ToolsCore::encryptIV(string $data)
+```
 
 Encrypt data string
 
@@ -1291,7 +1415,9 @@ Encrypt data string
 
 ### <a name="method-error_log"></a>error_log
 
-    boolean ToolsCore::error_log(mixed $object, integer|null $message_type, string|null $destination, string|null $extra_headers)
+```php
+boolean ToolsCore::error_log(mixed $object, integer|null $message_type, string|null $destination, string|null $extra_headers)
+```
 
 Prints object information into error log
 
@@ -1312,7 +1438,9 @@ Prints object information into error log
 
 ### <a name="method-fd"></a>fd
 
-    mixed ToolsCore::fd(object $object, $type)
+```php
+mixed ToolsCore::fd(object $object, $type)
+```
 
 Display a var dump in firebug console
 
@@ -1331,7 +1459,9 @@ Display a var dump in firebug console
 
 ### <a name="method-fileAttachment"></a>fileAttachment
 
-    array|null ToolsCore::fileAttachment(string $input, boolean $return_content)
+```php
+array|null ToolsCore::fileAttachment(string $input, boolean $return_content)
+```
 
 Returns an array containing information about
 HTTP file upload variable ($_FILES)
@@ -1351,7 +1481,9 @@ HTTP file upload variable ($_FILES)
 
 ### <a name="method-file_exists_cache"></a>file_exists_cache
 
-    boolean ToolsCore::file_exists_cache(string $filename)
+```php
+boolean ToolsCore::file_exists_cache(string $filename)
+```
 
 file_exists() wrapper with cache to speedup performance
 
@@ -1369,7 +1501,9 @@ file_exists() wrapper with cache to speedup performance
 
 ### <a name="method-file_exists_no_cache"></a>file_exists_no_cache
 
-    boolean ToolsCore::file_exists_no_cache(string $filename)
+```php
+boolean ToolsCore::file_exists_no_cache(string $filename)
+```
 
 file_exists() wrapper with a call to clearstatcache prior
 
@@ -1387,7 +1521,9 @@ file_exists() wrapper with a call to clearstatcache prior
 
 ### <a name="method-file_get_contents"></a>file_get_contents
 
-    mixed ToolsCore::file_get_contents($url, $use_include_path, $stream_context, $curl_timeout)
+```php
+mixed ToolsCore::file_get_contents($url, $use_include_path, $stream_context, $curl_timeout)
+```
 
 
 
@@ -1408,7 +1544,9 @@ file_exists() wrapper with a call to clearstatcache prior
 
 ### <a name="method-floorf"></a>floorf
 
-    float ToolsCore::floorf(float $value, integer $precision)
+```php
+float ToolsCore::floorf(float $value, integer $precision)
+```
 
 returns the rounded value down of $value to specified precision
 
@@ -1427,7 +1565,9 @@ returns the rounded value down of $value to specified precision
 
 ### <a name="method-formatBytes"></a>formatBytes
 
-    string ToolsCore::formatBytes($size, integer $precision)
+```php
+string ToolsCore::formatBytes($size, integer $precision)
+```
 
 Format a number into a human readable format
 e.g. 24962496 => 23.81M
@@ -1447,7 +1587,9 @@ e.g. 24962496 => 23.81M
 
 ### <a name="method-generateHtaccess"></a>generateHtaccess
 
-    mixed ToolsCore::generateHtaccess($path, $rewrite_settings, $cache_control, $specific, $disable_multiviews, $medias, $disable_modsec)
+```php
+mixed ToolsCore::generateHtaccess($path, $rewrite_settings, $cache_control, $specific, $disable_multiviews, $medias, $disable_modsec)
+```
 
 
 
@@ -1471,7 +1613,9 @@ e.g. 24962496 => 23.81M
 
 ### <a name="method-generateIndex"></a>generateIndex
 
-    mixed ToolsCore::generateIndex()
+```php
+mixed ToolsCore::generateIndex()
+```
 
 
 
@@ -1486,7 +1630,9 @@ e.g. 24962496 => 23.81M
 
 ### <a name="method-getAdminImageUrl"></a>getAdminImageUrl
 
-    mixed ToolsCore::getAdminImageUrl(string $image, $entities)
+```php
+mixed ToolsCore::getAdminImageUrl(string $image, $entities)
+```
 
 Get a valid image URL to use from BackOffice
 
@@ -1505,7 +1651,9 @@ Get a valid image URL to use from BackOffice
 
 ### <a name="method-getAdminToken"></a>getAdminToken
 
-    mixed ToolsCore::getAdminToken(string $string)
+```php
+mixed ToolsCore::getAdminToken(string $string)
+```
 
 Tokenize a string
 
@@ -1523,7 +1671,9 @@ Tokenize a string
 
 ### <a name="method-getAdminTokenLite"></a>getAdminTokenLite
 
-    mixed ToolsCore::getAdminTokenLite($tab, \Context $context)
+```php
+mixed ToolsCore::getAdminTokenLite($tab, \Context $context)
+```
 
 
 
@@ -1542,7 +1692,9 @@ Tokenize a string
 
 ### <a name="method-getAdminTokenLiteSmarty"></a>getAdminTokenLiteSmarty
 
-    mixed ToolsCore::getAdminTokenLiteSmarty($params, $smarty)
+```php
+mixed ToolsCore::getAdminTokenLiteSmarty($params, $smarty)
+```
 
 
 
@@ -1561,7 +1713,9 @@ Tokenize a string
 
 ### <a name="method-getAdminUrl"></a>getAdminUrl
 
-    mixed ToolsCore::getAdminUrl(string $url, $entities)
+```php
+mixed ToolsCore::getAdminUrl(string $url, $entities)
+```
 
 Get a valid URL to use from BackOffice
 
@@ -1580,7 +1734,9 @@ Get a valid URL to use from BackOffice
 
 ### <a name="method-getAllValues"></a>getAllValues
 
-    mixed ToolsCore::getAllValues()
+```php
+mixed ToolsCore::getAllValues()
+```
 
 Get all values from $_POST/$_GET
 
@@ -1595,7 +1751,9 @@ Get all values from $_POST/$_GET
 
 ### <a name="method-getBrightness"></a>getBrightness
 
-    mixed ToolsCore::getBrightness($hex)
+```php
+mixed ToolsCore::getBrightness($hex)
+```
 
 
 
@@ -1613,7 +1771,9 @@ Get all values from $_POST/$_GET
 
 ### <a name="method-getBytes"></a>getBytes
 
-    boolean|string ToolsCore::getBytes($length)
+```php
+boolean|string ToolsCore::getBytes($length)
+```
 
 Random bytes generator
 
@@ -1631,7 +1791,9 @@ Thanks to Zend for entropy
 
 ### <a name="method-getCountry"></a>getCountry
 
-    mixed ToolsCore::getCountry($address)
+```php
+mixed ToolsCore::getCountry($address)
+```
 
 
 
@@ -1649,7 +1811,9 @@ Thanks to Zend for entropy
 
 ### <a name="method-getCurrentUrlProtocolPrefix"></a>getCurrentUrlProtocolPrefix
 
-    string ToolsCore::getCurrentUrlProtocolPrefix()
+```php
+string ToolsCore::getCurrentUrlProtocolPrefix()
+```
 
 Get the current url prefix protocol (https/http)
 
@@ -1664,7 +1828,9 @@ Get the current url prefix protocol (https/http)
 
 ### <a name="method-getDefaultIndexContent"></a>getDefaultIndexContent
 
-    mixed ToolsCore::getDefaultIndexContent()
+```php
+mixed ToolsCore::getDefaultIndexContent()
+```
 
 
 
@@ -1679,7 +1845,9 @@ Get the current url prefix protocol (https/http)
 
 ### <a name="method-getDescriptionClean"></a>getDescriptionClean
 
-    string ToolsCore::getDescriptionClean($description)
+```php
+string ToolsCore::getDescriptionClean($description)
+```
 
 Allows to display the category description without HTML tags and slashes
 
@@ -1697,7 +1865,9 @@ Allows to display the category description without HTML tags and slashes
 
 ### <a name="method-getFullPath"></a>getFullPath
 
-    mixed ToolsCore::getFullPath($id_category, $end, $type_cat, \Context $context)
+```php
+mixed ToolsCore::getFullPath($id_category, $end, $type_cat, \Context $context)
+```
 
 
 
@@ -1718,7 +1888,9 @@ Allows to display the category description without HTML tags and slashes
 
 ### <a name="method-getHomeMetaTags"></a>getHomeMetaTags
 
-    mixed ToolsCore::getHomeMetaTags($id_lang, $page_name)
+```php
+mixed ToolsCore::getHomeMetaTags($id_lang, $page_name)
+```
 
 
 
@@ -1737,7 +1909,9 @@ Allows to display the category description without HTML tags and slashes
 
 ### <a name="method-getHttpHost"></a>getHttpHost
 
-    string ToolsCore::getHttpHost(boolean $http, boolean $entities, $ignore_port)
+```php
+string ToolsCore::getHttpHost(boolean $http, boolean $entities, $ignore_port)
+```
 
 getHttpHost return the <b>current</b> host used, with the protocol (http or https) if $http is true
 This function should not be used to choose http or https domain name.
@@ -1758,7 +1932,9 @@ Use Tools::getShopDomain() or Tools::getShopDomainSsl instead
 
 ### <a name="method-getIsset"></a>getIsset
 
-    mixed ToolsCore::getIsset($key)
+```php
+mixed ToolsCore::getIsset($key)
+```
 
 
 
@@ -1776,7 +1952,9 @@ Use Tools::getShopDomain() or Tools::getShopDomainSsl instead
 
 ### <a name="method-getMaxUploadSize"></a>getMaxUploadSize
 
-    integer ToolsCore::getMaxUploadSize(integer $max_size)
+```php
+integer ToolsCore::getMaxUploadSize(integer $max_size)
+```
 
 Get max file upload size considering server settings and optional max value
 
@@ -1794,7 +1972,9 @@ Get max file upload size considering server settings and optional max value
 
 ### <a name="method-getMediaServer"></a>getMediaServer
 
-    mixed ToolsCore::getMediaServer($filename)
+```php
+mixed ToolsCore::getMediaServer($filename)
+```
 
 
 
@@ -1812,7 +1992,9 @@ Get max file upload size considering server settings and optional max value
 
 ### <a name="method-getMemoryLimit"></a>getMemoryLimit
 
-    integer ToolsCore::getMemoryLimit()
+```php
+integer ToolsCore::getMemoryLimit()
+```
 
 getMemoryLimit allow to get the memory limit in octet
 
@@ -1827,7 +2009,9 @@ getMemoryLimit allow to get the memory limit in octet
 
 ### <a name="method-getMetaTags"></a>getMetaTags
 
-    mixed ToolsCore::getMetaTags($id_lang, $page_name, $title)
+```php
+mixed ToolsCore::getMetaTags($id_lang, $page_name, $title)
+```
 
 
 
@@ -1847,7 +2031,9 @@ getMemoryLimit allow to get the memory limit in octet
 
 ### <a name="method-getOctets"></a>getOctets
 
-    integer ToolsCore::getOctets($option)
+```php
+integer ToolsCore::getOctets($option)
+```
 
 getOctet allow to gets the value of a configuration option in octet
 
@@ -1865,7 +2051,9 @@ getOctet allow to gets the value of a configuration option in octet
 
 ### <a name="method-getPath"></a>getPath
 
-    mixed ToolsCore::getPath(integer $id_category, string $path, $link_on_the_item, $category_type, \Context $context)
+```php
+mixed ToolsCore::getPath(integer $id_category, string $path, $link_on_the_item, $category_type, \Context $context)
+```
 
 Get the user's journey
 
@@ -1887,7 +2075,9 @@ Get the user's journey
 
 ### <a name="method-getProductsOrder"></a>getProductsOrder
 
-    string ToolsCore::getProductsOrder(string $type, string $value, boolean|\bool(false)|string $prefix)
+```php
+string ToolsCore::getProductsOrder(string $type, string $value, boolean|\bool(false)|string $prefix)
+```
 
 Get products order field name for queries.
 
@@ -1907,7 +2097,9 @@ Get products order field name for queries.
 
 ### <a name="method-getProtocol"></a>getProtocol
 
-    String ToolsCore::getProtocol(boolean $use_ssl)
+```php
+String ToolsCore::getProtocol(boolean $use_ssl)
+```
 
 getProtocol return the set protocol according to configuration (http[s])
 
@@ -1925,7 +2117,9 @@ getProtocol return the set protocol according to configuration (http[s])
 
 ### <a name="method-getRemoteAddr"></a>getRemoteAddr
 
-    string ToolsCore::getRemoteAddr()
+```php
+string ToolsCore::getRemoteAddr()
+```
 
 Get the server variable REMOTE_ADDR, or the first ip of HTTP_X_FORWARDED_FOR (when using proxy)
 
@@ -1940,7 +2134,9 @@ Get the server variable REMOTE_ADDR, or the first ip of HTTP_X_FORWARDED_FOR (wh
 
 ### <a name="method-getSafeModeStatus"></a>getSafeModeStatus
 
-    mixed ToolsCore::getSafeModeStatus()
+```php
+mixed ToolsCore::getSafeModeStatus()
+```
 
 
 
@@ -1955,7 +2151,9 @@ Get the server variable REMOTE_ADDR, or the first ip of HTTP_X_FORWARDED_FOR (wh
 
 ### <a name="method-getServerName"></a>getServerName
 
-    string ToolsCore::getServerName()
+```php
+string ToolsCore::getServerName()
+```
 
 Get the server variable SERVER_NAME
 
@@ -1970,7 +2168,9 @@ Get the server variable SERVER_NAME
 
 ### <a name="method-getShopDomain"></a>getShopDomain
 
-    string ToolsCore::getShopDomain(boolean $http, boolean $entities)
+```php
+string ToolsCore::getShopDomain(boolean $http, boolean $entities)
+```
 
 getShopDomain returns domain name according to configuration and ignoring ssl
 
@@ -1989,7 +2189,9 @@ getShopDomain returns domain name according to configuration and ignoring ssl
 
 ### <a name="method-getShopDomainSsl"></a>getShopDomainSsl
 
-    string ToolsCore::getShopDomainSsl(boolean $http, boolean $entities)
+```php
+string ToolsCore::getShopDomainSsl(boolean $http, boolean $entities)
+```
 
 getShopDomainSsl returns domain name according to configuration and depending on ssl activation
 
@@ -2008,7 +2210,9 @@ getShopDomainSsl returns domain name according to configuration and depending on
 
 ### <a name="method-getShopProtocol"></a>getShopProtocol
 
-    String ToolsCore::getShopProtocol()
+```php
+String ToolsCore::getShopProtocol()
+```
 
 getShopProtocol return the available protocol for the current shop in use
 SSL if Configuration is set on and available for the server
@@ -2024,7 +2228,9 @@ SSL if Configuration is set on and available for the server
 
 ### <a name="method-getToken"></a>getToken
 
-    mixed ToolsCore::getToken($page, \Context $context)
+```php
+mixed ToolsCore::getToken($page, \Context $context)
+```
 
 Get token to prevent CSRF
 
@@ -2043,7 +2249,9 @@ Get token to prevent CSRF
 
 ### <a name="method-getUserBrowser"></a>getUserBrowser
 
-    mixed ToolsCore::getUserBrowser()
+```php
+mixed ToolsCore::getUserBrowser()
+```
 
 
 
@@ -2058,7 +2266,9 @@ Get token to prevent CSRF
 
 ### <a name="method-getUserPlatform"></a>getUserPlatform
 
-    mixed ToolsCore::getUserPlatform()
+```php
+mixed ToolsCore::getUserPlatform()
+```
 
 
 
@@ -2073,7 +2283,9 @@ Get token to prevent CSRF
 
 ### <a name="method-getValue"></a>getValue
 
-    mixed ToolsCore::getValue(string $key, mixed $default_value)
+```php
+mixed ToolsCore::getValue(string $key, mixed $default_value)
+```
 
 Get a value from $_POST / $_GET
 if unavailable, take a default value
@@ -2093,7 +2305,9 @@ if unavailable, take a default value
 
 ### <a name="method-hourGenerate"></a>hourGenerate
 
-    mixed ToolsCore::hourGenerate($hours, $minutes, $seconds)
+```php
+mixed ToolsCore::hourGenerate($hours, $minutes, $seconds)
+```
 
 
 
@@ -2113,7 +2327,9 @@ if unavailable, take a default value
 
 ### <a name="method-htmlentitiesDecodeUTF8"></a>htmlentitiesDecodeUTF8
 
-    mixed ToolsCore::htmlentitiesDecodeUTF8($string)
+```php
+mixed ToolsCore::htmlentitiesDecodeUTF8($string)
+```
 
 
 
@@ -2131,7 +2347,9 @@ if unavailable, take a default value
 
 ### <a name="method-htmlentitiesUTF8"></a>htmlentitiesUTF8
 
-    mixed ToolsCore::htmlentitiesUTF8($string, $type)
+```php
+mixed ToolsCore::htmlentitiesUTF8($string, $type)
+```
 
 
 
@@ -2150,7 +2368,9 @@ if unavailable, take a default value
 
 ### <a name="method-iconv"></a>iconv
 
-    mixed ToolsCore::iconv($from, $to, $string)
+```php
+mixed ToolsCore::iconv($from, $to, $string)
+```
 
 
 
@@ -2170,7 +2390,9 @@ if unavailable, take a default value
 
 ### <a name="method-isCallable"></a>isCallable
 
-    mixed ToolsCore::isCallable($function)
+```php
+mixed ToolsCore::isCallable($function)
+```
 
 
 
@@ -2188,7 +2410,9 @@ if unavailable, take a default value
 
 ### <a name="method-isEmpty"></a>isEmpty
 
-    mixed ToolsCore::isEmpty($field)
+```php
+mixed ToolsCore::isEmpty($field)
+```
 
 
 
@@ -2206,7 +2430,9 @@ if unavailable, take a default value
 
 ### <a name="method-isPHPCLI"></a>isPHPCLI
 
-    boolean ToolsCore::isPHPCLI()
+```php
+boolean ToolsCore::isPHPCLI()
+```
 
 
 
@@ -2221,7 +2447,9 @@ if unavailable, take a default value
 
 ### <a name="method-isSubmit"></a>isSubmit
 
-    mixed ToolsCore::isSubmit(string $submit)
+```php
+mixed ToolsCore::isSubmit(string $submit)
+```
 
 Check if submit has been posted
 
@@ -2239,7 +2467,9 @@ Check if submit has been posted
 
 ### <a name="method-isX86_64arch"></a>isX86_64arch
 
-    boolean ToolsCore::isX86_64arch()
+```php
+boolean ToolsCore::isX86_64arch()
+```
 
 
 
@@ -2254,7 +2484,9 @@ Check if submit has been posted
 
 ### <a name="method-jsonDecode"></a>jsonDecode
 
-    array ToolsCore::jsonDecode(string $json, boolean $assoc)
+```php
+array ToolsCore::jsonDecode(string $json, boolean $assoc)
+```
 
 jsonDecode convert json string to php array / object
 
@@ -2273,7 +2505,9 @@ jsonDecode convert json string to php array / object
 
 ### <a name="method-jsonEncode"></a>jsonEncode
 
-    string ToolsCore::jsonEncode(array $data)
+```php
+string ToolsCore::jsonEncode(array $data)
+```
 
 Convert an array to json string
 
@@ -2291,7 +2525,9 @@ Convert an array to json string
 
 ### <a name="method-link_rewrite"></a>link_rewrite
 
-    string ToolsCore::link_rewrite(string $str, boolean $utf8_decode)
+```php
+string ToolsCore::link_rewrite(string $str, boolean $utf8_decode)
+```
 
 Return the friendly url from the provided string
 
@@ -2310,7 +2546,9 @@ Return the friendly url from the provided string
 
 ### <a name="method-math_round"></a>math_round
 
-    mixed ToolsCore::math_round($value, $places, $mode)
+```php
+mixed ToolsCore::math_round($value, $places, $mode)
+```
 
 
 
@@ -2330,7 +2568,9 @@ Return the friendly url from the provided string
 
 ### <a name="method-minifyCSS"></a>minifyCSS
 
-    mixed ToolsCore::minifyCSS($css_content, $fileuri)
+```php
+mixed ToolsCore::minifyCSS($css_content, $fileuri)
+```
 
 
 
@@ -2349,7 +2589,9 @@ Return the friendly url from the provided string
 
 ### <a name="method-minifyHTML"></a>minifyHTML
 
-    mixed ToolsCore::minifyHTML($html_content)
+```php
+mixed ToolsCore::minifyHTML($html_content)
+```
 
 
 
@@ -2367,7 +2609,9 @@ Return the friendly url from the provided string
 
 ### <a name="method-minifyHTMLpregCallback"></a>minifyHTMLpregCallback
 
-    mixed ToolsCore::minifyHTMLpregCallback($preg_matches)
+```php
+mixed ToolsCore::minifyHTMLpregCallback($preg_matches)
+```
 
 
 
@@ -2385,7 +2629,9 @@ Return the friendly url from the provided string
 
 ### <a name="method-modRewriteActive"></a>modRewriteActive
 
-    mixed ToolsCore::modRewriteActive()
+```php
+mixed ToolsCore::modRewriteActive()
+```
 
 
 
@@ -2400,7 +2646,9 @@ Return the friendly url from the provided string
 
 ### <a name="method-nl2br"></a>nl2br
 
-    string ToolsCore::nl2br($str)
+```php
+string ToolsCore::nl2br($str)
+```
 
 Convert \n and \r\n and \r to <br />
 
@@ -2418,7 +2666,9 @@ Convert \n and \r\n and \r to <br />
 
 ### <a name="method-normalizeDirectory"></a>normalizeDirectory
 
-    mixed ToolsCore::normalizeDirectory($directory)
+```php
+mixed ToolsCore::normalizeDirectory($directory)
+```
 
 
 
@@ -2436,7 +2686,9 @@ Convert \n and \r\n and \r to <br />
 
 ### <a name="method-orderbyPrice"></a>orderbyPrice
 
-    mixed ToolsCore::orderbyPrice($array, $order_way)
+```php
+mixed ToolsCore::orderbyPrice($array, $order_way)
+```
 
 
 
@@ -2455,7 +2707,9 @@ Convert \n and \r\n and \r to <br />
 
 ### <a name="method-p"></a>p
 
-    mixed ToolsCore::p(object $object)
+```php
+mixed ToolsCore::p(object $object)
+```
 
 ALIAS OF dieObject() - Display an error with detailed object but don't stop the execution
 
@@ -2473,7 +2727,9 @@ ALIAS OF dieObject() - Display an error with detailed object but don't stop the 
 
 ### <a name="method-pRegexp"></a>pRegexp
 
-    mixed ToolsCore::pRegexp($s, $delim)
+```php
+mixed ToolsCore::pRegexp($s, $delim)
+```
 
 
 
@@ -2492,7 +2748,9 @@ ALIAS OF dieObject() - Display an error with detailed object but don't stop the 
 
 ### <a name="method-packJS"></a>packJS
 
-    mixed ToolsCore::packJS($js_content)
+```php
+mixed ToolsCore::packJS($js_content)
+```
 
 
 
@@ -2510,7 +2768,9 @@ ALIAS OF dieObject() - Display an error with detailed object but don't stop the 
 
 ### <a name="method-packJSinHTML"></a>packJSinHTML
 
-    mixed ToolsCore::packJSinHTML($html_content)
+```php
+mixed ToolsCore::packJSinHTML($html_content)
+```
 
 
 
@@ -2528,7 +2788,9 @@ ALIAS OF dieObject() - Display an error with detailed object but don't stop the 
 
 ### <a name="method-packJSinHTMLpregCallback"></a>packJSinHTMLpregCallback
 
-    mixed ToolsCore::packJSinHTMLpregCallback($preg_matches)
+```php
+mixed ToolsCore::packJSinHTMLpregCallback($preg_matches)
+```
 
 
 
@@ -2546,7 +2808,9 @@ ALIAS OF dieObject() - Display an error with detailed object but don't stop the 
 
 ### <a name="method-parserSQL"></a>parserSQL
 
-    mixed ToolsCore::parserSQL($sql)
+```php
+mixed ToolsCore::parserSQL($sql)
+```
 
 
 
@@ -2564,7 +2828,9 @@ ALIAS OF dieObject() - Display an error with detailed object but don't stop the 
 
 ### <a name="method-passwdGen"></a>passwdGen
 
-    boolean|string ToolsCore::passwdGen(integer $length, string $flag)
+```php
+boolean|string ToolsCore::passwdGen(integer $length, string $flag)
+```
 
 Random password generator
 
@@ -2583,7 +2849,9 @@ Random password generator
 
 ### <a name="method-property_exists"></a>property_exists
 
-    boolean ToolsCore::property_exists(object $class, string $property)
+```php
+boolean ToolsCore::property_exists(object $class, string $property)
+```
 
 Function property_exists does not exist in PHP < 5.1
 
@@ -2602,7 +2870,9 @@ Function property_exists does not exist in PHP < 5.1
 
 ### <a name="method-ps_round"></a>ps_round
 
-    float ToolsCore::ps_round(float $value, integer $precision, $round_mode)
+```php
+float ToolsCore::ps_round(float $value, integer $precision, $round_mode)
+```
 
 returns the rounded value of $value to specified precision, according to your configuration;
 
@@ -2622,7 +2892,9 @@ returns the rounded value of $value to specified precision, according to your co
 
 ### <a name="method-purifyHTML"></a>purifyHTML
 
-    mixed ToolsCore::purifyHTML($html, $uri_unescape, $allow_style)
+```php
+mixed ToolsCore::purifyHTML($html, $uri_unescape, $allow_style)
+```
 
 
 
@@ -2642,7 +2914,9 @@ returns the rounded value of $value to specified precision, according to your co
 
 ### <a name="method-recurseCopy"></a>recurseCopy
 
-    mixed ToolsCore::recurseCopy($src, $dst, boolean $del)
+```php
+mixed ToolsCore::recurseCopy($src, $dst, boolean $del)
+```
 
 Copy the folder $src into $dst, $dst is created if it do not exist
 
@@ -2662,7 +2936,9 @@ Copy the folder $src into $dst, $dst is created if it do not exist
 
 ### <a name="method-redirect"></a>redirect
 
-    mixed ToolsCore::redirect(string $url, string $base_uri, \Link $link, string|array $headers)
+```php
+mixed ToolsCore::redirect(string $url, string $base_uri, \Link $link, string|array $headers)
+```
 
 Redirect user to another page
 
@@ -2683,7 +2959,9 @@ Redirect user to another page
 
 ### <a name="method-redirectAdmin"></a>redirectAdmin
 
-    mixed ToolsCore::redirectAdmin(string $url)
+```php
+mixed ToolsCore::redirectAdmin(string $url)
+```
 
 Redirect user to another admin page
 
@@ -2701,7 +2979,9 @@ Redirect user to another admin page
 
 ### <a name="method-redirectLink"></a>redirectLink
 
-    mixed ToolsCore::redirectLink(string $url)
+```php
+mixed ToolsCore::redirectLink(string $url)
+```
 
 Redirect URLs already containing PS_BASE_URI
 
@@ -2719,7 +2999,9 @@ Redirect URLs already containing PS_BASE_URI
 
 ### <a name="method-replaceAccentedChars"></a>replaceAccentedChars
 
-    string ToolsCore::replaceAccentedChars(string $str)
+```php
+string ToolsCore::replaceAccentedChars(string $str)
+```
 
 Replace all accented chars by their equivalent non accented chars.
 
@@ -2737,7 +3019,9 @@ Replace all accented chars by their equivalent non accented chars.
 
 ### <a name="method-replaceByAbsoluteURL"></a>replaceByAbsoluteURL
 
-    mixed ToolsCore::replaceByAbsoluteURL($matches)
+```php
+mixed ToolsCore::replaceByAbsoluteURL($matches)
+```
 
 
 
@@ -2755,7 +3039,9 @@ Replace all accented chars by their equivalent non accented chars.
 
 ### <a name="method-restoreCacheSettings"></a>restoreCacheSettings
 
-    mixed ToolsCore::restoreCacheSettings(\Context $context)
+```php
+mixed ToolsCore::restoreCacheSettings(\Context $context)
+```
 
 
 
@@ -2773,7 +3059,9 @@ Replace all accented chars by their equivalent non accented chars.
 
 ### <a name="method-round_helper"></a>round_helper
 
-    mixed ToolsCore::round_helper($value, $mode)
+```php
+mixed ToolsCore::round_helper($value, $mode)
+```
 
 
 
@@ -2792,7 +3080,9 @@ Replace all accented chars by their equivalent non accented chars.
 
 ### <a name="method-rtrimString"></a>rtrimString
 
-    string ToolsCore::rtrimString(string $str, string $str_search)
+```php
+string ToolsCore::rtrimString(string $str, string $str_search)
+```
 
 Delete a substring from another one starting from the right
 
@@ -2811,7 +3101,9 @@ Delete a substring from another one starting from the right
 
 ### <a name="method-safeDefine"></a>safeDefine
 
-    mixed ToolsCore::safeDefine(string $constant, mixed $value)
+```php
+mixed ToolsCore::safeDefine(string $constant, mixed $value)
+```
 
 Check if a constant was already defined
 
@@ -2830,7 +3122,9 @@ Check if a constant was already defined
 
 ### <a name="method-safeOutput"></a>safeOutput
 
-    string ToolsCore::safeOutput(string $string, $html)
+```php
+string ToolsCore::safeOutput(string $string, $html)
+```
 
 Sanitize a string
 
@@ -2849,7 +3143,9 @@ Sanitize a string
 
 ### <a name="method-safePostVars"></a>safePostVars
 
-    mixed ToolsCore::safePostVars()
+```php
+mixed ToolsCore::safePostVars()
+```
 
 
 
@@ -2864,7 +3160,9 @@ Sanitize a string
 
 ### <a name="method-scandir"></a>scandir
 
-    array ToolsCore::scandir($path, $ext, $dir, $recursive)
+```php
+array ToolsCore::scandir($path, $ext, $dir, $recursive)
+```
 
 
 
@@ -2885,7 +3183,9 @@ Sanitize a string
 
 ### <a name="method-secureReferrer"></a>secureReferrer
 
-    string ToolsCore::secureReferrer(string $referrer)
+```php
+string ToolsCore::secureReferrer(string $referrer)
+```
 
 Secure an URL referrer
 
@@ -2903,7 +3203,9 @@ Secure an URL referrer
 
 ### <a name="method-setCookieLanguage"></a>setCookieLanguage
 
-    string ToolsCore::setCookieLanguage($cookie)
+```php
+string ToolsCore::setCookieLanguage($cookie)
+```
 
 Change language in cookie while clicking on a flag
 
@@ -2921,7 +3223,9 @@ Change language in cookie while clicking on a flag
 
 ### <a name="method-setCurrency"></a>setCurrency
 
-    \Currency ToolsCore::setCurrency($cookie)
+```php
+\Currency ToolsCore::setCurrency($cookie)
+```
 
 Set cookie currency from POST or default currency
 
@@ -2939,7 +3243,9 @@ Set cookie currency from POST or default currency
 
 ### <a name="method-simplexml_load_file"></a>simplexml_load_file
 
-    mixed ToolsCore::simplexml_load_file($url, $class_name)
+```php
+mixed ToolsCore::simplexml_load_file($url, $class_name)
+```
 
 
 
@@ -2958,7 +3264,9 @@ Set cookie currency from POST or default currency
 
 ### <a name="method-spreadAmount"></a>spreadAmount
 
-    mixed ToolsCore::spreadAmount($amount, $precision, $rows, $column)
+```php
+mixed ToolsCore::spreadAmount($amount, $precision, $rows, $column)
+```
 
 Spread an amount on lines, adjusting the $column field,
 with the biggest adjustments going to the rows having the
@@ -2990,7 +3298,9 @@ spreadAmount(0.3, 1, $rows, 'a');
 
 ### <a name="method-str2url"></a>str2url
 
-    string ToolsCore::str2url(string $str)
+```php
+string ToolsCore::str2url(string $str)
+```
 
 Return a friendly url made from the provided string
 If the mbstring library is available, the output is the same as the js function of the same name
@@ -3009,7 +3319,9 @@ If the mbstring library is available, the output is the same as the js function 
 
 ### <a name="method-strReplaceFirst"></a>strReplaceFirst
 
-    mixed ToolsCore::strReplaceFirst($search, $replace, $subject, $cur)
+```php
+mixed ToolsCore::strReplaceFirst($search, $replace, $subject, $cur)
+```
 
 
 
@@ -3030,7 +3342,9 @@ If the mbstring library is available, the output is the same as the js function 
 
 ### <a name="method-str_replace_once"></a>str_replace_once
 
-    mixed ToolsCore::str_replace_once($needle, $replace, $haystack)
+```php
+mixed ToolsCore::str_replace_once($needle, $replace, $haystack)
+```
 
 
 
@@ -3050,7 +3364,9 @@ If the mbstring library is available, the output is the same as the js function 
 
 ### <a name="method-stripslashes"></a>stripslashes
 
-    mixed ToolsCore::stripslashes($string)
+```php
+mixed ToolsCore::stripslashes($string)
+```
 
 
 
@@ -3068,7 +3384,9 @@ If the mbstring library is available, the output is the same as the js function 
 
 ### <a name="method-strlen"></a>strlen
 
-    mixed ToolsCore::strlen($str, $encoding)
+```php
+mixed ToolsCore::strlen($str, $encoding)
+```
 
 
 
@@ -3087,7 +3405,9 @@ If the mbstring library is available, the output is the same as the js function 
 
 ### <a name="method-strpos"></a>strpos
 
-    mixed ToolsCore::strpos($str, $find, $offset, $encoding)
+```php
+mixed ToolsCore::strpos($str, $find, $offset, $encoding)
+```
 
 
 
@@ -3108,7 +3428,9 @@ If the mbstring library is available, the output is the same as the js function 
 
 ### <a name="method-strrpos"></a>strrpos
 
-    mixed ToolsCore::strrpos($str, $find, $offset, $encoding)
+```php
+mixed ToolsCore::strrpos($str, $find, $offset, $encoding)
+```
 
 
 
@@ -3129,7 +3451,9 @@ If the mbstring library is available, the output is the same as the js function 
 
 ### <a name="method-strtolower"></a>strtolower
 
-    mixed ToolsCore::strtolower($str)
+```php
+mixed ToolsCore::strtolower($str)
+```
 
 
 
@@ -3147,7 +3471,9 @@ If the mbstring library is available, the output is the same as the js function 
 
 ### <a name="method-strtoupper"></a>strtoupper
 
-    mixed ToolsCore::strtoupper($str)
+```php
+mixed ToolsCore::strtoupper($str)
+```
 
 
 
@@ -3165,7 +3491,9 @@ If the mbstring library is available, the output is the same as the js function 
 
 ### <a name="method-substr"></a>substr
 
-    mixed ToolsCore::substr($str, $start, $length, $encoding)
+```php
+mixed ToolsCore::substr($str, $start, $length, $encoding)
+```
 
 
 
@@ -3186,7 +3514,9 @@ If the mbstring library is available, the output is the same as the js function 
 
 ### <a name="method-switchLanguage"></a>switchLanguage
 
-    mixed ToolsCore::switchLanguage(\Context $context)
+```php
+mixed ToolsCore::switchLanguage(\Context $context)
+```
 
 Set cookie id_lang
 
@@ -3204,7 +3534,9 @@ Set cookie id_lang
 
 ### <a name="method-throwDeprecated"></a>throwDeprecated
 
-    mixed ToolsCore::throwDeprecated($error, $message, $class)
+```php
+mixed ToolsCore::throwDeprecated($error, $message, $class)
+```
 
 
 
@@ -3224,7 +3556,9 @@ Set cookie id_lang
 
 ### <a name="method-toCamelCase"></a>toCamelCase
 
-    mixed ToolsCore::toCamelCase($str, $catapitalise_first_char)
+```php
+mixed ToolsCore::toCamelCase($str, $catapitalise_first_char)
+```
 
 Translates a string with underscores into camel case (e.g. first_name -> firstName)
 
@@ -3243,7 +3577,9 @@ Translates a string with underscores into camel case (e.g. first_name -> firstNa
 
 ### <a name="method-toUnderscoreCase"></a>toUnderscoreCase
 
-    string ToolsCore::toUnderscoreCase(string $string)
+```php
+string ToolsCore::toUnderscoreCase(string $string)
+```
 
 Transform a CamelCase string to underscore_case string
 
@@ -3261,7 +3597,9 @@ Transform a CamelCase string to underscore_case string
 
 ### <a name="method-truncate"></a>truncate
 
-    mixed ToolsCore::truncate($str, $max_length, $suffix)
+```php
+mixed ToolsCore::truncate($str, $max_length, $suffix)
+```
 
 
 
@@ -3281,7 +3619,9 @@ Transform a CamelCase string to underscore_case string
 
 ### <a name="method-truncateString"></a>truncateString
 
-    mixed ToolsCore::truncateString($text, $length, $options)
+```php
+mixed ToolsCore::truncateString($text, $length, $options)
+```
 
 
 
@@ -3301,7 +3641,9 @@ Transform a CamelCase string to underscore_case string
 
 ### <a name="method-ucfirst"></a>ucfirst
 
-    mixed ToolsCore::ucfirst($str)
+```php
+mixed ToolsCore::ucfirst($str)
+```
 
 
 
@@ -3319,7 +3661,9 @@ Transform a CamelCase string to underscore_case string
 
 ### <a name="method-ucwords"></a>ucwords
 
-    mixed ToolsCore::ucwords($str)
+```php
+mixed ToolsCore::ucwords($str)
+```
 
 
 
@@ -3337,7 +3681,9 @@ Transform a CamelCase string to underscore_case string
 
 ### <a name="method-unSerialize"></a>unSerialize
 
-    mixed ToolsCore::unSerialize($serialized, $object)
+```php
+mixed ToolsCore::unSerialize($serialized, $object)
+```
 
 
 
@@ -3356,7 +3702,9 @@ Transform a CamelCase string to underscore_case string
 
 ### <a name="method-url"></a>url
 
-    string ToolsCore::url(string $begin, string $end)
+```php
+string ToolsCore::url(string $begin, string $end)
+```
 
 Concat $begin and $end, add ? or & between strings
 
@@ -3375,7 +3723,9 @@ Concat $begin and $end, add ? or & between strings
 
 ### <a name="method-usingSecureMode"></a>usingSecureMode
 
-    boolean ToolsCore::usingSecureMode()
+```php
+boolean ToolsCore::usingSecureMode()
+```
 
 Check if the current page use SSL connection on not
 
@@ -3390,7 +3740,9 @@ Check if the current page use SSL connection on not
 
 ### <a name="method-version_compare"></a>version_compare
 
-    mixed ToolsCore::version_compare($v1, $v2, string $operator)
+```php
+mixed ToolsCore::version_compare($v1, $v2, string $operator)
+```
 
 Align version sent and use internal function
 
@@ -3410,7 +3762,9 @@ Align version sent and use internal function
 
 ### <a name="method-waitUntilFileIsModified"></a>waitUntilFileIsModified
 
-    mixed ToolsCore::waitUntilFileIsModified($file_name, $timeout)
+```php
+mixed ToolsCore::waitUntilFileIsModified($file_name, $timeout)
+```
 
 
 

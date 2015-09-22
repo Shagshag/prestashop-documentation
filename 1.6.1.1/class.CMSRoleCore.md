@@ -10,16 +10,18 @@ Class CMSRoleCore
 * Source: [classes/CMSRole.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L28)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$id_cms](#property-$id_cms)
 * [$name](#property-$name)
 
-Methods
--------
+### Methods
+
 * [getRepositoryClassName](#method-getRepositoryClassName)
 
 
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'cms_role', 'primary' => 'id_cms_role', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 50), 'id_cms' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt')))
+```php
+public mixed $definition = array('table' => 'cms_role', 'primary' => 'id_cms_role', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 50), 'id_cms' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt')))
+```
 
 
 
@@ -44,7 +48,9 @@ Properties
 
 ### <a name="property-$id_cms"></a>$id_cms
 
-    public integer $id_cms
+```php
+public integer $id_cms
+```
 
 
 
@@ -56,7 +62,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -72,7 +80,9 @@ Methods
 
 ### <a name="method-getRepositoryClassName"></a>getRepositoryClassName
 
-    mixed CMSRoleCore::getRepositoryClassName()
+```php
+mixed CMSRoleCore::getRepositoryClassName()
+```
 
 
 

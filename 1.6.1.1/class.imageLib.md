@@ -9,9 +9,11 @@ Class imageLib
 * Source: [admin-dev/filemanager/include/php_image_magician.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L163)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$aggresiveSharpening](#property-$aggresiveSharpening)
 * [$captionBoxPositionArray](#property-$captionBoxPositionArray)
@@ -37,8 +39,8 @@ Properties
 * [$width](#property-$width)
 * [$widthOriginal](#property-$widthOriginal)
 
-Methods
--------
+### Methods
+
 * [GD2BMPstring](#method-GD2BMPstring)
 * [GetPixelColor](#method-GetPixelColor)
 * [ImageCreateFromBMP](#method-ImageCreateFromBMP)
@@ -135,7 +137,9 @@ Properties
 
 ### <a name="property-$aggresiveSharpening"></a>$aggresiveSharpening
 
-    private mixed $aggresiveSharpening = false
+```php
+private mixed $aggresiveSharpening = false
+```
 
 
 
@@ -147,7 +151,9 @@ Properties
 
 ### <a name="property-$captionBoxPositionArray"></a>$captionBoxPositionArray
 
-    private mixed $captionBoxPositionArray = array()
+```php
+private mixed $captionBoxPositionArray = array()
+```
 
 
 
@@ -159,7 +165,9 @@ Properties
 
 ### <a name="property-$cropFromTopPercent"></a>$cropFromTopPercent
 
-    private mixed $cropFromTopPercent = 10
+```php
+private mixed $cropFromTopPercent = 10
+```
 
 
 
@@ -171,7 +179,9 @@ Properties
 
 ### <a name="property-$debug"></a>$debug
 
-    private mixed $debug = true
+```php
+private mixed $debug = true
+```
 
 
 
@@ -183,7 +193,9 @@ Properties
 
 ### <a name="property-$errorArray"></a>$errorArray
 
-    private mixed $errorArray = array()
+```php
+private mixed $errorArray = array()
+```
 
 
 
@@ -195,7 +207,9 @@ Properties
 
 ### <a name="property-$fileExtension"></a>$fileExtension
 
-    private mixed $fileExtension
+```php
+private mixed $fileExtension
+```
 
 
 
@@ -207,7 +221,9 @@ Properties
 
 ### <a name="property-$fileName"></a>$fileName
 
-    private mixed $fileName
+```php
+private mixed $fileName
+```
 
 
 
@@ -219,7 +235,9 @@ Properties
 
 ### <a name="property-$fillColorArray"></a>$fillColorArray
 
-    private mixed $fillColorArray = array('r' => 255, 'g' => 255, 'b' => 255)
+```php
+private mixed $fillColorArray = array('r' => 255, 'g' => 255, 'b' => 255)
+```
 
 
 
@@ -231,7 +249,9 @@ Properties
 
 ### <a name="property-$filterOverlayPath"></a>$filterOverlayPath
 
-    private mixed $filterOverlayPath
+```php
+private mixed $filterOverlayPath
+```
 
 
 
@@ -243,7 +263,9 @@ Properties
 
 ### <a name="property-$fontDir"></a>$fontDir
 
-    private mixed $fontDir = 'fonts'
+```php
+private mixed $fontDir = 'fonts'
+```
 
 
 
@@ -255,7 +277,9 @@ Properties
 
 ### <a name="property-$forceStretch"></a>$forceStretch
 
-    private mixed $forceStretch = true
+```php
+private mixed $forceStretch = true
+```
 
 
 
@@ -267,7 +291,9 @@ Properties
 
 ### <a name="property-$height"></a>$height
 
-    private mixed $height
+```php
+private mixed $height
+```
 
 
 
@@ -279,7 +305,9 @@ Properties
 
 ### <a name="property-$heightOriginal"></a>$heightOriginal
 
-    private mixed $heightOriginal
+```php
+private mixed $heightOriginal
+```
 
 
 
@@ -291,7 +319,9 @@ Properties
 
 ### <a name="property-$image"></a>$image
 
-    private mixed $image
+```php
+private mixed $image
+```
 
 
 
@@ -303,7 +333,9 @@ Properties
 
 ### <a name="property-$imageResized"></a>$imageResized
 
-    protected mixed $imageResized
+```php
+protected mixed $imageResized
+```
 
 
 
@@ -315,7 +347,9 @@ Properties
 
 ### <a name="property-$imageSize"></a>$imageSize
 
-    private mixed $imageSize
+```php
+private mixed $imageSize
+```
 
 
 
@@ -327,7 +361,9 @@ Properties
 
 ### <a name="property-$isInterlace"></a>$isInterlace
 
-    private mixed $isInterlace
+```php
+private mixed $isInterlace
+```
 
 
 
@@ -339,7 +375,9 @@ Properties
 
 ### <a name="property-$keepTransparency"></a>$keepTransparency
 
-    private mixed $keepTransparency = true
+```php
+private mixed $keepTransparency = true
+```
 
 
 
@@ -351,7 +389,9 @@ Properties
 
 ### <a name="property-$psdReaderPath"></a>$psdReaderPath
 
-    private mixed $psdReaderPath
+```php
+private mixed $psdReaderPath
+```
 
 
 
@@ -363,7 +403,9 @@ Properties
 
 ### <a name="property-$sharpenArray"></a>$sharpenArray
 
-    private mixed $sharpenArray = array('jpg')
+```php
+private mixed $sharpenArray = array('jpg')
+```
 
 
 
@@ -375,7 +417,9 @@ Properties
 
 ### <a name="property-$transparentArray"></a>$transparentArray
 
-    private mixed $transparentArray = array('.png', '.gif')
+```php
+private mixed $transparentArray = array('.png', '.gif')
+```
 
 
 
@@ -387,7 +431,9 @@ Properties
 
 ### <a name="property-$width"></a>$width
 
-    private mixed $width
+```php
+private mixed $width
+```
 
 
 
@@ -399,7 +445,9 @@ Properties
 
 ### <a name="property-$widthOriginal"></a>$widthOriginal
 
-    private mixed $widthOriginal
+```php
+private mixed $widthOriginal
+```
 
 
 
@@ -415,7 +463,9 @@ Methods
 
 ### <a name="method-GD2BMPstring"></a>GD2BMPstring
 
-    mixed imageLib::GD2BMPstring($gd_image)
+```php
+mixed imageLib::GD2BMPstring($gd_image)
+```
 
 
 
@@ -432,7 +482,9 @@ Methods
 
 ### <a name="method-GetPixelColor"></a>GetPixelColor
 
-    mixed imageLib::GetPixelColor($img, $x, $y)
+```php
+mixed imageLib::GetPixelColor($img, $x, $y)
+```
 
 
 
@@ -451,7 +503,9 @@ Methods
 
 ### <a name="method-ImageCreateFromBMP"></a>ImageCreateFromBMP
 
-    mixed imageLib::ImageCreateFromBMP($filename)
+```php
+mixed imageLib::ImageCreateFromBMP($filename)
+```
 
 
 
@@ -468,7 +522,9 @@ Methods
 
 ### <a name="method-LittleEndian2String"></a>LittleEndian2String
 
-    mixed imageLib::LittleEndian2String($number, $minbytes)
+```php
+mixed imageLib::LittleEndian2String($number, $minbytes)
+```
 
 
 
@@ -486,7 +542,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed imageLib::__construct($fileName)
+```php
+mixed imageLib::__construct($fileName)
+```
 
 
 
@@ -503,7 +561,9 @@ Methods
 
 ### <a name="method-__destruct"></a>__destruct
 
-    mixed imageLib::__destruct()
+```php
+mixed imageLib::__destruct()
+```
 
 
 
@@ -517,7 +577,9 @@ Methods
 
 ### <a name="method-addBorder"></a>addBorder
 
-    mixed imageLib::addBorder($thickness, $rgbArray)
+```php
+mixed imageLib::addBorder($thickness, $rgbArray)
+```
 
 
 
@@ -535,7 +597,9 @@ Methods
 
 ### <a name="method-addCaptionBox"></a>addCaptionBox
 
-    mixed imageLib::addCaptionBox($side, $thickness, $padding, $bgColor, $transparencyAmount)
+```php
+mixed imageLib::addCaptionBox($side, $thickness, $padding, $bgColor, $transparencyAmount)
+```
 
 
 
@@ -556,7 +620,9 @@ Methods
 
 ### <a name="method-addReflection"></a>addReflection
 
-    mixed imageLib::addReflection($reflectionHeight, $startingTransparency, $inside, $bgColor, $stretch, $divider)
+```php
+mixed imageLib::addReflection($reflectionHeight, $startingTransparency, $inside, $bgColor, $stretch, $divider)
+```
 
 
 
@@ -578,7 +644,9 @@ Methods
 
 ### <a name="method-addShadow"></a>addShadow
 
-    mixed imageLib::addShadow($shadowAngle, $blur, $bgColor)
+```php
+mixed imageLib::addShadow($shadowAngle, $blur, $bgColor)
+```
 
 
 
@@ -597,7 +665,9 @@ Methods
 
 ### <a name="method-addText"></a>addText
 
-    mixed imageLib::addText($text, $pos, $padding, $fontColor, $fontSize, $angle, $font)
+```php
+mixed imageLib::addText($text, $pos, $padding, $fontColor, $fontSize, $angle, $font)
+```
 
 
 
@@ -620,7 +690,9 @@ Methods
 
 ### <a name="method-addTextToCaptionBox"></a>addTextToCaptionBox
 
-    mixed imageLib::addTextToCaptionBox($text, $fontColor, $fontSize, $angle, $font)
+```php
+mixed imageLib::addTextToCaptionBox($text, $fontColor, $fontSize, $angle, $font)
+```
 
 
 
@@ -641,7 +713,9 @@ Methods
 
 ### <a name="method-addWatermark"></a>addWatermark
 
-    mixed imageLib::addWatermark($watermarkImage, $pos, $padding, $opacity)
+```php
+mixed imageLib::addWatermark($watermarkImage, $pos, $padding, $opacity)
+```
 
 
 
@@ -661,7 +735,9 @@ Methods
 
 ### <a name="method-blackAndWhite"></a>blackAndWhite
 
-    mixed imageLib::blackAndWhite()
+```php
+mixed imageLib::blackAndWhite()
+```
 
 
 
@@ -675,7 +751,9 @@ Methods
 
 ### <a name="method-borderPreset"></a>borderPreset
 
-    mixed imageLib::borderPreset($preset)
+```php
+mixed imageLib::borderPreset($preset)
+```
 
 
 
@@ -692,7 +770,9 @@ Methods
 
 ### <a name="method-calculateCaptionBoxPosition"></a>calculateCaptionBoxPosition
 
-    mixed imageLib::calculateCaptionBoxPosition($side, $thickness, $padding)
+```php
+mixed imageLib::calculateCaptionBoxPosition($side, $thickness, $padding)
+```
 
 
 
@@ -711,7 +791,9 @@ Methods
 
 ### <a name="method-calculatePosition"></a>calculatePosition
 
-    mixed imageLib::calculatePosition($pos, $padding, $assetWidth, $assetHeight, $upperLeft)
+```php
+mixed imageLib::calculatePosition($pos, $padding, $assetWidth, $assetHeight, $upperLeft)
+```
 
 
 
@@ -732,7 +814,9 @@ Methods
 
 ### <a name="method-checkInterlaceImage"></a>checkInterlaceImage
 
-    mixed imageLib::checkInterlaceImage($isEnabled)
+```php
+mixed imageLib::checkInterlaceImage($isEnabled)
+```
 
 
 
@@ -749,7 +833,9 @@ Methods
 
 ### <a name="method-checkStringStartsWith"></a>checkStringStartsWith
 
-    mixed imageLib::checkStringStartsWith($needle, $haystack)
+```php
+mixed imageLib::checkStringStartsWith($needle, $haystack)
+```
 
 
 
@@ -767,7 +853,9 @@ Methods
 
 ### <a name="method-createImageColor"></a>createImageColor
 
-    mixed imageLib::createImageColor($colorArray)
+```php
+mixed imageLib::createImageColor($colorArray)
+```
 
 
 
@@ -784,7 +872,9 @@ Methods
 
 ### <a name="method-crop"></a>crop
 
-    mixed imageLib::crop($optimalWidth, $optimalHeight, $newWidth, $newHeight, $cropPos)
+```php
+mixed imageLib::crop($optimalWidth, $optimalHeight, $newWidth, $newHeight, $cropPos)
+```
 
 
 
@@ -805,7 +895,9 @@ Methods
 
 ### <a name="method-cropImage"></a>cropImage
 
-    mixed imageLib::cropImage($newWidth, $newHeight, $cropPos)
+```php
+mixed imageLib::cropImage($newWidth, $newHeight, $cropPos)
+```
 
 
 
@@ -824,7 +916,9 @@ Methods
 
 ### <a name="method-displayImage"></a>displayImage
 
-    mixed imageLib::displayImage($fileType, $imageQuality)
+```php
+mixed imageLib::displayImage($fileType, $imageQuality)
+```
 
 
 
@@ -842,7 +936,9 @@ Methods
 
 ### <a name="method-filterOpacity"></a>filterOpacity
 
-    mixed imageLib::filterOpacity($img, $opacity)
+```php
+mixed imageLib::filterOpacity($img, $opacity)
+```
 
 
 
@@ -860,7 +956,9 @@ Methods
 
 ### <a name="method-findSharp"></a>findSharp
 
-    mixed imageLib::findSharp($orig, $final)
+```php
+mixed imageLib::findSharp($orig, $final)
+```
 
 
 
@@ -878,7 +976,9 @@ Methods
 
 ### <a name="method-findUnusedBlue"></a>findUnusedBlue
 
-    mixed imageLib::findUnusedBlue()
+```php
+mixed imageLib::findUnusedBlue()
+```
 
 
 
@@ -892,7 +992,9 @@ Methods
 
 ### <a name="method-findUnusedGreen"></a>findUnusedGreen
 
-    mixed imageLib::findUnusedGreen()
+```php
+mixed imageLib::findUnusedGreen()
+```
 
 
 
@@ -906,7 +1008,9 @@ Methods
 
 ### <a name="method-formatColor"></a>formatColor
 
-    mixed imageLib::formatColor($value)
+```php
+mixed imageLib::formatColor($value)
+```
 
 
 
@@ -923,7 +1027,9 @@ Methods
 
 ### <a name="method-gd_apply_overlay"></a>gd_apply_overlay
 
-    mixed imageLib::gd_apply_overlay($im, $type, $amount)
+```php
+mixed imageLib::gd_apply_overlay($im, $type, $amount)
+```
 
 Apply a PNG overlay
 
@@ -942,7 +1048,9 @@ Apply a PNG overlay
 
 ### <a name="method-gd_filter_monopin"></a>gd_filter_monopin
 
-    mixed imageLib::gd_filter_monopin()
+```php
+mixed imageLib::gd_filter_monopin()
+```
 
 Apply 'Monopin' preset
 
@@ -956,7 +1064,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-gd_filter_vintage"></a>gd_filter_vintage
 
-    mixed imageLib::gd_filter_vintage()
+```php
+mixed imageLib::gd_filter_vintage()
+```
 
 
 
@@ -970,7 +1080,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getCropPlacing"></a>getCropPlacing
 
-    mixed imageLib::getCropPlacing($optimalWidth, $optimalHeight, $newWidth, $newHeight, $pos)
+```php
+mixed imageLib::getCropPlacing($optimalWidth, $optimalHeight, $newWidth, $newHeight, $pos)
+```
 
 
 
@@ -991,7 +1103,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getDimensions"></a>getDimensions
 
-    mixed imageLib::getDimensions($newWidth, $newHeight, $option)
+```php
+mixed imageLib::getDimensions($newWidth, $newHeight, $option)
+```
 
 
 
@@ -1010,7 +1124,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getErrors"></a>getErrors
 
-    mixed imageLib::getErrors()
+```php
+mixed imageLib::getErrors()
+```
 
 
 
@@ -1024,7 +1140,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getExif"></a>getExif
 
-    mixed imageLib::getExif($debug)
+```php
+mixed imageLib::getExif($debug)
+```
 
 
 
@@ -1041,7 +1159,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getFileName"></a>getFileName
 
-    mixed imageLib::getFileName()
+```php
+mixed imageLib::getFileName()
+```
 
 
 
@@ -1055,7 +1175,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getHeight"></a>getHeight
 
-    mixed imageLib::getHeight()
+```php
+mixed imageLib::getHeight()
+```
 
 
 
@@ -1069,7 +1191,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getOptimalCrop"></a>getOptimalCrop
 
-    mixed imageLib::getOptimalCrop($newWidth, $newHeight)
+```php
+mixed imageLib::getOptimalCrop($newWidth, $newHeight)
+```
 
 
 
@@ -1087,7 +1211,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getOriginalHeight"></a>getOriginalHeight
 
-    mixed imageLib::getOriginalHeight()
+```php
+mixed imageLib::getOriginalHeight()
+```
 
 
 
@@ -1101,7 +1227,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getOriginalWidth"></a>getOriginalWidth
 
-    mixed imageLib::getOriginalWidth()
+```php
+mixed imageLib::getOriginalWidth()
+```
 
 
 
@@ -1115,7 +1243,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getSizeByAuto"></a>getSizeByAuto
 
-    mixed imageLib::getSizeByAuto($newWidth, $newHeight)
+```php
+mixed imageLib::getSizeByAuto($newWidth, $newHeight)
+```
 
 
 
@@ -1133,7 +1263,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getSizeByFixedHeight"></a>getSizeByFixedHeight
 
-    mixed imageLib::getSizeByFixedHeight($newWidth, $newHeight)
+```php
+mixed imageLib::getSizeByFixedHeight($newWidth, $newHeight)
+```
 
 
 
@@ -1151,7 +1283,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getSizeByFixedWidth"></a>getSizeByFixedWidth
 
-    mixed imageLib::getSizeByFixedWidth($newWidth, $newHeight)
+```php
+mixed imageLib::getSizeByFixedWidth($newWidth, $newHeight)
+```
 
 
 
@@ -1169,7 +1303,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getTextFont"></a>getTextFont
 
-    mixed imageLib::getTextFont($font)
+```php
+mixed imageLib::getTextFont($font)
+```
 
 
 
@@ -1186,7 +1322,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getTextSize"></a>getTextSize
 
-    mixed imageLib::getTextSize($fontSize, $angle, $font, $text)
+```php
+mixed imageLib::getTextSize($fontSize, $angle, $font, $text)
+```
 
 
 
@@ -1206,7 +1344,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-getWidth"></a>getWidth
 
-    mixed imageLib::getWidth()
+```php
+mixed imageLib::getWidth()
+```
 
 
 
@@ -1220,7 +1360,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-greyScale"></a>greyScale
 
-    mixed imageLib::greyScale()
+```php
+mixed imageLib::greyScale()
+```
 
 
 
@@ -1234,7 +1376,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-greyScaleDramatic"></a>greyScaleDramatic
 
-    mixed imageLib::greyScaleDramatic()
+```php
+mixed imageLib::greyScaleDramatic()
+```
 
 
 
@@ -1248,7 +1392,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-greyScaleEnhanced"></a>greyScaleEnhanced
 
-    mixed imageLib::greyScaleEnhanced()
+```php
+mixed imageLib::greyScaleEnhanced()
+```
 
 
 
@@ -1262,7 +1408,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-hex2dec"></a>hex2dec
 
-    mixed imageLib::hex2dec($hex)
+```php
+mixed imageLib::hex2dec($hex)
+```
 
 
 
@@ -1279,7 +1427,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-image_colorize"></a>image_colorize
 
-    mixed imageLib::image_colorize($rgb)
+```php
+mixed imageLib::image_colorize($rgb)
+```
 
 
 
@@ -1296,7 +1446,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-imagecreatefrompsd"></a>imagecreatefrompsd
 
-    mixed imageLib::imagecreatefrompsd($fileName)
+```php
+mixed imageLib::imagecreatefrompsd($fileName)
+```
 
 
 
@@ -1313,7 +1465,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-initialise"></a>initialise
 
-    mixed imageLib::initialise()
+```php
+mixed imageLib::initialise()
+```
 
 
 
@@ -1327,7 +1481,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-invertTransparency"></a>invertTransparency
 
-    mixed imageLib::invertTransparency($value, $originalMax, $invert)
+```php
+mixed imageLib::invertTransparency($value, $originalMax, $invert)
+```
 
 
 
@@ -1346,7 +1502,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-iptc_maketag"></a>iptc_maketag
 
-    mixed imageLib::iptc_maketag($rec, $dat, $val)
+```php
+mixed imageLib::iptc_maketag($rec, $dat, $val)
+```
 
 
 
@@ -1365,7 +1523,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-keepTransparancy"></a>keepTransparancy
 
-    mixed imageLib::keepTransparancy($width, $height, $im)
+```php
+mixed imageLib::keepTransparancy($width, $height, $im)
+```
 
 
 
@@ -1384,7 +1544,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-negative"></a>negative
 
-    mixed imageLib::negative()
+```php
+mixed imageLib::negative()
+```
 
 
 
@@ -1398,7 +1560,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-openImage"></a>openImage
 
-    mixed imageLib::openImage($file)
+```php
+mixed imageLib::openImage($file)
+```
 
 
 
@@ -1415,7 +1579,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-prepOption"></a>prepOption
 
-    mixed imageLib::prepOption($option)
+```php
+mixed imageLib::prepOption($option)
+```
 
 
 
@@ -1432,7 +1598,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-reset"></a>reset
 
-    mixed imageLib::reset()
+```php
+mixed imageLib::reset()
+```
 
 
 
@@ -1446,7 +1614,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-resizeImage"></a>resizeImage
 
-    mixed imageLib::resizeImage($newWidth, $newHeight, $option, $sharpen, $autoRotate)
+```php
+mixed imageLib::resizeImage($newWidth, $newHeight, $option, $sharpen, $autoRotate)
+```
 
 
 
@@ -1467,7 +1637,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-resolveExposureProgram"></a>resolveExposureProgram
 
-    mixed imageLib::resolveExposureProgram($ep)
+```php
+mixed imageLib::resolveExposureProgram($ep)
+```
 
 
 
@@ -1484,7 +1656,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-resolveFlash"></a>resolveFlash
 
-    mixed imageLib::resolveFlash($flash)
+```php
+mixed imageLib::resolveFlash($flash)
+```
 
 
 
@@ -1501,7 +1675,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-resolveMeteringMode"></a>resolveMeteringMode
 
-    mixed imageLib::resolveMeteringMode($mm)
+```php
+mixed imageLib::resolveMeteringMode($mm)
+```
 
 
 
@@ -1518,7 +1694,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-rotate"></a>rotate
 
-    mixed imageLib::rotate($value, $bgColor)
+```php
+mixed imageLib::rotate($value, $bgColor)
+```
 
 
 
@@ -1536,7 +1714,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-roundCorners"></a>roundCorners
 
-    mixed imageLib::roundCorners($radius, $bgColor)
+```php
+mixed imageLib::roundCorners($radius, $bgColor)
+```
 
 
 
@@ -1554,7 +1734,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-saveImage"></a>saveImage
 
-    mixed imageLib::saveImage($savePath, $imageQuality)
+```php
+mixed imageLib::saveImage($savePath, $imageQuality)
+```
 
 
 
@@ -1572,7 +1754,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-sepia"></a>sepia
 
-    mixed imageLib::sepia()
+```php
+mixed imageLib::sepia()
+```
 
 
 
@@ -1586,7 +1770,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-sepia2"></a>sepia2
 
-    mixed imageLib::sepia2()
+```php
+mixed imageLib::sepia2()
+```
 
 
 
@@ -1600,7 +1786,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-setCropFromTop"></a>setCropFromTop
 
-    mixed imageLib::setCropFromTop($value)
+```php
+mixed imageLib::setCropFromTop($value)
+```
 
 
 
@@ -1617,7 +1805,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-setFile"></a>setFile
 
-    mixed imageLib::setFile($fileName)
+```php
+mixed imageLib::setFile($fileName)
+```
 
 
 
@@ -1634,7 +1824,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-setFillColor"></a>setFillColor
 
-    mixed imageLib::setFillColor($value)
+```php
+mixed imageLib::setFillColor($value)
+```
 
 
 
@@ -1651,7 +1843,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-setForceStretch"></a>setForceStretch
 
-    mixed imageLib::setForceStretch($value)
+```php
+mixed imageLib::setForceStretch($value)
+```
 
 
 
@@ -1668,7 +1862,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-setTransparency"></a>setTransparency
 
-    mixed imageLib::setTransparency($bool)
+```php
+mixed imageLib::setTransparency($bool)
+```
 
 
 
@@ -1685,7 +1881,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-sharpen"></a>sharpen
 
-    mixed imageLib::sharpen()
+```php
+mixed imageLib::sharpen()
+```
 
 
 
@@ -1699,7 +1897,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-sharpen2"></a>sharpen2
 
-    mixed imageLib::sharpen2($level)
+```php
+mixed imageLib::sharpen2($level)
+```
 
 
 
@@ -1716,7 +1916,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-testColorExists"></a>testColorExists
 
-    mixed imageLib::testColorExists($colorArray)
+```php
+mixed imageLib::testColorExists($colorArray)
+```
 
 
 
@@ -1733,7 +1935,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-testEXIFInstalled"></a>testEXIFInstalled
 
-    mixed imageLib::testEXIFInstalled()
+```php
+mixed imageLib::testEXIFInstalled()
+```
 
 
 
@@ -1747,7 +1951,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-testFunct"></a>testFunct
 
-    mixed imageLib::testFunct()
+```php
+mixed imageLib::testFunct()
+```
 
 
 
@@ -1761,7 +1967,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-testGDInstalled"></a>testGDInstalled
 
-    mixed imageLib::testGDInstalled()
+```php
+mixed imageLib::testGDInstalled()
+```
 
 
 
@@ -1775,7 +1983,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-testIsImage"></a>testIsImage
 
-    mixed imageLib::testIsImage($image)
+```php
+mixed imageLib::testIsImage($image)
+```
 
 
 
@@ -1792,7 +2002,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-transparentImage"></a>transparentImage
 
-    mixed imageLib::transparentImage($src)
+```php
+mixed imageLib::transparentImage($src)
+```
 
 
 
@@ -1809,7 +2021,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-vintage"></a>vintage
 
-    mixed imageLib::vintage()
+```php
+mixed imageLib::vintage()
+```
 
 
 
@@ -1823,7 +2037,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-writeIPTC"></a>writeIPTC
 
-    mixed imageLib::writeIPTC($dat, $value)
+```php
+mixed imageLib::writeIPTC($dat, $value)
+```
 
 
 
@@ -1841,7 +2057,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-writeIPTCcaption"></a>writeIPTCcaption
 
-    mixed imageLib::writeIPTCcaption($value)
+```php
+mixed imageLib::writeIPTCcaption($value)
+```
 
 
 
@@ -1858,7 +2076,9 @@ Apply 'Monopin' preset
 
 ### <a name="method-writeIPTCwriter"></a>writeIPTCwriter
 
-    mixed imageLib::writeIPTCwriter($value)
+```php
+mixed imageLib::writeIPTCwriter($value)
+```
 
 
 

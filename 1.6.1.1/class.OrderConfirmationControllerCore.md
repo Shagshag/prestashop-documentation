@@ -10,9 +10,11 @@ Class OrderConfirmationControllerCore
 * Source: [controllers/front/OrderConfirmationController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$id_cart](#property-$id_cart)
 * [$id_module](#property-$id_module)
@@ -22,8 +24,8 @@ Properties
 * [$secure_key](#property-$secure_key)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [displayOrderConfirmation](#method-displayOrderConfirmation)
 * [displayPaymentReturn](#method-displayPaymentReturn)
 * [init](#method-init)
@@ -38,7 +40,9 @@ Properties
 
 ### <a name="property-$id_cart"></a>$id_cart
 
-    public mixed $id_cart
+```php
+public mixed $id_cart
+```
 
 
 
@@ -50,7 +54,9 @@ Properties
 
 ### <a name="property-$id_module"></a>$id_module
 
-    public mixed $id_module
+```php
+public mixed $id_module
+```
 
 
 
@@ -62,7 +68,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public mixed $id_order
+```php
+public mixed $id_order
+```
 
 
 
@@ -74,7 +82,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'order-confirmation'
+```php
+public mixed $php_self = 'order-confirmation'
+```
 
 
 
@@ -86,7 +96,9 @@ Properties
 
 ### <a name="property-$reference"></a>$reference
 
-    public mixed $reference
+```php
+public mixed $reference
+```
 
 
 
@@ -98,7 +110,9 @@ Properties
 
 ### <a name="property-$secure_key"></a>$secure_key
 
-    public mixed $secure_key
+```php
+public mixed $secure_key
+```
 
 
 
@@ -110,7 +124,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -126,7 +142,9 @@ Methods
 
 ### <a name="method-displayOrderConfirmation"></a>displayOrderConfirmation
 
-    mixed OrderConfirmationControllerCore::displayOrderConfirmation()
+```php
+mixed OrderConfirmationControllerCore::displayOrderConfirmation()
+```
 
 Execute the hook displayOrderConfirmation
 
@@ -140,7 +158,9 @@ Execute the hook displayOrderConfirmation
 
 ### <a name="method-displayPaymentReturn"></a>displayPaymentReturn
 
-    mixed OrderConfirmationControllerCore::displayPaymentReturn()
+```php
+mixed OrderConfirmationControllerCore::displayPaymentReturn()
+```
 
 Execute the hook displayPaymentReturn
 
@@ -154,7 +174,9 @@ Execute the hook displayPaymentReturn
 
 ### <a name="method-init"></a>init
 
-    mixed OrderConfirmationControllerCore::init()
+```php
+mixed OrderConfirmationControllerCore::init()
+```
 
 Initialize order confirmation controller
 
@@ -168,7 +190,9 @@ Initialize order confirmation controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed OrderConfirmationControllerCore::initContent()
+```php
+mixed OrderConfirmationControllerCore::initContent()
+```
 
 Assign template vars related to page content
 

@@ -10,14 +10,16 @@ Class AdminLogsControllerCore
 * Source: [controllers/admin/AdminLogsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLogsController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [displayEmployee](#method-displayEmployee)
 * [initToolbar](#method-initToolbar)
@@ -32,7 +34,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \PrestaShopLogger $object
+```php
+public \PrestaShopLogger $object
+```
 
 
 
@@ -48,7 +52,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminLogsControllerCore::__construct()
+```php
+mixed AdminLogsControllerCore::__construct()
+```
 
 
 
@@ -62,7 +68,9 @@ Methods
 
 ### <a name="method-displayEmployee"></a>displayEmployee
 
-    mixed AdminLogsControllerCore::displayEmployee($value, $tr)
+```php
+mixed AdminLogsControllerCore::displayEmployee($value, $tr)
+```
 
 
 
@@ -80,7 +88,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminLogsControllerCore::initToolbar()
+```php
+mixed AdminLogsControllerCore::initToolbar()
+```
 
 
 
@@ -94,7 +104,9 @@ Methods
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminLogsControllerCore::processDelete()
+```php
+mixed AdminLogsControllerCore::processDelete()
+```
 
 
 

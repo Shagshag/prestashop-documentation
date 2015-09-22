@@ -10,17 +10,19 @@ Class AdminImagesControllerCore
 * Source: [controllers/admin/AdminImagesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$display_move](#property-$display_move)
 * [$max_execution_time](#property-$max_execution_time)
 * [$object](#property-$object)
 * [$start_time](#property-$start_time)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_childValidation](#method-_childValidation)
 * [_deleteOldImages](#method-_deleteOldImages)
@@ -45,7 +47,9 @@ Properties
 
 ### <a name="property-$display_move"></a>$display_move
 
-    protected mixed $display_move
+```php
+protected mixed $display_move
+```
 
 
 
@@ -57,7 +61,9 @@ Properties
 
 ### <a name="property-$max_execution_time"></a>$max_execution_time
 
-    protected mixed $max_execution_time = 7200
+```php
+protected mixed $max_execution_time = 7200
+```
 
 
 
@@ -69,7 +75,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \ImageType $object
+```php
+public \ImageType $object
+```
 
 
 
@@ -81,7 +89,9 @@ Properties
 
 ### <a name="property-$start_time"></a>$start_time
 
-    protected mixed $start_time
+```php
+protected mixed $start_time
+```
 
 
 
@@ -97,7 +107,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminImagesControllerCore::__construct()
+```php
+mixed AdminImagesControllerCore::__construct()
+```
 
 
 
@@ -111,7 +123,9 @@ Methods
 
 ### <a name="method-_childValidation"></a>_childValidation
 
-    mixed AdminImagesControllerCore::_childValidation()
+```php
+mixed AdminImagesControllerCore::_childValidation()
+```
 
 
 
@@ -125,7 +139,9 @@ Methods
 
 ### <a name="method-_deleteOldImages"></a>_deleteOldImages
 
-    boolean AdminImagesControllerCore::_deleteOldImages(string $dir, array $type, boolean $product)
+```php
+boolean AdminImagesControllerCore::_deleteOldImages(string $dir, array $type, boolean $product)
+```
 
 Delete resized image then regenerate new one with updated settings
 
@@ -144,7 +160,9 @@ Delete resized image then regenerate new one with updated settings
 
 ### <a name="method-_moveImagesToNewFileSystem"></a>_moveImagesToNewFileSystem
 
-    mixed AdminImagesControllerCore::_moveImagesToNewFileSystem()
+```php
+mixed AdminImagesControllerCore::_moveImagesToNewFileSystem()
+```
 
 Move product images to the new filesystem
 
@@ -158,7 +176,9 @@ Move product images to the new filesystem
 
 ### <a name="method-_regenerateNewImages"></a>_regenerateNewImages
 
-    boolean|string AdminImagesControllerCore::_regenerateNewImages($dir, $type, boolean $productsImages)
+```php
+boolean|string AdminImagesControllerCore::_regenerateNewImages($dir, $type, boolean $productsImages)
+```
 
 Regenerate images
 
@@ -177,7 +197,9 @@ Regenerate images
 
 ### <a name="method-_regenerateNoPictureImages"></a>_regenerateNoPictureImages
 
-    boolean AdminImagesControllerCore::_regenerateNoPictureImages($dir, $type, $languages)
+```php
+boolean AdminImagesControllerCore::_regenerateNoPictureImages($dir, $type, $languages)
+```
 
 Regenerate no-pictures images
 
@@ -196,7 +218,9 @@ Regenerate no-pictures images
 
 ### <a name="method-_regenerateThumbnails"></a>_regenerateThumbnails
 
-    mixed AdminImagesControllerCore::_regenerateThumbnails($type, $deleteOldImages)
+```php
+mixed AdminImagesControllerCore::_regenerateThumbnails($type, $deleteOldImages)
+```
 
 
 
@@ -214,7 +238,9 @@ Regenerate no-pictures images
 
 ### <a name="method-_regenerateWatermark"></a>_regenerateWatermark
 
-    mixed AdminImagesControllerCore::_regenerateWatermark($dir, $type)
+```php
+mixed AdminImagesControllerCore::_regenerateWatermark($dir, $type)
+```
 
 
 
@@ -232,7 +258,9 @@ Regenerate no-pictures images
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminImagesControllerCore::initContent()
+```php
+mixed AdminImagesControllerCore::initContent()
+```
 
 
 
@@ -246,7 +274,9 @@ Regenerate no-pictures images
 
 ### <a name="method-initMoveImages"></a>initMoveImages
 
-    mixed AdminImagesControllerCore::initMoveImages()
+```php
+mixed AdminImagesControllerCore::initMoveImages()
+```
 
 Init display for move images block
 
@@ -260,7 +290,9 @@ Init display for move images block
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminImagesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminImagesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -274,7 +306,9 @@ Init display for move images block
 
 ### <a name="method-initRegenerate"></a>initRegenerate
 
-    mixed AdminImagesControllerCore::initRegenerate()
+```php
+mixed AdminImagesControllerCore::initRegenerate()
+```
 
 Init display for the thumbnails regeneration block
 
@@ -288,7 +322,9 @@ Init display for the thumbnails regeneration block
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminImagesControllerCore::postProcess()
+```php
+mixed AdminImagesControllerCore::postProcess()
+```
 
 
 
@@ -302,7 +338,9 @@ Init display for the thumbnails regeneration block
 
 ### <a name="method-printEntityActiveIcon"></a>printEntityActiveIcon
 
-    mixed AdminImagesControllerCore::printEntityActiveIcon($value, $object)
+```php
+mixed AdminImagesControllerCore::printEntityActiveIcon($value, $object)
+```
 
 
 

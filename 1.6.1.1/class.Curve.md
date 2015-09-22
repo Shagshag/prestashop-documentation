@@ -9,16 +9,18 @@ Class Curve
 * Source: [classes/Chart.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L144)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$label](#property-$label)
 * [$type](#property-$type)
 * [$values](#property-$values)
 
-Methods
--------
+### Methods
+
 * [getPoint](#method-getPoint)
 * [getValues](#method-getValues)
 * [setLabel](#method-setLabel)
@@ -35,7 +37,9 @@ Properties
 
 ### <a name="property-$label"></a>$label
 
-    protected mixed $label
+```php
+protected mixed $label
+```
 
 
 
@@ -47,7 +51,9 @@ Properties
 
 ### <a name="property-$type"></a>$type
 
-    protected mixed $type
+```php
+protected mixed $type
+```
 
 
 
@@ -59,7 +65,9 @@ Properties
 
 ### <a name="property-$values"></a>$values
 
-    protected mixed $values = array()
+```php
+protected mixed $values = array()
+```
 
 
 
@@ -75,7 +83,9 @@ Methods
 
 ### <a name="method-getPoint"></a>getPoint
 
-    mixed Curve::getPoint($x)
+```php
+mixed Curve::getPoint($x)
+```
 
 
 
@@ -92,7 +102,9 @@ Methods
 
 ### <a name="method-getValues"></a>getValues
 
-    mixed Curve::getValues($time_mode)
+```php
+mixed Curve::getValues($time_mode)
+```
 
 
 
@@ -109,7 +121,9 @@ Methods
 
 ### <a name="method-setLabel"></a>setLabel
 
-    mixed Curve::setLabel($label)
+```php
+mixed Curve::setLabel($label)
+```
 
 
 
@@ -126,7 +140,9 @@ Methods
 
 ### <a name="method-setPoint"></a>setPoint
 
-    mixed Curve::setPoint($x, $y)
+```php
+mixed Curve::setPoint($x, $y)
+```
 
 
 
@@ -144,7 +160,9 @@ Methods
 
 ### <a name="method-setType"></a>setType
 
-    mixed Curve::setType($type)
+```php
+mixed Curve::setType($type)
+```
 
 
 
@@ -161,7 +179,9 @@ Methods
 
 ### <a name="method-setValues"></a>setValues
 
-    mixed Curve::setValues($values)
+```php
+mixed Curve::setValues($values)
+```
 
 
 

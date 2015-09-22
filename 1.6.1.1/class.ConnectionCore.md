@@ -10,9 +10,11 @@ Class ConnectionCore
 * Source: [classes/Connection.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$definition](#property-$definition)
@@ -23,8 +25,8 @@ Properties
 * [$id_shop_group](#property-$id_shop_group)
 * [$ip_address](#property-$ip_address)
 
-Methods
--------
+### Methods
+
 * [cleanConnectionsPages](#method-cleanConnectionsPages)
 * [getFields](#method-getFields)
 * [setNewConnection](#method-setNewConnection)
@@ -40,7 +42,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -52,7 +56,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'connections', 'primary' => 'id_connections', 'fields' => array('id_guest' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_page' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'ip_address' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'http_referer' => array('type' => self::TYPE_STRING, 'validate' => 'isAbsoluteUrl'), 'id_shop' => array('type' => self::TYPE_INT, 'required' => true), 'id_shop_group' => array('type' => self::TYPE_INT, 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'connections', 'primary' => 'id_connections', 'fields' => array('id_guest' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_page' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'ip_address' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'http_referer' => array('type' => self::TYPE_STRING, 'validate' => 'isAbsoluteUrl'), 'id_shop' => array('type' => self::TYPE_INT, 'required' => true), 'id_shop_group' => array('type' => self::TYPE_INT, 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -65,7 +71,9 @@ Properties
 
 ### <a name="property-$http_referer"></a>$http_referer
 
-    public string $http_referer
+```php
+public string $http_referer
+```
 
 
 
@@ -77,7 +85,9 @@ Properties
 
 ### <a name="property-$id_guest"></a>$id_guest
 
-    public integer $id_guest
+```php
+public integer $id_guest
+```
 
 
 
@@ -89,7 +99,9 @@ Properties
 
 ### <a name="property-$id_page"></a>$id_page
 
-    public integer $id_page
+```php
+public integer $id_page
+```
 
 
 
@@ -101,7 +113,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public integer $id_shop
+```php
+public integer $id_shop
+```
 
 
 
@@ -113,7 +127,9 @@ Properties
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
 
-    public integer $id_shop_group
+```php
+public integer $id_shop_group
+```
 
 
 
@@ -125,7 +141,9 @@ Properties
 
 ### <a name="property-$ip_address"></a>$ip_address
 
-    public string $ip_address
+```php
+public string $ip_address
+```
 
 
 
@@ -141,7 +159,9 @@ Methods
 
 ### <a name="method-cleanConnectionsPages"></a>cleanConnectionsPages
 
-    mixed ConnectionCore::cleanConnectionsPages()
+```php
+mixed ConnectionCore::cleanConnectionsPages()
+```
 
 
 
@@ -156,7 +176,9 @@ Methods
 
 ### <a name="method-getFields"></a>getFields
 
-    array ConnectionCore::getFields()
+```php
+array ConnectionCore::getFields()
+```
 
 
 
@@ -170,7 +192,9 @@ Methods
 
 ### <a name="method-setNewConnection"></a>setNewConnection
 
-    mixed ConnectionCore::setNewConnection($cookie)
+```php
+mixed ConnectionCore::setNewConnection($cookie)
+```
 
 
 
@@ -188,7 +212,9 @@ Methods
 
 ### <a name="method-setPageConnection"></a>setPageConnection
 
-    mixed ConnectionCore::setPageConnection($cookie, $full)
+```php
+mixed ConnectionCore::setPageConnection($cookie, $full)
+```
 
 
 
@@ -207,7 +233,9 @@ Methods
 
 ### <a name="method-setPageTime"></a>setPageTime
 
-    mixed ConnectionCore::setPageTime($id_connections, $id_page, $time_start, $time)
+```php
+mixed ConnectionCore::setPageTime($id_connections, $id_page, $time_start, $time)
+```
 
 
 

@@ -10,9 +10,11 @@ Class StockMvtCore
 * Source: [classes/stock/StockMvt.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$current_wa](#property-$current_wa)
 * [$date_add](#property-$date_add)
@@ -34,8 +36,8 @@ Properties
 * [$sign](#property-$sign)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [addMissingMvt](#method-addMissingMvt)
 * [getLastPositiveStockMvt](#method-getLastPositiveStockMvt)
 * [getNegativeStockMvts](#method-getNegativeStockMvts)
@@ -49,7 +51,9 @@ Properties
 
 ### <a name="property-$current_wa"></a>$current_wa
 
-    public float $current_wa = null
+```php
+public float $current_wa = null
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -73,7 +79,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public mixed $date_upd
+```php
+public mixed $date_upd
+```
 
 
 
@@ -85,7 +93,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'stock_mvt', 'primary' => 'id_stock_mvt', 'fields' => array('id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'employee_firstname' => array('type' => self::TYPE_STRING, 'validate' => 'isName'), 'employee_lastname' => array('type' => self::TYPE_STRING, 'validate' => 'isName'), 'id_stock' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'physical_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'id_stock_mvt_reason' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_supply_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'sign' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'last_wa' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'current_wa' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'price_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'referer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'stock_mvt', 'primary' => 'id_stock_mvt', 'fields' => array('id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'employee_firstname' => array('type' => self::TYPE_STRING, 'validate' => 'isName'), 'employee_lastname' => array('type' => self::TYPE_STRING, 'validate' => 'isName'), 'id_stock' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'physical_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'id_stock_mvt_reason' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_supply_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'sign' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'last_wa' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'current_wa' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'price_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'referer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true)))
+```
 
 
 
@@ -98,7 +108,9 @@ Properties
 
 ### <a name="property-$employee_firstname"></a>$employee_firstname
 
-    public string $employee_firstname
+```php
+public string $employee_firstname
+```
 
 
 
@@ -110,7 +122,9 @@ Properties
 
 ### <a name="property-$employee_lastname"></a>$employee_lastname
 
-    public string $employee_lastname
+```php
+public string $employee_lastname
+```
 
 
 
@@ -122,7 +136,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -134,7 +150,9 @@ Properties
 
 ### <a name="property-$id_employee"></a>$id_employee
 
-    public integer $id_employee
+```php
+public integer $id_employee
+```
 
 
 
@@ -146,7 +164,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public integer $id_order = null
+```php
+public integer $id_order = null
+```
 
 
 
@@ -158,7 +178,9 @@ Properties
 
 ### <a name="property-$id_stock"></a>$id_stock
 
-    public integer $id_stock
+```php
+public integer $id_stock
+```
 
 
 
@@ -170,7 +192,9 @@ Properties
 
 ### <a name="property-$id_stock_mvt_reason"></a>$id_stock_mvt_reason
 
-    public integer $id_stock_mvt_reason
+```php
+public integer $id_stock_mvt_reason
+```
 
 
 
@@ -182,7 +206,9 @@ Properties
 
 ### <a name="property-$id_supply_order"></a>$id_supply_order
 
-    public integer $id_supply_order = null
+```php
+public integer $id_supply_order = null
+```
 
 
 
@@ -194,7 +220,9 @@ Properties
 
 ### <a name="property-$last_wa"></a>$last_wa
 
-    public float $last_wa = null
+```php
+public float $last_wa = null
+```
 
 
 
@@ -206,7 +234,9 @@ Properties
 
 ### <a name="property-$physical_quantity"></a>$physical_quantity
 
-    public integer $physical_quantity
+```php
+public integer $physical_quantity
+```
 
 
 
@@ -218,7 +248,9 @@ Properties
 
 ### <a name="property-$price_te"></a>$price_te
 
-    public float $price_te
+```php
+public float $price_te
+```
 
 
 
@@ -230,7 +262,9 @@ Properties
 
 ### <a name="property-$quantity"></a>$quantity
 
-    public integer $quantity
+```php
+public integer $quantity
+```
 
 
 
@@ -242,7 +276,9 @@ Properties
 
 ### <a name="property-$referer"></a>$referer
 
-    public integer $referer
+```php
+public integer $referer
+```
 
 
 
@@ -254,7 +290,9 @@ Properties
 
 ### <a name="property-$sign"></a>$sign
 
-    public integer $sign
+```php
+public integer $sign
+```
 
 
 
@@ -266,7 +304,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'stock_movements', 'objectNodeName' => 'stock_movement', 'fields' => array('id_employee' => array('xlink_resource' => 'employees'), 'id_stock' => array('xlink_resource' => 'stock'), 'id_stock_mvt_reason' => array('xlink_resource' => 'stock_movement_reasons'), 'id_order' => array('xlink_resource' => 'orders'), 'id_supply_order' => array('xlink_resource' => 'supply_order')))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'stock_movements', 'objectNodeName' => 'stock_movement', 'fields' => array('id_employee' => array('xlink_resource' => 'employees'), 'id_stock' => array('xlink_resource' => 'stock'), 'id_stock_mvt_reason' => array('xlink_resource' => 'stock_movement_reasons'), 'id_order' => array('xlink_resource' => 'orders'), 'id_supply_order' => array('xlink_resource' => 'supply_order')))
+```
 
 
 
@@ -282,7 +322,9 @@ Methods
 
 ### <a name="method-addMissingMvt"></a>addMissingMvt
 
-    mixed StockMvtCore::addMissingMvt($id_employee)
+```php
+mixed StockMvtCore::addMissingMvt($id_employee)
+```
 
 
 
@@ -300,7 +342,9 @@ Methods
 
 ### <a name="method-getLastPositiveStockMvt"></a>getLastPositiveStockMvt
 
-    boolean|array StockMvtCore::getLastPositiveStockMvt(integer $id_product, integer $id_product_attribute)
+```php
+boolean|array StockMvtCore::getLastPositiveStockMvt(integer $id_product, integer $id_product_attribute)
+```
 
 For a given product, gets the last positive stock mvt
 
@@ -319,7 +363,9 @@ For a given product, gets the last positive stock mvt
 
 ### <a name="method-getNegativeStockMvts"></a>getNegativeStockMvts
 
-    Array StockMvtCore::getNegativeStockMvts(integer $id_order, integer $id_product, integer $id_product_attribute, integer $quantity, integer $id_warehouse)
+```php
+Array StockMvtCore::getNegativeStockMvts(integer $id_order, integer $id_product, integer $id_product_attribute, integer $quantity, integer $id_warehouse)
+```
 
 Gets the negative (decrements the stock) stock mvts that correspond to the given order, for :
 the given product, in the given quantity.

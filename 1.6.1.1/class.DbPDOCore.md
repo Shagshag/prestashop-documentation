@@ -10,15 +10,17 @@ Class DbPDOCore
 * Source: [classes/db/DbPDO.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#L32)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$link](#property-$link)
 * [$result](#property-$result)
 
-Methods
--------
+### Methods
+
 * [Affected_Rows](#method-Affected_Rows)
 * [Insert_ID](#method-Insert_ID)
 * [_escape](#method-_escape)
@@ -50,7 +52,9 @@ Properties
 
 ### <a name="property-$link"></a>$link
 
-    protected \PDO $link
+```php
+protected \PDO $link
+```
 
 
 
@@ -62,7 +66,9 @@ Properties
 
 ### <a name="property-$result"></a>$result
 
-    protected mixed $result
+```php
+protected mixed $result
+```
 
 
 
@@ -78,7 +84,9 @@ Methods
 
 ### <a name="method-Affected_Rows"></a>Affected_Rows
 
-    integer DbPDOCore::Affected_Rows()
+```php
+integer DbPDOCore::Affected_Rows()
+```
 
 Return the number of rows affected by the last SQL query.
 
@@ -92,7 +100,9 @@ Return the number of rows affected by the last SQL query.
 
 ### <a name="method-Insert_ID"></a>Insert_ID
 
-    string|integer DbPDOCore::Insert_ID()
+```php
+string|integer DbPDOCore::Insert_ID()
+```
 
 Returns ID of the last inserted row.
 
@@ -106,7 +116,9 @@ Returns ID of the last inserted row.
 
 ### <a name="method-_escape"></a>_escape
 
-    string DbPDOCore::_escape(string $str)
+```php
+string DbPDOCore::_escape(string $str)
+```
 
 Escapes illegal characters in a string.
 
@@ -123,7 +135,9 @@ Escapes illegal characters in a string.
 
 ### <a name="method-_getPDO"></a>_getPDO
 
-    \PDO DbPDOCore::_getPDO(string $host, string $user, string $password, string $dbname, integer $timeout)
+```php
+\PDO DbPDOCore::_getPDO(string $host, string $user, string $password, string $dbname, integer $timeout)
+```
 
 Returns a new PDO object (database link)
 
@@ -145,7 +159,9 @@ Returns a new PDO object (database link)
 
 ### <a name="method-_numRows"></a>_numRows
 
-    integer DbPDOCore::_numRows(\PDOStatement $result)
+```php
+integer DbPDOCore::_numRows(\PDOStatement $result)
+```
 
 Returns row count from the result set.
 
@@ -162,7 +178,9 @@ Returns row count from the result set.
 
 ### <a name="method-_query"></a>_query
 
-    \PDOStatement DbPDOCore::_query(string $sql)
+```php
+\PDOStatement DbPDOCore::_query(string $sql)
+```
 
 Executes an SQL statement, returning a result set as a PDOStatement object or true/false.
 
@@ -179,7 +197,9 @@ Executes an SQL statement, returning a result set as a PDOStatement object or tr
 
 ### <a name="method-checkAutoIncrement"></a>checkAutoIncrement
 
-    boolean DbPDOCore::checkAutoIncrement(string $server, string $user, string $pwd)
+```php
+boolean DbPDOCore::checkAutoIncrement(string $server, string $user, string $pwd)
+```
 
 Checks if auto increment value and offset is 1
 
@@ -199,7 +219,9 @@ Checks if auto increment value and offset is 1
 
 ### <a name="method-checkCreatePrivilege"></a>checkCreatePrivilege
 
-    boolean|string DbPDOCore::checkCreatePrivilege(string $server, string $user, string $pwd, string $db, string $prefix, string|null $engine)
+```php
+boolean|string DbPDOCore::checkCreatePrivilege(string $server, string $user, string $pwd, string $db, string $prefix, string|null $engine)
+```
 
 Tries to connect to the database and create a table (checking creation privileges)
 
@@ -222,7 +244,9 @@ Tries to connect to the database and create a table (checking creation privilege
 
 ### <a name="method-connect"></a>connect
 
-    \PDO DbPDOCore::connect()
+```php
+\PDO DbPDOCore::connect()
+```
 
 Tries to connect to the database
 
@@ -236,7 +260,9 @@ Tries to connect to the database
 
 ### <a name="method-createDatabase"></a>createDatabase
 
-    boolean|integer DbPDOCore::createDatabase(string $host, string $user, string $password, string $dbname, boolean $dropit)
+```php
+boolean|integer DbPDOCore::createDatabase(string $host, string $user, string $password, string $dbname, boolean $dropit)
+```
 
 Tries to connect and create a new database
 
@@ -258,7 +284,9 @@ Tries to connect and create a new database
 
 ### <a name="method-disconnect"></a>disconnect
 
-    mixed DbPDOCore::disconnect()
+```php
+mixed DbPDOCore::disconnect()
+```
 
 Destroys the database connection link
 
@@ -272,7 +300,9 @@ Destroys the database connection link
 
 ### <a name="method-getAll"></a>getAll
 
-    array|false|null DbPDOCore::getAll(boolean $result)
+```php
+array|false|null DbPDOCore::getAll(boolean $result)
+```
 
 Returns all rows from the result set.
 
@@ -289,7 +319,9 @@ Returns all rows from the result set.
 
 ### <a name="method-getBestEngine"></a>getBestEngine
 
-    string DbPDOCore::getBestEngine()
+```php
+string DbPDOCore::getBestEngine()
+```
 
 Selects best table engine.
 
@@ -303,7 +335,9 @@ Selects best table engine.
 
 ### <a name="method-getMsgError"></a>getMsgError
 
-    string DbPDOCore::getMsgError(boolean $query)
+```php
+string DbPDOCore::getMsgError(boolean $query)
+```
 
 Returns error message.
 
@@ -320,7 +354,9 @@ Returns error message.
 
 ### <a name="method-getNumberError"></a>getNumberError
 
-    integer DbPDOCore::getNumberError()
+```php
+integer DbPDOCore::getNumberError()
+```
 
 Returns error code.
 
@@ -334,7 +370,9 @@ Returns error code.
 
 ### <a name="method-getVersion"></a>getVersion
 
-    string DbPDOCore::getVersion()
+```php
+string DbPDOCore::getVersion()
+```
 
 Returns database server version.
 
@@ -348,7 +386,9 @@ Returns database server version.
 
 ### <a name="method-hasTableWithSamePrefix"></a>hasTableWithSamePrefix
 
-    boolean DbPDOCore::hasTableWithSamePrefix(string $server, string $user, string $pwd, string $db, string $prefix)
+```php
+boolean DbPDOCore::hasTableWithSamePrefix(string $server, string $user, string $pwd, string $db, string $prefix)
+```
 
 Try a connection to the database and check if at least one table with same prefix exists
 
@@ -370,7 +410,9 @@ Try a connection to the database and check if at least one table with same prefi
 
 ### <a name="method-nextRow"></a>nextRow
 
-    array|false|null DbPDOCore::nextRow(boolean $result)
+```php
+array|false|null DbPDOCore::nextRow(boolean $result)
+```
 
 Returns the next row from the result set.
 
@@ -387,7 +429,9 @@ Returns the next row from the result set.
 
 ### <a name="method-set_db"></a>set_db
 
-    integer DbPDOCore::set_db(string $db_name)
+```php
+integer DbPDOCore::set_db(string $db_name)
+```
 
 Switches to a different database.
 
@@ -404,7 +448,9 @@ Switches to a different database.
 
 ### <a name="method-tryToConnect"></a>tryToConnect
 
-    integer DbPDOCore::tryToConnect(string $server, string $user, string $pwd, string $db, $new_db_link, string|boolean $engine, integer $timeout)
+```php
+integer DbPDOCore::tryToConnect(string $server, string $user, string $pwd, string $db, $new_db_link, string|boolean $engine, integer $timeout)
+```
 
 Try a connection to the database
 
@@ -428,7 +474,9 @@ Try a connection to the database
 
 ### <a name="method-tryUTF8"></a>tryUTF8
 
-    boolean DbPDOCore::tryUTF8(string $server, string $user, string $pwd)
+```php
+boolean DbPDOCore::tryUTF8(string $server, string $user, string $pwd)
+```
 
 Try a connection to the database and set names to UTF-8
 

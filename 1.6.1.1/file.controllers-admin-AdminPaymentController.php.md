@@ -1,5 +1,6 @@
 File controllers/admin/AdminPaymentController.php
 =========
+
 Source: [controllers/admin/AdminPaymentController.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php)
 
 

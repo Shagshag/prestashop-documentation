@@ -10,17 +10,19 @@ Class TagCore
 * Source: [classes/Tag.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$id_lang](#property-$id_lang)
 * [$name](#property-$name)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [addTags](#method-addTags)
@@ -40,7 +42,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'tag', 'primary' => 'id_tag', 'fields' => array('id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32)))
+```php
+public mixed $definition = array('table' => 'tag', 'primary' => 'id_tag', 'fields' => array('id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32)))
+```
 
 
 
@@ -53,7 +57,9 @@ Properties
 
 ### <a name="property-$id_lang"></a>$id_lang
 
-    public integer $id_lang
+```php
+public integer $id_lang
+```
 
 
 
@@ -65,7 +71,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -77,7 +85,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_lang' => array('xlink_resource' => 'languages')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_lang' => array('xlink_resource' => 'languages')))
+```
 
 
 
@@ -93,7 +103,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed TagCore::__construct($id, $name, $id_lang)
+```php
+mixed TagCore::__construct($id, $name, $id_lang)
+```
 
 
 
@@ -112,7 +124,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed TagCore::add($autodate, $null_values)
+```php
+mixed TagCore::add($autodate, $null_values)
+```
 
 
 
@@ -130,7 +144,9 @@ Methods
 
 ### <a name="method-addTags"></a>addTags
 
-    boolean TagCore::addTags(integer $id_lang, integer $id_product, string|array $tag_list, $separator)
+```php
+boolean TagCore::addTags(integer $id_lang, integer $id_product, string|array $tag_list, $separator)
+```
 
 Add several tags in database and link it to a product
 
@@ -151,7 +167,9 @@ Add several tags in database and link it to a product
 
 ### <a name="method-deleteTagsForProduct"></a>deleteTagsForProduct
 
-    mixed TagCore::deleteTagsForProduct($id_product)
+```php
+mixed TagCore::deleteTagsForProduct($id_product)
+```
 
 
 
@@ -169,7 +187,9 @@ Add several tags in database and link it to a product
 
 ### <a name="method-getMainTags"></a>getMainTags
 
-    mixed TagCore::getMainTags($id_lang, $nb)
+```php
+mixed TagCore::getMainTags($id_lang, $nb)
+```
 
 
 
@@ -188,7 +208,9 @@ Add several tags in database and link it to a product
 
 ### <a name="method-getProductTags"></a>getProductTags
 
-    mixed TagCore::getProductTags($id_product)
+```php
+mixed TagCore::getProductTags($id_product)
+```
 
 
 
@@ -206,7 +228,9 @@ Add several tags in database and link it to a product
 
 ### <a name="method-getProducts"></a>getProducts
 
-    mixed TagCore::getProducts($associated, \Context $context)
+```php
+mixed TagCore::getProducts($associated, \Context $context)
+```
 
 
 
@@ -224,7 +248,9 @@ Add several tags in database and link it to a product
 
 ### <a name="method-setProducts"></a>setProducts
 
-    mixed TagCore::setProducts($array)
+```php
+mixed TagCore::setProducts($array)
+```
 
 
 
@@ -241,7 +267,9 @@ Add several tags in database and link it to a product
 
 ### <a name="method-updateTagCount"></a>updateTagCount
 
-    mixed TagCore::updateTagCount()
+```php
+mixed TagCore::updateTagCount()
+```
 
 
 

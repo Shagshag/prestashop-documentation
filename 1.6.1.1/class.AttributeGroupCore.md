@@ -10,9 +10,11 @@ Class AttributeGroupCore
 * Source: [classes/AttributeGroup.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$group_type](#property-$group_type)
@@ -22,8 +24,8 @@ Properties
 * [$public_name](#property-$public_name)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [cleanDeadCombinations](#method-cleanDeadCombinations)
 * [cleanPositions](#method-cleanPositions)
@@ -46,7 +48,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'attribute_group', 'primary' => 'id_attribute_group', 'multilang' => true, 'fields' => array('is_color_group' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'group_type' => array('type' => self::TYPE_STRING, 'required' => true), 'position' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128), 'public_name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 64)))
+```php
+public mixed $definition = array('table' => 'attribute_group', 'primary' => 'id_attribute_group', 'multilang' => true, 'fields' => array('is_color_group' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'group_type' => array('type' => self::TYPE_STRING, 'required' => true), 'position' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128), 'public_name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 64)))
+```
 
 
 
@@ -59,7 +63,9 @@ Properties
 
 ### <a name="property-$group_type"></a>$group_type
 
-    public mixed $group_type
+```php
+public mixed $group_type
+```
 
 
 
@@ -71,7 +77,9 @@ Properties
 
 ### <a name="property-$is_color_group"></a>$is_color_group
 
-    public mixed $is_color_group
+```php
+public mixed $is_color_group
+```
 
 
 
@@ -83,7 +91,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -95,7 +105,9 @@ Properties
 
 ### <a name="property-$position"></a>$position
 
-    public mixed $position
+```php
+public mixed $position
+```
 
 
 
@@ -107,7 +119,9 @@ Properties
 
 ### <a name="property-$public_name"></a>$public_name
 
-    public string $public_name
+```php
+public string $public_name
+```
 
 
 
@@ -119,7 +133,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'product_options', 'objectNodeName' => 'product_option', 'fields' => array(), 'associations' => array('product_option_values' => array('resource' => 'product_option_value', 'fields' => array('id' => array()))))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'product_options', 'objectNodeName' => 'product_option', 'fields' => array(), 'associations' => array('product_option_values' => array('resource' => 'product_option_value', 'fields' => array('id' => array()))))
+```
 
 
 
@@ -135,7 +151,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed AttributeGroupCore::add($autodate, $nullValues)
+```php
+mixed AttributeGroupCore::add($autodate, $nullValues)
+```
 
 
 
@@ -153,7 +171,9 @@ Methods
 
 ### <a name="method-cleanDeadCombinations"></a>cleanDeadCombinations
 
-    mixed AttributeGroupCore::cleanDeadCombinations()
+```php
+mixed AttributeGroupCore::cleanDeadCombinations()
+```
 
 
 
@@ -168,7 +188,9 @@ Methods
 
 ### <a name="method-cleanPositions"></a>cleanPositions
 
-    boolean AttributeGroupCore::cleanPositions()
+```php
+boolean AttributeGroupCore::cleanPositions()
+```
 
 Reorder group attribute position
 Call it after deleting a group attribute.
@@ -184,7 +206,9 @@ Call it after deleting a group attribute.
 
 ### <a name="method-delete"></a>delete
 
-    mixed AttributeGroupCore::delete()
+```php
+mixed AttributeGroupCore::delete()
+```
 
 
 
@@ -198,7 +222,9 @@ Call it after deleting a group attribute.
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    mixed AttributeGroupCore::deleteSelection($selection)
+```php
+mixed AttributeGroupCore::deleteSelection($selection)
+```
 
 Delete several objects from database
 
@@ -215,7 +241,9 @@ return boolean Deletion result
 
 ### <a name="method-getAttributes"></a>getAttributes
 
-    array AttributeGroupCore::getAttributes(integer $id_lang, boolean $id_attribute_group)
+```php
+array AttributeGroupCore::getAttributes(integer $id_lang, boolean $id_attribute_group)
+```
 
 Get all attributes for a given language / group
 
@@ -234,7 +262,9 @@ Get all attributes for a given language / group
 
 ### <a name="method-getAttributesGroups"></a>getAttributesGroups
 
-    array AttributeGroupCore::getAttributesGroups(integer $id_lang)
+```php
+array AttributeGroupCore::getAttributesGroups(integer $id_lang)
+```
 
 Get all attributes groups for a given language
 
@@ -252,7 +282,9 @@ Get all attributes groups for a given language
 
 ### <a name="method-getHigherPosition"></a>getHigherPosition
 
-    integer AttributeGroupCore::getHigherPosition()
+```php
+integer AttributeGroupCore::getHigherPosition()
+```
 
 getHigherPosition
 
@@ -267,7 +299,9 @@ Get the higher group attribute position
 
 ### <a name="method-getWsProductOptionValues"></a>getWsProductOptionValues
 
-    mixed AttributeGroupCore::getWsProductOptionValues()
+```php
+mixed AttributeGroupCore::getWsProductOptionValues()
+```
 
 
 
@@ -281,7 +315,9 @@ Get the higher group attribute position
 
 ### <a name="method-setWsProductOptionValues"></a>setWsProductOptionValues
 
-    mixed AttributeGroupCore::setWsProductOptionValues($values)
+```php
+mixed AttributeGroupCore::setWsProductOptionValues($values)
+```
 
 
 
@@ -298,7 +334,9 @@ Get the higher group attribute position
 
 ### <a name="method-update"></a>update
 
-    mixed AttributeGroupCore::update($nullValues)
+```php
+mixed AttributeGroupCore::update($nullValues)
+```
 
 
 
@@ -315,7 +353,9 @@ Get the higher group attribute position
 
 ### <a name="method-updatePosition"></a>updatePosition
 
-    boolean AttributeGroupCore::updatePosition(boolean $way, integer $position)
+```php
+boolean AttributeGroupCore::updatePosition(boolean $way, integer $position)
+```
 
 Move a group attribute
 

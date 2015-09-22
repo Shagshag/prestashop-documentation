@@ -10,14 +10,16 @@ Class HTMLTemplateDeliverySlipCore
 * Source: [classes/pdf/HTMLTemplateDeliverySlip.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateDeliverySlip.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$order](#property-$order)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getBulkFilename](#method-getBulkFilename)
 * [getContent](#method-getContent)
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$order"></a>$order
 
-    public mixed $order
+```php
+public mixed $order
+```
 
 
 
@@ -49,7 +53,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed HTMLTemplateDeliverySlipCore::__construct(\OrderInvoice $order_invoice, $smarty, $bulk_mode)
+```php
+mixed HTMLTemplateDeliverySlipCore::__construct(\OrderInvoice $order_invoice, $smarty, $bulk_mode)
+```
 
 
 
@@ -68,7 +74,9 @@ Methods
 
 ### <a name="method-getBulkFilename"></a>getBulkFilename
 
-    string HTMLTemplateDeliverySlipCore::getBulkFilename()
+```php
+string HTMLTemplateDeliverySlipCore::getBulkFilename()
+```
 
 Returns the template filename when using bulk rendering
 
@@ -82,7 +90,9 @@ Returns the template filename when using bulk rendering
 
 ### <a name="method-getContent"></a>getContent
 
-    string HTMLTemplateDeliverySlipCore::getContent()
+```php
+string HTMLTemplateDeliverySlipCore::getContent()
+```
 
 Returns the template's HTML content
 
@@ -96,7 +106,9 @@ Returns the template's HTML content
 
 ### <a name="method-getFilename"></a>getFilename
 
-    string HTMLTemplateDeliverySlipCore::getFilename()
+```php
+string HTMLTemplateDeliverySlipCore::getFilename()
+```
 
 Returns the template filename
 
@@ -110,7 +122,9 @@ Returns the template filename
 
 ### <a name="method-getHeader"></a>getHeader
 
-    string HTMLTemplateDeliverySlipCore::getHeader()
+```php
+string HTMLTemplateDeliverySlipCore::getHeader()
+```
 
 Returns the template's HTML header
 

@@ -1,6 +1,11 @@
 Prestashop 1.6.1.1 API documentation
 ==========================================
 
+Source : https://github.com/PrestaShop/PrestaShop/tree/1.6.1.1
+
+Contents
+--------
+
 * [Interfaces](#interfaces)
 * [Classes](#classes)
 * [Functions](#functions)

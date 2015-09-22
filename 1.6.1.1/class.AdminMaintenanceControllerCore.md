@@ -10,14 +10,16 @@ Class AdminMaintenanceControllerCore
 * Source: [controllers/admin/AdminMaintenanceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMaintenanceController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 
 
@@ -29,7 +31,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Configuration $object
+```php
+public \Configuration $object
+```
 
 
 
@@ -45,7 +49,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminMaintenanceControllerCore::__construct()
+```php
+mixed AdminMaintenanceControllerCore::__construct()
+```
 
 
 

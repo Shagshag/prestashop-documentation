@@ -10,9 +10,11 @@ Class CustomizationFieldCore
 * Source: [classes/CustomizationField.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$id_product](#property-$id_product)
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'customization_field', 'primary' => 'id_customization_field', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'type' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'required' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'required' => true, 'size' => 255)))
+```php
+public mixed $definition = array('table' => 'customization_field', 'primary' => 'id_customization_field', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'type' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'required' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'required' => true, 'size' => 255)))
+```
 
 
 
@@ -44,7 +48,9 @@ Properties
 
 ### <a name="property-$id_product"></a>$id_product
 
-    public integer $id_product
+```php
+public integer $id_product
+```
 
 
 
@@ -56,7 +62,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -68,7 +76,9 @@ Properties
 
 ### <a name="property-$required"></a>$required
 
-    public boolean $required
+```php
+public boolean $required
+```
 
 
 
@@ -80,7 +90,9 @@ Properties
 
 ### <a name="property-$type"></a>$type
 
-    public integer $type
+```php
+public integer $type
+```
 
 
 
@@ -92,7 +104,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_product' => array('xlink_resource' => array('resourceName' => 'products'))))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_product' => array('xlink_resource' => array('resourceName' => 'products'))))
+```
 
 
 

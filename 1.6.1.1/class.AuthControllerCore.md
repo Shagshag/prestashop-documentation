@@ -10,9 +10,11 @@ Class AuthControllerCore
 * Source: [controllers/front/AuthController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$auth](#property-$auth)
 * [$create_account](#property-$create_account)
@@ -20,8 +22,8 @@ Properties
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [assignAddressFormat](#method-assignAddressFormat)
 * [assignCountries](#method-assignCountries)
 * [assignDate](#method-assignDate)
@@ -46,7 +48,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public mixed $auth = false
+```php
+public mixed $auth = false
+```
 
 
 
@@ -58,7 +62,9 @@ Properties
 
 ### <a name="property-$create_account"></a>$create_account
 
-    protected boolean $create_account
+```php
+protected boolean $create_account
+```
 
 
 
@@ -70,7 +76,9 @@ Properties
 
 ### <a name="property-$id_country"></a>$id_country
 
-    protected mixed $id_country
+```php
+protected mixed $id_country
+```
 
 
 
@@ -82,7 +90,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'authentication'
+```php
+public mixed $php_self = 'authentication'
+```
 
 
 
@@ -94,7 +104,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -110,7 +122,9 @@ Methods
 
 ### <a name="method-assignAddressFormat"></a>assignAddressFormat
 
-    mixed AuthControllerCore::assignAddressFormat()
+```php
+mixed AuthControllerCore::assignAddressFormat()
+```
 
 Assign address var to smarty
 
@@ -124,7 +138,9 @@ Assign address var to smarty
 
 ### <a name="method-assignCountries"></a>assignCountries
 
-    mixed AuthControllerCore::assignCountries()
+```php
+mixed AuthControllerCore::assignCountries()
+```
 
 Assign countries var to smarty
 
@@ -138,7 +154,9 @@ Assign countries var to smarty
 
 ### <a name="method-assignDate"></a>assignDate
 
-    mixed AuthControllerCore::assignDate()
+```php
+mixed AuthControllerCore::assignDate()
+```
 
 Assign date var to smarty
 
@@ -152,7 +170,9 @@ Assign date var to smarty
 
 ### <a name="method-displayAjax"></a>displayAjax
 
-    mixed AuthControllerCore::displayAjax()
+```php
+mixed AuthControllerCore::displayAjax()
+```
 
 Run ajax process
 
@@ -166,7 +186,9 @@ Run ajax process
 
 ### <a name="method-init"></a>init
 
-    mixed AuthControllerCore::init()
+```php
+mixed AuthControllerCore::init()
+```
 
 Initialize auth controller
 
@@ -180,7 +202,9 @@ Initialize auth controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AuthControllerCore::initContent()
+```php
+mixed AuthControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -194,7 +218,9 @@ Assign template vars related to page content
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AuthControllerCore::postProcess()
+```php
+mixed AuthControllerCore::postProcess()
+```
 
 Start forms process
 
@@ -208,7 +234,9 @@ Start forms process
 
 ### <a name="method-processCustomerNewsletter"></a>processCustomerNewsletter
 
-    mixed AuthControllerCore::processCustomerNewsletter(\Customer $customer)
+```php
+mixed AuthControllerCore::processCustomerNewsletter(\Customer $customer)
+```
 
 Process the newsletter settings and set the customer infos.
 
@@ -225,7 +253,9 @@ Process the newsletter settings and set the customer infos.
 
 ### <a name="method-processSubmitAccount"></a>processSubmitAccount
 
-    mixed AuthControllerCore::processSubmitAccount()
+```php
+mixed AuthControllerCore::processSubmitAccount()
+```
 
 Process submit on an account
 
@@ -239,7 +269,9 @@ Process submit on an account
 
 ### <a name="method-processSubmitCreate"></a>processSubmitCreate
 
-    mixed AuthControllerCore::processSubmitCreate()
+```php
+mixed AuthControllerCore::processSubmitCreate()
+```
 
 Process submit on a creation
 
@@ -253,7 +285,9 @@ Process submit on a creation
 
 ### <a name="method-processSubmitLogin"></a>processSubmitLogin
 
-    mixed AuthControllerCore::processSubmitLogin()
+```php
+mixed AuthControllerCore::processSubmitLogin()
+```
 
 Process login
 
@@ -267,7 +301,9 @@ Process login
 
 ### <a name="method-sendConfirmationMail"></a>sendConfirmationMail
 
-    boolean AuthControllerCore::sendConfirmationMail(\Customer $customer)
+```php
+boolean AuthControllerCore::sendConfirmationMail(\Customer $customer)
+```
 
 sendConfirmationMail
 
@@ -284,7 +320,9 @@ sendConfirmationMail
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AuthControllerCore::setMedia()
+```php
+mixed AuthControllerCore::setMedia()
+```
 
 Set default medias for this controller
 
@@ -298,7 +336,9 @@ Set default medias for this controller
 
 ### <a name="method-updateContext"></a>updateContext
 
-    mixed AuthControllerCore::updateContext(\Customer $customer)
+```php
+mixed AuthControllerCore::updateContext(\Customer $customer)
+```
 
 Update context after customer creation
 

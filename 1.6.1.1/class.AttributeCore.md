@@ -10,9 +10,11 @@ Class AttributeCore
 * Source: [classes/Attribute.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$color](#property-$color)
 * [$default](#property-$default)
@@ -23,8 +25,8 @@ Properties
 * [$position](#property-$position)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [checkAttributeQty](#method-checkAttributeQty)
@@ -49,7 +51,9 @@ Properties
 
 ### <a name="property-$color"></a>$color
 
-    public mixed $color
+```php
+public mixed $color
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$default"></a>$default
 
-    public mixed $default
+```php
+public mixed $default
+```
 
 
 
@@ -73,7 +79,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'attribute', 'primary' => 'id_attribute', 'multilang' => true, 'fields' => array('id_attribute_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor'), 'position' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128)))
+```php
+public mixed $definition = array('table' => 'attribute', 'primary' => 'id_attribute', 'multilang' => true, 'fields' => array('id_attribute_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor'), 'position' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128)))
+```
 
 
 
@@ -86,7 +94,9 @@ Properties
 
 ### <a name="property-$id_attribute_group"></a>$id_attribute_group
 
-    public integer $id_attribute_group
+```php
+public integer $id_attribute_group
+```
 
 
 
@@ -98,7 +108,9 @@ Properties
 
 ### <a name="property-$image_dir"></a>$image_dir
 
-    protected mixed $image_dir = _PS_COL_IMG_DIR_
+```php
+protected mixed $image_dir = _PS_COL_IMG_DIR_
+```
 
 
 
@@ -110,7 +122,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -122,7 +136,9 @@ Properties
 
 ### <a name="property-$position"></a>$position
 
-    public mixed $position
+```php
+public mixed $position
+```
 
 
 
@@ -134,7 +150,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'product_option_values', 'objectNodeName' => 'product_option_value', 'fields' => array('id_attribute_group' => array('xlink_resource' => 'product_options')))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'product_option_values', 'objectNodeName' => 'product_option_value', 'fields' => array('id_attribute_group' => array('xlink_resource' => 'product_options')))
+```
 
 
 
@@ -150,7 +168,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AttributeCore::__construct($id, $id_lang, $id_shop)
+```php
+mixed AttributeCore::__construct($id, $id_lang, $id_shop)
+```
 
 
 
@@ -169,7 +189,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed AttributeCore::add($autodate, $null_values)
+```php
+mixed AttributeCore::add($autodate, $null_values)
+```
 
 
 
@@ -187,7 +209,9 @@ Methods
 
 ### <a name="method-checkAttributeQty"></a>checkAttributeQty
 
-    boolean AttributeCore::checkAttributeQty(integer $id_product_attribute, integer $qty, \Shop $shop)
+```php
+boolean AttributeCore::checkAttributeQty(integer $id_product_attribute, integer $qty, \Shop $shop)
+```
 
 Get quantity for a given attribute combination
 Check if quantity is enough to deserve customer
@@ -208,7 +232,9 @@ Check if quantity is enough to deserve customer
 
 ### <a name="method-cleanPositions"></a>cleanPositions
 
-    boolean AttributeCore::cleanPositions(integer $id_attribute_group, boolean $use_last_attribute)
+```php
+boolean AttributeCore::cleanPositions(integer $id_attribute_group, boolean $use_last_attribute)
+```
 
 Reorder attribute position in group $id_attribute_group.
 
@@ -226,7 +252,9 @@ Call it after deleting an attribute from a group.
 
 ### <a name="method-delete"></a>delete
 
-    mixed AttributeCore::delete()
+```php
+mixed AttributeCore::delete()
+```
 
 
 
@@ -240,7 +268,9 @@ Call it after deleting an attribute from a group.
 
 ### <a name="method-getAttributeMinimalQty"></a>getAttributeMinimalQty
 
-    mixed AttributeCore::getAttributeMinimalQty(integer $id_product_attribute)
+```php
+mixed AttributeCore::getAttributeMinimalQty(integer $id_product_attribute)
+```
 
 Get minimal quantity for product with attributes quantity
 
@@ -258,7 +288,9 @@ Get minimal quantity for product with attributes quantity
 
 ### <a name="method-getAttributeQty"></a>getAttributeQty
 
-    mixed AttributeCore::getAttributeQty($id_product)
+```php
+mixed AttributeCore::getAttributeQty($id_product)
+```
 
 
 
@@ -276,7 +308,9 @@ Get minimal quantity for product with attributes quantity
 
 ### <a name="method-getAttributes"></a>getAttributes
 
-    array AttributeCore::getAttributes(integer $id_lang, $not_null)
+```php
+array AttributeCore::getAttributes(integer $id_lang, $not_null)
+```
 
 Get all attributes for a given language
 
@@ -295,7 +329,9 @@ Get all attributes for a given language
 
 ### <a name="method-getHigherPosition"></a>getHigherPosition
 
-    integer AttributeCore::getHigherPosition(integer $id_attribute_group)
+```php
+integer AttributeCore::getHigherPosition(integer $id_attribute_group)
+```
 
 getHigherPosition
 
@@ -313,7 +349,9 @@ Get the higher attribute position from a group attribute
 
 ### <a name="method-isAttribute"></a>isAttribute
 
-    mixed AttributeCore::isAttribute($id_attribute_group, $name, $id_lang)
+```php
+mixed AttributeCore::isAttribute($id_attribute_group, $name, $id_lang)
+```
 
 
 
@@ -333,7 +371,9 @@ Get the higher attribute position from a group attribute
 
 ### <a name="method-isColorAttribute"></a>isColorAttribute
 
-    boolean AttributeCore::isColorAttribute()
+```php
+boolean AttributeCore::isColorAttribute()
+```
 
 Return true if attribute is color type
 
@@ -347,7 +387,9 @@ Return true if attribute is color type
 
 ### <a name="method-update"></a>update
 
-    mixed AttributeCore::update($null_values)
+```php
+mixed AttributeCore::update($null_values)
+```
 
 
 
@@ -364,7 +406,9 @@ Return true if attribute is color type
 
 ### <a name="method-updatePosition"></a>updatePosition
 
-    boolean AttributeCore::updatePosition(boolean $way, integer $position)
+```php
+boolean AttributeCore::updatePosition(boolean $way, integer $position)
+```
 
 Move an attribute inside its group
 
@@ -382,7 +426,9 @@ Move an attribute inside its group
 
 ### <a name="method-updateQtyProduct"></a>updateQtyProduct
 
-    boolean AttributeCore::updateQtyProduct($arr)
+```php
+boolean AttributeCore::updateQtyProduct($arr)
+```
 
 Update array with veritable quantity
 

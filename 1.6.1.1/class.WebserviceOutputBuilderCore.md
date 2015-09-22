@@ -8,14 +8,16 @@ Class WebserviceOutputBuilderCore
 * Class name: WebserviceOutputBuilderCore
 * Source: [classes/webservice/WebserviceOutputBuilder.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L30)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [VIEW_DETAILS](#constant-VIEW_DETAILS)
 * [VIEW_LIST](#constant-VIEW_LIST)
 
-Properties
-----------
+### Properties
 
 * [$_cache_ws_parameters](#property-$_cache_ws_parameters)
 * [$depth](#property-$depth)
@@ -32,8 +34,8 @@ Properties
 * [$wsResource](#property-$wsResource)
 * [$wsUrl](#property-$wsUrl)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [addVirtualFields](#method-addVirtualFields)
 * [buildHeader](#method-buildHeader)
@@ -73,7 +75,9 @@ Constants
 
 ### <a name="constant-VIEW_DETAILS"></a>VIEW_DETAILS
 
-    const VIEW_DETAILS = 2
+```php
+const VIEW_DETAILS = 2
+```
 
 
 
@@ -84,7 +88,9 @@ Constants
 
 ### <a name="constant-VIEW_LIST"></a>VIEW_LIST
 
-    const VIEW_LIST = 1
+```php
+const VIEW_LIST = 1
+```
 
 
 
@@ -99,7 +105,9 @@ Properties
 
 ### <a name="property-$_cache_ws_parameters"></a>$_cache_ws_parameters
 
-    protected mixed $_cache_ws_parameters = array()
+```php
+protected mixed $_cache_ws_parameters = array()
+```
 
 
 
@@ -112,7 +120,9 @@ Properties
 
 ### <a name="property-$depth"></a>$depth
 
-    protected mixed $depth
+```php
+protected mixed $depth
+```
 
 
 
@@ -124,7 +134,9 @@ Properties
 
 ### <a name="property-$fieldsToDisplay"></a>$fieldsToDisplay
 
-    protected mixed $fieldsToDisplay
+```php
+protected mixed $fieldsToDisplay
+```
 
 
 
@@ -136,7 +148,9 @@ Properties
 
 ### <a name="property-$headerParams"></a>$headerParams
 
-    protected mixed $headerParams = array('Access-Time' => 0, 'X-Powered-By' => 0, 'PSWS-Version' => 0, 'Content-Type' => 0)
+```php
+protected mixed $headerParams = array('Access-Time' => 0, 'X-Powered-By' => 0, 'PSWS-Version' => 0, 'Content-Type' => 0)
+```
 
 
 
@@ -148,7 +162,9 @@ Properties
 
 ### <a name="property-$objectRender"></a>$objectRender
 
-    public \WebserviceOutputInterface $objectRender
+```php
+public \WebserviceOutputInterface $objectRender
+```
 
 
 
@@ -160,7 +176,9 @@ Properties
 
 ### <a name="property-$output"></a>$output
 
-    protected mixed $output
+```php
+protected mixed $output
+```
 
 
 
@@ -172,7 +190,9 @@ Properties
 
 ### <a name="property-$schemaToDisplay"></a>$schemaToDisplay
 
-    protected mixed $schemaToDisplay
+```php
+protected mixed $schemaToDisplay
+```
 
 
 
@@ -184,7 +204,9 @@ Properties
 
 ### <a name="property-$specificFields"></a>$specificFields
 
-    protected mixed $specificFields = array()
+```php
+protected mixed $specificFields = array()
+```
 
 
 
@@ -196,7 +218,9 @@ Properties
 
 ### <a name="property-$status"></a>$status
 
-    protected string $status
+```php
+protected string $status
+```
 
 
 
@@ -208,7 +232,9 @@ Properties
 
 ### <a name="property-$statusInt"></a>$statusInt
 
-    protected mixed $statusInt
+```php
+protected mixed $statusInt
+```
 
 
 
@@ -220,7 +246,9 @@ Properties
 
 ### <a name="property-$virtualFields"></a>$virtualFields
 
-    protected mixed $virtualFields = array()
+```php
+protected mixed $virtualFields = array()
+```
 
 
 
@@ -232,7 +260,9 @@ Properties
 
 ### <a name="property-$wsParamOverrides"></a>$wsParamOverrides
 
-    protected mixed $wsParamOverrides
+```php
+protected mixed $wsParamOverrides
+```
 
 
 
@@ -244,7 +274,9 @@ Properties
 
 ### <a name="property-$wsResource"></a>$wsResource
 
-    protected mixed $wsResource
+```php
+protected mixed $wsResource
+```
 
 
 
@@ -256,7 +288,9 @@ Properties
 
 ### <a name="property-$wsUrl"></a>$wsUrl
 
-    protected mixed $wsUrl
+```php
+protected mixed $wsUrl
+```
 
 
 
@@ -272,7 +306,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed WebserviceOutputBuilderCore::__construct($ws_url)
+```php
+mixed WebserviceOutputBuilderCore::__construct($ws_url)
+```
 
 
 
@@ -289,7 +325,9 @@ Methods
 
 ### <a name="method-addVirtualFields"></a>addVirtualFields
 
-    mixed WebserviceOutputBuilderCore::addVirtualFields($entity_name, $entity_object)
+```php
+mixed WebserviceOutputBuilderCore::addVirtualFields($entity_name, $entity_object)
+```
 
 
 
@@ -307,7 +345,9 @@ Methods
 
 ### <a name="method-buildHeader"></a>buildHeader
 
-    array WebserviceOutputBuilderCore::buildHeader()
+```php
+array WebserviceOutputBuilderCore::buildHeader()
+```
 
 This method return an array with each http header params for a content.
 
@@ -323,7 +363,9 @@ If this method is overrided don't forget to check required specific params (for 
 
 ### <a name="method-getContent"></a>getContent
 
-    string WebserviceOutputBuilderCore::getContent(array $objects, null|string $schema_to_display, string|array $fields_to_display, integer $depth, integer $type_of_view, $override)
+```php
+string WebserviceOutputBuilderCore::getContent(array $objects, null|string $schema_to_display, string|array $fields_to_display, integer $depth, integer $type_of_view, $override)
+```
 
 Method is used for each content type
 Different content types are :
@@ -350,7 +392,9 @@ Different content types are :
 
 ### <a name="method-getErrors"></a>getErrors
 
-    string WebserviceOutputBuilderCore::getErrors(array $errors)
+```php
+string WebserviceOutputBuilderCore::getErrors(array $errors)
+```
 
 Build errors output using an error array
 
@@ -367,7 +411,9 @@ Build errors output using an error array
 
 ### <a name="method-getHeaderParams"></a>getHeaderParams
 
-    array|string WebserviceOutputBuilderCore::getHeaderParams(null|string $key)
+```php
+array|string WebserviceOutputBuilderCore::getHeaderParams(null|string $key)
+```
 
 
 
@@ -384,7 +430,9 @@ Build errors output using an error array
 
 ### <a name="method-getObjectRender"></a>getObjectRender
 
-    \WebserviceOutputInterface WebserviceOutputBuilderCore::getObjectRender()
+```php
+\WebserviceOutputInterface WebserviceOutputBuilderCore::getObjectRender()
+```
 
 getter
 
@@ -398,7 +446,9 @@ getter
 
 ### <a name="method-getResourcesList"></a>getResourcesList
 
-    string WebserviceOutputBuilderCore::getResourcesList($key_permissions)
+```php
+string WebserviceOutputBuilderCore::getResourcesList($key_permissions)
+```
 
 Build the resource list in the output format specified by WebserviceOutputBuilder::objectRender
 
@@ -415,7 +465,9 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 ### <a name="method-getSpecificField"></a>getSpecificField
 
-    mixed WebserviceOutputBuilderCore::getSpecificField()
+```php
+mixed WebserviceOutputBuilderCore::getSpecificField()
+```
 
 
 
@@ -429,7 +481,9 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 ### <a name="method-getStatus"></a>getStatus
 
-    string WebserviceOutputBuilderCore::getStatus()
+```php
+string WebserviceOutputBuilderCore::getStatus()
+```
 
 
 
@@ -443,7 +497,9 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 ### <a name="method-getStatusInt"></a>getStatusInt
 
-    mixed WebserviceOutputBuilderCore::getStatusInt()
+```php
+mixed WebserviceOutputBuilderCore::getStatusInt()
+```
 
 
 
@@ -457,7 +513,9 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 ### <a name="method-getSynopsisDetails"></a>getSynopsisDetails
 
-    mixed WebserviceOutputBuilderCore::getSynopsisDetails($field)
+```php
+mixed WebserviceOutputBuilderCore::getSynopsisDetails($field)
+```
 
 
 
@@ -474,7 +532,9 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 ### <a name="method-getVirtualFields"></a>getVirtualFields
 
-    mixed WebserviceOutputBuilderCore::getVirtualFields()
+```php
+mixed WebserviceOutputBuilderCore::getVirtualFields()
+```
 
 
 
@@ -488,7 +548,9 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 ### <a name="method-overrideSpecificField"></a>overrideSpecificField
 
-    mixed WebserviceOutputBuilderCore::overrideSpecificField($entity_name, $field_name, $field, $entity_object, $ws_params)
+```php
+mixed WebserviceOutputBuilderCore::overrideSpecificField($entity_name, $field_name, $field, $entity_object, $ws_params)
+```
 
 
 
@@ -509,7 +571,9 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 ### <a name="method-registerOverrideWSParameters"></a>registerOverrideWSParameters
 
-    mixed WebserviceOutputBuilderCore::registerOverrideWSParameters($wsrObject, $method)
+```php
+mixed WebserviceOutputBuilderCore::registerOverrideWSParameters($wsrObject, $method)
+```
 
 
 
@@ -527,7 +591,9 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 ### <a name="method-renderAssociations"></a>renderAssociations
 
-    string WebserviceOutputBuilderCore::renderAssociations($object, $depth, $associations, $ws_params)
+```php
+string WebserviceOutputBuilderCore::renderAssociations($object, $depth, $associations, $ws_params)
+```
 
 
 
@@ -547,7 +613,9 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 ### <a name="method-renderEntity"></a>renderEntity
 
-    string WebserviceOutputBuilderCore::renderEntity(\ObjectModel $object, integer $depth)
+```php
+string WebserviceOutputBuilderCore::renderEntity(\ObjectModel $object, integer $depth)
+```
 
 Build the entity detail.
 
@@ -565,7 +633,9 @@ Build the entity detail.
 
 ### <a name="method-renderEntityMinimum"></a>renderEntityMinimum
 
-    string WebserviceOutputBuilderCore::renderEntityMinimum(\ObjectModel $object, integer $depth)
+```php
+string WebserviceOutputBuilderCore::renderEntityMinimum(\ObjectModel $object, integer $depth)
+```
 
 Create the tree diagram with no details
 
@@ -583,7 +653,9 @@ Create the tree diagram with no details
 
 ### <a name="method-renderField"></a>renderField
 
-    string WebserviceOutputBuilderCore::renderField(\ObjectModel $object, array $ws_params, string $field_name, array $field, integer $depth)
+```php
+string WebserviceOutputBuilderCore::renderField(\ObjectModel $object, array $ws_params, string $field_name, array $field, integer $depth)
+```
 
 Build a field and use recursivity depend on the depth parameter.
 
@@ -604,7 +676,9 @@ Build a field and use recursivity depend on the depth parameter.
 
 ### <a name="method-renderFlatAssociation"></a>renderFlatAssociation
 
-    mixed WebserviceOutputBuilderCore::renderFlatAssociation($object, $depth, $assoc_name, $resource_name, $fields_assoc, $object_assoc, $parent_details)
+```php
+mixed WebserviceOutputBuilderCore::renderFlatAssociation($object, $depth, $assoc_name, $resource_name, $fields_assoc, $object_assoc, $parent_details)
+```
 
 
 
@@ -627,7 +701,9 @@ Build a field and use recursivity depend on the depth parameter.
 
 ### <a name="method-renderSchema"></a>renderSchema
 
-    string WebserviceOutputBuilderCore::renderSchema(\ObjectModel $object, array $ws_params)
+```php
+string WebserviceOutputBuilderCore::renderSchema(\ObjectModel $object, array $ws_params)
+```
 
 Build a schema blank or synopsis
 
@@ -645,7 +721,9 @@ Build a schema blank or synopsis
 
 ### <a name="method-resetHeaderParams"></a>resetHeaderParams
 
-    \WebserviceOutputBuilder WebserviceOutputBuilderCore::resetHeaderParams()
+```php
+\WebserviceOutputBuilder WebserviceOutputBuilderCore::resetHeaderParams()
+```
 
 Delete all Header parameters previously set.
 
@@ -659,7 +737,9 @@ Delete all Header parameters previously set.
 
 ### <a name="method-setFieldsToDisplay"></a>setFieldsToDisplay
 
-    mixed WebserviceOutputBuilderCore::setFieldsToDisplay($fields)
+```php
+mixed WebserviceOutputBuilderCore::setFieldsToDisplay($fields)
+```
 
 
 
@@ -676,7 +756,9 @@ Delete all Header parameters previously set.
 
 ### <a name="method-setHeaderParams"></a>setHeaderParams
 
-    \WebserviceOutputBuilder WebserviceOutputBuilderCore::setHeaderParams(string $key, string $value)
+```php
+\WebserviceOutputBuilder WebserviceOutputBuilderCore::setHeaderParams(string $key, string $value)
+```
 
 
 
@@ -694,7 +776,9 @@ Delete all Header parameters previously set.
 
 ### <a name="method-setIndent"></a>setIndent
 
-    mixed WebserviceOutputBuilderCore::setIndent($depth)
+```php
+mixed WebserviceOutputBuilderCore::setIndent($depth)
+```
 
 
 
@@ -711,7 +795,9 @@ Delete all Header parameters previously set.
 
 ### <a name="method-setObjectRender"></a>setObjectRender
 
-    \WebserviceOutputBuilder WebserviceOutputBuilderCore::setObjectRender(\WebserviceOutputInterface $obj_render)
+```php
+\WebserviceOutputBuilder WebserviceOutputBuilderCore::setObjectRender(\WebserviceOutputInterface $obj_render)
+```
 
 Set the render object for set the output format.
 
@@ -728,7 +814,9 @@ Set the Content-type for the http header.
 
 ### <a name="method-setSpecificField"></a>setSpecificField
 
-    \WebserviceOutputBuilder WebserviceOutputBuilderCore::setSpecificField(string|object $object, string $method, $field_name, $entity_name)
+```php
+\WebserviceOutputBuilder WebserviceOutputBuilderCore::setSpecificField(string|object $object, string $method, $field_name, $entity_name)
+```
 
 
 
@@ -748,7 +836,9 @@ Set the Content-type for the http header.
 
 ### <a name="method-setStatus"></a>setStatus
 
-    void WebserviceOutputBuilderCore::setStatus(integer $num)
+```php
+void WebserviceOutputBuilderCore::setStatus(integer $num)
+```
 
 Set the return header status
 
@@ -765,7 +855,9 @@ Set the return header status
 
 ### <a name="method-setVirtualField"></a>setVirtualField
 
-    mixed WebserviceOutputBuilderCore::setVirtualField($object, $method, $entity_name, $parameters)
+```php
+mixed WebserviceOutputBuilderCore::setVirtualField($object, $method, $entity_name, $parameters)
+```
 
 
 
@@ -785,7 +877,9 @@ Set the return header status
 
 ### <a name="method-setWsResources"></a>setWsResources
 
-    \WebserviceOutputBuilder WebserviceOutputBuilderCore::setWsResources(array $resources)
+```php
+\WebserviceOutputBuilder WebserviceOutputBuilderCore::setWsResources(array $resources)
+```
 
 Need to have the resource list to get the class name for an entity,
 To build
@@ -803,7 +897,9 @@ To build
 
 ### <a name="method-validateObjectAndMethod"></a>validateObjectAndMethod
 
-    mixed WebserviceOutputBuilderCore::validateObjectAndMethod($object, $method)
+```php
+mixed WebserviceOutputBuilderCore::validateObjectAndMethod($object, $method)
+```
 
 
 

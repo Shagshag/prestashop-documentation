@@ -10,9 +10,11 @@ Class AdminCategoriesControllerCore
 * Source: [controllers/admin/AdminCategoriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCategoriesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_category](#property-$_category)
 * [$disable_products](#property-$disable_products)
@@ -21,8 +23,8 @@ Properties
 * [$position_identifier](#property-$position_identifier)
 * [$remove_products](#property-$remove_products)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessStatusCategory](#method-ajaxProcessStatusCategory)
 * [ajaxProcessUpdatePositions](#method-ajaxProcessUpdatePositions)
@@ -57,7 +59,9 @@ Properties
 
 ### <a name="property-$_category"></a>$_category
 
-    protected object $_category = null
+```php
+protected object $_category = null
+```
 
 
 
@@ -69,7 +73,9 @@ Properties
 
 ### <a name="property-$disable_products"></a>$disable_products
 
-    public boolean $disable_products = false
+```php
+public boolean $disable_products = false
+```
 
 
 
@@ -81,7 +87,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Category $object
+```php
+public \Category $object
+```
 
 
 
@@ -93,7 +101,9 @@ Properties
 
 ### <a name="property-$original_filter"></a>$original_filter
 
-    private mixed $original_filter = ''
+```php
+private mixed $original_filter = ''
+```
 
 
 
@@ -105,7 +115,9 @@ Properties
 
 ### <a name="property-$position_identifier"></a>$position_identifier
 
-    protected mixed $position_identifier = 'id_category_to_move'
+```php
+protected mixed $position_identifier = 'id_category_to_move'
+```
 
 
 
@@ -117,7 +129,9 @@ Properties
 
 ### <a name="property-$remove_products"></a>$remove_products
 
-    public boolean $remove_products = true
+```php
+public boolean $remove_products = true
+```
 
 
 
@@ -133,7 +147,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminCategoriesControllerCore::__construct()
+```php
+mixed AdminCategoriesControllerCore::__construct()
+```
 
 
 
@@ -147,7 +163,9 @@ Methods
 
 ### <a name="method-ajaxProcessStatusCategory"></a>ajaxProcessStatusCategory
 
-    mixed AdminCategoriesControllerCore::ajaxProcessStatusCategory()
+```php
+mixed AdminCategoriesControllerCore::ajaxProcessStatusCategory()
+```
 
 
 
@@ -161,7 +179,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdatePositions"></a>ajaxProcessUpdatePositions
 
-    mixed AdminCategoriesControllerCore::ajaxProcessUpdatePositions()
+```php
+mixed AdminCategoriesControllerCore::ajaxProcessUpdatePositions()
+```
 
 
 
@@ -175,7 +195,9 @@ Methods
 
 ### <a name="method-getDescriptionClean"></a>getDescriptionClean
 
-    mixed AdminCategoriesControllerCore::getDescriptionClean($description)
+```php
+mixed AdminCategoriesControllerCore::getDescriptionClean($description)
+```
 
 
 
@@ -193,7 +215,9 @@ Methods
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminCategoriesControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```php
+mixed AdminCategoriesControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```
 
 
 
@@ -215,7 +239,9 @@ Methods
 
 ### <a name="method-init"></a>init
 
-    mixed AdminCategoriesControllerCore::init()
+```php
+mixed AdminCategoriesControllerCore::init()
+```
 
 
 
@@ -229,7 +255,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminCategoriesControllerCore::initContent()
+```php
+mixed AdminCategoriesControllerCore::initContent()
+```
 
 
 
@@ -243,7 +271,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminCategoriesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminCategoriesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -257,7 +287,9 @@ Methods
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminCategoriesControllerCore::initProcess()
+```php
+mixed AdminCategoriesControllerCore::initProcess()
+```
 
 
 
@@ -271,7 +303,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminCategoriesControllerCore::initToolbar()
+```php
+mixed AdminCategoriesControllerCore::initToolbar()
+```
 
 
 
@@ -285,7 +319,9 @@ Methods
 
 ### <a name="method-postImage"></a>postImage
 
-    mixed AdminCategoriesControllerCore::postImage($id)
+```php
+mixed AdminCategoriesControllerCore::postImage($id)
+```
 
 
 
@@ -302,7 +338,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminCategoriesControllerCore::postProcess()
+```php
+mixed AdminCategoriesControllerCore::postProcess()
+```
 
 
 
@@ -316,7 +354,9 @@ Methods
 
 ### <a name="method-processAdd"></a>processAdd
 
-    mixed AdminCategoriesControllerCore::processAdd()
+```php
+mixed AdminCategoriesControllerCore::processAdd()
+```
 
 
 
@@ -330,7 +370,9 @@ Methods
 
 ### <a name="method-processBulkDelete"></a>processBulkDelete
 
-    mixed AdminCategoriesControllerCore::processBulkDelete()
+```php
+mixed AdminCategoriesControllerCore::processBulkDelete()
+```
 
 
 
@@ -344,7 +386,9 @@ Methods
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminCategoriesControllerCore::processDelete()
+```php
+mixed AdminCategoriesControllerCore::processDelete()
+```
 
 
 
@@ -358,7 +402,9 @@ Methods
 
 ### <a name="method-processFatherlessProducts"></a>processFatherlessProducts
 
-    mixed AdminCategoriesControllerCore::processFatherlessProducts($id_parent)
+```php
+mixed AdminCategoriesControllerCore::processFatherlessProducts($id_parent)
+```
 
 
 
@@ -375,7 +421,9 @@ Methods
 
 ### <a name="method-processForceDeleteImage"></a>processForceDeleteImage
 
-    mixed AdminCategoriesControllerCore::processForceDeleteImage()
+```php
+mixed AdminCategoriesControllerCore::processForceDeleteImage()
+```
 
 
 
@@ -389,7 +437,9 @@ Methods
 
 ### <a name="method-processPosition"></a>processPosition
 
-    mixed AdminCategoriesControllerCore::processPosition()
+```php
+mixed AdminCategoriesControllerCore::processPosition()
+```
 
 
 
@@ -403,7 +453,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminCategoriesControllerCore::renderForm()
+```php
+mixed AdminCategoriesControllerCore::renderForm()
+```
 
 
 
@@ -417,7 +469,9 @@ Methods
 
 ### <a name="method-renderKpis"></a>renderKpis
 
-    mixed AdminCategoriesControllerCore::renderKpis()
+```php
+mixed AdminCategoriesControllerCore::renderKpis()
+```
 
 
 
@@ -431,7 +485,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminCategoriesControllerCore::renderList()
+```php
+mixed AdminCategoriesControllerCore::renderList()
+```
 
 
 
@@ -445,7 +501,9 @@ Methods
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminCategoriesControllerCore::renderView()
+```php
+mixed AdminCategoriesControllerCore::renderView()
+```
 
 
 
@@ -459,7 +517,9 @@ Methods
 
 ### <a name="method-setDeleteMode"></a>setDeleteMode
 
-    mixed AdminCategoriesControllerCore::setDeleteMode()
+```php
+mixed AdminCategoriesControllerCore::setDeleteMode()
+```
 
 
 
@@ -473,7 +533,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminCategoriesControllerCore::setMedia()
+```php
+mixed AdminCategoriesControllerCore::setMedia()
+```
 
 
 

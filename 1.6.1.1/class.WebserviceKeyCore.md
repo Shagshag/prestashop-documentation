@@ -10,17 +10,19 @@ Class WebserviceKeyCore
 * Source: [classes/webservice/WebserviceKey.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$definition](#property-$definition)
 * [$description](#property-$description)
 * [$key](#property-$key)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [delete](#method-delete)
 * [deleteAssociations](#method-deleteAssociations)
@@ -39,7 +41,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = true
+```php
+public boolean $active = true
+```
 
 
 
@@ -51,7 +55,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'webservice_account', 'primary' => 'id_webservice_account', 'fields' => array('active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'key' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 32), 'description' => array('type' => self::TYPE_STRING)))
+```php
+public mixed $definition = array('table' => 'webservice_account', 'primary' => 'id_webservice_account', 'fields' => array('active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'key' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 32), 'description' => array('type' => self::TYPE_STRING)))
+```
 
 
 
@@ -64,7 +70,9 @@ Properties
 
 ### <a name="property-$description"></a>$description
 
-    public string $description
+```php
+public string $description
+```
 
 
 
@@ -76,7 +84,9 @@ Properties
 
 ### <a name="property-$key"></a>$key
 
-    public string $key
+```php
+public string $key
+```
 
 
 
@@ -92,7 +102,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed WebserviceKeyCore::add($autodate, $nullValues)
+```php
+mixed WebserviceKeyCore::add($autodate, $nullValues)
+```
 
 
 
@@ -110,7 +122,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed WebserviceKeyCore::delete()
+```php
+mixed WebserviceKeyCore::delete()
+```
 
 
 
@@ -124,7 +138,9 @@ Methods
 
 ### <a name="method-deleteAssociations"></a>deleteAssociations
 
-    mixed WebserviceKeyCore::deleteAssociations()
+```php
+mixed WebserviceKeyCore::deleteAssociations()
+```
 
 
 
@@ -138,7 +154,9 @@ Methods
 
 ### <a name="method-getClassFromKey"></a>getClassFromKey
 
-    mixed WebserviceKeyCore::getClassFromKey($auth_key)
+```php
+mixed WebserviceKeyCore::getClassFromKey($auth_key)
+```
 
 
 
@@ -156,7 +174,9 @@ Methods
 
 ### <a name="method-getPermissionForAccount"></a>getPermissionForAccount
 
-    mixed WebserviceKeyCore::getPermissionForAccount($auth_key)
+```php
+mixed WebserviceKeyCore::getPermissionForAccount($auth_key)
+```
 
 
 
@@ -174,7 +194,9 @@ Methods
 
 ### <a name="method-isKeyActive"></a>isKeyActive
 
-    mixed WebserviceKeyCore::isKeyActive($auth_key)
+```php
+mixed WebserviceKeyCore::isKeyActive($auth_key)
+```
 
 
 
@@ -192,7 +214,9 @@ Methods
 
 ### <a name="method-keyExists"></a>keyExists
 
-    mixed WebserviceKeyCore::keyExists($key)
+```php
+mixed WebserviceKeyCore::keyExists($key)
+```
 
 
 
@@ -210,7 +234,9 @@ Methods
 
 ### <a name="method-setPermissionForAccount"></a>setPermissionForAccount
 
-    mixed WebserviceKeyCore::setPermissionForAccount($id_account, $permissions_to_set)
+```php
+mixed WebserviceKeyCore::setPermissionForAccount($id_account, $permissions_to_set)
+```
 
 
 

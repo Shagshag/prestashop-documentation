@@ -10,16 +10,18 @@ Class AdminAttributeGeneratorControllerCore
 * Source: [controllers/admin/AdminAttributeGeneratorController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L32)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$combinations](#property-$combinations)
 * [$object](#property-$object)
 * [$product](#property-$product)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [addAttribute](#method-addAttribute)
 * [createCombinations](#method-createCombinations)
@@ -42,7 +44,9 @@ Properties
 
 ### <a name="property-$combinations"></a>$combinations
 
-    protected mixed $combinations = array()
+```php
+protected mixed $combinations = array()
+```
 
 
 
@@ -54,7 +58,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Product $object
+```php
+public \Product $object
+```
 
 
 
@@ -66,7 +72,9 @@ Properties
 
 ### <a name="property-$product"></a>$product
 
-    protected \Product $product
+```php
+protected \Product $product
+```
 
 
 
@@ -82,7 +90,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminAttributeGeneratorControllerCore::__construct()
+```php
+mixed AdminAttributeGeneratorControllerCore::__construct()
+```
 
 
 
@@ -96,7 +106,9 @@ Methods
 
 ### <a name="method-addAttribute"></a>addAttribute
 
-    mixed AdminAttributeGeneratorControllerCore::addAttribute($attributes, $price, $weight)
+```php
+mixed AdminAttributeGeneratorControllerCore::addAttribute($attributes, $price, $weight)
+```
 
 
 
@@ -115,7 +127,9 @@ Methods
 
 ### <a name="method-createCombinations"></a>createCombinations
 
-    mixed AdminAttributeGeneratorControllerCore::createCombinations($list)
+```php
+mixed AdminAttributeGeneratorControllerCore::createCombinations($list)
+```
 
 
 
@@ -133,7 +147,9 @@ Methods
 
 ### <a name="method-initBreadcrumbs"></a>initBreadcrumbs
 
-    mixed AdminAttributeGeneratorControllerCore::initBreadcrumbs($tab_id, $tabs)
+```php
+mixed AdminAttributeGeneratorControllerCore::initBreadcrumbs($tab_id, $tabs)
+```
 
 
 
@@ -151,7 +167,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminAttributeGeneratorControllerCore::initContent()
+```php
+mixed AdminAttributeGeneratorControllerCore::initContent()
+```
 
 
 
@@ -165,7 +183,9 @@ Methods
 
 ### <a name="method-initGroupTable"></a>initGroupTable
 
-    mixed AdminAttributeGeneratorControllerCore::initGroupTable()
+```php
+mixed AdminAttributeGeneratorControllerCore::initGroupTable()
+```
 
 
 
@@ -179,7 +199,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminAttributeGeneratorControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminAttributeGeneratorControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -193,7 +215,9 @@ Methods
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminAttributeGeneratorControllerCore::initProcess()
+```php
+mixed AdminAttributeGeneratorControllerCore::initProcess()
+```
 
 
 
@@ -207,7 +231,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminAttributeGeneratorControllerCore::postProcess()
+```php
+mixed AdminAttributeGeneratorControllerCore::postProcess()
+```
 
 
 
@@ -221,7 +247,9 @@ Methods
 
 ### <a name="method-processGenerate"></a>processGenerate
 
-    mixed AdminAttributeGeneratorControllerCore::processGenerate()
+```php
+mixed AdminAttributeGeneratorControllerCore::processGenerate()
+```
 
 
 
@@ -235,7 +263,9 @@ Methods
 
 ### <a name="method-setAttributesImpacts"></a>setAttributesImpacts
 
-    mixed AdminAttributeGeneratorControllerCore::setAttributesImpacts($id_product, $tab)
+```php
+mixed AdminAttributeGeneratorControllerCore::setAttributesImpacts($id_product, $tab)
+```
 
 
 
@@ -254,7 +284,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminAttributeGeneratorControllerCore::setMedia()
+```php
+mixed AdminAttributeGeneratorControllerCore::setMedia()
+```
 
 
 

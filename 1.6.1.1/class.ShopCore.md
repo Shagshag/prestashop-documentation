@@ -9,8 +9,11 @@ Class ShopCore
 * Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/shop/Shop.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L30)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [CONTEXT_ALL](#constant-CONTEXT_ALL)
 * [CONTEXT_GROUP](#constant-CONTEXT_GROUP)
@@ -19,8 +22,7 @@ Constants
 * [SHARE_ORDER](#constant-SHARE_ORDER)
 * [SHARE_STOCK](#constant-SHARE_STOCK)
 
-Properties
-----------
+### Properties
 
 * [$active](#property-$active)
 * [$asso_tables](#property-$asso_tables)
@@ -45,8 +47,8 @@ Properties
 * [$virtual_uri](#property-$virtual_uri)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [addSqlAssociation](#method-addSqlAssociation)
@@ -102,7 +104,9 @@ Constants
 
 ### <a name="constant-CONTEXT_ALL"></a>CONTEXT_ALL
 
-    const CONTEXT_ALL = 4
+```php
+const CONTEXT_ALL = 4
+```
 
 
 
@@ -113,7 +117,9 @@ Constants
 
 ### <a name="constant-CONTEXT_GROUP"></a>CONTEXT_GROUP
 
-    const CONTEXT_GROUP = 2
+```php
+const CONTEXT_GROUP = 2
+```
 
 
 
@@ -124,7 +130,9 @@ Constants
 
 ### <a name="constant-CONTEXT_SHOP"></a>CONTEXT_SHOP
 
-    const CONTEXT_SHOP = 1
+```php
+const CONTEXT_SHOP = 1
+```
 
 There are 3 kinds of shop context : shop, group shop and general
 
@@ -135,7 +143,9 @@ There are 3 kinds of shop context : shop, group shop and general
 
 ### <a name="constant-SHARE_CUSTOMER"></a>SHARE_CUSTOMER
 
-    const SHARE_CUSTOMER = 'share_customer'
+```php
+const SHARE_CUSTOMER = 'share_customer'
+```
 
 Some data can be shared between shops, like customers or orders
 
@@ -146,7 +156,9 @@ Some data can be shared between shops, like customers or orders
 
 ### <a name="constant-SHARE_ORDER"></a>SHARE_ORDER
 
-    const SHARE_ORDER = 'share_order'
+```php
+const SHARE_ORDER = 'share_order'
+```
 
 
 
@@ -157,7 +169,9 @@ Some data can be shared between shops, like customers or orders
 
 ### <a name="constant-SHARE_STOCK"></a>SHARE_STOCK
 
-    const SHARE_STOCK = 'share_stock'
+```php
+const SHARE_STOCK = 'share_stock'
+```
 
 
 
@@ -172,7 +186,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public mixed $active = true
+```php
+public mixed $active = true
+```
 
 
 
@@ -184,7 +200,9 @@ Properties
 
 ### <a name="property-$asso_tables"></a>$asso_tables
 
-    protected mixed $asso_tables = array()
+```php
+protected mixed $asso_tables = array()
+```
 
 
 
@@ -197,7 +215,9 @@ Properties
 
 ### <a name="property-$context"></a>$context
 
-    protected integer $context
+```php
+protected integer $context
+```
 
 
 
@@ -210,7 +230,9 @@ Properties
 
 ### <a name="property-$context_id_shop"></a>$context_id_shop
 
-    protected integer $context_id_shop
+```php
+protected integer $context_id_shop
+```
 
 
 
@@ -223,7 +245,9 @@ Properties
 
 ### <a name="property-$context_id_shop_group"></a>$context_id_shop_group
 
-    protected integer $context_id_shop_group
+```php
+protected integer $context_id_shop_group
+```
 
 
 
@@ -236,7 +260,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'shop', 'primary' => 'id_shop', 'fields' => array('active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'id_theme' => array('type' => self::TYPE_INT, 'required' => true), 'id_category' => array('type' => self::TYPE_INT, 'required' => true), 'id_shop_group' => array('type' => self::TYPE_INT, 'required' => true)))
+```php
+public mixed $definition = array('table' => 'shop', 'primary' => 'id_shop', 'fields' => array('active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'id_theme' => array('type' => self::TYPE_INT, 'required' => true), 'id_category' => array('type' => self::TYPE_INT, 'required' => true), 'id_shop_group' => array('type' => self::TYPE_INT, 'required' => true)))
+```
 
 
 
@@ -249,7 +275,9 @@ Properties
 
 ### <a name="property-$deleted"></a>$deleted
 
-    public mixed $deleted
+```php
+public mixed $deleted
+```
 
 
 
@@ -261,7 +289,9 @@ Properties
 
 ### <a name="property-$domain"></a>$domain
 
-    public string $domain
+```php
+public string $domain
+```
 
 
 
@@ -273,7 +303,9 @@ Properties
 
 ### <a name="property-$domain_ssl"></a>$domain_ssl
 
-    public string $domain_ssl
+```php
+public string $domain_ssl
+```
 
 
 
@@ -285,7 +317,9 @@ Properties
 
 ### <a name="property-$group"></a>$group
 
-    protected \ShopGroup $group
+```php
+protected \ShopGroup $group
+```
 
 
 
@@ -297,7 +331,9 @@ Properties
 
 ### <a name="property-$id_category"></a>$id_category
 
-    public integer $id_category
+```php
+public integer $id_category
+```
 
 
 
@@ -309,7 +345,9 @@ Properties
 
 ### <a name="property-$id_shop_default_tables"></a>$id_shop_default_tables
 
-    protected mixed $id_shop_default_tables = array()
+```php
+protected mixed $id_shop_default_tables = array()
+```
 
 
 
@@ -322,7 +360,9 @@ Properties
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
 
-    public integer $id_shop_group
+```php
+public integer $id_shop_group
+```
 
 
 
@@ -334,7 +374,9 @@ Properties
 
 ### <a name="property-$id_theme"></a>$id_theme
 
-    public integer $id_theme
+```php
+public integer $id_theme
+```
 
 
 
@@ -346,7 +388,9 @@ Properties
 
 ### <a name="property-$initialized"></a>$initialized
 
-    protected mixed $initialized = false
+```php
+protected mixed $initialized = false
+```
 
 
 
@@ -359,7 +403,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -371,7 +417,9 @@ Properties
 
 ### <a name="property-$physical_uri"></a>$physical_uri
 
-    public string $physical_uri
+```php
+public string $physical_uri
+```
 
 
 
@@ -383,7 +431,9 @@ Properties
 
 ### <a name="property-$shops"></a>$shops
 
-    protected array $shops
+```php
+protected array $shops
+```
 
 
 
@@ -396,7 +446,9 @@ Properties
 
 ### <a name="property-$theme_directory"></a>$theme_directory
 
-    public string $theme_directory
+```php
+public string $theme_directory
+```
 
 
 
@@ -408,7 +460,9 @@ Properties
 
 ### <a name="property-$theme_name"></a>$theme_name
 
-    public string $theme_name
+```php
+public string $theme_name
+```
 
 
 
@@ -420,7 +474,9 @@ Properties
 
 ### <a name="property-$virtual_uri"></a>$virtual_uri
 
-    public string $virtual_uri
+```php
+public string $virtual_uri
+```
 
 
 
@@ -432,7 +488,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_shop_group' => array('xlink_resource' => 'shop_groups'), 'id_category' => array(), 'id_theme' => array()))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_shop_group' => array('xlink_resource' => 'shop_groups'), 'id_category' => array(), 'id_theme' => array()))
+```
 
 
 
@@ -448,7 +506,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ShopCore::__construct(integer $id, integer $id_lang, integer $id_shop)
+```php
+mixed ShopCore::__construct(integer $id, integer $id_lang, integer $id_shop)
+```
 
 On shop instance, get its theme and URL data too
 
@@ -467,7 +527,9 @@ On shop instance, get its theme and URL data too
 
 ### <a name="method-add"></a>add
 
-    boolean ShopCore::add(boolean $autodate, boolean $null_values)
+```php
+boolean ShopCore::add(boolean $autodate, boolean $null_values)
+```
 
 Add a shop, and clear the cache
 
@@ -485,7 +547,9 @@ Add a shop, and clear the cache
 
 ### <a name="method-addSqlAssociation"></a>addSqlAssociation
 
-    string ShopCore::addSqlAssociation(string $table, string $alias, boolean $inner_join, string $on, $force_not_default)
+```php
+string ShopCore::addSqlAssociation(string $table, string $alias, boolean $inner_join, string $on, $force_not_default)
+```
 
 Add an SQL JOIN in query between a table and its associated table in multishop
 
@@ -507,7 +571,9 @@ Add an SQL JOIN in query between a table and its associated table in multishop
 
 ### <a name="method-addSqlRestriction"></a>addSqlRestriction
 
-    mixed ShopCore::addSqlRestriction(integer $share, string $alias)
+```php
+mixed ShopCore::addSqlRestriction(integer $share, string $alias)
+```
 
 Add an sql restriction for shops fields
 
@@ -526,7 +592,9 @@ Add an sql restriction for shops fields
 
 ### <a name="method-addSqlRestrictionOnLang"></a>addSqlRestrictionOnLang
 
-    string ShopCore::addSqlRestrictionOnLang(string $alias, $id_shop)
+```php
+string ShopCore::addSqlRestrictionOnLang(string $alias, $id_shop)
+```
 
 Add a restriction on id_shop for multishop lang table
 
@@ -545,7 +613,9 @@ Add a restriction on id_shop for multishop lang table
 
 ### <a name="method-addTableAssociation"></a>addTableAssociation
 
-    boolean ShopCore::addTableAssociation(string $table_name, array $table_details)
+```php
+boolean ShopCore::addTableAssociation(string $table_name, array $table_details)
+```
 
 Add table associated to shop
 
@@ -564,7 +634,9 @@ Add table associated to shop
 
 ### <a name="method-associateSuperAdmins"></a>associateSuperAdmins
 
-    mixed ShopCore::associateSuperAdmins()
+```php
+mixed ShopCore::associateSuperAdmins()
+```
 
 
 
@@ -578,7 +650,9 @@ Add table associated to shop
 
 ### <a name="method-cacheShops"></a>cacheShops
 
-    mixed ShopCore::cacheShops(boolean $refresh)
+```php
+mixed ShopCore::cacheShops(boolean $refresh)
+```
 
 Load list of groups and shops, and cache it
 
@@ -596,7 +670,9 @@ Load list of groups and shops, and cache it
 
 ### <a name="method-checkIdShopDefault"></a>checkIdShopDefault
 
-    boolean ShopCore::checkIdShopDefault($table)
+```php
+boolean ShopCore::checkIdShopDefault($table)
+```
 
 check if the table has an id_shop_default
 
@@ -614,7 +690,9 @@ check if the table has an id_shop_default
 
 ### <a name="method-copyShopData"></a>copyShopData
 
-    mixed ShopCore::copyShopData($old_id, $tables_import, $deleted)
+```php
+mixed ShopCore::copyShopData($old_id, $tables_import, $deleted)
+```
 
 
 
@@ -633,7 +711,9 @@ check if the table has an id_shop_default
 
 ### <a name="method-delete"></a>delete
 
-    boolean ShopCore::delete()
+```php
+boolean ShopCore::delete()
+```
 
 Remove a shop only if it has no dependencies, and remove its associations
 
@@ -647,7 +727,9 @@ Remove a shop only if it has no dependencies, and remove its associations
 
 ### <a name="method-getAddress"></a>getAddress
 
-    \Address ShopCore::getAddress()
+```php
+\Address ShopCore::getAddress()
+```
 
 
 
@@ -661,7 +743,9 @@ Remove a shop only if it has no dependencies, and remove its associations
 
 ### <a name="method-getAssoTable"></a>getAssoTable
 
-    array ShopCore::getAssoTable($table)
+```php
+array ShopCore::getAssoTable($table)
+```
 
 Get the associated table if available
 
@@ -679,7 +763,9 @@ Get the associated table if available
 
 ### <a name="method-getAssoTables"></a>getAssoTables
 
-    array ShopCore::getAssoTables()
+```php
+array ShopCore::getAssoTables()
+```
 
 Get list of associated tables to shop
 
@@ -694,7 +780,9 @@ Get list of associated tables to shop
 
 ### <a name="method-getBaseURI"></a>getBaseURI
 
-    string ShopCore::getBaseURI()
+```php
+string ShopCore::getBaseURI()
+```
 
 Get shop URI
 
@@ -708,7 +796,9 @@ Get shop URI
 
 ### <a name="method-getBaseURL"></a>getBaseURL
 
-    string ShopCore::getBaseURL(string $auto_secure_mode, string $add_base_uri)
+```php
+string ShopCore::getBaseURL(string $auto_secure_mode, string $add_base_uri)
+```
 
 Get shop URL
 
@@ -726,7 +816,9 @@ Get shop URL
 
 ### <a name="method-getCategories"></a>getCategories
 
-    array ShopCore::getCategories(integer $id, $only_id)
+```php
+array ShopCore::getCategories(integer $id, $only_id)
+```
 
 
 
@@ -745,7 +837,9 @@ Get shop URL
 
 ### <a name="method-getCategory"></a>getCategory
 
-    integer ShopCore::getCategory()
+```php
+integer ShopCore::getCategory()
+```
 
 Get root category of current shop
 
@@ -759,7 +853,9 @@ Get root category of current shop
 
 ### <a name="method-getCompleteListOfShopsID"></a>getCompleteListOfShopsID
 
-    mixed ShopCore::getCompleteListOfShopsID()
+```php
+mixed ShopCore::getCompleteListOfShopsID()
+```
 
 
 
@@ -774,7 +870,9 @@ Get root category of current shop
 
 ### <a name="method-getContext"></a>getContext
 
-    integer ShopCore::getContext()
+```php
+integer ShopCore::getContext()
+```
 
 Get current context of shop
 
@@ -789,7 +887,9 @@ Get current context of shop
 
 ### <a name="method-getContextListShopID"></a>getContextListShopID
 
-    array ShopCore::getContextListShopID(string $share)
+```php
+array ShopCore::getContextListShopID(string $share)
+```
 
 Get a list of ID concerned by the shop context (E.g. if context is shop group, get list of children shop ID)
 
@@ -807,7 +907,9 @@ Get a list of ID concerned by the shop context (E.g. if context is shop group, g
 
 ### <a name="method-getContextShopGroup"></a>getContextShopGroup
 
-    mixed ShopCore::getContextShopGroup()
+```php
+mixed ShopCore::getContextShopGroup()
+```
 
 
 
@@ -822,7 +924,9 @@ Get a list of ID concerned by the shop context (E.g. if context is shop group, g
 
 ### <a name="method-getContextShopGroupID"></a>getContextShopGroupID
 
-    integer ShopCore::getContextShopGroupID($null_value_without_multishop)
+```php
+integer ShopCore::getContextShopGroupID($null_value_without_multishop)
+```
 
 Get current ID of shop group if context is CONTEXT_SHOP or CONTEXT_GROUP
 
@@ -840,7 +944,9 @@ Get current ID of shop group if context is CONTEXT_SHOP or CONTEXT_GROUP
 
 ### <a name="method-getContextShopID"></a>getContextShopID
 
-    integer ShopCore::getContextShopID($null_value_without_multishop)
+```php
+integer ShopCore::getContextShopID($null_value_without_multishop)
+```
 
 Get current ID of shop if context is CONTEXT_SHOP
 
@@ -858,7 +964,9 @@ Get current ID of shop if context is CONTEXT_SHOP
 
 ### <a name="method-getCurrentShop"></a>getCurrentShop
 
-    mixed ShopCore::getCurrentShop()
+```php
+mixed ShopCore::getCurrentShop()
+```
 
 
 
@@ -873,7 +981,9 @@ Get current ID of shop if context is CONTEXT_SHOP
 
 ### <a name="method-getEntityIds"></a>getEntityIds
 
-    array|boolean ShopCore::getEntityIds(string $entity, integer $id_shop, $active, $delete)
+```php
+array|boolean ShopCore::getEntityIds(string $entity, integer $id_shop, $active, $delete)
+```
 
 
 
@@ -894,7 +1004,9 @@ Get current ID of shop if context is CONTEXT_SHOP
 
 ### <a name="method-getGroup"></a>getGroup
 
-    \ShopGroup ShopCore::getGroup()
+```php
+\ShopGroup ShopCore::getGroup()
+```
 
 Get group of current shop
 
@@ -908,7 +1020,9 @@ Get group of current shop
 
 ### <a name="method-getGroupFromShop"></a>getGroupFromShop
 
-    integer ShopCore::getGroupFromShop(integer $shop_id, $as_id)
+```php
+integer ShopCore::getGroupFromShop(integer $shop_id, $as_id)
+```
 
 Retrieve group ID of a shop
 
@@ -927,7 +1041,9 @@ Retrieve group ID of a shop
 
 ### <a name="method-getIdByName"></a>getIdByName
 
-    integer ShopCore::getIdByName(string $name)
+```php
+integer ShopCore::getIdByName(string $name)
+```
 
 Return a shop ID from shop name
 
@@ -945,7 +1061,9 @@ Return a shop ID from shop name
 
 ### <a name="method-getSharedShops"></a>getSharedShops
 
-    array ShopCore::getSharedShops(integer $shop_id, integer $type)
+```php
+array ShopCore::getSharedShops(integer $shop_id, integer $type)
+```
 
 If the shop group has the option $type activated, get all shops ID of this group, else get current shop ID
 
@@ -964,7 +1082,9 @@ If the shop group has the option $type activated, get all shops ID of this group
 
 ### <a name="method-getShop"></a>getShop
 
-    array ShopCore::getShop(integer $shop_id)
+```php
+array ShopCore::getShop(integer $shop_id)
+```
 
 Return some informations cached for one shop
 
@@ -982,7 +1102,9 @@ Return some informations cached for one shop
 
 ### <a name="method-getShopById"></a>getShopById
 
-    array ShopCore::getShopById(integer $id, string $identifier, string $table)
+```php
+array ShopCore::getShopById(integer $id, string $identifier, string $table)
+```
 
 Return the list of shop by id
 
@@ -1002,7 +1124,9 @@ Return the list of shop by id
 
 ### <a name="method-getShops"></a>getShops
 
-    array ShopCore::getShops(boolean $active, integer $id_shop_group, boolean $get_as_list_id)
+```php
+array ShopCore::getShops(boolean $active, integer $id_shop_group, boolean $get_as_list_id)
+```
 
 Get shops list
 
@@ -1022,7 +1146,9 @@ Get shops list
 
 ### <a name="method-getShopsCollection"></a>getShopsCollection
 
-    \PrestaShopCollection ShopCore::getShopsCollection(boolean $active, integer $id_shop_group)
+```php
+\PrestaShopCollection ShopCore::getShopsCollection(boolean $active, integer $id_shop_group)
+```
 
 Get a collection of shops
 
@@ -1041,7 +1167,9 @@ Get a collection of shops
 
 ### <a name="method-getTheme"></a>getTheme
 
-    string ShopCore::getTheme()
+```php
+string ShopCore::getTheme()
+```
 
 Get shop theme name
 
@@ -1055,7 +1183,9 @@ Get shop theme name
 
 ### <a name="method-getTotalShops"></a>getTotalShops
 
-    integer ShopCore::getTotalShops(boolean $active, integer $id_shop_group)
+```php
+integer ShopCore::getTotalShops(boolean $active, integer $id_shop_group)
+```
 
 
 
@@ -1074,7 +1204,9 @@ Get shop theme name
 
 ### <a name="method-getTree"></a>getTree
 
-    array ShopCore::getTree()
+```php
+array ShopCore::getTree()
+```
 
 Get all groups and associated shops as subarrays
 
@@ -1089,7 +1221,9 @@ Get all groups and associated shops as subarrays
 
 ### <a name="method-getUrls"></a>getUrls
 
-    array ShopCore::getUrls()
+```php
+array ShopCore::getUrls()
+```
 
 Get list of shop's urls
 
@@ -1103,7 +1237,9 @@ Get list of shop's urls
 
 ### <a name="method-getUrlsSharedCart"></a>getUrlsSharedCart
 
-    mixed ShopCore::getUrlsSharedCart()
+```php
+mixed ShopCore::getUrlsSharedCart()
+```
 
 
 
@@ -1117,7 +1253,9 @@ Get list of shop's urls
 
 ### <a name="method-hasDependency"></a>hasDependency
 
-    boolean ShopCore::hasDependency(integer $id_shop)
+```php
+boolean ShopCore::hasDependency(integer $id_shop)
+```
 
 Detect dependency with customer or orders
 
@@ -1135,7 +1273,9 @@ Detect dependency with customer or orders
 
 ### <a name="method-init"></a>init
 
-    mixed ShopCore::init()
+```php
+mixed ShopCore::init()
+```
 
 Initialize an array with all the multistore associations in the database
 
@@ -1150,7 +1290,9 @@ Initialize an array with all the multistore associations in the database
 
 ### <a name="method-initialize"></a>initialize
 
-    \Shop ShopCore::initialize()
+```php
+\Shop ShopCore::initialize()
+```
 
 Find the shop from current domain / uri and get an instance of this shop
 if INSTALL_VERSION is defined, will return an empty shop object
@@ -1166,7 +1308,9 @@ if INSTALL_VERSION is defined, will return an empty shop object
 
 ### <a name="method-isDefaultShop"></a>isDefaultShop
 
-    boolean ShopCore::isDefaultShop()
+```php
+boolean ShopCore::isDefaultShop()
+```
 
 Check if current shop ID is the same as default shop in configuration
 
@@ -1180,7 +1324,9 @@ Check if current shop ID is the same as default shop in configuration
 
 ### <a name="method-isFeatureActive"></a>isFeatureActive
 
-    boolean ShopCore::isFeatureActive()
+```php
+boolean ShopCore::isFeatureActive()
+```
 
 
 
@@ -1195,7 +1341,9 @@ Check if current shop ID is the same as default shop in configuration
 
 ### <a name="method-isTableAssociated"></a>isTableAssociated
 
-    boolean ShopCore::isTableAssociated(string $table)
+```php
+boolean ShopCore::isTableAssociated(string $table)
+```
 
 Check if given table is associated to shop
 
@@ -1213,7 +1361,9 @@ Check if given table is associated to shop
 
 ### <a name="method-setContext"></a>setContext
 
-    mixed ShopCore::setContext(integer $type, integer $id)
+```php
+mixed ShopCore::setContext(integer $type, integer $id)
+```
 
 Change the current shop context
 
@@ -1232,7 +1382,9 @@ Change the current shop context
 
 ### <a name="method-setUrl"></a>setUrl
 
-    mixed ShopCore::setUrl()
+```php
+mixed ShopCore::setUrl()
+```
 
 
 

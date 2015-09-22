@@ -12,9 +12,11 @@ Import module management
 * Source: [classes/module/ImportModule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L34)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_link](#property-$_link)
 * [$database](#property-$database)
@@ -23,8 +25,8 @@ Properties
 * [$server](#property-$server)
 * [$user](#property-$user)
 
-Methods
--------
+### Methods
+
 * [Execute](#method-Execute)
 * [ExecuteS](#method-ExecuteS)
 * [__destruct](#method-__destruct)
@@ -42,7 +44,9 @@ Properties
 
 ### <a name="property-$_link"></a>$_link
 
-    protected mixed $_link = null
+```php
+protected mixed $_link = null
+```
 
 
 
@@ -54,7 +58,9 @@ Properties
 
 ### <a name="property-$database"></a>$database
 
-    public mixed $database
+```php
+public mixed $database
+```
 
 
 
@@ -66,7 +72,9 @@ Properties
 
 ### <a name="property-$passwd"></a>$passwd
 
-    public mixed $passwd
+```php
+public mixed $passwd
+```
 
 
 
@@ -78,7 +86,9 @@ Properties
 
 ### <a name="property-$prefix"></a>$prefix
 
-    public string $prefix
+```php
+public string $prefix
+```
 
 
 
@@ -90,7 +100,9 @@ Properties
 
 ### <a name="property-$server"></a>$server
 
-    public mixed $server
+```php
+public mixed $server
+```
 
 
 
@@ -102,7 +114,9 @@ Properties
 
 ### <a name="property-$user"></a>$user
 
-    public mixed $user
+```php
+public mixed $user
+```
 
 
 
@@ -118,7 +132,9 @@ Methods
 
 ### <a name="method-Execute"></a>Execute
 
-    mixed ImportModuleCore::Execute($query)
+```php
+mixed ImportModuleCore::Execute($query)
+```
 
 
 
@@ -135,7 +151,9 @@ Methods
 
 ### <a name="method-ExecuteS"></a>ExecuteS
 
-    mixed ImportModuleCore::ExecuteS($query)
+```php
+mixed ImportModuleCore::ExecuteS($query)
+```
 
 
 
@@ -152,7 +170,9 @@ Methods
 
 ### <a name="method-__destruct"></a>__destruct
 
-    mixed ImportModuleCore::__destruct()
+```php
+mixed ImportModuleCore::__destruct()
+```
 
 
 
@@ -166,7 +186,9 @@ Methods
 
 ### <a name="method-getDefaultIdLang"></a>getDefaultIdLang
 
-    mixed ImportModuleCore::getDefaultIdLang()
+```php
+mixed ImportModuleCore::getDefaultIdLang()
+```
 
 
 
@@ -181,7 +203,9 @@ Methods
 
 ### <a name="method-getImportModulesOnDisk"></a>getImportModulesOnDisk
 
-    mixed ImportModuleCore::getImportModulesOnDisk()
+```php
+mixed ImportModuleCore::getImportModulesOnDisk()
+```
 
 
 
@@ -196,7 +220,9 @@ Methods
 
 ### <a name="method-getValue"></a>getValue
 
-    mixed ImportModuleCore::getValue($query)
+```php
+mixed ImportModuleCore::getValue($query)
+```
 
 
 
@@ -213,7 +239,9 @@ Methods
 
 ### <a name="method-initDatabaseConnection"></a>initDatabaseConnection
 
-    mixed ImportModuleCore::initDatabaseConnection()
+```php
+mixed ImportModuleCore::initDatabaseConnection()
+```
 
 
 

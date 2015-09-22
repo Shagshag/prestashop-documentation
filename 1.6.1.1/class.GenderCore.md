@@ -10,17 +10,19 @@ Class GenderCore
 * Source: [classes/Gender.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$id_gender](#property-$id_gender)
 * [$name](#property-$name)
 * [$type](#property-$type)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getGenders](#method-getGenders)
 * [getImage](#method-getImage)
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'gender', 'primary' => 'id_gender', 'multilang' => true, 'fields' => array('type' => array('type' => self::TYPE_INT, 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isString', 'required' => true, 'size' => 20)))
+```php
+public mixed $definition = array('table' => 'gender', 'primary' => 'id_gender', 'multilang' => true, 'fields' => array('type' => array('type' => self::TYPE_INT, 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isString', 'required' => true, 'size' => 20)))
+```
 
 
 
@@ -47,7 +51,9 @@ Properties
 
 ### <a name="property-$id_gender"></a>$id_gender
 
-    public mixed $id_gender
+```php
+public mixed $id_gender
+```
 
 
 
@@ -59,7 +65,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -71,7 +79,9 @@ Properties
 
 ### <a name="property-$type"></a>$type
 
-    public mixed $type
+```php
+public mixed $type
+```
 
 
 
@@ -87,7 +97,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed GenderCore::__construct($id, $id_lang, $id_shop)
+```php
+mixed GenderCore::__construct($id, $id_lang, $id_shop)
+```
 
 
 
@@ -106,7 +118,9 @@ Methods
 
 ### <a name="method-getGenders"></a>getGenders
 
-    mixed GenderCore::getGenders($id_lang)
+```php
+mixed GenderCore::getGenders($id_lang)
+```
 
 
 
@@ -124,7 +138,9 @@ Methods
 
 ### <a name="method-getImage"></a>getImage
 
-    mixed GenderCore::getImage($use_unknown)
+```php
+mixed GenderCore::getImage($use_unknown)
+```
 
 
 

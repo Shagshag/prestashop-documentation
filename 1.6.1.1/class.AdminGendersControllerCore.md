@@ -10,14 +10,16 @@ Class AdminGendersControllerCore
 * Source: [controllers/admin/AdminGendersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGendersController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterImageUpload](#method-afterImageUpload)
 * [displayGenderType](#method-displayGenderType)
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Gender $object
+```php
+public \Gender $object
+```
 
 
 
@@ -50,7 +54,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminGendersControllerCore::__construct()
+```php
+mixed AdminGendersControllerCore::__construct()
+```
 
 
 
@@ -64,7 +70,9 @@ Methods
 
 ### <a name="method-afterImageUpload"></a>afterImageUpload
 
-    mixed AdminGendersControllerCore::afterImageUpload()
+```php
+mixed AdminGendersControllerCore::afterImageUpload()
+```
 
 
 
@@ -78,7 +86,9 @@ Methods
 
 ### <a name="method-displayGenderType"></a>displayGenderType
 
-    mixed AdminGendersControllerCore::displayGenderType($value, $tr)
+```php
+mixed AdminGendersControllerCore::displayGenderType($value, $tr)
+```
 
 
 
@@ -96,7 +106,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminGendersControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminGendersControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -110,7 +122,9 @@ Methods
 
 ### <a name="method-postImage"></a>postImage
 
-    mixed AdminGendersControllerCore::postImage($id)
+```php
+mixed AdminGendersControllerCore::postImage($id)
+```
 
 
 
@@ -127,7 +141,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminGendersControllerCore::renderForm()
+```php
+mixed AdminGendersControllerCore::renderForm()
+```
 
 
 

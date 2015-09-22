@@ -11,14 +11,16 @@ Class TaxManagerModuleCore
 * Source: [classes/tax/TaxManagerModule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$tax_manager_class](#property-$tax_manager_class)
 
-Methods
--------
+### Methods
+
 * [hookTaxManager](#method-hookTaxManager)
 * [install](#method-install)
 
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$tax_manager_class"></a>$tax_manager_class
 
-    public mixed $tax_manager_class
+```php
+public mixed $tax_manager_class
+```
 
 
 
@@ -47,7 +51,9 @@ Methods
 
 ### <a name="method-hookTaxManager"></a>hookTaxManager
 
-    mixed TaxManagerModuleCore::hookTaxManager($args)
+```php
+mixed TaxManagerModuleCore::hookTaxManager($args)
+```
 
 
 
@@ -64,7 +70,9 @@ Methods
 
 ### <a name="method-install"></a>install
 
-    mixed TaxManagerModuleCore::install()
+```php
+mixed TaxManagerModuleCore::install()
+```
 
 
 

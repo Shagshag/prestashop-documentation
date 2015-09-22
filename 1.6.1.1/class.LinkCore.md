@@ -9,9 +9,11 @@ Class LinkCore
 * Source: [classes/Link.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$allow](#property-$allow)
 * [$cache](#property-$cache)
@@ -21,8 +23,8 @@ Properties
 * [$ssl_enable](#property-$ssl_enable)
 * [$url](#property-$url)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [addSortDetails](#method-addSortDetails)
 * [getAdminLink](#method-getAdminLink)
@@ -55,7 +57,9 @@ Properties
 
 ### <a name="property-$allow"></a>$allow
 
-    protected boolean $allow
+```php
+protected boolean $allow
+```
 
 
 
@@ -67,7 +71,9 @@ Properties
 
 ### <a name="property-$cache"></a>$cache
 
-    public mixed $cache = array('page' => array())
+```php
+public mixed $cache = array('page' => array())
+```
 
 
 
@@ -80,7 +86,9 @@ Properties
 
 ### <a name="property-$category_disable_rewrite"></a>$category_disable_rewrite
 
-    protected mixed $category_disable_rewrite = null
+```php
+protected mixed $category_disable_rewrite = null
+```
 
 
 
@@ -93,7 +101,9 @@ Properties
 
 ### <a name="property-$protocol_content"></a>$protocol_content
 
-    public mixed $protocol_content
+```php
+public mixed $protocol_content
+```
 
 
 
@@ -105,7 +115,9 @@ Properties
 
 ### <a name="property-$protocol_link"></a>$protocol_link
 
-    public mixed $protocol_link
+```php
+public mixed $protocol_link
+```
 
 
 
@@ -117,7 +129,9 @@ Properties
 
 ### <a name="property-$ssl_enable"></a>$ssl_enable
 
-    protected mixed $ssl_enable
+```php
+protected mixed $ssl_enable
+```
 
 
 
@@ -129,7 +143,9 @@ Properties
 
 ### <a name="property-$url"></a>$url
 
-    protected mixed $url
+```php
+protected mixed $url
+```
 
 
 
@@ -145,7 +161,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed LinkCore::__construct($protocol_link, $protocol_content)
+```php
+mixed LinkCore::__construct($protocol_link, $protocol_content)
+```
 
 Constructor (initialization only)
 
@@ -163,7 +181,9 @@ Constructor (initialization only)
 
 ### <a name="method-addSortDetails"></a>addSortDetails
 
-    mixed LinkCore::addSortDetails($url, $orderby, $orderway)
+```php
+mixed LinkCore::addSortDetails($url, $orderby, $orderway)
+```
 
 
 
@@ -182,7 +202,9 @@ Constructor (initialization only)
 
 ### <a name="method-getAdminLink"></a>getAdminLink
 
-    string LinkCore::getAdminLink(string $controller, boolean $with_token)
+```php
+string LinkCore::getAdminLink(string $controller, boolean $with_token)
+```
 
 Use controller name to create a link
 
@@ -200,7 +222,9 @@ Use controller name to create a link
 
 ### <a name="method-getBaseLink"></a>getBaseLink
 
-    mixed LinkCore::getBaseLink($id_shop, $ssl, $relative_protocol)
+```php
+mixed LinkCore::getBaseLink($id_shop, $ssl, $relative_protocol)
+```
 
 
 
@@ -219,7 +243,9 @@ Use controller name to create a link
 
 ### <a name="method-getCMSCategoryLink"></a>getCMSCategoryLink
 
-    string LinkCore::getCMSCategoryLink($cms_category, string $alias, integer $id_lang, $id_shop, $relative_protocol)
+```php
+string LinkCore::getCMSCategoryLink($cms_category, string $alias, integer $id_lang, $id_shop, $relative_protocol)
+```
 
 Create a link to a CMS category
 
@@ -240,7 +266,9 @@ Create a link to a CMS category
 
 ### <a name="method-getCMSLink"></a>getCMSLink
 
-    string LinkCore::getCMSLink(mixed $cms, string $alias, boolean $ssl, integer $id_lang, $id_shop, $relative_protocol)
+```php
+string LinkCore::getCMSLink(mixed $cms, string $alias, boolean $ssl, integer $id_lang, $id_shop, $relative_protocol)
+```
 
 Create a link to a CMS page
 
@@ -262,7 +290,9 @@ Create a link to a CMS page
 
 ### <a name="method-getCatImageLink"></a>getCatImageLink
 
-    mixed LinkCore::getCatImageLink($name, $id_category, $type)
+```php
+mixed LinkCore::getCatImageLink($name, $id_category, $type)
+```
 
 
 
@@ -281,7 +311,9 @@ Create a link to a CMS page
 
 ### <a name="method-getCategoryLink"></a>getCategoryLink
 
-    string LinkCore::getCategoryLink(mixed $category, string $alias, integer $id_lang, string $selected_filters, $id_shop, $relative_protocol)
+```php
+string LinkCore::getCategoryLink(mixed $category, string $alias, integer $id_lang, string $selected_filters, $id_shop, $relative_protocol)
+```
 
 Create a link to a category
 
@@ -303,7 +335,9 @@ Create a link to a category
 
 ### <a name="method-getImageLink"></a>getImageLink
 
-    mixed LinkCore::getImageLink(string $name, string $ids, string $type)
+```php
+mixed LinkCore::getImageLink(string $name, string $ids, string $type)
+```
 
 Returns a link to a product image for display
 Note: the new image filesystem stores product images in subdirectories of img/p/
@@ -323,7 +357,9 @@ Note: the new image filesystem stores product images in subdirectories of img/p/
 
 ### <a name="method-getLangLink"></a>getLangLink
 
-    mixed LinkCore::getLangLink($id_lang, \Context $context, $id_shop)
+```php
+mixed LinkCore::getLangLink($id_lang, \Context $context, $id_shop)
+```
 
 
 
@@ -342,7 +378,9 @@ Note: the new image filesystem stores product images in subdirectories of img/p/
 
 ### <a name="method-getLanguageLink"></a>getLanguageLink
 
-    string LinkCore::getLanguageLink(integer $id_lang, \Context $context)
+```php
+string LinkCore::getLanguageLink(integer $id_lang, \Context $context)
+```
 
 Create link after language change, for the change language block
 
@@ -360,7 +398,9 @@ Create link after language change, for the change language block
 
 ### <a name="method-getManufacturerLink"></a>getManufacturerLink
 
-    string LinkCore::getManufacturerLink(mixed $manufacturer, string $alias, integer $id_lang, $id_shop, $relative_protocol)
+```php
+string LinkCore::getManufacturerLink(mixed $manufacturer, string $alias, integer $id_lang, $id_shop, $relative_protocol)
+```
 
 Create a link to a manufacturer
 
@@ -381,7 +421,9 @@ Create a link to a manufacturer
 
 ### <a name="method-getMediaLink"></a>getMediaLink
 
-    mixed LinkCore::getMediaLink($filepath)
+```php
+mixed LinkCore::getMediaLink($filepath)
+```
 
 
 
@@ -398,7 +440,9 @@ Create a link to a manufacturer
 
 ### <a name="method-getModuleLink"></a>getModuleLink
 
-    string LinkCore::getModuleLink(string $module, $controller, array $params, $ssl, integer $id_lang, $id_shop, $relative_protocol)
+```php
+string LinkCore::getModuleLink(string $module, $controller, array $params, $ssl, integer $id_lang, $id_shop, $relative_protocol)
+```
 
 Create a link to a module
 
@@ -421,7 +465,9 @@ Create a link to a module
 
 ### <a name="method-getPageLink"></a>getPageLink
 
-    string LinkCore::getPageLink(string $controller, boolean $ssl, integer $id_lang, string|array $request, boolean $request_url_encode, $id_shop, $relative_protocol)
+```php
+string LinkCore::getPageLink(string $controller, boolean $ssl, integer $id_lang, string|array $request, boolean $request_url_encode, $id_shop, $relative_protocol)
+```
 
 Create a simple link
 
@@ -444,7 +490,9 @@ Create a simple link
 
 ### <a name="method-getPaginationLink"></a>getPaginationLink
 
-    mixed LinkCore::getPaginationLink(string $type, integer $id_object, boolean $nb, boolean $sort, boolean $pagination, boolean $array)
+```php
+mixed LinkCore::getPaginationLink(string $type, integer $id_object, boolean $nb, boolean $sort, boolean $pagination, boolean $array)
+```
 
 Get pagination link
 
@@ -466,7 +514,9 @@ Get pagination link
 
 ### <a name="method-getProductDeletePictureLink"></a>getProductDeletePictureLink
 
-    string LinkCore::getProductDeletePictureLink(mixed $product, integer $id_picture)
+```php
+string LinkCore::getProductDeletePictureLink(mixed $product, integer $id_picture)
+```
 
 Create a link to delete a product
 
@@ -484,7 +534,9 @@ Create a link to delete a product
 
 ### <a name="method-getProductLink"></a>getProductLink
 
-    string LinkCore::getProductLink(mixed $product, string $alias, string $category, string $ean13, integer $id_lang, integer $id_shop, integer $ipa, $force_routes, $relative_protocol, $add_anchor)
+```php
+string LinkCore::getProductLink(mixed $product, string $alias, string $category, string $ean13, integer $id_lang, integer $id_shop, integer $ipa, $force_routes, $relative_protocol, $add_anchor)
+```
 
 Create a link to a product
 
@@ -510,7 +562,9 @@ Create a link to a product
 
 ### <a name="method-getQuickLink"></a>getQuickLink
 
-    mixed LinkCore::getQuickLink($url)
+```php
+mixed LinkCore::getQuickLink($url)
+```
 
 
 
@@ -528,7 +582,9 @@ Create a link to a product
 
 ### <a name="method-getSupplierLink"></a>getSupplierLink
 
-    string LinkCore::getSupplierLink(mixed $supplier, string $alias, integer $id_lang, $id_shop, $relative_protocol)
+```php
+string LinkCore::getSupplierLink(mixed $supplier, string $alias, integer $id_lang, $id_shop, $relative_protocol)
+```
 
 Create a link to a supplier
 
@@ -549,7 +605,9 @@ Create a link to a supplier
 
 ### <a name="method-goPage"></a>goPage
 
-    mixed LinkCore::goPage($url, $p)
+```php
+mixed LinkCore::goPage($url, $p)
+```
 
 
 
@@ -567,7 +625,9 @@ Create a link to a supplier
 
 ### <a name="method-matchQuickLink"></a>matchQuickLink
 
-    mixed LinkCore::matchQuickLink($url)
+```php
+mixed LinkCore::matchQuickLink($url)
+```
 
 
 

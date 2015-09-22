@@ -10,16 +10,18 @@ Class HelperKpiRowCore
 * Source: [classes/helper/HelperKpiRow.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$base_folder](#property-$base_folder)
 * [$base_tpl](#property-$base_tpl)
 * [$kpis](#property-$kpis)
 
-Methods
--------
+### Methods
+
 * [generate](#method-generate)
 
 
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$base_folder"></a>$base_folder
 
-    public mixed $base_folder = 'helpers/kpi/'
+```php
+public mixed $base_folder = 'helpers/kpi/'
+```
 
 
 
@@ -43,7 +47,9 @@ Properties
 
 ### <a name="property-$base_tpl"></a>$base_tpl
 
-    public mixed $base_tpl = 'row.tpl'
+```php
+public mixed $base_tpl = 'row.tpl'
+```
 
 
 
@@ -55,7 +61,9 @@ Properties
 
 ### <a name="property-$kpis"></a>$kpis
 
-    public mixed $kpis = array()
+```php
+public mixed $kpis = array()
+```
 
 
 
@@ -71,7 +79,9 @@ Methods
 
 ### <a name="method-generate"></a>generate
 
-    mixed HelperKpiRowCore::generate()
+```php
+mixed HelperKpiRowCore::generate()
+```
 
 
 

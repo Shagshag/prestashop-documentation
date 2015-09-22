@@ -10,9 +10,11 @@ Class ControllerCore
 * Source: [classes/controller/Controller.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L31)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$ajax](#property-$ajax)
 * [$content_only](#property-$content_only)
@@ -30,8 +32,8 @@ Properties
 * [$status](#property-$status)
 * [$template](#property-$template)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [addCSS](#method-addCSS)
 * [addJS](#method-addJS)
@@ -73,7 +75,9 @@ Properties
 
 ### <a name="property-$ajax"></a>$ajax
 
-    public boolean $ajax = false
+```php
+public boolean $ajax = false
+```
 
 
 
@@ -85,7 +89,9 @@ Properties
 
 ### <a name="property-$content_only"></a>$content_only
 
-    protected boolean $content_only = false
+```php
+protected boolean $content_only = false
+```
 
 
 
@@ -97,7 +103,9 @@ Properties
 
 ### <a name="property-$context"></a>$context
 
-    protected \Context $context
+```php
+protected \Context $context
+```
 
 
 
@@ -109,7 +117,9 @@ Properties
 
 ### <a name="property-$controller_type"></a>$controller_type
 
-    public string $controller_type
+```php
+public string $controller_type
+```
 
 
 
@@ -121,7 +131,9 @@ Properties
 
 ### <a name="property-$css_files"></a>$css_files
 
-    public array $css_files = array()
+```php
+public array $css_files = array()
+```
 
 
 
@@ -133,7 +145,9 @@ Properties
 
 ### <a name="property-$display_footer"></a>$display_footer
 
-    protected string $display_footer
+```php
+protected string $display_footer
+```
 
 
 
@@ -145,7 +159,9 @@ Properties
 
 ### <a name="property-$display_header"></a>$display_header
 
-    protected boolean $display_header
+```php
+protected boolean $display_header
+```
 
 
 
@@ -157,7 +173,9 @@ Properties
 
 ### <a name="property-$display_header_javascript"></a>$display_header_javascript
 
-    protected boolean $display_header_javascript
+```php
+protected boolean $display_header_javascript
+```
 
 
 
@@ -169,7 +187,9 @@ Properties
 
 ### <a name="property-$js_files"></a>$js_files
 
-    public array $js_files = array()
+```php
+public array $js_files = array()
+```
 
 
 
@@ -181,7 +201,9 @@ Properties
 
 ### <a name="property-$json"></a>$json
 
-    protected boolean $json = false
+```php
+protected boolean $json = false
+```
 
 
 
@@ -193,7 +215,9 @@ Properties
 
 ### <a name="property-$php_errors"></a>$php_errors
 
-    public array $php_errors = array()
+```php
+public array $php_errors = array()
+```
 
 
 
@@ -206,7 +230,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public string $php_self
+```php
+public string $php_self
+```
 
 
 
@@ -218,7 +244,9 @@ Properties
 
 ### <a name="property-$redirect_after"></a>$redirect_after
 
-    protected string $redirect_after = null
+```php
+protected string $redirect_after = null
+```
 
 
 
@@ -230,7 +258,9 @@ Properties
 
 ### <a name="property-$status"></a>$status
 
-    protected string $status = ''
+```php
+protected string $status = ''
+```
 
 
 
@@ -242,7 +272,9 @@ Properties
 
 ### <a name="property-$template"></a>$template
 
-    protected string $template
+```php
+protected string $template
+```
 
 
 
@@ -258,7 +290,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ControllerCore::__construct()
+```php
+mixed ControllerCore::__construct()
+```
 
 
 
@@ -272,7 +306,9 @@ Methods
 
 ### <a name="method-addCSS"></a>addCSS
 
-    true ControllerCore::addCSS(string|array $css_uri, string $css_media_type, integer|null $offset, boolean $check_path)
+```php
+true ControllerCore::addCSS(string|array $css_uri, string $css_media_type, integer|null $offset, boolean $check_path)
+```
 
 Adds a new stylesheet(s) to the page header.
 
@@ -292,7 +328,9 @@ Adds a new stylesheet(s) to the page header.
 
 ### <a name="method-addJS"></a>addJS
 
-    void ControllerCore::addJS(string|array $js_uri, boolean $check_path)
+```php
+void ControllerCore::addJS(string|array $js_uri, boolean $check_path)
+```
 
 Adds a new JavaScript file(s) to the page header.
 
@@ -310,7 +348,9 @@ Adds a new JavaScript file(s) to the page header.
 
 ### <a name="method-addJquery"></a>addJquery
 
-    mixed ControllerCore::addJquery(string|null $version, string|null $folder, boolean $minifier)
+```php
+mixed ControllerCore::addJquery(string|null $version, string|null $folder, boolean $minifier)
+```
 
 Adds jQuery library file to queued JS file list
 
@@ -329,7 +369,9 @@ Adds jQuery library file to queued JS file list
 
 ### <a name="method-addJqueryPlugin"></a>addJqueryPlugin
 
-    mixed ControllerCore::addJqueryPlugin(string|array $name, $folder, boolean $css)
+```php
+mixed ControllerCore::addJqueryPlugin(string|array $name, $folder, boolean $css)
+```
 
 Adds jQuery plugin(s) to queued JS file list
 
@@ -348,7 +390,9 @@ Adds jQuery plugin(s) to queued JS file list
 
 ### <a name="method-addJqueryUI"></a>addJqueryUI
 
-    mixed ControllerCore::addJqueryUI(string|array $component, string $theme, boolean $check_dependencies)
+```php
+mixed ControllerCore::addJqueryUI(string|array $component, string $theme, boolean $check_dependencies)
+```
 
 Adds jQuery UI component(s) to queued JS file list
 
@@ -367,7 +411,9 @@ Adds jQuery UI component(s) to queued JS file list
 
 ### <a name="method-ajaxDie"></a>ajaxDie
 
-    mixed ControllerCore::ajaxDie(string|null $value, string|null $controller, string|null $method)
+```php
+mixed ControllerCore::ajaxDie(string|null $value, string|null $controller, string|null $method)
+```
 
 Dies and echoes output value
 
@@ -386,7 +432,9 @@ Dies and echoes output value
 
 ### <a name="method-checkAccess"></a>checkAccess
 
-    mixed ControllerCore::checkAccess()
+```php
+mixed ControllerCore::checkAccess()
+```
 
 Check if the controller is available for the current user/visitor
 
@@ -401,7 +449,9 @@ Check if the controller is available for the current user/visitor
 
 ### <a name="method-display"></a>display
 
-    mixed ControllerCore::display()
+```php
+mixed ControllerCore::display()
+```
 
 Displays page view
 
@@ -416,7 +466,9 @@ Displays page view
 
 ### <a name="method-displayFooter"></a>displayFooter
 
-    mixed ControllerCore::displayFooter(boolean $display)
+```php
+mixed ControllerCore::displayFooter(boolean $display)
+```
 
 Sets page header display
 
@@ -433,7 +485,9 @@ Sets page header display
 
 ### <a name="method-displayHeader"></a>displayHeader
 
-    mixed ControllerCore::displayHeader(boolean $display)
+```php
+mixed ControllerCore::displayHeader(boolean $display)
+```
 
 Sets page header display
 
@@ -450,7 +504,9 @@ Sets page header display
 
 ### <a name="method-displayHeaderJavaScript"></a>displayHeaderJavaScript
 
-    mixed ControllerCore::displayHeaderJavaScript(boolean $display)
+```php
+mixed ControllerCore::displayHeaderJavaScript(boolean $display)
+```
 
 Sets page header javascript display
 
@@ -467,7 +523,9 @@ Sets page header javascript display
 
 ### <a name="method-getController"></a>getController
 
-    \Controller ControllerCore::getController(string $class_name, boolean $auth, boolean $ssl)
+```php
+\Controller ControllerCore::getController(string $class_name, boolean $auth, boolean $ssl)
+```
 
 returns a new instance of this controller
 
@@ -487,7 +545,9 @@ returns a new instance of this controller
 
 ### <a name="method-init"></a>init
 
-    mixed ControllerCore::init()
+```php
+mixed ControllerCore::init()
+```
 
 Initialize the page
 
@@ -501,7 +561,9 @@ Initialize the page
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed ControllerCore::initContent()
+```php
+mixed ControllerCore::initContent()
+```
 
 Assigns Smarty variables for the page main content
 
@@ -516,7 +578,9 @@ Assigns Smarty variables for the page main content
 
 ### <a name="method-initCursedPage"></a>initCursedPage
 
-    mixed ControllerCore::initCursedPage()
+```php
+mixed ControllerCore::initCursedPage()
+```
 
 Assigns Smarty variables when access is forbidden
 
@@ -531,7 +595,9 @@ Assigns Smarty variables when access is forbidden
 
 ### <a name="method-initFooter"></a>initFooter
 
-    mixed ControllerCore::initFooter()
+```php
+mixed ControllerCore::initFooter()
+```
 
 Assigns Smarty variables for the page footer
 
@@ -546,7 +612,9 @@ Assigns Smarty variables for the page footer
 
 ### <a name="method-initHeader"></a>initHeader
 
-    mixed ControllerCore::initHeader()
+```php
+mixed ControllerCore::initHeader()
+```
 
 Assigns Smarty variables for the page header
 
@@ -561,7 +629,9 @@ Assigns Smarty variables for the page header
 
 ### <a name="method-isCached"></a>isCached
 
-    boolean ControllerCore::isCached(string $template, string|null $cache_id, string|null $compile_id)
+```php
+boolean ControllerCore::isCached(string $template, string|null $cache_id, string|null $compile_id)
+```
 
 Checks if a template is cached
 
@@ -580,7 +650,9 @@ Checks if a template is cached
 
 ### <a name="method-isXmlHttpRequest"></a>isXmlHttpRequest
 
-    boolean ControllerCore::isXmlHttpRequest()
+```php
+boolean ControllerCore::isXmlHttpRequest()
+```
 
 Checks if the controller has been called from XmlHttpRequest (AJAX)
 
@@ -594,7 +666,9 @@ Checks if the controller has been called from XmlHttpRequest (AJAX)
 
 ### <a name="method-myErrorHandler"></a>myErrorHandler
 
-    boolean ControllerCore::myErrorHandler(string $errno, string $errstr, string $errfile, integer $errline)
+```php
+boolean ControllerCore::myErrorHandler(string $errno, string $errstr, string $errfile, integer $errline)
+```
 
 Custom error handler
 
@@ -615,7 +689,9 @@ Custom error handler
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed ControllerCore::postProcess()
+```php
+mixed ControllerCore::postProcess()
+```
 
 Do the page treatment: process input, process AJAX, etc.
 
@@ -630,7 +706,9 @@ Do the page treatment: process input, process AJAX, etc.
 
 ### <a name="method-redirect"></a>redirect
 
-    mixed ControllerCore::redirect()
+```php
+mixed ControllerCore::redirect()
+```
 
 Redirects to $this->redirect_after after the process if there is no error
 
@@ -645,7 +723,9 @@ Redirects to $this->redirect_after after the process if there is no error
 
 ### <a name="method-removeCSS"></a>removeCSS
 
-    mixed ControllerCore::removeCSS(string|array $css_uri, string $css_media_type, boolean $check_path)
+```php
+mixed ControllerCore::removeCSS(string|array $css_uri, string $css_media_type, boolean $check_path)
+```
 
 Removes CSS stylesheet(s) from the queued stylesheet list
 
@@ -664,7 +744,9 @@ Removes CSS stylesheet(s) from the queued stylesheet list
 
 ### <a name="method-removeJS"></a>removeJS
 
-    mixed ControllerCore::removeJS(string|array $js_uri, boolean $check_path)
+```php
+mixed ControllerCore::removeJS(string|array $js_uri, boolean $check_path)
+```
 
 Removes JS file(s) from the queued JS file list
 
@@ -682,7 +764,9 @@ Removes JS file(s) from the queued JS file list
 
 ### <a name="method-run"></a>run
 
-    mixed ControllerCore::run()
+```php
+mixed ControllerCore::run()
+```
 
 Starts the controller process (this method should not be overridden!)
 
@@ -696,7 +780,9 @@ Starts the controller process (this method should not be overridden!)
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed ControllerCore::setMedia()
+```php
+mixed ControllerCore::setMedia()
+```
 
 Sets default media list for this controller
 
@@ -711,7 +797,9 @@ Sets default media list for this controller
 
 ### <a name="method-setRedirectAfter"></a>setRedirectAfter
 
-    mixed ControllerCore::setRedirectAfter($url)
+```php
+mixed ControllerCore::setRedirectAfter($url)
+```
 
 Set $this->redirect_after that will be used by redirect() after the process
 
@@ -728,7 +816,9 @@ Set $this->redirect_after that will be used by redirect() after the process
 
 ### <a name="method-setTemplate"></a>setTemplate
 
-    mixed ControllerCore::setTemplate(string $template)
+```php
+mixed ControllerCore::setTemplate(string $template)
+```
 
 Sets template file for page content output
 
@@ -745,7 +835,9 @@ Sets template file for page content output
 
 ### <a name="method-smartyOutputContent"></a>smartyOutputContent
 
-    mixed ControllerCore::smartyOutputContent(array|string $content)
+```php
+mixed ControllerCore::smartyOutputContent(array|string $content)
+```
 
 Renders controller templates and generates page content
 
@@ -762,7 +854,9 @@ Renders controller templates and generates page content
 
 ### <a name="method-viewAccess"></a>viewAccess
 
-    mixed ControllerCore::viewAccess()
+```php
+mixed ControllerCore::viewAccess()
+```
 
 Check if the current user/visitor has valid view permissions
 

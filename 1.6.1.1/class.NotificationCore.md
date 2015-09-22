@@ -9,14 +9,16 @@ Class NotificationCore
 * Source: [classes/Notification.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$types](#property-$types)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getLastElements](#method-getLastElements)
 * [getLastElementsIdsByType](#method-getLastElementsIdsByType)
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$types"></a>$types
 
-    public mixed $types
+```php
+public mixed $types
+```
 
 
 
@@ -47,7 +51,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed NotificationCore::__construct()
+```php
+mixed NotificationCore::__construct()
+```
 
 
 
@@ -61,7 +67,9 @@ Methods
 
 ### <a name="method-getLastElements"></a>getLastElements
 
-    array NotificationCore::getLastElements()
+```php
+array NotificationCore::getLastElements()
+```
 
 getLastElements return all the notifications (new order, new customer registration, and new customer message)
 Get all the notifications
@@ -76,7 +84,9 @@ Get all the notifications
 
 ### <a name="method-getLastElementsIdsByType"></a>getLastElementsIdsByType
 
-    array NotificationCore::getLastElementsIdsByType(string $type, integer $id_last_element)
+```php
+array NotificationCore::getLastElementsIdsByType(string $type, integer $id_last_element)
+```
 
 getLastElementsIdsByType return all the element ids to show (order, customer registration, and customer message)
 Get all the element ids
@@ -96,7 +106,9 @@ Get all the element ids
 
 ### <a name="method-updateEmployeeLastElement"></a>updateEmployeeLastElement
 
-    boolean NotificationCore::updateEmployeeLastElement(string $type)
+```php
+boolean NotificationCore::updateEmployeeLastElement(string $type)
+```
 
 updateEmployeeLastElement return 0 if the field doesn't exists in Employee table.
 

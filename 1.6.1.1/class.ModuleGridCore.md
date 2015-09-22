@@ -11,9 +11,11 @@ Class ModuleGridCore
 * Source: [classes/module/ModuleGrid.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_direction](#property-$_direction)
 * [$_employee](#property-$_employee)
@@ -25,8 +27,8 @@ Properties
 * [$_totalCount](#property-$_totalCount)
 * [$_values](#property-$_values)
 
-Methods
--------
+### Methods
+
 * [_displayCsv](#method-_displayCsv)
 * [create](#method-create)
 * [csvExport](#method-csvExport)
@@ -47,7 +49,9 @@ Properties
 
 ### <a name="property-$_direction"></a>$_direction
 
-    protected mixed $_direction = null
+```php
+protected mixed $_direction = null
+```
 
 
 
@@ -59,7 +63,9 @@ Properties
 
 ### <a name="property-$_employee"></a>$_employee
 
-    protected mixed $_employee
+```php
+protected mixed $_employee
+```
 
 
 
@@ -71,7 +77,9 @@ Properties
 
 ### <a name="property-$_limit"></a>$_limit
 
-    protected mixed $_limit
+```php
+protected mixed $_limit
+```
 
 
 
@@ -83,7 +91,9 @@ Properties
 
 ### <a name="property-$_render"></a>$_render
 
-    protected \ModuleGridEngine $_render
+```php
+protected \ModuleGridEngine $_render
+```
 
 
 
@@ -95,7 +105,9 @@ Properties
 
 ### <a name="property-$_sort"></a>$_sort
 
-    protected mixed $_sort = null
+```php
+protected mixed $_sort = null
+```
 
 
 
@@ -107,7 +119,9 @@ Properties
 
 ### <a name="property-$_start"></a>$_start
 
-    protected mixed $_start
+```php
+protected mixed $_start
+```
 
 
 
@@ -119,7 +133,9 @@ Properties
 
 ### <a name="property-$_title"></a>$_title
 
-    protected mixed $_title
+```php
+protected mixed $_title
+```
 
 
 
@@ -131,7 +147,9 @@ Properties
 
 ### <a name="property-$_totalCount"></a>$_totalCount
 
-    protected integer $_totalCount
+```php
+protected integer $_totalCount
+```
 
 
 
@@ -143,7 +161,9 @@ Properties
 
 ### <a name="property-$_values"></a>$_values
 
-    protected array $_values = array()
+```php
+protected array $_values = array()
+```
 
 
 
@@ -159,7 +179,9 @@ Methods
 
 ### <a name="method-_displayCsv"></a>_displayCsv
 
-    mixed ModuleGridCore::_displayCsv()
+```php
+mixed ModuleGridCore::_displayCsv()
+```
 
 
 
@@ -173,7 +195,9 @@ Methods
 
 ### <a name="method-create"></a>create
 
-    mixed ModuleGridCore::create($render, $type, $width, $height, $start, $limit, $sort, $dir)
+```php
+mixed ModuleGridCore::create($render, $type, $width, $height, $start, $limit, $sort, $dir)
+```
 
 
 
@@ -197,7 +221,9 @@ Methods
 
 ### <a name="method-csvExport"></a>csvExport
 
-    mixed ModuleGridCore::csvExport($datas)
+```php
+mixed ModuleGridCore::csvExport($datas)
+```
 
 
 
@@ -214,7 +240,9 @@ Methods
 
 ### <a name="method-engine"></a>engine
 
-    mixed ModuleGridCore::engine($params)
+```php
+mixed ModuleGridCore::engine($params)
+```
 
 
 
@@ -231,7 +259,9 @@ Methods
 
 ### <a name="method-getData"></a>getData
 
-    mixed ModuleGridCore::getData()
+```php
+mixed ModuleGridCore::getData()
+```
 
 
 
@@ -246,7 +276,9 @@ Methods
 
 ### <a name="method-getDate"></a>getDate
 
-    mixed ModuleGridCore::getDate()
+```php
+mixed ModuleGridCore::getDate()
+```
 
 
 
@@ -260,7 +292,9 @@ Methods
 
 ### <a name="method-getLang"></a>getLang
 
-    mixed ModuleGridCore::getLang()
+```php
+mixed ModuleGridCore::getLang()
+```
 
 
 
@@ -274,7 +308,9 @@ Methods
 
 ### <a name="method-render"></a>render
 
-    mixed ModuleGridCore::render()
+```php
+mixed ModuleGridCore::render()
+```
 
 
 
@@ -288,7 +324,9 @@ Methods
 
 ### <a name="method-setEmployee"></a>setEmployee
 
-    mixed ModuleGridCore::setEmployee($id_employee)
+```php
+mixed ModuleGridCore::setEmployee($id_employee)
+```
 
 
 
@@ -305,7 +343,9 @@ Methods
 
 ### <a name="method-setLang"></a>setLang
 
-    mixed ModuleGridCore::setLang($id_lang)
+```php
+mixed ModuleGridCore::setLang($id_lang)
+```
 
 
 

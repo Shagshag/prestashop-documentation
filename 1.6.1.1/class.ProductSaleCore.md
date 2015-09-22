@@ -9,11 +9,13 @@ Class ProductSaleCore
 * Source: [classes/ProductSale.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [addProductSale](#method-addProductSale)
 * [fillProductSales](#method-fillProductSales)
 * [getBestSales](#method-getBestSales)
@@ -33,7 +35,9 @@ Methods
 
 ### <a name="method-addProductSale"></a>addProductSale
 
-    mixed ProductSaleCore::addProductSale($product_id, $qty)
+```php
+mixed ProductSaleCore::addProductSale($product_id, $qty)
+```
 
 
 
@@ -52,7 +56,9 @@ Methods
 
 ### <a name="method-fillProductSales"></a>fillProductSales
 
-    mixed ProductSaleCore::fillProductSales()
+```php
+mixed ProductSaleCore::fillProductSales()
+```
 
 
 
@@ -67,7 +73,9 @@ Methods
 
 ### <a name="method-getBestSales"></a>getBestSales
 
-    mixed ProductSaleCore::getBestSales($id_lang, $page_number, $nb_products, $order_by, $order_way)
+```php
+mixed ProductSaleCore::getBestSales($id_lang, $page_number, $nb_products, $order_by, $order_way)
+```
 
 
 
@@ -89,7 +97,9 @@ Methods
 
 ### <a name="method-getBestSalesLight"></a>getBestSalesLight
 
-    mixed ProductSaleCore::getBestSalesLight($id_lang, $page_number, $nb_products, \Context $context)
+```php
+mixed ProductSaleCore::getBestSalesLight($id_lang, $page_number, $nb_products, \Context $context)
+```
 
 
 
@@ -110,7 +120,9 @@ Methods
 
 ### <a name="method-getNbSales"></a>getNbSales
 
-    mixed ProductSaleCore::getNbSales()
+```php
+mixed ProductSaleCore::getNbSales()
+```
 
 
 
@@ -125,7 +137,9 @@ Methods
 
 ### <a name="method-getNbrSales"></a>getNbrSales
 
-    mixed ProductSaleCore::getNbrSales($id_product)
+```php
+mixed ProductSaleCore::getNbrSales($id_product)
+```
 
 
 
@@ -143,7 +157,9 @@ Methods
 
 ### <a name="method-removeProductSale"></a>removeProductSale
 
-    mixed ProductSaleCore::removeProductSale($id_product, $qty)
+```php
+mixed ProductSaleCore::removeProductSale($id_product, $qty)
+```
 
 
 

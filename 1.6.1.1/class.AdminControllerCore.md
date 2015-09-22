@@ -24,9 +24,11 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [classes/controller/AdminController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_defaultOrderBy](#property-$_defaultOrderBy)
 * [$_defaultOrderWay](#property-$_defaultOrderWay)
@@ -145,8 +147,8 @@ Properties
 * [$translationsTab](#property-$translationsTab)
 * [$warnings](#property-$warnings)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_childValidation](#method-_childValidation)
 * [addFiltersToBreadcrumbs](#method-addFiltersToBreadcrumbs)
@@ -253,7 +255,9 @@ Properties
 
 ### <a name="property-$_defaultOrderBy"></a>$_defaultOrderBy
 
-    protected string $_defaultOrderBy = false
+```php
+protected string $_defaultOrderBy = false
+```
 
 
 
@@ -265,7 +269,9 @@ Properties
 
 ### <a name="property-$_defaultOrderWay"></a>$_defaultOrderWay
 
-    protected string $_defaultOrderWay = 'ASC'
+```php
+protected string $_defaultOrderWay = 'ASC'
+```
 
 
 
@@ -277,7 +283,9 @@ Properties
 
 ### <a name="property-$_default_pagination"></a>$_default_pagination
 
-    protected integer $_default_pagination = 50
+```php
+protected integer $_default_pagination = 50
+```
 
 
 
@@ -289,7 +297,9 @@ Properties
 
 ### <a name="property-$_filter"></a>$_filter
 
-    protected array $_filter
+```php
+protected array $_filter
+```
 
 
 
@@ -301,7 +311,9 @@ Properties
 
 ### <a name="property-$_filterHaving"></a>$_filterHaving
 
-    protected string $_filterHaving
+```php
+protected string $_filterHaving
+```
 
 
 
@@ -313,7 +325,9 @@ Properties
 
 ### <a name="property-$_group"></a>$_group
 
-    protected string $_group
+```php
+protected string $_group
+```
 
 
 
@@ -325,7 +339,9 @@ Properties
 
 ### <a name="property-$_having"></a>$_having
 
-    protected string $_having
+```php
+protected string $_having
+```
 
 
 
@@ -337,7 +353,9 @@ Properties
 
 ### <a name="property-$_includeContainer"></a>$_includeContainer
 
-    protected boolean $_includeContainer = true
+```php
+protected boolean $_includeContainer = true
+```
 
 
 
@@ -349,7 +367,9 @@ Properties
 
 ### <a name="property-$_join"></a>$_join
 
-    protected string $_join
+```php
+protected string $_join
+```
 
 
 
@@ -361,7 +381,9 @@ Properties
 
 ### <a name="property-$_languages"></a>$_languages
 
-    public array $_languages = array()
+```php
+public array $_languages = array()
+```
 
 
 
@@ -373,7 +395,9 @@ Properties
 
 ### <a name="property-$_list"></a>$_list
 
-    protected array $_list = array()
+```php
+protected array $_list = array()
+```
 
 
 
@@ -385,7 +409,9 @@ Properties
 
 ### <a name="property-$_listTotal"></a>$_listTotal
 
-    protected integer $_listTotal
+```php
+protected integer $_listTotal
+```
 
 
 
@@ -397,7 +423,9 @@ Properties
 
 ### <a name="property-$_listsql"></a>$_listsql
 
-    protected string $_listsql = ''
+```php
+protected string $_listsql = ''
+```
 
 
 
@@ -409,7 +437,9 @@ Properties
 
 ### <a name="property-$_orderBy"></a>$_orderBy
 
-    protected string $_orderBy
+```php
+protected string $_orderBy
+```
 
 
 
@@ -421,7 +451,9 @@ Properties
 
 ### <a name="property-$_orderWay"></a>$_orderWay
 
-    protected string $_orderWay
+```php
+protected string $_orderWay
+```
 
 
 
@@ -433,7 +465,9 @@ Properties
 
 ### <a name="property-$_pagination"></a>$_pagination
 
-    protected array $_pagination = array(20, 50, 100, 300, 1000)
+```php
+protected array $_pagination = array(20, 50, 100, 300, 1000)
+```
 
 
 
@@ -445,7 +479,9 @@ Properties
 
 ### <a name="property-$_redirect"></a>$_redirect
 
-    protected boolean $_redirect = true
+```php
+protected boolean $_redirect = true
+```
 
 
 
@@ -457,7 +493,9 @@ Properties
 
 ### <a name="property-$_select"></a>$_select
 
-    protected string $_select
+```php
+protected string $_select
+```
 
 
 
@@ -469,7 +507,9 @@ Properties
 
 ### <a name="property-$_tmpTableFilter"></a>$_tmpTableFilter
 
-    protected array $_tmpTableFilter = ''
+```php
+protected array $_tmpTableFilter = ''
+```
 
 
 
@@ -481,7 +521,9 @@ Properties
 
 ### <a name="property-$_use_found_rows"></a>$_use_found_rows
 
-    protected string $_use_found_rows = true
+```php
+protected string $_use_found_rows = true
+```
 
 
 
@@ -493,7 +535,9 @@ Properties
 
 ### <a name="property-$_where"></a>$_where
 
-    protected string $_where
+```php
+protected string $_where
+```
 
 
 
@@ -505,7 +549,9 @@ Properties
 
 ### <a name="property-$action"></a>$action
 
-    protected string $action
+```php
+protected string $action
+```
 
 
 
@@ -517,7 +563,9 @@ Properties
 
 ### <a name="property-$actions"></a>$actions
 
-    protected array $actions = array()
+```php
+protected array $actions = array()
+```
 
 
 
@@ -529,7 +577,9 @@ Properties
 
 ### <a name="property-$actions_available"></a>$actions_available
 
-    protected array $actions_available = array('view', 'edit', 'duplicate', 'delete')
+```php
+protected array $actions_available = array('view', 'edit', 'duplicate', 'delete')
+```
 
 
 
@@ -541,7 +591,9 @@ Properties
 
 ### <a name="property-$admin_webpath"></a>$admin_webpath
 
-    public string $admin_webpath
+```php
+public string $admin_webpath
+```
 
 
 
@@ -553,7 +605,9 @@ Properties
 
 ### <a name="property-$allow_employee_form_lang"></a>$allow_employee_form_lang
 
-    public boolean $allow_employee_form_lang
+```php
+public boolean $allow_employee_form_lang
+```
 
 
 
@@ -565,7 +619,9 @@ Properties
 
 ### <a name="property-$allow_export"></a>$allow_export
 
-    protected boolean $allow_export = false
+```php
+protected boolean $allow_export = false
+```
 
 
 
@@ -577,7 +633,9 @@ Properties
 
 ### <a name="property-$base_tpl_form"></a>$base_tpl_form
 
-    public string $base_tpl_form = null
+```php
+public string $base_tpl_form = null
+```
 
 
 
@@ -589,7 +647,9 @@ Properties
 
 ### <a name="property-$base_tpl_view"></a>$base_tpl_view
 
-    public string $base_tpl_view = null
+```php
+public string $base_tpl_view = null
+```
 
 
 
@@ -601,7 +661,9 @@ Properties
 
 ### <a name="property-$bo_theme"></a>$bo_theme
 
-    protected string $bo_theme
+```php
+protected string $bo_theme
+```
 
 
 
@@ -613,7 +675,9 @@ Properties
 
 ### <a name="property-$bootstrap"></a>$bootstrap
 
-    public boolean $bootstrap = false
+```php
+public boolean $bootstrap = false
+```
 
 
 
@@ -625,7 +689,9 @@ Properties
 
 ### <a name="property-$boxes"></a>$boxes
 
-    protected mixed $boxes
+```php
+protected mixed $boxes
+```
 
 
 
@@ -637,7 +703,9 @@ Properties
 
 ### <a name="property-$breadcrumbs"></a>$breadcrumbs
 
-    protected array $breadcrumbs
+```php
+protected array $breadcrumbs
+```
 
 
 
@@ -649,7 +717,9 @@ Properties
 
 ### <a name="property-$bulk_actions"></a>$bulk_actions
 
-    protected array $bulk_actions
+```php
+protected array $bulk_actions
+```
 
 Actions to execute on multiple selections.
 
@@ -670,7 +740,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$cache_lang"></a>$cache_lang
 
-    public array $cache_lang = array()
+```php
+public array $cache_lang = array()
+```
 
 
 
@@ -683,7 +755,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$can_import"></a>$can_import
 
-    protected boolean $can_import = false
+```php
+protected boolean $can_import = false
+```
 
 
 
@@ -695,7 +769,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$className"></a>$className
 
-    public string $className
+```php
+public string $className
+```
 
 
 
@@ -707,7 +783,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$colorOnBackground"></a>$colorOnBackground
 
-    protected boolean $colorOnBackground
+```php
+protected boolean $colorOnBackground
+```
 
 
 
@@ -719,7 +797,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$confirmations"></a>$confirmations
 
-    public array $confirmations = array()
+```php
+public array $confirmations = array()
+```
 
 
 
@@ -731,7 +811,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$content"></a>$content
 
-    public string $content
+```php
+public string $content
+```
 
 
 
@@ -743,7 +825,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$controller_name"></a>$controller_name
 
-    public string $controller_name
+```php
+public string $controller_name
+```
 
 
 
@@ -755,7 +839,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$currentIndex"></a>$currentIndex
 
-    public string $currentIndex
+```php
+public string $currentIndex
+```
 
 
 
@@ -768,7 +854,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$default_form_language"></a>$default_form_language
 
-    public integer $default_form_language
+```php
+public integer $default_form_language
+```
 
 
 
@@ -780,7 +868,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$deleted"></a>$deleted
 
-    protected boolean $deleted = false
+```php
+protected boolean $deleted = false
+```
 
 
 
@@ -792,7 +882,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$display"></a>$display
 
-    protected string $display
+```php
+protected string $display
+```
 
 
 
@@ -804,7 +896,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$errors"></a>$errors
 
-    public array $errors = array()
+```php
+public array $errors = array()
+```
 
 
 
@@ -816,7 +910,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$explicitSelect"></a>$explicitSelect
 
-    protected string $explicitSelect = false
+```php
+protected string $explicitSelect = false
+```
 
 
 
@@ -828,7 +924,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$fieldImageSettings"></a>$fieldImageSettings
 
-    public array $fieldImageSettings = array()
+```php
+public array $fieldImageSettings = array()
+```
 
 
 
@@ -840,7 +938,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$fields_form"></a>$fields_form
 
-    protected array $fields_form
+```php
+protected array $fields_form
+```
 
 
 
@@ -852,7 +952,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$fields_form_override"></a>$fields_form_override
 
-    protected array $fields_form_override
+```php
+protected array $fields_form_override
+```
 
 
 
@@ -864,7 +966,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$fields_list"></a>$fields_list
 
-    protected array $fields_list
+```php
+protected array $fields_list
+```
 
 
 
@@ -876,7 +980,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$fields_options"></a>$fields_options
 
-    protected array $fields_options = array()
+```php
+protected array $fields_options = array()
+```
 
 
 
@@ -888,7 +994,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$fields_value"></a>$fields_value
 
-    public array $fields_value = false
+```php
+public array $fields_value = false
+```
 
 
 
@@ -900,7 +1008,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$filter"></a>$filter
 
-    protected boolean $filter
+```php
+protected boolean $filter
+```
 
 
 
@@ -912,7 +1022,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$filter_modules_list"></a>$filter_modules_list
 
-    protected array $filter_modules_list = null
+```php
+protected array $filter_modules_list = null
+```
 
 
 
@@ -924,7 +1036,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$helper"></a>$helper
 
-    protected \HelperList $helper
+```php
+protected \HelperList $helper
+```
 
 
 
@@ -936,7 +1050,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$id"></a>$id
 
-    public integer $id = -1
+```php
+public integer $id = -1
+```
 
 
 
@@ -948,7 +1064,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$id_object"></a>$id_object
 
-    protected integer $id_object
+```php
+protected integer $id_object
+```
 
 
 
@@ -960,7 +1078,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$identifier"></a>$identifier
 
-    protected string $identifier = false
+```php
+protected string $identifier = false
+```
 
 
 
@@ -972,7 +1092,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$identifier_name"></a>$identifier_name
 
-    protected string $identifier_name = 'name'
+```php
+protected string $identifier_name = 'name'
+```
 
 
 
@@ -984,7 +1106,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$imageType"></a>$imageType
 
-    public string $imageType = 'jpg'
+```php
+public string $imageType = 'jpg'
+```
 
 
 
@@ -996,7 +1120,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$informations"></a>$informations
 
-    public array $informations = array()
+```php
+public array $informations = array()
+```
 
 
 
@@ -1008,7 +1134,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$is_cms"></a>$is_cms
 
-    protected boolean $is_cms = false
+```php
+protected boolean $is_cms = false
+```
 
 
 
@@ -1020,7 +1148,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$is_prestashop_up"></a>$is_prestashop_up
 
-    protected boolean $is_prestashop_up = true
+```php
+protected boolean $is_prestashop_up = true
+```
 
 
 
@@ -1033,7 +1163,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$lang"></a>$lang
 
-    public boolean $lang = false
+```php
+public boolean $lang = false
+```
 
 
 
@@ -1045,7 +1177,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$layout"></a>$layout
 
-    public string $layout = 'layout.tpl'
+```php
+public string $layout = 'layout.tpl'
+```
 
 
 
@@ -1057,7 +1191,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$list_id"></a>$list_id
 
-    public string $list_id
+```php
+public string $list_id
+```
 
 
 
@@ -1069,7 +1205,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$list_natives_modules"></a>$list_natives_modules
 
-    protected array $list_natives_modules = array()
+```php
+protected array $list_natives_modules = array()
+```
 
 
 
@@ -1081,7 +1219,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$list_no_link"></a>$list_no_link
 
-    protected boolean $list_no_link = false
+```php
+protected boolean $list_no_link = false
+```
 
 
 
@@ -1093,7 +1233,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$list_partners_modules"></a>$list_partners_modules
 
-    protected array $list_partners_modules = array()
+```php
+protected array $list_partners_modules = array()
+```
 
 
 
@@ -1105,7 +1247,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$list_simple_header"></a>$list_simple_header
 
-    protected boolean $list_simple_header
+```php
+protected boolean $list_simple_header
+```
 
 
 
@@ -1117,7 +1261,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$list_skip_actions"></a>$list_skip_actions
 
-    protected array $list_skip_actions = array()
+```php
+protected array $list_skip_actions = array()
+```
 
 
 
@@ -1129,7 +1275,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$lite_display"></a>$lite_display
 
-    protected mixed $lite_display = false
+```php
+protected mixed $lite_display = false
+```
 
 
 
@@ -1141,7 +1289,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$logged_on_addons"></a>$logged_on_addons
 
-    protected boolean $logged_on_addons = false
+```php
+protected boolean $logged_on_addons = false
+```
 
 
 
@@ -1153,7 +1303,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$meta_title"></a>$meta_title
 
-    protected string $meta_title = array()
+```php
+protected string $meta_title = array()
+```
 
 
 
@@ -1165,7 +1317,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$modals"></a>$modals
 
-    public array $modals = array()
+```php
+public array $modals = array()
+```
 
 
 
@@ -1177,7 +1331,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$modules_list"></a>$modules_list
 
-    protected array $modules_list = array()
+```php
+protected array $modules_list = array()
+```
 
 
 
@@ -1189,7 +1345,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$multiple_fieldsets"></a>$multiple_fieldsets
 
-    public boolean $multiple_fieldsets = false
+```php
+public boolean $multiple_fieldsets = false
+```
 
 
 
@@ -1201,7 +1359,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$multishop_context"></a>$multishop_context
 
-    public integer $multishop_context = -1
+```php
+public integer $multishop_context = -1
+```
 
 
 
@@ -1213,7 +1373,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$multishop_context_group"></a>$multishop_context_group
 
-    public false $multishop_context_group = true
+```php
+public false $multishop_context_group = true
+```
 
 
 
@@ -1225,7 +1387,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$noLink"></a>$noLink
 
-    protected boolean $noLink
+```php
+protected boolean $noLink
+```
 
 
 
@@ -1237,7 +1401,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$object"></a>$object
 
-    protected \ObjectModel $object
+```php
+protected \ObjectModel $object
+```
 
 
 
@@ -1249,7 +1415,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$page_header_toolbar_btn"></a>$page_header_toolbar_btn
 
-    public array $page_header_toolbar_btn = array()
+```php
+public array $page_header_toolbar_btn = array()
+```
 
 
 
@@ -1261,7 +1429,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$page_header_toolbar_title"></a>$page_header_toolbar_title
 
-    public string $page_header_toolbar_title
+```php
+public string $page_header_toolbar_title
+```
 
 
 
@@ -1273,7 +1443,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$path"></a>$path
 
-    public string $path
+```php
+public string $path
+```
 
 
 
@@ -1285,7 +1457,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$position_group_identifier"></a>$position_group_identifier
 
-    protected string $position_group_identifier
+```php
+protected string $position_group_identifier
+```
 
 
 
@@ -1297,7 +1471,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$position_identifier"></a>$position_identifier
 
-    protected string $position_identifier
+```php
+protected string $position_identifier
+```
 
 
 
@@ -1309,7 +1485,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$required_database"></a>$required_database
 
-    public boolean $required_database = false
+```php
+public boolean $required_database = false
+```
 
 
 
@@ -1321,7 +1499,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$required_fields"></a>$required_fields
 
-    public array $required_fields = array()
+```php
+public array $required_fields = array()
+```
 
 
 
@@ -1333,7 +1513,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$row_hover"></a>$row_hover
 
-    protected boolean $row_hover = true
+```php
+protected boolean $row_hover = true
+```
 
 
 
@@ -1345,7 +1527,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$shopLink"></a>$shopLink
 
-    protected string $shopLink
+```php
+protected string $shopLink
+```
 
 
 
@@ -1357,7 +1541,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$shopLinkType"></a>$shopLinkType
 
-    public string $shopLinkType
+```php
+public string $shopLinkType
+```
 
 
 
@@ -1369,7 +1555,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$shopShareDatas"></a>$shopShareDatas
 
-    public string $shopShareDatas = false
+```php
+public string $shopShareDatas = false
+```
 
 
 
@@ -1381,7 +1569,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$show_form_cancel_button"></a>$show_form_cancel_button
 
-    public boolean $show_form_cancel_button
+```php
+public boolean $show_form_cancel_button
+```
 
 
 
@@ -1393,7 +1583,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$show_page_header_toolbar"></a>$show_page_header_toolbar
 
-    public boolean $show_page_header_toolbar = false
+```php
+public boolean $show_page_header_toolbar = false
+```
 
 
 
@@ -1405,7 +1597,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$show_toolbar"></a>$show_toolbar
 
-    protected boolean $show_toolbar = true
+```php
+protected boolean $show_toolbar = true
+```
 
 
 
@@ -1417,7 +1611,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$show_toolbar_options"></a>$show_toolbar_options
 
-    protected boolean $show_toolbar_options = false
+```php
+protected boolean $show_toolbar_options = false
+```
 
 
 
@@ -1429,7 +1625,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$specificConfirmDelete"></a>$specificConfirmDelete
 
-    protected boolean $specificConfirmDelete = null
+```php
+protected boolean $specificConfirmDelete = null
+```
 
 
 
@@ -1441,7 +1639,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$submit_action"></a>$submit_action
 
-    protected string $submit_action
+```php
+protected string $submit_action
+```
 
 
 
@@ -1453,7 +1653,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$tabAccess"></a>$tabAccess
 
-    public array $tabAccess
+```php
+public array $tabAccess
+```
 
 
 
@@ -1465,7 +1667,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$tab_modules_list"></a>$tab_modules_list
 
-    protected array $tab_modules_list = array('default_list' => array(), 'slider_list' => array())
+```php
+protected array $tab_modules_list = array('default_list' => array(), 'slider_list' => array())
+```
 
 
 
@@ -1477,7 +1681,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$table"></a>$table
 
-    public string $table = 'configuration'
+```php
+public string $table = 'configuration'
+```
 
 
 
@@ -1489,7 +1695,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$template"></a>$template
 
-    public string $template = 'content.tpl'
+```php
+public string $template = 'content.tpl'
+```
 
 
 
@@ -1501,7 +1709,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$token"></a>$token
 
-    public string $token
+```php
+public string $token
+```
 
 
 
@@ -1513,7 +1723,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$toolbar_btn"></a>$toolbar_btn
 
-    protected array $toolbar_btn = null
+```php
+protected array $toolbar_btn = null
+```
 
 
 
@@ -1525,7 +1737,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
 
-    protected boolean $toolbar_scroll = true
+```php
+protected boolean $toolbar_scroll = true
+```
 
 
 
@@ -1537,7 +1751,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$toolbar_title"></a>$toolbar_title
 
-    protected string $toolbar_title
+```php
+protected string $toolbar_title
+```
 
 
 
@@ -1549,7 +1765,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$tpl_delete_link_vars"></a>$tpl_delete_link_vars
 
-    public array $tpl_delete_link_vars = array()
+```php
+public array $tpl_delete_link_vars = array()
+```
 
 
 
@@ -1561,7 +1779,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$tpl_folder"></a>$tpl_folder
 
-    public string $tpl_folder
+```php
+public string $tpl_folder
+```
 
 
 
@@ -1573,7 +1793,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$tpl_form_vars"></a>$tpl_form_vars
 
-    public array $tpl_form_vars = array()
+```php
+public array $tpl_form_vars = array()
+```
 
 
 
@@ -1585,7 +1807,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$tpl_list_vars"></a>$tpl_list_vars
 
-    public array $tpl_list_vars = array()
+```php
+public array $tpl_list_vars = array()
+```
 
 
 
@@ -1597,7 +1821,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$tpl_option_vars"></a>$tpl_option_vars
 
-    public array $tpl_option_vars = array()
+```php
+public array $tpl_option_vars = array()
+```
 
 
 
@@ -1609,7 +1835,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$tpl_required_fields_vars"></a>$tpl_required_fields_vars
 
-    public array $tpl_required_fields_vars = array()
+```php
+public array $tpl_required_fields_vars = array()
+```
 
 
 
@@ -1621,7 +1849,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$tpl_view_vars"></a>$tpl_view_vars
 
-    public array $tpl_view_vars = array()
+```php
+public array $tpl_view_vars = array()
+```
 
 
 
@@ -1633,7 +1863,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$translationsTab"></a>$translationsTab
 
-    protected array $translationsTab = array()
+```php
+protected array $translationsTab = array()
+```
 
 
 
@@ -1645,7 +1877,9 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 ### <a name="property-$warnings"></a>$warnings
 
-    public array $warnings = array()
+```php
+public array $warnings = array()
+```
 
 
 
@@ -1661,7 +1895,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminControllerCore::__construct()
+```php
+mixed AdminControllerCore::__construct()
+```
 
 
 
@@ -1675,7 +1911,9 @@ Methods
 
 ### <a name="method-_childValidation"></a>_childValidation
 
-    mixed AdminControllerCore::_childValidation()
+```php
+mixed AdminControllerCore::_childValidation()
+```
 
 Overload this method for custom checking
 
@@ -1689,7 +1927,9 @@ Overload this method for custom checking
 
 ### <a name="method-addFiltersToBreadcrumbs"></a>addFiltersToBreadcrumbs
 
-    string|void AdminControllerCore::addFiltersToBreadcrumbs()
+```php
+string|void AdminControllerCore::addFiltersToBreadcrumbs()
+```
 
 
 
@@ -1703,7 +1943,9 @@ Overload this method for custom checking
 
 ### <a name="method-addMetaTitle"></a>addMetaTitle
 
-    mixed AdminControllerCore::addMetaTitle(string $entry)
+```php
+mixed AdminControllerCore::addMetaTitle(string $entry)
+```
 
 Add an entry to the meta title.
 
@@ -1720,7 +1962,9 @@ Add an entry to the meta title.
 
 ### <a name="method-addPageHeaderToolBarModulesListButton"></a>addPageHeaderToolBarModulesListButton
 
-    mixed AdminControllerCore::addPageHeaderToolBarModulesListButton()
+```php
+mixed AdminControllerCore::addPageHeaderToolBarModulesListButton()
+```
 
 
 
@@ -1734,7 +1978,9 @@ Add an entry to the meta title.
 
 ### <a name="method-addRowAction"></a>addRowAction
 
-    mixed AdminControllerCore::addRowAction(string $action)
+```php
+mixed AdminControllerCore::addRowAction(string $action)
+```
 
 Declare an action to use for each row in the list
 
@@ -1751,7 +1997,9 @@ Declare an action to use for each row in the list
 
 ### <a name="method-addRowActionSkipList"></a>addRowActionSkipList
 
-    mixed AdminControllerCore::addRowActionSkipList(string $action, array $list)
+```php
+mixed AdminControllerCore::addRowActionSkipList(string $action, array $list)
+```
 
 Add an action to use for each row in the list
 
@@ -1769,7 +2017,9 @@ Add an action to use for each row in the list
 
 ### <a name="method-addToolBarModulesListButton"></a>addToolBarModulesListButton
 
-    mixed AdminControllerCore::addToolBarModulesListButton()
+```php
+mixed AdminControllerCore::addToolBarModulesListButton()
+```
 
 
 
@@ -1783,7 +2033,9 @@ Add an action to use for each row in the list
 
 ### <a name="method-afterAdd"></a>afterAdd
 
-    boolean AdminControllerCore::afterAdd(\ObjectModel $object)
+```php
+boolean AdminControllerCore::afterAdd(\ObjectModel $object)
+```
 
 
 
@@ -1800,7 +2052,9 @@ Add an action to use for each row in the list
 
 ### <a name="method-afterDelete"></a>afterDelete
 
-    boolean AdminControllerCore::afterDelete(\ObjectModel $object, integer $old_id)
+```php
+boolean AdminControllerCore::afterDelete(\ObjectModel $object, integer $old_id)
+```
 
 Called before deletion
 
@@ -1818,7 +2072,9 @@ Called before deletion
 
 ### <a name="method-afterImageUpload"></a>afterImageUpload
 
-    boolean AdminControllerCore::afterImageUpload()
+```php
+boolean AdminControllerCore::afterImageUpload()
+```
 
 Check rights to view the current tab
 
@@ -1832,7 +2088,9 @@ Check rights to view the current tab
 
 ### <a name="method-afterUpdate"></a>afterUpdate
 
-    boolean AdminControllerCore::afterUpdate(\ObjectModel $object)
+```php
+boolean AdminControllerCore::afterUpdate(\ObjectModel $object)
+```
 
 
 
@@ -1849,7 +2107,9 @@ Check rights to view the current tab
 
 ### <a name="method-ajaxProcessGetModuleQuickView"></a>ajaxProcessGetModuleQuickView
 
-    mixed AdminControllerCore::ajaxProcessGetModuleQuickView()
+```php
+mixed AdminControllerCore::ajaxProcessGetModuleQuickView()
+```
 
 
 
@@ -1863,7 +2123,9 @@ Check rights to view the current tab
 
 ### <a name="method-ajaxProcessOpenHelp"></a>ajaxProcessOpenHelp
 
-    mixed AdminControllerCore::ajaxProcessOpenHelp()
+```php
+mixed AdminControllerCore::ajaxProcessOpenHelp()
+```
 
 
 
@@ -1877,7 +2139,9 @@ Check rights to view the current tab
 
 ### <a name="method-beforeAdd"></a>beforeAdd
 
-    boolean AdminControllerCore::beforeAdd(\ObjectModel $object)
+```php
+boolean AdminControllerCore::beforeAdd(\ObjectModel $object)
+```
 
 Called before Add
 
@@ -1894,7 +2158,9 @@ Called before Add
 
 ### <a name="method-beforeDelete"></a>beforeDelete
 
-    boolean AdminControllerCore::beforeDelete(\ObjectModel $object)
+```php
+boolean AdminControllerCore::beforeDelete(\ObjectModel $object)
+```
 
 Called before deletion
 
@@ -1911,7 +2177,9 @@ Called before deletion
 
 ### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
-    mixed AdminControllerCore::beforeUpdateOptions()
+```php
+mixed AdminControllerCore::beforeUpdateOptions()
+```
 
 Can be overridden
 
@@ -1925,7 +2193,9 @@ Can be overridden
 
 ### <a name="method-checkAccess"></a>checkAccess
 
-    boolean AdminControllerCore::checkAccess()
+```php
+boolean AdminControllerCore::checkAccess()
+```
 
 Check if the token is valid, else display a warning page
 
@@ -1939,7 +2209,9 @@ Check if the token is valid, else display a warning page
 
 ### <a name="method-checkToken"></a>checkToken
 
-    boolean AdminControllerCore::checkToken()
+```php
+boolean AdminControllerCore::checkToken()
+```
 
 Check for security token
 
@@ -1953,7 +2225,9 @@ Check for security token
 
 ### <a name="method-copyFromPost"></a>copyFromPost
 
-    mixed AdminControllerCore::copyFromPost($object, string $table)
+```php
+mixed AdminControllerCore::copyFromPost($object, string $table)
+```
 
 Copy data values from $_POST to object
 
@@ -1971,7 +2245,9 @@ Copy data values from $_POST to object
 
 ### <a name="method-createTemplate"></a>createTemplate
 
-    \Smarty_Internal_Template AdminControllerCore::createTemplate(string $tpl_name)
+```php
+\Smarty_Internal_Template AdminControllerCore::createTemplate(string $tpl_name)
+```
 
 Create a template from the override file, else from the base file.
 
@@ -1988,7 +2264,9 @@ Create a template from the override file, else from the base file.
 
 ### <a name="method-display"></a>display
 
-    void AdminControllerCore::display()
+```php
+void AdminControllerCore::display()
+```
 
 
 
@@ -2002,7 +2280,9 @@ Create a template from the override file, else from the base file.
 
 ### <a name="method-displayAjax"></a>displayAjax
 
-    void AdminControllerCore::displayAjax()
+```php
+void AdminControllerCore::displayAjax()
+```
 
 
 
@@ -2016,7 +2296,9 @@ Create a template from the override file, else from the base file.
 
 ### <a name="method-displayInformation"></a>displayInformation
 
-    mixed AdminControllerCore::displayInformation(string $msg)
+```php
+mixed AdminControllerCore::displayInformation(string $msg)
+```
 
 Add a info message to display at the top of the page
 
@@ -2033,7 +2315,9 @@ Add a info message to display at the top of the page
 
 ### <a name="method-displayModuleOptions"></a>displayModuleOptions
 
-    string|array AdminControllerCore::displayModuleOptions(\Module $module, string $output_type, string|null $back)
+```php
+string|array AdminControllerCore::displayModuleOptions(\Module $module, string $output_type, string|null $back)
+```
 
 Display modules list
 
@@ -2052,7 +2336,9 @@ Display modules list
 
 ### <a name="method-displayNoSmarty"></a>displayNoSmarty
 
-    mixed AdminControllerCore::displayNoSmarty()
+```php
+mixed AdminControllerCore::displayNoSmarty()
+```
 
 
 
@@ -2066,7 +2352,9 @@ Display modules list
 
 ### <a name="method-displayRequiredFields"></a>displayRequiredFields
 
-    string|void AdminControllerCore::displayRequiredFields()
+```php
+string|void AdminControllerCore::displayRequiredFields()
+```
 
 Prepare the view to display the required fields form
 
@@ -2080,7 +2368,9 @@ Prepare the view to display the required fields form
 
 ### <a name="method-displayWarning"></a>displayWarning
 
-    mixed AdminControllerCore::displayWarning(string $msg)
+```php
+mixed AdminControllerCore::displayWarning(string $msg)
+```
 
 Add a warning message to display at the top of the page
 
@@ -2097,7 +2387,9 @@ Add a warning message to display at the top of the page
 
 ### <a name="method-fillModuleData"></a>fillModuleData
 
-    mixed AdminControllerCore::fillModuleData(\Module $module, string $output_type, string|null $back)
+```php
+mixed AdminControllerCore::fillModuleData(\Module $module, string $output_type, string|null $back)
+```
 
 
 
@@ -2116,7 +2408,9 @@ Add a warning message to display at the top of the page
 
 ### <a name="method-filterTabModuleList"></a>filterTabModuleList
 
-    mixed AdminControllerCore::filterTabModuleList()
+```php
+mixed AdminControllerCore::filterTabModuleList()
+```
 
 
 
@@ -2130,7 +2424,9 @@ Add a warning message to display at the top of the page
 
 ### <a name="method-filterToField"></a>filterToField
 
-    array|false AdminControllerCore::filterToField(string $key, string $filter)
+```php
+array|false AdminControllerCore::filterToField(string $key, string $filter)
+```
 
 
 
@@ -2148,7 +2444,9 @@ Add a warning message to display at the top of the page
 
 ### <a name="method-getFieldValue"></a>getFieldValue
 
-    string AdminControllerCore::getFieldValue(\ObjectModel $obj, string $key, integer|null $id_lang)
+```php
+string AdminControllerCore::getFieldValue(\ObjectModel $obj, string $key, integer|null $id_lang)
+```
 
 Return field value if possible (both classical and multilingual fields)
 
@@ -2168,7 +2466,9 @@ Case 2 : Return object value
 
 ### <a name="method-getFieldsValue"></a>getFieldsValue
 
-    array AdminControllerCore::getFieldsValue(\ObjectModel $obj)
+```php
+array AdminControllerCore::getFieldsValue(\ObjectModel $obj)
+```
 
 Return the list of fields value
 
@@ -2185,7 +2485,9 @@ Return the list of fields value
 
 ### <a name="method-getLanguages"></a>getLanguages
 
-    array AdminControllerCore::getLanguages()
+```php
+array AdminControllerCore::getLanguages()
+```
 
 
 
@@ -2199,7 +2501,9 @@ Return the list of fields value
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```php
+mixed AdminControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```
 
 Get the current objects' list form the database
 
@@ -2221,7 +2525,9 @@ Get the current objects' list form the database
 
 ### <a name="method-getModulesList"></a>getModulesList
 
-    boolean AdminControllerCore::getModulesList(array|string $filter_modules_list)
+```php
+boolean AdminControllerCore::getModulesList(array|string $filter_modules_list)
+```
 
 
 
@@ -2238,7 +2544,9 @@ Get the current objects' list form the database
 
 ### <a name="method-getSelectedAssoShop"></a>getSelectedAssoShop
 
-    array AdminControllerCore::getSelectedAssoShop(string $table)
+```php
+array AdminControllerCore::getSelectedAssoShop(string $table)
+```
 
 Returns an array with selected shops and type (group or boutique shop)
 
@@ -2255,7 +2563,9 @@ Returns an array with selected shops and type (group or boutique shop)
 
 ### <a name="method-getTemplateFormVars"></a>getTemplateFormVars
 
-    mixed AdminControllerCore::getTemplateFormVars()
+```php
+mixed AdminControllerCore::getTemplateFormVars()
+```
 
 
 
@@ -2269,7 +2579,9 @@ Returns an array with selected shops and type (group or boutique shop)
 
 ### <a name="method-getTemplateListVars"></a>getTemplateListVars
 
-    mixed AdminControllerCore::getTemplateListVars()
+```php
+mixed AdminControllerCore::getTemplateListVars()
+```
 
 
 
@@ -2283,7 +2595,9 @@ Returns an array with selected shops and type (group or boutique shop)
 
 ### <a name="method-getTemplateViewVars"></a>getTemplateViewVars
 
-    mixed AdminControllerCore::getTemplateViewVars()
+```php
+mixed AdminControllerCore::getTemplateViewVars()
+```
 
 
 
@@ -2297,7 +2611,9 @@ Returns an array with selected shops and type (group or boutique shop)
 
 ### <a name="method-init"></a>init
 
-    mixed AdminControllerCore::init()
+```php
+mixed AdminControllerCore::init()
+```
 
 Init context and dependencies, handles POST and GET
 
@@ -2311,7 +2627,9 @@ Init context and dependencies, handles POST and GET
 
 ### <a name="method-initBreadcrumbs"></a>initBreadcrumbs
 
-    mixed AdminControllerCore::initBreadcrumbs(integer|null $tab_id, array|null $tabs)
+```php
+mixed AdminControllerCore::initBreadcrumbs(integer|null $tab_id, array|null $tabs)
+```
 
 Set breadcrumbs array for the controller page
 
@@ -2329,7 +2647,9 @@ Set breadcrumbs array for the controller page
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminControllerCore::initContent()
+```php
+mixed AdminControllerCore::initContent()
+```
 
 Assign smarty variables for all default views, list and form, then call other init functions
 
@@ -2343,7 +2663,9 @@ Assign smarty variables for all default views, list and form, then call other in
 
 ### <a name="method-initCursedPage"></a>initCursedPage
 
-    void AdminControllerCore::initCursedPage()
+```php
+void AdminControllerCore::initCursedPage()
+```
 
 Initialize the invalid doom page of death
 
@@ -2357,7 +2679,9 @@ Initialize the invalid doom page of death
 
 ### <a name="method-initFooter"></a>initFooter
 
-    mixed AdminControllerCore::initFooter()
+```php
+mixed AdminControllerCore::initFooter()
+```
 
 Assign smarty variables for the footer
 
@@ -2371,7 +2695,9 @@ Assign smarty variables for the footer
 
 ### <a name="method-initHeader"></a>initHeader
 
-    mixed AdminControllerCore::initHeader()
+```php
+mixed AdminControllerCore::initHeader()
+```
 
 Assign smarty variables for the header
 
@@ -2385,7 +2711,9 @@ Assign smarty variables for the header
 
 ### <a name="method-initModal"></a>initModal
 
-    mixed AdminControllerCore::initModal()
+```php
+mixed AdminControllerCore::initModal()
+```
 
 
 
@@ -2399,7 +2727,9 @@ Assign smarty variables for the header
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -2413,7 +2743,9 @@ Assign smarty variables for the header
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminControllerCore::initProcess()
+```php
+mixed AdminControllerCore::initProcess()
+```
 
 Retrieve GET and POST value and translate them to actions
 
@@ -2427,7 +2759,9 @@ Retrieve GET and POST value and translate them to actions
 
 ### <a name="method-initShopContext"></a>initShopContext
 
-    mixed AdminControllerCore::initShopContext()
+```php
+mixed AdminControllerCore::initShopContext()
+```
 
 
 
@@ -2441,7 +2775,9 @@ Retrieve GET and POST value and translate them to actions
 
 ### <a name="method-initTabModuleList"></a>initTabModuleList
 
-    mixed AdminControllerCore::initTabModuleList()
+```php
+mixed AdminControllerCore::initTabModuleList()
+```
 
 Init tab modules list and add button in toolbar
 
@@ -2455,7 +2791,9 @@ Init tab modules list and add button in toolbar
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminControllerCore::initToolbar()
+```php
+mixed AdminControllerCore::initToolbar()
+```
 
 assign default action in toolbar_btn smarty var, if they are not set.
 
@@ -2469,7 +2807,9 @@ uses override to specifically add, modify or remove items
 
 ### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
-    void AdminControllerCore::initToolbarTitle()
+```php
+void AdminControllerCore::initToolbarTitle()
+```
 
 Set default toolbar_title to admin breadcrumb
 
@@ -2483,7 +2823,9 @@ Set default toolbar_title to admin breadcrumb
 
 ### <a name="method-isFresh"></a>isFresh
 
-    boolean AdminControllerCore::isFresh(string $file, integer $timeout)
+```php
+boolean AdminControllerCore::isFresh(string $file, integer $timeout)
+```
 
 
 
@@ -2501,7 +2843,9 @@ Set default toolbar_title to admin breadcrumb
 
 ### <a name="method-jsonConfirmation"></a>jsonConfirmation
 
-    mixed AdminControllerCore::jsonConfirmation(string $message)
+```php
+mixed AdminControllerCore::jsonConfirmation(string $message)
+```
 
 Shortcut to set up a json success payload
 
@@ -2518,7 +2862,9 @@ Shortcut to set up a json success payload
 
 ### <a name="method-jsonError"></a>jsonError
 
-    mixed AdminControllerCore::jsonError(string $message)
+```php
+mixed AdminControllerCore::jsonError(string $message)
+```
 
 Shortcut to set up a json error payload
 
@@ -2535,7 +2881,9 @@ Shortcut to set up a json error payload
 
 ### <a name="method-l"></a>l
 
-    string AdminControllerCore::l(string $string, string|null $class, boolean $addslashes, boolean $htmlentities)
+```php
+string AdminControllerCore::l(string $string, string|null $class, boolean $addslashes, boolean $htmlentities)
+```
 
 Non-static method which uses AdminController::translate()
 
@@ -2555,7 +2903,9 @@ Non-static method which uses AdminController::translate()
 
 ### <a name="method-loadObject"></a>loadObject
 
-    \ObjectModel|false AdminControllerCore::loadObject(boolean $opt)
+```php
+\ObjectModel|false AdminControllerCore::loadObject(boolean $opt)
+```
 
 Load class object using identifier in $_GET (if possible)
 otherwise return an empty object, or die
@@ -2573,7 +2923,9 @@ otherwise return an empty object, or die
 
 ### <a name="method-postImage"></a>postImage
 
-    boolean AdminControllerCore::postImage(integer $id)
+```php
+boolean AdminControllerCore::postImage(integer $id)
+```
 
 Overload this method for custom checking
 
@@ -2590,7 +2942,9 @@ Overload this method for custom checking
 
 ### <a name="method-postProcess"></a>postProcess
 
-    boolean AdminControllerCore::postProcess()
+```php
+boolean AdminControllerCore::postProcess()
+```
 
 
 
@@ -2604,7 +2958,9 @@ Overload this method for custom checking
 
 ### <a name="method-processAdd"></a>processAdd
 
-    \ObjectModel|false AdminControllerCore::processAdd()
+```php
+\ObjectModel|false AdminControllerCore::processAdd()
+```
 
 Object creation
 
@@ -2618,7 +2974,9 @@ Object creation
 
 ### <a name="method-processBulkAffectZone"></a>processBulkAffectZone
 
-    boolean AdminControllerCore::processBulkAffectZone()
+```php
+boolean AdminControllerCore::processBulkAffectZone()
+```
 
 
 
@@ -2632,7 +2990,9 @@ Object creation
 
 ### <a name="method-processBulkDelete"></a>processBulkDelete
 
-    boolean AdminControllerCore::processBulkDelete()
+```php
+boolean AdminControllerCore::processBulkDelete()
+```
 
 Delete multiple items
 
@@ -2646,7 +3006,9 @@ Delete multiple items
 
 ### <a name="method-processBulkDisableSelection"></a>processBulkDisableSelection
 
-    boolean AdminControllerCore::processBulkDisableSelection()
+```php
+boolean AdminControllerCore::processBulkDisableSelection()
+```
 
 Disable multiple items
 
@@ -2660,7 +3022,9 @@ Disable multiple items
 
 ### <a name="method-processBulkEnableSelection"></a>processBulkEnableSelection
 
-    boolean AdminControllerCore::processBulkEnableSelection()
+```php
+boolean AdminControllerCore::processBulkEnableSelection()
+```
 
 Enable multiple items
 
@@ -2674,7 +3038,9 @@ Enable multiple items
 
 ### <a name="method-processBulkStatusSelection"></a>processBulkStatusSelection
 
-    boolean AdminControllerCore::processBulkStatusSelection(boolean $status)
+```php
+boolean AdminControllerCore::processBulkStatusSelection(boolean $status)
+```
 
 Toggle status of multiple items
 
@@ -2691,7 +3057,9 @@ Toggle status of multiple items
 
 ### <a name="method-processDelete"></a>processDelete
 
-    \ObjectModel|false AdminControllerCore::processDelete()
+```php
+\ObjectModel|false AdminControllerCore::processDelete()
+```
 
 Object Delete
 
@@ -2705,7 +3073,9 @@ Object Delete
 
 ### <a name="method-processDeleteImage"></a>processDeleteImage
 
-    \ObjectModel|false AdminControllerCore::processDeleteImage()
+```php
+\ObjectModel|false AdminControllerCore::processDeleteImage()
+```
 
 Object Delete images
 
@@ -2719,7 +3089,9 @@ Object Delete images
 
 ### <a name="method-processExport"></a>processExport
 
-    mixed AdminControllerCore::processExport(string $text_delimiter)
+```php
+mixed AdminControllerCore::processExport(string $text_delimiter)
+```
 
 
 
@@ -2736,7 +3108,9 @@ Object Delete images
 
 ### <a name="method-processFilter"></a>processFilter
 
-    mixed AdminControllerCore::processFilter()
+```php
+mixed AdminControllerCore::processFilter()
+```
 
 Set the filters used for the list display
 
@@ -2750,7 +3124,9 @@ Set the filters used for the list display
 
 ### <a name="method-processPosition"></a>processPosition
 
-    \ObjectModel|false AdminControllerCore::processPosition()
+```php
+\ObjectModel|false AdminControllerCore::processPosition()
+```
 
 Change object position
 
@@ -2764,7 +3140,9 @@ Change object position
 
 ### <a name="method-processResetFilters"></a>processResetFilters
 
-    mixed AdminControllerCore::processResetFilters(integer|null $list_id)
+```php
+mixed AdminControllerCore::processResetFilters(integer|null $list_id)
+```
 
 Cancel all filters for this tab
 
@@ -2781,7 +3159,9 @@ Cancel all filters for this tab
 
 ### <a name="method-processSave"></a>processSave
 
-    \ObjectModel|false|void AdminControllerCore::processSave()
+```php
+\ObjectModel|false|void AdminControllerCore::processSave()
+```
 
 Call the right method for creating or updating object
 
@@ -2795,7 +3175,9 @@ Call the right method for creating or updating object
 
 ### <a name="method-processStatus"></a>processStatus
 
-    \ObjectModel|false AdminControllerCore::processStatus()
+```php
+\ObjectModel|false AdminControllerCore::processStatus()
+```
 
 Change object status (active, inactive)
 
@@ -2809,7 +3191,9 @@ Change object status (active, inactive)
 
 ### <a name="method-processUpdate"></a>processUpdate
 
-    \ObjectModel|false|void AdminControllerCore::processUpdate()
+```php
+\ObjectModel|false|void AdminControllerCore::processUpdate()
+```
 
 Object update
 
@@ -2823,7 +3207,9 @@ Object update
 
 ### <a name="method-processUpdateFields"></a>processUpdateFields
 
-    \ObjectModel AdminControllerCore::processUpdateFields()
+```php
+\ObjectModel AdminControllerCore::processUpdateFields()
+```
 
 Change object required fields
 
@@ -2837,7 +3223,9 @@ Change object required fields
 
 ### <a name="method-processUpdateOptions"></a>processUpdateOptions
 
-    mixed AdminControllerCore::processUpdateOptions()
+```php
+mixed AdminControllerCore::processUpdateOptions()
+```
 
 Update options and preferences
 
@@ -2851,7 +3239,9 @@ Update options and preferences
 
 ### <a name="method-redirect"></a>redirect
 
-    mixed AdminControllerCore::redirect()
+```php
+mixed AdminControllerCore::redirect()
+```
 
 
 
@@ -2865,7 +3255,9 @@ Update options and preferences
 
 ### <a name="method-refresh"></a>refresh
 
-    boolean AdminControllerCore::refresh(string $file_to_refresh, string $external_file)
+```php
+boolean AdminControllerCore::refresh(string $file_to_refresh, string $external_file)
+```
 
 
 
@@ -2883,7 +3275,9 @@ Update options and preferences
 
 ### <a name="method-renderDetails"></a>renderDetails
 
-    string|false AdminControllerCore::renderDetails()
+```php
+string|false AdminControllerCore::renderDetails()
+```
 
 Override to render the view page
 
@@ -2897,7 +3291,9 @@ Override to render the view page
 
 ### <a name="method-renderForm"></a>renderForm
 
-    string AdminControllerCore::renderForm()
+```php
+string AdminControllerCore::renderForm()
+```
 
 Function used to render the form for this controller
 
@@ -2911,7 +3307,9 @@ Function used to render the form for this controller
 
 ### <a name="method-renderKpis"></a>renderKpis
 
-    mixed AdminControllerCore::renderKpis()
+```php
+mixed AdminControllerCore::renderKpis()
+```
 
 
 
@@ -2925,7 +3323,9 @@ Function used to render the form for this controller
 
 ### <a name="method-renderList"></a>renderList
 
-    string|false AdminControllerCore::renderList()
+```php
+string|false AdminControllerCore::renderList()
+```
 
 Function used to render the list to display for this controller
 
@@ -2939,7 +3339,9 @@ Function used to render the list to display for this controller
 
 ### <a name="method-renderModal"></a>renderModal
 
-    string AdminControllerCore::renderModal()
+```php
+string AdminControllerCore::renderModal()
+```
 
 
 
@@ -2953,7 +3355,9 @@ Function used to render the list to display for this controller
 
 ### <a name="method-renderModulesList"></a>renderModulesList
 
-    string AdminControllerCore::renderModulesList()
+```php
+string AdminControllerCore::renderModulesList()
+```
 
 
 
@@ -2967,7 +3371,9 @@ Function used to render the list to display for this controller
 
 ### <a name="method-renderOptions"></a>renderOptions
 
-    string AdminControllerCore::renderOptions()
+```php
+string AdminControllerCore::renderOptions()
+```
 
 Function used to render the options for this controller
 
@@ -2981,7 +3387,9 @@ Function used to render the options for this controller
 
 ### <a name="method-renderView"></a>renderView
 
-    string AdminControllerCore::renderView()
+```php
+string AdminControllerCore::renderView()
+```
 
 Override to render the view page
 
@@ -2995,7 +3403,9 @@ Override to render the view page
 
 ### <a name="method-setDeprecatedMedia"></a>setDeprecatedMedia
 
-    mixed AdminControllerCore::setDeprecatedMedia()
+```php
+mixed AdminControllerCore::setDeprecatedMedia()
+```
 
 
 
@@ -3009,7 +3419,9 @@ Override to render the view page
 
 ### <a name="method-setHelperDisplay"></a>setHelperDisplay
 
-    void AdminControllerCore::setHelperDisplay(\Helper $helper)
+```php
+void AdminControllerCore::setHelperDisplay(\Helper $helper)
+```
 
 This function sets various display options for helper list
 
@@ -3026,7 +3438,9 @@ This function sets various display options for helper list
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminControllerCore::setMedia()
+```php
+mixed AdminControllerCore::setMedia()
+```
 
 
 
@@ -3040,7 +3454,9 @@ This function sets various display options for helper list
 
 ### <a name="method-updateAssoShop"></a>updateAssoShop
 
-    boolean|void AdminControllerCore::updateAssoShop(integer $id_object)
+```php
+boolean|void AdminControllerCore::updateAssoShop(integer $id_object)
+```
 
 Update the associations of shops
 
@@ -3057,7 +3473,9 @@ Update the associations of shops
 
 ### <a name="method-uploadImage"></a>uploadImage
 
-    boolean AdminControllerCore::uploadImage(integer $id, string $name, string $dir, string|boolean $ext, integer|null $width, integer|null $height)
+```php
+boolean AdminControllerCore::uploadImage(integer $id, string $name, string $dir, string|boolean $ext, integer|null $width, integer|null $height)
+```
 
 
 
@@ -3079,7 +3497,9 @@ Update the associations of shops
 
 ### <a name="method-validateField"></a>validateField
 
-    boolean AdminControllerCore::validateField(mixed $value, array $field)
+```php
+boolean AdminControllerCore::validateField(mixed $value, array $field)
+```
 
 
 
@@ -3097,7 +3517,9 @@ Update the associations of shops
 
 ### <a name="method-validateRules"></a>validateRules
 
-    mixed AdminControllerCore::validateRules(string|boolean $class_name)
+```php
+mixed AdminControllerCore::validateRules(string|boolean $class_name)
+```
 
 Manage page display (form, list.
 
@@ -3114,7 +3536,9 @@ Manage page display (form, list.
 
 ### <a name="method-viewAccess"></a>viewAccess
 
-    boolean AdminControllerCore::viewAccess(boolean $disable)
+```php
+boolean AdminControllerCore::viewAccess(boolean $disable)
+```
 
 Check rights to view the current tab
 
@@ -3131,7 +3555,9 @@ Check rights to view the current tab
 
 ### <a name="method-viewDetails"></a>viewDetails
 
-    mixed AdminControllerCore::viewDetails()
+```php
+mixed AdminControllerCore::viewDetails()
+```
 
 Display object details
 

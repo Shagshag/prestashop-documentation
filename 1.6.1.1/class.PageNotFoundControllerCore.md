@@ -10,16 +10,18 @@ Class PageNotFoundControllerCore
 * Source: [controllers/front/PageNotFoundController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$page_name](#property-$page_name)
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [canonicalRedirection](#method-canonicalRedirection)
 * [initContent](#method-initContent)
 * [sslRedirection](#method-sslRedirection)
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$page_name"></a>$page_name
 
-    public mixed $page_name = 'pagenotfound'
+```php
+public mixed $page_name = 'pagenotfound'
+```
 
 
 
@@ -45,7 +49,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'pagenotfound'
+```php
+public mixed $php_self = 'pagenotfound'
+```
 
 
 
@@ -57,7 +63,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -73,7 +81,9 @@ Methods
 
 ### <a name="method-canonicalRedirection"></a>canonicalRedirection
 
-    mixed PageNotFoundControllerCore::canonicalRedirection($canonical_url)
+```php
+mixed PageNotFoundControllerCore::canonicalRedirection($canonical_url)
+```
 
 
 
@@ -90,7 +100,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed PageNotFoundControllerCore::initContent()
+```php
+mixed PageNotFoundControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -104,7 +116,9 @@ Assign template vars related to page content
 
 ### <a name="method-sslRedirection"></a>sslRedirection
 
-    mixed PageNotFoundControllerCore::sslRedirection()
+```php
+mixed PageNotFoundControllerCore::sslRedirection()
+```
 
 
 

@@ -23,12 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * This is an **interface**
 * Source: [Core/Foundation/Database/Core_Foundation_Database_DatabaseInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_DatabaseInterface.php#L27)
 
+Contents
+--------
 
 
 
+### Methods
 
-Methods
--------
 * [escape](#method-escape)
 * [select](#method-select)
 
@@ -43,7 +44,9 @@ Methods
 
 ### <a name="method-escape"></a>escape
 
-    mixed Core_Foundation_Database_DatabaseInterface::escape($unsafeData)
+```php
+mixed Core_Foundation_Database_DatabaseInterface::escape($unsafeData)
+```
 
 
 
@@ -60,7 +63,9 @@ Methods
 
 ### <a name="method-select"></a>select
 
-    mixed Core_Foundation_Database_DatabaseInterface::select($sqlString)
+```php
+mixed Core_Foundation_Database_DatabaseInterface::select($sqlString)
+```
 
 
 

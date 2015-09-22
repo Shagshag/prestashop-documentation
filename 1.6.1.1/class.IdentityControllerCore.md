@@ -10,9 +10,11 @@ Class IdentityControllerCore
 * Source: [controllers/front/IdentityController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$auth](#property-$auth)
 * [$authRedirection](#property-$authRedirection)
@@ -20,8 +22,8 @@ Properties
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [init](#method-init)
 * [initContent](#method-initContent)
 * [postProcess](#method-postProcess)
@@ -36,7 +38,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public mixed $auth = true
+```php
+public mixed $auth = true
+```
 
 
 
@@ -48,7 +52,9 @@ Properties
 
 ### <a name="property-$authRedirection"></a>$authRedirection
 
-    public mixed $authRedirection = 'identity'
+```php
+public mixed $authRedirection = 'identity'
+```
 
 
 
@@ -60,7 +66,9 @@ Properties
 
 ### <a name="property-$customer"></a>$customer
 
-    protected \Customer $customer
+```php
+protected \Customer $customer
+```
 
 
 
@@ -72,7 +80,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'identity'
+```php
+public mixed $php_self = 'identity'
+```
 
 
 
@@ -84,7 +94,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -100,7 +112,9 @@ Methods
 
 ### <a name="method-init"></a>init
 
-    mixed IdentityControllerCore::init()
+```php
+mixed IdentityControllerCore::init()
+```
 
 
 
@@ -114,7 +128,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed IdentityControllerCore::initContent()
+```php
+mixed IdentityControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -128,7 +144,9 @@ Assign template vars related to page content
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed IdentityControllerCore::postProcess()
+```php
+mixed IdentityControllerCore::postProcess()
+```
 
 Start forms process
 
@@ -142,7 +160,9 @@ Start forms process
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed IdentityControllerCore::setMedia()
+```php
+mixed IdentityControllerCore::setMedia()
+```
 
 
 

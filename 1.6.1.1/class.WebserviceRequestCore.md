@@ -8,15 +8,17 @@ Class WebserviceRequestCore
 * Class name: WebserviceRequestCore
 * Source: [classes/webservice/WebserviceRequest.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [HTTP_GET](#constant-HTTP_GET)
 * [HTTP_POST](#constant-HTTP_POST)
 * [HTTP_PUT](#constant-HTTP_PUT)
 
-Properties
-----------
+### Properties
 
 * [$_authenticated](#property-$_authenticated)
 * [$_available_languages](#property-$_available_languages)
@@ -46,8 +48,8 @@ Properties
 * [$wsUrl](#property-$wsUrl)
 * [$ws_current_classname](#property-$ws_current_classname)
 
-Methods
--------
+### Methods
+
 * [authenticate](#method-authenticate)
 * [checkHTTPMethod](#method-checkHTTPMethod)
 * [checkResource](#method-checkResource)
@@ -94,7 +96,9 @@ Constants
 
 ### <a name="constant-HTTP_GET"></a>HTTP_GET
 
-    const HTTP_GET = 1
+```php
+const HTTP_GET = 1
+```
 
 
 
@@ -105,7 +109,9 @@ Constants
 
 ### <a name="constant-HTTP_POST"></a>HTTP_POST
 
-    const HTTP_POST = 2
+```php
+const HTTP_POST = 2
+```
 
 
 
@@ -116,7 +122,9 @@ Constants
 
 ### <a name="constant-HTTP_PUT"></a>HTTP_PUT
 
-    const HTTP_PUT = 4
+```php
+const HTTP_PUT = 4
+```
 
 
 
@@ -131,7 +139,9 @@ Properties
 
 ### <a name="property-$_authenticated"></a>$_authenticated
 
-    protected boolean $_authenticated = false
+```php
+protected boolean $_authenticated = false
+```
 
 Set if the authentication key was checked
 
@@ -143,7 +153,9 @@ Set if the authentication key was checked
 
 ### <a name="property-$_available_languages"></a>$_available_languages
 
-    protected mixed $_available_languages = null
+```php
+protected mixed $_available_languages = null
+```
 
 
 
@@ -155,7 +167,9 @@ Set if the authentication key was checked
 
 ### <a name="property-$_docUrl"></a>$_docUrl
 
-    protected string $_docUrl = 'http://doc.prestashop.com/display/PS16/Using+the+PrestaShop+Web+Service'
+```php
+protected string $_docUrl = 'http://doc.prestashop.com/display/PS16/Using+the+PrestaShop+Web+Service'
+```
 
 PrestaShop Webservice Documentation URL
 
@@ -167,7 +181,9 @@ PrestaShop Webservice Documentation URL
 
 ### <a name="property-$_inputXml"></a>$_inputXml
 
-    protected string $_inputXml
+```php
+protected string $_inputXml
+```
 
 If we are in PUT or POST case, we use this attribute to store the xml string value during process
 
@@ -179,7 +195,9 @@ If we are in PUT or POST case, we use this attribute to store the xml string val
 
 ### <a name="property-$_instance"></a>$_instance
 
-    protected \WebserviceRequest $_instance
+```php
+protected \WebserviceRequest $_instance
+```
 
 Object instance for singleton
 
@@ -192,7 +210,9 @@ Object instance for singleton
 
 ### <a name="property-$_key"></a>$_key
 
-    protected string $_key
+```php
+protected string $_key
+```
 
 Key used for authentication
 
@@ -204,7 +224,9 @@ Key used for authentication
 
 ### <a name="property-$_object"></a>$_object
 
-    protected \ObjectModel $_object
+```php
+protected \ObjectModel $_object
+```
 
 The current object to support, it extends the PrestaShop ObjectModel
 
@@ -216,7 +238,9 @@ The current object to support, it extends the PrestaShop ObjectModel
 
 ### <a name="property-$_outputEnabled"></a>$_outputEnabled
 
-    protected boolean $_outputEnabled = true
+```php
+protected boolean $_outputEnabled = true
+```
 
 Set if return should display content or not
 
@@ -228,7 +252,9 @@ Set if return should display content or not
 
 ### <a name="property-$_startTime"></a>$_startTime
 
-    protected integer $_startTime
+```php
+protected integer $_startTime
+```
 
 The time in microseconds of the start of the execution of the web service request
 
@@ -240,7 +266,9 @@ The time in microseconds of the start of the execution of the web service reques
 
 ### <a name="property-$depth"></a>$depth
 
-    public integer $depth
+```php
+public integer $depth
+```
 
 This is used to have a deeper tree diagram.
 
@@ -252,7 +280,9 @@ This is used to have a deeper tree diagram.
 
 ### <a name="property-$errors"></a>$errors
 
-    public array $errors = array()
+```php
+public array $errors = array()
+```
 
 Errors triggered at execution
 
@@ -264,7 +294,9 @@ Errors triggered at execution
 
 ### <a name="property-$fieldsToDisplay"></a>$fieldsToDisplay
 
-    public string $fieldsToDisplay = 'minimum'
+```php
+public string $fieldsToDisplay = 'minimum'
+```
 
 The fields to display. These fields will be displayed when retrieving objects
 
@@ -276,7 +308,9 @@ The fields to display. These fields will be displayed when retrieving objects
 
 ### <a name="property-$keyPermissions"></a>$keyPermissions
 
-    public array $keyPermissions
+```php
+public array $keyPermissions
+```
 
 The permissions for the current key
 
@@ -288,7 +322,9 @@ The permissions for the current key
 
 ### <a name="property-$method"></a>$method
 
-    public string $method
+```php
+public string $method
+```
 
 HTTP Method to support
 
@@ -300,7 +336,9 @@ HTTP Method to support
 
 ### <a name="property-$objOutput"></a>$objOutput
 
-    protected \WebserviceOutputBuilder $objOutput
+```php
+protected \WebserviceOutputBuilder $objOutput
+```
 
 The object to build the output.
 
@@ -312,7 +350,9 @@ The object to build the output.
 
 ### <a name="property-$objectSpecificManagement"></a>$objectSpecificManagement
 
-    protected \WebserviceSpecificManagementImages $objectSpecificManagement = false
+```php
+protected \WebserviceSpecificManagementImages $objectSpecificManagement = false
+```
 
 Set if the management is specific or if it is classic (entity management)
 
@@ -324,7 +364,9 @@ Set if the management is specific or if it is classic (entity management)
 
 ### <a name="property-$objects"></a>$objects
 
-    public array $objects
+```php
+public array $objects
+```
 
 The list of objects to display
 
@@ -336,7 +378,9 @@ The list of objects to display
 
 ### <a name="property-$outputFormat"></a>$outputFormat
 
-    protected string $outputFormat = 'xml'
+```php
+protected string $outputFormat = 'xml'
+```
 
 Name of the output format
 
@@ -348,7 +392,9 @@ Name of the output format
 
 ### <a name="property-$resourceConfiguration"></a>$resourceConfiguration
 
-    public array $resourceConfiguration
+```php
+public array $resourceConfiguration
+```
 
 The configuration parameters of the current resource
 
@@ -360,7 +406,9 @@ The configuration parameters of the current resource
 
 ### <a name="property-$resourceList"></a>$resourceList
 
-    public array $resourceList
+```php
+public array $resourceList
+```
 
 The list of each resources manageable via web service
 
@@ -372,7 +420,9 @@ The list of each resources manageable via web service
 
 ### <a name="property-$schemaToDisplay"></a>$schemaToDisplay
 
-    public string $schemaToDisplay
+```php
+public string $schemaToDisplay
+```
 
 The schema to display.
 
@@ -384,7 +434,9 @@ If null, no schema have to be displayed and normal management has to be performe
 
 ### <a name="property-$shopIDs"></a>$shopIDs
 
-    public mixed $shopIDs
+```php
+public mixed $shopIDs
+```
 
 
 
@@ -397,7 +449,9 @@ If null, no schema have to be displayed and normal management has to be performe
 
 ### <a name="property-$specificOutput"></a>$specificOutput
 
-    protected string $specificOutput = ''
+```php
+protected string $specificOutput = ''
+```
 
 The XML string to display if web service call succeed
 
@@ -409,7 +463,9 @@ The XML string to display if web service call succeed
 
 ### <a name="property-$urlFragments"></a>$urlFragments
 
-    public array $urlFragments = array()
+```php
+public array $urlFragments = array()
+```
 
 The segment list of the URL after the "api" segment
 
@@ -421,7 +477,9 @@ The segment list of the URL after the "api" segment
 
 ### <a name="property-$urlSegment"></a>$urlSegment
 
-    public array $urlSegment = array()
+```php
+public array $urlSegment = array()
+```
 
 The segment of the URL
 
@@ -433,7 +491,9 @@ The segment of the URL
 
 ### <a name="property-$wsUrl"></a>$wsUrl
 
-    public string $wsUrl
+```php
+public string $wsUrl
+```
 
 Base PrestaShop webservice URL
 
@@ -445,7 +505,9 @@ Base PrestaShop webservice URL
 
 ### <a name="property-$ws_current_classname"></a>$ws_current_classname
 
-    public string $ws_current_classname
+```php
+public string $ws_current_classname
+```
 
 Save the class name for override used in getInstance()
 
@@ -462,7 +524,9 @@ Methods
 
 ### <a name="method-authenticate"></a>authenticate
 
-    boolean WebserviceRequestCore::authenticate()
+```php
+boolean WebserviceRequestCore::authenticate()
+```
 
 Check request authentication
 
@@ -476,7 +540,9 @@ Check request authentication
 
 ### <a name="method-checkHTTPMethod"></a>checkHTTPMethod
 
-    boolean WebserviceRequestCore::checkHTTPMethod()
+```php
+boolean WebserviceRequestCore::checkHTTPMethod()
+```
 
 Check HTTP method
 
@@ -490,7 +556,9 @@ Check HTTP method
 
 ### <a name="method-checkResource"></a>checkResource
 
-    boolean WebserviceRequestCore::checkResource()
+```php
+boolean WebserviceRequestCore::checkResource()
+```
 
 Check resource validity
 
@@ -504,7 +572,9 @@ Check resource validity
 
 ### <a name="method-executeEntityDelete"></a>executeEntityDelete
 
-    boolean WebserviceRequestCore::executeEntityDelete()
+```php
+boolean WebserviceRequestCore::executeEntityDelete()
+```
 
 Execute DELETE method on a PrestaShop entity
 
@@ -518,7 +588,9 @@ Execute DELETE method on a PrestaShop entity
 
 ### <a name="method-executeEntityGetAndHead"></a>executeEntityGetAndHead
 
-    boolean WebserviceRequestCore::executeEntityGetAndHead()
+```php
+boolean WebserviceRequestCore::executeEntityGetAndHead()
+```
 
 Execute GET and HEAD requests
 
@@ -535,7 +607,9 @@ Build limit
 
 ### <a name="method-executeEntityPost"></a>executeEntityPost
 
-    boolean WebserviceRequestCore::executeEntityPost()
+```php
+boolean WebserviceRequestCore::executeEntityPost()
+```
 
 Execute POST method on a PrestaShop entity
 
@@ -549,7 +623,9 @@ Execute POST method on a PrestaShop entity
 
 ### <a name="method-executeEntityPut"></a>executeEntityPut
 
-    boolean WebserviceRequestCore::executeEntityPut()
+```php
+boolean WebserviceRequestCore::executeEntityPut()
+```
 
 Execute PUT method on a PrestaShop entity
 
@@ -563,7 +639,9 @@ Execute PUT method on a PrestaShop entity
 
 ### <a name="method-fetch"></a>fetch
 
-    array WebserviceRequestCore::fetch(string $key, string $method, string $url, string $params, $bad_class_name, string $inputXml)
+```php
+array WebserviceRequestCore::fetch(string $key, string $method, string $url, string $params, $bad_class_name, string $inputXml)
+```
 
 Start Webservice request
 	Check webservice activation
@@ -591,7 +669,9 @@ Start Webservice request
 
 ### <a name="method-filterLanguage"></a>filterLanguage
 
-    mixed WebserviceRequestCore::filterLanguage()
+```php
+mixed WebserviceRequestCore::filterLanguage()
+```
 
 
 
@@ -605,7 +685,9 @@ Start Webservice request
 
 ### <a name="method-getClosest"></a>getClosest
 
-    string WebserviceRequestCore::getClosest(string $input, array $words)
+```php
+string WebserviceRequestCore::getClosest(string $input, array $words)
+```
 
 Return the nearest value picked in the values list
 
@@ -623,7 +705,9 @@ Return the nearest value picked in the values list
 
 ### <a name="method-getFilteredObjectDetails"></a>getFilteredObjectDetails
 
-    mixed WebserviceRequestCore::getFilteredObjectDetails()
+```php
+mixed WebserviceRequestCore::getFilteredObjectDetails()
+```
 
 
 
@@ -637,7 +721,9 @@ Return the nearest value picked in the values list
 
 ### <a name="method-getFilteredObjectList"></a>getFilteredObjectList
 
-    mixed WebserviceRequestCore::getFilteredObjectList()
+```php
+mixed WebserviceRequestCore::getFilteredObjectList()
+```
 
 
 
@@ -651,7 +737,9 @@ Return the nearest value picked in the values list
 
 ### <a name="method-getInstance"></a>getInstance
 
-    object WebserviceRequestCore::getInstance()
+```php
+object WebserviceRequestCore::getInstance()
+```
 
 Get WebserviceRequest object instance (Singleton)
 
@@ -666,7 +754,9 @@ Get WebserviceRequest object instance (Singleton)
 
 ### <a name="method-getOutputEnabled"></a>getOutputEnabled
 
-    mixed WebserviceRequestCore::getOutputEnabled()
+```php
+mixed WebserviceRequestCore::getOutputEnabled()
+```
 
 
 
@@ -680,7 +770,9 @@ Get WebserviceRequest object instance (Singleton)
 
 ### <a name="method-getOutputObject"></a>getOutputObject
 
-    mixed WebserviceRequestCore::getOutputObject($type)
+```php
+mixed WebserviceRequestCore::getOutputObject($type)
+```
 
 
 
@@ -697,7 +789,9 @@ Get WebserviceRequest object instance (Singleton)
 
 ### <a name="method-getPriceForProduct"></a>getPriceForProduct
 
-    array WebserviceRequestCore::getPriceForProduct($field, $entity_object, $ws_params)
+```php
+array WebserviceRequestCore::getPriceForProduct($field, $entity_object, $ws_params)
+```
 
 This method is used for calculate the price for products on the output details
 
@@ -716,7 +810,9 @@ This method is used for calculate the price for products on the output details
 
 ### <a name="method-getResources"></a>getResources
 
-    mixed WebserviceRequestCore::getResources()
+```php
+mixed WebserviceRequestCore::getResources()
+```
 
 
 
@@ -731,7 +827,9 @@ This method is used for calculate the price for products on the output details
 
 ### <a name="method-getSQLRetrieveFilter"></a>getSQLRetrieveFilter
 
-    string WebserviceRequestCore::getSQLRetrieveFilter(string $sqlId, string $filterValue, string $tableAlias)
+```php
+string WebserviceRequestCore::getSQLRetrieveFilter(string $sqlId, string $filterValue, string $tableAlias)
+```
 
 get SQL retrieve Filter
 
@@ -750,7 +848,9 @@ get SQL retrieve Filter
 
 ### <a name="method-getallheaders"></a>getallheaders
 
-    mixed WebserviceRequestCore::getallheaders()
+```php
+mixed WebserviceRequestCore::getallheaders()
+```
 
 
 
@@ -765,7 +865,9 @@ get SQL retrieve Filter
 
 ### <a name="method-groupShopExists"></a>groupShopExists
 
-    mixed WebserviceRequestCore::groupShopExists($params)
+```php
+mixed WebserviceRequestCore::groupShopExists($params)
+```
 
 
 
@@ -782,7 +884,9 @@ get SQL retrieve Filter
 
 ### <a name="method-hasErrors"></a>hasErrors
 
-    boolean WebserviceRequestCore::hasErrors()
+```php
+boolean WebserviceRequestCore::hasErrors()
+```
 
 Check if there is one or more error
 
@@ -796,7 +900,9 @@ Check if there is one or more error
 
 ### <a name="method-isActivated"></a>isActivated
 
-    boolean WebserviceRequestCore::isActivated()
+```php
+boolean WebserviceRequestCore::isActivated()
+```
 
 Check webservice activation
 
@@ -810,7 +916,9 @@ Check webservice activation
 
 ### <a name="method-manageFilters"></a>manageFilters
 
-    mixed WebserviceRequestCore::manageFilters()
+```php
+mixed WebserviceRequestCore::manageFilters()
+```
 
 
 
@@ -824,7 +932,9 @@ Check webservice activation
 
 ### <a name="method-parseDisplayFields"></a>parseDisplayFields
 
-    mixed WebserviceRequestCore::parseDisplayFields($str)
+```php
+mixed WebserviceRequestCore::parseDisplayFields($str)
+```
 
 
 
@@ -841,7 +951,9 @@ Check webservice activation
 
 ### <a name="method-returnOutput"></a>returnOutput
 
-    array WebserviceRequestCore::returnOutput()
+```php
+array WebserviceRequestCore::returnOutput()
+```
 
 Thanks to the (WebserviceOutputBuilder) WebserviceKey::objOutput
 Method build the output depend on the WebserviceRequest::outputFormat
@@ -857,7 +969,9 @@ and set HTTP header parameters.
 
 ### <a name="method-saveEntityFromXml"></a>saveEntityFromXml
 
-    boolean WebserviceRequestCore::saveEntityFromXml(integer $successReturnCode)
+```php
+boolean WebserviceRequestCore::saveEntityFromXml(integer $successReturnCode)
+```
 
 save Entity Object from XML
 
@@ -874,7 +988,9 @@ save Entity Object from XML
 
 ### <a name="method-setError"></a>setError
 
-    void WebserviceRequestCore::setError(integer $status, string $label, integer $code)
+```php
+void WebserviceRequestCore::setError(integer $status, string $label, integer $code)
+```
 
 Set a webservice error
 
@@ -893,7 +1009,9 @@ Set a webservice error
 
 ### <a name="method-setErrorDidYouMean"></a>setErrorDidYouMean
 
-    void WebserviceRequestCore::setErrorDidYouMean(integer $num, string $label, array $value, $available_values, integer $code)
+```php
+void WebserviceRequestCore::setErrorDidYouMean(integer $num, string $label, array $value, $available_values, integer $code)
+```
 
 Set a webservice error and propose a new value near from the available values
 
@@ -914,7 +1032,9 @@ Set a webservice error and propose a new value near from the available values
 
 ### <a name="method-setFieldsToDisplay"></a>setFieldsToDisplay
 
-    mixed WebserviceRequestCore::setFieldsToDisplay()
+```php
+mixed WebserviceRequestCore::setFieldsToDisplay()
+```
 
 
 
@@ -928,7 +1048,9 @@ Set a webservice error and propose a new value near from the available values
 
 ### <a name="method-setObjects"></a>setObjects
 
-    mixed WebserviceRequestCore::setObjects()
+```php
+mixed WebserviceRequestCore::setObjects()
+```
 
 
 
@@ -942,7 +1064,9 @@ Set a webservice error and propose a new value near from the available values
 
 ### <a name="method-setOutputEnabled"></a>setOutputEnabled
 
-    mixed WebserviceRequestCore::setOutputEnabled($bool)
+```php
+mixed WebserviceRequestCore::setOutputEnabled($bool)
+```
 
 
 
@@ -959,7 +1083,9 @@ Set a webservice error and propose a new value near from the available values
 
 ### <a name="method-shopExists"></a>shopExists
 
-    mixed WebserviceRequestCore::shopExists($params)
+```php
+mixed WebserviceRequestCore::shopExists($params)
+```
 
 
 
@@ -976,7 +1102,9 @@ Set a webservice error and propose a new value near from the available values
 
 ### <a name="method-shopHasRight"></a>shopHasRight
 
-    mixed WebserviceRequestCore::shopHasRight($key)
+```php
+mixed WebserviceRequestCore::shopHasRight($key)
+```
 
 
 
@@ -993,7 +1121,9 @@ Set a webservice error and propose a new value near from the available values
 
 ### <a name="method-specificPriceCalculation"></a>specificPriceCalculation
 
-    mixed WebserviceRequestCore::specificPriceCalculation($parameters)
+```php
+mixed WebserviceRequestCore::specificPriceCalculation($parameters)
+```
 
 
 
@@ -1010,7 +1140,9 @@ Set a webservice error and propose a new value near from the available values
 
 ### <a name="method-specificPriceForCombination"></a>specificPriceForCombination
 
-    array WebserviceRequestCore::specificPriceForCombination($entity_object, array $parameters)
+```php
+array WebserviceRequestCore::specificPriceForCombination($entity_object, array $parameters)
+```
 
 This method is used for calculate the price for products on a virtual fields
 
@@ -1028,7 +1160,9 @@ This method is used for calculate the price for products on a virtual fields
 
 ### <a name="method-specificPriceForProduct"></a>specificPriceForProduct
 
-    array WebserviceRequestCore::specificPriceForProduct($entity_object, array $parameters)
+```php
+array WebserviceRequestCore::specificPriceForProduct($entity_object, array $parameters)
+```
 
 This method is used for calculate the price for products on a virtual fields
 
@@ -1046,7 +1180,9 @@ This method is used for calculate the price for products on a virtual fields
 
 ### <a name="method-webserviceChecks"></a>webserviceChecks
 
-    mixed WebserviceRequestCore::webserviceChecks()
+```php
+mixed WebserviceRequestCore::webserviceChecks()
+```
 
 
 
@@ -1060,7 +1196,9 @@ This method is used for calculate the price for products on a virtual fields
 
 ### <a name="method-webserviceErrorHandler"></a>webserviceErrorHandler
 
-    boolean WebserviceRequestCore::webserviceErrorHandler(string $errno, array $errstr, array $errfile, array $errline)
+```php
+boolean WebserviceRequestCore::webserviceErrorHandler(string $errno, array $errstr, array $errfile, array $errline)
+```
 
 Used to replace the default PHP error handler, in order to display PHP errors in a XML format
 

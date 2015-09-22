@@ -11,14 +11,16 @@ Class AdminStatsTabControllerCore
 * Source: [controllers/admin/AdminStatsTabController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessSetDashboardDateRange](#method-ajaxProcessSetDashboardDateRange)
 * [checkModulesNames](#method-checkModulesNames)
@@ -45,7 +47,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Configuration $object
+```php
+public \Configuration $object
+```
 
 
 
@@ -62,7 +66,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminStatsTabControllerCore::__construct()
+```php
+mixed AdminStatsTabControllerCore::__construct()
+```
 
 
 
@@ -76,7 +82,9 @@ Methods
 
 ### <a name="method-ajaxProcessSetDashboardDateRange"></a>ajaxProcessSetDashboardDateRange
 
-    mixed AdminStatsTabControllerCore::ajaxProcessSetDashboardDateRange()
+```php
+mixed AdminStatsTabControllerCore::ajaxProcessSetDashboardDateRange()
+```
 
 
 
@@ -90,7 +98,9 @@ Methods
 
 ### <a name="method-checkModulesNames"></a>checkModulesNames
 
-    mixed AdminStatsTabControllerCore::checkModulesNames($a, $b)
+```php
+mixed AdminStatsTabControllerCore::checkModulesNames($a, $b)
+```
 
 
 
@@ -108,7 +118,9 @@ Methods
 
 ### <a name="method-displayCalendar"></a>displayCalendar
 
-    mixed AdminStatsTabControllerCore::displayCalendar()
+```php
+mixed AdminStatsTabControllerCore::displayCalendar()
+```
 
 
 
@@ -122,7 +134,9 @@ Methods
 
 ### <a name="method-displayCalendarForm"></a>displayCalendarForm
 
-    mixed AdminStatsTabControllerCore::displayCalendarForm($translations, $token, $action, $table, $identifier, $id)
+```php
+mixed AdminStatsTabControllerCore::displayCalendarForm($translations, $token, $action, $table, $identifier, $id)
+```
 
 
 
@@ -145,7 +159,9 @@ Methods
 
 ### <a name="method-displayEngines"></a>displayEngines
 
-    mixed AdminStatsTabControllerCore::displayEngines()
+```php
+mixed AdminStatsTabControllerCore::displayEngines()
+```
 
 
 
@@ -159,7 +175,9 @@ Methods
 
 ### <a name="method-displayMenu"></a>displayMenu
 
-    mixed AdminStatsTabControllerCore::displayMenu()
+```php
+mixed AdminStatsTabControllerCore::displayMenu()
+```
 
 
 
@@ -173,7 +191,9 @@ Methods
 
 ### <a name="method-displayStats"></a>displayStats
 
-    mixed AdminStatsTabControllerCore::displayStats()
+```php
+mixed AdminStatsTabControllerCore::displayStats()
+```
 
 
 
@@ -187,7 +207,9 @@ Methods
 
 ### <a name="method-getDate"></a>getDate
 
-    mixed AdminStatsTabControllerCore::getDate()
+```php
+mixed AdminStatsTabControllerCore::getDate()
+```
 
 
 
@@ -201,7 +223,9 @@ Methods
 
 ### <a name="method-getModules"></a>getModules
 
-    mixed AdminStatsTabControllerCore::getModules()
+```php
+mixed AdminStatsTabControllerCore::getModules()
+```
 
 
 
@@ -215,7 +239,9 @@ Methods
 
 ### <a name="method-init"></a>init
 
-    mixed AdminStatsTabControllerCore::init()
+```php
+mixed AdminStatsTabControllerCore::init()
+```
 
 
 
@@ -229,7 +255,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminStatsTabControllerCore::initContent()
+```php
+mixed AdminStatsTabControllerCore::initContent()
+```
 
 
 
@@ -243,7 +271,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminStatsTabControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminStatsTabControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -257,7 +287,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminStatsTabControllerCore::postProcess()
+```php
+mixed AdminStatsTabControllerCore::postProcess()
+```
 
 
 
@@ -271,7 +303,9 @@ Methods
 
 ### <a name="method-processDateRange"></a>processDateRange
 
-    mixed AdminStatsTabControllerCore::processDateRange()
+```php
+mixed AdminStatsTabControllerCore::processDateRange()
+```
 
 
 
@@ -285,7 +319,9 @@ Methods
 
 ### <a name="method-updateOptionPsMultishopFeatureActive"></a>updateOptionPsMultishopFeatureActive
 
-    mixed AdminStatsTabControllerCore::updateOptionPsMultishopFeatureActive(string $value)
+```php
+mixed AdminStatsTabControllerCore::updateOptionPsMultishopFeatureActive(string $value)
+```
 
 Enable / disable multishop menu if multishop feature is activated
 

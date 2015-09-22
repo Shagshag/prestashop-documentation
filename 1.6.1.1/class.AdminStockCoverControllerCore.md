@@ -10,16 +10,18 @@ Class AdminStockCoverControllerCore
 * Source: [controllers/admin/AdminStockCoverController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L31)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 * [$stock_cover_periods](#property-$stock_cover_periods)
 * [$stock_cover_warehouses](#property-$stock_cover_warehouses)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getCurrentCoveragePeriod](#method-getCurrentCoveragePeriod)
 * [getCurrentCoverageWarehouse](#method-getCurrentCoverageWarehouse)
@@ -41,7 +43,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Product $object
+```php
+public \Product $object
+```
 
 
 
@@ -53,7 +57,9 @@ Properties
 
 ### <a name="property-$stock_cover_periods"></a>$stock_cover_periods
 
-    protected mixed $stock_cover_periods
+```php
+protected mixed $stock_cover_periods
+```
 
 
 
@@ -65,7 +71,9 @@ Properties
 
 ### <a name="property-$stock_cover_warehouses"></a>$stock_cover_warehouses
 
-    protected mixed $stock_cover_warehouses
+```php
+protected mixed $stock_cover_warehouses
+```
 
 
 
@@ -81,7 +89,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminStockCoverControllerCore::__construct()
+```php
+mixed AdminStockCoverControllerCore::__construct()
+```
 
 
 
@@ -95,7 +105,9 @@ Methods
 
 ### <a name="method-getCurrentCoveragePeriod"></a>getCurrentCoveragePeriod
 
-    integer AdminStockCoverControllerCore::getCurrentCoveragePeriod()
+```php
+integer AdminStockCoverControllerCore::getCurrentCoveragePeriod()
+```
 
 Gets the current coverage period used
 
@@ -109,7 +121,9 @@ Gets the current coverage period used
 
 ### <a name="method-getCurrentCoverageWarehouse"></a>getCurrentCoverageWarehouse
 
-    integer AdminStockCoverControllerCore::getCurrentCoverageWarehouse()
+```php
+integer AdminStockCoverControllerCore::getCurrentCoverageWarehouse()
+```
 
 Gets the current warehouse used
 
@@ -123,7 +137,9 @@ Gets the current warehouse used
 
 ### <a name="method-getCurrentWarning"></a>getCurrentWarning
 
-    integer AdminStockCoverControllerCore::getCurrentWarning()
+```php
+integer AdminStockCoverControllerCore::getCurrentWarning()
+```
 
 Gets the current warning
 
@@ -137,7 +153,9 @@ Gets the current warning
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminStockCoverControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```php
+mixed AdminStockCoverControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```
 
 AdminController::getList() override
 
@@ -159,7 +177,9 @@ AdminController::getList() override
 
 ### <a name="method-getQuantitySold"></a>getQuantitySold
 
-    integer AdminStockCoverControllerCore::getQuantitySold(integer $id_product, integer $id_product_attribute, integer $coverage)
+```php
+integer AdminStockCoverControllerCore::getQuantitySold(integer $id_product, integer $id_product_attribute, integer $coverage)
+```
 
 For a given product, and a given period, returns the quantity sold
 
@@ -178,7 +198,9 @@ For a given product, and a given period, returns the quantity sold
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminStockCoverControllerCore::initContent()
+```php
+mixed AdminStockCoverControllerCore::initContent()
+```
 
 
 
@@ -192,7 +214,9 @@ For a given product, and a given period, returns the quantity sold
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminStockCoverControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminStockCoverControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -206,7 +230,9 @@ For a given product, and a given period, returns the quantity sold
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminStockCoverControllerCore::initProcess()
+```php
+mixed AdminStockCoverControllerCore::initProcess()
+```
 
 
 
@@ -220,7 +246,9 @@ For a given product, and a given period, returns the quantity sold
 
 ### <a name="method-renderDetails"></a>renderDetails
 
-    mixed AdminStockCoverControllerCore::renderDetails()
+```php
+mixed AdminStockCoverControllerCore::renderDetails()
+```
 
 
 
@@ -234,7 +262,9 @@ For a given product, and a given period, returns the quantity sold
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminStockCoverControllerCore::renderList()
+```php
+mixed AdminStockCoverControllerCore::renderList()
+```
 
 AdminController::renderList() override
 

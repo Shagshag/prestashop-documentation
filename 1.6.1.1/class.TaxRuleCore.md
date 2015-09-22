@@ -10,9 +10,11 @@ Class TaxRuleCore
 * Source: [classes/tax/TaxRule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$behavior](#property-$behavior)
 * [$definition](#property-$definition)
@@ -25,8 +27,8 @@ Properties
 * [$zipcode_from](#property-$zipcode_from)
 * [$zipcode_to](#property-$zipcode_to)
 
-Methods
--------
+### Methods
+
 * [breakDownZipCode](#method-breakDownZipCode)
 * [deleteByGroupId](#method-deleteByGroupId)
 * [deleteTaxRuleByIdCounty](#method-deleteTaxRuleByIdCounty)
@@ -45,7 +47,9 @@ Properties
 
 ### <a name="property-$behavior"></a>$behavior
 
-    public mixed $behavior
+```php
+public mixed $behavior
+```
 
 
 
@@ -57,7 +61,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'tax_rule', 'primary' => 'id_tax_rule', 'fields' => array('id_tax_rules_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'zipcode_from' => array('type' => self::TYPE_STRING, 'validate' => 'isPostCode'), 'zipcode_to' => array('type' => self::TYPE_STRING, 'validate' => 'isPostCode'), 'id_tax' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'behavior' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'description' => array('type' => self::TYPE_STRING, 'validate' => 'isString')))
+```php
+public mixed $definition = array('table' => 'tax_rule', 'primary' => 'id_tax_rule', 'fields' => array('id_tax_rules_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'zipcode_from' => array('type' => self::TYPE_STRING, 'validate' => 'isPostCode'), 'zipcode_to' => array('type' => self::TYPE_STRING, 'validate' => 'isPostCode'), 'id_tax' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'behavior' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'description' => array('type' => self::TYPE_STRING, 'validate' => 'isString')))
+```
 
 
 
@@ -70,7 +76,9 @@ Properties
 
 ### <a name="property-$description"></a>$description
 
-    public mixed $description
+```php
+public mixed $description
+```
 
 
 
@@ -82,7 +90,9 @@ Properties
 
 ### <a name="property-$id_country"></a>$id_country
 
-    public mixed $id_country
+```php
+public mixed $id_country
+```
 
 
 
@@ -94,7 +104,9 @@ Properties
 
 ### <a name="property-$id_state"></a>$id_state
 
-    public mixed $id_state
+```php
+public mixed $id_state
+```
 
 
 
@@ -106,7 +118,9 @@ Properties
 
 ### <a name="property-$id_tax"></a>$id_tax
 
-    public mixed $id_tax
+```php
+public mixed $id_tax
+```
 
 
 
@@ -118,7 +132,9 @@ Properties
 
 ### <a name="property-$id_tax_rules_group"></a>$id_tax_rules_group
 
-    public mixed $id_tax_rules_group
+```php
+public mixed $id_tax_rules_group
+```
 
 
 
@@ -130,7 +146,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_tax_rules_group' => array('xlink_resource' => 'tax_rule_groups'), 'id_state' => array('xlink_resource' => 'states'), 'id_country' => array('xlink_resource' => 'countries')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_tax_rules_group' => array('xlink_resource' => 'tax_rule_groups'), 'id_state' => array('xlink_resource' => 'states'), 'id_country' => array('xlink_resource' => 'countries')))
+```
 
 
 
@@ -142,7 +160,9 @@ Properties
 
 ### <a name="property-$zipcode_from"></a>$zipcode_from
 
-    public mixed $zipcode_from
+```php
+public mixed $zipcode_from
+```
 
 
 
@@ -154,7 +174,9 @@ Properties
 
 ### <a name="property-$zipcode_to"></a>$zipcode_to
 
-    public mixed $zipcode_to
+```php
+public mixed $zipcode_to
+```
 
 
 
@@ -170,7 +192,9 @@ Methods
 
 ### <a name="method-breakDownZipCode"></a>breakDownZipCode
 
-    array TaxRuleCore::breakDownZipCode($zip_codes)
+```php
+array TaxRuleCore::breakDownZipCode($zip_codes)
+```
 
 
 
@@ -187,7 +211,9 @@ Methods
 
 ### <a name="method-deleteByGroupId"></a>deleteByGroupId
 
-    mixed TaxRuleCore::deleteByGroupId($id_group)
+```php
+mixed TaxRuleCore::deleteByGroupId($id_group)
+```
 
 
 
@@ -205,7 +231,9 @@ Methods
 
 ### <a name="method-deleteTaxRuleByIdCounty"></a>deleteTaxRuleByIdCounty
 
-    mixed TaxRuleCore::deleteTaxRuleByIdCounty($id_county)
+```php
+mixed TaxRuleCore::deleteTaxRuleByIdCounty($id_county)
+```
 
 
 
@@ -223,7 +251,9 @@ Methods
 
 ### <a name="method-deleteTaxRuleByIdTax"></a>deleteTaxRuleByIdTax
 
-    mixed TaxRuleCore::deleteTaxRuleByIdTax($id_tax)
+```php
+mixed TaxRuleCore::deleteTaxRuleByIdTax($id_tax)
+```
 
 
 
@@ -241,7 +271,9 @@ Methods
 
 ### <a name="method-getTaxRulesByGroupId"></a>getTaxRulesByGroupId
 
-    mixed TaxRuleCore::getTaxRulesByGroupId($id_lang, $id_group)
+```php
+mixed TaxRuleCore::getTaxRulesByGroupId($id_lang, $id_group)
+```
 
 
 
@@ -260,7 +292,9 @@ Methods
 
 ### <a name="method-isTaxInUse"></a>isTaxInUse
 
-    boolean TaxRuleCore::isTaxInUse(integer $id_tax)
+```php
+boolean TaxRuleCore::isTaxInUse(integer $id_tax)
+```
 
 
 
@@ -278,7 +312,9 @@ Methods
 
 ### <a name="method-retrieveById"></a>retrieveById
 
-    mixed TaxRuleCore::retrieveById($id_tax_rule)
+```php
+mixed TaxRuleCore::retrieveById($id_tax_rule)
+```
 
 
 
@@ -296,7 +332,9 @@ Methods
 
 ### <a name="method-swapTaxId"></a>swapTaxId
 
-    mixed TaxRuleCore::swapTaxId(integer $old_id, integer $new_id)
+```php
+mixed TaxRuleCore::swapTaxId(integer $old_id, integer $new_id)
+```
 
 Replace a tax_rule id by an other one in the tax_rule table
 

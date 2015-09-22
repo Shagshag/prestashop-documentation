@@ -23,14 +23,16 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Adapter/Adapter_ServiceLocator.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$service_container](#property-$service_container)
 
-Methods
--------
+### Methods
+
 * [get](#method-get)
 * [setServiceContainerInstance](#method-setServiceContainerInstance)
 
@@ -43,7 +45,9 @@ Properties
 
 ### <a name="property-$service_container"></a>$service_container
 
-    private \Core_Foundation_IoC_Container $service_container
+```php
+private \Core_Foundation_IoC_Container $service_container
+```
 
 Set a service container Instance
 
@@ -60,7 +64,9 @@ Methods
 
 ### <a name="method-get"></a>get
 
-    mixed|object Adapter_ServiceLocator::get($serviceName)
+```php
+mixed|object Adapter_ServiceLocator::get($serviceName)
+```
 
 Get a service depending on its given $serviceName
 
@@ -78,7 +84,9 @@ Get a service depending on its given $serviceName
 
 ### <a name="method-setServiceContainerInstance"></a>setServiceContainerInstance
 
-    mixed Adapter_ServiceLocator::setServiceContainerInstance(\Core_Foundation_IoC_Container $container)
+```php
+mixed Adapter_ServiceLocator::setServiceContainerInstance(\Core_Foundation_IoC_Container $container)
+```
 
 
 

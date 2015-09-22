@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Adapter/Adapter_PackItemsManager.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [getPackItems](#method-getPackItems)
 * [getPacksContainingItem](#method-getPacksContainingItem)
 * [isPack](#method-isPack)
@@ -44,7 +46,9 @@ Methods
 
 ### <a name="method-getPackItems"></a>getPackItems
 
-    \Array[Product] Adapter_PackItemsManager::getPackItems(\Pack $pack, integer $id_lang)
+```php
+\Array[Product] Adapter_PackItemsManager::getPackItems(\Pack $pack, integer $id_lang)
+```
 
 Get the Products contained in the given Pack.
 
@@ -62,7 +66,9 @@ Get the Products contained in the given Pack.
 
 ### <a name="method-getPacksContainingItem"></a>getPacksContainingItem
 
-    \Array[Pack] Adapter_PackItemsManager::getPacksContainingItem(\Product $item, integer $item_attribute_id, integer $id_lang)
+```php
+\Array[Pack] Adapter_PackItemsManager::getPacksContainingItem(\Product $item, integer $item_attribute_id, integer $id_lang)
+```
 
 Get all Packs that contains the given item in the corresponding declination.
 
@@ -81,7 +87,9 @@ Get all Packs that contains the given item in the corresponding declination.
 
 ### <a name="method-isPack"></a>isPack
 
-    boolean Adapter_PackItemsManager::isPack(\Product $product)
+```php
+boolean Adapter_PackItemsManager::isPack(\Product $product)
+```
 
 Is this product a pack?
 
@@ -98,7 +106,9 @@ Is this product a pack?
 
 ### <a name="method-isPacked"></a>isPacked
 
-    boolean Adapter_PackItemsManager::isPacked(\Product $product, integer $id_product_attribute)
+```php
+boolean Adapter_PackItemsManager::isPacked(\Product $product, integer $id_product_attribute)
+```
 
 Is this product in a pack?
 If $id_product_attribute specified, then will restrict search on the given combination,

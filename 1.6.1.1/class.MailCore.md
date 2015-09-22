@@ -9,15 +9,17 @@ Class MailCore
 * Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Mail.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L32)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [TYPE_BOTH](#constant-TYPE_BOTH)
 * [TYPE_HTML](#constant-TYPE_HTML)
 * [TYPE_TEXT](#constant-TYPE_TEXT)
 
-Properties
-----------
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$definition](#property-$definition)
@@ -27,8 +29,8 @@ Properties
 * [$subject](#property-$subject)
 * [$template](#property-$template)
 
-Methods
--------
+### Methods
+
 * [Send](#method-Send)
 * [eraseAllLogs](#method-eraseAllLogs)
 * [eraseLog](#method-eraseLog)
@@ -45,7 +47,9 @@ Constants
 
 ### <a name="constant-TYPE_BOTH"></a>TYPE_BOTH
 
-    const TYPE_BOTH = 3
+```php
+const TYPE_BOTH = 3
+```
 
 
 
@@ -56,7 +60,9 @@ Constants
 
 ### <a name="constant-TYPE_HTML"></a>TYPE_HTML
 
-    const TYPE_HTML = 1
+```php
+const TYPE_HTML = 1
+```
 
 
 
@@ -67,7 +73,9 @@ Constants
 
 ### <a name="constant-TYPE_TEXT"></a>TYPE_TEXT
 
-    const TYPE_TEXT = 2
+```php
+const TYPE_TEXT = 2
+```
 
 
 
@@ -82,7 +90,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public integer $date_add
+```php
+public integer $date_add
+```
 
 
 
@@ -94,7 +104,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'mail', 'primary' => 'id_mail', 'fields' => array('recipient' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'copy_post' => false, 'required' => true, 'size' => 126), 'template' => array('type' => self::TYPE_STRING, 'validate' => 'isTplName', 'copy_post' => false, 'required' => true, 'size' => 62), 'subject' => array('type' => self::TYPE_STRING, 'validate' => 'isMailSubject', 'copy_post' => false, 'required' => true, 'size' => 254), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'copy_post' => false, 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false, 'required' => true)))
+```php
+public mixed $definition = array('table' => 'mail', 'primary' => 'id_mail', 'fields' => array('recipient' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'copy_post' => false, 'required' => true, 'size' => 126), 'template' => array('type' => self::TYPE_STRING, 'validate' => 'isTplName', 'copy_post' => false, 'required' => true, 'size' => 62), 'subject' => array('type' => self::TYPE_STRING, 'validate' => 'isMailSubject', 'copy_post' => false, 'required' => true, 'size' => 254), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'copy_post' => false, 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false, 'required' => true)))
+```
 
 
 
@@ -107,7 +119,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -119,7 +133,9 @@ Properties
 
 ### <a name="property-$id_lang"></a>$id_lang
 
-    public integer $id_lang
+```php
+public integer $id_lang
+```
 
 
 
@@ -131,7 +147,9 @@ Properties
 
 ### <a name="property-$recipient"></a>$recipient
 
-    public string $recipient
+```php
+public string $recipient
+```
 
 
 
@@ -143,7 +161,9 @@ Properties
 
 ### <a name="property-$subject"></a>$subject
 
-    public string $subject
+```php
+public string $subject
+```
 
 
 
@@ -155,7 +175,9 @@ Properties
 
 ### <a name="property-$template"></a>$template
 
-    public string $template
+```php
+public string $template
+```
 
 
 
@@ -171,7 +193,9 @@ Methods
 
 ### <a name="method-Send"></a>Send
 
-    mixed MailCore::Send(integer $id_lang, string $template, string $subject, string $template_vars, string $to, string $to_name, string $from, string $from_name, array $file_attachment, $mode_smtp, string $template_path, boolean $die, $id_shop, string $bcc, $reply_to)
+```php
+mixed MailCore::Send(integer $id_lang, string $template, string $subject, string $template_vars, string $to, string $to_name, string $from, string $from_name, array $file_attachment, $mode_smtp, string $template_path, boolean $die, $id_shop, string $bcc, $reply_to)
+```
 
 Send Email
 
@@ -203,7 +227,9 @@ Send Email
 
 ### <a name="method-eraseAllLogs"></a>eraseAllLogs
 
-    mixed MailCore::eraseAllLogs()
+```php
+mixed MailCore::eraseAllLogs()
+```
 
 
 
@@ -218,7 +244,9 @@ Send Email
 
 ### <a name="method-eraseLog"></a>eraseLog
 
-    mixed MailCore::eraseLog($id_mail)
+```php
+mixed MailCore::eraseLog($id_mail)
+```
 
 
 
@@ -236,7 +264,9 @@ Send Email
 
 ### <a name="method-generateId"></a>generateId
 
-    mixed MailCore::generateId($idstring)
+```php
+mixed MailCore::generateId($idstring)
+```
 
 
 
@@ -254,7 +284,9 @@ Send Email
 
 ### <a name="method-isMultibyte"></a>isMultibyte
 
-    mixed MailCore::isMultibyte($data)
+```php
+mixed MailCore::isMultibyte($data)
+```
 
 
 
@@ -272,7 +304,9 @@ Send Email
 
 ### <a name="method-l"></a>l
 
-    mixed MailCore::l(string $string, $id_lang, \Context $context)
+```php
+mixed MailCore::l(string $string, $id_lang, \Context $context)
+```
 
 This method is used to get the translation for email Object.
 
@@ -293,7 +327,9 @@ we have to return a sentence with accents.
 
 ### <a name="method-mimeEncode"></a>mimeEncode
 
-    mixed MailCore::mimeEncode($string, $charset, $newline)
+```php
+mixed MailCore::mimeEncode($string, $charset, $newline)
+```
 
 
 
@@ -313,7 +349,9 @@ we have to return a sentence with accents.
 
 ### <a name="method-sendMailTest"></a>sendMailTest
 
-    mixed MailCore::sendMailTest($smtpChecked, $smtpServer, $content, $subject, $type, $to, $from, $smtpLogin, $smtpPassword, $smtpPort, $smtpEncryption)
+```php
+mixed MailCore::sendMailTest($smtpChecked, $smtpServer, $content, $subject, $type, $to, $from, $smtpLogin, $smtpPassword, $smtpPort, $smtpEncryption)
+```
 
 
 

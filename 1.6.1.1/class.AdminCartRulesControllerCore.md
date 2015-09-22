@@ -10,14 +10,16 @@ Class AdminCartRulesControllerCore
 * Source: [controllers/admin/AdminCartRulesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterAdd](#method-afterAdd)
 * [afterUpdate](#method-afterUpdate)
@@ -44,7 +46,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \CartRule $object
+```php
+public \CartRule $object
+```
 
 
 
@@ -60,7 +64,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminCartRulesControllerCore::__construct()
+```php
+mixed AdminCartRulesControllerCore::__construct()
+```
 
 
 
@@ -74,7 +80,9 @@ Methods
 
 ### <a name="method-afterAdd"></a>afterAdd
 
-    void AdminCartRulesControllerCore::afterAdd(\ObjectModel $currentObject)
+```php
+void AdminCartRulesControllerCore::afterAdd(\ObjectModel $currentObject)
+```
 
 
 
@@ -91,7 +99,9 @@ Methods
 
 ### <a name="method-afterUpdate"></a>afterUpdate
 
-    mixed AdminCartRulesControllerCore::afterUpdate($current_object)
+```php
+mixed AdminCartRulesControllerCore::afterUpdate($current_object)
+```
 
 
 
@@ -108,7 +118,9 @@ Methods
 
 ### <a name="method-ajaxProcess"></a>ajaxProcess
 
-    mixed AdminCartRulesControllerCore::ajaxProcess()
+```php
+mixed AdminCartRulesControllerCore::ajaxProcess()
+```
 
 
 
@@ -122,7 +134,9 @@ Methods
 
 ### <a name="method-ajaxProcessLoadCartRules"></a>ajaxProcessLoadCartRules
 
-    mixed AdminCartRulesControllerCore::ajaxProcessLoadCartRules()
+```php
+mixed AdminCartRulesControllerCore::ajaxProcessLoadCartRules()
+```
 
 
 
@@ -136,7 +150,9 @@ Methods
 
 ### <a name="method-ajaxProcessSearchProducts"></a>ajaxProcessSearchProducts
 
-    mixed AdminCartRulesControllerCore::ajaxProcessSearchProducts()
+```php
+mixed AdminCartRulesControllerCore::ajaxProcessSearchProducts()
+```
 
 
 
@@ -150,7 +166,9 @@ Methods
 
 ### <a name="method-displayAjaxSearchCartRuleVouchers"></a>displayAjaxSearchCartRuleVouchers
 
-    mixed AdminCartRulesControllerCore::displayAjaxSearchCartRuleVouchers()
+```php
+mixed AdminCartRulesControllerCore::displayAjaxSearchCartRuleVouchers()
+```
 
 
 
@@ -164,7 +182,9 @@ Methods
 
 ### <a name="method-getProductRuleDisplay"></a>getProductRuleDisplay
 
-    mixed AdminCartRulesControllerCore::getProductRuleDisplay($product_rule_group_id, $product_rule_id, $product_rule_type, $selected)
+```php
+mixed AdminCartRulesControllerCore::getProductRuleDisplay($product_rule_group_id, $product_rule_id, $product_rule_type, $selected)
+```
 
 
 
@@ -184,7 +204,9 @@ Methods
 
 ### <a name="method-getProductRuleGroupDisplay"></a>getProductRuleGroupDisplay
 
-    mixed AdminCartRulesControllerCore::getProductRuleGroupDisplay($product_rule_group_id, $product_rule_group_quantity, $product_rules)
+```php
+mixed AdminCartRulesControllerCore::getProductRuleGroupDisplay($product_rule_group_id, $product_rule_group_quantity, $product_rules)
+```
 
 
 
@@ -203,7 +225,9 @@ Methods
 
 ### <a name="method-getProductRuleGroupsDisplay"></a>getProductRuleGroupsDisplay
 
-    array AdminCartRulesControllerCore::getProductRuleGroupsDisplay(\CartRule $cart_rule)
+```php
+array AdminCartRulesControllerCore::getProductRuleGroupsDisplay(\CartRule $cart_rule)
+```
 
 Retrieve the cart rule product rule groups in the POST data
 if available, and in the database if there is none
@@ -221,7 +245,9 @@ if available, and in the database if there is none
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminCartRulesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminCartRulesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -235,7 +261,9 @@ if available, and in the database if there is none
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminCartRulesControllerCore::postProcess()
+```php
+mixed AdminCartRulesControllerCore::postProcess()
+```
 
 
 
@@ -249,7 +277,9 @@ if available, and in the database if there is none
 
 ### <a name="method-processAdd"></a>processAdd
 
-    mixed AdminCartRulesControllerCore::processAdd()
+```php
+mixed AdminCartRulesControllerCore::processAdd()
+```
 
 
 
@@ -263,7 +293,9 @@ if available, and in the database if there is none
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminCartRulesControllerCore::renderForm()
+```php
+mixed AdminCartRulesControllerCore::renderForm()
+```
 
 
 
@@ -277,7 +309,9 @@ if available, and in the database if there is none
 
 ### <a name="method-searchProducts"></a>searchProducts
 
-    mixed AdminCartRulesControllerCore::searchProducts($search)
+```php
+mixed AdminCartRulesControllerCore::searchProducts($search)
+```
 
 
 
@@ -294,7 +328,9 @@ if available, and in the database if there is none
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminCartRulesControllerCore::setMedia()
+```php
+mixed AdminCartRulesControllerCore::setMedia()
+```
 
 
 

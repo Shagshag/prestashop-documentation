@@ -9,11 +9,13 @@ Class QqUploadedFileForm
 * Source: [classes/FileUploader.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L95)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [copyImage](#method-copyImage)
 * [getName](#method-getName)
 * [getSize](#method-getSize)
@@ -30,7 +32,9 @@ Methods
 
 ### <a name="method-copyImage"></a>copyImage
 
-    mixed QqUploadedFileForm::copyImage($id_product, $id_image, $method)
+```php
+mixed QqUploadedFileForm::copyImage($id_product, $id_image, $method)
+```
 
 
 
@@ -49,7 +53,9 @@ Methods
 
 ### <a name="method-getName"></a>getName
 
-    mixed QqUploadedFileForm::getName()
+```php
+mixed QqUploadedFileForm::getName()
+```
 
 
 
@@ -63,7 +69,9 @@ Methods
 
 ### <a name="method-getSize"></a>getSize
 
-    mixed QqUploadedFileForm::getSize()
+```php
+mixed QqUploadedFileForm::getSize()
+```
 
 
 
@@ -77,7 +85,9 @@ Methods
 
 ### <a name="method-save"></a>save
 
-    boolean QqUploadedFileForm::save()
+```php
+boolean QqUploadedFileForm::save()
+```
 
 Save the file to the specified path
 

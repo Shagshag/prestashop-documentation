@@ -10,17 +10,19 @@ Class OrderSlipControllerCore
 * Source: [controllers/front/OrderSlipController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderSlipController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$auth](#property-$auth)
 * [$authRedirection](#property-$authRedirection)
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [initContent](#method-initContent)
 * [setMedia](#method-setMedia)
 
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public mixed $auth = true
+```php
+public mixed $auth = true
+```
 
 
 
@@ -45,7 +49,9 @@ Properties
 
 ### <a name="property-$authRedirection"></a>$authRedirection
 
-    public mixed $authRedirection = 'order-slip'
+```php
+public mixed $authRedirection = 'order-slip'
+```
 
 
 
@@ -57,7 +63,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'order-slip'
+```php
+public mixed $php_self = 'order-slip'
+```
 
 
 
@@ -69,7 +77,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -85,7 +95,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed OrderSlipControllerCore::initContent()
+```php
+mixed OrderSlipControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -99,7 +111,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed OrderSlipControllerCore::setMedia()
+```php
+mixed OrderSlipControllerCore::setMedia()
+```
 
 
 

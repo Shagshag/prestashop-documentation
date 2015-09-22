@@ -1,5 +1,6 @@
 File classes/SpecificPriceRule.php
 =========
+
 Source: [classes/SpecificPriceRule.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php)
 
 

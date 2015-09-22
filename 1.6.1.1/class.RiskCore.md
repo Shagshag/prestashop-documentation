@@ -10,9 +10,11 @@ Class RiskCore
 * Source: [classes/Risk.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$color](#property-$color)
 * [$definition](#property-$definition)
@@ -20,8 +22,8 @@ Properties
 * [$name](#property-$name)
 * [$percent](#property-$percent)
 
-Methods
--------
+### Methods
+
 * [getFields](#method-getFields)
 * [getRisks](#method-getRisks)
 * [getTranslationsFieldsChild](#method-getTranslationsFieldsChild)
@@ -35,7 +37,9 @@ Properties
 
 ### <a name="property-$color"></a>$color
 
-    public mixed $color
+```php
+public mixed $color
+```
 
 
 
@@ -47,7 +51,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'risk', 'primary' => 'id_risk', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isString', 'required' => true, 'size' => 20), 'color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor', 'size' => 32), 'percent' => array('type' => self::TYPE_INT, 'validate' => 'isPercentage')))
+```php
+public mixed $definition = array('table' => 'risk', 'primary' => 'id_risk', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isString', 'required' => true, 'size' => 20), 'color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor', 'size' => 32), 'percent' => array('type' => self::TYPE_INT, 'validate' => 'isPercentage')))
+```
 
 
 
@@ -60,7 +66,9 @@ Properties
 
 ### <a name="property-$id_risk"></a>$id_risk
 
-    public mixed $id_risk
+```php
+public mixed $id_risk
+```
 
 
 
@@ -72,7 +80,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -84,7 +94,9 @@ Properties
 
 ### <a name="property-$percent"></a>$percent
 
-    public mixed $percent
+```php
+public mixed $percent
+```
 
 
 
@@ -100,7 +112,9 @@ Methods
 
 ### <a name="method-getFields"></a>getFields
 
-    mixed RiskCore::getFields()
+```php
+mixed RiskCore::getFields()
+```
 
 
 
@@ -114,7 +128,9 @@ Methods
 
 ### <a name="method-getRisks"></a>getRisks
 
-    mixed RiskCore::getRisks($id_lang)
+```php
+mixed RiskCore::getRisks($id_lang)
+```
 
 
 
@@ -132,7 +148,9 @@ Methods
 
 ### <a name="method-getTranslationsFieldsChild"></a>getTranslationsFieldsChild
 
-    array RiskCore::getTranslationsFieldsChild()
+```php
+array RiskCore::getTranslationsFieldsChild()
+```
 
 Check then return multilingual fields for database interaction
 

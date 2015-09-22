@@ -5,12 +5,16 @@ Function smartyPackJSinHTML
 
 
 
-    mixed smartyPackJSinHTML($tpl_output, $smarty)
+```php
+mixed smartyPackJSinHTML($tpl_output, $smarty)
+```
 
 * Function name: smartyPackJSinHTML
-* Source: [config/smarty.config.inc.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L159)
+* Source: [config/smarty.config.inc.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L159).
 
-#### Arguments
+Arguments
+---------
+
 * $tpl_output **mixed**
 * $smarty **mixed**
 

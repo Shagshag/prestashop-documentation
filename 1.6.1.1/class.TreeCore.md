@@ -8,8 +8,11 @@ Class TreeCore
 * Class name: TreeCore
 * Source: [classes/tree/Tree.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEFAULT_HEADER_TEMPLATE](#constant-DEFAULT_HEADER_TEMPLATE)
 * [DEFAULT_NODE_FOLDER_TEMPLATE](#constant-DEFAULT_NODE_FOLDER_TEMPLATE)
@@ -17,8 +20,7 @@ Constants
 * [DEFAULT_TEMPLATE](#constant-DEFAULT_TEMPLATE)
 * [DEFAULT_TEMPLATE_DIRECTORY](#constant-DEFAULT_TEMPLATE_DIRECTORY)
 
-Properties
-----------
+### Properties
 
 * [$_attributes](#property-$_attributes)
 * [$_context](#property-$_context)
@@ -35,8 +37,8 @@ Properties
 * [$_title](#property-$_title)
 * [$_toolbar](#property-$_toolbar)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [__toString](#method-__toString)
 * [_normalizeDirectory](#method-_normalizeDirectory)
@@ -87,7 +89,9 @@ Constants
 
 ### <a name="constant-DEFAULT_HEADER_TEMPLATE"></a>DEFAULT_HEADER_TEMPLATE
 
-    const DEFAULT_HEADER_TEMPLATE = 'tree_header.tpl'
+```php
+const DEFAULT_HEADER_TEMPLATE = 'tree_header.tpl'
+```
 
 
 
@@ -98,7 +102,9 @@ Constants
 
 ### <a name="constant-DEFAULT_NODE_FOLDER_TEMPLATE"></a>DEFAULT_NODE_FOLDER_TEMPLATE
 
-    const DEFAULT_NODE_FOLDER_TEMPLATE = 'tree_node_folder.tpl'
+```php
+const DEFAULT_NODE_FOLDER_TEMPLATE = 'tree_node_folder.tpl'
+```
 
 
 
@@ -109,7 +115,9 @@ Constants
 
 ### <a name="constant-DEFAULT_NODE_ITEM_TEMPLATE"></a>DEFAULT_NODE_ITEM_TEMPLATE
 
-    const DEFAULT_NODE_ITEM_TEMPLATE = 'tree_node_item.tpl'
+```php
+const DEFAULT_NODE_ITEM_TEMPLATE = 'tree_node_item.tpl'
+```
 
 
 
@@ -120,7 +128,9 @@ Constants
 
 ### <a name="constant-DEFAULT_TEMPLATE"></a>DEFAULT_TEMPLATE
 
-    const DEFAULT_TEMPLATE = 'tree.tpl'
+```php
+const DEFAULT_TEMPLATE = 'tree.tpl'
+```
 
 
 
@@ -131,7 +141,9 @@ Constants
 
 ### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
 
-    const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
+```php
+const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
+```
 
 
 
@@ -146,7 +158,9 @@ Properties
 
 ### <a name="property-$_attributes"></a>$_attributes
 
-    protected mixed $_attributes
+```php
+protected mixed $_attributes
+```
 
 
 
@@ -158,7 +172,9 @@ Properties
 
 ### <a name="property-$_context"></a>$_context
 
-    private mixed $_context
+```php
+private mixed $_context
+```
 
 
 
@@ -170,7 +186,9 @@ Properties
 
 ### <a name="property-$_data"></a>$_data
 
-    protected mixed $_data
+```php
+protected mixed $_data
+```
 
 
 
@@ -182,7 +200,9 @@ Properties
 
 ### <a name="property-$_data_search"></a>$_data_search
 
-    protected mixed $_data_search
+```php
+protected mixed $_data_search
+```
 
 
 
@@ -194,7 +214,9 @@ Properties
 
 ### <a name="property-$_headerTemplate"></a>$_headerTemplate
 
-    protected mixed $_headerTemplate
+```php
+protected mixed $_headerTemplate
+```
 
 
 
@@ -206,7 +228,9 @@ Properties
 
 ### <a name="property-$_id"></a>$_id
 
-    private mixed $_id
+```php
+private mixed $_id
+```
 
 
 
@@ -218,7 +242,9 @@ Properties
 
 ### <a name="property-$_id_tree"></a>$_id_tree
 
-    protected mixed $_id_tree
+```php
+protected mixed $_id_tree
+```
 
 
 
@@ -230,7 +256,9 @@ Properties
 
 ### <a name="property-$_no_js"></a>$_no_js
 
-    private mixed $_no_js
+```php
+private mixed $_no_js
+```
 
 
 
@@ -242,7 +270,9 @@ Properties
 
 ### <a name="property-$_node_folder_template"></a>$_node_folder_template
 
-    protected mixed $_node_folder_template
+```php
+protected mixed $_node_folder_template
+```
 
 
 
@@ -254,7 +284,9 @@ Properties
 
 ### <a name="property-$_node_item_template"></a>$_node_item_template
 
-    protected mixed $_node_item_template
+```php
+protected mixed $_node_item_template
+```
 
 
 
@@ -266,7 +298,9 @@ Properties
 
 ### <a name="property-$_template"></a>$_template
 
-    protected mixed $_template
+```php
+protected mixed $_template
+```
 
 
 
@@ -278,7 +312,9 @@ Properties
 
 ### <a name="property-$_template_directory"></a>$_template_directory
 
-    private string $_template_directory
+```php
+private string $_template_directory
+```
 
 
 
@@ -290,7 +326,9 @@ Properties
 
 ### <a name="property-$_title"></a>$_title
 
-    private mixed $_title
+```php
+private mixed $_title
+```
 
 
 
@@ -302,7 +340,9 @@ Properties
 
 ### <a name="property-$_toolbar"></a>$_toolbar
 
-    private \TreeToolbar $_toolbar
+```php
+private \TreeToolbar $_toolbar
+```
 
 
 
@@ -318,7 +358,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed TreeCore::__construct($id, $data)
+```php
+mixed TreeCore::__construct($id, $data)
+```
 
 
 
@@ -336,7 +378,9 @@ Methods
 
 ### <a name="method-__toString"></a>__toString
 
-    mixed TreeCore::__toString()
+```php
+mixed TreeCore::__toString()
+```
 
 
 
@@ -350,7 +394,9 @@ Methods
 
 ### <a name="method-_normalizeDirectory"></a>_normalizeDirectory
 
-    mixed TreeCore::_normalizeDirectory($directory)
+```php
+mixed TreeCore::_normalizeDirectory($directory)
+```
 
 
 
@@ -367,7 +413,9 @@ Methods
 
 ### <a name="method-addAction"></a>addAction
 
-    mixed TreeCore::addAction($action)
+```php
+mixed TreeCore::addAction($action)
+```
 
 
 
@@ -384,7 +432,9 @@ Methods
 
 ### <a name="method-getActions"></a>getActions
 
-    mixed TreeCore::getActions()
+```php
+mixed TreeCore::getActions()
+```
 
 
 
@@ -398,7 +448,9 @@ Methods
 
 ### <a name="method-getAttribute"></a>getAttribute
 
-    mixed TreeCore::getAttribute($name)
+```php
+mixed TreeCore::getAttribute($name)
+```
 
 
 
@@ -415,7 +467,9 @@ Methods
 
 ### <a name="method-getAttributes"></a>getAttributes
 
-    mixed TreeCore::getAttributes()
+```php
+mixed TreeCore::getAttributes()
+```
 
 
 
@@ -429,7 +483,9 @@ Methods
 
 ### <a name="method-getContext"></a>getContext
 
-    mixed TreeCore::getContext()
+```php
+mixed TreeCore::getContext()
+```
 
 
 
@@ -443,7 +499,9 @@ Methods
 
 ### <a name="method-getData"></a>getData
 
-    mixed TreeCore::getData()
+```php
+mixed TreeCore::getData()
+```
 
 
 
@@ -457,7 +515,9 @@ Methods
 
 ### <a name="method-getDataSearch"></a>getDataSearch
 
-    mixed TreeCore::getDataSearch()
+```php
+mixed TreeCore::getDataSearch()
+```
 
 
 
@@ -471,7 +531,9 @@ Methods
 
 ### <a name="method-getHeaderTemplate"></a>getHeaderTemplate
 
-    mixed TreeCore::getHeaderTemplate()
+```php
+mixed TreeCore::getHeaderTemplate()
+```
 
 
 
@@ -485,7 +547,9 @@ Methods
 
 ### <a name="method-getId"></a>getId
 
-    mixed TreeCore::getId()
+```php
+mixed TreeCore::getId()
+```
 
 
 
@@ -499,7 +563,9 @@ Methods
 
 ### <a name="method-getIdTree"></a>getIdTree
 
-    mixed TreeCore::getIdTree()
+```php
+mixed TreeCore::getIdTree()
+```
 
 
 
@@ -513,7 +579,9 @@ Methods
 
 ### <a name="method-getNodeFolderTemplate"></a>getNodeFolderTemplate
 
-    mixed TreeCore::getNodeFolderTemplate()
+```php
+mixed TreeCore::getNodeFolderTemplate()
+```
 
 
 
@@ -527,7 +595,9 @@ Methods
 
 ### <a name="method-getNodeItemTemplate"></a>getNodeItemTemplate
 
-    mixed TreeCore::getNodeItemTemplate()
+```php
+mixed TreeCore::getNodeItemTemplate()
+```
 
 
 
@@ -541,7 +611,9 @@ Methods
 
 ### <a name="method-getTemplate"></a>getTemplate
 
-    mixed TreeCore::getTemplate()
+```php
+mixed TreeCore::getTemplate()
+```
 
 
 
@@ -555,7 +627,9 @@ Methods
 
 ### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
-    string TreeCore::getTemplateDirectory()
+```php
+string TreeCore::getTemplateDirectory()
+```
 
 
 
@@ -569,7 +643,9 @@ Methods
 
 ### <a name="method-getTemplateFile"></a>getTemplateFile
 
-    mixed TreeCore::getTemplateFile($template)
+```php
+mixed TreeCore::getTemplateFile($template)
+```
 
 
 
@@ -586,7 +662,9 @@ Methods
 
 ### <a name="method-getTitle"></a>getTitle
 
-    mixed TreeCore::getTitle()
+```php
+mixed TreeCore::getTitle()
+```
 
 
 
@@ -600,7 +678,9 @@ Methods
 
 ### <a name="method-getToolbar"></a>getToolbar
 
-    mixed TreeCore::getToolbar()
+```php
+mixed TreeCore::getToolbar()
+```
 
 
 
@@ -614,7 +694,9 @@ Methods
 
 ### <a name="method-removeActions"></a>removeActions
 
-    mixed TreeCore::removeActions()
+```php
+mixed TreeCore::removeActions()
+```
 
 
 
@@ -628,7 +710,9 @@ Methods
 
 ### <a name="method-render"></a>render
 
-    mixed TreeCore::render($data)
+```php
+mixed TreeCore::render($data)
+```
 
 
 
@@ -645,7 +729,9 @@ Methods
 
 ### <a name="method-renderNodes"></a>renderNodes
 
-    mixed TreeCore::renderNodes($data)
+```php
+mixed TreeCore::renderNodes($data)
+```
 
 
 
@@ -662,7 +748,9 @@ Methods
 
 ### <a name="method-renderToolbar"></a>renderToolbar
 
-    mixed TreeCore::renderToolbar()
+```php
+mixed TreeCore::renderToolbar()
+```
 
 
 
@@ -676,7 +764,9 @@ Methods
 
 ### <a name="method-setActions"></a>setActions
 
-    mixed TreeCore::setActions($value)
+```php
+mixed TreeCore::setActions($value)
+```
 
 
 
@@ -693,7 +783,9 @@ Methods
 
 ### <a name="method-setAttribute"></a>setAttribute
 
-    mixed TreeCore::setAttribute($name, $value)
+```php
+mixed TreeCore::setAttribute($name, $value)
+```
 
 
 
@@ -711,7 +803,9 @@ Methods
 
 ### <a name="method-setAttributes"></a>setAttributes
 
-    mixed TreeCore::setAttributes($value)
+```php
+mixed TreeCore::setAttributes($value)
+```
 
 
 
@@ -728,7 +822,9 @@ Methods
 
 ### <a name="method-setContext"></a>setContext
 
-    mixed TreeCore::setContext($value)
+```php
+mixed TreeCore::setContext($value)
+```
 
 
 
@@ -745,7 +841,9 @@ Methods
 
 ### <a name="method-setData"></a>setData
 
-    mixed TreeCore::setData($value)
+```php
+mixed TreeCore::setData($value)
+```
 
 
 
@@ -762,7 +860,9 @@ Methods
 
 ### <a name="method-setDataSearch"></a>setDataSearch
 
-    mixed TreeCore::setDataSearch($value)
+```php
+mixed TreeCore::setDataSearch($value)
+```
 
 
 
@@ -779,7 +879,9 @@ Methods
 
 ### <a name="method-setHeaderTemplate"></a>setHeaderTemplate
 
-    mixed TreeCore::setHeaderTemplate($value)
+```php
+mixed TreeCore::setHeaderTemplate($value)
+```
 
 
 
@@ -796,7 +898,9 @@ Methods
 
 ### <a name="method-setId"></a>setId
 
-    mixed TreeCore::setId($value)
+```php
+mixed TreeCore::setId($value)
+```
 
 
 
@@ -813,7 +917,9 @@ Methods
 
 ### <a name="method-setIdTree"></a>setIdTree
 
-    mixed TreeCore::setIdTree($id_tree)
+```php
+mixed TreeCore::setIdTree($id_tree)
+```
 
 
 
@@ -830,7 +936,9 @@ Methods
 
 ### <a name="method-setNoJS"></a>setNoJS
 
-    mixed TreeCore::setNoJS($value)
+```php
+mixed TreeCore::setNoJS($value)
+```
 
 
 
@@ -847,7 +955,9 @@ Methods
 
 ### <a name="method-setNodeFolderTemplate"></a>setNodeFolderTemplate
 
-    mixed TreeCore::setNodeFolderTemplate($value)
+```php
+mixed TreeCore::setNodeFolderTemplate($value)
+```
 
 
 
@@ -864,7 +974,9 @@ Methods
 
 ### <a name="method-setNodeItemTemplate"></a>setNodeItemTemplate
 
-    mixed TreeCore::setNodeItemTemplate($value)
+```php
+mixed TreeCore::setNodeItemTemplate($value)
+```
 
 
 
@@ -881,7 +993,9 @@ Methods
 
 ### <a name="method-setTemplate"></a>setTemplate
 
-    mixed TreeCore::setTemplate($value)
+```php
+mixed TreeCore::setTemplate($value)
+```
 
 
 
@@ -898,7 +1012,9 @@ Methods
 
 ### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
-    \Tree TreeCore::setTemplateDirectory($value)
+```php
+\Tree TreeCore::setTemplateDirectory($value)
+```
 
 
 
@@ -915,7 +1031,9 @@ Methods
 
 ### <a name="method-setTitle"></a>setTitle
 
-    mixed TreeCore::setTitle($value)
+```php
+mixed TreeCore::setTitle($value)
+```
 
 
 
@@ -932,7 +1050,9 @@ Methods
 
 ### <a name="method-setToolbar"></a>setToolbar
 
-    mixed TreeCore::setToolbar($value)
+```php
+mixed TreeCore::setToolbar($value)
+```
 
 
 
@@ -949,7 +1069,9 @@ Methods
 
 ### <a name="method-useInput"></a>useInput
 
-    mixed TreeCore::useInput()
+```php
+mixed TreeCore::useInput()
+```
 
 
 
@@ -963,7 +1085,9 @@ Methods
 
 ### <a name="method-useToolbar"></a>useToolbar
 
-    mixed TreeCore::useToolbar()
+```php
+mixed TreeCore::useToolbar()
+```
 
 
 

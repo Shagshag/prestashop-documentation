@@ -10,16 +10,18 @@ Class AdminOrdersControllerCore
 * Source: [controllers/admin/AdminOrdersController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L41)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 * [$statuses_array](#property-$statuses_array)
 * [$toolbar_title](#property-$toolbar_title)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessAddProductOnOrder](#method-ajaxProcessAddProductOnOrder)
 * [ajaxProcessChangePaymentMethod](#method-ajaxProcessChangePaymentMethod)
@@ -56,7 +58,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Order $object
+```php
+public \Order $object
+```
 
 
 
@@ -68,7 +72,9 @@ Properties
 
 ### <a name="property-$statuses_array"></a>$statuses_array
 
-    protected mixed $statuses_array = array()
+```php
+protected mixed $statuses_array = array()
+```
 
 
 
@@ -80,7 +86,9 @@ Properties
 
 ### <a name="property-$toolbar_title"></a>$toolbar_title
 
-    public mixed $toolbar_title
+```php
+public mixed $toolbar_title
+```
 
 
 
@@ -96,7 +104,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminOrdersControllerCore::__construct()
+```php
+mixed AdminOrdersControllerCore::__construct()
+```
 
 
 
@@ -110,7 +120,9 @@ Methods
 
 ### <a name="method-ajaxProcessAddProductOnOrder"></a>ajaxProcessAddProductOnOrder
 
-    mixed AdminOrdersControllerCore::ajaxProcessAddProductOnOrder()
+```php
+mixed AdminOrdersControllerCore::ajaxProcessAddProductOnOrder()
+```
 
 
 
@@ -124,7 +136,9 @@ Methods
 
 ### <a name="method-ajaxProcessChangePaymentMethod"></a>ajaxProcessChangePaymentMethod
 
-    mixed AdminOrdersControllerCore::ajaxProcessChangePaymentMethod()
+```php
+mixed AdminOrdersControllerCore::ajaxProcessChangePaymentMethod()
+```
 
 
 
@@ -138,7 +152,9 @@ Methods
 
 ### <a name="method-ajaxProcessDeleteProductLine"></a>ajaxProcessDeleteProductLine
 
-    mixed AdminOrdersControllerCore::ajaxProcessDeleteProductLine()
+```php
+mixed AdminOrdersControllerCore::ajaxProcessDeleteProductLine()
+```
 
 
 
@@ -152,7 +168,9 @@ Methods
 
 ### <a name="method-ajaxProcessEditProductOnOrder"></a>ajaxProcessEditProductOnOrder
 
-    mixed AdminOrdersControllerCore::ajaxProcessEditProductOnOrder()
+```php
+mixed AdminOrdersControllerCore::ajaxProcessEditProductOnOrder()
+```
 
 
 
@@ -166,7 +184,9 @@ Methods
 
 ### <a name="method-ajaxProcessLoadProductInformation"></a>ajaxProcessLoadProductInformation
 
-    mixed AdminOrdersControllerCore::ajaxProcessLoadProductInformation()
+```php
+mixed AdminOrdersControllerCore::ajaxProcessLoadProductInformation()
+```
 
 
 
@@ -180,7 +200,9 @@ Methods
 
 ### <a name="method-ajaxProcessSearchProducts"></a>ajaxProcessSearchProducts
 
-    mixed AdminOrdersControllerCore::ajaxProcessSearchProducts()
+```php
+mixed AdminOrdersControllerCore::ajaxProcessSearchProducts()
+```
 
 
 
@@ -194,7 +216,9 @@ Methods
 
 ### <a name="method-ajaxProcessSendMailValidateOrder"></a>ajaxProcessSendMailValidateOrder
 
-    mixed AdminOrdersControllerCore::ajaxProcessSendMailValidateOrder()
+```php
+mixed AdminOrdersControllerCore::ajaxProcessSendMailValidateOrder()
+```
 
 
 
@@ -208,7 +232,9 @@ Methods
 
 ### <a name="method-applyDiscountOnInvoice"></a>applyDiscountOnInvoice
 
-    mixed AdminOrdersControllerCore::applyDiscountOnInvoice(\OrderInvoice $order_invoice, float $value_tax_incl, float $value_tax_excl)
+```php
+mixed AdminOrdersControllerCore::applyDiscountOnInvoice(\OrderInvoice $order_invoice, float $value_tax_incl, float $value_tax_excl)
+```
 
 
 
@@ -227,7 +253,9 @@ Methods
 
 ### <a name="method-doDeleteProductLineValidation"></a>doDeleteProductLineValidation
 
-    mixed AdminOrdersControllerCore::doDeleteProductLineValidation(\OrderDetail $order_detail, \Order $order)
+```php
+mixed AdminOrdersControllerCore::doDeleteProductLineValidation(\OrderDetail $order_detail, \Order $order)
+```
 
 
 
@@ -245,7 +273,9 @@ Methods
 
 ### <a name="method-doEditProductValidation"></a>doEditProductValidation
 
-    mixed AdminOrdersControllerCore::doEditProductValidation(\OrderDetail $order_detail, \Order $order, \OrderInvoice $order_invoice)
+```php
+mixed AdminOrdersControllerCore::doEditProductValidation(\OrderDetail $order_detail, \Order $order, \OrderInvoice $order_invoice)
+```
 
 
 
@@ -264,7 +294,9 @@ Methods
 
 ### <a name="method-getProducts"></a>getProducts
 
-    array AdminOrdersControllerCore::getProducts(\Order $order)
+```php
+array AdminOrdersControllerCore::getProducts(\Order $order)
+```
 
 
 
@@ -281,7 +313,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminOrdersControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminOrdersControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -295,7 +329,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminOrdersControllerCore::initToolbar()
+```php
+mixed AdminOrdersControllerCore::initToolbar()
+```
 
 
 
@@ -309,7 +345,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminOrdersControllerCore::postProcess()
+```php
+mixed AdminOrdersControllerCore::postProcess()
+```
 
 
 
@@ -323,7 +361,9 @@ Methods
 
 ### <a name="method-printNewCustomer"></a>printNewCustomer
 
-    mixed AdminOrdersControllerCore::printNewCustomer($id_order, $tr)
+```php
+mixed AdminOrdersControllerCore::printNewCustomer($id_order, $tr)
+```
 
 
 
@@ -341,7 +381,9 @@ Methods
 
 ### <a name="method-printPDFIcons"></a>printPDFIcons
 
-    mixed AdminOrdersControllerCore::printPDFIcons($id_order, $tr)
+```php
+mixed AdminOrdersControllerCore::printPDFIcons($id_order, $tr)
+```
 
 
 
@@ -359,7 +401,9 @@ Methods
 
 ### <a name="method-processBulkUpdateOrderStatus"></a>processBulkUpdateOrderStatus
 
-    mixed AdminOrdersControllerCore::processBulkUpdateOrderStatus()
+```php
+mixed AdminOrdersControllerCore::processBulkUpdateOrderStatus()
+```
 
 
 
@@ -373,7 +417,9 @@ Methods
 
 ### <a name="method-reinjectQuantity"></a>reinjectQuantity
 
-    mixed AdminOrdersControllerCore::reinjectQuantity(\OrderDetail $order_detail, integer $qty_cancel_product, boolean $delete)
+```php
+mixed AdminOrdersControllerCore::reinjectQuantity(\OrderDetail $order_detail, integer $qty_cancel_product, boolean $delete)
+```
 
 
 
@@ -392,7 +438,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminOrdersControllerCore::renderForm()
+```php
+mixed AdminOrdersControllerCore::renderForm()
+```
 
 
 
@@ -406,7 +454,9 @@ Methods
 
 ### <a name="method-renderKpis"></a>renderKpis
 
-    mixed AdminOrdersControllerCore::renderKpis()
+```php
+mixed AdminOrdersControllerCore::renderKpis()
+```
 
 
 
@@ -420,7 +470,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminOrdersControllerCore::renderList()
+```php
+mixed AdminOrdersControllerCore::renderList()
+```
 
 
 
@@ -434,7 +486,9 @@ Methods
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminOrdersControllerCore::renderView()
+```php
+mixed AdminOrdersControllerCore::renderView()
+```
 
 
 
@@ -448,7 +502,9 @@ Methods
 
 ### <a name="method-sendChangedNotification"></a>sendChangedNotification
 
-    mixed AdminOrdersControllerCore::sendChangedNotification(\Order $order)
+```php
+mixed AdminOrdersControllerCore::sendChangedNotification(\Order $order)
+```
 
 
 
@@ -465,7 +521,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminOrdersControllerCore::setMedia()
+```php
+mixed AdminOrdersControllerCore::setMedia()
+```
 
 
 
@@ -479,7 +537,9 @@ Methods
 
 ### <a name="method-setOrderCurrency"></a>setOrderCurrency
 
-    mixed AdminOrdersControllerCore::setOrderCurrency($echo, $tr)
+```php
+mixed AdminOrdersControllerCore::setOrderCurrency($echo, $tr)
+```
 
 
 

@@ -10,14 +10,16 @@ Class SitemapControllerCore
 * Source: [controllers/front/SitemapController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SitemapController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$php_self](#property-$php_self)
 
-Methods
--------
+### Methods
+
 * [initContent](#method-initContent)
 * [setMedia](#method-setMedia)
 
@@ -30,7 +32,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'sitemap'
+```php
+public mixed $php_self = 'sitemap'
+```
 
 
 
@@ -46,7 +50,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed SitemapControllerCore::initContent()
+```php
+mixed SitemapControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -60,7 +66,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed SitemapControllerCore::setMedia()
+```php
+mixed SitemapControllerCore::setMedia()
+```
 
 
 

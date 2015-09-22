@@ -9,8 +9,11 @@ Class CarrierCore
 * Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Carrier.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [ALL_CARRIERS](#constant-ALL_CARRIERS)
 * [CARRIERS_MODULE](#constant-CARRIERS_MODULE)
@@ -29,8 +32,7 @@ Constants
 * [SORT_BY_POSITION](#constant-SORT_BY_POSITION)
 * [SORT_BY_PRICE](#constant-SORT_BY_PRICE)
 
-Properties
-----------
+### Properties
 
 * [$active](#property-$active)
 * [$cache_tax_rule](#property-$cache_tax_rule)
@@ -60,8 +62,8 @@ Properties
 * [$url](#property-$url)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [addDeliveryPrice](#method-addDeliveryPrice)
@@ -115,7 +117,9 @@ Constants
 
 ### <a name="constant-ALL_CARRIERS"></a>ALL_CARRIERS
 
-    const ALL_CARRIERS = 5
+```php
+const ALL_CARRIERS = 5
+```
 
 
 
@@ -126,7 +130,9 @@ Constants
 
 ### <a name="constant-CARRIERS_MODULE"></a>CARRIERS_MODULE
 
-    const CARRIERS_MODULE = 2
+```php
+const CARRIERS_MODULE = 2
+```
 
 
 
@@ -137,7 +143,9 @@ Constants
 
 ### <a name="constant-CARRIERS_MODULE_NEED_RANGE"></a>CARRIERS_MODULE_NEED_RANGE
 
-    const CARRIERS_MODULE_NEED_RANGE = 3
+```php
+const CARRIERS_MODULE_NEED_RANGE = 3
+```
 
 
 
@@ -148,7 +156,9 @@ Constants
 
 ### <a name="constant-PS_CARRIERS_AND_CARRIER_MODULES_NEED_RANGE"></a>PS_CARRIERS_AND_CARRIER_MODULES_NEED_RANGE
 
-    const PS_CARRIERS_AND_CARRIER_MODULES_NEED_RANGE = 4
+```php
+const PS_CARRIERS_AND_CARRIER_MODULES_NEED_RANGE = 4
+```
 
 
 
@@ -159,7 +169,9 @@ Constants
 
 ### <a name="constant-PS_CARRIERS_ONLY"></a>PS_CARRIERS_ONLY
 
-    const PS_CARRIERS_ONLY = 1
+```php
+const PS_CARRIERS_ONLY = 1
+```
 
 getCarriers method filter
 
@@ -170,7 +182,9 @@ getCarriers method filter
 
 ### <a name="constant-SHIPPING_METHOD_DEFAULT"></a>SHIPPING_METHOD_DEFAULT
 
-    const SHIPPING_METHOD_DEFAULT = 0
+```php
+const SHIPPING_METHOD_DEFAULT = 0
+```
 
 
 
@@ -181,7 +195,9 @@ getCarriers method filter
 
 ### <a name="constant-SHIPPING_METHOD_FREE"></a>SHIPPING_METHOD_FREE
 
-    const SHIPPING_METHOD_FREE = 3
+```php
+const SHIPPING_METHOD_FREE = 3
+```
 
 
 
@@ -192,7 +208,9 @@ getCarriers method filter
 
 ### <a name="constant-SHIPPING_METHOD_PRICE"></a>SHIPPING_METHOD_PRICE
 
-    const SHIPPING_METHOD_PRICE = 2
+```php
+const SHIPPING_METHOD_PRICE = 2
+```
 
 
 
@@ -203,7 +221,9 @@ getCarriers method filter
 
 ### <a name="constant-SHIPPING_METHOD_WEIGHT"></a>SHIPPING_METHOD_WEIGHT
 
-    const SHIPPING_METHOD_WEIGHT = 1
+```php
+const SHIPPING_METHOD_WEIGHT = 1
+```
 
 
 
@@ -214,7 +234,9 @@ getCarriers method filter
 
 ### <a name="constant-SHIPPING_PRICE_EXCEPTION"></a>SHIPPING_PRICE_EXCEPTION
 
-    const SHIPPING_PRICE_EXCEPTION = 0
+```php
+const SHIPPING_PRICE_EXCEPTION = 0
+```
 
 
 
@@ -225,7 +247,9 @@ getCarriers method filter
 
 ### <a name="constant-SHIPPING_SIZE_EXCEPTION"></a>SHIPPING_SIZE_EXCEPTION
 
-    const SHIPPING_SIZE_EXCEPTION = 2
+```php
+const SHIPPING_SIZE_EXCEPTION = 2
+```
 
 
 
@@ -236,7 +260,9 @@ getCarriers method filter
 
 ### <a name="constant-SHIPPING_WEIGHT_EXCEPTION"></a>SHIPPING_WEIGHT_EXCEPTION
 
-    const SHIPPING_WEIGHT_EXCEPTION = 1
+```php
+const SHIPPING_WEIGHT_EXCEPTION = 1
+```
 
 
 
@@ -247,7 +273,9 @@ getCarriers method filter
 
 ### <a name="constant-SORT_BY_ASC"></a>SORT_BY_ASC
 
-    const SORT_BY_ASC = 0
+```php
+const SORT_BY_ASC = 0
+```
 
 
 
@@ -258,7 +286,9 @@ getCarriers method filter
 
 ### <a name="constant-SORT_BY_DESC"></a>SORT_BY_DESC
 
-    const SORT_BY_DESC = 1
+```php
+const SORT_BY_DESC = 1
+```
 
 
 
@@ -269,7 +299,9 @@ getCarriers method filter
 
 ### <a name="constant-SORT_BY_POSITION"></a>SORT_BY_POSITION
 
-    const SORT_BY_POSITION = 1
+```php
+const SORT_BY_POSITION = 1
+```
 
 
 
@@ -280,7 +312,9 @@ getCarriers method filter
 
 ### <a name="constant-SORT_BY_PRICE"></a>SORT_BY_PRICE
 
-    const SORT_BY_PRICE = 0
+```php
+const SORT_BY_PRICE = 0
+```
 
 
 
@@ -295,7 +329,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = true
+```php
+public boolean $active = true
+```
 
 
 
@@ -307,7 +343,9 @@ Properties
 
 ### <a name="property-$cache_tax_rule"></a>$cache_tax_rule
 
-    protected mixed $cache_tax_rule = array()
+```php
+protected mixed $cache_tax_rule = array()
+```
 
 
 
@@ -320,7 +358,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'carrier', 'primary' => 'id_carrier', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('id_reference' => array('type' => self::TYPE_INT), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isCarrierName', 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'is_free' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'url' => array('type' => self::TYPE_STRING, 'validate' => 'isAbsoluteUrl'), 'shipping_handling' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'shipping_external' => array('type' => self::TYPE_BOOL), 'range_behavior' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'shipping_method' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'max_width' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'max_height' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'max_depth' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'max_weight' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'grade' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'size' => 1), 'external_module_name' => array('type' => self::TYPE_STRING, 'size' => 64), 'is_module' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'need_range' => array('type' => self::TYPE_BOOL), 'position' => array('type' => self::TYPE_INT), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'delay' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128)))
+```php
+public mixed $definition = array('table' => 'carrier', 'primary' => 'id_carrier', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('id_reference' => array('type' => self::TYPE_INT), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isCarrierName', 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'is_free' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'url' => array('type' => self::TYPE_STRING, 'validate' => 'isAbsoluteUrl'), 'shipping_handling' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'shipping_external' => array('type' => self::TYPE_BOOL), 'range_behavior' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'shipping_method' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'max_width' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'max_height' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'max_depth' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'max_weight' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'grade' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'size' => 1), 'external_module_name' => array('type' => self::TYPE_STRING, 'size' => 64), 'is_module' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'need_range' => array('type' => self::TYPE_BOOL), 'position' => array('type' => self::TYPE_INT), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'delay' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128)))
+```
 
 
 
@@ -333,7 +373,9 @@ Properties
 
 ### <a name="property-$delay"></a>$delay
 
-    public string $delay
+```php
+public string $delay
+```
 
 
 
@@ -345,7 +387,9 @@ Properties
 
 ### <a name="property-$deleted"></a>$deleted
 
-    public boolean $deleted
+```php
+public boolean $deleted
+```
 
 
 
@@ -357,7 +401,9 @@ Properties
 
 ### <a name="property-$external_module_name"></a>$external_module_name
 
-    public string $external_module_name = null
+```php
+public string $external_module_name = null
+```
 
 
 
@@ -369,7 +415,9 @@ Properties
 
 ### <a name="property-$grade"></a>$grade
 
-    public integer $grade
+```php
+public integer $grade
+```
 
 
 
@@ -381,7 +429,9 @@ Properties
 
 ### <a name="property-$id_reference"></a>$id_reference
 
-    public integer $id_reference
+```php
+public integer $id_reference
+```
 
 
 
@@ -393,7 +443,9 @@ Properties
 
 ### <a name="property-$is_free"></a>$is_free
 
-    public boolean $is_free = false
+```php
+public boolean $is_free = false
+```
 
 
 
@@ -405,7 +457,9 @@ Properties
 
 ### <a name="property-$is_module"></a>$is_module
 
-    public boolean $is_module
+```php
+public boolean $is_module
+```
 
 
 
@@ -417,7 +471,9 @@ Properties
 
 ### <a name="property-$max_depth"></a>$max_depth
 
-    public integer $max_depth
+```php
+public integer $max_depth
+```
 
 
 
@@ -429,7 +485,9 @@ Properties
 
 ### <a name="property-$max_height"></a>$max_height
 
-    public integer $max_height
+```php
+public integer $max_height
+```
 
 
 
@@ -441,7 +499,9 @@ Properties
 
 ### <a name="property-$max_weight"></a>$max_weight
 
-    public integer $max_weight
+```php
+public integer $max_weight
+```
 
 
 
@@ -453,7 +513,9 @@ Properties
 
 ### <a name="property-$max_width"></a>$max_width
 
-    public integer $max_width
+```php
+public integer $max_width
+```
 
 
 
@@ -465,7 +527,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -477,7 +541,9 @@ Properties
 
 ### <a name="property-$need_range"></a>$need_range
 
-    public boolean $need_range
+```php
+public boolean $need_range
+```
 
 
 
@@ -489,7 +555,9 @@ Properties
 
 ### <a name="property-$position"></a>$position
 
-    public integer $position
+```php
+public integer $position
+```
 
 
 
@@ -501,7 +569,9 @@ Properties
 
 ### <a name="property-$price_by_price"></a>$price_by_price
 
-    protected mixed $price_by_price = array()
+```php
+protected mixed $price_by_price = array()
+```
 
 
 
@@ -514,7 +584,9 @@ Properties
 
 ### <a name="property-$price_by_price2"></a>$price_by_price2
 
-    protected mixed $price_by_price2 = array()
+```php
+protected mixed $price_by_price2 = array()
+```
 
 
 
@@ -527,7 +599,9 @@ Properties
 
 ### <a name="property-$price_by_weight"></a>$price_by_weight
 
-    protected mixed $price_by_weight = array()
+```php
+protected mixed $price_by_weight = array()
+```
 
 
 
@@ -540,7 +614,9 @@ Properties
 
 ### <a name="property-$price_by_weight2"></a>$price_by_weight2
 
-    protected mixed $price_by_weight2 = array()
+```php
+protected mixed $price_by_weight2 = array()
+```
 
 
 
@@ -553,7 +629,9 @@ Properties
 
 ### <a name="property-$range_behavior"></a>$range_behavior
 
-    public integer $range_behavior
+```php
+public integer $range_behavior
+```
 
 
 
@@ -565,7 +643,9 @@ Properties
 
 ### <a name="property-$shipping_external"></a>$shipping_external
 
-    public boolean $shipping_external
+```php
+public boolean $shipping_external
+```
 
 
 
@@ -577,7 +657,9 @@ Properties
 
 ### <a name="property-$shipping_handling"></a>$shipping_handling
 
-    public boolean $shipping_handling = true
+```php
+public boolean $shipping_handling = true
+```
 
 
 
@@ -589,7 +671,9 @@ Properties
 
 ### <a name="property-$shipping_method"></a>$shipping_method
 
-    public integer $shipping_method
+```php
+public integer $shipping_method
+```
 
 
 
@@ -601,7 +685,9 @@ Properties
 
 ### <a name="property-$url"></a>$url
 
-    public string $url
+```php
+public string $url
+```
 
 
 
@@ -613,7 +699,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('deleted' => array(), 'is_module' => array(), 'id_tax_rules_group' => array('getter' => 'getIdTaxRulesGroup', 'setter' => 'setTaxRulesGroup', 'xlink_resource' => array('resourceName' => 'tax_rule_groups'))))
+```php
+protected mixed $webserviceParameters = array('fields' => array('deleted' => array(), 'is_module' => array(), 'id_tax_rules_group' => array('getter' => 'getIdTaxRulesGroup', 'setter' => 'setTaxRulesGroup', 'xlink_resource' => array('resourceName' => 'tax_rule_groups'))))
+```
 
 
 
@@ -629,7 +717,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed CarrierCore::__construct($id, $id_lang)
+```php
+mixed CarrierCore::__construct($id, $id_lang)
+```
 
 
 
@@ -647,7 +737,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed CarrierCore::add($autodate, $null_values)
+```php
+mixed CarrierCore::add($autodate, $null_values)
+```
 
 
 
@@ -665,7 +757,9 @@ Methods
 
 ### <a name="method-addDeliveryPrice"></a>addDeliveryPrice
 
-    boolean CarrierCore::addDeliveryPrice($price_list, $delete)
+```php
+boolean CarrierCore::addDeliveryPrice($price_list, $delete)
+```
 
 Add new delivery prices
 
@@ -683,7 +777,9 @@ Add new delivery prices
 
 ### <a name="method-addZone"></a>addZone
 
-    mixed CarrierCore::addZone($id_zone)
+```php
+mixed CarrierCore::addZone($id_zone)
+```
 
 Add zone
 
@@ -700,7 +796,9 @@ Add zone
 
 ### <a name="method-assignGroupToAllCarriers"></a>assignGroupToAllCarriers
 
-    mixed CarrierCore::assignGroupToAllCarriers(integer|array $id_group_list, array $exception)
+```php
+mixed CarrierCore::assignGroupToAllCarriers(integer|array $id_group_list, array $exception)
+```
 
 Assign one (ore more) group to all carriers
 
@@ -719,7 +817,9 @@ Assign one (ore more) group to all carriers
 
 ### <a name="method-checkCarrierZone"></a>checkCarrierZone
 
-    mixed CarrierCore::checkCarrierZone($id_carrier, $id_zone)
+```php
+mixed CarrierCore::checkCarrierZone($id_carrier, $id_zone)
+```
 
 
 
@@ -738,7 +838,9 @@ Assign one (ore more) group to all carriers
 
 ### <a name="method-checkDeliveryPriceByPrice"></a>checkDeliveryPriceByPrice
 
-    float CarrierCore::checkDeliveryPriceByPrice(integer $id_carrier, float $order_total, integer $id_zone, integer|null $id_currency)
+```php
+float CarrierCore::checkDeliveryPriceByPrice(integer $id_carrier, float $order_total, integer $id_zone, integer|null $id_currency)
+```
 
 Check delivery prices for a given order
 
@@ -759,7 +861,9 @@ Check delivery prices for a given order
 
 ### <a name="method-checkDeliveryPriceByWeight"></a>checkDeliveryPriceByWeight
 
-    mixed CarrierCore::checkDeliveryPriceByWeight($id_carrier, $total_weight, $id_zone)
+```php
+mixed CarrierCore::checkDeliveryPriceByWeight($id_carrier, $total_weight, $id_zone)
+```
 
 
 
@@ -779,7 +883,9 @@ Check delivery prices for a given order
 
 ### <a name="method-cleanPositions"></a>cleanPositions
 
-    boolean CarrierCore::cleanPositions()
+```php
+boolean CarrierCore::cleanPositions()
+```
 
 Reorders carrier positions.
 
@@ -794,7 +900,9 @@ Called after deleting a carrier.
 
 ### <a name="method-copyCarrierData"></a>copyCarrierData
 
-    mixed CarrierCore::copyCarrierData($old_id)
+```php
+mixed CarrierCore::copyCarrierData($old_id)
+```
 
 Copy old carrier informations when update carrier
 
@@ -811,7 +919,9 @@ Copy old carrier informations when update carrier
 
 ### <a name="method-delete"></a>delete
 
-    mixed CarrierCore::delete()
+```php
+mixed CarrierCore::delete()
+```
 
 
 
@@ -825,7 +935,9 @@ Copy old carrier informations when update carrier
 
 ### <a name="method-deleteDeliveryPrice"></a>deleteDeliveryPrice
 
-    boolean CarrierCore::deleteDeliveryPrice($range_table)
+```php
+boolean CarrierCore::deleteDeliveryPrice($range_table)
+```
 
 Clean delivery prices (weight/price)
 
@@ -842,7 +954,9 @@ Clean delivery prices (weight/price)
 
 ### <a name="method-deleteTaxRulesGroup"></a>deleteTaxRulesGroup
 
-    mixed CarrierCore::deleteTaxRulesGroup(array $shops)
+```php
+mixed CarrierCore::deleteTaxRulesGroup(array $shops)
+```
 
 
 
@@ -859,7 +973,9 @@ Clean delivery prices (weight/price)
 
 ### <a name="method-deleteZone"></a>deleteZone
 
-    mixed CarrierCore::deleteZone($id_zone)
+```php
+mixed CarrierCore::deleteZone($id_zone)
+```
 
 Delete zone
 
@@ -876,7 +992,9 @@ Delete zone
 
 ### <a name="method-getAvailableCarrierList"></a>getAvailableCarrierList
 
-    array CarrierCore::getAvailableCarrierList(\Product $product, $id_warehouse, integer $id_address_delivery, integer $id_shop, \Cart $cart, $error)
+```php
+array CarrierCore::getAvailableCarrierList(\Product $product, $id_warehouse, integer $id_address_delivery, integer $id_shop, \Cart $cart, $error)
+```
 
 For a given {product, warehouse}, gets the carrier available
 
@@ -899,7 +1017,9 @@ For a given {product, warehouse}, gets the carrier available
 
 ### <a name="method-getCarrierByReference"></a>getCarrierByReference
 
-    mixed CarrierCore::getCarrierByReference($id_reference)
+```php
+mixed CarrierCore::getCarrierByReference($id_reference)
+```
 
 Get carrier using the reference id
 
@@ -917,7 +1037,9 @@ Get carrier using the reference id
 
 ### <a name="method-getCarrierNameFromShopName"></a>getCarrierNameFromShopName
 
-    string CarrierCore::getCarrierNameFromShopName()
+```php
+string CarrierCore::getCarrierNameFromShopName()
+```
 
 Return the carrier name from the shop name (e.g. if the carrier name is '0').
 
@@ -932,7 +1054,9 @@ The returned carrier name is the shop name without '#' and ';' because this is n
 
 ### <a name="method-getCarriers"></a>getCarriers
 
-    array CarrierCore::getCarriers(integer $id_lang, boolean $active, $delete, $id_zone, $ids_group, $modules_filters)
+```php
+array CarrierCore::getCarriers(integer $id_lang, boolean $active, $delete, $id_zone, $ids_group, $modules_filters)
+```
 
 Get all carriers in a given language
 
@@ -955,7 +1079,9 @@ Get all carriers in a given language
 
 ### <a name="method-getCarriersForOrder"></a>getCarriersForOrder
 
-    Array CarrierCore::getCarriersForOrder(integer $id_zone, Array $groups, $cart, $error)
+```php
+Array CarrierCore::getCarriersForOrder(integer $id_zone, Array $groups, $cart, $error)
+```
 
 
 
@@ -976,7 +1102,9 @@ Get all carriers in a given language
 
 ### <a name="method-getDefaultCarrierSelection"></a>getDefaultCarrierSelection
 
-    \number CarrierCore::getDefaultCarrierSelection(array $carriers, $default_carrier)
+```php
+\number CarrierCore::getDefaultCarrierSelection(array $carriers, $default_carrier)
+```
 
 Return the default carrier to use
 
@@ -995,7 +1123,9 @@ Return the default carrier to use
 
 ### <a name="method-getDeliveredCountries"></a>getDeliveredCountries
 
-    mixed CarrierCore::getDeliveredCountries($id_lang, $active_countries, $active_carriers, $contain_states)
+```php
+mixed CarrierCore::getDeliveredCountries($id_lang, $active_countries, $active_carriers, $contain_states)
+```
 
 
 
@@ -1016,7 +1146,9 @@ Return the default carrier to use
 
 ### <a name="method-getDeliveryPriceByPrice"></a>getDeliveryPriceByPrice
 
-    float CarrierCore::getDeliveryPriceByPrice(float $order_total, integer $id_zone, integer|null $id_currency)
+```php
+float CarrierCore::getDeliveryPriceByPrice(float $order_total, integer $id_zone, integer|null $id_currency)
+```
 
 Get delivery prices for a given order
 
@@ -1035,7 +1167,9 @@ Get delivery prices for a given order
 
 ### <a name="method-getDeliveryPriceByRanges"></a>getDeliveryPriceByRanges
 
-    array CarrierCore::getDeliveryPriceByRanges($range_table, $id_carrier)
+```php
+array CarrierCore::getDeliveryPriceByRanges($range_table, $id_carrier)
+```
 
 Get delivery prices for a given shipping method (price/weight)
 
@@ -1054,7 +1188,9 @@ Get delivery prices for a given shipping method (price/weight)
 
 ### <a name="method-getDeliveryPriceByWeight"></a>getDeliveryPriceByWeight
 
-    float CarrierCore::getDeliveryPriceByWeight(float $total_weight, integer $id_zone)
+```php
+float CarrierCore::getDeliveryPriceByWeight(float $total_weight, integer $id_zone)
+```
 
 Get delivery prices for a given order
 
@@ -1072,7 +1208,9 @@ Get delivery prices for a given order
 
 ### <a name="method-getGroups"></a>getGroups
 
-    array CarrierCore::getGroups()
+```php
+array CarrierCore::getGroups()
+```
 
 Gets a specific group
 
@@ -1086,7 +1224,9 @@ Gets a specific group
 
 ### <a name="method-getHigherPosition"></a>getHigherPosition
 
-    integer CarrierCore::getHigherPosition()
+```php
+integer CarrierCore::getHigherPosition()
+```
 
 Gets the highest carrier position
 
@@ -1101,7 +1241,9 @@ Gets the highest carrier position
 
 ### <a name="method-getIdTaxRulesGroup"></a>getIdTaxRulesGroup
 
-    mixed CarrierCore::getIdTaxRulesGroup(\Context $context)
+```php
+mixed CarrierCore::getIdTaxRulesGroup(\Context $context)
+```
 
 
 
@@ -1118,7 +1260,9 @@ Gets the highest carrier position
 
 ### <a name="method-getIdTaxRulesGroupByIdCarrier"></a>getIdTaxRulesGroupByIdCarrier
 
-    mixed CarrierCore::getIdTaxRulesGroupByIdCarrier($id_carrier, \Context $context)
+```php
+mixed CarrierCore::getIdTaxRulesGroupByIdCarrier($id_carrier, \Context $context)
+```
 
 
 
@@ -1137,7 +1281,9 @@ Gets the highest carrier position
 
 ### <a name="method-getIdTaxRulesGroupMostUsed"></a>getIdTaxRulesGroupMostUsed
 
-    mixed CarrierCore::getIdTaxRulesGroupMostUsed()
+```php
+mixed CarrierCore::getIdTaxRulesGroupMostUsed()
+```
 
 
 
@@ -1152,7 +1298,9 @@ Gets the highest carrier position
 
 ### <a name="method-getMaxDeliveryPriceByPrice"></a>getMaxDeliveryPriceByPrice
 
-    mixed CarrierCore::getMaxDeliveryPriceByPrice($id_zone)
+```php
+mixed CarrierCore::getMaxDeliveryPriceByPrice($id_zone)
+```
 
 
 
@@ -1169,7 +1317,9 @@ Gets the highest carrier position
 
 ### <a name="method-getMaxDeliveryPriceByWeight"></a>getMaxDeliveryPriceByWeight
 
-    mixed CarrierCore::getMaxDeliveryPriceByWeight($id_zone)
+```php
+mixed CarrierCore::getMaxDeliveryPriceByWeight($id_zone)
+```
 
 
 
@@ -1186,7 +1336,9 @@ Gets the highest carrier position
 
 ### <a name="method-getRangeObject"></a>getRangeObject
 
-    mixed CarrierCore::getRangeObject($shipping_method)
+```php
+mixed CarrierCore::getRangeObject($shipping_method)
+```
 
 
 
@@ -1203,7 +1355,9 @@ Gets the highest carrier position
 
 ### <a name="method-getRangeSuffix"></a>getRangeSuffix
 
-    mixed CarrierCore::getRangeSuffix($currency)
+```php
+mixed CarrierCore::getRangeSuffix($currency)
+```
 
 
 
@@ -1220,7 +1374,9 @@ Gets the highest carrier position
 
 ### <a name="method-getRangeTable"></a>getRangeTable
 
-    mixed CarrierCore::getRangeTable()
+```php
+mixed CarrierCore::getRangeTable()
+```
 
 
 
@@ -1234,7 +1390,9 @@ Gets the highest carrier position
 
 ### <a name="method-getShippingMethod"></a>getShippingMethod
 
-    mixed CarrierCore::getShippingMethod()
+```php
+mixed CarrierCore::getShippingMethod()
+```
 
 
 
@@ -1248,7 +1406,9 @@ Gets the highest carrier position
 
 ### <a name="method-getTaxCalculator"></a>getTaxCalculator
 
-     CarrierCore::getTaxCalculator(\Address $address, $id_order, $use_average_tax_of_products)
+```php
+ CarrierCore::getTaxCalculator(\Address $address, $id_order, $use_average_tax_of_products)
+```
 
 Returns the taxes calculator associated to the carrier
 
@@ -1267,7 +1427,9 @@ Returns the taxes calculator associated to the carrier
 
 ### <a name="method-getTaxesRate"></a>getTaxesRate
 
-     CarrierCore::getTaxesRate(\Address $address)
+```php
+ CarrierCore::getTaxesRate(\Address $address)
+```
 
 Returns the taxes rate associated to the carrier
 
@@ -1284,7 +1446,9 @@ Returns the taxes rate associated to the carrier
 
 ### <a name="method-getZone"></a>getZone
 
-    array CarrierCore::getZone($id_zone)
+```php
+array CarrierCore::getZone($id_zone)
+```
 
 Get a specific zones
 
@@ -1301,7 +1465,9 @@ Get a specific zones
 
 ### <a name="method-getZones"></a>getZones
 
-    array CarrierCore::getZones()
+```php
+array CarrierCore::getZones()
+```
 
 Get all zones
 
@@ -1315,7 +1481,9 @@ Get all zones
 
 ### <a name="method-isUsed"></a>isUsed
 
-    integer CarrierCore::isUsed()
+```php
+integer CarrierCore::isUsed()
+```
 
 Check if carrier is used (at least one order placed)
 
@@ -1329,7 +1497,9 @@ Check if carrier is used (at least one order placed)
 
 ### <a name="method-setConfiguration"></a>setConfiguration
 
-    mixed CarrierCore::setConfiguration(integer $id_old)
+```php
+mixed CarrierCore::setConfiguration(integer $id_old)
+```
 
 Change carrier id in delivery prices when updating a carrier
 
@@ -1346,7 +1516,9 @@ Change carrier id in delivery prices when updating a carrier
 
 ### <a name="method-setGroups"></a>setGroups
 
-    mixed CarrierCore::setGroups($groups, $delete)
+```php
+mixed CarrierCore::setGroups($groups, $delete)
+```
 
 
 
@@ -1364,7 +1536,9 @@ Change carrier id in delivery prices when updating a carrier
 
 ### <a name="method-setTaxRulesGroup"></a>setTaxRulesGroup
 
-    mixed CarrierCore::setTaxRulesGroup($id_tax_rules_group, $all_shops)
+```php
+mixed CarrierCore::setTaxRulesGroup($id_tax_rules_group, $all_shops)
+```
 
 
 
@@ -1382,7 +1556,9 @@ Change carrier id in delivery prices when updating a carrier
 
 ### <a name="method-sqlDeliveryRangeShop"></a>sqlDeliveryRangeShop
 
-    string CarrierCore::sqlDeliveryRangeShop($range_table, $alias)
+```php
+string CarrierCore::sqlDeliveryRangeShop($range_table, $alias)
+```
 
 This tricky method generates a sql clause to check if ranged data are overloaded by multishop
 
@@ -1401,7 +1577,9 @@ This tricky method generates a sql clause to check if ranged data are overloaded
 
 ### <a name="method-updatePosition"></a>updatePosition
 
-    boolean CarrierCore::updatePosition(boolean $way, integer $position)
+```php
+boolean CarrierCore::updatePosition(boolean $way, integer $position)
+```
 
 Moves a carrier
 

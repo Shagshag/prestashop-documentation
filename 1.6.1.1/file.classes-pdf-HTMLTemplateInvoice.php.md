@@ -1,5 +1,6 @@
 File classes/pdf/HTMLTemplateInvoice.php
 =========
+
 Source: [classes/pdf/HTMLTemplateInvoice.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php)
 
 

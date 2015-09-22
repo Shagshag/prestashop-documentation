@@ -10,9 +10,11 @@ Class LanguageCore
 * Source: [classes/Language.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_LANGUAGES](#property-$_LANGUAGES)
 * [$_cache_language_installation](#property-$_cache_language_installation)
@@ -30,8 +32,8 @@ Properties
 * [$translationsFilesAndVars](#property-$translationsFilesAndVars)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_copyNoneFlag](#method-_copyNoneFlag)
 * [_generateFiles](#method-_generateFiles)
@@ -73,7 +75,9 @@ Properties
 
 ### <a name="property-$_LANGUAGES"></a>$_LANGUAGES
 
-    protected mixed $_LANGUAGES
+```php
+protected mixed $_LANGUAGES
+```
 
 
 
@@ -86,7 +90,9 @@ Properties
 
 ### <a name="property-$_cache_language_installation"></a>$_cache_language_installation
 
-    protected mixed $_cache_language_installation = null
+```php
+protected mixed $_cache_language_installation = null
+```
 
 
 
@@ -99,7 +105,9 @@ Properties
 
 ### <a name="property-$_checkedLangs"></a>$_checkedLangs
 
-    protected array $_checkedLangs
+```php
+protected array $_checkedLangs
+```
 
 
 
@@ -112,7 +120,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = true
+```php
+public boolean $active = true
+```
 
 
 
@@ -124,7 +134,9 @@ Properties
 
 ### <a name="property-$countActiveLanguages"></a>$countActiveLanguages
 
-    protected mixed $countActiveLanguages = array()
+```php
+protected mixed $countActiveLanguages = array()
+```
 
 
 
@@ -137,7 +149,9 @@ Properties
 
 ### <a name="property-$date_format_full"></a>$date_format_full
 
-    public string $date_format_full = 'Y-m-d H:i:s'
+```php
+public string $date_format_full = 'Y-m-d H:i:s'
+```
 
 
 
@@ -149,7 +163,9 @@ Properties
 
 ### <a name="property-$date_format_lite"></a>$date_format_lite
 
-    public string $date_format_lite = 'Y-m-d'
+```php
+public string $date_format_lite = 'Y-m-d'
+```
 
 
 
@@ -161,7 +177,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'lang', 'primary' => 'id_lang', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'iso_code' => array('type' => self::TYPE_STRING, 'validate' => 'isLanguageIsoCode', 'required' => true, 'size' => 2), 'language_code' => array('type' => self::TYPE_STRING, 'validate' => 'isLanguageCode', 'size' => 5), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'is_rtl' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_format_lite' => array('type' => self::TYPE_STRING, 'validate' => 'isPhpDateFormat', 'required' => true, 'size' => 32), 'date_format_full' => array('type' => self::TYPE_STRING, 'validate' => 'isPhpDateFormat', 'required' => true, 'size' => 32)))
+```php
+public mixed $definition = array('table' => 'lang', 'primary' => 'id_lang', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'iso_code' => array('type' => self::TYPE_STRING, 'validate' => 'isLanguageIsoCode', 'required' => true, 'size' => 2), 'language_code' => array('type' => self::TYPE_STRING, 'validate' => 'isLanguageCode', 'size' => 5), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'is_rtl' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_format_lite' => array('type' => self::TYPE_STRING, 'validate' => 'isPhpDateFormat', 'required' => true, 'size' => 32), 'date_format_full' => array('type' => self::TYPE_STRING, 'validate' => 'isPhpDateFormat', 'required' => true, 'size' => 32)))
+```
 
 
 
@@ -174,7 +192,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -186,7 +206,9 @@ Properties
 
 ### <a name="property-$is_rtl"></a>$is_rtl
 
-    public boolean $is_rtl = false
+```php
+public boolean $is_rtl = false
+```
 
 
 
@@ -198,7 +220,9 @@ Properties
 
 ### <a name="property-$iso_code"></a>$iso_code
 
-    public string $iso_code
+```php
+public string $iso_code
+```
 
 
 
@@ -210,7 +234,9 @@ Properties
 
 ### <a name="property-$language_code"></a>$language_code
 
-    public string $language_code
+```php
+public string $language_code
+```
 
 
 
@@ -222,7 +248,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -234,7 +262,9 @@ Properties
 
 ### <a name="property-$translationsFilesAndVars"></a>$translationsFilesAndVars
 
-    protected mixed $translationsFilesAndVars = array('fields' => '_FIELDS', 'errors' => '_ERRORS', 'admin' => '_LANGADM', 'pdf' => '_LANGPDF', 'tabs' => 'tabs')
+```php
+protected mixed $translationsFilesAndVars = array('fields' => '_FIELDS', 'errors' => '_ERRORS', 'admin' => '_LANGADM', 'pdf' => '_LANGPDF', 'tabs' => 'tabs')
+```
 
 
 
@@ -246,7 +276,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectNodeName' => 'language', 'objectsNodeName' => 'languages')
+```php
+protected mixed $webserviceParameters = array('objectNodeName' => 'language', 'objectsNodeName' => 'languages')
+```
 
 
 
@@ -262,7 +294,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed LanguageCore::__construct($id, $id_lang)
+```php
+mixed LanguageCore::__construct($id, $id_lang)
+```
 
 
 
@@ -280,7 +314,9 @@ Methods
 
 ### <a name="method-_copyNoneFlag"></a>_copyNoneFlag
 
-    mixed LanguageCore::_copyNoneFlag($id)
+```php
+mixed LanguageCore::_copyNoneFlag($id)
+```
 
 
 
@@ -298,7 +334,9 @@ Methods
 
 ### <a name="method-_generateFiles"></a>_generateFiles
 
-    mixed LanguageCore::_generateFiles($newIso)
+```php
+mixed LanguageCore::_generateFiles($newIso)
+```
 
 Generate translations files
 
@@ -315,7 +353,9 @@ Generate translations files
 
 ### <a name="method-_getThemesList"></a>_getThemesList
 
-    \array([theme LanguageCore::_getThemesList()
+```php
+\array([theme LanguageCore::_getThemesList()
+```
 
 Return an array of theme
 
@@ -329,7 +369,9 @@ Return an array of theme
 
 ### <a name="method-add"></a>add
 
-    mixed LanguageCore::add($autodate, $nullValues, $only_add)
+```php
+mixed LanguageCore::add($autodate, $nullValues, $only_add)
+```
 
 
 
@@ -348,7 +390,9 @@ Return an array of theme
 
 ### <a name="method-checkAndAddLanguage"></a>checkAndAddLanguage
 
-    mixed LanguageCore::checkAndAddLanguage($iso_code, $lang_pack, $only_add, $params_lang)
+```php
+mixed LanguageCore::checkAndAddLanguage($iso_code, $lang_pack, $only_add, $params_lang)
+```
 
 
 
@@ -369,7 +413,9 @@ Return an array of theme
 
 ### <a name="method-checkFiles"></a>checkFiles
 
-    mixed LanguageCore::checkFiles()
+```php
+mixed LanguageCore::checkFiles()
+```
 
 
 
@@ -383,7 +429,9 @@ Return an array of theme
 
 ### <a name="method-checkFilesWithIsoCode"></a>checkFilesWithIsoCode
 
-    mixed LanguageCore::checkFilesWithIsoCode(mixed $iso_code)
+```php
+mixed LanguageCore::checkFilesWithIsoCode(mixed $iso_code)
+```
 
 This functions checks if every files exists for the language $iso_code.
 
@@ -402,7 +450,9 @@ and translations/mails/$iso_code .
 
 ### <a name="method-copyLanguageData"></a>copyLanguageData
 
-    mixed LanguageCore::copyLanguageData($from, $to)
+```php
+mixed LanguageCore::copyLanguageData($from, $to)
+```
 
 
 
@@ -421,7 +471,9 @@ and translations/mails/$iso_code .
 
 ### <a name="method-countActiveLanguages"></a>countActiveLanguages
 
-    mixed LanguageCore::countActiveLanguages($id_shop)
+```php
+mixed LanguageCore::countActiveLanguages($id_shop)
+```
 
 
 
@@ -439,7 +491,9 @@ and translations/mails/$iso_code .
 
 ### <a name="method-delete"></a>delete
 
-    mixed LanguageCore::delete()
+```php
+mixed LanguageCore::delete()
+```
 
 
 
@@ -453,7 +507,9 @@ and translations/mails/$iso_code .
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    mixed LanguageCore::deleteSelection($selection)
+```php
+mixed LanguageCore::deleteSelection($selection)
+```
 
 
 
@@ -470,7 +526,9 @@ and translations/mails/$iso_code .
 
 ### <a name="method-downloadAndInstallLanguagePack"></a>downloadAndInstallLanguagePack
 
-    mixed LanguageCore::downloadAndInstallLanguagePack($iso, $version, $params, $install)
+```php
+mixed LanguageCore::downloadAndInstallLanguagePack($iso, $version, $params, $install)
+```
 
 
 
@@ -491,7 +549,9 @@ and translations/mails/$iso_code .
 
 ### <a name="method-getFields"></a>getFields
 
-    array LanguageCore::getFields()
+```php
+array LanguageCore::getFields()
+```
 
 
 
@@ -505,7 +565,9 @@ and translations/mails/$iso_code .
 
 ### <a name="method-getFilesList"></a>getFilesList
 
-    mixed LanguageCore::getFilesList($iso_from, $theme_from, $iso_to, $theme_to, $select, $check, $modules)
+```php
+mixed LanguageCore::getFilesList($iso_from, $theme_from, $iso_to, $theme_to, $select, $check, $modules)
+```
 
 
 
@@ -529,7 +591,9 @@ and translations/mails/$iso_code .
 
 ### <a name="method-getIDs"></a>getIDs
 
-    array LanguageCore::getIDs(boolean $active, integer|boolean $id_shop)
+```php
+array LanguageCore::getIDs(boolean $active, integer|boolean $id_shop)
+```
 
 Returns an array of language IDs
 
@@ -548,7 +612,9 @@ Returns an array of language IDs
 
 ### <a name="method-getIdByIso"></a>getIdByIso
 
-    false|null|string LanguageCore::getIdByIso(string $iso_code, boolean $no_cache)
+```php
+false|null|string LanguageCore::getIdByIso(string $iso_code, boolean $no_cache)
+```
 
 Return id from iso code
 
@@ -567,7 +633,9 @@ Return id from iso code
 
 ### <a name="method-getIsoById"></a>getIsoById
 
-    string LanguageCore::getIsoById(integer $id_lang)
+```php
+string LanguageCore::getIsoById(integer $id_lang)
+```
 
 Return iso code from id
 
@@ -585,7 +653,9 @@ Return iso code from id
 
 ### <a name="method-getIsoIds"></a>getIsoIds
 
-    array LanguageCore::getIsoIds($active)
+```php
+array LanguageCore::getIsoIds($active)
+```
 
 Return array (id_lang, iso_code)
 
@@ -603,7 +673,9 @@ Return array (id_lang, iso_code)
 
 ### <a name="method-getLanguage"></a>getLanguage
 
-    mixed LanguageCore::getLanguage($id_lang)
+```php
+mixed LanguageCore::getLanguage($id_lang)
+```
 
 
 
@@ -621,7 +693,9 @@ Return array (id_lang, iso_code)
 
 ### <a name="method-getLanguageByIETFCode"></a>getLanguageByIETFCode
 
-    mixed LanguageCore::getLanguageByIETFCode($code)
+```php
+mixed LanguageCore::getLanguageByIETFCode($code)
+```
 
 
 
@@ -639,7 +713,9 @@ Return array (id_lang, iso_code)
 
 ### <a name="method-getLanguageCodeByIso"></a>getLanguageCodeByIso
 
-    mixed LanguageCore::getLanguageCodeByIso($iso_code)
+```php
+mixed LanguageCore::getLanguageCodeByIso($iso_code)
+```
 
 
 
@@ -657,7 +733,9 @@ Return array (id_lang, iso_code)
 
 ### <a name="method-getLanguagePackListContent"></a>getLanguagePackListContent
 
-    mixed LanguageCore::getLanguagePackListContent($iso, $tar)
+```php
+mixed LanguageCore::getLanguagePackListContent($iso, $tar)
+```
 
 
 
@@ -676,7 +754,9 @@ Return array (id_lang, iso_code)
 
 ### <a name="method-getLanguages"></a>getLanguages
 
-    array LanguageCore::getLanguages(boolean $active, integer|boolean $id_shop, boolean $ids_only)
+```php
+array LanguageCore::getLanguages(boolean $active, integer|boolean $id_shop, boolean $ids_only)
+```
 
 Returns available languages
 
@@ -696,7 +776,9 @@ Returns available languages
 
 ### <a name="method-isInstalled"></a>isInstalled
 
-    mixed LanguageCore::isInstalled($iso_code)
+```php
+mixed LanguageCore::isInstalled($iso_code)
+```
 
 
 
@@ -714,7 +796,9 @@ Returns available languages
 
 ### <a name="method-isMultiLanguageActivated"></a>isMultiLanguageActivated
 
-    boolean LanguageCore::isMultiLanguageActivated($id_shop)
+```php
+boolean LanguageCore::isMultiLanguageActivated($id_shop)
+```
 
 Check if more on than one language is activated
 
@@ -732,7 +816,9 @@ Check if more on than one language is activated
 
 ### <a name="method-loadLanguages"></a>loadLanguages
 
-    mixed LanguageCore::loadLanguages()
+```php
+mixed LanguageCore::loadLanguages()
+```
 
 Load all languages in memory for caching
 
@@ -747,7 +833,9 @@ Load all languages in memory for caching
 
 ### <a name="method-loadUpdateSQL"></a>loadUpdateSQL
 
-    boolean LanguageCore::loadUpdateSQL()
+```php
+boolean LanguageCore::loadUpdateSQL()
+```
 
 loadUpdateSQL will create default lang values when you create a new lang, based on default id lang
 
@@ -761,7 +849,9 @@ loadUpdateSQL will create default lang values when you create a new lang, based 
 
 ### <a name="method-moveToIso"></a>moveToIso
 
-    mixed LanguageCore::moveToIso($newIso)
+```php
+mixed LanguageCore::moveToIso($newIso)
+```
 
 Move translations files after editing language iso code
 
@@ -778,7 +868,9 @@ Move translations files after editing language iso code
 
 ### <a name="method-recurseDeleteDir"></a>recurseDeleteDir
 
-    mixed LanguageCore::recurseDeleteDir($dir)
+```php
+mixed LanguageCore::recurseDeleteDir($dir)
+```
 
 
 
@@ -796,7 +888,9 @@ Move translations files after editing language iso code
 
 ### <a name="method-updateModulesTranslations"></a>updateModulesTranslations
 
-    mixed LanguageCore::updateModulesTranslations(array $modules_list)
+```php
+mixed LanguageCore::updateModulesTranslations(array $modules_list)
+```
 
 
 

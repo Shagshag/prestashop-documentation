@@ -10,17 +10,19 @@ Class AddressesControllerCore
 * Source: [controllers/front/AddressesController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressesController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$auth](#property-$auth)
 * [$authRedirection](#property-$authRedirection)
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [init](#method-init)
 * [initContent](#method-initContent)
 * [setMedia](#method-setMedia)
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public mixed $auth = true
+```php
+public mixed $auth = true
+```
 
 
 
@@ -46,7 +50,9 @@ Properties
 
 ### <a name="property-$authRedirection"></a>$authRedirection
 
-    public mixed $authRedirection = 'addresses'
+```php
+public mixed $authRedirection = 'addresses'
+```
 
 
 
@@ -58,7 +64,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'addresses'
+```php
+public mixed $php_self = 'addresses'
+```
 
 
 
@@ -70,7 +78,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -86,7 +96,9 @@ Methods
 
 ### <a name="method-init"></a>init
 
-    mixed AddressesControllerCore::init()
+```php
+mixed AddressesControllerCore::init()
+```
 
 Initialize addresses controller
 
@@ -100,7 +112,9 @@ Initialize addresses controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AddressesControllerCore::initContent()
+```php
+mixed AddressesControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -114,7 +128,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AddressesControllerCore::setMedia()
+```php
+mixed AddressesControllerCore::setMedia()
+```
 
 Set default medias for this controller
 

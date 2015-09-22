@@ -10,9 +10,11 @@ Class HelperViewCore
 * Source: [classes/helper/HelperView.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$id](#property-$id)
 * [$table](#property-$table)
@@ -20,8 +22,8 @@ Properties
 * [$token](#property-$token)
 * [$toolbar](#property-$toolbar)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [generateView](#method-generateView)
 
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -46,7 +50,9 @@ Properties
 
 ### <a name="property-$table"></a>$table
 
-    public mixed $table
+```php
+public mixed $table
+```
 
 
 
@@ -58,7 +64,9 @@ Properties
 
 ### <a name="property-$title"></a>$title
 
-    public string $title = null
+```php
+public string $title = null
+```
 
 
 
@@ -70,7 +78,9 @@ Properties
 
 ### <a name="property-$token"></a>$token
 
-    public mixed $token
+```php
+public mixed $token
+```
 
 
 
@@ -82,7 +92,9 @@ Properties
 
 ### <a name="property-$toolbar"></a>$toolbar
 
-    public mixed $toolbar = true
+```php
+public mixed $toolbar = true
+```
 
 
 
@@ -98,7 +110,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed HelperViewCore::__construct()
+```php
+mixed HelperViewCore::__construct()
+```
 
 
 
@@ -112,7 +126,9 @@ Methods
 
 ### <a name="method-generateView"></a>generateView
 
-    mixed HelperViewCore::generateView()
+```php
+mixed HelperViewCore::generateView()
+```
 
 
 

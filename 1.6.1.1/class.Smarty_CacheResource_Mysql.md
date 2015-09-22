@@ -10,11 +10,13 @@ Class Smarty_CacheResource_Mysql
 * Source: [classes/SmartyCacheResourceMysql.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCacheResourceMysql.php#L29)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [delete](#method-delete)
 * [fetch](#method-fetch)
 * [fetchTimestamp](#method-fetchTimestamp)
@@ -31,7 +33,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    integer Smarty_CacheResource_Mysql::delete(string $name, string $cache_id, string $compile_id, integer|null $exp_time)
+```php
+integer Smarty_CacheResource_Mysql::delete(string $name, string $cache_id, string $compile_id, integer|null $exp_time)
+```
 
 Delete content from cache
 
@@ -51,7 +55,9 @@ Delete content from cache
 
 ### <a name="method-fetch"></a>fetch
 
-    void Smarty_CacheResource_Mysql::fetch(string $id, string $name, string $cache_id, string $compile_id, string $content, integer $mtime)
+```php
+void Smarty_CacheResource_Mysql::fetch(string $id, string $name, string $cache_id, string $compile_id, string $content, integer $mtime)
+```
 
 fetch cached content and its modification time from data source
 
@@ -73,7 +79,9 @@ fetch cached content and its modification time from data source
 
 ### <a name="method-fetchTimestamp"></a>fetchTimestamp
 
-    integer|boolean Smarty_CacheResource_Mysql::fetchTimestamp(string $id, string $name, string $cache_id, string $compile_id)
+```php
+integer|boolean Smarty_CacheResource_Mysql::fetchTimestamp(string $id, string $name, string $cache_id, string $compile_id)
+```
 
 Fetch cached content's modification timestamp from data source
 
@@ -93,7 +101,9 @@ Fetch cached content's modification timestamp from data source
 
 ### <a name="method-save"></a>save
 
-    boolean Smarty_CacheResource_Mysql::save(string $id, string $name, string $cache_id, string $compile_id, integer|null $exp_time, string $content)
+```php
+boolean Smarty_CacheResource_Mysql::save(string $id, string $name, string $cache_id, string $compile_id, integer|null $exp_time, string $content)
+```
 
 Save content to cache
 

@@ -10,15 +10,17 @@ Class CountyCore
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
 * Source: [classes/County.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L31)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [USE_BOTH_TAX](#constant-USE_BOTH_TAX)
 * [USE_COUNTY_TAX](#constant-USE_COUNTY_TAX)
 * [USE_STATE_TAX](#constant-USE_STATE_TAX)
 
-Properties
-----------
+### Properties
 
 * [$_cache_county_zipcode](#property-$_cache_county_zipcode)
 * [$_cache_get_counties](#property-$_cache_get_counties)
@@ -29,8 +31,8 @@ Properties
 * [$name](#property-$name)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [addZipCodes](#method-addZipCodes)
 * [breakDownZipCode](#method-breakDownZipCode)
 * [delete](#method-delete)
@@ -50,7 +52,9 @@ Constants
 
 ### <a name="constant-USE_BOTH_TAX"></a>USE_BOTH_TAX
 
-    const USE_BOTH_TAX = 0
+```php
+const USE_BOTH_TAX = 0
+```
 
 
 
@@ -62,7 +66,9 @@ Constants
 
 ### <a name="constant-USE_COUNTY_TAX"></a>USE_COUNTY_TAX
 
-    const USE_COUNTY_TAX = 1
+```php
+const USE_COUNTY_TAX = 1
+```
 
 
 
@@ -74,7 +80,9 @@ Constants
 
 ### <a name="constant-USE_STATE_TAX"></a>USE_STATE_TAX
 
-    const USE_STATE_TAX = 2
+```php
+const USE_STATE_TAX = 2
+```
 
 
 
@@ -90,7 +98,9 @@ Properties
 
 ### <a name="property-$_cache_county_zipcode"></a>$_cache_county_zipcode
 
-    protected mixed $_cache_county_zipcode = array()
+```php
+protected mixed $_cache_county_zipcode = array()
+```
 
 
 
@@ -104,7 +114,9 @@ Properties
 
 ### <a name="property-$_cache_get_counties"></a>$_cache_get_counties
 
-    protected mixed $_cache_get_counties = array()
+```php
+protected mixed $_cache_get_counties = array()
+```
 
 
 
@@ -118,7 +130,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public mixed $active
+```php
+public mixed $active
+```
 
 
 
@@ -131,7 +145,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'county', 'primary' => 'id_county', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'id_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```php
+public mixed $definition = array('table' => 'county', 'primary' => 'id_county', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'id_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```
 
 
 
@@ -145,7 +161,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -158,7 +176,9 @@ Properties
 
 ### <a name="property-$id_state"></a>$id_state
 
-    public mixed $id_state
+```php
+public mixed $id_state
+```
 
 
 
@@ -171,7 +191,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -184,7 +206,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_state' => array('xlink_resource' => 'states')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_state' => array('xlink_resource' => 'states')))
+```
 
 
 
@@ -201,7 +225,9 @@ Methods
 
 ### <a name="method-addZipCodes"></a>addZipCodes
 
-    mixed CountyCore::addZipCodes($zip_codes)
+```php
+mixed CountyCore::addZipCodes($zip_codes)
+```
 
 
 
@@ -219,7 +245,9 @@ Methods
 
 ### <a name="method-breakDownZipCode"></a>breakDownZipCode
 
-    mixed CountyCore::breakDownZipCode($zip_codes)
+```php
+mixed CountyCore::breakDownZipCode($zip_codes)
+```
 
 
 
@@ -237,7 +265,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed CountyCore::delete()
+```php
+mixed CountyCore::delete()
+```
 
 
 
@@ -252,7 +282,9 @@ Methods
 
 ### <a name="method-deleteZipCodeByIdCounty"></a>deleteZipCodeByIdCounty
 
-    mixed CountyCore::deleteZipCodeByIdCounty($id_county)
+```php
+mixed CountyCore::deleteZipCodeByIdCounty($id_county)
+```
 
 
 
@@ -271,7 +303,9 @@ Methods
 
 ### <a name="method-getCounties"></a>getCounties
 
-    mixed CountyCore::getCounties($id_state)
+```php
+mixed CountyCore::getCounties($id_state)
+```
 
 
 
@@ -290,7 +324,9 @@ Methods
 
 ### <a name="method-getIdCountyByNameAndIdState"></a>getIdCountyByNameAndIdState
 
-    mixed CountyCore::getIdCountyByNameAndIdState($name, $id_state)
+```php
+mixed CountyCore::getIdCountyByNameAndIdState($name, $id_state)
+```
 
 
 
@@ -310,7 +346,9 @@ Methods
 
 ### <a name="method-getIdCountyByZipCode"></a>getIdCountyByZipCode
 
-    mixed CountyCore::getIdCountyByZipCode($id_state, $zip_code)
+```php
+mixed CountyCore::getIdCountyByZipCode($id_state, $zip_code)
+```
 
 
 
@@ -330,7 +368,9 @@ Methods
 
 ### <a name="method-getZipCodes"></a>getZipCodes
 
-    mixed CountyCore::getZipCodes()
+```php
+mixed CountyCore::getZipCodes()
+```
 
 
 
@@ -345,7 +385,9 @@ Methods
 
 ### <a name="method-isZipCodePresent"></a>isZipCodePresent
 
-    mixed CountyCore::isZipCodePresent($zip_code)
+```php
+mixed CountyCore::isZipCodePresent($zip_code)
+```
 
 
 
@@ -363,7 +405,9 @@ Methods
 
 ### <a name="method-isZipCodeRangePresent"></a>isZipCodeRangePresent
 
-    mixed CountyCore::isZipCodeRangePresent($zip_codes)
+```php
+mixed CountyCore::isZipCodeRangePresent($zip_codes)
+```
 
 
 
@@ -381,7 +425,9 @@ Methods
 
 ### <a name="method-removeZipCodes"></a>removeZipCodes
 
-    mixed CountyCore::removeZipCodes($zip_codes)
+```php
+mixed CountyCore::removeZipCodes($zip_codes)
+```
 
 
 

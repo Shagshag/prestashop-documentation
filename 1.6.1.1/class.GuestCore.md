@@ -10,9 +10,11 @@ Class GuestCore
 * Source: [classes/Guest.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$accept_language](#property-$accept_language)
 * [$adobe_director](#property-$adobe_director)
@@ -32,8 +34,8 @@ Properties
 * [$webserviceParameters](#property-$webserviceParameters)
 * [$windows_media](#property-$windows_media)
 
-Methods
--------
+### Methods
+
 * [getBrowser](#method-getBrowser)
 * [getFromCustomer](#method-getFromCustomer)
 * [getLanguage](#method-getLanguage)
@@ -51,7 +53,9 @@ Properties
 
 ### <a name="property-$accept_language"></a>$accept_language
 
-    public mixed $accept_language
+```php
+public mixed $accept_language
+```
 
 
 
@@ -63,7 +67,9 @@ Properties
 
 ### <a name="property-$adobe_director"></a>$adobe_director
 
-    public mixed $adobe_director
+```php
+public mixed $adobe_director
+```
 
 
 
@@ -75,7 +81,9 @@ Properties
 
 ### <a name="property-$adobe_flash"></a>$adobe_flash
 
-    public mixed $adobe_flash
+```php
+public mixed $adobe_flash
+```
 
 
 
@@ -87,7 +95,9 @@ Properties
 
 ### <a name="property-$apple_quicktime"></a>$apple_quicktime
 
-    public mixed $apple_quicktime
+```php
+public mixed $apple_quicktime
+```
 
 
 
@@ -99,7 +109,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'guest', 'primary' => 'id_guest', 'fields' => array('id_operating_system' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_web_browser' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'javascript' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'screen_resolution_x' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'screen_resolution_y' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'screen_color' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'sun_java' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'adobe_flash' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'adobe_director' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'apple_quicktime' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'real_player' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'windows_media' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'accept_language' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 8), 'mobile_theme' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```php
+public mixed $definition = array('table' => 'guest', 'primary' => 'id_guest', 'fields' => array('id_operating_system' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_web_browser' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'javascript' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'screen_resolution_x' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'screen_resolution_y' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'screen_color' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'sun_java' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'adobe_flash' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'adobe_director' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'apple_quicktime' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'real_player' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'windows_media' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'accept_language' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 8), 'mobile_theme' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```
 
 
 
@@ -112,7 +124,9 @@ Properties
 
 ### <a name="property-$id_customer"></a>$id_customer
 
-    public mixed $id_customer
+```php
+public mixed $id_customer
+```
 
 
 
@@ -124,7 +138,9 @@ Properties
 
 ### <a name="property-$id_operating_system"></a>$id_operating_system
 
-    public mixed $id_operating_system
+```php
+public mixed $id_operating_system
+```
 
 
 
@@ -136,7 +152,9 @@ Properties
 
 ### <a name="property-$id_web_browser"></a>$id_web_browser
 
-    public mixed $id_web_browser
+```php
+public mixed $id_web_browser
+```
 
 
 
@@ -148,7 +166,9 @@ Properties
 
 ### <a name="property-$javascript"></a>$javascript
 
-    public mixed $javascript
+```php
+public mixed $javascript
+```
 
 
 
@@ -160,7 +180,9 @@ Properties
 
 ### <a name="property-$mobile_theme"></a>$mobile_theme
 
-    public mixed $mobile_theme
+```php
+public mixed $mobile_theme
+```
 
 
 
@@ -172,7 +194,9 @@ Properties
 
 ### <a name="property-$real_player"></a>$real_player
 
-    public mixed $real_player
+```php
+public mixed $real_player
+```
 
 
 
@@ -184,7 +208,9 @@ Properties
 
 ### <a name="property-$screen_color"></a>$screen_color
 
-    public mixed $screen_color
+```php
+public mixed $screen_color
+```
 
 
 
@@ -196,7 +222,9 @@ Properties
 
 ### <a name="property-$screen_resolution_x"></a>$screen_resolution_x
 
-    public mixed $screen_resolution_x
+```php
+public mixed $screen_resolution_x
+```
 
 
 
@@ -208,7 +236,9 @@ Properties
 
 ### <a name="property-$screen_resolution_y"></a>$screen_resolution_y
 
-    public mixed $screen_resolution_y
+```php
+public mixed $screen_resolution_y
+```
 
 
 
@@ -220,7 +250,9 @@ Properties
 
 ### <a name="property-$sun_java"></a>$sun_java
 
-    public mixed $sun_java
+```php
+public mixed $sun_java
+```
 
 
 
@@ -232,7 +264,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_customer' => array('xlink_resource' => 'customers')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_customer' => array('xlink_resource' => 'customers')))
+```
 
 
 
@@ -244,7 +278,9 @@ Properties
 
 ### <a name="property-$windows_media"></a>$windows_media
 
-    public mixed $windows_media
+```php
+public mixed $windows_media
+```
 
 
 
@@ -260,7 +296,9 @@ Methods
 
 ### <a name="method-getBrowser"></a>getBrowser
 
-    mixed GuestCore::getBrowser($userAgent)
+```php
+mixed GuestCore::getBrowser($userAgent)
+```
 
 
 
@@ -277,7 +315,9 @@ Methods
 
 ### <a name="method-getFromCustomer"></a>getFromCustomer
 
-    mixed GuestCore::getFromCustomer($id_customer)
+```php
+mixed GuestCore::getFromCustomer($id_customer)
+```
 
 
 
@@ -295,7 +335,9 @@ Methods
 
 ### <a name="method-getLanguage"></a>getLanguage
 
-    mixed GuestCore::getLanguage($acceptLanguage)
+```php
+mixed GuestCore::getLanguage($acceptLanguage)
+```
 
 
 
@@ -312,7 +354,9 @@ Methods
 
 ### <a name="method-getOs"></a>getOs
 
-    mixed GuestCore::getOs($userAgent)
+```php
+mixed GuestCore::getOs($userAgent)
+```
 
 
 
@@ -329,7 +373,9 @@ Methods
 
 ### <a name="method-mergeWithCustomer"></a>mergeWithCustomer
 
-    mixed GuestCore::mergeWithCustomer($id_guest, $id_customer)
+```php
+mixed GuestCore::mergeWithCustomer($id_guest, $id_customer)
+```
 
 
 
@@ -347,7 +393,9 @@ Methods
 
 ### <a name="method-setNewGuest"></a>setNewGuest
 
-    mixed GuestCore::setNewGuest($cookie)
+```php
+mixed GuestCore::setNewGuest($cookie)
+```
 
 
 
@@ -365,7 +413,9 @@ Methods
 
 ### <a name="method-userAgent"></a>userAgent
 
-    mixed GuestCore::userAgent()
+```php
+mixed GuestCore::userAgent()
+```
 
 
 

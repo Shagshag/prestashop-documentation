@@ -10,17 +10,19 @@ Class DiscountControllerCore
 * Source: [controllers/front/DiscountController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/DiscountController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$auth](#property-$auth)
 * [$authRedirection](#property-$authRedirection)
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [initContent](#method-initContent)
 
 
@@ -32,7 +34,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public mixed $auth = true
+```php
+public mixed $auth = true
+```
 
 
 
@@ -44,7 +48,9 @@ Properties
 
 ### <a name="property-$authRedirection"></a>$authRedirection
 
-    public mixed $authRedirection = 'discount'
+```php
+public mixed $authRedirection = 'discount'
+```
 
 
 
@@ -56,7 +62,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'discount'
+```php
+public mixed $php_self = 'discount'
+```
 
 
 
@@ -68,7 +76,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -84,7 +94,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed DiscountControllerCore::initContent()
+```php
+mixed DiscountControllerCore::initContent()
+```
 
 Assign template vars related to page content
 

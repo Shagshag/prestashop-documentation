@@ -10,9 +10,11 @@ Class AdminTaxRulesGroupControllerCore
 * Source: [controllers/admin/AdminTaxRulesGroupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$errors_tax_rule](#property-$errors_tax_rule)
 * [$object](#property-$object)
@@ -20,8 +22,8 @@ Properties
 * [$selected_states](#property-$selected_states)
 * [$tax_rule](#property-$tax_rule)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [deleteTaxRule](#method-deleteTaxRule)
 * [displayAjaxUpdateTaxRule](#method-displayAjaxUpdateTaxRule)
@@ -46,7 +48,9 @@ Properties
 
 ### <a name="property-$errors_tax_rule"></a>$errors_tax_rule
 
-    public mixed $errors_tax_rule
+```php
+public mixed $errors_tax_rule
+```
 
 
 
@@ -58,7 +62,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \TaxRulesGroup $object
+```php
+public \TaxRulesGroup $object
+```
 
 
 
@@ -70,7 +76,9 @@ Properties
 
 ### <a name="property-$selected_countries"></a>$selected_countries
 
-    public mixed $selected_countries = array()
+```php
+public mixed $selected_countries = array()
+```
 
 
 
@@ -82,7 +90,9 @@ Properties
 
 ### <a name="property-$selected_states"></a>$selected_states
 
-    public mixed $selected_states = array()
+```php
+public mixed $selected_states = array()
+```
 
 
 
@@ -94,7 +104,9 @@ Properties
 
 ### <a name="property-$tax_rule"></a>$tax_rule
 
-    public mixed $tax_rule
+```php
+public mixed $tax_rule
+```
 
 
 
@@ -110,7 +122,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminTaxRulesGroupControllerCore::__construct()
+```php
+mixed AdminTaxRulesGroupControllerCore::__construct()
+```
 
 
 
@@ -124,7 +138,9 @@ Methods
 
 ### <a name="method-deleteTaxRule"></a>deleteTaxRule
 
-    mixed AdminTaxRulesGroupControllerCore::deleteTaxRule(array $id_tax_rule_list)
+```php
+mixed AdminTaxRulesGroupControllerCore::deleteTaxRule(array $id_tax_rule_list)
+```
 
 
 
@@ -141,7 +157,9 @@ Methods
 
 ### <a name="method-displayAjaxUpdateTaxRule"></a>displayAjaxUpdateTaxRule
 
-    mixed AdminTaxRulesGroupControllerCore::displayAjaxUpdateTaxRule()
+```php
+mixed AdminTaxRulesGroupControllerCore::displayAjaxUpdateTaxRule()
+```
 
 
 
@@ -155,7 +173,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminTaxRulesGroupControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminTaxRulesGroupControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -169,7 +189,9 @@ Methods
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminTaxRulesGroupControllerCore::initProcess()
+```php
+mixed AdminTaxRulesGroupControllerCore::initProcess()
+```
 
 
 
@@ -183,7 +205,9 @@ Methods
 
 ### <a name="method-initRuleForm"></a>initRuleForm
 
-    mixed AdminTaxRulesGroupControllerCore::initRuleForm()
+```php
+mixed AdminTaxRulesGroupControllerCore::initRuleForm()
+```
 
 
 
@@ -197,7 +221,9 @@ Methods
 
 ### <a name="method-initRulesList"></a>initRulesList
 
-    mixed AdminTaxRulesGroupControllerCore::initRulesList($id_group)
+```php
+mixed AdminTaxRulesGroupControllerCore::initRulesList($id_group)
+```
 
 
 
@@ -214,7 +240,9 @@ Methods
 
 ### <a name="method-processBulkDeleteTaxRules"></a>processBulkDeleteTaxRules
 
-    mixed AdminTaxRulesGroupControllerCore::processBulkDeleteTaxRules()
+```php
+mixed AdminTaxRulesGroupControllerCore::processBulkDeleteTaxRules()
+```
 
 
 
@@ -228,7 +256,9 @@ Methods
 
 ### <a name="method-processCreateRule"></a>processCreateRule
 
-    mixed AdminTaxRulesGroupControllerCore::processCreateRule()
+```php
+mixed AdminTaxRulesGroupControllerCore::processCreateRule()
+```
 
 
 
@@ -242,7 +272,9 @@ Methods
 
 ### <a name="method-processDeleteTaxRule"></a>processDeleteTaxRule
 
-    mixed AdminTaxRulesGroupControllerCore::processDeleteTaxRule()
+```php
+mixed AdminTaxRulesGroupControllerCore::processDeleteTaxRule()
+```
 
 
 
@@ -256,7 +288,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminTaxRulesGroupControllerCore::renderForm()
+```php
+mixed AdminTaxRulesGroupControllerCore::renderForm()
+```
 
 
 
@@ -270,7 +304,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminTaxRulesGroupControllerCore::renderList()
+```php
+mixed AdminTaxRulesGroupControllerCore::renderList()
+```
 
 
 
@@ -284,7 +320,9 @@ Methods
 
 ### <a name="method-updateTaxRulesGroup"></a>updateTaxRulesGroup
 
-    \TaxRulesGroup AdminTaxRulesGroupControllerCore::updateTaxRulesGroup(\TaxRulesGroup $object)
+```php
+\TaxRulesGroup AdminTaxRulesGroupControllerCore::updateTaxRulesGroup(\TaxRulesGroup $object)
+```
 
 
 
@@ -301,7 +339,9 @@ Methods
 
 ### <a name="method-validateTaxRule"></a>validateTaxRule
 
-    array AdminTaxRulesGroupControllerCore::validateTaxRule(\TaxRule $tr)
+```php
+array AdminTaxRulesGroupControllerCore::validateTaxRule(\TaxRule $tr)
+```
 
 Check if the tax rule could be added in the database
 

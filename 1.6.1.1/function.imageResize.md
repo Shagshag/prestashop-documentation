@@ -5,13 +5,17 @@ Function imageResize
 
 
 
-    mixed imageResize($sourceFile, $destFile, $destWidth, $destHeight, $fileType)
+```php
+mixed imageResize($sourceFile, $destFile, $destWidth, $destHeight, $fileType)
+```
 
 * Function name: imageResize
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
-* Source: [images.inc.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/images.inc.php#L74)
+* Source: [images.inc.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/images.inc.php#L74).
 
-#### Arguments
+Arguments
+---------
+
 * $sourceFile **mixed**
 * $destFile **mixed**
 * $destWidth **mixed**

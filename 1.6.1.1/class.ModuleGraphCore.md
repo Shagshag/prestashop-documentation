@@ -11,9 +11,11 @@ Class ModuleGraphCore
 * Source: [classes/module/ModuleGraph.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_employee](#property-$_employee)
 * [$_legend](#property-$_legend)
@@ -21,8 +23,8 @@ Properties
 * [$_titles](#property-$_titles)
 * [$_values](#property-$_values)
 
-Methods
--------
+### Methods
+
 * [_displayCsv](#method-_displayCsv)
 * [create](#method-create)
 * [csvExport](#method-csvExport)
@@ -47,7 +49,9 @@ Properties
 
 ### <a name="property-$_employee"></a>$_employee
 
-    protected mixed $_employee
+```php
+protected mixed $_employee
+```
 
 
 
@@ -59,7 +63,9 @@ Properties
 
 ### <a name="property-$_legend"></a>$_legend
 
-    protected array $_legend = array()
+```php
+protected array $_legend = array()
+```
 
 
 
@@ -71,7 +77,9 @@ Properties
 
 ### <a name="property-$_render"></a>$_render
 
-    protected \ModuleGraphEngine $_render
+```php
+protected \ModuleGraphEngine $_render
+```
 
 
 
@@ -83,7 +91,9 @@ Properties
 
 ### <a name="property-$_titles"></a>$_titles
 
-    protected mixed $_titles = array('main' => null, 'x' => null, 'y' => null)
+```php
+protected mixed $_titles = array('main' => null, 'x' => null, 'y' => null)
+```
 
 
 
@@ -95,7 +105,9 @@ Properties
 
 ### <a name="property-$_values"></a>$_values
 
-    protected array $_values = array()
+```php
+protected array $_values = array()
+```
 
 
 
@@ -111,7 +123,9 @@ Methods
 
 ### <a name="method-_displayCsv"></a>_displayCsv
 
-    mixed ModuleGraphCore::_displayCsv()
+```php
+mixed ModuleGraphCore::_displayCsv()
+```
 
 
 
@@ -125,7 +139,9 @@ Methods
 
 ### <a name="method-create"></a>create
 
-    mixed ModuleGraphCore::create($render, $type, $width, $height, $layers)
+```php
+mixed ModuleGraphCore::create($render, $type, $width, $height, $layers)
+```
 
 
 
@@ -146,7 +162,9 @@ Methods
 
 ### <a name="method-csvExport"></a>csvExport
 
-    mixed ModuleGraphCore::csvExport($datas)
+```php
+mixed ModuleGraphCore::csvExport($datas)
+```
 
 
 
@@ -163,7 +181,9 @@ Methods
 
 ### <a name="method-draw"></a>draw
 
-    mixed ModuleGraphCore::draw()
+```php
+mixed ModuleGraphCore::draw()
+```
 
 
 
@@ -177,7 +197,9 @@ Methods
 
 ### <a name="method-engine"></a>engine
 
-    mixed ModuleGraphCore::engine($params)
+```php
+mixed ModuleGraphCore::engine($params)
+```
 
 
 
@@ -194,7 +216,9 @@ Methods
 
 ### <a name="method-getData"></a>getData
 
-    mixed ModuleGraphCore::getData($layers)
+```php
+mixed ModuleGraphCore::getData($layers)
+```
 
 
 
@@ -212,7 +236,9 @@ Methods
 
 ### <a name="method-getDate"></a>getDate
 
-    mixed ModuleGraphCore::getDate()
+```php
+mixed ModuleGraphCore::getDate()
+```
 
 
 
@@ -226,7 +252,9 @@ Methods
 
 ### <a name="method-getDateBetween"></a>getDateBetween
 
-    mixed ModuleGraphCore::getDateBetween($employee)
+```php
+mixed ModuleGraphCore::getDateBetween($employee)
+```
 
 
 
@@ -244,7 +272,9 @@ Methods
 
 ### <a name="method-getEmployee"></a>getEmployee
 
-    mixed ModuleGraphCore::getEmployee($employee, \Context $context)
+```php
+mixed ModuleGraphCore::getEmployee($employee, \Context $context)
+```
 
 
 
@@ -263,7 +293,9 @@ Methods
 
 ### <a name="method-getLang"></a>getLang
 
-    mixed ModuleGraphCore::getLang()
+```php
+mixed ModuleGraphCore::getLang()
+```
 
 
 
@@ -277,7 +309,9 @@ Methods
 
 ### <a name="method-setDateGraph"></a>setDateGraph
 
-    mixed ModuleGraphCore::setDateGraph($layers, $legend)
+```php
+mixed ModuleGraphCore::setDateGraph($layers, $legend)
+```
 
 
 
@@ -295,7 +329,9 @@ Methods
 
 ### <a name="method-setEmployee"></a>setEmployee
 
-    mixed ModuleGraphCore::setEmployee($id_employee)
+```php
+mixed ModuleGraphCore::setEmployee($id_employee)
+```
 
 
 
@@ -312,7 +348,9 @@ Methods
 
 ### <a name="method-setLang"></a>setLang
 
-    mixed ModuleGraphCore::setLang($id_lang)
+```php
+mixed ModuleGraphCore::setLang($id_lang)
+```
 
 
 
@@ -329,7 +367,9 @@ Methods
 
 ### <a name="method-setOption"></a>setOption
 
-    mixed ModuleGraphCore::setOption($option, $layers)
+```php
+mixed ModuleGraphCore::setOption($option, $layers)
+```
 
 
 

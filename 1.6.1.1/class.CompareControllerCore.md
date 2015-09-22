@@ -10,14 +10,16 @@ Class CompareControllerCore
 * Source: [controllers/front/CompareController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$php_self](#property-$php_self)
 
-Methods
--------
+### Methods
+
 * [displayAjax](#method-displayAjax)
 * [initContent](#method-initContent)
 * [setMedia](#method-setMedia)
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'products-comparison'
+```php
+public mixed $php_self = 'products-comparison'
+```
 
 
 
@@ -47,7 +51,9 @@ Methods
 
 ### <a name="method-displayAjax"></a>displayAjax
 
-    mixed CompareControllerCore::displayAjax()
+```php
+mixed CompareControllerCore::displayAjax()
+```
 
 Display ajax content (this function is called instead of classic display, in ajax mode)
 
@@ -61,7 +67,9 @@ Display ajax content (this function is called instead of classic display, in aja
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed CompareControllerCore::initContent()
+```php
+mixed CompareControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -75,7 +83,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed CompareControllerCore::setMedia()
+```php
+mixed CompareControllerCore::setMedia()
+```
 
 
 

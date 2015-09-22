@@ -1,5 +1,6 @@
 File controllers/admin/AdminGroupsController.php
 =========
+
 Source: [controllers/admin/AdminGroupsController.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php)
 
 

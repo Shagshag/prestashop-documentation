@@ -10,14 +10,16 @@ Class StoresControllerCore
 * Source: [controllers/front/StoresController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StoresController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$php_self](#property-$php_self)
 
-Methods
--------
+### Methods
+
 * [assignStores](#method-assignStores)
 * [assignStoresSimplified](#method-assignStoresSimplified)
 * [displayAjax](#method-displayAjax)
@@ -37,7 +39,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'stores'
+```php
+public mixed $php_self = 'stores'
+```
 
 
 
@@ -53,7 +57,9 @@ Methods
 
 ### <a name="method-assignStores"></a>assignStores
 
-    mixed StoresControllerCore::assignStores()
+```php
+mixed StoresControllerCore::assignStores()
+```
 
 Assign template vars for classical stores
 
@@ -67,7 +73,9 @@ Assign template vars for classical stores
 
 ### <a name="method-assignStoresSimplified"></a>assignStoresSimplified
 
-    mixed StoresControllerCore::assignStoresSimplified()
+```php
+mixed StoresControllerCore::assignStoresSimplified()
+```
 
 Assign template vars for simplified stores
 
@@ -81,7 +89,9 @@ Assign template vars for simplified stores
 
 ### <a name="method-displayAjax"></a>displayAjax
 
-    mixed StoresControllerCore::displayAjax()
+```php
+mixed StoresControllerCore::displayAjax()
+```
 
 Display the Xml for showing the nodes in the google map
 
@@ -95,7 +105,9 @@ Display the Xml for showing the nodes in the google map
 
 ### <a name="method-getStores"></a>getStores
 
-    mixed StoresControllerCore::getStores()
+```php
+mixed StoresControllerCore::getStores()
+```
 
 
 
@@ -109,7 +121,9 @@ Display the Xml for showing the nodes in the google map
 
 ### <a name="method-init"></a>init
 
-    mixed StoresControllerCore::init()
+```php
+mixed StoresControllerCore::init()
+```
 
 Initialize stores controller
 
@@ -123,7 +137,9 @@ Initialize stores controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed StoresControllerCore::initContent()
+```php
+mixed StoresControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -137,7 +153,9 @@ Assign template vars related to page content
 
 ### <a name="method-processStoreAddress"></a>processStoreAddress
 
-    string StoresControllerCore::processStoreAddress(array $store)
+```php
+string StoresControllerCore::processStoreAddress(array $store)
+```
 
 Get formatted string address
 
@@ -154,7 +172,9 @@ Get formatted string address
 
 ### <a name="method-renderStoreWorkingHours"></a>renderStoreWorkingHours
 
-    mixed StoresControllerCore::renderStoreWorkingHours($store)
+```php
+mixed StoresControllerCore::renderStoreWorkingHours($store)
+```
 
 
 
@@ -171,7 +191,9 @@ Get formatted string address
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed StoresControllerCore::setMedia()
+```php
+mixed StoresControllerCore::setMedia()
+```
 
 
 

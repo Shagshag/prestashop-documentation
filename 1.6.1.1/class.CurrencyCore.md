@@ -10,9 +10,11 @@ Class CurrencyCore
 * Source: [classes/Currency.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$blank](#property-$blank)
@@ -32,8 +34,8 @@ Properties
 * [$suffix](#property-$suffix)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [checkPaymentCurrencies](#method-checkPaymentCurrencies)
@@ -68,7 +70,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public integer $active
+```php
+public integer $active
+```
 
 
 
@@ -80,7 +84,9 @@ Properties
 
 ### <a name="property-$blank"></a>$blank
 
-    public integer $blank
+```php
+public integer $blank
+```
 
 
 
@@ -92,7 +98,9 @@ Properties
 
 ### <a name="property-$conversion_rate"></a>$conversion_rate
 
-    public string $conversion_rate
+```php
+public string $conversion_rate
+```
 
 
 
@@ -104,7 +112,9 @@ Properties
 
 ### <a name="property-$countActiveCurrencies"></a>$countActiveCurrencies
 
-    protected mixed $countActiveCurrencies = array()
+```php
+protected mixed $countActiveCurrencies = array()
+```
 
 
 
@@ -117,7 +127,9 @@ Properties
 
 ### <a name="property-$currencies"></a>$currencies
 
-    protected array $currencies = array()
+```php
+protected array $currencies = array()
+```
 
 
 
@@ -130,7 +142,9 @@ Properties
 
 ### <a name="property-$decimals"></a>$decimals
 
-    public integer $decimals
+```php
+public integer $decimals
+```
 
 
 
@@ -142,7 +156,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'currency', 'primary' => 'id_currency', 'multilang_shop' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'iso_code' => array('type' => self::TYPE_STRING, 'validate' => 'isLanguageIsoCode', 'required' => true, 'size' => 3), 'iso_code_num' => array('type' => self::TYPE_STRING, 'validate' => 'isNumericIsoCode', 'size' => 3), 'blank' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'sign' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 8), 'format' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'decimals' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'conversion_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat', 'required' => true, 'shop' => true), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```php
+public mixed $definition = array('table' => 'currency', 'primary' => 'id_currency', 'multilang_shop' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'iso_code' => array('type' => self::TYPE_STRING, 'validate' => 'isLanguageIsoCode', 'required' => true, 'size' => 3), 'iso_code_num' => array('type' => self::TYPE_STRING, 'validate' => 'isNumericIsoCode', 'size' => 3), 'blank' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'sign' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 8), 'format' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'decimals' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'conversion_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat', 'required' => true, 'shop' => true), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```
 
 
 
@@ -155,7 +171,9 @@ Properties
 
 ### <a name="property-$deleted"></a>$deleted
 
-    public boolean $deleted
+```php
+public boolean $deleted
+```
 
 
 
@@ -167,7 +185,9 @@ Properties
 
 ### <a name="property-$format"></a>$format
 
-    public integer $format
+```php
+public integer $format
+```
 
 
 
@@ -179,7 +199,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -191,7 +213,9 @@ Properties
 
 ### <a name="property-$iso_code"></a>$iso_code
 
-    public string $iso_code
+```php
+public string $iso_code
+```
 
 
 
@@ -203,7 +227,9 @@ Properties
 
 ### <a name="property-$iso_code_num"></a>$iso_code_num
 
-    public string $iso_code_num
+```php
+public string $iso_code_num
+```
 
 
 
@@ -215,7 +241,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -227,7 +255,9 @@ Properties
 
 ### <a name="property-$prefix"></a>$prefix
 
-    public string $prefix = null
+```php
+public string $prefix = null
+```
 
 contains the sign to display before price, according to its format
 
@@ -239,7 +269,9 @@ contains the sign to display before price, according to its format
 
 ### <a name="property-$sign"></a>$sign
 
-    public string $sign
+```php
+public string $sign
+```
 
 
 
@@ -251,7 +283,9 @@ contains the sign to display before price, according to its format
 
 ### <a name="property-$suffix"></a>$suffix
 
-    public string $suffix = null
+```php
+public string $suffix = null
+```
 
 contains the sign to display after price, according to its format
 
@@ -263,7 +297,9 @@ contains the sign to display after price, according to its format
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'currencies')
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'currencies')
+```
 
 
 
@@ -279,7 +315,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed CurrencyCore::__construct($id, $id_lang, $id_shop)
+```php
+mixed CurrencyCore::__construct($id, $id_lang, $id_shop)
+```
 
 
 
@@ -298,7 +336,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed CurrencyCore::add($autodate, $nullValues)
+```php
+mixed CurrencyCore::add($autodate, $nullValues)
+```
 
 Overriding check if currency rate is not empty and if currency with the same iso code already exists.
 
@@ -316,7 +356,9 @@ If it's true, currency is not added.
 
 ### <a name="method-checkPaymentCurrencies"></a>checkPaymentCurrencies
 
-    mixed CurrencyCore::checkPaymentCurrencies($id_module, $id_shop)
+```php
+mixed CurrencyCore::checkPaymentCurrencies($id_module, $id_shop)
+```
 
 
 
@@ -335,7 +377,9 @@ If it's true, currency is not added.
 
 ### <a name="method-countActiveCurrencies"></a>countActiveCurrencies
 
-    mixed CurrencyCore::countActiveCurrencies($id_shop)
+```php
+mixed CurrencyCore::countActiveCurrencies($id_shop)
+```
 
 
 
@@ -353,7 +397,9 @@ If it's true, currency is not added.
 
 ### <a name="method-delete"></a>delete
 
-    mixed CurrencyCore::delete()
+```php
+mixed CurrencyCore::delete()
+```
 
 
 
@@ -367,7 +413,9 @@ If it's true, currency is not added.
 
 ### <a name="method-deleteSelection"></a>deleteSelection
 
-    mixed CurrencyCore::deleteSelection($selection)
+```php
+mixed CurrencyCore::deleteSelection($selection)
+```
 
 
 
@@ -384,7 +432,9 @@ If it's true, currency is not added.
 
 ### <a name="method-exists"></a>exists
 
-    boolean CurrencyCore::exists(integer|string $iso_code, $iso_code_num, $id_shop)
+```php
+boolean CurrencyCore::exists(integer|string $iso_code, $iso_code_num, $id_shop)
+```
 
 Check if a curency already exists.
 
@@ -404,7 +454,9 @@ Check if a curency already exists.
 
 ### <a name="method-getConversationRate"></a>getConversationRate
 
-    mixed CurrencyCore::getConversationRate()
+```php
+mixed CurrencyCore::getConversationRate()
+```
 
 
 
@@ -418,7 +470,9 @@ Check if a curency already exists.
 
 ### <a name="method-getCurrencies"></a>getCurrencies
 
-    array CurrencyCore::getCurrencies($object, $active, $group_by)
+```php
+array CurrencyCore::getCurrencies($object, $active, $group_by)
+```
 
 Return available currencies
 
@@ -438,7 +492,9 @@ Return available currencies
 
 ### <a name="method-getCurrenciesByIdShop"></a>getCurrenciesByIdShop
 
-    mixed CurrencyCore::getCurrenciesByIdShop($id_shop)
+```php
+mixed CurrencyCore::getCurrenciesByIdShop($id_shop)
+```
 
 
 
@@ -456,7 +512,9 @@ Return available currencies
 
 ### <a name="method-getCurrency"></a>getCurrency
 
-    mixed CurrencyCore::getCurrency($id_currency)
+```php
+mixed CurrencyCore::getCurrency($id_currency)
+```
 
 
 
@@ -474,7 +532,9 @@ Return available currencies
 
 ### <a name="method-getCurrencyInstance"></a>getCurrencyInstance
 
-    mixed CurrencyCore::getCurrencyInstance($id)
+```php
+mixed CurrencyCore::getCurrencyInstance($id)
+```
 
 
 
@@ -492,7 +552,9 @@ Return available currencies
 
 ### <a name="method-getCurrent"></a>getCurrent
 
-    \Currency CurrencyCore::getCurrent()
+```php
+\Currency CurrencyCore::getCurrent()
+```
 
 Get current currency
 
@@ -507,7 +569,9 @@ Get current currency
 
 ### <a name="method-getDefaultCurrency"></a>getDefaultCurrency
 
-    mixed CurrencyCore::getDefaultCurrency()
+```php
+mixed CurrencyCore::getDefaultCurrency()
+```
 
 
 
@@ -522,7 +586,9 @@ Get current currency
 
 ### <a name="method-getIdByIsoCode"></a>getIdByIsoCode
 
-    integer CurrencyCore::getIdByIsoCode($iso_code, integer $id_shop)
+```php
+integer CurrencyCore::getIdByIsoCode($iso_code, integer $id_shop)
+```
 
 
 
@@ -541,7 +607,9 @@ Get current currency
 
 ### <a name="method-getIdByIsoCodeNum"></a>getIdByIsoCodeNum
 
-    integer CurrencyCore::getIdByIsoCodeNum($iso_code_num, integer $id_shop)
+```php
+integer CurrencyCore::getIdByIsoCodeNum($iso_code_num, integer $id_shop)
+```
 
 
 
@@ -560,7 +628,9 @@ Get current currency
 
 ### <a name="method-getIdByQuery"></a>getIdByQuery
 
-    \DbQuery CurrencyCore::getIdByQuery(integer $id_shop)
+```php
+\DbQuery CurrencyCore::getIdByQuery(integer $id_shop)
+```
 
 
 
@@ -578,7 +648,9 @@ Get current currency
 
 ### <a name="method-getPaymentCurrencies"></a>getPaymentCurrencies
 
-    mixed CurrencyCore::getPaymentCurrencies($id_module, $id_shop)
+```php
+mixed CurrencyCore::getPaymentCurrencies($id_module, $id_shop)
+```
 
 
 
@@ -597,7 +669,9 @@ Get current currency
 
 ### <a name="method-getPaymentCurrenciesSpecial"></a>getPaymentCurrenciesSpecial
 
-    mixed CurrencyCore::getPaymentCurrenciesSpecial($id_module, $id_shop)
+```php
+mixed CurrencyCore::getPaymentCurrenciesSpecial($id_module, $id_shop)
+```
 
 
 
@@ -616,7 +690,9 @@ Get current currency
 
 ### <a name="method-getSign"></a>getSign
 
-    string CurrencyCore::getSign(string $side)
+```php
+string CurrencyCore::getSign(string $side)
+```
 
 Return formated sign
 
@@ -633,7 +709,9 @@ Return formated sign
 
 ### <a name="method-isMultiCurrencyActivated"></a>isMultiCurrencyActivated
 
-    mixed CurrencyCore::isMultiCurrencyActivated($id_shop)
+```php
+mixed CurrencyCore::isMultiCurrencyActivated($id_shop)
+```
 
 
 
@@ -651,7 +729,9 @@ Return formated sign
 
 ### <a name="method-refreshCurrencies"></a>refreshCurrencies
 
-    mixed CurrencyCore::refreshCurrencies()
+```php
+mixed CurrencyCore::refreshCurrencies()
+```
 
 
 
@@ -666,7 +746,9 @@ Return formated sign
 
 ### <a name="method-refreshCurrency"></a>refreshCurrency
 
-    mixed CurrencyCore::refreshCurrency(\SimpleXMLElement $data, string $isoCodeSource, \Currency $defaultCurrency)
+```php
+mixed CurrencyCore::refreshCurrency(\SimpleXMLElement $data, string $isoCodeSource, \Currency $defaultCurrency)
+```
 
 Refresh the currency exchange rate
 The XML file define exchange rate for each from a default currency ($isoCodeSource).
@@ -686,7 +768,9 @@ The XML file define exchange rate for each from a default currency ($isoCodeSour
 
 ### <a name="method-update"></a>update
 
-    mixed CurrencyCore::update($autodate, $nullValues)
+```php
+mixed CurrencyCore::update($autodate, $nullValues)
+```
 
 
 

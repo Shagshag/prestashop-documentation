@@ -5,12 +5,16 @@ Function smartyTruncate
 
 
 
-    mixed smartyTruncate($params, $smarty)
+```php
+mixed smartyTruncate($params, $smarty)
+```
 
 * Function name: smartyTruncate
-* Source: [config/smarty.config.inc.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L112)
+* Source: [config/smarty.config.inc.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L112).
 
-#### Arguments
+Arguments
+---------
+
 * $params **mixed**
 * $smarty **mixed**
 

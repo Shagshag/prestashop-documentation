@@ -10,14 +10,16 @@ Class AdminRangeWeightControllerCore
 * Source: [controllers/admin/AdminRangeWeightController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangeWeightController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getList](#method-getList)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \RangeWeight $object
+```php
+public \RangeWeight $object
+```
 
 
 
@@ -49,7 +53,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminRangeWeightControllerCore::__construct()
+```php
+mixed AdminRangeWeightControllerCore::__construct()
+```
 
 
 
@@ -63,7 +69,9 @@ Methods
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminRangeWeightControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```php
+mixed AdminRangeWeightControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```
 
 
 
@@ -85,7 +93,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminRangeWeightControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminRangeWeightControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -99,7 +109,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminRangeWeightControllerCore::postProcess()
+```php
+mixed AdminRangeWeightControllerCore::postProcess()
+```
 
 
 
@@ -113,7 +125,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminRangeWeightControllerCore::renderForm()
+```php
+mixed AdminRangeWeightControllerCore::renderForm()
+```
 
 
 

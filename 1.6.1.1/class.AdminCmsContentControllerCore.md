@@ -10,17 +10,19 @@ Class AdminCmsContentControllerCore
 * Source: [controllers/admin/AdminCmsContentController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$admin_cms](#property-$admin_cms)
 * [$admin_cms_categories](#property-$admin_cms_categories)
 * [$category](#property-$category)
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessPublishCMS](#method-ajaxProcessPublishCMS)
 * [ajaxProcessUpdateCmsCategoriesPositions](#method-ajaxProcessUpdateCmsCategoriesPositions)
@@ -41,7 +43,9 @@ Properties
 
 ### <a name="property-$admin_cms"></a>$admin_cms
 
-    protected object $admin_cms
+```php
+protected object $admin_cms
+```
 
 
 
@@ -53,7 +57,9 @@ Properties
 
 ### <a name="property-$admin_cms_categories"></a>$admin_cms_categories
 
-    protected object $admin_cms_categories
+```php
+protected object $admin_cms_categories
+```
 
 
 
@@ -65,7 +71,9 @@ Properties
 
 ### <a name="property-$category"></a>$category
 
-    protected object $category = null
+```php
+protected object $category = null
+```
 
 
 
@@ -78,7 +86,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \CMS $object
+```php
+public \CMS $object
+```
 
 
 
@@ -94,7 +104,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminCmsContentControllerCore::__construct()
+```php
+mixed AdminCmsContentControllerCore::__construct()
+```
 
 
 
@@ -108,7 +120,9 @@ Methods
 
 ### <a name="method-ajaxProcessPublishCMS"></a>ajaxProcessPublishCMS
 
-    mixed AdminCmsContentControllerCore::ajaxProcessPublishCMS()
+```php
+mixed AdminCmsContentControllerCore::ajaxProcessPublishCMS()
+```
 
 
 
@@ -122,7 +136,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateCmsCategoriesPositions"></a>ajaxProcessUpdateCmsCategoriesPositions
 
-    mixed AdminCmsContentControllerCore::ajaxProcessUpdateCmsCategoriesPositions()
+```php
+mixed AdminCmsContentControllerCore::ajaxProcessUpdateCmsCategoriesPositions()
+```
 
 
 
@@ -136,7 +152,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateCmsPositions"></a>ajaxProcessUpdateCmsPositions
 
-    mixed AdminCmsContentControllerCore::ajaxProcessUpdateCmsPositions()
+```php
+mixed AdminCmsContentControllerCore::ajaxProcessUpdateCmsPositions()
+```
 
 
 
@@ -150,7 +168,9 @@ Methods
 
 ### <a name="method-getCurrentCMSCategory"></a>getCurrentCMSCategory
 
-    object AdminCmsContentControllerCore::getCurrentCMSCategory()
+```php
+object AdminCmsContentControllerCore::getCurrentCMSCategory()
+```
 
 Return current category
 
@@ -165,7 +185,9 @@ Return current category
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminCmsContentControllerCore::initContent()
+```php
+mixed AdminCmsContentControllerCore::initContent()
+```
 
 
 
@@ -179,7 +201,9 @@ Return current category
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminCmsContentControllerCore::postProcess()
+```php
+mixed AdminCmsContentControllerCore::postProcess()
+```
 
 
 
@@ -193,7 +217,9 @@ Return current category
 
 ### <a name="method-renderPageHeaderToolbar"></a>renderPageHeaderToolbar
 
-    mixed AdminCmsContentControllerCore::renderPageHeaderToolbar()
+```php
+mixed AdminCmsContentControllerCore::renderPageHeaderToolbar()
+```
 
 
 
@@ -207,7 +233,9 @@ Return current category
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminCmsContentControllerCore::setMedia()
+```php
+mixed AdminCmsContentControllerCore::setMedia()
+```
 
 
 
@@ -221,7 +249,9 @@ Return current category
 
 ### <a name="method-viewAccess"></a>viewAccess
 
-    mixed AdminCmsContentControllerCore::viewAccess($disable)
+```php
+mixed AdminCmsContentControllerCore::viewAccess($disable)
+```
 
 
 

@@ -9,8 +9,11 @@ Class CartCore
 * Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Cart.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [BOTH](#constant-BOTH)
 * [BOTH_WITHOUT_SHIPPING](#constant-BOTH_WITHOUT_SHIPPING)
@@ -21,8 +24,7 @@ Constants
 * [ONLY_SHIPPING](#constant-ONLY_SHIPPING)
 * [ONLY_WRAPPING](#constant-ONLY_WRAPPING)
 
-Properties
-----------
+### Properties
 
 * [$_attributesLists](#property-$_attributesLists)
 * [$_carriers](#property-$_carriers)
@@ -58,8 +60,8 @@ Properties
 * [$textFields](#property-$textFields)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_addCustomization](#method-_addCustomization)
 * [_deleteCustomization](#method-_deleteCustomization)
@@ -148,7 +150,9 @@ Constants
 
 ### <a name="constant-BOTH"></a>BOTH
 
-    const BOTH = 3
+```php
+const BOTH = 3
+```
 
 
 
@@ -159,7 +163,9 @@ Constants
 
 ### <a name="constant-BOTH_WITHOUT_SHIPPING"></a>BOTH_WITHOUT_SHIPPING
 
-    const BOTH_WITHOUT_SHIPPING = 4
+```php
+const BOTH_WITHOUT_SHIPPING = 4
+```
 
 
 
@@ -170,7 +176,9 @@ Constants
 
 ### <a name="constant-ONLY_DISCOUNTS"></a>ONLY_DISCOUNTS
 
-    const ONLY_DISCOUNTS = 2
+```php
+const ONLY_DISCOUNTS = 2
+```
 
 
 
@@ -181,7 +189,9 @@ Constants
 
 ### <a name="constant-ONLY_PHYSICAL_PRODUCTS_WITHOUT_SHIPPING"></a>ONLY_PHYSICAL_PRODUCTS_WITHOUT_SHIPPING
 
-    const ONLY_PHYSICAL_PRODUCTS_WITHOUT_SHIPPING = 8
+```php
+const ONLY_PHYSICAL_PRODUCTS_WITHOUT_SHIPPING = 8
+```
 
 
 
@@ -192,7 +202,9 @@ Constants
 
 ### <a name="constant-ONLY_PRODUCTS"></a>ONLY_PRODUCTS
 
-    const ONLY_PRODUCTS = 1
+```php
+const ONLY_PRODUCTS = 1
+```
 
 
 
@@ -203,7 +215,9 @@ Constants
 
 ### <a name="constant-ONLY_PRODUCTS_WITHOUT_SHIPPING"></a>ONLY_PRODUCTS_WITHOUT_SHIPPING
 
-    const ONLY_PRODUCTS_WITHOUT_SHIPPING = 7
+```php
+const ONLY_PRODUCTS_WITHOUT_SHIPPING = 7
+```
 
 
 
@@ -214,7 +228,9 @@ Constants
 
 ### <a name="constant-ONLY_SHIPPING"></a>ONLY_SHIPPING
 
-    const ONLY_SHIPPING = 5
+```php
+const ONLY_SHIPPING = 5
+```
 
 
 
@@ -225,7 +241,9 @@ Constants
 
 ### <a name="constant-ONLY_WRAPPING"></a>ONLY_WRAPPING
 
-    const ONLY_WRAPPING = 6
+```php
+const ONLY_WRAPPING = 6
+```
 
 
 
@@ -240,7 +258,9 @@ Properties
 
 ### <a name="property-$_attributesLists"></a>$_attributesLists
 
-    protected mixed $_attributesLists = array()
+```php
+protected mixed $_attributesLists = array()
+```
 
 
 
@@ -253,7 +273,9 @@ Properties
 
 ### <a name="property-$_carriers"></a>$_carriers
 
-    protected mixed $_carriers = null
+```php
+protected mixed $_carriers = null
+```
 
 
 
@@ -266,7 +288,9 @@ Properties
 
 ### <a name="property-$_customer"></a>$_customer
 
-    protected \Customer $_customer = null
+```php
+protected \Customer $_customer = null
+```
 
 
 
@@ -279,7 +303,9 @@ Properties
 
 ### <a name="property-$_isVirtualCart"></a>$_isVirtualCart
 
-    protected mixed $_isVirtualCart = array()
+```php
+protected mixed $_isVirtualCart = array()
+```
 
 
 
@@ -292,7 +318,9 @@ Properties
 
 ### <a name="property-$_nbProducts"></a>$_nbProducts
 
-    protected mixed $_nbProducts = array()
+```php
+protected mixed $_nbProducts = array()
+```
 
 
 
@@ -305,7 +333,9 @@ Properties
 
 ### <a name="property-$_products"></a>$_products
 
-    protected mixed $_products = null
+```php
+protected mixed $_products = null
+```
 
 
 
@@ -317,7 +347,9 @@ Properties
 
 ### <a name="property-$_taxCalculationMethod"></a>$_taxCalculationMethod
 
-    protected mixed $_taxCalculationMethod = PS_TAX_EXC
+```php
+protected mixed $_taxCalculationMethod = PS_TAX_EXC
+```
 
 
 
@@ -329,7 +361,9 @@ Properties
 
 ### <a name="property-$_taxes_rate"></a>$_taxes_rate
 
-    protected mixed $_taxes_rate = null
+```php
+protected mixed $_taxes_rate = null
+```
 
 
 
@@ -342,7 +376,9 @@ Properties
 
 ### <a name="property-$_totalWeight"></a>$_totalWeight
 
-    protected mixed $_totalWeight = array()
+```php
+protected mixed $_totalWeight = array()
+```
 
 
 
@@ -355,7 +391,9 @@ Properties
 
 ### <a name="property-$allow_seperated_package"></a>$allow_seperated_package
 
-    public boolean $allow_seperated_package = false
+```php
+public boolean $allow_seperated_package = false
+```
 
 
 
@@ -367,7 +405,9 @@ Properties
 
 ### <a name="property-$checkedTos"></a>$checkedTos
 
-    public mixed $checkedTos = false
+```php
+public mixed $checkedTos = false
+```
 
 
 
@@ -379,7 +419,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -391,7 +433,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -403,7 +447,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'cart', 'primary' => 'id_cart', 'fields' => array('id_shop_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_address_delivery' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_address_invoice' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_carrier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_guest' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'recyclable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'gift' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'gift_message' => array('type' => self::TYPE_STRING, 'validate' => 'isMessage'), 'mobile_theme' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'delivery_option' => array('type' => self::TYPE_STRING), 'secure_key' => array('type' => self::TYPE_STRING, 'size' => 32), 'allow_seperated_package' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'cart', 'primary' => 'id_cart', 'fields' => array('id_shop_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_address_delivery' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_address_invoice' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_carrier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_guest' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'recyclable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'gift' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'gift_message' => array('type' => self::TYPE_STRING, 'validate' => 'isMessage'), 'mobile_theme' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'delivery_option' => array('type' => self::TYPE_STRING), 'secure_key' => array('type' => self::TYPE_STRING, 'size' => 32), 'allow_seperated_package' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -416,7 +462,9 @@ Properties
 
 ### <a name="property-$delivery_option"></a>$delivery_option
 
-    public mixed $delivery_option
+```php
+public mixed $delivery_option
+```
 
 
 
@@ -428,7 +476,9 @@ Properties
 
 ### <a name="property-$gift"></a>$gift
 
-    public boolean $gift
+```php
+public boolean $gift
+```
 
 
 
@@ -440,7 +490,9 @@ Properties
 
 ### <a name="property-$gift_message"></a>$gift_message
 
-    public string $gift_message
+```php
+public string $gift_message
+```
 
 
 
@@ -452,7 +504,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -464,7 +518,9 @@ Properties
 
 ### <a name="property-$id_address_delivery"></a>$id_address_delivery
 
-    public integer $id_address_delivery
+```php
+public integer $id_address_delivery
+```
 
 
 
@@ -476,7 +532,9 @@ Properties
 
 ### <a name="property-$id_address_invoice"></a>$id_address_invoice
 
-    public integer $id_address_invoice
+```php
+public integer $id_address_invoice
+```
 
 
 
@@ -488,7 +546,9 @@ Properties
 
 ### <a name="property-$id_carrier"></a>$id_carrier
 
-    public integer $id_carrier
+```php
+public integer $id_carrier
+```
 
 
 
@@ -500,7 +560,9 @@ Properties
 
 ### <a name="property-$id_currency"></a>$id_currency
 
-    public integer $id_currency
+```php
+public integer $id_currency
+```
 
 
 
@@ -512,7 +574,9 @@ Properties
 
 ### <a name="property-$id_customer"></a>$id_customer
 
-    public integer $id_customer
+```php
+public integer $id_customer
+```
 
 
 
@@ -524,7 +588,9 @@ Properties
 
 ### <a name="property-$id_guest"></a>$id_guest
 
-    public integer $id_guest
+```php
+public integer $id_guest
+```
 
 
 
@@ -536,7 +602,9 @@ Properties
 
 ### <a name="property-$id_lang"></a>$id_lang
 
-    public integer $id_lang
+```php
+public integer $id_lang
+```
 
 
 
@@ -548,7 +616,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public mixed $id_shop
+```php
+public mixed $id_shop
+```
 
 
 
@@ -560,7 +630,9 @@ Properties
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
 
-    public mixed $id_shop_group
+```php
+public mixed $id_shop_group
+```
 
 
 
@@ -572,7 +644,9 @@ Properties
 
 ### <a name="property-$mobile_theme"></a>$mobile_theme
 
-    public boolean $mobile_theme
+```php
+public boolean $mobile_theme
+```
 
 
 
@@ -584,7 +658,9 @@ Properties
 
 ### <a name="property-$pictures"></a>$pictures
 
-    public mixed $pictures
+```php
+public mixed $pictures
+```
 
 
 
@@ -596,7 +672,9 @@ Properties
 
 ### <a name="property-$recyclable"></a>$recyclable
 
-    public boolean $recyclable
+```php
+public boolean $recyclable
+```
 
 
 
@@ -608,7 +686,9 @@ Properties
 
 ### <a name="property-$secure_key"></a>$secure_key
 
-    public string $secure_key
+```php
+public string $secure_key
+```
 
 
 
@@ -620,7 +700,9 @@ Properties
 
 ### <a name="property-$textFields"></a>$textFields
 
-    public mixed $textFields
+```php
+public mixed $textFields
+```
 
 
 
@@ -632,7 +714,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_address_delivery' => array('xlink_resource' => 'addresses'), 'id_address_invoice' => array('xlink_resource' => 'addresses'), 'id_currency' => array('xlink_resource' => 'currencies'), 'id_customer' => array('xlink_resource' => 'customers'), 'id_guest' => array('xlink_resource' => 'guests'), 'id_lang' => array('xlink_resource' => 'languages')), 'associations' => array('cart_rows' => array('resource' => 'cart_row', 'virtual_entity' => true, 'fields' => array('id_product' => array('required' => true, 'xlink_resource' => 'products'), 'id_product_attribute' => array('required' => true, 'xlink_resource' => 'combinations'), 'id_address_delivery' => array('required' => true, 'xlink_resource' => 'addresses'), 'quantity' => array('required' => true)))))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_address_delivery' => array('xlink_resource' => 'addresses'), 'id_address_invoice' => array('xlink_resource' => 'addresses'), 'id_currency' => array('xlink_resource' => 'currencies'), 'id_customer' => array('xlink_resource' => 'customers'), 'id_guest' => array('xlink_resource' => 'guests'), 'id_lang' => array('xlink_resource' => 'languages')), 'associations' => array('cart_rows' => array('resource' => 'cart_row', 'virtual_entity' => true, 'fields' => array('id_product' => array('required' => true, 'xlink_resource' => 'products'), 'id_product_attribute' => array('required' => true, 'xlink_resource' => 'combinations'), 'id_address_delivery' => array('required' => true, 'xlink_resource' => 'addresses'), 'quantity' => array('required' => true)))))
+```
 
 
 
@@ -648,7 +732,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed CartCore::__construct($id, $id_lang)
+```php
+mixed CartCore::__construct($id, $id_lang)
+```
 
 
 
@@ -666,7 +752,9 @@ Methods
 
 ### <a name="method-_addCustomization"></a>_addCustomization
 
-    boolean CartCore::_addCustomization(integer $id_product, integer $id_product_attribute, integer $index, integer $type, string $field, integer $quantity)
+```php
+boolean CartCore::_addCustomization(integer $id_product, integer $id_product_attribute, integer $index, integer $type, string $field, integer $quantity)
+```
 
 Add customization item to database
 
@@ -688,7 +776,9 @@ Add customization item to database
 
 ### <a name="method-_deleteCustomization"></a>_deleteCustomization
 
-    boolean CartCore::_deleteCustomization(integer $id_customization, $id_product, $id_product_attribute, $id_address_delivery)
+```php
+boolean CartCore::_deleteCustomization(integer $id_customization, $id_product, $id_product_attribute, $id_address_delivery)
+```
 
 Delete a customization from the cart. If customization is a Picture,
 then the image is also deleted
@@ -709,7 +799,9 @@ then the image is also deleted
 
 ### <a name="method-_updateCustomizationQuantity"></a>_updateCustomizationQuantity
 
-    mixed CartCore::_updateCustomizationQuantity($quantity, $id_customization, $id_product, $id_product_attribute, $id_address_delivery, $operator)
+```php
+mixed CartCore::_updateCustomizationQuantity($quantity, $id_customization, $id_product, $id_product_attribute, $id_address_delivery, $operator)
+```
 
 
 
@@ -731,7 +823,9 @@ then the image is also deleted
 
 ### <a name="method-add"></a>add
 
-    mixed CartCore::add($autodate, $null_values)
+```php
+mixed CartCore::add($autodate, $null_values)
+```
 
 
 
@@ -749,7 +843,9 @@ then the image is also deleted
 
 ### <a name="method-addCartRule"></a>addCartRule
 
-    mixed CartCore::addCartRule($id_cart_rule)
+```php
+mixed CartCore::addCartRule($id_cart_rule)
+```
 
 
 
@@ -766,7 +862,9 @@ then the image is also deleted
 
 ### <a name="method-addDiscount"></a>addDiscount
 
-    mixed CartCore::addDiscount($id_cart_rule)
+```php
+mixed CartCore::addDiscount($id_cart_rule)
+```
 
 
 
@@ -783,7 +881,9 @@ then the image is also deleted
 
 ### <a name="method-addExtraCarriers"></a>addExtraCarriers
 
-    mixed CartCore::addExtraCarriers(array $array)
+```php
+mixed CartCore::addExtraCarriers(array $array)
+```
 
 Execute hook displayCarrierList (extraCarrier) and merge theme to the $array
 
@@ -801,7 +901,9 @@ Execute hook displayCarrierList (extraCarrier) and merge theme to the $array
 
 ### <a name="method-addPictureToProduct"></a>addPictureToProduct
 
-    boolean CartCore::addPictureToProduct($id_product, $index, $type, $file)
+```php
+boolean CartCore::addPictureToProduct($id_product, $index, $type, $file)
+```
 
 Add customer's pictures
 
@@ -821,7 +923,9 @@ Add customer's pictures
 
 ### <a name="method-addTextFieldToProduct"></a>addTextFieldToProduct
 
-    boolean CartCore::addTextFieldToProduct($id_product, $index, $type, $text_value)
+```php
+boolean CartCore::addTextFieldToProduct($id_product, $index, $type, $text_value)
+```
 
 Add customer's text
 
@@ -841,7 +945,9 @@ Add customer's text
 
 ### <a name="method-autosetProductAddress"></a>autosetProductAddress
 
-    mixed CartCore::autosetProductAddress()
+```php
+mixed CartCore::autosetProductAddress()
+```
 
 Set an address to all products on the cart without address delivery
 
@@ -855,7 +961,9 @@ Set an address to all products on the cart without address delivery
 
 ### <a name="method-cacheSomeAttributesLists"></a>cacheSomeAttributesLists
 
-    mixed CartCore::cacheSomeAttributesLists($ipa_list, $id_lang)
+```php
+mixed CartCore::cacheSomeAttributesLists($ipa_list, $id_lang)
+```
 
 
 
@@ -874,7 +982,9 @@ Set an address to all products on the cart without address delivery
 
 ### <a name="method-carrierIsSelected"></a>carrierIsSelected
 
-    mixed CartCore::carrierIsSelected($id_carrier, $id_address)
+```php
+mixed CartCore::carrierIsSelected($id_carrier, $id_address)
+```
 
 
 
@@ -892,7 +1002,9 @@ Set an address to all products on the cart without address delivery
 
 ### <a name="method-checkDiscountValidity"></a>checkDiscountValidity
 
-    boolean|string CartCore::checkDiscountValidity(\CartRule $obj, $discounts, $order_total, $products, $check_cart_discount)
+```php
+boolean|string CartCore::checkDiscountValidity(\CartRule $obj, $discounts, $order_total, $products, $check_cart_discount)
+```
 
 
 
@@ -913,7 +1025,9 @@ Set an address to all products on the cart without address delivery
 
 ### <a name="method-checkProductsAccess"></a>checkProductsAccess
 
-    mixed CartCore::checkProductsAccess()
+```php
+mixed CartCore::checkProductsAccess()
+```
 
 
 
@@ -927,7 +1041,9 @@ Set an address to all products on the cart without address delivery
 
 ### <a name="method-checkQuantities"></a>checkQuantities
 
-    mixed CartCore::checkQuantities($return_product)
+```php
+mixed CartCore::checkQuantities($return_product)
+```
 
 
 
@@ -944,7 +1060,9 @@ Set an address to all products on the cart without address delivery
 
 ### <a name="method-containsProduct"></a>containsProduct
 
-    mixed CartCore::containsProduct($id_product, $id_product_attribute, $id_customization, $id_address_delivery)
+```php
+mixed CartCore::containsProduct($id_product, $id_product_attribute, $id_customization, $id_address_delivery)
+```
 
 
 
@@ -964,7 +1082,9 @@ Set an address to all products on the cart without address delivery
 
 ### <a name="method-delete"></a>delete
 
-    mixed CartCore::delete()
+```php
+mixed CartCore::delete()
+```
 
 
 
@@ -978,7 +1098,9 @@ Set an address to all products on the cart without address delivery
 
 ### <a name="method-deleteAssociations"></a>deleteAssociations
 
-    mixed CartCore::deleteAssociations()
+```php
+mixed CartCore::deleteAssociations()
+```
 
 
 
@@ -992,7 +1114,9 @@ Set an address to all products on the cart without address delivery
 
 ### <a name="method-deleteCustomizationToProduct"></a>deleteCustomizationToProduct
 
-    boolean CartCore::deleteCustomizationToProduct(integer $id_product, integer $index)
+```php
+boolean CartCore::deleteCustomizationToProduct(integer $id_product, integer $index)
+```
 
 Remove a customer's customization
 
@@ -1010,7 +1134,9 @@ Remove a customer's customization
 
 ### <a name="method-deleteDiscount"></a>deleteDiscount
 
-    mixed CartCore::deleteDiscount($id_cart_rule)
+```php
+mixed CartCore::deleteDiscount($id_cart_rule)
+```
 
 
 
@@ -1027,7 +1153,9 @@ Remove a customer's customization
 
 ### <a name="method-deletePictureToProduct"></a>deletePictureToProduct
 
-    boolean CartCore::deletePictureToProduct(integer $id_product, $index)
+```php
+boolean CartCore::deletePictureToProduct(integer $id_product, $index)
+```
 
 
 
@@ -1045,7 +1173,9 @@ Remove a customer's customization
 
 ### <a name="method-deleteProduct"></a>deleteProduct
 
-    boolean CartCore::deleteProduct(integer $id_product, integer $id_product_attribute, integer $id_customization, $id_address_delivery)
+```php
+boolean CartCore::deleteProduct(integer $id_product, integer $id_product_attribute, integer $id_customization, $id_address_delivery)
+```
 
 Delete a product from the cart
 
@@ -1065,7 +1195,9 @@ Delete a product from the cart
 
 ### <a name="method-desintifier"></a>desintifier
 
-    mixed CartCore::desintifier($int, $delimiter)
+```php
+mixed CartCore::desintifier($int, $delimiter)
+```
 
 Translate a int option_delivery identifier (3240002000) in a string ('24,3,')
 
@@ -1084,7 +1216,9 @@ Translate a int option_delivery identifier (3240002000) in a string ('24,3,')
 
 ### <a name="method-duplicate"></a>duplicate
 
-    mixed CartCore::duplicate()
+```php
+mixed CartCore::duplicate()
+```
 
 
 
@@ -1098,7 +1232,9 @@ Translate a int option_delivery identifier (3240002000) in a string ('24,3,')
 
 ### <a name="method-duplicateProduct"></a>duplicateProduct
 
-    mixed CartCore::duplicateProduct($id_product, $id_product_attribute, $id_address_delivery, $new_id_address_delivery, $quantity, $keep_quantity)
+```php
+mixed CartCore::duplicateProduct($id_product, $id_product_attribute, $id_address_delivery, $new_id_address_delivery, $quantity, $keep_quantity)
+```
 
 
 
@@ -1120,7 +1256,9 @@ Translate a int option_delivery identifier (3240002000) in a string ('24,3,')
 
 ### <a name="method-getAddressCollection"></a>getAddressCollection
 
-    mixed CartCore::getAddressCollection()
+```php
+mixed CartCore::getAddressCollection()
+```
 
 Get all delivery addresses object for the current cart
 
@@ -1134,7 +1272,9 @@ Get all delivery addresses object for the current cart
 
 ### <a name="method-getAverageProductsTaxRate"></a>getAverageProductsTaxRate
 
-    mixed CartCore::getAverageProductsTaxRate($cart_amount_te, $cart_amount_ti)
+```php
+mixed CartCore::getAverageProductsTaxRate($cart_amount_te, $cart_amount_ti)
+```
 
 The arguments are optional and only serve as return values in case caller needs the details.
 
@@ -1152,7 +1292,9 @@ The arguments are optional and only serve as return values in case caller needs 
 
 ### <a name="method-getCarrierCost"></a>getCarrierCost
 
-    float CartCore::getCarrierCost(integer $id_carrier, boolean $useTax, \Country|null $default_country, array $delivery_option)
+```php
+float CartCore::getCarrierCost(integer $id_carrier, boolean $useTax, \Country|null $default_country, array $delivery_option)
+```
 
 Return shipping total of a specific carriers for the cart
 
@@ -1172,7 +1314,9 @@ Return shipping total of a specific carriers for the cart
 
 ### <a name="method-getCartByOrderId"></a>getCartByOrderId
 
-    \Cart|boolean CartCore::getCartByOrderId(integer $id_order)
+```php
+\Cart|boolean CartCore::getCartByOrderId(integer $id_order)
+```
 
 Build cart object from provided id_order
 
@@ -1190,7 +1334,9 @@ Build cart object from provided id_order
 
 ### <a name="method-getCartIdByOrderId"></a>getCartIdByOrderId
 
-    mixed CartCore::getCartIdByOrderId($id_order)
+```php
+mixed CartCore::getCartIdByOrderId($id_order)
+```
 
 
 
@@ -1208,7 +1354,9 @@ Build cart object from provided id_order
 
 ### <a name="method-getCartRules"></a>getCartRules
 
-    mixed CartCore::getCartRules($filter)
+```php
+mixed CartCore::getCartRules($filter)
+```
 
 
 
@@ -1225,7 +1373,9 @@ Build cart object from provided id_order
 
 ### <a name="method-getCustomerCarts"></a>getCustomerCarts
 
-    mixed CartCore::getCustomerCarts($id_customer, $with_order)
+```php
+mixed CartCore::getCustomerCarts($id_customer, $with_order)
+```
 
 
 
@@ -1244,7 +1394,9 @@ Build cart object from provided id_order
 
 ### <a name="method-getDeliveryAddressesWithoutCarriers"></a>getDeliveryAddressesWithoutCarriers
 
-    array CartCore::getDeliveryAddressesWithoutCarriers(boolean $return_collection, $error)
+```php
+array CartCore::getDeliveryAddressesWithoutCarriers(boolean $return_collection, $error)
+```
 
 Get all the ids of the delivery addresses without carriers
 
@@ -1262,7 +1414,9 @@ Get all the ids of the delivery addresses without carriers
 
 ### <a name="method-getDeliveryOption"></a>getDeliveryOption
 
-    array|boolean|mixed CartCore::getDeliveryOption(\Country|null $default_country, boolean $dontAutoSelectOptions, boolean $use_cache)
+```php
+array|boolean|mixed CartCore::getDeliveryOption(\Country|null $default_country, boolean $dontAutoSelectOptions, boolean $use_cache)
+```
 
 Get the delivery option selected, or if no delivery option was selected,
 the cheapest option for each address
@@ -1282,7 +1436,9 @@ the cheapest option for each address
 
 ### <a name="method-getDeliveryOptionList"></a>getDeliveryOptionList
 
-    array CartCore::getDeliveryOptionList(\Country $default_country, boolean $flush)
+```php
+array CartCore::getDeliveryOptionList(\Country $default_country, boolean $flush)
+```
 
 Get all deliveries options available for the current cart
 
@@ -1300,7 +1456,9 @@ Get all deliveries options available for the current cart
 
 ### <a name="method-getDiscounts"></a>getDiscounts
 
-    mixed CartCore::getDiscounts($lite, $refresh)
+```php
+mixed CartCore::getDiscounts($lite, $refresh)
+```
 
 
 
@@ -1318,7 +1476,9 @@ Get all deliveries options available for the current cart
 
 ### <a name="method-getDiscountsCustomer"></a>getDiscountsCustomer
 
-    mixed CartCore::getDiscountsCustomer($id_cart_rule)
+```php
+mixed CartCore::getDiscountsCustomer($id_cart_rule)
+```
 
 
 
@@ -1335,7 +1495,9 @@ Get all deliveries options available for the current cart
 
 ### <a name="method-getGiftWrappingPrice"></a>getGiftWrappingPrice
 
-    float CartCore::getGiftWrappingPrice(boolean $with_taxes, $id_address)
+```php
+float CartCore::getGiftWrappingPrice(boolean $with_taxes, $id_address)
+```
 
 Get the gift wrapping price
 
@@ -1353,7 +1515,9 @@ Get the gift wrapping price
 
 ### <a name="method-getIdCarrierFromDeliveryOption"></a>getIdCarrierFromDeliveryOption
 
-    mixed CartCore::getIdCarrierFromDeliveryOption($delivery_option)
+```php
+mixed CartCore::getIdCarrierFromDeliveryOption($delivery_option)
+```
 
 
 
@@ -1370,7 +1534,9 @@ Get the gift wrapping price
 
 ### <a name="method-getLastProduct"></a>getLastProduct
 
-    mixed CartCore::getLastProduct()
+```php
+mixed CartCore::getLastProduct()
+```
 
 
 
@@ -1384,7 +1550,9 @@ Get the gift wrapping price
 
 ### <a name="method-getNbOfPackages"></a>getNbOfPackages
 
-    integer CartCore::getNbOfPackages()
+```php
+integer CartCore::getNbOfPackages()
+```
 
 Get the number of packages
 
@@ -1398,7 +1566,9 @@ Get the number of packages
 
 ### <a name="method-getNbProducts"></a>getNbProducts
 
-    mixed CartCore::getNbProducts($id)
+```php
+mixed CartCore::getNbProducts($id)
+```
 
 
 
@@ -1416,7 +1586,9 @@ Get the number of packages
 
 ### <a name="method-getOrderShippingCost"></a>getOrderShippingCost
 
-    mixed CartCore::getOrderShippingCost($id_carrier, $use_tax, \Country $default_country, $product_list)
+```php
+mixed CartCore::getOrderShippingCost($id_carrier, $use_tax, \Country $default_country, $product_list)
+```
 
 
 
@@ -1436,7 +1608,9 @@ Get the number of packages
 
 ### <a name="method-getOrderTotal"></a>getOrderTotal
 
-    float CartCore::getOrderTotal($with_taxes, integer $type, $products, $id_carrier, boolean $use_cache)
+```php
+float CartCore::getOrderTotal($with_taxes, integer $type, $products, $id_carrier, boolean $use_cache)
+```
 
 This function returns the total cart amount
 
@@ -1465,7 +1639,9 @@ Cart::ONLY_PHYSICAL_PRODUCTS_WITHOUT_SHIPPING
 
 ### <a name="method-getOrderTotalUsingTaxCalculationMethod"></a>getOrderTotalUsingTaxCalculationMethod
 
-    mixed CartCore::getOrderTotalUsingTaxCalculationMethod($id_cart)
+```php
+mixed CartCore::getOrderTotalUsingTaxCalculationMethod($id_cart)
+```
 
 
 
@@ -1483,7 +1659,9 @@ Cart::ONLY_PHYSICAL_PRODUCTS_WITHOUT_SHIPPING
 
 ### <a name="method-getOrderedCartRulesIds"></a>getOrderedCartRulesIds
 
-    array CartCore::getOrderedCartRulesIds($filter)
+```php
+array CartCore::getOrderedCartRulesIds($filter)
+```
 
 Return the cart rules Ids on the cart.
 
@@ -1500,7 +1678,9 @@ Return the cart rules Ids on the cart.
 
 ### <a name="method-getPackageIdWarehouse"></a>getPackageIdWarehouse
 
-    mixed CartCore::getPackageIdWarehouse($package, $id_carrier)
+```php
+mixed CartCore::getPackageIdWarehouse($package, $id_carrier)
+```
 
 
 
@@ -1518,7 +1698,9 @@ Return the cart rules Ids on the cart.
 
 ### <a name="method-getPackageList"></a>getPackageList
 
-    array CartCore::getPackageList($flush)
+```php
+array CartCore::getPackageList($flush)
+```
 
 Get products grouped by package and by addresses to be sent individualy (one package = one shipping cost).
 
@@ -1535,7 +1717,9 @@ Get products grouped by package and by addresses to be sent individualy (one pac
 
 ### <a name="method-getPackageShippingCost"></a>getPackageShippingCost
 
-    float CartCore::getPackageShippingCost(integer $id_carrier, boolean $use_tax, \Country|null $default_country, array|null $product_list, integer|null $id_zone)
+```php
+float CartCore::getPackageShippingCost(integer $id_carrier, boolean $use_tax, \Country|null $default_country, array|null $product_list, integer|null $id_zone)
+```
 
 Return package shipping cost
 
@@ -1557,7 +1741,9 @@ Return package shipping cost
 
 ### <a name="method-getProductCustomization"></a>getProductCustomization
 
-    array CartCore::getProductCustomization(integer $id_product, integer $type, boolean $not_in_cart)
+```php
+array CartCore::getProductCustomization(integer $id_product, integer $type, boolean $not_in_cart)
+```
 
 Return custom pictures in this cart for a specified product
 
@@ -1576,7 +1762,9 @@ Return custom pictures in this cart for a specified product
 
 ### <a name="method-getProducts"></a>getProducts
 
-    mixed CartCore::getProducts($refresh, $id_product, $id_country)
+```php
+mixed CartCore::getProducts($refresh, $id_product, $id_country)
+```
 
 Return cart products
 
@@ -1595,7 +1783,9 @@ Return cart products
 
 ### <a name="method-getSummaryDetails"></a>getSummaryDetails
 
-    array CartCore::getSummaryDetails($id_lang, $refresh)
+```php
+array CartCore::getSummaryDetails($id_lang, $refresh)
+```
 
 Return useful informations for cart
 
@@ -1613,7 +1803,9 @@ Return useful informations for cart
 
 ### <a name="method-getTaxesAverageUsed"></a>getTaxesAverageUsed
 
-    mixed CartCore::getTaxesAverageUsed($id_cart)
+```php
+mixed CartCore::getTaxesAverageUsed($id_cart)
+```
 
 
 
@@ -1631,7 +1823,9 @@ Return useful informations for cart
 
 ### <a name="method-getTotalCart"></a>getTotalCart
 
-    mixed CartCore::getTotalCart($id_cart, $use_tax_display, $type)
+```php
+mixed CartCore::getTotalCart($id_cart, $use_tax_display, $type)
+```
 
 
 
@@ -1651,7 +1845,9 @@ Return useful informations for cart
 
 ### <a name="method-getTotalShippingCost"></a>getTotalShippingCost
 
-    float CartCore::getTotalShippingCost(array|null $delivery_option, boolean $use_tax, \Country|null $default_country)
+```php
+float CartCore::getTotalShippingCost(array|null $delivery_option, boolean $use_tax, \Country|null $default_country)
+```
 
 Return shipping total for the cart
 
@@ -1670,7 +1866,9 @@ Return shipping total for the cart
 
 ### <a name="method-getTotalWeight"></a>getTotalWeight
 
-    float CartCore::getTotalWeight($products)
+```php
+float CartCore::getTotalWeight($products)
+```
 
 Return cart weight
 
@@ -1687,7 +1885,9 @@ Return cart weight
 
 ### <a name="method-getWsCartRows"></a>getWsCartRows
 
-    mixed CartCore::getWsCartRows()
+```php
+mixed CartCore::getWsCartRows()
+```
 
 
 
@@ -1701,7 +1901,9 @@ Return cart weight
 
 ### <a name="method-intifier"></a>intifier
 
-    integer CartCore::intifier($string, $delimiter)
+```php
+integer CartCore::intifier($string, $delimiter)
+```
 
 Translate a string option_delivery identifier ('24,3,') in a int (3240002000)
 
@@ -1722,7 +1924,9 @@ The size of this sequence is fixed by the first digit of the return
 
 ### <a name="method-isAllProductsInStock"></a>isAllProductsInStock
 
-    boolean CartCore::isAllProductsInStock(boolean $ignore_virtual, boolean $exclusive)
+```php
+boolean CartCore::isAllProductsInStock(boolean $ignore_virtual, boolean $exclusive)
+```
 
 
 
@@ -1740,7 +1944,9 @@ The size of this sequence is fixed by the first digit of the return
 
 ### <a name="method-isCarrierInRange"></a>isCarrierInRange
 
-    mixed CartCore::isCarrierInRange($id_carrier, $id_zone)
+```php
+mixed CartCore::isCarrierInRange($id_carrier, $id_zone)
+```
 
 isCarrierInRange
 
@@ -1758,7 +1964,9 @@ Check if the specified carrier is in range
 
 ### <a name="method-isGuestCartByCartId"></a>isGuestCartByCartId
 
-    boolean CartCore::isGuestCartByCartId(integer $id_cart)
+```php
+boolean CartCore::isGuestCartByCartId(integer $id_cart)
+```
 
 isGuestCartByCartId
 
@@ -1776,7 +1984,9 @@ isGuestCartByCartId
 
 ### <a name="method-isMultiAddressDelivery"></a>isMultiAddressDelivery
 
-    boolean CartCore::isMultiAddressDelivery()
+```php
+boolean CartCore::isMultiAddressDelivery()
+```
 
 Does the cart use multiple address
 
@@ -1790,7 +2000,9 @@ Does the cart use multiple address
 
 ### <a name="method-isVirtualCart"></a>isVirtualCart
 
-    boolean CartCore::isVirtualCart($strict)
+```php
+boolean CartCore::isVirtualCart($strict)
+```
 
 Check if cart contains only virtual products
 
@@ -1807,7 +2019,9 @@ Check if cart contains only virtual products
 
 ### <a name="method-lastNoneOrderedCart"></a>lastNoneOrderedCart
 
-    mixed CartCore::lastNoneOrderedCart($id_customer)
+```php
+mixed CartCore::lastNoneOrderedCart($id_customer)
+```
 
 
 
@@ -1825,7 +2039,9 @@ Check if cart contains only virtual products
 
 ### <a name="method-nbProducts"></a>nbProducts
 
-    mixed CartCore::nbProducts()
+```php
+mixed CartCore::nbProducts()
+```
 
 Return cart products quantity
 
@@ -1839,7 +2055,9 @@ Return cart products quantity
 
 ### <a name="method-orderExists"></a>orderExists
 
-    boolean CartCore::orderExists()
+```php
+boolean CartCore::orderExists()
+```
 
 Check if order has already been placed
 
@@ -1853,7 +2071,9 @@ Check if order has already been placed
 
 ### <a name="method-removeCartRule"></a>removeCartRule
 
-    mixed CartCore::removeCartRule($id_cart_rule)
+```php
+mixed CartCore::removeCartRule($id_cart_rule)
+```
 
 
 
@@ -1870,7 +2090,9 @@ Check if order has already been placed
 
 ### <a name="method-replaceZeroByShopName"></a>replaceZeroByShopName
 
-    mixed CartCore::replaceZeroByShopName($echo, $tr)
+```php
+mixed CartCore::replaceZeroByShopName($echo, $tr)
+```
 
 
 
@@ -1889,7 +2111,9 @@ Check if order has already been placed
 
 ### <a name="method-setDeliveryOption"></a>setDeliveryOption
 
-    mixed CartCore::setDeliveryOption($delivery_option)
+```php
+mixed CartCore::setDeliveryOption($delivery_option)
+```
 
 Set the delivery option and id_carrier, if there is only one carrier
 
@@ -1906,7 +2130,9 @@ Set the delivery option and id_carrier, if there is only one carrier
 
 ### <a name="method-setNoMultishipping"></a>setNoMultishipping
 
-    mixed CartCore::setNoMultishipping()
+```php
+mixed CartCore::setNoMultishipping()
+```
 
 Update products cart address delivery with the address delivery of the cart
 
@@ -1920,7 +2146,9 @@ Update products cart address delivery with the address delivery of the cart
 
 ### <a name="method-setProductAddressDelivery"></a>setProductAddressDelivery
 
-    mixed CartCore::setProductAddressDelivery($id_product, $id_product_attribute, $old_id_address_delivery, $new_id_address_delivery)
+```php
+mixed CartCore::setProductAddressDelivery($id_product, $id_product_attribute, $old_id_address_delivery, $new_id_address_delivery)
+```
 
 
 
@@ -1940,7 +2168,9 @@ Update products cart address delivery with the address delivery of the cart
 
 ### <a name="method-setTaxCalculationMethod"></a>setTaxCalculationMethod
 
-    mixed CartCore::setTaxCalculationMethod()
+```php
+mixed CartCore::setTaxCalculationMethod()
+```
 
 
 
@@ -1954,7 +2184,9 @@ Update products cart address delivery with the address delivery of the cart
 
 ### <a name="method-setWsCartRows"></a>setWsCartRows
 
-    mixed CartCore::setWsCartRows($values)
+```php
+mixed CartCore::setWsCartRows($values)
+```
 
 
 
@@ -1971,7 +2203,9 @@ Update products cart address delivery with the address delivery of the cart
 
 ### <a name="method-simulateCarrierSelectedOutput"></a>simulateCarrierSelectedOutput
 
-    mixed CartCore::simulateCarrierSelectedOutput($use_cache)
+```php
+mixed CartCore::simulateCarrierSelectedOutput($use_cache)
+```
 
 
 
@@ -1988,7 +2222,9 @@ Update products cart address delivery with the address delivery of the cart
 
 ### <a name="method-simulateCarriersOutput"></a>simulateCarriersOutput
 
-    mixed CartCore::simulateCarriersOutput(\Country $default_country, boolean $flush)
+```php
+mixed CartCore::simulateCarriersOutput(\Country $default_country, boolean $flush)
+```
 
 Get all deliveries options available for the current cart formated like Carriers::getCarriersForOrder
 This method was wrote for retrocompatibility with 1.4 theme
@@ -2008,7 +2244,9 @@ New theme need to use Cart::getDeliveryOptionList() to generate carriers option 
 
 ### <a name="method-sortDeliveryOptionList"></a>sortDeliveryOptionList
 
-    integer CartCore::sortDeliveryOptionList($option1, $option2)
+```php
+integer CartCore::sortDeliveryOptionList($option1, $option2)
+```
 
 Sort list of option delivery by parameters define in the BO
 
@@ -2027,7 +2265,9 @@ Sort list of option delivery by parameters define in the BO
 
 ### <a name="method-update"></a>update
 
-    mixed CartCore::update($null_values)
+```php
+mixed CartCore::update($null_values)
+```
 
 
 
@@ -2044,7 +2284,9 @@ Sort list of option delivery by parameters define in the BO
 
 ### <a name="method-updateAddressId"></a>updateAddressId
 
-    mixed CartCore::updateAddressId(integer $id_address, integer $id_address_new)
+```php
+mixed CartCore::updateAddressId(integer $id_address, integer $id_address_new)
+```
 
 Update the address id of the cart
 
@@ -2062,7 +2304,9 @@ Update the address id of the cart
 
 ### <a name="method-updateQty"></a>updateQty
 
-    mixed CartCore::updateQty(integer $quantity, integer $id_product, integer $id_product_attribute, $id_customization, string $operator, $id_address_delivery, \Shop $shop, $auto_add_cart_rule)
+```php
+mixed CartCore::updateQty(integer $quantity, integer $id_product, integer $id_product_attribute, $id_customization, string $operator, $id_address_delivery, \Shop $shop, $auto_add_cart_rule)
+```
 
 Update product quantity
 

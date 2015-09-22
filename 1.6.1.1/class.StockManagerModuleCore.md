@@ -11,14 +11,16 @@ Class StockManagerModuleCore
 * Source: [classes/stock/StockManagerModule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerModule.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$stock_manager_class](#property-$stock_manager_class)
 
-Methods
--------
+### Methods
+
 * [hookStockManager](#method-hookStockManager)
 * [install](#method-install)
 
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$stock_manager_class"></a>$stock_manager_class
 
-    public mixed $stock_manager_class
+```php
+public mixed $stock_manager_class
+```
 
 
 
@@ -47,7 +51,9 @@ Methods
 
 ### <a name="method-hookStockManager"></a>hookStockManager
 
-    mixed StockManagerModuleCore::hookStockManager()
+```php
+mixed StockManagerModuleCore::hookStockManager()
+```
 
 
 
@@ -61,7 +67,9 @@ Methods
 
 ### <a name="method-install"></a>install
 
-    mixed StockManagerModuleCore::install()
+```php
+mixed StockManagerModuleCore::install()
+```
 
 
 

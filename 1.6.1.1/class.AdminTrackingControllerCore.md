@@ -10,16 +10,18 @@ Class AdminTrackingControllerCore
 * Source: [controllers/admin/AdminTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_helper_list](#property-$_helper_list)
 * [$bootstrap](#property-$bootstrap)
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [clearFilters](#method-clearFilters)
 * [clearListOptions](#method-clearListOptions)
 * [displayDeleteLink](#method-displayDeleteLink)
@@ -44,7 +46,9 @@ Properties
 
 ### <a name="property-$_helper_list"></a>$_helper_list
 
-    protected \HelperList $_helper_list
+```php
+protected \HelperList $_helper_list
+```
 
 
 
@@ -56,7 +60,9 @@ Properties
 
 ### <a name="property-$bootstrap"></a>$bootstrap
 
-    public mixed $bootstrap = true
+```php
+public mixed $bootstrap = true
+```
 
 
 
@@ -68,7 +74,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Product|\Category $object
+```php
+public \Product|\Category $object
+```
 
 
 
@@ -84,7 +92,9 @@ Methods
 
 ### <a name="method-clearFilters"></a>clearFilters
 
-    mixed AdminTrackingControllerCore::clearFilters()
+```php
+mixed AdminTrackingControllerCore::clearFilters()
+```
 
 
 
@@ -98,7 +108,9 @@ Methods
 
 ### <a name="method-clearListOptions"></a>clearListOptions
 
-    mixed AdminTrackingControllerCore::clearListOptions()
+```php
+mixed AdminTrackingControllerCore::clearListOptions()
+```
 
 
 
@@ -112,7 +124,9 @@ Methods
 
 ### <a name="method-displayDeleteLink"></a>displayDeleteLink
 
-    mixed AdminTrackingControllerCore::displayDeleteLink($token, $id, $name)
+```php
+mixed AdminTrackingControllerCore::displayDeleteLink($token, $id, $name)
+```
 
 
 
@@ -131,7 +145,9 @@ Methods
 
 ### <a name="method-displayEditLink"></a>displayEditLink
 
-    mixed AdminTrackingControllerCore::displayEditLink($token, $id, $name)
+```php
+mixed AdminTrackingControllerCore::displayEditLink($token, $id, $name)
+```
 
 
 
@@ -150,7 +166,9 @@ Methods
 
 ### <a name="method-displayEnableLink"></a>displayEnableLink
 
-    mixed AdminTrackingControllerCore::displayEnableLink($token, $id, $value, $active, $id_category, $id_product)
+```php
+mixed AdminTrackingControllerCore::displayEnableLink($token, $id, $value, $active, $id_category, $id_product)
+```
 
 
 
@@ -172,7 +190,9 @@ Methods
 
 ### <a name="method-getCustomListCategoriesEmpty"></a>getCustomListCategoriesEmpty
 
-    mixed AdminTrackingControllerCore::getCustomListCategoriesEmpty()
+```php
+mixed AdminTrackingControllerCore::getCustomListCategoriesEmpty()
+```
 
 
 
@@ -186,7 +206,9 @@ Methods
 
 ### <a name="method-getCustomListProductsAttributesNoStock"></a>getCustomListProductsAttributesNoStock
 
-    mixed AdminTrackingControllerCore::getCustomListProductsAttributesNoStock()
+```php
+mixed AdminTrackingControllerCore::getCustomListProductsAttributesNoStock()
+```
 
 
 
@@ -200,7 +222,9 @@ Methods
 
 ### <a name="method-getCustomListProductsDisabled"></a>getCustomListProductsDisabled
 
-    mixed AdminTrackingControllerCore::getCustomListProductsDisabled()
+```php
+mixed AdminTrackingControllerCore::getCustomListProductsDisabled()
+```
 
 
 
@@ -214,7 +238,9 @@ Methods
 
 ### <a name="method-getCustomListProductsNoStock"></a>getCustomListProductsNoStock
 
-    mixed AdminTrackingControllerCore::getCustomListProductsNoStock()
+```php
+mixed AdminTrackingControllerCore::getCustomListProductsNoStock()
+```
 
 
 
@@ -228,7 +254,9 @@ Methods
 
 ### <a name="method-getDescriptionClean"></a>getDescriptionClean
 
-    mixed AdminTrackingControllerCore::getDescriptionClean($description)
+```php
+mixed AdminTrackingControllerCore::getDescriptionClean($description)
+```
 
 
 
@@ -246,7 +274,9 @@ Methods
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminTrackingControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```php
+mixed AdminTrackingControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```
 
 
 
@@ -268,7 +298,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminTrackingControllerCore::initContent()
+```php
+mixed AdminTrackingControllerCore::initContent()
+```
 
 
 
@@ -282,7 +314,9 @@ Methods
 
 ### <a name="method-postprocess"></a>postprocess
 
-    mixed AdminTrackingControllerCore::postprocess()
+```php
+mixed AdminTrackingControllerCore::postprocess()
+```
 
 
 
@@ -296,7 +330,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminTrackingControllerCore::renderList()
+```php
+mixed AdminTrackingControllerCore::renderList()
+```
 
 
 

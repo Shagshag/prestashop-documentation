@@ -11,9 +11,11 @@ It is either synchronized with Stock or manualy set by the seller
 * Source: [classes/stock/StockAvailable.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L33)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$depends_on_stock](#property-$depends_on_stock)
@@ -25,8 +27,8 @@ Properties
 * [$quantity](#property-$quantity)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [addSqlShopParams](#method-addSqlShopParams)
 * [addSqlShopRestriction](#method-addSqlShopRestriction)
@@ -55,7 +57,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'stock_available', 'primary' => 'id_stock_available', 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_shop_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'depends_on_stock' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'out_of_stock' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'stock_available', 'primary' => 'id_stock_available', 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_shop_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'depends_on_stock' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'out_of_stock' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true)))
+```
 
 
 
@@ -68,7 +72,9 @@ Properties
 
 ### <a name="property-$depends_on_stock"></a>$depends_on_stock
 
-    public boolean $depends_on_stock = false
+```php
+public boolean $depends_on_stock = false
+```
 
 
 
@@ -80,7 +86,9 @@ Properties
 
 ### <a name="property-$id_product"></a>$id_product
 
-    public integer $id_product
+```php
+public integer $id_product
+```
 
 
 
@@ -92,7 +100,9 @@ Properties
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
-    public integer $id_product_attribute
+```php
+public integer $id_product_attribute
+```
 
 
 
@@ -104,7 +114,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public integer $id_shop
+```php
+public integer $id_shop
+```
 
 
 
@@ -116,7 +128,9 @@ Properties
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
 
-    public integer $id_shop_group
+```php
+public integer $id_shop_group
+```
 
 
 
@@ -128,7 +142,9 @@ Properties
 
 ### <a name="property-$out_of_stock"></a>$out_of_stock
 
-    public boolean $out_of_stock = false
+```php
+public boolean $out_of_stock = false
+```
 
 
 
@@ -140,7 +156,9 @@ Properties
 
 ### <a name="property-$quantity"></a>$quantity
 
-    public integer $quantity
+```php
+public integer $quantity
+```
 
 
 
@@ -152,7 +170,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_product' => array('xlink_resource' => 'products'), 'id_product_attribute' => array('xlink_resource' => 'combinations'), 'id_shop' => array('xlink_resource' => 'shops'), 'id_shop_group' => array('xlink_resource' => 'shop_groups')), 'hidden_fields' => array(), 'objectMethods' => array('add' => 'addWs', 'update' => 'updateWs'))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_product' => array('xlink_resource' => 'products'), 'id_product_attribute' => array('xlink_resource' => 'combinations'), 'id_shop' => array('xlink_resource' => 'shops'), 'id_shop_group' => array('xlink_resource' => 'shop_groups')), 'hidden_fields' => array(), 'objectMethods' => array('add' => 'addWs', 'update' => 'updateWs'))
+```
 
 
 
@@ -168,7 +188,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed StockAvailableCore::add($autodate, $null_values)
+```php
+mixed StockAvailableCore::add($autodate, $null_values)
+```
 
 Upgrades total_quantity_available after having saved
 
@@ -186,7 +208,9 @@ Upgrades total_quantity_available after having saved
 
 ### <a name="method-addSqlShopParams"></a>addSqlShopParams
 
-    mixed StockAvailableCore::addSqlShopParams(array $params, integer $id_shop)
+```php
+mixed StockAvailableCore::addSqlShopParams(array $params, integer $id_shop)
+```
 
 Add sql params for shops fields - specific to StockAvailable
 
@@ -205,7 +229,9 @@ Add sql params for shops fields - specific to StockAvailable
 
 ### <a name="method-addSqlShopRestriction"></a>addSqlShopRestriction
 
-    string|\DbQuery StockAvailableCore::addSqlShopRestriction(\DbQuery|string|null $sql, \Shop|integer|null $shop, string|null $alias)
+```php
+string|\DbQuery StockAvailableCore::addSqlShopRestriction(\DbQuery|string|null $sql, \Shop|integer|null $shop, string|null $alias)
+```
 
 Add an sql restriction for shops fields - specific to StockAvailable
 
@@ -225,7 +251,9 @@ Add an sql restriction for shops fields - specific to StockAvailable
 
 ### <a name="method-copyStockAvailableFromShopToShop"></a>copyStockAvailableFromShopToShop
 
-    boolean StockAvailableCore::copyStockAvailableFromShopToShop(integer $src_shop_id, integer $dst_shop_id)
+```php
+boolean StockAvailableCore::copyStockAvailableFromShopToShop(integer $src_shop_id, integer $dst_shop_id)
+```
 
 Copies stock available content table
 
@@ -244,7 +272,9 @@ Copies stock available content table
 
 ### <a name="method-dependsOnStock"></a>dependsOnStock
 
-    boolean StockAvailableCore::dependsOnStock(integer $id_product, integer $id_shop)
+```php
+boolean StockAvailableCore::dependsOnStock(integer $id_product, integer $id_shop)
+```
 
 For a given product, tells if it depends on the physical (usable) stock
 
@@ -263,7 +293,9 @@ For a given product, tells if it depends on the physical (usable) stock
 
 ### <a name="method-getQuantityAvailableByProduct"></a>getQuantityAvailableByProduct
 
-    integer StockAvailableCore::getQuantityAvailableByProduct(integer $id_product, integer $id_product_attribute, integer $id_shop)
+```php
+integer StockAvailableCore::getQuantityAvailableByProduct(integer $id_product, integer $id_product_attribute, integer $id_shop)
+```
 
 For a given id_product and id_product_attribute, gets its stock available
 
@@ -283,7 +315,9 @@ For a given id_product and id_product_attribute, gets its stock available
 
 ### <a name="method-getStockAvailableIdByProductId"></a>getStockAvailableIdByProductId
 
-    mixed StockAvailableCore::getStockAvailableIdByProductId($id_product, $id_product_attribute, $id_shop)
+```php
+mixed StockAvailableCore::getStockAvailableIdByProductId($id_product, $id_product_attribute, $id_shop)
+```
 
 
 
@@ -303,7 +337,9 @@ For a given id_product and id_product_attribute, gets its stock available
 
 ### <a name="method-outOfStock"></a>outOfStock
 
-    boolean StockAvailableCore::outOfStock(integer $id_product, integer $id_shop)
+```php
+boolean StockAvailableCore::outOfStock(integer $id_product, integer $id_shop)
+```
 
 For a given product, get its "out of stock" flag
 
@@ -322,7 +358,9 @@ For a given product, get its "out of stock" flag
 
 ### <a name="method-postSave"></a>postSave
 
-    mixed StockAvailableCore::postSave()
+```php
+mixed StockAvailableCore::postSave()
+```
 
 Upgrades total_quantity_available after having saved
 
@@ -336,7 +374,9 @@ Upgrades total_quantity_available after having saved
 
 ### <a name="method-removeProductFromStockAvailable"></a>removeProductFromStockAvailable
 
-    boolean StockAvailableCore::removeProductFromStockAvailable(integer $id_product, integer|null $id_product_attribute, \Shop|null $shop)
+```php
+boolean StockAvailableCore::removeProductFromStockAvailable(integer $id_product, integer|null $id_product_attribute, \Shop|null $shop)
+```
 
 Removes a given product from the stock available
 
@@ -356,7 +396,9 @@ Removes a given product from the stock available
 
 ### <a name="method-resetProductFromStockAvailableByShopGroup"></a>resetProductFromStockAvailableByShopGroup
 
-    mixed StockAvailableCore::resetProductFromStockAvailableByShopGroup(\ShopGroup $shop_group)
+```php
+mixed StockAvailableCore::resetProductFromStockAvailableByShopGroup(\ShopGroup $shop_group)
+```
 
 Removes all product quantities from all a group of shops
 If stocks are shared, remoe all old available quantities for all shops of the group
@@ -376,7 +418,9 @@ Else remove all available quantities for the current group
 
 ### <a name="method-setProductDependsOnStock"></a>setProductDependsOnStock
 
-    mixed StockAvailableCore::setProductDependsOnStock(integer $id_product, integer $depends_on_stock, integer $id_shop, $id_product_attribute)
+```php
+mixed StockAvailableCore::setProductDependsOnStock(integer $id_product, integer $depends_on_stock, integer $id_shop, $id_product_attribute)
+```
 
 For a given id_product, sets if stock available depends on stock
 
@@ -397,7 +441,9 @@ For a given id_product, sets if stock available depends on stock
 
 ### <a name="method-setProductOutOfStock"></a>setProductOutOfStock
 
-    mixed StockAvailableCore::setProductOutOfStock(integer $id_product, integer $out_of_stock, integer $id_shop, $id_product_attribute)
+```php
+mixed StockAvailableCore::setProductOutOfStock(integer $id_product, integer $out_of_stock, integer $id_shop, $id_product_attribute)
+```
 
 For a given id_product, sets if product is available out of stocks
 
@@ -418,7 +464,9 @@ For a given id_product, sets if product is available out of stocks
 
 ### <a name="method-setQuantity"></a>setQuantity
 
-    mixed StockAvailableCore::setQuantity(integer $id_product, integer $id_product_attribute, $quantity, integer $id_shop)
+```php
+mixed StockAvailableCore::setQuantity(integer $id_product, integer $id_product_attribute, $quantity, integer $id_shop)
+```
 
 For a given id_product and id_product_attribute sets the quantity available
 
@@ -439,7 +487,9 @@ For a given id_product and id_product_attribute sets the quantity available
 
 ### <a name="method-synchronize"></a>synchronize
 
-    mixed StockAvailableCore::synchronize(integer $id_product, $order_id_shop)
+```php
+mixed StockAvailableCore::synchronize(integer $id_product, $order_id_shop)
+```
 
 For a given id_product, synchronizes StockAvailable::quantity with Stock::usable_quantity
 
@@ -458,7 +508,9 @@ For a given id_product, synchronizes StockAvailable::quantity with Stock::usable
 
 ### <a name="method-update"></a>update
 
-    mixed StockAvailableCore::update($null_values)
+```php
+mixed StockAvailableCore::update($null_values)
+```
 
 Upgrades total_quantity_available after having update
 
@@ -475,7 +527,9 @@ Upgrades total_quantity_available after having update
 
 ### <a name="method-updateQuantity"></a>updateQuantity
 
-    mixed StockAvailableCore::updateQuantity(integer $id_product, integer $id_product_attribute, integer $delta_quantity, integer $id_shop)
+```php
+mixed StockAvailableCore::updateQuantity(integer $id_product, integer $id_product_attribute, integer $delta_quantity, integer $id_shop)
+```
 
 For a given id_product and id_product_attribute updates the quantity available
 If $avoid_parent_pack_update is true, then packs containing the given product won't be updated
@@ -497,7 +551,9 @@ If $avoid_parent_pack_update is true, then packs containing the given product wo
 
 ### <a name="method-updateWs"></a>updateWs
 
-    integer StockAvailableCore::updateWs()
+```php
+integer StockAvailableCore::updateWs()
+```
 
 For a given {id_product, id_product_attribute and id_shop}, gets the stock available id associated
 

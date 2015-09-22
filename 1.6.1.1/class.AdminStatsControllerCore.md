@@ -10,11 +10,13 @@ Class AdminStatsControllerCore
 * Source: [controllers/admin/AdminStatsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [displayAjaxGetKpi](#method-displayAjaxGetKpi)
 * [get8020SalesCatalog](#method-get8020SalesCatalog)
 * [getAbandonedCarts](#method-getAbandonedCarts)
@@ -53,7 +55,9 @@ Methods
 
 ### <a name="method-displayAjaxGetKpi"></a>displayAjaxGetKpi
 
-    mixed AdminStatsControllerCore::displayAjaxGetKpi()
+```php
+mixed AdminStatsControllerCore::displayAjaxGetKpi()
+```
 
 
 
@@ -67,7 +71,9 @@ Methods
 
 ### <a name="method-get8020SalesCatalog"></a>get8020SalesCatalog
 
-    mixed AdminStatsControllerCore::get8020SalesCatalog($date_from, $date_to)
+```php
+mixed AdminStatsControllerCore::get8020SalesCatalog($date_from, $date_to)
+```
 
 
 
@@ -86,7 +92,9 @@ Methods
 
 ### <a name="method-getAbandonedCarts"></a>getAbandonedCarts
 
-    mixed AdminStatsControllerCore::getAbandonedCarts($date_from, $date_to)
+```php
+mixed AdminStatsControllerCore::getAbandonedCarts($date_from, $date_to)
+```
 
 
 
@@ -105,7 +113,9 @@ Methods
 
 ### <a name="method-getAverageCustomerAge"></a>getAverageCustomerAge
 
-    mixed AdminStatsControllerCore::getAverageCustomerAge()
+```php
+mixed AdminStatsControllerCore::getAverageCustomerAge()
+```
 
 
 
@@ -120,7 +130,9 @@ Methods
 
 ### <a name="method-getAverageMessageResponseTime"></a>getAverageMessageResponseTime
 
-    mixed AdminStatsControllerCore::getAverageMessageResponseTime($date_from, $date_to)
+```php
+mixed AdminStatsControllerCore::getAverageMessageResponseTime($date_from, $date_to)
+```
 
 
 
@@ -139,7 +151,9 @@ Methods
 
 ### <a name="method-getBestCategory"></a>getBestCategory
 
-    mixed AdminStatsControllerCore::getBestCategory($date_from, $date_to)
+```php
+mixed AdminStatsControllerCore::getBestCategory($date_from, $date_to)
+```
 
 
 
@@ -158,7 +172,9 @@ Methods
 
 ### <a name="method-getCustomerMainGender"></a>getCustomerMainGender
 
-    mixed AdminStatsControllerCore::getCustomerMainGender()
+```php
+mixed AdminStatsControllerCore::getCustomerMainGender()
+```
 
 
 
@@ -173,7 +189,9 @@ Methods
 
 ### <a name="method-getDisabledCategories"></a>getDisabledCategories
 
-    mixed AdminStatsControllerCore::getDisabledCategories()
+```php
+mixed AdminStatsControllerCore::getDisabledCategories()
+```
 
 
 
@@ -188,7 +206,9 @@ Methods
 
 ### <a name="method-getDisabledModules"></a>getDisabledModules
 
-    mixed AdminStatsControllerCore::getDisabledModules()
+```php
+mixed AdminStatsControllerCore::getDisabledModules()
+```
 
 
 
@@ -203,7 +223,9 @@ Methods
 
 ### <a name="method-getDisabledProducts"></a>getDisabledProducts
 
-    mixed AdminStatsControllerCore::getDisabledProducts()
+```php
+mixed AdminStatsControllerCore::getDisabledProducts()
+```
 
 
 
@@ -218,7 +240,9 @@ Methods
 
 ### <a name="method-getEmptyCategories"></a>getEmptyCategories
 
-    mixed AdminStatsControllerCore::getEmptyCategories()
+```php
+mixed AdminStatsControllerCore::getEmptyCategories()
+```
 
 
 
@@ -233,7 +257,9 @@ Methods
 
 ### <a name="method-getExpenses"></a>getExpenses
 
-    mixed AdminStatsControllerCore::getExpenses($date_from, $date_to, $granularity)
+```php
+mixed AdminStatsControllerCore::getExpenses($date_from, $date_to, $granularity)
+```
 
 
 
@@ -253,7 +279,9 @@ Methods
 
 ### <a name="method-getInstalledModules"></a>getInstalledModules
 
-    mixed AdminStatsControllerCore::getInstalledModules()
+```php
+mixed AdminStatsControllerCore::getInstalledModules()
+```
 
 
 
@@ -268,7 +296,9 @@ Methods
 
 ### <a name="method-getMainCountry"></a>getMainCountry
 
-    mixed AdminStatsControllerCore::getMainCountry($date_from, $date_to)
+```php
+mixed AdminStatsControllerCore::getMainCountry($date_from, $date_to)
+```
 
 
 
@@ -287,7 +317,9 @@ Methods
 
 ### <a name="method-getMessagesPerThread"></a>getMessagesPerThread
 
-    mixed AdminStatsControllerCore::getMessagesPerThread($date_from, $date_to)
+```php
+mixed AdminStatsControllerCore::getMessagesPerThread($date_from, $date_to)
+```
 
 
 
@@ -306,7 +338,9 @@ Methods
 
 ### <a name="method-getModulesToUpdate"></a>getModulesToUpdate
 
-    mixed AdminStatsControllerCore::getModulesToUpdate()
+```php
+mixed AdminStatsControllerCore::getModulesToUpdate()
+```
 
 
 
@@ -321,7 +355,9 @@ Methods
 
 ### <a name="method-getOrders"></a>getOrders
 
-    mixed AdminStatsControllerCore::getOrders($date_from, $date_to, $granularity)
+```php
+mixed AdminStatsControllerCore::getOrders($date_from, $date_to, $granularity)
+```
 
 
 
@@ -341,7 +377,9 @@ Methods
 
 ### <a name="method-getPendingMessages"></a>getPendingMessages
 
-    mixed AdminStatsControllerCore::getPendingMessages()
+```php
+mixed AdminStatsControllerCore::getPendingMessages()
+```
 
 
 
@@ -356,7 +394,9 @@ Methods
 
 ### <a name="method-getPercentProductOutOfStock"></a>getPercentProductOutOfStock
 
-    mixed AdminStatsControllerCore::getPercentProductOutOfStock()
+```php
+mixed AdminStatsControllerCore::getPercentProductOutOfStock()
+```
 
 
 
@@ -371,7 +411,9 @@ Methods
 
 ### <a name="method-getPercentProductStock"></a>getPercentProductStock
 
-    mixed AdminStatsControllerCore::getPercentProductStock()
+```php
+mixed AdminStatsControllerCore::getPercentProductStock()
+```
 
 
 
@@ -386,7 +428,9 @@ Methods
 
 ### <a name="method-getProductAverageGrossMargin"></a>getProductAverageGrossMargin
 
-    mixed AdminStatsControllerCore::getProductAverageGrossMargin()
+```php
+mixed AdminStatsControllerCore::getProductAverageGrossMargin()
+```
 
 
 
@@ -401,7 +445,9 @@ Methods
 
 ### <a name="method-getPurchases"></a>getPurchases
 
-    mixed AdminStatsControllerCore::getPurchases($date_from, $date_to, $granularity)
+```php
+mixed AdminStatsControllerCore::getPurchases($date_from, $date_to, $granularity)
+```
 
 
 
@@ -421,7 +467,9 @@ Methods
 
 ### <a name="method-getTotalCategories"></a>getTotalCategories
 
-    mixed AdminStatsControllerCore::getTotalCategories()
+```php
+mixed AdminStatsControllerCore::getTotalCategories()
+```
 
 
 
@@ -436,7 +484,9 @@ Methods
 
 ### <a name="method-getTotalProducts"></a>getTotalProducts
 
-    mixed AdminStatsControllerCore::getTotalProducts()
+```php
+mixed AdminStatsControllerCore::getTotalProducts()
+```
 
 
 
@@ -451,7 +501,9 @@ Methods
 
 ### <a name="method-getTotalSales"></a>getTotalSales
 
-    mixed AdminStatsControllerCore::getTotalSales($date_from, $date_to, $granularity)
+```php
+mixed AdminStatsControllerCore::getTotalSales($date_from, $date_to, $granularity)
+```
 
 
 
@@ -471,7 +523,9 @@ Methods
 
 ### <a name="method-getVisits"></a>getVisits
 
-    mixed AdminStatsControllerCore::getVisits($unique, $date_from, $date_to, $granularity)
+```php
+mixed AdminStatsControllerCore::getVisits($unique, $date_from, $date_to, $granularity)
+```
 
 
 

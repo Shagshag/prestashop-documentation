@@ -8,14 +8,16 @@ Class TreeToolbarCore
 * Class name: TreeToolbarCore
 * Source: [classes/tree/TreeToolbar.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L27)
 * This class implements: [ITreeToolbarCore](interface.ITreeToolbarCore.md)
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEFAULT_TEMPLATE](#constant-DEFAULT_TEMPLATE)
 * [DEFAULT_TEMPLATE_DIRECTORY](#constant-DEFAULT_TEMPLATE_DIRECTORY)
 
-Properties
-----------
+### Properties
 
 * [$_actions](#property-$_actions)
 * [$_context](#property-$_context)
@@ -23,8 +25,8 @@ Properties
 * [$_template](#property-$_template)
 * [$_template_directory](#property-$_template_directory)
 
-Methods
--------
+### Methods
+
 * [__toString](#method-__toString)
 * [_normalizeDirectory](#method-_normalizeDirectory)
 * [addAction](#method-addAction)
@@ -49,7 +51,9 @@ Constants
 
 ### <a name="constant-DEFAULT_TEMPLATE"></a>DEFAULT_TEMPLATE
 
-    const DEFAULT_TEMPLATE = 'tree_toolbar.tpl'
+```php
+const DEFAULT_TEMPLATE = 'tree_toolbar.tpl'
+```
 
 
 
@@ -60,7 +64,9 @@ Constants
 
 ### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
 
-    const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
+```php
+const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
+```
 
 
 
@@ -75,7 +81,9 @@ Properties
 
 ### <a name="property-$_actions"></a>$_actions
 
-    private mixed $_actions
+```php
+private mixed $_actions
+```
 
 
 
@@ -87,7 +95,9 @@ Properties
 
 ### <a name="property-$_context"></a>$_context
 
-    private mixed $_context
+```php
+private mixed $_context
+```
 
 
 
@@ -99,7 +109,9 @@ Properties
 
 ### <a name="property-$_data"></a>$_data
 
-    private mixed $_data
+```php
+private mixed $_data
+```
 
 
 
@@ -111,7 +123,9 @@ Properties
 
 ### <a name="property-$_template"></a>$_template
 
-    private mixed $_template
+```php
+private mixed $_template
+```
 
 
 
@@ -123,7 +137,9 @@ Properties
 
 ### <a name="property-$_template_directory"></a>$_template_directory
 
-    private mixed $_template_directory
+```php
+private mixed $_template_directory
+```
 
 
 
@@ -139,7 +155,9 @@ Methods
 
 ### <a name="method-__toString"></a>__toString
 
-    mixed TreeToolbarCore::__toString()
+```php
+mixed TreeToolbarCore::__toString()
+```
 
 
 
@@ -153,7 +171,9 @@ Methods
 
 ### <a name="method-_normalizeDirectory"></a>_normalizeDirectory
 
-    mixed TreeToolbarCore::_normalizeDirectory($directory)
+```php
+mixed TreeToolbarCore::_normalizeDirectory($directory)
+```
 
 
 
@@ -170,7 +190,9 @@ Methods
 
 ### <a name="method-addAction"></a>addAction
 
-    \TreeToolbar TreeToolbarCore::addAction(\ITreeToolbarButton $action)
+```php
+\TreeToolbar TreeToolbarCore::addAction(\ITreeToolbarButton $action)
+```
 
 
 
@@ -187,7 +209,9 @@ Methods
 
 ### <a name="method-getActions"></a>getActions
 
-    mixed TreeToolbarCore::getActions()
+```php
+mixed TreeToolbarCore::getActions()
+```
 
 
 
@@ -201,7 +225,9 @@ Methods
 
 ### <a name="method-getContext"></a>getContext
 
-    mixed TreeToolbarCore::getContext()
+```php
+mixed TreeToolbarCore::getContext()
+```
 
 
 
@@ -215,7 +241,9 @@ Methods
 
 ### <a name="method-getData"></a>getData
 
-    mixed TreeToolbarCore::getData()
+```php
+mixed TreeToolbarCore::getData()
+```
 
 
 
@@ -229,7 +257,9 @@ Methods
 
 ### <a name="method-getTemplate"></a>getTemplate
 
-    mixed TreeToolbarCore::getTemplate()
+```php
+mixed TreeToolbarCore::getTemplate()
+```
 
 
 
@@ -243,7 +273,9 @@ Methods
 
 ### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
-    mixed TreeToolbarCore::getTemplateDirectory()
+```php
+mixed TreeToolbarCore::getTemplateDirectory()
+```
 
 
 
@@ -257,7 +289,9 @@ Methods
 
 ### <a name="method-getTemplateFile"></a>getTemplateFile
 
-    mixed TreeToolbarCore::getTemplateFile($template)
+```php
+mixed TreeToolbarCore::getTemplateFile($template)
+```
 
 
 
@@ -274,7 +308,9 @@ Methods
 
 ### <a name="method-removeActions"></a>removeActions
 
-    mixed TreeToolbarCore::removeActions()
+```php
+mixed TreeToolbarCore::removeActions()
+```
 
 
 
@@ -288,7 +324,9 @@ Methods
 
 ### <a name="method-render"></a>render
 
-    mixed TreeToolbarCore::render()
+```php
+mixed TreeToolbarCore::render()
+```
 
 
 
@@ -302,7 +340,9 @@ Methods
 
 ### <a name="method-setActions"></a>setActions
 
-    mixed TreeToolbarCore::setActions($actions)
+```php
+mixed TreeToolbarCore::setActions($actions)
+```
 
 
 
@@ -319,7 +359,9 @@ Methods
 
 ### <a name="method-setContext"></a>setContext
 
-    mixed TreeToolbarCore::setContext($value)
+```php
+mixed TreeToolbarCore::setContext($value)
+```
 
 
 
@@ -336,7 +378,9 @@ Methods
 
 ### <a name="method-setData"></a>setData
 
-    mixed TreeToolbarCore::setData($value)
+```php
+mixed TreeToolbarCore::setData($value)
+```
 
 
 
@@ -353,7 +397,9 @@ Methods
 
 ### <a name="method-setTemplate"></a>setTemplate
 
-    mixed TreeToolbarCore::setTemplate($value)
+```php
+mixed TreeToolbarCore::setTemplate($value)
+```
 
 
 
@@ -370,7 +416,9 @@ Methods
 
 ### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
-    mixed TreeToolbarCore::setTemplateDirectory($value)
+```php
+mixed TreeToolbarCore::setTemplateDirectory($value)
+```
 
 
 

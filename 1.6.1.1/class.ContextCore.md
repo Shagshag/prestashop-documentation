@@ -8,8 +8,11 @@ Class ContextCore
 * Class name: ContextCore
 * Source: [classes/Context.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L32)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEVICE_COMPUTER](#constant-DEVICE_COMPUTER)
 * [DEVICE_MOBILE](#constant-DEVICE_MOBILE)
@@ -19,8 +22,7 @@ Constants
 * [MODE_STD](#constant-MODE_STD)
 * [MODE_STD_CONTRIB](#constant-MODE_STD_CONTRIB)
 
-Properties
-----------
+### Properties
 
 * [$cart](#property-$cart)
 * [$controller](#property-$controller)
@@ -43,8 +45,8 @@ Properties
 * [$tab](#property-$tab)
 * [$theme](#property-$theme)
 
-Methods
--------
+### Methods
+
 * [checkMobileContext](#method-checkMobileContext)
 * [cloneContext](#method-cloneContext)
 * [deleteTestingInstance](#method-deleteTestingInstance)
@@ -63,7 +65,9 @@ Constants
 
 ### <a name="constant-DEVICE_COMPUTER"></a>DEVICE_COMPUTER
 
-    const DEVICE_COMPUTER = 1
+```php
+const DEVICE_COMPUTER = 1
+```
 
 
 
@@ -74,7 +78,9 @@ Constants
 
 ### <a name="constant-DEVICE_MOBILE"></a>DEVICE_MOBILE
 
-    const DEVICE_MOBILE = 4
+```php
+const DEVICE_MOBILE = 4
+```
 
 
 
@@ -85,7 +91,9 @@ Constants
 
 ### <a name="constant-DEVICE_TABLET"></a>DEVICE_TABLET
 
-    const DEVICE_TABLET = 2
+```php
+const DEVICE_TABLET = 2
+```
 
 
 
@@ -96,7 +104,9 @@ Constants
 
 ### <a name="constant-MODE_HOST"></a>MODE_HOST
 
-    const MODE_HOST = 8
+```php
+const MODE_HOST = 8
+```
 
 
 
@@ -107,7 +117,9 @@ Constants
 
 ### <a name="constant-MODE_HOST_CONTRIB"></a>MODE_HOST_CONTRIB
 
-    const MODE_HOST_CONTRIB = 4
+```php
+const MODE_HOST_CONTRIB = 4
+```
 
 
 
@@ -118,7 +130,9 @@ Constants
 
 ### <a name="constant-MODE_STD"></a>MODE_STD
 
-    const MODE_STD = 1
+```php
+const MODE_STD = 1
+```
 
 
 
@@ -129,7 +143,9 @@ Constants
 
 ### <a name="constant-MODE_STD_CONTRIB"></a>MODE_STD_CONTRIB
 
-    const MODE_STD_CONTRIB = 2
+```php
+const MODE_STD_CONTRIB = 2
+```
 
 
 
@@ -144,7 +160,9 @@ Properties
 
 ### <a name="property-$cart"></a>$cart
 
-    public \Cart $cart
+```php
+public \Cart $cart
+```
 
 
 
@@ -156,7 +174,9 @@ Properties
 
 ### <a name="property-$controller"></a>$controller
 
-    public \AdminController $controller
+```php
+public \AdminController $controller
+```
 
 
 
@@ -168,7 +188,9 @@ Properties
 
 ### <a name="property-$cookie"></a>$cookie
 
-    public \Cookie $cookie
+```php
+public \Cookie $cookie
+```
 
 
 
@@ -180,7 +202,9 @@ Properties
 
 ### <a name="property-$country"></a>$country
 
-    public \Country $country
+```php
+public \Country $country
+```
 
 
 
@@ -192,7 +216,9 @@ Properties
 
 ### <a name="property-$currency"></a>$currency
 
-    public \Currency $currency
+```php
+public \Currency $currency
+```
 
 
 
@@ -204,7 +230,9 @@ Properties
 
 ### <a name="property-$customer"></a>$customer
 
-    public \Customer $customer
+```php
+public \Customer $customer
+```
 
 
 
@@ -216,7 +244,9 @@ Properties
 
 ### <a name="property-$employee"></a>$employee
 
-    public \Employee $employee
+```php
+public \Employee $employee
+```
 
 
 
@@ -228,7 +258,9 @@ Properties
 
 ### <a name="property-$instance"></a>$instance
 
-    protected mixed $instance
+```php
+protected mixed $instance
+```
 
 
 
@@ -241,7 +273,9 @@ Properties
 
 ### <a name="property-$is_mobile"></a>$is_mobile
 
-    protected boolean $is_mobile = null
+```php
+protected boolean $is_mobile = null
+```
 
 
 
@@ -253,7 +287,9 @@ Properties
 
 ### <a name="property-$is_tablet"></a>$is_tablet
 
-    protected boolean $is_tablet = null
+```php
+protected boolean $is_tablet = null
+```
 
 
 
@@ -265,7 +301,9 @@ Properties
 
 ### <a name="property-$language"></a>$language
 
-    public \Language $language
+```php
+public \Language $language
+```
 
 
 
@@ -277,7 +315,9 @@ Properties
 
 ### <a name="property-$link"></a>$link
 
-    public \Link $link
+```php
+public \Link $link
+```
 
 
 
@@ -289,7 +329,9 @@ Properties
 
 ### <a name="property-$mobile_detect"></a>$mobile_detect
 
-    public \Mobile_Detect $mobile_detect
+```php
+public \Mobile_Detect $mobile_detect
+```
 
 
 
@@ -301,7 +343,9 @@ Properties
 
 ### <a name="property-$mobile_device"></a>$mobile_device
 
-    protected boolean $mobile_device = null
+```php
+protected boolean $mobile_device = null
+```
 
 Mobile device of the customer
 
@@ -313,7 +357,9 @@ Mobile device of the customer
 
 ### <a name="property-$mode"></a>$mode
 
-    public integer $mode
+```php
+public integer $mode
+```
 
 
 
@@ -325,7 +371,9 @@ Mobile device of the customer
 
 ### <a name="property-$override_controller_name_for_translations"></a>$override_controller_name_for_translations
 
-    public string $override_controller_name_for_translations
+```php
+public string $override_controller_name_for_translations
+```
 
 
 
@@ -337,7 +385,9 @@ Mobile device of the customer
 
 ### <a name="property-$shop"></a>$shop
 
-    public \Shop $shop
+```php
+public \Shop $shop
+```
 
 
 
@@ -349,7 +399,9 @@ Mobile device of the customer
 
 ### <a name="property-$smarty"></a>$smarty
 
-    public \Smarty $smarty
+```php
+public \Smarty $smarty
+```
 
 
 
@@ -361,7 +413,9 @@ Mobile device of the customer
 
 ### <a name="property-$tab"></a>$tab
 
-    public \AdminTab $tab
+```php
+public \AdminTab $tab
+```
 
 
 
@@ -373,7 +427,9 @@ Mobile device of the customer
 
 ### <a name="property-$theme"></a>$theme
 
-    public \Theme $theme
+```php
+public \Theme $theme
+```
 
 
 
@@ -389,7 +445,9 @@ Methods
 
 ### <a name="method-checkMobileContext"></a>checkMobileContext
 
-    boolean ContextCore::checkMobileContext()
+```php
+boolean ContextCore::checkMobileContext()
+```
 
 Checks if mobile context is possible
 
@@ -403,7 +461,9 @@ Checks if mobile context is possible
 
 ### <a name="method-cloneContext"></a>cloneContext
 
-    \Context ContextCore::cloneContext()
+```php
+\Context ContextCore::cloneContext()
+```
 
 Clone current context object
 
@@ -417,7 +477,9 @@ Clone current context object
 
 ### <a name="method-deleteTestingInstance"></a>deleteTestingInstance
 
-    mixed ContextCore::deleteTestingInstance()
+```php
+mixed ContextCore::deleteTestingInstance()
+```
 
 Unit testing purpose only
 
@@ -432,7 +494,9 @@ Unit testing purpose only
 
 ### <a name="method-getContext"></a>getContext
 
-    \Context ContextCore::getContext()
+```php
+\Context ContextCore::getContext()
+```
 
 Get a singleton instance of Context object
 
@@ -447,7 +511,9 @@ Get a singleton instance of Context object
 
 ### <a name="method-getDevice"></a>getDevice
 
-    integer ContextCore::getDevice()
+```php
+integer ContextCore::getDevice()
+```
 
 Returns mobile device type
 
@@ -461,7 +527,9 @@ Returns mobile device type
 
 ### <a name="method-getMobileDetect"></a>getMobileDetect
 
-    \Mobile_Detect ContextCore::getMobileDetect()
+```php
+\Mobile_Detect ContextCore::getMobileDetect()
+```
 
 Sets Mobile_Detect tool object
 
@@ -475,7 +543,9 @@ Sets Mobile_Detect tool object
 
 ### <a name="method-getMobileDevice"></a>getMobileDevice
 
-    boolean ContextCore::getMobileDevice()
+```php
+boolean ContextCore::getMobileDevice()
+```
 
 Sets mobile_device context variable
 
@@ -489,7 +559,9 @@ Sets mobile_device context variable
 
 ### <a name="method-isMobile"></a>isMobile
 
-    boolean ContextCore::isMobile()
+```php
+boolean ContextCore::isMobile()
+```
 
 Checks if visitor's device is a mobile device
 
@@ -503,7 +575,9 @@ Checks if visitor's device is a mobile device
 
 ### <a name="method-isTablet"></a>isTablet
 
-    boolean ContextCore::isTablet()
+```php
+boolean ContextCore::isTablet()
+```
 
 Checks if visitor's device is a tablet device
 
@@ -517,7 +591,9 @@ Checks if visitor's device is a tablet device
 
 ### <a name="method-setInstanceForTesting"></a>setInstanceForTesting
 
-    mixed ContextCore::setInstanceForTesting($test_instance)
+```php
+mixed ContextCore::setInstanceForTesting($test_instance)
+```
 
 
 

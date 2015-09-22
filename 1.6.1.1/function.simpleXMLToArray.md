@@ -25,12 +25,16 @@ $array['parent']['child'][1] = 'b';
 ...And so on.
 _____________________________________
 
-    array simpleXMLToArray(\simpleXMLElement $xml, boolean $flatten_values, boolean $flatten_attributes, boolean $flatten_children, string $value_key, string $attributes_key, string $children_key)
+```php
+array simpleXMLToArray(\simpleXMLElement $xml, boolean $flatten_values, boolean $flatten_attributes, boolean $flatten_children, string $value_key, string $attributes_key, string $children_key)
+```
 
 * Function name: simpleXMLToArray
-* Source: [admin-dev/functions.php line 343](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/functions.php#L343)
+* Source: [admin-dev/functions.php line 343](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/functions.php#L343).
 
-#### Arguments
+Arguments
+---------
+
 * $xml **simpleXMLElement** - the XML to convert
 * $flatten_values **boolean** - Choose wether to flatten values
                                    or to set them under a particular index.

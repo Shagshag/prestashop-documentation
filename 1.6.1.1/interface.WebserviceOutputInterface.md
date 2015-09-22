@@ -9,12 +9,13 @@ Interface WebserviceOutputInterface
 * This is an **interface**
 * Source: [classes/webservice/WebserviceOutputInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L27)
 
+Contents
+--------
 
 
 
+### Methods
 
-Methods
--------
 * [__construct](#method-__construct)
 * [getContentType](#method-getContentType)
 * [getSchemaToDisplay](#method-getSchemaToDisplay)
@@ -42,7 +43,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed WebserviceOutputInterface::__construct($languages)
+```php
+mixed WebserviceOutputInterface::__construct($languages)
+```
 
 
 
@@ -59,7 +62,9 @@ Methods
 
 ### <a name="method-getContentType"></a>getContentType
 
-    mixed WebserviceOutputInterface::getContentType()
+```php
+mixed WebserviceOutputInterface::getContentType()
+```
 
 
 
@@ -73,7 +78,9 @@ Methods
 
 ### <a name="method-getSchemaToDisplay"></a>getSchemaToDisplay
 
-    mixed WebserviceOutputInterface::getSchemaToDisplay()
+```php
+mixed WebserviceOutputInterface::getSchemaToDisplay()
+```
 
 
 
@@ -87,7 +94,9 @@ Methods
 
 ### <a name="method-getWsUrl"></a>getWsUrl
 
-    mixed WebserviceOutputInterface::getWsUrl()
+```php
+mixed WebserviceOutputInterface::getWsUrl()
+```
 
 
 
@@ -101,7 +110,9 @@ Methods
 
 ### <a name="method-overrideContent"></a>overrideContent
 
-    mixed WebserviceOutputInterface::overrideContent($content)
+```php
+mixed WebserviceOutputInterface::overrideContent($content)
+```
 
 
 
@@ -118,7 +129,9 @@ Methods
 
 ### <a name="method-renderAssociationFooter"></a>renderAssociationFooter
 
-    mixed WebserviceOutputInterface::renderAssociationFooter($obj, $params, $assoc_name)
+```php
+mixed WebserviceOutputInterface::renderAssociationFooter($obj, $params, $assoc_name)
+```
 
 
 
@@ -137,7 +150,9 @@ Methods
 
 ### <a name="method-renderAssociationHeader"></a>renderAssociationHeader
 
-    mixed WebserviceOutputInterface::renderAssociationHeader($obj, $params, $assoc_name)
+```php
+mixed WebserviceOutputInterface::renderAssociationHeader($obj, $params, $assoc_name)
+```
 
 
 
@@ -156,7 +171,9 @@ Methods
 
 ### <a name="method-renderErrors"></a>renderErrors
 
-    mixed WebserviceOutputInterface::renderErrors($message, $code)
+```php
+mixed WebserviceOutputInterface::renderErrors($message, $code)
+```
 
 
 
@@ -174,7 +191,9 @@ Methods
 
 ### <a name="method-renderErrorsFooter"></a>renderErrorsFooter
 
-    mixed WebserviceOutputInterface::renderErrorsFooter()
+```php
+mixed WebserviceOutputInterface::renderErrorsFooter()
+```
 
 
 
@@ -188,7 +207,9 @@ Methods
 
 ### <a name="method-renderErrorsHeader"></a>renderErrorsHeader
 
-    mixed WebserviceOutputInterface::renderErrorsHeader()
+```php
+mixed WebserviceOutputInterface::renderErrorsHeader()
+```
 
 
 
@@ -202,7 +223,9 @@ Methods
 
 ### <a name="method-renderField"></a>renderField
 
-    mixed WebserviceOutputInterface::renderField($field)
+```php
+mixed WebserviceOutputInterface::renderField($field)
+```
 
 
 
@@ -219,7 +242,9 @@ Methods
 
 ### <a name="method-renderNodeFooter"></a>renderNodeFooter
 
-    mixed WebserviceOutputInterface::renderNodeFooter($obj, $params)
+```php
+mixed WebserviceOutputInterface::renderNodeFooter($obj, $params)
+```
 
 
 
@@ -237,7 +262,9 @@ Methods
 
 ### <a name="method-renderNodeHeader"></a>renderNodeHeader
 
-    mixed WebserviceOutputInterface::renderNodeHeader($obj, $params, $more_attr)
+```php
+mixed WebserviceOutputInterface::renderNodeHeader($obj, $params, $more_attr)
+```
 
 
 
@@ -256,7 +283,9 @@ Methods
 
 ### <a name="method-setSchemaToDisplay"></a>setSchemaToDisplay
 
-    mixed WebserviceOutputInterface::setSchemaToDisplay($schema)
+```php
+mixed WebserviceOutputInterface::setSchemaToDisplay($schema)
+```
 
 
 
@@ -273,7 +302,9 @@ Methods
 
 ### <a name="method-setWsUrl"></a>setWsUrl
 
-    mixed WebserviceOutputInterface::setWsUrl($url)
+```php
+mixed WebserviceOutputInterface::setWsUrl($url)
+```
 
 
 

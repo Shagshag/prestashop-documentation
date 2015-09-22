@@ -10,14 +10,16 @@ Class AdminLanguagesControllerCore
 * Source: [controllers/admin/AdminLanguagesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterImageUpload](#method-afterImageUpload)
 * [ajaxProcessCheckLangPack](#method-ajaxProcessCheckLangPack)
@@ -46,7 +48,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Language $object
+```php
+public \Language $object
+```
 
 
 
@@ -62,7 +66,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminLanguagesControllerCore::__construct()
+```php
+mixed AdminLanguagesControllerCore::__construct()
+```
 
 
 
@@ -76,7 +82,9 @@ Methods
 
 ### <a name="method-afterImageUpload"></a>afterImageUpload
 
-    mixed AdminLanguagesControllerCore::afterImageUpload()
+```php
+mixed AdminLanguagesControllerCore::afterImageUpload()
+```
 
 
 
@@ -90,7 +98,9 @@ Methods
 
 ### <a name="method-ajaxProcessCheckLangPack"></a>ajaxProcessCheckLangPack
 
-    mixed AdminLanguagesControllerCore::ajaxProcessCheckLangPack()
+```php
+mixed AdminLanguagesControllerCore::ajaxProcessCheckLangPack()
+```
 
 
 
@@ -104,7 +114,9 @@ Methods
 
 ### <a name="method-checkDeletion"></a>checkDeletion
 
-    mixed AdminLanguagesControllerCore::checkDeletion($object)
+```php
+mixed AdminLanguagesControllerCore::checkDeletion($object)
+```
 
 
 
@@ -121,7 +133,9 @@ Methods
 
 ### <a name="method-checkDisableStatus"></a>checkDisableStatus
 
-    mixed AdminLanguagesControllerCore::checkDisableStatus($object)
+```php
+mixed AdminLanguagesControllerCore::checkDisableStatus($object)
+```
 
 
 
@@ -138,7 +152,9 @@ Methods
 
 ### <a name="method-checkEmployeeIdLang"></a>checkEmployeeIdLang
 
-    mixed AdminLanguagesControllerCore::checkEmployeeIdLang($current_id_lang)
+```php
+mixed AdminLanguagesControllerCore::checkEmployeeIdLang($current_id_lang)
+```
 
 
 
@@ -155,7 +171,9 @@ Methods
 
 ### <a name="method-copyFromPost"></a>copyFromPost
 
-    mixed AdminLanguagesControllerCore::copyFromPost(\Language $object, string $table)
+```php
+mixed AdminLanguagesControllerCore::copyFromPost(\Language $object, string $table)
+```
 
 
 
@@ -173,7 +191,9 @@ Methods
 
 ### <a name="method-copyNoPictureImage"></a>copyNoPictureImage
 
-    void|false AdminLanguagesControllerCore::copyNoPictureImage(string $language)
+```php
+void|false AdminLanguagesControllerCore::copyNoPictureImage(string $language)
+```
 
 Copy a no-product image
 
@@ -190,7 +210,9 @@ Copy a no-product image
 
 ### <a name="method-deleteNoPictureImages"></a>deleteNoPictureImages
 
-    boolean AdminLanguagesControllerCore::deleteNoPictureImages(string $id_language)
+```php
+boolean AdminLanguagesControllerCore::deleteNoPictureImages(string $id_language)
+```
 
 deleteNoPictureImages will delete all default image created for the language id_language
 
@@ -207,7 +229,9 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminLanguagesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminLanguagesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -221,7 +245,9 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 ### <a name="method-processAdd"></a>processAdd
 
-    mixed AdminLanguagesControllerCore::processAdd()
+```php
+mixed AdminLanguagesControllerCore::processAdd()
+```
 
 
 
@@ -235,7 +261,9 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 ### <a name="method-processBulkDelete"></a>processBulkDelete
 
-    mixed AdminLanguagesControllerCore::processBulkDelete()
+```php
+mixed AdminLanguagesControllerCore::processBulkDelete()
+```
 
 
 
@@ -249,7 +277,9 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 ### <a name="method-processBulkDisableSelection"></a>processBulkDisableSelection
 
-    mixed AdminLanguagesControllerCore::processBulkDisableSelection()
+```php
+mixed AdminLanguagesControllerCore::processBulkDisableSelection()
+```
 
 
 
@@ -263,7 +293,9 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminLanguagesControllerCore::processDelete()
+```php
+mixed AdminLanguagesControllerCore::processDelete()
+```
 
 
 
@@ -277,7 +309,9 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 ### <a name="method-processStatus"></a>processStatus
 
-    mixed AdminLanguagesControllerCore::processStatus()
+```php
+mixed AdminLanguagesControllerCore::processStatus()
+```
 
 
 
@@ -291,7 +325,9 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 ### <a name="method-processUpdate"></a>processUpdate
 
-    mixed AdminLanguagesControllerCore::processUpdate()
+```php
+mixed AdminLanguagesControllerCore::processUpdate()
+```
 
 
 
@@ -305,7 +341,9 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminLanguagesControllerCore::renderForm()
+```php
+mixed AdminLanguagesControllerCore::renderForm()
+```
 
 
 
@@ -319,7 +357,9 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminLanguagesControllerCore::renderList()
+```php
+mixed AdminLanguagesControllerCore::renderList()
+```
 
 
 

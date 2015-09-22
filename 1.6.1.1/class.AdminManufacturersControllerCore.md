@@ -10,16 +10,18 @@ Class AdminManufacturersControllerCore
 * Source: [controllers/admin/AdminManufacturersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$bootstrap](#property-$bootstrap)
 * [$countries_array](#property-$countries_array)
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterImageUpload](#method-afterImageUpload)
 * [beforeDelete](#method-beforeDelete)
@@ -49,7 +51,9 @@ Properties
 
 ### <a name="property-$bootstrap"></a>$bootstrap
 
-    public mixed $bootstrap = true
+```php
+public mixed $bootstrap = true
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$countries_array"></a>$countries_array
 
-    protected array $countries_array = array()
+```php
+protected array $countries_array = array()
+```
 
 
 
@@ -73,7 +79,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Manufacturer $object
+```php
+public \Manufacturer $object
+```
 
 
 
@@ -89,7 +97,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminManufacturersControllerCore::__construct()
+```php
+mixed AdminManufacturersControllerCore::__construct()
+```
 
 
 
@@ -103,7 +113,9 @@ Methods
 
 ### <a name="method-afterImageUpload"></a>afterImageUpload
 
-    mixed AdminManufacturersControllerCore::afterImageUpload()
+```php
+mixed AdminManufacturersControllerCore::afterImageUpload()
+```
 
 
 
@@ -117,7 +129,9 @@ Methods
 
 ### <a name="method-beforeDelete"></a>beforeDelete
 
-    mixed AdminManufacturersControllerCore::beforeDelete($object)
+```php
+mixed AdminManufacturersControllerCore::beforeDelete($object)
+```
 
 
 
@@ -134,7 +148,9 @@ Methods
 
 ### <a name="method-displayEditaddressesLink"></a>displayEditaddressesLink
 
-    string AdminManufacturersControllerCore::displayEditaddressesLink(string $token, integer $id)
+```php
+string AdminManufacturersControllerCore::displayEditaddressesLink(string $token, integer $id)
+```
 
 Display editaddresses action link
 
@@ -152,7 +168,9 @@ Display editaddresses action link
 
 ### <a name="method-getAddressFieldsList"></a>getAddressFieldsList
 
-    mixed AdminManufacturersControllerCore::getAddressFieldsList()
+```php
+mixed AdminManufacturersControllerCore::getAddressFieldsList()
+```
 
 
 
@@ -166,7 +184,9 @@ Display editaddresses action link
 
 ### <a name="method-init"></a>init
 
-    mixed AdminManufacturersControllerCore::init()
+```php
+mixed AdminManufacturersControllerCore::init()
+```
 
 AdminController::init() override
 
@@ -180,7 +200,9 @@ AdminController::init() override
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminManufacturersControllerCore::initContent()
+```php
+mixed AdminManufacturersControllerCore::initContent()
+```
 
 
 
@@ -194,7 +216,9 @@ AdminController::init() override
 
 ### <a name="method-initListManufacturer"></a>initListManufacturer
 
-    mixed AdminManufacturersControllerCore::initListManufacturer()
+```php
+mixed AdminManufacturersControllerCore::initListManufacturer()
+```
 
 
 
@@ -208,7 +232,9 @@ AdminController::init() override
 
 ### <a name="method-initListManufacturerAddresses"></a>initListManufacturerAddresses
 
-    mixed AdminManufacturersControllerCore::initListManufacturerAddresses()
+```php
+mixed AdminManufacturersControllerCore::initListManufacturerAddresses()
+```
 
 
 
@@ -222,7 +248,9 @@ AdminController::init() override
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminManufacturersControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminManufacturersControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -236,7 +264,9 @@ AdminController::init() override
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminManufacturersControllerCore::initProcess()
+```php
+mixed AdminManufacturersControllerCore::initProcess()
+```
 
 
 
@@ -250,7 +280,9 @@ AdminController::init() override
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminManufacturersControllerCore::initToolbar()
+```php
+mixed AdminManufacturersControllerCore::initToolbar()
+```
 
 AdminController::initToolbar() override
 
@@ -264,7 +296,9 @@ AdminController::initToolbar() override
 
 ### <a name="method-processExport"></a>processExport
 
-    mixed AdminManufacturersControllerCore::processExport($text_delimiter)
+```php
+mixed AdminManufacturersControllerCore::processExport($text_delimiter)
+```
 
 
 
@@ -281,7 +315,9 @@ AdminController::initToolbar() override
 
 ### <a name="method-processSave"></a>processSave
 
-    mixed AdminManufacturersControllerCore::processSave()
+```php
+mixed AdminManufacturersControllerCore::processSave()
+```
 
 
 
@@ -295,7 +331,9 @@ AdminController::initToolbar() override
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminManufacturersControllerCore::renderForm()
+```php
+mixed AdminManufacturersControllerCore::renderForm()
+```
 
 
 
@@ -309,7 +347,9 @@ AdminController::initToolbar() override
 
 ### <a name="method-renderFormAddress"></a>renderFormAddress
 
-    mixed AdminManufacturersControllerCore::renderFormAddress()
+```php
+mixed AdminManufacturersControllerCore::renderFormAddress()
+```
 
 
 
@@ -323,7 +363,9 @@ AdminController::initToolbar() override
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminManufacturersControllerCore::renderList()
+```php
+mixed AdminManufacturersControllerCore::renderList()
+```
 
 
 
@@ -337,7 +379,9 @@ AdminController::initToolbar() override
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminManufacturersControllerCore::renderView()
+```php
+mixed AdminManufacturersControllerCore::renderView()
+```
 
 
 
@@ -351,7 +395,9 @@ AdminController::initToolbar() override
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminManufacturersControllerCore::setMedia()
+```php
+mixed AdminManufacturersControllerCore::setMedia()
+```
 
 
 

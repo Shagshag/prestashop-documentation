@@ -9,9 +9,11 @@ Class LocalizationPackCore
 * Source: [classes/LocalizationPack.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_errors](#property-$_errors)
 * [$iso_code_lang](#property-$iso_code_lang)
@@ -19,8 +21,8 @@ Properties
 * [$name](#property-$name)
 * [$version](#property-$version)
 
-Methods
--------
+### Methods
+
 * [_installCurrencies](#method-_installCurrencies)
 * [_installGroups](#method-_installGroups)
 * [_installLanguages](#method-_installLanguages)
@@ -42,7 +44,9 @@ Properties
 
 ### <a name="property-$_errors"></a>$_errors
 
-    protected mixed $_errors = array()
+```php
+protected mixed $_errors = array()
+```
 
 
 
@@ -54,7 +58,9 @@ Properties
 
 ### <a name="property-$iso_code_lang"></a>$iso_code_lang
 
-    protected mixed $iso_code_lang
+```php
+protected mixed $iso_code_lang
+```
 
 
 
@@ -66,7 +72,9 @@ Properties
 
 ### <a name="property-$iso_currency"></a>$iso_currency
 
-    protected mixed $iso_currency
+```php
+protected mixed $iso_currency
+```
 
 
 
@@ -78,7 +86,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -90,7 +100,9 @@ Properties
 
 ### <a name="property-$version"></a>$version
 
-    public mixed $version
+```php
+public mixed $version
+```
 
 
 
@@ -106,7 +118,9 @@ Methods
 
 ### <a name="method-_installCurrencies"></a>_installCurrencies
 
-    boolean LocalizationPackCore::_installCurrencies(\SimpleXMLElement $xml, boolean $install_mode)
+```php
+boolean LocalizationPackCore::_installCurrencies(\SimpleXMLElement $xml, boolean $install_mode)
+```
 
 
 
@@ -124,7 +138,9 @@ Methods
 
 ### <a name="method-_installGroups"></a>_installGroups
 
-    boolean LocalizationPackCore::_installGroups(\SimpleXMLElement $xml)
+```php
+boolean LocalizationPackCore::_installGroups(\SimpleXMLElement $xml)
+```
 
 
 
@@ -141,7 +157,9 @@ Methods
 
 ### <a name="method-_installLanguages"></a>_installLanguages
 
-    boolean LocalizationPackCore::_installLanguages(\SimpleXMLElement $xml, boolean $install_mode)
+```php
+boolean LocalizationPackCore::_installLanguages(\SimpleXMLElement $xml, boolean $install_mode)
+```
 
 
 
@@ -159,7 +177,9 @@ Methods
 
 ### <a name="method-_installStates"></a>_installStates
 
-    boolean LocalizationPackCore::_installStates(\SimpleXMLElement $xml)
+```php
+boolean LocalizationPackCore::_installStates(\SimpleXMLElement $xml)
+```
 
 
 
@@ -176,7 +196,9 @@ Methods
 
 ### <a name="method-_installTaxes"></a>_installTaxes
 
-    boolean LocalizationPackCore::_installTaxes(\SimpleXMLElement $xml)
+```php
+boolean LocalizationPackCore::_installTaxes(\SimpleXMLElement $xml)
+```
 
 
 
@@ -193,7 +215,9 @@ Methods
 
 ### <a name="method-_installUnits"></a>_installUnits
 
-    boolean LocalizationPackCore::_installUnits(\SimpleXMLElement $xml)
+```php
+boolean LocalizationPackCore::_installUnits(\SimpleXMLElement $xml)
+```
 
 
 
@@ -210,7 +234,9 @@ Methods
 
 ### <a name="method-getErrors"></a>getErrors
 
-    mixed LocalizationPackCore::getErrors()
+```php
+mixed LocalizationPackCore::getErrors()
+```
 
 
 
@@ -224,7 +250,9 @@ Methods
 
 ### <a name="method-installConfiguration"></a>installConfiguration
 
-    boolean LocalizationPackCore::installConfiguration(\SimpleXMLElement $xml)
+```php
+boolean LocalizationPackCore::installConfiguration(\SimpleXMLElement $xml)
+```
 
 Update a configuration variable from a localization file
 <configuration>
@@ -243,7 +271,9 @@ Update a configuration variable from a localization file
 
 ### <a name="method-installModules"></a>installModules
 
-    boolean LocalizationPackCore::installModules(\SimpleXMLElement $xml)
+```php
+boolean LocalizationPackCore::installModules(\SimpleXMLElement $xml)
+```
 
 Install/Uninstall a module from a localization file
 <modules>
@@ -262,7 +292,9 @@ Install/Uninstall a module from a localization file
 
 ### <a name="method-loadLocalisationPack"></a>loadLocalisationPack
 
-    mixed LocalizationPackCore::loadLocalisationPack($file, $selection, $install_mode, $iso_localization_pack)
+```php
+mixed LocalizationPackCore::loadLocalisationPack($file, $selection, $install_mode, $iso_localization_pack)
+```
 
 
 
@@ -282,7 +314,9 @@ Install/Uninstall a module from a localization file
 
 ### <a name="method-updateDefaultGroupDisplayMethod"></a>updateDefaultGroupDisplayMethod
 
-    boolean LocalizationPackCore::updateDefaultGroupDisplayMethod(\SimpleXMLElement $xml)
+```php
+boolean LocalizationPackCore::updateDefaultGroupDisplayMethod(\SimpleXMLElement $xml)
+```
 
 
 

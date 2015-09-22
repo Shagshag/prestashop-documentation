@@ -10,15 +10,17 @@ Class AdminCarriersControllerCore
 * Source: [controllers/admin/AdminCarriersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 * [$position_identifier](#property-$position_identifier)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessUpdatePositions](#method-ajaxProcessUpdatePositions)
 * [beforeDelete](#method-beforeDelete)
@@ -46,7 +48,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Carrier $object
+```php
+public \Carrier $object
+```
 
 
 
@@ -58,7 +62,9 @@ Properties
 
 ### <a name="property-$position_identifier"></a>$position_identifier
 
-    protected mixed $position_identifier = 'id_carrier'
+```php
+protected mixed $position_identifier = 'id_carrier'
+```
 
 
 
@@ -74,7 +80,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminCarriersControllerCore::__construct()
+```php
+mixed AdminCarriersControllerCore::__construct()
+```
 
 
 
@@ -88,7 +96,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdatePositions"></a>ajaxProcessUpdatePositions
 
-    mixed AdminCarriersControllerCore::ajaxProcessUpdatePositions()
+```php
+mixed AdminCarriersControllerCore::ajaxProcessUpdatePositions()
+```
 
 
 
@@ -102,7 +112,9 @@ Methods
 
 ### <a name="method-beforeDelete"></a>beforeDelete
 
-    integer AdminCarriersControllerCore::beforeDelete(\Carrier $object)
+```php
+integer AdminCarriersControllerCore::beforeDelete(\Carrier $object)
+```
 
 
 
@@ -119,7 +131,9 @@ Methods
 
 ### <a name="method-changeGroups"></a>changeGroups
 
-    mixed AdminCarriersControllerCore::changeGroups($id_carrier, $delete)
+```php
+mixed AdminCarriersControllerCore::changeGroups($id_carrier, $delete)
+```
 
 
 
@@ -137,7 +151,9 @@ Methods
 
 ### <a name="method-changeZones"></a>changeZones
 
-    mixed AdminCarriersControllerCore::changeZones($id)
+```php
+mixed AdminCarriersControllerCore::changeZones($id)
+```
 
 
 
@@ -154,7 +170,9 @@ Methods
 
 ### <a name="method-displayDeleteLink"></a>displayDeleteLink
 
-    mixed AdminCarriersControllerCore::displayDeleteLink($token, $id, $name)
+```php
+mixed AdminCarriersControllerCore::displayDeleteLink($token, $id, $name)
+```
 
 
 
@@ -173,7 +191,9 @@ Methods
 
 ### <a name="method-displayEditLink"></a>displayEditLink
 
-    mixed AdminCarriersControllerCore::displayEditLink($token, $id, $name)
+```php
+mixed AdminCarriersControllerCore::displayEditLink($token, $id, $name)
+```
 
 
 
@@ -192,7 +212,9 @@ Methods
 
 ### <a name="method-getFieldsValues"></a>getFieldsValues
 
-    mixed AdminCarriersControllerCore::getFieldsValues(object $obj)
+```php
+mixed AdminCarriersControllerCore::getFieldsValues(object $obj)
+```
 
 Overload the property $fields_value
 
@@ -209,7 +231,9 @@ Overload the property $fields_value
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminCarriersControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```php
+mixed AdminCarriersControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```
 
 Modifying initial getList method to display position feature (drag and drop)
 
@@ -231,7 +255,9 @@ Modifying initial getList method to display position feature (drag and drop)
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminCarriersControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminCarriersControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -245,7 +271,9 @@ Modifying initial getList method to display position feature (drag and drop)
 
 ### <a name="method-initTabModuleList"></a>initTabModuleList
 
-    mixed AdminCarriersControllerCore::initTabModuleList()
+```php
+mixed AdminCarriersControllerCore::initTabModuleList()
+```
 
 
 
@@ -259,7 +287,9 @@ Modifying initial getList method to display position feature (drag and drop)
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminCarriersControllerCore::initToolbar()
+```php
+mixed AdminCarriersControllerCore::initToolbar()
+```
 
 
 
@@ -273,7 +303,9 @@ Modifying initial getList method to display position feature (drag and drop)
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminCarriersControllerCore::postProcess()
+```php
+mixed AdminCarriersControllerCore::postProcess()
+```
 
 
 
@@ -287,7 +319,9 @@ Modifying initial getList method to display position feature (drag and drop)
 
 ### <a name="method-processIsFree"></a>processIsFree
 
-    mixed AdminCarriersControllerCore::processIsFree()
+```php
+mixed AdminCarriersControllerCore::processIsFree()
+```
 
 
 
@@ -301,7 +335,9 @@ Modifying initial getList method to display position feature (drag and drop)
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminCarriersControllerCore::renderForm()
+```php
+mixed AdminCarriersControllerCore::renderForm()
+```
 
 
 
@@ -315,7 +351,9 @@ Modifying initial getList method to display position feature (drag and drop)
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminCarriersControllerCore::renderList()
+```php
+mixed AdminCarriersControllerCore::renderList()
+```
 
 
 
@@ -329,7 +367,9 @@ Modifying initial getList method to display position feature (drag and drop)
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminCarriersControllerCore::renderView()
+```php
+mixed AdminCarriersControllerCore::renderView()
+```
 
 
 

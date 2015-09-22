@@ -10,14 +10,16 @@ Class FileLoggerCore
 * Source: [classes/log/FileLogger.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$filename](#property-$filename)
 
-Methods
--------
+### Methods
+
 * [getFilename](#method-getFilename)
 * [logMessage](#method-logMessage)
 * [setFilename](#method-setFilename)
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$filename"></a>$filename
 
-    protected mixed $filename = ''
+```php
+protected mixed $filename = ''
+```
 
 
 
@@ -47,7 +51,9 @@ Methods
 
 ### <a name="method-getFilename"></a>getFilename
 
-    mixed FileLoggerCore::getFilename()
+```php
+mixed FileLoggerCore::getFilename()
+```
 
 Log the message
 
@@ -61,7 +67,9 @@ Log the message
 
 ### <a name="method-logMessage"></a>logMessage
 
-    mixed FileLoggerCore::logMessage($message, $level)
+```php
+mixed FileLoggerCore::logMessage($message, $level)
+```
 
 Write the message in the log file
 
@@ -79,7 +87,9 @@ Write the message in the log file
 
 ### <a name="method-setFilename"></a>setFilename
 
-    mixed FileLoggerCore::setFilename(string $filename)
+```php
+mixed FileLoggerCore::setFilename(string $filename)
+```
 
 Check if the specified filename is writable and set the filename
 

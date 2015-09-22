@@ -10,9 +10,11 @@ Class ConnectionsSourceCore
 * Source: [classes/ConnectionsSource.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$definition](#property-$definition)
@@ -22,8 +24,8 @@ Properties
 * [$request_uri](#property-$request_uri)
 * [$uri_max_size](#property-$uri_max_size)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [getOrderSources](#method-getOrderSources)
 * [logHttpReferer](#method-logHttpReferer)
@@ -37,7 +39,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public mixed $date_add
+```php
+public mixed $date_add
+```
 
 
 
@@ -49,7 +53,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'connections_source', 'primary' => 'id_connections_source', 'fields' => array('id_connections' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'http_referer' => array('type' => self::TYPE_STRING, 'validate' => 'isAbsoluteUrl'), 'request_uri' => array('type' => self::TYPE_STRING, 'validate' => 'isUrl'), 'keywords' => array('type' => self::TYPE_STRING, 'validate' => 'isMessage'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'connections_source', 'primary' => 'id_connections_source', 'fields' => array('id_connections' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'http_referer' => array('type' => self::TYPE_STRING, 'validate' => 'isAbsoluteUrl'), 'request_uri' => array('type' => self::TYPE_STRING, 'validate' => 'isUrl'), 'keywords' => array('type' => self::TYPE_STRING, 'validate' => 'isMessage'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true)))
+```
 
 
 
@@ -62,7 +68,9 @@ Properties
 
 ### <a name="property-$http_referer"></a>$http_referer
 
-    public mixed $http_referer
+```php
+public mixed $http_referer
+```
 
 
 
@@ -74,7 +82,9 @@ Properties
 
 ### <a name="property-$id_connections"></a>$id_connections
 
-    public mixed $id_connections
+```php
+public mixed $id_connections
+```
 
 
 
@@ -86,7 +96,9 @@ Properties
 
 ### <a name="property-$keywords"></a>$keywords
 
-    public mixed $keywords
+```php
+public mixed $keywords
+```
 
 
 
@@ -98,7 +110,9 @@ Properties
 
 ### <a name="property-$request_uri"></a>$request_uri
 
-    public mixed $request_uri
+```php
+public mixed $request_uri
+```
 
 
 
@@ -110,7 +124,9 @@ Properties
 
 ### <a name="property-$uri_max_size"></a>$uri_max_size
 
-    public mixed $uri_max_size = 255
+```php
+public mixed $uri_max_size = 255
+```
 
 
 
@@ -127,7 +143,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed ConnectionsSourceCore::add($autodate, $nullValues)
+```php
+mixed ConnectionsSourceCore::add($autodate, $nullValues)
+```
 
 
 
@@ -145,7 +163,9 @@ Methods
 
 ### <a name="method-getOrderSources"></a>getOrderSources
 
-    mixed ConnectionsSourceCore::getOrderSources($id_order)
+```php
+mixed ConnectionsSourceCore::getOrderSources($id_order)
+```
 
 
 
@@ -163,7 +183,9 @@ Methods
 
 ### <a name="method-logHttpReferer"></a>logHttpReferer
 
-    mixed ConnectionsSourceCore::logHttpReferer(\Cookie $cookie)
+```php
+mixed ConnectionsSourceCore::logHttpReferer(\Cookie $cookie)
+```
 
 
 

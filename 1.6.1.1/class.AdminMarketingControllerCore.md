@@ -10,11 +10,13 @@ Class AdminMarketingControllerCore
 * Source: [controllers/admin/AdminMarketingController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initContent](#method-initContent)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
@@ -33,7 +35,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminMarketingControllerCore::__construct()
+```php
+mixed AdminMarketingControllerCore::__construct()
+```
 
 
 
@@ -47,7 +51,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminMarketingControllerCore::initContent()
+```php
+mixed AdminMarketingControllerCore::initContent()
+```
 
 
 
@@ -61,7 +67,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminMarketingControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminMarketingControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -75,7 +83,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminMarketingControllerCore::initToolbar()
+```php
+mixed AdminMarketingControllerCore::initToolbar()
+```
 
 
 
@@ -89,7 +99,9 @@ Methods
 
 ### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
-    mixed AdminMarketingControllerCore::initToolbarTitle()
+```php
+mixed AdminMarketingControllerCore::initToolbarTitle()
+```
 
 
 
@@ -103,7 +115,9 @@ Methods
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminMarketingControllerCore::renderView()
+```php
+mixed AdminMarketingControllerCore::renderView()
+```
 
 
 

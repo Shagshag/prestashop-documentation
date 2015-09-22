@@ -10,14 +10,16 @@ Class AdminCountriesControllerCore
 * Source: [controllers/admin/AdminCountriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [displayCallPrefix](#method-displayCallPrefix)
 * [displayValidFields](#method-displayValidFields)
@@ -40,7 +42,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Country $object
+```php
+public \Country $object
+```
 
 
 
@@ -56,7 +60,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminCountriesControllerCore::__construct()
+```php
+mixed AdminCountriesControllerCore::__construct()
+```
 
 
 
@@ -70,7 +76,9 @@ Methods
 
 ### <a name="method-displayCallPrefix"></a>displayCallPrefix
 
-    mixed AdminCountriesControllerCore::displayCallPrefix($prefix)
+```php
+mixed AdminCountriesControllerCore::displayCallPrefix($prefix)
+```
 
 
 
@@ -88,7 +96,9 @@ Methods
 
 ### <a name="method-displayValidFields"></a>displayValidFields
 
-    mixed AdminCountriesControllerCore::displayValidFields()
+```php
+mixed AdminCountriesControllerCore::displayValidFields()
+```
 
 
 
@@ -102,7 +112,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminCountriesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminCountriesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -116,7 +128,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminCountriesControllerCore::postProcess()
+```php
+mixed AdminCountriesControllerCore::postProcess()
+```
 
 
 
@@ -130,7 +144,9 @@ Methods
 
 ### <a name="method-processBulkStatusSelection"></a>processBulkStatusSelection
 
-    mixed AdminCountriesControllerCore::processBulkStatusSelection($way)
+```php
+mixed AdminCountriesControllerCore::processBulkStatusSelection($way)
+```
 
 
 
@@ -147,7 +163,9 @@ Methods
 
 ### <a name="method-processSave"></a>processSave
 
-    mixed AdminCountriesControllerCore::processSave()
+```php
+mixed AdminCountriesControllerCore::processSave()
+```
 
 
 
@@ -161,7 +179,9 @@ Methods
 
 ### <a name="method-processStatus"></a>processStatus
 
-    mixed AdminCountriesControllerCore::processStatus()
+```php
+mixed AdminCountriesControllerCore::processStatus()
+```
 
 
 
@@ -175,7 +195,9 @@ Methods
 
 ### <a name="method-processUpdate"></a>processUpdate
 
-    mixed AdminCountriesControllerCore::processUpdate()
+```php
+mixed AdminCountriesControllerCore::processUpdate()
+```
 
 
 
@@ -189,7 +211,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminCountriesControllerCore::renderForm()
+```php
+mixed AdminCountriesControllerCore::renderForm()
+```
 
 
 
@@ -203,7 +227,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminCountriesControllerCore::renderList()
+```php
+mixed AdminCountriesControllerCore::renderList()
+```
 
 
 
@@ -217,7 +243,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminCountriesControllerCore::setMedia()
+```php
+mixed AdminCountriesControllerCore::setMedia()
+```
 
 AdminController::setMedia() override
 

@@ -10,11 +10,13 @@ Class AdminNotFoundControllerCore
 * Source: [controllers/admin/AdminNotFoundController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminNotFoundController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [checkAccess](#method-checkAccess)
 * [initContent](#method-initContent)
@@ -31,7 +33,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminNotFoundControllerCore::__construct()
+```php
+mixed AdminNotFoundControllerCore::__construct()
+```
 
 
 
@@ -45,7 +49,9 @@ Methods
 
 ### <a name="method-checkAccess"></a>checkAccess
 
-    mixed AdminNotFoundControllerCore::checkAccess()
+```php
+mixed AdminNotFoundControllerCore::checkAccess()
+```
 
 
 
@@ -59,7 +65,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminNotFoundControllerCore::initContent()
+```php
+mixed AdminNotFoundControllerCore::initContent()
+```
 
 
 
@@ -73,7 +81,9 @@ Methods
 
 ### <a name="method-viewAccess"></a>viewAccess
 
-    mixed AdminNotFoundControllerCore::viewAccess()
+```php
+mixed AdminNotFoundControllerCore::viewAccess()
+```
 
 
 

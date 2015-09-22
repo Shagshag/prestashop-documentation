@@ -10,9 +10,11 @@ Class HTMLTemplateSupplyOrderFormCore
 * Source: [classes/pdf/HTMLTemplateSupplyOrderForm.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$address_supplier](#property-$address_supplier)
 * [$address_warehouse](#property-$address_warehouse)
@@ -20,8 +22,8 @@ Properties
 * [$supply_order](#property-$supply_order)
 * [$warehouse](#property-$warehouse)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getBulkFilename](#method-getBulkFilename)
 * [getContent](#method-getContent)
@@ -42,7 +44,9 @@ Properties
 
 ### <a name="property-$address_supplier"></a>$address_supplier
 
-    public mixed $address_supplier
+```php
+public mixed $address_supplier
+```
 
 
 
@@ -54,7 +58,9 @@ Properties
 
 ### <a name="property-$address_warehouse"></a>$address_warehouse
 
-    public mixed $address_warehouse
+```php
+public mixed $address_warehouse
+```
 
 
 
@@ -66,7 +72,9 @@ Properties
 
 ### <a name="property-$context"></a>$context
 
-    public mixed $context
+```php
+public mixed $context
+```
 
 
 
@@ -78,7 +86,9 @@ Properties
 
 ### <a name="property-$supply_order"></a>$supply_order
 
-    public mixed $supply_order
+```php
+public mixed $supply_order
+```
 
 
 
@@ -90,7 +100,9 @@ Properties
 
 ### <a name="property-$warehouse"></a>$warehouse
 
-    public mixed $warehouse
+```php
+public mixed $warehouse
+```
 
 
 
@@ -106,7 +118,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed HTMLTemplateSupplyOrderFormCore::__construct(\SupplyOrder $supply_order, $smarty)
+```php
+mixed HTMLTemplateSupplyOrderFormCore::__construct(\SupplyOrder $supply_order, $smarty)
+```
 
 
 
@@ -124,7 +138,9 @@ Methods
 
 ### <a name="method-getBulkFilename"></a>getBulkFilename
 
-    mixed HTMLTemplateSupplyOrderFormCore::getBulkFilename()
+```php
+mixed HTMLTemplateSupplyOrderFormCore::getBulkFilename()
+```
 
 
 
@@ -138,7 +154,9 @@ Methods
 
 ### <a name="method-getContent"></a>getContent
 
-    mixed HTMLTemplateSupplyOrderFormCore::getContent()
+```php
+mixed HTMLTemplateSupplyOrderFormCore::getContent()
+```
 
 
 
@@ -152,7 +170,9 @@ Methods
 
 ### <a name="method-getFilename"></a>getFilename
 
-    mixed HTMLTemplateSupplyOrderFormCore::getFilename()
+```php
+mixed HTMLTemplateSupplyOrderFormCore::getFilename()
+```
 
 
 
@@ -166,7 +186,9 @@ Methods
 
 ### <a name="method-getFooter"></a>getFooter
 
-    mixed HTMLTemplateSupplyOrderFormCore::getFooter()
+```php
+mixed HTMLTemplateSupplyOrderFormCore::getFooter()
+```
 
 
 
@@ -180,7 +202,9 @@ Methods
 
 ### <a name="method-getHeader"></a>getHeader
 
-    mixed HTMLTemplateSupplyOrderFormCore::getHeader()
+```php
+mixed HTMLTemplateSupplyOrderFormCore::getHeader()
+```
 
 
 
@@ -194,7 +218,9 @@ Methods
 
 ### <a name="method-getLogo"></a>getLogo
 
-    String HTMLTemplateSupplyOrderFormCore::getLogo()
+```php
+String HTMLTemplateSupplyOrderFormCore::getLogo()
+```
 
 Returns the invoice logo
 
@@ -208,7 +234,9 @@ Returns the invoice logo
 
 ### <a name="method-getTaxOrderSummary"></a>getTaxOrderSummary
 
-    array|false|\mysqli_result|null|\PDOStatement|resource HTMLTemplateSupplyOrderFormCore::getTaxOrderSummary()
+```php
+array|false|\mysqli_result|null|\PDOStatement|resource HTMLTemplateSupplyOrderFormCore::getTaxOrderSummary()
+```
 
 Get order taxes summary
 
@@ -222,7 +250,9 @@ Get order taxes summary
 
 ### <a name="method-roundSupplyOrder"></a>roundSupplyOrder
 
-    mixed HTMLTemplateSupplyOrderFormCore::roundSupplyOrder(\SupplyOrder $supply_order)
+```php
+mixed HTMLTemplateSupplyOrderFormCore::roundSupplyOrder(\SupplyOrder $supply_order)
+```
 
 Rounds values of a SupplyOrder object
 
@@ -239,7 +269,9 @@ Rounds values of a SupplyOrder object
 
 ### <a name="method-roundSupplyOrderDetails"></a>roundSupplyOrderDetails
 
-    mixed HTMLTemplateSupplyOrderFormCore::roundSupplyOrderDetails(array|\PrestaShopCollection $collection)
+```php
+mixed HTMLTemplateSupplyOrderFormCore::roundSupplyOrderDetails(array|\PrestaShopCollection $collection)
+```
 
 Rounds values of a SupplyOrderDetail object
 

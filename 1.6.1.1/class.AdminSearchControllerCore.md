@@ -10,11 +10,13 @@ Class AdminSearchControllerCore
 * Source: [controllers/admin/AdminSearchController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initCustomerList](#method-initCustomerList)
 * [initOrderList](#method-initOrderList)
@@ -41,7 +43,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminSearchControllerCore::__construct()
+```php
+mixed AdminSearchControllerCore::__construct()
+```
 
 
 
@@ -55,7 +59,9 @@ Methods
 
 ### <a name="method-initCustomerList"></a>initCustomerList
 
-    mixed AdminSearchControllerCore::initCustomerList()
+```php
+mixed AdminSearchControllerCore::initCustomerList()
+```
 
 
 
@@ -69,7 +75,9 @@ Methods
 
 ### <a name="method-initOrderList"></a>initOrderList
 
-    mixed AdminSearchControllerCore::initOrderList()
+```php
+mixed AdminSearchControllerCore::initOrderList()
+```
 
 
 
@@ -83,7 +91,9 @@ Methods
 
 ### <a name="method-initProductList"></a>initProductList
 
-    mixed AdminSearchControllerCore::initProductList()
+```php
+mixed AdminSearchControllerCore::initProductList()
+```
 
 
 
@@ -97,7 +107,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminSearchControllerCore::initToolbar()
+```php
+mixed AdminSearchControllerCore::initToolbar()
+```
 
 
 
@@ -111,7 +123,9 @@ Methods
 
 ### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
-    mixed AdminSearchControllerCore::initToolbarTitle()
+```php
+mixed AdminSearchControllerCore::initToolbarTitle()
+```
 
 
 
@@ -125,7 +139,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminSearchControllerCore::postProcess()
+```php
+mixed AdminSearchControllerCore::postProcess()
+```
 
 
 
@@ -139,7 +155,9 @@ Methods
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminSearchControllerCore::renderView()
+```php
+mixed AdminSearchControllerCore::renderView()
+```
 
 
 
@@ -153,7 +171,9 @@ Methods
 
 ### <a name="method-searchCatalog"></a>searchCatalog
 
-    mixed AdminSearchControllerCore::searchCatalog()
+```php
+mixed AdminSearchControllerCore::searchCatalog()
+```
 
 Search a specific string in the products and categories
 
@@ -167,7 +187,9 @@ Search a specific string in the products and categories
 
 ### <a name="method-searchCustomer"></a>searchCustomer
 
-    mixed AdminSearchControllerCore::searchCustomer()
+```php
+mixed AdminSearchControllerCore::searchCustomer()
+```
 
 Search a specific name in the customers
 
@@ -181,7 +203,9 @@ Search a specific name in the customers
 
 ### <a name="method-searchFeatures"></a>searchFeatures
 
-    mixed AdminSearchControllerCore::searchFeatures()
+```php
+mixed AdminSearchControllerCore::searchFeatures()
+```
 
 Search a feature in all store
 
@@ -195,7 +219,9 @@ Search a feature in all store
 
 ### <a name="method-searchIP"></a>searchIP
 
-    mixed AdminSearchControllerCore::searchIP()
+```php
+mixed AdminSearchControllerCore::searchIP()
+```
 
 
 
@@ -209,7 +235,9 @@ Search a feature in all store
 
 ### <a name="method-searchModule"></a>searchModule
 
-    mixed AdminSearchControllerCore::searchModule()
+```php
+mixed AdminSearchControllerCore::searchModule()
+```
 
 
 
@@ -223,7 +251,9 @@ Search a feature in all store
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminSearchControllerCore::setMedia()
+```php
+mixed AdminSearchControllerCore::setMedia()
+```
 
 
 

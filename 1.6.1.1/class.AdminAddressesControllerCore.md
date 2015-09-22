@@ -10,15 +10,17 @@ Class AdminAddressesControllerCore
 * Source: [controllers/admin/AdminAddressesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$countries_array](#property-$countries_array)
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcess](#method-ajaxProcess)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
@@ -39,7 +41,9 @@ Properties
 
 ### <a name="property-$countries_array"></a>$countries_array
 
-    protected array $countries_array = array()
+```php
+protected array $countries_array = array()
+```
 
 
 
@@ -51,7 +55,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Address $object
+```php
+public \Address $object
+```
 
 
 
@@ -67,7 +73,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminAddressesControllerCore::__construct()
+```php
+mixed AdminAddressesControllerCore::__construct()
+```
 
 
 
@@ -81,7 +89,9 @@ Methods
 
 ### <a name="method-ajaxProcess"></a>ajaxProcess
 
-    mixed AdminAddressesControllerCore::ajaxProcess()
+```php
+mixed AdminAddressesControllerCore::ajaxProcess()
+```
 
 Method called when an ajax request is made
 
@@ -95,7 +105,9 @@ Method called when an ajax request is made
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminAddressesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminAddressesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -109,7 +121,9 @@ Method called when an ajax request is made
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminAddressesControllerCore::initToolbar()
+```php
+mixed AdminAddressesControllerCore::initToolbar()
+```
 
 
 
@@ -123,7 +137,9 @@ Method called when an ajax request is made
 
 ### <a name="method-processAdd"></a>processAdd
 
-    mixed AdminAddressesControllerCore::processAdd()
+```php
+mixed AdminAddressesControllerCore::processAdd()
+```
 
 
 
@@ -137,7 +153,9 @@ Method called when an ajax request is made
 
 ### <a name="method-processAddressFormat"></a>processAddressFormat
 
-    array AdminAddressesControllerCore::processAddressFormat()
+```php
+array AdminAddressesControllerCore::processAddressFormat()
+```
 
 Get Address formats used by the country where the address id retrieved from POST/GET is.
 
@@ -151,7 +169,9 @@ Get Address formats used by the country where the address id retrieved from POST
 
 ### <a name="method-processBulkDelete"></a>processBulkDelete
 
-    boolean AdminAddressesControllerCore::processBulkDelete()
+```php
+boolean AdminAddressesControllerCore::processBulkDelete()
+```
 
 Delete multiple items
 
@@ -165,7 +185,9 @@ Delete multiple items
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminAddressesControllerCore::processDelete()
+```php
+mixed AdminAddressesControllerCore::processDelete()
+```
 
 Object Delete
 
@@ -179,7 +201,9 @@ Object Delete
 
 ### <a name="method-processSave"></a>processSave
 
-    mixed AdminAddressesControllerCore::processSave()
+```php
+mixed AdminAddressesControllerCore::processSave()
+```
 
 
 
@@ -193,7 +217,9 @@ Object Delete
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminAddressesControllerCore::renderForm()
+```php
+mixed AdminAddressesControllerCore::renderForm()
+```
 
 
 

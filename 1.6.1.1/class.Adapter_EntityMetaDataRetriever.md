@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Adapter/Adapter_EntityMetaDataRetriever.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_EntityMetaDataRetriever.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [getEntityMetaData](#method-getEntityMetaData)
 
 
@@ -41,7 +43,9 @@ Methods
 
 ### <a name="method-getEntityMetaData"></a>getEntityMetaData
 
-    mixed Adapter_EntityMetaDataRetriever::getEntityMetaData($className)
+```php
+mixed Adapter_EntityMetaDataRetriever::getEntityMetaData($className)
+```
 
 
 

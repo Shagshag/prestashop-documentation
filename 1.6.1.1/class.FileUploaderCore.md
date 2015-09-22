@@ -9,16 +9,18 @@ Class FileUploaderCore
 * Source: [classes/FileUploader.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$allowedExtensions](#property-$allowedExtensions)
 * [$file](#property-$file)
 * [$sizeLimit](#property-$sizeLimit)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [handleUpload](#method-handleUpload)
 * [toBytes](#method-toBytes)
@@ -32,7 +34,9 @@ Properties
 
 ### <a name="property-$allowedExtensions"></a>$allowedExtensions
 
-    protected mixed $allowedExtensions = array()
+```php
+protected mixed $allowedExtensions = array()
+```
 
 
 
@@ -44,7 +48,9 @@ Properties
 
 ### <a name="property-$file"></a>$file
 
-    protected \QqUploadedFileXhr $file
+```php
+protected \QqUploadedFileXhr $file
+```
 
 
 
@@ -56,7 +62,9 @@ Properties
 
 ### <a name="property-$sizeLimit"></a>$sizeLimit
 
-    protected mixed $sizeLimit
+```php
+protected mixed $sizeLimit
+```
 
 
 
@@ -72,7 +80,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed FileUploaderCore::__construct(array $allowedExtensions, $sizeLimit)
+```php
+mixed FileUploaderCore::__construct(array $allowedExtensions, $sizeLimit)
+```
 
 
 
@@ -90,7 +100,9 @@ Methods
 
 ### <a name="method-handleUpload"></a>handleUpload
 
-    mixed FileUploaderCore::handleUpload()
+```php
+mixed FileUploaderCore::handleUpload()
+```
 
 Returns array('success'=>true) or array('error'=>'error message')
 
@@ -104,7 +116,9 @@ Returns array('success'=>true) or array('error'=>'error message')
 
 ### <a name="method-toBytes"></a>toBytes
 
-    mixed FileUploaderCore::toBytes($str)
+```php
+mixed FileUploaderCore::toBytes($str)
+```
 
 
 

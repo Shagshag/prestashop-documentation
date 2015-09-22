@@ -9,13 +9,15 @@ Class TreeToolbarSearchCore
 * Parent class: [TreeToolbarButtonCore](class.TreeToolbarButtonCore.md)
 * Source: [classes/tree/TreeToolbarSearch.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarSearch.php#L27)
 * This class implements: [ITreeToolbarButtonCore](interface.ITreeToolbarButtonCore.md)
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEFAULT_TEMPLATE_DIRECTORY](#constant-DEFAULT_TEMPLATE_DIRECTORY)
 
-Properties
-----------
+### Properties
 
 * [$_attributes](#property-$_attributes)
 * [$_class](#property-$_class)
@@ -26,8 +28,8 @@ Properties
 * [$_template](#property-$_template)
 * [$_template_directory](#property-$_template_directory)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [__toString](#method-__toString)
 * [_normalizeDirectory](#method-_normalizeDirectory)
@@ -61,7 +63,9 @@ Constants
 
 ### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
 
-    const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
+```php
+const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
+```
 
 
 
@@ -76,7 +80,9 @@ Properties
 
 ### <a name="property-$_attributes"></a>$_attributes
 
-    protected mixed $_attributes
+```php
+protected mixed $_attributes
+```
 
 
 
@@ -88,7 +94,9 @@ Properties
 
 ### <a name="property-$_class"></a>$_class
 
-    private mixed $_class
+```php
+private mixed $_class
+```
 
 
 
@@ -100,7 +108,9 @@ Properties
 
 ### <a name="property-$_context"></a>$_context
 
-    private mixed $_context
+```php
+private mixed $_context
+```
 
 
 
@@ -112,7 +122,9 @@ Properties
 
 ### <a name="property-$_id"></a>$_id
 
-    private mixed $_id
+```php
+private mixed $_id
+```
 
 
 
@@ -124,7 +136,9 @@ Properties
 
 ### <a name="property-$_label"></a>$_label
 
-    private mixed $_label
+```php
+private mixed $_label
+```
 
 
 
@@ -136,7 +150,9 @@ Properties
 
 ### <a name="property-$_name"></a>$_name
 
-    private mixed $_name
+```php
+private mixed $_name
+```
 
 
 
@@ -148,7 +164,9 @@ Properties
 
 ### <a name="property-$_template"></a>$_template
 
-    protected mixed $_template
+```php
+protected mixed $_template
+```
 
 
 
@@ -160,7 +178,9 @@ Properties
 
 ### <a name="property-$_template_directory"></a>$_template_directory
 
-    protected mixed $_template_directory
+```php
+protected mixed $_template_directory
+```
 
 
 
@@ -176,7 +196,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed TreeToolbarSearchCore::__construct($label, $id, $name, $class)
+```php
+mixed TreeToolbarSearchCore::__construct($label, $id, $name, $class)
+```
 
 
 
@@ -196,7 +218,9 @@ Methods
 
 ### <a name="method-__toString"></a>__toString
 
-    mixed TreeToolbarSearchCore::__toString()
+```php
+mixed TreeToolbarSearchCore::__toString()
+```
 
 
 
@@ -210,7 +234,9 @@ Methods
 
 ### <a name="method-_normalizeDirectory"></a>_normalizeDirectory
 
-    mixed TreeToolbarSearchCore::_normalizeDirectory($directory)
+```php
+mixed TreeToolbarSearchCore::_normalizeDirectory($directory)
+```
 
 
 
@@ -227,7 +253,9 @@ Methods
 
 ### <a name="method-_renderData"></a>_renderData
 
-    mixed TreeToolbarSearchCore::_renderData($data)
+```php
+mixed TreeToolbarSearchCore::_renderData($data)
+```
 
 
 
@@ -244,7 +272,9 @@ Methods
 
 ### <a name="method-getAttribute"></a>getAttribute
 
-    mixed TreeToolbarSearchCore::getAttribute($name)
+```php
+mixed TreeToolbarSearchCore::getAttribute($name)
+```
 
 
 
@@ -261,7 +291,9 @@ Methods
 
 ### <a name="method-getAttributes"></a>getAttributes
 
-    mixed TreeToolbarSearchCore::getAttributes()
+```php
+mixed TreeToolbarSearchCore::getAttributes()
+```
 
 
 
@@ -275,7 +307,9 @@ Methods
 
 ### <a name="method-getClass"></a>getClass
 
-    mixed TreeToolbarSearchCore::getClass()
+```php
+mixed TreeToolbarSearchCore::getClass()
+```
 
 
 
@@ -289,7 +323,9 @@ Methods
 
 ### <a name="method-getContext"></a>getContext
 
-    mixed TreeToolbarSearchCore::getContext()
+```php
+mixed TreeToolbarSearchCore::getContext()
+```
 
 
 
@@ -303,7 +339,9 @@ Methods
 
 ### <a name="method-getId"></a>getId
 
-    mixed TreeToolbarSearchCore::getId()
+```php
+mixed TreeToolbarSearchCore::getId()
+```
 
 
 
@@ -317,7 +355,9 @@ Methods
 
 ### <a name="method-getLabel"></a>getLabel
 
-    mixed TreeToolbarSearchCore::getLabel()
+```php
+mixed TreeToolbarSearchCore::getLabel()
+```
 
 
 
@@ -331,7 +371,9 @@ Methods
 
 ### <a name="method-getName"></a>getName
 
-    mixed TreeToolbarSearchCore::getName()
+```php
+mixed TreeToolbarSearchCore::getName()
+```
 
 
 
@@ -345,7 +387,9 @@ Methods
 
 ### <a name="method-getTemplate"></a>getTemplate
 
-    mixed TreeToolbarSearchCore::getTemplate()
+```php
+mixed TreeToolbarSearchCore::getTemplate()
+```
 
 
 
@@ -359,7 +403,9 @@ Methods
 
 ### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
-    mixed TreeToolbarSearchCore::getTemplateDirectory()
+```php
+mixed TreeToolbarSearchCore::getTemplateDirectory()
+```
 
 
 
@@ -373,7 +419,9 @@ Methods
 
 ### <a name="method-getTemplateFile"></a>getTemplateFile
 
-    mixed TreeToolbarSearchCore::getTemplateFile($template)
+```php
+mixed TreeToolbarSearchCore::getTemplateFile($template)
+```
 
 
 
@@ -390,7 +438,9 @@ Methods
 
 ### <a name="method-hasAttribute"></a>hasAttribute
 
-    mixed TreeToolbarSearchCore::hasAttribute($name)
+```php
+mixed TreeToolbarSearchCore::hasAttribute($name)
+```
 
 
 
@@ -407,7 +457,9 @@ Methods
 
 ### <a name="method-render"></a>render
 
-    mixed TreeToolbarSearchCore::render()
+```php
+mixed TreeToolbarSearchCore::render()
+```
 
 
 
@@ -421,7 +473,9 @@ Methods
 
 ### <a name="method-setAttribute"></a>setAttribute
 
-    mixed TreeToolbarSearchCore::setAttribute($name, $value)
+```php
+mixed TreeToolbarSearchCore::setAttribute($name, $value)
+```
 
 
 
@@ -439,7 +493,9 @@ Methods
 
 ### <a name="method-setAttributes"></a>setAttributes
 
-    mixed TreeToolbarSearchCore::setAttributes($value)
+```php
+mixed TreeToolbarSearchCore::setAttributes($value)
+```
 
 
 
@@ -456,7 +512,9 @@ Methods
 
 ### <a name="method-setClass"></a>setClass
 
-    mixed TreeToolbarSearchCore::setClass($value)
+```php
+mixed TreeToolbarSearchCore::setClass($value)
+```
 
 
 
@@ -473,7 +531,9 @@ Methods
 
 ### <a name="method-setContext"></a>setContext
 
-    mixed TreeToolbarSearchCore::setContext($value)
+```php
+mixed TreeToolbarSearchCore::setContext($value)
+```
 
 
 
@@ -490,7 +550,9 @@ Methods
 
 ### <a name="method-setId"></a>setId
 
-    mixed TreeToolbarSearchCore::setId($value)
+```php
+mixed TreeToolbarSearchCore::setId($value)
+```
 
 
 
@@ -507,7 +569,9 @@ Methods
 
 ### <a name="method-setLabel"></a>setLabel
 
-    mixed TreeToolbarSearchCore::setLabel($value)
+```php
+mixed TreeToolbarSearchCore::setLabel($value)
+```
 
 
 
@@ -524,7 +588,9 @@ Methods
 
 ### <a name="method-setName"></a>setName
 
-    mixed TreeToolbarSearchCore::setName($value)
+```php
+mixed TreeToolbarSearchCore::setName($value)
+```
 
 
 
@@ -541,7 +607,9 @@ Methods
 
 ### <a name="method-setTemplate"></a>setTemplate
 
-    mixed TreeToolbarSearchCore::setTemplate($value)
+```php
+mixed TreeToolbarSearchCore::setTemplate($value)
+```
 
 
 
@@ -558,7 +626,9 @@ Methods
 
 ### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
-    mixed TreeToolbarSearchCore::setTemplateDirectory($value)
+```php
+mixed TreeToolbarSearchCore::setTemplateDirectory($value)
+```
 
 
 

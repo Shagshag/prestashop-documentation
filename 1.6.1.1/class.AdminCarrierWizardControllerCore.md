@@ -10,15 +10,17 @@ Class AdminCarrierWizardControllerCore
 * Source: [controllers/admin/AdminCarrierWizardController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 * [$wizard_access](#property-$wizard_access)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessChangeRanges](#method-ajaxProcessChangeRanges)
 * [ajaxProcessFinishStep](#method-ajaxProcessFinishStep)
@@ -59,7 +61,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Carrier $object
+```php
+public \Carrier $object
+```
 
 
 
@@ -71,7 +75,9 @@ Properties
 
 ### <a name="property-$wizard_access"></a>$wizard_access
 
-    protected mixed $wizard_access
+```php
+protected mixed $wizard_access
+```
 
 
 
@@ -87,7 +93,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminCarrierWizardControllerCore::__construct()
+```php
+mixed AdminCarrierWizardControllerCore::__construct()
+```
 
 
 
@@ -101,7 +109,9 @@ Methods
 
 ### <a name="method-ajaxProcessChangeRanges"></a>ajaxProcessChangeRanges
 
-    mixed AdminCarrierWizardControllerCore::ajaxProcessChangeRanges()
+```php
+mixed AdminCarrierWizardControllerCore::ajaxProcessChangeRanges()
+```
 
 
 
@@ -115,7 +125,9 @@ Methods
 
 ### <a name="method-ajaxProcessFinishStep"></a>ajaxProcessFinishStep
 
-    mixed AdminCarrierWizardControllerCore::ajaxProcessFinishStep()
+```php
+mixed AdminCarrierWizardControllerCore::ajaxProcessFinishStep()
+```
 
 
 
@@ -129,7 +141,9 @@ Methods
 
 ### <a name="method-ajaxProcessUploadLogo"></a>ajaxProcessUploadLogo
 
-    mixed AdminCarrierWizardControllerCore::ajaxProcessUploadLogo()
+```php
+mixed AdminCarrierWizardControllerCore::ajaxProcessUploadLogo()
+```
 
 
 
@@ -143,7 +157,9 @@ Methods
 
 ### <a name="method-ajaxProcessValidateStep"></a>ajaxProcessValidateStep
 
-    mixed AdminCarrierWizardControllerCore::ajaxProcessValidateStep()
+```php
+mixed AdminCarrierWizardControllerCore::ajaxProcessValidateStep()
+```
 
 
 
@@ -157,7 +173,9 @@ Methods
 
 ### <a name="method-changeGroups"></a>changeGroups
 
-    mixed AdminCarrierWizardControllerCore::changeGroups($id_carrier, $delete)
+```php
+mixed AdminCarrierWizardControllerCore::changeGroups($id_carrier, $delete)
+```
 
 
 
@@ -175,7 +193,9 @@ Methods
 
 ### <a name="method-changeZones"></a>changeZones
 
-    mixed AdminCarrierWizardControllerCore::changeZones($id)
+```php
+mixed AdminCarrierWizardControllerCore::changeZones($id)
+```
 
 
 
@@ -192,7 +212,9 @@ Methods
 
 ### <a name="method-displayFieldName"></a>displayFieldName
 
-    mixed AdminCarrierWizardControllerCore::displayFieldName($field)
+```php
+mixed AdminCarrierWizardControllerCore::displayFieldName($field)
+```
 
 
 
@@ -210,7 +232,9 @@ Methods
 
 ### <a name="method-duplicateLogo"></a>duplicateLogo
 
-    mixed AdminCarrierWizardControllerCore::duplicateLogo($new_id, $old_id)
+```php
+mixed AdminCarrierWizardControllerCore::duplicateLogo($new_id, $old_id)
+```
 
 
 
@@ -228,7 +252,9 @@ Methods
 
 ### <a name="method-getActualCurrency"></a>getActualCurrency
 
-    mixed AdminCarrierWizardControllerCore::getActualCurrency()
+```php
+mixed AdminCarrierWizardControllerCore::getActualCurrency()
+```
 
 
 
@@ -242,7 +268,9 @@ Methods
 
 ### <a name="method-getStepFiveFieldsValues"></a>getStepFiveFieldsValues
 
-    mixed AdminCarrierWizardControllerCore::getStepFiveFieldsValues($carrier)
+```php
+mixed AdminCarrierWizardControllerCore::getStepFiveFieldsValues($carrier)
+```
 
 
 
@@ -259,7 +287,9 @@ Methods
 
 ### <a name="method-getStepFourFieldsValues"></a>getStepFourFieldsValues
 
-    mixed AdminCarrierWizardControllerCore::getStepFourFieldsValues($carrier)
+```php
+mixed AdminCarrierWizardControllerCore::getStepFourFieldsValues($carrier)
+```
 
 
 
@@ -276,7 +306,9 @@ Methods
 
 ### <a name="method-getStepOneFieldsValues"></a>getStepOneFieldsValues
 
-    mixed AdminCarrierWizardControllerCore::getStepOneFieldsValues($carrier)
+```php
+mixed AdminCarrierWizardControllerCore::getStepOneFieldsValues($carrier)
+```
 
 
 
@@ -293,7 +325,9 @@ Methods
 
 ### <a name="method-getStepThreeFieldsValues"></a>getStepThreeFieldsValues
 
-    mixed AdminCarrierWizardControllerCore::getStepThreeFieldsValues($carrier)
+```php
+mixed AdminCarrierWizardControllerCore::getStepThreeFieldsValues($carrier)
+```
 
 
 
@@ -310,7 +344,9 @@ Methods
 
 ### <a name="method-getStepTwoFieldsValues"></a>getStepTwoFieldsValues
 
-    mixed AdminCarrierWizardControllerCore::getStepTwoFieldsValues($carrier)
+```php
+mixed AdminCarrierWizardControllerCore::getStepTwoFieldsValues($carrier)
+```
 
 
 
@@ -327,7 +363,9 @@ Methods
 
 ### <a name="method-getTplRangesVarsAndValues"></a>getTplRangesVarsAndValues
 
-    mixed AdminCarrierWizardControllerCore::getTplRangesVarsAndValues(\Carrier $carrier, array $tpl_vars, array $fields_value)
+```php
+mixed AdminCarrierWizardControllerCore::getTplRangesVarsAndValues(\Carrier $carrier, array $tpl_vars, array $fields_value)
+```
 
 
 
@@ -346,7 +384,9 @@ Methods
 
 ### <a name="method-getValidationRules"></a>getValidationRules
 
-    mixed AdminCarrierWizardControllerCore::getValidationRules()
+```php
+mixed AdminCarrierWizardControllerCore::getValidationRules()
+```
 
 
 
@@ -360,7 +400,9 @@ Methods
 
 ### <a name="method-initBreadcrumbs"></a>initBreadcrumbs
 
-    mixed AdminCarrierWizardControllerCore::initBreadcrumbs($tab_id, $tabs)
+```php
+mixed AdminCarrierWizardControllerCore::initBreadcrumbs($tab_id, $tabs)
+```
 
 
 
@@ -378,7 +420,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminCarrierWizardControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminCarrierWizardControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -392,7 +436,9 @@ Methods
 
 ### <a name="method-initWizard"></a>initWizard
 
-    mixed AdminCarrierWizardControllerCore::initWizard()
+```php
+mixed AdminCarrierWizardControllerCore::initWizard()
+```
 
 
 
@@ -406,7 +452,9 @@ Methods
 
 ### <a name="method-processRanges"></a>processRanges
 
-    mixed AdminCarrierWizardControllerCore::processRanges($id_carrier)
+```php
+mixed AdminCarrierWizardControllerCore::processRanges($id_carrier)
+```
 
 
 
@@ -423,7 +471,9 @@ Methods
 
 ### <a name="method-renderGenericForm"></a>renderGenericForm
 
-    mixed AdminCarrierWizardControllerCore::renderGenericForm($fields_form, $fields_value, $tpl_vars)
+```php
+mixed AdminCarrierWizardControllerCore::renderGenericForm($fields_form, $fields_value, $tpl_vars)
+```
 
 
 
@@ -442,7 +492,9 @@ Methods
 
 ### <a name="method-renderStepFive"></a>renderStepFive
 
-    mixed AdminCarrierWizardControllerCore::renderStepFive($carrier)
+```php
+mixed AdminCarrierWizardControllerCore::renderStepFive($carrier)
+```
 
 
 
@@ -459,7 +511,9 @@ Methods
 
 ### <a name="method-renderStepFour"></a>renderStepFour
 
-    string AdminCarrierWizardControllerCore::renderStepFour(\Carrier $carrier)
+```php
+string AdminCarrierWizardControllerCore::renderStepFour(\Carrier $carrier)
+```
 
 
 
@@ -476,7 +530,9 @@ Methods
 
 ### <a name="method-renderStepOne"></a>renderStepOne
 
-    mixed AdminCarrierWizardControllerCore::renderStepOne($carrier)
+```php
+mixed AdminCarrierWizardControllerCore::renderStepOne($carrier)
+```
 
 
 
@@ -493,7 +549,9 @@ Methods
 
 ### <a name="method-renderStepThree"></a>renderStepThree
 
-    mixed AdminCarrierWizardControllerCore::renderStepThree($carrier)
+```php
+mixed AdminCarrierWizardControllerCore::renderStepThree($carrier)
+```
 
 
 
@@ -510,7 +568,9 @@ Methods
 
 ### <a name="method-renderStepTwo"></a>renderStepTwo
 
-    mixed AdminCarrierWizardControllerCore::renderStepTwo($carrier)
+```php
+mixed AdminCarrierWizardControllerCore::renderStepTwo($carrier)
+```
 
 
 
@@ -527,7 +587,9 @@ Methods
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminCarrierWizardControllerCore::renderView()
+```php
+mixed AdminCarrierWizardControllerCore::renderView()
+```
 
 
 
@@ -541,7 +603,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminCarrierWizardControllerCore::setMedia()
+```php
+mixed AdminCarrierWizardControllerCore::setMedia()
+```
 
 
 
@@ -555,7 +619,9 @@ Methods
 
 ### <a name="method-validateForm"></a>validateForm
 
-    mixed AdminCarrierWizardControllerCore::validateForm($die)
+```php
+mixed AdminCarrierWizardControllerCore::validateForm($die)
+```
 
 
 

@@ -10,16 +10,18 @@ Class AdminAttachmentsControllerCore
 * Source: [controllers/admin/AdminAttachmentsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$bootstrap](#property-$bootstrap)
 * [$object](#property-$object)
 * [$product_attachements](#property-$product_attachements)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [displayHumanReadableSize](#method-displayHumanReadableSize)
 * [getList](#method-getList)
@@ -38,7 +40,9 @@ Properties
 
 ### <a name="property-$bootstrap"></a>$bootstrap
 
-    public mixed $bootstrap = true
+```php
+public mixed $bootstrap = true
+```
 
 
 
@@ -50,7 +54,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Attachment $object
+```php
+public \Attachment $object
+```
 
 
 
@@ -62,7 +68,9 @@ Properties
 
 ### <a name="property-$product_attachements"></a>$product_attachements
 
-    protected mixed $product_attachements = array()
+```php
+protected mixed $product_attachements = array()
+```
 
 
 
@@ -78,7 +86,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminAttachmentsControllerCore::__construct()
+```php
+mixed AdminAttachmentsControllerCore::__construct()
+```
 
 
 
@@ -92,7 +102,9 @@ Methods
 
 ### <a name="method-displayHumanReadableSize"></a>displayHumanReadableSize
 
-    mixed AdminAttachmentsControllerCore::displayHumanReadableSize($size)
+```php
+mixed AdminAttachmentsControllerCore::displayHumanReadableSize($size)
+```
 
 
 
@@ -110,7 +122,9 @@ Methods
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminAttachmentsControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```php
+mixed AdminAttachmentsControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```
 
 
 
@@ -132,7 +146,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminAttachmentsControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminAttachmentsControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -146,7 +162,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminAttachmentsControllerCore::postProcess()
+```php
+mixed AdminAttachmentsControllerCore::postProcess()
+```
 
 
 
@@ -160,7 +178,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminAttachmentsControllerCore::renderForm()
+```php
+mixed AdminAttachmentsControllerCore::renderForm()
+```
 
 
 
@@ -174,7 +194,9 @@ Methods
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminAttachmentsControllerCore::renderView()
+```php
+mixed AdminAttachmentsControllerCore::renderView()
+```
 
 
 
@@ -188,7 +210,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminAttachmentsControllerCore::setMedia()
+```php
+mixed AdminAttachmentsControllerCore::setMedia()
+```
 
 
 

@@ -10,16 +10,18 @@ Class DateRangeCore
 * Source: [classes/DateRange.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/DateRange.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$time_end](#property-$time_end)
 * [$time_start](#property-$time_start)
 
-Methods
--------
+### Methods
+
 * [getCurrentRange](#method-getCurrentRange)
 
 
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'date_range', 'primary' => 'id_date_range', 'fields' => array('time_start' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true), 'time_end' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'date_range', 'primary' => 'id_date_range', 'fields' => array('time_start' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true), 'time_end' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true)))
+```
 
 
 
@@ -44,7 +48,9 @@ Properties
 
 ### <a name="property-$time_end"></a>$time_end
 
-    public mixed $time_end
+```php
+public mixed $time_end
+```
 
 
 
@@ -56,7 +62,9 @@ Properties
 
 ### <a name="property-$time_start"></a>$time_start
 
-    public mixed $time_start
+```php
+public mixed $time_start
+```
 
 
 
@@ -72,7 +80,9 @@ Methods
 
 ### <a name="method-getCurrentRange"></a>getCurrentRange
 
-    mixed DateRangeCore::getCurrentRange()
+```php
+mixed DateRangeCore::getCurrentRange()
+```
 
 
 

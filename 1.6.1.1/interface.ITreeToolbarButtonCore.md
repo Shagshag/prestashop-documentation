@@ -9,12 +9,13 @@ Interface ITreeToolbarButtonCore
 * This is an **interface**
 * Source: [classes/tree/ITreeToolbarButton.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#L27)
 
+Contents
+--------
 
 
 
+### Methods
 
-Methods
--------
 * [__toString](#method-__toString)
 * [getAttribute](#method-getAttribute)
 * [getAttributes](#method-getAttributes)
@@ -48,7 +49,9 @@ Methods
 
 ### <a name="method-__toString"></a>__toString
 
-    mixed ITreeToolbarButtonCore::__toString()
+```php
+mixed ITreeToolbarButtonCore::__toString()
+```
 
 
 
@@ -62,7 +65,9 @@ Methods
 
 ### <a name="method-getAttribute"></a>getAttribute
 
-    mixed ITreeToolbarButtonCore::getAttribute($name)
+```php
+mixed ITreeToolbarButtonCore::getAttribute($name)
+```
 
 
 
@@ -79,7 +84,9 @@ Methods
 
 ### <a name="method-getAttributes"></a>getAttributes
 
-    mixed ITreeToolbarButtonCore::getAttributes()
+```php
+mixed ITreeToolbarButtonCore::getAttributes()
+```
 
 
 
@@ -93,7 +100,9 @@ Methods
 
 ### <a name="method-getClass"></a>getClass
 
-    mixed ITreeToolbarButtonCore::getClass()
+```php
+mixed ITreeToolbarButtonCore::getClass()
+```
 
 
 
@@ -107,7 +116,9 @@ Methods
 
 ### <a name="method-getContext"></a>getContext
 
-    mixed ITreeToolbarButtonCore::getContext()
+```php
+mixed ITreeToolbarButtonCore::getContext()
+```
 
 
 
@@ -121,7 +132,9 @@ Methods
 
 ### <a name="method-getId"></a>getId
 
-    mixed ITreeToolbarButtonCore::getId()
+```php
+mixed ITreeToolbarButtonCore::getId()
+```
 
 
 
@@ -135,7 +148,9 @@ Methods
 
 ### <a name="method-getLabel"></a>getLabel
 
-    mixed ITreeToolbarButtonCore::getLabel()
+```php
+mixed ITreeToolbarButtonCore::getLabel()
+```
 
 
 
@@ -149,7 +164,9 @@ Methods
 
 ### <a name="method-getName"></a>getName
 
-    mixed ITreeToolbarButtonCore::getName()
+```php
+mixed ITreeToolbarButtonCore::getName()
+```
 
 
 
@@ -163,7 +180,9 @@ Methods
 
 ### <a name="method-getTemplate"></a>getTemplate
 
-    mixed ITreeToolbarButtonCore::getTemplate()
+```php
+mixed ITreeToolbarButtonCore::getTemplate()
+```
 
 
 
@@ -177,7 +196,9 @@ Methods
 
 ### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
-    mixed ITreeToolbarButtonCore::getTemplateDirectory()
+```php
+mixed ITreeToolbarButtonCore::getTemplateDirectory()
+```
 
 
 
@@ -191,7 +212,9 @@ Methods
 
 ### <a name="method-hasAttribute"></a>hasAttribute
 
-    mixed ITreeToolbarButtonCore::hasAttribute($name)
+```php
+mixed ITreeToolbarButtonCore::hasAttribute($name)
+```
 
 
 
@@ -208,7 +231,9 @@ Methods
 
 ### <a name="method-render"></a>render
 
-    mixed ITreeToolbarButtonCore::render()
+```php
+mixed ITreeToolbarButtonCore::render()
+```
 
 
 
@@ -222,7 +247,9 @@ Methods
 
 ### <a name="method-setAttribute"></a>setAttribute
 
-    mixed ITreeToolbarButtonCore::setAttribute($name, $value)
+```php
+mixed ITreeToolbarButtonCore::setAttribute($name, $value)
+```
 
 
 
@@ -240,7 +267,9 @@ Methods
 
 ### <a name="method-setAttributes"></a>setAttributes
 
-    mixed ITreeToolbarButtonCore::setAttributes($value)
+```php
+mixed ITreeToolbarButtonCore::setAttributes($value)
+```
 
 
 
@@ -257,7 +286,9 @@ Methods
 
 ### <a name="method-setClass"></a>setClass
 
-    mixed ITreeToolbarButtonCore::setClass($value)
+```php
+mixed ITreeToolbarButtonCore::setClass($value)
+```
 
 
 
@@ -274,7 +305,9 @@ Methods
 
 ### <a name="method-setContext"></a>setContext
 
-    mixed ITreeToolbarButtonCore::setContext($value)
+```php
+mixed ITreeToolbarButtonCore::setContext($value)
+```
 
 
 
@@ -291,7 +324,9 @@ Methods
 
 ### <a name="method-setId"></a>setId
 
-    mixed ITreeToolbarButtonCore::setId($value)
+```php
+mixed ITreeToolbarButtonCore::setId($value)
+```
 
 
 
@@ -308,7 +343,9 @@ Methods
 
 ### <a name="method-setLabel"></a>setLabel
 
-    mixed ITreeToolbarButtonCore::setLabel($value)
+```php
+mixed ITreeToolbarButtonCore::setLabel($value)
+```
 
 
 
@@ -325,7 +362,9 @@ Methods
 
 ### <a name="method-setName"></a>setName
 
-    mixed ITreeToolbarButtonCore::setName($value)
+```php
+mixed ITreeToolbarButtonCore::setName($value)
+```
 
 
 
@@ -342,7 +381,9 @@ Methods
 
 ### <a name="method-setTemplate"></a>setTemplate
 
-    mixed ITreeToolbarButtonCore::setTemplate($value)
+```php
+mixed ITreeToolbarButtonCore::setTemplate($value)
+```
 
 
 
@@ -359,7 +400,9 @@ Methods
 
 ### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
-    mixed ITreeToolbarButtonCore::setTemplateDirectory($value)
+```php
+mixed ITreeToolbarButtonCore::setTemplateDirectory($value)
+```
 
 
 

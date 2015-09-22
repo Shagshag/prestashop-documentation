@@ -10,11 +10,13 @@ Class HelperImageUploaderCore
 * Source: [classes/helper/HelperImageUploader.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperImageUploader.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [getFilePath](#method-getFilePath)
 * [getMaxSize](#method-getMaxSize)
 * [getSavePath](#method-getSavePath)
@@ -31,7 +33,9 @@ Methods
 
 ### <a name="method-getFilePath"></a>getFilePath
 
-    mixed HelperImageUploaderCore::getFilePath($file_name)
+```php
+mixed HelperImageUploaderCore::getFilePath($file_name)
+```
 
 
 
@@ -48,7 +52,9 @@ Methods
 
 ### <a name="method-getMaxSize"></a>getMaxSize
 
-    mixed HelperImageUploaderCore::getMaxSize()
+```php
+mixed HelperImageUploaderCore::getMaxSize()
+```
 
 
 
@@ -62,7 +68,9 @@ Methods
 
 ### <a name="method-getSavePath"></a>getSavePath
 
-    mixed HelperImageUploaderCore::getSavePath()
+```php
+mixed HelperImageUploaderCore::getSavePath()
+```
 
 
 
@@ -76,7 +84,9 @@ Methods
 
 ### <a name="method-validate"></a>validate
 
-    mixed HelperImageUploaderCore::validate($file)
+```php
+mixed HelperImageUploaderCore::validate($file)
+```
 
 
 

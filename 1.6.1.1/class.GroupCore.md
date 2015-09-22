@@ -10,9 +10,11 @@ Class GroupCore
 * Source: [classes/Group.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$cache_reduction](#property-$cache_reduction)
 * [$date_add](#property-$date_add)
@@ -26,8 +28,8 @@ Properties
 * [$show_prices](#property-$show_prices)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [addModulesRestrictions](#method-addModulesRestrictions)
@@ -56,7 +58,9 @@ Properties
 
 ### <a name="property-$cache_reduction"></a>$cache_reduction
 
-    protected mixed $cache_reduction = array()
+```php
+protected mixed $cache_reduction = array()
+```
 
 
 
@@ -69,7 +73,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -81,7 +87,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -93,7 +101,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'group', 'primary' => 'id_group', 'multilang' => true, 'fields' => array('reduction' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'price_display_method' => array('type' => self::TYPE_INT, 'validate' => 'isPriceDisplayMethod', 'required' => true), 'show_prices' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32)))
+```php
+public mixed $definition = array('table' => 'group', 'primary' => 'id_group', 'multilang' => true, 'fields' => array('reduction' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'price_display_method' => array('type' => self::TYPE_INT, 'validate' => 'isPriceDisplayMethod', 'required' => true), 'show_prices' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32)))
+```
 
 
 
@@ -106,7 +116,9 @@ Properties
 
 ### <a name="property-$group_price_display_method"></a>$group_price_display_method
 
-    protected mixed $group_price_display_method = array()
+```php
+protected mixed $group_price_display_method = array()
+```
 
 
 
@@ -119,7 +131,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -131,7 +145,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -143,7 +159,9 @@ Properties
 
 ### <a name="property-$price_display_method"></a>$price_display_method
 
-    public integer $price_display_method
+```php
+public integer $price_display_method
+```
 
 
 
@@ -155,7 +173,9 @@ Properties
 
 ### <a name="property-$reduction"></a>$reduction
 
-    public string $reduction
+```php
+public string $reduction
+```
 
 
 
@@ -167,7 +187,9 @@ Properties
 
 ### <a name="property-$show_prices"></a>$show_prices
 
-    public boolean $show_prices = 1
+```php
+public boolean $show_prices = 1
+```
 
 
 
@@ -179,7 +201,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array()
+```php
+protected mixed $webserviceParameters = array()
+```
 
 
 
@@ -195,7 +219,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed GroupCore::__construct($id, $id_lang, $id_shop)
+```php
+mixed GroupCore::__construct($id, $id_lang, $id_shop)
+```
 
 
 
@@ -214,7 +240,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed GroupCore::add($autodate, $null_values)
+```php
+mixed GroupCore::add($autodate, $null_values)
+```
 
 
 
@@ -232,7 +260,9 @@ Methods
 
 ### <a name="method-addModulesRestrictions"></a>addModulesRestrictions
 
-    boolean GroupCore::addModulesRestrictions($id_group, $modules, array $shops)
+```php
+boolean GroupCore::addModulesRestrictions($id_group, $modules, array $shops)
+```
 
 Adding restrictions modules to the group with id $id_group
 
@@ -252,7 +282,9 @@ Adding restrictions modules to the group with id $id_group
 
 ### <a name="method-addRestrictionsForModule"></a>addRestrictionsForModule
 
-    boolean GroupCore::addRestrictionsForModule(integer $id_module, array $shops)
+```php
+boolean GroupCore::addRestrictionsForModule(integer $id_module, array $shops)
+```
 
 Add restrictions for a new module.
 
@@ -271,7 +303,9 @@ We authorize every groups to the new module
 
 ### <a name="method-delete"></a>delete
 
-    mixed GroupCore::delete()
+```php
+mixed GroupCore::delete()
+```
 
 
 
@@ -285,7 +319,9 @@ We authorize every groups to the new module
 
 ### <a name="method-getCurrent"></a>getCurrent
 
-    \Group GroupCore::getCurrent()
+```php
+\Group GroupCore::getCurrent()
+```
 
 Return current group object
 Use context
@@ -301,7 +337,9 @@ Use context
 
 ### <a name="method-getCustomers"></a>getCustomers
 
-    mixed GroupCore::getCustomers($count, $start, $limit, $shop_filtering)
+```php
+mixed GroupCore::getCustomers($count, $start, $limit, $shop_filtering)
+```
 
 
 
@@ -321,7 +359,9 @@ Use context
 
 ### <a name="method-getDefaultPriceDisplayMethod"></a>getDefaultPriceDisplayMethod
 
-    mixed GroupCore::getDefaultPriceDisplayMethod()
+```php
+mixed GroupCore::getDefaultPriceDisplayMethod()
+```
 
 
 
@@ -336,7 +376,9 @@ Use context
 
 ### <a name="method-getGroups"></a>getGroups
 
-    mixed GroupCore::getGroups($id_lang, $id_shop)
+```php
+mixed GroupCore::getGroups($id_lang, $id_shop)
+```
 
 
 
@@ -355,7 +397,9 @@ Use context
 
 ### <a name="method-getPriceDisplayMethod"></a>getPriceDisplayMethod
 
-    mixed GroupCore::getPriceDisplayMethod($id_group)
+```php
+mixed GroupCore::getPriceDisplayMethod($id_group)
+```
 
 
 
@@ -373,7 +417,9 @@ Use context
 
 ### <a name="method-getReduction"></a>getReduction
 
-    mixed GroupCore::getReduction($id_customer)
+```php
+mixed GroupCore::getReduction($id_customer)
+```
 
 
 
@@ -391,7 +437,9 @@ Use context
 
 ### <a name="method-getReductionByIdGroup"></a>getReductionByIdGroup
 
-    mixed GroupCore::getReductionByIdGroup($id_group)
+```php
+mixed GroupCore::getReductionByIdGroup($id_group)
+```
 
 
 
@@ -409,7 +457,9 @@ Use context
 
 ### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
 
-    boolean GroupCore::isCurrentlyUsed($table, $has_active_column)
+```php
+boolean GroupCore::isCurrentlyUsed($table, $has_active_column)
+```
 
 This method is allow to know if there are other groups than the default ones
 
@@ -428,7 +478,9 @@ This method is allow to know if there are other groups than the default ones
 
 ### <a name="method-isFeatureActive"></a>isFeatureActive
 
-    boolean GroupCore::isFeatureActive()
+```php
+boolean GroupCore::isFeatureActive()
+```
 
 This method is allow to know if a feature is used or active
 
@@ -443,7 +495,9 @@ This method is allow to know if a feature is used or active
 
 ### <a name="method-searchByName"></a>searchByName
 
-    array GroupCore::searchByName(string $query)
+```php
+array GroupCore::searchByName(string $query)
+```
 
 Light back office search for Group
 
@@ -461,7 +515,9 @@ Light back office search for Group
 
 ### <a name="method-truncateModulesRestrictions"></a>truncateModulesRestrictions
 
-    boolean GroupCore::truncateModulesRestrictions(integer $id_group)
+```php
+boolean GroupCore::truncateModulesRestrictions(integer $id_group)
+```
 
 Truncate all modules restrictions for the group
 
@@ -479,7 +535,9 @@ Truncate all modules restrictions for the group
 
 ### <a name="method-truncateRestrictionsByModule"></a>truncateRestrictionsByModule
 
-    boolean GroupCore::truncateRestrictionsByModule(integer $id_module)
+```php
+boolean GroupCore::truncateRestrictionsByModule(integer $id_module)
+```
 
 Truncate all restrictions by module
 
@@ -497,7 +555,9 @@ Truncate all restrictions by module
 
 ### <a name="method-update"></a>update
 
-    mixed GroupCore::update($autodate, $null_values)
+```php
+mixed GroupCore::update($autodate, $null_values)
+```
 
 
 

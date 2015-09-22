@@ -1,5 +1,6 @@
 File controllers/front/ChangeCurrencyController.php
 =========
+
 Source: [controllers/front/ChangeCurrencyController.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ChangeCurrencyController.php)
 
 

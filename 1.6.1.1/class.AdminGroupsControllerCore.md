@@ -10,14 +10,16 @@ Class AdminGroupsControllerCore
 * Source: [controllers/admin/AdminGroupsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessAddCategoryReduction](#method-ajaxProcessAddCategoryReduction)
 * [displayEditLink](#method-displayEditLink)
@@ -47,7 +49,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Group $object
+```php
+public \Group $object
+```
 
 
 
@@ -63,7 +67,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminGroupsControllerCore::__construct()
+```php
+mixed AdminGroupsControllerCore::__construct()
+```
 
 
 
@@ -77,7 +83,9 @@ Methods
 
 ### <a name="method-ajaxProcessAddCategoryReduction"></a>ajaxProcessAddCategoryReduction
 
-    mixed AdminGroupsControllerCore::ajaxProcessAddCategoryReduction()
+```php
+mixed AdminGroupsControllerCore::ajaxProcessAddCategoryReduction()
+```
 
 
 
@@ -91,7 +99,9 @@ Methods
 
 ### <a name="method-displayEditLink"></a>displayEditLink
 
-    mixed AdminGroupsControllerCore::displayEditLink($token, $id, $name)
+```php
+mixed AdminGroupsControllerCore::displayEditLink($token, $id, $name)
+```
 
 
 
@@ -110,7 +120,9 @@ Methods
 
 ### <a name="method-formatCategoryDiscountList"></a>formatCategoryDiscountList
 
-    mixed AdminGroupsControllerCore::formatCategoryDiscountList($id_group)
+```php
+mixed AdminGroupsControllerCore::formatCategoryDiscountList($id_group)
+```
 
 
 
@@ -127,7 +139,9 @@ Methods
 
 ### <a name="method-formatModuleListAuth"></a>formatModuleListAuth
 
-    mixed AdminGroupsControllerCore::formatModuleListAuth($id_group)
+```php
+mixed AdminGroupsControllerCore::formatModuleListAuth($id_group)
+```
 
 
 
@@ -144,7 +158,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminGroupsControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminGroupsControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -158,7 +174,9 @@ Methods
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminGroupsControllerCore::initProcess()
+```php
+mixed AdminGroupsControllerCore::initProcess()
+```
 
 
 
@@ -172,7 +190,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminGroupsControllerCore::initToolbar()
+```php
+mixed AdminGroupsControllerCore::initToolbar()
+```
 
 
 
@@ -186,7 +206,9 @@ Methods
 
 ### <a name="method-printShowPricesIcon"></a>printShowPricesIcon
 
-    string AdminGroupsControllerCore::printShowPricesIcon($id_group, $tr)
+```php
+string AdminGroupsControllerCore::printShowPricesIcon($id_group, $tr)
+```
 
 Print enable / disable icon for show prices option
 
@@ -204,7 +226,9 @@ Print enable / disable icon for show prices option
 
 ### <a name="method-processChangeShowPricesVal"></a>processChangeShowPricesVal
 
-    mixed AdminGroupsControllerCore::processChangeShowPricesVal()
+```php
+mixed AdminGroupsControllerCore::processChangeShowPricesVal()
+```
 
 Toggle show prices flag
 
@@ -218,7 +242,9 @@ Toggle show prices flag
 
 ### <a name="method-processSave"></a>processSave
 
-    mixed AdminGroupsControllerCore::processSave()
+```php
+mixed AdminGroupsControllerCore::processSave()
+```
 
 
 
@@ -232,7 +258,9 @@ Toggle show prices flag
 
 ### <a name="method-renderCustomersList"></a>renderCustomersList
 
-    mixed AdminGroupsControllerCore::renderCustomersList($group)
+```php
+mixed AdminGroupsControllerCore::renderCustomersList($group)
+```
 
 
 
@@ -249,7 +277,9 @@ Toggle show prices flag
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminGroupsControllerCore::renderForm()
+```php
+mixed AdminGroupsControllerCore::renderForm()
+```
 
 
 
@@ -263,7 +293,9 @@ Toggle show prices flag
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminGroupsControllerCore::renderList()
+```php
+mixed AdminGroupsControllerCore::renderList()
+```
 
 
 
@@ -277,7 +309,9 @@ Toggle show prices flag
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminGroupsControllerCore::renderView()
+```php
+mixed AdminGroupsControllerCore::renderView()
+```
 
 
 
@@ -291,7 +325,9 @@ Toggle show prices flag
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminGroupsControllerCore::setMedia()
+```php
+mixed AdminGroupsControllerCore::setMedia()
+```
 
 
 
@@ -305,7 +341,9 @@ Toggle show prices flag
 
 ### <a name="method-updateCategoryReduction"></a>updateCategoryReduction
 
-    mixed AdminGroupsControllerCore::updateCategoryReduction()
+```php
+mixed AdminGroupsControllerCore::updateCategoryReduction()
+```
 
 
 
@@ -319,7 +357,9 @@ Toggle show prices flag
 
 ### <a name="method-updateRestrictions"></a>updateRestrictions
 
-    mixed AdminGroupsControllerCore::updateRestrictions()
+```php
+mixed AdminGroupsControllerCore::updateRestrictions()
+```
 
 Update (or create) restrictions for modules by group
 
@@ -333,7 +373,9 @@ Update (or create) restrictions for modules by group
 
 ### <a name="method-validateDiscount"></a>validateDiscount
 
-    mixed AdminGroupsControllerCore::validateDiscount($reduction)
+```php
+mixed AdminGroupsControllerCore::validateDiscount($reduction)
+```
 
 
 

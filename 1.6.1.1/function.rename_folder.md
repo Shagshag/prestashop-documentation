@@ -5,12 +5,16 @@ Function rename_folder
 
 
 
-    mixed rename_folder($old_path, $name, $transliteration)
+```php
+mixed rename_folder($old_path, $name, $transliteration)
+```
 
 * Function name: rename_folder
-* Source: [admin-dev/filemanager/include/utils.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/utils.php#L51)
+* Source: [admin-dev/filemanager/include/utils.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/utils.php#L51).
 
-#### Arguments
+Arguments
+---------
+
 * $old_path **mixed**
 * $name **mixed**
 * $transliteration **mixed**

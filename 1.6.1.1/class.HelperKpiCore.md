@@ -10,9 +10,11 @@ Class HelperKpiCore
 * Source: [classes/helper/HelperKpi.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$base_folder](#property-$base_folder)
 * [$base_tpl](#property-$base_tpl)
@@ -29,8 +31,8 @@ Properties
 * [$tooltip](#property-$tooltip)
 * [$value](#property-$value)
 
-Methods
--------
+### Methods
+
 * [generate](#method-generate)
 
 
@@ -42,7 +44,9 @@ Properties
 
 ### <a name="property-$base_folder"></a>$base_folder
 
-    public mixed $base_folder = 'helpers/kpi/'
+```php
+public mixed $base_folder = 'helpers/kpi/'
+```
 
 
 
@@ -54,7 +58,9 @@ Properties
 
 ### <a name="property-$base_tpl"></a>$base_tpl
 
-    public mixed $base_tpl = 'kpi.tpl'
+```php
+public mixed $base_tpl = 'kpi.tpl'
+```
 
 
 
@@ -66,7 +72,9 @@ Properties
 
 ### <a name="property-$chart"></a>$chart
 
-    public mixed $chart
+```php
+public mixed $chart
+```
 
 
 
@@ -78,7 +86,9 @@ Properties
 
 ### <a name="property-$color"></a>$color
 
-    public mixed $color
+```php
+public mixed $color
+```
 
 
 
@@ -90,7 +100,9 @@ Properties
 
 ### <a name="property-$data"></a>$data
 
-    public mixed $data
+```php
+public mixed $data
+```
 
 
 
@@ -102,7 +114,9 @@ Properties
 
 ### <a name="property-$href"></a>$href
 
-    public mixed $href
+```php
+public mixed $href
+```
 
 
 
@@ -114,7 +128,9 @@ Properties
 
 ### <a name="property-$icon"></a>$icon
 
-    public mixed $icon
+```php
+public mixed $icon
+```
 
 
 
@@ -126,7 +142,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -138,7 +156,9 @@ Properties
 
 ### <a name="property-$refresh"></a>$refresh
 
-    public mixed $refresh = true
+```php
+public mixed $refresh = true
+```
 
 
 
@@ -150,7 +170,9 @@ Properties
 
 ### <a name="property-$source"></a>$source
 
-    public mixed $source
+```php
+public mixed $source
+```
 
 
 
@@ -162,7 +184,9 @@ Properties
 
 ### <a name="property-$subtitle"></a>$subtitle
 
-    public mixed $subtitle
+```php
+public mixed $subtitle
+```
 
 
 
@@ -174,7 +198,9 @@ Properties
 
 ### <a name="property-$title"></a>$title
 
-    public mixed $title
+```php
+public mixed $title
+```
 
 
 
@@ -186,7 +212,9 @@ Properties
 
 ### <a name="property-$tooltip"></a>$tooltip
 
-    public mixed $tooltip
+```php
+public mixed $tooltip
+```
 
 
 
@@ -198,7 +226,9 @@ Properties
 
 ### <a name="property-$value"></a>$value
 
-    public mixed $value
+```php
+public mixed $value
+```
 
 
 
@@ -214,7 +244,9 @@ Methods
 
 ### <a name="method-generate"></a>generate
 
-    mixed HelperKpiCore::generate()
+```php
+mixed HelperKpiCore::generate()
+```
 
 
 

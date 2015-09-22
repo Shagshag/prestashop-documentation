@@ -10,15 +10,17 @@ Class AdminStockInstantStateControllerCore
 * Source: [controllers/admin/AdminStockInstantStateController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L31)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 * [$stock_instant_state_warehouses](#property-$stock_instant_state_warehouses)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getCurrentCoverageWarehouse](#method-getCurrentCoverageWarehouse)
 * [getList](#method-getList)
@@ -41,7 +43,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Stock $object
+```php
+public \Stock $object
+```
 
 
 
@@ -53,7 +57,9 @@ Properties
 
 ### <a name="property-$stock_instant_state_warehouses"></a>$stock_instant_state_warehouses
 
-    protected mixed $stock_instant_state_warehouses = array()
+```php
+protected mixed $stock_instant_state_warehouses = array()
+```
 
 
 
@@ -69,7 +75,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminStockInstantStateControllerCore::__construct()
+```php
+mixed AdminStockInstantStateControllerCore::__construct()
+```
 
 
 
@@ -83,7 +91,9 @@ Methods
 
 ### <a name="method-getCurrentCoverageWarehouse"></a>getCurrentCoverageWarehouse
 
-    integer AdminStockInstantStateControllerCore::getCurrentCoverageWarehouse()
+```php
+integer AdminStockInstantStateControllerCore::getCurrentCoverageWarehouse()
+```
 
 Gets the current warehouse used
 
@@ -97,7 +107,9 @@ Gets the current warehouse used
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminStockInstantStateControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```php
+mixed AdminStockInstantStateControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```
 
 AdminController::getList() override
 
@@ -119,7 +131,9 @@ AdminController::getList() override
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminStockInstantStateControllerCore::initContent()
+```php
+mixed AdminStockInstantStateControllerCore::initContent()
+```
 
 
 
@@ -133,7 +147,9 @@ AdminController::getList() override
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminStockInstantStateControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminStockInstantStateControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -147,7 +163,9 @@ AdminController::getList() override
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminStockInstantStateControllerCore::initProcess()
+```php
+mixed AdminStockInstantStateControllerCore::initProcess()
+```
 
 
 
@@ -161,7 +179,9 @@ AdminController::getList() override
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminStockInstantStateControllerCore::initToolbar()
+```php
+mixed AdminStockInstantStateControllerCore::initToolbar()
+```
 
 
 
@@ -175,7 +195,9 @@ AdminController::getList() override
 
 ### <a name="method-realQuantityCmp"></a>realQuantityCmp
 
-    boolean AdminStockInstantStateControllerCore::realQuantityCmp(array $n, array $m)
+```php
+boolean AdminStockInstantStateControllerCore::realQuantityCmp(array $n, array $m)
+```
 
 CMP
 
@@ -193,7 +215,9 @@ CMP
 
 ### <a name="method-renderCSV"></a>renderCSV
 
-    mixed AdminStockInstantStateControllerCore::renderCSV()
+```php
+mixed AdminStockInstantStateControllerCore::renderCSV()
+```
 
 Exports CSV
 
@@ -207,7 +231,9 @@ Exports CSV
 
 ### <a name="method-renderDetails"></a>renderDetails
 
-    mixed AdminStockInstantStateControllerCore::renderDetails()
+```php
+mixed AdminStockInstantStateControllerCore::renderDetails()
+```
 
 
 
@@ -221,7 +247,9 @@ Exports CSV
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminStockInstantStateControllerCore::renderList()
+```php
+mixed AdminStockInstantStateControllerCore::renderList()
+```
 
 AdminController::renderList() override
 
@@ -235,7 +263,9 @@ AdminController::renderList() override
 
 ### <a name="method-valuationCmp"></a>valuationCmp
 
-    boolean AdminStockInstantStateControllerCore::valuationCmp(array $n, array $m)
+```php
+boolean AdminStockInstantStateControllerCore::valuationCmp(array $n, array $m)
+```
 
 CMP
 

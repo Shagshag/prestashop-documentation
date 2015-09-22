@@ -1,5 +1,6 @@
 File Core/Business/Email/Core_Business_Email_EmailLister.php
 =========
+
 Source: [Core/Business/Email/Core_Business_Email_EmailLister.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Email/Core_Business_Email_EmailLister.php)
 
 

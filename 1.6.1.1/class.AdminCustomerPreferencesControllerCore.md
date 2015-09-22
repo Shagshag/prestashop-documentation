@@ -10,14 +10,16 @@ Class AdminCustomerPreferencesControllerCore
 * Source: [controllers/admin/AdminCustomerPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerPreferencesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [updateOptionPsB2bEnable](#method-updateOptionPsB2bEnable)
 
@@ -30,7 +32,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Configuration $object
+```php
+public \Configuration $object
+```
 
 
 
@@ -46,7 +50,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminCustomerPreferencesControllerCore::__construct()
+```php
+mixed AdminCustomerPreferencesControllerCore::__construct()
+```
 
 
 
@@ -60,7 +66,9 @@ Methods
 
 ### <a name="method-updateOptionPsB2bEnable"></a>updateOptionPsB2bEnable
 
-    mixed AdminCustomerPreferencesControllerCore::updateOptionPsB2bEnable($value)
+```php
+mixed AdminCustomerPreferencesControllerCore::updateOptionPsB2bEnable($value)
+```
 
 Update PS_B2B_ENABLE and enables / disables the associated tabs
 

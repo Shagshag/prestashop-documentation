@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [joinPaths](#method-joinPaths)
 * [joinTwoPaths](#method-joinTwoPaths)
 * [listEntriesRecursively](#method-listEntriesRecursively)
@@ -46,7 +48,9 @@ Methods
 
 ### <a name="method-joinPaths"></a>joinPaths
 
-    mixed Core_Foundation_FileSystem_FileSystem::joinPaths()
+```php
+mixed Core_Foundation_FileSystem_FileSystem::joinPaths()
+```
 
 Joins an arbitrary number of paths, normalizing them along the way.
 
@@ -60,7 +64,9 @@ Joins an arbitrary number of paths, normalizing them along the way.
 
 ### <a name="method-joinTwoPaths"></a>joinTwoPaths
 
-    mixed Core_Foundation_FileSystem_FileSystem::joinTwoPaths($a, $b)
+```php
+mixed Core_Foundation_FileSystem_FileSystem::joinTwoPaths($a, $b)
+```
 
 
 
@@ -78,7 +84,9 @@ Joins an arbitrary number of paths, normalizing them along the way.
 
 ### <a name="method-listEntriesRecursively"></a>listEntriesRecursively
 
-    \an Core_Foundation_FileSystem_FileSystem::listEntriesRecursively($path)
+```php
+\an Core_Foundation_FileSystem_FileSystem::listEntriesRecursively($path)
+```
 
 Performs a depth first listing of directory entries.
 
@@ -97,7 +105,9 @@ and return it in an array.
 
 ### <a name="method-listFilesRecursively"></a>listFilesRecursively
 
-    mixed Core_Foundation_FileSystem_FileSystem::listFilesRecursively($path)
+```php
+mixed Core_Foundation_FileSystem_FileSystem::listFilesRecursively($path)
+```
 
 Same as listEntriesRecursively but returns only files.
 
@@ -114,7 +124,9 @@ Same as listEntriesRecursively but returns only files.
 
 ### <a name="method-matchOnlyFiles"></a>matchOnlyFiles
 
-    mixed Core_Foundation_FileSystem_FileSystem::matchOnlyFiles(\SplFileInfo $info)
+```php
+mixed Core_Foundation_FileSystem_FileSystem::matchOnlyFiles(\SplFileInfo $info)
+```
 
 Filter used by listFilesRecursively.
 
@@ -131,7 +143,9 @@ Filter used by listFilesRecursively.
 
 ### <a name="method-normalizePath"></a>normalizePath
 
-    mixed Core_Foundation_FileSystem_FileSystem::normalizePath($path)
+```php
+mixed Core_Foundation_FileSystem_FileSystem::normalizePath($path)
+```
 
 Replaces directory separators with the system's native one
 and trims the trailing separator.

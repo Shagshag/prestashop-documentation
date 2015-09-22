@@ -10,9 +10,11 @@ Class CartControllerCore
 * Source: [controllers/front/CartController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$ajax_refresh](#property-$ajax_refresh)
 * [$customization_id](#property-$customization_id)
@@ -23,8 +25,8 @@ Properties
 * [$qty](#property-$qty)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [canonicalRedirection](#method-canonicalRedirection)
 * [displayAjax](#method-displayAjax)
 * [init](#method-init)
@@ -46,7 +48,9 @@ Properties
 
 ### <a name="property-$ajax_refresh"></a>$ajax_refresh
 
-    protected mixed $ajax_refresh = false
+```php
+protected mixed $ajax_refresh = false
+```
 
 
 
@@ -58,7 +62,9 @@ Properties
 
 ### <a name="property-$customization_id"></a>$customization_id
 
-    protected mixed $customization_id
+```php
+protected mixed $customization_id
+```
 
 
 
@@ -70,7 +76,9 @@ Properties
 
 ### <a name="property-$id_address_delivery"></a>$id_address_delivery
 
-    protected mixed $id_address_delivery
+```php
+protected mixed $id_address_delivery
+```
 
 
 
@@ -82,7 +90,9 @@ Properties
 
 ### <a name="property-$id_product"></a>$id_product
 
-    protected mixed $id_product
+```php
+protected mixed $id_product
+```
 
 
 
@@ -94,7 +104,9 @@ Properties
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
-    protected mixed $id_product_attribute
+```php
+protected mixed $id_product_attribute
+```
 
 
 
@@ -106,7 +118,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'cart'
+```php
+public mixed $php_self = 'cart'
+```
 
 
 
@@ -118,7 +132,9 @@ Properties
 
 ### <a name="property-$qty"></a>$qty
 
-    protected mixed $qty
+```php
+protected mixed $qty
+```
 
 
 
@@ -130,7 +146,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -146,7 +164,9 @@ Methods
 
 ### <a name="method-canonicalRedirection"></a>canonicalRedirection
 
-    mixed CartControllerCore::canonicalRedirection(string $canonicalURL)
+```php
+mixed CartControllerCore::canonicalRedirection(string $canonicalURL)
+```
 
 This is not a public page, so the canonical redirection is disabled
 
@@ -163,7 +183,9 @@ This is not a public page, so the canonical redirection is disabled
 
 ### <a name="method-displayAjax"></a>displayAjax
 
-    mixed CartControllerCore::displayAjax()
+```php
+mixed CartControllerCore::displayAjax()
+```
 
 Display ajax content (this function is called instead of classic display, in ajax mode)
 
@@ -177,7 +199,9 @@ Display ajax content (this function is called instead of classic display, in aja
 
 ### <a name="method-init"></a>init
 
-    mixed CartControllerCore::init()
+```php
+mixed CartControllerCore::init()
+```
 
 Initialize cart controller
 
@@ -191,7 +215,9 @@ Initialize cart controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed CartControllerCore::initContent()
+```php
+mixed CartControllerCore::initContent()
+```
 
 
 
@@ -205,7 +231,9 @@ Initialize cart controller
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed CartControllerCore::postProcess()
+```php
+mixed CartControllerCore::postProcess()
+```
 
 
 
@@ -219,7 +247,9 @@ Initialize cart controller
 
 ### <a name="method-processAllowSeperatedPackage"></a>processAllowSeperatedPackage
 
-    mixed CartControllerCore::processAllowSeperatedPackage()
+```php
+mixed CartControllerCore::processAllowSeperatedPackage()
+```
 
 
 
@@ -233,7 +263,9 @@ Initialize cart controller
 
 ### <a name="method-processChangeProductAddressDelivery"></a>processChangeProductAddressDelivery
 
-    mixed CartControllerCore::processChangeProductAddressDelivery()
+```php
+mixed CartControllerCore::processChangeProductAddressDelivery()
+```
 
 
 
@@ -247,7 +279,9 @@ Initialize cart controller
 
 ### <a name="method-processChangeProductInCart"></a>processChangeProductInCart
 
-    mixed CartControllerCore::processChangeProductInCart()
+```php
+mixed CartControllerCore::processChangeProductInCart()
+```
 
 This process add or update a product in the cart
 
@@ -261,7 +295,9 @@ This process add or update a product in the cart
 
 ### <a name="method-processDeleteProductInCart"></a>processDeleteProductInCart
 
-    mixed CartControllerCore::processDeleteProductInCart()
+```php
+mixed CartControllerCore::processDeleteProductInCart()
+```
 
 This process delete a product from the cart
 
@@ -275,7 +311,9 @@ This process delete a product from the cart
 
 ### <a name="method-processDuplicateProduct"></a>processDuplicateProduct
 
-    mixed CartControllerCore::processDuplicateProduct()
+```php
+mixed CartControllerCore::processDuplicateProduct()
+```
 
 
 
@@ -289,7 +327,9 @@ This process delete a product from the cart
 
 ### <a name="method-processRemoveDiscounts"></a>processRemoveDiscounts
 
-    mixed CartControllerCore::processRemoveDiscounts()
+```php
+mixed CartControllerCore::processRemoveDiscounts()
+```
 
 Remove discounts on cart
 

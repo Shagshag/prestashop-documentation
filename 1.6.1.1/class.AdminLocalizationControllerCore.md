@@ -10,11 +10,13 @@ Class AdminLocalizationControllerCore
 * Source: [controllers/admin/AdminLocalizationController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [beforeUpdateOptions](#method-beforeUpdateOptions)
 * [display](#method-display)
@@ -35,7 +37,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminLocalizationControllerCore::__construct()
+```php
+mixed AdminLocalizationControllerCore::__construct()
+```
 
 
 
@@ -49,7 +53,9 @@ Methods
 
 ### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
-    mixed AdminLocalizationControllerCore::beforeUpdateOptions()
+```php
+mixed AdminLocalizationControllerCore::beforeUpdateOptions()
+```
 
 
 
@@ -63,7 +69,9 @@ Methods
 
 ### <a name="method-display"></a>display
 
-    mixed AdminLocalizationControllerCore::display()
+```php
+mixed AdminLocalizationControllerCore::display()
+```
 
 
 
@@ -77,7 +85,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminLocalizationControllerCore::initContent()
+```php
+mixed AdminLocalizationControllerCore::initContent()
+```
 
 
 
@@ -91,7 +101,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminLocalizationControllerCore::postProcess()
+```php
+mixed AdminLocalizationControllerCore::postProcess()
+```
 
 
 
@@ -105,7 +117,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminLocalizationControllerCore::renderForm()
+```php
+mixed AdminLocalizationControllerCore::renderForm()
+```
 
 
 
@@ -119,7 +133,9 @@ Methods
 
 ### <a name="method-sortLocalizationsPack"></a>sortLocalizationsPack
 
-    mixed AdminLocalizationControllerCore::sortLocalizationsPack($a, $b)
+```php
+mixed AdminLocalizationControllerCore::sortLocalizationsPack($a, $b)
+```
 
 
 
@@ -137,7 +153,9 @@ Methods
 
 ### <a name="method-updateOptionPsCurrencyDefault"></a>updateOptionPsCurrencyDefault
 
-    mixed AdminLocalizationControllerCore::updateOptionPsCurrencyDefault($value)
+```php
+mixed AdminLocalizationControllerCore::updateOptionPsCurrencyDefault($value)
+```
 
 
 

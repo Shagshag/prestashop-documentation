@@ -5,12 +5,16 @@ for retrocompatibility with old AdminTab, old index.php
 
 
 
-    void runAdminTab($tab, $ajax_mode)
+```php
+void runAdminTab($tab, $ajax_mode)
+```
 
 * Function name: runAdminTab
-* Source: [admin-dev/functions.php line 410](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/functions.php#L410)
+* Source: [admin-dev/functions.php line 410](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/functions.php#L410).
 
-#### Arguments
+Arguments
+---------
+
 * $tab **mixed**
 * $ajax_mode **mixed**
 

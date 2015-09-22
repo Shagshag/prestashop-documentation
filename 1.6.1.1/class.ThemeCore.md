@@ -9,15 +9,17 @@ Class ThemeCore
 * Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Theme.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [CACHE_FILE_CUSTOMER_THEMES_LIST](#constant-CACHE_FILE_CUSTOMER_THEMES_LIST)
 * [CACHE_FILE_MUST_HAVE_THEMES_LIST](#constant-CACHE_FILE_MUST_HAVE_THEMES_LIST)
 * [UPLOADED_THEME_DIR_NAME](#constant-UPLOADED_THEME_DIR_NAME)
 
-Properties
-----------
+### Properties
 
 * [$access_rights](#property-$access_rights)
 * [$default_left_column](#property-$default_left_column)
@@ -28,8 +30,8 @@ Properties
 * [$product_per_page](#property-$product_per_page)
 * [$responsive](#property-$responsive)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [getAllThemes](#method-getAllThemes)
 * [getAvailable](#method-getAvailable)
@@ -57,7 +59,9 @@ Constants
 
 ### <a name="constant-CACHE_FILE_CUSTOMER_THEMES_LIST"></a>CACHE_FILE_CUSTOMER_THEMES_LIST
 
-    const CACHE_FILE_CUSTOMER_THEMES_LIST = '/config/xml/customer_themes_list.xml'
+```php
+const CACHE_FILE_CUSTOMER_THEMES_LIST = '/config/xml/customer_themes_list.xml'
+```
 
 
 
@@ -68,7 +72,9 @@ Constants
 
 ### <a name="constant-CACHE_FILE_MUST_HAVE_THEMES_LIST"></a>CACHE_FILE_MUST_HAVE_THEMES_LIST
 
-    const CACHE_FILE_MUST_HAVE_THEMES_LIST = '/config/xml/must_have_themes_list.xml'
+```php
+const CACHE_FILE_MUST_HAVE_THEMES_LIST = '/config/xml/must_have_themes_list.xml'
+```
 
 
 
@@ -79,7 +85,9 @@ Constants
 
 ### <a name="constant-UPLOADED_THEME_DIR_NAME"></a>UPLOADED_THEME_DIR_NAME
 
-    const UPLOADED_THEME_DIR_NAME = 'uploaded'
+```php
+const UPLOADED_THEME_DIR_NAME = 'uploaded'
+```
 
 
 
@@ -94,7 +102,9 @@ Properties
 
 ### <a name="property-$access_rights"></a>$access_rights
 
-    public integer $access_rights = 509
+```php
+public integer $access_rights = 509
+```
 
 
 
@@ -107,7 +117,9 @@ Properties
 
 ### <a name="property-$default_left_column"></a>$default_left_column
 
-    public mixed $default_left_column
+```php
+public mixed $default_left_column
+```
 
 
 
@@ -119,7 +131,9 @@ Properties
 
 ### <a name="property-$default_right_column"></a>$default_right_column
 
-    public mixed $default_right_column
+```php
+public mixed $default_right_column
+```
 
 
 
@@ -131,7 +145,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'theme', 'primary' => 'id_theme', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 64, 'required' => true), 'directory' => array('type' => self::TYPE_STRING, 'validate' => 'isDirName', 'size' => 64, 'required' => true), 'responsive' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'default_left_column' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'default_right_column' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'product_per_page' => array('type' => self::TYPE_INT, 'validate' => 'isInt')))
+```php
+public mixed $definition = array('table' => 'theme', 'primary' => 'id_theme', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 64, 'required' => true), 'directory' => array('type' => self::TYPE_STRING, 'validate' => 'isDirName', 'size' => 64, 'required' => true), 'responsive' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'default_left_column' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'default_right_column' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'product_per_page' => array('type' => self::TYPE_INT, 'validate' => 'isInt')))
+```
 
 
 
@@ -144,7 +160,9 @@ Properties
 
 ### <a name="property-$directory"></a>$directory
 
-    public mixed $directory
+```php
+public mixed $directory
+```
 
 
 
@@ -156,7 +174,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -168,7 +188,9 @@ Properties
 
 ### <a name="property-$product_per_page"></a>$product_per_page
 
-    public mixed $product_per_page
+```php
+public mixed $product_per_page
+```
 
 
 
@@ -180,7 +202,9 @@ Properties
 
 ### <a name="property-$responsive"></a>$responsive
 
-    public mixed $responsive
+```php
+public mixed $responsive
+```
 
 
 
@@ -196,7 +220,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    boolean ThemeCore::add(boolean $autodate, boolean $null_values)
+```php
+boolean ThemeCore::add(boolean $autodate, boolean $null_values)
+```
 
 add only theme if the directory exists
 
@@ -214,7 +240,9 @@ add only theme if the directory exists
 
 ### <a name="method-getAllThemes"></a>getAllThemes
 
-    mixed ThemeCore::getAllThemes($excluded_ids)
+```php
+mixed ThemeCore::getAllThemes($excluded_ids)
+```
 
 
 
@@ -232,7 +260,9 @@ add only theme if the directory exists
 
 ### <a name="method-getAvailable"></a>getAvailable
 
-    array ThemeCore::getAvailable(boolean $installed_only)
+```php
+array ThemeCore::getAvailable(boolean $installed_only)
+```
 
 return an array of all available theme (installed or not)
 
@@ -250,7 +280,9 @@ return an array of all available theme (installed or not)
 
 ### <a name="method-getByDirectory"></a>getByDirectory
 
-    boolean|\Theme ThemeCore::getByDirectory(string $directory)
+```php
+boolean|\Theme ThemeCore::getByDirectory(string $directory)
+```
 
 Checks if theme exists (by folder) and returns Theme object.
 
@@ -268,7 +300,9 @@ Checks if theme exists (by folder) and returns Theme object.
 
 ### <a name="method-getInstalledThemeDirectories"></a>getInstalledThemeDirectories
 
-    mixed ThemeCore::getInstalledThemeDirectories()
+```php
+mixed ThemeCore::getInstalledThemeDirectories()
+```
 
 
 
@@ -283,7 +317,9 @@ Checks if theme exists (by folder) and returns Theme object.
 
 ### <a name="method-getMetas"></a>getMetas
 
-    array|boolean ThemeCore::getMetas()
+```php
+array|boolean ThemeCore::getMetas()
+```
 
 
 
@@ -297,7 +333,9 @@ Checks if theme exists (by folder) and returns Theme object.
 
 ### <a name="method-getNonInstalledTheme"></a>getNonInstalledTheme
 
-    mixed ThemeCore::getNonInstalledTheme()
+```php
+mixed ThemeCore::getNonInstalledTheme()
+```
 
 
 
@@ -312,7 +350,9 @@ Checks if theme exists (by folder) and returns Theme object.
 
 ### <a name="method-getThemeInfo"></a>getThemeInfo
 
-    mixed ThemeCore::getThemeInfo($id_theme)
+```php
+mixed ThemeCore::getThemeInfo($id_theme)
+```
 
 
 
@@ -330,7 +370,9 @@ Checks if theme exists (by folder) and returns Theme object.
 
 ### <a name="method-getThemes"></a>getThemes
 
-    mixed ThemeCore::getThemes()
+```php
+mixed ThemeCore::getThemes()
+```
 
 
 
@@ -345,7 +387,9 @@ Checks if theme exists (by folder) and returns Theme object.
 
 ### <a name="method-hasColumns"></a>hasColumns
 
-    mixed ThemeCore::hasColumns($page)
+```php
+mixed ThemeCore::hasColumns($page)
+```
 
 
 
@@ -362,7 +406,9 @@ Checks if theme exists (by folder) and returns Theme object.
 
 ### <a name="method-hasColumnsSettings"></a>hasColumnsSettings
 
-    mixed ThemeCore::hasColumnsSettings($page)
+```php
+mixed ThemeCore::hasColumnsSettings($page)
+```
 
 
 
@@ -379,7 +425,9 @@ Checks if theme exists (by folder) and returns Theme object.
 
 ### <a name="method-hasLeftColumn"></a>hasLeftColumn
 
-    mixed ThemeCore::hasLeftColumn($page)
+```php
+mixed ThemeCore::hasLeftColumn($page)
+```
 
 
 
@@ -396,7 +444,9 @@ Checks if theme exists (by folder) and returns Theme object.
 
 ### <a name="method-hasRightColumn"></a>hasRightColumn
 
-    mixed ThemeCore::hasRightColumn($page)
+```php
+mixed ThemeCore::hasRightColumn($page)
+```
 
 
 
@@ -413,7 +463,9 @@ Checks if theme exists (by folder) and returns Theme object.
 
 ### <a name="method-isUsed"></a>isUsed
 
-    boolean ThemeCore::isUsed()
+```php
+boolean ThemeCore::isUsed()
+```
 
 check if a theme is used by a shop
 
@@ -427,7 +479,9 @@ check if a theme is used by a shop
 
 ### <a name="method-removeMetas"></a>removeMetas
 
-    boolean ThemeCore::removeMetas()
+```php
+boolean ThemeCore::removeMetas()
+```
 
 
 
@@ -441,7 +495,9 @@ check if a theme is used by a shop
 
 ### <a name="method-toggleDefaultLeftColumn"></a>toggleDefaultLeftColumn
 
-    mixed ThemeCore::toggleDefaultLeftColumn()
+```php
+mixed ThemeCore::toggleDefaultLeftColumn()
+```
 
 
 
@@ -455,7 +511,9 @@ check if a theme is used by a shop
 
 ### <a name="method-toggleDefaultRightColumn"></a>toggleDefaultRightColumn
 
-    mixed ThemeCore::toggleDefaultRightColumn()
+```php
+mixed ThemeCore::toggleDefaultRightColumn()
+```
 
 
 
@@ -469,7 +527,9 @@ check if a theme is used by a shop
 
 ### <a name="method-toggleResponsive"></a>toggleResponsive
 
-    mixed ThemeCore::toggleResponsive()
+```php
+mixed ThemeCore::toggleResponsive()
+```
 
 
 
@@ -483,7 +543,9 @@ check if a theme is used by a shop
 
 ### <a name="method-updateMetas"></a>updateMetas
 
-    mixed ThemeCore::updateMetas(array $metas, boolean $full_update)
+```php
+mixed ThemeCore::updateMetas(array $metas, boolean $full_update)
+```
 
 update the table PREFIX_theme_meta for the current theme
 

@@ -10,9 +10,11 @@ Class SceneCore
 * Source: [classes/Scene.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$categories](#property-$categories)
@@ -22,8 +24,8 @@ Properties
 * [$products](#property-$products)
 * [$zones](#property-$zones)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [add](#method-add)
 * [addCategories](#method-addCategories)
@@ -50,7 +52,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = true
+```php
+public boolean $active = true
+```
 
 
 
@@ -62,7 +66,9 @@ Properties
 
 ### <a name="property-$categories"></a>$categories
 
-    public array $categories = array()
+```php
+public array $categories = array()
+```
 
 
 
@@ -74,7 +80,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'scene', 'primary' => 'id_scene', 'multilang' => true, 'fields' => array('active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 100)))
+```php
+public mixed $definition = array('table' => 'scene', 'primary' => 'id_scene', 'multilang' => true, 'fields' => array('active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 100)))
+```
 
 
 
@@ -87,7 +95,9 @@ Properties
 
 ### <a name="property-$feature_active"></a>$feature_active
 
-    protected mixed $feature_active = null
+```php
+protected mixed $feature_active = null
+```
 
 
 
@@ -100,7 +110,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -112,7 +124,9 @@ Properties
 
 ### <a name="property-$products"></a>$products
 
-    public array $products
+```php
+public array $products
+```
 
 
 
@@ -124,7 +138,9 @@ Properties
 
 ### <a name="property-$zones"></a>$zones
 
-    public array $zones = array()
+```php
+public array $zones = array()
+```
 
 
 
@@ -140,7 +156,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed SceneCore::__construct($id, $id_lang, $lite_result, $hide_scene_position)
+```php
+mixed SceneCore::__construct($id, $id_lang, $lite_result, $hide_scene_position)
+```
 
 
 
@@ -160,7 +178,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed SceneCore::add($autodate, $null_values)
+```php
+mixed SceneCore::add($autodate, $null_values)
+```
 
 
 
@@ -178,7 +198,9 @@ Methods
 
 ### <a name="method-addCategories"></a>addCategories
 
-    mixed SceneCore::addCategories($categories)
+```php
+mixed SceneCore::addCategories($categories)
+```
 
 
 
@@ -195,7 +217,9 @@ Methods
 
 ### <a name="method-addZoneProducts"></a>addZoneProducts
 
-    mixed SceneCore::addZoneProducts($zones)
+```php
+mixed SceneCore::addZoneProducts($zones)
+```
 
 
 
@@ -212,7 +236,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed SceneCore::delete()
+```php
+mixed SceneCore::delete()
+```
 
 
 
@@ -226,7 +252,9 @@ Methods
 
 ### <a name="method-deleteCategories"></a>deleteCategories
 
-    mixed SceneCore::deleteCategories()
+```php
+mixed SceneCore::deleteCategories()
+```
 
 
 
@@ -240,7 +268,9 @@ Methods
 
 ### <a name="method-deleteImage"></a>deleteImage
 
-    mixed SceneCore::deleteImage($force_delete)
+```php
+mixed SceneCore::deleteImage($force_delete)
+```
 
 
 
@@ -257,7 +287,9 @@ Methods
 
 ### <a name="method-deleteZoneProducts"></a>deleteZoneProducts
 
-    mixed SceneCore::deleteZoneProducts()
+```php
+mixed SceneCore::deleteZoneProducts()
+```
 
 
 
@@ -271,7 +303,9 @@ Methods
 
 ### <a name="method-getIndexedCategories"></a>getIndexedCategories
 
-    array SceneCore::getIndexedCategories(integer $id_scene)
+```php
+array SceneCore::getIndexedCategories(integer $id_scene)
+```
 
 Get categories where scene is indexed
 
@@ -289,7 +323,9 @@ Get categories where scene is indexed
 
 ### <a name="method-getProducts"></a>getProducts
 
-    array SceneCore::getProducts($only_active, $id_lang, $lite_result, \Context $context)
+```php
+array SceneCore::getProducts($only_active, $id_lang, $lite_result, \Context $context)
+```
 
 Get all products of this scene
 
@@ -309,7 +345,9 @@ Get all products of this scene
 
 ### <a name="method-getScenes"></a>getScenes
 
-    array SceneCore::getScenes($id_category, $id_lang, $only_active, $lite_result, $hide_scene_position, \Context $context)
+```php
+array SceneCore::getScenes($id_category, $id_lang, $only_active, $lite_result, $hide_scene_position, \Context $context)
+```
 
 Get all scenes of a category
 
@@ -332,7 +370,9 @@ Get all scenes of a category
 
 ### <a name="method-hideScenePosition"></a>hideScenePosition
 
-    string SceneCore::hideScenePosition(string $name)
+```php
+string SceneCore::hideScenePosition(string $name)
+```
 
 Hide scene prefix used for position
 
@@ -350,7 +390,9 @@ Hide scene prefix used for position
 
 ### <a name="method-isFeatureActive"></a>isFeatureActive
 
-    boolean SceneCore::isFeatureActive()
+```php
+boolean SceneCore::isFeatureActive()
+```
 
 This method is allow to know if a feature is used or active
 
@@ -365,7 +407,9 @@ This method is allow to know if a feature is used or active
 
 ### <a name="method-update"></a>update
 
-    mixed SceneCore::update($null_values)
+```php
+mixed SceneCore::update($null_values)
+```
 
 
 
@@ -382,7 +426,9 @@ This method is allow to know if a feature is used or active
 
 ### <a name="method-updateCategories"></a>updateCategories
 
-    mixed SceneCore::updateCategories()
+```php
+mixed SceneCore::updateCategories()
+```
 
 
 
@@ -396,7 +442,9 @@ This method is allow to know if a feature is used or active
 
 ### <a name="method-updateZoneProducts"></a>updateZoneProducts
 
-    mixed SceneCore::updateZoneProducts()
+```php
+mixed SceneCore::updateZoneProducts()
+```
 
 
 

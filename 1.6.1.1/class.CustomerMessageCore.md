@@ -10,9 +10,11 @@ Class CustomerMessageCore
 * Source: [classes/CustomerMessage.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$date_upd](#property-$date_upd)
@@ -28,8 +30,8 @@ Properties
 * [$user_agent](#property-$user_agent)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [delete](#method-delete)
 * [getMessagesByOrderId](#method-getMessagesByOrderId)
 * [getTotalCustomerMessages](#method-getTotalCustomerMessages)
@@ -43,7 +45,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public mixed $date_add
+```php
+public mixed $date_add
+```
 
 
 
@@ -55,7 +59,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public mixed $date_upd
+```php
+public mixed $date_upd
+```
 
 
 
@@ -67,7 +73,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'customer_message', 'primary' => 'id_customer_message', 'fields' => array('id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_customer_thread' => array('type' => self::TYPE_INT), 'ip_address' => array('type' => self::TYPE_STRING, 'validate' => 'isIp2Long', 'size' => 15), 'message' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 16777216), 'file_name' => array('type' => self::TYPE_STRING), 'user_agent' => array('type' => self::TYPE_STRING), 'private' => array('type' => self::TYPE_INT), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'read' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```php
+public mixed $definition = array('table' => 'customer_message', 'primary' => 'id_customer_message', 'fields' => array('id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_customer_thread' => array('type' => self::TYPE_INT), 'ip_address' => array('type' => self::TYPE_STRING, 'validate' => 'isIp2Long', 'size' => 15), 'message' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 16777216), 'file_name' => array('type' => self::TYPE_STRING), 'user_agent' => array('type' => self::TYPE_STRING), 'private' => array('type' => self::TYPE_INT), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'read' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```
 
 
 
@@ -80,7 +88,9 @@ Properties
 
 ### <a name="property-$file_name"></a>$file_name
 
-    public mixed $file_name
+```php
+public mixed $file_name
+```
 
 
 
@@ -92,7 +102,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -104,7 +116,9 @@ Properties
 
 ### <a name="property-$id_customer_thread"></a>$id_customer_thread
 
-    public mixed $id_customer_thread
+```php
+public mixed $id_customer_thread
+```
 
 
 
@@ -116,7 +130,9 @@ Properties
 
 ### <a name="property-$id_employee"></a>$id_employee
 
-    public mixed $id_employee
+```php
+public mixed $id_employee
+```
 
 
 
@@ -128,7 +144,9 @@ Properties
 
 ### <a name="property-$ip_address"></a>$ip_address
 
-    public mixed $ip_address
+```php
+public mixed $ip_address
+```
 
 
 
@@ -140,7 +158,9 @@ Properties
 
 ### <a name="property-$message"></a>$message
 
-    public mixed $message
+```php
+public mixed $message
+```
 
 
 
@@ -152,7 +172,9 @@ Properties
 
 ### <a name="property-$private"></a>$private
 
-    public mixed $private
+```php
+public mixed $private
+```
 
 
 
@@ -164,7 +186,9 @@ Properties
 
 ### <a name="property-$read"></a>$read
 
-    public mixed $read
+```php
+public mixed $read
+```
 
 
 
@@ -176,7 +200,9 @@ Properties
 
 ### <a name="property-$user_agent"></a>$user_agent
 
-    public mixed $user_agent
+```php
+public mixed $user_agent
+```
 
 
 
@@ -188,7 +214,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_employee' => array('xlink_resource' => 'employees'), 'id_customer_thread' => array('xlink_resource' => 'customer_threads')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_employee' => array('xlink_resource' => 'employees'), 'id_customer_thread' => array('xlink_resource' => 'customer_threads')))
+```
 
 
 
@@ -204,7 +232,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed CustomerMessageCore::delete()
+```php
+mixed CustomerMessageCore::delete()
+```
 
 
 
@@ -218,7 +248,9 @@ Methods
 
 ### <a name="method-getMessagesByOrderId"></a>getMessagesByOrderId
 
-    mixed CustomerMessageCore::getMessagesByOrderId($id_order, $private)
+```php
+mixed CustomerMessageCore::getMessagesByOrderId($id_order, $private)
+```
 
 
 
@@ -237,7 +269,9 @@ Methods
 
 ### <a name="method-getTotalCustomerMessages"></a>getTotalCustomerMessages
 
-    mixed CustomerMessageCore::getTotalCustomerMessages($where)
+```php
+mixed CustomerMessageCore::getTotalCustomerMessages($where)
+```
 
 
 

@@ -8,16 +8,18 @@ Create a collection of ObjectModel objects
 * Class name: PrestaShopCollectionCore
 * Source: [classes/PrestaShopCollection.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L32)
 * This class implements: Iterator, ArrayAccess, Countable
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [INNER_JOIN](#constant-INNER_JOIN)
 * [LANG_ALIAS](#constant-LANG_ALIAS)
 * [LEFT_JOIN](#constant-LEFT_JOIN)
 * [LEFT_OUTER_JOIN](#constant-LEFT_OUTER_JOIN)
 
-Properties
-----------
+### Properties
 
 * [$alias](#property-$alias)
 * [$alias_iterator](#property-$alias_iterator)
@@ -35,8 +37,8 @@ Properties
 * [$results](#property-$results)
 * [$total](#property-$total)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [count](#method-count)
 * [current](#method-current)
@@ -76,7 +78,9 @@ Constants
 
 ### <a name="constant-INNER_JOIN"></a>INNER_JOIN
 
-    const INNER_JOIN = 2
+```php
+const INNER_JOIN = 2
+```
 
 
 
@@ -87,7 +91,9 @@ Constants
 
 ### <a name="constant-LANG_ALIAS"></a>LANG_ALIAS
 
-    const LANG_ALIAS = 'l'
+```php
+const LANG_ALIAS = 'l'
+```
 
 
 
@@ -98,7 +104,9 @@ Constants
 
 ### <a name="constant-LEFT_JOIN"></a>LEFT_JOIN
 
-    const LEFT_JOIN = 1
+```php
+const LEFT_JOIN = 1
+```
 
 
 
@@ -109,7 +117,9 @@ Constants
 
 ### <a name="constant-LEFT_OUTER_JOIN"></a>LEFT_OUTER_JOIN
 
-    const LEFT_OUTER_JOIN = 3
+```php
+const LEFT_OUTER_JOIN = 3
+```
 
 
 
@@ -124,7 +134,9 @@ Properties
 
 ### <a name="property-$alias"></a>$alias
 
-    protected mixed $alias = array()
+```php
+protected mixed $alias = array()
+```
 
 
 
@@ -136,7 +148,9 @@ Properties
 
 ### <a name="property-$alias_iterator"></a>$alias_iterator
 
-    protected mixed $alias_iterator
+```php
+protected mixed $alias_iterator
+```
 
 
 
@@ -148,7 +162,9 @@ Properties
 
 ### <a name="property-$association_definition"></a>$association_definition
 
-    protected mixed $association_definition = array()
+```php
+protected mixed $association_definition = array()
+```
 
 
 
@@ -160,7 +176,9 @@ Properties
 
 ### <a name="property-$classname"></a>$classname
 
-    protected string $classname
+```php
+protected string $classname
+```
 
 
 
@@ -172,7 +190,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    protected array $definition = array()
+```php
+protected array $definition = array()
+```
 
 
 
@@ -184,7 +204,9 @@ Properties
 
 ### <a name="property-$fields"></a>$fields
 
-    protected mixed $fields = array()
+```php
+protected mixed $fields = array()
+```
 
 
 
@@ -196,7 +218,9 @@ Properties
 
 ### <a name="property-$id_lang"></a>$id_lang
 
-    protected integer $id_lang
+```php
+protected integer $id_lang
+```
 
 
 
@@ -208,7 +232,9 @@ Properties
 
 ### <a name="property-$is_hydrated"></a>$is_hydrated
 
-    protected boolean $is_hydrated = false
+```php
+protected boolean $is_hydrated = false
+```
 
 
 
@@ -220,7 +246,9 @@ Properties
 
 ### <a name="property-$iterator"></a>$iterator
 
-    protected integer $iterator
+```php
+protected integer $iterator
+```
 
 
 
@@ -232,7 +260,9 @@ Properties
 
 ### <a name="property-$join_list"></a>$join_list
 
-    protected mixed $join_list = array()
+```php
+protected mixed $join_list = array()
+```
 
 
 
@@ -244,7 +274,9 @@ Properties
 
 ### <a name="property-$page_number"></a>$page_number
 
-    protected integer $page_number
+```php
+protected integer $page_number
+```
 
 
 
@@ -256,7 +288,9 @@ Properties
 
 ### <a name="property-$page_size"></a>$page_size
 
-    protected integer $page_size
+```php
+protected integer $page_size
+```
 
 
 
@@ -268,7 +302,9 @@ Properties
 
 ### <a name="property-$query"></a>$query
 
-    protected \DbQuery $query
+```php
+protected \DbQuery $query
+```
 
 
 
@@ -280,7 +316,9 @@ Properties
 
 ### <a name="property-$results"></a>$results
 
-    protected array $results = array()
+```php
+protected array $results = array()
+```
 
 
 
@@ -292,7 +330,9 @@ Properties
 
 ### <a name="property-$total"></a>$total
 
-    protected integer $total
+```php
+protected integer $total
+```
 
 
 
@@ -308,7 +348,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed PrestaShopCollectionCore::__construct(string $classname, integer $id_lang)
+```php
+mixed PrestaShopCollectionCore::__construct(string $classname, integer $id_lang)
+```
 
 
 
@@ -326,7 +368,9 @@ Methods
 
 ### <a name="method-count"></a>count
 
-    integer PrestaShopCollectionCore::count()
+```php
+integer PrestaShopCollectionCore::count()
+```
 
 Get total of results
 
@@ -340,7 +384,9 @@ Get total of results
 
 ### <a name="method-current"></a>current
 
-    \ObjectModel PrestaShopCollectionCore::current()
+```php
+\ObjectModel PrestaShopCollectionCore::current()
+```
 
 Get current result
 
@@ -354,7 +400,9 @@ Get current result
 
 ### <a name="method-formatValue"></a>formatValue
 
-    mixed PrestaShopCollectionCore::formatValue(mixed $value, string $field)
+```php
+mixed PrestaShopCollectionCore::formatValue(mixed $value, string $field)
+```
 
 Format a value with the type of the given field
 
@@ -372,7 +420,9 @@ Format a value with the type of the given field
 
 ### <a name="method-generateAlias"></a>generateAlias
 
-    string PrestaShopCollectionCore::generateAlias(string $association)
+```php
+string PrestaShopCollectionCore::generateAlias(string $association)
+```
 
 Generate uniq alias from association name
 
@@ -389,7 +439,9 @@ Generate uniq alias from association name
 
 ### <a name="method-getAll"></a>getAll
 
-    \PrestaShopCollection PrestaShopCollectionCore::getAll(boolean $display_query)
+```php
+\PrestaShopCollection PrestaShopCollectionCore::getAll(boolean $display_query)
+```
 
 Launch sql query to create collection of objects
 
@@ -406,7 +458,9 @@ Launch sql query to create collection of objects
 
 ### <a name="method-getDefinition"></a>getDefinition
 
-    array PrestaShopCollectionCore::getDefinition(string $association)
+```php
+array PrestaShopCollectionCore::getDefinition(string $association)
+```
 
 Get definition of an association
 
@@ -423,7 +477,9 @@ Get definition of an association
 
 ### <a name="method-getFieldInfo"></a>getFieldInfo
 
-    array PrestaShopCollectionCore::getFieldInfo(string $field)
+```php
+array PrestaShopCollectionCore::getFieldInfo(string $field)
+```
 
 Obtain some information on a field (alias, name, type, etc.)
 
@@ -440,7 +496,9 @@ Obtain some information on a field (alias, name, type, etc.)
 
 ### <a name="method-getFirst"></a>getFirst
 
-    \ObjectModel PrestaShopCollectionCore::getFirst()
+```php
+\ObjectModel PrestaShopCollectionCore::getFirst()
+```
 
 Retrieve the first result
 
@@ -454,7 +512,9 @@ Retrieve the first result
 
 ### <a name="method-getResults"></a>getResults
 
-    array PrestaShopCollectionCore::getResults()
+```php
+array PrestaShopCollectionCore::getResults()
+```
 
 Get results array
 
@@ -468,7 +528,9 @@ Get results array
 
 ### <a name="method-groupBy"></a>groupBy
 
-    \PrestaShopCollection PrestaShopCollectionCore::groupBy(string $field)
+```php
+\PrestaShopCollection PrestaShopCollectionCore::groupBy(string $field)
+```
 
 Add GROUP BY restriction on query
 
@@ -485,7 +547,9 @@ Add GROUP BY restriction on query
 
 ### <a name="method-having"></a>having
 
-    \PrestaShopCollection PrestaShopCollectionCore::having(string $field, string $operator, mixed $value)
+```php
+\PrestaShopCollection PrestaShopCollectionCore::having(string $field, string $operator, mixed $value)
+```
 
 Add HAVING restriction on query
 
@@ -504,7 +568,9 @@ Add HAVING restriction on query
 
 ### <a name="method-join"></a>join
 
-    \PrestaShopCollection PrestaShopCollectionCore::join(string $association, string $on, integer $type)
+```php
+\PrestaShopCollection PrestaShopCollectionCore::join(string $association, string $on, integer $type)
+```
 
 Join current entity to an associated entity
 
@@ -523,7 +589,9 @@ Join current entity to an associated entity
 
 ### <a name="method-key"></a>key
 
-    integer PrestaShopCollectionCore::key()
+```php
+integer PrestaShopCollectionCore::key()
+```
 
 Get current result index
 
@@ -537,7 +605,9 @@ Get current result index
 
 ### <a name="method-next"></a>next
 
-    mixed PrestaShopCollectionCore::next()
+```php
+mixed PrestaShopCollectionCore::next()
+```
 
 Go to next result
 
@@ -551,7 +621,9 @@ Go to next result
 
 ### <a name="method-offsetExists"></a>offsetExists
 
-    boolean PrestaShopCollectionCore::offsetExists($offset)
+```php
+boolean PrestaShopCollectionCore::offsetExists($offset)
+```
 
 Check if a result exist
 
@@ -568,7 +640,9 @@ Check if a result exist
 
 ### <a name="method-offsetGet"></a>offsetGet
 
-    \ObjectModel PrestaShopCollectionCore::offsetGet($offset)
+```php
+\ObjectModel PrestaShopCollectionCore::offsetGet($offset)
+```
 
 Get a result by offset
 
@@ -585,7 +659,9 @@ Get a result by offset
 
 ### <a name="method-offsetSet"></a>offsetSet
 
-    mixed PrestaShopCollectionCore::offsetSet($offset, $value)
+```php
+mixed PrestaShopCollectionCore::offsetSet($offset, $value)
+```
 
 Add an element in the collection
 
@@ -603,7 +679,9 @@ Add an element in the collection
 
 ### <a name="method-offsetUnset"></a>offsetUnset
 
-    mixed PrestaShopCollectionCore::offsetUnset($offset)
+```php
+mixed PrestaShopCollectionCore::offsetUnset($offset)
+```
 
 Delete an element from the collection
 
@@ -620,7 +698,9 @@ Delete an element from the collection
 
 ### <a name="method-orderBy"></a>orderBy
 
-    \PrestaShopCollection PrestaShopCollectionCore::orderBy(string $field, string $order)
+```php
+\PrestaShopCollection PrestaShopCollectionCore::orderBy(string $field, string $order)
+```
 
 Add ORDER BY restriction on query
 
@@ -638,7 +718,9 @@ Add ORDER BY restriction on query
 
 ### <a name="method-parseField"></a>parseField
 
-    string PrestaShopCollectionCore::parseField(string $field)
+```php
+string PrestaShopCollectionCore::parseField(string $field)
+```
 
 Replace a field with its SQL version (E.g. manufacturer.name with a2.name)
 
@@ -655,7 +737,9 @@ Replace a field with its SQL version (E.g. manufacturer.name with a2.name)
 
 ### <a name="method-parseFields"></a>parseFields
 
-    string PrestaShopCollectionCore::parseFields(string $str)
+```php
+string PrestaShopCollectionCore::parseFields(string $str)
+```
 
 Parse all fields with {field} syntax in a string
 
@@ -672,7 +756,9 @@ Parse all fields with {field} syntax in a string
 
 ### <a name="method-rewind"></a>rewind
 
-    mixed PrestaShopCollectionCore::rewind()
+```php
+mixed PrestaShopCollectionCore::rewind()
+```
 
 This method is called when a foreach begin
 
@@ -686,7 +772,9 @@ This method is called when a foreach begin
 
 ### <a name="method-setPageNumber"></a>setPageNumber
 
-    \PrestaShopCollection PrestaShopCollectionCore::setPageNumber(integer $page_number)
+```php
+\PrestaShopCollection PrestaShopCollectionCore::setPageNumber(integer $page_number)
+```
 
 Set the page number
 
@@ -703,7 +791,9 @@ Set the page number
 
 ### <a name="method-setPageSize"></a>setPageSize
 
-    \PrestaShopCollection PrestaShopCollectionCore::setPageSize(integer $page_size)
+```php
+\PrestaShopCollection PrestaShopCollectionCore::setPageSize(integer $page_size)
+```
 
 Set the nuber of item per page
 
@@ -720,7 +810,9 @@ Set the nuber of item per page
 
 ### <a name="method-sqlGroupBy"></a>sqlGroupBy
 
-    \PrestaShopCollection PrestaShopCollectionCore::sqlGroupBy(string $sql)
+```php
+\PrestaShopCollection PrestaShopCollectionCore::sqlGroupBy(string $sql)
+```
 
 Add GROUP BY restriction on query using real SQL syntax
 
@@ -737,7 +829,9 @@ Add GROUP BY restriction on query using real SQL syntax
 
 ### <a name="method-sqlHaving"></a>sqlHaving
 
-    \PrestaShopCollection PrestaShopCollectionCore::sqlHaving(string $sql)
+```php
+\PrestaShopCollection PrestaShopCollectionCore::sqlHaving(string $sql)
+```
 
 Add HAVING restriction on query using real SQL syntax
 
@@ -754,7 +848,9 @@ Add HAVING restriction on query using real SQL syntax
 
 ### <a name="method-sqlOrderBy"></a>sqlOrderBy
 
-    \PrestaShopCollection PrestaShopCollectionCore::sqlOrderBy(string $sql)
+```php
+\PrestaShopCollection PrestaShopCollectionCore::sqlOrderBy(string $sql)
+```
 
 Add ORDER BY restriction on query using real SQL syntax
 
@@ -771,7 +867,9 @@ Add ORDER BY restriction on query using real SQL syntax
 
 ### <a name="method-sqlWhere"></a>sqlWhere
 
-    \PrestaShopCollection PrestaShopCollectionCore::sqlWhere(string $sql)
+```php
+\PrestaShopCollection PrestaShopCollectionCore::sqlWhere(string $sql)
+```
 
 Add WHERE restriction on query using real SQL syntax
 
@@ -788,7 +886,9 @@ Add WHERE restriction on query using real SQL syntax
 
 ### <a name="method-valid"></a>valid
 
-    boolean PrestaShopCollectionCore::valid()
+```php
+boolean PrestaShopCollectionCore::valid()
+```
 
 Check if there is a current result
 
@@ -802,7 +902,9 @@ Check if there is a current result
 
 ### <a name="method-where"></a>where
 
-    \PrestaShopCollection PrestaShopCollectionCore::where(string $field, string $operator, mixed $value, $method)
+```php
+\PrestaShopCollection PrestaShopCollectionCore::where(string $field, string $operator, mixed $value, $method)
+```
 
 Add WHERE restriction on query
 

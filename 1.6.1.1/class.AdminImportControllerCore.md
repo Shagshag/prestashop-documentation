@@ -10,9 +10,11 @@ Class AdminImportControllerCore
 * Source: [controllers/admin/AdminImportController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L40)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$available_fields](#property-$available_fields)
 * [$cache_image_deleted](#property-$cache_image_deleted)
@@ -24,8 +26,8 @@ Properties
 * [$separator](#property-$separator)
 * [$validators](#property-$validators)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [addProductWarning](#method-addProductWarning)
 * [addressImport](#method-addressImport)
@@ -85,7 +87,9 @@ Properties
 
 ### <a name="property-$available_fields"></a>$available_fields
 
-    public mixed $available_fields = array()
+```php
+public mixed $available_fields = array()
+```
 
 
 
@@ -97,7 +101,9 @@ Properties
 
 ### <a name="property-$cache_image_deleted"></a>$cache_image_deleted
 
-    public mixed $cache_image_deleted = array()
+```php
+public mixed $cache_image_deleted = array()
+```
 
 
 
@@ -109,7 +115,9 @@ Properties
 
 ### <a name="property-$column_mask"></a>$column_mask
 
-    public mixed $column_mask
+```php
+public mixed $column_mask
+```
 
 
 
@@ -122,7 +130,9 @@ Properties
 
 ### <a name="property-$default_values"></a>$default_values
 
-    public mixed $default_values = array()
+```php
+public mixed $default_values = array()
+```
 
 
 
@@ -135,7 +145,9 @@ Properties
 
 ### <a name="property-$entities"></a>$entities
 
-    public mixed $entities = array()
+```php
+public mixed $entities = array()
+```
 
 
 
@@ -147,7 +159,9 @@ Properties
 
 ### <a name="property-$multiple_value_separator"></a>$multiple_value_separator
 
-    public mixed $multiple_value_separator
+```php
+public mixed $multiple_value_separator
+```
 
 
 
@@ -159,7 +173,9 @@ Properties
 
 ### <a name="property-$required_fields"></a>$required_fields
 
-    public mixed $required_fields = array()
+```php
+public mixed $required_fields = array()
+```
 
 
 
@@ -171,7 +187,9 @@ Properties
 
 ### <a name="property-$separator"></a>$separator
 
-    public mixed $separator
+```php
+public mixed $separator
+```
 
 
 
@@ -183,7 +201,9 @@ Properties
 
 ### <a name="property-$validators"></a>$validators
 
-    public mixed $validators = array('active' => array('AdminImportController', 'getBoolean'), 'tax_rate' => array('AdminImportController', 'getPrice'), 'price_tex' => array('AdminImportController', 'getPrice'), 'price_tin' => array('AdminImportController', 'getPrice'), 'reduction_price' => array('AdminImportController', 'getPrice'), 'reduction_percent' => array('AdminImportController', 'getPrice'), 'wholesale_price' => array('AdminImportController', 'getPrice'), 'ecotax' => array('AdminImportController', 'getPrice'), 'name' => array('AdminImportController', 'createMultiLangField'), 'description' => array('AdminImportController', 'createMultiLangField'), 'description_short' => array('AdminImportController', 'createMultiLangField'), 'meta_title' => array('AdminImportController', 'createMultiLangField'), 'meta_keywords' => array('AdminImportController', 'createMultiLangField'), 'meta_description' => array('AdminImportController', 'createMultiLangField'), 'link_rewrite' => array('AdminImportController', 'createMultiLangField'), 'available_now' => array('AdminImportController', 'createMultiLangField'), 'available_later' => array('AdminImportController', 'createMultiLangField'), 'category' => array('AdminImportController', 'split'), 'online_only' => array('AdminImportController', 'getBoolean'))
+```php
+public mixed $validators = array('active' => array('AdminImportController', 'getBoolean'), 'tax_rate' => array('AdminImportController', 'getPrice'), 'price_tex' => array('AdminImportController', 'getPrice'), 'price_tin' => array('AdminImportController', 'getPrice'), 'reduction_price' => array('AdminImportController', 'getPrice'), 'reduction_percent' => array('AdminImportController', 'getPrice'), 'wholesale_price' => array('AdminImportController', 'getPrice'), 'ecotax' => array('AdminImportController', 'getPrice'), 'name' => array('AdminImportController', 'createMultiLangField'), 'description' => array('AdminImportController', 'createMultiLangField'), 'description_short' => array('AdminImportController', 'createMultiLangField'), 'meta_title' => array('AdminImportController', 'createMultiLangField'), 'meta_keywords' => array('AdminImportController', 'createMultiLangField'), 'meta_description' => array('AdminImportController', 'createMultiLangField'), 'link_rewrite' => array('AdminImportController', 'createMultiLangField'), 'available_now' => array('AdminImportController', 'createMultiLangField'), 'available_later' => array('AdminImportController', 'createMultiLangField'), 'category' => array('AdminImportController', 'split'), 'online_only' => array('AdminImportController', 'getBoolean'))
+```
 
 
 
@@ -200,7 +220,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminImportControllerCore::__construct()
+```php
+mixed AdminImportControllerCore::__construct()
+```
 
 
 
@@ -214,7 +236,9 @@ Methods
 
 ### <a name="method-addProductWarning"></a>addProductWarning
 
-    mixed AdminImportControllerCore::addProductWarning($product_name, $product_id, $message)
+```php
+mixed AdminImportControllerCore::addProductWarning($product_name, $product_id, $message)
+```
 
 
 
@@ -233,7 +257,9 @@ Methods
 
 ### <a name="method-addressImport"></a>addressImport
 
-    mixed AdminImportControllerCore::addressImport()
+```php
+mixed AdminImportControllerCore::addressImport()
+```
 
 
 
@@ -247,7 +273,9 @@ Methods
 
 ### <a name="method-ajaxProcessDeleteImportMatchs"></a>ajaxProcessDeleteImportMatchs
 
-    mixed AdminImportControllerCore::ajaxProcessDeleteImportMatchs()
+```php
+mixed AdminImportControllerCore::ajaxProcessDeleteImportMatchs()
+```
 
 
 
@@ -261,7 +289,9 @@ Methods
 
 ### <a name="method-ajaxProcessLoadImportMatchs"></a>ajaxProcessLoadImportMatchs
 
-    mixed AdminImportControllerCore::ajaxProcessLoadImportMatchs()
+```php
+mixed AdminImportControllerCore::ajaxProcessLoadImportMatchs()
+```
 
 
 
@@ -275,7 +305,9 @@ Methods
 
 ### <a name="method-ajaxProcessSaveImportMatchs"></a>ajaxProcessSaveImportMatchs
 
-    mixed AdminImportControllerCore::ajaxProcessSaveImportMatchs()
+```php
+mixed AdminImportControllerCore::ajaxProcessSaveImportMatchs()
+```
 
 
 
@@ -289,7 +321,9 @@ Methods
 
 ### <a name="method-ajaxProcessuploadCsv"></a>ajaxProcessuploadCsv
 
-    mixed AdminImportControllerCore::ajaxProcessuploadCsv()
+```php
+mixed AdminImportControllerCore::ajaxProcessuploadCsv()
+```
 
 
 
@@ -303,7 +337,9 @@ Methods
 
 ### <a name="method-aliasImport"></a>aliasImport
 
-    mixed AdminImportControllerCore::aliasImport()
+```php
+mixed AdminImportControllerCore::aliasImport()
+```
 
 
 
@@ -317,7 +353,9 @@ Methods
 
 ### <a name="method-arrayWalk"></a>arrayWalk
 
-    boolean AdminImportControllerCore::arrayWalk($array, $funcname, mixed $user_data)
+```php
+boolean AdminImportControllerCore::arrayWalk($array, $funcname, mixed $user_data)
+```
 
 
 
@@ -337,7 +375,9 @@ Methods
 
 ### <a name="method-attributeImport"></a>attributeImport
 
-    mixed AdminImportControllerCore::attributeImport()
+```php
+mixed AdminImportControllerCore::attributeImport()
+```
 
 
 
@@ -351,7 +391,9 @@ Methods
 
 ### <a name="method-categoryImport"></a>categoryImport
 
-    mixed AdminImportControllerCore::categoryImport()
+```php
+mixed AdminImportControllerCore::categoryImport()
+```
 
 
 
@@ -365,7 +407,9 @@ Methods
 
 ### <a name="method-clearSmartyCache"></a>clearSmartyCache
 
-    mixed AdminImportControllerCore::clearSmartyCache()
+```php
+mixed AdminImportControllerCore::clearSmartyCache()
+```
 
 
 
@@ -379,7 +423,9 @@ Methods
 
 ### <a name="method-closeCsvFile"></a>closeCsvFile
 
-    mixed AdminImportControllerCore::closeCsvFile($handle)
+```php
+mixed AdminImportControllerCore::closeCsvFile($handle)
+```
 
 
 
@@ -396,7 +442,9 @@ Methods
 
 ### <a name="method-copyImg"></a>copyImg
 
-    boolean AdminImportControllerCore::copyImg(integer $id_entity, integer $id_image, string $url, string $entity, boolean $regenerate)
+```php
+boolean AdminImportControllerCore::copyImg(integer $id_entity, integer $id_image, string $url, string $entity, boolean $regenerate)
+```
 
 copyImg copy an image located in $url and save it in a path
 according to $entity->$id_entity .
@@ -419,7 +467,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-createMultiLangField"></a>createMultiLangField
 
-    mixed AdminImportControllerCore::createMultiLangField($field)
+```php
+mixed AdminImportControllerCore::createMultiLangField($field)
+```
 
 
 
@@ -437,7 +487,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-customerImport"></a>customerImport
 
-    mixed AdminImportControllerCore::customerImport()
+```php
+mixed AdminImportControllerCore::customerImport()
+```
 
 
 
@@ -451,7 +503,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-fillInfo"></a>fillInfo
 
-    mixed AdminImportControllerCore::fillInfo($infos, $key, $entity)
+```php
+mixed AdminImportControllerCore::fillInfo($infos, $key, $entity)
+```
 
 
 
@@ -471,7 +525,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-generateContentTable"></a>generateContentTable
 
-    mixed AdminImportControllerCore::generateContentTable($current_table, $nb_column, $handle, $glue)
+```php
+mixed AdminImportControllerCore::generateContentTable($current_table, $nb_column, $handle, $glue)
+```
 
 
 
@@ -491,7 +547,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-getAvailableFields"></a>getAvailableFields
 
-    mixed AdminImportControllerCore::getAvailableFields($in_array)
+```php
+mixed AdminImportControllerCore::getAvailableFields($in_array)
+```
 
 
 
@@ -508,7 +566,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-getBoolean"></a>getBoolean
 
-    mixed AdminImportControllerCore::getBoolean($field)
+```php
+mixed AdminImportControllerCore::getBoolean($field)
+```
 
 
 
@@ -526,7 +586,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-getMaskedRow"></a>getMaskedRow
 
-    mixed AdminImportControllerCore::getMaskedRow($row)
+```php
+mixed AdminImportControllerCore::getMaskedRow($row)
+```
 
 
 
@@ -544,7 +606,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-getNbrColumn"></a>getNbrColumn
 
-    mixed AdminImportControllerCore::getNbrColumn($handle, $glue)
+```php
+mixed AdminImportControllerCore::getNbrColumn($handle, $glue)
+```
 
 
 
@@ -562,7 +626,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-getPath"></a>getPath
 
-    mixed AdminImportControllerCore::getPath($file)
+```php
+mixed AdminImportControllerCore::getPath($file)
+```
 
 
 
@@ -580,7 +646,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-getPrice"></a>getPrice
 
-    mixed AdminImportControllerCore::getPrice($field)
+```php
+mixed AdminImportControllerCore::getPrice($field)
+```
 
 
 
@@ -598,7 +666,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-getTypeValuesOptions"></a>getTypeValuesOptions
 
-    mixed AdminImportControllerCore::getTypeValuesOptions($nb_c)
+```php
+mixed AdminImportControllerCore::getTypeValuesOptions($nb_c)
+```
 
 
 
@@ -615,7 +685,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-get_best_path"></a>get_best_path
 
-    mixed AdminImportControllerCore::get_best_path($tgt_width, $tgt_height, $path_infos)
+```php
+mixed AdminImportControllerCore::get_best_path($tgt_width, $tgt_height, $path_infos)
+```
 
 
 
@@ -635,7 +707,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-init"></a>init
 
-    mixed AdminImportControllerCore::init()
+```php
+mixed AdminImportControllerCore::init()
+```
 
 
 
@@ -649,7 +723,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminImportControllerCore::initContent()
+```php
+mixed AdminImportControllerCore::initContent()
+```
 
 
 
@@ -663,7 +739,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminImportControllerCore::initToolbar()
+```php
+mixed AdminImportControllerCore::initToolbar()
+```
 
 
 
@@ -677,7 +755,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-manufacturerImport"></a>manufacturerImport
 
-    mixed AdminImportControllerCore::manufacturerImport()
+```php
+mixed AdminImportControllerCore::manufacturerImport()
+```
 
 
 
@@ -691,7 +771,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-openCsvFile"></a>openCsvFile
 
-    mixed AdminImportControllerCore::openCsvFile()
+```php
+mixed AdminImportControllerCore::openCsvFile()
+```
 
 
 
@@ -705,7 +787,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminImportControllerCore::postProcess()
+```php
+mixed AdminImportControllerCore::postProcess()
+```
 
 
 
@@ -719,7 +803,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-productImport"></a>productImport
 
-    mixed AdminImportControllerCore::productImport()
+```php
+mixed AdminImportControllerCore::productImport()
+```
 
 
 
@@ -733,7 +819,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-productImportCreateCat"></a>productImportCreateCat
 
-    mixed AdminImportControllerCore::productImportCreateCat($default_language_id, $category_name, $id_parent_category)
+```php
+mixed AdminImportControllerCore::productImportCreateCat($default_language_id, $category_name, $id_parent_category)
+```
 
 
 
@@ -752,7 +840,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-receiveTab"></a>receiveTab
 
-    mixed AdminImportControllerCore::receiveTab()
+```php
+mixed AdminImportControllerCore::receiveTab()
+```
 
 
 
@@ -766,7 +856,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminImportControllerCore::renderForm()
+```php
+mixed AdminImportControllerCore::renderForm()
+```
 
 
 
@@ -780,7 +872,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminImportControllerCore::renderView()
+```php
+mixed AdminImportControllerCore::renderView()
+```
 
 
 
@@ -794,7 +888,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-rewindBomAware"></a>rewindBomAware
 
-    mixed AdminImportControllerCore::rewindBomAware($handle)
+```php
+mixed AdminImportControllerCore::rewindBomAware($handle)
+```
 
 
 
@@ -812,7 +908,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-setDefaultValues"></a>setDefaultValues
 
-    mixed AdminImportControllerCore::setDefaultValues($info)
+```php
+mixed AdminImportControllerCore::setDefaultValues($info)
+```
 
 
 
@@ -830,7 +928,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-setEntityDefaultValues"></a>setEntityDefaultValues
 
-    mixed AdminImportControllerCore::setEntityDefaultValues($entity)
+```php
+mixed AdminImportControllerCore::setEntityDefaultValues($entity)
+```
 
 
 
@@ -848,7 +948,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-setLocale"></a>setLocale
 
-    mixed AdminImportControllerCore::setLocale()
+```php
+mixed AdminImportControllerCore::setLocale()
+```
 
 
 
@@ -863,7 +965,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminImportControllerCore::setMedia()
+```php
+mixed AdminImportControllerCore::setMedia()
+```
 
 
 
@@ -877,7 +981,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-split"></a>split
 
-    mixed AdminImportControllerCore::split($field)
+```php
+mixed AdminImportControllerCore::split($field)
+```
 
 
 
@@ -895,7 +1001,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-supplierImport"></a>supplierImport
 
-    mixed AdminImportControllerCore::supplierImport()
+```php
+mixed AdminImportControllerCore::supplierImport()
+```
 
 
 
@@ -909,7 +1017,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-supplyOrdersDetailsImport"></a>supplyOrdersDetailsImport
 
-    mixed AdminImportControllerCore::supplyOrdersDetailsImport()
+```php
+mixed AdminImportControllerCore::supplyOrdersDetailsImport()
+```
 
 
 
@@ -923,7 +1033,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-supplyOrdersImport"></a>supplyOrdersImport
 
-    mixed AdminImportControllerCore::supplyOrdersImport()
+```php
+mixed AdminImportControllerCore::supplyOrdersImport()
+```
 
 
 
@@ -937,7 +1049,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-truncateTables"></a>truncateTables
 
-    mixed AdminImportControllerCore::truncateTables($case)
+```php
+mixed AdminImportControllerCore::truncateTables($case)
+```
 
 
 
@@ -954,7 +1068,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-usortFiles"></a>usortFiles
 
-    mixed AdminImportControllerCore::usortFiles($a, $b)
+```php
+mixed AdminImportControllerCore::usortFiles($a, $b)
+```
 
 
 
@@ -973,7 +1089,9 @@ $id_image is used if we need to add a watermark
 
 ### <a name="method-utf8EncodeArray"></a>utf8EncodeArray
 
-    mixed AdminImportControllerCore::utf8EncodeArray($array)
+```php
+mixed AdminImportControllerCore::utf8EncodeArray($array)
+```
 
 
 

@@ -10,9 +10,11 @@ Class AdminCustomersControllerCore
 * Source: [controllers/admin/AdminCustomersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_defaultOrderBy](#property-$_defaultOrderBy)
 * [$_defaultOrderWay](#property-$_defaultOrderWay)
@@ -21,8 +23,8 @@ Properties
 * [$meaning_status](#property-$meaning_status)
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_setDeletedMode](#method-_setDeletedMode)
 * [afterDelete](#method-afterDelete)
@@ -61,7 +63,9 @@ Properties
 
 ### <a name="property-$_defaultOrderBy"></a>$_defaultOrderBy
 
-    protected mixed $_defaultOrderBy = 'date_add'
+```php
+protected mixed $_defaultOrderBy = 'date_add'
+```
 
 
 
@@ -73,7 +77,9 @@ Properties
 
 ### <a name="property-$_defaultOrderWay"></a>$_defaultOrderWay
 
-    protected mixed $_defaultOrderWay = 'DESC'
+```php
+protected mixed $_defaultOrderWay = 'DESC'
+```
 
 
 
@@ -85,7 +91,9 @@ Properties
 
 ### <a name="property-$can_add_customer"></a>$can_add_customer
 
-    protected mixed $can_add_customer = true
+```php
+protected mixed $can_add_customer = true
+```
 
 
 
@@ -97,7 +105,9 @@ Properties
 
 ### <a name="property-$delete_mode"></a>$delete_mode
 
-    protected mixed $delete_mode
+```php
+protected mixed $delete_mode
+```
 
 
 
@@ -109,7 +119,9 @@ Properties
 
 ### <a name="property-$meaning_status"></a>$meaning_status
 
-    protected mixed $meaning_status = array()
+```php
+protected mixed $meaning_status = array()
+```
 
 
 
@@ -122,7 +134,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Customer $object
+```php
+public \Customer $object
+```
 
 
 
@@ -138,7 +152,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminCustomersControllerCore::__construct()
+```php
+mixed AdminCustomersControllerCore::__construct()
+```
 
 
 
@@ -152,7 +168,9 @@ Methods
 
 ### <a name="method-_setDeletedMode"></a>_setDeletedMode
 
-    mixed AdminCustomersControllerCore::_setDeletedMode()
+```php
+mixed AdminCustomersControllerCore::_setDeletedMode()
+```
 
 
 
@@ -166,7 +184,9 @@ Methods
 
 ### <a name="method-afterDelete"></a>afterDelete
 
-    mixed AdminCustomersControllerCore::afterDelete($object, $old_id)
+```php
+mixed AdminCustomersControllerCore::afterDelete($object, $old_id)
+```
 
 
 
@@ -184,7 +204,9 @@ Methods
 
 ### <a name="method-ajaxProcessSearchCustomers"></a>ajaxProcessSearchCustomers
 
-    void AdminCustomersControllerCore::ajaxProcessSearchCustomers()
+```php
+void AdminCustomersControllerCore::ajaxProcessSearchCustomers()
+```
 
 add to $this->content the result of Customer::SearchByName
 (encoded in json)
@@ -199,7 +221,9 @@ add to $this->content the result of Customer::SearchByName
 
 ### <a name="method-ajaxProcessUpdateCustomerNote"></a>ajaxProcessUpdateCustomerNote
 
-    void AdminCustomersControllerCore::ajaxProcessUpdateCustomerNote()
+```php
+void AdminCustomersControllerCore::ajaxProcessUpdateCustomerNote()
+```
 
 Uodate the customer note
 
@@ -213,7 +237,9 @@ Uodate the customer note
 
 ### <a name="method-beforeAdd"></a>beforeAdd
 
-    mixed AdminCustomersControllerCore::beforeAdd($customer)
+```php
+mixed AdminCustomersControllerCore::beforeAdd($customer)
+```
 
 
 
@@ -230,7 +256,9 @@ Uodate the customer note
 
 ### <a name="method-displayDeleteLink"></a>displayDeleteLink
 
-    mixed AdminCustomersControllerCore::displayDeleteLink(string $token, integer $id, string $name)
+```php
+mixed AdminCustomersControllerCore::displayDeleteLink(string $token, integer $id, string $name)
+```
 
 
 
@@ -249,7 +277,9 @@ Uodate the customer note
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminCustomersControllerCore::getList($id_lang, $orderBy, $orderWay, $start, $limit, $id_lang_shop)
+```php
+mixed AdminCustomersControllerCore::getList($id_lang, $orderBy, $orderWay, $start, $limit, $id_lang_shop)
+```
 
 
 
@@ -271,7 +301,9 @@ Uodate the customer note
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminCustomersControllerCore::initContent()
+```php
+mixed AdminCustomersControllerCore::initContent()
+```
 
 
 
@@ -285,7 +317,9 @@ Uodate the customer note
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminCustomersControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminCustomersControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -299,7 +333,9 @@ Uodate the customer note
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminCustomersControllerCore::initProcess()
+```php
+mixed AdminCustomersControllerCore::initProcess()
+```
 
 
 
@@ -313,7 +349,9 @@ Uodate the customer note
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminCustomersControllerCore::initToolbar()
+```php
+mixed AdminCustomersControllerCore::initToolbar()
+```
 
 
 
@@ -327,7 +365,9 @@ Uodate the customer note
 
 ### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
-    mixed AdminCustomersControllerCore::initToolbarTitle()
+```php
+mixed AdminCustomersControllerCore::initToolbarTitle()
+```
 
 
 
@@ -341,7 +381,9 @@ Uodate the customer note
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminCustomersControllerCore::postProcess()
+```php
+mixed AdminCustomersControllerCore::postProcess()
+```
 
 
 
@@ -355,7 +397,9 @@ Uodate the customer note
 
 ### <a name="method-printNewsIcon"></a>printNewsIcon
 
-    mixed AdminCustomersControllerCore::printNewsIcon($value, $customer)
+```php
+mixed AdminCustomersControllerCore::printNewsIcon($value, $customer)
+```
 
 
 
@@ -373,7 +417,9 @@ Uodate the customer note
 
 ### <a name="method-printOptinIcon"></a>printOptinIcon
 
-    mixed AdminCustomersControllerCore::printOptinIcon($value, $customer)
+```php
+mixed AdminCustomersControllerCore::printOptinIcon($value, $customer)
+```
 
 
 
@@ -391,7 +437,9 @@ Uodate the customer note
 
 ### <a name="method-processAdd"></a>processAdd
 
-    mixed AdminCustomersControllerCore::processAdd()
+```php
+mixed AdminCustomersControllerCore::processAdd()
+```
 
 
 
@@ -405,7 +453,9 @@ Uodate the customer note
 
 ### <a name="method-processBulkDelete"></a>processBulkDelete
 
-    mixed AdminCustomersControllerCore::processBulkDelete()
+```php
+mixed AdminCustomersControllerCore::processBulkDelete()
+```
 
 
 
@@ -419,7 +469,9 @@ Uodate the customer note
 
 ### <a name="method-processChangeNewsletterVal"></a>processChangeNewsletterVal
 
-    mixed AdminCustomersControllerCore::processChangeNewsletterVal()
+```php
+mixed AdminCustomersControllerCore::processChangeNewsletterVal()
+```
 
 Toggle the newsletter flag
 
@@ -433,7 +485,9 @@ Toggle the newsletter flag
 
 ### <a name="method-processChangeOptinVal"></a>processChangeOptinVal
 
-    mixed AdminCustomersControllerCore::processChangeOptinVal()
+```php
+mixed AdminCustomersControllerCore::processChangeOptinVal()
+```
 
 Toggle newsletter optin flag
 
@@ -447,7 +501,9 @@ Toggle newsletter optin flag
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminCustomersControllerCore::processDelete()
+```php
+mixed AdminCustomersControllerCore::processDelete()
+```
 
 
 
@@ -461,7 +517,9 @@ Toggle newsletter optin flag
 
 ### <a name="method-processGuestToCustomer"></a>processGuestToCustomer
 
-    mixed AdminCustomersControllerCore::processGuestToCustomer()
+```php
+mixed AdminCustomersControllerCore::processGuestToCustomer()
+```
 
 Transform a guest account into a registered customer account
 
@@ -475,7 +533,9 @@ Transform a guest account into a registered customer account
 
 ### <a name="method-processSave"></a>processSave
 
-    mixed AdminCustomersControllerCore::processSave()
+```php
+mixed AdminCustomersControllerCore::processSave()
+```
 
 
 
@@ -489,7 +549,9 @@ Transform a guest account into a registered customer account
 
 ### <a name="method-processUpdate"></a>processUpdate
 
-    mixed AdminCustomersControllerCore::processUpdate()
+```php
+mixed AdminCustomersControllerCore::processUpdate()
+```
 
 
 
@@ -503,7 +565,9 @@ Transform a guest account into a registered customer account
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminCustomersControllerCore::renderForm()
+```php
+mixed AdminCustomersControllerCore::renderForm()
+```
 
 
 
@@ -517,7 +581,9 @@ Transform a guest account into a registered customer account
 
 ### <a name="method-renderKpis"></a>renderKpis
 
-    mixed AdminCustomersControllerCore::renderKpis()
+```php
+mixed AdminCustomersControllerCore::renderKpis()
+```
 
 
 
@@ -531,7 +597,9 @@ Transform a guest account into a registered customer account
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminCustomersControllerCore::renderList()
+```php
+mixed AdminCustomersControllerCore::renderList()
+```
 
 
 
@@ -545,7 +613,9 @@ Transform a guest account into a registered customer account
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminCustomersControllerCore::renderView()
+```php
+mixed AdminCustomersControllerCore::renderView()
+```
 
 
 

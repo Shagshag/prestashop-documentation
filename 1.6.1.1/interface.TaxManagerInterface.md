@@ -9,12 +9,13 @@ A TaxManager define a way to retrieve tax.
 * This is an **interface**
 * Source: [classes/tax/TaxManagerInterface.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerInterface.php#L31)
 
+Contents
+--------
 
 
 
+### Methods
 
-Methods
--------
 * [getTaxCalculator](#method-getTaxCalculator)
 * [isAvailableForThisAddress](#method-isAvailableForThisAddress)
 
@@ -29,7 +30,9 @@ Methods
 
 ### <a name="method-getTaxCalculator"></a>getTaxCalculator
 
-    \TaxCalculator TaxManagerInterface::getTaxCalculator()
+```php
+\TaxCalculator TaxManagerInterface::getTaxCalculator()
+```
 
 Return the tax calculator associated to this address
 
@@ -43,7 +46,9 @@ Return the tax calculator associated to this address
 
 ### <a name="method-isAvailableForThisAddress"></a>isAvailableForThisAddress
 
-    boolean TaxManagerInterface::isAvailableForThisAddress(\Address $address)
+```php
+boolean TaxManagerInterface::isAvailableForThisAddress(\Address $address)
+```
 
 This method determine if the tax manager is available for the specified address.
 

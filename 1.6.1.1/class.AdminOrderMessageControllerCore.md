@@ -10,14 +10,16 @@ Class AdminOrderMessageControllerCore
 * Source: [controllers/admin/AdminOrderMessageController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderMessageController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
 
@@ -30,7 +32,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \OrderMessage $object
+```php
+public \OrderMessage $object
+```
 
 
 
@@ -46,7 +50,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminOrderMessageControllerCore::__construct()
+```php
+mixed AdminOrderMessageControllerCore::__construct()
+```
 
 
 
@@ -60,7 +66,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminOrderMessageControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminOrderMessageControllerCore::initPageHeaderToolbar()
+```
 
 
 

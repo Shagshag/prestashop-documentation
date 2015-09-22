@@ -10,20 +10,22 @@ Class PaymentModuleCore
 * Parent class: [Module](class.ModuleCore.md)
 * Source: [classes/PaymentModule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEBUG_MODE](#constant-DEBUG_MODE)
 
-Properties
-----------
+### Properties
 
 * [$currencies](#property-$currencies)
 * [$currencies_mode](#property-$currencies_mode)
 * [$currentOrder](#property-$currentOrder)
 
-Methods
--------
+### Methods
+
 * [_getFormatedAddress](#method-_getFormatedAddress)
 * [_getTxtFormatedAddress](#method-_getTxtFormatedAddress)
 * [addCheckboxCountryRestrictionsForModule](#method-addCheckboxCountryRestrictionsForModule)
@@ -46,7 +48,9 @@ Constants
 
 ### <a name="constant-DEBUG_MODE"></a>DEBUG_MODE
 
-    const DEBUG_MODE = false
+```php
+const DEBUG_MODE = false
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$currencies"></a>$currencies
 
-    public mixed $currencies = true
+```php
+public mixed $currencies = true
+```
 
 
 
@@ -73,7 +79,9 @@ Properties
 
 ### <a name="property-$currencies_mode"></a>$currencies_mode
 
-    public mixed $currencies_mode = 'checkbox'
+```php
+public mixed $currencies_mode = 'checkbox'
+```
 
 
 
@@ -85,7 +93,9 @@ Properties
 
 ### <a name="property-$currentOrder"></a>$currentOrder
 
-    public integer $currentOrder
+```php
+public integer $currentOrder
+```
 
 
 
@@ -101,7 +111,9 @@ Methods
 
 ### <a name="method-_getFormatedAddress"></a>_getFormatedAddress
 
-    String PaymentModuleCore::_getFormatedAddress(\Address $the_address, $line_sep, $fields_style)
+```php
+String PaymentModuleCore::_getFormatedAddress(\Address $the_address, $line_sep, $fields_style)
+```
 
 
 
@@ -120,7 +132,9 @@ Methods
 
 ### <a name="method-_getTxtFormatedAddress"></a>_getTxtFormatedAddress
 
-    String PaymentModuleCore::_getTxtFormatedAddress($the_address)
+```php
+String PaymentModuleCore::_getTxtFormatedAddress($the_address)
+```
 
 
 
@@ -137,7 +151,9 @@ Methods
 
 ### <a name="method-addCheckboxCountryRestrictionsForModule"></a>addCheckboxCountryRestrictionsForModule
 
-    boolean PaymentModuleCore::addCheckboxCountryRestrictionsForModule(array $shops)
+```php
+boolean PaymentModuleCore::addCheckboxCountryRestrictionsForModule(array $shops)
+```
 
 Add checkbox country restrictions for a new module
 
@@ -154,7 +170,9 @@ Add checkbox country restrictions for a new module
 
 ### <a name="method-addCheckboxCurrencyRestrictionsForModule"></a>addCheckboxCurrencyRestrictionsForModule
 
-    boolean PaymentModuleCore::addCheckboxCurrencyRestrictionsForModule(array $shops)
+```php
+boolean PaymentModuleCore::addCheckboxCurrencyRestrictionsForModule(array $shops)
+```
 
 Add checkbox currency restrictions for a new module
 
@@ -171,7 +189,9 @@ Add checkbox currency restrictions for a new module
 
 ### <a name="method-addCurrencyPermissions"></a>addCurrencyPermissions
 
-    boolean PaymentModuleCore::addCurrencyPermissions(integer $id_currency, array $id_module_list)
+```php
+boolean PaymentModuleCore::addCurrencyPermissions(integer $id_currency, array $id_module_list)
+```
 
 Allows specified payment modules to be used by a specific currency
 
@@ -190,7 +210,9 @@ Allows specified payment modules to be used by a specific currency
 
 ### <a name="method-addRadioCurrencyRestrictionsForModule"></a>addRadioCurrencyRestrictionsForModule
 
-    boolean PaymentModuleCore::addRadioCurrencyRestrictionsForModule(array $shops)
+```php
+boolean PaymentModuleCore::addRadioCurrencyRestrictionsForModule(array $shops)
+```
 
 Add radio currency restrictions for a new module
 
@@ -207,7 +229,9 @@ Add radio currency restrictions for a new module
 
 ### <a name="method-formatProductAndVoucherForEmail"></a>formatProductAndVoucherForEmail
 
-    mixed PaymentModuleCore::formatProductAndVoucherForEmail(mixed $content)
+```php
+mixed PaymentModuleCore::formatProductAndVoucherForEmail(mixed $content)
+```
 
 
 
@@ -224,7 +248,9 @@ Add radio currency restrictions for a new module
 
 ### <a name="method-getCurrency"></a>getCurrency
 
-    \Currency PaymentModuleCore::getCurrency($current_id_currency)
+```php
+\Currency PaymentModuleCore::getCurrency($current_id_currency)
+```
 
 
 
@@ -241,7 +267,9 @@ Add radio currency restrictions for a new module
 
 ### <a name="method-getEmailTemplateContent"></a>getEmailTemplateContent
 
-    string PaymentModuleCore::getEmailTemplateContent(string $template_name, integer $mail_type, array $var)
+```php
+string PaymentModuleCore::getEmailTemplateContent(string $template_name, integer $mail_type, array $var)
+```
 
 Fetch the content of $template_name inside the folder current_theme/mails/current_iso_lang/ if found, otherwise in mails/current_iso_lang
 
@@ -260,7 +288,9 @@ Fetch the content of $template_name inside the folder current_theme/mails/curren
 
 ### <a name="method-getInstalledPaymentModules"></a>getInstalledPaymentModules
 
-    array PaymentModuleCore::getInstalledPaymentModules()
+```php
+array PaymentModuleCore::getInstalledPaymentModules()
+```
 
 List all installed and active payment modules
 
@@ -275,7 +305,9 @@ List all installed and active payment modules
 
 ### <a name="method-install"></a>install
 
-    mixed PaymentModuleCore::install()
+```php
+mixed PaymentModuleCore::install()
+```
 
 
 
@@ -289,7 +321,9 @@ List all installed and active payment modules
 
 ### <a name="method-preCall"></a>preCall
 
-    mixed PaymentModuleCore::preCall($module_name)
+```php
+mixed PaymentModuleCore::preCall($module_name)
+```
 
 
 
@@ -307,7 +341,9 @@ List all installed and active payment modules
 
 ### <a name="method-uninstall"></a>uninstall
 
-    mixed PaymentModuleCore::uninstall()
+```php
+mixed PaymentModuleCore::uninstall()
+```
 
 
 
@@ -321,7 +357,9 @@ List all installed and active payment modules
 
 ### <a name="method-validateOrder"></a>validateOrder
 
-    boolean PaymentModuleCore::validateOrder(integer $id_cart, integer $id_order_state, float $amount_paid, string $payment_method, null $message, array $extra_vars, null $currency_special, boolean $dont_touch_amount, boolean $secure_key, \Shop $shop)
+```php
+boolean PaymentModuleCore::validateOrder(integer $id_cart, integer $id_order_state, float $amount_paid, string $payment_method, null $message, array $extra_vars, null $currency_special, boolean $dont_touch_amount, boolean $secure_key, \Shop $shop)
+```
 
 Validate an order in database
 Function called from a payment module

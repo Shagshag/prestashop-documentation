@@ -10,14 +10,16 @@ Class AdminPerformanceControllerCore
 * Source: [controllers/admin/AdminPerformanceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [displayAjaxTestServer](#method-displayAjaxTestServer)
 * [initContent](#method-initContent)
@@ -41,7 +43,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Configuration $object
+```php
+public \Configuration $object
+```
 
 
 
@@ -57,7 +61,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminPerformanceControllerCore::__construct()
+```php
+mixed AdminPerformanceControllerCore::__construct()
+```
 
 
 
@@ -71,7 +77,9 @@ Methods
 
 ### <a name="method-displayAjaxTestServer"></a>displayAjaxTestServer
 
-    mixed AdminPerformanceControllerCore::displayAjaxTestServer()
+```php
+mixed AdminPerformanceControllerCore::displayAjaxTestServer()
+```
 
 
 
@@ -85,7 +93,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminPerformanceControllerCore::initContent()
+```php
+mixed AdminPerformanceControllerCore::initContent()
+```
 
 
 
@@ -99,7 +109,9 @@ Methods
 
 ### <a name="method-initFieldsetCCC"></a>initFieldsetCCC
 
-    mixed AdminPerformanceControllerCore::initFieldsetCCC()
+```php
+mixed AdminPerformanceControllerCore::initFieldsetCCC()
+```
 
 
 
@@ -113,7 +125,9 @@ Methods
 
 ### <a name="method-initFieldsetCaching"></a>initFieldsetCaching
 
-    mixed AdminPerformanceControllerCore::initFieldsetCaching()
+```php
+mixed AdminPerformanceControllerCore::initFieldsetCaching()
+```
 
 
 
@@ -127,7 +141,9 @@ Methods
 
 ### <a name="method-initFieldsetCiphering"></a>initFieldsetCiphering
 
-    mixed AdminPerformanceControllerCore::initFieldsetCiphering()
+```php
+mixed AdminPerformanceControllerCore::initFieldsetCiphering()
+```
 
 
 
@@ -141,7 +157,9 @@ Methods
 
 ### <a name="method-initFieldsetDebugMode"></a>initFieldsetDebugMode
 
-    mixed AdminPerformanceControllerCore::initFieldsetDebugMode()
+```php
+mixed AdminPerformanceControllerCore::initFieldsetDebugMode()
+```
 
 
 
@@ -155,7 +173,9 @@ Methods
 
 ### <a name="method-initFieldsetFeaturesDetachables"></a>initFieldsetFeaturesDetachables
 
-    mixed AdminPerformanceControllerCore::initFieldsetFeaturesDetachables()
+```php
+mixed AdminPerformanceControllerCore::initFieldsetFeaturesDetachables()
+```
 
 
 
@@ -169,7 +189,9 @@ Methods
 
 ### <a name="method-initFieldsetMediaServer"></a>initFieldsetMediaServer
 
-    mixed AdminPerformanceControllerCore::initFieldsetMediaServer()
+```php
+mixed AdminPerformanceControllerCore::initFieldsetMediaServer()
+```
 
 
 
@@ -183,7 +205,9 @@ Methods
 
 ### <a name="method-initFieldsetSmarty"></a>initFieldsetSmarty
 
-    mixed AdminPerformanceControllerCore::initFieldsetSmarty()
+```php
+mixed AdminPerformanceControllerCore::initFieldsetSmarty()
+```
 
 
 
@@ -197,7 +221,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminPerformanceControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminPerformanceControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -211,7 +237,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminPerformanceControllerCore::postProcess()
+```php
+mixed AdminPerformanceControllerCore::postProcess()
+```
 
 
 
@@ -225,7 +253,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminPerformanceControllerCore::renderForm()
+```php
+mixed AdminPerformanceControllerCore::renderForm()
+```
 
 
 

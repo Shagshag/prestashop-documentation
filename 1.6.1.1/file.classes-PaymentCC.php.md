@@ -1,5 +1,6 @@
 File classes/PaymentCC.php
 =========
+
 Source: [classes/PaymentCC.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php)
 
 

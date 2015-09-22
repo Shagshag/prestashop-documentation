@@ -11,11 +11,13 @@ Class OrderDiscountCore
 * Source: [classes/order/OrderDiscount.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDiscount.php#L30)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__call](#method-__call)
 * [__get](#method-__get)
 * [__set](#method-__set)
@@ -31,7 +33,9 @@ Methods
 
 ### <a name="method-__call"></a>__call
 
-    mixed OrderDiscountCore::__call($method, $args)
+```php
+mixed OrderDiscountCore::__call($method, $args)
+```
 
 
 
@@ -50,7 +54,9 @@ Methods
 
 ### <a name="method-__get"></a>__get
 
-    mixed OrderDiscountCore::__get($key)
+```php
+mixed OrderDiscountCore::__get($key)
+```
 
 
 
@@ -68,7 +74,9 @@ Methods
 
 ### <a name="method-__set"></a>__set
 
-    mixed OrderDiscountCore::__set($key, $value)
+```php
+mixed OrderDiscountCore::__set($key, $value)
+```
 
 
 

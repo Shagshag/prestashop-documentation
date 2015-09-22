@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Adapter/Adapter_ProductPriceCalculator.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ProductPriceCalculator.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [getProductPrice](#method-getProductPrice)
 
 
@@ -41,7 +43,9 @@ Methods
 
 ### <a name="method-getProductPrice"></a>getProductPrice
 
-    mixed Adapter_ProductPriceCalculator::getProductPrice($id_product, $usetax, $id_product_attribute, $decimals, $divisor, $only_reduc, $usereduc, $quantity, $force_associated_tax, $id_customer, $id_cart, $id_address, $specific_price_output, $with_ecotax, $use_group_reduction, \Context $context, $use_customer_price)
+```php
+mixed Adapter_ProductPriceCalculator::getProductPrice($id_product, $usetax, $id_product_attribute, $decimals, $divisor, $only_reduc, $usereduc, $quantity, $force_associated_tax, $id_customer, $id_cart, $id_address, $specific_price_output, $with_ecotax, $use_group_reduction, \Context $context, $use_customer_price)
+```
 
 
 

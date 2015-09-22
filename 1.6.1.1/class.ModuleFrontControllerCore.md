@@ -10,14 +10,16 @@ Class ModuleFrontControllerCore
 * Source: [classes/controller/ModuleFrontController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleFrontController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$module](#property-$module)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [getTemplatePath](#method-getTemplatePath)
 * [setTemplate](#method-setTemplate)
@@ -31,7 +33,9 @@ Properties
 
 ### <a name="property-$module"></a>$module
 
-    public \Module $module
+```php
+public \Module $module
+```
 
 
 
@@ -47,7 +51,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed ModuleFrontControllerCore::__construct()
+```php
+mixed ModuleFrontControllerCore::__construct()
+```
 
 
 
@@ -61,7 +67,9 @@ Methods
 
 ### <a name="method-getTemplatePath"></a>getTemplatePath
 
-    string|false ModuleFrontControllerCore::getTemplatePath(string $template)
+```php
+string|false ModuleFrontControllerCore::getTemplatePath(string $template)
+```
 
 Finds and returns module front template that take the highest precedence
 
@@ -78,7 +86,9 @@ Finds and returns module front template that take the highest precedence
 
 ### <a name="method-setTemplate"></a>setTemplate
 
-    mixed ModuleFrontControllerCore::setTemplate(string $template)
+```php
+mixed ModuleFrontControllerCore::setTemplate(string $template)
+```
 
 Assigns module template for page content
 

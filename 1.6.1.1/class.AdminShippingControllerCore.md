@@ -10,14 +10,16 @@ Class AdminShippingControllerCore
 * Source: [controllers/admin/AdminShippingController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShippingController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_fieldsHandling](#property-$_fieldsHandling)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [postProcess](#method-postProcess)
 
@@ -30,7 +32,9 @@ Properties
 
 ### <a name="property-$_fieldsHandling"></a>$_fieldsHandling
 
-    protected mixed $_fieldsHandling
+```php
+protected mixed $_fieldsHandling
+```
 
 
 
@@ -46,7 +50,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminShippingControllerCore::__construct()
+```php
+mixed AdminShippingControllerCore::__construct()
+```
 
 
 
@@ -60,7 +66,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminShippingControllerCore::postProcess()
+```php
+mixed AdminShippingControllerCore::postProcess()
+```
 
 
 

@@ -10,14 +10,16 @@ Class AdminShopControllerCore
 * Source: [controllers/admin/AdminShopController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterAdd](#method-afterAdd)
 * [afterUpdate](#method-afterUpdate)
@@ -45,7 +47,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Shop $object
+```php
+public \Shop $object
+```
 
 
 
@@ -61,7 +65,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminShopControllerCore::__construct()
+```php
+mixed AdminShopControllerCore::__construct()
+```
 
 
 
@@ -75,7 +81,9 @@ Methods
 
 ### <a name="method-afterAdd"></a>afterAdd
 
-    boolean AdminShopControllerCore::afterAdd(\Shop $new_shop)
+```php
+boolean AdminShopControllerCore::afterAdd(\Shop $new_shop)
+```
 
 
 
@@ -92,7 +100,9 @@ Methods
 
 ### <a name="method-afterUpdate"></a>afterUpdate
 
-    boolean AdminShopControllerCore::afterUpdate(\Shop $new_shop)
+```php
+boolean AdminShopControllerCore::afterUpdate(\Shop $new_shop)
+```
 
 
 
@@ -109,7 +119,9 @@ Methods
 
 ### <a name="method-ajaxProcessTree"></a>ajaxProcessTree
 
-    mixed AdminShopControllerCore::ajaxProcessTree()
+```php
+mixed AdminShopControllerCore::ajaxProcessTree()
+```
 
 
 
@@ -123,7 +135,9 @@ Methods
 
 ### <a name="method-displayAjaxGetCategoriesFromRootCategory"></a>displayAjaxGetCategoriesFromRootCategory
 
-    mixed AdminShopControllerCore::displayAjaxGetCategoriesFromRootCategory()
+```php
+mixed AdminShopControllerCore::displayAjaxGetCategoriesFromRootCategory()
+```
 
 
 
@@ -137,7 +151,9 @@ Methods
 
 ### <a name="method-displayEditLink"></a>displayEditLink
 
-    mixed AdminShopControllerCore::displayEditLink($token, $id, $name)
+```php
+mixed AdminShopControllerCore::displayEditLink($token, $id, $name)
+```
 
 
 
@@ -156,7 +172,9 @@ Methods
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminShopControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```php
+mixed AdminShopControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```
 
 
 
@@ -178,7 +196,9 @@ Methods
 
 ### <a name="method-initCategoriesAssociation"></a>initCategoriesAssociation
 
-    mixed AdminShopControllerCore::initCategoriesAssociation($id_root)
+```php
+mixed AdminShopControllerCore::initCategoriesAssociation($id_root)
+```
 
 
 
@@ -195,7 +215,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminShopControllerCore::initContent()
+```php
+mixed AdminShopControllerCore::initContent()
+```
 
 
 
@@ -209,7 +231,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminShopControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminShopControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -223,7 +247,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminShopControllerCore::initToolbar()
+```php
+mixed AdminShopControllerCore::initToolbar()
+```
 
 
 
@@ -237,7 +263,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminShopControllerCore::postProcess()
+```php
+mixed AdminShopControllerCore::postProcess()
+```
 
 
 
@@ -251,7 +279,9 @@ Methods
 
 ### <a name="method-processAdd"></a>processAdd
 
-    mixed AdminShopControllerCore::processAdd()
+```php
+mixed AdminShopControllerCore::processAdd()
+```
 
 Object creation
 
@@ -265,7 +295,9 @@ Object creation
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminShopControllerCore::processDelete()
+```php
+mixed AdminShopControllerCore::processDelete()
+```
 
 
 
@@ -279,7 +311,9 @@ Object creation
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminShopControllerCore::renderForm()
+```php
+mixed AdminShopControllerCore::renderForm()
+```
 
 
 
@@ -293,7 +327,9 @@ Object creation
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminShopControllerCore::renderList()
+```php
+mixed AdminShopControllerCore::renderList()
+```
 
 
 
@@ -307,7 +343,9 @@ Object creation
 
 ### <a name="method-viewAccess"></a>viewAccess
 
-    mixed AdminShopControllerCore::viewAccess($disable)
+```php
+mixed AdminShopControllerCore::viewAccess($disable)
+```
 
 
 

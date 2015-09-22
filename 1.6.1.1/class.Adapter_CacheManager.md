@@ -23,11 +23,13 @@ needs please refer to http://www.prestashop.com for more information.
 * Source: [Adapter/Adapter_CacheManager.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_CacheManager.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [clean](#method-clean)
 
 
@@ -41,7 +43,9 @@ Methods
 
 ### <a name="method-clean"></a>clean
 
-    mixed Adapter_CacheManager::clean($key)
+```php
+mixed Adapter_CacheManager::clean($key)
+```
 
 Cleans the cache for specific cache key.
 

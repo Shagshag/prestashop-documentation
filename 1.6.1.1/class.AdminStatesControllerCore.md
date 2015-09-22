@@ -10,14 +10,16 @@ Class AdminStatesControllerCore
 * Source: [controllers/admin/AdminStatesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [displayAjaxStates](#method-displayAjaxStates)
 * [initPageHeaderToolbar](#method-initPageHeaderToolbar)
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \State $object
+```php
+public \State $object
+```
 
 
 
@@ -49,7 +53,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminStatesControllerCore::__construct()
+```php
+mixed AdminStatesControllerCore::__construct()
+```
 
 
 
@@ -63,7 +69,9 @@ Methods
 
 ### <a name="method-displayAjaxStates"></a>displayAjaxStates
 
-    mixed AdminStatesControllerCore::displayAjaxStates()
+```php
+mixed AdminStatesControllerCore::displayAjaxStates()
+```
 
 
 
@@ -77,7 +85,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminStatesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminStatesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -91,7 +101,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminStatesControllerCore::postProcess()
+```php
+mixed AdminStatesControllerCore::postProcess()
+```
 
 
 
@@ -105,7 +117,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminStatesControllerCore::renderForm()
+```php
+mixed AdminStatesControllerCore::renderForm()
+```
 
 
 

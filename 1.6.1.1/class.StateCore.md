@@ -10,9 +10,11 @@ Class StateCore
 * Source: [classes/State.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$active](#property-$active)
 * [$definition](#property-$definition)
@@ -22,8 +24,8 @@ Properties
 * [$name](#property-$name)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [affectZoneToSelection](#method-affectZoneToSelection)
 * [countUsed](#method-countUsed)
 * [delete](#method-delete)
@@ -45,7 +47,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = true
+```php
+public boolean $active = true
+```
 
 
 
@@ -57,7 +61,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'state', 'primary' => 'id_state', 'fields' => array('id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_zone' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'iso_code' => array('type' => self::TYPE_STRING, 'validate' => 'isStateIsoCode', 'required' => true, 'size' => 7), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```php
+public mixed $definition = array('table' => 'state', 'primary' => 'id_state', 'fields' => array('id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_zone' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'iso_code' => array('type' => self::TYPE_STRING, 'validate' => 'isStateIsoCode', 'required' => true, 'size' => 7), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```
 
 
 
@@ -70,7 +76,9 @@ Properties
 
 ### <a name="property-$id_country"></a>$id_country
 
-    public integer $id_country
+```php
+public integer $id_country
+```
 
 
 
@@ -82,7 +90,9 @@ Properties
 
 ### <a name="property-$id_zone"></a>$id_zone
 
-    public integer $id_zone
+```php
+public integer $id_zone
+```
 
 
 
@@ -94,7 +104,9 @@ Properties
 
 ### <a name="property-$iso_code"></a>$iso_code
 
-    public string $iso_code
+```php
+public string $iso_code
+```
 
 
 
@@ -106,7 +118,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -118,7 +132,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_zone' => array('xlink_resource' => 'zones'), 'id_country' => array('xlink_resource' => 'countries')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_zone' => array('xlink_resource' => 'zones'), 'id_country' => array('xlink_resource' => 'countries')))
+```
 
 
 
@@ -134,7 +150,9 @@ Methods
 
 ### <a name="method-affectZoneToSelection"></a>affectZoneToSelection
 
-    boolean StateCore::affectZoneToSelection($ids_states, $id_zone)
+```php
+boolean StateCore::affectZoneToSelection($ids_states, $id_zone)
+```
 
 
 
@@ -152,7 +170,9 @@ Methods
 
 ### <a name="method-countUsed"></a>countUsed
 
-    integer StateCore::countUsed()
+```php
+integer StateCore::countUsed()
+```
 
 Returns the number of utilisation of a state
 
@@ -166,7 +186,9 @@ Returns the number of utilisation of a state
 
 ### <a name="method-delete"></a>delete
 
-    boolean StateCore::delete()
+```php
+boolean StateCore::delete()
+```
 
 Delete a state only if is not in use
 
@@ -180,7 +202,9 @@ Delete a state only if is not in use
 
 ### <a name="method-getIdByIso"></a>getIdByIso
 
-    integer StateCore::getIdByIso(string $iso_code, $id_country)
+```php
+integer StateCore::getIdByIso(string $iso_code, $id_country)
+```
 
 Get a state id with its iso code
 
@@ -199,7 +223,9 @@ Get a state id with its iso code
 
 ### <a name="method-getIdByName"></a>getIdByName
 
-    integer StateCore::getIdByName($state)
+```php
+integer StateCore::getIdByName($state)
+```
 
 Get a state id with its name
 
@@ -217,7 +243,9 @@ Get a state id with its name
 
 ### <a name="method-getIdZone"></a>getIdZone
 
-    mixed StateCore::getIdZone($id_state)
+```php
+mixed StateCore::getIdZone($id_state)
+```
 
 
 
@@ -235,7 +263,9 @@ Get a state id with its name
 
 ### <a name="method-getNameById"></a>getNameById
 
-    string StateCore::getNameById(integer $id_state)
+```php
+string StateCore::getNameById(integer $id_state)
+```
 
 Get a state name with its ID
 
@@ -253,7 +283,9 @@ Get a state name with its ID
 
 ### <a name="method-getStates"></a>getStates
 
-    mixed StateCore::getStates($id_lang, $active)
+```php
+mixed StateCore::getStates($id_lang, $active)
+```
 
 
 
@@ -272,7 +304,9 @@ Get a state name with its ID
 
 ### <a name="method-getStatesByIdCountry"></a>getStatesByIdCountry
 
-    mixed StateCore::getStatesByIdCountry($id_country)
+```php
+mixed StateCore::getStatesByIdCountry($id_country)
+```
 
 
 
@@ -290,7 +324,9 @@ Get a state name with its ID
 
 ### <a name="method-hasCounties"></a>hasCounties
 
-    mixed StateCore::hasCounties($id_state)
+```php
+mixed StateCore::hasCounties($id_state)
+```
 
 
 
@@ -308,7 +344,9 @@ Get a state name with its ID
 
 ### <a name="method-isUsed"></a>isUsed
 
-    boolean StateCore::isUsed()
+```php
+boolean StateCore::isUsed()
+```
 
 Check if a state is used
 

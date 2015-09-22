@@ -9,8 +9,11 @@ Class HelperUploaderCore
 * Parent class: [Uploader](class.UploaderCore.md)
 * Source: [classes/helper/HelperUploader.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEFAULT_AJAX_TEMPLATE](#constant-DEFAULT_AJAX_TEMPLATE)
 * [DEFAULT_TEMPLATE](#constant-DEFAULT_TEMPLATE)
@@ -18,8 +21,7 @@ Constants
 * [TYPE_FILE](#constant-TYPE_FILE)
 * [TYPE_IMAGE](#constant-TYPE_IMAGE)
 
-Properties
-----------
+### Properties
 
 * [$_context](#property-$_context)
 * [$_drop_zone](#property-$_drop_zone)
@@ -35,8 +37,8 @@ Properties
 * [$_url](#property-$_url)
 * [$_use_ajax](#property-$_use_ajax)
 
-Methods
--------
+### Methods
+
 * [getContext](#method-getContext)
 * [getDropZone](#method-getDropZone)
 * [getFiles](#method-getFiles)
@@ -73,7 +75,9 @@ Constants
 
 ### <a name="constant-DEFAULT_AJAX_TEMPLATE"></a>DEFAULT_AJAX_TEMPLATE
 
-    const DEFAULT_AJAX_TEMPLATE = 'ajax.tpl'
+```php
+const DEFAULT_AJAX_TEMPLATE = 'ajax.tpl'
+```
 
 
 
@@ -84,7 +88,9 @@ Constants
 
 ### <a name="constant-DEFAULT_TEMPLATE"></a>DEFAULT_TEMPLATE
 
-    const DEFAULT_TEMPLATE = 'simple.tpl'
+```php
+const DEFAULT_TEMPLATE = 'simple.tpl'
+```
 
 
 
@@ -95,7 +101,9 @@ Constants
 
 ### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
 
-    const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/uploader'
+```php
+const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/uploader'
+```
 
 
 
@@ -106,7 +114,9 @@ Constants
 
 ### <a name="constant-TYPE_FILE"></a>TYPE_FILE
 
-    const TYPE_FILE = 'file'
+```php
+const TYPE_FILE = 'file'
+```
 
 
 
@@ -117,7 +127,9 @@ Constants
 
 ### <a name="constant-TYPE_IMAGE"></a>TYPE_IMAGE
 
-    const TYPE_IMAGE = 'image'
+```php
+const TYPE_IMAGE = 'image'
+```
 
 
 
@@ -132,7 +144,9 @@ Properties
 
 ### <a name="property-$_context"></a>$_context
 
-    private mixed $_context
+```php
+private mixed $_context
+```
 
 
 
@@ -144,7 +158,9 @@ Properties
 
 ### <a name="property-$_drop_zone"></a>$_drop_zone
 
-    private mixed $_drop_zone
+```php
+private mixed $_drop_zone
+```
 
 
 
@@ -156,7 +172,9 @@ Properties
 
 ### <a name="property-$_files"></a>$_files
 
-    private mixed $_files
+```php
+private mixed $_files
+```
 
 
 
@@ -168,7 +186,9 @@ Properties
 
 ### <a name="property-$_id"></a>$_id
 
-    private mixed $_id
+```php
+private mixed $_id
+```
 
 
 
@@ -180,7 +200,9 @@ Properties
 
 ### <a name="property-$_max_files"></a>$_max_files
 
-    private mixed $_max_files
+```php
+private mixed $_max_files
+```
 
 
 
@@ -192,7 +214,9 @@ Properties
 
 ### <a name="property-$_multiple"></a>$_multiple
 
-    private mixed $_multiple
+```php
+private mixed $_multiple
+```
 
 
 
@@ -204,7 +228,9 @@ Properties
 
 ### <a name="property-$_name"></a>$_name
 
-    private mixed $_name
+```php
+private mixed $_name
+```
 
 
 
@@ -216,7 +242,9 @@ Properties
 
 ### <a name="property-$_post_max_size"></a>$_post_max_size
 
-    private mixed $_post_max_size
+```php
+private mixed $_post_max_size
+```
 
 
 
@@ -228,7 +256,9 @@ Properties
 
 ### <a name="property-$_template"></a>$_template
 
-    protected mixed $_template
+```php
+protected mixed $_template
+```
 
 
 
@@ -240,7 +270,9 @@ Properties
 
 ### <a name="property-$_template_directory"></a>$_template_directory
 
-    private mixed $_template_directory
+```php
+private mixed $_template_directory
+```
 
 
 
@@ -252,7 +284,9 @@ Properties
 
 ### <a name="property-$_title"></a>$_title
 
-    private mixed $_title
+```php
+private mixed $_title
+```
 
 
 
@@ -264,7 +298,9 @@ Properties
 
 ### <a name="property-$_url"></a>$_url
 
-    private mixed $_url
+```php
+private mixed $_url
+```
 
 
 
@@ -276,7 +312,9 @@ Properties
 
 ### <a name="property-$_use_ajax"></a>$_use_ajax
 
-    private mixed $_use_ajax
+```php
+private mixed $_use_ajax
+```
 
 
 
@@ -292,7 +330,9 @@ Methods
 
 ### <a name="method-getContext"></a>getContext
 
-    mixed HelperUploaderCore::getContext()
+```php
+mixed HelperUploaderCore::getContext()
+```
 
 
 
@@ -306,7 +346,9 @@ Methods
 
 ### <a name="method-getDropZone"></a>getDropZone
 
-    mixed HelperUploaderCore::getDropZone()
+```php
+mixed HelperUploaderCore::getDropZone()
+```
 
 
 
@@ -320,7 +362,9 @@ Methods
 
 ### <a name="method-getFiles"></a>getFiles
 
-    mixed HelperUploaderCore::getFiles()
+```php
+mixed HelperUploaderCore::getFiles()
+```
 
 
 
@@ -334,7 +378,9 @@ Methods
 
 ### <a name="method-getId"></a>getId
 
-    mixed HelperUploaderCore::getId()
+```php
+mixed HelperUploaderCore::getId()
+```
 
 
 
@@ -348,7 +394,9 @@ Methods
 
 ### <a name="method-getMaxFiles"></a>getMaxFiles
 
-    mixed HelperUploaderCore::getMaxFiles()
+```php
+mixed HelperUploaderCore::getMaxFiles()
+```
 
 
 
@@ -362,7 +410,9 @@ Methods
 
 ### <a name="method-getName"></a>getName
 
-    mixed HelperUploaderCore::getName()
+```php
+mixed HelperUploaderCore::getName()
+```
 
 
 
@@ -376,7 +426,9 @@ Methods
 
 ### <a name="method-getPostMaxSize"></a>getPostMaxSize
 
-    mixed HelperUploaderCore::getPostMaxSize()
+```php
+mixed HelperUploaderCore::getPostMaxSize()
+```
 
 
 
@@ -390,7 +442,9 @@ Methods
 
 ### <a name="method-getTemplate"></a>getTemplate
 
-    mixed HelperUploaderCore::getTemplate()
+```php
+mixed HelperUploaderCore::getTemplate()
+```
 
 
 
@@ -404,7 +458,9 @@ Methods
 
 ### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
-    mixed HelperUploaderCore::getTemplateDirectory()
+```php
+mixed HelperUploaderCore::getTemplateDirectory()
+```
 
 
 
@@ -418,7 +474,9 @@ Methods
 
 ### <a name="method-getTemplateFile"></a>getTemplateFile
 
-    mixed HelperUploaderCore::getTemplateFile($template)
+```php
+mixed HelperUploaderCore::getTemplateFile($template)
+```
 
 
 
@@ -435,7 +493,9 @@ Methods
 
 ### <a name="method-getTitle"></a>getTitle
 
-    mixed HelperUploaderCore::getTitle()
+```php
+mixed HelperUploaderCore::getTitle()
+```
 
 
 
@@ -449,7 +509,9 @@ Methods
 
 ### <a name="method-getUrl"></a>getUrl
 
-    mixed HelperUploaderCore::getUrl()
+```php
+mixed HelperUploaderCore::getUrl()
+```
 
 
 
@@ -463,7 +525,9 @@ Methods
 
 ### <a name="method-isMultiple"></a>isMultiple
 
-    mixed HelperUploaderCore::isMultiple()
+```php
+mixed HelperUploaderCore::isMultiple()
+```
 
 
 
@@ -477,7 +541,9 @@ Methods
 
 ### <a name="method-render"></a>render
 
-    mixed HelperUploaderCore::render()
+```php
+mixed HelperUploaderCore::render()
+```
 
 
 
@@ -491,7 +557,9 @@ Methods
 
 ### <a name="method-setContext"></a>setContext
 
-    mixed HelperUploaderCore::setContext($value)
+```php
+mixed HelperUploaderCore::setContext($value)
+```
 
 
 
@@ -508,7 +576,9 @@ Methods
 
 ### <a name="method-setDropZone"></a>setDropZone
 
-    mixed HelperUploaderCore::setDropZone($value)
+```php
+mixed HelperUploaderCore::setDropZone($value)
+```
 
 
 
@@ -525,7 +595,9 @@ Methods
 
 ### <a name="method-setFiles"></a>setFiles
 
-    mixed HelperUploaderCore::setFiles($value)
+```php
+mixed HelperUploaderCore::setFiles($value)
+```
 
 
 
@@ -542,7 +614,9 @@ Methods
 
 ### <a name="method-setId"></a>setId
 
-    mixed HelperUploaderCore::setId($value)
+```php
+mixed HelperUploaderCore::setId($value)
+```
 
 
 
@@ -559,7 +633,9 @@ Methods
 
 ### <a name="method-setMaxFiles"></a>setMaxFiles
 
-    mixed HelperUploaderCore::setMaxFiles($value)
+```php
+mixed HelperUploaderCore::setMaxFiles($value)
+```
 
 
 
@@ -576,7 +652,9 @@ Methods
 
 ### <a name="method-setMultiple"></a>setMultiple
 
-    mixed HelperUploaderCore::setMultiple($value)
+```php
+mixed HelperUploaderCore::setMultiple($value)
+```
 
 
 
@@ -593,7 +671,9 @@ Methods
 
 ### <a name="method-setName"></a>setName
 
-    mixed HelperUploaderCore::setName($value)
+```php
+mixed HelperUploaderCore::setName($value)
+```
 
 
 
@@ -610,7 +690,9 @@ Methods
 
 ### <a name="method-setPostMaxSize"></a>setPostMaxSize
 
-    mixed HelperUploaderCore::setPostMaxSize($value)
+```php
+mixed HelperUploaderCore::setPostMaxSize($value)
+```
 
 
 
@@ -627,7 +709,9 @@ Methods
 
 ### <a name="method-setTemplate"></a>setTemplate
 
-    mixed HelperUploaderCore::setTemplate($value)
+```php
+mixed HelperUploaderCore::setTemplate($value)
+```
 
 
 
@@ -644,7 +728,9 @@ Methods
 
 ### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
-    mixed HelperUploaderCore::setTemplateDirectory($value)
+```php
+mixed HelperUploaderCore::setTemplateDirectory($value)
+```
 
 
 
@@ -661,7 +747,9 @@ Methods
 
 ### <a name="method-setTitle"></a>setTitle
 
-    mixed HelperUploaderCore::setTitle($value)
+```php
+mixed HelperUploaderCore::setTitle($value)
+```
 
 
 
@@ -678,7 +766,9 @@ Methods
 
 ### <a name="method-setUrl"></a>setUrl
 
-    mixed HelperUploaderCore::setUrl($value)
+```php
+mixed HelperUploaderCore::setUrl($value)
+```
 
 
 
@@ -695,7 +785,9 @@ Methods
 
 ### <a name="method-setUseAjax"></a>setUseAjax
 
-    mixed HelperUploaderCore::setUseAjax($value)
+```php
+mixed HelperUploaderCore::setUseAjax($value)
+```
 
 
 
@@ -712,7 +804,9 @@ Methods
 
 ### <a name="method-useAjax"></a>useAjax
 
-    mixed HelperUploaderCore::useAjax()
+```php
+mixed HelperUploaderCore::useAjax()
+```
 
 
 

@@ -10,9 +10,11 @@ History of receipts
 * Source: [classes/stock/SupplyOrderReceiptHistory.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L31)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$definition](#property-$definition)
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -46,7 +50,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'supply_order_receipt_history', 'primary' => 'id_supply_order_receipt_history', 'fields' => array('id_supply_order_detail' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_supply_order_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'employee_firstname' => array('type' => self::TYPE_STRING, 'validate' => 'isName'), 'employee_lastname' => array('type' => self::TYPE_STRING, 'validate' => 'isName'), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'supply_order_receipt_history', 'primary' => 'id_supply_order_receipt_history', 'fields' => array('id_supply_order_detail' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_supply_order_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'employee_firstname' => array('type' => self::TYPE_STRING, 'validate' => 'isName'), 'employee_lastname' => array('type' => self::TYPE_STRING, 'validate' => 'isName'), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -59,7 +65,9 @@ Properties
 
 ### <a name="property-$employee_firstname"></a>$employee_firstname
 
-    public string $employee_firstname
+```php
+public string $employee_firstname
+```
 
 
 
@@ -71,7 +79,9 @@ Properties
 
 ### <a name="property-$employee_lastname"></a>$employee_lastname
 
-    public string $employee_lastname
+```php
+public string $employee_lastname
+```
 
 
 
@@ -83,7 +93,9 @@ Properties
 
 ### <a name="property-$id_employee"></a>$id_employee
 
-    public integer $id_employee
+```php
+public integer $id_employee
+```
 
 
 
@@ -95,7 +107,9 @@ Properties
 
 ### <a name="property-$id_supply_order_detail"></a>$id_supply_order_detail
 
-    public integer $id_supply_order_detail
+```php
+public integer $id_supply_order_detail
+```
 
 
 
@@ -107,7 +121,9 @@ Properties
 
 ### <a name="property-$id_supply_order_state"></a>$id_supply_order_state
 
-    public integer $id_supply_order_state
+```php
+public integer $id_supply_order_state
+```
 
 
 
@@ -119,7 +135,9 @@ Properties
 
 ### <a name="property-$quantity"></a>$quantity
 
-    public integer $quantity
+```php
+public integer $quantity
+```
 
 
 
@@ -131,7 +149,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'supply_order_receipt_histories', 'objectNodeName' => 'supply_order_receipt_history', 'fields' => array('id_supply_order_detail' => array('xlink_resource' => 'supply_order_details'), 'id_employee' => array('xlink_resource' => 'employees'), 'id_supply_order_state' => array('xlink_resource' => 'supply_order_states')))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'supply_order_receipt_histories', 'objectNodeName' => 'supply_order_receipt_history', 'fields' => array('id_supply_order_detail' => array('xlink_resource' => 'supply_order_details'), 'id_employee' => array('xlink_resource' => 'employees'), 'id_supply_order_state' => array('xlink_resource' => 'supply_order_states')))
+```
 
 
 

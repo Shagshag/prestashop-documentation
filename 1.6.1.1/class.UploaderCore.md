@@ -8,13 +8,15 @@ Class UploaderCore
 * Class name: UploaderCore
 * Source: [classes/Uploader.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEFAULT_MAX_SIZE](#constant-DEFAULT_MAX_SIZE)
 
-Properties
-----------
+### Properties
 
 * [$_accept_types](#property-$_accept_types)
 * [$_check_file_size](#property-$_check_file_size)
@@ -23,8 +25,8 @@ Properties
 * [$_name](#property-$_name)
 * [$_save_path](#property-$_save_path)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_getFileSize](#method-_getFileSize)
 * [_getServerVars](#method-_getServerVars)
@@ -55,7 +57,9 @@ Constants
 
 ### <a name="constant-DEFAULT_MAX_SIZE"></a>DEFAULT_MAX_SIZE
 
-    const DEFAULT_MAX_SIZE = 10485760
+```php
+const DEFAULT_MAX_SIZE = 10485760
+```
 
 
 
@@ -70,7 +74,9 @@ Properties
 
 ### <a name="property-$_accept_types"></a>$_accept_types
 
-    private mixed $_accept_types
+```php
+private mixed $_accept_types
+```
 
 
 
@@ -82,7 +88,9 @@ Properties
 
 ### <a name="property-$_check_file_size"></a>$_check_file_size
 
-    private mixed $_check_file_size
+```php
+private mixed $_check_file_size
+```
 
 
 
@@ -94,7 +102,9 @@ Properties
 
 ### <a name="property-$_files"></a>$_files
 
-    private mixed $_files
+```php
+private mixed $_files
+```
 
 
 
@@ -106,7 +116,9 @@ Properties
 
 ### <a name="property-$_max_size"></a>$_max_size
 
-    private mixed $_max_size
+```php
+private mixed $_max_size
+```
 
 
 
@@ -118,7 +130,9 @@ Properties
 
 ### <a name="property-$_name"></a>$_name
 
-    private mixed $_name
+```php
+private mixed $_name
+```
 
 
 
@@ -130,7 +144,9 @@ Properties
 
 ### <a name="property-$_save_path"></a>$_save_path
 
-    private mixed $_save_path
+```php
+private mixed $_save_path
+```
 
 
 
@@ -146,7 +162,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed UploaderCore::__construct($name)
+```php
+mixed UploaderCore::__construct($name)
+```
 
 
 
@@ -163,7 +181,9 @@ Methods
 
 ### <a name="method-_getFileSize"></a>_getFileSize
 
-    mixed UploaderCore::_getFileSize($file_path, $clear_stat_cache)
+```php
+mixed UploaderCore::_getFileSize($file_path, $clear_stat_cache)
+```
 
 
 
@@ -181,7 +201,9 @@ Methods
 
 ### <a name="method-_getServerVars"></a>_getServerVars
 
-    mixed UploaderCore::_getServerVars($var)
+```php
+mixed UploaderCore::_getServerVars($var)
+```
 
 
 
@@ -198,7 +220,9 @@ Methods
 
 ### <a name="method-_normalizeDirectory"></a>_normalizeDirectory
 
-    mixed UploaderCore::_normalizeDirectory($directory)
+```php
+mixed UploaderCore::_normalizeDirectory($directory)
+```
 
 
 
@@ -215,7 +239,9 @@ Methods
 
 ### <a name="method-checkFileSize"></a>checkFileSize
 
-    mixed UploaderCore::checkFileSize()
+```php
+mixed UploaderCore::checkFileSize()
+```
 
 
 
@@ -229,7 +255,9 @@ Methods
 
 ### <a name="method-checkUploadError"></a>checkUploadError
 
-    mixed UploaderCore::checkUploadError($error_code)
+```php
+mixed UploaderCore::checkUploadError($error_code)
+```
 
 
 
@@ -246,7 +274,9 @@ Methods
 
 ### <a name="method-getAcceptTypes"></a>getAcceptTypes
 
-    mixed UploaderCore::getAcceptTypes()
+```php
+mixed UploaderCore::getAcceptTypes()
+```
 
 
 
@@ -260,7 +290,9 @@ Methods
 
 ### <a name="method-getFilePath"></a>getFilePath
 
-    mixed UploaderCore::getFilePath($file_name)
+```php
+mixed UploaderCore::getFilePath($file_name)
+```
 
 
 
@@ -277,7 +309,9 @@ Methods
 
 ### <a name="method-getFiles"></a>getFiles
 
-    mixed UploaderCore::getFiles()
+```php
+mixed UploaderCore::getFiles()
+```
 
 
 
@@ -291,7 +325,9 @@ Methods
 
 ### <a name="method-getMaxSize"></a>getMaxSize
 
-    mixed UploaderCore::getMaxSize()
+```php
+mixed UploaderCore::getMaxSize()
+```
 
 
 
@@ -305,7 +341,9 @@ Methods
 
 ### <a name="method-getName"></a>getName
 
-    mixed UploaderCore::getName()
+```php
+mixed UploaderCore::getName()
+```
 
 
 
@@ -319,7 +357,9 @@ Methods
 
 ### <a name="method-getPostMaxSizeBytes"></a>getPostMaxSizeBytes
 
-    mixed UploaderCore::getPostMaxSizeBytes()
+```php
+mixed UploaderCore::getPostMaxSizeBytes()
+```
 
 
 
@@ -333,7 +373,9 @@ Methods
 
 ### <a name="method-getSavePath"></a>getSavePath
 
-    mixed UploaderCore::getSavePath()
+```php
+mixed UploaderCore::getSavePath()
+```
 
 
 
@@ -347,7 +389,9 @@ Methods
 
 ### <a name="method-getUniqueFileName"></a>getUniqueFileName
 
-    mixed UploaderCore::getUniqueFileName($prefix)
+```php
+mixed UploaderCore::getUniqueFileName($prefix)
+```
 
 
 
@@ -364,7 +408,9 @@ Methods
 
 ### <a name="method-process"></a>process
 
-    mixed UploaderCore::process($dest)
+```php
+mixed UploaderCore::process($dest)
+```
 
 
 
@@ -381,7 +427,9 @@ Methods
 
 ### <a name="method-setAcceptTypes"></a>setAcceptTypes
 
-    mixed UploaderCore::setAcceptTypes($value)
+```php
+mixed UploaderCore::setAcceptTypes($value)
+```
 
 
 
@@ -398,7 +446,9 @@ Methods
 
 ### <a name="method-setCheckFileSize"></a>setCheckFileSize
 
-    mixed UploaderCore::setCheckFileSize($value)
+```php
+mixed UploaderCore::setCheckFileSize($value)
+```
 
 
 
@@ -415,7 +465,9 @@ Methods
 
 ### <a name="method-setMaxSize"></a>setMaxSize
 
-    mixed UploaderCore::setMaxSize($value)
+```php
+mixed UploaderCore::setMaxSize($value)
+```
 
 
 
@@ -432,7 +484,9 @@ Methods
 
 ### <a name="method-setName"></a>setName
 
-    mixed UploaderCore::setName($value)
+```php
+mixed UploaderCore::setName($value)
+```
 
 
 
@@ -449,7 +503,9 @@ Methods
 
 ### <a name="method-setSavePath"></a>setSavePath
 
-    mixed UploaderCore::setSavePath($value)
+```php
+mixed UploaderCore::setSavePath($value)
+```
 
 
 
@@ -466,7 +522,9 @@ Methods
 
 ### <a name="method-upload"></a>upload
 
-    mixed UploaderCore::upload($file, $dest)
+```php
+mixed UploaderCore::upload($file, $dest)
+```
 
 
 
@@ -484,7 +542,9 @@ Methods
 
 ### <a name="method-validate"></a>validate
 
-    mixed UploaderCore::validate($file)
+```php
+mixed UploaderCore::validate($file)
+```
 
 
 

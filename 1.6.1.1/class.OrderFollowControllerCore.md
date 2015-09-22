@@ -10,17 +10,19 @@ Class OrderFollowControllerCore
 * Source: [controllers/front/OrderFollowController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderFollowController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$auth](#property-$auth)
 * [$authRedirection](#property-$authRedirection)
 * [$php_self](#property-$php_self)
 * [$ssl](#property-$ssl)
 
-Methods
--------
+### Methods
+
 * [initContent](#method-initContent)
 * [postProcess](#method-postProcess)
 * [setMedia](#method-setMedia)
@@ -34,7 +36,9 @@ Properties
 
 ### <a name="property-$auth"></a>$auth
 
-    public mixed $auth = true
+```php
+public mixed $auth = true
+```
 
 
 
@@ -46,7 +50,9 @@ Properties
 
 ### <a name="property-$authRedirection"></a>$authRedirection
 
-    public mixed $authRedirection = 'order-follow'
+```php
+public mixed $authRedirection = 'order-follow'
+```
 
 
 
@@ -58,7 +64,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'order-follow'
+```php
+public mixed $php_self = 'order-follow'
+```
 
 
 
@@ -70,7 +78,9 @@ Properties
 
 ### <a name="property-$ssl"></a>$ssl
 
-    public mixed $ssl = true
+```php
+public mixed $ssl = true
+```
 
 
 
@@ -86,7 +96,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed OrderFollowControllerCore::initContent()
+```php
+mixed OrderFollowControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -100,7 +112,9 @@ Assign template vars related to page content
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed OrderFollowControllerCore::postProcess()
+```php
+mixed OrderFollowControllerCore::postProcess()
+```
 
 Start forms process
 
@@ -114,7 +128,9 @@ Start forms process
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed OrderFollowControllerCore::setMedia()
+```php
+mixed OrderFollowControllerCore::setMedia()
+```
 
 
 

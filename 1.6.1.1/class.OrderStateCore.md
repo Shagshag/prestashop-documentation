@@ -9,8 +9,11 @@ Class OrderStateCore
 * Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/OrderState.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [FLAG_DELIVERY](#constant-FLAG_DELIVERY)
 * [FLAG_LOGABLE](#constant-FLAG_LOGABLE)
@@ -18,8 +21,7 @@ Constants
 * [FLAG_PAID](#constant-FLAG_PAID)
 * [FLAG_SHIPPED](#constant-FLAG_SHIPPED)
 
-Properties
-----------
+### Properties
 
 * [$color](#property-$color)
 * [$definition](#property-$definition)
@@ -39,8 +41,8 @@ Properties
 * [$unremovable](#property-$unremovable)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [getOrderStates](#method-getOrderStates)
 * [invoiceAvailable](#method-invoiceAvailable)
 * [isRemovable](#method-isRemovable)
@@ -52,7 +54,9 @@ Constants
 
 ### <a name="constant-FLAG_DELIVERY"></a>FLAG_DELIVERY
 
-    const FLAG_DELIVERY = 4
+```php
+const FLAG_DELIVERY = 4
+```
 
 
 
@@ -63,7 +67,9 @@ Constants
 
 ### <a name="constant-FLAG_LOGABLE"></a>FLAG_LOGABLE
 
-    const FLAG_LOGABLE = 2
+```php
+const FLAG_LOGABLE = 2
+```
 
 
 
@@ -74,7 +80,9 @@ Constants
 
 ### <a name="constant-FLAG_NO_HIDDEN"></a>FLAG_NO_HIDDEN
 
-    const FLAG_NO_HIDDEN = 1
+```php
+const FLAG_NO_HIDDEN = 1
+```
 
 
 
@@ -85,7 +93,9 @@ Constants
 
 ### <a name="constant-FLAG_PAID"></a>FLAG_PAID
 
-    const FLAG_PAID = 16
+```php
+const FLAG_PAID = 16
+```
 
 
 
@@ -96,7 +106,9 @@ Constants
 
 ### <a name="constant-FLAG_SHIPPED"></a>FLAG_SHIPPED
 
-    const FLAG_SHIPPED = 8
+```php
+const FLAG_SHIPPED = 8
+```
 
 
 
@@ -111,7 +123,9 @@ Properties
 
 ### <a name="property-$color"></a>$color
 
-    public string $color
+```php
+public string $color
+```
 
 
 
@@ -123,7 +137,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'order_state', 'primary' => 'id_order_state', 'multilang' => true, 'fields' => array('send_email' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'module_name' => array('type' => self::TYPE_STRING, 'validate' => 'isModuleName'), 'invoice' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor'), 'logable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'shipped' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'unremovable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'delivery' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'hidden' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'paid' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'pdf_delivery' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'pdf_invoice' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'template' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isTplName', 'size' => 64)))
+```php
+public mixed $definition = array('table' => 'order_state', 'primary' => 'id_order_state', 'multilang' => true, 'fields' => array('send_email' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'module_name' => array('type' => self::TYPE_STRING, 'validate' => 'isModuleName'), 'invoice' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor'), 'logable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'shipped' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'unremovable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'delivery' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'hidden' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'paid' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'pdf_delivery' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'pdf_invoice' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'template' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isTplName', 'size' => 64)))
+```
 
 
 
@@ -136,7 +152,9 @@ Properties
 
 ### <a name="property-$deleted"></a>$deleted
 
-    public boolean $deleted
+```php
+public boolean $deleted
+```
 
 
 
@@ -148,7 +166,9 @@ Properties
 
 ### <a name="property-$delivery"></a>$delivery
 
-    public boolean $delivery
+```php
+public boolean $delivery
+```
 
 
 
@@ -160,7 +180,9 @@ Properties
 
 ### <a name="property-$hidden"></a>$hidden
 
-    public boolean $hidden
+```php
+public boolean $hidden
+```
 
 
 
@@ -172,7 +194,9 @@ Properties
 
 ### <a name="property-$invoice"></a>$invoice
 
-    public boolean $invoice
+```php
+public boolean $invoice
+```
 
 
 
@@ -184,7 +208,9 @@ Properties
 
 ### <a name="property-$logable"></a>$logable
 
-    public boolean $logable
+```php
+public boolean $logable
+```
 
 
 
@@ -196,7 +222,9 @@ Properties
 
 ### <a name="property-$module_name"></a>$module_name
 
-    public mixed $module_name
+```php
+public mixed $module_name
+```
 
 
 
@@ -208,7 +236,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -220,7 +250,9 @@ Properties
 
 ### <a name="property-$paid"></a>$paid
 
-    public boolean $paid
+```php
+public boolean $paid
+```
 
 
 
@@ -232,7 +264,9 @@ Properties
 
 ### <a name="property-$pdf_delivery"></a>$pdf_delivery
 
-    public boolean $pdf_delivery
+```php
+public boolean $pdf_delivery
+```
 
 
 
@@ -244,7 +278,9 @@ Properties
 
 ### <a name="property-$pdf_invoice"></a>$pdf_invoice
 
-    public boolean $pdf_invoice
+```php
+public boolean $pdf_invoice
+```
 
 
 
@@ -256,7 +292,9 @@ Properties
 
 ### <a name="property-$send_email"></a>$send_email
 
-    public boolean $send_email
+```php
+public boolean $send_email
+```
 
 
 
@@ -268,7 +306,9 @@ Properties
 
 ### <a name="property-$shipped"></a>$shipped
 
-    public boolean $shipped
+```php
+public boolean $shipped
+```
 
 
 
@@ -280,7 +320,9 @@ Properties
 
 ### <a name="property-$template"></a>$template
 
-    public string $template
+```php
+public string $template
+```
 
 
 
@@ -292,7 +334,9 @@ Properties
 
 ### <a name="property-$unremovable"></a>$unremovable
 
-    public mixed $unremovable
+```php
+public mixed $unremovable
+```
 
 
 
@@ -304,7 +348,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('unremovable' => array(), 'delivery' => array(), 'hidden' => array()))
+```php
+protected mixed $webserviceParameters = array('fields' => array('unremovable' => array(), 'delivery' => array(), 'hidden' => array()))
+```
 
 
 
@@ -320,7 +366,9 @@ Methods
 
 ### <a name="method-getOrderStates"></a>getOrderStates
 
-    array OrderStateCore::getOrderStates(integer $id_lang)
+```php
+array OrderStateCore::getOrderStates(integer $id_lang)
+```
 
 Get all available order statuses
 
@@ -338,7 +386,9 @@ Get all available order statuses
 
 ### <a name="method-invoiceAvailable"></a>invoiceAvailable
 
-    boolean OrderStateCore::invoiceAvailable(integer $id_order_state)
+```php
+boolean OrderStateCore::invoiceAvailable(integer $id_order_state)
+```
 
 Check if we can make a invoice when order is in this state
 
@@ -356,7 +406,9 @@ Check if we can make a invoice when order is in this state
 
 ### <a name="method-isRemovable"></a>isRemovable
 
-    mixed OrderStateCore::isRemovable()
+```php
+mixed OrderStateCore::isRemovable()
+```
 
 
 

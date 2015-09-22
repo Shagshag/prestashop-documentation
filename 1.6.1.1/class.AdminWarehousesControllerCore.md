@@ -10,14 +10,16 @@ Class AdminWarehousesControllerCore
 * Source: [controllers/admin/AdminWarehousesController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L31)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterAdd](#method-afterAdd)
 * [getList](#method-getList)
@@ -42,7 +44,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Warehouse $object
+```php
+public \Warehouse $object
+```
 
 
 
@@ -58,7 +62,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminWarehousesControllerCore::__construct()
+```php
+mixed AdminWarehousesControllerCore::__construct()
+```
 
 
 
@@ -72,7 +78,9 @@ Methods
 
 ### <a name="method-afterAdd"></a>afterAdd
 
-    boolean AdminWarehousesControllerCore::afterAdd(\Warehouse $object)
+```php
+boolean AdminWarehousesControllerCore::afterAdd(\Warehouse $object)
+```
 
 Called once $object is set.
 
@@ -89,7 +97,9 @@ Used to process the associations with address/shops/carriers
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminWarehousesControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```php
+mixed AdminWarehousesControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
+```
 
 AdminController::getList() override
 
@@ -111,7 +121,9 @@ AdminController::getList() override
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminWarehousesControllerCore::initContent()
+```php
+mixed AdminWarehousesControllerCore::initContent()
+```
 
 
 
@@ -125,7 +137,9 @@ AdminController::getList() override
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminWarehousesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminWarehousesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -139,7 +153,9 @@ AdminController::getList() override
 
 ### <a name="method-initProcess"></a>initProcess
 
-    mixed AdminWarehousesControllerCore::initProcess()
+```php
+mixed AdminWarehousesControllerCore::initProcess()
+```
 
 
 
@@ -153,7 +169,9 @@ AdminController::getList() override
 
 ### <a name="method-processAdd"></a>processAdd
 
-    mixed AdminWarehousesControllerCore::processAdd()
+```php
+mixed AdminWarehousesControllerCore::processAdd()
+```
 
 
 
@@ -167,7 +185,9 @@ AdminController::getList() override
 
 ### <a name="method-processDelete"></a>processDelete
 
-    mixed AdminWarehousesControllerCore::processDelete()
+```php
+mixed AdminWarehousesControllerCore::processDelete()
+```
 
 
 
@@ -181,7 +201,9 @@ AdminController::getList() override
 
 ### <a name="method-processUpdate"></a>processUpdate
 
-    mixed AdminWarehousesControllerCore::processUpdate()
+```php
+mixed AdminWarehousesControllerCore::processUpdate()
+```
 
 
 
@@ -195,7 +217,9 @@ AdminController::getList() override
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminWarehousesControllerCore::renderForm()
+```php
+mixed AdminWarehousesControllerCore::renderForm()
+```
 
 AdminController::renderForm() override
 
@@ -209,7 +233,9 @@ AdminController::renderForm() override
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminWarehousesControllerCore::renderList()
+```php
+mixed AdminWarehousesControllerCore::renderList()
+```
 
 AdminController::renderList() override
 
@@ -223,7 +249,9 @@ AdminController::renderList() override
 
 ### <a name="method-renderView"></a>renderView
 
-    mixed AdminWarehousesControllerCore::renderView()
+```php
+mixed AdminWarehousesControllerCore::renderView()
+```
 
 
 
@@ -237,7 +265,9 @@ AdminController::renderList() override
 
 ### <a name="method-updateAddress"></a>updateAddress
 
-    mixed AdminWarehousesControllerCore::updateAddress()
+```php
+mixed AdminWarehousesControllerCore::updateAddress()
+```
 
 
 
@@ -251,7 +281,9 @@ AdminController::renderList() override
 
 ### <a name="method-updateAssoShop"></a>updateAssoShop
 
-    mixed AdminWarehousesControllerCore::updateAssoShop($id_object)
+```php
+mixed AdminWarehousesControllerCore::updateAssoShop($id_object)
+```
 
 
 

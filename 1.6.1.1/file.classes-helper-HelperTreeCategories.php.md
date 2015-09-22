@@ -1,5 +1,6 @@
 File classes/helper/HelperTreeCategories.php
 =========
+
 Source: [classes/helper/HelperTreeCategories.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php)
 
 

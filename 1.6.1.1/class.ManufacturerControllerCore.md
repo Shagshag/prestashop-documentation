@@ -10,15 +10,17 @@ Class ManufacturerControllerCore
 * Source: [controllers/front/ManufacturerController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ManufacturerController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$manufacturer](#property-$manufacturer)
 * [$php_self](#property-$php_self)
 
-Methods
--------
+### Methods
+
 * [assignAll](#method-assignAll)
 * [assignOne](#method-assignOne)
 * [canonicalRedirection](#method-canonicalRedirection)
@@ -36,7 +38,9 @@ Properties
 
 ### <a name="property-$manufacturer"></a>$manufacturer
 
-    protected \Manufacturer $manufacturer
+```php
+protected \Manufacturer $manufacturer
+```
 
 
 
@@ -48,7 +52,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'manufacturer'
+```php
+public mixed $php_self = 'manufacturer'
+```
 
 
 
@@ -64,7 +70,9 @@ Methods
 
 ### <a name="method-assignAll"></a>assignAll
 
-    mixed ManufacturerControllerCore::assignAll()
+```php
+mixed ManufacturerControllerCore::assignAll()
+```
 
 Assign template vars if displaying the manufacturer list
 
@@ -78,7 +86,9 @@ Assign template vars if displaying the manufacturer list
 
 ### <a name="method-assignOne"></a>assignOne
 
-    mixed ManufacturerControllerCore::assignOne()
+```php
+mixed ManufacturerControllerCore::assignOne()
+```
 
 Assign template vars if displaying one manufacturer
 
@@ -92,7 +102,9 @@ Assign template vars if displaying one manufacturer
 
 ### <a name="method-canonicalRedirection"></a>canonicalRedirection
 
-    mixed ManufacturerControllerCore::canonicalRedirection($canonicalURL)
+```php
+mixed ManufacturerControllerCore::canonicalRedirection($canonicalURL)
+```
 
 
 
@@ -109,7 +121,9 @@ Assign template vars if displaying one manufacturer
 
 ### <a name="method-getManufacturer"></a>getManufacturer
 
-    mixed ManufacturerControllerCore::getManufacturer()
+```php
+mixed ManufacturerControllerCore::getManufacturer()
+```
 
 Get instance of current manufacturer
 
@@ -123,7 +137,9 @@ Get instance of current manufacturer
 
 ### <a name="method-init"></a>init
 
-    mixed ManufacturerControllerCore::init()
+```php
+mixed ManufacturerControllerCore::init()
+```
 
 Initialize manufaturer controller
 
@@ -137,7 +153,9 @@ Initialize manufaturer controller
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed ManufacturerControllerCore::initContent()
+```php
+mixed ManufacturerControllerCore::initContent()
+```
 
 Assign template vars related to page content
 
@@ -151,7 +169,9 @@ Assign template vars related to page content
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed ManufacturerControllerCore::setMedia()
+```php
+mixed ManufacturerControllerCore::setMedia()
+```
 
 
 

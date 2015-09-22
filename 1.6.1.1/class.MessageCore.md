@@ -10,9 +10,11 @@ Class MessageCore
 * Source: [classes/Message.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$date_add](#property-$date_add)
 * [$definition](#property-$definition)
@@ -24,8 +26,8 @@ Properties
 * [$message](#property-$message)
 * [$private](#property-$private)
 
-Methods
--------
+### Methods
+
 * [getMessageByCartId](#method-getMessageByCartId)
 * [getMessagesByCartId](#method-getMessagesByCartId)
 * [getMessagesByOrderId](#method-getMessagesByOrderId)
@@ -40,7 +42,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -52,7 +56,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'message', 'primary' => 'id_message', 'fields' => array('message' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 1600), 'id_cart' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'private' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'message', 'primary' => 'id_message', 'fields' => array('message' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 1600), 'id_cart' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'private' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -65,7 +71,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -77,7 +85,9 @@ Properties
 
 ### <a name="property-$id_cart"></a>$id_cart
 
-    public integer $id_cart
+```php
+public integer $id_cart
+```
 
 
 
@@ -89,7 +99,9 @@ Properties
 
 ### <a name="property-$id_customer"></a>$id_customer
 
-    public integer $id_customer
+```php
+public integer $id_customer
+```
 
 
 
@@ -101,7 +113,9 @@ Properties
 
 ### <a name="property-$id_employee"></a>$id_employee
 
-    public integer $id_employee
+```php
+public integer $id_employee
+```
 
 
 
@@ -113,7 +127,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public integer $id_order
+```php
+public integer $id_order
+```
 
 
 
@@ -125,7 +141,9 @@ Properties
 
 ### <a name="property-$message"></a>$message
 
-    public string $message
+```php
+public string $message
+```
 
 
 
@@ -137,7 +155,9 @@ Properties
 
 ### <a name="property-$private"></a>$private
 
-    public boolean $private
+```php
+public boolean $private
+```
 
 
 
@@ -153,7 +173,9 @@ Methods
 
 ### <a name="method-getMessageByCartId"></a>getMessageByCartId
 
-    array MessageCore::getMessageByCartId(integer $id_cart)
+```php
+array MessageCore::getMessageByCartId(integer $id_cart)
+```
 
 Return the last message from cart
 
@@ -171,7 +193,9 @@ Return the last message from cart
 
 ### <a name="method-getMessagesByCartId"></a>getMessagesByCartId
 
-    array MessageCore::getMessagesByCartId($id_cart, boolean $private, \Context $context)
+```php
+array MessageCore::getMessagesByCartId($id_cart, boolean $private, \Context $context)
+```
 
 Return messages from Cart ID
 
@@ -191,7 +215,9 @@ Return messages from Cart ID
 
 ### <a name="method-getMessagesByOrderId"></a>getMessagesByOrderId
 
-    array MessageCore::getMessagesByOrderId(integer $id_order, boolean $private, \Context $context)
+```php
+array MessageCore::getMessagesByOrderId(integer $id_order, boolean $private, \Context $context)
+```
 
 Return messages from Order ID
 
@@ -211,7 +237,9 @@ Return messages from Order ID
 
 ### <a name="method-markAsReaded"></a>markAsReaded
 
-    mixed MessageCore::markAsReaded(integer $id_message, $id_employee)
+```php
+mixed MessageCore::markAsReaded(integer $id_message, $id_employee)
+```
 
 Registered a message 'readed'
 

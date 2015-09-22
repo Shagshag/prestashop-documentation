@@ -10,9 +10,11 @@ Class ContactCore
 * Source: [classes/Contact.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$customer_service](#property-$customer_service)
 * [$definition](#property-$definition)
@@ -21,8 +23,8 @@ Properties
 * [$id](#property-$id)
 * [$name](#property-$name)
 
-Methods
--------
+### Methods
+
 * [getCategoriesContacts](#method-getCategoriesContacts)
 * [getContacts](#method-getContacts)
 
@@ -35,7 +37,9 @@ Properties
 
 ### <a name="property-$customer_service"></a>$customer_service
 
-    public mixed $customer_service
+```php
+public mixed $customer_service
+```
 
 
 
@@ -47,7 +51,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'contact', 'primary' => 'id_contact', 'multilang' => true, 'fields' => array('email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'size' => 128), 'customer_service' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml')))
+```php
+public mixed $definition = array('table' => 'contact', 'primary' => 'id_contact', 'multilang' => true, 'fields' => array('email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'size' => 128), 'customer_service' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml')))
+```
 
 
 
@@ -60,7 +66,9 @@ Properties
 
 ### <a name="property-$description"></a>$description
 
-    public string $description
+```php
+public string $description
+```
 
 
 
@@ -72,7 +80,9 @@ Properties
 
 ### <a name="property-$email"></a>$email
 
-    public string $email
+```php
+public string $email
+```
 
 
 
@@ -84,7 +94,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -96,7 +108,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -112,7 +126,9 @@ Methods
 
 ### <a name="method-getCategoriesContacts"></a>getCategoriesContacts
 
-    array ContactCore::getCategoriesContacts()
+```php
+array ContactCore::getCategoriesContacts()
+```
 
 Return available categories contacts
 
@@ -127,7 +143,9 @@ Return available categories contacts
 
 ### <a name="method-getContacts"></a>getContacts
 
-    array ContactCore::getContacts(integer $id_lang)
+```php
+array ContactCore::getContacts(integer $id_lang)
+```
 
 Return available contacts
 

@@ -10,9 +10,11 @@ Class FeatureValueCore
 * Source: [classes/FeatureValue.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$custom](#property-$custom)
 * [$definition](#property-$definition)
@@ -20,8 +22,8 @@ Properties
 * [$value](#property-$value)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [addFeatureValueImport](#method-addFeatureValueImport)
 * [delete](#method-delete)
@@ -40,7 +42,9 @@ Properties
 
 ### <a name="property-$custom"></a>$custom
 
-    public boolean $custom
+```php
+public boolean $custom
+```
 
 
 
@@ -52,7 +56,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'feature_value', 'primary' => 'id_feature_value', 'multilang' => true, 'fields' => array('id_feature' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'custom' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'value' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 255)))
+```php
+public mixed $definition = array('table' => 'feature_value', 'primary' => 'id_feature_value', 'multilang' => true, 'fields' => array('id_feature' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'custom' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'value' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 255)))
+```
 
 
 
@@ -65,7 +71,9 @@ Properties
 
 ### <a name="property-$id_feature"></a>$id_feature
 
-    public integer $id_feature
+```php
+public integer $id_feature
+```
 
 
 
@@ -77,7 +85,9 @@ Properties
 
 ### <a name="property-$value"></a>$value
 
-    public string $value
+```php
+public string $value
+```
 
 
 
@@ -89,7 +99,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'product_feature_values', 'objectNodeName' => 'product_feature_value', 'fields' => array('id_feature' => array('xlink_resource' => 'product_features')))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'product_feature_values', 'objectNodeName' => 'product_feature_value', 'fields' => array('id_feature' => array('xlink_resource' => 'product_features')))
+```
 
 
 
@@ -105,7 +117,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed FeatureValueCore::add($autodate, $nullValues)
+```php
+mixed FeatureValueCore::add($autodate, $nullValues)
+```
 
 
 
@@ -123,7 +137,9 @@ Methods
 
 ### <a name="method-addFeatureValueImport"></a>addFeatureValueImport
 
-    mixed FeatureValueCore::addFeatureValueImport($id_feature, $value, $id_product, $id_lang, $custom)
+```php
+mixed FeatureValueCore::addFeatureValueImport($id_feature, $value, $id_product, $id_lang, $custom)
+```
 
 
 
@@ -145,7 +161,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed FeatureValueCore::delete()
+```php
+mixed FeatureValueCore::delete()
+```
 
 
 
@@ -159,7 +177,9 @@ Methods
 
 ### <a name="method-getFeatureValueLang"></a>getFeatureValueLang
 
-    array FeatureValueCore::getFeatureValueLang(boolean $id_feature_value)
+```php
+array FeatureValueCore::getFeatureValueLang(boolean $id_feature_value)
+```
 
 Get all language for a given value
 
@@ -177,7 +197,9 @@ Get all language for a given value
 
 ### <a name="method-getFeatureValues"></a>getFeatureValues
 
-    array FeatureValueCore::getFeatureValues(boolean $id_feature)
+```php
+array FeatureValueCore::getFeatureValues(boolean $id_feature)
+```
 
 Get all values for a given feature
 
@@ -195,7 +217,9 @@ Get all values for a given feature
 
 ### <a name="method-getFeatureValuesWithLang"></a>getFeatureValuesWithLang
 
-    array FeatureValueCore::getFeatureValuesWithLang(integer $id_lang, boolean $id_feature, $custom)
+```php
+array FeatureValueCore::getFeatureValuesWithLang(integer $id_lang, boolean $id_feature, $custom)
+```
 
 Get all values for a given feature and language
 
@@ -215,7 +239,9 @@ Get all values for a given feature and language
 
 ### <a name="method-selectLang"></a>selectLang
 
-    string FeatureValueCore::selectLang(array $lang, integer $id_lang)
+```php
+string FeatureValueCore::selectLang(array $lang, integer $id_lang)
+```
 
 Select the good lang in tab
 
@@ -234,7 +260,9 @@ Select the good lang in tab
 
 ### <a name="method-update"></a>update
 
-    mixed FeatureValueCore::update($nullValues)
+```php
+mixed FeatureValueCore::update($nullValues)
+```
 
 
 

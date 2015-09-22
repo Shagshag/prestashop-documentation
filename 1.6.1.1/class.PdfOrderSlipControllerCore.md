@@ -10,17 +10,19 @@ Class PdfOrderSlipControllerCore
 * Source: [controllers/front/PdfOrderSlipController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$display_footer](#property-$display_footer)
 * [$display_header](#property-$display_header)
 * [$order_slip](#property-$order_slip)
 * [$php_self](#property-$php_self)
 
-Methods
--------
+### Methods
+
 * [display](#method-display)
 * [postProcess](#method-postProcess)
 
@@ -33,7 +35,9 @@ Properties
 
 ### <a name="property-$display_footer"></a>$display_footer
 
-    protected mixed $display_footer = false
+```php
+protected mixed $display_footer = false
+```
 
 
 
@@ -45,7 +49,9 @@ Properties
 
 ### <a name="property-$display_header"></a>$display_header
 
-    protected mixed $display_header = false
+```php
+protected mixed $display_header = false
+```
 
 
 
@@ -57,7 +63,9 @@ Properties
 
 ### <a name="property-$order_slip"></a>$order_slip
 
-    protected mixed $order_slip
+```php
+protected mixed $order_slip
+```
 
 
 
@@ -69,7 +77,9 @@ Properties
 
 ### <a name="property-$php_self"></a>$php_self
 
-    public mixed $php_self = 'pdf-order-slip'
+```php
+public mixed $php_self = 'pdf-order-slip'
+```
 
 
 
@@ -85,7 +95,9 @@ Methods
 
 ### <a name="method-display"></a>display
 
-    mixed PdfOrderSlipControllerCore::display()
+```php
+mixed PdfOrderSlipControllerCore::display()
+```
 
 
 
@@ -99,7 +111,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed PdfOrderSlipControllerCore::postProcess()
+```php
+mixed PdfOrderSlipControllerCore::postProcess()
+```
 
 
 

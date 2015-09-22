@@ -1,5 +1,6 @@
 File classes/helper/Helper.php
 =========
+
 Source: [classes/helper/Helper.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php)
 
 

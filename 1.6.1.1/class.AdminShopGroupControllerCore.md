@@ -10,14 +10,16 @@ Class AdminShopGroupControllerCore
 * Source: [controllers/admin/AdminShopGroupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterAdd](#method-afterAdd)
 * [afterUpdate](#method-afterUpdate)
@@ -39,7 +41,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \ShopGroup $object
+```php
+public \ShopGroup $object
+```
 
 
 
@@ -55,7 +59,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminShopGroupControllerCore::__construct()
+```php
+mixed AdminShopGroupControllerCore::__construct()
+```
 
 
 
@@ -69,7 +75,9 @@ Methods
 
 ### <a name="method-afterAdd"></a>afterAdd
 
-    mixed AdminShopGroupControllerCore::afterAdd($new_shop_group)
+```php
+mixed AdminShopGroupControllerCore::afterAdd($new_shop_group)
+```
 
 
 
@@ -86,7 +94,9 @@ Methods
 
 ### <a name="method-afterUpdate"></a>afterUpdate
 
-    mixed AdminShopGroupControllerCore::afterUpdate($new_shop_group)
+```php
+mixed AdminShopGroupControllerCore::afterUpdate($new_shop_group)
+```
 
 
 
@@ -103,7 +113,9 @@ Methods
 
 ### <a name="method-getList"></a>getList
 
-    mixed AdminShopGroupControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```php
+mixed AdminShopGroupControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
+```
 
 
 
@@ -125,7 +137,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminShopGroupControllerCore::initContent()
+```php
+mixed AdminShopGroupControllerCore::initContent()
+```
 
 
 
@@ -139,7 +153,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminShopGroupControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminShopGroupControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -153,7 +169,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminShopGroupControllerCore::initToolbar()
+```php
+mixed AdminShopGroupControllerCore::initToolbar()
+```
 
 
 
@@ -167,7 +185,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminShopGroupControllerCore::postProcess()
+```php
+mixed AdminShopGroupControllerCore::postProcess()
+```
 
 
 
@@ -181,7 +201,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminShopGroupControllerCore::renderForm()
+```php
+mixed AdminShopGroupControllerCore::renderForm()
+```
 
 
 
@@ -195,7 +217,9 @@ Methods
 
 ### <a name="method-renderOptions"></a>renderOptions
 
-    mixed AdminShopGroupControllerCore::renderOptions()
+```php
+mixed AdminShopGroupControllerCore::renderOptions()
+```
 
 
 
@@ -209,7 +233,9 @@ Methods
 
 ### <a name="method-viewAccess"></a>viewAccess
 
-    mixed AdminShopGroupControllerCore::viewAccess($disable)
+```php
+mixed AdminShopGroupControllerCore::viewAccess($disable)
+```
 
 
 

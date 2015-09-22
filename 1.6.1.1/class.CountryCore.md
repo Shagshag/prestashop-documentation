@@ -10,9 +10,11 @@ Class CountryCore
 * Source: [classes/Country.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_idZones](#property-$_idZones)
 * [$active](#property-$active)
@@ -31,8 +33,8 @@ Properties
 * [$webserviceParameters](#property-$webserviceParameters)
 * [$zip_code_format](#property-$zip_code_format)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [addModuleRestrictions](#method-addModuleRestrictions)
 * [affectZoneToSelection](#method-affectZoneToSelection)
@@ -62,7 +64,9 @@ Properties
 
 ### <a name="property-$_idZones"></a>$_idZones
 
-    protected mixed $_idZones = array()
+```php
+protected mixed $_idZones = array()
+```
 
 
 
@@ -75,7 +79,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active = true
+```php
+public boolean $active = true
+```
 
 
 
@@ -87,7 +93,9 @@ Properties
 
 ### <a name="property-$cache_iso_by_id"></a>$cache_iso_by_id
 
-    protected mixed $cache_iso_by_id = array()
+```php
+protected mixed $cache_iso_by_id = array()
+```
 
 
 
@@ -100,7 +108,9 @@ Properties
 
 ### <a name="property-$call_prefix"></a>$call_prefix
 
-    public integer $call_prefix
+```php
+public integer $call_prefix
+```
 
 
 
@@ -112,7 +122,9 @@ Properties
 
 ### <a name="property-$contains_states"></a>$contains_states
 
-    public boolean $contains_states
+```php
+public boolean $contains_states
+```
 
 
 
@@ -124,7 +136,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'country', 'primary' => 'id_country', 'multilang' => true, 'fields' => array('id_zone' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'call_prefix' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'iso_code' => array('type' => self::TYPE_STRING, 'validate' => 'isLanguageIsoCode', 'required' => true, 'size' => 3), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'contains_states' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'need_identification_number' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'need_zip_code' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'zip_code_format' => array('type' => self::TYPE_STRING, 'validate' => 'isZipCodeFormat'), 'display_tax_label' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 64)), 'associations' => array('zone' => array('type' => self::HAS_ONE), 'currency' => array('type' => self::HAS_ONE)))
+```php
+public mixed $definition = array('table' => 'country', 'primary' => 'id_country', 'multilang' => true, 'fields' => array('id_zone' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'call_prefix' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'iso_code' => array('type' => self::TYPE_STRING, 'validate' => 'isLanguageIsoCode', 'required' => true, 'size' => 3), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'contains_states' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'need_identification_number' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'need_zip_code' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'zip_code_format' => array('type' => self::TYPE_STRING, 'validate' => 'isZipCodeFormat'), 'display_tax_label' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 64)), 'associations' => array('zone' => array('type' => self::HAS_ONE), 'currency' => array('type' => self::HAS_ONE)))
+```
 
 
 
@@ -137,7 +151,9 @@ Properties
 
 ### <a name="property-$display_tax_label"></a>$display_tax_label
 
-    public boolean $display_tax_label = true
+```php
+public boolean $display_tax_label = true
+```
 
 
 
@@ -149,7 +165,9 @@ Properties
 
 ### <a name="property-$id"></a>$id
 
-    public mixed $id
+```php
+public mixed $id
+```
 
 
 
@@ -161,7 +179,9 @@ Properties
 
 ### <a name="property-$id_currency"></a>$id_currency
 
-    public integer $id_currency
+```php
+public integer $id_currency
+```
 
 
 
@@ -173,7 +193,9 @@ Properties
 
 ### <a name="property-$id_zone"></a>$id_zone
 
-    public integer $id_zone
+```php
+public integer $id_zone
+```
 
 
 
@@ -185,7 +207,9 @@ Properties
 
 ### <a name="property-$iso_code"></a>$iso_code
 
-    public string $iso_code
+```php
+public string $iso_code
+```
 
 
 
@@ -197,7 +221,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -209,7 +235,9 @@ Properties
 
 ### <a name="property-$need_identification_number"></a>$need_identification_number
 
-    public boolean $need_identification_number
+```php
+public boolean $need_identification_number
+```
 
 
 
@@ -221,7 +249,9 @@ Properties
 
 ### <a name="property-$need_zip_code"></a>$need_zip_code
 
-    public boolean $need_zip_code
+```php
+public boolean $need_zip_code
+```
 
 
 
@@ -233,7 +263,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'countries', 'fields' => array('id_zone' => array('xlink_resource' => 'zones'), 'id_currency' => array('xlink_resource' => 'currencies')))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'countries', 'fields' => array('id_zone' => array('xlink_resource' => 'zones'), 'id_currency' => array('xlink_resource' => 'currencies')))
+```
 
 
 
@@ -245,7 +277,9 @@ Properties
 
 ### <a name="property-$zip_code_format"></a>$zip_code_format
 
-    public string $zip_code_format
+```php
+public string $zip_code_format
+```
 
 
 
@@ -261,7 +295,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed CountryCore::add($autodate, $null_values)
+```php
+mixed CountryCore::add($autodate, $null_values)
+```
 
 
 
@@ -279,7 +315,9 @@ Methods
 
 ### <a name="method-addModuleRestrictions"></a>addModuleRestrictions
 
-    mixed CountryCore::addModuleRestrictions(array $shops, array $countries, array $modules)
+```php
+mixed CountryCore::addModuleRestrictions(array $shops, array $countries, array $modules)
+```
 
 
 
@@ -299,7 +337,9 @@ Methods
 
 ### <a name="method-affectZoneToSelection"></a>affectZoneToSelection
 
-    boolean CountryCore::affectZoneToSelection($ids_countries, $id_zone)
+```php
+boolean CountryCore::affectZoneToSelection($ids_countries, $id_zone)
+```
 
 
 
@@ -317,7 +357,9 @@ Methods
 
 ### <a name="method-checkZipCode"></a>checkZipCode
 
-    \(bool) CountryCore::checkZipCode($zip_code)
+```php
+\(bool) CountryCore::checkZipCode($zip_code)
+```
 
 Replace letters of zip code format And check this format on the zip code
 
@@ -334,7 +376,9 @@ Replace letters of zip code format And check this format on the zip code
 
 ### <a name="method-containsStates"></a>containsStates
 
-    mixed CountryCore::containsStates($id_country)
+```php
+mixed CountryCore::containsStates($id_country)
+```
 
 
 
@@ -352,7 +396,9 @@ Replace letters of zip code format And check this format on the zip code
 
 ### <a name="method-delete"></a>delete
 
-    mixed CountryCore::delete()
+```php
+mixed CountryCore::delete()
+```
 
 
 
@@ -366,7 +412,9 @@ Replace letters of zip code format And check this format on the zip code
 
 ### <a name="method-getByIso"></a>getByIso
 
-    integer CountryCore::getByIso(string $iso_code, boolean $active)
+```php
+integer CountryCore::getByIso(string $iso_code, boolean $active)
+```
 
 Get a country ID with its iso code
 
@@ -385,7 +433,9 @@ Get a country ID with its iso code
 
 ### <a name="method-getCountries"></a>getCountries
 
-    Array CountryCore::getCountries(integer $id_lang, boolean $active, boolean $contain_states, boolean $list_states)
+```php
+Array CountryCore::getCountries(integer $id_lang, boolean $active, boolean $contain_states, boolean $list_states)
+```
 
 
 
@@ -406,7 +456,9 @@ Get a country ID with its iso code
 
 ### <a name="method-getCountriesByIdShop"></a>getCountriesByIdShop
 
-    mixed CountryCore::getCountriesByIdShop($id_shop, $id_lang)
+```php
+mixed CountryCore::getCountriesByIdShop($id_shop, $id_lang)
+```
 
 
 
@@ -425,7 +477,9 @@ Get a country ID with its iso code
 
 ### <a name="method-getCountriesByZoneId"></a>getCountriesByZoneId
 
-    mixed CountryCore::getCountriesByZoneId($id_zone, $id_lang)
+```php
+mixed CountryCore::getCountriesByZoneId($id_zone, $id_lang)
+```
 
 
 
@@ -444,7 +498,9 @@ Get a country ID with its iso code
 
 ### <a name="method-getDefaultCountryId"></a>getDefaultCountryId
 
-    integer CountryCore::getDefaultCountryId()
+```php
+integer CountryCore::getDefaultCountryId()
+```
 
 Returns the default country Id
 
@@ -459,7 +515,9 @@ Returns the default country Id
 
 ### <a name="method-getIdByName"></a>getIdByName
 
-    integer CountryCore::getIdByName(integer $id_lang, string $country)
+```php
+integer CountryCore::getIdByName(integer $id_lang, string $country)
+```
 
 Get a country id with its name
 
@@ -478,7 +536,9 @@ Get a country id with its name
 
 ### <a name="method-getIdZone"></a>getIdZone
 
-    mixed CountryCore::getIdZone($id_country)
+```php
+mixed CountryCore::getIdZone($id_country)
+```
 
 
 
@@ -496,7 +556,9 @@ Get a country id with its name
 
 ### <a name="method-getIsoById"></a>getIsoById
 
-    string CountryCore::getIsoById(integer $id_country)
+```php
+string CountryCore::getIsoById(integer $id_country)
+```
 
 Get a country iso with its ID
 
@@ -514,7 +576,9 @@ Get a country iso with its ID
 
 ### <a name="method-getNameById"></a>getNameById
 
-    string CountryCore::getNameById(integer $id_lang, integer $id_country)
+```php
+string CountryCore::getNameById(integer $id_lang, integer $id_country)
+```
 
 Get a country name with its ID
 
@@ -533,7 +597,9 @@ Get a country name with its ID
 
 ### <a name="method-getNeedZipCode"></a>getNeedZipCode
 
-    mixed CountryCore::getNeedZipCode($id_country)
+```php
+mixed CountryCore::getNeedZipCode($id_country)
+```
 
 
 
@@ -551,7 +617,9 @@ Get a country name with its ID
 
 ### <a name="method-getZipCodeFormat"></a>getZipCodeFormat
 
-    mixed CountryCore::getZipCodeFormat($id_country)
+```php
+mixed CountryCore::getZipCodeFormat($id_country)
+```
 
 
 
@@ -569,7 +637,9 @@ Get a country name with its ID
 
 ### <a name="method-isNeedDni"></a>isNeedDni
 
-    mixed CountryCore::isNeedDni()
+```php
+mixed CountryCore::isNeedDni()
+```
 
 
 
@@ -583,7 +653,9 @@ Get a country name with its ID
 
 ### <a name="method-isNeedDniByCountryId"></a>isNeedDniByCountryId
 
-    mixed CountryCore::isNeedDniByCountryId($id_country)
+```php
+mixed CountryCore::isNeedDniByCountryId($id_country)
+```
 
 
 

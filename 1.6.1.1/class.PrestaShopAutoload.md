@@ -8,13 +8,15 @@ Class PrestaShopAutoload
 * Class name: PrestaShopAutoload
 * Source: [classes/PrestaShopAutoload.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L30)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [INDEX_FILE](#constant-INDEX_FILE)
 
-Properties
-----------
+### Properties
 
 * [$_include_override_path](#property-$_include_override_path)
 * [$class_aliases](#property-$class_aliases)
@@ -22,8 +24,8 @@ Properties
 * [$instance](#property-$instance)
 * [$root_dir](#property-$root_dir)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [generateIndex](#method-generateIndex)
 * [getClassPath](#method-getClassPath)
@@ -39,7 +41,9 @@ Constants
 
 ### <a name="constant-INDEX_FILE"></a>INDEX_FILE
 
-    const INDEX_FILE = 'cache/class_index.php'
+```php
+const INDEX_FILE = 'cache/class_index.php'
+```
 
 File where classes index is stored
 
@@ -54,7 +58,9 @@ Properties
 
 ### <a name="property-$_include_override_path"></a>$_include_override_path
 
-    public mixed $_include_override_path = true
+```php
+public mixed $_include_override_path = true
+```
 
 
 
@@ -66,7 +72,9 @@ Properties
 
 ### <a name="property-$class_aliases"></a>$class_aliases
 
-    protected mixed $class_aliases = array('Collection' => 'PrestaShopCollection', 'Autoload' => 'PrestaShopAutoload', 'Backup' => 'PrestaShopBackup', 'Logger' => 'PrestaShopLogger')
+```php
+protected mixed $class_aliases = array('Collection' => 'PrestaShopCollection', 'Autoload' => 'PrestaShopAutoload', 'Backup' => 'PrestaShopBackup', 'Logger' => 'PrestaShopLogger')
+```
 
 
 
@@ -79,7 +87,9 @@ Properties
 
 ### <a name="property-$index"></a>$index
 
-    public array $index = array()
+```php
+public array $index = array()
+```
 
 
 
@@ -91,7 +101,9 @@ Properties
 
 ### <a name="property-$instance"></a>$instance
 
-    protected \PrestaShopAutoload $instance
+```php
+protected \PrestaShopAutoload $instance
+```
 
 
 
@@ -104,7 +116,9 @@ Properties
 
 ### <a name="property-$root_dir"></a>$root_dir
 
-    protected string $root_dir
+```php
+protected string $root_dir
+```
 
 
 
@@ -120,7 +134,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed PrestaShopAutoload::__construct()
+```php
+mixed PrestaShopAutoload::__construct()
+```
 
 
 
@@ -134,7 +150,9 @@ Methods
 
 ### <a name="method-generateIndex"></a>generateIndex
 
-    mixed PrestaShopAutoload::generateIndex()
+```php
+mixed PrestaShopAutoload::generateIndex()
+```
 
 Generate classes index
 
@@ -148,7 +166,9 @@ Generate classes index
 
 ### <a name="method-getClassPath"></a>getClassPath
 
-    mixed PrestaShopAutoload::getClassPath($classname)
+```php
+mixed PrestaShopAutoload::getClassPath($classname)
+```
 
 
 
@@ -165,7 +185,9 @@ Generate classes index
 
 ### <a name="method-getClassesFromDir"></a>getClassesFromDir
 
-    array PrestaShopAutoload::getClassesFromDir(string $path, $host_mode)
+```php
+array PrestaShopAutoload::getClassesFromDir(string $path, $host_mode)
+```
 
 Retrieve recursively all classes in a directory and its subdirectories
 
@@ -183,7 +205,9 @@ Retrieve recursively all classes in a directory and its subdirectories
 
 ### <a name="method-getInstance"></a>getInstance
 
-    \PrestaShopAutoload PrestaShopAutoload::getInstance()
+```php
+\PrestaShopAutoload PrestaShopAutoload::getInstance()
+```
 
 Get instance of autoload (singleton)
 
@@ -198,7 +222,9 @@ Get instance of autoload (singleton)
 
 ### <a name="method-load"></a>load
 
-    mixed PrestaShopAutoload::load(string $classname)
+```php
+mixed PrestaShopAutoload::load(string $classname)
+```
 
 Retrieve informations about a class in classes index and load it
 
@@ -215,7 +241,9 @@ Retrieve informations about a class in classes index and load it
 
 ### <a name="method-normalizeDirectory"></a>normalizeDirectory
 
-    mixed PrestaShopAutoload::normalizeDirectory($directory)
+```php
+mixed PrestaShopAutoload::normalizeDirectory($directory)
+```
 
 
 

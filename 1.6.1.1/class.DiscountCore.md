@@ -10,17 +10,19 @@ Class DiscountCore
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
 * Source: [classes/Discount.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L30)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [AMOUNT](#constant-AMOUNT)
 * [FREE_SHIPPING](#constant-FREE_SHIPPING)
 * [PERCENT](#constant-PERCENT)
 
 
+### Methods
 
-Methods
--------
 * [__call](#method-__call)
 * [__get](#method-__get)
 * [__set](#method-__set)
@@ -41,7 +43,9 @@ Constants
 
 ### <a name="constant-AMOUNT"></a>AMOUNT
 
-    const AMOUNT = 2
+```php
+const AMOUNT = 2
+```
 
 
 
@@ -53,7 +57,9 @@ Constants
 
 ### <a name="constant-FREE_SHIPPING"></a>FREE_SHIPPING
 
-    const FREE_SHIPPING = 3
+```php
+const FREE_SHIPPING = 3
+```
 
 
 
@@ -65,7 +71,9 @@ Constants
 
 ### <a name="constant-PERCENT"></a>PERCENT
 
-    const PERCENT = 1
+```php
+const PERCENT = 1
+```
 
 
 
@@ -83,7 +91,9 @@ Methods
 
 ### <a name="method-__call"></a>__call
 
-    mixed DiscountCore::__call($method, $args)
+```php
+mixed DiscountCore::__call($method, $args)
+```
 
 
 
@@ -102,7 +112,9 @@ Methods
 
 ### <a name="method-__get"></a>__get
 
-    mixed DiscountCore::__get($key)
+```php
+mixed DiscountCore::__get($key)
+```
 
 
 
@@ -120,7 +132,9 @@ Methods
 
 ### <a name="method-__set"></a>__set
 
-    mixed DiscountCore::__set($key, $value)
+```php
+mixed DiscountCore::__set($key, $value)
+```
 
 
 
@@ -139,7 +153,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed DiscountCore::add($autodate, $nullValues, $categories)
+```php
+mixed DiscountCore::add($autodate, $nullValues, $categories)
+```
 
 
 
@@ -159,7 +175,9 @@ Methods
 
 ### <a name="method-createOrderDiscount"></a>createOrderDiscount
 
-    \Discount DiscountCore::createOrderDiscount(\Order $order, $productList, $qtyList, $name, $shipping_cost, $id_category, $subcategory)
+```php
+\Discount DiscountCore::createOrderDiscount(\Order $order, $productList, $qtyList, $name, $shipping_cost, $id_category, $subcategory)
+```
 
 
 
@@ -184,7 +202,9 @@ Methods
 
 ### <a name="method-discountExists"></a>discountExists
 
-    mixed DiscountCore::discountExists($discountName, $id_discount)
+```php
+mixed DiscountCore::discountExists($discountName, $id_discount)
+```
 
 
 
@@ -204,7 +224,9 @@ Methods
 
 ### <a name="method-display"></a>display
 
-    mixed DiscountCore::display($value, $type, $currency)
+```php
+mixed DiscountCore::display($value, $type, $currency)
+```
 
 
 
@@ -225,7 +247,9 @@ Methods
 
 ### <a name="method-getCustomerDiscounts"></a>getCustomerDiscounts
 
-    mixed DiscountCore::getCustomerDiscounts($id_lang, $id_customer, $active, $includeGenericOnes, $hasStock, \Cart $cart)
+```php
+mixed DiscountCore::getCustomerDiscounts($id_lang, $id_customer, $active, $includeGenericOnes, $hasStock, \Cart $cart)
+```
 
 
 
@@ -249,7 +273,9 @@ Methods
 
 ### <a name="method-getIdByName"></a>getIdByName
 
-    mixed DiscountCore::getIdByName($code)
+```php
+mixed DiscountCore::getIdByName($code)
+```
 
 
 
@@ -268,7 +294,9 @@ Methods
 
 ### <a name="method-getValue"></a>getValue
 
-    mixed DiscountCore::getValue($nb_discounts, $order_total_products, $shipping_fees, $id_cart, $useTax, \Currency $currency, \Shop $shop)
+```php
+mixed DiscountCore::getValue($nb_discounts, $order_total_products, $shipping_fees, $id_cart, $useTax, \Currency $currency, \Shop $shop)
+```
 
 
 
@@ -292,7 +320,9 @@ Methods
 
 ### <a name="method-getVouchersToCartDisplay"></a>getVouchersToCartDisplay
 
-    mixed DiscountCore::getVouchersToCartDisplay($id_lang, $id_customer)
+```php
+mixed DiscountCore::getVouchersToCartDisplay($id_lang, $id_customer)
+```
 
 
 
@@ -312,7 +342,9 @@ Methods
 
 ### <a name="method-update"></a>update
 
-    mixed DiscountCore::update($autodate, $nullValues, $categories)
+```php
+mixed DiscountCore::update($autodate, $nullValues, $categories)
+```
 
 
 

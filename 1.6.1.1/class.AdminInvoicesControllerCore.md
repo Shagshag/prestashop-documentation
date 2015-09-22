@@ -10,11 +10,13 @@ Class AdminInvoicesControllerCore
 * Source: [controllers/admin/AdminInvoicesController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [beforeUpdateOptions](#method-beforeUpdateOptions)
 * [getInvoicesModels](#method-getInvoicesModels)
@@ -37,7 +39,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminInvoicesControllerCore::__construct()
+```php
+mixed AdminInvoicesControllerCore::__construct()
+```
 
 
 
@@ -51,7 +55,9 @@ Methods
 
 ### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
-    mixed AdminInvoicesControllerCore::beforeUpdateOptions()
+```php
+mixed AdminInvoicesControllerCore::beforeUpdateOptions()
+```
 
 
 
@@ -65,7 +71,9 @@ Methods
 
 ### <a name="method-getInvoicesModels"></a>getInvoicesModels
 
-    mixed AdminInvoicesControllerCore::getInvoicesModels()
+```php
+mixed AdminInvoicesControllerCore::getInvoicesModels()
+```
 
 
 
@@ -79,7 +87,9 @@ Methods
 
 ### <a name="method-getInvoicesModelsFromDir"></a>getInvoicesModelsFromDir
 
-    mixed AdminInvoicesControllerCore::getInvoicesModelsFromDir($directory)
+```php
+mixed AdminInvoicesControllerCore::getInvoicesModelsFromDir($directory)
+```
 
 
 
@@ -96,7 +106,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminInvoicesControllerCore::initContent()
+```php
+mixed AdminInvoicesControllerCore::initContent()
+```
 
 
 
@@ -110,7 +122,9 @@ Methods
 
 ### <a name="method-initFormByDate"></a>initFormByDate
 
-    mixed AdminInvoicesControllerCore::initFormByDate()
+```php
+mixed AdminInvoicesControllerCore::initFormByDate()
+```
 
 
 
@@ -124,7 +138,9 @@ Methods
 
 ### <a name="method-initFormByStatus"></a>initFormByStatus
 
-    mixed AdminInvoicesControllerCore::initFormByStatus()
+```php
+mixed AdminInvoicesControllerCore::initFormByStatus()
+```
 
 
 
@@ -138,7 +154,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminInvoicesControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminInvoicesControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -152,7 +170,9 @@ Methods
 
 ### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
-    mixed AdminInvoicesControllerCore::initToolbarTitle()
+```php
+mixed AdminInvoicesControllerCore::initToolbarTitle()
+```
 
 
 
@@ -166,7 +186,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminInvoicesControllerCore::postProcess()
+```php
+mixed AdminInvoicesControllerCore::postProcess()
+```
 
 
 

@@ -10,14 +10,16 @@ Class AdminPatternsControllerCore
 * Source: [controllers/admin/AdminPatternsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$name](#property-$name)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initContent](#method-initContent)
 * [renderForm](#method-renderForm)
@@ -39,7 +41,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name = "patterns"
+```php
+public mixed $name = "patterns"
+```
 
 
 
@@ -55,7 +59,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminPatternsControllerCore::__construct()
+```php
+mixed AdminPatternsControllerCore::__construct()
+```
 
 
 
@@ -69,7 +75,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminPatternsControllerCore::initContent()
+```php
+mixed AdminPatternsControllerCore::initContent()
+```
 
 
 
@@ -83,7 +91,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminPatternsControllerCore::renderForm()
+```php
+mixed AdminPatternsControllerCore::renderForm()
+```
 
 
 
@@ -97,7 +107,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminPatternsControllerCore::renderList()
+```php
+mixed AdminPatternsControllerCore::renderList()
+```
 
 
 
@@ -111,7 +123,9 @@ Methods
 
 ### <a name="method-renderListModel"></a>renderListModel
 
-    mixed AdminPatternsControllerCore::renderListModel()
+```php
+mixed AdminPatternsControllerCore::renderListModel()
+```
 
 
 
@@ -125,7 +139,9 @@ Methods
 
 ### <a name="method-renderListSimpleHeader"></a>renderListSimpleHeader
 
-    mixed AdminPatternsControllerCore::renderListSimpleHeader()
+```php
+mixed AdminPatternsControllerCore::renderListSimpleHeader()
+```
 
 
 
@@ -139,7 +155,9 @@ Methods
 
 ### <a name="method-renderListSmallColumns"></a>renderListSmallColumns
 
-    mixed AdminPatternsControllerCore::renderListSmallColumns()
+```php
+mixed AdminPatternsControllerCore::renderListSmallColumns()
+```
 
 
 
@@ -153,7 +171,9 @@ Methods
 
 ### <a name="method-renderListWithParentClass"></a>renderListWithParentClass
 
-    mixed AdminPatternsControllerCore::renderListWithParentClass()
+```php
+mixed AdminPatternsControllerCore::renderListWithParentClass()
+```
 
 
 
@@ -167,7 +187,9 @@ Methods
 
 ### <a name="method-renderOptions"></a>renderOptions
 
-    mixed AdminPatternsControllerCore::renderOptions()
+```php
+mixed AdminPatternsControllerCore::renderOptions()
+```
 
 
 
@@ -181,7 +203,9 @@ Methods
 
 ### <a name="method-setMedia"></a>setMedia
 
-    mixed AdminPatternsControllerCore::setMedia()
+```php
+mixed AdminPatternsControllerCore::setMedia()
+```
 
 
 
@@ -195,7 +219,9 @@ Methods
 
 ### <a name="method-viewAccess"></a>viewAccess
 
-    mixed AdminPatternsControllerCore::viewAccess()
+```php
+mixed AdminPatternsControllerCore::viewAccess()
+```
 
 
 

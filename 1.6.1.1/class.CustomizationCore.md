@@ -10,9 +10,11 @@ Class CustomizationCore
 * Source: [classes/Customization.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$id_address_delivery](#property-$id_address_delivery)
@@ -25,8 +27,8 @@ Properties
 * [$quantity_returned](#property-$quantity_returned)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [countCustomizationQuantityByProduct](#method-countCustomizationQuantityByProduct)
 * [countQuantityByCart](#method-countQuantityByCart)
 * [getLabel](#method-getLabel)
@@ -48,7 +50,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'customization', 'primary' => 'id_customization', 'fields' => array('id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_address_delivery' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_cart' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'quantity_refunded' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'quantity_returned' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'in_cart' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'customization', 'primary' => 'id_customization', 'fields' => array('id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_address_delivery' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_cart' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'quantity_refunded' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'quantity_returned' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'in_cart' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true)))
+```
 
 
 
@@ -61,7 +65,9 @@ Properties
 
 ### <a name="property-$id_address_delivery"></a>$id_address_delivery
 
-    public integer $id_address_delivery
+```php
+public integer $id_address_delivery
+```
 
 
 
@@ -73,7 +79,9 @@ Properties
 
 ### <a name="property-$id_cart"></a>$id_cart
 
-    public integer $id_cart
+```php
+public integer $id_cart
+```
 
 
 
@@ -85,7 +93,9 @@ Properties
 
 ### <a name="property-$id_product"></a>$id_product
 
-    public integer $id_product
+```php
+public integer $id_product
+```
 
 
 
@@ -97,7 +107,9 @@ Properties
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
-    public integer $id_product_attribute
+```php
+public integer $id_product_attribute
+```
 
 
 
@@ -109,7 +121,9 @@ Properties
 
 ### <a name="property-$in_cart"></a>$in_cart
 
-    public boolean $in_cart
+```php
+public boolean $in_cart
+```
 
 
 
@@ -121,7 +135,9 @@ Properties
 
 ### <a name="property-$quantity"></a>$quantity
 
-    public integer $quantity
+```php
+public integer $quantity
+```
 
 
 
@@ -133,7 +149,9 @@ Properties
 
 ### <a name="property-$quantity_refunded"></a>$quantity_refunded
 
-    public integer $quantity_refunded
+```php
+public integer $quantity_refunded
+```
 
 
 
@@ -145,7 +163,9 @@ Properties
 
 ### <a name="property-$quantity_returned"></a>$quantity_returned
 
-    public integer $quantity_returned
+```php
+public integer $quantity_returned
+```
 
 
 
@@ -157,7 +177,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_address_delivery' => array('xlink_resource' => array('resourceName' => 'addresses')), 'id_cart' => array('xlink_resource' => array('resourceName' => 'carts')), 'id_product' => array('xlink_resource' => array('resourceName' => 'products'))), 'associations' => array('customized_data_text_fields' => array('resource' => 'customized_data_text_field', 'virtual_entity' => true, 'fields' => array('id_customization_field' => array('required' => true, 'xlink_resource' => 'product_customization_fields'), 'value' => array())), 'customized_data_images' => array('resource' => 'customized_data_image', 'virtual_entity' => true, 'setter' => false, 'fields' => array('id_customization_field' => array('xlink_resource' => 'product_customization_fields'), 'value' => array()))))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_address_delivery' => array('xlink_resource' => array('resourceName' => 'addresses')), 'id_cart' => array('xlink_resource' => array('resourceName' => 'carts')), 'id_product' => array('xlink_resource' => array('resourceName' => 'products'))), 'associations' => array('customized_data_text_fields' => array('resource' => 'customized_data_text_field', 'virtual_entity' => true, 'fields' => array('id_customization_field' => array('required' => true, 'xlink_resource' => 'product_customization_fields'), 'value' => array())), 'customized_data_images' => array('resource' => 'customized_data_image', 'virtual_entity' => true, 'setter' => false, 'fields' => array('id_customization_field' => array('xlink_resource' => 'product_customization_fields'), 'value' => array()))))
+```
 
 
 
@@ -173,7 +195,9 @@ Methods
 
 ### <a name="method-countCustomizationQuantityByProduct"></a>countCustomizationQuantityByProduct
 
-    mixed CustomizationCore::countCustomizationQuantityByProduct($customizations)
+```php
+mixed CustomizationCore::countCustomizationQuantityByProduct($customizations)
+```
 
 
 
@@ -191,7 +215,9 @@ Methods
 
 ### <a name="method-countQuantityByCart"></a>countQuantityByCart
 
-    mixed CustomizationCore::countQuantityByCart($id_cart)
+```php
+mixed CustomizationCore::countQuantityByCart($id_cart)
+```
 
 
 
@@ -209,7 +235,9 @@ Methods
 
 ### <a name="method-getLabel"></a>getLabel
 
-    mixed CustomizationCore::getLabel($id_customization, $id_lang, $id_shop)
+```php
+mixed CustomizationCore::getLabel($id_customization, $id_lang, $id_shop)
+```
 
 
 
@@ -229,7 +257,9 @@ Methods
 
 ### <a name="method-getOrderedCustomizations"></a>getOrderedCustomizations
 
-    mixed CustomizationCore::getOrderedCustomizations($id_cart)
+```php
+mixed CustomizationCore::getOrderedCustomizations($id_cart)
+```
 
 
 
@@ -247,7 +277,9 @@ Methods
 
 ### <a name="method-getReturnedCustomizations"></a>getReturnedCustomizations
 
-    mixed CustomizationCore::getReturnedCustomizations($id_order)
+```php
+mixed CustomizationCore::getReturnedCustomizations($id_order)
+```
 
 
 
@@ -265,7 +297,9 @@ Methods
 
 ### <a name="method-getWsCustomizedDataImages"></a>getWsCustomizedDataImages
 
-    mixed CustomizationCore::getWsCustomizedDataImages()
+```php
+mixed CustomizationCore::getWsCustomizedDataImages()
+```
 
 
 
@@ -279,7 +313,9 @@ Methods
 
 ### <a name="method-getWsCustomizedDataTextFields"></a>getWsCustomizedDataTextFields
 
-    mixed CustomizationCore::getWsCustomizedDataTextFields()
+```php
+mixed CustomizationCore::getWsCustomizedDataTextFields()
+```
 
 
 
@@ -293,7 +329,9 @@ Methods
 
 ### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
 
-    boolean CustomizationCore::isCurrentlyUsed($table, $has_active_column)
+```php
+boolean CustomizationCore::isCurrentlyUsed($table, $has_active_column)
+```
 
 This method is allow to know if a Customization entity is currently used
 
@@ -312,7 +350,9 @@ This method is allow to know if a Customization entity is currently used
 
 ### <a name="method-isFeatureActive"></a>isFeatureActive
 
-    boolean CustomizationCore::isFeatureActive()
+```php
+boolean CustomizationCore::isFeatureActive()
+```
 
 This method is allow to know if a feature is used or active
 
@@ -327,7 +367,9 @@ This method is allow to know if a feature is used or active
 
 ### <a name="method-retrieveQuantitiesFromIds"></a>retrieveQuantitiesFromIds
 
-    mixed CustomizationCore::retrieveQuantitiesFromIds($ids_customizations)
+```php
+mixed CustomizationCore::retrieveQuantitiesFromIds($ids_customizations)
+```
 
 
 
@@ -345,7 +387,9 @@ This method is allow to know if a feature is used or active
 
 ### <a name="method-setWsCustomizedDataTextFields"></a>setWsCustomizedDataTextFields
 
-    mixed CustomizationCore::setWsCustomizedDataTextFields($values)
+```php
+mixed CustomizationCore::setWsCustomizedDataTextFields($values)
+```
 
 
 

@@ -10,14 +10,16 @@ Class AdminShopUrlControllerCore
 * Source: [controllers/admin/AdminShopUrlController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopUrlController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [afterUpdate](#method-afterUpdate)
 * [displayDeleteLink](#method-displayDeleteLink)
@@ -41,7 +43,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \ShopUrl $object
+```php
+public \ShopUrl $object
+```
 
 
 
@@ -57,7 +61,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminShopUrlControllerCore::__construct()
+```php
+mixed AdminShopUrlControllerCore::__construct()
+```
 
 
 
@@ -71,7 +77,9 @@ Methods
 
 ### <a name="method-afterUpdate"></a>afterUpdate
 
-    void AdminShopUrlControllerCore::afterUpdate(\ShopUrl $object)
+```php
+void AdminShopUrlControllerCore::afterUpdate(\ShopUrl $object)
+```
 
 
 
@@ -88,7 +96,9 @@ Methods
 
 ### <a name="method-displayDeleteLink"></a>displayDeleteLink
 
-    mixed AdminShopUrlControllerCore::displayDeleteLink(string $token, integer $id, string $name)
+```php
+mixed AdminShopUrlControllerCore::displayDeleteLink(string $token, integer $id, string $name)
+```
 
 
 
@@ -107,7 +117,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminShopUrlControllerCore::initContent()
+```php
+mixed AdminShopUrlControllerCore::initContent()
+```
 
 
 
@@ -121,7 +133,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminShopUrlControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminShopUrlControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -135,7 +149,9 @@ Methods
 
 ### <a name="method-initToolbar"></a>initToolbar
 
-    mixed AdminShopUrlControllerCore::initToolbar()
+```php
+mixed AdminShopUrlControllerCore::initToolbar()
+```
 
 
 
@@ -149,7 +165,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminShopUrlControllerCore::postProcess()
+```php
+mixed AdminShopUrlControllerCore::postProcess()
+```
 
 
 
@@ -163,7 +181,9 @@ Methods
 
 ### <a name="method-processAdd"></a>processAdd
 
-    mixed AdminShopUrlControllerCore::processAdd()
+```php
+mixed AdminShopUrlControllerCore::processAdd()
+```
 
 
 
@@ -177,7 +197,9 @@ Methods
 
 ### <a name="method-processSave"></a>processSave
 
-    mixed AdminShopUrlControllerCore::processSave()
+```php
+mixed AdminShopUrlControllerCore::processSave()
+```
 
 
 
@@ -191,7 +213,9 @@ Methods
 
 ### <a name="method-processUpdate"></a>processUpdate
 
-    mixed AdminShopUrlControllerCore::processUpdate()
+```php
+mixed AdminShopUrlControllerCore::processUpdate()
+```
 
 
 
@@ -205,7 +229,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminShopUrlControllerCore::renderForm()
+```php
+mixed AdminShopUrlControllerCore::renderForm()
+```
 
 
 
@@ -219,7 +245,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminShopUrlControllerCore::renderList()
+```php
+mixed AdminShopUrlControllerCore::renderList()
+```
 
 
 
@@ -233,7 +261,9 @@ Methods
 
 ### <a name="method-viewAccess"></a>viewAccess
 
-    mixed AdminShopUrlControllerCore::viewAccess($disable)
+```php
+mixed AdminShopUrlControllerCore::viewAccess($disable)
+```
 
 
 

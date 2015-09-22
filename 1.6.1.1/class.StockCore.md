@@ -10,9 +10,11 @@ Represents the products kept in warehouses
 * Source: [classes/stock/Stock.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L32)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$ean13](#property-$ean13)
@@ -26,8 +28,8 @@ Properties
 * [$usable_quantity](#property-$usable_quantity)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [add](#method-add)
 * [deleteStockByIds](#method-deleteStockByIds)
 * [getProductInformations](#method-getProductInformations)
@@ -44,7 +46,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'stock', 'primary' => 'id_stock', 'fields' => array('id_warehouse' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference'), 'ean13' => array('type' => self::TYPE_STRING, 'validate' => 'isEan13'), 'upc' => array('type' => self::TYPE_STRING, 'validate' => 'isUpc'), 'physical_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'usable_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'price_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'stock', 'primary' => 'id_stock', 'fields' => array('id_warehouse' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference'), 'ean13' => array('type' => self::TYPE_STRING, 'validate' => 'isEan13'), 'upc' => array('type' => self::TYPE_STRING, 'validate' => 'isUpc'), 'physical_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'usable_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'price_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true)))
+```
 
 
 
@@ -57,7 +61,9 @@ Properties
 
 ### <a name="property-$ean13"></a>$ean13
 
-    public integer $ean13
+```php
+public integer $ean13
+```
 
 
 
@@ -69,7 +75,9 @@ Properties
 
 ### <a name="property-$id_product"></a>$id_product
 
-    public integer $id_product
+```php
+public integer $id_product
+```
 
 
 
@@ -81,7 +89,9 @@ Properties
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
-    public integer $id_product_attribute
+```php
+public integer $id_product_attribute
+```
 
 
 
@@ -93,7 +103,9 @@ Properties
 
 ### <a name="property-$id_warehouse"></a>$id_warehouse
 
-    public integer $id_warehouse
+```php
+public integer $id_warehouse
+```
 
 
 
@@ -105,7 +117,9 @@ Properties
 
 ### <a name="property-$physical_quantity"></a>$physical_quantity
 
-    public integer $physical_quantity
+```php
+public integer $physical_quantity
+```
 
 
 
@@ -117,7 +131,9 @@ Properties
 
 ### <a name="property-$price_te"></a>$price_te
 
-    public integer $price_te
+```php
+public integer $price_te
+```
 
 
 
@@ -129,7 +145,9 @@ Properties
 
 ### <a name="property-$reference"></a>$reference
 
-    public string $reference
+```php
+public string $reference
+```
 
 
 
@@ -141,7 +159,9 @@ Properties
 
 ### <a name="property-$upc"></a>$upc
 
-    public string $upc
+```php
+public string $upc
+```
 
 
 
@@ -153,7 +173,9 @@ Properties
 
 ### <a name="property-$usable_quantity"></a>$usable_quantity
 
-    public integer $usable_quantity
+```php
+public integer $usable_quantity
+```
 
 
 
@@ -165,7 +187,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_warehouse' => array('xlink_resource' => 'warehouses'), 'id_product' => array('xlink_resource' => 'products'), 'id_product_attribute' => array('xlink_resource' => 'combinations'), 'real_quantity' => array('getter' => 'getWsRealQuantity', 'setter' => false)), 'hidden_fields' => array())
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_warehouse' => array('xlink_resource' => 'warehouses'), 'id_product' => array('xlink_resource' => 'products'), 'id_product_attribute' => array('xlink_resource' => 'combinations'), 'real_quantity' => array('getter' => 'getWsRealQuantity', 'setter' => false)), 'hidden_fields' => array())
+```
 
 
 
@@ -181,7 +205,9 @@ Methods
 
 ### <a name="method-add"></a>add
 
-    mixed StockCore::add($autodate, $null_values)
+```php
+mixed StockCore::add($autodate, $null_values)
+```
 
 
 
@@ -199,7 +225,9 @@ Methods
 
 ### <a name="method-deleteStockByIds"></a>deleteStockByIds
 
-    mixed StockCore::deleteStockByIds($id_product, $id_product_attribute)
+```php
+mixed StockCore::deleteStockByIds($id_product, $id_product_attribute)
+```
 
 
 
@@ -218,7 +246,9 @@ Methods
 
 ### <a name="method-getProductInformations"></a>getProductInformations
 
-    mixed StockCore::getProductInformations()
+```php
+mixed StockCore::getProductInformations()
+```
 
 Gets reference, ean13 and upc of the current product
 Stores it in stock for stock_mvt integrity and history purposes
@@ -233,7 +263,9 @@ Stores it in stock for stock_mvt integrity and history purposes
 
 ### <a name="method-getWsRealQuantity"></a>getWsRealQuantity
 
-    mixed StockCore::getWsRealQuantity()
+```php
+mixed StockCore::getWsRealQuantity()
+```
 
 Webservice : used to get the real quantity of a product
 
@@ -247,7 +279,9 @@ Webservice : used to get the real quantity of a product
 
 ### <a name="method-productIsPresentInStock"></a>productIsPresentInStock
 
-    mixed StockCore::productIsPresentInStock($id_product, $id_product_attribute, $id_warehouse)
+```php
+mixed StockCore::productIsPresentInStock($id_product, $id_product_attribute, $id_warehouse)
+```
 
 
 
@@ -267,7 +301,9 @@ Webservice : used to get the real quantity of a product
 
 ### <a name="method-update"></a>update
 
-    mixed StockCore::update($null_values)
+```php
+mixed StockCore::update($null_values)
+```
 
 
 

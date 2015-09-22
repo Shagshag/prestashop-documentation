@@ -9,13 +9,15 @@ Class TreeToolbarButtonCore
 * This is an **abstract** class
 * Source: [classes/tree/TreeToolbarButton.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEFAULT_TEMPLATE_DIRECTORY](#constant-DEFAULT_TEMPLATE_DIRECTORY)
 
-Properties
-----------
+### Properties
 
 * [$_attributes](#property-$_attributes)
 * [$_class](#property-$_class)
@@ -26,8 +28,8 @@ Properties
 * [$_template](#property-$_template)
 * [$_template_directory](#property-$_template_directory)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [__toString](#method-__toString)
 * [_normalizeDirectory](#method-_normalizeDirectory)
@@ -60,7 +62,9 @@ Constants
 
 ### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
 
-    const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
+```php
+const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
+```
 
 
 
@@ -75,7 +79,9 @@ Properties
 
 ### <a name="property-$_attributes"></a>$_attributes
 
-    protected mixed $_attributes
+```php
+protected mixed $_attributes
+```
 
 
 
@@ -87,7 +93,9 @@ Properties
 
 ### <a name="property-$_class"></a>$_class
 
-    private mixed $_class
+```php
+private mixed $_class
+```
 
 
 
@@ -99,7 +107,9 @@ Properties
 
 ### <a name="property-$_context"></a>$_context
 
-    private mixed $_context
+```php
+private mixed $_context
+```
 
 
 
@@ -111,7 +121,9 @@ Properties
 
 ### <a name="property-$_id"></a>$_id
 
-    private mixed $_id
+```php
+private mixed $_id
+```
 
 
 
@@ -123,7 +135,9 @@ Properties
 
 ### <a name="property-$_label"></a>$_label
 
-    private mixed $_label
+```php
+private mixed $_label
+```
 
 
 
@@ -135,7 +149,9 @@ Properties
 
 ### <a name="property-$_name"></a>$_name
 
-    private mixed $_name
+```php
+private mixed $_name
+```
 
 
 
@@ -147,7 +163,9 @@ Properties
 
 ### <a name="property-$_template"></a>$_template
 
-    protected mixed $_template
+```php
+protected mixed $_template
+```
 
 
 
@@ -159,7 +177,9 @@ Properties
 
 ### <a name="property-$_template_directory"></a>$_template_directory
 
-    protected mixed $_template_directory
+```php
+protected mixed $_template_directory
+```
 
 
 
@@ -175,7 +195,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed TreeToolbarButtonCore::__construct($label, $id, $name, $class)
+```php
+mixed TreeToolbarButtonCore::__construct($label, $id, $name, $class)
+```
 
 
 
@@ -195,7 +217,9 @@ Methods
 
 ### <a name="method-__toString"></a>__toString
 
-    mixed TreeToolbarButtonCore::__toString()
+```php
+mixed TreeToolbarButtonCore::__toString()
+```
 
 
 
@@ -209,7 +233,9 @@ Methods
 
 ### <a name="method-_normalizeDirectory"></a>_normalizeDirectory
 
-    mixed TreeToolbarButtonCore::_normalizeDirectory($directory)
+```php
+mixed TreeToolbarButtonCore::_normalizeDirectory($directory)
+```
 
 
 
@@ -226,7 +252,9 @@ Methods
 
 ### <a name="method-getAttribute"></a>getAttribute
 
-    mixed TreeToolbarButtonCore::getAttribute($name)
+```php
+mixed TreeToolbarButtonCore::getAttribute($name)
+```
 
 
 
@@ -243,7 +271,9 @@ Methods
 
 ### <a name="method-getAttributes"></a>getAttributes
 
-    mixed TreeToolbarButtonCore::getAttributes()
+```php
+mixed TreeToolbarButtonCore::getAttributes()
+```
 
 
 
@@ -257,7 +287,9 @@ Methods
 
 ### <a name="method-getClass"></a>getClass
 
-    mixed TreeToolbarButtonCore::getClass()
+```php
+mixed TreeToolbarButtonCore::getClass()
+```
 
 
 
@@ -271,7 +303,9 @@ Methods
 
 ### <a name="method-getContext"></a>getContext
 
-    mixed TreeToolbarButtonCore::getContext()
+```php
+mixed TreeToolbarButtonCore::getContext()
+```
 
 
 
@@ -285,7 +319,9 @@ Methods
 
 ### <a name="method-getId"></a>getId
 
-    mixed TreeToolbarButtonCore::getId()
+```php
+mixed TreeToolbarButtonCore::getId()
+```
 
 
 
@@ -299,7 +335,9 @@ Methods
 
 ### <a name="method-getLabel"></a>getLabel
 
-    mixed TreeToolbarButtonCore::getLabel()
+```php
+mixed TreeToolbarButtonCore::getLabel()
+```
 
 
 
@@ -313,7 +351,9 @@ Methods
 
 ### <a name="method-getName"></a>getName
 
-    mixed TreeToolbarButtonCore::getName()
+```php
+mixed TreeToolbarButtonCore::getName()
+```
 
 
 
@@ -327,7 +367,9 @@ Methods
 
 ### <a name="method-getTemplate"></a>getTemplate
 
-    mixed TreeToolbarButtonCore::getTemplate()
+```php
+mixed TreeToolbarButtonCore::getTemplate()
+```
 
 
 
@@ -341,7 +383,9 @@ Methods
 
 ### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
-    mixed TreeToolbarButtonCore::getTemplateDirectory()
+```php
+mixed TreeToolbarButtonCore::getTemplateDirectory()
+```
 
 
 
@@ -355,7 +399,9 @@ Methods
 
 ### <a name="method-getTemplateFile"></a>getTemplateFile
 
-    mixed TreeToolbarButtonCore::getTemplateFile($template)
+```php
+mixed TreeToolbarButtonCore::getTemplateFile($template)
+```
 
 
 
@@ -372,7 +418,9 @@ Methods
 
 ### <a name="method-hasAttribute"></a>hasAttribute
 
-    mixed TreeToolbarButtonCore::hasAttribute($name)
+```php
+mixed TreeToolbarButtonCore::hasAttribute($name)
+```
 
 
 
@@ -389,7 +437,9 @@ Methods
 
 ### <a name="method-render"></a>render
 
-    mixed TreeToolbarButtonCore::render()
+```php
+mixed TreeToolbarButtonCore::render()
+```
 
 
 
@@ -403,7 +453,9 @@ Methods
 
 ### <a name="method-setAttribute"></a>setAttribute
 
-    mixed TreeToolbarButtonCore::setAttribute($name, $value)
+```php
+mixed TreeToolbarButtonCore::setAttribute($name, $value)
+```
 
 
 
@@ -421,7 +473,9 @@ Methods
 
 ### <a name="method-setAttributes"></a>setAttributes
 
-    mixed TreeToolbarButtonCore::setAttributes($value)
+```php
+mixed TreeToolbarButtonCore::setAttributes($value)
+```
 
 
 
@@ -438,7 +492,9 @@ Methods
 
 ### <a name="method-setClass"></a>setClass
 
-    mixed TreeToolbarButtonCore::setClass($value)
+```php
+mixed TreeToolbarButtonCore::setClass($value)
+```
 
 
 
@@ -455,7 +511,9 @@ Methods
 
 ### <a name="method-setContext"></a>setContext
 
-    mixed TreeToolbarButtonCore::setContext($value)
+```php
+mixed TreeToolbarButtonCore::setContext($value)
+```
 
 
 
@@ -472,7 +530,9 @@ Methods
 
 ### <a name="method-setId"></a>setId
 
-    mixed TreeToolbarButtonCore::setId($value)
+```php
+mixed TreeToolbarButtonCore::setId($value)
+```
 
 
 
@@ -489,7 +549,9 @@ Methods
 
 ### <a name="method-setLabel"></a>setLabel
 
-    mixed TreeToolbarButtonCore::setLabel($value)
+```php
+mixed TreeToolbarButtonCore::setLabel($value)
+```
 
 
 
@@ -506,7 +568,9 @@ Methods
 
 ### <a name="method-setName"></a>setName
 
-    mixed TreeToolbarButtonCore::setName($value)
+```php
+mixed TreeToolbarButtonCore::setName($value)
+```
 
 
 
@@ -523,7 +587,9 @@ Methods
 
 ### <a name="method-setTemplate"></a>setTemplate
 
-    mixed TreeToolbarButtonCore::setTemplate($value)
+```php
+mixed TreeToolbarButtonCore::setTemplate($value)
+```
 
 
 
@@ -540,7 +606,9 @@ Methods
 
 ### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
-    mixed TreeToolbarButtonCore::setTemplateDirectory($value)
+```php
+mixed TreeToolbarButtonCore::setTemplateDirectory($value)
+```
 
 
 

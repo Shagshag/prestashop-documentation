@@ -9,16 +9,18 @@ Class DbCore
 * This is an **abstract** class
 * Source: [classes/db/Db.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L34)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [INSERT](#constant-INSERT)
 * [INSERT_IGNORE](#constant-INSERT_IGNORE)
 * [ON_DUPLICATE_KEY](#constant-ON_DUPLICATE_KEY)
 * [REPLACE](#constant-REPLACE)
 
-Properties
-----------
+### Properties
 
 * [$_servers](#property-$_servers)
 * [$_slave_servers_loaded](#property-$_slave_servers_loaded)
@@ -34,8 +36,8 @@ Properties
 * [$server](#property-$server)
 * [$user](#property-$user)
 
-Methods
--------
+### Methods
+
 * [Affected_Rows](#method-Affected_Rows)
 * [Insert_ID](#method-Insert_ID)
 * [__construct](#method-__construct)
@@ -90,7 +92,9 @@ Constants
 
 ### <a name="constant-INSERT"></a>INSERT
 
-    const INSERT = 1
+```php
+const INSERT = 1
+```
 
 
 
@@ -101,7 +105,9 @@ Constants
 
 ### <a name="constant-INSERT_IGNORE"></a>INSERT_IGNORE
 
-    const INSERT_IGNORE = 2
+```php
+const INSERT_IGNORE = 2
+```
 
 
 
@@ -112,7 +118,9 @@ Constants
 
 ### <a name="constant-ON_DUPLICATE_KEY"></a>ON_DUPLICATE_KEY
 
-    const ON_DUPLICATE_KEY = 4
+```php
+const ON_DUPLICATE_KEY = 4
+```
 
 
 
@@ -123,7 +131,9 @@ Constants
 
 ### <a name="constant-REPLACE"></a>REPLACE
 
-    const REPLACE = 3
+```php
+const REPLACE = 3
+```
 
 
 
@@ -138,7 +148,9 @@ Properties
 
 ### <a name="property-$_servers"></a>$_servers
 
-    public array $_servers = array()
+```php
+public array $_servers = array()
+```
 
 
 
@@ -151,7 +163,9 @@ Properties
 
 ### <a name="property-$_slave_servers_loaded"></a>$_slave_servers_loaded
 
-    public null $_slave_servers_loaded = null
+```php
+public null $_slave_servers_loaded = null
+```
 
 
 
@@ -164,7 +178,9 @@ Properties
 
 ### <a name="property-$database"></a>$database
 
-    protected string $database
+```php
+protected string $database
+```
 
 
 
@@ -176,7 +192,9 @@ Properties
 
 ### <a name="property-$instance"></a>$instance
 
-    public array $instance = array()
+```php
+public array $instance = array()
+```
 
 
 
@@ -189,7 +207,9 @@ Properties
 
 ### <a name="property-$is_cache_enabled"></a>$is_cache_enabled
 
-    protected boolean $is_cache_enabled
+```php
+protected boolean $is_cache_enabled
+```
 
 
 
@@ -201,7 +221,9 @@ Properties
 
 ### <a name="property-$last_cached"></a>$last_cached
 
-    protected string $last_cached
+```php
+protected string $last_cached
+```
 
 Last cached query
 
@@ -213,7 +235,9 @@ Last cached query
 
 ### <a name="property-$last_query"></a>$last_query
 
-    protected string $last_query
+```php
+protected string $last_query
+```
 
 Store last executed query
 
@@ -225,7 +249,9 @@ Store last executed query
 
 ### <a name="property-$last_query_hash"></a>$last_query_hash
 
-    protected string $last_query_hash
+```php
+protected string $last_query_hash
+```
 
 Store hash of the last executed query
 
@@ -237,7 +263,9 @@ Store hash of the last executed query
 
 ### <a name="property-$link"></a>$link
 
-    protected \PDO $link
+```php
+protected \PDO $link
+```
 
 
 
@@ -249,7 +277,9 @@ Store hash of the last executed query
 
 ### <a name="property-$password"></a>$password
 
-    protected string $password
+```php
+protected string $password
+```
 
 
 
@@ -261,7 +291,9 @@ Store hash of the last executed query
 
 ### <a name="property-$result"></a>$result
 
-    protected \PDOStatement $result
+```php
+protected \PDOStatement $result
+```
 
 
 
@@ -273,7 +305,9 @@ Store hash of the last executed query
 
 ### <a name="property-$server"></a>$server
 
-    protected string $server
+```php
+protected string $server
+```
 
 
 
@@ -285,7 +319,9 @@ Store hash of the last executed query
 
 ### <a name="property-$user"></a>$user
 
-    protected string $user
+```php
+protected string $user
+```
 
 
 
@@ -301,7 +337,9 @@ Methods
 
 ### <a name="method-Affected_Rows"></a>Affected_Rows
 
-    integer DbCore::Affected_Rows()
+```php
+integer DbCore::Affected_Rows()
+```
 
 Get number of affected rows in previous database operation
 
@@ -316,7 +354,9 @@ Get number of affected rows in previous database operation
 
 ### <a name="method-Insert_ID"></a>Insert_ID
 
-    integer|string DbCore::Insert_ID()
+```php
+integer|string DbCore::Insert_ID()
+```
 
 Get the ID generated from the previous INSERT operation
 
@@ -331,7 +371,9 @@ Get the ID generated from the previous INSERT operation
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed DbCore::__construct(string $server, string $user, string $password, string $database, boolean $connect)
+```php
+mixed DbCore::__construct(string $server, string $user, string $password, string $database, boolean $connect)
+```
 
 Instantiates a database connection
 
@@ -352,7 +394,9 @@ Instantiates a database connection
 
 ### <a name="method-__destruct"></a>__destruct
 
-    mixed DbCore::__destruct()
+```php
+mixed DbCore::__destruct()
+```
 
 Closes connection to database
 
@@ -366,7 +410,9 @@ Closes connection to database
 
 ### <a name="method-_escape"></a>_escape
 
-    string DbCore::_escape(string $str)
+```php
+string DbCore::_escape(string $str)
+```
 
 Protect string against SQL injections
 
@@ -384,7 +430,9 @@ Protect string against SQL injections
 
 ### <a name="method-_numRows"></a>_numRows
 
-    integer DbCore::_numRows(mixed $result)
+```php
+integer DbCore::_numRows(mixed $result)
+```
 
 Get number of rows in a result
 
@@ -402,7 +450,9 @@ Get number of rows in a result
 
 ### <a name="method-_query"></a>_query
 
-    \PDOStatement|\mysqli_result|resource|boolean DbCore::_query(string $sql)
+```php
+\PDOStatement|\mysqli_result|resource|boolean DbCore::_query(string $sql)
+```
 
 Execute a query and get result resource
 
@@ -420,7 +470,9 @@ Execute a query and get result resource
 
 ### <a name="method-autoExecute"></a>autoExecute
 
-    boolean DbCore::autoExecute(string $table, array $data, string $type, string $where, integer $limit, boolean $use_cache, boolean $use_null)
+```php
+boolean DbCore::autoExecute(string $table, array $data, string $type, string $where, integer $limit, boolean $use_cache, boolean $use_null)
+```
 
 Executes SQL query based on selected type
 
@@ -443,7 +495,9 @@ Executes SQL query based on selected type
 
 ### <a name="method-autoExecuteWithNullValues"></a>autoExecuteWithNullValues
 
-    boolean DbCore::autoExecuteWithNullValues(string $table, array $values, string $type, string $where, integer $limit)
+```php
+boolean DbCore::autoExecuteWithNullValues(string $table, array $values, string $type, string $where, integer $limit)
+```
 
 Filter SQL query within a blacklist
 
@@ -464,7 +518,9 @@ Filter SQL query within a blacklist
 
 ### <a name="method-checkAutoIncrement"></a>checkAutoIncrement
 
-    boolean DbCore::checkAutoIncrement(string $server, string $user, string $pwd)
+```php
+boolean DbCore::checkAutoIncrement(string $server, string $user, string $pwd)
+```
 
 Checks if auto increment value and offset is 1
 
@@ -484,7 +540,9 @@ Checks if auto increment value and offset is 1
 
 ### <a name="method-checkConnection"></a>checkConnection
 
-    integer DbCore::checkConnection(string $server, string $user, string $pwd, string $db, boolean $new_db_link, string|boolean $engine, integer $timeout)
+```php
+integer DbCore::checkConnection(string $server, string $user, string $pwd, string $db, boolean $new_db_link, string|boolean $engine, integer $timeout)
+```
 
 Try a connection to the database
 
@@ -508,7 +566,9 @@ Try a connection to the database
 
 ### <a name="method-checkCreatePrivilege"></a>checkCreatePrivilege
 
-    boolean|string DbCore::checkCreatePrivilege(string $server, string $user, string $pwd, string $db, string $prefix, string|null $engine)
+```php
+boolean|string DbCore::checkCreatePrivilege(string $server, string $user, string $pwd, string $db, string $prefix, string|null $engine)
+```
 
 Tries to connect to the database and create a table (checking creation privileges)
 
@@ -531,7 +591,9 @@ Tries to connect to the database and create a table (checking creation privilege
 
 ### <a name="method-checkEncoding"></a>checkEncoding
 
-    boolean DbCore::checkEncoding(string $server, string $user, string $pwd)
+```php
+boolean DbCore::checkEncoding(string $server, string $user, string $pwd)
+```
 
 Try a connection to the database and set names to UTF-8
 
@@ -551,7 +613,9 @@ Try a connection to the database and set names to UTF-8
 
 ### <a name="method-connect"></a>connect
 
-    \PDO|\mysqli|resource DbCore::connect()
+```php
+\PDO|\mysqli|resource DbCore::connect()
+```
 
 Opens a database connection
 
@@ -566,7 +630,9 @@ Opens a database connection
 
 ### <a name="method-delete"></a>delete
 
-    boolean DbCore::delete(string $table, string $where, integer $limit, boolean $use_cache, boolean $add_prefix)
+```php
+boolean DbCore::delete(string $table, string $where, integer $limit, boolean $use_cache, boolean $add_prefix)
+```
 
 Executes a DELETE query
 
@@ -587,7 +653,9 @@ Executes a DELETE query
 
 ### <a name="method-deleteTestingInstance"></a>deleteTestingInstance
 
-    mixed DbCore::deleteTestingInstance()
+```php
+mixed DbCore::deleteTestingInstance()
+```
 
 Unit testing purpose only
 
@@ -602,7 +670,9 @@ Unit testing purpose only
 
 ### <a name="method-disableCache"></a>disableCache
 
-    mixed DbCore::disableCache()
+```php
+mixed DbCore::disableCache()
+```
 
 Disable the use of the cache
 
@@ -616,7 +686,9 @@ Disable the use of the cache
 
 ### <a name="method-disconnect"></a>disconnect
 
-    mixed DbCore::disconnect()
+```php
+mixed DbCore::disconnect()
+```
 
 Closes database connection
 
@@ -631,7 +703,9 @@ Closes database connection
 
 ### <a name="method-displayError"></a>displayError
 
-    mixed DbCore::displayError(string|boolean $sql)
+```php
+mixed DbCore::displayError(string|boolean $sql)
+```
 
 Displays last SQL error
 
@@ -648,7 +722,9 @@ Displays last SQL error
 
 ### <a name="method-ds"></a>ds
 
-    mixed DbCore::ds($sql, integer $use_cache)
+```php
+mixed DbCore::ds($sql, integer $use_cache)
+```
 
 Executes a query and kills process (dies)
 
@@ -667,7 +743,9 @@ Executes a query and kills process (dies)
 
 ### <a name="method-enableCache"></a>enableCache
 
-    mixed DbCore::enableCache()
+```php
+mixed DbCore::enableCache()
+```
 
 Enable & flush the cache
 
@@ -681,7 +759,9 @@ Enable & flush the cache
 
 ### <a name="method-escape"></a>escape
 
-    string DbCore::escape(string $string, boolean $html_ok, $bq_sql)
+```php
+string DbCore::escape(string $string, boolean $html_ok, $bq_sql)
+```
 
 Sanitize data which will be injected into SQL query
 
@@ -700,7 +780,9 @@ Sanitize data which will be injected into SQL query
 
 ### <a name="method-execute"></a>execute
 
-    boolean DbCore::execute(string|\DbQuery $sql, boolean $use_cache)
+```php
+boolean DbCore::execute(string|\DbQuery $sql, boolean $use_cache)
+```
 
 Executes a query
 
@@ -718,7 +800,9 @@ Executes a query
 
 ### <a name="method-executeS"></a>executeS
 
-    array|false|null|\mysqli_result|\PDOStatement|resource DbCore::executeS(string|\DbQuery $sql, boolean $array, boolean $use_cache)
+```php
+array|false|null|\mysqli_result|\PDOStatement|resource DbCore::executeS(string|\DbQuery $sql, boolean $array, boolean $use_cache)
+```
 
 Executes return the result of $sql as array
 
@@ -737,7 +821,9 @@ Executes return the result of $sql as array
 
 ### <a name="method-getAll"></a>getAll
 
-    array DbCore::getAll(\PDOStatement|\mysqli_result|resource|boolean|null $result)
+```php
+array DbCore::getAll(\PDOStatement|\mysqli_result|resource|boolean|null $result)
+```
 
 Get all rows for a query which return an array
 
@@ -755,7 +841,9 @@ Get all rows for a query which return an array
 
 ### <a name="method-getBestEngine"></a>getBestEngine
 
-    string DbCore::getBestEngine()
+```php
+string DbCore::getBestEngine()
+```
 
 Selects best table engine.
 
@@ -770,7 +858,9 @@ Selects best table engine.
 
 ### <a name="method-getClass"></a>getClass
 
-    string DbCore::getClass()
+```php
+string DbCore::getClass()
+```
 
 Returns the best child layer database class.
 
@@ -785,7 +875,9 @@ Returns the best child layer database class.
 
 ### <a name="method-getInstance"></a>getInstance
 
-    \Db DbCore::getInstance(boolean $master)
+```php
+\Db DbCore::getInstance(boolean $master)
+```
 
 Returns database object instance.
 
@@ -803,7 +895,9 @@ Returns database object instance.
 
 ### <a name="method-getLink"></a>getLink
 
-    \PDO|\mysqli|resource DbCore::getLink()
+```php
+\PDO|\mysqli|resource DbCore::getLink()
+```
 
 Get used link instance
 
@@ -817,7 +911,9 @@ Get used link instance
 
 ### <a name="method-getMsgError"></a>getMsgError
 
-    string DbCore::getMsgError()
+```php
+string DbCore::getMsgError()
+```
 
 Returns the text of the error message from previous database operation
 
@@ -832,7 +928,9 @@ Returns the text of the error message from previous database operation
 
 ### <a name="method-getNumberError"></a>getNumberError
 
-    integer DbCore::getNumberError()
+```php
+integer DbCore::getNumberError()
+```
 
 Returns the number of the error from previous database operation
 
@@ -847,7 +945,9 @@ Returns the number of the error from previous database operation
 
 ### <a name="method-getRow"></a>getRow
 
-    array|boolean|object|null DbCore::getRow(string|\DbQuery $sql, boolean $use_cache)
+```php
+array|boolean|object|null DbCore::getRow(string|\DbQuery $sql, boolean $use_cache)
+```
 
 Returns an associative array containing the first row of the query
 This function automatically adds "LIMIT 1" to the query
@@ -866,7 +966,9 @@ This function automatically adds "LIMIT 1" to the query
 
 ### <a name="method-getValue"></a>getValue
 
-    string|false|null DbCore::getValue(string|\DbQuery $sql, boolean $use_cache)
+```php
+string|false|null DbCore::getValue(string|\DbQuery $sql, boolean $use_cache)
+```
 
 Returns a value from the first row, first column of a SELECT query
 
@@ -884,7 +986,9 @@ Returns a value from the first row, first column of a SELECT query
 
 ### <a name="method-getVersion"></a>getVersion
 
-    string DbCore::getVersion()
+```php
+string DbCore::getVersion()
+```
 
 Get database version
 
@@ -899,7 +1003,9 @@ Get database version
 
 ### <a name="method-hasTableWithSamePrefix"></a>hasTableWithSamePrefix
 
-    boolean DbCore::hasTableWithSamePrefix(string $server, string $user, string $pwd, string $db, string $prefix)
+```php
+boolean DbCore::hasTableWithSamePrefix(string $server, string $user, string $pwd, string $db, string $prefix)
+```
 
 Try a connection to the database and check if at least one table with same prefix exists
 
@@ -921,7 +1027,9 @@ Try a connection to the database and check if at least one table with same prefi
 
 ### <a name="method-insert"></a>insert
 
-    boolean DbCore::insert(string $table, array $data, boolean $null_values, boolean $use_cache, integer $type, boolean $add_prefix)
+```php
+boolean DbCore::insert(string $table, array $data, boolean $null_values, boolean $use_cache, integer $type, boolean $add_prefix)
+```
 
 Executes an INSERT query
 
@@ -943,7 +1051,9 @@ Executes an INSERT query
 
 ### <a name="method-loadSlaveServers"></a>loadSlaveServers
 
-    mixed DbCore::loadSlaveServers()
+```php
+mixed DbCore::loadSlaveServers()
+```
 
 Loads configuration settings for slave servers if needed.
 
@@ -958,7 +1068,9 @@ Loads configuration settings for slave servers if needed.
 
 ### <a name="method-nextRow"></a>nextRow
 
-    array|object|false|null DbCore::nextRow(\PDOStatement|\mysqli_result|resource|boolean $result)
+```php
+array|object|false|null DbCore::nextRow(\PDOStatement|\mysqli_result|resource|boolean $result)
+```
 
 Get next row for a query which does not return an array
 
@@ -976,7 +1088,9 @@ Get next row for a query which does not return an array
 
 ### <a name="method-numRows"></a>numRows
 
-    integer DbCore::numRows()
+```php
+integer DbCore::numRows()
+```
 
 Get number of rows for last result
 
@@ -990,7 +1104,9 @@ Get number of rows for last result
 
 ### <a name="method-ps"></a>ps
 
-    array|boolean|\mysqli_result|\PDOStatement|resource DbCore::ps($sql, integer $use_cache)
+```php
+array|boolean|\mysqli_result|\PDOStatement|resource DbCore::ps($sql, integer $use_cache)
+```
 
 Executes a query
 
@@ -1009,7 +1125,9 @@ Executes a query
 
 ### <a name="method-q"></a>q
 
-    boolean|\mysqli_result|\PDOStatement|resource DbCore::q(string|\DbQuery $sql, boolean $use_cache)
+```php
+boolean|\mysqli_result|\PDOStatement|resource DbCore::q(string|\DbQuery $sql, boolean $use_cache)
+```
 
 Executes a query
 
@@ -1027,7 +1145,9 @@ Executes a query
 
 ### <a name="method-query"></a>query
 
-    boolean|\mysqli_result|\PDOStatement|resource DbCore::query(string|\DbQuery $sql)
+```php
+boolean|\mysqli_result|\PDOStatement|resource DbCore::query(string|\DbQuery $sql)
+```
 
 Execute a query and get result resource
 
@@ -1044,7 +1164,9 @@ Execute a query and get result resource
 
 ### <a name="method-s"></a>s
 
-    array|boolean|\mysqli_result|\PDOStatement|resource DbCore::s(string|\DbQuery $sql, boolean $use_cache)
+```php
+array|boolean|\mysqli_result|\PDOStatement|resource DbCore::s(string|\DbQuery $sql, boolean $use_cache)
+```
 
 Executes a query
 
@@ -1063,7 +1185,9 @@ Executes a query
 
 ### <a name="method-setInstanceForTesting"></a>setInstanceForTesting
 
-    mixed DbCore::setInstanceForTesting($test_db)
+```php
+mixed DbCore::setInstanceForTesting($test_db)
+```
 
 
 
@@ -1082,7 +1206,9 @@ Unit testing purpose only
 
 ### <a name="method-set_db"></a>set_db
 
-    boolean|integer DbCore::set_db(string $db_name)
+```php
+boolean|integer DbCore::set_db(string $db_name)
+```
 
 Sets the current active database on the server that's associated with the specified link identifier.
 
@@ -1100,7 +1226,9 @@ Do not remove, useful for some modules.
 
 ### <a name="method-update"></a>update
 
-    boolean DbCore::update(string $table, array $data, string $where, integer $limit, boolean $null_values, boolean $use_cache, boolean $add_prefix)
+```php
+boolean DbCore::update(string $table, array $data, string $where, integer $limit, boolean $null_values, boolean $use_cache, boolean $add_prefix)
+```
 
 Executes an UPDATE query
 

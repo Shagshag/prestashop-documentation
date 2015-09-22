@@ -9,11 +9,13 @@ Class TranslateCore
 * Source: [classes/Translate.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#L30)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [checkAndReplaceArgs](#method-checkAndReplaceArgs)
 * [getAdminTranslation](#method-getAdminTranslation)
 * [getGenericAdminTranslation](#method-getGenericAdminTranslation)
@@ -34,7 +36,9 @@ Methods
 
 ### <a name="method-checkAndReplaceArgs"></a>checkAndReplaceArgs
 
-    string TranslateCore::checkAndReplaceArgs($string, $args)
+```php
+string TranslateCore::checkAndReplaceArgs($string, $args)
+```
 
 Check if string use a specif syntax for sprintf and replace arguments if use it
 
@@ -53,7 +57,9 @@ Check if string use a specif syntax for sprintf and replace arguments if use it
 
 ### <a name="method-getAdminTranslation"></a>getAdminTranslation
 
-    string TranslateCore::getAdminTranslation($string, string $class, boolean $addslashes, boolean $htmlentities, $sprintf)
+```php
+string TranslateCore::getAdminTranslation($string, string $class, boolean $addslashes, boolean $htmlentities, $sprintf)
+```
 
 Get a translation for an admin controller
 
@@ -75,7 +81,9 @@ Get a translation for an admin controller
 
 ### <a name="method-getGenericAdminTranslation"></a>getGenericAdminTranslation
 
-    string TranslateCore::getGenericAdminTranslation($string, null $key, array $lang_array)
+```php
+string TranslateCore::getGenericAdminTranslation($string, null $key, array $lang_array)
+```
 
 Return the translation for a string if it exists for the base AdminController or for helpers
 
@@ -95,7 +103,9 @@ Return the translation for a string if it exists for the base AdminController or
 
 ### <a name="method-getModuleTranslation"></a>getModuleTranslation
 
-    string TranslateCore::getModuleTranslation(string|\Module $module, string $string, string $source, $sprintf, $js)
+```php
+string TranslateCore::getModuleTranslation(string|\Module $module, string $string, string $source, $sprintf, $js)
+```
 
 Get a translation for a module
 
@@ -117,7 +127,9 @@ Get a translation for a module
 
 ### <a name="method-getPdfTranslation"></a>getPdfTranslation
 
-    string TranslateCore::getPdfTranslation(string $string, $sprintf)
+```php
+string TranslateCore::getPdfTranslation(string $string, $sprintf)
+```
 
 Get a translation for a PDF
 
@@ -136,7 +148,9 @@ Get a translation for a PDF
 
 ### <a name="method-postProcessTranslation"></a>postProcessTranslation
 
-    mixed TranslateCore::postProcessTranslation($string, $params)
+```php
+mixed TranslateCore::postProcessTranslation($string, $params)
+```
 
 Perform operations on translations after everything is escaped and before displaying it
 
@@ -155,7 +169,9 @@ Perform operations on translations after everything is escaped and before displa
 
 ### <a name="method-ppTags"></a>ppTags
 
-    mixed TranslateCore::ppTags($string, $tags)
+```php
+mixed TranslateCore::ppTags($string, $tags)
+```
 
 Helper function to make calls to postProcessTranslation more readable.
 
@@ -174,7 +190,9 @@ Helper function to make calls to postProcessTranslation more readable.
 
 ### <a name="method-smartyPostProcessTranslation"></a>smartyPostProcessTranslation
 
-    mixed TranslateCore::smartyPostProcessTranslation($string, $params)
+```php
+mixed TranslateCore::smartyPostProcessTranslation($string, $params)
+```
 
 Compatibility method that just calls postProcessTranslation.
 

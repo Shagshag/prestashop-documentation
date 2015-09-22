@@ -10,17 +10,19 @@ Class AdminCmsControllerCore
 * Source: [controllers/admin/AdminCmsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$category](#property-$category)
 * [$id_cms_category](#property-$id_cms_category)
 * [$object](#property-$object)
 * [$position_identifier](#property-$position_identifier)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [displayList](#method-displayList)
 * [getPreviewUrl](#method-getPreviewUrl)
@@ -38,7 +40,9 @@ Properties
 
 ### <a name="property-$category"></a>$category
 
-    protected mixed $category
+```php
+protected mixed $category
+```
 
 
 
@@ -50,7 +54,9 @@ Properties
 
 ### <a name="property-$id_cms_category"></a>$id_cms_category
 
-    public mixed $id_cms_category
+```php
+public mixed $id_cms_category
+```
 
 
 
@@ -62,7 +68,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \CMS $object
+```php
+public \CMS $object
+```
 
 
 
@@ -74,7 +82,9 @@ Properties
 
 ### <a name="property-$position_identifier"></a>$position_identifier
 
-    protected mixed $position_identifier = 'id_cms'
+```php
+protected mixed $position_identifier = 'id_cms'
+```
 
 
 
@@ -90,7 +100,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminCmsControllerCore::__construct()
+```php
+mixed AdminCmsControllerCore::__construct()
+```
 
 
 
@@ -104,7 +116,9 @@ Methods
 
 ### <a name="method-displayList"></a>displayList
 
-    mixed AdminCmsControllerCore::displayList($token)
+```php
+mixed AdminCmsControllerCore::displayList($token)
+```
 
 
 
@@ -121,7 +135,9 @@ Methods
 
 ### <a name="method-getPreviewUrl"></a>getPreviewUrl
 
-    mixed AdminCmsControllerCore::getPreviewUrl(\CMS $cms)
+```php
+mixed AdminCmsControllerCore::getPreviewUrl(\CMS $cms)
+```
 
 
 
@@ -138,7 +154,9 @@ Methods
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminCmsControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminCmsControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -152,7 +170,9 @@ Methods
 
 ### <a name="method-postProcess"></a>postProcess
 
-    mixed AdminCmsControllerCore::postProcess()
+```php
+mixed AdminCmsControllerCore::postProcess()
+```
 
 
 
@@ -166,7 +186,9 @@ Methods
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminCmsControllerCore::renderForm()
+```php
+mixed AdminCmsControllerCore::renderForm()
+```
 
 
 
@@ -180,7 +202,9 @@ Methods
 
 ### <a name="method-renderList"></a>renderList
 
-    mixed AdminCmsControllerCore::renderList()
+```php
+mixed AdminCmsControllerCore::renderList()
+```
 
 
 

@@ -10,11 +10,13 @@ Class AdminAddonsCatalogControllerCore
 * Source: [controllers/admin/AdminAddonsCatalogController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddonsCatalogController.php#L27)
 
 
+Contents
+--------
 
 
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [initContent](#method-initContent)
 
@@ -29,7 +31,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminAddonsCatalogControllerCore::__construct()
+```php
+mixed AdminAddonsCatalogControllerCore::__construct()
+```
 
 
 
@@ -43,7 +47,9 @@ Methods
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminAddonsCatalogControllerCore::initContent()
+```php
+mixed AdminAddonsCatalogControllerCore::initContent()
+```
 
 
 

@@ -10,15 +10,17 @@ Class AdminAccessControllerCore
 * Source: [controllers/admin/AdminAccessController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L30)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$accesses_black_list](#property-$accesses_black_list)
 * [$object](#property-$object)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [ajaxProcessUpdateAccess](#method-ajaxProcessUpdateAccess)
 * [ajaxProcessUpdateModuleAccess](#method-ajaxProcessUpdateModuleAccess)
@@ -38,7 +40,9 @@ Properties
 
 ### <a name="property-$accesses_black_list"></a>$accesses_black_list
 
-    public mixed $accesses_black_list = array()
+```php
+public mixed $accesses_black_list = array()
+```
 
 
 
@@ -50,7 +54,9 @@ Properties
 
 ### <a name="property-$object"></a>$object
 
-    public \Profile $object
+```php
+public \Profile $object
+```
 
 
 
@@ -66,7 +72,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed AdminAccessControllerCore::__construct()
+```php
+mixed AdminAccessControllerCore::__construct()
+```
 
 
 
@@ -80,7 +88,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateAccess"></a>ajaxProcessUpdateAccess
 
-    mixed AdminAccessControllerCore::ajaxProcessUpdateAccess()
+```php
+mixed AdminAccessControllerCore::ajaxProcessUpdateAccess()
+```
 
 
 
@@ -94,7 +104,9 @@ Methods
 
 ### <a name="method-ajaxProcessUpdateModuleAccess"></a>ajaxProcessUpdateModuleAccess
 
-    mixed AdminAccessControllerCore::ajaxProcessUpdateModuleAccess()
+```php
+mixed AdminAccessControllerCore::ajaxProcessUpdateModuleAccess()
+```
 
 
 
@@ -108,7 +120,9 @@ Methods
 
 ### <a name="method-getCurrentProfileId"></a>getCurrentProfileId
 
-    integer AdminAccessControllerCore::getCurrentProfileId()
+```php
+integer AdminAccessControllerCore::getCurrentProfileId()
+```
 
 Get the current profile id
 
@@ -122,7 +136,9 @@ Get the current profile id
 
 ### <a name="method-initContent"></a>initContent
 
-    mixed AdminAccessControllerCore::initContent()
+```php
+mixed AdminAccessControllerCore::initContent()
+```
 
 AdminController::initContent() override
 
@@ -136,7 +152,9 @@ AdminController::initContent() override
 
 ### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
-    mixed AdminAccessControllerCore::initPageHeaderToolbar()
+```php
+mixed AdminAccessControllerCore::initPageHeaderToolbar()
+```
 
 
 
@@ -150,7 +168,9 @@ AdminController::initContent() override
 
 ### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
-    mixed AdminAccessControllerCore::initToolbarTitle()
+```php
+mixed AdminAccessControllerCore::initToolbarTitle()
+```
 
 
 
@@ -164,7 +184,9 @@ AdminController::initContent() override
 
 ### <a name="method-renderForm"></a>renderForm
 
-    mixed AdminAccessControllerCore::renderForm()
+```php
+mixed AdminAccessControllerCore::renderForm()
+```
 
 AdminController::renderForm() override
 
@@ -178,7 +200,9 @@ AdminController::renderForm() override
 
 ### <a name="method-sortModuleByName"></a>sortModuleByName
 
-    mixed AdminAccessControllerCore::sortModuleByName($a, $b)
+```php
+mixed AdminAccessControllerCore::sortModuleByName($a, $b)
+```
 
 
 

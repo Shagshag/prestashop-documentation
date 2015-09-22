@@ -10,9 +10,11 @@ Class TaxRulesGroupCore
 * Source: [classes/tax/TaxRulesGroup.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L28)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_taxes](#property-$_taxes)
 * [$active](#property-$active)
@@ -23,8 +25,8 @@ Properties
 * [$name](#property-$name)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [delete](#method-delete)
 * [getAssociatedTaxRatesByIdCountry](#method-getAssociatedTaxRatesByIdCountry)
 * [getIdByName](#method-getIdByName)
@@ -47,7 +49,9 @@ Properties
 
 ### <a name="property-$_taxes"></a>$_taxes
 
-    protected mixed $_taxes = array()
+```php
+protected mixed $_taxes = array()
+```
 
 
 
@@ -60,7 +64,9 @@ Properties
 
 ### <a name="property-$active"></a>$active
 
-    public boolean $active
+```php
+public boolean $active
+```
 
 
 
@@ -72,7 +78,9 @@ Properties
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -84,7 +92,9 @@ Properties
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -96,7 +106,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'tax_rules_group', 'primary' => 'id_tax_rules_group', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'tax_rules_group', 'primary' => 'id_tax_rules_group', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -109,7 +121,9 @@ Properties
 
 ### <a name="property-$deleted"></a>$deleted
 
-    public mixed $deleted
+```php
+public mixed $deleted
+```
 
 
 
@@ -121,7 +135,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public mixed $name
+```php
+public mixed $name
+```
 
 
 
@@ -133,7 +149,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'tax_rule_groups', 'objectNodeName' => 'tax_rule_group', 'fields' => array())
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'tax_rule_groups', 'objectNodeName' => 'tax_rule_group', 'fields' => array())
+```
 
 
 
@@ -149,7 +167,9 @@ Methods
 
 ### <a name="method-delete"></a>delete
 
-    mixed TaxRulesGroupCore::delete()
+```php
+mixed TaxRulesGroupCore::delete()
+```
 
 
 
@@ -163,7 +183,9 @@ Methods
 
 ### <a name="method-getAssociatedTaxRatesByIdCountry"></a>getAssociatedTaxRatesByIdCountry
 
-    array TaxRulesGroupCore::getAssociatedTaxRatesByIdCountry($id_country)
+```php
+array TaxRulesGroupCore::getAssociatedTaxRatesByIdCountry($id_country)
+```
 
 
 
@@ -181,7 +203,9 @@ Methods
 
 ### <a name="method-getIdByName"></a>getIdByName
 
-    integer TaxRulesGroupCore::getIdByName(string $name)
+```php
+integer TaxRulesGroupCore::getIdByName(string $name)
+```
 
 Returns the tax rules group id corresponding to the name
 
@@ -199,7 +223,9 @@ Returns the tax rules group id corresponding to the name
 
 ### <a name="method-getIdTaxRuleGroupFromHistorizedId"></a>getIdTaxRuleGroupFromHistorizedId
 
-    mixed TaxRulesGroupCore::getIdTaxRuleGroupFromHistorizedId($id_tax_rule)
+```php
+mixed TaxRulesGroupCore::getIdTaxRuleGroupFromHistorizedId($id_tax_rule)
+```
 
 
 
@@ -216,7 +242,9 @@ Returns the tax rules group id corresponding to the name
 
 ### <a name="method-getTaxRulesGroups"></a>getTaxRulesGroups
 
-    mixed TaxRulesGroupCore::getTaxRulesGroups($only_active)
+```php
+mixed TaxRulesGroupCore::getTaxRulesGroups($only_active)
+```
 
 
 
@@ -234,7 +262,9 @@ Returns the tax rules group id corresponding to the name
 
 ### <a name="method-getTaxRulesGroupsForOptions"></a>getTaxRulesGroupsForOptions
 
-    array TaxRulesGroupCore::getTaxRulesGroupsForOptions()
+```php
+array TaxRulesGroupCore::getTaxRulesGroupsForOptions()
+```
 
 
 
@@ -249,7 +279,9 @@ Returns the tax rules group id corresponding to the name
 
 ### <a name="method-getTaxes"></a>getTaxes
 
-    mixed TaxRulesGroupCore::getTaxes($id_tax_rules_group, $id_country, $id_state, $id_county)
+```php
+mixed TaxRulesGroupCore::getTaxes($id_tax_rules_group, $id_country, $id_state, $id_county)
+```
 
 Return taxes associated to this para
 
@@ -270,7 +302,9 @@ Return taxes associated to this para
 
 ### <a name="method-getTaxesRate"></a>getTaxesRate
 
-    mixed TaxRulesGroupCore::getTaxesRate($id_tax_rules_group, $id_country, $id_state, $zipcode)
+```php
+mixed TaxRulesGroupCore::getTaxesRate($id_tax_rules_group, $id_country, $id_state, $zipcode)
+```
 
 
 
@@ -291,7 +325,9 @@ Return taxes associated to this para
 
 ### <a name="method-hasUniqueTaxRuleForCountry"></a>hasUniqueTaxRuleForCountry
 
-    mixed TaxRulesGroupCore::hasUniqueTaxRuleForCountry($id_country, $id_state, $id_tax_rule)
+```php
+mixed TaxRulesGroupCore::hasUniqueTaxRuleForCountry($id_country, $id_state, $id_tax_rule)
+```
 
 
 
@@ -310,7 +346,9 @@ Return taxes associated to this para
 
 ### <a name="method-historize"></a>historize
 
-    mixed TaxRulesGroupCore::historize(\TaxRulesGroup $tax_rules_group)
+```php
+mixed TaxRulesGroupCore::historize(\TaxRulesGroup $tax_rules_group)
+```
 
 Save the object with the field deleted to true
 
@@ -327,7 +365,9 @@ Save the object with the field deleted to true
 
 ### <a name="method-isUsed"></a>isUsed
 
-    mixed TaxRulesGroupCore::isUsed()
+```php
+mixed TaxRulesGroupCore::isUsed()
+```
 
 
 
@@ -341,7 +381,9 @@ Save the object with the field deleted to true
 
 ### <a name="method-update"></a>update
 
-    mixed TaxRulesGroupCore::update($null_values)
+```php
+mixed TaxRulesGroupCore::update($null_values)
+```
 
 
 

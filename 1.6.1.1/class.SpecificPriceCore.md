@@ -10,9 +10,11 @@ Class SpecificPriceCore
 * Source: [classes/SpecificPrice.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$_cache_priorities](#property-$_cache_priorities)
 * [$_specificPriceCache](#property-$_specificPriceCache)
@@ -36,8 +38,8 @@ Properties
 * [$to](#property-$to)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [_getScoreQuery](#method-_getScoreQuery)
 * [add](#method-add)
 * [delete](#method-delete)
@@ -67,7 +69,9 @@ Properties
 
 ### <a name="property-$_cache_priorities"></a>$_cache_priorities
 
-    protected mixed $_cache_priorities = array()
+```php
+protected mixed $_cache_priorities = array()
+```
 
 
 
@@ -80,7 +84,9 @@ Properties
 
 ### <a name="property-$_specificPriceCache"></a>$_specificPriceCache
 
-    protected mixed $_specificPriceCache = array()
+```php
+protected mixed $_specificPriceCache = array()
+```
 
 
 
@@ -93,7 +99,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'specific_price', 'primary' => 'id_specific_price', 'fields' => array('id_shop_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_cart' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_specific_price_rule' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isNegativePrice', 'required' => true), 'from_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'reduction' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'reduction_tax' => array('type' => self::TYPE_INT, 'validate' => 'isBool', 'required' => true), 'reduction_type' => array('type' => self::TYPE_STRING, 'validate' => 'isReductionType', 'required' => true), 'from' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat', 'required' => true), 'to' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat', 'required' => true)))
+```php
+public mixed $definition = array('table' => 'specific_price', 'primary' => 'id_specific_price', 'fields' => array('id_shop_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_cart' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_specific_price_rule' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isNegativePrice', 'required' => true), 'from_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'reduction' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'reduction_tax' => array('type' => self::TYPE_INT, 'validate' => 'isBool', 'required' => true), 'reduction_type' => array('type' => self::TYPE_STRING, 'validate' => 'isReductionType', 'required' => true), 'from' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat', 'required' => true), 'to' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat', 'required' => true)))
+```
 
 
 
@@ -106,7 +114,9 @@ Properties
 
 ### <a name="property-$from"></a>$from
 
-    public mixed $from
+```php
+public mixed $from
+```
 
 
 
@@ -118,7 +128,9 @@ Properties
 
 ### <a name="property-$from_quantity"></a>$from_quantity
 
-    public mixed $from_quantity
+```php
+public mixed $from_quantity
+```
 
 
 
@@ -130,7 +142,9 @@ Properties
 
 ### <a name="property-$id_cart"></a>$id_cart
 
-    public mixed $id_cart
+```php
+public mixed $id_cart
+```
 
 
 
@@ -142,7 +156,9 @@ Properties
 
 ### <a name="property-$id_country"></a>$id_country
 
-    public mixed $id_country
+```php
+public mixed $id_country
+```
 
 
 
@@ -154,7 +170,9 @@ Properties
 
 ### <a name="property-$id_currency"></a>$id_currency
 
-    public mixed $id_currency
+```php
+public mixed $id_currency
+```
 
 
 
@@ -166,7 +184,9 @@ Properties
 
 ### <a name="property-$id_customer"></a>$id_customer
 
-    public mixed $id_customer
+```php
+public mixed $id_customer
+```
 
 
 
@@ -178,7 +198,9 @@ Properties
 
 ### <a name="property-$id_group"></a>$id_group
 
-    public mixed $id_group
+```php
+public mixed $id_group
+```
 
 
 
@@ -190,7 +212,9 @@ Properties
 
 ### <a name="property-$id_product"></a>$id_product
 
-    public mixed $id_product
+```php
+public mixed $id_product
+```
 
 
 
@@ -202,7 +226,9 @@ Properties
 
 ### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
-    public mixed $id_product_attribute
+```php
+public mixed $id_product_attribute
+```
 
 
 
@@ -214,7 +240,9 @@ Properties
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public mixed $id_shop
+```php
+public mixed $id_shop
+```
 
 
 
@@ -226,7 +254,9 @@ Properties
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
 
-    public mixed $id_shop_group
+```php
+public mixed $id_shop_group
+```
 
 
 
@@ -238,7 +268,9 @@ Properties
 
 ### <a name="property-$id_specific_price_rule"></a>$id_specific_price_rule
 
-    public mixed $id_specific_price_rule
+```php
+public mixed $id_specific_price_rule
+```
 
 
 
@@ -250,7 +282,9 @@ Properties
 
 ### <a name="property-$price"></a>$price
 
-    public mixed $price
+```php
+public mixed $price
+```
 
 
 
@@ -262,7 +296,9 @@ Properties
 
 ### <a name="property-$reduction"></a>$reduction
 
-    public mixed $reduction
+```php
+public mixed $reduction
+```
 
 
 
@@ -274,7 +310,9 @@ Properties
 
 ### <a name="property-$reduction_tax"></a>$reduction_tax
 
-    public mixed $reduction_tax = 1
+```php
+public mixed $reduction_tax = 1
+```
 
 
 
@@ -286,7 +324,9 @@ Properties
 
 ### <a name="property-$reduction_type"></a>$reduction_type
 
-    public mixed $reduction_type
+```php
+public mixed $reduction_type
+```
 
 
 
@@ -298,7 +338,9 @@ Properties
 
 ### <a name="property-$to"></a>$to
 
-    public mixed $to
+```php
+public mixed $to
+```
 
 
 
@@ -310,7 +352,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectsNodeName' => 'specific_prices', 'objectNodeName' => 'specific_price', 'fields' => array('id_shop_group' => array('xlink_resource' => 'shop_groups'), 'id_shop' => array('xlink_resource' => 'shops', 'required' => true), 'id_cart' => array('xlink_resource' => 'carts', 'required' => true), 'id_product' => array('xlink_resource' => 'products', 'required' => true), 'id_product_attribute' => array('xlink_resource' => 'product_attributes'), 'id_currency' => array('xlink_resource' => 'currencies', 'required' => true), 'id_country' => array('xlink_resource' => 'countries', 'required' => true), 'id_group' => array('xlink_resource' => 'groups', 'required' => true), 'id_customer' => array('xlink_resource' => 'customers', 'required' => true)))
+```php
+protected mixed $webserviceParameters = array('objectsNodeName' => 'specific_prices', 'objectNodeName' => 'specific_price', 'fields' => array('id_shop_group' => array('xlink_resource' => 'shop_groups'), 'id_shop' => array('xlink_resource' => 'shops', 'required' => true), 'id_cart' => array('xlink_resource' => 'carts', 'required' => true), 'id_product' => array('xlink_resource' => 'products', 'required' => true), 'id_product_attribute' => array('xlink_resource' => 'product_attributes'), 'id_currency' => array('xlink_resource' => 'currencies', 'required' => true), 'id_country' => array('xlink_resource' => 'countries', 'required' => true), 'id_group' => array('xlink_resource' => 'groups', 'required' => true), 'id_customer' => array('xlink_resource' => 'customers', 'required' => true)))
+```
 
 
 
@@ -326,7 +370,9 @@ Methods
 
 ### <a name="method-_getScoreQuery"></a>_getScoreQuery
 
-    mixed SpecificPriceCore::_getScoreQuery($id_product, $id_shop, $id_currency, $id_country, $id_group, $id_customer)
+```php
+mixed SpecificPriceCore::_getScoreQuery($id_product, $id_shop, $id_currency, $id_country, $id_group, $id_customer)
+```
 
 score generation for quantity discount
 
@@ -349,7 +395,9 @@ score generation for quantity discount
 
 ### <a name="method-add"></a>add
 
-    mixed SpecificPriceCore::add($autodate, $nullValues)
+```php
+mixed SpecificPriceCore::add($autodate, $nullValues)
+```
 
 
 
@@ -367,7 +415,9 @@ score generation for quantity discount
 
 ### <a name="method-delete"></a>delete
 
-    mixed SpecificPriceCore::delete()
+```php
+mixed SpecificPriceCore::delete()
+```
 
 
 
@@ -381,7 +431,9 @@ score generation for quantity discount
 
 ### <a name="method-deleteByIdCart"></a>deleteByIdCart
 
-    mixed SpecificPriceCore::deleteByIdCart($id_cart, $id_product, $id_product_attribute)
+```php
+mixed SpecificPriceCore::deleteByIdCart($id_cart, $id_product, $id_product_attribute)
+```
 
 
 
@@ -401,7 +453,9 @@ score generation for quantity discount
 
 ### <a name="method-deleteByProductId"></a>deleteByProductId
 
-    mixed SpecificPriceCore::deleteByProductId($id_product)
+```php
+mixed SpecificPriceCore::deleteByProductId($id_product)
+```
 
 
 
@@ -419,7 +473,9 @@ score generation for quantity discount
 
 ### <a name="method-deletePriorities"></a>deletePriorities
 
-    mixed SpecificPriceCore::deletePriorities()
+```php
+mixed SpecificPriceCore::deletePriorities()
+```
 
 
 
@@ -434,7 +490,9 @@ score generation for quantity discount
 
 ### <a name="method-duplicate"></a>duplicate
 
-    mixed SpecificPriceCore::duplicate($id_product)
+```php
+mixed SpecificPriceCore::duplicate($id_product)
+```
 
 
 
@@ -451,7 +509,9 @@ score generation for quantity discount
 
 ### <a name="method-exists"></a>exists
 
-    mixed SpecificPriceCore::exists($id_product, $id_product_attribute, $id_shop, $id_group, $id_country, $id_currency, $id_customer, $from_quantity, $from, $to, $rule)
+```php
+mixed SpecificPriceCore::exists($id_product, $id_product_attribute, $id_shop, $id_group, $id_country, $id_currency, $id_customer, $from_quantity, $from, $to, $rule)
+```
 
 
 
@@ -479,7 +539,9 @@ score generation for quantity discount
 
 ### <a name="method-getByProductId"></a>getByProductId
 
-    mixed SpecificPriceCore::getByProductId($id_product, $id_product_attribute, $id_cart)
+```php
+mixed SpecificPriceCore::getByProductId($id_product, $id_product_attribute, $id_cart)
+```
 
 
 
@@ -499,7 +561,9 @@ score generation for quantity discount
 
 ### <a name="method-getIdsByProductId"></a>getIdsByProductId
 
-    mixed SpecificPriceCore::getIdsByProductId($id_product, $id_product_attribute, $id_cart)
+```php
+mixed SpecificPriceCore::getIdsByProductId($id_product, $id_product_attribute, $id_cart)
+```
 
 
 
@@ -519,7 +583,9 @@ score generation for quantity discount
 
 ### <a name="method-getPriority"></a>getPriority
 
-    mixed SpecificPriceCore::getPriority($id_product)
+```php
+mixed SpecificPriceCore::getPriority($id_product)
+```
 
 
 
@@ -537,7 +603,9 @@ score generation for quantity discount
 
 ### <a name="method-getProductIdByDate"></a>getProductIdByDate
 
-    mixed SpecificPriceCore::getProductIdByDate($id_shop, $id_currency, $id_country, $id_group, $beginning, $ending, $id_customer, $with_combination_id)
+```php
+mixed SpecificPriceCore::getProductIdByDate($id_shop, $id_currency, $id_country, $id_group, $beginning, $ending, $id_customer, $with_combination_id)
+```
 
 
 
@@ -562,7 +630,9 @@ score generation for quantity discount
 
 ### <a name="method-getQuantityDiscount"></a>getQuantityDiscount
 
-    mixed SpecificPriceCore::getQuantityDiscount($id_product, $id_shop, $id_currency, $id_country, $id_group, $quantity, $id_product_attribute, $id_customer)
+```php
+mixed SpecificPriceCore::getQuantityDiscount($id_product, $id_shop, $id_currency, $id_country, $id_group, $quantity, $id_product_attribute, $id_customer)
+```
 
 
 
@@ -587,7 +657,9 @@ score generation for quantity discount
 
 ### <a name="method-getQuantityDiscounts"></a>getQuantityDiscounts
 
-    mixed SpecificPriceCore::getQuantityDiscounts($id_product, $id_shop, $id_currency, $id_country, $id_group, $id_product_attribute, $all_combinations, $id_customer)
+```php
+mixed SpecificPriceCore::getQuantityDiscounts($id_product, $id_shop, $id_currency, $id_country, $id_group, $id_product_attribute, $all_combinations, $id_customer)
+```
 
 
 
@@ -612,7 +684,9 @@ score generation for quantity discount
 
 ### <a name="method-getSpecificPrice"></a>getSpecificPrice
 
-    mixed SpecificPriceCore::getSpecificPrice($id_product, $id_shop, $id_currency, $id_country, $id_group, $quantity, $id_product_attribute, $id_customer, $id_cart, $real_quantity)
+```php
+mixed SpecificPriceCore::getSpecificPrice($id_product, $id_shop, $id_currency, $id_country, $id_group, $quantity, $id_product_attribute, $id_customer, $id_cart, $real_quantity)
+```
 
 
 
@@ -639,7 +713,9 @@ score generation for quantity discount
 
 ### <a name="method-isFeatureActive"></a>isFeatureActive
 
-    boolean SpecificPriceCore::isFeatureActive()
+```php
+boolean SpecificPriceCore::isFeatureActive()
+```
 
 This method is allow to know if a feature is used or active
 
@@ -654,7 +730,9 @@ This method is allow to know if a feature is used or active
 
 ### <a name="method-setPriorities"></a>setPriorities
 
-    mixed SpecificPriceCore::setPriorities($priorities)
+```php
+mixed SpecificPriceCore::setPriorities($priorities)
+```
 
 
 
@@ -672,7 +750,9 @@ This method is allow to know if a feature is used or active
 
 ### <a name="method-setSpecificPriority"></a>setSpecificPriority
 
-    mixed SpecificPriceCore::setSpecificPriority($id_product, $priorities)
+```php
+mixed SpecificPriceCore::setSpecificPriority($id_product, $priorities)
+```
 
 
 
@@ -691,7 +771,9 @@ This method is allow to know if a feature is used or active
 
 ### <a name="method-update"></a>update
 
-    mixed SpecificPriceCore::update($null_values)
+```php
+mixed SpecificPriceCore::update($null_values)
+```
 
 
 

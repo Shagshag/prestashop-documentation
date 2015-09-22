@@ -10,9 +10,11 @@ Class OrderCartRuleCore
 * Source: [classes/order/OrderCartRule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L27)
 
 
+Contents
+--------
 
-Properties
-----------
+
+### Properties
 
 * [$definition](#property-$definition)
 * [$free_shipping](#property-$free_shipping)
@@ -35,7 +37,9 @@ Properties
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'order_cart_rule', 'primary' => 'id_order_cart_rule', 'fields' => array('id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_cart_rule' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order_invoice' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'required' => true), 'value' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'value_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'free_shipping' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```php
+public mixed $definition = array('table' => 'order_cart_rule', 'primary' => 'id_order_cart_rule', 'fields' => array('id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_cart_rule' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order_invoice' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'required' => true), 'value' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'value_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'free_shipping' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
+```
 
 
 
@@ -48,7 +52,9 @@ Properties
 
 ### <a name="property-$free_shipping"></a>$free_shipping
 
-    public boolean $free_shipping
+```php
+public boolean $free_shipping
+```
 
 
 
@@ -60,7 +66,9 @@ Properties
 
 ### <a name="property-$id_cart_rule"></a>$id_cart_rule
 
-    public integer $id_cart_rule
+```php
+public integer $id_cart_rule
+```
 
 
 
@@ -72,7 +80,9 @@ Properties
 
 ### <a name="property-$id_order"></a>$id_order
 
-    public integer $id_order
+```php
+public integer $id_order
+```
 
 
 
@@ -84,7 +94,9 @@ Properties
 
 ### <a name="property-$id_order_cart_rule"></a>$id_order_cart_rule
 
-    public integer $id_order_cart_rule
+```php
+public integer $id_order_cart_rule
+```
 
 
 
@@ -96,7 +108,9 @@ Properties
 
 ### <a name="property-$id_order_invoice"></a>$id_order_invoice
 
-    public integer $id_order_invoice
+```php
+public integer $id_order_invoice
+```
 
 
 
@@ -108,7 +122,9 @@ Properties
 
 ### <a name="property-$name"></a>$name
 
-    public string $name
+```php
+public string $name
+```
 
 
 
@@ -120,7 +136,9 @@ Properties
 
 ### <a name="property-$value"></a>$value
 
-    public float $value
+```php
+public float $value
+```
 
 
 
@@ -132,7 +150,9 @@ Properties
 
 ### <a name="property-$value_tax_excl"></a>$value_tax_excl
 
-    public float $value_tax_excl
+```php
+public float $value_tax_excl
+```
 
 
 
@@ -144,7 +164,9 @@ Properties
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('fields' => array('id_order' => array('xlink_resource' => 'orders')))
+```php
+protected mixed $webserviceParameters = array('fields' => array('id_order' => array('xlink_resource' => 'orders')))
+```
 
 
 

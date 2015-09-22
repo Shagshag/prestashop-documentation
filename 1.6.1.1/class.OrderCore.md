@@ -9,15 +9,17 @@ Class OrderCore
 * Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/Order.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [ROUND_ITEM](#constant-ROUND_ITEM)
 * [ROUND_LINE](#constant-ROUND_LINE)
 * [ROUND_TOTAL](#constant-ROUND_TOTAL)
 
-Properties
-----------
+### Properties
 
 * [$_historyCache](#property-$_historyCache)
 * [$_taxCalculationMethod](#property-$_taxCalculationMethod)
@@ -70,8 +72,8 @@ Properties
 * [$valid](#property-$valid)
 * [$webserviceParameters](#property-$webserviceParameters)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [_deleteProduct](#method-_deleteProduct)
 * [add](#method-add)
@@ -184,7 +186,9 @@ Constants
 
 ### <a name="constant-ROUND_ITEM"></a>ROUND_ITEM
 
-    const ROUND_ITEM = 1
+```php
+const ROUND_ITEM = 1
+```
 
 
 
@@ -195,7 +199,9 @@ Constants
 
 ### <a name="constant-ROUND_LINE"></a>ROUND_LINE
 
-    const ROUND_LINE = 2
+```php
+const ROUND_LINE = 2
+```
 
 
 
@@ -206,7 +212,9 @@ Constants
 
 ### <a name="constant-ROUND_TOTAL"></a>ROUND_TOTAL
 
-    const ROUND_TOTAL = 3
+```php
+const ROUND_TOTAL = 3
+```
 
 
 
@@ -221,7 +229,9 @@ Properties
 
 ### <a name="property-$_historyCache"></a>$_historyCache
 
-    protected mixed $_historyCache = array()
+```php
+protected mixed $_historyCache = array()
+```
 
 
 
@@ -234,7 +244,9 @@ Properties
 
 ### <a name="property-$_taxCalculationMethod"></a>$_taxCalculationMethod
 
-    protected mixed $_taxCalculationMethod = PS_TAX_EXC
+```php
+protected mixed $_taxCalculationMethod = PS_TAX_EXC
+```
 
 
 
@@ -246,7 +258,9 @@ Properties
 
 ### <a name="property-$cacheCustomer"></a>$cacheCustomer
 
-    protected mixed $cacheCustomer = null
+```php
+protected mixed $cacheCustomer = null
+```
 
 used to cache order customer
 
@@ -258,7 +272,9 @@ used to cache order customer
 
 ### <a name="property-$carrier_tax_rate"></a>$carrier_tax_rate
 
-    public float $carrier_tax_rate
+```php
+public float $carrier_tax_rate
+```
 
 
 
@@ -270,7 +286,9 @@ used to cache order customer
 
 ### <a name="property-$conversion_rate"></a>$conversion_rate
 
-    public float $conversion_rate
+```php
+public float $conversion_rate
+```
 
 
 
@@ -282,7 +300,9 @@ used to cache order customer
 
 ### <a name="property-$current_state"></a>$current_state
 
-    public integer $current_state
+```php
+public integer $current_state
+```
 
 
 
@@ -294,7 +314,9 @@ used to cache order customer
 
 ### <a name="property-$date_add"></a>$date_add
 
-    public string $date_add
+```php
+public string $date_add
+```
 
 
 
@@ -306,7 +328,9 @@ used to cache order customer
 
 ### <a name="property-$date_upd"></a>$date_upd
 
-    public string $date_upd
+```php
+public string $date_upd
+```
 
 
 
@@ -318,7 +342,9 @@ used to cache order customer
 
 ### <a name="property-$definition"></a>$definition
 
-    public mixed $definition = array('table' => 'orders', 'primary' => 'id_order', 'fields' => array('id_address_delivery' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_address_invoice' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_cart' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_shop_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_carrier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'current_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'secure_key' => array('type' => self::TYPE_STRING, 'validate' => 'isMd5'), 'payment' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true), 'module' => array('type' => self::TYPE_STRING, 'validate' => 'isModuleName', 'required' => true), 'recyclable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'gift' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'gift_message' => array('type' => self::TYPE_STRING, 'validate' => 'isMessage'), 'mobile_theme' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'total_discounts' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_discounts_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_discounts_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_paid' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'total_paid_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_paid_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_paid_real' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'total_products' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'total_products_wt' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'total_shipping' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_shipping_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_shipping_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'carrier_tax_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'total_wrapping' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_wrapping_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_wrapping_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'round_mode' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'round_type' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'shipping_number' => array('type' => self::TYPE_STRING, 'validate' => 'isTrackingNumber'), 'conversion_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'invoice_number' => array('type' => self::TYPE_INT), 'delivery_number' => array('type' => self::TYPE_INT), 'invoice_date' => array('type' => self::TYPE_DATE), 'delivery_date' => array('type' => self::TYPE_DATE), 'valid' => array('type' => self::TYPE_BOOL), 'reference' => array('type' => self::TYPE_STRING), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```php
+public mixed $definition = array('table' => 'orders', 'primary' => 'id_order', 'fields' => array('id_address_delivery' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_address_invoice' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_cart' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_shop_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_carrier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'current_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'secure_key' => array('type' => self::TYPE_STRING, 'validate' => 'isMd5'), 'payment' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true), 'module' => array('type' => self::TYPE_STRING, 'validate' => 'isModuleName', 'required' => true), 'recyclable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'gift' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'gift_message' => array('type' => self::TYPE_STRING, 'validate' => 'isMessage'), 'mobile_theme' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'total_discounts' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_discounts_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_discounts_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_paid' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'total_paid_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_paid_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_paid_real' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'total_products' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'total_products_wt' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'total_shipping' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_shipping_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_shipping_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'carrier_tax_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'total_wrapping' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_wrapping_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'total_wrapping_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice'), 'round_mode' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'round_type' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'shipping_number' => array('type' => self::TYPE_STRING, 'validate' => 'isTrackingNumber'), 'conversion_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'invoice_number' => array('type' => self::TYPE_INT), 'delivery_number' => array('type' => self::TYPE_INT), 'invoice_date' => array('type' => self::TYPE_DATE), 'delivery_date' => array('type' => self::TYPE_DATE), 'valid' => array('type' => self::TYPE_BOOL), 'reference' => array('type' => self::TYPE_STRING), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
+```
 
 
 
@@ -331,7 +357,9 @@ used to cache order customer
 
 ### <a name="property-$delivery_date"></a>$delivery_date
 
-    public string $delivery_date
+```php
+public string $delivery_date
+```
 
 
 
@@ -343,7 +371,9 @@ used to cache order customer
 
 ### <a name="property-$delivery_number"></a>$delivery_number
 
-    public integer $delivery_number
+```php
+public integer $delivery_number
+```
 
 
 
@@ -355,7 +385,9 @@ used to cache order customer
 
 ### <a name="property-$gift"></a>$gift
 
-    public boolean $gift
+```php
+public boolean $gift
+```
 
 
 
@@ -367,7 +399,9 @@ used to cache order customer
 
 ### <a name="property-$gift_message"></a>$gift_message
 
-    public string $gift_message
+```php
+public string $gift_message
+```
 
 
 
@@ -379,7 +413,9 @@ used to cache order customer
 
 ### <a name="property-$id_address_delivery"></a>$id_address_delivery
 
-    public integer $id_address_delivery
+```php
+public integer $id_address_delivery
+```
 
 
 
@@ -391,7 +427,9 @@ used to cache order customer
 
 ### <a name="property-$id_address_invoice"></a>$id_address_invoice
 
-    public integer $id_address_invoice
+```php
+public integer $id_address_invoice
+```
 
 
 
@@ -403,7 +441,9 @@ used to cache order customer
 
 ### <a name="property-$id_carrier"></a>$id_carrier
 
-    public integer $id_carrier
+```php
+public integer $id_carrier
+```
 
 
 
@@ -415,7 +455,9 @@ used to cache order customer
 
 ### <a name="property-$id_cart"></a>$id_cart
 
-    public integer $id_cart
+```php
+public integer $id_cart
+```
 
 
 
@@ -427,7 +469,9 @@ used to cache order customer
 
 ### <a name="property-$id_currency"></a>$id_currency
 
-    public integer $id_currency
+```php
+public integer $id_currency
+```
 
 
 
@@ -439,7 +483,9 @@ used to cache order customer
 
 ### <a name="property-$id_customer"></a>$id_customer
 
-    public integer $id_customer
+```php
+public integer $id_customer
+```
 
 
 
@@ -451,7 +497,9 @@ used to cache order customer
 
 ### <a name="property-$id_lang"></a>$id_lang
 
-    public integer $id_lang
+```php
+public integer $id_lang
+```
 
 
 
@@ -463,7 +511,9 @@ used to cache order customer
 
 ### <a name="property-$id_shop"></a>$id_shop
 
-    public mixed $id_shop
+```php
+public mixed $id_shop
+```
 
 
 
@@ -475,7 +525,9 @@ used to cache order customer
 
 ### <a name="property-$id_shop_group"></a>$id_shop_group
 
-    public mixed $id_shop_group
+```php
+public mixed $id_shop_group
+```
 
 
 
@@ -487,7 +539,9 @@ used to cache order customer
 
 ### <a name="property-$invoice_date"></a>$invoice_date
 
-    public string $invoice_date
+```php
+public string $invoice_date
+```
 
 
 
@@ -499,7 +553,9 @@ used to cache order customer
 
 ### <a name="property-$invoice_number"></a>$invoice_number
 
-    public integer $invoice_number
+```php
+public integer $invoice_number
+```
 
 
 
@@ -511,7 +567,9 @@ used to cache order customer
 
 ### <a name="property-$mobile_theme"></a>$mobile_theme
 
-    public boolean $mobile_theme
+```php
+public boolean $mobile_theme
+```
 
 
 
@@ -523,7 +581,9 @@ used to cache order customer
 
 ### <a name="property-$module"></a>$module
 
-    public string $module
+```php
+public string $module
+```
 
 
 
@@ -535,7 +595,9 @@ used to cache order customer
 
 ### <a name="property-$payment"></a>$payment
 
-    public string $payment
+```php
+public string $payment
+```
 
 
 
@@ -547,7 +609,9 @@ used to cache order customer
 
 ### <a name="property-$recyclable"></a>$recyclable
 
-    public boolean $recyclable = 1
+```php
+public boolean $recyclable = 1
+```
 
 
 
@@ -559,7 +623,9 @@ used to cache order customer
 
 ### <a name="property-$reference"></a>$reference
 
-    public string $reference
+```php
+public string $reference
+```
 
 
 
@@ -571,7 +637,9 @@ used to cache order customer
 
 ### <a name="property-$round_mode"></a>$round_mode
 
-    public integer $round_mode
+```php
+public integer $round_mode
+```
 
 
 
@@ -583,7 +651,9 @@ used to cache order customer
 
 ### <a name="property-$round_type"></a>$round_type
 
-    public integer $round_type
+```php
+public integer $round_type
+```
 
 
 
@@ -595,7 +665,9 @@ used to cache order customer
 
 ### <a name="property-$secure_key"></a>$secure_key
 
-    public string $secure_key
+```php
+public string $secure_key
+```
 
 
 
@@ -607,7 +679,9 @@ used to cache order customer
 
 ### <a name="property-$shipping_number"></a>$shipping_number
 
-    public string $shipping_number
+```php
+public string $shipping_number
+```
 
 
 
@@ -619,7 +693,9 @@ used to cache order customer
 
 ### <a name="property-$total_discounts"></a>$total_discounts
 
-    public float $total_discounts
+```php
+public float $total_discounts
+```
 
 
 
@@ -631,7 +707,9 @@ used to cache order customer
 
 ### <a name="property-$total_discounts_tax_excl"></a>$total_discounts_tax_excl
 
-    public mixed $total_discounts_tax_excl
+```php
+public mixed $total_discounts_tax_excl
+```
 
 
 
@@ -643,7 +721,9 @@ used to cache order customer
 
 ### <a name="property-$total_discounts_tax_incl"></a>$total_discounts_tax_incl
 
-    public mixed $total_discounts_tax_incl
+```php
+public mixed $total_discounts_tax_incl
+```
 
 
 
@@ -655,7 +735,9 @@ used to cache order customer
 
 ### <a name="property-$total_paid"></a>$total_paid
 
-    public float $total_paid
+```php
+public float $total_paid
+```
 
 
 
@@ -667,7 +749,9 @@ used to cache order customer
 
 ### <a name="property-$total_paid_real"></a>$total_paid_real
 
-    public float $total_paid_real
+```php
+public float $total_paid_real
+```
 
 
 
@@ -679,7 +763,9 @@ used to cache order customer
 
 ### <a name="property-$total_paid_tax_excl"></a>$total_paid_tax_excl
 
-    public float $total_paid_tax_excl
+```php
+public float $total_paid_tax_excl
+```
 
 
 
@@ -691,7 +777,9 @@ used to cache order customer
 
 ### <a name="property-$total_paid_tax_incl"></a>$total_paid_tax_incl
 
-    public float $total_paid_tax_incl
+```php
+public float $total_paid_tax_incl
+```
 
 
 
@@ -703,7 +791,9 @@ used to cache order customer
 
 ### <a name="property-$total_products"></a>$total_products
 
-    public float $total_products
+```php
+public float $total_products
+```
 
 
 
@@ -715,7 +805,9 @@ used to cache order customer
 
 ### <a name="property-$total_products_wt"></a>$total_products_wt
 
-    public float $total_products_wt
+```php
+public float $total_products_wt
+```
 
 
 
@@ -727,7 +819,9 @@ used to cache order customer
 
 ### <a name="property-$total_shipping"></a>$total_shipping
 
-    public float $total_shipping
+```php
+public float $total_shipping
+```
 
 
 
@@ -739,7 +833,9 @@ used to cache order customer
 
 ### <a name="property-$total_shipping_tax_excl"></a>$total_shipping_tax_excl
 
-    public float $total_shipping_tax_excl
+```php
+public float $total_shipping_tax_excl
+```
 
 
 
@@ -751,7 +847,9 @@ used to cache order customer
 
 ### <a name="property-$total_shipping_tax_incl"></a>$total_shipping_tax_incl
 
-    public float $total_shipping_tax_incl
+```php
+public float $total_shipping_tax_incl
+```
 
 
 
@@ -763,7 +861,9 @@ used to cache order customer
 
 ### <a name="property-$total_wrapping"></a>$total_wrapping
 
-    public float $total_wrapping
+```php
+public float $total_wrapping
+```
 
 
 
@@ -775,7 +875,9 @@ used to cache order customer
 
 ### <a name="property-$total_wrapping_tax_excl"></a>$total_wrapping_tax_excl
 
-    public float $total_wrapping_tax_excl
+```php
+public float $total_wrapping_tax_excl
+```
 
 
 
@@ -787,7 +889,9 @@ used to cache order customer
 
 ### <a name="property-$total_wrapping_tax_incl"></a>$total_wrapping_tax_incl
 
-    public float $total_wrapping_tax_incl
+```php
+public float $total_wrapping_tax_incl
+```
 
 
 
@@ -799,7 +903,9 @@ used to cache order customer
 
 ### <a name="property-$valid"></a>$valid
 
-    public boolean $valid
+```php
+public boolean $valid
+```
 
 
 
@@ -811,7 +917,9 @@ used to cache order customer
 
 ### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
-    protected mixed $webserviceParameters = array('objectMethods' => array('add' => 'addWs'), 'objectNodeName' => 'order', 'objectsNodeName' => 'orders', 'fields' => array('id_address_delivery' => array('xlink_resource' => 'addresses'), 'id_address_invoice' => array('xlink_resource' => 'addresses'), 'id_cart' => array('xlink_resource' => 'carts'), 'id_currency' => array('xlink_resource' => 'currencies'), 'id_lang' => array('xlink_resource' => 'languages'), 'id_customer' => array('xlink_resource' => 'customers'), 'id_carrier' => array('xlink_resource' => 'carriers'), 'current_state' => array('xlink_resource' => 'order_states', 'setter' => 'setWsCurrentState'), 'module' => array('required' => true), 'invoice_number' => array(), 'invoice_date' => array(), 'delivery_number' => array(), 'delivery_date' => array(), 'valid' => array(), 'date_add' => array(), 'date_upd' => array(), 'shipping_number' => array('getter' => 'getWsShippingNumber', 'setter' => 'setWsShippingNumber')), 'associations' => array('order_rows' => array('resource' => 'order_row', 'setter' => false, 'virtual_entity' => true, 'fields' => array('id' => array(), 'product_id' => array('required' => true), 'product_attribute_id' => array('required' => true), 'product_quantity' => array('required' => true), 'product_name' => array('setter' => false), 'product_reference' => array('setter' => false), 'product_ean13' => array('setter' => false), 'product_upc' => array('setter' => false), 'product_price' => array('setter' => false), 'unit_price_tax_incl' => array('setter' => false), 'unit_price_tax_excl' => array('setter' => false)))))
+```php
+protected mixed $webserviceParameters = array('objectMethods' => array('add' => 'addWs'), 'objectNodeName' => 'order', 'objectsNodeName' => 'orders', 'fields' => array('id_address_delivery' => array('xlink_resource' => 'addresses'), 'id_address_invoice' => array('xlink_resource' => 'addresses'), 'id_cart' => array('xlink_resource' => 'carts'), 'id_currency' => array('xlink_resource' => 'currencies'), 'id_lang' => array('xlink_resource' => 'languages'), 'id_customer' => array('xlink_resource' => 'customers'), 'id_carrier' => array('xlink_resource' => 'carriers'), 'current_state' => array('xlink_resource' => 'order_states', 'setter' => 'setWsCurrentState'), 'module' => array('required' => true), 'invoice_number' => array(), 'invoice_date' => array(), 'delivery_number' => array(), 'delivery_date' => array(), 'valid' => array(), 'date_add' => array(), 'date_upd' => array(), 'shipping_number' => array('getter' => 'getWsShippingNumber', 'setter' => 'setWsShippingNumber')), 'associations' => array('order_rows' => array('resource' => 'order_row', 'setter' => false, 'virtual_entity' => true, 'fields' => array('id' => array(), 'product_id' => array('required' => true), 'product_attribute_id' => array('required' => true), 'product_quantity' => array('required' => true), 'product_name' => array('setter' => false), 'product_reference' => array('setter' => false), 'product_ean13' => array('setter' => false), 'product_upc' => array('setter' => false), 'product_price' => array('setter' => false), 'unit_price_tax_incl' => array('setter' => false), 'unit_price_tax_excl' => array('setter' => false)))))
+```
 
 
 
@@ -827,7 +935,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed OrderCore::__construct($id, $id_lang)
+```php
+mixed OrderCore::__construct($id, $id_lang)
+```
 
 
 
@@ -845,7 +955,9 @@ Methods
 
 ### <a name="method-_deleteProduct"></a>_deleteProduct
 
-    boolean OrderCore::_deleteProduct(\OrderDetail $order_detail, integer $quantity)
+```php
+boolean OrderCore::_deleteProduct(\OrderDetail $order_detail, integer $quantity)
+```
 
 DOES delete the product
 
@@ -863,7 +975,9 @@ DOES delete the product
 
 ### <a name="method-add"></a>add
 
-    mixed OrderCore::add($autodate, $null_values)
+```php
+mixed OrderCore::add($autodate, $null_values)
+```
 
 
 
@@ -881,7 +995,9 @@ DOES delete the product
 
 ### <a name="method-addCartRule"></a>addCartRule
 
-    boolean OrderCore::addCartRule(integer $id_cart_rule, string $name, array $values, integer $id_order_invoice, $free_shipping)
+```php
+boolean OrderCore::addCartRule(integer $id_cart_rule, string $name, array $values, integer $id_order_invoice, $free_shipping)
+```
 
 
 
@@ -902,7 +1018,9 @@ DOES delete the product
 
 ### <a name="method-addDiscount"></a>addDiscount
 
-    boolean OrderCore::addDiscount(integer $id_cart_rule, string $name, float $value)
+```php
+boolean OrderCore::addDiscount(integer $id_cart_rule, string $name, float $value)
+```
 
 
 
@@ -921,7 +1039,9 @@ DOES delete the product
 
 ### <a name="method-addOrderPayment"></a>addOrderPayment
 
-    boolean OrderCore::addOrderPayment(float $amount_paid, string $payment_method, string $payment_transaction_id, \Currency $currency, string $date, \OrderInvoice $order_invoice)
+```php
+boolean OrderCore::addOrderPayment(float $amount_paid, string $payment_method, string $payment_transaction_id, \Currency $currency, string $date, \OrderInvoice $order_invoice)
+```
 
 This method allows to add a payment to the current order
 
@@ -943,7 +1063,9 @@ This method allows to add a payment to the current order
 
 ### <a name="method-addWs"></a>addWs
 
-    mixed OrderCore::addWs($autodate, $null_values)
+```php
+mixed OrderCore::addWs($autodate, $null_values)
+```
 
 
 
@@ -961,7 +1083,9 @@ This method allows to add a payment to the current order
 
 ### <a name="method-deleteAssociations"></a>deleteAssociations
 
-    mixed OrderCore::deleteAssociations()
+```php
+mixed OrderCore::deleteAssociations()
+```
 
 
 
@@ -975,7 +1099,9 @@ This method allows to add a payment to the current order
 
 ### <a name="method-deleteCustomization"></a>deleteCustomization
 
-    mixed OrderCore::deleteCustomization($id_customization, $quantity, $order_detail)
+```php
+mixed OrderCore::deleteCustomization($id_customization, $quantity, $order_detail)
+```
 
 
 
@@ -994,7 +1120,9 @@ This method allows to add a payment to the current order
 
 ### <a name="method-deleteProduct"></a>deleteProduct
 
-    boolean OrderCore::deleteProduct($order, \OrderDetail $order_detail, integer $quantity)
+```php
+boolean OrderCore::deleteProduct($order, \OrderDetail $order_detail, integer $quantity)
+```
 
 Does NOT delete a product but "cancel" it (which means return/refund/delete it depending of the case)
 
@@ -1013,7 +1141,9 @@ Does NOT delete a product but "cancel" it (which means return/refund/delete it d
 
 ### <a name="method-generateReference"></a>generateReference
 
-    String OrderCore::generateReference()
+```php
+String OrderCore::generateReference()
+```
 
 Gennerate a unique reference for orders generated with the same cart id
 This references, is usefull for check payment
@@ -1029,7 +1159,9 @@ This references, is usefull for check payment
 
 ### <a name="method-getBrother"></a>getBrother
 
-    mixed OrderCore::getBrother()
+```php
+mixed OrderCore::getBrother()
+```
 
 Get all other orders with the same reference
 
@@ -1043,7 +1175,9 @@ Get all other orders with the same reference
 
 ### <a name="method-getByDelivery"></a>getByDelivery
 
-    mixed OrderCore::getByDelivery($id_delivery)
+```php
+mixed OrderCore::getByDelivery($id_delivery)
+```
 
 
 
@@ -1061,7 +1195,9 @@ Get all other orders with the same reference
 
 ### <a name="method-getByReference"></a>getByReference
 
-    \PrestaShopCollection OrderCore::getByReference(string $reference)
+```php
+\PrestaShopCollection OrderCore::getByReference(string $reference)
+```
 
 Get a collection of orders using reference
 
@@ -1079,7 +1215,9 @@ Get a collection of orders using reference
 
 ### <a name="method-getCartIdStatic"></a>getCartIdStatic
 
-    integer OrderCore::getCartIdStatic(integer $id_order, integer $id_customer)
+```php
+integer OrderCore::getCartIdStatic(integer $id_order, integer $id_customer)
+```
 
 
 
@@ -1098,7 +1236,9 @@ Get a collection of orders using reference
 
 ### <a name="method-getCartProducts"></a>getCartProducts
 
-    array OrderCore::getCartProducts()
+```php
+array OrderCore::getCartProducts()
+```
 
 This function return products of the orders
 It's similar to Order::getProducts but with similar outputs of Cart::getProducts
@@ -1113,7 +1253,9 @@ It's similar to Order::getProducts but with similar outputs of Cart::getProducts
 
 ### <a name="method-getCartRules"></a>getCartRules
 
-    mixed OrderCore::getCartRules()
+```php
+mixed OrderCore::getCartRules()
+```
 
 
 
@@ -1127,7 +1269,9 @@ It's similar to Order::getProducts but with similar outputs of Cart::getProducts
 
 ### <a name="method-getCurrentOrderState"></a>getCurrentOrderState
 
-    \OrderState OrderCore::getCurrentOrderState()
+```php
+\OrderState OrderCore::getCurrentOrderState()
+```
 
 
 
@@ -1141,7 +1285,9 @@ It's similar to Order::getProducts but with similar outputs of Cart::getProducts
 
 ### <a name="method-getCurrentState"></a>getCurrentState
 
-    integer OrderCore::getCurrentState()
+```php
+integer OrderCore::getCurrentState()
+```
 
 Get current order status (eg. Awaiting payment, Delivered.
 
@@ -1155,7 +1301,9 @@ Get current order status (eg. Awaiting payment, Delivered.
 
 ### <a name="method-getCurrentStateFull"></a>getCurrentStateFull
 
-    array OrderCore::getCurrentStateFull($id_lang)
+```php
+array OrderCore::getCurrentStateFull($id_lang)
+```
 
 Get current order status name (eg. Awaiting payment, Delivered.
 
@@ -1172,7 +1320,9 @@ Get current order status name (eg. Awaiting payment, Delivered.
 
 ### <a name="method-getCustomer"></a>getCustomer
 
-    \Customer OrderCore::getCustomer()
+```php
+\Customer OrderCore::getCustomer()
+```
 
 Get order customer
 
@@ -1186,7 +1336,9 @@ Get order customer
 
 ### <a name="method-getCustomerNbOrders"></a>getCustomerNbOrders
 
-    array OrderCore::getCustomerNbOrders(integer $id_customer)
+```php
+array OrderCore::getCustomerNbOrders(integer $id_customer)
+```
 
 Get customer orders number
 
@@ -1204,7 +1356,9 @@ Get customer orders number
 
 ### <a name="method-getCustomerOrders"></a>getCustomerOrders
 
-    array OrderCore::getCustomerOrders(integer $id_customer, boolean $show_hidden_status, \Context $context)
+```php
+array OrderCore::getCustomerOrders(integer $id_customer, boolean $show_hidden_status, \Context $context)
+```
 
 Get customer orders
 
@@ -1224,7 +1378,9 @@ Get customer orders
 
 ### <a name="method-getDeliveryNumber"></a>getDeliveryNumber
 
-    mixed OrderCore::getDeliveryNumber($order_invoice_id)
+```php
+mixed OrderCore::getDeliveryNumber($order_invoice_id)
+```
 
 
 
@@ -1241,7 +1397,9 @@ Get customer orders
 
 ### <a name="method-getDeliverySlipsCollection"></a>getDeliverySlipsCollection
 
-    \PrestaShopCollection OrderCore::getDeliverySlipsCollection()
+```php
+\PrestaShopCollection OrderCore::getDeliverySlipsCollection()
+```
 
 Get all delivery slips for the current order
 
@@ -1255,7 +1413,9 @@ Get all delivery slips for the current order
 
 ### <a name="method-getDiscounts"></a>getDiscounts
 
-    mixed OrderCore::getDiscounts($details)
+```php
+mixed OrderCore::getDiscounts($details)
+```
 
 
 
@@ -1272,7 +1432,9 @@ Get all delivery slips for the current order
 
 ### <a name="method-getDiscountsCustomer"></a>getDiscountsCustomer
 
-    mixed OrderCore::getDiscountsCustomer($id_customer, $id_cart_rule)
+```php
+mixed OrderCore::getDiscountsCustomer($id_customer, $id_cart_rule)
+```
 
 
 
@@ -1291,7 +1453,9 @@ Get all delivery slips for the current order
 
 ### <a name="method-getDocuments"></a>getDocuments
 
-    array OrderCore::getDocuments()
+```php
+array OrderCore::getDocuments()
+```
 
 Returns the correct product taxes breakdown.
 
@@ -1305,7 +1469,9 @@ Get all documents linked to the current order
 
 ### <a name="method-getEcoTaxTaxesBreakdown"></a>getEcoTaxTaxesBreakdown
 
-    array OrderCore::getEcoTaxTaxesBreakdown()
+```php
+array OrderCore::getEcoTaxTaxesBreakdown()
+```
 
 Returns the ecotax taxes breakdown
 
@@ -1319,7 +1485,9 @@ Returns the ecotax taxes breakdown
 
 ### <a name="method-getFields"></a>getFields
 
-    array OrderCore::getFields()
+```php
+array OrderCore::getFields()
+```
 
 
 
@@ -1333,7 +1501,9 @@ Returns the ecotax taxes breakdown
 
 ### <a name="method-getFirstMessage"></a>getFirstMessage
 
-    mixed OrderCore::getFirstMessage()
+```php
+mixed OrderCore::getFirstMessage()
+```
 
 
 
@@ -1347,7 +1517,9 @@ Returns the ecotax taxes breakdown
 
 ### <a name="method-getHistory"></a>getHistory
 
-    array OrderCore::getHistory(integer $id_lang, integer $id_order_state, integer $no_hidden, integer $filters)
+```php
+array OrderCore::getHistory(integer $id_lang, integer $id_order_state, integer $no_hidden, integer $filters)
+```
 
 Get order history
 
@@ -1367,7 +1539,9 @@ Get order history
 
 ### <a name="method-getIdOrderCarrier"></a>getIdOrderCarrier
 
-    mixed OrderCore::getIdOrderCarrier()
+```php
+mixed OrderCore::getIdOrderCarrier()
+```
 
 Return id of carrier
 
@@ -1381,7 +1555,9 @@ Get id of the carrier used in order
 
 ### <a name="method-getIdOrderProduct"></a>getIdOrderProduct
 
-    mixed OrderCore::getIdOrderProduct($id_customer, $id_product)
+```php
+mixed OrderCore::getIdOrderProduct($id_customer, $id_product)
+```
 
 
 
@@ -1400,7 +1576,9 @@ Get id of the carrier used in order
 
 ### <a name="method-getInvoice"></a>getInvoice
 
-    mixed OrderCore::getInvoice(integer $id_invoice)
+```php
+mixed OrderCore::getInvoice(integer $id_invoice)
+```
 
 
 
@@ -1418,7 +1596,9 @@ Get id of the carrier used in order
 
 ### <a name="method-getInvoiceNumber"></a>getInvoiceNumber
 
-    mixed OrderCore::getInvoiceNumber($order_invoice_id)
+```php
+mixed OrderCore::getInvoiceNumber($order_invoice_id)
+```
 
 
 
@@ -1435,7 +1615,9 @@ Get id of the carrier used in order
 
 ### <a name="method-getInvoicesCollection"></a>getInvoicesCollection
 
-    \PrestaShopCollection OrderCore::getInvoicesCollection()
+```php
+\PrestaShopCollection OrderCore::getInvoicesCollection()
+```
 
 Get all invoices for the current order
 
@@ -1449,7 +1631,9 @@ Get all invoices for the current order
 
 ### <a name="method-getLastInvoiceNumber"></a>getLastInvoiceNumber
 
-    mixed OrderCore::getLastInvoiceNumber()
+```php
+mixed OrderCore::getLastInvoiceNumber()
+```
 
 
 
@@ -1464,7 +1648,9 @@ Get all invoices for the current order
 
 ### <a name="method-getNextOrderId"></a>getNextOrderId
 
-    integer OrderCore::getNextOrderId()
+```php
+integer OrderCore::getNextOrderId()
+```
 
 This method return the ID of the next order
 
@@ -1478,7 +1664,9 @@ This method return the ID of the next order
 
 ### <a name="method-getNotPaidInvoicesCollection"></a>getNotPaidInvoicesCollection
 
-    \PrestaShopCollection OrderCore::getNotPaidInvoicesCollection()
+```php
+\PrestaShopCollection OrderCore::getNotPaidInvoicesCollection()
+```
 
 Get all not paid invoices for the current order
 
@@ -1492,7 +1680,9 @@ Get all not paid invoices for the current order
 
 ### <a name="method-getNumberOfDays"></a>getNumberOfDays
 
-    mixed OrderCore::getNumberOfDays()
+```php
+mixed OrderCore::getNumberOfDays()
+```
 
 
 
@@ -1506,7 +1696,9 @@ Get all not paid invoices for the current order
 
 ### <a name="method-getOrderByCartId"></a>getOrderByCartId
 
-    array OrderCore::getOrderByCartId(integer $id_cart)
+```php
+array OrderCore::getOrderByCartId(integer $id_cart)
+```
 
 Get an order by its cart id
 
@@ -1524,7 +1716,9 @@ Get an order by its cart id
 
 ### <a name="method-getOrderDetailList"></a>getOrderDetailList
 
-    array OrderCore::getOrderDetailList()
+```php
+array OrderCore::getOrderDetailList()
+```
 
 Get the an order detail list of the current order
 
@@ -1538,7 +1732,9 @@ Get the an order detail list of the current order
 
 ### <a name="method-getOrderDetailTaxes"></a>getOrderDetailTaxes
 
-    mixed OrderCore::getOrderDetailTaxes()
+```php
+mixed OrderCore::getOrderDetailTaxes()
+```
 
 
 
@@ -1552,7 +1748,9 @@ Get the an order detail list of the current order
 
 ### <a name="method-getOrderIdsByStatus"></a>getOrderIdsByStatus
 
-    array OrderCore::getOrderIdsByStatus($id_order_state)
+```php
+array OrderCore::getOrderIdsByStatus($id_order_state)
+```
 
 
 
@@ -1570,7 +1768,9 @@ Get the an order detail list of the current order
 
 ### <a name="method-getOrderPaymentCollection"></a>getOrderPaymentCollection
 
-    \PrestaShopCollection OrderCore::getOrderPaymentCollection()
+```php
+\PrestaShopCollection OrderCore::getOrderPaymentCollection()
+```
 
 This method allows to get all Order Payment for the current order
 
@@ -1584,7 +1784,9 @@ This method allows to get all Order Payment for the current order
 
 ### <a name="method-getOrderPayments"></a>getOrderPayments
 
-    mixed OrderCore::getOrderPayments()
+```php
+mixed OrderCore::getOrderPayments()
+```
 
 Get a collection of order payments
 
@@ -1598,7 +1800,9 @@ Get a collection of order payments
 
 ### <a name="method-getOrderSlipsCollection"></a>getOrderSlipsCollection
 
-    \PrestaShopCollection OrderCore::getOrderSlipsCollection()
+```php
+\PrestaShopCollection OrderCore::getOrderSlipsCollection()
+```
 
 Get all order_slips for the current order
 
@@ -1612,7 +1816,9 @@ Get all order_slips for the current order
 
 ### <a name="method-getOrdersIdByDate"></a>getOrdersIdByDate
 
-    mixed OrderCore::getOrdersIdByDate($date_from, $date_to, $id_customer, $type)
+```php
+mixed OrderCore::getOrdersIdByDate($date_from, $date_to, $id_customer, $type)
+```
 
 
 
@@ -1633,7 +1839,9 @@ Get all order_slips for the current order
 
 ### <a name="method-getOrdersIdInvoiceByDate"></a>getOrdersIdInvoiceByDate
 
-    array OrderCore::getOrdersIdInvoiceByDate($date_from, $date_to, $id_customer, $type)
+```php
+array OrderCore::getOrdersIdInvoiceByDate($date_from, $date_to, $id_customer, $type)
+```
 
 
 
@@ -1654,7 +1862,9 @@ Get all order_slips for the current order
 
 ### <a name="method-getOrdersTotalPaid"></a>getOrdersTotalPaid
 
-    float OrderCore::getOrdersTotalPaid()
+```php
+float OrderCore::getOrdersTotalPaid()
+```
 
 Get the sum of total_paid_tax_incl of the orders with similar reference
 
@@ -1668,7 +1878,9 @@ Get the sum of total_paid_tax_incl of the orders with similar reference
 
 ### <a name="method-getOrdersWithInformations"></a>getOrdersWithInformations
 
-    mixed OrderCore::getOrdersWithInformations($limit, \Context $context)
+```php
+mixed OrderCore::getOrdersWithInformations($limit, \Context $context)
+```
 
 
 
@@ -1687,7 +1899,9 @@ Get the sum of total_paid_tax_incl of the orders with similar reference
 
 ### <a name="method-getPreviousOrderId"></a>getPreviousOrderId
 
-    integer OrderCore::getPreviousOrderId()
+```php
+integer OrderCore::getPreviousOrderId()
+```
 
 This method return the ID of the previous order
 
@@ -1701,7 +1915,9 @@ This method return the ID of the previous order
 
 ### <a name="method-getProductTaxesBreakdown"></a>getProductTaxesBreakdown
 
-    array OrderCore::getProductTaxesBreakdown()
+```php
+array OrderCore::getProductTaxesBreakdown()
+```
 
 Returns the correct product taxes breakdown.
 
@@ -1715,7 +1931,9 @@ Returns the correct product taxes breakdown.
 
 ### <a name="method-getProductTaxesDetails"></a>getProductTaxesDetails
 
-    array OrderCore::getProductTaxesDetails($limitToOrderDetails)
+```php
+array OrderCore::getProductTaxesDetails($limitToOrderDetails)
+```
 
 By default this function was made for invoice, to compute tax amounts and balance delta (because of computation made on round values).
 
@@ -1733,7 +1951,9 @@ where only sublist of the order is refunded.
 
 ### <a name="method-getProducts"></a>getProducts
 
-    array OrderCore::getProducts($products, $selected_products, $selected_qty)
+```php
+array OrderCore::getProducts($products, $selected_products, $selected_qty)
+```
 
 Get order products
 
@@ -1752,7 +1972,9 @@ Get order products
 
 ### <a name="method-getProductsDetail"></a>getProductsDetail
 
-    mixed OrderCore::getProductsDetail()
+```php
+mixed OrderCore::getProductsDetail()
+```
 
 
 
@@ -1766,7 +1988,9 @@ Get order products
 
 ### <a name="method-getReturn"></a>getReturn
 
-    mixed OrderCore::getReturn()
+```php
+mixed OrderCore::getReturn()
+```
 
 
 
@@ -1780,7 +2004,9 @@ Get order products
 
 ### <a name="method-getShipping"></a>getShipping
 
-    array OrderCore::getShipping()
+```php
+array OrderCore::getShipping()
+```
 
 
 
@@ -1794,7 +2020,9 @@ Get order products
 
 ### <a name="method-getShippingTaxesBreakdown"></a>getShippingTaxesBreakdown
 
-    array OrderCore::getShippingTaxesBreakdown()
+```php
+array OrderCore::getShippingTaxesBreakdown()
+```
 
 Returns the shipping taxes breakdown
 
@@ -1808,7 +2036,9 @@ Returns the shipping taxes breakdown
 
 ### <a name="method-getTaxCalculationMethod"></a>getTaxCalculationMethod
 
-    mixed OrderCore::getTaxCalculationMethod()
+```php
+mixed OrderCore::getTaxCalculationMethod()
+```
 
 
 
@@ -1822,7 +2052,9 @@ Returns the shipping taxes breakdown
 
 ### <a name="method-getTaxesAverageUsed"></a>getTaxesAverageUsed
 
-    mixed OrderCore::getTaxesAverageUsed()
+```php
+mixed OrderCore::getTaxesAverageUsed()
+```
 
 
 
@@ -1836,7 +2068,9 @@ Returns the shipping taxes breakdown
 
 ### <a name="method-getTotalPaid"></a>getTotalPaid
 
-    float OrderCore::getTotalPaid(\Currency $currency)
+```php
+float OrderCore::getTotalPaid(\Currency $currency)
+```
 
 Get total paid
 
@@ -1853,7 +2087,9 @@ Get total paid
 
 ### <a name="method-getTotalProductsWithTaxes"></a>getTotalProductsWithTaxes
 
-    \Product OrderCore::getTotalProductsWithTaxes($products)
+```php
+\Product OrderCore::getTotalProductsWithTaxes($products)
+```
 
 Get product total with taxes
 
@@ -1870,7 +2106,9 @@ Get product total with taxes
 
 ### <a name="method-getTotalProductsWithoutTaxes"></a>getTotalProductsWithoutTaxes
 
-    \Product OrderCore::getTotalProductsWithoutTaxes($products)
+```php
+\Product OrderCore::getTotalProductsWithoutTaxes($products)
+```
 
 Get product total without taxes
 
@@ -1887,7 +2125,9 @@ Get product total without taxes
 
 ### <a name="method-getTotalWeight"></a>getTotalWeight
 
-    mixed OrderCore::getTotalWeight()
+```php
+mixed OrderCore::getTotalWeight()
+```
 
 
 
@@ -1901,7 +2141,9 @@ Get product total without taxes
 
 ### <a name="method-getUniqReference"></a>getUniqReference
 
-    mixed OrderCore::getUniqReference()
+```php
+mixed OrderCore::getUniqReference()
+```
 
 Return a unique reference like : GWJTHMZUN#2
 
@@ -1916,7 +2158,9 @@ in this case this method suffix the order reference by a # and the order number
 
 ### <a name="method-getUniqReferenceOf"></a>getUniqReferenceOf
 
-    mixed OrderCore::getUniqReferenceOf($id_order)
+```php
+mixed OrderCore::getUniqReferenceOf($id_order)
+```
 
 Return a unique reference like : GWJTHMZUN#2
 
@@ -1935,7 +2179,9 @@ in this case this method suffix the order reference by a # and the order number
 
 ### <a name="method-getVirtualProducts"></a>getVirtualProducts
 
-    integer OrderCore::getVirtualProducts()
+```php
+integer OrderCore::getVirtualProducts()
+```
 
 Count virtual products in order
 
@@ -1949,7 +2195,9 @@ Count virtual products in order
 
 ### <a name="method-getWarehouseList"></a>getWarehouseList
 
-    mixed OrderCore::getWarehouseList()
+```php
+mixed OrderCore::getWarehouseList()
+```
 
 Get warehouse associated to the order
 
@@ -1963,7 +2211,9 @@ return array List of warehouse
 
 ### <a name="method-getWebserviceObjectList"></a>getWebserviceObjectList
 
-    mixed OrderCore::getWebserviceObjectList($sql_join, $sql_filter, $sql_sort, $sql_limit)
+```php
+mixed OrderCore::getWebserviceObjectList($sql_join, $sql_filter, $sql_sort, $sql_limit)
+```
 
 
 
@@ -1983,7 +2233,9 @@ return array List of warehouse
 
 ### <a name="method-getWrappingTaxesBreakdown"></a>getWrappingTaxesBreakdown
 
-    array OrderCore::getWrappingTaxesBreakdown()
+```php
+array OrderCore::getWrappingTaxesBreakdown()
+```
 
 Returns the wrapping taxes breakdown
 
@@ -1997,7 +2249,9 @@ Returns the wrapping taxes breakdown
 
 ### <a name="method-getWsCurrentState"></a>getWsCurrentState
 
-    mixed OrderCore::getWsCurrentState()
+```php
+mixed OrderCore::getWsCurrentState()
+```
 
 
 
@@ -2011,7 +2265,9 @@ Returns the wrapping taxes breakdown
 
 ### <a name="method-getWsOrderRows"></a>getWsOrderRows
 
-    mixed OrderCore::getWsOrderRows()
+```php
+mixed OrderCore::getWsOrderRows()
+```
 
 
 
@@ -2025,7 +2281,9 @@ Returns the wrapping taxes breakdown
 
 ### <a name="method-getWsShippingNumber"></a>getWsShippingNumber
 
-    mixed OrderCore::getWsShippingNumber()
+```php
+mixed OrderCore::getWsShippingNumber()
+```
 
 
 
@@ -2039,7 +2297,9 @@ Returns the wrapping taxes breakdown
 
 ### <a name="method-hasBeenDelivered"></a>hasBeenDelivered
 
-    mixed OrderCore::hasBeenDelivered()
+```php
+mixed OrderCore::hasBeenDelivered()
+```
 
 
 
@@ -2053,7 +2313,9 @@ Returns the wrapping taxes breakdown
 
 ### <a name="method-hasBeenPaid"></a>hasBeenPaid
 
-    mixed OrderCore::hasBeenPaid()
+```php
+mixed OrderCore::hasBeenPaid()
+```
 
 
 
@@ -2067,7 +2329,9 @@ Returns the wrapping taxes breakdown
 
 ### <a name="method-hasBeenShipped"></a>hasBeenShipped
 
-    mixed OrderCore::hasBeenShipped()
+```php
+mixed OrderCore::hasBeenShipped()
+```
 
 
 
@@ -2081,7 +2345,9 @@ Returns the wrapping taxes breakdown
 
 ### <a name="method-hasDelivery"></a>hasDelivery
 
-    boolean OrderCore::hasDelivery()
+```php
+boolean OrderCore::hasDelivery()
+```
 
 Has Delivery return true if this order has already a delivery slip
 
@@ -2095,7 +2361,9 @@ Has Delivery return true if this order has already a delivery slip
 
 ### <a name="method-hasInvoice"></a>hasInvoice
 
-    boolean OrderCore::hasInvoice()
+```php
+boolean OrderCore::hasInvoice()
+```
 
 Has invoice return true if this order has already an invoice
 
@@ -2109,7 +2377,9 @@ Has invoice return true if this order has already an invoice
 
 ### <a name="method-hasProductReturned"></a>hasProductReturned
 
-    mixed OrderCore::hasProductReturned()
+```php
+mixed OrderCore::hasProductReturned()
+```
 
 Has products returned by the merchant or by the customer?
 
@@ -2123,7 +2393,9 @@ Has products returned by the merchant or by the customer?
 
 ### <a name="method-isAssociatedAtGuest"></a>isAssociatedAtGuest
 
-    mixed OrderCore::isAssociatedAtGuest($email)
+```php
+mixed OrderCore::isAssociatedAtGuest($email)
+```
 
 
 
@@ -2140,7 +2412,9 @@ Has products returned by the merchant or by the customer?
 
 ### <a name="method-isInPreparation"></a>isInPreparation
 
-    mixed OrderCore::isInPreparation()
+```php
+mixed OrderCore::isInPreparation()
+```
 
 
 
@@ -2154,7 +2428,9 @@ Has products returned by the merchant or by the customer?
 
 ### <a name="method-isPaidAndShipped"></a>isPaidAndShipped
 
-    boolean OrderCore::isPaidAndShipped()
+```php
+boolean OrderCore::isPaidAndShipped()
+```
 
 Checks if the current order status is paid and shipped
 
@@ -2168,7 +2444,9 @@ Checks if the current order status is paid and shipped
 
 ### <a name="method-isReturnable"></a>isReturnable
 
-    boolean OrderCore::isReturnable()
+```php
+boolean OrderCore::isReturnable()
+```
 
 Can this order be returned by the client?
 
@@ -2182,7 +2460,9 @@ Can this order be returned by the client?
 
 ### <a name="method-isVirtual"></a>isVirtual
 
-    boolean OrderCore::isVirtual(boolean $strict)
+```php
+boolean OrderCore::isVirtual(boolean $strict)
+```
 
 Check if order contains (only) virtual products
 
@@ -2199,7 +2479,9 @@ Check if order contains (only) virtual products
 
 ### <a name="method-orderContainProduct"></a>orderContainProduct
 
-    mixed OrderCore::orderContainProduct($id_product)
+```php
+mixed OrderCore::orderContainProduct($id_product)
+```
 
 
 
@@ -2216,7 +2498,9 @@ Check if order contains (only) virtual products
 
 ### <a name="method-setCurrentState"></a>setCurrentState
 
-    mixed OrderCore::setCurrentState(integer $id_order_state, integer $id_employee)
+```php
+mixed OrderCore::setCurrentState(integer $id_order_state, integer $id_employee)
+```
 
 Set current order status
 
@@ -2234,7 +2518,9 @@ Set current order status
 
 ### <a name="method-setDelivery"></a>setDelivery
 
-    mixed OrderCore::setDelivery()
+```php
+mixed OrderCore::setDelivery()
+```
 
 
 
@@ -2248,7 +2534,9 @@ Set current order status
 
 ### <a name="method-setDeliveryNumber"></a>setDeliveryNumber
 
-    mixed OrderCore::setDeliveryNumber($order_invoice_id, $id_shop)
+```php
+mixed OrderCore::setDeliveryNumber($order_invoice_id, $id_shop)
+```
 
 
 
@@ -2266,7 +2554,9 @@ Set current order status
 
 ### <a name="method-setDeliverySlip"></a>setDeliverySlip
 
-    mixed OrderCore::setDeliverySlip()
+```php
+mixed OrderCore::setDeliverySlip()
+```
 
 This method allows to generate first delivery slip of the current order
 
@@ -2280,7 +2570,9 @@ This method allows to generate first delivery slip of the current order
 
 ### <a name="method-setInvoice"></a>setInvoice
 
-    mixed OrderCore::setInvoice($use_existing_payment)
+```php
+mixed OrderCore::setInvoice($use_existing_payment)
+```
 
 This method allows to generate first invoice of the current order
 
@@ -2297,7 +2589,9 @@ This method allows to generate first invoice of the current order
 
 ### <a name="method-setInvoiceDetails"></a>setInvoiceDetails
 
-    mixed OrderCore::setInvoiceDetails($order_invoice)
+```php
+mixed OrderCore::setInvoiceDetails($order_invoice)
+```
 
 This method allows to fulfill the object order_invoice with sales figures
 
@@ -2314,7 +2608,9 @@ This method allows to fulfill the object order_invoice with sales figures
 
 ### <a name="method-setLastInvoiceNumber"></a>setLastInvoiceNumber
 
-    mixed OrderCore::setLastInvoiceNumber($order_invoice_id, $id_shop)
+```php
+mixed OrderCore::setLastInvoiceNumber($order_invoice_id, $id_shop)
+```
 
 
 
@@ -2333,7 +2629,9 @@ This method allows to fulfill the object order_invoice with sales figures
 
 ### <a name="method-setProductCurrentStock"></a>setProductCurrentStock
 
-    mixed OrderCore::setProductCurrentStock($product)
+```php
+mixed OrderCore::setProductCurrentStock($product)
+```
 
 This method allow to add stock information on a product detail
 
@@ -2351,7 +2649,9 @@ Else get the available quantity of the product in fucntion of the shop associate
 
 ### <a name="method-setProductCustomizedDatas"></a>setProductCustomizedDatas
 
-    mixed OrderCore::setProductCustomizedDatas($product, $customized_datas)
+```php
+mixed OrderCore::setProductCustomizedDatas($product, $customized_datas)
+```
 
 
 
@@ -2369,7 +2669,9 @@ Else get the available quantity of the product in fucntion of the shop associate
 
 ### <a name="method-setProductImageInformations"></a>setProductImageInformations
 
-    mixed OrderCore::setProductImageInformations($product)
+```php
+mixed OrderCore::setProductImageInformations($product)
+```
 
 This method allow to add image information on a product detail
 
@@ -2386,7 +2688,9 @@ This method allow to add image information on a product detail
 
 ### <a name="method-setProductPrices"></a>setProductPrices
 
-    mixed OrderCore::setProductPrices($row)
+```php
+mixed OrderCore::setProductPrices($row)
+```
 
 Marked as deprecated but should not throw any "deprecated" message
 This function is used in order to keep front office backward compatibility 14 -> 1.5
@@ -2405,7 +2709,9 @@ This function is used in order to keep front office backward compatibility 14 ->
 
 ### <a name="method-setWsCurrentState"></a>setWsCurrentState
 
-    mixed OrderCore::setWsCurrentState($state)
+```php
+mixed OrderCore::setWsCurrentState($state)
+```
 
 
 
@@ -2422,7 +2728,9 @@ This function is used in order to keep front office backward compatibility 14 ->
 
 ### <a name="method-setWsShippingNumber"></a>setWsShippingNumber
 
-    mixed OrderCore::setWsShippingNumber($shipping_number)
+```php
+mixed OrderCore::setWsShippingNumber($shipping_number)
+```
 
 
 
@@ -2439,7 +2747,9 @@ This function is used in order to keep front office backward compatibility 14 ->
 
 ### <a name="method-sortDocuments"></a>sortDocuments
 
-    mixed OrderCore::sortDocuments($a, $b)
+```php
+mixed OrderCore::sortDocuments($a, $b)
+```
 
 
 
@@ -2458,7 +2768,9 @@ This function is used in order to keep front office backward compatibility 14 ->
 
 ### <a name="method-updateOrderDetailTax"></a>updateOrderDetailTax
 
-    mixed OrderCore::updateOrderDetailTax()
+```php
+mixed OrderCore::updateOrderDetailTax()
+```
 
 The primary purpose of this method is to be
 called at the end of the generation of each order
@@ -2479,7 +2791,9 @@ products without tax.
 
 ### <a name="method-updateShippingCost"></a>updateShippingCost
 
-    boolean OrderCore::updateShippingCost(float $amount)
+```php
+boolean OrderCore::updateShippingCost(float $amount)
+```
 
 This method allows to change the shipping cost of the current order
 
@@ -2496,7 +2810,9 @@ This method allows to change the shipping cost of the current order
 
 ### <a name="method-useOneAfterAnotherTaxComputationMethod"></a>useOneAfterAnotherTaxComputationMethod
 
-    boolean OrderCore::useOneAfterAnotherTaxComputationMethod()
+```php
+boolean OrderCore::useOneAfterAnotherTaxComputationMethod()
+```
 
 This method returns true if at least one order details uses the
 One After Another tax computation method.

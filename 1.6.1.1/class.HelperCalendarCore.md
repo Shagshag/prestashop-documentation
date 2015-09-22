@@ -9,14 +9,16 @@ Class HelperCalendarCore
 * Parent class: [Helper](class.HelperCore.md)
 * Source: [classes/helper/HelperCalendar.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L27)
 
-Constants
-----------
+
+Contents
+--------
+
+### Constants
 
 * [DEFAULT_COMPARE_OPTION](#constant-DEFAULT_COMPARE_OPTION)
 * [DEFAULT_DATE_FORMAT](#constant-DEFAULT_DATE_FORMAT)
 
-Properties
-----------
+### Properties
 
 * [$_actions](#property-$_actions)
 * [$_compare_actions](#property-$_compare_actions)
@@ -28,8 +30,8 @@ Properties
 * [$_date_to](#property-$_date_to)
 * [$_rtl](#property-$_rtl)
 
-Methods
--------
+### Methods
+
 * [__construct](#method-__construct)
 * [addAction](#method-addAction)
 * [addCompareAction](#method-addCompareAction)
@@ -60,7 +62,9 @@ Constants
 
 ### <a name="constant-DEFAULT_COMPARE_OPTION"></a>DEFAULT_COMPARE_OPTION
 
-    const DEFAULT_COMPARE_OPTION = 1
+```php
+const DEFAULT_COMPARE_OPTION = 1
+```
 
 
 
@@ -71,7 +75,9 @@ Constants
 
 ### <a name="constant-DEFAULT_DATE_FORMAT"></a>DEFAULT_DATE_FORMAT
 
-    const DEFAULT_DATE_FORMAT = 'Y-mm-dd'
+```php
+const DEFAULT_DATE_FORMAT = 'Y-mm-dd'
+```
 
 
 
@@ -86,7 +92,9 @@ Properties
 
 ### <a name="property-$_actions"></a>$_actions
 
-    private mixed $_actions
+```php
+private mixed $_actions
+```
 
 
 
@@ -98,7 +106,9 @@ Properties
 
 ### <a name="property-$_compare_actions"></a>$_compare_actions
 
-    private mixed $_compare_actions
+```php
+private mixed $_compare_actions
+```
 
 
 
@@ -110,7 +120,9 @@ Properties
 
 ### <a name="property-$_compare_date_from"></a>$_compare_date_from
 
-    private mixed $_compare_date_from
+```php
+private mixed $_compare_date_from
+```
 
 
 
@@ -122,7 +134,9 @@ Properties
 
 ### <a name="property-$_compare_date_option"></a>$_compare_date_option
 
-    private mixed $_compare_date_option
+```php
+private mixed $_compare_date_option
+```
 
 
 
@@ -134,7 +148,9 @@ Properties
 
 ### <a name="property-$_compare_date_to"></a>$_compare_date_to
 
-    private mixed $_compare_date_to
+```php
+private mixed $_compare_date_to
+```
 
 
 
@@ -146,7 +162,9 @@ Properties
 
 ### <a name="property-$_date_format"></a>$_date_format
 
-    private mixed $_date_format
+```php
+private mixed $_date_format
+```
 
 
 
@@ -158,7 +176,9 @@ Properties
 
 ### <a name="property-$_date_from"></a>$_date_from
 
-    private mixed $_date_from
+```php
+private mixed $_date_from
+```
 
 
 
@@ -170,7 +190,9 @@ Properties
 
 ### <a name="property-$_date_to"></a>$_date_to
 
-    private mixed $_date_to
+```php
+private mixed $_date_to
+```
 
 
 
@@ -182,7 +204,9 @@ Properties
 
 ### <a name="property-$_rtl"></a>$_rtl
 
-    private mixed $_rtl
+```php
+private mixed $_rtl
+```
 
 
 
@@ -198,7 +222,9 @@ Methods
 
 ### <a name="method-__construct"></a>__construct
 
-    mixed HelperCalendarCore::__construct()
+```php
+mixed HelperCalendarCore::__construct()
+```
 
 
 
@@ -212,7 +238,9 @@ Methods
 
 ### <a name="method-addAction"></a>addAction
 
-    mixed HelperCalendarCore::addAction($action)
+```php
+mixed HelperCalendarCore::addAction($action)
+```
 
 
 
@@ -229,7 +257,9 @@ Methods
 
 ### <a name="method-addCompareAction"></a>addCompareAction
 
-    mixed HelperCalendarCore::addCompareAction($action)
+```php
+mixed HelperCalendarCore::addCompareAction($action)
+```
 
 
 
@@ -246,7 +276,9 @@ Methods
 
 ### <a name="method-generate"></a>generate
 
-    mixed HelperCalendarCore::generate()
+```php
+mixed HelperCalendarCore::generate()
+```
 
 
 
@@ -260,7 +292,9 @@ Methods
 
 ### <a name="method-getActions"></a>getActions
 
-    mixed HelperCalendarCore::getActions()
+```php
+mixed HelperCalendarCore::getActions()
+```
 
 
 
@@ -274,7 +308,9 @@ Methods
 
 ### <a name="method-getCompareActions"></a>getCompareActions
 
-    mixed HelperCalendarCore::getCompareActions()
+```php
+mixed HelperCalendarCore::getCompareActions()
+```
 
 
 
@@ -288,7 +324,9 @@ Methods
 
 ### <a name="method-getCompareDateFrom"></a>getCompareDateFrom
 
-    mixed HelperCalendarCore::getCompareDateFrom()
+```php
+mixed HelperCalendarCore::getCompareDateFrom()
+```
 
 
 
@@ -302,7 +340,9 @@ Methods
 
 ### <a name="method-getCompareDateTo"></a>getCompareDateTo
 
-    mixed HelperCalendarCore::getCompareDateTo()
+```php
+mixed HelperCalendarCore::getCompareDateTo()
+```
 
 
 
@@ -316,7 +356,9 @@ Methods
 
 ### <a name="method-getCompareOption"></a>getCompareOption
 
-    mixed HelperCalendarCore::getCompareOption()
+```php
+mixed HelperCalendarCore::getCompareOption()
+```
 
 
 
@@ -330,7 +372,9 @@ Methods
 
 ### <a name="method-getDateFormat"></a>getDateFormat
 
-    mixed HelperCalendarCore::getDateFormat()
+```php
+mixed HelperCalendarCore::getDateFormat()
+```
 
 
 
@@ -344,7 +388,9 @@ Methods
 
 ### <a name="method-getDateFrom"></a>getDateFrom
 
-    mixed HelperCalendarCore::getDateFrom()
+```php
+mixed HelperCalendarCore::getDateFrom()
+```
 
 
 
@@ -358,7 +404,9 @@ Methods
 
 ### <a name="method-getDateTo"></a>getDateTo
 
-    mixed HelperCalendarCore::getDateTo()
+```php
+mixed HelperCalendarCore::getDateTo()
+```
 
 
 
@@ -372,7 +420,9 @@ Methods
 
 ### <a name="method-isRTL"></a>isRTL
 
-    mixed HelperCalendarCore::isRTL()
+```php
+mixed HelperCalendarCore::isRTL()
+```
 
 
 
@@ -386,7 +436,9 @@ Methods
 
 ### <a name="method-setActions"></a>setActions
 
-    mixed HelperCalendarCore::setActions($value)
+```php
+mixed HelperCalendarCore::setActions($value)
+```
 
 
 
@@ -403,7 +455,9 @@ Methods
 
 ### <a name="method-setCompareActions"></a>setCompareActions
 
-    mixed HelperCalendarCore::setCompareActions($value)
+```php
+mixed HelperCalendarCore::setCompareActions($value)
+```
 
 
 
@@ -420,7 +474,9 @@ Methods
 
 ### <a name="method-setCompareDateFrom"></a>setCompareDateFrom
 
-    mixed HelperCalendarCore::setCompareDateFrom($value)
+```php
+mixed HelperCalendarCore::setCompareDateFrom($value)
+```
 
 
 
@@ -437,7 +493,9 @@ Methods
 
 ### <a name="method-setCompareDateTo"></a>setCompareDateTo
 
-    mixed HelperCalendarCore::setCompareDateTo($value)
+```php
+mixed HelperCalendarCore::setCompareDateTo($value)
+```
 
 
 
@@ -454,7 +512,9 @@ Methods
 
 ### <a name="method-setCompareOption"></a>setCompareOption
 
-    mixed HelperCalendarCore::setCompareOption($value)
+```php
+mixed HelperCalendarCore::setCompareOption($value)
+```
 
 
 
@@ -471,7 +531,9 @@ Methods
 
 ### <a name="method-setDateFormat"></a>setDateFormat
 
-    mixed HelperCalendarCore::setDateFormat($value)
+```php
+mixed HelperCalendarCore::setDateFormat($value)
+```
 
 
 
@@ -488,7 +550,9 @@ Methods
 
 ### <a name="method-setDateFrom"></a>setDateFrom
 
-    mixed HelperCalendarCore::setDateFrom($value)
+```php
+mixed HelperCalendarCore::setDateFrom($value)
+```
 
 
 
@@ -505,7 +569,9 @@ Methods
 
 ### <a name="method-setDateTo"></a>setDateTo
 
-    mixed HelperCalendarCore::setDateTo($value)
+```php
+mixed HelperCalendarCore::setDateTo($value)
+```
 
 
 
@@ -522,7 +588,9 @@ Methods
 
 ### <a name="method-setRTL"></a>setRTL
 
-    mixed HelperCalendarCore::setRTL($value)
+```php
+mixed HelperCalendarCore::setRTL($value)
+```
 
 
 
