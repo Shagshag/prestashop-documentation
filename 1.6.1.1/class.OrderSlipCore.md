@@ -6,7 +6,7 @@ Class OrderSlipCore
 
 
 * Class name: OrderSlipCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/OrderSlip.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L27)
 
 
@@ -333,7 +333,7 @@ Methods
 
 
 #### Arguments
-* $order **[Order](class.OrderCore)**
+* $order **[Order](class.OrderCore.md)**
 * $product_list **mixed**
 * $shipping_cost **mixed**
 * $amount **mixed**
@@ -451,7 +451,7 @@ Methods
 
 #### Arguments
 * $orderSlipId **integer**
-* $order **[Order](class.OrderCore)**
+* $order **[Order](class.OrderCore.md)**
 
 
 

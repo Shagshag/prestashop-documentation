@@ -6,5 +6,5 @@ Source: [classes/order/OrderDiscount.php](https://github.com/PrestaShop/PrestaSh
 Classes
 -------
 
-* [OrderDiscountCore](class.OrderDiscountCore)
+* [OrderDiscountCore](class.OrderDiscountCore.md)
 

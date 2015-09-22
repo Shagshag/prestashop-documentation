@@ -6,5 +6,5 @@ Source: [controllers/front/StatisticsController.php](https://github.com/PrestaSh
 Classes
 -------
 
-* [StatisticsControllerCore](class.StatisticsControllerCore)
+* [StatisticsControllerCore](class.StatisticsControllerCore.md)
 

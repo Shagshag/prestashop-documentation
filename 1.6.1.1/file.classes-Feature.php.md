@@ -6,5 +6,5 @@ Source: [classes/Feature.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.
 Classes
 -------
 
-* [FeatureCore](class.FeatureCore)
+* [FeatureCore](class.FeatureCore.md)
 

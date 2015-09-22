@@ -6,5 +6,5 @@ Source: [controllers/front/OrderConfirmationController.php](https://github.com/P
 Classes
 -------
 
-* [OrderConfirmationControllerCore](class.OrderConfirmationControllerCore)
+* [OrderConfirmationControllerCore](class.OrderConfirmationControllerCore.md)
 

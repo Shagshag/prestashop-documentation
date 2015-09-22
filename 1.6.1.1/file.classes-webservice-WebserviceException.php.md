@@ -6,5 +6,5 @@ Source: [classes/webservice/WebserviceException.php](https://github.com/PrestaSh
 Classes
 -------
 
-* [WebserviceExceptionCore](class.WebserviceExceptionCore)
+* [WebserviceExceptionCore](class.WebserviceExceptionCore.md)
 

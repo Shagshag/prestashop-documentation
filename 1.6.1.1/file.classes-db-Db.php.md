@@ -6,5 +6,5 @@ Source: [classes/db/Db.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.
 Classes
 -------
 
-* [DbCore](class.DbCore)
+* [DbCore](class.DbCore.md)
 

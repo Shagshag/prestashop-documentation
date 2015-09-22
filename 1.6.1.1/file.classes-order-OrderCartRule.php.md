@@ -6,5 +6,5 @@ Source: [classes/order/OrderCartRule.php](https://github.com/PrestaShop/PrestaSh
 Classes
 -------
 
-* [OrderCartRuleCore](class.OrderCartRuleCore)
+* [OrderCartRuleCore](class.OrderCartRuleCore.md)
 

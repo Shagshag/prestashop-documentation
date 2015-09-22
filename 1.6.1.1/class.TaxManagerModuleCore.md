@@ -7,7 +7,7 @@ Class TaxManagerModuleCore
 
 * Class name: TaxManagerModuleCore
 * This is an **abstract** class
-* Parent class: [Module](class.ModuleCore)
+* Parent class: [Module](class.ModuleCore.md)
 * Source: [classes/tax/TaxManagerModule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#L27)
 
 

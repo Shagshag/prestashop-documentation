@@ -6,5 +6,5 @@ Source: [controllers/front/PricesDropController.php](https://github.com/PrestaSh
 Classes
 -------
 
-* [PricesDropControllerCore](class.PricesDropControllerCore)
+* [PricesDropControllerCore](class.PricesDropControllerCore.md)
 

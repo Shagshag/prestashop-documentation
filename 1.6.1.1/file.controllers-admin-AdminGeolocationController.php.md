@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminGeolocationController.php](https://github.com/Pr
 Classes
 -------
 
-* [AdminGeolocationControllerCore](class.AdminGeolocationControllerCore)
+* [AdminGeolocationControllerCore](class.AdminGeolocationControllerCore.md)
 

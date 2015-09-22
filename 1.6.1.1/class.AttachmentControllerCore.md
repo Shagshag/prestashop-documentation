@@ -6,7 +6,7 @@ Class AttachmentControllerCore
 
 
 * Class name: AttachmentControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/AttachmentController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AttachmentController.php#L27)
 
 

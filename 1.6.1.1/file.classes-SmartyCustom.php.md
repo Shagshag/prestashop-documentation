@@ -6,6 +6,6 @@ Source: [classes/SmartyCustom.php](https://github.com/PrestaShop/PrestaShop/blob
 Classes
 -------
 
-* [SmartyCustomCore](class.SmartyCustomCore)
-* [Smarty_Custom_Template](class.Smarty_Custom_Template)
+* [SmartyCustomCore](class.SmartyCustomCore.md)
+* [Smarty_Custom_Template](class.Smarty_Custom_Template.md)
 

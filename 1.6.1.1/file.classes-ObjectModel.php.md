@@ -6,5 +6,5 @@ Source: [classes/ObjectModel.php](https://github.com/PrestaShop/PrestaShop/blob/
 Classes
 -------
 
-* [ObjectModelCore](class.ObjectModelCore)
+* [ObjectModelCore](class.ObjectModelCore.md)
 

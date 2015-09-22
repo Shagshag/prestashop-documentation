@@ -6,5 +6,5 @@ Source: [Adapter/Adapter_HookManager.php](https://github.com/PrestaShop/PrestaSh
 Classes
 -------
 
-* [Adapter_HookManager](class.Adapter_HookManager)
+* [Adapter_HookManager](class.Adapter_HookManager.md)
 

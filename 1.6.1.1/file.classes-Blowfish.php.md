@@ -6,6 +6,6 @@ Source: [classes/Blowfish.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [BlowfishCore](class.BlowfishCore)
-* [Crypt_Blowfish](class.Crypt_Blowfish)
+* [BlowfishCore](class.BlowfishCore.md)
+* [Crypt_Blowfish](class.Crypt_Blowfish.md)
 

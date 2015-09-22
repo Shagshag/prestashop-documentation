@@ -6,7 +6,7 @@ Class AdminLogsControllerCore
 
 
 * Class name: AdminLogsControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminLogsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLogsController.php#L30)
 
 

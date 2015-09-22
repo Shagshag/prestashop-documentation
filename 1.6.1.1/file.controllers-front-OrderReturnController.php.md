@@ -6,5 +6,5 @@ Source: [controllers/front/OrderReturnController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [OrderReturnControllerCore](class.OrderReturnControllerCore)
+* [OrderReturnControllerCore](class.OrderReturnControllerCore.md)
 

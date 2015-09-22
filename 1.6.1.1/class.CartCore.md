@@ -6,7 +6,7 @@ Class CartCore
 
 
 * Class name: CartCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Cart.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cart.php#L27)
 
 Constants
@@ -887,7 +887,7 @@ Set an address to all products on the cart without address delivery
 
 
 #### Arguments
-* $obj **[CartRule](class.CartRuleCore)**
+* $obj **[CartRule](class.CartRuleCore.md)**
 * $discounts **mixed**
 * $order_total **mixed**
 * $products **mixed**
@@ -1149,7 +1149,7 @@ Return shipping total of a specific carriers for the cart
 #### Arguments
 * $id_carrier **integer**
 * $useTax **boolean**
-* $default_country **[Country](class.CountryCore)|null**
+* $default_country **[Country](class.CountryCore.md)|null**
 * $delivery_option **array** - Array of the delivery option for each address
 
 
@@ -1258,7 +1258,7 @@ the cheapest option for each address
 
 
 #### Arguments
-* $default_country **[Country](class.CountryCore)|null**
+* $default_country **[Country](class.CountryCore.md)|null**
 * $dontAutoSelectOptions **boolean**
 * $use_cache **boolean**
 
@@ -1277,7 +1277,7 @@ Get all deliveries options available for the current cart
 
 
 #### Arguments
-* $default_country **[Country](class.CountryCore)**
+* $default_country **[Country](class.CountryCore.md)**
 * $flush **boolean** - Force flushing cache
 
 
@@ -1413,7 +1413,7 @@ Get the number of packages
 #### Arguments
 * $id_carrier **mixed**
 * $use_tax **mixed**
-* $default_country **[Country](class.CountryCore)**
+* $default_country **[Country](class.CountryCore.md)**
 * $product_list **mixed**
 
 
@@ -1532,7 +1532,7 @@ Return package shipping cost
 #### Arguments
 * $id_carrier **integer** - Carrier ID (default : current carrier)
 * $use_tax **boolean**
-* $default_country **[Country](class.CountryCore)|null**
+* $default_country **[Country](class.CountryCore.md)|null**
 * $product_list **array|null** - List of product concerned by the shipping.
                                      If null, all the product of the cart are used to calculate the shipping cost
 * $id_zone **integer|null**
@@ -1648,7 +1648,7 @@ Return shipping total for the cart
 #### Arguments
 * $delivery_option **array|null** - Array of the delivery option for each address
 * $use_tax **boolean**
-* $default_country **[Country](class.CountryCore)|null**
+* $default_country **[Country](class.CountryCore.md)|null**
 
 
 
@@ -1985,7 +1985,7 @@ New theme need to use Cart::getDeliveryOptionList() to generate carriers option 
 
 
 #### Arguments
-* $default_country **[Country](class.CountryCore)**
+* $default_country **[Country](class.CountryCore.md)**
 * $flush **boolean** - Force flushing cache
 
 
@@ -2063,7 +2063,7 @@ Update product quantity
 * $id_customization **mixed**
 * $operator **string** - Indicate if quantity must be increased or decreased
 * $id_address_delivery **mixed**
-* $shop **[Shop](class.ShopCore)**
+* $shop **[Shop](class.ShopCore.md)**
 * $auto_add_cart_rule **mixed**
 
 

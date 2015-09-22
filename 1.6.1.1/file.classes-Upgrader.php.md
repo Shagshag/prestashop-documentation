@@ -6,5 +6,5 @@ Source: [classes/Upgrader.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [UpgraderCore](class.UpgraderCore)
+* [UpgraderCore](class.UpgraderCore.md)
 

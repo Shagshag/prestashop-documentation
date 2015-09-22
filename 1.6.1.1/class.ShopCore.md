@@ -6,7 +6,7 @@ Class ShopCore
 
 
 * Class name: ShopCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/shop/Shop.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/Shop.php#L30)
 
 Constants

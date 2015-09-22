@@ -6,5 +6,5 @@ Source: [controllers/front/PdfOrderReturnController.php](https://github.com/Pres
 Classes
 -------
 
-* [PdfOrderReturnControllerCore](class.PdfOrderReturnControllerCore)
+* [PdfOrderReturnControllerCore](class.PdfOrderReturnControllerCore.md)
 

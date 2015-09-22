@@ -6,5 +6,5 @@ Source: [classes/stock/SupplyOrderHistory.php](https://github.com/PrestaShop/Pre
 Classes
 -------
 
-* [SupplyOrderHistoryCore](class.SupplyOrderHistoryCore)
+* [SupplyOrderHistoryCore](class.SupplyOrderHistoryCore.md)
 

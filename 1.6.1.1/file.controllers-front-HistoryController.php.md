@@ -6,5 +6,5 @@ Source: [controllers/front/HistoryController.php](https://github.com/PrestaShop/
 Classes
 -------
 
-* [HistoryControllerCore](class.HistoryControllerCore)
+* [HistoryControllerCore](class.HistoryControllerCore.md)
 

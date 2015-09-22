@@ -6,7 +6,7 @@ Class SearchEngineCore
 
 
 * Class name: SearchEngineCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/SearchEngine.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SearchEngine.php#L27)
 
 

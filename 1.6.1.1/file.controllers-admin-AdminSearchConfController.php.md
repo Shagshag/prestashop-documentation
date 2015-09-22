@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminSearchConfController.php](https://github.com/Pre
 Classes
 -------
 
-* [AdminSearchConfControllerCore](class.AdminSearchConfControllerCore)
+* [AdminSearchConfControllerCore](class.AdminSearchConfControllerCore.md)
 

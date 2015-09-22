@@ -6,5 +6,5 @@ Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php](https://github.c
 Classes
 -------
 
-* [Core_Business_CMS_CMSRepository](class.Core_Business_CMS_CMSRepository)
+* [Core_Business_CMS_CMSRepository](class.Core_Business_CMS_CMSRepository.md)
 

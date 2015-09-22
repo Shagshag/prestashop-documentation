@@ -6,5 +6,5 @@ Source: [classes/db/DbQuery.php](https://github.com/PrestaShop/PrestaShop/blob/1
 Classes
 -------
 
-* [DbQueryCore](class.DbQueryCore)
+* [DbQueryCore](class.DbQueryCore.md)
 

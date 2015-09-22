@@ -6,5 +6,5 @@ Source: [classes/webservice/WebserviceOutputXML.php](https://github.com/PrestaSh
 Classes
 -------
 
-* [WebserviceOutputXMLCore](class.WebserviceOutputXMLCore)
+* [WebserviceOutputXMLCore](class.WebserviceOutputXMLCore.md)
 

@@ -6,5 +6,5 @@ Source: [classes/stock/Stock.php](https://github.com/PrestaShop/PrestaShop/blob/
 Classes
 -------
 
-* [StockCore](class.StockCore)
+* [StockCore](class.StockCore.md)
 

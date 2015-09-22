@@ -7,7 +7,7 @@ Class TreeToolbarCore
 
 * Class name: TreeToolbarCore
 * Source: [classes/tree/TreeToolbar.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L27)
-* This class implements: [ITreeToolbarCore](interface.ITreeToolbarCore)
+* This class implements: [ITreeToolbarCore](interface.ITreeToolbarCore.md)
 Constants
 ----------
 

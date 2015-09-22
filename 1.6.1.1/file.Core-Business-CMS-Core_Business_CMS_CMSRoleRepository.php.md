@@ -6,5 +6,5 @@ Source: [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php](https://gith
 Classes
 -------
 
-* [Core_Business_CMS_CMSRoleRepository](class.Core_Business_CMS_CMSRoleRepository)
+* [Core_Business_CMS_CMSRoleRepository](class.Core_Business_CMS_CMSRoleRepository.md)
 

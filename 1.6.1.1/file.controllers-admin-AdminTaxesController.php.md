@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminTaxesController.php](https://github.com/PrestaSh
 Classes
 -------
 
-* [AdminTaxesControllerCore](class.AdminTaxesControllerCore)
+* [AdminTaxesControllerCore](class.AdminTaxesControllerCore.md)
 

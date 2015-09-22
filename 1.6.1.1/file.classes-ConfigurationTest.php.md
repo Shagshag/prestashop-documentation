@@ -6,5 +6,5 @@ Source: [classes/ConfigurationTest.php](https://github.com/PrestaShop/PrestaShop
 Classes
 -------
 
-* [ConfigurationTestCore](class.ConfigurationTestCore)
+* [ConfigurationTestCore](class.ConfigurationTestCore.md)
 

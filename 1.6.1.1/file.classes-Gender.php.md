@@ -6,5 +6,5 @@ Source: [classes/Gender.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1
 Classes
 -------
 
-* [GenderCore](class.GenderCore)
+* [GenderCore](class.GenderCore.md)
 

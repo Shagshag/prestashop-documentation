@@ -6,5 +6,5 @@ Source: [classes/log/FileLogger.php](https://github.com/PrestaShop/PrestaShop/bl
 Classes
 -------
 
-* [FileLoggerCore](class.FileLoggerCore)
+* [FileLoggerCore](class.FileLoggerCore.md)
 

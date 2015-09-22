@@ -6,7 +6,7 @@ Class SpecificPriceRuleCore
 
 
 * Class name: SpecificPriceRuleCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/SpecificPriceRule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#L27)
 
 

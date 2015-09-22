@@ -6,5 +6,5 @@ Source: [classes/ProductDownload.php](https://github.com/PrestaShop/PrestaShop/b
 Classes
 -------
 
-* [ProductDownloadCore](class.ProductDownloadCore)
+* [ProductDownloadCore](class.ProductDownloadCore.md)
 

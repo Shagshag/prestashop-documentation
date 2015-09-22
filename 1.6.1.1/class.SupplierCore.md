@@ -6,7 +6,7 @@ Class SupplierCore
 
 
 * Class name: SupplierCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Supplier.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L27)
 
 

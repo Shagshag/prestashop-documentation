@@ -6,9 +6,9 @@ Class TreeToolbarSearchCore
 
 
 * Class name: TreeToolbarSearchCore
-* Parent class: [TreeToolbarButtonCore](class.TreeToolbarButtonCore)
+* Parent class: [TreeToolbarButtonCore](class.TreeToolbarButtonCore.md)
 * Source: [classes/tree/TreeToolbarSearch.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarSearch.php#L27)
-* This class implements: [ITreeToolbarButtonCore](interface.ITreeToolbarButtonCore)
+* This class implements: [ITreeToolbarButtonCore](interface.ITreeToolbarButtonCore.md)
 Constants
 ----------
 

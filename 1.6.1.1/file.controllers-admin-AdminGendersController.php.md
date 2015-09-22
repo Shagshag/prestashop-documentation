@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminGendersController.php](https://github.com/Presta
 Classes
 -------
 
-* [AdminGendersControllerCore](class.AdminGendersControllerCore)
+* [AdminGendersControllerCore](class.AdminGendersControllerCore.md)
 

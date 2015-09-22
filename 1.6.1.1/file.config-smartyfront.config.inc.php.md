@@ -7,4 +7,4 @@ Source: [config/smartyfront.config.inc.php](https://github.com/PrestaShop/Presta
 Functions
 ---------
 
-* [smartyTranslate](function.smartyTranslate)
+* [smartyTranslate](function.smartyTranslate.md)

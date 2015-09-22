@@ -6,5 +6,5 @@ Source: [controllers/front/AddressesController.php](https://github.com/PrestaSho
 Classes
 -------
 
-* [AddressesControllerCore](class.AddressesControllerCore)
+* [AddressesControllerCore](class.AddressesControllerCore.md)
 

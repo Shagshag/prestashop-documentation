@@ -6,7 +6,7 @@ Class HelperKpiRowCore
 
 
 * Class name: HelperKpiRowCore
-* Parent class: [Helper](class.HelperCore)
+* Parent class: [Helper](class.HelperCore.md)
 * Source: [classes/helper/HelperKpiRow.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#L27)
 
 

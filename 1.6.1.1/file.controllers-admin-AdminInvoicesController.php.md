@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminInvoicesController.php](https://github.com/Prest
 Classes
 -------
 
-* [AdminInvoicesControllerCore](class.AdminInvoicesControllerCore)
+* [AdminInvoicesControllerCore](class.AdminInvoicesControllerCore.md)
 

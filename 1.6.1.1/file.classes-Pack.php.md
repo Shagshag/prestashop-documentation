@@ -6,5 +6,5 @@ Source: [classes/Pack.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1
 Classes
 -------
 
-* [PackCore](class.PackCore)
+* [PackCore](class.PackCore.md)
 

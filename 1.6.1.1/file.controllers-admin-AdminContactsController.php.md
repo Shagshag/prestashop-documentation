@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminContactsController.php](https://github.com/Prest
 Classes
 -------
 
-* [AdminContactsControllerCore](class.AdminContactsControllerCore)
+* [AdminContactsControllerCore](class.AdminContactsControllerCore.md)
 

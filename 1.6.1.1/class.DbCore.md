@@ -703,7 +703,7 @@ Executes a query
 
 
 #### Arguments
-* $sql **string|[string](class.DbQueryCore)**
+* $sql **string|[string](class.DbQueryCore.md)**
 * $use_cache **boolean**
 
 
@@ -721,7 +721,7 @@ Executes return the result of $sql as array
 
 
 #### Arguments
-* $sql **string|[string](class.DbQueryCore)** - Query to execute
+* $sql **string|[string](class.DbQueryCore.md)** - Query to execute
 * $array **boolean** - Return an array instead of a result object (deprecated since 1.5.0.1, use query method instead)
 * $use_cache **boolean**
 
@@ -851,7 +851,7 @@ This function automatically adds "LIMIT 1" to the query
 
 
 #### Arguments
-* $sql **string|[string](class.DbQueryCore)** - the select query (without &quot;LIMIT 1&quot;)
+* $sql **string|[string](class.DbQueryCore.md)** - the select query (without &quot;LIMIT 1&quot;)
 * $use_cache **boolean** - Find it in cache first
 
 
@@ -869,7 +869,7 @@ Returns a value from the first row, first column of a SELECT query
 
 
 #### Arguments
-* $sql **string|[string](class.DbQueryCore)**
+* $sql **string|[string](class.DbQueryCore.md)**
 * $use_cache **boolean**
 
 
@@ -1012,7 +1012,7 @@ Executes a query
 
 
 #### Arguments
-* $sql **string|[string](class.DbQueryCore)**
+* $sql **string|[string](class.DbQueryCore.md)**
 * $use_cache **boolean**
 
 
@@ -1030,7 +1030,7 @@ Execute a query and get result resource
 
 
 #### Arguments
-* $sql **string|[string](class.DbQueryCore)**
+* $sql **string|[string](class.DbQueryCore.md)**
 
 
 
@@ -1048,7 +1048,7 @@ Executes a query
 
 
 #### Arguments
-* $sql **string|[string](class.DbQueryCore)**
+* $sql **string|[string](class.DbQueryCore.md)**
 * $use_cache **boolean**
 
 

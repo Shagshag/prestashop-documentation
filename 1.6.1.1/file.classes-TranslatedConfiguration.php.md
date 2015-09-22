@@ -6,5 +6,5 @@ Source: [classes/TranslatedConfiguration.php](https://github.com/PrestaShop/Pres
 Classes
 -------
 
-* [TranslatedConfigurationCore](class.TranslatedConfigurationCore)
+* [TranslatedConfigurationCore](class.TranslatedConfigurationCore.md)
 

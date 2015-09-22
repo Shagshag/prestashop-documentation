@@ -20,7 +20,7 @@ versions in the future. If you wish to customize PrestaShop for your
 needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Business_CMS_CMSRepository
-* Parent class: [Core_Foundation_Database_EntityRepository](class.Core_Foundation_Database_EntityRepository)
+* Parent class: [Core_Foundation_Database_EntityRepository](class.Core_Foundation_Database_EntityRepository.md)
 * Source: [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L27)
 
 
@@ -154,9 +154,9 @@ Methods
 
 
 #### Arguments
-* $entityManager **[Core_Foundation_Database_EntityManager](class.Core_Foundation_Database_EntityManager)**
+* $entityManager **[Core_Foundation_Database_EntityManager](class.Core_Foundation_Database_EntityManager.md)**
 * $tablesPrefix **mixed**
-* $entityMetaData **[Core_Foundation_Database_EntityMetaData](class.Core_Foundation_Database_EntityMetaData)**
+* $entityMetaData **[Core_Foundation_Database_EntityMetaData](class.Core_Foundation_Database_EntityMetaData.md)**
 
 
 

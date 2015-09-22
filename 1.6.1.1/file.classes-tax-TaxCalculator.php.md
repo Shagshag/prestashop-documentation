@@ -6,5 +6,5 @@ Source: [classes/tax/TaxCalculator.php](https://github.com/PrestaShop/PrestaShop
 Classes
 -------
 
-* [TaxCalculatorCore](class.TaxCalculatorCore)
+* [TaxCalculatorCore](class.TaxCalculatorCore.md)
 

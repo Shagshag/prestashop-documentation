@@ -6,7 +6,7 @@ Class CMSRoleCore
 
 
 * Class name: CMSRoleCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/CMSRole.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L28)
 
 

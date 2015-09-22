@@ -6,7 +6,7 @@ Class OrderInvoiceCore
 
 
 * Class name: OrderInvoiceCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/OrderInvoice.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L27)
 
 Constants
@@ -726,7 +726,7 @@ Returns the shipping taxes breakdown
 
 
 #### Arguments
-* $order **[Order](class.OrderCore)**
+* $order **[Order](class.OrderCore.md)**
 
 
 

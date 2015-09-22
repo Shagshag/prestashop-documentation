@@ -6,7 +6,7 @@ Class AdminTrackingControllerCore
 
 
 * Class name: AdminTrackingControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L30)
 
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminImportController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [AdminImportControllerCore](class.AdminImportControllerCore)
+* [AdminImportControllerCore](class.AdminImportControllerCore.md)
 

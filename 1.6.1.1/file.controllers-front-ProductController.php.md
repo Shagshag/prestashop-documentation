@@ -6,5 +6,5 @@ Source: [controllers/front/ProductController.php](https://github.com/PrestaShop/
 Classes
 -------
 
-* [ProductControllerCore](class.ProductControllerCore)
+* [ProductControllerCore](class.ProductControllerCore.md)
 

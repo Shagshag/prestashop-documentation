@@ -22,7 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 * Class name: ObjectModelCore
 * This is an **abstract** class
 * Source: [classes/ObjectModel.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L27)
-* This class implements: [Core_Foundation_Database_EntityInterface](interface.Core_Foundation_Database_EntityInterface)
+* This class implements: [Core_Foundation_Database_EntityInterface](interface.Core_Foundation_Database_EntityInterface.md)
 Constants
 ----------
 
@@ -742,7 +742,7 @@ Returns field name translation
 * $field **string** - Field name
 * $class **string** - ObjectModel class name
 * $htmlentities **boolean** - If true, applies htmlentities() to result string
-* $context **[Context](class.ContextCore)|null** - Context object
+* $context **[Context](class.ContextCore.md)|null** - Context object
 
 
 

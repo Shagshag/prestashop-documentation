@@ -6,7 +6,7 @@ Class ManufacturerCore
 
 
 * Class name: ManufacturerCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Manufacturer.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L27)
 
 
@@ -430,7 +430,7 @@ Return manufacturers
 * $get_total **mixed**
 * $active **mixed**
 * $active_category **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

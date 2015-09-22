@@ -6,7 +6,7 @@ Class StockMvtReasonCore
 
 
 * Class name: StockMvtReasonCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/stock/StockMvtReason.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L27)
 
 

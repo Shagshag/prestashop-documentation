@@ -895,7 +895,7 @@ Constructor
 
 #### Arguments
 * $name **string** - Module unique name
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

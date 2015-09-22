@@ -6,5 +6,5 @@ Source: [Core/Business/Email/Core_Business_Email_EmailLister.php](https://github
 Classes
 -------
 
-* [Core_Business_Email_EmailLister](class.Core_Business_Email_EmailLister)
+* [Core_Business_Email_EmailLister](class.Core_Business_Email_EmailLister.md)
 

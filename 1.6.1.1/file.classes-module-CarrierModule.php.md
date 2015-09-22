@@ -6,5 +6,5 @@ Source: [classes/module/CarrierModule.php](https://github.com/PrestaShop/PrestaS
 Classes
 -------
 
-* [CarrierModuleCore](class.CarrierModuleCore)
+* [CarrierModuleCore](class.CarrierModuleCore.md)
 

@@ -6,7 +6,7 @@ Class OrderStateCore
 
 
 * Class name: OrderStateCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/OrderState.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L27)
 
 Constants

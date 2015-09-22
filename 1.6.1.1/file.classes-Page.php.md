@@ -6,5 +6,5 @@ Source: [classes/Page.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1
 Classes
 -------
 
-* [PageCore](class.PageCore)
+* [PageCore](class.PageCore.md)
 

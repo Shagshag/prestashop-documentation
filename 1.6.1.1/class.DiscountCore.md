@@ -6,7 +6,7 @@ Class DiscountCore
 
 
 * Class name: DiscountCore
-* Parent class: [CartRule](class.CartRuleCore)
+* Parent class: [CartRule](class.CartRuleCore.md)
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
 * Source: [classes/Discount.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L30)
 
@@ -166,7 +166,7 @@ Methods
 
 
 #### Arguments
-* $order **[Order](class.OrderCore)**
+* $order **[Order](class.OrderCore.md)**
 * $productList **mixed**
 * $qtyList **mixed**
 * $name **mixed**
@@ -237,7 +237,7 @@ Methods
 * $active **mixed**
 * $includeGenericOnes **mixed**
 * $hasStock **mixed**
-* $cart **[Cart](class.CartCore)**
+* $cart **[Cart](class.CartCore.md)**
 
 
 
@@ -279,8 +279,8 @@ Methods
 * $shipping_fees **mixed**
 * $id_cart **mixed**
 * $useTax **mixed**
-* $currency **[Currency](class.CurrencyCore)**
-* $shop **[Shop](class.ShopCore)**
+* $currency **[Currency](class.CurrencyCore.md)**
+* $shop **[Shop](class.ShopCore.md)**
 
 
 

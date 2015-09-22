@@ -6,7 +6,7 @@ Class ParentOrderControllerCore
 
 
 * Class name: ParentOrderControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/ParentOrderController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L37)
 
 

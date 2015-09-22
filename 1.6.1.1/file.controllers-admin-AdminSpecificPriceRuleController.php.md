@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminSpecificPriceRuleController.php](https://github.
 Classes
 -------
 
-* [AdminSpecificPriceRuleControllerCore](class.AdminSpecificPriceRuleControllerCore)
+* [AdminSpecificPriceRuleControllerCore](class.AdminSpecificPriceRuleControllerCore.md)
 

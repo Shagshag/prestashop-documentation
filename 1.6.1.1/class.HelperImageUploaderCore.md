@@ -6,7 +6,7 @@ Class HelperImageUploaderCore
 
 
 * Class name: HelperImageUploaderCore
-* Parent class: [HelperUploader](class.HelperUploaderCore)
+* Parent class: [HelperUploader](class.HelperUploaderCore.md)
 * Source: [classes/helper/HelperImageUploader.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperImageUploader.php#L27)
 
 

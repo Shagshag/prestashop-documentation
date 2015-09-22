@@ -20,7 +20,7 @@ versions in the future. If you wish to customize PrestaShop for your
 needs please refer to http://www.prestashop.com for more information.
 
 * Class name: OrderReturnControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/OrderReturnController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L27)
 
 

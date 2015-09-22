@@ -6,5 +6,5 @@ Source: [classes/Customization.php](https://github.com/PrestaShop/PrestaShop/blo
 Classes
 -------
 
-* [CustomizationCore](class.CustomizationCore)
+* [CustomizationCore](class.CustomizationCore.md)
 

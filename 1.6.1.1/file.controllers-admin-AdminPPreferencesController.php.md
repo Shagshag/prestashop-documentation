@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminPPreferencesController.php](https://github.com/P
 Classes
 -------
 
-* [AdminPPreferencesControllerCore](class.AdminPPreferencesControllerCore)
+* [AdminPPreferencesControllerCore](class.AdminPPreferencesControllerCore.md)
 

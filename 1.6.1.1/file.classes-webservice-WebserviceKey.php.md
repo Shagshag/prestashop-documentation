@@ -6,5 +6,5 @@ Source: [classes/webservice/WebserviceKey.php](https://github.com/PrestaShop/Pre
 Classes
 -------
 
-* [WebserviceKeyCore](class.WebserviceKeyCore)
+* [WebserviceKeyCore](class.WebserviceKeyCore.md)
 

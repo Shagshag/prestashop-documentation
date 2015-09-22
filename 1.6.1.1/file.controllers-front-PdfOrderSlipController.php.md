@@ -6,5 +6,5 @@ Source: [controllers/front/PdfOrderSlipController.php](https://github.com/Presta
 Classes
 -------
 
-* [PdfOrderSlipControllerCore](class.PdfOrderSlipControllerCore)
+* [PdfOrderSlipControllerCore](class.PdfOrderSlipControllerCore.md)
 

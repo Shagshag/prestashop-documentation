@@ -6,5 +6,5 @@ Source: [classes/module/ImportModule.php](https://github.com/PrestaShop/PrestaSh
 Classes
 -------
 
-* [ImportModuleCore](class.ImportModuleCore)
+* [ImportModuleCore](class.ImportModuleCore.md)
 

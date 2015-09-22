@@ -6,7 +6,7 @@ Class AdminTaxRulesGroupControllerCore
 
 
 * Class name: AdminTaxRulesGroupControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminTaxRulesGroupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L30)
 
 
@@ -295,7 +295,7 @@ Methods
 
 
 #### Arguments
-* $object **[TaxRulesGroup](class.TaxRulesGroupCore)**
+* $object **[TaxRulesGroup](class.TaxRulesGroupCore.md)**
 
 
 
@@ -312,6 +312,6 @@ Check if the tax rule could be added in the database
 
 
 #### Arguments
-* $tr **[TaxRule](class.TaxRuleCore)**
+* $tr **[TaxRule](class.TaxRuleCore.md)**
 
 

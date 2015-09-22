@@ -6,5 +6,5 @@ Source: [classes/Employee.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [EmployeeCore](class.EmployeeCore)
+* [EmployeeCore](class.EmployeeCore.md)
 

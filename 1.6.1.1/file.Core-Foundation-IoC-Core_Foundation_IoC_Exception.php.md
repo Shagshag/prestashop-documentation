@@ -6,5 +6,5 @@ Source: [Core/Foundation/IoC/Core_Foundation_IoC_Exception.php](https://github.c
 Classes
 -------
 
-* [Core_Foundation_IoC_Exception](class.Core_Foundation_IoC_Exception)
+* [Core_Foundation_IoC_Exception](class.Core_Foundation_IoC_Exception.md)
 

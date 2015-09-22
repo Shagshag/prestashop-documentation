@@ -6,5 +6,5 @@ Source: [classes/Scene.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.
 Classes
 -------
 
-* [SceneCore](class.SceneCore)
+* [SceneCore](class.SceneCore.md)
 

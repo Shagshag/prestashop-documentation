@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminNotFoundController.php](https://github.com/Prest
 Classes
 -------
 
-* [AdminNotFoundControllerCore](class.AdminNotFoundControllerCore)
+* [AdminNotFoundControllerCore](class.AdminNotFoundControllerCore.md)
 

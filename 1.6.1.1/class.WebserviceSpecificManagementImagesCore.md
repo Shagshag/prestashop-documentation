@@ -21,7 +21,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: WebserviceSpecificManagementImagesCore
 * Source: [classes/webservice/WebserviceSpecificManagementImages.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L27)
-* This class implements: [WebserviceSpecificManagementInterface](interface.WebserviceSpecificManagementInterface)
+* This class implements: [WebserviceSpecificManagementInterface](interface.WebserviceSpecificManagementInterface.md)
 
 
 Properties
@@ -466,7 +466,7 @@ Management of images URL segment
 
 
 #### Arguments
-* $obj **[WebserviceOutputBuilderCore](class.WebserviceOutputBuilderCore)**
+* $obj **[WebserviceOutputBuilderCore](class.WebserviceOutputBuilderCore.md)**
 
 
 
@@ -483,7 +483,7 @@ Management of images URL segment
 
 
 #### Arguments
-* $obj **[WebserviceRequestCore](class.WebserviceRequestCore)**
+* $obj **[WebserviceRequestCore](class.WebserviceRequestCore.md)**
 
 
 

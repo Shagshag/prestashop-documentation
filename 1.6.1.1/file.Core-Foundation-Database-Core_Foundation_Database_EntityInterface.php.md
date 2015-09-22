@@ -5,6 +5,6 @@ Source: [Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php](
 Interfaces
 ----------
 
-* [Core_Foundation_Database_EntityInterface](interface.Core_Foundation_Database_EntityInterface)
+* [Core_Foundation_Database_EntityInterface](interface.Core_Foundation_Database_EntityInterface.md)
 
 

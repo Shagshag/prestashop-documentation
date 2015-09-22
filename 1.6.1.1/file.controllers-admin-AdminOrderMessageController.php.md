@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminOrderMessageController.php](https://github.com/P
 Classes
 -------
 
-* [AdminOrderMessageControllerCore](class.AdminOrderMessageControllerCore)
+* [AdminOrderMessageControllerCore](class.AdminOrderMessageControllerCore.md)
 

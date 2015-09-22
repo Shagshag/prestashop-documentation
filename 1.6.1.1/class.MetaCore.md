@@ -6,7 +6,7 @@ Class MetaCore
 
 
 * Class name: MetaCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Meta.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#L27)
 
 
@@ -154,7 +154,7 @@ Methods
 #### Arguments
 * $meta_tags **mixed**
 * $default_value **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

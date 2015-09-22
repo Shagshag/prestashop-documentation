@@ -21,7 +21,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_Configuration
 * Source: [Adapter/Adapter_Configuration.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_Configuration.php#L27)
-* This class implements: [Core_Business_ConfigurationInterface](interface.Core_Business_ConfigurationInterface)
+* This class implements: [Core_Business_ConfigurationInterface](interface.Core_Business_ConfigurationInterface.md)
 
 
 

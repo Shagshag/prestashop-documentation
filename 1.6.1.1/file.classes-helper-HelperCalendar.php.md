@@ -6,5 +6,5 @@ Source: [classes/helper/HelperCalendar.php](https://github.com/PrestaShop/Presta
 Classes
 -------
 
-* [HelperCalendarCore](class.HelperCalendarCore)
+* [HelperCalendarCore](class.HelperCalendarCore.md)
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminStatsTabController.php](https://github.com/Prest
 Classes
 -------
 
-* [AdminStatsTabControllerCore](class.AdminStatsTabControllerCore)
+* [AdminStatsTabControllerCore](class.AdminStatsTabControllerCore.md)
 

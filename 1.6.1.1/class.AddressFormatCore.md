@@ -6,7 +6,7 @@ Class AddressFormatCore
 
 
 * Class name: AddressFormatCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/AddressFormat.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#L27)
 
 Constants
@@ -288,7 +288,7 @@ Generates the full address text
 
 
 #### Arguments
-* $address **[Address](class.AddressCore)**
+* $address **[Address](class.AddressCore.md)**
 * $patternRules **array** - A defined rules array to avoid some pattern
 * $newLine **string** - A string containing the newLine format
 * $separator **string** - A string containing the separator format

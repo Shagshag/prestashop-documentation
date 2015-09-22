@@ -6,5 +6,5 @@ Source: [classes/log/AbstractLogger.php](https://github.com/PrestaShop/PrestaSho
 Classes
 -------
 
-* [AbstractLoggerCore](class.AbstractLoggerCore)
+* [AbstractLoggerCore](class.AbstractLoggerCore.md)
 

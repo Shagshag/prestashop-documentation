@@ -6,7 +6,7 @@ Class HelperUploaderCore
 
 
 * Class name: HelperUploaderCore
-* Parent class: [Uploader](class.UploaderCore)
+* Parent class: [Uploader](class.UploaderCore.md)
 * Source: [classes/helper/HelperUploader.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L27)
 
 Constants

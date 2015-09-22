@@ -6,5 +6,5 @@ Source: [Adapter/Adapter_AddressFactory.php](https://github.com/PrestaShop/Prest
 Classes
 -------
 
-* [Adapter_AddressFactory](class.Adapter_AddressFactory)
+* [Adapter_AddressFactory](class.Adapter_AddressFactory.md)
 

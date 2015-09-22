@@ -6,5 +6,5 @@ Source: [classes/QuickAccess.php](https://github.com/PrestaShop/PrestaShop/blob/
 Classes
 -------
 
-* [QuickAccessCore](class.QuickAccessCore)
+* [QuickAccessCore](class.QuickAccessCore.md)
 

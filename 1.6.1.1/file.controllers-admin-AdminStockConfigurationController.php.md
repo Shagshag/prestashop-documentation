@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminStockConfigurationController.php](https://github
 Classes
 -------
 
-* [AdminStockConfigurationControllerCore](class.AdminStockConfigurationControllerCore)
+* [AdminStockConfigurationControllerCore](class.AdminStockConfigurationControllerCore.md)
 

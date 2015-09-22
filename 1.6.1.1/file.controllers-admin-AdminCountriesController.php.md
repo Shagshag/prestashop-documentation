@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminCountriesController.php](https://github.com/Pres
 Classes
 -------
 
-* [AdminCountriesControllerCore](class.AdminCountriesControllerCore)
+* [AdminCountriesControllerCore](class.AdminCountriesControllerCore.md)
 

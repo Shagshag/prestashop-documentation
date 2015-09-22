@@ -6,5 +6,5 @@ Source: [controllers/front/IdentityController.php](https://github.com/PrestaShop
 Classes
 -------
 
-* [IdentityControllerCore](class.IdentityControllerCore)
+* [IdentityControllerCore](class.IdentityControllerCore.md)
 

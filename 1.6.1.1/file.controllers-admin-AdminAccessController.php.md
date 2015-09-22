@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminAccessController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [AdminAccessControllerCore](class.AdminAccessControllerCore)
+* [AdminAccessControllerCore](class.AdminAccessControllerCore.md)
 

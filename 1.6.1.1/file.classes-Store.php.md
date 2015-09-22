@@ -6,5 +6,5 @@ Source: [classes/Store.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.
 Classes
 -------
 
-* [StoreCore](class.StoreCore)
+* [StoreCore](class.StoreCore.md)
 

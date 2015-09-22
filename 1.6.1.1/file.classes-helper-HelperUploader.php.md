@@ -6,5 +6,5 @@ Source: [classes/helper/HelperUploader.php](https://github.com/PrestaShop/Presta
 Classes
 -------
 
-* [HelperUploaderCore](class.HelperUploaderCore)
+* [HelperUploaderCore](class.HelperUploaderCore.md)
 

@@ -6,5 +6,5 @@ Source: [Adapter/Adapter_EntityMetaDataRetriever.php](https://github.com/PrestaS
 Classes
 -------
 
-* [Adapter_EntityMetaDataRetriever](class.Adapter_EntityMetaDataRetriever)
+* [Adapter_EntityMetaDataRetriever](class.Adapter_EntityMetaDataRetriever.md)
 

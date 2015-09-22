@@ -6,5 +6,5 @@ Source: [Core/Business/Core_Business_ContainerBuilder.php](https://github.com/Pr
 Classes
 -------
 
-* [Core_Business_ContainerBuilder](class.Core_Business_ContainerBuilder)
+* [Core_Business_ContainerBuilder](class.Core_Business_ContainerBuilder.md)
 

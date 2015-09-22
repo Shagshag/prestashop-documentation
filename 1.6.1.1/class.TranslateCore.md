@@ -107,7 +107,7 @@ Get a translation for a module
 
 
 #### Arguments
-* $module **string|[string](class.ModuleCore)**
+* $module **string|[string](class.ModuleCore.md)**
 * $string **string**
 * $source **string**
 * $sprintf **mixed**

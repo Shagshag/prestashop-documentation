@@ -6,20 +6,20 @@ Source: [config/smarty.config.inc.php](https://github.com/PrestaShop/PrestaShop/
 Classes
 -------
 
-* [SmartyLazyRegister](class.SmartyLazyRegister)
+* [SmartyLazyRegister](class.SmartyLazyRegister.md)
 
 Functions
 ---------
 
-* [smartyDieObject](function.smartyDieObject)
-* [smartyShowObject](function.smartyShowObject)
-* [smartyMaxWords](function.smartyMaxWords)
-* [smartyTruncate](function.smartyTruncate)
-* [smarty_modifier_truncate](function.smarty_modifier_truncate)
-* [smarty_modifier_htmlentitiesUTF8](function.smarty_modifier_htmlentitiesUTF8)
-* [smartyMinifyHTML](function.smartyMinifyHTML)
-* [smartyPackJSinHTML](function.smartyPackJSinHTML)
-* [smartyRegisterFunction](function.smartyRegisterFunction)
-* [smartyHook](function.smartyHook)
-* [smartyCleanHtml](function.smartyCleanHtml)
-* [toolsConvertPrice](function.toolsConvertPrice)
+* [smartyDieObject](function.smartyDieObject.md)
+* [smartyShowObject](function.smartyShowObject.md)
+* [smartyMaxWords](function.smartyMaxWords.md)
+* [smartyTruncate](function.smartyTruncate.md)
+* [smarty_modifier_truncate](function.smarty_modifier_truncate.md)
+* [smarty_modifier_htmlentitiesUTF8](function.smarty_modifier_htmlentitiesUTF8.md)
+* [smartyMinifyHTML](function.smartyMinifyHTML.md)
+* [smartyPackJSinHTML](function.smartyPackJSinHTML.md)
+* [smartyRegisterFunction](function.smartyRegisterFunction.md)
+* [smartyHook](function.smartyHook.md)
+* [smartyCleanHtml](function.smartyCleanHtml.md)
+* [toolsConvertPrice](function.toolsConvertPrice.md)

@@ -6,7 +6,7 @@ Class OrderCore
 
 
 * Class name: OrderCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/Order.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#L27)
 
 Constants
@@ -850,7 +850,7 @@ DOES delete the product
 
 
 #### Arguments
-* $order_detail **[OrderDetail](class.OrderDetailCore)**
+* $order_detail **[OrderDetail](class.OrderDetailCore.md)**
 * $quantity **integer**
 
 
@@ -929,9 +929,9 @@ This method allows to add a payment to the current order
 * $amount_paid **float**
 * $payment_method **string**
 * $payment_transaction_id **string**
-* $currency **[Currency](class.CurrencyCore)**
+* $currency **[Currency](class.CurrencyCore.md)**
 * $date **string**
-* $order_invoice **[OrderInvoice](class.OrderInvoiceCore)**
+* $order_invoice **[OrderInvoice](class.OrderInvoiceCore.md)**
 
 
 
@@ -1000,7 +1000,7 @@ Does NOT delete a product but "cancel" it (which means return/refund/delete it d
 
 #### Arguments
 * $order **mixed**
-* $order_detail **[OrderDetail](class.OrderDetailCore)**
+* $order_detail **[OrderDetail](class.OrderDetailCore.md)**
 * $quantity **integer**
 
 
@@ -1212,7 +1212,7 @@ Get customer orders
 #### Arguments
 * $id_customer **integer** - Customer id
 * $show_hidden_status **boolean** - Display or not hidden order statuses
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -1675,7 +1675,7 @@ Get the sum of total_paid_tax_incl of the orders with similar reference
 
 #### Arguments
 * $limit **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -1841,7 +1841,7 @@ Get total paid
 
 
 #### Arguments
-* $currency **[Currency](class.CurrencyCore)** - currency used for the total paid of the current order
+* $currency **[Currency](class.CurrencyCore.md)** - currency used for the total paid of the current order
 
 
 

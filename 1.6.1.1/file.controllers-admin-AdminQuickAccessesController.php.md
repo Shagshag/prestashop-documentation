@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminQuickAccessesController.php](https://github.com/
 Classes
 -------
 
-* [AdminQuickAccessesControllerCore](class.AdminQuickAccessesControllerCore)
+* [AdminQuickAccessesControllerCore](class.AdminQuickAccessesControllerCore.md)
 

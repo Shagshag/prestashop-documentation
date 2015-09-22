@@ -6,5 +6,5 @@ Source: [classes/SpecificPrice.php](https://github.com/PrestaShop/PrestaShop/blo
 Classes
 -------
 
-* [SpecificPriceCore](class.SpecificPriceCore)
+* [SpecificPriceCore](class.SpecificPriceCore.md)
 

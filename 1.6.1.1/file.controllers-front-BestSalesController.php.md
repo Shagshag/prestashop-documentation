@@ -6,5 +6,5 @@ Source: [controllers/front/BestSalesController.php](https://github.com/PrestaSho
 Classes
 -------
 
-* [BestSalesControllerCore](class.BestSalesControllerCore)
+* [BestSalesControllerCore](class.BestSalesControllerCore.md)
 

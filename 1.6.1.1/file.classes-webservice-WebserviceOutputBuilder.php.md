@@ -6,5 +6,5 @@ Source: [classes/webservice/WebserviceOutputBuilder.php](https://github.com/Pres
 Classes
 -------
 
-* [WebserviceOutputBuilderCore](class.WebserviceOutputBuilderCore)
+* [WebserviceOutputBuilderCore](class.WebserviceOutputBuilderCore.md)
 

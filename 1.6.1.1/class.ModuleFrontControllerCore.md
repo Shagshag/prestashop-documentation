@@ -6,7 +6,7 @@ Class ModuleFrontControllerCore
 
 
 * Class name: ModuleFrontControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [classes/controller/ModuleFrontController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleFrontController.php#L30)
 
 

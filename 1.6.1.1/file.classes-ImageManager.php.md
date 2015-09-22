@@ -6,5 +6,5 @@ Source: [classes/ImageManager.php](https://github.com/PrestaShop/PrestaShop/blob
 Classes
 -------
 
-* [ImageManagerCore](class.ImageManagerCore)
+* [ImageManagerCore](class.ImageManagerCore.md)
 

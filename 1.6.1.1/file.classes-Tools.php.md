@@ -6,10 +6,10 @@ Source: [classes/Tools.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.
 Classes
 -------
 
-* [ToolsCore](class.ToolsCore)
+* [ToolsCore](class.ToolsCore.md)
 
 Functions
 ---------
 
-* [cmpPriceAsc](function.cmpPriceAsc)
-* [cmpPriceDesc](function.cmpPriceDesc)
+* [cmpPriceAsc](function.cmpPriceAsc.md)
+* [cmpPriceDesc](function.cmpPriceDesc.md)

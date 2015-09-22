@@ -6,5 +6,5 @@ Source: [controllers/front/OrderSlipController.php](https://github.com/PrestaSho
 Classes
 -------
 
-* [OrderSlipControllerCore](class.OrderSlipControllerCore)
+* [OrderSlipControllerCore](class.OrderSlipControllerCore.md)
 

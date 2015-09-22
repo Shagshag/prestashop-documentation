@@ -6,5 +6,5 @@ Source: [classes/CMSRole.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.
 Classes
 -------
 
-* [CMSRoleCore](class.CMSRoleCore)
+* [CMSRoleCore](class.CMSRoleCore.md)
 

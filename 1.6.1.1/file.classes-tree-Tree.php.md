@@ -6,5 +6,5 @@ Source: [classes/tree/Tree.php](https://github.com/PrestaShop/PrestaShop/blob/1.
 Classes
 -------
 
-* [TreeCore](class.TreeCore)
+* [TreeCore](class.TreeCore.md)
 

@@ -6,7 +6,7 @@ Class AdminSupplyOrdersControllerCore
 
 
 * Class name: AdminSupplyOrdersControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminSupplyOrdersController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L31)
 
 
@@ -111,7 +111,7 @@ Overrides AdminController::afterAdd()
 
 
 #### Arguments
-* $object **[ObjectModel](class.ObjectModelCore)**
+* $object **[ObjectModel](class.ObjectModelCore.md)**
 
 
 
@@ -142,7 +142,7 @@ Overrides AdminController::beforeAdd()
 
 
 #### Arguments
-* $object **[SupplyOrder](class.SupplyOrderCore)**
+* $object **[SupplyOrder](class.SupplyOrderCore.md)**
 
 
 

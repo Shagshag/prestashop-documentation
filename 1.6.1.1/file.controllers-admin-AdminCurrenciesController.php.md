@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminCurrenciesController.php](https://github.com/Pre
 Classes
 -------
 
-* [AdminCurrenciesControllerCore](class.AdminCurrenciesControllerCore)
+* [AdminCurrenciesControllerCore](class.AdminCurrenciesControllerCore.md)
 

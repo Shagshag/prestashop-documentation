@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminLocalizationController.php](https://github.com/P
 Classes
 -------
 
-* [AdminLocalizationControllerCore](class.AdminLocalizationControllerCore)
+* [AdminLocalizationControllerCore](class.AdminLocalizationControllerCore.md)
 

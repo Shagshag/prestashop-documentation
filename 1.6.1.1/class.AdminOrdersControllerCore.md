@@ -6,7 +6,7 @@ Class AdminOrdersControllerCore
 
 
 * Class name: AdminOrdersControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminOrdersController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L41)
 
 
@@ -219,7 +219,7 @@ Methods
 
 
 #### Arguments
-* $order_invoice **[OrderInvoice](class.OrderInvoiceCore)**
+* $order_invoice **[OrderInvoice](class.OrderInvoiceCore.md)**
 * $value_tax_incl **float**
 * $value_tax_excl **float**
 
@@ -238,8 +238,8 @@ Methods
 
 
 #### Arguments
-* $order_detail **[OrderDetail](class.OrderDetailCore)**
-* $order **[Order](class.OrderCore)**
+* $order_detail **[OrderDetail](class.OrderDetailCore.md)**
+* $order **[Order](class.OrderCore.md)**
 
 
 
@@ -256,9 +256,9 @@ Methods
 
 
 #### Arguments
-* $order_detail **[OrderDetail](class.OrderDetailCore)**
-* $order **[Order](class.OrderCore)**
-* $order_invoice **[OrderInvoice](class.OrderInvoiceCore)**
+* $order_detail **[OrderDetail](class.OrderDetailCore.md)**
+* $order **[Order](class.OrderCore.md)**
+* $order_invoice **[OrderInvoice](class.OrderInvoiceCore.md)**
 
 
 
@@ -275,7 +275,7 @@ Methods
 
 
 #### Arguments
-* $order **[Order](class.OrderCore)**
+* $order **[Order](class.OrderCore.md)**
 
 
 
@@ -384,7 +384,7 @@ Methods
 
 
 #### Arguments
-* $order_detail **[OrderDetail](class.OrderDetailCore)**
+* $order_detail **[OrderDetail](class.OrderDetailCore.md)**
 * $qty_cancel_product **integer**
 * $delete **boolean**
 
@@ -459,7 +459,7 @@ Methods
 
 
 #### Arguments
-* $order **[Order](class.OrderCore)**
+* $order **[Order](class.OrderCore.md)**
 
 
 

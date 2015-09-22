@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminDeliverySlipController.php](https://github.com/P
 Classes
 -------
 
-* [AdminDeliverySlipControllerCore](class.AdminDeliverySlipControllerCore)
+* [AdminDeliverySlipControllerCore](class.AdminDeliverySlipControllerCore.md)
 

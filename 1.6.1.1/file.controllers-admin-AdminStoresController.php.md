@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminStoresController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [AdminStoresControllerCore](class.AdminStoresControllerCore)
+* [AdminStoresControllerCore](class.AdminStoresControllerCore.md)
 

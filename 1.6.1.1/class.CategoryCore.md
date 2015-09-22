@@ -6,7 +6,7 @@ Class CategoryCore
 
 
 * Class name: CategoryCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Category.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L27)
 
 
@@ -946,7 +946,7 @@ This method allow to return children categories with the number of sub children 
 * $id_parent **integer**
 * $selected_cat **mixed**
 * $id_lang **integer**
-* $shop **[Shop](class.ShopCore)**
+* $shop **[Shop](class.ShopCore.md)**
 * $use_shop_context **mixed**
 
 
@@ -1081,7 +1081,7 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 
 #### Arguments
-* $link **[Link](class.LinkCore)**
+* $link **[Link](class.LinkCore.md)**
 * $id_lang **mixed**
 
 
@@ -1188,7 +1188,7 @@ Returns category products
 * $random_number_products **integer** - Number of products to return if random is activated
 * $check_access **boolean** - If set tot rue, check if the current customer
                                            can see products from this category
-* $context **[Context](class.ContextCore)|null**
+* $context **[Context](class.ContextCore.md)|null**
 
 
 
@@ -1240,7 +1240,7 @@ Returns category products
 
 #### Arguments
 * $id_lang **mixed**
-* $shop **[Shop](class.ShopCore)**
+* $shop **[Shop](class.ShopCore.md)**
 
 
 
@@ -1396,7 +1396,7 @@ Check if current category is a child of shop root category
 
 
 #### Arguments
-* $shop **[Shop](class.ShopCore)**
+* $shop **[Shop](class.ShopCore.md)**
 
 
 
@@ -1415,7 +1415,7 @@ Check if current category is a child of shop root category
 
 #### Arguments
 * $id_category **mixed**
-* $shop **[Shop](class.ShopCore)**
+* $shop **[Shop](class.ShopCore.md)**
 
 
 

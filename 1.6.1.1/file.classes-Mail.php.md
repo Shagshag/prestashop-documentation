@@ -6,5 +6,5 @@ Source: [classes/Mail.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1
 Classes
 -------
 
-* [MailCore](class.MailCore)
+* [MailCore](class.MailCore.md)
 

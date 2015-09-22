@@ -6,5 +6,5 @@ Source: [classes/SearchEngine.php](https://github.com/PrestaShop/PrestaShop/blob
 Classes
 -------
 
-* [SearchEngineCore](class.SearchEngineCore)
+* [SearchEngineCore](class.SearchEngineCore.md)
 

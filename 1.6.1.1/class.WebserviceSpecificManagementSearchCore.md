@@ -7,7 +7,7 @@ Class WebserviceSpecificManagementSearchCore
 
 * Class name: WebserviceSpecificManagementSearchCore
 * Source: [classes/webservice/WebserviceSpecificManagementSearch.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L27)
-* This class implements: [WebserviceSpecificManagementInterface](interface.WebserviceSpecificManagementInterface)
+* This class implements: [WebserviceSpecificManagementInterface](interface.WebserviceSpecificManagementInterface.md)
 
 
 Properties
@@ -158,7 +158,7 @@ Management of search
 
 
 #### Arguments
-* $obj **[WebserviceOutputBuilderCore](class.WebserviceOutputBuilderCore)**
+* $obj **[WebserviceOutputBuilderCore](class.WebserviceOutputBuilderCore.md)**
 
 
 
@@ -192,6 +192,6 @@ Management of search
 
 
 #### Arguments
-* $obj **[WebserviceRequestCore](class.WebserviceRequestCore)**
+* $obj **[WebserviceRequestCore](class.WebserviceRequestCore.md)**
 
 

@@ -6,7 +6,7 @@ Class CategoryControllerCore
 
 
 * Class name: CategoryControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/CategoryController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CategoryController.php#L27)
 
 

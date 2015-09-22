@@ -6,7 +6,7 @@ Class HelperFormCore
 
 
 * Class name: HelperFormCore
-* Parent class: [Helper](class.HelperCore)
+* Parent class: [Helper](class.HelperCore.md)
 * Source: [classes/helper/HelperForm.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L30)
 
 

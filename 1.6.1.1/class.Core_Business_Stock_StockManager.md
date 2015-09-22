@@ -54,8 +54,8 @@ This will update a Pack quantity and will decrease the quantity of containing Pr
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)** - A product pack object to update its quantity
-* $stock_available **[StockAvailable](class.StockAvailableCore)** - the stock of the product to fix with correct quantity
+* $product **[Product](class.ProductCore.md)** - A product pack object to update its quantity
+* $stock_available **[StockAvailable](class.StockAvailableCore.md)** - the stock of the product to fix with correct quantity
 * $delta_quantity **integer** - The movement of the stock (negative for a decrease)
 * $id_shop **integer|null** - Opional shop ID
 
@@ -75,9 +75,9 @@ This will decrease (if needed) Packs containing this product
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)** - A product object to update its quantity
+* $product **[Product](class.ProductCore.md)** - A product object to update its quantity
 * $id_product_attribute **integer** - The product attribute to update
-* $stock_available **[StockAvailable](class.StockAvailableCore)** - the stock of the product to fix with correct quantity
+* $stock_available **[StockAvailable](class.StockAvailableCore.md)** - the stock of the product to fix with correct quantity
 * $id_shop **integer|null** - Opional shop ID
 
 
@@ -95,7 +95,7 @@ If Product is contained in a Pack, Pack could be decreased or not (only if sub p
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)** - The product to update its stockAvailable
+* $product **[Product](class.ProductCore.md)** - The product to update its stockAvailable
 * $id_product_attribute **integer** - The declinaison to update (null if not)
 * $delta_quantity **integer** - The quantity change (positive or negative)
 * $id_shop **integer|null** - Optional

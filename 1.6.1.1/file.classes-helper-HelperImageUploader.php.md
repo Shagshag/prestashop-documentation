@@ -6,5 +6,5 @@ Source: [classes/helper/HelperImageUploader.php](https://github.com/PrestaShop/P
 Classes
 -------
 
-* [HelperImageUploaderCore](class.HelperImageUploaderCore)
+* [HelperImageUploaderCore](class.HelperImageUploaderCore.md)
 

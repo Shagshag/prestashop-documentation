@@ -20,7 +20,7 @@ versions in the future. If you wish to customize PrestaShop for your
 needs please refer to http://www.prestashop.com for more information.
 
 * Class name: HelperShopCore
-* Parent class: [Helper](class.HelperCore)
+* Parent class: [Helper](class.HelperCore.md)
 * Source: [classes/helper/HelperShop.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperShop.php#L27)
 
 

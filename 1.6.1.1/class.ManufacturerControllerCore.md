@@ -6,7 +6,7 @@ Class ManufacturerControllerCore
 
 
 * Class name: ManufacturerControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/ManufacturerController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ManufacturerController.php#L27)
 
 

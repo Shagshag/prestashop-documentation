@@ -20,7 +20,7 @@ versions in the future. If you wish to customize PrestaShop for your
 needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Foundation_IoC_Exception
-* Parent class: [Core_Foundation_Exception_Exception](class.Core_Foundation_Exception_Exception)
+* Parent class: [Core_Foundation_Exception_Exception](class.Core_Foundation_Exception_Exception.md)
 * Source: [Core/Foundation/IoC/Core_Foundation_IoC_Exception.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Exception.php#L27)
 
 

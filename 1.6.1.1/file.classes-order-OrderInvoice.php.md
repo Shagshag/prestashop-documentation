@@ -6,5 +6,5 @@ Source: [classes/order/OrderInvoice.php](https://github.com/PrestaShop/PrestaSho
 Classes
 -------
 
-* [OrderInvoiceCore](class.OrderInvoiceCore)
+* [OrderInvoiceCore](class.OrderInvoiceCore.md)
 

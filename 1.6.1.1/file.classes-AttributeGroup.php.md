@@ -6,5 +6,5 @@ Source: [classes/AttributeGroup.php](https://github.com/PrestaShop/PrestaShop/bl
 Classes
 -------
 
-* [AttributeGroupCore](class.AttributeGroupCore)
+* [AttributeGroupCore](class.AttributeGroupCore.md)
 

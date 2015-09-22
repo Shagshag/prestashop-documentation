@@ -5,6 +5,6 @@ Source: [classes/stock/StockManagerInterface.php](https://github.com/PrestaShop/
 Interfaces
 ----------
 
-* [StockManagerInterface](interface.StockManagerInterface)
+* [StockManagerInterface](interface.StockManagerInterface.md)
 
 

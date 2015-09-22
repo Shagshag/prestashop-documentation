@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminCartRulesController.php](https://github.com/Pres
 Classes
 -------
 
-* [AdminCartRulesControllerCore](class.AdminCartRulesControllerCore)
+* [AdminCartRulesControllerCore](class.AdminCartRulesControllerCore.md)
 

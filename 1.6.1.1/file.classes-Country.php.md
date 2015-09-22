@@ -6,5 +6,5 @@ Source: [classes/Country.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.
 Classes
 -------
 
-* [CountryCore](class.CountryCore)
+* [CountryCore](class.CountryCore.md)
 

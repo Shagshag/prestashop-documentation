@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminPatternsController.php](https://github.com/Prest
 Classes
 -------
 
-* [AdminPatternsControllerCore](class.AdminPatternsControllerCore)
+* [AdminPatternsControllerCore](class.AdminPatternsControllerCore.md)
 

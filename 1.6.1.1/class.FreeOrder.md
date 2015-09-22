@@ -6,7 +6,7 @@ Class FreeOrder to use PaymentModule (abstract class, cannot be instancied)
 
 
 * Class name: FreeOrder
-* Parent class: [PaymentModule](class.PaymentModuleCore)
+* Parent class: [PaymentModule](class.PaymentModuleCore.md)
 * Source: [controllers/front/ParentOrderController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L30)
 
 

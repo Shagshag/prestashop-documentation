@@ -6,7 +6,7 @@ Class AliasCore
 
 
 * Class name: AliasCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Alias.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L27)
 
 

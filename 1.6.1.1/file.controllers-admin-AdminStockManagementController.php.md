@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminStockManagementController.php](https://github.co
 Classes
 -------
 
-* [AdminStockManagementControllerCore](class.AdminStockManagementControllerCore)
+* [AdminStockManagementControllerCore](class.AdminStockManagementControllerCore.md)
 

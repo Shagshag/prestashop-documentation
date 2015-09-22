@@ -6,5 +6,5 @@ Source: [classes/Validate.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [ValidateCore](class.ValidateCore)
+* [ValidateCore](class.ValidateCore.md)
 

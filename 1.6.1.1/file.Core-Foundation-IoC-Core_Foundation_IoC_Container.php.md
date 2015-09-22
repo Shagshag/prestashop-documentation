@@ -6,5 +6,5 @@ Source: [Core/Foundation/IoC/Core_Foundation_IoC_Container.php](https://github.c
 Classes
 -------
 
-* [Core_Foundation_IoC_Container](class.Core_Foundation_IoC_Container)
+* [Core_Foundation_IoC_Container](class.Core_Foundation_IoC_Container.md)
 

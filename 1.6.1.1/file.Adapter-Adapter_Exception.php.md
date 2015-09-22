@@ -6,5 +6,5 @@ Source: [Adapter/Adapter_Exception.php](https://github.com/PrestaShop/PrestaShop
 Classes
 -------
 
-* [Adapter_Exception](class.Adapter_Exception)
+* [Adapter_Exception](class.Adapter_Exception.md)
 

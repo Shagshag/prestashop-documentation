@@ -6,7 +6,7 @@ Class AdminTagsControllerCore
 
 
 * Class name: AdminTagsControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminTagsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L30)
 
 

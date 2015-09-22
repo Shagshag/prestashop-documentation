@@ -6,5 +6,5 @@ Source: [classes/Notification.php](https://github.com/PrestaShop/PrestaShop/blob
 Classes
 -------
 
-* [NotificationCore](class.NotificationCore)
+* [NotificationCore](class.NotificationCore.md)
 

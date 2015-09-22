@@ -6,5 +6,5 @@ Source: [classes/Combination.php](https://github.com/PrestaShop/PrestaShop/blob/
 Classes
 -------
 
-* [CombinationCore](class.CombinationCore)
+* [CombinationCore](class.CombinationCore.md)
 

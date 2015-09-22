@@ -6,5 +6,5 @@ Source: [controllers/front/AttachmentController.php](https://github.com/PrestaSh
 Classes
 -------
 
-* [AttachmentControllerCore](class.AttachmentControllerCore)
+* [AttachmentControllerCore](class.AttachmentControllerCore.md)
 

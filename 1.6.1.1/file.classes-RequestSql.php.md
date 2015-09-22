@@ -6,5 +6,5 @@ Source: [classes/RequestSql.php](https://github.com/PrestaShop/PrestaShop/blob/1
 Classes
 -------
 
-* [RequestSqlCore](class.RequestSqlCore)
+* [RequestSqlCore](class.RequestSqlCore.md)
 

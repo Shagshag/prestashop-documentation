@@ -6,7 +6,7 @@ Class OrderCartRuleCore
 
 
 * Class name: OrderCartRuleCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/OrderCartRule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#L27)
 
 

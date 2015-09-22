@@ -6,5 +6,5 @@ Source: [classes/helper/HelperKpi.php](https://github.com/PrestaShop/PrestaShop/
 Classes
 -------
 
-* [HelperKpiCore](class.HelperKpiCore)
+* [HelperKpiCore](class.HelperKpiCore.md)
 

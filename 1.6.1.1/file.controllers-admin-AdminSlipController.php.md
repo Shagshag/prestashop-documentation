@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminSlipController.php](https://github.com/PrestaSho
 Classes
 -------
 
-* [AdminSlipControllerCore](class.AdminSlipControllerCore)
+* [AdminSlipControllerCore](class.AdminSlipControllerCore.md)
 

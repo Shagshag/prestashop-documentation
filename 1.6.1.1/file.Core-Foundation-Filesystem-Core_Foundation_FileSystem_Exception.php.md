@@ -6,5 +6,5 @@ Source: [Core/Foundation/Filesystem/Core_Foundation_FileSystem_Exception.php](ht
 Classes
 -------
 
-* [Core_Foundation_FileSystem_Exception](class.Core_Foundation_FileSystem_Exception)
+* [Core_Foundation_FileSystem_Exception](class.Core_Foundation_FileSystem_Exception.md)
 

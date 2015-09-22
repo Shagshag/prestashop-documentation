@@ -6,5 +6,5 @@ Source: [classes/Meta.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1
 Classes
 -------
 
-* [MetaCore](class.MetaCore)
+* [MetaCore](class.MetaCore.md)
 

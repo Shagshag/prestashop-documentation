@@ -6,7 +6,7 @@ Class HelperListCore
 
 
 * Class name: HelperListCore
-* Parent class: [Helper](class.HelperCore)
+* Parent class: [Helper](class.HelperCore.md)
 * Source: [classes/helper/HelperList.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#L30)
 
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminMetaController.php](https://github.com/PrestaSho
 Classes
 -------
 
-* [AdminMetaControllerCore](class.AdminMetaControllerCore)
+* [AdminMetaControllerCore](class.AdminMetaControllerCore.md)
 

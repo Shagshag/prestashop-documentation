@@ -6,5 +6,5 @@ Source: [classes/tree/TreeToolbar.php](https://github.com/PrestaShop/PrestaShop/
 Classes
 -------
 
-* [TreeToolbarCore](class.TreeToolbarCore)
+* [TreeToolbarCore](class.TreeToolbarCore.md)
 

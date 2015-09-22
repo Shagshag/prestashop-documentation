@@ -7,7 +7,7 @@ Class WebserviceOutputJSON
 
 * Class name: WebserviceOutputJSON
 * Source: [classes/webservice/WebserviceOutputJSON.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L28)
-* This class implements: [WebserviceOutputInterface](interface.WebserviceOutputInterface)
+* This class implements: [WebserviceOutputInterface](interface.WebserviceOutputInterface.md)
 
 
 Properties

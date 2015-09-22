@@ -6,5 +6,5 @@ Source: [classes/tax/AverageTaxOfProductsTaxCalculator.php](https://github.com/P
 Classes
 -------
 
-* [AverageTaxOfProductsTaxCalculator](class.AverageTaxOfProductsTaxCalculator)
+* [AverageTaxOfProductsTaxCalculator](class.AverageTaxOfProductsTaxCalculator.md)
 

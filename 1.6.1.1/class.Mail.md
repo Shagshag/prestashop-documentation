@@ -9,7 +9,7 @@ needs please refer to http://doc.prestashop.com/display/PS15/Overriding+default+
 #Overridingdefaultbehaviors-Overridingamodule%27sbehavior for more information.
 
 * Class name: Mail
-* Parent class: [MailCore](class.MailCore)
+* Parent class: [MailCore](class.MailCore.md)
 * Source: [override/classes/Mail.php line 14](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L14)
 
 Constants
@@ -285,7 +285,7 @@ we have to return a sentence with accents.
 #### Arguments
 * $string **string** - raw sentence (write directly in file)
 * $id_lang **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

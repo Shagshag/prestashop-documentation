@@ -6,7 +6,7 @@ Class OrderOpcControllerCore
 
 
 * Class name: OrderOpcControllerCore
-* Parent class: [ParentOrderController](class.ParentOrderControllerCore)
+* Parent class: [ParentOrderController](class.ParentOrderControllerCore.md)
 * Source: [controllers/front/OrderOpcController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L27)
 
 

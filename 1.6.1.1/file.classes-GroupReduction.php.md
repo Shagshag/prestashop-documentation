@@ -6,5 +6,5 @@ Source: [classes/GroupReduction.php](https://github.com/PrestaShop/PrestaShop/bl
 Classes
 -------
 
-* [GroupReductionCore](class.GroupReductionCore)
+* [GroupReductionCore](class.GroupReductionCore.md)
 

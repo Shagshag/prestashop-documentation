@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminFeaturesController.php](https://github.com/Prest
 Classes
 -------
 
-* [AdminFeaturesControllerCore](class.AdminFeaturesControllerCore)
+* [AdminFeaturesControllerCore](class.AdminFeaturesControllerCore.md)
 

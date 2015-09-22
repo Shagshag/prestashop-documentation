@@ -7,7 +7,7 @@ Class ModuleGraphEngineCore
 
 * Class name: ModuleGraphEngineCore
 * This is an **abstract** class
-* Parent class: [Module](class.ModuleCore)
+* Parent class: [Module](class.ModuleCore.md)
 * Source: [classes/module/ModuleGraphEngine.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#L27)
 
 

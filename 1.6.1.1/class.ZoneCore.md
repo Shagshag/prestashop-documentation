@@ -6,7 +6,7 @@ Class ZoneCore
 
 
 * Class name: ZoneCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Zone.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#L27)
 
 

@@ -6,5 +6,5 @@ Source: [classes/pdf/HTMLTemplateDeliverySlip.php](https://github.com/PrestaShop
 Classes
 -------
 
-* [HTMLTemplateDeliverySlipCore](class.HTMLTemplateDeliverySlipCore)
+* [HTMLTemplateDeliverySlipCore](class.HTMLTemplateDeliverySlipCore.md)
 

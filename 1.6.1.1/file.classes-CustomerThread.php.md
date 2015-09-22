@@ -6,5 +6,5 @@ Source: [classes/CustomerThread.php](https://github.com/PrestaShop/PrestaShop/bl
 Classes
 -------
 
-* [CustomerThreadCore](class.CustomerThreadCore)
+* [CustomerThreadCore](class.CustomerThreadCore.md)
 

@@ -6,7 +6,7 @@ Class AdminShopUrlControllerCore
 
 
 * Class name: AdminShopUrlControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminShopUrlController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopUrlController.php#L30)
 
 
@@ -82,7 +82,7 @@ Methods
 
 
 #### Arguments
-* $object **[ShopUrl](class.ShopUrlCore)**
+* $object **[ShopUrl](class.ShopUrlCore.md)**
 
 
 

@@ -6,5 +6,5 @@ Source: [classes/Rijndael.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [RijndaelCore](class.RijndaelCore)
+* [RijndaelCore](class.RijndaelCore.md)
 

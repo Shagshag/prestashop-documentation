@@ -6,5 +6,5 @@ Source: [classes/CustomerMessage.php](https://github.com/PrestaShop/PrestaShop/b
 Classes
 -------
 
-* [CustomerMessageCore](class.CustomerMessageCore)
+* [CustomerMessageCore](class.CustomerMessageCore.md)
 

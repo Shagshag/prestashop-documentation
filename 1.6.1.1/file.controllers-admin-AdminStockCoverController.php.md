@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminStockCoverController.php](https://github.com/Pre
 Classes
 -------
 
-* [AdminStockCoverControllerCore](class.AdminStockCoverControllerCore)
+* [AdminStockCoverControllerCore](class.AdminStockCoverControllerCore.md)
 

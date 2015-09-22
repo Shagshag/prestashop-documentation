@@ -6,5 +6,5 @@ Source: [classes/Currency.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [CurrencyCore](class.CurrencyCore)
+* [CurrencyCore](class.CurrencyCore.md)
 

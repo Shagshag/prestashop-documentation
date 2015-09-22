@@ -6,6 +6,6 @@ Source: [classes/Chart.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.
 Classes
 -------
 
-* [ChartCore](class.ChartCore)
-* [Curve](class.Curve)
+* [ChartCore](class.ChartCore.md)
+* [Curve](class.Curve.md)
 

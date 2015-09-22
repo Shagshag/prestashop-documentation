@@ -6,7 +6,7 @@ Class AdminContactsControllerCore
 
 
 * Class name: AdminContactsControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminContactsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminContactsController.php#L30)
 
 

@@ -6,7 +6,7 @@ Class AdminCarrierWizardControllerCore
 
 
 * Class name: AdminCarrierWizardControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminCarrierWizardController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L30)
 
 
@@ -338,7 +338,7 @@ Methods
 
 
 #### Arguments
-* $carrier **[Carrier](class.CarrierCore)**
+* $carrier **[Carrier](class.CarrierCore.md)**
 * $tpl_vars **array**
 * $fields_value **array**
 
@@ -470,7 +470,7 @@ Methods
 
 
 #### Arguments
-* $carrier **[Carrier](class.CarrierCore)**
+* $carrier **[Carrier](class.CarrierCore.md)**
 
 
 

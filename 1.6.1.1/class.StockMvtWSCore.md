@@ -20,7 +20,7 @@ versions in the future. If you wish to customize PrestaShop for your
 needs please refer to http://www.prestashop.com for more information.
 
 * Class name: StockMvtWSCore
-* Parent class: [ObjectModelCore](class.ObjectModelCore)
+* Parent class: [ObjectModelCore](class.ObjectModelCore.md)
 * Source: [classes/stock/StockMvtWS.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L31)
 
 Constants
@@ -1055,7 +1055,7 @@ Returns field name translation
 * $field **string** - Field name
 * $class **string** - ObjectModel class name
 * $htmlentities **boolean** - If true, applies htmlentities() to result string
-* $context **[Context](class.ContextCore)|null** - Context object
+* $context **[Context](class.ContextCore.md)|null** - Context object
 
 
 

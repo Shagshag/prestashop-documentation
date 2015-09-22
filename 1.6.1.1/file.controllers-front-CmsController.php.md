@@ -6,5 +6,5 @@ Source: [controllers/front/CmsController.php](https://github.com/PrestaShop/Pres
 Classes
 -------
 
-* [CmsControllerCore](class.CmsControllerCore)
+* [CmsControllerCore](class.CmsControllerCore.md)
 

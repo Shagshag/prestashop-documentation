@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminSearchController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [AdminSearchControllerCore](class.AdminSearchControllerCore)
+* [AdminSearchControllerCore](class.AdminSearchControllerCore.md)
 

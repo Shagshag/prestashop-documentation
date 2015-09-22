@@ -6,5 +6,5 @@ Source: [classes/PrestaShopAutoload.php](https://github.com/PrestaShop/PrestaSho
 Classes
 -------
 
-* [PrestaShopAutoload](class.PrestaShopAutoload)
+* [PrestaShopAutoload](class.PrestaShopAutoload.md)
 

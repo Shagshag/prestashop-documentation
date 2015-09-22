@@ -6,5 +6,5 @@ Source: [controllers/front/AuthController.php](https://github.com/PrestaShop/Pre
 Classes
 -------
 
-* [AuthControllerCore](class.AuthControllerCore)
+* [AuthControllerCore](class.AuthControllerCore.md)
 

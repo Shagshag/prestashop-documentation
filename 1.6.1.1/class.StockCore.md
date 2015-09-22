@@ -6,7 +6,7 @@ Represents the products kept in warehouses
 
 
 * Class name: StockCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/stock/Stock.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L32)
 
 

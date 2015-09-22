@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminShippingController.php](https://github.com/Prest
 Classes
 -------
 
-* [AdminShippingControllerCore](class.AdminShippingControllerCore)
+* [AdminShippingControllerCore](class.AdminShippingControllerCore.md)
 

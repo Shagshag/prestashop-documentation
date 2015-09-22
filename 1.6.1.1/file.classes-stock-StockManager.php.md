@@ -6,5 +6,5 @@ Source: [classes/stock/StockManager.php](https://github.com/PrestaShop/PrestaSho
 Classes
 -------
 
-* [StockManagerCore](class.StockManagerCore)
+* [StockManagerCore](class.StockManagerCore.md)
 

@@ -47,7 +47,7 @@ For a given product, adds a given quantity
 #### Arguments
 * $id_product **integer**
 * $id_product_attribute **integer**
-* $warehouse **[Warehouse](class.WarehouseCore)**
+* $warehouse **[Warehouse](class.WarehouseCore.md)**
 * $quantity **integer**
 * $id_stock_movement_reason **integer**
 * $price_te **float**
@@ -150,7 +150,7 @@ For a given product, removes a given quantity
 #### Arguments
 * $id_product **integer**
 * $id_product_attribute **integer**
-* $warehouse **[Warehouse](class.WarehouseCore)**
+* $warehouse **[Warehouse](class.WarehouseCore.md)**
 * $quantity **integer**
 * $id_stock_movement_reason **integer**
 * $is_usable **boolean**

@@ -6,5 +6,5 @@ Source: [classes/helper/HelperTreeCategories.php](https://github.com/PrestaShop/
 Classes
 -------
 
-* [HelperTreeCategoriesCore](class.HelperTreeCategoriesCore)
+* [HelperTreeCategoriesCore](class.HelperTreeCategoriesCore.md)
 

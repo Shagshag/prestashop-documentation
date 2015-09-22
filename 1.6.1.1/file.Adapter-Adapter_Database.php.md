@@ -6,5 +6,5 @@ Source: [Adapter/Adapter_Database.php](https://github.com/PrestaShop/PrestaShop/
 Classes
 -------
 
-* [Adapter_Database](class.Adapter_Database)
+* [Adapter_Database](class.Adapter_Database.md)
 

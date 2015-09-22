@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminCmsContentController.php](https://github.com/Pre
 Classes
 -------
 
-* [AdminCmsContentControllerCore](class.AdminCmsContentControllerCore)
+* [AdminCmsContentControllerCore](class.AdminCmsContentControllerCore.md)
 

@@ -6,5 +6,5 @@ Source: [controllers/front/GetFileController.php](https://github.com/PrestaShop/
 Classes
 -------
 
-* [GetFileControllerCore](class.GetFileControllerCore)
+* [GetFileControllerCore](class.GetFileControllerCore.md)
 

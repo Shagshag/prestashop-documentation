@@ -6,7 +6,7 @@ Class AdminCarriersControllerCore
 
 
 * Class name: AdminCarriersControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminCarriersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L30)
 
 
@@ -113,7 +113,7 @@ Methods
 
 
 #### Arguments
-* $object **[Carrier](class.CarrierCore)**
+* $object **[Carrier](class.CarrierCore.md)**
 
 
 

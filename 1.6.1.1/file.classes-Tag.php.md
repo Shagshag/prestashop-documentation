@@ -6,5 +6,5 @@ Source: [classes/Tag.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/
 Classes
 -------
 
-* [TagCore](class.TagCore)
+* [TagCore](class.TagCore.md)
 

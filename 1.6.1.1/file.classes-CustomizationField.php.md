@@ -6,5 +6,5 @@ Source: [classes/CustomizationField.php](https://github.com/PrestaShop/PrestaSho
 Classes
 -------
 
-* [CustomizationFieldCore](class.CustomizationFieldCore)
+* [CustomizationFieldCore](class.CustomizationFieldCore.md)
 

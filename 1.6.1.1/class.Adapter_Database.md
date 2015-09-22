@@ -21,7 +21,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_Database
 * Source: [Adapter/Adapter_Database.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_Database.php#L27)
-* This class implements: [Core_Foundation_Database_DatabaseInterface](interface.Core_Foundation_Database_DatabaseInterface)
+* This class implements: [Core_Foundation_Database_DatabaseInterface](interface.Core_Foundation_Database_DatabaseInterface.md)
 
 
 

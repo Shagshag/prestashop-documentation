@@ -6,5 +6,5 @@ Source: [classes/Connection.php](https://github.com/PrestaShop/PrestaShop/blob/1
 Classes
 -------
 
-* [ConnectionCore](class.ConnectionCore)
+* [ConnectionCore](class.ConnectionCore.md)
 

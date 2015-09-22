@@ -20,7 +20,7 @@ versions in the future. If you wish to customize PrestaShop for your
 needs please refer to http://www.prestashop.com for more information.
 
 * Class name: HookCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Hook.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L27)
 
 
@@ -532,10 +532,10 @@ Called when quantity of a product is updated.
 
 
 #### Arguments
-* $cart **[Cart](class.CartCore)**
-* $order **[Order](class.OrderCore)**
-* $customer **[Customer](class.CustomerCore)**
-* $currency **[Currency](class.CurrencyCore)**
+* $cart **[Cart](class.CartCore.md)**
+* $order **[Order](class.OrderCore.md)**
+* $customer **[Customer](class.CustomerCore.md)**
+* $currency **[Currency](class.CurrencyCore.md)**
 * $order_status **mixed**
 
 

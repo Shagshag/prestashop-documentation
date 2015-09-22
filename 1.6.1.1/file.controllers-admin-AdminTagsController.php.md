@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminTagsController.php](https://github.com/PrestaSho
 Classes
 -------
 
-* [AdminTagsControllerCore](class.AdminTagsControllerCore)
+* [AdminTagsControllerCore](class.AdminTagsControllerCore.md)
 

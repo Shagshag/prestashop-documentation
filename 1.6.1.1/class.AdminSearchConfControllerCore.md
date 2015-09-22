@@ -6,7 +6,7 @@ Class AdminSearchConfControllerCore
 
 
 * Class name: AdminSearchConfControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminSearchConfController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#L30)
 
 

@@ -6,5 +6,5 @@ Source: [classes/db/DbPDO.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [DbPDOCore](class.DbPDOCore)
+* [DbPDOCore](class.DbPDOCore.md)
 

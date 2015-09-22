@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminStockMvtController.php](https://github.com/Prest
 Classes
 -------
 
-* [AdminStockMvtControllerCore](class.AdminStockMvtControllerCore)
+* [AdminStockMvtControllerCore](class.AdminStockMvtControllerCore.md)
 

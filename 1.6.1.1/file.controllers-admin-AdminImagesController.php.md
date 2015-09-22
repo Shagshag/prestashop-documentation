@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminImagesController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [AdminImagesControllerCore](class.AdminImagesControllerCore)
+* [AdminImagesControllerCore](class.AdminImagesControllerCore.md)
 

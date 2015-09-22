@@ -6,5 +6,5 @@ Source: [classes/PrestaShopLogger.php](https://github.com/PrestaShop/PrestaShop/
 Classes
 -------
 
-* [PrestaShopLoggerCore](class.PrestaShopLoggerCore)
+* [PrestaShopLoggerCore](class.PrestaShopLoggerCore.md)
 

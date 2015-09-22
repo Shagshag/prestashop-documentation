@@ -6,7 +6,7 @@ Class DeliveryCore
 
 
 * Class name: DeliveryCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Delivery.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L27)
 
 

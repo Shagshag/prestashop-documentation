@@ -6,5 +6,5 @@ Source: [classes/Link.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1
 Classes
 -------
 
-* [LinkCore](class.LinkCore)
+* [LinkCore](class.LinkCore.md)
 

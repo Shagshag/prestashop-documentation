@@ -6,7 +6,7 @@ Class StoreCore
 
 
 * Class name: StoreCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Store.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L27)
 
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminEmployeesController.php](https://github.com/Pres
 Classes
 -------
 
-* [AdminEmployeesControllerCore](class.AdminEmployeesControllerCore)
+* [AdminEmployeesControllerCore](class.AdminEmployeesControllerCore.md)
 

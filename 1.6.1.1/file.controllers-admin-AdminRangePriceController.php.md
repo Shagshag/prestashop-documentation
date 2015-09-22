@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminRangePriceController.php](https://github.com/Pre
 Classes
 -------
 
-* [AdminRangePriceControllerCore](class.AdminRangePriceControllerCore)
+* [AdminRangePriceControllerCore](class.AdminRangePriceControllerCore.md)
 

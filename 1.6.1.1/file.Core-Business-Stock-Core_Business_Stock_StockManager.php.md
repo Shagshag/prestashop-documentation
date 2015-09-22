@@ -6,5 +6,5 @@ Source: [Core/Business/Stock/Core_Business_Stock_StockManager.php](https://githu
 Classes
 -------
 
-* [Core_Business_Stock_StockManager](class.Core_Business_Stock_StockManager)
+* [Core_Business_Stock_StockManager](class.Core_Business_Stock_StockManager.md)
 

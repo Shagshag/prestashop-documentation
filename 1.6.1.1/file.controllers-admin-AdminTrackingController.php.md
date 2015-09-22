@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminTrackingController.php](https://github.com/Prest
 Classes
 -------
 
-* [AdminTrackingControllerCore](class.AdminTrackingControllerCore)
+* [AdminTrackingControllerCore](class.AdminTrackingControllerCore.md)
 

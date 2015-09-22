@@ -7,7 +7,7 @@ StockManager : implementation of StockManagerInterface
 
 * Class name: StockManagerCore
 * Source: [classes/stock/StockManager.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L31)
-* This class implements: [StockManagerInterface](interface.StockManagerInterface)
+* This class implements: [StockManagerInterface](interface.StockManagerInterface.md)
 
 
 
@@ -49,13 +49,13 @@ For a given product, adds a given quantity
 #### Arguments
 * $id_product **integer**
 * $id_product_attribute **integer**
-* $warehouse **[Warehouse](class.WarehouseCore)**
+* $warehouse **[Warehouse](class.WarehouseCore.md)**
 * $quantity **integer**
 * $id_stock_mvt_reason **integer**
 * $price_te **float**
 * $is_usable **boolean**
 * $id_supply_order **integer|null**
-* $employee **[Employee](class.EmployeeCore)|null**
+* $employee **[Employee](class.EmployeeCore.md)|null**
 
 
 
@@ -73,7 +73,7 @@ Formula : (physicalStock * lastCump + quantityToAdd * unitPrice) / (physicalStoc
 
 
 #### Arguments
-* $stock **[Stock](class.StockCore)|[Stock](class.PrestaShopCollectionCore)**
+* $stock **[Stock](class.StockCore.md)|[Stock](class.PrestaShopCollectionCore.md)**
 * $quantity **integer**
 * $price_te **float**
 
@@ -213,13 +213,13 @@ For a given product, removes a given quantity
 #### Arguments
 * $id_product **integer**
 * $id_product_attribute **integer|null**
-* $warehouse **[Warehouse](class.WarehouseCore)**
+* $warehouse **[Warehouse](class.WarehouseCore.md)**
 * $quantity **integer**
 * $id_stock_mvt_reason **integer**
 * $is_usable **boolean**
 * $id_order **integer|null**
 * $ignore_pack **integer**
-* $employee **[Employee](class.EmployeeCore)|null**
+* $employee **[Employee](class.EmployeeCore.md)|null**
 
 
 

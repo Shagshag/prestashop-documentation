@@ -20,7 +20,7 @@ versions in the future. If you wish to customize PrestaShop for your
 needs please refer to http://www.prestashop.com for more information.
 
 * Class name: AdminControllerCore
-* Parent class: [Controller](class.ControllerCore)
+* Parent class: [Controller](class.ControllerCore.md)
 * Source: [classes/controller/AdminController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#L27)
 
 
@@ -1794,7 +1794,7 @@ Add an action to use for each row in the list
 
 
 #### Arguments
-* $object **[ObjectModel](class.ObjectModelCore)**
+* $object **[ObjectModel](class.ObjectModelCore.md)**
 
 
 
@@ -1811,7 +1811,7 @@ Called before deletion
 
 
 #### Arguments
-* $object **[ObjectModel](class.ObjectModelCore)** - Object
+* $object **[ObjectModel](class.ObjectModelCore.md)** - Object
 * $old_id **integer**
 
 
@@ -1843,7 +1843,7 @@ Check rights to view the current tab
 
 
 #### Arguments
-* $object **[ObjectModel](class.ObjectModelCore)**
+* $object **[ObjectModel](class.ObjectModelCore.md)**
 
 
 
@@ -1888,7 +1888,7 @@ Called before Add
 
 
 #### Arguments
-* $object **[ObjectModel](class.ObjectModelCore)** - Object
+* $object **[ObjectModel](class.ObjectModelCore.md)** - Object
 
 
 
@@ -1905,7 +1905,7 @@ Called before deletion
 
 
 #### Arguments
-* $object **[ObjectModel](class.ObjectModelCore)** - Object
+* $object **[ObjectModel](class.ObjectModelCore.md)** - Object
 
 
 
@@ -2044,7 +2044,7 @@ Display modules list
 
 
 #### Arguments
-* $module **[Module](class.ModuleCore)**
+* $module **[Module](class.ModuleCore.md)**
 * $output_type **string** - (link or select)
 * $back **string|null**
 
@@ -2108,7 +2108,7 @@ Add a warning message to display at the top of the page
 
 
 #### Arguments
-* $module **[Module](class.ModuleCore)**
+* $module **[Module](class.ModuleCore.md)**
 * $output_type **string**
 * $back **string|null**
 
@@ -2160,7 +2160,7 @@ Case 2 : Return object value
 
 
 #### Arguments
-* $obj **[ObjectModel](class.ObjectModelCore)** - Object
+* $obj **[ObjectModel](class.ObjectModelCore.md)** - Object
 * $key **string** - Field name
 * $id_lang **integer|null** - Language id (optional)
 
@@ -2179,7 +2179,7 @@ Return the list of fields value
 
 
 #### Arguments
-* $obj **[ObjectModel](class.ObjectModelCore)** - Object
+* $obj **[ObjectModel](class.ObjectModelCore.md)** - Object
 
 
 
@@ -3020,7 +3020,7 @@ This function sets various display options for helper list
 
 
 #### Arguments
-* $helper **[Helper](class.HelperCore)**
+* $helper **[Helper](class.HelperCore.md)**
 
 
 

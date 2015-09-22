@@ -6,7 +6,7 @@ Class OrderPaymentCore
 
 
 * Class name: OrderPaymentCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/OrderPayment.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L27)
 
 

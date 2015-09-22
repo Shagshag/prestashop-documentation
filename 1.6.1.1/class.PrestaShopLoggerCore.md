@@ -6,7 +6,7 @@ Class PrestaShopLoggerCore
 
 
 * Class name: PrestaShopLoggerCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/PrestaShopLogger.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#L27)
 
 
@@ -260,6 +260,6 @@ Send e-mail to the shop owner only if the minimal severity level has been reache
 
 
 #### Arguments
-* $log **[PrestaShopLogger](class.PrestaShopLoggerCore)**
+* $log **[PrestaShopLogger](class.PrestaShopLoggerCore.md)**
 
 

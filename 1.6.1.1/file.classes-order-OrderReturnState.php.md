@@ -6,5 +6,5 @@ Source: [classes/order/OrderReturnState.php](https://github.com/PrestaShop/Prest
 Classes
 -------
 
-* [OrderReturnStateCore](class.OrderReturnStateCore)
+* [OrderReturnStateCore](class.OrderReturnStateCore.md)
 

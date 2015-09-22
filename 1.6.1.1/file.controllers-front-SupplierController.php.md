@@ -6,5 +6,5 @@ Source: [controllers/front/SupplierController.php](https://github.com/PrestaShop
 Classes
 -------
 
-* [SupplierControllerCore](class.SupplierControllerCore)
+* [SupplierControllerCore](class.SupplierControllerCore.md)
 

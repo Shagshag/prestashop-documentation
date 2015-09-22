@@ -6,5 +6,5 @@ Source: [classes/tax/TaxRulesTaxManager.php](https://github.com/PrestaShop/Prest
 Classes
 -------
 
-* [TaxRulesTaxManagerCore](class.TaxRulesTaxManagerCore)
+* [TaxRulesTaxManagerCore](class.TaxRulesTaxManagerCore.md)
 

@@ -6,5 +6,5 @@ Source: [classes/db/MySQL.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [MySQLCore](class.MySQLCore)
+* [MySQLCore](class.MySQLCore.md)
 

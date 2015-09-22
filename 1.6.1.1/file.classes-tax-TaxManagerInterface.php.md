@@ -5,6 +5,6 @@ Source: [classes/tax/TaxManagerInterface.php](https://github.com/PrestaShop/Pres
 Interfaces
 ----------
 
-* [TaxManagerInterface](interface.TaxManagerInterface)
+* [TaxManagerInterface](interface.TaxManagerInterface.md)
 
 

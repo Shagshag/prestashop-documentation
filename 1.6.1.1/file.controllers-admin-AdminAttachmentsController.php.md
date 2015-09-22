@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminAttachmentsController.php](https://github.com/Pr
 Classes
 -------
 
-* [AdminAttachmentsControllerCore](class.AdminAttachmentsControllerCore)
+* [AdminAttachmentsControllerCore](class.AdminAttachmentsControllerCore.md)
 

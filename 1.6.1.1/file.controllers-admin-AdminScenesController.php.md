@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminScenesController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [AdminScenesControllerCore](class.AdminScenesControllerCore)
+* [AdminScenesControllerCore](class.AdminScenesControllerCore.md)
 

@@ -6,5 +6,5 @@ Source: [controllers/front/PageNotFoundController.php](https://github.com/Presta
 Classes
 -------
 
-* [PageNotFoundControllerCore](class.PageNotFoundControllerCore)
+* [PageNotFoundControllerCore](class.PageNotFoundControllerCore.md)
 

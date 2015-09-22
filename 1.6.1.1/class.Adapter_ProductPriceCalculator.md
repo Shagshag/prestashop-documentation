@@ -67,7 +67,7 @@ Methods
 * $specific_price_output **mixed**
 * $with_ecotax **mixed**
 * $use_group_reduction **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 * $use_customer_price **mixed**
 
 

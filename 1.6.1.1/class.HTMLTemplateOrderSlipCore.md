@@ -6,7 +6,7 @@ Class HTMLTemplateOrderSlipCore
 
 
 * Class name: HTMLTemplateOrderSlipCore
-* Parent class: [HTMLTemplateInvoice](class.HTMLTemplateInvoiceCore)
+* Parent class: [HTMLTemplateInvoice](class.HTMLTemplateInvoiceCore.md)
 * Source: [classes/pdf/HTMLTemplateOrderSlip.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#L30)
 
 
@@ -77,7 +77,7 @@ Methods
 
 
 #### Arguments
-* $order_slip **[OrderSlip](class.OrderSlipCore)**
+* $order_slip **[OrderSlip](class.OrderSlipCore.md)**
 * $smarty **mixed**
 
 

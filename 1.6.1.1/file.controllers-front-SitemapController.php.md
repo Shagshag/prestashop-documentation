@@ -6,5 +6,5 @@ Source: [controllers/front/SitemapController.php](https://github.com/PrestaShop/
 Classes
 -------
 
-* [SitemapControllerCore](class.SitemapControllerCore)
+* [SitemapControllerCore](class.SitemapControllerCore.md)
 

@@ -6,7 +6,7 @@ Class PrestaShopDatabaseExceptionCore
 
 
 * Class name: PrestaShopDatabaseExceptionCore
-* Parent class: [PrestaShopException](class.PrestaShopExceptionCore)
+* Parent class: [PrestaShopException](class.PrestaShopExceptionCore.md)
 * Source: [classes/exception/PrestaShopDatabaseException.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopDatabaseException.php#L30)
 
 

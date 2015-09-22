@@ -6,5 +6,5 @@ Source: [classes/Image.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.
 Classes
 -------
 
-* [ImageCore](class.ImageCore)
+* [ImageCore](class.ImageCore.md)
 

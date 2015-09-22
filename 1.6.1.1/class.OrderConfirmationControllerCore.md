@@ -6,7 +6,7 @@ Class OrderConfirmationControllerCore
 
 
 * Class name: OrderConfirmationControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/OrderConfirmationController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#L27)
 
 

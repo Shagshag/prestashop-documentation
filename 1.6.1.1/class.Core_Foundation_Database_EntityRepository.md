@@ -150,9 +150,9 @@ Methods
 
 
 #### Arguments
-* $entityManager **[Core_Foundation_Database_EntityManager](class.Core_Foundation_Database_EntityManager)**
+* $entityManager **[Core_Foundation_Database_EntityManager](class.Core_Foundation_Database_EntityManager.md)**
 * $tablesPrefix **mixed**
-* $entityMetaData **[Core_Foundation_Database_EntityMetaData](class.Core_Foundation_Database_EntityMetaData)**
+* $entityMetaData **[Core_Foundation_Database_EntityMetaData](class.Core_Foundation_Database_EntityMetaData.md)**
 
 
 

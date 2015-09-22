@@ -6,7 +6,7 @@ Class GuestCore
 
 
 * Class name: GuestCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Guest.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#L27)
 
 

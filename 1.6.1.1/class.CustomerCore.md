@@ -6,7 +6,7 @@ Class CustomerCore
 
 
 * Class name: CustomerCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Customer.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#L27)
 
 
@@ -916,7 +916,7 @@ Return customer instance from its e-mail (optionnaly check password)
 
 #### Arguments
 * $id_customer **mixed**
-* $cart **[Cart](class.CartCore)**
+* $cart **[Cart](class.CartCore.md)**
 
 
 

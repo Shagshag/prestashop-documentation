@@ -6,5 +6,5 @@ Source: [classes/Dispatcher.php](https://github.com/PrestaShop/PrestaShop/blob/1
 Classes
 -------
 
-* [DispatcherCore](class.DispatcherCore)
+* [DispatcherCore](class.DispatcherCore.md)
 

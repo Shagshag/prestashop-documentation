@@ -6,5 +6,5 @@ Source: [controllers/front/GuestTrackingController.php](https://github.com/Prest
 Classes
 -------
 
-* [GuestTrackingControllerCore](class.GuestTrackingControllerCore)
+* [GuestTrackingControllerCore](class.GuestTrackingControllerCore.md)
 

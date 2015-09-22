@@ -6,5 +6,5 @@ Source: [classes/module/ModuleGrid.php](https://github.com/PrestaShop/PrestaShop
 Classes
 -------
 
-* [ModuleGridCore](class.ModuleGridCore)
+* [ModuleGridCore](class.ModuleGridCore.md)
 

@@ -6,5 +6,5 @@ Source: [classes/Delivery.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [DeliveryCore](class.DeliveryCore)
+* [DeliveryCore](class.DeliveryCore.md)
 

@@ -9,7 +9,7 @@ needs please refer to http://doc.prestashop.com/display/PS15/Overriding+default+
 #Overridingdefaultbehaviors-Overridingamodule%27sbehavior for more information.
 
 * Class name: AdminOrdersController
-* Parent class: [AdminOrdersControllerCore](class.AdminOrdersControllerCore)
+* Parent class: [AdminOrdersControllerCore](class.AdminOrdersControllerCore.md)
 * Source: [override/controllers/admin/AdminOrdersController.php line 16](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L16)
 
 
@@ -90,7 +90,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined by [AdminOrdersControllerCore](class.AdminOrdersControllerCore)
+* This property is defined by [AdminOrdersControllerCore](class.AdminOrdersControllerCore.md)
 * Source: [override/controllers/admin/AdminOrdersController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L41)
 
 
@@ -223,7 +223,7 @@ Methods
 
 
 #### Arguments
-* $order_invoice **[OrderInvoice](class.OrderInvoiceCore)**
+* $order_invoice **[OrderInvoice](class.OrderInvoiceCore.md)**
 * $value_tax_incl **float**
 * $value_tax_excl **float**
 
@@ -242,8 +242,8 @@ Methods
 
 
 #### Arguments
-* $order_detail **[OrderDetail](class.OrderDetailCore)**
-* $order **[Order](class.OrderCore)**
+* $order_detail **[OrderDetail](class.OrderDetailCore.md)**
+* $order **[Order](class.OrderCore.md)**
 
 
 
@@ -260,9 +260,9 @@ Methods
 
 
 #### Arguments
-* $order_detail **[OrderDetail](class.OrderDetailCore)**
-* $order **[Order](class.OrderCore)**
-* $order_invoice **[OrderInvoice](class.OrderInvoiceCore)**
+* $order_detail **[OrderDetail](class.OrderDetailCore.md)**
+* $order **[Order](class.OrderCore.md)**
+* $order_invoice **[OrderInvoice](class.OrderInvoiceCore.md)**
 
 
 
@@ -279,7 +279,7 @@ Methods
 
 
 #### Arguments
-* $order **[Order](class.OrderCore)**
+* $order **[Order](class.OrderCore.md)**
 
 
 
@@ -388,7 +388,7 @@ Methods
 
 
 #### Arguments
-* $order_detail **[OrderDetail](class.OrderDetailCore)**
+* $order_detail **[OrderDetail](class.OrderDetailCore.md)**
 * $qty_cancel_product **integer**
 * $delete **boolean**
 
@@ -463,7 +463,7 @@ Methods
 
 
 #### Arguments
-* $order **[Order](class.OrderCore)**
+* $order **[Order](class.OrderCore.md)**
 
 
 

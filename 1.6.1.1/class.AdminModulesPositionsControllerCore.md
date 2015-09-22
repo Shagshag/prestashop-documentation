@@ -6,7 +6,7 @@ Class AdminModulesPositionsControllerCore
 
 
 * Class name: AdminModulesPositionsControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminModulesPositionsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L27)
 
 

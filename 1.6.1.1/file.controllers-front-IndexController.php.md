@@ -6,5 +6,5 @@ Source: [controllers/front/IndexController.php](https://github.com/PrestaShop/Pr
 Classes
 -------
 
-* [IndexControllerCore](class.IndexControllerCore)
+* [IndexControllerCore](class.IndexControllerCore.md)
 

@@ -6,5 +6,5 @@ Source: [classes/AdminTab.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [AdminTabCore](class.AdminTabCore)
+* [AdminTabCore](class.AdminTabCore.md)
 

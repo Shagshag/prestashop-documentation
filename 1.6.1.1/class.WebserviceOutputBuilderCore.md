@@ -554,7 +554,7 @@ Build the entity detail.
 
 
 #### Arguments
-* $object **[ObjectModel](class.ObjectModelCore)** - create by the entity
+* $object **[ObjectModel](class.ObjectModelCore.md)** - create by the entity
 * $depth **integer** - the depth for the tree diagram
 
 
@@ -572,7 +572,7 @@ Create the tree diagram with no details
 
 
 #### Arguments
-* $object **[ObjectModel](class.ObjectModelCore)** - create by the entity
+* $object **[ObjectModel](class.ObjectModelCore.md)** - create by the entity
 * $depth **integer** - the depth for the tree diagram
 
 
@@ -590,7 +590,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 #### Arguments
-* $object **[ObjectModel](class.ObjectModelCore)** - create by the entity
+* $object **[ObjectModel](class.ObjectModelCore.md)** - create by the entity
 * $ws_params **array** - webserviceParams from the entity
 * $field_name **string**
 * $field **array**
@@ -634,7 +634,7 @@ Build a schema blank or synopsis
 
 
 #### Arguments
-* $object **[ObjectModel](class.ObjectModelCore)** - create by the entity
+* $object **[ObjectModel](class.ObjectModelCore.md)** - create by the entity
 * $ws_params **array** - webserviceParams from the entity
 
 

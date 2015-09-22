@@ -6,5 +6,5 @@ Source: [classes/module/ModuleGraphEngine.php](https://github.com/PrestaShop/Pre
 Classes
 -------
 
-* [ModuleGraphEngineCore](class.ModuleGraphEngineCore)
+* [ModuleGraphEngineCore](class.ModuleGraphEngineCore.md)
 

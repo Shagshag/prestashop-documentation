@@ -5,6 +5,6 @@ Source: [Core/Business/Core_Business_ConfigurationInterface.php](https://github.
 Interfaces
 ----------
 
-* [Core_Business_ConfigurationInterface](interface.Core_Business_ConfigurationInterface)
+* [Core_Business_ConfigurationInterface](interface.Core_Business_ConfigurationInterface.md)
 
 

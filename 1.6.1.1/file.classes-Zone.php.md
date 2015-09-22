@@ -6,5 +6,5 @@ Source: [classes/Zone.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1
 Classes
 -------
 
-* [ZoneCore](class.ZoneCore)
+* [ZoneCore](class.ZoneCore.md)
 

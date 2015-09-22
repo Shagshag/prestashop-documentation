@@ -5,6 +5,6 @@ Source: [classes/tree/ITreeToolbar.php](https://github.com/PrestaShop/PrestaShop
 Interfaces
 ----------
 
-* [ITreeToolbarCore](interface.ITreeToolbarCore)
+* [ITreeToolbarCore](interface.ITreeToolbarCore.md)
 
 

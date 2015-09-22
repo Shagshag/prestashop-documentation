@@ -6,5 +6,5 @@ Source: [controllers/front/PdfInvoiceController.php](https://github.com/PrestaSh
 Classes
 -------
 
-* [PdfInvoiceControllerCore](class.PdfInvoiceControllerCore)
+* [PdfInvoiceControllerCore](class.PdfInvoiceControllerCore.md)
 

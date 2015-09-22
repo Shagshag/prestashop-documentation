@@ -6,5 +6,5 @@ Source: [classes/stock/StockAvailable.php](https://github.com/PrestaShop/PrestaS
 Classes
 -------
 
-* [StockAvailableCore](class.StockAvailableCore)
+* [StockAvailableCore](class.StockAvailableCore.md)
 

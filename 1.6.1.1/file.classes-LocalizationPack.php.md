@@ -6,5 +6,5 @@ Source: [classes/LocalizationPack.php](https://github.com/PrestaShop/PrestaShop/
 Classes
 -------
 
-* [LocalizationPackCore](class.LocalizationPackCore)
+* [LocalizationPackCore](class.LocalizationPackCore.md)
 

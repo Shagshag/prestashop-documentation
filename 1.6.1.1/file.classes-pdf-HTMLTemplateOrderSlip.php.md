@@ -6,5 +6,5 @@ Source: [classes/pdf/HTMLTemplateOrderSlip.php](https://github.com/PrestaShop/Pr
 Classes
 -------
 
-* [HTMLTemplateOrderSlipCore](class.HTMLTemplateOrderSlipCore)
+* [HTMLTemplateOrderSlipCore](class.HTMLTemplateOrderSlipCore.md)
 

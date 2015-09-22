@@ -7,7 +7,7 @@ Class PaymentModuleCore
 
 * Class name: PaymentModuleCore
 * This is an **abstract** class
-* Parent class: [Module](class.ModuleCore)
+* Parent class: [Module](class.ModuleCore.md)
 * Source: [classes/PaymentModule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L27)
 
 Constants
@@ -110,7 +110,7 @@ Methods
 
 
 #### Arguments
-* $the_address **[Address](class.AddressCore)**
+* $the_address **[Address](class.AddressCore.md)**
 * $line_sep **mixed**
 * $fields_style **mixed**
 
@@ -340,6 +340,6 @@ Function called from a payment module
 * $currency_special **null**
 * $dont_touch_amount **boolean**
 * $secure_key **boolean**
-* $shop **[Shop](class.ShopCore)**
+* $shop **[Shop](class.ShopCore.md)**
 
 

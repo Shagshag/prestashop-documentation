@@ -6,5 +6,5 @@ Source: [Adapter/Adapter_ServiceLocator.php](https://github.com/PrestaShop/Prest
 Classes
 -------
 
-* [Adapter_ServiceLocator](class.Adapter_ServiceLocator)
+* [Adapter_ServiceLocator](class.Adapter_ServiceLocator.md)
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminOrderPreferencesController.php](https://github.c
 Classes
 -------
 
-* [AdminOrderPreferencesControllerCore](class.AdminOrderPreferencesControllerCore)
+* [AdminOrderPreferencesControllerCore](class.AdminOrderPreferencesControllerCore.md)
 

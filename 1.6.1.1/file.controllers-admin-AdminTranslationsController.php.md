@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminTranslationsController.php](https://github.com/P
 Classes
 -------
 
-* [AdminTranslationsControllerCore](class.AdminTranslationsControllerCore)
+* [AdminTranslationsControllerCore](class.AdminTranslationsControllerCore.md)
 

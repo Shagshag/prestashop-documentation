@@ -59,7 +59,7 @@ Check for a tax manager able to handle this type of address in the module list
 
 
 #### Arguments
-* $address **[Address](class.AddressCore)**
+* $address **[Address](class.AddressCore.md)**
 * $type **string**
 
 
@@ -78,7 +78,7 @@ Create a unique identifier for the address
 
 
 #### Arguments
-* $address **[Address](class.AddressCore)**
+* $address **[Address](class.AddressCore.md)**
 
 
 
@@ -96,7 +96,7 @@ Returns a tax manager able to handle this address
 
 
 #### Arguments
-* $address **[Address](class.AddressCore)**
+* $address **[Address](class.AddressCore.md)**
 * $type **string**
 
 

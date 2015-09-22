@@ -6,5 +6,5 @@ Source: [classes/stock/SupplyOrderReceiptHistory.php](https://github.com/PrestaS
 Classes
 -------
 
-* [SupplyOrderReceiptHistoryCore](class.SupplyOrderReceiptHistoryCore)
+* [SupplyOrderReceiptHistoryCore](class.SupplyOrderReceiptHistoryCore.md)
 

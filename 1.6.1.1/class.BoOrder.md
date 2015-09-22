@@ -6,7 +6,7 @@ Class BoOrder
 
 
 * Class name: BoOrder
-* Parent class: [PaymentModule](class.PaymentModuleCore)
+* Parent class: [PaymentModule](class.PaymentModuleCore.md)
 * Source: [controllers/admin/AdminOrdersController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L27)
 
 

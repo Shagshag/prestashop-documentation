@@ -6,5 +6,5 @@ Source: [classes/tax/TaxRule.php](https://github.com/PrestaShop/PrestaShop/blob/
 Classes
 -------
 
-* [TaxRuleCore](class.TaxRuleCore)
+* [TaxRuleCore](class.TaxRuleCore.md)
 

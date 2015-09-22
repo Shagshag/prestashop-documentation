@@ -6,5 +6,5 @@ Source: [classes/ProductSupplier.php](https://github.com/PrestaShop/PrestaShop/b
 Classes
 -------
 
-* [ProductSupplierCore](class.ProductSupplierCore)
+* [ProductSupplierCore](class.ProductSupplierCore.md)
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminThemesController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [AdminThemesControllerCore](class.AdminThemesControllerCore)
+* [AdminThemesControllerCore](class.AdminThemesControllerCore.md)
 

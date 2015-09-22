@@ -6,7 +6,7 @@ Class AdminDeliverySlipControllerCore
 
 
 * Class name: AdminDeliverySlipControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminDeliverySlipController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDeliverySlipController.php#L27)
 
 

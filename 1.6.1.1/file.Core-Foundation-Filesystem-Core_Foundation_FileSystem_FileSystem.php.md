@@ -6,5 +6,5 @@ Source: [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php](h
 Classes
 -------
 
-* [Core_Foundation_FileSystem_FileSystem](class.Core_Foundation_FileSystem_FileSystem)
+* [Core_Foundation_FileSystem_FileSystem](class.Core_Foundation_FileSystem_FileSystem.md)
 

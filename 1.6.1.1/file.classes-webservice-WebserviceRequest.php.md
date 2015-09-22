@@ -6,5 +6,5 @@ Source: [classes/webservice/WebserviceRequest.php](https://github.com/PrestaShop
 Classes
 -------
 
-* [WebserviceRequestCore](class.WebserviceRequestCore)
+* [WebserviceRequestCore](class.WebserviceRequestCore.md)
 

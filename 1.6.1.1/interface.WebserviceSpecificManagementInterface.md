@@ -100,7 +100,7 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 
 #### Arguments
-* $obj **[WebserviceOutputBuilderCore](class.WebserviceOutputBuilderCore)**
+* $obj **[WebserviceOutputBuilderCore](class.WebserviceOutputBuilderCore.md)**
 
 
 
@@ -117,6 +117,6 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 
 #### Arguments
-* $obj **[WebserviceRequestCore](class.WebserviceRequestCore)**
+* $obj **[WebserviceRequestCore](class.WebserviceRequestCore.md)**
 
 

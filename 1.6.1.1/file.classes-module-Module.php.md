@@ -6,9 +6,9 @@ Source: [classes/module/Module.php](https://github.com/PrestaShop/PrestaShop/blo
 Classes
 -------
 
-* [ModuleCore](class.ModuleCore)
+* [ModuleCore](class.ModuleCore.md)
 
 Functions
 ---------
 
-* [ps_module_version_sort](function.ps_module_version_sort)
+* [ps_module_version_sort](function.ps_module_version_sort.md)

@@ -8,7 +8,7 @@ Import module management
 
 * Class name: ImportModuleCore
 * This is an **abstract** class
-* Parent class: [Module](class.ModuleCore)
+* Parent class: [Module](class.ModuleCore.md)
 * Source: [classes/module/ImportModule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L34)
 
 

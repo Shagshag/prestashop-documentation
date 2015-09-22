@@ -6,7 +6,7 @@ Class MySQLCore
 
 
 * Class name: MySQLCore
-* Parent class: [Db](class.DbCore)
+* Parent class: [Db](class.DbCore.md)
 * Source: [classes/db/MySQL.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/MySQL.php#L30)
 
 

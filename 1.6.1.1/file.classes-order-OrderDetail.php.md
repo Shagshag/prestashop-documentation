@@ -6,5 +6,5 @@ Source: [classes/order/OrderDetail.php](https://github.com/PrestaShop/PrestaShop
 Classes
 -------
 
-* [OrderDetailCore](class.OrderDetailCore)
+* [OrderDetailCore](class.OrderDetailCore.md)
 

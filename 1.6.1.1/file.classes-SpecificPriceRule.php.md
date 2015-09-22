@@ -6,5 +6,5 @@ Source: [classes/SpecificPriceRule.php](https://github.com/PrestaShop/PrestaShop
 Classes
 -------
 
-* [SpecificPriceRuleCore](class.SpecificPriceRuleCore)
+* [SpecificPriceRuleCore](class.SpecificPriceRuleCore.md)
 

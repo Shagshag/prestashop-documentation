@@ -133,7 +133,7 @@ Assign hook data
 
 
 #### Arguments
-* $object **[ObjectModel](class.ObjectModelCore)** - generally the object used in the constructor
+* $object **[ObjectModel](class.ObjectModelCore.md)** - generally the object used in the constructor
 
 
 

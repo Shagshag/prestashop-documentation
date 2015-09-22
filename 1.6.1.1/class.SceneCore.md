@@ -6,7 +6,7 @@ Class SceneCore
 
 
 * Class name: SceneCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Scene.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#L27)
 
 
@@ -303,7 +303,7 @@ Get all products of this scene
 * $only_active **mixed**
 * $id_lang **mixed**
 * $lite_result **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -326,7 +326,7 @@ Get all scenes of a category
 * $only_active **mixed**
 * $lite_result **mixed**
 * $hide_scene_position **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

@@ -83,7 +83,7 @@ Methods
 * $order_way **mixed**
 * $ajax **mixed**
 * $use_cookie **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -101,7 +101,7 @@ Methods
 
 
 #### Arguments
-* $db **[Db](class.DbCore)**
+* $db **[Db](class.DbCore.md)**
 * $id_product **integer**
 * $id_lang **integer**
 
@@ -121,7 +121,7 @@ Methods
 
 
 #### Arguments
-* $db **[Db](class.DbCore)**
+* $db **[Db](class.DbCore.md)**
 * $id_product **integer**
 * $sql_attribute **string**
 
@@ -141,7 +141,7 @@ Methods
 
 
 #### Arguments
-* $db **[Db](class.DbCore)**
+* $db **[Db](class.DbCore.md)**
 * $id_product **integer**
 * $id_lang **integer**
 
@@ -200,7 +200,7 @@ Methods
 
 
 #### Arguments
-* $db **[Db](class.DbCore)**
+* $db **[Db](class.DbCore.md)**
 * $id_product **integer**
 * $id_lang **integer**
 
@@ -304,7 +304,7 @@ $queryArray3 is automatically emptied in order to be reused immediatly
 * $orderBy **mixed**
 * $orderWay **mixed**
 * $useCookie **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

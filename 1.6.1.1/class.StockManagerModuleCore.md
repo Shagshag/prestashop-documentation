@@ -7,7 +7,7 @@ Class StockManagerModuleCore
 
 * Class name: StockManagerModuleCore
 * This is an **abstract** class
-* Parent class: [Module](class.ModuleCore)
+* Parent class: [Module](class.ModuleCore.md)
 * Source: [classes/stock/StockManagerModule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerModule.php#L30)
 
 

@@ -6,7 +6,7 @@ Class AddressesControllerCore
 
 
 * Class name: AddressesControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/AddressesController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressesController.php#L27)
 
 

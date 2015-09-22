@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminWebserviceController.php](https://github.com/Pre
 Classes
 -------
 
-* [AdminWebserviceControllerCore](class.AdminWebserviceControllerCore)
+* [AdminWebserviceControllerCore](class.AdminWebserviceControllerCore.md)
 

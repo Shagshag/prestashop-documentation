@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminCustomerThreadsController.php](https://github.co
 Classes
 -------
 
-* [AdminCustomerThreadsControllerCore](class.AdminCustomerThreadsControllerCore)
+* [AdminCustomerThreadsControllerCore](class.AdminCustomerThreadsControllerCore.md)
 

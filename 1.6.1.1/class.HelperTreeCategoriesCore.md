@@ -6,7 +6,7 @@ Class HelperTreeCategoriesCore
 
 
 * Class name: HelperTreeCategoriesCore
-* Parent class: [TreeCore](class.TreeCore)
+* Parent class: [TreeCore](class.TreeCore.md)
 * Source: [classes/helper/HelperTreeCategories.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L27)
 
 Constants

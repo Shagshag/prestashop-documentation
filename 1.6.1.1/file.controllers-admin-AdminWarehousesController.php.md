@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminWarehousesController.php](https://github.com/Pre
 Classes
 -------
 
-* [AdminWarehousesControllerCore](class.AdminWarehousesControllerCore)
+* [AdminWarehousesControllerCore](class.AdminWarehousesControllerCore.md)
 

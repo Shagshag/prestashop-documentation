@@ -6,5 +6,5 @@ Source: [Core/Foundation/Exception/Core_Foundation_Exception_Exception.php](http
 Classes
 -------
 
-* [Core_Foundation_Exception_Exception](class.Core_Foundation_Exception_Exception)
+* [Core_Foundation_Exception_Exception](class.Core_Foundation_Exception_Exception.md)
 

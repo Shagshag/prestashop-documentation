@@ -6,7 +6,7 @@ Class CustomizationCore
 
 
 * Class name: CustomizationCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Customization.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L27)
 
 

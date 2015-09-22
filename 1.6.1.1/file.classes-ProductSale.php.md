@@ -6,5 +6,5 @@ Source: [classes/ProductSale.php](https://github.com/PrestaShop/PrestaShop/blob/
 Classes
 -------
 
-* [ProductSaleCore](class.ProductSaleCore)
+* [ProductSaleCore](class.ProductSaleCore.md)
 

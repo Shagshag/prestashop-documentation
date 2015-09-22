@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminCarriersController.php](https://github.com/Prest
 Classes
 -------
 
-* [AdminCarriersControllerCore](class.AdminCarriersControllerCore)
+* [AdminCarriersControllerCore](class.AdminCarriersControllerCore.md)
 

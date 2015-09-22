@@ -6,7 +6,7 @@ Class CMSCategoryCore
 
 
 * Class name: CMSCategoryCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/CMSCategory.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L27)
 
 
@@ -455,7 +455,7 @@ Return main categories
 
 
 #### Arguments
-* $link **[Link](class.LinkCore)**
+* $link **[Link](class.LinkCore.md)**
 
 
 
@@ -530,7 +530,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 * $current **mixed**
 * $active **mixed**
 * $links **mixed**
-* $link **[Link](class.LinkCore)**
+* $link **[Link](class.LinkCore.md)**
 
 
 
@@ -645,7 +645,7 @@ Recursive scan of subcategories
 * $currentDepth **integer** - specify the current depth in the tree (don&#039;t use it, only for rucursivity!)
 * $id_lang **mixed**
 * $excluded_ids_array **array** - specify a list of ids to exclude of results
-* $link **[Link](class.LinkCore)**
+* $link **[Link](class.LinkCore.md)**
 
 
 

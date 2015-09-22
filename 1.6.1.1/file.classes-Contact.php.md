@@ -6,5 +6,5 @@ Source: [classes/Contact.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.
 Classes
 -------
 
-* [ContactCore](class.ContactCore)
+* [ContactCore](class.ContactCore.md)
 

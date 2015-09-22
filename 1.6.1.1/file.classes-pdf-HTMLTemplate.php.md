@@ -6,5 +6,5 @@ Source: [classes/pdf/HTMLTemplate.php](https://github.com/PrestaShop/PrestaShop/
 Classes
 -------
 
-* [HTMLTemplateCore](class.HTMLTemplateCore)
+* [HTMLTemplateCore](class.HTMLTemplateCore.md)
 

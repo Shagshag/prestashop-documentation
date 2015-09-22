@@ -6,5 +6,5 @@ Source: [admin/filemanager/include/php_image_magician.php](https://github.com/Pr
 Classes
 -------
 
-* [imageLib](class.imageLib)
+* [imageLib](class.imageLib.md)
 

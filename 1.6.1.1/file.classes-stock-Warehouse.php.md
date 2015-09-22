@@ -6,5 +6,5 @@ Source: [classes/stock/Warehouse.php](https://github.com/PrestaShop/PrestaShop/b
 Classes
 -------
 
-* [WarehouseCore](class.WarehouseCore)
+* [WarehouseCore](class.WarehouseCore.md)
 

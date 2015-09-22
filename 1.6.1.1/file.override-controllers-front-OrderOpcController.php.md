@@ -6,5 +6,5 @@ Source: [override/controllers/front/OrderOpcController.php](https://github.com/P
 Classes
 -------
 
-* [OrderOpcController](class.OrderOpcController)
+* [OrderOpcController](class.OrderOpcController.md)
 

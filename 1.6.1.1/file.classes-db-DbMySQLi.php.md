@@ -6,5 +6,5 @@ Source: [classes/db/DbMySQLi.php](https://github.com/PrestaShop/PrestaShop/blob/
 Classes
 -------
 
-* [DbMySQLiCore](class.DbMySQLiCore)
+* [DbMySQLiCore](class.DbMySQLiCore.md)
 

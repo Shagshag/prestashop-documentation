@@ -6,5 +6,5 @@ Source: [classes/helper/HelperOptions.php](https://github.com/PrestaShop/PrestaS
 Classes
 -------
 
-* [HelperOptionsCore](class.HelperOptionsCore)
+* [HelperOptionsCore](class.HelperOptionsCore.md)
 

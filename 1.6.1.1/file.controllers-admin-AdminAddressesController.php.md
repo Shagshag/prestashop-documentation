@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminAddressesController.php](https://github.com/Pres
 Classes
 -------
 
-* [AdminAddressesControllerCore](class.AdminAddressesControllerCore)
+* [AdminAddressesControllerCore](class.AdminAddressesControllerCore.md)
 

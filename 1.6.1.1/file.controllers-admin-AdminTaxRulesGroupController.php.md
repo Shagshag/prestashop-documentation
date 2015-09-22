@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminTaxRulesGroupController.php](https://github.com/
 Classes
 -------
 
-* [AdminTaxRulesGroupControllerCore](class.AdminTaxRulesGroupControllerCore)
+* [AdminTaxRulesGroupControllerCore](class.AdminTaxRulesGroupControllerCore.md)
 

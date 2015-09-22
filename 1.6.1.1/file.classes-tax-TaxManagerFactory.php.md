@@ -6,5 +6,5 @@ Source: [classes/tax/TaxManagerFactory.php](https://github.com/PrestaShop/Presta
 Classes
 -------
 
-* [TaxManagerFactoryCore](class.TaxManagerFactoryCore)
+* [TaxManagerFactoryCore](class.TaxManagerFactoryCore.md)
 

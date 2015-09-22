@@ -6,5 +6,5 @@ Source: [classes/order/OrderPayment.php](https://github.com/PrestaShop/PrestaSho
 Classes
 -------
 
-* [OrderPaymentCore](class.OrderPaymentCore)
+* [OrderPaymentCore](class.OrderPaymentCore.md)
 

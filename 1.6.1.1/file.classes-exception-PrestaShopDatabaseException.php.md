@@ -6,5 +6,5 @@ Source: [classes/exception/PrestaShopDatabaseException.php](https://github.com/P
 Classes
 -------
 
-* [PrestaShopDatabaseExceptionCore](class.PrestaShopDatabaseExceptionCore)
+* [PrestaShopDatabaseExceptionCore](class.PrestaShopDatabaseExceptionCore.md)
 

@@ -6,7 +6,7 @@ Class HTMLTemplateSupplyOrderFormCore
 
 
 * Class name: HTMLTemplateSupplyOrderFormCore
-* Parent class: [HTMLTemplate](class.HTMLTemplateCore)
+* Parent class: [HTMLTemplate](class.HTMLTemplateCore.md)
 * Source: [classes/pdf/HTMLTemplateSupplyOrderForm.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L30)
 
 
@@ -117,7 +117,7 @@ Methods
 
 
 #### Arguments
-* $supply_order **[SupplyOrder](class.SupplyOrderCore)**
+* $supply_order **[SupplyOrder](class.SupplyOrderCore.md)**
 * $smarty **mixed**
 
 
@@ -233,7 +233,7 @@ Rounds values of a SupplyOrder object
 
 
 #### Arguments
-* $supply_order **[SupplyOrder](class.SupplyOrderCore)**
+* $supply_order **[SupplyOrder](class.SupplyOrderCore.md)**
 
 
 
@@ -250,6 +250,6 @@ Rounds values of a SupplyOrderDetail object
 
 
 #### Arguments
-* $collection **array|[array](class.PrestaShopCollectionCore)**
+* $collection **array|[array](class.PrestaShopCollectionCore.md)**
 
 

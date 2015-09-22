@@ -6,5 +6,5 @@ Source: [classes/ConfigurationKPI.php](https://github.com/PrestaShop/PrestaShop/
 Classes
 -------
 
-* [ConfigurationKPICore](class.ConfigurationKPICore)
+* [ConfigurationKPICore](class.ConfigurationKPICore.md)
 

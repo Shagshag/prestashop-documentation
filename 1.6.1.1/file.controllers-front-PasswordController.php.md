@@ -6,5 +6,5 @@ Source: [controllers/front/PasswordController.php](https://github.com/PrestaShop
 Classes
 -------
 
-* [PasswordControllerCore](class.PasswordControllerCore)
+* [PasswordControllerCore](class.PasswordControllerCore.md)
 

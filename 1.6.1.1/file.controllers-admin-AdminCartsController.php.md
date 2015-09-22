@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminCartsController.php](https://github.com/PrestaSh
 Classes
 -------
 
-* [AdminCartsControllerCore](class.AdminCartsControllerCore)
+* [AdminCartsControllerCore](class.AdminCartsControllerCore.md)
 

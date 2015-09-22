@@ -6,7 +6,7 @@ Class AdminInformationControllerCore
 
 
 * Class name: AdminInformationControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminInformationController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#L27)
 
 

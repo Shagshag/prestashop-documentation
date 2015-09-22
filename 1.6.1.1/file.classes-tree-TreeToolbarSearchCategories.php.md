@@ -6,5 +6,5 @@ Source: [classes/tree/TreeToolbarSearchCategories.php](https://github.com/Presta
 Classes
 -------
 
-* [TreeToolbarSearchCategoriesCore](class.TreeToolbarSearchCategoriesCore)
+* [TreeToolbarSearchCategoriesCore](class.TreeToolbarSearchCategoriesCore.md)
 

@@ -6,5 +6,5 @@ Source: [Adapter/Adapter_CacheManager.php](https://github.com/PrestaShop/PrestaS
 Classes
 -------
 
-* [Adapter_CacheManager](class.Adapter_CacheManager)
+* [Adapter_CacheManager](class.Adapter_CacheManager.md)
 

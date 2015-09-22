@@ -6,5 +6,5 @@ Source: [classes/webservice/WebserviceSpecificManagementSearch.php](https://gith
 Classes
 -------
 
-* [WebserviceSpecificManagementSearchCore](class.WebserviceSpecificManagementSearchCore)
+* [WebserviceSpecificManagementSearchCore](class.WebserviceSpecificManagementSearchCore.md)
 

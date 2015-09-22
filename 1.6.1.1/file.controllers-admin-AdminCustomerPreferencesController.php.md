@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminCustomerPreferencesController.php](https://githu
 Classes
 -------
 
-* [AdminCustomerPreferencesControllerCore](class.AdminCustomerPreferencesControllerCore)
+* [AdminCustomerPreferencesControllerCore](class.AdminCustomerPreferencesControllerCore.md)
 

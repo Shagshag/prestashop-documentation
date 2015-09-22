@@ -6,7 +6,7 @@ Class TaxRulesGroupCore
 
 
 * Class name: TaxRulesGroupCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/tax/TaxRulesGroup.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L28)
 
 
@@ -321,7 +321,7 @@ Save the object with the field deleted to true
 
 
 #### Arguments
-* $tax_rules_group **[TaxRulesGroup](class.TaxRulesGroupCore)**
+* $tax_rules_group **[TaxRulesGroup](class.TaxRulesGroupCore.md)**
 
 
 

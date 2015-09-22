@@ -6,7 +6,7 @@ Class FeatureValueCore
 
 
 * Class name: FeatureValueCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/FeatureValue.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#L27)
 
 

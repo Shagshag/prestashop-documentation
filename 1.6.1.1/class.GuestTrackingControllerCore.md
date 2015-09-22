@@ -6,7 +6,7 @@ Class GuestTrackingControllerCore
 
 
 * Class name: GuestTrackingControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/GuestTrackingController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L27)
 
 
@@ -74,7 +74,7 @@ Assigns template vars related to order tracking information
 
 
 #### Arguments
-* $order_collection **[PrestaShopCollection](class.PrestaShopCollectionCore)**
+* $order_collection **[PrestaShopCollection](class.PrestaShopCollectionCore.md)**
 
 
 
@@ -133,8 +133,8 @@ Start forms process
 
 
 #### Arguments
-* $delivery **[Address](class.AddressCore)**
-* $invoice **[Address](class.AddressCore)**
+* $delivery **[Address](class.AddressCore.md)**
+* $invoice **[Address](class.AddressCore.md)**
 
 
 

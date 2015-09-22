@@ -6,7 +6,7 @@ Class TaxCore
 
 
 * Class name: TaxCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/tax/Tax.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L28)
 
 
@@ -245,7 +245,7 @@ Returns the product tax
 #### Arguments
 * $id_product **integer**
 * $id_address **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

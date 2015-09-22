@@ -6,5 +6,5 @@ Source: [classes/Attribute.php](https://github.com/PrestaShop/PrestaShop/blob/1.
 Classes
 -------
 
-* [AttributeCore](class.AttributeCore)
+* [AttributeCore](class.AttributeCore.md)
 

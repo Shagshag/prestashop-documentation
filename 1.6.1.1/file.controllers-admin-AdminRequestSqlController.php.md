@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminRequestSqlController.php](https://github.com/Pre
 Classes
 -------
 
-* [AdminRequestSqlControllerCore](class.AdminRequestSqlControllerCore)
+* [AdminRequestSqlControllerCore](class.AdminRequestSqlControllerCore.md)
 

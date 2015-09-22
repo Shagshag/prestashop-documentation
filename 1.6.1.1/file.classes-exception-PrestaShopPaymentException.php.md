@@ -6,5 +6,5 @@ Source: [classes/exception/PrestaShopPaymentException.php](https://github.com/Pr
 Classes
 -------
 
-* [PrestaShopPaymentExceptionCore](class.PrestaShopPaymentExceptionCore)
+* [PrestaShopPaymentExceptionCore](class.PrestaShopPaymentExceptionCore.md)
 

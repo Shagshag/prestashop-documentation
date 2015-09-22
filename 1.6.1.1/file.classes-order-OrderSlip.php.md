@@ -6,5 +6,5 @@ Source: [classes/order/OrderSlip.php](https://github.com/PrestaShop/PrestaShop/b
 Classes
 -------
 
-* [OrderSlipCore](class.OrderSlipCore)
+* [OrderSlipCore](class.OrderSlipCore.md)
 

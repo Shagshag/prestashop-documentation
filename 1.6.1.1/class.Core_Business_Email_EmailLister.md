@@ -71,7 +71,7 @@ Methods
 
 
 #### Arguments
-* $fs **[Core_Foundation_FileSystem_FileSystem](class.Core_Foundation_FileSystem_FileSystem)**
+* $fs **[Core_Foundation_FileSystem_FileSystem](class.Core_Foundation_FileSystem_FileSystem.md)**
 
 
 

@@ -6,5 +6,5 @@ Source: [classes/pdf/PDFGenerator.php](https://github.com/PrestaShop/PrestaShop/
 Classes
 -------
 
-* [PDFGeneratorCore](class.PDFGeneratorCore)
+* [PDFGeneratorCore](class.PDFGeneratorCore.md)
 

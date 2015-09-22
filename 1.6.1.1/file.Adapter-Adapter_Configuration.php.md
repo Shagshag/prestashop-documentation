@@ -6,5 +6,5 @@ Source: [Adapter/Adapter_Configuration.php](https://github.com/PrestaShop/Presta
 Classes
 -------
 
-* [Adapter_Configuration](class.Adapter_Configuration)
+* [Adapter_Configuration](class.Adapter_Configuration.md)
 

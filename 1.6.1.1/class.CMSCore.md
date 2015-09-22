@@ -6,7 +6,7 @@ Class CMSCore
 
 
 * Class name: CMSCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/CMS.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L27)
 
 
@@ -311,7 +311,7 @@ Methods
 * $id_lang **mixed**
 * $selection **mixed**
 * $active **mixed**
-* $link **[Link](class.LinkCore)**
+* $link **[Link](class.LinkCore.md)**
 
 
 

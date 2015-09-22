@@ -6,5 +6,5 @@ Source: [classes/stock/WarehouseProductLocation.php](https://github.com/PrestaSh
 Classes
 -------
 
-* [WarehouseProductLocationCore](class.WarehouseProductLocationCore)
+* [WarehouseProductLocationCore](class.WarehouseProductLocationCore.md)
 

@@ -6,5 +6,5 @@ Source: [controllers/front/CategoryController.php](https://github.com/PrestaShop
 Classes
 -------
 
-* [CategoryControllerCore](class.CategoryControllerCore)
+* [CategoryControllerCore](class.CategoryControllerCore.md)
 

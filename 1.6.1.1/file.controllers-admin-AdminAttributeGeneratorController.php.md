@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminAttributeGeneratorController.php](https://github
 Classes
 -------
 
-* [AdminAttributeGeneratorControllerCore](class.AdminAttributeGeneratorControllerCore)
+* [AdminAttributeGeneratorControllerCore](class.AdminAttributeGeneratorControllerCore.md)
 

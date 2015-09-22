@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminGroupsController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [AdminGroupsControllerCore](class.AdminGroupsControllerCore)
+* [AdminGroupsControllerCore](class.AdminGroupsControllerCore.md)
 

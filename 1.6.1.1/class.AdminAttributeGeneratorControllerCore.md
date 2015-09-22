@@ -6,7 +6,7 @@ Class AdminAttributeGeneratorControllerCore
 
 
 * Class name: AdminAttributeGeneratorControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminAttributeGeneratorController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L32)
 
 

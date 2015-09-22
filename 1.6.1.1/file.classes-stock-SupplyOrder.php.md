@@ -6,5 +6,5 @@ Source: [classes/stock/SupplyOrder.php](https://github.com/PrestaShop/PrestaShop
 Classes
 -------
 
-* [SupplyOrderCore](class.SupplyOrderCore)
+* [SupplyOrderCore](class.SupplyOrderCore.md)
 

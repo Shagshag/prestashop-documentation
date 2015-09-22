@@ -6,7 +6,7 @@ Class TabCore
 
 
 * Class name: TabCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Tab.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L27)
 
 Constants
@@ -551,7 +551,7 @@ When creating a new tab $id_tab, this add default rights to the table access
 
 #### Arguments
 * $id_tab **integer**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

@@ -6,5 +6,5 @@ Source: [classes/Risk.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1
 Classes
 -------
 
-* [RiskCore](class.RiskCore)
+* [RiskCore](class.RiskCore.md)
 

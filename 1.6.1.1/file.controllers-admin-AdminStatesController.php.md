@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminStatesController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [AdminStatesControllerCore](class.AdminStatesControllerCore)
+* [AdminStatesControllerCore](class.AdminStatesControllerCore.md)
 

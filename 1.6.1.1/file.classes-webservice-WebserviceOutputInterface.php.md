@@ -5,6 +5,6 @@ Source: [classes/webservice/WebserviceOutputInterface.php](https://github.com/Pr
 Interfaces
 ----------
 
-* [WebserviceOutputInterface](interface.WebserviceOutputInterface)
+* [WebserviceOutputInterface](interface.WebserviceOutputInterface.md)
 
 

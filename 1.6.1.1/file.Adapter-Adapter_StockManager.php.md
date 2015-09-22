@@ -6,5 +6,5 @@ Source: [Adapter/Adapter_StockManager.php](https://github.com/PrestaShop/PrestaS
 Classes
 -------
 
-* [Adapter_StockManager](class.Adapter_StockManager)
+* [Adapter_StockManager](class.Adapter_StockManager.md)
 

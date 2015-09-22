@@ -6,7 +6,7 @@ Class MailCore
 
 
 * Class name: MailCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Mail.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L32)
 
 Constants
@@ -281,7 +281,7 @@ we have to return a sentence with accents.
 #### Arguments
 * $string **string** - raw sentence (write directly in file)
 * $id_lang **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

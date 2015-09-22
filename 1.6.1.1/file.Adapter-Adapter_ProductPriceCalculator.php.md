@@ -6,5 +6,5 @@ Source: [Adapter/Adapter_ProductPriceCalculator.php](https://github.com/PrestaSh
 Classes
 -------
 
-* [Adapter_ProductPriceCalculator](class.Adapter_ProductPriceCalculator)
+* [Adapter_ProductPriceCalculator](class.Adapter_ProductPriceCalculator.md)
 

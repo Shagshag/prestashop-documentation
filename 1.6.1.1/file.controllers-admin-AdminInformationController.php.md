@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminInformationController.php](https://github.com/Pr
 Classes
 -------
 
-* [AdminInformationControllerCore](class.AdminInformationControllerCore)
+* [AdminInformationControllerCore](class.AdminInformationControllerCore.md)
 

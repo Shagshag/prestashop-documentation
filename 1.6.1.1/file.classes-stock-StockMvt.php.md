@@ -6,5 +6,5 @@ Source: [classes/stock/StockMvt.php](https://github.com/PrestaShop/PrestaShop/bl
 Classes
 -------
 
-* [StockMvtCore](class.StockMvtCore)
+* [StockMvtCore](class.StockMvtCore.md)
 

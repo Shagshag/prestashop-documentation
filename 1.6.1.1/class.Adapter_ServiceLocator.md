@@ -90,6 +90,6 @@ Get a service depending on its given $serviceName
 
 
 #### Arguments
-* $container **[Core_Foundation_IoC_Container](class.Core_Foundation_IoC_Container)**
+* $container **[Core_Foundation_IoC_Container](class.Core_Foundation_IoC_Container.md)**
 
 

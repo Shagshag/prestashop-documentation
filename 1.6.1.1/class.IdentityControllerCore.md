@@ -6,7 +6,7 @@ Class IdentityControllerCore
 
 
 * Class name: IdentityControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/IdentityController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#L27)
 
 

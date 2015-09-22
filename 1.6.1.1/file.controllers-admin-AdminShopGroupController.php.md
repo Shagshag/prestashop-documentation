@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminShopGroupController.php](https://github.com/Pres
 Classes
 -------
 
-* [AdminShopGroupControllerCore](class.AdminShopGroupControllerCore)
+* [AdminShopGroupControllerCore](class.AdminShopGroupControllerCore.md)
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminPdfController.php](https://github.com/PrestaShop
 Classes
 -------
 
-* [AdminPdfControllerCore](class.AdminPdfControllerCore)
+* [AdminPdfControllerCore](class.AdminPdfControllerCore.md)
 

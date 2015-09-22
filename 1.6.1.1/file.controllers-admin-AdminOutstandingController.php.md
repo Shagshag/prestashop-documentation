@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminOutstandingController.php](https://github.com/Pr
 Classes
 -------
 
-* [AdminOutstandingControllerCore](class.AdminOutstandingControllerCore)
+* [AdminOutstandingControllerCore](class.AdminOutstandingControllerCore.md)
 

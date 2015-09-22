@@ -6,5 +6,5 @@ Source: [classes/DateRange.php](https://github.com/PrestaShop/PrestaShop/blob/1.
 Classes
 -------
 
-* [DateRangeCore](class.DateRangeCore)
+* [DateRangeCore](class.DateRangeCore.md)
 

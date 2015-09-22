@@ -6,5 +6,5 @@ Source: [classes/webservice/WebserviceOutputJSON.php](https://github.com/PrestaS
 Classes
 -------
 
-* [WebserviceOutputJSON](class.WebserviceOutputJSON)
+* [WebserviceOutputJSON](class.WebserviceOutputJSON.md)
 

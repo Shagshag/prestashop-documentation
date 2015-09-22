@@ -6,5 +6,5 @@ Source: [classes/PrestaShopBackup.php](https://github.com/PrestaShop/PrestaShop/
 Classes
 -------
 
-* [PrestaShopBackupCore](class.PrestaShopBackupCore)
+* [PrestaShopBackupCore](class.PrestaShopBackupCore.md)
 

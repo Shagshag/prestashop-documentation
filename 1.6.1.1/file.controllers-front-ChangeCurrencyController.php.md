@@ -6,5 +6,5 @@ Source: [controllers/front/ChangeCurrencyController.php](https://github.com/Pres
 Classes
 -------
 
-* [ChangeCurrencyControllerCore](class.ChangeCurrencyControllerCore)
+* [ChangeCurrencyControllerCore](class.ChangeCurrencyControllerCore.md)
 

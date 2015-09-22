@@ -6,7 +6,7 @@ Class RequestSqlCore
 
 
 * Class name: RequestSqlCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/RequestSql.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#L27)
 
 

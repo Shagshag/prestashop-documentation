@@ -6,5 +6,5 @@ Source: [classes/Message.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.
 Classes
 -------
 
-* [MessageCore](class.MessageCore)
+* [MessageCore](class.MessageCore.md)
 

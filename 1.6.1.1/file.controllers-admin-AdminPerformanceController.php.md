@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminPerformanceController.php](https://github.com/Pr
 Classes
 -------
 
-* [AdminPerformanceControllerCore](class.AdminPerformanceControllerCore)
+* [AdminPerformanceControllerCore](class.AdminPerformanceControllerCore.md)
 

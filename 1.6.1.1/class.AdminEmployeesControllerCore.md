@@ -6,7 +6,7 @@ Class AdminEmployeesControllerCore
 
 
 * Class name: AdminEmployeesControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminEmployeesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#L30)
 
 
@@ -153,7 +153,7 @@ Methods
 
 
 #### Arguments
-* $object **[Employee](class.EmployeeCore)**
+* $object **[Employee](class.EmployeeCore.md)**
 
 
 

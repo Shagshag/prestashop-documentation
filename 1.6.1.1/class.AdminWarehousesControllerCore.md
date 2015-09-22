@@ -6,7 +6,7 @@ Class AdminWarehousesControllerCore
 
 
 * Class name: AdminWarehousesControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminWarehousesController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L31)
 
 
@@ -83,7 +83,7 @@ Used to process the associations with address/shops/carriers
 
 
 #### Arguments
-* $object **[Warehouse](class.WarehouseCore)**
+* $object **[Warehouse](class.WarehouseCore.md)**
 
 
 

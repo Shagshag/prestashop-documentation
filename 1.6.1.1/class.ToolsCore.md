@@ -771,7 +771,7 @@ Clear XML cache folder
 #### Arguments
 * $meta_tags **mixed**
 * $default_value **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -810,7 +810,7 @@ Return price converted
 * $price **float** - Product price
 * $currency **object|array** - Current currency object
 * $to_currency **boolean** - convert to currency or from currency to default currency
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -829,8 +829,8 @@ Convert amount from a currency to an other currency automatically
 
 #### Arguments
 * $amount **float**
-* $currency_from **[Currency](class.CurrencyCore)** - if null we used the default currency
-* $currency_to **[Currency](class.CurrencyCore)** - if null we used the default currency
+* $currency_from **[Currency](class.CurrencyCore.md)** - if null we used the default currency
+* $currency_to **[Currency](class.CurrencyCore.md)** - if null we used the default currency
 
 
 
@@ -1138,7 +1138,7 @@ Display an error according to an error code
 #### Arguments
 * $string **string** - Error message
 * $htmlentities **boolean** - By default at true for parsing error message with htmlentities
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -1211,7 +1211,7 @@ Return price with currency sign for a given product
 * $price **float** - Product price
 * $currency **object|array** - Current currency (object, id_currency, NULL =&gt; context currency)
 * $no_utf8 **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -1249,7 +1249,7 @@ Return price with currency sign for a given product
 
 #### Arguments
 * $level **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -1536,7 +1536,7 @@ Tokenize a string
 
 #### Arguments
 * $tab **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -1712,7 +1712,7 @@ Allows to display the category description without HTML tags and slashes
 * $id_category **mixed**
 * $end **mixed**
 * $type_cat **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -1881,7 +1881,7 @@ Get the user's journey
 * $path **string** - Path end
 * $link_on_the_item **mixed**
 * $category_type **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -2037,7 +2037,7 @@ Get token to prevent CSRF
 
 #### Arguments
 * $page **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -2676,7 +2676,7 @@ Redirect user to another page
 #### Arguments
 * $url **string** - Desired URL
 * $base_uri **string** - Base URI (optional)
-* $link **[Link](class.LinkCore)**
+* $link **[Link](class.LinkCore.md)**
 * $headers **string|array** - A list of headers to send before redirection
 
 
@@ -2767,7 +2767,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 
 #### Arguments
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3198,7 +3198,7 @@ Set cookie id_lang
 
 
 #### Arguments
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

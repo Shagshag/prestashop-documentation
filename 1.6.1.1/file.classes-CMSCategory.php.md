@@ -6,5 +6,5 @@ Source: [classes/CMSCategory.php](https://github.com/PrestaShop/PrestaShop/blob/
 Classes
 -------
 
-* [CMSCategoryCore](class.CMSCategoryCore)
+* [CMSCategoryCore](class.CMSCategoryCore.md)
 

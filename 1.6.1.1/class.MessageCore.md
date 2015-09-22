@@ -6,7 +6,7 @@ Class MessageCore
 
 
 * Class name: MessageCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Message.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L27)
 
 
@@ -185,7 +185,7 @@ Return messages from Cart ID
 #### Arguments
 * $id_cart **mixed**
 * $private **boolean** - return WITH private messages
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -205,7 +205,7 @@ Return messages from Order ID
 #### Arguments
 * $id_order **integer** - Order ID
 * $private **boolean** - return WITH private messages
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

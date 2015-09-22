@@ -6,5 +6,5 @@ Source: [classes/CMS.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/
 Classes
 -------
 
-* [CMSCore](class.CMSCore)
+* [CMSCore](class.CMSCore.md)
 

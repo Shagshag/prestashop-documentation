@@ -6,7 +6,7 @@ Class OrderHistoryCore
 
 
 * Class name: OrderHistoryCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/OrderHistory.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#L27)
 
 
@@ -161,7 +161,7 @@ Methods
 #### Arguments
 * $autodate **boolean** - Optional
 * $template_vars **array** - Optional
-* $context **[Context](class.ContextCore)** - Deprecated
+* $context **[Context](class.ContextCore.md)** - Deprecated
 
 
 

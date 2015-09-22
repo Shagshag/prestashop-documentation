@@ -104,7 +104,7 @@ Methods
 * $id_lang **mixed**
 * $page_number **mixed**
 * $nb_products **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

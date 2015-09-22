@@ -6,5 +6,5 @@ Source: [classes/helper/HelperView.php](https://github.com/PrestaShop/PrestaShop
 Classes
 -------
 
-* [HelperViewCore](class.HelperViewCore)
+* [HelperViewCore](class.HelperViewCore.md)
 

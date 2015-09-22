@@ -6,5 +6,5 @@ Source: [controllers/front/MyAccountController.php](https://github.com/PrestaSho
 Classes
 -------
 
-* [MyAccountControllerCore](class.MyAccountControllerCore)
+* [MyAccountControllerCore](class.MyAccountControllerCore.md)
 

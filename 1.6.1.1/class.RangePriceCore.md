@@ -6,7 +6,7 @@ Class RangePriceCore
 
 
 * Class name: RangePriceCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/range/RangePrice.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangePrice.php#L27)
 
 

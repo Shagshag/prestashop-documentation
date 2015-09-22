@@ -6,5 +6,5 @@ Source: [classes/PaymentModule.php](https://github.com/PrestaShop/PrestaShop/blo
 Classes
 -------
 
-* [PaymentModuleCore](class.PaymentModuleCore)
+* [PaymentModuleCore](class.PaymentModuleCore.md)
 

@@ -5,6 +5,6 @@ Source: [classes/webservice/WebserviceSpecificManagementInterface.php](https://g
 Interfaces
 ----------
 
-* [WebserviceSpecificManagementInterface](interface.WebserviceSpecificManagementInterface)
+* [WebserviceSpecificManagementInterface](interface.WebserviceSpecificManagementInterface.md)
 
 

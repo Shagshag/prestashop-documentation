@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminModulesPositionsController.php](https://github.c
 Classes
 -------
 
-* [AdminModulesPositionsControllerCore](class.AdminModulesPositionsControllerCore)
+* [AdminModulesPositionsControllerCore](class.AdminModulesPositionsControllerCore.md)
 

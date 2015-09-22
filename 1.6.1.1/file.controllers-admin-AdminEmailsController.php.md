@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminEmailsController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [AdminEmailsControllerCore](class.AdminEmailsControllerCore)
+* [AdminEmailsControllerCore](class.AdminEmailsControllerCore.md)
 

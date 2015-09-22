@@ -6,5 +6,5 @@ Source: [classes/Search.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1
 Classes
 -------
 
-* [SearchCore](class.SearchCore)
+* [SearchCore](class.SearchCore.md)
 

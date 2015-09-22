@@ -6,5 +6,5 @@ Source: [classes/Language.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [LanguageCore](class.LanguageCore)
+* [LanguageCore](class.LanguageCore.md)
 

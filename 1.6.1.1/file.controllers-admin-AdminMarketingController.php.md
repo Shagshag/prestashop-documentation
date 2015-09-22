@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminMarketingController.php](https://github.com/Pres
 Classes
 -------
 
-* [AdminMarketingControllerCore](class.AdminMarketingControllerCore)
+* [AdminMarketingControllerCore](class.AdminMarketingControllerCore.md)
 

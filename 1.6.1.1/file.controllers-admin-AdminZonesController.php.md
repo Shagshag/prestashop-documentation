@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminZonesController.php](https://github.com/PrestaSh
 Classes
 -------
 
-* [AdminZonesControllerCore](class.AdminZonesControllerCore)
+* [AdminZonesControllerCore](class.AdminZonesControllerCore.md)
 

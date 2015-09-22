@@ -6,5 +6,5 @@ Source: [classes/Theme.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.
 Classes
 -------
 
-* [ThemeCore](class.ThemeCore)
+* [ThemeCore](class.ThemeCore.md)
 

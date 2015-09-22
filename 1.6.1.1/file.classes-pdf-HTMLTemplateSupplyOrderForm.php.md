@@ -6,5 +6,5 @@ Source: [classes/pdf/HTMLTemplateSupplyOrderForm.php](https://github.com/PrestaS
 Classes
 -------
 
-* [HTMLTemplateSupplyOrderFormCore](class.HTMLTemplateSupplyOrderFormCore)
+* [HTMLTemplateSupplyOrderFormCore](class.HTMLTemplateSupplyOrderFormCore.md)
 

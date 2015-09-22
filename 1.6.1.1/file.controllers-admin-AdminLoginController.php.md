@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminLoginController.php](https://github.com/PrestaSh
 Classes
 -------
 
-* [AdminLoginControllerCore](class.AdminLoginControllerCore)
+* [AdminLoginControllerCore](class.AdminLoginControllerCore.md)
 

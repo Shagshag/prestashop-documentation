@@ -5,6 +5,6 @@ Source: [classes/tree/ITreeToolbarButton.php](https://github.com/PrestaShop/Pres
 Interfaces
 ----------
 
-* [ITreeToolbarButtonCore](interface.ITreeToolbarButtonCore)
+* [ITreeToolbarButtonCore](interface.ITreeToolbarButtonCore.md)
 
 

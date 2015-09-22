@@ -6,5 +6,5 @@ Source: [classes/County.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1
 Classes
 -------
 
-* [CountyCore](class.CountyCore)
+* [CountyCore](class.CountyCore.md)
 

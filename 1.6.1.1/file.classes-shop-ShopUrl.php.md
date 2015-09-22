@@ -6,5 +6,5 @@ Source: [classes/shop/ShopUrl.php](https://github.com/PrestaShop/PrestaShop/blob
 Classes
 -------
 
-* [ShopUrlCore](class.ShopUrlCore)
+* [ShopUrlCore](class.ShopUrlCore.md)
 

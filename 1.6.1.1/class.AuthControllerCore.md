@@ -6,7 +6,7 @@ Class AuthControllerCore
 
 
 * Class name: AuthControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/AuthController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L27)
 
 
@@ -219,7 +219,7 @@ Process the newsletter settings and set the customer infos.
 
 
 #### Arguments
-* $customer **[Customer](class.CustomerCore)** - Reference on the customer Object.
+* $customer **[Customer](class.CustomerCore.md)** - Reference on the customer Object.
 
 
 
@@ -278,7 +278,7 @@ sendConfirmationMail
 
 
 #### Arguments
-* $customer **[Customer](class.CustomerCore)**
+* $customer **[Customer](class.CustomerCore.md)**
 
 
 
@@ -309,6 +309,6 @@ Update context after customer creation
 
 
 #### Arguments
-* $customer **[Customer](class.CustomerCore)** - Created customer
+* $customer **[Customer](class.CustomerCore.md)** - Created customer
 
 

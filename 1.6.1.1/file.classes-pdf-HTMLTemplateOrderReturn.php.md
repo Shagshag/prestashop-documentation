@@ -6,5 +6,5 @@ Source: [classes/pdf/HTMLTemplateOrderReturn.php](https://github.com/PrestaShop/
 Classes
 -------
 
-* [HTMLTemplateOrderReturnCore](class.HTMLTemplateOrderReturnCore)
+* [HTMLTemplateOrderReturnCore](class.HTMLTemplateOrderReturnCore.md)
 

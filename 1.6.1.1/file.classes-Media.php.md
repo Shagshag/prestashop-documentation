@@ -6,5 +6,5 @@ Source: [classes/Media.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.
 Classes
 -------
 
-* [MediaCore](class.MediaCore)
+* [MediaCore](class.MediaCore.md)
 

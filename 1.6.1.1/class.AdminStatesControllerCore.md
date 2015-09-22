@@ -6,7 +6,7 @@ Class AdminStatesControllerCore
 
 
 * Class name: AdminStatesControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminStatesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#L30)
 
 

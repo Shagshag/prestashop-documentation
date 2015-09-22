@@ -6,5 +6,5 @@ Source: [classes/order/OrderMessage.php](https://github.com/PrestaShop/PrestaSho
 Classes
 -------
 
-* [OrderMessageCore](class.OrderMessageCore)
+* [OrderMessageCore](class.OrderMessageCore.md)
 

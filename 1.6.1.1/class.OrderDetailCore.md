@@ -6,7 +6,7 @@ Class OrderDetailCore
 
 
 * Class name: OrderDetailCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/OrderDetail.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDetail.php#L27)
 
 
@@ -1040,7 +1040,7 @@ Save the tax calculator
 
 
 #### Arguments
-* $order **[Order](class.OrderCore)**
+* $order **[Order](class.OrderCore.md)**
 * $replace **mixed**
 
 
@@ -1112,7 +1112,7 @@ Set the additional shipping information
 
 
 #### Arguments
-* $order **[Order](class.OrderCore)**
+* $order **[Order](class.OrderCore.md)**
 * $product **mixed**
 
 

@@ -7,7 +7,7 @@ Class WebserviceOutputXMLCore
 
 * Class name: WebserviceOutputXMLCore
 * Source: [classes/webservice/WebserviceOutputXML.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#L27)
-* This class implements: [WebserviceOutputInterface](interface.WebserviceOutputInterface)
+* This class implements: [WebserviceOutputInterface](interface.WebserviceOutputInterface.md)
 
 
 Properties

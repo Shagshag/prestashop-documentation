@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminSuppliersController.php](https://github.com/Pres
 Classes
 -------
 
-* [AdminSuppliersControllerCore](class.AdminSuppliersControllerCore)
+* [AdminSuppliersControllerCore](class.AdminSuppliersControllerCore.md)
 

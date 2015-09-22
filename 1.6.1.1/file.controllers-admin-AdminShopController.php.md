@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminShopController.php](https://github.com/PrestaSho
 Classes
 -------
 
-* [AdminShopControllerCore](class.AdminShopControllerCore)
+* [AdminShopControllerCore](class.AdminShopControllerCore.md)
 

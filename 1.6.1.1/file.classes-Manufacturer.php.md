@@ -6,5 +6,5 @@ Source: [classes/Manufacturer.php](https://github.com/PrestaShop/PrestaShop/blob
 Classes
 -------
 
-* [ManufacturerCore](class.ManufacturerCore)
+* [ManufacturerCore](class.ManufacturerCore.md)
 

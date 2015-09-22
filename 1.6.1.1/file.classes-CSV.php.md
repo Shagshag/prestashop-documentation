@@ -6,5 +6,5 @@ Source: [classes/CSV.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/
 Classes
 -------
 
-* [CSVCore](class.CSVCore)
+* [CSVCore](class.CSVCore.md)
 

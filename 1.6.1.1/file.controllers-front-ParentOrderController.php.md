@@ -6,6 +6,6 @@ Source: [controllers/front/ParentOrderController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [FreeOrder](class.FreeOrder)
-* [ParentOrderControllerCore](class.ParentOrderControllerCore)
+* [FreeOrder](class.FreeOrder.md)
+* [ParentOrderControllerCore](class.ParentOrderControllerCore.md)
 

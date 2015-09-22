@@ -6,7 +6,7 @@ Class OrderReturnCore
 
 
 * Class name: OrderReturnCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/OrderReturn.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L27)
 
 
@@ -254,7 +254,7 @@ Add returned quantity to products list
 * $customer_id **mixed**
 * $order_id **mixed**
 * $no_denied **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -291,7 +291,7 @@ Add returned quantity to products list
 
 #### Arguments
 * $order_return_id **integer**
-* $order **[Order](class.OrderCore)**
+* $order **[Order](class.OrderCore.md)**
 
 
 

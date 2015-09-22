@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminLogsController.php](https://github.com/PrestaSho
 Classes
 -------
 
-* [AdminLogsControllerCore](class.AdminLogsControllerCore)
+* [AdminLogsControllerCore](class.AdminLogsControllerCore.md)
 

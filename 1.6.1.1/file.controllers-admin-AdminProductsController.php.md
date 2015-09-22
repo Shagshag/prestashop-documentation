@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminProductsController.php](https://github.com/Prest
 Classes
 -------
 
-* [AdminProductsControllerCore](class.AdminProductsControllerCore)
+* [AdminProductsControllerCore](class.AdminProductsControllerCore.md)
 

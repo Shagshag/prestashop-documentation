@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminPaymentController.php](https://github.com/Presta
 Classes
 -------
 
-* [AdminPaymentControllerCore](class.AdminPaymentControllerCore)
+* [AdminPaymentControllerCore](class.AdminPaymentControllerCore.md)
 

@@ -6,7 +6,7 @@ Class HTMLTemplateOrderReturnCore
 
 
 * Class name: HTMLTemplateOrderReturnCore
-* Parent class: [HTMLTemplate](class.HTMLTemplateCore)
+* Parent class: [HTMLTemplate](class.HTMLTemplateCore.md)
 * Source: [classes/pdf/HTMLTemplateOrderReturn.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#L30)
 
 
@@ -73,7 +73,7 @@ Methods
 
 
 #### Arguments
-* $order_return **[OrderReturn](class.OrderReturnCore)**
+* $order_return **[OrderReturn](class.OrderReturnCore.md)**
 * $smarty **mixed**
 
 

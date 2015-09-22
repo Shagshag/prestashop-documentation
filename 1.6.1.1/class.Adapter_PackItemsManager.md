@@ -55,7 +55,7 @@ Get the Products contained in the given Pack.
 
 
 #### Arguments
-* $pack **[Pack](class.PackCore)**
+* $pack **[Pack](class.PackCore.md)**
 * $id_lang **integer** - Optional
 
 
@@ -73,7 +73,7 @@ Get all Packs that contains the given item in the corresponding declination.
 
 
 #### Arguments
-* $item **[Product](class.ProductCore)**
+* $item **[Product](class.ProductCore.md)**
 * $item_attribute_id **integer**
 * $id_lang **integer** - Optional
 
@@ -92,7 +92,7 @@ Is this product a pack?
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)**
+* $product **[Product](class.ProductCore.md)**
 
 
 
@@ -111,7 +111,7 @@ else this method will match a product if at least one of all its combination is 
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)**
+* $product **[Product](class.ProductCore.md)**
 * $id_product_attribute **integer** - Optional combination of the product
 
 

@@ -6,5 +6,5 @@ Source: [classes/Guest.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.
 Classes
 -------
 
-* [GuestCore](class.GuestCore)
+* [GuestCore](class.GuestCore.md)
 

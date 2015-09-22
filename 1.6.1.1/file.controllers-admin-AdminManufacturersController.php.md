@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminManufacturersController.php](https://github.com/
 Classes
 -------
 
-* [AdminManufacturersControllerCore](class.AdminManufacturersControllerCore)
+* [AdminManufacturersControllerCore](class.AdminManufacturersControllerCore.md)
 

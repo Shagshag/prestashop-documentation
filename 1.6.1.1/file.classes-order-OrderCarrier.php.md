@@ -6,5 +6,5 @@ Source: [classes/order/OrderCarrier.php](https://github.com/PrestaShop/PrestaSho
 Classes
 -------
 
-* [OrderCarrierCore](class.OrderCarrierCore)
+* [OrderCarrierCore](class.OrderCarrierCore.md)
 

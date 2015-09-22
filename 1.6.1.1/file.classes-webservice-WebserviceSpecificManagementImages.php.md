@@ -6,5 +6,5 @@ Source: [classes/webservice/WebserviceSpecificManagementImages.php](https://gith
 Classes
 -------
 
-* [WebserviceSpecificManagementImagesCore](class.WebserviceSpecificManagementImagesCore)
+* [WebserviceSpecificManagementImagesCore](class.WebserviceSpecificManagementImagesCore.md)
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminAttributesGroupsController.php](https://github.c
 Classes
 -------
 
-* [AdminAttributesGroupsControllerCore](class.AdminAttributesGroupsControllerCore)
+* [AdminAttributesGroupsControllerCore](class.AdminAttributesGroupsControllerCore.md)
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminLanguagesController.php](https://github.com/Pres
 Classes
 -------
 
-* [AdminLanguagesControllerCore](class.AdminLanguagesControllerCore)
+* [AdminLanguagesControllerCore](class.AdminLanguagesControllerCore.md)
 

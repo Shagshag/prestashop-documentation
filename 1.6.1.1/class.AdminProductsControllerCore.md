@@ -6,7 +6,7 @@ Class AdminProductsControllerCore
 
 
 * Class name: AdminProductsControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminProductsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#L30)
 
 
@@ -543,7 +543,7 @@ Add or update a product image
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)** - Product object to add image
+* $product **[Product](class.ProductCore.md)** - Product object to add image
 * $method **string**
 
 
@@ -891,7 +891,7 @@ Check that a saved product is valid
 
 
 #### Arguments
-* $object **[Product](class.ProductCore)|[Product](class.ObjectModelCore)**
+* $object **[Product](class.ProductCore.md)|[Product](class.ObjectModelCore.md)**
 * $table **string**
 
 
@@ -1014,7 +1014,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)**
+* $product **[Product](class.ProductCore.md)**
 
 
 
@@ -1031,7 +1031,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)**
+* $product **[Product](class.ProductCore.md)**
 
 
 
@@ -1102,7 +1102,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 #### Arguments
-* $obj **[Product](class.ProductCore)**
+* $obj **[Product](class.ProductCore.md)**
 
 
 
@@ -1136,7 +1136,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)**
+* $product **[Product](class.ProductCore.md)**
 
 
 
@@ -1170,7 +1170,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 #### Arguments
-* $obj **[Product](class.ProductCore)**
+* $obj **[Product](class.ProductCore.md)**
 
 
 
@@ -1187,7 +1187,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 #### Arguments
-* $obj **[Product](class.ProductCore)**
+* $obj **[Product](class.ProductCore.md)**
 
 
 
@@ -1204,7 +1204,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 #### Arguments
-* $obj **[Product](class.ProductCore)**
+* $obj **[Product](class.ProductCore.md)**
 
 
 
@@ -1221,7 +1221,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)**
+* $product **[Product](class.ProductCore.md)**
 
 
 
@@ -1255,7 +1255,7 @@ AdminProducts display hook
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)**
+* $product **[Product](class.ProductCore.md)**
 
 
 
@@ -1272,7 +1272,7 @@ AdminProducts display hook
 
 
 #### Arguments
-* $obj **[Product](class.ProductCore)**
+* $obj **[Product](class.ProductCore.md)**
 
 
 
@@ -1289,7 +1289,7 @@ AdminProducts display hook
 
 
 #### Arguments
-* $obj **[Product](class.ProductCore)**
+* $obj **[Product](class.ProductCore.md)**
 
 
 
@@ -1340,7 +1340,7 @@ AdminProducts display hook
 
 
 #### Arguments
-* $obj **[Product](class.ProductCore)**
+* $obj **[Product](class.ProductCore.md)**
 
 
 
@@ -1374,7 +1374,7 @@ AdminProducts display hook
 
 
 #### Arguments
-* $obj **[Product](class.ProductCore)**
+* $obj **[Product](class.ProductCore.md)**
 
 
 
@@ -1391,7 +1391,7 @@ AdminProducts display hook
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)**
+* $product **[Product](class.ProductCore.md)**
 
 
 
@@ -1863,8 +1863,8 @@ renderForm contains all necessary initialization needed for all tabs
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)**
-* $currency **[Currency](class.CurrencyCore)|array|integer**
+* $product **[Product](class.ProductCore.md)**
+* $currency **[Currency](class.CurrencyCore.md)|array|integer**
 
 
 
@@ -1929,7 +1929,7 @@ Update product download
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)**
+* $product **[Product](class.ProductCore.md)**
 * $edit **integer**
 
 
@@ -1947,7 +1947,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)**
+* $product **[Product](class.ProductCore.md)**
 
 
 

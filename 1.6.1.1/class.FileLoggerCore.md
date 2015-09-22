@@ -6,7 +6,7 @@ Class FileLoggerCore
 
 
 * Class name: FileLoggerCore
-* Parent class: [AbstractLogger](class.AbstractLoggerCore)
+* Parent class: [AbstractLogger](class.AbstractLoggerCore.md)
 * Source: [classes/log/FileLogger.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#L27)
 
 

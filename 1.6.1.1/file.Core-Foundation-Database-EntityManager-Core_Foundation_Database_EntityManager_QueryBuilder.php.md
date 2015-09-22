@@ -6,5 +6,5 @@ Source: [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityM
 Classes
 -------
 
-* [Core_Foundation_Database_EntityManager_QueryBuilder](class.Core_Foundation_Database_EntityManager_QueryBuilder)
+* [Core_Foundation_Database_EntityManager_QueryBuilder](class.Core_Foundation_Database_EntityManager_QueryBuilder.md)
 

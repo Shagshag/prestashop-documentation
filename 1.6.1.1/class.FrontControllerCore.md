@@ -20,7 +20,7 @@ versions in the future. If you wish to customize PrestaShop for your
 needs please refer to http://www.prestashop.com for more information.
 
 * Class name: FrontControllerCore
-* Parent class: [Controller](class.ControllerCore)
+* Parent class: [Controller](class.ControllerCore.md)
 * Source: [classes/controller/FrontController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#L27)
 
 
@@ -607,7 +607,7 @@ Geolocation management
 
 
 #### Arguments
-* $default_country **[Country](class.CountryCore)**
+* $default_country **[Country](class.CountryCore.md)**
 
 
 

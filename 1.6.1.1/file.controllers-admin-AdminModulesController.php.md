@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminModulesController.php](https://github.com/Presta
 Classes
 -------
 
-* [AdminModulesControllerCore](class.AdminModulesControllerCore)
+* [AdminModulesControllerCore](class.AdminModulesControllerCore.md)
 

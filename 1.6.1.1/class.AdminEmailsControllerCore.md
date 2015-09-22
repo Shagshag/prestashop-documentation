@@ -6,7 +6,7 @@ Class AdminEmailsControllerCore
 
 
 * Class name: AdminEmailsControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminEmailsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#L30)
 
 

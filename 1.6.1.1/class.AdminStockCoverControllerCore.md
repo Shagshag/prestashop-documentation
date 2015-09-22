@@ -6,7 +6,7 @@ Class AdminStockCoverControllerCore
 
 
 * Class name: AdminStockCoverControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminStockCoverController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L31)
 
 

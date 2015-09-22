@@ -55,6 +55,6 @@ This method determine if the tax manager is available for the specified address.
 
 
 #### Arguments
-* $address **[Address](class.AddressCore)**
+* $address **[Address](class.AddressCore.md)**
 
 

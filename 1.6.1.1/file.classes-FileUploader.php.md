@@ -6,7 +6,7 @@ Source: [classes/FileUploader.php](https://github.com/PrestaShop/PrestaShop/blob
 Classes
 -------
 
-* [FileUploaderCore](class.FileUploaderCore)
-* [QqUploadedFileForm](class.QqUploadedFileForm)
-* [QqUploadedFileXhr](class.QqUploadedFileXhr)
+* [FileUploaderCore](class.FileUploaderCore.md)
+* [QqUploadedFileForm](class.QqUploadedFileForm.md)
+* [QqUploadedFileXhr](class.QqUploadedFileXhr.md)
 

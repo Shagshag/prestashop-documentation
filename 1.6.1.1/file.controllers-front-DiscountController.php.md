@@ -6,5 +6,5 @@ Source: [controllers/front/DiscountController.php](https://github.com/PrestaShop
 Classes
 -------
 
-* [DiscountControllerCore](class.DiscountControllerCore)
+* [DiscountControllerCore](class.DiscountControllerCore.md)
 

@@ -6,5 +6,5 @@ Source: [classes/SmartyCacheResourceMysql.php](https://github.com/PrestaShop/Pre
 Classes
 -------
 
-* [Smarty_CacheResource_Mysql](class.Smarty_CacheResource_Mysql)
+* [Smarty_CacheResource_Mysql](class.Smarty_CacheResource_Mysql.md)
 

@@ -6,5 +6,5 @@ Source: [classes/order/OrderHistory.php](https://github.com/PrestaShop/PrestaSho
 Classes
 -------
 
-* [OrderHistoryCore](class.OrderHistoryCore)
+* [OrderHistoryCore](class.OrderHistoryCore.md)
 

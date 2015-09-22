@@ -6,7 +6,7 @@ Class PasswordControllerCore
 
 
 * Class name: PasswordControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/PasswordController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PasswordController.php#L27)
 
 

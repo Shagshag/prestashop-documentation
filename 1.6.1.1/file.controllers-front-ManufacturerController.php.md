@@ -6,5 +6,5 @@ Source: [controllers/front/ManufacturerController.php](https://github.com/Presta
 Classes
 -------
 
-* [ManufacturerControllerCore](class.ManufacturerControllerCore)
+* [ManufacturerControllerCore](class.ManufacturerControllerCore.md)
 

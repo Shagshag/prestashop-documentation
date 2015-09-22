@@ -6,5 +6,5 @@ Source: [classes/order/Order.php](https://github.com/PrestaShop/PrestaShop/blob/
 Classes
 -------
 
-* [OrderCore](class.OrderCore)
+* [OrderCore](class.OrderCore.md)
 

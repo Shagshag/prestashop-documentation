@@ -6,7 +6,7 @@ Class AdminTranslationsControllerCore
 
 
 * Class name: AdminTranslationsControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminTranslationsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L27)
 
 Constants
@@ -558,7 +558,7 @@ This was create for factorize the html displaying
 #### Arguments
 * $mails **array**
 * $all_subject_mail **array**
-* $obj_lang **[Language](class.LanguageCore)**
+* $obj_lang **[Language](class.LanguageCore.md)**
 * $id_html **string** - Use for set html id attribute for the block
 * $title **string** - Set the title for the block
 * $name_for_module **string|boolean** - Is not false define add a name for distinguish mails module

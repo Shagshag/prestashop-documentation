@@ -6,6 +6,6 @@ Source: [controllers/admin/AdminOrdersController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [BoOrder](class.BoOrder)
-* [AdminOrdersControllerCore](class.AdminOrdersControllerCore)
+* [BoOrder](class.BoOrder.md)
+* [AdminOrdersControllerCore](class.AdminOrdersControllerCore.md)
 

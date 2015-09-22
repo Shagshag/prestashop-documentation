@@ -6,5 +6,5 @@ Source: [classes/Attachment.php](https://github.com/PrestaShop/PrestaShop/blob/1
 Classes
 -------
 
-* [AttachmentCore](class.AttachmentCore)
+* [AttachmentCore](class.AttachmentCore.md)
 

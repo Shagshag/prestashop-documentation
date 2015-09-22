@@ -6,5 +6,5 @@ Source: [classes/Configuration.php](https://github.com/PrestaShop/PrestaShop/blo
 Classes
 -------
 
-* [ConfigurationCore](class.ConfigurationCore)
+* [ConfigurationCore](class.ConfigurationCore.md)
 

@@ -6,5 +6,5 @@ Source: [classes/PrestaShopCollection.php](https://github.com/PrestaShop/PrestaS
 Classes
 -------
 
-* [PrestaShopCollectionCore](class.PrestaShopCollectionCore)
+* [PrestaShopCollectionCore](class.PrestaShopCollectionCore.md)
 

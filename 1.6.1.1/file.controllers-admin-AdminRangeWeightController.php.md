@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminRangeWeightController.php](https://github.com/Pr
 Classes
 -------
 
-* [AdminRangeWeightControllerCore](class.AdminRangeWeightControllerCore)
+* [AdminRangeWeightControllerCore](class.AdminRangeWeightControllerCore.md)
 

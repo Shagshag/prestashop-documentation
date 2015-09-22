@@ -6,5 +6,5 @@ Source: [controllers/front/CompareController.php](https://github.com/PrestaShop/
 Classes
 -------
 
-* [CompareControllerCore](class.CompareControllerCore)
+* [CompareControllerCore](class.CompareControllerCore.md)
 

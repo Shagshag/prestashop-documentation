@@ -6,7 +6,7 @@ Class AdminCartRulesControllerCore
 
 
 * Class name: AdminCartRulesControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminCartRulesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L30)
 
 
@@ -85,7 +85,7 @@ Methods
 
 
 #### Arguments
-* $currentObject **[ObjectModel](class.ObjectModelCore)**
+* $currentObject **[ObjectModel](class.ObjectModelCore.md)**
 
 
 
@@ -215,7 +215,7 @@ if available, and in the database if there is none
 
 
 #### Arguments
-* $cart_rule **[CartRule](class.CartRuleCore)**
+* $cart_rule **[CartRule](class.CartRuleCore.md)**
 
 
 

@@ -6,7 +6,7 @@ Class PackCore
 
 
 * Class name: PackCore
-* Parent class: [Product](class.ProductCore)
+* Parent class: [Product](class.ProductCore.md)
 * Source: [classes/Pack.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#L27)
 
 

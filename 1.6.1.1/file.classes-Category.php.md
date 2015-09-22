@@ -6,5 +6,5 @@ Source: [classes/Category.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [CategoryCore](class.CategoryCore)
+* [CategoryCore](class.CategoryCore.md)
 

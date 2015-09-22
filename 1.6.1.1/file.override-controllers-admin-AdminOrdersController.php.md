@@ -6,5 +6,5 @@ Source: [override/controllers/admin/AdminOrdersController.php](https://github.co
 Classes
 -------
 
-* [AdminOrdersController](class.AdminOrdersController)
+* [AdminOrdersController](class.AdminOrdersController.md)
 

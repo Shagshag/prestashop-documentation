@@ -6,5 +6,5 @@ Source: [classes/stock/StockMvtReason.php](https://github.com/PrestaShop/PrestaS
 Classes
 -------
 
-* [StockMvtReasonCore](class.StockMvtReasonCore)
+* [StockMvtReasonCore](class.StockMvtReasonCore.md)
 

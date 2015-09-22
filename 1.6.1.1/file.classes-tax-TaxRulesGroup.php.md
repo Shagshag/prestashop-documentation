@@ -6,5 +6,5 @@ Source: [classes/tax/TaxRulesGroup.php](https://github.com/PrestaShop/PrestaShop
 Classes
 -------
 
-* [TaxRulesGroupCore](class.TaxRulesGroupCore)
+* [TaxRulesGroupCore](class.TaxRulesGroupCore.md)
 

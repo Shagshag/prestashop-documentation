@@ -6,7 +6,7 @@ Class PdfOrderSlipControllerCore
 
 
 * Class name: PdfOrderSlipControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/PdfOrderSlipController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#L27)
 
 

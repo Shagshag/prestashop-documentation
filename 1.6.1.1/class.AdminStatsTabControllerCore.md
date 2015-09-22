@@ -7,7 +7,7 @@ Class AdminStatsTabControllerCore
 
 * Class name: AdminStatsTabControllerCore
 * This is an **abstract** class
-* Parent class: [AdminPreferencesControllerCore](class.AdminPreferencesControllerCore)
+* Parent class: [AdminPreferencesControllerCore](class.AdminPreferencesControllerCore.md)
 * Source: [controllers/admin/AdminStatsTabController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L27)
 
 
@@ -52,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined by [AdminPreferencesControllerCore](class.AdminPreferencesControllerCore)
+* This property is defined by [AdminPreferencesControllerCore](class.AdminPreferencesControllerCore.md)
 * Source: [controllers/admin/AdminStatsTabController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L30)
 
 

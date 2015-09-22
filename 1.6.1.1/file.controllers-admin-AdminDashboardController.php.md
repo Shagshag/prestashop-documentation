@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminDashboardController.php](https://github.com/Pres
 Classes
 -------
 
-* [AdminDashboardControllerCore](class.AdminDashboardControllerCore)
+* [AdminDashboardControllerCore](class.AdminDashboardControllerCore.md)
 

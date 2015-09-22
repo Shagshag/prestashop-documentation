@@ -6,5 +6,5 @@ Source: [classes/Group.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.
 Classes
 -------
 
-* [GroupCore](class.GroupCore)
+* [GroupCore](class.GroupCore.md)
 

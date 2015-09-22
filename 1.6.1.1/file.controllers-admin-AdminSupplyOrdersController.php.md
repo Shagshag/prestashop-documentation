@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminSupplyOrdersController.php](https://github.com/P
 Classes
 -------
 
-* [AdminSupplyOrdersControllerCore](class.AdminSupplyOrdersControllerCore)
+* [AdminSupplyOrdersControllerCore](class.AdminSupplyOrdersControllerCore.md)
 

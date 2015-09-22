@@ -6,7 +6,7 @@ Class CartRuleCore
 
 
 * Class name: CartRuleCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/CartRule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#L27)
 
 Constants
@@ -644,7 +644,7 @@ Methods
 
 
 #### Arguments
-* $context **[Context](class.ContextCore)|null**
+* $context **[Context](class.ContextCore.md)|null**
 
 
 
@@ -697,7 +697,7 @@ Methods
 
 
 #### Arguments
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 * $return_products **mixed**
 * $display_error **mixed**
 * $already_in_cart **mixed**
@@ -717,7 +717,7 @@ Check if this cart rule can be applied
 
 
 #### Arguments
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 * $alreadyInCart **boolean** - Check if the voucher is already on the cart
 * $display_error **boolean** - Display error
 * $check_carrier **mixed**
@@ -885,7 +885,7 @@ The reduction value is POSITIVE
 
 #### Arguments
 * $use_tax **boolean**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 * $filter **mixed**
 * $package **mixed**
 * $use_cache **boolean** - Allow using cache to avoid multiple free gift using multishipping
@@ -911,7 +911,7 @@ The reduction value is POSITIVE
 * $active **boolean**
 * $includeGeneric **boolean**
 * $inStock **boolean**
-* $cart **[Cart](class.CartCore)|null**
+* $cart **[Cart](class.CartCore.md)|null**
 * $free_shipping_only **boolean**
 * $highlight_only **boolean**
 

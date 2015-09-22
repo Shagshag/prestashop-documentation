@@ -6,5 +6,5 @@ Source: [classes/PaymentCC.php](https://github.com/PrestaShop/PrestaShop/blob/1.
 Classes
 -------
 
-* [PaymentCCCore](class.PaymentCCCore)
+* [PaymentCCCore](class.PaymentCCCore.md)
 

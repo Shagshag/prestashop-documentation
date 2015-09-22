@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminTabsController.php](https://github.com/PrestaSho
 Classes
 -------
 
-* [AdminTabsControllerCore](class.AdminTabsControllerCore)
+* [AdminTabsControllerCore](class.AdminTabsControllerCore.md)
 

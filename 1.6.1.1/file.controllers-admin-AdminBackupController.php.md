@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminBackupController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [AdminBackupControllerCore](class.AdminBackupControllerCore)
+* [AdminBackupControllerCore](class.AdminBackupControllerCore.md)
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminSearchEnginesController.php](https://github.com/
 Classes
 -------
 
-* [AdminSearchEnginesControllerCore](class.AdminSearchEnginesControllerCore)
+* [AdminSearchEnginesControllerCore](class.AdminSearchEnginesControllerCore.md)
 

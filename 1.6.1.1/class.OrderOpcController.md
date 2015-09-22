@@ -9,7 +9,7 @@ needs please refer to http://doc.prestashop.com/display/PS15/Overriding+default+
 #Overridingdefaultbehaviors-Overridingamodule%27sbehavior for more information.
 
 * Class name: OrderOpcController
-* Parent class: [OrderOpcControllerCore](class.OrderOpcControllerCore)
+* Parent class: [OrderOpcControllerCore](class.OrderOpcControllerCore.md)
 * Source: [override/controllers/front/OrderOpcController.php line 16](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/front/OrderOpcController.php#L16)
 
 

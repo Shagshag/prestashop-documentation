@@ -6,7 +6,7 @@ Class AdminCmsCategoriesControllerCore
 
 
 * Class name: AdminCmsCategoriesControllerCore
-* Parent class: [AdminController](class.AdminControllerCore)
+* Parent class: [AdminController](class.AdminControllerCore.md)
 * Source: [controllers/admin/AdminCmsCategoriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L30)
 
 

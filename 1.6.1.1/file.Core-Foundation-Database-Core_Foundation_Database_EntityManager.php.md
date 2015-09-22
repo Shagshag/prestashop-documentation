@@ -6,5 +6,5 @@ Source: [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php](ht
 Classes
 -------
 
-* [Core_Foundation_Database_EntityManager](class.Core_Foundation_Database_EntityManager)
+* [Core_Foundation_Database_EntityManager](class.Core_Foundation_Database_EntityManager.md)
 

@@ -6,7 +6,7 @@ Class DbMySQLiCore
 
 
 * Class name: DbMySQLiCore
-* Parent class: [Db](class.DbCore)
+* Parent class: [Db](class.DbCore.md)
 * Source: [classes/db/DbMySQLi.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L32)
 
 

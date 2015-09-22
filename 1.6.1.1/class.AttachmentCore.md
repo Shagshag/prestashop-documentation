@@ -6,7 +6,7 @@ Class AttachmentCore
 
 
 * Class name: AttachmentCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Attachment.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L27)
 
 

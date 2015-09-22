@@ -6,5 +6,5 @@ Source: [classes/controller/ModuleFrontController.php](https://github.com/Presta
 Classes
 -------
 
-* [ModuleFrontControllerCore](class.ModuleFrontControllerCore)
+* [ModuleFrontControllerCore](class.ModuleFrontControllerCore.md)
 

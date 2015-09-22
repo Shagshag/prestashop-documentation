@@ -6,5 +6,5 @@ Source: [controllers/front/OrderDetailController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [OrderDetailControllerCore](class.OrderDetailControllerCore)
+* [OrderDetailControllerCore](class.OrderDetailControllerCore.md)
 

@@ -335,7 +335,7 @@ Note: the new image filesystem stores product images in subdirectories of img/p/
 
 #### Arguments
 * $id_lang **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 * $id_shop **mixed**
 
 
@@ -354,7 +354,7 @@ Create link after language change, for the change language block
 
 #### Arguments
 * $id_lang **integer** - Language ID
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

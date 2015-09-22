@@ -6,7 +6,7 @@ Class OrderDetailControllerCore
 
 
 * Class name: OrderDetailControllerCore
-* Parent class: [FrontController](class.FrontControllerCore)
+* Parent class: [FrontController](class.FrontControllerCore.md)
 * Source: [controllers/front/OrderDetailController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#L27)
 
 

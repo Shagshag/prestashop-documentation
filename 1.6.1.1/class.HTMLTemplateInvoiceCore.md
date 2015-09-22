@@ -6,7 +6,7 @@ Class HTMLTemplateInvoiceCore
 
 
 * Class name: HTMLTemplateInvoiceCore
-* Parent class: [HTMLTemplate](class.HTMLTemplateCore)
+* Parent class: [HTMLTemplate](class.HTMLTemplateCore.md)
 * Source: [classes/pdf/HTMLTemplateInvoice.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#L30)
 
 
@@ -90,7 +90,7 @@ Methods
 
 
 #### Arguments
-* $order_invoice **[OrderInvoice](class.OrderInvoiceCore)**
+* $order_invoice **[OrderInvoice](class.OrderInvoiceCore.md)**
 * $smarty **mixed**
 * $bulk_mode **mixed**
 

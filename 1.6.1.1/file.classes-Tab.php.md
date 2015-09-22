@@ -6,5 +6,5 @@ Source: [classes/Tab.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/
 Classes
 -------
 
-* [TabCore](class.TabCore)
+* [TabCore](class.TabCore.md)
 

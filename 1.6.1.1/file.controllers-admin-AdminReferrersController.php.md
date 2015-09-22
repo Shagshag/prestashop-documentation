@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminReferrersController.php](https://github.com/Pres
 Classes
 -------
 
-* [AdminReferrersControllerCore](class.AdminReferrersControllerCore)
+* [AdminReferrersControllerCore](class.AdminReferrersControllerCore.md)
 

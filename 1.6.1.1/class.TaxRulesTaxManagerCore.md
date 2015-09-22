@@ -7,7 +7,7 @@ Class TaxRulesTaxManagerCore
 
 * Class name: TaxRulesTaxManagerCore
 * Source: [classes/tax/TaxRulesTaxManager.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#L30)
-* This class implements: [TaxManagerInterface](interface.TaxManagerInterface)
+* This class implements: [TaxManagerInterface](interface.TaxManagerInterface.md)
 
 
 Properties
@@ -96,7 +96,7 @@ Methods
 
 
 #### Arguments
-* $address **[Address](class.AddressCore)**
+* $address **[Address](class.AddressCore.md)**
 * $type **mixed** - An additional parameter for the tax manager (ex: tax rules id for TaxRuleTaxManager)
 * $configurationManager **Core_Business_ConfigurationInterface**
 
@@ -130,6 +130,6 @@ Returns true if this tax manager is available for this address
 
 
 #### Arguments
-* $address **[Address](class.AddressCore)**
+* $address **[Address](class.AddressCore.md)**
 
 

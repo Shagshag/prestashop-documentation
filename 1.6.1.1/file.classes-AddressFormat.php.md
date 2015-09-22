@@ -6,5 +6,5 @@ Source: [classes/AddressFormat.php](https://github.com/PrestaShop/PrestaShop/blo
 Classes
 -------
 
-* [AddressFormatCore](class.AddressFormatCore)
+* [AddressFormatCore](class.AddressFormatCore.md)
 

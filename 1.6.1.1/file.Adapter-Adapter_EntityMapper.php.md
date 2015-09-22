@@ -6,5 +6,5 @@ Source: [Adapter/Adapter_EntityMapper.php](https://github.com/PrestaShop/PrestaS
 Classes
 -------
 
-* [Adapter_EntityMapper](class.Adapter_EntityMapper)
+* [Adapter_EntityMapper](class.Adapter_EntityMapper.md)
 

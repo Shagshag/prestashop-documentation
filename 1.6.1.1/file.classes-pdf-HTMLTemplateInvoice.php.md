@@ -6,5 +6,5 @@ Source: [classes/pdf/HTMLTemplateInvoice.php](https://github.com/PrestaShop/Pres
 Classes
 -------
 
-* [HTMLTemplateInvoiceCore](class.HTMLTemplateInvoiceCore)
+* [HTMLTemplateInvoiceCore](class.HTMLTemplateInvoiceCore.md)
 

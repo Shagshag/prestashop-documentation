@@ -6,7 +6,7 @@ Class CurrencyCore
 
 
 * Class name: CurrencyCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Currency.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L27)
 
 
@@ -680,7 +680,7 @@ The XML file define exchange rate for each from a default currency ($isoCodeSour
 #### Arguments
 * $data **SimpleXMLElement** - XML content which contains all the exchange rates
 * $isoCodeSource **string** - The default currency used in the XML file
-* $defaultCurrency **[Currency](class.CurrencyCore)** - The default currency object
+* $defaultCurrency **[Currency](class.CurrencyCore.md)** - The default currency object
 
 
 

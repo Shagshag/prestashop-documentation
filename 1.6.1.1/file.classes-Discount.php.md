@@ -6,5 +6,5 @@ Source: [classes/Discount.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [DiscountCore](class.DiscountCore)
+* [DiscountCore](class.DiscountCore.md)
 

@@ -6,7 +6,7 @@ Class CarrierCore
 
 
 * Class name: CarrierCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Carrier.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L27)
 
 Constants
@@ -856,11 +856,11 @@ For a given {product, warehouse}, gets the carrier available
 
 
 #### Arguments
-* $product **[Product](class.ProductCore)** - The id of the product, or an array with at least the package size and weight
+* $product **[Product](class.ProductCore.md)** - The id of the product, or an array with at least the package size and weight
 * $id_warehouse **mixed**
 * $id_address_delivery **integer**
 * $id_shop **integer**
-* $cart **[Cart](class.CartCore)**
+* $cart **[Cart](class.CartCore.md)**
 * $error **mixed**
 
 
@@ -1080,7 +1080,7 @@ Gets the highest carrier position
 
 
 #### Arguments
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -1099,7 +1099,7 @@ Gets the highest carrier position
 
 #### Arguments
 * $id_carrier **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -1227,7 +1227,7 @@ Returns the taxes calculator associated to the carrier
 
 
 #### Arguments
-* $address **[Address](class.AddressCore)**
+* $address **[Address](class.AddressCore.md)**
 * $id_order **mixed**
 * $use_average_tax_of_products **mixed**
 
@@ -1246,7 +1246,7 @@ Returns the taxes rate associated to the carrier
 
 
 #### Arguments
-* $address **[Address](class.AddressCore)**
+* $address **[Address](class.AddressCore.md)**
 
 
 

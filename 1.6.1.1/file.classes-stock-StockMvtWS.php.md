@@ -6,5 +6,5 @@ Source: [classes/stock/StockMvtWS.php](https://github.com/PrestaShop/PrestaShop/
 Classes
 -------
 
-* [StockMvtWSCore](class.StockMvtWSCore)
+* [StockMvtWSCore](class.StockMvtWSCore.md)
 

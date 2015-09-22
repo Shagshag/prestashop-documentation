@@ -6,5 +6,5 @@ Source: [Core/Business/Payment/Core_Business_Payment_PaymentOption.php](https://
 Classes
 -------
 
-* [Core_Business_Payment_PaymentOption](class.Core_Business_Payment_PaymentOption)
+* [Core_Business_Payment_PaymentOption](class.Core_Business_Payment_PaymentOption.md)
 

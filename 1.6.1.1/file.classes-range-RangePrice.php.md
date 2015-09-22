@@ -6,5 +6,5 @@ Source: [classes/range/RangePrice.php](https://github.com/PrestaShop/PrestaShop/
 Classes
 -------
 
-* [RangePriceCore](class.RangePriceCore)
+* [RangePriceCore](class.RangePriceCore.md)
 

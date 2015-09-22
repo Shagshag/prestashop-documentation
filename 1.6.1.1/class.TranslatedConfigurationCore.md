@@ -6,7 +6,7 @@ Class TranslatedConfigurationCore
 
 
 * Class name: TranslatedConfigurationCore
-* Parent class: [Configuration](class.ConfigurationCore)
+* Parent class: [Configuration](class.ConfigurationCore.md)
 * Source: [classes/TranslatedConfiguration.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L27)
 
 

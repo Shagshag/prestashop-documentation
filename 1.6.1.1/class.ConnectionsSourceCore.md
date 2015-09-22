@@ -6,7 +6,7 @@ Class ConnectionsSourceCore
 
 
 * Class name: ConnectionsSourceCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/ConnectionsSource.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#L27)
 
 
@@ -175,6 +175,6 @@ Methods
 
 
 #### Arguments
-* $cookie **[Cookie](class.CookieCore)**
+* $cookie **[Cookie](class.CookieCore.md)**
 
 

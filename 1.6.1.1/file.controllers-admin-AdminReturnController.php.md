@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminReturnController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [AdminReturnControllerCore](class.AdminReturnControllerCore)
+* [AdminReturnControllerCore](class.AdminReturnControllerCore.md)
 

@@ -6,5 +6,5 @@ Source: [controllers/front/SearchController.php](https://github.com/PrestaShop/P
 Classes
 -------
 
-* [SearchControllerCore](class.SearchControllerCore)
+* [SearchControllerCore](class.SearchControllerCore.md)
 

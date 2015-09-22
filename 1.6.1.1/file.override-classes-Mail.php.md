@@ -6,5 +6,5 @@ Source: [override/classes/Mail.php](https://github.com/PrestaShop/PrestaShop/blo
 Classes
 -------
 
-* [Mail](class.Mail)
+* [Mail](class.Mail.md)
 

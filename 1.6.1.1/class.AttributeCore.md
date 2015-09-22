@@ -6,7 +6,7 @@ Class AttributeCore
 
 
 * Class name: AttributeCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Attribute.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L27)
 
 
@@ -202,7 +202,7 @@ Check if quantity is enough to deserve customer
 #### Arguments
 * $id_product_attribute **integer** - Product attribute combination id
 * $qty **integer** - Quantity needed
-* $shop **[Shop](class.ShopCore)**
+* $shop **[Shop](class.ShopCore.md)**
 
 
 

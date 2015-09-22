@@ -6,5 +6,5 @@ Source: [classes/Alias.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.
 Classes
 -------
 
-* [AliasCore](class.AliasCore)
+* [AliasCore](class.AliasCore.md)
 

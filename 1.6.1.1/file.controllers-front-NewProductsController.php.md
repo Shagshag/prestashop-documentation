@@ -6,5 +6,5 @@ Source: [controllers/front/NewProductsController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [NewProductsControllerCore](class.NewProductsControllerCore)
+* [NewProductsControllerCore](class.NewProductsControllerCore.md)
 

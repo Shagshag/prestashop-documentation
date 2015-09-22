@@ -6,7 +6,7 @@ Class BlowfishCore
 
 
 * Class name: BlowfishCore
-* Parent class: [Crypt_Blowfish](class.Crypt_Blowfish)
+* Parent class: [Crypt_Blowfish](class.Crypt_Blowfish.md)
 * Source: [classes/Blowfish.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#L30)
 
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminAddonsCatalogController.php](https://github.com/
 Classes
 -------
 
-* [AdminAddonsCatalogControllerCore](class.AdminAddonsCatalogControllerCore)
+* [AdminAddonsCatalogControllerCore](class.AdminAddonsCatalogControllerCore.md)
 

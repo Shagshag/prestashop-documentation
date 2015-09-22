@@ -6,7 +6,7 @@ Class OrderControllerCore
 
 
 * Class name: OrderControllerCore
-* Parent class: [ParentOrderController](class.ParentOrderControllerCore)
+* Parent class: [ParentOrderController](class.ParentOrderControllerCore.md)
 * Source: [controllers/front/OrderController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L27)
 
 Constants

@@ -6,7 +6,7 @@ Class HelperViewCore
 
 
 * Class name: HelperViewCore
-* Parent class: [Helper](class.HelperCore)
+* Parent class: [Helper](class.HelperCore.md)
 * Source: [classes/helper/HelperView.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L27)
 
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminCategoriesController.php](https://github.com/Pre
 Classes
 -------
 
-* [AdminCategoriesControllerCore](class.AdminCategoriesControllerCore)
+* [AdminCategoriesControllerCore](class.AdminCategoriesControllerCore.md)
 

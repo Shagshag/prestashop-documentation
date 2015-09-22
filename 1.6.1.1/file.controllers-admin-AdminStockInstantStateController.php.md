@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminStockInstantStateController.php](https://github.
 Classes
 -------
 
-* [AdminStockInstantStateControllerCore](class.AdminStockInstantStateControllerCore)
+* [AdminStockInstantStateControllerCore](class.AdminStockInstantStateControllerCore.md)
 

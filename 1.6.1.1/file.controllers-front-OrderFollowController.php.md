@@ -6,5 +6,5 @@ Source: [controllers/front/OrderFollowController.php](https://github.com/PrestaS
 Classes
 -------
 
-* [OrderFollowControllerCore](class.OrderFollowControllerCore)
+* [OrderFollowControllerCore](class.OrderFollowControllerCore.md)
 

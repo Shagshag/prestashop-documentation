@@ -6,5 +6,5 @@ Source: [classes/CompareProduct.php](https://github.com/PrestaShop/PrestaShop/bl
 Classes
 -------
 
-* [CompareProductCore](class.CompareProductCore)
+* [CompareProductCore](class.CompareProductCore.md)
 

@@ -6,5 +6,5 @@ Source: [classes/Uploader.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [UploaderCore](class.UploaderCore)
+* [UploaderCore](class.UploaderCore.md)
 

@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminCarrierWizardController.php](https://github.com/
 Classes
 -------
 
-* [AdminCarrierWizardControllerCore](class.AdminCarrierWizardControllerCore)
+* [AdminCarrierWizardControllerCore](class.AdminCarrierWizardControllerCore.md)
 

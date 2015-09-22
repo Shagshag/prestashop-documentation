@@ -6,7 +6,7 @@ Class ProductCore
 
 
 * Class name: ProductCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Product.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#L36)
 
 Constants
@@ -1372,7 +1372,7 @@ Methods
 * $full **mixed**
 * $id_lang **mixed**
 * $id_shop **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -1479,7 +1479,7 @@ Get product attribute image associations
 #### Arguments
 * $beginning **mixed**
 * $ending **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 * $with_combination **mixed**
 
 
@@ -1963,7 +1963,7 @@ Check product availability
 #### Arguments
 * $price **mixed**
 * $currency **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3092,7 +3092,7 @@ Get product cover image
 
 #### Arguments
 * $id_product **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3333,7 +3333,7 @@ For a given ean13 reference, returns the corresponding id
 
 #### Arguments
 * $id_product **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3366,7 +3366,7 @@ Get product images and legends
 
 #### Arguments
 * $id_lang **integer** - Language id for multilingual legends
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3383,7 +3383,7 @@ Get the link of the product page of this product
 
 
 #### Arguments
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3407,7 +3407,7 @@ Get new products
 * $count **mixed**
 * $order_by **mixed**
 * $order_way **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3501,7 +3501,7 @@ Returns product price
                                        this variable is filled with the corresponding SpecificPrice object
 * $with_ecotax **boolean** - Insert ecotax in price output.
 * $use_group_reduction **boolean**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 * $use_customer_price **boolean**
 
 
@@ -3547,7 +3547,7 @@ Get prices drop
 * $order_way **mixed**
 * $beginning **mixed**
 * $ending **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3661,7 +3661,7 @@ Gets the name of a given product, in the given lang
 #### Arguments
 * $id_lang **mixed**
 * $row **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3686,7 +3686,7 @@ Get all available products
 * $order_way **string** - Way for ordering (ASC or DESC)
 * $id_category **mixed**
 * $only_active **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3769,7 +3769,7 @@ Get a random special
 * $id_lang **integer** - Language id
 * $beginning **mixed**
 * $ending **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3859,7 +3859,7 @@ For a given product, returns its real quantity
 
 #### Arguments
 * $id_lang **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3930,7 +3930,7 @@ For a given product, returns its real quantity
 
 #### Arguments
 * $row **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -3947,7 +3947,7 @@ Returns tax rate.
 
 
 #### Arguments
-* $address **[Address](class.AddressCore)|null**
+* $address **[Address](class.AddressCore.md)|null**
 
 
 
@@ -4178,7 +4178,7 @@ Webservice getter : get product option ids of current product for association
 
 
 #### Arguments
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -4299,7 +4299,7 @@ Checks if the product is in at least one of the submited categories
 #### Arguments
 * $id_product **mixed**
 * $quantity **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -4398,7 +4398,7 @@ Price calculation / Get product price
 #### Arguments
 * $attributes_list **mixed**
 * $current_product_attribute **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 * $all_shops **mixed**
 * $return_id **mixed**
 
@@ -4450,7 +4450,7 @@ Admin panel product search
 #### Arguments
 * $id_lang **integer** - Language id
 * $query **string** - Search query
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -4742,7 +4742,7 @@ Create JOIN query with 'stock_available' table
 * $product_alias **mixed**
 * $product_attribute **mixed**
 * $inner_join **mixed**
-* $shop **[Shop](class.ShopCore)**
+* $shop **[Shop](class.ShopCore.md)**
 
 
 

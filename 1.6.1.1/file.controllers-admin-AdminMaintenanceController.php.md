@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminMaintenanceController.php](https://github.com/Pr
 Classes
 -------
 
-* [AdminMaintenanceControllerCore](class.AdminMaintenanceControllerCore)
+* [AdminMaintenanceControllerCore](class.AdminMaintenanceControllerCore.md)
 

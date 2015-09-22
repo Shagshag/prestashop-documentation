@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminCustomersController.php](https://github.com/Pres
 Classes
 -------
 
-* [AdminCustomersControllerCore](class.AdminCustomersControllerCore)
+* [AdminCustomersControllerCore](class.AdminCustomersControllerCore.md)
 

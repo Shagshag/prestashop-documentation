@@ -6,5 +6,5 @@ Source: [classes/controller/Controller.php](https://github.com/PrestaShop/Presta
 Classes
 -------
 
-* [ControllerCore](class.ControllerCore)
+* [ControllerCore](class.ControllerCore.md)
 

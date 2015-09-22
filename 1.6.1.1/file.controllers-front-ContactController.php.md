@@ -6,5 +6,5 @@ Source: [controllers/front/ContactController.php](https://github.com/PrestaShop/
 Classes
 -------
 
-* [ContactControllerCore](class.ContactControllerCore)
+* [ContactControllerCore](class.ContactControllerCore.md)
 

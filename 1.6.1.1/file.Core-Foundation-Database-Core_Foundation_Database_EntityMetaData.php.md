@@ -6,5 +6,5 @@ Source: [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php](h
 Classes
 -------
 
-* [Core_Foundation_Database_EntityMetaData](class.Core_Foundation_Database_EntityMetaData)
+* [Core_Foundation_Database_EntityMetaData](class.Core_Foundation_Database_EntityMetaData.md)
 

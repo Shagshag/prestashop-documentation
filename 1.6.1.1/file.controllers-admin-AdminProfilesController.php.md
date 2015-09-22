@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminProfilesController.php](https://github.com/Prest
 Classes
 -------
 
-* [AdminProfilesControllerCore](class.AdminProfilesControllerCore)
+* [AdminProfilesControllerCore](class.AdminProfilesControllerCore.md)
 

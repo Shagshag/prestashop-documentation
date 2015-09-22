@@ -6,5 +6,5 @@ Source: [classes/controller/FrontController.php](https://github.com/PrestaShop/P
 Classes
 -------
 
-* [FrontControllerCore](class.FrontControllerCore)
+* [FrontControllerCore](class.FrontControllerCore.md)
 

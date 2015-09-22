@@ -6,5 +6,5 @@ Source: [controllers/admin/AdminShopUrlController.php](https://github.com/Presta
 Classes
 -------
 
-* [AdminShopUrlControllerCore](class.AdminShopUrlControllerCore)
+* [AdminShopUrlControllerCore](class.AdminShopUrlControllerCore.md)
 

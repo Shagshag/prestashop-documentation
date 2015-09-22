@@ -6,5 +6,5 @@ Source: [classes/Translate.php](https://github.com/PrestaShop/PrestaShop/blob/1.
 Classes
 -------
 
-* [TranslateCore](class.TranslateCore)
+* [TranslateCore](class.TranslateCore.md)
 

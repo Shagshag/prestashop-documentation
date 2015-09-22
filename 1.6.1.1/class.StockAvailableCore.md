@@ -7,7 +7,7 @@ It is either synchronized with Stock or manualy set by the seller
 
 
 * Class name: StockAvailableCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/stock/StockAvailable.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L33)
 
 
@@ -217,8 +217,8 @@ Add an sql restriction for shops fields - specific to StockAvailable
 
 
 #### Arguments
-* $sql **[DbQuery](class.DbQueryCore)|string|null** - Reference to the query object
-* $shop **[Shop](class.ShopCore)|integer|null** - Optional : The shop ID
+* $sql **[DbQuery](class.DbQueryCore.md)|string|null** - Reference to the query object
+* $shop **[Shop](class.ShopCore.md)|integer|null** - Optional : The shop ID
 * $alias **string|null** - Optional : The current table alias
 
 
@@ -350,7 +350,7 @@ Removes a given product from the stock available
 #### Arguments
 * $id_product **integer**
 * $id_product_attribute **integer|null** - Optional
-* $shop **[Shop](class.ShopCore)|null** - Shop id or shop object Optional
+* $shop **[Shop](class.ShopCore.md)|null** - Shop id or shop object Optional
 
 
 
@@ -370,7 +370,7 @@ Else remove all available quantities for the current group
 
 
 #### Arguments
-* $shop_group **[ShopGroup](class.ShopGroupCore)** - the ShopGroup object
+* $shop_group **[ShopGroup](class.ShopGroupCore.md)** - the ShopGroup object
 
 
 

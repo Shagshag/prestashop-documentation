@@ -6,7 +6,7 @@ Class ThemeCore
 
 
 * Class name: ThemeCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Theme.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L27)
 
 Constants

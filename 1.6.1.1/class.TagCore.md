@@ -6,7 +6,7 @@ Class TagCore
 
 
 * Class name: TagCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/Tag.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L27)
 
 
@@ -218,7 +218,7 @@ Add several tags in database and link it to a product
 
 #### Arguments
 * $associated **mixed**
-* $context **[Context](class.ContextCore)**
+* $context **[Context](class.ContextCore.md)**
 
 
 

@@ -6,5 +6,5 @@ Source: [classes/Address.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.
 Classes
 -------
 
-* [AddressCore](class.AddressCore)
+* [AddressCore](class.AddressCore.md)
 

@@ -6,5 +6,5 @@ Source: [classes/pdf/PDF.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.
 Classes
 -------
 
-* [PDFCore](class.PDFCore)
+* [PDFCore](class.PDFCore.md)
 

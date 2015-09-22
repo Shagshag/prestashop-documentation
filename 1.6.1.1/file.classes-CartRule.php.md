@@ -6,5 +6,5 @@ Source: [classes/CartRule.php](https://github.com/PrestaShop/PrestaShop/blob/1.6
 Classes
 -------
 
-* [CartRuleCore](class.CartRuleCore)
+* [CartRuleCore](class.CartRuleCore.md)
 

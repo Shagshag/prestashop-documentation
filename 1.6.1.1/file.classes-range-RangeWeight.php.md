@@ -6,5 +6,5 @@ Source: [classes/range/RangeWeight.php](https://github.com/PrestaShop/PrestaShop
 Classes
 -------
 
-* [RangeWeightCore](class.RangeWeightCore)
+* [RangeWeightCore](class.RangeWeightCore.md)
 

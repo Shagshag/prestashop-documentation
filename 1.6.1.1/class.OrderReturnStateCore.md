@@ -6,7 +6,7 @@ Class OrderReturnStateCore
 
 
 * Class name: OrderReturnStateCore
-* Parent class: [ObjectModel](class.ObjectModelCore)
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
 * Source: [classes/order/OrderReturnState.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#L27)
 
 
