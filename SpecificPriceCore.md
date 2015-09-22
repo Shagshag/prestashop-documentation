@@ -8,7 +8,8 @@ SpecificPriceCore
 
 * Class name: SpecificPriceCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\SpecificPrice.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 29
 
 
 ### $id_specific_price_rule
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 30
 
 
 ### $id_cart
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 31
 
 
 ### $id_product_attribute
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 32
 
 
 ### $id_shop
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 33
 
 
 ### $id_shop_group
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 34
 
 
 ### $id_currency
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 35
 
 
 ### $id_country
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 36
 
 
 ### $id_group
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 37
 
 
 ### $id_customer
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 38
 
 
 ### $price
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 39
 
 
 ### $from_quantity
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 40
 
 
 ### $reduction
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 41
 
 
 ### $reduction_tax
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 42
 
 
 ### $reduction_type
@@ -181,6 +196,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 43
 
 
 ### $from
@@ -192,6 +208,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 44
 
 
 ### $to
@@ -203,6 +220,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPrice.php line 45
 
 
 ### $definition
@@ -215,6 +233,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\SpecificPrice.php line 50
 
 
 ### $webserviceParameters
@@ -226,6 +245,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\SpecificPrice.php line 74
 
 
 ### $_specificPriceCache
@@ -238,6 +258,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\SpecificPrice.php line 91
 
 
 ### $_cache_priorities
@@ -250,6 +271,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\SpecificPrice.php line 92
 
 
 Methods
@@ -265,6 +287,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\SpecificPrice.php line 94
 
 
 #### Arguments
@@ -282,6 +305,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\SpecificPrice.php line 107
 
 
 #### Arguments
@@ -298,6 +322,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\SpecificPrice.php line 118
 
 
 
@@ -312,6 +337,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 131
 
 
 #### Arguments
@@ -331,6 +357,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 141
 
 
 #### Arguments
@@ -350,6 +377,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 149
 
 
 #### Arguments
@@ -369,6 +397,7 @@ score generation for quantity discount
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 162
 
 
 #### Arguments
@@ -391,6 +420,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 176
 
 
 #### Arguments
@@ -408,6 +438,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 201
 
 
 #### Arguments
@@ -434,6 +465,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 241
 
 
 #### Arguments
@@ -451,6 +483,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 255
 
 
 
@@ -465,6 +498,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 262
 
 
 #### Arguments
@@ -483,6 +517,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 276
 
 
 #### Arguments
@@ -507,6 +542,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 323
 
 
 #### Arguments
@@ -531,6 +567,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 353
 
 
 #### Arguments
@@ -555,6 +592,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 384
 
 
 #### Arguments
@@ -571,6 +609,7 @@ score generation for quantity discount
 
 
 * Visibility: **public**
+* This method is defined in classes\SpecificPrice.php line 394
 
 
 #### Arguments
@@ -588,6 +627,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 408
 
 
 
@@ -602,6 +642,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPrice.php line 418
 
 
 #### Arguments

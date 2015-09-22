@@ -8,7 +8,8 @@ SpecificPriceRuleCore
 
 * Class name: SpecificPriceRuleCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\SpecificPriceRule.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPriceRule.php line 29
 
 
 ### $id_shop
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPriceRule.php line 30
 
 
 ### $id_currency
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPriceRule.php line 31
 
 
 ### $id_country
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPriceRule.php line 32
 
 
 ### $id_group
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPriceRule.php line 33
 
 
 ### $from_quantity
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPriceRule.php line 34
 
 
 ### $price
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPriceRule.php line 35
 
 
 ### $reduction
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPriceRule.php line 36
 
 
 ### $reduction_tax
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPriceRule.php line 37
 
 
 ### $reduction_type
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPriceRule.php line 38
 
 
 ### $from
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPriceRule.php line 39
 
 
 ### $to
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SpecificPriceRule.php line 40
 
 
 ### $rules_application_enable
@@ -160,6 +173,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\SpecificPriceRule.php line 42
 
 
 ### $definition
@@ -172,6 +186,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\SpecificPriceRule.php line 47
 
 
 ### $webserviceParameters
@@ -183,6 +198,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\SpecificPriceRule.php line 66
 
 
 Methods
@@ -198,6 +214,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\SpecificPriceRule.php line 77
 
 
 
@@ -211,6 +228,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\SpecificPriceRule.php line 84
 
 
 
@@ -225,6 +243,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPriceRule.php line 97
 
 
 
@@ -239,6 +258,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPriceRule.php line 102
 
 
 
@@ -252,6 +272,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\SpecificPriceRule.php line 107
 
 
 #### Arguments
@@ -268,6 +289,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\SpecificPriceRule.php line 133
 
 
 #### Arguments
@@ -284,6 +306,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\SpecificPriceRule.php line 146
 
 
 #### Arguments
@@ -301,6 +324,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPriceRule.php line 158
 
 
 #### Arguments
@@ -317,6 +341,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\SpecificPriceRule.php line 171
 
 
 
@@ -330,6 +355,7 @@ Return the product list affected by this specific rule.
 
 
 * Visibility: **public**
+* This method is defined in classes\SpecificPriceRule.php line 205
 
 
 #### Arguments
@@ -347,6 +373,7 @@ Return the product list affected by this specific rule.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\SpecificPriceRule.php line 288
 
 
 #### Arguments

@@ -8,7 +8,8 @@ AdminOrdersControllerCore
 
 * Class name: AdminOrdersControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminOrdersController.php line 41
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminOrdersController.php line 43
 
 
 ### $statuses_array
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminOrdersController.php line 45
 
 
 ### $object
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminOrdersController.php line 41
 
 
 Methods
@@ -64,6 +68,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 47
 
 
 
@@ -78,6 +83,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminOrdersController.php line 199
 
 
 #### Arguments
@@ -95,6 +101,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 205
 
 
 
@@ -108,6 +115,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 227
 
 
 
@@ -121,6 +129,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 277
 
 
 
@@ -134,6 +143,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 333
 
 
 
@@ -147,6 +157,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 348
 
 
 #### Arguments
@@ -164,6 +175,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 373
 
 
 #### Arguments
@@ -181,6 +193,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 378
 
 
 
@@ -194,6 +207,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 434
 
 
 
@@ -207,6 +221,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 450
 
 
 
@@ -220,6 +235,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 1528
 
 
 
@@ -233,6 +249,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 1597
 
 
 
@@ -246,6 +263,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 1792
 
 
 
@@ -259,6 +277,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 1871
 
 
 
@@ -272,6 +291,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 1893
 
 
 
@@ -285,10 +305,11 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 2227
 
 
 #### Arguments
-* $order **Order**
+* $order **[Order](OrderCore)**
 
 
 
@@ -301,6 +322,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 2236
 
 
 
@@ -314,6 +336,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 2272
 
 
 
@@ -327,6 +350,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 2463
 
 
 
@@ -340,12 +364,13 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminOrdersController.php line 2542
 
 
 #### Arguments
-* $order_detail **OrderDetail**
-* $order **Order**
-* $order_invoice **OrderInvoice**
+* $order_detail **[OrderDetail](OrderDetailCore)**
+* $order **[Order](OrderCore)**
+* $order_invoice **[OrderInvoice](OrderInvoiceCore)**
 
 
 
@@ -358,11 +383,12 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminOrdersController.php line 2615
 
 
 #### Arguments
-* $order_detail **OrderDetail**
-* $order **Order**
+* $order_detail **[OrderDetail](OrderDetailCore)**
+* $order **[Order](OrderCore)**
 
 
 
@@ -375,10 +401,11 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminOrdersController.php line 2651
 
 
 #### Arguments
-* $order **Order**
+* $order **[Order](OrderCore)**
 
 
 
@@ -391,10 +418,11 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminOrdersController.php line 2678
 
 
 #### Arguments
-* $order_detail **OrderDetail**
+* $order_detail **[OrderDetail](OrderDetailCore)**
 * $qty_cancel_product **integer**
 * $delete **boolean**
 
@@ -409,10 +437,11 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminOrdersController.php line 2773
 
 
 #### Arguments
-* $order_invoice **OrderInvoice**
+* $order_invoice **[OrderInvoice](OrderInvoiceCore)**
 * $value_tax_incl **float**
 * $value_tax_excl **float**
 
@@ -427,6 +456,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOrdersController.php line 2783
 
 
 

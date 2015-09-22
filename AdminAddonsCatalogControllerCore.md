@@ -8,7 +8,8 @@ AdminAddonsCatalogControllerCore
 
 * Class name: AdminAddonsCatalogControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminAddonsCatalogController.php line 27
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAddonsCatalogController.php line 29
 
 
 
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAddonsCatalogController.php line 35
 
 
 

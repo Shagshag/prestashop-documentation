@@ -8,7 +8,8 @@ AdminOutstandingControllerCore
 
 * Class name: AdminOutstandingControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminOutstandingController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminOutstandingController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOutstandingController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Toolbar initialisation
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOutstandingController.php line 119
 
 
 
@@ -68,6 +72,7 @@ Column callback for print PDF incon
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOutstandingController.php line 130
 
 
 #### Arguments
@@ -85,6 +90,7 @@ Column callback for print PDF incon
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOutstandingController.php line 139
 
 
 #### Arguments
@@ -102,6 +108,7 @@ View render
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminOutstandingController.php line 161
 
 
 

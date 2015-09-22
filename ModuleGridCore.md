@@ -9,7 +9,8 @@ ModuleGridCore
 * Class name: ModuleGridCore
 * Namespace: 
 * This is an **abstract** class
-* Parent class: Module
+* Parent class: [Module](ModuleCore)
+* This class is defined in classes\module\ModuleGrid.php line 27
 
 
 
@@ -28,6 +29,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGrid.php line 29
 
 
 ### $_values
@@ -39,6 +41,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGrid.php line 32
 
 
 ### $_totalCount
@@ -50,6 +53,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGrid.php line 35
 
 
 ### $_title
@@ -61,6 +65,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGrid.php line 38
 
 
 ### $_start
@@ -72,6 +77,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGrid.php line 41
 
 
 ### $_limit
@@ -83,6 +89,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGrid.php line 44
 
 
 ### $_sort
@@ -94,6 +101,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGrid.php line 47
 
 
 ### $_direction
@@ -105,6 +113,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGrid.php line 50
 
 
 ### $_render
@@ -116,6 +125,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGrid.php line 53
 
 
 Methods
@@ -132,6 +142,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **abstract**.
+* This method is defined in classes\module\ModuleGrid.php line 55
 
 
 
@@ -145,6 +156,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGrid.php line 57
 
 
 #### Arguments
@@ -161,6 +173,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGrid.php line 62
 
 
 #### Arguments
@@ -177,6 +190,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGrid.php line 67
 
 
 #### Arguments
@@ -200,6 +214,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGrid.php line 92
 
 
 
@@ -213,6 +228,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGrid.php line 97
 
 
 #### Arguments
@@ -229,6 +245,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\ModuleGrid.php line 153
 
 
 #### Arguments
@@ -245,6 +262,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\ModuleGrid.php line 181
 
 
 
@@ -258,6 +276,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGrid.php line 192
 
 
 
@@ -271,6 +290,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGrid.php line 197
 
 
 

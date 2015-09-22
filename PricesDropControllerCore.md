@@ -8,7 +8,8 @@ PricesDropControllerCore
 
 * Class name: PricesDropControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\PricesDropController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\PricesDropController.php line 29
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\PricesDropController.php line 31
 
 
 
@@ -55,6 +58,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\PricesDropController.php line 41
 
 
 

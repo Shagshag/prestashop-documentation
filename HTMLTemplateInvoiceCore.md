@@ -8,7 +8,8 @@ HTMLTemplateInvoiceCore
 
 * Class name: HTMLTemplateInvoiceCore
 * Namespace: 
-* Parent class: HTMLTemplate
+* Parent class: [HTMLTemplate](HTMLTemplateCore)
+* This class is defined in classes\pdf\HTMLTemplateInvoice.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateInvoice.php line 32
 
 
 ### $order_invoice
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateInvoice.php line 33
 
 
 ### $available_in_your_account
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateInvoice.php line 34
 
 
 Methods
@@ -64,10 +68,11 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 41
 
 
 #### Arguments
-* $order_invoice **OrderInvoice**
+* $order_invoice **[OrderInvoice](OrderInvoiceCore)**
 * $smarty **mixed**
 * $bulk_mode **mixed**
 
@@ -82,6 +87,7 @@ Returns the template's HTML header
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 71
 
 
 
@@ -95,6 +101,7 @@ Compute layout elements size
 
 
 * Visibility: **private**
+* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 86
 
 
 #### Arguments
@@ -111,6 +118,7 @@ Returns the template's HTML content
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 143
 
 
 
@@ -124,6 +132,7 @@ Returns the tax tab content
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 362
 
 
 
@@ -137,6 +146,7 @@ Returns different tax breakdown elements
 
 
 * Visibility: **protected**
+* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 402
 
 
 
@@ -150,6 +160,7 @@ Returns the invoice template associated to the country iso_code
 
 
 * Visibility: **protected**
+* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 464
 
 
 #### Arguments
@@ -166,6 +177,7 @@ Returns the template filename when using bulk rendering
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 484
 
 
 
@@ -179,6 +191,7 @@ Returns the template filename
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 494
 
 
 

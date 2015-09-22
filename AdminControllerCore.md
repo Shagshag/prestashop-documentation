@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: AdminControllerCore
 * Namespace: 
-* Parent class: Controller
+* Parent class: [Controller](ControllerCore)
+* This class is defined in classes\controller\AdminController.php line 27
 
 
 
@@ -41,6 +42,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 30
 
 
 ### $currentIndex
@@ -53,6 +55,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\controller\AdminController.php line 33
 
 
 ### $content
@@ -64,6 +67,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 36
 
 
 ### $warnings
@@ -75,6 +79,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 39
 
 
 ### $informations
@@ -86,6 +91,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 42
 
 
 ### $confirmations
@@ -97,6 +103,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 45
 
 
 ### $shopShareDatas
@@ -108,6 +115,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 48
 
 
 ### $_languages
@@ -119,6 +127,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 51
 
 
 ### $default_form_language
@@ -130,6 +139,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 54
 
 
 ### $allow_employee_form_lang
@@ -141,6 +151,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 57
 
 
 ### $layout
@@ -152,6 +163,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 60
 
 
 ### $bootstrap
@@ -163,6 +175,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 63
 
 
 ### $meta_title
@@ -174,6 +187,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 66
 
 
 ### $template
@@ -185,6 +199,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 69
 
 
 ### $table
@@ -196,6 +211,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 72
 
 
 ### $list_id
@@ -207,6 +223,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 75
 
 
 ### $identifier
@@ -218,6 +235,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 78
 
 
 ### $identifier_name
@@ -229,6 +247,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 81
 
 
 ### $className
@@ -240,6 +259,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 84
 
 
 ### $tabAccess
@@ -251,6 +271,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 87
 
 
 ### $id
@@ -262,6 +283,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 90
 
 
 ### $required_database
@@ -273,6 +295,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 93
 
 
 ### $token
@@ -284,6 +307,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 96
 
 
 ### $shopLinkType
@@ -295,6 +319,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 99
 
 
 ### $_defaultOrderBy
@@ -306,6 +331,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 102
 
 
 ### $_defaultOrderWay
@@ -317,6 +343,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 105
 
 
 ### $tpl_form_vars
@@ -328,6 +355,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 108
 
 
 ### $tpl_list_vars
@@ -339,6 +367,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 111
 
 
 ### $tpl_delete_link_vars
@@ -350,6 +379,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 114
 
 
 ### $tpl_option_vars
@@ -361,6 +391,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 117
 
 
 ### $tpl_view_vars
@@ -372,6 +403,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 120
 
 
 ### $tpl_required_fields_vars
@@ -383,6 +415,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 123
 
 
 ### $base_tpl_view
@@ -394,6 +427,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 126
 
 
 ### $base_tpl_form
@@ -405,6 +439,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 129
 
 
 ### $multiple_fieldsets
@@ -416,6 +451,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 132
 
 
 ### $fields_value
@@ -427,6 +463,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 135
 
 
 ### $errors
@@ -438,6 +475,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 138
 
 
 ### $list_simple_header
@@ -449,6 +487,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 141
 
 
 ### $fields_list
@@ -460,6 +499,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 144
 
 
 ### $filter_modules_list
@@ -471,6 +511,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 147
 
 
 ### $modules_list
@@ -482,6 +523,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 150
 
 
 ### $fields_form
@@ -493,6 +535,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 153
 
 
 ### $fields_form_override
@@ -504,6 +547,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 156
 
 
 ### $submit_action
@@ -515,6 +559,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 159
 
 
 ### $fields_options
@@ -526,6 +571,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 162
 
 
 ### $shopLink
@@ -537,6 +583,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 165
 
 
 ### $_listsql
@@ -548,6 +595,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 168
 
 
 ### $_list
@@ -559,6 +607,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 171
 
 
 ### $toolbar_title
@@ -570,6 +619,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 174
 
 
 ### $toolbar_btn
@@ -581,6 +631,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 177
 
 
 ### $toolbar_scroll
@@ -592,6 +643,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 180
 
 
 ### $show_toolbar
@@ -603,6 +655,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 183
 
 
 ### $show_toolbar_options
@@ -614,6 +667,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 186
 
 
 ### $_listTotal
@@ -625,6 +679,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 189
 
 
 ### $lang
@@ -636,6 +691,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 192
 
 
 ### $_filter
@@ -647,6 +703,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 195
 
 
 ### $_filterHaving
@@ -658,6 +715,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 198
 
 
 ### $_tmpTableFilter
@@ -669,6 +727,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 201
 
 
 ### $_pagination
@@ -680,6 +739,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 204
 
 
 ### $_default_pagination
@@ -691,6 +751,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 207
 
 
 ### $_orderBy
@@ -702,6 +763,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 210
 
 
 ### $_orderWay
@@ -713,6 +775,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 213
 
 
 ### $actions_available
@@ -724,6 +787,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 216
 
 
 ### $actions
@@ -735,6 +799,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 219
 
 
 ### $list_skip_actions
@@ -746,6 +811,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 222
 
 
 ### $lite_display
@@ -757,6 +823,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 225
 
 
 ### $list_no_link
@@ -768,6 +835,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 228
 
 
 ### $allow_export
@@ -779,6 +847,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 231
 
 
 ### $cache_lang
@@ -791,6 +860,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\controller\AdminController.php line 234
 
 
 ### $required_fields
@@ -802,6 +872,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 237
 
 
 ### $helper
@@ -813,6 +884,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 240
 
 
 ### $bulk_actions
@@ -833,6 +905,7 @@ array(
 If your action is named 'actionName', you need to have a method named bulkactionName() that will be executed when the button is clicked.
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 258
 
 
 ### $boxes
@@ -844,6 +917,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 261
 
 
 ### $explicitSelect
@@ -855,6 +929,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 264
 
 
 ### $_select
@@ -866,6 +941,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 267
 
 
 ### $_join
@@ -877,6 +953,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 270
 
 
 ### $_where
@@ -888,6 +965,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 273
 
 
 ### $_group
@@ -899,6 +977,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 276
 
 
 ### $_having
@@ -910,6 +989,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 279
 
 
 ### $_use_found_rows
@@ -921,6 +1001,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 282
 
 
 ### $is_cms
@@ -932,6 +1013,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 285
 
 
 ### $position_identifier
@@ -943,6 +1025,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 288
 
 
 ### $position_group_identifier
@@ -954,6 +1037,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 291
 
 
 ### $deleted
@@ -965,6 +1049,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 294
 
 
 ### $filter
@@ -976,6 +1061,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 297
 
 
 ### $noLink
@@ -987,6 +1073,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 300
 
 
 ### $specificConfirmDelete
@@ -998,6 +1085,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 303
 
 
 ### $colorOnBackground
@@ -1009,6 +1097,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 306
 
 
 ### $row_hover
@@ -1020,6 +1109,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 309
 
 
 ### $action
@@ -1031,6 +1121,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 312
 
 
 ### $display
@@ -1042,6 +1133,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 315
 
 
 ### $_includeContainer
@@ -1053,6 +1145,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 318
 
 
 ### $tab_modules_list
@@ -1064,6 +1157,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 321
 
 
 ### $tpl_folder
@@ -1075,6 +1169,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 324
 
 
 ### $bo_theme
@@ -1086,6 +1181,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 327
 
 
 ### $_redirect
@@ -1097,6 +1193,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 330
 
 
 ### $fieldImageSettings
@@ -1108,6 +1205,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 333
 
 
 ### $imageType
@@ -1119,6 +1217,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 336
 
 
 ### $object
@@ -1130,6 +1229,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 339
 
 
 ### $id_object
@@ -1141,6 +1241,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 342
 
 
 ### $controller_name
@@ -1152,6 +1253,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 345
 
 
 ### $multishop_context
@@ -1163,6 +1265,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 348
 
 
 ### $multishop_context_group
@@ -1174,6 +1277,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 351
 
 
 ### $breadcrumbs
@@ -1185,6 +1289,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 354
 
 
 ### $show_page_header_toolbar
@@ -1196,6 +1301,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 357
 
 
 ### $page_header_toolbar_title
@@ -1207,6 +1313,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 360
 
 
 ### $page_header_toolbar_btn
@@ -1218,6 +1325,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 363
 
 
 ### $show_form_cancel_button
@@ -1229,6 +1337,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 366
 
 
 ### $admin_webpath
@@ -1240,6 +1349,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 369
 
 
 ### $list_natives_modules
@@ -1251,6 +1361,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 372
 
 
 ### $list_partners_modules
@@ -1262,6 +1373,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 375
 
 
 ### $modals
@@ -1273,6 +1385,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\AdminController.php line 378
 
 
 ### $logged_on_addons
@@ -1284,6 +1397,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 381
 
 
 ### $can_import
@@ -1295,6 +1409,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 384
 
 
 ### $is_prestashop_up
@@ -1307,6 +1422,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\controller\AdminController.php line 3976
 
 
 ### $translationsTab
@@ -1318,6 +1434,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\AdminController.php line 4038
 
 
 Methods
@@ -1333,6 +1450,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 386
 
 
 
@@ -1346,6 +1464,7 @@ Set breadcrumbs array for the controller page
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 537
 
 
 #### Arguments
@@ -1363,6 +1482,7 @@ Set default toolbar_title to admin breadcrumb
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 617
 
 
 
@@ -1376,6 +1496,7 @@ Set default toolbar_title to admin breadcrumb
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 646
 
 
 
@@ -1389,6 +1510,7 @@ Check rights to view the current tab
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 693
 
 
 #### Arguments
@@ -1405,6 +1527,7 @@ Check for security token
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 710
 
 
 
@@ -1418,6 +1541,7 @@ Set the filters used for the list display
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 743
 
 
 
@@ -1431,6 +1555,7 @@ Set the filters used for the list display
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 860
 
 
 
@@ -1444,6 +1569,7 @@ Object Delete images
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 915
 
 
 
@@ -1457,6 +1583,7 @@ Object Delete images
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 935
 
 
 #### Arguments
@@ -1473,6 +1600,7 @@ Object Delete
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1002
 
 
 
@@ -1486,6 +1614,7 @@ Call the right method for creating or updating object
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1048
 
 
 
@@ -1499,6 +1628,7 @@ Object creation
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1064
 
 
 
@@ -1512,6 +1642,7 @@ Object update
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1115
 
 
 
@@ -1525,6 +1656,7 @@ Change object required fields
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1208
 
 
 
@@ -1538,6 +1670,7 @@ Change object status (active, inactive)
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1232
 
 
 
@@ -1551,6 +1684,7 @@ Change object position
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1266
 
 
 
@@ -1564,6 +1698,7 @@ Cancel all filters for this tab
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1286
 
 
 #### Arguments
@@ -1580,6 +1715,7 @@ Update options and preferences
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 1323
 
 
 
@@ -1593,6 +1729,7 @@ Update options and preferences
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1443
 
 
 
@@ -1606,6 +1743,7 @@ assign default action in toolbar_btn smarty var, if they are not set.
 uses override to specifically add, modify or remove items
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1508
 
 
 
@@ -1620,6 +1758,7 @@ otherwise return an empty object, or die
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 1576
 
 
 #### Arguments
@@ -1636,6 +1775,7 @@ Check if the token is valid, else display a warning page
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1609
 
 
 
@@ -1649,6 +1789,7 @@ Check if the token is valid, else display a warning page
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 1634
 
 
 #### Arguments
@@ -1666,6 +1807,7 @@ Check if the token is valid, else display a warning page
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1651
 
 
 
@@ -1679,6 +1821,7 @@ Check if the token is valid, else display a warning page
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1658
 
 
 
@@ -1692,6 +1835,7 @@ Check if the token is valid, else display a warning page
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 1673
 
 
 
@@ -1705,6 +1849,7 @@ Check if the token is valid, else display a warning page
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1683
 
 
 
@@ -1718,6 +1863,7 @@ Add a warning message to display at the top of the page
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 1767
 
 
 #### Arguments
@@ -1734,6 +1880,7 @@ Add a info message to display at the top of the page
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 1777
 
 
 #### Arguments
@@ -1750,6 +1897,7 @@ Assign smarty variables for the header
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1785
 
 
 
@@ -1763,6 +1911,7 @@ Declare an action to use for each row in the list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1967
 
 
 #### Arguments
@@ -1779,6 +1928,7 @@ Add an action to use for each row in the list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1979
 
 
 #### Arguments
@@ -1796,6 +1946,7 @@ Assign smarty variables for all default views, list and form, then call other in
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 1994
 
 
 
@@ -1809,6 +1960,7 @@ Init tab modules list and add button in toolbar
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 2048
 
 
 
@@ -1822,6 +1974,7 @@ Init tab modules list and add button in toolbar
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 2087
 
 
 
@@ -1835,6 +1988,7 @@ Init tab modules list and add button in toolbar
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 2099
 
 
 
@@ -1848,6 +2002,7 @@ Init tab modules list and add button in toolbar
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 2111
 
 
 
@@ -1861,6 +2016,7 @@ Initialize the invalid doom page of death
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2179
 
 
 
@@ -1874,6 +2030,7 @@ Assign smarty variables for the footer
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2187
 
 
 
@@ -1887,6 +2044,7 @@ Assign smarty variables for the footer
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2213
 
 
 
@@ -1900,6 +2058,7 @@ Assign smarty variables for the footer
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2256
 
 
 
@@ -1913,6 +2072,7 @@ Assign smarty variables for the footer
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2271
 
 
 
@@ -1926,6 +2086,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2325
 
 
 
@@ -1939,6 +2100,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2382
 
 
 
@@ -1952,6 +2114,7 @@ Override to render the view page
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2392
 
 
 
@@ -1965,6 +2128,7 @@ Override to render the view page
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2405
 
 
 
@@ -1978,6 +2142,7 @@ Override to render the view page
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2415
 
 
 
@@ -1991,6 +2156,7 @@ Function used to render the form for this controller
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2427
 
 
 
@@ -2004,6 +2170,7 @@ Function used to render the form for this controller
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2485
 
 
 
@@ -2017,6 +2184,7 @@ Function used to render the form for this controller
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2490
 
 
 
@@ -2030,6 +2198,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2499
 
 
 
@@ -2043,10 +2212,11 @@ This function sets various display options for helper list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2531
 
 
 #### Arguments
-* $helper **Helper**
+* $helper **[Helper](HelperCore)**
 
 
 
@@ -2059,6 +2229,7 @@ This function sets various display options for helper list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2586
 
 
 
@@ -2072,6 +2243,7 @@ This function sets various display options for helper list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2590
 
 
 
@@ -2085,6 +2257,7 @@ Non-static method which uses AdminController::translate()
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 2648
 
 
 #### Arguments
@@ -2104,6 +2277,7 @@ Init context and dependencies, handles POST and GET
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2662
 
 
 
@@ -2117,6 +2291,7 @@ Init context and dependencies, handles POST and GET
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2751
 
 
 
@@ -2130,6 +2305,7 @@ Retrieve GET and POST value and translate them to actions
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 2821
 
 
 
@@ -2143,6 +2319,7 @@ Get the current objects' list form the database
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3005
 
 
 #### Arguments
@@ -2164,6 +2341,7 @@ Get the current objects' list form the database
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3241
 
 
 #### Arguments
@@ -2180,6 +2358,7 @@ Get the current objects' list form the database
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3282
 
 
 
@@ -2193,10 +2372,11 @@ Return the list of fields value
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3314
 
 
 #### Arguments
-* $obj **ObjectModel** - &lt;p&gt;Object&lt;/p&gt;
+* $obj **[ObjectModel](ObjectModelCore)** - &lt;p&gt;Object&lt;/p&gt;
 
 
 
@@ -2210,10 +2390,11 @@ Case 1 : Return value if present in $_POST / $_GET
 Case 2 : Return object value
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3365
 
 
 #### Arguments
-* $obj **ObjectModel** - &lt;p&gt;Object&lt;/p&gt;
+* $obj **[ObjectModel](ObjectModelCore)** - &lt;p&gt;Object&lt;/p&gt;
 * $key **string** - &lt;p&gt;Field name&lt;/p&gt;
 * $id_lang **integer|null** - &lt;p&gt;Language id (optional)&lt;/p&gt;
 
@@ -2228,6 +2409,7 @@ Manage page display (form, list.
 ..)
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3382
 
 
 #### Arguments
@@ -2244,6 +2426,7 @@ Overload this method for custom checking
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3460
 
 
 
@@ -2257,6 +2440,7 @@ Display object details
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3467
 
 
 
@@ -2270,10 +2454,11 @@ Called before deletion
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3477
 
 
 #### Arguments
-* $object **ObjectModel** - &lt;p&gt;Object&lt;/p&gt;
+* $object **[ObjectModel](ObjectModelCore)** - &lt;p&gt;Object&lt;/p&gt;
 
 
 
@@ -2286,10 +2471,11 @@ Called before deletion
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3489
 
 
 #### Arguments
-* $object **ObjectModel** - &lt;p&gt;Object&lt;/p&gt;
+* $object **[ObjectModel](ObjectModelCore)** - &lt;p&gt;Object&lt;/p&gt;
 * $old_id **integer**
 
 
@@ -2303,10 +2489,11 @@ Called before deletion
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3498
 
 
 #### Arguments
-* $object **ObjectModel**
+* $object **[ObjectModel](ObjectModelCore)**
 
 
 
@@ -2319,10 +2506,11 @@ Called before deletion
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3507
 
 
 #### Arguments
-* $object **ObjectModel**
+* $object **[ObjectModel](ObjectModelCore)**
 
 
 
@@ -2335,6 +2523,7 @@ Check rights to view the current tab
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3517
 
 
 
@@ -2348,6 +2537,7 @@ Copy data values from $_POST to object
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3528
 
 
 #### Arguments
@@ -2365,6 +2555,7 @@ Returns an array with selected shops and type (group or boutique shop)
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3569
 
 
 #### Arguments
@@ -2381,6 +2572,7 @@ Update the associations of shops
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3599
 
 
 #### Arguments
@@ -2397,6 +2589,7 @@ Update the associations of shops
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3635
 
 
 #### Arguments
@@ -2414,6 +2607,7 @@ Can be overridden
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3653
 
 
 
@@ -2427,6 +2621,7 @@ Overload this method for custom checking
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3663
 
 
 #### Arguments
@@ -2443,6 +2638,7 @@ Overload this method for custom checking
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3686
 
 
 #### Arguments
@@ -2464,6 +2660,7 @@ Delete multiple items
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3738
 
 
 
@@ -2477,6 +2674,7 @@ Delete multiple items
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3791
 
 
 
@@ -2490,6 +2688,7 @@ Enable multiple items
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3825
 
 
 
@@ -2503,6 +2702,7 @@ Disable multiple items
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3835
 
 
 
@@ -2516,6 +2716,7 @@ Toggle status of multiple items
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3847
 
 
 #### Arguments
@@ -2532,6 +2733,7 @@ Toggle status of multiple items
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3864
 
 
 
@@ -2545,10 +2747,11 @@ Called before Add
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\AdminController.php line 3889
 
 
 #### Arguments
-* $object **ObjectModel** - &lt;p&gt;Object&lt;/p&gt;
+* $object **[ObjectModel](ObjectModelCore)** - &lt;p&gt;Object&lt;/p&gt;
 
 
 
@@ -2561,6 +2764,7 @@ Prepare the view to display the required fields form
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3899
 
 
 
@@ -2574,6 +2778,7 @@ Create a template from the override file, else from the base file.
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3918
 
 
 #### Arguments
@@ -2590,6 +2795,7 @@ Shortcut to set up a json success payload
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3938
 
 
 #### Arguments
@@ -2606,6 +2812,7 @@ Shortcut to set up a json error payload
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3952
 
 
 #### Arguments
@@ -2622,6 +2829,7 @@ Shortcut to set up a json error payload
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3966
 
 
 #### Arguments
@@ -2639,6 +2847,7 @@ Shortcut to set up a json error payload
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3983
 
 
 #### Arguments
@@ -2656,10 +2865,11 @@ Shortcut to set up a json error payload
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 3997
 
 
 #### Arguments
-* $module **Module**
+* $module **[Module](ModuleCore)**
 * $output_type **string**
 * $back **string|null**
 
@@ -2674,10 +2884,11 @@ Display modules list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 4048
 
 
 #### Arguments
-* $module **Module**
+* $module **[Module](ModuleCore)**
 * $output_type **string** - &lt;p&gt;(link or select)&lt;/p&gt;
 * $back **string|null**
 
@@ -2692,6 +2903,7 @@ Display modules list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 4316
 
 
 
@@ -2705,6 +2917,7 @@ Add an entry to the meta title.
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\AdminController.php line 4357
 
 
 #### Arguments

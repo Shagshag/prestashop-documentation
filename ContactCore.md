@@ -8,7 +8,8 @@ ContactCore
 
 * Class name: ContactCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Contact.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Contact.php line 29
 
 
 ### $name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Contact.php line 32
 
 
 ### $email
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Contact.php line 35
 
 
 ### $description
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Contact.php line 38
 
 
 ### $customer_service
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Contact.php line 40
 
 
 ### $definition
@@ -83,6 +89,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Contact.php line 45
 
 
 Methods
@@ -99,6 +106,7 @@ Return available contacts
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Contact.php line 66
 
 
 #### Arguments
@@ -116,6 +124,7 @@ Return available categories contacts
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Contact.php line 84
 
 
 

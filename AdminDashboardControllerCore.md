@@ -8,7 +8,8 @@ AdminDashboardControllerCore
 
 * Class name: AdminDashboardControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminDashboardController.php line 27
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDashboardController.php line 29
 
 
 
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDashboardController.php line 41
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDashboardController.php line 54
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminDashboardController.php line 69
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDashboardController.php line 187
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDashboardController.php line 282
 
 
 
@@ -107,6 +114,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminDashboardController.php line 331
 
 
 
@@ -120,6 +128,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDashboardController.php line 352
 
 
 
@@ -133,6 +142,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDashboardController.php line 374
 
 
 
@@ -146,6 +156,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDashboardController.php line 380
 
 
 
@@ -159,6 +170,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDashboardController.php line 441
 
 
 

@@ -8,7 +8,8 @@ AdminShopControllerCore
 
 * Class name: AdminShopControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminShopController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminShopController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 87
 
 
 #### Arguments
@@ -71,6 +75,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 92
 
 
 
@@ -84,6 +89,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 119
 
 
 
@@ -97,6 +103,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 140
 
 
 
@@ -110,6 +117,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 199
 
 
 
@@ -123,6 +131,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 222
 
 
 
@@ -136,6 +145,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 238
 
 
 
@@ -149,6 +159,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 279
 
 
 
@@ -162,10 +173,11 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminShopController.php line 298
 
 
 #### Arguments
-* $new_shop **Shop**
+* $new_shop **[Shop](ShopCore)**
 
 
 
@@ -178,10 +190,11 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminShopController.php line 323
 
 
 #### Arguments
-* $new_shop **Shop**
+* $new_shop **[Shop](ShopCore)**
 
 
 
@@ -194,6 +207,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 348
 
 
 #### Arguments
@@ -215,6 +229,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 366
 
 
 
@@ -228,6 +243,7 @@ Object creation
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 647
 
 
 
@@ -241,6 +257,7 @@ Object creation
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 707
 
 
 #### Arguments
@@ -259,6 +276,7 @@ Object creation
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 727
 
 
 #### Arguments
@@ -275,6 +293,7 @@ Object creation
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopController.php line 757
 
 
 

@@ -8,7 +8,8 @@ StoreCore
 
 * Class name: StoreCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Store.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 30
 
 
 ### $id_state
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 33
 
 
 ### $name
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 36
 
 
 ### $address1
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 39
 
 
 ### $address2
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 42
 
 
 ### $postcode
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 45
 
 
 ### $city
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 48
 
 
 ### $latitude
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 51
 
 
 ### $longitude
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 54
 
 
 ### $hours
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 57
 
 
 ### $phone
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 60
 
 
 ### $fax
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 63
 
 
 ### $note
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 66
 
 
 ### $email
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 69
 
 
 ### $date_add
@@ -181,6 +196,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 72
 
 
 ### $date_upd
@@ -192,6 +208,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 75
 
 
 ### $active
@@ -203,6 +220,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Store.php line 78
 
 
 ### $definition
@@ -215,6 +233,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Store.php line 83
 
 
 ### $webserviceParameters
@@ -226,6 +245,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Store.php line 107
 
 
 Methods
@@ -241,6 +261,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Store.php line 115
 
 
 #### Arguments
@@ -258,6 +279,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Store.php line 122
 
 
 
@@ -271,6 +293,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Store.php line 127
 
 
 #### Arguments

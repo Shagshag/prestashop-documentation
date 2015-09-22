@@ -8,6 +8,7 @@ Crypt_Blowfish
 
 * Class name: Crypt_Blowfish
 * Namespace: 
+* This class is defined in classes\Blowfish.php line 78
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Blowfish.php line 80
 
 
 ### $_S
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Blowfish.php line 88
 
 
 ### $_iv
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Blowfish.php line 355
 
 
 ### $_unpackMode
@@ -59,6 +63,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Blowfish.php line 357
 
 
 Methods
@@ -74,6 +79,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Blowfish.php line 359
 
 
 #### Arguments
@@ -91,6 +97,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Blowfish.php line 410
 
 
 #### Arguments
@@ -108,6 +115,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Blowfish.php line 424
 
 
 #### Arguments
@@ -125,6 +133,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Blowfish.php line 438
 
 
 #### Arguments
@@ -141,6 +150,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Blowfish.php line 451
 
 
 #### Arguments
@@ -157,6 +167,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Blowfish.php line 464
 
 
 #### Arguments
@@ -173,6 +184,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Blowfish.php line 473
 
 
 #### Arguments

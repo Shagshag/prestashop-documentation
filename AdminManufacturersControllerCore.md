@@ -8,7 +8,8 @@ AdminManufacturersControllerCore
 
 * Class name: AdminManufacturersControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminManufacturersController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminManufacturersController.php line 32
 
 
 ### $countries_array
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminManufacturersController.php line 34
 
 
 ### $object
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminManufacturersController.php line 30
 
 
 Methods
@@ -64,6 +68,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 36
 
 
 
@@ -77,6 +82,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 103
 
 
 
@@ -90,6 +96,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 110
 
 
 
@@ -103,6 +110,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 141
 
 
 
@@ -116,6 +124,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 162
 
 
 
@@ -129,6 +138,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 204
 
 
 #### Arguments
@@ -145,6 +155,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 214
 
 
 
@@ -158,6 +169,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 270
 
 
 
@@ -171,6 +183,7 @@ Display editaddresses action link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 282
 
 
 #### Arguments
@@ -188,6 +201,7 @@ Display editaddresses action link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 298
 
 
 
@@ -201,6 +215,7 @@ Display editaddresses action link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 439
 
 
 
@@ -214,6 +229,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 649
 
 
 
@@ -227,6 +243,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 685
 
 
 
@@ -240,6 +257,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 746
 
 
 
@@ -253,6 +271,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 783
 
 
 
@@ -266,6 +285,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 800
 
 
 
@@ -279,6 +299,7 @@ AdminController::init() override
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 812
 
 
 
@@ -292,6 +313,7 @@ AdminController::init() override
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 855
 
 
 #### Arguments
@@ -308,6 +330,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminManufacturersController.php line 860
 
 
 

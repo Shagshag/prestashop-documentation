@@ -8,7 +8,8 @@ AdminAttachmentsControllerCore
 
 * Class name: AdminAttachmentsControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminAttachmentsController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminAttachmentsController.php line 32
 
 
 ### $product_attachements
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminAttachmentsController.php line 34
 
 
 ### $object
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminAttachmentsController.php line 30
 
 
 Methods
@@ -64,6 +68,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttachmentsController.php line 36
 
 
 
@@ -77,6 +82,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttachmentsController.php line 84
 
 
 
@@ -91,6 +97,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminAttachmentsController.php line 92
 
 
 #### Arguments
@@ -107,6 +114,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttachmentsController.php line 97
 
 
 
@@ -120,6 +128,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttachmentsController.php line 110
 
 
 
@@ -133,6 +142,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttachmentsController.php line 119
 
 
 
@@ -146,6 +156,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttachmentsController.php line 169
 
 
 #### Arguments
@@ -167,6 +178,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttachmentsController.php line 199
 
 
 

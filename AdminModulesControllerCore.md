@@ -8,7 +8,8 @@ AdminModulesControllerCore
 
 * Class name: AdminModulesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminModulesController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in controllers\admin\AdminModulesController.php line 29
 
 
 ### $map
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 37
 
 
 ### $list_modules_categories
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 48
 
 
 ### $list_partners_modules
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 49
 
 
 ### $list_natives_modules
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 50
 
 
 ### $nb_modules_total
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 52
 
 
 ### $nb_modules_installed
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 53
 
 
 ### $nb_modules_activated
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 54
 
 
 ### $serial_modules
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 56
 
 
 ### $modules_authors
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 57
 
 
 ### $id_employee
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 59
 
 
 ### $iso_default_country
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 60
 
 
 ### $filter_configuration
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 61
 
 
 ### $xml_modules_list
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesController.php line 63
 
 
 Methods
@@ -189,6 +204,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 73
 
 
 
@@ -202,6 +218,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 148
 
 
 #### Arguments
@@ -219,6 +236,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 157
 
 
 
@@ -232,6 +250,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 167
 
 
 #### Arguments
@@ -248,6 +267,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 219
 
 
 
@@ -261,6 +281,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 225
 
 
 
@@ -274,6 +295,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 247
 
 
 
@@ -287,6 +309,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 256
 
 
 
@@ -300,6 +323,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 270
 
 
 
@@ -313,6 +337,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 316
 
 
 
@@ -326,6 +351,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 322
 
 
 
@@ -339,6 +365,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 349
 
 
 
@@ -352,6 +379,7 @@ Load cache file
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminModulesController.php line 372
 
 
 #### Arguments
@@ -368,6 +396,7 @@ Load cache file
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminModulesController.php line 391
 
 
 #### Arguments
@@ -385,6 +414,7 @@ Load cache file
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminModulesController.php line 437
 
 
 #### Arguments
@@ -401,6 +431,7 @@ Load cache file
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminModulesController.php line 463
 
 
 #### Arguments
@@ -420,6 +451,7 @@ Load cache file
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminModulesController.php line 471
 
 
 
@@ -433,6 +465,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 485
 
 
 
@@ -446,6 +479,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 491
 
 
 
@@ -459,6 +493,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 497
 
 
 
@@ -472,6 +507,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 504
 
 
 
@@ -485,6 +521,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 516
 
 
 
@@ -498,6 +535,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 554
 
 
 
@@ -511,6 +549,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 603
 
 
 
@@ -524,6 +563,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 626
 
 
 
@@ -537,6 +577,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 645
 
 
 
@@ -550,6 +591,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 664
 
 
 
@@ -563,6 +605,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 696
 
 
 
@@ -576,6 +619,7 @@ Load cache file
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminModulesController.php line 1040
 
 
 #### Arguments
@@ -592,6 +636,7 @@ Load cache file
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 1085
 
 
 
@@ -605,6 +650,7 @@ Generate html errors for a module process
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminModulesController.php line 1129
 
 
 #### Arguments
@@ -621,6 +667,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 1149
 
 
 #### Arguments
@@ -637,6 +684,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 1173
 
 
 #### Arguments
@@ -653,6 +701,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 1193
 
 
 #### Arguments
@@ -669,6 +718,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 1296
 
 
 
@@ -682,6 +732,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 1344
 
 
 
@@ -695,6 +746,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 1379
 
 
 
@@ -708,6 +760,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesController.php line 1634
 
 
 

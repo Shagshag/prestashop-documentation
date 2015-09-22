@@ -8,6 +8,7 @@ SearchCore
 
 * Class name: SearchCore
 * Namespace: 
+* This class is defined in classes\Search.php line 94
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Search.php line 96
 
 
 #### Arguments
@@ -49,6 +51,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Search.php line 175
 
 
 #### Arguments
@@ -60,7 +63,7 @@ Methods
 * $order_way **mixed**
 * $ajax **mixed**
 * $use_cookie **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -74,10 +77,11 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Search.php line 372
 
 
 #### Arguments
-* $db **Db**
+* $db **[Db](DbCore)**
 * $id_product **integer**
 * $id_lang **integer**
 
@@ -93,10 +97,11 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Search.php line 391
 
 
 #### Arguments
-* $db **Db**
+* $db **[Db](DbCore)**
 * $id_product **integer**
 * $id_lang **integer**
 
@@ -112,10 +117,11 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Search.php line 416
 
 
 #### Arguments
-* $db **Db**
+* $db **[Db](DbCore)**
 * $id_product **integer**
 * $id_lang **integer**
 
@@ -131,6 +137,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\Search.php line 437
 
 
 #### Arguments
@@ -148,6 +155,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\Search.php line 463
 
 
 #### Arguments
@@ -168,10 +176,11 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\Search.php line 549
 
 
 #### Arguments
-* $db **Db**
+* $db **[Db](DbCore)**
 * $id_product **integer**
 * $sql_attribute **string**
 
@@ -187,6 +196,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\Search.php line 563
 
 
 #### Arguments
@@ -209,6 +219,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Search.php line 580
 
 
 #### Arguments
@@ -227,6 +238,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Search.php line 745
 
 
 #### Arguments
@@ -244,6 +256,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\Search.php line 753
 
 
 #### Arguments
@@ -261,6 +274,7 @@ $queryArray3 is automatically emptied in order to be reused immediatly
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\Search.php line 761
 
 
 #### Arguments
@@ -278,6 +292,7 @@ $queryArray3 is automatically emptied in order to be reused immediatly
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Search.php line 773
 
 
 #### Arguments
@@ -289,6 +304,6 @@ $queryArray3 is automatically emptied in order to be reused immediatly
 * $orderBy **mixed**
 * $orderWay **mixed**
 * $useCookie **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 

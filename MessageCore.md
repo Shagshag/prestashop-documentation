@@ -8,7 +8,8 @@ MessageCore
 
 * Class name: MessageCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Message.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Message.php line 29
 
 
 ### $message
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Message.php line 32
 
 
 ### $id_cart
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Message.php line 35
 
 
 ### $id_order
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Message.php line 38
 
 
 ### $id_customer
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Message.php line 41
 
 
 ### $id_employee
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Message.php line 44
 
 
 ### $private
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Message.php line 47
 
 
 ### $date_add
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Message.php line 50
 
 
 ### $definition
@@ -116,6 +125,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Message.php line 55
 
 
 Methods
@@ -132,6 +142,7 @@ Return the last message from cart
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Message.php line 75
 
 
 #### Arguments
@@ -149,12 +160,13 @@ Return messages from Order ID
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Message.php line 91
 
 
 #### Arguments
 * $id_order **integer** - &lt;p&gt;Order ID&lt;/p&gt;
 * $private **boolean** - &lt;p&gt;return WITH private messages&lt;/p&gt;
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -168,12 +180,13 @@ Return messages from Cart ID
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Message.php line 124
 
 
 #### Arguments
 * $id_cart **mixed**
 * $private **boolean** - &lt;p&gt;return WITH private messages&lt;/p&gt;
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -187,6 +200,7 @@ Registered a message 'readed'
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Message.php line 154
 
 
 #### Arguments

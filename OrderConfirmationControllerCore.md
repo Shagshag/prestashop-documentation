@@ -8,7 +8,8 @@ OrderConfirmationControllerCore
 
 * Class name: OrderConfirmationControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\OrderConfirmationController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderConfirmationController.php line 29
 
 
 ### $php_self
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderConfirmationController.php line 30
 
 
 ### $id_cart
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderConfirmationController.php line 31
 
 
 ### $id_module
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderConfirmationController.php line 32
 
 
 ### $id_order
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderConfirmationController.php line 33
 
 
 ### $reference
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderConfirmationController.php line 34
 
 
 ### $secure_key
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderConfirmationController.php line 35
 
 
 Methods
@@ -108,6 +116,7 @@ Initialize order confirmation controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderConfirmationController.php line 41
 
 
 
@@ -121,6 +130,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderConfirmationController.php line 81
 
 
 
@@ -134,6 +144,7 @@ Execute the hook displayPaymentReturn
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderConfirmationController.php line 108
 
 
 
@@ -147,6 +158,7 @@ Execute the hook displayOrderConfirmation
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderConfirmationController.php line 130
 
 
 

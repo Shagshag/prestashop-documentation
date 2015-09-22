@@ -8,7 +8,8 @@ AdminPdfControllerCore
 
 * Class name: AdminPdfControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminPdfController.php line 27
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 29
 
 
 
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 37
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 49
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 56
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 67
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 80
 
 
 
@@ -107,6 +114,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 94
 
 
 
@@ -120,6 +128,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 105
 
 
 
@@ -133,6 +142,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 121
 
 
 
@@ -146,6 +156,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 136
 
 
 
@@ -159,6 +170,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 147
 
 
 
@@ -172,6 +184,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 163
 
 
 #### Arguments
@@ -188,6 +201,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 174
 
 
 #### Arguments
@@ -204,6 +218,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 184
 
 
 #### Arguments
@@ -220,6 +235,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 196
 
 
 #### Arguments
@@ -236,6 +252,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPdfController.php line 207
 
 
 #### Arguments

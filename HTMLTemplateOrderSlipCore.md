@@ -8,7 +8,8 @@ HTMLTemplateOrderSlipCore
 
 * Class name: HTMLTemplateOrderSlipCore
 * Namespace: 
-* Parent class: HTMLTemplateInvoice
+* Parent class: [HTMLTemplateInvoice](HTMLTemplateInvoiceCore)
+* This class is defined in classes\pdf\HTMLTemplateOrderSlip.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateOrderSlip.php line 32
 
 
 ### $order_slip
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateOrderSlip.php line 33
 
 
 Methods
@@ -53,10 +56,11 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 40
 
 
 #### Arguments
-* $order_slip **OrderSlip**
+* $order_slip **[OrderSlip](OrderSlipCore)**
 * $smarty **mixed**
 
 
@@ -70,6 +74,7 @@ Returns the template's HTML header
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 65
 
 
 
@@ -83,6 +88,7 @@ Returns the template's HTML content
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 80
 
 
 
@@ -96,6 +102,7 @@ Returns the template filename when using bulk rendering
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 189
 
 
 
@@ -109,6 +116,7 @@ Returns the template filename
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 199
 
 
 
@@ -122,6 +130,7 @@ Returns the tax tab content
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 209
 
 
 
@@ -135,6 +144,7 @@ Returns different tax breakdown elements
 
 
 * Visibility: **protected**
+* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 235
 
 
 
@@ -148,6 +158,7 @@ Returns different tax breakdown elements
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 269
 
 
 
@@ -161,6 +172,7 @@ Returns Shipping tax breakdown elements
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 308
 
 
 

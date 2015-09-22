@@ -9,7 +9,8 @@ It is either synchronized with Stock or manualy set by the seller
 
 * Class name: StockAvailableCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\stock\StockAvailable.php line 33
 
 
 
@@ -28,6 +29,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockAvailable.php line 36
 
 
 ### $id_product_attribute
@@ -39,6 +41,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockAvailable.php line 39
 
 
 ### $id_shop
@@ -50,6 +53,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockAvailable.php line 42
 
 
 ### $id_shop_group
@@ -61,6 +65,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockAvailable.php line 45
 
 
 ### $quantity
@@ -72,6 +77,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockAvailable.php line 48
 
 
 ### $depends_on_stock
@@ -83,6 +89,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockAvailable.php line 51
 
 
 ### $out_of_stock
@@ -94,6 +101,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockAvailable.php line 54
 
 
 ### $definition
@@ -106,6 +114,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\stock\StockAvailable.php line 59
 
 
 ### $webserviceParameters
@@ -117,6 +126,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\stock\StockAvailable.php line 76
 
 
 Methods
@@ -132,6 +142,7 @@ For a given {id_product, id_product_attribute and id_shop}, gets the stock avail
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\StockAvailable.php line 100
 
 
 
@@ -146,6 +157,7 @@ For a given {id_product, id_product_attribute and id_shop}, gets the stock avail
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 108
 
 
 #### Arguments
@@ -165,6 +177,7 @@ For a given id_product, synchronizes StockAvailable::quantity with Stock::usable
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 132
 
 
 #### Arguments
@@ -183,6 +196,7 @@ For a given id_product, sets if stock available depends on stock
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 286
 
 
 #### Arguments
@@ -203,6 +217,7 @@ For a given id_product, sets if product is available out of stocks
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 322
 
 
 #### Arguments
@@ -223,6 +238,7 @@ For a given id_product and id_product_attribute, gets its stock available
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 358
 
 
 #### Arguments
@@ -241,6 +257,7 @@ Upgrades total_quantity_available after having saved
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\StockAvailable.php line 390
 
 
 #### Arguments
@@ -258,6 +275,7 @@ Upgrades total_quantity_available after having update
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\StockAvailable.php line 404
 
 
 #### Arguments
@@ -274,6 +292,7 @@ Upgrades total_quantity_available after having saved
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\StockAvailable.php line 419
 
 
 
@@ -289,6 +308,7 @@ If $avoid_parent_pack_update is true, then packs containing the given product wo
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 461
 
 
 #### Arguments
@@ -309,6 +329,7 @@ For a given id_product and id_product_attribute sets the quantity available
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 484
 
 
 #### Arguments
@@ -329,12 +350,13 @@ Removes a given product from the stock available
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 552
 
 
 #### Arguments
 * $id_product **integer**
 * $id_product_attribute **integer|null** - &lt;p&gt;Optional&lt;/p&gt;
-* $shop **Shop|null** - &lt;p&gt;Shop id or shop object Optional&lt;/p&gt;
+* $shop **[Shop](ShopCore)|null** - &lt;p&gt;Shop id or shop object Optional&lt;/p&gt;
 
 
 
@@ -350,10 +372,11 @@ Else remove all available quantities for the current group
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 611
 
 
 #### Arguments
-* $shop_group **ShopGroup** - &lt;p&gt;the ShopGroup object&lt;/p&gt;
+* $shop_group **[ShopGroup](ShopGroupCore)** - &lt;p&gt;the ShopGroup object&lt;/p&gt;
 
 
 
@@ -367,6 +390,7 @@ For a given product, tells if it depends on the physical (usable) stock
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 632
 
 
 #### Arguments
@@ -385,6 +409,7 @@ For a given product, get its "out of stock" flag
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 656
 
 
 #### Arguments
@@ -403,11 +428,12 @@ Add an sql restriction for shops fields - specific to StockAvailable
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 682
 
 
 #### Arguments
-* $sql **DbQuery|string|null** - &lt;p&gt;Reference to the query object&lt;/p&gt;
-* $shop **Shop|integer|null** - &lt;p&gt;Optional : The shop ID&lt;/p&gt;
+* $sql **[DbQuery](DbQueryCore)|string|null** - &lt;p&gt;Reference to the query object&lt;/p&gt;
+* $shop **[Shop](ShopCore)|integer|null** - &lt;p&gt;Optional : The shop ID&lt;/p&gt;
 * $alias **string|null** - &lt;p&gt;Optional : The current table alias&lt;/p&gt;
 
 
@@ -422,6 +448,7 @@ Add sql params for shops fields - specific to StockAvailable
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 736
 
 
 #### Arguments
@@ -440,6 +467,7 @@ Copies stock available content table
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockAvailable.php line 778
 
 
 #### Arguments

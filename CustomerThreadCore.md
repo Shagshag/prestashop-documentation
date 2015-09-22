@@ -8,7 +8,8 @@ CustomerThreadCore
 
 * Class name: CustomerThreadCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\CustomerThread.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerThread.php line 29
 
 
 ### $id_shop
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerThread.php line 30
 
 
 ### $id_lang
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerThread.php line 31
 
 
 ### $id_contact
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerThread.php line 32
 
 
 ### $id_customer
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerThread.php line 33
 
 
 ### $id_order
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerThread.php line 34
 
 
 ### $id_product
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerThread.php line 35
 
 
 ### $status
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerThread.php line 36
 
 
 ### $email
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerThread.php line 37
 
 
 ### $token
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerThread.php line 38
 
 
 ### $date_add
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerThread.php line 39
 
 
 ### $date_upd
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerThread.php line 40
 
 
 ### $definition
@@ -160,6 +173,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\CustomerThread.php line 45
 
 
 ### $webserviceParameters
@@ -171,6 +185,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\CustomerThread.php line 63
 
 
 Methods
@@ -186,6 +201,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\CustomerThread.php line 88
 
 
 
@@ -199,6 +215,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\CustomerThread.php line 96
 
 
 
@@ -213,6 +230,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CustomerThread.php line 123
 
 
 #### Arguments
@@ -232,6 +250,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CustomerThread.php line 141
 
 
 #### Arguments
@@ -250,6 +269,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CustomerThread.php line 152
 
 
 
@@ -264,6 +284,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CustomerThread.php line 174
 
 
 #### Arguments
@@ -281,6 +302,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CustomerThread.php line 191
 
 
 #### Arguments
@@ -298,6 +320,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CustomerThread.php line 210
 
 
 #### Arguments

@@ -8,7 +8,8 @@ AddressFormatCore
 
 * Class name: AddressFormatCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\AddressFormat.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\AddressFormat.php line 107
 
 
 Properties
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\AddressFormat.php line 30
 
 
 ### $id_country
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\AddressFormat.php line 33
 
 
 ### $format
@@ -59,6 +63,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\AddressFormat.php line 36
 
 
 ### $_errorFormatList
@@ -70,6 +75,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\AddressFormat.php line 38
 
 
 ### $definition
@@ -82,6 +88,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\AddressFormat.php line 43
 
 
 ### $requireFormFieldsList
@@ -94,6 +101,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\AddressFormat.php line 52
 
 
 ### $forbiddenPropertyList
@@ -106,6 +114,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\AddressFormat.php line 59
 
 
 ### $forbiddenClassList
@@ -118,6 +127,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\AddressFormat.php line 103
 
 
 Methods
@@ -133,6 +143,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\AddressFormat.php line 116
 
 
 #### Arguments
@@ -151,6 +162,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\AddressFormat.php line 155
 
 
 #### Arguments
@@ -168,6 +180,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\AddressFormat.php line 198
 
 
 
@@ -181,6 +194,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\AddressFormat.php line 229
 
 
 
@@ -195,6 +209,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\AddressFormat.php line 239
 
 
 #### Arguments
@@ -214,6 +229,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\AddressFormat.php line 290
 
 
 #### Arguments
@@ -231,6 +247,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\AddressFormat.php line 311
 
 
 #### Arguments
@@ -250,10 +267,11 @@ Generates the full address text
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\AddressFormat.php line 372
 
 
 #### Arguments
-* $address **Address**
+* $address **[Address](AddressCore)**
 * $patternRules **array** - &lt;p&gt;A defined rules array to avoid some pattern&lt;/p&gt;
 * $newLine **string** - &lt;p&gt;A string containing the newLine format&lt;/p&gt;
 * $separator **string** - &lt;p&gt;A string containing the separator format&lt;/p&gt;
@@ -271,6 +289,7 @@ Generates the full address text
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\AddressFormat.php line 401
 
 
 #### Arguments
@@ -289,6 +308,7 @@ Returns selected fields required for an address in an array according to a selec
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\AddressFormat.php line 416
 
 
 #### Arguments
@@ -306,6 +326,7 @@ Returns selected fields required for an address in an array according to a selec
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\AddressFormat.php line 442
 
 
 #### Arguments
@@ -323,6 +344,7 @@ Returns address format fields in array by country
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\AddressFormat.php line 476
 
 
 #### Arguments
@@ -342,6 +364,7 @@ Returns address format fields in array by country
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\AddressFormat.php line 500
 
 
 #### Arguments
@@ -359,6 +382,7 @@ Returns address format by country if not defined using default country
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\AddressFormat.php line 526
 
 
 #### Arguments
@@ -375,6 +399,7 @@ Returns address format by country
 
 
 * Visibility: **public**
+* This method is defined in classes\AddressFormat.php line 543
 
 
 #### Arguments
@@ -391,6 +416,7 @@ Returns address format by country
 
 
 * Visibility: **protected**
+* This method is defined in classes\AddressFormat.php line 552
 
 
 #### Arguments
@@ -408,6 +434,7 @@ Returns address format by country
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\AddressFormat.php line 566
 
 
 

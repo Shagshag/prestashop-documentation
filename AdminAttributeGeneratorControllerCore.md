@@ -8,7 +8,8 @@ AdminAttributeGeneratorControllerCore
 
 * Class name: AdminAttributeGeneratorControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminAttributeGeneratorController.php line 32
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminAttributeGeneratorController.php line 34
 
 
 ### $product
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminAttributeGeneratorController.php line 37
 
 
 ### $object
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminAttributeGeneratorController.php line 32
 
 
 Methods
@@ -64,6 +68,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 39
 
 
 
@@ -77,6 +82,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 49
 
 
 
@@ -90,6 +96,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 55
 
 
 #### Arguments
@@ -109,6 +116,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 76
 
 
 #### Arguments
@@ -125,6 +133,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 92
 
 
 
@@ -138,6 +147,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 108
 
 
 
@@ -151,6 +161,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 115
 
 
 
@@ -165,6 +176,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 175
 
 
 #### Arguments
@@ -182,6 +194,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 192
 
 
 
@@ -195,6 +208,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 212
 
 
 
@@ -208,6 +222,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 223
 
 
 #### Arguments
@@ -225,6 +240,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 229
 
 
 

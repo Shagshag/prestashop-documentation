@@ -9,7 +9,8 @@ PaymentModuleCore
 * Class name: PaymentModuleCore
 * Namespace: 
 * This is an **abstract** class
-* Parent class: Module
+* Parent class: [Module](ModuleCore)
+* This class is defined in classes\PaymentModule.php line 27
 
 
 
@@ -23,6 +24,7 @@ Constants
 
 
 
+* This constant is defined in classes\PaymentModule.php line 34
 
 
 Properties
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\PaymentModule.php line 30
 
 
 ### $currencies
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\PaymentModule.php line 31
 
 
 ### $currencies_mode
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\PaymentModule.php line 32
 
 
 Methods
@@ -75,6 +80,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\PaymentModule.php line 36
 
 
 
@@ -88,6 +94,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\PaymentModule.php line 74
 
 
 
@@ -101,6 +108,7 @@ Add checkbox currency restrictions for a new module
 
 
 * Visibility: **public**
+* This method is defined in classes\PaymentModule.php line 91
 
 
 #### Arguments
@@ -117,6 +125,7 @@ Add radio currency restrictions for a new module
 
 
 * Visibility: **public**
+* This method is defined in classes\PaymentModule.php line 113
 
 
 #### Arguments
@@ -133,6 +142,7 @@ Add checkbox country restrictions for a new module
 
 
 * Visibility: **public**
+* This method is defined in classes\PaymentModule.php line 134
 
 
 #### Arguments
@@ -150,6 +160,7 @@ Function called from a payment module
 
 
 * Visibility: **public**
+* This method is defined in classes\PaymentModule.php line 162
 
 
 #### Arguments
@@ -162,7 +173,7 @@ Function called from a payment module
 * $currency_special **null**
 * $dont_touch_amount **boolean**
 * $secure_key **boolean**
-* $shop **Shop**
+* $shop **[Shop](ShopCore)**
 
 
 
@@ -175,6 +186,7 @@ Function called from a payment module
 
 
 * Visibility: **public**
+* This method is defined in classes\PaymentModule.php line 835
 
 
 #### Arguments
@@ -191,6 +203,7 @@ Function called from a payment module
 
 
 * Visibility: **protected**
+* This method is defined in classes\PaymentModule.php line 845
 
 
 #### Arguments
@@ -207,10 +220,11 @@ Function called from a payment module
 
 
 * Visibility: **protected**
+* This method is defined in classes\PaymentModule.php line 867
 
 
 #### Arguments
-* $the_address **Address**
+* $the_address **[Address](AddressCore)**
 * $line_sep **mixed**
 * $fields_style **mixed**
 
@@ -225,6 +239,7 @@ Function called from a payment module
 
 
 * Visibility: **public**
+* This method is defined in classes\PaymentModule.php line 876
 
 
 #### Arguments
@@ -242,6 +257,7 @@ Allows specified payment modules to be used by a specific currency
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\PaymentModule.php line 914
 
 
 #### Arguments
@@ -260,6 +276,7 @@ List all installed and active payment modules
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\PaymentModule.php line 945
 
 
 
@@ -274,6 +291,7 @@ List all installed and active payment modules
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\PaymentModule.php line 962
 
 
 #### Arguments
@@ -290,6 +308,7 @@ Fetch the content of $template_name inside the folder current_theme/mails/curren
 
 
 * Visibility: **protected**
+* This method is defined in classes\PaymentModule.php line 987
 
 
 #### Arguments

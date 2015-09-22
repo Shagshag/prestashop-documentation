@@ -8,7 +8,8 @@ ConnectionCore
 
 * Class name: ConnectionCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Connection.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Connection.php line 30
 
 
 ### $id_page
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Connection.php line 33
 
 
 ### $ip_address
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Connection.php line 36
 
 
 ### $http_referer
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Connection.php line 39
 
 
 ### $id_shop
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Connection.php line 42
 
 
 ### $id_shop_group
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Connection.php line 45
 
 
 ### $date_add
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Connection.php line 48
 
 
 ### $definition
@@ -105,6 +113,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Connection.php line 53
 
 
 Methods
@@ -120,6 +129,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Connection.php line 71
 
 
 
@@ -134,6 +144,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Connection.php line 81
 
 
 #### Arguments
@@ -152,6 +163,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Connection.php line 115
 
 
 #### Arguments
@@ -169,6 +181,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Connection.php line 164
 
 
 #### Arguments
@@ -189,6 +202,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Connection.php line 184
 
 
 

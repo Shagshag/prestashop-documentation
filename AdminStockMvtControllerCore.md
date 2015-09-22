@@ -8,7 +8,8 @@ AdminStockMvtControllerCore
 
 * Class name: AdminStockMvtControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminStockMvtController.php line 31
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminStockMvtController.php line 31
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockMvtController.php line 33
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockMvtController.php line 114
 
 
 
@@ -68,6 +72,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockMvtController.php line 134
 
 
 
@@ -81,6 +86,7 @@ Gets the current warehouse for this controller
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStockMvtController.php line 209
 
 
 
@@ -94,6 +100,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockMvtController.php line 236
 
 
 #### Arguments
@@ -115,6 +122,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockMvtController.php line 263
 
 
 
@@ -128,6 +136,7 @@ Exports CSV
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockMvtController.php line 281
 
 
 
@@ -141,6 +150,7 @@ Exports CSV
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockMvtController.php line 316
 
 
 
@@ -154,6 +164,7 @@ Exports CSV
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockMvtController.php line 325
 
 
 

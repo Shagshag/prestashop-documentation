@@ -9,7 +9,8 @@ ModuleGraphCore
 * Class name: ModuleGraphCore
 * Namespace: 
 * This is an **abstract** class
-* Parent class: Module
+* Parent class: [Module](ModuleCore)
+* This class is defined in classes\module\ModuleGraph.php line 27
 
 
 
@@ -28,6 +29,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGraph.php line 29
 
 
 ### $_values
@@ -39,6 +41,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGraph.php line 32
 
 
 ### $_legend
@@ -50,6 +53,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGraph.php line 35
 
 
 ### $_titles
@@ -61,6 +65,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGraph.php line 38
 
 
 ### $_render
@@ -72,6 +77,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGraph.php line 41
 
 
 Methods
@@ -88,6 +94,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **abstract**.
+* This method is defined in classes\module\ModuleGraph.php line 43
 
 
 #### Arguments
@@ -104,6 +111,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGraph.php line 45
 
 
 #### Arguments
@@ -120,6 +128,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGraph.php line 50
 
 
 #### Arguments
@@ -136,6 +145,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\ModuleGraph.php line 55
 
 
 #### Arguments
@@ -153,6 +163,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\ModuleGraph.php line 167
 
 
 #### Arguments
@@ -169,6 +180,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\ModuleGraph.php line 234
 
 
 
@@ -182,6 +194,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGraph.php line 245
 
 
 #### Arguments
@@ -202,6 +215,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGraph.php line 263
 
 
 
@@ -215,6 +229,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGraph.php line 271
 
 
 #### Arguments
@@ -232,6 +247,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGraph.php line 275
 
 
 #### Arguments
@@ -249,11 +265,12 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\module\ModuleGraph.php line 315
 
 
 #### Arguments
 * $employee **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -266,6 +283,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGraph.php line 340
 
 
 
@@ -280,6 +298,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\ModuleGraph.php line 345
 
 
 #### Arguments
@@ -296,6 +315,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGraph.php line 353
 
 
 

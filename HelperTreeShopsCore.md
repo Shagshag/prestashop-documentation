@@ -8,7 +8,8 @@ HelperTreeShopsCore
 
 * Class name: HelperTreeShopsCore
 * Namespace: 
-* Parent class: [TreeCore](TreeCore.md)
+* Parent class: [TreeCore](TreeCore)
+* This class is defined in classes\helper\HelperTreeShops.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\helper\HelperTreeShops.php line 30
 
 
 ### DEFAULT_NODE_FOLDER_TEMPLATE
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\helper\HelperTreeShops.php line 32
 
 
 ### DEFAULT_NODE_ITEM_TEMPLATE
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\helper\HelperTreeShops.php line 33
 
 
 ### DEFAULT_TEMPLATE_DIRECTORY
@@ -46,6 +50,7 @@ Constants
 
 
 
+* This constant is defined in classes\helper\HelperTreeShops.php line 29
 
 
 ### DEFAULT_HEADER_TEMPLATE
@@ -54,6 +59,7 @@ Constants
 
 
 
+* This constant is defined in classes\helper\HelperTreeShops.php line 31
 
 
 Properties
@@ -69,6 +75,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperTreeShops.php line 33
 
 
 ### $_selected_shops
@@ -80,6 +87,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperTreeShops.php line 34
 
 
 ### $_attributes
@@ -91,6 +99,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperTreeShops.php line 35
 
 
 ### $_context
@@ -102,6 +111,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperTreeShops.php line 36
 
 
 ### $_data
@@ -113,6 +123,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperTreeShops.php line 37
 
 
 ### $_data_search
@@ -124,6 +135,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperTreeShops.php line 38
 
 
 ### $_headerTemplate
@@ -135,6 +147,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperTreeShops.php line 39
 
 
 ### $_id_tree
@@ -146,6 +159,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperTreeShops.php line 40
 
 
 ### $_id
@@ -157,6 +171,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperTreeShops.php line 41
 
 
 ### $_node_folder_template
@@ -168,6 +183,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperTreeShops.php line 42
 
 
 ### $_node_item_template
@@ -179,6 +195,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperTreeShops.php line 43
 
 
 ### $_template
@@ -190,6 +207,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperTreeShops.php line 44
 
 
 ### $_template_directory
@@ -201,6 +219,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperTreeShops.php line 47
 
 
 ### $_title
@@ -212,6 +231,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperTreeShops.php line 48
 
 
 ### $_no_js
@@ -223,6 +243,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperTreeShops.php line 49
 
 
 ### $_toolbar
@@ -234,6 +255,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperTreeShops.php line 52
 
 
 Methods
@@ -249,7 +271,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 54
 
 
 #### Arguments
@@ -267,7 +290,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 176
 
 
 
@@ -281,6 +305,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperTreeShops.php line 56
 
 
 #### Arguments
@@ -297,6 +322,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperTreeShops.php line 62
 
 
 
@@ -310,7 +336,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 217
 
 
 
@@ -324,7 +351,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 232
 
 
 
@@ -338,6 +366,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperTreeShops.php line 89
 
 
 #### Arguments
@@ -354,6 +383,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperTreeShops.php line 99
 
 
 
@@ -367,7 +397,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 247
 
 
 
@@ -381,7 +412,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 378
 
 
 #### Arguments
@@ -398,7 +430,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 429
 
 
 #### Arguments
@@ -415,7 +448,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 63
 
 
 
@@ -429,7 +463,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 68
 
 
 #### Arguments
@@ -446,7 +481,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 78
 
 
 
@@ -460,7 +496,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 87
 
 
 #### Arguments
@@ -478,7 +515,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 97
 
 
 #### Arguments
@@ -495,7 +533,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 102
 
 
 #### Arguments
@@ -512,7 +551,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 112
 
 
 #### Arguments
@@ -529,7 +569,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 118
 
 
 
@@ -543,7 +584,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 123
 
 
 
@@ -557,7 +599,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 132
 
 
 #### Arguments
@@ -574,7 +617,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 138
 
 
 
@@ -588,7 +632,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 147
 
 
 #### Arguments
@@ -605,7 +650,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 157
 
 
 
@@ -619,7 +665,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 166
 
 
 #### Arguments
@@ -636,7 +683,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 185
 
 
 #### Arguments
@@ -653,7 +701,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 191
 
 
 
@@ -667,7 +716,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 200
 
 
 #### Arguments
@@ -684,7 +734,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 206
 
 
 
@@ -698,7 +749,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 211
 
 
 #### Arguments
@@ -715,7 +767,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 226
 
 
 #### Arguments
@@ -732,7 +785,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 241
 
 
 #### Arguments
@@ -749,7 +803,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 261
 
 
 #### Arguments
@@ -766,7 +821,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 270
 
 
 
@@ -780,7 +836,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 280
 
 
 #### Arguments
@@ -797,7 +854,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 312
 
 
 #### Arguments
@@ -814,7 +872,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 318
 
 
 #### Arguments
@@ -831,7 +890,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 324
 
 
 
@@ -845,7 +905,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 329
 
 
 #### Arguments
@@ -862,7 +923,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 345
 
 
 
@@ -876,7 +938,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 358
 
 
 #### Arguments
@@ -893,7 +956,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 368
 
 
 
@@ -907,7 +971,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 464
 
 
 
@@ -921,7 +986,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 469
 
 
 
@@ -935,7 +1001,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 474
 
 
 
@@ -949,7 +1016,8 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined by [TreeCore](TreeCore.md)
+* This method is defined by [TreeCore](TreeCore)
+* This method is defined in classes\helper\HelperTreeShops.php line 479
 
 
 #### Arguments

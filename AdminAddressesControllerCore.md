@@ -8,7 +8,8 @@ AdminAddressesControllerCore
 
 * Class name: AdminAddressesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminAddressesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminAddressesController.php line 33
 
 
 ### $object
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminAddressesController.php line 30
 
 
 Methods
@@ -53,6 +56,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAddressesController.php line 35
 
 
 
@@ -66,6 +70,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAddressesController.php line 88
 
 
 
@@ -79,6 +84,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAddressesController.php line 100
 
 
 
@@ -92,6 +98,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAddressesController.php line 113
 
 
 
@@ -105,6 +112,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAddressesController.php line 340
 
 
 
@@ -118,6 +126,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAddressesController.php line 431
 
 
 
@@ -131,6 +140,7 @@ Get Address formats used by the country where the address id retrieved from POST
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminAddressesController.php line 445
 
 
 
@@ -144,6 +154,7 @@ Method called when an ajax request is made
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAddressesController.php line 477
 
 
 
@@ -157,6 +168,7 @@ Object Delete
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAddressesController.php line 493
 
 
 
@@ -170,6 +182,7 @@ Delete multiple items
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminAddressesController.php line 516
 
 
 

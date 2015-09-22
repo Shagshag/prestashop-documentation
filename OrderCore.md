@@ -8,7 +8,8 @@ OrderCore
 
 * Class name: OrderCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\order\Order.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\order\Order.php line 29
 
 
 ### ROUND_LINE
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\order\Order.php line 30
 
 
 ### ROUND_TOTAL
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\order\Order.php line 31
 
 
 Properties
@@ -53,6 +57,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 35
 
 
 ### $id_address_invoice
@@ -64,6 +69,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 38
 
 
 ### $id_shop_group
@@ -75,6 +81,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 40
 
 
 ### $id_shop
@@ -86,6 +93,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 42
 
 
 ### $id_cart
@@ -97,6 +105,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 45
 
 
 ### $id_currency
@@ -108,6 +117,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 48
 
 
 ### $id_lang
@@ -119,6 +129,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 51
 
 
 ### $id_customer
@@ -130,6 +141,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 54
 
 
 ### $id_carrier
@@ -141,6 +153,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 57
 
 
 ### $current_state
@@ -152,6 +165,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 60
 
 
 ### $secure_key
@@ -163,6 +177,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 63
 
 
 ### $payment
@@ -174,6 +189,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 66
 
 
 ### $module
@@ -185,6 +201,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 69
 
 
 ### $conversion_rate
@@ -196,6 +213,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 72
 
 
 ### $recyclable
@@ -207,6 +225,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 75
 
 
 ### $gift
@@ -218,6 +237,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 78
 
 
 ### $gift_message
@@ -229,6 +249,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 81
 
 
 ### $mobile_theme
@@ -240,6 +261,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 84
 
 
 ### $shipping_number
@@ -251,6 +273,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 91
 
 
 ### $total_discounts
@@ -262,6 +285,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 94
 
 
 ### $total_discounts_tax_incl
@@ -273,6 +297,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 96
 
 
 ### $total_discounts_tax_excl
@@ -284,6 +309,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 97
 
 
 ### $total_paid
@@ -295,6 +321,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 100
 
 
 ### $total_paid_tax_incl
@@ -306,6 +333,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 103
 
 
 ### $total_paid_tax_excl
@@ -317,6 +345,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 106
 
 
 ### $total_paid_real
@@ -328,6 +357,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 109
 
 
 ### $total_products
@@ -339,6 +369,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 112
 
 
 ### $total_products_wt
@@ -350,6 +381,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 115
 
 
 ### $total_shipping
@@ -361,6 +393,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 118
 
 
 ### $total_shipping_tax_incl
@@ -372,6 +405,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 121
 
 
 ### $total_shipping_tax_excl
@@ -383,6 +417,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 124
 
 
 ### $carrier_tax_rate
@@ -394,6 +429,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 127
 
 
 ### $total_wrapping
@@ -405,6 +441,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 130
 
 
 ### $total_wrapping_tax_incl
@@ -416,6 +453,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 133
 
 
 ### $total_wrapping_tax_excl
@@ -427,6 +465,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 136
 
 
 ### $invoice_number
@@ -438,6 +477,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 139
 
 
 ### $delivery_number
@@ -449,6 +489,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 142
 
 
 ### $invoice_date
@@ -460,6 +501,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 145
 
 
 ### $delivery_date
@@ -471,6 +513,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 148
 
 
 ### $valid
@@ -482,6 +525,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 151
 
 
 ### $date_add
@@ -493,6 +537,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 154
 
 
 ### $date_upd
@@ -504,6 +549,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 157
 
 
 ### $reference
@@ -515,6 +561,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 162
 
 
 ### $round_mode
@@ -526,6 +573,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 167
 
 
 ### $round_type
@@ -537,6 +585,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\Order.php line 172
 
 
 ### $definition
@@ -549,6 +598,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\order\Order.php line 177
 
 
 ### $webserviceParameters
@@ -560,6 +610,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\Order.php line 229
 
 
 ### $_taxCalculationMethod
@@ -571,6 +622,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\Order.php line 277
 
 
 ### $_historyCache
@@ -583,6 +635,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\order\Order.php line 279
 
 
 ### $cacheCustomer
@@ -594,6 +647,7 @@ used to cache order customer
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\Order.php line 1048
 
 
 Methods
@@ -609,6 +663,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 281
 
 
 #### Arguments
@@ -626,6 +681,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 298
 
 
 
@@ -639,6 +695,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 307
 
 
 #### Arguments
@@ -656,6 +713,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 315
 
 
 
@@ -669,11 +727,12 @@ Does NOT delete a product but "cancel" it (which means return/refund/delete it d
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 329
 
 
 #### Arguments
 * $order **mixed**
-* $order_detail **OrderDetail**
+* $order_detail **[OrderDetail](OrderDetailCore)**
 * $quantity **integer**
 
 
@@ -688,6 +747,7 @@ It's similar to Order::getProducts but with similar outputs of Cart::getProducts
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 354
 
 
 
@@ -701,10 +761,11 @@ DOES delete the product
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\Order.php line 390
 
 
 #### Arguments
-* $order_detail **OrderDetail**
+* $order_detail **[OrderDetail](OrderDetailCore)**
 * $quantity **integer**
 
 
@@ -718,6 +779,7 @@ DOES delete the product
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 461
 
 
 #### Arguments
@@ -736,6 +798,7 @@ Get order history
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 491
 
 
 #### Arguments
@@ -755,6 +818,7 @@ Get order history
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 544
 
 
 
@@ -768,6 +832,7 @@ Get order history
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 554
 
 
 
@@ -783,6 +848,7 @@ This function is used in order to keep front office backward compatibility 14 ->
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 571
 
 
 #### Arguments
@@ -799,6 +865,7 @@ Get order products
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 597
 
 
 #### Arguments
@@ -818,6 +885,7 @@ Get order products
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 648
 
 
 #### Arguments
@@ -835,6 +903,7 @@ Get order products
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\Order.php line 661
 
 
 #### Arguments
@@ -853,6 +922,7 @@ If advanced stock management is active, get physical stock of this product in th
 Else get the available quantity of the product in fucntion of the shop associated to the order
 
 * Visibility: **protected**
+* This method is defined in classes\order\Order.php line 680
 
 
 #### Arguments
@@ -869,6 +939,7 @@ This method allow to add image information on a product detail
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\Order.php line 696
 
 
 #### Arguments
@@ -885,6 +956,7 @@ This method allow to add image information on a product detail
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 724
 
 
 
@@ -898,6 +970,7 @@ Count virtual products in order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 734
 
 
 
@@ -911,6 +984,7 @@ Check if order contains (only) virtual products
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 751
 
 
 #### Arguments
@@ -927,6 +1001,7 @@ Check if order contains (only) virtual products
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 774
 
 
 #### Arguments
@@ -943,6 +1018,7 @@ Check if order contains (only) virtual products
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 780
 
 
 
@@ -957,6 +1033,7 @@ Check if order contains (only) virtual products
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 788
 
 
 #### Arguments
@@ -974,6 +1051,7 @@ Get current order status (eg. Awaiting payment, Delivered.
 ..)
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 808
 
 
 
@@ -987,6 +1065,7 @@ Get current order status name (eg. Awaiting payment, Delivered.
 ..)
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 818
 
 
 #### Arguments
@@ -1003,6 +1082,7 @@ Get current order status name (eg. Awaiting payment, Delivered.
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 827
 
 
 
@@ -1016,6 +1096,7 @@ Has products returned by the merchant or by the customer?
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 835
 
 
 
@@ -1029,6 +1110,7 @@ Has products returned by the merchant or by the customer?
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 847
 
 
 
@@ -1042,6 +1124,7 @@ Has products returned by the merchant or by the customer?
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 852
 
 
 
@@ -1055,6 +1138,7 @@ Has products returned by the merchant or by the customer?
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 857
 
 
 
@@ -1068,6 +1152,7 @@ Checks if the current order status is paid and shipped
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 867
 
 
 
@@ -1082,12 +1167,13 @@ Get customer orders
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 883
 
 
 #### Arguments
 * $id_customer **integer** - &lt;p&gt;Customer id&lt;/p&gt;
 * $show_hidden_status **boolean** - &lt;p&gt;Display or not hidden order statuses&lt;/p&gt;
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -1101,6 +1187,7 @@ Get customer orders
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 916
 
 
 #### Arguments
@@ -1121,11 +1208,12 @@ Get customer orders
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 933
 
 
 #### Arguments
 * $limit **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -1139,6 +1227,7 @@ Get customer orders
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 965
 
 
 #### Arguments
@@ -1159,6 +1248,7 @@ Get customer orders
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 990
 
 
 #### Arguments
@@ -1175,6 +1265,7 @@ Get product total without taxes
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1012
 
 
 #### Arguments
@@ -1191,6 +1282,7 @@ Get product total with taxes
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1022
 
 
 #### Arguments
@@ -1207,6 +1299,7 @@ Get order customer
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1055
 
 
 
@@ -1221,6 +1314,7 @@ Get customer orders number
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 1070
 
 
 #### Arguments
@@ -1238,6 +1332,7 @@ Get an order by its cart id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 1087
 
 
 #### Arguments
@@ -1254,6 +1349,7 @@ Get an order by its cart id
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1106
 
 
 #### Arguments
@@ -1272,6 +1368,7 @@ Get an order by its cart id
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1120
 
 
 #### Arguments
@@ -1292,6 +1389,7 @@ Get an order by its cart id
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1137
 
 
 
@@ -1305,6 +1403,7 @@ Can this order be returned by the client?
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1157
 
 
 
@@ -1319,6 +1418,7 @@ Can this order be returned by the client?
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 1166
 
 
 
@@ -1333,6 +1433,7 @@ Can this order be returned by the client?
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 1174
 
 
 #### Arguments
@@ -1350,6 +1451,7 @@ Can this order be returned by the client?
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1200
 
 
 #### Arguments
@@ -1366,6 +1468,7 @@ This method allows to generate first invoice of the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1216
 
 
 #### Arguments
@@ -1382,6 +1485,7 @@ This method allows to fulfill the object order_invoice with sales figures
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\Order.php line 1312
 
 
 #### Arguments
@@ -1398,6 +1502,7 @@ This method allows to generate first delivery slip of the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1362
 
 
 
@@ -1411,6 +1516,7 @@ This method allows to generate first delivery slip of the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1375
 
 
 #### Arguments
@@ -1428,6 +1534,7 @@ This method allows to generate first delivery slip of the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1403
 
 
 #### Arguments
@@ -1444,6 +1551,7 @@ This method allows to generate first delivery slip of the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1416
 
 
 
@@ -1458,6 +1566,7 @@ This method allows to generate first delivery slip of the current order
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 1442
 
 
 #### Arguments
@@ -1475,6 +1584,7 @@ Get a collection of orders using reference
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 1460
 
 
 #### Arguments
@@ -1491,6 +1601,7 @@ Get a collection of orders using reference
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1467
 
 
 
@@ -1505,6 +1616,7 @@ Get a collection of orders using reference
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 1481
 
 
 #### Arguments
@@ -1521,6 +1633,7 @@ Get a collection of orders using reference
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1490
 
 
 #### Arguments
@@ -1538,6 +1651,7 @@ Get a collection of orders using reference
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 1510
 
 
 #### Arguments
@@ -1555,6 +1669,7 @@ Get a collection of orders using reference
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1519
 
 
 
@@ -1568,6 +1683,7 @@ Set current order status
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1545
 
 
 #### Arguments
@@ -1585,6 +1701,7 @@ Set current order status
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1567
 
 
 #### Arguments
@@ -1602,6 +1719,7 @@ Set current order status
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1577
 
 
 
@@ -1615,6 +1733,7 @@ This method return the ID of the previous order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1589
 
 
 
@@ -1628,6 +1747,7 @@ This method return the ID of the next order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1604
 
 
 
@@ -1641,6 +1761,7 @@ Get the an order detail list of the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1618
 
 
 
@@ -1656,6 +1777,7 @@ This references, is usefull for check payment
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 1629
 
 
 
@@ -1669,6 +1791,7 @@ This references, is usefull for check payment
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1634
 
 
 #### Arguments
@@ -1686,6 +1809,7 @@ One After Another tax computation method.
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1651
 
 
 
@@ -1699,6 +1823,7 @@ This method allows to get all Order Payment for the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1668
 
 
 
@@ -1712,15 +1837,16 @@ This method allows to add a payment to the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1687
 
 
 #### Arguments
 * $amount_paid **float**
 * $payment_method **string**
 * $payment_transaction_id **string**
-* $currency **Currency**
+* $currency **[Currency](CurrencyCore)**
 * $date **string**
-* $order_invoice **OrderInvoice**
+* $order_invoice **[OrderInvoice](OrderInvoiceCore)**
 
 
 
@@ -1733,6 +1859,7 @@ Returns the correct product taxes breakdown.
 Get all documents linked to the current order
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1739
 
 
 
@@ -1746,6 +1873,7 @@ Get all documents linked to the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1764
 
 
 
@@ -1759,6 +1887,7 @@ Get all documents linked to the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1773
 
 
 
@@ -1772,6 +1901,7 @@ Get all order_slips for the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1797
 
 
 
@@ -1785,6 +1915,7 @@ Get all invoices for the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1810
 
 
 
@@ -1798,6 +1929,7 @@ Get all delivery slips for the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1823
 
 
 
@@ -1811,6 +1943,7 @@ Get all not paid invoices for the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1836
 
 
 
@@ -1824,10 +1957,11 @@ Get total paid
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1856
 
 
 #### Arguments
-* $currency **Currency** - &lt;p&gt;currency used for the total paid of the current order&lt;/p&gt;
+* $currency **[Currency](CurrencyCore)** - &lt;p&gt;currency used for the total paid of the current order&lt;/p&gt;
 
 
 
@@ -1840,6 +1974,7 @@ Get the sum of total_paid_tax_incl of the orders with similar reference
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1888
 
 
 
@@ -1853,6 +1988,7 @@ This method allows to change the shipping cost of the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1905
 
 
 #### Arguments
@@ -1869,6 +2005,7 @@ Returns the correct product taxes breakdown.
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1928
 
 
 
@@ -1882,6 +2019,7 @@ Returns the shipping taxes breakdown
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 1983
 
 
 
@@ -1895,6 +2033,7 @@ Returns the wrapping taxes breakdown
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2006
 
 
 
@@ -1908,6 +2047,7 @@ Returns the ecotax taxes breakdown
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2018
 
 
 
@@ -1921,6 +2061,7 @@ Has invoice return true if this order has already an invoice
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2032
 
 
 
@@ -1934,6 +2075,7 @@ Has Delivery return true if this order has already a delivery slip
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2047
 
 
 
@@ -1947,6 +2089,7 @@ Get warehouse associated to the order
 return array List of warehouse
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2062
 
 
 
@@ -1960,6 +2103,7 @@ return array List of warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2085
 
 
 
@@ -1973,6 +2117,7 @@ return array List of warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2096
 
 
 #### Arguments
@@ -1992,6 +2137,7 @@ Get all other orders with the same reference
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2107
 
 
 
@@ -2005,6 +2151,7 @@ Get a collection of order payments
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2120
 
 
 
@@ -2019,6 +2166,7 @@ With multishipping, order reference are the same for all orders made with the sa
 in this case this method suffix the order reference by a # and the order number
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2133
 
 
 
@@ -2034,6 +2182,7 @@ in this case this method suffix the order reference by a # and the order number
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 2157
 
 
 #### Arguments
@@ -2050,6 +2199,7 @@ Return id of carrier
 Get id of the carrier used in order
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2170
 
 
 
@@ -2064,6 +2214,7 @@ Get id of the carrier used in order
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\Order.php line 2178
 
 
 #### Arguments
@@ -2081,6 +2232,7 @@ Get id of the carrier used in order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2186
 
 
 
@@ -2094,6 +2246,7 @@ Get id of the carrier used in order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2199
 
 
 #### Arguments
@@ -2110,6 +2263,7 @@ Get id of the carrier used in order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2218
 
 
 
@@ -2123,6 +2277,7 @@ Get id of the carrier used in order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2223
 
 
 #### Arguments
@@ -2140,6 +2295,7 @@ If you provide $limitToOrderDetails, only these item will be taken into account.
 where only sublist of the order is refunded.
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2240
 
 
 #### Arguments
@@ -2163,6 +2319,7 @@ products without tax.
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2393
 
 
 
@@ -2176,6 +2333,7 @@ products without tax.
 
 
 * Visibility: **public**
+* This method is defined in classes\order\Order.php line 2419
 
 
 

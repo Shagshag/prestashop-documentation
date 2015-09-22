@@ -8,7 +8,8 @@ HelperFormCore
 
 * Class name: HelperFormCore
 * Namespace: 
-* Parent class: Helper
+* Parent class: [Helper](HelperCore)
+* This class is defined in classes\helper\HelperForm.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperForm.php line 32
 
 
 ### $first_call
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperForm.php line 33
 
 
 ### $fields_form
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperForm.php line 36
 
 
 ### $fields_value
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperForm.php line 39
 
 
 ### $name_controller
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperForm.php line 40
 
 
 ### $title
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperForm.php line 43
 
 
 ### $submit_action
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperForm.php line 46
 
 
 ### $token
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperForm.php line 48
 
 
 ### $languages
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperForm.php line 49
 
 
 ### $default_form_language
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperForm.php line 50
 
 
 ### $allow_employee_form_lang
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperForm.php line 51
 
 
 ### $show_cancel_button
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperForm.php line 52
 
 
 ### $back_url
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperForm.php line 53
 
 
 Methods
@@ -174,6 +188,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperForm.php line 55
 
 
 
@@ -187,6 +202,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperForm.php line 62
 
 
 #### Arguments
@@ -203,6 +219,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperForm.php line 68
 
 
 
@@ -216,6 +233,7 @@ Return true if there are required fields
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperForm.php line 260
 
 
 
@@ -229,6 +247,7 @@ Render an area to determinate shop association
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperForm.php line 279
 
 
 #### Arguments

@@ -8,8 +8,9 @@ DiscountCore
 
 * Class name: DiscountCore
 * Namespace: 
-* Parent class: CartRule
+* Parent class: [CartRule](CartRuleCore)
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
+* This class is defined in classes\Discount.php line 30
 
 
 
@@ -24,6 +25,7 @@ Constants
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
+* This constant is defined in classes\Discount.php line 32
 
 
 ### AMOUNT
@@ -33,6 +35,7 @@ Constants
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
+* This constant is defined in classes\Discount.php line 33
 
 
 ### FREE_SHIPPING
@@ -42,6 +45,7 @@ Constants
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
+* This constant is defined in classes\Discount.php line 34
 
 
 
@@ -60,6 +64,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\Discount.php line 36
 
 
 #### Arguments
@@ -77,6 +82,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\Discount.php line 87
 
 
 #### Arguments
@@ -95,6 +101,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\Discount.php line 137
 
 
 #### Arguments
@@ -113,6 +120,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\Discount.php line 150
 
 
 #### Arguments
@@ -132,6 +140,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\Discount.php line 160
 
 
 #### Arguments
@@ -152,6 +161,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\Discount.php line 170
 
 
 #### Arguments
@@ -170,6 +180,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\Discount.php line 178
 
 
 #### Arguments
@@ -178,7 +189,7 @@ Methods
 * $active **mixed**
 * $includeGenericOnes **mixed**
 * $hasStock **mixed**
-* $cart **Cart**
+* $cart **[Cart](CartCore)**
 
 
 
@@ -193,6 +204,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\Discount.php line 186
 
 
 #### Arguments
@@ -211,6 +223,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\Discount.php line 194
 
 
 #### Arguments
@@ -219,8 +232,8 @@ Methods
 * $shipping_fees **mixed**
 * $id_cart **mixed**
 * $useTax **mixed**
-* $currency **Currency**
-* $shop **Shop**
+* $currency **[Currency](CurrencyCore)**
+* $shop **[Shop](ShopCore)**
 
 
 
@@ -235,6 +248,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\Discount.php line 212
 
 
 #### Arguments
@@ -254,10 +268,11 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\Discount.php line 222
 
 
 #### Arguments
-* $order **Order**
+* $order **[Order](OrderCore)**
 * $productList **mixed**
 * $qtyList **mixed**
 * $name **mixed**
@@ -278,6 +293,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\Discount.php line 277
 
 
 #### Arguments

@@ -8,7 +8,8 @@ AdminStoresControllerCore
 
 * Class name: AdminStoresControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminStoresController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminStoresController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStoresController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStoresController.php line 118
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStoresController.php line 129
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStoresController.php line 140
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStoresController.php line 153
 
 
 
@@ -107,6 +114,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStoresController.php line 173
 
 
 
@@ -120,6 +128,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStoresController.php line 352
 
 
 
@@ -133,6 +142,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStoresController.php line 412
 
 
 #### Arguments
@@ -149,6 +159,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStoresController.php line 436
 
 
 
@@ -162,6 +173,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStoresController.php line 525
 
 
 #### Arguments
@@ -178,6 +190,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStoresController.php line 559
 
 
 
@@ -191,6 +204,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStoresController.php line 572
 
 
 #### Arguments
@@ -207,6 +221,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStoresController.php line 583
 
 
 #### Arguments

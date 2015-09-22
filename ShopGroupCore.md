@@ -8,7 +8,8 @@ ShopGroupCore
 
 * Class name: ShopGroupCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\shop\ShopGroup.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopGroup.php line 32
 
 
 ### $active
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopGroup.php line 33
 
 
 ### $share_customer
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopGroup.php line 34
 
 
 ### $share_stock
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopGroup.php line 35
 
 
 ### $share_order
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopGroup.php line 36
 
 
 ### $deleted
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopGroup.php line 37
 
 
 ### $definition
@@ -94,6 +101,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\shop\ShopGroup.php line 42
 
 
 Methods
@@ -109,6 +117,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\ShopGroup.php line 59
 
 
 
@@ -123,6 +132,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\ShopGroup.php line 68
 
 
 #### Arguments
@@ -140,6 +150,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\ShopGroup.php line 81
 
 
 #### Arguments
@@ -156,6 +167,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\ShopGroup.php line 86
 
 
 
@@ -169,6 +181,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\ShopGroup.php line 91
 
 
 
@@ -183,6 +196,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\ShopGroup.php line 99
 
 
 #### Arguments
@@ -200,6 +214,7 @@ Return a group shop ID from group shop name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\ShopGroup.php line 113
 
 
 #### Arguments
@@ -217,6 +232,7 @@ Detect dependency with customer or orders
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\ShopGroup.php line 128
 
 
 #### Arguments
@@ -234,6 +250,7 @@ Detect dependency with customer or orders
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\ShopGroup.php line 160
 
 
 #### Arguments

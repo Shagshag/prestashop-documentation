@@ -8,7 +8,8 @@ AdminDeliverySlipControllerCore
 
 * Class name: AdminDeliverySlipControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminDeliverySlipController.php line 27
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDeliverySlipController.php line 29
 
 
 
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDeliverySlipController.php line 66
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDeliverySlipController.php line 105
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminDeliverySlipController.php line 126
 
 
 

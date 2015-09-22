@@ -8,7 +8,8 @@ StoresControllerCore
 
 * Class name: StoresControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\StoresController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\StoresController.php line 29
 
 
 Methods
@@ -42,6 +44,7 @@ Initialize stores controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\StoresController.php line 35
 
 
 
@@ -55,6 +58,7 @@ Get formatted string address
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\StoresController.php line 52
 
 
 #### Arguments
@@ -71,6 +75,7 @@ Assign template vars for simplified stores
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\StoresController.php line 89
 
 
 
@@ -84,6 +89,7 @@ Assign template vars for simplified stores
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\StoresController.php line 124
 
 
 #### Arguments
@@ -100,6 +106,7 @@ Assign template vars for simplified stores
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\StoresController.php line 162
 
 
 
@@ -113,6 +120,7 @@ Assign template vars for classical stores
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\StoresController.php line 209
 
 
 
@@ -126,6 +134,7 @@ Display the Xml for showing the nodes in the google map
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\StoresController.php line 228
 
 
 
@@ -139,6 +148,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\StoresController.php line 261
 
 
 
@@ -152,6 +162,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\StoresController.php line 282
 
 
 

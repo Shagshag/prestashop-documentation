@@ -8,7 +8,8 @@ OrderCartRuleCore
 
 * Class name: OrderCartRuleCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\order\OrderCartRule.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCartRule.php line 30
 
 
 ### $id_order
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCartRule.php line 33
 
 
 ### $id_cart_rule
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCartRule.php line 36
 
 
 ### $id_order_invoice
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCartRule.php line 39
 
 
 ### $name
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCartRule.php line 42
 
 
 ### $value
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCartRule.php line 45
 
 
 ### $value_tax_excl
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCartRule.php line 48
 
 
 ### $free_shipping
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCartRule.php line 51
 
 
 ### $definition
@@ -116,6 +125,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\order\OrderCartRule.php line 56
 
 
 ### $webserviceParameters
@@ -127,6 +137,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderCartRule.php line 70
 
 
 

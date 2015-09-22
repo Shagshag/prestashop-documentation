@@ -8,7 +8,8 @@ FeatureCore
 
 * Class name: FeatureCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Feature.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Feature.php line 30
 
 
 ### $position
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Feature.php line 31
 
 
 ### $definition
@@ -50,6 +53,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Feature.php line 36
 
 
 ### $webserviceParameters
@@ -61,6 +65,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Feature.php line 49
 
 
 Methods
@@ -77,6 +82,7 @@ Get a feature data for a given id_feature and id_lang
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Feature.php line 62
 
 
 #### Arguments
@@ -95,6 +101,7 @@ Get all features for a given language
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Feature.php line 79
 
 
 #### Arguments
@@ -112,6 +119,7 @@ Delete several objects from database
 
 
 * Visibility: **public**
+* This method is defined in classes\Feature.php line 95
 
 
 #### Arguments
@@ -128,6 +136,7 @@ Delete several objects from database
 
 
 * Visibility: **public**
+* This method is defined in classes\Feature.php line 107
 
 
 #### Arguments
@@ -145,6 +154,7 @@ Delete several objects from database
 
 
 * Visibility: **public**
+* This method is defined in classes\Feature.php line 118
 
 
 
@@ -158,6 +168,7 @@ Delete several objects from database
 
 
 * Visibility: **public**
+* This method is defined in classes\Feature.php line 152
 
 
 #### Arguments
@@ -175,6 +186,7 @@ Count number of features for a given language
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Feature.php line 186
 
 
 #### Arguments
@@ -192,6 +204,7 @@ Create a feature from import
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Feature.php line 203
 
 
 #### Arguments
@@ -210,6 +223,7 @@ Create a feature from import
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Feature.php line 234
 
 
 #### Arguments
@@ -228,6 +242,7 @@ This metohd is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Feature.php line 270
 
 
 
@@ -241,6 +256,7 @@ Move a feature
 
 
 * Visibility: **public**
+* This method is defined in classes\Feature.php line 281
 
 
 #### Arguments
@@ -261,6 +277,7 @@ Call it after deleting a feature.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Feature.php line 323
 
 
 
@@ -275,6 +292,7 @@ Get the higher feature position
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Feature.php line 337
 
 
 

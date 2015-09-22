@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Foundation_FileSystem_Exception
 * Namespace: 
-* Parent class: [Core_Foundation_Exception_Exception](Core_Foundation_Exception_Exception.md)
+* Parent class: [Core_Foundation_Exception_Exception](Core_Foundation_Exception_Exception)
+* This class is defined in Core\Foundation\Filesystem\Core_Foundation_FileSystem_Exception.php line 27
 
 
 
@@ -43,7 +44,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [Core_Foundation_Exception_Exception](Core_Foundation_Exception_Exception.md)
+* This method is defined by [Core_Foundation_Exception_Exception](Core_Foundation_Exception_Exception)
+* This method is defined in Core\Foundation\Filesystem\Core_Foundation_FileSystem_Exception.php line 29
 
 
 #### Arguments

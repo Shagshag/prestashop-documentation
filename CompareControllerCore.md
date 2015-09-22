@@ -8,7 +8,8 @@ CompareControllerCore
 
 * Class name: CompareControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\CompareController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\CompareController.php line 29
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CompareController.php line 31
 
 
 
@@ -55,6 +58,7 @@ Display ajax content (this function is called instead of classic display, in aja
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CompareController.php line 40
 
 
 
@@ -68,6 +72,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CompareController.php line 69
 
 
 

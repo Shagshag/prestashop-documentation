@@ -9,6 +9,7 @@ ModuleCore
 * Class name: ModuleCore
 * Namespace: 
 * This is an **abstract** class
+* This class is defined in classes\module\Module.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\module\Module.php line 167
 
 
 ### CACHE_FILE_TAB_MODULES_LIST
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\module\Module.php line 169
 
 
 ### CACHE_FILE_ALL_COUNTRY_MODULES_LIST
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\module\Module.php line 171
 
 
 ### CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST
@@ -46,6 +50,7 @@ Constants
 
 
 
+* This constant is defined in classes\module\Module.php line 172
 
 
 ### CACHE_FILE_CUSTOMER_MODULES_LIST
@@ -54,6 +59,7 @@ Constants
 
 
 
+* This constant is defined in classes\module\Module.php line 174
 
 
 ### CACHE_FILE_MUST_HAVE_MODULES_LIST
@@ -62,6 +68,7 @@ Constants
 
 
 
+* This constant is defined in classes\module\Module.php line 176
 
 
 ### CACHE_FILE_TRUSTED_MODULES_LIST
@@ -70,6 +77,7 @@ Constants
 
 
 
+* This constant is defined in classes\module\Module.php line 178
 
 
 ### CACHE_FILE_UNTRUSTED_MODULES_LIST
@@ -78,6 +86,7 @@ Constants
 
 
 
+* This constant is defined in classes\module\Module.php line 179
 
 
 Properties
@@ -93,6 +102,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 30
 
 
 ### $version
@@ -104,6 +114,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 33
 
 
 ### $database_version
@@ -115,6 +126,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 34
 
 
 ### $registered_version
@@ -126,6 +138,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 40
 
 
 ### $ps_versions_compliancy
@@ -137,6 +150,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 43
 
 
 ### $dependencies
@@ -148,6 +162,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 46
 
 
 ### $name
@@ -159,6 +174,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 49
 
 
 ### $displayName
@@ -170,6 +186,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 52
 
 
 ### $description
@@ -181,6 +198,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 55
 
 
 ### $author
@@ -192,6 +210,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 58
 
 
 ### $author_uri
@@ -203,6 +222,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 61
 
 
 ### $module_key
@@ -214,6 +234,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 64
 
 
 ### $description_full
@@ -225,6 +246,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 66
 
 
 ### $additional_description
@@ -236,6 +258,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 68
 
 
 ### $compatibility
@@ -247,6 +270,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 70
 
 
 ### $nb_rates
@@ -258,6 +282,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 72
 
 
 ### $avg_rate
@@ -269,6 +294,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 74
 
 
 ### $badges
@@ -280,6 +306,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 76
 
 
 ### $need_instance
@@ -291,6 +318,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 79
 
 
 ### $tab
@@ -302,6 +330,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 82
 
 
 ### $active
@@ -313,6 +342,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 85
 
 
 ### $trusted
@@ -324,6 +354,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 88
 
 
 ### $warning
@@ -335,6 +366,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 91
 
 
 ### $enable_device
@@ -346,6 +378,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 93
 
 
 ### $limited_countries
@@ -357,6 +390,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 96
 
 
 ### $controllers
@@ -368,6 +402,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 99
 
 
 ### $classInModule
@@ -380,6 +415,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 102
 
 
 ### $_lang
@@ -391,6 +427,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\Module.php line 105
 
 
 ### $_path
@@ -402,6 +439,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\Module.php line 108
 
 
 ### $local_path
@@ -413,6 +451,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\Module.php line 113
 
 
 ### $_errors
@@ -424,6 +463,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\Module.php line 116
 
 
 ### $_confirmations
@@ -435,6 +475,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\Module.php line 119
 
 
 ### $table
@@ -446,6 +487,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\Module.php line 122
 
 
 ### $identifier
@@ -457,6 +499,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\Module.php line 125
 
 
 ### $modules_cache
@@ -469,6 +512,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 128
 
 
 ### $_INSTANCE
@@ -481,6 +525,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 131
 
 
 ### $_generate_config_xml_mode
@@ -493,6 +538,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 134
 
 
 ### $l_cache
@@ -505,6 +551,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 137
 
 
 ### $cache_permissions
@@ -517,6 +564,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 140
 
 
 ### $context
@@ -528,6 +576,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\Module.php line 143
 
 
 ### $smarty
@@ -539,6 +588,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\Module.php line 146
 
 
 ### $current_subtemplate
@@ -550,6 +600,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\Module.php line 149
 
 
 ### $update_translations_after_install
@@ -562,6 +613,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 151
 
 
 ### $_batch_mode
@@ -574,6 +626,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 153
 
 
 ### $_defered_clearCache
@@ -586,6 +639,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 154
 
 
 ### $_defered_func_call
@@ -598,6 +652,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 155
 
 
 ### $allow_push
@@ -609,6 +664,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 158
 
 
 ### $push_time_limit
@@ -620,6 +676,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\Module.php line 160
 
 
 ### $_log_modules_perfs
@@ -632,6 +689,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 163
 
 
 ### $_log_modules_perfs_session
@@ -644,6 +702,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 165
 
 
 ### $hosted_modules_blacklist
@@ -656,6 +715,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\module\Module.php line 181
 
 
 Methods
@@ -672,6 +732,7 @@ Set the flag to indicate we are doing an import
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 188
 
 
 #### Arguments
@@ -689,6 +750,7 @@ Set the flag to indicate we are doing an import
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 196
 
 
 
@@ -703,6 +765,7 @@ Set the flag to indicate we are doing an import
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 201
 
 
 
@@ -717,6 +780,7 @@ Clear the caches stored in $_defered_clearCache
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 215
 
 
 
@@ -730,11 +794,12 @@ Constructor
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 232
 
 
 #### Arguments
 * $name **string** - &lt;p&gt;Module unique name&lt;/p&gt;
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -747,6 +812,7 @@ Insert module into datable
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 306
 
 
 
@@ -760,6 +826,7 @@ Insert module into datable
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 398
 
 
 
@@ -774,6 +841,7 @@ Insert module into datable
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 407
 
 
 #### Arguments
@@ -790,6 +858,7 @@ Insert module into datable
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 412
 
 
 
@@ -803,6 +872,7 @@ Set errors, warning or success message of a module upgrade
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\Module.php line 422
 
 
 #### Arguments
@@ -820,6 +890,7 @@ Init the upgrade module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 452
 
 
 #### Arguments
@@ -836,6 +907,7 @@ Run the upgrade for a given module name and version
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 481
 
 
 
@@ -850,6 +922,7 @@ Upgrade the registered version to a new one
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 535
 
 
 #### Arguments
@@ -868,6 +941,7 @@ This method modify the module_cache adding an upgrade list file
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 550
 
 
 #### Arguments
@@ -886,6 +960,7 @@ with an associated version
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 573
 
 
 #### Arguments
@@ -905,6 +980,7 @@ Return the status of the upgraded module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 627
 
 
 #### Arguments
@@ -921,6 +997,7 @@ Delete module from datable
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 638
 
 
 
@@ -936,6 +1013,7 @@ this will enable all of them
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 696
 
 
 #### Arguments
@@ -952,6 +1030,7 @@ Activate current module.
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 717
 
 
 #### Arguments
@@ -968,6 +1047,7 @@ Activate current module.
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 749
 
 
 #### Arguments
@@ -984,6 +1064,7 @@ Activate current module.
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 761
 
 
 #### Arguments
@@ -1002,6 +1083,7 @@ this will disable all of them
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 781
 
 
 #### Arguments
@@ -1018,6 +1100,7 @@ Desactivate current module.
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 802
 
 
 #### Arguments
@@ -1034,6 +1117,7 @@ Display flags in forms for translations
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 820
 
 
 #### Arguments
@@ -1055,6 +1139,7 @@ Connect module to a hook
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 854
 
 
 #### Arguments
@@ -1072,6 +1157,7 @@ Unregister module from hook
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 948
 
 
 #### Arguments
@@ -1089,6 +1175,7 @@ Unregister exceptions linked to module
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 985
 
 
 #### Arguments
@@ -1106,6 +1193,7 @@ Add exceptions for module->Hook
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 1001
 
 
 #### Arguments
@@ -1124,6 +1212,7 @@ Edit exceptions for module->Hook
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 1036
 
 
 #### Arguments
@@ -1144,6 +1233,7 @@ related to a module in its directory (instead of $_LANGADM)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1057
 
 
 #### Arguments
@@ -1161,6 +1251,7 @@ Return an instance of the specified module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1095
 
 
 #### Arguments
@@ -1178,6 +1269,7 @@ Return an instance of the specified module
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1113
 
 
 #### Arguments
@@ -1195,6 +1287,7 @@ Return an instance of the specified module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1164
 
 
 #### Arguments
@@ -1212,6 +1305,7 @@ Return an instance of the specified module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1185
 
 
 #### Arguments
@@ -1229,6 +1323,7 @@ Return an instance of the specified module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1191
 
 
 #### Arguments
@@ -1246,6 +1341,7 @@ Return an instance of the specified module
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1230
 
 
 
@@ -1260,6 +1356,7 @@ Return available modules
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1251
 
 
 #### Arguments
@@ -1279,6 +1376,7 @@ Return modules directory list
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1578
 
 
 
@@ -1293,6 +1391,7 @@ Return non native module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1603
 
 
 
@@ -1307,6 +1406,7 @@ Return non native module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1630
 
 
 
@@ -1321,6 +1421,7 @@ Return installed modules
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1665
 
 
 #### Arguments
@@ -1338,6 +1439,7 @@ Return if the module is provided by addons.prestashop.com or not
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1684
 
 
 #### Arguments
@@ -1355,6 +1457,7 @@ Generate XML files for trusted and untrusted modules
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1752
 
 
 
@@ -1369,6 +1472,7 @@ Create the Addons API call from the module name only
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1840
 
 
 #### Arguments
@@ -1386,6 +1490,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1866
 
 
 #### Arguments
@@ -1405,6 +1510,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1877
 
 
 
@@ -1419,6 +1525,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1883
 
 
 #### Arguments
@@ -1436,6 +1543,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1891
 
 
 
@@ -1450,6 +1558,7 @@ Returns the list of the payment module associated to the current customer
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1902
 
 
 
@@ -1464,6 +1573,7 @@ Returns the list of the payment module associated to the current customer
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 1948
 
 
 #### Arguments
@@ -1484,6 +1594,7 @@ Otherwise, translation key will not match for Module library
 when module is loaded with eval() Module::getModulesOnDisk()
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 1964
 
 
 #### Arguments
@@ -1501,6 +1612,7 @@ when module is loaded with eval() Module::getModulesOnDisk()
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 1980
 
 
 #### Arguments
@@ -1519,6 +1631,7 @@ when module is loaded with eval() Module::getModulesOnDisk()
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2033
 
 
 #### Arguments
@@ -1536,6 +1649,7 @@ Helper displaying error message(s)
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2063
 
 
 #### Arguments
@@ -1552,6 +1666,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2092
 
 
 #### Arguments
@@ -1568,6 +1683,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2115
 
 
 #### Arguments
@@ -1585,6 +1701,7 @@ Helper displaying warning message(s)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 2134
 
 
 #### Arguments
@@ -1603,6 +1720,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2188
 
 
 #### Arguments
@@ -1621,6 +1739,7 @@ Helper displaying warning message(s)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 2193
 
 
 #### Arguments
@@ -1637,6 +1756,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2203
 
 
 
@@ -1651,6 +1771,7 @@ Helper displaying warning message(s)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 2214
 
 
 #### Arguments
@@ -1667,6 +1788,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2228
 
 
 #### Arguments
@@ -1684,6 +1806,7 @@ Helper displaying warning message(s)
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 2244
 
 
 #### Arguments
@@ -1701,6 +1824,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\Module.php line 2262
 
 
 #### Arguments
@@ -1717,6 +1841,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\Module.php line 2267
 
 
 #### Arguments
@@ -1733,6 +1858,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2291
 
 
 #### Arguments
@@ -1752,6 +1878,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\Module.php line 2328
 
 
 #### Arguments
@@ -1770,6 +1897,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\Module.php line 2341
 
 
 #### Arguments
@@ -1788,6 +1916,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2353
 
 
 #### Arguments
@@ -1804,6 +1933,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\Module.php line 2373
 
 
 #### Arguments
@@ -1820,6 +1950,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2378
 
 
 #### Arguments
@@ -1838,6 +1969,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\Module.php line 2399
 
 
 #### Arguments
@@ -1857,6 +1989,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 2444
 
 
 #### Arguments
@@ -1875,6 +2008,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\Module.php line 2453
 
 
 
@@ -1888,6 +2022,7 @@ Check if the module is transplantable on the hook in parameter
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2490
 
 
 #### Arguments
@@ -1904,6 +2039,7 @@ Check employee permission for module
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2502
 
 
 #### Arguments
@@ -1922,6 +2058,7 @@ Check employee permission for module (static method)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 2514
 
 
 #### Arguments
@@ -1941,6 +2078,7 @@ Get Unauthorized modules for a client group
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 2551
 
 
 #### Arguments
@@ -1958,6 +2096,7 @@ Get ID module by name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\Module.php line 2565
 
 
 #### Arguments
@@ -1974,6 +2113,7 @@ Get module errors
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2582
 
 
 
@@ -1987,6 +2127,7 @@ Get module messages confirmation
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2593
 
 
 
@@ -2000,6 +2141,7 @@ Get local path for module
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2604
 
 
 
@@ -2013,6 +2155,7 @@ Get uri path for module
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2615
 
 
 
@@ -2026,6 +2169,7 @@ Get uri path for module
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2626
 
 
 #### Arguments
@@ -2042,6 +2186,7 @@ add a warning message to display at the top of the admin page
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2652
 
 
 #### Arguments
@@ -2058,6 +2203,7 @@ add a info message to display at the top of the admin page
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\Module.php line 2665
 
 
 #### Arguments
@@ -2074,6 +2220,7 @@ Install module's controllers using public property $controllers
 
 
 * Visibility: **private**
+* This method is defined in classes\module\Module.php line 2677
 
 
 
@@ -2087,6 +2234,7 @@ Install overrides files for the module
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2718
 
 
 
@@ -2100,6 +2248,7 @@ Uninstall overrides files for the module
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2740
 
 
 
@@ -2113,6 +2262,7 @@ Add all methods in a module override to the override class
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2763
 
 
 #### Arguments
@@ -2129,6 +2279,7 @@ Remove all methods in a module override from the override class
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 2912
 
 
 #### Arguments
@@ -2145,6 +2296,7 @@ Return the hooks list where this module can be hooked.
 
 
 * Visibility: **public**
+* This method is defined in classes\module\Module.php line 3062
 
 
 

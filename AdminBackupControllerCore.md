@@ -8,7 +8,8 @@ AdminBackupControllerCore
 
 * Class name: AdminBackupControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminBackupController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminBackupController.php line 33
 
 
 ### $object
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminBackupController.php line 30
 
 
 Methods
@@ -53,6 +56,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminBackupController.php line 35
 
 
 
@@ -66,6 +70,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminBackupController.php line 82
 
 
 
@@ -79,6 +84,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminBackupController.php line 90
 
 
 
@@ -92,6 +98,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminBackupController.php line 106
 
 
 
@@ -105,6 +112,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminBackupController.php line 113
 
 
 
@@ -118,6 +126,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminBackupController.php line 133
 
 
 
@@ -134,6 +143,7 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminBackupController.php line 150
 
 
 #### Arguments
@@ -150,6 +160,7 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminBackupController.php line 162
 
 
 
@@ -163,6 +174,7 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminBackupController.php line 191
 
 
 #### Arguments
@@ -184,6 +196,7 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminBackupController.php line 301
 
 
 #### Arguments
@@ -201,6 +214,7 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminBackupController.php line 307
 
 
 #### Arguments

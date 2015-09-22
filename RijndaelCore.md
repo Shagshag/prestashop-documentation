@@ -8,6 +8,7 @@ RijndaelCore
 
 * Class name: RijndaelCore
 * Namespace: 
+* This class is defined in classes\Rijndael.php line 27
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Rijndael.php line 29
 
 
 ### $_iv
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Rijndael.php line 30
 
 
 Methods
@@ -52,6 +55,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Rijndael.php line 32
 
 
 #### Arguments
@@ -69,6 +73,7 @@ Base64 is not required, but it is be more compact than urlencode
 
 
 * Visibility: **public**
+* This method is defined in classes\Rijndael.php line 44
 
 
 #### Arguments
@@ -85,6 +90,7 @@ Base64 is not required, but it is be more compact than urlencode
 
 
 * Visibility: **public**
+* This method is defined in classes\Rijndael.php line 54
 
 
 #### Arguments

@@ -8,6 +8,7 @@ LinkCore
 
 * Class name: LinkCore
 * Namespace: 
+* This class is defined in classes\Link.php line 27
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Link.php line 30
 
 
 ### $url
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Link.php line 31
 
 
 ### $cache
@@ -49,6 +52,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Link.php line 32
 
 
 ### $protocol_link
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Link.php line 34
 
 
 ### $protocol_content
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Link.php line 35
 
 
 ### $ssl_enable
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Link.php line 37
 
 
 ### $category_disable_rewrite
@@ -94,6 +101,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Link.php line 39
 
 
 Methods
@@ -109,6 +117,7 @@ Constructor (initialization only)
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 44
 
 
 #### Arguments
@@ -126,6 +135,7 @@ Create a link to delete a product
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 72
 
 
 #### Arguments
@@ -143,6 +153,7 @@ Create a link to a product
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 90
 
 
 #### Arguments
@@ -168,6 +179,7 @@ Create a link to a category
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 168
 
 
 #### Arguments
@@ -189,6 +201,7 @@ Create a link to a CMS category
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 208
 
 
 #### Arguments
@@ -209,6 +222,7 @@ Create a link to a CMS page
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 252
 
 
 #### Arguments
@@ -230,6 +244,7 @@ Create a link to a supplier
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 294
 
 
 #### Arguments
@@ -250,6 +265,7 @@ Create a link to a manufacturer
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 328
 
 
 #### Arguments
@@ -270,6 +286,7 @@ Create a link to a module
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 363
 
 
 #### Arguments
@@ -292,6 +309,7 @@ Use controller name to create a link
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 390
 
 
 #### Arguments
@@ -310,6 +328,7 @@ Note: the new image filesystem stores product images in subdirectories of img/p/
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 406
 
 
 #### Arguments
@@ -328,6 +347,7 @@ Note: the new image filesystem stores product images in subdirectories of img/p/
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 440
 
 
 #### Arguments
@@ -344,6 +364,7 @@ Create a simple link
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 456
 
 
 #### Arguments
@@ -366,6 +387,7 @@ Create a simple link
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 493
 
 
 #### Arguments
@@ -384,11 +406,12 @@ Create link after language change, for the change language block
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 509
 
 
 #### Arguments
 * $id_lang **integer** - &lt;p&gt;Language ID&lt;/p&gt;
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -401,6 +424,7 @@ Create link after language change, for the change language block
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 553
 
 
 #### Arguments
@@ -418,6 +442,7 @@ Get pagination link
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 569
 
 
 #### Arguments
@@ -439,6 +464,7 @@ Get pagination link
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 637
 
 
 #### Arguments
@@ -457,11 +483,12 @@ Get pagination link
 
 
 * Visibility: **protected**
+* This method is defined in classes\Link.php line 642
 
 
 #### Arguments
 * $id_lang **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 * $id_shop **mixed**
 
 
@@ -475,6 +502,7 @@ Get pagination link
 
 
 * Visibility: **protected**
+* This method is defined in classes\Link.php line 659
 
 
 #### Arguments
@@ -494,6 +522,7 @@ Get pagination link
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Link.php line 685
 
 
 #### Arguments
@@ -510,6 +539,7 @@ Get pagination link
 
 
 * Visibility: **public**
+* This method is defined in classes\Link.php line 696
 
 
 #### Arguments

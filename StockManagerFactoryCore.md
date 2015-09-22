@@ -8,6 +8,7 @@ StockManagerFactoryCore
 
 * Class name: StockManagerFactoryCore
 * Namespace: 
+* This class is defined in classes\stock\StockManagerFactory.php line 31
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\stock\StockManagerFactory.php line 36
 
 
 Methods
@@ -43,6 +45,7 @@ Returns a StockManager
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockManagerFactory.php line 43
 
 
 
@@ -57,6 +60,7 @@ Looks for a StockManager in the modules list.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockManagerFactory.php line 60
 
 
 

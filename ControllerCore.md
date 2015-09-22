@@ -9,6 +9,7 @@ ControllerCore
 * Class name: ControllerCore
 * Namespace: 
 * This is an **abstract** class
+* This class is defined in classes\controller\Controller.php line 31
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\Controller.php line 34
 
 
 ### $css_files
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\Controller.php line 37
 
 
 ### $js_files
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\Controller.php line 40
 
 
 ### $php_errors
@@ -61,6 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\controller\Controller.php line 43
 
 
 ### $display_header
@@ -72,6 +77,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\Controller.php line 46
 
 
 ### $display_header_javascript
@@ -83,6 +89,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\Controller.php line 49
 
 
 ### $template
@@ -94,6 +101,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\Controller.php line 52
 
 
 ### $display_footer
@@ -105,6 +113,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\Controller.php line 55
 
 
 ### $content_only
@@ -116,6 +125,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\Controller.php line 58
 
 
 ### $ajax
@@ -127,6 +137,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\Controller.php line 61
 
 
 ### $json
@@ -138,6 +149,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\Controller.php line 64
 
 
 ### $status
@@ -149,6 +161,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\Controller.php line 67
 
 
 ### $redirect_after
@@ -160,6 +173,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\Controller.php line 73
 
 
 ### $controller_type
@@ -171,6 +185,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\Controller.php line 76
 
 
 ### $php_self
@@ -182,6 +197,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\Controller.php line 79
 
 
 Methods
@@ -198,6 +214,7 @@ Check if the controller is available for the current user/visitor
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\controller\Controller.php line 84
 
 
 
@@ -212,6 +229,7 @@ Check if the current user/visitor has valid view permissions
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\controller\Controller.php line 89
 
 
 
@@ -225,6 +243,7 @@ Initialize the page
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 94
 
 
 
@@ -239,6 +258,7 @@ Do the page treatment: process input, process AJAX, etc.
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\controller\Controller.php line 112
 
 
 
@@ -253,6 +273,7 @@ Displays page view
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\controller\Controller.php line 117
 
 
 
@@ -267,6 +288,7 @@ Sets default media list for this controller
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\controller\Controller.php line 122
 
 
 
@@ -281,6 +303,7 @@ returns a new instance of this controller
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\controller\Controller.php line 132
 
 
 #### Arguments
@@ -299,6 +322,7 @@ returns a new instance of this controller
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 137
 
 
 
@@ -312,6 +336,7 @@ Starts the controller process (this method should not be overridden!)
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 168
 
 
 
@@ -325,6 +350,7 @@ Sets page header display
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 222
 
 
 #### Arguments
@@ -341,6 +367,7 @@ Sets page header javascript display
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 232
 
 
 #### Arguments
@@ -357,6 +384,7 @@ Sets page header display
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 242
 
 
 #### Arguments
@@ -373,6 +401,7 @@ Sets template file for page content output
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 252
 
 
 #### Arguments
@@ -390,6 +419,7 @@ Assigns Smarty variables for the page header
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\controller\Controller.php line 260
 
 
 
@@ -404,6 +434,7 @@ Assigns Smarty variables for the page main content
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\controller\Controller.php line 265
 
 
 
@@ -418,6 +449,7 @@ Assigns Smarty variables when access is forbidden
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\controller\Controller.php line 270
 
 
 
@@ -432,6 +464,7 @@ Assigns Smarty variables for the page footer
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\controller\Controller.php line 275
 
 
 
@@ -446,6 +479,7 @@ Redirects to $this->redirect_after after the process if there is no error
 
 * Visibility: **protected**
 * This method is **abstract**.
+* This method is defined in classes\controller\Controller.php line 280
 
 
 
@@ -459,6 +493,7 @@ Set $this->redirect_after that will be used by redirect() after the process
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 285
 
 
 #### Arguments
@@ -475,6 +510,7 @@ Adds a new stylesheet(s) to the page header.
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 299
 
 
 #### Arguments
@@ -494,6 +530,7 @@ Removes CSS stylesheet(s) from the queued stylesheet list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 339
 
 
 #### Arguments
@@ -512,6 +549,7 @@ Adds a new JavaScript file(s) to the page header.
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 373
 
 
 #### Arguments
@@ -529,6 +567,7 @@ Removes JS file(s) from the queued JS file list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 405
 
 
 #### Arguments
@@ -546,6 +585,7 @@ Adds jQuery library file to queued JS file list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 437
 
 
 #### Arguments
@@ -564,6 +604,7 @@ Adds jQuery UI component(s) to queued JS file list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 449
 
 
 #### Arguments
@@ -582,6 +623,7 @@ Adds jQuery plugin(s) to queued JS file list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 469
 
 
 #### Arguments
@@ -600,6 +642,7 @@ Checks if the controller has been called from XmlHttpRequest (AJAX)
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\Controller.php line 494
 
 
 
@@ -613,6 +656,7 @@ Renders controller templates and generates page content
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\Controller.php line 506
 
 
 #### Arguments
@@ -629,6 +673,7 @@ Checks if a template is cached
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\Controller.php line 565
 
 
 #### Arguments
@@ -648,6 +693,7 @@ Custom error handler
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\controller\Controller.php line 583
 
 
 #### Arguments
@@ -667,6 +713,7 @@ Dies and echoes output value
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\Controller.php line 626
 
 
 #### Arguments

@@ -8,7 +8,8 @@ SupplierControllerCore
 
 * Class name: SupplierControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\SupplierController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\SupplierController.php line 29
 
 
 ### $supplier
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\SupplierController.php line 32
 
 
 Methods
@@ -53,6 +56,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\SupplierController.php line 34
 
 
 
@@ -66,6 +70,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\SupplierController.php line 40
 
 
 #### Arguments
@@ -82,6 +87,7 @@ Initialize supplier controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\SupplierController.php line 54
 
 
 
@@ -95,6 +101,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\SupplierController.php line 75
 
 
 
@@ -108,6 +115,7 @@ Assign template vars if displaying one supplier
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\SupplierController.php line 92
 
 
 
@@ -121,6 +129,7 @@ Assign template vars if displaying the supplier list
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\SupplierController.php line 123
 
 
 
@@ -134,6 +143,7 @@ Get instance of current supplier
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\SupplierController.php line 150
 
 
 

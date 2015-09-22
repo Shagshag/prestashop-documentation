@@ -8,8 +8,9 @@ PaymentCCCore
 
 * Class name: PaymentCCCore
 * Namespace: 
-* Parent class: OrderPayment
+* Parent class: [OrderPayment](OrderPaymentCore)
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
+* This class is defined in classes\PaymentCC.php line 33
 
 
 
@@ -29,6 +30,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
+* This property is defined in classes\PaymentCC.php line 35
 
 
 ### $id_currency
@@ -41,6 +43,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
+* This property is defined in classes\PaymentCC.php line 36
 
 
 ### $amount
@@ -53,6 +56,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
+* This property is defined in classes\PaymentCC.php line 37
 
 
 ### $transaction_id
@@ -65,6 +69,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
+* This property is defined in classes\PaymentCC.php line 38
 
 
 ### $card_number
@@ -77,6 +82,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
+* This property is defined in classes\PaymentCC.php line 39
 
 
 ### $card_brand
@@ -89,6 +95,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
+* This property is defined in classes\PaymentCC.php line 40
 
 
 ### $card_expiration
@@ -101,6 +108,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
+* This property is defined in classes\PaymentCC.php line 41
 
 
 ### $card_holder
@@ -113,6 +121,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
+* This property is defined in classes\PaymentCC.php line 42
 
 
 ### $date_add
@@ -125,6 +134,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
+* This property is defined in classes\PaymentCC.php line 43
 
 
 ### $fieldsRequired
@@ -137,6 +147,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
+* This property is defined in classes\PaymentCC.php line 45
 
 
 ### $fieldsSize
@@ -149,6 +160,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
+* This property is defined in classes\PaymentCC.php line 46
 
 
 ### $fieldsValidate
@@ -161,6 +173,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
+* This property is defined in classes\PaymentCC.php line 47
 
 
 ### $definition
@@ -174,6 +187,7 @@ Properties
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
+* This property is defined in classes\PaymentCC.php line 51
 
 
 Methods
@@ -190,6 +204,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\PaymentCC.php line 61
 
 
 #### Arguments
@@ -209,6 +224,7 @@ Get the detailed payment of an order
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\PaymentCC.php line 74
 
 
 #### Arguments

@@ -8,6 +8,7 @@ ChartCore
 
 * Class name: ChartCore
 * Namespace: 
+* This class is defined in classes\Chart.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Chart.php line 29
 
 
 ### $width
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Chart.php line 31
 
 
 ### $height
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Chart.php line 32
 
 
 ### $timeMode
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Chart.php line 35
 
 
 ### $from
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Chart.php line 36
 
 
 ### $to
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Chart.php line 37
 
 
 ### $format
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Chart.php line 38
 
 
 ### $granularity
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Chart.php line 39
 
 
 ### $curves
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Chart.php line 41
 
 
 Methods
@@ -131,6 +141,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Chart.php line 44
 
 
 
@@ -144,6 +155,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Chart.php line 53
 
 
 
@@ -157,6 +169,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Chart.php line 59
 
 
 #### Arguments
@@ -174,6 +187,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Chart.php line 66
 
 
 #### Arguments
@@ -192,6 +206,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Chart.php line 95
 
 
 #### Arguments
@@ -208,6 +223,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Chart.php line 104
 
 
 
@@ -221,6 +237,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Chart.php line 109
 
 
 

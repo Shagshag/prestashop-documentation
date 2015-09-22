@@ -8,6 +8,7 @@ SQL query builder
 
 * Class name: DbQueryCore
 * Namespace: 
+* This class is defined in classes\db\DbQuery.php line 32
 
 
 
@@ -26,6 +27,7 @@ List of data to build the query
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\DbQuery.php line 39
 
 
 Methods
@@ -41,6 +43,7 @@ Sets type of the query
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 58
 
 
 #### Arguments
@@ -57,6 +60,7 @@ Adds fields to SELECT clause
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 76
 
 
 #### Arguments
@@ -73,6 +77,7 @@ Sets table for FROM clause
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 93
 
 
 #### Arguments
@@ -91,6 +96,7 @@ E.g. $this->join('RIGHT JOIN '._DB_PREFIX_.'product p ON .
 ..');
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 110
 
 
 #### Arguments
@@ -107,6 +113,7 @@ Adds a LEFT JOIN clause
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 128
 
 
 #### Arguments
@@ -126,6 +133,7 @@ E.g. $this->innerJoin('product p ON .
 ..')
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 143
 
 
 #### Arguments
@@ -144,6 +152,7 @@ Adds a LEFT OUTER JOIN clause
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 157
 
 
 #### Arguments
@@ -162,6 +171,7 @@ Adds a NATURAL JOIN clause
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 170
 
 
 #### Arguments
@@ -179,6 +189,7 @@ Adds a RIGHT JOIN clause
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 184
 
 
 #### Arguments
@@ -197,6 +208,7 @@ Adds a restriction in WHERE clause (each restriction will be separated by AND st
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 196
 
 
 #### Arguments
@@ -213,6 +225,7 @@ Adds a restriction in HAVING clause (each restriction will be separated by AND s
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 212
 
 
 #### Arguments
@@ -229,6 +242,7 @@ Adds an ORDER BY restriction
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 228
 
 
 #### Arguments
@@ -245,6 +259,7 @@ Adds a GROUP BY restriction
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 244
 
 
 #### Arguments
@@ -261,6 +276,7 @@ Sets query offset and limit
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 261
 
 
 #### Arguments
@@ -278,6 +294,7 @@ Generates query and return SQL string
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 282
 
 
 
@@ -291,6 +308,7 @@ Converts object to string
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbQuery.php line 329
 
 
 

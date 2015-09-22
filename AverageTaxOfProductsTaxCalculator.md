@@ -8,6 +8,7 @@ AverageTaxOfProductsTaxCalculator
 
 * Class name: AverageTaxOfProductsTaxCalculator
 * Namespace: 
+* This class is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 3
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 5
 
 
 ### $configuration
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 6
 
 
 ### $db
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 7
 
 
 ### $computation_method
@@ -59,6 +63,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 9
 
 
 Methods
@@ -74,11 +79,12 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 11
 
 
 #### Arguments
-* $db **[Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface.md)**
-* $configuration **[Core_Business_ConfigurationInterface](Core_Business_ConfigurationInterface.md)**
+* $db **[Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface)**
+* $configuration **[Core_Business_ConfigurationInterface](Core_Business_ConfigurationInterface)**
 
 
 
@@ -91,6 +97,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 17
 
 
 
@@ -104,6 +111,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 30
 
 
 #### Arguments
@@ -120,6 +128,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 36
 
 
 #### Arguments

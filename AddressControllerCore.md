@@ -8,7 +8,8 @@ AddressControllerCore
 
 * Class name: AddressControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\AddressController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\AddressController.php line 29
 
 
 ### $guestAllowed
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\AddressController.php line 30
 
 
 ### $php_self
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\AddressController.php line 31
 
 
 ### $authRedirection
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\AddressController.php line 32
 
 
 ### $ssl
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\AddressController.php line 33
 
 
 ### $_address
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\AddressController.php line 38
 
 
 ### $id_country
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\AddressController.php line 39
 
 
 Methods
@@ -108,6 +116,7 @@ Set default medias for this controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\AddressController.php line 44
 
 
 
@@ -121,6 +130,7 @@ Initialize address controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\AddressController.php line 58
 
 
 
@@ -134,6 +144,7 @@ Start forms process
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\AddressController.php line 104
 
 
 
@@ -147,6 +158,7 @@ Process changes on an address
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AddressController.php line 118
 
 
 
@@ -160,6 +172,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\AddressController.php line 255
 
 
 
@@ -173,6 +186,7 @@ Assign template vars related to countries display
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AddressController.php line 293
 
 
 
@@ -186,6 +200,7 @@ Assign template vars related to address format
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AddressController.php line 321
 
 
 
@@ -199,6 +214,7 @@ Assign template vars related to vat number
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AddressController.php line 338
 
 
 
@@ -212,6 +228,7 @@ Assign template vars related to vat number
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\AddressController.php line 360
 
 
 

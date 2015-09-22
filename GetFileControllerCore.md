@@ -8,7 +8,8 @@ GetFileControllerCore
 
 * Class name: GetFileControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\GetFileController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\GetFileController.php line 29
 
 
 ### $display_footer
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\GetFileController.php line 30
 
 
 Methods
@@ -53,6 +56,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\GetFileController.php line 32
 
 
 
@@ -67,6 +71,7 @@ and redirect using js function
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\GetFileController.php line 309
 
 
 #### Arguments

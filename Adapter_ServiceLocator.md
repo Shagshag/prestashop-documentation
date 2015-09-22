@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_ServiceLocator
 * Namespace: 
+* This class is defined in Adapter\Adapter_ServiceLocator.php line 27
 
 
 
@@ -41,6 +42,7 @@ Set a service container Instance
 
 * Visibility: **private**
 * This property is **static**.
+* This property is defined in Adapter\Adapter_ServiceLocator.php line 33
 
 
 Methods
@@ -57,10 +59,11 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in Adapter\Adapter_ServiceLocator.php line 35
 
 
 #### Arguments
-* $container **[Core_Foundation_IoC_Container](Core_Foundation_IoC_Container.md)**
+* $container **[Core_Foundation_IoC_Container](Core_Foundation_IoC_Container)**
 
 
 
@@ -74,6 +77,7 @@ Get a service depending on its given $serviceName
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in Adapter\Adapter_ServiceLocator.php line 46
 
 
 #### Arguments

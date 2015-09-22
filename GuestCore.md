@@ -8,7 +8,8 @@ GuestCore
 
 * Class name: GuestCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Guest.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 29
 
 
 ### $id_web_browser
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 30
 
 
 ### $id_customer
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 31
 
 
 ### $javascript
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 32
 
 
 ### $screen_resolution_x
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 33
 
 
 ### $screen_resolution_y
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 34
 
 
 ### $screen_color
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 35
 
 
 ### $sun_java
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 36
 
 
 ### $adobe_flash
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 37
 
 
 ### $adobe_director
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 38
 
 
 ### $apple_quicktime
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 39
 
 
 ### $real_player
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 40
 
 
 ### $windows_media
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 41
 
 
 ### $accept_language
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 42
 
 
 ### $mobile_theme
@@ -181,6 +196,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Guest.php line 43
 
 
 ### $definition
@@ -193,6 +209,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Guest.php line 48
 
 
 ### $webserviceParameters
@@ -204,6 +221,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Guest.php line 70
 
 
 Methods
@@ -219,6 +237,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Guest.php line 76
 
 
 
@@ -232,6 +251,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\Guest.php line 86
 
 
 #### Arguments
@@ -248,6 +268,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\Guest.php line 105
 
 
 #### Arguments
@@ -264,6 +285,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\Guest.php line 133
 
 
 #### Arguments
@@ -281,6 +303,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Guest.php line 158
 
 
 #### Arguments
@@ -297,6 +320,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Guest.php line 170
 
 
 #### Arguments
@@ -315,6 +339,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Guest.php line 189
 
 
 #### Arguments

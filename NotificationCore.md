@@ -8,6 +8,7 @@ NotificationCore
 
 * Class name: NotificationCore
 * Namespace: 
+* This class is defined in classes\Notification.php line 27
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Notification.php line 29
 
 
 Methods
@@ -41,6 +43,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Notification.php line 31
 
 
 
@@ -55,6 +58,7 @@ Get all the notifications
 
 
 * Visibility: **public**
+* This method is defined in classes\Notification.php line 42
 
 
 
@@ -70,6 +74,7 @@ Get all the element ids
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Notification.php line 67
 
 
 #### Arguments
@@ -87,6 +92,7 @@ updateEmployeeLastElement return 0 if the field doesn't exists in Employee table
 Updates the last seen element by the employee
 
 * Visibility: **public**
+* This method is defined in classes\Notification.php line 136
 
 
 #### Arguments

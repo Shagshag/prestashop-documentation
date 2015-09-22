@@ -8,7 +8,8 @@ SupplyOrderStateCore
 
 * Class name: SupplyOrderStateCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\stock\SupplyOrderState.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderState.php line 35
 
 
 ### $delivery_note
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderState.php line 40
 
 
 ### $editable
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderState.php line 45
 
 
 ### $receipt_state
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderState.php line 50
 
 
 ### $pending_receipt
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderState.php line 55
 
 
 ### $enclosed
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderState.php line 60
 
 
 ### $color
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderState.php line 65
 
 
 ### $definition
@@ -105,6 +113,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\stock\SupplyOrderState.php line 70
 
 
 ### $webserviceParameters
@@ -116,6 +125,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\stock\SupplyOrderState.php line 88
 
 
 Methods
@@ -132,6 +142,7 @@ Gets the list of supply order statuses
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\SupplyOrderState.php line 102
 
 
 #### Arguments
@@ -150,6 +161,7 @@ Gets the list of supply order statuses
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\SupplyOrderState.php line 154
 
 
 #### Arguments

@@ -8,7 +8,8 @@ AdminTabsControllerCore
 
 * Class name: AdminTabsControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminTabsController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTabsController.php line 32
 
 
 ### $object
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminTabsController.php line 30
 
 
 Methods
@@ -53,6 +56,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTabsController.php line 34
 
 
 
@@ -66,6 +70,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTabsController.php line 89
 
 
 
@@ -79,6 +84,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTabsController.php line 114
 
 
 
@@ -92,6 +98,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTabsController.php line 214
 
 
 
@@ -105,6 +112,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTabsController.php line 226
 
 
 
@@ -118,6 +126,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTabsController.php line 241
 
 
 
@@ -131,6 +140,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTabsController.php line 266
 
 
 
@@ -144,6 +154,7 @@ AdminController::renderList() override
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTabsController.php line 337
 
 
 
@@ -157,6 +168,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTabsController.php line 346
 
 
 

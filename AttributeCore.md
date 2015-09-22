@@ -8,7 +8,8 @@ AttributeCore
 
 * Class name: AttributeCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Attribute.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Attribute.php line 30
 
 
 ### $name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Attribute.php line 33
 
 
 ### $color
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Attribute.php line 34
 
 
 ### $position
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Attribute.php line 35
 
 
 ### $default
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Attribute.php line 36
 
 
 ### $definition
@@ -83,6 +89,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Attribute.php line 41
 
 
 ### $image_dir
@@ -94,6 +101,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Attribute.php line 56
 
 
 ### $webserviceParameters
@@ -105,6 +113,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Attribute.php line 58
 
 
 Methods
@@ -120,6 +129,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Attribute.php line 66
 
 
 #### Arguments
@@ -138,6 +148,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Attribute.php line 73
 
 
 
@@ -151,6 +162,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Attribute.php line 114
 
 
 #### Arguments
@@ -167,6 +179,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Attribute.php line 125
 
 
 #### Arguments
@@ -185,6 +198,7 @@ Get all attributes for a given language
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Attribute.php line 147
 
 
 #### Arguments
@@ -203,6 +217,7 @@ Get all attributes for a given language
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Attribute.php line 169
 
 
 #### Arguments
@@ -223,12 +238,13 @@ Check if quantity is enough to deserve customer
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Attribute.php line 201
 
 
 #### Arguments
 * $id_product_attribute **integer** - &lt;p&gt;Product attribute combination id&lt;/p&gt;
 * $qty **integer** - &lt;p&gt;Quantity needed&lt;/p&gt;
-* $shop **Shop**
+* $shop **[Shop](ShopCore)**
 
 
 
@@ -242,6 +258,7 @@ Check if quantity is enough to deserve customer
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Attribute.php line 215
 
 
 #### Arguments
@@ -259,6 +276,7 @@ Update array with veritable quantity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Attribute.php line 229
 
 
 #### Arguments
@@ -275,6 +293,7 @@ Return true if attribute is color type
 
 
 * Visibility: **public**
+* This method is defined in classes\Attribute.php line 250
 
 
 
@@ -289,6 +308,7 @@ Get minimal quantity for product with attributes quantity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Attribute.php line 273
 
 
 #### Arguments
@@ -305,6 +325,7 @@ Move an attribute inside its group
 
 
 * Visibility: **public**
+* This method is defined in classes\Attribute.php line 295
 
 
 #### Arguments
@@ -322,6 +343,7 @@ Reorder attribute position in group $id_attribute_group.
 Call it after deleting an attribute from a group.
 
 * Visibility: **public**
+* This method is defined in classes\Attribute.php line 352
 
 
 #### Arguments
@@ -340,6 +362,7 @@ Get the higher attribute position from a group attribute
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Attribute.php line 374
 
 
 #### Arguments

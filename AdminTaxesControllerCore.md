@@ -8,7 +8,8 @@ AdminTaxesControllerCore
 
 * Class name: AdminTaxesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminTaxesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminTaxesController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxesController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxesController.php line 117
 
 
 
@@ -68,6 +72,7 @@ Display delete action link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxesController.php line 140
 
 
 #### Arguments
@@ -85,6 +90,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxesController.php line 173
 
 
 #### Arguments
@@ -106,6 +112,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxesController.php line 189
 
 
 
@@ -119,6 +126,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxesController.php line 241
 
 
 
@@ -132,6 +140,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxesController.php line 284
 
 
 #### Arguments

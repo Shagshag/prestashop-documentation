@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Business_CMS_CMSRoleRepository
 * Namespace: 
-* Parent class: [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* Parent class: [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This class is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 27
 
 
 
@@ -41,6 +42,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 29
 
 
 ### $db
@@ -52,6 +54,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 30
 
 
 ### $tablesPrefix
@@ -63,6 +66,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 31
 
 
 ### $entityMetaData
@@ -74,6 +78,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 32
 
 
 ### $queryBuilder
@@ -85,6 +90,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 33
 
 
 Methods
@@ -100,6 +106,7 @@ Return all CMSRoles which are already associated
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 33
 
 
 
@@ -113,13 +120,14 @@ Return all CMSRoles which are already associated
 
 
 * Visibility: **public**
-* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 35
 
 
 #### Arguments
-* $entityManager **[Core_Foundation_Database_EntityManager](Core_Foundation_Database_EntityManager.md)**
+* $entityManager **[Core_Foundation_Database_EntityManager](Core_Foundation_Database_EntityManager)**
 * $tablesPrefix **mixed**
-* $entityMetaData **[Core_Foundation_Database_EntityMetaData](Core_Foundation_Database_EntityMetaData.md)**
+* $entityMetaData **[Core_Foundation_Database_EntityMetaData](Core_Foundation_Database_EntityMetaData)**
 
 
 
@@ -132,7 +140,8 @@ Return all CMSRoles which are already associated
 
 
 * Visibility: **public**
-* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 47
 
 
 #### Arguments
@@ -151,7 +160,8 @@ e.g.: findAllByIdCMS => id_cms
 
 
 * Visibility: **private**
-* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 80
 
 
 #### Arguments
@@ -168,7 +178,8 @@ Return ID field name
 
 
 * Visibility: **protected**
-* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 90
 
 
 
@@ -182,7 +193,8 @@ Returns escaped+prefixed current table name
 
 
 * Visibility: **protected**
-* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 117
 
 
 
@@ -196,7 +208,8 @@ Returns escaped DB table prefix
 
 
 * Visibility: **protected**
-* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 126
 
 
 
@@ -210,7 +223,8 @@ Return a new empty Entity depending on current Repository selected
 
 
 * Visibility: **public**
-* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 135
 
 
 
@@ -226,7 +240,8 @@ Null is returned when there are no rows, and an exception is thrown
 if there are too many rows.
 
 * Visibility: **protected**
-* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 150
 
 
 #### Arguments
@@ -243,7 +258,8 @@ if there are too many rows.
 
 
 * Visibility: **protected**
-* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 164
 
 
 #### Arguments
@@ -260,7 +276,8 @@ Constructs and performs 'SELECT' in DB
 
 
 * Visibility: **private**
-* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 182
 
 
 #### Arguments
@@ -278,7 +295,8 @@ Find one entity in DB
 
 
 * Visibility: **public**
-* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 203
 
 
 #### Arguments
@@ -295,7 +313,8 @@ Find all entities in DB
 
 
 * Visibility: **public**
-* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository.md)
+* This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
+* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 215
 
 
 

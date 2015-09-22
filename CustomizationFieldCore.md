@@ -8,7 +8,8 @@ CustomizationFieldCore
 
 * Class name: CustomizationFieldCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\CustomizationField.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomizationField.php line 30
 
 
 ### $type
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomizationField.php line 32
 
 
 ### $required
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomizationField.php line 34
 
 
 ### $name
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomizationField.php line 36
 
 
 ### $definition
@@ -72,6 +77,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\CustomizationField.php line 41
 
 
 ### $webserviceParameters
@@ -83,6 +89,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\CustomizationField.php line 56
 
 
 

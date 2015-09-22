@@ -8,7 +8,8 @@ AdminGroupsControllerCore
 
 * Class name: AdminGroupsControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminGroupsController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminGroupsController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 141
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 148
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 161
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 174
 
 
 
@@ -107,6 +114,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 195
 
 
 
@@ -120,6 +128,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminGroupsController.php line 212
 
 
 #### Arguments
@@ -136,6 +145,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 251
 
 
 
@@ -149,6 +159,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminGroupsController.php line 360
 
 
 #### Arguments
@@ -165,6 +176,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 393
 
 
 #### Arguments
@@ -181,6 +193,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 444
 
 
 
@@ -194,6 +207,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminGroupsController.php line 456
 
 
 #### Arguments
@@ -210,6 +224,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 465
 
 
 
@@ -223,6 +238,7 @@ Update (or create) restrictions for modules by group
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminGroupsController.php line 489
 
 
 
@@ -236,6 +252,7 @@ Update (or create) restrictions for modules by group
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminGroupsController.php line 504
 
 
 
@@ -249,6 +266,7 @@ Toggle show prices flag
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 540
 
 
 
@@ -262,6 +280,7 @@ Print enable / disable icon for show prices option
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 561
 
 
 #### Arguments
@@ -279,6 +298,7 @@ Print enable / disable icon for show prices option
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 572
 
 
 
@@ -292,6 +312,7 @@ Print enable / disable icon for show prices option
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGroupsController.php line 598
 
 
 #### Arguments

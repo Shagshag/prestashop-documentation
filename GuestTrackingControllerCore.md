@@ -8,7 +8,8 @@ GuestTrackingControllerCore
 
 * Class name: GuestTrackingControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\GuestTrackingController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\GuestTrackingController.php line 29
 
 
 ### $php_self
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\GuestTrackingController.php line 30
 
 
 Methods
@@ -53,6 +56,7 @@ Initialize guest tracking controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\GuestTrackingController.php line 36
 
 
 
@@ -66,6 +70,7 @@ Start forms process
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\GuestTrackingController.php line 48
 
 
 
@@ -79,6 +84,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\GuestTrackingController.php line 112
 
 
 
@@ -92,10 +98,11 @@ Assigns template vars related to order tracking information
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\GuestTrackingController.php line 135
 
 
 #### Arguments
-* $order_collection **PrestaShopCollection**
+* $order_collection **[PrestaShopCollection](PrestaShopCollectionCore)**
 
 
 
@@ -108,6 +115,7 @@ Assigns template vars related to order tracking information
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\GuestTrackingController.php line 188
 
 
 
@@ -121,10 +129,11 @@ Assigns template vars related to order tracking information
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\GuestTrackingController.php line 196
 
 
 #### Arguments
-* $delivery **Address**
-* $invoice **Address**
+* $delivery **[Address](AddressCore)**
+* $invoice **[Address](AddressCore)**
 
 

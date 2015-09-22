@@ -8,7 +8,8 @@ MetaCore
 
 * Class name: MetaCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Meta.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Meta.php line 29
 
 
 ### $configurable
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Meta.php line 30
 
 
 ### $title
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Meta.php line 31
 
 
 ### $description
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Meta.php line 32
 
 
 ### $keywords
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Meta.php line 33
 
 
 ### $url_rewrite
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Meta.php line 34
 
 
 ### $definition
@@ -94,6 +101,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Meta.php line 39
 
 
 Methods
@@ -110,6 +118,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 56
 
 
 #### Arguments
@@ -128,6 +137,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 122
 
 
 
@@ -142,6 +152,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 127
 
 
 #### Arguments
@@ -159,6 +170,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 138
 
 
 #### Arguments
@@ -176,6 +188,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Meta.php line 152
 
 
 #### Arguments
@@ -192,6 +205,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Meta.php line 161
 
 
 
@@ -205,6 +219,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Meta.php line 170
 
 
 #### Arguments
@@ -222,6 +237,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 184
 
 
 #### Arguments
@@ -241,6 +257,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 202
 
 
 #### Arguments
@@ -260,6 +277,7 @@ Get meta tags for a given page
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 232
 
 
 #### Arguments
@@ -278,6 +296,7 @@ Get product meta tags
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 250
 
 
 #### Arguments
@@ -297,6 +316,7 @@ Get category meta tags
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 278
 
 
 #### Arguments
@@ -317,6 +337,7 @@ Get manufacturer meta tags
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 326
 
 
 #### Arguments
@@ -336,6 +357,7 @@ Get supplier meta tags
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 355
 
 
 #### Arguments
@@ -355,6 +377,7 @@ Get CMS meta tags
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 384
 
 
 #### Arguments
@@ -374,6 +397,7 @@ Get CMS category meta tags
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 410
 
 
 #### Arguments
@@ -393,11 +417,12 @@ Get CMS category meta tags
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Meta.php line 429
 
 
 #### Arguments
 * $meta_tags **mixed**
 * $default_value **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 

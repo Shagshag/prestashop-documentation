@@ -8,7 +8,8 @@ RangePriceCore
 
 * Class name: RangePriceCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\range\RangePrice.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\range\RangePrice.php line 29
 
 
 ### $delimiter1
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\range\RangePrice.php line 30
 
 
 ### $delimiter2
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\range\RangePrice.php line 31
 
 
 ### $definition
@@ -61,6 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\range\RangePrice.php line 36
 
 
 ### $webserviceParameters
@@ -72,6 +77,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\range\RangePrice.php line 46
 
 
 Methods
@@ -87,6 +93,7 @@ Override add to create delivery value for all zones
 
 
 * Visibility: **public**
+* This method is defined in classes\range\RangePrice.php line 62
 
 
 #### Arguments
@@ -105,6 +112,7 @@ Get all available price ranges
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\range\RangePrice.php line 89
 
 
 #### Arguments
@@ -122,6 +130,7 @@ Get all available price ranges
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\range\RangePrice.php line 98
 
 
 #### Arguments
@@ -141,6 +150,7 @@ Get all available price ranges
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\range\RangePrice.php line 107
 
 
 #### Arguments

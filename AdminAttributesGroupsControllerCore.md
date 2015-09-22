@@ -8,7 +8,8 @@ AdminAttributesGroupsControllerCore
 
 * Class name: AdminAttributesGroupsControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminAttributesGroupsController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminAttributesGroupsController.php line 32
 
 
 ### $id_attribute
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminAttributesGroupsController.php line 33
 
 
 ### $position_identifier
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminAttributesGroupsController.php line 34
 
 
 ### $attribute_name
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminAttributesGroupsController.php line 35
 
 
 ### $object
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminAttributesGroupsController.php line 30
 
 
 Methods
@@ -86,6 +92,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 37
 
 
 
@@ -99,6 +106,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 91
 
 
 
@@ -112,6 +120,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 101
 
 
 
@@ -125,6 +134,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 165
 
 
 
@@ -138,6 +148,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 244
 
 
 
@@ -151,6 +162,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 380
 
 
 
@@ -164,6 +176,7 @@ Override processAdd to change SaveAndStay button action
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 397
 
 
 
@@ -177,6 +190,7 @@ Override processUpdate to change SaveAndStay button action
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 437
 
 
 
@@ -190,6 +204,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 464
 
 
 
@@ -203,6 +218,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 507
 
 
 
@@ -216,6 +232,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 533
 
 
 
@@ -229,6 +246,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 586
 
 
 
@@ -242,6 +260,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 636
 
 
 
@@ -255,6 +274,7 @@ AdminController::initContent() override
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 658
 
 
 
@@ -268,6 +288,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 671
 
 
 
@@ -281,6 +302,7 @@ Call the right method for creating or updating object
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 698
 
 
 
@@ -294,6 +316,7 @@ Call the right method for creating or updating object
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 711
 
 
 
@@ -307,6 +330,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 827
 
 
 #### Arguments
@@ -328,6 +352,7 @@ Overrides parent to delete items from sublist
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 863
 
 
 
@@ -341,6 +366,7 @@ Overrides parent to delete items from sublist
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 881
 
 
 
@@ -354,6 +380,7 @@ Overrides parent to delete items from sublist
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 914
 
 
 

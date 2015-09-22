@@ -9,6 +9,7 @@ ITreeToolbarButtonCore
 * Interface name: ITreeToolbarButtonCore
 * Namespace: 
 * This is an **interface**
+* This interface is defined in classes\tree\ITreeToolbarButton.php line 27
 
 
 
@@ -28,6 +29,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 29
 
 
 
@@ -41,6 +43,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 30
 
 
 #### Arguments
@@ -58,6 +61,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 31
 
 
 #### Arguments
@@ -74,6 +78,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 32
 
 
 #### Arguments
@@ -90,6 +95,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 33
 
 
 
@@ -103,6 +109,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 34
 
 
 #### Arguments
@@ -119,6 +126,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 35
 
 
 
@@ -132,6 +140,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 36
 
 
 #### Arguments
@@ -148,6 +157,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 37
 
 
 
@@ -161,6 +171,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 38
 
 
 #### Arguments
@@ -177,6 +188,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 39
 
 
 
@@ -190,6 +202,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 40
 
 
 #### Arguments
@@ -206,6 +219,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 41
 
 
 
@@ -219,6 +233,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 42
 
 
 #### Arguments
@@ -235,6 +250,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 43
 
 
 
@@ -248,6 +264,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 44
 
 
 #### Arguments
@@ -264,6 +281,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 45
 
 
 
@@ -277,6 +295,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 46
 
 
 #### Arguments
@@ -293,6 +312,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 47
 
 
 
@@ -306,6 +326,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 48
 
 
 #### Arguments
@@ -322,6 +343,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\ITreeToolbarButton.php line 49
 
 
 

@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_CacheManager
 * Namespace: 
+* This class is defined in Adapter\Adapter_CacheManager.php line 27
 
 
 
@@ -42,6 +43,7 @@ Cleans the cache for specific cache key.
 
 
 * Visibility: **public**
+* This method is defined in Adapter\Adapter_CacheManager.php line 34
 
 
 #### Arguments

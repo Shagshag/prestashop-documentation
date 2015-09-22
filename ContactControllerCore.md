@@ -8,7 +8,8 @@ ContactControllerCore
 
 * Class name: ContactControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\ContactController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\ContactController.php line 29
 
 
 ### $ssl
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\ContactController.php line 30
 
 
 Methods
@@ -53,6 +56,7 @@ Start forms process
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\ContactController.php line 36
 
 
 
@@ -66,6 +70,7 @@ Start forms process
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\ContactController.php line 207
 
 
 
@@ -79,6 +84,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\ContactController.php line 219
 
 
 
@@ -92,6 +98,7 @@ Assign template vars related to order list and product list ordered by the custo
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ContactController.php line 261
 
 
 
@@ -105,6 +112,7 @@ Assign template vars related to order list and product list ordered by the custo
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ContactController.php line 290
 
 
 

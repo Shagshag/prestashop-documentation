@@ -8,7 +8,8 @@ CustomizationCore
 
 * Class name: CustomizationCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Customization.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Customization.php line 30
 
 
 ### $id_address_delivery
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Customization.php line 32
 
 
 ### $id_cart
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Customization.php line 34
 
 
 ### $id_product
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Customization.php line 36
 
 
 ### $quantity
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Customization.php line 38
 
 
 ### $quantity_refunded
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Customization.php line 40
 
 
 ### $quantity_returned
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Customization.php line 42
 
 
 ### $in_cart
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Customization.php line 44
 
 
 ### $definition
@@ -116,6 +125,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Customization.php line 49
 
 
 ### $webserviceParameters
@@ -127,6 +137,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Customization.php line 64
 
 
 Methods
@@ -143,6 +154,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Customization.php line 96
 
 
 #### Arguments
@@ -160,6 +172,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Customization.php line 112
 
 
 #### Arguments
@@ -177,6 +190,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Customization.php line 124
 
 
 #### Arguments
@@ -194,6 +208,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Customization.php line 133
 
 
 #### Arguments
@@ -213,6 +228,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Customization.php line 152
 
 
 #### Arguments
@@ -230,6 +246,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Customization.php line 178
 
 
 #### Arguments
@@ -247,6 +264,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Customization.php line 201
 
 
 
@@ -261,6 +279,7 @@ This method is allow to know if a Customization entity is currently used
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Customization.php line 213
 
 
 #### Arguments
@@ -278,6 +297,7 @@ This method is allow to know if a Customization entity is currently used
 
 
 * Visibility: **public**
+* This method is defined in classes\Customization.php line 221
 
 
 
@@ -291,6 +311,7 @@ This method is allow to know if a Customization entity is currently used
 
 
 * Visibility: **public**
+* This method is defined in classes\Customization.php line 234
 
 
 
@@ -304,6 +325,7 @@ This method is allow to know if a Customization entity is currently used
 
 
 * Visibility: **public**
+* This method is defined in classes\Customization.php line 247
 
 
 #### Arguments

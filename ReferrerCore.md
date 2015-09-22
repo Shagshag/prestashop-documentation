@@ -8,7 +8,8 @@ ReferrerCore
 
 * Class name: ReferrerCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Referrer.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 29
 
 
 ### $name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 30
 
 
 ### $passwd
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 31
 
 
 ### $http_referer_regexp
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 33
 
 
 ### $http_referer_like
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 34
 
 
 ### $request_uri_regexp
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 35
 
 
 ### $request_uri_like
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 36
 
 
 ### $http_referer_regexp_not
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 37
 
 
 ### $http_referer_like_not
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 38
 
 
 ### $request_uri_regexp_not
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 39
 
 
 ### $request_uri_like_not
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 40
 
 
 ### $base_fee
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 42
 
 
 ### $percent_fee
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 43
 
 
 ### $click_fee
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 44
 
 
 ### $date_add
@@ -181,6 +196,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Referrer.php line 46
 
 
 ### $definition
@@ -193,6 +209,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Referrer.php line 51
 
 
 ### $_join
@@ -212,6 +229,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Referrer.php line 72
 
 
 Methods
@@ -227,6 +245,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Referrer.php line 81
 
 
 #### Arguments
@@ -245,6 +264,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Referrer.php line 91
 
 
 #### Arguments
@@ -262,6 +282,7 @@ Get list of referrers connections of a customer
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Referrer.php line 111
 
 
 #### Arguments
@@ -278,6 +299,7 @@ Get some statistics on visitors connection for current referrer
 
 
 * Visibility: **public**
+* This method is defined in classes\Referrer.php line 131
 
 
 #### Arguments
@@ -295,6 +317,7 @@ Get some statistics on customers registrations for current referrer
 
 
 * Visibility: **public**
+* This method is defined in classes\Referrer.php line 167
 
 
 #### Arguments
@@ -312,6 +335,7 @@ Get some statistics on orders for current referrer
 
 
 * Visibility: **public**
+* This method is defined in classes\Referrer.php line 203
 
 
 #### Arguments
@@ -330,6 +354,7 @@ Refresh cache data of referrer statistics in referrer_shop table
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Referrer.php line 255
 
 
 #### Arguments
@@ -348,6 +373,7 @@ Cache liaison between connections_source data and referrers data
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Referrer.php line 294
 
 
 #### Arguments
@@ -365,6 +391,7 @@ Cache liaison between connections_source data and referrers data
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Referrer.php line 319
 
 
 #### Arguments

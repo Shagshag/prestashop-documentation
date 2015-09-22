@@ -8,7 +8,8 @@ TagCore
 
 * Class name: TagCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Tag.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Tag.php line 30
 
 
 ### $name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Tag.php line 33
 
 
 ### $definition
@@ -50,6 +53,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Tag.php line 38
 
 
 ### $webserviceParameters
@@ -61,6 +65,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Tag.php line 48
 
 
 Methods
@@ -76,6 +81,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Tag.php line 54
 
 
 #### Arguments
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Tag.php line 75
 
 
 #### Arguments
@@ -112,6 +119,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tag.php line 93
 
 
 #### Arguments
@@ -132,6 +140,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tag.php line 138
 
 
 
@@ -146,6 +155,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tag.php line 170
 
 
 #### Arguments
@@ -164,6 +174,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tag.php line 194
 
 
 #### Arguments
@@ -180,11 +191,12 @@ Add several tags in database and link it to a product
 
 
 * Visibility: **public**
+* This method is defined in classes\Tag.php line 210
 
 
 #### Arguments
 * $associated **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -197,6 +209,7 @@ Add several tags in database and link it to a product
 
 
 * Visibility: **public**
+* This method is defined in classes\Tag.php line 233
 
 
 #### Arguments
@@ -214,6 +227,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tag.php line 255
 
 
 #### Arguments

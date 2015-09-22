@@ -8,6 +8,7 @@ QqUploadedFileForm
 
 * Class name: QqUploadedFileForm
 * Namespace: 
+* This class is defined in classes\FileUploader.php line 95
 
 
 
@@ -28,6 +29,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
+* This method is defined in classes\FileUploader.php line 101
 
 
 
@@ -41,6 +43,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
+* This method is defined in classes\FileUploader.php line 137
 
 
 #### Arguments
@@ -59,6 +62,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
+* This method is defined in classes\FileUploader.php line 165
 
 
 
@@ -72,6 +76,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
+* This method is defined in classes\FileUploader.php line 170
 
 
 

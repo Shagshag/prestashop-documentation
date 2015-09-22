@@ -9,6 +9,7 @@ Uses CollectionCore
 
 * Class name: CSVCore
 * Namespace: 
+* This class is defined in classes\CSV.php line 32
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CSV.php line 34
 
 
 ### $collection
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CSV.php line 35
 
 
 ### $delimiter
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CSV.php line 36
 
 
 Methods
@@ -64,6 +68,7 @@ Loads objects, filename and optionnaly a delimiter.
 
 
 * Visibility: **public**
+* This method is defined in classes\CSV.php line 44
 
 
 #### Arguments
@@ -84,6 +89,7 @@ Outputs
 
 
 * Visibility: **public**
+* This method is defined in classes\CSV.php line 56
 
 
 
@@ -98,6 +104,7 @@ Uses defined delimiter
 
 
 * Visibility: **public**
+* This method is defined in classes\CSV.php line 79
 
 
 #### Arguments
@@ -115,6 +122,7 @@ Escapes data
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CSV.php line 90
 
 
 #### Arguments
@@ -131,6 +139,7 @@ Adds headers
 
 
 * Visibility: **public**
+* This method is defined in classes\CSV.php line 99
 
 
 

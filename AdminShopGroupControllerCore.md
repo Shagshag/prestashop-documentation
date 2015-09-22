@@ -8,7 +8,8 @@ AdminShopGroupControllerCore
 
 * Class name: AdminShopGroupControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminShopGroupController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminShopGroupController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopGroupController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopGroupController.php line 93
 
 
 #### Arguments
@@ -71,6 +75,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopGroupController.php line 98
 
 
 
@@ -84,6 +89,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopGroupController.php line 154
 
 
 
@@ -97,6 +103,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopGroupController.php line 172
 
 
 
@@ -110,6 +117,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopGroupController.php line 184
 
 
 
@@ -123,6 +131,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopGroupController.php line 311
 
 
 #### Arguments
@@ -144,6 +153,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopGroupController.php line 326
 
 
 
@@ -157,6 +167,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminShopGroupController.php line 345
 
 
 #### Arguments
@@ -173,6 +184,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminShopGroupController.php line 351
 
 
 #### Arguments
@@ -189,6 +201,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopGroupController.php line 357
 
 
 

@@ -8,7 +8,8 @@ StatisticsControllerCore
 
 * Class name: StatisticsControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\StatisticsController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\StatisticsController.php line 29
 
 
 ### $display_footer
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\StatisticsController.php line 30
 
 
 ### $param_token
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\StatisticsController.php line 32
 
 
 Methods
@@ -64,6 +68,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\StatisticsController.php line 34
 
 
 
@@ -77,6 +82,7 @@ Log statistics on navigation (resolution, plugins, etc.)
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\StatisticsController.php line 53
 
 
 
@@ -90,6 +96,7 @@ Log statistics on time spend on pages
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\StatisticsController.php line 77
 
 
 

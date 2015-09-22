@@ -8,7 +8,8 @@ AdminCmsCategoriesControllerCore
 
 * Class name: AdminCmsCategoriesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminCmsCategoriesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCmsCategoriesController.php line 33
 
 
 ### $position_identifier
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCmsCategoriesController.php line 35
 
 
 ### $object
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCmsCategoriesController.php line 30
 
 
 Methods
@@ -64,6 +68,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsCategoriesController.php line 37
 
 
 
@@ -77,6 +82,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsCategoriesController.php line 83
 
 
 
@@ -90,6 +96,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsCategoriesController.php line 93
 
 
 
@@ -103,6 +110,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsCategoriesController.php line 197
 
 
 

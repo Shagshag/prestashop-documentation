@@ -8,7 +8,8 @@ AttachmentCore
 
 * Class name: AttachmentCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Attachment.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Attachment.php line 29
 
 
 ### $file_name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Attachment.php line 30
 
 
 ### $file_size
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Attachment.php line 31
 
 
 ### $name
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Attachment.php line 32
 
 
 ### $mime
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Attachment.php line 33
 
 
 ### $description
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Attachment.php line 34
 
 
 ### $position
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Attachment.php line 37
 
 
 ### $definition
@@ -105,6 +113,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Attachment.php line 42
 
 
 Methods
@@ -120,6 +129,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Attachment.php line 58
 
 
 #### Arguments
@@ -137,6 +147,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Attachment.php line 64
 
 
 #### Arguments
@@ -153,6 +164,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Attachment.php line 70
 
 
 
@@ -166,6 +178,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Attachment.php line 88
 
 
 #### Arguments
@@ -183,6 +196,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Attachment.php line 98
 
 
 #### Arguments
@@ -202,6 +216,7 @@ Unassociate $id_product from the current object
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Attachment.php line 119
 
 
 #### Arguments
@@ -218,6 +233,7 @@ associate $id_product to the current object.
 
 
 * Visibility: **public**
+* This method is defined in classes\Attachment.php line 136
 
 
 #### Arguments
@@ -236,6 +252,7 @@ and remove eventual previous association
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Attachment.php line 156
 
 
 #### Arguments
@@ -254,6 +271,7 @@ and remove eventual previous association
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Attachment.php line 181
 
 
 #### Arguments

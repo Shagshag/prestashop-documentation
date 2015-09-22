@@ -9,6 +9,7 @@ Class DbCore
 * Class name: DbCore
 * Namespace: 
 * This is an **abstract** class
+* This class is defined in classes\db\Db.php line 34
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\db\Db.php line 37
 
 
 ### INSERT_IGNORE
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\db\Db.php line 40
 
 
 ### REPLACE
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\db\Db.php line 43
 
 
 ### ON_DUPLICATE_KEY
@@ -46,6 +50,7 @@ Constants
 
 
 
+* This constant is defined in classes\db\Db.php line 46
 
 
 Properties
@@ -61,6 +66,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\Db.php line 49
 
 
 ### $user
@@ -72,6 +78,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\Db.php line 52
 
 
 ### $password
@@ -83,6 +90,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\Db.php line 55
 
 
 ### $database
@@ -94,6 +102,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\Db.php line 58
 
 
 ### $is_cache_enabled
@@ -105,6 +114,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\Db.php line 61
 
 
 ### $link
@@ -116,6 +126,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\Db.php line 64
 
 
 ### $result
@@ -127,6 +138,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\Db.php line 67
 
 
 ### $instance
@@ -139,6 +151,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\db\Db.php line 70
 
 
 ### $_servers
@@ -151,6 +164,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\db\Db.php line 73
 
 
 ### $_slave_servers_loaded
@@ -163,6 +177,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\db\Db.php line 78
 
 
 ### $last_query
@@ -174,6 +189,7 @@ Store last executed query
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\Db.php line 85
 
 
 ### $last_query_hash
@@ -185,6 +201,7 @@ Store hash of the last executed query
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\Db.php line 92
 
 
 ### $last_cached
@@ -196,6 +213,7 @@ Last cached query
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\Db.php line 99
 
 
 Methods
@@ -212,6 +230,7 @@ Opens a database connection
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 106
 
 
 
@@ -226,6 +245,7 @@ Closes database connection
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 111
 
 
 
@@ -240,6 +260,7 @@ Execute a query and get result resource
 
 * Visibility: **protected**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 119
 
 
 #### Arguments
@@ -257,6 +278,7 @@ Get number of rows in a result
 
 * Visibility: **protected**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 127
 
 
 #### Arguments
@@ -274,6 +296,7 @@ Get the ID generated from the previous INSERT operation
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 134
 
 
 
@@ -288,6 +311,7 @@ Get number of affected rows in previous database operation
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 141
 
 
 
@@ -302,6 +326,7 @@ Get next row for a query which does not return an array
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 149
 
 
 #### Arguments
@@ -319,6 +344,7 @@ Get all rows for a query which return an array
 
 * Visibility: **protected**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 157
 
 
 #### Arguments
@@ -336,6 +362,7 @@ Get database version
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 164
 
 
 
@@ -350,6 +377,7 @@ Protect string against SQL injections
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 172
 
 
 #### Arguments
@@ -367,6 +395,7 @@ Returns the text of the error message from previous database operation
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 179
 
 
 
@@ -381,6 +410,7 @@ Returns the number of the error from previous database operation
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 186
 
 
 
@@ -395,6 +425,7 @@ Do not remove, useful for some modules.
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 195
 
 
 #### Arguments
@@ -412,6 +443,7 @@ Selects best table engine.
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\db\Db.php line 202
 
 
 
@@ -426,6 +458,7 @@ Returns database object instance.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 210
 
 
 #### Arguments
@@ -443,6 +476,7 @@ Returns database object instance.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 250
 
 
 #### Arguments
@@ -461,6 +495,7 @@ Unit testing purpose only
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 258
 
 
 
@@ -475,6 +510,7 @@ Loads configuration settings for slave servers if needed.
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 266
 
 
 
@@ -489,6 +525,7 @@ Returns the best child layer database class.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 285
 
 
 
@@ -502,6 +539,7 @@ Instantiates a database connection
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 306
 
 
 #### Arguments
@@ -522,6 +560,7 @@ Disable the use of the cache
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 327
 
 
 
@@ -535,6 +574,7 @@ Enable & flush the cache
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 336
 
 
 
@@ -548,6 +588,7 @@ Closes connection to database
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 345
 
 
 
@@ -561,6 +602,7 @@ Executes SQL query based on selected type
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 366
 
 
 #### Arguments
@@ -583,6 +625,7 @@ Filter SQL query within a blacklist
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 398
 
 
 #### Arguments
@@ -603,10 +646,11 @@ Execute a query and get result resource
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 410
 
 
 #### Arguments
-* $sql **string|DbQuery**
+* $sql **string|[string](DbQueryCore)**
 
 
 
@@ -619,6 +663,7 @@ Executes an INSERT query
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 443
 
 
 #### Arguments
@@ -640,6 +685,7 @@ Executes an UPDATE query
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 529
 
 
 #### Arguments
@@ -662,6 +708,7 @@ Executes a DELETE query
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 572
 
 
 #### Arguments
@@ -682,10 +729,11 @@ Executes a query
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 595
 
 
 #### Arguments
-* $sql **string|DbQuery**
+* $sql **string|[string](DbQueryCore)**
 * $use_cache **boolean**
 
 
@@ -699,10 +747,11 @@ Executes return the result of $sql as array
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 618
 
 
 #### Arguments
-* $sql **string|DbQuery** - &lt;p&gt;Query to execute&lt;/p&gt;
+* $sql **string|[string](DbQueryCore)** - &lt;p&gt;Query to execute&lt;/p&gt;
 * $array **boolean** - &lt;p&gt;Return an array instead of a result object (deprecated since 1.5.0.1, use query method instead)&lt;/p&gt;
 * $use_cache **boolean**
 
@@ -718,10 +767,11 @@ This function automatically adds "LIMIT 1" to the query
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 672
 
 
 #### Arguments
-* $sql **string|DbQuery** - &lt;p&gt;the select query (without &quot;LIMIT 1&quot;)&lt;/p&gt;
+* $sql **string|[string](DbQueryCore)** - &lt;p&gt;the select query (without &quot;LIMIT 1&quot;)&lt;/p&gt;
 * $use_cache **boolean** - &lt;p&gt;Find it in cache first&lt;/p&gt;
 
 
@@ -735,10 +785,11 @@ Returns a value from the first row, first column of a SELECT query
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 717
 
 
 #### Arguments
-* $sql **string|DbQuery**
+* $sql **string|[string](DbQueryCore)**
 * $use_cache **boolean**
 
 
@@ -752,6 +803,7 @@ Get number of rows for last result
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 735
 
 
 
@@ -765,10 +817,11 @@ Executes a query
 
 
 * Visibility: **protected**
+* This method is defined in classes\db\Db.php line 756
 
 
 #### Arguments
-* $sql **string|DbQuery**
+* $sql **string|[string](DbQueryCore)**
 * $use_cache **boolean**
 
 
@@ -782,6 +835,7 @@ Displays last SQL error
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 781
 
 
 #### Arguments
@@ -798,6 +852,7 @@ Sanitize data which will be injected into SQL query
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 805
 
 
 #### Arguments
@@ -817,6 +872,7 @@ Try a connection to the database
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 838
 
 
 #### Arguments
@@ -840,6 +896,7 @@ Try a connection to the database and set names to UTF-8
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 851
 
 
 #### Arguments
@@ -859,6 +916,7 @@ Try a connection to the database and check if at least one table with same prefi
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 866
 
 
 #### Arguments
@@ -880,6 +938,7 @@ Tries to connect to the database and create a table (checking creation privilege
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 882
 
 
 #### Arguments
@@ -902,6 +961,7 @@ Checks if auto increment value and offset is 1
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 895
 
 
 #### Arguments
@@ -921,10 +981,11 @@ Executes a query
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 909
 
 
 #### Arguments
-* $sql **string|DbQuery**
+* $sql **string|[string](DbQueryCore)**
 * $use_cache **boolean**
 
 
@@ -939,6 +1000,7 @@ Executes a query
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 923
 
 
 #### Arguments
@@ -957,6 +1019,7 @@ Executes a query and kills process (dies)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\Db.php line 937
 
 
 #### Arguments
@@ -974,6 +1037,7 @@ Get used link instance
 
 
 * Visibility: **public**
+* This method is defined in classes\db\Db.php line 949
 
 
 

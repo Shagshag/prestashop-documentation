@@ -9,7 +9,8 @@ ModuleAdminControllerCore
 * Class name: ModuleAdminControllerCore
 * Namespace: 
 * This is an **abstract** class
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in classes\controller\ModuleAdminController.php line 30
 
 
 
@@ -28,6 +29,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\ModuleAdminController.php line 33
 
 
 Methods
@@ -43,6 +45,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\ModuleAdminController.php line 38
 
 
 
@@ -56,6 +59,7 @@ Creates a template object
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\ModuleAdminController.php line 61
 
 
 #### Arguments
@@ -72,6 +76,7 @@ Get path to back office templates for the module
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\ModuleAdminController.php line 77
 
 
 

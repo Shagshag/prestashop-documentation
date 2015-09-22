@@ -8,7 +8,8 @@ Class DbMySQLiCore
 
 * Class name: DbMySQLiCore
 * Namespace: 
-* Parent class: Db
+* Parent class: [Db](DbCore)
+* This class is defined in classes\db\DbMySQLi.php line 32
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\DbMySQLi.php line 35
 
 
 ### $result
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\DbMySQLi.php line 38
 
 
 Methods
@@ -53,6 +56,7 @@ Tries to connect to the database
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbMySQLi.php line 47
 
 
 
@@ -67,6 +71,7 @@ Tries to connect and create a new database
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\DbMySQLi.php line 79
 
 
 #### Arguments
@@ -87,6 +92,7 @@ Destroys the database connection link
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbMySQLi.php line 99
 
 
 
@@ -100,6 +106,7 @@ Executes an SQL statement, returning a result set as a mysqli_result object or t
 
 
 * Visibility: **protected**
+* This method is defined in classes\db\DbMySQLi.php line 111
 
 
 #### Arguments
@@ -116,6 +123,7 @@ Returns the next row from the result set.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbMySQLi.php line 123
 
 
 #### Arguments
@@ -132,6 +140,7 @@ Returns all rows from the result set.
 
 
 * Visibility: **protected**
+* This method is defined in classes\db\DbMySQLi.php line 143
 
 
 #### Arguments
@@ -148,6 +157,7 @@ Returns row count from the result set.
 
 
 * Visibility: **protected**
+* This method is defined in classes\db\DbMySQLi.php line 173
 
 
 #### Arguments
@@ -164,6 +174,7 @@ Returns ID of the last inserted row.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbMySQLi.php line 184
 
 
 
@@ -177,6 +188,7 @@ Return the number of rows affected by the last SQL query.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbMySQLi.php line 195
 
 
 
@@ -190,6 +202,7 @@ Returns error message.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbMySQLi.php line 207
 
 
 #### Arguments
@@ -206,6 +219,7 @@ Returns error code.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbMySQLi.php line 218
 
 
 
@@ -219,6 +233,7 @@ Returns database server version.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbMySQLi.php line 229
 
 
 
@@ -232,6 +247,7 @@ Escapes illegal characters in a string.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbMySQLi.php line 241
 
 
 #### Arguments
@@ -248,6 +264,7 @@ Switches to a different database.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbMySQLi.php line 253
 
 
 #### Arguments
@@ -265,6 +282,7 @@ Try a connection to the database and check if at least one table with same prefi
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\DbMySQLi.php line 269
 
 
 #### Arguments
@@ -286,6 +304,7 @@ Try a connection to the database
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\DbMySQLi.php line 294
 
 
 #### Arguments
@@ -308,6 +327,7 @@ Selects best table engine.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\DbMySQLi.php line 319
 
 
 
@@ -322,6 +342,7 @@ Tries to connect to the database and create a table (checking creation privilege
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\DbMySQLi.php line 359
 
 
 #### Arguments
@@ -344,6 +365,7 @@ Try a connection to the database and set names to UTF-8
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\DbMySQLi.php line 392
 
 
 #### Arguments
@@ -363,6 +385,7 @@ Checks if auto increment value and offset is 1
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\DbMySQLi.php line 408
 
 
 #### Arguments

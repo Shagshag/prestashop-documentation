@@ -8,7 +8,8 @@ IndexControllerCore
 
 * Class name: IndexControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\IndexController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\IndexController.php line 29
 
 
 Methods
@@ -42,6 +44,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\IndexController.php line 35
 
 
 

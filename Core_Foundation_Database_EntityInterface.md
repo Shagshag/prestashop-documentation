@@ -23,6 +23,7 @@ needs please refer to http://www.prestashop.com for more information.
 * Interface name: Core_Foundation_Database_EntityInterface
 * Namespace: 
 * This is an **interface**
+* This interface is defined in Core\Foundation\Database\Core_Foundation_Database_EntityInterface.php line 27
 
 
 
@@ -43,6 +44,7 @@ If unspecified, a generic repository will be used for the entity.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityInterface.php line 35
 
 
 
@@ -56,6 +58,7 @@ If unspecified, a generic repository will be used for the entity.
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityInterface.php line 37
 
 
 
@@ -69,6 +72,7 @@ If unspecified, a generic repository will be used for the entity.
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityInterface.php line 39
 
 
 
@@ -82,6 +86,7 @@ If unspecified, a generic repository will be used for the entity.
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityInterface.php line 41
 
 
 #### Arguments

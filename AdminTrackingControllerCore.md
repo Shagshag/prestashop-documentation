@@ -8,7 +8,8 @@ AdminTrackingControllerCore
 
 * Class name: AdminTrackingControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminTrackingController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminTrackingController.php line 32
 
 
 ### $_helper_list
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTrackingController.php line 35
 
 
 ### $object
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminTrackingController.php line 30
 
 
 Methods
@@ -64,6 +68,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTrackingController.php line 37
 
 
 
@@ -77,6 +82,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTrackingController.php line 56
 
 
 
@@ -90,6 +96,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTrackingController.php line 88
 
 
 
@@ -103,6 +110,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTrackingController.php line 125
 
 
 
@@ -116,6 +124,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTrackingController.php line 169
 
 
 
@@ -129,6 +138,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTrackingController.php line 213
 
 
 
@@ -142,6 +152,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTrackingController.php line 244
 
 
 
@@ -155,6 +166,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTrackingController.php line 277
 
 
 #### Arguments
@@ -176,6 +188,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTrackingController.php line 286
 
 
 #### Arguments
@@ -194,6 +207,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTrackingController.php line 295
 
 
 #### Arguments
@@ -212,6 +226,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTrackingController.php line 304
 
 
 
@@ -225,6 +240,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTrackingController.php line 323
 
 
 
@@ -238,6 +254,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTrackingController.php line 338
 
 
 #### Arguments
@@ -260,6 +277,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminTrackingController.php line 343
 
 
 #### Arguments

@@ -8,7 +8,8 @@ PageNotFoundControllerCore
 
 * Class name: PageNotFoundControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\PageNotFoundController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\PageNotFoundController.php line 29
 
 
 ### $page_name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\PageNotFoundController.php line 30
 
 
 ### $ssl
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\PageNotFoundController.php line 31
 
 
 Methods
@@ -64,6 +68,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\PageNotFoundController.php line 37
 
 
 
@@ -77,6 +82,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\PageNotFoundController.php line 106
 
 
 #### Arguments
@@ -93,6 +99,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\PageNotFoundController.php line 111
 
 
 

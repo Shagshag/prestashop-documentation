@@ -8,6 +8,7 @@ WebserviceOutputBuilderCore
 
 * Class name: WebserviceOutputBuilderCore
 * Namespace: 
+* This class is defined in classes\webservice\WebserviceOutputBuilder.php line 30
 
 
 
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\webservice\WebserviceOutputBuilder.php line 35
 
 
 ### VIEW_DETAILS
@@ -29,6 +31,7 @@ Constants
 
 
 
+* This constant is defined in classes\webservice\WebserviceOutputBuilder.php line 36
 
 
 Properties
@@ -44,6 +47,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 38
 
 
 ### $output
@@ -55,6 +59,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 39
 
 
 ### $objectRender
@@ -66,6 +71,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 42
 
 
 ### $wsResource
@@ -77,6 +83,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 43
 
 
 ### $depth
@@ -88,6 +95,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 44
 
 
 ### $schemaToDisplay
@@ -99,6 +107,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 45
 
 
 ### $fieldsToDisplay
@@ -110,6 +119,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 46
 
 
 ### $specificFields
@@ -121,6 +131,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 47
 
 
 ### $virtualFields
@@ -132,6 +143,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 48
 
 
 ### $statusInt
@@ -143,6 +155,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 49
 
 
 ### $wsParamOverrides
@@ -154,6 +167,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 50
 
 
 ### $_cache_ws_parameters
@@ -166,6 +180,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 52
 
 
 ### $headerParams
@@ -177,6 +192,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 55
 
 
 ### $status
@@ -188,6 +204,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputBuilder.php line 65
 
 
 Methods
@@ -203,6 +220,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 67
 
 
 #### Arguments
@@ -219,10 +237,11 @@ Set the render object for set the output format.
 Set the Content-type for the http header.
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 85
 
 
 #### Arguments
-* $obj_render **[WebserviceOutputInterface](WebserviceOutputInterface.md)**
+* $obj_render **[WebserviceOutputInterface](WebserviceOutputInterface)**
 
 
 
@@ -235,6 +254,7 @@ getter
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 103
 
 
 
@@ -249,6 +269,7 @@ To build
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 116
 
 
 #### Arguments
@@ -267,6 +288,7 @@ This check each required params.
 If this method is overrided don't forget to check required specific params (for xml etc...)
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 130
 
 
 
@@ -280,6 +302,7 @@ If this method is overrided don't forget to check required specific params (for 
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 147
 
 
 #### Arguments
@@ -297,6 +320,7 @@ If this method is overrided don't forget to check required specific params (for 
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 162
 
 
 #### Arguments
@@ -313,6 +337,7 @@ Delete all Header parameters previously set.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 186
 
 
 
@@ -326,6 +351,7 @@ Delete all Header parameters previously set.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 195
 
 
 
@@ -339,6 +365,7 @@ Delete all Header parameters previously set.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 200
 
 
 
@@ -352,6 +379,7 @@ Set the return header status
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 210
 
 
 #### Arguments
@@ -368,6 +396,7 @@ Build errors output using an error array
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 259
 
 
 #### Arguments
@@ -384,6 +413,7 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 285
 
 
 #### Arguments
@@ -400,6 +430,7 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 329
 
 
 #### Arguments
@@ -421,6 +452,7 @@ Different content types are :
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 349
 
 
 #### Arguments
@@ -443,10 +475,11 @@ Create the tree diagram with no details
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 411
 
 
 #### Arguments
-* $object **ObjectModel** - &lt;p&gt;create by the entity&lt;/p&gt;
+* $object **[ObjectModel](ObjectModelCore)** - &lt;p&gt;create by the entity&lt;/p&gt;
 * $depth **integer** - &lt;p&gt;the depth for the tree diagram&lt;/p&gt;
 
 
@@ -460,10 +493,11 @@ Build a schema blank or synopsis
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 432
 
 
 #### Arguments
-* $object **ObjectModel** - &lt;p&gt;create by the entity&lt;/p&gt;
+* $object **[ObjectModel](ObjectModelCore)** - &lt;p&gt;create by the entity&lt;/p&gt;
 * $ws_params **array** - &lt;p&gt;webserviceParams from the entity&lt;/p&gt;
 
 
@@ -477,10 +511,11 @@ Build the entity detail.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 453
 
 
 #### Arguments
-* $object **ObjectModel** - &lt;p&gt;create by the entity&lt;/p&gt;
+* $object **[ObjectModel](ObjectModelCore)** - &lt;p&gt;create by the entity&lt;/p&gt;
 * $depth **integer** - &lt;p&gt;the depth for the tree diagram&lt;/p&gt;
 
 
@@ -494,10 +529,11 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 514
 
 
 #### Arguments
-* $object **ObjectModel** - &lt;p&gt;create by the entity&lt;/p&gt;
+* $object **[ObjectModel](ObjectModelCore)** - &lt;p&gt;create by the entity&lt;/p&gt;
 * $ws_params **array** - &lt;p&gt;webserviceParams from the entity&lt;/p&gt;
 * $field_name **string**
 * $field **array**
@@ -514,6 +550,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 581
 
 
 #### Arguments
@@ -533,6 +570,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 657
 
 
 #### Arguments
@@ -555,6 +593,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 697
 
 
 #### Arguments
@@ -571,6 +610,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 707
 
 
 #### Arguments
@@ -587,6 +627,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 735
 
 
 #### Arguments
@@ -606,6 +647,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 746
 
 
 #### Arguments
@@ -623,6 +665,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 755
 
 
 
@@ -636,6 +679,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 759
 
 
 #### Arguments
@@ -656,6 +700,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 772
 
 
 #### Arguments
@@ -675,6 +720,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 783
 
 
 
@@ -688,6 +734,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 788
 
 
 #### Arguments
@@ -705,6 +752,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputBuilder.php line 813
 
 
 #### Arguments

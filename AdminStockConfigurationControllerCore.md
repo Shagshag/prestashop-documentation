@@ -8,7 +8,8 @@ AdminStockConfigurationControllerCore
 
 * Class name: AdminStockConfigurationControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminStockConfigurationController.php line 31
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminStockConfigurationController.php line 31
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 36
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 129
 
 
 
@@ -68,6 +72,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 148
 
 
 
@@ -81,6 +86,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 366
 
 
 
@@ -94,6 +100,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 415
 
 
 
@@ -107,6 +114,7 @@ AdminController::postProcess() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 493
 
 
 
@@ -120,6 +128,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 530
 
 
 #### Arguments
@@ -141,6 +150,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 550
 
 
 
@@ -154,6 +164,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 559
 
 
 
@@ -167,6 +178,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 568
 
 
 
@@ -180,6 +192,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 582
 
 
 
@@ -193,6 +206,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 596
 
 
 
@@ -206,6 +220,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 610
 
 
 
@@ -219,6 +234,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockConfigurationController.php line 624
 
 
 

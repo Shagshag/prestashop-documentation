@@ -8,7 +8,8 @@ AdminSuppliersControllerCore
 
 * Class name: AdminSuppliersControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminSuppliersController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminSuppliersController.php line 32
 
 
 ### $object
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminSuppliersController.php line 30
 
 
 Methods
@@ -53,6 +56,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSuppliersController.php line 34
 
 
 
@@ -66,6 +70,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSuppliersController.php line 72
 
 
 
@@ -79,6 +84,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSuppliersController.php line 79
 
 
 
@@ -92,6 +98,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSuppliersController.php line 92
 
 
 
@@ -105,6 +112,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSuppliersController.php line 336
 
 
 
@@ -118,6 +126,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSuppliersController.php line 349
 
 
 
@@ -131,6 +140,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSuppliersController.php line 407
 
 
 
@@ -144,6 +154,7 @@ AdminController::postProcess() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSuppliersController.php line 442
 
 
 
@@ -157,10 +168,11 @@ AdminController::postProcess() override
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSuppliersController.php line 521
 
 
 #### Arguments
-* $object **Supplier**
+* $object **[Supplier](SupplierCore)**
 
 
 
@@ -173,9 +185,10 @@ AdminController::postProcess() override
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSuppliersController.php line 540
 
 
 #### Arguments
-* $object **Supplier**
+* $object **[Supplier](SupplierCore)**
 
 

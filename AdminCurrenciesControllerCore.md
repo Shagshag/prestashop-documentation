@@ -8,7 +8,8 @@ AdminCurrenciesControllerCore
 
 * Class name: AdminCurrenciesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminCurrenciesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCurrenciesController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCurrenciesController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCurrenciesController.php line 82
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCurrenciesController.php line 92
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCurrenciesController.php line 237
 
 
 #### Arguments
@@ -97,6 +103,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCurrenciesController.php line 253
 
 
 #### Arguments
@@ -113,6 +120,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCurrenciesController.php line 272
 
 
 
@@ -126,6 +134,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCurrenciesController.php line 281
 
 
 
@@ -139,6 +148,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCurrenciesController.php line 298
 
 
 
@@ -152,6 +162,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCurrenciesController.php line 308
 
 
 
@@ -165,6 +176,7 @@ Update currency exchange rates
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCurrenciesController.php line 324
 
 
 
@@ -178,6 +190,7 @@ Update currency exchange rates
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCurrenciesController.php line 334
 
 
 
@@ -191,6 +204,7 @@ Update currency exchange rates
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCurrenciesController.php line 352
 
 
 

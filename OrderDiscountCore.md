@@ -8,8 +8,9 @@ OrderDiscountCore
 
 * Class name: OrderDiscountCore
 * Namespace: 
-* Parent class: OrderCartRule
+* Parent class: [OrderCartRule](OrderCartRuleCore)
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
+* This class is defined in classes\order\OrderDiscount.php line 30
 
 
 
@@ -31,6 +32,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\order\OrderDiscount.php line 32
 
 
 #### Arguments
@@ -48,6 +50,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\order\OrderDiscount.php line 44
 
 
 #### Arguments
@@ -66,6 +69,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\order\OrderDiscount.php line 56
 
 
 #### Arguments

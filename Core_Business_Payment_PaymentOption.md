@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Business_Payment_PaymentOption
 * Namespace: 
+* This class is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 27
 
 
 
@@ -40,6 +41,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 29
 
 
 ### $logo
@@ -51,6 +53,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 30
 
 
 ### $action
@@ -62,6 +65,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 31
 
 
 ### $method
@@ -73,6 +77,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 32
 
 
 ### $inputs
@@ -84,6 +89,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 33
 
 
 ### $form
@@ -95,6 +101,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 34
 
 
 ### $moduleName
@@ -106,6 +113,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 35
 
 
 Methods
@@ -121,6 +129,7 @@ Return Call to Action Text
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 41
 
 
 
@@ -134,6 +143,7 @@ Set Call To Action Text
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 51
 
 
 #### Arguments
@@ -150,6 +160,7 @@ Return logo path
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 61
 
 
 
@@ -163,6 +174,7 @@ Set logo path
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 71
 
 
 #### Arguments
@@ -179,6 +191,7 @@ Return action to perform (POST/GET)
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 81
 
 
 
@@ -192,6 +205,7 @@ Set action to be performed by this option
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 92
 
 
 #### Arguments
@@ -208,6 +222,7 @@ Set action to be performed by this option
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 98
 
 
 
@@ -221,6 +236,7 @@ Set action to be performed by this option
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 103
 
 
 #### Arguments
@@ -237,6 +253,7 @@ Return inputs contained in this payment option
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 113
 
 
 
@@ -250,6 +267,7 @@ Set inputs for this payment option
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 123
 
 
 #### Arguments
@@ -266,6 +284,7 @@ Get payment option form
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 133
 
 
 
@@ -279,6 +298,7 @@ Set payment option form
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 143
 
 
 #### Arguments
@@ -295,6 +315,7 @@ Get related module name to this payment option
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 153
 
 
 
@@ -308,6 +329,7 @@ Set related module name to this payment option
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 163
 
 
 #### Arguments
@@ -330,6 +352,7 @@ returns an array of instances of Core_Business_Payment_PaymentOption
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in Core\Business\Payment\Core_Business_Payment_PaymentOption.php line 178
 
 
 #### Arguments

@@ -8,7 +8,8 @@ CMSCore
 
 * Class name: CMSCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\CMS.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMS.php line 30
 
 
 ### $meta_description
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMS.php line 31
 
 
 ### $meta_keywords
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMS.php line 32
 
 
 ### $content
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMS.php line 33
 
 
 ### $link_rewrite
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMS.php line 34
 
 
 ### $id_cms_category
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMS.php line 35
 
 
 ### $position
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMS.php line 36
 
 
 ### $indexation
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMS.php line 37
 
 
 ### $active
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMS.php line 38
 
 
 ### $definition
@@ -127,6 +137,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\CMS.php line 43
 
 
 ### $webserviceParameters
@@ -138,6 +149,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\CMS.php line 63
 
 
 Methods
@@ -153,6 +165,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\CMS.php line 68
 
 
 #### Arguments
@@ -170,6 +183,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\CMS.php line 74
 
 
 #### Arguments
@@ -186,6 +200,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\CMS.php line 82
 
 
 
@@ -200,13 +215,14 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMS.php line 90
 
 
 #### Arguments
 * $id_lang **mixed**
 * $selection **mixed**
 * $active **mixed**
-* $link **Link**
+* $link **[Link](LinkCore)**
 
 
 
@@ -220,6 +236,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMS.php line 116
 
 
 #### Arguments
@@ -238,6 +255,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\CMS.php line 133
 
 
 #### Arguments
@@ -256,6 +274,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMS.php line 171
 
 
 #### Arguments
@@ -273,6 +292,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMS.php line 191
 
 
 #### Arguments
@@ -290,6 +310,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMS.php line 201
 
 
 #### Arguments
@@ -310,6 +331,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMS.php line 232
 
 
 #### Arguments
@@ -327,6 +349,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMS.php line 243
 
 
 #### Arguments
@@ -346,6 +369,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMS.php line 261
 
 
 

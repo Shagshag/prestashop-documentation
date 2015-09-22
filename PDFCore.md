@@ -8,6 +8,7 @@ PDFCore
 
 * Class name: PDFCore
 * Namespace: 
+* This class is defined in classes\pdf\PDF.php line 30
 
 
 
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\pdf\PDF.php line 38
 
 
 ### TEMPLATE_ORDER_RETURN
@@ -29,6 +31,7 @@ Constants
 
 
 
+* This constant is defined in classes\pdf\PDF.php line 39
 
 
 ### TEMPLATE_ORDER_SLIP
@@ -37,6 +40,7 @@ Constants
 
 
 
+* This constant is defined in classes\pdf\PDF.php line 40
 
 
 ### TEMPLATE_DELIVERY_SLIP
@@ -45,6 +49,7 @@ Constants
 
 
 
+* This constant is defined in classes\pdf\PDF.php line 41
 
 
 ### TEMPLATE_SUPPLY_ORDER_FORM
@@ -53,6 +58,7 @@ Constants
 
 
 
+* This constant is defined in classes\pdf\PDF.php line 42
 
 
 Properties
@@ -68,6 +74,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\PDF.php line 32
 
 
 ### $pdf_renderer
@@ -79,6 +86,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\PDF.php line 33
 
 
 ### $objects
@@ -90,6 +98,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\PDF.php line 34
 
 
 ### $template
@@ -101,6 +110,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\PDF.php line 35
 
 
 ### $send_bulk_flag
@@ -112,6 +122,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\PDF.php line 36
 
 
 Methods
@@ -127,6 +138,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDF.php line 50
 
 
 #### Arguments
@@ -146,6 +158,7 @@ Render PDF
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDF.php line 73
 
 
 #### Arguments
@@ -162,6 +175,7 @@ Get correct PDF template classes
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDF.php line 117
 
 
 #### Arguments

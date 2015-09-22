@@ -8,7 +8,8 @@ AdminLanguagesControllerCore
 
 * Class name: AdminLanguagesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminLanguagesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminLanguagesController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 108
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 121
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 133
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 298
 
 
 
@@ -107,6 +114,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 311
 
 
 
@@ -120,6 +128,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 329
 
 
 #### Arguments
@@ -136,6 +145,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 351
 
 
 #### Arguments
@@ -152,6 +162,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 369
 
 
 
@@ -165,6 +176,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 379
 
 
 
@@ -178,6 +190,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 393
 
 
 
@@ -191,6 +204,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 415
 
 
 
@@ -204,6 +218,7 @@ Copy a no-product image
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 450
 
 
 #### Arguments
@@ -220,6 +235,7 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 492
 
 
 #### Arguments
@@ -236,10 +252,11 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 520
 
 
 #### Arguments
-* $object **Language**
+* $object **[Language](LanguageCore)**
 * $table **string**
 
 
@@ -253,6 +270,7 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 530
 
 
 
@@ -266,6 +284,7 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 560
 
 
 #### Arguments
@@ -282,6 +301,7 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminLanguagesController.php line 566
 
 
 

@@ -8,7 +8,8 @@ CmsControllerCore
 
 * Class name: CmsControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\CmsController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\CmsController.php line 29
 
 
 ### $assignCase
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\CmsController.php line 30
 
 
 ### $cms
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\CmsController.php line 31
 
 
 ### $cms_category
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\CmsController.php line 34
 
 
 ### $ssl
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\CmsController.php line 35
 
 
 Methods
@@ -86,6 +92,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CmsController.php line 37
 
 
 #### Arguments
@@ -102,6 +109,7 @@ Initialize cms controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CmsController.php line 53
 
 
 
@@ -115,6 +123,7 @@ Initialize cms controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CmsController.php line 87
 
 
 
@@ -128,6 +137,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CmsController.php line 102
 
 
 

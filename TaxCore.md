@@ -8,7 +8,8 @@ TaxCore
 
 * Class name: TaxCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\tax\Tax.php line 28
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\Tax.php line 31
 
 
 ### $rate
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\Tax.php line 34
 
 
 ### $active
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\Tax.php line 37
 
 
 ### $deleted
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\Tax.php line 40
 
 
 ### $definition
@@ -72,6 +77,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\tax\Tax.php line 45
 
 
 ### $_product_country_tax
@@ -84,6 +90,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\tax\Tax.php line 59
 
 
 ### $_product_tax_via_rules
@@ -96,6 +103,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\tax\Tax.php line 60
 
 
 ### $webserviceParameters
@@ -107,6 +115,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\tax\Tax.php line 62
 
 
 Methods
@@ -122,6 +131,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\Tax.php line 66
 
 
 
@@ -135,6 +145,7 @@ Save the object with the field deleted to true
 @return bool
 
 * Visibility: **public**
+* This method is defined in classes\tax\Tax.php line 83
 
 
 
@@ -148,6 +159,7 @@ Save the object with the field deleted to true
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\Tax.php line 89
 
 
 
@@ -161,6 +173,7 @@ Save the object with the field deleted to true
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\Tax.php line 98
 
 
 #### Arguments
@@ -177,6 +190,7 @@ Save the object with the field deleted to true
 
 
 * Visibility: **protected**
+* This method is defined in classes\tax\Tax.php line 118
 
 
 
@@ -190,6 +204,7 @@ Returns true if the tax is used in an order details
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\Tax.php line 132
 
 
 
@@ -204,6 +219,7 @@ Get all available taxes
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\Tax.php line 146
 
 
 #### Arguments
@@ -222,6 +238,7 @@ Get all available taxes
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\Tax.php line 166
 
 
 
@@ -236,6 +253,7 @@ Return the tax id associated to the specified name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\Tax.php line 177
 
 
 #### Arguments
@@ -254,6 +272,7 @@ Returns the ecotax tax rate
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\Tax.php line 195
 
 
 #### Arguments
@@ -271,6 +290,7 @@ Returns the carrier tax rate
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\Tax.php line 211
 
 
 #### Arguments
@@ -289,6 +309,7 @@ Return the product tax rate using the tax rules system
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\Tax.php line 231
 
 
 #### Arguments
@@ -309,11 +330,12 @@ Returns the product tax
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\Tax.php line 250
 
 
 #### Arguments
 * $id_product **integer**
 * $id_address **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 

@@ -8,6 +8,7 @@ Class ContextCore
 
 * Class name: ContextCore
 * Namespace: 
+* This class is defined in classes\Context.php line 32
 
 
 
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\Context.php line 99
 
 
 ### DEVICE_TABLET
@@ -29,6 +31,7 @@ Constants
 
 
 
+* This constant is defined in classes\Context.php line 102
 
 
 ### DEVICE_MOBILE
@@ -37,6 +40,7 @@ Constants
 
 
 
+* This constant is defined in classes\Context.php line 105
 
 
 ### MODE_STD
@@ -45,6 +49,7 @@ Constants
 
 
 
+* This constant is defined in classes\Context.php line 108
 
 
 ### MODE_STD_CONTRIB
@@ -53,6 +58,7 @@ Constants
 
 
 
+* This constant is defined in classes\Context.php line 111
 
 
 ### MODE_HOST_CONTRIB
@@ -61,6 +67,7 @@ Constants
 
 
 
+* This constant is defined in classes\Context.php line 114
 
 
 ### MODE_HOST
@@ -69,6 +76,7 @@ Constants
 
 
 
+* This constant is defined in classes\Context.php line 117
 
 
 Properties
@@ -85,6 +93,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Context.php line 35
 
 
 ### $cart
@@ -96,6 +105,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 38
 
 
 ### $customer
@@ -107,6 +117,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 41
 
 
 ### $cookie
@@ -118,6 +129,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 44
 
 
 ### $link
@@ -129,6 +141,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 47
 
 
 ### $country
@@ -140,6 +153,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 50
 
 
 ### $employee
@@ -151,6 +165,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 53
 
 
 ### $controller
@@ -162,6 +177,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 56
 
 
 ### $override_controller_name_for_translations
@@ -173,6 +189,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 59
 
 
 ### $language
@@ -184,6 +201,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 62
 
 
 ### $currency
@@ -195,6 +213,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 65
 
 
 ### $tab
@@ -206,6 +225,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 68
 
 
 ### $shop
@@ -217,6 +237,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 71
 
 
 ### $theme
@@ -228,6 +249,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 74
 
 
 ### $smarty
@@ -239,6 +261,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 77
 
 
 ### $mobile_detect
@@ -250,6 +273,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 80
 
 
 ### $mode
@@ -261,6 +285,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Context.php line 83
 
 
 ### $mobile_device
@@ -272,6 +297,7 @@ Mobile device of the customer
 
 
 * Visibility: **protected**
+* This property is defined in classes\Context.php line 90
 
 
 ### $is_mobile
@@ -283,6 +309,7 @@ Mobile device of the customer
 
 
 * Visibility: **protected**
+* This property is defined in classes\Context.php line 93
 
 
 ### $is_tablet
@@ -294,6 +321,7 @@ Mobile device of the customer
 
 
 * Visibility: **protected**
+* This property is defined in classes\Context.php line 96
 
 
 Methods
@@ -309,6 +337,7 @@ Sets Mobile_Detect tool object
 
 
 * Visibility: **public**
+* This method is defined in classes\Context.php line 124
 
 
 
@@ -322,6 +351,7 @@ Checks if visitor's device is a mobile device
 
 
 * Visibility: **public**
+* This method is defined in classes\Context.php line 138
 
 
 
@@ -335,6 +365,7 @@ Checks if visitor's device is a tablet device
 
 
 * Visibility: **public**
+* This method is defined in classes\Context.php line 152
 
 
 
@@ -348,6 +379,7 @@ Sets mobile_device context variable
 
 
 * Visibility: **public**
+* This method is defined in classes\Context.php line 166
 
 
 
@@ -361,6 +393,7 @@ Returns mobile device type
 
 
 * Visibility: **public**
+* This method is defined in classes\Context.php line 202
 
 
 
@@ -374,6 +407,7 @@ Checks if mobile context is possible
 
 
 * Visibility: **protected**
+* This method is defined in classes\Context.php line 225
 
 
 
@@ -388,6 +422,7 @@ Get a singleton instance of Context object
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Context.php line 256
 
 
 
@@ -402,6 +437,7 @@ Get a singleton instance of Context object
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Context.php line 269
 
 
 #### Arguments
@@ -420,6 +456,7 @@ Unit testing purpose only
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Context.php line 277
 
 
 
@@ -433,6 +470,7 @@ Clone current context object
 
 
 * Visibility: **public**
+* This method is defined in classes\Context.php line 287
 
 
 

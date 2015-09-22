@@ -8,7 +8,8 @@ OrderStateCore
 
 * Class name: OrderStateCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\order\OrderState.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\order\OrderState.php line 108
 
 
 ### FLAG_LOGABLE
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\order\OrderState.php line 109
 
 
 ### FLAG_DELIVERY
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\order\OrderState.php line 110
 
 
 ### FLAG_SHIPPED
@@ -46,6 +50,7 @@ Constants
 
 
 
+* This constant is defined in classes\order\OrderState.php line 111
 
 
 ### FLAG_PAID
@@ -54,6 +59,7 @@ Constants
 
 
 
+* This constant is defined in classes\order\OrderState.php line 112
 
 
 Properties
@@ -69,6 +75,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 30
 
 
 ### $template
@@ -80,6 +87,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 33
 
 
 ### $send_email
@@ -91,6 +99,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 36
 
 
 ### $module_name
@@ -102,6 +111,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 38
 
 
 ### $invoice
@@ -113,6 +123,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 41
 
 
 ### $color
@@ -124,6 +135,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 44
 
 
 ### $unremovable
@@ -135,6 +147,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 46
 
 
 ### $logable
@@ -146,6 +159,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 49
 
 
 ### $delivery
@@ -157,6 +171,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 52
 
 
 ### $hidden
@@ -168,6 +183,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 55
 
 
 ### $shipped
@@ -179,6 +195,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 58
 
 
 ### $paid
@@ -190,6 +207,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 61
 
 
 ### $pdf_invoice
@@ -201,6 +219,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 64
 
 
 ### $pdf_delivery
@@ -212,6 +231,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 67
 
 
 ### $deleted
@@ -223,6 +243,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderState.php line 70
 
 
 ### $definition
@@ -235,6 +256,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\order\OrderState.php line 75
 
 
 ### $webserviceParameters
@@ -246,6 +268,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderState.php line 100
 
 
 Methods
@@ -262,6 +285,7 @@ Get all available order statuses
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderState.php line 120
 
 
 #### Arguments
@@ -279,6 +303,7 @@ Check if we can make a invoice when order is in this state
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderState.php line 142
 
 
 #### Arguments
@@ -295,6 +320,7 @@ Check if we can make a invoice when order is in this state
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderState.php line 154
 
 
 

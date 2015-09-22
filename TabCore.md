@@ -8,7 +8,8 @@ TabCore
 
 * Class name: TabCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Tab.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\Tab.php line 49
 
 
 Properties
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Tab.php line 30
 
 
 ### $class_name
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Tab.php line 33
 
 
 ### $module
@@ -59,6 +63,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Tab.php line 35
 
 
 ### $id_parent
@@ -70,6 +75,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Tab.php line 38
 
 
 ### $position
@@ -81,6 +87,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Tab.php line 41
 
 
 ### $active
@@ -92,6 +99,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Tab.php line 44
 
 
 ### $hide_host_mode
@@ -103,6 +111,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Tab.php line 47
 
 
 ### $definition
@@ -115,6 +124,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Tab.php line 54
 
 
 ### $_getIdFromClassName
@@ -127,6 +137,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Tab.php line 70
 
 
 ### $_cache_tabs
@@ -139,6 +150,7 @@ Get tabs
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Tab.php line 251
 
 
 Methods
@@ -156,6 +168,7 @@ additionnal treatments for Tab when creating new one :
 
 
 * Visibility: **public**
+* This method is defined in classes\Tab.php line 81
 
 
 #### Arguments
@@ -173,6 +186,7 @@ additionnal treatments for Tab when creating new one :
 
 
 * Visibility: **public**
+* This method is defined in classes\Tab.php line 113
 
 
 #### Arguments
@@ -191,11 +205,12 @@ When creating a new tab $id_tab, this add default rights to the table access
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 126
 
 
 #### Arguments
 * $id_tab **integer**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -208,6 +223,7 @@ When creating a new tab $id_tab, this add default rights to the table access
 
 
 * Visibility: **public**
+* This method is defined in classes\Tab.php line 153
 
 
 
@@ -222,6 +238,7 @@ Get tab id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 169
 
 
 
@@ -236,6 +253,7 @@ Get tab parent id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 184
 
 
 
@@ -250,6 +268,7 @@ Get tab
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 206
 
 
 #### Arguments
@@ -268,6 +287,7 @@ Return the list of tab used by a module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 229
 
 
 
@@ -282,6 +302,7 @@ Return the list of tab used by a module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 252
 
 
 #### Arguments
@@ -300,6 +321,7 @@ Get tab id from name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 291
 
 
 #### Arguments
@@ -317,6 +339,7 @@ Get collection from module name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 314
 
 
 #### Arguments
@@ -335,6 +358,7 @@ Enabling tabs for module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 335
 
 
 #### Arguments
@@ -352,6 +376,7 @@ Disabling tabs for module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 354
 
 
 #### Arguments
@@ -369,6 +394,7 @@ Get Instance from tab class name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 374
 
 
 #### Arguments
@@ -387,6 +413,7 @@ Get Instance from tab class name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 380
 
 
 #### Arguments
@@ -404,6 +431,7 @@ return an available position in subtab for parent $id_parent
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 395
 
 
 #### Arguments
@@ -420,6 +448,7 @@ return an available position in subtab for parent $id_parent
 
 
 * Visibility: **public**
+* This method is defined in classes\Tab.php line 404
 
 
 #### Arguments
@@ -436,6 +465,7 @@ return an available position in subtab for parent $id_parent
 
 
 * Visibility: **public**
+* This method is defined in classes\Tab.php line 431
 
 
 #### Arguments
@@ -452,6 +482,7 @@ return an available position in subtab for parent $id_parent
 
 
 * Visibility: **public**
+* This method is defined in classes\Tab.php line 450
 
 
 #### Arguments
@@ -470,6 +501,7 @@ return an available position in subtab for parent $id_parent
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 488
 
 
 #### Arguments
@@ -487,6 +519,7 @@ return an available position in subtab for parent $id_parent
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 506
 
 
 #### Arguments
@@ -504,6 +537,7 @@ Overrides update to set position to last when changing parent tab
 
 
 * Visibility: **public**
+* This method is defined in classes\Tab.php line 523
 
 
 #### Arguments
@@ -521,6 +555,7 @@ Overrides update to set position to last when changing parent tab
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 534
 
 
 #### Arguments
@@ -539,6 +574,7 @@ Overrides update to set position to last when changing parent tab
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 558
 
 
 #### Arguments
@@ -556,6 +592,7 @@ Overrides update to set position to last when changing parent tab
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Tab.php line 563
 
 
 #### Arguments

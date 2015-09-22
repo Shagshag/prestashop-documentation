@@ -8,7 +8,8 @@ GroupCore
 
 * Class name: GroupCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Group.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Group.php line 29
 
 
 ### $name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Group.php line 32
 
 
 ### $reduction
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Group.php line 35
 
 
 ### $price_display_method
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Group.php line 38
 
 
 ### $show_prices
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Group.php line 41
 
 
 ### $date_add
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Group.php line 44
 
 
 ### $date_upd
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Group.php line 47
 
 
 ### $definition
@@ -105,6 +113,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Group.php line 52
 
 
 ### $cache_reduction
@@ -117,6 +126,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Group.php line 68
 
 
 ### $group_price_display_method
@@ -129,6 +139,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Group.php line 69
 
 
 ### $webserviceParameters
@@ -140,6 +151,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Group.php line 71
 
 
 Methods
@@ -155,6 +167,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Group.php line 73
 
 
 #### Arguments
@@ -174,6 +187,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 81
 
 
 #### Arguments
@@ -191,6 +205,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Group.php line 96
 
 
 #### Arguments
@@ -211,6 +226,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 118
 
 
 #### Arguments
@@ -228,6 +244,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 127
 
 
 #### Arguments
@@ -245,6 +262,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 138
 
 
 #### Arguments
@@ -262,6 +280,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 149
 
 
 
@@ -275,6 +294,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Group.php line 154
 
 
 #### Arguments
@@ -292,6 +312,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Group.php line 165
 
 
 #### Arguments
@@ -309,6 +330,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Group.php line 173
 
 
 
@@ -323,6 +345,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 213
 
 
 
@@ -337,6 +360,7 @@ This method is allow to know if there are other groups than the default ones
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 229
 
 
 #### Arguments
@@ -355,6 +379,7 @@ Truncate all modules restrictions for the group
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 240
 
 
 #### Arguments
@@ -372,6 +397,7 @@ Truncate all restrictions by module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 253
 
 
 #### Arguments
@@ -389,6 +415,7 @@ Adding restrictions modules to the group with id $id_group
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 267
 
 
 #### Arguments
@@ -408,6 +435,7 @@ We authorize every groups to the new module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 295
 
 
 #### Arguments
@@ -427,6 +455,7 @@ Use context
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 316
 
 
 
@@ -441,6 +470,7 @@ Light back office search for Group
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Group.php line 357
 
 
 #### Arguments

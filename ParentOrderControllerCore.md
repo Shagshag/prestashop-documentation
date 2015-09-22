@@ -8,7 +8,8 @@ ParentOrderControllerCore
 
 * Class name: ParentOrderControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\ParentOrderController.php line 37
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\ParentOrderController.php line 39
 
 
 ### $php_self
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\ParentOrderController.php line 40
 
 
 ### $nbProducts
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\ParentOrderController.php line 42
 
 
 Methods
@@ -64,6 +68,7 @@ Initialize parent order controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\ParentOrderController.php line 48
 
 
 
@@ -77,6 +82,7 @@ Initialize parent order controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\ParentOrderController.php line 141
 
 
 
@@ -90,6 +96,7 @@ Check if order is free
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ParentOrderController.php line 167
 
 
 
@@ -103,6 +110,7 @@ Check if order is free
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ParentOrderController.php line 178
 
 
 #### Arguments
@@ -119,6 +127,7 @@ Check if order is free
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ParentOrderController.php line 203
 
 
 
@@ -132,6 +141,7 @@ Validate get/post param delivery option
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ParentOrderController.php line 269
 
 
 #### Arguments
@@ -148,6 +158,7 @@ Validate get/post param delivery option
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ParentOrderController.php line 284
 
 
 
@@ -161,6 +172,7 @@ Validate get/post param delivery option
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ParentOrderController.php line 376
 
 
 
@@ -174,6 +186,7 @@ Validate get/post param delivery option
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ParentOrderController.php line 479
 
 
 
@@ -187,6 +200,7 @@ Validate get/post param delivery option
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ParentOrderController.php line 514
 
 
 
@@ -200,6 +214,7 @@ Validate get/post param delivery option
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ParentOrderController.php line 556
 
 
 
@@ -213,6 +228,7 @@ Set id_carrier to 0 (no shipping price)
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ParentOrderController.php line 586
 
 
 
@@ -226,6 +242,7 @@ Decides what the default carrier is and update the cart with it
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ParentOrderController.php line 603
 
 
 #### Arguments
@@ -242,6 +259,7 @@ Decides what the default carrier is and update the cart with it
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ParentOrderController.php line 619
 
 
 #### Arguments

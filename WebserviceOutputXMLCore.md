@@ -8,7 +8,8 @@ WebserviceOutputXMLCore
 
 * Class name: WebserviceOutputXMLCore
 * Namespace: 
-* This class implements: [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This class implements: [WebserviceOutputInterface](WebserviceOutputInterface)* This class is defined in classes\webservice\WebserviceOutputXML.php line 27
+
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\webservice\WebserviceOutputXML.php line 29
 
 
 ### $languages
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\webservice\WebserviceOutputXML.php line 30
 
 
 ### $wsUrl
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputXML.php line 31
 
 
 ### $schemaToDisplay
@@ -59,6 +63,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceOutputXML.php line 32
 
 
 Methods
@@ -74,7 +79,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 33
 
 
 #### Arguments
@@ -91,7 +97,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 34
 
 
 
@@ -105,7 +112,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 30
 
 
 #### Arguments
@@ -122,7 +130,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 31
 
 
 
@@ -136,7 +145,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 32
 
 
 
@@ -150,7 +160,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 29
 
 
 #### Arguments
@@ -167,6 +178,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 64
 
 
 #### Arguments
@@ -183,7 +195,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 41
 
 
 
@@ -197,7 +210,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 42
 
 
 
@@ -211,7 +225,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 43
 
 
 #### Arguments
@@ -229,7 +244,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 35
 
 
 #### Arguments
@@ -246,7 +262,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 36
 
 
 #### Arguments
@@ -265,6 +282,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 162
 
 
 #### Arguments
@@ -281,7 +299,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 37
 
 
 #### Arguments
@@ -299,7 +318,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 40
 
 
 #### Arguments
@@ -316,6 +336,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 182
 
 
 
@@ -329,6 +350,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 186
 
 
 
@@ -342,7 +364,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 38
 
 
 #### Arguments
@@ -361,7 +384,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface.md)
+* This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
+* This method is defined in classes\webservice\WebserviceOutputXML.php line 39
 
 
 #### Arguments

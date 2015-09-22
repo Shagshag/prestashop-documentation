@@ -8,7 +8,8 @@ OrderSlipControllerCore
 
 * Class name: OrderSlipControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\OrderSlipController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderSlipController.php line 29
 
 
 ### $php_self
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderSlipController.php line 30
 
 
 ### $authRedirection
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderSlipController.php line 31
 
 
 ### $ssl
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderSlipController.php line 32
 
 
 Methods
@@ -75,6 +80,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderSlipController.php line 34
 
 
 
@@ -88,6 +94,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderSlipController.php line 49
 
 
 

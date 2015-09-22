@@ -8,7 +8,8 @@ HelperCalendarCore
 
 * Class name: HelperCalendarCore
 * Namespace: 
-* Parent class: Helper
+* Parent class: [Helper](HelperCore)
+* This class is defined in classes\helper\HelperCalendar.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\helper\HelperCalendar.php line 29
 
 
 ### DEFAULT_COMPARE_OPTION
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\helper\HelperCalendar.php line 30
 
 
 Properties
@@ -45,6 +48,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperCalendar.php line 32
 
 
 ### $_compare_actions
@@ -56,6 +60,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperCalendar.php line 33
 
 
 ### $_compare_date_from
@@ -67,6 +72,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperCalendar.php line 34
 
 
 ### $_compare_date_to
@@ -78,6 +84,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperCalendar.php line 35
 
 
 ### $_compare_date_option
@@ -89,6 +96,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperCalendar.php line 36
 
 
 ### $_date_format
@@ -100,6 +108,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperCalendar.php line 37
 
 
 ### $_date_from
@@ -111,6 +120,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperCalendar.php line 38
 
 
 ### $_date_to
@@ -122,6 +132,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperCalendar.php line 39
 
 
 ### $_rtl
@@ -133,6 +144,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperCalendar.php line 40
 
 
 Methods
@@ -148,6 +160,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 42
 
 
 
@@ -161,6 +174,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 49
 
 
 #### Arguments
@@ -177,6 +191,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 59
 
 
 
@@ -190,6 +205,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 68
 
 
 #### Arguments
@@ -206,6 +222,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 78
 
 
 
@@ -219,6 +236,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 87
 
 
 #### Arguments
@@ -235,6 +253,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 93
 
 
 
@@ -248,6 +267,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 98
 
 
 #### Arguments
@@ -264,6 +284,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 104
 
 
 
@@ -277,6 +298,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 109
 
 
 #### Arguments
@@ -293,6 +315,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 115
 
 
 
@@ -306,6 +329,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 124
 
 
 #### Arguments
@@ -322,6 +346,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 134
 
 
 
@@ -335,6 +360,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 143
 
 
 #### Arguments
@@ -351,6 +377,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 157
 
 
 
@@ -364,6 +391,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 166
 
 
 #### Arguments
@@ -380,6 +408,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 180
 
 
 
@@ -393,6 +422,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 189
 
 
 #### Arguments
@@ -409,6 +439,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 195
 
 
 #### Arguments
@@ -425,6 +456,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 206
 
 
 #### Arguments
@@ -441,6 +473,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 217
 
 
 
@@ -454,6 +487,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperCalendar.php line 260
 
 
 

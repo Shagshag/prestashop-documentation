@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: FrontControllerCore
 * Namespace: 
-* Parent class: Controller
+* Parent class: [Controller](ControllerCore)
+* This class is defined in classes\controller\FrontController.php line 27
 
 
 
@@ -42,6 +43,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\controller\FrontController.php line 33
 
 
 ### $cookie
@@ -54,6 +56,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\controller\FrontController.php line 39
 
 
 ### $link
@@ -66,6 +69,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\controller\FrontController.php line 45
 
 
 ### $cart
@@ -78,6 +82,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\controller\FrontController.php line 51
 
 
 ### $errors
@@ -89,6 +94,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 54
 
 
 ### $iso
@@ -100,6 +106,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 57
 
 
 ### $orderBy
@@ -111,6 +118,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 60
 
 
 ### $orderWay
@@ -122,6 +130,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 63
 
 
 ### $p
@@ -133,6 +142,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 66
 
 
 ### $n
@@ -144,6 +154,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 69
 
 
 ### $auth
@@ -155,6 +166,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 72
 
 
 ### $guestAllowed
@@ -166,6 +178,7 @@ If set to true, user can be logged in as guest when checking if logged in.
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 80
 
 
 ### $authRedirection
@@ -177,6 +190,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 88
 
 
 ### $ssl
@@ -188,6 +202,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 91
 
 
 ### $restrictedCountry
@@ -199,6 +214,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\FrontController.php line 94
 
 
 ### $maintenance
@@ -210,6 +226,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **protected**
+* This property is defined in classes\controller\FrontController.php line 97
 
 
 ### $display_column_left
@@ -221,6 +238,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 100
 
 
 ### $display_column_right
@@ -232,6 +250,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 103
 
 
 ### $initialized
@@ -244,6 +263,7 @@ Prevents initializing controller more than once.
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\controller\FrontController.php line 111
 
 
 ### $currentCustomerGroups
@@ -256,6 +276,7 @@ Prevents initializing controller more than once.
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\controller\FrontController.php line 116
 
 
 ### $nb_items_per_page
@@ -267,6 +288,7 @@ Prevents initializing controller more than once.
 
 
 * Visibility: **public**
+* This property is defined in classes\controller\FrontController.php line 121
 
 
 Methods
@@ -282,6 +304,7 @@ Controller constructor
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 128
 
 
 
@@ -295,6 +318,7 @@ Check if the controller is available for the current user/visitor
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 163
 
 
 
@@ -308,6 +332,7 @@ Check if the current user/visitor has valid view permissions
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 174
 
 
 
@@ -322,6 +347,7 @@ class properties, redirects depending on context, etc.
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 198
 
 
 
@@ -335,6 +361,7 @@ Method that is executed after init() and checkAccess().
 Used to process user input.
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 560
 
 
 
@@ -348,6 +375,7 @@ Initializes common front page content: header, footer and side columns
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 567
 
 
 
@@ -361,6 +389,7 @@ Compiles and outputs page header section (including HTML <head>)
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 595
 
 
 #### Arguments
@@ -377,6 +406,7 @@ Compiles and outputs page footer section
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 636
 
 
 #### Arguments
@@ -393,6 +423,7 @@ Renders and outputs maintenance page and ends controller process.
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 645
 
 
 
@@ -406,6 +437,7 @@ Called before compiling common page sections (header, footer, columns).
 Good place to modify smarty variables.
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 656
 
 
 
@@ -419,6 +451,7 @@ Redirects to redirect_after link
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\FrontController.php line 665
 
 
 
@@ -432,6 +465,7 @@ Renders page content.
 Used for retrocompatibility with PS 1.4
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 674
 
 
 
@@ -445,6 +479,7 @@ Compiles and outputs full page content
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 685
 
 
 
@@ -458,6 +493,7 @@ Displays maintenance page if shop is closed.
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\FrontController.php line 747
 
 
 
@@ -471,6 +507,7 @@ Displays 'country restricted' page if user's country is not allowed.
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\FrontController.php line 770
 
 
 
@@ -484,6 +521,7 @@ Redirects to correct protocol if settings and request methods don't match.
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\FrontController.php line 785
 
 
 
@@ -497,6 +535,7 @@ Redirects to canonical URL
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\FrontController.php line 806
 
 
 #### Arguments
@@ -513,10 +552,11 @@ Geolocation management
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\FrontController.php line 857
 
 
 #### Arguments
-* $default_country **Country**
+* $default_country **[Country](CountryCore)**
 
 
 
@@ -529,6 +569,7 @@ Specific medias for mobile device.
 If autoload directory is present in the mobile theme, these files will not be loaded
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 915
 
 
 
@@ -542,6 +583,7 @@ Sets controller CSS and JS files.
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 939
 
 
 
@@ -555,6 +597,7 @@ Initializes page header variables
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 997
 
 
 
@@ -568,6 +611,7 @@ Initializes page footer variables
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1019
 
 
 
@@ -581,6 +625,7 @@ Checks if the user can use Live Edit feature
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1045
 
 
 
@@ -594,6 +639,7 @@ Renders Live Edit widget
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1063
 
 
 
@@ -607,6 +653,7 @@ Assigns product list page sorting variables
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1082
 
 
 
@@ -620,6 +667,7 @@ Assigns product list page pagination variables
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1121
 
 
 #### Arguments
@@ -637,6 +685,7 @@ Sets and returns customer groups that the current customer(visitor) belongs to.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\controller\FrontController.php line 1196
 
 
 
@@ -651,6 +700,7 @@ Checks if user's location is whitelisted.
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\controller\FrontController.php line 1224
 
 
 
@@ -664,6 +714,7 @@ Checks if token is valid
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1262
 
 
 
@@ -677,6 +728,7 @@ Adds a media file(s) (CSS, JS) to page header
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1281
 
 
 #### Arguments
@@ -697,6 +749,7 @@ Removes media file(s) from page header
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1346
 
 
 #### Arguments
@@ -715,6 +768,7 @@ Add one or several CSS for front, checking if css files are overridden in theme/
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1361
 
 
 #### Arguments
@@ -734,6 +788,7 @@ Removes CSS file(s) from page header
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1373
 
 
 #### Arguments
@@ -752,6 +807,7 @@ Add one or several JS files for front, checking if js files are overridden in th
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1386
 
 
 #### Arguments
@@ -769,6 +825,7 @@ Removes JS file(s) from page header
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1397
 
 
 #### Arguments
@@ -786,6 +843,7 @@ Recovers cart information
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\FrontController.php line 1407
 
 
 
@@ -799,6 +857,7 @@ Sets template file for page content output
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1437
 
 
 #### Arguments
@@ -816,6 +875,7 @@ If not overridden, will return false. This method can be easily overriden in a
 specific controller.
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1459
 
 
 
@@ -829,6 +889,7 @@ Checks if mobile theme is active and in use.
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\FrontController.php line 1470
 
 
 
@@ -842,6 +903,7 @@ Returns theme directory (regular or mobile)
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\FrontController.php line 1487
 
 
 
@@ -855,6 +917,7 @@ Returns theme override directory (regular or mobile)
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\FrontController.php line 1498
 
 
 
@@ -874,6 +937,7 @@ check if the layout exists in the following files (in that order), and return th
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1515
 
 
 
@@ -887,6 +951,7 @@ Returns template path
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1545
 
 
 #### Arguments
@@ -904,6 +969,7 @@ otherwise front template is chosen.
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1573
 
 
 #### Arguments
@@ -921,6 +987,7 @@ on active theme type (regular or mobile)
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1612
 
 
 
@@ -934,6 +1001,7 @@ Renders and adds color list HTML for each product in a list
 
 
 * Visibility: **public**
+* This method is defined in classes\controller\FrontController.php line 1635
 
 
 #### Arguments
@@ -950,6 +1018,7 @@ Returns cache ID for product color list
 
 
 * Visibility: **protected**
+* This method is defined in classes\controller\FrontController.php line 1683
 
 
 #### Arguments

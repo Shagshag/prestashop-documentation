@@ -8,7 +8,8 @@ AdminWebserviceControllerCore
 
 * Class name: AdminWebserviceControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminWebserviceController.php line 30
 
 
 
@@ -27,6 +28,7 @@ this will be filled later
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminWebserviceController.php line 33
 
 
 ### $toolbar_scroll
@@ -38,6 +40,7 @@ this will be filled later
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminWebserviceController.php line 34
 
 
 ### $object
@@ -49,6 +52,7 @@ this will be filled later
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminWebserviceController.php line 30
 
 
 Methods
@@ -64,6 +68,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWebserviceController.php line 36
 
 
 
@@ -77,6 +82,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWebserviceController.php line 103
 
 
 
@@ -90,6 +96,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminWebserviceController.php line 117
 
 
 
@@ -103,6 +110,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWebserviceController.php line 123
 
 
 
@@ -116,6 +124,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWebserviceController.php line 207
 
 
 
@@ -129,6 +138,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWebserviceController.php line 219
 
 
 
@@ -142,6 +152,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWebserviceController.php line 237
 
 
 
@@ -155,6 +166,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWebserviceController.php line 246
 
 
 
@@ -168,6 +180,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminWebserviceController.php line 257
 
 
 #### Arguments
@@ -184,6 +197,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminWebserviceController.php line 263
 
 
 #### Arguments
@@ -200,6 +214,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWebserviceController.php line 269
 
 
 

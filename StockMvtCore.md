@@ -8,7 +8,8 @@ StockMvtCore
 
 * Class name: StockMvtCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\stock\StockMvt.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 32
 
 
 ### $date_add
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 37
 
 
 ### $id_employee
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 42
 
 
 ### $employee_firstname
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 48
 
 
 ### $employee_lastname
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 54
 
 
 ### $id_stock
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 60
 
 
 ### $physical_quantity
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 66
 
 
 ### $id_stock_mvt_reason
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 71
 
 
 ### $id_order
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 76
 
 
 ### $sign
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 82
 
 
 ### $id_supply_order
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 88
 
 
 ### $last_wa
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 94
 
 
 ### $current_wa
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 100
 
 
 ### $price_te
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 106
 
 
 ### $referer
@@ -181,6 +196,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 112
 
 
 ### $date_upd
@@ -192,6 +208,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 118
 
 
 ### $quantity
@@ -203,6 +220,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvt.php line 125
 
 
 ### $definition
@@ -215,6 +233,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\stock\StockMvt.php line 130
 
 
 ### $webserviceParameters
@@ -226,6 +245,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\stock\StockMvt.php line 151
 
 
 Methods
@@ -242,6 +262,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockMvt.php line 169
 
 
 #### Arguments
@@ -260,6 +281,7 @@ the given product, in the given quantity.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockMvt.php line 187
 
 
 #### Arguments
@@ -281,6 +303,7 @@ For a given product, gets the last positive stock mvt
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockMvt.php line 232
 
 
 #### Arguments

@@ -8,7 +8,8 @@ AdminWarehousesControllerCore
 
 * Class name: AdminWarehousesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminWarehousesController.php line 31
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminWarehousesController.php line 31
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 33
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 86
 
 
 
@@ -68,6 +72,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 103
 
 
 
@@ -81,6 +86,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 142
 
 
 
@@ -94,6 +100,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 422
 
 
 
@@ -107,10 +114,11 @@ Called once $object is set.
 Used to process the associations with address/shops/carriers
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 466
 
 
 #### Arguments
-* $object **Warehouse**
+* $object **[Warehouse](WarehouseCore)**
 
 
 
@@ -123,6 +131,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 499
 
 
 #### Arguments
@@ -144,6 +153,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 525
 
 
 
@@ -157,6 +167,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 534
 
 
 
@@ -170,6 +181,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 546
 
 
 
@@ -183,6 +195,7 @@ AdminController::getList() override
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 562
 
 
 
@@ -196,6 +209,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 618
 
 
 
@@ -209,6 +223,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 649
 
 
 
@@ -222,6 +237,7 @@ AdminController::getList() override
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminWarehousesController.php line 670
 
 
 #### Arguments

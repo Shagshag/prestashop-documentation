@@ -8,7 +8,8 @@ CartRuleCore
 
 * Class name: CartRuleCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\CartRule.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\CartRule.php line 30
 
 
 ### FILTER_ACTION_SHIPPING
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\CartRule.php line 31
 
 
 ### FILTER_ACTION_REDUCTION
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\CartRule.php line 32
 
 
 ### FILTER_ACTION_GIFT
@@ -46,6 +50,7 @@ Constants
 
 
 
+* This constant is defined in classes\CartRule.php line 33
 
 
 ### FILTER_ACTION_ALL_NOCAP
@@ -54,6 +59,7 @@ Constants
 
 
 
+* This constant is defined in classes\CartRule.php line 34
 
 
 ### BO_ORDER_CODE_PREFIX
@@ -62,6 +68,7 @@ Constants
 
 
 
+* This constant is defined in classes\CartRule.php line 36
 
 
 Properties
@@ -78,6 +85,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\CartRule.php line 39
 
 
 ### $id
@@ -89,6 +97,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 41
 
 
 ### $name
@@ -100,6 +109,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 42
 
 
 ### $id_customer
@@ -111,6 +121,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 43
 
 
 ### $date_from
@@ -122,6 +133,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 44
 
 
 ### $date_to
@@ -133,6 +145,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 45
 
 
 ### $description
@@ -144,6 +157,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 46
 
 
 ### $quantity
@@ -155,6 +169,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 47
 
 
 ### $quantity_per_user
@@ -166,6 +181,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 48
 
 
 ### $priority
@@ -177,6 +193,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 49
 
 
 ### $partial_use
@@ -188,6 +205,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 50
 
 
 ### $code
@@ -199,6 +217,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 51
 
 
 ### $minimum_amount
@@ -210,6 +229,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 52
 
 
 ### $minimum_amount_tax
@@ -221,6 +241,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 53
 
 
 ### $minimum_amount_currency
@@ -232,6 +253,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 54
 
 
 ### $minimum_amount_shipping
@@ -243,6 +265,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 55
 
 
 ### $country_restriction
@@ -254,6 +277,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 56
 
 
 ### $carrier_restriction
@@ -265,6 +289,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 57
 
 
 ### $group_restriction
@@ -276,6 +301,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 58
 
 
 ### $cart_rule_restriction
@@ -287,6 +313,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 59
 
 
 ### $product_restriction
@@ -298,6 +325,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 60
 
 
 ### $shop_restriction
@@ -309,6 +337,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 61
 
 
 ### $free_shipping
@@ -320,6 +349,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 62
 
 
 ### $reduction_percent
@@ -331,6 +361,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 63
 
 
 ### $reduction_amount
@@ -342,6 +373,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 64
 
 
 ### $reduction_tax
@@ -353,6 +385,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 65
 
 
 ### $reduction_currency
@@ -364,6 +397,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 66
 
 
 ### $reduction_product
@@ -375,6 +409,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 67
 
 
 ### $gift_product
@@ -386,6 +421,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 68
 
 
 ### $gift_product_attribute
@@ -397,6 +433,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 69
 
 
 ### $highlight
@@ -408,6 +445,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 70
 
 
 ### $active
@@ -419,6 +457,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 71
 
 
 ### $date_add
@@ -430,6 +469,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 72
 
 
 ### $date_upd
@@ -441,6 +481,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CartRule.php line 73
 
 
 ### $definition
@@ -453,6 +494,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\CartRule.php line 78
 
 
 Methods
@@ -468,6 +510,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\CartRule.php line 123
 
 
 #### Arguments
@@ -485,6 +528,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\CartRule.php line 137
 
 
 #### Arguments
@@ -501,6 +545,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\CartRule.php line 151
 
 
 
@@ -515,6 +560,7 @@ Copy conditions from one cart rule to an other
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 180
 
 
 #### Arguments
@@ -533,6 +579,7 @@ Retrieves the id associated to the given code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 243
 
 
 #### Arguments
@@ -550,6 +597,7 @@ Retrieves the id associated to the given code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 263
 
 
 #### Arguments
@@ -558,7 +606,7 @@ Retrieves the id associated to the given code
 * $active **boolean**
 * $includeGeneric **boolean**
 * $inStock **boolean**
-* $cart **Cart|null**
+* $cart **[Cart](CartCore)|null**
 * $free_shipping_only **boolean**
 * $highlight_only **boolean**
 
@@ -573,6 +621,7 @@ Retrieves the id associated to the given code
 
 
 * Visibility: **public**
+* This method is defined in classes\CartRule.php line 399
 
 
 #### Arguments
@@ -590,6 +639,7 @@ Retrieves the id associated to the given code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 413
 
 
 #### Arguments
@@ -607,6 +657,7 @@ Retrieves the id associated to the given code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 429
 
 
 #### Arguments
@@ -623,6 +674,7 @@ Retrieves the id associated to the given code
 
 
 * Visibility: **public**
+* This method is defined in classes\CartRule.php line 443
 
 
 
@@ -636,6 +688,7 @@ Retrieves the id associated to the given code
 
 
 * Visibility: **public**
+* This method is defined in classes\CartRule.php line 464
 
 
 #### Arguments
@@ -652,10 +705,11 @@ Check if this cart rule can be applied
 
 
 * Visibility: **public**
+* This method is defined in classes\CartRule.php line 493
 
 
 #### Arguments
-* $context **Context**
+* $context **[Context](ContextCore)**
 * $alreadyInCart **boolean** - &lt;p&gt;Check if the voucher is already on the cart&lt;/p&gt;
 * $display_error **boolean** - &lt;p&gt;Display error&lt;/p&gt;
 * $check_carrier **mixed**
@@ -671,10 +725,11 @@ Check if this cart rule can be applied
 
 
 * Visibility: **protected**
+* This method is defined in classes\CartRule.php line 678
 
 
 #### Arguments
-* $context **Context**
+* $context **[Context](ContextCore)**
 * $return_products **mixed**
 * $display_error **mixed**
 * $already_in_cart **mixed**
@@ -691,6 +746,7 @@ Check if this cart rule can be applied
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 832
 
 
 #### Arguments
@@ -709,6 +765,7 @@ Check if this cart rule can be applied
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 846
 
 
 #### Arguments
@@ -726,11 +783,12 @@ The reduction value is POSITIVE
 
 
 * Visibility: **public**
+* This method is defined in classes\CartRule.php line 869
 
 
 #### Arguments
 * $use_tax **boolean**
-* $context **Context**
+* $context **[Context](ContextCore)**
 * $filter **mixed**
 * $package **mixed**
 * $use_cache **boolean** - &lt;p&gt;Allow using cache to avoid multiple free gift using multishipping&lt;/p&gt;
@@ -748,6 +806,7 @@ Must be called before calling multiple time getContextualValue()
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 1136
 
 
 
@@ -761,6 +820,7 @@ Must be called before calling multiple time getContextualValue()
 
 
 * Visibility: **protected**
+* This method is defined in classes\CartRule.php line 1147
 
 
 #### Arguments
@@ -779,6 +839,7 @@ Must be called before calling multiple time getContextualValue()
 
 
 * Visibility: **public**
+* This method is defined in classes\CartRule.php line 1198
 
 
 #### Arguments
@@ -801,6 +862,7 @@ Must be called before calling multiple time getContextualValue()
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 1257
 
 
 #### Arguments
@@ -818,10 +880,11 @@ Must be called before calling multiple time getContextualValue()
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 1281
 
 
 #### Arguments
-* $context **Context|null**
+* $context **[Context](ContextCore)|null**
 
 
 
@@ -835,6 +898,7 @@ Must be called before calling multiple time getContextualValue()
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 1354
 
 
 
@@ -849,6 +913,7 @@ Must be called before calling multiple time getContextualValue()
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 1364
 
 
 #### Arguments
@@ -867,6 +932,7 @@ Must be called before calling multiple time getContextualValue()
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CartRule.php line 1412
 
 
 #### Arguments

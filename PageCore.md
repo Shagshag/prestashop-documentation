@@ -8,7 +8,8 @@ PageCore
 
 * Class name: PageCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Page.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Page.php line 29
 
 
 ### $id_object
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Page.php line 30
 
 
 ### $name
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Page.php line 32
 
 
 ### $definition
@@ -61,6 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Page.php line 37
 
 
 Methods
@@ -77,6 +82,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Page.php line 49
 
 
 
@@ -91,6 +97,7 @@ Return page type ID from page name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Page.php line 91
 
 
 #### Arguments
@@ -108,6 +115,7 @@ Return page type ID from page name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Page.php line 107
 
 
 #### Arguments

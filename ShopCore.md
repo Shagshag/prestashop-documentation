@@ -8,7 +8,8 @@ ShopCore
 
 * Class name: ShopCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\shop\Shop.php line 30
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\shop\Shop.php line 111
 
 
 ### CONTEXT_GROUP
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\shop\Shop.php line 112
 
 
 ### CONTEXT_ALL
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\shop\Shop.php line 113
 
 
 ### SHARE_CUSTOMER
@@ -46,6 +50,7 @@ Constants
 
 
 
+* This constant is defined in classes\shop\Shop.php line 118
 
 
 ### SHARE_ORDER
@@ -54,6 +59,7 @@ Constants
 
 
 
+* This constant is defined in classes\shop\Shop.php line 119
 
 
 ### SHARE_STOCK
@@ -62,6 +68,7 @@ Constants
 
 
 
+* This constant is defined in classes\shop\Shop.php line 120
 
 
 Properties
@@ -77,6 +84,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\Shop.php line 33
 
 
 ### $id_category
@@ -88,6 +96,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\Shop.php line 36
 
 
 ### $id_theme
@@ -99,6 +108,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\Shop.php line 39
 
 
 ### $name
@@ -110,6 +120,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\Shop.php line 42
 
 
 ### $active
@@ -121,6 +132,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\Shop.php line 44
 
 
 ### $deleted
@@ -132,6 +144,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\Shop.php line 45
 
 
 ### $theme_name
@@ -143,6 +156,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\Shop.php line 48
 
 
 ### $theme_directory
@@ -154,6 +168,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\Shop.php line 51
 
 
 ### $physical_uri
@@ -165,6 +180,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\Shop.php line 54
 
 
 ### $virtual_uri
@@ -176,6 +192,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\Shop.php line 57
 
 
 ### $domain
@@ -187,6 +204,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\Shop.php line 60
 
 
 ### $domain_ssl
@@ -198,6 +216,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\Shop.php line 63
 
 
 ### $group
@@ -209,6 +228,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\shop\Shop.php line 66
 
 
 ### $definition
@@ -221,6 +241,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\shop\Shop.php line 71
 
 
 ### $shops
@@ -233,6 +254,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\shop\Shop.php line 85
 
 
 ### $asso_tables
@@ -245,6 +267,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\shop\Shop.php line 87
 
 
 ### $id_shop_default_tables
@@ -257,6 +280,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\shop\Shop.php line 88
 
 
 ### $initialized
@@ -269,6 +293,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\shop\Shop.php line 89
 
 
 ### $webserviceParameters
@@ -280,6 +305,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\shop\Shop.php line 91
 
 
 ### $context
@@ -292,6 +318,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\shop\Shop.php line 100
 
 
 ### $context_id_shop
@@ -304,6 +331,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\shop\Shop.php line 103
 
 
 ### $context_id_shop_group
@@ -316,6 +344,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\shop\Shop.php line 106
 
 
 Methods
@@ -331,6 +360,7 @@ On shop instance, get its theme and URL data too
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 129
 
 
 #### Arguments
@@ -350,6 +380,7 @@ Initialize an array with all the multistore associations in the database
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 140
 
 
 
@@ -363,6 +394,7 @@ Initialize an array with all the multistore associations in the database
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 193
 
 
 
@@ -376,6 +408,7 @@ Add a shop, and clear the cache
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 230
 
 
 #### Arguments
@@ -393,6 +426,7 @@ Add a shop, and clear the cache
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 237
 
 
 
@@ -406,6 +440,7 @@ Remove a shop only if it has no dependencies, and remove its associations
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 251
 
 
 
@@ -420,6 +455,7 @@ Detect dependency with customer or orders
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 287
 
 
 #### Arguments
@@ -438,6 +474,7 @@ if INSTALL_VERSION is defined, will return an empty shop object
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 317
 
 
 
@@ -451,6 +488,7 @@ if INSTALL_VERSION is defined, will return an empty shop object
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 448
 
 
 
@@ -464,6 +502,7 @@ Get shop theme name
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 471
 
 
 
@@ -477,6 +516,7 @@ Get shop URI
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 481
 
 
 
@@ -490,6 +530,7 @@ Get shop URL
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 493
 
 
 #### Arguments
@@ -507,6 +548,7 @@ Get group of current shop
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 515
 
 
 
@@ -520,6 +562,7 @@ Get root category of current shop
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 528
 
 
 
@@ -533,6 +576,7 @@ Get list of shop's urls
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 538
 
 
 
@@ -546,6 +590,7 @@ Check if current shop ID is the same as default shop in configuration
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 552
 
 
 
@@ -560,6 +605,7 @@ Get the associated table if available
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 562
 
 
 #### Arguments
@@ -577,6 +623,7 @@ check if the table has an id_shop_default
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 575
 
 
 #### Arguments
@@ -594,6 +641,7 @@ Get list of associated tables to shop
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 588
 
 
 
@@ -608,6 +656,7 @@ Add table associated to shop
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 603
 
 
 #### Arguments
@@ -626,6 +675,7 @@ Check if given table is associated to shop
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 619
 
 
 #### Arguments
@@ -643,6 +693,7 @@ Load list of groups and shops, and cache it
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 632
 
 
 #### Arguments
@@ -660,6 +711,7 @@ Load list of groups and shops, and cache it
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 691
 
 
 
@@ -674,6 +726,7 @@ Get shops list
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 715
 
 
 #### Arguments
@@ -692,6 +745,7 @@ Get shops list
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 735
 
 
 
@@ -706,6 +760,7 @@ Get a collection of shops
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 762
 
 
 #### Arguments
@@ -724,6 +779,7 @@ Return some informations cached for one shop
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 782
 
 
 #### Arguments
@@ -741,6 +797,7 @@ Return a shop ID from shop name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 799
 
 
 #### Arguments
@@ -758,6 +815,7 @@ Return a shop ID from shop name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 817
 
 
 #### Arguments
@@ -776,6 +834,7 @@ Retrieve group ID of a shop
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 828
 
 
 #### Arguments
@@ -794,6 +853,7 @@ If the shop group has the option $type activated, get all shops ID of this group
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 846
 
 
 #### Arguments
@@ -812,6 +872,7 @@ Get a list of ID concerned by the shop context (E.g. if context is shop group, g
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 867
 
 
 #### Arguments
@@ -829,6 +890,7 @@ Return the list of shop by id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 888
 
 
 #### Arguments
@@ -848,6 +910,7 @@ Change the current shop context
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 903
 
 
 #### Arguments
@@ -866,6 +929,7 @@ Get current context of shop
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 933
 
 
 
@@ -880,6 +944,7 @@ Get current ID of shop if context is CONTEXT_SHOP
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 943
 
 
 #### Arguments
@@ -897,6 +962,7 @@ Get current ID of shop group if context is CONTEXT_SHOP or CONTEXT_GROUP
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 956
 
 
 #### Arguments
@@ -914,6 +980,7 @@ Get current ID of shop group if context is CONTEXT_SHOP or CONTEXT_GROUP
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 965
 
 
 
@@ -928,6 +995,7 @@ Add an sql restriction for shops fields
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 980
 
 
 #### Arguments
@@ -946,6 +1014,7 @@ Add an SQL JOIN in query between a table and its associated table in multishop
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 1005
 
 
 #### Arguments
@@ -967,6 +1036,7 @@ Add a restriction on id_shop for multishop lang table
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 1036
 
 
 #### Arguments
@@ -985,6 +1055,7 @@ Get all groups and associated shops as subarrays
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 1053
 
 
 
@@ -999,6 +1070,7 @@ Get all groups and associated shops as subarrays
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 1062
 
 
 
@@ -1012,6 +1084,7 @@ Get all groups and associated shops as subarrays
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\Shop.php line 1074
 
 
 #### Arguments
@@ -1031,6 +1104,7 @@ Get all groups and associated shops as subarrays
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 1178
 
 
 #### Arguments
@@ -1049,6 +1123,7 @@ Get all groups and associated shops as subarrays
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 1208
 
 
 
@@ -1063,6 +1138,7 @@ Get all groups and associated shops as subarrays
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\Shop.php line 1219
 
 
 #### Arguments

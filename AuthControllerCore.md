@@ -8,7 +8,8 @@ AuthControllerCore
 
 * Class name: AuthControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\AuthController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\AuthController.php line 29
 
 
 ### $php_self
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\AuthController.php line 30
 
 
 ### $auth
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\AuthController.php line 31
 
 
 ### $create_account
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\AuthController.php line 36
 
 
 ### $id_country
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\AuthController.php line 37
 
 
 Methods
@@ -86,6 +92,7 @@ Initialize auth controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\AuthController.php line 43
 
 
 
@@ -99,6 +106,7 @@ Set default medias for this controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\AuthController.php line 60
 
 
 
@@ -112,6 +120,7 @@ Run ajax process
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\AuthController.php line 79
 
 
 
@@ -125,6 +134,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\AuthController.php line 88
 
 
 
@@ -138,6 +148,7 @@ Assign date var to smarty
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AuthController.php line 174
 
 
 
@@ -151,6 +162,7 @@ Assign countries var to smarty
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AuthController.php line 198
 
 
 
@@ -164,6 +176,7 @@ Assign address var to smarty
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AuthController.php line 217
 
 
 
@@ -177,6 +190,7 @@ Start forms process
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\AuthController.php line 249
 
 
 
@@ -190,6 +204,7 @@ Process login
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AuthController.php line 267
 
 
 
@@ -203,10 +218,11 @@ Process the newsletter settings and set the customer infos.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AuthController.php line 360
 
 
 #### Arguments
-* $customer **Customer** - &lt;p&gt;Reference on the customer Object.&lt;/p&gt;
+* $customer **[Customer](CustomerCore)** - &lt;p&gt;Reference on the customer Object.&lt;/p&gt;
 
 
 
@@ -219,6 +235,7 @@ Process submit on an account
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AuthController.php line 378
 
 
 
@@ -232,6 +249,7 @@ Process submit on a creation
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AuthController.php line 699
 
 
 
@@ -245,10 +263,11 @@ Update context after customer creation
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AuthController.php line 718
 
 
 #### Arguments
-* $customer **Customer** - &lt;p&gt;Created customer&lt;/p&gt;
+* $customer **[Customer](CustomerCore)** - &lt;p&gt;Created customer&lt;/p&gt;
 
 
 
@@ -261,9 +280,10 @@ sendConfirmationMail
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\AuthController.php line 743
 
 
 #### Arguments
-* $customer **Customer**
+* $customer **[Customer](CustomerCore)**
 
 

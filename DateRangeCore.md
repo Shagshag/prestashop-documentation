@@ -8,7 +8,8 @@ DateRangeCore
 
 * Class name: DateRangeCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\DateRange.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\DateRange.php line 29
 
 
 ### $time_end
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\DateRange.php line 30
 
 
 ### $definition
@@ -50,6 +53,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\DateRange.php line 35
 
 
 Methods
@@ -66,6 +70,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\DateRange.php line 44
 
 
 

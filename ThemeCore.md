@@ -8,7 +8,8 @@ ThemeCore
 
 * Class name: ThemeCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Theme.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\Theme.php line 36
 
 
 ### CACHE_FILE_MUST_HAVE_THEMES_LIST
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\Theme.php line 38
 
 
 ### UPLOADED_THEME_DIR_NAME
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\Theme.php line 40
 
 
 Properties
@@ -53,6 +57,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Theme.php line 29
 
 
 ### $directory
@@ -64,6 +69,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Theme.php line 30
 
 
 ### $responsive
@@ -75,6 +81,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Theme.php line 31
 
 
 ### $default_left_column
@@ -86,6 +93,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Theme.php line 32
 
 
 ### $default_right_column
@@ -97,6 +105,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Theme.php line 33
 
 
 ### $product_per_page
@@ -108,6 +117,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Theme.php line 34
 
 
 ### $access_rights
@@ -120,6 +130,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Theme.php line 43
 
 
 ### $definition
@@ -132,6 +143,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Theme.php line 47
 
 
 Methods
@@ -148,6 +160,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Theme.php line 60
 
 
 
@@ -162,6 +175,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Theme.php line 67
 
 
 #### Arguments
@@ -179,6 +193,7 @@ return an array of all available theme (installed or not)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Theme.php line 85
 
 
 #### Arguments
@@ -195,6 +210,7 @@ check if a theme is used by a shop
 
 
 * Visibility: **public**
+* This method is defined in classes\Theme.php line 123
 
 
 
@@ -208,6 +224,7 @@ add only theme if the directory exists
 
 
 * Visibility: **public**
+* This method is defined in classes\Theme.php line 136
 
 
 #### Arguments
@@ -226,6 +243,7 @@ Checks if theme exists (by folder) and returns Theme object.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Theme.php line 152
 
 
 #### Arguments
@@ -243,6 +261,7 @@ Checks if theme exists (by folder) and returns Theme object.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Theme.php line 163
 
 
 
@@ -257,6 +276,7 @@ Checks if theme exists (by folder) and returns Theme object.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Theme.php line 174
 
 
 #### Arguments
@@ -274,6 +294,7 @@ Checks if theme exists (by folder) and returns Theme object.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Theme.php line 214
 
 
 
@@ -287,6 +308,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
+* This method is defined in classes\Theme.php line 244
 
 
 #### Arguments
@@ -304,6 +326,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
+* This method is defined in classes\Theme.php line 268
 
 
 #### Arguments
@@ -320,6 +343,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
+* This method is defined in classes\Theme.php line 278
 
 
 #### Arguments
@@ -336,6 +360,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
+* This method is defined in classes\Theme.php line 288
 
 
 #### Arguments
@@ -352,6 +377,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
+* This method is defined in classes\Theme.php line 305
 
 
 #### Arguments
@@ -368,6 +394,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
+* This method is defined in classes\Theme.php line 324
 
 
 
@@ -381,6 +408,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
+* This method is defined in classes\Theme.php line 336
 
 
 
@@ -394,6 +422,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
+* This method is defined in classes\Theme.php line 345
 
 
 
@@ -407,6 +436,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
+* This method is defined in classes\Theme.php line 362
 
 
 
@@ -420,6 +450,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
+* This method is defined in classes\Theme.php line 375
 
 
 

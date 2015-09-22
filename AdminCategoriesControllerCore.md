@@ -8,7 +8,8 @@ AdminCategoriesControllerCore
 
 * Class name: AdminCategoriesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminCategoriesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCategoriesController.php line 35
 
 
 ### $position_identifier
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCategoriesController.php line 36
 
 
 ### $remove_products
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCategoriesController.php line 39
 
 
 ### $disable_products
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCategoriesController.php line 42
 
 
 ### $original_filter
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in controllers\admin\AdminCategoriesController.php line 44
 
 
 ### $object
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCategoriesController.php line 30
 
 
 Methods
@@ -97,6 +104,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 46
 
 
 
@@ -110,6 +118,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 107
 
 
 
@@ -123,6 +132,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 168
 
 
 
@@ -136,6 +146,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 189
 
 
 
@@ -149,6 +160,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 202
 
 
 
@@ -162,6 +174,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 209
 
 
 
@@ -175,6 +188,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 251
 
 
 #### Arguments
@@ -196,6 +210,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 266
 
 
 
@@ -209,6 +224,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 272
 
 
 
@@ -222,6 +238,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 333
 
 
 
@@ -235,6 +252,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 362
 
 
 
@@ -248,6 +266,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 424
 
 
 
@@ -261,6 +280,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 639
 
 
 
@@ -274,6 +294,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 654
 
 
 
@@ -287,6 +308,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 662
 
 
 
@@ -300,6 +322,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 691
 
 
 
@@ -313,6 +336,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 703
 
 
 
@@ -326,6 +350,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 728
 
 
 
@@ -339,6 +364,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 746
 
 
 #### Arguments
@@ -355,6 +381,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 771
 
 
 
@@ -368,6 +395,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 787
 
 
 #### Arguments
@@ -385,6 +413,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminCategoriesController.php line 816
 
 
 #### Arguments
@@ -401,6 +430,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 821
 
 
 
@@ -414,6 +444,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCategoriesController.php line 857
 
 
 

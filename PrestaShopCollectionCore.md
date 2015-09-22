@@ -8,7 +8,8 @@ Create a collection of ObjectModel objects
 
 * Class name: PrestaShopCollectionCore
 * Namespace: 
-* This class implements: Iterator, ArrayAccess, Countable
+* This class implements: Iterator, ArrayAccess, Countable* This class is defined in classes\PrestaShopCollection.php line 32
+
 
 
 Constants
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\PrestaShopCollection.php line 34
 
 
 ### INNER_JOIN
@@ -29,6 +31,7 @@ Constants
 
 
 
+* This constant is defined in classes\PrestaShopCollection.php line 35
 
 
 ### LEFT_OUTER_JOIN
@@ -37,6 +40,7 @@ Constants
 
 
 
+* This constant is defined in classes\PrestaShopCollection.php line 36
 
 
 ### LANG_ALIAS
@@ -45,6 +49,7 @@ Constants
 
 
 
+* This constant is defined in classes\PrestaShopCollection.php line 94
 
 
 Properties
@@ -60,6 +65,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 41
 
 
 ### $id_lang
@@ -71,6 +77,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 46
 
 
 ### $definition
@@ -82,6 +89,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 51
 
 
 ### $query
@@ -93,6 +101,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 56
 
 
 ### $results
@@ -104,6 +113,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 61
 
 
 ### $is_hydrated
@@ -115,6 +125,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 66
 
 
 ### $iterator
@@ -126,6 +137,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 71
 
 
 ### $total
@@ -137,6 +149,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 76
 
 
 ### $page_number
@@ -148,6 +161,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 81
 
 
 ### $page_size
@@ -159,6 +173,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 86
 
 
 ### $fields
@@ -170,6 +185,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 88
 
 
 ### $alias
@@ -181,6 +197,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 89
 
 
 ### $alias_iterator
@@ -192,6 +209,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 90
 
 
 ### $join_list
@@ -203,6 +221,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 91
 
 
 ### $association_definition
@@ -214,6 +233,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopCollection.php line 92
 
 
 Methods
@@ -229,6 +249,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 100
 
 
 #### Arguments
@@ -246,6 +267,7 @@ Join current entity to an associated entity
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 123
 
 
 #### Arguments
@@ -264,6 +286,7 @@ Add WHERE restriction on query
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 160
 
 
 #### Arguments
@@ -283,6 +306,7 @@ Add WHERE restriction on query using real SQL syntax
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 221
 
 
 #### Arguments
@@ -299,6 +323,7 @@ Add HAVING restriction on query
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 235
 
 
 #### Arguments
@@ -317,6 +342,7 @@ Add HAVING restriction on query using real SQL syntax
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 246
 
 
 #### Arguments
@@ -333,6 +359,7 @@ Add ORDER BY restriction on query
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 259
 
 
 #### Arguments
@@ -350,6 +377,7 @@ Add ORDER BY restriction on query using real SQL syntax
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 275
 
 
 #### Arguments
@@ -366,6 +394,7 @@ Add GROUP BY restriction on query
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 287
 
 
 #### Arguments
@@ -382,6 +411,7 @@ Add GROUP BY restriction on query using real SQL syntax
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 299
 
 
 #### Arguments
@@ -398,6 +428,7 @@ Launch sql query to create collection of objects
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 311
 
 
 #### Arguments
@@ -414,6 +445,7 @@ Retrieve the first result
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 370
 
 
 
@@ -427,6 +459,7 @@ Get results array
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 384
 
 
 
@@ -440,6 +473,7 @@ This method is called when a foreach begin
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 395
 
 
 
@@ -453,6 +487,7 @@ Get current result
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 409
 
 
 
@@ -466,6 +501,7 @@ Check if there is a current result
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 420
 
 
 
@@ -479,6 +515,7 @@ Get current result index
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 431
 
 
 
@@ -492,6 +529,7 @@ Go to next result
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 441
 
 
 
@@ -505,6 +543,7 @@ Get total of results
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 452
 
 
 
@@ -518,6 +557,7 @@ Check if a result exist
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 465
 
 
 #### Arguments
@@ -534,6 +574,7 @@ Get a result by offset
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 478
 
 
 #### Arguments
@@ -550,6 +591,7 @@ Add an element in the collection
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 494
 
 
 #### Arguments
@@ -567,6 +609,7 @@ Delete an element from the collection
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 514
 
 
 #### Arguments
@@ -583,6 +626,7 @@ Get definition of an association
 
 
 * Visibility: **protected**
+* This method is defined in classes\PrestaShopCollection.php line 526
 
 
 #### Arguments
@@ -599,6 +643,7 @@ Parse all fields with {field} syntax in a string
 
 
 * Visibility: **protected**
+* This method is defined in classes\PrestaShopCollection.php line 590
 
 
 #### Arguments
@@ -615,6 +660,7 @@ Replace a field with its SQL version (E.g. manufacturer.name with a2.name)
 
 
 * Visibility: **protected**
+* This method is defined in classes\PrestaShopCollection.php line 605
 
 
 #### Arguments
@@ -631,6 +677,7 @@ Format a value with the type of the given field
 
 
 * Visibility: **protected**
+* This method is defined in classes\PrestaShopCollection.php line 618
 
 
 #### Arguments
@@ -648,6 +695,7 @@ Obtain some information on a field (alias, name, type, etc.)
 
 
 * Visibility: **protected**
+* This method is defined in classes\PrestaShopCollection.php line 637
 
 
 #### Arguments
@@ -664,6 +712,7 @@ Set the page number
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 690
 
 
 #### Arguments
@@ -680,6 +729,7 @@ Set the nuber of item per page
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopCollection.php line 707
 
 
 #### Arguments
@@ -696,6 +746,7 @@ Generate uniq alias from association name
 
 
 * Visibility: **protected**
+* This method is defined in classes\PrestaShopCollection.php line 719
 
 
 #### Arguments

@@ -8,7 +8,8 @@ AdminReferrersControllerCore
 
 * Class name: AdminReferrersControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminReferrersController.php line 59
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminReferrersController.php line 59
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminReferrersController.php line 61
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminReferrersController.php line 160
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminReferrersController.php line 166
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminReferrersController.php line 179
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminReferrersController.php line 205
 
 
 
@@ -107,6 +114,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminReferrersController.php line 385
 
 
 #### Arguments
@@ -127,6 +135,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminReferrersController.php line 395
 
 
 #### Arguments
@@ -148,6 +157,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminReferrersController.php line 417
 
 
 
@@ -161,6 +171,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminReferrersController.php line 439
 
 
 
@@ -174,6 +185,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminReferrersController.php line 444
 
 
 
@@ -187,6 +199,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminReferrersController.php line 472
 
 
 

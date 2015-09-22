@@ -8,7 +8,8 @@ PackCore
 
 * Class name: PackCore
 * Namespace: 
-* Parent class: Product
+* Parent class: [Product](ProductCore)
+* This class is defined in classes\Pack.php line 27
 
 
 
@@ -28,6 +29,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Pack.php line 29
 
 
 ### $cacheIsPack
@@ -40,6 +42,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Pack.php line 30
 
 
 ### $cacheIsPacked
@@ -52,6 +55,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Pack.php line 31
 
 
 Methods
@@ -68,6 +72,7 @@ Is product a pack?
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 39
 
 
 #### Arguments
@@ -87,6 +92,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 65
 
 
 #### Arguments
@@ -105,6 +111,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 90
 
 
 #### Arguments
@@ -122,6 +129,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 103
 
 
 #### Arguments
@@ -139,6 +147,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 113
 
 
 #### Arguments
@@ -157,6 +166,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 153
 
 
 #### Arguments
@@ -174,6 +184,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 171
 
 
 #### Arguments
@@ -193,6 +204,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 242
 
 
 #### Arguments
@@ -213,6 +225,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 290
 
 
 #### Arguments
@@ -230,6 +243,7 @@ Add an item to the pack
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 307
 
 
 #### Arguments
@@ -250,6 +264,7 @@ Add an item to the pack
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 320
 
 
 #### Arguments
@@ -268,6 +283,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 334
 
 
 
@@ -282,6 +298,7 @@ This method is allow to know if a Pack entity is currently used
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 346
 
 
 #### Arguments
@@ -300,6 +317,7 @@ For a given pack, tells if it has at least one product using the advanced stock 
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 361
 
 
 #### Arguments
@@ -317,6 +335,7 @@ For a given pack, tells if all products using the advanced stock management
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 384
 
 
 #### Arguments
@@ -334,6 +353,7 @@ Returns Packs that conatins the given product in the right declinaison.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Pack.php line 409
 
 
 #### Arguments

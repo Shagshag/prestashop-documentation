@@ -8,7 +8,8 @@ AdminRangeWeightControllerCore
 
 * Class name: AdminRangeWeightControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminRangeWeightController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminRangeWeightController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminRangeWeightController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminRangeWeightController.php line 57
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminRangeWeightController.php line 69
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminRangeWeightController.php line 123
 
 
 #### Arguments
@@ -102,6 +108,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminRangeWeightController.php line 135
 
 
 

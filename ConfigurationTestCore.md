@@ -8,6 +8,7 @@ ConfigurationTestCore
 
 * Class name: ConfigurationTestCore
 * Namespace: 
+* This class is defined in classes\ConfigurationTest.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\ConfigurationTest.php line 29
 
 
 Methods
@@ -44,6 +46,7 @@ all path are _PS_ROOT_DIR_ related
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 61
 
 
 
@@ -58,6 +61,7 @@ key are method name, value are parameters (false for no parameter)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 102
 
 
 
@@ -72,6 +76,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 123
 
 
 #### Arguments
@@ -89,6 +94,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 132
 
 
 #### Arguments
@@ -107,6 +113,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 140
 
 
 
@@ -121,6 +128,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 145
 
 
 
@@ -135,6 +143,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 150
 
 
 
@@ -149,6 +158,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 155
 
 
 
@@ -163,6 +173,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 160
 
 
 
@@ -177,6 +188,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 165
 
 
 
@@ -191,6 +203,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 170
 
 
 
@@ -205,6 +218,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 175
 
 
 #### Arguments
@@ -222,6 +236,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 185
 
 
 
@@ -236,6 +251,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 190
 
 
 
@@ -250,6 +266,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 195
 
 
 
@@ -264,6 +281,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 203
 
 
 #### Arguments
@@ -283,6 +301,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 236
 
 
 #### Arguments
@@ -300,6 +319,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 242
 
 
 #### Arguments
@@ -317,6 +337,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 247
 
 
 #### Arguments
@@ -334,6 +355,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 252
 
 
 #### Arguments
@@ -351,6 +373,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 257
 
 
 #### Arguments
@@ -368,6 +391,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 262
 
 
 #### Arguments
@@ -385,6 +409,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 267
 
 
 #### Arguments
@@ -402,6 +427,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 272
 
 
 #### Arguments
@@ -419,6 +445,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 277
 
 
 #### Arguments
@@ -436,6 +463,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 282
 
 
 #### Arguments
@@ -453,6 +481,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 287
 
 
 #### Arguments
@@ -470,6 +499,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 292
 
 
 #### Arguments
@@ -487,6 +517,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 297
 
 
 #### Arguments
@@ -504,6 +535,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 302
 
 
 #### Arguments
@@ -521,6 +553,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 307
 
 
 #### Arguments
@@ -538,6 +571,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 316
 
 
 #### Arguments
@@ -555,6 +589,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 325
 
 
 #### Arguments
@@ -572,6 +607,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 334
 
 
 #### Arguments
@@ -589,6 +625,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 339
 
 
 #### Arguments
@@ -606,6 +643,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 344
 
 
 
@@ -620,6 +658,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 349
 
 
 
@@ -634,6 +673,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 354
 
 
 
@@ -648,6 +688,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 362
 
 
 
@@ -662,6 +703,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationTest.php line 367
 
 
 #### Arguments

@@ -8,7 +8,8 @@ AdminCmsContentControllerCore
 
 * Class name: AdminCmsContentControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminCmsContentController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCmsContentController.php line 33
 
 
 ### $admin_cms
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCmsContentController.php line 36
 
 
 ### $category
@@ -50,6 +53,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in controllers\admin\AdminCmsContentController.php line 39
 
 
 ### $object
@@ -61,6 +65,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCmsContentController.php line 30
 
 
 Methods
@@ -76,6 +81,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsContentController.php line 41
 
 
 
@@ -90,6 +96,7 @@ Return current category
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminCmsContentController.php line 73
 
 
 
@@ -103,6 +110,7 @@ Return current category
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsContentController.php line 78
 
 
 #### Arguments
@@ -119,6 +127,7 @@ Return current category
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsContentController.php line 86
 
 
 
@@ -132,6 +141,7 @@ Return current category
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsContentController.php line 132
 
 
 
@@ -145,6 +155,7 @@ Return current category
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsContentController.php line 196
 
 
 
@@ -158,6 +169,7 @@ Return current category
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsContentController.php line 225
 
 
 
@@ -171,6 +183,7 @@ Return current category
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsContentController.php line 232
 
 
 
@@ -184,6 +197,7 @@ Return current category
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsContentController.php line 261
 
 
 
@@ -197,6 +211,7 @@ Return current category
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsContentController.php line 290
 
 
 

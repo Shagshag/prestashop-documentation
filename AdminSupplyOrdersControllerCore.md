@@ -8,7 +8,8 @@ AdminSupplyOrdersControllerCore
 
 * Class name: AdminSupplyOrdersControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminSupplyOrdersController.php line 31
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminSupplyOrdersController.php line 36
 
 
 ### $object
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminSupplyOrdersController.php line 31
 
 
 Methods
@@ -53,6 +56,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 38
 
 
 
@@ -66,6 +70,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 116
 
 
 
@@ -79,6 +84,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 156
 
 
 
@@ -92,6 +98,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 184
 
 
 
@@ -105,6 +112,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 382
 
 
 #### Arguments
@@ -126,6 +134,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 452
 
 
 
@@ -139,6 +148,7 @@ Init the content of change state action
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 586
 
 
 
@@ -152,6 +162,7 @@ Init the content of change state action
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 681
 
 
 
@@ -166,6 +177,7 @@ Called in initContent()
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 742
 
 
 
@@ -179,6 +191,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 908
 
 
 
@@ -192,6 +205,7 @@ Ths method manage associated products to the order when updating it
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 938
 
 
 
@@ -205,6 +219,7 @@ AdminController::postProcess() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 1081
 
 
 
@@ -218,6 +233,7 @@ Exports CSV
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 1294
 
 
 
@@ -231,6 +247,7 @@ Helper function for AdminSupplyOrdersController::postProcess()
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 1387
 
 
 
@@ -244,6 +261,7 @@ Display state action link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 1500
 
 
 #### Arguments
@@ -261,6 +279,7 @@ Display receipt action link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 1522
 
 
 #### Arguments
@@ -278,6 +297,7 @@ Display state action link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 1544
 
 
 #### Arguments
@@ -295,6 +315,7 @@ Display state action link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 1565
 
 
 
@@ -308,6 +329,7 @@ method call when ajax request is made for search product to add to the order
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 1667
 
 
 
@@ -321,6 +343,7 @@ method call when ajax request is made for search product to add to the order
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 1733
 
 
 
@@ -334,6 +357,7 @@ Callback used to display custom content for a given field
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 1946
 
 
 #### Arguments
@@ -351,6 +375,7 @@ Assigns default actions in toolbar_btn smarty var, if they are not set.
 uses override to specifically add, modify or remove items
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 1980
 
 
 
@@ -364,10 +389,11 @@ Overrides AdminController::afterAdd()
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 2021
 
 
 #### Arguments
-* $object **ObjectModel**
+* $object **[ObjectModel](ObjectModelCore)**
 
 
 
@@ -380,6 +406,7 @@ Loads products which quantity (hysical quantity) is equal or less than $threshol
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 2035
 
 
 #### Arguments
@@ -396,10 +423,11 @@ Overrides AdminController::beforeAdd()
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 2135
 
 
 #### Arguments
-* $object **SupplyOrder**
+* $object **[SupplyOrder](SupplyOrderCore)**
 
 
 
@@ -412,6 +440,7 @@ Helper function for AdminSupplyOrdersController::postProcess()
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 2148
 
 
 
@@ -425,6 +454,7 @@ Gets the current warehouse used
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 2187
 
 
 
@@ -438,6 +468,7 @@ Gets the current filter used
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 2205
 
 
 
@@ -451,6 +482,7 @@ Gets the current filter used
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSupplyOrdersController.php line 2217
 
 
 

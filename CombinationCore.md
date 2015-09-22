@@ -8,7 +8,8 @@ CombinationCore
 
 * Class name: CombinationCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Combination.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 29
 
 
 ### $reference
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 31
 
 
 ### $supplier_reference
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 33
 
 
 ### $location
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 35
 
 
 ### $ean13
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 37
 
 
 ### $upc
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 39
 
 
 ### $wholesale_price
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 41
 
 
 ### $price
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 43
 
 
 ### $unit_price_impact
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 45
 
 
 ### $ecotax
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 47
 
 
 ### $minimal_quantity
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 49
 
 
 ### $quantity
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 51
 
 
 ### $weight
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 53
 
 
 ### $default_on
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 55
 
 
 ### $available_date
@@ -181,6 +196,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Combination.php line 57
 
 
 ### $definition
@@ -193,6 +209,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Combination.php line 62
 
 
 ### $webserviceParameters
@@ -204,6 +221,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Combination.php line 86
 
 
 Methods
@@ -219,6 +237,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 98
 
 
 
@@ -232,6 +251,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 124
 
 
 #### Arguments
@@ -248,6 +268,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 130
 
 
 #### Arguments
@@ -265,6 +286,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 156
 
 
 #### Arguments
@@ -281,6 +303,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 170
 
 
 
@@ -294,6 +317,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 179
 
 
 #### Arguments
@@ -310,6 +334,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 196
 
 
 #### Arguments
@@ -326,6 +351,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 205
 
 
 
@@ -339,6 +365,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 216
 
 
 
@@ -352,6 +379,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 226
 
 
 #### Arguments
@@ -368,6 +396,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 251
 
 
 #### Arguments
@@ -384,6 +413,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 260
 
 
 #### Arguments
@@ -401,6 +431,7 @@ This method is allow to know if a feature is active
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Combination.php line 274
 
 
 
@@ -415,6 +446,7 @@ This method is allow to know if a Combination entity is currently used
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Combination.php line 291
 
 
 #### Arguments
@@ -433,6 +465,7 @@ For a given product_attribute reference, returns the corresponding id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Combination.php line 303
 
 
 #### Arguments
@@ -450,6 +483,7 @@ For a given product_attribute reference, returns the corresponding id
 
 
 * Visibility: **public**
+* This method is defined in classes\Combination.php line 318
 
 
 
@@ -464,6 +498,7 @@ Retrive the price of combination
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Combination.php line 336
 
 
 #### Arguments

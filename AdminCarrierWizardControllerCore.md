@@ -8,7 +8,8 @@ AdminCarrierWizardControllerCore
 
 * Class name: AdminCarrierWizardControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminCarrierWizardController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCarrierWizardController.php line 32
 
 
 ### $object
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCarrierWizardController.php line 30
 
 
 Methods
@@ -53,6 +56,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 34
 
 
 
@@ -66,6 +70,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 59
 
 
 
@@ -79,6 +84,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 67
 
 
 
@@ -92,6 +98,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 97
 
 
 
@@ -105,6 +112,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 150
 
 
 #### Arguments
@@ -122,6 +130,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 163
 
 
 
@@ -135,6 +144,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 173
 
 
 #### Arguments
@@ -151,6 +161,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 227
 
 
 #### Arguments
@@ -167,6 +178,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 246
 
 
 #### Arguments
@@ -183,10 +195,11 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 376
 
 
 #### Arguments
-* $carrier **Carrier**
+* $carrier **[Carrier](CarrierCore)**
 
 
 
@@ -199,6 +212,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 440
 
 
 #### Arguments
@@ -215,10 +229,11 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 486
 
 
 #### Arguments
-* $carrier **Carrier**
+* $carrier **[Carrier](CarrierCore)**
 * $tpl_vars **array**
 * $fields_value **array**
 
@@ -233,6 +248,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 532
 
 
 #### Arguments
@@ -251,6 +267,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 553
 
 
 #### Arguments
@@ -267,6 +284,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 564
 
 
 #### Arguments
@@ -283,6 +301,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 569
 
 
 #### Arguments
@@ -299,6 +318,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 585
 
 
 #### Arguments
@@ -315,6 +335,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 597
 
 
 #### Arguments
@@ -331,6 +352,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 602
 
 
 
@@ -344,6 +366,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 633
 
 
 #### Arguments
@@ -360,6 +383,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 661
 
 
 
@@ -373,6 +397,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 666
 
 
 #### Arguments
@@ -389,6 +414,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 739
 
 
 
@@ -402,6 +428,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 767
 
 
 
@@ -415,6 +442,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 873
 
 
 #### Arguments
@@ -432,6 +460,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 883
 
 
 #### Arguments
@@ -448,6 +477,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 904
 
 
 
@@ -462,6 +492,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 937
 
 
 #### Arguments
@@ -478,6 +509,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 942
 
 
 #### Arguments
@@ -495,6 +527,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarrierWizardController.php line 958
 
 
 

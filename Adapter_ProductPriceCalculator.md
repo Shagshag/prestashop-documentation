@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_ProductPriceCalculator
 * Namespace: 
+* This class is defined in Adapter\Adapter_ProductPriceCalculator.php line 27
 
 
 
@@ -42,6 +43,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Adapter\Adapter_ProductPriceCalculator.php line 29
 
 
 #### Arguments
@@ -60,7 +62,7 @@ Methods
 * $specific_price_output **mixed**
 * $with_ecotax **mixed**
 * $use_group_reduction **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 * $use_customer_price **mixed**
 
 

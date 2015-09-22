@@ -8,7 +8,8 @@ AdminEmployeesControllerCore
 
 * Class name: AdminEmployeesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminEmployeesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminEmployeesController.php line 33
 
 
 ### $themes
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminEmployeesController.php line 36
 
 
 ### $tabs_list
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminEmployeesController.php line 39
 
 
 ### $restrict_edition
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminEmployeesController.php line 41
 
 
 ### $object
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminEmployeesController.php line 30
 
 
 Methods
@@ -86,6 +92,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 43
 
 
 
@@ -99,6 +106,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 168
 
 
 
@@ -112,6 +120,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 176
 
 
 
@@ -125,6 +134,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 200
 
 
 
@@ -138,6 +148,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 211
 
 
 
@@ -151,6 +162,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 430
 
 
 
@@ -164,6 +176,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 447
 
 
 
@@ -177,6 +190,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 456
 
 
 
@@ -190,6 +204,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 465
 
 
 
@@ -203,6 +218,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 479
 
 
 
@@ -216,6 +232,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 502
 
 
 
@@ -229,6 +246,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 603
 
 
 #### Arguments
@@ -245,6 +263,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 615
 
 
 
@@ -258,6 +277,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 626
 
 
 
@@ -271,10 +291,11 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 640
 
 
 #### Arguments
-* $object **Employee**
+* $object **[Employee](EmployeeCore)**
 
 
 
@@ -287,6 +308,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 661
 
 
 
@@ -300,6 +322,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 670
 
 
 
@@ -313,6 +336,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmployeesController.php line 675
 
 
 

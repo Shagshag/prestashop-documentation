@@ -8,7 +8,8 @@ AdminLocalizationControllerCore
 
 * Class name: AdminLocalizationControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminLocalizationController.php line 27
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLocalizationController.php line 29
 
 
 
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLocalizationController.php line 161
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLocalizationController.php line 219
 
 
 #### Arguments
@@ -72,6 +76,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLocalizationController.php line 224
 
 
 
@@ -85,6 +90,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLocalizationController.php line 377
 
 
 
@@ -98,6 +104,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLocalizationController.php line 396
 
 
 
@@ -111,6 +118,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLocalizationController.php line 402
 
 
 
@@ -124,6 +132,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLocalizationController.php line 412
 
 
 #### Arguments

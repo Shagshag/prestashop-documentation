@@ -8,7 +8,8 @@ OrderDetailControllerCore
 
 * Class name: OrderDetailControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\OrderDetailController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderDetailController.php line 29
 
 
 ### $auth
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderDetailController.php line 31
 
 
 ### $authRedirection
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderDetailController.php line 32
 
 
 ### $ssl
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderDetailController.php line 33
 
 
 Methods
@@ -75,6 +80,7 @@ Initialize order detail controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderDetailController.php line 39
 
 
 
@@ -88,6 +94,7 @@ Start forms process
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderDetailController.php line 50
 
 
 
@@ -101,6 +108,7 @@ Start forms process
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderDetailController.php line 136
 
 
 
@@ -114,6 +122,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderDetailController.php line 145
 
 
 
@@ -127,6 +136,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderDetailController.php line 228
 
 
 

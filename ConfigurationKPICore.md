@@ -8,7 +8,8 @@ ConfigurationKPICore
 
 * Class name: ConfigurationKPICore
 * Namespace: 
-* Parent class: Configuration
+* Parent class: [Configuration](ConfigurationCore)
+* This class is defined in classes\ConfigurationKPI.php line 27
 
 
 
@@ -28,6 +29,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\ConfigurationKPI.php line 29
 
 
 Methods
@@ -44,6 +46,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 31
 
 
 
@@ -58,6 +61,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 38
 
 
 
@@ -72,6 +76,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 43
 
 
 #### Arguments
@@ -91,6 +96,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 51
 
 
 
@@ -105,6 +111,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 59
 
 
 #### Arguments
@@ -125,6 +132,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 67
 
 
 #### Arguments
@@ -143,6 +151,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 75
 
 
 #### Arguments
@@ -162,6 +171,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 83
 
 
 #### Arguments
@@ -182,6 +192,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 91
 
 
 #### Arguments
@@ -202,6 +213,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 99
 
 
 #### Arguments
@@ -222,6 +234,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 107
 
 
 #### Arguments
@@ -241,6 +254,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 115
 
 
 #### Arguments
@@ -262,6 +276,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 123
 
 
 #### Arguments
@@ -279,6 +294,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 131
 
 
 #### Arguments
@@ -296,6 +312,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 139
 
 
 #### Arguments
@@ -315,6 +332,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 147
 
 
 #### Arguments
@@ -332,6 +350,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 155
 
 
 #### Arguments
@@ -349,6 +368,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\ConfigurationKPI.php line 163
 
 
 #### Arguments

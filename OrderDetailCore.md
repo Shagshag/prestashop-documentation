@@ -8,7 +8,8 @@ OrderDetailCore
 
 * Class name: OrderDetailCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\order\OrderDetail.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 30
 
 
 ### $id_order
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 33
 
 
 ### $id_order_invoice
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 36
 
 
 ### $product_id
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 39
 
 
 ### $id_shop
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 42
 
 
 ### $product_attribute_id
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 45
 
 
 ### $product_name
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 48
 
 
 ### $product_quantity
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 51
 
 
 ### $product_quantity_in_stock
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 54
 
 
 ### $product_quantity_return
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 57
 
 
 ### $product_quantity_refunded
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 60
 
 
 ### $product_quantity_reinjected
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 63
 
 
 ### $product_price
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 66
 
 
 ### $original_product_price
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 69
 
 
 ### $unit_price_tax_incl
@@ -181,6 +196,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 72
 
 
 ### $unit_price_tax_excl
@@ -192,6 +208,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 75
 
 
 ### $total_price_tax_incl
@@ -203,6 +220,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 78
 
 
 ### $total_price_tax_excl
@@ -214,6 +232,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 81
 
 
 ### $reduction_percent
@@ -225,6 +244,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 84
 
 
 ### $reduction_amount
@@ -236,6 +256,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 87
 
 
 ### $reduction_amount_tax_excl
@@ -247,6 +268,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 90
 
 
 ### $reduction_amount_tax_incl
@@ -258,6 +280,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 93
 
 
 ### $group_reduction
@@ -269,6 +292,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 96
 
 
 ### $product_quantity_discount
@@ -280,6 +304,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 99
 
 
 ### $product_ean13
@@ -291,6 +316,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 102
 
 
 ### $product_upc
@@ -302,6 +328,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 105
 
 
 ### $product_reference
@@ -313,6 +340,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 108
 
 
 ### $product_supplier_reference
@@ -324,6 +352,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 111
 
 
 ### $product_weight
@@ -335,6 +364,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 114
 
 
 ### $ecotax
@@ -346,6 +376,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 117
 
 
 ### $ecotax_tax_rate
@@ -357,6 +388,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 120
 
 
 ### $discount_quantity_applied
@@ -368,6 +400,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 123
 
 
 ### $download_hash
@@ -379,6 +412,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 126
 
 
 ### $download_nb
@@ -390,6 +424,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 129
 
 
 ### $download_deadline
@@ -401,6 +436,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 132
 
 
 ### $tax_name
@@ -412,6 +448,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 135
 
 
 ### $tax_rate
@@ -423,6 +460,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 138
 
 
 ### $tax_computation_method
@@ -434,6 +472,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 141
 
 
 ### $id_tax_rules_group
@@ -445,6 +484,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 144
 
 
 ### $id_warehouse
@@ -456,6 +496,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 147
 
 
 ### $total_shipping_price_tax_excl
@@ -467,6 +508,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 150
 
 
 ### $total_shipping_price_tax_incl
@@ -478,6 +520,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 153
 
 
 ### $purchase_supplier_price
@@ -489,6 +532,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 156
 
 
 ### $original_wholesale_price
@@ -500,6 +544,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderDetail.php line 159
 
 
 ### $definition
@@ -512,6 +557,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\order\OrderDetail.php line 164
 
 
 ### $webserviceParameters
@@ -523,6 +569,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderDetail.php line 214
 
 
 ### $outOfStock
@@ -534,6 +581,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderDetail.php line 233
 
 
 ### $tax_calculator
@@ -545,6 +593,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderDetail.php line 236
 
 
 ### $vat_address
@@ -556,6 +605,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderDetail.php line 239
 
 
 ### $specificPrice
@@ -567,6 +617,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderDetail.php line 242
 
 
 ### $customer
@@ -578,6 +629,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderDetail.php line 245
 
 
 ### $context
@@ -589,6 +641,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderDetail.php line 248
 
 
 Methods
@@ -604,6 +657,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderDetail.php line 250
 
 
 #### Arguments
@@ -622,6 +676,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderDetail.php line 265
 
 
 
@@ -635,6 +690,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\OrderDetail.php line 276
 
 
 #### Arguments
@@ -652,6 +708,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderDetail.php line 283
 
 
 #### Arguments
@@ -669,6 +726,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderDetail.php line 296
 
 
 #### Arguments
@@ -686,6 +744,7 @@ Returns the tax calculator associated to this order detail.
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderDetail.php line 310
 
 
 
@@ -700,6 +759,7 @@ Return the tax calculator associated to this order_detail
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderDetail.php line 321
 
 
 #### Arguments
@@ -716,10 +776,11 @@ Save the tax calculator
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderDetail.php line 349
 
 
 #### Arguments
-* $order **Order**
+* $order **[Order](OrderCore)**
 * $replace **mixed**
 
 
@@ -733,6 +794,7 @@ Save the tax calculator
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderDetail.php line 412
 
 
 #### Arguments
@@ -750,6 +812,7 @@ Get a detailed order list of an id_order
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderDetail.php line 427
 
 
 #### Arguments
@@ -766,6 +829,7 @@ Get a detailed order list of an id_order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderDetail.php line 432
 
 
 
@@ -780,6 +844,7 @@ Get a detailed order list of an id_order
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderDetail.php line 437
 
 
 #### Arguments
@@ -796,6 +861,7 @@ Get a detailed order list of an id_order
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\OrderDetail.php line 448
 
 
 #### Arguments
@@ -812,6 +878,7 @@ Check the order status
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\OrderDetail.php line 468
 
 
 #### Arguments
@@ -829,6 +896,7 @@ Apply tax to the product
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\OrderDetail.php line 492
 
 
 #### Arguments
@@ -846,6 +914,7 @@ Set specific price of the product
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\OrderDetail.php line 516
 
 
 #### Arguments
@@ -863,6 +932,7 @@ Set detailed product price to the order detail
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\OrderDetail.php line 557
 
 
 #### Arguments
@@ -881,6 +951,7 @@ Create an order detail liable to an id_order
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\OrderDetail.php line 611
 
 
 #### Arguments
@@ -903,6 +974,7 @@ Create a list of order detail for a specified id_order using cart
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderDetail.php line 669
 
 
 #### Arguments
@@ -925,6 +997,7 @@ Get the state of the current stock product
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderDetail.php line 690
 
 
 
@@ -938,10 +1011,11 @@ Set the additional shipping information
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderDetail.php line 701
 
 
 #### Arguments
-* $order **Order**
+* $order **[Order](OrderCore)**
 * $product **mixed**
 
 
@@ -955,6 +1029,7 @@ Set the additional shipping information
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderDetail.php line 715
 
 
 
@@ -969,6 +1044,7 @@ Set the additional shipping information
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderDetail.php line 725
 
 
 #### Arguments
@@ -987,6 +1063,7 @@ Set the additional shipping information
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderDetail.php line 789
 
 
 #### Arguments
@@ -1004,6 +1081,7 @@ Set the additional shipping information
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderDetail.php line 806
 
 
 

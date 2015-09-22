@@ -8,7 +8,8 @@ OrderCarrierCore
 
 * Class name: OrderCarrierCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\order\OrderCarrier.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCarrier.php line 30
 
 
 ### $id_order
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCarrier.php line 33
 
 
 ### $id_carrier
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCarrier.php line 36
 
 
 ### $id_order_invoice
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCarrier.php line 39
 
 
 ### $weight
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCarrier.php line 42
 
 
 ### $shipping_cost_tax_excl
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCarrier.php line 45
 
 
 ### $shipping_cost_tax_incl
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCarrier.php line 48
 
 
 ### $tracking_number
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCarrier.php line 51
 
 
 ### $date_add
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderCarrier.php line 54
 
 
 ### $definition
@@ -127,6 +137,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\order\OrderCarrier.php line 59
 
 
 ### $webserviceParameters
@@ -138,6 +149,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderCarrier.php line 74
 
 
 

@@ -8,6 +8,7 @@ UploaderCore
 
 * Class name: UploaderCore
 * Namespace: 
+* This class is defined in classes\Uploader.php line 27
 
 
 
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\Uploader.php line 29
 
 
 Properties
@@ -36,6 +38,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\Uploader.php line 31
 
 
 ### $_accept_types
@@ -47,6 +50,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\Uploader.php line 32
 
 
 ### $_files
@@ -58,6 +62,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\Uploader.php line 33
 
 
 ### $_max_size
@@ -69,6 +74,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\Uploader.php line 34
 
 
 ### $_name
@@ -80,6 +86,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\Uploader.php line 35
 
 
 ### $_save_path
@@ -91,6 +98,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\Uploader.php line 36
 
 
 Methods
@@ -106,6 +114,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 38
 
 
 #### Arguments
@@ -122,6 +131,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 45
 
 
 #### Arguments
@@ -138,6 +148,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 51
 
 
 
@@ -151,6 +162,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 56
 
 
 #### Arguments
@@ -167,6 +179,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 62
 
 
 #### Arguments
@@ -183,6 +196,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 71
 
 
 
@@ -196,6 +210,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 80
 
 
 #### Arguments
@@ -212,6 +227,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 86
 
 
 
@@ -225,6 +241,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 95
 
 
 #### Arguments
@@ -241,6 +258,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 101
 
 
 
@@ -254,6 +272,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 106
 
 
 #### Arguments
@@ -270,6 +289,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 112
 
 
 
@@ -283,6 +303,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 130
 
 
 
@@ -296,6 +317,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 139
 
 
 #### Arguments
@@ -312,6 +334,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 144
 
 
 
@@ -325,6 +348,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 149
 
 
 #### Arguments
@@ -341,6 +365,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Uploader.php line 173
 
 
 #### Arguments
@@ -358,6 +383,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\Uploader.php line 203
 
 
 #### Arguments
@@ -374,6 +400,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\Uploader.php line 234
 
 
 #### Arguments
@@ -390,6 +417,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\Uploader.php line 266
 
 
 #### Arguments
@@ -407,6 +435,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\Uploader.php line 275
 
 
 #### Arguments
@@ -423,6 +452,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\Uploader.php line 280
 
 
 #### Arguments

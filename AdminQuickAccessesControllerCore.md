@@ -8,7 +8,8 @@ AdminQuickAccessesControllerCore
 
 * Class name: AdminQuickAccessesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminQuickAccessesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminQuickAccessesController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminQuickAccessesController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminQuickAccessesController.php line 127
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminQuickAccessesController.php line 140
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminQuickAccessesController.php line 153
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminQuickAccessesController.php line 159
 
 
 #### Arguments
@@ -110,6 +117,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminQuickAccessesController.php line 168
 
 
 
@@ -123,6 +131,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminQuickAccessesController.php line 204
 
 
 
@@ -136,6 +145,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminQuickAccessesController.php line 210
 
 
 
@@ -149,6 +159,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminQuickAccessesController.php line 227
 
 
 

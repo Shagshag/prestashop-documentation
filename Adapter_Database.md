@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_Database
 * Namespace: 
-* This class implements: [Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface.md)
+* This class implements: [Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface)* This class is defined in Adapter\Adapter_Database.php line 27
+
 
 
 
@@ -42,7 +43,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface.md)
+* This method is defined by [Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface)
+* This method is defined in Adapter\Adapter_Database.php line 29
 
 
 #### Arguments
@@ -59,7 +61,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface.md)
+* This method is defined by [Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface)
+* This method is defined in Adapter\Adapter_Database.php line 30
 
 
 #### Arguments

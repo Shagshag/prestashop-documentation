@@ -8,7 +8,8 @@ AdminProductsControllerCore
 
 * Class name: AdminProductsControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminProductsController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminProductsController.php line 35
 
 
 ### $max_image_size
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminProductsController.php line 36
 
 
 ### $_category
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminProductsController.php line 38
 
 
 ### $tab_display
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminProductsController.php line 42
 
 
 ### $tab_display_module
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminProductsController.php line 43
 
 
 ### $available_tabs
@@ -82,6 +88,7 @@ The order in the array decides the order in the list of tab. If an element's val
 The tabs are preloaded from the smallest to the highest number.
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminProductsController.php line 50
 
 
 ### $default_tab
@@ -93,6 +100,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminProductsController.php line 52
 
 
 ### $available_tabs_lang
@@ -104,6 +112,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminProductsController.php line 54
 
 
 ### $position_identifier
@@ -115,6 +124,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminProductsController.php line 56
 
 
 ### $submitted_tabs
@@ -126,6 +136,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminProductsController.php line 58
 
 
 ### $id_current_category
@@ -137,6 +148,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminProductsController.php line 60
 
 
 ### $object
@@ -148,6 +160,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminProductsController.php line 30
 
 
 Methods
@@ -163,6 +176,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 62
 
 
 
@@ -177,6 +191,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminProductsController.php line 278
 
 
 #### Arguments
@@ -194,6 +209,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 287
 
 
 
@@ -207,6 +223,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 307
 
 
 #### Arguments
@@ -223,10 +240,11 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 328
 
 
 #### Arguments
-* $object **Product|ObjectModel**
+* $object **[Product](ProductCore)|[Product](ObjectModelCore)**
 * $table **string**
 
 
@@ -240,6 +258,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 373
 
 
 #### Arguments
@@ -257,6 +276,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 401
 
 
 #### Arguments
@@ -278,6 +298,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 443
 
 
 #### Arguments
@@ -294,6 +315,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 465
 
 
 
@@ -307,6 +329,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 492
 
 
 
@@ -320,6 +343,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 509
 
 
 
@@ -333,6 +357,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 526
 
 
 
@@ -346,6 +371,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 543
 
 
 
@@ -359,6 +385,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 561
 
 
 
@@ -372,6 +399,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 694
 
 
 
@@ -385,6 +413,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 705
 
 
 
@@ -398,6 +427,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 753
 
 
 
@@ -411,6 +441,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 792
 
 
 
@@ -424,6 +455,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 827
 
 
 
@@ -437,6 +469,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 893
 
 
 
@@ -450,6 +483,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1033
 
 
 
@@ -463,6 +497,7 @@ This function is never called at the moment (specific prices cannot be edited)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1071
 
 
 
@@ -476,6 +511,7 @@ This function is never called at the moment (specific prices cannot be edited)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1114
 
 
 
@@ -489,6 +525,7 @@ This function is never called at the moment (specific prices cannot be edited)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1171
 
 
 
@@ -502,6 +539,7 @@ This function is never called at the moment (specific prices cannot be edited)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1202
 
 
 
@@ -515,6 +553,7 @@ This function is never called at the moment (specific prices cannot be edited)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1220
 
 
 
@@ -528,6 +567,7 @@ This function is never called at the moment (specific prices cannot be edited)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1249
 
 
 
@@ -541,6 +581,7 @@ Overrides parent for custom redirect link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1271
 
 
 
@@ -554,6 +595,7 @@ Overrides parent for custom redirect link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1288
 
 
 
@@ -567,6 +609,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1437
 
 
 
@@ -580,6 +623,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1481
 
 
 
@@ -593,6 +637,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1537
 
 
 
@@ -606,6 +651,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1562
 
 
 
@@ -619,6 +665,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1578
 
 
 
@@ -632,6 +679,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1586
 
 
 
@@ -645,6 +693,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1637
 
 
 
@@ -658,6 +707,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1660
 
 
 
@@ -671,6 +721,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1679
 
 
 
@@ -684,6 +735,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 1718
 
 
 #### Arguments
@@ -711,6 +763,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 1739
 
 
 #### Arguments
@@ -728,10 +781,11 @@ Add or update a product image
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1780
 
 
 #### Arguments
-* $product **Product** - &lt;p&gt;Product object to add image&lt;/p&gt;
+* $product **[Product](ProductCore)** - &lt;p&gt;Product object to add image&lt;/p&gt;
 * $method **string**
 
 
@@ -745,6 +799,7 @@ Copy a product image
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1822
 
 
 #### Arguments
@@ -763,6 +818,7 @@ Copy a product image
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 1853
 
 
 #### Arguments
@@ -779,6 +835,7 @@ Copy a product image
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1859
 
 
 
@@ -792,6 +849,7 @@ Copy a product image
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 1940
 
 
 #### Arguments
@@ -808,6 +866,7 @@ Copy a product image
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1953
 
 
 
@@ -821,6 +880,7 @@ Copy a product image
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 1983
 
 
 
@@ -834,6 +894,7 @@ Check that a saved product is valid
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2133
 
 
 
@@ -848,6 +909,7 @@ This method will do something only for multishop with a context all / group
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 2287
 
 
 #### Arguments
@@ -865,6 +927,7 @@ This method will do something only for multishop with a context all / group
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 2306
 
 
 
@@ -878,6 +941,7 @@ This method will do something only for multishop with a context all / group
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 2313
 
 
 #### Arguments
@@ -894,10 +958,11 @@ Update product download
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2328
 
 
 #### Arguments
-* $product **Product**
+* $product **[Product](ProductCore)**
 * $edit **integer**
 
 
@@ -911,6 +976,7 @@ Update product accessories
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2404
 
 
 #### Arguments
@@ -927,6 +993,7 @@ Update product tags
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2423
 
 
 #### Arguments
@@ -944,6 +1011,7 @@ Update product tags
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2444
 
 
 #### Arguments
@@ -960,6 +1028,7 @@ Update product tags
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2520
 
 
 
@@ -973,6 +1042,7 @@ Update product tags
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2593
 
 
 
@@ -986,6 +1056,7 @@ Update product tags
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2602
 
 
 
@@ -1000,6 +1071,7 @@ Build a categories tree
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminProductsController.php line 2630
 
 
 #### Arguments
@@ -1022,6 +1094,7 @@ Build a categories tree
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 2679
 
 
 #### Arguments
@@ -1038,6 +1111,7 @@ Build a categories tree
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2689
 
 
 
@@ -1051,6 +1125,7 @@ Build a categories tree
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2750
 
 
 
@@ -1064,6 +1139,7 @@ renderForm contains all necessary initialization needed for all tabs
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2790
 
 
 
@@ -1077,10 +1153,11 @@ renderForm contains all necessary initialization needed for all tabs
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2911
 
 
 #### Arguments
-* $product **Product**
+* $product **[Product](ProductCore)**
 
 
 
@@ -1093,6 +1170,7 @@ Post treatment for suppliers
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 2943
 
 
 
@@ -1106,6 +1184,7 @@ Post treatment for warehouses
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 3104
 
 
 
@@ -1119,10 +1198,11 @@ Post treatment for warehouses
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 3180
 
 
 #### Arguments
-* $obj **Product**
+* $obj **[Product](ProductCore)**
 
 
 
@@ -1135,10 +1215,11 @@ Post treatment for warehouses
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 3254
 
 
 #### Arguments
-* $obj **Product**
+* $obj **[Product](ProductCore)**
 
 
 
@@ -1151,6 +1232,7 @@ Post treatment for warehouses
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 3364
 
 
 #### Arguments
@@ -1167,10 +1249,11 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 3401
 
 
 #### Arguments
-* $product **Product**
+* $product **[Product](ProductCore)**
 
 
 
@@ -1183,10 +1266,11 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 3449
 
 
 #### Arguments
-* $product **Product**
+* $product **[Product](ProductCore)**
 
 
 
@@ -1199,6 +1283,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 3480
 
 
 #### Arguments
@@ -1215,6 +1300,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 3547
 
 
 #### Arguments
@@ -1233,6 +1319,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 3552
 
 
 #### Arguments
@@ -1253,6 +1340,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 3769
 
 
 #### Arguments
@@ -1271,6 +1359,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 3793
 
 
 #### Arguments
@@ -1292,6 +1381,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 3822
 
 
 #### Arguments
@@ -1312,10 +1402,11 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 3842
 
 
 #### Arguments
-* $obj **Product**
+* $obj **[Product](ProductCore)**
 
 
 
@@ -1328,6 +1419,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 3874
 
 
 #### Arguments
@@ -1344,10 +1436,11 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 3930
 
 
 #### Arguments
-* $product **Product**
+* $product **[Product](ProductCore)**
 
 
 
@@ -1360,6 +1453,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4034
 
 
 #### Arguments
@@ -1376,6 +1470,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 4048
 
 
 
@@ -1389,6 +1484,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 4067
 
 
 #### Arguments
@@ -1405,6 +1501,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4084
 
 
 
@@ -1418,10 +1515,11 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4216
 
 
 #### Arguments
-* $obj **Product**
+* $obj **[Product](ProductCore)**
 
 
 
@@ -1434,6 +1532,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4297
 
 
 #### Arguments
@@ -1450,10 +1549,11 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4307
 
 
 #### Arguments
-* $product **Product**
+* $product **[Product](ProductCore)**
 
 
 
@@ -1466,11 +1566,12 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4385
 
 
 #### Arguments
-* $product **Product**
-* $currency **Currency|array|integer**
+* $product **[Product](ProductCore)**
+* $currency **[Currency](CurrencyCore)|array|integer**
 
 
 
@@ -1483,10 +1584,11 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4484
 
 
 #### Arguments
-* $obj **Product**
+* $obj **[Product](ProductCore)**
 
 
 
@@ -1499,10 +1601,11 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4638
 
 
 #### Arguments
-* $obj **Product**
+* $obj **[Product](ProductCore)**
 
 
 
@@ -1515,10 +1618,11 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4720
 
 
 #### Arguments
-* $obj **Product**
+* $obj **[Product](ProductCore)**
 
 
 
@@ -1531,10 +1635,11 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4775
 
 
 #### Arguments
-* $obj **Product**
+* $obj **[Product](ProductCore)**
 
 
 
@@ -1547,6 +1652,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4834
 
 
 
@@ -1560,6 +1666,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4935
 
 
 
@@ -1573,6 +1680,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4956
 
 
 #### Arguments
@@ -1590,10 +1698,11 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 4966
 
 
 #### Arguments
-* $product **Product**
+* $product **[Product](ProductCore)**
 
 
 
@@ -1606,6 +1715,7 @@ AdminProducts display hook
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 4999
 
 
 #### Arguments
@@ -1622,10 +1732,11 @@ delete all items in pack, then check if type_product value is 2.
 if yes, add the pack items from input "inputPackItems"
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 5012
 
 
 #### Arguments
-* $product **Product**
+* $product **[Product](ProductCore)**
 
 
 
@@ -1638,6 +1749,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 5040
 
 
 #### Arguments
@@ -1654,6 +1766,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminProductsController.php line 5053
 
 
 
@@ -1667,6 +1780,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 5063
 
 
 
@@ -1680,6 +1794,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 5086
 
 
 
@@ -1693,6 +1808,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 5126
 
 
 
@@ -1706,6 +1822,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 5152
 
 
 
@@ -1719,6 +1836,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminProductsController.php line 5169
 
 
 #### Arguments

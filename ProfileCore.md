@@ -8,7 +8,8 @@ ProfileCore
 
 * Class name: ProfileCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Profile.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Profile.php line 30
 
 
 ### $definition
@@ -39,6 +41,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Profile.php line 35
 
 
 ### $_cache_accesses
@@ -51,6 +54,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Profile.php line 45
 
 
 Methods
@@ -67,6 +71,7 @@ Get all available profiles
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Profile.php line 52
 
 
 #### Arguments
@@ -84,6 +89,7 @@ Get the current profile name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Profile.php line 66
 
 
 #### Arguments
@@ -101,6 +107,7 @@ Get the current profile name
 
 
 * Visibility: **public**
+* This method is defined in classes\Profile.php line 81
 
 
 #### Arguments
@@ -118,6 +125,7 @@ Get the current profile name
 
 
 * Visibility: **public**
+* This method is defined in classes\Profile.php line 95
 
 
 
@@ -132,6 +140,7 @@ Get the current profile name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Profile.php line 106
 
 
 #### Arguments
@@ -150,6 +159,7 @@ Get the current profile name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Profile.php line 113
 
 
 #### Arguments

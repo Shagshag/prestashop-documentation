@@ -8,7 +8,8 @@ SearchControllerCore
 
 * Class name: SearchControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\SearchController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\SearchController.php line 29
 
 
 ### $instant_search
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\SearchController.php line 30
 
 
 ### $ajax_search
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\SearchController.php line 31
 
 
 Methods
@@ -64,6 +68,7 @@ Initialize search controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\SearchController.php line 37
 
 
 
@@ -77,6 +82,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\SearchController.php line 55
 
 
 
@@ -90,6 +96,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\SearchController.php line 144
 
 
 #### Arguments
@@ -106,6 +113,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\SearchController.php line 153
 
 
 #### Arguments
@@ -122,6 +130,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\SearchController.php line 160
 
 
 

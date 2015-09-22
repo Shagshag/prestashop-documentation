@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: AdminGeolocationControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminGeolocationController.php line 27
 
 
 
@@ -43,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGeolocationController.php line 29
 
 
 
@@ -56,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGeolocationController.php line 87
 
 
 
@@ -69,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGeolocationController.php line 122
 
 
 
@@ -82,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminGeolocationController.php line 138
 
 
 
@@ -95,6 +100,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminGeolocationController.php line 151
 
 
 

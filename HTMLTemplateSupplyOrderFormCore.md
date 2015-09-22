@@ -8,7 +8,8 @@ HTMLTemplateSupplyOrderFormCore
 
 * Class name: HTMLTemplateSupplyOrderFormCore
 * Namespace: 
-* Parent class: HTMLTemplate
+* Parent class: [HTMLTemplate](HTMLTemplateCore)
+* This class is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 32
 
 
 ### $warehouse
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 33
 
 
 ### $address_warehouse
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 34
 
 
 ### $address_supplier
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 35
 
 
 ### $context
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 36
 
 
 Methods
@@ -86,10 +92,11 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 43
 
 
 #### Arguments
-* $supply_order **SupplyOrder**
+* $supply_order **[SupplyOrder](SupplyOrderCore)**
 * $smarty **mixed**
 
 
@@ -103,6 +110,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 62
 
 
 
@@ -116,6 +124,7 @@ Returns the invoice logo
 
 
 * Visibility: **protected**
+* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 99
 
 
 
@@ -129,6 +138,7 @@ Returns the invoice logo
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 115
 
 
 
@@ -142,6 +152,7 @@ Returns the invoice logo
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 123
 
 
 
@@ -155,6 +166,7 @@ Get order taxes summary
 
 
 * Visibility: **protected**
+* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 135
 
 
 
@@ -168,6 +180,7 @@ Get order taxes summary
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 163
 
 
 
@@ -181,6 +194,7 @@ Get order taxes summary
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 191
 
 
 
@@ -194,10 +208,11 @@ Rounds values of a SupplyOrderDetail object
 
 
 * Visibility: **protected**
+* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 213
 
 
 #### Arguments
-* $collection **array|PrestaShopCollection**
+* $collection **array|[array](PrestaShopCollectionCore)**
 
 
 
@@ -210,9 +225,10 @@ Rounds values of a SupplyOrder object
 
 
 * Visibility: **protected**
+* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 231
 
 
 #### Arguments
-* $supply_order **SupplyOrder**
+* $supply_order **[SupplyOrder](SupplyOrderCore)**
 
 

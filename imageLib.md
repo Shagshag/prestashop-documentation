@@ -8,6 +8,7 @@ imageLib
 
 * Class name: imageLib
 * Namespace: 
+* This class is defined in admin\filemanager\include\php_image_magician.php line 163
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 165
 
 
 ### $image
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 166
 
 
 ### $imageResized
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 167
 
 
 ### $widthOriginal
@@ -59,6 +63,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 168
 
 
 ### $heightOriginal
@@ -70,6 +75,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 169
 
 
 ### $width
@@ -81,6 +87,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 170
 
 
 ### $height
@@ -92,6 +99,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 171
 
 
 ### $imageSize
@@ -103,6 +111,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 172
 
 
 ### $fileExtension
@@ -114,6 +123,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 173
 
 
 ### $debug
@@ -125,6 +135,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 175
 
 
 ### $errorArray
@@ -136,6 +147,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 176
 
 
 ### $forceStretch
@@ -147,6 +159,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 178
 
 
 ### $aggresiveSharpening
@@ -158,6 +171,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 179
 
 
 ### $transparentArray
@@ -169,6 +183,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 181
 
 
 ### $keepTransparency
@@ -180,6 +195,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 182
 
 
 ### $fillColorArray
@@ -191,6 +207,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 183
 
 
 ### $sharpenArray
@@ -202,6 +219,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 185
 
 
 ### $psdReaderPath
@@ -213,6 +231,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 187
 
 
 ### $filterOverlayPath
@@ -224,6 +243,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 188
 
 
 ### $isInterlace
@@ -235,6 +255,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 190
 
 
 ### $captionBoxPositionArray
@@ -246,6 +267,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 192
 
 
 ### $fontDir
@@ -257,6 +279,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 194
 
 
 ### $cropFromTopPercent
@@ -268,6 +291,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in admin\filemanager\include\php_image_magician.php line 196
 
 
 Methods
@@ -283,6 +307,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 201
 
 
 #### Arguments
@@ -299,6 +324,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 258
 
 
 
@@ -312,6 +338,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 274
 
 
 #### Arguments
@@ -332,6 +359,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 383
 
 
 #### Arguments
@@ -350,6 +378,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 414
 
 
 #### Arguments
@@ -368,6 +397,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 438
 
 
 #### Arguments
@@ -388,6 +418,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 469
 
 
 #### Arguments
@@ -408,6 +439,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 562
 
 
 #### Arguments
@@ -426,6 +458,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 621
 
 
 #### Arguments
@@ -443,6 +476,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 642
 
 
 #### Arguments
@@ -460,6 +494,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 663
 
 
 #### Arguments
@@ -477,6 +512,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 726
 
 
 #### Arguments
@@ -494,6 +530,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 784
 
 
 
@@ -507,6 +544,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 829
 
 
 #### Arguments
@@ -523,6 +561,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 840
 
 
 #### Arguments
@@ -540,6 +579,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 861
 
 
 #### Arguments
@@ -556,6 +596,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 899
 
 
 #### Arguments
@@ -572,6 +613,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 919
 
 
 #### Arguments
@@ -589,6 +631,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 955
 
 
 
@@ -602,6 +645,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 972
 
 
 
@@ -615,6 +659,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 992
 
 
 
@@ -628,6 +673,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1003
 
 
 
@@ -641,6 +687,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1024
 
 
 
@@ -654,6 +701,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1044
 
 
 
@@ -667,6 +715,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1064
 
 
 
@@ -680,6 +729,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1083
 
 
 
@@ -693,6 +743,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1095
 
 
 
@@ -706,6 +757,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1107
 
 
 
@@ -719,6 +771,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1122
 
 
 #### Arguments
@@ -737,6 +790,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1161
 
 
 #### Arguments
@@ -753,6 +807,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1187
 
 
 #### Arguments
@@ -774,6 +829,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1274
 
 
 #### Arguments
@@ -791,6 +847,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1342
 
 
 #### Arguments
@@ -808,6 +865,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1438
 
 
 #### Arguments
@@ -826,6 +884,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1585
 
 
 #### Arguments
@@ -846,6 +905,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1620
 
 
 #### Arguments
@@ -866,6 +926,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1670
 
 
 #### Arguments
@@ -884,6 +945,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1711
 
 
 #### Arguments
@@ -900,6 +962,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1897
 
 
 #### Arguments
@@ -916,6 +979,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1937
 
 
 #### Arguments
@@ -932,6 +996,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 1974
 
 
 #### Arguments
@@ -948,6 +1013,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2061
 
 
 #### Arguments
@@ -964,6 +1030,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2069
 
 
 #### Arguments
@@ -980,6 +1047,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2076
 
 
 #### Arguments
@@ -997,6 +1065,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2088
 
 
 #### Arguments
@@ -1015,6 +1084,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2131
 
 
 #### Arguments
@@ -1037,6 +1107,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2169
 
 
 #### Arguments
@@ -1053,6 +1124,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2201
 
 
 #### Arguments
@@ -1072,6 +1144,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2221
 
 
 #### Arguments
@@ -1091,6 +1164,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2273
 
 
 #### Arguments
@@ -1111,6 +1185,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2366
 
 
 #### Arguments
@@ -1128,6 +1203,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2433
 
 
 #### Arguments
@@ -1144,6 +1220,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2485
 
 
 
@@ -1157,6 +1234,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2500
 
 
 #### Arguments
@@ -1174,6 +1252,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2598
 
 
 #### Arguments
@@ -1191,6 +1270,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2654
 
 
 #### Arguments
@@ -1207,6 +1287,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2662
 
 
 #### Arguments
@@ -1223,6 +1304,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2680
 
 
 #### Arguments
@@ -1239,6 +1321,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2688
 
 
 
@@ -1252,6 +1335,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2709
 
 
 
@@ -1265,6 +1349,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2730
 
 
 #### Arguments
@@ -1281,6 +1366,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2751
 
 
 
@@ -1294,6 +1380,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2766
 
 
 #### Arguments
@@ -1310,6 +1397,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2781
 
 
 #### Arguments
@@ -1326,6 +1414,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2796
 
 
 
@@ -1339,6 +1428,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2811
 
 
 
@@ -1352,6 +1442,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2818
 
 
 
@@ -1365,6 +1456,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2825
 
 
 
@@ -1378,6 +1470,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2832
 
 
 
@@ -1391,6 +1484,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2839
 
 
 
@@ -1404,6 +1498,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2854
 
 
 #### Arguments
@@ -1420,6 +1515,7 @@ Apply a PNG overlay
 
 
 * Visibility: **protected**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2864
 
 
 #### Arguments
@@ -1436,6 +1532,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2904
 
 
 #### Arguments
@@ -1452,6 +1549,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2924
 
 
 #### Arguments
@@ -1468,6 +1566,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2935
 
 
 #### Arguments
@@ -1484,6 +1583,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2950
 
 
 
@@ -1497,6 +1597,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2973
 
 
 
@@ -1510,6 +1611,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 2996
 
 
 #### Arguments
@@ -1528,6 +1630,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 3021
 
 
 #### Arguments
@@ -1544,6 +1647,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 3049
 
 
 #### Arguments
@@ -1561,6 +1665,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 3060
 
 
 #### Arguments
@@ -1577,6 +1682,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 3113
 
 
 #### Arguments
@@ -1595,6 +1701,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 3130
 
 
 #### Arguments
@@ -1612,6 +1719,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 3152
 
 
 #### Arguments
@@ -1628,6 +1736,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 3293
 
 
 #### Arguments
@@ -1644,6 +1753,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
+* This method is defined in admin\filemanager\include\php_image_magician.php line 3320
 
 
 

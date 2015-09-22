@@ -8,7 +8,8 @@ AdminShopUrlControllerCore
 
 * Class name: AdminShopUrlControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminShopUrlController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminShopUrlController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 94
 
 
 #### Arguments
@@ -71,6 +75,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 99
 
 
 
@@ -84,6 +89,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 117
 
 
 
@@ -97,6 +103,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 297
 
 
 
@@ -110,6 +117,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 322
 
 
 
@@ -123,6 +131,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 342
 
 
 
@@ -136,6 +145,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 399
 
 
 
@@ -149,6 +159,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 449
 
 
 
@@ -162,6 +173,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 471
 
 
 
@@ -175,6 +187,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 487
 
 
 
@@ -188,10 +201,11 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 513
 
 
 #### Arguments
-* $object **ShopUrl**
+* $object **[ShopUrl](ShopUrlCore)**
 
 
 
@@ -204,6 +218,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminShopUrlController.php line 530
 
 
 #### Arguments

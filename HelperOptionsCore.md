@@ -8,7 +8,8 @@ Use this helper to generate preferences forms, with values stored in the configu
 
 * Class name: HelperOptionsCore
 * Namespace: 
-* Parent class: Helper
+* Parent class: [Helper](HelperCore)
+* This class is defined in classes\helper\HelperOptions.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperOptions.php line 32
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperOptions.php line 34
 
 
 
@@ -55,6 +58,7 @@ Generate a form for options
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperOptions.php line 46
 
 
 #### Arguments
@@ -71,6 +75,7 @@ Type = image
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperOptions.php line 233
 
 
 #### Arguments
@@ -89,6 +94,7 @@ Type = price
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperOptions.php line 260
 
 
 #### Arguments
@@ -107,6 +113,7 @@ Type = disabled
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperOptions.php line 270
 
 
 #### Arguments
@@ -125,6 +132,7 @@ Type = disabled
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperOptions.php line 275
 
 
 #### Arguments

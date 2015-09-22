@@ -8,7 +8,8 @@ AdminCarriersControllerCore
 
 * Class name: AdminCarriersControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminCarriersController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCarriersController.php line 32
 
 
 ### $object
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCarriersController.php line 30
 
 
 Methods
@@ -53,6 +56,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 34
 
 
 
@@ -66,6 +70,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 118
 
 
 
@@ -79,6 +84,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 127
 
 
 
@@ -92,6 +98,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 141
 
 
 
@@ -105,6 +112,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 151
 
 
 
@@ -118,6 +126,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 159
 
 
 
@@ -131,6 +140,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 412
 
 
 
@@ -144,6 +154,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 539
 
 
 
@@ -157,6 +168,7 @@ Overload the property $fields_value
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 557
 
 
 #### Arguments
@@ -173,10 +185,11 @@ Overload the property $fields_value
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCarriersController.php line 606
 
 
 #### Arguments
-* $object **Carrier**
+* $object **[Carrier](CarrierCore)**
 
 
 
@@ -189,6 +202,7 @@ Overload the property $fields_value
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCarriersController.php line 611
 
 
 #### Arguments
@@ -206,6 +220,7 @@ Overload the property $fields_value
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 627
 
 
 #### Arguments
@@ -222,6 +237,7 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 658
 
 
 #### Arguments
@@ -243,6 +259,7 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 669
 
 
 
@@ -256,6 +273,7 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 694
 
 
 #### Arguments
@@ -274,6 +292,7 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCarriersController.php line 714
 
 
 #### Arguments
@@ -292,6 +311,7 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCarriersController.php line 753
 
 
 

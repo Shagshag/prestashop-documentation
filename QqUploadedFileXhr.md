@@ -8,6 +8,7 @@ Handle file uploads via XMLHttpRequest
 
 * Class name: QqUploadedFileXhr
 * Namespace: 
+* This class is defined in classes\FileUploader.php line 178
 
 
 
@@ -28,6 +29,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
+* This method is defined in classes\FileUploader.php line 184
 
 
 #### Arguments
@@ -44,6 +46,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
+* This method is defined in classes\FileUploader.php line 200
 
 
 
@@ -57,6 +60,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
+* This method is defined in classes\FileUploader.php line 236
 
 
 #### Arguments
@@ -75,6 +79,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
+* This method is defined in classes\FileUploader.php line 269
 
 
 
@@ -88,6 +93,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
+* This method is defined in classes\FileUploader.php line 274
 
 
 

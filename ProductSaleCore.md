@@ -8,6 +8,7 @@ ProductSaleCore
 
 * Class name: ProductSaleCore
 * Namespace: 
+* This class is defined in classes\ProductSale.php line 27
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductSale.php line 33
 
 
 
@@ -43,6 +45,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductSale.php line 46
 
 
 
@@ -57,6 +60,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductSale.php line 64
 
 
 #### Arguments
@@ -78,13 +82,14 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductSale.php line 159
 
 
 #### Arguments
 * $id_lang **mixed**
 * $page_number **mixed**
 * $nb_products **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -98,6 +103,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductSale.php line 219
 
 
 #### Arguments
@@ -116,6 +122,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductSale.php line 228
 
 
 #### Arguments
@@ -133,6 +140,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductSale.php line 237
 
 
 #### Arguments

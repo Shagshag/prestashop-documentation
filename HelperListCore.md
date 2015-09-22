@@ -8,7 +8,8 @@ HelperListCore
 
 * Class name: HelperListCore
 * Namespace: 
-* Parent class: Helper
+* Parent class: [Helper](HelperCore)
+* This class is defined in classes\helper\HelperList.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperList.php line 33
 
 
 ### $listTotal
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 36
 
 
 ### $_filter
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperList.php line 39
 
 
 ### $_pagination
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 42
 
 
 ### $_default_pagination
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 45
 
 
 ### $orderBy
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 48
 
 
 ### $_defaultOrderBy
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 51
 
 
 ### $tpl_delete_link_vars
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 54
 
 
 ### $orderWay
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 57
 
 
 ### $identifier
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 59
 
 
 ### $deleted
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperList.php line 61
 
 
 ### $cache_lang
@@ -149,6 +161,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\helper\HelperList.php line 64
 
 
 ### $is_cms
@@ -160,6 +173,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 66
 
 
 ### $position_identifier
@@ -171,6 +185,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 68
 
 
 ### $table_id
@@ -182,6 +197,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 70
 
 
 ### $fields_list
@@ -193,6 +209,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperList.php line 82
 
 
 ### $no_link
@@ -204,6 +221,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 85
 
 
 ### $header_tpl
@@ -215,6 +233,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperList.php line 88
 
 
 ### $content_tpl
@@ -226,6 +245,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperList.php line 91
 
 
 ### $footer_tpl
@@ -237,6 +257,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperList.php line 94
 
 
 ### $actions
@@ -248,6 +269,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 97
 
 
 ### $list_skip_actions
@@ -259,6 +281,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 100
 
 
 ### $bulk_actions
@@ -270,6 +293,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 102
 
 
 ### $force_show_bulk_actions
@@ -281,6 +305,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 103
 
 
 ### $specificConfirmDelete
@@ -292,6 +317,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 104
 
 
 ### $colorOnBackground
@@ -303,6 +329,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 105
 
 
 ### $row_hover
@@ -314,6 +341,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 108
 
 
 ### $title
@@ -325,6 +353,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 111
 
 
 ### $simple_header
@@ -336,6 +365,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 114
 
 
 ### $ajax_params
@@ -347,6 +377,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 116
 
 
 ### $page
@@ -358,6 +389,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperList.php line 118
 
 
 Methods
@@ -373,6 +405,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 120
 
 
 
@@ -386,6 +419,7 @@ Return an html list given the data to fill it up
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 135
 
 
 #### Arguments
@@ -403,6 +437,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 173
 
 
 #### Arguments
@@ -425,6 +460,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 185
 
 
 
@@ -438,6 +474,7 @@ Display duplicate action link
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 362
 
 
 #### Arguments
@@ -472,6 +509,7 @@ or somethins like this:
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 412
 
 
 #### Arguments
@@ -490,6 +528,7 @@ Display view action link
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 439
 
 
 #### Arguments
@@ -508,6 +547,7 @@ Display edit action link
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 457
 
 
 #### Arguments
@@ -526,6 +566,7 @@ Display delete action link
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 476
 
 
 #### Arguments
@@ -544,6 +585,7 @@ Display default action link
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 514
 
 
 #### Arguments
@@ -562,6 +604,7 @@ Display list header (filtering, pagination and column names)
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 533
 
 
 
@@ -575,6 +618,7 @@ Display list header (filtering, pagination and column names)
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 707
 
 
 #### Arguments
@@ -591,6 +635,7 @@ Close list table and submit button
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperList.php line 738
 
 
 

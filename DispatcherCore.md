@@ -8,6 +8,7 @@ DispatcherCore
 
 * Class name: DispatcherCore
 * Namespace: 
+* This class is defined in classes\Dispatcher.php line 30
 
 
 
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\Dispatcher.php line 35
 
 
 ### FC_ADMIN
@@ -29,6 +31,7 @@ Constants
 
 
 
+* This constant is defined in classes\Dispatcher.php line 36
 
 
 ### FC_MODULE
@@ -37,6 +40,7 @@ Constants
 
 
 
+* This constant is defined in classes\Dispatcher.php line 37
 
 
 Properties
@@ -53,6 +57,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Dispatcher.php line 42
 
 
 ### $default_routes
@@ -64,6 +69,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Dispatcher.php line 47
 
 
 ### $use_routes
@@ -75,6 +81,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Dispatcher.php line 145
 
 
 ### $multilang_activated
@@ -86,6 +93,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Dispatcher.php line 147
 
 
 ### $routes
@@ -97,6 +105,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Dispatcher.php line 152
 
 
 ### $controller
@@ -108,6 +117,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Dispatcher.php line 157
 
 
 ### $request_uri
@@ -119,6 +129,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Dispatcher.php line 162
 
 
 ### $empty_route
@@ -130,6 +141,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Dispatcher.php line 167
 
 
 ### $default_controller
@@ -141,6 +153,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Dispatcher.php line 172
 
 
 ### $use_default_controller
@@ -152,6 +165,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Dispatcher.php line 173
 
 
 ### $controller_not_found
@@ -163,6 +177,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Dispatcher.php line 178
 
 
 ### $front_controller
@@ -174,6 +189,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Dispatcher.php line 183
 
 
 Methods
@@ -190,6 +206,7 @@ Get current instance of dispatcher (singleton)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Dispatcher.php line 190
 
 
 
@@ -203,6 +220,7 @@ Need to be instancied from getInstance() method
 
 
 * Visibility: **protected**
+* This method is defined in classes\Dispatcher.php line 201
 
 
 
@@ -216,6 +234,7 @@ Need to be instancied from getInstance() method
 
 
 * Visibility: **public**
+* This method is defined in classes\Dispatcher.php line 231
 
 
 
@@ -229,6 +248,7 @@ Find the controller and instantiate it
 
 
 * Visibility: **public**
+* This method is defined in classes\Dispatcher.php line 254
 
 
 
@@ -242,6 +262,7 @@ Set request uri and iso lang
 
 
 * Visibility: **protected**
+* This method is defined in classes\Dispatcher.php line 376
 
 
 
@@ -255,6 +276,7 @@ Load default routes group by languages
 
 
 * Visibility: **protected**
+* This method is defined in classes\Dispatcher.php line 402
 
 
 #### Arguments
@@ -271,6 +293,7 @@ Load default routes group by languages
 
 
 * Visibility: **public**
+* This method is defined in classes\Dispatcher.php line 500
 
 
 #### Arguments
@@ -293,6 +316,7 @@ Check if a route exists
 
 
 * Visibility: **public**
+* This method is defined in classes\Dispatcher.php line 564
 
 
 #### Arguments
@@ -311,6 +335,7 @@ Check if a keyword is written in a route rule
 
 
 * Visibility: **public**
+* This method is defined in classes\Dispatcher.php line 585
 
 
 #### Arguments
@@ -330,6 +355,7 @@ Check if a route rule contain all required keywords of default route definition
 
 
 * Visibility: **public**
+* This method is defined in classes\Dispatcher.php line 609
 
 
 #### Arguments
@@ -348,6 +374,7 @@ Create an url from
 
 
 * Visibility: **public**
+* This method is defined in classes\Dispatcher.php line 634
 
 
 #### Arguments
@@ -369,6 +396,7 @@ Retrieve the controller from url or request uri if routes are activated
 
 
 * Visibility: **public**
+* This method is defined in classes\Dispatcher.php line 719
 
 
 #### Arguments
@@ -386,6 +414,7 @@ Get list of all available FO controllers
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Dispatcher.php line 814
 
 
 #### Arguments
@@ -403,6 +432,7 @@ Get list of all available Module Front controllers
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Dispatcher.php line 832
 
 
 #### Arguments
@@ -421,6 +451,7 @@ Get list of available controllers from the specified dir
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Dispatcher.php line 870
 
 
 #### Arguments

@@ -8,6 +8,7 @@ ValidateCore
 
 * Class name: ValidateCore
 * Namespace: 
+* This class is defined in classes\Validate.php line 27
 
 
 
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\Validate.php line 29
 
 
 ### PASSWORD_LENGTH
@@ -29,6 +31,7 @@ Constants
 
 
 
+* This constant is defined in classes\Validate.php line 30
 
 
 
@@ -47,6 +50,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 32
 
 
 #### Arguments
@@ -64,6 +68,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 37
 
 
 
@@ -78,6 +83,7 @@ Check for e-mail validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 48
 
 
 #### Arguments
@@ -95,6 +101,7 @@ Check for module URL validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 60
 
 
 #### Arguments
@@ -113,6 +120,7 @@ Check for MD5 string validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 86
 
 
 #### Arguments
@@ -130,6 +138,7 @@ Check for SHA1 string validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 97
 
 
 #### Arguments
@@ -147,6 +156,7 @@ Check for a float number validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 108
 
 
 #### Arguments
@@ -164,6 +174,7 @@ Check for a float number validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 113
 
 
 #### Arguments
@@ -181,6 +192,7 @@ Check for a float number validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 124
 
 
 #### Arguments
@@ -198,6 +210,7 @@ Check for a carrier name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 135
 
 
 #### Arguments
@@ -215,6 +228,7 @@ Check for an image size validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 146
 
 
 #### Arguments
@@ -232,6 +246,7 @@ Check for name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 157
 
 
 #### Arguments
@@ -249,6 +264,7 @@ Check for hook name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 168
 
 
 #### Arguments
@@ -266,6 +282,7 @@ Check for sender name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 179
 
 
 #### Arguments
@@ -283,6 +300,7 @@ Check for e-mail subject validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 190
 
 
 #### Arguments
@@ -300,6 +318,7 @@ Check for module name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 201
 
 
 #### Arguments
@@ -317,6 +336,7 @@ Check for template name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 212
 
 
 #### Arguments
@@ -334,6 +354,7 @@ Check for image type name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 223
 
 
 #### Arguments
@@ -351,6 +372,7 @@ Check for price validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 234
 
 
 #### Arguments
@@ -368,6 +390,7 @@ Check for price validity (including negative price)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 245
 
 
 #### Arguments
@@ -385,6 +408,7 @@ Check for language code (ISO) validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 256
 
 
 #### Arguments
@@ -402,6 +426,7 @@ Check for language code (ISO) validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 261
 
 
 #### Arguments
@@ -419,6 +444,7 @@ Check for language code (ISO) validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 266
 
 
 #### Arguments
@@ -436,6 +462,7 @@ Check for language code (ISO) validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 271
 
 
 #### Arguments
@@ -453,6 +480,7 @@ Check for voucher name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 282
 
 
 #### Arguments
@@ -470,6 +498,7 @@ Check for product or category name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 293
 
 
 #### Arguments
@@ -487,6 +516,7 @@ Check for a message validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 304
 
 
 #### Arguments
@@ -504,6 +534,7 @@ Check for a country name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 315
 
 
 #### Arguments
@@ -521,6 +552,7 @@ Check for a link (url-rewriting only) validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 326
 
 
 #### Arguments
@@ -538,6 +570,7 @@ Check for a route pattern validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 340
 
 
 #### Arguments
@@ -555,6 +588,7 @@ Check for a postal address validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 354
 
 
 #### Arguments
@@ -572,6 +606,7 @@ Check for city name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 365
 
 
 #### Arguments
@@ -589,6 +624,7 @@ Check for search query validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 376
 
 
 #### Arguments
@@ -606,6 +642,7 @@ Check for standard name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 387
 
 
 #### Arguments
@@ -623,6 +660,7 @@ Check for HTML field validity (no XSS please !)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 398
 
 
 #### Arguments
@@ -641,6 +679,7 @@ Check for product reference validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 425
 
 
 #### Arguments
@@ -658,6 +697,7 @@ Check for password validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 437
 
 
 #### Arguments
@@ -676,6 +716,7 @@ Check for password validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 442
 
 
 #### Arguments
@@ -693,6 +734,7 @@ Check for configuration key validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 453
 
 
 #### Arguments
@@ -710,6 +752,7 @@ Check date formats like http://php.net/manual/en/function.date.php
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 464
 
 
 #### Arguments
@@ -727,6 +770,7 @@ Check for date format
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 477
 
 
 #### Arguments
@@ -744,6 +788,7 @@ Check for date validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 488
 
 
 #### Arguments
@@ -761,6 +806,7 @@ Check for birthDate validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 502
 
 
 #### Arguments
@@ -778,6 +824,7 @@ Check for boolean validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 524
 
 
 #### Arguments
@@ -795,6 +842,7 @@ Check for phone number validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 535
 
 
 #### Arguments
@@ -812,6 +860,7 @@ Check for barcode validity (EAN-13)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 546
 
 
 #### Arguments
@@ -829,6 +878,7 @@ Check for barcode validity (UPC)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 557
 
 
 #### Arguments
@@ -846,6 +896,7 @@ Check for postal code validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 568
 
 
 #### Arguments
@@ -863,6 +914,7 @@ Check for zip code format validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 579
 
 
 #### Arguments
@@ -881,6 +933,7 @@ Mostly used in database for ordering : ASC / DESC
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 594
 
 
 #### Arguments
@@ -899,6 +952,7 @@ Mostly used in database for ordering : ORDER BY field
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 606
 
 
 #### Arguments
@@ -917,6 +971,7 @@ Mostly used in database for table names and id_table
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 618
 
 
 #### Arguments
@@ -934,6 +989,7 @@ Mostly used in database for table names and id_table
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 626
 
 
 
@@ -948,6 +1004,7 @@ Check for tags list validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 640
 
 
 #### Arguments
@@ -965,6 +1022,7 @@ Check for product visibility
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 651
 
 
 #### Arguments
@@ -982,6 +1040,7 @@ Check for an integer validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 662
 
 
 #### Arguments
@@ -999,6 +1058,7 @@ Check for an integer validity (unsigned)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 673
 
 
 #### Arguments
@@ -1016,6 +1076,7 @@ Check for an percentage validity (between 0 and 100)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 684
 
 
 #### Arguments
@@ -1034,6 +1095,7 @@ Mostly used in database for auto-increment
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 696
 
 
 #### Arguments
@@ -1051,6 +1113,7 @@ Mostly used in database for auto-increment
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 701
 
 
 #### Arguments
@@ -1068,6 +1131,7 @@ Check object validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 712
 
 
 #### Arguments
@@ -1085,6 +1149,7 @@ Check object validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 723
 
 
 #### Arguments
@@ -1102,6 +1167,7 @@ Check url validity (disallowed empty string)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 734
 
 
 #### Arguments
@@ -1119,6 +1185,7 @@ Check tracking number validity (disallowed empty string)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 745
 
 
 #### Arguments
@@ -1136,6 +1203,7 @@ Check url validity (allowed empty string)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 756
 
 
 #### Arguments
@@ -1153,6 +1221,7 @@ Check if URL is absolute
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 767
 
 
 #### Arguments
@@ -1170,6 +1239,7 @@ Check if URL is absolute
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 775
 
 
 #### Arguments
@@ -1187,6 +1257,7 @@ Check if URL is absolute
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 780
 
 
 #### Arguments
@@ -1204,6 +1275,7 @@ Check if URL is absolute
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 785
 
 
 #### Arguments
@@ -1221,6 +1293,7 @@ Check for standard name file validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 797
 
 
 #### Arguments
@@ -1238,6 +1311,7 @@ Check for standard name directory validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 808
 
 
 #### Arguments
@@ -1255,6 +1329,7 @@ Check for admin panel tab name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 819
 
 
 #### Arguments
@@ -1272,6 +1347,7 @@ Check for admin panel tab name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 824
 
 
 #### Arguments
@@ -1289,6 +1365,7 @@ Check for admin panel tab name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 829
 
 
 #### Arguments
@@ -1306,6 +1383,7 @@ Check for admin panel tab name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 834
 
 
 #### Arguments
@@ -1323,6 +1401,7 @@ Check for admin panel tab name validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 839
 
 
 #### Arguments
@@ -1340,6 +1419,7 @@ Check if the value is a sort direction value (DESC/ASC)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 850
 
 
 #### Arguments
@@ -1357,6 +1437,7 @@ Customization fields' label validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 861
 
 
 #### Arguments
@@ -1374,6 +1455,7 @@ Price display method validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 872
 
 
 #### Arguments
@@ -1391,6 +1473,7 @@ Price display method validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 881
 
 
 #### Arguments
@@ -1408,6 +1491,7 @@ Check if $data is a PrestaShop cookie object
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 892
 
 
 #### Arguments
@@ -1425,6 +1509,7 @@ Price display method validity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 903
 
 
 #### Arguments
@@ -1442,6 +1527,7 @@ Check if the data is a reduction type (amout or percentage)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 914
 
 
 #### Arguments
@@ -1459,6 +1545,7 @@ Check for bool_id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 925
 
 
 #### Arguments
@@ -1476,6 +1563,7 @@ Check for bool_id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 933
 
 
 #### Arguments
@@ -1493,6 +1581,7 @@ Check the localization pack part selected
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 945
 
 
 #### Arguments
@@ -1510,6 +1599,7 @@ Check for PHP serialized data
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 956
 
 
 #### Arguments
@@ -1527,6 +1617,7 @@ Check for Latitude/Longitude
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 967
 
 
 #### Arguments
@@ -1544,6 +1635,7 @@ Check for Language Iso Code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 978
 
 
 #### Arguments
@@ -1561,6 +1653,7 @@ Check for Language File Name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 989
 
 
 #### Arguments
@@ -1578,6 +1671,7 @@ Check for Language File Name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 999
 
 
 #### Arguments
@@ -1595,6 +1689,7 @@ Check for Language File Name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 1016
 
 
 #### Arguments
@@ -1612,6 +1707,7 @@ Check for Language File Name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 1043
 
 
 #### Arguments
@@ -1629,6 +1725,7 @@ Validate SIRET Code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 1057
 
 
 #### Arguments
@@ -1646,6 +1743,7 @@ Validate APE Code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 1079
 
 
 #### Arguments
@@ -1663,6 +1761,7 @@ Validate APE Code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 1084
 
 
 #### Arguments
@@ -1680,6 +1779,7 @@ Validate APE Code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 1089
 
 
 #### Arguments
@@ -1697,6 +1797,7 @@ Validate APE Code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Validate.php line 1094
 
 
 #### Arguments

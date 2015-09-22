@@ -8,7 +8,8 @@ SceneCore
 
 * Class name: SceneCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Scene.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Scene.php line 30
 
 
 ### $active
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Scene.php line 33
 
 
 ### $zones
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Scene.php line 36
 
 
 ### $categories
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Scene.php line 39
 
 
 ### $products
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Scene.php line 42
 
 
 ### $definition
@@ -83,6 +89,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Scene.php line 47
 
 
 ### $feature_active
@@ -95,6 +102,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Scene.php line 59
 
 
 Methods
@@ -110,6 +118,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Scene.php line 61
 
 
 #### Arguments
@@ -129,6 +138,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Scene.php line 74
 
 
 #### Arguments
@@ -145,6 +155,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Scene.php line 91
 
 
 #### Arguments
@@ -162,6 +173,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Scene.php line 110
 
 
 
@@ -175,6 +187,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Scene.php line 121
 
 
 #### Arguments
@@ -191,6 +204,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Scene.php line 133
 
 
 #### Arguments
@@ -207,6 +221,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Scene.php line 145
 
 
 
@@ -220,6 +235,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Scene.php line 152
 
 
 
@@ -233,6 +249,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Scene.php line 163
 
 
 #### Arguments
@@ -249,6 +266,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Scene.php line 180
 
 
 
@@ -262,6 +280,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Scene.php line 187
 
 
 
@@ -276,6 +295,7 @@ Get all scenes of a category
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Scene.php line 203
 
 
 #### Arguments
@@ -284,7 +304,7 @@ Get all scenes of a category
 * $only_active **mixed**
 * $lite_result **mixed**
 * $hide_scene_position **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -297,13 +317,14 @@ Get all products of this scene
 
 
 * Visibility: **public**
+* This method is defined in classes\Scene.php line 245
 
 
 #### Arguments
 * $only_active **mixed**
 * $id_lang **mixed**
 * $lite_result **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -317,6 +338,7 @@ Get categories where scene is indexed
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Scene.php line 289
 
 
 #### Arguments
@@ -334,6 +356,7 @@ Hide scene prefix used for position
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Scene.php line 303
 
 
 #### Arguments
@@ -351,6 +374,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Scene.php line 313
 
 
 

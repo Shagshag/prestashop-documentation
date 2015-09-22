@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_PackItemsManager
 * Namespace: 
+* This class is defined in Adapter\Adapter_PackItemsManager.php line 27
 
 
 
@@ -42,10 +43,11 @@ Get the Products contained in the given Pack.
 
 
 * Visibility: **public**
+* This method is defined in Adapter\Adapter_PackItemsManager.php line 36
 
 
 #### Arguments
-* $pack **Pack**
+* $pack **[Pack](PackCore)**
 * $id_lang **integer** - &lt;p&gt;Optional&lt;/p&gt;
 
 
@@ -59,10 +61,11 @@ Get all Packs that contains the given item in the corresponding declination.
 
 
 * Visibility: **public**
+* This method is defined in Adapter\Adapter_PackItemsManager.php line 53
 
 
 #### Arguments
-* $item **Product**
+* $item **[Product](ProductCore)**
 * $item_attribute_id **integer**
 * $id_lang **integer** - &lt;p&gt;Optional&lt;/p&gt;
 
@@ -77,10 +80,11 @@ Is this product a pack?
 
 
 * Visibility: **public**
+* This method is defined in Adapter\Adapter_PackItemsManager.php line 68
 
 
 #### Arguments
-* $product **Product**
+* $product **[Product](ProductCore)**
 
 
 
@@ -95,10 +99,11 @@ else this method will match a product if at least one of all its combination is 
 
 
 * Visibility: **public**
+* This method is defined in Adapter\Adapter_PackItemsManager.php line 82
 
 
 #### Arguments
-* $product **Product**
+* $product **[Product](ProductCore)**
 * $id_product_attribute **integer** - &lt;p&gt;Optional combination of the product&lt;/p&gt;
 
 

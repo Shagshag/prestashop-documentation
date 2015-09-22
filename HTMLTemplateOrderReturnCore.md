@@ -8,7 +8,8 @@ HTMLTemplateOrderReturnCore
 
 * Class name: HTMLTemplateOrderReturnCore
 * Namespace: 
-* Parent class: HTMLTemplate
+* Parent class: [HTMLTemplate](HTMLTemplateCore)
+* This class is defined in classes\pdf\HTMLTemplateOrderReturn.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateOrderReturn.php line 32
 
 
 ### $order
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateOrderReturn.php line 33
 
 
 Methods
@@ -53,10 +56,11 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderReturn.php line 40
 
 
 #### Arguments
-* $order_return **OrderReturn**
+* $order_return **[OrderReturn](OrderReturnCore)**
 * $smarty **mixed**
 
 
@@ -70,6 +74,7 @@ Returns the template's HTML content
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderReturn.php line 59
 
 
 
@@ -83,6 +88,7 @@ Returns the template filename
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderReturn.php line 96
 
 
 
@@ -96,6 +102,7 @@ Returns the template filename when using bulk rendering
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderReturn.php line 106
 
 
 
@@ -109,6 +116,7 @@ Returns the template's HTML header
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateOrderReturn.php line 116
 
 
 

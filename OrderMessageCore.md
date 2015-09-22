@@ -8,7 +8,8 @@ OrderMessageCore
 
 * Class name: OrderMessageCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\order\OrderMessage.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderMessage.php line 30
 
 
 ### $message
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderMessage.php line 33
 
 
 ### $date_add
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderMessage.php line 36
 
 
 ### $definition
@@ -61,6 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\order\OrderMessage.php line 41
 
 
 ### $webserviceParameters
@@ -72,6 +77,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderMessage.php line 54
 
 
 Methods
@@ -88,6 +94,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderMessage.php line 61
 
 
 #### Arguments

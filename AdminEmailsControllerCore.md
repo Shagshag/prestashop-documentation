@@ -8,7 +8,8 @@ AdminEmailsControllerCore
 
 * Class name: AdminEmailsControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminEmailsController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminEmailsController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmailsController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmailsController.php line 227
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmailsController.php line 241
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmailsController.php line 252
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmailsController.php line 263
 
 
 #### Arguments
@@ -110,6 +117,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmailsController.php line 276
 
 
 
@@ -123,6 +131,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmailsController.php line 303
 
 
 
@@ -136,6 +145,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminEmailsController.php line 323
 
 
 

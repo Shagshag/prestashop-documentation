@@ -8,7 +8,8 @@ StockMvtReasonCore
 
 * Class name: StockMvtReasonCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\stock\StockMvtReason.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvtReason.php line 30
 
 
 ### $name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvtReason.php line 33
 
 
 ### $sign
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvtReason.php line 36
 
 
 ### $date_add
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvtReason.php line 39
 
 
 ### $date_upd
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvtReason.php line 42
 
 
 ### $deleted
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\StockMvtReason.php line 45
 
 
 ### $definition
@@ -94,6 +101,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\stock\StockMvtReason.php line 51
 
 
 ### $webserviceParameters
@@ -105,6 +113,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\stock\StockMvtReason.php line 67
 
 
 Methods
@@ -121,6 +130,7 @@ Gets Stock Mvt Reasons
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockMvtReason.php line 82
 
 
 #### Arguments
@@ -139,6 +149,7 @@ Same as StockMvtReason::getStockMvtReasons(), ignoring a specific lists of ids
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockMvtReason.php line 105
 
 
 #### Arguments
@@ -158,6 +169,7 @@ For a given id_stock_mvt_reason, tells if it exists
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockMvtReason.php line 132
 
 
 #### Arguments

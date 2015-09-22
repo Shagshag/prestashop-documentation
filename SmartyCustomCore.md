@@ -9,6 +9,7 @@ SmartyCustomCore
 * Class name: SmartyCustomCore
 * Namespace: 
 * Parent class: Smarty
+* This class is defined in classes\SmartyCustom.php line 27
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 29
 
 
 
@@ -42,6 +44,7 @@ Delete compiled template file (lazy delete if resource_name is not specified)
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 44
 
 
 #### Arguments
@@ -60,6 +63,7 @@ Mark all template files to be regenerated
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 62
 
 
 #### Arguments
@@ -77,6 +81,7 @@ Mark file to be regenerated for a specific template
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 79
 
 
 #### Arguments
@@ -97,6 +102,7 @@ Check the compile cache needs to be invalidated (multi front + local cache compa
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 87
 
 
 
@@ -110,6 +116,7 @@ Check the compile cache needs to be invalidated (multi front + local cache compa
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 107
 
 
 #### Arguments
@@ -132,6 +139,7 @@ Check the compile cache needs to be invalidated (multi front + local cache compa
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 116
 
 
 #### Arguments
@@ -152,6 +160,7 @@ Handle the lazy template cache invalidation
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 134
 
 
 #### Arguments
@@ -170,6 +179,7 @@ Store the cache file path
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 170
 
 
 #### Arguments
@@ -190,6 +200,7 @@ Entry in the lazy cache = no need to regenerate the template
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 196
 
 
 #### Arguments
@@ -208,6 +219,7 @@ Insert the current template in the lazy cache
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 248
 
 
 #### Arguments
@@ -226,6 +238,7 @@ Delete the current template from the lazy cache or the whole cache if no templat
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 275
 
 
 #### Arguments

@@ -8,7 +8,8 @@ TaxRulesGroupCore
 
 * Class name: TaxRulesGroupCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\tax\TaxRulesGroup.php line 28
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\TaxRulesGroup.php line 30
 
 
 ### $active
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\TaxRulesGroup.php line 33
 
 
 ### $deleted
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\TaxRulesGroup.php line 35
 
 
 ### $date_add
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\TaxRulesGroup.php line 38
 
 
 ### $date_upd
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\TaxRulesGroup.php line 41
 
 
 ### $definition
@@ -83,6 +89,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\tax\TaxRulesGroup.php line 46
 
 
 ### $webserviceParameters
@@ -94,6 +101,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\tax\TaxRulesGroup.php line 58
 
 
 ### $_taxes
@@ -106,6 +114,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\tax\TaxRulesGroup.php line 65
 
 
 Methods
@@ -121,6 +130,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxRulesGroup.php line 68
 
 
 #### Arguments
@@ -137,10 +147,11 @@ Save the object with the field deleted to true
 @return bool
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxRulesGroup.php line 87
 
 
 #### Arguments
-* $tax_rules_group **TaxRulesGroup**
+* $tax_rules_group **[TaxRulesGroup](TaxRulesGroupCore)**
 
 
 
@@ -153,6 +164,7 @@ Save the object with the field deleted to true
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxRulesGroup.php line 118
 
 
 #### Arguments
@@ -170,6 +182,7 @@ Save the object with the field deleted to true
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\TaxRulesGroup.php line 136
 
 
 #### Arguments
@@ -187,6 +200,7 @@ Save the object with the field deleted to true
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\TaxRulesGroup.php line 149
 
 
 
@@ -200,6 +214,7 @@ Save the object with the field deleted to true
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxRulesGroup.php line 155
 
 
 
@@ -214,6 +229,7 @@ Save the object with the field deleted to true
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\TaxRulesGroup.php line 163
 
 
 #### Arguments
@@ -231,6 +247,7 @@ Returns the tax rules group id corresponding to the name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\TaxRulesGroup.php line 189
 
 
 #### Arguments
@@ -247,6 +264,7 @@ Returns the tax rules group id corresponding to the name
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxRulesGroup.php line 198
 
 
 #### Arguments
@@ -265,6 +283,7 @@ Returns the tax rules group id corresponding to the name
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxRulesGroup.php line 210
 
 
 
@@ -279,6 +298,7 @@ Returns the tax rules group id corresponding to the name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\TaxRulesGroup.php line 222
 
 
 #### Arguments
@@ -299,6 +319,7 @@ Return taxes associated to this para
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\TaxRulesGroup.php line 237
 
 
 #### Arguments

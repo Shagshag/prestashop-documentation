@@ -8,7 +8,8 @@ SupplyOrderCore
 
 * Class name: SupplyOrderCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\stock\SupplyOrder.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 35
 
 
 ### $supplier_name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 40
 
 
 ### $id_lang
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 45
 
 
 ### $id_warehouse
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 50
 
 
 ### $id_supply_order_state
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 55
 
 
 ### $id_currency
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 60
 
 
 ### $id_ref_currency
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 65
 
 
 ### $reference
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 70
 
 
 ### $date_add
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 75
 
 
 ### $date_upd
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 80
 
 
 ### $date_delivery_expected
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 85
 
 
 ### $total_te
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 90
 
 
 ### $total_with_discount_te
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 95
 
 
 ### $total_ti
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 100
 
 
 ### $total_tax
@@ -181,6 +196,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 105
 
 
 ### $discount_rate
@@ -192,6 +208,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 110
 
 
 ### $discount_value_te
@@ -203,6 +220,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 115
 
 
 ### $is_template
@@ -214,6 +232,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrder.php line 120
 
 
 ### $definition
@@ -226,6 +245,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\stock\SupplyOrder.php line 125
 
 
 ### $webserviceParameters
@@ -237,6 +257,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\stock\SupplyOrder.php line 153
 
 
 Methods
@@ -252,6 +273,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 181
 
 
 #### Arguments
@@ -268,6 +290,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 197
 
 
 #### Arguments
@@ -286,6 +309,7 @@ Applies the global discount if necessary
 
 
 * Visibility: **protected**
+* This method is defined in classes\stock\SupplyOrder.php line 214
 
 
 
@@ -299,6 +323,7 @@ Retrieves the product entries for the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 255
 
 
 #### Arguments
@@ -315,6 +340,7 @@ Retrieves the details entries (i.e. products) collection for the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 290
 
 
 
@@ -328,6 +354,7 @@ Check if the order has entries
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 303
 
 
 
@@ -341,6 +368,7 @@ Check if the current state allows to edit the current order
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 318
 
 
 
@@ -354,6 +382,7 @@ Checks if the current state allows to generate a delivery note for this order
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 333
 
 
 
@@ -367,6 +396,7 @@ Checks if the current state allows to add products in stock
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 348
 
 
 
@@ -380,6 +410,7 @@ Historizes the order : its id, its state, and the employee responsible for the c
 
 
 * Visibility: **protected**
+* This method is defined in classes\stock\SupplyOrder.php line 361
 
 
 
@@ -393,6 +424,7 @@ Removes all products from the order
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 377
 
 
 
@@ -407,6 +439,7 @@ For a given $id_warehouse, tells if it has pending supply orders
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\SupplyOrder.php line 392
 
 
 #### Arguments
@@ -424,6 +457,7 @@ For a given $id_supplier, tells if it has pending supply orders
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\SupplyOrder.php line 415
 
 
 #### Arguments
@@ -441,6 +475,7 @@ For a given id or reference, tells if the supply order exists
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\SupplyOrder.php line 438
 
 
 #### Arguments
@@ -458,6 +493,7 @@ For a given reference, returns the corresponding supply order
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\SupplyOrder.php line 459
 
 
 #### Arguments
@@ -474,6 +510,7 @@ For a given reference, returns the corresponding supply order
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 482
 
 
 #### Arguments
@@ -492,6 +529,7 @@ Gets the reference of a given order
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\SupplyOrder.php line 507
 
 
 #### Arguments
@@ -508,6 +546,7 @@ Gets the reference of a given order
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 522
 
 
 
@@ -521,6 +560,7 @@ Gets the reference of a given order
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 531
 
 
 
@@ -534,6 +574,7 @@ Gets the reference of a given order
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 540
 
 
 
@@ -547,6 +588,7 @@ Webservice : gets the ids supply_order_detail associated to this order
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\SupplyOrder.php line 560
 
 
 

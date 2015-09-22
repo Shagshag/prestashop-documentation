@@ -8,7 +8,8 @@ AdminModulesPositionsControllerCore
 
 * Class name: AdminModulesPositionsControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminModulesPositionsController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminModulesPositionsController.php line 29
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 31
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 37
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 231
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 253
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 264
 
 
 
@@ -107,6 +114,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 336
 
 
 #### Arguments
@@ -123,6 +131,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 353
 
 
 
@@ -136,6 +145,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 443
 
 
 #### Arguments
@@ -153,6 +163,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 493
 
 
 
@@ -166,6 +177,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 514
 
 
 
@@ -179,6 +191,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 559
 
 
 
@@ -192,6 +205,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 588
 
 
 
@@ -205,6 +219,7 @@ Return a json array containing the possible hooks for a module.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminModulesPositionsController.php line 646
 
 
 

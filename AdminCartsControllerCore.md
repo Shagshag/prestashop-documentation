@@ -8,7 +8,8 @@ AdminCartsControllerCore
 
 * Class name: AdminCartsControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminCartsController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCartsController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 118
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 131
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 203
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 296
 
 
 
@@ -107,6 +114,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 353
 
 
 
@@ -120,6 +128,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 372
 
 
 
@@ -133,6 +142,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 433
 
 
 
@@ -146,6 +156,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 485
 
 
 
@@ -159,6 +170,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 506
 
 
 
@@ -172,6 +184,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 528
 
 
 
@@ -185,6 +198,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 540
 
 
 
@@ -198,6 +212,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 552
 
 
 
@@ -211,6 +226,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 572
 
 
 
@@ -224,6 +240,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 581
 
 
 
@@ -237,6 +254,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 611
 
 
 
@@ -250,6 +268,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 629
 
 
 
@@ -263,6 +282,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 636
 
 
 
@@ -276,6 +296,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCartsController.php line 656
 
 
 
@@ -289,6 +310,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCartsController.php line 692
 
 
 
@@ -302,6 +324,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 735
 
 
 
@@ -315,6 +338,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 769
 
 
 
@@ -328,6 +352,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 812
 
 
 
@@ -341,6 +366,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 818
 
 
 
@@ -354,6 +380,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 823
 
 
 
@@ -368,6 +395,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminCartsController.php line 848
 
 
 #### Arguments
@@ -385,6 +413,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminCartsController.php line 857
 
 
 #### Arguments
@@ -402,6 +431,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 862
 
 
 #### Arguments
@@ -420,6 +450,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCartsController.php line 874
 
 
 

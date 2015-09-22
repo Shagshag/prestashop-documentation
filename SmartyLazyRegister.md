@@ -8,6 +8,7 @@ Used to delay loading of external classes with smarty-&gt;register_plugin
 
 * Class name: SmartyLazyRegister
 * Namespace: 
+* This class is defined in config\smarty.config.inc.php line 225
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in config\smarty.config.inc.php line 227
 
 
 ### $instance
@@ -38,6 +40,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in config\smarty.config.inc.php line 228
 
 
 Methods
@@ -53,6 +56,7 @@ Register a function or method to be dynamically called later
 
 
 * Visibility: **public**
+* This method is defined in config\smarty.config.inc.php line 234
 
 
 #### Arguments
@@ -69,6 +73,7 @@ Dynamically call static function or method
 
 
 * Visibility: **public**
+* This method is defined in config\smarty.config.inc.php line 250
 
 
 #### Arguments
@@ -87,6 +92,7 @@ Dynamically call static function or method
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in config\smarty.config.inc.php line 272
 
 
 

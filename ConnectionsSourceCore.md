@@ -8,7 +8,8 @@ ConnectionsSourceCore
 
 * Class name: ConnectionsSourceCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\ConnectionsSource.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ConnectionsSource.php line 29
 
 
 ### $http_referer
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ConnectionsSource.php line 30
 
 
 ### $request_uri
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ConnectionsSource.php line 31
 
 
 ### $keywords
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ConnectionsSource.php line 32
 
 
 ### $date_add
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ConnectionsSource.php line 33
 
 
 ### $uri_max_size
@@ -83,6 +89,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\ConnectionsSource.php line 34
 
 
 ### $definition
@@ -95,6 +102,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\ConnectionsSource.php line 39
 
 
 Methods
@@ -110,6 +118,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\ConnectionsSource.php line 51
 
 
 #### Arguments
@@ -128,10 +137,11 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConnectionsSource.php line 59
 
 
 #### Arguments
-* $cookie **Cookie**
+* $cookie **[Cookie](CookieCore)**
 
 
 
@@ -145,6 +155,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ConnectionsSource.php line 108
 
 
 #### Arguments

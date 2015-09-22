@@ -8,7 +8,8 @@ OrderInvoiceCore
 
 * Class name: OrderInvoiceCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\order\OrderInvoice.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\order\OrderInvoice.php line 29
 
 
 ### TAX_INCL
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\order\OrderInvoice.php line 30
 
 
 ### DETAIL
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\order\OrderInvoice.php line 31
 
 
 Properties
@@ -53,6 +57,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 34
 
 
 ### $number
@@ -64,6 +69,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 37
 
 
 ### $delivery_number
@@ -75,6 +81,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 40
 
 
 ### $delivery_date
@@ -86,6 +93,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 43
 
 
 ### $total_discount_tax_excl
@@ -97,6 +105,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 46
 
 
 ### $total_discount_tax_incl
@@ -108,6 +117,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 49
 
 
 ### $total_paid_tax_excl
@@ -119,6 +129,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 52
 
 
 ### $total_paid_tax_incl
@@ -130,6 +141,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 55
 
 
 ### $total_products
@@ -141,6 +153,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 58
 
 
 ### $total_products_wt
@@ -152,6 +165,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 61
 
 
 ### $total_shipping_tax_excl
@@ -163,6 +177,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 64
 
 
 ### $total_shipping_tax_incl
@@ -174,6 +189,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 67
 
 
 ### $shipping_tax_computation_method
@@ -185,6 +201,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 70
 
 
 ### $total_wrapping_tax_excl
@@ -196,6 +213,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 73
 
 
 ### $total_wrapping_tax_incl
@@ -207,6 +225,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 76
 
 
 ### $shop_address
@@ -218,6 +237,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 79
 
 
 ### $invoice_address
@@ -229,6 +249,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 82
 
 
 ### $delivery_address
@@ -240,6 +261,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 85
 
 
 ### $note
@@ -251,6 +273,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 88
 
 
 ### $date_add
@@ -262,6 +285,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderInvoice.php line 91
 
 
 ### $_total_paid_cache
@@ -274,6 +298,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\order\OrderInvoice.php line 94
 
 
 ### $order
@@ -285,6 +310,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\order\OrderInvoice.php line 97
 
 
 ### $definition
@@ -297,6 +323,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\order\OrderInvoice.php line 102
 
 
 Methods
@@ -312,6 +339,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 129
 
 
 #### Arguments
@@ -329,6 +357,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 146
 
 
 
@@ -343,6 +372,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderInvoice.php line 158
 
 
 #### Arguments
@@ -359,6 +389,7 @@ Get order products
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 186
 
 
 #### Arguments
@@ -377,6 +408,7 @@ Get order products
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\OrderInvoice.php line 267
 
 
 #### Arguments
@@ -394,6 +426,7 @@ This method allow to add stock information on a product detail
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\OrderInvoice.php line 282
 
 
 #### Arguments
@@ -410,6 +443,7 @@ This method allow to add image information on a product detail
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\OrderInvoice.php line 298
 
 
 #### Arguments
@@ -427,6 +461,7 @@ One After Another tax computation method.
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 331
 
 
 
@@ -440,6 +475,7 @@ One After Another tax computation method.
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 344
 
 
 
@@ -453,6 +489,7 @@ One After Another tax computation method.
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 349
 
 
 
@@ -466,6 +503,7 @@ One After Another tax computation method.
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 358
 
 
 #### Arguments
@@ -482,10 +520,11 @@ Returns the shipping taxes breakdown
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 425
 
 
 #### Arguments
-* $order **Order**
+* $order **[Order](OrderCore)**
 
 
 
@@ -498,6 +537,7 @@ Returns the wrapping taxes breakdown
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 494
 
 
 
@@ -511,6 +551,7 @@ Returns the ecotax taxes breakdown
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 557
 
 
 
@@ -525,6 +566,7 @@ Returns all the order invoice that match the date interval
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderInvoice.php line 585
 
 
 #### Arguments
@@ -543,6 +585,7 @@ Returns all the order invoice that match the date interval
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderInvoice.php line 606
 
 
 #### Arguments
@@ -560,6 +603,7 @@ Returns all the order invoice that match the date interval
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderInvoice.php line 627
 
 
 #### Arguments
@@ -578,6 +622,7 @@ Returns all the order invoice that match the date interval
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderInvoice.php line 646
 
 
 #### Arguments
@@ -595,6 +640,7 @@ Returns all the order invoice that match the date interval
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderInvoice.php line 660
 
 
 #### Arguments
@@ -612,6 +658,7 @@ Returns all the order invoice that match the date interval
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderInvoice.php line 674
 
 
 #### Arguments
@@ -628,6 +675,7 @@ Amounts of payments
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 688
 
 
 
@@ -641,6 +689,7 @@ Rest Paid
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 709
 
 
 
@@ -654,6 +703,7 @@ Return collection of order invoice object linked to the payments of the current 
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 720
 
 
 
@@ -667,6 +717,7 @@ Return total to paid of sibling invoices
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 753
 
 
 #### Arguments
@@ -685,6 +736,7 @@ Get global rest to paid
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 782
 
 
 
@@ -698,6 +750,7 @@ Get global rest to paid
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 812
 
 
 
@@ -711,6 +764,7 @@ Get global rest to paid
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 821
 
 
 
@@ -724,6 +778,7 @@ Get the formatted number of invoice
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 832
 
 
 #### Arguments
@@ -741,6 +796,7 @@ Get the formatted number of invoice
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 848
 
 
 #### Arguments
@@ -757,6 +813,7 @@ Get the formatted number of invoice
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderInvoice.php line 861
 
 
 #### Arguments
@@ -774,6 +831,7 @@ Get the formatted number of invoice
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderInvoice.php line 874
 
 
 #### Arguments
@@ -793,6 +851,7 @@ This method is triggered once during a (non bulk) creation of a PDF from an Orde
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderInvoice.php line 895
 
 
 

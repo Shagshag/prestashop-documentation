@@ -8,7 +8,8 @@ HelperUploaderCore
 
 * Class name: HelperUploaderCore
 * Namespace: 
-* Parent class: Uploader
+* Parent class: [Uploader](UploaderCore)
+* This class is defined in classes\helper\HelperUploader.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\helper\HelperUploader.php line 29
 
 
 ### DEFAULT_TEMPLATE
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\helper\HelperUploader.php line 30
 
 
 ### DEFAULT_AJAX_TEMPLATE
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\helper\HelperUploader.php line 31
 
 
 ### TYPE_IMAGE
@@ -46,6 +50,7 @@ Constants
 
 
 
+* This constant is defined in classes\helper\HelperUploader.php line 33
 
 
 ### TYPE_FILE
@@ -54,6 +59,7 @@ Constants
 
 
 
+* This constant is defined in classes\helper\HelperUploader.php line 34
 
 
 Properties
@@ -69,6 +75,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperUploader.php line 36
 
 
 ### $_drop_zone
@@ -80,6 +87,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperUploader.php line 37
 
 
 ### $_id
@@ -91,6 +99,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperUploader.php line 38
 
 
 ### $_files
@@ -102,6 +111,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperUploader.php line 39
 
 
 ### $_name
@@ -113,6 +123,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperUploader.php line 40
 
 
 ### $_max_files
@@ -124,6 +135,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperUploader.php line 41
 
 
 ### $_multiple
@@ -135,6 +147,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperUploader.php line 42
 
 
 ### $_post_max_size
@@ -146,6 +159,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperUploader.php line 43
 
 
 ### $_template
@@ -157,6 +171,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\HelperUploader.php line 44
 
 
 ### $_template_directory
@@ -168,6 +183,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperUploader.php line 45
 
 
 ### $_title
@@ -179,6 +195,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperUploader.php line 46
 
 
 ### $_url
@@ -190,6 +207,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperUploader.php line 47
 
 
 ### $_use_ajax
@@ -201,6 +219,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\helper\HelperUploader.php line 48
 
 
 Methods
@@ -216,6 +235,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 50
 
 
 #### Arguments
@@ -232,6 +252,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 56
 
 
 
@@ -245,6 +266,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 65
 
 
 #### Arguments
@@ -261,6 +283,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 71
 
 
 
@@ -274,6 +297,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 80
 
 
 #### Arguments
@@ -290,6 +314,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 86
 
 
 
@@ -303,6 +328,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 95
 
 
 #### Arguments
@@ -319,6 +345,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 101
 
 
 
@@ -332,6 +359,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 110
 
 
 #### Arguments
@@ -348,6 +376,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 116
 
 
 
@@ -361,6 +390,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 121
 
 
 #### Arguments
@@ -377,6 +407,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 127
 
 
 #### Arguments
@@ -393,6 +424,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 133
 
 
 
@@ -406,6 +438,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 138
 
 
 #### Arguments
@@ -422,6 +455,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 145
 
 
 
@@ -435,6 +469,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 154
 
 
 #### Arguments
@@ -451,6 +486,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 160
 
 
 
@@ -464,6 +500,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 169
 
 
 #### Arguments
@@ -480,6 +517,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 175
 
 
 
@@ -493,6 +531,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 184
 
 
 #### Arguments
@@ -509,6 +548,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 212
 
 
 #### Arguments
@@ -525,6 +565,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 218
 
 
 
@@ -538,6 +579,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 223
 
 
 #### Arguments
@@ -554,6 +596,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 229
 
 
 
@@ -567,6 +610,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 234
 
 
 #### Arguments
@@ -583,6 +627,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 240
 
 
 
@@ -596,6 +641,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 245
 
 
 
@@ -609,6 +655,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperUploader.php line 291
 
 
 

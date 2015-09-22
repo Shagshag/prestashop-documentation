@@ -9,7 +9,8 @@ CarrierModuleCore
 * Class name: CarrierModuleCore
 * Namespace: 
 * This is an **abstract** class
-* Parent class: Module
+* Parent class: [Module](ModuleCore)
+* This class is defined in classes\module\CarrierModule.php line 27
 
 
 
@@ -31,6 +32,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\module\CarrierModule.php line 29
 
 
 #### Arguments
@@ -49,6 +51,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\module\CarrierModule.php line 30
 
 
 #### Arguments

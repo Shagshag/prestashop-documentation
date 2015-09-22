@@ -8,7 +8,8 @@ TranslatedConfigurationCore
 
 * Class name: TranslatedConfigurationCore
 * Namespace: 
-* Parent class: Configuration
+* Parent class: [Configuration](ConfigurationCore)
+* This class is defined in classes\TranslatedConfiguration.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\TranslatedConfiguration.php line 29
 
 
 ### $definition
@@ -39,6 +41,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\TranslatedConfiguration.php line 39
 
 
 Methods
@@ -54,6 +57,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\TranslatedConfiguration.php line 53
 
 
 #### Arguments
@@ -71,6 +75,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\TranslatedConfiguration.php line 71
 
 
 #### Arguments
@@ -88,6 +93,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\TranslatedConfiguration.php line 76
 
 
 #### Arguments
@@ -104,6 +110,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\TranslatedConfiguration.php line 98
 
 
 #### Arguments

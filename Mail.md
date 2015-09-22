@@ -11,7 +11,8 @@ needs please refer to http://doc.prestashop.com/display/PS15/Overriding+default+
 
 * Class name: Mail
 * Namespace: 
-* Parent class: [MailCore](MailCore.md)
+* Parent class: [MailCore](MailCore)
+* This class is defined in override\classes\Mail.php line 14
 
 
 
@@ -25,6 +26,7 @@ Constants
 
 
 
+* This constant is defined in override\classes\Mail.php line 66
 
 
 ### TYPE_TEXT
@@ -33,6 +35,7 @@ Constants
 
 
 
+* This constant is defined in override\classes\Mail.php line 67
 
 
 ### TYPE_BOTH
@@ -41,6 +44,7 @@ Constants
 
 
 
+* This constant is defined in override\classes\Mail.php line 68
 
 
 Properties
@@ -56,6 +60,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in override\classes\Mail.php line 34
 
 
 ### $recipient
@@ -67,6 +72,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in override\classes\Mail.php line 37
 
 
 ### $template
@@ -78,6 +84,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in override\classes\Mail.php line 40
 
 
 ### $subject
@@ -89,6 +96,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in override\classes\Mail.php line 43
 
 
 ### $id_lang
@@ -100,6 +108,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in override\classes\Mail.php line 46
 
 
 ### $date_add
@@ -111,6 +120,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in override\classes\Mail.php line 49
 
 
 ### $definition
@@ -123,6 +133,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in override\classes\Mail.php line 54
 
 
 Methods
@@ -139,6 +150,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in override\classes\Mail.php line 39
 
 
 #### Arguments
@@ -170,7 +182,8 @@ Send Email
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined by [MailCore](MailCore.md)
+* This method is defined by [MailCore](MailCore)
+* This method is defined in override\classes\Mail.php line 87
 
 
 #### Arguments
@@ -202,7 +215,8 @@ Send Email
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined by [MailCore](MailCore.md)
+* This method is defined by [MailCore](MailCore)
+* This method is defined in override\classes\Mail.php line 402
 
 
 #### Arguments
@@ -220,7 +234,8 @@ Send Email
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined by [MailCore](MailCore.md)
+* This method is defined by [MailCore](MailCore)
+* This method is defined in override\classes\Mail.php line 407
 
 
 
@@ -235,7 +250,8 @@ Send Email
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined by [MailCore](MailCore.md)
+* This method is defined by [MailCore](MailCore)
+* This method is defined in override\classes\Mail.php line 412
 
 
 #### Arguments
@@ -264,13 +280,14 @@ we have to return a sentence with accents.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined by [MailCore](MailCore.md)
+* This method is defined by [MailCore](MailCore)
+* This method is defined in override\classes\Mail.php line 450
 
 
 #### Arguments
 * $string **string** - &lt;p&gt;raw sentence (write directly in file)&lt;/p&gt;
 * $id_lang **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -284,7 +301,8 @@ we have to return a sentence with accents.
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined by [MailCore](MailCore.md)
+* This method is defined by [MailCore](MailCore)
+* This method is defined in override\classes\Mail.php line 481
 
 
 #### Arguments
@@ -302,7 +320,8 @@ we have to return a sentence with accents.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined by [MailCore](MailCore.md)
+* This method is defined by [MailCore](MailCore)
+* This method is defined in override\classes\Mail.php line 492
 
 
 #### Arguments
@@ -320,7 +339,8 @@ we have to return a sentence with accents.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined by [MailCore](MailCore.md)
+* This method is defined by [MailCore](MailCore)
+* This method is defined in override\classes\Mail.php line 503
 
 
 #### Arguments

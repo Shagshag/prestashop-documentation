@@ -8,7 +8,8 @@ OrderPaymentCore
 
 * Class name: OrderPaymentCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\order\OrderPayment.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderPayment.php line 29
 
 
 ### $id_currency
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderPayment.php line 30
 
 
 ### $amount
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderPayment.php line 31
 
 
 ### $payment_method
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderPayment.php line 32
 
 
 ### $conversion_rate
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderPayment.php line 33
 
 
 ### $transaction_id
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderPayment.php line 34
 
 
 ### $card_number
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderPayment.php line 35
 
 
 ### $card_brand
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderPayment.php line 36
 
 
 ### $card_expiration
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderPayment.php line 37
 
 
 ### $card_holder
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderPayment.php line 38
 
 
 ### $date_add
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderPayment.php line 39
 
 
 ### $definition
@@ -149,6 +161,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\order\OrderPayment.php line 44
 
 
 Methods
@@ -164,6 +177,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderPayment.php line 62
 
 
 #### Arguments
@@ -182,6 +196,7 @@ Get the detailed payment of an order
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderPayment.php line 78
 
 
 #### Arguments
@@ -199,6 +214,7 @@ Get the detailed payment of an order
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderPayment.php line 91
 
 
 #### Arguments
@@ -216,6 +232,7 @@ Get Order Payments By Invoice ID
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderPayment.php line 107
 
 
 #### Arguments
@@ -232,6 +249,7 @@ Return order invoice object linked to the payment
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderPayment.php line 131
 
 
 #### Arguments

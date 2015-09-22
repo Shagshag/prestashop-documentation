@@ -8,7 +8,8 @@ RequestSqlCore
 
 * Class name: RequestSqlCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\RequestSql.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\RequestSql.php line 29
 
 
 ### $sql
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\RequestSql.php line 30
 
 
 ### $definition
@@ -50,6 +53,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\RequestSql.php line 35
 
 
 ### $tested
@@ -61,6 +65,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\RequestSql.php line 45
 
 
 ### $attributes
@@ -72,6 +77,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\RequestSql.php line 68
 
 
 ### $error_sql
@@ -83,6 +89,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\RequestSql.php line 74
 
 
 Methods
@@ -99,6 +106,7 @@ Get list of request SQL
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\RequestSql.php line 81
 
 
 
@@ -113,6 +121,7 @@ Get list of request SQL by id request
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\RequestSql.php line 101
 
 
 #### Arguments
@@ -130,6 +139,7 @@ Cut the request in table for check it
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 113
 
 
 #### Arguments
@@ -146,6 +156,7 @@ Check if the parsing of the SQL request is good or not
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 126
 
 
 #### Arguments
@@ -164,6 +175,7 @@ Cut the request for check each cutting
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 151
 
 
 #### Arguments
@@ -182,6 +194,7 @@ Get list of all tables
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 194
 
 
 
@@ -195,6 +208,7 @@ Get list of all attributes by an table
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 210
 
 
 #### Arguments
@@ -211,6 +225,7 @@ Cut an join sentence
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 222
 
 
 #### Arguments
@@ -228,6 +243,7 @@ Cut an attribute with or without the alias
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 245
 
 
 #### Arguments
@@ -245,6 +261,7 @@ Get name of table by alias
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 278
 
 
 #### Arguments
@@ -263,6 +280,7 @@ Check if an attributes existe in an table
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 317
 
 
 #### Arguments
@@ -280,6 +298,7 @@ Check if all required sentence existing
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 340
 
 
 #### Arguments
@@ -296,6 +315,7 @@ Check if an unauthorized existing in an array
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 357
 
 
 #### Arguments
@@ -312,6 +332,7 @@ Check a "FROM" sentence
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 374
 
 
 #### Arguments
@@ -328,6 +349,7 @@ Check a "SELECT" sentence
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 414
 
 
 #### Arguments
@@ -346,6 +368,7 @@ Check a "WHERE" sentence
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 452
 
 
 #### Arguments
@@ -364,6 +387,7 @@ Check a "HAVING" sentence
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 492
 
 
 #### Arguments
@@ -381,6 +405,7 @@ Check a "ORDER" sentence
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 531
 
 
 #### Arguments
@@ -398,6 +423,7 @@ Check a "GROUP BY" sentence
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 560
 
 
 #### Arguments
@@ -415,6 +441,7 @@ Check a "LIMIT" sentence
 
 
 * Visibility: **public**
+* This method is defined in classes\RequestSql.php line 588
 
 
 #### Arguments

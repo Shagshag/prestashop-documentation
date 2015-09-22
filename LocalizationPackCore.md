@@ -8,6 +8,7 @@ LocalizationPackCore
 
 * Class name: LocalizationPackCore
 * Namespace: 
+* This class is defined in classes\LocalizationPack.php line 27
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\LocalizationPack.php line 29
 
 
 ### $version
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\LocalizationPack.php line 30
 
 
 ### $iso_code_lang
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\LocalizationPack.php line 32
 
 
 ### $iso_currency
@@ -59,6 +63,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\LocalizationPack.php line 33
 
 
 ### $_errors
@@ -70,6 +75,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\LocalizationPack.php line 34
 
 
 Methods
@@ -85,6 +91,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\LocalizationPack.php line 36
 
 
 #### Arguments
@@ -104,6 +111,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\LocalizationPack.php line 109
 
 
 #### Arguments
@@ -120,6 +128,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\LocalizationPack.php line 175
 
 
 #### Arguments
@@ -136,6 +145,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\LocalizationPack.php line 280
 
 
 #### Arguments
@@ -153,6 +163,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\LocalizationPack.php line 330
 
 
 #### Arguments
@@ -170,6 +181,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\LocalizationPack.php line 361
 
 
 #### Arguments
@@ -188,6 +200,7 @@ Install/Uninstall a module from a localization file
 
 
 * Visibility: **protected**
+* This method is defined in classes\LocalizationPack.php line 389
 
 
 #### Arguments
@@ -206,6 +219,7 @@ Update a configuration variable from a localization file
 
 
 * Visibility: **protected**
+* This method is defined in classes\LocalizationPack.php line 429
 
 
 #### Arguments
@@ -222,6 +236,7 @@ Update a configuration variable from a localization file
 
 
 * Visibility: **protected**
+* This method is defined in classes\LocalizationPack.php line 452
 
 
 #### Arguments
@@ -238,6 +253,7 @@ Update a configuration variable from a localization file
 
 
 * Visibility: **protected**
+* This method is defined in classes\LocalizationPack.php line 461
 
 
 #### Arguments
@@ -254,6 +270,7 @@ Update a configuration variable from a localization file
 
 
 * Visibility: **public**
+* This method is defined in classes\LocalizationPack.php line 483
 
 
 

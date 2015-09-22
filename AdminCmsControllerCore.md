@@ -8,7 +8,8 @@ AdminCmsControllerCore
 
 * Class name: AdminCmsControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminCmsController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCmsController.php line 32
 
 
 ### $id_cms_category
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCmsController.php line 34
 
 
 ### $position_identifier
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCmsController.php line 36
 
 
 ### $object
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCmsController.php line 30
 
 
 Methods
@@ -75,6 +80,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsController.php line 38
 
 
 
@@ -88,6 +94,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsController.php line 83
 
 
 
@@ -101,6 +108,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsController.php line 98
 
 
 
@@ -114,6 +122,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsController.php line 250
 
 
 
@@ -127,6 +136,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsController.php line 265
 
 
 #### Arguments
@@ -143,6 +153,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsController.php line 280
 
 
 
@@ -156,9 +167,10 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCmsController.php line 400
 
 
 #### Arguments
-* $cms **CMS**
+* $cms **[CMS](CMSCore)**
 
 

@@ -8,6 +8,7 @@ PrestaShopAutoload
 
 * Class name: PrestaShopAutoload
 * Namespace: 
+* This class is defined in classes\PrestaShopAutoload.php line 30
 
 
 
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\PrestaShopAutoload.php line 35
 
 
 Properties
@@ -37,6 +39,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\PrestaShopAutoload.php line 40
 
 
 ### $root_dir
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\PrestaShopAutoload.php line 45
 
 
 ### $index
@@ -59,6 +63,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\PrestaShopAutoload.php line 50
 
 
 ### $_include_override_path
@@ -70,6 +75,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\PrestaShopAutoload.php line 52
 
 
 ### $class_aliases
@@ -82,6 +88,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\PrestaShopAutoload.php line 54
 
 
 Methods
@@ -97,6 +104,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\PrestaShopAutoload.php line 61
 
 
 
@@ -111,6 +119,7 @@ Get instance of autoload (singleton)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\PrestaShopAutoload.php line 77
 
 
 
@@ -124,6 +133,7 @@ Retrieve informations about a class in classes index and load it
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopAutoload.php line 91
 
 
 #### Arguments
@@ -140,6 +150,7 @@ Generate classes index
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopAutoload.php line 136
 
 
 
@@ -153,6 +164,7 @@ Retrieve recursively all classes in a directory and its subdirectories
 
 
 * Visibility: **protected**
+* This method is defined in classes\PrestaShopAutoload.php line 179
 
 
 #### Arguments
@@ -170,6 +182,7 @@ Retrieve recursively all classes in a directory and its subdirectories
 
 
 * Visibility: **public**
+* This method is defined in classes\PrestaShopAutoload.php line 217
 
 
 #### Arguments
@@ -186,6 +199,7 @@ Retrieve recursively all classes in a directory and its subdirectories
 
 
 * Visibility: **private**
+* This method is defined in classes\PrestaShopAutoload.php line 222
 
 
 #### Arguments

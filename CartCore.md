@@ -8,7 +8,8 @@ CartCore
 
 * Class name: CartCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Cart.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\Cart.php line 147
 
 
 ### ONLY_DISCOUNTS
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\Cart.php line 148
 
 
 ### BOTH
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\Cart.php line 149
 
 
 ### BOTH_WITHOUT_SHIPPING
@@ -46,6 +50,7 @@ Constants
 
 
 
+* This constant is defined in classes\Cart.php line 150
 
 
 ### ONLY_SHIPPING
@@ -54,6 +59,7 @@ Constants
 
 
 
+* This constant is defined in classes\Cart.php line 151
 
 
 ### ONLY_WRAPPING
@@ -62,6 +68,7 @@ Constants
 
 
 
+* This constant is defined in classes\Cart.php line 152
 
 
 ### ONLY_PRODUCTS_WITHOUT_SHIPPING
@@ -70,6 +77,7 @@ Constants
 
 
 
+* This constant is defined in classes\Cart.php line 153
 
 
 ### ONLY_PHYSICAL_PRODUCTS_WITHOUT_SHIPPING
@@ -78,6 +86,7 @@ Constants
 
 
 
+* This constant is defined in classes\Cart.php line 154
 
 
 Properties
@@ -93,6 +102,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 29
 
 
 ### $id_shop_group
@@ -104,6 +114,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 31
 
 
 ### $id_shop
@@ -115,6 +126,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 33
 
 
 ### $id_address_delivery
@@ -126,6 +138,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 36
 
 
 ### $id_address_invoice
@@ -137,6 +150,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 39
 
 
 ### $id_currency
@@ -148,6 +162,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 42
 
 
 ### $id_customer
@@ -159,6 +174,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 45
 
 
 ### $id_guest
@@ -170,6 +186,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 48
 
 
 ### $id_lang
@@ -181,6 +198,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 51
 
 
 ### $recyclable
@@ -192,6 +210,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 54
 
 
 ### $gift
@@ -203,6 +222,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 57
 
 
 ### $gift_message
@@ -214,6 +234,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 60
 
 
 ### $mobile_theme
@@ -225,6 +246,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 63
 
 
 ### $date_add
@@ -236,6 +258,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 66
 
 
 ### $secure_key
@@ -247,6 +270,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 69
 
 
 ### $id_carrier
@@ -258,6 +282,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 72
 
 
 ### $date_upd
@@ -269,6 +294,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 75
 
 
 ### $checkedTos
@@ -280,6 +306,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 77
 
 
 ### $pictures
@@ -291,6 +318,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 78
 
 
 ### $textFields
@@ -302,6 +330,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 79
 
 
 ### $delivery_option
@@ -313,6 +342,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 81
 
 
 ### $allow_seperated_package
@@ -324,6 +354,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Cart.php line 84
 
 
 ### $_nbProducts
@@ -336,6 +367,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Cart.php line 86
 
 
 ### $_isVirtualCart
@@ -348,6 +380,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Cart.php line 87
 
 
 ### $_products
@@ -359,6 +392,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Cart.php line 89
 
 
 ### $_totalWeight
@@ -371,6 +405,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Cart.php line 90
 
 
 ### $_taxCalculationMethod
@@ -382,6 +417,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Cart.php line 91
 
 
 ### $_carriers
@@ -394,6 +430,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Cart.php line 92
 
 
 ### $_taxes_rate
@@ -406,6 +443,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Cart.php line 93
 
 
 ### $_attributesLists
@@ -418,6 +456,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Cart.php line 94
 
 
 ### $_customer
@@ -430,6 +469,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Cart.php line 97
 
 
 ### $definition
@@ -442,6 +482,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Cart.php line 102
 
 
 ### $webserviceParameters
@@ -453,6 +494,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Cart.php line 127
 
 
 Methods
@@ -468,6 +510,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 156
 
 
 #### Arguments
@@ -485,6 +528,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 182
 
 
 
@@ -498,6 +542,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 187
 
 
 #### Arguments
@@ -515,6 +560,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 202
 
 
 #### Arguments
@@ -531,6 +577,7 @@ Update the address id of the cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 225
 
 
 #### Arguments
@@ -548,6 +595,7 @@ Update the address id of the cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 253
 
 
 
@@ -562,6 +610,7 @@ Update the address id of the cart
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 293
 
 
 #### Arguments
@@ -578,6 +627,7 @@ The arguments are optional and only serve as return values in case caller needs 
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 341
 
 
 #### Arguments
@@ -595,6 +645,7 @@ The arguments are optional and only serve as return values in case caller needs 
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 358
 
 
 #### Arguments
@@ -612,6 +663,7 @@ The arguments are optional and only serve as return values in case caller needs 
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 364
 
 
 #### Arguments
@@ -628,6 +680,7 @@ Return the cart rules Ids on the cart.
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 414
 
 
 #### Arguments
@@ -644,6 +697,7 @@ Return the cart rules Ids on the cart.
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 440
 
 
 #### Arguments
@@ -660,6 +714,7 @@ Return the cart rules Ids on the cart.
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 457
 
 
 
@@ -673,6 +728,7 @@ Return cart products
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 486
 
 
 #### Arguments
@@ -692,6 +748,7 @@ Return cart products
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 747
 
 
 #### Arguments
@@ -709,6 +766,7 @@ Return cart products quantity
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 806
 
 
 
@@ -723,6 +781,7 @@ Return cart products quantity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 815
 
 
 #### Arguments
@@ -739,6 +798,7 @@ Return cart products quantity
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 834
 
 
 #### Arguments
@@ -755,6 +815,7 @@ Return cart products quantity
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 840
 
 
 #### Arguments
@@ -771,6 +832,7 @@ Return cart products quantity
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 878
 
 
 #### Arguments
@@ -790,6 +852,7 @@ Update product quantity
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 913
 
 
 #### Arguments
@@ -799,7 +862,7 @@ Update product quantity
 * $id_customization **mixed**
 * $operator **string** - &lt;p&gt;Indicate if quantity must be increased or decreased&lt;/p&gt;
 * $id_address_delivery **mixed**
-* $shop **Shop**
+* $shop **[Shop](ShopCore)**
 * $auto_add_cart_rule **mixed**
 
 
@@ -813,6 +876,7 @@ Update product quantity
 
 
 * Visibility: **protected**
+* This method is defined in classes\Cart.php line 1089
 
 
 #### Arguments
@@ -834,6 +898,7 @@ Add customization item to database
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 1152
 
 
 #### Arguments
@@ -855,6 +920,7 @@ Check if order has already been placed
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 1202
 
 
 
@@ -868,6 +934,7 @@ Check if order has already been placed
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 1216
 
 
 #### Arguments
@@ -884,6 +951,7 @@ Check if order has already been placed
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 1222
 
 
 #### Arguments
@@ -900,6 +968,7 @@ Delete a product from the cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 1252
 
 
 #### Arguments
@@ -920,6 +989,7 @@ then the image is also deleted
 
 
 * Visibility: **protected**
+* This method is defined in classes\Cart.php line 1338
 
 
 #### Arguments
@@ -940,6 +1010,7 @@ then the image is also deleted
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 1384
 
 
 #### Arguments
@@ -959,6 +1030,7 @@ then the image is also deleted
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 1396
 
 
 #### Arguments
@@ -983,6 +1055,7 @@ Cart::ONLY_PRODUCTS_WITHOUT_SHIPPING
 Cart::ONLY_PHYSICAL_PRODUCTS_WITHOUT_SHIPPING
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 1419
 
 
 #### Arguments
@@ -1003,6 +1076,7 @@ Get the gift wrapping price
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 1695
 
 
 #### Arguments
@@ -1020,6 +1094,7 @@ Get the number of packages
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 1743
 
 
 
@@ -1033,6 +1108,7 @@ Get products grouped by package and by addresses to be sent individualy (one pac
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 1771
 
 
 #### Arguments
@@ -1049,6 +1125,7 @@ Get products grouped by package and by addresses to be sent individualy (one pac
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2010
 
 
 #### Arguments
@@ -1066,10 +1143,11 @@ Get all deliveries options available for the current cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2063
 
 
 #### Arguments
-* $default_country **Country**
+* $default_country **[Country](CountryCore)**
 * $flush **boolean** - &lt;p&gt;Force flushing cache&lt;/p&gt;
 
 
@@ -1084,6 +1162,7 @@ Sort list of option delivery by parameters define in the BO
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 2338
 
 
 #### Arguments
@@ -1101,6 +1180,7 @@ Sort list of option delivery by parameters define in the BO
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2365
 
 
 #### Arguments
@@ -1120,10 +1200,11 @@ New theme need to use Cart::getDeliveryOptionList() to generate carriers option 
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2396
 
 
 #### Arguments
-* $default_country **Country**
+* $default_country **[Country](CountryCore)**
 * $flush **boolean** - &lt;p&gt;Force flushing cache&lt;/p&gt;
 
 
@@ -1137,6 +1218,7 @@ New theme need to use Cart::getDeliveryOptionList() to generate carriers option 
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2444
 
 
 #### Arguments
@@ -1156,6 +1238,7 @@ The size of this sequence is fixed by the first digit of the return
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 2464
 
 
 #### Arguments
@@ -1174,6 +1257,7 @@ Translate a int option_delivery identifier (3240002000) in a string ('24,3,')
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 2474
 
 
 #### Arguments
@@ -1191,6 +1275,7 @@ Does the cart use multiple address
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2486
 
 
 
@@ -1204,6 +1289,7 @@ Get all delivery addresses object for the current cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2504
 
 
 
@@ -1217,6 +1303,7 @@ Set the delivery option and id_carrier, if there is only one carrier
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2532
 
 
 #### Arguments
@@ -1233,6 +1320,7 @@ Set the delivery option and id_carrier, if there is only one carrier
 
 
 * Visibility: **protected**
+* This method is defined in classes\Cart.php line 2560
 
 
 #### Arguments
@@ -1250,10 +1338,11 @@ the cheapest option for each address
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2584
 
 
 #### Arguments
-* $default_country **Country|null**
+* $default_country **[Country](CountryCore)|null**
 * $dontAutoSelectOptions **boolean**
 * $use_cache **boolean**
 
@@ -1268,12 +1357,13 @@ Return shipping total for the cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2650
 
 
 #### Arguments
 * $delivery_option **array|null** - &lt;p&gt;Array of the delivery option for each address&lt;/p&gt;
 * $use_tax **boolean**
-* $default_country **Country|null**
+* $default_country **[Country](CountryCore)|null**
 
 
 
@@ -1286,12 +1376,13 @@ Return shipping total of a specific carriers for the cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2685
 
 
 #### Arguments
 * $id_carrier **integer**
 * $useTax **boolean**
-* $default_country **Country|null**
+* $default_country **[Country](CountryCore)|null**
 * $delivery_option **array** - &lt;p&gt;Array of the delivery option for each address&lt;/p&gt;
 
 
@@ -1305,12 +1396,13 @@ Return shipping total of a specific carriers for the cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2714
 
 
 #### Arguments
 * $id_carrier **mixed**
 * $use_tax **mixed**
-* $default_country **Country**
+* $default_country **[Country](CountryCore)**
 * $product_list **mixed**
 
 
@@ -1324,12 +1416,13 @@ Return package shipping cost
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 2732
 
 
 #### Arguments
 * $id_carrier **integer** - &lt;p&gt;Carrier ID (default : current carrier)&lt;/p&gt;
 * $use_tax **boolean**
-* $default_country **Country|null**
+* $default_country **[Country](CountryCore)|null**
 * $product_list **array|null** - &lt;p&gt;List of product concerned by the shipping.
                                      If null, all the product of the cart are used to calculate the shipping cost&lt;/p&gt;
 * $id_zone **integer|null**
@@ -1345,6 +1438,7 @@ Return cart weight
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3044
 
 
 #### Arguments
@@ -1361,10 +1455,11 @@ Return cart weight
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3089
 
 
 #### Arguments
-* $obj **CartRule**
+* $obj **[CartRule](CartRuleCore)**
 * $discounts **mixed**
 * $order_total **mixed**
 * $products **mixed**
@@ -1381,6 +1476,7 @@ Return useful informations for cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3103
 
 
 #### Arguments
@@ -1398,6 +1494,7 @@ Return useful informations for cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3259
 
 
 #### Arguments
@@ -1414,6 +1511,7 @@ Return useful informations for cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3279
 
 
 
@@ -1428,6 +1526,7 @@ Return useful informations for cart
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 3295
 
 
 #### Arguments
@@ -1444,6 +1543,7 @@ Check if cart contains only virtual products
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3317
 
 
 #### Arguments
@@ -1461,6 +1561,7 @@ Build cart object from provided id_order
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 3347
 
 
 #### Arguments
@@ -1478,6 +1579,7 @@ Build cart object from provided id_order
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 3356
 
 
 #### Arguments
@@ -1494,6 +1596,7 @@ Add customer's text
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3375
 
 
 #### Arguments
@@ -1513,6 +1616,7 @@ Add customer's pictures
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3385
 
 
 #### Arguments
@@ -1532,6 +1636,7 @@ Add customer's pictures
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3396
 
 
 #### Arguments
@@ -1549,6 +1654,7 @@ Remove a customer's customization
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3409
 
 
 #### Arguments
@@ -1566,6 +1672,7 @@ Return custom pictures in this cart for a specified product
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3444
 
 
 #### Arguments
@@ -1585,6 +1692,7 @@ Return custom pictures in this cart for a specified product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 3463
 
 
 #### Arguments
@@ -1603,6 +1711,7 @@ Return custom pictures in this cart for a specified product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 3473
 
 
 #### Arguments
@@ -1620,6 +1729,7 @@ Return custom pictures in this cart for a specified product
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3478
 
 
 
@@ -1633,6 +1743,7 @@ Return custom pictures in this cart for a specified product
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3589
 
 
 
@@ -1646,6 +1757,7 @@ Return custom pictures in this cart for a specified product
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3598
 
 
 #### Arguments
@@ -1662,6 +1774,7 @@ Return custom pictures in this cart for a specified product
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3616
 
 
 #### Arguments
@@ -1681,6 +1794,7 @@ Return custom pictures in this cart for a specified product
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3683
 
 
 #### Arguments
@@ -1702,6 +1816,7 @@ Update products cart address delivery with the address delivery of the cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3798
 
 
 
@@ -1715,6 +1830,7 @@ Set an address to all products on the cart without address delivery
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3871
 
 
 
@@ -1728,6 +1844,7 @@ Set an address to all products on the cart without address delivery
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3901
 
 
 
@@ -1742,6 +1859,7 @@ isGuestCartByCartId
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 3914
 
 
 #### Arguments
@@ -1758,6 +1876,7 @@ isCarrierInRange
 Check if the specified carrier is in range
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3934
 
 
 #### Arguments
@@ -1775,6 +1894,7 @@ Check if the specified carrier is in range
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 3978
 
 
 #### Arguments
@@ -1793,6 +1913,7 @@ Execute hook displayCarrierList (extraCarrier) and merge theme to the $array
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Cart.php line 4011
 
 
 #### Arguments
@@ -1809,6 +1930,7 @@ Get all the ids of the delivery addresses without carriers
 
 
 * Visibility: **public**
+* This method is defined in classes\Cart.php line 4040
 
 
 #### Arguments

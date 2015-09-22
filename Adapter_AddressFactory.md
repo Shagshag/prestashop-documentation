@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_AddressFactory
 * Namespace: 
+* This class is defined in Adapter\Adapter_AddressFactory.php line 27
 
 
 
@@ -43,6 +44,7 @@ default shop configuration
 
 
 * Visibility: **public**
+* This method is defined in Adapter\Adapter_AddressFactory.php line 36
 
 
 #### Arguments
@@ -60,6 +62,7 @@ Check if an address exists depending on given $id_address
 
 
 * Visibility: **public**
+* This method is defined in Adapter\Adapter_AddressFactory.php line 47
 
 
 #### Arguments

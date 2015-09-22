@@ -9,6 +9,7 @@ Smarty_CacheResource_Mysql
 * Class name: Smarty_CacheResource_Mysql
 * Namespace: 
 * Parent class: Smarty_CacheResource_Custom
+* This class is defined in classes\SmartyCacheResourceMysql.php line 29
 
 
 
@@ -29,6 +30,7 @@ fetch cached content and its modification time from data source
 
 
 * Visibility: **protected**
+* This method is defined in classes\SmartyCacheResourceMysql.php line 42
 
 
 #### Arguments
@@ -50,6 +52,7 @@ Fetch cached content's modification timestamp from data source
 
 
 * Visibility: **protected**
+* This method is defined in classes\SmartyCacheResourceMysql.php line 64
 
 
 #### Arguments
@@ -69,6 +72,7 @@ Save content to cache
 
 
 * Visibility: **protected**
+* This method is defined in classes\SmartyCacheResourceMysql.php line 82
 
 
 #### Arguments
@@ -90,6 +94,7 @@ Delete content from cache
 
 
 * Visibility: **protected**
+* This method is defined in classes\SmartyCacheResourceMysql.php line 105
 
 
 #### Arguments

@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_Configuration
 * Namespace: 
-* This class implements: [Core_Business_ConfigurationInterface](Core_Business_ConfigurationInterface.md)
+* This class implements: [Core_Business_ConfigurationInterface](Core_Business_ConfigurationInterface)* This class is defined in Adapter\Adapter_Configuration.php line 27
+
 
 
 
@@ -42,7 +43,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [Core_Business_ConfigurationInterface](Core_Business_ConfigurationInterface.md)
+* This method is defined by [Core_Business_ConfigurationInterface](Core_Business_ConfigurationInterface)
+* This method is defined in Adapter\Adapter_Configuration.php line 29
 
 
 #### Arguments

@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: WebserviceSpecificManagementImagesCore
 * Namespace: 
-* This class implements: [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This class implements: [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)* This class is defined in classes\webservice\WebserviceSpecificManagementImages.php line 27
+
 
 
 
@@ -40,6 +41,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 30
 
 
 ### $output
@@ -51,6 +53,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 31
 
 
 ### $wsObject
@@ -62,6 +65,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 34
 
 
 ### $imgExtension
@@ -73,6 +77,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 39
 
 
 ### $imageTypes
@@ -84,6 +89,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 44
 
 
 ### $imageType
@@ -95,6 +101,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 62
 
 
 ### $imgMaxUploadSize
@@ -106,6 +113,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 67
 
 
 ### $acceptedImgMimeTypes
@@ -117,6 +125,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 72
 
 
 ### $productImageDeclinationId
@@ -128,6 +137,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 77
 
 
 ### $defaultImage
@@ -139,6 +149,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 82
 
 
 ### $imgToDisplay
@@ -150,6 +161,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 87
 
 
 ### $imageResource
@@ -161,6 +173,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 88
 
 
 Methods
@@ -176,11 +189,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 29
 
 
 #### Arguments
-* $obj **[WebserviceOutputBuilderCore](WebserviceOutputBuilderCore.md)**
+* $obj **[WebserviceOutputBuilderCore](WebserviceOutputBuilderCore)**
 
 
 
@@ -193,7 +207,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 30
 
 
 
@@ -207,11 +222,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 31
 
 
 #### Arguments
-* $obj **[WebserviceRequestCore](WebserviceRequestCore.md)**
+* $obj **[WebserviceRequestCore](WebserviceRequestCore)**
 
 
 
@@ -224,7 +240,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 32
 
 
 
@@ -238,7 +255,8 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 41
 
 
 
@@ -252,7 +270,8 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 34
 
 
 
@@ -266,6 +285,7 @@ Management of images URL segment
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 181
 
 
 
@@ -279,6 +299,7 @@ Management of general images
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 348
 
 
 
@@ -292,6 +313,7 @@ Management of general images
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 437
 
 
 #### Arguments
@@ -309,6 +331,7 @@ Management of general images
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 479
 
 
 #### Arguments
@@ -326,6 +349,7 @@ Management of general images
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 523
 
 
 #### Arguments
@@ -343,6 +367,7 @@ Management of normal images (as categories, suppliers, manufacturers and stores)
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 633
 
 
 #### Arguments
@@ -359,6 +384,7 @@ Management of normal images (as categories, suppliers, manufacturers and stores)
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 652
 
 
 
@@ -372,6 +398,7 @@ Management of normal images (as categories, suppliers, manufacturers and stores)
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 657
 
 
 
@@ -385,6 +412,7 @@ Management of normal images (as categories, suppliers, manufacturers and stores)
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 674
 
 
 
@@ -398,6 +426,7 @@ Management of normal images CRUD
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 774
 
 
 #### Arguments
@@ -417,6 +446,7 @@ Delete the image on disk
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 843
 
 
 #### Arguments
@@ -435,6 +465,7 @@ Write the image on disk
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 883
 
 
 #### Arguments
@@ -456,6 +487,7 @@ Write the posted image on disk
 
 
 * Visibility: **protected**
+* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 1003
 
 
 #### Arguments

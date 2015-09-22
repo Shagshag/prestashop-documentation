@@ -8,7 +8,8 @@ HelperImageUploaderCore
 
 * Class name: HelperImageUploaderCore
 * Namespace: 
-* Parent class: HelperUploader
+* Parent class: [HelperUploader](HelperUploaderCore)
+* This class is defined in classes\helper\HelperImageUploader.php line 27
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperImageUploader.php line 29
 
 
 
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperImageUploader.php line 34
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperImageUploader.php line 39
 
 
 #### Arguments
@@ -71,6 +75,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\helper\HelperImageUploader.php line 45
 
 
 #### Arguments

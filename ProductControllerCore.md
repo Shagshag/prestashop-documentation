@@ -8,7 +8,8 @@ ProductControllerCore
 
 * Class name: ProductControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\ProductController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\ProductController.php line 29
 
 
 ### $product
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\ProductController.php line 32
 
 
 ### $category
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\ProductController.php line 35
 
 
 Methods
@@ -64,6 +68,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\ProductController.php line 37
 
 
 
@@ -77,6 +82,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\ProductController.php line 66
 
 
 #### Arguments
@@ -93,6 +99,7 @@ Initialize product controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\ProductController.php line 80
 
 
 
@@ -106,6 +113,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\ProductController.php line 170
 
 
 
@@ -119,6 +127,7 @@ Assign price and tax to the template
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ProductController.php line 302
 
 
 
@@ -132,6 +141,7 @@ Assign template vars related to images
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ProductController.php line 367
 
 
 
@@ -145,6 +155,7 @@ Assign template vars related to attribute groups and colors
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ProductController.php line 416
 
 
 
@@ -158,6 +169,7 @@ Get and assign attributes combinations informations
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ProductController.php line 560
 
 
 
@@ -171,6 +183,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ProductController.php line 582
 
 
 
@@ -184,6 +197,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ProductController.php line 615
 
 
 #### Arguments
@@ -200,6 +214,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ProductController.php line 627
 
 
 
@@ -213,6 +228,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ProductController.php line 670
 
 
 
@@ -226,6 +242,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ProductController.php line 697
 
 
 
@@ -239,6 +256,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\ProductController.php line 711
 
 
 #### Arguments
@@ -258,6 +276,7 @@ Assign template vars related to category
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\ProductController.php line 745
 
 
 
@@ -271,6 +290,7 @@ Assign template vars related to category
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\ProductController.php line 750
 
 
 

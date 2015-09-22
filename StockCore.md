@@ -8,7 +8,8 @@ Represents the products kept in warehouses
 
 * Class name: StockCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\stock\Stock.php line 32
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Stock.php line 35
 
 
 ### $id_product
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Stock.php line 38
 
 
 ### $id_product_attribute
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Stock.php line 41
 
 
 ### $reference
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Stock.php line 44
 
 
 ### $ean13
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Stock.php line 47
 
 
 ### $upc
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Stock.php line 50
 
 
 ### $physical_quantity
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Stock.php line 53
 
 
 ### $usable_quantity
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Stock.php line 56
 
 
 ### $price_te
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Stock.php line 59
 
 
 ### $definition
@@ -127,6 +137,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\stock\Stock.php line 64
 
 
 ### $webserviceParameters
@@ -138,6 +149,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\stock\Stock.php line 83
 
 
 Methods
@@ -153,6 +165,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Stock.php line 97
 
 
 #### Arguments
@@ -169,6 +182,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Stock.php line 107
 
 
 #### Arguments
@@ -187,6 +201,7 @@ Stores it in stock for stock_mvt integrity and history purposes
 
 
 * Visibility: **protected**
+* This method is defined in classes\stock\Stock.php line 118
 
 
 
@@ -200,6 +215,7 @@ Webservice : used to get the real quantity of a product
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Stock.php line 153
 
 
 
@@ -214,6 +230,7 @@ Webservice : used to get the real quantity of a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Stock.php line 160
 
 
 #### Arguments
@@ -232,6 +249,7 @@ Webservice : used to get the real quantity of a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Stock.php line 169
 
 
 #### Arguments

@@ -8,7 +8,8 @@ OrderControllerCore
 
 * Class name: OrderControllerCore
 * Namespace: 
-* Parent class: ParentOrderController
+* Parent class: [ParentOrderController](ParentOrderControllerCore)
+* This class is defined in controllers\front\OrderController.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in controllers\front\OrderController.php line 30
 
 
 ### STEP_ADDRESSES
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in controllers\front\OrderController.php line 31
 
 
 ### STEP_DELIVERY
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in controllers\front\OrderController.php line 32
 
 
 ### STEP_PAYMENT
@@ -46,6 +50,7 @@ Constants
 
 
 
+* This constant is defined in controllers\front\OrderController.php line 33
 
 
 Properties
@@ -61,6 +66,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderController.php line 29
 
 
 Methods
@@ -76,6 +82,7 @@ Initialize order controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderController.php line 39
 
 
 
@@ -89,6 +96,7 @@ Initialize order controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderController.php line 110
 
 
 
@@ -102,6 +110,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderController.php line 123
 
 
 
@@ -115,6 +124,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\OrderController.php line 246
 
 
 
@@ -128,6 +138,7 @@ Order process controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderController.php line 262
 
 
 
@@ -141,6 +152,7 @@ Manage address
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderController.php line 318
 
 
 
@@ -154,6 +166,7 @@ Carrier step
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\OrderController.php line 390
 
 
 
@@ -167,6 +180,7 @@ Address step
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\OrderController.php line 407
 
 
 
@@ -180,6 +194,7 @@ Carrier step
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\OrderController.php line 421
 
 
 
@@ -193,6 +208,7 @@ Payment step
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\OrderController.php line 440
 
 
 
@@ -206,6 +222,7 @@ Payment step
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderController.php line 472
 
 
 

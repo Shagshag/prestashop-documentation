@@ -8,7 +8,8 @@ FeatureValueCore
 
 * Class name: FeatureValueCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\FeatureValue.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\FeatureValue.php line 30
 
 
 ### $value
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\FeatureValue.php line 33
 
 
 ### $custom
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\FeatureValue.php line 36
 
 
 ### $definition
@@ -61,6 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\FeatureValue.php line 41
 
 
 ### $webserviceParameters
@@ -72,6 +77,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\FeatureValue.php line 54
 
 
 Methods
@@ -88,6 +94,7 @@ Get all values for a given feature
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\FeatureValue.php line 68
 
 
 #### Arguments
@@ -105,6 +112,7 @@ Get all values for a given feature and language
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\FeatureValue.php line 84
 
 
 #### Arguments
@@ -124,6 +132,7 @@ Get all language for a given value
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\FeatureValue.php line 103
 
 
 #### Arguments
@@ -141,6 +150,7 @@ Select the good lang in tab
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\FeatureValue.php line 120
 
 
 #### Arguments
@@ -159,6 +169,7 @@ Select the good lang in tab
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\FeatureValue.php line 129
 
 
 #### Arguments
@@ -179,6 +190,7 @@ Select the good lang in tab
 
 
 * Visibility: **public**
+* This method is defined in classes\FeatureValue.php line 176
 
 
 #### Arguments
@@ -196,6 +208,7 @@ Select the good lang in tab
 
 
 * Visibility: **public**
+* This method is defined in classes\FeatureValue.php line 185
 
 
 
@@ -209,6 +222,7 @@ Select the good lang in tab
 
 
 * Visibility: **public**
+* This method is defined in classes\FeatureValue.php line 200
 
 
 #### Arguments

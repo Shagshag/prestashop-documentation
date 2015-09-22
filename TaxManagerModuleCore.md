@@ -9,7 +9,8 @@ TaxManagerModuleCore
 * Class name: TaxManagerModuleCore
 * Namespace: 
 * This is an **abstract** class
-* Parent class: Module
+* Parent class: [Module](ModuleCore)
+* This class is defined in classes\tax\TaxManagerModule.php line 27
 
 
 
@@ -28,6 +29,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\TaxManagerModule.php line 29
 
 
 Methods
@@ -43,6 +45,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxManagerModule.php line 31
 
 
 
@@ -56,6 +59,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxManagerModule.php line 36
 
 
 #### Arguments

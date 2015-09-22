@@ -8,7 +8,8 @@ Class MySQLCore
 
 * Class name: MySQLCore
 * Namespace: 
-* Parent class: Db
+* Parent class: [Db](DbCore)
+* This class is defined in classes\db\MySQL.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\MySQL.php line 33
 
 
 ### $result
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\db\MySQL.php line 36
 
 
 Methods
@@ -53,6 +56,7 @@ Tries to connect to the database
 
 
 * Visibility: **public**
+* This method is defined in classes\db\MySQL.php line 45
 
 
 
@@ -67,6 +71,7 @@ Tries to connect and create a new database
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\MySQL.php line 77
 
 
 #### Arguments
@@ -87,6 +92,7 @@ Destroys the database connection link
 
 
 * Visibility: **public**
+* This method is defined in classes\db\MySQL.php line 93
 
 
 
@@ -100,6 +106,7 @@ Executes an SQL statement, returning a result set as a result resource object.
 
 
 * Visibility: **protected**
+* This method is defined in classes\db\MySQL.php line 105
 
 
 #### Arguments
@@ -116,6 +123,7 @@ Returns the next row from the result set.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\MySQL.php line 117
 
 
 #### Arguments
@@ -132,6 +140,7 @@ Returns the next row from the result set.
 
 
 * Visibility: **protected**
+* This method is defined in classes\db\MySQL.php line 136
 
 
 #### Arguments
@@ -148,6 +157,7 @@ Returns ID of the last inserted row.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\MySQL.php line 147
 
 
 
@@ -161,6 +171,7 @@ Return the number of rows affected by the last SQL query.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\MySQL.php line 158
 
 
 
@@ -174,6 +185,7 @@ Returns error message.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\MySQL.php line 170
 
 
 #### Arguments
@@ -190,6 +202,7 @@ Returns error code.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\MySQL.php line 181
 
 
 
@@ -203,6 +216,7 @@ Returns database server version.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\MySQL.php line 192
 
 
 
@@ -216,6 +230,7 @@ Escapes illegal characters in a string.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\MySQL.php line 204
 
 
 #### Arguments
@@ -232,6 +247,7 @@ Switches to a different database.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\MySQL.php line 216
 
 
 #### Arguments
@@ -248,6 +264,7 @@ Returns all rows from the result set.
 
 
 * Visibility: **protected**
+* This method is defined in classes\db\MySQL.php line 228
 
 
 #### Arguments
@@ -265,6 +282,7 @@ Try a connection to the database and check if at least one table with same prefi
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\MySQL.php line 253
 
 
 #### Arguments
@@ -286,6 +304,7 @@ Try a connection to the database
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\MySQL.php line 280
 
 
 #### Arguments
@@ -308,6 +327,7 @@ Selects best table engine.
 
 
 * Visibility: **public**
+* This method is defined in classes\db\MySQL.php line 299
 
 
 
@@ -322,6 +342,7 @@ Tries to connect to the database and create a table (checking creation privilege
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\MySQL.php line 339
 
 
 #### Arguments
@@ -344,6 +365,7 @@ Try a connection to the database and set names to UTF-8
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\MySQL.php line 375
 
 
 #### Arguments
@@ -363,6 +385,7 @@ Checks if auto increment value and offset is 1
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\db\MySQL.php line 391
 
 
 #### Arguments

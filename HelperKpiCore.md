@@ -8,7 +8,8 @@ HelperKpiCore
 
 * Class name: HelperKpiCore
 * Namespace: 
-* Parent class: Helper
+* Parent class: [Helper](HelperCore)
+* This class is defined in classes\helper\HelperKpi.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 29
 
 
 ### $base_tpl
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 30
 
 
 ### $id
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 32
 
 
 ### $icon
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 33
 
 
 ### $chart
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 34
 
 
 ### $color
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 35
 
 
 ### $title
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 36
 
 
 ### $subtitle
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 37
 
 
 ### $value
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 38
 
 
 ### $data
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 39
 
 
 ### $source
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 40
 
 
 ### $refresh
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 41
 
 
 ### $href
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 42
 
 
 ### $tooltip
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpi.php line 43
 
 
 Methods
@@ -185,6 +200,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperKpi.php line 45
 
 
 

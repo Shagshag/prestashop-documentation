@@ -8,7 +8,8 @@ IdentityControllerCore
 
 * Class name: IdentityControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\IdentityController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\IdentityController.php line 29
 
 
 ### $php_self
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\IdentityController.php line 30
 
 
 ### $authRedirection
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\IdentityController.php line 31
 
 
 ### $ssl
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\IdentityController.php line 32
 
 
 ### $customer
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\IdentityController.php line 35
 
 
 Methods
@@ -86,6 +92,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\IdentityController.php line 37
 
 
 
@@ -99,6 +106,7 @@ Start forms process
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\IdentityController.php line 47
 
 
 
@@ -112,6 +120,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\IdentityController.php line 125
 
 
 
@@ -125,6 +134,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\IdentityController.php line 161
 
 
 

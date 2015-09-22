@@ -8,7 +8,8 @@ CustomerMessageCore
 
 * Class name: CustomerMessageCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\CustomerMessage.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerMessage.php line 29
 
 
 ### $id_customer_thread
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerMessage.php line 30
 
 
 ### $id_employee
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerMessage.php line 31
 
 
 ### $message
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerMessage.php line 32
 
 
 ### $file_name
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerMessage.php line 33
 
 
 ### $ip_address
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerMessage.php line 34
 
 
 ### $user_agent
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerMessage.php line 35
 
 
 ### $private
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerMessage.php line 36
 
 
 ### $date_add
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerMessage.php line 37
 
 
 ### $date_upd
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerMessage.php line 38
 
 
 ### $read
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CustomerMessage.php line 39
 
 
 ### $definition
@@ -149,6 +161,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\CustomerMessage.php line 44
 
 
 ### $webserviceParameters
@@ -160,6 +173,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\CustomerMessage.php line 61
 
 
 Methods
@@ -176,6 +190,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CustomerMessage.php line 72
 
 
 #### Arguments
@@ -194,6 +209,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CustomerMessage.php line 95
 
 
 #### Arguments
@@ -210,6 +226,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\CustomerMessage.php line 114
 
 
 

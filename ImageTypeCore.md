@@ -8,7 +8,8 @@ ImageTypeCore
 
 * Class name: ImageTypeCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\ImageType.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ImageType.php line 29
 
 
 ### $name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ImageType.php line 32
 
 
 ### $width
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ImageType.php line 35
 
 
 ### $height
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ImageType.php line 38
 
 
 ### $products
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ImageType.php line 41
 
 
 ### $categories
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ImageType.php line 44
 
 
 ### $manufacturers
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ImageType.php line 47
 
 
 ### $suppliers
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ImageType.php line 50
 
 
 ### $scenes
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ImageType.php line 53
 
 
 ### $stores
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ImageType.php line 56
 
 
 ### $definition
@@ -138,6 +149,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\ImageType.php line 61
 
 
 ### $images_types_cache
@@ -150,6 +162,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\ImageType.php line 80
 
 
 ### $images_types_name_cache
@@ -162,6 +175,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\ImageType.php line 82
 
 
 ### $webserviceParameters
@@ -173,6 +187,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\ImageType.php line 84
 
 
 Methods
@@ -189,6 +204,7 @@ Returns image type definitions
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageType.php line 94
 
 
 #### Arguments
@@ -207,6 +223,7 @@ Check if type already is already registered in database
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageType.php line 119
 
 
 #### Arguments
@@ -224,6 +241,7 @@ Finds image type definition by name and type
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageType.php line 138
 
 
 #### Arguments
@@ -243,6 +261,7 @@ Finds image type definition by name and type
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageType.php line 166
 
 
 #### Arguments

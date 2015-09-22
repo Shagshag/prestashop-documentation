@@ -8,7 +8,8 @@ CompareProductCore
 
 * Class name: CompareProductCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\CompareProduct.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CompareProduct.php line 29
 
 
 ### $id_customer
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CompareProduct.php line 31
 
 
 ### $date_add
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CompareProduct.php line 33
 
 
 ### $date_upd
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CompareProduct.php line 35
 
 
 ### $definition
@@ -72,6 +77,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\CompareProduct.php line 40
 
 
 Methods
@@ -88,6 +94,7 @@ Get all compare products of the customer
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CompareProduct.php line 54
 
 
 #### Arguments
@@ -105,6 +112,7 @@ Add a compare product for the customer
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CompareProduct.php line 79
 
 
 #### Arguments
@@ -123,6 +131,7 @@ Remove a compare product for the customer
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CompareProduct.php line 111
 
 
 #### Arguments
@@ -141,6 +150,7 @@ Get the number of compare products of the customer
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CompareProduct.php line 125
 
 
 #### Arguments
@@ -158,6 +168,7 @@ Clean entries which are older than the period
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CompareProduct.php line 139
 
 
 #### Arguments
@@ -175,6 +186,7 @@ Get the id_compare by id_customer
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CompareProduct.php line 163
 
 
 #### Arguments

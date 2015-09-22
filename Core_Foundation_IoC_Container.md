@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Foundation_IoC_Container
 * Namespace: 
+* This class is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 27
 
 
 
@@ -40,6 +41,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 29
 
 
 ### $instances
@@ -51,6 +53,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 30
 
 
 ### $namespaceAliases
@@ -62,6 +65,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 31
 
 
 Methods
@@ -77,6 +81,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 33
 
 
 #### Arguments
@@ -93,6 +98,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 38
 
 
 #### Arguments
@@ -109,6 +115,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 43
 
 
 #### Arguments
@@ -127,6 +134,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 59
 
 
 #### Arguments
@@ -144,6 +152,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 74
 
 
 #### Arguments
@@ -160,6 +169,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 88
 
 
 #### Arguments
@@ -177,6 +187,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 128
 
 
 #### Arguments
@@ -194,6 +205,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 168
 
 
 #### Arguments

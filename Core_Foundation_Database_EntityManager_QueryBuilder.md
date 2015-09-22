@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Foundation_Database_EntityManager_QueryBuilder
 * Namespace: 
+* This class is defined in Core\Foundation\Database\EntityManager\Core_Foundation_Database_EntityManager_QueryBuilder.php line 27
 
 
 
@@ -40,6 +41,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Foundation\Database\EntityManager\Core_Foundation_Database_EntityManager_QueryBuilder.php line 29
 
 
 Methods
@@ -55,10 +57,11 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\EntityManager\Core_Foundation_Database_EntityManager_QueryBuilder.php line 31
 
 
 #### Arguments
-* $db **[Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface.md)**
+* $db **[Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface)**
 
 
 
@@ -71,6 +74,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\EntityManager\Core_Foundation_Database_EntityManager_QueryBuilder.php line 36
 
 
 #### Arguments
@@ -87,6 +91,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\EntityManager\Core_Foundation_Database_EntityManager_QueryBuilder.php line 47
 
 
 #### Arguments

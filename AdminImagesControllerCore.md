@@ -8,7 +8,8 @@ AdminImagesControllerCore
 
 * Class name: AdminImagesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminImagesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminImagesController.php line 32
 
 
 ### $max_execution_time
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminImagesController.php line 33
 
 
 ### $display_move
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminImagesController.php line 34
 
 
 ### $object
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminImagesController.php line 30
 
 
 Methods
@@ -75,6 +80,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImagesController.php line 36
 
 
 
@@ -88,6 +94,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImagesController.php line 360
 
 
 
@@ -102,6 +109,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImagesController.php line 407
 
 
 #### Arguments
@@ -119,6 +127,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImagesController.php line 412
 
 
 
@@ -132,6 +141,7 @@ Init display for the thumbnails regeneration block
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImagesController.php line 422
 
 
 
@@ -145,6 +155,7 @@ Delete resized image then regenerate new one with updated settings
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImagesController.php line 453
 
 
 #### Arguments
@@ -163,6 +174,7 @@ Regenerate images
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImagesController.php line 502
 
 
 #### Arguments
@@ -181,6 +193,7 @@ Regenerate no-pictures images
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImagesController.php line 581
 
 
 #### Arguments
@@ -199,6 +212,7 @@ Regenerate no-pictures images
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImagesController.php line 609
 
 
 #### Arguments
@@ -216,6 +230,7 @@ Regenerate no-pictures images
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImagesController.php line 637
 
 
 #### Arguments
@@ -233,6 +248,7 @@ Init display for move images block
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImagesController.php line 700
 
 
 
@@ -246,6 +262,7 @@ Init display for move images block
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImagesController.php line 708
 
 
 
@@ -259,6 +276,7 @@ Move product images to the new filesystem
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImagesController.php line 724
 
 
 
@@ -272,6 +290,7 @@ Move product images to the new filesystem
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImagesController.php line 741
 
 
 

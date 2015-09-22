@@ -8,6 +8,7 @@ UpgraderCore
 
 * Class name: UpgraderCore
 * Namespace: 
+* This class is defined in classes\Upgrader.php line 27
 
 
 
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\Upgrader.php line 29
 
 
 Properties
@@ -36,6 +38,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Upgrader.php line 30
 
 
 ### $rss_md5file_link_dir
@@ -47,6 +50,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Upgrader.php line 31
 
 
 ### $need_upgrade
@@ -58,6 +62,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Upgrader.php line 35
 
 
 ### $changed_files
@@ -69,6 +74,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Upgrader.php line 36
 
 
 ### $missing_files
@@ -80,6 +86,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Upgrader.php line 37
 
 
 ### $version_name
@@ -91,6 +98,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Upgrader.php line 39
 
 
 ### $version_num
@@ -102,6 +110,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Upgrader.php line 40
 
 
 ### $version_is_modified
@@ -113,6 +122,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Upgrader.php line 41
 
 
 ### $link
@@ -124,6 +134,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Upgrader.php line 45
 
 
 ### $autoupgrade
@@ -135,6 +146,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Upgrader.php line 46
 
 
 ### $autoupgrade_module
@@ -146,6 +158,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Upgrader.php line 47
 
 
 ### $autoupgrade_last_version
@@ -157,6 +170,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Upgrader.php line 48
 
 
 ### $autoupgrade_module_link
@@ -168,6 +182,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Upgrader.php line 49
 
 
 ### $changelog
@@ -179,6 +194,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Upgrader.php line 50
 
 
 ### $md5
@@ -190,6 +206,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Upgrader.php line 51
 
 
 Methods
@@ -205,6 +222,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Upgrader.php line 53
 
 
 #### Arguments
@@ -221,6 +239,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Upgrader.php line 64
 
 
 #### Arguments
@@ -237,6 +256,7 @@ downloadLast download the last version of PrestaShop and save it in $dest/$filen
 
 
 * Visibility: **public**
+* This method is defined in classes\Upgrader.php line 80
 
 
 #### Arguments
@@ -254,6 +274,7 @@ downloadLast download the last version of PrestaShop and save it in $dest/$filen
 
 
 * Visibility: **public**
+* This method is defined in classes\Upgrader.php line 93
 
 
 
@@ -267,6 +288,7 @@ checkPSVersion ask to prestashop.com if there is a new version. return an array 
 
 
 * Visibility: **public**
+* This method is defined in classes\Upgrader.php line 107
 
 
 #### Arguments
@@ -283,6 +305,7 @@ load the last version informations stocked in base
 
 
 * Visibility: **public**
+* This method is defined in classes\Upgrader.php line 165
 
 
 
@@ -297,6 +320,7 @@ that the md5file does not match to the original md5file (provided by $rss_md5fil
 
 
 * Visibility: **public**
+* This method is defined in classes\Upgrader.php line 208
 
 
 
@@ -311,6 +335,7 @@ in sub arrays  mail, translation and core items
 
 
 * Visibility: **protected**
+* This method is defined in classes\Upgrader.php line 226
 
 
 #### Arguments
@@ -327,6 +352,7 @@ populate $this->missing_files with $path
 
 
 * Visibility: **protected**
+* This method is defined in classes\Upgrader.php line 249
 
 
 #### Arguments
@@ -343,6 +369,7 @@ populate $this->missing_files with $path
 
 
 * Visibility: **protected**
+* This method is defined in classes\Upgrader.php line 255
 
 
 #### Arguments
@@ -361,6 +388,7 @@ populate $this->missing_files with $path
 
 
 * Visibility: **protected**
+* This method is defined in classes\Upgrader.php line 286
 
 
 #### Arguments
@@ -378,6 +406,7 @@ populate $this->missing_files with $path
 
 
 * Visibility: **public**
+* This method is defined in classes\Upgrader.php line 294
 
 
 

@@ -8,7 +8,8 @@ PdfInvoiceControllerCore
 
 * Class name: PdfInvoiceControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\PdfInvoiceController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\PdfInvoiceController.php line 29
 
 
 ### $display_header
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\PdfInvoiceController.php line 30
 
 
 ### $display_footer
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\PdfInvoiceController.php line 31
 
 
 ### $content_only
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\PdfInvoiceController.php line 33
 
 
 ### $template
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\PdfInvoiceController.php line 35
 
 
 ### $filename
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\PdfInvoiceController.php line 36
 
 
 Methods
@@ -97,6 +104,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\PdfInvoiceController.php line 38
 
 
 
@@ -110,6 +118,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\PdfInvoiceController.php line 68
 
 
 

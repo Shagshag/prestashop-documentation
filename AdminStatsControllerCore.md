@@ -8,7 +8,8 @@ AdminStatsControllerCore
 
 * Class name: AdminStatsControllerCore
 * Namespace: 
-* Parent class: AdminStatsTabController
+* Parent class: [AdminStatsTabController](AdminStatsTabControllerCore)
+* This class is defined in controllers\admin\AdminStatsController.php line 27
 
 
 
@@ -30,6 +31,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 29
 
 
 #### Arguments
@@ -50,6 +52,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 82
 
 
 #### Arguments
@@ -68,6 +71,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 92
 
 
 
@@ -82,6 +86,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 100
 
 
 
@@ -96,6 +101,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 109
 
 
 
@@ -110,6 +116,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 127
 
 
 
@@ -124,6 +131,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 139
 
 
 
@@ -138,6 +146,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 152
 
 
 
@@ -152,6 +161,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 164
 
 
 
@@ -166,6 +176,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 173
 
 
 
@@ -180,6 +191,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 181
 
 
 
@@ -194,6 +206,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 190
 
 
 
@@ -208,6 +221,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 198
 
 
 #### Arguments
@@ -227,6 +241,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 236
 
 
 #### Arguments
@@ -245,6 +260,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 250
 
 
 #### Arguments
@@ -264,6 +280,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 290
 
 
 
@@ -278,6 +295,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 308
 
 
 
@@ -292,6 +310,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 326
 
 
 #### Arguments
@@ -310,6 +329,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 351
 
 
 #### Arguments
@@ -328,6 +348,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 367
 
 
 
@@ -342,6 +363,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 377
 
 
 
@@ -356,6 +378,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 382
 
 
 #### Arguments
@@ -374,6 +397,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 405
 
 
 #### Arguments
@@ -392,6 +416,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 426
 
 
 #### Arguments
@@ -411,6 +436,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsController.php line 463
 
 
 #### Arguments
@@ -429,6 +455,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStatsController.php line 517
 
 
 

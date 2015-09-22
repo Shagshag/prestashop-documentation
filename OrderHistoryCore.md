@@ -8,7 +8,8 @@ OrderHistoryCore
 
 * Class name: OrderHistoryCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\order\OrderHistory.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderHistory.php line 30
 
 
 ### $id_order_state
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderHistory.php line 33
 
 
 ### $id_employee
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderHistory.php line 36
 
 
 ### $date_add
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderHistory.php line 39
 
 
 ### $date_upd
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderHistory.php line 42
 
 
 ### $definition
@@ -83,6 +89,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\order\OrderHistory.php line 47
 
 
 ### $webserviceParameters
@@ -94,6 +101,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderHistory.php line 61
 
 
 Methods
@@ -109,6 +117,7 @@ Sets the new state of the given order
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderHistory.php line 80
 
 
 #### Arguments
@@ -128,6 +137,7 @@ Returns the last order status
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderHistory.php line 371
 
 
 #### Arguments
@@ -144,12 +154,13 @@ Returns the last order status
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderHistory.php line 395
 
 
 #### Arguments
 * $autodate **boolean** - &lt;p&gt;Optional&lt;/p&gt;
 * $template_vars **array** - &lt;p&gt;Optional&lt;/p&gt;
-* $context **Context** - &lt;p&gt;Deprecated&lt;/p&gt;
+* $context **[Context](ContextCore)** - &lt;p&gt;Deprecated&lt;/p&gt;
 
 
 
@@ -162,6 +173,7 @@ Returns the last order status
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderHistory.php line 410
 
 
 #### Arguments
@@ -179,6 +191,7 @@ Returns the last order status
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderHistory.php line 480
 
 
 #### Arguments
@@ -196,6 +209,7 @@ Returns the last order status
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderHistory.php line 499
 
 
 
@@ -210,6 +224,7 @@ If sendemail=1 GET parameter is present sends email to customer otherwise does n
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderHistory.php line 514
 
 
 

@@ -8,7 +8,8 @@ LanguageCore
 
 * Class name: LanguageCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Language.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Language.php line 29
 
 
 ### $name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Language.php line 32
 
 
 ### $iso_code
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Language.php line 35
 
 
 ### $language_code
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Language.php line 38
 
 
 ### $date_format_lite
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Language.php line 41
 
 
 ### $date_format_full
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Language.php line 44
 
 
 ### $is_rtl
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Language.php line 47
 
 
 ### $active
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Language.php line 50
 
 
 ### $definition
@@ -116,6 +125,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Language.php line 55
 
 
 ### $_checkedLangs
@@ -128,6 +138,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Language.php line 71
 
 
 ### $_LANGUAGES
@@ -140,6 +151,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Language.php line 72
 
 
 ### $countActiveLanguages
@@ -152,6 +164,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Language.php line 73
 
 
 ### $webserviceParameters
@@ -163,6 +176,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Language.php line 75
 
 
 ### $translationsFilesAndVars
@@ -174,6 +188,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Language.php line 80
 
 
 ### $_cache_language_installation
@@ -186,6 +201,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Language.php line 870
 
 
 Methods
@@ -201,6 +217,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Language.php line 88
 
 
 #### Arguments
@@ -218,6 +235,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Language.php line 97
 
 
 
@@ -231,6 +249,7 @@ Generate translations files
 
 
 * Visibility: **protected**
+* This method is defined in classes\Language.php line 111
 
 
 #### Arguments
@@ -247,6 +266,7 @@ Move translations files after editing language iso code
 
 
 * Visibility: **public**
+* This method is defined in classes\Language.php line 144
 
 
 #### Arguments
@@ -263,6 +283,7 @@ Return an array of theme
 
 
 * Visibility: **protected**
+* This method is defined in classes\Language.php line 194
 
 
 
@@ -276,6 +297,7 @@ Return an array of theme
 
 
 * Visibility: **public**
+* This method is defined in classes\Language.php line 210
 
 
 #### Arguments
@@ -294,6 +316,7 @@ Return an array of theme
 
 
 * Visibility: **public**
+* This method is defined in classes\Language.php line 229
 
 
 
@@ -309,6 +332,7 @@ and translations/mails/$iso_code .
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 243
 
 
 #### Arguments
@@ -326,6 +350,7 @@ and translations/mails/$iso_code .
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 258
 
 
 #### Arguments
@@ -348,6 +373,7 @@ loadUpdateSQL will create default lang values when you create a new lang, based 
 
 
 * Visibility: **public**
+* This method is defined in classes\Language.php line 414
 
 
 
@@ -362,6 +388,7 @@ loadUpdateSQL will create default lang values when you create a new lang, based 
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 483
 
 
 #### Arguments
@@ -378,6 +405,7 @@ loadUpdateSQL will create default lang values when you create a new lang, based 
 
 
 * Visibility: **public**
+* This method is defined in classes\Language.php line 505
 
 
 
@@ -391,6 +419,7 @@ loadUpdateSQL will create default lang values when you create a new lang, based 
 
 
 * Visibility: **public**
+* This method is defined in classes\Language.php line 588
 
 
 #### Arguments
@@ -408,6 +437,7 @@ Returns available languages
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 612
 
 
 #### Arguments
@@ -427,6 +457,7 @@ Returns an array of language IDs
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 638
 
 
 #### Arguments
@@ -445,6 +476,7 @@ Returns an array of language IDs
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 643
 
 
 #### Arguments
@@ -462,6 +494,7 @@ Return iso code from id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 657
 
 
 #### Arguments
@@ -479,6 +512,7 @@ Return id from iso code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 672
 
 
 #### Arguments
@@ -497,6 +531,7 @@ Return id from iso code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 688
 
 
 #### Arguments
@@ -514,6 +549,7 @@ Return id from iso code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 697
 
 
 #### Arguments
@@ -531,6 +567,7 @@ Return array (id_lang, iso_code)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 735
 
 
 #### Arguments
@@ -548,6 +585,7 @@ Return array (id_lang, iso_code)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 740
 
 
 #### Arguments
@@ -566,6 +604,7 @@ Load all languages in memory for caching
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 769
 
 
 
@@ -580,6 +619,7 @@ Load all languages in memory for caching
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 786
 
 
 #### Arguments
@@ -600,6 +640,7 @@ Load all languages in memory for caching
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\Language.php line 865
 
 
 #### Arguments
@@ -617,6 +658,7 @@ Load all languages in memory for caching
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 871
 
 
 #### Arguments
@@ -634,6 +676,7 @@ Load all languages in memory for caching
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 883
 
 
 #### Arguments
@@ -651,6 +694,7 @@ Load all languages in memory for caching
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 899
 
 
 #### Arguments
@@ -671,6 +715,7 @@ Check if more on than one language is activated
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 989
 
 
 #### Arguments
@@ -688,6 +733,7 @@ Check if more on than one language is activated
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 994
 
 
 #### Arguments
@@ -706,6 +752,7 @@ Check if more on than one language is activated
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Language.php line 1008
 
 
 #### Arguments

@@ -8,7 +8,8 @@ ProductCore
 
 * Class name: ProductCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Product.php line 36
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\Product.php line 465
 
 
 ### CUSTOMIZE_TEXTFIELD
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\Product.php line 466
 
 
 ### PTYPE_SIMPLE
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\Product.php line 471
 
 
 ### PTYPE_PACK
@@ -46,6 +50,7 @@ Constants
 
 
 
+* This constant is defined in classes\Product.php line 472
 
 
 ### PTYPE_VIRTUAL
@@ -54,6 +59,7 @@ Constants
 
 
 
+* This constant is defined in classes\Product.php line 473
 
 
 Properties
@@ -69,6 +75,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 39
 
 
 ### $tax_rate
@@ -80,6 +87,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 42
 
 
 ### $id_manufacturer
@@ -91,6 +99,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 45
 
 
 ### $id_supplier
@@ -102,6 +111,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 48
 
 
 ### $id_category_default
@@ -113,6 +123,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 51
 
 
 ### $id_shop_default
@@ -124,6 +135,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 54
 
 
 ### $manufacturer_name
@@ -135,6 +147,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 57
 
 
 ### $supplier_name
@@ -146,6 +159,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 60
 
 
 ### $name
@@ -157,6 +171,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 63
 
 
 ### $description
@@ -168,6 +183,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 66
 
 
 ### $description_short
@@ -179,6 +195,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 69
 
 
 ### $quantity
@@ -190,6 +207,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 72
 
 
 ### $minimal_quantity
@@ -201,6 +219,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 75
 
 
 ### $available_now
@@ -212,6 +231,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 78
 
 
 ### $available_later
@@ -223,6 +243,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 81
 
 
 ### $price
@@ -234,6 +255,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 84
 
 
 ### $specificPrice
@@ -245,6 +267,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 86
 
 
 ### $additional_shipping_cost
@@ -256,6 +279,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 89
 
 
 ### $wholesale_price
@@ -267,6 +291,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 92
 
 
 ### $on_sale
@@ -278,6 +303,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 95
 
 
 ### $online_only
@@ -289,6 +315,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 98
 
 
 ### $unity
@@ -300,6 +327,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 101
 
 
 ### $unit_price
@@ -311,6 +339,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 104
 
 
 ### $unit_price_ratio
@@ -322,6 +351,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 107
 
 
 ### $ecotax
@@ -333,6 +363,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 110
 
 
 ### $reference
@@ -344,6 +375,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 113
 
 
 ### $supplier_reference
@@ -355,6 +387,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 116
 
 
 ### $location
@@ -366,6 +399,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 119
 
 
 ### $width
@@ -377,6 +411,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 122
 
 
 ### $height
@@ -388,6 +423,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 125
 
 
 ### $depth
@@ -399,6 +435,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 128
 
 
 ### $weight
@@ -410,6 +447,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 131
 
 
 ### $ean13
@@ -421,6 +459,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 134
 
 
 ### $upc
@@ -432,6 +471,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 137
 
 
 ### $link_rewrite
@@ -443,6 +483,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 140
 
 
 ### $meta_description
@@ -454,6 +495,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 143
 
 
 ### $meta_keywords
@@ -465,6 +507,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 146
 
 
 ### $meta_title
@@ -476,6 +519,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 149
 
 
 ### $quantity_discount
@@ -487,6 +531,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 152
 
 
 ### $customizable
@@ -498,6 +543,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 155
 
 
 ### $new
@@ -509,6 +555,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 158
 
 
 ### $uploadable_files
@@ -520,6 +567,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 161
 
 
 ### $text_fields
@@ -531,6 +579,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 164
 
 
 ### $active
@@ -542,6 +591,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 167
 
 
 ### $redirect_type
@@ -553,6 +603,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 170
 
 
 ### $id_product_redirected
@@ -564,6 +615,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 173
 
 
 ### $available_for_order
@@ -575,6 +627,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 176
 
 
 ### $available_date
@@ -586,6 +639,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 179
 
 
 ### $condition
@@ -597,6 +651,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 182
 
 
 ### $show_price
@@ -608,6 +663,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 185
 
 
 ### $indexed
@@ -619,6 +675,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 188
 
 
 ### $visibility
@@ -630,6 +687,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 191
 
 
 ### $date_add
@@ -641,6 +699,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 194
 
 
 ### $date_upd
@@ -652,6 +711,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 197
 
 
 ### $tags
@@ -663,6 +723,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 200
 
 
 ### $base_price
@@ -674,6 +735,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 206
 
 
 ### $id_tax_rules_group
@@ -685,6 +747,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 208
 
 
 ### $id_color_default
@@ -696,6 +759,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 214
 
 
 ### $advanced_stock_management
@@ -707,6 +771,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 220
 
 
 ### $out_of_stock
@@ -718,6 +783,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 221
 
 
 ### $depends_on_stock
@@ -729,6 +795,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 222
 
 
 ### $isFullyLoaded
@@ -740,6 +807,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 224
 
 
 ### $cache_is_pack
@@ -751,6 +819,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 226
 
 
 ### $cache_has_attachments
@@ -762,6 +831,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 227
 
 
 ### $is_virtual
@@ -773,6 +843,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 228
 
 
 ### $id_pack_product_attribute
@@ -784,6 +855,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 229
 
 
 ### $cache_default_attribute
@@ -795,6 +867,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 230
 
 
 ### $category
@@ -806,6 +879,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 235
 
 
 ### $pack_stock_type
@@ -817,6 +891,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
+* This property is defined in classes\Product.php line 240
 
 
 ### $_taxCalculationMethod
@@ -829,6 +904,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Product.php line 242
 
 
 ### $_prices
@@ -841,6 +917,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Product.php line 243
 
 
 ### $_pricesLevel2
@@ -853,6 +930,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Product.php line 244
 
 
 ### $_incat
@@ -865,6 +943,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Product.php line 245
 
 
 ### $_cart_quantity
@@ -877,6 +956,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Product.php line 251
 
 
 ### $_tax_rules_group
@@ -889,6 +969,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Product.php line 253
 
 
 ### $_cacheFeatures
@@ -901,6 +982,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Product.php line 254
 
 
 ### $_frontFeaturesCache
@@ -913,6 +995,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Product.php line 255
 
 
 ### $producPropertiesCache
@@ -925,6 +1008,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Product.php line 256
 
 
 ### $cacheStock
@@ -937,6 +1021,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Product.php line 259
 
 
 ### $definition
@@ -949,6 +1034,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Product.php line 261
 
 
 ### $webserviceParameters
@@ -960,6 +1046,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **protected**
+* This property is defined in classes\Product.php line 346
 
 
 Methods
@@ -975,6 +1062,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 475
 
 
 #### Arguments
@@ -982,7 +1070,7 @@ Methods
 * $full **mixed**
 * $id_lang **mixed**
 * $id_shop **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -995,6 +1083,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 517
 
 
 
@@ -1008,6 +1097,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 528
 
 
 #### Arguments
@@ -1025,6 +1115,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 554
 
 
 #### Arguments
@@ -1042,6 +1133,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 577
 
 
 #### Arguments
@@ -1059,6 +1151,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 603
 
 
 #### Arguments
@@ -1075,6 +1168,7 @@ Move a product inside its category
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 618
 
 
 #### Arguments
@@ -1093,6 +1187,7 @@ Move a product inside its category
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 662
 
 
 #### Arguments
@@ -1111,6 +1206,7 @@ Get the default attribute for a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 694
 
 
 #### Arguments
@@ -1129,6 +1225,7 @@ Get the default attribute for a product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 763
 
 
 #### Arguments
@@ -1146,6 +1243,7 @@ For a given id_product and id_product_attribute, return available date
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 779
 
 
 #### Arguments
@@ -1164,6 +1262,7 @@ For a given id_product and id_product_attribute, return available date
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 816
 
 
 #### Arguments
@@ -1181,6 +1280,7 @@ For a given id_product and id_product_attribute, return available date
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 826
 
 
 #### Arguments
@@ -1201,6 +1301,7 @@ For a given id_product and id_product_attribute, return available date
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 841
 
 
 
@@ -1214,6 +1315,7 @@ For a given id_product and id_product_attribute, return available date
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 857
 
 
 
@@ -1227,6 +1329,7 @@ For a given id_product and id_product_attribute, return available date
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 921
 
 
 #### Arguments
@@ -1243,6 +1346,7 @@ For a given id_product and id_product_attribute, return available date
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 938
 
 
 
@@ -1256,6 +1360,7 @@ For a given id_product and id_product_attribute, return available date
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 944
 
 
 
@@ -1269,6 +1374,7 @@ addToCategories add this product to the category/ies if not exists.
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 955
 
 
 #### Arguments
@@ -1285,6 +1391,7 @@ Update categories to index product into
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1012
 
 
 #### Arguments
@@ -1302,6 +1409,7 @@ deleteCategory delete this product from the category $id_category
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1051
 
 
 #### Arguments
@@ -1319,6 +1427,7 @@ Delete all association to category where product is indexed
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1076
 
 
 #### Arguments
@@ -1335,6 +1444,7 @@ Delete products tags entries
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1101
 
 
 
@@ -1348,6 +1458,7 @@ Delete product from cart
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1113
 
 
 
@@ -1361,6 +1472,7 @@ Delete product images from database
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1123
 
 
 
@@ -1375,6 +1487,7 @@ Delete product images from database
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 1144
 
 
 #### Arguments
@@ -1392,6 +1505,7 @@ Get all available products
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 1159
 
 
 #### Arguments
@@ -1402,7 +1516,7 @@ Get all available products
 * $order_way **string** - &lt;p&gt;Way for ordering (ASC or DESC)&lt;/p&gt;
 * $id_category **mixed**
 * $only_active **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -1416,11 +1530,12 @@ Get all available products
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 1212
 
 
 #### Arguments
 * $id_lang **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -1433,6 +1548,7 @@ Get all available products
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1233
 
 
 
@@ -1446,12 +1562,13 @@ Get all available products
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1251
 
 
 #### Arguments
 * $attributes_list **mixed**
 * $current_product_attribute **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 * $all_shops **mixed**
 * $return_id **mixed**
 
@@ -1467,6 +1584,7 @@ The quantity params now set StockAvailable for the current shop with the specifi
 The supplier_reference params now set the supplier reference of the default supplier of the product if possible
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1310
 
 
 #### Arguments
@@ -1495,6 +1613,7 @@ The supplier_reference params now set the supplier reference of the default supp
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1330
 
 
 #### Arguments
@@ -1512,6 +1631,7 @@ The supplier_reference params now set the supplier reference of the default supp
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1372
 
 
 #### Arguments
@@ -1543,6 +1663,7 @@ The supplier_reference params now set the supplier reference of the default supp
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1396
 
 
 #### Arguments
@@ -1560,6 +1681,7 @@ Del all default attributes for product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1431
 
 
 
@@ -1573,6 +1695,7 @@ Del all default attributes for product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1438
 
 
 #### Arguments
@@ -1590,6 +1713,7 @@ Del all default attributes for product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 1451
 
 
 #### Arguments
@@ -1606,6 +1730,7 @@ Update a product attribute
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1478
 
 
 #### Arguments
@@ -1636,6 +1761,7 @@ Sets or updates Supplier Reference
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1501
 
 
 #### Arguments
@@ -1656,6 +1782,7 @@ Update a product attribute
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1544
 
 
 #### Arguments
@@ -1687,6 +1814,7 @@ Add a product attribute
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1623
 
 
 #### Arguments
@@ -1715,6 +1843,7 @@ Add a product attribute
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1700
 
 
 
@@ -1728,6 +1857,7 @@ Delete product attributes
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1719
 
 
 
@@ -1741,6 +1871,7 @@ Delete product attributes impacts
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1739
 
 
 
@@ -1754,6 +1885,7 @@ Delete product features
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1752
 
 
 
@@ -1768,6 +1900,7 @@ Delete product features
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 1759
 
 
 #### Arguments
@@ -1784,6 +1917,7 @@ Delete product attachments
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1778
 
 
 #### Arguments
@@ -1800,6 +1934,7 @@ Delete product customizations
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1797
 
 
 
@@ -1813,6 +1948,7 @@ Delete product pack details
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1818
 
 
 
@@ -1826,6 +1962,7 @@ Delete product sales
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1832
 
 
 
@@ -1839,6 +1976,7 @@ Delete product in its scenes
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1845
 
 
 
@@ -1852,6 +1990,7 @@ Delete product indexed words
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1858
 
 
 
@@ -1865,6 +2004,7 @@ Add a product attributes combinaison
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1878
 
 
 #### Arguments
@@ -1882,6 +2022,7 @@ Add a product attributes combinaison
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1899
 
 
 #### Arguments
@@ -1899,6 +2040,7 @@ Delete a product attributes combination
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1924
 
 
 #### Arguments
@@ -1915,6 +2057,7 @@ Delete features
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1949
 
 
 
@@ -1928,6 +2071,7 @@ Get all available product attributes resume
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 1983
 
 
 #### Arguments
@@ -1946,6 +2090,7 @@ Get all available product attributes combinations
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 2042
 
 
 #### Arguments
@@ -1962,6 +2107,7 @@ Get product attribute combination by id_product_attribute
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 2087
 
 
 #### Arguments
@@ -1979,6 +2125,7 @@ Get product attribute combination by id_product_attribute
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 2127
 
 
 #### Arguments
@@ -1996,6 +2143,7 @@ Get product attribute combination by id_product_attribute
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 2170
 
 
 #### Arguments
@@ -2013,6 +2161,7 @@ Check if product has attributes combinations
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 2196
 
 
 
@@ -2027,6 +2176,7 @@ Get new products
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 2217
 
 
 #### Arguments
@@ -2036,7 +2186,7 @@ Get new products
 * $count **mixed**
 * $order_by **mixed**
 * $order_way **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -2050,12 +2200,13 @@ Get new products
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\Product.php line 2330
 
 
 #### Arguments
 * $beginning **mixed**
 * $ending **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 * $with_combination **mixed**
 
 
@@ -2070,13 +2221,14 @@ Get a random special
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 2358
 
 
 #### Arguments
 * $id_lang **integer** - &lt;p&gt;Language id&lt;/p&gt;
 * $beginning **mixed**
 * $ending **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -2090,6 +2242,7 @@ Get prices drop
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 2448
 
 
 #### Arguments
@@ -2101,7 +2254,7 @@ Get prices drop
 * $order_way **mixed**
 * $beginning **mixed**
 * $ending **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -2115,6 +2268,7 @@ getProductCategories return an array of categories which this product belongs to
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 2574
 
 
 #### Arguments
@@ -2132,6 +2286,7 @@ getProductCategories return an array of categories which this product belongs to
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 2596
 
 
 #### Arguments
@@ -2149,6 +2304,7 @@ getCategories return an array of categories which this product belongs to
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 2624
 
 
 
@@ -2162,6 +2318,7 @@ Gets carriers assigned to the product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 2632
 
 
 
@@ -2175,6 +2332,7 @@ Sets carriers assigned to the product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 2646
 
 
 #### Arguments
@@ -2191,11 +2349,12 @@ Get product images and legends
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 2681
 
 
 #### Arguments
 * $id_lang **integer** - &lt;p&gt;Language id for multilingual legends&lt;/p&gt;
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -2209,11 +2368,12 @@ Get product cover image
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 2698
 
 
 #### Arguments
 * $id_product **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -2227,6 +2387,7 @@ Returns product price
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 2745
 
 
 #### Arguments
@@ -2251,7 +2412,7 @@ Returns product price
                                        this variable is filled with the corresponding SpecificPrice object&lt;/p&gt;
 * $with_ecotax **boolean** - &lt;p&gt;Insert ecotax in price output.&lt;/p&gt;
 * $use_group_reduction **boolean**
-* $context **Context**
+* $context **[Context](ContextCore)**
 * $use_customer_price **boolean**
 
 
@@ -2266,6 +2427,7 @@ Price calculation / Get product price
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 2896
 
 
 #### Arguments
@@ -2303,12 +2465,13 @@ Price calculation / Get product price
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3095
 
 
 #### Arguments
 * $price **mixed**
 * $currency **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -2322,12 +2485,13 @@ Price calculation / Get product price
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3106
 
 
 #### Arguments
 * $id_product **mixed**
 * $quantity **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -2341,6 +2505,7 @@ Same as static function getPriceStatic, no need to specify product id
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3136
 
 
 #### Arguments
@@ -2363,6 +2528,7 @@ Same as static function getPriceStatic, no need to specify product id
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3142
 
 
 #### Arguments
@@ -2385,6 +2551,7 @@ Same as static function getPriceStatic, no need to specify product id
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3150
 
 
 
@@ -2398,6 +2565,7 @@ Same as static function getPriceStatic, no need to specify product id
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3166
 
 
 
@@ -2411,6 +2579,7 @@ Same as static function getPriceStatic, no need to specify product id
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3183
 
 
 #### Arguments
@@ -2430,6 +2599,7 @@ Display price with right format and currency
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3195
 
 
 #### Arguments
@@ -2448,6 +2618,7 @@ Convert price with currency
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3207
 
 
 #### Arguments
@@ -2466,6 +2637,7 @@ Convert price with currency
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3212
 
 
 #### Arguments
@@ -2484,6 +2656,7 @@ Display WT price with currency
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3224
 
 
 #### Arguments
@@ -2502,6 +2675,7 @@ Get available product quantities
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3236
 
 
 #### Arguments
@@ -2521,13 +2695,14 @@ Create JOIN query with 'stock_available' table
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3257
 
 
 #### Arguments
 * $product_alias **mixed**
 * $product_attribute **mixed**
 * $inner_join **mixed**
-* $shop **Shop**
+* $shop **[Shop](ShopCore)**
 
 
 
@@ -2541,6 +2716,7 @@ Create JOIN query with 'stock_available' table
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3291
 
 
 
@@ -2555,6 +2731,7 @@ Create JOIN query with 'stock_available' table
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3309
 
 
 
@@ -2569,6 +2746,7 @@ Create JOIN query with 'stock_available' table
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3316
 
 
 #### Arguments
@@ -2585,6 +2763,7 @@ Check product availability
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3342
 
 
 #### Arguments
@@ -2601,6 +2780,7 @@ Check if there is no default attribute and create it if not
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3364
 
 
 
@@ -2615,6 +2795,7 @@ Check if there is no default attribute and create it if not
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3408
 
 
 #### Arguments
@@ -2632,6 +2813,7 @@ Get all available attribute groups
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3453
 
 
 #### Arguments
@@ -2648,6 +2830,7 @@ Delete product accessories
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3485
 
 
 
@@ -2661,6 +2844,7 @@ Delete product from other products accessories
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3495
 
 
 
@@ -2675,6 +2859,7 @@ Get product accessories (only names)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3507
 
 
 #### Arguments
@@ -2692,6 +2877,7 @@ Get product accessories
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3528
 
 
 #### Arguments
@@ -2710,6 +2896,7 @@ Get product accessories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3573
 
 
 #### Arguments
@@ -2726,6 +2913,7 @@ Link accessories with product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3583
 
 
 #### Arguments
@@ -2742,6 +2930,7 @@ Add new feature to product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3596
 
 
 #### Arguments
@@ -2760,6 +2949,7 @@ Add new feature to product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3602
 
 
 #### Arguments
@@ -2779,6 +2969,7 @@ Add new feature to product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3617
 
 
 #### Arguments
@@ -2797,6 +2988,7 @@ Select all features for the object
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 3631
 
 
 
@@ -2811,6 +3003,7 @@ Select all features for the object
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3636
 
 
 #### Arguments
@@ -2828,6 +3021,7 @@ Select all features for the object
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3652
 
 
 #### Arguments
@@ -2845,6 +3039,7 @@ Select all features for the object
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3680
 
 
 #### Arguments
@@ -2863,12 +3058,13 @@ Admin panel product search
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3723
 
 
 #### Arguments
 * $id_lang **integer** - &lt;p&gt;Language id&lt;/p&gt;
 * $query **string** - &lt;p&gt;Search query&lt;/p&gt;
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -2882,6 +3078,7 @@ Duplicate attributes when duplicating a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3778
 
 
 #### Arguments
@@ -2900,6 +3097,7 @@ Duplicate attributes when duplicating a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3869
 
 
 #### Arguments
@@ -2917,6 +3115,7 @@ Get product attribute image associations
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3892
 
 
 #### Arguments
@@ -2934,6 +3133,7 @@ Get product attribute image associations
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3905
 
 
 #### Arguments
@@ -2952,6 +3152,7 @@ Get product attribute image associations
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3922
 
 
 #### Arguments
@@ -2970,6 +3171,7 @@ Get product attribute image associations
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3941
 
 
 #### Arguments
@@ -2988,6 +3190,7 @@ Get product attribute image associations
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 3971
 
 
 #### Arguments
@@ -3006,6 +3209,7 @@ Duplicate features when duplicating a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4003
 
 
 #### Arguments
@@ -3024,6 +3228,7 @@ Duplicate features when duplicating a product
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4048
 
 
 #### Arguments
@@ -3042,6 +3247,7 @@ Duplicate features when duplicating a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4091
 
 
 #### Arguments
@@ -3060,6 +3266,7 @@ Duplicate features when duplicating a product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4102
 
 
 #### Arguments
@@ -3078,6 +3285,7 @@ Adds suppliers from old product onto a newly duplicated product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4149
 
 
 #### Arguments
@@ -3095,10 +3303,11 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4170
 
 
 #### Arguments
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -3111,6 +3320,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4178
 
 
 #### Arguments
@@ -3128,6 +3338,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4196
 
 
 #### Arguments
@@ -3146,12 +3357,13 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4205
 
 
 #### Arguments
 * $id_lang **mixed**
 * $row **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -3165,11 +3377,12 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4359
 
 
 #### Arguments
 * $row **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -3183,6 +3396,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4381
 
 
 #### Arguments
@@ -3201,6 +3415,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4402
 
 
 #### Arguments
@@ -3218,6 +3433,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4422
 
 
 #### Arguments
@@ -3235,6 +3451,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4427
 
 
 #### Arguments
@@ -3252,6 +3469,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4437
 
 
 #### Arguments
@@ -3269,6 +3487,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4446
 
 
 #### Arguments
@@ -3289,6 +3508,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4500
 
 
 #### Arguments
@@ -3306,6 +3526,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **protected**
+* This method is defined in classes\Product.php line 4557
 
 
 #### Arguments
@@ -3323,6 +3544,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **protected**
+* This method is defined in classes\Product.php line 4569
 
 
 
@@ -3336,6 +3558,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **protected**
+* This method is defined in classes\Product.php line 4633
 
 
 #### Arguments
@@ -3353,6 +3576,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4665
 
 
 #### Arguments
@@ -3370,6 +3594,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4687
 
 
 
@@ -3383,6 +3608,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4735
 
 
 #### Arguments
@@ -3400,6 +3626,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4767
 
 
 
@@ -3413,6 +3640,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4778
 
 
 
@@ -3427,6 +3655,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4786
 
 
 #### Arguments
@@ -3443,10 +3672,11 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4799
 
 
 #### Arguments
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -3460,6 +3690,7 @@ Checks if the product is in at least one of the submited categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4836
 
 
 #### Arguments
@@ -3477,6 +3708,7 @@ Checks if the product is in at least one of the submited categories
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4857
 
 
 
@@ -3490,6 +3722,7 @@ Checks if the product is in at least one of the submited categories
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4862
 
 
 #### Arguments
@@ -3507,6 +3740,7 @@ Checks if the product is in at least one of the submited categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4867
 
 
 #### Arguments
@@ -3524,6 +3758,7 @@ Add a stock movement for current product
 Since 1.5, this method only permit to add/remove available quantities of the current product in the current shop
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4913
 
 
 #### Arguments
@@ -3550,6 +3785,7 @@ Since 1.5, this method only permit to add/remove available quantities of the cur
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4936
 
 
 #### Arguments
@@ -3567,6 +3803,7 @@ Since 1.5, this method only permit to add/remove available quantities of the cur
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4967
 
 
 #### Arguments
@@ -3583,6 +3820,7 @@ Since 1.5, this method only permit to add/remove available quantities of the cur
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 4981
 
 
 
@@ -3597,11 +3835,12 @@ Since 1.5, this method only permit to add/remove available quantities of the cur
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 4986
 
 
 #### Arguments
 * $id_product **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -3614,10 +3853,11 @@ Returns tax rate.
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5009
 
 
 #### Arguments
-* $address **Address|null**
+* $address **[Address](AddressCore)|null**
 
 
 
@@ -3630,6 +3870,7 @@ Webservice getter : get product features association
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5026
 
 
 
@@ -3643,6 +3884,7 @@ Webservice setter : set product features association
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5049
 
 
 #### Arguments
@@ -3659,6 +3901,7 @@ Webservice getter : get virtual field default combination
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5066
 
 
 
@@ -3672,6 +3915,7 @@ Webservice setter : set virtual field default combination
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5077
 
 
 #### Arguments
@@ -3688,6 +3932,7 @@ Webservice getter : get category ids of current product for association
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5088
 
 
 
@@ -3701,6 +3946,7 @@ Webservice setter : set category ids of current product for association
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5106
 
 
 #### Arguments
@@ -3717,6 +3963,7 @@ Webservice getter : get product accessories ids of current product for associati
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5136
 
 
 
@@ -3730,6 +3977,7 @@ Webservice setter : set product accessories ids of current product for associati
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5154
 
 
 #### Arguments
@@ -3746,6 +3994,7 @@ Webservice getter : get combination ids of current product for association
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5169
 
 
 
@@ -3759,6 +4008,7 @@ Webservice setter : set combination ids of current product for association
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5186
 
 
 #### Arguments
@@ -3775,6 +4025,7 @@ Webservice getter : get product option ids of current product for association
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5254
 
 
 
@@ -3788,6 +4039,7 @@ Webservice getter : get virtual field position in category
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5269
 
 
 
@@ -3801,6 +4053,7 @@ Webservice setter : set virtual field position in category
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5286
 
 
 #### Arguments
@@ -3817,6 +4070,7 @@ Webservice getter : get virtual field id_default_image in category
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5325
 
 
 
@@ -3830,6 +4084,7 @@ Webservice setter : set virtual field id_default_image in category
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5336
 
 
 #### Arguments
@@ -3846,6 +4101,7 @@ Webservice getter : get image ids of current product for association
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5353
 
 
 
@@ -3859,6 +4115,7 @@ Webservice getter : get image ids of current product for association
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5363
 
 
 
@@ -3872,6 +4129,7 @@ Webservice getter : get image ids of current product for association
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5370
 
 
 
@@ -3885,6 +4143,7 @@ Webservice setter : set tag ids of current product for association
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5383
 
 
 #### Arguments
@@ -3901,6 +4160,7 @@ Delete products tags entries without delete tags for webservice usage
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5412
 
 
 
@@ -3914,6 +4174,7 @@ Delete products tags entries without delete tags for webservice usage
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5418
 
 
 
@@ -3928,6 +4189,7 @@ Delete products tags entries without delete tags for webservice usage
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 5423
 
 
 
@@ -3941,6 +4203,7 @@ Set Group reduction if needed
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5433
 
 
 
@@ -3954,6 +4217,7 @@ Checks if reference exists
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5442
 
 
 #### Arguments
@@ -3971,6 +4235,7 @@ Get all product attributes ids
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 5459
 
 
 #### Arguments
@@ -3989,6 +4254,7 @@ Get label by lang and value by lang too
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 5475
 
 
 #### Arguments
@@ -4007,6 +4273,7 @@ Get label by lang and value by lang too
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 5568
 
 
 #### Arguments
@@ -4023,6 +4290,7 @@ Get the combination url anchor of the product
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5667
 
 
 #### Arguments
@@ -4041,6 +4309,7 @@ Gets the name of a given product, in the given lang
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 5690
 
 
 #### Arguments
@@ -4059,6 +4328,7 @@ Gets the name of a given product, in the given lang
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5728
 
 
 #### Arguments
@@ -4076,6 +4346,7 @@ Gets the name of a given product, in the given lang
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5737
 
 
 #### Arguments
@@ -4093,6 +4364,7 @@ For a given product, returns its real quantity
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 5757
 
 
 #### Arguments
@@ -4113,6 +4385,7 @@ For a given product, tells if it uses the advanced stock management
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 5780
 
 
 #### Arguments
@@ -4130,6 +4403,7 @@ This method allows to flush price cache
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 5796
 
 
 
@@ -4143,6 +4417,7 @@ Get list of parent categories
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5809
 
 
 #### Arguments
@@ -4159,6 +4434,7 @@ Fill the variables used for stock management
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5828
 
 
 
@@ -4172,6 +4448,7 @@ Fill the variables used for stock management
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5841
 
 
 
@@ -4185,6 +4462,7 @@ Fill the variables used for stock management
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5850
 
 
 #### Arguments
@@ -4201,6 +4479,7 @@ get the default category according to the shop
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5868
 
 
 
@@ -4215,6 +4494,7 @@ get the default category according to the shop
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 5883
 
 
 #### Arguments
@@ -4231,6 +4511,7 @@ Remove all downloadable files for product and its attributes
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5896
 
 
 
@@ -4244,6 +4525,7 @@ Remove all downloadable files for product and its attributes
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5913
 
 
 #### Arguments
@@ -4260,6 +4542,7 @@ Remove all downloadable files for product and its attributes
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5924
 
 
 #### Arguments
@@ -4276,6 +4559,7 @@ Get the product type (simple, virtual, pack)
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5936
 
 
 
@@ -4289,6 +4573,7 @@ Get the product type (simple, virtual, pack)
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 5951
 
 
 
@@ -4303,6 +4588,7 @@ Get the product type (simple, virtual, pack)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 5961
 
 
 
@@ -4317,6 +4603,7 @@ For a given ean13 reference, returns the corresponding id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 5984
 
 
 #### Arguments
@@ -4333,6 +4620,7 @@ For a given ean13 reference, returns the corresponding id
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 6002
 
 
 
@@ -4346,6 +4634,7 @@ For a given ean13 reference, returns the corresponding id
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 6015
 
 
 
@@ -4359,6 +4648,7 @@ For a given ean13 reference, returns the corresponding id
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 6028
 
 
 
@@ -4372,6 +4662,7 @@ For a given ean13 reference, returns the corresponding id
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 6033
 
 
 #### Arguments
@@ -4388,6 +4679,7 @@ For a given ean13 reference, returns the corresponding id
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 6057
 
 
 #### Arguments
@@ -4404,6 +4696,7 @@ For a given ean13 reference, returns the corresponding id
 
 
 * Visibility: **public**
+* This method is defined in classes\Product.php line 6073
 
 
 #### Arguments
@@ -4422,6 +4715,7 @@ For a given ean13 reference, returns the corresponding id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 6092
 
 
 #### Arguments
@@ -4439,6 +4733,7 @@ For a given ean13 reference, returns the corresponding id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Product.php line 6097
 
 
 #### Arguments

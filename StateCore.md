@@ -8,7 +8,8 @@ StateCore
 
 * Class name: StateCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\State.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\State.php line 30
 
 
 ### $id_zone
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\State.php line 33
 
 
 ### $iso_code
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\State.php line 36
 
 
 ### $name
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\State.php line 39
 
 
 ### $active
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\State.php line 42
 
 
 ### $definition
@@ -83,6 +89,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\State.php line 47
 
 
 ### $webserviceParameters
@@ -94,6 +101,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\State.php line 59
 
 
 Methods
@@ -110,6 +118,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\State.php line 66
 
 
 #### Arguments
@@ -128,6 +137,7 @@ Get a state name with its ID
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\State.php line 81
 
 
 #### Arguments
@@ -145,6 +155,7 @@ Get a state id with its name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\State.php line 105
 
 
 #### Arguments
@@ -162,6 +173,7 @@ Get a state id with its iso code
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\State.php line 129
 
 
 #### Arguments
@@ -179,6 +191,7 @@ Delete a state only if is not in use
 
 
 * Visibility: **public**
+* This method is defined in classes\State.php line 143
 
 
 
@@ -192,6 +205,7 @@ Check if a state is used
 
 
 * Visibility: **public**
+* This method is defined in classes\State.php line 167
 
 
 
@@ -205,6 +219,7 @@ Returns the number of utilisation of a state
 
 
 * Visibility: **public**
+* This method is defined in classes\State.php line 177
 
 
 
@@ -219,6 +234,7 @@ Returns the number of utilisation of a state
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\State.php line 187
 
 
 #### Arguments
@@ -236,6 +252,7 @@ Returns the number of utilisation of a state
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\State.php line 200
 
 
 #### Arguments
@@ -253,6 +270,7 @@ Returns the number of utilisation of a state
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\State.php line 205
 
 
 #### Arguments
@@ -269,6 +287,7 @@ Returns the number of utilisation of a state
 
 
 * Visibility: **public**
+* This method is defined in classes\State.php line 223
 
 
 #### Arguments

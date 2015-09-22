@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_HookManager
 * Namespace: 
+* This class is defined in Adapter\Adapter_HookManager.php line 27
 
 
 
@@ -42,6 +43,7 @@ Execute modules for specified hook
 
 
 * Visibility: **public**
+* This method is defined in Adapter\Adapter_HookManager.php line 44
 
 
 #### Arguments

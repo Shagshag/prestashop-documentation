@@ -9,6 +9,7 @@ WebserviceSpecificManagementInterface
 * Interface name: WebserviceSpecificManagementInterface
 * Namespace: 
 * This is an **interface**
+* This interface is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 27
 
 
 
@@ -28,10 +29,11 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 29
 
 
 #### Arguments
-* $obj **[WebserviceOutputBuilderCore](WebserviceOutputBuilderCore.md)**
+* $obj **[WebserviceOutputBuilderCore](WebserviceOutputBuilderCore)**
 
 
 
@@ -44,6 +46,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 30
 
 
 
@@ -57,10 +60,11 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 31
 
 
 #### Arguments
-* $obj **[WebserviceRequestCore](WebserviceRequestCore.md)**
+* $obj **[WebserviceRequestCore](WebserviceRequestCore)**
 
 
 
@@ -73,6 +77,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 32
 
 
 
@@ -86,6 +91,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 34
 
 
 
@@ -99,6 +105,7 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 41
 
 
 

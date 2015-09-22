@@ -9,6 +9,7 @@ WebserviceExceptionCore
 * Class name: WebserviceExceptionCore
 * Namespace: 
 * Parent class: Exception
+* This class is defined in classes\webservice\WebserviceException.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\webservice\WebserviceException.php line 34
 
 
 ### DID_YOU_MEAN
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\webservice\WebserviceException.php line 35
 
 
 Properties
@@ -45,6 +48,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceException.php line 29
 
 
 ### $wrong_value
@@ -56,6 +60,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceException.php line 30
 
 
 ### $available_values
@@ -67,6 +72,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceException.php line 31
 
 
 ### $type
@@ -78,6 +84,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceException.php line 32
 
 
 Methods
@@ -93,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceException.php line 37
 
 
 #### Arguments
@@ -110,6 +118,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceException.php line 47
 
 
 
@@ -123,6 +132,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceException.php line 51
 
 
 #### Arguments
@@ -139,6 +149,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceException.php line 56
 
 
 #### Arguments
@@ -155,6 +166,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceException.php line 63
 
 
 
@@ -168,6 +180,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceException.php line 67
 
 
 
@@ -181,6 +194,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceException.php line 71
 
 
 #### Arguments
@@ -198,6 +212,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceException.php line 78
 
 
 

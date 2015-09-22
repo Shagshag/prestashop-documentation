@@ -8,7 +8,8 @@ DeliveryCore
 
 * Class name: DeliveryCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Delivery.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Delivery.php line 30
 
 
 ### $id_shop
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Delivery.php line 33
 
 
 ### $id_shop_group
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Delivery.php line 36
 
 
 ### $id_carrier
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Delivery.php line 39
 
 
 ### $id_range_price
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Delivery.php line 42
 
 
 ### $id_range_weight
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Delivery.php line 45
 
 
 ### $id_zone
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Delivery.php line 48
 
 
 ### $price
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Delivery.php line 51
 
 
 ### $definition
@@ -116,6 +125,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Delivery.php line 56
 
 
 ### $webserviceParameters
@@ -127,6 +137,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Delivery.php line 70
 
 
 Methods
@@ -142,6 +153,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Delivery.php line 80
 
 
 

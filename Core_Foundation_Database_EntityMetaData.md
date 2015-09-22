@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Foundation_Database_EntityMetaData
 * Namespace: 
+* This class is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 27
 
 
 
@@ -40,6 +41,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 29
 
 
 ### $primaryKeyFieldnames
@@ -51,6 +53,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 30
 
 
 Methods
@@ -66,6 +69,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 32
 
 
 #### Arguments
@@ -82,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 38
 
 
 
@@ -95,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 43
 
 
 #### Arguments
@@ -111,6 +117,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 49
 
 
 
@@ -124,6 +131,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 54
 
 
 #### Arguments
@@ -140,6 +148,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 60
 
 
 

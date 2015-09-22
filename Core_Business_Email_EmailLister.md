@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Business_Email_EmailLister
 * Namespace: 
+* This class is defined in Core\Business\Email\Core_Business_Email_EmailLister.php line 27
 
 
 
@@ -40,6 +41,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Business\Email\Core_Business_Email_EmailLister.php line 29
 
 
 Methods
@@ -55,10 +57,11 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Email\Core_Business_Email_EmailLister.php line 31
 
 
 #### Arguments
-* $fs **[Core_Foundation_FileSystem_FileSystem](Core_Foundation_FileSystem_FileSystem.md)**
+* $fs **[Core_Foundation_FileSystem_FileSystem](Core_Foundation_FileSystem_FileSystem)**
 
 
 
@@ -71,6 +74,7 @@ Return the list of available mails
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Email\Core_Business_Email_EmailLister.php line 43
 
 
 #### Arguments
@@ -87,6 +91,7 @@ Give in input getAvailableMails(), will output a human readable and proper strin
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Email\Core_Business_Email_EmailLister.php line 77
 
 
 #### Arguments

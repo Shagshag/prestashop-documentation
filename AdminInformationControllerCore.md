@@ -8,7 +8,8 @@ AdminInformationControllerCore
 
 * Class name: AdminInformationControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminInformationController.php line 27
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInformationController.php line 29
 
 
 
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInformationController.php line 35
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInformationController.php line 42
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInformationController.php line 47
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInformationController.php line 53
 
 
 
@@ -94,6 +100,7 @@ get all tests
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInformationController.php line 106
 
 
 
@@ -107,6 +114,7 @@ get all tests
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInformationController.php line 165
 
 
 
@@ -120,6 +128,7 @@ get all tests
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInformationController.php line 177
 
 
 #### Arguments

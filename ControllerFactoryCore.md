@@ -9,6 +9,7 @@ Controllers don&#039;t need to be loaded with includeController anymore since th
 * Class name: ControllerFactoryCore
 * Namespace: 
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
+* This class is defined in classes\ControllerFactory.php line 32
 
 
 
@@ -31,6 +32,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\ControllerFactory.php line 37
 
 
 #### Arguments
@@ -49,6 +51,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
+* This method is defined in classes\ControllerFactory.php line 59
 
 
 #### Arguments

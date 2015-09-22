@@ -8,7 +8,8 @@ QuickAccessCore
 
 * Class name: QuickAccessCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\QuickAccess.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\QuickAccess.php line 30
 
 
 ### $link
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\QuickAccess.php line 33
 
 
 ### $new_window
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\QuickAccess.php line 36
 
 
 ### $definition
@@ -61,6 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\QuickAccess.php line 41
 
 
 Methods
@@ -77,6 +82,7 @@ Get all available quick_accesses
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\QuickAccess.php line 59
 
 
 #### Arguments
@@ -93,6 +99,7 @@ Get all available quick_accesses
 
 
 * Visibility: **public**
+* This method is defined in classes\QuickAccess.php line 68
 
 
 

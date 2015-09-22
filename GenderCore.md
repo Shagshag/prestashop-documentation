@@ -8,7 +8,8 @@ GenderCore
 
 * Class name: GenderCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Gender.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Gender.php line 32
 
 
 ### $name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Gender.php line 33
 
 
 ### $type
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Gender.php line 34
 
 
 ### $definition
@@ -61,6 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Gender.php line 39
 
 
 Methods
@@ -76,6 +81,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Gender.php line 51
 
 
 #### Arguments
@@ -95,6 +101,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Gender.php line 58
 
 
 #### Arguments
@@ -111,6 +118,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Gender.php line 68
 
 
 #### Arguments

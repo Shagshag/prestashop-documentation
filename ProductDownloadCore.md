@@ -8,7 +8,8 @@ ProductDownloadCore
 
 * Class name: ProductDownloadCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\ProductDownload.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductDownload.php line 30
 
 
 ### $display_filename
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductDownload.php line 33
 
 
 ### $filename
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductDownload.php line 36
 
 
 ### $date_add
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductDownload.php line 39
 
 
 ### $date_expiration
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductDownload.php line 42
 
 
 ### $nb_days_accessible
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductDownload.php line 45
 
 
 ### $nb_downloadable
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductDownload.php line 48
 
 
 ### $active
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductDownload.php line 51
 
 
 ### $is_shareable
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductDownload.php line 54
 
 
 ### $_productIds
@@ -127,6 +137,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\ProductDownload.php line 56
 
 
 ### $definition
@@ -139,6 +150,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\ProductDownload.php line 61
 
 
 Methods
@@ -154,6 +166,7 @@ Build a virtual product
 
 
 * Visibility: **public**
+* This method is defined in classes\ProductDownload.php line 82
 
 
 #### Arguments
@@ -170,6 +183,7 @@ Build a virtual product
 
 
 * Visibility: **public**
+* This method is defined in classes\ProductDownload.php line 92
 
 
 
@@ -183,6 +197,7 @@ Build a virtual product
 
 
 * Visibility: **public**
+* This method is defined in classes\ProductDownload.php line 102
 
 
 #### Arguments
@@ -200,6 +215,7 @@ Build a virtual product
 
 
 * Visibility: **public**
+* This method is defined in classes\ProductDownload.php line 107
 
 
 #### Arguments
@@ -216,6 +232,7 @@ Build a virtual product
 
 
 * Visibility: **public**
+* This method is defined in classes\ProductDownload.php line 117
 
 
 #### Arguments
@@ -232,6 +249,7 @@ Delete the file
 
 
 * Visibility: **public**
+* This method is defined in classes\ProductDownload.php line 132
 
 
 #### Arguments
@@ -248,6 +266,7 @@ Check if file exists
 
 
 * Visibility: **public**
+* This method is defined in classes\ProductDownload.php line 147
 
 
 
@@ -262,6 +281,7 @@ Check if download repository is writable
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductDownload.php line 160
 
 
 
@@ -276,6 +296,7 @@ Return the id_product_download from an id_product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductDownload.php line 171
 
 
 #### Arguments
@@ -293,6 +314,7 @@ Return the display filename from a physical filename
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductDownload.php line 198
 
 
 #### Arguments
@@ -310,6 +332,7 @@ Return the filename from an id_product
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductDownload.php line 212
 
 
 #### Arguments
@@ -327,6 +350,7 @@ Return the display filename from a physical filename
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductDownload.php line 228
 
 
 #### Arguments
@@ -343,6 +367,7 @@ Return html link
 
 
 * Visibility: **public**
+* This method is defined in classes\ProductDownload.php line 244
 
 
 #### Arguments
@@ -360,6 +385,7 @@ Return html link
 
 
 * Visibility: **public**
+* This method is defined in classes\ProductDownload.php line 260
 
 
 #### Arguments
@@ -378,6 +404,7 @@ Return a deadline
 
 
 * Visibility: **public**
+* This method is defined in classes\ProductDownload.php line 276
 
 
 
@@ -391,6 +418,7 @@ Return a hash for control download access
 
 
 * Visibility: **public**
+* This method is defined in classes\ProductDownload.php line 290
 
 
 
@@ -405,6 +433,7 @@ Return a sha1 filename
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductDownload.php line 301
 
 
 
@@ -419,6 +448,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductDownload.php line 314
 
 
 

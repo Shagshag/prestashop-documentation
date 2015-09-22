@@ -8,7 +8,8 @@ EmployeeCore
 
 * Class name: EmployeeCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Employee.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 29
 
 
 ### $id_profile
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 32
 
 
 ### $id_lang
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 35
 
 
 ### $lastname
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 38
 
 
 ### $firstname
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 41
 
 
 ### $email
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 44
 
 
 ### $passwd
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 47
 
 
 ### $last_passwd_gen
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 50
 
 
 ### $stats_date_from
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 52
 
 
 ### $stats_date_to
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 53
 
 
 ### $stats_compare_from
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 55
 
 
 ### $stats_compare_to
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 56
 
 
 ### $stats_compare_option
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 57
 
 
 ### $preselect_date_range
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 59
 
 
 ### $bo_color
@@ -181,6 +196,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 62
 
 
 ### $default_tab
@@ -192,6 +208,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 64
 
 
 ### $bo_theme
@@ -203,6 +220,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 67
 
 
 ### $bo_css
@@ -214,6 +232,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 70
 
 
 ### $bo_width
@@ -225,6 +244,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 73
 
 
 ### $bo_menu
@@ -236,6 +256,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 76
 
 
 ### $bo_show_screencast
@@ -247,6 +268,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 79
 
 
 ### $active
@@ -258,6 +280,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 82
 
 
 ### $optin
@@ -269,6 +292,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 85
 
 
 ### $remote_addr
@@ -280,6 +304,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 87
 
 
 ### $id_last_order
@@ -291,6 +316,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 90
 
 
 ### $id_last_customer_message
@@ -302,6 +328,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 91
 
 
 ### $id_last_customer
@@ -313,6 +340,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Employee.php line 92
 
 
 ### $definition
@@ -325,6 +353,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Employee.php line 97
 
 
 ### $webserviceParameters
@@ -336,6 +365,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Employee.php line 128
 
 
 ### $associated_shops
@@ -347,6 +377,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Employee.php line 140
 
 
 Methods
@@ -362,6 +393,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 142
 
 
 #### Arguments
@@ -380,6 +412,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 161
 
 
 
@@ -393,6 +426,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 182
 
 
 #### Arguments
@@ -410,6 +444,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 190
 
 
 #### Arguments
@@ -426,6 +461,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\Employee.php line 210
 
 
 
@@ -439,6 +475,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\Employee.php line 234
 
 
 
@@ -453,6 +490,7 @@ Return list of employees
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Employee.php line 255
 
 
 #### Arguments
@@ -469,6 +507,7 @@ Return employee instance from its e-mail (optionnaly check password)
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 273
 
 
 #### Arguments
@@ -488,6 +527,7 @@ Return employee instance from its e-mail (optionnaly check password)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Employee.php line 298
 
 
 #### Arguments
@@ -505,6 +545,7 @@ Check if employee password is the right one
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Employee.php line 316
 
 
 #### Arguments
@@ -523,6 +564,7 @@ Check if employee password is the right one
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Employee.php line 330
 
 
 #### Arguments
@@ -540,6 +582,7 @@ Check if employee password is the right one
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 339
 
 
 
@@ -553,6 +596,7 @@ Check if employee password is the right one
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 347
 
 
 #### Arguments
@@ -569,6 +613,7 @@ Check employee informations saved into cookie and return employee validity
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 364
 
 
 
@@ -582,6 +627,7 @@ Logout
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 381
 
 
 
@@ -595,6 +641,7 @@ Logout
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 390
 
 
 
@@ -608,6 +655,7 @@ Check if the employee is associated to a specific shop
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 406
 
 
 #### Arguments
@@ -624,6 +672,7 @@ Check if the employee is associated to a specific shop group
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 418
 
 
 #### Arguments
@@ -640,6 +689,7 @@ Get default id_shop with auth for current employee
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 438
 
 
 
@@ -654,6 +704,7 @@ Get default id_shop with auth for current employee
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Employee.php line 446
 
 
 #### Arguments
@@ -671,6 +722,7 @@ Check if current employee is super administrator
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 460
 
 
 
@@ -684,6 +736,7 @@ Check if current employee is super administrator
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 465
 
 
 
@@ -697,6 +750,7 @@ Check if current employee is super administrator
 
 
 * Visibility: **public**
+* This method is defined in classes\Employee.php line 473
 
 
 #### Arguments
@@ -714,6 +768,7 @@ Check if current employee is super administrator
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Employee.php line 488
 
 
 #### Arguments

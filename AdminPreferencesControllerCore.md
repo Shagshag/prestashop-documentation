@@ -8,7 +8,8 @@ AdminPreferencesControllerCore
 
 * Class name: AdminPreferencesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminPreferencesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminPreferencesController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPreferencesController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Enable / disable multishop menu if multishop feature is activated
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPreferencesController.php line 238
 
 
 #### Arguments

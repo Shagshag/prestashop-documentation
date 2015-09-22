@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: AddressCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Address.php line 27
 
 
 
@@ -41,6 +42,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 30
 
 
 ### $id_manufacturer
@@ -52,6 +54,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 33
 
 
 ### $id_supplier
@@ -63,6 +66,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 36
 
 
 ### $id_warehouse
@@ -74,6 +78,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 42
 
 
 ### $id_country
@@ -85,6 +90,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 45
 
 
 ### $id_state
@@ -96,6 +102,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 48
 
 
 ### $country
@@ -107,6 +114,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 51
 
 
 ### $alias
@@ -118,6 +126,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 54
 
 
 ### $company
@@ -129,6 +138,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 57
 
 
 ### $lastname
@@ -140,6 +150,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 60
 
 
 ### $firstname
@@ -151,6 +162,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 63
 
 
 ### $address1
@@ -162,6 +174,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 66
 
 
 ### $address2
@@ -173,6 +186,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 69
 
 
 ### $postcode
@@ -184,6 +198,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 72
 
 
 ### $city
@@ -195,6 +210,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 75
 
 
 ### $other
@@ -206,6 +222,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 78
 
 
 ### $phone
@@ -217,6 +234,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 81
 
 
 ### $phone_mobile
@@ -228,6 +246,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 84
 
 
 ### $vat_number
@@ -239,6 +258,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 87
 
 
 ### $dni
@@ -250,6 +270,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 90
 
 
 ### $date_add
@@ -261,6 +282,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 93
 
 
 ### $date_upd
@@ -272,6 +294,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 96
 
 
 ### $deleted
@@ -283,6 +306,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Address.php line 99
 
 
 ### $_idZones
@@ -295,6 +319,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Address.php line 101
 
 
 ### $_idCountries
@@ -307,6 +332,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Address.php line 102
 
 
 ### $definition
@@ -319,6 +345,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Address.php line 107
 
 
 ### $_includeVars
@@ -330,6 +357,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Address.php line 136
 
 
 ### $_includeContainer
@@ -341,6 +369,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Address.php line 137
 
 
 ### $webserviceParameters
@@ -352,6 +381,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Address.php line 139
 
 
 Methods
@@ -367,6 +397,7 @@ Build an address
 
 
 * Visibility: **public**
+* This method is defined in classes\Address.php line 156
 
 
 #### Arguments
@@ -384,6 +415,7 @@ Build an address
 
 
 * Visibility: **public**
+* This method is defined in classes\Address.php line 169
 
 
 #### Arguments
@@ -401,6 +433,7 @@ Build an address
 
 
 * Visibility: **public**
+* This method is defined in classes\Address.php line 181
 
 
 #### Arguments
@@ -417,6 +450,7 @@ Build an address
 
 
 * Visibility: **public**
+* This method is defined in classes\Address.php line 201
 
 
 
@@ -431,6 +465,7 @@ Returns fields required for an address in an array hash
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Address.php line 219
 
 
 
@@ -444,6 +479,7 @@ Returns fields required for an address in an array hash
 
 
 * Visibility: **public**
+* This method is defined in classes\Address.php line 231
 
 
 #### Arguments
@@ -461,6 +497,7 @@ Get zone id for a given address
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Address.php line 249
 
 
 #### Arguments
@@ -478,6 +515,7 @@ Check if country is active for a given address
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Address.php line 283
 
 
 #### Arguments
@@ -494,6 +532,7 @@ Check if address is used (at least one order placed)
 
 
 * Visibility: **public**
+* This method is defined in classes\Address.php line 307
 
 
 
@@ -508,6 +547,7 @@ Check if address is used (at least one order placed)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Address.php line 318
 
 
 #### Arguments
@@ -525,6 +565,7 @@ Specify if an address is already in base
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Address.php line 340
 
 
 #### Arguments
@@ -542,6 +583,7 @@ Specify if an address is already in base
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Address.php line 351
 
 
 #### Arguments
@@ -561,6 +603,7 @@ default shop configuration
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Address.php line 379
 
 
 #### Arguments
@@ -579,6 +622,7 @@ Returns id_address for a given id_supplier
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Address.php line 428
 
 
 #### Arguments
@@ -596,6 +640,7 @@ Returns id_address for a given id_supplier
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Address.php line 441
 
 
 #### Arguments
@@ -614,6 +659,7 @@ Returns id_address for a given id_supplier
 
 
 * Visibility: **public**
+* This method is defined in classes\Address.php line 454
 
 
 

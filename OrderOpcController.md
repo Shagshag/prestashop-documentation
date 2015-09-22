@@ -11,7 +11,8 @@ needs please refer to http://doc.prestashop.com/display/PS15/Overriding+default+
 
 * Class name: OrderOpcController
 * Namespace: 
-* Parent class: [OrderOpcControllerCore](OrderOpcControllerCore.md)
+* Parent class: [OrderOpcControllerCore](OrderOpcControllerCore)
+* This class is defined in override\controllers\front\OrderOpcController.php line 16
 
 
 
@@ -30,6 +31,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in override\controllers\front\OrderOpcController.php line 29
 
 
 ### $isLogged
@@ -41,6 +43,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in override\controllers\front\OrderOpcController.php line 30
 
 
 ### $ajax_refresh
@@ -52,6 +55,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in override\controllers\front\OrderOpcController.php line 32
 
 
 Methods
@@ -67,7 +71,8 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore.md)
+* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore)
+* This method is defined in override\controllers\front\OrderOpcController.php line 544
 
 
 
@@ -81,7 +86,8 @@ Initialize order opc controller
 
 
 * Visibility: **public**
-* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore.md)
+* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore)
+* This method is defined in override\controllers\front\OrderOpcController.php line 38
 
 
 
@@ -95,7 +101,8 @@ Initialize order opc controller
 
 
 * Visibility: **public**
-* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore.md)
+* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore)
+* This method is defined in override\controllers\front\OrderOpcController.php line 325
 
 
 
@@ -109,7 +116,8 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore.md)
+* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore)
+* This method is defined in override\controllers\front\OrderOpcController.php line 351
 
 
 
@@ -123,7 +131,8 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore.md)
+* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore)
+* This method is defined in override\controllers\front\OrderOpcController.php line 437
 
 
 
@@ -137,7 +146,8 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore.md)
+* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore)
+* This method is defined in override\controllers\front\OrderOpcController.php line 506
 
 
 
@@ -151,7 +161,8 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore.md)
+* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore)
+* This method is defined in override\controllers\front\OrderOpcController.php line 527
 
 
 
@@ -165,7 +176,8 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore.md)
+* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore)
+* This method is defined in override\controllers\front\OrderOpcController.php line 609
 
 
 
@@ -179,7 +191,8 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore.md)
+* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore)
+* This method is defined in override\controllers\front\OrderOpcController.php line 695
 
 
 
@@ -193,7 +206,8 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore.md)
+* This method is defined by [OrderOpcControllerCore](OrderOpcControllerCore)
+* This method is defined in override\controllers\front\OrderOpcController.php line 738
 
 
 

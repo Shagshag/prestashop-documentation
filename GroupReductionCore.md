@@ -8,7 +8,8 @@ GroupReductionCore
 
 * Class name: GroupReductionCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\GroupReduction.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\GroupReduction.php line 29
 
 
 ### $id_category
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\GroupReduction.php line 30
 
 
 ### $reduction
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\GroupReduction.php line 31
 
 
 ### $definition
@@ -61,6 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\GroupReduction.php line 36
 
 
 ### $reduction_cache
@@ -73,6 +78,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\GroupReduction.php line 46
 
 
 Methods
@@ -88,6 +94,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\GroupReduction.php line 48
 
 
 #### Arguments
@@ -105,6 +112,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\GroupReduction.php line 53
 
 
 #### Arguments
@@ -121,6 +129,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\GroupReduction.php line 58
 
 
 
@@ -134,6 +143,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\GroupReduction.php line 77
 
 
 
@@ -147,6 +157,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\GroupReduction.php line 82
 
 
 
@@ -160,6 +171,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\GroupReduction.php line 105
 
 
 
@@ -174,6 +186,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\GroupReduction.php line 128
 
 
 #### Arguments
@@ -192,6 +205,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\GroupReduction.php line 139
 
 
 #### Arguments
@@ -210,6 +224,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\GroupReduction.php line 155
 
 
 #### Arguments
@@ -228,6 +243,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\GroupReduction.php line 163
 
 
 #### Arguments
@@ -245,6 +261,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\GroupReduction.php line 177
 
 
 #### Arguments
@@ -262,6 +279,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\GroupReduction.php line 186
 
 
 #### Arguments
@@ -279,6 +297,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\GroupReduction.php line 200
 
 
 #### Arguments
@@ -296,6 +315,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\GroupReduction.php line 209
 
 
 #### Arguments
@@ -316,6 +336,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\GroupReduction.php line 231
 
 
 #### Arguments
@@ -333,6 +354,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\GroupReduction.php line 240
 
 
 #### Arguments
@@ -351,6 +373,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\GroupReduction.php line 262
 
 
 #### Arguments

@@ -9,6 +9,7 @@ AbstractLoggerCore
 * Class name: AbstractLoggerCore
 * Namespace: 
 * This is an **abstract** class
+* This class is defined in classes\log\AbstractLogger.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\log\AbstractLogger.php line 37
 
 
 ### INFO
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in classes\log\AbstractLogger.php line 38
 
 
 ### WARNING
@@ -38,6 +41,7 @@ Constants
 
 
 
+* This constant is defined in classes\log\AbstractLogger.php line 39
 
 
 ### ERROR
@@ -46,6 +50,7 @@ Constants
 
 
 
+* This constant is defined in classes\log\AbstractLogger.php line 40
 
 
 Properties
@@ -61,6 +66,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\log\AbstractLogger.php line 29
 
 
 ### $level_value
@@ -72,6 +78,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\log\AbstractLogger.php line 30
 
 
 Methods
@@ -87,6 +94,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\log\AbstractLogger.php line 42
 
 
 #### Arguments
@@ -104,6 +112,7 @@ Log the message
 
 * Visibility: **protected**
 * This method is **abstract**.
+* This method is defined in classes\log\AbstractLogger.php line 57
 
 
 #### Arguments
@@ -121,6 +130,7 @@ Check the level and log the message if needed
 
 
 * Visibility: **public**
+* This method is defined in classes\log\AbstractLogger.php line 65
 
 
 #### Arguments
@@ -138,6 +148,7 @@ Log a debug message
 
 
 * Visibility: **public**
+* This method is defined in classes\log\AbstractLogger.php line 77
 
 
 #### Arguments
@@ -154,6 +165,7 @@ Log an info message
 
 
 * Visibility: **public**
+* This method is defined in classes\log\AbstractLogger.php line 87
 
 
 #### Arguments
@@ -170,6 +182,7 @@ Log a warning message
 
 
 * Visibility: **public**
+* This method is defined in classes\log\AbstractLogger.php line 97
 
 
 #### Arguments
@@ -186,6 +199,7 @@ Log an error message
 
 
 * Visibility: **public**
+* This method is defined in classes\log\AbstractLogger.php line 107
 
 
 #### Arguments

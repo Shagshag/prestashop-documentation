@@ -8,7 +8,8 @@ AdminTaxRulesGroupControllerCore
 
 * Class name: AdminTaxRulesGroupControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminTaxRulesGroupController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminTaxRulesGroupController.php line 32
 
 
 ### $selected_countries
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminTaxRulesGroupController.php line 33
 
 
 ### $selected_states
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminTaxRulesGroupController.php line 34
 
 
 ### $errors_tax_rule
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminTaxRulesGroupController.php line 35
 
 
 ### $object
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminTaxRulesGroupController.php line 30
 
 
 Methods
@@ -86,6 +92,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 37
 
 
 
@@ -99,6 +106,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 78
 
 
 
@@ -112,6 +120,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 91
 
 
 
@@ -125,6 +134,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 99
 
 
 #### Arguments
@@ -141,6 +151,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 164
 
 
 
@@ -154,6 +165,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 236
 
 
 
@@ -167,6 +179,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 379
 
 
 
@@ -180,6 +193,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 404
 
 
 
@@ -193,6 +207,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 496
 
 
 
@@ -206,6 +221,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 501
 
 
 
@@ -219,6 +235,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 506
 
 
 #### Arguments
@@ -235,10 +252,11 @@ Check if the tax rule could be added in the database
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 534
 
 
 #### Arguments
-* $tr **TaxRule**
+* $tr **[TaxRule](TaxRuleCore)**
 
 
 
@@ -251,6 +269,7 @@ Check if the tax rule could be added in the database
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 540
 
 
 
@@ -264,9 +283,10 @@ Check if the tax rule could be added in the database
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTaxRulesGroupController.php line 558
 
 
 #### Arguments
-* $object **TaxRulesGroup**
+* $object **[TaxRulesGroup](TaxRulesGroupCore)**
 
 

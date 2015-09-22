@@ -8,7 +8,8 @@ Holds Stock
 
 * Class name: WarehouseCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\stock\Warehouse.php line 32
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Warehouse.php line 35
 
 
 ### $id_address
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Warehouse.php line 38
 
 
 ### $reference
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Warehouse.php line 41
 
 
 ### $name
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Warehouse.php line 44
 
 
 ### $id_employee
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Warehouse.php line 47
 
 
 ### $id_currency
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Warehouse.php line 50
 
 
 ### $deleted
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Warehouse.php line 53
 
 
 ### $management_type
@@ -104,6 +112,7 @@ Describes the way a Warehouse is managed
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\Warehouse.php line 60
 
 
 ### $definition
@@ -116,6 +125,7 @@ Describes the way a Warehouse is managed
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\stock\Warehouse.php line 65
 
 
 ### $webserviceParameters
@@ -127,6 +137,7 @@ Describes the way a Warehouse is managed
 
 
 * Visibility: **protected**
+* This property is defined in classes\stock\Warehouse.php line 82
 
 
 Methods
@@ -142,6 +153,7 @@ Gets the shops associated to the current warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 118
 
 
 
@@ -155,6 +167,7 @@ Gets the carriers associated to the current warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 135
 
 
 #### Arguments
@@ -171,6 +184,7 @@ Sets the carriers associated to the current warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 169
 
 
 #### Arguments
@@ -189,6 +203,7 @@ If $id_warehouse is set, it only removes the carrier for this warehouse
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Warehouse.php line 196
 
 
 #### Arguments
@@ -206,6 +221,7 @@ Checks if a warehouse is empty - i.e. has no stock
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 209
 
 
 
@@ -220,6 +236,7 @@ Checks if the given warehouse exists
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Warehouse.php line 224
 
 
 #### Arguments
@@ -238,6 +255,7 @@ First, for the given parameters, it cleans the database before updating
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Warehouse.php line 244
 
 
 #### Arguments
@@ -257,6 +275,7 @@ Resets all product locations for this warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 265
 
 
 
@@ -271,6 +290,7 @@ For a given {product, product attribute} gets its location in the given warehous
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Warehouse.php line 280
 
 
 #### Arguments
@@ -290,6 +310,7 @@ For a given {product, product attribute} gets warehouse list
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Warehouse.php line 300
 
 
 #### Arguments
@@ -310,6 +331,7 @@ It is possible via ignore_shop and id_shop to filter the list with shop id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Warehouse.php line 344
 
 
 #### Arguments
@@ -328,6 +350,7 @@ Gets warehouses grouped by shops
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Warehouse.php line 369
 
 
 
@@ -341,6 +364,7 @@ Gets the number of products in the current warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 390
 
 
 
@@ -354,6 +378,7 @@ Gets the number of quantities - for all products - in the current warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 410
 
 
 
@@ -367,6 +392,7 @@ Gets the value of the stock in the current warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 427
 
 
 
@@ -381,6 +407,7 @@ For a given employee, gets the warehouse(s) he/she manages
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Warehouse.php line 443
 
 
 #### Arguments
@@ -398,6 +425,7 @@ For a given product, returns the warehouses it is stored in
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Warehouse.php line 460
 
 
 #### Arguments
@@ -416,6 +444,7 @@ For a given $id_warehouse, returns its name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Warehouse.php line 487
 
 
 #### Arguments
@@ -433,6 +462,7 @@ For a given pack, returns the warehouse it can be shipped from
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\Warehouse.php line 502
 
 
 #### Arguments
@@ -450,6 +480,7 @@ For a given pack, returns the warehouse it can be shipped from
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 547
 
 
 
@@ -463,6 +494,7 @@ Webservice : gets the value of the warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 565
 
 
 
@@ -476,6 +508,7 @@ Webservice : gets the ids stock associated to this warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 574
 
 
 
@@ -489,6 +522,7 @@ Webservice : gets the ids shops associated to this warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 588
 
 
 
@@ -502,6 +536,7 @@ Webservice : gets the ids carriers associated to this warehouse
 
 
 * Visibility: **public**
+* This method is defined in classes\stock\Warehouse.php line 604
 
 
 

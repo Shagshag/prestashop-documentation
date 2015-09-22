@@ -8,7 +8,8 @@ AdminMetaControllerCore
 
 * Class name: AdminMetaControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminMetaController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminMetaController.php line 32
 
 
 ### $className
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminMetaController.php line 33
 
 
 ### $lang
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminMetaController.php line 34
 
 
 ### $url
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminMetaController.php line 37
 
 
 ### $toolbar_scroll
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminMetaController.php line 38
 
 
 ### $object
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminMetaController.php line 30
 
 
 Methods
@@ -97,6 +104,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 40
 
 
 
@@ -110,6 +118,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 229
 
 
 
@@ -123,6 +132,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 242
 
 
 
@@ -136,6 +146,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 251
 
 
 
@@ -149,6 +160,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 258
 
 
 #### Arguments
@@ -166,6 +178,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 275
 
 
 
@@ -179,6 +192,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 388
 
 
 
@@ -192,6 +206,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 460
 
 
 
@@ -205,6 +220,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 540
 
 
 #### Arguments
@@ -226,6 +242,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 545
 
 
 
@@ -239,6 +256,7 @@ Validate route syntax and save it in configuration
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 559
 
 
 #### Arguments
@@ -255,6 +273,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 589
 
 
 
@@ -268,6 +287,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 614
 
 
 
@@ -281,6 +301,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 619
 
 
 
@@ -294,6 +315,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 624
 
 
 
@@ -307,6 +329,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 629
 
 
 
@@ -320,6 +343,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 634
 
 
 
@@ -333,6 +357,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 639
 
 
 
@@ -346,6 +371,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 644
 
 
 
@@ -359,6 +385,7 @@ Update shop domain (for mono shop)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 656
 
 
 #### Arguments
@@ -375,6 +402,7 @@ Update shop SSL domain (for mono shop)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 676
 
 
 #### Arguments
@@ -391,6 +419,7 @@ Update shop physical uri for mono shop)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 696
 
 
 #### Arguments
@@ -407,6 +436,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 707
 
 
 
@@ -420,6 +450,7 @@ Add all custom route fields to the options form
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 735
 
 
 
@@ -433,6 +464,7 @@ Check if a file is writable
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 753
 
 
 #### Arguments
@@ -449,6 +481,7 @@ Check if a file is writable
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminMetaController.php line 761
 
 
 

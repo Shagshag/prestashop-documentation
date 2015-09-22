@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: HelperShopCore
 * Namespace: 
-* Parent class: Helper
+* Parent class: [Helper](HelperCore)
+* This class is defined in classes\helper\HelperShop.php line 27
 
 
 
@@ -43,6 +44,7 @@ Render shop list
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperShop.php line 34
 
 
 

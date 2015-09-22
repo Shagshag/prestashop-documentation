@@ -8,7 +8,8 @@ WarehouseProductLocationCore
 
 * Class name: WarehouseProductLocationCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\stock\WarehouseProductLocation.php line 29
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\WarehouseProductLocation.php line 34
 
 
 ### $id_product_attribute
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\WarehouseProductLocation.php line 39
 
 
 ### $id_warehouse
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\WarehouseProductLocation.php line 44
 
 
 ### $location
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\WarehouseProductLocation.php line 49
 
 
 ### $definition
@@ -72,6 +77,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\stock\WarehouseProductLocation.php line 54
 
 
 ### $webserviceParameters
@@ -83,6 +89,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\stock\WarehouseProductLocation.php line 68
 
 
 Methods
@@ -99,6 +106,7 @@ For a given product and warehouse, gets the location
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\WarehouseProductLocation.php line 86
 
 
 #### Arguments
@@ -118,6 +126,7 @@ For a given product and warehouse, gets the WarehouseProductLocation correspondi
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\WarehouseProductLocation.php line 108
 
 
 #### Arguments
@@ -137,6 +146,7 @@ For a given product, gets its warehouses
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\WarehouseProductLocation.php line 128
 
 
 #### Arguments
@@ -154,6 +164,7 @@ For a given product, gets its warehouses
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\WarehouseProductLocation.php line 135
 
 
 #### Arguments

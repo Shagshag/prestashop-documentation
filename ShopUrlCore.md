@@ -8,7 +8,8 @@ ShopUrlCore
 
 * Class name: ShopUrlCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\shop\ShopUrl.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopUrl.php line 29
 
 
 ### $domain
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopUrl.php line 30
 
 
 ### $domain_ssl
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopUrl.php line 31
 
 
 ### $physical_uri
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopUrl.php line 32
 
 
 ### $virtual_uri
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopUrl.php line 33
 
 
 ### $main
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopUrl.php line 34
 
 
 ### $active
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\shop\ShopUrl.php line 35
 
 
 ### $main_domain
@@ -105,6 +113,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\shop\ShopUrl.php line 37
 
 
 ### $main_domain_ssl
@@ -117,6 +126,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\shop\ShopUrl.php line 38
 
 
 ### $definition
@@ -129,6 +139,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\shop\ShopUrl.php line 43
 
 
 ### $webserviceParameters
@@ -140,6 +151,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\shop\ShopUrl.php line 57
 
 
 Methods
@@ -155,6 +167,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\ShopUrl.php line 67
 
 
 
@@ -168,6 +181,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\ShopUrl.php line 87
 
 
 
@@ -181,6 +195,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\ShopUrl.php line 92
 
 
 #### Arguments
@@ -198,6 +213,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\ShopUrl.php line 108
 
 
 #### Arguments
@@ -214,6 +230,7 @@ Get list of shop urls
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\ShopUrl.php line 117
 
 
 
@@ -227,6 +244,7 @@ Get list of shop urls
 
 
 * Visibility: **public**
+* This method is defined in classes\shop\ShopUrl.php line 138
 
 
 #### Arguments
@@ -247,6 +265,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\ShopUrl.php line 162
 
 
 #### Arguments
@@ -264,6 +283,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\ShopUrl.php line 175
 
 
 
@@ -278,6 +298,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\ShopUrl.php line 181
 
 
 #### Arguments
@@ -295,6 +316,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\shop\ShopUrl.php line 187
 
 
 #### Arguments

@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_EntityMapper
 * Namespace: 
+* This class is defined in Adapter\Adapter_EntityMapper.php line 27
 
 
 
@@ -42,6 +43,7 @@ Load ObjectModel
 
 
 * Visibility: **public**
+* This method is defined in Adapter\Adapter_EntityMapper.php line 39
 
 
 #### Arguments

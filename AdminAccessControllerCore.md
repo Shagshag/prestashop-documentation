@@ -8,7 +8,8 @@ AdminAccessControllerCore
 
 * Class name: AdminAccessControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminAccessController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminAccessController.php line 33
 
 
 ### $object
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminAccessController.php line 30
 
 
 Methods
@@ -53,6 +56,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAccessController.php line 35
 
 
 
@@ -66,6 +70,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAccessController.php line 55
 
 
 
@@ -79,6 +84,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAccessController.php line 124
 
 
 
@@ -92,6 +98,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAccessController.php line 144
 
 
 
@@ -105,6 +112,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAccessController.php line 149
 
 
 
@@ -118,6 +126,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAccessController.php line 155
 
 
 
@@ -131,6 +140,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAccessController.php line 212
 
 
 
@@ -144,6 +154,7 @@ Get the current profile id
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminAccessController.php line 255
 
 
 
@@ -157,6 +168,7 @@ Get the current profile id
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminAccessController.php line 260
 
 
 #### Arguments

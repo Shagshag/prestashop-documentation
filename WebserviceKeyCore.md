@@ -8,7 +8,8 @@ WebserviceKeyCore
 
 * Class name: WebserviceKeyCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\webservice\WebserviceKey.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\webservice\WebserviceKey.php line 30
 
 
 ### $active
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\webservice\WebserviceKey.php line 33
 
 
 ### $description
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\webservice\WebserviceKey.php line 36
 
 
 ### $definition
@@ -61,6 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\webservice\WebserviceKey.php line 41
 
 
 Methods
@@ -76,6 +81,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceKey.php line 51
 
 
 #### Arguments
@@ -94,6 +100,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\webservice\WebserviceKey.php line 59
 
 
 #### Arguments
@@ -110,6 +117,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceKey.php line 67
 
 
 
@@ -123,6 +131,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceKey.php line 72
 
 
 
@@ -137,6 +146,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\webservice\WebserviceKey.php line 77
 
 
 #### Arguments
@@ -154,6 +164,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\webservice\WebserviceKey.php line 94
 
 
 #### Arguments
@@ -171,6 +182,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\webservice\WebserviceKey.php line 102
 
 
 #### Arguments
@@ -188,6 +200,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\webservice\WebserviceKey.php line 110
 
 
 #### Arguments

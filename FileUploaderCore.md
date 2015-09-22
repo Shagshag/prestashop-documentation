@@ -8,6 +8,7 @@ FileUploaderCore
 
 * Class name: FileUploaderCore
 * Namespace: 
+* This class is defined in classes\FileUploader.php line 27
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\FileUploader.php line 29
 
 
 ### $file
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\FileUploader.php line 32
 
 
 ### $sizeLimit
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\FileUploader.php line 33
 
 
 Methods
@@ -63,6 +67,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\FileUploader.php line 35
 
 
 #### Arguments
@@ -80,6 +85,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\FileUploader.php line 51
 
 
 #### Arguments
@@ -96,6 +102,7 @@ Returns array('success'=>true) or array('error'=>'error message')
 
 
 * Visibility: **public**
+* This method is defined in classes\FileUploader.php line 66
 
 
 

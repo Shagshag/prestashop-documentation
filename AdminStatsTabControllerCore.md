@@ -9,7 +9,8 @@ AdminStatsTabControllerCore
 * Class name: AdminStatsTabControllerCore
 * Namespace: 
 * This is an **abstract** class
-* Parent class: [AdminPreferencesControllerCore](AdminPreferencesControllerCore.md)
+* Parent class: [AdminPreferencesControllerCore](AdminPreferencesControllerCore)
+* This class is defined in controllers\admin\AdminStatsTabController.php line 27
 
 
 
@@ -28,7 +29,8 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined by [AdminPreferencesControllerCore](AdminPreferencesControllerCore.md)
+* This property is defined by [AdminPreferencesControllerCore](AdminPreferencesControllerCore)
+* This property is defined in controllers\admin\AdminStatsTabController.php line 30
 
 
 Methods
@@ -44,6 +46,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 29
 
 
 
@@ -57,6 +60,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 37
 
 
 
@@ -70,6 +74,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 69
 
 
 
@@ -83,6 +88,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 75
 
 
 
@@ -97,6 +103,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminStatsTabController.php line 88
 
 
 #### Arguments
@@ -118,6 +125,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 123
 
 
 
@@ -131,6 +139,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 148
 
 
 
@@ -144,6 +153,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 176
 
 
 #### Arguments
@@ -161,6 +171,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 181
 
 
 
@@ -174,6 +185,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 194
 
 
 
@@ -187,6 +199,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 223
 
 
 
@@ -200,6 +213,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 241
 
 
 
@@ -213,6 +227,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 285
 
 
 
@@ -226,6 +241,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStatsTabController.php line 307
 
 
 
@@ -239,7 +255,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [AdminPreferencesControllerCore](AdminPreferencesControllerCore.md)
+* This method is defined by [AdminPreferencesControllerCore](AdminPreferencesControllerCore)
+* This method is defined in controllers\admin\AdminStatsTabController.php line 32
 
 
 
@@ -253,7 +270,8 @@ Enable / disable multishop menu if multishop feature is activated
 
 
 * Visibility: **public**
-* This method is defined by [AdminPreferencesControllerCore](AdminPreferencesControllerCore.md)
+* This method is defined by [AdminPreferencesControllerCore](AdminPreferencesControllerCore)
+* This method is defined in controllers\admin\AdminStatsTabController.php line 238
 
 
 #### Arguments

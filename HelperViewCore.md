@@ -8,7 +8,8 @@ HelperViewCore
 
 * Class name: HelperViewCore
 * Namespace: 
-* Parent class: Helper
+* Parent class: [Helper](HelperCore)
+* This class is defined in classes\helper\HelperView.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperView.php line 29
 
 
 ### $toolbar
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperView.php line 30
 
 
 ### $table
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperView.php line 31
 
 
 ### $token
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperView.php line 32
 
 
 ### $title
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperView.php line 35
 
 
 Methods
@@ -86,6 +92,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperView.php line 37
 
 
 
@@ -99,6 +106,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperView.php line 44
 
 
 

@@ -9,6 +9,7 @@ HTMLTemplateCore
 * Class name: HTMLTemplateCore
 * Namespace: 
 * This is an **abstract** class
+* This class is defined in classes\pdf\HTMLTemplate.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplate.php line 32
 
 
 ### $date
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplate.php line 33
 
 
 ### $available_in_your_account
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplate.php line 34
 
 
 ### $smarty
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplate.php line 37
 
 
 ### $shop
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplate.php line 40
 
 
 Methods
@@ -86,6 +92,7 @@ Returns the template's HTML header
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplate.php line 47
 
 
 
@@ -99,6 +106,7 @@ Returns the template's HTML footer
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplate.php line 59
 
 
 
@@ -112,6 +120,7 @@ Returns the shop address
 
 
 * Visibility: **protected**
+* This method is defined in classes\pdf\HTMLTemplate.php line 82
 
 
 
@@ -125,6 +134,7 @@ Returns the invoice logo
 
 
 * Visibility: **protected**
+* This method is defined in classes\pdf\HTMLTemplate.php line 97
 
 
 
@@ -138,6 +148,7 @@ Assign common header data to smarty variables
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplate.php line 115
 
 
 
@@ -151,10 +162,11 @@ Assign hook data
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplate.php line 155
 
 
 #### Arguments
-* $object **ObjectModel** - &lt;p&gt;generally the object used in the constructor&lt;/p&gt;
+* $object **[ObjectModel](ObjectModelCore)** - &lt;p&gt;generally the object used in the constructor&lt;/p&gt;
 
 
 
@@ -168,6 +180,7 @@ Returns the template's HTML content
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\pdf\HTMLTemplate.php line 170
 
 
 
@@ -182,6 +195,7 @@ Returns the template filename
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\pdf\HTMLTemplate.php line 178
 
 
 
@@ -196,6 +210,7 @@ Returns the template filename when using bulk rendering
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\pdf\HTMLTemplate.php line 185
 
 
 
@@ -210,6 +225,7 @@ in _PS_PDF_DIR_ directory
 
 
 * Visibility: **protected**
+* This method is defined in classes\pdf\HTMLTemplate.php line 195
 
 
 #### Arguments
@@ -227,6 +243,7 @@ Translation method
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\pdf\HTMLTemplate.php line 217
 
 
 #### Arguments
@@ -243,6 +260,7 @@ Translation method
 
 
 * Visibility: **protected**
+* This method is defined in classes\pdf\HTMLTemplate.php line 222
 
 
 

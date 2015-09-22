@@ -8,6 +8,7 @@ TranslateCore
 
 * Class name: TranslateCore
 * Namespace: 
+* This class is defined in classes\Translate.php line 30
 
 
 
@@ -29,6 +30,7 @@ Get a translation for an admin controller
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Translate.php line 41
 
 
 #### Arguments
@@ -50,6 +52,7 @@ Return the translation for a string if it exists for the base AdminController or
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Translate.php line 98
 
 
 #### Arguments
@@ -69,10 +72,11 @@ Get a translation for a module
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Translate.php line 127
 
 
 #### Arguments
-* $module **string|Module**
+* $module **string|[string](ModuleCore)**
 * $string **string**
 * $source **string**
 * $sprintf **mixed**
@@ -90,6 +94,7 @@ Get a translation for a PDF
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Translate.php line 221
 
 
 #### Arguments
@@ -108,6 +113,7 @@ Check if string use a specif syntax for sprintf and replace arguments if use it
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Translate.php line 264
 
 
 #### Arguments
@@ -126,6 +132,7 @@ Perform operations on translations after everything is escaped and before displa
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Translate.php line 279
 
 
 #### Arguments
@@ -144,6 +151,7 @@ Compatibility method that just calls postProcessTranslation.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Translate.php line 306
 
 
 #### Arguments
@@ -162,6 +170,7 @@ Helper function to make calls to postProcessTranslation more readable.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Translate.php line 314
 
 
 #### Arguments

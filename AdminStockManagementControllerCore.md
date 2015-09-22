@@ -8,7 +8,8 @@ AdminStockManagementControllerCore
 
 * Class name: AdminStockManagementControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminStockManagementController.php line 31
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminStockManagementController.php line 31
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 33
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 80
 
 
 
@@ -68,6 +72,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 97
 
 
 
@@ -81,6 +86,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 134
 
 
 
@@ -94,6 +100,7 @@ AdminController::postProcess() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 544
 
 
 
@@ -107,6 +114,7 @@ assign default action in toolbar_btn smarty var, if they are not set.
 uses override to specifically add, modify or remove items
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 755
 
 
 
@@ -120,6 +128,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 792
 
 
 
@@ -133,6 +142,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 812
 
 
 
@@ -146,6 +156,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 895
 
 
 #### Arguments
@@ -168,6 +179,7 @@ and manage available actions in consequence
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 952
 
 
 #### Arguments
@@ -185,6 +197,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 977
 
 
 
@@ -198,6 +211,7 @@ Display addstock action link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 1117
 
 
 #### Arguments
@@ -215,6 +229,7 @@ Display removestock action link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 1139
 
 
 #### Arguments
@@ -232,6 +247,7 @@ Display transferstock action link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 1161
 
 
 #### Arguments
@@ -249,6 +265,7 @@ Display transferstock action link
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockManagementController.php line 1177
 
 
 

@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: OrderReturnControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\OrderReturnController.php line 27
 
 
 
@@ -41,6 +42,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderReturnController.php line 29
 
 
 ### $php_self
@@ -52,6 +54,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderReturnController.php line 30
 
 
 ### $authRedirection
@@ -63,6 +66,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderReturnController.php line 31
 
 
 ### $ssl
@@ -74,6 +78,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderReturnController.php line 32
 
 
 Methods
@@ -89,6 +94,7 @@ Initialize order return controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderReturnController.php line 38
 
 
 
@@ -102,6 +108,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderReturnController.php line 77
 
 
 
@@ -115,6 +122,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderReturnController.php line 88
 
 
 

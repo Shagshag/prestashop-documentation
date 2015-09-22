@@ -8,7 +8,8 @@ AdminScenesControllerCore
 
 * Class name: AdminScenesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminScenesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminScenesController.php line 32
 
 
 ### $object
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminScenesController.php line 30
 
 
 Methods
@@ -53,6 +56,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminScenesController.php line 34
 
 
 
@@ -66,6 +70,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminScenesController.php line 71
 
 
 
@@ -79,6 +84,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminScenesController.php line 107
 
 
 
@@ -92,6 +98,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminScenesController.php line 121
 
 
 
@@ -105,6 +112,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminScenesController.php line 134
 
 
 
@@ -118,6 +126,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminScenesController.php line 147
 
 
 
@@ -131,6 +140,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminScenesController.php line 314
 
 
 

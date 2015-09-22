@@ -8,7 +8,8 @@ AdminCustomersControllerCore
 
 * Class name: AdminCustomersControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminCustomersController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCustomersController.php line 32
 
 
 ### $_defaultOrderBy
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCustomersController.php line 34
 
 
 ### $_defaultOrderWay
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCustomersController.php line 35
 
 
 ### $can_add_customer
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminCustomersController.php line 36
 
 
 ### $meaning_status
@@ -72,6 +77,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in controllers\admin\AdminCustomersController.php line 37
 
 
 ### $object
@@ -83,6 +89,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCustomersController.php line 30
 
 
 Methods
@@ -98,6 +105,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 39
 
 
 
@@ -111,6 +119,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 186
 
 
 
@@ -124,6 +133,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 195
 
 
 
@@ -137,6 +147,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 212
 
 
 
@@ -150,6 +161,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 226
 
 
 #### Arguments
@@ -171,6 +183,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 238
 
 
 
@@ -184,6 +197,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 273
 
 
 
@@ -197,6 +211,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 286
 
 
 
@@ -210,6 +225,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 320
 
 
 
@@ -223,6 +239,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 333
 
 
 
@@ -236,6 +253,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 626
 
 
 #### Arguments
@@ -252,6 +270,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 631
 
 
 
@@ -265,6 +284,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 695
 
 
 
@@ -278,6 +298,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 876
 
 
 
@@ -291,6 +312,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCustomersController.php line 882
 
 
 
@@ -304,6 +326,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCustomersController.php line 894
 
 
 
@@ -317,6 +340,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 900
 
 
 
@@ -330,6 +354,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 926
 
 
 
@@ -343,6 +368,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 949
 
 
 
@@ -356,6 +382,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCustomersController.php line 963
 
 
 #### Arguments
@@ -373,6 +400,7 @@ Transform a guest account into a registered customer account
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 977
 
 
 
@@ -386,6 +414,7 @@ Toggle the newsletter flag
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 999
 
 
 
@@ -399,6 +428,7 @@ Toggle newsletter optin flag
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 1015
 
 
 
@@ -412,6 +442,7 @@ Toggle newsletter optin flag
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 1028
 
 
 #### Arguments
@@ -429,6 +460,7 @@ Toggle newsletter optin flag
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 1036
 
 
 #### Arguments
@@ -446,6 +478,7 @@ Toggle newsletter optin flag
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 1050
 
 
 #### Arguments
@@ -465,6 +498,7 @@ add to $this->content the result of Customer::SearchByName
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 1074
 
 
 
@@ -478,6 +512,7 @@ Uodate the customer note
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomersController.php line 1106
 
 
 

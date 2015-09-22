@@ -8,7 +8,8 @@ AdminStockInstantStateControllerCore
 
 * Class name: AdminStockInstantStateControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminStockInstantStateController.php line 31
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminStockInstantStateController.php line 33
 
 
 ### $object
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminStockInstantStateController.php line 31
 
 
 Methods
@@ -53,6 +56,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockInstantStateController.php line 35
 
 
 
@@ -66,6 +70,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockInstantStateController.php line 110
 
 
 
@@ -79,6 +84,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockInstantStateController.php line 143
 
 
 
@@ -92,6 +98,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockInstantStateController.php line 206
 
 
 
@@ -105,6 +112,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockInstantStateController.php line 270
 
 
 #### Arguments
@@ -126,6 +134,7 @@ CMP
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockInstantStateController.php line 382
 
 
 #### Arguments
@@ -143,6 +152,7 @@ CMP
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockInstantStateController.php line 399
 
 
 #### Arguments
@@ -160,6 +170,7 @@ Gets the current warehouse used
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStockInstantStateController.php line 413
 
 
 
@@ -173,6 +184,7 @@ Gets the current warehouse used
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockInstantStateController.php line 429
 
 
 
@@ -186,6 +198,7 @@ Exports CSV
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockInstantStateController.php line 453
 
 
 
@@ -199,6 +212,7 @@ Exports CSV
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockInstantStateController.php line 529
 
 
 
@@ -212,6 +226,7 @@ Exports CSV
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockInstantStateController.php line 538
 
 
 

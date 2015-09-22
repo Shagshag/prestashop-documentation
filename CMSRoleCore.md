@@ -8,7 +8,8 @@ CMSRoleCore
 
 * Class name: CMSRoleCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\CMSRole.php line 28
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSRole.php line 31
 
 
 ### $id_cms
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSRole.php line 33
 
 
 ### $definition
@@ -50,6 +53,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\CMSRole.php line 38
 
 
 Methods
@@ -66,6 +70,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSRole.php line 47
 
 
 

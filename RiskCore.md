@@ -8,7 +8,8 @@ RiskCore
 
 * Class name: RiskCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Risk.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Risk.php line 32
 
 
 ### $name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Risk.php line 33
 
 
 ### $color
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Risk.php line 34
 
 
 ### $percent
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Risk.php line 35
 
 
 ### $definition
@@ -72,6 +77,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Risk.php line 37
 
 
 Methods
@@ -87,6 +93,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Risk.php line 48
 
 
 
@@ -100,6 +107,7 @@ Check then return multilingual fields for database interaction
 
 
 * Visibility: **public**
+* This method is defined in classes\Risk.php line 62
 
 
 
@@ -114,6 +122,7 @@ Check then return multilingual fields for database interaction
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Risk.php line 68
 
 
 #### Arguments

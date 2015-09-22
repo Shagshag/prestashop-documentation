@@ -8,7 +8,8 @@ CurrencyCore
 
 * Class name: CurrencyCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Currency.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 29
 
 
 ### $name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 32
 
 
 ### $iso_code
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 35
 
 
 ### $iso_code_num
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 38
 
 
 ### $sign
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 41
 
 
 ### $blank
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 44
 
 
 ### $conversion_rate
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 47
 
 
 ### $deleted
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 50
 
 
 ### $format
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 53
 
 
 ### $decimals
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 56
 
 
 ### $active
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 59
 
 
 ### $definition
@@ -149,6 +161,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Currency.php line 64
 
 
 ### $currencies
@@ -161,6 +174,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Currency.php line 83
 
 
 ### $countActiveCurrencies
@@ -173,6 +187,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Currency.php line 84
 
 
 ### $webserviceParameters
@@ -184,6 +199,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Currency.php line 86
 
 
 ### $prefix
@@ -195,6 +211,7 @@ contains the sign to display before price, according to its format
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 94
 
 
 ### $suffix
@@ -206,6 +223,7 @@ contains the sign to display after price, according to its format
 
 
 * Visibility: **public**
+* This property is defined in classes\Currency.php line 99
 
 
 Methods
@@ -221,6 +239,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Currency.php line 101
 
 
 #### Arguments
@@ -239,6 +258,7 @@ Overriding check if currency rate is not empty and if currency with the same iso
 If it's true, currency is not added.
 
 * Visibility: **public**
+* This method is defined in classes\Currency.php line 118
 
 
 #### Arguments
@@ -256,6 +276,7 @@ If it's true, currency is not added.
 
 
 * Visibility: **public**
+* This method is defined in classes\Currency.php line 126
 
 
 #### Arguments
@@ -274,6 +295,7 @@ Check if a curency already exists.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 140
 
 
 #### Arguments
@@ -292,6 +314,7 @@ Check if a curency already exists.
 
 
 * Visibility: **public**
+* This method is defined in classes\Currency.php line 155
 
 
 #### Arguments
@@ -308,6 +331,7 @@ Check if a curency already exists.
 
 
 * Visibility: **public**
+* This method is defined in classes\Currency.php line 175
 
 
 
@@ -321,6 +345,7 @@ Return formated sign
 
 
 * Visibility: **public**
+* This method is defined in classes\Currency.php line 194
 
 
 #### Arguments
@@ -338,6 +363,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 222
 
 
 #### Arguments
@@ -357,6 +383,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 240
 
 
 #### Arguments
@@ -374,6 +401,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 251
 
 
 #### Arguments
@@ -392,6 +420,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 264
 
 
 #### Arguments
@@ -410,6 +439,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 281
 
 
 #### Arguments
@@ -428,6 +458,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 298
 
 
 #### Arguments
@@ -445,6 +476,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 312
 
 
 #### Arguments
@@ -463,6 +495,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 331
 
 
 #### Arguments
@@ -481,6 +514,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 343
 
 
 #### Arguments
@@ -498,12 +532,13 @@ The XML file define exchange rate for each from a default currency ($isoCodeSour
 
 
 * Visibility: **public**
+* This method is defined in classes\Currency.php line 365
 
 
 #### Arguments
 * $data **SimpleXMLElement** - &lt;p&gt;XML content which contains all the exchange rates&lt;/p&gt;
 * $isoCodeSource **string** - &lt;p&gt;The default currency used in the XML file&lt;/p&gt;
-* $defaultCurrency **Currency** - &lt;p&gt;The default currency object&lt;/p&gt;
+* $defaultCurrency **[Currency](CurrencyCore)** - &lt;p&gt;The default currency object&lt;/p&gt;
 
 
 
@@ -517,6 +552,7 @@ The XML file define exchange rate for each from a default currency ($isoCodeSour
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 403
 
 
 
@@ -531,6 +567,7 @@ The XML file define exchange rate for each from a default currency ($isoCodeSour
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 413
 
 
 
@@ -545,6 +582,7 @@ Get current currency
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 442
 
 
 
@@ -559,6 +597,7 @@ Get current currency
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 448
 
 
 #### Arguments
@@ -575,6 +614,7 @@ Get current currency
 
 
 * Visibility: **public**
+* This method is defined in classes\Currency.php line 456
 
 
 
@@ -589,6 +629,7 @@ Get current currency
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 461
 
 
 #### Arguments
@@ -606,6 +647,7 @@ Get current currency
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Currency.php line 477
 
 
 #### Arguments

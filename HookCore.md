@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: HookCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Hook.php line 27
 
 
 
@@ -41,6 +42,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Hook.php line 32
 
 
 ### $title
@@ -52,6 +54,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Hook.php line 37
 
 
 ### $description
@@ -63,6 +66,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Hook.php line 42
 
 
 ### $position
@@ -74,6 +78,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Hook.php line 47
 
 
 ### $live_edit
@@ -85,6 +90,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Hook.php line 52
 
 
 ### $executed_hooks
@@ -97,6 +103,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Hook.php line 57
 
 
 ### $native_module
@@ -109,6 +116,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Hook.php line 59
 
 
 ### $definition
@@ -121,6 +129,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Hook.php line 64
 
 
 ### $_hook_modules_cache
@@ -133,6 +142,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Hook.php line 79
 
 
 ### $_hook_modules_cache_exec
@@ -145,6 +155,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Hook.php line 84
 
 
 Methods
@@ -160,6 +171,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Hook.php line 86
 
 
 #### Arguments
@@ -178,6 +190,7 @@ Return Hooks List
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 98
 
 
 #### Arguments
@@ -195,6 +208,7 @@ Return hook ID from name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 113
 
 
 #### Arguments
@@ -212,6 +226,7 @@ Return hook ID from name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 146
 
 
 #### Arguments
@@ -229,6 +244,7 @@ Return hook live edit bool from ID
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 163
 
 
 #### Arguments
@@ -246,6 +262,7 @@ Get list of hook alias
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 183
 
 
 
@@ -260,6 +277,7 @@ Return backward compatibility hook name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 207
 
 
 #### Arguments
@@ -277,6 +295,7 @@ Get list of all registered hooks with modules
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 227
 
 
 
@@ -291,6 +310,7 @@ Return Hooks List
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 273
 
 
 #### Arguments
@@ -309,6 +329,7 @@ Get list of modules we can execute per hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 291
 
 
 #### Arguments
@@ -326,6 +347,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 421
 
 
 #### Arguments
@@ -349,6 +371,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 574
 
 
 #### Arguments
@@ -368,6 +391,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 607
 
 
 #### Arguments
@@ -387,6 +411,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 625
 
 
 #### Arguments
@@ -405,6 +430,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 639
 
 
 #### Arguments
@@ -423,6 +449,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 651
 
 
 #### Arguments
@@ -440,6 +467,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 675
 
 
 #### Arguments
@@ -458,6 +486,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 699
 
 
 #### Arguments
@@ -476,6 +505,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 711
 
 
 #### Arguments
@@ -493,6 +523,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 722
 
 
 #### Arguments
@@ -511,6 +542,7 @@ Preload hook modules cache
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 738
 
 
 
@@ -525,6 +557,7 @@ Return hook ID from name
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 758
 
 
 #### Arguments
@@ -542,13 +575,14 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 788
 
 
 #### Arguments
-* $cart **Cart**
-* $order **Order**
-* $customer **Customer**
-* $currency **Currency**
+* $cart **[Cart](CartCore)**
+* $order **[Order](OrderCore)**
+* $customer **[Customer](CustomerCore)**
+* $currency **[Currency](CurrencyCore)**
 * $order_status **mixed**
 
 
@@ -563,6 +597,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 802
 
 
 #### Arguments
@@ -581,6 +616,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 811
 
 
 #### Arguments
@@ -599,6 +635,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 820
 
 
 #### Arguments
@@ -616,6 +653,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 829
 
 
 #### Arguments
@@ -633,6 +671,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 838
 
 
 #### Arguments
@@ -650,6 +689,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 847
 
 
 #### Arguments
@@ -667,6 +707,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Hook.php line 856
 
 
 #### Arguments

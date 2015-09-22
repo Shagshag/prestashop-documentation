@@ -8,7 +8,8 @@ AliasCore
 
 * Class name: AliasCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Alias.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Alias.php line 29
 
 
 ### $search
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Alias.php line 30
 
 
 ### $active
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Alias.php line 31
 
 
 ### $definition
@@ -61,6 +65,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Alias.php line 36
 
 
 Methods
@@ -76,6 +81,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Alias.php line 46
 
 
 #### Arguments
@@ -95,6 +101,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Alias.php line 76
 
 
 #### Arguments
@@ -112,6 +119,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Alias.php line 89
 
 
 
@@ -125,6 +133,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Alias.php line 99
 
 
 
@@ -139,6 +148,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Alias.php line 119
 
 
 
@@ -153,6 +163,7 @@ This method is allow to know if a alias exist for AdminImportController
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Alias.php line 129
 
 
 #### Arguments

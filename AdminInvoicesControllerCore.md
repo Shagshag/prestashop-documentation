@@ -8,7 +8,8 @@ AdminInvoicesControllerCore
 
 * Class name: AdminInvoicesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminInvoicesController.php line 27
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInvoicesController.php line 29
 
 
 
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInvoicesController.php line 104
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInvoicesController.php line 148
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInvoicesController.php line 199
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInvoicesController.php line 219
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInvoicesController.php line 224
 
 
 
@@ -107,6 +114,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInvoicesController.php line 230
 
 
 
@@ -120,6 +128,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminInvoicesController.php line 265
 
 
 
@@ -133,6 +142,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminInvoicesController.php line 272
 
 
 
@@ -146,6 +156,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminInvoicesController.php line 291
 
 
 #### Arguments

@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Foundation_Database_EntityManager
 * Namespace: 
+* This class is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 27
 
 
 
@@ -40,6 +41,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 29
 
 
 ### $configuration
@@ -51,6 +53,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 30
 
 
 ### $entityMetaData
@@ -62,6 +65,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 32
 
 
 Methods
@@ -77,11 +81,12 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 34
 
 
 #### Arguments
-* $db **[Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface.md)**
-* $configuration **[Core_Business_ConfigurationInterface](Core_Business_ConfigurationInterface.md)**
+* $db **[Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface)**
+* $configuration **[Core_Business_ConfigurationInterface](Core_Business_ConfigurationInterface)**
 
 
 
@@ -94,6 +99,7 @@ Return current database object used
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 46
 
 
 
@@ -107,6 +113,7 @@ Return current repository used
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 56
 
 
 #### Arguments
@@ -123,6 +130,7 @@ Return entity's meta data
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 83
 
 
 #### Arguments
@@ -139,10 +147,11 @@ Flush entity to DB
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 98
 
 
 #### Arguments
-* $entity **[Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface.md)**
+* $entity **[Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)**
 
 
 
@@ -155,9 +164,10 @@ DElete entity from DB
 
 
 * Visibility: **public**
+* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 109
 
 
 #### Arguments
-* $entity **[Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface.md)**
+* $entity **[Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)**
 
 

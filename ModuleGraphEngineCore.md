@@ -9,7 +9,8 @@ ModuleGraphEngineCore
 * Class name: ModuleGraphEngineCore
 * Namespace: 
 * This is an **abstract** class
-* Parent class: Module
+* Parent class: [Module](ModuleCore)
+* This class is defined in classes\module\ModuleGraphEngine.php line 27
 
 
 
@@ -28,6 +29,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ModuleGraphEngine.php line 29
 
 
 Methods
@@ -43,6 +45,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGraphEngine.php line 31
 
 
 #### Arguments
@@ -59,6 +62,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ModuleGraphEngine.php line 36
 
 
 
@@ -73,6 +77,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\ModuleGraphEngine.php line 44
 
 
 
@@ -87,6 +92,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\module\ModuleGraphEngine.php line 66
 
 
 #### Arguments
@@ -104,6 +110,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\module\ModuleGraphEngine.php line 67
 
 
 #### Arguments
@@ -122,6 +129,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\module\ModuleGraphEngine.php line 68
 
 
 #### Arguments
@@ -139,6 +147,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\module\ModuleGraphEngine.php line 69
 
 
 #### Arguments
@@ -156,6 +165,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\module\ModuleGraphEngine.php line 70
 
 
 

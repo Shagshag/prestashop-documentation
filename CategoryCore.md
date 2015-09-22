@@ -8,7 +8,8 @@ CategoryCore
 
 * Class name: CategoryCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Category.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 29
 
 
 ### $id_category
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 32
 
 
 ### $name
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 35
 
 
 ### $active
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 38
 
 
 ### $position
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 41
 
 
 ### $description
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 44
 
 
 ### $id_parent
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 47
 
 
 ### $id_category_default
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 50
 
 
 ### $level_depth
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 53
 
 
 ### $nleft
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 56
 
 
 ### $nright
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 59
 
 
 ### $link_rewrite
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 62
 
 
 ### $meta_title
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 65
 
 
 ### $meta_keywords
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 68
 
 
 ### $meta_description
@@ -181,6 +196,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 71
 
 
 ### $date_add
@@ -192,6 +208,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 74
 
 
 ### $date_upd
@@ -203,6 +220,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 77
 
 
 ### $is_root_category
@@ -214,6 +232,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 80
 
 
 ### $id_shop_default
@@ -225,6 +244,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 83
 
 
 ### $groupBox
@@ -236,6 +256,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 85
 
 
 ### $_links
@@ -248,6 +269,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Category.php line 87
 
 
 ### $definition
@@ -260,6 +282,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Category.php line 92
 
 
 ### $id_image
@@ -271,6 +294,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Category.php line 119
 
 
 ### $webserviceParameters
@@ -282,6 +306,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Category.php line 121
 
 
 Methods
@@ -297,6 +322,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 135
 
 
 #### Arguments
@@ -316,6 +342,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 142
 
 
 #### Arguments
@@ -332,6 +359,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 147
 
 
 #### Arguments
@@ -349,6 +377,7 @@ update category positions in parent
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 183
 
 
 #### Arguments
@@ -365,6 +394,7 @@ update category positions in parent
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 232
 
 
 
@@ -378,6 +408,7 @@ Recursive scan of subcategories
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 249
 
 
 #### Arguments
@@ -398,6 +429,7 @@ Recursive scan of subcategories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 283
 
 
 #### Arguments
@@ -417,6 +449,7 @@ Recursively add specified category childs to $to_delete array
 
 
 * Visibility: **protected**
+* This method is defined in classes\Category.php line 305
 
 
 #### Arguments
@@ -434,6 +467,7 @@ Recursively add specified category childs to $to_delete array
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 321
 
 
 
@@ -447,6 +481,7 @@ Recursively add specified category childs to $to_delete array
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 327
 
 
 
@@ -460,6 +495,7 @@ Delete several categories from database
 return boolean Deletion result
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 369
 
 
 #### Arguments
@@ -476,6 +512,7 @@ Get the depth level for the category
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 388
 
 
 
@@ -490,6 +527,7 @@ Re-calculate the values of all branches of the nested tree
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 405
 
 
 
@@ -504,6 +542,7 @@ Re-calculate the values of all branches of the nested tree
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\Category.php line 426
 
 
 #### Arguments
@@ -522,6 +561,7 @@ Updates level_depth for all children of the given id_category
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 447
 
 
 #### Arguments
@@ -539,6 +579,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 480
 
 
 #### Arguments
@@ -561,6 +602,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 509
 
 
 #### Arguments
@@ -585,6 +627,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 552
 
 
 #### Arguments
@@ -609,6 +652,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 613
 
 
 #### Arguments
@@ -625,6 +669,7 @@ Return available categories
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 626
 
 
 
@@ -638,6 +683,7 @@ Return current category childs
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 638
 
 
 #### Arguments
@@ -655,6 +701,7 @@ Returns category products
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 686
 
 
 #### Arguments
@@ -669,7 +716,7 @@ Returns category products
 * $random_number_products **integer** - &lt;p&gt;Number of products to return if random is activated&lt;/p&gt;
 * $check_access **boolean** - &lt;p&gt;If set tot rue, check if the current customer
                                            can see products from this category&lt;/p&gt;
-* $context **Context|null**
+* $context **[Context](ContextCore)|null**
 
 
 
@@ -683,6 +730,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 803
 
 
 #### Arguments
@@ -702,11 +750,12 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 808
 
 
 #### Arguments
 * $id_lang **mixed**
-* $shop **Shop**
+* $shop **[Shop](ShopCore)**
 
 
 
@@ -720,6 +769,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 841
 
 
 #### Arguments
@@ -740,6 +790,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 873
 
 
 #### Arguments
@@ -759,6 +810,7 @@ Return an array of all children of the current category
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 901
 
 
 #### Arguments
@@ -775,6 +827,7 @@ Return an array of all parents of the current category
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 919
 
 
 #### Arguments
@@ -792,13 +845,14 @@ This method allow to return children categories with the number of sub children 
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 939
 
 
 #### Arguments
 * $id_parent **integer**
 * $selected_cat **mixed**
 * $id_lang **integer**
-* $shop **Shop**
+* $shop **[Shop](ShopCore)**
 * $use_shop_context **mixed**
 
 
@@ -813,6 +867,7 @@ Copy products from a category to another
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 983
 
 
 #### Arguments
@@ -831,6 +886,7 @@ The category cannot be moved in a child category.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1016
 
 
 #### Arguments
@@ -849,6 +905,7 @@ The category cannot be moved in a child category.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1041
 
 
 #### Arguments
@@ -866,10 +923,11 @@ The category cannot be moved in a child category.
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1058
 
 
 #### Arguments
-* $link **Link**
+* $link **[Link](LinkCore)**
 * $id_lang **mixed**
 
 
@@ -883,6 +941,7 @@ The category cannot be moved in a child category.
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1072
 
 
 #### Arguments
@@ -900,6 +959,7 @@ Light back office search for categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1094
 
 
 #### Arguments
@@ -920,6 +980,7 @@ Retrieve category by name and parent category id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1128
 
 
 #### Arguments
@@ -939,6 +1000,7 @@ Search with Pathes for categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1150
 
 
 #### Arguments
@@ -959,6 +1021,7 @@ Get Each parent category of this category until the root category
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1181
 
 
 #### Arguments
@@ -976,6 +1039,7 @@ Specify if a category already in base
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1237
 
 
 #### Arguments
@@ -992,6 +1056,7 @@ Specify if a category already in base
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1247
 
 
 
@@ -1005,6 +1070,7 @@ Specify if a category already in base
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1252
 
 
 
@@ -1018,6 +1084,7 @@ Specify if a category already in base
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1257
 
 
 #### Arguments
@@ -1034,6 +1101,7 @@ Specify if a category already in base
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1266
 
 
 
@@ -1047,6 +1115,7 @@ Specify if a category already in base
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1284
 
 
 #### Arguments
@@ -1063,6 +1132,7 @@ checkAccess return true if id_customer is in a group allowed to see this categor
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1300
 
 
 #### Arguments
@@ -1079,6 +1149,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1327
 
 
 #### Arguments
@@ -1096,6 +1167,7 @@ Update customer groups associated to the object
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1336
 
 
 #### Arguments
@@ -1112,6 +1184,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1347
 
 
 #### Arguments
@@ -1132,6 +1205,7 @@ are clean at the beginning !
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1396
 
 
 #### Arguments
@@ -1149,6 +1223,7 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1426
 
 
 #### Arguments
@@ -1167,6 +1242,7 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1443
 
 
 #### Arguments
@@ -1184,6 +1260,7 @@ Return nleft and nright fields for a given category
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1461
 
 
 #### Arguments
@@ -1200,10 +1277,11 @@ Check if current category is a child of shop root category
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1482
 
 
 #### Arguments
-* $shop **Shop**
+* $shop **[Shop](ShopCore)**
 
 
 
@@ -1217,11 +1295,12 @@ Check if current category is a child of shop root category
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1494
 
 
 #### Arguments
 * $id_category **mixed**
-* $shop **Shop**
+* $shop **[Shop](ShopCore)**
 
 
 
@@ -1234,6 +1313,7 @@ Check if current category is a child of shop root category
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1507
 
 
 
@@ -1247,6 +1327,7 @@ Check if current category is a child of shop root category
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1519
 
 
 
@@ -1260,6 +1341,7 @@ Search for another category with the same parent and the same position
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1534
 
 
 
@@ -1273,6 +1355,7 @@ Search for another category with the same parent and the same position
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1545
 
 
 
@@ -1287,6 +1370,7 @@ Search for another category with the same parent and the same position
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1573
 
 
 #### Arguments
@@ -1304,6 +1388,7 @@ Search for another category with the same parent and the same position
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1603
 
 
 #### Arguments
@@ -1320,6 +1405,7 @@ Add association between shop and categories
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1620
 
 
 #### Arguments
@@ -1337,6 +1423,7 @@ Add association between shop and categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1642
 
 
 #### Arguments
@@ -1355,6 +1442,7 @@ Add association between shop and categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1656
 
 
 
@@ -1368,6 +1456,7 @@ Add association between shop and categories
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1671
 
 
 
@@ -1382,6 +1471,7 @@ Add association between shop and categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1683
 
 
 #### Arguments
@@ -1398,6 +1488,7 @@ Add association between shop and categories
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1701
 
 
 #### Arguments
@@ -1416,6 +1507,7 @@ Add association between shop and categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1730
 
 
 #### Arguments
@@ -1433,6 +1525,7 @@ Update categories for a shop
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1745
 
 
 #### Arguments
@@ -1450,6 +1543,7 @@ Delete category from shop $id_shop
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1765
 
 
 #### Arguments
@@ -1467,6 +1561,7 @@ Delete every categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1777
 
 
 #### Arguments
@@ -1484,6 +1579,7 @@ Add some categories to a shop
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Category.php line 1787
 
 
 #### Arguments
@@ -1501,6 +1597,7 @@ Add some categories to a shop
 
 
 * Visibility: **public**
+* This method is defined in classes\Category.php line 1811
 
 
 #### Arguments

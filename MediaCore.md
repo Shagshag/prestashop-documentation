@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: MediaCore
 * Namespace: 
+* This class is defined in classes\Media.php line 27
 
 
 
@@ -41,6 +42,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Media.php line 29
 
 
 ### $js_def
@@ -53,6 +55,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Media.php line 69
 
 
 ### $inline_script
@@ -65,6 +68,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Media.php line 74
 
 
 ### $inline_script_src
@@ -77,6 +81,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Media.php line 79
 
 
 ### $pattern_callback
@@ -89,6 +94,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Media.php line 84
 
 
 ### $current_css_file
@@ -101,6 +107,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Media.php line 89
 
 
 ### $pattern_js
@@ -113,6 +120,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Media.php line 94
 
 
 Methods
@@ -129,6 +137,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 96
 
 
 #### Arguments
@@ -146,6 +155,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 117
 
 
 #### Arguments
@@ -163,6 +173,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 132
 
 
 #### Arguments
@@ -180,6 +191,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 155
 
 
 #### Arguments
@@ -197,6 +209,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 168
 
 
 #### Arguments
@@ -214,6 +227,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 184
 
 
 #### Arguments
@@ -233,6 +247,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 216
 
 
 #### Arguments
@@ -250,6 +265,7 @@ addJS return javascript path
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 239
 
 
 #### Arguments
@@ -267,6 +283,7 @@ addCSS return stylesheet path.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 253
 
 
 #### Arguments
@@ -286,6 +303,7 @@ addCSS return stylesheet path.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 267
 
 
 #### Arguments
@@ -304,6 +322,7 @@ return jquery path.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 319
 
 
 #### Arguments
@@ -323,6 +342,7 @@ return jqueryUI component path.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 370
 
 
 #### Arguments
@@ -342,6 +362,7 @@ return jquery plugin path.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 438
 
 
 #### Arguments
@@ -360,6 +381,7 @@ return jquery plugin css path if exist.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 469
 
 
 #### Arguments
@@ -378,6 +400,7 @@ Combine Compress and Cache CSS (ccc) calls
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 495
 
 
 #### Arguments
@@ -395,6 +418,7 @@ Combine Compress and Cache CSS (ccc) calls
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 602
 
 
 
@@ -409,6 +433,7 @@ Combine Compress and Cache (ccc) JS calls
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 622
 
 
 #### Arguments
@@ -426,6 +451,7 @@ Clear theme cache
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 711
 
 
 
@@ -440,6 +466,7 @@ Get JS definitions
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 734
 
 
 
@@ -454,6 +481,7 @@ Get JS inline script
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 745
 
 
 
@@ -468,6 +496,7 @@ Add a new javascript definition at bottom of page
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 757
 
 
 #### Arguments
@@ -485,6 +514,7 @@ Add a new javascript definition from a capture at bottom of page
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 778
 
 
 #### Arguments
@@ -505,6 +535,7 @@ Add a new javascript definition from a capture at bottom of page
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 791
 
 
 #### Arguments
@@ -523,6 +554,7 @@ To be used in callback with deferInlineScripts
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Media.php line 851
 
 
 #### Arguments

@@ -8,6 +8,7 @@ TreeCore
 
 * Class name: TreeCore
 * Namespace: 
+* This class is defined in classes\tree\Tree.php line 27
 
 
 
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\tree\Tree.php line 29
 
 
 ### DEFAULT_TEMPLATE
@@ -29,6 +31,7 @@ Constants
 
 
 
+* This constant is defined in classes\tree\Tree.php line 30
 
 
 ### DEFAULT_HEADER_TEMPLATE
@@ -37,6 +40,7 @@ Constants
 
 
 
+* This constant is defined in classes\tree\Tree.php line 31
 
 
 ### DEFAULT_NODE_FOLDER_TEMPLATE
@@ -45,6 +49,7 @@ Constants
 
 
 
+* This constant is defined in classes\tree\Tree.php line 32
 
 
 ### DEFAULT_NODE_ITEM_TEMPLATE
@@ -53,6 +58,7 @@ Constants
 
 
 
+* This constant is defined in classes\tree\Tree.php line 33
 
 
 Properties
@@ -68,6 +74,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\tree\Tree.php line 35
 
 
 ### $_context
@@ -79,6 +86,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tree\Tree.php line 36
 
 
 ### $_data
@@ -90,6 +98,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\tree\Tree.php line 37
 
 
 ### $_data_search
@@ -101,6 +110,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\tree\Tree.php line 38
 
 
 ### $_headerTemplate
@@ -112,6 +122,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\tree\Tree.php line 39
 
 
 ### $_id_tree
@@ -123,6 +134,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\tree\Tree.php line 40
 
 
 ### $_id
@@ -134,6 +146,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tree\Tree.php line 41
 
 
 ### $_node_folder_template
@@ -145,6 +158,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\tree\Tree.php line 42
 
 
 ### $_node_item_template
@@ -156,6 +170,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\tree\Tree.php line 43
 
 
 ### $_template
@@ -167,6 +182,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\tree\Tree.php line 44
 
 
 ### $_template_directory
@@ -178,6 +194,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tree\Tree.php line 47
 
 
 ### $_title
@@ -189,6 +206,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tree\Tree.php line 48
 
 
 ### $_no_js
@@ -200,6 +218,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tree\Tree.php line 49
 
 
 ### $_toolbar
@@ -211,6 +230,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tree\Tree.php line 52
 
 
 Methods
@@ -226,6 +246,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 54
 
 
 #### Arguments
@@ -243,6 +264,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 63
 
 
 
@@ -256,6 +278,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 68
 
 
 #### Arguments
@@ -272,6 +295,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 78
 
 
 
@@ -285,6 +309,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 87
 
 
 #### Arguments
@@ -302,6 +327,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 97
 
 
 #### Arguments
@@ -318,6 +344,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 102
 
 
 #### Arguments
@@ -334,6 +361,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 112
 
 
 #### Arguments
@@ -350,6 +378,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 118
 
 
 
@@ -363,6 +392,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 123
 
 
 
@@ -376,6 +406,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 132
 
 
 #### Arguments
@@ -392,6 +423,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 138
 
 
 
@@ -405,6 +437,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 147
 
 
 #### Arguments
@@ -421,6 +454,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 157
 
 
 
@@ -434,6 +468,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 166
 
 
 #### Arguments
@@ -450,6 +485,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 176
 
 
 
@@ -463,6 +499,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 185
 
 
 #### Arguments
@@ -479,6 +516,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 191
 
 
 
@@ -492,6 +530,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 200
 
 
 #### Arguments
@@ -508,6 +547,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 206
 
 
 
@@ -521,6 +561,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 211
 
 
 #### Arguments
@@ -537,6 +578,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 217
 
 
 
@@ -550,6 +592,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 226
 
 
 #### Arguments
@@ -566,6 +609,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 232
 
 
 
@@ -579,6 +623,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 241
 
 
 #### Arguments
@@ -595,6 +640,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 247
 
 
 
@@ -608,6 +654,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 261
 
 
 #### Arguments
@@ -624,6 +671,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 270
 
 
 
@@ -637,6 +685,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 280
 
 
 #### Arguments
@@ -653,6 +702,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 312
 
 
 #### Arguments
@@ -669,6 +719,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 318
 
 
 #### Arguments
@@ -685,6 +736,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 324
 
 
 
@@ -698,6 +750,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 329
 
 
 #### Arguments
@@ -714,6 +767,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 345
 
 
 
@@ -727,6 +781,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 358
 
 
 #### Arguments
@@ -743,6 +798,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 368
 
 
 
@@ -756,6 +812,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 378
 
 
 #### Arguments
@@ -772,6 +829,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 429
 
 
 #### Arguments
@@ -788,6 +846,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 464
 
 
 
@@ -801,6 +860,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 469
 
 
 
@@ -814,6 +874,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\Tree.php line 474
 
 
 
@@ -827,6 +888,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in classes\tree\Tree.php line 479
 
 
 #### Arguments

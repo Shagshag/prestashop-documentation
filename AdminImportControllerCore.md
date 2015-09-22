@@ -8,7 +8,8 @@ AdminImportControllerCore
 
 * Class name: AdminImportControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminImportController.php line 40
 
 
 
@@ -28,6 +29,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in controllers\admin\AdminImportController.php line 42
 
 
 ### $entities
@@ -39,6 +41,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminImportController.php line 44
 
 
 ### $available_fields
@@ -50,6 +53,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminImportController.php line 46
 
 
 ### $required_fields
@@ -61,6 +65,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminImportController.php line 48
 
 
 ### $cache_image_deleted
@@ -72,6 +77,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminImportController.php line 50
 
 
 ### $default_values
@@ -84,6 +90,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in controllers\admin\AdminImportController.php line 52
 
 
 ### $validators
@@ -96,6 +103,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in controllers\admin\AdminImportController.php line 54
 
 
 ### $separator
@@ -107,6 +115,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminImportController.php line 78
 
 
 ### $multiple_value_separator
@@ -118,6 +127,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminImportController.php line 79
 
 
 Methods
@@ -133,6 +143,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 81
 
 
 
@@ -146,6 +157,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 509
 
 
 
@@ -159,6 +171,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 530
 
 
 
@@ -172,6 +185,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 631
 
 
 
@@ -185,6 +199,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 670
 
 
 
@@ -198,6 +213,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 720
 
 
 
@@ -211,6 +227,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImportController.php line 743
 
 
 #### Arguments
@@ -230,6 +247,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 779
 
 
 
@@ -243,6 +261,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 787
 
 
 
@@ -257,6 +276,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 813
 
 
 #### Arguments
@@ -274,6 +294,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 825
 
 
 #### Arguments
@@ -291,6 +312,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 830
 
 
 #### Arguments
@@ -308,6 +330,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 837
 
 
 #### Arguments
@@ -325,6 +348,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 868
 
 
 #### Arguments
@@ -341,6 +365,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImportController.php line 878
 
 
 #### Arguments
@@ -357,6 +382,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 904
 
 
 #### Arguments
@@ -373,6 +399,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImportController.php line 933
 
 
 
@@ -387,6 +414,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 943
 
 
 #### Arguments
@@ -404,6 +432,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 955
 
 
 #### Arguments
@@ -421,6 +450,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 964
 
 
 #### Arguments
@@ -438,6 +468,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 974
 
 
 #### Arguments
@@ -457,6 +488,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 998
 
 
 #### Arguments
@@ -477,6 +509,7 @@ $id_image is used if we need to add a watermark
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 1024
 
 
 #### Arguments
@@ -498,6 +531,7 @@ $id_image is used if we need to add a watermark
 
 * Visibility: **private**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 1115
 
 
 #### Arguments
@@ -516,6 +550,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 1128
 
 
 
@@ -529,6 +564,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 1324
 
 
 
@@ -542,6 +578,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 1968
 
 
 #### Arguments
@@ -560,6 +597,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 2001
 
 
 
@@ -573,6 +611,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 2433
 
 
 
@@ -586,6 +625,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 2642
 
 
 
@@ -599,6 +639,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 2839
 
 
 
@@ -612,6 +653,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 2925
 
 
 
@@ -625,6 +667,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 3009
 
 
 
@@ -638,6 +681,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 3067
 
 
 
@@ -651,6 +695,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 3180
 
 
 
@@ -664,6 +709,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 3300
 
 
 #### Arguments
@@ -680,6 +726,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImportController.php line 3305
 
 
 #### Arguments
@@ -698,6 +745,7 @@ $id_image is used if we need to add a watermark
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 3315
 
 
 #### Arguments
@@ -715,6 +763,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImportController.php line 3323
 
 
 
@@ -728,6 +777,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImportController.php line 3343
 
 
 #### Arguments
@@ -744,6 +794,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImportController.php line 3348
 
 
 #### Arguments
@@ -760,6 +811,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 3462
 
 
 
@@ -773,6 +825,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 3469
 
 
 
@@ -787,6 +840,7 @@ $id_image is used if we need to add a watermark
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 3586
 
 
 
@@ -800,6 +854,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminImportController.php line 3593
 
 
 #### Arguments
@@ -818,6 +873,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 3599
 
 
 
@@ -831,6 +887,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 3620
 
 
 
@@ -844,6 +901,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminImportController.php line 3630
 
 
 
@@ -858,6 +916,7 @@ $id_image is used if we need to add a watermark
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminImportController.php line 3639
 
 
 #### Arguments

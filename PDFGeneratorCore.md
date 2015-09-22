@@ -9,6 +9,7 @@ PDFGeneratorCore
 * Class name: PDFGeneratorCore
 * Namespace: 
 * Parent class: TCPDF
+* This class is defined in classes\pdf\PDFGenerator.php line 33
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in classes\pdf\PDFGenerator.php line 35
 
 
 Properties
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\PDFGenerator.php line 37
 
 
 ### $footer
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\PDFGenerator.php line 38
 
 
 ### $content
@@ -59,6 +63,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\PDFGenerator.php line 39
 
 
 ### $font
@@ -70,6 +75,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\PDFGenerator.php line 40
 
 
 ### $font_by_lang
@@ -81,6 +87,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\PDFGenerator.php line 42
 
 
 Methods
@@ -96,6 +103,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDFGenerator.php line 79
 
 
 #### Arguments
@@ -113,6 +121,7 @@ set the PDF encoding
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDFGenerator.php line 90
 
 
 #### Arguments
@@ -129,6 +138,7 @@ set the PDF header
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDFGenerator.php line 101
 
 
 #### Arguments
@@ -145,6 +155,7 @@ set the PDF footer
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDFGenerator.php line 112
 
 
 #### Arguments
@@ -161,6 +172,7 @@ create the PDF content
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDFGenerator.php line 123
 
 
 #### Arguments
@@ -177,6 +189,7 @@ Change the font
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDFGenerator.php line 133
 
 
 #### Arguments
@@ -193,6 +206,7 @@ Change the font
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDFGenerator.php line 149
 
 
 
@@ -206,6 +220,7 @@ Change the font
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDFGenerator.php line 157
 
 
 
@@ -219,6 +234,7 @@ Render HTML template
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDFGenerator.php line 170
 
 
 #### Arguments
@@ -236,6 +252,7 @@ Write a PDF page
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\PDFGenerator.php line 198
 
 
 
@@ -249,6 +266,7 @@ Override of TCPDF::getRandomSeed() - getmypid() is blocked on several hosting
 
 
 * Visibility: **protected**
+* This method is defined in classes\pdf\PDFGenerator.php line 210
 
 
 #### Arguments

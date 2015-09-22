@@ -8,7 +8,8 @@ AdminCustomerThreadsControllerCore
 
 * Class name: AdminCustomerThreadsControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminCustomerThreadsController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCustomerThreadsController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 221
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 281
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 287
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 440
 
 
 
@@ -107,6 +114,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 449
 
 
 
@@ -120,6 +128,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 487
 
 
 
@@ -133,6 +142,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 538
 
 
 
@@ -146,6 +156,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 699
 
 
 #### Arguments
@@ -163,6 +174,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 746
 
 
 #### Arguments
@@ -181,6 +193,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 797
 
 
 #### Arguments
@@ -197,6 +210,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 802
 
 
 
@@ -210,6 +224,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 829
 
 
 #### Arguments
@@ -231,6 +246,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 841
 
 
 #### Arguments
@@ -247,6 +263,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 852
 
 
 
@@ -260,6 +277,7 @@ Call the IMAP synchronization during an AJAX process.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 870
 
 
 
@@ -273,6 +291,7 @@ Call the IMAP synchronization during the render process.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 884
 
 
 
@@ -286,6 +305,7 @@ Imap synchronization method.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCustomerThreadsController.php line 913
 
 
 

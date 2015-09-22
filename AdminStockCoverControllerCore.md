@@ -8,7 +8,8 @@ AdminStockCoverControllerCore
 
 * Class name: AdminStockCoverControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminStockCoverController.php line 31
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminStockCoverController.php line 33
 
 
 ### $stock_cover_periods
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminStockCoverController.php line 34
 
 
 ### $object
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminStockCoverController.php line 31
 
 
 Methods
@@ -64,6 +68,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockCoverController.php line 36
 
 
 
@@ -77,6 +82,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockCoverController.php line 106
 
 
 
@@ -90,6 +96,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockCoverController.php line 124
 
 
 
@@ -103,6 +110,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockCoverController.php line 165
 
 
 
@@ -116,6 +124,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockCoverController.php line 220
 
 
 #### Arguments
@@ -137,6 +146,7 @@ Gets the current coverage period used
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStockCoverController.php line 306
 
 
 
@@ -150,6 +160,7 @@ Gets the current warehouse used
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStockCoverController.php line 324
 
 
 
@@ -163,6 +174,7 @@ Gets the current warning
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStockCoverController.php line 342
 
 
 
@@ -176,6 +188,7 @@ For a given product, and a given period, returns the quantity sold
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminStockCoverController.php line 363
 
 
 #### Arguments
@@ -194,6 +207,7 @@ For a given product, and a given period, returns the quantity sold
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockCoverController.php line 381
 
 
 
@@ -207,6 +221,7 @@ For a given product, and a given period, returns the quantity sold
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminStockCoverController.php line 390
 
 
 

@@ -9,6 +9,7 @@ PrestaShopExceptionCore
 * Class name: PrestaShopExceptionCore
 * Namespace: 
 * Parent class: Exception
+* This class is defined in classes\exception\PrestaShopException.php line 30
 
 
 
@@ -29,6 +30,7 @@ This method acts like an error handler, if dev mode is on, display the error els
 
 
 * Visibility: **public**
+* This method is defined in classes\exception\PrestaShopException.php line 35
 
 
 
@@ -42,6 +44,7 @@ Display lines around current line
 
 
 * Visibility: **protected**
+* This method is defined in classes\exception\PrestaShopException.php line 101
 
 
 #### Arguments
@@ -60,6 +63,7 @@ Display arguments list of traced function
 
 
 * Visibility: **protected**
+* This method is defined in classes\exception\PrestaShopException.php line 131
 
 
 #### Arguments
@@ -77,6 +81,7 @@ Log the error on the disk
 
 
 * Visibility: **protected**
+* This method is defined in classes\exception\PrestaShopException.php line 145
 
 
 
@@ -90,6 +95,7 @@ Log the error on the disk
 
 
 * Visibility: **protected**
+* This method is defined in classes\exception\PrestaShopException.php line 155
 
 
 #### Arguments
@@ -106,6 +112,7 @@ Return the content of the Exception
 
 
 * Visibility: **protected**
+* This method is defined in classes\exception\PrestaShopException.php line 165
 
 
 #### Arguments

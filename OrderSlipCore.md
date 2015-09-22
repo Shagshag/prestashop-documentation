@@ -8,7 +8,8 @@ OrderSlipCore
 
 * Class name: OrderSlipCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\order\OrderSlip.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 30
 
 
 ### $id_customer
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 33
 
 
 ### $id_order
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 36
 
 
 ### $conversion_rate
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 39
 
 
 ### $total_products_tax_excl
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 42
 
 
 ### $total_products_tax_incl
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 45
 
 
 ### $total_shipping_tax_excl
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 48
 
 
 ### $total_shipping_tax_incl
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 51
 
 
 ### $amount
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 54
 
 
 ### $shipping_cost
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 57
 
 
 ### $shipping_cost_amount
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 60
 
 
 ### $partial
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 63
 
 
 ### $date_add
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 66
 
 
 ### $date_upd
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 69
 
 
 ### $order_slip_type
@@ -181,6 +196,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderSlip.php line 72
 
 
 ### $definition
@@ -193,6 +209,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\order\OrderSlip.php line 77
 
 
 ### $webserviceParameters
@@ -204,6 +221,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\order\OrderSlip.php line 98
 
 
 Methods
@@ -219,6 +237,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderSlip.php line 117
 
 
 #### Arguments
@@ -237,6 +256,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderSlip.php line 136
 
 
 #### Arguments
@@ -255,6 +275,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderSlip.php line 146
 
 
 #### Arguments
@@ -273,11 +294,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderSlip.php line 160
 
 
 #### Arguments
 * $orderSlipId **integer**
-* $order **Order**
+* $order **[Order](OrderCore)**
 
 
 
@@ -291,6 +313,7 @@ Get resume of all refund for one product line
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderSlip.php line 186
 
 
 #### Arguments
@@ -308,6 +331,7 @@ Get refund details for one product line
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderSlip.php line 199
 
 
 #### Arguments
@@ -324,6 +348,7 @@ Get refund details for one product line
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderSlip.php line 209
 
 
 
@@ -338,6 +363,7 @@ Get refund details for one product line
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderSlip.php line 226
 
 
 #### Arguments
@@ -356,6 +382,7 @@ Get refund details for one product line
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderSlip.php line 247
 
 
 #### Arguments
@@ -376,10 +403,11 @@ Get refund details for one product line
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderSlip.php line 267
 
 
 #### Arguments
-* $order **Order**
+* $order **[Order](OrderCore)**
 * $product_list **mixed**
 * $shipping_cost **mixed**
 * $amount **mixed**
@@ -397,6 +425,7 @@ Get refund details for one product line
 
 
 * Visibility: **protected**
+* This method is defined in classes\order\OrderSlip.php line 406
 
 
 #### Arguments
@@ -414,6 +443,7 @@ Get refund details for one product line
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderSlip.php line 421
 
 
 #### Arguments
@@ -433,6 +463,7 @@ Get refund details for one product line
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderSlip.php line 440
 
 
 #### Arguments
@@ -449,6 +480,7 @@ Get refund details for one product line
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderSlip.php line 496
 
 
 
@@ -462,6 +494,7 @@ Get refund details for one product line
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderSlip.php line 517
 
 
 
@@ -475,6 +508,7 @@ Get refund details for one product line
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderSlip.php line 526
 
 
 #### Arguments

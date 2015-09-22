@@ -8,7 +8,8 @@ AdminTranslationsControllerCore
 
 * Class name: AdminTranslationsControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminTranslationsController.php line 27
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in controllers\admin\AdminTranslationsController.php line 30
 
 
 ### TEXTAREA_SIZED
@@ -30,6 +32,7 @@ Constants
 
 
 
+* This constant is defined in controllers\admin\AdminTranslationsController.php line 31
 
 
 Properties
@@ -45,6 +48,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTranslationsController.php line 34
 
 
 ### $total_expression
@@ -56,6 +60,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTranslationsController.php line 37
 
 
 ### $missing_translations
@@ -67,6 +72,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTranslationsController.php line 40
 
 
 ### $all_iso_lang
@@ -78,6 +84,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTranslationsController.php line 43
 
 
 ### $modules_translations
@@ -89,6 +96,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTranslationsController.php line 46
 
 
 ### $ignore_folder
@@ -101,6 +109,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in controllers\admin\AdminTranslationsController.php line 49
 
 
 ### $translations_informations
@@ -112,6 +121,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTranslationsController.php line 52
 
 
 ### $languages
@@ -123,6 +133,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTranslationsController.php line 55
 
 
 ### $themes
@@ -134,6 +145,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTranslationsController.php line 58
 
 
 ### $theme_selected
@@ -145,6 +157,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTranslationsController.php line 61
 
 
 ### $type_selected
@@ -156,6 +169,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTranslationsController.php line 64
 
 
 ### $lang_selected
@@ -167,6 +181,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTranslationsController.php line 67
 
 
 ### $post_limit_exceed
@@ -178,6 +193,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminTranslationsController.php line 70
 
 
 Methods
@@ -193,6 +209,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 72
 
 
 
@@ -206,6 +223,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 84
 
 
 #### Arguments
@@ -222,6 +240,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 93
 
 
 
@@ -235,6 +254,7 @@ This function create vars by default and call the good method for generate form
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 123
 
 
 #### Arguments
@@ -251,6 +271,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 153
 
 
 
@@ -264,6 +285,7 @@ Generate the Main page
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 173
 
 
 
@@ -277,6 +299,7 @@ This method merge each arrays of modules translation in the array of modules tra
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 220
 
 
 
@@ -293,6 +316,7 @@ When a translation file is copied for a module, its translation key is wrong.
 We have to change the translation key and rewrite the file.
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 247
 
 
 #### Arguments
@@ -309,6 +333,7 @@ Read the Post var and write the translation file.
 This method overwrites the old translation file.
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 274
 
 
 #### Arguments
@@ -325,6 +350,7 @@ This method overwrites the old translation file.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 351
 
 
 
@@ -338,6 +364,7 @@ Change the key translation to according it to theme name.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 406
 
 
 #### Arguments
@@ -356,6 +383,7 @@ Change the key translation to according it to theme name.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 421
 
 
 
@@ -369,6 +397,7 @@ Change the key translation to according it to theme name.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 478
 
 
 
@@ -383,6 +412,7 @@ Change the key translation to according it to theme name.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminTranslationsController.php line 506
 
 
 #### Arguments
@@ -400,6 +430,7 @@ Move theme translations in selected themes
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 594
 
 
 #### Arguments
@@ -418,6 +449,7 @@ Add new translations tabs by code ISO
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminTranslationsController.php line 634
 
 
 #### Arguments
@@ -436,6 +468,7 @@ Add new translations tabs by code ISO
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminTranslationsController.php line 676
 
 
 #### Arguments
@@ -452,6 +485,7 @@ Add new translations tabs by code ISO
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 716
 
 
 
@@ -469,6 +503,7 @@ are present on the shop (installed or not).
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminTranslationsController.php line 816
 
 
 #### Arguments
@@ -489,6 +524,7 @@ Archive_Tar::extractList()
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminTranslationsController.php line 844
 
 
 #### Arguments
@@ -505,6 +541,7 @@ Archive_Tar::extractList()
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 853
 
 
 
@@ -519,6 +556,7 @@ compare with posted values and write in iso code translation file.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 936
 
 
 #### Arguments
@@ -539,6 +577,7 @@ Clear the list of module file by type (file or directory)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1013
 
 
 #### Arguments
@@ -559,6 +598,7 @@ With key as English sentences and values as their iso code translations.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1044
 
 
 #### Arguments
@@ -578,6 +618,7 @@ Get list of files which must be parsed by directory and by type of translations
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1104
 
 
 
@@ -591,6 +632,7 @@ This method parse a file by type of translation and type file
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1215
 
 
 #### Arguments
@@ -617,6 +659,7 @@ array(
 )
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1300
 
 
 
@@ -630,6 +673,7 @@ Get all informations on : languages, theme and the translation type.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1357
 
 
 
@@ -643,6 +687,7 @@ Get all informations on : languages, theme and the translation type.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1408
 
 
 
@@ -656,6 +701,7 @@ AdminController::postProcess() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1462
 
 
 
@@ -669,6 +715,7 @@ This method redirect in the translation main page or in the translation page
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1558
 
 
 #### Arguments
@@ -686,6 +733,7 @@ This method redirect in the translation main page or in the translation page
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1569
 
 
 
@@ -701,6 +749,7 @@ This writes subject translation files
 and mails files.
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1590
 
 
 
@@ -716,6 +765,7 @@ This create the file if not exists
 return array : translations
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1696
 
 
 
@@ -729,6 +779,7 @@ return array : translations
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1720
 
 
 #### Arguments
@@ -745,6 +796,7 @@ return array : translations
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1737
 
 
 #### Arguments
@@ -761,6 +813,7 @@ Find sentence which use %d, %s, %%, %1$d, %1$s.
 ..
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1759
 
 
 #### Arguments
@@ -777,6 +830,7 @@ This method generate the form for front translations
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1770
 
 
 
@@ -790,6 +844,7 @@ This method generate the form for back translations
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 1853
 
 
 
@@ -803,6 +858,7 @@ Check if directory and file exist and return an list of modules
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2046
 
 
 
@@ -816,6 +872,7 @@ This method generate the form for errors translations
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2068
 
 
 
@@ -829,6 +886,7 @@ This method generate the form for fields translations
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2131
 
 
 
@@ -842,6 +900,7 @@ Get each informations for each mails found in the folder $dir.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2228
 
 
 #### Arguments
@@ -859,6 +918,7 @@ Get content of the mail file.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2291
 
 
 #### Arguments
@@ -876,12 +936,13 @@ Display mails in html format.
 This was create for factorize the html displaying
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2315
 
 
 #### Arguments
 * $mails **array**
 * $all_subject_mail **array**
-* $obj_lang **Language**
+* $obj_lang **[Language](LanguageCore)**
 * $id_html **string** - &lt;p&gt;Use for set html id attribute for the block&lt;/p&gt;
 * $title **string** - &lt;p&gt;Set the title for the block&lt;/p&gt;
 * $name_for_module **string|boolean** - &lt;p&gt;Is not false define add a name for distinguish mails module&lt;/p&gt;
@@ -897,6 +958,7 @@ Just build the html structure for display txt mails
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2432
 
 
 #### Arguments
@@ -917,6 +979,7 @@ Just build the html structure for display html mails.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2454
 
 
 #### Arguments
@@ -938,6 +1001,7 @@ Just build the html structure for display html mails.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2473
 
 
 #### Arguments
@@ -959,6 +1023,7 @@ Just build the html structure for display html mails.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2481
 
 
 #### Arguments
@@ -977,6 +1042,7 @@ Check in each module if contains mails folder.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2507
 
 
 #### Arguments
@@ -993,6 +1059,7 @@ Check in each module if contains pdf folder.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2540
 
 
 #### Arguments
@@ -1009,6 +1076,7 @@ Check in each module if contains pdf folder.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2570
 
 
 #### Arguments
@@ -1025,6 +1093,7 @@ This method generate the form for mails translations
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2593
 
 
 #### Arguments
@@ -1041,6 +1110,7 @@ This method generate the form for mails translations
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2661
 
 
 
@@ -1054,6 +1124,7 @@ Get list of subjects of mails
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2724
 
 
 #### Arguments
@@ -1072,6 +1143,7 @@ Get list of subjects of mails
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2768
 
 
 #### Arguments
@@ -1088,6 +1160,7 @@ Get list of subjects of mails
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2789
 
 
 #### Arguments
@@ -1105,6 +1178,7 @@ This get files to translate in module directory.
 Recursive method allow to get each files for a module no matter his depth.
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2825
 
 
 #### Arguments
@@ -1125,6 +1199,7 @@ This method get translation in each translations file.
 The file depend on $lang param.
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2864
 
 
 #### Arguments
@@ -1145,6 +1220,7 @@ This method generate the form for modules translations
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2917
 
 
 
@@ -1158,6 +1234,7 @@ Parse PDF class
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2959
 
 
 #### Arguments
@@ -1179,6 +1256,7 @@ This method generate the form for PDF translations
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 2987
 
 
 
@@ -1192,6 +1270,7 @@ Recursively list files in directory $dir
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 3079
 
 
 #### Arguments
@@ -1210,6 +1289,7 @@ Checks if theme exists
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminTranslationsController.php line 3104
 
 
 #### Arguments

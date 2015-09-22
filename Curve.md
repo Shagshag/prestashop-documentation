@@ -8,6 +8,7 @@ Curve
 
 * Class name: Curve
 * Namespace: 
+* This class is defined in classes\Chart.php line 144
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Chart.php line 146
 
 
 ### $label
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Chart.php line 147
 
 
 ### $type
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Chart.php line 148
 
 
 Methods
@@ -63,6 +67,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Chart.php line 151
 
 
 #### Arguments
@@ -79,6 +84,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Chart.php line 156
 
 
 #### Arguments
@@ -95,6 +101,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Chart.php line 167
 
 
 #### Arguments
@@ -112,6 +119,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Chart.php line 172
 
 
 #### Arguments
@@ -128,6 +136,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Chart.php line 177
 
 
 #### Arguments
@@ -144,6 +153,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Chart.php line 188
 
 
 #### Arguments

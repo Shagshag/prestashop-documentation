@@ -8,7 +8,8 @@ AdminCountriesControllerCore
 
 * Class name: AdminCountriesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminCountriesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminCountriesController.php line 30
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCountriesController.php line 32
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCountriesController.php line 121
 
 
 
@@ -68,6 +72,7 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCountriesController.php line 138
 
 
 
@@ -81,6 +86,7 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCountriesController.php line 145
 
 
 
@@ -94,6 +100,7 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCountriesController.php line 155
 
 
 
@@ -107,6 +114,7 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCountriesController.php line 373
 
 
 
@@ -120,6 +128,7 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCountriesController.php line 398
 
 
 
@@ -133,6 +142,7 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCountriesController.php line 414
 
 
 
@@ -146,6 +156,7 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCountriesController.php line 449
 
 
 
@@ -159,6 +170,7 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminCountriesController.php line 461
 
 
 #### Arguments
@@ -175,6 +187,7 @@ AdminController::setMedia() override
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminCountriesController.php line 477
 
 
 
@@ -189,6 +202,7 @@ AdminController::setMedia() override
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminCountriesController.php line 519
 
 
 #### Arguments

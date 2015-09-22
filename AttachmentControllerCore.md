@@ -8,7 +8,8 @@ AttachmentControllerCore
 
 * Class name: AttachmentControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\AttachmentController.php line 27
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\AttachmentController.php line 29
 
 
 

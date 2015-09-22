@@ -8,7 +8,8 @@ OrderReturnCore
 
 * Class name: OrderReturnCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\order\OrderReturn.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderReturn.php line 30
 
 
 ### $id_customer
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderReturn.php line 33
 
 
 ### $id_order
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderReturn.php line 36
 
 
 ### $state
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderReturn.php line 39
 
 
 ### $question
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderReturn.php line 42
 
 
 ### $date_add
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderReturn.php line 45
 
 
 ### $date_upd
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\order\OrderReturn.php line 48
 
 
 ### $definition
@@ -105,6 +113,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\order\OrderReturn.php line 53
 
 
 Methods
@@ -120,6 +129,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderReturn.php line 66
 
 
 #### Arguments
@@ -139,6 +149,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderReturn.php line 88
 
 
 #### Arguments
@@ -158,6 +169,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\order\OrderReturn.php line 132
 
 
 
@@ -172,13 +184,14 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderReturn.php line 143
 
 
 #### Arguments
 * $customer_id **mixed**
 * $order_id **mixed**
 * $no_denied **mixed**
-* $context **Context**
+* $context **[Context](ContextCore)**
 
 
 
@@ -192,6 +205,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderReturn.php line 166
 
 
 #### Arguments
@@ -209,11 +223,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderReturn.php line 179
 
 
 #### Arguments
 * $order_return_id **integer**
-* $order **Order**
+* $order **[Order](OrderCore)**
 
 
 
@@ -227,6 +242,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderReturn.php line 199
 
 
 #### Arguments
@@ -244,6 +260,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderReturn.php line 218
 
 
 #### Arguments
@@ -263,6 +280,7 @@ Get return details for one product line
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderReturn.php line 228
 
 
 #### Arguments
@@ -280,6 +298,7 @@ Add returned quantity to products list
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\order\OrderReturn.php line 246
 
 
 #### Arguments

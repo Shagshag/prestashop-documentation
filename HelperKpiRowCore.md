@@ -8,7 +8,8 @@ HelperKpiRowCore
 
 * Class name: HelperKpiRowCore
 * Namespace: 
-* Parent class: Helper
+* Parent class: [Helper](HelperCore)
+* This class is defined in classes\helper\HelperKpiRow.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpiRow.php line 29
 
 
 ### $base_tpl
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpiRow.php line 30
 
 
 ### $kpis
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\HelperKpiRow.php line 32
 
 
 Methods
@@ -64,6 +68,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\HelperKpiRow.php line 34
 
 
 

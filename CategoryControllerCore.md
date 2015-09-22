@@ -8,7 +8,8 @@ CategoryControllerCore
 
 * Class name: CategoryControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\CategoryController.php line 27
 
 
 
@@ -27,6 +28,7 @@ string Internal controller name
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\CategoryController.php line 30
 
 
 ### $category
@@ -38,6 +40,7 @@ string Internal controller name
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\CategoryController.php line 33
 
 
 ### $customer_access
@@ -49,6 +52,7 @@ string Internal controller name
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\CategoryController.php line 36
 
 
 ### $nbProducts
@@ -60,6 +64,7 @@ string Internal controller name
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\CategoryController.php line 39
 
 
 ### $cat_products
@@ -71,6 +76,7 @@ string Internal controller name
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\CategoryController.php line 42
 
 
 Methods
@@ -86,6 +92,7 @@ Sets default medias for this controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CategoryController.php line 47
 
 
 
@@ -99,6 +106,7 @@ Redirects to canonical or "Not Found" URL
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CategoryController.php line 74
 
 
 #### Arguments
@@ -115,6 +123,7 @@ Initializes controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CategoryController.php line 96
 
 
 
@@ -128,6 +137,7 @@ Initializes page content variables
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CategoryController.php line 127
 
 
 
@@ -141,6 +151,7 @@ Assigns scenes template variables
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\CategoryController.php line 171
 
 
 
@@ -154,6 +165,7 @@ Assigns subcategory templates variables
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\CategoryController.php line 197
 
 
 
@@ -167,6 +179,7 @@ Assigns product list template variables
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CategoryController.php line 211
 
 
 
@@ -180,6 +193,7 @@ Returns an instance of the current category
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CategoryController.php line 254
 
 
 

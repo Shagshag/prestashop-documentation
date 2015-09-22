@@ -8,7 +8,8 @@ CartControllerCore
 
 * Class name: CartControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\CartController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\CartController.php line 29
 
 
 ### $id_product
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\CartController.php line 31
 
 
 ### $id_product_attribute
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\CartController.php line 32
 
 
 ### $id_address_delivery
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\CartController.php line 33
 
 
 ### $customization_id
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\CartController.php line 34
 
 
 ### $qty
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\CartController.php line 35
 
 
 ### $ssl
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\CartController.php line 36
 
 
 ### $ajax_refresh
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\CartController.php line 38
 
 
 Methods
@@ -119,6 +128,7 @@ This is not a public page, so the canonical redirection is disabled
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CartController.php line 45
 
 
 #### Arguments
@@ -135,6 +145,7 @@ Initialize cart controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CartController.php line 53
 
 
 
@@ -148,6 +159,7 @@ Initialize cart controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CartController.php line 68
 
 
 
@@ -161,6 +173,7 @@ This process delete a product from the cart
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\CartController.php line 108
 
 
 
@@ -174,6 +187,7 @@ This process delete a product from the cart
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\CartController.php line 157
 
 
 
@@ -187,6 +201,7 @@ This process delete a product from the cart
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\CartController.php line 180
 
 
 
@@ -200,6 +215,7 @@ This process delete a product from the cart
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\CartController.php line 195
 
 
 
@@ -213,6 +229,7 @@ This process add or update a product in the cart
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\CartController.php line 216
 
 
 
@@ -226,6 +243,7 @@ Remove discounts on cart
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\CartController.php line 331
 
 
 
@@ -239,6 +257,7 @@ Remove discounts on cart
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CartController.php line 340
 
 
 
@@ -252,6 +271,7 @@ Display ajax content (this function is called instead of classic display, in aja
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\CartController.php line 351
 
 
 

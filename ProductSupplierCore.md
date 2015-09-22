@@ -8,7 +8,8 @@ ProductSupplierCore
 
 * Class name: ProductSupplierCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\ProductSupplier.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductSupplier.php line 35
 
 
 ### $id_product_attribute
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductSupplier.php line 40
 
 
 ### $id_supplier
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductSupplier.php line 45
 
 
 ### $product_supplier_reference
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductSupplier.php line 50
 
 
 ### $id_currency
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductSupplier.php line 55
 
 
 ### $product_supplier_price_te
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\ProductSupplier.php line 60
 
 
 ### $definition
@@ -94,6 +101,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\ProductSupplier.php line 65
 
 
 ### $webserviceParameters
@@ -105,6 +113,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\ProductSupplier.php line 81
 
 
 Methods
@@ -120,6 +129,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\ProductSupplier.php line 95
 
 
 
@@ -134,6 +144,7 @@ For a given product and supplier, gets the product supplier reference
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductSupplier.php line 120
 
 
 #### Arguments
@@ -153,6 +164,7 @@ For a given product and supplier, gets the product supplier unit price
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductSupplier.php line 143
 
 
 #### Arguments
@@ -173,6 +185,7 @@ For a given product and supplier, gets corresponding ProductSupplier ID
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductSupplier.php line 177
 
 
 #### Arguments
@@ -192,6 +205,7 @@ For a given product, retrieves its suppliers
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductSupplier.php line 198
 
 
 #### Arguments
@@ -210,6 +224,7 @@ For a given Supplier, Product, returns the purchased price
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ProductSupplier.php line 218
 
 
 #### Arguments

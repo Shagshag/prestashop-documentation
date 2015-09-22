@@ -9,6 +9,7 @@ Smarty_Custom_Template
 * Class name: Smarty_Custom_Template
 * Namespace: 
 * Parent class: Smarty_Internal_Template
+* This class is defined in classes\SmartyCustom.php line 300
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\SmartyCustom.php line 303
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\SmartyCustom.php line 305
 
 
 #### Arguments

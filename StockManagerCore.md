@@ -8,7 +8,8 @@ StockManager : implementation of StockManagerInterface
 
 * Class name: StockManagerCore
 * Namespace: 
-* This class implements: [StockManagerInterface](StockManagerInterface.md)
+* This class implements: [StockManagerInterface](StockManagerInterface)* This class is defined in classes\stock\StockManager.php line 31
+
 
 
 
@@ -29,7 +30,8 @@ Checks if the StockManager is available
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined by [StockManagerInterface](StockManagerInterface.md)
+* This method is defined by [StockManagerInterface](StockManagerInterface)
+* This method is defined in classes\stock\StockManager.php line 38
 
 
 
@@ -43,13 +45,14 @@ For a given product, adds a given quantity
 
 
 * Visibility: **public**
-* This method is defined by [StockManagerInterface](StockManagerInterface.md)
+* This method is defined by [StockManagerInterface](StockManagerInterface)
+* This method is defined in classes\stock\StockManager.php line 53
 
 
 #### Arguments
 * $id_product **integer**
 * $id_product_attribute **integer**
-* $warehouse **Warehouse**
+* $warehouse **[Warehouse](WarehouseCore)**
 * $quantity **integer**
 * $id_stock_movement_reason **integer**
 * $price_te **float**
@@ -67,13 +70,14 @@ For a given product, removes a given quantity
 
 
 * Visibility: **public**
-* This method is defined by [StockManagerInterface](StockManagerInterface.md)
+* This method is defined by [StockManagerInterface](StockManagerInterface)
+* This method is defined in classes\stock\StockManager.php line 67
 
 
 #### Arguments
 * $id_product **integer**
 * $id_product_attribute **integer**
-* $warehouse **Warehouse**
+* $warehouse **[Warehouse](WarehouseCore)**
 * $quantity **integer**
 * $id_stock_movement_reason **integer**
 * $is_usable **boolean**
@@ -91,7 +95,8 @@ If the given product has combinations and $id_product_attribute is null, returns
 
 
 * Visibility: **public**
-* This method is defined by [StockManagerInterface](StockManagerInterface.md)
+* This method is defined by [StockManagerInterface](StockManagerInterface)
+* This method is defined in classes\stock\StockManager.php line 79
 
 
 #### Arguments
@@ -114,7 +119,8 @@ If $usable is defined, real quantity: usable_qty + supply_orders_qty - client_or
 
 
 * Visibility: **public**
-* This method is defined by [StockManagerInterface](StockManagerInterface.md)
+* This method is defined by [StockManagerInterface](StockManagerInterface)
+* This method is defined in classes\stock\StockManager.php line 93
 
 
 #### Arguments
@@ -137,7 +143,8 @@ It is also possible to transfer a usable quantity from warehouse 1 in an unusabl
 
 
 * Visibility: **public**
-* This method is defined by [StockManagerInterface](StockManagerInterface.md)
+* This method is defined by [StockManagerInterface](StockManagerInterface)
+* This method is defined in classes\stock\StockManager.php line 110
 
 
 #### Arguments
@@ -160,7 +167,8 @@ For a given product, returns the time left before being out of stock.
 By default, for the given product, it will use sum(quantities removed in all warehouses)
 
 * Visibility: **public**
-* This method is defined by [StockManagerInterface](StockManagerInterface.md)
+* This method is defined by [StockManagerInterface](StockManagerInterface)
+* This method is defined in classes\stock\StockManager.php line 122
 
 
 #### Arguments
@@ -181,10 +189,11 @@ Formula : (physicalStock * lastCump + quantityToAdd * unitPrice) / (physicalStoc
 
 
 * Visibility: **protected**
+* This method is defined in classes\stock\StockManager.php line 778
 
 
 #### Arguments
-* $stock **Stock|PrestaShopCollection**
+* $stock **[Stock](StockCore)|[Stock](PrestaShopCollectionCore)**
 * $quantity **integer**
 * $price_te **float**
 
@@ -199,6 +208,7 @@ For a given product, retrieves the stock collection
 
 
 * Visibility: **protected**
+* This method is defined in classes\stock\StockManager.php line 792
 
 
 #### Arguments
@@ -219,6 +229,7 @@ For a given product, retrieves the stock in function of the delivery option
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\stock\StockManager.php line 815
 
 
 #### Arguments

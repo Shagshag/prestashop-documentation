@@ -10,7 +10,8 @@ Import module management
 * Class name: ImportModuleCore
 * Namespace: 
 * This is an **abstract** class
-* Parent class: Module
+* Parent class: [Module](ModuleCore)
+* This class is defined in classes\module\ImportModule.php line 34
 
 
 
@@ -29,6 +30,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\module\ImportModule.php line 36
 
 
 ### $server
@@ -40,6 +42,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\ImportModule.php line 38
 
 
 ### $user
@@ -51,6 +54,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\ImportModule.php line 40
 
 
 ### $passwd
@@ -62,6 +66,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\ImportModule.php line 42
 
 
 ### $database
@@ -73,6 +78,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\ImportModule.php line 44
 
 
 ### $prefix
@@ -84,6 +90,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\module\ImportModule.php line 47
 
 
 Methods
@@ -99,6 +106,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ImportModule.php line 50
 
 
 
@@ -112,6 +120,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in classes\module\ImportModule.php line 57
 
 
 
@@ -125,6 +134,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ImportModule.php line 75
 
 
 #### Arguments
@@ -141,6 +151,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ImportModule.php line 88
 
 
 #### Arguments
@@ -157,6 +168,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\module\ImportModule.php line 94
 
 
 #### Arguments
@@ -174,6 +186,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\module\ImportModule.php line 105
 
 
 
@@ -188,6 +201,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
+* This method is defined in classes\module\ImportModule.php line 116
 
 
 

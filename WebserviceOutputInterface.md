@@ -9,6 +9,7 @@ WebserviceOutputInterface
 * Interface name: WebserviceOutputInterface
 * Namespace: 
 * This is an **interface**
+* This interface is defined in classes\webservice\WebserviceOutputInterface.php line 27
 
 
 
@@ -28,6 +29,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 29
 
 
 #### Arguments
@@ -44,6 +46,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 30
 
 
 #### Arguments
@@ -60,6 +63,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 31
 
 
 
@@ -73,6 +77,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 32
 
 
 
@@ -86,6 +91,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 33
 
 
 #### Arguments
@@ -102,6 +108,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 34
 
 
 
@@ -115,6 +122,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 35
 
 
 #### Arguments
@@ -131,6 +139,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 36
 
 
 #### Arguments
@@ -149,6 +158,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 37
 
 
 #### Arguments
@@ -166,6 +176,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 38
 
 
 #### Arguments
@@ -184,6 +195,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 39
 
 
 #### Arguments
@@ -202,6 +214,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 40
 
 
 #### Arguments
@@ -218,6 +231,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 41
 
 
 
@@ -231,6 +245,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 42
 
 
 
@@ -244,6 +259,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceOutputInterface.php line 43
 
 
 #### Arguments

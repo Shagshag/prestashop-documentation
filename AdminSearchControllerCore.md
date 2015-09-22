@@ -8,7 +8,8 @@ AdminSearchControllerCore
 
 * Class name: AdminSearchControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminSearchController.php line 27
 
 
 
@@ -29,6 +30,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSearchController.php line 29
 
 
 
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSearchController.php line 35
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSearchController.php line 148
 
 
 
@@ -68,6 +72,7 @@ Search a specific string in the products and categories
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSearchController.php line 162
 
 
 
@@ -81,6 +86,7 @@ Search a specific name in the customers
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSearchController.php line 174
 
 
 
@@ -94,6 +100,7 @@ Search a specific name in the customers
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSearchController.php line 179
 
 
 
@@ -107,6 +114,7 @@ Search a feature in all store
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSearchController.php line 209
 
 
 
@@ -120,6 +128,7 @@ Search a feature in all store
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSearchController.php line 262
 
 
 
@@ -133,6 +142,7 @@ Search a feature in all store
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSearchController.php line 275
 
 
 
@@ -146,6 +156,7 @@ Search a feature in all store
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminSearchController.php line 297
 
 
 
@@ -159,6 +170,7 @@ Search a feature in all store
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSearchController.php line 311
 
 
 
@@ -172,6 +184,7 @@ Search a feature in all store
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSearchController.php line 318
 
 
 
@@ -185,6 +198,7 @@ Search a feature in all store
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSearchController.php line 322
 
 
 
@@ -198,6 +212,7 @@ Search a feature in all store
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminSearchController.php line 327
 
 
 

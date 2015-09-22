@@ -8,7 +8,8 @@ Class FreeOrder to use PaymentModule (abstract class, cannot be instancied)
 
 * Class name: FreeOrder
 * Namespace: 
-* Parent class: PaymentModule
+* Parent class: [PaymentModule](PaymentModuleCore)
+* This class is defined in controllers\front\ParentOrderController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\ParentOrderController.php line 32
 
 
 ### $name
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\ParentOrderController.php line 33
 
 
 ### $displayName
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\ParentOrderController.php line 34
 
 
 

@@ -8,6 +8,7 @@ TaxCalculatorCore
 
 * Class name: TaxCalculatorCore
 * Namespace: 
+* This class is defined in classes\tax\TaxCalculator.php line 32
 
 
 
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\tax\TaxCalculator.php line 38
 
 
 ### ONE_AFTER_ANOTHER_METHOD
@@ -29,6 +31,7 @@ Constants
 
 
 
+* This constant is defined in classes\tax\TaxCalculator.php line 44
 
 
 Properties
@@ -44,6 +47,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\TaxCalculator.php line 49
 
 
 ### $computation_method
@@ -55,6 +59,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\TaxCalculator.php line 54
 
 
 Methods
@@ -70,6 +75,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxCalculator.php line 61
 
 
 #### Arguments
@@ -87,6 +93,7 @@ Compute and add the taxes to the specified price
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxCalculator.php line 80
 
 
 #### Arguments
@@ -103,6 +110,7 @@ Compute and remove the taxes to the specified price
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxCalculator.php line 92
 
 
 #### Arguments
@@ -119,6 +127,7 @@ Compute and remove the taxes to the specified price
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxCalculator.php line 100
 
 
 
@@ -132,6 +141,7 @@ Compute and remove the taxes to the specified price
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxCalculator.php line 120
 
 
 
@@ -145,6 +155,7 @@ Return the tax amount associated to each taxes of the TaxCalculator
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxCalculator.php line 138
 
 
 #### Arguments
@@ -161,6 +172,7 @@ Return the total taxes amount
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxCalculator.php line 160
 
 
 #### Arguments

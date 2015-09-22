@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: ConfigurationCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\Configuration.php line 27
 
 
 
@@ -41,6 +42,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Configuration.php line 29
 
 
 ### $name
@@ -52,6 +54,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Configuration.php line 32
 
 
 ### $id_shop_group
@@ -63,6 +66,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Configuration.php line 34
 
 
 ### $id_shop
@@ -74,6 +78,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Configuration.php line 35
 
 
 ### $value
@@ -85,6 +90,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Configuration.php line 38
 
 
 ### $date_add
@@ -96,6 +102,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Configuration.php line 41
 
 
 ### $date_upd
@@ -107,6 +114,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\Configuration.php line 44
 
 
 ### $definition
@@ -119,6 +127,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\Configuration.php line 49
 
 
 ### $_cache
@@ -131,6 +140,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Configuration.php line 64
 
 
 ### $types
@@ -143,6 +153,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\Configuration.php line 67
 
 
 ### $webserviceParameters
@@ -154,6 +165,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\Configuration.php line 69
 
 
 Methods
@@ -169,6 +181,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\Configuration.php line 79
 
 
 
@@ -183,6 +196,7 @@ Return ID a configuration key
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 95
 
 
 #### Arguments
@@ -202,6 +216,7 @@ Return ID a configuration key
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 111
 
 
 
@@ -216,6 +231,7 @@ WARNING: For testing only. Do NOT rely on this method, it may be removed at any 
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 132
 
 
 
@@ -230,6 +246,7 @@ Load all configuration data
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 140
 
 
 
@@ -244,6 +261,7 @@ Get a single configuration value (in one language only)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 177
 
 
 #### Arguments
@@ -264,6 +282,7 @@ Get a single configuration value (in one language only)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 212
 
 
 #### Arguments
@@ -282,6 +301,7 @@ Get a single configuration value (in multiple languages)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 225
 
 
 #### Arguments
@@ -301,6 +321,7 @@ Get a single configuration value for all shops
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 242
 
 
 #### Arguments
@@ -319,6 +340,7 @@ Get several configuration values (in one language only)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 263
 
 
 #### Arguments
@@ -339,6 +361,7 @@ Check if key exists in configuration
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 293
 
 
 #### Arguments
@@ -359,6 +382,7 @@ Set TEMPORARY a single configuration value (in one language only)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 324
 
 
 #### Arguments
@@ -379,6 +403,7 @@ Update configuration key for global context only
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 360
 
 
 #### Arguments
@@ -399,6 +424,7 @@ may not insert values correctly (for example, HTML is escaped, when it should no
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 379
 
 
 #### Arguments
@@ -420,6 +446,7 @@ Delete a configuration key in database (with or without language management)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 472
 
 
 #### Arguments
@@ -437,6 +464,7 @@ Delete configuration key from current context.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 500
 
 
 #### Arguments
@@ -454,6 +482,7 @@ Check if configuration var is defined in given context
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 530
 
 
 #### Arguments
@@ -473,6 +502,7 @@ Check if configuration var is defined in given context
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 552
 
 
 #### Arguments
@@ -490,6 +520,7 @@ Check if a key was loaded as multi lang
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 576
 
 
 #### Arguments
@@ -507,6 +538,7 @@ Add SQL restriction on shops for configuration table
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in classes\Configuration.php line 588
 
 
 #### Arguments
@@ -524,6 +556,7 @@ This method is override to allow TranslatedConfiguration entity
 
 
 * Visibility: **public**
+* This method is defined in classes\Configuration.php line 608
 
 
 #### Arguments

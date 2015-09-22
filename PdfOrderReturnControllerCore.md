@@ -8,7 +8,8 @@ PdfOrderReturnControllerCore
 
 * Class name: PdfOrderReturnControllerCore
 * Namespace: 
-* Parent class: FrontController
+* Parent class: [FrontController](FrontControllerCore)
+* This class is defined in controllers\front\PdfOrderReturnController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\PdfOrderReturnController.php line 29
 
 
 ### $display_header
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\PdfOrderReturnController.php line 30
 
 
 ### $display_footer
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\PdfOrderReturnController.php line 31
 
 
 Methods
@@ -64,6 +68,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\PdfOrderReturnController.php line 33
 
 
 
@@ -77,6 +82,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\PdfOrderReturnController.php line 54
 
 
 

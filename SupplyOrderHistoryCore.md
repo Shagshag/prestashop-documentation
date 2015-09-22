@@ -8,7 +8,8 @@ SupplyOrderHistoryCore
 
 * Class name: SupplyOrderHistoryCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\stock\SupplyOrderHistory.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderHistory.php line 35
 
 
 ### $id_employee
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderHistory.php line 40
 
 
 ### $employee_firstname
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderHistory.php line 45
 
 
 ### $employee_lastname
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderHistory.php line 50
 
 
 ### $id_state
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderHistory.php line 55
 
 
 ### $date_add
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\stock\SupplyOrderHistory.php line 60
 
 
 ### $definition
@@ -94,6 +101,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\stock\SupplyOrderHistory.php line 65
 
 
 ### $webserviceParameters
@@ -105,6 +113,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\stock\SupplyOrderHistory.php line 81
 
 
 

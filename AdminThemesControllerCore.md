@@ -8,7 +8,8 @@ AdminThemesControllerCore
 
 * Class name: AdminThemesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminThemesController.php line 30
 
 
 
@@ -22,6 +23,7 @@ Constants
 
 
 
+* This constant is defined in controllers\admin\AdminThemesController.php line 32
 
 
 Properties
@@ -39,6 +41,7 @@ higher version number will be used in [theme]/config.xml
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in controllers\admin\AdminThemesController.php line 47
 
 
 ### $check_features
@@ -52,6 +55,7 @@ and also checks prestashop current configuration if not match.
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in controllers\admin\AdminThemesController.php line 55
 
 
 ### $className
@@ -63,6 +67,7 @@ and also checks prestashop current configuration if not match.
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminThemesController.php line 109
 
 
 ### $table
@@ -74,6 +79,7 @@ and also checks prestashop current configuration if not match.
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminThemesController.php line 110
 
 
 ### $toolbar_scroll
@@ -85,6 +91,7 @@ and also checks prestashop current configuration if not match.
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminThemesController.php line 111
 
 
 ### $img_error
@@ -96,6 +103,7 @@ and also checks prestashop current configuration if not match.
 
 
 * Visibility: **private**
+* This property is defined in controllers\admin\AdminThemesController.php line 112
 
 
 ### $object
@@ -107,6 +115,7 @@ and also checks prestashop current configuration if not match.
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminThemesController.php line 30
 
 
 Methods
@@ -122,6 +131,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 34
 
 
 
@@ -135,6 +145,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 114
 
 
 
@@ -148,6 +159,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 249
 
 
 
@@ -161,6 +173,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 469
 
 
 
@@ -175,6 +188,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 * Visibility: **protected**
 * This method is **static**.
+* This method is defined in controllers\admin\AdminThemesController.php line 482
 
 
 #### Arguments
@@ -192,6 +206,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 508
 
 
 
@@ -205,6 +220,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 553
 
 
 
@@ -218,6 +234,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 613
 
 
 
@@ -231,6 +248,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminThemesController.php line 647
 
 
 
@@ -244,6 +262,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 656
 
 
 
@@ -257,6 +276,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 696
 
 
 
@@ -270,6 +290,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 730
 
 
 #### Arguments
@@ -286,6 +307,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 754
 
 
 
@@ -299,6 +321,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 772
 
 
 
@@ -312,6 +335,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 801
 
 
 
@@ -325,6 +349,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 819
 
 
 
@@ -338,6 +363,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 843
 
 
 #### Arguments
@@ -357,6 +383,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 857
 
 
 
@@ -370,6 +397,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 923
 
 
 #### Arguments
@@ -387,6 +415,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 1024
 
 
 
@@ -400,6 +429,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 1147
 
 
 
@@ -413,6 +443,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 1343
 
 
 
@@ -426,6 +457,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 1394
 
 
 #### Arguments
@@ -442,6 +474,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 1421
 
 
 #### Arguments
@@ -459,6 +492,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 1441
 
 
 
@@ -472,6 +506,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminThemesController.php line 1512
 
 
 #### Arguments
@@ -489,6 +524,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminThemesController.php line 1522
 
 
 #### Arguments
@@ -507,6 +543,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminThemesController.php line 1577
 
 
 #### Arguments
@@ -523,6 +560,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminThemesController.php line 1596
 
 
 #### Arguments
@@ -540,6 +578,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 1694
 
 
 
@@ -553,6 +592,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 1815
 
 
 
@@ -566,6 +606,7 @@ copy $base_theme_dir into $target_theme_dir.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 1851
 
 
 
@@ -581,6 +622,7 @@ to be desactivated
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminThemesController.php line 1874
 
 
 #### Arguments
@@ -597,6 +639,7 @@ _checkConfigForFeatures
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminThemesController.php line 1925
 
 
 #### Arguments
@@ -614,6 +657,7 @@ _checkConfigForFeatures
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 1980
 
 
 #### Arguments
@@ -632,6 +676,7 @@ $type = 2 partner&lt;/p&gt;
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 2118
 
 
 #### Arguments
@@ -648,6 +693,7 @@ $type = 2 partner&lt;/p&gt;
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 2139
 
 
 #### Arguments
@@ -664,6 +710,7 @@ $type = 2 partner&lt;/p&gt;
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 2160
 
 
 #### Arguments
@@ -680,6 +727,7 @@ $type = 2 partner&lt;/p&gt;
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2172
 
 
 
@@ -693,6 +741,7 @@ $type = 2 partner&lt;/p&gt;
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 2377
 
 
 #### Arguments
@@ -709,6 +758,7 @@ $type = 2 partner&lt;/p&gt;
 
 
 * Visibility: **private**
+* This method is defined in controllers\admin\AdminThemesController.php line 2406
 
 
 #### Arguments
@@ -727,6 +777,7 @@ $type = 2 partner&lt;/p&gt;
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2428
 
 
 
@@ -740,6 +791,7 @@ $type = 2 partner&lt;/p&gt;
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2560
 
 
 
@@ -753,6 +805,7 @@ This functions make checks about AdminThemes configuration edition only.
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2579
 
 
 
@@ -766,6 +819,7 @@ Update PS_LOGO
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2603
 
 
 
@@ -779,6 +833,7 @@ Update PS_LOGO_MOBILE
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2611
 
 
 
@@ -792,6 +847,7 @@ Update PS_LOGO_MAIL
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2619
 
 
 
@@ -805,6 +861,7 @@ Update PS_LOGO_INVOICE
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2627
 
 
 
@@ -818,6 +875,7 @@ Update PS_STORES_ICON
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2635
 
 
 
@@ -831,6 +889,7 @@ Generic function which allows logo upload
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminThemesController.php line 2648
 
 
 #### Arguments
@@ -848,6 +907,7 @@ Update PS_FAVICON
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2719
 
 
 
@@ -861,6 +921,7 @@ Update theme for current shop
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2736
 
 
 
@@ -874,6 +935,7 @@ Update theme for current shop
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminThemesController.php line 2750
 
 
 #### Arguments
@@ -891,6 +953,7 @@ Update theme for current shop
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2765
 
 
 
@@ -904,6 +967,7 @@ Update theme for current shop
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2806
 
 
 #### Arguments
@@ -920,6 +984,7 @@ Update theme for current shop
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2811
 
 
 
@@ -933,6 +998,7 @@ Update theme for current shop
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2829
 
 
 
@@ -946,6 +1012,7 @@ Update theme for current shop
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2847
 
 
 
@@ -959,6 +1026,7 @@ Update theme for current shop
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2865
 
 
 
@@ -972,6 +1040,7 @@ Update theme for current shop
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2884
 
 
 
@@ -985,6 +1054,7 @@ Update theme for current shop
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2903
 
 
 
@@ -998,6 +1068,7 @@ Update theme for current shop
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2922
 
 
 
@@ -1011,6 +1082,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2945
 
 
 
@@ -1024,6 +1096,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminThemesController.php line 2969
 
 
 

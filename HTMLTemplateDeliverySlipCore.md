@@ -8,7 +8,8 @@ HTMLTemplateDeliverySlipCore
 
 * Class name: HTMLTemplateDeliverySlipCore
 * Namespace: 
-* Parent class: HTMLTemplate
+* Parent class: [HTMLTemplate](HTMLTemplateCore)
+* This class is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 32
 
 
 Methods
@@ -42,10 +44,11 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 39
 
 
 #### Arguments
-* $order_invoice **OrderInvoice**
+* $order_invoice **[OrderInvoice](OrderInvoiceCore)**
 * $smarty **mixed**
 * $bulk_mode **mixed**
 
@@ -60,6 +63,7 @@ Returns the template's HTML header
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 69
 
 
 
@@ -73,6 +77,7 @@ Returns the template's HTML content
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 82
 
 
 
@@ -86,6 +91,7 @@ Returns the template filename when using bulk rendering
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 146
 
 
 
@@ -99,6 +105,7 @@ Returns the template filename
 
 
 * Visibility: **public**
+* This method is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 156
 
 
 

@@ -8,6 +8,7 @@ This class includes functions for image manipulation
 
 * Class name: ImageManagerCore
 * Namespace: 
+* This class is defined in classes\ImageManager.php line 32
 
 
 
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\ImageManager.php line 34
 
 
 ### ERROR_FILE_WIDTH
@@ -29,6 +31,7 @@ Constants
 
 
 
+* This constant is defined in classes\ImageManager.php line 35
 
 
 ### ERROR_MEMORY_LIMIT
@@ -37,6 +40,7 @@ Constants
 
 
 
+* This constant is defined in classes\ImageManager.php line 36
 
 
 
@@ -55,6 +59,7 @@ Generate a cached thumbnail for object lists (eg. carrier, order statuses.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 49
 
 
 #### Arguments
@@ -77,6 +82,7 @@ Check if memory limit is too long or not
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 100
 
 
 #### Arguments
@@ -94,6 +100,7 @@ Resize, cut and optimize image
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 141
 
 
 #### Arguments
@@ -122,6 +129,7 @@ Resize, cut and optimize image
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 265
 
 
 #### Arguments
@@ -149,6 +157,7 @@ Check if file is a real image
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 302
 
 
 #### Arguments
@@ -168,6 +177,7 @@ Check if image file extension is correct
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 357
 
 
 #### Arguments
@@ -186,6 +196,7 @@ Validate image upload (check image type and weight)
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 383
 
 
 #### Arguments
@@ -205,6 +216,7 @@ Validate icon upload
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 404
 
 
 #### Arguments
@@ -223,6 +235,7 @@ Cut image
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 435
 
 
 #### Arguments
@@ -246,6 +259,7 @@ Create an image with GD extension from a given type
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 472
 
 
 #### Arguments
@@ -264,6 +278,7 @@ Create an empty image with white background
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 497
 
 
 #### Arguments
@@ -282,6 +297,7 @@ Generate and write image
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 513
 
 
 #### Arguments
@@ -301,6 +317,7 @@ Return the mime type by the file extension
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\ImageManager.php line 555
 
 
 #### Arguments

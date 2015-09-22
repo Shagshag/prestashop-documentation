@@ -8,7 +8,8 @@ TaxRulesTaxManagerCore
 
 * Class name: TaxRulesTaxManagerCore
 * Namespace: 
-* This class implements: [TaxManagerInterface](TaxManagerInterface.md)
+* This class implements: [TaxManagerInterface](TaxManagerInterface)* This class is defined in classes\tax\TaxRulesTaxManager.php line 30
+
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\TaxRulesTaxManager.php line 32
 
 
 ### $type
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\TaxRulesTaxManager.php line 33
 
 
 ### $tax_calculator
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\tax\TaxRulesTaxManager.php line 34
 
 
 ### $configurationManager
@@ -59,6 +63,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tax\TaxRulesTaxManager.php line 39
 
 
 Methods
@@ -74,12 +79,13 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxRulesTaxManager.php line 46
 
 
 #### Arguments
-* $address **Address**
+* $address **[Address](AddressCore)**
 * $type **mixed** - &lt;p&gt;An additional parameter for the tax manager (ex: tax rules id for TaxRuleTaxManager)&lt;/p&gt;
-* $configurationManager **[Core_Business_ConfigurationInterface](Core_Business_ConfigurationInterface.md)**
+* $configurationManager **[Core_Business_ConfigurationInterface](Core_Business_ConfigurationInterface)**
 
 
 
@@ -93,11 +99,12 @@ This method determine if the tax manager is available for the specified address.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined by [TaxManagerInterface](TaxManagerInterface.md)
+* This method is defined by [TaxManagerInterface](TaxManagerInterface)
+* This method is defined in classes\tax\TaxRulesTaxManager.php line 40
 
 
 #### Arguments
-* $address **Address**
+* $address **[Address](AddressCore)**
 
 
 
@@ -110,7 +117,8 @@ Return the tax calculator associated to this address
 
 
 * Visibility: **public**
-* This method is defined by [TaxManagerInterface](TaxManagerInterface.md)
+* This method is defined by [TaxManagerInterface](TaxManagerInterface)
+* This method is defined in classes\tax\TaxRulesTaxManager.php line 47
 
 
 

@@ -8,6 +8,7 @@ HelperCore
 
 * Class name: HelperCore
 * Namespace: 
+* This class is defined in classes\helper\Helper.php line 27
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 29
 
 
 ### $table
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 30
 
 
 ### $identifier
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 31
 
 
 ### $token
@@ -59,6 +63,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 32
 
 
 ### $toolbar_btn
@@ -70,6 +75,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 33
 
 
 ### $ps_help_context
@@ -81,6 +87,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 34
 
 
 ### $title
@@ -92,6 +99,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 35
 
 
 ### $show_toolbar
@@ -103,6 +111,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 36
 
 
 ### $context
@@ -114,6 +123,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 37
 
 
 ### $toolbar_scroll
@@ -125,6 +135,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 38
 
 
 ### $bootstrap
@@ -136,6 +147,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 39
 
 
 ### $module
@@ -147,6 +159,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 44
 
 
 ### $base_folder
@@ -158,6 +171,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 47
 
 
 ### $override_folder
@@ -169,6 +183,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 50
 
 
 ### $tpl
@@ -180,6 +195,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\helper\Helper.php line 55
 
 
 ### $base_tpl
@@ -191,6 +207,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 60
 
 
 ### $tpl_vars
@@ -202,6 +219,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\helper\Helper.php line 62
 
 
 Methods
@@ -217,6 +235,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\Helper.php line 64
 
 
 
@@ -230,6 +249,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\Helper.php line 69
 
 
 #### Arguments
@@ -246,6 +266,7 @@ Create a template from the override file, else from the base file.
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\Helper.php line 80
 
 
 #### Arguments
@@ -262,6 +283,7 @@ default behaviour for helper is to return a tpl fetched
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\Helper.php line 110
 
 
 
@@ -276,6 +298,7 @@ default behaviour for helper is to return a tpl fetched
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\helper\Helper.php line 119
 
 
 #### Arguments
@@ -298,6 +321,7 @@ default behaviour for helper is to return a tpl fetched
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\Helper.php line 166
 
 
 #### Arguments
@@ -334,6 +358,7 @@ use translations files to replace english expression.
 
 
 * Visibility: **protected**
+* This method is defined in classes\helper\Helper.php line 299
 
 
 #### Arguments
@@ -353,6 +378,7 @@ Render a form with potentials required fields
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\Helper.php line 318
 
 
 #### Arguments
@@ -371,6 +397,7 @@ Render a form with potentials required fields
 
 
 * Visibility: **public**
+* This method is defined in classes\helper\Helper.php line 350
 
 
 #### Arguments
@@ -388,6 +415,7 @@ Render shop list
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\helper\Helper.php line 374
 
 
 

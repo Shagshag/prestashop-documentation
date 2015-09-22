@@ -9,6 +9,7 @@ A TaxManager define a way to retrieve tax.
 * Interface name: TaxManagerInterface
 * Namespace: 
 * This is an **interface**
+* This interface is defined in classes\tax\TaxManagerInterface.php line 31
 
 
 
@@ -29,10 +30,11 @@ This method determine if the tax manager is available for the specified address.
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\tax\TaxManagerInterface.php line 40
 
 
 #### Arguments
-* $address **Address**
+* $address **[Address](AddressCore)**
 
 
 
@@ -45,6 +47,7 @@ Return the tax calculator associated to this address
 
 
 * Visibility: **public**
+* This method is defined in classes\tax\TaxManagerInterface.php line 47
 
 
 

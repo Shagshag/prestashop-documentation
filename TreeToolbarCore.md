@@ -8,7 +8,8 @@ TreeToolbarCore
 
 * Class name: TreeToolbarCore
 * Namespace: 
-* This class implements: [ITreeToolbarCore](ITreeToolbarCore.md)
+* This class implements: [ITreeToolbarCore](ITreeToolbarCore)* This class is defined in classes\tree\TreeToolbar.php line 27
+
 
 
 Constants
@@ -21,6 +22,7 @@ Constants
 
 
 
+* This constant is defined in classes\tree\TreeToolbar.php line 29
 
 
 ### DEFAULT_TEMPLATE
@@ -29,6 +31,7 @@ Constants
 
 
 
+* This constant is defined in classes\tree\TreeToolbar.php line 30
 
 
 Properties
@@ -44,6 +47,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tree\TreeToolbar.php line 32
 
 
 ### $_context
@@ -55,6 +59,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tree\TreeToolbar.php line 33
 
 
 ### $_data
@@ -66,6 +71,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tree\TreeToolbar.php line 34
 
 
 ### $_template
@@ -77,6 +83,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tree\TreeToolbar.php line 35
 
 
 ### $_template_directory
@@ -88,6 +95,7 @@ Properties
 
 
 * Visibility: **private**
+* This property is defined in classes\tree\TreeToolbar.php line 36
 
 
 Methods
@@ -103,7 +111,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 29
 
 
 
@@ -117,7 +126,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 30
 
 
 #### Arguments
@@ -134,7 +144,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 31
 
 
 
@@ -148,7 +159,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 32
 
 
 #### Arguments
@@ -165,7 +177,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 33
 
 
 
@@ -179,7 +192,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 34
 
 
 #### Arguments
@@ -196,7 +210,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 35
 
 
 
@@ -210,7 +225,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 36
 
 
 #### Arguments
@@ -227,7 +243,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 37
 
 
 
@@ -241,7 +258,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 38
 
 
 #### Arguments
@@ -258,7 +276,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 39
 
 
 
@@ -272,6 +291,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\tree\TreeToolbar.php line 124
 
 
 #### Arguments
@@ -288,7 +308,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 40
 
 
 #### Arguments
@@ -305,7 +326,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 41
 
 
 
@@ -319,7 +341,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [ITreeToolbarCore](ITreeToolbarCore.md)
+* This method is defined by [ITreeToolbarCore](ITreeToolbarCore)
+* This method is defined in classes\tree\TreeToolbar.php line 42
 
 
 
@@ -333,6 +356,7 @@ Methods
 
 
 * Visibility: **private**
+* This method is defined in classes\tree\TreeToolbar.php line 201
 
 
 #### Arguments

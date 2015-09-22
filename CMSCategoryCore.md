@@ -8,7 +8,8 @@ CMSCategoryCore
 
 * Class name: CMSCategoryCore
 * Namespace: 
-* Parent class: ObjectModel
+* Parent class: [ObjectModel](ObjectModelCore)
+* This class is defined in classes\CMSCategory.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 29
 
 
 ### $id_cms_category
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 32
 
 
 ### $name
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 35
 
 
 ### $active
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 38
 
 
 ### $description
@@ -71,6 +76,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 41
 
 
 ### $id_parent
@@ -82,6 +88,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 44
 
 
 ### $position
@@ -93,6 +100,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 47
 
 
 ### $level_depth
@@ -104,6 +112,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 50
 
 
 ### $link_rewrite
@@ -115,6 +124,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 53
 
 
 ### $meta_title
@@ -126,6 +136,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 56
 
 
 ### $meta_keywords
@@ -137,6 +148,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 59
 
 
 ### $meta_description
@@ -148,6 +160,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 62
 
 
 ### $date_add
@@ -159,6 +172,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 65
 
 
 ### $date_upd
@@ -170,6 +184,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in classes\CMSCategory.php line 68
 
 
 ### $_links
@@ -182,6 +197,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
+* This property is defined in classes\CMSCategory.php line 70
 
 
 ### $definition
@@ -194,6 +210,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
+* This property is defined in classes\CMSCategory.php line 75
 
 
 Methods
@@ -209,6 +226,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\CMSCategory.php line 98
 
 
 #### Arguments
@@ -226,6 +244,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\CMSCategory.php line 112
 
 
 #### Arguments
@@ -242,6 +261,7 @@ Recursive scan of subcategories
 
 
 * Visibility: **public**
+* This method is defined in classes\CMSCategory.php line 133
 
 
 #### Arguments
@@ -249,7 +269,7 @@ Recursive scan of subcategories
 * $currentDepth **integer** - &lt;p&gt;specify the current depth in the tree (don&#039;t use it, only for rucursivity!)&lt;/p&gt;
 * $id_lang **mixed**
 * $excluded_ids_array **array** - &lt;p&gt;specify a list of ids to exclude of results&lt;/p&gt;
-* $link **Link**
+* $link **[Link](LinkCore)**
 
 
 
@@ -263,6 +283,7 @@ Recursive scan of subcategories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 167
 
 
 #### Arguments
@@ -270,7 +291,7 @@ Recursive scan of subcategories
 * $current **mixed**
 * $active **mixed**
 * $links **mixed**
-* $link **Link**
+* $link **[Link](LinkCore)**
 
 
 
@@ -284,6 +305,7 @@ Recursive scan of subcategories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 210
 
 
 #### Arguments
@@ -304,6 +326,7 @@ Recursively add specified CMSCategory childs to $toDelete array
 
 
 * Visibility: **protected**
+* This method is defined in classes\CMSCategory.php line 232
 
 
 #### Arguments
@@ -321,6 +344,7 @@ Recursively add specified CMSCategory childs to $toDelete array
 
 
 * Visibility: **public**
+* This method is defined in classes\CMSCategory.php line 248
 
 
 
@@ -334,6 +358,7 @@ Delete several categories from database
 return boolean Deletion result
 
 * Visibility: **public**
+* This method is defined in classes\CMSCategory.php line 297
 
 
 #### Arguments
@@ -350,6 +375,7 @@ Get the number of parent categories
 
 
 * Visibility: **public**
+* This method is defined in classes\CMSCategory.php line 312
 
 
 
@@ -364,6 +390,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 328
 
 
 #### Arguments
@@ -383,6 +410,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 353
 
 
 #### Arguments
@@ -399,6 +427,7 @@ Return current CMSCategory childs
 
 
 * Visibility: **public**
+* This method is defined in classes\CMSCategory.php line 370
 
 
 #### Arguments
@@ -417,6 +446,7 @@ Hide CMSCategory prefix used for position
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 398
 
 
 #### Arguments
@@ -434,6 +464,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 410
 
 
 #### Arguments
@@ -452,6 +483,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 415
 
 
 #### Arguments
@@ -471,6 +503,7 @@ Check if CMSCategory can be moved in another one
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 445
 
 
 #### Arguments
@@ -489,6 +522,7 @@ Check if CMSCategory can be moved in another one
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 470
 
 
 #### Arguments
@@ -506,10 +540,11 @@ Check if CMSCategory can be moved in another one
 
 
 * Visibility: **public**
+* This method is defined in classes\CMSCategory.php line 490
 
 
 #### Arguments
-* $link **Link**
+* $link **[Link](LinkCore)**
 
 
 
@@ -522,6 +557,7 @@ Check if CMSCategory can be moved in another one
 
 
 * Visibility: **public**
+* This method is defined in classes\CMSCategory.php line 498
 
 
 #### Arguments
@@ -539,6 +575,7 @@ Light back office search for categories
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 519
 
 
 #### Arguments
@@ -558,6 +595,7 @@ Retrieve CMSCategory by name and parent CMSCategory id
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 545
 
 
 #### Arguments
@@ -576,6 +614,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 
 * Visibility: **public**
+* This method is defined in classes\CMSCategory.php line 563
 
 
 #### Arguments
@@ -592,6 +631,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 
 * Visibility: **public**
+* This method is defined in classes\CMSCategory.php line 588
 
 
 #### Arguments
@@ -610,6 +650,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 624
 
 
 #### Arguments
@@ -627,6 +668,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 643
 
 
 #### Arguments
@@ -644,6 +686,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 * Visibility: **public**
 * This method is **static**.
+* This method is defined in classes\CMSCategory.php line 648
 
 
 #### Arguments

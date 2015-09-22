@@ -22,6 +22,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Business_Stock_StockManager
 * Namespace: 
+* This class is defined in Core\Business\Stock\Core_Business_Stock_StockManager.php line 27
 
 
 
@@ -42,11 +43,12 @@ This will update a Pack quantity and will decrease the quantity of containing Pr
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Stock\Core_Business_Stock_StockManager.php line 37
 
 
 #### Arguments
-* $product **Product** - &lt;p&gt;A product pack object to update its quantity&lt;/p&gt;
-* $stock_available **StockAvailable** - &lt;p&gt;the stock of the product to fix with correct quantity&lt;/p&gt;
+* $product **[Product](ProductCore)** - &lt;p&gt;A product pack object to update its quantity&lt;/p&gt;
+* $stock_available **[StockAvailable](StockAvailableCore)** - &lt;p&gt;the stock of the product to fix with correct quantity&lt;/p&gt;
 * $delta_quantity **integer** - &lt;p&gt;The movement of the stock (negative for a decrease)&lt;/p&gt;
 * $id_shop **integer|null** - &lt;p&gt;Opional shop ID&lt;/p&gt;
 
@@ -62,12 +64,13 @@ This will decrease (if needed) Packs containing this product
 
 
 * Visibility: **public**
+* This method is defined in Core\Business\Stock\Core_Business_Stock_StockManager.php line 72
 
 
 #### Arguments
-* $product **Product** - &lt;p&gt;A product object to update its quantity&lt;/p&gt;
+* $product **[Product](ProductCore)** - &lt;p&gt;A product object to update its quantity&lt;/p&gt;
 * $id_product_attribute **integer** - &lt;p&gt;The product attribute to update&lt;/p&gt;
-* $stock_available **StockAvailable** - &lt;p&gt;the stock of the product to fix with correct quantity&lt;/p&gt;
+* $stock_available **[StockAvailable](StockAvailableCore)** - &lt;p&gt;the stock of the product to fix with correct quantity&lt;/p&gt;
 * $id_shop **integer|null** - &lt;p&gt;Opional shop ID&lt;/p&gt;
 
 
@@ -81,10 +84,11 @@ Will update Product available stock int he given declinaison. If product is a Pa
 If Product is contained in a Pack, Pack could be decreased or not (only if sub product stocks become not sufficient).
 
 * Visibility: **public**
+* This method is defined in Core\Business\Stock\Core_Business_Stock_StockManager.php line 112
 
 
 #### Arguments
-* $product **Product** - &lt;p&gt;The product to update its stockAvailable&lt;/p&gt;
+* $product **[Product](ProductCore)** - &lt;p&gt;The product to update its stockAvailable&lt;/p&gt;
 * $id_product_attribute **integer** - &lt;p&gt;The declinaison to update (null if not)&lt;/p&gt;
 * $delta_quantity **integer** - &lt;p&gt;The quantity change (positive or negative)&lt;/p&gt;
 * $id_shop **integer|null** - &lt;p&gt;Optional&lt;/p&gt;

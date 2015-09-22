@@ -8,7 +8,8 @@ AdminPaymentControllerCore
 
 * Class name: AdminPaymentControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminPaymentController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminPaymentController.php line 29
 
 
 Methods
@@ -42,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPaymentController.php line 31
 
 
 
@@ -55,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPaymentController.php line 90
 
 
 
@@ -68,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPaymentController.php line 95
 
 
 
@@ -81,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPaymentController.php line 101
 
 
 
@@ -94,6 +100,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPaymentController.php line 111
 
 
 
@@ -107,6 +114,7 @@ Methods
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminPaymentController.php line 127
 
 
 #### Arguments
@@ -123,6 +131,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPaymentController.php line 163
 
 
 
@@ -136,6 +145,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPaymentController.php line 169
 
 
 
@@ -149,6 +159,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPaymentController.php line 175
 
 
 
@@ -162,6 +173,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminPaymentController.php line 278
 
 
 

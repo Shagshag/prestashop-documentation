@@ -8,7 +8,8 @@ WebserviceSpecificManagementSearchCore
 
 * Class name: WebserviceSpecificManagementSearchCore
 * Namespace: 
-* This class implements: [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This class implements: [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)* This class is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 27
+
 
 
 
@@ -26,6 +27,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 30
 
 
 ### $output
@@ -37,6 +39,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 31
 
 
 ### $wsObject
@@ -48,6 +51,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 34
 
 
 Methods
@@ -63,11 +67,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 29
 
 
 #### Arguments
-* $obj **[WebserviceOutputBuilderCore](WebserviceOutputBuilderCore.md)**
+* $obj **[WebserviceOutputBuilderCore](WebserviceOutputBuilderCore)**
 
 
 
@@ -80,11 +85,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 31
 
 
 #### Arguments
-* $obj **[WebserviceRequestCore](WebserviceRequestCore.md)**
+* $obj **[WebserviceRequestCore](WebserviceRequestCore)**
 
 
 
@@ -97,7 +103,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 32
 
 
 
@@ -111,7 +118,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 30
 
 
 
@@ -125,6 +133,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 65
 
 
 #### Arguments
@@ -141,6 +150,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 71
 
 
 
@@ -154,7 +164,8 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 34
 
 
 
@@ -168,7 +179,8 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 
 * Visibility: **public**
-* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface.md)
+* This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 41
 
 
 

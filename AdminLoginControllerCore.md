@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: AdminLoginControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminLoginController.php line 27
 
 
 
@@ -43,6 +44,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLoginController.php line 29
 
 
 
@@ -56,6 +58,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLoginController.php line 47
 
 
 
@@ -69,6 +72,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLoginController.php line 65
 
 
 
@@ -82,6 +86,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLoginController.php line 144
 
 
 
@@ -95,6 +100,7 @@ All BO users can access the login page
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLoginController.php line 154
 
 
 
@@ -108,6 +114,7 @@ All BO users can access the login page
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLoginController.php line 159
 
 
 
@@ -121,6 +128,7 @@ All BO users can access the login page
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLoginController.php line 168
 
 
 
@@ -134,6 +142,7 @@ All BO users can access the login page
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminLoginController.php line 234
 
 
 

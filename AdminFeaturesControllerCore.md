@@ -8,7 +8,8 @@ AdminFeaturesControllerCore
 
 * Class name: AdminFeaturesControllerCore
 * Namespace: 
-* Parent class: AdminController
+* Parent class: [AdminController](AdminControllerCore)
+* This class is defined in controllers\admin\AdminFeaturesController.php line 30
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminFeaturesController.php line 32
 
 
 ### $position_identifier
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminFeaturesController.php line 33
 
 
 ### $feature_name
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\admin\AdminFeaturesController.php line 34
 
 
 ### $object
@@ -60,6 +64,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\admin\AdminFeaturesController.php line 30
 
 
 Methods
@@ -75,6 +80,7 @@ Methods
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 36
 
 
 
@@ -88,6 +94,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 85
 
 
 
@@ -101,6 +108,7 @@ Change object type to feature value (use when processing a feature value)
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 97
 
 
 
@@ -114,6 +122,7 @@ Change object type to feature (use when processing a feature)
 
 
 * Visibility: **protected**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 107
 
 
 
@@ -127,6 +136,7 @@ Change object type to feature (use when processing a feature)
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 114
 
 
 
@@ -140,6 +150,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 154
 
 
 
@@ -153,6 +164,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 190
 
 
 
@@ -166,6 +178,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 221
 
 
 
@@ -179,6 +192,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 267
 
 
 
@@ -192,6 +206,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 317
 
 
 
@@ -205,6 +220,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 405
 
 
 
@@ -218,6 +234,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 448
 
 
 
@@ -231,6 +248,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 475
 
 
 
@@ -244,6 +262,7 @@ Override processAdd to change SaveAndStay button action
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 501
 
 
 
@@ -257,6 +276,7 @@ Override processUpdate to change SaveAndStay button action
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 522
 
 
 
@@ -270,6 +290,7 @@ Call the right method for creating or updating object
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 538
 
 
 
@@ -283,6 +304,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 573
 
 
 #### Arguments
@@ -304,6 +326,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
+* This method is defined in controllers\admin\AdminFeaturesController.php line 598
 
 
 

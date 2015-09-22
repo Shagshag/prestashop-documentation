@@ -8,7 +8,8 @@ OrderOpcControllerCore
 
 * Class name: OrderOpcControllerCore
 * Namespace: 
-* Parent class: ParentOrderController
+* Parent class: [ParentOrderController](ParentOrderControllerCore)
+* This class is defined in controllers\front\OrderOpcController.php line 27
 
 
 
@@ -27,6 +28,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderOpcController.php line 29
 
 
 ### $isLogged
@@ -38,6 +40,7 @@ Properties
 
 
 * Visibility: **public**
+* This property is defined in controllers\front\OrderOpcController.php line 30
 
 
 ### $ajax_refresh
@@ -49,6 +52,7 @@ Properties
 
 
 * Visibility: **protected**
+* This property is defined in controllers\front\OrderOpcController.php line 32
 
 
 Methods
@@ -64,6 +68,7 @@ Initialize order opc controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderOpcController.php line 38
 
 
 
@@ -77,6 +82,7 @@ Initialize order opc controller
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderOpcController.php line 325
 
 
 
@@ -90,6 +96,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
+* This method is defined in controllers\front\OrderOpcController.php line 351
 
 
 
@@ -103,6 +110,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\OrderOpcController.php line 437
 
 
 
@@ -116,6 +124,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\OrderOpcController.php line 506
 
 
 
@@ -129,6 +138,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\OrderOpcController.php line 527
 
 
 
@@ -142,6 +152,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\OrderOpcController.php line 544
 
 
 
@@ -155,6 +166,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\OrderOpcController.php line 609
 
 
 
@@ -168,6 +180,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\OrderOpcController.php line 695
 
 
 
@@ -181,6 +194,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
+* This method is defined in controllers\front\OrderOpcController.php line 738
 
 
 
