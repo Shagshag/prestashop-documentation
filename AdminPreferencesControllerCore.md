@@ -17,8 +17,21 @@ AdminPreferencesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [updateOptionPsMultishopFeatureActive](#method-updateOptionPsMultishopFeatureActive)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Configuration $object
 
@@ -27,14 +40,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPreferencesController.php#30)
+* This property is defined in [controllers/admin/AdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPreferencesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminPreferencesControllerCore::__construct()
 
@@ -43,12 +56,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPreferencesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPreferencesController.php#32)
+* This method is defined in [controllers/admin/AdminPreferencesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPreferencesController.php#L32)
 
 
 
 
-### updateOptionPsMultishopFeatureActive
+### <a name="method-updateOptionPsMultishopFeatureActive"></a>updateOptionPsMultishopFeatureActive
 
     mixed AdminPreferencesControllerCore::updateOptionPsMultishopFeatureActive(string $value)
 
@@ -57,7 +70,7 @@ Enable / disable multishop menu if multishop feature is activated
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPreferencesController.php line 238](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPreferencesController.php#238)
+* This method is defined in [controllers/admin/AdminPreferencesController.php line 238](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPreferencesController.php#L238)
 
 
 #### Arguments

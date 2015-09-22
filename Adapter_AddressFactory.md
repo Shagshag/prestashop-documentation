@@ -31,9 +31,19 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [findOrCreate](#method-findOrCreate)
+* [addressExists](#method-addressExists)
 
 
-### findOrCreate
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-findOrCreate"></a>findOrCreate
 
     \Address Adapter_AddressFactory::findOrCreate(null $id_address, boolean $with_geoloc)
 
@@ -43,7 +53,7 @@ default shop configuration
 
 
 * Visibility: **public**
-* This method is defined in [Adapter/Adapter_AddressFactory.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_AddressFactory.php#36)
+* This method is defined in [Adapter/Adapter_AddressFactory.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_AddressFactory.php#L36)
 
 
 #### Arguments
@@ -52,7 +62,7 @@ default shop configuration
 
 
 
-### addressExists
+### <a name="method-addressExists"></a>addressExists
 
     boolean Adapter_AddressFactory::addressExists($id_address)
 
@@ -61,7 +71,7 @@ Check if an address exists depending on given $id_address
 
 
 * Visibility: **public**
-* This method is defined in [Adapter/Adapter_AddressFactory.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_AddressFactory.php#47)
+* This method is defined in [Adapter/Adapter_AddressFactory.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_AddressFactory.php#L47)
 
 
 #### Arguments

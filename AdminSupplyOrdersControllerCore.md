@@ -17,8 +17,49 @@ AdminSupplyOrdersControllerCore
 Properties
 ----------
 
+* [$warehouses](#property-$warehouses)
+* [$object](#property-$object)
 
-### $warehouses
+Methods
+-------
+* [__construct](#method-__construct)
+* [init](#method-init)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderForm](#method-renderForm)
+* [getList](#method-getList)
+* [renderList](#method-renderList)
+* [initChangeStateContent](#method-initChangeStateContent)
+* [initUpdateSupplyOrderContent](#method-initUpdateSupplyOrderContent)
+* [initUpdateReceiptContent](#method-initUpdateReceiptContent)
+* [initContent](#method-initContent)
+* [manageOrderProducts](#method-manageOrderProducts)
+* [postProcess](#method-postProcess)
+* [renderCSV](#method-renderCSV)
+* [postProcessUpdateReceipt](#method-postProcessUpdateReceipt)
+* [displayUpdateReceiptLink](#method-displayUpdateReceiptLink)
+* [displayChangestateLink](#method-displayChangestateLink)
+* [displayCreateSupplyOrderLink](#method-displayCreateSupplyOrderLink)
+* [renderDetails](#method-renderDetails)
+* [ajaxProcessSearchProduct](#method-ajaxProcessSearchProduct)
+* [renderView](#method-renderView)
+* [printExportIcons](#method-printExportIcons)
+* [initToolbar](#method-initToolbar)
+* [afterAdd](#method-afterAdd)
+* [loadProducts](#method-loadProducts)
+* [beforeAdd](#method-beforeAdd)
+* [postProcessCopyFromTemplate](#method-postProcessCopyFromTemplate)
+* [getCurrentWarehouse](#method-getCurrentWarehouse)
+* [getFilterStatus](#method-getFilterStatus)
+* [initProcess](#method-initProcess)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$warehouses"></a>$warehouses
 
     protected array $warehouses
 
@@ -27,10 +68,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminSupplyOrdersController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#36)
+* This property is defined in [controllers/admin/AdminSupplyOrdersController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L36)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \SupplyOrder $object
 
@@ -39,14 +80,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminSupplyOrdersController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#31)
+* This property is defined in [controllers/admin/AdminSupplyOrdersController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L31)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminSupplyOrdersControllerCore::__construct()
 
@@ -55,12 +96,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#38)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L38)
 
 
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed AdminSupplyOrdersControllerCore::init()
 
@@ -69,12 +110,12 @@ AdminController::init() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#116)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L116)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminSupplyOrdersControllerCore::initPageHeaderToolbar()
 
@@ -83,12 +124,12 @@ AdminController::init() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#156)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L156)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminSupplyOrdersControllerCore::renderForm()
 
@@ -97,12 +138,12 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#184)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L184)
 
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminSupplyOrdersControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
 
@@ -111,7 +152,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 382](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#382)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 382](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L382)
 
 
 #### Arguments
@@ -124,7 +165,7 @@ AdminController::getList() override
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminSupplyOrdersControllerCore::renderList()
 
@@ -133,12 +174,12 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 452](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#452)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 452](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L452)
 
 
 
 
-### initChangeStateContent
+### <a name="method-initChangeStateContent"></a>initChangeStateContent
 
     mixed AdminSupplyOrdersControllerCore::initChangeStateContent()
 
@@ -147,12 +188,12 @@ Init the content of change state action
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 586](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#586)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 586](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L586)
 
 
 
 
-### initUpdateSupplyOrderContent
+### <a name="method-initUpdateSupplyOrderContent"></a>initUpdateSupplyOrderContent
 
     mixed AdminSupplyOrdersControllerCore::initUpdateSupplyOrderContent()
 
@@ -161,12 +202,12 @@ Init the content of change state action
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 681](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#681)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 681](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L681)
 
 
 
 
-### initUpdateReceiptContent
+### <a name="method-initUpdateReceiptContent"></a>initUpdateReceiptContent
 
     mixed AdminSupplyOrdersControllerCore::initUpdateReceiptContent()
 
@@ -176,12 +217,12 @@ Called in initContent()
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 742](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#742)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 742](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L742)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminSupplyOrdersControllerCore::initContent()
 
@@ -190,12 +231,12 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 908](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#908)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 908](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L908)
 
 
 
 
-### manageOrderProducts
+### <a name="method-manageOrderProducts"></a>manageOrderProducts
 
     mixed AdminSupplyOrdersControllerCore::manageOrderProducts()
 
@@ -204,12 +245,12 @@ Ths method manage associated products to the order when updating it
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 938](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#938)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 938](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L938)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminSupplyOrdersControllerCore::postProcess()
 
@@ -218,12 +259,12 @@ AdminController::postProcess() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1081](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#1081)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1081](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L1081)
 
 
 
 
-### renderCSV
+### <a name="method-renderCSV"></a>renderCSV
 
     mixed AdminSupplyOrdersControllerCore::renderCSV()
 
@@ -232,12 +273,12 @@ Exports CSV
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#1294)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L1294)
 
 
 
 
-### postProcessUpdateReceipt
+### <a name="method-postProcessUpdateReceipt"></a>postProcessUpdateReceipt
 
     mixed AdminSupplyOrdersControllerCore::postProcessUpdateReceipt()
 
@@ -246,12 +287,12 @@ Helper function for AdminSupplyOrdersController::postProcess()
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1387](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#1387)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1387](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L1387)
 
 
 
 
-### displayUpdateReceiptLink
+### <a name="method-displayUpdateReceiptLink"></a>displayUpdateReceiptLink
 
     string AdminSupplyOrdersControllerCore::displayUpdateReceiptLink(string $token, integer $id)
 
@@ -260,7 +301,7 @@ Display state action link
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1500](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#1500)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1500](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L1500)
 
 
 #### Arguments
@@ -269,7 +310,7 @@ Display state action link
 
 
 
-### displayChangestateLink
+### <a name="method-displayChangestateLink"></a>displayChangestateLink
 
     string AdminSupplyOrdersControllerCore::displayChangestateLink(string $token, integer $id)
 
@@ -278,7 +319,7 @@ Display receipt action link
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1522](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#1522)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1522](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L1522)
 
 
 #### Arguments
@@ -287,7 +328,7 @@ Display receipt action link
 
 
 
-### displayCreateSupplyOrderLink
+### <a name="method-displayCreateSupplyOrderLink"></a>displayCreateSupplyOrderLink
 
     string AdminSupplyOrdersControllerCore::displayCreateSupplyOrderLink(string $token, integer $id)
 
@@ -296,7 +337,7 @@ Display state action link
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1544](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#1544)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1544](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L1544)
 
 
 #### Arguments
@@ -305,7 +346,7 @@ Display state action link
 
 
 
-### renderDetails
+### <a name="method-renderDetails"></a>renderDetails
 
     mixed AdminSupplyOrdersControllerCore::renderDetails()
 
@@ -314,12 +355,12 @@ Display state action link
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1565](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#1565)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1565](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L1565)
 
 
 
 
-### ajaxProcessSearchProduct
+### <a name="method-ajaxProcessSearchProduct"></a>ajaxProcessSearchProduct
 
     mixed AdminSupplyOrdersControllerCore::ajaxProcessSearchProduct()
 
@@ -328,12 +369,12 @@ method call when ajax request is made for search product to add to the order
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1667](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#1667)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1667](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L1667)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminSupplyOrdersControllerCore::renderView()
 
@@ -342,12 +383,12 @@ method call when ajax request is made for search product to add to the order
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1733](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#1733)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1733](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L1733)
 
 
 
 
-### printExportIcons
+### <a name="method-printExportIcons"></a>printExportIcons
 
     string AdminSupplyOrdersControllerCore::printExportIcons(integer $id_supply_order, string $tr)
 
@@ -356,7 +397,7 @@ Callback used to display custom content for a given field
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1946](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#1946)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1946](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L1946)
 
 
 #### Arguments
@@ -365,7 +406,7 @@ Callback used to display custom content for a given field
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminSupplyOrdersControllerCore::initToolbar()
 
@@ -374,12 +415,12 @@ Assigns default actions in toolbar_btn smarty var, if they are not set.
 uses override to specifically add, modify or remove items
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1980](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#1980)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 1980](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L1980)
 
 
 
 
-### afterAdd
+### <a name="method-afterAdd"></a>afterAdd
 
     boolean AdminSupplyOrdersControllerCore::afterAdd(\ObjectModel $object)
 
@@ -388,7 +429,7 @@ Overrides AdminController::afterAdd()
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2021](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#2021)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2021](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L2021)
 
 
 #### Arguments
@@ -396,7 +437,7 @@ Overrides AdminController::afterAdd()
 
 
 
-### loadProducts
+### <a name="method-loadProducts"></a>loadProducts
 
     mixed AdminSupplyOrdersControllerCore::loadProducts(integer $threshold)
 
@@ -405,7 +446,7 @@ Loads products which quantity (hysical quantity) is equal or less than $threshol
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2035](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#2035)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2035](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L2035)
 
 
 #### Arguments
@@ -413,7 +454,7 @@ Loads products which quantity (hysical quantity) is equal or less than $threshol
 
 
 
-### beforeAdd
+### <a name="method-beforeAdd"></a>beforeAdd
 
     true AdminSupplyOrdersControllerCore::beforeAdd(\SupplyOrder $object)
 
@@ -422,7 +463,7 @@ Overrides AdminController::beforeAdd()
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#2135)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L2135)
 
 
 #### Arguments
@@ -430,7 +471,7 @@ Overrides AdminController::beforeAdd()
 
 
 
-### postProcessCopyFromTemplate
+### <a name="method-postProcessCopyFromTemplate"></a>postProcessCopyFromTemplate
 
     mixed AdminSupplyOrdersControllerCore::postProcessCopyFromTemplate()
 
@@ -439,12 +480,12 @@ Helper function for AdminSupplyOrdersController::postProcess()
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#2148)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L2148)
 
 
 
 
-### getCurrentWarehouse
+### <a name="method-getCurrentWarehouse"></a>getCurrentWarehouse
 
     integer AdminSupplyOrdersControllerCore::getCurrentWarehouse()
 
@@ -453,12 +494,12 @@ Gets the current warehouse used
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#2187)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L2187)
 
 
 
 
-### getFilterStatus
+### <a name="method-getFilterStatus"></a>getFilterStatus
 
     integer AdminSupplyOrdersControllerCore::getFilterStatus()
 
@@ -467,12 +508,12 @@ Gets the current filter used
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#2205)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L2205)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminSupplyOrdersControllerCore::initProcess()
 
@@ -481,7 +522,7 @@ Gets the current filter used
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#2217)
+* This method is defined in [controllers/admin/AdminSupplyOrdersController.php line 2217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L2217)
 
 
 

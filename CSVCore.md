@@ -17,8 +17,26 @@ Uses CollectionCore
 Properties
 ----------
 
+* [$filename](#property-$filename)
+* [$collection](#property-$collection)
+* [$delimiter](#property-$delimiter)
 
-### $filename
+Methods
+-------
+* [__construct](#method-__construct)
+* [export](#method-export)
+* [output](#method-output)
+* [wrap](#method-wrap)
+* [headers](#method-headers)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$filename"></a>$filename
 
     public mixed $filename
 
@@ -27,10 +45,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CSV.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#34)
+* This property is defined in [classes/CSV.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L34)
 
 
-### $collection
+### <a name="property-$collection"></a>$collection
 
     public mixed $collection
 
@@ -39,10 +57,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CSV.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#35)
+* This property is defined in [classes/CSV.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L35)
 
 
-### $delimiter
+### <a name="property-$delimiter"></a>$delimiter
 
     public mixed $delimiter
 
@@ -51,14 +69,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CSV.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#36)
+* This property is defined in [classes/CSV.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L36)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed CSVCore::__construct(array|\Iterator $collection, string $filename, string $delimiter)
 
@@ -67,7 +85,7 @@ Loads objects, filename and optionnaly a delimiter.
 
 
 * Visibility: **public**
-* This method is defined in [classes/CSV.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#44)
+* This method is defined in [classes/CSV.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L44)
 
 
 #### Arguments
@@ -77,7 +95,7 @@ Loads objects, filename and optionnaly a delimiter.
 
 
 
-### export
+### <a name="method-export"></a>export
 
     mixed CSVCore::export()
 
@@ -88,12 +106,12 @@ Outputs
 
 
 * Visibility: **public**
-* This method is defined in [classes/CSV.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#56)
+* This method is defined in [classes/CSV.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L56)
 
 
 
 
-### output
+### <a name="method-output"></a>output
 
     mixed CSVCore::output($data)
 
@@ -103,7 +121,7 @@ Uses defined delimiter
 
 
 * Visibility: **public**
-* This method is defined in [classes/CSV.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#79)
+* This method is defined in [classes/CSV.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L79)
 
 
 #### Arguments
@@ -111,7 +129,7 @@ Uses defined delimiter
 
 
 
-### wrap
+### <a name="method-wrap"></a>wrap
 
     string CSVCore::wrap(string $data)
 
@@ -121,7 +139,7 @@ Escapes data
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CSV.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#90)
+* This method is defined in [classes/CSV.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L90)
 
 
 #### Arguments
@@ -129,7 +147,7 @@ Escapes data
 
 
 
-### headers
+### <a name="method-headers"></a>headers
 
     mixed CSVCore::headers()
 
@@ -138,7 +156,7 @@ Adds headers
 
 
 * Visibility: **public**
-* This method is defined in [classes/CSV.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#99)
+* This method is defined in [classes/CSV.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L99)
 
 
 

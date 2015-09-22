@@ -31,9 +31,21 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [getPackItems](#method-getPackItems)
+* [getPacksContainingItem](#method-getPacksContainingItem)
+* [isPack](#method-isPack)
+* [isPacked](#method-isPacked)
 
 
-### getPackItems
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-getPackItems"></a>getPackItems
 
     \Array[Product] Adapter_PackItemsManager::getPackItems(\Pack $pack, integer $id_lang)
 
@@ -42,7 +54,7 @@ Get the Products contained in the given Pack.
 
 
 * Visibility: **public**
-* This method is defined in [Adapter/Adapter_PackItemsManager.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#36)
+* This method is defined in [Adapter/Adapter_PackItemsManager.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#L36)
 
 
 #### Arguments
@@ -51,7 +63,7 @@ Get the Products contained in the given Pack.
 
 
 
-### getPacksContainingItem
+### <a name="method-getPacksContainingItem"></a>getPacksContainingItem
 
     \Array[Pack] Adapter_PackItemsManager::getPacksContainingItem(\Product $item, integer $item_attribute_id, integer $id_lang)
 
@@ -60,7 +72,7 @@ Get all Packs that contains the given item in the corresponding declination.
 
 
 * Visibility: **public**
-* This method is defined in [Adapter/Adapter_PackItemsManager.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#53)
+* This method is defined in [Adapter/Adapter_PackItemsManager.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#L53)
 
 
 #### Arguments
@@ -70,7 +82,7 @@ Get all Packs that contains the given item in the corresponding declination.
 
 
 
-### isPack
+### <a name="method-isPack"></a>isPack
 
     boolean Adapter_PackItemsManager::isPack(\Product $product)
 
@@ -79,7 +91,7 @@ Is this product a pack?
 
 
 * Visibility: **public**
-* This method is defined in [Adapter/Adapter_PackItemsManager.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#68)
+* This method is defined in [Adapter/Adapter_PackItemsManager.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#L68)
 
 
 #### Arguments
@@ -87,7 +99,7 @@ Is this product a pack?
 
 
 
-### isPacked
+### <a name="method-isPacked"></a>isPacked
 
     boolean Adapter_PackItemsManager::isPacked(\Product $product, integer $id_product_attribute)
 
@@ -98,7 +110,7 @@ else this method will match a product if at least one of all its combination is 
 
 
 * Visibility: **public**
-* This method is defined in [Adapter/Adapter_PackItemsManager.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#82)
+* This method is defined in [Adapter/Adapter_PackItemsManager.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#L82)
 
 
 #### Arguments

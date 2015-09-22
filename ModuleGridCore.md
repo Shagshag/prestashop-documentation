@@ -18,8 +18,37 @@ ModuleGridCore
 Properties
 ----------
 
+* [$_employee](#property-$_employee)
+* [$_values](#property-$_values)
+* [$_totalCount](#property-$_totalCount)
+* [$_title](#property-$_title)
+* [$_start](#property-$_start)
+* [$_limit](#property-$_limit)
+* [$_sort](#property-$_sort)
+* [$_direction](#property-$_direction)
+* [$_render](#property-$_render)
 
-### $_employee
+Methods
+-------
+* [getData](#method-getData)
+* [setEmployee](#method-setEmployee)
+* [setLang](#method-setLang)
+* [create](#method-create)
+* [render](#method-render)
+* [engine](#method-engine)
+* [csvExport](#method-csvExport)
+* [_displayCsv](#method-_displayCsv)
+* [getDate](#method-getDate)
+* [getLang](#method-getLang)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$_employee"></a>$_employee
 
     protected mixed $_employee
 
@@ -28,10 +57,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/ModuleGrid.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#29)
+* This property is defined in [classes/module/ModuleGrid.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L29)
 
 
-### $_values
+### <a name="property-$_values"></a>$_values
 
     protected array $_values = array()
 
@@ -40,10 +69,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/ModuleGrid.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#32)
+* This property is defined in [classes/module/ModuleGrid.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L32)
 
 
-### $_totalCount
+### <a name="property-$_totalCount"></a>$_totalCount
 
     protected integer $_totalCount
 
@@ -52,10 +81,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/ModuleGrid.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#35)
+* This property is defined in [classes/module/ModuleGrid.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L35)
 
 
-### $_title
+### <a name="property-$_title"></a>$_title
 
     protected mixed $_title
 
@@ -64,10 +93,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/ModuleGrid.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#38)
+* This property is defined in [classes/module/ModuleGrid.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L38)
 
 
-### $_start
+### <a name="property-$_start"></a>$_start
 
     protected mixed $_start
 
@@ -76,10 +105,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/ModuleGrid.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#41)
+* This property is defined in [classes/module/ModuleGrid.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L41)
 
 
-### $_limit
+### <a name="property-$_limit"></a>$_limit
 
     protected mixed $_limit
 
@@ -88,10 +117,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/ModuleGrid.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#44)
+* This property is defined in [classes/module/ModuleGrid.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L44)
 
 
-### $_sort
+### <a name="property-$_sort"></a>$_sort
 
     protected mixed $_sort = null
 
@@ -100,10 +129,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/ModuleGrid.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#47)
+* This property is defined in [classes/module/ModuleGrid.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L47)
 
 
-### $_direction
+### <a name="property-$_direction"></a>$_direction
 
     protected mixed $_direction = null
 
@@ -112,10 +141,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/ModuleGrid.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#50)
+* This property is defined in [classes/module/ModuleGrid.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L50)
 
 
-### $_render
+### <a name="property-$_render"></a>$_render
 
     protected \ModuleGridEngine $_render
 
@@ -124,14 +153,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/ModuleGrid.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#53)
+* This property is defined in [classes/module/ModuleGrid.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L53)
 
 
 Methods
 -------
 
 
-### getData
+### <a name="method-getData"></a>getData
 
     mixed ModuleGridCore::getData()
 
@@ -141,12 +170,12 @@ Methods
 
 * Visibility: **protected**
 * This method is **abstract**.
-* This method is defined in [classes/module/ModuleGrid.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#55)
+* This method is defined in [classes/module/ModuleGrid.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L55)
 
 
 
 
-### setEmployee
+### <a name="method-setEmployee"></a>setEmployee
 
     mixed ModuleGridCore::setEmployee($id_employee)
 
@@ -155,7 +184,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ModuleGrid.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#57)
+* This method is defined in [classes/module/ModuleGrid.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L57)
 
 
 #### Arguments
@@ -163,7 +192,7 @@ Methods
 
 
 
-### setLang
+### <a name="method-setLang"></a>setLang
 
     mixed ModuleGridCore::setLang($id_lang)
 
@@ -172,7 +201,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ModuleGrid.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#62)
+* This method is defined in [classes/module/ModuleGrid.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L62)
 
 
 #### Arguments
@@ -180,7 +209,7 @@ Methods
 
 
 
-### create
+### <a name="method-create"></a>create
 
     mixed ModuleGridCore::create($render, $type, $width, $height, $start, $limit, $sort, $dir)
 
@@ -189,7 +218,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ModuleGrid.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#67)
+* This method is defined in [classes/module/ModuleGrid.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L67)
 
 
 #### Arguments
@@ -204,7 +233,7 @@ Methods
 
 
 
-### render
+### <a name="method-render"></a>render
 
     mixed ModuleGridCore::render()
 
@@ -213,12 +242,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ModuleGrid.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#92)
+* This method is defined in [classes/module/ModuleGrid.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L92)
 
 
 
 
-### engine
+### <a name="method-engine"></a>engine
 
     mixed ModuleGridCore::engine($params)
 
@@ -227,7 +256,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ModuleGrid.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#97)
+* This method is defined in [classes/module/ModuleGrid.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L97)
 
 
 #### Arguments
@@ -235,7 +264,7 @@ Methods
 
 
 
-### csvExport
+### <a name="method-csvExport"></a>csvExport
 
     mixed ModuleGridCore::csvExport($datas)
 
@@ -244,7 +273,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/module/ModuleGrid.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#153)
+* This method is defined in [classes/module/ModuleGrid.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L153)
 
 
 #### Arguments
@@ -252,7 +281,7 @@ Methods
 
 
 
-### _displayCsv
+### <a name="method-_displayCsv"></a>_displayCsv
 
     mixed ModuleGridCore::_displayCsv()
 
@@ -261,12 +290,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/module/ModuleGrid.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#181)
+* This method is defined in [classes/module/ModuleGrid.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L181)
 
 
 
 
-### getDate
+### <a name="method-getDate"></a>getDate
 
     mixed ModuleGridCore::getDate()
 
@@ -275,12 +304,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ModuleGrid.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#192)
+* This method is defined in [classes/module/ModuleGrid.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L192)
 
 
 
 
-### getLang
+### <a name="method-getLang"></a>getLang
 
     mixed ModuleGridCore::getLang()
 
@@ -289,7 +318,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ModuleGrid.php line 197](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#197)
+* This method is defined in [classes/module/ModuleGrid.php line 197](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#L197)
 
 
 

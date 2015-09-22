@@ -17,8 +17,35 @@ Represents the products kept in warehouses
 Properties
 ----------
 
+* [$id_warehouse](#property-$id_warehouse)
+* [$id_product](#property-$id_product)
+* [$id_product_attribute](#property-$id_product_attribute)
+* [$reference](#property-$reference)
+* [$ean13](#property-$ean13)
+* [$upc](#property-$upc)
+* [$physical_quantity](#property-$physical_quantity)
+* [$usable_quantity](#property-$usable_quantity)
+* [$price_te](#property-$price_te)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_warehouse
+Methods
+-------
+* [update](#method-update)
+* [add](#method-add)
+* [getProductInformations](#method-getProductInformations)
+* [getWsRealQuantity](#method-getWsRealQuantity)
+* [deleteStockByIds](#method-deleteStockByIds)
+* [productIsPresentInStock](#method-productIsPresentInStock)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_warehouse"></a>$id_warehouse
 
     public integer $id_warehouse
 
@@ -27,10 +54,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/Stock.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#35)
+* This property is defined in [classes/stock/Stock.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L35)
 
 
-### $id_product
+### <a name="property-$id_product"></a>$id_product
 
     public integer $id_product
 
@@ -39,10 +66,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/Stock.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#38)
+* This property is defined in [classes/stock/Stock.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L38)
 
 
-### $id_product_attribute
+### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
     public integer $id_product_attribute
 
@@ -51,10 +78,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/Stock.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#41)
+* This property is defined in [classes/stock/Stock.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L41)
 
 
-### $reference
+### <a name="property-$reference"></a>$reference
 
     public string $reference
 
@@ -63,10 +90,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/Stock.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#44)
+* This property is defined in [classes/stock/Stock.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L44)
 
 
-### $ean13
+### <a name="property-$ean13"></a>$ean13
 
     public integer $ean13
 
@@ -75,10 +102,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/Stock.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#47)
+* This property is defined in [classes/stock/Stock.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L47)
 
 
-### $upc
+### <a name="property-$upc"></a>$upc
 
     public string $upc
 
@@ -87,10 +114,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/Stock.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#50)
+* This property is defined in [classes/stock/Stock.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L50)
 
 
-### $physical_quantity
+### <a name="property-$physical_quantity"></a>$physical_quantity
 
     public integer $physical_quantity
 
@@ -99,10 +126,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/Stock.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#53)
+* This property is defined in [classes/stock/Stock.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L53)
 
 
-### $usable_quantity
+### <a name="property-$usable_quantity"></a>$usable_quantity
 
     public integer $usable_quantity
 
@@ -111,10 +138,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/Stock.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#56)
+* This property is defined in [classes/stock/Stock.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L56)
 
 
-### $price_te
+### <a name="property-$price_te"></a>$price_te
 
     public integer $price_te
 
@@ -123,10 +150,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/Stock.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#59)
+* This property is defined in [classes/stock/Stock.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L59)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'stock', 'primary' => 'id_stock', 'fields' => array('id_warehouse' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference'), 'ean13' => array('type' => self::TYPE_STRING, 'validate' => 'isEan13'), 'upc' => array('type' => self::TYPE_STRING, 'validate' => 'isUpc'), 'physical_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'usable_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'price_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true)))
 
@@ -136,10 +163,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/stock/Stock.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#64)
+* This property is defined in [classes/stock/Stock.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L64)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_warehouse' => array('xlink_resource' => 'warehouses'), 'id_product' => array('xlink_resource' => 'products'), 'id_product_attribute' => array('xlink_resource' => 'combinations'), 'real_quantity' => array('getter' => 'getWsRealQuantity', 'setter' => false)), 'hidden_fields' => array())
 
@@ -148,14 +175,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/Stock.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#83)
+* This property is defined in [classes/stock/Stock.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L83)
 
 
 Methods
 -------
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed StockCore::update($null_values)
 
@@ -164,7 +191,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/Stock.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#97)
+* This method is defined in [classes/stock/Stock.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L97)
 
 
 #### Arguments
@@ -172,7 +199,7 @@ Methods
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed StockCore::add($autodate, $null_values)
 
@@ -181,7 +208,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/Stock.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#107)
+* This method is defined in [classes/stock/Stock.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L107)
 
 
 #### Arguments
@@ -190,7 +217,7 @@ Methods
 
 
 
-### getProductInformations
+### <a name="method-getProductInformations"></a>getProductInformations
 
     mixed StockCore::getProductInformations()
 
@@ -200,12 +227,12 @@ Stores it in stock for stock_mvt integrity and history purposes
 
 
 * Visibility: **protected**
-* This method is defined in [classes/stock/Stock.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#118)
+* This method is defined in [classes/stock/Stock.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L118)
 
 
 
 
-### getWsRealQuantity
+### <a name="method-getWsRealQuantity"></a>getWsRealQuantity
 
     mixed StockCore::getWsRealQuantity()
 
@@ -214,12 +241,12 @@ Webservice : used to get the real quantity of a product
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/Stock.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#153)
+* This method is defined in [classes/stock/Stock.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L153)
 
 
 
 
-### deleteStockByIds
+### <a name="method-deleteStockByIds"></a>deleteStockByIds
 
     mixed StockCore::deleteStockByIds($id_product, $id_product_attribute)
 
@@ -229,7 +256,7 @@ Webservice : used to get the real quantity of a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/Stock.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#160)
+* This method is defined in [classes/stock/Stock.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L160)
 
 
 #### Arguments
@@ -238,7 +265,7 @@ Webservice : used to get the real quantity of a product
 
 
 
-### productIsPresentInStock
+### <a name="method-productIsPresentInStock"></a>productIsPresentInStock
 
     mixed StockCore::productIsPresentInStock($id_product, $id_product_attribute, $id_warehouse)
 
@@ -248,7 +275,7 @@ Webservice : used to get the real quantity of a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/Stock.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#169)
+* This method is defined in [classes/stock/Stock.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Stock.php#L169)
 
 
 #### Arguments

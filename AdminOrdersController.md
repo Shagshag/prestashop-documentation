@@ -20,8 +20,47 @@ needs please refer to http://doc.prestashop.com/display/PS15/Overriding+default+
 Properties
 ----------
 
+* [$toolbar_title](#property-$toolbar_title)
+* [$statuses_array](#property-$statuses_array)
+* [$object](#property-$object)
 
-### $toolbar_title
+Methods
+-------
+* [__construct](#method-__construct)
+* [setOrderCurrency](#method-setOrderCurrency)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderForm](#method-renderForm)
+* [initToolbar](#method-initToolbar)
+* [setMedia](#method-setMedia)
+* [printPDFIcons](#method-printPDFIcons)
+* [printNewCustomer](#method-printNewCustomer)
+* [processBulkUpdateOrderStatus](#method-processBulkUpdateOrderStatus)
+* [renderList](#method-renderList)
+* [postProcess](#method-postProcess)
+* [renderKpis](#method-renderKpis)
+* [renderView](#method-renderView)
+* [ajaxProcessSearchProducts](#method-ajaxProcessSearchProducts)
+* [ajaxProcessSendMailValidateOrder](#method-ajaxProcessSendMailValidateOrder)
+* [ajaxProcessAddProductOnOrder](#method-ajaxProcessAddProductOnOrder)
+* [sendChangedNotification](#method-sendChangedNotification)
+* [ajaxProcessLoadProductInformation](#method-ajaxProcessLoadProductInformation)
+* [ajaxProcessEditProductOnOrder](#method-ajaxProcessEditProductOnOrder)
+* [ajaxProcessDeleteProductLine](#method-ajaxProcessDeleteProductLine)
+* [doEditProductValidation](#method-doEditProductValidation)
+* [doDeleteProductLineValidation](#method-doDeleteProductLineValidation)
+* [getProducts](#method-getProducts)
+* [reinjectQuantity](#method-reinjectQuantity)
+* [applyDiscountOnInvoice](#method-applyDiscountOnInvoice)
+* [ajaxProcessChangePaymentMethod](#method-ajaxProcessChangePaymentMethod)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$toolbar_title"></a>$toolbar_title
 
     public mixed $toolbar_title
 
@@ -30,10 +69,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [override/controllers/admin/AdminOrdersController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#43)
+* This property is defined in [override/controllers/admin/AdminOrdersController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L43)
 
 
-### $statuses_array
+### <a name="property-$statuses_array"></a>$statuses_array
 
     protected mixed $statuses_array = array()
 
@@ -42,10 +81,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [override/controllers/admin/AdminOrdersController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#45)
+* This property is defined in [override/controllers/admin/AdminOrdersController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L45)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Order $object
 
@@ -55,14 +94,14 @@ Properties
 
 * Visibility: **public**
 * This property is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This property is defined in [override/controllers/admin/AdminOrdersController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#41)
+* This property is defined in [override/controllers/admin/AdminOrdersController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L41)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminOrdersControllerCore::__construct()
 
@@ -72,12 +111,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#47)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L47)
 
 
 
 
-### setOrderCurrency
+### <a name="method-setOrderCurrency"></a>setOrderCurrency
 
     mixed AdminOrdersControllerCore::setOrderCurrency($echo, $tr)
 
@@ -88,7 +127,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#199)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L199)
 
 
 #### Arguments
@@ -97,7 +136,7 @@ Methods
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminOrdersControllerCore::initPageHeaderToolbar()
 
@@ -107,12 +146,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#205)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L205)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminOrdersControllerCore::renderForm()
 
@@ -122,12 +161,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#227)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L227)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminOrdersControllerCore::initToolbar()
 
@@ -137,12 +176,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#277)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L277)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminOrdersControllerCore::setMedia()
 
@@ -152,12 +191,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 333](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#333)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 333](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L333)
 
 
 
 
-### printPDFIcons
+### <a name="method-printPDFIcons"></a>printPDFIcons
 
     mixed AdminOrdersControllerCore::printPDFIcons($id_order, $tr)
 
@@ -167,7 +206,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#348)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L348)
 
 
 #### Arguments
@@ -176,7 +215,7 @@ Methods
 
 
 
-### printNewCustomer
+### <a name="method-printNewCustomer"></a>printNewCustomer
 
     mixed AdminOrdersControllerCore::printNewCustomer($id_order, $tr)
 
@@ -186,7 +225,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 373](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#373)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 373](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L373)
 
 
 #### Arguments
@@ -195,7 +234,7 @@ Methods
 
 
 
-### processBulkUpdateOrderStatus
+### <a name="method-processBulkUpdateOrderStatus"></a>processBulkUpdateOrderStatus
 
     mixed AdminOrdersControllerCore::processBulkUpdateOrderStatus()
 
@@ -205,12 +244,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#378)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L378)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminOrdersControllerCore::renderList()
 
@@ -220,12 +259,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 434](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#434)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 434](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L434)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminOrdersControllerCore::postProcess()
 
@@ -235,12 +274,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 450](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#450)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 450](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L450)
 
 
 
 
-### renderKpis
+### <a name="method-renderKpis"></a>renderKpis
 
     mixed AdminOrdersControllerCore::renderKpis()
 
@@ -250,12 +289,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 1528](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#1528)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 1528](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L1528)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminOrdersControllerCore::renderView()
 
@@ -265,12 +304,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 1597](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#1597)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 1597](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L1597)
 
 
 
 
-### ajaxProcessSearchProducts
+### <a name="method-ajaxProcessSearchProducts"></a>ajaxProcessSearchProducts
 
     mixed AdminOrdersControllerCore::ajaxProcessSearchProducts()
 
@@ -280,12 +319,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 1792](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#1792)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 1792](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L1792)
 
 
 
 
-### ajaxProcessSendMailValidateOrder
+### <a name="method-ajaxProcessSendMailValidateOrder"></a>ajaxProcessSendMailValidateOrder
 
     mixed AdminOrdersControllerCore::ajaxProcessSendMailValidateOrder()
 
@@ -295,12 +334,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 1871](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#1871)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 1871](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L1871)
 
 
 
 
-### ajaxProcessAddProductOnOrder
+### <a name="method-ajaxProcessAddProductOnOrder"></a>ajaxProcessAddProductOnOrder
 
     mixed AdminOrdersControllerCore::ajaxProcessAddProductOnOrder()
 
@@ -310,12 +349,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 1893](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#1893)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 1893](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L1893)
 
 
 
 
-### sendChangedNotification
+### <a name="method-sendChangedNotification"></a>sendChangedNotification
 
     mixed AdminOrdersControllerCore::sendChangedNotification(\Order $order)
 
@@ -325,7 +364,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#2227)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L2227)
 
 
 #### Arguments
@@ -333,7 +372,7 @@ Methods
 
 
 
-### ajaxProcessLoadProductInformation
+### <a name="method-ajaxProcessLoadProductInformation"></a>ajaxProcessLoadProductInformation
 
     mixed AdminOrdersControllerCore::ajaxProcessLoadProductInformation()
 
@@ -343,12 +382,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#2236)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L2236)
 
 
 
 
-### ajaxProcessEditProductOnOrder
+### <a name="method-ajaxProcessEditProductOnOrder"></a>ajaxProcessEditProductOnOrder
 
     mixed AdminOrdersControllerCore::ajaxProcessEditProductOnOrder()
 
@@ -358,12 +397,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#2272)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L2272)
 
 
 
 
-### ajaxProcessDeleteProductLine
+### <a name="method-ajaxProcessDeleteProductLine"></a>ajaxProcessDeleteProductLine
 
     mixed AdminOrdersControllerCore::ajaxProcessDeleteProductLine()
 
@@ -373,12 +412,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2463](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#2463)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2463](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L2463)
 
 
 
 
-### doEditProductValidation
+### <a name="method-doEditProductValidation"></a>doEditProductValidation
 
     mixed AdminOrdersControllerCore::doEditProductValidation(\OrderDetail $order_detail, \Order $order, \OrderInvoice $order_invoice)
 
@@ -388,7 +427,7 @@ Methods
 
 * Visibility: **protected**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2542](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#2542)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2542](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L2542)
 
 
 #### Arguments
@@ -398,7 +437,7 @@ Methods
 
 
 
-### doDeleteProductLineValidation
+### <a name="method-doDeleteProductLineValidation"></a>doDeleteProductLineValidation
 
     mixed AdminOrdersControllerCore::doDeleteProductLineValidation(\OrderDetail $order_detail, \Order $order)
 
@@ -408,7 +447,7 @@ Methods
 
 * Visibility: **protected**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#2615)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L2615)
 
 
 #### Arguments
@@ -417,7 +456,7 @@ Methods
 
 
 
-### getProducts
+### <a name="method-getProducts"></a>getProducts
 
     array AdminOrdersControllerCore::getProducts(\Order $order)
 
@@ -427,7 +466,7 @@ Methods
 
 * Visibility: **protected**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2651](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#2651)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2651](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L2651)
 
 
 #### Arguments
@@ -435,7 +474,7 @@ Methods
 
 
 
-### reinjectQuantity
+### <a name="method-reinjectQuantity"></a>reinjectQuantity
 
     mixed AdminOrdersControllerCore::reinjectQuantity(\OrderDetail $order_detail, integer $qty_cancel_product, boolean $delete)
 
@@ -445,7 +484,7 @@ Methods
 
 * Visibility: **protected**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2678](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#2678)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2678](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L2678)
 
 
 #### Arguments
@@ -455,7 +494,7 @@ Methods
 
 
 
-### applyDiscountOnInvoice
+### <a name="method-applyDiscountOnInvoice"></a>applyDiscountOnInvoice
 
     mixed AdminOrdersControllerCore::applyDiscountOnInvoice(\OrderInvoice $order_invoice, float $value_tax_incl, float $value_tax_excl)
 
@@ -465,7 +504,7 @@ Methods
 
 * Visibility: **protected**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2773](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#2773)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2773](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L2773)
 
 
 #### Arguments
@@ -475,7 +514,7 @@ Methods
 
 
 
-### ajaxProcessChangePaymentMethod
+### <a name="method-ajaxProcessChangePaymentMethod"></a>ajaxProcessChangePaymentMethod
 
     mixed AdminOrdersControllerCore::ajaxProcessChangePaymentMethod()
 
@@ -485,7 +524,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminOrdersControllerCore](AdminOrdersControllerCore)
-* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2783](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#2783)
+* This method is defined in [override/controllers/admin/AdminOrdersController.php line 2783](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L2783)
 
 
 

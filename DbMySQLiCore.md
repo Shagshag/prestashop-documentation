@@ -17,8 +17,40 @@ Class DbMySQLiCore
 Properties
 ----------
 
+* [$link](#property-$link)
+* [$result](#property-$result)
 
-### $link
+Methods
+-------
+* [connect](#method-connect)
+* [createDatabase](#method-createDatabase)
+* [disconnect](#method-disconnect)
+* [_query](#method-_query)
+* [nextRow](#method-nextRow)
+* [getAll](#method-getAll)
+* [_numRows](#method-_numRows)
+* [Insert_ID](#method-Insert_ID)
+* [Affected_Rows](#method-Affected_Rows)
+* [getMsgError](#method-getMsgError)
+* [getNumberError](#method-getNumberError)
+* [getVersion](#method-getVersion)
+* [_escape](#method-_escape)
+* [set_db](#method-set_db)
+* [hasTableWithSamePrefix](#method-hasTableWithSamePrefix)
+* [tryToConnect](#method-tryToConnect)
+* [getBestEngine](#method-getBestEngine)
+* [checkCreatePrivilege](#method-checkCreatePrivilege)
+* [tryUTF8](#method-tryUTF8)
+* [checkAutoIncrement](#method-checkAutoIncrement)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$link"></a>$link
 
     protected \mysqli $link
 
@@ -27,10 +59,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/db/DbMySQLi.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#35)
+* This property is defined in [classes/db/DbMySQLi.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L35)
 
 
-### $result
+### <a name="property-$result"></a>$result
 
     protected mixed $result
 
@@ -39,14 +71,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/db/DbMySQLi.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#38)
+* This property is defined in [classes/db/DbMySQLi.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L38)
 
 
 Methods
 -------
 
 
-### connect
+### <a name="method-connect"></a>connect
 
     \mysqli DbMySQLiCore::connect()
 
@@ -55,12 +87,12 @@ Tries to connect to the database
 
 
 * Visibility: **public**
-* This method is defined in [classes/db/DbMySQLi.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#47)
+* This method is defined in [classes/db/DbMySQLi.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L47)
 
 
 
 
-### createDatabase
+### <a name="method-createDatabase"></a>createDatabase
 
     boolean|\mysqli_result DbMySQLiCore::createDatabase(string $host, string|null $user, string|null $password, string|null $database, boolean $dropit)
 
@@ -70,7 +102,7 @@ Tries to connect and create a new database
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/db/DbMySQLi.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#79)
+* This method is defined in [classes/db/DbMySQLi.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L79)
 
 
 #### Arguments
@@ -82,7 +114,7 @@ Tries to connect and create a new database
 
 
 
-### disconnect
+### <a name="method-disconnect"></a>disconnect
 
     mixed DbMySQLiCore::disconnect()
 
@@ -91,12 +123,12 @@ Destroys the database connection link
 
 
 * Visibility: **public**
-* This method is defined in [classes/db/DbMySQLi.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#99)
+* This method is defined in [classes/db/DbMySQLi.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L99)
 
 
 
 
-### _query
+### <a name="method-_query"></a>_query
 
     boolean|\mysqli_result DbMySQLiCore::_query(string $sql)
 
@@ -105,7 +137,7 @@ Executes an SQL statement, returning a result set as a mysqli_result object or t
 
 
 * Visibility: **protected**
-* This method is defined in [classes/db/DbMySQLi.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#111)
+* This method is defined in [classes/db/DbMySQLi.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L111)
 
 
 #### Arguments
@@ -113,7 +145,7 @@ Executes an SQL statement, returning a result set as a mysqli_result object or t
 
 
 
-### nextRow
+### <a name="method-nextRow"></a>nextRow
 
     array|boolean DbMySQLiCore::nextRow(boolean|\mysqli_result $result)
 
@@ -122,7 +154,7 @@ Returns the next row from the result set.
 
 
 * Visibility: **public**
-* This method is defined in [classes/db/DbMySQLi.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#123)
+* This method is defined in [classes/db/DbMySQLi.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L123)
 
 
 #### Arguments
@@ -130,7 +162,7 @@ Returns the next row from the result set.
 
 
 
-### getAll
+### <a name="method-getAll"></a>getAll
 
     array|false DbMySQLiCore::getAll(boolean|\mysqli_result $result)
 
@@ -139,7 +171,7 @@ Returns all rows from the result set.
 
 
 * Visibility: **protected**
-* This method is defined in [classes/db/DbMySQLi.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#143)
+* This method is defined in [classes/db/DbMySQLi.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L143)
 
 
 #### Arguments
@@ -147,7 +179,7 @@ Returns all rows from the result set.
 
 
 
-### _numRows
+### <a name="method-_numRows"></a>_numRows
 
     integer DbMySQLiCore::_numRows(boolean|\mysqli_result $result)
 
@@ -156,7 +188,7 @@ Returns row count from the result set.
 
 
 * Visibility: **protected**
-* This method is defined in [classes/db/DbMySQLi.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#173)
+* This method is defined in [classes/db/DbMySQLi.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L173)
 
 
 #### Arguments
@@ -164,7 +196,7 @@ Returns row count from the result set.
 
 
 
-### Insert_ID
+### <a name="method-Insert_ID"></a>Insert_ID
 
     string|integer DbMySQLiCore::Insert_ID()
 
@@ -173,12 +205,12 @@ Returns ID of the last inserted row.
 
 
 * Visibility: **public**
-* This method is defined in [classes/db/DbMySQLi.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#184)
+* This method is defined in [classes/db/DbMySQLi.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L184)
 
 
 
 
-### Affected_Rows
+### <a name="method-Affected_Rows"></a>Affected_Rows
 
     integer DbMySQLiCore::Affected_Rows()
 
@@ -187,12 +219,12 @@ Return the number of rows affected by the last SQL query.
 
 
 * Visibility: **public**
-* This method is defined in [classes/db/DbMySQLi.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#195)
+* This method is defined in [classes/db/DbMySQLi.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L195)
 
 
 
 
-### getMsgError
+### <a name="method-getMsgError"></a>getMsgError
 
     string DbMySQLiCore::getMsgError(boolean $query)
 
@@ -201,7 +233,7 @@ Returns error message.
 
 
 * Visibility: **public**
-* This method is defined in [classes/db/DbMySQLi.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#207)
+* This method is defined in [classes/db/DbMySQLi.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L207)
 
 
 #### Arguments
@@ -209,7 +241,7 @@ Returns error message.
 
 
 
-### getNumberError
+### <a name="method-getNumberError"></a>getNumberError
 
     integer DbMySQLiCore::getNumberError()
 
@@ -218,12 +250,12 @@ Returns error code.
 
 
 * Visibility: **public**
-* This method is defined in [classes/db/DbMySQLi.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#218)
+* This method is defined in [classes/db/DbMySQLi.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L218)
 
 
 
 
-### getVersion
+### <a name="method-getVersion"></a>getVersion
 
     string DbMySQLiCore::getVersion()
 
@@ -232,12 +264,12 @@ Returns database server version.
 
 
 * Visibility: **public**
-* This method is defined in [classes/db/DbMySQLi.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#229)
+* This method is defined in [classes/db/DbMySQLi.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L229)
 
 
 
 
-### _escape
+### <a name="method-_escape"></a>_escape
 
     string DbMySQLiCore::_escape(string $str)
 
@@ -246,7 +278,7 @@ Escapes illegal characters in a string.
 
 
 * Visibility: **public**
-* This method is defined in [classes/db/DbMySQLi.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#241)
+* This method is defined in [classes/db/DbMySQLi.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L241)
 
 
 #### Arguments
@@ -254,7 +286,7 @@ Escapes illegal characters in a string.
 
 
 
-### set_db
+### <a name="method-set_db"></a>set_db
 
     boolean DbMySQLiCore::set_db(string $db_name)
 
@@ -263,7 +295,7 @@ Switches to a different database.
 
 
 * Visibility: **public**
-* This method is defined in [classes/db/DbMySQLi.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#253)
+* This method is defined in [classes/db/DbMySQLi.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L253)
 
 
 #### Arguments
@@ -271,7 +303,7 @@ Switches to a different database.
 
 
 
-### hasTableWithSamePrefix
+### <a name="method-hasTableWithSamePrefix"></a>hasTableWithSamePrefix
 
     boolean DbMySQLiCore::hasTableWithSamePrefix(string $server, string $user, string $pwd, string $db, string $prefix)
 
@@ -281,7 +313,7 @@ Try a connection to the database and check if at least one table with same prefi
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/db/DbMySQLi.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#269)
+* This method is defined in [classes/db/DbMySQLi.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L269)
 
 
 #### Arguments
@@ -293,7 +325,7 @@ Try a connection to the database and check if at least one table with same prefi
 
 
 
-### tryToConnect
+### <a name="method-tryToConnect"></a>tryToConnect
 
     integer DbMySQLiCore::tryToConnect(string $server, string $user, string $pwd, string $db, $new_db_link, string|boolean $engine, integer $timeout)
 
@@ -303,7 +335,7 @@ Try a connection to the database
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/db/DbMySQLi.php line 294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#294)
+* This method is defined in [classes/db/DbMySQLi.php line 294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L294)
 
 
 #### Arguments
@@ -317,7 +349,7 @@ Try a connection to the database
 
 
 
-### getBestEngine
+### <a name="method-getBestEngine"></a>getBestEngine
 
     string DbMySQLiCore::getBestEngine()
 
@@ -326,12 +358,12 @@ Selects best table engine.
 
 
 * Visibility: **public**
-* This method is defined in [classes/db/DbMySQLi.php line 319](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#319)
+* This method is defined in [classes/db/DbMySQLi.php line 319](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L319)
 
 
 
 
-### checkCreatePrivilege
+### <a name="method-checkCreatePrivilege"></a>checkCreatePrivilege
 
     boolean|string DbMySQLiCore::checkCreatePrivilege(string $server, string $user, string $pwd, string $db, string $prefix, string|null $engine)
 
@@ -341,7 +373,7 @@ Tries to connect to the database and create a table (checking creation privilege
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/db/DbMySQLi.php line 359](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#359)
+* This method is defined in [classes/db/DbMySQLi.php line 359](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L359)
 
 
 #### Arguments
@@ -354,7 +386,7 @@ Tries to connect to the database and create a table (checking creation privilege
 
 
 
-### tryUTF8
+### <a name="method-tryUTF8"></a>tryUTF8
 
     boolean DbMySQLiCore::tryUTF8(string $server, string $user, string $pwd)
 
@@ -364,7 +396,7 @@ Try a connection to the database and set names to UTF-8
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/db/DbMySQLi.php line 392](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#392)
+* This method is defined in [classes/db/DbMySQLi.php line 392](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L392)
 
 
 #### Arguments
@@ -374,7 +406,7 @@ Try a connection to the database and set names to UTF-8
 
 
 
-### checkAutoIncrement
+### <a name="method-checkAutoIncrement"></a>checkAutoIncrement
 
     boolean DbMySQLiCore::checkAutoIncrement(string $server, string $user, string $pwd)
 
@@ -384,7 +416,7 @@ Checks if auto increment value and offset is 1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/db/DbMySQLi.php line 408](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#408)
+* This method is defined in [classes/db/DbMySQLi.php line 408](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L408)
 
 
 #### Arguments

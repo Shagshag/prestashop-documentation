@@ -14,21 +14,62 @@ UploaderCore
 Constants
 ----------
 
+* [DEFAULT_MAX_SIZE](#constant-DEFAULT_MAX_SIZE)
 
-### DEFAULT_MAX_SIZE
+Properties
+----------
+
+* [$_check_file_size](#property-$_check_file_size)
+* [$_accept_types](#property-$_accept_types)
+* [$_files](#property-$_files)
+* [$_max_size](#property-$_max_size)
+* [$_name](#property-$_name)
+* [$_save_path](#property-$_save_path)
+
+Methods
+-------
+* [__construct](#method-__construct)
+* [setAcceptTypes](#method-setAcceptTypes)
+* [getAcceptTypes](#method-getAcceptTypes)
+* [setCheckFileSize](#method-setCheckFileSize)
+* [getFilePath](#method-getFilePath)
+* [getFiles](#method-getFiles)
+* [setMaxSize](#method-setMaxSize)
+* [getMaxSize](#method-getMaxSize)
+* [setName](#method-setName)
+* [getName](#method-getName)
+* [setSavePath](#method-setSavePath)
+* [getPostMaxSizeBytes](#method-getPostMaxSizeBytes)
+* [getSavePath](#method-getSavePath)
+* [getUniqueFileName](#method-getUniqueFileName)
+* [checkFileSize](#method-checkFileSize)
+* [process](#method-process)
+* [upload](#method-upload)
+* [checkUploadError](#method-checkUploadError)
+* [validate](#method-validate)
+* [_getFileSize](#method-_getFileSize)
+* [_getServerVars](#method-_getServerVars)
+* [_normalizeDirectory](#method-_normalizeDirectory)
+
+
+Constants
+----------
+
+
+### <a name="constant-DEFAULT_MAX_SIZE"></a>DEFAULT_MAX_SIZE
 
     const DEFAULT_MAX_SIZE = 10485760
 
 
 
-* This constant is defined in [classes/Uploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#29)
+* This constant is defined in [classes/Uploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L29)
 
 
 Properties
 ----------
 
 
-### $_check_file_size
+### <a name="property-$_check_file_size"></a>$_check_file_size
 
     private mixed $_check_file_size
 
@@ -37,10 +78,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/Uploader.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#31)
+* This property is defined in [classes/Uploader.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L31)
 
 
-### $_accept_types
+### <a name="property-$_accept_types"></a>$_accept_types
 
     private mixed $_accept_types
 
@@ -49,10 +90,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/Uploader.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#32)
+* This property is defined in [classes/Uploader.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L32)
 
 
-### $_files
+### <a name="property-$_files"></a>$_files
 
     private mixed $_files
 
@@ -61,10 +102,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/Uploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#33)
+* This property is defined in [classes/Uploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L33)
 
 
-### $_max_size
+### <a name="property-$_max_size"></a>$_max_size
 
     private mixed $_max_size
 
@@ -73,10 +114,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/Uploader.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#34)
+* This property is defined in [classes/Uploader.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L34)
 
 
-### $_name
+### <a name="property-$_name"></a>$_name
 
     private mixed $_name
 
@@ -85,10 +126,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/Uploader.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#35)
+* This property is defined in [classes/Uploader.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L35)
 
 
-### $_save_path
+### <a name="property-$_save_path"></a>$_save_path
 
     private mixed $_save_path
 
@@ -97,14 +138,14 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/Uploader.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#36)
+* This property is defined in [classes/Uploader.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L36)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed UploaderCore::__construct($name)
 
@@ -113,7 +154,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#38)
+* This method is defined in [classes/Uploader.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L38)
 
 
 #### Arguments
@@ -121,7 +162,7 @@ Methods
 
 
 
-### setAcceptTypes
+### <a name="method-setAcceptTypes"></a>setAcceptTypes
 
     mixed UploaderCore::setAcceptTypes($value)
 
@@ -130,7 +171,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#45)
+* This method is defined in [classes/Uploader.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L45)
 
 
 #### Arguments
@@ -138,7 +179,7 @@ Methods
 
 
 
-### getAcceptTypes
+### <a name="method-getAcceptTypes"></a>getAcceptTypes
 
     mixed UploaderCore::getAcceptTypes()
 
@@ -147,12 +188,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#51)
+* This method is defined in [classes/Uploader.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L51)
 
 
 
 
-### setCheckFileSize
+### <a name="method-setCheckFileSize"></a>setCheckFileSize
 
     mixed UploaderCore::setCheckFileSize($value)
 
@@ -161,7 +202,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#56)
+* This method is defined in [classes/Uploader.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L56)
 
 
 #### Arguments
@@ -169,7 +210,7 @@ Methods
 
 
 
-### getFilePath
+### <a name="method-getFilePath"></a>getFilePath
 
     mixed UploaderCore::getFilePath($file_name)
 
@@ -178,7 +219,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#62)
+* This method is defined in [classes/Uploader.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L62)
 
 
 #### Arguments
@@ -186,7 +227,7 @@ Methods
 
 
 
-### getFiles
+### <a name="method-getFiles"></a>getFiles
 
     mixed UploaderCore::getFiles()
 
@@ -195,12 +236,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#71)
+* This method is defined in [classes/Uploader.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L71)
 
 
 
 
-### setMaxSize
+### <a name="method-setMaxSize"></a>setMaxSize
 
     mixed UploaderCore::setMaxSize($value)
 
@@ -209,7 +250,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#80)
+* This method is defined in [classes/Uploader.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L80)
 
 
 #### Arguments
@@ -217,7 +258,7 @@ Methods
 
 
 
-### getMaxSize
+### <a name="method-getMaxSize"></a>getMaxSize
 
     mixed UploaderCore::getMaxSize()
 
@@ -226,12 +267,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#86)
+* This method is defined in [classes/Uploader.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L86)
 
 
 
 
-### setName
+### <a name="method-setName"></a>setName
 
     mixed UploaderCore::setName($value)
 
@@ -240,7 +281,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#95)
+* This method is defined in [classes/Uploader.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L95)
 
 
 #### Arguments
@@ -248,7 +289,7 @@ Methods
 
 
 
-### getName
+### <a name="method-getName"></a>getName
 
     mixed UploaderCore::getName()
 
@@ -257,12 +298,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#101)
+* This method is defined in [classes/Uploader.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L101)
 
 
 
 
-### setSavePath
+### <a name="method-setSavePath"></a>setSavePath
 
     mixed UploaderCore::setSavePath($value)
 
@@ -271,7 +312,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#106)
+* This method is defined in [classes/Uploader.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L106)
 
 
 #### Arguments
@@ -279,7 +320,7 @@ Methods
 
 
 
-### getPostMaxSizeBytes
+### <a name="method-getPostMaxSizeBytes"></a>getPostMaxSizeBytes
 
     mixed UploaderCore::getPostMaxSizeBytes()
 
@@ -288,12 +329,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#112)
+* This method is defined in [classes/Uploader.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L112)
 
 
 
 
-### getSavePath
+### <a name="method-getSavePath"></a>getSavePath
 
     mixed UploaderCore::getSavePath()
 
@@ -302,12 +343,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#130)
+* This method is defined in [classes/Uploader.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L130)
 
 
 
 
-### getUniqueFileName
+### <a name="method-getUniqueFileName"></a>getUniqueFileName
 
     mixed UploaderCore::getUniqueFileName($prefix)
 
@@ -316,7 +357,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#139)
+* This method is defined in [classes/Uploader.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L139)
 
 
 #### Arguments
@@ -324,7 +365,7 @@ Methods
 
 
 
-### checkFileSize
+### <a name="method-checkFileSize"></a>checkFileSize
 
     mixed UploaderCore::checkFileSize()
 
@@ -333,12 +374,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#144)
+* This method is defined in [classes/Uploader.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L144)
 
 
 
 
-### process
+### <a name="method-process"></a>process
 
     mixed UploaderCore::process($dest)
 
@@ -347,7 +388,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#149)
+* This method is defined in [classes/Uploader.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L149)
 
 
 #### Arguments
@@ -355,7 +396,7 @@ Methods
 
 
 
-### upload
+### <a name="method-upload"></a>upload
 
     mixed UploaderCore::upload($file, $dest)
 
@@ -364,7 +405,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Uploader.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#173)
+* This method is defined in [classes/Uploader.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L173)
 
 
 #### Arguments
@@ -373,7 +414,7 @@ Methods
 
 
 
-### checkUploadError
+### <a name="method-checkUploadError"></a>checkUploadError
 
     mixed UploaderCore::checkUploadError($error_code)
 
@@ -382,7 +423,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Uploader.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#203)
+* This method is defined in [classes/Uploader.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L203)
 
 
 #### Arguments
@@ -390,7 +431,7 @@ Methods
 
 
 
-### validate
+### <a name="method-validate"></a>validate
 
     mixed UploaderCore::validate($file)
 
@@ -399,7 +440,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Uploader.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#234)
+* This method is defined in [classes/Uploader.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L234)
 
 
 #### Arguments
@@ -407,7 +448,7 @@ Methods
 
 
 
-### _getFileSize
+### <a name="method-_getFileSize"></a>_getFileSize
 
     mixed UploaderCore::_getFileSize($file_path, $clear_stat_cache)
 
@@ -416,7 +457,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Uploader.php line 266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#266)
+* This method is defined in [classes/Uploader.php line 266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L266)
 
 
 #### Arguments
@@ -425,7 +466,7 @@ Methods
 
 
 
-### _getServerVars
+### <a name="method-_getServerVars"></a>_getServerVars
 
     mixed UploaderCore::_getServerVars($var)
 
@@ -434,7 +475,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Uploader.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#275)
+* This method is defined in [classes/Uploader.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L275)
 
 
 #### Arguments
@@ -442,7 +483,7 @@ Methods
 
 
 
-### _normalizeDirectory
+### <a name="method-_normalizeDirectory"></a>_normalizeDirectory
 
     mixed UploaderCore::_normalizeDirectory($directory)
 
@@ -451,7 +492,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Uploader.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#280)
+* This method is defined in [classes/Uploader.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#L280)
 
 
 #### Arguments

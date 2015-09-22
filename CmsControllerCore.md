@@ -17,8 +17,27 @@ CmsControllerCore
 Properties
 ----------
 
+* [$php_self](#property-$php_self)
+* [$assignCase](#property-$assignCase)
+* [$cms](#property-$cms)
+* [$cms_category](#property-$cms_category)
+* [$ssl](#property-$ssl)
 
-### $php_self
+Methods
+-------
+* [canonicalRedirection](#method-canonicalRedirection)
+* [init](#method-init)
+* [setMedia](#method-setMedia)
+* [initContent](#method-initContent)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'cms'
 
@@ -27,10 +46,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/CmsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#29)
+* This property is defined in [controllers/front/CmsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L29)
 
 
-### $assignCase
+### <a name="property-$assignCase"></a>$assignCase
 
     public mixed $assignCase
 
@@ -39,10 +58,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/CmsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#30)
+* This property is defined in [controllers/front/CmsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L30)
 
 
-### $cms
+### <a name="property-$cms"></a>$cms
 
     public mixed $cms
 
@@ -51,10 +70,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/CmsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#31)
+* This property is defined in [controllers/front/CmsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L31)
 
 
-### $cms_category
+### <a name="property-$cms_category"></a>$cms_category
 
     public \CMSCategory $cms_category
 
@@ -63,10 +82,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/CmsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#34)
+* This property is defined in [controllers/front/CmsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L34)
 
 
-### $ssl
+### <a name="property-$ssl"></a>$ssl
 
     public mixed $ssl = false
 
@@ -75,14 +94,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/CmsController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#35)
+* This property is defined in [controllers/front/CmsController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L35)
 
 
 Methods
 -------
 
 
-### canonicalRedirection
+### <a name="method-canonicalRedirection"></a>canonicalRedirection
 
     mixed CmsControllerCore::canonicalRedirection($canonicalURL)
 
@@ -91,7 +110,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/CmsController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#37)
+* This method is defined in [controllers/front/CmsController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L37)
 
 
 #### Arguments
@@ -99,7 +118,7 @@ Methods
 
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed CmsControllerCore::init()
 
@@ -108,12 +127,12 @@ Initialize cms controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/CmsController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#53)
+* This method is defined in [controllers/front/CmsController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L53)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed CmsControllerCore::setMedia()
 
@@ -122,12 +141,12 @@ Initialize cms controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/CmsController.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#87)
+* This method is defined in [controllers/front/CmsController.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L87)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed CmsControllerCore::initContent()
 
@@ -136,7 +155,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/CmsController.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#102)
+* This method is defined in [controllers/front/CmsController.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CmsController.php#L102)
 
 
 

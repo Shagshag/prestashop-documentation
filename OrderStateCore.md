@@ -15,57 +15,94 @@ OrderStateCore
 Constants
 ----------
 
+* [FLAG_NO_HIDDEN](#constant-FLAG_NO_HIDDEN)
+* [FLAG_LOGABLE](#constant-FLAG_LOGABLE)
+* [FLAG_DELIVERY](#constant-FLAG_DELIVERY)
+* [FLAG_SHIPPED](#constant-FLAG_SHIPPED)
+* [FLAG_PAID](#constant-FLAG_PAID)
 
-### FLAG_NO_HIDDEN
+Properties
+----------
+
+* [$name](#property-$name)
+* [$template](#property-$template)
+* [$send_email](#property-$send_email)
+* [$module_name](#property-$module_name)
+* [$invoice](#property-$invoice)
+* [$color](#property-$color)
+* [$unremovable](#property-$unremovable)
+* [$logable](#property-$logable)
+* [$delivery](#property-$delivery)
+* [$hidden](#property-$hidden)
+* [$shipped](#property-$shipped)
+* [$paid](#property-$paid)
+* [$pdf_invoice](#property-$pdf_invoice)
+* [$pdf_delivery](#property-$pdf_delivery)
+* [$deleted](#property-$deleted)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
+
+Methods
+-------
+* [getOrderStates](#method-getOrderStates)
+* [invoiceAvailable](#method-invoiceAvailable)
+* [isRemovable](#method-isRemovable)
+
+
+Constants
+----------
+
+
+### <a name="constant-FLAG_NO_HIDDEN"></a>FLAG_NO_HIDDEN
 
     const FLAG_NO_HIDDEN = 1
 
 
 
-* This constant is defined in [classes/order/OrderState.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#108)
+* This constant is defined in [classes/order/OrderState.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L108)
 
 
-### FLAG_LOGABLE
+### <a name="constant-FLAG_LOGABLE"></a>FLAG_LOGABLE
 
     const FLAG_LOGABLE = 2
 
 
 
-* This constant is defined in [classes/order/OrderState.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#109)
+* This constant is defined in [classes/order/OrderState.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L109)
 
 
-### FLAG_DELIVERY
+### <a name="constant-FLAG_DELIVERY"></a>FLAG_DELIVERY
 
     const FLAG_DELIVERY = 4
 
 
 
-* This constant is defined in [classes/order/OrderState.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#110)
+* This constant is defined in [classes/order/OrderState.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L110)
 
 
-### FLAG_SHIPPED
+### <a name="constant-FLAG_SHIPPED"></a>FLAG_SHIPPED
 
     const FLAG_SHIPPED = 8
 
 
 
-* This constant is defined in [classes/order/OrderState.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#111)
+* This constant is defined in [classes/order/OrderState.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L111)
 
 
-### FLAG_PAID
+### <a name="constant-FLAG_PAID"></a>FLAG_PAID
 
     const FLAG_PAID = 16
 
 
 
-* This constant is defined in [classes/order/OrderState.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#112)
+* This constant is defined in [classes/order/OrderState.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L112)
 
 
 Properties
 ----------
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -74,10 +111,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#30)
+* This property is defined in [classes/order/OrderState.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L30)
 
 
-### $template
+### <a name="property-$template"></a>$template
 
     public string $template
 
@@ -86,10 +123,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#33)
+* This property is defined in [classes/order/OrderState.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L33)
 
 
-### $send_email
+### <a name="property-$send_email"></a>$send_email
 
     public boolean $send_email
 
@@ -98,10 +135,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#36)
+* This property is defined in [classes/order/OrderState.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L36)
 
 
-### $module_name
+### <a name="property-$module_name"></a>$module_name
 
     public mixed $module_name
 
@@ -110,10 +147,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#38)
+* This property is defined in [classes/order/OrderState.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L38)
 
 
-### $invoice
+### <a name="property-$invoice"></a>$invoice
 
     public boolean $invoice
 
@@ -122,10 +159,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#41)
+* This property is defined in [classes/order/OrderState.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L41)
 
 
-### $color
+### <a name="property-$color"></a>$color
 
     public string $color
 
@@ -134,10 +171,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#44)
+* This property is defined in [classes/order/OrderState.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L44)
 
 
-### $unremovable
+### <a name="property-$unremovable"></a>$unremovable
 
     public mixed $unremovable
 
@@ -146,10 +183,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#46)
+* This property is defined in [classes/order/OrderState.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L46)
 
 
-### $logable
+### <a name="property-$logable"></a>$logable
 
     public boolean $logable
 
@@ -158,10 +195,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#49)
+* This property is defined in [classes/order/OrderState.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L49)
 
 
-### $delivery
+### <a name="property-$delivery"></a>$delivery
 
     public boolean $delivery
 
@@ -170,10 +207,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#52)
+* This property is defined in [classes/order/OrderState.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L52)
 
 
-### $hidden
+### <a name="property-$hidden"></a>$hidden
 
     public boolean $hidden
 
@@ -182,10 +219,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#55)
+* This property is defined in [classes/order/OrderState.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L55)
 
 
-### $shipped
+### <a name="property-$shipped"></a>$shipped
 
     public boolean $shipped
 
@@ -194,10 +231,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#58)
+* This property is defined in [classes/order/OrderState.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L58)
 
 
-### $paid
+### <a name="property-$paid"></a>$paid
 
     public boolean $paid
 
@@ -206,10 +243,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#61)
+* This property is defined in [classes/order/OrderState.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L61)
 
 
-### $pdf_invoice
+### <a name="property-$pdf_invoice"></a>$pdf_invoice
 
     public boolean $pdf_invoice
 
@@ -218,10 +255,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#64)
+* This property is defined in [classes/order/OrderState.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L64)
 
 
-### $pdf_delivery
+### <a name="property-$pdf_delivery"></a>$pdf_delivery
 
     public boolean $pdf_delivery
 
@@ -230,10 +267,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#67)
+* This property is defined in [classes/order/OrderState.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L67)
 
 
-### $deleted
+### <a name="property-$deleted"></a>$deleted
 
     public boolean $deleted
 
@@ -242,10 +279,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderState.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#70)
+* This property is defined in [classes/order/OrderState.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L70)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'order_state', 'primary' => 'id_order_state', 'multilang' => true, 'fields' => array('send_email' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'module_name' => array('type' => self::TYPE_STRING, 'validate' => 'isModuleName'), 'invoice' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor'), 'logable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'shipped' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'unremovable' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'delivery' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'hidden' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'paid' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'pdf_delivery' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'pdf_invoice' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'template' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isTplName', 'size' => 64)))
 
@@ -255,10 +292,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/order/OrderState.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#75)
+* This property is defined in [classes/order/OrderState.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L75)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('unremovable' => array(), 'delivery' => array(), 'hidden' => array()))
 
@@ -267,14 +304,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/order/OrderState.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#100)
+* This property is defined in [classes/order/OrderState.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L100)
 
 
 Methods
 -------
 
 
-### getOrderStates
+### <a name="method-getOrderStates"></a>getOrderStates
 
     array OrderStateCore::getOrderStates(integer $id_lang)
 
@@ -284,7 +321,7 @@ Get all available order statuses
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/order/OrderState.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#120)
+* This method is defined in [classes/order/OrderState.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L120)
 
 
 #### Arguments
@@ -292,7 +329,7 @@ Get all available order statuses
 
 
 
-### invoiceAvailable
+### <a name="method-invoiceAvailable"></a>invoiceAvailable
 
     boolean OrderStateCore::invoiceAvailable(integer $id_order_state)
 
@@ -302,7 +339,7 @@ Check if we can make a invoice when order is in this state
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/order/OrderState.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#142)
+* This method is defined in [classes/order/OrderState.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L142)
 
 
 #### Arguments
@@ -310,7 +347,7 @@ Check if we can make a invoice when order is in this state
 
 
 
-### isRemovable
+### <a name="method-isRemovable"></a>isRemovable
 
     mixed OrderStateCore::isRemovable()
 
@@ -319,7 +356,7 @@ Check if we can make a invoice when order is in this state
 
 
 * Visibility: **public**
-* This method is defined in [classes/order/OrderState.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#154)
+* This method is defined in [classes/order/OrderState.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderState.php#L154)
 
 
 

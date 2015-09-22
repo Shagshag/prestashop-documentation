@@ -17,8 +17,29 @@ DeliveryCore
 Properties
 ----------
 
+* [$id_delivery](#property-$id_delivery)
+* [$id_shop](#property-$id_shop)
+* [$id_shop_group](#property-$id_shop_group)
+* [$id_carrier](#property-$id_carrier)
+* [$id_range_price](#property-$id_range_price)
+* [$id_range_weight](#property-$id_range_weight)
+* [$id_zone](#property-$id_zone)
+* [$price](#property-$price)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_delivery
+Methods
+-------
+* [getFields](#method-getFields)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_delivery"></a>$id_delivery
 
     public integer $id_delivery
 
@@ -27,10 +48,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Delivery.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#30)
+* This property is defined in [classes/Delivery.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L30)
 
 
-### $id_shop
+### <a name="property-$id_shop"></a>$id_shop
 
     public integer $id_shop
 
@@ -39,10 +60,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Delivery.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#33)
+* This property is defined in [classes/Delivery.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L33)
 
 
-### $id_shop_group
+### <a name="property-$id_shop_group"></a>$id_shop_group
 
     public integer $id_shop_group
 
@@ -51,10 +72,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Delivery.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#36)
+* This property is defined in [classes/Delivery.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L36)
 
 
-### $id_carrier
+### <a name="property-$id_carrier"></a>$id_carrier
 
     public integer $id_carrier
 
@@ -63,10 +84,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Delivery.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#39)
+* This property is defined in [classes/Delivery.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L39)
 
 
-### $id_range_price
+### <a name="property-$id_range_price"></a>$id_range_price
 
     public integer $id_range_price
 
@@ -75,10 +96,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Delivery.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#42)
+* This property is defined in [classes/Delivery.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L42)
 
 
-### $id_range_weight
+### <a name="property-$id_range_weight"></a>$id_range_weight
 
     public integer $id_range_weight
 
@@ -87,10 +108,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Delivery.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#45)
+* This property is defined in [classes/Delivery.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L45)
 
 
-### $id_zone
+### <a name="property-$id_zone"></a>$id_zone
 
     public integer $id_zone
 
@@ -99,10 +120,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Delivery.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#48)
+* This property is defined in [classes/Delivery.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L48)
 
 
-### $price
+### <a name="property-$price"></a>$price
 
     public float $price
 
@@ -111,10 +132,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Delivery.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#51)
+* This property is defined in [classes/Delivery.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L51)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'delivery', 'primary' => 'id_delivery', 'fields' => array('id_carrier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_range_price' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_range_weight' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_zone' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_shop' => array('type' => self::TYPE_INT), 'id_shop_group' => array('type' => self::TYPE_INT), 'price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true)))
 
@@ -124,10 +145,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Delivery.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#56)
+* This property is defined in [classes/Delivery.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L56)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectsNodeName' => 'deliveries', 'fields' => array('id_carrier' => array('xlink_resource' => 'carriers'), 'id_range_price' => array('xlink_resource' => 'price_ranges'), 'id_range_weight' => array('xlink_resource' => 'weight_ranges'), 'id_zone' => array('xlink_resource' => 'zones')))
 
@@ -136,14 +157,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Delivery.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#70)
+* This property is defined in [classes/Delivery.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L70)
 
 
 Methods
 -------
 
 
-### getFields
+### <a name="method-getFields"></a>getFields
 
     mixed DeliveryCore::getFields()
 
@@ -152,7 +173,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Delivery.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#80)
+* This method is defined in [classes/Delivery.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#L80)
 
 
 

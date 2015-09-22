@@ -17,8 +17,64 @@ LanguageCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$name](#property-$name)
+* [$iso_code](#property-$iso_code)
+* [$language_code](#property-$language_code)
+* [$date_format_lite](#property-$date_format_lite)
+* [$date_format_full](#property-$date_format_full)
+* [$is_rtl](#property-$is_rtl)
+* [$active](#property-$active)
+* [$definition](#property-$definition)
+* [$_checkedLangs](#property-$_checkedLangs)
+* [$_LANGUAGES](#property-$_LANGUAGES)
+* [$countActiveLanguages](#property-$countActiveLanguages)
+* [$webserviceParameters](#property-$webserviceParameters)
+* [$translationsFilesAndVars](#property-$translationsFilesAndVars)
+* [$_cache_language_installation](#property-$_cache_language_installation)
 
-### $id
+Methods
+-------
+* [__construct](#method-__construct)
+* [getFields](#method-getFields)
+* [_generateFiles](#method-_generateFiles)
+* [moveToIso](#method-moveToIso)
+* [_getThemesList](#method-_getThemesList)
+* [add](#method-add)
+* [checkFiles](#method-checkFiles)
+* [checkFilesWithIsoCode](#method-checkFilesWithIsoCode)
+* [getFilesList](#method-getFilesList)
+* [loadUpdateSQL](#method-loadUpdateSQL)
+* [recurseDeleteDir](#method-recurseDeleteDir)
+* [delete](#method-delete)
+* [deleteSelection](#method-deleteSelection)
+* [getLanguages](#method-getLanguages)
+* [getIDs](#method-getIDs)
+* [getLanguage](#method-getLanguage)
+* [getIsoById](#method-getIsoById)
+* [getIdByIso](#method-getIdByIso)
+* [getLanguageCodeByIso](#method-getLanguageCodeByIso)
+* [getLanguageByIETFCode](#method-getLanguageByIETFCode)
+* [getIsoIds](#method-getIsoIds)
+* [copyLanguageData](#method-copyLanguageData)
+* [loadLanguages](#method-loadLanguages)
+* [checkAndAddLanguage](#method-checkAndAddLanguage)
+* [_copyNoneFlag](#method-_copyNoneFlag)
+* [isInstalled](#method-isInstalled)
+* [countActiveLanguages](#method-countActiveLanguages)
+* [downloadAndInstallLanguagePack](#method-downloadAndInstallLanguagePack)
+* [isMultiLanguageActivated](#method-isMultiLanguageActivated)
+* [getLanguagePackListContent](#method-getLanguagePackListContent)
+* [updateModulesTranslations](#method-updateModulesTranslations)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +83,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Language.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#29)
+* This property is defined in [classes/Language.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L29)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -39,10 +95,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Language.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#32)
+* This property is defined in [classes/Language.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L32)
 
 
-### $iso_code
+### <a name="property-$iso_code"></a>$iso_code
 
     public string $iso_code
 
@@ -51,10 +107,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Language.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#35)
+* This property is defined in [classes/Language.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L35)
 
 
-### $language_code
+### <a name="property-$language_code"></a>$language_code
 
     public string $language_code
 
@@ -63,10 +119,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Language.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#38)
+* This property is defined in [classes/Language.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L38)
 
 
-### $date_format_lite
+### <a name="property-$date_format_lite"></a>$date_format_lite
 
     public string $date_format_lite = 'Y-m-d'
 
@@ -75,10 +131,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Language.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#41)
+* This property is defined in [classes/Language.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L41)
 
 
-### $date_format_full
+### <a name="property-$date_format_full"></a>$date_format_full
 
     public string $date_format_full = 'Y-m-d H:i:s'
 
@@ -87,10 +143,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Language.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#44)
+* This property is defined in [classes/Language.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L44)
 
 
-### $is_rtl
+### <a name="property-$is_rtl"></a>$is_rtl
 
     public boolean $is_rtl = false
 
@@ -99,10 +155,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Language.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#47)
+* This property is defined in [classes/Language.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L47)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public boolean $active = true
 
@@ -111,10 +167,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Language.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#50)
+* This property is defined in [classes/Language.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L50)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'lang', 'primary' => 'id_lang', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'iso_code' => array('type' => self::TYPE_STRING, 'validate' => 'isLanguageIsoCode', 'required' => true, 'size' => 2), 'language_code' => array('type' => self::TYPE_STRING, 'validate' => 'isLanguageCode', 'size' => 5), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'is_rtl' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_format_lite' => array('type' => self::TYPE_STRING, 'validate' => 'isPhpDateFormat', 'required' => true, 'size' => 32), 'date_format_full' => array('type' => self::TYPE_STRING, 'validate' => 'isPhpDateFormat', 'required' => true, 'size' => 32)))
 
@@ -124,10 +180,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Language.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#55)
+* This property is defined in [classes/Language.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L55)
 
 
-### $_checkedLangs
+### <a name="property-$_checkedLangs"></a>$_checkedLangs
 
     protected array $_checkedLangs
 
@@ -137,10 +193,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Language.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#71)
+* This property is defined in [classes/Language.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L71)
 
 
-### $_LANGUAGES
+### <a name="property-$_LANGUAGES"></a>$_LANGUAGES
 
     protected mixed $_LANGUAGES
 
@@ -150,10 +206,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Language.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#72)
+* This property is defined in [classes/Language.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L72)
 
 
-### $countActiveLanguages
+### <a name="property-$countActiveLanguages"></a>$countActiveLanguages
 
     protected mixed $countActiveLanguages = array()
 
@@ -163,10 +219,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Language.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#73)
+* This property is defined in [classes/Language.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L73)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectNodeName' => 'language', 'objectsNodeName' => 'languages')
 
@@ -175,10 +231,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Language.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#75)
+* This property is defined in [classes/Language.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L75)
 
 
-### $translationsFilesAndVars
+### <a name="property-$translationsFilesAndVars"></a>$translationsFilesAndVars
 
     protected mixed $translationsFilesAndVars = array('fields' => '_FIELDS', 'errors' => '_ERRORS', 'admin' => '_LANGADM', 'pdf' => '_LANGPDF', 'tabs' => 'tabs')
 
@@ -187,10 +243,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Language.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#80)
+* This property is defined in [classes/Language.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L80)
 
 
-### $_cache_language_installation
+### <a name="property-$_cache_language_installation"></a>$_cache_language_installation
 
     protected mixed $_cache_language_installation = null
 
@@ -200,14 +256,14 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Language.php line 870](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#870)
+* This property is defined in [classes/Language.php line 870](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L870)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed LanguageCore::__construct($id, $id_lang)
 
@@ -216,7 +272,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Language.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#88)
+* This method is defined in [classes/Language.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L88)
 
 
 #### Arguments
@@ -225,7 +281,7 @@ Methods
 
 
 
-### getFields
+### <a name="method-getFields"></a>getFields
 
     array LanguageCore::getFields()
 
@@ -234,12 +290,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Language.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#97)
+* This method is defined in [classes/Language.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L97)
 
 
 
 
-### _generateFiles
+### <a name="method-_generateFiles"></a>_generateFiles
 
     mixed LanguageCore::_generateFiles($newIso)
 
@@ -248,7 +304,7 @@ Generate translations files
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Language.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#111)
+* This method is defined in [classes/Language.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L111)
 
 
 #### Arguments
@@ -256,7 +312,7 @@ Generate translations files
 
 
 
-### moveToIso
+### <a name="method-moveToIso"></a>moveToIso
 
     mixed LanguageCore::moveToIso($newIso)
 
@@ -265,7 +321,7 @@ Move translations files after editing language iso code
 
 
 * Visibility: **public**
-* This method is defined in [classes/Language.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#144)
+* This method is defined in [classes/Language.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L144)
 
 
 #### Arguments
@@ -273,7 +329,7 @@ Move translations files after editing language iso code
 
 
 
-### _getThemesList
+### <a name="method-_getThemesList"></a>_getThemesList
 
     \array([theme LanguageCore::_getThemesList()
 
@@ -282,12 +338,12 @@ Return an array of theme
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Language.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#194)
+* This method is defined in [classes/Language.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L194)
 
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed LanguageCore::add($autodate, $nullValues, $only_add)
 
@@ -296,7 +352,7 @@ Return an array of theme
 
 
 * Visibility: **public**
-* This method is defined in [classes/Language.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#210)
+* This method is defined in [classes/Language.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L210)
 
 
 #### Arguments
@@ -306,7 +362,7 @@ Return an array of theme
 
 
 
-### checkFiles
+### <a name="method-checkFiles"></a>checkFiles
 
     mixed LanguageCore::checkFiles()
 
@@ -315,12 +371,12 @@ Return an array of theme
 
 
 * Visibility: **public**
-* This method is defined in [classes/Language.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#229)
+* This method is defined in [classes/Language.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L229)
 
 
 
 
-### checkFilesWithIsoCode
+### <a name="method-checkFilesWithIsoCode"></a>checkFilesWithIsoCode
 
     mixed LanguageCore::checkFilesWithIsoCode(mixed $iso_code)
 
@@ -331,7 +387,7 @@ and translations/mails/$iso_code .
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#243)
+* This method is defined in [classes/Language.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L243)
 
 
 #### Arguments
@@ -339,7 +395,7 @@ and translations/mails/$iso_code .
 
 
 
-### getFilesList
+### <a name="method-getFilesList"></a>getFilesList
 
     mixed LanguageCore::getFilesList($iso_from, $theme_from, $iso_to, $theme_to, $select, $check, $modules)
 
@@ -349,7 +405,7 @@ and translations/mails/$iso_code .
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#258)
+* This method is defined in [classes/Language.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L258)
 
 
 #### Arguments
@@ -363,7 +419,7 @@ and translations/mails/$iso_code .
 
 
 
-### loadUpdateSQL
+### <a name="method-loadUpdateSQL"></a>loadUpdateSQL
 
     boolean LanguageCore::loadUpdateSQL()
 
@@ -372,12 +428,12 @@ loadUpdateSQL will create default lang values when you create a new lang, based 
 
 
 * Visibility: **public**
-* This method is defined in [classes/Language.php line 414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#414)
+* This method is defined in [classes/Language.php line 414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L414)
 
 
 
 
-### recurseDeleteDir
+### <a name="method-recurseDeleteDir"></a>recurseDeleteDir
 
     mixed LanguageCore::recurseDeleteDir($dir)
 
@@ -387,7 +443,7 @@ loadUpdateSQL will create default lang values when you create a new lang, based 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 483](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#483)
+* This method is defined in [classes/Language.php line 483](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L483)
 
 
 #### Arguments
@@ -395,7 +451,7 @@ loadUpdateSQL will create default lang values when you create a new lang, based 
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed LanguageCore::delete()
 
@@ -404,12 +460,12 @@ loadUpdateSQL will create default lang values when you create a new lang, based 
 
 
 * Visibility: **public**
-* This method is defined in [classes/Language.php line 505](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#505)
+* This method is defined in [classes/Language.php line 505](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L505)
 
 
 
 
-### deleteSelection
+### <a name="method-deleteSelection"></a>deleteSelection
 
     mixed LanguageCore::deleteSelection($selection)
 
@@ -418,7 +474,7 @@ loadUpdateSQL will create default lang values when you create a new lang, based 
 
 
 * Visibility: **public**
-* This method is defined in [classes/Language.php line 588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#588)
+* This method is defined in [classes/Language.php line 588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L588)
 
 
 #### Arguments
@@ -426,7 +482,7 @@ loadUpdateSQL will create default lang values when you create a new lang, based 
 
 
 
-### getLanguages
+### <a name="method-getLanguages"></a>getLanguages
 
     array LanguageCore::getLanguages(boolean $active, integer|boolean $id_shop, boolean $ids_only)
 
@@ -436,7 +492,7 @@ Returns available languages
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 612](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#612)
+* This method is defined in [classes/Language.php line 612](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L612)
 
 
 #### Arguments
@@ -446,7 +502,7 @@ Returns available languages
 
 
 
-### getIDs
+### <a name="method-getIDs"></a>getIDs
 
     array LanguageCore::getIDs(boolean $active, integer|boolean $id_shop)
 
@@ -456,7 +512,7 @@ Returns an array of language IDs
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 638](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#638)
+* This method is defined in [classes/Language.php line 638](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L638)
 
 
 #### Arguments
@@ -465,7 +521,7 @@ Returns an array of language IDs
 
 
 
-### getLanguage
+### <a name="method-getLanguage"></a>getLanguage
 
     mixed LanguageCore::getLanguage($id_lang)
 
@@ -475,7 +531,7 @@ Returns an array of language IDs
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 643](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#643)
+* This method is defined in [classes/Language.php line 643](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L643)
 
 
 #### Arguments
@@ -483,7 +539,7 @@ Returns an array of language IDs
 
 
 
-### getIsoById
+### <a name="method-getIsoById"></a>getIsoById
 
     string LanguageCore::getIsoById(integer $id_lang)
 
@@ -493,7 +549,7 @@ Return iso code from id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 657](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#657)
+* This method is defined in [classes/Language.php line 657](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L657)
 
 
 #### Arguments
@@ -501,7 +557,7 @@ Return iso code from id
 
 
 
-### getIdByIso
+### <a name="method-getIdByIso"></a>getIdByIso
 
     false|null|string LanguageCore::getIdByIso(string $iso_code, boolean $no_cache)
 
@@ -511,7 +567,7 @@ Return id from iso code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 672](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#672)
+* This method is defined in [classes/Language.php line 672](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L672)
 
 
 #### Arguments
@@ -520,7 +576,7 @@ Return id from iso code
 
 
 
-### getLanguageCodeByIso
+### <a name="method-getLanguageCodeByIso"></a>getLanguageCodeByIso
 
     mixed LanguageCore::getLanguageCodeByIso($iso_code)
 
@@ -530,7 +586,7 @@ Return id from iso code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 688](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#688)
+* This method is defined in [classes/Language.php line 688](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L688)
 
 
 #### Arguments
@@ -538,7 +594,7 @@ Return id from iso code
 
 
 
-### getLanguageByIETFCode
+### <a name="method-getLanguageByIETFCode"></a>getLanguageByIETFCode
 
     mixed LanguageCore::getLanguageByIETFCode($code)
 
@@ -548,7 +604,7 @@ Return id from iso code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 697](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#697)
+* This method is defined in [classes/Language.php line 697](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L697)
 
 
 #### Arguments
@@ -556,7 +612,7 @@ Return id from iso code
 
 
 
-### getIsoIds
+### <a name="method-getIsoIds"></a>getIsoIds
 
     array LanguageCore::getIsoIds($active)
 
@@ -566,7 +622,7 @@ Return array (id_lang, iso_code)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 735](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#735)
+* This method is defined in [classes/Language.php line 735](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L735)
 
 
 #### Arguments
@@ -574,7 +630,7 @@ Return array (id_lang, iso_code)
 
 
 
-### copyLanguageData
+### <a name="method-copyLanguageData"></a>copyLanguageData
 
     mixed LanguageCore::copyLanguageData($from, $to)
 
@@ -584,7 +640,7 @@ Return array (id_lang, iso_code)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 740](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#740)
+* This method is defined in [classes/Language.php line 740](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L740)
 
 
 #### Arguments
@@ -593,7 +649,7 @@ Return array (id_lang, iso_code)
 
 
 
-### loadLanguages
+### <a name="method-loadLanguages"></a>loadLanguages
 
     mixed LanguageCore::loadLanguages()
 
@@ -603,12 +659,12 @@ Load all languages in memory for caching
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 769](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#769)
+* This method is defined in [classes/Language.php line 769](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L769)
 
 
 
 
-### checkAndAddLanguage
+### <a name="method-checkAndAddLanguage"></a>checkAndAddLanguage
 
     mixed LanguageCore::checkAndAddLanguage($iso_code, $lang_pack, $only_add, $params_lang)
 
@@ -618,7 +674,7 @@ Load all languages in memory for caching
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 786](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#786)
+* This method is defined in [classes/Language.php line 786](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L786)
 
 
 #### Arguments
@@ -629,7 +685,7 @@ Load all languages in memory for caching
 
 
 
-### _copyNoneFlag
+### <a name="method-_copyNoneFlag"></a>_copyNoneFlag
 
     mixed LanguageCore::_copyNoneFlag($id)
 
@@ -639,7 +695,7 @@ Load all languages in memory for caching
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 865](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#865)
+* This method is defined in [classes/Language.php line 865](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L865)
 
 
 #### Arguments
@@ -647,7 +703,7 @@ Load all languages in memory for caching
 
 
 
-### isInstalled
+### <a name="method-isInstalled"></a>isInstalled
 
     mixed LanguageCore::isInstalled($iso_code)
 
@@ -657,7 +713,7 @@ Load all languages in memory for caching
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 871](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#871)
+* This method is defined in [classes/Language.php line 871](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L871)
 
 
 #### Arguments
@@ -665,7 +721,7 @@ Load all languages in memory for caching
 
 
 
-### countActiveLanguages
+### <a name="method-countActiveLanguages"></a>countActiveLanguages
 
     mixed LanguageCore::countActiveLanguages($id_shop)
 
@@ -675,7 +731,7 @@ Load all languages in memory for caching
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 883](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#883)
+* This method is defined in [classes/Language.php line 883](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L883)
 
 
 #### Arguments
@@ -683,7 +739,7 @@ Load all languages in memory for caching
 
 
 
-### downloadAndInstallLanguagePack
+### <a name="method-downloadAndInstallLanguagePack"></a>downloadAndInstallLanguagePack
 
     mixed LanguageCore::downloadAndInstallLanguagePack($iso, $version, $params, $install)
 
@@ -693,7 +749,7 @@ Load all languages in memory for caching
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 899](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#899)
+* This method is defined in [classes/Language.php line 899](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L899)
 
 
 #### Arguments
@@ -704,7 +760,7 @@ Load all languages in memory for caching
 
 
 
-### isMultiLanguageActivated
+### <a name="method-isMultiLanguageActivated"></a>isMultiLanguageActivated
 
     boolean LanguageCore::isMultiLanguageActivated($id_shop)
 
@@ -714,7 +770,7 @@ Check if more on than one language is activated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 989](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#989)
+* This method is defined in [classes/Language.php line 989](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L989)
 
 
 #### Arguments
@@ -722,7 +778,7 @@ Check if more on than one language is activated
 
 
 
-### getLanguagePackListContent
+### <a name="method-getLanguagePackListContent"></a>getLanguagePackListContent
 
     mixed LanguageCore::getLanguagePackListContent($iso, $tar)
 
@@ -732,7 +788,7 @@ Check if more on than one language is activated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 994](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#994)
+* This method is defined in [classes/Language.php line 994](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L994)
 
 
 #### Arguments
@@ -741,7 +797,7 @@ Check if more on than one language is activated
 
 
 
-### updateModulesTranslations
+### <a name="method-updateModulesTranslations"></a>updateModulesTranslations
 
     mixed LanguageCore::updateModulesTranslations(array $modules_list)
 
@@ -751,7 +807,7 @@ Check if more on than one language is activated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Language.php line 1008](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#1008)
+* This method is defined in [classes/Language.php line 1008](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Language.php#L1008)
 
 
 #### Arguments

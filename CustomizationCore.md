@@ -17,8 +17,39 @@ CustomizationCore
 Properties
 ----------
 
+* [$id_product_attribute](#property-$id_product_attribute)
+* [$id_address_delivery](#property-$id_address_delivery)
+* [$id_cart](#property-$id_cart)
+* [$id_product](#property-$id_product)
+* [$quantity](#property-$quantity)
+* [$quantity_refunded](#property-$quantity_refunded)
+* [$quantity_returned](#property-$quantity_returned)
+* [$in_cart](#property-$in_cart)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_product_attribute
+Methods
+-------
+* [getReturnedCustomizations](#method-getReturnedCustomizations)
+* [getOrderedCustomizations](#method-getOrderedCustomizations)
+* [countCustomizationQuantityByProduct](#method-countCustomizationQuantityByProduct)
+* [getLabel](#method-getLabel)
+* [retrieveQuantitiesFromIds](#method-retrieveQuantitiesFromIds)
+* [countQuantityByCart](#method-countQuantityByCart)
+* [isFeatureActive](#method-isFeatureActive)
+* [isCurrentlyUsed](#method-isCurrentlyUsed)
+* [getWsCustomizedDataTextFields](#method-getWsCustomizedDataTextFields)
+* [getWsCustomizedDataImages](#method-getWsCustomizedDataImages)
+* [setWsCustomizedDataTextFields](#method-setWsCustomizedDataTextFields)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
     public integer $id_product_attribute
 
@@ -27,10 +58,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Customization.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#30)
+* This property is defined in [classes/Customization.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L30)
 
 
-### $id_address_delivery
+### <a name="property-$id_address_delivery"></a>$id_address_delivery
 
     public integer $id_address_delivery
 
@@ -39,10 +70,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Customization.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#32)
+* This property is defined in [classes/Customization.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L32)
 
 
-### $id_cart
+### <a name="property-$id_cart"></a>$id_cart
 
     public integer $id_cart
 
@@ -51,10 +82,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Customization.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#34)
+* This property is defined in [classes/Customization.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L34)
 
 
-### $id_product
+### <a name="property-$id_product"></a>$id_product
 
     public integer $id_product
 
@@ -63,10 +94,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Customization.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#36)
+* This property is defined in [classes/Customization.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L36)
 
 
-### $quantity
+### <a name="property-$quantity"></a>$quantity
 
     public integer $quantity
 
@@ -75,10 +106,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Customization.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#38)
+* This property is defined in [classes/Customization.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L38)
 
 
-### $quantity_refunded
+### <a name="property-$quantity_refunded"></a>$quantity_refunded
 
     public integer $quantity_refunded
 
@@ -87,10 +118,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Customization.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#40)
+* This property is defined in [classes/Customization.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L40)
 
 
-### $quantity_returned
+### <a name="property-$quantity_returned"></a>$quantity_returned
 
     public integer $quantity_returned
 
@@ -99,10 +130,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Customization.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#42)
+* This property is defined in [classes/Customization.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L42)
 
 
-### $in_cart
+### <a name="property-$in_cart"></a>$in_cart
 
     public boolean $in_cart
 
@@ -111,10 +142,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Customization.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#44)
+* This property is defined in [classes/Customization.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L44)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'customization', 'primary' => 'id_customization', 'fields' => array('id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_address_delivery' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_cart' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'quantity_refunded' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'quantity_returned' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'in_cart' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true)))
 
@@ -124,10 +155,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Customization.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#49)
+* This property is defined in [classes/Customization.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L49)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_address_delivery' => array('xlink_resource' => array('resourceName' => 'addresses')), 'id_cart' => array('xlink_resource' => array('resourceName' => 'carts')), 'id_product' => array('xlink_resource' => array('resourceName' => 'products'))), 'associations' => array('customized_data_text_fields' => array('resource' => 'customized_data_text_field', 'virtual_entity' => true, 'fields' => array('id_customization_field' => array('required' => true, 'xlink_resource' => 'product_customization_fields'), 'value' => array())), 'customized_data_images' => array('resource' => 'customized_data_image', 'virtual_entity' => true, 'setter' => false, 'fields' => array('id_customization_field' => array('xlink_resource' => 'product_customization_fields'), 'value' => array()))))
 
@@ -136,14 +167,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Customization.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#64)
+* This property is defined in [classes/Customization.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L64)
 
 
 Methods
 -------
 
 
-### getReturnedCustomizations
+### <a name="method-getReturnedCustomizations"></a>getReturnedCustomizations
 
     mixed CustomizationCore::getReturnedCustomizations($id_order)
 
@@ -153,7 +184,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Customization.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#96)
+* This method is defined in [classes/Customization.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L96)
 
 
 #### Arguments
@@ -161,7 +192,7 @@ Methods
 
 
 
-### getOrderedCustomizations
+### <a name="method-getOrderedCustomizations"></a>getOrderedCustomizations
 
     mixed CustomizationCore::getOrderedCustomizations($id_cart)
 
@@ -171,7 +202,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Customization.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#112)
+* This method is defined in [classes/Customization.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L112)
 
 
 #### Arguments
@@ -179,7 +210,7 @@ Methods
 
 
 
-### countCustomizationQuantityByProduct
+### <a name="method-countCustomizationQuantityByProduct"></a>countCustomizationQuantityByProduct
 
     mixed CustomizationCore::countCustomizationQuantityByProduct($customizations)
 
@@ -189,7 +220,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Customization.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#124)
+* This method is defined in [classes/Customization.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L124)
 
 
 #### Arguments
@@ -197,7 +228,7 @@ Methods
 
 
 
-### getLabel
+### <a name="method-getLabel"></a>getLabel
 
     mixed CustomizationCore::getLabel($id_customization, $id_lang, $id_shop)
 
@@ -207,7 +238,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Customization.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#133)
+* This method is defined in [classes/Customization.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L133)
 
 
 #### Arguments
@@ -217,7 +248,7 @@ Methods
 
 
 
-### retrieveQuantitiesFromIds
+### <a name="method-retrieveQuantitiesFromIds"></a>retrieveQuantitiesFromIds
 
     mixed CustomizationCore::retrieveQuantitiesFromIds($ids_customizations)
 
@@ -227,7 +258,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Customization.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#152)
+* This method is defined in [classes/Customization.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L152)
 
 
 #### Arguments
@@ -235,7 +266,7 @@ Methods
 
 
 
-### countQuantityByCart
+### <a name="method-countQuantityByCart"></a>countQuantityByCart
 
     mixed CustomizationCore::countQuantityByCart($id_cart)
 
@@ -245,7 +276,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Customization.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#178)
+* This method is defined in [classes/Customization.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L178)
 
 
 #### Arguments
@@ -253,7 +284,7 @@ Methods
 
 
 
-### isFeatureActive
+### <a name="method-isFeatureActive"></a>isFeatureActive
 
     boolean CustomizationCore::isFeatureActive()
 
@@ -263,12 +294,12 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Customization.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#201)
+* This method is defined in [classes/Customization.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L201)
 
 
 
 
-### isCurrentlyUsed
+### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
 
     boolean CustomizationCore::isCurrentlyUsed($table, $has_active_column)
 
@@ -278,7 +309,7 @@ This method is allow to know if a Customization entity is currently used
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Customization.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#213)
+* This method is defined in [classes/Customization.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L213)
 
 
 #### Arguments
@@ -287,7 +318,7 @@ This method is allow to know if a Customization entity is currently used
 
 
 
-### getWsCustomizedDataTextFields
+### <a name="method-getWsCustomizedDataTextFields"></a>getWsCustomizedDataTextFields
 
     mixed CustomizationCore::getWsCustomizedDataTextFields()
 
@@ -296,12 +327,12 @@ This method is allow to know if a Customization entity is currently used
 
 
 * Visibility: **public**
-* This method is defined in [classes/Customization.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#221)
+* This method is defined in [classes/Customization.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L221)
 
 
 
 
-### getWsCustomizedDataImages
+### <a name="method-getWsCustomizedDataImages"></a>getWsCustomizedDataImages
 
     mixed CustomizationCore::getWsCustomizedDataImages()
 
@@ -310,12 +341,12 @@ This method is allow to know if a Customization entity is currently used
 
 
 * Visibility: **public**
-* This method is defined in [classes/Customization.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#234)
+* This method is defined in [classes/Customization.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L234)
 
 
 
 
-### setWsCustomizedDataTextFields
+### <a name="method-setWsCustomizedDataTextFields"></a>setWsCustomizedDataTextFields
 
     mixed CustomizationCore::setWsCustomizedDataTextFields($values)
 
@@ -324,7 +355,7 @@ This method is allow to know if a Customization entity is currently used
 
 
 * Visibility: **public**
-* This method is defined in [classes/Customization.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#247)
+* This method is defined in [classes/Customization.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customization.php#L247)
 
 
 #### Arguments

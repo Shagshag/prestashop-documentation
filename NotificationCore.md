@@ -16,8 +16,23 @@ NotificationCore
 Properties
 ----------
 
+* [$types](#property-$types)
 
-### $types
+Methods
+-------
+* [__construct](#method-__construct)
+* [getLastElements](#method-getLastElements)
+* [getLastElementsIdsByType](#method-getLastElementsIdsByType)
+* [updateEmployeeLastElement](#method-updateEmployeeLastElement)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$types"></a>$types
 
     public mixed $types
 
@@ -26,14 +41,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Notification.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#29)
+* This property is defined in [classes/Notification.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#L29)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed NotificationCore::__construct()
 
@@ -42,12 +57,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Notification.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#31)
+* This method is defined in [classes/Notification.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#L31)
 
 
 
 
-### getLastElements
+### <a name="method-getLastElements"></a>getLastElements
 
     array NotificationCore::getLastElements()
 
@@ -57,12 +72,12 @@ Get all the notifications
 
 
 * Visibility: **public**
-* This method is defined in [classes/Notification.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#42)
+* This method is defined in [classes/Notification.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#L42)
 
 
 
 
-### getLastElementsIdsByType
+### <a name="method-getLastElementsIdsByType"></a>getLastElementsIdsByType
 
     array NotificationCore::getLastElementsIdsByType(string $type, integer $id_last_element)
 
@@ -73,7 +88,7 @@ Get all the element ids
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Notification.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#67)
+* This method is defined in [classes/Notification.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#L67)
 
 
 #### Arguments
@@ -82,7 +97,7 @@ Get all the element ids
 
 
 
-### updateEmployeeLastElement
+### <a name="method-updateEmployeeLastElement"></a>updateEmployeeLastElement
 
     boolean NotificationCore::updateEmployeeLastElement(string $type)
 
@@ -91,7 +106,7 @@ updateEmployeeLastElement return 0 if the field doesn't exists in Employee table
 Updates the last seen element by the employee
 
 * Visibility: **public**
-* This method is defined in [classes/Notification.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#136)
+* This method is defined in [classes/Notification.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Notification.php#L136)
 
 
 #### Arguments

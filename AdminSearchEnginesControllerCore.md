@@ -17,8 +17,21 @@ AdminSearchEnginesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \SearchEngine $object
 
@@ -27,14 +40,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminSearchEnginesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchEnginesController.php#30)
+* This property is defined in [controllers/admin/AdminSearchEnginesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchEnginesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminSearchEnginesControllerCore::__construct()
 
@@ -43,12 +56,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchEnginesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchEnginesController.php#32)
+* This method is defined in [controllers/admin/AdminSearchEnginesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchEnginesController.php#L32)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminSearchEnginesControllerCore::initPageHeaderToolbar()
 
@@ -57,7 +70,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchEnginesController.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchEnginesController.php#90)
+* This method is defined in [controllers/admin/AdminSearchEnginesController.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchEnginesController.php#L90)
 
 
 

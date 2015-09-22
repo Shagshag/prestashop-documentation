@@ -17,8 +17,29 @@ AdminCmsControllerCore
 Properties
 ----------
 
+* [$category](#property-$category)
+* [$id_cms_category](#property-$id_cms_category)
+* [$position_identifier](#property-$position_identifier)
+* [$object](#property-$object)
 
-### $category
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderForm](#method-renderForm)
+* [renderList](#method-renderList)
+* [displayList](#method-displayList)
+* [postProcess](#method-postProcess)
+* [getPreviewUrl](#method-getPreviewUrl)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$category"></a>$category
 
     protected mixed $category
 
@@ -27,10 +48,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminCmsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#32)
+* This property is defined in [controllers/admin/AdminCmsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#L32)
 
 
-### $id_cms_category
+### <a name="property-$id_cms_category"></a>$id_cms_category
 
     public mixed $id_cms_category
 
@@ -39,10 +60,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminCmsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#34)
+* This property is defined in [controllers/admin/AdminCmsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#L34)
 
 
-### $position_identifier
+### <a name="property-$position_identifier"></a>$position_identifier
 
     protected mixed $position_identifier = 'id_cms'
 
@@ -51,10 +72,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminCmsController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#36)
+* This property is defined in [controllers/admin/AdminCmsController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#L36)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \CMS $object
 
@@ -63,14 +84,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminCmsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#30)
+* This property is defined in [controllers/admin/AdminCmsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminCmsControllerCore::__construct()
 
@@ -79,12 +100,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#38)
+* This method is defined in [controllers/admin/AdminCmsController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#L38)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminCmsControllerCore::initPageHeaderToolbar()
 
@@ -93,12 +114,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsController.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#83)
+* This method is defined in [controllers/admin/AdminCmsController.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#L83)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminCmsControllerCore::renderForm()
 
@@ -107,12 +128,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsController.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#98)
+* This method is defined in [controllers/admin/AdminCmsController.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#L98)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminCmsControllerCore::renderList()
 
@@ -121,12 +142,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsController.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#250)
+* This method is defined in [controllers/admin/AdminCmsController.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#L250)
 
 
 
 
-### displayList
+### <a name="method-displayList"></a>displayList
 
     mixed AdminCmsControllerCore::displayList($token)
 
@@ -135,7 +156,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsController.php line 265](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#265)
+* This method is defined in [controllers/admin/AdminCmsController.php line 265](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#L265)
 
 
 #### Arguments
@@ -143,7 +164,7 @@ Methods
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminCmsControllerCore::postProcess()
 
@@ -152,12 +173,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsController.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#280)
+* This method is defined in [controllers/admin/AdminCmsController.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#L280)
 
 
 
 
-### getPreviewUrl
+### <a name="method-getPreviewUrl"></a>getPreviewUrl
 
     mixed AdminCmsControllerCore::getPreviewUrl(\CMS $cms)
 
@@ -166,7 +187,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsController.php line 400](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#400)
+* This method is defined in [controllers/admin/AdminCmsController.php line 400](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsController.php#L400)
 
 
 #### Arguments

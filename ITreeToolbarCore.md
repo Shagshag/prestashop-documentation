@@ -7,7 +7,6 @@ ITreeToolbarCore
 
 
 * Interface name: ITreeToolbarCore
-* Namespace: 
 * This is an **interface**
 * This interface is defined in [classes/tree/ITreeToolbar.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L27)
 
@@ -18,9 +17,31 @@ ITreeToolbarCore
 
 Methods
 -------
+* [__toString](#method-__toString)
+* [setActions](#method-setActions)
+* [getActions](#method-getActions)
+* [setContext](#method-setContext)
+* [getContext](#method-getContext)
+* [setData](#method-setData)
+* [getData](#method-getData)
+* [setTemplate](#method-setTemplate)
+* [getTemplate](#method-getTemplate)
+* [setTemplateDirectory](#method-setTemplateDirectory)
+* [getTemplateDirectory](#method-getTemplateDirectory)
+* [addAction](#method-addAction)
+* [removeActions](#method-removeActions)
+* [render](#method-render)
 
 
-### __toString
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__toString"></a>__toString
 
     mixed ITreeToolbarCore::__toString()
 
@@ -29,12 +50,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#29)
+* This method is defined in [classes/tree/ITreeToolbar.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L29)
 
 
 
 
-### setActions
+### <a name="method-setActions"></a>setActions
 
     mixed ITreeToolbarCore::setActions($value)
 
@@ -43,7 +64,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#30)
+* This method is defined in [classes/tree/ITreeToolbar.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L30)
 
 
 #### Arguments
@@ -51,7 +72,7 @@ Methods
 
 
 
-### getActions
+### <a name="method-getActions"></a>getActions
 
     mixed ITreeToolbarCore::getActions()
 
@@ -60,12 +81,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#31)
+* This method is defined in [classes/tree/ITreeToolbar.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L31)
 
 
 
 
-### setContext
+### <a name="method-setContext"></a>setContext
 
     mixed ITreeToolbarCore::setContext($value)
 
@@ -74,7 +95,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#32)
+* This method is defined in [classes/tree/ITreeToolbar.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L32)
 
 
 #### Arguments
@@ -82,7 +103,7 @@ Methods
 
 
 
-### getContext
+### <a name="method-getContext"></a>getContext
 
     mixed ITreeToolbarCore::getContext()
 
@@ -91,12 +112,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#33)
+* This method is defined in [classes/tree/ITreeToolbar.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L33)
 
 
 
 
-### setData
+### <a name="method-setData"></a>setData
 
     mixed ITreeToolbarCore::setData($value)
 
@@ -105,7 +126,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#34)
+* This method is defined in [classes/tree/ITreeToolbar.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L34)
 
 
 #### Arguments
@@ -113,7 +134,7 @@ Methods
 
 
 
-### getData
+### <a name="method-getData"></a>getData
 
     mixed ITreeToolbarCore::getData()
 
@@ -122,12 +143,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#35)
+* This method is defined in [classes/tree/ITreeToolbar.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L35)
 
 
 
 
-### setTemplate
+### <a name="method-setTemplate"></a>setTemplate
 
     mixed ITreeToolbarCore::setTemplate($value)
 
@@ -136,7 +157,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#36)
+* This method is defined in [classes/tree/ITreeToolbar.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L36)
 
 
 #### Arguments
@@ -144,7 +165,7 @@ Methods
 
 
 
-### getTemplate
+### <a name="method-getTemplate"></a>getTemplate
 
     mixed ITreeToolbarCore::getTemplate()
 
@@ -153,12 +174,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#37)
+* This method is defined in [classes/tree/ITreeToolbar.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L37)
 
 
 
 
-### setTemplateDirectory
+### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
     mixed ITreeToolbarCore::setTemplateDirectory($value)
 
@@ -167,7 +188,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#38)
+* This method is defined in [classes/tree/ITreeToolbar.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L38)
 
 
 #### Arguments
@@ -175,7 +196,7 @@ Methods
 
 
 
-### getTemplateDirectory
+### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
     mixed ITreeToolbarCore::getTemplateDirectory()
 
@@ -184,12 +205,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#39)
+* This method is defined in [classes/tree/ITreeToolbar.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L39)
 
 
 
 
-### addAction
+### <a name="method-addAction"></a>addAction
 
     mixed ITreeToolbarCore::addAction($action)
 
@@ -198,7 +219,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#40)
+* This method is defined in [classes/tree/ITreeToolbar.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L40)
 
 
 #### Arguments
@@ -206,7 +227,7 @@ Methods
 
 
 
-### removeActions
+### <a name="method-removeActions"></a>removeActions
 
     mixed ITreeToolbarCore::removeActions()
 
@@ -215,12 +236,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#41)
+* This method is defined in [classes/tree/ITreeToolbar.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L41)
 
 
 
 
-### render
+### <a name="method-render"></a>render
 
     mixed ITreeToolbarCore::render()
 
@@ -229,7 +250,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/ITreeToolbar.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#42)
+* This method is defined in [classes/tree/ITreeToolbar.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L42)
 
 
 

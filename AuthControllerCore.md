@@ -17,8 +17,37 @@ AuthControllerCore
 Properties
 ----------
 
+* [$ssl](#property-$ssl)
+* [$php_self](#property-$php_self)
+* [$auth](#property-$auth)
+* [$create_account](#property-$create_account)
+* [$id_country](#property-$id_country)
 
-### $ssl
+Methods
+-------
+* [init](#method-init)
+* [setMedia](#method-setMedia)
+* [displayAjax](#method-displayAjax)
+* [initContent](#method-initContent)
+* [assignDate](#method-assignDate)
+* [assignCountries](#method-assignCountries)
+* [assignAddressFormat](#method-assignAddressFormat)
+* [postProcess](#method-postProcess)
+* [processSubmitLogin](#method-processSubmitLogin)
+* [processCustomerNewsletter](#method-processCustomerNewsletter)
+* [processSubmitAccount](#method-processSubmitAccount)
+* [processSubmitCreate](#method-processSubmitCreate)
+* [updateContext](#method-updateContext)
+* [sendConfirmationMail](#method-sendConfirmationMail)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$ssl"></a>$ssl
 
     public mixed $ssl = true
 
@@ -27,10 +56,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/AuthController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#29)
+* This property is defined in [controllers/front/AuthController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L29)
 
 
-### $php_self
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'authentication'
 
@@ -39,10 +68,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/AuthController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#30)
+* This property is defined in [controllers/front/AuthController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L30)
 
 
-### $auth
+### <a name="property-$auth"></a>$auth
 
     public mixed $auth = false
 
@@ -51,10 +80,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/AuthController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#31)
+* This property is defined in [controllers/front/AuthController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L31)
 
 
-### $create_account
+### <a name="property-$create_account"></a>$create_account
 
     protected boolean $create_account
 
@@ -63,10 +92,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/AuthController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#36)
+* This property is defined in [controllers/front/AuthController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L36)
 
 
-### $id_country
+### <a name="property-$id_country"></a>$id_country
 
     protected mixed $id_country
 
@@ -75,14 +104,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/AuthController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#37)
+* This property is defined in [controllers/front/AuthController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L37)
 
 
 Methods
 -------
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed AuthControllerCore::init()
 
@@ -91,12 +120,12 @@ Initialize auth controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/AuthController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#43)
+* This method is defined in [controllers/front/AuthController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L43)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AuthControllerCore::setMedia()
 
@@ -105,12 +134,12 @@ Set default medias for this controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/AuthController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#60)
+* This method is defined in [controllers/front/AuthController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L60)
 
 
 
 
-### displayAjax
+### <a name="method-displayAjax"></a>displayAjax
 
     mixed AuthControllerCore::displayAjax()
 
@@ -119,12 +148,12 @@ Run ajax process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/AuthController.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#79)
+* This method is defined in [controllers/front/AuthController.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L79)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AuthControllerCore::initContent()
 
@@ -133,12 +162,12 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/AuthController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#88)
+* This method is defined in [controllers/front/AuthController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L88)
 
 
 
 
-### assignDate
+### <a name="method-assignDate"></a>assignDate
 
     mixed AuthControllerCore::assignDate()
 
@@ -147,12 +176,12 @@ Assign date var to smarty
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/AuthController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#174)
+* This method is defined in [controllers/front/AuthController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L174)
 
 
 
 
-### assignCountries
+### <a name="method-assignCountries"></a>assignCountries
 
     mixed AuthControllerCore::assignCountries()
 
@@ -161,12 +190,12 @@ Assign countries var to smarty
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/AuthController.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#198)
+* This method is defined in [controllers/front/AuthController.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L198)
 
 
 
 
-### assignAddressFormat
+### <a name="method-assignAddressFormat"></a>assignAddressFormat
 
     mixed AuthControllerCore::assignAddressFormat()
 
@@ -175,12 +204,12 @@ Assign address var to smarty
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/AuthController.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#217)
+* This method is defined in [controllers/front/AuthController.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L217)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AuthControllerCore::postProcess()
 
@@ -189,12 +218,12 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/AuthController.php line 249](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#249)
+* This method is defined in [controllers/front/AuthController.php line 249](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L249)
 
 
 
 
-### processSubmitLogin
+### <a name="method-processSubmitLogin"></a>processSubmitLogin
 
     mixed AuthControllerCore::processSubmitLogin()
 
@@ -203,12 +232,12 @@ Process login
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/AuthController.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#267)
+* This method is defined in [controllers/front/AuthController.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L267)
 
 
 
 
-### processCustomerNewsletter
+### <a name="method-processCustomerNewsletter"></a>processCustomerNewsletter
 
     mixed AuthControllerCore::processCustomerNewsletter(\Customer $customer)
 
@@ -217,7 +246,7 @@ Process the newsletter settings and set the customer infos.
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/AuthController.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#360)
+* This method is defined in [controllers/front/AuthController.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L360)
 
 
 #### Arguments
@@ -225,7 +254,7 @@ Process the newsletter settings and set the customer infos.
 
 
 
-### processSubmitAccount
+### <a name="method-processSubmitAccount"></a>processSubmitAccount
 
     mixed AuthControllerCore::processSubmitAccount()
 
@@ -234,12 +263,12 @@ Process submit on an account
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/AuthController.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#378)
+* This method is defined in [controllers/front/AuthController.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L378)
 
 
 
 
-### processSubmitCreate
+### <a name="method-processSubmitCreate"></a>processSubmitCreate
 
     mixed AuthControllerCore::processSubmitCreate()
 
@@ -248,12 +277,12 @@ Process submit on a creation
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/AuthController.php line 699](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#699)
+* This method is defined in [controllers/front/AuthController.php line 699](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L699)
 
 
 
 
-### updateContext
+### <a name="method-updateContext"></a>updateContext
 
     mixed AuthControllerCore::updateContext(\Customer $customer)
 
@@ -262,7 +291,7 @@ Update context after customer creation
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/AuthController.php line 718](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#718)
+* This method is defined in [controllers/front/AuthController.php line 718](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L718)
 
 
 #### Arguments
@@ -270,7 +299,7 @@ Update context after customer creation
 
 
 
-### sendConfirmationMail
+### <a name="method-sendConfirmationMail"></a>sendConfirmationMail
 
     boolean AuthControllerCore::sendConfirmationMail(\Customer $customer)
 
@@ -279,7 +308,7 @@ sendConfirmationMail
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/AuthController.php line 743](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#743)
+* This method is defined in [controllers/front/AuthController.php line 743](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L743)
 
 
 #### Arguments

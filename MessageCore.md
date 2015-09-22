@@ -17,8 +17,31 @@ MessageCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$message](#property-$message)
+* [$id_cart](#property-$id_cart)
+* [$id_order](#property-$id_order)
+* [$id_customer](#property-$id_customer)
+* [$id_employee](#property-$id_employee)
+* [$private](#property-$private)
+* [$date_add](#property-$date_add)
+* [$definition](#property-$definition)
 
-### $id
+Methods
+-------
+* [getMessageByCartId](#method-getMessageByCartId)
+* [getMessagesByOrderId](#method-getMessagesByOrderId)
+* [getMessagesByCartId](#method-getMessagesByCartId)
+* [markAsReaded](#method-markAsReaded)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +50,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Message.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#29)
+* This property is defined in [classes/Message.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L29)
 
 
-### $message
+### <a name="property-$message"></a>$message
 
     public string $message
 
@@ -39,10 +62,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Message.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#32)
+* This property is defined in [classes/Message.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L32)
 
 
-### $id_cart
+### <a name="property-$id_cart"></a>$id_cart
 
     public integer $id_cart
 
@@ -51,10 +74,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Message.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#35)
+* This property is defined in [classes/Message.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L35)
 
 
-### $id_order
+### <a name="property-$id_order"></a>$id_order
 
     public integer $id_order
 
@@ -63,10 +86,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Message.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#38)
+* This property is defined in [classes/Message.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L38)
 
 
-### $id_customer
+### <a name="property-$id_customer"></a>$id_customer
 
     public integer $id_customer
 
@@ -75,10 +98,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Message.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#41)
+* This property is defined in [classes/Message.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L41)
 
 
-### $id_employee
+### <a name="property-$id_employee"></a>$id_employee
 
     public integer $id_employee
 
@@ -87,10 +110,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Message.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#44)
+* This property is defined in [classes/Message.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L44)
 
 
-### $private
+### <a name="property-$private"></a>$private
 
     public boolean $private
 
@@ -99,10 +122,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Message.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#47)
+* This property is defined in [classes/Message.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L47)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -111,10 +134,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Message.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#50)
+* This property is defined in [classes/Message.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L50)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'message', 'primary' => 'id_message', 'fields' => array('message' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 1600), 'id_cart' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'private' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
 
@@ -124,14 +147,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Message.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#55)
+* This property is defined in [classes/Message.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L55)
 
 
 Methods
 -------
 
 
-### getMessageByCartId
+### <a name="method-getMessageByCartId"></a>getMessageByCartId
 
     array MessageCore::getMessageByCartId(integer $id_cart)
 
@@ -141,7 +164,7 @@ Return the last message from cart
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Message.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#75)
+* This method is defined in [classes/Message.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L75)
 
 
 #### Arguments
@@ -149,7 +172,7 @@ Return the last message from cart
 
 
 
-### getMessagesByOrderId
+### <a name="method-getMessagesByOrderId"></a>getMessagesByOrderId
 
     array MessageCore::getMessagesByOrderId(integer $id_order, boolean $private, \Context $context)
 
@@ -159,7 +182,7 @@ Return messages from Order ID
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Message.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#91)
+* This method is defined in [classes/Message.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L91)
 
 
 #### Arguments
@@ -169,7 +192,7 @@ Return messages from Order ID
 
 
 
-### getMessagesByCartId
+### <a name="method-getMessagesByCartId"></a>getMessagesByCartId
 
     array MessageCore::getMessagesByCartId($id_cart, boolean $private, \Context $context)
 
@@ -179,7 +202,7 @@ Return messages from Cart ID
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Message.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#124)
+* This method is defined in [classes/Message.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L124)
 
 
 #### Arguments
@@ -189,7 +212,7 @@ Return messages from Cart ID
 
 
 
-### markAsReaded
+### <a name="method-markAsReaded"></a>markAsReaded
 
     mixed MessageCore::markAsReaded(integer $id_message, $id_employee)
 
@@ -199,7 +222,7 @@ Registered a message 'readed'
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Message.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#154)
+* This method is defined in [classes/Message.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#L154)
 
 
 #### Arguments

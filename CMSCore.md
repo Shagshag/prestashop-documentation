@@ -17,8 +17,41 @@ CMSCore
 Properties
 ----------
 
+* [$meta_title](#property-$meta_title)
+* [$meta_description](#property-$meta_description)
+* [$meta_keywords](#property-$meta_keywords)
+* [$content](#property-$content)
+* [$link_rewrite](#property-$link_rewrite)
+* [$id_cms_category](#property-$id_cms_category)
+* [$position](#property-$position)
+* [$indexation](#property-$indexation)
+* [$active](#property-$active)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $meta_title
+Methods
+-------
+* [add](#method-add)
+* [update](#method-update)
+* [delete](#method-delete)
+* [getLinks](#method-getLinks)
+* [listCms](#method-listCms)
+* [updatePosition](#method-updatePosition)
+* [cleanPositions](#method-cleanPositions)
+* [getLastPosition](#method-getLastPosition)
+* [getCMSPages](#method-getCMSPages)
+* [getUrlRewriteInformations](#method-getUrlRewriteInformations)
+* [getCMSContent](#method-getCMSContent)
+* [getRepositoryClassName](#method-getRepositoryClassName)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$meta_title"></a>$meta_title
 
     public string $meta_title
 
@@ -27,10 +60,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMS.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#30)
+* This property is defined in [classes/CMS.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L30)
 
 
-### $meta_description
+### <a name="property-$meta_description"></a>$meta_description
 
     public mixed $meta_description
 
@@ -39,10 +72,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMS.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#31)
+* This property is defined in [classes/CMS.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L31)
 
 
-### $meta_keywords
+### <a name="property-$meta_keywords"></a>$meta_keywords
 
     public mixed $meta_keywords
 
@@ -51,10 +84,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMS.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#32)
+* This property is defined in [classes/CMS.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L32)
 
 
-### $content
+### <a name="property-$content"></a>$content
 
     public mixed $content
 
@@ -63,10 +96,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMS.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#33)
+* This property is defined in [classes/CMS.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L33)
 
 
-### $link_rewrite
+### <a name="property-$link_rewrite"></a>$link_rewrite
 
     public mixed $link_rewrite
 
@@ -75,10 +108,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMS.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#34)
+* This property is defined in [classes/CMS.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L34)
 
 
-### $id_cms_category
+### <a name="property-$id_cms_category"></a>$id_cms_category
 
     public mixed $id_cms_category
 
@@ -87,10 +120,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMS.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#35)
+* This property is defined in [classes/CMS.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L35)
 
 
-### $position
+### <a name="property-$position"></a>$position
 
     public mixed $position
 
@@ -99,10 +132,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMS.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#36)
+* This property is defined in [classes/CMS.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L36)
 
 
-### $indexation
+### <a name="property-$indexation"></a>$indexation
 
     public mixed $indexation
 
@@ -111,10 +144,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMS.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#37)
+* This property is defined in [classes/CMS.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L37)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public mixed $active
 
@@ -123,10 +156,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#38)
+* This property is defined in [classes/CMS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L38)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'cms', 'primary' => 'id_cms', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('id_cms_category' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'position' => array('type' => self::TYPE_INT), 'indexation' => array('type' => self::TYPE_BOOL), 'active' => array('type' => self::TYPE_BOOL), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128), 'link_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'required' => true, 'size' => 128), 'content' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml', 'size' => 3999999999999.0)))
 
@@ -136,10 +169,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/CMS.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#43)
+* This property is defined in [classes/CMS.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L43)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectNodeName' => 'content', 'objectsNodeName' => 'content_management_system')
 
@@ -148,14 +181,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/CMS.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#63)
+* This property is defined in [classes/CMS.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L63)
 
 
 Methods
 -------
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed CMSCore::add($autodate, $null_values)
 
@@ -164,7 +197,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMS.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#68)
+* This method is defined in [classes/CMS.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L68)
 
 
 #### Arguments
@@ -173,7 +206,7 @@ Methods
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed CMSCore::update($null_values)
 
@@ -182,7 +215,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMS.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#74)
+* This method is defined in [classes/CMS.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L74)
 
 
 #### Arguments
@@ -190,7 +223,7 @@ Methods
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed CMSCore::delete()
 
@@ -199,12 +232,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMS.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#82)
+* This method is defined in [classes/CMS.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L82)
 
 
 
 
-### getLinks
+### <a name="method-getLinks"></a>getLinks
 
     mixed CMSCore::getLinks($id_lang, $selection, $active, \Link $link)
 
@@ -214,7 +247,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMS.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#90)
+* This method is defined in [classes/CMS.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L90)
 
 
 #### Arguments
@@ -225,7 +258,7 @@ Methods
 
 
 
-### listCms
+### <a name="method-listCms"></a>listCms
 
     mixed CMSCore::listCms($id_lang, $id_block, $active)
 
@@ -235,7 +268,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMS.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#116)
+* This method is defined in [classes/CMS.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L116)
 
 
 #### Arguments
@@ -245,7 +278,7 @@ Methods
 
 
 
-### updatePosition
+### <a name="method-updatePosition"></a>updatePosition
 
     mixed CMSCore::updatePosition($way, $position)
 
@@ -254,7 +287,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMS.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#133)
+* This method is defined in [classes/CMS.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L133)
 
 
 #### Arguments
@@ -263,7 +296,7 @@ Methods
 
 
 
-### cleanPositions
+### <a name="method-cleanPositions"></a>cleanPositions
 
     mixed CMSCore::cleanPositions($id_category)
 
@@ -273,7 +306,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMS.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#171)
+* This method is defined in [classes/CMS.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L171)
 
 
 #### Arguments
@@ -281,7 +314,7 @@ Methods
 
 
 
-### getLastPosition
+### <a name="method-getLastPosition"></a>getLastPosition
 
     mixed CMSCore::getLastPosition($id_category)
 
@@ -291,7 +324,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMS.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#191)
+* This method is defined in [classes/CMS.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L191)
 
 
 #### Arguments
@@ -299,7 +332,7 @@ Methods
 
 
 
-### getCMSPages
+### <a name="method-getCMSPages"></a>getCMSPages
 
     mixed CMSCore::getCMSPages($id_lang, $id_cms_category, $active, $id_shop)
 
@@ -309,7 +342,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMS.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#201)
+* This method is defined in [classes/CMS.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L201)
 
 
 #### Arguments
@@ -320,7 +353,7 @@ Methods
 
 
 
-### getUrlRewriteInformations
+### <a name="method-getUrlRewriteInformations"></a>getUrlRewriteInformations
 
     mixed CMSCore::getUrlRewriteInformations($id_cms)
 
@@ -330,7 +363,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMS.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#232)
+* This method is defined in [classes/CMS.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L232)
 
 
 #### Arguments
@@ -338,7 +371,7 @@ Methods
 
 
 
-### getCMSContent
+### <a name="method-getCMSContent"></a>getCMSContent
 
     mixed CMSCore::getCMSContent($id_cms, $id_lang, $id_shop)
 
@@ -348,7 +381,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMS.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#243)
+* This method is defined in [classes/CMS.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L243)
 
 
 #### Arguments
@@ -358,7 +391,7 @@ Methods
 
 
 
-### getRepositoryClassName
+### <a name="method-getRepositoryClassName"></a>getRepositoryClassName
 
     mixed CMSCore::getRepositoryClassName()
 
@@ -368,7 +401,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMS.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#261)
+* This method is defined in [classes/CMS.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L261)
 
 
 

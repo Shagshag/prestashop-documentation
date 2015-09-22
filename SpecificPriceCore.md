@@ -17,8 +17,58 @@ SpecificPriceCore
 Properties
 ----------
 
+* [$id_product](#property-$id_product)
+* [$id_specific_price_rule](#property-$id_specific_price_rule)
+* [$id_cart](#property-$id_cart)
+* [$id_product_attribute](#property-$id_product_attribute)
+* [$id_shop](#property-$id_shop)
+* [$id_shop_group](#property-$id_shop_group)
+* [$id_currency](#property-$id_currency)
+* [$id_country](#property-$id_country)
+* [$id_group](#property-$id_group)
+* [$id_customer](#property-$id_customer)
+* [$price](#property-$price)
+* [$from_quantity](#property-$from_quantity)
+* [$reduction](#property-$reduction)
+* [$reduction_tax](#property-$reduction_tax)
+* [$reduction_type](#property-$reduction_type)
+* [$from](#property-$from)
+* [$to](#property-$to)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
+* [$_specificPriceCache](#property-$_specificPriceCache)
+* [$_cache_priorities](#property-$_cache_priorities)
 
-### $id_product
+Methods
+-------
+* [add](#method-add)
+* [update](#method-update)
+* [delete](#method-delete)
+* [getByProductId](#method-getByProductId)
+* [deleteByIdCart](#method-deleteByIdCart)
+* [getIdsByProductId](#method-getIdsByProductId)
+* [_getScoreQuery](#method-_getScoreQuery)
+* [getPriority](#method-getPriority)
+* [getSpecificPrice](#method-getSpecificPrice)
+* [setPriorities](#method-setPriorities)
+* [deletePriorities](#method-deletePriorities)
+* [setSpecificPriority](#method-setSpecificPriority)
+* [getQuantityDiscounts](#method-getQuantityDiscounts)
+* [getQuantityDiscount](#method-getQuantityDiscount)
+* [getProductIdByDate](#method-getProductIdByDate)
+* [deleteByProductId](#method-deleteByProductId)
+* [duplicate](#method-duplicate)
+* [isFeatureActive](#method-isFeatureActive)
+* [exists](#method-exists)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_product"></a>$id_product
 
     public mixed $id_product
 
@@ -27,10 +77,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#29)
+* This property is defined in [classes/SpecificPrice.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L29)
 
 
-### $id_specific_price_rule
+### <a name="property-$id_specific_price_rule"></a>$id_specific_price_rule
 
     public mixed $id_specific_price_rule
 
@@ -39,10 +89,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#30)
+* This property is defined in [classes/SpecificPrice.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L30)
 
 
-### $id_cart
+### <a name="property-$id_cart"></a>$id_cart
 
     public mixed $id_cart
 
@@ -51,10 +101,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#31)
+* This property is defined in [classes/SpecificPrice.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L31)
 
 
-### $id_product_attribute
+### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
     public mixed $id_product_attribute
 
@@ -63,10 +113,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#32)
+* This property is defined in [classes/SpecificPrice.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L32)
 
 
-### $id_shop
+### <a name="property-$id_shop"></a>$id_shop
 
     public mixed $id_shop
 
@@ -75,10 +125,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#33)
+* This property is defined in [classes/SpecificPrice.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L33)
 
 
-### $id_shop_group
+### <a name="property-$id_shop_group"></a>$id_shop_group
 
     public mixed $id_shop_group
 
@@ -87,10 +137,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#34)
+* This property is defined in [classes/SpecificPrice.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L34)
 
 
-### $id_currency
+### <a name="property-$id_currency"></a>$id_currency
 
     public mixed $id_currency
 
@@ -99,10 +149,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#35)
+* This property is defined in [classes/SpecificPrice.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L35)
 
 
-### $id_country
+### <a name="property-$id_country"></a>$id_country
 
     public mixed $id_country
 
@@ -111,10 +161,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#36)
+* This property is defined in [classes/SpecificPrice.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L36)
 
 
-### $id_group
+### <a name="property-$id_group"></a>$id_group
 
     public mixed $id_group
 
@@ -123,10 +173,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#37)
+* This property is defined in [classes/SpecificPrice.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L37)
 
 
-### $id_customer
+### <a name="property-$id_customer"></a>$id_customer
 
     public mixed $id_customer
 
@@ -135,10 +185,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#38)
+* This property is defined in [classes/SpecificPrice.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L38)
 
 
-### $price
+### <a name="property-$price"></a>$price
 
     public mixed $price
 
@@ -147,10 +197,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#39)
+* This property is defined in [classes/SpecificPrice.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L39)
 
 
-### $from_quantity
+### <a name="property-$from_quantity"></a>$from_quantity
 
     public mixed $from_quantity
 
@@ -159,10 +209,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#40)
+* This property is defined in [classes/SpecificPrice.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L40)
 
 
-### $reduction
+### <a name="property-$reduction"></a>$reduction
 
     public mixed $reduction
 
@@ -171,10 +221,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#41)
+* This property is defined in [classes/SpecificPrice.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L41)
 
 
-### $reduction_tax
+### <a name="property-$reduction_tax"></a>$reduction_tax
 
     public mixed $reduction_tax = 1
 
@@ -183,10 +233,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#42)
+* This property is defined in [classes/SpecificPrice.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L42)
 
 
-### $reduction_type
+### <a name="property-$reduction_type"></a>$reduction_type
 
     public mixed $reduction_type
 
@@ -195,10 +245,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#43)
+* This property is defined in [classes/SpecificPrice.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L43)
 
 
-### $from
+### <a name="property-$from"></a>$from
 
     public mixed $from
 
@@ -207,10 +257,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#44)
+* This property is defined in [classes/SpecificPrice.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L44)
 
 
-### $to
+### <a name="property-$to"></a>$to
 
     public mixed $to
 
@@ -219,10 +269,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SpecificPrice.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#45)
+* This property is defined in [classes/SpecificPrice.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L45)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'specific_price', 'primary' => 'id_specific_price', 'fields' => array('id_shop_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_cart' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_specific_price_rule' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'price' => array('type' => self::TYPE_FLOAT, 'validate' => 'isNegativePrice', 'required' => true), 'from_quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'reduction' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'reduction_tax' => array('type' => self::TYPE_INT, 'validate' => 'isBool', 'required' => true), 'reduction_type' => array('type' => self::TYPE_STRING, 'validate' => 'isReductionType', 'required' => true), 'from' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat', 'required' => true), 'to' => array('type' => self::TYPE_DATE, 'validate' => 'isDateFormat', 'required' => true)))
 
@@ -232,10 +282,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/SpecificPrice.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#50)
+* This property is defined in [classes/SpecificPrice.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L50)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectsNodeName' => 'specific_prices', 'objectNodeName' => 'specific_price', 'fields' => array('id_shop_group' => array('xlink_resource' => 'shop_groups'), 'id_shop' => array('xlink_resource' => 'shops', 'required' => true), 'id_cart' => array('xlink_resource' => 'carts', 'required' => true), 'id_product' => array('xlink_resource' => 'products', 'required' => true), 'id_product_attribute' => array('xlink_resource' => 'product_attributes'), 'id_currency' => array('xlink_resource' => 'currencies', 'required' => true), 'id_country' => array('xlink_resource' => 'countries', 'required' => true), 'id_group' => array('xlink_resource' => 'groups', 'required' => true), 'id_customer' => array('xlink_resource' => 'customers', 'required' => true)))
 
@@ -244,10 +294,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/SpecificPrice.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#74)
+* This property is defined in [classes/SpecificPrice.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L74)
 
 
-### $_specificPriceCache
+### <a name="property-$_specificPriceCache"></a>$_specificPriceCache
 
     protected mixed $_specificPriceCache = array()
 
@@ -257,10 +307,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/SpecificPrice.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#91)
+* This property is defined in [classes/SpecificPrice.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L91)
 
 
-### $_cache_priorities
+### <a name="property-$_cache_priorities"></a>$_cache_priorities
 
     protected mixed $_cache_priorities = array()
 
@@ -270,14 +320,14 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/SpecificPrice.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#92)
+* This property is defined in [classes/SpecificPrice.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L92)
 
 
 Methods
 -------
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed SpecificPriceCore::add($autodate, $nullValues)
 
@@ -286,7 +336,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/SpecificPrice.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#94)
+* This method is defined in [classes/SpecificPrice.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L94)
 
 
 #### Arguments
@@ -295,7 +345,7 @@ Methods
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed SpecificPriceCore::update($null_values)
 
@@ -304,7 +354,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/SpecificPrice.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#107)
+* This method is defined in [classes/SpecificPrice.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L107)
 
 
 #### Arguments
@@ -312,7 +362,7 @@ Methods
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed SpecificPriceCore::delete()
 
@@ -321,12 +371,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/SpecificPrice.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#118)
+* This method is defined in [classes/SpecificPrice.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L118)
 
 
 
 
-### getByProductId
+### <a name="method-getByProductId"></a>getByProductId
 
     mixed SpecificPriceCore::getByProductId($id_product, $id_product_attribute, $id_cart)
 
@@ -336,7 +386,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#131)
+* This method is defined in [classes/SpecificPrice.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L131)
 
 
 #### Arguments
@@ -346,7 +396,7 @@ Methods
 
 
 
-### deleteByIdCart
+### <a name="method-deleteByIdCart"></a>deleteByIdCart
 
     mixed SpecificPriceCore::deleteByIdCart($id_cart, $id_product, $id_product_attribute)
 
@@ -356,7 +406,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#141)
+* This method is defined in [classes/SpecificPrice.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L141)
 
 
 #### Arguments
@@ -366,7 +416,7 @@ Methods
 
 
 
-### getIdsByProductId
+### <a name="method-getIdsByProductId"></a>getIdsByProductId
 
     mixed SpecificPriceCore::getIdsByProductId($id_product, $id_product_attribute, $id_cart)
 
@@ -376,7 +426,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#149)
+* This method is defined in [classes/SpecificPrice.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L149)
 
 
 #### Arguments
@@ -386,7 +436,7 @@ Methods
 
 
 
-### _getScoreQuery
+### <a name="method-_getScoreQuery"></a>_getScoreQuery
 
     mixed SpecificPriceCore::_getScoreQuery($id_product, $id_shop, $id_currency, $id_country, $id_group, $id_customer)
 
@@ -396,7 +446,7 @@ score generation for quantity discount
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#162)
+* This method is defined in [classes/SpecificPrice.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L162)
 
 
 #### Arguments
@@ -409,7 +459,7 @@ score generation for quantity discount
 
 
 
-### getPriority
+### <a name="method-getPriority"></a>getPriority
 
     mixed SpecificPriceCore::getPriority($id_product)
 
@@ -419,7 +469,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#176)
+* This method is defined in [classes/SpecificPrice.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L176)
 
 
 #### Arguments
@@ -427,7 +477,7 @@ score generation for quantity discount
 
 
 
-### getSpecificPrice
+### <a name="method-getSpecificPrice"></a>getSpecificPrice
 
     mixed SpecificPriceCore::getSpecificPrice($id_product, $id_shop, $id_currency, $id_country, $id_group, $quantity, $id_product_attribute, $id_customer, $id_cart, $real_quantity)
 
@@ -437,7 +487,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#201)
+* This method is defined in [classes/SpecificPrice.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L201)
 
 
 #### Arguments
@@ -454,7 +504,7 @@ score generation for quantity discount
 
 
 
-### setPriorities
+### <a name="method-setPriorities"></a>setPriorities
 
     mixed SpecificPriceCore::setPriorities($priorities)
 
@@ -464,7 +514,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#241)
+* This method is defined in [classes/SpecificPrice.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L241)
 
 
 #### Arguments
@@ -472,7 +522,7 @@ score generation for quantity discount
 
 
 
-### deletePriorities
+### <a name="method-deletePriorities"></a>deletePriorities
 
     mixed SpecificPriceCore::deletePriorities()
 
@@ -482,12 +532,12 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#255)
+* This method is defined in [classes/SpecificPrice.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L255)
 
 
 
 
-### setSpecificPriority
+### <a name="method-setSpecificPriority"></a>setSpecificPriority
 
     mixed SpecificPriceCore::setSpecificPriority($id_product, $priorities)
 
@@ -497,7 +547,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#262)
+* This method is defined in [classes/SpecificPrice.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L262)
 
 
 #### Arguments
@@ -506,7 +556,7 @@ score generation for quantity discount
 
 
 
-### getQuantityDiscounts
+### <a name="method-getQuantityDiscounts"></a>getQuantityDiscounts
 
     mixed SpecificPriceCore::getQuantityDiscounts($id_product, $id_shop, $id_currency, $id_country, $id_group, $id_product_attribute, $all_combinations, $id_customer)
 
@@ -516,7 +566,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 276](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#276)
+* This method is defined in [classes/SpecificPrice.php line 276](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L276)
 
 
 #### Arguments
@@ -531,7 +581,7 @@ score generation for quantity discount
 
 
 
-### getQuantityDiscount
+### <a name="method-getQuantityDiscount"></a>getQuantityDiscount
 
     mixed SpecificPriceCore::getQuantityDiscount($id_product, $id_shop, $id_currency, $id_country, $id_group, $quantity, $id_product_attribute, $id_customer)
 
@@ -541,7 +591,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#323)
+* This method is defined in [classes/SpecificPrice.php line 323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L323)
 
 
 #### Arguments
@@ -556,7 +606,7 @@ score generation for quantity discount
 
 
 
-### getProductIdByDate
+### <a name="method-getProductIdByDate"></a>getProductIdByDate
 
     mixed SpecificPriceCore::getProductIdByDate($id_shop, $id_currency, $id_country, $id_group, $beginning, $ending, $id_customer, $with_combination_id)
 
@@ -566,7 +616,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#353)
+* This method is defined in [classes/SpecificPrice.php line 353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L353)
 
 
 #### Arguments
@@ -581,7 +631,7 @@ score generation for quantity discount
 
 
 
-### deleteByProductId
+### <a name="method-deleteByProductId"></a>deleteByProductId
 
     mixed SpecificPriceCore::deleteByProductId($id_product)
 
@@ -591,7 +641,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#384)
+* This method is defined in [classes/SpecificPrice.php line 384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L384)
 
 
 #### Arguments
@@ -599,7 +649,7 @@ score generation for quantity discount
 
 
 
-### duplicate
+### <a name="method-duplicate"></a>duplicate
 
     mixed SpecificPriceCore::duplicate($id_product)
 
@@ -608,7 +658,7 @@ score generation for quantity discount
 
 
 * Visibility: **public**
-* This method is defined in [classes/SpecificPrice.php line 394](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#394)
+* This method is defined in [classes/SpecificPrice.php line 394](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L394)
 
 
 #### Arguments
@@ -616,7 +666,7 @@ score generation for quantity discount
 
 
 
-### isFeatureActive
+### <a name="method-isFeatureActive"></a>isFeatureActive
 
     boolean SpecificPriceCore::isFeatureActive()
 
@@ -626,12 +676,12 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 408](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#408)
+* This method is defined in [classes/SpecificPrice.php line 408](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L408)
 
 
 
 
-### exists
+### <a name="method-exists"></a>exists
 
     mixed SpecificPriceCore::exists($id_product, $id_product_attribute, $id_shop, $id_group, $id_country, $id_currency, $id_customer, $from_quantity, $from, $to, $rule)
 
@@ -641,7 +691,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/SpecificPrice.php line 418](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#418)
+* This method is defined in [classes/SpecificPrice.php line 418](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#L418)
 
 
 #### Arguments

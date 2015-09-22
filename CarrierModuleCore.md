@@ -19,9 +19,19 @@ CarrierModuleCore
 
 Methods
 -------
+* [getOrderShippingCost](#method-getOrderShippingCost)
+* [getOrderShippingCostExternal](#method-getOrderShippingCostExternal)
 
 
-### getOrderShippingCost
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-getOrderShippingCost"></a>getOrderShippingCost
 
     mixed CarrierModuleCore::getOrderShippingCost($params, $shipping_cost)
 
@@ -31,7 +41,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in [classes/module/CarrierModule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/CarrierModule.php#29)
+* This method is defined in [classes/module/CarrierModule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/CarrierModule.php#L29)
 
 
 #### Arguments
@@ -40,7 +50,7 @@ Methods
 
 
 
-### getOrderShippingCostExternal
+### <a name="method-getOrderShippingCostExternal"></a>getOrderShippingCostExternal
 
     mixed CarrierModuleCore::getOrderShippingCostExternal($params)
 
@@ -50,7 +60,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in [classes/module/CarrierModule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/CarrierModule.php#30)
+* This method is defined in [classes/module/CarrierModule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/CarrierModule.php#L30)
 
 
 #### Arguments

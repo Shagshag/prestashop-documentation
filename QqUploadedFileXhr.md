@@ -17,9 +17,22 @@ Handle file uploads via XMLHttpRequest
 
 Methods
 -------
+* [upload](#method-upload)
+* [save](#method-save)
+* [copyImage](#method-copyImage)
+* [getName](#method-getName)
+* [getSize](#method-getSize)
 
 
-### upload
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-upload"></a>upload
 
     boolean QqUploadedFileXhr::upload($path)
 
@@ -28,7 +41,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in [classes/FileUploader.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#184)
+* This method is defined in [classes/FileUploader.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L184)
 
 
 #### Arguments
@@ -36,7 +49,7 @@ Save the file to the specified path
 
 
 
-### save
+### <a name="method-save"></a>save
 
     mixed QqUploadedFileXhr::save()
 
@@ -45,12 +58,12 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in [classes/FileUploader.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#200)
+* This method is defined in [classes/FileUploader.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L200)
 
 
 
 
-### copyImage
+### <a name="method-copyImage"></a>copyImage
 
     mixed QqUploadedFileXhr::copyImage($id_product, $id_image, $method)
 
@@ -59,7 +72,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in [classes/FileUploader.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#236)
+* This method is defined in [classes/FileUploader.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L236)
 
 
 #### Arguments
@@ -69,7 +82,7 @@ Save the file to the specified path
 
 
 
-### getName
+### <a name="method-getName"></a>getName
 
     mixed QqUploadedFileXhr::getName()
 
@@ -78,12 +91,12 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in [classes/FileUploader.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#269)
+* This method is defined in [classes/FileUploader.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L269)
 
 
 
 
-### getSize
+### <a name="method-getSize"></a>getSize
 
     mixed QqUploadedFileXhr::getSize()
 
@@ -92,7 +105,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in [classes/FileUploader.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#274)
+* This method is defined in [classes/FileUploader.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L274)
 
 
 

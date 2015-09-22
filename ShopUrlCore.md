@@ -17,8 +17,39 @@ ShopUrlCore
 Properties
 ----------
 
+* [$id_shop](#property-$id_shop)
+* [$domain](#property-$domain)
+* [$domain_ssl](#property-$domain_ssl)
+* [$physical_uri](#property-$physical_uri)
+* [$virtual_uri](#property-$virtual_uri)
+* [$main](#property-$main)
+* [$active](#property-$active)
+* [$main_domain](#property-$main_domain)
+* [$main_domain_ssl](#property-$main_domain_ssl)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_shop
+Methods
+-------
+* [getFields](#method-getFields)
+* [getBaseURI](#method-getBaseURI)
+* [getURL](#method-getURL)
+* [getShopUrls](#method-getShopUrls)
+* [setMain](#method-setMain)
+* [canAddThisUrl](#method-canAddThisUrl)
+* [cacheMainDomainForShop](#method-cacheMainDomainForShop)
+* [resetMainDomainCache](#method-resetMainDomainCache)
+* [getMainShopDomain](#method-getMainShopDomain)
+* [getMainShopDomainSSL](#method-getMainShopDomainSSL)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_shop"></a>$id_shop
 
     public mixed $id_shop
 
@@ -27,10 +58,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopUrl.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#29)
+* This property is defined in [classes/shop/ShopUrl.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L29)
 
 
-### $domain
+### <a name="property-$domain"></a>$domain
 
     public mixed $domain
 
@@ -39,10 +70,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopUrl.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#30)
+* This property is defined in [classes/shop/ShopUrl.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L30)
 
 
-### $domain_ssl
+### <a name="property-$domain_ssl"></a>$domain_ssl
 
     public mixed $domain_ssl
 
@@ -51,10 +82,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopUrl.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#31)
+* This property is defined in [classes/shop/ShopUrl.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L31)
 
 
-### $physical_uri
+### <a name="property-$physical_uri"></a>$physical_uri
 
     public mixed $physical_uri
 
@@ -63,10 +94,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopUrl.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#32)
+* This property is defined in [classes/shop/ShopUrl.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L32)
 
 
-### $virtual_uri
+### <a name="property-$virtual_uri"></a>$virtual_uri
 
     public mixed $virtual_uri
 
@@ -75,10 +106,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopUrl.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#33)
+* This property is defined in [classes/shop/ShopUrl.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L33)
 
 
-### $main
+### <a name="property-$main"></a>$main
 
     public mixed $main
 
@@ -87,10 +118,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopUrl.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#34)
+* This property is defined in [classes/shop/ShopUrl.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L34)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public mixed $active
 
@@ -99,10 +130,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopUrl.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#35)
+* This property is defined in [classes/shop/ShopUrl.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L35)
 
 
-### $main_domain
+### <a name="property-$main_domain"></a>$main_domain
 
     protected mixed $main_domain = array()
 
@@ -112,10 +143,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/shop/ShopUrl.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#37)
+* This property is defined in [classes/shop/ShopUrl.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L37)
 
 
-### $main_domain_ssl
+### <a name="property-$main_domain_ssl"></a>$main_domain_ssl
 
     protected mixed $main_domain_ssl = array()
 
@@ -125,10 +156,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/shop/ShopUrl.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#38)
+* This property is defined in [classes/shop/ShopUrl.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L38)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'shop_url', 'primary' => 'id_shop_url', 'fields' => array('active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'main' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'domain' => array('type' => self::TYPE_STRING, 'required' => true, 'size' => 255, 'validate' => 'isCleanHtml'), 'domain_ssl' => array('type' => self::TYPE_STRING, 'size' => 255, 'validate' => 'isCleanHtml'), 'id_shop' => array('type' => self::TYPE_INT, 'required' => true), 'physical_uri' => array('type' => self::TYPE_STRING, 'size' => 64), 'virtual_uri' => array('type' => self::TYPE_STRING, 'size' => 64)))
 
@@ -138,10 +169,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/shop/ShopUrl.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#43)
+* This property is defined in [classes/shop/ShopUrl.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L43)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_shop' => array('xlink_resource' => 'shops')))
 
@@ -150,14 +181,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/shop/ShopUrl.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#57)
+* This property is defined in [classes/shop/ShopUrl.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L57)
 
 
 Methods
 -------
 
 
-### getFields
+### <a name="method-getFields"></a>getFields
 
     array ShopUrlCore::getFields()
 
@@ -166,12 +197,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/shop/ShopUrl.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#67)
+* This method is defined in [classes/shop/ShopUrl.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L67)
 
 
 
 
-### getBaseURI
+### <a name="method-getBaseURI"></a>getBaseURI
 
     mixed ShopUrlCore::getBaseURI()
 
@@ -180,12 +211,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/shop/ShopUrl.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#87)
+* This method is defined in [classes/shop/ShopUrl.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L87)
 
 
 
 
-### getURL
+### <a name="method-getURL"></a>getURL
 
     mixed ShopUrlCore::getURL($ssl)
 
@@ -194,7 +225,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/shop/ShopUrl.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#92)
+* This method is defined in [classes/shop/ShopUrl.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L92)
 
 
 #### Arguments
@@ -202,7 +233,7 @@ Methods
 
 
 
-### getShopUrls
+### <a name="method-getShopUrls"></a>getShopUrls
 
     \PrestaShopCollection ShopUrlCore::getShopUrls(boolean $id_shop)
 
@@ -212,7 +243,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/shop/ShopUrl.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#108)
+* This method is defined in [classes/shop/ShopUrl.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L108)
 
 
 #### Arguments
@@ -220,7 +251,7 @@ Get list of shop urls
 
 
 
-### setMain
+### <a name="method-setMain"></a>setMain
 
     mixed ShopUrlCore::setMain()
 
@@ -229,12 +260,12 @@ Get list of shop urls
 
 
 * Visibility: **public**
-* This method is defined in [classes/shop/ShopUrl.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#117)
+* This method is defined in [classes/shop/ShopUrl.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L117)
 
 
 
 
-### canAddThisUrl
+### <a name="method-canAddThisUrl"></a>canAddThisUrl
 
     mixed ShopUrlCore::canAddThisUrl($domain, $domain_ssl, $physical_uri, $virtual_uri)
 
@@ -243,7 +274,7 @@ Get list of shop urls
 
 
 * Visibility: **public**
-* This method is defined in [classes/shop/ShopUrl.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#138)
+* This method is defined in [classes/shop/ShopUrl.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L138)
 
 
 #### Arguments
@@ -254,7 +285,7 @@ Get list of shop urls
 
 
 
-### cacheMainDomainForShop
+### <a name="method-cacheMainDomainForShop"></a>cacheMainDomainForShop
 
     mixed ShopUrlCore::cacheMainDomainForShop($id_shop)
 
@@ -264,7 +295,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/shop/ShopUrl.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#162)
+* This method is defined in [classes/shop/ShopUrl.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L162)
 
 
 #### Arguments
@@ -272,7 +303,7 @@ Get list of shop urls
 
 
 
-### resetMainDomainCache
+### <a name="method-resetMainDomainCache"></a>resetMainDomainCache
 
     mixed ShopUrlCore::resetMainDomainCache()
 
@@ -282,12 +313,12 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/shop/ShopUrl.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#175)
+* This method is defined in [classes/shop/ShopUrl.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L175)
 
 
 
 
-### getMainShopDomain
+### <a name="method-getMainShopDomain"></a>getMainShopDomain
 
     mixed ShopUrlCore::getMainShopDomain($id_shop)
 
@@ -297,7 +328,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/shop/ShopUrl.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#181)
+* This method is defined in [classes/shop/ShopUrl.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L181)
 
 
 #### Arguments
@@ -305,7 +336,7 @@ Get list of shop urls
 
 
 
-### getMainShopDomainSSL
+### <a name="method-getMainShopDomainSSL"></a>getMainShopDomainSSL
 
     mixed ShopUrlCore::getMainShopDomainSSL($id_shop)
 
@@ -315,7 +346,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/shop/ShopUrl.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#187)
+* This method is defined in [classes/shop/ShopUrl.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#L187)
 
 
 #### Arguments

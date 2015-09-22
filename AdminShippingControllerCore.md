@@ -17,8 +17,21 @@ AdminShippingControllerCore
 Properties
 ----------
 
+* [$_fieldsHandling](#property-$_fieldsHandling)
 
-### $_fieldsHandling
+Methods
+-------
+* [__construct](#method-__construct)
+* [postProcess](#method-postProcess)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$_fieldsHandling"></a>$_fieldsHandling
 
     protected mixed $_fieldsHandling
 
@@ -27,14 +40,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminShippingController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShippingController.php#29)
+* This property is defined in [controllers/admin/AdminShippingController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShippingController.php#L29)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminShippingControllerCore::__construct()
 
@@ -43,12 +56,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShippingController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShippingController.php#31)
+* This method is defined in [controllers/admin/AdminShippingController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShippingController.php#L31)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminShippingControllerCore::postProcess()
 
@@ -57,7 +70,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShippingController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShippingController.php#123)
+* This method is defined in [controllers/admin/AdminShippingController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShippingController.php#L123)
 
 
 

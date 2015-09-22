@@ -18,8 +18,45 @@ It is either synchronized with Stock or manualy set by the seller
 Properties
 ----------
 
+* [$id_product](#property-$id_product)
+* [$id_product_attribute](#property-$id_product_attribute)
+* [$id_shop](#property-$id_shop)
+* [$id_shop_group](#property-$id_shop_group)
+* [$quantity](#property-$quantity)
+* [$depends_on_stock](#property-$depends_on_stock)
+* [$out_of_stock](#property-$out_of_stock)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_product
+Methods
+-------
+* [updateWs](#method-updateWs)
+* [getStockAvailableIdByProductId](#method-getStockAvailableIdByProductId)
+* [synchronize](#method-synchronize)
+* [setProductDependsOnStock](#method-setProductDependsOnStock)
+* [setProductOutOfStock](#method-setProductOutOfStock)
+* [getQuantityAvailableByProduct](#method-getQuantityAvailableByProduct)
+* [add](#method-add)
+* [update](#method-update)
+* [postSave](#method-postSave)
+* [updateQuantity](#method-updateQuantity)
+* [setQuantity](#method-setQuantity)
+* [removeProductFromStockAvailable](#method-removeProductFromStockAvailable)
+* [resetProductFromStockAvailableByShopGroup](#method-resetProductFromStockAvailableByShopGroup)
+* [dependsOnStock](#method-dependsOnStock)
+* [outOfStock](#method-outOfStock)
+* [addSqlShopRestriction](#method-addSqlShopRestriction)
+* [addSqlShopParams](#method-addSqlShopParams)
+* [copyStockAvailableFromShopToShop](#method-copyStockAvailableFromShopToShop)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_product"></a>$id_product
 
     public integer $id_product
 
@@ -28,10 +65,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockAvailable.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#36)
+* This property is defined in [classes/stock/StockAvailable.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L36)
 
 
-### $id_product_attribute
+### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
     public integer $id_product_attribute
 
@@ -40,10 +77,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockAvailable.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#39)
+* This property is defined in [classes/stock/StockAvailable.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L39)
 
 
-### $id_shop
+### <a name="property-$id_shop"></a>$id_shop
 
     public integer $id_shop
 
@@ -52,10 +89,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockAvailable.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#42)
+* This property is defined in [classes/stock/StockAvailable.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L42)
 
 
-### $id_shop_group
+### <a name="property-$id_shop_group"></a>$id_shop_group
 
     public integer $id_shop_group
 
@@ -64,10 +101,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockAvailable.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#45)
+* This property is defined in [classes/stock/StockAvailable.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L45)
 
 
-### $quantity
+### <a name="property-$quantity"></a>$quantity
 
     public integer $quantity
 
@@ -76,10 +113,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockAvailable.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#48)
+* This property is defined in [classes/stock/StockAvailable.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L48)
 
 
-### $depends_on_stock
+### <a name="property-$depends_on_stock"></a>$depends_on_stock
 
     public boolean $depends_on_stock = false
 
@@ -88,10 +125,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockAvailable.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#51)
+* This property is defined in [classes/stock/StockAvailable.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L51)
 
 
-### $out_of_stock
+### <a name="property-$out_of_stock"></a>$out_of_stock
 
     public boolean $out_of_stock = false
 
@@ -100,10 +137,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockAvailable.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#54)
+* This property is defined in [classes/stock/StockAvailable.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L54)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'stock_available', 'primary' => 'id_stock_available', 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_shop' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_shop_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'depends_on_stock' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'out_of_stock' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true)))
 
@@ -113,10 +150,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/stock/StockAvailable.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#59)
+* This property is defined in [classes/stock/StockAvailable.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L59)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_product' => array('xlink_resource' => 'products'), 'id_product_attribute' => array('xlink_resource' => 'combinations'), 'id_shop' => array('xlink_resource' => 'shops'), 'id_shop_group' => array('xlink_resource' => 'shop_groups')), 'hidden_fields' => array(), 'objectMethods' => array('add' => 'addWs', 'update' => 'updateWs'))
 
@@ -125,14 +162,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockAvailable.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#76)
+* This property is defined in [classes/stock/StockAvailable.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L76)
 
 
 Methods
 -------
 
 
-### updateWs
+### <a name="method-updateWs"></a>updateWs
 
     integer StockAvailableCore::updateWs()
 
@@ -141,12 +178,12 @@ For a given {id_product, id_product_attribute and id_shop}, gets the stock avail
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/StockAvailable.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#100)
+* This method is defined in [classes/stock/StockAvailable.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L100)
 
 
 
 
-### getStockAvailableIdByProductId
+### <a name="method-getStockAvailableIdByProductId"></a>getStockAvailableIdByProductId
 
     mixed StockAvailableCore::getStockAvailableIdByProductId($id_product, $id_product_attribute, $id_shop)
 
@@ -156,7 +193,7 @@ For a given {id_product, id_product_attribute and id_shop}, gets the stock avail
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#108)
+* This method is defined in [classes/stock/StockAvailable.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L108)
 
 
 #### Arguments
@@ -166,7 +203,7 @@ For a given {id_product, id_product_attribute and id_shop}, gets the stock avail
 
 
 
-### synchronize
+### <a name="method-synchronize"></a>synchronize
 
     mixed StockAvailableCore::synchronize(integer $id_product, $order_id_shop)
 
@@ -176,7 +213,7 @@ For a given id_product, synchronizes StockAvailable::quantity with Stock::usable
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#132)
+* This method is defined in [classes/stock/StockAvailable.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L132)
 
 
 #### Arguments
@@ -185,7 +222,7 @@ For a given id_product, synchronizes StockAvailable::quantity with Stock::usable
 
 
 
-### setProductDependsOnStock
+### <a name="method-setProductDependsOnStock"></a>setProductDependsOnStock
 
     mixed StockAvailableCore::setProductDependsOnStock(integer $id_product, integer $depends_on_stock, integer $id_shop, $id_product_attribute)
 
@@ -195,7 +232,7 @@ For a given id_product, sets if stock available depends on stock
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#286)
+* This method is defined in [classes/stock/StockAvailable.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L286)
 
 
 #### Arguments
@@ -206,7 +243,7 @@ For a given id_product, sets if stock available depends on stock
 
 
 
-### setProductOutOfStock
+### <a name="method-setProductOutOfStock"></a>setProductOutOfStock
 
     mixed StockAvailableCore::setProductOutOfStock(integer $id_product, integer $out_of_stock, integer $id_shop, $id_product_attribute)
 
@@ -216,7 +253,7 @@ For a given id_product, sets if product is available out of stocks
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 322](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#322)
+* This method is defined in [classes/stock/StockAvailable.php line 322](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L322)
 
 
 #### Arguments
@@ -227,7 +264,7 @@ For a given id_product, sets if product is available out of stocks
 
 
 
-### getQuantityAvailableByProduct
+### <a name="method-getQuantityAvailableByProduct"></a>getQuantityAvailableByProduct
 
     integer StockAvailableCore::getQuantityAvailableByProduct(integer $id_product, integer $id_product_attribute, integer $id_shop)
 
@@ -237,7 +274,7 @@ For a given id_product and id_product_attribute, gets its stock available
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 358](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#358)
+* This method is defined in [classes/stock/StockAvailable.php line 358](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L358)
 
 
 #### Arguments
@@ -247,7 +284,7 @@ For a given id_product and id_product_attribute, gets its stock available
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed StockAvailableCore::add($autodate, $null_values)
 
@@ -256,7 +293,7 @@ Upgrades total_quantity_available after having saved
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/StockAvailable.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#390)
+* This method is defined in [classes/stock/StockAvailable.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L390)
 
 
 #### Arguments
@@ -265,7 +302,7 @@ Upgrades total_quantity_available after having saved
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed StockAvailableCore::update($null_values)
 
@@ -274,7 +311,7 @@ Upgrades total_quantity_available after having update
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/StockAvailable.php line 404](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#404)
+* This method is defined in [classes/stock/StockAvailable.php line 404](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L404)
 
 
 #### Arguments
@@ -282,7 +319,7 @@ Upgrades total_quantity_available after having update
 
 
 
-### postSave
+### <a name="method-postSave"></a>postSave
 
     mixed StockAvailableCore::postSave()
 
@@ -291,12 +328,12 @@ Upgrades total_quantity_available after having saved
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/StockAvailable.php line 419](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#419)
+* This method is defined in [classes/stock/StockAvailable.php line 419](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L419)
 
 
 
 
-### updateQuantity
+### <a name="method-updateQuantity"></a>updateQuantity
 
     mixed StockAvailableCore::updateQuantity(integer $id_product, integer $id_product_attribute, integer $delta_quantity, integer $id_shop)
 
@@ -307,7 +344,7 @@ If $avoid_parent_pack_update is true, then packs containing the given product wo
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#461)
+* This method is defined in [classes/stock/StockAvailable.php line 461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L461)
 
 
 #### Arguments
@@ -318,7 +355,7 @@ If $avoid_parent_pack_update is true, then packs containing the given product wo
 
 
 
-### setQuantity
+### <a name="method-setQuantity"></a>setQuantity
 
     mixed StockAvailableCore::setQuantity(integer $id_product, integer $id_product_attribute, $quantity, integer $id_shop)
 
@@ -328,7 +365,7 @@ For a given id_product and id_product_attribute sets the quantity available
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 484](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#484)
+* This method is defined in [classes/stock/StockAvailable.php line 484](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L484)
 
 
 #### Arguments
@@ -339,7 +376,7 @@ For a given id_product and id_product_attribute sets the quantity available
 
 
 
-### removeProductFromStockAvailable
+### <a name="method-removeProductFromStockAvailable"></a>removeProductFromStockAvailable
 
     boolean StockAvailableCore::removeProductFromStockAvailable(integer $id_product, integer|null $id_product_attribute, \Shop|null $shop)
 
@@ -349,7 +386,7 @@ Removes a given product from the stock available
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 552](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#552)
+* This method is defined in [classes/stock/StockAvailable.php line 552](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L552)
 
 
 #### Arguments
@@ -359,7 +396,7 @@ Removes a given product from the stock available
 
 
 
-### resetProductFromStockAvailableByShopGroup
+### <a name="method-resetProductFromStockAvailableByShopGroup"></a>resetProductFromStockAvailableByShopGroup
 
     mixed StockAvailableCore::resetProductFromStockAvailableByShopGroup(\ShopGroup $shop_group)
 
@@ -371,7 +408,7 @@ Else remove all available quantities for the current group
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 611](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#611)
+* This method is defined in [classes/stock/StockAvailable.php line 611](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L611)
 
 
 #### Arguments
@@ -379,7 +416,7 @@ Else remove all available quantities for the current group
 
 
 
-### dependsOnStock
+### <a name="method-dependsOnStock"></a>dependsOnStock
 
     boolean StockAvailableCore::dependsOnStock(integer $id_product, integer $id_shop)
 
@@ -389,7 +426,7 @@ For a given product, tells if it depends on the physical (usable) stock
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 632](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#632)
+* This method is defined in [classes/stock/StockAvailable.php line 632](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L632)
 
 
 #### Arguments
@@ -398,7 +435,7 @@ For a given product, tells if it depends on the physical (usable) stock
 
 
 
-### outOfStock
+### <a name="method-outOfStock"></a>outOfStock
 
     boolean StockAvailableCore::outOfStock(integer $id_product, integer $id_shop)
 
@@ -408,7 +445,7 @@ For a given product, get its "out of stock" flag
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 656](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#656)
+* This method is defined in [classes/stock/StockAvailable.php line 656](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L656)
 
 
 #### Arguments
@@ -417,7 +454,7 @@ For a given product, get its "out of stock" flag
 
 
 
-### addSqlShopRestriction
+### <a name="method-addSqlShopRestriction"></a>addSqlShopRestriction
 
     string|\DbQuery StockAvailableCore::addSqlShopRestriction(\DbQuery|string|null $sql, \Shop|integer|null $shop, string|null $alias)
 
@@ -427,7 +464,7 @@ Add an sql restriction for shops fields - specific to StockAvailable
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 682](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#682)
+* This method is defined in [classes/stock/StockAvailable.php line 682](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L682)
 
 
 #### Arguments
@@ -437,7 +474,7 @@ Add an sql restriction for shops fields - specific to StockAvailable
 
 
 
-### addSqlShopParams
+### <a name="method-addSqlShopParams"></a>addSqlShopParams
 
     mixed StockAvailableCore::addSqlShopParams(array $params, integer $id_shop)
 
@@ -447,7 +484,7 @@ Add sql params for shops fields - specific to StockAvailable
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 736](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#736)
+* This method is defined in [classes/stock/StockAvailable.php line 736](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L736)
 
 
 #### Arguments
@@ -456,7 +493,7 @@ Add sql params for shops fields - specific to StockAvailable
 
 
 
-### copyStockAvailableFromShopToShop
+### <a name="method-copyStockAvailableFromShopToShop"></a>copyStockAvailableFromShopToShop
 
     boolean StockAvailableCore::copyStockAvailableFromShopToShop(integer $src_shop_id, integer $dst_shop_id)
 
@@ -466,7 +503,7 @@ Copies stock available content table
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockAvailable.php line 778](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#778)
+* This method is defined in [classes/stock/StockAvailable.php line 778](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L778)
 
 
 #### Arguments

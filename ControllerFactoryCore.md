@@ -18,9 +18,19 @@ Controllers don&#039;t need to be loaded with includeController anymore since th
 
 Methods
 -------
+* [includeController](#method-includeController)
+* [getController](#method-getController)
 
 
-### includeController
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-includeController"></a>includeController
 
     mixed ControllerFactoryCore::includeController($className)
 
@@ -31,7 +41,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/ControllerFactory.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ControllerFactory.php#37)
+* This method is defined in [classes/ControllerFactory.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ControllerFactory.php#L37)
 
 
 #### Arguments
@@ -39,7 +49,7 @@ Methods
 
 
 
-### getController
+### <a name="method-getController"></a>getController
 
     mixed ControllerFactoryCore::getController($className, $auth, $ssl)
 
@@ -50,7 +60,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/ControllerFactory.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ControllerFactory.php#59)
+* This method is defined in [classes/ControllerFactory.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ControllerFactory.php#L59)
 
 
 #### Arguments

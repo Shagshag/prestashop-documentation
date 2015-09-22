@@ -14,57 +14,130 @@ TreeCore
 Constants
 ----------
 
+* [DEFAULT_TEMPLATE_DIRECTORY](#constant-DEFAULT_TEMPLATE_DIRECTORY)
+* [DEFAULT_TEMPLATE](#constant-DEFAULT_TEMPLATE)
+* [DEFAULT_HEADER_TEMPLATE](#constant-DEFAULT_HEADER_TEMPLATE)
+* [DEFAULT_NODE_FOLDER_TEMPLATE](#constant-DEFAULT_NODE_FOLDER_TEMPLATE)
+* [DEFAULT_NODE_ITEM_TEMPLATE](#constant-DEFAULT_NODE_ITEM_TEMPLATE)
 
-### DEFAULT_TEMPLATE_DIRECTORY
+Properties
+----------
+
+* [$_attributes](#property-$_attributes)
+* [$_context](#property-$_context)
+* [$_data](#property-$_data)
+* [$_data_search](#property-$_data_search)
+* [$_headerTemplate](#property-$_headerTemplate)
+* [$_id_tree](#property-$_id_tree)
+* [$_id](#property-$_id)
+* [$_node_folder_template](#property-$_node_folder_template)
+* [$_node_item_template](#property-$_node_item_template)
+* [$_template](#property-$_template)
+* [$_template_directory](#property-$_template_directory)
+* [$_title](#property-$_title)
+* [$_no_js](#property-$_no_js)
+* [$_toolbar](#property-$_toolbar)
+
+Methods
+-------
+* [__construct](#method-__construct)
+* [__toString](#method-__toString)
+* [setActions](#method-setActions)
+* [getActions](#method-getActions)
+* [setAttribute](#method-setAttribute)
+* [getAttribute](#method-getAttribute)
+* [setAttributes](#method-setAttributes)
+* [setIdTree](#method-setIdTree)
+* [getIdTree](#method-getIdTree)
+* [getAttributes](#method-getAttributes)
+* [setContext](#method-setContext)
+* [getContext](#method-getContext)
+* [setDataSearch](#method-setDataSearch)
+* [getDataSearch](#method-getDataSearch)
+* [setData](#method-setData)
+* [getData](#method-getData)
+* [setHeaderTemplate](#method-setHeaderTemplate)
+* [getHeaderTemplate](#method-getHeaderTemplate)
+* [setId](#method-setId)
+* [getId](#method-getId)
+* [setNodeFolderTemplate](#method-setNodeFolderTemplate)
+* [getNodeFolderTemplate](#method-getNodeFolderTemplate)
+* [setNodeItemTemplate](#method-setNodeItemTemplate)
+* [getNodeItemTemplate](#method-getNodeItemTemplate)
+* [setTemplate](#method-setTemplate)
+* [getTemplate](#method-getTemplate)
+* [setTemplateDirectory](#method-setTemplateDirectory)
+* [getTemplateDirectory](#method-getTemplateDirectory)
+* [getTemplateFile](#method-getTemplateFile)
+* [setNoJS](#method-setNoJS)
+* [setTitle](#method-setTitle)
+* [getTitle](#method-getTitle)
+* [setToolbar](#method-setToolbar)
+* [getToolbar](#method-getToolbar)
+* [addAction](#method-addAction)
+* [removeActions](#method-removeActions)
+* [render](#method-render)
+* [renderNodes](#method-renderNodes)
+* [renderToolbar](#method-renderToolbar)
+* [useInput](#method-useInput)
+* [useToolbar](#method-useToolbar)
+* [_normalizeDirectory](#method-_normalizeDirectory)
+
+
+Constants
+----------
+
+
+### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
 
     const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
 
 
 
-* This constant is defined in [classes/tree/Tree.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#29)
+* This constant is defined in [classes/tree/Tree.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L29)
 
 
-### DEFAULT_TEMPLATE
+### <a name="constant-DEFAULT_TEMPLATE"></a>DEFAULT_TEMPLATE
 
     const DEFAULT_TEMPLATE = 'tree.tpl'
 
 
 
-* This constant is defined in [classes/tree/Tree.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#30)
+* This constant is defined in [classes/tree/Tree.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L30)
 
 
-### DEFAULT_HEADER_TEMPLATE
+### <a name="constant-DEFAULT_HEADER_TEMPLATE"></a>DEFAULT_HEADER_TEMPLATE
 
     const DEFAULT_HEADER_TEMPLATE = 'tree_header.tpl'
 
 
 
-* This constant is defined in [classes/tree/Tree.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#31)
+* This constant is defined in [classes/tree/Tree.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L31)
 
 
-### DEFAULT_NODE_FOLDER_TEMPLATE
+### <a name="constant-DEFAULT_NODE_FOLDER_TEMPLATE"></a>DEFAULT_NODE_FOLDER_TEMPLATE
 
     const DEFAULT_NODE_FOLDER_TEMPLATE = 'tree_node_folder.tpl'
 
 
 
-* This constant is defined in [classes/tree/Tree.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#32)
+* This constant is defined in [classes/tree/Tree.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L32)
 
 
-### DEFAULT_NODE_ITEM_TEMPLATE
+### <a name="constant-DEFAULT_NODE_ITEM_TEMPLATE"></a>DEFAULT_NODE_ITEM_TEMPLATE
 
     const DEFAULT_NODE_ITEM_TEMPLATE = 'tree_node_item.tpl'
 
 
 
-* This constant is defined in [classes/tree/Tree.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#33)
+* This constant is defined in [classes/tree/Tree.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L33)
 
 
 Properties
 ----------
 
 
-### $_attributes
+### <a name="property-$_attributes"></a>$_attributes
 
     protected mixed $_attributes
 
@@ -73,10 +146,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/tree/Tree.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#35)
+* This property is defined in [classes/tree/Tree.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L35)
 
 
-### $_context
+### <a name="property-$_context"></a>$_context
 
     private mixed $_context
 
@@ -85,10 +158,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tree/Tree.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#36)
+* This property is defined in [classes/tree/Tree.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L36)
 
 
-### $_data
+### <a name="property-$_data"></a>$_data
 
     protected mixed $_data
 
@@ -97,10 +170,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/tree/Tree.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#37)
+* This property is defined in [classes/tree/Tree.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L37)
 
 
-### $_data_search
+### <a name="property-$_data_search"></a>$_data_search
 
     protected mixed $_data_search
 
@@ -109,10 +182,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/tree/Tree.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#38)
+* This property is defined in [classes/tree/Tree.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L38)
 
 
-### $_headerTemplate
+### <a name="property-$_headerTemplate"></a>$_headerTemplate
 
     protected mixed $_headerTemplate
 
@@ -121,10 +194,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/tree/Tree.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#39)
+* This property is defined in [classes/tree/Tree.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L39)
 
 
-### $_id_tree
+### <a name="property-$_id_tree"></a>$_id_tree
 
     protected mixed $_id_tree
 
@@ -133,10 +206,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/tree/Tree.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#40)
+* This property is defined in [classes/tree/Tree.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L40)
 
 
-### $_id
+### <a name="property-$_id"></a>$_id
 
     private mixed $_id
 
@@ -145,10 +218,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tree/Tree.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#41)
+* This property is defined in [classes/tree/Tree.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L41)
 
 
-### $_node_folder_template
+### <a name="property-$_node_folder_template"></a>$_node_folder_template
 
     protected mixed $_node_folder_template
 
@@ -157,10 +230,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/tree/Tree.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#42)
+* This property is defined in [classes/tree/Tree.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L42)
 
 
-### $_node_item_template
+### <a name="property-$_node_item_template"></a>$_node_item_template
 
     protected mixed $_node_item_template
 
@@ -169,10 +242,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/tree/Tree.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#43)
+* This property is defined in [classes/tree/Tree.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L43)
 
 
-### $_template
+### <a name="property-$_template"></a>$_template
 
     protected mixed $_template
 
@@ -181,10 +254,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/tree/Tree.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#44)
+* This property is defined in [classes/tree/Tree.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L44)
 
 
-### $_template_directory
+### <a name="property-$_template_directory"></a>$_template_directory
 
     private string $_template_directory
 
@@ -193,10 +266,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tree/Tree.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#47)
+* This property is defined in [classes/tree/Tree.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L47)
 
 
-### $_title
+### <a name="property-$_title"></a>$_title
 
     private mixed $_title
 
@@ -205,10 +278,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tree/Tree.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#48)
+* This property is defined in [classes/tree/Tree.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L48)
 
 
-### $_no_js
+### <a name="property-$_no_js"></a>$_no_js
 
     private mixed $_no_js
 
@@ -217,10 +290,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tree/Tree.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#49)
+* This property is defined in [classes/tree/Tree.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L49)
 
 
-### $_toolbar
+### <a name="property-$_toolbar"></a>$_toolbar
 
     private \TreeToolbar $_toolbar
 
@@ -229,14 +302,14 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tree/Tree.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#52)
+* This property is defined in [classes/tree/Tree.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L52)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed TreeCore::__construct($id, $data)
 
@@ -245,7 +318,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#54)
+* This method is defined in [classes/tree/Tree.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L54)
 
 
 #### Arguments
@@ -254,7 +327,7 @@ Methods
 
 
 
-### __toString
+### <a name="method-__toString"></a>__toString
 
     mixed TreeCore::__toString()
 
@@ -263,12 +336,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#63)
+* This method is defined in [classes/tree/Tree.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L63)
 
 
 
 
-### setActions
+### <a name="method-setActions"></a>setActions
 
     mixed TreeCore::setActions($value)
 
@@ -277,7 +350,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#68)
+* This method is defined in [classes/tree/Tree.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L68)
 
 
 #### Arguments
@@ -285,7 +358,7 @@ Methods
 
 
 
-### getActions
+### <a name="method-getActions"></a>getActions
 
     mixed TreeCore::getActions()
 
@@ -294,12 +367,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#78)
+* This method is defined in [classes/tree/Tree.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L78)
 
 
 
 
-### setAttribute
+### <a name="method-setAttribute"></a>setAttribute
 
     mixed TreeCore::setAttribute($name, $value)
 
@@ -308,7 +381,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#87)
+* This method is defined in [classes/tree/Tree.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L87)
 
 
 #### Arguments
@@ -317,7 +390,7 @@ Methods
 
 
 
-### getAttribute
+### <a name="method-getAttribute"></a>getAttribute
 
     mixed TreeCore::getAttribute($name)
 
@@ -326,7 +399,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#97)
+* This method is defined in [classes/tree/Tree.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L97)
 
 
 #### Arguments
@@ -334,7 +407,7 @@ Methods
 
 
 
-### setAttributes
+### <a name="method-setAttributes"></a>setAttributes
 
     mixed TreeCore::setAttributes($value)
 
@@ -343,7 +416,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#102)
+* This method is defined in [classes/tree/Tree.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L102)
 
 
 #### Arguments
@@ -351,7 +424,7 @@ Methods
 
 
 
-### setIdTree
+### <a name="method-setIdTree"></a>setIdTree
 
     mixed TreeCore::setIdTree($id_tree)
 
@@ -360,7 +433,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#112)
+* This method is defined in [classes/tree/Tree.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L112)
 
 
 #### Arguments
@@ -368,7 +441,7 @@ Methods
 
 
 
-### getIdTree
+### <a name="method-getIdTree"></a>getIdTree
 
     mixed TreeCore::getIdTree()
 
@@ -377,12 +450,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#118)
+* This method is defined in [classes/tree/Tree.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L118)
 
 
 
 
-### getAttributes
+### <a name="method-getAttributes"></a>getAttributes
 
     mixed TreeCore::getAttributes()
 
@@ -391,12 +464,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#123)
+* This method is defined in [classes/tree/Tree.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L123)
 
 
 
 
-### setContext
+### <a name="method-setContext"></a>setContext
 
     mixed TreeCore::setContext($value)
 
@@ -405,7 +478,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#132)
+* This method is defined in [classes/tree/Tree.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L132)
 
 
 #### Arguments
@@ -413,7 +486,7 @@ Methods
 
 
 
-### getContext
+### <a name="method-getContext"></a>getContext
 
     mixed TreeCore::getContext()
 
@@ -422,12 +495,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#138)
+* This method is defined in [classes/tree/Tree.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L138)
 
 
 
 
-### setDataSearch
+### <a name="method-setDataSearch"></a>setDataSearch
 
     mixed TreeCore::setDataSearch($value)
 
@@ -436,7 +509,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#147)
+* This method is defined in [classes/tree/Tree.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L147)
 
 
 #### Arguments
@@ -444,7 +517,7 @@ Methods
 
 
 
-### getDataSearch
+### <a name="method-getDataSearch"></a>getDataSearch
 
     mixed TreeCore::getDataSearch()
 
@@ -453,12 +526,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#157)
+* This method is defined in [classes/tree/Tree.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L157)
 
 
 
 
-### setData
+### <a name="method-setData"></a>setData
 
     mixed TreeCore::setData($value)
 
@@ -467,7 +540,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#166)
+* This method is defined in [classes/tree/Tree.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L166)
 
 
 #### Arguments
@@ -475,7 +548,7 @@ Methods
 
 
 
-### getData
+### <a name="method-getData"></a>getData
 
     mixed TreeCore::getData()
 
@@ -484,12 +557,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#176)
+* This method is defined in [classes/tree/Tree.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L176)
 
 
 
 
-### setHeaderTemplate
+### <a name="method-setHeaderTemplate"></a>setHeaderTemplate
 
     mixed TreeCore::setHeaderTemplate($value)
 
@@ -498,7 +571,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#185)
+* This method is defined in [classes/tree/Tree.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L185)
 
 
 #### Arguments
@@ -506,7 +579,7 @@ Methods
 
 
 
-### getHeaderTemplate
+### <a name="method-getHeaderTemplate"></a>getHeaderTemplate
 
     mixed TreeCore::getHeaderTemplate()
 
@@ -515,12 +588,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#191)
+* This method is defined in [classes/tree/Tree.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L191)
 
 
 
 
-### setId
+### <a name="method-setId"></a>setId
 
     mixed TreeCore::setId($value)
 
@@ -529,7 +602,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#200)
+* This method is defined in [classes/tree/Tree.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L200)
 
 
 #### Arguments
@@ -537,7 +610,7 @@ Methods
 
 
 
-### getId
+### <a name="method-getId"></a>getId
 
     mixed TreeCore::getId()
 
@@ -546,12 +619,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#206)
+* This method is defined in [classes/tree/Tree.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L206)
 
 
 
 
-### setNodeFolderTemplate
+### <a name="method-setNodeFolderTemplate"></a>setNodeFolderTemplate
 
     mixed TreeCore::setNodeFolderTemplate($value)
 
@@ -560,7 +633,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 211](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#211)
+* This method is defined in [classes/tree/Tree.php line 211](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L211)
 
 
 #### Arguments
@@ -568,7 +641,7 @@ Methods
 
 
 
-### getNodeFolderTemplate
+### <a name="method-getNodeFolderTemplate"></a>getNodeFolderTemplate
 
     mixed TreeCore::getNodeFolderTemplate()
 
@@ -577,12 +650,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#217)
+* This method is defined in [classes/tree/Tree.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L217)
 
 
 
 
-### setNodeItemTemplate
+### <a name="method-setNodeItemTemplate"></a>setNodeItemTemplate
 
     mixed TreeCore::setNodeItemTemplate($value)
 
@@ -591,7 +664,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#226)
+* This method is defined in [classes/tree/Tree.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L226)
 
 
 #### Arguments
@@ -599,7 +672,7 @@ Methods
 
 
 
-### getNodeItemTemplate
+### <a name="method-getNodeItemTemplate"></a>getNodeItemTemplate
 
     mixed TreeCore::getNodeItemTemplate()
 
@@ -608,12 +681,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#232)
+* This method is defined in [classes/tree/Tree.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L232)
 
 
 
 
-### setTemplate
+### <a name="method-setTemplate"></a>setTemplate
 
     mixed TreeCore::setTemplate($value)
 
@@ -622,7 +695,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#241)
+* This method is defined in [classes/tree/Tree.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L241)
 
 
 #### Arguments
@@ -630,7 +703,7 @@ Methods
 
 
 
-### getTemplate
+### <a name="method-getTemplate"></a>getTemplate
 
     mixed TreeCore::getTemplate()
 
@@ -639,12 +712,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#247)
+* This method is defined in [classes/tree/Tree.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L247)
 
 
 
 
-### setTemplateDirectory
+### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
     \Tree TreeCore::setTemplateDirectory($value)
 
@@ -653,7 +726,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#261)
+* This method is defined in [classes/tree/Tree.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L261)
 
 
 #### Arguments
@@ -661,7 +734,7 @@ Methods
 
 
 
-### getTemplateDirectory
+### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
     string TreeCore::getTemplateDirectory()
 
@@ -670,12 +743,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#270)
+* This method is defined in [classes/tree/Tree.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L270)
 
 
 
 
-### getTemplateFile
+### <a name="method-getTemplateFile"></a>getTemplateFile
 
     mixed TreeCore::getTemplateFile($template)
 
@@ -684,7 +757,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#280)
+* This method is defined in [classes/tree/Tree.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L280)
 
 
 #### Arguments
@@ -692,7 +765,7 @@ Methods
 
 
 
-### setNoJS
+### <a name="method-setNoJS"></a>setNoJS
 
     mixed TreeCore::setNoJS($value)
 
@@ -701,7 +774,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#312)
+* This method is defined in [classes/tree/Tree.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L312)
 
 
 #### Arguments
@@ -709,7 +782,7 @@ Methods
 
 
 
-### setTitle
+### <a name="method-setTitle"></a>setTitle
 
     mixed TreeCore::setTitle($value)
 
@@ -718,7 +791,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#318)
+* This method is defined in [classes/tree/Tree.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L318)
 
 
 #### Arguments
@@ -726,7 +799,7 @@ Methods
 
 
 
-### getTitle
+### <a name="method-getTitle"></a>getTitle
 
     mixed TreeCore::getTitle()
 
@@ -735,12 +808,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#324)
+* This method is defined in [classes/tree/Tree.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L324)
 
 
 
 
-### setToolbar
+### <a name="method-setToolbar"></a>setToolbar
 
     mixed TreeCore::setToolbar($value)
 
@@ -749,7 +822,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#329)
+* This method is defined in [classes/tree/Tree.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L329)
 
 
 #### Arguments
@@ -757,7 +830,7 @@ Methods
 
 
 
-### getToolbar
+### <a name="method-getToolbar"></a>getToolbar
 
     mixed TreeCore::getToolbar()
 
@@ -766,12 +839,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#345)
+* This method is defined in [classes/tree/Tree.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L345)
 
 
 
 
-### addAction
+### <a name="method-addAction"></a>addAction
 
     mixed TreeCore::addAction($action)
 
@@ -780,7 +853,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 358](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#358)
+* This method is defined in [classes/tree/Tree.php line 358](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L358)
 
 
 #### Arguments
@@ -788,7 +861,7 @@ Methods
 
 
 
-### removeActions
+### <a name="method-removeActions"></a>removeActions
 
     mixed TreeCore::removeActions()
 
@@ -797,12 +870,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 368](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#368)
+* This method is defined in [classes/tree/Tree.php line 368](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L368)
 
 
 
 
-### render
+### <a name="method-render"></a>render
 
     mixed TreeCore::render($data)
 
@@ -811,7 +884,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#378)
+* This method is defined in [classes/tree/Tree.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L378)
 
 
 #### Arguments
@@ -819,7 +892,7 @@ Methods
 
 
 
-### renderNodes
+### <a name="method-renderNodes"></a>renderNodes
 
     mixed TreeCore::renderNodes($data)
 
@@ -828,7 +901,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#429)
+* This method is defined in [classes/tree/Tree.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L429)
 
 
 #### Arguments
@@ -836,7 +909,7 @@ Methods
 
 
 
-### renderToolbar
+### <a name="method-renderToolbar"></a>renderToolbar
 
     mixed TreeCore::renderToolbar()
 
@@ -845,12 +918,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#464)
+* This method is defined in [classes/tree/Tree.php line 464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L464)
 
 
 
 
-### useInput
+### <a name="method-useInput"></a>useInput
 
     mixed TreeCore::useInput()
 
@@ -859,12 +932,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#469)
+* This method is defined in [classes/tree/Tree.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L469)
 
 
 
 
-### useToolbar
+### <a name="method-useToolbar"></a>useToolbar
 
     mixed TreeCore::useToolbar()
 
@@ -873,12 +946,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/Tree.php line 474](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#474)
+* This method is defined in [classes/tree/Tree.php line 474](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L474)
 
 
 
 
-### _normalizeDirectory
+### <a name="method-_normalizeDirectory"></a>_normalizeDirectory
 
     mixed TreeCore::_normalizeDirectory($directory)
 
@@ -887,7 +960,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [classes/tree/Tree.php line 479](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#479)
+* This method is defined in [classes/tree/Tree.php line 479](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#L479)
 
 
 #### Arguments

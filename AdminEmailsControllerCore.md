@@ -17,8 +17,27 @@ AdminEmailsControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [setMedia](#method-setMedia)
+* [processDelete](#method-processDelete)
+* [initToolbar](#method-initToolbar)
+* [updateOptionPsMailPasswd](#method-updateOptionPsMailPasswd)
+* [initContent](#method-initContent)
+* [beforeUpdateOptions](#method-beforeUpdateOptions)
+* [ajaxProcessSendMailTest](#method-ajaxProcessSendMailTest)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Mail $object
 
@@ -27,14 +46,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminEmailsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#30)
+* This property is defined in [controllers/admin/AdminEmailsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminEmailsControllerCore::__construct()
 
@@ -43,12 +62,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminEmailsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#32)
+* This method is defined in [controllers/admin/AdminEmailsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#L32)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminEmailsControllerCore::setMedia()
 
@@ -57,12 +76,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminEmailsController.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#227)
+* This method is defined in [controllers/admin/AdminEmailsController.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#L227)
 
 
 
 
-### processDelete
+### <a name="method-processDelete"></a>processDelete
 
     mixed AdminEmailsControllerCore::processDelete()
 
@@ -71,12 +90,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminEmailsController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#241)
+* This method is defined in [controllers/admin/AdminEmailsController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#L241)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminEmailsControllerCore::initToolbar()
 
@@ -85,12 +104,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminEmailsController.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#252)
+* This method is defined in [controllers/admin/AdminEmailsController.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#L252)
 
 
 
 
-### updateOptionPsMailPasswd
+### <a name="method-updateOptionPsMailPasswd"></a>updateOptionPsMailPasswd
 
     mixed AdminEmailsControllerCore::updateOptionPsMailPasswd($value)
 
@@ -99,7 +118,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminEmailsController.php line 263](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#263)
+* This method is defined in [controllers/admin/AdminEmailsController.php line 263](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#L263)
 
 
 #### Arguments
@@ -107,7 +126,7 @@ Methods
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminEmailsControllerCore::initContent()
 
@@ -116,12 +135,12 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminEmailsController.php line 276](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#276)
+* This method is defined in [controllers/admin/AdminEmailsController.php line 276](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#L276)
 
 
 
 
-### beforeUpdateOptions
+### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
     mixed AdminEmailsControllerCore::beforeUpdateOptions()
 
@@ -130,12 +149,12 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminEmailsController.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#303)
+* This method is defined in [controllers/admin/AdminEmailsController.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#L303)
 
 
 
 
-### ajaxProcessSendMailTest
+### <a name="method-ajaxProcessSendMailTest"></a>ajaxProcessSendMailTest
 
     mixed AdminEmailsControllerCore::ajaxProcessSendMailTest()
 
@@ -144,7 +163,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminEmailsController.php line 323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#323)
+* This method is defined in [controllers/admin/AdminEmailsController.php line 323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#L323)
 
 
 

@@ -19,9 +19,20 @@ OrderDiscountCore
 
 Methods
 -------
+* [__get](#method-__get)
+* [__set](#method-__set)
+* [__call](#method-__call)
 
 
-### __get
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__get"></a>__get
 
     mixed OrderDiscountCore::__get($key)
 
@@ -31,7 +42,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/order/OrderDiscount.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDiscount.php#32)
+* This method is defined in [classes/order/OrderDiscount.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDiscount.php#L32)
 
 
 #### Arguments
@@ -39,7 +50,7 @@ Methods
 
 
 
-### __set
+### <a name="method-__set"></a>__set
 
     mixed OrderDiscountCore::__set($key, $value)
 
@@ -49,7 +60,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/order/OrderDiscount.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDiscount.php#44)
+* This method is defined in [classes/order/OrderDiscount.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDiscount.php#L44)
 
 
 #### Arguments
@@ -58,7 +69,7 @@ Methods
 
 
 
-### __call
+### <a name="method-__call"></a>__call
 
     mixed OrderDiscountCore::__call($method, $args)
 
@@ -68,7 +79,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/order/OrderDiscount.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDiscount.php#56)
+* This method is defined in [classes/order/OrderDiscount.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDiscount.php#L56)
 
 
 #### Arguments

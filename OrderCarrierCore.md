@@ -17,8 +17,27 @@ OrderCarrierCore
 Properties
 ----------
 
+* [$id_order_carrier](#property-$id_order_carrier)
+* [$id_order](#property-$id_order)
+* [$id_carrier](#property-$id_carrier)
+* [$id_order_invoice](#property-$id_order_invoice)
+* [$weight](#property-$weight)
+* [$shipping_cost_tax_excl](#property-$shipping_cost_tax_excl)
+* [$shipping_cost_tax_incl](#property-$shipping_cost_tax_incl)
+* [$tracking_number](#property-$tracking_number)
+* [$date_add](#property-$date_add)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_order_carrier
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_order_carrier"></a>$id_order_carrier
 
     public integer $id_order_carrier
 
@@ -27,10 +46,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderCarrier.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#30)
+* This property is defined in [classes/order/OrderCarrier.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L30)
 
 
-### $id_order
+### <a name="property-$id_order"></a>$id_order
 
     public integer $id_order
 
@@ -39,10 +58,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderCarrier.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#33)
+* This property is defined in [classes/order/OrderCarrier.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L33)
 
 
-### $id_carrier
+### <a name="property-$id_carrier"></a>$id_carrier
 
     public integer $id_carrier
 
@@ -51,10 +70,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderCarrier.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#36)
+* This property is defined in [classes/order/OrderCarrier.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L36)
 
 
-### $id_order_invoice
+### <a name="property-$id_order_invoice"></a>$id_order_invoice
 
     public integer $id_order_invoice
 
@@ -63,10 +82,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderCarrier.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#39)
+* This property is defined in [classes/order/OrderCarrier.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L39)
 
 
-### $weight
+### <a name="property-$weight"></a>$weight
 
     public float $weight
 
@@ -75,10 +94,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderCarrier.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#42)
+* This property is defined in [classes/order/OrderCarrier.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L42)
 
 
-### $shipping_cost_tax_excl
+### <a name="property-$shipping_cost_tax_excl"></a>$shipping_cost_tax_excl
 
     public float $shipping_cost_tax_excl
 
@@ -87,10 +106,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderCarrier.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#45)
+* This property is defined in [classes/order/OrderCarrier.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L45)
 
 
-### $shipping_cost_tax_incl
+### <a name="property-$shipping_cost_tax_incl"></a>$shipping_cost_tax_incl
 
     public float $shipping_cost_tax_incl
 
@@ -99,10 +118,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderCarrier.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#48)
+* This property is defined in [classes/order/OrderCarrier.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L48)
 
 
-### $tracking_number
+### <a name="property-$tracking_number"></a>$tracking_number
 
     public integer $tracking_number
 
@@ -111,10 +130,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderCarrier.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#51)
+* This property is defined in [classes/order/OrderCarrier.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L51)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -123,10 +142,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderCarrier.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#54)
+* This property is defined in [classes/order/OrderCarrier.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L54)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'order_carrier', 'primary' => 'id_order_carrier', 'fields' => array('id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_carrier' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order_invoice' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'weight' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'shipping_cost_tax_excl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'shipping_cost_tax_incl' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'tracking_number' => array('type' => self::TYPE_STRING, 'validate' => 'isTrackingNumber'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
 
@@ -136,10 +155,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/order/OrderCarrier.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#59)
+* This property is defined in [classes/order/OrderCarrier.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L59)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_order' => array('xlink_resource' => 'orders'), 'id_carrier' => array('xlink_resource' => 'carriers')))
 
@@ -148,7 +167,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/order/OrderCarrier.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#74)
+* This property is defined in [classes/order/OrderCarrier.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCarrier.php#L74)
 
 
 

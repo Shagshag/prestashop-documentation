@@ -17,8 +17,59 @@ CurrencyCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$name](#property-$name)
+* [$iso_code](#property-$iso_code)
+* [$iso_code_num](#property-$iso_code_num)
+* [$sign](#property-$sign)
+* [$blank](#property-$blank)
+* [$conversion_rate](#property-$conversion_rate)
+* [$deleted](#property-$deleted)
+* [$format](#property-$format)
+* [$decimals](#property-$decimals)
+* [$active](#property-$active)
+* [$definition](#property-$definition)
+* [$currencies](#property-$currencies)
+* [$countActiveCurrencies](#property-$countActiveCurrencies)
+* [$webserviceParameters](#property-$webserviceParameters)
+* [$prefix](#property-$prefix)
+* [$suffix](#property-$suffix)
 
-### $id
+Methods
+-------
+* [__construct](#method-__construct)
+* [add](#method-add)
+* [update](#method-update)
+* [exists](#method-exists)
+* [deleteSelection](#method-deleteSelection)
+* [delete](#method-delete)
+* [getSign](#method-getSign)
+* [getCurrencies](#method-getCurrencies)
+* [getCurrenciesByIdShop](#method-getCurrenciesByIdShop)
+* [getPaymentCurrenciesSpecial](#method-getPaymentCurrenciesSpecial)
+* [getPaymentCurrencies](#method-getPaymentCurrencies)
+* [checkPaymentCurrencies](#method-checkPaymentCurrencies)
+* [getCurrency](#method-getCurrency)
+* [getIdByIsoCode](#method-getIdByIsoCode)
+* [getIdByIsoCodeNum](#method-getIdByIsoCodeNum)
+* [getIdByQuery](#method-getIdByQuery)
+* [refreshCurrency](#method-refreshCurrency)
+* [getDefaultCurrency](#method-getDefaultCurrency)
+* [refreshCurrencies](#method-refreshCurrencies)
+* [getCurrent](#method-getCurrent)
+* [getCurrencyInstance](#method-getCurrencyInstance)
+* [getConversationRate](#method-getConversationRate)
+* [countActiveCurrencies](#method-countActiveCurrencies)
+* [isMultiCurrencyActivated](#method-isMultiCurrencyActivated)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +78,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#29)
+* This property is defined in [classes/Currency.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L29)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -39,10 +90,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#32)
+* This property is defined in [classes/Currency.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L32)
 
 
-### $iso_code
+### <a name="property-$iso_code"></a>$iso_code
 
     public string $iso_code
 
@@ -51,10 +102,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#35)
+* This property is defined in [classes/Currency.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L35)
 
 
-### $iso_code_num
+### <a name="property-$iso_code_num"></a>$iso_code_num
 
     public string $iso_code_num
 
@@ -63,10 +114,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#38)
+* This property is defined in [classes/Currency.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L38)
 
 
-### $sign
+### <a name="property-$sign"></a>$sign
 
     public string $sign
 
@@ -75,10 +126,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#41)
+* This property is defined in [classes/Currency.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L41)
 
 
-### $blank
+### <a name="property-$blank"></a>$blank
 
     public integer $blank
 
@@ -87,10 +138,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#44)
+* This property is defined in [classes/Currency.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L44)
 
 
-### $conversion_rate
+### <a name="property-$conversion_rate"></a>$conversion_rate
 
     public string $conversion_rate
 
@@ -99,10 +150,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#47)
+* This property is defined in [classes/Currency.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L47)
 
 
-### $deleted
+### <a name="property-$deleted"></a>$deleted
 
     public boolean $deleted
 
@@ -111,10 +162,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#50)
+* This property is defined in [classes/Currency.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L50)
 
 
-### $format
+### <a name="property-$format"></a>$format
 
     public integer $format
 
@@ -123,10 +174,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#53)
+* This property is defined in [classes/Currency.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L53)
 
 
-### $decimals
+### <a name="property-$decimals"></a>$decimals
 
     public integer $decimals
 
@@ -135,10 +186,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#56)
+* This property is defined in [classes/Currency.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L56)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public integer $active
 
@@ -147,10 +198,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#59)
+* This property is defined in [classes/Currency.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L59)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'currency', 'primary' => 'id_currency', 'multilang_shop' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'iso_code' => array('type' => self::TYPE_STRING, 'validate' => 'isLanguageIsoCode', 'required' => true, 'size' => 3), 'iso_code_num' => array('type' => self::TYPE_STRING, 'validate' => 'isNumericIsoCode', 'size' => 3), 'blank' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'sign' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 8), 'format' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'decimals' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'conversion_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isUnsignedFloat', 'required' => true, 'shop' => true), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
 
@@ -160,10 +211,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Currency.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#64)
+* This property is defined in [classes/Currency.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L64)
 
 
-### $currencies
+### <a name="property-$currencies"></a>$currencies
 
     protected array $currencies = array()
 
@@ -173,10 +224,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Currency.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#83)
+* This property is defined in [classes/Currency.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L83)
 
 
-### $countActiveCurrencies
+### <a name="property-$countActiveCurrencies"></a>$countActiveCurrencies
 
     protected mixed $countActiveCurrencies = array()
 
@@ -186,10 +237,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Currency.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#84)
+* This property is defined in [classes/Currency.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L84)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectsNodeName' => 'currencies')
 
@@ -198,10 +249,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Currency.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#86)
+* This property is defined in [classes/Currency.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L86)
 
 
-### $prefix
+### <a name="property-$prefix"></a>$prefix
 
     public string $prefix = null
 
@@ -210,10 +261,10 @@ contains the sign to display before price, according to its format
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#94)
+* This property is defined in [classes/Currency.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L94)
 
 
-### $suffix
+### <a name="property-$suffix"></a>$suffix
 
     public string $suffix = null
 
@@ -222,14 +273,14 @@ contains the sign to display after price, according to its format
 
 
 * Visibility: **public**
-* This property is defined in [classes/Currency.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#99)
+* This property is defined in [classes/Currency.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L99)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed CurrencyCore::__construct($id, $id_lang, $id_shop)
 
@@ -238,7 +289,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Currency.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#101)
+* This method is defined in [classes/Currency.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L101)
 
 
 #### Arguments
@@ -248,7 +299,7 @@ Methods
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed CurrencyCore::add($autodate, $nullValues)
 
@@ -257,7 +308,7 @@ Overriding check if currency rate is not empty and if currency with the same iso
 If it's true, currency is not added.
 
 * Visibility: **public**
-* This method is defined in [classes/Currency.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#118)
+* This method is defined in [classes/Currency.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L118)
 
 
 #### Arguments
@@ -266,7 +317,7 @@ If it's true, currency is not added.
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed CurrencyCore::update($autodate, $nullValues)
 
@@ -275,7 +326,7 @@ If it's true, currency is not added.
 
 
 * Visibility: **public**
-* This method is defined in [classes/Currency.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#126)
+* This method is defined in [classes/Currency.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L126)
 
 
 #### Arguments
@@ -284,7 +335,7 @@ If it's true, currency is not added.
 
 
 
-### exists
+### <a name="method-exists"></a>exists
 
     boolean CurrencyCore::exists(integer|string $iso_code, $iso_code_num, $id_shop)
 
@@ -294,7 +345,7 @@ Check if a curency already exists.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#140)
+* This method is defined in [classes/Currency.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L140)
 
 
 #### Arguments
@@ -304,7 +355,7 @@ Check if a curency already exists.
 
 
 
-### deleteSelection
+### <a name="method-deleteSelection"></a>deleteSelection
 
     mixed CurrencyCore::deleteSelection($selection)
 
@@ -313,7 +364,7 @@ Check if a curency already exists.
 
 
 * Visibility: **public**
-* This method is defined in [classes/Currency.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#155)
+* This method is defined in [classes/Currency.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L155)
 
 
 #### Arguments
@@ -321,7 +372,7 @@ Check if a curency already exists.
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed CurrencyCore::delete()
 
@@ -330,12 +381,12 @@ Check if a curency already exists.
 
 
 * Visibility: **public**
-* This method is defined in [classes/Currency.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#175)
+* This method is defined in [classes/Currency.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L175)
 
 
 
 
-### getSign
+### <a name="method-getSign"></a>getSign
 
     string CurrencyCore::getSign(string $side)
 
@@ -344,7 +395,7 @@ Return formated sign
 
 
 * Visibility: **public**
-* This method is defined in [classes/Currency.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#194)
+* This method is defined in [classes/Currency.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L194)
 
 
 #### Arguments
@@ -352,7 +403,7 @@ Return formated sign
 
 
 
-### getCurrencies
+### <a name="method-getCurrencies"></a>getCurrencies
 
     array CurrencyCore::getCurrencies($object, $active, $group_by)
 
@@ -362,7 +413,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#222)
+* This method is defined in [classes/Currency.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L222)
 
 
 #### Arguments
@@ -372,7 +423,7 @@ Return available currencies
 
 
 
-### getCurrenciesByIdShop
+### <a name="method-getCurrenciesByIdShop"></a>getCurrenciesByIdShop
 
     mixed CurrencyCore::getCurrenciesByIdShop($id_shop)
 
@@ -382,7 +433,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#240)
+* This method is defined in [classes/Currency.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L240)
 
 
 #### Arguments
@@ -390,7 +441,7 @@ Return available currencies
 
 
 
-### getPaymentCurrenciesSpecial
+### <a name="method-getPaymentCurrenciesSpecial"></a>getPaymentCurrenciesSpecial
 
     mixed CurrencyCore::getPaymentCurrenciesSpecial($id_module, $id_shop)
 
@@ -400,7 +451,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#251)
+* This method is defined in [classes/Currency.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L251)
 
 
 #### Arguments
@@ -409,7 +460,7 @@ Return available currencies
 
 
 
-### getPaymentCurrencies
+### <a name="method-getPaymentCurrencies"></a>getPaymentCurrencies
 
     mixed CurrencyCore::getPaymentCurrencies($id_module, $id_shop)
 
@@ -419,7 +470,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 264](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#264)
+* This method is defined in [classes/Currency.php line 264](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L264)
 
 
 #### Arguments
@@ -428,7 +479,7 @@ Return available currencies
 
 
 
-### checkPaymentCurrencies
+### <a name="method-checkPaymentCurrencies"></a>checkPaymentCurrencies
 
     mixed CurrencyCore::checkPaymentCurrencies($id_module, $id_shop)
 
@@ -438,7 +489,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#281)
+* This method is defined in [classes/Currency.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L281)
 
 
 #### Arguments
@@ -447,7 +498,7 @@ Return available currencies
 
 
 
-### getCurrency
+### <a name="method-getCurrency"></a>getCurrency
 
     mixed CurrencyCore::getCurrency($id_currency)
 
@@ -457,7 +508,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#298)
+* This method is defined in [classes/Currency.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L298)
 
 
 #### Arguments
@@ -465,7 +516,7 @@ Return available currencies
 
 
 
-### getIdByIsoCode
+### <a name="method-getIdByIsoCode"></a>getIdByIsoCode
 
     integer CurrencyCore::getIdByIsoCode($iso_code, integer $id_shop)
 
@@ -475,7 +526,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#312)
+* This method is defined in [classes/Currency.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L312)
 
 
 #### Arguments
@@ -484,7 +535,7 @@ Return available currencies
 
 
 
-### getIdByIsoCodeNum
+### <a name="method-getIdByIsoCodeNum"></a>getIdByIsoCodeNum
 
     integer CurrencyCore::getIdByIsoCodeNum($iso_code_num, integer $id_shop)
 
@@ -494,7 +545,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#331)
+* This method is defined in [classes/Currency.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L331)
 
 
 #### Arguments
@@ -503,7 +554,7 @@ Return available currencies
 
 
 
-### getIdByQuery
+### <a name="method-getIdByQuery"></a>getIdByQuery
 
     \DbQuery CurrencyCore::getIdByQuery(integer $id_shop)
 
@@ -513,7 +564,7 @@ Return available currencies
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 343](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#343)
+* This method is defined in [classes/Currency.php line 343](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L343)
 
 
 #### Arguments
@@ -521,7 +572,7 @@ Return available currencies
 
 
 
-### refreshCurrency
+### <a name="method-refreshCurrency"></a>refreshCurrency
 
     mixed CurrencyCore::refreshCurrency(\SimpleXMLElement $data, string $isoCodeSource, \Currency $defaultCurrency)
 
@@ -531,7 +582,7 @@ The XML file define exchange rate for each from a default currency ($isoCodeSour
 
 
 * Visibility: **public**
-* This method is defined in [classes/Currency.php line 365](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#365)
+* This method is defined in [classes/Currency.php line 365](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L365)
 
 
 #### Arguments
@@ -541,7 +592,7 @@ The XML file define exchange rate for each from a default currency ($isoCodeSour
 
 
 
-### getDefaultCurrency
+### <a name="method-getDefaultCurrency"></a>getDefaultCurrency
 
     mixed CurrencyCore::getDefaultCurrency()
 
@@ -551,12 +602,12 @@ The XML file define exchange rate for each from a default currency ($isoCodeSour
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 403](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#403)
+* This method is defined in [classes/Currency.php line 403](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L403)
 
 
 
 
-### refreshCurrencies
+### <a name="method-refreshCurrencies"></a>refreshCurrencies
 
     mixed CurrencyCore::refreshCurrencies()
 
@@ -566,12 +617,12 @@ The XML file define exchange rate for each from a default currency ($isoCodeSour
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 413](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#413)
+* This method is defined in [classes/Currency.php line 413](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L413)
 
 
 
 
-### getCurrent
+### <a name="method-getCurrent"></a>getCurrent
 
     \Currency CurrencyCore::getCurrent()
 
@@ -581,12 +632,12 @@ Get current currency
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 442](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#442)
+* This method is defined in [classes/Currency.php line 442](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L442)
 
 
 
 
-### getCurrencyInstance
+### <a name="method-getCurrencyInstance"></a>getCurrencyInstance
 
     mixed CurrencyCore::getCurrencyInstance($id)
 
@@ -596,7 +647,7 @@ Get current currency
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 448](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#448)
+* This method is defined in [classes/Currency.php line 448](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L448)
 
 
 #### Arguments
@@ -604,7 +655,7 @@ Get current currency
 
 
 
-### getConversationRate
+### <a name="method-getConversationRate"></a>getConversationRate
 
     mixed CurrencyCore::getConversationRate()
 
@@ -613,12 +664,12 @@ Get current currency
 
 
 * Visibility: **public**
-* This method is defined in [classes/Currency.php line 456](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#456)
+* This method is defined in [classes/Currency.php line 456](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L456)
 
 
 
 
-### countActiveCurrencies
+### <a name="method-countActiveCurrencies"></a>countActiveCurrencies
 
     mixed CurrencyCore::countActiveCurrencies($id_shop)
 
@@ -628,7 +679,7 @@ Get current currency
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#461)
+* This method is defined in [classes/Currency.php line 461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L461)
 
 
 #### Arguments
@@ -636,7 +687,7 @@ Get current currency
 
 
 
-### isMultiCurrencyActivated
+### <a name="method-isMultiCurrencyActivated"></a>isMultiCurrencyActivated
 
     mixed CurrencyCore::isMultiCurrencyActivated($id_shop)
 
@@ -646,7 +697,7 @@ Get current currency
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Currency.php line 477](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#477)
+* This method is defined in [classes/Currency.php line 477](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L477)
 
 
 #### Arguments

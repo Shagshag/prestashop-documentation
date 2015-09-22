@@ -17,8 +17,48 @@ ManufacturerCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$id_manufacturer](#property-$id_manufacturer)
+* [$name](#property-$name)
+* [$description](#property-$description)
+* [$short_description](#property-$short_description)
+* [$id_address](#property-$id_address)
+* [$date_add](#property-$date_add)
+* [$date_upd](#property-$date_upd)
+* [$link_rewrite](#property-$link_rewrite)
+* [$meta_title](#property-$meta_title)
+* [$meta_keywords](#property-$meta_keywords)
+* [$meta_description](#property-$meta_description)
+* [$active](#property-$active)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
+* [$cacheName](#property-$cacheName)
 
-### $id
+Methods
+-------
+* [__construct](#method-__construct)
+* [delete](#method-delete)
+* [deleteSelection](#method-deleteSelection)
+* [getManufacturerAddress](#method-getManufacturerAddress)
+* [getManufacturers](#method-getManufacturers)
+* [getNameById](#method-getNameById)
+* [getIdByName](#method-getIdByName)
+* [getLink](#method-getLink)
+* [getProducts](#method-getProducts)
+* [getProductsLite](#method-getProductsLite)
+* [manufacturerExists](#method-manufacturerExists)
+* [getAddresses](#method-getAddresses)
+* [getWsAddresses](#method-getWsAddresses)
+* [setWsAddresses](#method-setWsAddresses)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +67,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#29)
+* This property is defined in [classes/Manufacturer.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L29)
 
 
-### $id_manufacturer
+### <a name="property-$id_manufacturer"></a>$id_manufacturer
 
     public integer $id_manufacturer
 
@@ -39,10 +79,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#32)
+* This property is defined in [classes/Manufacturer.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L32)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -51,10 +91,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#35)
+* This property is defined in [classes/Manufacturer.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L35)
 
 
-### $description
+### <a name="property-$description"></a>$description
 
     public string $description
 
@@ -63,10 +103,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#38)
+* This property is defined in [classes/Manufacturer.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L38)
 
 
-### $short_description
+### <a name="property-$short_description"></a>$short_description
 
     public string $short_description
 
@@ -75,10 +115,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#41)
+* This property is defined in [classes/Manufacturer.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L41)
 
 
-### $id_address
+### <a name="property-$id_address"></a>$id_address
 
     public integer $id_address
 
@@ -87,10 +127,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#44)
+* This property is defined in [classes/Manufacturer.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L44)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -99,10 +139,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#47)
+* This property is defined in [classes/Manufacturer.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L47)
 
 
-### $date_upd
+### <a name="property-$date_upd"></a>$date_upd
 
     public string $date_upd
 
@@ -111,10 +151,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#50)
+* This property is defined in [classes/Manufacturer.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L50)
 
 
-### $link_rewrite
+### <a name="property-$link_rewrite"></a>$link_rewrite
 
     public string $link_rewrite
 
@@ -123,10 +163,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#53)
+* This property is defined in [classes/Manufacturer.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L53)
 
 
-### $meta_title
+### <a name="property-$meta_title"></a>$meta_title
 
     public string $meta_title
 
@@ -135,10 +175,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#56)
+* This property is defined in [classes/Manufacturer.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L56)
 
 
-### $meta_keywords
+### <a name="property-$meta_keywords"></a>$meta_keywords
 
     public string $meta_keywords
 
@@ -147,10 +187,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#59)
+* This property is defined in [classes/Manufacturer.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L59)
 
 
-### $meta_description
+### <a name="property-$meta_description"></a>$meta_description
 
     public string $meta_description
 
@@ -159,10 +199,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#62)
+* This property is defined in [classes/Manufacturer.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L62)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public boolean $active
 
@@ -171,10 +211,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Manufacturer.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#65)
+* This property is defined in [classes/Manufacturer.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L65)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'manufacturer', 'primary' => 'id_manufacturer', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isCatalogName', 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL), 'date_add' => array('type' => self::TYPE_DATE), 'date_upd' => array('type' => self::TYPE_DATE), 'description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'short_description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName')))
 
@@ -184,10 +224,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Manufacturer.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#70)
+* This property is defined in [classes/Manufacturer.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L70)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('active' => array(), 'link_rewrite' => array('getter' => 'getLink', 'setter' => false)), 'associations' => array('addresses' => array('resource' => 'address', 'setter' => false, 'fields' => array('id' => array('xlink_resource' => 'addresses')))))
 
@@ -196,10 +236,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Manufacturer.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#89)
+* This property is defined in [classes/Manufacturer.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L89)
 
 
-### $cacheName
+### <a name="property-$cacheName"></a>$cacheName
 
     protected mixed $cacheName = array()
 
@@ -209,14 +249,14 @@ Return name from id
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Manufacturer.php line 239](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#239)
+* This property is defined in [classes/Manufacturer.php line 239](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L239)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed ManufacturerCore::__construct($id, $id_lang)
 
@@ -225,7 +265,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Manufacturer.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#101)
+* This method is defined in [classes/Manufacturer.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L101)
 
 
 #### Arguments
@@ -234,7 +274,7 @@ Methods
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed ManufacturerCore::delete()
 
@@ -243,12 +283,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Manufacturer.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#109)
+* This method is defined in [classes/Manufacturer.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L109)
 
 
 
 
-### deleteSelection
+### <a name="method-deleteSelection"></a>deleteSelection
 
     mixed ManufacturerCore::deleteSelection($selection)
 
@@ -257,7 +297,7 @@ Delete several objects from database
 return boolean Deletion result
 
 * Visibility: **public**
-* This method is defined in [classes/Manufacturer.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#128)
+* This method is defined in [classes/Manufacturer.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L128)
 
 
 #### Arguments
@@ -265,7 +305,7 @@ return boolean Deletion result
 
 
 
-### getManufacturerAddress
+### <a name="method-getManufacturerAddress"></a>getManufacturerAddress
 
     mixed ManufacturerCore::getManufacturerAddress()
 
@@ -274,12 +314,12 @@ return boolean Deletion result
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Manufacturer.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#144)
+* This method is defined in [classes/Manufacturer.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L144)
 
 
 
 
-### getManufacturers
+### <a name="method-getManufacturers"></a>getManufacturers
 
     array ManufacturerCore::getManufacturers(boolean $get_nb_products, integer $id_lang, boolean $active, integer $p, integer $n, boolean $all_group, $group_by)
 
@@ -289,7 +329,7 @@ Return manufacturers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Manufacturer.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#164)
+* This method is defined in [classes/Manufacturer.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L164)
 
 
 #### Arguments
@@ -303,7 +343,7 @@ Return manufacturers
 
 
 
-### getNameById
+### <a name="method-getNameById"></a>getNameById
 
     mixed ManufacturerCore::getNameById($id_manufacturer)
 
@@ -313,7 +353,7 @@ Return manufacturers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Manufacturer.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#240)
+* This method is defined in [classes/Manufacturer.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L240)
 
 
 #### Arguments
@@ -321,7 +361,7 @@ Return manufacturers
 
 
 
-### getIdByName
+### <a name="method-getIdByName"></a>getIdByName
 
     mixed ManufacturerCore::getIdByName($name)
 
@@ -331,7 +371,7 @@ Return manufacturers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Manufacturer.php line 254](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#254)
+* This method is defined in [classes/Manufacturer.php line 254](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L254)
 
 
 #### Arguments
@@ -339,7 +379,7 @@ Return manufacturers
 
 
 
-### getLink
+### <a name="method-getLink"></a>getLink
 
     mixed ManufacturerCore::getLink()
 
@@ -348,12 +388,12 @@ Return manufacturers
 
 
 * Visibility: **public**
-* This method is defined in [classes/Manufacturer.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#269)
+* This method is defined in [classes/Manufacturer.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L269)
 
 
 
 
-### getProducts
+### <a name="method-getProducts"></a>getProducts
 
     mixed ManufacturerCore::getProducts($id_manufacturer, $id_lang, $p, $n, $order_by, $order_way, $get_total, $active, $active_category, \Context $context)
 
@@ -363,7 +403,7 @@ Return manufacturers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Manufacturer.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#274)
+* This method is defined in [classes/Manufacturer.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L274)
 
 
 #### Arguments
@@ -380,7 +420,7 @@ Return manufacturers
 
 
 
-### getProductsLite
+### <a name="method-getProductsLite"></a>getProductsLite
 
     mixed ManufacturerCore::getProductsLite($id_lang)
 
@@ -389,7 +429,7 @@ Return manufacturers
 
 
 * Visibility: **public**
-* This method is defined in [classes/Manufacturer.php line 399](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#399)
+* This method is defined in [classes/Manufacturer.php line 399](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L399)
 
 
 #### Arguments
@@ -397,7 +437,7 @@ Return manufacturers
 
 
 
-### manufacturerExists
+### <a name="method-manufacturerExists"></a>manufacturerExists
 
     mixed ManufacturerCore::manufacturerExists($id_manufacturer)
 
@@ -407,7 +447,7 @@ Return manufacturers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Manufacturer.php line 425](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#425)
+* This method is defined in [classes/Manufacturer.php line 425](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L425)
 
 
 #### Arguments
@@ -415,7 +455,7 @@ Return manufacturers
 
 
 
-### getAddresses
+### <a name="method-getAddresses"></a>getAddresses
 
     mixed ManufacturerCore::getAddresses($id_lang)
 
@@ -424,7 +464,7 @@ Return manufacturers
 
 
 * Visibility: **public**
-* This method is defined in [classes/Manufacturer.php line 436](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#436)
+* This method is defined in [classes/Manufacturer.php line 436](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L436)
 
 
 #### Arguments
@@ -432,7 +472,7 @@ Return manufacturers
 
 
 
-### getWsAddresses
+### <a name="method-getWsAddresses"></a>getWsAddresses
 
     mixed ManufacturerCore::getWsAddresses()
 
@@ -441,12 +481,12 @@ Return manufacturers
 
 
 * Visibility: **public**
-* This method is defined in [classes/Manufacturer.php line 451](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#451)
+* This method is defined in [classes/Manufacturer.php line 451](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L451)
 
 
 
 
-### setWsAddresses
+### <a name="method-setWsAddresses"></a>setWsAddresses
 
     mixed ManufacturerCore::setWsAddresses($id_addresses)
 
@@ -455,7 +495,7 @@ Return manufacturers
 
 
 * Visibility: **public**
-* This method is defined in [classes/Manufacturer.php line 462](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#462)
+* This method is defined in [classes/Manufacturer.php line 462](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#L462)
 
 
 #### Arguments

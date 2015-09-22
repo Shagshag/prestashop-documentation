@@ -17,8 +17,33 @@ HTMLTemplateSupplyOrderFormCore
 Properties
 ----------
 
+* [$supply_order](#property-$supply_order)
+* [$warehouse](#property-$warehouse)
+* [$address_warehouse](#property-$address_warehouse)
+* [$address_supplier](#property-$address_supplier)
+* [$context](#property-$context)
 
-### $supply_order
+Methods
+-------
+* [__construct](#method-__construct)
+* [getContent](#method-getContent)
+* [getLogo](#method-getLogo)
+* [getBulkFilename](#method-getBulkFilename)
+* [getFilename](#method-getFilename)
+* [getTaxOrderSummary](#method-getTaxOrderSummary)
+* [getHeader](#method-getHeader)
+* [getFooter](#method-getFooter)
+* [roundSupplyOrderDetails](#method-roundSupplyOrderDetails)
+* [roundSupplyOrder](#method-roundSupplyOrder)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$supply_order"></a>$supply_order
 
     public mixed $supply_order
 
@@ -27,10 +52,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#32)
+* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L32)
 
 
-### $warehouse
+### <a name="property-$warehouse"></a>$warehouse
 
     public mixed $warehouse
 
@@ -39,10 +64,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#33)
+* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L33)
 
 
-### $address_warehouse
+### <a name="property-$address_warehouse"></a>$address_warehouse
 
     public mixed $address_warehouse
 
@@ -51,10 +76,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#34)
+* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L34)
 
 
-### $address_supplier
+### <a name="property-$address_supplier"></a>$address_supplier
 
     public mixed $address_supplier
 
@@ -63,10 +88,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#35)
+* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L35)
 
 
-### $context
+### <a name="property-$context"></a>$context
 
     public mixed $context
 
@@ -75,14 +100,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#36)
+* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L36)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed HTMLTemplateSupplyOrderFormCore::__construct(\SupplyOrder $supply_order, $smarty)
 
@@ -91,7 +116,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#43)
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L43)
 
 
 #### Arguments
@@ -100,7 +125,7 @@ Methods
 
 
 
-### getContent
+### <a name="method-getContent"></a>getContent
 
     mixed HTMLTemplateSupplyOrderFormCore::getContent()
 
@@ -109,12 +134,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#62)
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L62)
 
 
 
 
-### getLogo
+### <a name="method-getLogo"></a>getLogo
 
     String HTMLTemplateSupplyOrderFormCore::getLogo()
 
@@ -123,12 +148,12 @@ Returns the invoice logo
 
 
 * Visibility: **protected**
-* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#99)
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L99)
 
 
 
 
-### getBulkFilename
+### <a name="method-getBulkFilename"></a>getBulkFilename
 
     mixed HTMLTemplateSupplyOrderFormCore::getBulkFilename()
 
@@ -137,12 +162,12 @@ Returns the invoice logo
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#115)
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L115)
 
 
 
 
-### getFilename
+### <a name="method-getFilename"></a>getFilename
 
     mixed HTMLTemplateSupplyOrderFormCore::getFilename()
 
@@ -151,12 +176,12 @@ Returns the invoice logo
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#123)
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L123)
 
 
 
 
-### getTaxOrderSummary
+### <a name="method-getTaxOrderSummary"></a>getTaxOrderSummary
 
     array|false|\mysqli_result|null|\PDOStatement|resource HTMLTemplateSupplyOrderFormCore::getTaxOrderSummary()
 
@@ -165,12 +190,12 @@ Get order taxes summary
 
 
 * Visibility: **protected**
-* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#135)
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L135)
 
 
 
 
-### getHeader
+### <a name="method-getHeader"></a>getHeader
 
     mixed HTMLTemplateSupplyOrderFormCore::getHeader()
 
@@ -179,12 +204,12 @@ Get order taxes summary
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#163)
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L163)
 
 
 
 
-### getFooter
+### <a name="method-getFooter"></a>getFooter
 
     mixed HTMLTemplateSupplyOrderFormCore::getFooter()
 
@@ -193,12 +218,12 @@ Get order taxes summary
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#191)
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L191)
 
 
 
 
-### roundSupplyOrderDetails
+### <a name="method-roundSupplyOrderDetails"></a>roundSupplyOrderDetails
 
     mixed HTMLTemplateSupplyOrderFormCore::roundSupplyOrderDetails(array|\PrestaShopCollection $collection)
 
@@ -207,7 +232,7 @@ Rounds values of a SupplyOrderDetail object
 
 
 * Visibility: **protected**
-* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#213)
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L213)
 
 
 #### Arguments
@@ -215,7 +240,7 @@ Rounds values of a SupplyOrderDetail object
 
 
 
-### roundSupplyOrder
+### <a name="method-roundSupplyOrder"></a>roundSupplyOrder
 
     mixed HTMLTemplateSupplyOrderFormCore::roundSupplyOrder(\SupplyOrder $supply_order)
 
@@ -224,7 +249,7 @@ Rounds values of a SupplyOrder object
 
 
 * Visibility: **protected**
-* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 231](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#231)
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 231](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#L231)
 
 
 #### Arguments

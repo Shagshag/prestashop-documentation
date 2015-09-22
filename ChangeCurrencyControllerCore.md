@@ -18,9 +18,18 @@ ChangeCurrencyControllerCore
 
 Methods
 -------
+* [initContent](#method-initContent)
 
 
-### initContent
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-initContent"></a>initContent
 
     mixed ChangeCurrencyControllerCore::initContent()
 
@@ -29,7 +38,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/ChangeCurrencyController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ChangeCurrencyController.php#33)
+* This method is defined in [controllers/front/ChangeCurrencyController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ChangeCurrencyController.php#L33)
 
 
 

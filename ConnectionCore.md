@@ -17,8 +17,31 @@ ConnectionCore
 Properties
 ----------
 
+* [$id_guest](#property-$id_guest)
+* [$id_page](#property-$id_page)
+* [$ip_address](#property-$ip_address)
+* [$http_referer](#property-$http_referer)
+* [$id_shop](#property-$id_shop)
+* [$id_shop_group](#property-$id_shop_group)
+* [$date_add](#property-$date_add)
+* [$definition](#property-$definition)
 
-### $id_guest
+Methods
+-------
+* [getFields](#method-getFields)
+* [setPageConnection](#method-setPageConnection)
+* [setNewConnection](#method-setNewConnection)
+* [setPageTime](#method-setPageTime)
+* [cleanConnectionsPages](#method-cleanConnectionsPages)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_guest"></a>$id_guest
 
     public integer $id_guest
 
@@ -27,10 +50,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Connection.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#30)
+* This property is defined in [classes/Connection.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L30)
 
 
-### $id_page
+### <a name="property-$id_page"></a>$id_page
 
     public integer $id_page
 
@@ -39,10 +62,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Connection.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#33)
+* This property is defined in [classes/Connection.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L33)
 
 
-### $ip_address
+### <a name="property-$ip_address"></a>$ip_address
 
     public string $ip_address
 
@@ -51,10 +74,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Connection.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#36)
+* This property is defined in [classes/Connection.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L36)
 
 
-### $http_referer
+### <a name="property-$http_referer"></a>$http_referer
 
     public string $http_referer
 
@@ -63,10 +86,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Connection.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#39)
+* This property is defined in [classes/Connection.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L39)
 
 
-### $id_shop
+### <a name="property-$id_shop"></a>$id_shop
 
     public integer $id_shop
 
@@ -75,10 +98,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Connection.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#42)
+* This property is defined in [classes/Connection.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L42)
 
 
-### $id_shop_group
+### <a name="property-$id_shop_group"></a>$id_shop_group
 
     public integer $id_shop_group
 
@@ -87,10 +110,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Connection.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#45)
+* This property is defined in [classes/Connection.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L45)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -99,10 +122,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Connection.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#48)
+* This property is defined in [classes/Connection.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L48)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'connections', 'primary' => 'id_connections', 'fields' => array('id_guest' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_page' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'ip_address' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'http_referer' => array('type' => self::TYPE_STRING, 'validate' => 'isAbsoluteUrl'), 'id_shop' => array('type' => self::TYPE_INT, 'required' => true), 'id_shop_group' => array('type' => self::TYPE_INT, 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
 
@@ -112,14 +135,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Connection.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#53)
+* This property is defined in [classes/Connection.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L53)
 
 
 Methods
 -------
 
 
-### getFields
+### <a name="method-getFields"></a>getFields
 
     array ConnectionCore::getFields()
 
@@ -128,12 +151,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Connection.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#71)
+* This method is defined in [classes/Connection.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L71)
 
 
 
 
-### setPageConnection
+### <a name="method-setPageConnection"></a>setPageConnection
 
     mixed ConnectionCore::setPageConnection($cookie, $full)
 
@@ -143,7 +166,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Connection.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#81)
+* This method is defined in [classes/Connection.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L81)
 
 
 #### Arguments
@@ -152,7 +175,7 @@ Methods
 
 
 
-### setNewConnection
+### <a name="method-setNewConnection"></a>setNewConnection
 
     mixed ConnectionCore::setNewConnection($cookie)
 
@@ -162,7 +185,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Connection.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#115)
+* This method is defined in [classes/Connection.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L115)
 
 
 #### Arguments
@@ -170,7 +193,7 @@ Methods
 
 
 
-### setPageTime
+### <a name="method-setPageTime"></a>setPageTime
 
     mixed ConnectionCore::setPageTime($id_connections, $id_page, $time_start, $time)
 
@@ -180,7 +203,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Connection.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#164)
+* This method is defined in [classes/Connection.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L164)
 
 
 #### Arguments
@@ -191,7 +214,7 @@ Methods
 
 
 
-### cleanConnectionsPages
+### <a name="method-cleanConnectionsPages"></a>cleanConnectionsPages
 
     mixed ConnectionCore::cleanConnectionsPages()
 
@@ -201,7 +224,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Connection.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#184)
+* This method is defined in [classes/Connection.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L184)
 
 
 

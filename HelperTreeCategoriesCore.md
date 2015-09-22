@@ -15,57 +15,165 @@ HelperTreeCategoriesCore
 Constants
 ----------
 
+* [DEFAULT_TEMPLATE](#constant-DEFAULT_TEMPLATE)
+* [DEFAULT_NODE_FOLDER_TEMPLATE](#constant-DEFAULT_NODE_FOLDER_TEMPLATE)
+* [DEFAULT_NODE_ITEM_TEMPLATE](#constant-DEFAULT_NODE_ITEM_TEMPLATE)
+* [DEFAULT_TEMPLATE_DIRECTORY](#constant-DEFAULT_TEMPLATE_DIRECTORY)
+* [DEFAULT_HEADER_TEMPLATE](#constant-DEFAULT_HEADER_TEMPLATE)
 
-### DEFAULT_TEMPLATE
+Properties
+----------
+
+* [$_disabled_categories](#property-$_disabled_categories)
+* [$_input_name](#property-$_input_name)
+* [$_lang](#property-$_lang)
+* [$_root_category](#property-$_root_category)
+* [$_selected_categories](#property-$_selected_categories)
+* [$_full_tree](#property-$_full_tree)
+* [$_shop](#property-$_shop)
+* [$_use_checkbox](#property-$_use_checkbox)
+* [$_use_search](#property-$_use_search)
+* [$_use_shop_restriction](#property-$_use_shop_restriction)
+* [$_children_only](#property-$_children_only)
+* [$_attributes](#property-$_attributes)
+* [$_context](#property-$_context)
+* [$_data](#property-$_data)
+* [$_data_search](#property-$_data_search)
+* [$_headerTemplate](#property-$_headerTemplate)
+* [$_id_tree](#property-$_id_tree)
+* [$_id](#property-$_id)
+* [$_node_folder_template](#property-$_node_folder_template)
+* [$_node_item_template](#property-$_node_item_template)
+* [$_template](#property-$_template)
+* [$_template_directory](#property-$_template_directory)
+* [$_title](#property-$_title)
+* [$_no_js](#property-$_no_js)
+* [$_toolbar](#property-$_toolbar)
+
+Methods
+-------
+* [__construct](#method-__construct)
+* [fillTree](#method-fillTree)
+* [getData](#method-getData)
+* [setChildrenOnly](#method-setChildrenOnly)
+* [setFullTree](#method-setFullTree)
+* [getFullTree](#method-getFullTree)
+* [setDisabledCategories](#method-setDisabledCategories)
+* [getDisabledCategories](#method-getDisabledCategories)
+* [setInputName](#method-setInputName)
+* [getInputName](#method-getInputName)
+* [setLang](#method-setLang)
+* [getLang](#method-getLang)
+* [getNodeFolderTemplate](#method-getNodeFolderTemplate)
+* [getNodeItemTemplate](#method-getNodeItemTemplate)
+* [setRootCategory](#method-setRootCategory)
+* [getRootCategory](#method-getRootCategory)
+* [setSelectedCategories](#method-setSelectedCategories)
+* [getSelectedCategories](#method-getSelectedCategories)
+* [setShop](#method-setShop)
+* [getShop](#method-getShop)
+* [getTemplate](#method-getTemplate)
+* [setUseCheckBox](#method-setUseCheckBox)
+* [setUseSearch](#method-setUseSearch)
+* [setUseShopRestriction](#method-setUseShopRestriction)
+* [useCheckBox](#method-useCheckBox)
+* [useSearch](#method-useSearch)
+* [useShopRestriction](#method-useShopRestriction)
+* [render](#method-render)
+* [renderNodes](#method-renderNodes)
+* [_disableCategories](#method-_disableCategories)
+* [_getSelectedChildNumbers](#method-_getSelectedChildNumbers)
+* [__toString](#method-__toString)
+* [setActions](#method-setActions)
+* [getActions](#method-getActions)
+* [setAttribute](#method-setAttribute)
+* [getAttribute](#method-getAttribute)
+* [setAttributes](#method-setAttributes)
+* [setIdTree](#method-setIdTree)
+* [getIdTree](#method-getIdTree)
+* [getAttributes](#method-getAttributes)
+* [setContext](#method-setContext)
+* [getContext](#method-getContext)
+* [setDataSearch](#method-setDataSearch)
+* [getDataSearch](#method-getDataSearch)
+* [setData](#method-setData)
+* [setHeaderTemplate](#method-setHeaderTemplate)
+* [getHeaderTemplate](#method-getHeaderTemplate)
+* [setId](#method-setId)
+* [getId](#method-getId)
+* [setNodeFolderTemplate](#method-setNodeFolderTemplate)
+* [setNodeItemTemplate](#method-setNodeItemTemplate)
+* [setTemplate](#method-setTemplate)
+* [setTemplateDirectory](#method-setTemplateDirectory)
+* [getTemplateDirectory](#method-getTemplateDirectory)
+* [getTemplateFile](#method-getTemplateFile)
+* [setNoJS](#method-setNoJS)
+* [setTitle](#method-setTitle)
+* [getTitle](#method-getTitle)
+* [setToolbar](#method-setToolbar)
+* [getToolbar](#method-getToolbar)
+* [addAction](#method-addAction)
+* [removeActions](#method-removeActions)
+* [renderToolbar](#method-renderToolbar)
+* [useInput](#method-useInput)
+* [useToolbar](#method-useToolbar)
+* [_normalizeDirectory](#method-_normalizeDirectory)
+
+
+Constants
+----------
+
+
+### <a name="constant-DEFAULT_TEMPLATE"></a>DEFAULT_TEMPLATE
 
     const DEFAULT_TEMPLATE = 'tree.tpl'
 
 
 
-* This constant is defined in [classes/helper/HelperTreeCategories.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#30)
+* This constant is defined in [classes/helper/HelperTreeCategories.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L30)
 
 
-### DEFAULT_NODE_FOLDER_TEMPLATE
+### <a name="constant-DEFAULT_NODE_FOLDER_TEMPLATE"></a>DEFAULT_NODE_FOLDER_TEMPLATE
 
     const DEFAULT_NODE_FOLDER_TEMPLATE = 'tree_node_folder.tpl'
 
 
 
-* This constant is defined in [classes/helper/HelperTreeCategories.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#32)
+* This constant is defined in [classes/helper/HelperTreeCategories.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L32)
 
 
-### DEFAULT_NODE_ITEM_TEMPLATE
+### <a name="constant-DEFAULT_NODE_ITEM_TEMPLATE"></a>DEFAULT_NODE_ITEM_TEMPLATE
 
     const DEFAULT_NODE_ITEM_TEMPLATE = 'tree_node_item.tpl'
 
 
 
-* This constant is defined in [classes/helper/HelperTreeCategories.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#33)
+* This constant is defined in [classes/helper/HelperTreeCategories.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L33)
 
 
-### DEFAULT_TEMPLATE_DIRECTORY
+### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
 
     const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
 
 
 
-* This constant is defined in [classes/helper/HelperTreeCategories.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#29)
+* This constant is defined in [classes/helper/HelperTreeCategories.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L29)
 
 
-### DEFAULT_HEADER_TEMPLATE
+### <a name="constant-DEFAULT_HEADER_TEMPLATE"></a>DEFAULT_HEADER_TEMPLATE
 
     const DEFAULT_HEADER_TEMPLATE = 'tree_header.tpl'
 
 
 
-* This constant is defined in [classes/helper/HelperTreeCategories.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#31)
+* This constant is defined in [classes/helper/HelperTreeCategories.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L31)
 
 
 Properties
 ----------
 
 
-### $_disabled_categories
+### <a name="property-$_disabled_categories"></a>$_disabled_categories
 
     private mixed $_disabled_categories
 
@@ -74,10 +182,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#33)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L33)
 
 
-### $_input_name
+### <a name="property-$_input_name"></a>$_input_name
 
     private mixed $_input_name
 
@@ -86,10 +194,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#34)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L34)
 
 
-### $_lang
+### <a name="property-$_lang"></a>$_lang
 
     private mixed $_lang
 
@@ -98,10 +206,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#35)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L35)
 
 
-### $_root_category
+### <a name="property-$_root_category"></a>$_root_category
 
     private mixed $_root_category
 
@@ -110,10 +218,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#36)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L36)
 
 
-### $_selected_categories
+### <a name="property-$_selected_categories"></a>$_selected_categories
 
     private mixed $_selected_categories
 
@@ -122,10 +230,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#37)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L37)
 
 
-### $_full_tree
+### <a name="property-$_full_tree"></a>$_full_tree
 
     private mixed $_full_tree = false
 
@@ -134,10 +242,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#38)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L38)
 
 
-### $_shop
+### <a name="property-$_shop"></a>$_shop
 
     private mixed $_shop
 
@@ -146,10 +254,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#39)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L39)
 
 
-### $_use_checkbox
+### <a name="property-$_use_checkbox"></a>$_use_checkbox
 
     private mixed $_use_checkbox
 
@@ -158,10 +266,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#40)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L40)
 
 
-### $_use_search
+### <a name="property-$_use_search"></a>$_use_search
 
     private mixed $_use_search
 
@@ -170,10 +278,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#41)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L41)
 
 
-### $_use_shop_restriction
+### <a name="property-$_use_shop_restriction"></a>$_use_shop_restriction
 
     private mixed $_use_shop_restriction
 
@@ -182,10 +290,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#42)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L42)
 
 
-### $_children_only
+### <a name="property-$_children_only"></a>$_children_only
 
     private mixed $_children_only = false
 
@@ -194,10 +302,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#43)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L43)
 
 
-### $_attributes
+### <a name="property-$_attributes"></a>$_attributes
 
     protected mixed $_attributes
 
@@ -206,10 +314,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#35)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L35)
 
 
-### $_context
+### <a name="property-$_context"></a>$_context
 
     private mixed $_context
 
@@ -218,10 +326,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#36)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L36)
 
 
-### $_data
+### <a name="property-$_data"></a>$_data
 
     protected mixed $_data
 
@@ -230,10 +338,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#37)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L37)
 
 
-### $_data_search
+### <a name="property-$_data_search"></a>$_data_search
 
     protected mixed $_data_search
 
@@ -242,10 +350,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#38)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L38)
 
 
-### $_headerTemplate
+### <a name="property-$_headerTemplate"></a>$_headerTemplate
 
     protected mixed $_headerTemplate
 
@@ -254,10 +362,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#39)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L39)
 
 
-### $_id_tree
+### <a name="property-$_id_tree"></a>$_id_tree
 
     protected mixed $_id_tree
 
@@ -266,10 +374,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#40)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L40)
 
 
-### $_id
+### <a name="property-$_id"></a>$_id
 
     private mixed $_id
 
@@ -278,10 +386,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#41)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L41)
 
 
-### $_node_folder_template
+### <a name="property-$_node_folder_template"></a>$_node_folder_template
 
     protected mixed $_node_folder_template
 
@@ -290,10 +398,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#42)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L42)
 
 
-### $_node_item_template
+### <a name="property-$_node_item_template"></a>$_node_item_template
 
     protected mixed $_node_item_template
 
@@ -302,10 +410,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#43)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L43)
 
 
-### $_template
+### <a name="property-$_template"></a>$_template
 
     protected mixed $_template
 
@@ -314,10 +422,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#44)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L44)
 
 
-### $_template_directory
+### <a name="property-$_template_directory"></a>$_template_directory
 
     private string $_template_directory
 
@@ -326,10 +434,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#47)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L47)
 
 
-### $_title
+### <a name="property-$_title"></a>$_title
 
     private mixed $_title
 
@@ -338,10 +446,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#48)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L48)
 
 
-### $_no_js
+### <a name="property-$_no_js"></a>$_no_js
 
     private mixed $_no_js
 
@@ -350,10 +458,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#49)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L49)
 
 
-### $_toolbar
+### <a name="property-$_toolbar"></a>$_toolbar
 
     private \TreeToolbar $_toolbar
 
@@ -362,14 +470,14 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperTreeCategories.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#52)
+* This property is defined in [classes/helper/HelperTreeCategories.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L52)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed TreeCore::__construct($id, $data)
 
@@ -379,7 +487,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#54)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L54)
 
 
 #### Arguments
@@ -388,7 +496,7 @@ Methods
 
 
 
-### fillTree
+### <a name="method-fillTree"></a>fillTree
 
     mixed HelperTreeCategoriesCore::fillTree($categories, $id_category)
 
@@ -397,7 +505,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#62)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L62)
 
 
 #### Arguments
@@ -406,7 +514,7 @@ Methods
 
 
 
-### getData
+### <a name="method-getData"></a>getData
 
     mixed TreeCore::getData()
 
@@ -416,12 +524,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#176)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L176)
 
 
 
 
-### setChildrenOnly
+### <a name="method-setChildrenOnly"></a>setChildrenOnly
 
     mixed HelperTreeCategoriesCore::setChildrenOnly($value)
 
@@ -430,7 +538,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#132)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L132)
 
 
 #### Arguments
@@ -438,7 +546,7 @@ Methods
 
 
 
-### setFullTree
+### <a name="method-setFullTree"></a>setFullTree
 
     mixed HelperTreeCategoriesCore::setFullTree($value)
 
@@ -447,7 +555,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#138)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L138)
 
 
 #### Arguments
@@ -455,7 +563,7 @@ Methods
 
 
 
-### getFullTree
+### <a name="method-getFullTree"></a>getFullTree
 
     mixed HelperTreeCategoriesCore::getFullTree()
 
@@ -464,12 +572,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#144)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L144)
 
 
 
 
-### setDisabledCategories
+### <a name="method-setDisabledCategories"></a>setDisabledCategories
 
     mixed HelperTreeCategoriesCore::setDisabledCategories($value)
 
@@ -478,7 +586,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#150)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L150)
 
 
 #### Arguments
@@ -486,7 +594,7 @@ Methods
 
 
 
-### getDisabledCategories
+### <a name="method-getDisabledCategories"></a>getDisabledCategories
 
     mixed HelperTreeCategoriesCore::getDisabledCategories()
 
@@ -495,12 +603,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#156)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L156)
 
 
 
 
-### setInputName
+### <a name="method-setInputName"></a>setInputName
 
     mixed HelperTreeCategoriesCore::setInputName($value)
 
@@ -509,7 +617,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#161)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L161)
 
 
 #### Arguments
@@ -517,7 +625,7 @@ Methods
 
 
 
-### getInputName
+### <a name="method-getInputName"></a>getInputName
 
     mixed HelperTreeCategoriesCore::getInputName()
 
@@ -526,12 +634,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#167)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L167)
 
 
 
 
-### setLang
+### <a name="method-setLang"></a>setLang
 
     mixed HelperTreeCategoriesCore::setLang($value)
 
@@ -540,7 +648,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#176)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L176)
 
 
 #### Arguments
@@ -548,7 +656,7 @@ Methods
 
 
 
-### getLang
+### <a name="method-getLang"></a>getLang
 
     mixed HelperTreeCategoriesCore::getLang()
 
@@ -557,12 +665,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#182)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L182)
 
 
 
 
-### getNodeFolderTemplate
+### <a name="method-getNodeFolderTemplate"></a>getNodeFolderTemplate
 
     mixed TreeCore::getNodeFolderTemplate()
 
@@ -572,12 +680,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#217)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L217)
 
 
 
 
-### getNodeItemTemplate
+### <a name="method-getNodeItemTemplate"></a>getNodeItemTemplate
 
     mixed TreeCore::getNodeItemTemplate()
 
@@ -587,12 +695,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#232)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L232)
 
 
 
 
-### setRootCategory
+### <a name="method-setRootCategory"></a>setRootCategory
 
     mixed HelperTreeCategoriesCore::setRootCategory($value)
 
@@ -601,7 +709,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#209)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L209)
 
 
 #### Arguments
@@ -609,7 +717,7 @@ Methods
 
 
 
-### getRootCategory
+### <a name="method-getRootCategory"></a>getRootCategory
 
     mixed HelperTreeCategoriesCore::getRootCategory()
 
@@ -618,12 +726,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#219)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L219)
 
 
 
 
-### setSelectedCategories
+### <a name="method-setSelectedCategories"></a>setSelectedCategories
 
     mixed HelperTreeCategoriesCore::setSelectedCategories($value)
 
@@ -632,7 +740,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#224)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L224)
 
 
 #### Arguments
@@ -640,7 +748,7 @@ Methods
 
 
 
-### getSelectedCategories
+### <a name="method-getSelectedCategories"></a>getSelectedCategories
 
     mixed HelperTreeCategoriesCore::getSelectedCategories()
 
@@ -649,12 +757,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#234)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L234)
 
 
 
 
-### setShop
+### <a name="method-setShop"></a>setShop
 
     mixed HelperTreeCategoriesCore::setShop($value)
 
@@ -663,7 +771,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#243)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L243)
 
 
 #### Arguments
@@ -671,7 +779,7 @@ Methods
 
 
 
-### getShop
+### <a name="method-getShop"></a>getShop
 
     mixed HelperTreeCategoriesCore::getShop()
 
@@ -680,12 +788,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 249](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#249)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 249](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L249)
 
 
 
 
-### getTemplate
+### <a name="method-getTemplate"></a>getTemplate
 
     mixed TreeCore::getTemplate()
 
@@ -695,12 +803,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#247)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L247)
 
 
 
 
-### setUseCheckBox
+### <a name="method-setUseCheckBox"></a>setUseCheckBox
 
     mixed HelperTreeCategoriesCore::setUseCheckBox($value)
 
@@ -709,7 +817,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#275)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L275)
 
 
 #### Arguments
@@ -717,7 +825,7 @@ Methods
 
 
 
-### setUseSearch
+### <a name="method-setUseSearch"></a>setUseSearch
 
     mixed HelperTreeCategoriesCore::setUseSearch($value)
 
@@ -726,7 +834,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#281)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L281)
 
 
 #### Arguments
@@ -734,7 +842,7 @@ Methods
 
 
 
-### setUseShopRestriction
+### <a name="method-setUseShopRestriction"></a>setUseShopRestriction
 
     mixed HelperTreeCategoriesCore::setUseShopRestriction($value)
 
@@ -743,7 +851,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#287)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L287)
 
 
 #### Arguments
@@ -751,7 +859,7 @@ Methods
 
 
 
-### useCheckBox
+### <a name="method-useCheckBox"></a>useCheckBox
 
     mixed HelperTreeCategoriesCore::useCheckBox()
 
@@ -760,12 +868,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#293)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L293)
 
 
 
 
-### useSearch
+### <a name="method-useSearch"></a>useSearch
 
     mixed HelperTreeCategoriesCore::useSearch()
 
@@ -774,12 +882,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#298)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L298)
 
 
 
 
-### useShopRestriction
+### <a name="method-useShopRestriction"></a>useShopRestriction
 
     mixed HelperTreeCategoriesCore::useShopRestriction()
 
@@ -788,12 +896,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#303)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L303)
 
 
 
 
-### render
+### <a name="method-render"></a>render
 
     mixed TreeCore::render($data)
 
@@ -803,7 +911,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#378)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L378)
 
 
 #### Arguments
@@ -811,7 +919,7 @@ Methods
 
 
 
-### renderNodes
+### <a name="method-renderNodes"></a>renderNodes
 
     mixed TreeCore::renderNodes($data)
 
@@ -821,7 +929,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#429)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L429)
 
 
 #### Arguments
@@ -829,7 +937,7 @@ Methods
 
 
 
-### _disableCategories
+### <a name="method-_disableCategories"></a>_disableCategories
 
     mixed HelperTreeCategoriesCore::_disableCategories($categories, $disabled_categories)
 
@@ -838,7 +946,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 411](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#411)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 411](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L411)
 
 
 #### Arguments
@@ -847,7 +955,7 @@ Methods
 
 
 
-### _getSelectedChildNumbers
+### <a name="method-_getSelectedChildNumbers"></a>_getSelectedChildNumbers
 
     mixed HelperTreeCategoriesCore::_getSelectedChildNumbers($categories, $selected, $parent)
 
@@ -856,7 +964,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [classes/helper/HelperTreeCategories.php line 425](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#425)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 425](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L425)
 
 
 #### Arguments
@@ -866,7 +974,7 @@ Methods
 
 
 
-### __toString
+### <a name="method-__toString"></a>__toString
 
     mixed TreeCore::__toString()
 
@@ -876,12 +984,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#63)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L63)
 
 
 
 
-### setActions
+### <a name="method-setActions"></a>setActions
 
     mixed TreeCore::setActions($value)
 
@@ -891,7 +999,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#68)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L68)
 
 
 #### Arguments
@@ -899,7 +1007,7 @@ Methods
 
 
 
-### getActions
+### <a name="method-getActions"></a>getActions
 
     mixed TreeCore::getActions()
 
@@ -909,12 +1017,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#78)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L78)
 
 
 
 
-### setAttribute
+### <a name="method-setAttribute"></a>setAttribute
 
     mixed TreeCore::setAttribute($name, $value)
 
@@ -924,7 +1032,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#87)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L87)
 
 
 #### Arguments
@@ -933,7 +1041,7 @@ Methods
 
 
 
-### getAttribute
+### <a name="method-getAttribute"></a>getAttribute
 
     mixed TreeCore::getAttribute($name)
 
@@ -943,7 +1051,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#97)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L97)
 
 
 #### Arguments
@@ -951,7 +1059,7 @@ Methods
 
 
 
-### setAttributes
+### <a name="method-setAttributes"></a>setAttributes
 
     mixed TreeCore::setAttributes($value)
 
@@ -961,7 +1069,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#102)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L102)
 
 
 #### Arguments
@@ -969,7 +1077,7 @@ Methods
 
 
 
-### setIdTree
+### <a name="method-setIdTree"></a>setIdTree
 
     mixed TreeCore::setIdTree($id_tree)
 
@@ -979,7 +1087,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#112)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L112)
 
 
 #### Arguments
@@ -987,7 +1095,7 @@ Methods
 
 
 
-### getIdTree
+### <a name="method-getIdTree"></a>getIdTree
 
     mixed TreeCore::getIdTree()
 
@@ -997,12 +1105,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#118)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L118)
 
 
 
 
-### getAttributes
+### <a name="method-getAttributes"></a>getAttributes
 
     mixed TreeCore::getAttributes()
 
@@ -1012,12 +1120,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#123)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L123)
 
 
 
 
-### setContext
+### <a name="method-setContext"></a>setContext
 
     mixed TreeCore::setContext($value)
 
@@ -1027,7 +1135,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#132)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L132)
 
 
 #### Arguments
@@ -1035,7 +1143,7 @@ Methods
 
 
 
-### getContext
+### <a name="method-getContext"></a>getContext
 
     mixed TreeCore::getContext()
 
@@ -1045,12 +1153,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#138)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L138)
 
 
 
 
-### setDataSearch
+### <a name="method-setDataSearch"></a>setDataSearch
 
     mixed TreeCore::setDataSearch($value)
 
@@ -1060,7 +1168,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#147)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L147)
 
 
 #### Arguments
@@ -1068,7 +1176,7 @@ Methods
 
 
 
-### getDataSearch
+### <a name="method-getDataSearch"></a>getDataSearch
 
     mixed TreeCore::getDataSearch()
 
@@ -1078,12 +1186,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#157)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L157)
 
 
 
 
-### setData
+### <a name="method-setData"></a>setData
 
     mixed TreeCore::setData($value)
 
@@ -1093,7 +1201,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#166)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L166)
 
 
 #### Arguments
@@ -1101,7 +1209,7 @@ Methods
 
 
 
-### setHeaderTemplate
+### <a name="method-setHeaderTemplate"></a>setHeaderTemplate
 
     mixed TreeCore::setHeaderTemplate($value)
 
@@ -1111,7 +1219,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#185)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L185)
 
 
 #### Arguments
@@ -1119,7 +1227,7 @@ Methods
 
 
 
-### getHeaderTemplate
+### <a name="method-getHeaderTemplate"></a>getHeaderTemplate
 
     mixed TreeCore::getHeaderTemplate()
 
@@ -1129,12 +1237,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#191)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L191)
 
 
 
 
-### setId
+### <a name="method-setId"></a>setId
 
     mixed TreeCore::setId($value)
 
@@ -1144,7 +1252,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#200)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L200)
 
 
 #### Arguments
@@ -1152,7 +1260,7 @@ Methods
 
 
 
-### getId
+### <a name="method-getId"></a>getId
 
     mixed TreeCore::getId()
 
@@ -1162,12 +1270,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#206)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L206)
 
 
 
 
-### setNodeFolderTemplate
+### <a name="method-setNodeFolderTemplate"></a>setNodeFolderTemplate
 
     mixed TreeCore::setNodeFolderTemplate($value)
 
@@ -1177,7 +1285,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 211](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#211)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 211](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L211)
 
 
 #### Arguments
@@ -1185,7 +1293,7 @@ Methods
 
 
 
-### setNodeItemTemplate
+### <a name="method-setNodeItemTemplate"></a>setNodeItemTemplate
 
     mixed TreeCore::setNodeItemTemplate($value)
 
@@ -1195,7 +1303,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#226)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L226)
 
 
 #### Arguments
@@ -1203,7 +1311,7 @@ Methods
 
 
 
-### setTemplate
+### <a name="method-setTemplate"></a>setTemplate
 
     mixed TreeCore::setTemplate($value)
 
@@ -1213,7 +1321,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#241)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L241)
 
 
 #### Arguments
@@ -1221,7 +1329,7 @@ Methods
 
 
 
-### setTemplateDirectory
+### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
     \Tree TreeCore::setTemplateDirectory($value)
 
@@ -1231,7 +1339,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#261)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L261)
 
 
 #### Arguments
@@ -1239,7 +1347,7 @@ Methods
 
 
 
-### getTemplateDirectory
+### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
     string TreeCore::getTemplateDirectory()
 
@@ -1249,12 +1357,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#270)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L270)
 
 
 
 
-### getTemplateFile
+### <a name="method-getTemplateFile"></a>getTemplateFile
 
     mixed TreeCore::getTemplateFile($template)
 
@@ -1264,7 +1372,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#280)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L280)
 
 
 #### Arguments
@@ -1272,7 +1380,7 @@ Methods
 
 
 
-### setNoJS
+### <a name="method-setNoJS"></a>setNoJS
 
     mixed TreeCore::setNoJS($value)
 
@@ -1282,7 +1390,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#312)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L312)
 
 
 #### Arguments
@@ -1290,7 +1398,7 @@ Methods
 
 
 
-### setTitle
+### <a name="method-setTitle"></a>setTitle
 
     mixed TreeCore::setTitle($value)
 
@@ -1300,7 +1408,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#318)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L318)
 
 
 #### Arguments
@@ -1308,7 +1416,7 @@ Methods
 
 
 
-### getTitle
+### <a name="method-getTitle"></a>getTitle
 
     mixed TreeCore::getTitle()
 
@@ -1318,12 +1426,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#324)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L324)
 
 
 
 
-### setToolbar
+### <a name="method-setToolbar"></a>setToolbar
 
     mixed TreeCore::setToolbar($value)
 
@@ -1333,7 +1441,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#329)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L329)
 
 
 #### Arguments
@@ -1341,7 +1449,7 @@ Methods
 
 
 
-### getToolbar
+### <a name="method-getToolbar"></a>getToolbar
 
     mixed TreeCore::getToolbar()
 
@@ -1351,12 +1459,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#345)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L345)
 
 
 
 
-### addAction
+### <a name="method-addAction"></a>addAction
 
     mixed TreeCore::addAction($action)
 
@@ -1366,7 +1474,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 358](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#358)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 358](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L358)
 
 
 #### Arguments
@@ -1374,7 +1482,7 @@ Methods
 
 
 
-### removeActions
+### <a name="method-removeActions"></a>removeActions
 
     mixed TreeCore::removeActions()
 
@@ -1384,12 +1492,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 368](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#368)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 368](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L368)
 
 
 
 
-### renderToolbar
+### <a name="method-renderToolbar"></a>renderToolbar
 
     mixed TreeCore::renderToolbar()
 
@@ -1399,12 +1507,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#464)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L464)
 
 
 
 
-### useInput
+### <a name="method-useInput"></a>useInput
 
     mixed TreeCore::useInput()
 
@@ -1414,12 +1522,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#469)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L469)
 
 
 
 
-### useToolbar
+### <a name="method-useToolbar"></a>useToolbar
 
     mixed TreeCore::useToolbar()
 
@@ -1429,12 +1537,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 474](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#474)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 474](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L474)
 
 
 
 
-### _normalizeDirectory
+### <a name="method-_normalizeDirectory"></a>_normalizeDirectory
 
     mixed TreeCore::_normalizeDirectory($directory)
 
@@ -1444,7 +1552,7 @@ Methods
 
 * Visibility: **private**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in [classes/helper/HelperTreeCategories.php line 479](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#479)
+* This method is defined in [classes/helper/HelperTreeCategories.php line 479](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#L479)
 
 
 #### Arguments

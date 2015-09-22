@@ -17,8 +17,37 @@ AdminTaxRulesGroupControllerCore
 Properties
 ----------
 
+* [$tax_rule](#property-$tax_rule)
+* [$selected_countries](#property-$selected_countries)
+* [$selected_states](#property-$selected_states)
+* [$errors_tax_rule](#property-$errors_tax_rule)
+* [$object](#property-$object)
 
-### $tax_rule
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderList](#method-renderList)
+* [initRulesList](#method-initRulesList)
+* [renderForm](#method-renderForm)
+* [initRuleForm](#method-initRuleForm)
+* [initProcess](#method-initProcess)
+* [processCreateRule](#method-processCreateRule)
+* [processBulkDeleteTaxRules](#method-processBulkDeleteTaxRules)
+* [processDeleteTaxRule](#method-processDeleteTaxRule)
+* [deleteTaxRule](#method-deleteTaxRule)
+* [validateTaxRule](#method-validateTaxRule)
+* [displayAjaxUpdateTaxRule](#method-displayAjaxUpdateTaxRule)
+* [updateTaxRulesGroup](#method-updateTaxRulesGroup)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$tax_rule"></a>$tax_rule
 
     public mixed $tax_rule
 
@@ -27,10 +56,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminTaxRulesGroupController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#32)
+* This property is defined in [controllers/admin/AdminTaxRulesGroupController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L32)
 
 
-### $selected_countries
+### <a name="property-$selected_countries"></a>$selected_countries
 
     public mixed $selected_countries = array()
 
@@ -39,10 +68,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminTaxRulesGroupController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#33)
+* This property is defined in [controllers/admin/AdminTaxRulesGroupController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L33)
 
 
-### $selected_states
+### <a name="property-$selected_states"></a>$selected_states
 
     public mixed $selected_states = array()
 
@@ -51,10 +80,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminTaxRulesGroupController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#34)
+* This property is defined in [controllers/admin/AdminTaxRulesGroupController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L34)
 
 
-### $errors_tax_rule
+### <a name="property-$errors_tax_rule"></a>$errors_tax_rule
 
     public mixed $errors_tax_rule
 
@@ -63,10 +92,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminTaxRulesGroupController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#35)
+* This property is defined in [controllers/admin/AdminTaxRulesGroupController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L35)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \TaxRulesGroup $object
 
@@ -75,14 +104,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminTaxRulesGroupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#30)
+* This property is defined in [controllers/admin/AdminTaxRulesGroupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminTaxRulesGroupControllerCore::__construct()
 
@@ -91,12 +120,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#37)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L37)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminTaxRulesGroupControllerCore::initPageHeaderToolbar()
 
@@ -105,12 +134,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#78)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L78)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminTaxRulesGroupControllerCore::renderList()
 
@@ -119,12 +148,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#91)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L91)
 
 
 
 
-### initRulesList
+### <a name="method-initRulesList"></a>initRulesList
 
     mixed AdminTaxRulesGroupControllerCore::initRulesList($id_group)
 
@@ -133,7 +162,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#99)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L99)
 
 
 #### Arguments
@@ -141,7 +170,7 @@ Methods
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminTaxRulesGroupControllerCore::renderForm()
 
@@ -150,12 +179,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#164)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L164)
 
 
 
 
-### initRuleForm
+### <a name="method-initRuleForm"></a>initRuleForm
 
     mixed AdminTaxRulesGroupControllerCore::initRuleForm()
 
@@ -164,12 +193,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#236)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L236)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminTaxRulesGroupControllerCore::initProcess()
 
@@ -178,12 +207,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 379](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#379)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 379](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L379)
 
 
 
 
-### processCreateRule
+### <a name="method-processCreateRule"></a>processCreateRule
 
     mixed AdminTaxRulesGroupControllerCore::processCreateRule()
 
@@ -192,12 +221,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 404](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#404)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 404](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L404)
 
 
 
 
-### processBulkDeleteTaxRules
+### <a name="method-processBulkDeleteTaxRules"></a>processBulkDeleteTaxRules
 
     mixed AdminTaxRulesGroupControllerCore::processBulkDeleteTaxRules()
 
@@ -206,12 +235,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 496](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#496)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 496](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L496)
 
 
 
 
-### processDeleteTaxRule
+### <a name="method-processDeleteTaxRule"></a>processDeleteTaxRule
 
     mixed AdminTaxRulesGroupControllerCore::processDeleteTaxRule()
 
@@ -220,12 +249,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 501](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#501)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 501](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L501)
 
 
 
 
-### deleteTaxRule
+### <a name="method-deleteTaxRule"></a>deleteTaxRule
 
     mixed AdminTaxRulesGroupControllerCore::deleteTaxRule(array $id_tax_rule_list)
 
@@ -234,7 +263,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 506](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#506)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 506](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L506)
 
 
 #### Arguments
@@ -242,7 +271,7 @@ Methods
 
 
 
-### validateTaxRule
+### <a name="method-validateTaxRule"></a>validateTaxRule
 
     array AdminTaxRulesGroupControllerCore::validateTaxRule(\TaxRule $tr)
 
@@ -251,7 +280,7 @@ Check if the tax rule could be added in the database
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 534](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#534)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 534](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L534)
 
 
 #### Arguments
@@ -259,7 +288,7 @@ Check if the tax rule could be added in the database
 
 
 
-### displayAjaxUpdateTaxRule
+### <a name="method-displayAjaxUpdateTaxRule"></a>displayAjaxUpdateTaxRule
 
     mixed AdminTaxRulesGroupControllerCore::displayAjaxUpdateTaxRule()
 
@@ -268,12 +297,12 @@ Check if the tax rule could be added in the database
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 540](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#540)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 540](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L540)
 
 
 
 
-### updateTaxRulesGroup
+### <a name="method-updateTaxRulesGroup"></a>updateTaxRulesGroup
 
     \TaxRulesGroup AdminTaxRulesGroupControllerCore::updateTaxRulesGroup(\TaxRulesGroup $object)
 
@@ -282,7 +311,7 @@ Check if the tax rule could be added in the database
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 558](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#558)
+* This method is defined in [controllers/admin/AdminTaxRulesGroupController.php line 558](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxRulesGroupController.php#L558)
 
 
 #### Arguments

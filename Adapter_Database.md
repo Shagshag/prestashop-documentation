@@ -31,9 +31,19 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [select](#method-select)
+* [escape](#method-escape)
 
 
-### select
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-select"></a>select
 
     mixed Core_Foundation_Database_DatabaseInterface::select($sqlString)
 
@@ -43,7 +53,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface)
-* This method is defined in [Adapter/Adapter_Database.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_Database.php#29)
+* This method is defined in [Adapter/Adapter_Database.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_Database.php#L29)
 
 
 #### Arguments
@@ -51,7 +61,7 @@ Methods
 
 
 
-### escape
+### <a name="method-escape"></a>escape
 
     mixed Core_Foundation_Database_DatabaseInterface::escape($unsafeData)
 
@@ -61,7 +71,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface)
-* This method is defined in [Adapter/Adapter_Database.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_Database.php#30)
+* This method is defined in [Adapter/Adapter_Database.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_Database.php#L30)
 
 
 #### Arguments

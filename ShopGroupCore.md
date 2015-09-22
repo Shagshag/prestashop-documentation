@@ -17,8 +17,34 @@ ShopGroupCore
 Properties
 ----------
 
+* [$name](#property-$name)
+* [$active](#property-$active)
+* [$share_customer](#property-$share_customer)
+* [$share_stock](#property-$share_stock)
+* [$share_order](#property-$share_order)
+* [$deleted](#property-$deleted)
+* [$definition](#property-$definition)
 
-### $name
+Methods
+-------
+* [getFields](#method-getFields)
+* [getShopGroups](#method-getShopGroups)
+* [getTotalShopGroup](#method-getTotalShopGroup)
+* [haveShops](#method-haveShops)
+* [getTotalShops](#method-getTotalShops)
+* [getShopsFromGroup](#method-getShopsFromGroup)
+* [getIdByName](#method-getIdByName)
+* [hasDependency](#method-hasDependency)
+* [shopNameExists](#method-shopNameExists)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$name"></a>$name
 
     public mixed $name
 
@@ -27,10 +53,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopGroup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#32)
+* This property is defined in [classes/shop/ShopGroup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L32)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public mixed $active = true
 
@@ -39,10 +65,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopGroup.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#33)
+* This property is defined in [classes/shop/ShopGroup.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L33)
 
 
-### $share_customer
+### <a name="property-$share_customer"></a>$share_customer
 
     public mixed $share_customer
 
@@ -51,10 +77,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopGroup.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#34)
+* This property is defined in [classes/shop/ShopGroup.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L34)
 
 
-### $share_stock
+### <a name="property-$share_stock"></a>$share_stock
 
     public mixed $share_stock
 
@@ -63,10 +89,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopGroup.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#35)
+* This property is defined in [classes/shop/ShopGroup.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L35)
 
 
-### $share_order
+### <a name="property-$share_order"></a>$share_order
 
     public mixed $share_order
 
@@ -75,10 +101,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopGroup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#36)
+* This property is defined in [classes/shop/ShopGroup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L36)
 
 
-### $deleted
+### <a name="property-$deleted"></a>$deleted
 
     public mixed $deleted
 
@@ -87,10 +113,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/shop/ShopGroup.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#37)
+* This property is defined in [classes/shop/ShopGroup.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L37)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'shop_group', 'primary' => 'id_shop_group', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'share_customer' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'share_order' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'share_stock' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'deleted' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
 
@@ -100,14 +126,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/shop/ShopGroup.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#42)
+* This property is defined in [classes/shop/ShopGroup.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L42)
 
 
 Methods
 -------
 
 
-### getFields
+### <a name="method-getFields"></a>getFields
 
     array ShopGroupCore::getFields()
 
@@ -116,12 +142,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/shop/ShopGroup.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#59)
+* This method is defined in [classes/shop/ShopGroup.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L59)
 
 
 
 
-### getShopGroups
+### <a name="method-getShopGroups"></a>getShopGroups
 
     mixed ShopGroupCore::getShopGroups($active)
 
@@ -131,7 +157,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/shop/ShopGroup.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#68)
+* This method is defined in [classes/shop/ShopGroup.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L68)
 
 
 #### Arguments
@@ -139,7 +165,7 @@ Methods
 
 
 
-### getTotalShopGroup
+### <a name="method-getTotalShopGroup"></a>getTotalShopGroup
 
     integer ShopGroupCore::getTotalShopGroup($active)
 
@@ -149,7 +175,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/shop/ShopGroup.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#81)
+* This method is defined in [classes/shop/ShopGroup.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L81)
 
 
 #### Arguments
@@ -157,7 +183,7 @@ Methods
 
 
 
-### haveShops
+### <a name="method-haveShops"></a>haveShops
 
     mixed ShopGroupCore::haveShops()
 
@@ -166,12 +192,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/shop/ShopGroup.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#86)
+* This method is defined in [classes/shop/ShopGroup.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L86)
 
 
 
 
-### getTotalShops
+### <a name="method-getTotalShops"></a>getTotalShops
 
     mixed ShopGroupCore::getTotalShops()
 
@@ -180,12 +206,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/shop/ShopGroup.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#91)
+* This method is defined in [classes/shop/ShopGroup.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L91)
 
 
 
 
-### getShopsFromGroup
+### <a name="method-getShopsFromGroup"></a>getShopsFromGroup
 
     mixed ShopGroupCore::getShopsFromGroup($id_group)
 
@@ -195,7 +221,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/shop/ShopGroup.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#99)
+* This method is defined in [classes/shop/ShopGroup.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L99)
 
 
 #### Arguments
@@ -203,7 +229,7 @@ Methods
 
 
 
-### getIdByName
+### <a name="method-getIdByName"></a>getIdByName
 
     integer ShopGroupCore::getIdByName(string $name)
 
@@ -213,7 +239,7 @@ Return a group shop ID from group shop name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/shop/ShopGroup.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#113)
+* This method is defined in [classes/shop/ShopGroup.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L113)
 
 
 #### Arguments
@@ -221,7 +247,7 @@ Return a group shop ID from group shop name
 
 
 
-### hasDependency
+### <a name="method-hasDependency"></a>hasDependency
 
     boolean ShopGroupCore::hasDependency(integer $id_shop_group, string $check)
 
@@ -231,7 +257,7 @@ Detect dependency with customer or orders
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/shop/ShopGroup.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#128)
+* This method is defined in [classes/shop/ShopGroup.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L128)
 
 
 #### Arguments
@@ -240,7 +266,7 @@ Detect dependency with customer or orders
 
 
 
-### shopNameExists
+### <a name="method-shopNameExists"></a>shopNameExists
 
     mixed ShopGroupCore::shopNameExists($name, $id_shop)
 
@@ -249,7 +275,7 @@ Detect dependency with customer or orders
 
 
 * Visibility: **public**
-* This method is defined in [classes/shop/ShopGroup.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#160)
+* This method is defined in [classes/shop/ShopGroup.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L160)
 
 
 #### Arguments

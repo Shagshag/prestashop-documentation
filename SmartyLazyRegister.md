@@ -16,8 +16,23 @@ Used to delay loading of external classes with smarty-&gt;register_plugin
 Properties
 ----------
 
+* [$registry](#property-$registry)
+* [$instance](#property-$instance)
 
-### $registry
+Methods
+-------
+* [register](#method-register)
+* [__call](#method-__call)
+* [getInstance](#method-getInstance)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$registry"></a>$registry
 
     protected mixed $registry = array()
 
@@ -26,10 +41,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [config/smarty.config.inc.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#227)
+* This property is defined in [config/smarty.config.inc.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L227)
 
 
-### $instance
+### <a name="property-$instance"></a>$instance
 
     protected mixed $instance
 
@@ -39,14 +54,14 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [config/smarty.config.inc.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#228)
+* This property is defined in [config/smarty.config.inc.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L228)
 
 
 Methods
 -------
 
 
-### register
+### <a name="method-register"></a>register
 
     mixed SmartyLazyRegister::register(string|array $params)
 
@@ -55,7 +70,7 @@ Register a function or method to be dynamically called later
 
 
 * Visibility: **public**
-* This method is defined in [config/smarty.config.inc.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#234)
+* This method is defined in [config/smarty.config.inc.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L234)
 
 
 #### Arguments
@@ -63,7 +78,7 @@ Register a function or method to be dynamically called later
 
 
 
-### __call
+### <a name="method-__call"></a>__call
 
     mixed SmartyLazyRegister::__call(string $name, mixed $arguments)
 
@@ -72,7 +87,7 @@ Dynamically call static function or method
 
 
 * Visibility: **public**
-* This method is defined in [config/smarty.config.inc.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#250)
+* This method is defined in [config/smarty.config.inc.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L250)
 
 
 #### Arguments
@@ -81,7 +96,7 @@ Dynamically call static function or method
 
 
 
-### getInstance
+### <a name="method-getInstance"></a>getInstance
 
     mixed SmartyLazyRegister::getInstance()
 
@@ -91,7 +106,7 @@ Dynamically call static function or method
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [config/smarty.config.inc.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#272)
+* This method is defined in [config/smarty.config.inc.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L272)
 
 
 

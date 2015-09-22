@@ -30,8 +30,22 @@ needs please refer to http://www.prestashop.com for more information.
 Properties
 ----------
 
+* [$filesystem](#property-$filesystem)
 
-### $filesystem
+Methods
+-------
+* [__construct](#method-__construct)
+* [getAvailableMails](#method-getAvailableMails)
+* [getCleanedMailName](#method-getCleanedMailName)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$filesystem"></a>$filesystem
 
     private mixed $filesystem
 
@@ -40,14 +54,14 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Business/Email/Core_Business_Email_EmailLister.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Email/Core_Business_Email_EmailLister.php#29)
+* This property is defined in [Core/Business/Email/Core_Business_Email_EmailLister.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Email/Core_Business_Email_EmailLister.php#L29)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed Core_Business_Email_EmailLister::__construct(\Core_Foundation_FileSystem_FileSystem $fs)
 
@@ -56,7 +70,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Email/Core_Business_Email_EmailLister.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Email/Core_Business_Email_EmailLister.php#31)
+* This method is defined in [Core/Business/Email/Core_Business_Email_EmailLister.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Email/Core_Business_Email_EmailLister.php#L31)
 
 
 #### Arguments
@@ -64,7 +78,7 @@ Methods
 
 
 
-### getAvailableMails
+### <a name="method-getAvailableMails"></a>getAvailableMails
 
     array|null Core_Business_Email_EmailLister::getAvailableMails(null $dir)
 
@@ -73,7 +87,7 @@ Return the list of available mails
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Email/Core_Business_Email_EmailLister.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Email/Core_Business_Email_EmailLister.php#43)
+* This method is defined in [Core/Business/Email/Core_Business_Email_EmailLister.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Email/Core_Business_Email_EmailLister.php#L43)
 
 
 #### Arguments
@@ -81,7 +95,7 @@ Return the list of available mails
 
 
 
-### getCleanedMailName
+### <a name="method-getCleanedMailName"></a>getCleanedMailName
 
     string Core_Business_Email_EmailLister::getCleanedMailName($mail_name)
 
@@ -90,7 +104,7 @@ Give in input getAvailableMails(), will output a human readable and proper strin
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Email/Core_Business_Email_EmailLister.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Email/Core_Business_Email_EmailLister.php#77)
+* This method is defined in [Core/Business/Email/Core_Business_Email_EmailLister.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Email/Core_Business_Email_EmailLister.php#L77)
 
 
 #### Arguments

@@ -16,8 +16,59 @@ ConfigurationTestCore
 Properties
 ----------
 
+* [$test_files](#property-$test_files)
 
-### $test_files
+Methods
+-------
+* [getDefaultTests](#method-getDefaultTests)
+* [getDefaultTestsOp](#method-getDefaultTestsOp)
+* [check](#method-check)
+* [run](#method-run)
+* [test_phpversion](#method-test_phpversion)
+* [test_new_phpversion](#method-test_new_phpversion)
+* [test_mysql_support](#method-test_mysql_support)
+* [test_pdo_mysql](#method-test_pdo_mysql)
+* [test_magicquotes](#method-test_magicquotes)
+* [test_upload](#method-test_upload)
+* [test_fopen](#method-test_fopen)
+* [test_system](#method-test_system)
+* [test_gd](#method-test_gd)
+* [test_register_globals](#method-test_register_globals)
+* [test_gz](#method-test_gz)
+* [test_dir](#method-test_dir)
+* [test_file](#method-test_file)
+* [test_config_dir](#method-test_config_dir)
+* [test_sitemap](#method-test_sitemap)
+* [test_root_dir](#method-test_root_dir)
+* [test_log_dir](#method-test_log_dir)
+* [test_admin_dir](#method-test_admin_dir)
+* [test_img_dir](#method-test_img_dir)
+* [test_module_dir](#method-test_module_dir)
+* [test_cache_dir](#method-test_cache_dir)
+* [test_tools_v2_dir](#method-test_tools_v2_dir)
+* [test_cache_v2_dir](#method-test_cache_v2_dir)
+* [test_download_dir](#method-test_download_dir)
+* [test_mails_dir](#method-test_mails_dir)
+* [test_translations_dir](#method-test_translations_dir)
+* [test_theme_lang_dir](#method-test_theme_lang_dir)
+* [test_theme_pdf_lang_dir](#method-test_theme_pdf_lang_dir)
+* [test_theme_cache_dir](#method-test_theme_cache_dir)
+* [test_customizable_products_dir](#method-test_customizable_products_dir)
+* [test_virtual_products_dir](#method-test_virtual_products_dir)
+* [test_mbstring](#method-test_mbstring)
+* [test_mcrypt](#method-test_mcrypt)
+* [test_sessions](#method-test_sessions)
+* [test_dom](#method-test_dom)
+* [test_files](#method-test_files)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$test_files"></a>$test_files
 
     public mixed $test_files = array('/cache/smarty/compile/index.php', '/classes/log/index.php', '/classes/cache/index.php', '/config/index.php', '/tools/tar/Archive_Tar.php', '/tools/pear/PEAR.php', '/controllers/admin/AdminLoginController.php', '/css/index.php', '/download/index.php', '/img/404.gif', '/js/tools.js', '/js/jquery/plugins/fancybox/jquery.fancybox.js', '/localization/fr.xml', '/mails/index.php', '/modules/index.php', '/override/controllers/front/index.php', '/pdf/order-return.tpl', '/themes/default-bootstrap/css/global.css', '/translations/export/index.php', '/webservice/dispatcher.php', '/upload/index.php', '/index.php')
 
@@ -27,14 +78,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/ConfigurationTest.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#29)
+* This property is defined in [classes/ConfigurationTest.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L29)
 
 
 Methods
 -------
 
 
-### getDefaultTests
+### <a name="method-getDefaultTests"></a>getDefaultTests
 
     array ConfigurationTestCore::getDefaultTests()
 
@@ -45,12 +96,12 @@ all path are _PS_ROOT_DIR_ related
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#61)
+* This method is defined in [classes/ConfigurationTest.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L61)
 
 
 
 
-### getDefaultTestsOp
+### <a name="method-getDefaultTestsOp"></a>getDefaultTestsOp
 
     array ConfigurationTestCore::getDefaultTestsOp()
 
@@ -60,12 +111,12 @@ key are method name, value are parameters (false for no parameter)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#102)
+* This method is defined in [classes/ConfigurationTest.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L102)
 
 
 
 
-### check
+### <a name="method-check"></a>check
 
     array ConfigurationTestCore::check(array $tests)
 
@@ -75,7 +126,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#123)
+* This method is defined in [classes/ConfigurationTest.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L123)
 
 
 #### Arguments
@@ -83,7 +134,7 @@ run all test defined in $tests
 
 
 
-### run
+### <a name="method-run"></a>run
 
     mixed ConfigurationTestCore::run($ptr, $arg)
 
@@ -93,7 +144,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#132)
+* This method is defined in [classes/ConfigurationTest.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L132)
 
 
 #### Arguments
@@ -102,7 +153,7 @@ run all test defined in $tests
 
 
 
-### test_phpversion
+### <a name="method-test_phpversion"></a>test_phpversion
 
     mixed ConfigurationTestCore::test_phpversion()
 
@@ -112,12 +163,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#140)
+* This method is defined in [classes/ConfigurationTest.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L140)
 
 
 
 
-### test_new_phpversion
+### <a name="method-test_new_phpversion"></a>test_new_phpversion
 
     mixed ConfigurationTestCore::test_new_phpversion()
 
@@ -127,12 +178,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#145)
+* This method is defined in [classes/ConfigurationTest.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L145)
 
 
 
 
-### test_mysql_support
+### <a name="method-test_mysql_support"></a>test_mysql_support
 
     mixed ConfigurationTestCore::test_mysql_support()
 
@@ -142,12 +193,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#150)
+* This method is defined in [classes/ConfigurationTest.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L150)
 
 
 
 
-### test_pdo_mysql
+### <a name="method-test_pdo_mysql"></a>test_pdo_mysql
 
     mixed ConfigurationTestCore::test_pdo_mysql()
 
@@ -157,12 +208,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#155)
+* This method is defined in [classes/ConfigurationTest.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L155)
 
 
 
 
-### test_magicquotes
+### <a name="method-test_magicquotes"></a>test_magicquotes
 
     mixed ConfigurationTestCore::test_magicquotes()
 
@@ -172,12 +223,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#160)
+* This method is defined in [classes/ConfigurationTest.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L160)
 
 
 
 
-### test_upload
+### <a name="method-test_upload"></a>test_upload
 
     mixed ConfigurationTestCore::test_upload()
 
@@ -187,12 +238,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#165)
+* This method is defined in [classes/ConfigurationTest.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L165)
 
 
 
 
-### test_fopen
+### <a name="method-test_fopen"></a>test_fopen
 
     mixed ConfigurationTestCore::test_fopen()
 
@@ -202,12 +253,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#170)
+* This method is defined in [classes/ConfigurationTest.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L170)
 
 
 
 
-### test_system
+### <a name="method-test_system"></a>test_system
 
     mixed ConfigurationTestCore::test_system($funcs)
 
@@ -217,7 +268,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#175)
+* This method is defined in [classes/ConfigurationTest.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L175)
 
 
 #### Arguments
@@ -225,7 +276,7 @@ run all test defined in $tests
 
 
 
-### test_gd
+### <a name="method-test_gd"></a>test_gd
 
     mixed ConfigurationTestCore::test_gd()
 
@@ -235,12 +286,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#185)
+* This method is defined in [classes/ConfigurationTest.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L185)
 
 
 
 
-### test_register_globals
+### <a name="method-test_register_globals"></a>test_register_globals
 
     mixed ConfigurationTestCore::test_register_globals()
 
@@ -250,12 +301,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#190)
+* This method is defined in [classes/ConfigurationTest.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L190)
 
 
 
 
-### test_gz
+### <a name="method-test_gz"></a>test_gz
 
     mixed ConfigurationTestCore::test_gz()
 
@@ -265,12 +316,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#195)
+* This method is defined in [classes/ConfigurationTest.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L195)
 
 
 
 
-### test_dir
+### <a name="method-test_dir"></a>test_dir
 
     mixed ConfigurationTestCore::test_dir($relative_dir, $recursive, $full_report)
 
@@ -280,7 +331,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#203)
+* This method is defined in [classes/ConfigurationTest.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L203)
 
 
 #### Arguments
@@ -290,7 +341,7 @@ run all test defined in $tests
 
 
 
-### test_file
+### <a name="method-test_file"></a>test_file
 
     mixed ConfigurationTestCore::test_file($file_relative)
 
@@ -300,7 +351,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#236)
+* This method is defined in [classes/ConfigurationTest.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L236)
 
 
 #### Arguments
@@ -308,7 +359,7 @@ run all test defined in $tests
 
 
 
-### test_config_dir
+### <a name="method-test_config_dir"></a>test_config_dir
 
     mixed ConfigurationTestCore::test_config_dir($dir)
 
@@ -318,7 +369,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#242)
+* This method is defined in [classes/ConfigurationTest.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L242)
 
 
 #### Arguments
@@ -326,7 +377,7 @@ run all test defined in $tests
 
 
 
-### test_sitemap
+### <a name="method-test_sitemap"></a>test_sitemap
 
     mixed ConfigurationTestCore::test_sitemap($dir)
 
@@ -336,7 +387,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#247)
+* This method is defined in [classes/ConfigurationTest.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L247)
 
 
 #### Arguments
@@ -344,7 +395,7 @@ run all test defined in $tests
 
 
 
-### test_root_dir
+### <a name="method-test_root_dir"></a>test_root_dir
 
     mixed ConfigurationTestCore::test_root_dir($dir)
 
@@ -354,7 +405,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#252)
+* This method is defined in [classes/ConfigurationTest.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L252)
 
 
 #### Arguments
@@ -362,7 +413,7 @@ run all test defined in $tests
 
 
 
-### test_log_dir
+### <a name="method-test_log_dir"></a>test_log_dir
 
     mixed ConfigurationTestCore::test_log_dir($dir)
 
@@ -372,7 +423,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#257)
+* This method is defined in [classes/ConfigurationTest.php line 257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L257)
 
 
 #### Arguments
@@ -380,7 +431,7 @@ run all test defined in $tests
 
 
 
-### test_admin_dir
+### <a name="method-test_admin_dir"></a>test_admin_dir
 
     mixed ConfigurationTestCore::test_admin_dir($dir)
 
@@ -390,7 +441,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#262)
+* This method is defined in [classes/ConfigurationTest.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L262)
 
 
 #### Arguments
@@ -398,7 +449,7 @@ run all test defined in $tests
 
 
 
-### test_img_dir
+### <a name="method-test_img_dir"></a>test_img_dir
 
     mixed ConfigurationTestCore::test_img_dir($dir)
 
@@ -408,7 +459,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#267)
+* This method is defined in [classes/ConfigurationTest.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L267)
 
 
 #### Arguments
@@ -416,7 +467,7 @@ run all test defined in $tests
 
 
 
-### test_module_dir
+### <a name="method-test_module_dir"></a>test_module_dir
 
     mixed ConfigurationTestCore::test_module_dir($dir)
 
@@ -426,7 +477,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#272)
+* This method is defined in [classes/ConfigurationTest.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L272)
 
 
 #### Arguments
@@ -434,7 +485,7 @@ run all test defined in $tests
 
 
 
-### test_cache_dir
+### <a name="method-test_cache_dir"></a>test_cache_dir
 
     mixed ConfigurationTestCore::test_cache_dir($dir)
 
@@ -444,7 +495,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#277)
+* This method is defined in [classes/ConfigurationTest.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L277)
 
 
 #### Arguments
@@ -452,7 +503,7 @@ run all test defined in $tests
 
 
 
-### test_tools_v2_dir
+### <a name="method-test_tools_v2_dir"></a>test_tools_v2_dir
 
     mixed ConfigurationTestCore::test_tools_v2_dir($dir)
 
@@ -462,7 +513,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#282)
+* This method is defined in [classes/ConfigurationTest.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L282)
 
 
 #### Arguments
@@ -470,7 +521,7 @@ run all test defined in $tests
 
 
 
-### test_cache_v2_dir
+### <a name="method-test_cache_v2_dir"></a>test_cache_v2_dir
 
     mixed ConfigurationTestCore::test_cache_v2_dir($dir)
 
@@ -480,7 +531,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#287)
+* This method is defined in [classes/ConfigurationTest.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L287)
 
 
 #### Arguments
@@ -488,7 +539,7 @@ run all test defined in $tests
 
 
 
-### test_download_dir
+### <a name="method-test_download_dir"></a>test_download_dir
 
     mixed ConfigurationTestCore::test_download_dir($dir)
 
@@ -498,7 +549,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 292](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#292)
+* This method is defined in [classes/ConfigurationTest.php line 292](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L292)
 
 
 #### Arguments
@@ -506,7 +557,7 @@ run all test defined in $tests
 
 
 
-### test_mails_dir
+### <a name="method-test_mails_dir"></a>test_mails_dir
 
     mixed ConfigurationTestCore::test_mails_dir($dir)
 
@@ -516,7 +567,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 297](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#297)
+* This method is defined in [classes/ConfigurationTest.php line 297](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L297)
 
 
 #### Arguments
@@ -524,7 +575,7 @@ run all test defined in $tests
 
 
 
-### test_translations_dir
+### <a name="method-test_translations_dir"></a>test_translations_dir
 
     mixed ConfigurationTestCore::test_translations_dir($dir)
 
@@ -534,7 +585,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 302](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#302)
+* This method is defined in [classes/ConfigurationTest.php line 302](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L302)
 
 
 #### Arguments
@@ -542,7 +593,7 @@ run all test defined in $tests
 
 
 
-### test_theme_lang_dir
+### <a name="method-test_theme_lang_dir"></a>test_theme_lang_dir
 
     mixed ConfigurationTestCore::test_theme_lang_dir($dir)
 
@@ -552,7 +603,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 307](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#307)
+* This method is defined in [classes/ConfigurationTest.php line 307](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L307)
 
 
 #### Arguments
@@ -560,7 +611,7 @@ run all test defined in $tests
 
 
 
-### test_theme_pdf_lang_dir
+### <a name="method-test_theme_pdf_lang_dir"></a>test_theme_pdf_lang_dir
 
     mixed ConfigurationTestCore::test_theme_pdf_lang_dir($dir)
 
@@ -570,7 +621,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#316)
+* This method is defined in [classes/ConfigurationTest.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L316)
 
 
 #### Arguments
@@ -578,7 +629,7 @@ run all test defined in $tests
 
 
 
-### test_theme_cache_dir
+### <a name="method-test_theme_cache_dir"></a>test_theme_cache_dir
 
     mixed ConfigurationTestCore::test_theme_cache_dir($dir)
 
@@ -588,7 +639,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#325)
+* This method is defined in [classes/ConfigurationTest.php line 325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L325)
 
 
 #### Arguments
@@ -596,7 +647,7 @@ run all test defined in $tests
 
 
 
-### test_customizable_products_dir
+### <a name="method-test_customizable_products_dir"></a>test_customizable_products_dir
 
     mixed ConfigurationTestCore::test_customizable_products_dir($dir)
 
@@ -606,7 +657,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 334](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#334)
+* This method is defined in [classes/ConfigurationTest.php line 334](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L334)
 
 
 #### Arguments
@@ -614,7 +665,7 @@ run all test defined in $tests
 
 
 
-### test_virtual_products_dir
+### <a name="method-test_virtual_products_dir"></a>test_virtual_products_dir
 
     mixed ConfigurationTestCore::test_virtual_products_dir($dir)
 
@@ -624,7 +675,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#339)
+* This method is defined in [classes/ConfigurationTest.php line 339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L339)
 
 
 #### Arguments
@@ -632,7 +683,7 @@ run all test defined in $tests
 
 
 
-### test_mbstring
+### <a name="method-test_mbstring"></a>test_mbstring
 
     mixed ConfigurationTestCore::test_mbstring()
 
@@ -642,12 +693,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 344](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#344)
+* This method is defined in [classes/ConfigurationTest.php line 344](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L344)
 
 
 
 
-### test_mcrypt
+### <a name="method-test_mcrypt"></a>test_mcrypt
 
     mixed ConfigurationTestCore::test_mcrypt()
 
@@ -657,12 +708,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 349](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#349)
+* This method is defined in [classes/ConfigurationTest.php line 349](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L349)
 
 
 
 
-### test_sessions
+### <a name="method-test_sessions"></a>test_sessions
 
     mixed ConfigurationTestCore::test_sessions()
 
@@ -672,12 +723,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 354](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#354)
+* This method is defined in [classes/ConfigurationTest.php line 354](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L354)
 
 
 
 
-### test_dom
+### <a name="method-test_dom"></a>test_dom
 
     mixed ConfigurationTestCore::test_dom()
 
@@ -687,12 +738,12 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 362](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#362)
+* This method is defined in [classes/ConfigurationTest.php line 362](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L362)
 
 
 
 
-### test_files
+### <a name="method-test_files"></a>test_files
 
     mixed ConfigurationTestCore::test_files($full)
 
@@ -702,7 +753,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationTest.php line 367](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#367)
+* This method is defined in [classes/ConfigurationTest.php line 367](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#L367)
 
 
 #### Arguments

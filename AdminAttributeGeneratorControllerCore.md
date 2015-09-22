@@ -17,8 +17,33 @@ AdminAttributeGeneratorControllerCore
 Properties
 ----------
 
+* [$combinations](#property-$combinations)
+* [$product](#property-$product)
+* [$object](#property-$object)
 
-### $combinations
+Methods
+-------
+* [__construct](#method-__construct)
+* [setMedia](#method-setMedia)
+* [addAttribute](#method-addAttribute)
+* [createCombinations](#method-createCombinations)
+* [initProcess](#method-initProcess)
+* [postProcess](#method-postProcess)
+* [processGenerate](#method-processGenerate)
+* [setAttributesImpacts](#method-setAttributesImpacts)
+* [initGroupTable](#method-initGroupTable)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [initBreadcrumbs](#method-initBreadcrumbs)
+* [initContent](#method-initContent)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$combinations"></a>$combinations
 
     protected mixed $combinations = array()
 
@@ -27,10 +52,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminAttributeGeneratorController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#34)
+* This property is defined in [controllers/admin/AdminAttributeGeneratorController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L34)
 
 
-### $product
+### <a name="property-$product"></a>$product
 
     protected \Product $product
 
@@ -39,10 +64,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminAttributeGeneratorController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#37)
+* This property is defined in [controllers/admin/AdminAttributeGeneratorController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L37)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Product $object
 
@@ -51,14 +76,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminAttributeGeneratorController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#32)
+* This property is defined in [controllers/admin/AdminAttributeGeneratorController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L32)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminAttributeGeneratorControllerCore::__construct()
 
@@ -67,12 +92,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#39)
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L39)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminAttributeGeneratorControllerCore::setMedia()
 
@@ -81,12 +106,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#49)
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L49)
 
 
 
 
-### addAttribute
+### <a name="method-addAttribute"></a>addAttribute
 
     mixed AdminAttributeGeneratorControllerCore::addAttribute($attributes, $price, $weight)
 
@@ -95,7 +120,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#55)
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L55)
 
 
 #### Arguments
@@ -105,7 +130,7 @@ Methods
 
 
 
-### createCombinations
+### <a name="method-createCombinations"></a>createCombinations
 
     mixed AdminAttributeGeneratorControllerCore::createCombinations($list)
 
@@ -115,7 +140,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#76)
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L76)
 
 
 #### Arguments
@@ -123,7 +148,7 @@ Methods
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminAttributeGeneratorControllerCore::initProcess()
 
@@ -132,12 +157,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#92)
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L92)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminAttributeGeneratorControllerCore::postProcess()
 
@@ -146,12 +171,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#108)
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L108)
 
 
 
 
-### processGenerate
+### <a name="method-processGenerate"></a>processGenerate
 
     mixed AdminAttributeGeneratorControllerCore::processGenerate()
 
@@ -160,12 +185,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#115)
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L115)
 
 
 
 
-### setAttributesImpacts
+### <a name="method-setAttributesImpacts"></a>setAttributesImpacts
 
     mixed AdminAttributeGeneratorControllerCore::setAttributesImpacts($id_product, $tab)
 
@@ -175,7 +200,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#175)
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L175)
 
 
 #### Arguments
@@ -184,7 +209,7 @@ Methods
 
 
 
-### initGroupTable
+### <a name="method-initGroupTable"></a>initGroupTable
 
     mixed AdminAttributeGeneratorControllerCore::initGroupTable()
 
@@ -193,12 +218,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#192)
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L192)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminAttributeGeneratorControllerCore::initPageHeaderToolbar()
 
@@ -207,12 +232,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#212)
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L212)
 
 
 
 
-### initBreadcrumbs
+### <a name="method-initBreadcrumbs"></a>initBreadcrumbs
 
     mixed AdminAttributeGeneratorControllerCore::initBreadcrumbs($tab_id, $tabs)
 
@@ -221,7 +246,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#223)
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L223)
 
 
 #### Arguments
@@ -230,7 +255,7 @@ Methods
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminAttributeGeneratorControllerCore::initContent()
 
@@ -239,7 +264,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#229)
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L229)
 
 
 

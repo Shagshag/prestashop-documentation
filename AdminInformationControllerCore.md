@@ -18,9 +18,25 @@ AdminInformationControllerCore
 
 Methods
 -------
+* [__construct](#method-__construct)
+* [initContent](#method-initContent)
+* [initToolbarTitle](#method-initToolbarTitle)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderView](#method-renderView)
+* [getTestResult](#method-getTestResult)
+* [displayAjaxCheckFiles](#method-displayAjaxCheckFiles)
+* [getListOfUpdatedFiles](#method-getListOfUpdatedFiles)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed AdminInformationControllerCore::__construct()
 
@@ -29,12 +45,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInformationController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#29)
+* This method is defined in [controllers/admin/AdminInformationController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#L29)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminInformationControllerCore::initContent()
 
@@ -43,12 +59,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInformationController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#35)
+* This method is defined in [controllers/admin/AdminInformationController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#L35)
 
 
 
 
-### initToolbarTitle
+### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
     mixed AdminInformationControllerCore::initToolbarTitle()
 
@@ -57,12 +73,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInformationController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#42)
+* This method is defined in [controllers/admin/AdminInformationController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#L42)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminInformationControllerCore::initPageHeaderToolbar()
 
@@ -71,12 +87,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInformationController.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#47)
+* This method is defined in [controllers/admin/AdminInformationController.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#L47)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminInformationControllerCore::renderView()
 
@@ -85,12 +101,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInformationController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#53)
+* This method is defined in [controllers/admin/AdminInformationController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#L53)
 
 
 
 
-### getTestResult
+### <a name="method-getTestResult"></a>getTestResult
 
     array AdminInformationControllerCore::getTestResult()
 
@@ -99,12 +115,12 @@ get all tests
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInformationController.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#106)
+* This method is defined in [controllers/admin/AdminInformationController.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#L106)
 
 
 
 
-### displayAjaxCheckFiles
+### <a name="method-displayAjaxCheckFiles"></a>displayAjaxCheckFiles
 
     mixed AdminInformationControllerCore::displayAjaxCheckFiles()
 
@@ -113,12 +129,12 @@ get all tests
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInformationController.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#165)
+* This method is defined in [controllers/admin/AdminInformationController.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#L165)
 
 
 
 
-### getListOfUpdatedFiles
+### <a name="method-getListOfUpdatedFiles"></a>getListOfUpdatedFiles
 
     mixed AdminInformationControllerCore::getListOfUpdatedFiles(\SimpleXMLElement $dir, $path)
 
@@ -127,7 +143,7 @@ get all tests
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInformationController.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#177)
+* This method is defined in [controllers/admin/AdminInformationController.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#L177)
 
 
 #### Arguments

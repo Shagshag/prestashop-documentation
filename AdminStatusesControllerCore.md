@@ -17,8 +17,37 @@ AdminStatusesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [init](#method-init)
+* [initOrderStatutsList](#method-initOrderStatutsList)
+* [initOrdersReturnsList](#method-initOrdersReturnsList)
+* [initOrderReturnsForm](#method-initOrderReturnsForm)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderList](#method-renderList)
+* [checkFilterForOrdersReturnsList](#method-checkFilterForOrdersReturnsList)
+* [renderForm](#method-renderForm)
+* [renderOrderStatusForm](#method-renderOrderStatusForm)
+* [renderOrderReturnsForm](#method-renderOrderReturnsForm)
+* [getTemplates](#method-getTemplates)
+* [postProcess](#method-postProcess)
+* [filterToField](#method-filterToField)
+* [afterImageUpload](#method-afterImageUpload)
+* [ajaxProcessSendEmailOrderState](#method-ajaxProcessSendEmailOrderState)
+* [ajaxProcessDeliveryOrderState](#method-ajaxProcessDeliveryOrderState)
+* [ajaxProcessInvoiceOrderState](#method-ajaxProcessInvoiceOrderState)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \OrderState $object
 
@@ -27,14 +56,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminStatusesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#30)
+* This property is defined in [controllers/admin/AdminStatusesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminStatusesControllerCore::__construct()
 
@@ -43,12 +72,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#32)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L32)
 
 
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed AdminStatusesControllerCore::init()
 
@@ -57,12 +86,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#51)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L51)
 
 
 
 
-### initOrderStatutsList
+### <a name="method-initOrderStatutsList"></a>initOrderStatutsList
 
     mixed AdminStatusesControllerCore::initOrderStatutsList()
 
@@ -71,12 +100,12 @@ init all variables to render the order status list
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#66)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L66)
 
 
 
 
-### initOrdersReturnsList
+### <a name="method-initOrdersReturnsList"></a>initOrdersReturnsList
 
     mixed AdminStatusesControllerCore::initOrdersReturnsList()
 
@@ -85,12 +114,12 @@ init all variables to render the order return list
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#124)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L124)
 
 
 
 
-### initOrderReturnsForm
+### <a name="method-initOrderReturnsForm"></a>initOrderReturnsForm
 
     mixed AdminStatusesControllerCore::initOrderReturnsForm()
 
@@ -99,12 +128,12 @@ init all variables to render the order return list
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#148)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L148)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminStatusesControllerCore::initPageHeaderToolbar()
 
@@ -113,12 +142,12 @@ init all variables to render the order return list
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#188)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L188)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminStatusesControllerCore::renderList()
 
@@ -127,12 +156,12 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#209)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L209)
 
 
 
 
-### checkFilterForOrdersReturnsList
+### <a name="method-checkFilterForOrdersReturnsList"></a>checkFilterForOrdersReturnsList
 
     mixed AdminStatusesControllerCore::checkFilterForOrdersReturnsList()
 
@@ -141,12 +170,12 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#242)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L242)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminStatusesControllerCore::renderForm()
 
@@ -155,12 +184,12 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#257)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L257)
 
 
 
 
-### renderOrderStatusForm
+### <a name="method-renderOrderStatusForm"></a>renderOrderStatusForm
 
     mixed AdminStatusesControllerCore::renderOrderStatusForm()
 
@@ -169,12 +198,12 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 419](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#419)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 419](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L419)
 
 
 
 
-### renderOrderReturnsForm
+### <a name="method-renderOrderReturnsForm"></a>renderOrderReturnsForm
 
     mixed AdminStatusesControllerCore::renderOrderReturnsForm()
 
@@ -183,12 +212,12 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 446](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#446)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 446](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L446)
 
 
 
 
-### getTemplates
+### <a name="method-getTemplates"></a>getTemplates
 
     mixed AdminStatusesControllerCore::getTemplates()
 
@@ -197,12 +226,12 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#493)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L493)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminStatusesControllerCore::postProcess()
 
@@ -211,12 +240,12 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 527](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#527)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 527](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L527)
 
 
 
 
-### filterToField
+### <a name="method-filterToField"></a>filterToField
 
     mixed AdminStatusesControllerCore::filterToField($key, $filter)
 
@@ -225,7 +254,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#615)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L615)
 
 
 #### Arguments
@@ -234,7 +263,7 @@ Function used to render the list to display for this controller
 
 
 
-### afterImageUpload
+### <a name="method-afterImageUpload"></a>afterImageUpload
 
     mixed AdminStatusesControllerCore::afterImageUpload()
 
@@ -243,12 +272,12 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#626)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L626)
 
 
 
 
-### ajaxProcessSendEmailOrderState
+### <a name="method-ajaxProcessSendEmailOrderState"></a>ajaxProcessSendEmailOrderState
 
     mixed AdminStatusesControllerCore::ajaxProcessSendEmailOrderState()
 
@@ -257,12 +286,12 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#642)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L642)
 
 
 
 
-### ajaxProcessDeliveryOrderState
+### <a name="method-ajaxProcessDeliveryOrderState"></a>ajaxProcessDeliveryOrderState
 
     mixed AdminStatusesControllerCore::ajaxProcessDeliveryOrderState()
 
@@ -271,12 +300,12 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 656](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#656)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 656](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L656)
 
 
 
 
-### ajaxProcessInvoiceOrderState
+### <a name="method-ajaxProcessInvoiceOrderState"></a>ajaxProcessInvoiceOrderState
 
     mixed AdminStatusesControllerCore::ajaxProcessInvoiceOrderState()
 
@@ -285,7 +314,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatusesController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#670)
+* This method is defined in [controllers/admin/AdminStatusesController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#L670)
 
 
 

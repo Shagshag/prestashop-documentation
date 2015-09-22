@@ -16,8 +16,29 @@ WebserviceSpecificManagementSearchCore
 Properties
 ----------
 
+* [$objOutput](#property-$objOutput)
+* [$output](#property-$output)
+* [$wsObject](#property-$wsObject)
 
-### $objOutput
+Methods
+-------
+* [setObjectOutput](#method-setObjectOutput)
+* [setWsObject](#method-setWsObject)
+* [getWsObject](#method-getWsObject)
+* [getObjectOutput](#method-getObjectOutput)
+* [setUrlSegment](#method-setUrlSegment)
+* [getUrlSegment](#method-getUrlSegment)
+* [manage](#method-manage)
+* [getContent](#method-getContent)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$objOutput"></a>$objOutput
 
     protected \WebserviceOutputBuilder $objOutput
 
@@ -26,10 +47,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#30)
+* This property is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L30)
 
 
-### $output
+### <a name="property-$output"></a>$output
 
     protected mixed $output
 
@@ -38,10 +59,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#31)
+* This property is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L31)
 
 
-### $wsObject
+### <a name="property-$wsObject"></a>$wsObject
 
     protected \WebserviceRequest $wsObject
 
@@ -50,14 +71,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#34)
+* This property is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L34)
 
 
 Methods
 -------
 
 
-### setObjectOutput
+### <a name="method-setObjectOutput"></a>setObjectOutput
 
     mixed WebserviceSpecificManagementInterface::setObjectOutput(\WebserviceOutputBuilderCore $obj)
 
@@ -67,7 +88,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#29)
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L29)
 
 
 #### Arguments
@@ -75,7 +96,7 @@ Methods
 
 
 
-### setWsObject
+### <a name="method-setWsObject"></a>setWsObject
 
     mixed WebserviceSpecificManagementInterface::setWsObject(\WebserviceRequestCore $obj)
 
@@ -85,7 +106,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#31)
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L31)
 
 
 #### Arguments
@@ -93,7 +114,7 @@ Methods
 
 
 
-### getWsObject
+### <a name="method-getWsObject"></a>getWsObject
 
     mixed WebserviceSpecificManagementInterface::getWsObject()
 
@@ -103,12 +124,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#32)
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L32)
 
 
 
 
-### getObjectOutput
+### <a name="method-getObjectOutput"></a>getObjectOutput
 
     mixed WebserviceSpecificManagementInterface::getObjectOutput()
 
@@ -118,12 +139,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#30)
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L30)
 
 
 
 
-### setUrlSegment
+### <a name="method-setUrlSegment"></a>setUrlSegment
 
     mixed WebserviceSpecificManagementSearchCore::setUrlSegment($segments)
 
@@ -132,7 +153,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#65)
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L65)
 
 
 #### Arguments
@@ -140,7 +161,7 @@ Methods
 
 
 
-### getUrlSegment
+### <a name="method-getUrlSegment"></a>getUrlSegment
 
     mixed WebserviceSpecificManagementSearchCore::getUrlSegment()
 
@@ -149,12 +170,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#71)
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L71)
 
 
 
 
-### manage
+### <a name="method-manage"></a>manage
 
     mixed WebserviceSpecificManagementInterface::manage()
 
@@ -164,12 +185,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#34)
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L34)
 
 
 
 
-### getContent
+### <a name="method-getContent"></a>getContent
 
     array WebserviceSpecificManagementInterface::getContent()
 
@@ -179,7 +200,7 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#41)
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L41)
 
 
 

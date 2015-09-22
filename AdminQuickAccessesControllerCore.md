@@ -17,8 +17,28 @@ AdminQuickAccessesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [initProcess](#method-initProcess)
+* [getQuickAccessesList](#method-getQuickAccessesList)
+* [getLinkToken](#method-getLinkToken)
+* [addQuickLink](#method-addQuickLink)
+* [processDelete](#method-processDelete)
+* [ajaxProcessGetUrl](#method-ajaxProcessGetUrl)
+* [processNewWindow](#method-processNewWindow)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \QuickAccess $object
 
@@ -27,14 +47,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminQuickAccessesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#30)
+* This property is defined in [controllers/admin/AdminQuickAccessesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminQuickAccessesControllerCore::__construct()
 
@@ -43,12 +63,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#32)
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L32)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminQuickAccessesControllerCore::initPageHeaderToolbar()
 
@@ -57,12 +77,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#127)
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L127)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminQuickAccessesControllerCore::initProcess()
 
@@ -71,12 +91,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#140)
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L140)
 
 
 
 
-### getQuickAccessesList
+### <a name="method-getQuickAccessesList"></a>getQuickAccessesList
 
     mixed AdminQuickAccessesControllerCore::getQuickAccessesList()
 
@@ -85,12 +105,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#153)
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L153)
 
 
 
 
-### getLinkToken
+### <a name="method-getLinkToken"></a>getLinkToken
 
     mixed AdminQuickAccessesControllerCore::getLinkToken($item)
 
@@ -99,7 +119,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#159)
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L159)
 
 
 #### Arguments
@@ -107,7 +127,7 @@ Methods
 
 
 
-### addQuickLink
+### <a name="method-addQuickLink"></a>addQuickLink
 
     mixed AdminQuickAccessesControllerCore::addQuickLink()
 
@@ -116,12 +136,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#168)
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L168)
 
 
 
 
-### processDelete
+### <a name="method-processDelete"></a>processDelete
 
     mixed AdminQuickAccessesControllerCore::processDelete()
 
@@ -130,12 +150,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#204)
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L204)
 
 
 
 
-### ajaxProcessGetUrl
+### <a name="method-ajaxProcessGetUrl"></a>ajaxProcessGetUrl
 
     mixed AdminQuickAccessesControllerCore::ajaxProcessGetUrl()
 
@@ -144,12 +164,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#210)
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L210)
 
 
 
 
-### processNewWindow
+### <a name="method-processNewWindow"></a>processNewWindow
 
     mixed AdminQuickAccessesControllerCore::processNewWindow()
 
@@ -158,7 +178,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#227)
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#L227)
 
 
 

@@ -16,8 +16,23 @@ RijndaelCore
 Properties
 ----------
 
+* [$_key](#property-$_key)
+* [$_iv](#property-$_iv)
 
-### $_key
+Methods
+-------
+* [__construct](#method-__construct)
+* [encrypt](#method-encrypt)
+* [decrypt](#method-decrypt)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$_key"></a>$_key
 
     protected mixed $_key
 
@@ -26,10 +41,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Rijndael.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#29)
+* This property is defined in [classes/Rijndael.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#L29)
 
 
-### $_iv
+### <a name="property-$_iv"></a>$_iv
 
     protected mixed $_iv
 
@@ -38,14 +53,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Rijndael.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#30)
+* This property is defined in [classes/Rijndael.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed RijndaelCore::__construct($key, $iv)
 
@@ -54,7 +69,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Rijndael.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#32)
+* This method is defined in [classes/Rijndael.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#L32)
 
 
 #### Arguments
@@ -63,7 +78,7 @@ Methods
 
 
 
-### encrypt
+### <a name="method-encrypt"></a>encrypt
 
     boolean|string RijndaelCore::encrypt(string $plaintext)
 
@@ -72,7 +87,7 @@ Base64 is not required, but it is be more compact than urlencode
 
 
 * Visibility: **public**
-* This method is defined in [classes/Rijndael.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#44)
+* This method is defined in [classes/Rijndael.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#L44)
 
 
 #### Arguments
@@ -80,7 +95,7 @@ Base64 is not required, but it is be more compact than urlencode
 
 
 
-### decrypt
+### <a name="method-decrypt"></a>decrypt
 
     mixed RijndaelCore::decrypt($ciphertext)
 
@@ -89,7 +104,7 @@ Base64 is not required, but it is be more compact than urlencode
 
 
 * Visibility: **public**
-* This method is defined in [classes/Rijndael.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#54)
+* This method is defined in [classes/Rijndael.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#L54)
 
 
 #### Arguments

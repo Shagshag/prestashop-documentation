@@ -17,8 +17,24 @@ QuickAccessCore
 Properties
 ----------
 
+* [$name](#property-$name)
+* [$link](#property-$link)
+* [$new_window](#property-$new_window)
+* [$definition](#property-$definition)
 
-### $name
+Methods
+-------
+* [getQuickAccesses](#method-getQuickAccesses)
+* [toggleNewWindow](#method-toggleNewWindow)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -27,10 +43,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/QuickAccess.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#30)
+* This property is defined in [classes/QuickAccess.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L30)
 
 
-### $link
+### <a name="property-$link"></a>$link
 
     public string $link
 
@@ -39,10 +55,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/QuickAccess.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#33)
+* This property is defined in [classes/QuickAccess.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L33)
 
 
-### $new_window
+### <a name="property-$new_window"></a>$new_window
 
     public boolean $new_window
 
@@ -51,10 +67,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/QuickAccess.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#36)
+* This property is defined in [classes/QuickAccess.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L36)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'quick_access', 'primary' => 'id_quick_access', 'multilang' => true, 'fields' => array('link' => array('type' => self::TYPE_STRING, 'validate' => 'isUrl', 'required' => true, 'size' => 255), 'new_window' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 32)))
 
@@ -64,14 +80,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/QuickAccess.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#41)
+* This property is defined in [classes/QuickAccess.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L41)
 
 
 Methods
 -------
 
 
-### getQuickAccesses
+### <a name="method-getQuickAccesses"></a>getQuickAccesses
 
     array QuickAccessCore::getQuickAccesses($id_lang)
 
@@ -81,7 +97,7 @@ Get all available quick_accesses
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/QuickAccess.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#59)
+* This method is defined in [classes/QuickAccess.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L59)
 
 
 #### Arguments
@@ -89,7 +105,7 @@ Get all available quick_accesses
 
 
 
-### toggleNewWindow
+### <a name="method-toggleNewWindow"></a>toggleNewWindow
 
     mixed QuickAccessCore::toggleNewWindow()
 
@@ -98,7 +114,7 @@ Get all available quick_accesses
 
 
 * Visibility: **public**
-* This method is defined in [classes/QuickAccess.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#68)
+* This method is defined in [classes/QuickAccess.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#L68)
 
 
 

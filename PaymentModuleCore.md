@@ -16,21 +16,51 @@ PaymentModuleCore
 Constants
 ----------
 
+* [DEBUG_MODE](#constant-DEBUG_MODE)
 
-### DEBUG_MODE
+Properties
+----------
+
+* [$currentOrder](#property-$currentOrder)
+* [$currencies](#property-$currencies)
+* [$currencies_mode](#property-$currencies_mode)
+
+Methods
+-------
+* [install](#method-install)
+* [uninstall](#method-uninstall)
+* [addCheckboxCurrencyRestrictionsForModule](#method-addCheckboxCurrencyRestrictionsForModule)
+* [addRadioCurrencyRestrictionsForModule](#method-addRadioCurrencyRestrictionsForModule)
+* [addCheckboxCountryRestrictionsForModule](#method-addCheckboxCountryRestrictionsForModule)
+* [validateOrder](#method-validateOrder)
+* [formatProductAndVoucherForEmail](#method-formatProductAndVoucherForEmail)
+* [_getTxtFormatedAddress](#method-_getTxtFormatedAddress)
+* [_getFormatedAddress](#method-_getFormatedAddress)
+* [getCurrency](#method-getCurrency)
+* [addCurrencyPermissions](#method-addCurrencyPermissions)
+* [getInstalledPaymentModules](#method-getInstalledPaymentModules)
+* [preCall](#method-preCall)
+* [getEmailTemplateContent](#method-getEmailTemplateContent)
+
+
+Constants
+----------
+
+
+### <a name="constant-DEBUG_MODE"></a>DEBUG_MODE
 
     const DEBUG_MODE = false
 
 
 
-* This constant is defined in [classes/PaymentModule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#34)
+* This constant is defined in [classes/PaymentModule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L34)
 
 
 Properties
 ----------
 
 
-### $currentOrder
+### <a name="property-$currentOrder"></a>$currentOrder
 
     public integer $currentOrder
 
@@ -39,10 +69,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/PaymentModule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#30)
+* This property is defined in [classes/PaymentModule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L30)
 
 
-### $currencies
+### <a name="property-$currencies"></a>$currencies
 
     public mixed $currencies = true
 
@@ -51,10 +81,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/PaymentModule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#31)
+* This property is defined in [classes/PaymentModule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L31)
 
 
-### $currencies_mode
+### <a name="property-$currencies_mode"></a>$currencies_mode
 
     public mixed $currencies_mode = 'checkbox'
 
@@ -63,14 +93,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/PaymentModule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#32)
+* This property is defined in [classes/PaymentModule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L32)
 
 
 Methods
 -------
 
 
-### install
+### <a name="method-install"></a>install
 
     mixed PaymentModuleCore::install()
 
@@ -79,12 +109,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/PaymentModule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#36)
+* This method is defined in [classes/PaymentModule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L36)
 
 
 
 
-### uninstall
+### <a name="method-uninstall"></a>uninstall
 
     mixed PaymentModuleCore::uninstall()
 
@@ -93,12 +123,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/PaymentModule.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#74)
+* This method is defined in [classes/PaymentModule.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L74)
 
 
 
 
-### addCheckboxCurrencyRestrictionsForModule
+### <a name="method-addCheckboxCurrencyRestrictionsForModule"></a>addCheckboxCurrencyRestrictionsForModule
 
     boolean PaymentModuleCore::addCheckboxCurrencyRestrictionsForModule(array $shops)
 
@@ -107,7 +137,7 @@ Add checkbox currency restrictions for a new module
 
 
 * Visibility: **public**
-* This method is defined in [classes/PaymentModule.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#91)
+* This method is defined in [classes/PaymentModule.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L91)
 
 
 #### Arguments
@@ -115,7 +145,7 @@ Add checkbox currency restrictions for a new module
 
 
 
-### addRadioCurrencyRestrictionsForModule
+### <a name="method-addRadioCurrencyRestrictionsForModule"></a>addRadioCurrencyRestrictionsForModule
 
     boolean PaymentModuleCore::addRadioCurrencyRestrictionsForModule(array $shops)
 
@@ -124,7 +154,7 @@ Add radio currency restrictions for a new module
 
 
 * Visibility: **public**
-* This method is defined in [classes/PaymentModule.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#113)
+* This method is defined in [classes/PaymentModule.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L113)
 
 
 #### Arguments
@@ -132,7 +162,7 @@ Add radio currency restrictions for a new module
 
 
 
-### addCheckboxCountryRestrictionsForModule
+### <a name="method-addCheckboxCountryRestrictionsForModule"></a>addCheckboxCountryRestrictionsForModule
 
     boolean PaymentModuleCore::addCheckboxCountryRestrictionsForModule(array $shops)
 
@@ -141,7 +171,7 @@ Add checkbox country restrictions for a new module
 
 
 * Visibility: **public**
-* This method is defined in [classes/PaymentModule.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#134)
+* This method is defined in [classes/PaymentModule.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L134)
 
 
 #### Arguments
@@ -149,7 +179,7 @@ Add checkbox country restrictions for a new module
 
 
 
-### validateOrder
+### <a name="method-validateOrder"></a>validateOrder
 
     boolean PaymentModuleCore::validateOrder(integer $id_cart, integer $id_order_state, float $amount_paid, string $payment_method, null $message, array $extra_vars, null $currency_special, boolean $dont_touch_amount, boolean $secure_key, \Shop $shop)
 
@@ -159,7 +189,7 @@ Function called from a payment module
 
 
 * Visibility: **public**
-* This method is defined in [classes/PaymentModule.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#162)
+* This method is defined in [classes/PaymentModule.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L162)
 
 
 #### Arguments
@@ -176,7 +206,7 @@ Function called from a payment module
 
 
 
-### formatProductAndVoucherForEmail
+### <a name="method-formatProductAndVoucherForEmail"></a>formatProductAndVoucherForEmail
 
     mixed PaymentModuleCore::formatProductAndVoucherForEmail(mixed $content)
 
@@ -185,7 +215,7 @@ Function called from a payment module
 
 
 * Visibility: **public**
-* This method is defined in [classes/PaymentModule.php line 835](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#835)
+* This method is defined in [classes/PaymentModule.php line 835](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L835)
 
 
 #### Arguments
@@ -193,7 +223,7 @@ Function called from a payment module
 
 
 
-### _getTxtFormatedAddress
+### <a name="method-_getTxtFormatedAddress"></a>_getTxtFormatedAddress
 
     String PaymentModuleCore::_getTxtFormatedAddress($the_address)
 
@@ -202,7 +232,7 @@ Function called from a payment module
 
 
 * Visibility: **protected**
-* This method is defined in [classes/PaymentModule.php line 845](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#845)
+* This method is defined in [classes/PaymentModule.php line 845](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L845)
 
 
 #### Arguments
@@ -210,7 +240,7 @@ Function called from a payment module
 
 
 
-### _getFormatedAddress
+### <a name="method-_getFormatedAddress"></a>_getFormatedAddress
 
     String PaymentModuleCore::_getFormatedAddress(\Address $the_address, $line_sep, $fields_style)
 
@@ -219,7 +249,7 @@ Function called from a payment module
 
 
 * Visibility: **protected**
-* This method is defined in [classes/PaymentModule.php line 867](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#867)
+* This method is defined in [classes/PaymentModule.php line 867](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L867)
 
 
 #### Arguments
@@ -229,7 +259,7 @@ Function called from a payment module
 
 
 
-### getCurrency
+### <a name="method-getCurrency"></a>getCurrency
 
     \Currency PaymentModuleCore::getCurrency($current_id_currency)
 
@@ -238,7 +268,7 @@ Function called from a payment module
 
 
 * Visibility: **public**
-* This method is defined in [classes/PaymentModule.php line 876](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#876)
+* This method is defined in [classes/PaymentModule.php line 876](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L876)
 
 
 #### Arguments
@@ -246,7 +276,7 @@ Function called from a payment module
 
 
 
-### addCurrencyPermissions
+### <a name="method-addCurrencyPermissions"></a>addCurrencyPermissions
 
     boolean PaymentModuleCore::addCurrencyPermissions(integer $id_currency, array $id_module_list)
 
@@ -256,7 +286,7 @@ Allows specified payment modules to be used by a specific currency
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/PaymentModule.php line 914](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#914)
+* This method is defined in [classes/PaymentModule.php line 914](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L914)
 
 
 #### Arguments
@@ -265,7 +295,7 @@ Allows specified payment modules to be used by a specific currency
 
 
 
-### getInstalledPaymentModules
+### <a name="method-getInstalledPaymentModules"></a>getInstalledPaymentModules
 
     array PaymentModuleCore::getInstalledPaymentModules()
 
@@ -275,12 +305,12 @@ List all installed and active payment modules
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/PaymentModule.php line 945](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#945)
+* This method is defined in [classes/PaymentModule.php line 945](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L945)
 
 
 
 
-### preCall
+### <a name="method-preCall"></a>preCall
 
     mixed PaymentModuleCore::preCall($module_name)
 
@@ -290,7 +320,7 @@ List all installed and active payment modules
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/PaymentModule.php line 962](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#962)
+* This method is defined in [classes/PaymentModule.php line 962](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L962)
 
 
 #### Arguments
@@ -298,7 +328,7 @@ List all installed and active payment modules
 
 
 
-### getEmailTemplateContent
+### <a name="method-getEmailTemplateContent"></a>getEmailTemplateContent
 
     string PaymentModuleCore::getEmailTemplateContent(string $template_name, integer $mail_type, array $var)
 
@@ -307,7 +337,7 @@ Fetch the content of $template_name inside the folder current_theme/mails/curren
 
 
 * Visibility: **protected**
-* This method is defined in [classes/PaymentModule.php line 987](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#987)
+* This method is defined in [classes/PaymentModule.php line 987](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentModule.php#L987)
 
 
 #### Arguments

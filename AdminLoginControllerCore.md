@@ -32,9 +32,25 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [__construct](#method-__construct)
+* [setMedia](#method-setMedia)
+* [initContent](#method-initContent)
+* [checkToken](#method-checkToken)
+* [viewAccess](#method-viewAccess)
+* [postProcess](#method-postProcess)
+* [processLogin](#method-processLogin)
+* [processForgot](#method-processForgot)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed AdminLoginControllerCore::__construct()
 
@@ -43,12 +59,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLoginController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#29)
+* This method is defined in [controllers/admin/AdminLoginController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#L29)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminLoginControllerCore::setMedia()
 
@@ -57,12 +73,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLoginController.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#47)
+* This method is defined in [controllers/admin/AdminLoginController.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#L47)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminLoginControllerCore::initContent()
 
@@ -71,12 +87,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLoginController.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#65)
+* This method is defined in [controllers/admin/AdminLoginController.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#L65)
 
 
 
 
-### checkToken
+### <a name="method-checkToken"></a>checkToken
 
     mixed AdminLoginControllerCore::checkToken()
 
@@ -85,12 +101,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLoginController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#144)
+* This method is defined in [controllers/admin/AdminLoginController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#L144)
 
 
 
 
-### viewAccess
+### <a name="method-viewAccess"></a>viewAccess
 
     boolean AdminLoginControllerCore::viewAccess()
 
@@ -99,12 +115,12 @@ All BO users can access the login page
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLoginController.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#154)
+* This method is defined in [controllers/admin/AdminLoginController.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#L154)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminLoginControllerCore::postProcess()
 
@@ -113,12 +129,12 @@ All BO users can access the login page
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLoginController.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#159)
+* This method is defined in [controllers/admin/AdminLoginController.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#L159)
 
 
 
 
-### processLogin
+### <a name="method-processLogin"></a>processLogin
 
     mixed AdminLoginControllerCore::processLogin()
 
@@ -127,12 +143,12 @@ All BO users can access the login page
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLoginController.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#168)
+* This method is defined in [controllers/admin/AdminLoginController.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#L168)
 
 
 
 
-### processForgot
+### <a name="method-processForgot"></a>processForgot
 
     mixed AdminLoginControllerCore::processForgot()
 
@@ -141,7 +157,7 @@ All BO users can access the login page
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLoginController.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#234)
+* This method is defined in [controllers/admin/AdminLoginController.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#L234)
 
 
 

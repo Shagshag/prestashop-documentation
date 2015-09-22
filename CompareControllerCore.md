@@ -17,8 +17,22 @@ CompareControllerCore
 Properties
 ----------
 
+* [$php_self](#property-$php_self)
 
-### $php_self
+Methods
+-------
+* [setMedia](#method-setMedia)
+* [displayAjax](#method-displayAjax)
+* [initContent](#method-initContent)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'products-comparison'
 
@@ -27,14 +41,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/CompareController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#29)
+* This property is defined in [controllers/front/CompareController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#L29)
 
 
 Methods
 -------
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed CompareControllerCore::setMedia()
 
@@ -43,12 +57,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/CompareController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#31)
+* This method is defined in [controllers/front/CompareController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#L31)
 
 
 
 
-### displayAjax
+### <a name="method-displayAjax"></a>displayAjax
 
     mixed CompareControllerCore::displayAjax()
 
@@ -57,12 +71,12 @@ Display ajax content (this function is called instead of classic display, in aja
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/CompareController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#40)
+* This method is defined in [controllers/front/CompareController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#L40)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed CompareControllerCore::initContent()
 
@@ -71,7 +85,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/CompareController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#69)
+* This method is defined in [controllers/front/CompareController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#L69)
 
 
 

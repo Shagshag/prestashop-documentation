@@ -17,8 +17,40 @@ StoreCore
 Properties
 ----------
 
+* [$id_country](#property-$id_country)
+* [$id_state](#property-$id_state)
+* [$name](#property-$name)
+* [$address1](#property-$address1)
+* [$address2](#property-$address2)
+* [$postcode](#property-$postcode)
+* [$city](#property-$city)
+* [$latitude](#property-$latitude)
+* [$longitude](#property-$longitude)
+* [$hours](#property-$hours)
+* [$phone](#property-$phone)
+* [$fax](#property-$fax)
+* [$note](#property-$note)
+* [$email](#property-$email)
+* [$date_add](#property-$date_add)
+* [$date_upd](#property-$date_upd)
+* [$active](#property-$active)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_country
+Methods
+-------
+* [__construct](#method-__construct)
+* [getWsHours](#method-getWsHours)
+* [setWsHours](#method-setWsHours)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_country"></a>$id_country
 
     public integer $id_country
 
@@ -27,10 +59,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#30)
+* This property is defined in [classes/Store.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L30)
 
 
-### $id_state
+### <a name="property-$id_state"></a>$id_state
 
     public integer $id_state
 
@@ -39,10 +71,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#33)
+* This property is defined in [classes/Store.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L33)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -51,10 +83,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#36)
+* This property is defined in [classes/Store.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L36)
 
 
-### $address1
+### <a name="property-$address1"></a>$address1
 
     public string $address1
 
@@ -63,10 +95,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#39)
+* This property is defined in [classes/Store.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L39)
 
 
-### $address2
+### <a name="property-$address2"></a>$address2
 
     public string $address2
 
@@ -75,10 +107,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#42)
+* This property is defined in [classes/Store.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L42)
 
 
-### $postcode
+### <a name="property-$postcode"></a>$postcode
 
     public string $postcode
 
@@ -87,10 +119,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#45)
+* This property is defined in [classes/Store.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L45)
 
 
-### $city
+### <a name="property-$city"></a>$city
 
     public string $city
 
@@ -99,10 +131,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#48)
+* This property is defined in [classes/Store.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L48)
 
 
-### $latitude
+### <a name="property-$latitude"></a>$latitude
 
     public float $latitude
 
@@ -111,10 +143,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#51)
+* This property is defined in [classes/Store.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L51)
 
 
-### $longitude
+### <a name="property-$longitude"></a>$longitude
 
     public float $longitude
 
@@ -123,10 +155,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#54)
+* This property is defined in [classes/Store.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L54)
 
 
-### $hours
+### <a name="property-$hours"></a>$hours
 
     public string $hours
 
@@ -135,10 +167,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#57)
+* This property is defined in [classes/Store.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L57)
 
 
-### $phone
+### <a name="property-$phone"></a>$phone
 
     public string $phone
 
@@ -147,10 +179,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#60)
+* This property is defined in [classes/Store.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L60)
 
 
-### $fax
+### <a name="property-$fax"></a>$fax
 
     public string $fax
 
@@ -159,10 +191,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#63)
+* This property is defined in [classes/Store.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L63)
 
 
-### $note
+### <a name="property-$note"></a>$note
 
     public string $note
 
@@ -171,10 +203,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#66)
+* This property is defined in [classes/Store.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L66)
 
 
-### $email
+### <a name="property-$email"></a>$email
 
     public string $email
 
@@ -183,10 +215,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#69)
+* This property is defined in [classes/Store.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L69)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -195,10 +227,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#72)
+* This property is defined in [classes/Store.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L72)
 
 
-### $date_upd
+### <a name="property-$date_upd"></a>$date_upd
 
     public string $date_upd
 
@@ -207,10 +239,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#75)
+* This property is defined in [classes/Store.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L75)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public boolean $active = true
 
@@ -219,10 +251,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Store.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#78)
+* This property is defined in [classes/Store.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L78)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'store', 'primary' => 'id_store', 'fields' => array('id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_state' => array('type' => self::TYPE_INT, 'validate' => 'isNullOrUnsignedId'), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 128), 'address1' => array('type' => self::TYPE_STRING, 'validate' => 'isAddress', 'required' => true, 'size' => 128), 'address2' => array('type' => self::TYPE_STRING, 'validate' => 'isAddress', 'size' => 128), 'postcode' => array('type' => self::TYPE_STRING, 'size' => 12), 'city' => array('type' => self::TYPE_STRING, 'validate' => 'isCityName', 'required' => true, 'size' => 64), 'latitude' => array('type' => self::TYPE_FLOAT, 'validate' => 'isCoordinate', 'size' => 13), 'longitude' => array('type' => self::TYPE_FLOAT, 'validate' => 'isCoordinate', 'size' => 13), 'hours' => array('type' => self::TYPE_STRING, 'validate' => 'isSerializedArray', 'size' => 65000), 'phone' => array('type' => self::TYPE_STRING, 'validate' => 'isPhoneNumber', 'size' => 16), 'fax' => array('type' => self::TYPE_STRING, 'validate' => 'isPhoneNumber', 'size' => 16), 'note' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 65000), 'email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'size' => 128), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
 
@@ -232,10 +264,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Store.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#83)
+* This property is defined in [classes/Store.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L83)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_country' => array('xlink_resource' => 'countries'), 'id_state' => array('xlink_resource' => 'states'), 'hours' => array('getter' => 'getWsHours', 'setter' => 'setWsHours')))
 
@@ -244,14 +276,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Store.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#107)
+* This property is defined in [classes/Store.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L107)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed StoreCore::__construct($id_store, $id_lang)
 
@@ -260,7 +292,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Store.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#115)
+* This method is defined in [classes/Store.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L115)
 
 
 #### Arguments
@@ -269,7 +301,7 @@ Methods
 
 
 
-### getWsHours
+### <a name="method-getWsHours"></a>getWsHours
 
     mixed StoreCore::getWsHours()
 
@@ -278,12 +310,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Store.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#122)
+* This method is defined in [classes/Store.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L122)
 
 
 
 
-### setWsHours
+### <a name="method-setWsHours"></a>setWsHours
 
     mixed StoreCore::setWsHours($hours)
 
@@ -292,7 +324,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Store.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#127)
+* This method is defined in [classes/Store.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L127)
 
 
 #### Arguments

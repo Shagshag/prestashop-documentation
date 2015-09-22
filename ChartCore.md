@@ -16,8 +16,34 @@ ChartCore
 Properties
 ----------
 
+* [$poolId](#property-$poolId)
+* [$width](#property-$width)
+* [$height](#property-$height)
+* [$timeMode](#property-$timeMode)
+* [$from](#property-$from)
+* [$to](#property-$to)
+* [$format](#property-$format)
+* [$granularity](#property-$granularity)
+* [$curves](#property-$curves)
 
-### $poolId
+Methods
+-------
+* [init](#method-init)
+* [__construct](#method-__construct)
+* [setSize](#method-setSize)
+* [setTimeMode](#method-setTimeMode)
+* [getCurve](#method-getCurve)
+* [display](#method-display)
+* [fetch](#method-fetch)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$poolId"></a>$poolId
 
     protected mixed $poolId
 
@@ -27,10 +53,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Chart.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#29)
+* This property is defined in [classes/Chart.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L29)
 
 
-### $width
+### <a name="property-$width"></a>$width
 
     protected mixed $width = 600
 
@@ -39,10 +65,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Chart.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#31)
+* This property is defined in [classes/Chart.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L31)
 
 
-### $height
+### <a name="property-$height"></a>$height
 
     protected mixed $height = 300
 
@@ -51,10 +77,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Chart.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#32)
+* This property is defined in [classes/Chart.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L32)
 
 
-### $timeMode
+### <a name="property-$timeMode"></a>$timeMode
 
     protected mixed $timeMode = false
 
@@ -63,10 +89,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Chart.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#35)
+* This property is defined in [classes/Chart.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L35)
 
 
-### $from
+### <a name="property-$from"></a>$from
 
     protected mixed $from
 
@@ -75,10 +101,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Chart.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#36)
+* This property is defined in [classes/Chart.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L36)
 
 
-### $to
+### <a name="property-$to"></a>$to
 
     protected mixed $to
 
@@ -87,10 +113,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Chart.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#37)
+* This property is defined in [classes/Chart.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L37)
 
 
-### $format
+### <a name="property-$format"></a>$format
 
     protected mixed $format
 
@@ -99,10 +125,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Chart.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#38)
+* This property is defined in [classes/Chart.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L38)
 
 
-### $granularity
+### <a name="property-$granularity"></a>$granularity
 
     protected mixed $granularity
 
@@ -111,10 +137,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Chart.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#39)
+* This property is defined in [classes/Chart.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L39)
 
 
-### $curves
+### <a name="property-$curves"></a>$curves
 
     protected mixed $curves = array()
 
@@ -123,14 +149,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Chart.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#41)
+* This property is defined in [classes/Chart.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L41)
 
 
 Methods
 -------
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed ChartCore::init()
 
@@ -140,12 +166,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Chart.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#44)
+* This method is defined in [classes/Chart.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L44)
 
 
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed ChartCore::__construct()
 
@@ -154,12 +180,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Chart.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#53)
+* This method is defined in [classes/Chart.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L53)
 
 
 
 
-### setSize
+### <a name="method-setSize"></a>setSize
 
     mixed ChartCore::setSize($width, $height)
 
@@ -168,7 +194,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Chart.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#59)
+* This method is defined in [classes/Chart.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L59)
 
 
 #### Arguments
@@ -177,7 +203,7 @@ Methods
 
 
 
-### setTimeMode
+### <a name="method-setTimeMode"></a>setTimeMode
 
     mixed ChartCore::setTimeMode($from, $to, $granularity)
 
@@ -186,7 +212,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Chart.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#66)
+* This method is defined in [classes/Chart.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L66)
 
 
 #### Arguments
@@ -196,7 +222,7 @@ Methods
 
 
 
-### getCurve
+### <a name="method-getCurve"></a>getCurve
 
     mixed ChartCore::getCurve($i)
 
@@ -205,7 +231,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Chart.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#95)
+* This method is defined in [classes/Chart.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L95)
 
 
 #### Arguments
@@ -213,7 +239,7 @@ Methods
 
 
 
-### display
+### <a name="method-display"></a>display
 
     mixed ChartCore::display()
 
@@ -222,12 +248,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Chart.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#104)
+* This method is defined in [classes/Chart.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L104)
 
 
 
 
-### fetch
+### <a name="method-fetch"></a>fetch
 
     mixed ChartCore::fetch()
 
@@ -236,7 +262,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Chart.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#109)
+* This method is defined in [classes/Chart.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L109)
 
 
 

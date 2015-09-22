@@ -17,8 +17,24 @@ AdminZonesControllerCore
 Properties
 ----------
 
+* [$asso_type](#property-$asso_type)
+* [$object](#property-$object)
 
-### $asso_type
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderList](#method-renderList)
+* [renderForm](#method-renderForm)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$asso_type"></a>$asso_type
 
     public mixed $asso_type = 'shop'
 
@@ -27,10 +43,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminZonesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#32)
+* This property is defined in [controllers/admin/AdminZonesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#L32)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Zone $object
 
@@ -39,14 +55,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminZonesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#30)
+* This property is defined in [controllers/admin/AdminZonesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminZonesControllerCore::__construct()
 
@@ -55,12 +71,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminZonesController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#34)
+* This method is defined in [controllers/admin/AdminZonesController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#L34)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminZonesControllerCore::initPageHeaderToolbar()
 
@@ -69,12 +85,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminZonesController.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#70)
+* This method is defined in [controllers/admin/AdminZonesController.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#L70)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminZonesControllerCore::renderList()
 
@@ -83,12 +99,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminZonesController.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#83)
+* This method is defined in [controllers/admin/AdminZonesController.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#L83)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminZonesControllerCore::renderForm()
 
@@ -97,7 +113,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminZonesController.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#91)
+* This method is defined in [controllers/admin/AdminZonesController.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#L91)
 
 
 

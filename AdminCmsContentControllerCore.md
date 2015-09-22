@@ -17,8 +17,32 @@ AdminCmsContentControllerCore
 Properties
 ----------
 
+* [$admin_cms_categories](#property-$admin_cms_categories)
+* [$admin_cms](#property-$admin_cms)
+* [$category](#property-$category)
+* [$object](#property-$object)
 
-### $admin_cms_categories
+Methods
+-------
+* [__construct](#method-__construct)
+* [getCurrentCMSCategory](#method-getCurrentCMSCategory)
+* [viewAccess](#method-viewAccess)
+* [initContent](#method-initContent)
+* [renderPageHeaderToolbar](#method-renderPageHeaderToolbar)
+* [postProcess](#method-postProcess)
+* [setMedia](#method-setMedia)
+* [ajaxProcessUpdateCmsPositions](#method-ajaxProcessUpdateCmsPositions)
+* [ajaxProcessUpdateCmsCategoriesPositions](#method-ajaxProcessUpdateCmsCategoriesPositions)
+* [ajaxProcessPublishCMS](#method-ajaxProcessPublishCMS)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$admin_cms_categories"></a>$admin_cms_categories
 
     protected object $admin_cms_categories
 
@@ -27,10 +51,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminCmsContentController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#33)
+* This property is defined in [controllers/admin/AdminCmsContentController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L33)
 
 
-### $admin_cms
+### <a name="property-$admin_cms"></a>$admin_cms
 
     protected object $admin_cms
 
@@ -39,10 +63,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminCmsContentController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#36)
+* This property is defined in [controllers/admin/AdminCmsContentController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L36)
 
 
-### $category
+### <a name="property-$category"></a>$category
 
     protected object $category = null
 
@@ -52,10 +76,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [controllers/admin/AdminCmsContentController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#39)
+* This property is defined in [controllers/admin/AdminCmsContentController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L39)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \CMS $object
 
@@ -64,14 +88,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminCmsContentController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#30)
+* This property is defined in [controllers/admin/AdminCmsContentController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminCmsContentControllerCore::__construct()
 
@@ -80,12 +104,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsContentController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#41)
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L41)
 
 
 
 
-### getCurrentCMSCategory
+### <a name="method-getCurrentCMSCategory"></a>getCurrentCMSCategory
 
     object AdminCmsContentControllerCore::getCurrentCMSCategory()
 
@@ -95,12 +119,12 @@ Return current category
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminCmsContentController.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#73)
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L73)
 
 
 
 
-### viewAccess
+### <a name="method-viewAccess"></a>viewAccess
 
     mixed AdminCmsContentControllerCore::viewAccess($disable)
 
@@ -109,7 +133,7 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsContentController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#78)
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L78)
 
 
 #### Arguments
@@ -117,7 +141,7 @@ Return current category
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminCmsContentControllerCore::initContent()
 
@@ -126,12 +150,12 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsContentController.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#86)
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L86)
 
 
 
 
-### renderPageHeaderToolbar
+### <a name="method-renderPageHeaderToolbar"></a>renderPageHeaderToolbar
 
     mixed AdminCmsContentControllerCore::renderPageHeaderToolbar()
 
@@ -140,12 +164,12 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsContentController.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#132)
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L132)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminCmsContentControllerCore::postProcess()
 
@@ -154,12 +178,12 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsContentController.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#196)
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L196)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminCmsContentControllerCore::setMedia()
 
@@ -168,12 +192,12 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsContentController.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#225)
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L225)
 
 
 
 
-### ajaxProcessUpdateCmsPositions
+### <a name="method-ajaxProcessUpdateCmsPositions"></a>ajaxProcessUpdateCmsPositions
 
     mixed AdminCmsContentControllerCore::ajaxProcessUpdateCmsPositions()
 
@@ -182,12 +206,12 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsContentController.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#232)
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L232)
 
 
 
 
-### ajaxProcessUpdateCmsCategoriesPositions
+### <a name="method-ajaxProcessUpdateCmsCategoriesPositions"></a>ajaxProcessUpdateCmsCategoriesPositions
 
     mixed AdminCmsContentControllerCore::ajaxProcessUpdateCmsCategoriesPositions()
 
@@ -196,12 +220,12 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsContentController.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#261)
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L261)
 
 
 
 
-### ajaxProcessPublishCMS
+### <a name="method-ajaxProcessPublishCMS"></a>ajaxProcessPublishCMS
 
     mixed AdminCmsContentControllerCore::ajaxProcessPublishCMS()
 
@@ -210,7 +234,7 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsContentController.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#290)
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#L290)
 
 
 

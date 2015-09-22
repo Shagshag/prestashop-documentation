@@ -18,8 +18,141 @@ AdminTabCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$table](#property-$table)
+* [$identifier](#property-$identifier)
+* [$className](#property-$className)
+* [$token](#property-$token)
+* [$lang](#property-$lang)
+* [$edit](#property-$edit)
+* [$view](#property-$view)
+* [$delete](#property-$delete)
+* [$deleted](#property-$deleted)
+* [$duplicate](#property-$duplicate)
+* [$noLink](#property-$noLink)
+* [$requiredDatabase](#property-$requiredDatabase)
+* [$colorOnBackground](#property-$colorOnBackground)
+* [$_select](#property-$_select)
+* [$_join](#property-$_join)
+* [$_where](#property-$_where)
+* [$_group](#property-$_group)
+* [$_having](#property-$_having)
+* [$fieldImageSettings](#property-$fieldImageSettings)
+* [$imageType](#property-$imageType)
+* [$fieldsDisplay](#property-$fieldsDisplay)
+* [$optionTitle](#property-$optionTitle)
+* [$shopLinkType](#property-$shopLinkType)
+* [$shopShareDatas](#property-$shopShareDatas)
+* [$_list](#property-$_list)
+* [$_listTotal](#property-$_listTotal)
+* [$_filter](#property-$_filter)
+* [$_tmpTableFilter](#property-$_tmpTableFilter)
+* [$_pagination](#property-$_pagination)
+* [$_orderBy](#property-$_orderBy)
+* [$_defaultOrderBy](#property-$_defaultOrderBy)
+* [$_orderWay](#property-$_orderWay)
+* [$maxImageSize](#property-$maxImageSize)
+* [$_errors](#property-$_errors)
+* [$_conf](#property-$_conf)
+* [$_object](#property-$_object)
+* [$tabAccess](#property-$tabAccess)
+* [$specificConfirmDelete](#property-$specificConfirmDelete)
+* [$currentIndex](#property-$currentIndex)
+* [$smarty](#property-$smarty)
+* [$identifiersDnd](#property-$identifiersDnd)
+* [$_redirect](#property-$_redirect)
+* [$formOptions](#property-$formOptions)
+* [$_fieldsOptions](#property-$_fieldsOptions)
+* [$optionsList](#property-$optionsList)
+* [$context](#property-$context)
+* [$_languages](#property-$_languages)
+* [$_defaultFormLanguage](#property-$_defaultFormLanguage)
+* [$_includeObj](#property-$_includeObj)
+* [$_includeVars](#property-$_includeVars)
+* [$_includeContainer](#property-$_includeContainer)
+* [$ajax](#property-$ajax)
+* [$ignore_sleep](#property-$ignore_sleep)
+* [$tabParenting](#property-$tabParenting)
 
-### $id
+Methods
+-------
+* [__construct](#method-__construct)
+* [l](#method-l)
+* [displayAjax](#method-displayAjax)
+* [display](#method-display)
+* [displayRequiredFields](#method-displayRequiredFields)
+* [includeSubTab](#method-includeSubTab)
+* [validateRules](#method-validateRules)
+* [_childValidation](#method-_childValidation)
+* [deleteImage](#method-deleteImage)
+* [ajaxPreProcess](#method-ajaxPreProcess)
+* [ajaxProcess](#method-ajaxProcess)
+* [postProcess](#method-postProcess)
+* [updateAssoShop](#method-updateAssoShop)
+* [getAssoShop](#method-getAssoShop)
+* [updateOptions](#method-updateOptions)
+* [beforeUpdateOptions](#method-beforeUpdateOptions)
+* [validateField](#method-validateField)
+* [uploadImage](#method-uploadImage)
+* [postImage](#method-postImage)
+* [copyFromPost](#method-copyFromPost)
+* [displayErrors](#method-displayErrors)
+* [displayWarning](#method-displayWarning)
+* [displayConf](#method-displayConf)
+* [getList](#method-getList)
+* [displayImage](#method-displayImage)
+* [displayListHeader](#method-displayListHeader)
+* [displayTop](#method-displayTop)
+* [displayList](#method-displayList)
+* [displayListContent](#method-displayListContent)
+* [displayAddButton](#method-displayAddButton)
+* [_displayEnableLink](#method-_displayEnableLink)
+* [_displayDuplicate](#method-_displayDuplicate)
+* [_displayViewLink](#method-_displayViewLink)
+* [_displayEditLink](#method-_displayEditLink)
+* [_displayDeleteLink](#method-_displayDeleteLink)
+* [displayListFooter](#method-displayListFooter)
+* [displayOptionsList](#method-displayOptionsList)
+* [displayTopOptionCategory](#method-displayTopOptionCategory)
+* [displayBottomOptionCategory](#method-displayBottomOptionCategory)
+* [displayOptionTypeSelect](#method-displayOptionTypeSelect)
+* [displayOptionTypeBool](#method-displayOptionTypeBool)
+* [displayOptionTypeRadio](#method-displayOptionTypeRadio)
+* [displayOptionTypeText](#method-displayOptionTypeText)
+* [displayOptionTypePassword](#method-displayOptionTypePassword)
+* [displayOptionTypeTextarea](#method-displayOptionTypeTextarea)
+* [displayOptionTypeFile](#method-displayOptionTypeFile)
+* [displayOptionTypeImage](#method-displayOptionTypeImage)
+* [displayOptionTypeTextLang](#method-displayOptionTypeTextLang)
+* [displayOptionTypeTextareaLang](#method-displayOptionTypeTextareaLang)
+* [displayOptionTypeSelectLang](#method-displayOptionTypeSelectLang)
+* [displayOptionTypePrice](#method-displayOptionTypePrice)
+* [displayOptionTypeDisabled](#method-displayOptionTypeDisabled)
+* [loadObject](#method-loadObject)
+* [getFieldValue](#method-getFieldValue)
+* [displayForm](#method-displayForm)
+* [viewDetails](#method-viewDetails)
+* [beforeDelete](#method-beforeDelete)
+* [afterDelete](#method-afterDelete)
+* [afterAdd](#method-afterAdd)
+* [afterUpdate](#method-afterUpdate)
+* [afterImageUpload](#method-afterImageUpload)
+* [viewAccess](#method-viewAccess)
+* [checkToken](#method-checkToken)
+* [displayFlags](#method-displayFlags)
+* [filterToField](#method-filterToField)
+* [warnDomainName](#method-warnDomainName)
+* [displayAssoShop](#method-displayAssoShop)
+* [getCurrentUrl](#method-getCurrentUrl)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public integer $id = -1
 
@@ -29,10 +162,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#33)
+* This property is defined in [classes/AdminTab.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L33)
 
 
-### $table
+### <a name="property-$table"></a>$table
 
     public string $table
 
@@ -42,10 +175,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#36)
+* This property is defined in [classes/AdminTab.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L36)
 
 
-### $identifier
+### <a name="property-$identifier"></a>$identifier
 
     protected string $identifier = false
 
@@ -55,10 +188,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#39)
+* This property is defined in [classes/AdminTab.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L39)
 
 
-### $className
+### <a name="property-$className"></a>$className
 
     public string $className
 
@@ -68,10 +201,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#42)
+* This property is defined in [classes/AdminTab.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L42)
 
 
-### $token
+### <a name="property-$token"></a>$token
 
     public string $token
 
@@ -81,10 +214,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#45)
+* This property is defined in [classes/AdminTab.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L45)
 
 
-### $lang
+### <a name="property-$lang"></a>$lang
 
     public boolean $lang = false
 
@@ -94,10 +227,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#48)
+* This property is defined in [classes/AdminTab.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L48)
 
 
-### $edit
+### <a name="property-$edit"></a>$edit
 
     public boolean $edit = false
 
@@ -107,10 +240,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#51)
+* This property is defined in [classes/AdminTab.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L51)
 
 
-### $view
+### <a name="property-$view"></a>$view
 
     public boolean $view = false
 
@@ -120,10 +253,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#54)
+* This property is defined in [classes/AdminTab.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L54)
 
 
-### $delete
+### <a name="property-$delete"></a>$delete
 
     public boolean $delete = false
 
@@ -133,10 +266,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#57)
+* This property is defined in [classes/AdminTab.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L57)
 
 
-### $deleted
+### <a name="property-$deleted"></a>$deleted
 
     public boolean $deleted = false
 
@@ -146,10 +279,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#60)
+* This property is defined in [classes/AdminTab.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L60)
 
 
-### $duplicate
+### <a name="property-$duplicate"></a>$duplicate
 
     public boolean $duplicate = false
 
@@ -159,10 +292,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#63)
+* This property is defined in [classes/AdminTab.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L63)
 
 
-### $noLink
+### <a name="property-$noLink"></a>$noLink
 
     public boolean $noLink = false
 
@@ -172,10 +305,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#66)
+* This property is defined in [classes/AdminTab.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L66)
 
 
-### $requiredDatabase
+### <a name="property-$requiredDatabase"></a>$requiredDatabase
 
     public boolean $requiredDatabase = false
 
@@ -185,10 +318,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#69)
+* This property is defined in [classes/AdminTab.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L69)
 
 
-### $colorOnBackground
+### <a name="property-$colorOnBackground"></a>$colorOnBackground
 
     public boolean $colorOnBackground = false
 
@@ -198,10 +331,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#72)
+* This property is defined in [classes/AdminTab.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L72)
 
 
-### $_select
+### <a name="property-$_select"></a>$_select
 
     protected string $_select
 
@@ -211,10 +344,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#75)
+* This property is defined in [classes/AdminTab.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L75)
 
 
-### $_join
+### <a name="property-$_join"></a>$_join
 
     protected string $_join
 
@@ -224,10 +357,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#78)
+* This property is defined in [classes/AdminTab.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L78)
 
 
-### $_where
+### <a name="property-$_where"></a>$_where
 
     protected string $_where
 
@@ -237,10 +370,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#81)
+* This property is defined in [classes/AdminTab.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L81)
 
 
-### $_group
+### <a name="property-$_group"></a>$_group
 
     protected string $_group
 
@@ -250,10 +383,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#84)
+* This property is defined in [classes/AdminTab.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L84)
 
 
-### $_having
+### <a name="property-$_having"></a>$_having
 
     protected string $_having
 
@@ -263,10 +396,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#87)
+* This property is defined in [classes/AdminTab.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L87)
 
 
-### $fieldImageSettings
+### <a name="property-$fieldImageSettings"></a>$fieldImageSettings
 
     public array $fieldImageSettings = array()
 
@@ -276,10 +409,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#90)
+* This property is defined in [classes/AdminTab.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L90)
 
 
-### $imageType
+### <a name="property-$imageType"></a>$imageType
 
     public string $imageType = 'jpg'
 
@@ -289,10 +422,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#93)
+* This property is defined in [classes/AdminTab.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L93)
 
 
-### $fieldsDisplay
+### <a name="property-$fieldsDisplay"></a>$fieldsDisplay
 
     public array $fieldsDisplay = array()
 
@@ -302,10 +435,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#96)
+* This property is defined in [classes/AdminTab.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L96)
 
 
-### $optionTitle
+### <a name="property-$optionTitle"></a>$optionTitle
 
     public mixed $optionTitle = null
 
@@ -315,10 +448,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#98)
+* This property is defined in [classes/AdminTab.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L98)
 
 
-### $shopLinkType
+### <a name="property-$shopLinkType"></a>$shopLinkType
 
     public string $shopLinkType
 
@@ -328,10 +461,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#101)
+* This property is defined in [classes/AdminTab.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L101)
 
 
-### $shopShareDatas
+### <a name="property-$shopShareDatas"></a>$shopShareDatas
 
     public boolean $shopShareDatas = false
 
@@ -341,10 +474,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#104)
+* This property is defined in [classes/AdminTab.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L104)
 
 
-### $_list
+### <a name="property-$_list"></a>$_list
 
     protected array $_list = array()
 
@@ -354,10 +487,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#107)
+* This property is defined in [classes/AdminTab.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L107)
 
 
-### $_listTotal
+### <a name="property-$_listTotal"></a>$_listTotal
 
     protected integer $_listTotal
 
@@ -367,10 +500,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#110)
+* This property is defined in [classes/AdminTab.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L110)
 
 
-### $_filter
+### <a name="property-$_filter"></a>$_filter
 
     protected array $_filter
 
@@ -380,10 +513,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#113)
+* This property is defined in [classes/AdminTab.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L113)
 
 
-### $_tmpTableFilter
+### <a name="property-$_tmpTableFilter"></a>$_tmpTableFilter
 
     protected array $_tmpTableFilter = ''
 
@@ -393,10 +526,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#116)
+* This property is defined in [classes/AdminTab.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L116)
 
 
-### $_pagination
+### <a name="property-$_pagination"></a>$_pagination
 
     protected array $_pagination = array(20, 50, 100, 300, 1000)
 
@@ -406,10 +539,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#119)
+* This property is defined in [classes/AdminTab.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L119)
 
 
-### $_orderBy
+### <a name="property-$_orderBy"></a>$_orderBy
 
     protected string $_orderBy
 
@@ -419,10 +552,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#122)
+* This property is defined in [classes/AdminTab.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L122)
 
 
-### $_defaultOrderBy
+### <a name="property-$_defaultOrderBy"></a>$_defaultOrderBy
 
     protected string $_defaultOrderBy = false
 
@@ -432,10 +565,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#125)
+* This property is defined in [classes/AdminTab.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L125)
 
 
-### $_orderWay
+### <a name="property-$_orderWay"></a>$_orderWay
 
     protected string $_orderWay
 
@@ -445,10 +578,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#128)
+* This property is defined in [classes/AdminTab.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L128)
 
 
-### $maxImageSize
+### <a name="property-$maxImageSize"></a>$maxImageSize
 
     protected integer $maxImageSize
 
@@ -458,10 +591,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#133)
+* This property is defined in [classes/AdminTab.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L133)
 
 
-### $_errors
+### <a name="property-$_errors"></a>$_errors
 
     public array $_errors = array()
 
@@ -471,10 +604,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#136)
+* This property is defined in [classes/AdminTab.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L136)
 
 
-### $_conf
+### <a name="property-$_conf"></a>$_conf
 
     protected array $_conf
 
@@ -484,10 +617,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#139)
+* This property is defined in [classes/AdminTab.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L139)
 
 
-### $_object
+### <a name="property-$_object"></a>$_object
 
     protected object $_object = false
 
@@ -497,10 +630,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#142)
+* This property is defined in [classes/AdminTab.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L142)
 
 
-### $tabAccess
+### <a name="property-$tabAccess"></a>$tabAccess
 
     public array $tabAccess
 
@@ -510,10 +643,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#145)
+* This property is defined in [classes/AdminTab.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L145)
 
 
-### $specificConfirmDelete
+### <a name="property-$specificConfirmDelete"></a>$specificConfirmDelete
 
     public string $specificConfirmDelete = null
 
@@ -523,10 +656,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#148)
+* This property is defined in [classes/AdminTab.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L148)
 
 
-### $currentIndex
+### <a name="property-$currentIndex"></a>$currentIndex
 
     public mixed $currentIndex
 
@@ -537,10 +670,10 @@ Properties
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* This property is defined in [classes/AdminTab.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#150)
+* This property is defined in [classes/AdminTab.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L150)
 
 
-### $smarty
+### <a name="property-$smarty"></a>$smarty
 
     public mixed $smarty
 
@@ -550,10 +683,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#152)
+* This property is defined in [classes/AdminTab.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L152)
 
 
-### $identifiersDnd
+### <a name="property-$identifiersDnd"></a>$identifiersDnd
 
     protected mixed $identifiersDnd = array('id_product' => 'id_product', 'id_category' => 'id_category_to_move', 'id_cms_category' => 'id_cms_category_to_move', 'id_cms' => 'id_cms', 'id_attribute' => 'id_attribute', 'id_attribute_group' => 'id_attribute_group', 'id_feature' => 'id_feature', 'id_carrier' => 'id_carrier')
 
@@ -563,10 +696,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#154)
+* This property is defined in [classes/AdminTab.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L154)
 
 
-### $_redirect
+### <a name="property-$_redirect"></a>$_redirect
 
     protected boolean $_redirect = true
 
@@ -576,10 +709,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#157)
+* This property is defined in [classes/AdminTab.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L157)
 
 
-### $formOptions
+### <a name="property-$formOptions"></a>$formOptions
 
     protected boolean $formOptions = true
 
@@ -589,10 +722,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#160)
+* This property is defined in [classes/AdminTab.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L160)
 
 
-### $_fieldsOptions
+### <a name="property-$_fieldsOptions"></a>$_fieldsOptions
 
     public mixed $_fieldsOptions = array()
 
@@ -602,10 +735,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#162)
+* This property is defined in [classes/AdminTab.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L162)
 
 
-### $optionsList
+### <a name="property-$optionsList"></a>$optionsList
 
     public array $optionsList = array()
 
@@ -615,10 +748,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#168)
+* This property is defined in [classes/AdminTab.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L168)
 
 
-### $context
+### <a name="property-$context"></a>$context
 
     public \Context $context
 
@@ -628,10 +761,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#174)
+* This property is defined in [classes/AdminTab.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L174)
 
 
-### $_languages
+### <a name="property-$_languages"></a>$_languages
 
     protected mixed $_languages = null
 
@@ -641,10 +774,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#176)
+* This property is defined in [classes/AdminTab.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L176)
 
 
-### $_defaultFormLanguage
+### <a name="property-$_defaultFormLanguage"></a>$_defaultFormLanguage
 
     protected mixed $_defaultFormLanguage = null
 
@@ -654,10 +787,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#177)
+* This property is defined in [classes/AdminTab.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L177)
 
 
-### $_includeObj
+### <a name="property-$_includeObj"></a>$_includeObj
 
     protected mixed $_includeObj = array()
 
@@ -667,10 +800,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#179)
+* This property is defined in [classes/AdminTab.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L179)
 
 
-### $_includeVars
+### <a name="property-$_includeVars"></a>$_includeVars
 
     protected mixed $_includeVars = false
 
@@ -680,10 +813,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#180)
+* This property is defined in [classes/AdminTab.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L180)
 
 
-### $_includeContainer
+### <a name="property-$_includeContainer"></a>$_includeContainer
 
     protected mixed $_includeContainer = true
 
@@ -693,10 +826,10 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#181)
+* This property is defined in [classes/AdminTab.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L181)
 
 
-### $ajax
+### <a name="property-$ajax"></a>$ajax
 
     public mixed $ajax = false
 
@@ -706,10 +839,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#183)
+* This property is defined in [classes/AdminTab.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L183)
 
 
-### $ignore_sleep
+### <a name="property-$ignore_sleep"></a>$ignore_sleep
 
     public boolean $ignore_sleep = false
 
@@ -719,10 +852,10 @@ if true, ajax-tab will not wait 1 sec
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/AdminTab.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#189)
+* This property is defined in [classes/AdminTab.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L189)
 
 
-### $tabParenting
+### <a name="property-$tabParenting"></a>$tabParenting
 
     public mixed $tabParenting = array('AdminCms' => 'AdminCmsContent', 'AdminCmsCategories' => 'AdminCmsContent', 'AdminOrdersStates' => 'AdminStatuses', 'AdminAttributeGenerator' => 'AdminProducts', 'AdminAttributes' => 'AdminAttributesGroups', 'AdminFeaturesValues' => 'AdminFeatures', 'AdminReturnStates' => 'AdminStatuses', 'AdminStatsTab' => 'AdminStats')
 
@@ -733,14 +866,14 @@ if true, ajax-tab will not wait 1 sec
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* This property is defined in [classes/AdminTab.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#191)
+* This property is defined in [classes/AdminTab.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L191)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminTabCore::__construct()
 
@@ -750,12 +883,12 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#202)
+* This method is defined in [classes/AdminTab.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L202)
 
 
 
 
-### l
+### <a name="method-l"></a>l
 
     string AdminTabCore::l(string $string, string $class, boolean $addslashes, boolean $htmlentities)
 
@@ -765,7 +898,7 @@ Uses translations files to find a translation for a given string (string should 
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#247)
+* This method is defined in [classes/AdminTab.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L247)
 
 
 #### Arguments
@@ -776,7 +909,7 @@ Uses translations files to find a translation for a given string (string should 
 
 
 
-### displayAjax
+### <a name="method-displayAjax"></a>displayAjax
 
     void AdminTabCore::displayAjax()
 
@@ -786,12 +919,12 @@ ajaxDisplay is the default ajax return sytem
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#272)
+* This method is defined in [classes/AdminTab.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L272)
 
 
 
 
-### display
+### <a name="method-display"></a>display
 
     mixed AdminTabCore::display()
 
@@ -801,12 +934,12 @@ Manage page display (form, list.
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 278](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#278)
+* This method is defined in [classes/AdminTab.php line 278](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L278)
 
 
 
 
-### displayRequiredFields
+### <a name="method-displayRequiredFields"></a>displayRequiredFields
 
     mixed AdminTabCore::displayRequiredFields()
 
@@ -816,12 +949,12 @@ Manage page display (form, list.
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#315)
+* This method is defined in [classes/AdminTab.php line 315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L315)
 
 
 
 
-### includeSubTab
+### <a name="method-includeSubTab"></a>includeSubTab
 
     mixed AdminTabCore::includeSubTab($methodname, $actions)
 
@@ -831,7 +964,7 @@ Manage page display (form, list.
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 364](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#364)
+* This method is defined in [classes/AdminTab.php line 364](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L364)
 
 
 #### Arguments
@@ -840,7 +973,7 @@ Manage page display (form, list.
 
 
 
-### validateRules
+### <a name="method-validateRules"></a>validateRules
 
     mixed AdminTabCore::validateRules(string $className)
 
@@ -850,7 +983,7 @@ Manage page display (form, list.
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 456](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#456)
+* This method is defined in [classes/AdminTab.php line 456](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L456)
 
 
 #### Arguments
@@ -858,7 +991,7 @@ Manage page display (form, list.
 
 
 
-### _childValidation
+### <a name="method-_childValidation"></a>_childValidation
 
     mixed AdminTabCore::_childValidation()
 
@@ -868,12 +1001,12 @@ Overload this method for custom checking
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 541](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#541)
+* This method is defined in [classes/AdminTab.php line 541](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L541)
 
 
 
 
-### deleteImage
+### <a name="method-deleteImage"></a>deleteImage
 
     mixed AdminTabCore::deleteImage(integer $id)
 
@@ -883,7 +1016,7 @@ Overload this method for custom checking
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 551](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#551)
+* This method is defined in [classes/AdminTab.php line 551](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L551)
 
 
 #### Arguments
@@ -891,7 +1024,7 @@ Overload this method for custom checking
 
 
 
-### ajaxPreProcess
+### <a name="method-ajaxPreProcess"></a>ajaxPreProcess
 
     void AdminTabCore::ajaxPreProcess()
 
@@ -901,12 +1034,12 @@ ajaxPreProcess is a method called in ajax-tab.php before displayConf().
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 582](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#582)
+* This method is defined in [classes/AdminTab.php line 582](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L582)
 
 
 
 
-### ajaxProcess
+### <a name="method-ajaxProcess"></a>ajaxProcess
 
     void AdminTabCore::ajaxProcess()
 
@@ -916,12 +1049,12 @@ ajaxProcess is the default handle method for request with ajax-tab.php
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 591](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#591)
+* This method is defined in [classes/AdminTab.php line 591](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L591)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminTabCore::postProcess()
 
@@ -931,12 +1064,12 @@ Manage page processing
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 598](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#598)
+* This method is defined in [classes/AdminTab.php line 598](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L598)
 
 
 
 
-### updateAssoShop
+### <a name="method-updateAssoShop"></a>updateAssoShop
 
     mixed AdminTabCore::updateAssoShop($id_object)
 
@@ -946,7 +1079,7 @@ Manage page processing
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 947](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#947)
+* This method is defined in [classes/AdminTab.php line 947](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L947)
 
 
 #### Arguments
@@ -954,7 +1087,7 @@ Manage page processing
 
 
 
-### getAssoShop
+### <a name="method-getAssoShop"></a>getAssoShop
 
     mixed AdminTabCore::getAssoShop($table, $id_object)
 
@@ -965,7 +1098,7 @@ Manage page processing
 * Visibility: **protected**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 964](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#964)
+* This method is defined in [classes/AdminTab.php line 964](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L964)
 
 
 #### Arguments
@@ -974,7 +1107,7 @@ Manage page processing
 
 
 
-### updateOptions
+### <a name="method-updateOptions"></a>updateOptions
 
     mixed AdminTabCore::updateOptions(string $token)
 
@@ -984,7 +1117,7 @@ Update options and preferences
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 988](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#988)
+* This method is defined in [classes/AdminTab.php line 988](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L988)
 
 
 #### Arguments
@@ -992,7 +1125,7 @@ Update options and preferences
 
 
 
-### beforeUpdateOptions
+### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
     mixed AdminTabCore::beforeUpdateOptions()
 
@@ -1002,12 +1135,12 @@ Can be overriden
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1089](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1089)
+* This method is defined in [classes/AdminTab.php line 1089](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1089)
 
 
 
 
-### validateField
+### <a name="method-validateField"></a>validateField
 
     mixed AdminTabCore::validateField($value, $field)
 
@@ -1017,7 +1150,7 @@ Can be overriden
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1093](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1093)
+* This method is defined in [classes/AdminTab.php line 1093](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1093)
 
 
 #### Arguments
@@ -1026,7 +1159,7 @@ Can be overriden
 
 
 
-### uploadImage
+### <a name="method-uploadImage"></a>uploadImage
 
     mixed AdminTabCore::uploadImage($id, $name, $dir, $ext, $width, $height)
 
@@ -1036,7 +1169,7 @@ Can be overriden
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1107)
+* This method is defined in [classes/AdminTab.php line 1107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1107)
 
 
 #### Arguments
@@ -1049,7 +1182,7 @@ Can be overriden
 
 
 
-### postImage
+### <a name="method-postImage"></a>postImage
 
     boolean AdminTabCore::postImage(integer $id)
 
@@ -1059,7 +1192,7 @@ Overload this method for custom checking
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1150)
+* This method is defined in [classes/AdminTab.php line 1150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1150)
 
 
 #### Arguments
@@ -1067,7 +1200,7 @@ Overload this method for custom checking
 
 
 
-### copyFromPost
+### <a name="method-copyFromPost"></a>copyFromPost
 
     mixed AdminTabCore::copyFromPost($object, string $table)
 
@@ -1077,7 +1210,7 @@ Copy datas from $_POST to object
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1170)
+* This method is defined in [classes/AdminTab.php line 1170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1170)
 
 
 #### Arguments
@@ -1086,7 +1219,7 @@ Copy datas from $_POST to object
 
 
 
-### displayErrors
+### <a name="method-displayErrors"></a>displayErrors
 
     mixed AdminTabCore::displayErrors()
 
@@ -1096,12 +1229,12 @@ Display errors
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1204)
+* This method is defined in [classes/AdminTab.php line 1204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1204)
 
 
 
 
-### displayWarning
+### <a name="method-displayWarning"></a>displayWarning
 
     mixed AdminTabCore::displayWarning(string $warn)
 
@@ -1111,7 +1244,7 @@ Display a warning message
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1237)
+* This method is defined in [classes/AdminTab.php line 1237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1237)
 
 
 #### Arguments
@@ -1119,7 +1252,7 @@ Display a warning message
 
 
 
-### displayConf
+### <a name="method-displayConf"></a>displayConf
 
     mixed AdminTabCore::displayConf()
 
@@ -1129,12 +1262,12 @@ Display confirmations
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1285](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1285)
+* This method is defined in [classes/AdminTab.php line 1285](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1285)
 
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminTabCore::getList(integer $id_lang, string $orderBy, $orderWay, integer $start, integer $limit, $id_lang_shop)
 
@@ -1144,7 +1277,7 @@ Get the current objects' list form the database
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1304](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1304)
+* This method is defined in [classes/AdminTab.php line 1304](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1304)
 
 
 #### Arguments
@@ -1157,7 +1290,7 @@ Get the current objects' list form the database
 
 
 
-### displayImage
+### <a name="method-displayImage"></a>displayImage
 
     mixed AdminTabCore::displayImage(integer $id, string $image, integer $size, integer $id_image, string $token, boolean $disableCache)
 
@@ -1167,7 +1300,7 @@ Display image aside object form
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1406](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1406)
+* This method is defined in [classes/AdminTab.php line 1406](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1406)
 
 
 #### Arguments
@@ -1180,7 +1313,7 @@ Display image aside object form
 
 
 
-### displayListHeader
+### <a name="method-displayListHeader"></a>displayListHeader
 
     mixed AdminTabCore::displayListHeader($token)
 
@@ -1190,7 +1323,7 @@ Display list header (filtering, pagination and column names)
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1425](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1425)
+* This method is defined in [classes/AdminTab.php line 1425](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1425)
 
 
 #### Arguments
@@ -1198,7 +1331,7 @@ Display list header (filtering, pagination and column names)
 
 
 
-### displayTop
+### <a name="method-displayTop"></a>displayTop
 
     mixed AdminTabCore::displayTop()
 
@@ -1208,12 +1341,12 @@ Display list header (filtering, pagination and column names)
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1623](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1623)
+* This method is defined in [classes/AdminTab.php line 1623](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1623)
 
 
 
 
-### displayList
+### <a name="method-displayList"></a>displayList
 
     mixed AdminTabCore::displayList()
 
@@ -1223,12 +1356,12 @@ Display list
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1630](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1630)
+* This method is defined in [classes/AdminTab.php line 1630](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1630)
 
 
 
 
-### displayListContent
+### <a name="method-displayListContent"></a>displayListContent
 
     mixed AdminTabCore::displayListContent($token)
 
@@ -1238,7 +1371,7 @@ Display list
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1657](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1657)
+* This method is defined in [classes/AdminTab.php line 1657](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1657)
 
 
 #### Arguments
@@ -1246,7 +1379,7 @@ Display list
 
 
 
-### displayAddButton
+### <a name="method-displayAddButton"></a>displayAddButton
 
     mixed AdminTabCore::displayAddButton()
 
@@ -1256,12 +1389,12 @@ Display list
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1786](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1786)
+* This method is defined in [classes/AdminTab.php line 1786](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1786)
 
 
 
 
-### _displayEnableLink
+### <a name="method-_displayEnableLink"></a>_displayEnableLink
 
     mixed AdminTabCore::_displayEnableLink($token, $id, $value, $active, $id_category, $id_product)
 
@@ -1271,7 +1404,7 @@ Display list
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1791](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1791)
+* This method is defined in [classes/AdminTab.php line 1791](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1791)
 
 
 #### Arguments
@@ -1284,7 +1417,7 @@ Display list
 
 
 
-### _displayDuplicate
+### <a name="method-_displayDuplicate"></a>_displayDuplicate
 
     mixed AdminTabCore::_displayDuplicate($token, $id)
 
@@ -1294,7 +1427,7 @@ Display list
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1801](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1801)
+* This method is defined in [classes/AdminTab.php line 1801](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1801)
 
 
 #### Arguments
@@ -1303,7 +1436,7 @@ Display list
 
 
 
-### _displayViewLink
+### <a name="method-_displayViewLink"></a>_displayViewLink
 
     mixed AdminTabCore::_displayViewLink($token, $id)
 
@@ -1313,7 +1446,7 @@ Display list
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1811](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1811)
+* This method is defined in [classes/AdminTab.php line 1811](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1811)
 
 
 #### Arguments
@@ -1322,7 +1455,7 @@ Display list
 
 
 
-### _displayEditLink
+### <a name="method-_displayEditLink"></a>_displayEditLink
 
     mixed AdminTabCore::_displayEditLink($token, $id)
 
@@ -1332,7 +1465,7 @@ Display list
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1820](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1820)
+* This method is defined in [classes/AdminTab.php line 1820](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1820)
 
 
 #### Arguments
@@ -1341,7 +1474,7 @@ Display list
 
 
 
-### _displayDeleteLink
+### <a name="method-_displayDeleteLink"></a>_displayDeleteLink
 
     mixed AdminTabCore::_displayDeleteLink($token, $id)
 
@@ -1351,7 +1484,7 @@ Display list
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1829](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1829)
+* This method is defined in [classes/AdminTab.php line 1829](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1829)
 
 
 #### Arguments
@@ -1360,7 +1493,7 @@ Display list
 
 
 
-### displayListFooter
+### <a name="method-displayListFooter"></a>displayListFooter
 
     mixed AdminTabCore::displayListFooter($token)
 
@@ -1370,7 +1503,7 @@ Close list table and submit button
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1843](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1843)
+* This method is defined in [classes/AdminTab.php line 1843](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1843)
 
 
 #### Arguments
@@ -1378,7 +1511,7 @@ Close list table and submit button
 
 
 
-### displayOptionsList
+### <a name="method-displayOptionsList"></a>displayOptionsList
 
     mixed AdminTabCore::displayOptionsList()
 
@@ -1388,12 +1521,12 @@ Options lists
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1863](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1863)
+* This method is defined in [classes/AdminTab.php line 1863](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1863)
 
 
 
 
-### displayTopOptionCategory
+### <a name="method-displayTopOptionCategory"></a>displayTopOptionCategory
 
     mixed AdminTabCore::displayTopOptionCategory($category, $data)
 
@@ -1403,7 +1536,7 @@ Can be overriden
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1990](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1990)
+* This method is defined in [classes/AdminTab.php line 1990](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1990)
 
 
 #### Arguments
@@ -1412,7 +1545,7 @@ Can be overriden
 
 
 
-### displayBottomOptionCategory
+### <a name="method-displayBottomOptionCategory"></a>displayBottomOptionCategory
 
     mixed AdminTabCore::displayBottomOptionCategory($category, $data)
 
@@ -1422,7 +1555,7 @@ Can be overriden
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 1997](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#1997)
+* This method is defined in [classes/AdminTab.php line 1997](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L1997)
 
 
 #### Arguments
@@ -1431,7 +1564,7 @@ Can be overriden
 
 
 
-### displayOptionTypeSelect
+### <a name="method-displayOptionTypeSelect"></a>displayOptionTypeSelect
 
     mixed AdminTabCore::displayOptionTypeSelect($key, $field, $value)
 
@@ -1441,7 +1574,7 @@ Type = select
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2004](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2004)
+* This method is defined in [classes/AdminTab.php line 2004](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2004)
 
 
 #### Arguments
@@ -1451,7 +1584,7 @@ Type = select
 
 
 
-### displayOptionTypeBool
+### <a name="method-displayOptionTypeBool"></a>displayOptionTypeBool
 
     mixed AdminTabCore::displayOptionTypeBool($key, $field, $value)
 
@@ -1461,7 +1594,7 @@ Type = bool
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2016](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2016)
+* This method is defined in [classes/AdminTab.php line 2016](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2016)
 
 
 #### Arguments
@@ -1471,7 +1604,7 @@ Type = bool
 
 
 
-### displayOptionTypeRadio
+### <a name="method-displayOptionTypeRadio"></a>displayOptionTypeRadio
 
     mixed AdminTabCore::displayOptionTypeRadio($key, $field, $value)
 
@@ -1481,7 +1614,7 @@ Type = radio
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2030](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2030)
+* This method is defined in [classes/AdminTab.php line 2030](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2030)
 
 
 #### Arguments
@@ -1491,7 +1624,7 @@ Type = radio
 
 
 
-### displayOptionTypeText
+### <a name="method-displayOptionTypeText"></a>displayOptionTypeText
 
     mixed AdminTabCore::displayOptionTypeText($key, $field, $value)
 
@@ -1501,7 +1634,7 @@ Type = text
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2041](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2041)
+* This method is defined in [classes/AdminTab.php line 2041](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2041)
 
 
 #### Arguments
@@ -1511,7 +1644,7 @@ Type = text
 
 
 
-### displayOptionTypePassword
+### <a name="method-displayOptionTypePassword"></a>displayOptionTypePassword
 
     mixed AdminTabCore::displayOptionTypePassword($key, $field, $value)
 
@@ -1521,7 +1654,7 @@ Type = password
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2049](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2049)
+* This method is defined in [classes/AdminTab.php line 2049](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2049)
 
 
 #### Arguments
@@ -1531,7 +1664,7 @@ Type = password
 
 
 
-### displayOptionTypeTextarea
+### <a name="method-displayOptionTypeTextarea"></a>displayOptionTypeTextarea
 
     mixed AdminTabCore::displayOptionTypeTextarea($key, $field, $value)
 
@@ -1541,7 +1674,7 @@ Type = textarea
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2057](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2057)
+* This method is defined in [classes/AdminTab.php line 2057](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2057)
 
 
 #### Arguments
@@ -1551,7 +1684,7 @@ Type = textarea
 
 
 
-### displayOptionTypeFile
+### <a name="method-displayOptionTypeFile"></a>displayOptionTypeFile
 
     mixed AdminTabCore::displayOptionTypeFile($key, $field, $value)
 
@@ -1561,7 +1694,7 @@ Type = file
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2065](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2065)
+* This method is defined in [classes/AdminTab.php line 2065](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2065)
 
 
 #### Arguments
@@ -1571,7 +1704,7 @@ Type = file
 
 
 
-### displayOptionTypeImage
+### <a name="method-displayOptionTypeImage"></a>displayOptionTypeImage
 
     mixed AdminTabCore::displayOptionTypeImage($key, $field, $value)
 
@@ -1581,7 +1714,7 @@ Type = image
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2076](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2076)
+* This method is defined in [classes/AdminTab.php line 2076](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2076)
 
 
 #### Arguments
@@ -1591,7 +1724,7 @@ Type = image
 
 
 
-### displayOptionTypeTextLang
+### <a name="method-displayOptionTypeTextLang"></a>displayOptionTypeTextLang
 
     mixed AdminTabCore::displayOptionTypeTextLang($key, $field, $value)
 
@@ -1601,7 +1734,7 @@ Type = textLang
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2116)
+* This method is defined in [classes/AdminTab.php line 2116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2116)
 
 
 #### Arguments
@@ -1611,7 +1744,7 @@ Type = textLang
 
 
 
-### displayOptionTypeTextareaLang
+### <a name="method-displayOptionTypeTextareaLang"></a>displayOptionTypeTextareaLang
 
     mixed AdminTabCore::displayOptionTypeTextareaLang($key, $field, $value)
 
@@ -1621,7 +1754,7 @@ Type = TextareaLang
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2131)
+* This method is defined in [classes/AdminTab.php line 2131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2131)
 
 
 #### Arguments
@@ -1631,7 +1764,7 @@ Type = TextareaLang
 
 
 
-### displayOptionTypeSelectLang
+### <a name="method-displayOptionTypeSelectLang"></a>displayOptionTypeSelectLang
 
     mixed AdminTabCore::displayOptionTypeSelectLang($key, $field, $value)
 
@@ -1641,7 +1774,7 @@ Type = selectLang
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2147)
+* This method is defined in [classes/AdminTab.php line 2147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2147)
 
 
 #### Arguments
@@ -1651,7 +1784,7 @@ Type = selectLang
 
 
 
-### displayOptionTypePrice
+### <a name="method-displayOptionTypePrice"></a>displayOptionTypePrice
 
     mixed AdminTabCore::displayOptionTypePrice($key, $field, $value)
 
@@ -1661,7 +1794,7 @@ Type = price
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2165)
+* This method is defined in [classes/AdminTab.php line 2165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2165)
 
 
 #### Arguments
@@ -1671,7 +1804,7 @@ Type = price
 
 
 
-### displayOptionTypeDisabled
+### <a name="method-displayOptionTypeDisabled"></a>displayOptionTypeDisabled
 
     mixed AdminTabCore::displayOptionTypeDisabled($key, $field, $value)
 
@@ -1681,7 +1814,7 @@ Type = disabled
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2175)
+* This method is defined in [classes/AdminTab.php line 2175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2175)
 
 
 #### Arguments
@@ -1691,7 +1824,7 @@ Type = disabled
 
 
 
-### loadObject
+### <a name="method-loadObject"></a>loadObject
 
     object AdminTabCore::loadObject(boolean $opt)
 
@@ -1702,7 +1835,7 @@ otherwise return an empty object, or die
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2187)
+* This method is defined in [classes/AdminTab.php line 2187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2187)
 
 
 #### Arguments
@@ -1710,7 +1843,7 @@ otherwise return an empty object, or die
 
 
 
-### getFieldValue
+### <a name="method-getFieldValue"></a>getFieldValue
 
     string AdminTabCore::getFieldValue(object $obj, string $key, integer $id_lang, $id_shop)
 
@@ -1721,7 +1854,7 @@ Case 2 : Return object value
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2219)
+* This method is defined in [classes/AdminTab.php line 2219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2219)
 
 
 #### Arguments
@@ -1732,7 +1865,7 @@ Case 2 : Return object value
 
 
 
-### displayForm
+### <a name="method-displayForm"></a>displayForm
 
     mixed AdminTabCore::displayForm($firstCall)
 
@@ -1742,7 +1875,7 @@ Display form
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2237)
+* This method is defined in [classes/AdminTab.php line 2237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2237)
 
 
 #### Arguments
@@ -1750,7 +1883,7 @@ Display form
 
 
 
-### viewDetails
+### <a name="method-viewDetails"></a>viewDetails
 
     mixed AdminTabCore::viewDetails()
 
@@ -1760,12 +1893,12 @@ Display object details
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2283](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2283)
+* This method is defined in [classes/AdminTab.php line 2283](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2283)
 
 
 
 
-### beforeDelete
+### <a name="method-beforeDelete"></a>beforeDelete
 
     boolean AdminTabCore::beforeDelete(object $object)
 
@@ -1775,7 +1908,7 @@ Called before deletion
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2293)
+* This method is defined in [classes/AdminTab.php line 2293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2293)
 
 
 #### Arguments
@@ -1783,7 +1916,7 @@ Called before deletion
 
 
 
-### afterDelete
+### <a name="method-afterDelete"></a>afterDelete
 
     boolean AdminTabCore::afterDelete(object $object, $oldId)
 
@@ -1793,7 +1926,7 @@ Called before deletion
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2304](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2304)
+* This method is defined in [classes/AdminTab.php line 2304](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2304)
 
 
 #### Arguments
@@ -1802,7 +1935,7 @@ Called before deletion
 
 
 
-### afterAdd
+### <a name="method-afterAdd"></a>afterAdd
 
     mixed AdminTabCore::afterAdd($object)
 
@@ -1812,7 +1945,7 @@ Called before deletion
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2309](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2309)
+* This method is defined in [classes/AdminTab.php line 2309](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2309)
 
 
 #### Arguments
@@ -1820,7 +1953,7 @@ Called before deletion
 
 
 
-### afterUpdate
+### <a name="method-afterUpdate"></a>afterUpdate
 
     mixed AdminTabCore::afterUpdate($object)
 
@@ -1830,7 +1963,7 @@ Called before deletion
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2314](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2314)
+* This method is defined in [classes/AdminTab.php line 2314](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2314)
 
 
 #### Arguments
@@ -1838,7 +1971,7 @@ Called before deletion
 
 
 
-### afterImageUpload
+### <a name="method-afterImageUpload"></a>afterImageUpload
 
     boolean AdminTabCore::afterImageUpload()
 
@@ -1848,12 +1981,12 @@ Check rights to view the current tab
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2325)
+* This method is defined in [classes/AdminTab.php line 2325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2325)
 
 
 
 
-### viewAccess
+### <a name="method-viewAccess"></a>viewAccess
 
     boolean AdminTabCore::viewAccess($disable)
 
@@ -1863,7 +1996,7 @@ Check rights to view the current tab
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2336)
+* This method is defined in [classes/AdminTab.php line 2336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2336)
 
 
 #### Arguments
@@ -1871,7 +2004,7 @@ Check rights to view the current tab
 
 
 
-### checkToken
+### <a name="method-checkToken"></a>checkToken
 
     mixed AdminTabCore::checkToken()
 
@@ -1881,12 +2014,12 @@ Check for security token
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2353)
+* This method is defined in [classes/AdminTab.php line 2353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2353)
 
 
 
 
-### displayFlags
+### <a name="method-displayFlags"></a>displayFlags
 
     mixed AdminTabCore::displayFlags(array $languages, integer $default_language, string $ids, string $id, boolean $return, boolean $use_vars_instead_of_ids)
 
@@ -1896,7 +2029,7 @@ Display flags in forms for translations
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2369)
+* This method is defined in [classes/AdminTab.php line 2369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2369)
 
 
 #### Arguments
@@ -1909,7 +2042,7 @@ Display flags in forms for translations
 
 
 
-### filterToField
+### <a name="method-filterToField"></a>filterToField
 
     mixed AdminTabCore::filterToField($key, $filter)
 
@@ -1919,7 +2052,7 @@ Display flags in forms for translations
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2400](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2400)
+* This method is defined in [classes/AdminTab.php line 2400](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2400)
 
 
 #### Arguments
@@ -1928,7 +2061,7 @@ Display flags in forms for translations
 
 
 
-### warnDomainName
+### <a name="method-warnDomainName"></a>warnDomainName
 
     mixed AdminTabCore::warnDomainName()
 
@@ -1938,12 +2071,12 @@ Display flags in forms for translations
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2413](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2413)
+* This method is defined in [classes/AdminTab.php line 2413](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2413)
 
 
 
 
-### displayAssoShop
+### <a name="method-displayAssoShop"></a>displayAssoShop
 
     mixed AdminTabCore::displayAssoShop()
 
@@ -1953,12 +2086,12 @@ Display flags in forms for translations
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2423](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2423)
+* This method is defined in [classes/AdminTab.php line 2423](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2423)
 
 
 
 
-### getCurrentUrl
+### <a name="method-getCurrentUrl"></a>getCurrentUrl
 
     string AdminTabCore::getCurrentUrl(array $remove)
 
@@ -1968,7 +2101,7 @@ Get current URL
 
 * Visibility: **protected**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/AdminTab.php line 2525](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#2525)
+* This method is defined in [classes/AdminTab.php line 2525](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L2525)
 
 
 #### Arguments

@@ -7,7 +7,6 @@ WebserviceOutputInterface
 
 
 * Interface name: WebserviceOutputInterface
-* Namespace: 
 * This is an **interface**
 * This interface is defined in [classes/webservice/WebserviceOutputInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L27)
 
@@ -18,9 +17,32 @@ WebserviceOutputInterface
 
 Methods
 -------
+* [__construct](#method-__construct)
+* [setWsUrl](#method-setWsUrl)
+* [getWsUrl](#method-getWsUrl)
+* [getContentType](#method-getContentType)
+* [setSchemaToDisplay](#method-setSchemaToDisplay)
+* [getSchemaToDisplay](#method-getSchemaToDisplay)
+* [renderField](#method-renderField)
+* [renderNodeHeader](#method-renderNodeHeader)
+* [renderNodeFooter](#method-renderNodeFooter)
+* [renderAssociationHeader](#method-renderAssociationHeader)
+* [renderAssociationFooter](#method-renderAssociationFooter)
+* [overrideContent](#method-overrideContent)
+* [renderErrorsHeader](#method-renderErrorsHeader)
+* [renderErrorsFooter](#method-renderErrorsFooter)
+* [renderErrors](#method-renderErrors)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed WebserviceOutputInterface::__construct($languages)
 
@@ -29,7 +51,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#29)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L29)
 
 
 #### Arguments
@@ -37,7 +59,7 @@ Methods
 
 
 
-### setWsUrl
+### <a name="method-setWsUrl"></a>setWsUrl
 
     mixed WebserviceOutputInterface::setWsUrl($url)
 
@@ -46,7 +68,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#30)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L30)
 
 
 #### Arguments
@@ -54,7 +76,7 @@ Methods
 
 
 
-### getWsUrl
+### <a name="method-getWsUrl"></a>getWsUrl
 
     mixed WebserviceOutputInterface::getWsUrl()
 
@@ -63,12 +85,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#31)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L31)
 
 
 
 
-### getContentType
+### <a name="method-getContentType"></a>getContentType
 
     mixed WebserviceOutputInterface::getContentType()
 
@@ -77,12 +99,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#32)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L32)
 
 
 
 
-### setSchemaToDisplay
+### <a name="method-setSchemaToDisplay"></a>setSchemaToDisplay
 
     mixed WebserviceOutputInterface::setSchemaToDisplay($schema)
 
@@ -91,7 +113,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#33)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L33)
 
 
 #### Arguments
@@ -99,7 +121,7 @@ Methods
 
 
 
-### getSchemaToDisplay
+### <a name="method-getSchemaToDisplay"></a>getSchemaToDisplay
 
     mixed WebserviceOutputInterface::getSchemaToDisplay()
 
@@ -108,12 +130,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#34)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L34)
 
 
 
 
-### renderField
+### <a name="method-renderField"></a>renderField
 
     mixed WebserviceOutputInterface::renderField($field)
 
@@ -122,7 +144,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#35)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L35)
 
 
 #### Arguments
@@ -130,7 +152,7 @@ Methods
 
 
 
-### renderNodeHeader
+### <a name="method-renderNodeHeader"></a>renderNodeHeader
 
     mixed WebserviceOutputInterface::renderNodeHeader($obj, $params, $more_attr)
 
@@ -139,7 +161,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#36)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L36)
 
 
 #### Arguments
@@ -149,7 +171,7 @@ Methods
 
 
 
-### renderNodeFooter
+### <a name="method-renderNodeFooter"></a>renderNodeFooter
 
     mixed WebserviceOutputInterface::renderNodeFooter($obj, $params)
 
@@ -158,7 +180,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#37)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L37)
 
 
 #### Arguments
@@ -167,7 +189,7 @@ Methods
 
 
 
-### renderAssociationHeader
+### <a name="method-renderAssociationHeader"></a>renderAssociationHeader
 
     mixed WebserviceOutputInterface::renderAssociationHeader($obj, $params, $assoc_name)
 
@@ -176,7 +198,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#38)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L38)
 
 
 #### Arguments
@@ -186,7 +208,7 @@ Methods
 
 
 
-### renderAssociationFooter
+### <a name="method-renderAssociationFooter"></a>renderAssociationFooter
 
     mixed WebserviceOutputInterface::renderAssociationFooter($obj, $params, $assoc_name)
 
@@ -195,7 +217,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#39)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L39)
 
 
 #### Arguments
@@ -205,7 +227,7 @@ Methods
 
 
 
-### overrideContent
+### <a name="method-overrideContent"></a>overrideContent
 
     mixed WebserviceOutputInterface::overrideContent($content)
 
@@ -214,7 +236,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#40)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L40)
 
 
 #### Arguments
@@ -222,7 +244,7 @@ Methods
 
 
 
-### renderErrorsHeader
+### <a name="method-renderErrorsHeader"></a>renderErrorsHeader
 
     mixed WebserviceOutputInterface::renderErrorsHeader()
 
@@ -231,12 +253,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#41)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L41)
 
 
 
 
-### renderErrorsFooter
+### <a name="method-renderErrorsFooter"></a>renderErrorsFooter
 
     mixed WebserviceOutputInterface::renderErrorsFooter()
 
@@ -245,12 +267,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#42)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L42)
 
 
 
 
-### renderErrors
+### <a name="method-renderErrors"></a>renderErrors
 
     mixed WebserviceOutputInterface::renderErrors($message, $code)
 
@@ -259,7 +281,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#43)
+* This method is defined in [classes/webservice/WebserviceOutputInterface.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputInterface.php#L43)
 
 
 #### Arguments

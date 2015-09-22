@@ -17,8 +17,29 @@ AdminTabsControllerCore
 Properties
 ----------
 
+* [$position_identifier](#property-$position_identifier)
+* [$object](#property-$object)
 
-### $position_identifier
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderForm](#method-renderForm)
+* [renderList](#method-renderList)
+* [initProcess](#method-initProcess)
+* [renderDetails](#method-renderDetails)
+* [postProcess](#method-postProcess)
+* [afterImageUpload](#method-afterImageUpload)
+* [ajaxProcessUpdatePositions](#method-ajaxProcessUpdatePositions)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$position_identifier"></a>$position_identifier
 
     protected mixed $position_identifier = 'id_tab'
 
@@ -27,10 +48,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTabsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#32)
+* This property is defined in [controllers/admin/AdminTabsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#L32)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Tab $object
 
@@ -39,14 +60,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminTabsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#30)
+* This property is defined in [controllers/admin/AdminTabsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminTabsControllerCore::__construct()
 
@@ -55,12 +76,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTabsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#34)
+* This method is defined in [controllers/admin/AdminTabsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#L34)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminTabsControllerCore::initPageHeaderToolbar()
 
@@ -69,12 +90,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTabsController.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#89)
+* This method is defined in [controllers/admin/AdminTabsController.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#L89)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminTabsControllerCore::renderForm()
 
@@ -83,12 +104,12 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTabsController.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#114)
+* This method is defined in [controllers/admin/AdminTabsController.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#L114)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminTabsControllerCore::renderList()
 
@@ -97,12 +118,12 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTabsController.php line 214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#214)
+* This method is defined in [controllers/admin/AdminTabsController.php line 214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#L214)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminTabsControllerCore::initProcess()
 
@@ -111,12 +132,12 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTabsController.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#226)
+* This method is defined in [controllers/admin/AdminTabsController.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#L226)
 
 
 
 
-### renderDetails
+### <a name="method-renderDetails"></a>renderDetails
 
     mixed AdminTabsControllerCore::renderDetails()
 
@@ -125,12 +146,12 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTabsController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#241)
+* This method is defined in [controllers/admin/AdminTabsController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#L241)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminTabsControllerCore::postProcess()
 
@@ -139,12 +160,12 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTabsController.php line 266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#266)
+* This method is defined in [controllers/admin/AdminTabsController.php line 266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#L266)
 
 
 
 
-### afterImageUpload
+### <a name="method-afterImageUpload"></a>afterImageUpload
 
     mixed AdminTabsControllerCore::afterImageUpload()
 
@@ -153,12 +174,12 @@ AdminController::renderList() override
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTabsController.php line 337](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#337)
+* This method is defined in [controllers/admin/AdminTabsController.php line 337](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#L337)
 
 
 
 
-### ajaxProcessUpdatePositions
+### <a name="method-ajaxProcessUpdatePositions"></a>ajaxProcessUpdatePositions
 
     mixed AdminTabsControllerCore::ajaxProcessUpdatePositions()
 
@@ -167,7 +188,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTabsController.php line 346](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#346)
+* This method is defined in [controllers/admin/AdminTabsController.php line 346](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#L346)
 
 
 

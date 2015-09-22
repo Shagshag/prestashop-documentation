@@ -18,9 +18,23 @@ AdminMarketingControllerCore
 
 Methods
 -------
+* [__construct](#method-__construct)
+* [initContent](#method-initContent)
+* [initToolbarTitle](#method-initToolbarTitle)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [initToolbar](#method-initToolbar)
+* [renderView](#method-renderView)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed AdminMarketingControllerCore::__construct()
 
@@ -29,12 +43,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminMarketingController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#29)
+* This method is defined in [controllers/admin/AdminMarketingController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#L29)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminMarketingControllerCore::initContent()
 
@@ -43,12 +57,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminMarketingController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#35)
+* This method is defined in [controllers/admin/AdminMarketingController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#L35)
 
 
 
 
-### initToolbarTitle
+### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
     mixed AdminMarketingControllerCore::initToolbarTitle()
 
@@ -57,12 +71,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminMarketingController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#41)
+* This method is defined in [controllers/admin/AdminMarketingController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#L41)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminMarketingControllerCore::initPageHeaderToolbar()
 
@@ -71,12 +85,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminMarketingController.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#46)
+* This method is defined in [controllers/admin/AdminMarketingController.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#L46)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminMarketingControllerCore::initToolbar()
 
@@ -85,12 +99,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminMarketingController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#52)
+* This method is defined in [controllers/admin/AdminMarketingController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#L52)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminMarketingControllerCore::renderView()
 
@@ -99,7 +113,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminMarketingController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#57)
+* This method is defined in [controllers/admin/AdminMarketingController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#L57)
 
 
 

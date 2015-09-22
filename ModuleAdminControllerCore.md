@@ -18,8 +18,22 @@ ModuleAdminControllerCore
 Properties
 ----------
 
+* [$module](#property-$module)
 
-### $module
+Methods
+-------
+* [__construct](#method-__construct)
+* [createTemplate](#method-createTemplate)
+* [getTemplatePath](#method-getTemplatePath)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$module"></a>$module
 
     public \Module $module
 
@@ -28,14 +42,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/controller/ModuleAdminController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#33)
+* This property is defined in [classes/controller/ModuleAdminController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#L33)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed ModuleAdminControllerCore::__construct()
 
@@ -44,12 +58,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/controller/ModuleAdminController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#38)
+* This method is defined in [classes/controller/ModuleAdminController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#L38)
 
 
 
 
-### createTemplate
+### <a name="method-createTemplate"></a>createTemplate
 
     \Smarty_Internal_Template ModuleAdminControllerCore::createTemplate(string $tpl_name)
 
@@ -58,7 +72,7 @@ Creates a template object
 
 
 * Visibility: **public**
-* This method is defined in [classes/controller/ModuleAdminController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#61)
+* This method is defined in [classes/controller/ModuleAdminController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#L61)
 
 
 #### Arguments
@@ -66,7 +80,7 @@ Creates a template object
 
 
 
-### getTemplatePath
+### <a name="method-getTemplatePath"></a>getTemplatePath
 
     string ModuleAdminControllerCore::getTemplatePath()
 
@@ -75,7 +89,7 @@ Get path to back office templates for the module
 
 
 * Visibility: **public**
-* This method is defined in [classes/controller/ModuleAdminController.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#77)
+* This method is defined in [classes/controller/ModuleAdminController.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#L77)
 
 
 

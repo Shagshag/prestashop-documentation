@@ -17,8 +17,33 @@ AdminWarehousesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderList](#method-renderList)
+* [renderForm](#method-renderForm)
+* [renderView](#method-renderView)
+* [afterAdd](#method-afterAdd)
+* [getList](#method-getList)
+* [initContent](#method-initContent)
+* [initProcess](#method-initProcess)
+* [processAdd](#method-processAdd)
+* [updateAddress](#method-updateAddress)
+* [processDelete](#method-processDelete)
+* [processUpdate](#method-processUpdate)
+* [updateAssoShop](#method-updateAssoShop)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Warehouse $object
 
@@ -27,14 +52,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminWarehousesController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#31)
+* This property is defined in [controllers/admin/AdminWarehousesController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L31)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminWarehousesControllerCore::__construct()
 
@@ -43,12 +68,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#33)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L33)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminWarehousesControllerCore::initPageHeaderToolbar()
 
@@ -57,12 +82,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#86)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L86)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminWarehousesControllerCore::renderList()
 
@@ -71,12 +96,12 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#103)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L103)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminWarehousesControllerCore::renderForm()
 
@@ -85,12 +110,12 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#142)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L142)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminWarehousesControllerCore::renderView()
 
@@ -99,12 +124,12 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#422)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L422)
 
 
 
 
-### afterAdd
+### <a name="method-afterAdd"></a>afterAdd
 
     boolean AdminWarehousesControllerCore::afterAdd(\Warehouse $object)
 
@@ -113,7 +138,7 @@ Called once $object is set.
 Used to process the associations with address/shops/carriers
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 466](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#466)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 466](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L466)
 
 
 #### Arguments
@@ -121,7 +146,7 @@ Used to process the associations with address/shops/carriers
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminWarehousesControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
 
@@ -130,7 +155,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 499](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#499)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 499](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L499)
 
 
 #### Arguments
@@ -143,7 +168,7 @@ AdminController::getList() override
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminWarehousesControllerCore::initContent()
 
@@ -152,12 +177,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 525](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#525)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 525](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L525)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminWarehousesControllerCore::initProcess()
 
@@ -166,12 +191,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 534](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#534)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 534](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L534)
 
 
 
 
-### processAdd
+### <a name="method-processAdd"></a>processAdd
 
     mixed AdminWarehousesControllerCore::processAdd()
 
@@ -180,12 +205,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 546](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#546)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 546](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L546)
 
 
 
 
-### updateAddress
+### <a name="method-updateAddress"></a>updateAddress
 
     mixed AdminWarehousesControllerCore::updateAddress()
 
@@ -194,12 +219,12 @@ AdminController::getList() override
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 562](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#562)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 562](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L562)
 
 
 
 
-### processDelete
+### <a name="method-processDelete"></a>processDelete
 
     mixed AdminWarehousesControllerCore::processDelete()
 
@@ -208,12 +233,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 618](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#618)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 618](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L618)
 
 
 
 
-### processUpdate
+### <a name="method-processUpdate"></a>processUpdate
 
     mixed AdminWarehousesControllerCore::processUpdate()
 
@@ -222,12 +247,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 649](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#649)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 649](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L649)
 
 
 
 
-### updateAssoShop
+### <a name="method-updateAssoShop"></a>updateAssoShop
 
     mixed AdminWarehousesControllerCore::updateAssoShop($id_object)
 
@@ -236,7 +261,7 @@ AdminController::getList() override
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminWarehousesController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#670)
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#L670)
 
 
 #### Arguments

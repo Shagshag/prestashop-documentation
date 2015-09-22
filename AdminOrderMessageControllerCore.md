@@ -17,8 +17,21 @@ AdminOrderMessageControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \OrderMessage $object
 
@@ -27,14 +40,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminOrderMessageController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderMessageController.php#30)
+* This property is defined in [controllers/admin/AdminOrderMessageController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderMessageController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminOrderMessageControllerCore::__construct()
 
@@ -43,12 +56,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminOrderMessageController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderMessageController.php#32)
+* This method is defined in [controllers/admin/AdminOrderMessageController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderMessageController.php#L32)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminOrderMessageControllerCore::initPageHeaderToolbar()
 
@@ -57,7 +70,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminOrderMessageController.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderMessageController.php#100)
+* This method is defined in [controllers/admin/AdminOrderMessageController.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderMessageController.php#L100)
 
 
 

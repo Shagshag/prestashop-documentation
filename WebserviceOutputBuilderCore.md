@@ -14,30 +14,89 @@ WebserviceOutputBuilderCore
 Constants
 ----------
 
+* [VIEW_LIST](#constant-VIEW_LIST)
+* [VIEW_DETAILS](#constant-VIEW_DETAILS)
 
-### VIEW_LIST
+Properties
+----------
+
+* [$wsUrl](#property-$wsUrl)
+* [$output](#property-$output)
+* [$objectRender](#property-$objectRender)
+* [$wsResource](#property-$wsResource)
+* [$depth](#property-$depth)
+* [$schemaToDisplay](#property-$schemaToDisplay)
+* [$fieldsToDisplay](#property-$fieldsToDisplay)
+* [$specificFields](#property-$specificFields)
+* [$virtualFields](#property-$virtualFields)
+* [$statusInt](#property-$statusInt)
+* [$wsParamOverrides](#property-$wsParamOverrides)
+* [$_cache_ws_parameters](#property-$_cache_ws_parameters)
+* [$headerParams](#property-$headerParams)
+* [$status](#property-$status)
+
+Methods
+-------
+* [__construct](#method-__construct)
+* [setObjectRender](#method-setObjectRender)
+* [getObjectRender](#method-getObjectRender)
+* [setWsResources](#method-setWsResources)
+* [buildHeader](#method-buildHeader)
+* [setHeaderParams](#method-setHeaderParams)
+* [getHeaderParams](#method-getHeaderParams)
+* [resetHeaderParams](#method-resetHeaderParams)
+* [getStatus](#method-getStatus)
+* [getStatusInt](#method-getStatusInt)
+* [setStatus](#method-setStatus)
+* [getErrors](#method-getErrors)
+* [getResourcesList](#method-getResourcesList)
+* [registerOverrideWSParameters](#method-registerOverrideWSParameters)
+* [getContent](#method-getContent)
+* [renderEntityMinimum](#method-renderEntityMinimum)
+* [renderSchema](#method-renderSchema)
+* [renderEntity](#method-renderEntity)
+* [renderField](#method-renderField)
+* [renderAssociations](#method-renderAssociations)
+* [renderFlatAssociation](#method-renderFlatAssociation)
+* [setIndent](#method-setIndent)
+* [getSynopsisDetails](#method-getSynopsisDetails)
+* [setSpecificField](#method-setSpecificField)
+* [validateObjectAndMethod](#method-validateObjectAndMethod)
+* [getSpecificField](#method-getSpecificField)
+* [overrideSpecificField](#method-overrideSpecificField)
+* [setVirtualField](#method-setVirtualField)
+* [getVirtualFields](#method-getVirtualFields)
+* [addVirtualFields](#method-addVirtualFields)
+* [setFieldsToDisplay](#method-setFieldsToDisplay)
+
+
+Constants
+----------
+
+
+### <a name="constant-VIEW_LIST"></a>VIEW_LIST
 
     const VIEW_LIST = 1
 
 
 
-* This constant is defined in [classes/webservice/WebserviceOutputBuilder.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#35)
+* This constant is defined in [classes/webservice/WebserviceOutputBuilder.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L35)
 
 
-### VIEW_DETAILS
+### <a name="constant-VIEW_DETAILS"></a>VIEW_DETAILS
 
     const VIEW_DETAILS = 2
 
 
 
-* This constant is defined in [classes/webservice/WebserviceOutputBuilder.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#36)
+* This constant is defined in [classes/webservice/WebserviceOutputBuilder.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L36)
 
 
 Properties
 ----------
 
 
-### $wsUrl
+### <a name="property-$wsUrl"></a>$wsUrl
 
     protected mixed $wsUrl
 
@@ -46,10 +105,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#38)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L38)
 
 
-### $output
+### <a name="property-$output"></a>$output
 
     protected mixed $output
 
@@ -58,10 +117,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#39)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L39)
 
 
-### $objectRender
+### <a name="property-$objectRender"></a>$objectRender
 
     public \WebserviceOutputInterface $objectRender
 
@@ -70,10 +129,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#42)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L42)
 
 
-### $wsResource
+### <a name="property-$wsResource"></a>$wsResource
 
     protected mixed $wsResource
 
@@ -82,10 +141,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#43)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L43)
 
 
-### $depth
+### <a name="property-$depth"></a>$depth
 
     protected mixed $depth
 
@@ -94,10 +153,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#44)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L44)
 
 
-### $schemaToDisplay
+### <a name="property-$schemaToDisplay"></a>$schemaToDisplay
 
     protected mixed $schemaToDisplay
 
@@ -106,10 +165,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#45)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L45)
 
 
-### $fieldsToDisplay
+### <a name="property-$fieldsToDisplay"></a>$fieldsToDisplay
 
     protected mixed $fieldsToDisplay
 
@@ -118,10 +177,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#46)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L46)
 
 
-### $specificFields
+### <a name="property-$specificFields"></a>$specificFields
 
     protected mixed $specificFields = array()
 
@@ -130,10 +189,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#47)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L47)
 
 
-### $virtualFields
+### <a name="property-$virtualFields"></a>$virtualFields
 
     protected mixed $virtualFields = array()
 
@@ -142,10 +201,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#48)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L48)
 
 
-### $statusInt
+### <a name="property-$statusInt"></a>$statusInt
 
     protected mixed $statusInt
 
@@ -154,10 +213,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#49)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L49)
 
 
-### $wsParamOverrides
+### <a name="property-$wsParamOverrides"></a>$wsParamOverrides
 
     protected mixed $wsParamOverrides
 
@@ -166,10 +225,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#50)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L50)
 
 
-### $_cache_ws_parameters
+### <a name="property-$_cache_ws_parameters"></a>$_cache_ws_parameters
 
     protected mixed $_cache_ws_parameters = array()
 
@@ -179,10 +238,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#52)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L52)
 
 
-### $headerParams
+### <a name="property-$headerParams"></a>$headerParams
 
     protected mixed $headerParams = array('Access-Time' => 0, 'X-Powered-By' => 0, 'PSWS-Version' => 0, 'Content-Type' => 0)
 
@@ -191,10 +250,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#55)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L55)
 
 
-### $status
+### <a name="property-$status"></a>$status
 
     protected string $status
 
@@ -203,14 +262,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#65)
+* This property is defined in [classes/webservice/WebserviceOutputBuilder.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L65)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed WebserviceOutputBuilderCore::__construct($ws_url)
 
@@ -219,7 +278,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#67)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L67)
 
 
 #### Arguments
@@ -227,7 +286,7 @@ Methods
 
 
 
-### setObjectRender
+### <a name="method-setObjectRender"></a>setObjectRender
 
     \WebserviceOutputBuilder WebserviceOutputBuilderCore::setObjectRender(\WebserviceOutputInterface $obj_render)
 
@@ -236,7 +295,7 @@ Set the render object for set the output format.
 Set the Content-type for the http header.
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#85)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L85)
 
 
 #### Arguments
@@ -244,7 +303,7 @@ Set the Content-type for the http header.
 
 
 
-### getObjectRender
+### <a name="method-getObjectRender"></a>getObjectRender
 
     \WebserviceOutputInterface WebserviceOutputBuilderCore::getObjectRender()
 
@@ -253,12 +312,12 @@ getter
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#103)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L103)
 
 
 
 
-### setWsResources
+### <a name="method-setWsResources"></a>setWsResources
 
     \WebserviceOutputBuilder WebserviceOutputBuilderCore::setWsResources(array $resources)
 
@@ -268,7 +327,7 @@ To build
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#116)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L116)
 
 
 #### Arguments
@@ -276,7 +335,7 @@ To build
 
 
 
-### buildHeader
+### <a name="method-buildHeader"></a>buildHeader
 
     array WebserviceOutputBuilderCore::buildHeader()
 
@@ -287,12 +346,12 @@ This check each required params.
 If this method is overrided don't forget to check required specific params (for xml etc...)
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#130)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L130)
 
 
 
 
-### setHeaderParams
+### <a name="method-setHeaderParams"></a>setHeaderParams
 
     \WebserviceOutputBuilder WebserviceOutputBuilderCore::setHeaderParams(string $key, string $value)
 
@@ -301,7 +360,7 @@ If this method is overrided don't forget to check required specific params (for 
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#147)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L147)
 
 
 #### Arguments
@@ -310,7 +369,7 @@ If this method is overrided don't forget to check required specific params (for 
 
 
 
-### getHeaderParams
+### <a name="method-getHeaderParams"></a>getHeaderParams
 
     array|string WebserviceOutputBuilderCore::getHeaderParams(null|string $key)
 
@@ -319,7 +378,7 @@ If this method is overrided don't forget to check required specific params (for 
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#162)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L162)
 
 
 #### Arguments
@@ -327,7 +386,7 @@ If this method is overrided don't forget to check required specific params (for 
 
 
 
-### resetHeaderParams
+### <a name="method-resetHeaderParams"></a>resetHeaderParams
 
     \WebserviceOutputBuilder WebserviceOutputBuilderCore::resetHeaderParams()
 
@@ -336,12 +395,12 @@ Delete all Header parameters previously set.
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#186)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L186)
 
 
 
 
-### getStatus
+### <a name="method-getStatus"></a>getStatus
 
     string WebserviceOutputBuilderCore::getStatus()
 
@@ -350,12 +409,12 @@ Delete all Header parameters previously set.
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#195)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L195)
 
 
 
 
-### getStatusInt
+### <a name="method-getStatusInt"></a>getStatusInt
 
     mixed WebserviceOutputBuilderCore::getStatusInt()
 
@@ -364,12 +423,12 @@ Delete all Header parameters previously set.
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#200)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L200)
 
 
 
 
-### setStatus
+### <a name="method-setStatus"></a>setStatus
 
     void WebserviceOutputBuilderCore::setStatus(integer $num)
 
@@ -378,7 +437,7 @@ Set the return header status
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#210)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L210)
 
 
 #### Arguments
@@ -386,7 +445,7 @@ Set the return header status
 
 
 
-### getErrors
+### <a name="method-getErrors"></a>getErrors
 
     string WebserviceOutputBuilderCore::getErrors(array $errors)
 
@@ -395,7 +454,7 @@ Build errors output using an error array
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 259](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#259)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 259](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L259)
 
 
 #### Arguments
@@ -403,7 +462,7 @@ Build errors output using an error array
 
 
 
-### getResourcesList
+### <a name="method-getResourcesList"></a>getResourcesList
 
     string WebserviceOutputBuilderCore::getResourcesList($key_permissions)
 
@@ -412,7 +471,7 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 285](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#285)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 285](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L285)
 
 
 #### Arguments
@@ -420,7 +479,7 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 
 
-### registerOverrideWSParameters
+### <a name="method-registerOverrideWSParameters"></a>registerOverrideWSParameters
 
     mixed WebserviceOutputBuilderCore::registerOverrideWSParameters($wsrObject, $method)
 
@@ -429,7 +488,7 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#329)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L329)
 
 
 #### Arguments
@@ -438,7 +497,7 @@ Build the resource list in the output format specified by WebserviceOutputBuilde
 
 
 
-### getContent
+### <a name="method-getContent"></a>getContent
 
     string WebserviceOutputBuilderCore::getContent(array $objects, null|string $schema_to_display, string|array $fields_to_display, integer $depth, integer $type_of_view, $override)
 
@@ -451,7 +510,7 @@ Different content types are :
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 349](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#349)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 349](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L349)
 
 
 #### Arguments
@@ -465,7 +524,7 @@ Different content types are :
 
 
 
-### renderEntityMinimum
+### <a name="method-renderEntityMinimum"></a>renderEntityMinimum
 
     string WebserviceOutputBuilderCore::renderEntityMinimum(\ObjectModel $object, integer $depth)
 
@@ -474,7 +533,7 @@ Create the tree diagram with no details
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 411](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#411)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 411](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L411)
 
 
 #### Arguments
@@ -483,7 +542,7 @@ Create the tree diagram with no details
 
 
 
-### renderSchema
+### <a name="method-renderSchema"></a>renderSchema
 
     string WebserviceOutputBuilderCore::renderSchema(\ObjectModel $object, array $ws_params)
 
@@ -492,7 +551,7 @@ Build a schema blank or synopsis
 
 
 * Visibility: **protected**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 432](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#432)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 432](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L432)
 
 
 #### Arguments
@@ -501,7 +560,7 @@ Build a schema blank or synopsis
 
 
 
-### renderEntity
+### <a name="method-renderEntity"></a>renderEntity
 
     string WebserviceOutputBuilderCore::renderEntity(\ObjectModel $object, integer $depth)
 
@@ -510,7 +569,7 @@ Build the entity detail.
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#453)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L453)
 
 
 #### Arguments
@@ -519,7 +578,7 @@ Build the entity detail.
 
 
 
-### renderField
+### <a name="method-renderField"></a>renderField
 
     string WebserviceOutputBuilderCore::renderField(\ObjectModel $object, array $ws_params, string $field_name, array $field, integer $depth)
 
@@ -528,7 +587,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **protected**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#514)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L514)
 
 
 #### Arguments
@@ -540,7 +599,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 
-### renderAssociations
+### <a name="method-renderAssociations"></a>renderAssociations
 
     string WebserviceOutputBuilderCore::renderAssociations($object, $depth, $associations, $ws_params)
 
@@ -549,7 +608,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **protected**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 581](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#581)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 581](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L581)
 
 
 #### Arguments
@@ -560,7 +619,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 
-### renderFlatAssociation
+### <a name="method-renderFlatAssociation"></a>renderFlatAssociation
 
     mixed WebserviceOutputBuilderCore::renderFlatAssociation($object, $depth, $assoc_name, $resource_name, $fields_assoc, $object_assoc, $parent_details)
 
@@ -569,7 +628,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **protected**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 657](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#657)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 657](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L657)
 
 
 #### Arguments
@@ -583,7 +642,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 
-### setIndent
+### <a name="method-setIndent"></a>setIndent
 
     mixed WebserviceOutputBuilderCore::setIndent($depth)
 
@@ -592,7 +651,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 697](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#697)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 697](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L697)
 
 
 #### Arguments
@@ -600,7 +659,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 
-### getSynopsisDetails
+### <a name="method-getSynopsisDetails"></a>getSynopsisDetails
 
     mixed WebserviceOutputBuilderCore::getSynopsisDetails($field)
 
@@ -609,7 +668,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 707](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#707)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 707](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L707)
 
 
 #### Arguments
@@ -617,7 +676,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 
-### setSpecificField
+### <a name="method-setSpecificField"></a>setSpecificField
 
     \WebserviceOutputBuilder WebserviceOutputBuilderCore::setSpecificField(string|object $object, string $method, $field_name, $entity_name)
 
@@ -626,7 +685,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 735](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#735)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 735](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L735)
 
 
 #### Arguments
@@ -637,7 +696,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 
-### validateObjectAndMethod
+### <a name="method-validateObjectAndMethod"></a>validateObjectAndMethod
 
     mixed WebserviceOutputBuilderCore::validateObjectAndMethod($object, $method)
 
@@ -646,7 +705,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **protected**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 746](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#746)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 746](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L746)
 
 
 #### Arguments
@@ -655,7 +714,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 
-### getSpecificField
+### <a name="method-getSpecificField"></a>getSpecificField
 
     mixed WebserviceOutputBuilderCore::getSpecificField()
 
@@ -664,12 +723,12 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 755](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#755)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 755](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L755)
 
 
 
 
-### overrideSpecificField
+### <a name="method-overrideSpecificField"></a>overrideSpecificField
 
     mixed WebserviceOutputBuilderCore::overrideSpecificField($entity_name, $field_name, $field, $entity_object, $ws_params)
 
@@ -678,7 +737,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **protected**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 759](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#759)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 759](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L759)
 
 
 #### Arguments
@@ -690,7 +749,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 
-### setVirtualField
+### <a name="method-setVirtualField"></a>setVirtualField
 
     mixed WebserviceOutputBuilderCore::setVirtualField($object, $method, $entity_name, $parameters)
 
@@ -699,7 +758,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 772](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#772)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 772](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L772)
 
 
 #### Arguments
@@ -710,7 +769,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 
-### getVirtualFields
+### <a name="method-getVirtualFields"></a>getVirtualFields
 
     mixed WebserviceOutputBuilderCore::getVirtualFields()
 
@@ -719,12 +778,12 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 783](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#783)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 783](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L783)
 
 
 
 
-### addVirtualFields
+### <a name="method-addVirtualFields"></a>addVirtualFields
 
     mixed WebserviceOutputBuilderCore::addVirtualFields($entity_name, $entity_object)
 
@@ -733,7 +792,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 788](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#788)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 788](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L788)
 
 
 #### Arguments
@@ -742,7 +801,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 
-### setFieldsToDisplay
+### <a name="method-setFieldsToDisplay"></a>setFieldsToDisplay
 
     mixed WebserviceOutputBuilderCore::setFieldsToDisplay($fields)
 
@@ -751,7 +810,7 @@ Build a field and use recursivity depend on the depth parameter.
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 813](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#813)
+* This method is defined in [classes/webservice/WebserviceOutputBuilder.php line 813](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputBuilder.php#L813)
 
 
 #### Arguments

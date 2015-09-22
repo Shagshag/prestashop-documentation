@@ -18,9 +18,21 @@ AdminNotFoundControllerCore
 
 Methods
 -------
+* [__construct](#method-__construct)
+* [checkAccess](#method-checkAccess)
+* [viewAccess](#method-viewAccess)
+* [initContent](#method-initContent)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed AdminNotFoundControllerCore::__construct()
 
@@ -29,12 +41,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminNotFoundController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminNotFoundController.php#29)
+* This method is defined in [controllers/admin/AdminNotFoundController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminNotFoundController.php#L29)
 
 
 
 
-### checkAccess
+### <a name="method-checkAccess"></a>checkAccess
 
     mixed AdminNotFoundControllerCore::checkAccess()
 
@@ -43,12 +55,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminNotFoundController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminNotFoundController.php#35)
+* This method is defined in [controllers/admin/AdminNotFoundController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminNotFoundController.php#L35)
 
 
 
 
-### viewAccess
+### <a name="method-viewAccess"></a>viewAccess
 
     mixed AdminNotFoundControllerCore::viewAccess()
 
@@ -57,12 +69,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminNotFoundController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminNotFoundController.php#40)
+* This method is defined in [controllers/admin/AdminNotFoundController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminNotFoundController.php#L40)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminNotFoundControllerCore::initContent()
 
@@ -71,7 +83,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminNotFoundController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminNotFoundController.php#45)
+* This method is defined in [controllers/admin/AdminNotFoundController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminNotFoundController.php#L45)
 
 
 

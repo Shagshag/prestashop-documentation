@@ -17,9 +17,25 @@ TranslateCore
 
 Methods
 -------
+* [getAdminTranslation](#method-getAdminTranslation)
+* [getGenericAdminTranslation](#method-getGenericAdminTranslation)
+* [getModuleTranslation](#method-getModuleTranslation)
+* [getPdfTranslation](#method-getPdfTranslation)
+* [checkAndReplaceArgs](#method-checkAndReplaceArgs)
+* [postProcessTranslation](#method-postProcessTranslation)
+* [smartyPostProcessTranslation](#method-smartyPostProcessTranslation)
+* [ppTags](#method-ppTags)
 
 
-### getAdminTranslation
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-getAdminTranslation"></a>getAdminTranslation
 
     string TranslateCore::getAdminTranslation($string, string $class, boolean $addslashes, boolean $htmlentities, $sprintf)
 
@@ -29,7 +45,7 @@ Get a translation for an admin controller
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Translate.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#41)
+* This method is defined in [classes/Translate.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#L41)
 
 
 #### Arguments
@@ -41,7 +57,7 @@ Get a translation for an admin controller
 
 
 
-### getGenericAdminTranslation
+### <a name="method-getGenericAdminTranslation"></a>getGenericAdminTranslation
 
     string TranslateCore::getGenericAdminTranslation($string, null $key, array $lang_array)
 
@@ -51,7 +67,7 @@ Return the translation for a string if it exists for the base AdminController or
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Translate.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#98)
+* This method is defined in [classes/Translate.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#L98)
 
 
 #### Arguments
@@ -61,7 +77,7 @@ Return the translation for a string if it exists for the base AdminController or
 
 
 
-### getModuleTranslation
+### <a name="method-getModuleTranslation"></a>getModuleTranslation
 
     string TranslateCore::getModuleTranslation(string|\Module $module, string $string, string $source, $sprintf, $js)
 
@@ -71,7 +87,7 @@ Get a translation for a module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Translate.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#127)
+* This method is defined in [classes/Translate.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#L127)
 
 
 #### Arguments
@@ -83,7 +99,7 @@ Get a translation for a module
 
 
 
-### getPdfTranslation
+### <a name="method-getPdfTranslation"></a>getPdfTranslation
 
     string TranslateCore::getPdfTranslation(string $string, $sprintf)
 
@@ -93,7 +109,7 @@ Get a translation for a PDF
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Translate.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#221)
+* This method is defined in [classes/Translate.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#L221)
 
 
 #### Arguments
@@ -102,7 +118,7 @@ Get a translation for a PDF
 
 
 
-### checkAndReplaceArgs
+### <a name="method-checkAndReplaceArgs"></a>checkAndReplaceArgs
 
     string TranslateCore::checkAndReplaceArgs($string, $args)
 
@@ -112,7 +128,7 @@ Check if string use a specif syntax for sprintf and replace arguments if use it
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Translate.php line 264](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#264)
+* This method is defined in [classes/Translate.php line 264](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#L264)
 
 
 #### Arguments
@@ -121,7 +137,7 @@ Check if string use a specif syntax for sprintf and replace arguments if use it
 
 
 
-### postProcessTranslation
+### <a name="method-postProcessTranslation"></a>postProcessTranslation
 
     mixed TranslateCore::postProcessTranslation($string, $params)
 
@@ -131,7 +147,7 @@ Perform operations on translations after everything is escaped and before displa
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Translate.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#279)
+* This method is defined in [classes/Translate.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#L279)
 
 
 #### Arguments
@@ -140,7 +156,7 @@ Perform operations on translations after everything is escaped and before displa
 
 
 
-### smartyPostProcessTranslation
+### <a name="method-smartyPostProcessTranslation"></a>smartyPostProcessTranslation
 
     mixed TranslateCore::smartyPostProcessTranslation($string, $params)
 
@@ -150,7 +166,7 @@ Compatibility method that just calls postProcessTranslation.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Translate.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#306)
+* This method is defined in [classes/Translate.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#L306)
 
 
 #### Arguments
@@ -159,7 +175,7 @@ Compatibility method that just calls postProcessTranslation.
 
 
 
-### ppTags
+### <a name="method-ppTags"></a>ppTags
 
     mixed TranslateCore::ppTags($string, $tags)
 
@@ -169,7 +185,7 @@ Helper function to make calls to postProcessTranslation more readable.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Translate.php line 314](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#314)
+* This method is defined in [classes/Translate.php line 314](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#L314)
 
 
 #### Arguments

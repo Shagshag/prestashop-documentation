@@ -17,8 +17,22 @@ ModuleFrontControllerCore
 Properties
 ----------
 
+* [$module](#property-$module)
 
-### $module
+Methods
+-------
+* [__construct](#method-__construct)
+* [setTemplate](#method-setTemplate)
+* [getTemplatePath](#method-getTemplatePath)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$module"></a>$module
 
     public \Module $module
 
@@ -27,14 +41,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/controller/ModuleFrontController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleFrontController.php#33)
+* This property is defined in [classes/controller/ModuleFrontController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleFrontController.php#L33)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed ModuleFrontControllerCore::__construct()
 
@@ -43,12 +57,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/controller/ModuleFrontController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleFrontController.php#35)
+* This method is defined in [classes/controller/ModuleFrontController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleFrontController.php#L35)
 
 
 
 
-### setTemplate
+### <a name="method-setTemplate"></a>setTemplate
 
     mixed ModuleFrontControllerCore::setTemplate(string $template)
 
@@ -57,7 +71,7 @@ Assigns module template for page content
 
 
 * Visibility: **public**
-* This method is defined in [classes/controller/ModuleFrontController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleFrontController.php#63)
+* This method is defined in [classes/controller/ModuleFrontController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleFrontController.php#L63)
 
 
 #### Arguments
@@ -65,7 +79,7 @@ Assigns module template for page content
 
 
 
-### getTemplatePath
+### <a name="method-getTemplatePath"></a>getTemplatePath
 
     string|false ModuleFrontControllerCore::getTemplatePath(string $template)
 
@@ -74,7 +88,7 @@ Finds and returns module front template that take the highest precedence
 
 
 * Visibility: **public**
-* This method is defined in [classes/controller/ModuleFrontController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleFrontController.php#78)
+* This method is defined in [classes/controller/ModuleFrontController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleFrontController.php#L78)
 
 
 #### Arguments

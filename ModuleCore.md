@@ -15,84 +15,247 @@ ModuleCore
 Constants
 ----------
 
+* [CACHE_FILE_MODULES_LIST](#constant-CACHE_FILE_MODULES_LIST)
+* [CACHE_FILE_TAB_MODULES_LIST](#constant-CACHE_FILE_TAB_MODULES_LIST)
+* [CACHE_FILE_ALL_COUNTRY_MODULES_LIST](#constant-CACHE_FILE_ALL_COUNTRY_MODULES_LIST)
+* [CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST](#constant-CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST)
+* [CACHE_FILE_CUSTOMER_MODULES_LIST](#constant-CACHE_FILE_CUSTOMER_MODULES_LIST)
+* [CACHE_FILE_MUST_HAVE_MODULES_LIST](#constant-CACHE_FILE_MUST_HAVE_MODULES_LIST)
+* [CACHE_FILE_TRUSTED_MODULES_LIST](#constant-CACHE_FILE_TRUSTED_MODULES_LIST)
+* [CACHE_FILE_UNTRUSTED_MODULES_LIST](#constant-CACHE_FILE_UNTRUSTED_MODULES_LIST)
 
-### CACHE_FILE_MODULES_LIST
+Properties
+----------
+
+* [$id](#property-$id)
+* [$version](#property-$version)
+* [$database_version](#property-$database_version)
+* [$registered_version](#property-$registered_version)
+* [$ps_versions_compliancy](#property-$ps_versions_compliancy)
+* [$dependencies](#property-$dependencies)
+* [$name](#property-$name)
+* [$displayName](#property-$displayName)
+* [$description](#property-$description)
+* [$author](#property-$author)
+* [$author_uri](#property-$author_uri)
+* [$module_key](#property-$module_key)
+* [$description_full](#property-$description_full)
+* [$additional_description](#property-$additional_description)
+* [$compatibility](#property-$compatibility)
+* [$nb_rates](#property-$nb_rates)
+* [$avg_rate](#property-$avg_rate)
+* [$badges](#property-$badges)
+* [$need_instance](#property-$need_instance)
+* [$tab](#property-$tab)
+* [$active](#property-$active)
+* [$trusted](#property-$trusted)
+* [$warning](#property-$warning)
+* [$enable_device](#property-$enable_device)
+* [$limited_countries](#property-$limited_countries)
+* [$controllers](#property-$controllers)
+* [$classInModule](#property-$classInModule)
+* [$_lang](#property-$_lang)
+* [$_path](#property-$_path)
+* [$local_path](#property-$local_path)
+* [$_errors](#property-$_errors)
+* [$_confirmations](#property-$_confirmations)
+* [$table](#property-$table)
+* [$identifier](#property-$identifier)
+* [$modules_cache](#property-$modules_cache)
+* [$_INSTANCE](#property-$_INSTANCE)
+* [$_generate_config_xml_mode](#property-$_generate_config_xml_mode)
+* [$l_cache](#property-$l_cache)
+* [$cache_permissions](#property-$cache_permissions)
+* [$context](#property-$context)
+* [$smarty](#property-$smarty)
+* [$current_subtemplate](#property-$current_subtemplate)
+* [$update_translations_after_install](#property-$update_translations_after_install)
+* [$_batch_mode](#property-$_batch_mode)
+* [$_defered_clearCache](#property-$_defered_clearCache)
+* [$_defered_func_call](#property-$_defered_func_call)
+* [$allow_push](#property-$allow_push)
+* [$push_time_limit](#property-$push_time_limit)
+* [$_log_modules_perfs](#property-$_log_modules_perfs)
+* [$_log_modules_perfs_session](#property-$_log_modules_perfs_session)
+* [$hosted_modules_blacklist](#property-$hosted_modules_blacklist)
+
+Methods
+-------
+* [setBatchMode](#method-setBatchMode)
+* [getBatchMode](#method-getBatchMode)
+* [processDeferedFuncCall](#method-processDeferedFuncCall)
+* [processDeferedClearCache](#method-processDeferedClearCache)
+* [__construct](#method-__construct)
+* [install](#method-install)
+* [checkCompliancy](#method-checkCompliancy)
+* [updateTranslationsAfterInstall](#method-updateTranslationsAfterInstall)
+* [updateModuleTranslations](#method-updateModuleTranslations)
+* [setUpgradeMessage](#method-setUpgradeMessage)
+* [initUpgradeModule](#method-initUpgradeModule)
+* [runUpgradeModule](#method-runUpgradeModule)
+* [upgradeModuleVersion](#method-upgradeModuleVersion)
+* [needUpgrade](#method-needUpgrade)
+* [loadUpgradeVersionList](#method-loadUpgradeVersionList)
+* [getUpgradeStatus](#method-getUpgradeStatus)
+* [uninstall](#method-uninstall)
+* [enableByName](#method-enableByName)
+* [enable](#method-enable)
+* [enableDevice](#method-enableDevice)
+* [disableDevice](#method-disableDevice)
+* [disableByName](#method-disableByName)
+* [disable](#method-disable)
+* [displayFlags](#method-displayFlags)
+* [registerHook](#method-registerHook)
+* [unregisterHook](#method-unregisterHook)
+* [unregisterExceptions](#method-unregisterExceptions)
+* [registerExceptions](#method-registerExceptions)
+* [editExceptions](#method-editExceptions)
+* [getModuleNameFromClass](#method-getModuleNameFromClass)
+* [getInstanceByName](#method-getInstanceByName)
+* [coreLoadModule](#method-coreLoadModule)
+* [getInstanceById](#method-getInstanceById)
+* [configXmlStringFormat](#method-configXmlStringFormat)
+* [getModuleName](#method-getModuleName)
+* [useTooMuchMemory](#method-useTooMuchMemory)
+* [getModulesOnDisk](#method-getModulesOnDisk)
+* [getModulesDirOnDisk](#method-getModulesDirOnDisk)
+* [getNonNativeModuleList](#method-getNonNativeModuleList)
+* [getNativeModuleList](#method-getNativeModuleList)
+* [getModulesInstalled](#method-getModulesInstalled)
+* [isModuleTrusted](#method-isModuleTrusted)
+* [generateTrustedXml](#method-generateTrustedXml)
+* [checkModuleFromAddonsApi](#method-checkModuleFromAddonsApi)
+* [hookExec](#method-hookExec)
+* [hookExecPayment](#method-hookExecPayment)
+* [preCall](#method-preCall)
+* [getPaypalIgnore](#method-getPaypalIgnore)
+* [getPaymentModules](#method-getPaymentModules)
+* [findTranslation](#method-findTranslation)
+* [l](#method-l)
+* [updatePosition](#method-updatePosition)
+* [cleanPositions](#method-cleanPositions)
+* [displayError](#method-displayError)
+* [displayWarning](#method-displayWarning)
+* [displayConfirmation](#method-displayConfirmation)
+* [getExceptionsStatic](#method-getExceptionsStatic)
+* [getExceptions](#method-getExceptions)
+* [isInstalled](#method-isInstalled)
+* [isEnabledForShopContext](#method-isEnabledForShopContext)
+* [isEnabled](#method-isEnabled)
+* [isRegisteredInHook](#method-isRegisteredInHook)
+* [_isTemplateOverloadedStatic](#method-_isTemplateOverloadedStatic)
+* [_isTemplateOverloaded](#method-_isTemplateOverloaded)
+* [getCacheId](#method-getCacheId)
+* [display](#method-display)
+* [getCurrentSubTemplate](#method-getCurrentSubTemplate)
+* [resetCurrentSubTemplate](#method-resetCurrentSubTemplate)
+* [getTemplatePath](#method-getTemplatePath)
+* [_getApplicableTemplateDir](#method-_getApplicableTemplateDir)
+* [isCached](#method-isCached)
+* [_clearCache](#method-_clearCache)
+* [_deferedClearCache](#method-_deferedClearCache)
+* [_generateConfigXml](#method-_generateConfigXml)
+* [isHookableOn](#method-isHookableOn)
+* [getPermission](#method-getPermission)
+* [getPermissionStatic](#method-getPermissionStatic)
+* [getAuthorizedModules](#method-getAuthorizedModules)
+* [getModuleIdByName](#method-getModuleIdByName)
+* [getErrors](#method-getErrors)
+* [getConfirmations](#method-getConfirmations)
+* [getLocalPath](#method-getLocalPath)
+* [getPathUri](#method-getPathUri)
+* [getPosition](#method-getPosition)
+* [adminDisplayWarning](#method-adminDisplayWarning)
+* [adminDisplayInformation](#method-adminDisplayInformation)
+* [installControllers](#method-installControllers)
+* [installOverrides](#method-installOverrides)
+* [uninstallOverrides](#method-uninstallOverrides)
+* [addOverride](#method-addOverride)
+* [removeOverride](#method-removeOverride)
+* [getPossibleHooksList](#method-getPossibleHooksList)
+
+
+Constants
+----------
+
+
+### <a name="constant-CACHE_FILE_MODULES_LIST"></a>CACHE_FILE_MODULES_LIST
 
     const CACHE_FILE_MODULES_LIST = '/config/xml/modules_list.xml'
 
 
 
-* This constant is defined in [classes/module/Module.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#167)
+* This constant is defined in [classes/module/Module.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L167)
 
 
-### CACHE_FILE_TAB_MODULES_LIST
+### <a name="constant-CACHE_FILE_TAB_MODULES_LIST"></a>CACHE_FILE_TAB_MODULES_LIST
 
     const CACHE_FILE_TAB_MODULES_LIST = '/config/xml/tab_modules_list.xml'
 
 
 
-* This constant is defined in [classes/module/Module.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#169)
+* This constant is defined in [classes/module/Module.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L169)
 
 
-### CACHE_FILE_ALL_COUNTRY_MODULES_LIST
+### <a name="constant-CACHE_FILE_ALL_COUNTRY_MODULES_LIST"></a>CACHE_FILE_ALL_COUNTRY_MODULES_LIST
 
     const CACHE_FILE_ALL_COUNTRY_MODULES_LIST = '/config/xml/modules_native_addons.xml'
 
 
 
-* This constant is defined in [classes/module/Module.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#171)
+* This constant is defined in [classes/module/Module.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L171)
 
 
-### CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST
+### <a name="constant-CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST"></a>CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST
 
     const CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST = '/config/xml/default_country_modules_list.xml'
 
 
 
-* This constant is defined in [classes/module/Module.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#172)
+* This constant is defined in [classes/module/Module.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L172)
 
 
-### CACHE_FILE_CUSTOMER_MODULES_LIST
+### <a name="constant-CACHE_FILE_CUSTOMER_MODULES_LIST"></a>CACHE_FILE_CUSTOMER_MODULES_LIST
 
     const CACHE_FILE_CUSTOMER_MODULES_LIST = '/config/xml/customer_modules_list.xml'
 
 
 
-* This constant is defined in [classes/module/Module.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#174)
+* This constant is defined in [classes/module/Module.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L174)
 
 
-### CACHE_FILE_MUST_HAVE_MODULES_LIST
+### <a name="constant-CACHE_FILE_MUST_HAVE_MODULES_LIST"></a>CACHE_FILE_MUST_HAVE_MODULES_LIST
 
     const CACHE_FILE_MUST_HAVE_MODULES_LIST = '/config/xml/must_have_modules_list.xml'
 
 
 
-* This constant is defined in [classes/module/Module.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#176)
+* This constant is defined in [classes/module/Module.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L176)
 
 
-### CACHE_FILE_TRUSTED_MODULES_LIST
+### <a name="constant-CACHE_FILE_TRUSTED_MODULES_LIST"></a>CACHE_FILE_TRUSTED_MODULES_LIST
 
     const CACHE_FILE_TRUSTED_MODULES_LIST = '/config/xml/trusted_modules_list.xml'
 
 
 
-* This constant is defined in [classes/module/Module.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#178)
+* This constant is defined in [classes/module/Module.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L178)
 
 
-### CACHE_FILE_UNTRUSTED_MODULES_LIST
+### <a name="constant-CACHE_FILE_UNTRUSTED_MODULES_LIST"></a>CACHE_FILE_UNTRUSTED_MODULES_LIST
 
     const CACHE_FILE_UNTRUSTED_MODULES_LIST = '/config/xml/untrusted_modules_list.xml'
 
 
 
-* This constant is defined in [classes/module/Module.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#179)
+* This constant is defined in [classes/module/Module.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L179)
 
 
 Properties
 ----------
 
 
-### $id
+### <a name="property-$id"></a>$id
 
     public integer $id = null
 
@@ -101,10 +264,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#30)
+* This property is defined in [classes/module/Module.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L30)
 
 
-### $version
+### <a name="property-$version"></a>$version
 
     public float $version
 
@@ -113,10 +276,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#33)
+* This property is defined in [classes/module/Module.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L33)
 
 
-### $database_version
+### <a name="property-$database_version"></a>$database_version
 
     public mixed $database_version
 
@@ -125,10 +288,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#34)
+* This property is defined in [classes/module/Module.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L34)
 
 
-### $registered_version
+### <a name="property-$registered_version"></a>$registered_version
 
     public string $registered_version
 
@@ -137,10 +300,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#40)
+* This property is defined in [classes/module/Module.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L40)
 
 
-### $ps_versions_compliancy
+### <a name="property-$ps_versions_compliancy"></a>$ps_versions_compliancy
 
     public array $ps_versions_compliancy = array()
 
@@ -149,10 +312,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#43)
+* This property is defined in [classes/module/Module.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L43)
 
 
-### $dependencies
+### <a name="property-$dependencies"></a>$dependencies
 
     public array $dependencies = array()
 
@@ -161,10 +324,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#46)
+* This property is defined in [classes/module/Module.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L46)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -173,10 +336,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#49)
+* This property is defined in [classes/module/Module.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L49)
 
 
-### $displayName
+### <a name="property-$displayName"></a>$displayName
 
     public string $displayName
 
@@ -185,10 +348,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#52)
+* This property is defined in [classes/module/Module.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L52)
 
 
-### $description
+### <a name="property-$description"></a>$description
 
     public string $description
 
@@ -197,10 +360,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#55)
+* This property is defined in [classes/module/Module.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L55)
 
 
-### $author
+### <a name="property-$author"></a>$author
 
     public string $author
 
@@ -209,10 +372,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#58)
+* This property is defined in [classes/module/Module.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L58)
 
 
-### $author_uri
+### <a name="property-$author_uri"></a>$author_uri
 
     public string $author_uri = ''
 
@@ -221,10 +384,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#61)
+* This property is defined in [classes/module/Module.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L61)
 
 
-### $module_key
+### <a name="property-$module_key"></a>$module_key
 
     public string $module_key = ''
 
@@ -233,10 +396,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#64)
+* This property is defined in [classes/module/Module.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L64)
 
 
-### $description_full
+### <a name="property-$description_full"></a>$description_full
 
     public mixed $description_full
 
@@ -245,10 +408,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#66)
+* This property is defined in [classes/module/Module.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L66)
 
 
-### $additional_description
+### <a name="property-$additional_description"></a>$additional_description
 
     public mixed $additional_description
 
@@ -257,10 +420,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#68)
+* This property is defined in [classes/module/Module.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L68)
 
 
-### $compatibility
+### <a name="property-$compatibility"></a>$compatibility
 
     public mixed $compatibility
 
@@ -269,10 +432,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#70)
+* This property is defined in [classes/module/Module.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L70)
 
 
-### $nb_rates
+### <a name="property-$nb_rates"></a>$nb_rates
 
     public mixed $nb_rates
 
@@ -281,10 +444,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#72)
+* This property is defined in [classes/module/Module.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L72)
 
 
-### $avg_rate
+### <a name="property-$avg_rate"></a>$avg_rate
 
     public mixed $avg_rate
 
@@ -293,10 +456,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#74)
+* This property is defined in [classes/module/Module.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L74)
 
 
-### $badges
+### <a name="property-$badges"></a>$badges
 
     public mixed $badges
 
@@ -305,10 +468,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#76)
+* This property is defined in [classes/module/Module.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L76)
 
 
-### $need_instance
+### <a name="property-$need_instance"></a>$need_instance
 
     public integer $need_instance = 1
 
@@ -317,10 +480,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#79)
+* This property is defined in [classes/module/Module.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L79)
 
 
-### $tab
+### <a name="property-$tab"></a>$tab
 
     public string $tab = null
 
@@ -329,10 +492,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#82)
+* This property is defined in [classes/module/Module.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L82)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public boolean $active = false
 
@@ -341,10 +504,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#85)
+* This property is defined in [classes/module/Module.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L85)
 
 
-### $trusted
+### <a name="property-$trusted"></a>$trusted
 
     public boolean $trusted = false
 
@@ -353,10 +516,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#88)
+* This property is defined in [classes/module/Module.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L88)
 
 
-### $warning
+### <a name="property-$warning"></a>$warning
 
     public string $warning
 
@@ -365,10 +528,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#91)
+* This property is defined in [classes/module/Module.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L91)
 
 
-### $enable_device
+### <a name="property-$enable_device"></a>$enable_device
 
     public mixed $enable_device = 7
 
@@ -377,10 +540,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#93)
+* This property is defined in [classes/module/Module.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L93)
 
 
-### $limited_countries
+### <a name="property-$limited_countries"></a>$limited_countries
 
     public array $limited_countries = array()
 
@@ -389,10 +552,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#96)
+* This property is defined in [classes/module/Module.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L96)
 
 
-### $controllers
+### <a name="property-$controllers"></a>$controllers
 
     public array $controllers = array()
 
@@ -401,10 +564,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#99)
+* This property is defined in [classes/module/Module.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L99)
 
 
-### $classInModule
+### <a name="property-$classInModule"></a>$classInModule
 
     public array $classInModule = array()
 
@@ -414,10 +577,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#102)
+* This property is defined in [classes/module/Module.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L102)
 
 
-### $_lang
+### <a name="property-$_lang"></a>$_lang
 
     protected array $_lang = array()
 
@@ -426,10 +589,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/Module.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#105)
+* This property is defined in [classes/module/Module.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L105)
 
 
-### $_path
+### <a name="property-$_path"></a>$_path
 
     protected string $_path = null
 
@@ -438,10 +601,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/Module.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#108)
+* This property is defined in [classes/module/Module.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L108)
 
 
-### $local_path
+### <a name="property-$local_path"></a>$local_path
 
     protected string $local_path = null
 
@@ -450,10 +613,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/Module.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#113)
+* This property is defined in [classes/module/Module.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L113)
 
 
-### $_errors
+### <a name="property-$_errors"></a>$_errors
 
     protected array $_errors = array()
 
@@ -462,10 +625,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/Module.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#116)
+* This property is defined in [classes/module/Module.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L116)
 
 
-### $_confirmations
+### <a name="property-$_confirmations"></a>$_confirmations
 
     protected array $_confirmations = array()
 
@@ -474,10 +637,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/Module.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#119)
+* This property is defined in [classes/module/Module.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L119)
 
 
-### $table
+### <a name="property-$table"></a>$table
 
     protected string $table = 'module'
 
@@ -486,10 +649,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/Module.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#122)
+* This property is defined in [classes/module/Module.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L122)
 
 
-### $identifier
+### <a name="property-$identifier"></a>$identifier
 
     protected string $identifier = 'id_module'
 
@@ -498,10 +661,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/Module.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#125)
+* This property is defined in [classes/module/Module.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L125)
 
 
-### $modules_cache
+### <a name="property-$modules_cache"></a>$modules_cache
 
     protected array $modules_cache
 
@@ -511,10 +674,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#128)
+* This property is defined in [classes/module/Module.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L128)
 
 
-### $_INSTANCE
+### <a name="property-$_INSTANCE"></a>$_INSTANCE
 
     protected array $_INSTANCE = array()
 
@@ -524,10 +687,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#131)
+* This property is defined in [classes/module/Module.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L131)
 
 
-### $_generate_config_xml_mode
+### <a name="property-$_generate_config_xml_mode"></a>$_generate_config_xml_mode
 
     protected boolean $_generate_config_xml_mode = false
 
@@ -537,10 +700,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#134)
+* This property is defined in [classes/module/Module.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L134)
 
 
-### $l_cache
+### <a name="property-$l_cache"></a>$l_cache
 
     protected array $l_cache = array()
 
@@ -550,10 +713,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#137)
+* This property is defined in [classes/module/Module.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L137)
 
 
-### $cache_permissions
+### <a name="property-$cache_permissions"></a>$cache_permissions
 
     protected array $cache_permissions = array()
 
@@ -563,10 +726,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#140)
+* This property is defined in [classes/module/Module.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L140)
 
 
-### $context
+### <a name="property-$context"></a>$context
 
     protected \Context $context
 
@@ -575,10 +738,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/Module.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#143)
+* This property is defined in [classes/module/Module.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L143)
 
 
-### $smarty
+### <a name="property-$smarty"></a>$smarty
 
     protected \Smarty_Data $smarty
 
@@ -587,10 +750,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/Module.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#146)
+* This property is defined in [classes/module/Module.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L146)
 
 
-### $current_subtemplate
+### <a name="property-$current_subtemplate"></a>$current_subtemplate
 
     protected \Smarty_Internal_Template $current_subtemplate = null
 
@@ -599,10 +762,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/Module.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#149)
+* This property is defined in [classes/module/Module.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L149)
 
 
-### $update_translations_after_install
+### <a name="property-$update_translations_after_install"></a>$update_translations_after_install
 
     protected mixed $update_translations_after_install = true
 
@@ -612,10 +775,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#151)
+* This property is defined in [classes/module/Module.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L151)
 
 
-### $_batch_mode
+### <a name="property-$_batch_mode"></a>$_batch_mode
 
     protected mixed $_batch_mode = false
 
@@ -625,10 +788,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#153)
+* This property is defined in [classes/module/Module.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L153)
 
 
-### $_defered_clearCache
+### <a name="property-$_defered_clearCache"></a>$_defered_clearCache
 
     protected mixed $_defered_clearCache = array()
 
@@ -638,10 +801,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#154)
+* This property is defined in [classes/module/Module.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L154)
 
 
-### $_defered_func_call
+### <a name="property-$_defered_func_call"></a>$_defered_func_call
 
     protected mixed $_defered_func_call = array()
 
@@ -651,10 +814,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#155)
+* This property is defined in [classes/module/Module.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L155)
 
 
-### $allow_push
+### <a name="property-$allow_push"></a>$allow_push
 
     public boolean $allow_push
 
@@ -663,10 +826,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#158)
+* This property is defined in [classes/module/Module.php line 158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L158)
 
 
-### $push_time_limit
+### <a name="property-$push_time_limit"></a>$push_time_limit
 
     public mixed $push_time_limit = 180
 
@@ -675,10 +838,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/Module.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#160)
+* This property is defined in [classes/module/Module.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L160)
 
 
-### $_log_modules_perfs
+### <a name="property-$_log_modules_perfs"></a>$_log_modules_perfs
 
     public boolean $_log_modules_perfs = null
 
@@ -688,10 +851,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#163)
+* This property is defined in [classes/module/Module.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L163)
 
 
-### $_log_modules_perfs_session
+### <a name="property-$_log_modules_perfs_session"></a>$_log_modules_perfs_session
 
     public boolean $_log_modules_perfs_session = null
 
@@ -701,10 +864,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#165)
+* This property is defined in [classes/module/Module.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L165)
 
 
-### $hosted_modules_blacklist
+### <a name="property-$hosted_modules_blacklist"></a>$hosted_modules_blacklist
 
     public mixed $hosted_modules_blacklist = array('autoupgrade')
 
@@ -714,14 +877,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/module/Module.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#181)
+* This property is defined in [classes/module/Module.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L181)
 
 
 Methods
 -------
 
 
-### setBatchMode
+### <a name="method-setBatchMode"></a>setBatchMode
 
     mixed ModuleCore::setBatchMode(boolean $value)
 
@@ -731,7 +894,7 @@ Set the flag to indicate we are doing an import
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#188)
+* This method is defined in [classes/module/Module.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L188)
 
 
 #### Arguments
@@ -739,7 +902,7 @@ Set the flag to indicate we are doing an import
 
 
 
-### getBatchMode
+### <a name="method-getBatchMode"></a>getBatchMode
 
     boolean ModuleCore::getBatchMode()
 
@@ -749,12 +912,12 @@ Set the flag to indicate we are doing an import
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#196)
+* This method is defined in [classes/module/Module.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L196)
 
 
 
 
-### processDeferedFuncCall
+### <a name="method-processDeferedFuncCall"></a>processDeferedFuncCall
 
     mixed ModuleCore::processDeferedFuncCall()
 
@@ -764,12 +927,12 @@ Set the flag to indicate we are doing an import
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#201)
+* This method is defined in [classes/module/Module.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L201)
 
 
 
 
-### processDeferedClearCache
+### <a name="method-processDeferedClearCache"></a>processDeferedClearCache
 
     mixed ModuleCore::processDeferedClearCache()
 
@@ -779,12 +942,12 @@ Clear the caches stored in $_defered_clearCache
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#215)
+* This method is defined in [classes/module/Module.php line 215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L215)
 
 
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed ModuleCore::__construct(string $name, \Context $context)
 
@@ -793,7 +956,7 @@ Constructor
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#232)
+* This method is defined in [classes/module/Module.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L232)
 
 
 #### Arguments
@@ -802,7 +965,7 @@ Constructor
 
 
 
-### install
+### <a name="method-install"></a>install
 
     mixed ModuleCore::install()
 
@@ -811,12 +974,12 @@ Insert module into datable
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#306)
+* This method is defined in [classes/module/Module.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L306)
 
 
 
 
-### checkCompliancy
+### <a name="method-checkCompliancy"></a>checkCompliancy
 
     mixed ModuleCore::checkCompliancy()
 
@@ -825,12 +988,12 @@ Insert module into datable
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 398](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#398)
+* This method is defined in [classes/module/Module.php line 398](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L398)
 
 
 
 
-### updateTranslationsAfterInstall
+### <a name="method-updateTranslationsAfterInstall"></a>updateTranslationsAfterInstall
 
     mixed ModuleCore::updateTranslationsAfterInstall($update)
 
@@ -840,7 +1003,7 @@ Insert module into datable
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#407)
+* This method is defined in [classes/module/Module.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L407)
 
 
 #### Arguments
@@ -848,7 +1011,7 @@ Insert module into datable
 
 
 
-### updateModuleTranslations
+### <a name="method-updateModuleTranslations"></a>updateModuleTranslations
 
     mixed ModuleCore::updateModuleTranslations()
 
@@ -857,12 +1020,12 @@ Insert module into datable
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#412)
+* This method is defined in [classes/module/Module.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L412)
 
 
 
 
-### setUpgradeMessage
+### <a name="method-setUpgradeMessage"></a>setUpgradeMessage
 
     mixed ModuleCore::setUpgradeMessage($upgrade_detail)
 
@@ -871,7 +1034,7 @@ Set errors, warning or success message of a module upgrade
 
 
 * Visibility: **protected**
-* This method is defined in [classes/module/Module.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#422)
+* This method is defined in [classes/module/Module.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L422)
 
 
 #### Arguments
@@ -879,7 +1042,7 @@ Set errors, warning or success message of a module upgrade
 
 
 
-### initUpgradeModule
+### <a name="method-initUpgradeModule"></a>initUpgradeModule
 
     boolean ModuleCore::initUpgradeModule($module)
 
@@ -889,7 +1052,7 @@ Init the upgrade module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 452](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#452)
+* This method is defined in [classes/module/Module.php line 452](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L452)
 
 
 #### Arguments
@@ -897,7 +1060,7 @@ Init the upgrade module
 
 
 
-### runUpgradeModule
+### <a name="method-runUpgradeModule"></a>runUpgradeModule
 
     array ModuleCore::runUpgradeModule()
 
@@ -906,12 +1069,12 @@ Run the upgrade for a given module name and version
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 481](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#481)
+* This method is defined in [classes/module/Module.php line 481](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L481)
 
 
 
 
-### upgradeModuleVersion
+### <a name="method-upgradeModuleVersion"></a>upgradeModuleVersion
 
     boolean ModuleCore::upgradeModuleVersion($name, $version)
 
@@ -921,7 +1084,7 @@ Upgrade the registered version to a new one
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 535](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#535)
+* This method is defined in [classes/module/Module.php line 535](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L535)
 
 
 #### Arguments
@@ -930,7 +1093,7 @@ Upgrade the registered version to a new one
 
 
 
-### needUpgrade
+### <a name="method-needUpgrade"></a>needUpgrade
 
     boolean ModuleCore::needUpgrade($module)
 
@@ -940,7 +1103,7 @@ This method modify the module_cache adding an upgrade list file
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 550](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#550)
+* This method is defined in [classes/module/Module.php line 550](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L550)
 
 
 #### Arguments
@@ -948,7 +1111,7 @@ This method modify the module_cache adding an upgrade list file
 
 
 
-### loadUpgradeVersionList
+### <a name="method-loadUpgradeVersionList"></a>loadUpgradeVersionList
 
     boolean ModuleCore::loadUpgradeVersionList($module_name, $module_version, $registered_version)
 
@@ -959,7 +1122,7 @@ with an associated version
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 573](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#573)
+* This method is defined in [classes/module/Module.php line 573](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L573)
 
 
 #### Arguments
@@ -969,7 +1132,7 @@ with an associated version
 
 
 
-### getUpgradeStatus
+### <a name="method-getUpgradeStatus"></a>getUpgradeStatus
 
     boolean ModuleCore::getUpgradeStatus($module_name)
 
@@ -979,7 +1142,7 @@ Return the status of the upgraded module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 627](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#627)
+* This method is defined in [classes/module/Module.php line 627](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L627)
 
 
 #### Arguments
@@ -987,7 +1150,7 @@ Return the status of the upgraded module
 
 
 
-### uninstall
+### <a name="method-uninstall"></a>uninstall
 
     boolean ModuleCore::uninstall()
 
@@ -996,12 +1159,12 @@ Delete module from datable
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 638](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#638)
+* This method is defined in [classes/module/Module.php line 638](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L638)
 
 
 
 
-### enableByName
+### <a name="method-enableByName"></a>enableByName
 
     true ModuleCore::enableByName(array|string $name)
 
@@ -1012,7 +1175,7 @@ this will enable all of them
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#696)
+* This method is defined in [classes/module/Module.php line 696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L696)
 
 
 #### Arguments
@@ -1020,7 +1183,7 @@ this will enable all of them
 
 
 
-### enable
+### <a name="method-enable"></a>enable
 
     mixed ModuleCore::enable(boolean $force_all)
 
@@ -1029,7 +1192,7 @@ Activate current module.
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 717](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#717)
+* This method is defined in [classes/module/Module.php line 717](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L717)
 
 
 #### Arguments
@@ -1037,7 +1200,7 @@ Activate current module.
 
 
 
-### enableDevice
+### <a name="method-enableDevice"></a>enableDevice
 
     mixed ModuleCore::enableDevice($device)
 
@@ -1046,7 +1209,7 @@ Activate current module.
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 749](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#749)
+* This method is defined in [classes/module/Module.php line 749](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L749)
 
 
 #### Arguments
@@ -1054,7 +1217,7 @@ Activate current module.
 
 
 
-### disableDevice
+### <a name="method-disableDevice"></a>disableDevice
 
     mixed ModuleCore::disableDevice($device)
 
@@ -1063,7 +1226,7 @@ Activate current module.
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 761](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#761)
+* This method is defined in [classes/module/Module.php line 761](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L761)
 
 
 #### Arguments
@@ -1071,7 +1234,7 @@ Activate current module.
 
 
 
-### disableByName
+### <a name="method-disableByName"></a>disableByName
 
     true ModuleCore::disableByName(array|string $name)
 
@@ -1082,7 +1245,7 @@ this will disable all of them
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 781](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#781)
+* This method is defined in [classes/module/Module.php line 781](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L781)
 
 
 #### Arguments
@@ -1090,7 +1253,7 @@ this will disable all of them
 
 
 
-### disable
+### <a name="method-disable"></a>disable
 
     mixed ModuleCore::disable(boolean $force_all)
 
@@ -1099,7 +1262,7 @@ Desactivate current module.
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 802](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#802)
+* This method is defined in [classes/module/Module.php line 802](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L802)
 
 
 #### Arguments
@@ -1107,7 +1270,7 @@ Desactivate current module.
 
 
 
-### displayFlags
+### <a name="method-displayFlags"></a>displayFlags
 
     mixed ModuleCore::displayFlags(array $languages, integer $default_language, string $ids, string $id, boolean $return, boolean $use_vars_instead_of_ids)
 
@@ -1116,7 +1279,7 @@ Display flags in forms for translations
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 820](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#820)
+* This method is defined in [classes/module/Module.php line 820](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L820)
 
 
 #### Arguments
@@ -1129,7 +1292,7 @@ Display flags in forms for translations
 
 
 
-### registerHook
+### <a name="method-registerHook"></a>registerHook
 
     boolean ModuleCore::registerHook(string $hook_name, array $shop_list)
 
@@ -1138,7 +1301,7 @@ Connect module to a hook
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 854](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#854)
+* This method is defined in [classes/module/Module.php line 854](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L854)
 
 
 #### Arguments
@@ -1147,7 +1310,7 @@ Connect module to a hook
 
 
 
-### unregisterHook
+### <a name="method-unregisterHook"></a>unregisterHook
 
     boolean ModuleCore::unregisterHook($hook_id, array $shop_list)
 
@@ -1156,7 +1319,7 @@ Unregister module from hook
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 948](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#948)
+* This method is defined in [classes/module/Module.php line 948](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L948)
 
 
 #### Arguments
@@ -1165,7 +1328,7 @@ Unregister module from hook
 
 
 
-### unregisterExceptions
+### <a name="method-unregisterExceptions"></a>unregisterExceptions
 
     boolean ModuleCore::unregisterExceptions($hook_id, array $shop_list)
 
@@ -1174,7 +1337,7 @@ Unregister exceptions linked to module
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 985](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#985)
+* This method is defined in [classes/module/Module.php line 985](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L985)
 
 
 #### Arguments
@@ -1183,7 +1346,7 @@ Unregister exceptions linked to module
 
 
 
-### registerExceptions
+### <a name="method-registerExceptions"></a>registerExceptions
 
     boolean ModuleCore::registerExceptions(integer $id_hook, array $excepts, array $shop_list)
 
@@ -1192,7 +1355,7 @@ Add exceptions for module->Hook
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 1001](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1001)
+* This method is defined in [classes/module/Module.php line 1001](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1001)
 
 
 #### Arguments
@@ -1202,7 +1365,7 @@ Add exceptions for module->Hook
 
 
 
-### editExceptions
+### <a name="method-editExceptions"></a>editExceptions
 
     boolean ModuleCore::editExceptions($id_hook, array $excepts)
 
@@ -1211,7 +1374,7 @@ Edit exceptions for module->Hook
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 1036](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1036)
+* This method is defined in [classes/module/Module.php line 1036](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1036)
 
 
 #### Arguments
@@ -1220,7 +1383,7 @@ Edit exceptions for module->Hook
 
 
 
-### getModuleNameFromClass
+### <a name="method-getModuleNameFromClass"></a>getModuleNameFromClass
 
     boolean|string ModuleCore::getModuleNameFromClass(mixed $current_class)
 
@@ -1232,7 +1395,7 @@ related to a module in its directory (instead of $_LANGADM)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1057](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1057)
+* This method is defined in [classes/module/Module.php line 1057](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1057)
 
 
 #### Arguments
@@ -1240,7 +1403,7 @@ related to a module in its directory (instead of $_LANGADM)
 
 
 
-### getInstanceByName
+### <a name="method-getInstanceByName"></a>getInstanceByName
 
     \Module ModuleCore::getInstanceByName(string $module_name)
 
@@ -1250,7 +1413,7 @@ Return an instance of the specified module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1095](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1095)
+* This method is defined in [classes/module/Module.php line 1095](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1095)
 
 
 #### Arguments
@@ -1258,7 +1421,7 @@ Return an instance of the specified module
 
 
 
-### coreLoadModule
+### <a name="method-coreLoadModule"></a>coreLoadModule
 
     mixed ModuleCore::coreLoadModule($module_name)
 
@@ -1268,7 +1431,7 @@ Return an instance of the specified module
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1113)
+* This method is defined in [classes/module/Module.php line 1113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1113)
 
 
 #### Arguments
@@ -1276,7 +1439,7 @@ Return an instance of the specified module
 
 
 
-### getInstanceById
+### <a name="method-getInstanceById"></a>getInstanceById
 
     \Module ModuleCore::getInstanceById(integer $id_module)
 
@@ -1286,7 +1449,7 @@ Return an instance of the specified module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1164)
+* This method is defined in [classes/module/Module.php line 1164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1164)
 
 
 #### Arguments
@@ -1294,7 +1457,7 @@ Return an instance of the specified module
 
 
 
-### configXmlStringFormat
+### <a name="method-configXmlStringFormat"></a>configXmlStringFormat
 
     mixed ModuleCore::configXmlStringFormat($string)
 
@@ -1304,7 +1467,7 @@ Return an instance of the specified module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1185)
+* This method is defined in [classes/module/Module.php line 1185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1185)
 
 
 #### Arguments
@@ -1312,7 +1475,7 @@ Return an instance of the specified module
 
 
 
-### getModuleName
+### <a name="method-getModuleName"></a>getModuleName
 
     mixed ModuleCore::getModuleName($module)
 
@@ -1322,7 +1485,7 @@ Return an instance of the specified module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1191)
+* This method is defined in [classes/module/Module.php line 1191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1191)
 
 
 #### Arguments
@@ -1330,7 +1493,7 @@ Return an instance of the specified module
 
 
 
-### useTooMuchMemory
+### <a name="method-useTooMuchMemory"></a>useTooMuchMemory
 
     mixed ModuleCore::useTooMuchMemory()
 
@@ -1340,12 +1503,12 @@ Return an instance of the specified module
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1230](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1230)
+* This method is defined in [classes/module/Module.php line 1230](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1230)
 
 
 
 
-### getModulesOnDisk
+### <a name="method-getModulesOnDisk"></a>getModulesOnDisk
 
     array ModuleCore::getModulesOnDisk(boolean $use_config, $logged_on_addons, $id_employee)
 
@@ -1355,7 +1518,7 @@ Return available modules
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1251)
+* This method is defined in [classes/module/Module.php line 1251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1251)
 
 
 #### Arguments
@@ -1365,7 +1528,7 @@ Return available modules
 
 
 
-### getModulesDirOnDisk
+### <a name="method-getModulesDirOnDisk"></a>getModulesDirOnDisk
 
     array ModuleCore::getModulesDirOnDisk()
 
@@ -1375,12 +1538,12 @@ Return modules directory list
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1578](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1578)
+* This method is defined in [classes/module/Module.php line 1578](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1578)
 
 
 
 
-### getNonNativeModuleList
+### <a name="method-getNonNativeModuleList"></a>getNonNativeModuleList
 
     array ModuleCore::getNonNativeModuleList()
 
@@ -1390,12 +1553,12 @@ Return non native module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1603)
+* This method is defined in [classes/module/Module.php line 1603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1603)
 
 
 
 
-### getNativeModuleList
+### <a name="method-getNativeModuleList"></a>getNativeModuleList
 
     mixed ModuleCore::getNativeModuleList()
 
@@ -1405,12 +1568,12 @@ Return non native module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1630](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1630)
+* This method is defined in [classes/module/Module.php line 1630](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1630)
 
 
 
 
-### getModulesInstalled
+### <a name="method-getModulesInstalled"></a>getModulesInstalled
 
     array ModuleCore::getModulesInstalled(integer $position)
 
@@ -1420,7 +1583,7 @@ Return installed modules
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1665](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1665)
+* This method is defined in [classes/module/Module.php line 1665](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1665)
 
 
 #### Arguments
@@ -1428,7 +1591,7 @@ Return installed modules
 
 
 
-### isModuleTrusted
+### <a name="method-isModuleTrusted"></a>isModuleTrusted
 
     integer ModuleCore::isModuleTrusted($module_name)
 
@@ -1438,7 +1601,7 @@ Return if the module is provided by addons.prestashop.com or not
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1684](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1684)
+* This method is defined in [classes/module/Module.php line 1684](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1684)
 
 
 #### Arguments
@@ -1446,7 +1609,7 @@ Return if the module is provided by addons.prestashop.com or not
 
 
 
-### generateTrustedXml
+### <a name="method-generateTrustedXml"></a>generateTrustedXml
 
     mixed ModuleCore::generateTrustedXml()
 
@@ -1456,12 +1619,12 @@ Generate XML files for trusted and untrusted modules
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1752](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1752)
+* This method is defined in [classes/module/Module.php line 1752](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1752)
 
 
 
 
-### checkModuleFromAddonsApi
+### <a name="method-checkModuleFromAddonsApi"></a>checkModuleFromAddonsApi
 
     boolean ModuleCore::checkModuleFromAddonsApi($module_name)
 
@@ -1471,7 +1634,7 @@ Create the Addons API call from the module name only
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1840](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1840)
+* This method is defined in [classes/module/Module.php line 1840](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1840)
 
 
 #### Arguments
@@ -1479,7 +1642,7 @@ Create the Addons API call from the module name only
 
 
 
-### hookExec
+### <a name="method-hookExec"></a>hookExec
 
     string ModuleCore::hookExec(string $hook_name, array $hook_args, $id_module)
 
@@ -1489,7 +1652,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1866](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1866)
+* This method is defined in [classes/module/Module.php line 1866](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1866)
 
 
 #### Arguments
@@ -1499,7 +1662,7 @@ Execute modules for specified hook
 
 
 
-### hookExecPayment
+### <a name="method-hookExecPayment"></a>hookExecPayment
 
     string ModuleCore::hookExecPayment()
 
@@ -1509,12 +1672,12 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1877](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1877)
+* This method is defined in [classes/module/Module.php line 1877](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1877)
 
 
 
 
-### preCall
+### <a name="method-preCall"></a>preCall
 
     mixed ModuleCore::preCall($module_name)
 
@@ -1524,7 +1687,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1883](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1883)
+* This method is defined in [classes/module/Module.php line 1883](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1883)
 
 
 #### Arguments
@@ -1532,7 +1695,7 @@ Execute modules for specified hook
 
 
 
-### getPaypalIgnore
+### <a name="method-getPaypalIgnore"></a>getPaypalIgnore
 
     mixed ModuleCore::getPaypalIgnore()
 
@@ -1542,12 +1705,12 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1891](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1891)
+* This method is defined in [classes/module/Module.php line 1891](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1891)
 
 
 
 
-### getPaymentModules
+### <a name="method-getPaymentModules"></a>getPaymentModules
 
     array ModuleCore::getPaymentModules()
 
@@ -1557,12 +1720,12 @@ Returns the list of the payment module associated to the current customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1902](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1902)
+* This method is defined in [classes/module/Module.php line 1902](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1902)
 
 
 
 
-### findTranslation
+### <a name="method-findTranslation"></a>findTranslation
 
     mixed ModuleCore::findTranslation($name, $string, $source)
 
@@ -1572,7 +1735,7 @@ Returns the list of the payment module associated to the current customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 1948](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1948)
+* This method is defined in [classes/module/Module.php line 1948](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1948)
 
 
 #### Arguments
@@ -1582,7 +1745,7 @@ Returns the list of the payment module associated to the current customer
 
 
 
-### l
+### <a name="method-l"></a>l
 
     string ModuleCore::l(string $string, boolean|string $specific)
 
@@ -1593,7 +1756,7 @@ Otherwise, translation key will not match for Module library
 when module is loaded with eval() Module::getModulesOnDisk()
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 1964](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1964)
+* This method is defined in [classes/module/Module.php line 1964](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1964)
 
 
 #### Arguments
@@ -1602,7 +1765,7 @@ when module is loaded with eval() Module::getModulesOnDisk()
 
 
 
-### updatePosition
+### <a name="method-updatePosition"></a>updatePosition
 
     mixed ModuleCore::updatePosition($id_hook, $way, $position)
 
@@ -1611,7 +1774,7 @@ when module is loaded with eval() Module::getModulesOnDisk()
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 1980](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1980)
+* This method is defined in [classes/module/Module.php line 1980](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L1980)
 
 
 #### Arguments
@@ -1621,7 +1784,7 @@ when module is loaded with eval() Module::getModulesOnDisk()
 
 
 
-### cleanPositions
+### <a name="method-cleanPositions"></a>cleanPositions
 
     mixed ModuleCore::cleanPositions($id_hook, $shop_list)
 
@@ -1630,7 +1793,7 @@ when module is loaded with eval() Module::getModulesOnDisk()
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2033](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2033)
+* This method is defined in [classes/module/Module.php line 2033](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2033)
 
 
 #### Arguments
@@ -1639,7 +1802,7 @@ when module is loaded with eval() Module::getModulesOnDisk()
 
 
 
-### displayError
+### <a name="method-displayError"></a>displayError
 
     string ModuleCore::displayError(string|array $error)
 
@@ -1648,7 +1811,7 @@ Helper displaying error message(s)
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2063](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2063)
+* This method is defined in [classes/module/Module.php line 2063](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2063)
 
 
 #### Arguments
@@ -1656,7 +1819,7 @@ Helper displaying error message(s)
 
 
 
-### displayWarning
+### <a name="method-displayWarning"></a>displayWarning
 
     string ModuleCore::displayWarning($warning)
 
@@ -1665,7 +1828,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2092](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2092)
+* This method is defined in [classes/module/Module.php line 2092](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2092)
 
 
 #### Arguments
@@ -1673,7 +1836,7 @@ Helper displaying warning message(s)
 
 
 
-### displayConfirmation
+### <a name="method-displayConfirmation"></a>displayConfirmation
 
     mixed ModuleCore::displayConfirmation($string)
 
@@ -1682,7 +1845,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2115)
+* This method is defined in [classes/module/Module.php line 2115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2115)
 
 
 #### Arguments
@@ -1690,7 +1853,7 @@ Helper displaying warning message(s)
 
 
 
-### getExceptionsStatic
+### <a name="method-getExceptionsStatic"></a>getExceptionsStatic
 
     mixed ModuleCore::getExceptionsStatic($id_module, $id_hook, $dispatch)
 
@@ -1700,7 +1863,7 @@ Helper displaying warning message(s)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 2134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2134)
+* This method is defined in [classes/module/Module.php line 2134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2134)
 
 
 #### Arguments
@@ -1710,7 +1873,7 @@ Helper displaying warning message(s)
 
 
 
-### getExceptions
+### <a name="method-getExceptions"></a>getExceptions
 
     mixed ModuleCore::getExceptions($id_hook, $dispatch)
 
@@ -1719,7 +1882,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2188)
+* This method is defined in [classes/module/Module.php line 2188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2188)
 
 
 #### Arguments
@@ -1728,7 +1891,7 @@ Helper displaying warning message(s)
 
 
 
-### isInstalled
+### <a name="method-isInstalled"></a>isInstalled
 
     mixed ModuleCore::isInstalled($module_name)
 
@@ -1738,7 +1901,7 @@ Helper displaying warning message(s)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 2193](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2193)
+* This method is defined in [classes/module/Module.php line 2193](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2193)
 
 
 #### Arguments
@@ -1746,7 +1909,7 @@ Helper displaying warning message(s)
 
 
 
-### isEnabledForShopContext
+### <a name="method-isEnabledForShopContext"></a>isEnabledForShopContext
 
     mixed ModuleCore::isEnabledForShopContext()
 
@@ -1755,12 +1918,12 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2203)
+* This method is defined in [classes/module/Module.php line 2203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2203)
 
 
 
 
-### isEnabled
+### <a name="method-isEnabled"></a>isEnabled
 
     mixed ModuleCore::isEnabled($module_name)
 
@@ -1770,7 +1933,7 @@ Helper displaying warning message(s)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 2214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2214)
+* This method is defined in [classes/module/Module.php line 2214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2214)
 
 
 #### Arguments
@@ -1778,7 +1941,7 @@ Helper displaying warning message(s)
 
 
 
-### isRegisteredInHook
+### <a name="method-isRegisteredInHook"></a>isRegisteredInHook
 
     mixed ModuleCore::isRegisteredInHook($hook)
 
@@ -1787,7 +1950,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2228)
+* This method is defined in [classes/module/Module.php line 2228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2228)
 
 
 #### Arguments
@@ -1795,7 +1958,7 @@ Helper displaying warning message(s)
 
 
 
-### _isTemplateOverloadedStatic
+### <a name="method-_isTemplateOverloadedStatic"></a>_isTemplateOverloadedStatic
 
     mixed ModuleCore::_isTemplateOverloadedStatic($module_name, $template)
 
@@ -1805,7 +1968,7 @@ Helper displaying warning message(s)
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 2244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2244)
+* This method is defined in [classes/module/Module.php line 2244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2244)
 
 
 #### Arguments
@@ -1814,7 +1977,7 @@ Helper displaying warning message(s)
 
 
 
-### _isTemplateOverloaded
+### <a name="method-_isTemplateOverloaded"></a>_isTemplateOverloaded
 
     mixed ModuleCore::_isTemplateOverloaded($template)
 
@@ -1823,7 +1986,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **protected**
-* This method is defined in [classes/module/Module.php line 2262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2262)
+* This method is defined in [classes/module/Module.php line 2262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2262)
 
 
 #### Arguments
@@ -1831,7 +1994,7 @@ Helper displaying warning message(s)
 
 
 
-### getCacheId
+### <a name="method-getCacheId"></a>getCacheId
 
     mixed ModuleCore::getCacheId($name)
 
@@ -1840,7 +2003,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **protected**
-* This method is defined in [classes/module/Module.php line 2267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2267)
+* This method is defined in [classes/module/Module.php line 2267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2267)
 
 
 #### Arguments
@@ -1848,7 +2011,7 @@ Helper displaying warning message(s)
 
 
 
-### display
+### <a name="method-display"></a>display
 
     mixed ModuleCore::display($file, $template, $cache_id, $compile_id)
 
@@ -1857,7 +2020,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2291)
+* This method is defined in [classes/module/Module.php line 2291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2291)
 
 
 #### Arguments
@@ -1868,7 +2031,7 @@ Helper displaying warning message(s)
 
 
 
-### getCurrentSubTemplate
+### <a name="method-getCurrentSubTemplate"></a>getCurrentSubTemplate
 
     \Smarty_Internal_Template ModuleCore::getCurrentSubTemplate(string $template, string|null $cache_id, string|null $compile_id)
 
@@ -1877,7 +2040,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **protected**
-* This method is defined in [classes/module/Module.php line 2328](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2328)
+* This method is defined in [classes/module/Module.php line 2328](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2328)
 
 
 #### Arguments
@@ -1887,7 +2050,7 @@ Helper displaying warning message(s)
 
 
 
-### resetCurrentSubTemplate
+### <a name="method-resetCurrentSubTemplate"></a>resetCurrentSubTemplate
 
     mixed ModuleCore::resetCurrentSubTemplate($template, $cache_id, $compile_id)
 
@@ -1896,7 +2059,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **protected**
-* This method is defined in [classes/module/Module.php line 2341](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2341)
+* This method is defined in [classes/module/Module.php line 2341](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2341)
 
 
 #### Arguments
@@ -1906,7 +2069,7 @@ Helper displaying warning message(s)
 
 
 
-### getTemplatePath
+### <a name="method-getTemplatePath"></a>getTemplatePath
 
     string ModuleCore::getTemplatePath(string $template)
 
@@ -1915,7 +2078,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2353)
+* This method is defined in [classes/module/Module.php line 2353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2353)
 
 
 #### Arguments
@@ -1923,7 +2086,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 
-### _getApplicableTemplateDir
+### <a name="method-_getApplicableTemplateDir"></a>_getApplicableTemplateDir
 
     mixed ModuleCore::_getApplicableTemplateDir($template)
 
@@ -1932,7 +2095,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **protected**
-* This method is defined in [classes/module/Module.php line 2373](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2373)
+* This method is defined in [classes/module/Module.php line 2373](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2373)
 
 
 #### Arguments
@@ -1940,7 +2103,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 
-### isCached
+### <a name="method-isCached"></a>isCached
 
     mixed ModuleCore::isCached($template, $cache_id, $compile_id)
 
@@ -1949,7 +2112,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2378)
+* This method is defined in [classes/module/Module.php line 2378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2378)
 
 
 #### Arguments
@@ -1959,7 +2122,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 
-### _clearCache
+### <a name="method-_clearCache"></a>_clearCache
 
     mixed ModuleCore::_clearCache($template, $cache_id, $compile_id)
 
@@ -1968,7 +2131,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **protected**
-* This method is defined in [classes/module/Module.php line 2399](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2399)
+* This method is defined in [classes/module/Module.php line 2399](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2399)
 
 
 #### Arguments
@@ -1978,7 +2141,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 
-### _deferedClearCache
+### <a name="method-_deferedClearCache"></a>_deferedClearCache
 
     mixed ModuleCore::_deferedClearCache($template_path, $cache_id, $compile_id)
 
@@ -1988,7 +2151,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 2444](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2444)
+* This method is defined in [classes/module/Module.php line 2444](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2444)
 
 
 #### Arguments
@@ -1998,7 +2161,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 
-### _generateConfigXml
+### <a name="method-_generateConfigXml"></a>_generateConfigXml
 
     mixed ModuleCore::_generateConfigXml()
 
@@ -2007,12 +2170,12 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **protected**
-* This method is defined in [classes/module/Module.php line 2453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2453)
+* This method is defined in [classes/module/Module.php line 2453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2453)
 
 
 
 
-### isHookableOn
+### <a name="method-isHookableOn"></a>isHookableOn
 
     boolean ModuleCore::isHookableOn(string $hook_name)
 
@@ -2021,7 +2184,7 @@ Check if the module is transplantable on the hook in parameter
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2490](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2490)
+* This method is defined in [classes/module/Module.php line 2490](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2490)
 
 
 #### Arguments
@@ -2029,7 +2192,7 @@ Check if the module is transplantable on the hook in parameter
 
 
 
-### getPermission
+### <a name="method-getPermission"></a>getPermission
 
     boolean ModuleCore::getPermission(array $variable, object $employee)
 
@@ -2038,7 +2201,7 @@ Check employee permission for module
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2502](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2502)
+* This method is defined in [classes/module/Module.php line 2502](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2502)
 
 
 #### Arguments
@@ -2047,7 +2210,7 @@ Check employee permission for module
 
 
 
-### getPermissionStatic
+### <a name="method-getPermissionStatic"></a>getPermissionStatic
 
     boolean ModuleCore::getPermissionStatic(integer $id_module, array $variable, object $employee)
 
@@ -2057,7 +2220,7 @@ Check employee permission for module (static method)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 2514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2514)
+* This method is defined in [classes/module/Module.php line 2514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2514)
 
 
 #### Arguments
@@ -2067,7 +2230,7 @@ Check employee permission for module (static method)
 
 
 
-### getAuthorizedModules
+### <a name="method-getAuthorizedModules"></a>getAuthorizedModules
 
     array|null ModuleCore::getAuthorizedModules(integer $group_id)
 
@@ -2077,7 +2240,7 @@ Get Unauthorized modules for a client group
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 2551](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2551)
+* This method is defined in [classes/module/Module.php line 2551](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2551)
 
 
 #### Arguments
@@ -2085,7 +2248,7 @@ Get Unauthorized modules for a client group
 
 
 
-### getModuleIdByName
+### <a name="method-getModuleIdByName"></a>getModuleIdByName
 
     integer ModuleCore::getModuleIdByName(string $name)
 
@@ -2095,7 +2258,7 @@ Get ID module by name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/Module.php line 2565](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2565)
+* This method is defined in [classes/module/Module.php line 2565](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2565)
 
 
 #### Arguments
@@ -2103,7 +2266,7 @@ Get ID module by name
 
 
 
-### getErrors
+### <a name="method-getErrors"></a>getErrors
 
     array ModuleCore::getErrors()
 
@@ -2112,12 +2275,12 @@ Get module errors
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2582](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2582)
+* This method is defined in [classes/module/Module.php line 2582](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2582)
 
 
 
 
-### getConfirmations
+### <a name="method-getConfirmations"></a>getConfirmations
 
     array ModuleCore::getConfirmations()
 
@@ -2126,12 +2289,12 @@ Get module messages confirmation
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2593](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2593)
+* This method is defined in [classes/module/Module.php line 2593](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2593)
 
 
 
 
-### getLocalPath
+### <a name="method-getLocalPath"></a>getLocalPath
 
     string ModuleCore::getLocalPath()
 
@@ -2140,12 +2303,12 @@ Get local path for module
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2604](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2604)
+* This method is defined in [classes/module/Module.php line 2604](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2604)
 
 
 
 
-### getPathUri
+### <a name="method-getPathUri"></a>getPathUri
 
     string ModuleCore::getPathUri()
 
@@ -2154,12 +2317,12 @@ Get uri path for module
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2615)
+* This method is defined in [classes/module/Module.php line 2615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2615)
 
 
 
 
-### getPosition
+### <a name="method-getPosition"></a>getPosition
 
     mixed ModuleCore::getPosition($id_hook)
 
@@ -2168,7 +2331,7 @@ Get uri path for module
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2626)
+* This method is defined in [classes/module/Module.php line 2626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2626)
 
 
 #### Arguments
@@ -2176,7 +2339,7 @@ Get uri path for module
 
 
 
-### adminDisplayWarning
+### <a name="method-adminDisplayWarning"></a>adminDisplayWarning
 
     mixed ModuleCore::adminDisplayWarning(string $msg)
 
@@ -2185,7 +2348,7 @@ add a warning message to display at the top of the admin page
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2652](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2652)
+* This method is defined in [classes/module/Module.php line 2652](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2652)
 
 
 #### Arguments
@@ -2193,7 +2356,7 @@ add a warning message to display at the top of the admin page
 
 
 
-### adminDisplayInformation
+### <a name="method-adminDisplayInformation"></a>adminDisplayInformation
 
     mixed ModuleCore::adminDisplayInformation(string $msg)
 
@@ -2202,7 +2365,7 @@ add a info message to display at the top of the admin page
 
 
 * Visibility: **protected**
-* This method is defined in [classes/module/Module.php line 2665](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2665)
+* This method is defined in [classes/module/Module.php line 2665](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2665)
 
 
 #### Arguments
@@ -2210,7 +2373,7 @@ add a info message to display at the top of the admin page
 
 
 
-### installControllers
+### <a name="method-installControllers"></a>installControllers
 
     boolean ModuleCore::installControllers()
 
@@ -2219,12 +2382,12 @@ Install module's controllers using public property $controllers
 
 
 * Visibility: **private**
-* This method is defined in [classes/module/Module.php line 2677](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2677)
+* This method is defined in [classes/module/Module.php line 2677](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2677)
 
 
 
 
-### installOverrides
+### <a name="method-installOverrides"></a>installOverrides
 
     boolean ModuleCore::installOverrides()
 
@@ -2233,12 +2396,12 @@ Install overrides files for the module
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2718](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2718)
+* This method is defined in [classes/module/Module.php line 2718](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2718)
 
 
 
 
-### uninstallOverrides
+### <a name="method-uninstallOverrides"></a>uninstallOverrides
 
     boolean ModuleCore::uninstallOverrides()
 
@@ -2247,12 +2410,12 @@ Uninstall overrides files for the module
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2740](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2740)
+* This method is defined in [classes/module/Module.php line 2740](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2740)
 
 
 
 
-### addOverride
+### <a name="method-addOverride"></a>addOverride
 
     boolean ModuleCore::addOverride(string $classname)
 
@@ -2261,7 +2424,7 @@ Add all methods in a module override to the override class
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2763](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2763)
+* This method is defined in [classes/module/Module.php line 2763](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2763)
 
 
 #### Arguments
@@ -2269,7 +2432,7 @@ Add all methods in a module override to the override class
 
 
 
-### removeOverride
+### <a name="method-removeOverride"></a>removeOverride
 
     boolean ModuleCore::removeOverride(string $classname)
 
@@ -2278,7 +2441,7 @@ Remove all methods in a module override from the override class
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 2912](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2912)
+* This method is defined in [classes/module/Module.php line 2912](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L2912)
 
 
 #### Arguments
@@ -2286,7 +2449,7 @@ Remove all methods in a module override from the override class
 
 
 
-### getPossibleHooksList
+### <a name="method-getPossibleHooksList"></a>getPossibleHooksList
 
     array ModuleCore::getPossibleHooksList()
 
@@ -2295,7 +2458,7 @@ Return the hooks list where this module can be hooked.
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/Module.php line 3062](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#3062)
+* This method is defined in [classes/module/Module.php line 3062](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#L3062)
 
 
 

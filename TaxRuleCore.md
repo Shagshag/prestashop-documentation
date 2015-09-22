@@ -17,8 +17,36 @@ TaxRuleCore
 Properties
 ----------
 
+* [$id_tax_rules_group](#property-$id_tax_rules_group)
+* [$id_country](#property-$id_country)
+* [$id_state](#property-$id_state)
+* [$zipcode_from](#property-$zipcode_from)
+* [$zipcode_to](#property-$zipcode_to)
+* [$id_tax](#property-$id_tax)
+* [$behavior](#property-$behavior)
+* [$description](#property-$description)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_tax_rules_group
+Methods
+-------
+* [deleteByGroupId](#method-deleteByGroupId)
+* [retrieveById](#method-retrieveById)
+* [getTaxRulesByGroupId](#method-getTaxRulesByGroupId)
+* [deleteTaxRuleByIdTax](#method-deleteTaxRuleByIdTax)
+* [deleteTaxRuleByIdCounty](#method-deleteTaxRuleByIdCounty)
+* [isTaxInUse](#method-isTaxInUse)
+* [breakDownZipCode](#method-breakDownZipCode)
+* [swapTaxId](#method-swapTaxId)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_tax_rules_group"></a>$id_tax_rules_group
 
     public mixed $id_tax_rules_group
 
@@ -27,10 +55,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/TaxRule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#29)
+* This property is defined in [classes/tax/TaxRule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L29)
 
 
-### $id_country
+### <a name="property-$id_country"></a>$id_country
 
     public mixed $id_country
 
@@ -39,10 +67,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/TaxRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#30)
+* This property is defined in [classes/tax/TaxRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L30)
 
 
-### $id_state
+### <a name="property-$id_state"></a>$id_state
 
     public mixed $id_state
 
@@ -51,10 +79,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/TaxRule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#31)
+* This property is defined in [classes/tax/TaxRule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L31)
 
 
-### $zipcode_from
+### <a name="property-$zipcode_from"></a>$zipcode_from
 
     public mixed $zipcode_from
 
@@ -63,10 +91,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/TaxRule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#32)
+* This property is defined in [classes/tax/TaxRule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L32)
 
 
-### $zipcode_to
+### <a name="property-$zipcode_to"></a>$zipcode_to
 
     public mixed $zipcode_to
 
@@ -75,10 +103,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/TaxRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#33)
+* This property is defined in [classes/tax/TaxRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L33)
 
 
-### $id_tax
+### <a name="property-$id_tax"></a>$id_tax
 
     public mixed $id_tax
 
@@ -87,10 +115,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/TaxRule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#34)
+* This property is defined in [classes/tax/TaxRule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L34)
 
 
-### $behavior
+### <a name="property-$behavior"></a>$behavior
 
     public mixed $behavior
 
@@ -99,10 +127,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/TaxRule.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#35)
+* This property is defined in [classes/tax/TaxRule.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L35)
 
 
-### $description
+### <a name="property-$description"></a>$description
 
     public mixed $description
 
@@ -111,10 +139,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/TaxRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#36)
+* This property is defined in [classes/tax/TaxRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L36)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'tax_rule', 'primary' => 'id_tax_rule', 'fields' => array('id_tax_rules_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'zipcode_from' => array('type' => self::TYPE_STRING, 'validate' => 'isPostCode'), 'zipcode_to' => array('type' => self::TYPE_STRING, 'validate' => 'isPostCode'), 'id_tax' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'behavior' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'description' => array('type' => self::TYPE_STRING, 'validate' => 'isString')))
 
@@ -124,10 +152,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/tax/TaxRule.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#41)
+* This property is defined in [classes/tax/TaxRule.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L41)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_tax_rules_group' => array('xlink_resource' => 'tax_rule_groups'), 'id_state' => array('xlink_resource' => 'states'), 'id_country' => array('xlink_resource' => 'countries')))
 
@@ -136,14 +164,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/tax/TaxRule.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#56)
+* This property is defined in [classes/tax/TaxRule.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L56)
 
 
 Methods
 -------
 
 
-### deleteByGroupId
+### <a name="method-deleteByGroupId"></a>deleteByGroupId
 
     mixed TaxRuleCore::deleteByGroupId($id_group)
 
@@ -153,7 +181,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/tax/TaxRule.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#64)
+* This method is defined in [classes/tax/TaxRule.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L64)
 
 
 #### Arguments
@@ -161,7 +189,7 @@ Methods
 
 
 
-### retrieveById
+### <a name="method-retrieveById"></a>retrieveById
 
     mixed TaxRuleCore::retrieveById($id_tax_rule)
 
@@ -171,7 +199,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/tax/TaxRule.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#76)
+* This method is defined in [classes/tax/TaxRule.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L76)
 
 
 #### Arguments
@@ -179,7 +207,7 @@ Methods
 
 
 
-### getTaxRulesByGroupId
+### <a name="method-getTaxRulesByGroupId"></a>getTaxRulesByGroupId
 
     mixed TaxRuleCore::getTaxRulesByGroupId($id_lang, $id_group)
 
@@ -189,7 +217,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/tax/TaxRule.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#83)
+* This method is defined in [classes/tax/TaxRule.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L83)
 
 
 #### Arguments
@@ -198,7 +226,7 @@ Methods
 
 
 
-### deleteTaxRuleByIdTax
+### <a name="method-deleteTaxRuleByIdTax"></a>deleteTaxRuleByIdTax
 
     mixed TaxRuleCore::deleteTaxRuleByIdTax($id_tax)
 
@@ -208,7 +236,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/tax/TaxRule.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#104)
+* This method is defined in [classes/tax/TaxRule.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L104)
 
 
 #### Arguments
@@ -216,7 +244,7 @@ Methods
 
 
 
-### deleteTaxRuleByIdCounty
+### <a name="method-deleteTaxRuleByIdCounty"></a>deleteTaxRuleByIdCounty
 
     mixed TaxRuleCore::deleteTaxRuleByIdCounty($id_county)
 
@@ -226,7 +254,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/tax/TaxRule.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#115)
+* This method is defined in [classes/tax/TaxRule.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L115)
 
 
 #### Arguments
@@ -234,7 +262,7 @@ Methods
 
 
 
-### isTaxInUse
+### <a name="method-isTaxInUse"></a>isTaxInUse
 
     boolean TaxRuleCore::isTaxInUse(integer $id_tax)
 
@@ -244,7 +272,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/tax/TaxRule.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#125)
+* This method is defined in [classes/tax/TaxRule.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L125)
 
 
 #### Arguments
@@ -252,7 +280,7 @@ Methods
 
 
 
-### breakDownZipCode
+### <a name="method-breakDownZipCode"></a>breakDownZipCode
 
     array TaxRuleCore::breakDownZipCode($zip_codes)
 
@@ -261,7 +289,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tax/TaxRule.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#141)
+* This method is defined in [classes/tax/TaxRule.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L141)
 
 
 #### Arguments
@@ -269,7 +297,7 @@ Methods
 
 
 
-### swapTaxId
+### <a name="method-swapTaxId"></a>swapTaxId
 
     mixed TaxRuleCore::swapTaxId(integer $old_id, integer $new_id)
 
@@ -279,7 +307,7 @@ Replace a tax_rule id by an other one in the tax_rule table
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/tax/TaxRule.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#171)
+* This method is defined in [classes/tax/TaxRule.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#L171)
 
 
 #### Arguments

@@ -17,8 +17,63 @@ ImageCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$id_image](#property-$id_image)
+* [$id_product](#property-$id_product)
+* [$position](#property-$position)
+* [$cover](#property-$cover)
+* [$legend](#property-$legend)
+* [$image_format](#property-$image_format)
+* [$source_index](#property-$source_index)
+* [$folder](#property-$folder)
+* [$existing_path](#property-$existing_path)
+* [$access_rights](#property-$access_rights)
+* [$definition](#property-$definition)
+* [$_cacheGetSize](#property-$_cacheGetSize)
 
-### $id
+Methods
+-------
+* [__construct](#method-__construct)
+* [add](#method-add)
+* [update](#method-update)
+* [delete](#method-delete)
+* [getBestImageAttribute](#method-getBestImageAttribute)
+* [getImages](#method-getImages)
+* [hasImages](#method-hasImages)
+* [getAllImages](#method-getAllImages)
+* [getImagesTotal](#method-getImagesTotal)
+* [getHighestPosition](#method-getHighestPosition)
+* [deleteCover](#method-deleteCover)
+* [getCover](#method-getCover)
+* [duplicateProductImages](#method-duplicateProductImages)
+* [replaceAttributeImageAssociationId](#method-replaceAttributeImageAssociationId)
+* [duplicateAttributeImageAssociations](#method-duplicateAttributeImageAssociations)
+* [positionImage](#method-positionImage)
+* [updatePosition](#method-updatePosition)
+* [getSize](#method-getSize)
+* [getWidth](#method-getWidth)
+* [getHeight](#method-getHeight)
+* [clearTmpDir](#method-clearTmpDir)
+* [deleteProductAttributeImage](#method-deleteProductAttributeImage)
+* [deleteImage](#method-deleteImage)
+* [deleteAllImages](#method-deleteAllImages)
+* [getExistingImgPath](#method-getExistingImgPath)
+* [getImgFolder](#method-getImgFolder)
+* [createImgFolder](#method-createImgFolder)
+* [getImgPath](#method-getImgPath)
+* [getImgFolderStatic](#method-getImgFolderStatic)
+* [moveToNewFileSystem](#method-moveToNewFileSystem)
+* [testFileSystem](#method-testFileSystem)
+* [getPathForCreation](#method-getPathForCreation)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +82,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Image.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#29)
+* This property is defined in [classes/Image.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L29)
 
 
-### $id_image
+### <a name="property-$id_image"></a>$id_image
 
     public integer $id_image
 
@@ -39,10 +94,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Image.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#32)
+* This property is defined in [classes/Image.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L32)
 
 
-### $id_product
+### <a name="property-$id_product"></a>$id_product
 
     public integer $id_product
 
@@ -51,10 +106,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Image.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#35)
+* This property is defined in [classes/Image.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L35)
 
 
-### $position
+### <a name="property-$position"></a>$position
 
     public integer $position
 
@@ -63,10 +118,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Image.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#38)
+* This property is defined in [classes/Image.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L38)
 
 
-### $cover
+### <a name="property-$cover"></a>$cover
 
     public boolean $cover
 
@@ -75,10 +130,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Image.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#41)
+* This property is defined in [classes/Image.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L41)
 
 
-### $legend
+### <a name="property-$legend"></a>$legend
 
     public string $legend
 
@@ -87,10 +142,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Image.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#44)
+* This property is defined in [classes/Image.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L44)
 
 
-### $image_format
+### <a name="property-$image_format"></a>$image_format
 
     public string $image_format = 'jpg'
 
@@ -99,10 +154,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Image.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#47)
+* This property is defined in [classes/Image.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L47)
 
 
-### $source_index
+### <a name="property-$source_index"></a>$source_index
 
     public string $source_index
 
@@ -111,10 +166,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Image.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#50)
+* This property is defined in [classes/Image.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L50)
 
 
-### $folder
+### <a name="property-$folder"></a>$folder
 
     protected string $folder
 
@@ -123,10 +178,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Image.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#53)
+* This property is defined in [classes/Image.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L53)
 
 
-### $existing_path
+### <a name="property-$existing_path"></a>$existing_path
 
     protected string $existing_path
 
@@ -135,10 +190,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Image.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#56)
+* This property is defined in [classes/Image.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L56)
 
 
-### $access_rights
+### <a name="property-$access_rights"></a>$access_rights
 
     protected integer $access_rights = 509
 
@@ -148,10 +203,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Image.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#59)
+* This property is defined in [classes/Image.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L59)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'image', 'primary' => 'id_image', 'multilang' => true, 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'shop' => 'both', 'validate' => 'isUnsignedId', 'required' => true), 'position' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'cover' => array('type' => self::TYPE_BOOL, 'allow_null' => true, 'validate' => 'isBool', 'shop' => true), 'legend' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128)))
 
@@ -161,10 +216,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Image.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#64)
+* This property is defined in [classes/Image.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L64)
 
 
-### $_cacheGetSize
+### <a name="property-$_cacheGetSize"></a>$_cacheGetSize
 
     protected mixed $_cacheGetSize = array()
 
@@ -174,14 +229,14 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Image.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#76)
+* This property is defined in [classes/Image.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L76)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed ImageCore::__construct($id, $id_lang)
 
@@ -190,7 +245,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#78)
+* This method is defined in [classes/Image.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L78)
 
 
 #### Arguments
@@ -199,7 +254,7 @@ Methods
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed ImageCore::add($autodate, $null_values)
 
@@ -208,7 +263,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#85)
+* This method is defined in [classes/Image.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L85)
 
 
 #### Arguments
@@ -217,7 +272,7 @@ Methods
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed ImageCore::update($null_values)
 
@@ -226,7 +281,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#100)
+* This method is defined in [classes/Image.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L100)
 
 
 #### Arguments
@@ -234,7 +289,7 @@ Methods
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed ImageCore::delete()
 
@@ -243,12 +298,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#112)
+* This method is defined in [classes/Image.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L112)
 
 
 
 
-### getBestImageAttribute
+### <a name="method-getBestImageAttribute"></a>getBestImageAttribute
 
     array ImageCore::getBestImageAttribute(integer $id_shop, integer $id_lang, integer $id_product, integer $id_product_attribute)
 
@@ -258,7 +313,7 @@ Return first image (by position) associated with a product attribute
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#143)
+* This method is defined in [classes/Image.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L143)
 
 
 #### Arguments
@@ -269,7 +324,7 @@ Return first image (by position) associated with a product attribute
 
 
 
-### getImages
+### <a name="method-getImages"></a>getImages
 
     array ImageCore::getImages(integer $id_lang, integer $id_product, integer $id_product_attribute)
 
@@ -279,7 +334,7 @@ Return available images for a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#174)
+* This method is defined in [classes/Image.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L174)
 
 
 #### Arguments
@@ -289,7 +344,7 @@ Return available images for a product
 
 
 
-### hasImages
+### <a name="method-hasImages"></a>hasImages
 
     boolean ImageCore::hasImages(integer $id_lang, integer $id_product, integer $id_product_attribute)
 
@@ -299,7 +354,7 @@ Check if a product has an image available
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#198)
+* This method is defined in [classes/Image.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L198)
 
 
 #### Arguments
@@ -309,7 +364,7 @@ Check if a product has an image available
 
 
 
-### getAllImages
+### <a name="method-getAllImages"></a>getAllImages
 
     array ImageCore::getAllImages()
 
@@ -319,12 +374,12 @@ Return Images
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#218)
+* This method is defined in [classes/Image.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L218)
 
 
 
 
-### getImagesTotal
+### <a name="method-getImagesTotal"></a>getImagesTotal
 
     integer ImageCore::getImagesTotal(integer $id_product)
 
@@ -334,7 +389,7 @@ Return number of images for a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#232)
+* This method is defined in [classes/Image.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L232)
 
 
 #### Arguments
@@ -342,7 +397,7 @@ Return number of images for a product
 
 
 
-### getHighestPosition
+### <a name="method-getHighestPosition"></a>getHighestPosition
 
     integer ImageCore::getHighestPosition(integer $id_product)
 
@@ -352,7 +407,7 @@ Return highest position of images for a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#247)
+* This method is defined in [classes/Image.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L247)
 
 
 #### Arguments
@@ -360,7 +415,7 @@ Return highest position of images for a product
 
 
 
-### deleteCover
+### <a name="method-deleteCover"></a>deleteCover
 
     boolean ImageCore::deleteCover(integer $id_product)
 
@@ -370,7 +425,7 @@ Delete product cover
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#262)
+* This method is defined in [classes/Image.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L262)
 
 
 #### Arguments
@@ -378,7 +433,7 @@ Delete product cover
 
 
 
-### getCover
+### <a name="method-getCover"></a>getCover
 
     boolean ImageCore::getCover(integer $id_product)
 
@@ -388,7 +443,7 @@ Get product cover
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#290)
+* This method is defined in [classes/Image.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L290)
 
 
 #### Arguments
@@ -396,7 +451,7 @@ Get product cover
 
 
 
-### duplicateProductImages
+### <a name="method-duplicateProductImages"></a>duplicateProductImages
 
     mixed ImageCore::duplicateProductImages(integer $id_product_old, boolean $id_product_new, $combination_images)
 
@@ -406,7 +461,7 @@ Copy images from a product to another
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#305)
+* This method is defined in [classes/Image.php line 305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L305)
 
 
 #### Arguments
@@ -416,7 +471,7 @@ Copy images from a product to another
 
 
 
-### replaceAttributeImageAssociationId
+### <a name="method-replaceAttributeImageAssociationId"></a>replaceAttributeImageAssociationId
 
     mixed ImageCore::replaceAttributeImageAssociationId($combination_images, $saved_id, $id_image)
 
@@ -426,7 +481,7 @@ Copy images from a product to another
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 350](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#350)
+* This method is defined in [classes/Image.php line 350](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L350)
 
 
 #### Arguments
@@ -436,7 +491,7 @@ Copy images from a product to another
 
 
 
-### duplicateAttributeImageAssociations
+### <a name="method-duplicateAttributeImageAssociations"></a>duplicateAttributeImageAssociations
 
     boolean ImageCore::duplicateAttributeImageAssociations($combination_images)
 
@@ -446,7 +501,7 @@ Duplicate product attribute image associations
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#369)
+* This method is defined in [classes/Image.php line 369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L369)
 
 
 #### Arguments
@@ -454,7 +509,7 @@ Duplicate product attribute image associations
 
 
 
-### positionImage
+### <a name="method-positionImage"></a>positionImage
 
     mixed ImageCore::positionImage(integer $position, boolean $direction)
 
@@ -463,7 +518,7 @@ Reposition image
 
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 391](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#391)
+* This method is defined in [classes/Image.php line 391](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L391)
 
 
 #### Arguments
@@ -472,7 +527,7 @@ Reposition image
 
 
 
-### updatePosition
+### <a name="method-updatePosition"></a>updatePosition
 
     integer ImageCore::updatePosition(integer $way, integer $position)
 
@@ -481,7 +536,7 @@ Change an image position and update relative positions
 
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#426)
+* This method is defined in [classes/Image.php line 426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L426)
 
 
 #### Arguments
@@ -490,7 +545,7 @@ Change an image position and update relative positions
 
 
 
-### getSize
+### <a name="method-getSize"></a>getSize
 
     mixed ImageCore::getSize($type)
 
@@ -500,7 +555,7 @@ Change an image position and update relative positions
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 450](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#450)
+* This method is defined in [classes/Image.php line 450](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L450)
 
 
 #### Arguments
@@ -508,7 +563,7 @@ Change an image position and update relative positions
 
 
 
-### getWidth
+### <a name="method-getWidth"></a>getWidth
 
     mixed ImageCore::getWidth($params, $smarty)
 
@@ -518,7 +573,7 @@ Change an image position and update relative positions
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 462](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#462)
+* This method is defined in [classes/Image.php line 462](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L462)
 
 
 #### Arguments
@@ -527,7 +582,7 @@ Change an image position and update relative positions
 
 
 
-### getHeight
+### <a name="method-getHeight"></a>getHeight
 
     mixed ImageCore::getHeight($params, $smarty)
 
@@ -537,7 +592,7 @@ Change an image position and update relative positions
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 468](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#468)
+* This method is defined in [classes/Image.php line 468](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L468)
 
 
 #### Arguments
@@ -546,7 +601,7 @@ Change an image position and update relative positions
 
 
 
-### clearTmpDir
+### <a name="method-clearTmpDir"></a>clearTmpDir
 
     mixed ImageCore::clearTmpDir()
 
@@ -556,12 +611,12 @@ Clear all images in tmp dir
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 477](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#477)
+* This method is defined in [classes/Image.php line 477](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L477)
 
 
 
 
-### deleteProductAttributeImage
+### <a name="method-deleteProductAttributeImage"></a>deleteProductAttributeImage
 
     mixed ImageCore::deleteProductAttributeImage()
 
@@ -570,12 +625,12 @@ Delete Image - Product attribute associations for this image
 
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 488](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#488)
+* This method is defined in [classes/Image.php line 488](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L488)
 
 
 
 
-### deleteImage
+### <a name="method-deleteImage"></a>deleteImage
 
     mixed ImageCore::deleteImage($force_delete)
 
@@ -585,7 +640,7 @@ Handles both legacy and new image filesystems
 
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 501](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#501)
+* This method is defined in [classes/Image.php line 501](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L501)
 
 
 #### Arguments
@@ -593,7 +648,7 @@ Handles both legacy and new image filesystems
 
 
 
-### deleteAllImages
+### <a name="method-deleteAllImages"></a>deleteAllImages
 
     boolean ImageCore::deleteAllImages(string $path, string $format)
 
@@ -603,7 +658,7 @@ Recursively deletes all product images in the given folder tree and removes empt
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 563](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#563)
+* This method is defined in [classes/Image.php line 563](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L563)
 
 
 #### Arguments
@@ -612,7 +667,7 @@ Recursively deletes all product images in the given folder tree and removes empt
 
 
 
-### getExistingImgPath
+### <a name="method-getExistingImgPath"></a>getExistingImgPath
 
     mixed ImageCore::getExistingImgPath()
 
@@ -621,12 +676,12 @@ Returns image path in the old or in the new filesystem
 @ returns string image path
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#603)
+* This method is defined in [classes/Image.php line 603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L603)
 
 
 
 
-### getImgFolder
+### <a name="method-getImgFolder"></a>getImgFolder
 
     string ImageCore::getImgFolder()
 
@@ -635,12 +690,12 @@ Returns the path to the folder containing the image in the new filesystem
 
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 625](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#625)
+* This method is defined in [classes/Image.php line 625](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L625)
 
 
 
 
-### createImgFolder
+### <a name="method-createImgFolder"></a>createImgFolder
 
     boolean ImageCore::createImgFolder()
 
@@ -649,12 +704,12 @@ Create parent folders for the image in the new filesystem
 
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 643](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#643)
+* This method is defined in [classes/Image.php line 643](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L643)
 
 
 
 
-### getImgPath
+### <a name="method-getImgPath"></a>getImgPath
 
     string ImageCore::getImgPath()
 
@@ -663,12 +718,12 @@ Returns the path to the image without file extension
 
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 669](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#669)
+* This method is defined in [classes/Image.php line 669](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L669)
 
 
 
 
-### getImgFolderStatic
+### <a name="method-getImgFolderStatic"></a>getImgFolderStatic
 
     string ImageCore::getImgFolderStatic(mixed $id_image)
 
@@ -678,7 +733,7 @@ Returns the path to the folder containing the image in the new filesystem
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 685](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#685)
+* This method is defined in [classes/Image.php line 685](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L685)
 
 
 #### Arguments
@@ -686,7 +741,7 @@ Returns the path to the folder containing the image in the new filesystem
 
 
 
-### moveToNewFileSystem
+### <a name="method-moveToNewFileSystem"></a>moveToNewFileSystem
 
     mixed ImageCore::moveToNewFileSystem(integer $max_execution_time)
 
@@ -697,7 +752,7 @@ If any image cannot be moved, stops and returns "false"
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 702](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#702)
+* This method is defined in [classes/Image.php line 702](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L702)
 
 
 #### Arguments
@@ -705,7 +760,7 @@ If any image cannot be moved, stops and returns "false"
 
 
 
-### testFileSystem
+### <a name="method-testFileSystem"></a>testFileSystem
 
     boolean ImageCore::testFileSystem()
 
@@ -715,12 +770,12 @@ Try to create and delete some folders to check if moving images to new file syst
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Image.php line 752](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#752)
+* This method is defined in [classes/Image.php line 752](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L752)
 
 
 
 
-### getPathForCreation
+### <a name="method-getPathForCreation"></a>getPathForCreation
 
     string ImageCore::getPathForCreation()
 
@@ -729,7 +784,7 @@ Returns the path where a product image should be created (without file format)
 
 
 * Visibility: **public**
-* This method is defined in [classes/Image.php line 787](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#787)
+* This method is defined in [classes/Image.php line 787](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L787)
 
 
 

@@ -17,8 +17,30 @@ AdminPatternsControllerCore
 Properties
 ----------
 
+* [$name](#property-$name)
 
-### $name
+Methods
+-------
+* [__construct](#method-__construct)
+* [viewAccess](#method-viewAccess)
+* [renderForm](#method-renderForm)
+* [setMedia](#method-setMedia)
+* [renderList](#method-renderList)
+* [renderListSimpleHeader](#method-renderListSimpleHeader)
+* [renderListSmallColumns](#method-renderListSmallColumns)
+* [renderListModel](#method-renderListModel)
+* [renderListWithParentClass](#method-renderListWithParentClass)
+* [renderOptions](#method-renderOptions)
+* [initContent](#method-initContent)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$name"></a>$name
 
     public mixed $name = "patterns"
 
@@ -27,14 +49,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminPatternsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#29)
+* This property is defined in [controllers/admin/AdminPatternsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L29)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminPatternsControllerCore::__construct()
 
@@ -43,12 +65,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPatternsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#31)
+* This method is defined in [controllers/admin/AdminPatternsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L31)
 
 
 
 
-### viewAccess
+### <a name="method-viewAccess"></a>viewAccess
 
     mixed AdminPatternsControllerCore::viewAccess()
 
@@ -57,12 +79,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPatternsController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#40)
+* This method is defined in [controllers/admin/AdminPatternsController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L40)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminPatternsControllerCore::renderForm()
 
@@ -71,12 +93,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPatternsController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#45)
+* This method is defined in [controllers/admin/AdminPatternsController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L45)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminPatternsControllerCore::setMedia()
 
@@ -85,12 +107,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPatternsController.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#422)
+* This method is defined in [controllers/admin/AdminPatternsController.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L422)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminPatternsControllerCore::renderList()
 
@@ -99,12 +121,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPatternsController.php line 428](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#428)
+* This method is defined in [controllers/admin/AdminPatternsController.php line 428](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L428)
 
 
 
 
-### renderListSimpleHeader
+### <a name="method-renderListSimpleHeader"></a>renderListSimpleHeader
 
     mixed AdminPatternsControllerCore::renderListSimpleHeader()
 
@@ -113,12 +135,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPatternsController.php line 439](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#439)
+* This method is defined in [controllers/admin/AdminPatternsController.php line 439](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L439)
 
 
 
 
-### renderListSmallColumns
+### <a name="method-renderListSmallColumns"></a>renderListSmallColumns
 
     mixed AdminPatternsControllerCore::renderListSmallColumns()
 
@@ -127,12 +149,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPatternsController.php line 504](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#504)
+* This method is defined in [controllers/admin/AdminPatternsController.php line 504](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L504)
 
 
 
 
-### renderListModel
+### <a name="method-renderListModel"></a>renderListModel
 
     mixed AdminPatternsControllerCore::renderListModel()
 
@@ -141,12 +163,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPatternsController.php line 609](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#609)
+* This method is defined in [controllers/admin/AdminPatternsController.php line 609](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L609)
 
 
 
 
-### renderListWithParentClass
+### <a name="method-renderListWithParentClass"></a>renderListWithParentClass
 
     mixed AdminPatternsControllerCore::renderListWithParentClass()
 
@@ -155,12 +177,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPatternsController.php line 631](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#631)
+* This method is defined in [controllers/admin/AdminPatternsController.php line 631](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L631)
 
 
 
 
-### renderOptions
+### <a name="method-renderOptions"></a>renderOptions
 
     mixed AdminPatternsControllerCore::renderOptions()
 
@@ -169,12 +191,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPatternsController.php line 662](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#662)
+* This method is defined in [controllers/admin/AdminPatternsController.php line 662](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L662)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminPatternsControllerCore::initContent()
 
@@ -183,7 +205,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPatternsController.php line 675](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#675)
+* This method is defined in [controllers/admin/AdminPatternsController.php line 675](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#L675)
 
 
 

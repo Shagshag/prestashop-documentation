@@ -17,8 +17,114 @@ CategoryCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$id_category](#property-$id_category)
+* [$name](#property-$name)
+* [$active](#property-$active)
+* [$position](#property-$position)
+* [$description](#property-$description)
+* [$id_parent](#property-$id_parent)
+* [$id_category_default](#property-$id_category_default)
+* [$level_depth](#property-$level_depth)
+* [$nleft](#property-$nleft)
+* [$nright](#property-$nright)
+* [$link_rewrite](#property-$link_rewrite)
+* [$meta_title](#property-$meta_title)
+* [$meta_keywords](#property-$meta_keywords)
+* [$meta_description](#property-$meta_description)
+* [$date_add](#property-$date_add)
+* [$date_upd](#property-$date_upd)
+* [$is_root_category](#property-$is_root_category)
+* [$id_shop_default](#property-$id_shop_default)
+* [$groupBox](#property-$groupBox)
+* [$_links](#property-$_links)
+* [$definition](#property-$definition)
+* [$id_image](#property-$id_image)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id
+Methods
+-------
+* [__construct](#method-__construct)
+* [getDescriptionClean](#method-getDescriptionClean)
+* [add](#method-add)
+* [update](#method-update)
+* [toggleStatus](#method-toggleStatus)
+* [recurseLiteCategTree](#method-recurseLiteCategTree)
+* [recurseCategory](#method-recurseCategory)
+* [recursiveDelete](#method-recursiveDelete)
+* [deleteLite](#method-deleteLite)
+* [delete](#method-delete)
+* [deleteSelection](#method-deleteSelection)
+* [calcLevelDepth](#method-calcLevelDepth)
+* [regenerateEntireNtree](#method-regenerateEntireNtree)
+* [_subTree](#method-_subTree)
+* [recalculateLevelDepth](#method-recalculateLevelDepth)
+* [getCategories](#method-getCategories)
+* [getAllCategoriesName](#method-getAllCategoriesName)
+* [getNestedCategories](#method-getNestedCategories)
+* [getSimpleCategories](#method-getSimpleCategories)
+* [getShopID](#method-getShopID)
+* [getSubCategories](#method-getSubCategories)
+* [getProducts](#method-getProducts)
+* [getHomeCategories](#method-getHomeCategories)
+* [getRootCategory](#method-getRootCategory)
+* [getChildren](#method-getChildren)
+* [hasChildren](#method-hasChildren)
+* [getAllChildren](#method-getAllChildren)
+* [getAllParents](#method-getAllParents)
+* [getChildrenWithNbSelectedSubCat](#method-getChildrenWithNbSelectedSubCat)
+* [duplicateProductCategories](#method-duplicateProductCategories)
+* [checkBeforeMove](#method-checkBeforeMove)
+* [getLinkRewrite](#method-getLinkRewrite)
+* [getLink](#method-getLink)
+* [getName](#method-getName)
+* [searchByName](#method-searchByName)
+* [searchByNameAndParentCategoryId](#method-searchByNameAndParentCategoryId)
+* [searchByPath](#method-searchByPath)
+* [getParentsCategories](#method-getParentsCategories)
+* [categoryExists](#method-categoryExists)
+* [cleanGroups](#method-cleanGroups)
+* [cleanAssoProducts](#method-cleanAssoProducts)
+* [addGroups](#method-addGroups)
+* [getGroups](#method-getGroups)
+* [addGroupsIfNoExist](#method-addGroupsIfNoExist)
+* [checkAccess](#method-checkAccess)
+* [updateGroup](#method-updateGroup)
+* [setNewGroupForHome](#method-setNewGroupForHome)
+* [updatePosition](#method-updatePosition)
+* [cleanPositions](#method-cleanPositions)
+* [getLastPosition](#method-getLastPosition)
+* [getUrlRewriteInformations](#method-getUrlRewriteInformations)
+* [getInterval](#method-getInterval)
+* [inShop](#method-inShop)
+* [inShopStatic](#method-inShopStatic)
+* [getChildrenWs](#method-getChildrenWs)
+* [getProductsWs](#method-getProductsWs)
+* [getDuplicatePosition](#method-getDuplicatePosition)
+* [getWsNbProductsRecursive](#method-getWsNbProductsRecursive)
+* [getCategoryInformations](#method-getCategoryInformations)
+* [isParentCategoryAvailable](#method-isParentCategoryAvailable)
+* [addShop](#method-addShop)
+* [getRootCategories](#method-getRootCategories)
+* [getCategoriesWithoutParent](#method-getCategoriesWithoutParent)
+* [isRootCategoryForAShop](#method-isRootCategoryForAShop)
+* [getTopCategory](#method-getTopCategory)
+* [addPosition](#method-addPosition)
+* [getShopsByCategory](#method-getShopsByCategory)
+* [updateFromShop](#method-updateFromShop)
+* [deleteFromShop](#method-deleteFromShop)
+* [deleteCategoriesFromShop](#method-deleteCategoriesFromShop)
+* [addToShop](#method-addToShop)
+* [existsInShop](#method-existsInShop)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +133,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#29)
+* This property is defined in [classes/Category.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L29)
 
 
-### $id_category
+### <a name="property-$id_category"></a>$id_category
 
     public integer $id_category
 
@@ -39,10 +145,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#32)
+* This property is defined in [classes/Category.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L32)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -51,10 +157,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#35)
+* This property is defined in [classes/Category.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L35)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public boolean $active = 1
 
@@ -63,10 +169,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#38)
+* This property is defined in [classes/Category.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L38)
 
 
-### $position
+### <a name="property-$position"></a>$position
 
     public integer $position
 
@@ -75,10 +181,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#41)
+* This property is defined in [classes/Category.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L41)
 
 
-### $description
+### <a name="property-$description"></a>$description
 
     public string $description
 
@@ -87,10 +193,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#44)
+* This property is defined in [classes/Category.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L44)
 
 
-### $id_parent
+### <a name="property-$id_parent"></a>$id_parent
 
     public integer $id_parent
 
@@ -99,10 +205,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#47)
+* This property is defined in [classes/Category.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L47)
 
 
-### $id_category_default
+### <a name="property-$id_category_default"></a>$id_category_default
 
     public integer $id_category_default
 
@@ -111,10 +217,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#50)
+* This property is defined in [classes/Category.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L50)
 
 
-### $level_depth
+### <a name="property-$level_depth"></a>$level_depth
 
     public integer $level_depth
 
@@ -123,10 +229,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#53)
+* This property is defined in [classes/Category.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L53)
 
 
-### $nleft
+### <a name="property-$nleft"></a>$nleft
 
     public integer $nleft
 
@@ -135,10 +241,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#56)
+* This property is defined in [classes/Category.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L56)
 
 
-### $nright
+### <a name="property-$nright"></a>$nright
 
     public integer $nright
 
@@ -147,10 +253,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#59)
+* This property is defined in [classes/Category.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L59)
 
 
-### $link_rewrite
+### <a name="property-$link_rewrite"></a>$link_rewrite
 
     public string $link_rewrite
 
@@ -159,10 +265,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#62)
+* This property is defined in [classes/Category.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L62)
 
 
-### $meta_title
+### <a name="property-$meta_title"></a>$meta_title
 
     public string $meta_title
 
@@ -171,10 +277,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#65)
+* This property is defined in [classes/Category.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L65)
 
 
-### $meta_keywords
+### <a name="property-$meta_keywords"></a>$meta_keywords
 
     public string $meta_keywords
 
@@ -183,10 +289,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#68)
+* This property is defined in [classes/Category.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L68)
 
 
-### $meta_description
+### <a name="property-$meta_description"></a>$meta_description
 
     public string $meta_description
 
@@ -195,10 +301,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#71)
+* This property is defined in [classes/Category.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L71)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -207,10 +313,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#74)
+* This property is defined in [classes/Category.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L74)
 
 
-### $date_upd
+### <a name="property-$date_upd"></a>$date_upd
 
     public string $date_upd
 
@@ -219,10 +325,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#77)
+* This property is defined in [classes/Category.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L77)
 
 
-### $is_root_category
+### <a name="property-$is_root_category"></a>$is_root_category
 
     public boolean $is_root_category
 
@@ -231,10 +337,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#80)
+* This property is defined in [classes/Category.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L80)
 
 
-### $id_shop_default
+### <a name="property-$id_shop_default"></a>$id_shop_default
 
     public integer $id_shop_default
 
@@ -243,10 +349,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#83)
+* This property is defined in [classes/Category.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L83)
 
 
-### $groupBox
+### <a name="property-$groupBox"></a>$groupBox
 
     public mixed $groupBox
 
@@ -255,10 +361,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#85)
+* This property is defined in [classes/Category.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L85)
 
 
-### $_links
+### <a name="property-$_links"></a>$_links
 
     protected mixed $_links = array()
 
@@ -268,10 +374,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Category.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#87)
+* This property is defined in [classes/Category.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L87)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'category', 'primary' => 'id_category', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('nleft' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'nright' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'level_depth' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'id_parent' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'id_shop_default' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'is_root_category' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'position' => array('type' => self::TYPE_INT), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCatalogName', 'required' => true, 'size' => 128), 'link_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'required' => true, 'size' => 128), 'description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255)))
 
@@ -281,10 +387,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Category.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#92)
+* This property is defined in [classes/Category.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L92)
 
 
-### $id_image
+### <a name="property-$id_image"></a>$id_image
 
     public string $id_image = 'default'
 
@@ -293,10 +399,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Category.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#119)
+* This property is defined in [classes/Category.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L119)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectsNodeName' => 'categories', 'hidden_fields' => array('nleft', 'nright', 'groupBox'), 'fields' => array('id_parent' => array('xlink_resource' => 'categories'), 'level_depth' => array('setter' => false), 'nb_products_recursive' => array('getter' => 'getWsNbProductsRecursive', 'setter' => false)), 'associations' => array('categories' => array('getter' => 'getChildrenWs', 'resource' => 'category'), 'products' => array('getter' => 'getProductsWs', 'resource' => 'product')))
 
@@ -305,14 +411,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Category.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#121)
+* This property is defined in [classes/Category.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L121)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed CategoryCore::__construct($id_category, $id_lang, $id_shop)
 
@@ -321,7 +427,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#135)
+* This method is defined in [classes/Category.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L135)
 
 
 #### Arguments
@@ -331,7 +437,7 @@ Methods
 
 
 
-### getDescriptionClean
+### <a name="method-getDescriptionClean"></a>getDescriptionClean
 
     mixed CategoryCore::getDescriptionClean($description)
 
@@ -341,7 +447,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#142)
+* This method is defined in [classes/Category.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L142)
 
 
 #### Arguments
@@ -349,7 +455,7 @@ Methods
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed CategoryCore::add($autodate, $null_values)
 
@@ -358,7 +464,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#147)
+* This method is defined in [classes/Category.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L147)
 
 
 #### Arguments
@@ -367,7 +473,7 @@ Methods
 
 
 
-### update
+### <a name="method-update"></a>update
 
     boolean CategoryCore::update(mixed $null_values)
 
@@ -376,7 +482,7 @@ update category positions in parent
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#183)
+* This method is defined in [classes/Category.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L183)
 
 
 #### Arguments
@@ -384,7 +490,7 @@ update category positions in parent
 
 
 
-### toggleStatus
+### <a name="method-toggleStatus"></a>toggleStatus
 
     mixed CategoryCore::toggleStatus()
 
@@ -393,12 +499,12 @@ update category positions in parent
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#232)
+* This method is defined in [classes/Category.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L232)
 
 
 
 
-### recurseLiteCategTree
+### <a name="method-recurseLiteCategTree"></a>recurseLiteCategTree
 
     array CategoryCore::recurseLiteCategTree(integer $max_depth, integer $current_depth, integer $id_lang, array $excluded_ids_array)
 
@@ -407,7 +513,7 @@ Recursive scan of subcategories
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 249](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#249)
+* This method is defined in [classes/Category.php line 249](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L249)
 
 
 #### Arguments
@@ -418,7 +524,7 @@ Recursive scan of subcategories
 
 
 
-### recurseCategory
+### <a name="method-recurseCategory"></a>recurseCategory
 
     mixed CategoryCore::recurseCategory($categories, $current, $id_category, $id_selected)
 
@@ -428,7 +534,7 @@ Recursive scan of subcategories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 283](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#283)
+* This method is defined in [classes/Category.php line 283](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L283)
 
 
 #### Arguments
@@ -439,7 +545,7 @@ Recursive scan of subcategories
 
 
 
-### recursiveDelete
+### <a name="method-recursiveDelete"></a>recursiveDelete
 
     mixed CategoryCore::recursiveDelete($to_delete, integer $id_category)
 
@@ -448,7 +554,7 @@ Recursively add specified category childs to $to_delete array
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Category.php line 305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#305)
+* This method is defined in [classes/Category.php line 305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L305)
 
 
 #### Arguments
@@ -457,7 +563,7 @@ Recursively add specified category childs to $to_delete array
 
 
 
-### deleteLite
+### <a name="method-deleteLite"></a>deleteLite
 
     mixed CategoryCore::deleteLite()
 
@@ -466,12 +572,12 @@ Recursively add specified category childs to $to_delete array
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 321](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#321)
+* This method is defined in [classes/Category.php line 321](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L321)
 
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed CategoryCore::delete()
 
@@ -480,12 +586,12 @@ Recursively add specified category childs to $to_delete array
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#327)
+* This method is defined in [classes/Category.php line 327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L327)
 
 
 
 
-### deleteSelection
+### <a name="method-deleteSelection"></a>deleteSelection
 
     mixed CategoryCore::deleteSelection($categories)
 
@@ -494,7 +600,7 @@ Delete several categories from database
 return boolean Deletion result
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#369)
+* This method is defined in [classes/Category.php line 369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L369)
 
 
 #### Arguments
@@ -502,7 +608,7 @@ return boolean Deletion result
 
 
 
-### calcLevelDepth
+### <a name="method-calcLevelDepth"></a>calcLevelDepth
 
     integer CategoryCore::calcLevelDepth()
 
@@ -511,12 +617,12 @@ Get the depth level for the category
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 388](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#388)
+* This method is defined in [classes/Category.php line 388](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L388)
 
 
 
 
-### regenerateEntireNtree
+### <a name="method-regenerateEntireNtree"></a>regenerateEntireNtree
 
     mixed CategoryCore::regenerateEntireNtree()
 
@@ -526,12 +632,12 @@ Re-calculate the values of all branches of the nested tree
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 405](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#405)
+* This method is defined in [classes/Category.php line 405](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L405)
 
 
 
 
-### _subTree
+### <a name="method-_subTree"></a>_subTree
 
     mixed CategoryCore::_subTree($categories, $id_category, $n)
 
@@ -541,7 +647,7 @@ Re-calculate the values of all branches of the nested tree
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#426)
+* This method is defined in [classes/Category.php line 426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L426)
 
 
 #### Arguments
@@ -551,7 +657,7 @@ Re-calculate the values of all branches of the nested tree
 
 
 
-### recalculateLevelDepth
+### <a name="method-recalculateLevelDepth"></a>recalculateLevelDepth
 
     mixed CategoryCore::recalculateLevelDepth(integer $id_category)
 
@@ -560,7 +666,7 @@ Updates level_depth for all children of the given id_category
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 447](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#447)
+* This method is defined in [classes/Category.php line 447](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L447)
 
 
 #### Arguments
@@ -568,7 +674,7 @@ Updates level_depth for all children of the given id_category
 
 
 
-### getCategories
+### <a name="method-getCategories"></a>getCategories
 
     array CategoryCore::getCategories(integer $id_lang, boolean $active, $order, $sql_filter, $sql_sort, $sql_limit)
 
@@ -578,7 +684,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 480](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#480)
+* This method is defined in [classes/Category.php line 480](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L480)
 
 
 #### Arguments
@@ -591,7 +697,7 @@ Return available categories
 
 
 
-### getAllCategoriesName
+### <a name="method-getAllCategoriesName"></a>getAllCategoriesName
 
     mixed CategoryCore::getAllCategoriesName($root_category, $id_lang, $active, $groups, $use_shop_restriction, $sql_filter, $sql_sort, $sql_limit)
 
@@ -601,7 +707,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 509](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#509)
+* This method is defined in [classes/Category.php line 509](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L509)
 
 
 #### Arguments
@@ -616,7 +722,7 @@ Return available categories
 
 
 
-### getNestedCategories
+### <a name="method-getNestedCategories"></a>getNestedCategories
 
     mixed CategoryCore::getNestedCategories($root_category, $id_lang, $active, $groups, $use_shop_restriction, $sql_filter, $sql_sort, $sql_limit)
 
@@ -626,7 +732,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 552](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#552)
+* This method is defined in [classes/Category.php line 552](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L552)
 
 
 #### Arguments
@@ -641,7 +747,7 @@ Return available categories
 
 
 
-### getSimpleCategories
+### <a name="method-getSimpleCategories"></a>getSimpleCategories
 
     mixed CategoryCore::getSimpleCategories($id_lang)
 
@@ -651,7 +757,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 613](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#613)
+* This method is defined in [classes/Category.php line 613](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L613)
 
 
 #### Arguments
@@ -659,7 +765,7 @@ Return available categories
 
 
 
-### getShopID
+### <a name="method-getShopID"></a>getShopID
 
     mixed CategoryCore::getShopID()
 
@@ -668,12 +774,12 @@ Return available categories
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#626)
+* This method is defined in [classes/Category.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L626)
 
 
 
 
-### getSubCategories
+### <a name="method-getSubCategories"></a>getSubCategories
 
     array CategoryCore::getSubCategories(integer $id_lang, boolean $active)
 
@@ -682,7 +788,7 @@ Return current category childs
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 638](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#638)
+* This method is defined in [classes/Category.php line 638](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L638)
 
 
 #### Arguments
@@ -691,7 +797,7 @@ Return current category childs
 
 
 
-### getProducts
+### <a name="method-getProducts"></a>getProducts
 
     array|integer|false CategoryCore::getProducts(integer $id_lang, integer $p, integer $n, string|null $order_by, string|null $order_way, boolean $get_total, boolean $active, boolean $random, integer $random_number_products, boolean $check_access, \Context|null $context)
 
@@ -700,7 +806,7 @@ Returns category products
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 686](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#686)
+* This method is defined in [classes/Category.php line 686](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L686)
 
 
 #### Arguments
@@ -719,7 +825,7 @@ Returns category products
 
 
 
-### getHomeCategories
+### <a name="method-getHomeCategories"></a>getHomeCategories
 
     array CategoryCore::getHomeCategories(integer $id_lang, boolean $active, $id_shop)
 
@@ -729,7 +835,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 803](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#803)
+* This method is defined in [classes/Category.php line 803](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L803)
 
 
 #### Arguments
@@ -739,7 +845,7 @@ Return main categories
 
 
 
-### getRootCategory
+### <a name="method-getRootCategory"></a>getRootCategory
 
     mixed CategoryCore::getRootCategory($id_lang, \Shop $shop)
 
@@ -749,7 +855,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 808](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#808)
+* This method is defined in [classes/Category.php line 808](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L808)
 
 
 #### Arguments
@@ -758,7 +864,7 @@ Return main categories
 
 
 
-### getChildren
+### <a name="method-getChildren"></a>getChildren
 
     array CategoryCore::getChildren(integer $id_parent, integer $id_lang, boolean $active, boolean $id_shop)
 
@@ -768,7 +874,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 841](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#841)
+* This method is defined in [classes/Category.php line 841](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L841)
 
 
 #### Arguments
@@ -779,7 +885,7 @@ Return main categories
 
 
 
-### hasChildren
+### <a name="method-hasChildren"></a>hasChildren
 
     array CategoryCore::hasChildren(integer $id_parent, integer $id_lang, boolean $active, boolean $id_shop)
 
@@ -789,7 +895,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 873](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#873)
+* This method is defined in [classes/Category.php line 873](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L873)
 
 
 #### Arguments
@@ -800,7 +906,7 @@ Return main categories
 
 
 
-### getAllChildren
+### <a name="method-getAllChildren"></a>getAllChildren
 
     \PrestaShopCollection CategoryCore::getAllChildren(integer $id_lang)
 
@@ -809,7 +915,7 @@ Return an array of all children of the current category
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 901](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#901)
+* This method is defined in [classes/Category.php line 901](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L901)
 
 
 #### Arguments
@@ -817,7 +923,7 @@ Return an array of all children of the current category
 
 
 
-### getAllParents
+### <a name="method-getAllParents"></a>getAllParents
 
     \PrestaShopCollection CategoryCore::getAllParents(integer $id_lang)
 
@@ -826,7 +932,7 @@ Return an array of all parents of the current category
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 919](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#919)
+* This method is defined in [classes/Category.php line 919](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L919)
 
 
 #### Arguments
@@ -834,7 +940,7 @@ Return an array of all parents of the current category
 
 
 
-### getChildrenWithNbSelectedSubCat
+### <a name="method-getChildrenWithNbSelectedSubCat"></a>getChildrenWithNbSelectedSubCat
 
     array CategoryCore::getChildrenWithNbSelectedSubCat(integer $id_parent, $selected_cat, integer $id_lang, \Shop $shop, $use_shop_context)
 
@@ -844,7 +950,7 @@ This method allow to return children categories with the number of sub children 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 939](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#939)
+* This method is defined in [classes/Category.php line 939](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L939)
 
 
 #### Arguments
@@ -856,7 +962,7 @@ This method allow to return children categories with the number of sub children 
 
 
 
-### duplicateProductCategories
+### <a name="method-duplicateProductCategories"></a>duplicateProductCategories
 
     boolean CategoryCore::duplicateProductCategories(integer $id_old, boolean $id_new)
 
@@ -866,7 +972,7 @@ Copy products from a category to another
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 983](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#983)
+* This method is defined in [classes/Category.php line 983](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L983)
 
 
 #### Arguments
@@ -875,7 +981,7 @@ Copy products from a category to another
 
 
 
-### checkBeforeMove
+### <a name="method-checkBeforeMove"></a>checkBeforeMove
 
     boolean CategoryCore::checkBeforeMove(integer $id_category, integer $id_parent)
 
@@ -885,7 +991,7 @@ The category cannot be moved in a child category.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1016](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1016)
+* This method is defined in [classes/Category.php line 1016](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1016)
 
 
 #### Arguments
@@ -894,7 +1000,7 @@ The category cannot be moved in a child category.
 
 
 
-### getLinkRewrite
+### <a name="method-getLinkRewrite"></a>getLinkRewrite
 
     mixed CategoryCore::getLinkRewrite($id_category, $id_lang)
 
@@ -904,7 +1010,7 @@ The category cannot be moved in a child category.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1041](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1041)
+* This method is defined in [classes/Category.php line 1041](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1041)
 
 
 #### Arguments
@@ -913,7 +1019,7 @@ The category cannot be moved in a child category.
 
 
 
-### getLink
+### <a name="method-getLink"></a>getLink
 
     mixed CategoryCore::getLink(\Link $link, $id_lang)
 
@@ -922,7 +1028,7 @@ The category cannot be moved in a child category.
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1058](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1058)
+* This method is defined in [classes/Category.php line 1058](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1058)
 
 
 #### Arguments
@@ -931,7 +1037,7 @@ The category cannot be moved in a child category.
 
 
 
-### getName
+### <a name="method-getName"></a>getName
 
     mixed CategoryCore::getName($id_lang)
 
@@ -940,7 +1046,7 @@ The category cannot be moved in a child category.
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1072](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1072)
+* This method is defined in [classes/Category.php line 1072](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1072)
 
 
 #### Arguments
@@ -948,7 +1054,7 @@ The category cannot be moved in a child category.
 
 
 
-### searchByName
+### <a name="method-searchByName"></a>searchByName
 
     array CategoryCore::searchByName(integer $id_lang, string $query, boolean $unrestricted, boolean $skip_cache)
 
@@ -958,7 +1064,7 @@ Light back office search for categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1094](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1094)
+* This method is defined in [classes/Category.php line 1094](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1094)
 
 
 #### Arguments
@@ -969,7 +1075,7 @@ Light back office search for categories
 
 
 
-### searchByNameAndParentCategoryId
+### <a name="method-searchByNameAndParentCategoryId"></a>searchByNameAndParentCategoryId
 
     array CategoryCore::searchByNameAndParentCategoryId(integer $id_lang, string $category_name, integer $id_parent_category)
 
@@ -979,7 +1085,7 @@ Retrieve category by name and parent category id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1128)
+* This method is defined in [classes/Category.php line 1128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1128)
 
 
 #### Arguments
@@ -989,7 +1095,7 @@ Retrieve category by name and parent category id
 
 
 
-### searchByPath
+### <a name="method-searchByPath"></a>searchByPath
 
     array CategoryCore::searchByPath(integer $id_lang, string $path, boolean $object_to_create, $method_to_create)
 
@@ -999,7 +1105,7 @@ Search with Pathes for categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1150)
+* This method is defined in [classes/Category.php line 1150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1150)
 
 
 #### Arguments
@@ -1011,7 +1117,7 @@ Search with Pathes for categories
 
 
 
-### getParentsCategories
+### <a name="method-getParentsCategories"></a>getParentsCategories
 
     array CategoryCore::getParentsCategories(integer $id_lang)
 
@@ -1020,7 +1126,7 @@ Get Each parent category of this category until the root category
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1181)
+* This method is defined in [classes/Category.php line 1181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1181)
 
 
 #### Arguments
@@ -1028,7 +1134,7 @@ Get Each parent category of this category until the root category
 
 
 
-### categoryExists
+### <a name="method-categoryExists"></a>categoryExists
 
     boolean CategoryCore::categoryExists(integer $id_category)
 
@@ -1038,7 +1144,7 @@ Specify if a category already in base
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1237)
+* This method is defined in [classes/Category.php line 1237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1237)
 
 
 #### Arguments
@@ -1046,7 +1152,7 @@ Specify if a category already in base
 
 
 
-### cleanGroups
+### <a name="method-cleanGroups"></a>cleanGroups
 
     mixed CategoryCore::cleanGroups()
 
@@ -1055,12 +1161,12 @@ Specify if a category already in base
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1247)
+* This method is defined in [classes/Category.php line 1247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1247)
 
 
 
 
-### cleanAssoProducts
+### <a name="method-cleanAssoProducts"></a>cleanAssoProducts
 
     mixed CategoryCore::cleanAssoProducts()
 
@@ -1069,12 +1175,12 @@ Specify if a category already in base
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1252)
+* This method is defined in [classes/Category.php line 1252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1252)
 
 
 
 
-### addGroups
+### <a name="method-addGroups"></a>addGroups
 
     mixed CategoryCore::addGroups($groups)
 
@@ -1083,7 +1189,7 @@ Specify if a category already in base
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1257)
+* This method is defined in [classes/Category.php line 1257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1257)
 
 
 #### Arguments
@@ -1091,7 +1197,7 @@ Specify if a category already in base
 
 
 
-### getGroups
+### <a name="method-getGroups"></a>getGroups
 
     mixed CategoryCore::getGroups()
 
@@ -1100,12 +1206,12 @@ Specify if a category already in base
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1266)
+* This method is defined in [classes/Category.php line 1266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1266)
 
 
 
 
-### addGroupsIfNoExist
+### <a name="method-addGroupsIfNoExist"></a>addGroupsIfNoExist
 
     mixed CategoryCore::addGroupsIfNoExist($id_group)
 
@@ -1114,7 +1220,7 @@ Specify if a category already in base
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1284](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1284)
+* This method is defined in [classes/Category.php line 1284](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1284)
 
 
 #### Arguments
@@ -1122,7 +1228,7 @@ Specify if a category already in base
 
 
 
-### checkAccess
+### <a name="method-checkAccess"></a>checkAccess
 
     boolean CategoryCore::checkAccess(mixed $id_customer)
 
@@ -1131,7 +1237,7 @@ checkAccess return true if id_customer is in a group allowed to see this categor
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1300)
+* This method is defined in [classes/Category.php line 1300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1300)
 
 
 #### Arguments
@@ -1139,7 +1245,7 @@ checkAccess return true if id_customer is in a group allowed to see this categor
 
 
 
-### updateGroup
+### <a name="method-updateGroup"></a>updateGroup
 
     mixed CategoryCore::updateGroup(array $list)
 
@@ -1148,7 +1254,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1327)
+* This method is defined in [classes/Category.php line 1327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1327)
 
 
 #### Arguments
@@ -1156,7 +1262,7 @@ Update customer groups associated to the object
 
 
 
-### setNewGroupForHome
+### <a name="method-setNewGroupForHome"></a>setNewGroupForHome
 
     mixed CategoryCore::setNewGroupForHome($id_group)
 
@@ -1166,7 +1272,7 @@ Update customer groups associated to the object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1336)
+* This method is defined in [classes/Category.php line 1336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1336)
 
 
 #### Arguments
@@ -1174,7 +1280,7 @@ Update customer groups associated to the object
 
 
 
-### updatePosition
+### <a name="method-updatePosition"></a>updatePosition
 
     mixed CategoryCore::updatePosition($way, $position)
 
@@ -1183,7 +1289,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1347](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1347)
+* This method is defined in [classes/Category.php line 1347](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1347)
 
 
 #### Arguments
@@ -1192,7 +1298,7 @@ Update customer groups associated to the object
 
 
 
-### cleanPositions
+### <a name="method-cleanPositions"></a>cleanPositions
 
     boolean CategoryCore::cleanPositions(mixed $id_category_parent)
 
@@ -1204,7 +1310,7 @@ are clean at the beginning !
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1396](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1396)
+* This method is defined in [classes/Category.php line 1396](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1396)
 
 
 #### Arguments
@@ -1212,7 +1318,7 @@ are clean at the beginning !
 
 
 
-### getLastPosition
+### <a name="method-getLastPosition"></a>getLastPosition
 
     integer CategoryCore::getLastPosition(integer $id_category_parent, integer $id_shop)
 
@@ -1222,7 +1328,7 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1426)
+* This method is defined in [classes/Category.php line 1426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1426)
 
 
 #### Arguments
@@ -1231,7 +1337,7 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 
 
-### getUrlRewriteInformations
+### <a name="method-getUrlRewriteInformations"></a>getUrlRewriteInformations
 
     mixed CategoryCore::getUrlRewriteInformations($id_category)
 
@@ -1241,7 +1347,7 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1443](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1443)
+* This method is defined in [classes/Category.php line 1443](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1443)
 
 
 #### Arguments
@@ -1249,7 +1355,7 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 
 
-### getInterval
+### <a name="method-getInterval"></a>getInterval
 
     array CategoryCore::getInterval(integer $id)
 
@@ -1259,7 +1365,7 @@ Return nleft and nright fields for a given category
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1461)
+* This method is defined in [classes/Category.php line 1461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1461)
 
 
 #### Arguments
@@ -1267,7 +1373,7 @@ Return nleft and nright fields for a given category
 
 
 
-### inShop
+### <a name="method-inShop"></a>inShop
 
     boolean CategoryCore::inShop(\Shop $shop)
 
@@ -1276,7 +1382,7 @@ Check if current category is a child of shop root category
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1482](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1482)
+* This method is defined in [classes/Category.php line 1482](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1482)
 
 
 #### Arguments
@@ -1284,7 +1390,7 @@ Check if current category is a child of shop root category
 
 
 
-### inShopStatic
+### <a name="method-inShopStatic"></a>inShopStatic
 
     mixed CategoryCore::inShopStatic($id_category, \Shop $shop)
 
@@ -1294,7 +1400,7 @@ Check if current category is a child of shop root category
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1494](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1494)
+* This method is defined in [classes/Category.php line 1494](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1494)
 
 
 #### Arguments
@@ -1303,7 +1409,7 @@ Check if current category is a child of shop root category
 
 
 
-### getChildrenWs
+### <a name="method-getChildrenWs"></a>getChildrenWs
 
     mixed CategoryCore::getChildrenWs()
 
@@ -1312,12 +1418,12 @@ Check if current category is a child of shop root category
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1507](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1507)
+* This method is defined in [classes/Category.php line 1507](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1507)
 
 
 
 
-### getProductsWs
+### <a name="method-getProductsWs"></a>getProductsWs
 
     mixed CategoryCore::getProductsWs()
 
@@ -1326,12 +1432,12 @@ Check if current category is a child of shop root category
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1519](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1519)
+* This method is defined in [classes/Category.php line 1519](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1519)
 
 
 
 
-### getDuplicatePosition
+### <a name="method-getDuplicatePosition"></a>getDuplicatePosition
 
     array CategoryCore::getDuplicatePosition()
 
@@ -1340,12 +1446,12 @@ Search for another category with the same parent and the same position
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1534](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1534)
+* This method is defined in [classes/Category.php line 1534](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1534)
 
 
 
 
-### getWsNbProductsRecursive
+### <a name="method-getWsNbProductsRecursive"></a>getWsNbProductsRecursive
 
     mixed CategoryCore::getWsNbProductsRecursive()
 
@@ -1354,12 +1460,12 @@ Search for another category with the same parent and the same position
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1545](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1545)
+* This method is defined in [classes/Category.php line 1545](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1545)
 
 
 
 
-### getCategoryInformations
+### <a name="method-getCategoryInformations"></a>getCategoryInformations
 
     Array CategoryCore::getCategoryInformations(Array $ids_category, integer $id_lang)
 
@@ -1369,7 +1475,7 @@ Search for another category with the same parent and the same position
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1573](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1573)
+* This method is defined in [classes/Category.php line 1573](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1573)
 
 
 #### Arguments
@@ -1378,7 +1484,7 @@ Search for another category with the same parent and the same position
 
 
 
-### isParentCategoryAvailable
+### <a name="method-isParentCategoryAvailable"></a>isParentCategoryAvailable
 
     boolean CategoryCore::isParentCategoryAvailable($id_shop)
 
@@ -1387,7 +1493,7 @@ Search for another category with the same parent and the same position
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1603)
+* This method is defined in [classes/Category.php line 1603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1603)
 
 
 #### Arguments
@@ -1395,7 +1501,7 @@ Search for another category with the same parent and the same position
 
 
 
-### addShop
+### <a name="method-addShop"></a>addShop
 
     boolean CategoryCore::addShop(integer $id_shop)
 
@@ -1404,7 +1510,7 @@ Add association between shop and categories
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1620](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1620)
+* This method is defined in [classes/Category.php line 1620](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1620)
 
 
 #### Arguments
@@ -1412,7 +1518,7 @@ Add association between shop and categories
 
 
 
-### getRootCategories
+### <a name="method-getRootCategories"></a>getRootCategories
 
     mixed CategoryCore::getRootCategories($id_lang, $active)
 
@@ -1422,7 +1528,7 @@ Add association between shop and categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1642)
+* This method is defined in [classes/Category.php line 1642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1642)
 
 
 #### Arguments
@@ -1431,7 +1537,7 @@ Add association between shop and categories
 
 
 
-### getCategoriesWithoutParent
+### <a name="method-getCategoriesWithoutParent"></a>getCategoriesWithoutParent
 
     mixed CategoryCore::getCategoriesWithoutParent()
 
@@ -1441,12 +1547,12 @@ Add association between shop and categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1656](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1656)
+* This method is defined in [classes/Category.php line 1656](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1656)
 
 
 
 
-### isRootCategoryForAShop
+### <a name="method-isRootCategoryForAShop"></a>isRootCategoryForAShop
 
     mixed CategoryCore::isRootCategoryForAShop()
 
@@ -1455,12 +1561,12 @@ Add association between shop and categories
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1671](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1671)
+* This method is defined in [classes/Category.php line 1671](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1671)
 
 
 
 
-### getTopCategory
+### <a name="method-getTopCategory"></a>getTopCategory
 
     \Category CategoryCore::getTopCategory(null $id_lang)
 
@@ -1470,7 +1576,7 @@ Add association between shop and categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1683](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1683)
+* This method is defined in [classes/Category.php line 1683](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1683)
 
 
 #### Arguments
@@ -1478,7 +1584,7 @@ Add association between shop and categories
 
 
 
-### addPosition
+### <a name="method-addPosition"></a>addPosition
 
     mixed CategoryCore::addPosition($position, $id_shop)
 
@@ -1487,7 +1593,7 @@ Add association between shop and categories
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1701](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1701)
+* This method is defined in [classes/Category.php line 1701](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1701)
 
 
 #### Arguments
@@ -1496,7 +1602,7 @@ Add association between shop and categories
 
 
 
-### getShopsByCategory
+### <a name="method-getShopsByCategory"></a>getShopsByCategory
 
     mixed CategoryCore::getShopsByCategory($id_category)
 
@@ -1506,7 +1612,7 @@ Add association between shop and categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1730](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1730)
+* This method is defined in [classes/Category.php line 1730](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1730)
 
 
 #### Arguments
@@ -1514,7 +1620,7 @@ Add association between shop and categories
 
 
 
-### updateFromShop
+### <a name="method-updateFromShop"></a>updateFromShop
 
     array CategoryCore::updateFromShop(string $categories, string $id_shop)
 
@@ -1524,7 +1630,7 @@ Update categories for a shop
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1745](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1745)
+* This method is defined in [classes/Category.php line 1745](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1745)
 
 
 #### Arguments
@@ -1533,7 +1639,7 @@ Update categories for a shop
 
 
 
-### deleteFromShop
+### <a name="method-deleteFromShop"></a>deleteFromShop
 
     boolean CategoryCore::deleteFromShop(integer $id_shop)
 
@@ -1542,7 +1648,7 @@ Delete category from shop $id_shop
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1765](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1765)
+* This method is defined in [classes/Category.php line 1765](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1765)
 
 
 #### Arguments
@@ -1550,7 +1656,7 @@ Delete category from shop $id_shop
 
 
 
-### deleteCategoriesFromShop
+### <a name="method-deleteCategoriesFromShop"></a>deleteCategoriesFromShop
 
     boolean CategoryCore::deleteCategoriesFromShop($id_shop)
 
@@ -1560,7 +1666,7 @@ Delete every categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1777](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1777)
+* This method is defined in [classes/Category.php line 1777](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1777)
 
 
 #### Arguments
@@ -1568,7 +1674,7 @@ Delete every categories
 
 
 
-### addToShop
+### <a name="method-addToShop"></a>addToShop
 
     boolean CategoryCore::addToShop(array $categories, $id_shop)
 
@@ -1578,7 +1684,7 @@ Add some categories to a shop
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Category.php line 1787](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1787)
+* This method is defined in [classes/Category.php line 1787](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1787)
 
 
 #### Arguments
@@ -1587,7 +1693,7 @@ Add some categories to a shop
 
 
 
-### existsInShop
+### <a name="method-existsInShop"></a>existsInShop
 
     mixed CategoryCore::existsInShop($id_shop)
 
@@ -1596,7 +1702,7 @@ Add some categories to a shop
 
 
 * Visibility: **public**
-* This method is defined in [classes/Category.php line 1811](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1811)
+* This method is defined in [classes/Category.php line 1811](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#L1811)
 
 
 #### Arguments

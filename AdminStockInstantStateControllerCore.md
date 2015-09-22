@@ -17,8 +17,32 @@ AdminStockInstantStateControllerCore
 Properties
 ----------
 
+* [$stock_instant_state_warehouses](#property-$stock_instant_state_warehouses)
+* [$object](#property-$object)
 
-### $stock_instant_state_warehouses
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderList](#method-renderList)
+* [renderDetails](#method-renderDetails)
+* [getList](#method-getList)
+* [valuationCmp](#method-valuationCmp)
+* [realQuantityCmp](#method-realQuantityCmp)
+* [getCurrentCoverageWarehouse](#method-getCurrentCoverageWarehouse)
+* [initToolbar](#method-initToolbar)
+* [renderCSV](#method-renderCSV)
+* [initContent](#method-initContent)
+* [initProcess](#method-initProcess)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$stock_instant_state_warehouses"></a>$stock_instant_state_warehouses
 
     protected mixed $stock_instant_state_warehouses = array()
 
@@ -27,10 +51,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminStockInstantStateController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#33)
+* This property is defined in [controllers/admin/AdminStockInstantStateController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L33)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Stock $object
 
@@ -39,14 +63,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminStockInstantStateController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#31)
+* This property is defined in [controllers/admin/AdminStockInstantStateController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L31)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminStockInstantStateControllerCore::__construct()
 
@@ -55,12 +79,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#35)
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L35)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminStockInstantStateControllerCore::initPageHeaderToolbar()
 
@@ -69,12 +93,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#110)
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L110)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminStockInstantStateControllerCore::renderList()
 
@@ -83,12 +107,12 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#143)
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L143)
 
 
 
 
-### renderDetails
+### <a name="method-renderDetails"></a>renderDetails
 
     mixed AdminStockInstantStateControllerCore::renderDetails()
 
@@ -97,12 +121,12 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#206)
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L206)
 
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminStockInstantStateControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
 
@@ -111,7 +135,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#270)
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L270)
 
 
 #### Arguments
@@ -124,7 +148,7 @@ AdminController::getList() override
 
 
 
-### valuationCmp
+### <a name="method-valuationCmp"></a>valuationCmp
 
     boolean AdminStockInstantStateControllerCore::valuationCmp(array $n, array $m)
 
@@ -133,7 +157,7 @@ CMP
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 382](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#382)
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 382](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L382)
 
 
 #### Arguments
@@ -142,7 +166,7 @@ CMP
 
 
 
-### realQuantityCmp
+### <a name="method-realQuantityCmp"></a>realQuantityCmp
 
     boolean AdminStockInstantStateControllerCore::realQuantityCmp(array $n, array $m)
 
@@ -151,7 +175,7 @@ CMP
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 399](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#399)
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 399](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L399)
 
 
 #### Arguments
@@ -160,7 +184,7 @@ CMP
 
 
 
-### getCurrentCoverageWarehouse
+### <a name="method-getCurrentCoverageWarehouse"></a>getCurrentCoverageWarehouse
 
     integer AdminStockInstantStateControllerCore::getCurrentCoverageWarehouse()
 
@@ -169,12 +193,12 @@ Gets the current warehouse used
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 413](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#413)
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 413](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L413)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminStockInstantStateControllerCore::initToolbar()
 
@@ -183,12 +207,12 @@ Gets the current warehouse used
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#429)
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L429)
 
 
 
 
-### renderCSV
+### <a name="method-renderCSV"></a>renderCSV
 
     mixed AdminStockInstantStateControllerCore::renderCSV()
 
@@ -197,12 +221,12 @@ Exports CSV
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#453)
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L453)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminStockInstantStateControllerCore::initContent()
 
@@ -211,12 +235,12 @@ Exports CSV
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 529](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#529)
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 529](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L529)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminStockInstantStateControllerCore::initProcess()
 
@@ -225,7 +249,7 @@ Exports CSV
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 538](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#538)
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 538](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L538)
 
 
 

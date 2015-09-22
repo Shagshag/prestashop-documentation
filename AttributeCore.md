@@ -17,8 +17,40 @@ AttributeCore
 Properties
 ----------
 
+* [$id_attribute_group](#property-$id_attribute_group)
+* [$name](#property-$name)
+* [$color](#property-$color)
+* [$position](#property-$position)
+* [$default](#property-$default)
+* [$definition](#property-$definition)
+* [$image_dir](#property-$image_dir)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_attribute_group
+Methods
+-------
+* [__construct](#method-__construct)
+* [delete](#method-delete)
+* [update](#method-update)
+* [add](#method-add)
+* [getAttributes](#method-getAttributes)
+* [isAttribute](#method-isAttribute)
+* [checkAttributeQty](#method-checkAttributeQty)
+* [getAttributeQty](#method-getAttributeQty)
+* [updateQtyProduct](#method-updateQtyProduct)
+* [isColorAttribute](#method-isColorAttribute)
+* [getAttributeMinimalQty](#method-getAttributeMinimalQty)
+* [updatePosition](#method-updatePosition)
+* [cleanPositions](#method-cleanPositions)
+* [getHigherPosition](#method-getHigherPosition)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_attribute_group"></a>$id_attribute_group
 
     public integer $id_attribute_group
 
@@ -27,10 +59,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Attribute.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#30)
+* This property is defined in [classes/Attribute.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L30)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -39,10 +71,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Attribute.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#33)
+* This property is defined in [classes/Attribute.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L33)
 
 
-### $color
+### <a name="property-$color"></a>$color
 
     public mixed $color
 
@@ -51,10 +83,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Attribute.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#34)
+* This property is defined in [classes/Attribute.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L34)
 
 
-### $position
+### <a name="property-$position"></a>$position
 
     public mixed $position
 
@@ -63,10 +95,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Attribute.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#35)
+* This property is defined in [classes/Attribute.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L35)
 
 
-### $default
+### <a name="property-$default"></a>$default
 
     public mixed $default
 
@@ -75,10 +107,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Attribute.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#36)
+* This property is defined in [classes/Attribute.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L36)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'attribute', 'primary' => 'id_attribute', 'multilang' => true, 'fields' => array('id_attribute_group' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor'), 'position' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128)))
 
@@ -88,10 +120,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Attribute.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#41)
+* This property is defined in [classes/Attribute.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L41)
 
 
-### $image_dir
+### <a name="property-$image_dir"></a>$image_dir
 
     protected mixed $image_dir = _PS_COL_IMG_DIR_
 
@@ -100,10 +132,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Attribute.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#56)
+* This property is defined in [classes/Attribute.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L56)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectsNodeName' => 'product_option_values', 'objectNodeName' => 'product_option_value', 'fields' => array('id_attribute_group' => array('xlink_resource' => 'product_options')))
 
@@ -112,14 +144,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Attribute.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#58)
+* This property is defined in [classes/Attribute.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L58)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AttributeCore::__construct($id, $id_lang, $id_shop)
 
@@ -128,7 +160,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Attribute.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#66)
+* This method is defined in [classes/Attribute.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L66)
 
 
 #### Arguments
@@ -138,7 +170,7 @@ Methods
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed AttributeCore::delete()
 
@@ -147,12 +179,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Attribute.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#73)
+* This method is defined in [classes/Attribute.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L73)
 
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed AttributeCore::update($null_values)
 
@@ -161,7 +193,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Attribute.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#114)
+* This method is defined in [classes/Attribute.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L114)
 
 
 #### Arguments
@@ -169,7 +201,7 @@ Methods
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed AttributeCore::add($autodate, $null_values)
 
@@ -178,7 +210,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Attribute.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#125)
+* This method is defined in [classes/Attribute.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L125)
 
 
 #### Arguments
@@ -187,7 +219,7 @@ Methods
 
 
 
-### getAttributes
+### <a name="method-getAttributes"></a>getAttributes
 
     array AttributeCore::getAttributes(integer $id_lang, $not_null)
 
@@ -197,7 +229,7 @@ Get all attributes for a given language
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Attribute.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#147)
+* This method is defined in [classes/Attribute.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L147)
 
 
 #### Arguments
@@ -206,7 +238,7 @@ Get all attributes for a given language
 
 
 
-### isAttribute
+### <a name="method-isAttribute"></a>isAttribute
 
     mixed AttributeCore::isAttribute($id_attribute_group, $name, $id_lang)
 
@@ -216,7 +248,7 @@ Get all attributes for a given language
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Attribute.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#169)
+* This method is defined in [classes/Attribute.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L169)
 
 
 #### Arguments
@@ -226,7 +258,7 @@ Get all attributes for a given language
 
 
 
-### checkAttributeQty
+### <a name="method-checkAttributeQty"></a>checkAttributeQty
 
     boolean AttributeCore::checkAttributeQty(integer $id_product_attribute, integer $qty, \Shop $shop)
 
@@ -237,7 +269,7 @@ Check if quantity is enough to deserve customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Attribute.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#201)
+* This method is defined in [classes/Attribute.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L201)
 
 
 #### Arguments
@@ -247,7 +279,7 @@ Check if quantity is enough to deserve customer
 
 
 
-### getAttributeQty
+### <a name="method-getAttributeQty"></a>getAttributeQty
 
     mixed AttributeCore::getAttributeQty($id_product)
 
@@ -257,7 +289,7 @@ Check if quantity is enough to deserve customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Attribute.php line 215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#215)
+* This method is defined in [classes/Attribute.php line 215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L215)
 
 
 #### Arguments
@@ -265,7 +297,7 @@ Check if quantity is enough to deserve customer
 
 
 
-### updateQtyProduct
+### <a name="method-updateQtyProduct"></a>updateQtyProduct
 
     boolean AttributeCore::updateQtyProduct($arr)
 
@@ -275,7 +307,7 @@ Update array with veritable quantity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Attribute.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#229)
+* This method is defined in [classes/Attribute.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L229)
 
 
 #### Arguments
@@ -283,7 +315,7 @@ Update array with veritable quantity
 
 
 
-### isColorAttribute
+### <a name="method-isColorAttribute"></a>isColorAttribute
 
     boolean AttributeCore::isColorAttribute()
 
@@ -292,12 +324,12 @@ Return true if attribute is color type
 
 
 * Visibility: **public**
-* This method is defined in [classes/Attribute.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#250)
+* This method is defined in [classes/Attribute.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L250)
 
 
 
 
-### getAttributeMinimalQty
+### <a name="method-getAttributeMinimalQty"></a>getAttributeMinimalQty
 
     mixed AttributeCore::getAttributeMinimalQty(integer $id_product_attribute)
 
@@ -307,7 +339,7 @@ Get minimal quantity for product with attributes quantity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Attribute.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#273)
+* This method is defined in [classes/Attribute.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L273)
 
 
 #### Arguments
@@ -315,7 +347,7 @@ Get minimal quantity for product with attributes quantity
 
 
 
-### updatePosition
+### <a name="method-updatePosition"></a>updatePosition
 
     boolean AttributeCore::updatePosition(boolean $way, integer $position)
 
@@ -324,7 +356,7 @@ Move an attribute inside its group
 
 
 * Visibility: **public**
-* This method is defined in [classes/Attribute.php line 295](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#295)
+* This method is defined in [classes/Attribute.php line 295](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L295)
 
 
 #### Arguments
@@ -333,7 +365,7 @@ Move an attribute inside its group
 
 
 
-### cleanPositions
+### <a name="method-cleanPositions"></a>cleanPositions
 
     boolean AttributeCore::cleanPositions(integer $id_attribute_group, boolean $use_last_attribute)
 
@@ -342,7 +374,7 @@ Reorder attribute position in group $id_attribute_group.
 Call it after deleting an attribute from a group.
 
 * Visibility: **public**
-* This method is defined in [classes/Attribute.php line 352](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#352)
+* This method is defined in [classes/Attribute.php line 352](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L352)
 
 
 #### Arguments
@@ -351,7 +383,7 @@ Call it after deleting an attribute from a group.
 
 
 
-### getHigherPosition
+### <a name="method-getHigherPosition"></a>getHigherPosition
 
     integer AttributeCore::getHigherPosition(integer $id_attribute_group)
 
@@ -361,7 +393,7 @@ Get the higher attribute position from a group attribute
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Attribute.php line 374](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#374)
+* This method is defined in [classes/Attribute.php line 374](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L374)
 
 
 #### Arguments

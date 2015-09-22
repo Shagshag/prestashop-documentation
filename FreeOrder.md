@@ -17,8 +17,19 @@ Class FreeOrder to use PaymentModule (abstract class, cannot be instancied)
 Properties
 ----------
 
+* [$active](#property-$active)
+* [$name](#property-$name)
+* [$displayName](#property-$displayName)
 
-### $active
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$active"></a>$active
 
     public mixed $active = 1
 
@@ -27,10 +38,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/ParentOrderController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#32)
+* This property is defined in [controllers/front/ParentOrderController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L32)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public mixed $name = 'free_order'
 
@@ -39,10 +50,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/ParentOrderController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#33)
+* This property is defined in [controllers/front/ParentOrderController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L33)
 
 
-### $displayName
+### <a name="property-$displayName"></a>$displayName
 
     public mixed $displayName = 'free_order'
 
@@ -51,7 +62,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/ParentOrderController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#34)
+* This property is defined in [controllers/front/ParentOrderController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L34)
 
 
 

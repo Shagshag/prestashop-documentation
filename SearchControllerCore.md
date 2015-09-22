@@ -17,8 +17,26 @@ SearchControllerCore
 Properties
 ----------
 
+* [$php_self](#property-$php_self)
+* [$instant_search](#property-$instant_search)
+* [$ajax_search](#property-$ajax_search)
 
-### $php_self
+Methods
+-------
+* [init](#method-init)
+* [initContent](#method-initContent)
+* [displayHeader](#method-displayHeader)
+* [displayFooter](#method-displayFooter)
+* [setMedia](#method-setMedia)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'search'
 
@@ -27,10 +45,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/SearchController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#29)
+* This property is defined in [controllers/front/SearchController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L29)
 
 
-### $instant_search
+### <a name="property-$instant_search"></a>$instant_search
 
     public mixed $instant_search
 
@@ -39,10 +57,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/SearchController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#30)
+* This property is defined in [controllers/front/SearchController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L30)
 
 
-### $ajax_search
+### <a name="property-$ajax_search"></a>$ajax_search
 
     public mixed $ajax_search
 
@@ -51,14 +69,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/SearchController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#31)
+* This property is defined in [controllers/front/SearchController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L31)
 
 
 Methods
 -------
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed SearchControllerCore::init()
 
@@ -67,12 +85,12 @@ Initialize search controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/SearchController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#37)
+* This method is defined in [controllers/front/SearchController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L37)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed SearchControllerCore::initContent()
 
@@ -81,12 +99,12 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/SearchController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#55)
+* This method is defined in [controllers/front/SearchController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L55)
 
 
 
 
-### displayHeader
+### <a name="method-displayHeader"></a>displayHeader
 
     mixed SearchControllerCore::displayHeader($display)
 
@@ -95,7 +113,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/SearchController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#144)
+* This method is defined in [controllers/front/SearchController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L144)
 
 
 #### Arguments
@@ -103,7 +121,7 @@ Assign template vars related to page content
 
 
 
-### displayFooter
+### <a name="method-displayFooter"></a>displayFooter
 
     mixed SearchControllerCore::displayFooter($display)
 
@@ -112,7 +130,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/SearchController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#153)
+* This method is defined in [controllers/front/SearchController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L153)
 
 
 #### Arguments
@@ -120,7 +138,7 @@ Assign template vars related to page content
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed SearchControllerCore::setMedia()
 
@@ -129,7 +147,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/SearchController.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#160)
+* This method is defined in [controllers/front/SearchController.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#L160)
 
 
 

@@ -31,9 +31,18 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [clean](#method-clean)
 
 
-### clean
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-clean"></a>clean
 
     mixed Adapter_CacheManager::clean($key)
 
@@ -42,7 +51,7 @@ Cleans the cache for specific cache key.
 
 
 * Visibility: **public**
-* This method is defined in [Adapter/Adapter_CacheManager.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_CacheManager.php#34)
+* This method is defined in [Adapter/Adapter_CacheManager.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_CacheManager.php#L34)
 
 
 #### Arguments

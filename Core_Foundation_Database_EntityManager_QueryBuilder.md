@@ -30,8 +30,22 @@ needs please refer to http://www.prestashop.com for more information.
 Properties
 ----------
 
+* [$db](#property-$db)
 
-### $db
+Methods
+-------
+* [__construct](#method-__construct)
+* [quote](#method-quote)
+* [buildWhereConditions](#method-buildWhereConditions)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$db"></a>$db
 
     private mixed $db
 
@@ -40,14 +54,14 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#29)
+* This property is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#L29)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed Core_Foundation_Database_EntityManager_QueryBuilder::__construct(\Core_Foundation_Database_DatabaseInterface $db)
 
@@ -56,7 +70,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#31)
+* This method is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#L31)
 
 
 #### Arguments
@@ -64,7 +78,7 @@ Methods
 
 
 
-### quote
+### <a name="method-quote"></a>quote
 
     mixed Core_Foundation_Database_EntityManager_QueryBuilder::quote($value)
 
@@ -73,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#36)
+* This method is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#L36)
 
 
 #### Arguments
@@ -81,7 +95,7 @@ Methods
 
 
 
-### buildWhereConditions
+### <a name="method-buildWhereConditions"></a>buildWhereConditions
 
     mixed Core_Foundation_Database_EntityManager_QueryBuilder::buildWhereConditions($andOrOr, array $conditions)
 
@@ -90,7 +104,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#47)
+* This method is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#L47)
 
 
 #### Arguments

@@ -17,8 +17,23 @@ AdminLogsControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [processDelete](#method-processDelete)
+* [initToolbar](#method-initToolbar)
+* [displayEmployee](#method-displayEmployee)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \PrestaShopLogger $object
 
@@ -27,14 +42,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminLogsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLogsController.php#30)
+* This property is defined in [controllers/admin/AdminLogsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLogsController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminLogsControllerCore::__construct()
 
@@ -43,12 +58,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLogsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLogsController.php#32)
+* This method is defined in [controllers/admin/AdminLogsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLogsController.php#L32)
 
 
 
 
-### processDelete
+### <a name="method-processDelete"></a>processDelete
 
     mixed AdminLogsControllerCore::processDelete()
 
@@ -57,12 +72,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLogsController.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLogsController.php#104)
+* This method is defined in [controllers/admin/AdminLogsController.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLogsController.php#L104)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminLogsControllerCore::initToolbar()
 
@@ -71,12 +86,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLogsController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLogsController.php#111)
+* This method is defined in [controllers/admin/AdminLogsController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLogsController.php#L111)
 
 
 
 
-### displayEmployee
+### <a name="method-displayEmployee"></a>displayEmployee
 
     mixed AdminLogsControllerCore::displayEmployee($value, $tr)
 
@@ -85,7 +100,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLogsController.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLogsController.php#122)
+* This method is defined in [controllers/admin/AdminLogsController.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLogsController.php#L122)
 
 
 #### Arguments

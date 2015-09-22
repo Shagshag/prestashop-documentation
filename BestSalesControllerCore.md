@@ -17,8 +17,21 @@ BestSalesControllerCore
 Properties
 ----------
 
+* [$php_self](#property-$php_self)
 
-### $php_self
+Methods
+-------
+* [initContent](#method-initContent)
+* [setMedia](#method-setMedia)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'best-sales'
 
@@ -27,14 +40,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/BestSalesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/BestSalesController.php#29)
+* This property is defined in [controllers/front/BestSalesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/BestSalesController.php#L29)
 
 
 Methods
 -------
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed BestSalesControllerCore::initContent()
 
@@ -43,12 +56,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/BestSalesController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/BestSalesController.php#31)
+* This method is defined in [controllers/front/BestSalesController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/BestSalesController.php#L31)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed BestSalesControllerCore::setMedia()
 
@@ -57,7 +70,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/BestSalesController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/BestSalesController.php#61)
+* This method is defined in [controllers/front/BestSalesController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/BestSalesController.php#L61)
 
 
 

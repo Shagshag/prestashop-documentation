@@ -17,8 +17,28 @@ AdminStockMvtControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderList](#method-renderList)
+* [getCurrentWarehouseId](#method-getCurrentWarehouseId)
+* [getList](#method-getList)
+* [initToolbar](#method-initToolbar)
+* [renderCSV](#method-renderCSV)
+* [initContent](#method-initContent)
+* [initProcess](#method-initProcess)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \StockMvt $object
 
@@ -27,14 +47,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminStockMvtController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#31)
+* This property is defined in [controllers/admin/AdminStockMvtController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#L31)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminStockMvtControllerCore::__construct()
 
@@ -43,12 +63,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockMvtController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#33)
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#L33)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminStockMvtControllerCore::initPageHeaderToolbar()
 
@@ -57,12 +77,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockMvtController.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#114)
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#L114)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminStockMvtControllerCore::renderList()
 
@@ -71,12 +91,12 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockMvtController.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#134)
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#L134)
 
 
 
 
-### getCurrentWarehouseId
+### <a name="method-getCurrentWarehouseId"></a>getCurrentWarehouseId
 
     integer AdminStockMvtControllerCore::getCurrentWarehouseId()
 
@@ -85,12 +105,12 @@ Gets the current warehouse for this controller
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStockMvtController.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#209)
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#L209)
 
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminStockMvtControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
 
@@ -99,7 +119,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockMvtController.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#236)
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#L236)
 
 
 #### Arguments
@@ -112,7 +132,7 @@ AdminController::getList() override
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminStockMvtControllerCore::initToolbar()
 
@@ -121,12 +141,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockMvtController.php line 263](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#263)
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 263](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#L263)
 
 
 
 
-### renderCSV
+### <a name="method-renderCSV"></a>renderCSV
 
     mixed AdminStockMvtControllerCore::renderCSV()
 
@@ -135,12 +155,12 @@ Exports CSV
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockMvtController.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#281)
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#L281)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminStockMvtControllerCore::initContent()
 
@@ -149,12 +169,12 @@ Exports CSV
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockMvtController.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#316)
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#L316)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminStockMvtControllerCore::initProcess()
 
@@ -163,7 +183,7 @@ Exports CSV
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockMvtController.php line 325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#325)
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#L325)
 
 
 

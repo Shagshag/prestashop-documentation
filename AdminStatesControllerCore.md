@@ -17,8 +17,24 @@ AdminStatesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderForm](#method-renderForm)
+* [postProcess](#method-postProcess)
+* [displayAjaxStates](#method-displayAjaxStates)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \State $object
 
@@ -27,14 +43,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminStatesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#30)
+* This property is defined in [controllers/admin/AdminStatesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminStatesControllerCore::__construct()
 
@@ -43,12 +59,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#32)
+* This method is defined in [controllers/admin/AdminStatesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#L32)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminStatesControllerCore::initPageHeaderToolbar()
 
@@ -57,12 +73,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatesController.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#115)
+* This method is defined in [controllers/admin/AdminStatesController.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#L115)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminStatesControllerCore::renderForm()
 
@@ -71,12 +87,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatesController.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#128)
+* This method is defined in [controllers/admin/AdminStatesController.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#L128)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminStatesControllerCore::postProcess()
 
@@ -85,12 +101,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatesController.php line 208](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#208)
+* This method is defined in [controllers/admin/AdminStatesController.php line 208](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#L208)
 
 
 
 
-### displayAjaxStates
+### <a name="method-displayAjaxStates"></a>displayAjaxStates
 
     mixed AdminStatesControllerCore::displayAjaxStates()
 
@@ -99,7 +115,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatesController.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#252)
+* This method is defined in [controllers/admin/AdminStatesController.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#L252)
 
 
 

@@ -31,9 +31,23 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [normalizePath](#method-normalizePath)
+* [joinTwoPaths](#method-joinTwoPaths)
+* [joinPaths](#method-joinPaths)
+* [listEntriesRecursively](#method-listEntriesRecursively)
+* [matchOnlyFiles](#method-matchOnlyFiles)
+* [listFilesRecursively](#method-listFilesRecursively)
 
 
-### normalizePath
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-normalizePath"></a>normalizePath
 
     mixed Core_Foundation_FileSystem_FileSystem::normalizePath($path)
 
@@ -43,7 +57,7 @@ and trims the trailing separator.
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#33)
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#L33)
 
 
 #### Arguments
@@ -51,7 +65,7 @@ and trims the trailing separator.
 
 
 
-### joinTwoPaths
+### <a name="method-joinTwoPaths"></a>joinTwoPaths
 
     mixed Core_Foundation_FileSystem_FileSystem::joinTwoPaths($a, $b)
 
@@ -60,7 +74,7 @@ and trims the trailing separator.
 
 
 * Visibility: **private**
-* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#41)
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#L41)
 
 
 #### Arguments
@@ -69,7 +83,7 @@ and trims the trailing separator.
 
 
 
-### joinPaths
+### <a name="method-joinPaths"></a>joinPaths
 
     mixed Core_Foundation_FileSystem_FileSystem::joinPaths()
 
@@ -78,12 +92,12 @@ Joins an arbitrary number of paths, normalizing them along the way.
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#49)
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#L49)
 
 
 
 
-### listEntriesRecursively
+### <a name="method-listEntriesRecursively"></a>listEntriesRecursively
 
     \an Core_Foundation_FileSystem_FileSystem::listEntriesRecursively($path)
 
@@ -94,7 +108,7 @@ If $path is a file and not a directory, just gets the file info for it
 and return it in an array.
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#80)
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#L80)
 
 
 #### Arguments
@@ -102,7 +116,7 @@ and return it in an array.
 
 
 
-### matchOnlyFiles
+### <a name="method-matchOnlyFiles"></a>matchOnlyFiles
 
     mixed Core_Foundation_FileSystem_FileSystem::matchOnlyFiles(\SplFileInfo $info)
 
@@ -111,7 +125,7 @@ Filter used by listFilesRecursively.
 
 
 * Visibility: **private**
-* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#126)
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#L126)
 
 
 #### Arguments
@@ -119,7 +133,7 @@ Filter used by listFilesRecursively.
 
 
 
-### listFilesRecursively
+### <a name="method-listFilesRecursively"></a>listFilesRecursively
 
     mixed Core_Foundation_FileSystem_FileSystem::listFilesRecursively($path)
 
@@ -128,7 +142,7 @@ Same as listEntriesRecursively but returns only files.
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#134)
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#L134)
 
 
 #### Arguments

@@ -17,8 +17,21 @@ BoOrder
 Properties
 ----------
 
+* [$active](#property-$active)
+* [$name](#property-$name)
 
-### $active
+Methods
+-------
+* [__construct](#method-__construct)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$active"></a>$active
 
     public mixed $active = 1
 
@@ -27,10 +40,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminOrdersController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#29)
+* This property is defined in [controllers/admin/AdminOrdersController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L29)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public mixed $name = 'bo_order'
 
@@ -39,14 +52,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminOrdersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#30)
+* This property is defined in [controllers/admin/AdminOrdersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed BoOrder::__construct()
 
@@ -55,7 +68,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminOrdersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#32)
+* This method is defined in [controllers/admin/AdminOrdersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L32)
 
 
 

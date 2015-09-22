@@ -17,8 +17,24 @@ TranslatedConfigurationCore
 Properties
 ----------
 
+* [$webserviceParameters](#property-$webserviceParameters)
+* [$definition](#property-$definition)
 
-### $webserviceParameters
+Methods
+-------
+* [__construct](#method-__construct)
+* [add](#method-add)
+* [update](#method-update)
+* [getWebserviceObjectList](#method-getWebserviceObjectList)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectNodeName' => 'translated_configuration', 'objectsNodeName' => 'translated_configurations', 'fields' => array('value' => array(), 'date_add' => array(), 'date_upd' => array()))
 
@@ -27,10 +43,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/TranslatedConfiguration.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#29)
+* This property is defined in [classes/TranslatedConfiguration.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L29)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'configuration', 'primary' => 'id_configuration', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isConfigName', 'required' => true, 'size' => 32), 'id_shop_group' => array('type' => self::TYPE_NOTHING, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_NOTHING, 'validate' => 'isUnsignedId'), 'value' => array('type' => self::TYPE_STRING, 'lang' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
 
@@ -40,14 +56,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/TranslatedConfiguration.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#39)
+* This property is defined in [classes/TranslatedConfiguration.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L39)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed TranslatedConfigurationCore::__construct($id, $id_lang)
 
@@ -56,7 +72,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/TranslatedConfiguration.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#53)
+* This method is defined in [classes/TranslatedConfiguration.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L53)
 
 
 #### Arguments
@@ -65,7 +81,7 @@ Methods
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed TranslatedConfigurationCore::add($autodate, $nullValues)
 
@@ -74,7 +90,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/TranslatedConfiguration.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#71)
+* This method is defined in [classes/TranslatedConfiguration.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L71)
 
 
 #### Arguments
@@ -83,7 +99,7 @@ Methods
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed TranslatedConfigurationCore::update($nullValues)
 
@@ -92,7 +108,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/TranslatedConfiguration.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#76)
+* This method is defined in [classes/TranslatedConfiguration.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L76)
 
 
 #### Arguments
@@ -100,7 +116,7 @@ Methods
 
 
 
-### getWebserviceObjectList
+### <a name="method-getWebserviceObjectList"></a>getWebserviceObjectList
 
     mixed TranslatedConfigurationCore::getWebserviceObjectList($sql_join, $sql_filter, $sql_sort, $sql_limit)
 
@@ -109,7 +125,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/TranslatedConfiguration.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#98)
+* This method is defined in [classes/TranslatedConfiguration.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L98)
 
 
 #### Arguments

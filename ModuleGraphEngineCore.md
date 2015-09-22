@@ -18,8 +18,27 @@ ModuleGraphEngineCore
 Properties
 ----------
 
+* [$_type](#property-$_type)
 
-### $_type
+Methods
+-------
+* [__construct](#method-__construct)
+* [install](#method-install)
+* [getGraphEngines](#method-getGraphEngines)
+* [createValues](#method-createValues)
+* [setSize](#method-setSize)
+* [setLegend](#method-setLegend)
+* [setTitles](#method-setTitles)
+* [draw](#method-draw)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$_type"></a>$_type
 
     protected mixed $_type
 
@@ -28,14 +47,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/ModuleGraphEngine.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#29)
+* This property is defined in [classes/module/ModuleGraphEngine.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#L29)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed ModuleGraphEngineCore::__construct($type)
 
@@ -44,7 +63,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ModuleGraphEngine.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#31)
+* This method is defined in [classes/module/ModuleGraphEngine.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#L31)
 
 
 #### Arguments
@@ -52,7 +71,7 @@ Methods
 
 
 
-### install
+### <a name="method-install"></a>install
 
     mixed ModuleGraphEngineCore::install()
 
@@ -61,12 +80,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ModuleGraphEngine.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#36)
+* This method is defined in [classes/module/ModuleGraphEngine.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#L36)
 
 
 
 
-### getGraphEngines
+### <a name="method-getGraphEngines"></a>getGraphEngines
 
     mixed ModuleGraphEngineCore::getGraphEngines()
 
@@ -76,12 +95,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/ModuleGraphEngine.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#44)
+* This method is defined in [classes/module/ModuleGraphEngine.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#L44)
 
 
 
 
-### createValues
+### <a name="method-createValues"></a>createValues
 
     mixed ModuleGraphEngineCore::createValues($values)
 
@@ -91,7 +110,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in [classes/module/ModuleGraphEngine.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#66)
+* This method is defined in [classes/module/ModuleGraphEngine.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#L66)
 
 
 #### Arguments
@@ -99,7 +118,7 @@ Methods
 
 
 
-### setSize
+### <a name="method-setSize"></a>setSize
 
     mixed ModuleGraphEngineCore::setSize($width, $height)
 
@@ -109,7 +128,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in [classes/module/ModuleGraphEngine.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#67)
+* This method is defined in [classes/module/ModuleGraphEngine.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#L67)
 
 
 #### Arguments
@@ -118,7 +137,7 @@ Methods
 
 
 
-### setLegend
+### <a name="method-setLegend"></a>setLegend
 
     mixed ModuleGraphEngineCore::setLegend($legend)
 
@@ -128,7 +147,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in [classes/module/ModuleGraphEngine.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#68)
+* This method is defined in [classes/module/ModuleGraphEngine.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#L68)
 
 
 #### Arguments
@@ -136,7 +155,7 @@ Methods
 
 
 
-### setTitles
+### <a name="method-setTitles"></a>setTitles
 
     mixed ModuleGraphEngineCore::setTitles($titles)
 
@@ -146,7 +165,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in [classes/module/ModuleGraphEngine.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#69)
+* This method is defined in [classes/module/ModuleGraphEngine.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#L69)
 
 
 #### Arguments
@@ -154,7 +173,7 @@ Methods
 
 
 
-### draw
+### <a name="method-draw"></a>draw
 
     mixed ModuleGraphEngineCore::draw()
 
@@ -164,7 +183,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in [classes/module/ModuleGraphEngine.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#70)
+* This method is defined in [classes/module/ModuleGraphEngine.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraphEngine.php#L70)
 
 
 

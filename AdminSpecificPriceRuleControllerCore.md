@@ -17,8 +17,26 @@ AdminSpecificPriceRuleControllerCore
 Properties
 ----------
 
+* [$list_reduction_type](#property-$list_reduction_type)
+* [$object](#property-$object)
 
-### $list_reduction_type
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [getList](#method-getList)
+* [renderForm](#method-renderForm)
+* [processSave](#method-processSave)
+* [postProcess](#method-postProcess)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$list_reduction_type"></a>$list_reduction_type
 
     public mixed $list_reduction_type
 
@@ -27,10 +45,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#32)
+* This property is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#L32)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \SpecificPriceRule $object
 
@@ -39,14 +57,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#30)
+* This property is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminSpecificPriceRuleControllerCore::__construct()
 
@@ -55,12 +73,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#34)
+* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#L34)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminSpecificPriceRuleControllerCore::initPageHeaderToolbar()
 
@@ -69,12 +87,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#136)
+* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#L136)
 
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminSpecificPriceRuleControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
 
@@ -83,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#149)
+* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#L149)
 
 
 #### Arguments
@@ -96,7 +114,7 @@ Methods
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminSpecificPriceRuleControllerCore::renderForm()
 
@@ -105,12 +123,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#162)
+* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#L162)
 
 
 
 
-### processSave
+### <a name="method-processSave"></a>processSave
 
     mixed AdminSpecificPriceRuleControllerCore::processSave()
 
@@ -119,12 +137,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#345)
+* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#L345)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminSpecificPriceRuleControllerCore::postProcess()
 
@@ -133,7 +151,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#366)
+* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#L366)
 
 
 

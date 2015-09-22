@@ -17,8 +17,36 @@ OrderReturnCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$id_customer](#property-$id_customer)
+* [$id_order](#property-$id_order)
+* [$state](#property-$state)
+* [$question](#property-$question)
+* [$date_add](#property-$date_add)
+* [$date_upd](#property-$date_upd)
+* [$definition](#property-$definition)
 
-### $id
+Methods
+-------
+* [addReturnDetail](#method-addReturnDetail)
+* [checkEnoughProduct](#method-checkEnoughProduct)
+* [countProduct](#method-countProduct)
+* [getOrdersReturn](#method-getOrdersReturn)
+* [getOrdersReturnDetail](#method-getOrdersReturnDetail)
+* [getOrdersReturnProducts](#method-getOrdersReturnProducts)
+* [getReturnedCustomizedProducts](#method-getReturnedCustomizedProducts)
+* [deleteOrderReturnDetail](#method-deleteOrderReturnDetail)
+* [getProductReturnDetail](#method-getProductReturnDetail)
+* [addReturnedQuantity](#method-addReturnedQuantity)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public integer $id
 
@@ -27,10 +55,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderReturn.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#30)
+* This property is defined in [classes/order/OrderReturn.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L30)
 
 
-### $id_customer
+### <a name="property-$id_customer"></a>$id_customer
 
     public integer $id_customer
 
@@ -39,10 +67,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderReturn.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#33)
+* This property is defined in [classes/order/OrderReturn.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L33)
 
 
-### $id_order
+### <a name="property-$id_order"></a>$id_order
 
     public integer $id_order
 
@@ -51,10 +79,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderReturn.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#36)
+* This property is defined in [classes/order/OrderReturn.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L36)
 
 
-### $state
+### <a name="property-$state"></a>$state
 
     public integer $state
 
@@ -63,10 +91,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderReturn.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#39)
+* This property is defined in [classes/order/OrderReturn.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L39)
 
 
-### $question
+### <a name="property-$question"></a>$question
 
     public string $question
 
@@ -75,10 +103,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderReturn.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#42)
+* This property is defined in [classes/order/OrderReturn.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L42)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -87,10 +115,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderReturn.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#45)
+* This property is defined in [classes/order/OrderReturn.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L45)
 
 
-### $date_upd
+### <a name="property-$date_upd"></a>$date_upd
 
     public string $date_upd
 
@@ -99,10 +127,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderReturn.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#48)
+* This property is defined in [classes/order/OrderReturn.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L48)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'order_return', 'primary' => 'id_order_return', 'fields' => array('id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'question' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml'), 'state' => array('type' => self::TYPE_STRING), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
 
@@ -112,14 +140,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/order/OrderReturn.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#53)
+* This property is defined in [classes/order/OrderReturn.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L53)
 
 
 Methods
 -------
 
 
-### addReturnDetail
+### <a name="method-addReturnDetail"></a>addReturnDetail
 
     mixed OrderReturnCore::addReturnDetail($order_detail_list, $product_qty_list, $customization_ids, $customization_qty_input)
 
@@ -128,7 +156,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/order/OrderReturn.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#66)
+* This method is defined in [classes/order/OrderReturn.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L66)
 
 
 #### Arguments
@@ -139,7 +167,7 @@ Methods
 
 
 
-### checkEnoughProduct
+### <a name="method-checkEnoughProduct"></a>checkEnoughProduct
 
     mixed OrderReturnCore::checkEnoughProduct($order_detail_list, $product_qty_list, $customization_ids, $customization_qty_input)
 
@@ -148,7 +176,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/order/OrderReturn.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#88)
+* This method is defined in [classes/order/OrderReturn.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L88)
 
 
 #### Arguments
@@ -159,7 +187,7 @@ Methods
 
 
 
-### countProduct
+### <a name="method-countProduct"></a>countProduct
 
     mixed OrderReturnCore::countProduct()
 
@@ -168,12 +196,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/order/OrderReturn.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#132)
+* This method is defined in [classes/order/OrderReturn.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L132)
 
 
 
 
-### getOrdersReturn
+### <a name="method-getOrdersReturn"></a>getOrdersReturn
 
     mixed OrderReturnCore::getOrdersReturn($customer_id, $order_id, $no_denied, \Context $context)
 
@@ -183,7 +211,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/order/OrderReturn.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#143)
+* This method is defined in [classes/order/OrderReturn.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L143)
 
 
 #### Arguments
@@ -194,7 +222,7 @@ Methods
 
 
 
-### getOrdersReturnDetail
+### <a name="method-getOrdersReturnDetail"></a>getOrdersReturnDetail
 
     mixed OrderReturnCore::getOrdersReturnDetail($id_order_return)
 
@@ -204,7 +232,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/order/OrderReturn.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#166)
+* This method is defined in [classes/order/OrderReturn.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L166)
 
 
 #### Arguments
@@ -212,7 +240,7 @@ Methods
 
 
 
-### getOrdersReturnProducts
+### <a name="method-getOrdersReturnProducts"></a>getOrdersReturnProducts
 
     array OrderReturnCore::getOrdersReturnProducts(integer $order_return_id, \Order $order)
 
@@ -222,7 +250,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/order/OrderReturn.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#179)
+* This method is defined in [classes/order/OrderReturn.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L179)
 
 
 #### Arguments
@@ -231,7 +259,7 @@ Methods
 
 
 
-### getReturnedCustomizedProducts
+### <a name="method-getReturnedCustomizedProducts"></a>getReturnedCustomizedProducts
 
     mixed OrderReturnCore::getReturnedCustomizedProducts($id_order)
 
@@ -241,7 +269,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/order/OrderReturn.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#199)
+* This method is defined in [classes/order/OrderReturn.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L199)
 
 
 #### Arguments
@@ -249,7 +277,7 @@ Methods
 
 
 
-### deleteOrderReturnDetail
+### <a name="method-deleteOrderReturnDetail"></a>deleteOrderReturnDetail
 
     mixed OrderReturnCore::deleteOrderReturnDetail($id_order_return, $id_order_detail, $id_customization)
 
@@ -259,7 +287,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/order/OrderReturn.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#218)
+* This method is defined in [classes/order/OrderReturn.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L218)
 
 
 #### Arguments
@@ -269,7 +297,7 @@ Methods
 
 
 
-### getProductReturnDetail
+### <a name="method-getProductReturnDetail"></a>getProductReturnDetail
 
     mixed OrderReturnCore::getProductReturnDetail($id_order_detail)
 
@@ -279,7 +307,7 @@ Get return details for one product line
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/order/OrderReturn.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#228)
+* This method is defined in [classes/order/OrderReturn.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L228)
 
 
 #### Arguments
@@ -287,7 +315,7 @@ Get return details for one product line
 
 
 
-### addReturnedQuantity
+### <a name="method-addReturnedQuantity"></a>addReturnedQuantity
 
     mixed OrderReturnCore::addReturnedQuantity(array $products, integer $id_order)
 
@@ -297,7 +325,7 @@ Add returned quantity to products list
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/order/OrderReturn.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#246)
+* This method is defined in [classes/order/OrderReturn.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#L246)
 
 
 #### Arguments

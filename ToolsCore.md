@@ -30,8 +30,194 @@ needs please refer to http://www.prestashop.com for more information.
 Properties
 ----------
 
+* [$file_exists_cache](#property-$file_exists_cache)
+* [$_forceCompile](#property-$_forceCompile)
+* [$_caching](#property-$_caching)
+* [$_user_plateform](#property-$_user_plateform)
+* [$_user_browser](#property-$_user_browser)
+* [$round_mode](#property-$round_mode)
+* [$_cache_nb_media_servers](#property-$_cache_nb_media_servers)
+* [$is_addons_up](#property-$is_addons_up)
 
-### $file_exists_cache
+Methods
+-------
+* [passwdGen](#method-passwdGen)
+* [getBytes](#method-getBytes)
+* [strReplaceFirst](#method-strReplaceFirst)
+* [redirect](#method-redirect)
+* [redirectLink](#method-redirectLink)
+* [redirectAdmin](#method-redirectAdmin)
+* [getShopProtocol](#method-getShopProtocol)
+* [getProtocol](#method-getProtocol)
+* [getHttpHost](#method-getHttpHost)
+* [getShopDomain](#method-getShopDomain)
+* [getShopDomainSsl](#method-getShopDomainSsl)
+* [getServerName](#method-getServerName)
+* [getRemoteAddr](#method-getRemoteAddr)
+* [usingSecureMode](#method-usingSecureMode)
+* [getCurrentUrlProtocolPrefix](#method-getCurrentUrlProtocolPrefix)
+* [secureReferrer](#method-secureReferrer)
+* [getValue](#method-getValue)
+* [getAllValues](#method-getAllValues)
+* [getIsset](#method-getIsset)
+* [setCookieLanguage](#method-setCookieLanguage)
+* [switchLanguage](#method-switchLanguage)
+* [getCountry](#method-getCountry)
+* [setCurrency](#method-setCurrency)
+* [displayPrice](#method-displayPrice)
+* [displayNumber](#method-displayNumber)
+* [displayPriceSmarty](#method-displayPriceSmarty)
+* [convertPrice](#method-convertPrice)
+* [array_replace](#method-array_replace)
+* [convertPriceFull](#method-convertPriceFull)
+* [dateFormat](#method-dateFormat)
+* [displayDate](#method-displayDate)
+* [safeOutput](#method-safeOutput)
+* [htmlentitiesUTF8](#method-htmlentitiesUTF8)
+* [htmlentitiesDecodeUTF8](#method-htmlentitiesDecodeUTF8)
+* [safePostVars](#method-safePostVars)
+* [deleteDirectory](#method-deleteDirectory)
+* [deleteFile](#method-deleteFile)
+* [clearXMLCache](#method-clearXMLCache)
+* [displayError](#method-displayError)
+* [dieObject](#method-dieObject)
+* [fd](#method-fd)
+* [d](#method-d)
+* [debug_backtrace](#method-debug_backtrace)
+* [p](#method-p)
+* [error_log](#method-error_log)
+* [isSubmit](#method-isSubmit)
+* [getMetaTags](#method-getMetaTags)
+* [getHomeMetaTags](#method-getHomeMetaTags)
+* [completeMetaTags](#method-completeMetaTags)
+* [encrypt](#method-encrypt)
+* [encryptIV](#method-encryptIV)
+* [getToken](#method-getToken)
+* [getAdminToken](#method-getAdminToken)
+* [getAdminTokenLite](#method-getAdminTokenLite)
+* [getAdminTokenLiteSmarty](#method-getAdminTokenLiteSmarty)
+* [getAdminUrl](#method-getAdminUrl)
+* [getAdminImageUrl](#method-getAdminImageUrl)
+* [getPath](#method-getPath)
+* [getFullPath](#method-getFullPath)
+* [link_rewrite](#method-link_rewrite)
+* [str2url](#method-str2url)
+* [replaceAccentedChars](#method-replaceAccentedChars)
+* [truncate](#method-truncate)
+* [truncateString](#method-truncateString)
+* [normalizeDirectory](#method-normalizeDirectory)
+* [dateYears](#method-dateYears)
+* [dateDays](#method-dateDays)
+* [dateMonths](#method-dateMonths)
+* [hourGenerate](#method-hourGenerate)
+* [dateFrom](#method-dateFrom)
+* [dateTo](#method-dateTo)
+* [strtolower](#method-strtolower)
+* [strlen](#method-strlen)
+* [stripslashes](#method-stripslashes)
+* [strtoupper](#method-strtoupper)
+* [substr](#method-substr)
+* [strpos](#method-strpos)
+* [strrpos](#method-strrpos)
+* [ucfirst](#method-ucfirst)
+* [ucwords](#method-ucwords)
+* [orderbyPrice](#method-orderbyPrice)
+* [iconv](#method-iconv)
+* [isEmpty](#method-isEmpty)
+* [ps_round](#method-ps_round)
+* [math_round](#method-math_round)
+* [round_helper](#method-round_helper)
+* [ceilf](#method-ceilf)
+* [floorf](#method-floorf)
+* [file_exists_cache](#method-file_exists_cache)
+* [file_exists_no_cache](#method-file_exists_no_cache)
+* [file_get_contents](#method-file_get_contents)
+* [simplexml_load_file](#method-simplexml_load_file)
+* [copy](#method-copy)
+* [minifyHTML](#method-minifyHTML)
+* [toCamelCase](#method-toCamelCase)
+* [toUnderscoreCase](#method-toUnderscoreCase)
+* [getBrightness](#method-getBrightness)
+* [minifyHTMLpregCallback](#method-minifyHTMLpregCallback)
+* [packJSinHTML](#method-packJSinHTML)
+* [packJSinHTMLpregCallback](#method-packJSinHTMLpregCallback)
+* [packJS](#method-packJS)
+* [parserSQL](#method-parserSQL)
+* [minifyCSS](#method-minifyCSS)
+* [replaceByAbsoluteURL](#method-replaceByAbsoluteURL)
+* [addJS](#method-addJS)
+* [addCSS](#method-addCSS)
+* [cccCss](#method-cccCss)
+* [cccJS](#method-cccJS)
+* [getMediaServer](#method-getMediaServer)
+* [generateHtaccess](#method-generateHtaccess)
+* [generateIndex](#method-generateIndex)
+* [getDefaultIndexContent](#method-getDefaultIndexContent)
+* [jsonDecode](#method-jsonDecode)
+* [jsonEncode](#method-jsonEncode)
+* [displayAsDeprecated](#method-displayAsDeprecated)
+* [displayParameterAsDeprecated](#method-displayParameterAsDeprecated)
+* [displayFileAsDeprecated](#method-displayFileAsDeprecated)
+* [throwDeprecated](#method-throwDeprecated)
+* [enableCache](#method-enableCache)
+* [restoreCacheSettings](#method-restoreCacheSettings)
+* [isCallable](#method-isCallable)
+* [pRegexp](#method-pRegexp)
+* [str_replace_once](#method-str_replace_once)
+* [property_exists](#method-property_exists)
+* [checkPhpVersion](#method-checkPhpVersion)
+* [ZipTest](#method-ZipTest)
+* [getSafeModeStatus](#method-getSafeModeStatus)
+* [ZipExtract](#method-ZipExtract)
+* [chmodr](#method-chmodr)
+* [getProductsOrder](#method-getProductsOrder)
+* [convertBytes](#method-convertBytes)
+* [display404Error](#method-display404Error)
+* [url](#method-url)
+* [dieOrLog](#method-dieOrLog)
+* [nl2br](#method-nl2br)
+* [clearCache](#method-clearCache)
+* [clearCompile](#method-clearCompile)
+* [clearSmartyCache](#method-clearSmartyCache)
+* [clearColorListCache](#method-clearColorListCache)
+* [getMemoryLimit](#method-getMemoryLimit)
+* [getOctets](#method-getOctets)
+* [isX86_64arch](#method-isX86_64arch)
+* [isPHPCLI](#method-isPHPCLI)
+* [argvToGET](#method-argvToGET)
+* [getMaxUploadSize](#method-getMaxUploadSize)
+* [apacheModExists](#method-apacheModExists)
+* [recurseCopy](#method-recurseCopy)
+* [scandir](#method-scandir)
+* [version_compare](#method-version_compare)
+* [alignVersionNumber](#method-alignVersionNumber)
+* [modRewriteActive](#method-modRewriteActive)
+* [unSerialize](#method-unSerialize)
+* [arrayUnique](#method-arrayUnique)
+* [cleanNonUnicodeSupport](#method-cleanNonUnicodeSupport)
+* [addonsRequest](#method-addonsRequest)
+* [fileAttachment](#method-fileAttachment)
+* [changeFileMTime](#method-changeFileMTime)
+* [waitUntilFileIsModified](#method-waitUntilFileIsModified)
+* [rtrimString](#method-rtrimString)
+* [formatBytes](#method-formatBytes)
+* [boolVal](#method-boolVal)
+* [getUserPlatform](#method-getUserPlatform)
+* [getUserBrowser](#method-getUserBrowser)
+* [getDescriptionClean](#method-getDescriptionClean)
+* [purifyHTML](#method-purifyHTML)
+* [safeDefine](#method-safeDefine)
+* [spreadAmount](#method-spreadAmount)
+* [arrayReplaceRecursive](#method-arrayReplaceRecursive)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$file_exists_cache"></a>$file_exists_cache
 
     protected mixed $file_exists_cache = array()
 
@@ -41,10 +227,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Tools.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#29)
+* This property is defined in [classes/Tools.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L29)
 
 
-### $_forceCompile
+### <a name="property-$_forceCompile"></a>$_forceCompile
 
     protected mixed $_forceCompile
 
@@ -54,10 +240,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Tools.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#30)
+* This property is defined in [classes/Tools.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L30)
 
 
-### $_caching
+### <a name="property-$_caching"></a>$_caching
 
     protected mixed $_caching
 
@@ -67,10 +253,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Tools.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#31)
+* This property is defined in [classes/Tools.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L31)
 
 
-### $_user_plateform
+### <a name="property-$_user_plateform"></a>$_user_plateform
 
     protected mixed $_user_plateform
 
@@ -80,10 +266,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Tools.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#32)
+* This property is defined in [classes/Tools.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L32)
 
 
-### $_user_browser
+### <a name="property-$_user_browser"></a>$_user_browser
 
     protected mixed $_user_browser
 
@@ -93,10 +279,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Tools.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#33)
+* This property is defined in [classes/Tools.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L33)
 
 
-### $round_mode
+### <a name="property-$round_mode"></a>$round_mode
 
     public mixed $round_mode = null
 
@@ -106,10 +292,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Tools.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#35)
+* This property is defined in [classes/Tools.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L35)
 
 
-### $_cache_nb_media_servers
+### <a name="property-$_cache_nb_media_servers"></a>$_cache_nb_media_servers
 
     protected mixed $_cache_nb_media_servers = null
 
@@ -119,10 +305,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Tools.php line 2251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2251)
+* This property is defined in [classes/Tools.php line 2251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2251)
 
 
-### $is_addons_up
+### <a name="property-$is_addons_up"></a>$is_addons_up
 
     protected mixed $is_addons_up = true
 
@@ -132,14 +318,14 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Tools.php line 3347](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3347)
+* This property is defined in [classes/Tools.php line 3347](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3347)
 
 
 Methods
 -------
 
 
-### passwdGen
+### <a name="method-passwdGen"></a>passwdGen
 
     boolean|string ToolsCore::passwdGen(integer $length, string $flag)
 
@@ -149,7 +335,7 @@ Random password generator
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#44)
+* This method is defined in [classes/Tools.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L44)
 
 
 #### Arguments
@@ -158,7 +344,7 @@ Random password generator
 
 
 
-### getBytes
+### <a name="method-getBytes"></a>getBytes
 
     boolean|string ToolsCore::getBytes($length)
 
@@ -168,7 +354,7 @@ Thanks to Zend for entropy
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#89)
+* This method is defined in [classes/Tools.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L89)
 
 
 #### Arguments
@@ -176,7 +362,7 @@ Thanks to Zend for entropy
 
 
 
-### strReplaceFirst
+### <a name="method-strReplaceFirst"></a>strReplaceFirst
 
     mixed ToolsCore::strReplaceFirst($search, $replace, $subject, $cur)
 
@@ -186,7 +372,7 @@ Thanks to Zend for entropy
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#166)
+* This method is defined in [classes/Tools.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L166)
 
 
 #### Arguments
@@ -197,7 +383,7 @@ Thanks to Zend for entropy
 
 
 
-### redirect
+### <a name="method-redirect"></a>redirect
 
     mixed ToolsCore::redirect(string $url, string $base_uri, \Link $link, string|array $headers)
 
@@ -207,7 +393,7 @@ Redirect user to another page
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#179)
+* This method is defined in [classes/Tools.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L179)
 
 
 #### Arguments
@@ -218,7 +404,7 @@ Redirect user to another page
 
 
 
-### redirectLink
+### <a name="method-redirectLink"></a>redirectLink
 
     mixed ToolsCore::redirectLink(string $url)
 
@@ -228,7 +414,7 @@ Redirect URLs already containing PS_BASE_URI
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#226)
+* This method is defined in [classes/Tools.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L226)
 
 
 #### Arguments
@@ -236,7 +422,7 @@ Redirect URLs already containing PS_BASE_URI
 
 
 
-### redirectAdmin
+### <a name="method-redirectAdmin"></a>redirectAdmin
 
     mixed ToolsCore::redirectAdmin(string $url)
 
@@ -246,7 +432,7 @@ Redirect user to another admin page
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#250)
+* This method is defined in [classes/Tools.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L250)
 
 
 #### Arguments
@@ -254,7 +440,7 @@ Redirect user to another admin page
 
 
 
-### getShopProtocol
+### <a name="method-getShopProtocol"></a>getShopProtocol
 
     String ToolsCore::getShopProtocol()
 
@@ -265,12 +451,12 @@ SSL if Configuration is set on and available for the server
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#262)
+* This method is defined in [classes/Tools.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L262)
 
 
 
 
-### getProtocol
+### <a name="method-getProtocol"></a>getProtocol
 
     String ToolsCore::getProtocol(boolean $use_ssl)
 
@@ -280,7 +466,7 @@ getProtocol return the set protocol according to configuration (http[s])
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#274)
+* This method is defined in [classes/Tools.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L274)
 
 
 #### Arguments
@@ -288,7 +474,7 @@ getProtocol return the set protocol according to configuration (http[s])
 
 
 
-### getHttpHost
+### <a name="method-getHttpHost"></a>getHttpHost
 
     string ToolsCore::getHttpHost(boolean $http, boolean $entities, $ignore_port)
 
@@ -299,7 +485,7 @@ Use Tools::getShopDomain() or Tools::getShopDomainSsl instead
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#288)
+* This method is defined in [classes/Tools.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L288)
 
 
 #### Arguments
@@ -309,7 +495,7 @@ Use Tools::getShopDomain() or Tools::getShopDomainSsl instead
 
 
 
-### getShopDomain
+### <a name="method-getShopDomain"></a>getShopDomain
 
     string ToolsCore::getShopDomain(boolean $http, boolean $entities)
 
@@ -319,7 +505,7 @@ getShopDomain returns domain name according to configuration and ignoring ssl
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 310](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#310)
+* This method is defined in [classes/Tools.php line 310](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L310)
 
 
 #### Arguments
@@ -328,7 +514,7 @@ getShopDomain returns domain name according to configuration and ignoring ssl
 
 
 
-### getShopDomainSsl
+### <a name="method-getShopDomainSsl"></a>getShopDomainSsl
 
     string ToolsCore::getShopDomainSsl(boolean $http, boolean $entities)
 
@@ -338,7 +524,7 @@ getShopDomainSsl returns domain name according to configuration and depending on
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#331)
+* This method is defined in [classes/Tools.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L331)
 
 
 #### Arguments
@@ -347,7 +533,7 @@ getShopDomainSsl returns domain name according to configuration and depending on
 
 
 
-### getServerName
+### <a name="method-getServerName"></a>getServerName
 
     string ToolsCore::getServerName()
 
@@ -357,12 +543,12 @@ Get the server variable SERVER_NAME
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 350](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#350)
+* This method is defined in [classes/Tools.php line 350](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L350)
 
 
 
 
-### getRemoteAddr
+### <a name="method-getRemoteAddr"></a>getRemoteAddr
 
     string ToolsCore::getRemoteAddr()
 
@@ -372,12 +558,12 @@ Get the server variable REMOTE_ADDR, or the first ip of HTTP_X_FORWARDED_FOR (wh
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 363](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#363)
+* This method is defined in [classes/Tools.php line 363](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L363)
 
 
 
 
-### usingSecureMode
+### <a name="method-usingSecureMode"></a>usingSecureMode
 
     boolean ToolsCore::usingSecureMode()
 
@@ -387,12 +573,12 @@ Check if the current page use SSL connection on not
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 394](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#394)
+* This method is defined in [classes/Tools.php line 394](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L394)
 
 
 
 
-### getCurrentUrlProtocolPrefix
+### <a name="method-getCurrentUrlProtocolPrefix"></a>getCurrentUrlProtocolPrefix
 
     string ToolsCore::getCurrentUrlProtocolPrefix()
 
@@ -402,12 +588,12 @@ Get the current url prefix protocol (https/http)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#422)
+* This method is defined in [classes/Tools.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L422)
 
 
 
 
-### secureReferrer
+### <a name="method-secureReferrer"></a>secureReferrer
 
     string ToolsCore::secureReferrer(string $referrer)
 
@@ -417,7 +603,7 @@ Secure an URL referrer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#437)
+* This method is defined in [classes/Tools.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L437)
 
 
 #### Arguments
@@ -425,7 +611,7 @@ Secure an URL referrer
 
 
 
-### getValue
+### <a name="method-getValue"></a>getValue
 
     mixed ToolsCore::getValue(string $key, mixed $default_value)
 
@@ -436,7 +622,7 @@ if unavailable, take a default value
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#453)
+* This method is defined in [classes/Tools.php line 453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L453)
 
 
 #### Arguments
@@ -445,7 +631,7 @@ if unavailable, take a default value
 
 
 
-### getAllValues
+### <a name="method-getAllValues"></a>getAllValues
 
     mixed ToolsCore::getAllValues()
 
@@ -455,12 +641,12 @@ Get all values from $_POST/$_GET
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 473](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#473)
+* This method is defined in [classes/Tools.php line 473](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L473)
 
 
 
 
-### getIsset
+### <a name="method-getIsset"></a>getIsset
 
     mixed ToolsCore::getIsset($key)
 
@@ -470,7 +656,7 @@ Get all values from $_POST/$_GET
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 478](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#478)
+* This method is defined in [classes/Tools.php line 478](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L478)
 
 
 #### Arguments
@@ -478,7 +664,7 @@ Get all values from $_POST/$_GET
 
 
 
-### setCookieLanguage
+### <a name="method-setCookieLanguage"></a>setCookieLanguage
 
     string ToolsCore::setCookieLanguage($cookie)
 
@@ -488,7 +674,7 @@ Change language in cookie while clicking on a flag
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 491](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#491)
+* This method is defined in [classes/Tools.php line 491](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L491)
 
 
 #### Arguments
@@ -496,7 +682,7 @@ Change language in cookie while clicking on a flag
 
 
 
-### switchLanguage
+### <a name="method-switchLanguage"></a>switchLanguage
 
     mixed ToolsCore::switchLanguage(\Context $context)
 
@@ -506,7 +692,7 @@ Set cookie id_lang
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 541](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#541)
+* This method is defined in [classes/Tools.php line 541](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L541)
 
 
 #### Arguments
@@ -514,7 +700,7 @@ Set cookie id_lang
 
 
 
-### getCountry
+### <a name="method-getCountry"></a>getCountry
 
     mixed ToolsCore::getCountry($address)
 
@@ -524,7 +710,7 @@ Set cookie id_lang
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 576](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#576)
+* This method is defined in [classes/Tools.php line 576](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L576)
 
 
 #### Arguments
@@ -532,7 +718,7 @@ Set cookie id_lang
 
 
 
-### setCurrency
+### <a name="method-setCurrency"></a>setCurrency
 
     \Currency ToolsCore::setCurrency($cookie)
 
@@ -542,7 +728,7 @@ Set cookie currency from POST or default currency
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 597](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#597)
+* This method is defined in [classes/Tools.php line 597](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L597)
 
 
 #### Arguments
@@ -550,7 +736,7 @@ Set cookie currency from POST or default currency
 
 
 
-### displayPrice
+### <a name="method-displayPrice"></a>displayPrice
 
     string ToolsCore::displayPrice(float $price, object|array $currency, $no_utf8, \Context $context)
 
@@ -560,7 +746,7 @@ Return price with currency sign for a given product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 637](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#637)
+* This method is defined in [classes/Tools.php line 637](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L637)
 
 
 #### Arguments
@@ -571,7 +757,7 @@ Return price with currency sign for a given product
 
 
 
-### displayNumber
+### <a name="method-displayNumber"></a>displayNumber
 
     mixed ToolsCore::displayNumber($number, $currency)
 
@@ -581,7 +767,7 @@ Return price with currency sign for a given product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 720](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#720)
+* This method is defined in [classes/Tools.php line 720](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L720)
 
 
 #### Arguments
@@ -590,7 +776,7 @@ Return price with currency sign for a given product
 
 
 
-### displayPriceSmarty
+### <a name="method-displayPriceSmarty"></a>displayPriceSmarty
 
     mixed ToolsCore::displayPriceSmarty($params, $smarty)
 
@@ -600,7 +786,7 @@ Return price with currency sign for a given product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 731](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#731)
+* This method is defined in [classes/Tools.php line 731](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L731)
 
 
 #### Arguments
@@ -609,7 +795,7 @@ Return price with currency sign for a given product
 
 
 
-### convertPrice
+### <a name="method-convertPrice"></a>convertPrice
 
     float ToolsCore::convertPrice(float $price, object|array $currency, boolean $to_currency, \Context $context)
 
@@ -619,7 +805,7 @@ Return price converted
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 751](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#751)
+* This method is defined in [classes/Tools.php line 751](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L751)
 
 
 #### Arguments
@@ -630,7 +816,7 @@ Return price converted
 
 
 
-### array_replace
+### <a name="method-array_replace"></a>array_replace
 
     array|mixed|null ToolsCore::array_replace()
 
@@ -640,12 +826,12 @@ Implement array_replace for PHP <= 5.2
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 787](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#787)
+* This method is defined in [classes/Tools.php line 787](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L787)
 
 
 
 
-### convertPriceFull
+### <a name="method-convertPriceFull"></a>convertPriceFull
 
     mixed ToolsCore::convertPriceFull(float $amount, \Currency $currency_from, \Currency $currency_to)
 
@@ -655,7 +841,7 @@ Convert amount from a currency to an other currency automatically
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 816](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#816)
+* This method is defined in [classes/Tools.php line 816](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L816)
 
 
 #### Arguments
@@ -665,7 +851,7 @@ Convert amount from a currency to an other currency automatically
 
 
 
-### dateFormat
+### <a name="method-dateFormat"></a>dateFormat
 
     string ToolsCore::dateFormat(array $params, object $smarty)
 
@@ -675,7 +861,7 @@ Display date regarding to language preferences
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 849](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#849)
+* This method is defined in [classes/Tools.php line 849](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L849)
 
 
 #### Arguments
@@ -684,7 +870,7 @@ Display date regarding to language preferences
 
 
 
-### displayDate
+### <a name="method-displayDate"></a>displayDate
 
     string ToolsCore::displayDate(string $date, integer $id_lang, boolean $full, string $separator)
 
@@ -694,7 +880,7 @@ Display date regarding to language preferences
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 863](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#863)
+* This method is defined in [classes/Tools.php line 863](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L863)
 
 
 #### Arguments
@@ -705,7 +891,7 @@ Display date regarding to language preferences
 
 
 
-### safeOutput
+### <a name="method-safeOutput"></a>safeOutput
 
     string ToolsCore::safeOutput(string $string, $html)
 
@@ -715,7 +901,7 @@ Sanitize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 896](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#896)
+* This method is defined in [classes/Tools.php line 896](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L896)
 
 
 #### Arguments
@@ -724,7 +910,7 @@ Sanitize a string
 
 
 
-### htmlentitiesUTF8
+### <a name="method-htmlentitiesUTF8"></a>htmlentitiesUTF8
 
     mixed ToolsCore::htmlentitiesUTF8($string, $type)
 
@@ -734,7 +920,7 @@ Sanitize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 904](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#904)
+* This method is defined in [classes/Tools.php line 904](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L904)
 
 
 #### Arguments
@@ -743,7 +929,7 @@ Sanitize a string
 
 
 
-### htmlentitiesDecodeUTF8
+### <a name="method-htmlentitiesDecodeUTF8"></a>htmlentitiesDecodeUTF8
 
     mixed ToolsCore::htmlentitiesDecodeUTF8($string)
 
@@ -753,7 +939,7 @@ Sanitize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 913](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#913)
+* This method is defined in [classes/Tools.php line 913](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L913)
 
 
 #### Arguments
@@ -761,7 +947,7 @@ Sanitize a string
 
 
 
-### safePostVars
+### <a name="method-safePostVars"></a>safePostVars
 
     mixed ToolsCore::safePostVars()
 
@@ -771,12 +957,12 @@ Sanitize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 922](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#922)
+* This method is defined in [classes/Tools.php line 922](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L922)
 
 
 
 
-### deleteDirectory
+### <a name="method-deleteDirectory"></a>deleteDirectory
 
     mixed ToolsCore::deleteDirectory(string $dirname, $delete_self)
 
@@ -786,7 +972,7 @@ Delete directory and subdirectories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 936](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#936)
+* This method is defined in [classes/Tools.php line 936](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L936)
 
 
 #### Arguments
@@ -795,7 +981,7 @@ Delete directory and subdirectories
 
 
 
-### deleteFile
+### <a name="method-deleteFile"></a>deleteFile
 
     mixed ToolsCore::deleteFile(string $file, array $exclude_files)
 
@@ -805,7 +991,7 @@ Delete file
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 969](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#969)
+* This method is defined in [classes/Tools.php line 969](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L969)
 
 
 #### Arguments
@@ -814,7 +1000,7 @@ Delete file
 
 
 
-### clearXMLCache
+### <a name="method-clearXMLCache"></a>clearXMLCache
 
     mixed ToolsCore::clearXMLCache()
 
@@ -824,12 +1010,12 @@ Clear XML cache folder
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 984](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#984)
+* This method is defined in [classes/Tools.php line 984](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L984)
 
 
 
 
-### displayError
+### <a name="method-displayError"></a>displayError
 
     mixed ToolsCore::displayError(string $string, boolean $htmlentities, \Context $context)
 
@@ -839,7 +1025,7 @@ Display an error according to an error code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1006](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1006)
+* This method is defined in [classes/Tools.php line 1006](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1006)
 
 
 #### Arguments
@@ -849,7 +1035,7 @@ Display an error according to an error code
 
 
 
-### dieObject
+### <a name="method-dieObject"></a>dieObject
 
     \$object ToolsCore::dieObject(mixed $object, boolean $kill)
 
@@ -859,7 +1045,7 @@ Display an error with detailed object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1034](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1034)
+* This method is defined in [classes/Tools.php line 1034](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1034)
 
 
 #### Arguments
@@ -868,7 +1054,7 @@ Display an error with detailed object
 
 
 
-### fd
+### <a name="method-fd"></a>fd
 
     mixed ToolsCore::fd(object $object, $type)
 
@@ -878,7 +1064,7 @@ Display a var dump in firebug console
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1052](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1052)
+* This method is defined in [classes/Tools.php line 1052](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1052)
 
 
 #### Arguments
@@ -887,7 +1073,7 @@ Display a var dump in firebug console
 
 
 
-### d
+### <a name="method-d"></a>d
 
     mixed ToolsCore::d(object $object, $kill)
 
@@ -897,7 +1083,7 @@ ALIAS OF dieObject() - Display an error with detailed object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1072](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1072)
+* This method is defined in [classes/Tools.php line 1072](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1072)
 
 
 #### Arguments
@@ -906,7 +1092,7 @@ ALIAS OF dieObject() - Display an error with detailed object
 
 
 
-### debug_backtrace
+### <a name="method-debug_backtrace"></a>debug_backtrace
 
     mixed ToolsCore::debug_backtrace($start, $limit)
 
@@ -916,7 +1102,7 @@ ALIAS OF dieObject() - Display an error with detailed object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1077](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1077)
+* This method is defined in [classes/Tools.php line 1077](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1077)
 
 
 #### Arguments
@@ -925,7 +1111,7 @@ ALIAS OF dieObject() - Display an error with detailed object
 
 
 
-### p
+### <a name="method-p"></a>p
 
     mixed ToolsCore::p(object $object)
 
@@ -935,7 +1121,7 @@ ALIAS OF dieObject() - Display an error with detailed object but don't stop the 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1110)
+* This method is defined in [classes/Tools.php line 1110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1110)
 
 
 #### Arguments
@@ -943,7 +1129,7 @@ ALIAS OF dieObject() - Display an error with detailed object but don't stop the 
 
 
 
-### error_log
+### <a name="method-error_log"></a>error_log
 
     boolean ToolsCore::error_log(mixed $object, integer|null $message_type, string|null $destination, string|null $extra_headers)
 
@@ -953,7 +1139,7 @@ Prints object information into error log
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1125)
+* This method is defined in [classes/Tools.php line 1125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1125)
 
 
 #### Arguments
@@ -964,7 +1150,7 @@ Prints object information into error log
 
 
 
-### isSubmit
+### <a name="method-isSubmit"></a>isSubmit
 
     mixed ToolsCore::isSubmit(string $submit)
 
@@ -974,7 +1160,7 @@ Check if submit has been posted
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1135)
+* This method is defined in [classes/Tools.php line 1135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1135)
 
 
 #### Arguments
@@ -982,7 +1168,7 @@ Check if submit has been posted
 
 
 
-### getMetaTags
+### <a name="method-getMetaTags"></a>getMetaTags
 
     mixed ToolsCore::getMetaTags($id_lang, $page_name, $title)
 
@@ -992,7 +1178,7 @@ Check if submit has been posted
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1146)
+* This method is defined in [classes/Tools.php line 1146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1146)
 
 
 #### Arguments
@@ -1002,7 +1188,7 @@ Check if submit has been posted
 
 
 
-### getHomeMetaTags
+### <a name="method-getHomeMetaTags"></a>getHomeMetaTags
 
     mixed ToolsCore::getHomeMetaTags($id_lang, $page_name)
 
@@ -1012,7 +1198,7 @@ Check if submit has been posted
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1155)
+* This method is defined in [classes/Tools.php line 1155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1155)
 
 
 #### Arguments
@@ -1021,7 +1207,7 @@ Check if submit has been posted
 
 
 
-### completeMetaTags
+### <a name="method-completeMetaTags"></a>completeMetaTags
 
     mixed ToolsCore::completeMetaTags($meta_tags, $default_value, \Context $context)
 
@@ -1031,7 +1217,7 @@ Check if submit has been posted
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1164)
+* This method is defined in [classes/Tools.php line 1164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1164)
 
 
 #### Arguments
@@ -1041,7 +1227,7 @@ Check if submit has been posted
 
 
 
-### encrypt
+### <a name="method-encrypt"></a>encrypt
 
     mixed ToolsCore::encrypt(string $passwd)
 
@@ -1051,7 +1237,7 @@ Encrypt password
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1175)
+* This method is defined in [classes/Tools.php line 1175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1175)
 
 
 #### Arguments
@@ -1059,7 +1245,7 @@ Encrypt password
 
 
 
-### encryptIV
+### <a name="method-encryptIV"></a>encryptIV
 
     mixed ToolsCore::encryptIV(string $data)
 
@@ -1069,7 +1255,7 @@ Encrypt data string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1185)
+* This method is defined in [classes/Tools.php line 1185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1185)
 
 
 #### Arguments
@@ -1077,7 +1263,7 @@ Encrypt data string
 
 
 
-### getToken
+### <a name="method-getToken"></a>getToken
 
     mixed ToolsCore::getToken($page, \Context $context)
 
@@ -1087,7 +1273,7 @@ Get token to prevent CSRF
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1195)
+* This method is defined in [classes/Tools.php line 1195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1195)
 
 
 #### Arguments
@@ -1096,7 +1282,7 @@ Get token to prevent CSRF
 
 
 
-### getAdminToken
+### <a name="method-getAdminToken"></a>getAdminToken
 
     mixed ToolsCore::getAdminToken(string $string)
 
@@ -1106,7 +1292,7 @@ Tokenize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1212)
+* This method is defined in [classes/Tools.php line 1212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1212)
 
 
 #### Arguments
@@ -1114,7 +1300,7 @@ Tokenize a string
 
 
 
-### getAdminTokenLite
+### <a name="method-getAdminTokenLite"></a>getAdminTokenLite
 
     mixed ToolsCore::getAdminTokenLite($tab, \Context $context)
 
@@ -1124,7 +1310,7 @@ Tokenize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1217)
+* This method is defined in [classes/Tools.php line 1217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1217)
 
 
 #### Arguments
@@ -1133,7 +1319,7 @@ Tokenize a string
 
 
 
-### getAdminTokenLiteSmarty
+### <a name="method-getAdminTokenLiteSmarty"></a>getAdminTokenLiteSmarty
 
     mixed ToolsCore::getAdminTokenLiteSmarty($params, $smarty)
 
@@ -1143,7 +1329,7 @@ Tokenize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1225)
+* This method is defined in [classes/Tools.php line 1225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1225)
 
 
 #### Arguments
@@ -1152,7 +1338,7 @@ Tokenize a string
 
 
 
-### getAdminUrl
+### <a name="method-getAdminUrl"></a>getAdminUrl
 
     mixed ToolsCore::getAdminUrl(string $url, $entities)
 
@@ -1162,7 +1348,7 @@ Get a valid URL to use from BackOffice
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1237)
+* This method is defined in [classes/Tools.php line 1237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1237)
 
 
 #### Arguments
@@ -1171,7 +1357,7 @@ Get a valid URL to use from BackOffice
 
 
 
-### getAdminImageUrl
+### <a name="method-getAdminImageUrl"></a>getAdminImageUrl
 
     mixed ToolsCore::getAdminImageUrl(string $image, $entities)
 
@@ -1181,7 +1367,7 @@ Get a valid image URL to use from BackOffice
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1254](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1254)
+* This method is defined in [classes/Tools.php line 1254](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1254)
 
 
 #### Arguments
@@ -1190,7 +1376,7 @@ Get a valid image URL to use from BackOffice
 
 
 
-### getPath
+### <a name="method-getPath"></a>getPath
 
     mixed ToolsCore::getPath(integer $id_category, string $path, $link_on_the_item, $category_type, \Context $context)
 
@@ -1200,7 +1386,7 @@ Get the user's journey
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1267)
+* This method is defined in [classes/Tools.php line 1267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1267)
 
 
 #### Arguments
@@ -1212,7 +1398,7 @@ Get the user's journey
 
 
 
-### getFullPath
+### <a name="method-getFullPath"></a>getFullPath
 
     mixed ToolsCore::getFullPath($id_category, $end, $type_cat, \Context $context)
 
@@ -1222,7 +1408,7 @@ Get the user's journey
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1335](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1335)
+* This method is defined in [classes/Tools.php line 1335](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1335)
 
 
 #### Arguments
@@ -1233,7 +1419,7 @@ Get the user's journey
 
 
 
-### link_rewrite
+### <a name="method-link_rewrite"></a>link_rewrite
 
     string ToolsCore::link_rewrite(string $str, boolean $utf8_decode)
 
@@ -1243,7 +1429,7 @@ Return the friendly url from the provided string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1369)
+* This method is defined in [classes/Tools.php line 1369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1369)
 
 
 #### Arguments
@@ -1252,7 +1438,7 @@ Return the friendly url from the provided string
 
 
 
-### str2url
+### <a name="method-str2url"></a>str2url
 
     string ToolsCore::str2url(string $str)
 
@@ -1263,7 +1449,7 @@ If the mbstring library is available, the output is the same as the js function 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1384)
+* This method is defined in [classes/Tools.php line 1384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1384)
 
 
 #### Arguments
@@ -1271,7 +1457,7 @@ If the mbstring library is available, the output is the same as the js function 
 
 
 
-### replaceAccentedChars
+### <a name="method-replaceAccentedChars"></a>replaceAccentedChars
 
     string ToolsCore::replaceAccentedChars(string $str)
 
@@ -1281,7 +1467,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1445](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1445)
+* This method is defined in [classes/Tools.php line 1445](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1445)
 
 
 #### Arguments
@@ -1289,7 +1475,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 
 
-### truncate
+### <a name="method-truncate"></a>truncate
 
     mixed ToolsCore::truncate($str, $max_length, $suffix)
 
@@ -1299,7 +1485,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1553](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1553)
+* This method is defined in [classes/Tools.php line 1553](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1553)
 
 
 #### Arguments
@@ -1309,7 +1495,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 
 
-### truncateString
+### <a name="method-truncateString"></a>truncateString
 
     mixed ToolsCore::truncateString($text, $length, $options)
 
@@ -1319,7 +1505,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1563](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1563)
+* This method is defined in [classes/Tools.php line 1563](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1563)
 
 
 #### Arguments
@@ -1329,7 +1515,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 
 
-### normalizeDirectory
+### <a name="method-normalizeDirectory"></a>normalizeDirectory
 
     mixed ToolsCore::normalizeDirectory($directory)
 
@@ -1339,7 +1525,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1680](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1680)
+* This method is defined in [classes/Tools.php line 1680](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1680)
 
 
 #### Arguments
@@ -1347,7 +1533,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 
 
-### dateYears
+### <a name="method-dateYears"></a>dateYears
 
     array ToolsCore::dateYears()
 
@@ -1357,12 +1543,12 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1694](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1694)
+* This method is defined in [classes/Tools.php line 1694](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1694)
 
 
 
 
-### dateDays
+### <a name="method-dateDays"></a>dateDays
 
     mixed ToolsCore::dateDays()
 
@@ -1372,12 +1558,12 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1703](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1703)
+* This method is defined in [classes/Tools.php line 1703](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1703)
 
 
 
 
-### dateMonths
+### <a name="method-dateMonths"></a>dateMonths
 
     mixed ToolsCore::dateMonths()
 
@@ -1387,12 +1573,12 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1712](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1712)
+* This method is defined in [classes/Tools.php line 1712](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1712)
 
 
 
 
-### hourGenerate
+### <a name="method-hourGenerate"></a>hourGenerate
 
     mixed ToolsCore::hourGenerate($hours, $minutes, $seconds)
 
@@ -1402,7 +1588,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1721](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1721)
+* This method is defined in [classes/Tools.php line 1721](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1721)
 
 
 #### Arguments
@@ -1412,7 +1598,7 @@ Generate date form
 
 
 
-### dateFrom
+### <a name="method-dateFrom"></a>dateFrom
 
     mixed ToolsCore::dateFrom($date)
 
@@ -1422,7 +1608,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1726](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1726)
+* This method is defined in [classes/Tools.php line 1726](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1726)
 
 
 #### Arguments
@@ -1430,7 +1616,7 @@ Generate date form
 
 
 
-### dateTo
+### <a name="method-dateTo"></a>dateTo
 
     mixed ToolsCore::dateTo($date)
 
@@ -1440,7 +1626,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1735](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1735)
+* This method is defined in [classes/Tools.php line 1735](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1735)
 
 
 #### Arguments
@@ -1448,7 +1634,7 @@ Generate date form
 
 
 
-### strtolower
+### <a name="method-strtolower"></a>strtolower
 
     mixed ToolsCore::strtolower($str)
 
@@ -1458,7 +1644,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1744](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1744)
+* This method is defined in [classes/Tools.php line 1744](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1744)
 
 
 #### Arguments
@@ -1466,7 +1652,7 @@ Generate date form
 
 
 
-### strlen
+### <a name="method-strlen"></a>strlen
 
     mixed ToolsCore::strlen($str, $encoding)
 
@@ -1476,7 +1662,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1755](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1755)
+* This method is defined in [classes/Tools.php line 1755](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1755)
 
 
 #### Arguments
@@ -1485,7 +1671,7 @@ Generate date form
 
 
 
-### stripslashes
+### <a name="method-stripslashes"></a>stripslashes
 
     mixed ToolsCore::stripslashes($string)
 
@@ -1495,7 +1681,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1767](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1767)
+* This method is defined in [classes/Tools.php line 1767](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1767)
 
 
 #### Arguments
@@ -1503,7 +1689,7 @@ Generate date form
 
 
 
-### strtoupper
+### <a name="method-strtoupper"></a>strtoupper
 
     mixed ToolsCore::strtoupper($str)
 
@@ -1513,7 +1699,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1775](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1775)
+* This method is defined in [classes/Tools.php line 1775](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1775)
 
 
 #### Arguments
@@ -1521,7 +1707,7 @@ Generate date form
 
 
 
-### substr
+### <a name="method-substr"></a>substr
 
     mixed ToolsCore::substr($str, $start, $length, $encoding)
 
@@ -1531,7 +1717,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1786](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1786)
+* This method is defined in [classes/Tools.php line 1786](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1786)
 
 
 #### Arguments
@@ -1542,7 +1728,7 @@ Generate date form
 
 
 
-### strpos
+### <a name="method-strpos"></a>strpos
 
     mixed ToolsCore::strpos($str, $find, $offset, $encoding)
 
@@ -1552,7 +1738,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1797](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1797)
+* This method is defined in [classes/Tools.php line 1797](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1797)
 
 
 #### Arguments
@@ -1563,7 +1749,7 @@ Generate date form
 
 
 
-### strrpos
+### <a name="method-strrpos"></a>strrpos
 
     mixed ToolsCore::strrpos($str, $find, $offset, $encoding)
 
@@ -1573,7 +1759,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1805](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1805)
+* This method is defined in [classes/Tools.php line 1805](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1805)
 
 
 #### Arguments
@@ -1584,7 +1770,7 @@ Generate date form
 
 
 
-### ucfirst
+### <a name="method-ucfirst"></a>ucfirst
 
     mixed ToolsCore::ucfirst($str)
 
@@ -1594,7 +1780,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1813](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1813)
+* This method is defined in [classes/Tools.php line 1813](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1813)
 
 
 #### Arguments
@@ -1602,7 +1788,7 @@ Generate date form
 
 
 
-### ucwords
+### <a name="method-ucwords"></a>ucwords
 
     mixed ToolsCore::ucwords($str)
 
@@ -1612,7 +1798,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1818](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1818)
+* This method is defined in [classes/Tools.php line 1818](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1818)
 
 
 #### Arguments
@@ -1620,7 +1806,7 @@ Generate date form
 
 
 
-### orderbyPrice
+### <a name="method-orderbyPrice"></a>orderbyPrice
 
     mixed ToolsCore::orderbyPrice($array, $order_way)
 
@@ -1630,7 +1816,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1826](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1826)
+* This method is defined in [classes/Tools.php line 1826](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1826)
 
 
 #### Arguments
@@ -1639,7 +1825,7 @@ Generate date form
 
 
 
-### iconv
+### <a name="method-iconv"></a>iconv
 
     mixed ToolsCore::iconv($from, $to, $string)
 
@@ -1649,7 +1835,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1844](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1844)
+* This method is defined in [classes/Tools.php line 1844](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1844)
 
 
 #### Arguments
@@ -1659,7 +1845,7 @@ Generate date form
 
 
 
-### isEmpty
+### <a name="method-isEmpty"></a>isEmpty
 
     mixed ToolsCore::isEmpty($field)
 
@@ -1669,7 +1855,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1852](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1852)
+* This method is defined in [classes/Tools.php line 1852](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1852)
 
 
 #### Arguments
@@ -1677,7 +1863,7 @@ Generate date form
 
 
 
-### ps_round
+### <a name="method-ps_round"></a>ps_round
 
     float ToolsCore::ps_round(float $value, integer $precision, $round_mode)
 
@@ -1687,7 +1873,7 @@ returns the rounded value of $value to specified precision, according to your co
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1866](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1866)
+* This method is defined in [classes/Tools.php line 1866](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1866)
 
 
 #### Arguments
@@ -1697,7 +1883,7 @@ returns the rounded value of $value to specified precision, according to your co
 
 
 
-### math_round
+### <a name="method-math_round"></a>math_round
 
     mixed ToolsCore::math_round($value, $places, $mode)
 
@@ -1707,7 +1893,7 @@ returns the rounded value of $value to specified precision, according to your co
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1891](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1891)
+* This method is defined in [classes/Tools.php line 1891](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1891)
 
 
 #### Arguments
@@ -1717,7 +1903,7 @@ returns the rounded value of $value to specified precision, according to your co
 
 
 
-### round_helper
+### <a name="method-round_helper"></a>round_helper
 
     mixed ToolsCore::round_helper($value, $mode)
 
@@ -1727,7 +1913,7 @@ returns the rounded value of $value to specified precision, according to your co
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1949](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1949)
+* This method is defined in [classes/Tools.php line 1949](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1949)
 
 
 #### Arguments
@@ -1736,7 +1922,7 @@ returns the rounded value of $value to specified precision, according to your co
 
 
 
-### ceilf
+### <a name="method-ceilf"></a>ceilf
 
     float ToolsCore::ceilf(float $value, integer $precision)
 
@@ -1746,7 +1932,7 @@ returns the rounded value up of $value to specified precision
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 1979](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1979)
+* This method is defined in [classes/Tools.php line 1979](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L1979)
 
 
 #### Arguments
@@ -1755,7 +1941,7 @@ returns the rounded value up of $value to specified precision
 
 
 
-### floorf
+### <a name="method-floorf"></a>floorf
 
     float ToolsCore::floorf(float $value, integer $precision)
 
@@ -1765,7 +1951,7 @@ returns the rounded value down of $value to specified precision
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2001](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2001)
+* This method is defined in [classes/Tools.php line 2001](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2001)
 
 
 #### Arguments
@@ -1774,7 +1960,7 @@ returns the rounded value down of $value to specified precision
 
 
 
-### file_exists_cache
+### <a name="method-file_exists_cache"></a>file_exists_cache
 
     boolean ToolsCore::file_exists_cache(string $filename)
 
@@ -1784,7 +1970,7 @@ file_exists() wrapper with cache to speedup performance
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2022](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2022)
+* This method is defined in [classes/Tools.php line 2022](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2022)
 
 
 #### Arguments
@@ -1792,7 +1978,7 @@ file_exists() wrapper with cache to speedup performance
 
 
 
-### file_exists_no_cache
+### <a name="method-file_exists_no_cache"></a>file_exists_no_cache
 
     boolean ToolsCore::file_exists_no_cache(string $filename)
 
@@ -1802,7 +1988,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2036](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2036)
+* This method is defined in [classes/Tools.php line 2036](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2036)
 
 
 #### Arguments
@@ -1810,7 +1996,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 
 
-### file_get_contents
+### <a name="method-file_get_contents"></a>file_get_contents
 
     mixed ToolsCore::file_get_contents($url, $use_include_path, $stream_context, $curl_timeout)
 
@@ -1820,7 +2006,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2042](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2042)
+* This method is defined in [classes/Tools.php line 2042](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2042)
 
 
 #### Arguments
@@ -1831,7 +2017,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 
 
-### simplexml_load_file
+### <a name="method-simplexml_load_file"></a>simplexml_load_file
 
     mixed ToolsCore::simplexml_load_file($url, $class_name)
 
@@ -1841,7 +2027,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2074](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2074)
+* This method is defined in [classes/Tools.php line 2074](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2074)
 
 
 #### Arguments
@@ -1850,7 +2036,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 
 
-### copy
+### <a name="method-copy"></a>copy
 
     mixed ToolsCore::copy($source, $destination, $stream_context)
 
@@ -1860,7 +2046,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2085](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2085)
+* This method is defined in [classes/Tools.php line 2085](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2085)
 
 
 #### Arguments
@@ -1870,7 +2056,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 
 
-### minifyHTML
+### <a name="method-minifyHTML"></a>minifyHTML
 
     mixed ToolsCore::minifyHTML($html_content)
 
@@ -1880,7 +2066,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2096](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2096)
+* This method is defined in [classes/Tools.php line 2096](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2096)
 
 
 #### Arguments
@@ -1888,7 +2074,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 
 
-### toCamelCase
+### <a name="method-toCamelCase"></a>toCamelCase
 
     mixed ToolsCore::toCamelCase($str, $catapitalise_first_char)
 
@@ -1898,7 +2084,7 @@ Translates a string with underscores into camel case (e.g. first_name -> firstNa
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2106)
+* This method is defined in [classes/Tools.php line 2106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2106)
 
 
 #### Arguments
@@ -1907,7 +2093,7 @@ Translates a string with underscores into camel case (e.g. first_name -> firstNa
 
 
 
-### toUnderscoreCase
+### <a name="method-toUnderscoreCase"></a>toUnderscoreCase
 
     string ToolsCore::toUnderscoreCase(string $string)
 
@@ -1917,7 +2103,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2121)
+* This method is defined in [classes/Tools.php line 2121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2121)
 
 
 #### Arguments
@@ -1925,7 +2111,7 @@ Transform a CamelCase string to underscore_case string
 
 
 
-### getBrightness
+### <a name="method-getBrightness"></a>getBrightness
 
     mixed ToolsCore::getBrightness($hex)
 
@@ -1935,7 +2121,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2128)
+* This method is defined in [classes/Tools.php line 2128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2128)
 
 
 #### Arguments
@@ -1943,7 +2129,7 @@ Transform a CamelCase string to underscore_case string
 
 
 
-### minifyHTMLpregCallback
+### <a name="method-minifyHTMLpregCallback"></a>minifyHTMLpregCallback
 
     mixed ToolsCore::minifyHTMLpregCallback($preg_matches)
 
@@ -1953,7 +2139,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2149)
+* This method is defined in [classes/Tools.php line 2149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2149)
 
 
 #### Arguments
@@ -1961,7 +2147,7 @@ Transform a CamelCase string to underscore_case string
 
 
 
-### packJSinHTML
+### <a name="method-packJSinHTML"></a>packJSinHTML
 
     mixed ToolsCore::packJSinHTML($html_content)
 
@@ -1971,7 +2157,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2158)
+* This method is defined in [classes/Tools.php line 2158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2158)
 
 
 #### Arguments
@@ -1979,7 +2165,7 @@ Transform a CamelCase string to underscore_case string
 
 
 
-### packJSinHTMLpregCallback
+### <a name="method-packJSinHTMLpregCallback"></a>packJSinHTMLpregCallback
 
     mixed ToolsCore::packJSinHTMLpregCallback($preg_matches)
 
@@ -1989,7 +2175,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2167)
+* This method is defined in [classes/Tools.php line 2167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2167)
 
 
 #### Arguments
@@ -1997,7 +2183,7 @@ Transform a CamelCase string to underscore_case string
 
 
 
-### packJS
+### <a name="method-packJS"></a>packJS
 
     mixed ToolsCore::packJS($js_content)
 
@@ -2007,7 +2193,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2176)
+* This method is defined in [classes/Tools.php line 2176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2176)
 
 
 #### Arguments
@@ -2015,7 +2201,7 @@ Transform a CamelCase string to underscore_case string
 
 
 
-### parserSQL
+### <a name="method-parserSQL"></a>parserSQL
 
     mixed ToolsCore::parserSQL($sql)
 
@@ -2025,7 +2211,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2183)
+* This method is defined in [classes/Tools.php line 2183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2183)
 
 
 #### Arguments
@@ -2033,7 +2219,7 @@ Transform a CamelCase string to underscore_case string
 
 
 
-### minifyCSS
+### <a name="method-minifyCSS"></a>minifyCSS
 
     mixed ToolsCore::minifyCSS($css_content, $fileuri)
 
@@ -2043,7 +2229,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2196)
+* This method is defined in [classes/Tools.php line 2196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2196)
 
 
 #### Arguments
@@ -2052,7 +2238,7 @@ Transform a CamelCase string to underscore_case string
 
 
 
-### replaceByAbsoluteURL
+### <a name="method-replaceByAbsoluteURL"></a>replaceByAbsoluteURL
 
     mixed ToolsCore::replaceByAbsoluteURL($matches)
 
@@ -2062,7 +2248,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2202)
+* This method is defined in [classes/Tools.php line 2202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2202)
 
 
 #### Arguments
@@ -2070,7 +2256,7 @@ Transform a CamelCase string to underscore_case string
 
 
 
-### addJS
+### <a name="method-addJS"></a>addJS
 
     void ToolsCore::addJS(mixed $js_uri)
 
@@ -2080,7 +2266,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2215)
+* This method is defined in [classes/Tools.php line 2215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2215)
 
 
 #### Arguments
@@ -2088,7 +2274,7 @@ addJS load a javascript file in the header
 
 
 
-### addCSS
+### <a name="method-addCSS"></a>addCSS
 
     mixed ToolsCore::addCSS($css_uri, $css_media_type)
 
@@ -2098,7 +2284,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2225)
+* This method is defined in [classes/Tools.php line 2225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2225)
 
 
 #### Arguments
@@ -2107,7 +2293,7 @@ addJS load a javascript file in the header
 
 
 
-### cccCss
+### <a name="method-cccCss"></a>cccCss
 
     mixed ToolsCore::cccCss($css_files)
 
@@ -2117,7 +2303,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2235)
+* This method is defined in [classes/Tools.php line 2235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2235)
 
 
 #### Arguments
@@ -2125,7 +2311,7 @@ addJS load a javascript file in the header
 
 
 
-### cccJS
+### <a name="method-cccJS"></a>cccJS
 
     mixed ToolsCore::cccJS($js_files)
 
@@ -2135,7 +2321,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2245)
+* This method is defined in [classes/Tools.php line 2245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2245)
 
 
 #### Arguments
@@ -2143,7 +2329,7 @@ addJS load a javascript file in the header
 
 
 
-### getMediaServer
+### <a name="method-getMediaServer"></a>getMediaServer
 
     mixed ToolsCore::getMediaServer($filename)
 
@@ -2153,7 +2339,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2253)
+* This method is defined in [classes/Tools.php line 2253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2253)
 
 
 #### Arguments
@@ -2161,7 +2347,7 @@ addJS load a javascript file in the header
 
 
 
-### generateHtaccess
+### <a name="method-generateHtaccess"></a>generateHtaccess
 
     mixed ToolsCore::generateHtaccess($path, $rewrite_settings, $cache_control, $specific, $disable_multiviews, $medias, $disable_modsec)
 
@@ -2171,7 +2357,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2274)
+* This method is defined in [classes/Tools.php line 2274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2274)
 
 
 #### Arguments
@@ -2185,7 +2371,7 @@ addJS load a javascript file in the header
 
 
 
-### generateIndex
+### <a name="method-generateIndex"></a>generateIndex
 
     mixed ToolsCore::generateIndex()
 
@@ -2195,12 +2381,12 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2572](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2572)
+* This method is defined in [classes/Tools.php line 2572](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2572)
 
 
 
 
-### getDefaultIndexContent
+### <a name="method-getDefaultIndexContent"></a>getDefaultIndexContent
 
     mixed ToolsCore::getDefaultIndexContent()
 
@@ -2210,12 +2396,12 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2580](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2580)
+* This method is defined in [classes/Tools.php line 2580](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2580)
 
 
 
 
-### jsonDecode
+### <a name="method-jsonDecode"></a>jsonDecode
 
     array ToolsCore::jsonDecode(string $json, boolean $assoc)
 
@@ -2225,7 +2411,7 @@ jsonDecode convert json string to php array / object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2627](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2627)
+* This method is defined in [classes/Tools.php line 2627](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2627)
 
 
 #### Arguments
@@ -2234,7 +2420,7 @@ jsonDecode convert json string to php array / object
 
 
 
-### jsonEncode
+### <a name="method-jsonEncode"></a>jsonEncode
 
     string ToolsCore::jsonEncode(array $data)
 
@@ -2244,7 +2430,7 @@ Convert an array to json string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2644](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2644)
+* This method is defined in [classes/Tools.php line 2644](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2644)
 
 
 #### Arguments
@@ -2252,7 +2438,7 @@ Convert an array to json string
 
 
 
-### displayAsDeprecated
+### <a name="method-displayAsDeprecated"></a>displayAsDeprecated
 
     mixed ToolsCore::displayAsDeprecated($message)
 
@@ -2262,7 +2448,7 @@ Display a warning message indicating that the method is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2658](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2658)
+* This method is defined in [classes/Tools.php line 2658](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2658)
 
 
 #### Arguments
@@ -2270,7 +2456,7 @@ Display a warning message indicating that the method is deprecated
 
 
 
-### displayParameterAsDeprecated
+### <a name="method-displayParameterAsDeprecated"></a>displayParameterAsDeprecated
 
     mixed ToolsCore::displayParameterAsDeprecated($parameter)
 
@@ -2280,7 +2466,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2674](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2674)
+* This method is defined in [classes/Tools.php line 2674](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2674)
 
 
 #### Arguments
@@ -2288,7 +2474,7 @@ Display a warning message indicating that the parameter is deprecated
 
 
 
-### displayFileAsDeprecated
+### <a name="method-displayFileAsDeprecated"></a>displayFileAsDeprecated
 
     mixed ToolsCore::displayFileAsDeprecated()
 
@@ -2298,12 +2484,12 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2685](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2685)
+* This method is defined in [classes/Tools.php line 2685](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2685)
 
 
 
 
-### throwDeprecated
+### <a name="method-throwDeprecated"></a>throwDeprecated
 
     mixed ToolsCore::throwDeprecated($error, $message, $class)
 
@@ -2313,7 +2499,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2696)
+* This method is defined in [classes/Tools.php line 2696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2696)
 
 
 #### Arguments
@@ -2323,7 +2509,7 @@ Display a warning message indicating that the parameter is deprecated
 
 
 
-### enableCache
+### <a name="method-enableCache"></a>enableCache
 
     mixed ToolsCore::enableCache($level, \Context $context)
 
@@ -2333,7 +2519,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2704](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2704)
+* This method is defined in [classes/Tools.php line 2704](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2704)
 
 
 #### Arguments
@@ -2342,7 +2528,7 @@ Display a warning message indicating that the parameter is deprecated
 
 
 
-### restoreCacheSettings
+### <a name="method-restoreCacheSettings"></a>restoreCacheSettings
 
     mixed ToolsCore::restoreCacheSettings(\Context $context)
 
@@ -2352,7 +2538,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2723](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2723)
+* This method is defined in [classes/Tools.php line 2723](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2723)
 
 
 #### Arguments
@@ -2360,7 +2546,7 @@ Display a warning message indicating that the parameter is deprecated
 
 
 
-### isCallable
+### <a name="method-isCallable"></a>isCallable
 
     mixed ToolsCore::isCallable($function)
 
@@ -2370,7 +2556,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2737](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2737)
+* This method is defined in [classes/Tools.php line 2737](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2737)
 
 
 #### Arguments
@@ -2378,7 +2564,7 @@ Display a warning message indicating that the parameter is deprecated
 
 
 
-### pRegexp
+### <a name="method-pRegexp"></a>pRegexp
 
     mixed ToolsCore::pRegexp($s, $delim)
 
@@ -2388,7 +2574,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2743](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2743)
+* This method is defined in [classes/Tools.php line 2743](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2743)
 
 
 #### Arguments
@@ -2397,7 +2583,7 @@ Display a warning message indicating that the parameter is deprecated
 
 
 
-### str_replace_once
+### <a name="method-str_replace_once"></a>str_replace_once
 
     mixed ToolsCore::str_replace_once($needle, $replace, $haystack)
 
@@ -2407,7 +2593,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2752](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2752)
+* This method is defined in [classes/Tools.php line 2752](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2752)
 
 
 #### Arguments
@@ -2417,7 +2603,7 @@ Display a warning message indicating that the parameter is deprecated
 
 
 
-### property_exists
+### <a name="method-property_exists"></a>property_exists
 
     boolean ToolsCore::property_exists(object $class, string $property)
 
@@ -2427,7 +2613,7 @@ Function property_exists does not exist in PHP < 5.1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2772](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2772)
+* This method is defined in [classes/Tools.php line 2772](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2772)
 
 
 #### Arguments
@@ -2436,7 +2622,7 @@ Function property_exists does not exist in PHP < 5.1
 
 
 
-### checkPhpVersion
+### <a name="method-checkPhpVersion"></a>checkPhpVersion
 
     string ToolsCore::checkPhpVersion()
 
@@ -2446,12 +2632,12 @@ Function property_exists does not exist in PHP < 5.1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2793](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2793)
+* This method is defined in [classes/Tools.php line 2793](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2793)
 
 
 
 
-### ZipTest
+### <a name="method-ZipTest"></a>ZipTest
 
     boolean ToolsCore::ZipTest($from_file)
 
@@ -2461,7 +2647,7 @@ Function property_exists does not exist in PHP < 5.1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2815](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2815)
+* This method is defined in [classes/Tools.php line 2815](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2815)
 
 
 #### Arguments
@@ -2469,7 +2655,7 @@ Function property_exists does not exist in PHP < 5.1
 
 
 
-### getSafeModeStatus
+### <a name="method-getSafeModeStatus"></a>getSafeModeStatus
 
     mixed ToolsCore::getSafeModeStatus()
 
@@ -2479,12 +2665,12 @@ Function property_exists does not exist in PHP < 5.1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2827](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2827)
+* This method is defined in [classes/Tools.php line 2827](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2827)
 
 
 
 
-### ZipExtract
+### <a name="method-ZipExtract"></a>ZipExtract
 
     boolean ToolsCore::ZipExtract($from_file, $to_dir)
 
@@ -2494,7 +2680,7 @@ Function property_exists does not exist in PHP < 5.1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2839](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2839)
+* This method is defined in [classes/Tools.php line 2839](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2839)
 
 
 #### Arguments
@@ -2503,7 +2689,7 @@ Function property_exists does not exist in PHP < 5.1
 
 
 
-### chmodr
+### <a name="method-chmodr"></a>chmodr
 
     mixed ToolsCore::chmodr($path, $filemode)
 
@@ -2513,7 +2699,7 @@ Function property_exists does not exist in PHP < 5.1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2863](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2863)
+* This method is defined in [classes/Tools.php line 2863](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2863)
 
 
 #### Arguments
@@ -2522,7 +2708,7 @@ Function property_exists does not exist in PHP < 5.1
 
 
 
-### getProductsOrder
+### <a name="method-getProductsOrder"></a>getProductsOrder
 
     string ToolsCore::getProductsOrder(string $type, string $value, boolean|\bool(false)|string $prefix)
 
@@ -2532,7 +2718,7 @@ Get products order field name for queries.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2898](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2898)
+* This method is defined in [classes/Tools.php line 2898](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2898)
 
 
 #### Arguments
@@ -2542,7 +2728,7 @@ Get products order field name for queries.
 
 
 
-### convertBytes
+### <a name="method-convertBytes"></a>convertBytes
 
     integer ToolsCore::convertBytes(string $value)
 
@@ -2552,7 +2738,7 @@ Convert a shorthand byte value from a PHP configuration directive to an integer 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2935](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2935)
+* This method is defined in [classes/Tools.php line 2935](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2935)
 
 
 #### Arguments
@@ -2560,7 +2746,7 @@ Convert a shorthand byte value from a PHP configuration directive to an integer 
 
 
 
-### display404Error
+### <a name="method-display404Error"></a>display404Error
 
     mixed ToolsCore::display404Error()
 
@@ -2570,12 +2756,12 @@ Convert a shorthand byte value from a PHP configuration directive to an integer 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2961](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2961)
+* This method is defined in [classes/Tools.php line 2961](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2961)
 
 
 
 
-### url
+### <a name="method-url"></a>url
 
     string ToolsCore::url(string $begin, string $end)
 
@@ -2585,7 +2771,7 @@ Concat $begin and $end, add ? or & between strings
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2977](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2977)
+* This method is defined in [classes/Tools.php line 2977](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2977)
 
 
 #### Arguments
@@ -2594,7 +2780,7 @@ Concat $begin and $end, add ? or & between strings
 
 
 
-### dieOrLog
+### <a name="method-dieOrLog"></a>dieOrLog
 
     boolean ToolsCore::dieOrLog(string $msg, boolean $die)
 
@@ -2604,7 +2790,7 @@ Display error and dies or silently log the error.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 2989](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2989)
+* This method is defined in [classes/Tools.php line 2989](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L2989)
 
 
 #### Arguments
@@ -2613,7 +2799,7 @@ Display error and dies or silently log the error.
 
 
 
-### nl2br
+### <a name="method-nl2br"></a>nl2br
 
     string ToolsCore::nl2br($str)
 
@@ -2623,7 +2809,7 @@ Convert \n and \r\n and \r to <br />
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3003](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3003)
+* This method is defined in [classes/Tools.php line 3003](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3003)
 
 
 #### Arguments
@@ -2631,7 +2817,7 @@ Convert \n and \r\n and \r to <br />
 
 
 
-### clearCache
+### <a name="method-clearCache"></a>clearCache
 
     mixed ToolsCore::clearCache(\Smarty $smarty, $tpl, $cache_id, $compile_id)
 
@@ -2641,7 +2827,7 @@ Clear cache for Smarty
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3013](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3013)
+* This method is defined in [classes/Tools.php line 3013](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3013)
 
 
 #### Arguments
@@ -2652,7 +2838,7 @@ Clear cache for Smarty
 
 
 
-### clearCompile
+### <a name="method-clearCompile"></a>clearCompile
 
     mixed ToolsCore::clearCompile($smarty)
 
@@ -2662,7 +2848,7 @@ Clear compile for Smarty
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3033](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3033)
+* This method is defined in [classes/Tools.php line 3033](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3033)
 
 
 #### Arguments
@@ -2670,7 +2856,7 @@ Clear compile for Smarty
 
 
 
-### clearSmartyCache
+### <a name="method-clearSmartyCache"></a>clearSmartyCache
 
     mixed ToolsCore::clearSmartyCache()
 
@@ -2680,12 +2866,12 @@ Clear Smarty cache and compile folders
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3049](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3049)
+* This method is defined in [classes/Tools.php line 3049](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3049)
 
 
 
 
-### clearColorListCache
+### <a name="method-clearColorListCache"></a>clearColorListCache
 
     mixed ToolsCore::clearColorListCache($id_product)
 
@@ -2695,7 +2881,7 @@ Clear Smarty cache and compile folders
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3056](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3056)
+* This method is defined in [classes/Tools.php line 3056](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3056)
 
 
 #### Arguments
@@ -2703,7 +2889,7 @@ Clear Smarty cache and compile folders
 
 
 
-### getMemoryLimit
+### <a name="method-getMemoryLimit"></a>getMemoryLimit
 
     integer ToolsCore::getMemoryLimit()
 
@@ -2713,12 +2899,12 @@ getMemoryLimit allow to get the memory limit in octet
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3072](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3072)
+* This method is defined in [classes/Tools.php line 3072](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3072)
 
 
 
 
-### getOctets
+### <a name="method-getOctets"></a>getOctets
 
     integer ToolsCore::getOctets($option)
 
@@ -2728,7 +2914,7 @@ getOctet allow to gets the value of a configuration option in octet
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3085](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3085)
+* This method is defined in [classes/Tools.php line 3085](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3085)
 
 
 #### Arguments
@@ -2736,7 +2922,7 @@ getOctet allow to gets the value of a configuration option in octet
 
 
 
-### isX86_64arch
+### <a name="method-isX86_64arch"></a>isX86_64arch
 
     boolean ToolsCore::isX86_64arch()
 
@@ -2746,12 +2932,12 @@ getOctet allow to gets the value of a configuration option in octet
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3106)
+* This method is defined in [classes/Tools.php line 3106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3106)
 
 
 
 
-### isPHPCLI
+### <a name="method-isPHPCLI"></a>isPHPCLI
 
     boolean ToolsCore::isPHPCLI()
 
@@ -2761,12 +2947,12 @@ getOctet allow to gets the value of a configuration option in octet
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3115)
+* This method is defined in [classes/Tools.php line 3115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3115)
 
 
 
 
-### argvToGET
+### <a name="method-argvToGET"></a>argvToGET
 
     mixed ToolsCore::argvToGET($argc, $argv)
 
@@ -2776,7 +2962,7 @@ getOctet allow to gets the value of a configuration option in octet
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3120)
+* This method is defined in [classes/Tools.php line 3120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3120)
 
 
 #### Arguments
@@ -2785,7 +2971,7 @@ getOctet allow to gets the value of a configuration option in octet
 
 
 
-### getMaxUploadSize
+### <a name="method-getMaxUploadSize"></a>getMaxUploadSize
 
     integer ToolsCore::getMaxUploadSize(integer $max_size)
 
@@ -2795,7 +2981,7 @@ Get max file upload size considering server settings and optional max value
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3141)
+* This method is defined in [classes/Tools.php line 3141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3141)
 
 
 #### Arguments
@@ -2803,7 +2989,7 @@ Get max file upload size considering server settings and optional max value
 
 
 
-### apacheModExists
+### <a name="method-apacheModExists"></a>apacheModExists
 
     boolean ToolsCore::apacheModExists(string $name)
 
@@ -2813,7 +2999,7 @@ apacheModExists return true if the apache module $name is loaded
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3164)
+* This method is defined in [classes/Tools.php line 3164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3164)
 
 
 #### Arguments
@@ -2821,7 +3007,7 @@ apacheModExists return true if the apache module $name is loaded
 
 
 
-### recurseCopy
+### <a name="method-recurseCopy"></a>recurseCopy
 
     mixed ToolsCore::recurseCopy($src, $dst, boolean $del)
 
@@ -2831,7 +3017,7 @@ Copy the folder $src into $dst, $dst is created if it do not exist
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3189)
+* This method is defined in [classes/Tools.php line 3189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3189)
 
 
 #### Arguments
@@ -2841,7 +3027,7 @@ Copy the folder $src into $dst, $dst is created if it do not exist
 
 
 
-### scandir
+### <a name="method-scandir"></a>scandir
 
     array ToolsCore::scandir($path, $ext, $dir, $recursive)
 
@@ -2851,7 +3037,7 @@ Copy the folder $src into $dst, $dst is created if it do not exist
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3225)
+* This method is defined in [classes/Tools.php line 3225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3225)
 
 
 #### Arguments
@@ -2862,7 +3048,7 @@ Copy the folder $src into $dst, $dst is created if it do not exist
 
 
 
-### version_compare
+### <a name="method-version_compare"></a>version_compare
 
     mixed ToolsCore::version_compare($v1, $v2, string $operator)
 
@@ -2872,7 +3058,7 @@ Align version sent and use internal function
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3266)
+* This method is defined in [classes/Tools.php line 3266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3266)
 
 
 #### Arguments
@@ -2882,7 +3068,7 @@ Align version sent and use internal function
 
 
 
-### alignVersionNumber
+### <a name="method-alignVersionNumber"></a>alignVersionNumber
 
     mixed ToolsCore::alignVersionNumber($v1, $v2)
 
@@ -2894,7 +3080,7 @@ version_compare will work better for its comparison :)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3280)
+* This method is defined in [classes/Tools.php line 3280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3280)
 
 
 #### Arguments
@@ -2903,7 +3089,7 @@ version_compare will work better for its comparison :)
 
 
 
-### modRewriteActive
+### <a name="method-modRewriteActive"></a>modRewriteActive
 
     mixed ToolsCore::modRewriteActive()
 
@@ -2913,12 +3099,12 @@ version_compare will work better for its comparison :)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3300)
+* This method is defined in [classes/Tools.php line 3300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3300)
 
 
 
 
-### unSerialize
+### <a name="method-unSerialize"></a>unSerialize
 
     mixed ToolsCore::unSerialize($serialized, $object)
 
@@ -2928,7 +3114,7 @@ version_compare will work better for its comparison :)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3311](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3311)
+* This method is defined in [classes/Tools.php line 3311](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3311)
 
 
 #### Arguments
@@ -2937,7 +3123,7 @@ version_compare will work better for its comparison :)
 
 
 
-### arrayUnique
+### <a name="method-arrayUnique"></a>arrayUnique
 
     array ToolsCore::arrayUnique(array $array)
 
@@ -2947,7 +3133,7 @@ Reproduce array_unique working before php version 5.2.9
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3325)
+* This method is defined in [classes/Tools.php line 3325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3325)
 
 
 #### Arguments
@@ -2955,7 +3141,7 @@ Reproduce array_unique working before php version 5.2.9
 
 
 
-### cleanNonUnicodeSupport
+### <a name="method-cleanNonUnicodeSupport"></a>cleanNonUnicodeSupport
 
     string ToolsCore::cleanNonUnicodeSupport(string $pattern)
 
@@ -2965,7 +3151,7 @@ Delete unicode class from regular expression patterns
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3339)
+* This method is defined in [classes/Tools.php line 3339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3339)
 
 
 #### Arguments
@@ -2973,7 +3159,7 @@ Delete unicode class from regular expression patterns
 
 
 
-### addonsRequest
+### <a name="method-addonsRequest"></a>addonsRequest
 
     mixed ToolsCore::addonsRequest($request, $params)
 
@@ -2983,7 +3169,7 @@ Delete unicode class from regular expression patterns
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3348)
+* This method is defined in [classes/Tools.php line 3348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3348)
 
 
 #### Arguments
@@ -2992,7 +3178,7 @@ Delete unicode class from regular expression patterns
 
 
 
-### fileAttachment
+### <a name="method-fileAttachment"></a>fileAttachment
 
     array|null ToolsCore::fileAttachment(string $input, boolean $return_content)
 
@@ -3003,7 +3189,7 @@ HTTP file upload variable ($_FILES)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3448](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3448)
+* This method is defined in [classes/Tools.php line 3448](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3448)
 
 
 #### Arguments
@@ -3012,7 +3198,7 @@ HTTP file upload variable ($_FILES)
 
 
 
-### changeFileMTime
+### <a name="method-changeFileMTime"></a>changeFileMTime
 
     mixed ToolsCore::changeFileMTime($file_name)
 
@@ -3022,7 +3208,7 @@ HTTP file upload variable ($_FILES)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3466](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3466)
+* This method is defined in [classes/Tools.php line 3466](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3466)
 
 
 #### Arguments
@@ -3030,7 +3216,7 @@ HTTP file upload variable ($_FILES)
 
 
 
-### waitUntilFileIsModified
+### <a name="method-waitUntilFileIsModified"></a>waitUntilFileIsModified
 
     mixed ToolsCore::waitUntilFileIsModified($file_name, $timeout)
 
@@ -3040,7 +3226,7 @@ HTTP file upload variable ($_FILES)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3471](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3471)
+* This method is defined in [classes/Tools.php line 3471](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3471)
 
 
 #### Arguments
@@ -3049,7 +3235,7 @@ HTTP file upload variable ($_FILES)
 
 
 
-### rtrimString
+### <a name="method-rtrimString"></a>rtrimString
 
     string ToolsCore::rtrimString(string $str, string $str_search)
 
@@ -3059,7 +3245,7 @@ Delete a substring from another one starting from the right
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3497](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3497)
+* This method is defined in [classes/Tools.php line 3497](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3497)
 
 
 #### Arguments
@@ -3068,7 +3254,7 @@ Delete a substring from another one starting from the right
 
 
 
-### formatBytes
+### <a name="method-formatBytes"></a>formatBytes
 
     string ToolsCore::formatBytes($size, integer $precision)
 
@@ -3079,7 +3265,7 @@ e.g. 24962496 => 23.81M
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3514)
+* This method is defined in [classes/Tools.php line 3514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3514)
 
 
 #### Arguments
@@ -3088,7 +3274,7 @@ e.g. 24962496 => 23.81M
 
 
 
-### boolVal
+### <a name="method-boolVal"></a>boolVal
 
     mixed ToolsCore::boolVal($value)
 
@@ -3098,7 +3284,7 @@ e.g. 24962496 => 23.81M
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3525](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3525)
+* This method is defined in [classes/Tools.php line 3525](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3525)
 
 
 #### Arguments
@@ -3106,7 +3292,7 @@ e.g. 24962496 => 23.81M
 
 
 
-### getUserPlatform
+### <a name="method-getUserPlatform"></a>getUserPlatform
 
     mixed ToolsCore::getUserPlatform()
 
@@ -3116,12 +3302,12 @@ e.g. 24962496 => 23.81M
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3533](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3533)
+* This method is defined in [classes/Tools.php line 3533](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3533)
 
 
 
 
-### getUserBrowser
+### <a name="method-getUserBrowser"></a>getUserBrowser
 
     mixed ToolsCore::getUserBrowser()
 
@@ -3131,12 +3317,12 @@ e.g. 24962496 => 23.81M
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3553](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3553)
+* This method is defined in [classes/Tools.php line 3553](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3553)
 
 
 
 
-### getDescriptionClean
+### <a name="method-getDescriptionClean"></a>getDescriptionClean
 
     string ToolsCore::getDescriptionClean($description)
 
@@ -3146,7 +3332,7 @@ Allows to display the category description without HTML tags and slashes
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3583](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3583)
+* This method is defined in [classes/Tools.php line 3583](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3583)
 
 
 #### Arguments
@@ -3154,7 +3340,7 @@ Allows to display the category description without HTML tags and slashes
 
 
 
-### purifyHTML
+### <a name="method-purifyHTML"></a>purifyHTML
 
     mixed ToolsCore::purifyHTML($html, $uri_unescape, $allow_style)
 
@@ -3164,7 +3350,7 @@ Allows to display the category description without HTML tags and slashes
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3588)
+* This method is defined in [classes/Tools.php line 3588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3588)
 
 
 #### Arguments
@@ -3174,7 +3360,7 @@ Allows to display the category description without HTML tags and slashes
 
 
 
-### safeDefine
+### <a name="method-safeDefine"></a>safeDefine
 
     mixed ToolsCore::safeDefine(string $constant, mixed $value)
 
@@ -3184,7 +3370,7 @@ Check if a constant was already defined
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3665](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3665)
+* This method is defined in [classes/Tools.php line 3665](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3665)
 
 
 #### Arguments
@@ -3193,7 +3379,7 @@ Check if a constant was already defined
 
 
 
-### spreadAmount
+### <a name="method-spreadAmount"></a>spreadAmount
 
     mixed ToolsCore::spreadAmount($amount, $precision, $rows, $column)
 
@@ -3211,7 +3397,7 @@ spreadAmount(0.3, 1, $rows, 'a');
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3693](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3693)
+* This method is defined in [classes/Tools.php line 3693](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3693)
 
 
 #### Arguments
@@ -3225,7 +3411,7 @@ spreadAmount(0.3, 1, $rows, 'a');
 
 
 
-### arrayReplaceRecursive
+### <a name="method-arrayReplaceRecursive"></a>arrayReplaceRecursive
 
     mixed ToolsCore::arrayReplaceRecursive(array $base, array $replacements)
 
@@ -3235,7 +3421,7 @@ Replaces elements from passed arrays into the first array recursively
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tools.php line 3731](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3731)
+* This method is defined in [classes/Tools.php line 3731](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L3731)
 
 
 #### Arguments

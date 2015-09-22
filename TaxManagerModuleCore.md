@@ -18,8 +18,21 @@ TaxManagerModuleCore
 Properties
 ----------
 
+* [$tax_manager_class](#property-$tax_manager_class)
 
-### $tax_manager_class
+Methods
+-------
+* [install](#method-install)
+* [hookTaxManager](#method-hookTaxManager)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$tax_manager_class"></a>$tax_manager_class
 
     public mixed $tax_manager_class
 
@@ -28,14 +41,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/TaxManagerModule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#29)
+* This property is defined in [classes/tax/TaxManagerModule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#L29)
 
 
 Methods
 -------
 
 
-### install
+### <a name="method-install"></a>install
 
     mixed TaxManagerModuleCore::install()
 
@@ -44,12 +57,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tax/TaxManagerModule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#31)
+* This method is defined in [classes/tax/TaxManagerModule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#L31)
 
 
 
 
-### hookTaxManager
+### <a name="method-hookTaxManager"></a>hookTaxManager
 
     mixed TaxManagerModuleCore::hookTaxManager($args)
 
@@ -58,7 +71,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tax/TaxManagerModule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#36)
+* This method is defined in [classes/tax/TaxManagerModule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#L36)
 
 
 #### Arguments

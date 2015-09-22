@@ -17,8 +17,20 @@ Smarty_Custom_Template
 Properties
 ----------
 
+* [$smarty](#property-$smarty)
 
-### $smarty
+Methods
+-------
+* [fetch](#method-fetch)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$smarty"></a>$smarty
 
     public \SmartyCustom $smarty = null
 
@@ -27,14 +39,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/SmartyCustom.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#303)
+* This property is defined in [classes/SmartyCustom.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#L303)
 
 
 Methods
 -------
 
 
-### fetch
+### <a name="method-fetch"></a>fetch
 
     mixed Smarty_Custom_Template::fetch($template, $cache_id, $compile_id, $parent, $display, $merge_tpl_vars, $no_output_filter)
 
@@ -43,7 +55,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/SmartyCustom.php line 305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#305)
+* This method is defined in [classes/SmartyCustom.php line 305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#L305)
 
 
 #### Arguments

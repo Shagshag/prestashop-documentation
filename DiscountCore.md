@@ -16,35 +16,60 @@ DiscountCore
 Constants
 ----------
 
+* [PERCENT](#constant-PERCENT)
+* [AMOUNT](#constant-AMOUNT)
+* [FREE_SHIPPING](#constant-FREE_SHIPPING)
 
-### PERCENT
+
+
+Methods
+-------
+* [__get](#method-__get)
+* [__set](#method-__set)
+* [__call](#method-__call)
+* [add](#method-add)
+* [update](#method-update)
+* [getIdByName](#method-getIdByName)
+* [getCustomerDiscounts](#method-getCustomerDiscounts)
+* [getVouchersToCartDisplay](#method-getVouchersToCartDisplay)
+* [getValue](#method-getValue)
+* [discountExists](#method-discountExists)
+* [createOrderDiscount](#method-createOrderDiscount)
+* [display](#method-display)
+
+
+Constants
+----------
+
+
+### <a name="constant-PERCENT"></a>PERCENT
 
     const PERCENT = 1
 
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* This constant is defined in [classes/Discount.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#32)
+* This constant is defined in [classes/Discount.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L32)
 
 
-### AMOUNT
+### <a name="constant-AMOUNT"></a>AMOUNT
 
     const AMOUNT = 2
 
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* This constant is defined in [classes/Discount.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#33)
+* This constant is defined in [classes/Discount.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L33)
 
 
-### FREE_SHIPPING
+### <a name="constant-FREE_SHIPPING"></a>FREE_SHIPPING
 
     const FREE_SHIPPING = 3
 
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* This constant is defined in [classes/Discount.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#34)
+* This constant is defined in [classes/Discount.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L34)
 
 
 
@@ -53,7 +78,7 @@ Methods
 -------
 
 
-### __get
+### <a name="method-__get"></a>__get
 
     mixed DiscountCore::__get($key)
 
@@ -63,7 +88,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/Discount.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#36)
+* This method is defined in [classes/Discount.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L36)
 
 
 #### Arguments
@@ -71,7 +96,7 @@ Methods
 
 
 
-### __set
+### <a name="method-__set"></a>__set
 
     mixed DiscountCore::__set($key, $value)
 
@@ -81,7 +106,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/Discount.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#87)
+* This method is defined in [classes/Discount.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L87)
 
 
 #### Arguments
@@ -90,7 +115,7 @@ Methods
 
 
 
-### __call
+### <a name="method-__call"></a>__call
 
     mixed DiscountCore::__call($method, $args)
 
@@ -100,7 +125,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/Discount.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#137)
+* This method is defined in [classes/Discount.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L137)
 
 
 #### Arguments
@@ -109,7 +134,7 @@ Methods
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed DiscountCore::add($autodate, $nullValues, $categories)
 
@@ -119,7 +144,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/Discount.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#150)
+* This method is defined in [classes/Discount.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L150)
 
 
 #### Arguments
@@ -129,7 +154,7 @@ Methods
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed DiscountCore::update($autodate, $nullValues, $categories)
 
@@ -139,7 +164,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/Discount.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#160)
+* This method is defined in [classes/Discount.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L160)
 
 
 #### Arguments
@@ -149,7 +174,7 @@ Methods
 
 
 
-### getIdByName
+### <a name="method-getIdByName"></a>getIdByName
 
     mixed DiscountCore::getIdByName($code)
 
@@ -160,7 +185,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/Discount.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#170)
+* This method is defined in [classes/Discount.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L170)
 
 
 #### Arguments
@@ -168,7 +193,7 @@ Methods
 
 
 
-### getCustomerDiscounts
+### <a name="method-getCustomerDiscounts"></a>getCustomerDiscounts
 
     mixed DiscountCore::getCustomerDiscounts($id_lang, $id_customer, $active, $includeGenericOnes, $hasStock, \Cart $cart)
 
@@ -179,7 +204,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/Discount.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#178)
+* This method is defined in [classes/Discount.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L178)
 
 
 #### Arguments
@@ -192,7 +217,7 @@ Methods
 
 
 
-### getVouchersToCartDisplay
+### <a name="method-getVouchersToCartDisplay"></a>getVouchersToCartDisplay
 
     mixed DiscountCore::getVouchersToCartDisplay($id_lang, $id_customer)
 
@@ -203,7 +228,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/Discount.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#186)
+* This method is defined in [classes/Discount.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L186)
 
 
 #### Arguments
@@ -212,7 +237,7 @@ Methods
 
 
 
-### getValue
+### <a name="method-getValue"></a>getValue
 
     mixed DiscountCore::getValue($nb_discounts, $order_total_products, $shipping_fees, $id_cart, $useTax, \Currency $currency, \Shop $shop)
 
@@ -222,7 +247,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/Discount.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#194)
+* This method is defined in [classes/Discount.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L194)
 
 
 #### Arguments
@@ -236,7 +261,7 @@ Methods
 
 
 
-### discountExists
+### <a name="method-discountExists"></a>discountExists
 
     mixed DiscountCore::discountExists($discountName, $id_discount)
 
@@ -247,7 +272,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/Discount.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#212)
+* This method is defined in [classes/Discount.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L212)
 
 
 #### Arguments
@@ -256,7 +281,7 @@ Methods
 
 
 
-### createOrderDiscount
+### <a name="method-createOrderDiscount"></a>createOrderDiscount
 
     \Discount DiscountCore::createOrderDiscount(\Order $order, $productList, $qtyList, $name, $shipping_cost, $id_category, $subcategory)
 
@@ -267,7 +292,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/Discount.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#222)
+* This method is defined in [classes/Discount.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L222)
 
 
 #### Arguments
@@ -281,7 +306,7 @@ Methods
 
 
 
-### display
+### <a name="method-display"></a>display
 
     mixed DiscountCore::display($value, $type, $currency)
 
@@ -292,7 +317,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/Discount.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#277)
+* This method is defined in [classes/Discount.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L277)
 
 
 #### Arguments

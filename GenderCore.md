@@ -17,8 +17,25 @@ GenderCore
 Properties
 ----------
 
+* [$id_gender](#property-$id_gender)
+* [$name](#property-$name)
+* [$type](#property-$type)
+* [$definition](#property-$definition)
 
-### $id_gender
+Methods
+-------
+* [__construct](#method-__construct)
+* [getGenders](#method-getGenders)
+* [getImage](#method-getImage)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_gender"></a>$id_gender
 
     public mixed $id_gender
 
@@ -27,10 +44,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Gender.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#32)
+* This property is defined in [classes/Gender.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L32)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public mixed $name
 
@@ -39,10 +56,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Gender.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#33)
+* This property is defined in [classes/Gender.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L33)
 
 
-### $type
+### <a name="property-$type"></a>$type
 
     public mixed $type
 
@@ -51,10 +68,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Gender.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#34)
+* This property is defined in [classes/Gender.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L34)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'gender', 'primary' => 'id_gender', 'multilang' => true, 'fields' => array('type' => array('type' => self::TYPE_INT, 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isString', 'required' => true, 'size' => 20)))
 
@@ -64,14 +81,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Gender.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#39)
+* This property is defined in [classes/Gender.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L39)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed GenderCore::__construct($id, $id_lang, $id_shop)
 
@@ -80,7 +97,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Gender.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#51)
+* This method is defined in [classes/Gender.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L51)
 
 
 #### Arguments
@@ -90,7 +107,7 @@ Methods
 
 
 
-### getGenders
+### <a name="method-getGenders"></a>getGenders
 
     mixed GenderCore::getGenders($id_lang)
 
@@ -100,7 +117,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Gender.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#58)
+* This method is defined in [classes/Gender.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L58)
 
 
 #### Arguments
@@ -108,7 +125,7 @@ Methods
 
 
 
-### getImage
+### <a name="method-getImage"></a>getImage
 
     mixed GenderCore::getImage($use_unknown)
 
@@ -117,7 +134,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Gender.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#68)
+* This method is defined in [classes/Gender.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Gender.php#L68)
 
 
 #### Arguments

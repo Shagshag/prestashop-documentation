@@ -16,8 +16,25 @@ TaxRulesTaxManagerCore
 Properties
 ----------
 
+* [$address](#property-$address)
+* [$type](#property-$type)
+* [$tax_calculator](#property-$tax_calculator)
+* [$configurationManager](#property-$configurationManager)
 
-### $address
+Methods
+-------
+* [__construct](#method-__construct)
+* [isAvailableForThisAddress](#method-isAvailableForThisAddress)
+* [getTaxCalculator](#method-getTaxCalculator)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$address"></a>$address
 
     public mixed $address
 
@@ -26,10 +43,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/TaxRulesTaxManager.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#32)
+* This property is defined in [classes/tax/TaxRulesTaxManager.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#L32)
 
 
-### $type
+### <a name="property-$type"></a>$type
 
     public mixed $type
 
@@ -38,10 +55,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/TaxRulesTaxManager.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#33)
+* This property is defined in [classes/tax/TaxRulesTaxManager.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#L33)
 
 
-### $tax_calculator
+### <a name="property-$tax_calculator"></a>$tax_calculator
 
     public mixed $tax_calculator
 
@@ -50,10 +67,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/TaxRulesTaxManager.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#34)
+* This property is defined in [classes/tax/TaxRulesTaxManager.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#L34)
 
 
-### $configurationManager
+### <a name="property-$configurationManager"></a>$configurationManager
 
     private \Core_Business_ConfigurationInterface $configurationManager
 
@@ -62,14 +79,14 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tax/TaxRulesTaxManager.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#39)
+* This property is defined in [classes/tax/TaxRulesTaxManager.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#L39)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed TaxRulesTaxManagerCore::__construct(\Address $address, mixed $type, \Core_Business_ConfigurationInterface $configurationManager)
 
@@ -78,7 +95,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tax/TaxRulesTaxManager.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#46)
+* This method is defined in [classes/tax/TaxRulesTaxManager.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#L46)
 
 
 #### Arguments
@@ -88,7 +105,7 @@ Methods
 
 
 
-### isAvailableForThisAddress
+### <a name="method-isAvailableForThisAddress"></a>isAvailableForThisAddress
 
     boolean TaxManagerInterface::isAvailableForThisAddress(\Address $address)
 
@@ -99,7 +116,7 @@ This method determine if the tax manager is available for the specified address.
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [TaxManagerInterface](TaxManagerInterface)
-* This method is defined in [classes/tax/TaxRulesTaxManager.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#40)
+* This method is defined in [classes/tax/TaxRulesTaxManager.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#L40)
 
 
 #### Arguments
@@ -107,7 +124,7 @@ This method determine if the tax manager is available for the specified address.
 
 
 
-### getTaxCalculator
+### <a name="method-getTaxCalculator"></a>getTaxCalculator
 
     \TaxCalculator TaxManagerInterface::getTaxCalculator()
 
@@ -117,7 +134,7 @@ Return the tax calculator associated to this address
 
 * Visibility: **public**
 * This method is defined by [TaxManagerInterface](TaxManagerInterface)
-* This method is defined in [classes/tax/TaxRulesTaxManager.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#47)
+* This method is defined in [classes/tax/TaxRulesTaxManager.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#L47)
 
 
 

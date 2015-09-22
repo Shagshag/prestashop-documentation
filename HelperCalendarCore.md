@@ -15,30 +15,75 @@ HelperCalendarCore
 Constants
 ----------
 
+* [DEFAULT_DATE_FORMAT](#constant-DEFAULT_DATE_FORMAT)
+* [DEFAULT_COMPARE_OPTION](#constant-DEFAULT_COMPARE_OPTION)
 
-### DEFAULT_DATE_FORMAT
+Properties
+----------
+
+* [$_actions](#property-$_actions)
+* [$_compare_actions](#property-$_compare_actions)
+* [$_compare_date_from](#property-$_compare_date_from)
+* [$_compare_date_to](#property-$_compare_date_to)
+* [$_compare_date_option](#property-$_compare_date_option)
+* [$_date_format](#property-$_date_format)
+* [$_date_from](#property-$_date_from)
+* [$_date_to](#property-$_date_to)
+* [$_rtl](#property-$_rtl)
+
+Methods
+-------
+* [__construct](#method-__construct)
+* [setActions](#method-setActions)
+* [getActions](#method-getActions)
+* [setCompareActions](#method-setCompareActions)
+* [getCompareActions](#method-getCompareActions)
+* [setCompareDateFrom](#method-setCompareDateFrom)
+* [getCompareDateFrom](#method-getCompareDateFrom)
+* [setCompareDateTo](#method-setCompareDateTo)
+* [getCompareDateTo](#method-getCompareDateTo)
+* [setCompareOption](#method-setCompareOption)
+* [getCompareOption](#method-getCompareOption)
+* [setDateFormat](#method-setDateFormat)
+* [getDateFormat](#method-getDateFormat)
+* [setDateFrom](#method-setDateFrom)
+* [getDateFrom](#method-getDateFrom)
+* [setDateTo](#method-setDateTo)
+* [getDateTo](#method-getDateTo)
+* [setRTL](#method-setRTL)
+* [addAction](#method-addAction)
+* [addCompareAction](#method-addCompareAction)
+* [generate](#method-generate)
+* [isRTL](#method-isRTL)
+
+
+Constants
+----------
+
+
+### <a name="constant-DEFAULT_DATE_FORMAT"></a>DEFAULT_DATE_FORMAT
 
     const DEFAULT_DATE_FORMAT = 'Y-mm-dd'
 
 
 
-* This constant is defined in [classes/helper/HelperCalendar.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#29)
+* This constant is defined in [classes/helper/HelperCalendar.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L29)
 
 
-### DEFAULT_COMPARE_OPTION
+### <a name="constant-DEFAULT_COMPARE_OPTION"></a>DEFAULT_COMPARE_OPTION
 
     const DEFAULT_COMPARE_OPTION = 1
 
 
 
-* This constant is defined in [classes/helper/HelperCalendar.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#30)
+* This constant is defined in [classes/helper/HelperCalendar.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L30)
 
 
 Properties
 ----------
 
 
-### $_actions
+### <a name="property-$_actions"></a>$_actions
 
     private mixed $_actions
 
@@ -47,10 +92,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperCalendar.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#32)
+* This property is defined in [classes/helper/HelperCalendar.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L32)
 
 
-### $_compare_actions
+### <a name="property-$_compare_actions"></a>$_compare_actions
 
     private mixed $_compare_actions
 
@@ -59,10 +104,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperCalendar.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#33)
+* This property is defined in [classes/helper/HelperCalendar.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L33)
 
 
-### $_compare_date_from
+### <a name="property-$_compare_date_from"></a>$_compare_date_from
 
     private mixed $_compare_date_from
 
@@ -71,10 +116,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperCalendar.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#34)
+* This property is defined in [classes/helper/HelperCalendar.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L34)
 
 
-### $_compare_date_to
+### <a name="property-$_compare_date_to"></a>$_compare_date_to
 
     private mixed $_compare_date_to
 
@@ -83,10 +128,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperCalendar.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#35)
+* This property is defined in [classes/helper/HelperCalendar.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L35)
 
 
-### $_compare_date_option
+### <a name="property-$_compare_date_option"></a>$_compare_date_option
 
     private mixed $_compare_date_option
 
@@ -95,10 +140,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperCalendar.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#36)
+* This property is defined in [classes/helper/HelperCalendar.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L36)
 
 
-### $_date_format
+### <a name="property-$_date_format"></a>$_date_format
 
     private mixed $_date_format
 
@@ -107,10 +152,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperCalendar.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#37)
+* This property is defined in [classes/helper/HelperCalendar.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L37)
 
 
-### $_date_from
+### <a name="property-$_date_from"></a>$_date_from
 
     private mixed $_date_from
 
@@ -119,10 +164,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperCalendar.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#38)
+* This property is defined in [classes/helper/HelperCalendar.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L38)
 
 
-### $_date_to
+### <a name="property-$_date_to"></a>$_date_to
 
     private mixed $_date_to
 
@@ -131,10 +176,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperCalendar.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#39)
+* This property is defined in [classes/helper/HelperCalendar.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L39)
 
 
-### $_rtl
+### <a name="property-$_rtl"></a>$_rtl
 
     private mixed $_rtl
 
@@ -143,14 +188,14 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperCalendar.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#40)
+* This property is defined in [classes/helper/HelperCalendar.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L40)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed HelperCalendarCore::__construct()
 
@@ -159,12 +204,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#42)
+* This method is defined in [classes/helper/HelperCalendar.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L42)
 
 
 
 
-### setActions
+### <a name="method-setActions"></a>setActions
 
     mixed HelperCalendarCore::setActions($value)
 
@@ -173,7 +218,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#49)
+* This method is defined in [classes/helper/HelperCalendar.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L49)
 
 
 #### Arguments
@@ -181,7 +226,7 @@ Methods
 
 
 
-### getActions
+### <a name="method-getActions"></a>getActions
 
     mixed HelperCalendarCore::getActions()
 
@@ -190,12 +235,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#59)
+* This method is defined in [classes/helper/HelperCalendar.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L59)
 
 
 
 
-### setCompareActions
+### <a name="method-setCompareActions"></a>setCompareActions
 
     mixed HelperCalendarCore::setCompareActions($value)
 
@@ -204,7 +249,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#68)
+* This method is defined in [classes/helper/HelperCalendar.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L68)
 
 
 #### Arguments
@@ -212,7 +257,7 @@ Methods
 
 
 
-### getCompareActions
+### <a name="method-getCompareActions"></a>getCompareActions
 
     mixed HelperCalendarCore::getCompareActions()
 
@@ -221,12 +266,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#78)
+* This method is defined in [classes/helper/HelperCalendar.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L78)
 
 
 
 
-### setCompareDateFrom
+### <a name="method-setCompareDateFrom"></a>setCompareDateFrom
 
     mixed HelperCalendarCore::setCompareDateFrom($value)
 
@@ -235,7 +280,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#87)
+* This method is defined in [classes/helper/HelperCalendar.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L87)
 
 
 #### Arguments
@@ -243,7 +288,7 @@ Methods
 
 
 
-### getCompareDateFrom
+### <a name="method-getCompareDateFrom"></a>getCompareDateFrom
 
     mixed HelperCalendarCore::getCompareDateFrom()
 
@@ -252,12 +297,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#93)
+* This method is defined in [classes/helper/HelperCalendar.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L93)
 
 
 
 
-### setCompareDateTo
+### <a name="method-setCompareDateTo"></a>setCompareDateTo
 
     mixed HelperCalendarCore::setCompareDateTo($value)
 
@@ -266,7 +311,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#98)
+* This method is defined in [classes/helper/HelperCalendar.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L98)
 
 
 #### Arguments
@@ -274,7 +319,7 @@ Methods
 
 
 
-### getCompareDateTo
+### <a name="method-getCompareDateTo"></a>getCompareDateTo
 
     mixed HelperCalendarCore::getCompareDateTo()
 
@@ -283,12 +328,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#104)
+* This method is defined in [classes/helper/HelperCalendar.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L104)
 
 
 
 
-### setCompareOption
+### <a name="method-setCompareOption"></a>setCompareOption
 
     mixed HelperCalendarCore::setCompareOption($value)
 
@@ -297,7 +342,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#109)
+* This method is defined in [classes/helper/HelperCalendar.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L109)
 
 
 #### Arguments
@@ -305,7 +350,7 @@ Methods
 
 
 
-### getCompareOption
+### <a name="method-getCompareOption"></a>getCompareOption
 
     mixed HelperCalendarCore::getCompareOption()
 
@@ -314,12 +359,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#115)
+* This method is defined in [classes/helper/HelperCalendar.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L115)
 
 
 
 
-### setDateFormat
+### <a name="method-setDateFormat"></a>setDateFormat
 
     mixed HelperCalendarCore::setDateFormat($value)
 
@@ -328,7 +373,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#124)
+* This method is defined in [classes/helper/HelperCalendar.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L124)
 
 
 #### Arguments
@@ -336,7 +381,7 @@ Methods
 
 
 
-### getDateFormat
+### <a name="method-getDateFormat"></a>getDateFormat
 
     mixed HelperCalendarCore::getDateFormat()
 
@@ -345,12 +390,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#134)
+* This method is defined in [classes/helper/HelperCalendar.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L134)
 
 
 
 
-### setDateFrom
+### <a name="method-setDateFrom"></a>setDateFrom
 
     mixed HelperCalendarCore::setDateFrom($value)
 
@@ -359,7 +404,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#143)
+* This method is defined in [classes/helper/HelperCalendar.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L143)
 
 
 #### Arguments
@@ -367,7 +412,7 @@ Methods
 
 
 
-### getDateFrom
+### <a name="method-getDateFrom"></a>getDateFrom
 
     mixed HelperCalendarCore::getDateFrom()
 
@@ -376,12 +421,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#157)
+* This method is defined in [classes/helper/HelperCalendar.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L157)
 
 
 
 
-### setDateTo
+### <a name="method-setDateTo"></a>setDateTo
 
     mixed HelperCalendarCore::setDateTo($value)
 
@@ -390,7 +435,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#166)
+* This method is defined in [classes/helper/HelperCalendar.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L166)
 
 
 #### Arguments
@@ -398,7 +443,7 @@ Methods
 
 
 
-### getDateTo
+### <a name="method-getDateTo"></a>getDateTo
 
     mixed HelperCalendarCore::getDateTo()
 
@@ -407,12 +452,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#180)
+* This method is defined in [classes/helper/HelperCalendar.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L180)
 
 
 
 
-### setRTL
+### <a name="method-setRTL"></a>setRTL
 
     mixed HelperCalendarCore::setRTL($value)
 
@@ -421,7 +466,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#189)
+* This method is defined in [classes/helper/HelperCalendar.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L189)
 
 
 #### Arguments
@@ -429,7 +474,7 @@ Methods
 
 
 
-### addAction
+### <a name="method-addAction"></a>addAction
 
     mixed HelperCalendarCore::addAction($action)
 
@@ -438,7 +483,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#195)
+* This method is defined in [classes/helper/HelperCalendar.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L195)
 
 
 #### Arguments
@@ -446,7 +491,7 @@ Methods
 
 
 
-### addCompareAction
+### <a name="method-addCompareAction"></a>addCompareAction
 
     mixed HelperCalendarCore::addCompareAction($action)
 
@@ -455,7 +500,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#206)
+* This method is defined in [classes/helper/HelperCalendar.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L206)
 
 
 #### Arguments
@@ -463,7 +508,7 @@ Methods
 
 
 
-### generate
+### <a name="method-generate"></a>generate
 
     mixed HelperCalendarCore::generate()
 
@@ -472,12 +517,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#217)
+* This method is defined in [classes/helper/HelperCalendar.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L217)
 
 
 
 
-### isRTL
+### <a name="method-isRTL"></a>isRTL
 
     mixed HelperCalendarCore::isRTL()
 
@@ -486,7 +531,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperCalendar.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#260)
+* This method is defined in [classes/helper/HelperCalendar.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#L260)
 
 
 

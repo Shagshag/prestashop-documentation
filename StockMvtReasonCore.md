@@ -17,8 +17,29 @@ StockMvtReasonCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$name](#property-$name)
+* [$sign](#property-$sign)
+* [$date_add](#property-$date_add)
+* [$date_upd](#property-$date_upd)
+* [$deleted](#property-$deleted)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id
+Methods
+-------
+* [getStockMvtReasons](#method-getStockMvtReasons)
+* [getStockMvtReasonsWithFilter](#method-getStockMvtReasonsWithFilter)
+* [exists](#method-exists)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public integer $id
 
@@ -27,10 +48,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtReason.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#30)
+* This property is defined in [classes/stock/StockMvtReason.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L30)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -39,10 +60,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtReason.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#33)
+* This property is defined in [classes/stock/StockMvtReason.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L33)
 
 
-### $sign
+### <a name="property-$sign"></a>$sign
 
     public integer $sign
 
@@ -51,10 +72,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtReason.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#36)
+* This property is defined in [classes/stock/StockMvtReason.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L36)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -63,10 +84,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtReason.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#39)
+* This property is defined in [classes/stock/StockMvtReason.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L39)
 
 
-### $date_upd
+### <a name="property-$date_upd"></a>$date_upd
 
     public string $date_upd
 
@@ -75,10 +96,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtReason.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#42)
+* This property is defined in [classes/stock/StockMvtReason.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L42)
 
 
-### $deleted
+### <a name="property-$deleted"></a>$deleted
 
     public boolean $deleted
 
@@ -87,10 +108,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtReason.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#45)
+* This property is defined in [classes/stock/StockMvtReason.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L45)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'stock_mvt_reason', 'primary' => 'id_stock_mvt_reason', 'multilang' => true, 'fields' => array('sign' => array('type' => self::TYPE_INT), 'deleted' => array('type' => self::TYPE_BOOL), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 255)))
 
@@ -100,10 +121,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/stock/StockMvtReason.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#51)
+* This property is defined in [classes/stock/StockMvtReason.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L51)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectsNodeName' => 'stock_movement_reasons', 'objectNodeName' => 'stock_movement_reason', 'fields' => array('sign' => array()))
 
@@ -112,14 +133,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtReason.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#67)
+* This property is defined in [classes/stock/StockMvtReason.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L67)
 
 
 Methods
 -------
 
 
-### getStockMvtReasons
+### <a name="method-getStockMvtReasons"></a>getStockMvtReasons
 
     array StockMvtReasonCore::getStockMvtReasons(integer $id_lang, integer $sign)
 
@@ -129,7 +150,7 @@ Gets Stock Mvt Reasons
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockMvtReason.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#82)
+* This method is defined in [classes/stock/StockMvtReason.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L82)
 
 
 #### Arguments
@@ -138,7 +159,7 @@ Gets Stock Mvt Reasons
 
 
 
-### getStockMvtReasonsWithFilter
+### <a name="method-getStockMvtReasonsWithFilter"></a>getStockMvtReasonsWithFilter
 
     mixed StockMvtReasonCore::getStockMvtReasonsWithFilter(integer $id_lang, array $ids_ignore, integer $sign)
 
@@ -148,7 +169,7 @@ Same as StockMvtReason::getStockMvtReasons(), ignoring a specific lists of ids
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockMvtReason.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#105)
+* This method is defined in [classes/stock/StockMvtReason.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L105)
 
 
 #### Arguments
@@ -158,7 +179,7 @@ Same as StockMvtReason::getStockMvtReasons(), ignoring a specific lists of ids
 
 
 
-### exists
+### <a name="method-exists"></a>exists
 
     boolean StockMvtReasonCore::exists(integer $id_stock_mvt_reason)
 
@@ -168,7 +189,7 @@ For a given id_stock_mvt_reason, tells if it exists
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockMvtReason.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#132)
+* This method is defined in [classes/stock/StockMvtReason.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L132)
 
 
 #### Arguments

@@ -17,8 +17,29 @@ AdminAttachmentsControllerCore
 Properties
 ----------
 
+* [$bootstrap](#property-$bootstrap)
+* [$product_attachements](#property-$product_attachements)
+* [$object](#property-$object)
 
-### $bootstrap
+Methods
+-------
+* [__construct](#method-__construct)
+* [setMedia](#method-setMedia)
+* [displayHumanReadableSize](#method-displayHumanReadableSize)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderView](#method-renderView)
+* [renderForm](#method-renderForm)
+* [getList](#method-getList)
+* [postProcess](#method-postProcess)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$bootstrap"></a>$bootstrap
 
     public mixed $bootstrap = true
 
@@ -27,10 +48,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminAttachmentsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#32)
+* This property is defined in [controllers/admin/AdminAttachmentsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#L32)
 
 
-### $product_attachements
+### <a name="property-$product_attachements"></a>$product_attachements
 
     protected mixed $product_attachements = array()
 
@@ -39,10 +60,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminAttachmentsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#34)
+* This property is defined in [controllers/admin/AdminAttachmentsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#L34)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Attachment $object
 
@@ -51,14 +72,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminAttachmentsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#30)
+* This property is defined in [controllers/admin/AdminAttachmentsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminAttachmentsControllerCore::__construct()
 
@@ -67,12 +88,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttachmentsController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#36)
+* This method is defined in [controllers/admin/AdminAttachmentsController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#L36)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminAttachmentsControllerCore::setMedia()
 
@@ -81,12 +102,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttachmentsController.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#84)
+* This method is defined in [controllers/admin/AdminAttachmentsController.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#L84)
 
 
 
 
-### displayHumanReadableSize
+### <a name="method-displayHumanReadableSize"></a>displayHumanReadableSize
 
     mixed AdminAttachmentsControllerCore::displayHumanReadableSize($size)
 
@@ -96,7 +117,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminAttachmentsController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#92)
+* This method is defined in [controllers/admin/AdminAttachmentsController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#L92)
 
 
 #### Arguments
@@ -104,7 +125,7 @@ Methods
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminAttachmentsControllerCore::initPageHeaderToolbar()
 
@@ -113,12 +134,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttachmentsController.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#97)
+* This method is defined in [controllers/admin/AdminAttachmentsController.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#L97)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminAttachmentsControllerCore::renderView()
 
@@ -127,12 +148,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttachmentsController.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#110)
+* This method is defined in [controllers/admin/AdminAttachmentsController.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#L110)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminAttachmentsControllerCore::renderForm()
 
@@ -141,12 +162,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttachmentsController.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#119)
+* This method is defined in [controllers/admin/AdminAttachmentsController.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#L119)
 
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminAttachmentsControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
 
@@ -155,7 +176,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttachmentsController.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#169)
+* This method is defined in [controllers/admin/AdminAttachmentsController.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#L169)
 
 
 #### Arguments
@@ -168,7 +189,7 @@ Methods
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminAttachmentsControllerCore::postProcess()
 
@@ -177,7 +198,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAttachmentsController.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#199)
+* This method is defined in [controllers/admin/AdminAttachmentsController.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttachmentsController.php#L199)
 
 
 

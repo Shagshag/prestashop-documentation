@@ -16,8 +16,27 @@ Curve
 Properties
 ----------
 
+* [$values](#property-$values)
+* [$label](#property-$label)
+* [$type](#property-$type)
 
-### $values
+Methods
+-------
+* [setValues](#method-setValues)
+* [getValues](#method-getValues)
+* [setPoint](#method-setPoint)
+* [setLabel](#method-setLabel)
+* [setType](#method-setType)
+* [getPoint](#method-getPoint)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$values"></a>$values
 
     protected mixed $values = array()
 
@@ -26,10 +45,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Chart.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#146)
+* This property is defined in [classes/Chart.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L146)
 
 
-### $label
+### <a name="property-$label"></a>$label
 
     protected mixed $label
 
@@ -38,10 +57,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Chart.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#147)
+* This property is defined in [classes/Chart.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L147)
 
 
-### $type
+### <a name="property-$type"></a>$type
 
     protected mixed $type
 
@@ -50,14 +69,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Chart.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#148)
+* This property is defined in [classes/Chart.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L148)
 
 
 Methods
 -------
 
 
-### setValues
+### <a name="method-setValues"></a>setValues
 
     mixed Curve::setValues($values)
 
@@ -66,7 +85,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Chart.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#151)
+* This method is defined in [classes/Chart.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L151)
 
 
 #### Arguments
@@ -74,7 +93,7 @@ Methods
 
 
 
-### getValues
+### <a name="method-getValues"></a>getValues
 
     mixed Curve::getValues($time_mode)
 
@@ -83,7 +102,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Chart.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#156)
+* This method is defined in [classes/Chart.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L156)
 
 
 #### Arguments
@@ -91,7 +110,7 @@ Methods
 
 
 
-### setPoint
+### <a name="method-setPoint"></a>setPoint
 
     mixed Curve::setPoint($x, $y)
 
@@ -100,7 +119,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Chart.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#167)
+* This method is defined in [classes/Chart.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L167)
 
 
 #### Arguments
@@ -109,7 +128,7 @@ Methods
 
 
 
-### setLabel
+### <a name="method-setLabel"></a>setLabel
 
     mixed Curve::setLabel($label)
 
@@ -118,7 +137,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Chart.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#172)
+* This method is defined in [classes/Chart.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L172)
 
 
 #### Arguments
@@ -126,7 +145,7 @@ Methods
 
 
 
-### setType
+### <a name="method-setType"></a>setType
 
     mixed Curve::setType($type)
 
@@ -135,7 +154,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Chart.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#177)
+* This method is defined in [classes/Chart.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L177)
 
 
 #### Arguments
@@ -143,7 +162,7 @@ Methods
 
 
 
-### getPoint
+### <a name="method-getPoint"></a>getPoint
 
     mixed Curve::getPoint($x)
 
@@ -152,7 +171,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Chart.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#188)
+* This method is defined in [classes/Chart.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#L188)
 
 
 #### Arguments

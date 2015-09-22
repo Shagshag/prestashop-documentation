@@ -17,8 +17,22 @@ HelperKpiRowCore
 Properties
 ----------
 
+* [$base_folder](#property-$base_folder)
+* [$base_tpl](#property-$base_tpl)
+* [$kpis](#property-$kpis)
 
-### $base_folder
+Methods
+-------
+* [generate](#method-generate)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$base_folder"></a>$base_folder
 
     public mixed $base_folder = 'helpers/kpi/'
 
@@ -27,10 +41,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpiRow.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#29)
+* This property is defined in [classes/helper/HelperKpiRow.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#L29)
 
 
-### $base_tpl
+### <a name="property-$base_tpl"></a>$base_tpl
 
     public mixed $base_tpl = 'row.tpl'
 
@@ -39,10 +53,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpiRow.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#30)
+* This property is defined in [classes/helper/HelperKpiRow.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#L30)
 
 
-### $kpis
+### <a name="property-$kpis"></a>$kpis
 
     public mixed $kpis = array()
 
@@ -51,14 +65,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpiRow.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#32)
+* This property is defined in [classes/helper/HelperKpiRow.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#L32)
 
 
 Methods
 -------
 
 
-### generate
+### <a name="method-generate"></a>generate
 
     mixed HelperKpiRowCore::generate()
 
@@ -67,7 +81,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperKpiRow.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#34)
+* This method is defined in [classes/helper/HelperKpiRow.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpiRow.php#L34)
 
 
 

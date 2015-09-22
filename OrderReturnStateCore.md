@@ -17,8 +17,22 @@ OrderReturnStateCore
 Properties
 ----------
 
+* [$name](#property-$name)
+* [$color](#property-$color)
+* [$definition](#property-$definition)
 
-### $name
+Methods
+-------
+* [getOrderReturnStates](#method-getOrderReturnStates)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -27,10 +41,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderReturnState.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#30)
+* This property is defined in [classes/order/OrderReturnState.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#L30)
 
 
-### $color
+### <a name="property-$color"></a>$color
 
     public string $color
 
@@ -39,10 +53,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/order/OrderReturnState.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#33)
+* This property is defined in [classes/order/OrderReturnState.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#L33)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'order_return_state', 'primary' => 'id_order_return_state', 'multilang' => true, 'fields' => array('color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 64)))
 
@@ -52,14 +66,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/order/OrderReturnState.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#38)
+* This property is defined in [classes/order/OrderReturnState.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#L38)
 
 
 Methods
 -------
 
 
-### getOrderReturnStates
+### <a name="method-getOrderReturnStates"></a>getOrderReturnStates
 
     array OrderReturnStateCore::getOrderReturnStates(integer $id_lang)
 
@@ -69,7 +83,7 @@ Get all available order statuses
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/order/OrderReturnState.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#56)
+* This method is defined in [classes/order/OrderReturnState.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#L56)
 
 
 #### Arguments

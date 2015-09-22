@@ -16,8 +16,127 @@ imageLib
 Properties
 ----------
 
+* [$fileName](#property-$fileName)
+* [$image](#property-$image)
+* [$imageResized](#property-$imageResized)
+* [$widthOriginal](#property-$widthOriginal)
+* [$heightOriginal](#property-$heightOriginal)
+* [$width](#property-$width)
+* [$height](#property-$height)
+* [$imageSize](#property-$imageSize)
+* [$fileExtension](#property-$fileExtension)
+* [$debug](#property-$debug)
+* [$errorArray](#property-$errorArray)
+* [$forceStretch](#property-$forceStretch)
+* [$aggresiveSharpening](#property-$aggresiveSharpening)
+* [$transparentArray](#property-$transparentArray)
+* [$keepTransparency](#property-$keepTransparency)
+* [$fillColorArray](#property-$fillColorArray)
+* [$sharpenArray](#property-$sharpenArray)
+* [$psdReaderPath](#property-$psdReaderPath)
+* [$filterOverlayPath](#property-$filterOverlayPath)
+* [$isInterlace](#property-$isInterlace)
+* [$captionBoxPositionArray](#property-$captionBoxPositionArray)
+* [$fontDir](#property-$fontDir)
+* [$cropFromTopPercent](#property-$cropFromTopPercent)
 
-### $fileName
+Methods
+-------
+* [__construct](#method-__construct)
+* [initialise](#method-initialise)
+* [resizeImage](#method-resizeImage)
+* [cropImage](#method-cropImage)
+* [keepTransparancy](#method-keepTransparancy)
+* [crop](#method-crop)
+* [getCropPlacing](#method-getCropPlacing)
+* [getDimensions](#method-getDimensions)
+* [getSizeByFixedHeight](#method-getSizeByFixedHeight)
+* [getSizeByFixedWidth](#method-getSizeByFixedWidth)
+* [getSizeByAuto](#method-getSizeByAuto)
+* [getOptimalCrop](#method-getOptimalCrop)
+* [sharpen](#method-sharpen)
+* [sharpen2](#method-sharpen2)
+* [findSharp](#method-findSharp)
+* [prepOption](#method-prepOption)
+* [borderPreset](#method-borderPreset)
+* [addBorder](#method-addBorder)
+* [greyScale](#method-greyScale)
+* [greyScaleEnhanced](#method-greyScaleEnhanced)
+* [greyScaleDramatic](#method-greyScaleDramatic)
+* [blackAndWhite](#method-blackAndWhite)
+* [negative](#method-negative)
+* [sepia](#method-sepia)
+* [sepia2](#method-sepia2)
+* [vintage](#method-vintage)
+* [gd_filter_monopin](#method-gd_filter_monopin)
+* [gd_filter_vintage](#method-gd_filter_vintage)
+* [gd_apply_overlay](#method-gd_apply_overlay)
+* [image_colorize](#method-image_colorize)
+* [addReflection](#method-addReflection)
+* [rotate](#method-rotate)
+* [roundCorners](#method-roundCorners)
+* [addShadow](#method-addShadow)
+* [addCaptionBox](#method-addCaptionBox)
+* [addTextToCaptionBox](#method-addTextToCaptionBox)
+* [calculateCaptionBoxPosition](#method-calculateCaptionBoxPosition)
+* [getExif](#method-getExif)
+* [resolveExposureProgram](#method-resolveExposureProgram)
+* [resolveMeteringMode](#method-resolveMeteringMode)
+* [resolveFlash](#method-resolveFlash)
+* [writeIPTCcaption](#method-writeIPTCcaption)
+* [writeIPTCwriter](#method-writeIPTCwriter)
+* [writeIPTC](#method-writeIPTC)
+* [iptc_maketag](#method-iptc_maketag)
+* [addText](#method-addText)
+* [getTextFont](#method-getTextFont)
+* [getTextSize](#method-getTextSize)
+* [addWatermark](#method-addWatermark)
+* [calculatePosition](#method-calculatePosition)
+* [filterOpacity](#method-filterOpacity)
+* [openImage](#method-openImage)
+* [reset](#method-reset)
+* [saveImage](#method-saveImage)
+* [displayImage](#method-displayImage)
+* [setTransparency](#method-setTransparency)
+* [setFillColor](#method-setFillColor)
+* [setCropFromTop](#method-setCropFromTop)
+* [testGDInstalled](#method-testGDInstalled)
+* [testEXIFInstalled](#method-testEXIFInstalled)
+* [testIsImage](#method-testIsImage)
+* [testFunct](#method-testFunct)
+* [setForceStretch](#method-setForceStretch)
+* [setFile](#method-setFile)
+* [getFileName](#method-getFileName)
+* [getHeight](#method-getHeight)
+* [getWidth](#method-getWidth)
+* [getOriginalHeight](#method-getOriginalHeight)
+* [getOriginalWidth](#method-getOriginalWidth)
+* [getErrors](#method-getErrors)
+* [checkInterlaceImage](#method-checkInterlaceImage)
+* [formatColor](#method-formatColor)
+* [hex2dec](#method-hex2dec)
+* [createImageColor](#method-createImageColor)
+* [testColorExists](#method-testColorExists)
+* [findUnusedGreen](#method-findUnusedGreen)
+* [findUnusedBlue](#method-findUnusedBlue)
+* [invertTransparency](#method-invertTransparency)
+* [transparentImage](#method-transparentImage)
+* [checkStringStartsWith](#method-checkStringStartsWith)
+* [GD2BMPstring](#method-GD2BMPstring)
+* [GetPixelColor](#method-GetPixelColor)
+* [LittleEndian2String](#method-LittleEndian2String)
+* [ImageCreateFromBMP](#method-ImageCreateFromBMP)
+* [imagecreatefrompsd](#method-imagecreatefrompsd)
+* [__destruct](#method-__destruct)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$fileName"></a>$fileName
 
     private mixed $fileName
 
@@ -26,10 +145,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#165)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L165)
 
 
-### $image
+### <a name="property-$image"></a>$image
 
     private mixed $image
 
@@ -38,10 +157,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#166)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L166)
 
 
-### $imageResized
+### <a name="property-$imageResized"></a>$imageResized
 
     protected mixed $imageResized
 
@@ -50,10 +169,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#167)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L167)
 
 
-### $widthOriginal
+### <a name="property-$widthOriginal"></a>$widthOriginal
 
     private mixed $widthOriginal
 
@@ -62,10 +181,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#168)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L168)
 
 
-### $heightOriginal
+### <a name="property-$heightOriginal"></a>$heightOriginal
 
     private mixed $heightOriginal
 
@@ -74,10 +193,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#169)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L169)
 
 
-### $width
+### <a name="property-$width"></a>$width
 
     private mixed $width
 
@@ -86,10 +205,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#170)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L170)
 
 
-### $height
+### <a name="property-$height"></a>$height
 
     private mixed $height
 
@@ -98,10 +217,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#171)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L171)
 
 
-### $imageSize
+### <a name="property-$imageSize"></a>$imageSize
 
     private mixed $imageSize
 
@@ -110,10 +229,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#172)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L172)
 
 
-### $fileExtension
+### <a name="property-$fileExtension"></a>$fileExtension
 
     private mixed $fileExtension
 
@@ -122,10 +241,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#173)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L173)
 
 
-### $debug
+### <a name="property-$debug"></a>$debug
 
     private mixed $debug = true
 
@@ -134,10 +253,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#175)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L175)
 
 
-### $errorArray
+### <a name="property-$errorArray"></a>$errorArray
 
     private mixed $errorArray = array()
 
@@ -146,10 +265,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#176)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L176)
 
 
-### $forceStretch
+### <a name="property-$forceStretch"></a>$forceStretch
 
     private mixed $forceStretch = true
 
@@ -158,10 +277,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#178)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L178)
 
 
-### $aggresiveSharpening
+### <a name="property-$aggresiveSharpening"></a>$aggresiveSharpening
 
     private mixed $aggresiveSharpening = false
 
@@ -170,10 +289,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#179)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L179)
 
 
-### $transparentArray
+### <a name="property-$transparentArray"></a>$transparentArray
 
     private mixed $transparentArray = array('.png', '.gif')
 
@@ -182,10 +301,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#181)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L181)
 
 
-### $keepTransparency
+### <a name="property-$keepTransparency"></a>$keepTransparency
 
     private mixed $keepTransparency = true
 
@@ -194,10 +313,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#182)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L182)
 
 
-### $fillColorArray
+### <a name="property-$fillColorArray"></a>$fillColorArray
 
     private mixed $fillColorArray = array('r' => 255, 'g' => 255, 'b' => 255)
 
@@ -206,10 +325,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#183)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L183)
 
 
-### $sharpenArray
+### <a name="property-$sharpenArray"></a>$sharpenArray
 
     private mixed $sharpenArray = array('jpg')
 
@@ -218,10 +337,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#185)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L185)
 
 
-### $psdReaderPath
+### <a name="property-$psdReaderPath"></a>$psdReaderPath
 
     private mixed $psdReaderPath
 
@@ -230,10 +349,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#187)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L187)
 
 
-### $filterOverlayPath
+### <a name="property-$filterOverlayPath"></a>$filterOverlayPath
 
     private mixed $filterOverlayPath
 
@@ -242,10 +361,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#188)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L188)
 
 
-### $isInterlace
+### <a name="property-$isInterlace"></a>$isInterlace
 
     private mixed $isInterlace
 
@@ -254,10 +373,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#190)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L190)
 
 
-### $captionBoxPositionArray
+### <a name="property-$captionBoxPositionArray"></a>$captionBoxPositionArray
 
     private mixed $captionBoxPositionArray = array()
 
@@ -266,10 +385,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#192)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L192)
 
 
-### $fontDir
+### <a name="property-$fontDir"></a>$fontDir
 
     private mixed $fontDir = 'fonts'
 
@@ -278,10 +397,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#194)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L194)
 
 
-### $cropFromTopPercent
+### <a name="property-$cropFromTopPercent"></a>$cropFromTopPercent
 
     private mixed $cropFromTopPercent = 10
 
@@ -290,14 +409,14 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [admin/filemanager/include/php_image_magician.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#196)
+* This property is defined in [admin/filemanager/include/php_image_magician.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L196)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed imageLib::__construct($fileName)
 
@@ -306,7 +425,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#201)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L201)
 
 
 #### Arguments
@@ -314,7 +433,7 @@ Methods
 
 
 
-### initialise
+### <a name="method-initialise"></a>initialise
 
     mixed imageLib::initialise()
 
@@ -323,12 +442,12 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#258)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L258)
 
 
 
 
-### resizeImage
+### <a name="method-resizeImage"></a>resizeImage
 
     mixed imageLib::resizeImage($newWidth, $newHeight, $option, $sharpen, $autoRotate)
 
@@ -337,7 +456,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#274)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L274)
 
 
 #### Arguments
@@ -349,7 +468,7 @@ Methods
 
 
 
-### cropImage
+### <a name="method-cropImage"></a>cropImage
 
     mixed imageLib::cropImage($newWidth, $newHeight, $cropPos)
 
@@ -358,7 +477,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 383](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#383)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 383](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L383)
 
 
 #### Arguments
@@ -368,7 +487,7 @@ Methods
 
 
 
-### keepTransparancy
+### <a name="method-keepTransparancy"></a>keepTransparancy
 
     mixed imageLib::keepTransparancy($width, $height, $im)
 
@@ -377,7 +496,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#414)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L414)
 
 
 #### Arguments
@@ -387,7 +506,7 @@ Methods
 
 
 
-### crop
+### <a name="method-crop"></a>crop
 
     mixed imageLib::crop($optimalWidth, $optimalHeight, $newWidth, $newHeight, $cropPos)
 
@@ -396,7 +515,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#438)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L438)
 
 
 #### Arguments
@@ -408,7 +527,7 @@ Methods
 
 
 
-### getCropPlacing
+### <a name="method-getCropPlacing"></a>getCropPlacing
 
     mixed imageLib::getCropPlacing($optimalWidth, $optimalHeight, $newWidth, $newHeight, $pos)
 
@@ -417,7 +536,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#469)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L469)
 
 
 #### Arguments
@@ -429,7 +548,7 @@ Methods
 
 
 
-### getDimensions
+### <a name="method-getDimensions"></a>getDimensions
 
     mixed imageLib::getDimensions($newWidth, $newHeight, $option)
 
@@ -438,7 +557,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 562](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#562)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 562](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L562)
 
 
 #### Arguments
@@ -448,7 +567,7 @@ Methods
 
 
 
-### getSizeByFixedHeight
+### <a name="method-getSizeByFixedHeight"></a>getSizeByFixedHeight
 
     mixed imageLib::getSizeByFixedHeight($newWidth, $newHeight)
 
@@ -457,7 +576,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 621](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#621)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 621](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L621)
 
 
 #### Arguments
@@ -466,7 +585,7 @@ Methods
 
 
 
-### getSizeByFixedWidth
+### <a name="method-getSizeByFixedWidth"></a>getSizeByFixedWidth
 
     mixed imageLib::getSizeByFixedWidth($newWidth, $newHeight)
 
@@ -475,7 +594,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#642)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L642)
 
 
 #### Arguments
@@ -484,7 +603,7 @@ Methods
 
 
 
-### getSizeByAuto
+### <a name="method-getSizeByAuto"></a>getSizeByAuto
 
     mixed imageLib::getSizeByAuto($newWidth, $newHeight)
 
@@ -493,7 +612,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 663](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#663)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 663](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L663)
 
 
 #### Arguments
@@ -502,7 +621,7 @@ Methods
 
 
 
-### getOptimalCrop
+### <a name="method-getOptimalCrop"></a>getOptimalCrop
 
     mixed imageLib::getOptimalCrop($newWidth, $newHeight)
 
@@ -511,7 +630,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 726](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#726)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 726](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L726)
 
 
 #### Arguments
@@ -520,7 +639,7 @@ Methods
 
 
 
-### sharpen
+### <a name="method-sharpen"></a>sharpen
 
     mixed imageLib::sharpen()
 
@@ -529,12 +648,12 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 784](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#784)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 784](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L784)
 
 
 
 
-### sharpen2
+### <a name="method-sharpen2"></a>sharpen2
 
     mixed imageLib::sharpen2($level)
 
@@ -543,7 +662,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 829](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#829)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 829](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L829)
 
 
 #### Arguments
@@ -551,7 +670,7 @@ Methods
 
 
 
-### findSharp
+### <a name="method-findSharp"></a>findSharp
 
     mixed imageLib::findSharp($orig, $final)
 
@@ -560,7 +679,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 840](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#840)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 840](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L840)
 
 
 #### Arguments
@@ -569,7 +688,7 @@ Methods
 
 
 
-### prepOption
+### <a name="method-prepOption"></a>prepOption
 
     mixed imageLib::prepOption($option)
 
@@ -578,7 +697,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 861](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#861)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 861](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L861)
 
 
 #### Arguments
@@ -586,7 +705,7 @@ Methods
 
 
 
-### borderPreset
+### <a name="method-borderPreset"></a>borderPreset
 
     mixed imageLib::borderPreset($preset)
 
@@ -595,7 +714,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 899](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#899)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 899](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L899)
 
 
 #### Arguments
@@ -603,7 +722,7 @@ Methods
 
 
 
-### addBorder
+### <a name="method-addBorder"></a>addBorder
 
     mixed imageLib::addBorder($thickness, $rgbArray)
 
@@ -612,7 +731,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 919](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#919)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 919](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L919)
 
 
 #### Arguments
@@ -621,7 +740,7 @@ Methods
 
 
 
-### greyScale
+### <a name="method-greyScale"></a>greyScale
 
     mixed imageLib::greyScale()
 
@@ -630,12 +749,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 955](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#955)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 955](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L955)
 
 
 
 
-### greyScaleEnhanced
+### <a name="method-greyScaleEnhanced"></a>greyScaleEnhanced
 
     mixed imageLib::greyScaleEnhanced()
 
@@ -644,12 +763,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 972](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#972)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 972](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L972)
 
 
 
 
-### greyScaleDramatic
+### <a name="method-greyScaleDramatic"></a>greyScaleDramatic
 
     mixed imageLib::greyScaleDramatic()
 
@@ -658,12 +777,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 992](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#992)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 992](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L992)
 
 
 
 
-### blackAndWhite
+### <a name="method-blackAndWhite"></a>blackAndWhite
 
     mixed imageLib::blackAndWhite()
 
@@ -672,12 +791,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1003](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1003)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1003](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1003)
 
 
 
 
-### negative
+### <a name="method-negative"></a>negative
 
     mixed imageLib::negative()
 
@@ -686,12 +805,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1024](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1024)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1024](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1024)
 
 
 
 
-### sepia
+### <a name="method-sepia"></a>sepia
 
     mixed imageLib::sepia()
 
@@ -700,12 +819,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1044](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1044)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1044](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1044)
 
 
 
 
-### sepia2
+### <a name="method-sepia2"></a>sepia2
 
     mixed imageLib::sepia2()
 
@@ -714,12 +833,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1064](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1064)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1064](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1064)
 
 
 
 
-### vintage
+### <a name="method-vintage"></a>vintage
 
     mixed imageLib::vintage()
 
@@ -728,12 +847,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1083](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1083)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1083](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1083)
 
 
 
 
-### gd_filter_monopin
+### <a name="method-gd_filter_monopin"></a>gd_filter_monopin
 
     mixed imageLib::gd_filter_monopin()
 
@@ -742,12 +861,12 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1095](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1095)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1095](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1095)
 
 
 
 
-### gd_filter_vintage
+### <a name="method-gd_filter_vintage"></a>gd_filter_vintage
 
     mixed imageLib::gd_filter_vintage()
 
@@ -756,12 +875,12 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1107)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1107)
 
 
 
 
-### gd_apply_overlay
+### <a name="method-gd_apply_overlay"></a>gd_apply_overlay
 
     mixed imageLib::gd_apply_overlay($im, $type, $amount)
 
@@ -770,7 +889,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1122)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1122)
 
 
 #### Arguments
@@ -780,7 +899,7 @@ Apply a PNG overlay
 
 
 
-### image_colorize
+### <a name="method-image_colorize"></a>image_colorize
 
     mixed imageLib::image_colorize($rgb)
 
@@ -789,7 +908,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1161)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1161)
 
 
 #### Arguments
@@ -797,7 +916,7 @@ Apply a PNG overlay
 
 
 
-### addReflection
+### <a name="method-addReflection"></a>addReflection
 
     mixed imageLib::addReflection($reflectionHeight, $startingTransparency, $inside, $bgColor, $stretch, $divider)
 
@@ -806,7 +925,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1187)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1187)
 
 
 #### Arguments
@@ -819,7 +938,7 @@ Apply a PNG overlay
 
 
 
-### rotate
+### <a name="method-rotate"></a>rotate
 
     mixed imageLib::rotate($value, $bgColor)
 
@@ -828,7 +947,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1274)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1274)
 
 
 #### Arguments
@@ -837,7 +956,7 @@ Apply a PNG overlay
 
 
 
-### roundCorners
+### <a name="method-roundCorners"></a>roundCorners
 
     mixed imageLib::roundCorners($radius, $bgColor)
 
@@ -846,7 +965,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1342](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1342)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1342](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1342)
 
 
 #### Arguments
@@ -855,7 +974,7 @@ Apply a PNG overlay
 
 
 
-### addShadow
+### <a name="method-addShadow"></a>addShadow
 
     mixed imageLib::addShadow($shadowAngle, $blur, $bgColor)
 
@@ -864,7 +983,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1438)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1438)
 
 
 #### Arguments
@@ -874,7 +993,7 @@ Apply a PNG overlay
 
 
 
-### addCaptionBox
+### <a name="method-addCaptionBox"></a>addCaptionBox
 
     mixed imageLib::addCaptionBox($side, $thickness, $padding, $bgColor, $transparencyAmount)
 
@@ -883,7 +1002,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1585](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1585)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1585](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1585)
 
 
 #### Arguments
@@ -895,7 +1014,7 @@ Apply a PNG overlay
 
 
 
-### addTextToCaptionBox
+### <a name="method-addTextToCaptionBox"></a>addTextToCaptionBox
 
     mixed imageLib::addTextToCaptionBox($text, $fontColor, $fontSize, $angle, $font)
 
@@ -904,7 +1023,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1620](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1620)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1620](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1620)
 
 
 #### Arguments
@@ -916,7 +1035,7 @@ Apply a PNG overlay
 
 
 
-### calculateCaptionBoxPosition
+### <a name="method-calculateCaptionBoxPosition"></a>calculateCaptionBoxPosition
 
     mixed imageLib::calculateCaptionBoxPosition($side, $thickness, $padding)
 
@@ -925,7 +1044,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1670)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1670)
 
 
 #### Arguments
@@ -935,7 +1054,7 @@ Apply a PNG overlay
 
 
 
-### getExif
+### <a name="method-getExif"></a>getExif
 
     mixed imageLib::getExif($debug)
 
@@ -944,7 +1063,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1711)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1711)
 
 
 #### Arguments
@@ -952,7 +1071,7 @@ Apply a PNG overlay
 
 
 
-### resolveExposureProgram
+### <a name="method-resolveExposureProgram"></a>resolveExposureProgram
 
     mixed imageLib::resolveExposureProgram($ep)
 
@@ -961,7 +1080,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1897](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1897)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1897](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1897)
 
 
 #### Arguments
@@ -969,7 +1088,7 @@ Apply a PNG overlay
 
 
 
-### resolveMeteringMode
+### <a name="method-resolveMeteringMode"></a>resolveMeteringMode
 
     mixed imageLib::resolveMeteringMode($mm)
 
@@ -978,7 +1097,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1937](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1937)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1937](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1937)
 
 
 #### Arguments
@@ -986,7 +1105,7 @@ Apply a PNG overlay
 
 
 
-### resolveFlash
+### <a name="method-resolveFlash"></a>resolveFlash
 
     mixed imageLib::resolveFlash($flash)
 
@@ -995,7 +1114,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 1974](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#1974)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 1974](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1974)
 
 
 #### Arguments
@@ -1003,7 +1122,7 @@ Apply a PNG overlay
 
 
 
-### writeIPTCcaption
+### <a name="method-writeIPTCcaption"></a>writeIPTCcaption
 
     mixed imageLib::writeIPTCcaption($value)
 
@@ -1012,7 +1131,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2061](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2061)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2061](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2061)
 
 
 #### Arguments
@@ -1020,7 +1139,7 @@ Apply a PNG overlay
 
 
 
-### writeIPTCwriter
+### <a name="method-writeIPTCwriter"></a>writeIPTCwriter
 
     mixed imageLib::writeIPTCwriter($value)
 
@@ -1029,7 +1148,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2069](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2069)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2069](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2069)
 
 
 #### Arguments
@@ -1037,7 +1156,7 @@ Apply a PNG overlay
 
 
 
-### writeIPTC
+### <a name="method-writeIPTC"></a>writeIPTC
 
     mixed imageLib::writeIPTC($dat, $value)
 
@@ -1046,7 +1165,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2076](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2076)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2076](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2076)
 
 
 #### Arguments
@@ -1055,7 +1174,7 @@ Apply a PNG overlay
 
 
 
-### iptc_maketag
+### <a name="method-iptc_maketag"></a>iptc_maketag
 
     mixed imageLib::iptc_maketag($rec, $dat, $val)
 
@@ -1064,7 +1183,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2088](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2088)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2088](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2088)
 
 
 #### Arguments
@@ -1074,7 +1193,7 @@ Apply a PNG overlay
 
 
 
-### addText
+### <a name="method-addText"></a>addText
 
     mixed imageLib::addText($text, $pos, $padding, $fontColor, $fontSize, $angle, $font)
 
@@ -1083,7 +1202,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2131)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2131)
 
 
 #### Arguments
@@ -1097,7 +1216,7 @@ Apply a PNG overlay
 
 
 
-### getTextFont
+### <a name="method-getTextFont"></a>getTextFont
 
     mixed imageLib::getTextFont($font)
 
@@ -1106,7 +1225,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2169)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2169)
 
 
 #### Arguments
@@ -1114,7 +1233,7 @@ Apply a PNG overlay
 
 
 
-### getTextSize
+### <a name="method-getTextSize"></a>getTextSize
 
     mixed imageLib::getTextSize($fontSize, $angle, $font, $text)
 
@@ -1123,7 +1242,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2201)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2201)
 
 
 #### Arguments
@@ -1134,7 +1253,7 @@ Apply a PNG overlay
 
 
 
-### addWatermark
+### <a name="method-addWatermark"></a>addWatermark
 
     mixed imageLib::addWatermark($watermarkImage, $pos, $padding, $opacity)
 
@@ -1143,7 +1262,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2221)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2221)
 
 
 #### Arguments
@@ -1154,7 +1273,7 @@ Apply a PNG overlay
 
 
 
-### calculatePosition
+### <a name="method-calculatePosition"></a>calculatePosition
 
     mixed imageLib::calculatePosition($pos, $padding, $assetWidth, $assetHeight, $upperLeft)
 
@@ -1163,7 +1282,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2273)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2273)
 
 
 #### Arguments
@@ -1175,7 +1294,7 @@ Apply a PNG overlay
 
 
 
-### filterOpacity
+### <a name="method-filterOpacity"></a>filterOpacity
 
     mixed imageLib::filterOpacity($img, $opacity)
 
@@ -1184,7 +1303,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2366)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2366)
 
 
 #### Arguments
@@ -1193,7 +1312,7 @@ Apply a PNG overlay
 
 
 
-### openImage
+### <a name="method-openImage"></a>openImage
 
     mixed imageLib::openImage($file)
 
@@ -1202,7 +1321,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2433](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2433)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2433](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2433)
 
 
 #### Arguments
@@ -1210,7 +1329,7 @@ Apply a PNG overlay
 
 
 
-### reset
+### <a name="method-reset"></a>reset
 
     mixed imageLib::reset()
 
@@ -1219,12 +1338,12 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2485](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2485)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2485](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2485)
 
 
 
 
-### saveImage
+### <a name="method-saveImage"></a>saveImage
 
     mixed imageLib::saveImage($savePath, $imageQuality)
 
@@ -1233,7 +1352,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2500](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2500)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2500](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2500)
 
 
 #### Arguments
@@ -1242,7 +1361,7 @@ Apply a PNG overlay
 
 
 
-### displayImage
+### <a name="method-displayImage"></a>displayImage
 
     mixed imageLib::displayImage($fileType, $imageQuality)
 
@@ -1251,7 +1370,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2598](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2598)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2598](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2598)
 
 
 #### Arguments
@@ -1260,7 +1379,7 @@ Apply a PNG overlay
 
 
 
-### setTransparency
+### <a name="method-setTransparency"></a>setTransparency
 
     mixed imageLib::setTransparency($bool)
 
@@ -1269,7 +1388,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2654](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2654)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2654](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2654)
 
 
 #### Arguments
@@ -1277,7 +1396,7 @@ Apply a PNG overlay
 
 
 
-### setFillColor
+### <a name="method-setFillColor"></a>setFillColor
 
     mixed imageLib::setFillColor($value)
 
@@ -1286,7 +1405,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2662](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2662)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2662](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2662)
 
 
 #### Arguments
@@ -1294,7 +1413,7 @@ Apply a PNG overlay
 
 
 
-### setCropFromTop
+### <a name="method-setCropFromTop"></a>setCropFromTop
 
     mixed imageLib::setCropFromTop($value)
 
@@ -1303,7 +1422,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2680](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2680)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2680](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2680)
 
 
 #### Arguments
@@ -1311,7 +1430,7 @@ Apply a PNG overlay
 
 
 
-### testGDInstalled
+### <a name="method-testGDInstalled"></a>testGDInstalled
 
     mixed imageLib::testGDInstalled()
 
@@ -1320,12 +1439,12 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2688](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2688)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2688](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2688)
 
 
 
 
-### testEXIFInstalled
+### <a name="method-testEXIFInstalled"></a>testEXIFInstalled
 
     mixed imageLib::testEXIFInstalled()
 
@@ -1334,12 +1453,12 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2709](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2709)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2709](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2709)
 
 
 
 
-### testIsImage
+### <a name="method-testIsImage"></a>testIsImage
 
     mixed imageLib::testIsImage($image)
 
@@ -1348,7 +1467,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2730](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2730)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2730](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2730)
 
 
 #### Arguments
@@ -1356,7 +1475,7 @@ Apply a PNG overlay
 
 
 
-### testFunct
+### <a name="method-testFunct"></a>testFunct
 
     mixed imageLib::testFunct()
 
@@ -1365,12 +1484,12 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2751](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2751)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2751](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2751)
 
 
 
 
-### setForceStretch
+### <a name="method-setForceStretch"></a>setForceStretch
 
     mixed imageLib::setForceStretch($value)
 
@@ -1379,7 +1498,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2766](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2766)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2766](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2766)
 
 
 #### Arguments
@@ -1387,7 +1506,7 @@ Apply a PNG overlay
 
 
 
-### setFile
+### <a name="method-setFile"></a>setFile
 
     mixed imageLib::setFile($fileName)
 
@@ -1396,7 +1515,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2781](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2781)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2781](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2781)
 
 
 #### Arguments
@@ -1404,7 +1523,7 @@ Apply a PNG overlay
 
 
 
-### getFileName
+### <a name="method-getFileName"></a>getFileName
 
     mixed imageLib::getFileName()
 
@@ -1413,12 +1532,12 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2796](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2796)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2796](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2796)
 
 
 
 
-### getHeight
+### <a name="method-getHeight"></a>getHeight
 
     mixed imageLib::getHeight()
 
@@ -1427,12 +1546,12 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2811](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2811)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2811](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2811)
 
 
 
 
-### getWidth
+### <a name="method-getWidth"></a>getWidth
 
     mixed imageLib::getWidth()
 
@@ -1441,12 +1560,12 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2818](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2818)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2818](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2818)
 
 
 
 
-### getOriginalHeight
+### <a name="method-getOriginalHeight"></a>getOriginalHeight
 
     mixed imageLib::getOriginalHeight()
 
@@ -1455,12 +1574,12 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2825](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2825)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2825](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2825)
 
 
 
 
-### getOriginalWidth
+### <a name="method-getOriginalWidth"></a>getOriginalWidth
 
     mixed imageLib::getOriginalWidth()
 
@@ -1469,12 +1588,12 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2832](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2832)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2832](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2832)
 
 
 
 
-### getErrors
+### <a name="method-getErrors"></a>getErrors
 
     mixed imageLib::getErrors()
 
@@ -1483,12 +1602,12 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2839](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2839)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2839](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2839)
 
 
 
 
-### checkInterlaceImage
+### <a name="method-checkInterlaceImage"></a>checkInterlaceImage
 
     mixed imageLib::checkInterlaceImage($isEnabled)
 
@@ -1497,7 +1616,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2854](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2854)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2854](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2854)
 
 
 #### Arguments
@@ -1505,7 +1624,7 @@ Apply a PNG overlay
 
 
 
-### formatColor
+### <a name="method-formatColor"></a>formatColor
 
     mixed imageLib::formatColor($value)
 
@@ -1514,7 +1633,7 @@ Apply a PNG overlay
 
 
 * Visibility: **protected**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2864](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2864)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2864](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2864)
 
 
 #### Arguments
@@ -1522,7 +1641,7 @@ Apply a PNG overlay
 
 
 
-### hex2dec
+### <a name="method-hex2dec"></a>hex2dec
 
     mixed imageLib::hex2dec($hex)
 
@@ -1531,7 +1650,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2904](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2904)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2904](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2904)
 
 
 #### Arguments
@@ -1539,7 +1658,7 @@ Apply a PNG overlay
 
 
 
-### createImageColor
+### <a name="method-createImageColor"></a>createImageColor
 
     mixed imageLib::createImageColor($colorArray)
 
@@ -1548,7 +1667,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2924](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2924)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2924](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2924)
 
 
 #### Arguments
@@ -1556,7 +1675,7 @@ Apply a PNG overlay
 
 
 
-### testColorExists
+### <a name="method-testColorExists"></a>testColorExists
 
     mixed imageLib::testColorExists($colorArray)
 
@@ -1565,7 +1684,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2935](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2935)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2935](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2935)
 
 
 #### Arguments
@@ -1573,7 +1692,7 @@ Apply a PNG overlay
 
 
 
-### findUnusedGreen
+### <a name="method-findUnusedGreen"></a>findUnusedGreen
 
     mixed imageLib::findUnusedGreen()
 
@@ -1582,12 +1701,12 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2950](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2950)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2950](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2950)
 
 
 
 
-### findUnusedBlue
+### <a name="method-findUnusedBlue"></a>findUnusedBlue
 
     mixed imageLib::findUnusedBlue()
 
@@ -1596,12 +1715,12 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2973](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2973)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2973](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2973)
 
 
 
 
-### invertTransparency
+### <a name="method-invertTransparency"></a>invertTransparency
 
     mixed imageLib::invertTransparency($value, $originalMax, $invert)
 
@@ -1610,7 +1729,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 2996](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#2996)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 2996](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2996)
 
 
 #### Arguments
@@ -1620,7 +1739,7 @@ Apply a PNG overlay
 
 
 
-### transparentImage
+### <a name="method-transparentImage"></a>transparentImage
 
     mixed imageLib::transparentImage($src)
 
@@ -1629,7 +1748,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 3021](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#3021)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 3021](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3021)
 
 
 #### Arguments
@@ -1637,7 +1756,7 @@ Apply a PNG overlay
 
 
 
-### checkStringStartsWith
+### <a name="method-checkStringStartsWith"></a>checkStringStartsWith
 
     mixed imageLib::checkStringStartsWith($needle, $haystack)
 
@@ -1646,7 +1765,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 3049](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#3049)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 3049](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3049)
 
 
 #### Arguments
@@ -1655,7 +1774,7 @@ Apply a PNG overlay
 
 
 
-### GD2BMPstring
+### <a name="method-GD2BMPstring"></a>GD2BMPstring
 
     mixed imageLib::GD2BMPstring($gd_image)
 
@@ -1664,7 +1783,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 3060](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#3060)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 3060](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3060)
 
 
 #### Arguments
@@ -1672,7 +1791,7 @@ Apply a PNG overlay
 
 
 
-### GetPixelColor
+### <a name="method-GetPixelColor"></a>GetPixelColor
 
     mixed imageLib::GetPixelColor($img, $x, $y)
 
@@ -1681,7 +1800,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 3113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#3113)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 3113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3113)
 
 
 #### Arguments
@@ -1691,7 +1810,7 @@ Apply a PNG overlay
 
 
 
-### LittleEndian2String
+### <a name="method-LittleEndian2String"></a>LittleEndian2String
 
     mixed imageLib::LittleEndian2String($number, $minbytes)
 
@@ -1700,7 +1819,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 3130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#3130)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 3130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3130)
 
 
 #### Arguments
@@ -1709,7 +1828,7 @@ Apply a PNG overlay
 
 
 
-### ImageCreateFromBMP
+### <a name="method-ImageCreateFromBMP"></a>ImageCreateFromBMP
 
     mixed imageLib::ImageCreateFromBMP($filename)
 
@@ -1718,7 +1837,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 3152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#3152)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 3152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3152)
 
 
 #### Arguments
@@ -1726,7 +1845,7 @@ Apply a PNG overlay
 
 
 
-### imagecreatefrompsd
+### <a name="method-imagecreatefrompsd"></a>imagecreatefrompsd
 
     mixed imageLib::imagecreatefrompsd($fileName)
 
@@ -1735,7 +1854,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 3293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#3293)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 3293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3293)
 
 
 #### Arguments
@@ -1743,7 +1862,7 @@ Apply a PNG overlay
 
 
 
-### __destruct
+### <a name="method-__destruct"></a>__destruct
 
     mixed imageLib::__destruct()
 
@@ -1752,7 +1871,7 @@ Apply a PNG overlay
 
 
 * Visibility: **public**
-* This method is defined in [admin/filemanager/include/php_image_magician.php line 3320](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#3320)
+* This method is defined in [admin/filemanager/include/php_image_magician.php line 3320](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3320)
 
 
 

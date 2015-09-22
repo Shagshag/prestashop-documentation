@@ -17,8 +17,36 @@ StateCore
 Properties
 ----------
 
+* [$id_country](#property-$id_country)
+* [$id_zone](#property-$id_zone)
+* [$iso_code](#property-$iso_code)
+* [$name](#property-$name)
+* [$active](#property-$active)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_country
+Methods
+-------
+* [getStates](#method-getStates)
+* [getNameById](#method-getNameById)
+* [getIdByName](#method-getIdByName)
+* [getIdByIso](#method-getIdByIso)
+* [delete](#method-delete)
+* [isUsed](#method-isUsed)
+* [countUsed](#method-countUsed)
+* [getStatesByIdCountry](#method-getStatesByIdCountry)
+* [hasCounties](#method-hasCounties)
+* [getIdZone](#method-getIdZone)
+* [affectZoneToSelection](#method-affectZoneToSelection)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_country"></a>$id_country
 
     public integer $id_country
 
@@ -27,10 +55,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/State.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#30)
+* This property is defined in [classes/State.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L30)
 
 
-### $id_zone
+### <a name="property-$id_zone"></a>$id_zone
 
     public integer $id_zone
 
@@ -39,10 +67,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/State.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#33)
+* This property is defined in [classes/State.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L33)
 
 
-### $iso_code
+### <a name="property-$iso_code"></a>$iso_code
 
     public string $iso_code
 
@@ -51,10 +79,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/State.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#36)
+* This property is defined in [classes/State.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L36)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -63,10 +91,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/State.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#39)
+* This property is defined in [classes/State.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L39)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public boolean $active = true
 
@@ -75,10 +103,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/State.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#42)
+* This property is defined in [classes/State.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L42)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'state', 'primary' => 'id_state', 'fields' => array('id_country' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_zone' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'iso_code' => array('type' => self::TYPE_STRING, 'validate' => 'isStateIsoCode', 'required' => true, 'size' => 7), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
 
@@ -88,10 +116,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/State.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#47)
+* This property is defined in [classes/State.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L47)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_zone' => array('xlink_resource' => 'zones'), 'id_country' => array('xlink_resource' => 'countries')))
 
@@ -100,14 +128,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/State.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#59)
+* This property is defined in [classes/State.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L59)
 
 
 Methods
 -------
 
 
-### getStates
+### <a name="method-getStates"></a>getStates
 
     mixed StateCore::getStates($id_lang, $active)
 
@@ -117,7 +145,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/State.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#66)
+* This method is defined in [classes/State.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L66)
 
 
 #### Arguments
@@ -126,7 +154,7 @@ Methods
 
 
 
-### getNameById
+### <a name="method-getNameById"></a>getNameById
 
     string StateCore::getNameById(integer $id_state)
 
@@ -136,7 +164,7 @@ Get a state name with its ID
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/State.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#81)
+* This method is defined in [classes/State.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L81)
 
 
 #### Arguments
@@ -144,7 +172,7 @@ Get a state name with its ID
 
 
 
-### getIdByName
+### <a name="method-getIdByName"></a>getIdByName
 
     integer StateCore::getIdByName($state)
 
@@ -154,7 +182,7 @@ Get a state id with its name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/State.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#105)
+* This method is defined in [classes/State.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L105)
 
 
 #### Arguments
@@ -162,7 +190,7 @@ Get a state id with its name
 
 
 
-### getIdByIso
+### <a name="method-getIdByIso"></a>getIdByIso
 
     integer StateCore::getIdByIso(string $iso_code, $id_country)
 
@@ -172,7 +200,7 @@ Get a state id with its iso code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/State.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#129)
+* This method is defined in [classes/State.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L129)
 
 
 #### Arguments
@@ -181,7 +209,7 @@ Get a state id with its iso code
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     boolean StateCore::delete()
 
@@ -190,12 +218,12 @@ Delete a state only if is not in use
 
 
 * Visibility: **public**
-* This method is defined in [classes/State.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#143)
+* This method is defined in [classes/State.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L143)
 
 
 
 
-### isUsed
+### <a name="method-isUsed"></a>isUsed
 
     boolean StateCore::isUsed()
 
@@ -204,12 +232,12 @@ Check if a state is used
 
 
 * Visibility: **public**
-* This method is defined in [classes/State.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#167)
+* This method is defined in [classes/State.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L167)
 
 
 
 
-### countUsed
+### <a name="method-countUsed"></a>countUsed
 
     integer StateCore::countUsed()
 
@@ -218,12 +246,12 @@ Returns the number of utilisation of a state
 
 
 * Visibility: **public**
-* This method is defined in [classes/State.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#177)
+* This method is defined in [classes/State.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L177)
 
 
 
 
-### getStatesByIdCountry
+### <a name="method-getStatesByIdCountry"></a>getStatesByIdCountry
 
     mixed StateCore::getStatesByIdCountry($id_country)
 
@@ -233,7 +261,7 @@ Returns the number of utilisation of a state
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/State.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#187)
+* This method is defined in [classes/State.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L187)
 
 
 #### Arguments
@@ -241,7 +269,7 @@ Returns the number of utilisation of a state
 
 
 
-### hasCounties
+### <a name="method-hasCounties"></a>hasCounties
 
     mixed StateCore::hasCounties($id_state)
 
@@ -251,7 +279,7 @@ Returns the number of utilisation of a state
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/State.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#200)
+* This method is defined in [classes/State.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L200)
 
 
 #### Arguments
@@ -259,7 +287,7 @@ Returns the number of utilisation of a state
 
 
 
-### getIdZone
+### <a name="method-getIdZone"></a>getIdZone
 
     mixed StateCore::getIdZone($id_state)
 
@@ -269,7 +297,7 @@ Returns the number of utilisation of a state
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/State.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#205)
+* This method is defined in [classes/State.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L205)
 
 
 #### Arguments
@@ -277,7 +305,7 @@ Returns the number of utilisation of a state
 
 
 
-### affectZoneToSelection
+### <a name="method-affectZoneToSelection"></a>affectZoneToSelection
 
     boolean StateCore::affectZoneToSelection($ids_states, $id_zone)
 
@@ -286,7 +314,7 @@ Returns the number of utilisation of a state
 
 
 * Visibility: **public**
-* This method is defined in [classes/State.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#223)
+* This method is defined in [classes/State.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#L223)
 
 
 #### Arguments

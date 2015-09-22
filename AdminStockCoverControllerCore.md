@@ -17,8 +17,32 @@ AdminStockCoverControllerCore
 Properties
 ----------
 
+* [$stock_cover_warehouses](#property-$stock_cover_warehouses)
+* [$stock_cover_periods](#property-$stock_cover_periods)
+* [$object](#property-$object)
 
-### $stock_cover_warehouses
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderDetails](#method-renderDetails)
+* [renderList](#method-renderList)
+* [getList](#method-getList)
+* [getCurrentCoveragePeriod](#method-getCurrentCoveragePeriod)
+* [getCurrentCoverageWarehouse](#method-getCurrentCoverageWarehouse)
+* [getCurrentWarning](#method-getCurrentWarning)
+* [getQuantitySold](#method-getQuantitySold)
+* [initContent](#method-initContent)
+* [initProcess](#method-initProcess)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$stock_cover_warehouses"></a>$stock_cover_warehouses
 
     protected mixed $stock_cover_warehouses
 
@@ -27,10 +51,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminStockCoverController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#33)
+* This property is defined in [controllers/admin/AdminStockCoverController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L33)
 
 
-### $stock_cover_periods
+### <a name="property-$stock_cover_periods"></a>$stock_cover_periods
 
     protected mixed $stock_cover_periods
 
@@ -39,10 +63,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminStockCoverController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#34)
+* This property is defined in [controllers/admin/AdminStockCoverController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L34)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Product $object
 
@@ -51,14 +75,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminStockCoverController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#31)
+* This property is defined in [controllers/admin/AdminStockCoverController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L31)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminStockCoverControllerCore::__construct()
 
@@ -67,12 +91,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockCoverController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#36)
+* This method is defined in [controllers/admin/AdminStockCoverController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L36)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminStockCoverControllerCore::initPageHeaderToolbar()
 
@@ -81,12 +105,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockCoverController.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#106)
+* This method is defined in [controllers/admin/AdminStockCoverController.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L106)
 
 
 
 
-### renderDetails
+### <a name="method-renderDetails"></a>renderDetails
 
     mixed AdminStockCoverControllerCore::renderDetails()
 
@@ -95,12 +119,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockCoverController.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#124)
+* This method is defined in [controllers/admin/AdminStockCoverController.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L124)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminStockCoverControllerCore::renderList()
 
@@ -109,12 +133,12 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockCoverController.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#165)
+* This method is defined in [controllers/admin/AdminStockCoverController.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L165)
 
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminStockCoverControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
 
@@ -123,7 +147,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockCoverController.php line 220](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#220)
+* This method is defined in [controllers/admin/AdminStockCoverController.php line 220](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L220)
 
 
 #### Arguments
@@ -136,7 +160,7 @@ AdminController::getList() override
 
 
 
-### getCurrentCoveragePeriod
+### <a name="method-getCurrentCoveragePeriod"></a>getCurrentCoveragePeriod
 
     integer AdminStockCoverControllerCore::getCurrentCoveragePeriod()
 
@@ -145,12 +169,12 @@ Gets the current coverage period used
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStockCoverController.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#306)
+* This method is defined in [controllers/admin/AdminStockCoverController.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L306)
 
 
 
 
-### getCurrentCoverageWarehouse
+### <a name="method-getCurrentCoverageWarehouse"></a>getCurrentCoverageWarehouse
 
     integer AdminStockCoverControllerCore::getCurrentCoverageWarehouse()
 
@@ -159,12 +183,12 @@ Gets the current warehouse used
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStockCoverController.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#324)
+* This method is defined in [controllers/admin/AdminStockCoverController.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L324)
 
 
 
 
-### getCurrentWarning
+### <a name="method-getCurrentWarning"></a>getCurrentWarning
 
     integer AdminStockCoverControllerCore::getCurrentWarning()
 
@@ -173,12 +197,12 @@ Gets the current warning
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStockCoverController.php line 342](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#342)
+* This method is defined in [controllers/admin/AdminStockCoverController.php line 342](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L342)
 
 
 
 
-### getQuantitySold
+### <a name="method-getQuantitySold"></a>getQuantitySold
 
     integer AdminStockCoverControllerCore::getQuantitySold(integer $id_product, integer $id_product_attribute, integer $coverage)
 
@@ -187,7 +211,7 @@ For a given product, and a given period, returns the quantity sold
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStockCoverController.php line 363](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#363)
+* This method is defined in [controllers/admin/AdminStockCoverController.php line 363](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L363)
 
 
 #### Arguments
@@ -197,7 +221,7 @@ For a given product, and a given period, returns the quantity sold
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminStockCoverControllerCore::initContent()
 
@@ -206,12 +230,12 @@ For a given product, and a given period, returns the quantity sold
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockCoverController.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#381)
+* This method is defined in [controllers/admin/AdminStockCoverController.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L381)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminStockCoverControllerCore::initProcess()
 
@@ -220,7 +244,7 @@ For a given product, and a given period, returns the quantity sold
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockCoverController.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#390)
+* This method is defined in [controllers/admin/AdminStockCoverController.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockCoverController.php#L390)
 
 
 

@@ -17,8 +17,28 @@ AliasCore
 Properties
 ----------
 
+* [$alias](#property-$alias)
+* [$search](#property-$search)
+* [$active](#property-$active)
+* [$definition](#property-$definition)
 
-### $alias
+Methods
+-------
+* [__construct](#method-__construct)
+* [add](#method-add)
+* [delete](#method-delete)
+* [getAliases](#method-getAliases)
+* [isFeatureActive](#method-isFeatureActive)
+* [aliasExists](#method-aliasExists)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$alias"></a>$alias
 
     public mixed $alias
 
@@ -27,10 +47,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Alias.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#29)
+* This property is defined in [classes/Alias.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L29)
 
 
-### $search
+### <a name="property-$search"></a>$search
 
     public mixed $search
 
@@ -39,10 +59,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Alias.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#30)
+* This property is defined in [classes/Alias.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L30)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public mixed $active = true
 
@@ -51,10 +71,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Alias.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#31)
+* This property is defined in [classes/Alias.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L31)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'alias', 'primary' => 'id_alias', 'fields' => array('search' => array('type' => self::TYPE_STRING, 'validate' => 'isValidSearch', 'required' => true, 'size' => 255), 'alias' => array('type' => self::TYPE_STRING, 'validate' => 'isValidSearch', 'required' => true, 'size' => 255), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
 
@@ -64,14 +84,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Alias.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#36)
+* This property is defined in [classes/Alias.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L36)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AliasCore::__construct($id, $alias, $search, $id_lang)
 
@@ -80,7 +100,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Alias.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#46)
+* This method is defined in [classes/Alias.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L46)
 
 
 #### Arguments
@@ -91,7 +111,7 @@ Methods
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed AliasCore::add($autodate, $nullValues)
 
@@ -100,7 +120,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Alias.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#76)
+* This method is defined in [classes/Alias.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L76)
 
 
 #### Arguments
@@ -109,7 +129,7 @@ Methods
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed AliasCore::delete()
 
@@ -118,12 +138,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Alias.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#89)
+* This method is defined in [classes/Alias.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L89)
 
 
 
 
-### getAliases
+### <a name="method-getAliases"></a>getAliases
 
     mixed AliasCore::getAliases()
 
@@ -132,12 +152,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Alias.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#99)
+* This method is defined in [classes/Alias.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L99)
 
 
 
 
-### isFeatureActive
+### <a name="method-isFeatureActive"></a>isFeatureActive
 
     boolean AliasCore::isFeatureActive()
 
@@ -147,12 +167,12 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Alias.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#119)
+* This method is defined in [classes/Alias.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L119)
 
 
 
 
-### aliasExists
+### <a name="method-aliasExists"></a>aliasExists
 
     boolean AliasCore::aliasExists($id_alias)
 
@@ -162,7 +182,7 @@ This method is allow to know if a alias exist for AdminImportController
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Alias.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#129)
+* This method is defined in [classes/Alias.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Alias.php#L129)
 
 
 #### Arguments

@@ -31,9 +31,18 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [build](#method-build)
 
 
-### build
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-build"></a>build
 
     \Core_Foundation_IoC_Container Core_Business_ContainerBuilder::build()
 
@@ -42,7 +51,7 @@ Construct PrestaShop Core Service container
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Core_Business_ContainerBuilder.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Core_Business_ContainerBuilder.php#34)
+* This method is defined in [Core/Business/Core_Business_ContainerBuilder.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Core_Business_ContainerBuilder.php#L34)
 
 
 

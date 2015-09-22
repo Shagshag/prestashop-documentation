@@ -31,9 +31,18 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [getStockAvailableByProduct](#method-getStockAvailableByProduct)
 
 
-### getStockAvailableByProduct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-getStockAvailableByProduct"></a>getStockAvailableByProduct
 
     mixed Adapter_StockManager::getStockAvailableByProduct($product, $id_product_attribute, $id_shop)
 
@@ -42,7 +51,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Adapter/Adapter_StockManager.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_StockManager.php#30)
+* This method is defined in [Adapter/Adapter_StockManager.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_StockManager.php#L30)
 
 
 #### Arguments

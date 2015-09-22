@@ -17,8 +17,22 @@ AdminAdminPreferencesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [postProcess](#method-postProcess)
+* [updateOptionPsAttachementMaximumSize](#method-updateOptionPsAttachementMaximumSize)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Configuration $object
 
@@ -27,14 +41,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminAdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#30)
+* This property is defined in [controllers/admin/AdminAdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminAdminPreferencesControllerCore::__construct()
 
@@ -43,12 +57,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAdminPreferencesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#32)
+* This method is defined in [controllers/admin/AdminAdminPreferencesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#L32)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminAdminPreferencesControllerCore::postProcess()
 
@@ -57,12 +71,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAdminPreferencesController.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#157)
+* This method is defined in [controllers/admin/AdminAdminPreferencesController.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#L157)
 
 
 
 
-### updateOptionPsAttachementMaximumSize
+### <a name="method-updateOptionPsAttachementMaximumSize"></a>updateOptionPsAttachementMaximumSize
 
     mixed AdminAdminPreferencesControllerCore::updateOptionPsAttachementMaximumSize($value)
 
@@ -71,7 +85,7 @@ Update PS_ATTACHMENT_MAXIMUM_SIZE
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAdminPreferencesController.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#184)
+* This method is defined in [controllers/admin/AdminAdminPreferencesController.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#L184)
 
 
 #### Arguments

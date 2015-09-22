@@ -17,8 +17,42 @@ SupplierCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$id_supplier](#property-$id_supplier)
+* [$name](#property-$name)
+* [$description](#property-$description)
+* [$date_add](#property-$date_add)
+* [$date_upd](#property-$date_upd)
+* [$link_rewrite](#property-$link_rewrite)
+* [$meta_title](#property-$meta_title)
+* [$meta_keywords](#property-$meta_keywords)
+* [$meta_description](#property-$meta_description)
+* [$active](#property-$active)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
+* [$cache_name](#property-$cache_name)
 
-### $id
+Methods
+-------
+* [__construct](#method-__construct)
+* [getLink](#method-getLink)
+* [getSuppliers](#method-getSuppliers)
+* [getNameById](#method-getNameById)
+* [getIdByName](#method-getIdByName)
+* [getProducts](#method-getProducts)
+* [getProductsLite](#method-getProductsLite)
+* [supplierExists](#method-supplierExists)
+* [delete](#method-delete)
+* [getProductInformationsBySupplier](#method-getProductInformationsBySupplier)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +61,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Supplier.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#29)
+* This property is defined in [classes/Supplier.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L29)
 
 
-### $id_supplier
+### <a name="property-$id_supplier"></a>$id_supplier
 
     public integer $id_supplier
 
@@ -39,10 +73,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Supplier.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#32)
+* This property is defined in [classes/Supplier.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L32)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -51,10 +85,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Supplier.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#35)
+* This property is defined in [classes/Supplier.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L35)
 
 
-### $description
+### <a name="property-$description"></a>$description
 
     public string $description
 
@@ -63,10 +97,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Supplier.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#38)
+* This property is defined in [classes/Supplier.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L38)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -75,10 +109,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Supplier.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#41)
+* This property is defined in [classes/Supplier.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L41)
 
 
-### $date_upd
+### <a name="property-$date_upd"></a>$date_upd
 
     public string $date_upd
 
@@ -87,10 +121,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Supplier.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#44)
+* This property is defined in [classes/Supplier.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L44)
 
 
-### $link_rewrite
+### <a name="property-$link_rewrite"></a>$link_rewrite
 
     public string $link_rewrite
 
@@ -99,10 +133,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Supplier.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#47)
+* This property is defined in [classes/Supplier.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L47)
 
 
-### $meta_title
+### <a name="property-$meta_title"></a>$meta_title
 
     public string $meta_title
 
@@ -111,10 +145,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Supplier.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#50)
+* This property is defined in [classes/Supplier.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L50)
 
 
-### $meta_keywords
+### <a name="property-$meta_keywords"></a>$meta_keywords
 
     public string $meta_keywords
 
@@ -123,10 +157,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Supplier.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#53)
+* This property is defined in [classes/Supplier.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L53)
 
 
-### $meta_description
+### <a name="property-$meta_description"></a>$meta_description
 
     public string $meta_description
 
@@ -135,10 +169,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Supplier.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#56)
+* This property is defined in [classes/Supplier.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L56)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public boolean $active
 
@@ -147,10 +181,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Supplier.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#59)
+* This property is defined in [classes/Supplier.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L59)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'supplier', 'primary' => 'id_supplier', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isCatalogName', 'required' => true, 'size' => 64), 'active' => array('type' => self::TYPE_BOOL), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'description' => array('type' => self::TYPE_HTML, 'lang' => true, 'validate' => 'isCleanHtml'), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255)))
 
@@ -160,10 +194,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Supplier.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#64)
+* This property is defined in [classes/Supplier.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L64)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('link_rewrite' => array('sqlId' => 'link_rewrite')))
 
@@ -172,10 +206,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Supplier.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#82)
+* This property is defined in [classes/Supplier.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L82)
 
 
-### $cache_name
+### <a name="property-$cache_name"></a>$cache_name
 
     protected mixed $cache_name = array()
 
@@ -185,14 +219,14 @@ Return name from id
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Supplier.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#187)
+* This property is defined in [classes/Supplier.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L187)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed SupplierCore::__construct($id, $id_lang)
 
@@ -201,7 +235,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Supplier.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#88)
+* This method is defined in [classes/Supplier.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L88)
 
 
 #### Arguments
@@ -210,7 +244,7 @@ Methods
 
 
 
-### getLink
+### <a name="method-getLink"></a>getLink
 
     mixed SupplierCore::getLink()
 
@@ -219,12 +253,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Supplier.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#96)
+* This method is defined in [classes/Supplier.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L96)
 
 
 
 
-### getSuppliers
+### <a name="method-getSuppliers"></a>getSuppliers
 
     array SupplierCore::getSuppliers($get_nb_products, $id_lang, $active, $p, $n, $all_groups)
 
@@ -234,7 +268,7 @@ Return suppliers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Supplier.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#106)
+* This method is defined in [classes/Supplier.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L106)
 
 
 #### Arguments
@@ -247,7 +281,7 @@ Return suppliers
 
 
 
-### getNameById
+### <a name="method-getNameById"></a>getNameById
 
     mixed SupplierCore::getNameById($id_supplier)
 
@@ -257,7 +291,7 @@ Return suppliers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Supplier.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#188)
+* This method is defined in [classes/Supplier.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L188)
 
 
 #### Arguments
@@ -265,7 +299,7 @@ Return suppliers
 
 
 
-### getIdByName
+### <a name="method-getIdByName"></a>getIdByName
 
     mixed SupplierCore::getIdByName($name)
 
@@ -275,7 +309,7 @@ Return suppliers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Supplier.php line 197](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#197)
+* This method is defined in [classes/Supplier.php line 197](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L197)
 
 
 #### Arguments
@@ -283,7 +317,7 @@ Return suppliers
 
 
 
-### getProducts
+### <a name="method-getProducts"></a>getProducts
 
     mixed SupplierCore::getProducts($id_supplier, $id_lang, $p, $n, $order_by, $order_way, $get_total, $active, $active_category)
 
@@ -293,7 +327,7 @@ Return suppliers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Supplier.php line 211](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#211)
+* This method is defined in [classes/Supplier.php line 211](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L211)
 
 
 #### Arguments
@@ -309,7 +343,7 @@ Return suppliers
 
 
 
-### getProductsLite
+### <a name="method-getProductsLite"></a>getProductsLite
 
     mixed SupplierCore::getProductsLite($id_lang)
 
@@ -318,7 +352,7 @@ Return suppliers
 
 
 * Visibility: **public**
-* This method is defined in [classes/Supplier.php line 337](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#337)
+* This method is defined in [classes/Supplier.php line 337](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L337)
 
 
 #### Arguments
@@ -326,7 +360,7 @@ Return suppliers
 
 
 
-### supplierExists
+### <a name="method-supplierExists"></a>supplierExists
 
     mixed SupplierCore::supplierExists($id_supplier)
 
@@ -336,7 +370,7 @@ Return suppliers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Supplier.php line 371](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#371)
+* This method is defined in [classes/Supplier.php line 371](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L371)
 
 
 #### Arguments
@@ -344,7 +378,7 @@ Return suppliers
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed SupplierCore::delete()
 
@@ -353,12 +387,12 @@ Return suppliers
 
 
 * Visibility: **public**
-* This method is defined in [classes/Supplier.php line 385](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#385)
+* This method is defined in [classes/Supplier.php line 385](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L385)
 
 
 
 
-### getProductInformationsBySupplier
+### <a name="method-getProductInformationsBySupplier"></a>getProductInformationsBySupplier
 
     array SupplierCore::getProductInformationsBySupplier(integer $id_supplier, integer $id_product, integer $id_product_attribute)
 
@@ -368,7 +402,7 @@ Gets product informations
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Supplier.php line 402](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#402)
+* This method is defined in [classes/Supplier.php line 402](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Supplier.php#L402)
 
 
 #### Arguments

@@ -32,9 +32,22 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [__construct](#method-__construct)
+* [processUpdateOptions](#method-processUpdateOptions)
+* [renderOptions](#method-renderOptions)
+* [initContent](#method-initContent)
+* [isGeoLiteCityAvailable](#method-isGeoLiteCityAvailable)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed AdminGeolocationControllerCore::__construct()
 
@@ -43,12 +56,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGeolocationController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#29)
+* This method is defined in [controllers/admin/AdminGeolocationController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#L29)
 
 
 
 
-### processUpdateOptions
+### <a name="method-processUpdateOptions"></a>processUpdateOptions
 
     mixed AdminGeolocationControllerCore::processUpdateOptions()
 
@@ -57,12 +70,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGeolocationController.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#87)
+* This method is defined in [controllers/admin/AdminGeolocationController.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#L87)
 
 
 
 
-### renderOptions
+### <a name="method-renderOptions"></a>renderOptions
 
     mixed AdminGeolocationControllerCore::renderOptions()
 
@@ -71,12 +84,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGeolocationController.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#122)
+* This method is defined in [controllers/admin/AdminGeolocationController.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#L122)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminGeolocationControllerCore::initContent()
 
@@ -85,12 +98,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGeolocationController.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#138)
+* This method is defined in [controllers/admin/AdminGeolocationController.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#L138)
 
 
 
 
-### isGeoLiteCityAvailable
+### <a name="method-isGeoLiteCityAvailable"></a>isGeoLiteCityAvailable
 
     mixed AdminGeolocationControllerCore::isGeoLiteCityAvailable()
 
@@ -99,7 +112,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminGeolocationController.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#151)
+* This method is defined in [controllers/admin/AdminGeolocationController.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#L151)
 
 
 

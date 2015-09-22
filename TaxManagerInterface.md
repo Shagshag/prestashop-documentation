@@ -7,7 +7,6 @@ A TaxManager define a way to retrieve tax.
 
 
 * Interface name: TaxManagerInterface
-* Namespace: 
 * This is an **interface**
 * This interface is defined in [classes/tax/TaxManagerInterface.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerInterface.php#L31)
 
@@ -18,9 +17,19 @@ A TaxManager define a way to retrieve tax.
 
 Methods
 -------
+* [isAvailableForThisAddress](#method-isAvailableForThisAddress)
+* [getTaxCalculator](#method-getTaxCalculator)
 
 
-### isAvailableForThisAddress
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-isAvailableForThisAddress"></a>isAvailableForThisAddress
 
     boolean TaxManagerInterface::isAvailableForThisAddress(\Address $address)
 
@@ -30,7 +39,7 @@ This method determine if the tax manager is available for the specified address.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/tax/TaxManagerInterface.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerInterface.php#40)
+* This method is defined in [classes/tax/TaxManagerInterface.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerInterface.php#L40)
 
 
 #### Arguments
@@ -38,7 +47,7 @@ This method determine if the tax manager is available for the specified address.
 
 
 
-### getTaxCalculator
+### <a name="method-getTaxCalculator"></a>getTaxCalculator
 
     \TaxCalculator TaxManagerInterface::getTaxCalculator()
 
@@ -47,7 +56,7 @@ Return the tax calculator associated to this address
 
 
 * Visibility: **public**
-* This method is defined in [classes/tax/TaxManagerInterface.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerInterface.php#47)
+* This method is defined in [classes/tax/TaxManagerInterface.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerInterface.php#L47)
 
 
 

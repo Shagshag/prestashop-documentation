@@ -29,129 +29,254 @@ needs please refer to http://www.prestashop.com for more information.
 Constants
 ----------
 
+* [TYPE_INT](#constant-TYPE_INT)
+* [TYPE_BOOL](#constant-TYPE_BOOL)
+* [TYPE_STRING](#constant-TYPE_STRING)
+* [TYPE_FLOAT](#constant-TYPE_FLOAT)
+* [TYPE_DATE](#constant-TYPE_DATE)
+* [TYPE_HTML](#constant-TYPE_HTML)
+* [TYPE_NOTHING](#constant-TYPE_NOTHING)
+* [TYPE_SQL](#constant-TYPE_SQL)
+* [FORMAT_COMMON](#constant-FORMAT_COMMON)
+* [FORMAT_LANG](#constant-FORMAT_LANG)
+* [FORMAT_SHOP](#constant-FORMAT_SHOP)
+* [HAS_ONE](#constant-HAS_ONE)
+* [HAS_MANY](#constant-HAS_MANY)
 
-### TYPE_INT
+Properties
+----------
+
+* [$id](#property-$id)
+* [$date_add](#property-$date_add)
+* [$id_employee](#property-$id_employee)
+* [$employee_firstname](#property-$employee_firstname)
+* [$employee_lastname](#property-$employee_lastname)
+* [$id_stock](#property-$id_stock)
+* [$physical_quantity](#property-$physical_quantity)
+* [$id_stock_mvt_reason](#property-$id_stock_mvt_reason)
+* [$id_order](#property-$id_order)
+* [$sign](#property-$sign)
+* [$id_supply_order](#property-$id_supply_order)
+* [$last_wa](#property-$last_wa)
+* [$current_wa](#property-$current_wa)
+* [$price_te](#property-$price_te)
+* [$referer](#property-$referer)
+* [$id_product](#property-$id_product)
+* [$id_product_attribute](#property-$id_product_attribute)
+* [$id_warehouse](#property-$id_warehouse)
+* [$id_currency](#property-$id_currency)
+* [$management_type](#property-$management_type)
+* [$product_name](#property-$product_name)
+* [$ean13](#property-$ean13)
+* [$upc](#property-$upc)
+* [$reference](#property-$reference)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
+* [$tables_assoc](#property-$tables_assoc)
+* [$id_lang](#property-$id_lang)
+* [$id_shop](#property-$id_shop)
+* [$id_shop_list](#property-$id_shop_list)
+* [$get_shop_from_context](#property-$get_shop_from_context)
+* [$fieldsRequiredDatabase](#property-$fieldsRequiredDatabase)
+* [$table](#property-$table)
+* [$identifier](#property-$identifier)
+* [$fieldsRequired](#property-$fieldsRequired)
+* [$fieldsSize](#property-$fieldsSize)
+* [$fieldsValidate](#property-$fieldsValidate)
+* [$fieldsRequiredLang](#property-$fieldsRequiredLang)
+* [$fieldsSizeLang](#property-$fieldsSizeLang)
+* [$fieldsValidateLang](#property-$fieldsValidateLang)
+* [$tables](#property-$tables)
+* [$image_dir](#property-$image_dir)
+* [$image_format](#property-$image_format)
+* [$loaded_classes](#property-$loaded_classes)
+* [$def](#property-$def)
+* [$update_fields](#property-$update_fields)
+* [$db](#property-$db)
+* [$force_id](#property-$force_id)
+* [$cache_objects](#property-$cache_objects)
+
+Methods
+-------
+* [__construct](#method-__construct)
+* [getWebserviceObjectList](#method-getWebserviceObjectList)
+* [getWSProductName](#method-getWSProductName)
+* [getRepositoryClassName](#method-getRepositoryClassName)
+* [getValidationRules](#method-getValidationRules)
+* [getFields](#method-getFields)
+* [getFieldsShop](#method-getFieldsShop)
+* [getFieldsLang](#method-getFieldsLang)
+* [formatFields](#method-formatFields)
+* [formatValue](#method-formatValue)
+* [save](#method-save)
+* [add](#method-add)
+* [duplicateObject](#method-duplicateObject)
+* [update](#method-update)
+* [delete](#method-delete)
+* [deleteSelection](#method-deleteSelection)
+* [toggleStatus](#method-toggleStatus)
+* [getTranslationsFields](#method-getTranslationsFields)
+* [makeTranslationFields](#method-makeTranslationFields)
+* [validateFields](#method-validateFields)
+* [validateFieldsLang](#method-validateFieldsLang)
+* [validateField](#method-validateField)
+* [displayFieldName](#method-displayFieldName)
+* [validateControler](#method-validateControler)
+* [validateController](#method-validateController)
+* [getWebserviceParameters](#method-getWebserviceParameters)
+* [validateFieldsRequiredDatabase](#method-validateFieldsRequiredDatabase)
+* [getFieldsRequiredDatabase](#method-getFieldsRequiredDatabase)
+* [cacheFieldsRequiredDatabase](#method-cacheFieldsRequiredDatabase)
+* [addFieldsRequiredDatabase](#method-addFieldsRequiredDatabase)
+* [clearCache](#method-clearCache)
+* [isAssociatedToShop](#method-isAssociatedToShop)
+* [associateTo](#method-associateTo)
+* [getAssociatedShops](#method-getAssociatedShops)
+* [duplicateShops](#method-duplicateShops)
+* [hasMultishopEntries](#method-hasMultishopEntries)
+* [isMultishop](#method-isMultishop)
+* [isMultiShopField](#method-isMultiShopField)
+* [isLangMultishop](#method-isLangMultishop)
+* [updateMultishopTable](#method-updateMultishopTable)
+* [deleteImage](#method-deleteImage)
+* [existsInDatabase](#method-existsInDatabase)
+* [isCurrentlyUsed](#method-isCurrentlyUsed)
+* [hydrate](#method-hydrate)
+* [hydrateCollection](#method-hydrateCollection)
+* [getDefinition](#method-getDefinition)
+* [setDefinitionRetrocompatibility](#method-setDefinitionRetrocompatibility)
+* [getFieldByLang](#method-getFieldByLang)
+* [setFieldsToUpdate](#method-setFieldsToUpdate)
+* [enableCache](#method-enableCache)
+* [disableCache](#method-disableCache)
+
+
+Constants
+----------
+
+
+### <a name="constant-TYPE_INT"></a>TYPE_INT
 
     const TYPE_INT = 1
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#32)
+* This constant is defined in [classes/stock/StockMvtWS.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L32)
 
 
-### TYPE_BOOL
+### <a name="constant-TYPE_BOOL"></a>TYPE_BOOL
 
     const TYPE_BOOL = 2
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#33)
+* This constant is defined in [classes/stock/StockMvtWS.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L33)
 
 
-### TYPE_STRING
+### <a name="constant-TYPE_STRING"></a>TYPE_STRING
 
     const TYPE_STRING = 3
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#34)
+* This constant is defined in [classes/stock/StockMvtWS.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L34)
 
 
-### TYPE_FLOAT
+### <a name="constant-TYPE_FLOAT"></a>TYPE_FLOAT
 
     const TYPE_FLOAT = 4
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#35)
+* This constant is defined in [classes/stock/StockMvtWS.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L35)
 
 
-### TYPE_DATE
+### <a name="constant-TYPE_DATE"></a>TYPE_DATE
 
     const TYPE_DATE = 5
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#36)
+* This constant is defined in [classes/stock/StockMvtWS.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L36)
 
 
-### TYPE_HTML
+### <a name="constant-TYPE_HTML"></a>TYPE_HTML
 
     const TYPE_HTML = 6
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#37)
+* This constant is defined in [classes/stock/StockMvtWS.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L37)
 
 
-### TYPE_NOTHING
+### <a name="constant-TYPE_NOTHING"></a>TYPE_NOTHING
 
     const TYPE_NOTHING = 7
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#38)
+* This constant is defined in [classes/stock/StockMvtWS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L38)
 
 
-### TYPE_SQL
+### <a name="constant-TYPE_SQL"></a>TYPE_SQL
 
     const TYPE_SQL = 8
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#39)
+* This constant is defined in [classes/stock/StockMvtWS.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L39)
 
 
-### FORMAT_COMMON
+### <a name="constant-FORMAT_COMMON"></a>FORMAT_COMMON
 
     const FORMAT_COMMON = 1
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#44)
+* This constant is defined in [classes/stock/StockMvtWS.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L44)
 
 
-### FORMAT_LANG
+### <a name="constant-FORMAT_LANG"></a>FORMAT_LANG
 
     const FORMAT_LANG = 2
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#45)
+* This constant is defined in [classes/stock/StockMvtWS.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L45)
 
 
-### FORMAT_SHOP
+### <a name="constant-FORMAT_SHOP"></a>FORMAT_SHOP
 
     const FORMAT_SHOP = 3
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#46)
+* This constant is defined in [classes/stock/StockMvtWS.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L46)
 
 
-### HAS_ONE
+### <a name="constant-HAS_ONE"></a>HAS_ONE
 
     const HAS_ONE = 1
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#51)
+* This constant is defined in [classes/stock/StockMvtWS.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L51)
 
 
-### HAS_MANY
+### <a name="constant-HAS_MANY"></a>HAS_MANY
 
     const HAS_MANY = 2
 
 
 
-* This constant is defined in [classes/stock/StockMvtWS.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#52)
+* This constant is defined in [classes/stock/StockMvtWS.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L52)
 
 
 Properties
 ----------
 
 
-### $id
+### <a name="property-$id"></a>$id
 
     public integer $id
 
@@ -160,10 +285,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#55)
+* This property is defined in [classes/stock/StockMvtWS.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L55)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -172,10 +297,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#38)
+* This property is defined in [classes/stock/StockMvtWS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L38)
 
 
-### $id_employee
+### <a name="property-$id_employee"></a>$id_employee
 
     public integer $id_employee
 
@@ -184,10 +309,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#43)
+* This property is defined in [classes/stock/StockMvtWS.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L43)
 
 
-### $employee_firstname
+### <a name="property-$employee_firstname"></a>$employee_firstname
 
     public string $employee_firstname
 
@@ -196,10 +321,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#48)
+* This property is defined in [classes/stock/StockMvtWS.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L48)
 
 
-### $employee_lastname
+### <a name="property-$employee_lastname"></a>$employee_lastname
 
     public string $employee_lastname
 
@@ -208,10 +333,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#53)
+* This property is defined in [classes/stock/StockMvtWS.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L53)
 
 
-### $id_stock
+### <a name="property-$id_stock"></a>$id_stock
 
     public integer $id_stock
 
@@ -220,10 +345,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#58)
+* This property is defined in [classes/stock/StockMvtWS.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L58)
 
 
-### $physical_quantity
+### <a name="property-$physical_quantity"></a>$physical_quantity
 
     public integer $physical_quantity
 
@@ -232,10 +357,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#63)
+* This property is defined in [classes/stock/StockMvtWS.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L63)
 
 
-### $id_stock_mvt_reason
+### <a name="property-$id_stock_mvt_reason"></a>$id_stock_mvt_reason
 
     public integer $id_stock_mvt_reason
 
@@ -244,10 +369,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#68)
+* This property is defined in [classes/stock/StockMvtWS.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L68)
 
 
-### $id_order
+### <a name="property-$id_order"></a>$id_order
 
     public integer $id_order = null
 
@@ -256,10 +381,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#73)
+* This property is defined in [classes/stock/StockMvtWS.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L73)
 
 
-### $sign
+### <a name="property-$sign"></a>$sign
 
     public integer $sign
 
@@ -268,10 +393,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#78)
+* This property is defined in [classes/stock/StockMvtWS.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L78)
 
 
-### $id_supply_order
+### <a name="property-$id_supply_order"></a>$id_supply_order
 
     public integer $id_supply_order = null
 
@@ -280,10 +405,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#83)
+* This property is defined in [classes/stock/StockMvtWS.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L83)
 
 
-### $last_wa
+### <a name="property-$last_wa"></a>$last_wa
 
     public float $last_wa = null
 
@@ -292,10 +417,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#88)
+* This property is defined in [classes/stock/StockMvtWS.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L88)
 
 
-### $current_wa
+### <a name="property-$current_wa"></a>$current_wa
 
     public float $current_wa = null
 
@@ -304,10 +429,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#93)
+* This property is defined in [classes/stock/StockMvtWS.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L93)
 
 
-### $price_te
+### <a name="property-$price_te"></a>$price_te
 
     public float $price_te
 
@@ -316,10 +441,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#98)
+* This property is defined in [classes/stock/StockMvtWS.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L98)
 
 
-### $referer
+### <a name="property-$referer"></a>$referer
 
     public integer $referer
 
@@ -328,10 +453,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#103)
+* This property is defined in [classes/stock/StockMvtWS.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L103)
 
 
-### $id_product
+### <a name="property-$id_product"></a>$id_product
 
     public integer $id_product
 
@@ -340,10 +465,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#108)
+* This property is defined in [classes/stock/StockMvtWS.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L108)
 
 
-### $id_product_attribute
+### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
     public integer $id_product_attribute
 
@@ -352,10 +477,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#113)
+* This property is defined in [classes/stock/StockMvtWS.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L113)
 
 
-### $id_warehouse
+### <a name="property-$id_warehouse"></a>$id_warehouse
 
     public integer $id_warehouse
 
@@ -364,10 +489,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#118)
+* This property is defined in [classes/stock/StockMvtWS.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L118)
 
 
-### $id_currency
+### <a name="property-$id_currency"></a>$id_currency
 
     public integer $id_currency
 
@@ -376,10 +501,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#123)
+* This property is defined in [classes/stock/StockMvtWS.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L123)
 
 
-### $management_type
+### <a name="property-$management_type"></a>$management_type
 
     public string $management_type
 
@@ -388,10 +513,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#128)
+* This property is defined in [classes/stock/StockMvtWS.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L128)
 
 
-### $product_name
+### <a name="property-$product_name"></a>$product_name
 
     public mixed $product_name
 
@@ -400,10 +525,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#133)
+* This property is defined in [classes/stock/StockMvtWS.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L133)
 
 
-### $ean13
+### <a name="property-$ean13"></a>$ean13
 
     public string $ean13
 
@@ -412,10 +537,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#138)
+* This property is defined in [classes/stock/StockMvtWS.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L138)
 
 
-### $upc
+### <a name="property-$upc"></a>$upc
 
     public string $upc
 
@@ -424,10 +549,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#143)
+* This property is defined in [classes/stock/StockMvtWS.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L143)
 
 
-### $reference
+### <a name="property-$reference"></a>$reference
 
     public string $reference
 
@@ -436,10 +561,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#148)
+* This property is defined in [classes/stock/StockMvtWS.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L148)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public array $definition = array()
 
@@ -449,10 +574,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/stock/StockMvtWS.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#139)
+* This property is defined in [classes/stock/StockMvtWS.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L139)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected array $webserviceParameters = array()
 
@@ -461,10 +586,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#127)
+* This property is defined in [classes/stock/StockMvtWS.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L127)
 
 
-### $tables_assoc
+### <a name="property-$tables_assoc"></a>$tables_assoc
 
     protected Array $tables_assoc = array('id_product' => array('table' => 's'), 'id_product_attribute' => array('table' => 's'), 'id_warehouse' => array('table' => 's'), 'id_currency' => array('table' => 's'), 'management_type' => array('table' => 'w'), 'ean13' => array('table' => 's'), 'upc' => array('table' => 's'), 'reference' => array('table' => 's'))
 
@@ -473,10 +598,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#205)
+* This property is defined in [classes/stock/StockMvtWS.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L205)
 
 
-### $id_lang
+### <a name="property-$id_lang"></a>$id_lang
 
     protected integer $id_lang = null
 
@@ -485,10 +610,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#58)
+* This property is defined in [classes/stock/StockMvtWS.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L58)
 
 
-### $id_shop
+### <a name="property-$id_shop"></a>$id_shop
 
     protected integer $id_shop = null
 
@@ -497,10 +622,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#61)
+* This property is defined in [classes/stock/StockMvtWS.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L61)
 
 
-### $id_shop_list
+### <a name="property-$id_shop_list"></a>$id_shop_list
 
     public array $id_shop_list = null
 
@@ -509,10 +634,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#64)
+* This property is defined in [classes/stock/StockMvtWS.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L64)
 
 
-### $get_shop_from_context
+### <a name="property-$get_shop_from_context"></a>$get_shop_from_context
 
     protected boolean $get_shop_from_context = true
 
@@ -521,10 +646,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#67)
+* This property is defined in [classes/stock/StockMvtWS.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L67)
 
 
-### $fieldsRequiredDatabase
+### <a name="property-$fieldsRequiredDatabase"></a>$fieldsRequiredDatabase
 
     protected array $fieldsRequiredDatabase = null
 
@@ -534,10 +659,10 @@ Associations tables for attributes that require different tables than stated in 
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/stock/StockMvtWS.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#70)
+* This property is defined in [classes/stock/StockMvtWS.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L70)
 
 
-### $table
+### <a name="property-$table"></a>$table
 
     protected string $table
 
@@ -546,10 +671,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#76)
+* This property is defined in [classes/stock/StockMvtWS.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L76)
 
 
-### $identifier
+### <a name="property-$identifier"></a>$identifier
 
     protected string $identifier
 
@@ -558,10 +683,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#82)
+* This property is defined in [classes/stock/StockMvtWS.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L82)
 
 
-### $fieldsRequired
+### <a name="property-$fieldsRequired"></a>$fieldsRequired
 
     protected array $fieldsRequired = array()
 
@@ -570,10 +695,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#88)
+* This property is defined in [classes/stock/StockMvtWS.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L88)
 
 
-### $fieldsSize
+### <a name="property-$fieldsSize"></a>$fieldsSize
 
     protected array $fieldsSize = array()
 
@@ -582,10 +707,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#94)
+* This property is defined in [classes/stock/StockMvtWS.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L94)
 
 
-### $fieldsValidate
+### <a name="property-$fieldsValidate"></a>$fieldsValidate
 
     protected array $fieldsValidate = array()
 
@@ -594,10 +719,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#100)
+* This property is defined in [classes/stock/StockMvtWS.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L100)
 
 
-### $fieldsRequiredLang
+### <a name="property-$fieldsRequiredLang"></a>$fieldsRequiredLang
 
     protected array $fieldsRequiredLang = array()
 
@@ -606,10 +731,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#106)
+* This property is defined in [classes/stock/StockMvtWS.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L106)
 
 
-### $fieldsSizeLang
+### <a name="property-$fieldsSizeLang"></a>$fieldsSizeLang
 
     protected array $fieldsSizeLang = array()
 
@@ -618,10 +743,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#112)
+* This property is defined in [classes/stock/StockMvtWS.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L112)
 
 
-### $fieldsValidateLang
+### <a name="property-$fieldsValidateLang"></a>$fieldsValidateLang
 
     protected array $fieldsValidateLang = array()
 
@@ -630,10 +755,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#118)
+* This property is defined in [classes/stock/StockMvtWS.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L118)
 
 
-### $tables
+### <a name="property-$tables"></a>$tables
 
     protected array $tables = array()
 
@@ -642,10 +767,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#124)
+* This property is defined in [classes/stock/StockMvtWS.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L124)
 
 
-### $image_dir
+### <a name="property-$image_dir"></a>$image_dir
 
     protected string $image_dir = null
 
@@ -654,10 +779,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#130)
+* This property is defined in [classes/stock/StockMvtWS.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L130)
 
 
-### $image_format
+### <a name="property-$image_format"></a>$image_format
 
     protected String $image_format = 'jpg'
 
@@ -666,10 +791,10 @@ Associations tables for attributes that require different tables than stated in 
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#133)
+* This property is defined in [classes/stock/StockMvtWS.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L133)
 
 
-### $loaded_classes
+### <a name="property-$loaded_classes"></a>$loaded_classes
 
     protected array $loaded_classes = array()
 
@@ -679,10 +804,10 @@ Values are assigned during object initialization.
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/stock/StockMvtWS.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#147)
+* This property is defined in [classes/stock/StockMvtWS.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L147)
 
 
-### $def
+### <a name="property-$def"></a>$def
 
     protected array $def
 
@@ -691,10 +816,10 @@ Values are assigned during object initialization.
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#150)
+* This property is defined in [classes/stock/StockMvtWS.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L150)
 
 
-### $update_fields
+### <a name="property-$update_fields"></a>$update_fields
 
     protected array $update_fields = null
 
@@ -703,10 +828,10 @@ Values are assigned during object initialization.
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/StockMvtWS.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#153)
+* This property is defined in [classes/stock/StockMvtWS.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L153)
 
 
-### $db
+### <a name="property-$db"></a>$db
 
     protected \Db $db = false
 
@@ -716,10 +841,10 @@ Values are assigned during object initialization.
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/stock/StockMvtWS.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#156)
+* This property is defined in [classes/stock/StockMvtWS.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L156)
 
 
-### $force_id
+### <a name="property-$force_id"></a>$force_id
 
     public boolean $force_id = false
 
@@ -728,10 +853,10 @@ Values are assigned during object initialization.
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/StockMvtWS.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#159)
+* This property is defined in [classes/stock/StockMvtWS.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L159)
 
 
-### $cache_objects
+### <a name="property-$cache_objects"></a>$cache_objects
 
     protected boolean $cache_objects = true
 
@@ -741,14 +866,14 @@ Values are assigned during object initialization.
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/stock/StockMvtWS.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#164)
+* This property is defined in [classes/stock/StockMvtWS.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L164)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed ObjectModelCore::__construct(integer|null $id, integer|null $id_lang, integer|null $id_shop)
 
@@ -758,7 +883,7 @@ Builds the object
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#201)
+* This method is defined in [classes/stock/StockMvtWS.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L201)
 
 
 #### Arguments
@@ -768,7 +893,7 @@ Builds the object
 
 
 
-### getWebserviceObjectList
+### <a name="method-getWebserviceObjectList"></a>getWebserviceObjectList
 
     array|null ObjectModelCore::getWebserviceObjectList(string $sql_join, string $sql_filter, string $sql_sort, string $sql_limit)
 
@@ -778,7 +903,7 @@ Returns webservice object list.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1279)
+* This method is defined in [classes/stock/StockMvtWS.php line 1279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1279)
 
 
 #### Arguments
@@ -789,7 +914,7 @@ Returns webservice object list.
 
 
 
-### getWSProductName
+### <a name="method-getWSProductName"></a>getWSProductName
 
     mixed StockMvtWSCore::getWSProductName()
 
@@ -798,12 +923,12 @@ Webservice : getter for the product name
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/StockMvtWS.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#286)
+* This method is defined in [classes/stock/StockMvtWS.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L286)
 
 
 
 
-### getRepositoryClassName
+### <a name="method-getRepositoryClassName"></a>getRepositoryClassName
 
     string Core_Foundation_Database_EntityInterface::getRepositoryClassName()
 
@@ -814,12 +939,12 @@ If unspecified, a generic repository will be used for the entity.
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)
-* This method is defined in [classes/stock/StockMvtWS.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#35)
+* This method is defined in [classes/stock/StockMvtWS.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L35)
 
 
 
 
-### getValidationRules
+### <a name="method-getValidationRules"></a>getValidationRules
 
     array ObjectModelCore::getValidationRules(string $class)
 
@@ -830,7 +955,7 @@ Returns object validation rules (fields validity)
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#178)
+* This method is defined in [classes/stock/StockMvtWS.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L178)
 
 
 #### Arguments
@@ -838,7 +963,7 @@ Returns object validation rules (fields validity)
 
 
 
-### getFields
+### <a name="method-getFields"></a>getFields
 
     array ObjectModelCore::getFields()
 
@@ -849,12 +974,12 @@ All fields are verified (pSQL, intval, .
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#244)
+* This method is defined in [classes/stock/StockMvtWS.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L244)
 
 
 
 
-### getFieldsShop
+### <a name="method-getFieldsShop"></a>getFieldsShop
 
     array ObjectModelCore::getFieldsShop()
 
@@ -866,12 +991,12 @@ this is not the best solution but this is the only one possible for retro compat
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#270)
+* This method is defined in [classes/stock/StockMvtWS.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L270)
 
 
 
 
-### getFieldsLang
+### <a name="method-getFieldsLang"></a>getFieldsLang
 
     array ObjectModelCore::getFieldsLang()
 
@@ -881,12 +1006,12 @@ Prepare multilang fields
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#288)
+* This method is defined in [classes/stock/StockMvtWS.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L288)
 
 
 
 
-### formatFields
+### <a name="method-formatFields"></a>formatFields
 
     array ObjectModelCore::formatFields(integer $type, integer $id_lang)
 
@@ -896,7 +1021,7 @@ Formats values of each fields.
 
 * Visibility: **protected**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#327)
+* This method is defined in [classes/stock/StockMvtWS.php line 327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L327)
 
 
 #### Arguments
@@ -905,7 +1030,7 @@ Formats values of each fields.
 
 
 
-### formatValue
+### <a name="method-formatValue"></a>formatValue
 
     mixed ObjectModelCore::formatValue(mixed $value, integer $type, boolean $with_quotes, boolean $purify, boolean $allow_null)
 
@@ -916,7 +1041,7 @@ Formats a value
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#381)
+* This method is defined in [classes/stock/StockMvtWS.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L381)
 
 
 #### Arguments
@@ -928,7 +1053,7 @@ Formats a value
 
 
 
-### save
+### <a name="method-save"></a>save
 
     mixed Core_Foundation_Database_EntityInterface::save()
 
@@ -938,12 +1063,12 @@ Formats a value
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)
-* This method is defined in [classes/stock/StockMvtWS.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#37)
+* This method is defined in [classes/stock/StockMvtWS.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L37)
 
 
 
 
-### add
+### <a name="method-add"></a>add
 
     boolean ObjectModelCore::add(boolean $auto_date, boolean $null_values)
 
@@ -953,7 +1078,7 @@ Adds current object to the database
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 458](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#458)
+* This method is defined in [classes/stock/StockMvtWS.php line 458](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L458)
 
 
 #### Arguments
@@ -962,7 +1087,7 @@ Adds current object to the database
 
 
 
-### duplicateObject
+### <a name="method-duplicateObject"></a>duplicateObject
 
     \ObjectModel|false ObjectModelCore::duplicateObject()
 
@@ -973,12 +1098,12 @@ saves them in a new row and loads newly saved values as a new object.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 549](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#549)
+* This method is defined in [classes/stock/StockMvtWS.php line 549](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L549)
 
 
 
 
-### update
+### <a name="method-update"></a>update
 
     boolean ObjectModelCore::update(boolean $null_values)
 
@@ -988,7 +1113,7 @@ Updates the current object in the database
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 619](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#619)
+* This method is defined in [classes/stock/StockMvtWS.php line 619](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L619)
 
 
 #### Arguments
@@ -996,7 +1121,7 @@ Updates the current object in the database
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed Core_Foundation_Database_EntityInterface::delete()
 
@@ -1006,12 +1131,12 @@ Updates the current object in the database
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)
-* This method is defined in [classes/stock/StockMvtWS.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#39)
+* This method is defined in [classes/stock/StockMvtWS.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L39)
 
 
 
 
-### deleteSelection
+### <a name="method-deleteSelection"></a>deleteSelection
 
     boolean ObjectModelCore::deleteSelection(array $ids)
 
@@ -1021,7 +1146,7 @@ Deletes multiple objects from the database at once
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 790](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#790)
+* This method is defined in [classes/stock/StockMvtWS.php line 790](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L790)
 
 
 #### Arguments
@@ -1029,7 +1154,7 @@ Deletes multiple objects from the database at once
 
 
 
-### toggleStatus
+### <a name="method-toggleStatus"></a>toggleStatus
 
     boolean ObjectModelCore::toggleStatus()
 
@@ -1039,12 +1164,12 @@ Toggles object status in database
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 807](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#807)
+* This method is defined in [classes/stock/StockMvtWS.php line 807](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L807)
 
 
 
 
-### getTranslationsFields
+### <a name="method-getTranslationsFields"></a>getTranslationsFields
 
     array ObjectModelCore::getTranslationsFields(array $fields_array)
 
@@ -1054,7 +1179,7 @@ Toggles object status in database
 
 * Visibility: **protected**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 831](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#831)
+* This method is defined in [classes/stock/StockMvtWS.php line 831](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L831)
 
 
 #### Arguments
@@ -1062,7 +1187,7 @@ Toggles object status in database
 
 
 
-### makeTranslationFields
+### <a name="method-makeTranslationFields"></a>makeTranslationFields
 
     mixed ObjectModelCore::makeTranslationFields(array $fields, array $fields_array, integer $id_language)
 
@@ -1072,7 +1197,7 @@ Toggles object status in database
 
 * Visibility: **protected**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 854](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#854)
+* This method is defined in [classes/stock/StockMvtWS.php line 854](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L854)
 
 
 #### Arguments
@@ -1082,7 +1207,7 @@ Toggles object status in database
 
 
 
-### validateFields
+### <a name="method-validateFields"></a>validateFields
 
     boolean|string ObjectModelCore::validateFields(boolean $die, boolean $error_return)
 
@@ -1092,7 +1217,7 @@ Checks if object field values are valid before database interaction
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 895](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#895)
+* This method is defined in [classes/stock/StockMvtWS.php line 895](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L895)
 
 
 #### Arguments
@@ -1101,7 +1226,7 @@ Checks if object field values are valid before database interaction
 
 
 
-### validateFieldsLang
+### <a name="method-validateFieldsLang"></a>validateFieldsLang
 
     boolean|string ObjectModelCore::validateFieldsLang(boolean $die, boolean $error_return)
 
@@ -1111,7 +1236,7 @@ Checks if multilingual object field values are valid before database interaction
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 927](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#927)
+* This method is defined in [classes/stock/StockMvtWS.php line 927](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L927)
 
 
 #### Arguments
@@ -1120,7 +1245,7 @@ Checks if multilingual object field values are valid before database interaction
 
 
 
-### validateField
+### <a name="method-validateField"></a>validateField
 
     true|string ObjectModelCore::validateField(string $field, mixed $value, integer|null $id_lang, array $skip, boolean $human_errors)
 
@@ -1130,7 +1255,7 @@ Validate a single field
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 977](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#977)
+* This method is defined in [classes/stock/StockMvtWS.php line 977](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L977)
 
 
 #### Arguments
@@ -1142,7 +1267,7 @@ Validate a single field
 
 
 
-### displayFieldName
+### <a name="method-displayFieldName"></a>displayFieldName
 
     string ObjectModelCore::displayFieldName(string $field, string $class, boolean $htmlentities, \Context|null $context)
 
@@ -1153,7 +1278,7 @@ Returns field name translation
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1083](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1083)
+* This method is defined in [classes/stock/StockMvtWS.php line 1083](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1083)
 
 
 #### Arguments
@@ -1164,7 +1289,7 @@ Returns field name translation
 
 
 
-### validateControler
+### <a name="method-validateControler"></a>validateControler
 
     array ObjectModelCore::validateControler(boolean $htmlentities)
 
@@ -1174,7 +1299,7 @@ Returns field name translation
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1105)
+* This method is defined in [classes/stock/StockMvtWS.php line 1105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1105)
 
 
 #### Arguments
@@ -1182,7 +1307,7 @@ Returns field name translation
 
 
 
-### validateController
+### <a name="method-validateController"></a>validateController
 
     array ObjectModelCore::validateController(boolean $htmlentities)
 
@@ -1192,7 +1317,7 @@ Validates submitted values and returns an array of errors, if any.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1118)
+* This method is defined in [classes/stock/StockMvtWS.php line 1118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1118)
 
 
 #### Arguments
@@ -1200,7 +1325,7 @@ Validates submitted values and returns an array of errors, if any.
 
 
 
-### getWebserviceParameters
+### <a name="method-getWebserviceParameters"></a>getWebserviceParameters
 
     array ObjectModelCore::getWebserviceParameters(string|null $ws_params_attribute_name)
 
@@ -1210,7 +1335,7 @@ Returns webservice parameters of this object.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1176)
+* This method is defined in [classes/stock/StockMvtWS.php line 1176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1176)
 
 
 #### Arguments
@@ -1218,7 +1343,7 @@ Returns webservice parameters of this object.
 
 
 
-### validateFieldsRequiredDatabase
+### <a name="method-validateFieldsRequiredDatabase"></a>validateFieldsRequiredDatabase
 
     array ObjectModelCore::validateFieldsRequiredDatabase(boolean $htmlentities)
 
@@ -1228,7 +1353,7 @@ Validate required fields.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1322](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1322)
+* This method is defined in [classes/stock/StockMvtWS.php line 1322](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1322)
 
 
 #### Arguments
@@ -1236,7 +1361,7 @@ Validate required fields.
 
 
 
-### getFieldsRequiredDatabase
+### <a name="method-getFieldsRequiredDatabase"></a>getFieldsRequiredDatabase
 
     array|null ObjectModelCore::getFieldsRequiredDatabase(boolean $all)
 
@@ -1246,7 +1371,7 @@ Returns an array of required fields
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1355](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1355)
+* This method is defined in [classes/stock/StockMvtWS.php line 1355](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1355)
 
 
 #### Arguments
@@ -1254,7 +1379,7 @@ Returns an array of required fields
 
 
 
-### cacheFieldsRequiredDatabase
+### <a name="method-cacheFieldsRequiredDatabase"></a>cacheFieldsRequiredDatabase
 
     mixed ObjectModelCore::cacheFieldsRequiredDatabase(boolean $all)
 
@@ -1264,7 +1389,7 @@ Caches data about required objects fields in memory
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1368](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1368)
+* This method is defined in [classes/stock/StockMvtWS.php line 1368](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1368)
 
 
 #### Arguments
@@ -1272,7 +1397,7 @@ Caches data about required objects fields in memory
 
 
 
-### addFieldsRequiredDatabase
+### <a name="method-addFieldsRequiredDatabase"></a>addFieldsRequiredDatabase
 
     boolean ObjectModelCore::addFieldsRequiredDatabase(array $fields)
 
@@ -1282,7 +1407,7 @@ Sets required field for this class in the database.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1390)
+* This method is defined in [classes/stock/StockMvtWS.php line 1390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1390)
 
 
 #### Arguments
@@ -1290,7 +1415,7 @@ Sets required field for this class in the database.
 
 
 
-### clearCache
+### <a name="method-clearCache"></a>clearCache
 
     mixed ObjectModelCore::clearCache(boolean $all)
 
@@ -1300,7 +1425,7 @@ Clears cache entries that have this object's ID.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1414)
+* This method is defined in [classes/stock/StockMvtWS.php line 1414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1414)
 
 
 #### Arguments
@@ -1308,7 +1433,7 @@ Clears cache entries that have this object's ID.
 
 
 
-### isAssociatedToShop
+### <a name="method-isAssociatedToShop"></a>isAssociatedToShop
 
     boolean ObjectModelCore::isAssociatedToShop(integer|null $id_shop)
 
@@ -1318,7 +1443,7 @@ Checks if current object is associated to a shop.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1430](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1430)
+* This method is defined in [classes/stock/StockMvtWS.php line 1430](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1430)
 
 
 #### Arguments
@@ -1326,7 +1451,7 @@ Checks if current object is associated to a shop.
 
 
 
-### associateTo
+### <a name="method-associateTo"></a>associateTo
 
     boolean|void ObjectModelCore::associateTo(integer|array $id_shops)
 
@@ -1336,7 +1461,7 @@ This function associate an item to its context
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1464)
+* This method is defined in [classes/stock/StockMvtWS.php line 1464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1464)
 
 
 #### Arguments
@@ -1344,7 +1469,7 @@ This function associate an item to its context
 
 
 
-### getAssociatedShops
+### <a name="method-getAssociatedShops"></a>getAssociatedShops
 
     array ObjectModelCore::getAssociatedShops()
 
@@ -1354,12 +1479,12 @@ Gets the list of associated shop IDs
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1499](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1499)
+* This method is defined in [classes/stock/StockMvtWS.php line 1499](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1499)
 
 
 
 
-### duplicateShops
+### <a name="method-duplicateShops"></a>duplicateShops
 
     boolean|void ObjectModelCore::duplicateShops($id)
 
@@ -1369,7 +1494,7 @@ Copies shop association data from object with specified ID.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1523](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1523)
+* This method is defined in [classes/stock/StockMvtWS.php line 1523](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1523)
 
 
 #### Arguments
@@ -1377,7 +1502,7 @@ Copies shop association data from object with specified ID.
 
 
 
-### hasMultishopEntries
+### <a name="method-hasMultishopEntries"></a>hasMultishopEntries
 
     boolean ObjectModelCore::hasMultishopEntries()
 
@@ -1387,12 +1512,12 @@ Checks if there is more than one entry in associated shop table for current obje
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1550](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1550)
+* This method is defined in [classes/stock/StockMvtWS.php line 1550](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1550)
 
 
 
 
-### isMultishop
+### <a name="method-isMultishop"></a>isMultishop
 
     boolean ObjectModelCore::isMultishop()
 
@@ -1402,12 +1527,12 @@ Checks if object is multi-shop object.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1564](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1564)
+* This method is defined in [classes/stock/StockMvtWS.php line 1564](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1564)
 
 
 
 
-### isMultiShopField
+### <a name="method-isMultiShopField"></a>isMultiShopField
 
     boolean ObjectModelCore::isMultiShopField(string $field)
 
@@ -1417,7 +1542,7 @@ Checks if a field is a multi-shop field.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1576](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1576)
+* This method is defined in [classes/stock/StockMvtWS.php line 1576](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1576)
 
 
 #### Arguments
@@ -1425,7 +1550,7 @@ Checks if a field is a multi-shop field.
 
 
 
-### isLangMultishop
+### <a name="method-isLangMultishop"></a>isLangMultishop
 
     boolean ObjectModelCore::isLangMultishop()
 
@@ -1435,12 +1560,12 @@ Checks if the object is both multi-language and multi-shop.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1586](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1586)
+* This method is defined in [classes/stock/StockMvtWS.php line 1586](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1586)
 
 
 
 
-### updateMultishopTable
+### <a name="method-updateMultishopTable"></a>updateMultishopTable
 
     boolean ObjectModelCore::updateMultishopTable(string $classname, array $data, string $where, string $specific_where)
 
@@ -1451,7 +1576,7 @@ Updates a table and splits the common datas and the shop datas.
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1602](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1602)
+* This method is defined in [classes/stock/StockMvtWS.php line 1602](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1602)
 
 
 #### Arguments
@@ -1462,7 +1587,7 @@ Updates a table and splits the common datas and the shop datas.
 
 
 
-### deleteImage
+### <a name="method-deleteImage"></a>deleteImage
 
     boolean ObjectModelCore::deleteImage(boolean $force_delete)
 
@@ -1472,7 +1597,7 @@ Delete images associated with the object
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1643](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1643)
+* This method is defined in [classes/stock/StockMvtWS.php line 1643](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1643)
 
 
 #### Arguments
@@ -1480,7 +1605,7 @@ Delete images associated with the object
 
 
 
-### existsInDatabase
+### <a name="method-existsInDatabase"></a>existsInDatabase
 
     boolean ObjectModelCore::existsInDatabase(integer $id_entity, string $table)
 
@@ -1491,7 +1616,7 @@ Checks if an object exists in database.
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1686](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1686)
+* This method is defined in [classes/stock/StockMvtWS.php line 1686](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1686)
 
 
 #### Arguments
@@ -1500,7 +1625,7 @@ Checks if an object exists in database.
 
 
 
-### isCurrentlyUsed
+### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
 
     boolean ObjectModelCore::isCurrentlyUsed(string|null $table, boolean $has_active_column)
 
@@ -1511,7 +1636,7 @@ Checks if an object type exists in the database.
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1706](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1706)
+* This method is defined in [classes/stock/StockMvtWS.php line 1706](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1706)
 
 
 #### Arguments
@@ -1520,7 +1645,7 @@ Checks if an object type exists in the database.
 
 
 
-### hydrate
+### <a name="method-hydrate"></a>hydrate
 
     mixed Core_Foundation_Database_EntityInterface::hydrate(array $keyValueData)
 
@@ -1530,7 +1655,7 @@ Checks if an object type exists in the database.
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)
-* This method is defined in [classes/stock/StockMvtWS.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#41)
+* This method is defined in [classes/stock/StockMvtWS.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L41)
 
 
 #### Arguments
@@ -1538,7 +1663,7 @@ Checks if an object type exists in the database.
 
 
 
-### hydrateCollection
+### <a name="method-hydrateCollection"></a>hydrateCollection
 
     array ObjectModelCore::hydrateCollection(string $class, array $datas, integer|null $id_lang)
 
@@ -1549,7 +1674,7 @@ Fill (hydrate) a list of objects in order to get a collection of these objects
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1755](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1755)
+* This method is defined in [classes/stock/StockMvtWS.php line 1755](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1755)
 
 
 #### Arguments
@@ -1559,7 +1684,7 @@ Fill (hydrate) a list of objects in order to get a collection of these objects
 
 
 
-### getDefinition
+### <a name="method-getDefinition"></a>getDefinition
 
     array ObjectModelCore::getDefinition(string $class, string|null $field)
 
@@ -1570,7 +1695,7 @@ Returns object definition
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1809](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1809)
+* This method is defined in [classes/stock/StockMvtWS.php line 1809](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1809)
 
 
 #### Arguments
@@ -1579,7 +1704,7 @@ Returns object definition
 
 
 
-### setDefinitionRetrocompatibility
+### <a name="method-setDefinitionRetrocompatibility"></a>setDefinitionRetrocompatibility
 
     mixed ObjectModelCore::setDefinitionRetrocompatibility()
 
@@ -1589,12 +1714,12 @@ Retrocompatibility for classes without $definition static
 
 * Visibility: **protected**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1855](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1855)
+* This method is defined in [classes/stock/StockMvtWS.php line 1855](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1855)
 
 
 
 
-### getFieldByLang
+### <a name="method-getFieldByLang"></a>getFieldByLang
 
     mixed ObjectModelCore::getFieldByLang(string $field_name, integer|null $id_lang)
 
@@ -1605,7 +1730,7 @@ else the field value.
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1927](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1927)
+* This method is defined in [classes/stock/StockMvtWS.php line 1927](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1927)
 
 
 #### Arguments
@@ -1614,7 +1739,7 @@ else the field value.
 
 
 
-### setFieldsToUpdate
+### <a name="method-setFieldsToUpdate"></a>setFieldsToUpdate
 
     mixed ObjectModelCore::setFieldsToUpdate(array $fields)
 
@@ -1626,7 +1751,7 @@ langfield1 => array(1 => true, 2 => false))
 
 * Visibility: **public**
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1953](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1953)
+* This method is defined in [classes/stock/StockMvtWS.php line 1953](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1953)
 
 
 #### Arguments
@@ -1634,7 +1759,7 @@ langfield1 => array(1 => true, 2 => false))
 
 
 
-### enableCache
+### <a name="method-enableCache"></a>enableCache
 
     mixed ObjectModelCore::enableCache()
 
@@ -1645,12 +1770,12 @@ Enables object caching
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1961](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1961)
+* This method is defined in [classes/stock/StockMvtWS.php line 1961](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1961)
 
 
 
 
-### disableCache
+### <a name="method-disableCache"></a>disableCache
 
     mixed ObjectModelCore::disableCache()
 
@@ -1661,7 +1786,7 @@ Disables object caching
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [ObjectModelCore](ObjectModelCore)
-* This method is defined in [classes/stock/StockMvtWS.php line 1969](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#1969)
+* This method is defined in [classes/stock/StockMvtWS.php line 1969](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L1969)
 
 
 

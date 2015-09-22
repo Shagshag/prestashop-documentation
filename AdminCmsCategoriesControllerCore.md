@@ -17,8 +17,25 @@ AdminCmsCategoriesControllerCore
 Properties
 ----------
 
+* [$cms_category](#property-$cms_category)
+* [$position_identifier](#property-$position_identifier)
+* [$object](#property-$object)
 
-### $cms_category
+Methods
+-------
+* [__construct](#method-__construct)
+* [renderList](#method-renderList)
+* [postProcess](#method-postProcess)
+* [renderForm](#method-renderForm)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$cms_category"></a>$cms_category
 
     protected object $cms_category
 
@@ -27,10 +44,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminCmsCategoriesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#33)
+* This property is defined in [controllers/admin/AdminCmsCategoriesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L33)
 
 
-### $position_identifier
+### <a name="property-$position_identifier"></a>$position_identifier
 
     protected mixed $position_identifier = 'id_cms_category_to_move'
 
@@ -39,10 +56,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminCmsCategoriesController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#35)
+* This property is defined in [controllers/admin/AdminCmsCategoriesController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L35)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \CMSCategory $object
 
@@ -51,14 +68,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminCmsCategoriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#30)
+* This property is defined in [controllers/admin/AdminCmsCategoriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminCmsCategoriesControllerCore::__construct()
 
@@ -67,12 +84,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsCategoriesController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#37)
+* This method is defined in [controllers/admin/AdminCmsCategoriesController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L37)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminCmsCategoriesControllerCore::renderList()
 
@@ -81,12 +98,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsCategoriesController.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#83)
+* This method is defined in [controllers/admin/AdminCmsCategoriesController.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L83)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminCmsCategoriesControllerCore::postProcess()
 
@@ -95,12 +112,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsCategoriesController.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#93)
+* This method is defined in [controllers/admin/AdminCmsCategoriesController.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L93)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminCmsCategoriesControllerCore::renderForm()
 
@@ -109,7 +126,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCmsCategoriesController.php line 197](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#197)
+* This method is defined in [controllers/admin/AdminCmsCategoriesController.php line 197](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsCategoriesController.php#L197)
 
 
 

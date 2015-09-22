@@ -18,9 +18,18 @@ PrestaShopDatabaseExceptionCore
 
 Methods
 -------
+* [__toString](#method-__toString)
 
 
-### __toString
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__toString"></a>__toString
 
     mixed PrestaShopDatabaseExceptionCore::__toString()
 
@@ -29,7 +38,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/exception/PrestaShopDatabaseException.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopDatabaseException.php#32)
+* This method is defined in [classes/exception/PrestaShopDatabaseException.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopDatabaseException.php#L32)
 
 
 

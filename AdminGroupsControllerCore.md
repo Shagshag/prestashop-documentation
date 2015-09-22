@@ -17,8 +17,38 @@ AdminGroupsControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [setMedia](#method-setMedia)
+* [initToolbar](#method-initToolbar)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [initProcess](#method-initProcess)
+* [renderView](#method-renderView)
+* [renderCustomersList](#method-renderCustomersList)
+* [renderForm](#method-renderForm)
+* [formatCategoryDiscountList](#method-formatCategoryDiscountList)
+* [formatModuleListAuth](#method-formatModuleListAuth)
+* [processSave](#method-processSave)
+* [validateDiscount](#method-validateDiscount)
+* [ajaxProcessAddCategoryReduction](#method-ajaxProcessAddCategoryReduction)
+* [updateRestrictions](#method-updateRestrictions)
+* [updateCategoryReduction](#method-updateCategoryReduction)
+* [processChangeShowPricesVal](#method-processChangeShowPricesVal)
+* [printShowPricesIcon](#method-printShowPricesIcon)
+* [renderList](#method-renderList)
+* [displayEditLink](#method-displayEditLink)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Group $object
 
@@ -27,14 +57,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminGroupsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#30)
+* This property is defined in [controllers/admin/AdminGroupsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminGroupsControllerCore::__construct()
 
@@ -43,12 +73,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#32)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L32)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminGroupsControllerCore::setMedia()
 
@@ -57,12 +87,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#141)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L141)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminGroupsControllerCore::initToolbar()
 
@@ -71,12 +101,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#148)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L148)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminGroupsControllerCore::initPageHeaderToolbar()
 
@@ -85,12 +115,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#161)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L161)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminGroupsControllerCore::initProcess()
 
@@ -99,12 +129,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#174)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L174)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminGroupsControllerCore::renderView()
 
@@ -113,12 +143,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#195)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L195)
 
 
 
 
-### renderCustomersList
+### <a name="method-renderCustomersList"></a>renderCustomersList
 
     mixed AdminGroupsControllerCore::renderCustomersList($group)
 
@@ -127,7 +157,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#212)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L212)
 
 
 #### Arguments
@@ -135,7 +165,7 @@ Methods
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminGroupsControllerCore::renderForm()
 
@@ -144,12 +174,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#251)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L251)
 
 
 
 
-### formatCategoryDiscountList
+### <a name="method-formatCategoryDiscountList"></a>formatCategoryDiscountList
 
     mixed AdminGroupsControllerCore::formatCategoryDiscountList($id_group)
 
@@ -158,7 +188,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#360)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L360)
 
 
 #### Arguments
@@ -166,7 +196,7 @@ Methods
 
 
 
-### formatModuleListAuth
+### <a name="method-formatModuleListAuth"></a>formatModuleListAuth
 
     mixed AdminGroupsControllerCore::formatModuleListAuth($id_group)
 
@@ -175,7 +205,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 393](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#393)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 393](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L393)
 
 
 #### Arguments
@@ -183,7 +213,7 @@ Methods
 
 
 
-### processSave
+### <a name="method-processSave"></a>processSave
 
     mixed AdminGroupsControllerCore::processSave()
 
@@ -192,12 +222,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 444](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#444)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 444](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L444)
 
 
 
 
-### validateDiscount
+### <a name="method-validateDiscount"></a>validateDiscount
 
     mixed AdminGroupsControllerCore::validateDiscount($reduction)
 
@@ -206,7 +236,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 456](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#456)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 456](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L456)
 
 
 #### Arguments
@@ -214,7 +244,7 @@ Methods
 
 
 
-### ajaxProcessAddCategoryReduction
+### <a name="method-ajaxProcessAddCategoryReduction"></a>ajaxProcessAddCategoryReduction
 
     mixed AdminGroupsControllerCore::ajaxProcessAddCategoryReduction()
 
@@ -223,12 +253,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 465](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#465)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 465](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L465)
 
 
 
 
-### updateRestrictions
+### <a name="method-updateRestrictions"></a>updateRestrictions
 
     mixed AdminGroupsControllerCore::updateRestrictions()
 
@@ -237,12 +267,12 @@ Update (or create) restrictions for modules by group
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 489](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#489)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 489](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L489)
 
 
 
 
-### updateCategoryReduction
+### <a name="method-updateCategoryReduction"></a>updateCategoryReduction
 
     mixed AdminGroupsControllerCore::updateCategoryReduction()
 
@@ -251,12 +281,12 @@ Update (or create) restrictions for modules by group
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 504](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#504)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 504](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L504)
 
 
 
 
-### processChangeShowPricesVal
+### <a name="method-processChangeShowPricesVal"></a>processChangeShowPricesVal
 
     mixed AdminGroupsControllerCore::processChangeShowPricesVal()
 
@@ -265,12 +295,12 @@ Toggle show prices flag
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 540](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#540)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 540](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L540)
 
 
 
 
-### printShowPricesIcon
+### <a name="method-printShowPricesIcon"></a>printShowPricesIcon
 
     string AdminGroupsControllerCore::printShowPricesIcon($id_group, $tr)
 
@@ -279,7 +309,7 @@ Print enable / disable icon for show prices option
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 561](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#561)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 561](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L561)
 
 
 #### Arguments
@@ -288,7 +318,7 @@ Print enable / disable icon for show prices option
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminGroupsControllerCore::renderList()
 
@@ -297,12 +327,12 @@ Print enable / disable icon for show prices option
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 572](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#572)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 572](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L572)
 
 
 
 
-### displayEditLink
+### <a name="method-displayEditLink"></a>displayEditLink
 
     mixed AdminGroupsControllerCore::displayEditLink($token, $id, $name)
 
@@ -311,7 +341,7 @@ Print enable / disable icon for show prices option
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminGroupsController.php line 598](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#598)
+* This method is defined in [controllers/admin/AdminGroupsController.php line 598](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L598)
 
 
 #### Arguments

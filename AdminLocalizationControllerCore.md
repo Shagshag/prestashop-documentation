@@ -18,9 +18,25 @@ AdminLocalizationControllerCore
 
 Methods
 -------
+* [__construct](#method-__construct)
+* [postProcess](#method-postProcess)
+* [sortLocalizationsPack](#method-sortLocalizationsPack)
+* [renderForm](#method-renderForm)
+* [initContent](#method-initContent)
+* [display](#method-display)
+* [beforeUpdateOptions](#method-beforeUpdateOptions)
+* [updateOptionPsCurrencyDefault](#method-updateOptionPsCurrencyDefault)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed AdminLocalizationControllerCore::__construct()
 
@@ -29,12 +45,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLocalizationController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#29)
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#L29)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminLocalizationControllerCore::postProcess()
 
@@ -43,12 +59,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLocalizationController.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#161)
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#L161)
 
 
 
 
-### sortLocalizationsPack
+### <a name="method-sortLocalizationsPack"></a>sortLocalizationsPack
 
     mixed AdminLocalizationControllerCore::sortLocalizationsPack($a, $b)
 
@@ -57,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLocalizationController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#219)
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#L219)
 
 
 #### Arguments
@@ -66,7 +82,7 @@ Methods
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminLocalizationControllerCore::renderForm()
 
@@ -75,12 +91,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLocalizationController.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#224)
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#L224)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminLocalizationControllerCore::initContent()
 
@@ -89,12 +105,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLocalizationController.php line 377](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#377)
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 377](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#L377)
 
 
 
 
-### display
+### <a name="method-display"></a>display
 
     mixed AdminLocalizationControllerCore::display()
 
@@ -103,12 +119,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLocalizationController.php line 396](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#396)
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 396](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#L396)
 
 
 
 
-### beforeUpdateOptions
+### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
     mixed AdminLocalizationControllerCore::beforeUpdateOptions()
 
@@ -117,12 +133,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLocalizationController.php line 402](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#402)
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 402](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#L402)
 
 
 
 
-### updateOptionPsCurrencyDefault
+### <a name="method-updateOptionPsCurrencyDefault"></a>updateOptionPsCurrencyDefault
 
     mixed AdminLocalizationControllerCore::updateOptionPsCurrencyDefault($value)
 
@@ -131,7 +147,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminLocalizationController.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#412)
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#L412)
 
 
 #### Arguments

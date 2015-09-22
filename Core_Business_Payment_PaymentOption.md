@@ -30,8 +30,40 @@ needs please refer to http://www.prestashop.com for more information.
 Properties
 ----------
 
+* [$callToActionText](#property-$callToActionText)
+* [$logo](#property-$logo)
+* [$action](#property-$action)
+* [$method](#property-$method)
+* [$inputs](#property-$inputs)
+* [$form](#property-$form)
+* [$moduleName](#property-$moduleName)
 
-### $callToActionText
+Methods
+-------
+* [getCallToActionText](#method-getCallToActionText)
+* [setCallToActionText](#method-setCallToActionText)
+* [getLogo](#method-getLogo)
+* [setLogo](#method-setLogo)
+* [getAction](#method-getAction)
+* [setAction](#method-setAction)
+* [getMethod](#method-getMethod)
+* [setMethod](#method-setMethod)
+* [getInputs](#method-getInputs)
+* [setInputs](#method-setInputs)
+* [getForm](#method-getForm)
+* [setForm](#method-setForm)
+* [getModuleName](#method-getModuleName)
+* [setModuleName](#method-setModuleName)
+* [convertLegacyOption](#method-convertLegacyOption)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$callToActionText"></a>$callToActionText
 
     private mixed $callToActionText
 
@@ -40,10 +72,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#29)
+* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L29)
 
 
-### $logo
+### <a name="property-$logo"></a>$logo
 
     private mixed $logo
 
@@ -52,10 +84,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#30)
+* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L30)
 
 
-### $action
+### <a name="property-$action"></a>$action
 
     private mixed $action
 
@@ -64,10 +96,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#31)
+* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L31)
 
 
-### $method
+### <a name="property-$method"></a>$method
 
     private mixed $method
 
@@ -76,10 +108,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#32)
+* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L32)
 
 
-### $inputs
+### <a name="property-$inputs"></a>$inputs
 
     private mixed $inputs
 
@@ -88,10 +120,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#33)
+* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L33)
 
 
-### $form
+### <a name="property-$form"></a>$form
 
     private mixed $form
 
@@ -100,10 +132,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#34)
+* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L34)
 
 
-### $moduleName
+### <a name="property-$moduleName"></a>$moduleName
 
     private mixed $moduleName
 
@@ -112,14 +144,14 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#35)
+* This property is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L35)
 
 
 Methods
 -------
 
 
-### getCallToActionText
+### <a name="method-getCallToActionText"></a>getCallToActionText
 
     string Core_Business_Payment_PaymentOption::getCallToActionText()
 
@@ -128,12 +160,12 @@ Return Call to Action Text
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#41)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L41)
 
 
 
 
-### setCallToActionText
+### <a name="method-setCallToActionText"></a>setCallToActionText
 
     \Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setCallToActionText($callToActionText)
 
@@ -142,7 +174,7 @@ Set Call To Action Text
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#51)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L51)
 
 
 #### Arguments
@@ -150,7 +182,7 @@ Set Call To Action Text
 
 
 
-### getLogo
+### <a name="method-getLogo"></a>getLogo
 
     string Core_Business_Payment_PaymentOption::getLogo()
 
@@ -159,12 +191,12 @@ Return logo path
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#61)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L61)
 
 
 
 
-### setLogo
+### <a name="method-setLogo"></a>setLogo
 
     \Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setLogo($logo)
 
@@ -173,7 +205,7 @@ Set logo path
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#71)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L71)
 
 
 #### Arguments
@@ -181,7 +213,7 @@ Set logo path
 
 
 
-### getAction
+### <a name="method-getAction"></a>getAction
 
     string Core_Business_Payment_PaymentOption::getAction()
 
@@ -190,12 +222,12 @@ Return action to perform (POST/GET)
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#81)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L81)
 
 
 
 
-### setAction
+### <a name="method-setAction"></a>setAction
 
     \Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setAction($action)
 
@@ -204,7 +236,7 @@ Set action to be performed by this option
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#92)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L92)
 
 
 #### Arguments
@@ -212,7 +244,7 @@ Set action to be performed by this option
 
 
 
-### getMethod
+### <a name="method-getMethod"></a>getMethod
 
     mixed Core_Business_Payment_PaymentOption::getMethod()
 
@@ -221,12 +253,12 @@ Set action to be performed by this option
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#98)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L98)
 
 
 
 
-### setMethod
+### <a name="method-setMethod"></a>setMethod
 
     mixed Core_Business_Payment_PaymentOption::setMethod($method)
 
@@ -235,7 +267,7 @@ Set action to be performed by this option
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#103)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L103)
 
 
 #### Arguments
@@ -243,7 +275,7 @@ Set action to be performed by this option
 
 
 
-### getInputs
+### <a name="method-getInputs"></a>getInputs
 
     mixed Core_Business_Payment_PaymentOption::getInputs()
 
@@ -252,12 +284,12 @@ Return inputs contained in this payment option
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#113)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L113)
 
 
 
 
-### setInputs
+### <a name="method-setInputs"></a>setInputs
 
     \Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setInputs($inputs)
 
@@ -266,7 +298,7 @@ Set inputs for this payment option
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#123)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L123)
 
 
 #### Arguments
@@ -274,7 +306,7 @@ Set inputs for this payment option
 
 
 
-### getForm
+### <a name="method-getForm"></a>getForm
 
     mixed Core_Business_Payment_PaymentOption::getForm()
 
@@ -283,12 +315,12 @@ Get payment option form
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#133)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L133)
 
 
 
 
-### setForm
+### <a name="method-setForm"></a>setForm
 
     \Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setForm($form)
 
@@ -297,7 +329,7 @@ Set payment option form
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#143)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L143)
 
 
 #### Arguments
@@ -305,7 +337,7 @@ Set payment option form
 
 
 
-### getModuleName
+### <a name="method-getModuleName"></a>getModuleName
 
     string Core_Business_Payment_PaymentOption::getModuleName()
 
@@ -314,12 +346,12 @@ Get related module name to this payment option
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#153)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L153)
 
 
 
 
-### setModuleName
+### <a name="method-setModuleName"></a>setModuleName
 
     \Core_Business_Payment_PaymentOption Core_Business_Payment_PaymentOption::setModuleName($moduleName)
 
@@ -328,7 +360,7 @@ Set related module name to this payment option
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#163)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L163)
 
 
 #### Arguments
@@ -336,7 +368,7 @@ Set related module name to this payment option
 
 
 
-### convertLegacyOption
+### <a name="method-convertLegacyOption"></a>convertLegacyOption
 
     mixed Core_Business_Payment_PaymentOption::convertLegacyOption(array $legacyOption)
 
@@ -351,7 +383,7 @@ returns an array of instances of Core_Business_Payment_PaymentOption
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#178)
+* This method is defined in [Core/Business/Payment/Core_Business_Payment_PaymentOption.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Payment/Core_Business_Payment_PaymentOption.php#L178)
 
 
 #### Arguments

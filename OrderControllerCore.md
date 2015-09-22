@@ -15,48 +15,76 @@ OrderControllerCore
 Constants
 ----------
 
+* [STEP_SUMMARY_EMPTY_CART](#constant-STEP_SUMMARY_EMPTY_CART)
+* [STEP_ADDRESSES](#constant-STEP_ADDRESSES)
+* [STEP_DELIVERY](#constant-STEP_DELIVERY)
+* [STEP_PAYMENT](#constant-STEP_PAYMENT)
 
-### STEP_SUMMARY_EMPTY_CART
+Properties
+----------
+
+* [$step](#property-$step)
+
+Methods
+-------
+* [init](#method-init)
+* [postProcess](#method-postProcess)
+* [initContent](#method-initContent)
+* [processAddressFormat](#method-processAddressFormat)
+* [autoStep](#method-autoStep)
+* [processAddress](#method-processAddress)
+* [processCarrier](#method-processCarrier)
+* [_assignAddress](#method-_assignAddress)
+* [_assignCarrier](#method-_assignCarrier)
+* [_assignPayment](#method-_assignPayment)
+* [setMedia](#method-setMedia)
+
+
+Constants
+----------
+
+
+### <a name="constant-STEP_SUMMARY_EMPTY_CART"></a>STEP_SUMMARY_EMPTY_CART
 
     const STEP_SUMMARY_EMPTY_CART = -1
 
 
 
-* This constant is defined in [controllers/front/OrderController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#30)
+* This constant is defined in [controllers/front/OrderController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L30)
 
 
-### STEP_ADDRESSES
+### <a name="constant-STEP_ADDRESSES"></a>STEP_ADDRESSES
 
     const STEP_ADDRESSES = 1
 
 
 
-* This constant is defined in [controllers/front/OrderController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#31)
+* This constant is defined in [controllers/front/OrderController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L31)
 
 
-### STEP_DELIVERY
+### <a name="constant-STEP_DELIVERY"></a>STEP_DELIVERY
 
     const STEP_DELIVERY = 2
 
 
 
-* This constant is defined in [controllers/front/OrderController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#32)
+* This constant is defined in [controllers/front/OrderController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L32)
 
 
-### STEP_PAYMENT
+### <a name="constant-STEP_PAYMENT"></a>STEP_PAYMENT
 
     const STEP_PAYMENT = 3
 
 
 
-* This constant is defined in [controllers/front/OrderController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#33)
+* This constant is defined in [controllers/front/OrderController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L33)
 
 
 Properties
 ----------
 
 
-### $step
+### <a name="property-$step"></a>$step
 
     public mixed $step
 
@@ -65,14 +93,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/OrderController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#29)
+* This property is defined in [controllers/front/OrderController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L29)
 
 
 Methods
 -------
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed OrderControllerCore::init()
 
@@ -81,12 +109,12 @@ Initialize order controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#39)
+* This method is defined in [controllers/front/OrderController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L39)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed OrderControllerCore::postProcess()
 
@@ -95,12 +123,12 @@ Initialize order controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderController.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#110)
+* This method is defined in [controllers/front/OrderController.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L110)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed OrderControllerCore::initContent()
 
@@ -109,12 +137,12 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#123)
+* This method is defined in [controllers/front/OrderController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L123)
 
 
 
 
-### processAddressFormat
+### <a name="method-processAddressFormat"></a>processAddressFormat
 
     mixed OrderControllerCore::processAddressFormat()
 
@@ -123,12 +151,12 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/OrderController.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#246)
+* This method is defined in [controllers/front/OrderController.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L246)
 
 
 
 
-### autoStep
+### <a name="method-autoStep"></a>autoStep
 
     mixed OrderControllerCore::autoStep()
 
@@ -137,12 +165,12 @@ Order process controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderController.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#262)
+* This method is defined in [controllers/front/OrderController.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L262)
 
 
 
 
-### processAddress
+### <a name="method-processAddress"></a>processAddress
 
     mixed OrderControllerCore::processAddress()
 
@@ -151,12 +179,12 @@ Manage address
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderController.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#318)
+* This method is defined in [controllers/front/OrderController.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L318)
 
 
 
 
-### processCarrier
+### <a name="method-processCarrier"></a>processCarrier
 
     mixed OrderControllerCore::processCarrier()
 
@@ -165,12 +193,12 @@ Carrier step
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/OrderController.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#390)
+* This method is defined in [controllers/front/OrderController.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L390)
 
 
 
 
-### _assignAddress
+### <a name="method-_assignAddress"></a>_assignAddress
 
     mixed OrderControllerCore::_assignAddress()
 
@@ -179,12 +207,12 @@ Address step
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/OrderController.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#407)
+* This method is defined in [controllers/front/OrderController.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L407)
 
 
 
 
-### _assignCarrier
+### <a name="method-_assignCarrier"></a>_assignCarrier
 
     mixed OrderControllerCore::_assignCarrier()
 
@@ -193,12 +221,12 @@ Carrier step
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/OrderController.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#421)
+* This method is defined in [controllers/front/OrderController.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L421)
 
 
 
 
-### _assignPayment
+### <a name="method-_assignPayment"></a>_assignPayment
 
     mixed OrderControllerCore::_assignPayment()
 
@@ -207,12 +235,12 @@ Payment step
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/OrderController.php line 440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#440)
+* This method is defined in [controllers/front/OrderController.php line 440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L440)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed OrderControllerCore::setMedia()
 
@@ -221,7 +249,7 @@ Payment step
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderController.php line 472](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#472)
+* This method is defined in [controllers/front/OrderController.php line 472](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#L472)
 
 
 

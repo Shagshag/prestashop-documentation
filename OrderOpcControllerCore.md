@@ -17,8 +17,31 @@ OrderOpcControllerCore
 Properties
 ----------
 
+* [$php_self](#property-$php_self)
+* [$isLogged](#property-$isLogged)
+* [$ajax_refresh](#property-$ajax_refresh)
 
-### $php_self
+Methods
+-------
+* [init](#method-init)
+* [setMedia](#method-setMedia)
+* [initContent](#method-initContent)
+* [_getGuestInformations](#method-_getGuestInformations)
+* [_assignCarrier](#method-_assignCarrier)
+* [_assignPayment](#method-_assignPayment)
+* [_getPaymentMethods](#method-_getPaymentMethods)
+* [_getCarrierList](#method-_getCarrierList)
+* [_processAddressFormat](#method-_processAddressFormat)
+* [getFormatedSummaryDetail](#method-getFormatedSummaryDetail)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'order-opc'
 
@@ -27,10 +50,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/OrderOpcController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#29)
+* This property is defined in [controllers/front/OrderOpcController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L29)
 
 
-### $isLogged
+### <a name="property-$isLogged"></a>$isLogged
 
     public mixed $isLogged
 
@@ -39,10 +62,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/OrderOpcController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#30)
+* This property is defined in [controllers/front/OrderOpcController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L30)
 
 
-### $ajax_refresh
+### <a name="property-$ajax_refresh"></a>$ajax_refresh
 
     protected mixed $ajax_refresh = false
 
@@ -51,14 +74,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/OrderOpcController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#32)
+* This property is defined in [controllers/front/OrderOpcController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L32)
 
 
 Methods
 -------
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed OrderOpcControllerCore::init()
 
@@ -67,12 +90,12 @@ Initialize order opc controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderOpcController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#38)
+* This method is defined in [controllers/front/OrderOpcController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L38)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed OrderOpcControllerCore::setMedia()
 
@@ -81,12 +104,12 @@ Initialize order opc controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderOpcController.php line 325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#325)
+* This method is defined in [controllers/front/OrderOpcController.php line 325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L325)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed OrderOpcControllerCore::initContent()
 
@@ -95,12 +118,12 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderOpcController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#351)
+* This method is defined in [controllers/front/OrderOpcController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L351)
 
 
 
 
-### _getGuestInformations
+### <a name="method-_getGuestInformations"></a>_getGuestInformations
 
     mixed OrderOpcControllerCore::_getGuestInformations()
 
@@ -109,12 +132,12 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/OrderOpcController.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#437)
+* This method is defined in [controllers/front/OrderOpcController.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L437)
 
 
 
 
-### _assignCarrier
+### <a name="method-_assignCarrier"></a>_assignCarrier
 
     mixed OrderOpcControllerCore::_assignCarrier()
 
@@ -123,12 +146,12 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/OrderOpcController.php line 506](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#506)
+* This method is defined in [controllers/front/OrderOpcController.php line 506](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L506)
 
 
 
 
-### _assignPayment
+### <a name="method-_assignPayment"></a>_assignPayment
 
     mixed OrderOpcControllerCore::_assignPayment()
 
@@ -137,12 +160,12 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/OrderOpcController.php line 527](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#527)
+* This method is defined in [controllers/front/OrderOpcController.php line 527](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L527)
 
 
 
 
-### _getPaymentMethods
+### <a name="method-_getPaymentMethods"></a>_getPaymentMethods
 
     mixed OrderOpcControllerCore::_getPaymentMethods()
 
@@ -151,12 +174,12 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/OrderOpcController.php line 544](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#544)
+* This method is defined in [controllers/front/OrderOpcController.php line 544](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L544)
 
 
 
 
-### _getCarrierList
+### <a name="method-_getCarrierList"></a>_getCarrierList
 
     mixed OrderOpcControllerCore::_getCarrierList()
 
@@ -165,12 +188,12 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/OrderOpcController.php line 609](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#609)
+* This method is defined in [controllers/front/OrderOpcController.php line 609](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L609)
 
 
 
 
-### _processAddressFormat
+### <a name="method-_processAddressFormat"></a>_processAddressFormat
 
     mixed OrderOpcControllerCore::_processAddressFormat()
 
@@ -179,12 +202,12 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/OrderOpcController.php line 695](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#695)
+* This method is defined in [controllers/front/OrderOpcController.php line 695](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L695)
 
 
 
 
-### getFormatedSummaryDetail
+### <a name="method-getFormatedSummaryDetail"></a>getFormatedSummaryDetail
 
     mixed OrderOpcControllerCore::getFormatedSummaryDetail()
 
@@ -193,7 +216,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/OrderOpcController.php line 738](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#738)
+* This method is defined in [controllers/front/OrderOpcController.php line 738](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#L738)
 
 
 

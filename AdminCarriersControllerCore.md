@@ -17,8 +17,37 @@ AdminCarriersControllerCore
 Properties
 ----------
 
+* [$position_identifier](#property-$position_identifier)
+* [$object](#property-$object)
 
-### $position_identifier
+Methods
+-------
+* [__construct](#method-__construct)
+* [initToolbar](#method-initToolbar)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderView](#method-renderView)
+* [renderList](#method-renderList)
+* [renderForm](#method-renderForm)
+* [postProcess](#method-postProcess)
+* [processIsFree](#method-processIsFree)
+* [getFieldsValues](#method-getFieldsValues)
+* [beforeDelete](#method-beforeDelete)
+* [changeGroups](#method-changeGroups)
+* [changeZones](#method-changeZones)
+* [getList](#method-getList)
+* [ajaxProcessUpdatePositions](#method-ajaxProcessUpdatePositions)
+* [displayEditLink](#method-displayEditLink)
+* [displayDeleteLink](#method-displayDeleteLink)
+* [initTabModuleList](#method-initTabModuleList)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$position_identifier"></a>$position_identifier
 
     protected mixed $position_identifier = 'id_carrier'
 
@@ -27,10 +56,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminCarriersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#32)
+* This property is defined in [controllers/admin/AdminCarriersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L32)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Carrier $object
 
@@ -39,14 +68,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminCarriersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#30)
+* This property is defined in [controllers/admin/AdminCarriersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminCarriersControllerCore::__construct()
 
@@ -55,12 +84,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#34)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L34)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminCarriersControllerCore::initToolbar()
 
@@ -69,12 +98,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#118)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L118)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminCarriersControllerCore::initPageHeaderToolbar()
 
@@ -83,12 +112,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#127)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L127)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminCarriersControllerCore::renderView()
 
@@ -97,12 +126,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#141)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L141)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminCarriersControllerCore::renderList()
 
@@ -111,12 +140,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#151)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L151)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminCarriersControllerCore::renderForm()
 
@@ -125,12 +154,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#159)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L159)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminCarriersControllerCore::postProcess()
 
@@ -139,12 +168,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#412)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L412)
 
 
 
 
-### processIsFree
+### <a name="method-processIsFree"></a>processIsFree
 
     mixed AdminCarriersControllerCore::processIsFree()
 
@@ -153,12 +182,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 539](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#539)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 539](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L539)
 
 
 
 
-### getFieldsValues
+### <a name="method-getFieldsValues"></a>getFieldsValues
 
     mixed AdminCarriersControllerCore::getFieldsValues(object $obj)
 
@@ -167,7 +196,7 @@ Overload the property $fields_value
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 557](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#557)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 557](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L557)
 
 
 #### Arguments
@@ -175,7 +204,7 @@ Overload the property $fields_value
 
 
 
-### beforeDelete
+### <a name="method-beforeDelete"></a>beforeDelete
 
     integer AdminCarriersControllerCore::beforeDelete(\Carrier $object)
 
@@ -184,7 +213,7 @@ Overload the property $fields_value
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 606](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#606)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 606](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L606)
 
 
 #### Arguments
@@ -192,7 +221,7 @@ Overload the property $fields_value
 
 
 
-### changeGroups
+### <a name="method-changeGroups"></a>changeGroups
 
     mixed AdminCarriersControllerCore::changeGroups($id_carrier, $delete)
 
@@ -201,7 +230,7 @@ Overload the property $fields_value
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 611](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#611)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 611](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L611)
 
 
 #### Arguments
@@ -210,7 +239,7 @@ Overload the property $fields_value
 
 
 
-### changeZones
+### <a name="method-changeZones"></a>changeZones
 
     mixed AdminCarriersControllerCore::changeZones($id)
 
@@ -219,7 +248,7 @@ Overload the property $fields_value
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 627](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#627)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 627](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L627)
 
 
 #### Arguments
@@ -227,7 +256,7 @@ Overload the property $fields_value
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminCarriersControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
 
@@ -236,7 +265,7 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 658](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#658)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 658](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L658)
 
 
 #### Arguments
@@ -249,7 +278,7 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 
-### ajaxProcessUpdatePositions
+### <a name="method-ajaxProcessUpdatePositions"></a>ajaxProcessUpdatePositions
 
     mixed AdminCarriersControllerCore::ajaxProcessUpdatePositions()
 
@@ -258,12 +287,12 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 669](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#669)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 669](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L669)
 
 
 
 
-### displayEditLink
+### <a name="method-displayEditLink"></a>displayEditLink
 
     mixed AdminCarriersControllerCore::displayEditLink($token, $id, $name)
 
@@ -272,7 +301,7 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 694](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#694)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 694](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L694)
 
 
 #### Arguments
@@ -282,7 +311,7 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 
-### displayDeleteLink
+### <a name="method-displayDeleteLink"></a>displayDeleteLink
 
     mixed AdminCarriersControllerCore::displayDeleteLink($token, $id, $name)
 
@@ -291,7 +320,7 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 714](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#714)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 714](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L714)
 
 
 #### Arguments
@@ -301,7 +330,7 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 
-### initTabModuleList
+### <a name="method-initTabModuleList"></a>initTabModuleList
 
     mixed AdminCarriersControllerCore::initTabModuleList()
 
@@ -310,7 +339,7 @@ Modifying initial getList method to display position feature (drag and drop)
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCarriersController.php line 753](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#753)
+* This method is defined in [controllers/admin/AdminCarriersController.php line 753](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarriersController.php#L753)
 
 
 

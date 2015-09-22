@@ -31,8 +31,58 @@ needs please refer to http://www.prestashop.com for more information.
 Properties
 ----------
 
+* [$name](#property-$name)
+* [$title](#property-$title)
+* [$description](#property-$description)
+* [$position](#property-$position)
+* [$live_edit](#property-$live_edit)
+* [$executed_hooks](#property-$executed_hooks)
+* [$native_module](#property-$native_module)
+* [$definition](#property-$definition)
+* [$_hook_modules_cache](#property-$_hook_modules_cache)
+* [$_hook_modules_cache_exec](#property-$_hook_modules_cache_exec)
 
-### $name
+Methods
+-------
+* [add](#method-add)
+* [getHooks](#method-getHooks)
+* [getIdByName](#method-getIdByName)
+* [getNameById](#method-getNameById)
+* [getLiveEditById](#method-getLiveEditById)
+* [getHookAliasList](#method-getHookAliasList)
+* [getRetroHookName](#method-getRetroHookName)
+* [getHookModuleList](#method-getHookModuleList)
+* [getModulesFromHook](#method-getModulesFromHook)
+* [getHookModuleExecList](#method-getHookModuleExecList)
+* [exec](#method-exec)
+* [coreCallHook](#method-coreCallHook)
+* [wrapLiveEdit](#method-wrapLiveEdit)
+* [updateOrderStatus](#method-updateOrderStatus)
+* [postUpdateOrderStatus](#method-postUpdateOrderStatus)
+* [orderConfirmation](#method-orderConfirmation)
+* [paymentReturn](#method-paymentReturn)
+* [PDFInvoice](#method-PDFInvoice)
+* [backBeforePayment](#method-backBeforePayment)
+* [updateCarrier](#method-updateCarrier)
+* [preloadHookModulesCache](#method-preloadHookModulesCache)
+* [get](#method-get)
+* [newOrder](#method-newOrder)
+* [updateQuantity](#method-updateQuantity)
+* [productFooter](#method-productFooter)
+* [productOutOfStock](#method-productOutOfStock)
+* [addProduct](#method-addProduct)
+* [updateProduct](#method-updateProduct)
+* [deleteProduct](#method-deleteProduct)
+* [updateProductAttribute](#method-updateProductAttribute)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -41,10 +91,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Hook.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#32)
+* This property is defined in [classes/Hook.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L32)
 
 
-### $title
+### <a name="property-$title"></a>$title
 
     public string $title
 
@@ -53,10 +103,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Hook.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#37)
+* This property is defined in [classes/Hook.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L37)
 
 
-### $description
+### <a name="property-$description"></a>$description
 
     public string $description
 
@@ -65,10 +115,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Hook.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#42)
+* This property is defined in [classes/Hook.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L42)
 
 
-### $position
+### <a name="property-$position"></a>$position
 
     public boolean $position = false
 
@@ -77,10 +127,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Hook.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#47)
+* This property is defined in [classes/Hook.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L47)
 
 
-### $live_edit
+### <a name="property-$live_edit"></a>$live_edit
 
     public boolean $live_edit = false
 
@@ -89,10 +139,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Hook.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#52)
+* This property is defined in [classes/Hook.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L52)
 
 
-### $executed_hooks
+### <a name="property-$executed_hooks"></a>$executed_hooks
 
     public array $executed_hooks = array()
 
@@ -102,10 +152,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Hook.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#57)
+* This property is defined in [classes/Hook.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L57)
 
 
-### $native_module
+### <a name="property-$native_module"></a>$native_module
 
     public mixed $native_module
 
@@ -115,10 +165,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Hook.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#59)
+* This property is defined in [classes/Hook.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L59)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'hook', 'primary' => 'id_hook', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isHookName', 'required' => true, 'size' => 64), 'title' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName'), 'description' => array('type' => self::TYPE_HTML, 'validate' => 'isCleanHtml'), 'position' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'live_edit' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
 
@@ -128,10 +178,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Hook.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#64)
+* This property is defined in [classes/Hook.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L64)
 
 
-### $_hook_modules_cache
+### <a name="property-$_hook_modules_cache"></a>$_hook_modules_cache
 
     protected mixed $_hook_modules_cache = null
 
@@ -141,10 +191,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Hook.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#79)
+* This property is defined in [classes/Hook.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L79)
 
 
-### $_hook_modules_cache_exec
+### <a name="property-$_hook_modules_cache_exec"></a>$_hook_modules_cache_exec
 
     protected mixed $_hook_modules_cache_exec = null
 
@@ -154,14 +204,14 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Hook.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#84)
+* This property is defined in [classes/Hook.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L84)
 
 
 Methods
 -------
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed HookCore::add($autodate, $null_values)
 
@@ -170,7 +220,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Hook.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#86)
+* This method is defined in [classes/Hook.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L86)
 
 
 #### Arguments
@@ -179,7 +229,7 @@ Methods
 
 
 
-### getHooks
+### <a name="method-getHooks"></a>getHooks
 
     array HookCore::getHooks(boolean $position)
 
@@ -189,7 +239,7 @@ Return Hooks List
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#98)
+* This method is defined in [classes/Hook.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L98)
 
 
 #### Arguments
@@ -197,7 +247,7 @@ Return Hooks List
 
 
 
-### getIdByName
+### <a name="method-getIdByName"></a>getIdByName
 
     integer HookCore::getIdByName(string $hook_name)
 
@@ -207,7 +257,7 @@ Return hook ID from name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#113)
+* This method is defined in [classes/Hook.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L113)
 
 
 #### Arguments
@@ -215,7 +265,7 @@ Return hook ID from name
 
 
 
-### getNameById
+### <a name="method-getNameById"></a>getNameById
 
     mixed HookCore::getNameById($hook_id)
 
@@ -225,7 +275,7 @@ Return hook ID from name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#146)
+* This method is defined in [classes/Hook.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L146)
 
 
 #### Arguments
@@ -233,7 +283,7 @@ Return hook ID from name
 
 
 
-### getLiveEditById
+### <a name="method-getLiveEditById"></a>getLiveEditById
 
     mixed HookCore::getLiveEditById($hook_id)
 
@@ -243,7 +293,7 @@ Return hook live edit bool from ID
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#163)
+* This method is defined in [classes/Hook.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L163)
 
 
 #### Arguments
@@ -251,7 +301,7 @@ Return hook live edit bool from ID
 
 
 
-### getHookAliasList
+### <a name="method-getHookAliasList"></a>getHookAliasList
 
     array HookCore::getHookAliasList()
 
@@ -261,12 +311,12 @@ Get list of hook alias
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#183)
+* This method is defined in [classes/Hook.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L183)
 
 
 
 
-### getRetroHookName
+### <a name="method-getRetroHookName"></a>getRetroHookName
 
     integer HookCore::getRetroHookName(string $hook_name)
 
@@ -276,7 +326,7 @@ Return backward compatibility hook name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#207)
+* This method is defined in [classes/Hook.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L207)
 
 
 #### Arguments
@@ -284,7 +334,7 @@ Return backward compatibility hook name
 
 
 
-### getHookModuleList
+### <a name="method-getHookModuleList"></a>getHookModuleList
 
     array HookCore::getHookModuleList()
 
@@ -294,12 +344,12 @@ Get list of all registered hooks with modules
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#227)
+* This method is defined in [classes/Hook.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L227)
 
 
 
 
-### getModulesFromHook
+### <a name="method-getModulesFromHook"></a>getModulesFromHook
 
     array HookCore::getModulesFromHook(integer $id_hook, integer $id_module)
 
@@ -309,7 +359,7 @@ Return Hooks List
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#273)
+* This method is defined in [classes/Hook.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L273)
 
 
 #### Arguments
@@ -318,7 +368,7 @@ Return Hooks List
 
 
 
-### getHookModuleExecList
+### <a name="method-getHookModuleExecList"></a>getHookModuleExecList
 
     array HookCore::getHookModuleExecList(string $hook_name)
 
@@ -328,7 +378,7 @@ Get list of modules we can execute per hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#291)
+* This method is defined in [classes/Hook.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L291)
 
 
 #### Arguments
@@ -336,7 +386,7 @@ Get list of modules we can execute per hook
 
 
 
-### exec
+### <a name="method-exec"></a>exec
 
     \string/array HookCore::exec(string $hook_name, array $hook_args, integer $id_module, boolean $array_return, boolean $check_exceptions, boolean $use_push, integer $id_shop)
 
@@ -346,7 +396,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#421)
+* This method is defined in [classes/Hook.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L421)
 
 
 #### Arguments
@@ -360,7 +410,7 @@ Execute modules for specified hook
 
 
 
-### coreCallHook
+### <a name="method-coreCallHook"></a>coreCallHook
 
     mixed HookCore::coreCallHook($module, $method, $params)
 
@@ -370,7 +420,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 574](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#574)
+* This method is defined in [classes/Hook.php line 574](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L574)
 
 
 #### Arguments
@@ -380,7 +430,7 @@ Execute modules for specified hook
 
 
 
-### wrapLiveEdit
+### <a name="method-wrapLiveEdit"></a>wrapLiveEdit
 
     mixed HookCore::wrapLiveEdit($display, $moduleInstance, $id_hook)
 
@@ -390,7 +440,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 607](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#607)
+* This method is defined in [classes/Hook.php line 607](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L607)
 
 
 #### Arguments
@@ -400,7 +450,7 @@ Execute modules for specified hook
 
 
 
-### updateOrderStatus
+### <a name="method-updateOrderStatus"></a>updateOrderStatus
 
     mixed HookCore::updateOrderStatus($new_order_status_id, $id_order)
 
@@ -410,7 +460,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 625](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#625)
+* This method is defined in [classes/Hook.php line 625](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L625)
 
 
 #### Arguments
@@ -419,7 +469,7 @@ Execute modules for specified hook
 
 
 
-### postUpdateOrderStatus
+### <a name="method-postUpdateOrderStatus"></a>postUpdateOrderStatus
 
     mixed HookCore::postUpdateOrderStatus($new_order_status_id, $id_order)
 
@@ -429,7 +479,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 639](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#639)
+* This method is defined in [classes/Hook.php line 639](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L639)
 
 
 #### Arguments
@@ -438,7 +488,7 @@ Execute modules for specified hook
 
 
 
-### orderConfirmation
+### <a name="method-orderConfirmation"></a>orderConfirmation
 
     mixed HookCore::orderConfirmation($id_order)
 
@@ -448,7 +498,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 651](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#651)
+* This method is defined in [classes/Hook.php line 651](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L651)
 
 
 #### Arguments
@@ -456,7 +506,7 @@ Execute modules for specified hook
 
 
 
-### paymentReturn
+### <a name="method-paymentReturn"></a>paymentReturn
 
     mixed HookCore::paymentReturn($id_order, $id_module)
 
@@ -466,7 +516,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 675](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#675)
+* This method is defined in [classes/Hook.php line 675](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L675)
 
 
 #### Arguments
@@ -475,7 +525,7 @@ Execute modules for specified hook
 
 
 
-### PDFInvoice
+### <a name="method-PDFInvoice"></a>PDFInvoice
 
     mixed HookCore::PDFInvoice($pdf, $id_order)
 
@@ -485,7 +535,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 699](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#699)
+* This method is defined in [classes/Hook.php line 699](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L699)
 
 
 #### Arguments
@@ -494,7 +544,7 @@ Execute modules for specified hook
 
 
 
-### backBeforePayment
+### <a name="method-backBeforePayment"></a>backBeforePayment
 
     mixed HookCore::backBeforePayment($module)
 
@@ -504,7 +554,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#711)
+* This method is defined in [classes/Hook.php line 711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L711)
 
 
 #### Arguments
@@ -512,7 +562,7 @@ Execute modules for specified hook
 
 
 
-### updateCarrier
+### <a name="method-updateCarrier"></a>updateCarrier
 
     mixed HookCore::updateCarrier($id_carrier, $carrier)
 
@@ -522,7 +572,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 722](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#722)
+* This method is defined in [classes/Hook.php line 722](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L722)
 
 
 #### Arguments
@@ -531,7 +581,7 @@ Execute modules for specified hook
 
 
 
-### preloadHookModulesCache
+### <a name="method-preloadHookModulesCache"></a>preloadHookModulesCache
 
     boolean HookCore::preloadHookModulesCache()
 
@@ -541,12 +591,12 @@ Preload hook modules cache
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 738](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#738)
+* This method is defined in [classes/Hook.php line 738](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L738)
 
 
 
 
-### get
+### <a name="method-get"></a>get
 
     integer HookCore::get(string $hook_name)
 
@@ -556,7 +606,7 @@ Return hook ID from name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 758](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#758)
+* This method is defined in [classes/Hook.php line 758](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L758)
 
 
 #### Arguments
@@ -564,7 +614,7 @@ Return hook ID from name
 
 
 
-### newOrder
+### <a name="method-newOrder"></a>newOrder
 
     string HookCore::newOrder(\Cart $cart, \Order $order, \Customer $customer, \Currency $currency, $order_status)
 
@@ -574,7 +624,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 788](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#788)
+* This method is defined in [classes/Hook.php line 788](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L788)
 
 
 #### Arguments
@@ -586,7 +636,7 @@ Called when quantity of a product is updated.
 
 
 
-### updateQuantity
+### <a name="method-updateQuantity"></a>updateQuantity
 
     mixed HookCore::updateQuantity($product, $order)
 
@@ -596,7 +646,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 802](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#802)
+* This method is defined in [classes/Hook.php line 802](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L802)
 
 
 #### Arguments
@@ -605,7 +655,7 @@ Called when quantity of a product is updated.
 
 
 
-### productFooter
+### <a name="method-productFooter"></a>productFooter
 
     mixed HookCore::productFooter($product, $category)
 
@@ -615,7 +665,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 811](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#811)
+* This method is defined in [classes/Hook.php line 811](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L811)
 
 
 #### Arguments
@@ -624,7 +674,7 @@ Called when quantity of a product is updated.
 
 
 
-### productOutOfStock
+### <a name="method-productOutOfStock"></a>productOutOfStock
 
     mixed HookCore::productOutOfStock($product)
 
@@ -634,7 +684,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 820](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#820)
+* This method is defined in [classes/Hook.php line 820](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L820)
 
 
 #### Arguments
@@ -642,7 +692,7 @@ Called when quantity of a product is updated.
 
 
 
-### addProduct
+### <a name="method-addProduct"></a>addProduct
 
     mixed HookCore::addProduct($product)
 
@@ -652,7 +702,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 829](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#829)
+* This method is defined in [classes/Hook.php line 829](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L829)
 
 
 #### Arguments
@@ -660,7 +710,7 @@ Called when quantity of a product is updated.
 
 
 
-### updateProduct
+### <a name="method-updateProduct"></a>updateProduct
 
     mixed HookCore::updateProduct($product)
 
@@ -670,7 +720,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 838](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#838)
+* This method is defined in [classes/Hook.php line 838](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L838)
 
 
 #### Arguments
@@ -678,7 +728,7 @@ Called when quantity of a product is updated.
 
 
 
-### deleteProduct
+### <a name="method-deleteProduct"></a>deleteProduct
 
     mixed HookCore::deleteProduct($product)
 
@@ -688,7 +738,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 847](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#847)
+* This method is defined in [classes/Hook.php line 847](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L847)
 
 
 #### Arguments
@@ -696,7 +746,7 @@ Called when quantity of a product is updated.
 
 
 
-### updateProductAttribute
+### <a name="method-updateProductAttribute"></a>updateProductAttribute
 
     mixed HookCore::updateProductAttribute($id_product_attribute)
 
@@ -706,7 +756,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Hook.php line 856](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#856)
+* This method is defined in [classes/Hook.php line 856](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#L856)
 
 
 #### Arguments

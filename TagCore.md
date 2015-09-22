@@ -17,8 +17,31 @@ TagCore
 Properties
 ----------
 
+* [$id_lang](#property-$id_lang)
+* [$name](#property-$name)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_lang
+Methods
+-------
+* [__construct](#method-__construct)
+* [add](#method-add)
+* [addTags](#method-addTags)
+* [updateTagCount](#method-updateTagCount)
+* [getMainTags](#method-getMainTags)
+* [getProductTags](#method-getProductTags)
+* [getProducts](#method-getProducts)
+* [setProducts](#method-setProducts)
+* [deleteTagsForProduct](#method-deleteTagsForProduct)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_lang"></a>$id_lang
 
     public integer $id_lang
 
@@ -27,10 +50,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Tag.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#30)
+* This property is defined in [classes/Tag.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L30)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -39,10 +62,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Tag.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#33)
+* This property is defined in [classes/Tag.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L33)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'tag', 'primary' => 'id_tag', 'fields' => array('id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 32)))
 
@@ -52,10 +75,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Tag.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#38)
+* This property is defined in [classes/Tag.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L38)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_lang' => array('xlink_resource' => 'languages')))
 
@@ -64,14 +87,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Tag.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#48)
+* This property is defined in [classes/Tag.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L48)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed TagCore::__construct($id, $name, $id_lang)
 
@@ -80,7 +103,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Tag.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#54)
+* This method is defined in [classes/Tag.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L54)
 
 
 #### Arguments
@@ -90,7 +113,7 @@ Methods
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed TagCore::add($autodate, $null_values)
 
@@ -99,7 +122,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Tag.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#75)
+* This method is defined in [classes/Tag.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L75)
 
 
 #### Arguments
@@ -108,7 +131,7 @@ Methods
 
 
 
-### addTags
+### <a name="method-addTags"></a>addTags
 
     boolean TagCore::addTags(integer $id_lang, integer $id_product, string|array $tag_list, $separator)
 
@@ -118,7 +141,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tag.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#93)
+* This method is defined in [classes/Tag.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L93)
 
 
 #### Arguments
@@ -129,7 +152,7 @@ Add several tags in database and link it to a product
 
 
 
-### updateTagCount
+### <a name="method-updateTagCount"></a>updateTagCount
 
     mixed TagCore::updateTagCount()
 
@@ -139,12 +162,12 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tag.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#138)
+* This method is defined in [classes/Tag.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L138)
 
 
 
 
-### getMainTags
+### <a name="method-getMainTags"></a>getMainTags
 
     mixed TagCore::getMainTags($id_lang, $nb)
 
@@ -154,7 +177,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tag.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#170)
+* This method is defined in [classes/Tag.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L170)
 
 
 #### Arguments
@@ -163,7 +186,7 @@ Add several tags in database and link it to a product
 
 
 
-### getProductTags
+### <a name="method-getProductTags"></a>getProductTags
 
     mixed TagCore::getProductTags($id_product)
 
@@ -173,7 +196,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tag.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#194)
+* This method is defined in [classes/Tag.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L194)
 
 
 #### Arguments
@@ -181,7 +204,7 @@ Add several tags in database and link it to a product
 
 
 
-### getProducts
+### <a name="method-getProducts"></a>getProducts
 
     mixed TagCore::getProducts($associated, \Context $context)
 
@@ -190,7 +213,7 @@ Add several tags in database and link it to a product
 
 
 * Visibility: **public**
-* This method is defined in [classes/Tag.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#210)
+* This method is defined in [classes/Tag.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L210)
 
 
 #### Arguments
@@ -199,7 +222,7 @@ Add several tags in database and link it to a product
 
 
 
-### setProducts
+### <a name="method-setProducts"></a>setProducts
 
     mixed TagCore::setProducts($array)
 
@@ -208,7 +231,7 @@ Add several tags in database and link it to a product
 
 
 * Visibility: **public**
-* This method is defined in [classes/Tag.php line 233](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#233)
+* This method is defined in [classes/Tag.php line 233](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L233)
 
 
 #### Arguments
@@ -216,7 +239,7 @@ Add several tags in database and link it to a product
 
 
 
-### deleteTagsForProduct
+### <a name="method-deleteTagsForProduct"></a>deleteTagsForProduct
 
     mixed TagCore::deleteTagsForProduct($id_product)
 
@@ -226,7 +249,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Tag.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#255)
+* This method is defined in [classes/Tag.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#L255)
 
 
 #### Arguments

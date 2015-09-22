@@ -31,8 +31,50 @@ needs please refer to http://www.prestashop.com for more information.
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$name](#property-$name)
+* [$id_shop_group](#property-$id_shop_group)
+* [$id_shop](#property-$id_shop)
+* [$value](#property-$value)
+* [$date_add](#property-$date_add)
+* [$date_upd](#property-$date_upd)
+* [$definition](#property-$definition)
+* [$_cache](#property-$_cache)
+* [$types](#property-$types)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id
+Methods
+-------
+* [getFieldsLang](#method-getFieldsLang)
+* [getIdByName](#method-getIdByName)
+* [configurationIsLoaded](#method-configurationIsLoaded)
+* [clearConfigurationCacheForTesting](#method-clearConfigurationCacheForTesting)
+* [loadConfiguration](#method-loadConfiguration)
+* [get](#method-get)
+* [getGlobalValue](#method-getGlobalValue)
+* [getInt](#method-getInt)
+* [getMultiShopValues](#method-getMultiShopValues)
+* [getMultiple](#method-getMultiple)
+* [hasKey](#method-hasKey)
+* [set](#method-set)
+* [updateGlobalValue](#method-updateGlobalValue)
+* [updateValue](#method-updateValue)
+* [deleteByName](#method-deleteByName)
+* [deleteFromContext](#method-deleteFromContext)
+* [hasContext](#method-hasContext)
+* [isOverridenByCurrentContext](#method-isOverridenByCurrentContext)
+* [isLangKey](#method-isLangKey)
+* [sqlRestriction](#method-sqlRestriction)
+* [getWebserviceObjectList](#method-getWebserviceObjectList)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -41,10 +83,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Configuration.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#29)
+* This property is defined in [classes/Configuration.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L29)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -53,10 +95,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Configuration.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#32)
+* This property is defined in [classes/Configuration.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L32)
 
 
-### $id_shop_group
+### <a name="property-$id_shop_group"></a>$id_shop_group
 
     public mixed $id_shop_group
 
@@ -65,10 +107,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Configuration.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#34)
+* This property is defined in [classes/Configuration.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L34)
 
 
-### $id_shop
+### <a name="property-$id_shop"></a>$id_shop
 
     public mixed $id_shop
 
@@ -77,10 +119,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Configuration.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#35)
+* This property is defined in [classes/Configuration.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L35)
 
 
-### $value
+### <a name="property-$value"></a>$value
 
     public string $value
 
@@ -89,10 +131,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Configuration.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#38)
+* This property is defined in [classes/Configuration.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L38)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -101,10 +143,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Configuration.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#41)
+* This property is defined in [classes/Configuration.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L41)
 
 
-### $date_upd
+### <a name="property-$date_upd"></a>$date_upd
 
     public string $date_upd
 
@@ -113,10 +155,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Configuration.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#44)
+* This property is defined in [classes/Configuration.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L44)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'configuration', 'primary' => 'id_configuration', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isConfigName', 'required' => true, 'size' => 254), 'id_shop_group' => array('type' => self::TYPE_NOTHING, 'validate' => 'isUnsignedId'), 'id_shop' => array('type' => self::TYPE_NOTHING, 'validate' => 'isUnsignedId'), 'value' => array('type' => self::TYPE_STRING), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
 
@@ -126,10 +168,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Configuration.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#49)
+* This property is defined in [classes/Configuration.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L49)
 
 
-### $_cache
+### <a name="property-$_cache"></a>$_cache
 
     protected array $_cache = array()
 
@@ -139,10 +181,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Configuration.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#64)
+* This property is defined in [classes/Configuration.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L64)
 
 
-### $types
+### <a name="property-$types"></a>$types
 
     protected array $types = array()
 
@@ -152,10 +194,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Configuration.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#67)
+* This property is defined in [classes/Configuration.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L67)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('value' => array()))
 
@@ -164,14 +206,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Configuration.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#69)
+* This property is defined in [classes/Configuration.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L69)
 
 
 Methods
 -------
 
 
-### getFieldsLang
+### <a name="method-getFieldsLang"></a>getFieldsLang
 
     boolean|array ConfigurationCore::getFieldsLang()
 
@@ -180,12 +222,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Configuration.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#79)
+* This method is defined in [classes/Configuration.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L79)
 
 
 
 
-### getIdByName
+### <a name="method-getIdByName"></a>getIdByName
 
     integer ConfigurationCore::getIdByName(string $key, integer $id_shop_group, integer $id_shop)
 
@@ -195,7 +237,7 @@ Return ID a configuration key
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#95)
+* This method is defined in [classes/Configuration.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L95)
 
 
 #### Arguments
@@ -205,7 +247,7 @@ Return ID a configuration key
 
 
 
-### configurationIsLoaded
+### <a name="method-configurationIsLoaded"></a>configurationIsLoaded
 
     mixed ConfigurationCore::configurationIsLoaded()
 
@@ -215,12 +257,12 @@ Return ID a configuration key
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#111)
+* This method is defined in [classes/Configuration.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L111)
 
 
 
 
-### clearConfigurationCacheForTesting
+### <a name="method-clearConfigurationCacheForTesting"></a>clearConfigurationCacheForTesting
 
     mixed ConfigurationCore::clearConfigurationCacheForTesting()
 
@@ -230,12 +272,12 @@ WARNING: For testing only. Do NOT rely on this method, it may be removed at any 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#132)
+* This method is defined in [classes/Configuration.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L132)
 
 
 
 
-### loadConfiguration
+### <a name="method-loadConfiguration"></a>loadConfiguration
 
     mixed ConfigurationCore::loadConfiguration()
 
@@ -245,12 +287,12 @@ Load all configuration data
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#140)
+* This method is defined in [classes/Configuration.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L140)
 
 
 
 
-### get
+### <a name="method-get"></a>get
 
     string ConfigurationCore::get(string $key, integer $id_lang, $id_shop_group, $id_shop)
 
@@ -260,7 +302,7 @@ Get a single configuration value (in one language only)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#177)
+* This method is defined in [classes/Configuration.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L177)
 
 
 #### Arguments
@@ -271,7 +313,7 @@ Get a single configuration value (in one language only)
 
 
 
-### getGlobalValue
+### <a name="method-getGlobalValue"></a>getGlobalValue
 
     mixed ConfigurationCore::getGlobalValue($key, $id_lang)
 
@@ -281,7 +323,7 @@ Get a single configuration value (in one language only)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#212)
+* This method is defined in [classes/Configuration.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L212)
 
 
 #### Arguments
@@ -290,7 +332,7 @@ Get a single configuration value (in one language only)
 
 
 
-### getInt
+### <a name="method-getInt"></a>getInt
 
     array ConfigurationCore::getInt(string $key, integer $id_shop_group, integer $id_shop)
 
@@ -300,7 +342,7 @@ Get a single configuration value (in multiple languages)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#225)
+* This method is defined in [classes/Configuration.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L225)
 
 
 #### Arguments
@@ -310,7 +352,7 @@ Get a single configuration value (in multiple languages)
 
 
 
-### getMultiShopValues
+### <a name="method-getMultiShopValues"></a>getMultiShopValues
 
     array ConfigurationCore::getMultiShopValues(string $key, integer $id_lang)
 
@@ -320,7 +362,7 @@ Get a single configuration value for all shops
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#242)
+* This method is defined in [classes/Configuration.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L242)
 
 
 #### Arguments
@@ -329,7 +371,7 @@ Get a single configuration value for all shops
 
 
 
-### getMultiple
+### <a name="method-getMultiple"></a>getMultiple
 
     array ConfigurationCore::getMultiple(array $keys, integer $id_lang, integer $id_shop_group, integer $id_shop)
 
@@ -339,7 +381,7 @@ Get several configuration values (in one language only)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 263](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#263)
+* This method is defined in [classes/Configuration.php line 263](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L263)
 
 
 #### Arguments
@@ -350,7 +392,7 @@ Get several configuration values (in one language only)
 
 
 
-### hasKey
+### <a name="method-hasKey"></a>hasKey
 
     boolean ConfigurationCore::hasKey(string $key, integer $id_lang, integer $id_shop_group, integer $id_shop)
 
@@ -360,7 +402,7 @@ Check if key exists in configuration
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#293)
+* This method is defined in [classes/Configuration.php line 293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L293)
 
 
 #### Arguments
@@ -371,7 +413,7 @@ Check if key exists in configuration
 
 
 
-### set
+### <a name="method-set"></a>set
 
     mixed ConfigurationCore::set(string $key, mixed $values, integer $id_shop_group, integer $id_shop)
 
@@ -381,7 +423,7 @@ Set TEMPORARY a single configuration value (in one language only)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#324)
+* This method is defined in [classes/Configuration.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L324)
 
 
 #### Arguments
@@ -392,7 +434,7 @@ Set TEMPORARY a single configuration value (in one language only)
 
 
 
-### updateGlobalValue
+### <a name="method-updateGlobalValue"></a>updateGlobalValue
 
     boolean ConfigurationCore::updateGlobalValue(string $key, mixed $values, boolean $html)
 
@@ -402,7 +444,7 @@ Update configuration key for global context only
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#360)
+* This method is defined in [classes/Configuration.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L360)
 
 
 #### Arguments
@@ -412,7 +454,7 @@ Update configuration key for global context only
 
 
 
-### updateValue
+### <a name="method-updateValue"></a>updateValue
 
     boolean ConfigurationCore::updateValue(string $key, mixed $values, boolean $html, integer $id_shop_group, integer $id_shop)
 
@@ -423,7 +465,7 @@ may not insert values correctly (for example, HTML is escaped, when it should no
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 379](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#379)
+* This method is defined in [classes/Configuration.php line 379](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L379)
 
 
 #### Arguments
@@ -435,7 +477,7 @@ may not insert values correctly (for example, HTML is escaped, when it should no
 
 
 
-### deleteByName
+### <a name="method-deleteByName"></a>deleteByName
 
     boolean ConfigurationCore::deleteByName(string $key)
 
@@ -445,7 +487,7 @@ Delete a configuration key in database (with or without language management)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 472](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#472)
+* This method is defined in [classes/Configuration.php line 472](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L472)
 
 
 #### Arguments
@@ -453,7 +495,7 @@ Delete a configuration key in database (with or without language management)
 
 
 
-### deleteFromContext
+### <a name="method-deleteFromContext"></a>deleteFromContext
 
     mixed ConfigurationCore::deleteFromContext(string $key)
 
@@ -463,7 +505,7 @@ Delete configuration key from current context.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 500](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#500)
+* This method is defined in [classes/Configuration.php line 500](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L500)
 
 
 #### Arguments
@@ -471,7 +513,7 @@ Delete configuration key from current context.
 
 
 
-### hasContext
+### <a name="method-hasContext"></a>hasContext
 
     mixed ConfigurationCore::hasContext(string $key, integer $id_lang, integer $context)
 
@@ -481,7 +523,7 @@ Check if configuration var is defined in given context
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 530](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#530)
+* This method is defined in [classes/Configuration.php line 530](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L530)
 
 
 #### Arguments
@@ -491,7 +533,7 @@ Check if configuration var is defined in given context
 
 
 
-### isOverridenByCurrentContext
+### <a name="method-isOverridenByCurrentContext"></a>isOverridenByCurrentContext
 
     mixed ConfigurationCore::isOverridenByCurrentContext($key)
 
@@ -501,7 +543,7 @@ Check if configuration var is defined in given context
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 552](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#552)
+* This method is defined in [classes/Configuration.php line 552](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L552)
 
 
 #### Arguments
@@ -509,7 +551,7 @@ Check if configuration var is defined in given context
 
 
 
-### isLangKey
+### <a name="method-isLangKey"></a>isLangKey
 
     boolean ConfigurationCore::isLangKey(string $key)
 
@@ -519,7 +561,7 @@ Check if a key was loaded as multi lang
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 576](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#576)
+* This method is defined in [classes/Configuration.php line 576](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L576)
 
 
 #### Arguments
@@ -527,7 +569,7 @@ Check if a key was loaded as multi lang
 
 
 
-### sqlRestriction
+### <a name="method-sqlRestriction"></a>sqlRestriction
 
     string ConfigurationCore::sqlRestriction(integer $id_shop_group, integer $id_shop)
 
@@ -537,7 +579,7 @@ Add SQL restriction on shops for configuration table
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [classes/Configuration.php line 588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#588)
+* This method is defined in [classes/Configuration.php line 588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L588)
 
 
 #### Arguments
@@ -546,7 +588,7 @@ Add SQL restriction on shops for configuration table
 
 
 
-### getWebserviceObjectList
+### <a name="method-getWebserviceObjectList"></a>getWebserviceObjectList
 
     array ConfigurationCore::getWebserviceObjectList($sql_join, $sql_filter, $sql_sort, $sql_limit)
 
@@ -555,7 +597,7 @@ This method is override to allow TranslatedConfiguration entity
 
 
 * Visibility: **public**
-* This method is defined in [classes/Configuration.php line 608](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#608)
+* This method is defined in [classes/Configuration.php line 608](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Configuration.php#L608)
 
 
 #### Arguments

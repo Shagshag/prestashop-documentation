@@ -17,8 +17,24 @@ AdminOutstandingControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [initToolbar](#method-initToolbar)
+* [printPDFIcons](#method-printPDFIcons)
+* [printOutstandingCalculation](#method-printOutstandingCalculation)
+* [renderView](#method-renderView)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \OrderInvoice $object
 
@@ -27,14 +43,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminOutstandingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#30)
+* This property is defined in [controllers/admin/AdminOutstandingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminOutstandingControllerCore::__construct()
 
@@ -43,12 +59,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminOutstandingController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#32)
+* This method is defined in [controllers/admin/AdminOutstandingController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#L32)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     boolean AdminOutstandingControllerCore::initToolbar()
 
@@ -57,12 +73,12 @@ Toolbar initialisation
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminOutstandingController.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#119)
+* This method is defined in [controllers/admin/AdminOutstandingController.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#L119)
 
 
 
 
-### printPDFIcons
+### <a name="method-printPDFIcons"></a>printPDFIcons
 
     string AdminOutstandingControllerCore::printPDFIcons($id_invoice, $tr)
 
@@ -71,7 +87,7 @@ Column callback for print PDF incon
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminOutstandingController.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#130)
+* This method is defined in [controllers/admin/AdminOutstandingController.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#L130)
 
 
 #### Arguments
@@ -80,7 +96,7 @@ Column callback for print PDF incon
 
 
 
-### printOutstandingCalculation
+### <a name="method-printOutstandingCalculation"></a>printOutstandingCalculation
 
     mixed AdminOutstandingControllerCore::printOutstandingCalculation($id_invoice, $tr)
 
@@ -89,7 +105,7 @@ Column callback for print PDF incon
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminOutstandingController.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#139)
+* This method is defined in [controllers/admin/AdminOutstandingController.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#L139)
 
 
 #### Arguments
@@ -98,7 +114,7 @@ Column callback for print PDF incon
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminOutstandingControllerCore::renderView()
 
@@ -107,7 +123,7 @@ View render
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminOutstandingController.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#161)
+* This method is defined in [controllers/admin/AdminOutstandingController.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#L161)
 
 
 

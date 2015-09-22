@@ -16,42 +16,76 @@ CountyCore
 Constants
 ----------
 
+* [USE_BOTH_TAX](#constant-USE_BOTH_TAX)
+* [USE_COUNTY_TAX](#constant-USE_COUNTY_TAX)
+* [USE_STATE_TAX](#constant-USE_STATE_TAX)
 
-### USE_BOTH_TAX
+Properties
+----------
+
+* [$id](#property-$id)
+* [$name](#property-$name)
+* [$id_state](#property-$id_state)
+* [$active](#property-$active)
+* [$definition](#property-$definition)
+* [$_cache_get_counties](#property-$_cache_get_counties)
+* [$_cache_county_zipcode](#property-$_cache_county_zipcode)
+* [$webserviceParameters](#property-$webserviceParameters)
+
+Methods
+-------
+* [delete](#method-delete)
+* [getCounties](#method-getCounties)
+* [getZipCodes](#method-getZipCodes)
+* [addZipCodes](#method-addZipCodes)
+* [removeZipCodes](#method-removeZipCodes)
+* [breakDownZipCode](#method-breakDownZipCode)
+* [getIdCountyByZipCode](#method-getIdCountyByZipCode)
+* [isZipCodeRangePresent](#method-isZipCodeRangePresent)
+* [isZipCodePresent](#method-isZipCodePresent)
+* [deleteZipCodeByIdCounty](#method-deleteZipCodeByIdCounty)
+* [getIdCountyByNameAndIdState](#method-getIdCountyByNameAndIdState)
+
+
+Constants
+----------
+
+
+### <a name="constant-USE_BOTH_TAX"></a>USE_BOTH_TAX
 
     const USE_BOTH_TAX = 0
 
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* This constant is defined in [classes/County.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#54)
+* This constant is defined in [classes/County.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L54)
 
 
-### USE_COUNTY_TAX
+### <a name="constant-USE_COUNTY_TAX"></a>USE_COUNTY_TAX
 
     const USE_COUNTY_TAX = 1
 
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* This constant is defined in [classes/County.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#55)
+* This constant is defined in [classes/County.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L55)
 
 
-### USE_STATE_TAX
+### <a name="constant-USE_STATE_TAX"></a>USE_STATE_TAX
 
     const USE_STATE_TAX = 2
 
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* This constant is defined in [classes/County.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#56)
+* This constant is defined in [classes/County.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L56)
 
 
 Properties
 ----------
 
 
-### $id
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -61,10 +95,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/County.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#33)
+* This property is defined in [classes/County.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L33)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public mixed $name
 
@@ -74,10 +108,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/County.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#34)
+* This property is defined in [classes/County.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L34)
 
 
-### $id_state
+### <a name="property-$id_state"></a>$id_state
 
     public mixed $id_state
 
@@ -87,10 +121,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/County.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#35)
+* This property is defined in [classes/County.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L35)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public mixed $active
 
@@ -100,10 +134,10 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/County.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#36)
+* This property is defined in [classes/County.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L36)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'county', 'primary' => 'id_county', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'id_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
 
@@ -114,10 +148,10 @@ Properties
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* This property is defined in [classes/County.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#41)
+* This property is defined in [classes/County.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L41)
 
 
-### $_cache_get_counties
+### <a name="property-$_cache_get_counties"></a>$_cache_get_counties
 
     protected mixed $_cache_get_counties = array()
 
@@ -128,10 +162,10 @@ Properties
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* This property is defined in [classes/County.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#51)
+* This property is defined in [classes/County.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L51)
 
 
-### $_cache_county_zipcode
+### <a name="property-$_cache_county_zipcode"></a>$_cache_county_zipcode
 
     protected mixed $_cache_county_zipcode = array()
 
@@ -142,10 +176,10 @@ Properties
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* This property is defined in [classes/County.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#52)
+* This property is defined in [classes/County.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L52)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_state' => array('xlink_resource' => 'states')))
 
@@ -155,14 +189,14 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in [classes/County.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#58)
+* This property is defined in [classes/County.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L58)
 
 
 Methods
 -------
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed CountyCore::delete()
 
@@ -172,12 +206,12 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/County.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#64)
+* This method is defined in [classes/County.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L64)
 
 
 
 
-### getCounties
+### <a name="method-getCounties"></a>getCounties
 
     mixed CountyCore::getCounties($id_state)
 
@@ -188,7 +222,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/County.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#72)
+* This method is defined in [classes/County.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L72)
 
 
 #### Arguments
@@ -196,7 +230,7 @@ Methods
 
 
 
-### getZipCodes
+### <a name="method-getZipCodes"></a>getZipCodes
 
     mixed CountyCore::getZipCodes()
 
@@ -206,12 +240,12 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/County.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#81)
+* This method is defined in [classes/County.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L81)
 
 
 
 
-### addZipCodes
+### <a name="method-addZipCodes"></a>addZipCodes
 
     mixed CountyCore::addZipCodes($zip_codes)
 
@@ -221,7 +255,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/County.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#90)
+* This method is defined in [classes/County.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L90)
 
 
 #### Arguments
@@ -229,7 +263,7 @@ Methods
 
 
 
-### removeZipCodes
+### <a name="method-removeZipCodes"></a>removeZipCodes
 
     mixed CountyCore::removeZipCodes($zip_codes)
 
@@ -239,7 +273,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/County.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#99)
+* This method is defined in [classes/County.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L99)
 
 
 #### Arguments
@@ -247,7 +281,7 @@ Methods
 
 
 
-### breakDownZipCode
+### <a name="method-breakDownZipCode"></a>breakDownZipCode
 
     mixed CountyCore::breakDownZipCode($zip_codes)
 
@@ -257,7 +291,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/County.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#108)
+* This method is defined in [classes/County.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L108)
 
 
 #### Arguments
@@ -265,7 +299,7 @@ Methods
 
 
 
-### getIdCountyByZipCode
+### <a name="method-getIdCountyByZipCode"></a>getIdCountyByZipCode
 
     mixed CountyCore::getIdCountyByZipCode($id_state, $zip_code)
 
@@ -276,7 +310,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/County.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#117)
+* This method is defined in [classes/County.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L117)
 
 
 #### Arguments
@@ -285,7 +319,7 @@ Methods
 
 
 
-### isZipCodeRangePresent
+### <a name="method-isZipCodeRangePresent"></a>isZipCodeRangePresent
 
     mixed CountyCore::isZipCodeRangePresent($zip_codes)
 
@@ -295,7 +329,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/County.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#126)
+* This method is defined in [classes/County.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L126)
 
 
 #### Arguments
@@ -303,7 +337,7 @@ Methods
 
 
 
-### isZipCodePresent
+### <a name="method-isZipCodePresent"></a>isZipCodePresent
 
     mixed CountyCore::isZipCodePresent($zip_code)
 
@@ -313,7 +347,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/County.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#135)
+* This method is defined in [classes/County.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L135)
 
 
 #### Arguments
@@ -321,7 +355,7 @@ Methods
 
 
 
-### deleteZipCodeByIdCounty
+### <a name="method-deleteZipCodeByIdCounty"></a>deleteZipCodeByIdCounty
 
     mixed CountyCore::deleteZipCodeByIdCounty($id_county)
 
@@ -332,7 +366,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/County.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#144)
+* This method is defined in [classes/County.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L144)
 
 
 #### Arguments
@@ -340,7 +374,7 @@ Methods
 
 
 
-### getIdCountyByNameAndIdState
+### <a name="method-getIdCountyByNameAndIdState"></a>getIdCountyByNameAndIdState
 
     mixed CountyCore::getIdCountyByNameAndIdState($name, $id_state)
 
@@ -351,7 +385,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in [classes/County.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#153)
+* This method is defined in [classes/County.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L153)
 
 
 #### Arguments

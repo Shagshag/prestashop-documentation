@@ -17,8 +17,26 @@ GuestTrackingControllerCore
 Properties
 ----------
 
+* [$ssl](#property-$ssl)
+* [$php_self](#property-$php_self)
 
-### $ssl
+Methods
+-------
+* [init](#method-init)
+* [postProcess](#method-postProcess)
+* [initContent](#method-initContent)
+* [assignOrderTracking](#method-assignOrderTracking)
+* [setMedia](#method-setMedia)
+* [processAddressFormat](#method-processAddressFormat)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$ssl"></a>$ssl
 
     public mixed $ssl = true
 
@@ -27,10 +45,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/GuestTrackingController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#29)
+* This property is defined in [controllers/front/GuestTrackingController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L29)
 
 
-### $php_self
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'guest-tracking'
 
@@ -39,14 +57,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/GuestTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#30)
+* This property is defined in [controllers/front/GuestTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L30)
 
 
 Methods
 -------
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed GuestTrackingControllerCore::init()
 
@@ -55,12 +73,12 @@ Initialize guest tracking controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/GuestTrackingController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#36)
+* This method is defined in [controllers/front/GuestTrackingController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L36)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed GuestTrackingControllerCore::postProcess()
 
@@ -69,12 +87,12 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/GuestTrackingController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#48)
+* This method is defined in [controllers/front/GuestTrackingController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L48)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed GuestTrackingControllerCore::initContent()
 
@@ -83,12 +101,12 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/GuestTrackingController.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#112)
+* This method is defined in [controllers/front/GuestTrackingController.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L112)
 
 
 
 
-### assignOrderTracking
+### <a name="method-assignOrderTracking"></a>assignOrderTracking
 
     mixed GuestTrackingControllerCore::assignOrderTracking(\PrestaShopCollection $order_collection)
 
@@ -97,7 +115,7 @@ Assigns template vars related to order tracking information
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/GuestTrackingController.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#135)
+* This method is defined in [controllers/front/GuestTrackingController.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L135)
 
 
 #### Arguments
@@ -105,7 +123,7 @@ Assigns template vars related to order tracking information
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed GuestTrackingControllerCore::setMedia()
 
@@ -114,12 +132,12 @@ Assigns template vars related to order tracking information
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/GuestTrackingController.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#188)
+* This method is defined in [controllers/front/GuestTrackingController.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L188)
 
 
 
 
-### processAddressFormat
+### <a name="method-processAddressFormat"></a>processAddressFormat
 
     mixed GuestTrackingControllerCore::processAddressFormat(\Address $delivery, \Address $invoice)
 
@@ -128,7 +146,7 @@ Assigns template vars related to order tracking information
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/GuestTrackingController.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#196)
+* This method is defined in [controllers/front/GuestTrackingController.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#L196)
 
 
 #### Arguments

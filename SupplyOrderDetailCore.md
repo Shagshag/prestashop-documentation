@@ -17,8 +17,48 @@ Represents one product ordered
 Properties
 ----------
 
+* [$id_supply_order](#property-$id_supply_order)
+* [$id_product](#property-$id_product)
+* [$id_product_attribute](#property-$id_product_attribute)
+* [$reference](#property-$reference)
+* [$supplier_reference](#property-$supplier_reference)
+* [$name](#property-$name)
+* [$ean13](#property-$ean13)
+* [$upc](#property-$upc)
+* [$id_currency](#property-$id_currency)
+* [$exchange_rate](#property-$exchange_rate)
+* [$unit_price_te](#property-$unit_price_te)
+* [$quantity_expected](#property-$quantity_expected)
+* [$quantity_received](#property-$quantity_received)
+* [$price_te](#property-$price_te)
+* [$discount_rate](#property-$discount_rate)
+* [$discount_value_te](#property-$discount_value_te)
+* [$price_with_discount_te](#property-$price_with_discount_te)
+* [$tax_rate](#property-$tax_rate)
+* [$tax_value](#property-$tax_value)
+* [$price_ti](#property-$price_ti)
+* [$tax_value_with_order_discount](#property-$tax_value_with_order_discount)
+* [$price_with_order_discount_te](#property-$price_with_order_discount_te)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_supply_order
+Methods
+-------
+* [update](#method-update)
+* [add](#method-add)
+* [calculatePrices](#method-calculatePrices)
+* [applyGlobalDiscount](#method-applyGlobalDiscount)
+* [validateController](#method-validateController)
+* [hydrate](#method-hydrate)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_supply_order"></a>$id_supply_order
 
     public integer $id_supply_order
 
@@ -27,10 +67,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#36)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L36)
 
 
-### $id_product
+### <a name="property-$id_product"></a>$id_product
 
     public integer $id_product
 
@@ -39,10 +79,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#41)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L41)
 
 
-### $id_product_attribute
+### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
     public integer $id_product_attribute
 
@@ -51,10 +91,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#46)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L46)
 
 
-### $reference
+### <a name="property-$reference"></a>$reference
 
     public string $reference
 
@@ -63,10 +103,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#51)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L51)
 
 
-### $supplier_reference
+### <a name="property-$supplier_reference"></a>$supplier_reference
 
     public string $supplier_reference
 
@@ -75,10 +115,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#56)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L56)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public integer $name
 
@@ -87,10 +127,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#61)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L61)
 
 
-### $ean13
+### <a name="property-$ean13"></a>$ean13
 
     public integer $ean13
 
@@ -99,10 +139,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#66)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L66)
 
 
-### $upc
+### <a name="property-$upc"></a>$upc
 
     public string $upc
 
@@ -111,10 +151,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#71)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L71)
 
 
-### $id_currency
+### <a name="property-$id_currency"></a>$id_currency
 
     public integer $id_currency
 
@@ -123,10 +163,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#76)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L76)
 
 
-### $exchange_rate
+### <a name="property-$exchange_rate"></a>$exchange_rate
 
     public float $exchange_rate
 
@@ -135,10 +175,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#81)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L81)
 
 
-### $unit_price_te
+### <a name="property-$unit_price_te"></a>$unit_price_te
 
     public float $unit_price_te
 
@@ -147,10 +187,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#86)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L86)
 
 
-### $quantity_expected
+### <a name="property-$quantity_expected"></a>$quantity_expected
 
     public integer $quantity_expected
 
@@ -159,10 +199,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#91)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L91)
 
 
-### $quantity_received
+### <a name="property-$quantity_received"></a>$quantity_received
 
     public integer $quantity_received
 
@@ -171,10 +211,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#96)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L96)
 
 
-### $price_te
+### <a name="property-$price_te"></a>$price_te
 
     public float $price_te
 
@@ -183,10 +223,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#102)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L102)
 
 
-### $discount_rate
+### <a name="property-$discount_rate"></a>$discount_rate
 
     public float $discount_rate
 
@@ -195,10 +235,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#107)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L107)
 
 
-### $discount_value_te
+### <a name="property-$discount_value_te"></a>$discount_value_te
 
     public float $discount_value_te
 
@@ -207,10 +247,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#112)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L112)
 
 
-### $price_with_discount_te
+### <a name="property-$price_with_discount_te"></a>$price_with_discount_te
 
     public float $price_with_discount_te
 
@@ -219,10 +259,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#117)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L117)
 
 
-### $tax_rate
+### <a name="property-$tax_rate"></a>$tax_rate
 
     public integer $tax_rate
 
@@ -231,10 +271,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#122)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L122)
 
 
-### $tax_value
+### <a name="property-$tax_value"></a>$tax_value
 
     public float $tax_value
 
@@ -243,10 +283,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#127)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L127)
 
 
-### $price_ti
+### <a name="property-$price_ti"></a>$price_ti
 
     public float $price_ti
 
@@ -255,10 +295,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#132)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L132)
 
 
-### $tax_value_with_order_discount
+### <a name="property-$tax_value_with_order_discount"></a>$tax_value_with_order_discount
 
     public float $tax_value_with_order_discount
 
@@ -267,10 +307,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#137)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L137)
 
 
-### $price_with_order_discount_te
+### <a name="property-$price_with_order_discount_te"></a>$price_with_order_discount_te
 
     public float $price_with_order_discount_te
 
@@ -279,10 +319,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#143)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L143)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'supply_order_detail', 'primary' => 'id_supply_order_detail', 'fields' => array('id_supply_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference'), 'supplier_reference' => array('type' => self::TYPE_STRING, 'validate' => 'isReference'), 'name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true), 'ean13' => array('type' => self::TYPE_STRING, 'validate' => 'isEan13'), 'upc' => array('type' => self::TYPE_STRING, 'validate' => 'isUpc'), 'id_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'exchange_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'unit_price_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'quantity_expected' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'quantity_received' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'price_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'discount_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'discount_value_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'price_with_discount_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'tax_rate' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'tax_value' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'price_ti' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true), 'tax_value_with_order_discount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat', 'required' => true), 'price_with_order_discount_te' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPrice', 'required' => true)))
 
@@ -292,10 +332,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#148)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L148)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectsNodeName' => 'supply_order_details', 'objectNodeName' => 'supply_order_detail', 'fields' => array('id_supply_order' => array('xlink_resource' => 'supply_orders'), 'id_product' => array('xlink_resource' => 'products'), 'id_product_attribute' => array('xlink_resource' => 'combinations')), 'hidden_fields' => array('id_currency'))
 
@@ -304,14 +344,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/SupplyOrderDetail.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#180)
+* This property is defined in [classes/stock/SupplyOrderDetail.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L180)
 
 
 Methods
 -------
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed SupplyOrderDetailCore::update($null_values)
 
@@ -320,7 +360,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/SupplyOrderDetail.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#196)
+* This method is defined in [classes/stock/SupplyOrderDetail.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L196)
 
 
 #### Arguments
@@ -328,7 +368,7 @@ Methods
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed SupplyOrderDetailCore::add($autodate, $null_values)
 
@@ -337,7 +377,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/SupplyOrderDetail.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#206)
+* This method is defined in [classes/stock/SupplyOrderDetail.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L206)
 
 
 #### Arguments
@@ -346,7 +386,7 @@ Methods
 
 
 
-### calculatePrices
+### <a name="method-calculatePrices"></a>calculatePrices
 
     mixed SupplyOrderDetailCore::calculatePrices()
 
@@ -357,12 +397,12 @@ Calculates tax value, function of tax rate
 
 
 * Visibility: **protected**
-* This method is defined in [classes/stock/SupplyOrderDetail.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#218)
+* This method is defined in [classes/stock/SupplyOrderDetail.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L218)
 
 
 
 
-### applyGlobalDiscount
+### <a name="method-applyGlobalDiscount"></a>applyGlobalDiscount
 
     mixed SupplyOrderDetailCore::applyGlobalDiscount(float|integer $discount_rate)
 
@@ -372,7 +412,7 @@ Calls ObjectModel::update()
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/SupplyOrderDetail.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#246)
+* This method is defined in [classes/stock/SupplyOrderDetail.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L246)
 
 
 #### Arguments
@@ -380,7 +420,7 @@ Calls ObjectModel::update()
 
 
 
-### validateController
+### <a name="method-validateController"></a>validateController
 
     array SupplyOrderDetailCore::validateController(boolean $htmlentities)
 
@@ -389,7 +429,7 @@ Calls ObjectModel::update()
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/SupplyOrderDetail.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#267)
+* This method is defined in [classes/stock/SupplyOrderDetail.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L267)
 
 
 #### Arguments
@@ -397,7 +437,7 @@ Calls ObjectModel::update()
 
 
 
-### hydrate
+### <a name="method-hydrate"></a>hydrate
 
     mixed SupplyOrderDetailCore::hydrate(array $data, $id_lang)
 
@@ -406,7 +446,7 @@ Calls ObjectModel::update()
 
 
 * Visibility: **public**
-* This method is defined in [classes/stock/SupplyOrderDetail.php line 334](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#334)
+* This method is defined in [classes/stock/SupplyOrderDetail.php line 334](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L334)
 
 
 #### Arguments

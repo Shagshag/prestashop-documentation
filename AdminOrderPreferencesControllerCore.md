@@ -17,8 +17,21 @@ AdminOrderPreferencesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [beforeUpdateOptions](#method-beforeUpdateOptions)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Configuration $object
 
@@ -27,14 +40,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminOrderPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderPreferencesController.php#30)
+* This property is defined in [controllers/admin/AdminOrderPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderPreferencesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminOrderPreferencesControllerCore::__construct()
 
@@ -43,12 +56,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminOrderPreferencesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderPreferencesController.php#32)
+* This method is defined in [controllers/admin/AdminOrderPreferencesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderPreferencesController.php#L32)
 
 
 
 
-### beforeUpdateOptions
+### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
     mixed AdminOrderPreferencesControllerCore::beforeUpdateOptions()
 
@@ -57,7 +70,7 @@ This method is called before we start to update options configuration
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminOrderPreferencesController.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderPreferencesController.php#184)
+* This method is defined in [controllers/admin/AdminOrderPreferencesController.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrderPreferencesController.php#L184)
 
 
 

@@ -30,8 +30,49 @@ needs please refer to http://www.prestashop.com for more information.
 Properties
 ----------
 
+* [$jquery_ui_dependencies](#property-$jquery_ui_dependencies)
+* [$js_def](#property-$js_def)
+* [$inline_script](#property-$inline_script)
+* [$inline_script_src](#property-$inline_script_src)
+* [$pattern_callback](#property-$pattern_callback)
+* [$current_css_file](#property-$current_css_file)
+* [$pattern_js](#property-$pattern_js)
 
-### $jquery_ui_dependencies
+Methods
+-------
+* [minifyHTML](#method-minifyHTML)
+* [minifyHTMLpregCallback](#method-minifyHTMLpregCallback)
+* [packJSinHTML](#method-packJSinHTML)
+* [packJSinHTMLpregCallback](#method-packJSinHTMLpregCallback)
+* [packJS](#method-packJS)
+* [minifyCSS](#method-minifyCSS)
+* [replaceByAbsoluteURL](#method-replaceByAbsoluteURL)
+* [getJSPath](#method-getJSPath)
+* [getCSSPath](#method-getCSSPath)
+* [getMediaPath](#method-getMediaPath)
+* [getJqueryPath](#method-getJqueryPath)
+* [getJqueryUIPath](#method-getJqueryUIPath)
+* [getJqueryPluginPath](#method-getJqueryPluginPath)
+* [getJqueryPluginCSSPath](#method-getJqueryPluginCSSPath)
+* [cccCss](#method-cccCss)
+* [getBackTrackLimit](#method-getBackTrackLimit)
+* [cccJS](#method-cccJS)
+* [clearCache](#method-clearCache)
+* [getJsDef](#method-getJsDef)
+* [getInlineScript](#method-getInlineScript)
+* [addJsDef](#method-addJsDef)
+* [addJsDefL](#method-addJsDefL)
+* [deferInlineScripts](#method-deferInlineScripts)
+* [deferScript](#method-deferScript)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$jquery_ui_dependencies"></a>$jquery_ui_dependencies
 
     public mixed $jquery_ui_dependencies = array('ui.core' => array('fileName' => 'jquery.ui.core.min.js', 'dependencies' => array(), 'theme' => true), 'ui.widget' => array('fileName' => 'jquery.ui.widget.min.js', 'dependencies' => array(), 'theme' => false), 'ui.mouse' => array('fileName' => 'jquery.ui.mouse.min.js', 'dependencies' => array('ui.core', 'ui.widget'), 'theme' => false), 'ui.position' => array('fileName' => 'jquery.ui.position.min.js', 'dependencies' => array(), 'theme' => false), 'ui.draggable' => array('fileName' => 'jquery.ui.draggable.min.js', 'dependencies' => array('ui.core', 'ui.widget', 'ui.mouse'), 'theme' => false), 'ui.droppable' => array('fileName' => 'jquery.ui.droppable.min.js', 'dependencies' => array('ui.core', 'ui.widget', 'ui.mouse', 'ui.draggable'), 'theme' => false), 'ui.resizable' => array('fileName' => 'jquery.ui.resizable.min.js', 'dependencies' => array('ui.core', 'ui.widget', 'ui.mouse'), 'theme' => true), 'ui.selectable' => array('fileName' => 'jquery.ui.selectable.min.js', 'dependencies' => array('ui.core', 'ui.widget', 'ui.mouse'), 'theme' => true), 'ui.sortable' => array('fileName' => 'jquery.ui.sortable.min.js', 'dependencies' => array('ui.core', 'ui.widget', 'ui.mouse'), 'theme' => true), 'ui.autocomplete' => array('fileName' => 'jquery.ui.autocomplete.min.js', 'dependencies' => array('ui.core', 'ui.widget', 'ui.position', 'ui.menu'), 'theme' => true), 'ui.button' => array('fileName' => 'jquery.ui.button.min.js', 'dependencies' => array('ui.core', 'ui.widget'), 'theme' => true), 'ui.dialog' => array('fileName' => 'jquery.ui.dialog.min.js', 'dependencies' => array('ui.core', 'ui.widget', 'ui.position', 'ui.button'), 'theme' => true), 'ui.menu' => array('fileName' => 'jquery.ui.menu.min.js', 'dependencies' => array('ui.core', 'ui.widget', 'ui.position'), 'theme' => true), 'ui.slider' => array('fileName' => 'jquery.ui.slider.min.js', 'dependencies' => array('ui.core', 'ui.widget', 'ui.mouse'), 'theme' => true), 'ui.spinner' => array('fileName' => 'jquery.ui.spinner.min.js', 'dependencies' => array('ui.core', 'ui.widget', 'ui.button'), 'theme' => true), 'ui.tabs' => array('fileName' => 'jquery.ui.tabs.min.js', 'dependencies' => array('ui.core', 'ui.widget'), 'theme' => true), 'ui.datepicker' => array('fileName' => 'jquery.ui.datepicker.min.js', 'dependencies' => array('ui.core'), 'theme' => true), 'ui.progressbar' => array('fileName' => 'jquery.ui.progressbar.min.js', 'dependencies' => array('ui.core', 'ui.widget'), 'theme' => true), 'ui.tooltip' => array('fileName' => 'jquery.ui.tooltip.min.js', 'dependencies' => array('ui.core', 'ui.widget', 'ui.position', 'effects.core'), 'theme' => true), 'ui.accordion' => array('fileName' => 'jquery.ui.accordion.min.js', 'dependencies' => array('ui.core', 'ui.widget', 'effects.core'), 'theme' => true), 'effects.core' => array('fileName' => 'jquery.effects.core.min.js', 'dependencies' => array(), 'theme' => false), 'effects.blind' => array('fileName' => 'jquery.effects.blind.min.js', 'dependencies' => array('effects.core'), 'theme' => false), 'effects.bounce' => array('fileName' => 'jquery.effects.bounce.min.js', 'dependencies' => array('effects.core'), 'theme' => false), 'effects.clip' => array('fileName' => 'jquery.effects.clip.min.js', 'dependencies' => array('effects.core'), 'theme' => false), 'effects.drop' => array('fileName' => 'jquery.effects.drop.min.js', 'dependencies' => array('effects.core'), 'theme' => false), 'effects.explode' => array('fileName' => 'jquery.effects.explode.min.js', 'dependencies' => array('effects.core'), 'theme' => false), 'effects.fade' => array('fileName' => 'jquery.effects.fade.min.js', 'dependencies' => array('effects.core'), 'theme' => false), 'effects.fold' => array('fileName' => 'jquery.effects.fold.min.js', 'dependencies' => array('effects.core'), 'theme' => false), 'effects.highlight' => array('fileName' => 'jquery.effects.highlight.min.js', 'dependencies' => array('effects.core'), 'theme' => false), 'effects.pulsate' => array('fileName' => 'jquery.effects.pulsate.min.js', 'dependencies' => array('effects.core'), 'theme' => false), 'effects.scale' => array('fileName' => 'jquery.effects.scale.min.js', 'dependencies' => array('effects.core'), 'theme' => false), 'effects.shake' => array('fileName' => 'jquery.effects.shake.min.js', 'dependencies' => array('effects.core'), 'theme' => false), 'effects.slide' => array('fileName' => 'jquery.effects.slide.min.js', 'dependencies' => array('effects.core'), 'theme' => false), 'effects.transfer' => array('fileName' => 'jquery.effects.transfer.min.js', 'dependencies' => array('effects.core'), 'theme' => false))
 
@@ -41,10 +82,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Media.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#29)
+* This property is defined in [classes/Media.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L29)
 
 
-### $js_def
+### <a name="property-$js_def"></a>$js_def
 
     protected array $js_def = array()
 
@@ -54,10 +95,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Media.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#69)
+* This property is defined in [classes/Media.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L69)
 
 
-### $inline_script
+### <a name="property-$inline_script"></a>$inline_script
 
     protected array $inline_script = array()
 
@@ -67,10 +108,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Media.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#74)
+* This property is defined in [classes/Media.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L74)
 
 
-### $inline_script_src
+### <a name="property-$inline_script_src"></a>$inline_script_src
 
     protected array $inline_script_src = array()
 
@@ -80,10 +121,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Media.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#79)
+* This property is defined in [classes/Media.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L79)
 
 
-### $pattern_callback
+### <a name="property-$pattern_callback"></a>$pattern_callback
 
     public string $pattern_callback = '#(url\((?![\'"]?(?:data:|//|https?:))(?:\'|")?)([^\)\'"]*)(?=[\'"]?\))#s'
 
@@ -93,10 +134,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Media.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#84)
+* This property is defined in [classes/Media.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L84)
 
 
-### $current_css_file
+### <a name="property-$current_css_file"></a>$current_css_file
 
     protected string $current_css_file
 
@@ -106,10 +147,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Media.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#89)
+* This property is defined in [classes/Media.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L89)
 
 
-### $pattern_js
+### <a name="property-$pattern_js"></a>$pattern_js
 
     public string $pattern_js = '#\s*(<\s*script(?:\s[^>]*(?:javascript)[^>]*|)+>)(.*)(<\s*/script\s*[^>]*>)\s*#Uims'
 
@@ -119,14 +160,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Media.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#94)
+* This property is defined in [classes/Media.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L94)
 
 
 Methods
 -------
 
 
-### minifyHTML
+### <a name="method-minifyHTML"></a>minifyHTML
 
     mixed MediaCore::minifyHTML($html_content)
 
@@ -136,7 +177,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#96)
+* This method is defined in [classes/Media.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L96)
 
 
 #### Arguments
@@ -144,7 +185,7 @@ Methods
 
 
 
-### minifyHTMLpregCallback
+### <a name="method-minifyHTMLpregCallback"></a>minifyHTMLpregCallback
 
     mixed MediaCore::minifyHTMLpregCallback($preg_matches)
 
@@ -154,7 +195,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#117)
+* This method is defined in [classes/Media.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L117)
 
 
 #### Arguments
@@ -162,7 +203,7 @@ Methods
 
 
 
-### packJSinHTML
+### <a name="method-packJSinHTML"></a>packJSinHTML
 
     mixed MediaCore::packJSinHTML($html_content)
 
@@ -172,7 +213,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#132)
+* This method is defined in [classes/Media.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L132)
 
 
 #### Arguments
@@ -180,7 +221,7 @@ Methods
 
 
 
-### packJSinHTMLpregCallback
+### <a name="method-packJSinHTMLpregCallback"></a>packJSinHTMLpregCallback
 
     mixed MediaCore::packJSinHTMLpregCallback($preg_matches)
 
@@ -190,7 +231,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#155)
+* This method is defined in [classes/Media.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L155)
 
 
 #### Arguments
@@ -198,7 +239,7 @@ Methods
 
 
 
-### packJS
+### <a name="method-packJS"></a>packJS
 
     mixed MediaCore::packJS($js_content)
 
@@ -208,7 +249,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#168)
+* This method is defined in [classes/Media.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L168)
 
 
 #### Arguments
@@ -216,7 +257,7 @@ Methods
 
 
 
-### minifyCSS
+### <a name="method-minifyCSS"></a>minifyCSS
 
     mixed MediaCore::minifyCSS($css_content, $fileuri, $import_url)
 
@@ -226,7 +267,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#184)
+* This method is defined in [classes/Media.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L184)
 
 
 #### Arguments
@@ -236,7 +277,7 @@ Methods
 
 
 
-### replaceByAbsoluteURL
+### <a name="method-replaceByAbsoluteURL"></a>replaceByAbsoluteURL
 
     mixed MediaCore::replaceByAbsoluteURL($matches)
 
@@ -246,7 +287,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#216)
+* This method is defined in [classes/Media.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L216)
 
 
 #### Arguments
@@ -254,7 +295,7 @@ Methods
 
 
 
-### getJSPath
+### <a name="method-getJSPath"></a>getJSPath
 
     string MediaCore::getJSPath(mixed $js_uri)
 
@@ -264,7 +305,7 @@ addJS return javascript path
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 239](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#239)
+* This method is defined in [classes/Media.php line 239](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L239)
 
 
 #### Arguments
@@ -272,7 +313,7 @@ addJS return javascript path
 
 
 
-### getCSSPath
+### <a name="method-getCSSPath"></a>getCSSPath
 
     string MediaCore::getCSSPath(mixed $css_uri, string $css_media_type, boolean $need_rtl)
 
@@ -282,7 +323,7 @@ addCSS return stylesheet path.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#253)
+* This method is defined in [classes/Media.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L253)
 
 
 #### Arguments
@@ -292,7 +333,7 @@ addCSS return stylesheet path.
 
 
 
-### getMediaPath
+### <a name="method-getMediaPath"></a>getMediaPath
 
     mixed MediaCore::getMediaPath($media_uri, $css_media_type)
 
@@ -302,7 +343,7 @@ addCSS return stylesheet path.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#267)
+* This method is defined in [classes/Media.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L267)
 
 
 #### Arguments
@@ -311,7 +352,7 @@ addCSS return stylesheet path.
 
 
 
-### getJqueryPath
+### <a name="method-getJqueryPath"></a>getJqueryPath
 
     string MediaCore::getJqueryPath(mixed $version, $folder, $minifier)
 
@@ -321,7 +362,7 @@ return jquery path.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 319](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#319)
+* This method is defined in [classes/Media.php line 319](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L319)
 
 
 #### Arguments
@@ -331,7 +372,7 @@ return jquery path.
 
 
 
-### getJqueryUIPath
+### <a name="method-getJqueryUIPath"></a>getJqueryUIPath
 
     string MediaCore::getJqueryUIPath(mixed $component, $theme, $check_dependencies)
 
@@ -341,7 +382,7 @@ return jqueryUI component path.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 370](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#370)
+* This method is defined in [classes/Media.php line 370](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L370)
 
 
 #### Arguments
@@ -351,7 +392,7 @@ return jqueryUI component path.
 
 
 
-### getJqueryPluginPath
+### <a name="method-getJqueryPluginPath"></a>getJqueryPluginPath
 
     string|boolean MediaCore::getJqueryPluginPath(mixed $name, $folder)
 
@@ -361,7 +402,7 @@ return jquery plugin path.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#438)
+* This method is defined in [classes/Media.php line 438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L438)
 
 
 #### Arguments
@@ -370,7 +411,7 @@ return jquery plugin path.
 
 
 
-### getJqueryPluginCSSPath
+### <a name="method-getJqueryPluginCSSPath"></a>getJqueryPluginCSSPath
 
     string|boolean MediaCore::getJqueryPluginCSSPath(mixed $name, $folder)
 
@@ -380,7 +421,7 @@ return jquery plugin css path if exist.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#469)
+* This method is defined in [classes/Media.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L469)
 
 
 #### Arguments
@@ -389,7 +430,7 @@ return jquery plugin css path if exist.
 
 
 
-### cccCss
+### <a name="method-cccCss"></a>cccCss
 
     array MediaCore::cccCss(array $css_files)
 
@@ -399,7 +440,7 @@ Combine Compress and Cache CSS (ccc) calls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 495](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#495)
+* This method is defined in [classes/Media.php line 495](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L495)
 
 
 #### Arguments
@@ -407,7 +448,7 @@ Combine Compress and Cache CSS (ccc) calls
 
 
 
-### getBackTrackLimit
+### <a name="method-getBackTrackLimit"></a>getBackTrackLimit
 
     mixed MediaCore::getBackTrackLimit()
 
@@ -417,12 +458,12 @@ Combine Compress and Cache CSS (ccc) calls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 602](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#602)
+* This method is defined in [classes/Media.php line 602](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L602)
 
 
 
 
-### cccJS
+### <a name="method-cccJS"></a>cccJS
 
     array MediaCore::cccJS(array $js_files)
 
@@ -432,7 +473,7 @@ Combine Compress and Cache (ccc) JS calls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 622](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#622)
+* This method is defined in [classes/Media.php line 622](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L622)
 
 
 #### Arguments
@@ -440,7 +481,7 @@ Combine Compress and Cache (ccc) JS calls
 
 
 
-### clearCache
+### <a name="method-clearCache"></a>clearCache
 
     void MediaCore::clearCache()
 
@@ -450,12 +491,12 @@ Clear theme cache
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#711)
+* This method is defined in [classes/Media.php line 711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L711)
 
 
 
 
-### getJsDef
+### <a name="method-getJsDef"></a>getJsDef
 
     array MediaCore::getJsDef()
 
@@ -465,12 +506,12 @@ Get JS definitions
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 734](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#734)
+* This method is defined in [classes/Media.php line 734](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L734)
 
 
 
 
-### getInlineScript
+### <a name="method-getInlineScript"></a>getInlineScript
 
     array MediaCore::getInlineScript()
 
@@ -480,12 +521,12 @@ Get JS inline script
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 745](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#745)
+* This method is defined in [classes/Media.php line 745](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L745)
 
 
 
 
-### addJsDef
+### <a name="method-addJsDef"></a>addJsDef
 
     void MediaCore::addJsDef(mixed $js_def)
 
@@ -495,7 +536,7 @@ Add a new javascript definition at bottom of page
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 757](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#757)
+* This method is defined in [classes/Media.php line 757](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L757)
 
 
 #### Arguments
@@ -503,7 +544,7 @@ Add a new javascript definition at bottom of page
 
 
 
-### addJsDefL
+### <a name="method-addJsDefL"></a>addJsDefL
 
     void MediaCore::addJsDefL(mixed $params, string $content, \Smarty $smarty, boolean $repeat)
 
@@ -513,7 +554,7 @@ Add a new javascript definition from a capture at bottom of page
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 778](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#778)
+* This method is defined in [classes/Media.php line 778](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L778)
 
 
 #### Arguments
@@ -524,7 +565,7 @@ Add a new javascript definition from a capture at bottom of page
 
 
 
-### deferInlineScripts
+### <a name="method-deferInlineScripts"></a>deferInlineScripts
 
     mixed MediaCore::deferInlineScripts($output)
 
@@ -534,7 +575,7 @@ Add a new javascript definition from a capture at bottom of page
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 791](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#791)
+* This method is defined in [classes/Media.php line 791](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L791)
 
 
 #### Arguments
@@ -542,7 +583,7 @@ Add a new javascript definition from a capture at bottom of page
 
 
 
-### deferScript
+### <a name="method-deferScript"></a>deferScript
 
     boolean|string MediaCore::deferScript(array $matches)
 
@@ -553,7 +594,7 @@ To be used in callback with deferInlineScripts
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Media.php line 851](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#851)
+* This method is defined in [classes/Media.php line 851](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#L851)
 
 
 #### Arguments

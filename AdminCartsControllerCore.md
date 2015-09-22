@@ -17,8 +17,48 @@ AdminCartsControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderKpis](#method-renderKpis)
+* [renderView](#method-renderView)
+* [ajaxPreProcess](#method-ajaxPreProcess)
+* [ajaxProcessDeleteProduct](#method-ajaxProcessDeleteProduct)
+* [ajaxProcessUpdateCustomizationFields](#method-ajaxProcessUpdateCustomizationFields)
+* [ajaxProcessUpdateQty](#method-ajaxProcessUpdateQty)
+* [ajaxProcessUpdateDeliveryOption](#method-ajaxProcessUpdateDeliveryOption)
+* [ajaxProcessUpdateOrderMessage](#method-ajaxProcessUpdateOrderMessage)
+* [ajaxProcessUpdateCurrency](#method-ajaxProcessUpdateCurrency)
+* [ajaxProcessUpdateLang](#method-ajaxProcessUpdateLang)
+* [ajaxProcessDuplicateOrder](#method-ajaxProcessDuplicateOrder)
+* [ajaxProcessDeleteVoucher](#method-ajaxProcessDeleteVoucher)
+* [ajaxProcessupdateFreeShipping](#method-ajaxProcessupdateFreeShipping)
+* [ajaxProcessAddVoucher](#method-ajaxProcessAddVoucher)
+* [ajaxProcessUpdateAddress](#method-ajaxProcessUpdateAddress)
+* [ajaxProcessUpdateAddresses](#method-ajaxProcessUpdateAddresses)
+* [getCartSummary](#method-getCartSummary)
+* [getDeliveryOptionList](#method-getDeliveryOptionList)
+* [displayAjaxSearchCarts](#method-displayAjaxSearchCarts)
+* [ajaxReturnVars](#method-ajaxReturnVars)
+* [initToolbar](#method-initToolbar)
+* [displayAjaxGetSummary](#method-displayAjaxGetSummary)
+* [ajaxProcessUpdateProductPrice](#method-ajaxProcessUpdateProductPrice)
+* [getOrderTotalUsingTaxCalculationMethod](#method-getOrderTotalUsingTaxCalculationMethod)
+* [replaceZeroByShopName](#method-replaceZeroByShopName)
+* [displayDeleteLink](#method-displayDeleteLink)
+* [renderList](#method-renderList)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Cart $object
 
@@ -27,14 +67,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminCartsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#30)
+* This property is defined in [controllers/admin/AdminCartsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminCartsControllerCore::__construct()
 
@@ -43,12 +83,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#32)
+* This method is defined in [controllers/admin/AdminCartsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L32)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminCartsControllerCore::initPageHeaderToolbar()
 
@@ -57,12 +97,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#118)
+* This method is defined in [controllers/admin/AdminCartsController.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L118)
 
 
 
 
-### renderKpis
+### <a name="method-renderKpis"></a>renderKpis
 
     mixed AdminCartsControllerCore::renderKpis()
 
@@ -71,12 +111,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#131)
+* This method is defined in [controllers/admin/AdminCartsController.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L131)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminCartsControllerCore::renderView()
 
@@ -85,12 +125,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#203)
+* This method is defined in [controllers/admin/AdminCartsController.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L203)
 
 
 
 
-### ajaxPreProcess
+### <a name="method-ajaxPreProcess"></a>ajaxPreProcess
 
     mixed AdminCartsControllerCore::ajaxPreProcess()
 
@@ -99,12 +139,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 296](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#296)
+* This method is defined in [controllers/admin/AdminCartsController.php line 296](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L296)
 
 
 
 
-### ajaxProcessDeleteProduct
+### <a name="method-ajaxProcessDeleteProduct"></a>ajaxProcessDeleteProduct
 
     mixed AdminCartsControllerCore::ajaxProcessDeleteProduct()
 
@@ -113,12 +153,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#353)
+* This method is defined in [controllers/admin/AdminCartsController.php line 353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L353)
 
 
 
 
-### ajaxProcessUpdateCustomizationFields
+### <a name="method-ajaxProcessUpdateCustomizationFields"></a>ajaxProcessUpdateCustomizationFields
 
     mixed AdminCartsControllerCore::ajaxProcessUpdateCustomizationFields()
 
@@ -127,12 +167,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 372](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#372)
+* This method is defined in [controllers/admin/AdminCartsController.php line 372](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L372)
 
 
 
 
-### ajaxProcessUpdateQty
+### <a name="method-ajaxProcessUpdateQty"></a>ajaxProcessUpdateQty
 
     mixed AdminCartsControllerCore::ajaxProcessUpdateQty()
 
@@ -141,12 +181,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 433](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#433)
+* This method is defined in [controllers/admin/AdminCartsController.php line 433](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L433)
 
 
 
 
-### ajaxProcessUpdateDeliveryOption
+### <a name="method-ajaxProcessUpdateDeliveryOption"></a>ajaxProcessUpdateDeliveryOption
 
     mixed AdminCartsControllerCore::ajaxProcessUpdateDeliveryOption()
 
@@ -155,12 +195,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 485](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#485)
+* This method is defined in [controllers/admin/AdminCartsController.php line 485](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L485)
 
 
 
 
-### ajaxProcessUpdateOrderMessage
+### <a name="method-ajaxProcessUpdateOrderMessage"></a>ajaxProcessUpdateOrderMessage
 
     mixed AdminCartsControllerCore::ajaxProcessUpdateOrderMessage()
 
@@ -169,12 +209,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 506](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#506)
+* This method is defined in [controllers/admin/AdminCartsController.php line 506](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L506)
 
 
 
 
-### ajaxProcessUpdateCurrency
+### <a name="method-ajaxProcessUpdateCurrency"></a>ajaxProcessUpdateCurrency
 
     mixed AdminCartsControllerCore::ajaxProcessUpdateCurrency()
 
@@ -183,12 +223,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 528](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#528)
+* This method is defined in [controllers/admin/AdminCartsController.php line 528](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L528)
 
 
 
 
-### ajaxProcessUpdateLang
+### <a name="method-ajaxProcessUpdateLang"></a>ajaxProcessUpdateLang
 
     mixed AdminCartsControllerCore::ajaxProcessUpdateLang()
 
@@ -197,12 +237,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 540](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#540)
+* This method is defined in [controllers/admin/AdminCartsController.php line 540](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L540)
 
 
 
 
-### ajaxProcessDuplicateOrder
+### <a name="method-ajaxProcessDuplicateOrder"></a>ajaxProcessDuplicateOrder
 
     mixed AdminCartsControllerCore::ajaxProcessDuplicateOrder()
 
@@ -211,12 +251,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 552](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#552)
+* This method is defined in [controllers/admin/AdminCartsController.php line 552](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L552)
 
 
 
 
-### ajaxProcessDeleteVoucher
+### <a name="method-ajaxProcessDeleteVoucher"></a>ajaxProcessDeleteVoucher
 
     mixed AdminCartsControllerCore::ajaxProcessDeleteVoucher()
 
@@ -225,12 +265,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 572](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#572)
+* This method is defined in [controllers/admin/AdminCartsController.php line 572](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L572)
 
 
 
 
-### ajaxProcessupdateFreeShipping
+### <a name="method-ajaxProcessupdateFreeShipping"></a>ajaxProcessupdateFreeShipping
 
     mixed AdminCartsControllerCore::ajaxProcessupdateFreeShipping()
 
@@ -239,12 +279,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 581](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#581)
+* This method is defined in [controllers/admin/AdminCartsController.php line 581](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L581)
 
 
 
 
-### ajaxProcessAddVoucher
+### <a name="method-ajaxProcessAddVoucher"></a>ajaxProcessAddVoucher
 
     mixed AdminCartsControllerCore::ajaxProcessAddVoucher()
 
@@ -253,12 +293,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 611](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#611)
+* This method is defined in [controllers/admin/AdminCartsController.php line 611](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L611)
 
 
 
 
-### ajaxProcessUpdateAddress
+### <a name="method-ajaxProcessUpdateAddress"></a>ajaxProcessUpdateAddress
 
     mixed AdminCartsControllerCore::ajaxProcessUpdateAddress()
 
@@ -267,12 +307,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 629](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#629)
+* This method is defined in [controllers/admin/AdminCartsController.php line 629](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L629)
 
 
 
 
-### ajaxProcessUpdateAddresses
+### <a name="method-ajaxProcessUpdateAddresses"></a>ajaxProcessUpdateAddresses
 
     mixed AdminCartsControllerCore::ajaxProcessUpdateAddresses()
 
@@ -281,12 +321,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 636](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#636)
+* This method is defined in [controllers/admin/AdminCartsController.php line 636](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L636)
 
 
 
 
-### getCartSummary
+### <a name="method-getCartSummary"></a>getCartSummary
 
     mixed AdminCartsControllerCore::getCartSummary()
 
@@ -295,12 +335,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCartsController.php line 656](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#656)
+* This method is defined in [controllers/admin/AdminCartsController.php line 656](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L656)
 
 
 
 
-### getDeliveryOptionList
+### <a name="method-getDeliveryOptionList"></a>getDeliveryOptionList
 
     mixed AdminCartsControllerCore::getDeliveryOptionList()
 
@@ -309,12 +349,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCartsController.php line 692](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#692)
+* This method is defined in [controllers/admin/AdminCartsController.php line 692](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L692)
 
 
 
 
-### displayAjaxSearchCarts
+### <a name="method-displayAjaxSearchCarts"></a>displayAjaxSearchCarts
 
     mixed AdminCartsControllerCore::displayAjaxSearchCarts()
 
@@ -323,12 +363,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 735](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#735)
+* This method is defined in [controllers/admin/AdminCartsController.php line 735](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L735)
 
 
 
 
-### ajaxReturnVars
+### <a name="method-ajaxReturnVars"></a>ajaxReturnVars
 
     mixed AdminCartsControllerCore::ajaxReturnVars()
 
@@ -337,12 +377,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 769](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#769)
+* This method is defined in [controllers/admin/AdminCartsController.php line 769](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L769)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminCartsControllerCore::initToolbar()
 
@@ -351,12 +391,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 812](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#812)
+* This method is defined in [controllers/admin/AdminCartsController.php line 812](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L812)
 
 
 
 
-### displayAjaxGetSummary
+### <a name="method-displayAjaxGetSummary"></a>displayAjaxGetSummary
 
     mixed AdminCartsControllerCore::displayAjaxGetSummary()
 
@@ -365,12 +405,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 818](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#818)
+* This method is defined in [controllers/admin/AdminCartsController.php line 818](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L818)
 
 
 
 
-### ajaxProcessUpdateProductPrice
+### <a name="method-ajaxProcessUpdateProductPrice"></a>ajaxProcessUpdateProductPrice
 
     mixed AdminCartsControllerCore::ajaxProcessUpdateProductPrice()
 
@@ -379,12 +419,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 823](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#823)
+* This method is defined in [controllers/admin/AdminCartsController.php line 823](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L823)
 
 
 
 
-### getOrderTotalUsingTaxCalculationMethod
+### <a name="method-getOrderTotalUsingTaxCalculationMethod"></a>getOrderTotalUsingTaxCalculationMethod
 
     mixed AdminCartsControllerCore::getOrderTotalUsingTaxCalculationMethod($id_cart)
 
@@ -394,7 +434,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminCartsController.php line 848](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#848)
+* This method is defined in [controllers/admin/AdminCartsController.php line 848](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L848)
 
 
 #### Arguments
@@ -402,7 +442,7 @@ Methods
 
 
 
-### replaceZeroByShopName
+### <a name="method-replaceZeroByShopName"></a>replaceZeroByShopName
 
     mixed AdminCartsControllerCore::replaceZeroByShopName($echo, $tr)
 
@@ -412,7 +452,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminCartsController.php line 857](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#857)
+* This method is defined in [controllers/admin/AdminCartsController.php line 857](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L857)
 
 
 #### Arguments
@@ -421,7 +461,7 @@ Methods
 
 
 
-### displayDeleteLink
+### <a name="method-displayDeleteLink"></a>displayDeleteLink
 
     mixed AdminCartsControllerCore::displayDeleteLink($token, $id, $name)
 
@@ -430,7 +470,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 862](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#862)
+* This method is defined in [controllers/admin/AdminCartsController.php line 862](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L862)
 
 
 #### Arguments
@@ -440,7 +480,7 @@ Methods
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminCartsControllerCore::renderList()
 
@@ -449,7 +489,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartsController.php line 874](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#874)
+* This method is defined in [controllers/admin/AdminCartsController.php line 874](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartsController.php#L874)
 
 
 

@@ -17,8 +17,22 @@ FileLoggerCore
 Properties
 ----------
 
+* [$filename](#property-$filename)
 
-### $filename
+Methods
+-------
+* [logMessage](#method-logMessage)
+* [setFilename](#method-setFilename)
+* [getFilename](#method-getFilename)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$filename"></a>$filename
 
     protected mixed $filename = ''
 
@@ -27,14 +41,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/log/FileLogger.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#29)
+* This property is defined in [classes/log/FileLogger.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#L29)
 
 
 Methods
 -------
 
 
-### logMessage
+### <a name="method-logMessage"></a>logMessage
 
     mixed FileLoggerCore::logMessage($message, $level)
 
@@ -43,7 +57,7 @@ Write the message in the log file
 
 
 * Visibility: **protected**
-* This method is defined in [classes/log/FileLogger.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#37)
+* This method is defined in [classes/log/FileLogger.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#L37)
 
 
 #### Arguments
@@ -52,7 +66,7 @@ Write the message in the log file
 
 
 
-### setFilename
+### <a name="method-setFilename"></a>setFilename
 
     mixed FileLoggerCore::setFilename(string $filename)
 
@@ -61,7 +75,7 @@ Check if the specified filename is writable and set the filename
 
 
 * Visibility: **public**
-* This method is defined in [classes/log/FileLogger.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#51)
+* This method is defined in [classes/log/FileLogger.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#L51)
 
 
 #### Arguments
@@ -69,7 +83,7 @@ Check if the specified filename is writable and set the filename
 
 
 
-### getFilename
+### <a name="method-getFilename"></a>getFilename
 
     mixed FileLoggerCore::getFilename()
 
@@ -78,7 +92,7 @@ Log the message
 
 
 * Visibility: **public**
-* This method is defined in [classes/log/FileLogger.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#66)
+* This method is defined in [classes/log/FileLogger.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#L66)
 
 
 

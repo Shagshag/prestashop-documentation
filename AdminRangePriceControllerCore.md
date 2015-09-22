@@ -17,8 +17,24 @@ AdminRangePriceControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderForm](#method-renderForm)
+* [getList](#method-getList)
+* [postProcess](#method-postProcess)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \RangePrice $object
 
@@ -27,14 +43,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminRangePriceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#30)
+* This property is defined in [controllers/admin/AdminRangePriceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminRangePriceControllerCore::__construct()
 
@@ -43,12 +59,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRangePriceController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#32)
+* This method is defined in [controllers/admin/AdminRangePriceController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#L32)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminRangePriceControllerCore::initPageHeaderToolbar()
 
@@ -57,12 +73,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRangePriceController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#57)
+* This method is defined in [controllers/admin/AdminRangePriceController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#L57)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminRangePriceControllerCore::renderForm()
 
@@ -71,12 +87,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRangePriceController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#69)
+* This method is defined in [controllers/admin/AdminRangePriceController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#L69)
 
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminRangePriceControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
 
@@ -85,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRangePriceController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#127)
+* This method is defined in [controllers/admin/AdminRangePriceController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#L127)
 
 
 #### Arguments
@@ -98,7 +114,7 @@ Methods
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminRangePriceControllerCore::postProcess()
 
@@ -107,7 +123,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRangePriceController.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#139)
+* This method is defined in [controllers/admin/AdminRangePriceController.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#L139)
 
 
 

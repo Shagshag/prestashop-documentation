@@ -19,8 +19,31 @@ Import module management
 Properties
 ----------
 
+* [$_link](#property-$_link)
+* [$server](#property-$server)
+* [$user](#property-$user)
+* [$passwd](#property-$passwd)
+* [$database](#property-$database)
+* [$prefix](#property-$prefix)
 
-### $_link
+Methods
+-------
+* [__destruct](#method-__destruct)
+* [initDatabaseConnection](#method-initDatabaseConnection)
+* [ExecuteS](#method-ExecuteS)
+* [Execute](#method-Execute)
+* [getValue](#method-getValue)
+* [getImportModulesOnDisk](#method-getImportModulesOnDisk)
+* [getDefaultIdLang](#method-getDefaultIdLang)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$_link"></a>$_link
 
     protected mixed $_link = null
 
@@ -29,10 +52,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/module/ImportModule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#36)
+* This property is defined in [classes/module/ImportModule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L36)
 
 
-### $server
+### <a name="property-$server"></a>$server
 
     public mixed $server
 
@@ -41,10 +64,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/ImportModule.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#38)
+* This property is defined in [classes/module/ImportModule.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L38)
 
 
-### $user
+### <a name="property-$user"></a>$user
 
     public mixed $user
 
@@ -53,10 +76,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/ImportModule.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#40)
+* This property is defined in [classes/module/ImportModule.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L40)
 
 
-### $passwd
+### <a name="property-$passwd"></a>$passwd
 
     public mixed $passwd
 
@@ -65,10 +88,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/ImportModule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#42)
+* This property is defined in [classes/module/ImportModule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L42)
 
 
-### $database
+### <a name="property-$database"></a>$database
 
     public mixed $database
 
@@ -77,10 +100,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/ImportModule.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#44)
+* This property is defined in [classes/module/ImportModule.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L44)
 
 
-### $prefix
+### <a name="property-$prefix"></a>$prefix
 
     public string $prefix
 
@@ -89,14 +112,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/module/ImportModule.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#47)
+* This property is defined in [classes/module/ImportModule.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L47)
 
 
 Methods
 -------
 
 
-### __destruct
+### <a name="method-__destruct"></a>__destruct
 
     mixed ImportModuleCore::__destruct()
 
@@ -105,12 +128,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ImportModule.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#50)
+* This method is defined in [classes/module/ImportModule.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L50)
 
 
 
 
-### initDatabaseConnection
+### <a name="method-initDatabaseConnection"></a>initDatabaseConnection
 
     mixed ImportModuleCore::initDatabaseConnection()
 
@@ -119,12 +142,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/module/ImportModule.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#57)
+* This method is defined in [classes/module/ImportModule.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L57)
 
 
 
 
-### ExecuteS
+### <a name="method-ExecuteS"></a>ExecuteS
 
     mixed ImportModuleCore::ExecuteS($query)
 
@@ -133,7 +156,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ImportModule.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#75)
+* This method is defined in [classes/module/ImportModule.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L75)
 
 
 #### Arguments
@@ -141,7 +164,7 @@ Methods
 
 
 
-### Execute
+### <a name="method-Execute"></a>Execute
 
     mixed ImportModuleCore::Execute($query)
 
@@ -150,7 +173,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ImportModule.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#88)
+* This method is defined in [classes/module/ImportModule.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L88)
 
 
 #### Arguments
@@ -158,7 +181,7 @@ Methods
 
 
 
-### getValue
+### <a name="method-getValue"></a>getValue
 
     mixed ImportModuleCore::getValue($query)
 
@@ -167,7 +190,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/module/ImportModule.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#94)
+* This method is defined in [classes/module/ImportModule.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L94)
 
 
 #### Arguments
@@ -175,7 +198,7 @@ Methods
 
 
 
-### getImportModulesOnDisk
+### <a name="method-getImportModulesOnDisk"></a>getImportModulesOnDisk
 
     mixed ImportModuleCore::getImportModulesOnDisk()
 
@@ -185,12 +208,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/module/ImportModule.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#105)
+* This method is defined in [classes/module/ImportModule.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L105)
 
 
 
 
-### getDefaultIdLang
+### <a name="method-getDefaultIdLang"></a>getDefaultIdLang
 
     mixed ImportModuleCore::getDefaultIdLang()
 
@@ -200,7 +223,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in [classes/module/ImportModule.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#116)
+* This method is defined in [classes/module/ImportModule.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#L116)
 
 
 

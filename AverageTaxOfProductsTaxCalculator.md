@@ -16,8 +16,26 @@ AverageTaxOfProductsTaxCalculator
 Properties
 ----------
 
+* [$id_order](#property-$id_order)
+* [$configuration](#property-$configuration)
+* [$db](#property-$db)
+* [$computation_method](#property-$computation_method)
 
-### $id_order
+Methods
+-------
+* [__construct](#method-__construct)
+* [getProductTaxes](#method-getProductTaxes)
+* [setIdOrder](#method-setIdOrder)
+* [getTaxesAmount](#method-getTaxesAmount)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_order"></a>$id_order
 
     private mixed $id_order
 
@@ -26,10 +44,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 5](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#5)
+* This property is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 5](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#L5)
 
 
-### $configuration
+### <a name="property-$configuration"></a>$configuration
 
     private mixed $configuration
 
@@ -38,10 +56,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 6](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#6)
+* This property is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 6](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#L6)
 
 
-### $db
+### <a name="property-$db"></a>$db
 
     private mixed $db
 
@@ -50,10 +68,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 7](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#7)
+* This property is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 7](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#L7)
 
 
-### $computation_method
+### <a name="property-$computation_method"></a>$computation_method
 
     public mixed $computation_method = 'average_tax_of_products'
 
@@ -62,14 +80,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 9](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#9)
+* This property is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 9](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#L9)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AverageTaxOfProductsTaxCalculator::__construct(\Core_Foundation_Database_DatabaseInterface $db, \Core_Business_ConfigurationInterface $configuration)
 
@@ -78,7 +96,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 11](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#11)
+* This method is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 11](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#L11)
 
 
 #### Arguments
@@ -87,7 +105,7 @@ Methods
 
 
 
-### getProductTaxes
+### <a name="method-getProductTaxes"></a>getProductTaxes
 
     mixed AverageTaxOfProductsTaxCalculator::getProductTaxes()
 
@@ -96,12 +114,12 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 17](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#17)
+* This method is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 17](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#L17)
 
 
 
 
-### setIdOrder
+### <a name="method-setIdOrder"></a>setIdOrder
 
     mixed AverageTaxOfProductsTaxCalculator::setIdOrder($id_order)
 
@@ -110,7 +128,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#30)
+* This method is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#L30)
 
 
 #### Arguments
@@ -118,7 +136,7 @@ Methods
 
 
 
-### getTaxesAmount
+### <a name="method-getTaxesAmount"></a>getTaxesAmount
 
     mixed AverageTaxOfProductsTaxCalculator::getTaxesAmount($price_before_tax, $price_after_tax, $round_precision, $round_mode)
 
@@ -127,7 +145,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#36)
+* This method is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#L36)
 
 
 #### Arguments

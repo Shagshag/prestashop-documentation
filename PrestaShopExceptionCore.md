@@ -18,9 +18,23 @@ PrestaShopExceptionCore
 
 Methods
 -------
+* [displayMessage](#method-displayMessage)
+* [displayFileDebug](#method-displayFileDebug)
+* [displayArgsDebug](#method-displayArgsDebug)
+* [logError](#method-logError)
+* [getExentedMessage](#method-getExentedMessage)
+* [getExtendedMessage](#method-getExtendedMessage)
 
 
-### displayMessage
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-displayMessage"></a>displayMessage
 
     mixed PrestaShopExceptionCore::displayMessage()
 
@@ -29,12 +43,12 @@ This method acts like an error handler, if dev mode is on, display the error els
 
 
 * Visibility: **public**
-* This method is defined in [classes/exception/PrestaShopException.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#35)
+* This method is defined in [classes/exception/PrestaShopException.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#L35)
 
 
 
 
-### displayFileDebug
+### <a name="method-displayFileDebug"></a>displayFileDebug
 
     mixed PrestaShopExceptionCore::displayFileDebug(string $file, integer $line, string $id)
 
@@ -43,7 +57,7 @@ Display lines around current line
 
 
 * Visibility: **protected**
-* This method is defined in [classes/exception/PrestaShopException.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#101)
+* This method is defined in [classes/exception/PrestaShopException.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#L101)
 
 
 #### Arguments
@@ -53,7 +67,7 @@ Display lines around current line
 
 
 
-### displayArgsDebug
+### <a name="method-displayArgsDebug"></a>displayArgsDebug
 
     mixed PrestaShopExceptionCore::displayArgsDebug(array $args, string $id)
 
@@ -62,7 +76,7 @@ Display arguments list of traced function
 
 
 * Visibility: **protected**
-* This method is defined in [classes/exception/PrestaShopException.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#131)
+* This method is defined in [classes/exception/PrestaShopException.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#L131)
 
 
 #### Arguments
@@ -71,7 +85,7 @@ Display arguments list of traced function
 
 
 
-### logError
+### <a name="method-logError"></a>logError
 
     mixed PrestaShopExceptionCore::logError()
 
@@ -80,12 +94,12 @@ Log the error on the disk
 
 
 * Visibility: **protected**
-* This method is defined in [classes/exception/PrestaShopException.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#145)
+* This method is defined in [classes/exception/PrestaShopException.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#L145)
 
 
 
 
-### getExentedMessage
+### <a name="method-getExentedMessage"></a>getExentedMessage
 
     mixed PrestaShopExceptionCore::getExentedMessage($html)
 
@@ -94,7 +108,7 @@ Log the error on the disk
 
 
 * Visibility: **protected**
-* This method is defined in [classes/exception/PrestaShopException.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#155)
+* This method is defined in [classes/exception/PrestaShopException.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#L155)
 
 
 #### Arguments
@@ -102,7 +116,7 @@ Log the error on the disk
 
 
 
-### getExtendedMessage
+### <a name="method-getExtendedMessage"></a>getExtendedMessage
 
     string PrestaShopExceptionCore::getExtendedMessage($html)
 
@@ -111,7 +125,7 @@ Return the content of the Exception
 
 
 * Visibility: **protected**
-* This method is defined in [classes/exception/PrestaShopException.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#165)
+* This method is defined in [classes/exception/PrestaShopException.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#L165)
 
 
 #### Arguments

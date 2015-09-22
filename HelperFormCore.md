@@ -17,8 +17,36 @@ HelperFormCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$first_call](#property-$first_call)
+* [$fields_form](#property-$fields_form)
+* [$fields_value](#property-$fields_value)
+* [$name_controller](#property-$name_controller)
+* [$title](#property-$title)
+* [$submit_action](#property-$submit_action)
+* [$token](#property-$token)
+* [$languages](#property-$languages)
+* [$default_form_language](#property-$default_form_language)
+* [$allow_employee_form_lang](#property-$allow_employee_form_lang)
+* [$show_cancel_button](#property-$show_cancel_button)
+* [$back_url](#property-$back_url)
 
-### $id
+Methods
+-------
+* [__construct](#method-__construct)
+* [generateForm](#method-generateForm)
+* [generate](#method-generate)
+* [getFieldsRequired](#method-getFieldsRequired)
+* [renderAssoShop](#method-renderAssoShop)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +55,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperForm.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#32)
+* This property is defined in [classes/helper/HelperForm.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L32)
 
 
-### $first_call
+### <a name="property-$first_call"></a>$first_call
 
     public mixed $first_call = true
 
@@ -39,10 +67,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperForm.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#33)
+* This property is defined in [classes/helper/HelperForm.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L33)
 
 
-### $fields_form
+### <a name="property-$fields_form"></a>$fields_form
 
     protected array $fields_form = array()
 
@@ -51,10 +79,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/helper/HelperForm.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#36)
+* This property is defined in [classes/helper/HelperForm.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L36)
 
 
-### $fields_value
+### <a name="property-$fields_value"></a>$fields_value
 
     public array $fields_value = array()
 
@@ -63,10 +91,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperForm.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#39)
+* This property is defined in [classes/helper/HelperForm.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L39)
 
 
-### $name_controller
+### <a name="property-$name_controller"></a>$name_controller
 
     public mixed $name_controller = ''
 
@@ -75,10 +103,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperForm.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#40)
+* This property is defined in [classes/helper/HelperForm.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L40)
 
 
-### $title
+### <a name="property-$title"></a>$title
 
     public string $title = null
 
@@ -87,10 +115,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperForm.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#43)
+* This property is defined in [classes/helper/HelperForm.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L43)
 
 
-### $submit_action
+### <a name="property-$submit_action"></a>$submit_action
 
     public string $submit_action
 
@@ -99,10 +127,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperForm.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#46)
+* This property is defined in [classes/helper/HelperForm.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L46)
 
 
-### $token
+### <a name="property-$token"></a>$token
 
     public mixed $token
 
@@ -111,10 +139,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperForm.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#48)
+* This property is defined in [classes/helper/HelperForm.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L48)
 
 
-### $languages
+### <a name="property-$languages"></a>$languages
 
     public mixed $languages = null
 
@@ -123,10 +151,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperForm.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#49)
+* This property is defined in [classes/helper/HelperForm.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L49)
 
 
-### $default_form_language
+### <a name="property-$default_form_language"></a>$default_form_language
 
     public mixed $default_form_language = null
 
@@ -135,10 +163,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperForm.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#50)
+* This property is defined in [classes/helper/HelperForm.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L50)
 
 
-### $allow_employee_form_lang
+### <a name="property-$allow_employee_form_lang"></a>$allow_employee_form_lang
 
     public mixed $allow_employee_form_lang = null
 
@@ -147,10 +175,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperForm.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#51)
+* This property is defined in [classes/helper/HelperForm.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L51)
 
 
-### $show_cancel_button
+### <a name="property-$show_cancel_button"></a>$show_cancel_button
 
     public mixed $show_cancel_button = false
 
@@ -159,10 +187,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperForm.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#52)
+* This property is defined in [classes/helper/HelperForm.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L52)
 
 
-### $back_url
+### <a name="property-$back_url"></a>$back_url
 
     public mixed $back_url = '#'
 
@@ -171,14 +199,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperForm.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#53)
+* This property is defined in [classes/helper/HelperForm.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L53)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed HelperFormCore::__construct()
 
@@ -187,12 +215,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperForm.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#55)
+* This method is defined in [classes/helper/HelperForm.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L55)
 
 
 
 
-### generateForm
+### <a name="method-generateForm"></a>generateForm
 
     mixed HelperFormCore::generateForm($fields_form)
 
@@ -201,7 +229,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperForm.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#62)
+* This method is defined in [classes/helper/HelperForm.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L62)
 
 
 #### Arguments
@@ -209,7 +237,7 @@ Methods
 
 
 
-### generate
+### <a name="method-generate"></a>generate
 
     mixed HelperFormCore::generate()
 
@@ -218,12 +246,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperForm.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#68)
+* This method is defined in [classes/helper/HelperForm.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L68)
 
 
 
 
-### getFieldsRequired
+### <a name="method-getFieldsRequired"></a>getFieldsRequired
 
     mixed HelperFormCore::getFieldsRequired()
 
@@ -232,12 +260,12 @@ Return true if there are required fields
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperForm.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#260)
+* This method is defined in [classes/helper/HelperForm.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L260)
 
 
 
 
-### renderAssoShop
+### <a name="method-renderAssoShop"></a>renderAssoShop
 
     string HelperFormCore::renderAssoShop($disable_shared, $template_directory)
 
@@ -246,7 +274,7 @@ Render an area to determinate shop association
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperForm.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#279)
+* This method is defined in [classes/helper/HelperForm.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L279)
 
 
 #### Arguments

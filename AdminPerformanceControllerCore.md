@@ -17,8 +17,32 @@ AdminPerformanceControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [initFieldsetSmarty](#method-initFieldsetSmarty)
+* [initFieldsetDebugMode](#method-initFieldsetDebugMode)
+* [initFieldsetFeaturesDetachables](#method-initFieldsetFeaturesDetachables)
+* [initFieldsetCCC](#method-initFieldsetCCC)
+* [initFieldsetMediaServer](#method-initFieldsetMediaServer)
+* [initFieldsetCiphering](#method-initFieldsetCiphering)
+* [initFieldsetCaching](#method-initFieldsetCaching)
+* [renderForm](#method-renderForm)
+* [initContent](#method-initContent)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [postProcess](#method-postProcess)
+* [displayAjaxTestServer](#method-displayAjaxTestServer)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Configuration $object
 
@@ -27,14 +51,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminPerformanceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#30)
+* This property is defined in [controllers/admin/AdminPerformanceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminPerformanceControllerCore::__construct()
 
@@ -43,12 +67,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#32)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L32)
 
 
 
 
-### initFieldsetSmarty
+### <a name="method-initFieldsetSmarty"></a>initFieldsetSmarty
 
     mixed AdminPerformanceControllerCore::initFieldsetSmarty()
 
@@ -57,12 +81,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#39)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L39)
 
 
 
 
-### initFieldsetDebugMode
+### <a name="method-initFieldsetDebugMode"></a>initFieldsetDebugMode
 
     mixed AdminPerformanceControllerCore::initFieldsetDebugMode()
 
@@ -71,12 +95,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#144)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L144)
 
 
 
 
-### initFieldsetFeaturesDetachables
+### <a name="method-initFieldsetFeaturesDetachables"></a>initFieldsetFeaturesDetachables
 
     mixed AdminPerformanceControllerCore::initFieldsetFeaturesDetachables()
 
@@ -85,12 +109,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#202)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L202)
 
 
 
 
-### initFieldsetCCC
+### <a name="method-initFieldsetCCC"></a>initFieldsetCCC
 
     mixed AdminPerformanceControllerCore::initFieldsetCCC()
 
@@ -99,12 +123,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#286)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L286)
 
 
 
 
-### initFieldsetMediaServer
+### <a name="method-initFieldsetMediaServer"></a>initFieldsetMediaServer
 
     mixed AdminPerformanceControllerCore::initFieldsetMediaServer()
 
@@ -113,12 +137,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#421)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L421)
 
 
 
 
-### initFieldsetCiphering
+### <a name="method-initFieldsetCiphering"></a>initFieldsetCiphering
 
     mixed AdminPerformanceControllerCore::initFieldsetCiphering()
 
@@ -127,12 +151,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 463](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#463)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 463](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L463)
 
 
 
 
-### initFieldsetCaching
+### <a name="method-initFieldsetCaching"></a>initFieldsetCaching
 
     mixed AdminPerformanceControllerCore::initFieldsetCaching()
 
@@ -141,12 +165,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 512](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#512)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 512](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L512)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminPerformanceControllerCore::renderForm()
 
@@ -155,12 +179,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 618](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#618)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 618](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L618)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminPerformanceControllerCore::initContent()
 
@@ -169,12 +193,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 640](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#640)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 640](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L640)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminPerformanceControllerCore::initPageHeaderToolbar()
 
@@ -183,12 +207,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 659](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#659)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 659](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L659)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminPerformanceControllerCore::postProcess()
 
@@ -197,12 +221,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#670)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L670)
 
 
 
 
-### displayAjaxTestServer
+### <a name="method-displayAjaxTestServer"></a>displayAjaxTestServer
 
     mixed AdminPerformanceControllerCore::displayAjaxTestServer()
 
@@ -211,7 +235,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPerformanceController.php line 990](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#990)
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 990](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L990)
 
 
 

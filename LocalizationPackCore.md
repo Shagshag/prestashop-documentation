@@ -16,8 +16,34 @@ LocalizationPackCore
 Properties
 ----------
 
+* [$name](#property-$name)
+* [$version](#property-$version)
+* [$iso_code_lang](#property-$iso_code_lang)
+* [$iso_currency](#property-$iso_currency)
+* [$_errors](#property-$_errors)
 
-### $name
+Methods
+-------
+* [loadLocalisationPack](#method-loadLocalisationPack)
+* [_installStates](#method-_installStates)
+* [_installTaxes](#method-_installTaxes)
+* [_installCurrencies](#method-_installCurrencies)
+* [_installLanguages](#method-_installLanguages)
+* [_installUnits](#method-_installUnits)
+* [installModules](#method-installModules)
+* [installConfiguration](#method-installConfiguration)
+* [_installGroups](#method-_installGroups)
+* [updateDefaultGroupDisplayMethod](#method-updateDefaultGroupDisplayMethod)
+* [getErrors](#method-getErrors)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$name"></a>$name
 
     public mixed $name
 
@@ -26,10 +52,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/LocalizationPack.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#29)
+* This property is defined in [classes/LocalizationPack.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L29)
 
 
-### $version
+### <a name="property-$version"></a>$version
 
     public mixed $version
 
@@ -38,10 +64,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/LocalizationPack.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#30)
+* This property is defined in [classes/LocalizationPack.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L30)
 
 
-### $iso_code_lang
+### <a name="property-$iso_code_lang"></a>$iso_code_lang
 
     protected mixed $iso_code_lang
 
@@ -50,10 +76,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/LocalizationPack.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#32)
+* This property is defined in [classes/LocalizationPack.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L32)
 
 
-### $iso_currency
+### <a name="property-$iso_currency"></a>$iso_currency
 
     protected mixed $iso_currency
 
@@ -62,10 +88,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/LocalizationPack.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#33)
+* This property is defined in [classes/LocalizationPack.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L33)
 
 
-### $_errors
+### <a name="property-$_errors"></a>$_errors
 
     protected mixed $_errors = array()
 
@@ -74,14 +100,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/LocalizationPack.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#34)
+* This property is defined in [classes/LocalizationPack.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L34)
 
 
 Methods
 -------
 
 
-### loadLocalisationPack
+### <a name="method-loadLocalisationPack"></a>loadLocalisationPack
 
     mixed LocalizationPackCore::loadLocalisationPack($file, $selection, $install_mode, $iso_localization_pack)
 
@@ -90,7 +116,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/LocalizationPack.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#36)
+* This method is defined in [classes/LocalizationPack.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L36)
 
 
 #### Arguments
@@ -101,7 +127,7 @@ Methods
 
 
 
-### _installStates
+### <a name="method-_installStates"></a>_installStates
 
     boolean LocalizationPackCore::_installStates(\SimpleXMLElement $xml)
 
@@ -110,7 +136,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/LocalizationPack.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#109)
+* This method is defined in [classes/LocalizationPack.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L109)
 
 
 #### Arguments
@@ -118,7 +144,7 @@ Methods
 
 
 
-### _installTaxes
+### <a name="method-_installTaxes"></a>_installTaxes
 
     boolean LocalizationPackCore::_installTaxes(\SimpleXMLElement $xml)
 
@@ -127,7 +153,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/LocalizationPack.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#175)
+* This method is defined in [classes/LocalizationPack.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L175)
 
 
 #### Arguments
@@ -135,7 +161,7 @@ Methods
 
 
 
-### _installCurrencies
+### <a name="method-_installCurrencies"></a>_installCurrencies
 
     boolean LocalizationPackCore::_installCurrencies(\SimpleXMLElement $xml, boolean $install_mode)
 
@@ -144,7 +170,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/LocalizationPack.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#280)
+* This method is defined in [classes/LocalizationPack.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L280)
 
 
 #### Arguments
@@ -153,7 +179,7 @@ Methods
 
 
 
-### _installLanguages
+### <a name="method-_installLanguages"></a>_installLanguages
 
     boolean LocalizationPackCore::_installLanguages(\SimpleXMLElement $xml, boolean $install_mode)
 
@@ -162,7 +188,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/LocalizationPack.php line 330](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#330)
+* This method is defined in [classes/LocalizationPack.php line 330](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L330)
 
 
 #### Arguments
@@ -171,7 +197,7 @@ Methods
 
 
 
-### _installUnits
+### <a name="method-_installUnits"></a>_installUnits
 
     boolean LocalizationPackCore::_installUnits(\SimpleXMLElement $xml)
 
@@ -180,7 +206,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/LocalizationPack.php line 361](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#361)
+* This method is defined in [classes/LocalizationPack.php line 361](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L361)
 
 
 #### Arguments
@@ -188,7 +214,7 @@ Methods
 
 
 
-### installModules
+### <a name="method-installModules"></a>installModules
 
     boolean LocalizationPackCore::installModules(\SimpleXMLElement $xml)
 
@@ -199,7 +225,7 @@ Install/Uninstall a module from a localization file
 
 
 * Visibility: **protected**
-* This method is defined in [classes/LocalizationPack.php line 389](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#389)
+* This method is defined in [classes/LocalizationPack.php line 389](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L389)
 
 
 #### Arguments
@@ -207,7 +233,7 @@ Install/Uninstall a module from a localization file
 
 
 
-### installConfiguration
+### <a name="method-installConfiguration"></a>installConfiguration
 
     boolean LocalizationPackCore::installConfiguration(\SimpleXMLElement $xml)
 
@@ -218,7 +244,7 @@ Update a configuration variable from a localization file
 
 
 * Visibility: **protected**
-* This method is defined in [classes/LocalizationPack.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#429)
+* This method is defined in [classes/LocalizationPack.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L429)
 
 
 #### Arguments
@@ -226,7 +252,7 @@ Update a configuration variable from a localization file
 
 
 
-### _installGroups
+### <a name="method-_installGroups"></a>_installGroups
 
     boolean LocalizationPackCore::_installGroups(\SimpleXMLElement $xml)
 
@@ -235,7 +261,7 @@ Update a configuration variable from a localization file
 
 
 * Visibility: **protected**
-* This method is defined in [classes/LocalizationPack.php line 452](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#452)
+* This method is defined in [classes/LocalizationPack.php line 452](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L452)
 
 
 #### Arguments
@@ -243,7 +269,7 @@ Update a configuration variable from a localization file
 
 
 
-### updateDefaultGroupDisplayMethod
+### <a name="method-updateDefaultGroupDisplayMethod"></a>updateDefaultGroupDisplayMethod
 
     boolean LocalizationPackCore::updateDefaultGroupDisplayMethod(\SimpleXMLElement $xml)
 
@@ -252,7 +278,7 @@ Update a configuration variable from a localization file
 
 
 * Visibility: **protected**
-* This method is defined in [classes/LocalizationPack.php line 461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#461)
+* This method is defined in [classes/LocalizationPack.php line 461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L461)
 
 
 #### Arguments
@@ -260,7 +286,7 @@ Update a configuration variable from a localization file
 
 
 
-### getErrors
+### <a name="method-getErrors"></a>getErrors
 
     mixed LocalizationPackCore::getErrors()
 
@@ -269,7 +295,7 @@ Update a configuration variable from a localization file
 
 
 * Visibility: **public**
-* This method is defined in [classes/LocalizationPack.php line 483](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#483)
+* This method is defined in [classes/LocalizationPack.php line 483](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L483)
 
 
 

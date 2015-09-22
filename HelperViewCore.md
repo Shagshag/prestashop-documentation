@@ -17,8 +17,25 @@ HelperViewCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$toolbar](#property-$toolbar)
+* [$table](#property-$table)
+* [$token](#property-$token)
+* [$title](#property-$title)
 
-### $id
+Methods
+-------
+* [__construct](#method-__construct)
+* [generateView](#method-generateView)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +44,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperView.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#29)
+* This property is defined in [classes/helper/HelperView.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L29)
 
 
-### $toolbar
+### <a name="property-$toolbar"></a>$toolbar
 
     public mixed $toolbar = true
 
@@ -39,10 +56,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperView.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#30)
+* This property is defined in [classes/helper/HelperView.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L30)
 
 
-### $table
+### <a name="property-$table"></a>$table
 
     public mixed $table
 
@@ -51,10 +68,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperView.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#31)
+* This property is defined in [classes/helper/HelperView.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L31)
 
 
-### $token
+### <a name="property-$token"></a>$token
 
     public mixed $token
 
@@ -63,10 +80,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperView.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#32)
+* This property is defined in [classes/helper/HelperView.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L32)
 
 
-### $title
+### <a name="property-$title"></a>$title
 
     public string $title = null
 
@@ -75,14 +92,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperView.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#35)
+* This property is defined in [classes/helper/HelperView.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L35)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed HelperViewCore::__construct()
 
@@ -91,12 +108,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperView.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#37)
+* This method is defined in [classes/helper/HelperView.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L37)
 
 
 
 
-### generateView
+### <a name="method-generateView"></a>generateView
 
     mixed HelperViewCore::generateView()
 
@@ -105,7 +122,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperView.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#44)
+* This method is defined in [classes/helper/HelperView.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L44)
 
 
 

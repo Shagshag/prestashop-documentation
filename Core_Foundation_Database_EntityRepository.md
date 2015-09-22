@@ -30,8 +30,35 @@ needs please refer to http://www.prestashop.com for more information.
 Properties
 ----------
 
+* [$entityManager](#property-$entityManager)
+* [$db](#property-$db)
+* [$tablesPrefix](#property-$tablesPrefix)
+* [$entityMetaData](#property-$entityMetaData)
+* [$queryBuilder](#property-$queryBuilder)
 
-### $entityManager
+Methods
+-------
+* [__construct](#method-__construct)
+* [__call](#method-__call)
+* [convertToDbFieldName](#method-convertToDbFieldName)
+* [getIdFieldName](#method-getIdFieldName)
+* [getTableNameWithPrefix](#method-getTableNameWithPrefix)
+* [getPrefix](#method-getPrefix)
+* [getNewEntity](#method-getNewEntity)
+* [hydrateOne](#method-hydrateOne)
+* [hydrateMany](#method-hydrateMany)
+* [doFind](#method-doFind)
+* [findOne](#method-findOne)
+* [findAll](#method-findAll)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$entityManager"></a>$entityManager
 
     protected mixed $entityManager
 
@@ -40,10 +67,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#29)
+* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L29)
 
 
-### $db
+### <a name="property-$db"></a>$db
 
     protected mixed $db
 
@@ -52,10 +79,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#30)
+* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L30)
 
 
-### $tablesPrefix
+### <a name="property-$tablesPrefix"></a>$tablesPrefix
 
     protected mixed $tablesPrefix
 
@@ -64,10 +91,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#31)
+* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L31)
 
 
-### $entityMetaData
+### <a name="property-$entityMetaData"></a>$entityMetaData
 
     protected mixed $entityMetaData
 
@@ -76,10 +103,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#32)
+* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L32)
 
 
-### $queryBuilder
+### <a name="property-$queryBuilder"></a>$queryBuilder
 
     protected mixed $queryBuilder
 
@@ -88,14 +115,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#33)
+* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L33)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed Core_Foundation_Database_EntityRepository::__construct(\Core_Foundation_Database_EntityManager $entityManager, $tablesPrefix, \Core_Foundation_Database_EntityMetaData $entityMetaData)
 
@@ -104,7 +131,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#35)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L35)
 
 
 #### Arguments
@@ -114,7 +141,7 @@ Methods
 
 
 
-### __call
+### <a name="method-__call"></a>__call
 
     mixed Core_Foundation_Database_EntityRepository::__call($method, $arguments)
 
@@ -123,7 +150,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#47)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L47)
 
 
 #### Arguments
@@ -132,7 +159,7 @@ Methods
 
 
 
-### convertToDbFieldName
+### <a name="method-convertToDbFieldName"></a>convertToDbFieldName
 
     string Core_Foundation_Database_EntityRepository::convertToDbFieldName($camel_case_field_name)
 
@@ -142,7 +169,7 @@ e.g.: findAllByIdCMS => id_cms
 
 
 * Visibility: **private**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#80)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L80)
 
 
 #### Arguments
@@ -150,7 +177,7 @@ e.g.: findAllByIdCMS => id_cms
 
 
 
-### getIdFieldName
+### <a name="method-getIdFieldName"></a>getIdFieldName
 
     mixed Core_Foundation_Database_EntityRepository::getIdFieldName()
 
@@ -159,12 +186,12 @@ Return ID field name
 
 
 * Visibility: **protected**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#90)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L90)
 
 
 
 
-### getTableNameWithPrefix
+### <a name="method-getTableNameWithPrefix"></a>getTableNameWithPrefix
 
     mixed Core_Foundation_Database_EntityRepository::getTableNameWithPrefix()
 
@@ -173,12 +200,12 @@ Returns escaped+prefixed current table name
 
 
 * Visibility: **protected**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#117)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L117)
 
 
 
 
-### getPrefix
+### <a name="method-getPrefix"></a>getPrefix
 
     mixed Core_Foundation_Database_EntityRepository::getPrefix()
 
@@ -187,12 +214,12 @@ Returns escaped DB table prefix
 
 
 * Visibility: **protected**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#126)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L126)
 
 
 
 
-### getNewEntity
+### <a name="method-getNewEntity"></a>getNewEntity
 
     mixed Core_Foundation_Database_EntityRepository::getNewEntity()
 
@@ -201,12 +228,12 @@ Return a new empty Entity depending on current Repository selected
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#135)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L135)
 
 
 
 
-### hydrateOne
+### <a name="method-hydrateOne"></a>hydrateOne
 
     mixed Core_Foundation_Database_EntityRepository::hydrateOne(array $rows)
 
@@ -217,7 +244,7 @@ Null is returned when there are no rows, and an exception is thrown
 if there are too many rows.
 
 * Visibility: **protected**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#150)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L150)
 
 
 #### Arguments
@@ -225,7 +252,7 @@ if there are too many rows.
 
 
 
-### hydrateMany
+### <a name="method-hydrateMany"></a>hydrateMany
 
     mixed Core_Foundation_Database_EntityRepository::hydrateMany(array $rows)
 
@@ -234,7 +261,7 @@ if there are too many rows.
 
 
 * Visibility: **protected**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#164)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L164)
 
 
 #### Arguments
@@ -242,7 +269,7 @@ if there are too many rows.
 
 
 
-### doFind
+### <a name="method-doFind"></a>doFind
 
     array|mixed|null Core_Foundation_Database_EntityRepository::doFind($one, array $cumulativeConditions)
 
@@ -251,7 +278,7 @@ Constructs and performs 'SELECT' in DB
 
 
 * Visibility: **private**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#182)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L182)
 
 
 #### Arguments
@@ -260,7 +287,7 @@ Constructs and performs 'SELECT' in DB
 
 
 
-### findOne
+### <a name="method-findOne"></a>findOne
 
     array|mixed|null Core_Foundation_Database_EntityRepository::findOne($id)
 
@@ -269,7 +296,7 @@ Find one entity in DB
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#203)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L203)
 
 
 #### Arguments
@@ -277,7 +304,7 @@ Find one entity in DB
 
 
 
-### findAll
+### <a name="method-findAll"></a>findAll
 
     array Core_Foundation_Database_EntityRepository::findAll()
 
@@ -286,7 +313,7 @@ Find all entities in DB
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#215)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php line 215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityRepository.php#L215)
 
 
 

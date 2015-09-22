@@ -17,8 +17,26 @@ AdminTaxesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [displayDeleteLink](#method-displayDeleteLink)
+* [displayEnableLink](#method-displayEnableLink)
+* [renderForm](#method-renderForm)
+* [postProcess](#method-postProcess)
+* [updateOptionPsUseEcotax](#method-updateOptionPsUseEcotax)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Tax $object
 
@@ -27,14 +45,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminTaxesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#30)
+* This property is defined in [controllers/admin/AdminTaxesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminTaxesControllerCore::__construct()
 
@@ -43,12 +61,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#32)
+* This method is defined in [controllers/admin/AdminTaxesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#L32)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminTaxesControllerCore::initPageHeaderToolbar()
 
@@ -57,12 +75,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxesController.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#117)
+* This method is defined in [controllers/admin/AdminTaxesController.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#L117)
 
 
 
 
-### displayDeleteLink
+### <a name="method-displayDeleteLink"></a>displayDeleteLink
 
     string AdminTaxesControllerCore::displayDeleteLink(string|null $token, integer $id)
 
@@ -71,7 +89,7 @@ Display delete action link
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxesController.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#140)
+* This method is defined in [controllers/admin/AdminTaxesController.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#L140)
 
 
 #### Arguments
@@ -80,7 +98,7 @@ Display delete action link
 
 
 
-### displayEnableLink
+### <a name="method-displayEnableLink"></a>displayEnableLink
 
     mixed AdminTaxesControllerCore::displayEnableLink(string $token, integer $id, integer $value, string $active, integer $id_category, integer $id_product)
 
@@ -89,7 +107,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxesController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#173)
+* This method is defined in [controllers/admin/AdminTaxesController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#L173)
 
 
 #### Arguments
@@ -102,7 +120,7 @@ Fetch the template for action enable
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminTaxesControllerCore::renderForm()
 
@@ -111,12 +129,12 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxesController.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#189)
+* This method is defined in [controllers/admin/AdminTaxesController.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#L189)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminTaxesControllerCore::postProcess()
 
@@ -125,12 +143,12 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxesController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#241)
+* This method is defined in [controllers/admin/AdminTaxesController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#L241)
 
 
 
 
-### updateOptionPsUseEcotax
+### <a name="method-updateOptionPsUseEcotax"></a>updateOptionPsUseEcotax
 
     mixed AdminTaxesControllerCore::updateOptionPsUseEcotax($value)
 
@@ -139,7 +157,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTaxesController.php line 284](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#284)
+* This method is defined in [controllers/admin/AdminTaxesController.php line 284](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#L284)
 
 
 #### Arguments

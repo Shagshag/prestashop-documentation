@@ -17,8 +17,24 @@ StatisticsControllerCore
 Properties
 ----------
 
+* [$display_header](#property-$display_header)
+* [$display_footer](#property-$display_footer)
+* [$param_token](#property-$param_token)
 
-### $display_header
+Methods
+-------
+* [postProcess](#method-postProcess)
+* [processNavigationStats](#method-processNavigationStats)
+* [processPageTime](#method-processPageTime)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$display_header"></a>$display_header
 
     public mixed $display_header = false
 
@@ -27,10 +43,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/StatisticsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#29)
+* This property is defined in [controllers/front/StatisticsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L29)
 
 
-### $display_footer
+### <a name="property-$display_footer"></a>$display_footer
 
     public mixed $display_footer = false
 
@@ -39,10 +55,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/StatisticsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#30)
+* This property is defined in [controllers/front/StatisticsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L30)
 
 
-### $param_token
+### <a name="property-$param_token"></a>$param_token
 
     protected mixed $param_token
 
@@ -51,14 +67,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/StatisticsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#32)
+* This property is defined in [controllers/front/StatisticsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L32)
 
 
 Methods
 -------
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed StatisticsControllerCore::postProcess()
 
@@ -67,12 +83,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/StatisticsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#34)
+* This method is defined in [controllers/front/StatisticsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L34)
 
 
 
 
-### processNavigationStats
+### <a name="method-processNavigationStats"></a>processNavigationStats
 
     mixed StatisticsControllerCore::processNavigationStats()
 
@@ -81,12 +97,12 @@ Log statistics on navigation (resolution, plugins, etc.)
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/StatisticsController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#53)
+* This method is defined in [controllers/front/StatisticsController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L53)
 
 
 
 
-### processPageTime
+### <a name="method-processPageTime"></a>processPageTime
 
     mixed StatisticsControllerCore::processPageTime()
 
@@ -95,7 +111,7 @@ Log statistics on time spend on pages
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/StatisticsController.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#77)
+* This method is defined in [controllers/front/StatisticsController.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#L77)
 
 
 

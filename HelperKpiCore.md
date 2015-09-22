@@ -17,8 +17,33 @@ HelperKpiCore
 Properties
 ----------
 
+* [$base_folder](#property-$base_folder)
+* [$base_tpl](#property-$base_tpl)
+* [$id](#property-$id)
+* [$icon](#property-$icon)
+* [$chart](#property-$chart)
+* [$color](#property-$color)
+* [$title](#property-$title)
+* [$subtitle](#property-$subtitle)
+* [$value](#property-$value)
+* [$data](#property-$data)
+* [$source](#property-$source)
+* [$refresh](#property-$refresh)
+* [$href](#property-$href)
+* [$tooltip](#property-$tooltip)
 
-### $base_folder
+Methods
+-------
+* [generate](#method-generate)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$base_folder"></a>$base_folder
 
     public mixed $base_folder = 'helpers/kpi/'
 
@@ -27,10 +52,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#29)
+* This property is defined in [classes/helper/HelperKpi.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L29)
 
 
-### $base_tpl
+### <a name="property-$base_tpl"></a>$base_tpl
 
     public mixed $base_tpl = 'kpi.tpl'
 
@@ -39,10 +64,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#30)
+* This property is defined in [classes/helper/HelperKpi.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L30)
 
 
-### $id
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -51,10 +76,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#32)
+* This property is defined in [classes/helper/HelperKpi.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L32)
 
 
-### $icon
+### <a name="property-$icon"></a>$icon
 
     public mixed $icon
 
@@ -63,10 +88,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#33)
+* This property is defined in [classes/helper/HelperKpi.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L33)
 
 
-### $chart
+### <a name="property-$chart"></a>$chart
 
     public mixed $chart
 
@@ -75,10 +100,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#34)
+* This property is defined in [classes/helper/HelperKpi.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L34)
 
 
-### $color
+### <a name="property-$color"></a>$color
 
     public mixed $color
 
@@ -87,10 +112,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#35)
+* This property is defined in [classes/helper/HelperKpi.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L35)
 
 
-### $title
+### <a name="property-$title"></a>$title
 
     public mixed $title
 
@@ -99,10 +124,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#36)
+* This property is defined in [classes/helper/HelperKpi.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L36)
 
 
-### $subtitle
+### <a name="property-$subtitle"></a>$subtitle
 
     public mixed $subtitle
 
@@ -111,10 +136,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#37)
+* This property is defined in [classes/helper/HelperKpi.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L37)
 
 
-### $value
+### <a name="property-$value"></a>$value
 
     public mixed $value
 
@@ -123,10 +148,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#38)
+* This property is defined in [classes/helper/HelperKpi.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L38)
 
 
-### $data
+### <a name="property-$data"></a>$data
 
     public mixed $data
 
@@ -135,10 +160,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#39)
+* This property is defined in [classes/helper/HelperKpi.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L39)
 
 
-### $source
+### <a name="property-$source"></a>$source
 
     public mixed $source
 
@@ -147,10 +172,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#40)
+* This property is defined in [classes/helper/HelperKpi.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L40)
 
 
-### $refresh
+### <a name="property-$refresh"></a>$refresh
 
     public mixed $refresh = true
 
@@ -159,10 +184,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#41)
+* This property is defined in [classes/helper/HelperKpi.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L41)
 
 
-### $href
+### <a name="property-$href"></a>$href
 
     public mixed $href
 
@@ -171,10 +196,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#42)
+* This property is defined in [classes/helper/HelperKpi.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L42)
 
 
-### $tooltip
+### <a name="property-$tooltip"></a>$tooltip
 
     public mixed $tooltip
 
@@ -183,14 +208,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/HelperKpi.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#43)
+* This property is defined in [classes/helper/HelperKpi.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L43)
 
 
 Methods
 -------
 
 
-### generate
+### <a name="method-generate"></a>generate
 
     mixed HelperKpiCore::generate()
 
@@ -199,7 +224,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperKpi.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#45)
+* This method is defined in [classes/helper/HelperKpi.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#L45)
 
 
 

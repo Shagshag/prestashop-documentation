@@ -18,9 +18,18 @@ AttachmentControllerCore
 
 Methods
 -------
+* [postProcess](#method-postProcess)
 
 
-### postProcess
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-postProcess"></a>postProcess
 
     mixed AttachmentControllerCore::postProcess()
 
@@ -29,7 +38,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/AttachmentController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AttachmentController.php#29)
+* This method is defined in [controllers/front/AttachmentController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AttachmentController.php#L29)
 
 
 

@@ -16,8 +16,24 @@ FileUploaderCore
 Properties
 ----------
 
+* [$allowedExtensions](#property-$allowedExtensions)
+* [$file](#property-$file)
+* [$sizeLimit](#property-$sizeLimit)
 
-### $allowedExtensions
+Methods
+-------
+* [__construct](#method-__construct)
+* [toBytes](#method-toBytes)
+* [handleUpload](#method-handleUpload)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$allowedExtensions"></a>$allowedExtensions
 
     protected mixed $allowedExtensions = array()
 
@@ -26,10 +42,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/FileUploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#29)
+* This property is defined in [classes/FileUploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L29)
 
 
-### $file
+### <a name="property-$file"></a>$file
 
     protected \QqUploadedFileXhr $file
 
@@ -38,10 +54,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/FileUploader.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#32)
+* This property is defined in [classes/FileUploader.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L32)
 
 
-### $sizeLimit
+### <a name="property-$sizeLimit"></a>$sizeLimit
 
     protected mixed $sizeLimit
 
@@ -50,14 +66,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/FileUploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#33)
+* This property is defined in [classes/FileUploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L33)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed FileUploaderCore::__construct(array $allowedExtensions, $sizeLimit)
 
@@ -66,7 +82,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/FileUploader.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#35)
+* This method is defined in [classes/FileUploader.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L35)
 
 
 #### Arguments
@@ -75,7 +91,7 @@ Methods
 
 
 
-### toBytes
+### <a name="method-toBytes"></a>toBytes
 
     mixed FileUploaderCore::toBytes($str)
 
@@ -84,7 +100,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/FileUploader.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#51)
+* This method is defined in [classes/FileUploader.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L51)
 
 
 #### Arguments
@@ -92,7 +108,7 @@ Methods
 
 
 
-### handleUpload
+### <a name="method-handleUpload"></a>handleUpload
 
     mixed FileUploaderCore::handleUpload()
 
@@ -101,7 +117,7 @@ Returns array('success'=>true) or array('error'=>'error message')
 
 
 * Visibility: **public**
-* This method is defined in [classes/FileUploader.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#66)
+* This method is defined in [classes/FileUploader.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L66)
 
 
 

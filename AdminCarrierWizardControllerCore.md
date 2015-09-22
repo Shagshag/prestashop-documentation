@@ -17,8 +17,50 @@ AdminCarrierWizardControllerCore
 Properties
 ----------
 
+* [$wizard_access](#property-$wizard_access)
+* [$object](#property-$object)
 
-### $wizard_access
+Methods
+-------
+* [__construct](#method-__construct)
+* [setMedia](#method-setMedia)
+* [initWizard](#method-initWizard)
+* [renderView](#method-renderView)
+* [initBreadcrumbs](#method-initBreadcrumbs)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderStepOne](#method-renderStepOne)
+* [renderStepTwo](#method-renderStepTwo)
+* [renderStepThree](#method-renderStepThree)
+* [renderStepFour](#method-renderStepFour)
+* [renderStepFive](#method-renderStepFive)
+* [getTplRangesVarsAndValues](#method-getTplRangesVarsAndValues)
+* [renderGenericForm](#method-renderGenericForm)
+* [getStepOneFieldsValues](#method-getStepOneFieldsValues)
+* [getStepTwoFieldsValues](#method-getStepTwoFieldsValues)
+* [getStepThreeFieldsValues](#method-getStepThreeFieldsValues)
+* [getStepFourFieldsValues](#method-getStepFourFieldsValues)
+* [getStepFiveFieldsValues](#method-getStepFiveFieldsValues)
+* [ajaxProcessChangeRanges](#method-ajaxProcessChangeRanges)
+* [validateForm](#method-validateForm)
+* [ajaxProcessValidateStep](#method-ajaxProcessValidateStep)
+* [processRanges](#method-processRanges)
+* [ajaxProcessUploadLogo](#method-ajaxProcessUploadLogo)
+* [ajaxProcessFinishStep](#method-ajaxProcessFinishStep)
+* [changeGroups](#method-changeGroups)
+* [changeZones](#method-changeZones)
+* [getValidationRules](#method-getValidationRules)
+* [displayFieldName](#method-displayFieldName)
+* [duplicateLogo](#method-duplicateLogo)
+* [getActualCurrency](#method-getActualCurrency)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$wizard_access"></a>$wizard_access
 
     protected mixed $wizard_access
 
@@ -27,10 +69,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminCarrierWizardController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#32)
+* This property is defined in [controllers/admin/AdminCarrierWizardController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L32)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Carrier $object
 
@@ -39,14 +81,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminCarrierWizardController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#30)
+* This property is defined in [controllers/admin/AdminCarrierWizardController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminCarrierWizardControllerCore::__construct()
 
@@ -55,12 +97,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#34)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L34)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminCarrierWizardControllerCore::setMedia()
 
@@ -69,12 +111,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#59)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L59)
 
 
 
 
-### initWizard
+### <a name="method-initWizard"></a>initWizard
 
     mixed AdminCarrierWizardControllerCore::initWizard()
 
@@ -83,12 +125,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#67)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L67)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminCarrierWizardControllerCore::renderView()
 
@@ -97,12 +139,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#97)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L97)
 
 
 
 
-### initBreadcrumbs
+### <a name="method-initBreadcrumbs"></a>initBreadcrumbs
 
     mixed AdminCarrierWizardControllerCore::initBreadcrumbs($tab_id, $tabs)
 
@@ -111,7 +153,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#150)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L150)
 
 
 #### Arguments
@@ -120,7 +162,7 @@ Methods
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminCarrierWizardControllerCore::initPageHeaderToolbar()
 
@@ -129,12 +171,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#163)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L163)
 
 
 
 
-### renderStepOne
+### <a name="method-renderStepOne"></a>renderStepOne
 
     mixed AdminCarrierWizardControllerCore::renderStepOne($carrier)
 
@@ -143,7 +185,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#173)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L173)
 
 
 #### Arguments
@@ -151,7 +193,7 @@ Methods
 
 
 
-### renderStepTwo
+### <a name="method-renderStepTwo"></a>renderStepTwo
 
     mixed AdminCarrierWizardControllerCore::renderStepTwo($carrier)
 
@@ -160,7 +202,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#227)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L227)
 
 
 #### Arguments
@@ -168,7 +210,7 @@ Methods
 
 
 
-### renderStepThree
+### <a name="method-renderStepThree"></a>renderStepThree
 
     mixed AdminCarrierWizardControllerCore::renderStepThree($carrier)
 
@@ -177,7 +219,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#246)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L246)
 
 
 #### Arguments
@@ -185,7 +227,7 @@ Methods
 
 
 
-### renderStepFour
+### <a name="method-renderStepFour"></a>renderStepFour
 
     string AdminCarrierWizardControllerCore::renderStepFour(\Carrier $carrier)
 
@@ -194,7 +236,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 376](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#376)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 376](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L376)
 
 
 #### Arguments
@@ -202,7 +244,7 @@ Methods
 
 
 
-### renderStepFive
+### <a name="method-renderStepFive"></a>renderStepFive
 
     mixed AdminCarrierWizardControllerCore::renderStepFive($carrier)
 
@@ -211,7 +253,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#440)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L440)
 
 
 #### Arguments
@@ -219,7 +261,7 @@ Methods
 
 
 
-### getTplRangesVarsAndValues
+### <a name="method-getTplRangesVarsAndValues"></a>getTplRangesVarsAndValues
 
     mixed AdminCarrierWizardControllerCore::getTplRangesVarsAndValues(\Carrier $carrier, array $tpl_vars, array $fields_value)
 
@@ -228,7 +270,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 486](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#486)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 486](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L486)
 
 
 #### Arguments
@@ -238,7 +280,7 @@ Methods
 
 
 
-### renderGenericForm
+### <a name="method-renderGenericForm"></a>renderGenericForm
 
     mixed AdminCarrierWizardControllerCore::renderGenericForm($fields_form, $fields_value, $tpl_vars)
 
@@ -247,7 +289,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 532](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#532)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 532](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L532)
 
 
 #### Arguments
@@ -257,7 +299,7 @@ Methods
 
 
 
-### getStepOneFieldsValues
+### <a name="method-getStepOneFieldsValues"></a>getStepOneFieldsValues
 
     mixed AdminCarrierWizardControllerCore::getStepOneFieldsValues($carrier)
 
@@ -266,7 +308,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 553](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#553)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 553](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L553)
 
 
 #### Arguments
@@ -274,7 +316,7 @@ Methods
 
 
 
-### getStepTwoFieldsValues
+### <a name="method-getStepTwoFieldsValues"></a>getStepTwoFieldsValues
 
     mixed AdminCarrierWizardControllerCore::getStepTwoFieldsValues($carrier)
 
@@ -283,7 +325,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 564](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#564)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 564](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L564)
 
 
 #### Arguments
@@ -291,7 +333,7 @@ Methods
 
 
 
-### getStepThreeFieldsValues
+### <a name="method-getStepThreeFieldsValues"></a>getStepThreeFieldsValues
 
     mixed AdminCarrierWizardControllerCore::getStepThreeFieldsValues($carrier)
 
@@ -300,7 +342,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 569](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#569)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 569](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L569)
 
 
 #### Arguments
@@ -308,7 +350,7 @@ Methods
 
 
 
-### getStepFourFieldsValues
+### <a name="method-getStepFourFieldsValues"></a>getStepFourFieldsValues
 
     mixed AdminCarrierWizardControllerCore::getStepFourFieldsValues($carrier)
 
@@ -317,7 +359,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 585](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#585)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 585](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L585)
 
 
 #### Arguments
@@ -325,7 +367,7 @@ Methods
 
 
 
-### getStepFiveFieldsValues
+### <a name="method-getStepFiveFieldsValues"></a>getStepFiveFieldsValues
 
     mixed AdminCarrierWizardControllerCore::getStepFiveFieldsValues($carrier)
 
@@ -334,7 +376,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 597](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#597)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 597](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L597)
 
 
 #### Arguments
@@ -342,7 +384,7 @@ Methods
 
 
 
-### ajaxProcessChangeRanges
+### <a name="method-ajaxProcessChangeRanges"></a>ajaxProcessChangeRanges
 
     mixed AdminCarrierWizardControllerCore::ajaxProcessChangeRanges()
 
@@ -351,12 +393,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 602](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#602)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 602](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L602)
 
 
 
 
-### validateForm
+### <a name="method-validateForm"></a>validateForm
 
     mixed AdminCarrierWizardControllerCore::validateForm($die)
 
@@ -365,7 +407,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 633](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#633)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 633](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L633)
 
 
 #### Arguments
@@ -373,7 +415,7 @@ Methods
 
 
 
-### ajaxProcessValidateStep
+### <a name="method-ajaxProcessValidateStep"></a>ajaxProcessValidateStep
 
     mixed AdminCarrierWizardControllerCore::ajaxProcessValidateStep()
 
@@ -382,12 +424,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 661](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#661)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 661](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L661)
 
 
 
 
-### processRanges
+### <a name="method-processRanges"></a>processRanges
 
     mixed AdminCarrierWizardControllerCore::processRanges($id_carrier)
 
@@ -396,7 +438,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 666](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#666)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 666](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L666)
 
 
 #### Arguments
@@ -404,7 +446,7 @@ Methods
 
 
 
-### ajaxProcessUploadLogo
+### <a name="method-ajaxProcessUploadLogo"></a>ajaxProcessUploadLogo
 
     mixed AdminCarrierWizardControllerCore::ajaxProcessUploadLogo()
 
@@ -413,12 +455,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 739](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#739)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 739](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L739)
 
 
 
 
-### ajaxProcessFinishStep
+### <a name="method-ajaxProcessFinishStep"></a>ajaxProcessFinishStep
 
     mixed AdminCarrierWizardControllerCore::ajaxProcessFinishStep()
 
@@ -427,12 +469,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 767](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#767)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 767](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L767)
 
 
 
 
-### changeGroups
+### <a name="method-changeGroups"></a>changeGroups
 
     mixed AdminCarrierWizardControllerCore::changeGroups($id_carrier, $delete)
 
@@ -441,7 +483,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 873](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#873)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 873](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L873)
 
 
 #### Arguments
@@ -450,7 +492,7 @@ Methods
 
 
 
-### changeZones
+### <a name="method-changeZones"></a>changeZones
 
     mixed AdminCarrierWizardControllerCore::changeZones($id)
 
@@ -459,7 +501,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 883](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#883)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 883](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L883)
 
 
 #### Arguments
@@ -467,7 +509,7 @@ Methods
 
 
 
-### getValidationRules
+### <a name="method-getValidationRules"></a>getValidationRules
 
     mixed AdminCarrierWizardControllerCore::getValidationRules()
 
@@ -476,12 +518,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 904](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#904)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 904](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L904)
 
 
 
 
-### displayFieldName
+### <a name="method-displayFieldName"></a>displayFieldName
 
     mixed AdminCarrierWizardControllerCore::displayFieldName($field)
 
@@ -491,7 +533,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 937](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#937)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 937](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L937)
 
 
 #### Arguments
@@ -499,7 +541,7 @@ Methods
 
 
 
-### duplicateLogo
+### <a name="method-duplicateLogo"></a>duplicateLogo
 
     mixed AdminCarrierWizardControllerCore::duplicateLogo($new_id, $old_id)
 
@@ -508,7 +550,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 942](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#942)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 942](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L942)
 
 
 #### Arguments
@@ -517,7 +559,7 @@ Methods
 
 
 
-### getActualCurrency
+### <a name="method-getActualCurrency"></a>getActualCurrency
 
     mixed AdminCarrierWizardControllerCore::getActualCurrency()
 
@@ -526,7 +568,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 958](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#958)
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 958](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L958)
 
 
 

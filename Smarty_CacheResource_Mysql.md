@@ -18,9 +18,21 @@ Smarty_CacheResource_Mysql
 
 Methods
 -------
+* [fetch](#method-fetch)
+* [fetchTimestamp](#method-fetchTimestamp)
+* [save](#method-save)
+* [delete](#method-delete)
 
 
-### fetch
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-fetch"></a>fetch
 
     void Smarty_CacheResource_Mysql::fetch(string $id, string $name, string $cache_id, string $compile_id, string $content, integer $mtime)
 
@@ -29,7 +41,7 @@ fetch cached content and its modification time from data source
 
 
 * Visibility: **protected**
-* This method is defined in [classes/SmartyCacheResourceMysql.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCacheResourceMysql.php#42)
+* This method is defined in [classes/SmartyCacheResourceMysql.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCacheResourceMysql.php#L42)
 
 
 #### Arguments
@@ -42,7 +54,7 @@ fetch cached content and its modification time from data source
 
 
 
-### fetchTimestamp
+### <a name="method-fetchTimestamp"></a>fetchTimestamp
 
     integer|boolean Smarty_CacheResource_Mysql::fetchTimestamp(string $id, string $name, string $cache_id, string $compile_id)
 
@@ -51,7 +63,7 @@ Fetch cached content's modification timestamp from data source
 
 
 * Visibility: **protected**
-* This method is defined in [classes/SmartyCacheResourceMysql.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCacheResourceMysql.php#64)
+* This method is defined in [classes/SmartyCacheResourceMysql.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCacheResourceMysql.php#L64)
 
 
 #### Arguments
@@ -62,7 +74,7 @@ Fetch cached content's modification timestamp from data source
 
 
 
-### save
+### <a name="method-save"></a>save
 
     boolean Smarty_CacheResource_Mysql::save(string $id, string $name, string $cache_id, string $compile_id, integer|null $exp_time, string $content)
 
@@ -71,7 +83,7 @@ Save content to cache
 
 
 * Visibility: **protected**
-* This method is defined in [classes/SmartyCacheResourceMysql.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCacheResourceMysql.php#82)
+* This method is defined in [classes/SmartyCacheResourceMysql.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCacheResourceMysql.php#L82)
 
 
 #### Arguments
@@ -84,7 +96,7 @@ Save content to cache
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     integer Smarty_CacheResource_Mysql::delete(string $name, string $cache_id, string $compile_id, integer|null $exp_time)
 
@@ -93,7 +105,7 @@ Delete content from cache
 
 
 * Visibility: **protected**
-* This method is defined in [classes/SmartyCacheResourceMysql.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCacheResourceMysql.php#105)
+* This method is defined in [classes/SmartyCacheResourceMysql.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCacheResourceMysql.php#L105)
 
 
 #### Arguments

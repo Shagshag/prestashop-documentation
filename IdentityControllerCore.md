@@ -17,8 +17,27 @@ IdentityControllerCore
 Properties
 ----------
 
+* [$auth](#property-$auth)
+* [$php_self](#property-$php_self)
+* [$authRedirection](#property-$authRedirection)
+* [$ssl](#property-$ssl)
+* [$customer](#property-$customer)
 
-### $auth
+Methods
+-------
+* [init](#method-init)
+* [postProcess](#method-postProcess)
+* [initContent](#method-initContent)
+* [setMedia](#method-setMedia)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$auth"></a>$auth
 
     public mixed $auth = true
 
@@ -27,10 +46,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/IdentityController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#29)
+* This property is defined in [controllers/front/IdentityController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#L29)
 
 
-### $php_self
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'identity'
 
@@ -39,10 +58,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/IdentityController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#30)
+* This property is defined in [controllers/front/IdentityController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#L30)
 
 
-### $authRedirection
+### <a name="property-$authRedirection"></a>$authRedirection
 
     public mixed $authRedirection = 'identity'
 
@@ -51,10 +70,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/IdentityController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#31)
+* This property is defined in [controllers/front/IdentityController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#L31)
 
 
-### $ssl
+### <a name="property-$ssl"></a>$ssl
 
     public mixed $ssl = true
 
@@ -63,10 +82,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/IdentityController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#32)
+* This property is defined in [controllers/front/IdentityController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#L32)
 
 
-### $customer
+### <a name="property-$customer"></a>$customer
 
     protected \Customer $customer
 
@@ -75,14 +94,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/IdentityController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#35)
+* This property is defined in [controllers/front/IdentityController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#L35)
 
 
 Methods
 -------
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed IdentityControllerCore::init()
 
@@ -91,12 +110,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/IdentityController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#37)
+* This method is defined in [controllers/front/IdentityController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#L37)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed IdentityControllerCore::postProcess()
 
@@ -105,12 +124,12 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/IdentityController.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#47)
+* This method is defined in [controllers/front/IdentityController.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#L47)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed IdentityControllerCore::initContent()
 
@@ -119,12 +138,12 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/IdentityController.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#125)
+* This method is defined in [controllers/front/IdentityController.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#L125)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed IdentityControllerCore::setMedia()
 
@@ -133,7 +152,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/IdentityController.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#161)
+* This method is defined in [controllers/front/IdentityController.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/IdentityController.php#L161)
 
 
 

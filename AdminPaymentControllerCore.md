@@ -17,8 +17,29 @@ AdminPaymentControllerCore
 Properties
 ----------
 
+* [$payment_modules](#property-$payment_modules)
 
-### $payment_modules
+Methods
+-------
+* [__construct](#method-__construct)
+* [initToolbarTitle](#method-initToolbarTitle)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [postProcess](#method-postProcess)
+* [initProcess](#method-initProcess)
+* [saveRestrictions](#method-saveRestrictions)
+* [initContent](#method-initContent)
+* [setMedia](#method-setMedia)
+* [renderView](#method-renderView)
+* [renderModulesList](#method-renderModulesList)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$payment_modules"></a>$payment_modules
 
     public mixed $payment_modules = array()
 
@@ -27,14 +48,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminPaymentController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#29)
+* This property is defined in [controllers/admin/AdminPaymentController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L29)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminPaymentControllerCore::__construct()
 
@@ -43,12 +64,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPaymentController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#31)
+* This method is defined in [controllers/admin/AdminPaymentController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L31)
 
 
 
 
-### initToolbarTitle
+### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
     mixed AdminPaymentControllerCore::initToolbarTitle()
 
@@ -57,12 +78,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPaymentController.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#90)
+* This method is defined in [controllers/admin/AdminPaymentController.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L90)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminPaymentControllerCore::initPageHeaderToolbar()
 
@@ -71,12 +92,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPaymentController.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#95)
+* This method is defined in [controllers/admin/AdminPaymentController.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L95)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminPaymentControllerCore::postProcess()
 
@@ -85,12 +106,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPaymentController.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#101)
+* This method is defined in [controllers/admin/AdminPaymentController.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L101)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminPaymentControllerCore::initProcess()
 
@@ -99,12 +120,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPaymentController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#111)
+* This method is defined in [controllers/admin/AdminPaymentController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L111)
 
 
 
 
-### saveRestrictions
+### <a name="method-saveRestrictions"></a>saveRestrictions
 
     mixed AdminPaymentControllerCore::saveRestrictions($type)
 
@@ -113,7 +134,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminPaymentController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#127)
+* This method is defined in [controllers/admin/AdminPaymentController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L127)
 
 
 #### Arguments
@@ -121,7 +142,7 @@ Methods
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminPaymentControllerCore::initContent()
 
@@ -130,12 +151,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPaymentController.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#163)
+* This method is defined in [controllers/admin/AdminPaymentController.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L163)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminPaymentControllerCore::setMedia()
 
@@ -144,12 +165,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPaymentController.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#169)
+* This method is defined in [controllers/admin/AdminPaymentController.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L169)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminPaymentControllerCore::renderView()
 
@@ -158,12 +179,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPaymentController.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#175)
+* This method is defined in [controllers/admin/AdminPaymentController.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L175)
 
 
 
 
-### renderModulesList
+### <a name="method-renderModulesList"></a>renderModulesList
 
     mixed AdminPaymentControllerCore::renderModulesList()
 
@@ -172,7 +193,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPaymentController.php line 278](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#278)
+* This method is defined in [controllers/admin/AdminPaymentController.php line 278](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L278)
 
 
 

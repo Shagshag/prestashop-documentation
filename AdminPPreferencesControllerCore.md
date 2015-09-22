@@ -17,8 +17,21 @@ AdminPPreferencesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [beforeUpdateOptions](#method-beforeUpdateOptions)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Configuration $object
 
@@ -27,14 +40,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminPPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPPreferencesController.php#30)
+* This property is defined in [controllers/admin/AdminPPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPPreferencesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminPPreferencesControllerCore::__construct()
 
@@ -43,12 +56,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPPreferencesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPPreferencesController.php#32)
+* This method is defined in [controllers/admin/AdminPPreferencesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPPreferencesController.php#L32)
 
 
 
 
-### beforeUpdateOptions
+### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
     mixed AdminPPreferencesControllerCore::beforeUpdateOptions()
 
@@ -57,7 +70,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPPreferencesController.php line 296](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPPreferencesController.php#296)
+* This method is defined in [controllers/admin/AdminPPreferencesController.php line 296](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPPreferencesController.php#L296)
 
 
 

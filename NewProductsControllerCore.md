@@ -17,8 +17,21 @@ NewProductsControllerCore
 Properties
 ----------
 
+* [$php_self](#property-$php_self)
 
-### $php_self
+Methods
+-------
+* [setMedia](#method-setMedia)
+* [initContent](#method-initContent)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'new-products'
 
@@ -27,14 +40,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/NewProductsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/NewProductsController.php#29)
+* This property is defined in [controllers/front/NewProductsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/NewProductsController.php#L29)
 
 
 Methods
 -------
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed NewProductsControllerCore::setMedia()
 
@@ -43,12 +56,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/NewProductsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/NewProductsController.php#31)
+* This method is defined in [controllers/front/NewProductsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/NewProductsController.php#L31)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed NewProductsControllerCore::initContent()
 
@@ -57,7 +70,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/NewProductsController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/NewProductsController.php#41)
+* This method is defined in [controllers/front/NewProductsController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/NewProductsController.php#L41)
 
 
 

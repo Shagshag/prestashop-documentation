@@ -31,9 +31,18 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [getEntityMetaData](#method-getEntityMetaData)
 
 
-### getEntityMetaData
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-getEntityMetaData"></a>getEntityMetaData
 
     mixed Adapter_EntityMetaDataRetriever::getEntityMetaData($className)
 
@@ -42,7 +51,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Adapter/Adapter_EntityMetaDataRetriever.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_EntityMetaDataRetriever.php#29)
+* This method is defined in [Adapter/Adapter_EntityMetaDataRetriever.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_EntityMetaDataRetriever.php#L29)
 
 
 #### Arguments

@@ -17,8 +17,26 @@ ContactCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$name](#property-$name)
+* [$email](#property-$email)
+* [$description](#property-$description)
+* [$customer_service](#property-$customer_service)
+* [$definition](#property-$definition)
 
-### $id
+Methods
+-------
+* [getContacts](#method-getContacts)
+* [getCategoriesContacts](#method-getCategoriesContacts)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +45,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Contact.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#29)
+* This property is defined in [classes/Contact.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L29)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -39,10 +57,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Contact.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#32)
+* This property is defined in [classes/Contact.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L32)
 
 
-### $email
+### <a name="property-$email"></a>$email
 
     public string $email
 
@@ -51,10 +69,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Contact.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#35)
+* This property is defined in [classes/Contact.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L35)
 
 
-### $description
+### <a name="property-$description"></a>$description
 
     public string $description
 
@@ -63,10 +81,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Contact.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#38)
+* This property is defined in [classes/Contact.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L38)
 
 
-### $customer_service
+### <a name="property-$customer_service"></a>$customer_service
 
     public mixed $customer_service
 
@@ -75,10 +93,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Contact.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#40)
+* This property is defined in [classes/Contact.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L40)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'contact', 'primary' => 'id_contact', 'multilang' => true, 'fields' => array('email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'size' => 128), 'customer_service' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml')))
 
@@ -88,14 +106,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Contact.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#45)
+* This property is defined in [classes/Contact.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L45)
 
 
 Methods
 -------
 
 
-### getContacts
+### <a name="method-getContacts"></a>getContacts
 
     array ContactCore::getContacts(integer $id_lang)
 
@@ -105,7 +123,7 @@ Return available contacts
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Contact.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#66)
+* This method is defined in [classes/Contact.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L66)
 
 
 #### Arguments
@@ -113,7 +131,7 @@ Return available contacts
 
 
 
-### getCategoriesContacts
+### <a name="method-getCategoriesContacts"></a>getCategoriesContacts
 
     array ContactCore::getCategoriesContacts()
 
@@ -123,7 +141,7 @@ Return available categories contacts
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Contact.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#84)
+* This method is defined in [classes/Contact.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L84)
 
 
 

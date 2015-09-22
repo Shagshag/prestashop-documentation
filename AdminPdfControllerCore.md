@@ -18,9 +18,33 @@ AdminPdfControllerCore
 
 Methods
 -------
+* [postProcess](#method-postProcess)
+* [initProcess](#method-initProcess)
+* [checkCacheFolder](#method-checkCacheFolder)
+* [processGenerateInvoicePdf](#method-processGenerateInvoicePdf)
+* [processGenerateOrderSlipPDF](#method-processGenerateOrderSlipPDF)
+* [processGenerateDeliverySlipPDF](#method-processGenerateDeliverySlipPDF)
+* [processGenerateInvoicesPDF](#method-processGenerateInvoicesPDF)
+* [processGenerateInvoicesPDF2](#method-processGenerateInvoicesPDF2)
+* [processGenerateOrderSlipsPDF](#method-processGenerateOrderSlipsPDF)
+* [processGenerateDeliverySlipsPDF](#method-processGenerateDeliverySlipsPDF)
+* [processGenerateSupplyOrderFormPDF](#method-processGenerateSupplyOrderFormPDF)
+* [generateDeliverySlipPDFByIdOrder](#method-generateDeliverySlipPDFByIdOrder)
+* [generateDeliverySlipPDFByIdOrderInvoice](#method-generateDeliverySlipPDFByIdOrderInvoice)
+* [generateInvoicePDFByIdOrder](#method-generateInvoicePDFByIdOrder)
+* [generateInvoicePDFByIdOrderInvoice](#method-generateInvoicePDFByIdOrderInvoice)
+* [generatePDF](#method-generatePDF)
 
 
-### postProcess
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminPdfControllerCore::postProcess()
 
@@ -29,12 +53,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#29)
+* This method is defined in [controllers/admin/AdminPdfController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L29)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminPdfControllerCore::initProcess()
 
@@ -43,12 +67,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#37)
+* This method is defined in [controllers/admin/AdminPdfController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L37)
 
 
 
 
-### checkCacheFolder
+### <a name="method-checkCacheFolder"></a>checkCacheFolder
 
     mixed AdminPdfControllerCore::checkCacheFolder()
 
@@ -57,12 +81,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#49)
+* This method is defined in [controllers/admin/AdminPdfController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L49)
 
 
 
 
-### processGenerateInvoicePdf
+### <a name="method-processGenerateInvoicePdf"></a>processGenerateInvoicePdf
 
     mixed AdminPdfControllerCore::processGenerateInvoicePdf()
 
@@ -71,12 +95,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#56)
+* This method is defined in [controllers/admin/AdminPdfController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L56)
 
 
 
 
-### processGenerateOrderSlipPDF
+### <a name="method-processGenerateOrderSlipPDF"></a>processGenerateOrderSlipPDF
 
     mixed AdminPdfControllerCore::processGenerateOrderSlipPDF()
 
@@ -85,12 +109,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#67)
+* This method is defined in [controllers/admin/AdminPdfController.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L67)
 
 
 
 
-### processGenerateDeliverySlipPDF
+### <a name="method-processGenerateDeliverySlipPDF"></a>processGenerateDeliverySlipPDF
 
     mixed AdminPdfControllerCore::processGenerateDeliverySlipPDF()
 
@@ -99,12 +123,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#80)
+* This method is defined in [controllers/admin/AdminPdfController.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L80)
 
 
 
 
-### processGenerateInvoicesPDF
+### <a name="method-processGenerateInvoicesPDF"></a>processGenerateInvoicesPDF
 
     mixed AdminPdfControllerCore::processGenerateInvoicesPDF()
 
@@ -113,12 +137,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#94)
+* This method is defined in [controllers/admin/AdminPdfController.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L94)
 
 
 
 
-### processGenerateInvoicesPDF2
+### <a name="method-processGenerateInvoicesPDF2"></a>processGenerateInvoicesPDF2
 
     mixed AdminPdfControllerCore::processGenerateInvoicesPDF2()
 
@@ -127,12 +151,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#105)
+* This method is defined in [controllers/admin/AdminPdfController.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L105)
 
 
 
 
-### processGenerateOrderSlipsPDF
+### <a name="method-processGenerateOrderSlipsPDF"></a>processGenerateOrderSlipsPDF
 
     mixed AdminPdfControllerCore::processGenerateOrderSlipsPDF()
 
@@ -141,12 +165,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#121)
+* This method is defined in [controllers/admin/AdminPdfController.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L121)
 
 
 
 
-### processGenerateDeliverySlipsPDF
+### <a name="method-processGenerateDeliverySlipsPDF"></a>processGenerateDeliverySlipsPDF
 
     mixed AdminPdfControllerCore::processGenerateDeliverySlipsPDF()
 
@@ -155,12 +179,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#136)
+* This method is defined in [controllers/admin/AdminPdfController.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L136)
 
 
 
 
-### processGenerateSupplyOrderFormPDF
+### <a name="method-processGenerateSupplyOrderFormPDF"></a>processGenerateSupplyOrderFormPDF
 
     mixed AdminPdfControllerCore::processGenerateSupplyOrderFormPDF()
 
@@ -169,12 +193,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#147)
+* This method is defined in [controllers/admin/AdminPdfController.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L147)
 
 
 
 
-### generateDeliverySlipPDFByIdOrder
+### <a name="method-generateDeliverySlipPDFByIdOrder"></a>generateDeliverySlipPDFByIdOrder
 
     mixed AdminPdfControllerCore::generateDeliverySlipPDFByIdOrder($id_order)
 
@@ -183,7 +207,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#163)
+* This method is defined in [controllers/admin/AdminPdfController.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L163)
 
 
 #### Arguments
@@ -191,7 +215,7 @@ Methods
 
 
 
-### generateDeliverySlipPDFByIdOrderInvoice
+### <a name="method-generateDeliverySlipPDFByIdOrderInvoice"></a>generateDeliverySlipPDFByIdOrderInvoice
 
     mixed AdminPdfControllerCore::generateDeliverySlipPDFByIdOrderInvoice($id_order_invoice)
 
@@ -200,7 +224,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#174)
+* This method is defined in [controllers/admin/AdminPdfController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L174)
 
 
 #### Arguments
@@ -208,7 +232,7 @@ Methods
 
 
 
-### generateInvoicePDFByIdOrder
+### <a name="method-generateInvoicePDFByIdOrder"></a>generateInvoicePDFByIdOrder
 
     mixed AdminPdfControllerCore::generateInvoicePDFByIdOrder($id_order)
 
@@ -217,7 +241,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#184)
+* This method is defined in [controllers/admin/AdminPdfController.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L184)
 
 
 #### Arguments
@@ -225,7 +249,7 @@ Methods
 
 
 
-### generateInvoicePDFByIdOrderInvoice
+### <a name="method-generateInvoicePDFByIdOrderInvoice"></a>generateInvoicePDFByIdOrderInvoice
 
     mixed AdminPdfControllerCore::generateInvoicePDFByIdOrderInvoice($id_order_invoice)
 
@@ -234,7 +258,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#196)
+* This method is defined in [controllers/admin/AdminPdfController.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L196)
 
 
 #### Arguments
@@ -242,7 +266,7 @@ Methods
 
 
 
-### generatePDF
+### <a name="method-generatePDF"></a>generatePDF
 
     mixed AdminPdfControllerCore::generatePDF($object, $template)
 
@@ -251,7 +275,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminPdfController.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#207)
+* This method is defined in [controllers/admin/AdminPdfController.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L207)
 
 
 #### Arguments

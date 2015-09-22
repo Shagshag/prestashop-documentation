@@ -30,8 +30,29 @@ needs please refer to http://www.prestashop.com for more information.
 Properties
 ----------
 
+* [$bindings](#property-$bindings)
+* [$instances](#property-$instances)
+* [$namespaceAliases](#property-$namespaceAliases)
 
-### $bindings
+Methods
+-------
+* [knows](#method-knows)
+* [knowsNamespaceAlias](#method-knowsNamespaceAlias)
+* [bind](#method-bind)
+* [aliasNamespace](#method-aliasNamespace)
+* [resolveClassName](#method-resolveClassName)
+* [makeInstanceFromClassName](#method-makeInstanceFromClassName)
+* [doMake](#method-doMake)
+* [make](#method-make)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$bindings"></a>$bindings
 
     private mixed $bindings = array()
 
@@ -40,10 +61,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#29)
+* This property is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L29)
 
 
-### $instances
+### <a name="property-$instances"></a>$instances
 
     private mixed $instances = array()
 
@@ -52,10 +73,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#30)
+* This property is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L30)
 
 
-### $namespaceAliases
+### <a name="property-$namespaceAliases"></a>$namespaceAliases
 
     private mixed $namespaceAliases = array()
 
@@ -64,14 +85,14 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#31)
+* This property is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L31)
 
 
 Methods
 -------
 
 
-### knows
+### <a name="method-knows"></a>knows
 
     mixed Core_Foundation_IoC_Container::knows($serviceName)
 
@@ -80,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#33)
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L33)
 
 
 #### Arguments
@@ -88,7 +109,7 @@ Methods
 
 
 
-### knowsNamespaceAlias
+### <a name="method-knowsNamespaceAlias"></a>knowsNamespaceAlias
 
     mixed Core_Foundation_IoC_Container::knowsNamespaceAlias($alias)
 
@@ -97,7 +118,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#38)
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L38)
 
 
 #### Arguments
@@ -105,7 +126,7 @@ Methods
 
 
 
-### bind
+### <a name="method-bind"></a>bind
 
     mixed Core_Foundation_IoC_Container::bind($serviceName, $constructor, $shared)
 
@@ -114,7 +135,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#43)
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L43)
 
 
 #### Arguments
@@ -124,7 +145,7 @@ Methods
 
 
 
-### aliasNamespace
+### <a name="method-aliasNamespace"></a>aliasNamespace
 
     mixed Core_Foundation_IoC_Container::aliasNamespace($alias, $namespacePrefix)
 
@@ -133,7 +154,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#59)
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L59)
 
 
 #### Arguments
@@ -142,7 +163,7 @@ Methods
 
 
 
-### resolveClassName
+### <a name="method-resolveClassName"></a>resolveClassName
 
     mixed Core_Foundation_IoC_Container::resolveClassName($className)
 
@@ -151,7 +172,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#74)
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L74)
 
 
 #### Arguments
@@ -159,7 +180,7 @@ Methods
 
 
 
-### makeInstanceFromClassName
+### <a name="method-makeInstanceFromClassName"></a>makeInstanceFromClassName
 
     mixed Core_Foundation_IoC_Container::makeInstanceFromClassName($className, array $alreadySeen)
 
@@ -168,7 +189,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#88)
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L88)
 
 
 #### Arguments
@@ -177,7 +198,7 @@ Methods
 
 
 
-### doMake
+### <a name="method-doMake"></a>doMake
 
     mixed Core_Foundation_IoC_Container::doMake($serviceName, array $alreadySeen)
 
@@ -186,7 +207,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#128)
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L128)
 
 
 #### Arguments
@@ -195,7 +216,7 @@ Methods
 
 
 
-### make
+### <a name="method-make"></a>make
 
     mixed Core_Foundation_IoC_Container::make($serviceName)
 
@@ -204,7 +225,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#168)
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#L168)
 
 
 #### Arguments

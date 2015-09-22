@@ -15,30 +15,121 @@ AdminTranslationsControllerCore
 Constants
 ----------
 
+* [DEFAULT_THEME_NAME](#constant-DEFAULT_THEME_NAME)
+* [TEXTAREA_SIZED](#constant-TEXTAREA_SIZED)
 
-### DEFAULT_THEME_NAME
+Properties
+----------
+
+* [$link_lang_pack](#property-$link_lang_pack)
+* [$total_expression](#property-$total_expression)
+* [$missing_translations](#property-$missing_translations)
+* [$all_iso_lang](#property-$all_iso_lang)
+* [$modules_translations](#property-$modules_translations)
+* [$ignore_folder](#property-$ignore_folder)
+* [$translations_informations](#property-$translations_informations)
+* [$languages](#property-$languages)
+* [$themes](#property-$themes)
+* [$theme_selected](#property-$theme_selected)
+* [$type_selected](#property-$type_selected)
+* [$lang_selected](#property-$lang_selected)
+* [$post_limit_exceed](#property-$post_limit_exceed)
+
+Methods
+-------
+* [__construct](#method-__construct)
+* [setTypeSelected](#method-setTypeSelected)
+* [initContent](#method-initContent)
+* [initForm](#method-initForm)
+* [initToolbar](#method-initToolbar)
+* [initMain](#method-initMain)
+* [getModuleTranslations](#method-getModuleTranslations)
+* [checkDirAndCreate](#method-checkDirAndCreate)
+* [writeTranslationFile](#method-writeTranslationFile)
+* [submitCopyLang](#method-submitCopyLang)
+* [changeModulesKeyTranslation](#method-changeModulesKeyTranslation)
+* [exportTabs](#method-exportTabs)
+* [submitExportLang](#method-submitExportLang)
+* [checkAndAddMailsFiles](#method-checkAndAddMailsFiles)
+* [checkAndAddThemesFiles](#method-checkAndAddThemesFiles)
+* [addNewTabs](#method-addNewTabs)
+* [checkTranslationFile](#method-checkTranslationFile)
+* [submitImportLang](#method-submitImportLang)
+* [filterTranslationFiles](#method-filterTranslationFiles)
+* [filesListToPaths](#method-filesListToPaths)
+* [submitAddLang](#method-submitAddLang)
+* [findAndWriteTranslationsIntoFile](#method-findAndWriteTranslationsIntoFile)
+* [clearModuleFiles](#method-clearModuleFiles)
+* [findAndFillTranslations](#method-findAndFillTranslations)
+* [getFileToParseByTypeTranslation](#method-getFileToParseByTypeTranslation)
+* [userParseFile](#method-userParseFile)
+* [getTranslationsInformations](#method-getTranslationsInformations)
+* [getInformations](#method-getInformations)
+* [renderKpis](#method-renderKpis)
+* [postProcess](#method-postProcess)
+* [redirect](#method-redirect)
+* [getMailPattern](#method-getMailPattern)
+* [submitTranslationsMails](#method-submitTranslationsMails)
+* [fileExists](#method-fileExists)
+* [displayToggleButton](#method-displayToggleButton)
+* [displayLimitPostWarning](#method-displayLimitPostWarning)
+* [checkIfKeyUseSprintf](#method-checkIfKeyUseSprintf)
+* [initFormFront](#method-initFormFront)
+* [initFormBack](#method-initFormBack)
+* [getListModules](#method-getListModules)
+* [initFormErrors](#method-initFormErrors)
+* [initFormFields](#method-initFormFields)
+* [getMailFiles](#method-getMailFiles)
+* [getMailContent](#method-getMailContent)
+* [displayMailContent](#method-displayMailContent)
+* [displayMailBlockTxt](#method-displayMailBlockTxt)
+* [displayMailBlockHtml](#method-displayMailBlockHtml)
+* [displayMailEditor](#method-displayMailEditor)
+* [cleanMailContent](#method-cleanMailContent)
+* [getModulesHasMails](#method-getModulesHasMails)
+* [getModulesHasPDF](#method-getModulesHasPDF)
+* [getTinyMCEForMails](#method-getTinyMCEForMails)
+* [initFormMails](#method-initFormMails)
+* [copyMailFilesForAllLanguages](#method-copyMailFilesForAllLanguages)
+* [getSubjectMail](#method-getSubjectMail)
+* [getSubjectMailContent](#method-getSubjectMailContent)
+* [writeSubjectTranslationFile](#method-writeSubjectTranslationFile)
+* [recursiveGetModuleFiles](#method-recursiveGetModuleFiles)
+* [getAllModuleFiles](#method-getAllModuleFiles)
+* [initFormModules](#method-initFormModules)
+* [parsePdfClass](#method-parsePdfClass)
+* [initFormPDF](#method-initFormPDF)
+* [listFiles](#method-listFiles)
+* [theme_exists](#method-theme_exists)
+
+
+Constants
+----------
+
+
+### <a name="constant-DEFAULT_THEME_NAME"></a>DEFAULT_THEME_NAME
 
     const DEFAULT_THEME_NAME = _PS_DEFAULT_THEME_NAME_
 
 
 
-* This constant is defined in [controllers/admin/AdminTranslationsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#30)
+* This constant is defined in [controllers/admin/AdminTranslationsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L30)
 
 
-### TEXTAREA_SIZED
+### <a name="constant-TEXTAREA_SIZED"></a>TEXTAREA_SIZED
 
     const TEXTAREA_SIZED = 70
 
 
 
-* This constant is defined in [controllers/admin/AdminTranslationsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#31)
+* This constant is defined in [controllers/admin/AdminTranslationsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L31)
 
 
 Properties
 ----------
 
 
-### $link_lang_pack
+### <a name="property-$link_lang_pack"></a>$link_lang_pack
 
     protected string $link_lang_pack = 'http://www.prestashop.com/download/lang_packs/get_each_language_pack.php'
 
@@ -47,10 +138,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#34)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L34)
 
 
-### $total_expression
+### <a name="property-$total_expression"></a>$total_expression
 
     protected integer $total_expression
 
@@ -59,10 +150,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#37)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L37)
 
 
-### $missing_translations
+### <a name="property-$missing_translations"></a>$missing_translations
 
     protected integer $missing_translations
 
@@ -71,10 +162,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#40)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L40)
 
 
-### $all_iso_lang
+### <a name="property-$all_iso_lang"></a>$all_iso_lang
 
     protected array $all_iso_lang = array()
 
@@ -83,10 +174,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#43)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L43)
 
 
-### $modules_translations
+### <a name="property-$modules_translations"></a>$modules_translations
 
     protected array $modules_translations = array()
 
@@ -95,10 +186,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#46)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L46)
 
 
-### $ignore_folder
+### <a name="property-$ignore_folder"></a>$ignore_folder
 
     protected array $ignore_folder = array('.', '..', '.svn', '.git', '.htaccess', 'index.php')
 
@@ -108,10 +199,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#49)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L49)
 
 
-### $translations_informations
+### <a name="property-$translations_informations"></a>$translations_informations
 
     protected array $translations_informations = array()
 
@@ -120,10 +211,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#52)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L52)
 
 
-### $languages
+### <a name="property-$languages"></a>$languages
 
     protected array $languages
 
@@ -132,10 +223,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#55)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L55)
 
 
-### $themes
+### <a name="property-$themes"></a>$themes
 
     protected array $themes
 
@@ -144,10 +235,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#58)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L58)
 
 
-### $theme_selected
+### <a name="property-$theme_selected"></a>$theme_selected
 
     protected string $theme_selected
 
@@ -156,10 +247,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#61)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L61)
 
 
-### $type_selected
+### <a name="property-$type_selected"></a>$type_selected
 
     protected string $type_selected
 
@@ -168,10 +259,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#64)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L64)
 
 
-### $lang_selected
+### <a name="property-$lang_selected"></a>$lang_selected
 
     protected \Language $lang_selected
 
@@ -180,10 +271,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#67)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L67)
 
 
-### $post_limit_exceed
+### <a name="property-$post_limit_exceed"></a>$post_limit_exceed
 
     protected boolean $post_limit_exceed = false
 
@@ -192,14 +283,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTranslationsController.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#70)
+* This property is defined in [controllers/admin/AdminTranslationsController.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L70)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminTranslationsControllerCore::__construct()
 
@@ -208,12 +299,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#72)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L72)
 
 
 
 
-### setTypeSelected
+### <a name="method-setTypeSelected"></a>setTypeSelected
 
     mixed AdminTranslationsControllerCore::setTypeSelected($type_selected)
 
@@ -222,7 +313,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#84)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L84)
 
 
 #### Arguments
@@ -230,7 +321,7 @@ Methods
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminTranslationsControllerCore::initContent()
 
@@ -239,12 +330,12 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#93)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L93)
 
 
 
 
-### initForm
+### <a name="method-initForm"></a>initForm
 
     mixed AdminTranslationsControllerCore::initForm($method_name)
 
@@ -253,7 +344,7 @@ This function create vars by default and call the good method for generate form
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#123)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L123)
 
 
 #### Arguments
@@ -261,7 +352,7 @@ This function create vars by default and call the good method for generate form
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminTranslationsControllerCore::initToolbar()
 
@@ -270,12 +361,12 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#153)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L153)
 
 
 
 
-### initMain
+### <a name="method-initMain"></a>initMain
 
     mixed AdminTranslationsControllerCore::initMain()
 
@@ -284,12 +375,12 @@ Generate the Main page
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#173)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L173)
 
 
 
 
-### getModuleTranslations
+### <a name="method-getModuleTranslations"></a>getModuleTranslations
 
     mixed AdminTranslationsControllerCore::getModuleTranslations()
 
@@ -298,12 +389,12 @@ This method merge each arrays of modules translation in the array of modules tra
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 220](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#220)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 220](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L220)
 
 
 
 
-### checkDirAndCreate
+### <a name="method-checkDirAndCreate"></a>checkDirAndCreate
 
     boolean AdminTranslationsControllerCore::checkDirAndCreate(string $dest)
 
@@ -315,7 +406,7 @@ When a translation file is copied for a module, its translation key is wrong.
 We have to change the translation key and rewrite the file.
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#247)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L247)
 
 
 #### Arguments
@@ -323,7 +414,7 @@ We have to change the translation key and rewrite the file.
 
 
 
-### writeTranslationFile
+### <a name="method-writeTranslationFile"></a>writeTranslationFile
 
     mixed AdminTranslationsControllerCore::writeTranslationFile(boolean $override_file)
 
@@ -332,7 +423,7 @@ Read the Post var and write the translation file.
 This method overwrites the old translation file.
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#274)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L274)
 
 
 #### Arguments
@@ -340,7 +431,7 @@ This method overwrites the old translation file.
 
 
 
-### submitCopyLang
+### <a name="method-submitCopyLang"></a>submitCopyLang
 
     mixed AdminTranslationsControllerCore::submitCopyLang()
 
@@ -349,12 +440,12 @@ This method overwrites the old translation file.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#351)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L351)
 
 
 
 
-### changeModulesKeyTranslation
+### <a name="method-changeModulesKeyTranslation"></a>changeModulesKeyTranslation
 
     boolean AdminTranslationsControllerCore::changeModulesKeyTranslation(string $path, string $theme_from, string $theme_to)
 
@@ -363,7 +454,7 @@ Change the key translation to according it to theme name.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 406](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#406)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 406](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L406)
 
 
 #### Arguments
@@ -373,7 +464,7 @@ Change the key translation to according it to theme name.
 
 
 
-### exportTabs
+### <a name="method-exportTabs"></a>exportTabs
 
     mixed AdminTranslationsControllerCore::exportTabs()
 
@@ -382,12 +473,12 @@ Change the key translation to according it to theme name.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#421)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L421)
 
 
 
 
-### submitExportLang
+### <a name="method-submitExportLang"></a>submitExportLang
 
     mixed AdminTranslationsControllerCore::submitExportLang()
 
@@ -396,12 +487,12 @@ Change the key translation to according it to theme name.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 478](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#478)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 478](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L478)
 
 
 
 
-### checkAndAddMailsFiles
+### <a name="method-checkAndAddMailsFiles"></a>checkAndAddMailsFiles
 
     mixed AdminTranslationsControllerCore::checkAndAddMailsFiles($iso_code, $files_list)
 
@@ -411,7 +502,7 @@ Change the key translation to according it to theme name.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 506](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#506)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 506](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L506)
 
 
 #### Arguments
@@ -420,7 +511,7 @@ Change the key translation to according it to theme name.
 
 
 
-### checkAndAddThemesFiles
+### <a name="method-checkAndAddThemesFiles"></a>checkAndAddThemesFiles
 
     mixed AdminTranslationsControllerCore::checkAndAddThemesFiles(array $files, array $themes_selected)
 
@@ -429,7 +520,7 @@ Move theme translations in selected themes
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 594](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#594)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 594](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L594)
 
 
 #### Arguments
@@ -438,7 +529,7 @@ Move theme translations in selected themes
 
 
 
-### addNewTabs
+### <a name="method-addNewTabs"></a>addNewTabs
 
     array AdminTranslationsControllerCore::addNewTabs(array $iso_code, array $files)
 
@@ -448,7 +539,7 @@ Add new translations tabs by code ISO
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 634](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#634)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 634](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L634)
 
 
 #### Arguments
@@ -457,7 +548,7 @@ Add new translations tabs by code ISO
 
 
 
-### checkTranslationFile
+### <a name="method-checkTranslationFile"></a>checkTranslationFile
 
     mixed AdminTranslationsControllerCore::checkTranslationFile($content)
 
@@ -467,7 +558,7 @@ Add new translations tabs by code ISO
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 676](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#676)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 676](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L676)
 
 
 #### Arguments
@@ -475,7 +566,7 @@ Add new translations tabs by code ISO
 
 
 
-### submitImportLang
+### <a name="method-submitImportLang"></a>submitImportLang
 
     mixed AdminTranslationsControllerCore::submitImportLang()
 
@@ -484,12 +575,12 @@ Add new translations tabs by code ISO
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 716](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#716)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 716](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L716)
 
 
 
 
-### filterTranslationFiles
+### <a name="method-filterTranslationFiles"></a>filterTranslationFiles
 
     array AdminTranslationsControllerCore::filterTranslationFiles(array $list)
 
@@ -502,7 +593,7 @@ are present on the shop (installed or not).
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 816](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#816)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 816](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L816)
 
 
 #### Arguments
@@ -510,7 +601,7 @@ are present on the shop (installed or not).
 
 
 
-### filesListToPaths
+### <a name="method-filesListToPaths"></a>filesListToPaths
 
     array AdminTranslationsControllerCore::filesListToPaths(array $list)
 
@@ -523,7 +614,7 @@ Archive_Tar::extractList()
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 844](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#844)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 844](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L844)
 
 
 #### Arguments
@@ -531,7 +622,7 @@ Archive_Tar::extractList()
 
 
 
-### submitAddLang
+### <a name="method-submitAddLang"></a>submitAddLang
 
     mixed AdminTranslationsControllerCore::submitAddLang()
 
@@ -540,12 +631,12 @@ Archive_Tar::extractList()
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 853](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#853)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 853](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L853)
 
 
 
 
-### findAndWriteTranslationsIntoFile
+### <a name="method-findAndWriteTranslationsIntoFile"></a>findAndWriteTranslationsIntoFile
 
     mixed AdminTranslationsControllerCore::findAndWriteTranslationsIntoFile(string $file_name, array $files, string $theme_name, string $module_name, string|boolean $dir)
 
@@ -555,7 +646,7 @@ compare with posted values and write in iso code translation file.
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 936](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#936)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 936](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L936)
 
 
 #### Arguments
@@ -567,7 +658,7 @@ compare with posted values and write in iso code translation file.
 
 
 
-### clearModuleFiles
+### <a name="method-clearModuleFiles"></a>clearModuleFiles
 
     array AdminTranslationsControllerCore::clearModuleFiles($files, string $type_clear, string $path)
 
@@ -576,7 +667,7 @@ Clear the list of module file by type (file or directory)
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1013](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1013)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1013](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1013)
 
 
 #### Arguments
@@ -586,7 +677,7 @@ Clear the list of module file by type (file or directory)
 
 
 
-### findAndFillTranslations
+### <a name="method-findAndFillTranslations"></a>findAndFillTranslations
 
     mixed AdminTranslationsControllerCore::findAndFillTranslations(array $files, string $theme_name, string $module_name, string|boolean $dir)
 
@@ -597,7 +688,7 @@ With key as English sentences and values as their iso code translations.
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1044](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1044)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1044](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1044)
 
 
 #### Arguments
@@ -608,7 +699,7 @@ With key as English sentences and values as their iso code translations.
 
 
 
-### getFileToParseByTypeTranslation
+### <a name="method-getFileToParseByTypeTranslation"></a>getFileToParseByTypeTranslation
 
     array AdminTranslationsControllerCore::getFileToParseByTypeTranslation()
 
@@ -617,12 +708,12 @@ Get list of files which must be parsed by directory and by type of translations
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1104)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1104)
 
 
 
 
-### userParseFile
+### <a name="method-userParseFile"></a>userParseFile
 
     array AdminTranslationsControllerCore::userParseFile($content, $type_translation, string|boolean $type_file, string $module_name)
 
@@ -631,7 +722,7 @@ This method parse a file by type of translation and type file
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1215)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1215)
 
 
 #### Arguments
@@ -642,7 +733,7 @@ This method parse a file by type of translation and type file
 
 
 
-### getTranslationsInformations
+### <a name="method-getTranslationsInformations"></a>getTranslationsInformations
 
     mixed AdminTranslationsControllerCore::getTranslationsInformations()
 
@@ -658,12 +749,12 @@ array(
 )
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1300)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1300)
 
 
 
 
-### getInformations
+### <a name="method-getInformations"></a>getInformations
 
     mixed AdminTranslationsControllerCore::getInformations()
 
@@ -672,12 +763,12 @@ Get all informations on : languages, theme and the translation type.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1357)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1357)
 
 
 
 
-### renderKpis
+### <a name="method-renderKpis"></a>renderKpis
 
     mixed AdminTranslationsControllerCore::renderKpis()
 
@@ -686,12 +777,12 @@ Get all informations on : languages, theme and the translation type.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1408](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1408)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1408](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1408)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminTranslationsControllerCore::postProcess()
 
@@ -700,12 +791,12 @@ AdminController::postProcess() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1462](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1462)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1462](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1462)
 
 
 
 
-### redirect
+### <a name="method-redirect"></a>redirect
 
     mixed AdminTranslationsControllerCore::redirect(boolean $save_and_stay, boolean $conf)
 
@@ -714,7 +805,7 @@ This method redirect in the translation main page or in the translation page
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1558](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1558)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1558](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1558)
 
 
 #### Arguments
@@ -723,7 +814,7 @@ This method redirect in the translation main page or in the translation page
 
 
 
-### getMailPattern
+### <a name="method-getMailPattern"></a>getMailPattern
 
     mixed AdminTranslationsControllerCore::getMailPattern()
 
@@ -732,12 +823,12 @@ This method redirect in the translation main page or in the translation page
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1569](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1569)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1569](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1569)
 
 
 
 
-### submitTranslationsMails
+### <a name="method-submitTranslationsMails"></a>submitTranslationsMails
 
     mixed AdminTranslationsControllerCore::submitTranslationsMails()
 
@@ -748,12 +839,12 @@ This writes subject translation files
 and mails files.
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1590](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1590)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1590](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1590)
 
 
 
 
-### fileExists
+### <a name="method-fileExists"></a>fileExists
 
     mixed AdminTranslationsControllerCore::fileExists()
 
@@ -764,12 +855,12 @@ This create the file if not exists
 return array : translations
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1696)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1696)
 
 
 
 
-### displayToggleButton
+### <a name="method-displayToggleButton"></a>displayToggleButton
 
     mixed AdminTranslationsControllerCore::displayToggleButton($closed)
 
@@ -778,7 +869,7 @@ return array : translations
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1720](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1720)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1720](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1720)
 
 
 #### Arguments
@@ -786,7 +877,7 @@ return array : translations
 
 
 
-### displayLimitPostWarning
+### <a name="method-displayLimitPostWarning"></a>displayLimitPostWarning
 
     mixed AdminTranslationsControllerCore::displayLimitPostWarning($count)
 
@@ -795,7 +886,7 @@ return array : translations
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1737](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1737)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1737](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1737)
 
 
 #### Arguments
@@ -803,7 +894,7 @@ return array : translations
 
 
 
-### checkIfKeyUseSprintf
+### <a name="method-checkIfKeyUseSprintf"></a>checkIfKeyUseSprintf
 
     array|boolean AdminTranslationsControllerCore::checkIfKeyUseSprintf($key)
 
@@ -812,7 +903,7 @@ Find sentence which use %d, %s, %%, %1$d, %1$s.
 ..
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1759](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1759)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1759](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1759)
 
 
 #### Arguments
@@ -820,7 +911,7 @@ Find sentence which use %d, %s, %%, %1$d, %1$s.
 
 
 
-### initFormFront
+### <a name="method-initFormFront"></a>initFormFront
 
     mixed AdminTranslationsControllerCore::initFormFront()
 
@@ -829,12 +920,12 @@ This method generate the form for front translations
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1770](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1770)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1770](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1770)
 
 
 
 
-### initFormBack
+### <a name="method-initFormBack"></a>initFormBack
 
     mixed AdminTranslationsControllerCore::initFormBack()
 
@@ -843,12 +934,12 @@ This method generate the form for back translations
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 1853](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#1853)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 1853](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L1853)
 
 
 
 
-### getListModules
+### <a name="method-getListModules"></a>getListModules
 
     array AdminTranslationsControllerCore::getListModules()
 
@@ -857,12 +948,12 @@ Check if directory and file exist and return an list of modules
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2046](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2046)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2046](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2046)
 
 
 
 
-### initFormErrors
+### <a name="method-initFormErrors"></a>initFormErrors
 
     mixed AdminTranslationsControllerCore::initFormErrors()
 
@@ -871,12 +962,12 @@ This method generate the form for errors translations
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2068](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2068)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2068](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2068)
 
 
 
 
-### initFormFields
+### <a name="method-initFormFields"></a>initFormFields
 
     mixed AdminTranslationsControllerCore::initFormFields()
 
@@ -885,12 +976,12 @@ This method generate the form for fields translations
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2131)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2131)
 
 
 
 
-### getMailFiles
+### <a name="method-getMailFiles"></a>getMailFiles
 
     array AdminTranslationsControllerCore::getMailFiles(string $dir, string $group_name)
 
@@ -899,7 +990,7 @@ Get each informations for each mails found in the folder $dir.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2228)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2228)
 
 
 #### Arguments
@@ -908,7 +999,7 @@ Get each informations for each mails found in the folder $dir.
 
 
 
-### getMailContent
+### <a name="method-getMailContent"></a>getMailContent
 
     array AdminTranslationsControllerCore::getMailContent(string $dir, string $file)
 
@@ -917,7 +1008,7 @@ Get content of the mail file.
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2291)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2291)
 
 
 #### Arguments
@@ -926,7 +1017,7 @@ Get content of the mail file.
 
 
 
-### displayMailContent
+### <a name="method-displayMailContent"></a>displayMailContent
 
     string AdminTranslationsControllerCore::displayMailContent(array $mails, array $all_subject_mail, \Language $obj_lang, string $id_html, string $title, string|boolean $name_for_module)
 
@@ -935,7 +1026,7 @@ Display mails in html format.
 This was create for factorize the html displaying
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2315)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2315)
 
 
 #### Arguments
@@ -948,7 +1039,7 @@ This was create for factorize the html displaying
 
 
 
-### displayMailBlockTxt
+### <a name="method-displayMailBlockTxt"></a>displayMailBlockTxt
 
     string AdminTranslationsControllerCore::displayMailBlockTxt(array $content, string $lang, string $mail_name, string $group_name, string|boolean $name_for_module)
 
@@ -957,7 +1048,7 @@ Just build the html structure for display txt mails
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2432](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2432)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2432](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2432)
 
 
 #### Arguments
@@ -969,7 +1060,7 @@ Just build the html structure for display txt mails
 
 
 
-### displayMailBlockHtml
+### <a name="method-displayMailBlockHtml"></a>displayMailBlockHtml
 
     string AdminTranslationsControllerCore::displayMailBlockHtml(array $content, string $lang, string $url, string $mail_name, string $group_name, string|boolean $name_for_module)
 
@@ -978,7 +1069,7 @@ Just build the html structure for display html mails.
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2454](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2454)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2454](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2454)
 
 
 #### Arguments
@@ -991,7 +1082,7 @@ Just build the html structure for display html mails.
 
 
 
-### displayMailEditor
+### <a name="method-displayMailEditor"></a>displayMailEditor
 
     mixed AdminTranslationsControllerCore::displayMailEditor($content, $lang, $url, $mail_name, $group_name, $name_for_module)
 
@@ -1000,7 +1091,7 @@ Just build the html structure for display html mails.
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2473](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2473)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2473](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2473)
 
 
 #### Arguments
@@ -1013,7 +1104,7 @@ Just build the html structure for display html mails.
 
 
 
-### cleanMailContent
+### <a name="method-cleanMailContent"></a>cleanMailContent
 
     mixed AdminTranslationsControllerCore::cleanMailContent($content, $lang, $title)
 
@@ -1022,7 +1113,7 @@ Just build the html structure for display html mails.
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2481](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2481)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2481](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2481)
 
 
 #### Arguments
@@ -1032,7 +1123,7 @@ Just build the html structure for display html mails.
 
 
 
-### getModulesHasMails
+### <a name="method-getModulesHasMails"></a>getModulesHasMails
 
     array AdminTranslationsControllerCore::getModulesHasMails(boolean $with_module_name)
 
@@ -1041,7 +1132,7 @@ Check in each module if contains mails folder.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2507](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2507)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2507](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2507)
 
 
 #### Arguments
@@ -1049,7 +1140,7 @@ Check in each module if contains mails folder.
 
 
 
-### getModulesHasPDF
+### <a name="method-getModulesHasPDF"></a>getModulesHasPDF
 
     array AdminTranslationsControllerCore::getModulesHasPDF(boolean $classes)
 
@@ -1058,7 +1149,7 @@ Check in each module if contains pdf folder.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2540](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2540)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2540](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2540)
 
 
 #### Arguments
@@ -1066,7 +1157,7 @@ Check in each module if contains pdf folder.
 
 
 
-### getTinyMCEForMails
+### <a name="method-getTinyMCEForMails"></a>getTinyMCEForMails
 
     mixed AdminTranslationsControllerCore::getTinyMCEForMails($iso_lang)
 
@@ -1075,7 +1166,7 @@ Check in each module if contains pdf folder.
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2570](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2570)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2570](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2570)
 
 
 #### Arguments
@@ -1083,7 +1174,7 @@ Check in each module if contains pdf folder.
 
 
 
-### initFormMails
+### <a name="method-initFormMails"></a>initFormMails
 
     array|string AdminTranslationsControllerCore::initFormMails(boolean $no_display)
 
@@ -1092,7 +1183,7 @@ This method generate the form for mails translations
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2593](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2593)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2593](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2593)
 
 
 #### Arguments
@@ -1100,7 +1191,7 @@ This method generate the form for mails translations
 
 
 
-### copyMailFilesForAllLanguages
+### <a name="method-copyMailFilesForAllLanguages"></a>copyMailFilesForAllLanguages
 
     mixed AdminTranslationsControllerCore::copyMailFilesForAllLanguages()
 
@@ -1109,12 +1200,12 @@ This method generate the form for mails translations
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2661](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2661)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2661](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2661)
 
 
 
 
-### getSubjectMail
+### <a name="method-getSubjectMail"></a>getSubjectMail
 
     array AdminTranslationsControllerCore::getSubjectMail($dir, $file, $subject_mail)
 
@@ -1123,7 +1214,7 @@ Get list of subjects of mails
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2724](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2724)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2724](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2724)
 
 
 #### Arguments
@@ -1133,7 +1224,7 @@ Get list of subjects of mails
 
 
 
-### getSubjectMailContent
+### <a name="method-getSubjectMailContent"></a>getSubjectMailContent
 
     array AdminTranslationsControllerCore::getSubjectMailContent($directory)
 
@@ -1142,7 +1233,7 @@ Get list of subjects of mails
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2768](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2768)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2768](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2768)
 
 
 #### Arguments
@@ -1150,7 +1241,7 @@ Get list of subjects of mails
 
 
 
-### writeSubjectTranslationFile
+### <a name="method-writeSubjectTranslationFile"></a>writeSubjectTranslationFile
 
     mixed AdminTranslationsControllerCore::writeSubjectTranslationFile($sub, $path)
 
@@ -1159,7 +1250,7 @@ Get list of subjects of mails
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2789](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2789)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2789](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2789)
 
 
 #### Arguments
@@ -1168,7 +1259,7 @@ Get list of subjects of mails
 
 
 
-### recursiveGetModuleFiles
+### <a name="method-recursiveGetModuleFiles"></a>recursiveGetModuleFiles
 
     mixed AdminTranslationsControllerCore::recursiveGetModuleFiles(string $path, array $array_files, string $module_name, string $lang_file, boolean $is_default)
 
@@ -1177,7 +1268,7 @@ This get files to translate in module directory.
 Recursive method allow to get each files for a module no matter his depth.
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2825](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2825)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2825](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2825)
 
 
 #### Arguments
@@ -1189,7 +1280,7 @@ Recursive method allow to get each files for a module no matter his depth.
 
 
 
-### getAllModuleFiles
+### <a name="method-getAllModuleFiles"></a>getAllModuleFiles
 
     array AdminTranslationsControllerCore::getAllModuleFiles(array $modules, string|null $root_dir, string $lang, boolean $is_default)
 
@@ -1198,7 +1289,7 @@ This method get translation in each translations file.
 The file depend on $lang param.
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2864](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2864)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2864](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2864)
 
 
 #### Arguments
@@ -1210,7 +1301,7 @@ The file depend on $lang param.
 
 
 
-### initFormModules
+### <a name="method-initFormModules"></a>initFormModules
 
     mixed AdminTranslationsControllerCore::initFormModules()
 
@@ -1219,12 +1310,12 @@ This method generate the form for modules translations
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2917](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2917)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2917](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2917)
 
 
 
 
-### parsePdfClass
+### <a name="method-parsePdfClass"></a>parsePdfClass
 
     array AdminTranslationsControllerCore::parsePdfClass(string $file_path, string $file_type, array $lang_array, string $tab, array $tabs_array, array $count_missing)
 
@@ -1233,7 +1324,7 @@ Parse PDF class
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2959](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2959)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2959](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2959)
 
 
 #### Arguments
@@ -1246,7 +1337,7 @@ Parse PDF class
 
 
 
-### initFormPDF
+### <a name="method-initFormPDF"></a>initFormPDF
 
     mixed AdminTranslationsControllerCore::initFormPDF()
 
@@ -1255,12 +1346,12 @@ This method generate the form for PDF translations
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 2987](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#2987)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 2987](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L2987)
 
 
 
 
-### listFiles
+### <a name="method-listFiles"></a>listFiles
 
     array AdminTranslationsControllerCore::listFiles(string $dir, array $list, string $file_ext)
 
@@ -1269,7 +1360,7 @@ Recursively list files in directory $dir
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 3079](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#3079)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 3079](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L3079)
 
 
 #### Arguments
@@ -1279,7 +1370,7 @@ Recursively list files in directory $dir
 
 
 
-### theme_exists
+### <a name="method-theme_exists"></a>theme_exists
 
     boolean AdminTranslationsControllerCore::theme_exists(string $theme)
 
@@ -1288,7 +1379,7 @@ Checks if theme exists
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTranslationsController.php line 3104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#3104)
+* This method is defined in [controllers/admin/AdminTranslationsController.php line 3104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L3104)
 
 
 #### Arguments

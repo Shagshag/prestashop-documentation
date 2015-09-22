@@ -15,39 +15,81 @@ ThemeCore
 Constants
 ----------
 
+* [CACHE_FILE_CUSTOMER_THEMES_LIST](#constant-CACHE_FILE_CUSTOMER_THEMES_LIST)
+* [CACHE_FILE_MUST_HAVE_THEMES_LIST](#constant-CACHE_FILE_MUST_HAVE_THEMES_LIST)
+* [UPLOADED_THEME_DIR_NAME](#constant-UPLOADED_THEME_DIR_NAME)
 
-### CACHE_FILE_CUSTOMER_THEMES_LIST
+Properties
+----------
+
+* [$name](#property-$name)
+* [$directory](#property-$directory)
+* [$responsive](#property-$responsive)
+* [$default_left_column](#property-$default_left_column)
+* [$default_right_column](#property-$default_right_column)
+* [$product_per_page](#property-$product_per_page)
+* [$access_rights](#property-$access_rights)
+* [$definition](#property-$definition)
+
+Methods
+-------
+* [getThemes](#method-getThemes)
+* [getAllThemes](#method-getAllThemes)
+* [getAvailable](#method-getAvailable)
+* [isUsed](#method-isUsed)
+* [add](#method-add)
+* [getByDirectory](#method-getByDirectory)
+* [getInstalledThemeDirectories](#method-getInstalledThemeDirectories)
+* [getThemeInfo](#method-getThemeInfo)
+* [getNonInstalledTheme](#method-getNonInstalledTheme)
+* [updateMetas](#method-updateMetas)
+* [hasColumns](#method-hasColumns)
+* [hasColumnsSettings](#method-hasColumnsSettings)
+* [hasLeftColumn](#method-hasLeftColumn)
+* [hasRightColumn](#method-hasRightColumn)
+* [getMetas](#method-getMetas)
+* [removeMetas](#method-removeMetas)
+* [toggleResponsive](#method-toggleResponsive)
+* [toggleDefaultLeftColumn](#method-toggleDefaultLeftColumn)
+* [toggleDefaultRightColumn](#method-toggleDefaultRightColumn)
+
+
+Constants
+----------
+
+
+### <a name="constant-CACHE_FILE_CUSTOMER_THEMES_LIST"></a>CACHE_FILE_CUSTOMER_THEMES_LIST
 
     const CACHE_FILE_CUSTOMER_THEMES_LIST = '/config/xml/customer_themes_list.xml'
 
 
 
-* This constant is defined in [classes/Theme.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#36)
+* This constant is defined in [classes/Theme.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L36)
 
 
-### CACHE_FILE_MUST_HAVE_THEMES_LIST
+### <a name="constant-CACHE_FILE_MUST_HAVE_THEMES_LIST"></a>CACHE_FILE_MUST_HAVE_THEMES_LIST
 
     const CACHE_FILE_MUST_HAVE_THEMES_LIST = '/config/xml/must_have_themes_list.xml'
 
 
 
-* This constant is defined in [classes/Theme.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#38)
+* This constant is defined in [classes/Theme.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L38)
 
 
-### UPLOADED_THEME_DIR_NAME
+### <a name="constant-UPLOADED_THEME_DIR_NAME"></a>UPLOADED_THEME_DIR_NAME
 
     const UPLOADED_THEME_DIR_NAME = 'uploaded'
 
 
 
-* This constant is defined in [classes/Theme.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#40)
+* This constant is defined in [classes/Theme.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L40)
 
 
 Properties
 ----------
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public mixed $name
 
@@ -56,10 +98,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Theme.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#29)
+* This property is defined in [classes/Theme.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L29)
 
 
-### $directory
+### <a name="property-$directory"></a>$directory
 
     public mixed $directory
 
@@ -68,10 +110,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Theme.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#30)
+* This property is defined in [classes/Theme.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L30)
 
 
-### $responsive
+### <a name="property-$responsive"></a>$responsive
 
     public mixed $responsive
 
@@ -80,10 +122,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Theme.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#31)
+* This property is defined in [classes/Theme.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L31)
 
 
-### $default_left_column
+### <a name="property-$default_left_column"></a>$default_left_column
 
     public mixed $default_left_column
 
@@ -92,10 +134,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Theme.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#32)
+* This property is defined in [classes/Theme.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L32)
 
 
-### $default_right_column
+### <a name="property-$default_right_column"></a>$default_right_column
 
     public mixed $default_right_column
 
@@ -104,10 +146,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Theme.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#33)
+* This property is defined in [classes/Theme.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L33)
 
 
-### $product_per_page
+### <a name="property-$product_per_page"></a>$product_per_page
 
     public mixed $product_per_page
 
@@ -116,10 +158,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Theme.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#34)
+* This property is defined in [classes/Theme.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L34)
 
 
-### $access_rights
+### <a name="property-$access_rights"></a>$access_rights
 
     public integer $access_rights = 509
 
@@ -129,10 +171,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Theme.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#43)
+* This property is defined in [classes/Theme.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L43)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'theme', 'primary' => 'id_theme', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 64, 'required' => true), 'directory' => array('type' => self::TYPE_STRING, 'validate' => 'isDirName', 'size' => 64, 'required' => true), 'responsive' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'default_left_column' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'default_right_column' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'product_per_page' => array('type' => self::TYPE_INT, 'validate' => 'isInt')))
 
@@ -142,14 +184,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Theme.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#47)
+* This property is defined in [classes/Theme.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L47)
 
 
 Methods
 -------
 
 
-### getThemes
+### <a name="method-getThemes"></a>getThemes
 
     mixed ThemeCore::getThemes()
 
@@ -159,12 +201,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Theme.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#60)
+* This method is defined in [classes/Theme.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L60)
 
 
 
 
-### getAllThemes
+### <a name="method-getAllThemes"></a>getAllThemes
 
     mixed ThemeCore::getAllThemes($excluded_ids)
 
@@ -174,7 +216,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Theme.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#67)
+* This method is defined in [classes/Theme.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L67)
 
 
 #### Arguments
@@ -182,7 +224,7 @@ Methods
 
 
 
-### getAvailable
+### <a name="method-getAvailable"></a>getAvailable
 
     array ThemeCore::getAvailable(boolean $installed_only)
 
@@ -192,7 +234,7 @@ return an array of all available theme (installed or not)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Theme.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#85)
+* This method is defined in [classes/Theme.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L85)
 
 
 #### Arguments
@@ -200,7 +242,7 @@ return an array of all available theme (installed or not)
 
 
 
-### isUsed
+### <a name="method-isUsed"></a>isUsed
 
     boolean ThemeCore::isUsed()
 
@@ -209,12 +251,12 @@ check if a theme is used by a shop
 
 
 * Visibility: **public**
-* This method is defined in [classes/Theme.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#123)
+* This method is defined in [classes/Theme.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L123)
 
 
 
 
-### add
+### <a name="method-add"></a>add
 
     boolean ThemeCore::add(boolean $autodate, boolean $null_values)
 
@@ -223,7 +265,7 @@ add only theme if the directory exists
 
 
 * Visibility: **public**
-* This method is defined in [classes/Theme.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#136)
+* This method is defined in [classes/Theme.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L136)
 
 
 #### Arguments
@@ -232,7 +274,7 @@ add only theme if the directory exists
 
 
 
-### getByDirectory
+### <a name="method-getByDirectory"></a>getByDirectory
 
     boolean|\Theme ThemeCore::getByDirectory(string $directory)
 
@@ -242,7 +284,7 @@ Checks if theme exists (by folder) and returns Theme object.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Theme.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#152)
+* This method is defined in [classes/Theme.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L152)
 
 
 #### Arguments
@@ -250,7 +292,7 @@ Checks if theme exists (by folder) and returns Theme object.
 
 
 
-### getInstalledThemeDirectories
+### <a name="method-getInstalledThemeDirectories"></a>getInstalledThemeDirectories
 
     mixed ThemeCore::getInstalledThemeDirectories()
 
@@ -260,12 +302,12 @@ Checks if theme exists (by folder) and returns Theme object.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Theme.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#163)
+* This method is defined in [classes/Theme.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L163)
 
 
 
 
-### getThemeInfo
+### <a name="method-getThemeInfo"></a>getThemeInfo
 
     mixed ThemeCore::getThemeInfo($id_theme)
 
@@ -275,7 +317,7 @@ Checks if theme exists (by folder) and returns Theme object.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Theme.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#174)
+* This method is defined in [classes/Theme.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L174)
 
 
 #### Arguments
@@ -283,7 +325,7 @@ Checks if theme exists (by folder) and returns Theme object.
 
 
 
-### getNonInstalledTheme
+### <a name="method-getNonInstalledTheme"></a>getNonInstalledTheme
 
     mixed ThemeCore::getNonInstalledTheme()
 
@@ -293,12 +335,12 @@ Checks if theme exists (by folder) and returns Theme object.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Theme.php line 214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#214)
+* This method is defined in [classes/Theme.php line 214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L214)
 
 
 
 
-### updateMetas
+### <a name="method-updateMetas"></a>updateMetas
 
     mixed ThemeCore::updateMetas(array $metas, boolean $full_update)
 
@@ -307,7 +349,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in [classes/Theme.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#244)
+* This method is defined in [classes/Theme.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L244)
 
 
 #### Arguments
@@ -316,7 +358,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 
-### hasColumns
+### <a name="method-hasColumns"></a>hasColumns
 
     mixed ThemeCore::hasColumns($page)
 
@@ -325,7 +367,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in [classes/Theme.php line 268](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#268)
+* This method is defined in [classes/Theme.php line 268](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L268)
 
 
 #### Arguments
@@ -333,7 +375,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 
-### hasColumnsSettings
+### <a name="method-hasColumnsSettings"></a>hasColumnsSettings
 
     mixed ThemeCore::hasColumnsSettings($page)
 
@@ -342,7 +384,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in [classes/Theme.php line 278](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#278)
+* This method is defined in [classes/Theme.php line 278](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L278)
 
 
 #### Arguments
@@ -350,7 +392,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 
-### hasLeftColumn
+### <a name="method-hasLeftColumn"></a>hasLeftColumn
 
     mixed ThemeCore::hasLeftColumn($page)
 
@@ -359,7 +401,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in [classes/Theme.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#288)
+* This method is defined in [classes/Theme.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L288)
 
 
 #### Arguments
@@ -367,7 +409,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 
-### hasRightColumn
+### <a name="method-hasRightColumn"></a>hasRightColumn
 
     mixed ThemeCore::hasRightColumn($page)
 
@@ -376,7 +418,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in [classes/Theme.php line 305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#305)
+* This method is defined in [classes/Theme.php line 305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L305)
 
 
 #### Arguments
@@ -384,7 +426,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 
-### getMetas
+### <a name="method-getMetas"></a>getMetas
 
     array|boolean ThemeCore::getMetas()
 
@@ -393,12 +435,12 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in [classes/Theme.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#324)
+* This method is defined in [classes/Theme.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L324)
 
 
 
 
-### removeMetas
+### <a name="method-removeMetas"></a>removeMetas
 
     boolean ThemeCore::removeMetas()
 
@@ -407,12 +449,12 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in [classes/Theme.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#336)
+* This method is defined in [classes/Theme.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L336)
 
 
 
 
-### toggleResponsive
+### <a name="method-toggleResponsive"></a>toggleResponsive
 
     mixed ThemeCore::toggleResponsive()
 
@@ -421,12 +463,12 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in [classes/Theme.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#345)
+* This method is defined in [classes/Theme.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L345)
 
 
 
 
-### toggleDefaultLeftColumn
+### <a name="method-toggleDefaultLeftColumn"></a>toggleDefaultLeftColumn
 
     mixed ThemeCore::toggleDefaultLeftColumn()
 
@@ -435,12 +477,12 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in [classes/Theme.php line 362](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#362)
+* This method is defined in [classes/Theme.php line 362](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L362)
 
 
 
 
-### toggleDefaultRightColumn
+### <a name="method-toggleDefaultRightColumn"></a>toggleDefaultRightColumn
 
     mixed ThemeCore::toggleDefaultRightColumn()
 
@@ -449,7 +491,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in [classes/Theme.php line 375](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#375)
+* This method is defined in [classes/Theme.php line 375](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#L375)
 
 
 

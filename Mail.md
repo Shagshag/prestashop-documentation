@@ -18,39 +18,70 @@ needs please refer to http://doc.prestashop.com/display/PS15/Overriding+default+
 Constants
 ----------
 
+* [TYPE_HTML](#constant-TYPE_HTML)
+* [TYPE_TEXT](#constant-TYPE_TEXT)
+* [TYPE_BOTH](#constant-TYPE_BOTH)
 
-### TYPE_HTML
+Properties
+----------
+
+* [$id](#property-$id)
+* [$recipient](#property-$recipient)
+* [$template](#property-$template)
+* [$subject](#property-$subject)
+* [$id_lang](#property-$id_lang)
+* [$date_add](#property-$date_add)
+* [$definition](#property-$definition)
+
+Methods
+-------
+* [send](#method-send)
+* [Send](#method-Send)
+* [eraseLog](#method-eraseLog)
+* [eraseAllLogs](#method-eraseAllLogs)
+* [sendMailTest](#method-sendMailTest)
+* [l](#method-l)
+* [generateId](#method-generateId)
+* [isMultibyte](#method-isMultibyte)
+* [mimeEncode](#method-mimeEncode)
+
+
+Constants
+----------
+
+
+### <a name="constant-TYPE_HTML"></a>TYPE_HTML
 
     const TYPE_HTML = 1
 
 
 
-* This constant is defined in [override/classes/Mail.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#66)
+* This constant is defined in [override/classes/Mail.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L66)
 
 
-### TYPE_TEXT
+### <a name="constant-TYPE_TEXT"></a>TYPE_TEXT
 
     const TYPE_TEXT = 2
 
 
 
-* This constant is defined in [override/classes/Mail.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#67)
+* This constant is defined in [override/classes/Mail.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L67)
 
 
-### TYPE_BOTH
+### <a name="constant-TYPE_BOTH"></a>TYPE_BOTH
 
     const TYPE_BOTH = 3
 
 
 
-* This constant is defined in [override/classes/Mail.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#68)
+* This constant is defined in [override/classes/Mail.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L68)
 
 
 Properties
 ----------
 
 
-### $id
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -59,10 +90,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [override/classes/Mail.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#34)
+* This property is defined in [override/classes/Mail.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L34)
 
 
-### $recipient
+### <a name="property-$recipient"></a>$recipient
 
     public string $recipient
 
@@ -71,10 +102,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [override/classes/Mail.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#37)
+* This property is defined in [override/classes/Mail.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L37)
 
 
-### $template
+### <a name="property-$template"></a>$template
 
     public string $template
 
@@ -83,10 +114,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [override/classes/Mail.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#40)
+* This property is defined in [override/classes/Mail.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L40)
 
 
-### $subject
+### <a name="property-$subject"></a>$subject
 
     public string $subject
 
@@ -95,10 +126,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [override/classes/Mail.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#43)
+* This property is defined in [override/classes/Mail.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L43)
 
 
-### $id_lang
+### <a name="property-$id_lang"></a>$id_lang
 
     public integer $id_lang
 
@@ -107,10 +138,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [override/classes/Mail.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#46)
+* This property is defined in [override/classes/Mail.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L46)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public integer $date_add
 
@@ -119,10 +150,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [override/classes/Mail.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#49)
+* This property is defined in [override/classes/Mail.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L49)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'mail', 'primary' => 'id_mail', 'fields' => array('recipient' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'copy_post' => false, 'required' => true, 'size' => 126), 'template' => array('type' => self::TYPE_STRING, 'validate' => 'isTplName', 'copy_post' => false, 'required' => true, 'size' => 62), 'subject' => array('type' => self::TYPE_STRING, 'validate' => 'isMailSubject', 'copy_post' => false, 'required' => true, 'size' => 254), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'copy_post' => false, 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'copy_post' => false, 'required' => true)))
 
@@ -132,14 +163,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [override/classes/Mail.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#54)
+* This property is defined in [override/classes/Mail.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L54)
 
 
 Methods
 -------
 
 
-### send
+### <a name="method-send"></a>send
 
     mixed Mail::send($id_lang, $template, $subject, $template_vars, $to, $to_name, $from, $from_name, $file_attachment, $mode_smtp, $template_path, $die, $id_shop, $bcc, $reply_to)
 
@@ -149,7 +180,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [override/classes/Mail.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#39)
+* This method is defined in [override/classes/Mail.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L39)
 
 
 #### Arguments
@@ -171,7 +202,7 @@ Methods
 
 
 
-### Send
+### <a name="method-Send"></a>Send
 
     mixed MailCore::Send(integer $id_lang, string $template, string $subject, string $template_vars, string $to, string $to_name, string $from, string $from_name, array $file_attachment, $mode_smtp, string $template_path, boolean $die, $id_shop, string $bcc, $reply_to)
 
@@ -182,7 +213,7 @@ Send Email
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [MailCore](MailCore)
-* This method is defined in [override/classes/Mail.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#87)
+* This method is defined in [override/classes/Mail.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L87)
 
 
 #### Arguments
@@ -204,7 +235,7 @@ Send Email
 
 
 
-### eraseLog
+### <a name="method-eraseLog"></a>eraseLog
 
     mixed MailCore::eraseLog($id_mail)
 
@@ -215,7 +246,7 @@ Send Email
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [MailCore](MailCore)
-* This method is defined in [override/classes/Mail.php line 402](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#402)
+* This method is defined in [override/classes/Mail.php line 402](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L402)
 
 
 #### Arguments
@@ -223,7 +254,7 @@ Send Email
 
 
 
-### eraseAllLogs
+### <a name="method-eraseAllLogs"></a>eraseAllLogs
 
     mixed MailCore::eraseAllLogs()
 
@@ -234,12 +265,12 @@ Send Email
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [MailCore](MailCore)
-* This method is defined in [override/classes/Mail.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#407)
+* This method is defined in [override/classes/Mail.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L407)
 
 
 
 
-### sendMailTest
+### <a name="method-sendMailTest"></a>sendMailTest
 
     mixed MailCore::sendMailTest($smtpChecked, $smtpServer, $content, $subject, $type, $to, $from, $smtpLogin, $smtpPassword, $smtpPort, $smtpEncryption)
 
@@ -250,7 +281,7 @@ Send Email
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [MailCore](MailCore)
-* This method is defined in [override/classes/Mail.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#412)
+* This method is defined in [override/classes/Mail.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L412)
 
 
 #### Arguments
@@ -268,7 +299,7 @@ Send Email
 
 
 
-### l
+### <a name="method-l"></a>l
 
     mixed MailCore::l(string $string, $id_lang, \Context $context)
 
@@ -280,7 +311,7 @@ we have to return a sentence with accents.
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [MailCore](MailCore)
-* This method is defined in [override/classes/Mail.php line 450](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#450)
+* This method is defined in [override/classes/Mail.php line 450](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L450)
 
 
 #### Arguments
@@ -290,7 +321,7 @@ we have to return a sentence with accents.
 
 
 
-### generateId
+### <a name="method-generateId"></a>generateId
 
     mixed MailCore::generateId($idstring)
 
@@ -301,7 +332,7 @@ we have to return a sentence with accents.
 * Visibility: **protected**
 * This method is **static**.
 * This method is defined by [MailCore](MailCore)
-* This method is defined in [override/classes/Mail.php line 481](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#481)
+* This method is defined in [override/classes/Mail.php line 481](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L481)
 
 
 #### Arguments
@@ -309,7 +340,7 @@ we have to return a sentence with accents.
 
 
 
-### isMultibyte
+### <a name="method-isMultibyte"></a>isMultibyte
 
     mixed MailCore::isMultibyte($data)
 
@@ -320,7 +351,7 @@ we have to return a sentence with accents.
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [MailCore](MailCore)
-* This method is defined in [override/classes/Mail.php line 492](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#492)
+* This method is defined in [override/classes/Mail.php line 492](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L492)
 
 
 #### Arguments
@@ -328,7 +359,7 @@ we have to return a sentence with accents.
 
 
 
-### mimeEncode
+### <a name="method-mimeEncode"></a>mimeEncode
 
     mixed MailCore::mimeEncode($string, $charset, $newline)
 
@@ -339,7 +370,7 @@ we have to return a sentence with accents.
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [MailCore](MailCore)
-* This method is defined in [override/classes/Mail.php line 503](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#503)
+* This method is defined in [override/classes/Mail.php line 503](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L503)
 
 
 #### Arguments

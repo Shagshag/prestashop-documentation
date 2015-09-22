@@ -17,8 +17,52 @@ AdminCustomersControllerCore
 Properties
 ----------
 
+* [$delete_mode](#property-$delete_mode)
+* [$_defaultOrderBy](#property-$_defaultOrderBy)
+* [$_defaultOrderWay](#property-$_defaultOrderWay)
+* [$can_add_customer](#property-$can_add_customer)
+* [$meaning_status](#property-$meaning_status)
+* [$object](#property-$object)
 
-### $delete_mode
+Methods
+-------
+* [__construct](#method-__construct)
+* [postProcess](#method-postProcess)
+* [initContent](#method-initContent)
+* [initToolbar](#method-initToolbar)
+* [getList](#method-getList)
+* [initToolbarTitle](#method-initToolbarTitle)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [initProcess](#method-initProcess)
+* [renderList](#method-renderList)
+* [renderForm](#method-renderForm)
+* [beforeAdd](#method-beforeAdd)
+* [renderKpis](#method-renderKpis)
+* [renderView](#method-renderView)
+* [processDelete](#method-processDelete)
+* [_setDeletedMode](#method-_setDeletedMode)
+* [processBulkDelete](#method-processBulkDelete)
+* [processAdd](#method-processAdd)
+* [processUpdate](#method-processUpdate)
+* [processSave](#method-processSave)
+* [afterDelete](#method-afterDelete)
+* [processGuestToCustomer](#method-processGuestToCustomer)
+* [processChangeNewsletterVal](#method-processChangeNewsletterVal)
+* [processChangeOptinVal](#method-processChangeOptinVal)
+* [printNewsIcon](#method-printNewsIcon)
+* [printOptinIcon](#method-printOptinIcon)
+* [displayDeleteLink](#method-displayDeleteLink)
+* [ajaxProcessSearchCustomers](#method-ajaxProcessSearchCustomers)
+* [ajaxProcessUpdateCustomerNote](#method-ajaxProcessUpdateCustomerNote)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$delete_mode"></a>$delete_mode
 
     protected mixed $delete_mode
 
@@ -27,10 +71,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminCustomersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#32)
+* This property is defined in [controllers/admin/AdminCustomersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L32)
 
 
-### $_defaultOrderBy
+### <a name="property-$_defaultOrderBy"></a>$_defaultOrderBy
 
     protected mixed $_defaultOrderBy = 'date_add'
 
@@ -39,10 +83,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminCustomersController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#34)
+* This property is defined in [controllers/admin/AdminCustomersController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L34)
 
 
-### $_defaultOrderWay
+### <a name="property-$_defaultOrderWay"></a>$_defaultOrderWay
 
     protected mixed $_defaultOrderWay = 'DESC'
 
@@ -51,10 +95,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminCustomersController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#35)
+* This property is defined in [controllers/admin/AdminCustomersController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L35)
 
 
-### $can_add_customer
+### <a name="property-$can_add_customer"></a>$can_add_customer
 
     protected mixed $can_add_customer = true
 
@@ -63,10 +107,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminCustomersController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#36)
+* This property is defined in [controllers/admin/AdminCustomersController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L36)
 
 
-### $meaning_status
+### <a name="property-$meaning_status"></a>$meaning_status
 
     protected mixed $meaning_status = array()
 
@@ -76,10 +120,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [controllers/admin/AdminCustomersController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#37)
+* This property is defined in [controllers/admin/AdminCustomersController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L37)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Customer $object
 
@@ -88,14 +132,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminCustomersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#30)
+* This property is defined in [controllers/admin/AdminCustomersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminCustomersControllerCore::__construct()
 
@@ -104,12 +148,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#39)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L39)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminCustomersControllerCore::postProcess()
 
@@ -118,12 +162,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#186)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L186)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminCustomersControllerCore::initContent()
 
@@ -132,12 +176,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#195)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L195)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminCustomersControllerCore::initToolbar()
 
@@ -146,12 +190,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#212)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L212)
 
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminCustomersControllerCore::getList($id_lang, $orderBy, $orderWay, $start, $limit, $id_lang_shop)
 
@@ -160,7 +204,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#226)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L226)
 
 
 #### Arguments
@@ -173,7 +217,7 @@ Methods
 
 
 
-### initToolbarTitle
+### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
     mixed AdminCustomersControllerCore::initToolbarTitle()
 
@@ -182,12 +226,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 238](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#238)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 238](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L238)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminCustomersControllerCore::initPageHeaderToolbar()
 
@@ -196,12 +240,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#273)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L273)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminCustomersControllerCore::initProcess()
 
@@ -210,12 +254,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#286)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L286)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminCustomersControllerCore::renderList()
 
@@ -224,12 +268,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 320](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#320)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 320](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L320)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminCustomersControllerCore::renderForm()
 
@@ -238,12 +282,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 333](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#333)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 333](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L333)
 
 
 
 
-### beforeAdd
+### <a name="method-beforeAdd"></a>beforeAdd
 
     mixed AdminCustomersControllerCore::beforeAdd($customer)
 
@@ -252,7 +296,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#626)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L626)
 
 
 #### Arguments
@@ -260,7 +304,7 @@ Methods
 
 
 
-### renderKpis
+### <a name="method-renderKpis"></a>renderKpis
 
     mixed AdminCustomersControllerCore::renderKpis()
 
@@ -269,12 +313,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 631](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#631)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 631](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L631)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminCustomersControllerCore::renderView()
 
@@ -283,12 +327,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 695](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#695)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 695](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L695)
 
 
 
 
-### processDelete
+### <a name="method-processDelete"></a>processDelete
 
     mixed AdminCustomersControllerCore::processDelete()
 
@@ -297,12 +341,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 876](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#876)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 876](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L876)
 
 
 
 
-### _setDeletedMode
+### <a name="method-_setDeletedMode"></a>_setDeletedMode
 
     mixed AdminCustomersControllerCore::_setDeletedMode()
 
@@ -311,12 +355,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 882](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#882)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 882](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L882)
 
 
 
 
-### processBulkDelete
+### <a name="method-processBulkDelete"></a>processBulkDelete
 
     mixed AdminCustomersControllerCore::processBulkDelete()
 
@@ -325,12 +369,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 894](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#894)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 894](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L894)
 
 
 
 
-### processAdd
+### <a name="method-processAdd"></a>processAdd
 
     mixed AdminCustomersControllerCore::processAdd()
 
@@ -339,12 +383,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 900](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#900)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 900](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L900)
 
 
 
 
-### processUpdate
+### <a name="method-processUpdate"></a>processUpdate
 
     mixed AdminCustomersControllerCore::processUpdate()
 
@@ -353,12 +397,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 926](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#926)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 926](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L926)
 
 
 
 
-### processSave
+### <a name="method-processSave"></a>processSave
 
     mixed AdminCustomersControllerCore::processSave()
 
@@ -367,12 +411,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 949](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#949)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 949](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L949)
 
 
 
 
-### afterDelete
+### <a name="method-afterDelete"></a>afterDelete
 
     mixed AdminCustomersControllerCore::afterDelete($object, $old_id)
 
@@ -381,7 +425,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 963](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#963)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 963](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L963)
 
 
 #### Arguments
@@ -390,7 +434,7 @@ Methods
 
 
 
-### processGuestToCustomer
+### <a name="method-processGuestToCustomer"></a>processGuestToCustomer
 
     mixed AdminCustomersControllerCore::processGuestToCustomer()
 
@@ -399,12 +443,12 @@ Transform a guest account into a registered customer account
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 977](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#977)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 977](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L977)
 
 
 
 
-### processChangeNewsletterVal
+### <a name="method-processChangeNewsletterVal"></a>processChangeNewsletterVal
 
     mixed AdminCustomersControllerCore::processChangeNewsletterVal()
 
@@ -413,12 +457,12 @@ Toggle the newsletter flag
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 999](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#999)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 999](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L999)
 
 
 
 
-### processChangeOptinVal
+### <a name="method-processChangeOptinVal"></a>processChangeOptinVal
 
     mixed AdminCustomersControllerCore::processChangeOptinVal()
 
@@ -427,12 +471,12 @@ Toggle newsletter optin flag
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 1015](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#1015)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 1015](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L1015)
 
 
 
 
-### printNewsIcon
+### <a name="method-printNewsIcon"></a>printNewsIcon
 
     mixed AdminCustomersControllerCore::printNewsIcon($value, $customer)
 
@@ -441,7 +485,7 @@ Toggle newsletter optin flag
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 1028](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#1028)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 1028](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L1028)
 
 
 #### Arguments
@@ -450,7 +494,7 @@ Toggle newsletter optin flag
 
 
 
-### printOptinIcon
+### <a name="method-printOptinIcon"></a>printOptinIcon
 
     mixed AdminCustomersControllerCore::printOptinIcon($value, $customer)
 
@@ -459,7 +503,7 @@ Toggle newsletter optin flag
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 1036](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#1036)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 1036](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L1036)
 
 
 #### Arguments
@@ -468,7 +512,7 @@ Toggle newsletter optin flag
 
 
 
-### displayDeleteLink
+### <a name="method-displayDeleteLink"></a>displayDeleteLink
 
     mixed AdminCustomersControllerCore::displayDeleteLink(string $token, integer $id, string $name)
 
@@ -477,7 +521,7 @@ Toggle newsletter optin flag
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 1050](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#1050)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 1050](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L1050)
 
 
 #### Arguments
@@ -487,7 +531,7 @@ Toggle newsletter optin flag
 
 
 
-### ajaxProcessSearchCustomers
+### <a name="method-ajaxProcessSearchCustomers"></a>ajaxProcessSearchCustomers
 
     void AdminCustomersControllerCore::ajaxProcessSearchCustomers()
 
@@ -497,12 +541,12 @@ add to $this->content the result of Customer::SearchByName
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 1074](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#1074)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 1074](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L1074)
 
 
 
 
-### ajaxProcessUpdateCustomerNote
+### <a name="method-ajaxProcessUpdateCustomerNote"></a>ajaxProcessUpdateCustomerNote
 
     void AdminCustomersControllerCore::ajaxProcessUpdateCustomerNote()
 
@@ -511,7 +555,7 @@ Uodate the customer note
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomersController.php line 1106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#1106)
+* This method is defined in [controllers/admin/AdminCustomersController.php line 1106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#L1106)
 
 
 

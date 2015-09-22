@@ -17,8 +17,37 @@ CartControllerCore
 Properties
 ----------
 
+* [$php_self](#property-$php_self)
+* [$id_product](#property-$id_product)
+* [$id_product_attribute](#property-$id_product_attribute)
+* [$id_address_delivery](#property-$id_address_delivery)
+* [$customization_id](#property-$customization_id)
+* [$qty](#property-$qty)
+* [$ssl](#property-$ssl)
+* [$ajax_refresh](#property-$ajax_refresh)
 
-### $php_self
+Methods
+-------
+* [canonicalRedirection](#method-canonicalRedirection)
+* [init](#method-init)
+* [postProcess](#method-postProcess)
+* [processDeleteProductInCart](#method-processDeleteProductInCart)
+* [processChangeProductAddressDelivery](#method-processChangeProductAddressDelivery)
+* [processAllowSeperatedPackage](#method-processAllowSeperatedPackage)
+* [processDuplicateProduct](#method-processDuplicateProduct)
+* [processChangeProductInCart](#method-processChangeProductInCart)
+* [processRemoveDiscounts](#method-processRemoveDiscounts)
+* [initContent](#method-initContent)
+* [displayAjax](#method-displayAjax)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'cart'
 
@@ -27,10 +56,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/CartController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#29)
+* This property is defined in [controllers/front/CartController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L29)
 
 
-### $id_product
+### <a name="property-$id_product"></a>$id_product
 
     protected mixed $id_product
 
@@ -39,10 +68,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/CartController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#31)
+* This property is defined in [controllers/front/CartController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L31)
 
 
-### $id_product_attribute
+### <a name="property-$id_product_attribute"></a>$id_product_attribute
 
     protected mixed $id_product_attribute
 
@@ -51,10 +80,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/CartController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#32)
+* This property is defined in [controllers/front/CartController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L32)
 
 
-### $id_address_delivery
+### <a name="property-$id_address_delivery"></a>$id_address_delivery
 
     protected mixed $id_address_delivery
 
@@ -63,10 +92,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/CartController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#33)
+* This property is defined in [controllers/front/CartController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L33)
 
 
-### $customization_id
+### <a name="property-$customization_id"></a>$customization_id
 
     protected mixed $customization_id
 
@@ -75,10 +104,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/CartController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#34)
+* This property is defined in [controllers/front/CartController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L34)
 
 
-### $qty
+### <a name="property-$qty"></a>$qty
 
     protected mixed $qty
 
@@ -87,10 +116,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/CartController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#35)
+* This property is defined in [controllers/front/CartController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L35)
 
 
-### $ssl
+### <a name="property-$ssl"></a>$ssl
 
     public mixed $ssl = true
 
@@ -99,10 +128,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/CartController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#36)
+* This property is defined in [controllers/front/CartController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L36)
 
 
-### $ajax_refresh
+### <a name="property-$ajax_refresh"></a>$ajax_refresh
 
     protected mixed $ajax_refresh = false
 
@@ -111,14 +140,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/CartController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#38)
+* This property is defined in [controllers/front/CartController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L38)
 
 
 Methods
 -------
 
 
-### canonicalRedirection
+### <a name="method-canonicalRedirection"></a>canonicalRedirection
 
     mixed CartControllerCore::canonicalRedirection(string $canonicalURL)
 
@@ -127,7 +156,7 @@ This is not a public page, so the canonical redirection is disabled
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/CartController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#45)
+* This method is defined in [controllers/front/CartController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L45)
 
 
 #### Arguments
@@ -135,7 +164,7 @@ This is not a public page, so the canonical redirection is disabled
 
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed CartControllerCore::init()
 
@@ -144,12 +173,12 @@ Initialize cart controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/CartController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#53)
+* This method is defined in [controllers/front/CartController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L53)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed CartControllerCore::postProcess()
 
@@ -158,12 +187,12 @@ Initialize cart controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/CartController.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#68)
+* This method is defined in [controllers/front/CartController.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L68)
 
 
 
 
-### processDeleteProductInCart
+### <a name="method-processDeleteProductInCart"></a>processDeleteProductInCart
 
     mixed CartControllerCore::processDeleteProductInCart()
 
@@ -172,12 +201,12 @@ This process delete a product from the cart
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/CartController.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#108)
+* This method is defined in [controllers/front/CartController.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L108)
 
 
 
 
-### processChangeProductAddressDelivery
+### <a name="method-processChangeProductAddressDelivery"></a>processChangeProductAddressDelivery
 
     mixed CartControllerCore::processChangeProductAddressDelivery()
 
@@ -186,12 +215,12 @@ This process delete a product from the cart
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/CartController.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#157)
+* This method is defined in [controllers/front/CartController.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L157)
 
 
 
 
-### processAllowSeperatedPackage
+### <a name="method-processAllowSeperatedPackage"></a>processAllowSeperatedPackage
 
     mixed CartControllerCore::processAllowSeperatedPackage()
 
@@ -200,12 +229,12 @@ This process delete a product from the cart
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/CartController.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#180)
+* This method is defined in [controllers/front/CartController.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L180)
 
 
 
 
-### processDuplicateProduct
+### <a name="method-processDuplicateProduct"></a>processDuplicateProduct
 
     mixed CartControllerCore::processDuplicateProduct()
 
@@ -214,12 +243,12 @@ This process delete a product from the cart
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/CartController.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#195)
+* This method is defined in [controllers/front/CartController.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L195)
 
 
 
 
-### processChangeProductInCart
+### <a name="method-processChangeProductInCart"></a>processChangeProductInCart
 
     mixed CartControllerCore::processChangeProductInCart()
 
@@ -228,12 +257,12 @@ This process add or update a product in the cart
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/CartController.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#216)
+* This method is defined in [controllers/front/CartController.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L216)
 
 
 
 
-### processRemoveDiscounts
+### <a name="method-processRemoveDiscounts"></a>processRemoveDiscounts
 
     mixed CartControllerCore::processRemoveDiscounts()
 
@@ -242,12 +271,12 @@ Remove discounts on cart
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/CartController.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#331)
+* This method is defined in [controllers/front/CartController.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L331)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed CartControllerCore::initContent()
 
@@ -256,12 +285,12 @@ Remove discounts on cart
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/CartController.php line 340](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#340)
+* This method is defined in [controllers/front/CartController.php line 340](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L340)
 
 
 
 
-### displayAjax
+### <a name="method-displayAjax"></a>displayAjax
 
     mixed CartControllerCore::displayAjax()
 
@@ -270,7 +299,7 @@ Display ajax content (this function is called instead of classic display, in aja
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/CartController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#351)
+* This method is defined in [controllers/front/CartController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#L351)
 
 
 

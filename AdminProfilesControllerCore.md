@@ -17,8 +17,22 @@ AdminProfilesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [postProcess](#method-postProcess)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Profile $object
 
@@ -27,14 +41,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminProfilesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProfilesController.php#30)
+* This property is defined in [controllers/admin/AdminProfilesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProfilesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminProfilesControllerCore::__construct()
 
@@ -43,12 +57,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminProfilesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProfilesController.php#32)
+* This method is defined in [controllers/admin/AdminProfilesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProfilesController.php#L32)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminProfilesControllerCore::postProcess()
 
@@ -57,12 +71,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminProfilesController.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProfilesController.php#90)
+* This method is defined in [controllers/admin/AdminProfilesController.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProfilesController.php#L90)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminProfilesControllerCore::initPageHeaderToolbar()
 
@@ -71,7 +85,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminProfilesController.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProfilesController.php#106)
+* This method is defined in [controllers/admin/AdminProfilesController.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProfilesController.php#L106)
 
 
 

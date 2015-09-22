@@ -17,8 +17,60 @@ CMSCategoryCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$id_cms_category](#property-$id_cms_category)
+* [$name](#property-$name)
+* [$active](#property-$active)
+* [$description](#property-$description)
+* [$id_parent](#property-$id_parent)
+* [$position](#property-$position)
+* [$level_depth](#property-$level_depth)
+* [$link_rewrite](#property-$link_rewrite)
+* [$meta_title](#property-$meta_title)
+* [$meta_keywords](#property-$meta_keywords)
+* [$meta_description](#property-$meta_description)
+* [$date_add](#property-$date_add)
+* [$date_upd](#property-$date_upd)
+* [$_links](#property-$_links)
+* [$definition](#property-$definition)
 
-### $id
+Methods
+-------
+* [add](#method-add)
+* [update](#method-update)
+* [recurseLiteCategTree](#method-recurseLiteCategTree)
+* [getRecurseCategory](#method-getRecurseCategory)
+* [recurseCMSCategory](#method-recurseCMSCategory)
+* [recursiveDelete](#method-recursiveDelete)
+* [delete](#method-delete)
+* [deleteSelection](#method-deleteSelection)
+* [calcLevelDepth](#method-calcLevelDepth)
+* [getCategories](#method-getCategories)
+* [getSimpleCategories](#method-getSimpleCategories)
+* [getSubCategories](#method-getSubCategories)
+* [hideCMSCategoryPosition](#method-hideCMSCategoryPosition)
+* [getHomeCategories](#method-getHomeCategories)
+* [getChildren](#method-getChildren)
+* [checkBeforeMove](#method-checkBeforeMove)
+* [getLinkRewrite](#method-getLinkRewrite)
+* [getLink](#method-getLink)
+* [getName](#method-getName)
+* [searchByName](#method-searchByName)
+* [searchByNameAndParentCMSCategoryId](#method-searchByNameAndParentCMSCategoryId)
+* [getParentsCategories](#method-getParentsCategories)
+* [updatePosition](#method-updatePosition)
+* [cleanPositions](#method-cleanPositions)
+* [getLastPosition](#method-getLastPosition)
+* [getUrlRewriteInformations](#method-getUrlRewriteInformations)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +79,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#29)
+* This property is defined in [classes/CMSCategory.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L29)
 
 
-### $id_cms_category
+### <a name="property-$id_cms_category"></a>$id_cms_category
 
     public integer $id_cms_category
 
@@ -39,10 +91,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#32)
+* This property is defined in [classes/CMSCategory.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L32)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -51,10 +103,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#35)
+* This property is defined in [classes/CMSCategory.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L35)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public boolean $active = 1
 
@@ -63,10 +115,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#38)
+* This property is defined in [classes/CMSCategory.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L38)
 
 
-### $description
+### <a name="property-$description"></a>$description
 
     public string $description
 
@@ -75,10 +127,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#41)
+* This property is defined in [classes/CMSCategory.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L41)
 
 
-### $id_parent
+### <a name="property-$id_parent"></a>$id_parent
 
     public integer $id_parent
 
@@ -87,10 +139,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#44)
+* This property is defined in [classes/CMSCategory.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L44)
 
 
-### $position
+### <a name="property-$position"></a>$position
 
     public integer $position
 
@@ -99,10 +151,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#47)
+* This property is defined in [classes/CMSCategory.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L47)
 
 
-### $level_depth
+### <a name="property-$level_depth"></a>$level_depth
 
     public integer $level_depth
 
@@ -111,10 +163,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#50)
+* This property is defined in [classes/CMSCategory.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L50)
 
 
-### $link_rewrite
+### <a name="property-$link_rewrite"></a>$link_rewrite
 
     public string $link_rewrite
 
@@ -123,10 +175,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#53)
+* This property is defined in [classes/CMSCategory.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L53)
 
 
-### $meta_title
+### <a name="property-$meta_title"></a>$meta_title
 
     public string $meta_title
 
@@ -135,10 +187,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#56)
+* This property is defined in [classes/CMSCategory.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L56)
 
 
-### $meta_keywords
+### <a name="property-$meta_keywords"></a>$meta_keywords
 
     public string $meta_keywords
 
@@ -147,10 +199,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#59)
+* This property is defined in [classes/CMSCategory.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L59)
 
 
-### $meta_description
+### <a name="property-$meta_description"></a>$meta_description
 
     public string $meta_description
 
@@ -159,10 +211,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#62)
+* This property is defined in [classes/CMSCategory.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L62)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -171,10 +223,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#65)
+* This property is defined in [classes/CMSCategory.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L65)
 
 
-### $date_upd
+### <a name="property-$date_upd"></a>$date_upd
 
     public string $date_upd
 
@@ -183,10 +235,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSCategory.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#68)
+* This property is defined in [classes/CMSCategory.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L68)
 
 
-### $_links
+### <a name="property-$_links"></a>$_links
 
     protected mixed $_links = array()
 
@@ -196,10 +248,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/CMSCategory.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#70)
+* This property is defined in [classes/CMSCategory.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L70)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'cms_category', 'primary' => 'id_cms_category', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'id_parent' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'position' => array('type' => self::TYPE_INT), 'level_depth' => array('type' => self::TYPE_INT), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCatalogName', 'required' => true, 'size' => 64), 'link_rewrite' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isLinkRewrite', 'required' => true, 'size' => 64), 'description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml'), 'meta_title' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 128), 'meta_description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255), 'meta_keywords' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'size' => 255)))
 
@@ -209,14 +261,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/CMSCategory.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#75)
+* This property is defined in [classes/CMSCategory.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L75)
 
 
 Methods
 -------
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed CMSCategoryCore::add($autodate, $null_values)
 
@@ -225,7 +277,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMSCategory.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#98)
+* This method is defined in [classes/CMSCategory.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L98)
 
 
 #### Arguments
@@ -234,7 +286,7 @@ Methods
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed CMSCategoryCore::update($null_values)
 
@@ -243,7 +295,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMSCategory.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#112)
+* This method is defined in [classes/CMSCategory.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L112)
 
 
 #### Arguments
@@ -251,7 +303,7 @@ Methods
 
 
 
-### recurseLiteCategTree
+### <a name="method-recurseLiteCategTree"></a>recurseLiteCategTree
 
     array CMSCategoryCore::recurseLiteCategTree(integer $max_depth, integer $currentDepth, $id_lang, array $excluded_ids_array, \Link $link)
 
@@ -260,7 +312,7 @@ Recursive scan of subcategories
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMSCategory.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#133)
+* This method is defined in [classes/CMSCategory.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L133)
 
 
 #### Arguments
@@ -272,7 +324,7 @@ Recursive scan of subcategories
 
 
 
-### getRecurseCategory
+### <a name="method-getRecurseCategory"></a>getRecurseCategory
 
     mixed CMSCategoryCore::getRecurseCategory($id_lang, $current, $active, $links, \Link $link)
 
@@ -282,7 +334,7 @@ Recursive scan of subcategories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#167)
+* This method is defined in [classes/CMSCategory.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L167)
 
 
 #### Arguments
@@ -294,7 +346,7 @@ Recursive scan of subcategories
 
 
 
-### recurseCMSCategory
+### <a name="method-recurseCMSCategory"></a>recurseCMSCategory
 
     mixed CMSCategoryCore::recurseCMSCategory($categories, $current, $id_cms_category, $id_selected, $is_html)
 
@@ -304,7 +356,7 @@ Recursive scan of subcategories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#210)
+* This method is defined in [classes/CMSCategory.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L210)
 
 
 #### Arguments
@@ -316,7 +368,7 @@ Recursive scan of subcategories
 
 
 
-### recursiveDelete
+### <a name="method-recursiveDelete"></a>recursiveDelete
 
     mixed CMSCategoryCore::recursiveDelete($to_delete, array|integer $id_cms_category)
 
@@ -325,7 +377,7 @@ Recursively add specified CMSCategory childs to $toDelete array
 
 
 * Visibility: **protected**
-* This method is defined in [classes/CMSCategory.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#232)
+* This method is defined in [classes/CMSCategory.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L232)
 
 
 #### Arguments
@@ -334,7 +386,7 @@ Recursively add specified CMSCategory childs to $toDelete array
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed CMSCategoryCore::delete()
 
@@ -343,12 +395,12 @@ Recursively add specified CMSCategory childs to $toDelete array
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMSCategory.php line 248](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#248)
+* This method is defined in [classes/CMSCategory.php line 248](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L248)
 
 
 
 
-### deleteSelection
+### <a name="method-deleteSelection"></a>deleteSelection
 
     mixed CMSCategoryCore::deleteSelection($categories)
 
@@ -357,7 +409,7 @@ Delete several categories from database
 return boolean Deletion result
 
 * Visibility: **public**
-* This method is defined in [classes/CMSCategory.php line 297](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#297)
+* This method is defined in [classes/CMSCategory.php line 297](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L297)
 
 
 #### Arguments
@@ -365,7 +417,7 @@ return boolean Deletion result
 
 
 
-### calcLevelDepth
+### <a name="method-calcLevelDepth"></a>calcLevelDepth
 
     integer CMSCategoryCore::calcLevelDepth()
 
@@ -374,12 +426,12 @@ Get the number of parent categories
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMSCategory.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#312)
+* This method is defined in [classes/CMSCategory.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L312)
 
 
 
 
-### getCategories
+### <a name="method-getCategories"></a>getCategories
 
     array CMSCategoryCore::getCategories(integer $id_lang, boolean $active, $order)
 
@@ -389,7 +441,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 328](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#328)
+* This method is defined in [classes/CMSCategory.php line 328](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L328)
 
 
 #### Arguments
@@ -399,7 +451,7 @@ Return available categories
 
 
 
-### getSimpleCategories
+### <a name="method-getSimpleCategories"></a>getSimpleCategories
 
     mixed CMSCategoryCore::getSimpleCategories($id_lang)
 
@@ -409,7 +461,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#353)
+* This method is defined in [classes/CMSCategory.php line 353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L353)
 
 
 #### Arguments
@@ -417,7 +469,7 @@ Return available categories
 
 
 
-### getSubCategories
+### <a name="method-getSubCategories"></a>getSubCategories
 
     array CMSCategoryCore::getSubCategories(integer $id_lang, boolean $active)
 
@@ -426,7 +478,7 @@ Return current CMSCategory childs
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMSCategory.php line 370](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#370)
+* This method is defined in [classes/CMSCategory.php line 370](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L370)
 
 
 #### Arguments
@@ -435,7 +487,7 @@ Return current CMSCategory childs
 
 
 
-### hideCMSCategoryPosition
+### <a name="method-hideCMSCategoryPosition"></a>hideCMSCategoryPosition
 
     string CMSCategoryCore::hideCMSCategoryPosition(string $name)
 
@@ -445,7 +497,7 @@ Hide CMSCategory prefix used for position
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 398](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#398)
+* This method is defined in [classes/CMSCategory.php line 398](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L398)
 
 
 #### Arguments
@@ -453,7 +505,7 @@ Hide CMSCategory prefix used for position
 
 
 
-### getHomeCategories
+### <a name="method-getHomeCategories"></a>getHomeCategories
 
     array CMSCategoryCore::getHomeCategories(integer $id_lang, boolean $active)
 
@@ -463,7 +515,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 410](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#410)
+* This method is defined in [classes/CMSCategory.php line 410](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L410)
 
 
 #### Arguments
@@ -472,7 +524,7 @@ Return main categories
 
 
 
-### getChildren
+### <a name="method-getChildren"></a>getChildren
 
     mixed CMSCategoryCore::getChildren($id_parent, $id_lang, $active)
 
@@ -482,7 +534,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 415](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#415)
+* This method is defined in [classes/CMSCategory.php line 415](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L415)
 
 
 #### Arguments
@@ -492,7 +544,7 @@ Return main categories
 
 
 
-### checkBeforeMove
+### <a name="method-checkBeforeMove"></a>checkBeforeMove
 
     boolean CMSCategoryCore::checkBeforeMove($id_cms_category, integer $id_parent)
 
@@ -502,7 +554,7 @@ Check if CMSCategory can be moved in another one
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 445](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#445)
+* This method is defined in [classes/CMSCategory.php line 445](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L445)
 
 
 #### Arguments
@@ -511,7 +563,7 @@ Check if CMSCategory can be moved in another one
 
 
 
-### getLinkRewrite
+### <a name="method-getLinkRewrite"></a>getLinkRewrite
 
     mixed CMSCategoryCore::getLinkRewrite($id_cms_category, $id_lang)
 
@@ -521,7 +573,7 @@ Check if CMSCategory can be moved in another one
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 470](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#470)
+* This method is defined in [classes/CMSCategory.php line 470](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L470)
 
 
 #### Arguments
@@ -530,7 +582,7 @@ Check if CMSCategory can be moved in another one
 
 
 
-### getLink
+### <a name="method-getLink"></a>getLink
 
     mixed CMSCategoryCore::getLink(\Link $link)
 
@@ -539,7 +591,7 @@ Check if CMSCategory can be moved in another one
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMSCategory.php line 490](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#490)
+* This method is defined in [classes/CMSCategory.php line 490](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L490)
 
 
 #### Arguments
@@ -547,7 +599,7 @@ Check if CMSCategory can be moved in another one
 
 
 
-### getName
+### <a name="method-getName"></a>getName
 
     mixed CMSCategoryCore::getName($id_lang)
 
@@ -556,7 +608,7 @@ Check if CMSCategory can be moved in another one
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMSCategory.php line 498](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#498)
+* This method is defined in [classes/CMSCategory.php line 498](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L498)
 
 
 #### Arguments
@@ -564,7 +616,7 @@ Check if CMSCategory can be moved in another one
 
 
 
-### searchByName
+### <a name="method-searchByName"></a>searchByName
 
     array CMSCategoryCore::searchByName(integer $id_lang, string $query, boolean $unrestricted)
 
@@ -574,7 +626,7 @@ Light back office search for categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 519](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#519)
+* This method is defined in [classes/CMSCategory.php line 519](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L519)
 
 
 #### Arguments
@@ -584,7 +636,7 @@ Light back office search for categories
 
 
 
-### searchByNameAndParentCMSCategoryId
+### <a name="method-searchByNameAndParentCMSCategoryId"></a>searchByNameAndParentCMSCategoryId
 
     array CMSCategoryCore::searchByNameAndParentCMSCategoryId(integer $id_lang, string $CMSCategory_name, integer $id_parent_CMSCategory)
 
@@ -594,7 +646,7 @@ Retrieve CMSCategory by name and parent CMSCategory id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 545](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#545)
+* This method is defined in [classes/CMSCategory.php line 545](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L545)
 
 
 #### Arguments
@@ -604,7 +656,7 @@ Retrieve CMSCategory by name and parent CMSCategory id
 
 
 
-### getParentsCategories
+### <a name="method-getParentsCategories"></a>getParentsCategories
 
     array CMSCategoryCore::getParentsCategories(integer $id_lang)
 
@@ -613,7 +665,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMSCategory.php line 563](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#563)
+* This method is defined in [classes/CMSCategory.php line 563](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L563)
 
 
 #### Arguments
@@ -621,7 +673,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 
 
-### updatePosition
+### <a name="method-updatePosition"></a>updatePosition
 
     mixed CMSCategoryCore::updatePosition($way, $position)
 
@@ -630,7 +682,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 
 * Visibility: **public**
-* This method is defined in [classes/CMSCategory.php line 588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#588)
+* This method is defined in [classes/CMSCategory.php line 588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L588)
 
 
 #### Arguments
@@ -639,7 +691,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 
 
-### cleanPositions
+### <a name="method-cleanPositions"></a>cleanPositions
 
     mixed CMSCategoryCore::cleanPositions($id_category_parent)
 
@@ -649,7 +701,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 624](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#624)
+* This method is defined in [classes/CMSCategory.php line 624](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L624)
 
 
 #### Arguments
@@ -657,7 +709,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 
 
-### getLastPosition
+### <a name="method-getLastPosition"></a>getLastPosition
 
     mixed CMSCategoryCore::getLastPosition($id_category_parent)
 
@@ -667,7 +719,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 643](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#643)
+* This method is defined in [classes/CMSCategory.php line 643](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L643)
 
 
 #### Arguments
@@ -675,7 +727,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 
 
-### getUrlRewriteInformations
+### <a name="method-getUrlRewriteInformations"></a>getUrlRewriteInformations
 
     mixed CMSCategoryCore::getUrlRewriteInformations($id_category)
 
@@ -685,7 +737,7 @@ Get Each parent CMSCategory of this CMSCategory until the root CMSCategory
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSCategory.php line 648](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#648)
+* This method is defined in [classes/CMSCategory.php line 648](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSCategory.php#L648)
 
 
 #### Arguments

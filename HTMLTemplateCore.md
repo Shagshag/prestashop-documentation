@@ -17,8 +17,35 @@ HTMLTemplateCore
 Properties
 ----------
 
+* [$title](#property-$title)
+* [$date](#property-$date)
+* [$available_in_your_account](#property-$available_in_your_account)
+* [$smarty](#property-$smarty)
+* [$shop](#property-$shop)
 
-### $title
+Methods
+-------
+* [getHeader](#method-getHeader)
+* [getFooter](#method-getFooter)
+* [getShopAddress](#method-getShopAddress)
+* [getLogo](#method-getLogo)
+* [assignCommonHeaderData](#method-assignCommonHeaderData)
+* [assignHookData](#method-assignHookData)
+* [getContent](#method-getContent)
+* [getFilename](#method-getFilename)
+* [getBulkFilename](#method-getBulkFilename)
+* [getTemplate](#method-getTemplate)
+* [l](#method-l)
+* [setShopId](#method-setShopId)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$title"></a>$title
 
     public mixed $title
 
@@ -27,10 +54,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/HTMLTemplate.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#32)
+* This property is defined in [classes/pdf/HTMLTemplate.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L32)
 
 
-### $date
+### <a name="property-$date"></a>$date
 
     public mixed $date
 
@@ -39,10 +66,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/HTMLTemplate.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#33)
+* This property is defined in [classes/pdf/HTMLTemplate.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L33)
 
 
-### $available_in_your_account
+### <a name="property-$available_in_your_account"></a>$available_in_your_account
 
     public mixed $available_in_your_account = true
 
@@ -51,10 +78,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/HTMLTemplate.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#34)
+* This property is defined in [classes/pdf/HTMLTemplate.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L34)
 
 
-### $smarty
+### <a name="property-$smarty"></a>$smarty
 
     public \Smarty $smarty
 
@@ -63,10 +90,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/HTMLTemplate.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#37)
+* This property is defined in [classes/pdf/HTMLTemplate.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L37)
 
 
-### $shop
+### <a name="property-$shop"></a>$shop
 
     public \Shop $shop
 
@@ -75,14 +102,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/HTMLTemplate.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#40)
+* This property is defined in [classes/pdf/HTMLTemplate.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L40)
 
 
 Methods
 -------
 
 
-### getHeader
+### <a name="method-getHeader"></a>getHeader
 
     string HTMLTemplateCore::getHeader()
 
@@ -91,12 +118,12 @@ Returns the template's HTML header
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/HTMLTemplate.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#47)
+* This method is defined in [classes/pdf/HTMLTemplate.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L47)
 
 
 
 
-### getFooter
+### <a name="method-getFooter"></a>getFooter
 
     string HTMLTemplateCore::getFooter()
 
@@ -105,12 +132,12 @@ Returns the template's HTML footer
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/HTMLTemplate.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#59)
+* This method is defined in [classes/pdf/HTMLTemplate.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L59)
 
 
 
 
-### getShopAddress
+### <a name="method-getShopAddress"></a>getShopAddress
 
     string HTMLTemplateCore::getShopAddress()
 
@@ -119,12 +146,12 @@ Returns the shop address
 
 
 * Visibility: **protected**
-* This method is defined in [classes/pdf/HTMLTemplate.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#82)
+* This method is defined in [classes/pdf/HTMLTemplate.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L82)
 
 
 
 
-### getLogo
+### <a name="method-getLogo"></a>getLogo
 
     mixed HTMLTemplateCore::getLogo()
 
@@ -133,12 +160,12 @@ Returns the invoice logo
 
 
 * Visibility: **protected**
-* This method is defined in [classes/pdf/HTMLTemplate.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#97)
+* This method is defined in [classes/pdf/HTMLTemplate.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L97)
 
 
 
 
-### assignCommonHeaderData
+### <a name="method-assignCommonHeaderData"></a>assignCommonHeaderData
 
     mixed HTMLTemplateCore::assignCommonHeaderData()
 
@@ -147,12 +174,12 @@ Assign common header data to smarty variables
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/HTMLTemplate.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#115)
+* This method is defined in [classes/pdf/HTMLTemplate.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L115)
 
 
 
 
-### assignHookData
+### <a name="method-assignHookData"></a>assignHookData
 
     mixed HTMLTemplateCore::assignHookData(\ObjectModel $object)
 
@@ -161,7 +188,7 @@ Assign hook data
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/HTMLTemplate.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#155)
+* This method is defined in [classes/pdf/HTMLTemplate.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L155)
 
 
 #### Arguments
@@ -169,7 +196,7 @@ Assign hook data
 
 
 
-### getContent
+### <a name="method-getContent"></a>getContent
 
     string HTMLTemplateCore::getContent()
 
@@ -179,12 +206,12 @@ Returns the template's HTML content
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in [classes/pdf/HTMLTemplate.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#170)
+* This method is defined in [classes/pdf/HTMLTemplate.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L170)
 
 
 
 
-### getFilename
+### <a name="method-getFilename"></a>getFilename
 
     string HTMLTemplateCore::getFilename()
 
@@ -194,12 +221,12 @@ Returns the template filename
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in [classes/pdf/HTMLTemplate.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#178)
+* This method is defined in [classes/pdf/HTMLTemplate.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L178)
 
 
 
 
-### getBulkFilename
+### <a name="method-getBulkFilename"></a>getBulkFilename
 
     string HTMLTemplateCore::getBulkFilename()
 
@@ -209,12 +236,12 @@ Returns the template filename when using bulk rendering
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in [classes/pdf/HTMLTemplate.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#185)
+* This method is defined in [classes/pdf/HTMLTemplate.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L185)
 
 
 
 
-### getTemplate
+### <a name="method-getTemplate"></a>getTemplate
 
     string HTMLTemplateCore::getTemplate($template_name)
 
@@ -224,7 +251,7 @@ in _PS_PDF_DIR_ directory
 
 
 * Visibility: **protected**
-* This method is defined in [classes/pdf/HTMLTemplate.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#195)
+* This method is defined in [classes/pdf/HTMLTemplate.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L195)
 
 
 #### Arguments
@@ -232,7 +259,7 @@ in _PS_PDF_DIR_ directory
 
 
 
-### l
+### <a name="method-l"></a>l
 
     string HTMLTemplateCore::l(string $string)
 
@@ -242,7 +269,7 @@ Translation method
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [classes/pdf/HTMLTemplate.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#217)
+* This method is defined in [classes/pdf/HTMLTemplate.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L217)
 
 
 #### Arguments
@@ -250,7 +277,7 @@ Translation method
 
 
 
-### setShopId
+### <a name="method-setShopId"></a>setShopId
 
     mixed HTMLTemplateCore::setShopId()
 
@@ -259,7 +286,7 @@ Translation method
 
 
 * Visibility: **protected**
-* This method is defined in [classes/pdf/HTMLTemplate.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#222)
+* This method is defined in [classes/pdf/HTMLTemplate.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplate.php#L222)
 
 
 

@@ -21,7 +21,6 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Interface name: Core_Business_ConfigurationInterface
-* Namespace: 
 * This is an **interface**
 * This interface is defined in [Core/Business/Core_Business_ConfigurationInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Core_Business_ConfigurationInterface.php#L27)
 
@@ -32,9 +31,18 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [get](#method-get)
 
 
-### get
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-get"></a>get
 
     mixed Core_Business_ConfigurationInterface::get($key)
 
@@ -43,7 +51,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Business/Core_Business_ConfigurationInterface.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Core_Business_ConfigurationInterface.php#29)
+* This method is defined in [Core/Business/Core_Business_ConfigurationInterface.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Core_Business_ConfigurationInterface.php#L29)
 
 
 #### Arguments

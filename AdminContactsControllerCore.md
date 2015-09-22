@@ -17,8 +17,22 @@ AdminContactsControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [renderForm](#method-renderForm)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Contact $object
 
@@ -27,14 +41,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminContactsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminContactsController.php#30)
+* This property is defined in [controllers/admin/AdminContactsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminContactsController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminContactsControllerCore::__construct()
 
@@ -43,12 +57,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminContactsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminContactsController.php#32)
+* This method is defined in [controllers/admin/AdminContactsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminContactsController.php#L32)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminContactsControllerCore::renderForm()
 
@@ -57,12 +71,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminContactsController.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminContactsController.php#58)
+* This method is defined in [controllers/admin/AdminContactsController.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminContactsController.php#L58)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminContactsControllerCore::initPageHeaderToolbar()
 
@@ -71,7 +85,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminContactsController.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminContactsController.php#130)
+* This method is defined in [controllers/admin/AdminContactsController.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminContactsController.php#L130)
 
 
 

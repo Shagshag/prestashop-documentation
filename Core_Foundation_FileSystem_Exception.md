@@ -32,9 +32,18 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [__construct](#method-__construct)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed Core_Foundation_Exception_Exception::__construct($message, $code, \Exception $previous)
 
@@ -44,7 +53,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Exception_Exception](Core_Foundation_Exception_Exception)
-* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_Exception.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_Exception.php#29)
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_Exception.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_Exception.php#L29)
 
 
 #### Arguments

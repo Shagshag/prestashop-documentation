@@ -17,8 +17,37 @@ ProductControllerCore
 Properties
 ----------
 
+* [$php_self](#property-$php_self)
+* [$product](#property-$product)
+* [$category](#property-$category)
 
-### $php_self
+Methods
+-------
+* [setMedia](#method-setMedia)
+* [canonicalRedirection](#method-canonicalRedirection)
+* [init](#method-init)
+* [initContent](#method-initContent)
+* [assignPriceAndTax](#method-assignPriceAndTax)
+* [assignImages](#method-assignImages)
+* [assignAttributesGroups](#method-assignAttributesGroups)
+* [assignAttributesCombinations](#method-assignAttributesCombinations)
+* [assignCategory](#method-assignCategory)
+* [transformDescriptionWithImg](#method-transformDescriptionWithImg)
+* [pictureUpload](#method-pictureUpload)
+* [textRecord](#method-textRecord)
+* [formTargetFormat](#method-formTargetFormat)
+* [formatQuantityDiscounts](#method-formatQuantityDiscounts)
+* [getProduct](#method-getProduct)
+* [getCategory](#method-getCategory)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'product'
 
@@ -27,10 +56,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/ProductController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#29)
+* This property is defined in [controllers/front/ProductController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L29)
 
 
-### $product
+### <a name="property-$product"></a>$product
 
     protected \Product $product
 
@@ -39,10 +68,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/ProductController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#32)
+* This property is defined in [controllers/front/ProductController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L32)
 
 
-### $category
+### <a name="property-$category"></a>$category
 
     protected \Category $category
 
@@ -51,14 +80,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/ProductController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#35)
+* This property is defined in [controllers/front/ProductController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L35)
 
 
 Methods
 -------
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed ProductControllerCore::setMedia()
 
@@ -67,12 +96,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/ProductController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#37)
+* This method is defined in [controllers/front/ProductController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L37)
 
 
 
 
-### canonicalRedirection
+### <a name="method-canonicalRedirection"></a>canonicalRedirection
 
     mixed ProductControllerCore::canonicalRedirection($canonical_url)
 
@@ -81,7 +110,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/ProductController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#66)
+* This method is defined in [controllers/front/ProductController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L66)
 
 
 #### Arguments
@@ -89,7 +118,7 @@ Methods
 
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed ProductControllerCore::init()
 
@@ -98,12 +127,12 @@ Initialize product controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/ProductController.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#80)
+* This method is defined in [controllers/front/ProductController.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L80)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed ProductControllerCore::initContent()
 
@@ -112,12 +141,12 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/ProductController.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#170)
+* This method is defined in [controllers/front/ProductController.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L170)
 
 
 
 
-### assignPriceAndTax
+### <a name="method-assignPriceAndTax"></a>assignPriceAndTax
 
     mixed ProductControllerCore::assignPriceAndTax()
 
@@ -126,12 +155,12 @@ Assign price and tax to the template
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/ProductController.php line 302](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#302)
+* This method is defined in [controllers/front/ProductController.php line 302](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L302)
 
 
 
 
-### assignImages
+### <a name="method-assignImages"></a>assignImages
 
     mixed ProductControllerCore::assignImages()
 
@@ -140,12 +169,12 @@ Assign template vars related to images
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/ProductController.php line 367](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#367)
+* This method is defined in [controllers/front/ProductController.php line 367](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L367)
 
 
 
 
-### assignAttributesGroups
+### <a name="method-assignAttributesGroups"></a>assignAttributesGroups
 
     mixed ProductControllerCore::assignAttributesGroups()
 
@@ -154,12 +183,12 @@ Assign template vars related to attribute groups and colors
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/ProductController.php line 416](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#416)
+* This method is defined in [controllers/front/ProductController.php line 416](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L416)
 
 
 
 
-### assignAttributesCombinations
+### <a name="method-assignAttributesCombinations"></a>assignAttributesCombinations
 
     mixed ProductControllerCore::assignAttributesCombinations()
 
@@ -168,12 +197,12 @@ Get and assign attributes combinations informations
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/ProductController.php line 560](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#560)
+* This method is defined in [controllers/front/ProductController.php line 560](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L560)
 
 
 
 
-### assignCategory
+### <a name="method-assignCategory"></a>assignCategory
 
     mixed ProductControllerCore::assignCategory()
 
@@ -182,12 +211,12 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/ProductController.php line 582](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#582)
+* This method is defined in [controllers/front/ProductController.php line 582](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L582)
 
 
 
 
-### transformDescriptionWithImg
+### <a name="method-transformDescriptionWithImg"></a>transformDescriptionWithImg
 
     mixed ProductControllerCore::transformDescriptionWithImg($desc)
 
@@ -196,7 +225,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/ProductController.php line 615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#615)
+* This method is defined in [controllers/front/ProductController.php line 615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L615)
 
 
 #### Arguments
@@ -204,7 +233,7 @@ Assign template vars related to category
 
 
 
-### pictureUpload
+### <a name="method-pictureUpload"></a>pictureUpload
 
     mixed ProductControllerCore::pictureUpload()
 
@@ -213,12 +242,12 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/ProductController.php line 627](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#627)
+* This method is defined in [controllers/front/ProductController.php line 627](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L627)
 
 
 
 
-### textRecord
+### <a name="method-textRecord"></a>textRecord
 
     mixed ProductControllerCore::textRecord()
 
@@ -227,12 +256,12 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/ProductController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#670)
+* This method is defined in [controllers/front/ProductController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L670)
 
 
 
 
-### formTargetFormat
+### <a name="method-formTargetFormat"></a>formTargetFormat
 
     mixed ProductControllerCore::formTargetFormat()
 
@@ -241,12 +270,12 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/ProductController.php line 697](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#697)
+* This method is defined in [controllers/front/ProductController.php line 697](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L697)
 
 
 
 
-### formatQuantityDiscounts
+### <a name="method-formatQuantityDiscounts"></a>formatQuantityDiscounts
 
     mixed ProductControllerCore::formatQuantityDiscounts($specific_prices, $price, $tax_rate, $ecotax_amount)
 
@@ -255,7 +284,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/ProductController.php line 711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#711)
+* This method is defined in [controllers/front/ProductController.php line 711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L711)
 
 
 #### Arguments
@@ -266,7 +295,7 @@ Assign template vars related to category
 
 
 
-### getProduct
+### <a name="method-getProduct"></a>getProduct
 
     mixed ProductControllerCore::getProduct()
 
@@ -275,12 +304,12 @@ Assign template vars related to category
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/ProductController.php line 745](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#745)
+* This method is defined in [controllers/front/ProductController.php line 745](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L745)
 
 
 
 
-### getCategory
+### <a name="method-getCategory"></a>getCategory
 
     mixed ProductControllerCore::getCategory()
 
@@ -289,7 +318,7 @@ Assign template vars related to category
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/ProductController.php line 750](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#750)
+* This method is defined in [controllers/front/ProductController.php line 750](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#L750)
 
 
 

@@ -17,8 +17,30 @@ AdminSuppliersControllerCore
 Properties
 ----------
 
+* [$bootstrap](#property-$bootstrap)
+* [$object](#property-$object)
 
-### $bootstrap
+Methods
+-------
+* [__construct](#method-__construct)
+* [setMedia](#method-setMedia)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderForm](#method-renderForm)
+* [initToolbar](#method-initToolbar)
+* [renderView](#method-renderView)
+* [afterImageUpload](#method-afterImageUpload)
+* [postProcess](#method-postProcess)
+* [afterAdd](#method-afterAdd)
+* [afterUpdate](#method-afterUpdate)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$bootstrap"></a>$bootstrap
 
     public mixed $bootstrap = true
 
@@ -27,10 +49,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminSuppliersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#32)
+* This property is defined in [controllers/admin/AdminSuppliersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L32)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Supplier $object
 
@@ -39,14 +61,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminSuppliersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#30)
+* This property is defined in [controllers/admin/AdminSuppliersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminSuppliersControllerCore::__construct()
 
@@ -55,12 +77,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSuppliersController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#34)
+* This method is defined in [controllers/admin/AdminSuppliersController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L34)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminSuppliersControllerCore::setMedia()
 
@@ -69,12 +91,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSuppliersController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#72)
+* This method is defined in [controllers/admin/AdminSuppliersController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L72)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminSuppliersControllerCore::initPageHeaderToolbar()
 
@@ -83,12 +105,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSuppliersController.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#79)
+* This method is defined in [controllers/admin/AdminSuppliersController.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L79)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminSuppliersControllerCore::renderForm()
 
@@ -97,12 +119,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSuppliersController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#92)
+* This method is defined in [controllers/admin/AdminSuppliersController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L92)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminSuppliersControllerCore::initToolbar()
 
@@ -111,12 +133,12 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSuppliersController.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#336)
+* This method is defined in [controllers/admin/AdminSuppliersController.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L336)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminSuppliersControllerCore::renderView()
 
@@ -125,12 +147,12 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSuppliersController.php line 349](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#349)
+* This method is defined in [controllers/admin/AdminSuppliersController.php line 349](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L349)
 
 
 
 
-### afterImageUpload
+### <a name="method-afterImageUpload"></a>afterImageUpload
 
     mixed AdminSuppliersControllerCore::afterImageUpload()
 
@@ -139,12 +161,12 @@ AdminController::initToolbar() override
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSuppliersController.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#407)
+* This method is defined in [controllers/admin/AdminSuppliersController.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L407)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminSuppliersControllerCore::postProcess()
 
@@ -153,12 +175,12 @@ AdminController::postProcess() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSuppliersController.php line 442](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#442)
+* This method is defined in [controllers/admin/AdminSuppliersController.php line 442](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L442)
 
 
 
 
-### afterAdd
+### <a name="method-afterAdd"></a>afterAdd
 
     boolean AdminSuppliersControllerCore::afterAdd(\Supplier $object)
 
@@ -167,7 +189,7 @@ AdminController::postProcess() override
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSuppliersController.php line 521](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#521)
+* This method is defined in [controllers/admin/AdminSuppliersController.php line 521](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L521)
 
 
 #### Arguments
@@ -175,7 +197,7 @@ AdminController::postProcess() override
 
 
 
-### afterUpdate
+### <a name="method-afterUpdate"></a>afterUpdate
 
     boolean AdminSuppliersControllerCore::afterUpdate(\Supplier $object)
 
@@ -184,7 +206,7 @@ AdminController::postProcess() override
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSuppliersController.php line 540](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#540)
+* This method is defined in [controllers/admin/AdminSuppliersController.php line 540](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSuppliersController.php#L540)
 
 
 #### Arguments

@@ -17,8 +17,44 @@ ReferrerCore
 Properties
 ----------
 
+* [$id_shop](#property-$id_shop)
+* [$name](#property-$name)
+* [$passwd](#property-$passwd)
+* [$http_referer_regexp](#property-$http_referer_regexp)
+* [$http_referer_like](#property-$http_referer_like)
+* [$request_uri_regexp](#property-$request_uri_regexp)
+* [$request_uri_like](#property-$request_uri_like)
+* [$http_referer_regexp_not](#property-$http_referer_regexp_not)
+* [$http_referer_like_not](#property-$http_referer_like_not)
+* [$request_uri_regexp_not](#property-$request_uri_regexp_not)
+* [$request_uri_like_not](#property-$request_uri_like_not)
+* [$base_fee](#property-$base_fee)
+* [$percent_fee](#property-$percent_fee)
+* [$click_fee](#property-$click_fee)
+* [$date_add](#property-$date_add)
+* [$definition](#property-$definition)
+* [$_join](#property-$_join)
 
-### $id_shop
+Methods
+-------
+* [add](#method-add)
+* [cacheNewSource](#method-cacheNewSource)
+* [getReferrers](#method-getReferrers)
+* [getStatsVisits](#method-getStatsVisits)
+* [getRegistrations](#method-getRegistrations)
+* [getStatsSales](#method-getStatsSales)
+* [refreshCache](#method-refreshCache)
+* [refreshIndex](#method-refreshIndex)
+* [getAjaxProduct](#method-getAjaxProduct)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_shop"></a>$id_shop
 
     public mixed $id_shop
 
@@ -27,10 +63,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#29)
+* This property is defined in [classes/Referrer.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L29)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public mixed $name
 
@@ -39,10 +75,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#30)
+* This property is defined in [classes/Referrer.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L30)
 
 
-### $passwd
+### <a name="property-$passwd"></a>$passwd
 
     public mixed $passwd
 
@@ -51,10 +87,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#31)
+* This property is defined in [classes/Referrer.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L31)
 
 
-### $http_referer_regexp
+### <a name="property-$http_referer_regexp"></a>$http_referer_regexp
 
     public mixed $http_referer_regexp
 
@@ -63,10 +99,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#33)
+* This property is defined in [classes/Referrer.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L33)
 
 
-### $http_referer_like
+### <a name="property-$http_referer_like"></a>$http_referer_like
 
     public mixed $http_referer_like
 
@@ -75,10 +111,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#34)
+* This property is defined in [classes/Referrer.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L34)
 
 
-### $request_uri_regexp
+### <a name="property-$request_uri_regexp"></a>$request_uri_regexp
 
     public mixed $request_uri_regexp
 
@@ -87,10 +123,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#35)
+* This property is defined in [classes/Referrer.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L35)
 
 
-### $request_uri_like
+### <a name="property-$request_uri_like"></a>$request_uri_like
 
     public mixed $request_uri_like
 
@@ -99,10 +135,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#36)
+* This property is defined in [classes/Referrer.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L36)
 
 
-### $http_referer_regexp_not
+### <a name="property-$http_referer_regexp_not"></a>$http_referer_regexp_not
 
     public mixed $http_referer_regexp_not
 
@@ -111,10 +147,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#37)
+* This property is defined in [classes/Referrer.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L37)
 
 
-### $http_referer_like_not
+### <a name="property-$http_referer_like_not"></a>$http_referer_like_not
 
     public mixed $http_referer_like_not
 
@@ -123,10 +159,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#38)
+* This property is defined in [classes/Referrer.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L38)
 
 
-### $request_uri_regexp_not
+### <a name="property-$request_uri_regexp_not"></a>$request_uri_regexp_not
 
     public mixed $request_uri_regexp_not
 
@@ -135,10 +171,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#39)
+* This property is defined in [classes/Referrer.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L39)
 
 
-### $request_uri_like_not
+### <a name="property-$request_uri_like_not"></a>$request_uri_like_not
 
     public mixed $request_uri_like_not
 
@@ -147,10 +183,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#40)
+* This property is defined in [classes/Referrer.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L40)
 
 
-### $base_fee
+### <a name="property-$base_fee"></a>$base_fee
 
     public mixed $base_fee
 
@@ -159,10 +195,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#42)
+* This property is defined in [classes/Referrer.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L42)
 
 
-### $percent_fee
+### <a name="property-$percent_fee"></a>$percent_fee
 
     public mixed $percent_fee
 
@@ -171,10 +207,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#43)
+* This property is defined in [classes/Referrer.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L43)
 
 
-### $click_fee
+### <a name="property-$click_fee"></a>$click_fee
 
     public mixed $click_fee
 
@@ -183,10 +219,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#44)
+* This property is defined in [classes/Referrer.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L44)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public mixed $date_add
 
@@ -195,10 +231,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Referrer.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#46)
+* This property is defined in [classes/Referrer.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L46)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'referrer', 'primary' => 'id_referrer', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 64), 'passwd' => array('type' => self::TYPE_STRING, 'validate' => 'isPasswd', 'size' => 32), 'http_referer_regexp' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 64), 'request_uri_regexp' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 64), 'http_referer_like' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 64), 'request_uri_like' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 64), 'http_referer_regexp_not' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml'), 'request_uri_regexp_not' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml'), 'http_referer_like_not' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml'), 'request_uri_like_not' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml'), 'base_fee' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'percent_fee' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPercentage'), 'click_fee' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate')))
 
@@ -208,10 +244,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Referrer.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#51)
+* This property is defined in [classes/Referrer.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L51)
 
 
-### $_join
+### <a name="property-$_join"></a>$_join
 
     protected mixed $_join = '(r.http_referer_like IS NULL OR r.http_referer_like = \'\' OR cs.http_referer LIKE r.http_referer_like)
 			AND (r.request_uri_like IS NULL OR r.request_uri_like = \'\' OR cs.request_uri LIKE r.request_uri_like)
@@ -228,14 +264,14 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Referrer.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#72)
+* This property is defined in [classes/Referrer.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L72)
 
 
 Methods
 -------
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed ReferrerCore::add($autodate, $null_values)
 
@@ -244,7 +280,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Referrer.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#81)
+* This method is defined in [classes/Referrer.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L81)
 
 
 #### Arguments
@@ -253,7 +289,7 @@ Methods
 
 
 
-### cacheNewSource
+### <a name="method-cacheNewSource"></a>cacheNewSource
 
     mixed ReferrerCore::cacheNewSource($id_connections_source)
 
@@ -263,7 +299,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Referrer.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#91)
+* This method is defined in [classes/Referrer.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L91)
 
 
 #### Arguments
@@ -271,7 +307,7 @@ Methods
 
 
 
-### getReferrers
+### <a name="method-getReferrers"></a>getReferrers
 
     mixed ReferrerCore::getReferrers(integer $id_customer)
 
@@ -281,7 +317,7 @@ Get list of referrers connections of a customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Referrer.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#111)
+* This method is defined in [classes/Referrer.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L111)
 
 
 #### Arguments
@@ -289,7 +325,7 @@ Get list of referrers connections of a customer
 
 
 
-### getStatsVisits
+### <a name="method-getStatsVisits"></a>getStatsVisits
 
     mixed ReferrerCore::getStatsVisits(integer $id_product, integer $employee)
 
@@ -298,7 +334,7 @@ Get some statistics on visitors connection for current referrer
 
 
 * Visibility: **public**
-* This method is defined in [classes/Referrer.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#131)
+* This method is defined in [classes/Referrer.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L131)
 
 
 #### Arguments
@@ -307,7 +343,7 @@ Get some statistics on visitors connection for current referrer
 
 
 
-### getRegistrations
+### <a name="method-getRegistrations"></a>getRegistrations
 
     mixed ReferrerCore::getRegistrations(integer $id_product, integer $employee)
 
@@ -316,7 +352,7 @@ Get some statistics on customers registrations for current referrer
 
 
 * Visibility: **public**
-* This method is defined in [classes/Referrer.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#167)
+* This method is defined in [classes/Referrer.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L167)
 
 
 #### Arguments
@@ -325,7 +361,7 @@ Get some statistics on customers registrations for current referrer
 
 
 
-### getStatsSales
+### <a name="method-getStatsSales"></a>getStatsSales
 
     mixed ReferrerCore::getStatsSales(integer $id_product, integer $employee)
 
@@ -334,7 +370,7 @@ Get some statistics on orders for current referrer
 
 
 * Visibility: **public**
-* This method is defined in [classes/Referrer.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#203)
+* This method is defined in [classes/Referrer.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L203)
 
 
 #### Arguments
@@ -343,7 +379,7 @@ Get some statistics on orders for current referrer
 
 
 
-### refreshCache
+### <a name="method-refreshCache"></a>refreshCache
 
     true ReferrerCore::refreshCache(array $referrers, integer $employee)
 
@@ -353,7 +389,7 @@ Refresh cache data of referrer statistics in referrer_shop table
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Referrer.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#255)
+* This method is defined in [classes/Referrer.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L255)
 
 
 #### Arguments
@@ -362,7 +398,7 @@ Refresh cache data of referrer statistics in referrer_shop table
 
 
 
-### refreshIndex
+### <a name="method-refreshIndex"></a>refreshIndex
 
     mixed ReferrerCore::refreshIndex(array $referrers)
 
@@ -372,7 +408,7 @@ Cache liaison between connections_source data and referrers data
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Referrer.php line 294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#294)
+* This method is defined in [classes/Referrer.php line 294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L294)
 
 
 #### Arguments
@@ -380,7 +416,7 @@ Cache liaison between connections_source data and referrers data
 
 
 
-### getAjaxProduct
+### <a name="method-getAjaxProduct"></a>getAjaxProduct
 
     mixed ReferrerCore::getAjaxProduct($id_referrer, $id_product, $employee)
 
@@ -390,7 +426,7 @@ Cache liaison between connections_source data and referrers data
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Referrer.php line 319](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#319)
+* This method is defined in [classes/Referrer.php line 319](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L319)
 
 
 #### Arguments

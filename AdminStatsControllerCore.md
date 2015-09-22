@@ -18,9 +18,43 @@ AdminStatsControllerCore
 
 Methods
 -------
+* [getVisits](#method-getVisits)
+* [getAbandonedCarts](#method-getAbandonedCarts)
+* [getInstalledModules](#method-getInstalledModules)
+* [getDisabledModules](#method-getDisabledModules)
+* [getModulesToUpdate](#method-getModulesToUpdate)
+* [getPercentProductStock](#method-getPercentProductStock)
+* [getPercentProductOutOfStock](#method-getPercentProductOutOfStock)
+* [getProductAverageGrossMargin](#method-getProductAverageGrossMargin)
+* [getDisabledCategories](#method-getDisabledCategories)
+* [getTotalCategories](#method-getTotalCategories)
+* [getDisabledProducts](#method-getDisabledProducts)
+* [getTotalProducts](#method-getTotalProducts)
+* [getTotalSales](#method-getTotalSales)
+* [get8020SalesCatalog](#method-get8020SalesCatalog)
+* [getOrders](#method-getOrders)
+* [getEmptyCategories](#method-getEmptyCategories)
+* [getCustomerMainGender](#method-getCustomerMainGender)
+* [getBestCategory](#method-getBestCategory)
+* [getMainCountry](#method-getMainCountry)
+* [getAverageCustomerAge](#method-getAverageCustomerAge)
+* [getPendingMessages](#method-getPendingMessages)
+* [getAverageMessageResponseTime](#method-getAverageMessageResponseTime)
+* [getMessagesPerThread](#method-getMessagesPerThread)
+* [getPurchases](#method-getPurchases)
+* [getExpenses](#method-getExpenses)
+* [displayAjaxGetKpi](#method-displayAjaxGetKpi)
 
 
-### getVisits
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-getVisits"></a>getVisits
 
     mixed AdminStatsControllerCore::getVisits($unique, $date_from, $date_to, $granularity)
 
@@ -30,7 +64,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#29)
+* This method is defined in [controllers/admin/AdminStatsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L29)
 
 
 #### Arguments
@@ -41,7 +75,7 @@ Methods
 
 
 
-### getAbandonedCarts
+### <a name="method-getAbandonedCarts"></a>getAbandonedCarts
 
     mixed AdminStatsControllerCore::getAbandonedCarts($date_from, $date_to)
 
@@ -51,7 +85,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#82)
+* This method is defined in [controllers/admin/AdminStatsController.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L82)
 
 
 #### Arguments
@@ -60,7 +94,7 @@ Methods
 
 
 
-### getInstalledModules
+### <a name="method-getInstalledModules"></a>getInstalledModules
 
     mixed AdminStatsControllerCore::getInstalledModules()
 
@@ -70,12 +104,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#92)
+* This method is defined in [controllers/admin/AdminStatsController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L92)
 
 
 
 
-### getDisabledModules
+### <a name="method-getDisabledModules"></a>getDisabledModules
 
     mixed AdminStatsControllerCore::getDisabledModules()
 
@@ -85,12 +119,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#100)
+* This method is defined in [controllers/admin/AdminStatsController.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L100)
 
 
 
 
-### getModulesToUpdate
+### <a name="method-getModulesToUpdate"></a>getModulesToUpdate
 
     mixed AdminStatsControllerCore::getModulesToUpdate()
 
@@ -100,12 +134,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#109)
+* This method is defined in [controllers/admin/AdminStatsController.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L109)
 
 
 
 
-### getPercentProductStock
+### <a name="method-getPercentProductStock"></a>getPercentProductStock
 
     mixed AdminStatsControllerCore::getPercentProductStock()
 
@@ -115,12 +149,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#127)
+* This method is defined in [controllers/admin/AdminStatsController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L127)
 
 
 
 
-### getPercentProductOutOfStock
+### <a name="method-getPercentProductOutOfStock"></a>getPercentProductOutOfStock
 
     mixed AdminStatsControllerCore::getPercentProductOutOfStock()
 
@@ -130,12 +164,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#139)
+* This method is defined in [controllers/admin/AdminStatsController.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L139)
 
 
 
 
-### getProductAverageGrossMargin
+### <a name="method-getProductAverageGrossMargin"></a>getProductAverageGrossMargin
 
     mixed AdminStatsControllerCore::getProductAverageGrossMargin()
 
@@ -145,12 +179,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#152)
+* This method is defined in [controllers/admin/AdminStatsController.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L152)
 
 
 
 
-### getDisabledCategories
+### <a name="method-getDisabledCategories"></a>getDisabledCategories
 
     mixed AdminStatsControllerCore::getDisabledCategories()
 
@@ -160,12 +194,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#164)
+* This method is defined in [controllers/admin/AdminStatsController.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L164)
 
 
 
 
-### getTotalCategories
+### <a name="method-getTotalCategories"></a>getTotalCategories
 
     mixed AdminStatsControllerCore::getTotalCategories()
 
@@ -175,12 +209,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#173)
+* This method is defined in [controllers/admin/AdminStatsController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L173)
 
 
 
 
-### getDisabledProducts
+### <a name="method-getDisabledProducts"></a>getDisabledProducts
 
     mixed AdminStatsControllerCore::getDisabledProducts()
 
@@ -190,12 +224,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#181)
+* This method is defined in [controllers/admin/AdminStatsController.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L181)
 
 
 
 
-### getTotalProducts
+### <a name="method-getTotalProducts"></a>getTotalProducts
 
     mixed AdminStatsControllerCore::getTotalProducts()
 
@@ -205,12 +239,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#190)
+* This method is defined in [controllers/admin/AdminStatsController.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L190)
 
 
 
 
-### getTotalSales
+### <a name="method-getTotalSales"></a>getTotalSales
 
     mixed AdminStatsControllerCore::getTotalSales($date_from, $date_to, $granularity)
 
@@ -220,7 +254,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#198)
+* This method is defined in [controllers/admin/AdminStatsController.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L198)
 
 
 #### Arguments
@@ -230,7 +264,7 @@ Methods
 
 
 
-### get8020SalesCatalog
+### <a name="method-get8020SalesCatalog"></a>get8020SalesCatalog
 
     mixed AdminStatsControllerCore::get8020SalesCatalog($date_from, $date_to)
 
@@ -240,7 +274,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#236)
+* This method is defined in [controllers/admin/AdminStatsController.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L236)
 
 
 #### Arguments
@@ -249,7 +283,7 @@ Methods
 
 
 
-### getOrders
+### <a name="method-getOrders"></a>getOrders
 
     mixed AdminStatsControllerCore::getOrders($date_from, $date_to, $granularity)
 
@@ -259,7 +293,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#250)
+* This method is defined in [controllers/admin/AdminStatsController.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L250)
 
 
 #### Arguments
@@ -269,7 +303,7 @@ Methods
 
 
 
-### getEmptyCategories
+### <a name="method-getEmptyCategories"></a>getEmptyCategories
 
     mixed AdminStatsControllerCore::getEmptyCategories()
 
@@ -279,12 +313,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#290)
+* This method is defined in [controllers/admin/AdminStatsController.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L290)
 
 
 
 
-### getCustomerMainGender
+### <a name="method-getCustomerMainGender"></a>getCustomerMainGender
 
     mixed AdminStatsControllerCore::getCustomerMainGender()
 
@@ -294,12 +328,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 308](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#308)
+* This method is defined in [controllers/admin/AdminStatsController.php line 308](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L308)
 
 
 
 
-### getBestCategory
+### <a name="method-getBestCategory"></a>getBestCategory
 
     mixed AdminStatsControllerCore::getBestCategory($date_from, $date_to)
 
@@ -309,7 +343,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 326](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#326)
+* This method is defined in [controllers/admin/AdminStatsController.php line 326](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L326)
 
 
 #### Arguments
@@ -318,7 +352,7 @@ Methods
 
 
 
-### getMainCountry
+### <a name="method-getMainCountry"></a>getMainCountry
 
     mixed AdminStatsControllerCore::getMainCountry($date_from, $date_to)
 
@@ -328,7 +362,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#351)
+* This method is defined in [controllers/admin/AdminStatsController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L351)
 
 
 #### Arguments
@@ -337,7 +371,7 @@ Methods
 
 
 
-### getAverageCustomerAge
+### <a name="method-getAverageCustomerAge"></a>getAverageCustomerAge
 
     mixed AdminStatsControllerCore::getAverageCustomerAge()
 
@@ -347,12 +381,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 367](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#367)
+* This method is defined in [controllers/admin/AdminStatsController.php line 367](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L367)
 
 
 
 
-### getPendingMessages
+### <a name="method-getPendingMessages"></a>getPendingMessages
 
     mixed AdminStatsControllerCore::getPendingMessages()
 
@@ -362,12 +396,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 377](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#377)
+* This method is defined in [controllers/admin/AdminStatsController.php line 377](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L377)
 
 
 
 
-### getAverageMessageResponseTime
+### <a name="method-getAverageMessageResponseTime"></a>getAverageMessageResponseTime
 
     mixed AdminStatsControllerCore::getAverageMessageResponseTime($date_from, $date_to)
 
@@ -377,7 +411,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 382](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#382)
+* This method is defined in [controllers/admin/AdminStatsController.php line 382](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L382)
 
 
 #### Arguments
@@ -386,7 +420,7 @@ Methods
 
 
 
-### getMessagesPerThread
+### <a name="method-getMessagesPerThread"></a>getMessagesPerThread
 
     mixed AdminStatsControllerCore::getMessagesPerThread($date_from, $date_to)
 
@@ -396,7 +430,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 405](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#405)
+* This method is defined in [controllers/admin/AdminStatsController.php line 405](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L405)
 
 
 #### Arguments
@@ -405,7 +439,7 @@ Methods
 
 
 
-### getPurchases
+### <a name="method-getPurchases"></a>getPurchases
 
     mixed AdminStatsControllerCore::getPurchases($date_from, $date_to, $granularity)
 
@@ -415,7 +449,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#426)
+* This method is defined in [controllers/admin/AdminStatsController.php line 426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L426)
 
 
 #### Arguments
@@ -425,7 +459,7 @@ Methods
 
 
 
-### getExpenses
+### <a name="method-getExpenses"></a>getExpenses
 
     mixed AdminStatsControllerCore::getExpenses($date_from, $date_to, $granularity)
 
@@ -435,7 +469,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsController.php line 463](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#463)
+* This method is defined in [controllers/admin/AdminStatsController.php line 463](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L463)
 
 
 #### Arguments
@@ -445,7 +479,7 @@ Methods
 
 
 
-### displayAjaxGetKpi
+### <a name="method-displayAjaxGetKpi"></a>displayAjaxGetKpi
 
     mixed AdminStatsControllerCore::displayAjaxGetKpi()
 
@@ -454,7 +488,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatsController.php line 517](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#517)
+* This method is defined in [controllers/admin/AdminStatsController.php line 517](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L517)
 
 
 

@@ -31,8 +31,25 @@ needs please refer to http://www.prestashop.com for more information.
 Properties
 ----------
 
+* [$auth](#property-$auth)
+* [$php_self](#property-$php_self)
+* [$authRedirection](#property-$authRedirection)
+* [$ssl](#property-$ssl)
 
-### $auth
+Methods
+-------
+* [init](#method-init)
+* [initContent](#method-initContent)
+* [displayAjax](#method-displayAjax)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$auth"></a>$auth
 
     public mixed $auth = true
 
@@ -41,10 +58,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/OrderReturnController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#29)
+* This property is defined in [controllers/front/OrderReturnController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L29)
 
 
-### $php_self
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'order-return'
 
@@ -53,10 +70,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/OrderReturnController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#30)
+* This property is defined in [controllers/front/OrderReturnController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L30)
 
 
-### $authRedirection
+### <a name="property-$authRedirection"></a>$authRedirection
 
     public mixed $authRedirection = 'order-follow'
 
@@ -65,10 +82,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/OrderReturnController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#31)
+* This property is defined in [controllers/front/OrderReturnController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L31)
 
 
-### $ssl
+### <a name="property-$ssl"></a>$ssl
 
     public mixed $ssl = true
 
@@ -77,14 +94,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/OrderReturnController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#32)
+* This property is defined in [controllers/front/OrderReturnController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L32)
 
 
 Methods
 -------
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed OrderReturnControllerCore::init()
 
@@ -93,12 +110,12 @@ Initialize order return controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderReturnController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#38)
+* This method is defined in [controllers/front/OrderReturnController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L38)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed OrderReturnControllerCore::initContent()
 
@@ -107,12 +124,12 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderReturnController.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#77)
+* This method is defined in [controllers/front/OrderReturnController.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L77)
 
 
 
 
-### displayAjax
+### <a name="method-displayAjax"></a>displayAjax
 
     mixed OrderReturnControllerCore::displayAjax()
 
@@ -121,7 +138,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderReturnController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#88)
+* This method is defined in [controllers/front/OrderReturnController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L88)
 
 
 

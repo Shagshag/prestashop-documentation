@@ -15,30 +15,56 @@ WebserviceExceptionCore
 Constants
 ----------
 
+* [SIMPLE](#constant-SIMPLE)
+* [DID_YOU_MEAN](#constant-DID_YOU_MEAN)
 
-### SIMPLE
+Properties
+----------
+
+* [$status](#property-$status)
+* [$wrong_value](#property-$wrong_value)
+* [$available_values](#property-$available_values)
+* [$type](#property-$type)
+
+Methods
+-------
+* [__construct](#method-__construct)
+* [getType](#method-getType)
+* [setType](#method-setType)
+* [setStatus](#method-setStatus)
+* [getStatus](#method-getStatus)
+* [getWrongValue](#method-getWrongValue)
+* [setDidYouMean](#method-setDidYouMean)
+* [getAvailableValues](#method-getAvailableValues)
+
+
+Constants
+----------
+
+
+### <a name="constant-SIMPLE"></a>SIMPLE
 
     const SIMPLE = 0
 
 
 
-* This constant is defined in [classes/webservice/WebserviceException.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#34)
+* This constant is defined in [classes/webservice/WebserviceException.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L34)
 
 
-### DID_YOU_MEAN
+### <a name="constant-DID_YOU_MEAN"></a>DID_YOU_MEAN
 
     const DID_YOU_MEAN = 1
 
 
 
-* This constant is defined in [classes/webservice/WebserviceException.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#35)
+* This constant is defined in [classes/webservice/WebserviceException.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L35)
 
 
 Properties
 ----------
 
 
-### $status
+### <a name="property-$status"></a>$status
 
     protected mixed $status
 
@@ -47,10 +73,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceException.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#29)
+* This property is defined in [classes/webservice/WebserviceException.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L29)
 
 
-### $wrong_value
+### <a name="property-$wrong_value"></a>$wrong_value
 
     protected mixed $wrong_value
 
@@ -59,10 +85,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceException.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#30)
+* This property is defined in [classes/webservice/WebserviceException.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L30)
 
 
-### $available_values
+### <a name="property-$available_values"></a>$available_values
 
     protected mixed $available_values
 
@@ -71,10 +97,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceException.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#31)
+* This property is defined in [classes/webservice/WebserviceException.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L31)
 
 
-### $type
+### <a name="property-$type"></a>$type
 
     protected mixed $type
 
@@ -83,14 +109,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/webservice/WebserviceException.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#32)
+* This property is defined in [classes/webservice/WebserviceException.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L32)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed WebserviceExceptionCore::__construct($message, $code)
 
@@ -99,7 +125,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceException.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#37)
+* This method is defined in [classes/webservice/WebserviceException.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L37)
 
 
 #### Arguments
@@ -108,7 +134,7 @@ Methods
 
 
 
-### getType
+### <a name="method-getType"></a>getType
 
     mixed WebserviceExceptionCore::getType()
 
@@ -117,12 +143,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceException.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#47)
+* This method is defined in [classes/webservice/WebserviceException.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L47)
 
 
 
 
-### setType
+### <a name="method-setType"></a>setType
 
     mixed WebserviceExceptionCore::setType($type)
 
@@ -131,7 +157,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceException.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#51)
+* This method is defined in [classes/webservice/WebserviceException.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L51)
 
 
 #### Arguments
@@ -139,7 +165,7 @@ Methods
 
 
 
-### setStatus
+### <a name="method-setStatus"></a>setStatus
 
     mixed WebserviceExceptionCore::setStatus($status)
 
@@ -148,7 +174,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceException.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#56)
+* This method is defined in [classes/webservice/WebserviceException.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L56)
 
 
 #### Arguments
@@ -156,7 +182,7 @@ Methods
 
 
 
-### getStatus
+### <a name="method-getStatus"></a>getStatus
 
     mixed WebserviceExceptionCore::getStatus()
 
@@ -165,12 +191,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceException.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#63)
+* This method is defined in [classes/webservice/WebserviceException.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L63)
 
 
 
 
-### getWrongValue
+### <a name="method-getWrongValue"></a>getWrongValue
 
     mixed WebserviceExceptionCore::getWrongValue()
 
@@ -179,12 +205,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceException.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#67)
+* This method is defined in [classes/webservice/WebserviceException.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L67)
 
 
 
 
-### setDidYouMean
+### <a name="method-setDidYouMean"></a>setDidYouMean
 
     mixed WebserviceExceptionCore::setDidYouMean($wrong_value, $available_values)
 
@@ -193,7 +219,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceException.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#71)
+* This method is defined in [classes/webservice/WebserviceException.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L71)
 
 
 #### Arguments
@@ -202,7 +228,7 @@ Methods
 
 
 
-### getAvailableValues
+### <a name="method-getAvailableValues"></a>getAvailableValues
 
     mixed WebserviceExceptionCore::getAvailableValues()
 
@@ -211,7 +237,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/webservice/WebserviceException.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#78)
+* This method is defined in [classes/webservice/WebserviceException.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L78)
 
 
 

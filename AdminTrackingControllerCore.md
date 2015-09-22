@@ -17,8 +17,35 @@ AdminTrackingControllerCore
 Properties
 ----------
 
+* [$bootstrap](#property-$bootstrap)
+* [$_helper_list](#property-$_helper_list)
+* [$object](#property-$object)
 
-### $bootstrap
+Methods
+-------
+* [postprocess](#method-postprocess)
+* [initContent](#method-initContent)
+* [getCustomListCategoriesEmpty](#method-getCustomListCategoriesEmpty)
+* [getCustomListProductsAttributesNoStock](#method-getCustomListProductsAttributesNoStock)
+* [getCustomListProductsNoStock](#method-getCustomListProductsNoStock)
+* [getCustomListProductsDisabled](#method-getCustomListProductsDisabled)
+* [renderList](#method-renderList)
+* [displayEnableLink](#method-displayEnableLink)
+* [displayDeleteLink](#method-displayDeleteLink)
+* [displayEditLink](#method-displayEditLink)
+* [clearFilters](#method-clearFilters)
+* [clearListOptions](#method-clearListOptions)
+* [getList](#method-getList)
+* [getDescriptionClean](#method-getDescriptionClean)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$bootstrap"></a>$bootstrap
 
     public mixed $bootstrap = true
 
@@ -27,10 +54,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminTrackingController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#32)
+* This property is defined in [controllers/admin/AdminTrackingController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L32)
 
 
-### $_helper_list
+### <a name="property-$_helper_list"></a>$_helper_list
 
     protected \HelperList $_helper_list
 
@@ -39,10 +66,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminTrackingController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#35)
+* This property is defined in [controllers/admin/AdminTrackingController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L35)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Product|\Category $object
 
@@ -51,14 +78,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#30)
+* This property is defined in [controllers/admin/AdminTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L30)
 
 
 Methods
 -------
 
 
-### postprocess
+### <a name="method-postprocess"></a>postprocess
 
     mixed AdminTrackingControllerCore::postprocess()
 
@@ -67,12 +94,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#37)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L37)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminTrackingControllerCore::initContent()
 
@@ -81,12 +108,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#56)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L56)
 
 
 
 
-### getCustomListCategoriesEmpty
+### <a name="method-getCustomListCategoriesEmpty"></a>getCustomListCategoriesEmpty
 
     mixed AdminTrackingControllerCore::getCustomListCategoriesEmpty()
 
@@ -95,12 +122,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#88)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L88)
 
 
 
 
-### getCustomListProductsAttributesNoStock
+### <a name="method-getCustomListProductsAttributesNoStock"></a>getCustomListProductsAttributesNoStock
 
     mixed AdminTrackingControllerCore::getCustomListProductsAttributesNoStock()
 
@@ -109,12 +136,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#125)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L125)
 
 
 
 
-### getCustomListProductsNoStock
+### <a name="method-getCustomListProductsNoStock"></a>getCustomListProductsNoStock
 
     mixed AdminTrackingControllerCore::getCustomListProductsNoStock()
 
@@ -123,12 +150,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#169)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L169)
 
 
 
 
-### getCustomListProductsDisabled
+### <a name="method-getCustomListProductsDisabled"></a>getCustomListProductsDisabled
 
     mixed AdminTrackingControllerCore::getCustomListProductsDisabled()
 
@@ -137,12 +164,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#213)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L213)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminTrackingControllerCore::renderList()
 
@@ -151,12 +178,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#244)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L244)
 
 
 
 
-### displayEnableLink
+### <a name="method-displayEnableLink"></a>displayEnableLink
 
     mixed AdminTrackingControllerCore::displayEnableLink($token, $id, $value, $active, $id_category, $id_product)
 
@@ -165,7 +192,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#277)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L277)
 
 
 #### Arguments
@@ -178,7 +205,7 @@ Methods
 
 
 
-### displayDeleteLink
+### <a name="method-displayDeleteLink"></a>displayDeleteLink
 
     mixed AdminTrackingControllerCore::displayDeleteLink($token, $id, $name)
 
@@ -187,7 +214,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#286)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L286)
 
 
 #### Arguments
@@ -197,7 +224,7 @@ Methods
 
 
 
-### displayEditLink
+### <a name="method-displayEditLink"></a>displayEditLink
 
     mixed AdminTrackingControllerCore::displayEditLink($token, $id, $name)
 
@@ -206,7 +233,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 295](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#295)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 295](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L295)
 
 
 #### Arguments
@@ -216,7 +243,7 @@ Methods
 
 
 
-### clearFilters
+### <a name="method-clearFilters"></a>clearFilters
 
     mixed AdminTrackingControllerCore::clearFilters()
 
@@ -225,12 +252,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 304](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#304)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 304](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L304)
 
 
 
 
-### clearListOptions
+### <a name="method-clearListOptions"></a>clearListOptions
 
     mixed AdminTrackingControllerCore::clearListOptions()
 
@@ -239,12 +266,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#323)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L323)
 
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminTrackingControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
 
@@ -253,7 +280,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTrackingController.php line 338](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#338)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 338](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L338)
 
 
 #### Arguments
@@ -266,7 +293,7 @@ Methods
 
 
 
-### getDescriptionClean
+### <a name="method-getDescriptionClean"></a>getDescriptionClean
 
     mixed AdminTrackingControllerCore::getDescriptionClean($description)
 
@@ -276,7 +303,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminTrackingController.php line 343](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#343)
+* This method is defined in [controllers/admin/AdminTrackingController.php line 343](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#L343)
 
 
 #### Arguments

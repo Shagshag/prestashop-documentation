@@ -17,8 +17,36 @@ AdminShopControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [viewAccess](#method-viewAccess)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [initToolbar](#method-initToolbar)
+* [initContent](#method-initContent)
+* [renderList](#method-renderList)
+* [displayAjaxGetCategoriesFromRootCategory](#method-displayAjaxGetCategoriesFromRootCategory)
+* [postProcess](#method-postProcess)
+* [processDelete](#method-processDelete)
+* [afterAdd](#method-afterAdd)
+* [afterUpdate](#method-afterUpdate)
+* [getList](#method-getList)
+* [renderForm](#method-renderForm)
+* [processAdd](#method-processAdd)
+* [displayEditLink](#method-displayEditLink)
+* [initCategoriesAssociation](#method-initCategoriesAssociation)
+* [ajaxProcessTree](#method-ajaxProcessTree)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Shop $object
 
@@ -27,14 +55,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminShopController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#30)
+* This property is defined in [controllers/admin/AdminShopController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminShopControllerCore::__construct()
 
@@ -43,12 +71,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#32)
+* This method is defined in [controllers/admin/AdminShopController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L32)
 
 
 
 
-### viewAccess
+### <a name="method-viewAccess"></a>viewAccess
 
     mixed AdminShopControllerCore::viewAccess($disable)
 
@@ -57,7 +85,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#87)
+* This method is defined in [controllers/admin/AdminShopController.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L87)
 
 
 #### Arguments
@@ -65,7 +93,7 @@ Methods
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminShopControllerCore::initPageHeaderToolbar()
 
@@ -74,12 +102,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#92)
+* This method is defined in [controllers/admin/AdminShopController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L92)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminShopControllerCore::initToolbar()
 
@@ -88,12 +116,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#119)
+* This method is defined in [controllers/admin/AdminShopController.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L119)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminShopControllerCore::initContent()
 
@@ -102,12 +130,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#140)
+* This method is defined in [controllers/admin/AdminShopController.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L140)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminShopControllerCore::renderList()
 
@@ -116,12 +144,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#199)
+* This method is defined in [controllers/admin/AdminShopController.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L199)
 
 
 
 
-### displayAjaxGetCategoriesFromRootCategory
+### <a name="method-displayAjaxGetCategoriesFromRootCategory"></a>displayAjaxGetCategoriesFromRootCategory
 
     mixed AdminShopControllerCore::displayAjaxGetCategoriesFromRootCategory()
 
@@ -130,12 +158,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#222)
+* This method is defined in [controllers/admin/AdminShopController.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L222)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminShopControllerCore::postProcess()
 
@@ -144,12 +172,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 238](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#238)
+* This method is defined in [controllers/admin/AdminShopController.php line 238](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L238)
 
 
 
 
-### processDelete
+### <a name="method-processDelete"></a>processDelete
 
     mixed AdminShopControllerCore::processDelete()
 
@@ -158,12 +186,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#279)
+* This method is defined in [controllers/admin/AdminShopController.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L279)
 
 
 
 
-### afterAdd
+### <a name="method-afterAdd"></a>afterAdd
 
     boolean AdminShopControllerCore::afterAdd(\Shop $new_shop)
 
@@ -172,7 +200,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminShopController.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#298)
+* This method is defined in [controllers/admin/AdminShopController.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L298)
 
 
 #### Arguments
@@ -180,7 +208,7 @@ Methods
 
 
 
-### afterUpdate
+### <a name="method-afterUpdate"></a>afterUpdate
 
     boolean AdminShopControllerCore::afterUpdate(\Shop $new_shop)
 
@@ -189,7 +217,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminShopController.php line 323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#323)
+* This method is defined in [controllers/admin/AdminShopController.php line 323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L323)
 
 
 #### Arguments
@@ -197,7 +225,7 @@ Methods
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminShopControllerCore::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop)
 
@@ -206,7 +234,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#348)
+* This method is defined in [controllers/admin/AdminShopController.php line 348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L348)
 
 
 #### Arguments
@@ -219,7 +247,7 @@ Methods
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminShopControllerCore::renderForm()
 
@@ -228,12 +256,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#366)
+* This method is defined in [controllers/admin/AdminShopController.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L366)
 
 
 
 
-### processAdd
+### <a name="method-processAdd"></a>processAdd
 
     mixed AdminShopControllerCore::processAdd()
 
@@ -242,12 +270,12 @@ Object creation
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 647](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#647)
+* This method is defined in [controllers/admin/AdminShopController.php line 647](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L647)
 
 
 
 
-### displayEditLink
+### <a name="method-displayEditLink"></a>displayEditLink
 
     mixed AdminShopControllerCore::displayEditLink($token, $id, $name)
 
@@ -256,7 +284,7 @@ Object creation
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 707](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#707)
+* This method is defined in [controllers/admin/AdminShopController.php line 707](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L707)
 
 
 #### Arguments
@@ -266,7 +294,7 @@ Object creation
 
 
 
-### initCategoriesAssociation
+### <a name="method-initCategoriesAssociation"></a>initCategoriesAssociation
 
     mixed AdminShopControllerCore::initCategoriesAssociation($id_root)
 
@@ -275,7 +303,7 @@ Object creation
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 727](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#727)
+* This method is defined in [controllers/admin/AdminShopController.php line 727](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L727)
 
 
 #### Arguments
@@ -283,7 +311,7 @@ Object creation
 
 
 
-### ajaxProcessTree
+### <a name="method-ajaxProcessTree"></a>ajaxProcessTree
 
     mixed AdminShopControllerCore::ajaxProcessTree()
 
@@ -292,7 +320,7 @@ Object creation
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminShopController.php line 757](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#757)
+* This method is defined in [controllers/admin/AdminShopController.php line 757](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopController.php#L757)
 
 
 

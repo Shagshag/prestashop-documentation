@@ -17,8 +17,27 @@ ProfileCore
 Properties
 ----------
 
+* [$name](#property-$name)
+* [$definition](#property-$definition)
+* [$_cache_accesses](#property-$_cache_accesses)
 
-### $name
+Methods
+-------
+* [getProfiles](#method-getProfiles)
+* [getProfile](#method-getProfile)
+* [add](#method-add)
+* [delete](#method-delete)
+* [getProfileAccess](#method-getProfileAccess)
+* [getProfileAccesses](#method-getProfileAccesses)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -27,10 +46,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Profile.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#30)
+* This property is defined in [classes/Profile.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L30)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'profile', 'primary' => 'id_profile', 'multilang' => true, 'fields' => array('name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32)))
 
@@ -40,10 +59,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Profile.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#35)
+* This property is defined in [classes/Profile.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L35)
 
 
-### $_cache_accesses
+### <a name="property-$_cache_accesses"></a>$_cache_accesses
 
     protected mixed $_cache_accesses = array()
 
@@ -53,14 +72,14 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Profile.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#45)
+* This property is defined in [classes/Profile.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L45)
 
 
 Methods
 -------
 
 
-### getProfiles
+### <a name="method-getProfiles"></a>getProfiles
 
     array ProfileCore::getProfiles($id_lang)
 
@@ -70,7 +89,7 @@ Get all available profiles
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Profile.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#52)
+* This method is defined in [classes/Profile.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L52)
 
 
 #### Arguments
@@ -78,7 +97,7 @@ Get all available profiles
 
 
 
-### getProfile
+### <a name="method-getProfile"></a>getProfile
 
     string ProfileCore::getProfile($id_profile, $id_lang)
 
@@ -88,7 +107,7 @@ Get the current profile name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Profile.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#66)
+* This method is defined in [classes/Profile.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L66)
 
 
 #### Arguments
@@ -97,7 +116,7 @@ Get the current profile name
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed ProfileCore::add($autodate, $null_values)
 
@@ -106,7 +125,7 @@ Get the current profile name
 
 
 * Visibility: **public**
-* This method is defined in [classes/Profile.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#81)
+* This method is defined in [classes/Profile.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L81)
 
 
 #### Arguments
@@ -115,7 +134,7 @@ Get the current profile name
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed ProfileCore::delete()
 
@@ -124,12 +143,12 @@ Get the current profile name
 
 
 * Visibility: **public**
-* This method is defined in [classes/Profile.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#95)
+* This method is defined in [classes/Profile.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L95)
 
 
 
 
-### getProfileAccess
+### <a name="method-getProfileAccess"></a>getProfileAccess
 
     mixed ProfileCore::getProfileAccess($id_profile, $id_tab)
 
@@ -139,7 +158,7 @@ Get the current profile name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Profile.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#106)
+* This method is defined in [classes/Profile.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L106)
 
 
 #### Arguments
@@ -148,7 +167,7 @@ Get the current profile name
 
 
 
-### getProfileAccesses
+### <a name="method-getProfileAccesses"></a>getProfileAccesses
 
     mixed ProfileCore::getProfileAccesses($id_profile, $type)
 
@@ -158,7 +177,7 @@ Get the current profile name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Profile.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#113)
+* This method is defined in [classes/Profile.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#L113)
 
 
 #### Arguments

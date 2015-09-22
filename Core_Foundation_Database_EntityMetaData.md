@@ -30,8 +30,26 @@ needs please refer to http://www.prestashop.com for more information.
 Properties
 ----------
 
+* [$tableName](#property-$tableName)
+* [$primaryKeyFieldnames](#property-$primaryKeyFieldnames)
 
-### $tableName
+Methods
+-------
+* [setTableName](#method-setTableName)
+* [getTableName](#method-getTableName)
+* [setPrimaryKeyFieldNames](#method-setPrimaryKeyFieldNames)
+* [getPrimaryKeyFieldnames](#method-getPrimaryKeyFieldnames)
+* [setEntityClassName](#method-setEntityClassName)
+* [getEntityClassName](#method-getEntityClassName)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$tableName"></a>$tableName
 
     private mixed $tableName
 
@@ -40,10 +58,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#29)
+* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L29)
 
 
-### $primaryKeyFieldnames
+### <a name="property-$primaryKeyFieldnames"></a>$primaryKeyFieldnames
 
     private mixed $primaryKeyFieldnames
 
@@ -52,14 +70,14 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#30)
+* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L30)
 
 
 Methods
 -------
 
 
-### setTableName
+### <a name="method-setTableName"></a>setTableName
 
     mixed Core_Foundation_Database_EntityMetaData::setTableName($name)
 
@@ -68,7 +86,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#32)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L32)
 
 
 #### Arguments
@@ -76,7 +94,7 @@ Methods
 
 
 
-### getTableName
+### <a name="method-getTableName"></a>getTableName
 
     mixed Core_Foundation_Database_EntityMetaData::getTableName()
 
@@ -85,12 +103,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#38)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L38)
 
 
 
 
-### setPrimaryKeyFieldNames
+### <a name="method-setPrimaryKeyFieldNames"></a>setPrimaryKeyFieldNames
 
     mixed Core_Foundation_Database_EntityMetaData::setPrimaryKeyFieldNames(array $primaryKeyFieldnames)
 
@@ -99,7 +117,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#43)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L43)
 
 
 #### Arguments
@@ -107,7 +125,7 @@ Methods
 
 
 
-### getPrimaryKeyFieldnames
+### <a name="method-getPrimaryKeyFieldnames"></a>getPrimaryKeyFieldnames
 
     mixed Core_Foundation_Database_EntityMetaData::getPrimaryKeyFieldnames()
 
@@ -116,12 +134,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#49)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L49)
 
 
 
 
-### setEntityClassName
+### <a name="method-setEntityClassName"></a>setEntityClassName
 
     mixed Core_Foundation_Database_EntityMetaData::setEntityClassName($entityClassName)
 
@@ -130,7 +148,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#54)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L54)
 
 
 #### Arguments
@@ -138,7 +156,7 @@ Methods
 
 
 
-### getEntityClassName
+### <a name="method-getEntityClassName"></a>getEntityClassName
 
     mixed Core_Foundation_Database_EntityMetaData::getEntityClassName()
 
@@ -147,7 +165,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#60)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#L60)
 
 
 

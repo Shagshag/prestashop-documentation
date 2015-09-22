@@ -18,9 +18,21 @@ HelperImageUploaderCore
 
 Methods
 -------
+* [getMaxSize](#method-getMaxSize)
+* [getSavePath](#method-getSavePath)
+* [getFilePath](#method-getFilePath)
+* [validate](#method-validate)
 
 
-### getMaxSize
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-getMaxSize"></a>getMaxSize
 
     mixed HelperImageUploaderCore::getMaxSize()
 
@@ -29,12 +41,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperImageUploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperImageUploader.php#29)
+* This method is defined in [classes/helper/HelperImageUploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperImageUploader.php#L29)
 
 
 
 
-### getSavePath
+### <a name="method-getSavePath"></a>getSavePath
 
     mixed HelperImageUploaderCore::getSavePath()
 
@@ -43,12 +55,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperImageUploader.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperImageUploader.php#34)
+* This method is defined in [classes/helper/HelperImageUploader.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperImageUploader.php#L34)
 
 
 
 
-### getFilePath
+### <a name="method-getFilePath"></a>getFilePath
 
     mixed HelperImageUploaderCore::getFilePath($file_name)
 
@@ -57,7 +69,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperImageUploader.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperImageUploader.php#39)
+* This method is defined in [classes/helper/HelperImageUploader.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperImageUploader.php#L39)
 
 
 #### Arguments
@@ -65,7 +77,7 @@ Methods
 
 
 
-### validate
+### <a name="method-validate"></a>validate
 
     mixed HelperImageUploaderCore::validate($file)
 
@@ -74,7 +86,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/helper/HelperImageUploader.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperImageUploader.php#45)
+* This method is defined in [classes/helper/HelperImageUploader.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperImageUploader.php#L45)
 
 
 #### Arguments

@@ -18,9 +18,21 @@ AdminDeliverySlipControllerCore
 
 Methods
 -------
+* [__construct](#method-__construct)
+* [renderForm](#method-renderForm)
+* [postProcess](#method-postProcess)
+* [initContent](#method-initContent)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed AdminDeliverySlipControllerCore::__construct()
 
@@ -29,12 +41,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDeliverySlipController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDeliverySlipController.php#29)
+* This method is defined in [controllers/admin/AdminDeliverySlipController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDeliverySlipController.php#L29)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminDeliverySlipControllerCore::renderForm()
 
@@ -43,12 +55,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDeliverySlipController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDeliverySlipController.php#66)
+* This method is defined in [controllers/admin/AdminDeliverySlipController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDeliverySlipController.php#L66)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminDeliverySlipControllerCore::postProcess()
 
@@ -57,12 +69,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDeliverySlipController.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDeliverySlipController.php#105)
+* This method is defined in [controllers/admin/AdminDeliverySlipController.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDeliverySlipController.php#L105)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminDeliverySlipControllerCore::initContent()
 
@@ -71,7 +83,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDeliverySlipController.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDeliverySlipController.php#126)
+* This method is defined in [controllers/admin/AdminDeliverySlipController.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDeliverySlipController.php#L126)
 
 
 

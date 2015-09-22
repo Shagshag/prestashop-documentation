@@ -17,8 +17,32 @@ AdminModulesPositionsControllerCore
 Properties
 ----------
 
+* [$display_key](#property-$display_key)
 
-### $display_key
+Methods
+-------
+* [__construct](#method-__construct)
+* [postProcess](#method-postProcess)
+* [initContent](#method-initContent)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [initMain](#method-initMain)
+* [getLiveEditUrl](#method-getLiveEditUrl)
+* [renderForm](#method-renderForm)
+* [displayModuleExceptionList](#method-displayModuleExceptionList)
+* [ajaxProcessUpdatePositions](#method-ajaxProcessUpdatePositions)
+* [ajaxProcessGetHookableList](#method-ajaxProcessGetHookableList)
+* [ajaxProcessGetHookableModuleList](#method-ajaxProcessGetHookableModuleList)
+* [ajaxProcessSaveHook](#method-ajaxProcessSaveHook)
+* [ajaxProcessGetPossibleHookingListForModule](#method-ajaxProcessGetPossibleHookingListForModule)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$display_key"></a>$display_key
 
     protected mixed $display_key
 
@@ -27,14 +51,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesPositionsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#29)
+* This property is defined in [controllers/admin/AdminModulesPositionsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L29)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminModulesPositionsControllerCore::__construct()
 
@@ -43,12 +67,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#31)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L31)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminModulesPositionsControllerCore::postProcess()
 
@@ -57,12 +81,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#37)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L37)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminModulesPositionsControllerCore::initContent()
 
@@ -71,12 +95,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 231](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#231)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 231](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L231)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminModulesPositionsControllerCore::initPageHeaderToolbar()
 
@@ -85,12 +109,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#253)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L253)
 
 
 
 
-### initMain
+### <a name="method-initMain"></a>initMain
 
     mixed AdminModulesPositionsControllerCore::initMain()
 
@@ -99,12 +123,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 264](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#264)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 264](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L264)
 
 
 
 
-### getLiveEditUrl
+### <a name="method-getLiveEditUrl"></a>getLiveEditUrl
 
     mixed AdminModulesPositionsControllerCore::getLiveEditUrl($live_edit_params)
 
@@ -113,7 +137,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#336)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L336)
 
 
 #### Arguments
@@ -121,7 +145,7 @@ Methods
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminModulesPositionsControllerCore::renderForm()
 
@@ -130,12 +154,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#353)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L353)
 
 
 
 
-### displayModuleExceptionList
+### <a name="method-displayModuleExceptionList"></a>displayModuleExceptionList
 
     mixed AdminModulesPositionsControllerCore::displayModuleExceptionList($file_list, $shop_id)
 
@@ -144,7 +168,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 443](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#443)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 443](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L443)
 
 
 #### Arguments
@@ -153,7 +177,7 @@ Methods
 
 
 
-### ajaxProcessUpdatePositions
+### <a name="method-ajaxProcessUpdatePositions"></a>ajaxProcessUpdatePositions
 
     mixed AdminModulesPositionsControllerCore::ajaxProcessUpdatePositions()
 
@@ -162,12 +186,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#493)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L493)
 
 
 
 
-### ajaxProcessGetHookableList
+### <a name="method-ajaxProcessGetHookableList"></a>ajaxProcessGetHookableList
 
     mixed AdminModulesPositionsControllerCore::ajaxProcessGetHookableList()
 
@@ -176,12 +200,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#514)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L514)
 
 
 
 
-### ajaxProcessGetHookableModuleList
+### <a name="method-ajaxProcessGetHookableModuleList"></a>ajaxProcessGetHookableModuleList
 
     mixed AdminModulesPositionsControllerCore::ajaxProcessGetHookableModuleList()
 
@@ -190,12 +214,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 559](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#559)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 559](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L559)
 
 
 
 
-### ajaxProcessSaveHook
+### <a name="method-ajaxProcessSaveHook"></a>ajaxProcessSaveHook
 
     mixed AdminModulesPositionsControllerCore::ajaxProcessSaveHook()
 
@@ -204,12 +228,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#588)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L588)
 
 
 
 
-### ajaxProcessGetPossibleHookingListForModule
+### <a name="method-ajaxProcessGetPossibleHookingListForModule"></a>ajaxProcessGetPossibleHookingListForModule
 
     null AdminModulesPositionsControllerCore::ajaxProcessGetPossibleHookingListForModule()
 
@@ -218,7 +242,7 @@ Return a json array containing the possible hooks for a module.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 646](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#646)
+* This method is defined in [controllers/admin/AdminModulesPositionsController.php line 646](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesPositionsController.php#L646)
 
 
 

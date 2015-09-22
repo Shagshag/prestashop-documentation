@@ -18,9 +18,19 @@ AdminAddonsCatalogControllerCore
 
 Methods
 -------
+* [__construct](#method-__construct)
+* [initContent](#method-initContent)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed AdminAddonsCatalogControllerCore::__construct()
 
@@ -29,12 +39,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAddonsCatalogController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddonsCatalogController.php#29)
+* This method is defined in [controllers/admin/AdminAddonsCatalogController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddonsCatalogController.php#L29)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminAddonsCatalogControllerCore::initContent()
 
@@ -43,7 +53,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAddonsCatalogController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddonsCatalogController.php#35)
+* This method is defined in [controllers/admin/AdminAddonsCatalogController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddonsCatalogController.php#L35)
 
 
 

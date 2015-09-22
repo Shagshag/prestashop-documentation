@@ -17,8 +17,33 @@ AdminStockConfigurationControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [init](#method-init)
+* [renderForm](#method-renderForm)
+* [renderList](#method-renderList)
+* [initSupplyOrderStatusList](#method-initSupplyOrderStatusList)
+* [postProcess](#method-postProcess)
+* [getList](#method-getList)
+* [initContent](#method-initContent)
+* [initProcess](#method-initProcess)
+* [ajaxProcessEditableSupplyOrderState](#method-ajaxProcessEditableSupplyOrderState)
+* [ajaxProcessDeliveryNoteSupplyOrderState](#method-ajaxProcessDeliveryNoteSupplyOrderState)
+* [ajaxProcessPendingReceiptSupplyOrderState](#method-ajaxProcessPendingReceiptSupplyOrderState)
+* [ajaxProcessReceiptStateSupplyOrderState](#method-ajaxProcessReceiptStateSupplyOrderState)
+* [ajaxProcessEnclosedSupplyOrderState](#method-ajaxProcessEnclosedSupplyOrderState)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \StockMvtReason $object
 
@@ -27,14 +52,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminStockConfigurationController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#31)
+* This property is defined in [controllers/admin/AdminStockConfigurationController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L31)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminStockConfigurationControllerCore::__construct()
 
@@ -43,12 +68,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#36)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L36)
 
 
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed AdminStockConfigurationControllerCore::init()
 
@@ -57,12 +82,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#129)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L129)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminStockConfigurationControllerCore::renderForm()
 
@@ -71,12 +96,12 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#148)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L148)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminStockConfigurationControllerCore::renderList()
 
@@ -85,12 +110,12 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#366)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L366)
 
 
 
 
-### initSupplyOrderStatusList
+### <a name="method-initSupplyOrderStatusList"></a>initSupplyOrderStatusList
 
     mixed AdminStockConfigurationControllerCore::initSupplyOrderStatusList()
 
@@ -99,12 +124,12 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 415](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#415)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 415](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L415)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminStockConfigurationControllerCore::postProcess()
 
@@ -113,12 +138,12 @@ AdminController::postProcess() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#493)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L493)
 
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminStockConfigurationControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
 
@@ -127,7 +152,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 530](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#530)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 530](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L530)
 
 
 #### Arguments
@@ -140,7 +165,7 @@ AdminController::getList() override
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminStockConfigurationControllerCore::initContent()
 
@@ -149,12 +174,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 550](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#550)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 550](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L550)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminStockConfigurationControllerCore::initProcess()
 
@@ -163,12 +188,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 559](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#559)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 559](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L559)
 
 
 
 
-### ajaxProcessEditableSupplyOrderState
+### <a name="method-ajaxProcessEditableSupplyOrderState"></a>ajaxProcessEditableSupplyOrderState
 
     mixed AdminStockConfigurationControllerCore::ajaxProcessEditableSupplyOrderState()
 
@@ -177,12 +202,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 568](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#568)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 568](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L568)
 
 
 
 
-### ajaxProcessDeliveryNoteSupplyOrderState
+### <a name="method-ajaxProcessDeliveryNoteSupplyOrderState"></a>ajaxProcessDeliveryNoteSupplyOrderState
 
     mixed AdminStockConfigurationControllerCore::ajaxProcessDeliveryNoteSupplyOrderState()
 
@@ -191,12 +216,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 582](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#582)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 582](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L582)
 
 
 
 
-### ajaxProcessPendingReceiptSupplyOrderState
+### <a name="method-ajaxProcessPendingReceiptSupplyOrderState"></a>ajaxProcessPendingReceiptSupplyOrderState
 
     mixed AdminStockConfigurationControllerCore::ajaxProcessPendingReceiptSupplyOrderState()
 
@@ -205,12 +230,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 596](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#596)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 596](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L596)
 
 
 
 
-### ajaxProcessReceiptStateSupplyOrderState
+### <a name="method-ajaxProcessReceiptStateSupplyOrderState"></a>ajaxProcessReceiptStateSupplyOrderState
 
     mixed AdminStockConfigurationControllerCore::ajaxProcessReceiptStateSupplyOrderState()
 
@@ -219,12 +244,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 610](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#610)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 610](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L610)
 
 
 
 
-### ajaxProcessEnclosedSupplyOrderState
+### <a name="method-ajaxProcessEnclosedSupplyOrderState"></a>ajaxProcessEnclosedSupplyOrderState
 
     mixed AdminStockConfigurationControllerCore::ajaxProcessEnclosedSupplyOrderState()
 
@@ -233,7 +258,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 624](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#624)
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 624](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#L624)
 
 
 

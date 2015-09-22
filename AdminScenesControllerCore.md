@@ -17,8 +17,27 @@ AdminScenesControllerCore
 Properties
 ----------
 
+* [$bootstrap](#property-$bootstrap)
+* [$object](#property-$object)
 
-### $bootstrap
+Methods
+-------
+* [__construct](#method-__construct)
+* [afterImageUpload](#method-afterImageUpload)
+* [renderForm](#method-renderForm)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [initToolbar](#method-initToolbar)
+* [initFieldsForm](#method-initFieldsForm)
+* [postProcess](#method-postProcess)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$bootstrap"></a>$bootstrap
 
     public mixed $bootstrap = true
 
@@ -27,10 +46,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminScenesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#32)
+* This property is defined in [controllers/admin/AdminScenesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#L32)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Scene $object
 
@@ -39,14 +58,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminScenesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#30)
+* This property is defined in [controllers/admin/AdminScenesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminScenesControllerCore::__construct()
 
@@ -55,12 +74,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminScenesController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#34)
+* This method is defined in [controllers/admin/AdminScenesController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#L34)
 
 
 
 
-### afterImageUpload
+### <a name="method-afterImageUpload"></a>afterImageUpload
 
     mixed AdminScenesControllerCore::afterImageUpload()
 
@@ -69,12 +88,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminScenesController.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#71)
+* This method is defined in [controllers/admin/AdminScenesController.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#L71)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminScenesControllerCore::renderForm()
 
@@ -83,12 +102,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminScenesController.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#107)
+* This method is defined in [controllers/admin/AdminScenesController.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#L107)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminScenesControllerCore::initPageHeaderToolbar()
 
@@ -97,12 +116,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminScenesController.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#121)
+* This method is defined in [controllers/admin/AdminScenesController.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#L121)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminScenesControllerCore::initToolbar()
 
@@ -111,12 +130,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminScenesController.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#134)
+* This method is defined in [controllers/admin/AdminScenesController.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#L134)
 
 
 
 
-### initFieldsForm
+### <a name="method-initFieldsForm"></a>initFieldsForm
 
     mixed AdminScenesControllerCore::initFieldsForm()
 
@@ -125,12 +144,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminScenesController.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#147)
+* This method is defined in [controllers/admin/AdminScenesController.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#L147)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminScenesControllerCore::postProcess()
 
@@ -139,7 +158,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminScenesController.php line 314](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#314)
+* This method is defined in [controllers/admin/AdminScenesController.php line 314](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#L314)
 
 
 

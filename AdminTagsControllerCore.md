@@ -17,8 +17,25 @@ AdminTagsControllerCore
 Properties
 ----------
 
+* [$bootstrap](#property-$bootstrap)
+* [$object](#property-$object)
 
-### $bootstrap
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderList](#method-renderList)
+* [postProcess](#method-postProcess)
+* [renderForm](#method-renderForm)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$bootstrap"></a>$bootstrap
 
     public mixed $bootstrap = true
 
@@ -27,10 +44,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminTagsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#32)
+* This property is defined in [controllers/admin/AdminTagsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L32)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Tag $object
 
@@ -39,14 +56,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminTagsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#30)
+* This property is defined in [controllers/admin/AdminTagsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminTagsControllerCore::__construct()
 
@@ -55,12 +72,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTagsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#34)
+* This method is defined in [controllers/admin/AdminTagsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L34)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminTagsControllerCore::initPageHeaderToolbar()
 
@@ -69,12 +86,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTagsController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#72)
+* This method is defined in [controllers/admin/AdminTagsController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L72)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminTagsControllerCore::renderList()
 
@@ -83,12 +100,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTagsController.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#85)
+* This method is defined in [controllers/admin/AdminTagsController.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L85)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminTagsControllerCore::postProcess()
 
@@ -97,12 +114,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTagsController.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#101)
+* This method is defined in [controllers/admin/AdminTagsController.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L101)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminTagsControllerCore::renderForm()
 
@@ -111,7 +128,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminTagsController.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#126)
+* This method is defined in [controllers/admin/AdminTagsController.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#L126)
 
 
 

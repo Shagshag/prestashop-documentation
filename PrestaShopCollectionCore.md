@@ -14,48 +14,110 @@ Create a collection of ObjectModel objects
 Constants
 ----------
 
+* [LEFT_JOIN](#constant-LEFT_JOIN)
+* [INNER_JOIN](#constant-INNER_JOIN)
+* [LEFT_OUTER_JOIN](#constant-LEFT_OUTER_JOIN)
+* [LANG_ALIAS](#constant-LANG_ALIAS)
 
-### LEFT_JOIN
+Properties
+----------
+
+* [$classname](#property-$classname)
+* [$id_lang](#property-$id_lang)
+* [$definition](#property-$definition)
+* [$query](#property-$query)
+* [$results](#property-$results)
+* [$is_hydrated](#property-$is_hydrated)
+* [$iterator](#property-$iterator)
+* [$total](#property-$total)
+* [$page_number](#property-$page_number)
+* [$page_size](#property-$page_size)
+* [$fields](#property-$fields)
+* [$alias](#property-$alias)
+* [$alias_iterator](#property-$alias_iterator)
+* [$join_list](#property-$join_list)
+* [$association_definition](#property-$association_definition)
+
+Methods
+-------
+* [__construct](#method-__construct)
+* [join](#method-join)
+* [where](#method-where)
+* [sqlWhere](#method-sqlWhere)
+* [having](#method-having)
+* [sqlHaving](#method-sqlHaving)
+* [orderBy](#method-orderBy)
+* [sqlOrderBy](#method-sqlOrderBy)
+* [groupBy](#method-groupBy)
+* [sqlGroupBy](#method-sqlGroupBy)
+* [getAll](#method-getAll)
+* [getFirst](#method-getFirst)
+* [getResults](#method-getResults)
+* [rewind](#method-rewind)
+* [current](#method-current)
+* [valid](#method-valid)
+* [key](#method-key)
+* [next](#method-next)
+* [count](#method-count)
+* [offsetExists](#method-offsetExists)
+* [offsetGet](#method-offsetGet)
+* [offsetSet](#method-offsetSet)
+* [offsetUnset](#method-offsetUnset)
+* [getDefinition](#method-getDefinition)
+* [parseFields](#method-parseFields)
+* [parseField](#method-parseField)
+* [formatValue](#method-formatValue)
+* [getFieldInfo](#method-getFieldInfo)
+* [setPageNumber](#method-setPageNumber)
+* [setPageSize](#method-setPageSize)
+* [generateAlias](#method-generateAlias)
+
+
+Constants
+----------
+
+
+### <a name="constant-LEFT_JOIN"></a>LEFT_JOIN
 
     const LEFT_JOIN = 1
 
 
 
-* This constant is defined in [classes/PrestaShopCollection.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#34)
+* This constant is defined in [classes/PrestaShopCollection.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L34)
 
 
-### INNER_JOIN
+### <a name="constant-INNER_JOIN"></a>INNER_JOIN
 
     const INNER_JOIN = 2
 
 
 
-* This constant is defined in [classes/PrestaShopCollection.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#35)
+* This constant is defined in [classes/PrestaShopCollection.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L35)
 
 
-### LEFT_OUTER_JOIN
+### <a name="constant-LEFT_OUTER_JOIN"></a>LEFT_OUTER_JOIN
 
     const LEFT_OUTER_JOIN = 3
 
 
 
-* This constant is defined in [classes/PrestaShopCollection.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#36)
+* This constant is defined in [classes/PrestaShopCollection.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L36)
 
 
-### LANG_ALIAS
+### <a name="constant-LANG_ALIAS"></a>LANG_ALIAS
 
     const LANG_ALIAS = 'l'
 
 
 
-* This constant is defined in [classes/PrestaShopCollection.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#94)
+* This constant is defined in [classes/PrestaShopCollection.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L94)
 
 
 Properties
 ----------
 
 
-### $classname
+### <a name="property-$classname"></a>$classname
 
     protected string $classname
 
@@ -64,10 +126,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#41)
+* This property is defined in [classes/PrestaShopCollection.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L41)
 
 
-### $id_lang
+### <a name="property-$id_lang"></a>$id_lang
 
     protected integer $id_lang
 
@@ -76,10 +138,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#46)
+* This property is defined in [classes/PrestaShopCollection.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L46)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     protected array $definition = array()
 
@@ -88,10 +150,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#51)
+* This property is defined in [classes/PrestaShopCollection.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L51)
 
 
-### $query
+### <a name="property-$query"></a>$query
 
     protected \DbQuery $query
 
@@ -100,10 +162,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#56)
+* This property is defined in [classes/PrestaShopCollection.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L56)
 
 
-### $results
+### <a name="property-$results"></a>$results
 
     protected array $results = array()
 
@@ -112,10 +174,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#61)
+* This property is defined in [classes/PrestaShopCollection.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L61)
 
 
-### $is_hydrated
+### <a name="property-$is_hydrated"></a>$is_hydrated
 
     protected boolean $is_hydrated = false
 
@@ -124,10 +186,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#66)
+* This property is defined in [classes/PrestaShopCollection.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L66)
 
 
-### $iterator
+### <a name="property-$iterator"></a>$iterator
 
     protected integer $iterator
 
@@ -136,10 +198,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#71)
+* This property is defined in [classes/PrestaShopCollection.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L71)
 
 
-### $total
+### <a name="property-$total"></a>$total
 
     protected integer $total
 
@@ -148,10 +210,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#76)
+* This property is defined in [classes/PrestaShopCollection.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L76)
 
 
-### $page_number
+### <a name="property-$page_number"></a>$page_number
 
     protected integer $page_number
 
@@ -160,10 +222,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#81)
+* This property is defined in [classes/PrestaShopCollection.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L81)
 
 
-### $page_size
+### <a name="property-$page_size"></a>$page_size
 
     protected integer $page_size
 
@@ -172,10 +234,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#86)
+* This property is defined in [classes/PrestaShopCollection.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L86)
 
 
-### $fields
+### <a name="property-$fields"></a>$fields
 
     protected mixed $fields = array()
 
@@ -184,10 +246,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#88)
+* This property is defined in [classes/PrestaShopCollection.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L88)
 
 
-### $alias
+### <a name="property-$alias"></a>$alias
 
     protected mixed $alias = array()
 
@@ -196,10 +258,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#89)
+* This property is defined in [classes/PrestaShopCollection.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L89)
 
 
-### $alias_iterator
+### <a name="property-$alias_iterator"></a>$alias_iterator
 
     protected mixed $alias_iterator
 
@@ -208,10 +270,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#90)
+* This property is defined in [classes/PrestaShopCollection.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L90)
 
 
-### $join_list
+### <a name="property-$join_list"></a>$join_list
 
     protected mixed $join_list = array()
 
@@ -220,10 +282,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#91)
+* This property is defined in [classes/PrestaShopCollection.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L91)
 
 
-### $association_definition
+### <a name="property-$association_definition"></a>$association_definition
 
     protected mixed $association_definition = array()
 
@@ -232,14 +294,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopCollection.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#92)
+* This property is defined in [classes/PrestaShopCollection.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L92)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed PrestaShopCollectionCore::__construct(string $classname, integer $id_lang)
 
@@ -248,7 +310,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#100)
+* This method is defined in [classes/PrestaShopCollection.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L100)
 
 
 #### Arguments
@@ -257,7 +319,7 @@ Methods
 
 
 
-### join
+### <a name="method-join"></a>join
 
     \PrestaShopCollection PrestaShopCollectionCore::join(string $association, string $on, integer $type)
 
@@ -266,7 +328,7 @@ Join current entity to an associated entity
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#123)
+* This method is defined in [classes/PrestaShopCollection.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L123)
 
 
 #### Arguments
@@ -276,7 +338,7 @@ Join current entity to an associated entity
 
 
 
-### where
+### <a name="method-where"></a>where
 
     \PrestaShopCollection PrestaShopCollectionCore::where(string $field, string $operator, mixed $value, $method)
 
@@ -285,7 +347,7 @@ Add WHERE restriction on query
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#160)
+* This method is defined in [classes/PrestaShopCollection.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L160)
 
 
 #### Arguments
@@ -296,7 +358,7 @@ Add WHERE restriction on query
 
 
 
-### sqlWhere
+### <a name="method-sqlWhere"></a>sqlWhere
 
     \PrestaShopCollection PrestaShopCollectionCore::sqlWhere(string $sql)
 
@@ -305,7 +367,7 @@ Add WHERE restriction on query using real SQL syntax
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#221)
+* This method is defined in [classes/PrestaShopCollection.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L221)
 
 
 #### Arguments
@@ -313,7 +375,7 @@ Add WHERE restriction on query using real SQL syntax
 
 
 
-### having
+### <a name="method-having"></a>having
 
     \PrestaShopCollection PrestaShopCollectionCore::having(string $field, string $operator, mixed $value)
 
@@ -322,7 +384,7 @@ Add HAVING restriction on query
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#235)
+* This method is defined in [classes/PrestaShopCollection.php line 235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L235)
 
 
 #### Arguments
@@ -332,7 +394,7 @@ Add HAVING restriction on query
 
 
 
-### sqlHaving
+### <a name="method-sqlHaving"></a>sqlHaving
 
     \PrestaShopCollection PrestaShopCollectionCore::sqlHaving(string $sql)
 
@@ -341,7 +403,7 @@ Add HAVING restriction on query using real SQL syntax
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#246)
+* This method is defined in [classes/PrestaShopCollection.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L246)
 
 
 #### Arguments
@@ -349,7 +411,7 @@ Add HAVING restriction on query using real SQL syntax
 
 
 
-### orderBy
+### <a name="method-orderBy"></a>orderBy
 
     \PrestaShopCollection PrestaShopCollectionCore::orderBy(string $field, string $order)
 
@@ -358,7 +420,7 @@ Add ORDER BY restriction on query
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 259](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#259)
+* This method is defined in [classes/PrestaShopCollection.php line 259](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L259)
 
 
 #### Arguments
@@ -367,7 +429,7 @@ Add ORDER BY restriction on query
 
 
 
-### sqlOrderBy
+### <a name="method-sqlOrderBy"></a>sqlOrderBy
 
     \PrestaShopCollection PrestaShopCollectionCore::sqlOrderBy(string $sql)
 
@@ -376,7 +438,7 @@ Add ORDER BY restriction on query using real SQL syntax
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#275)
+* This method is defined in [classes/PrestaShopCollection.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L275)
 
 
 #### Arguments
@@ -384,7 +446,7 @@ Add ORDER BY restriction on query using real SQL syntax
 
 
 
-### groupBy
+### <a name="method-groupBy"></a>groupBy
 
     \PrestaShopCollection PrestaShopCollectionCore::groupBy(string $field)
 
@@ -393,7 +455,7 @@ Add GROUP BY restriction on query
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#287)
+* This method is defined in [classes/PrestaShopCollection.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L287)
 
 
 #### Arguments
@@ -401,7 +463,7 @@ Add GROUP BY restriction on query
 
 
 
-### sqlGroupBy
+### <a name="method-sqlGroupBy"></a>sqlGroupBy
 
     \PrestaShopCollection PrestaShopCollectionCore::sqlGroupBy(string $sql)
 
@@ -410,7 +472,7 @@ Add GROUP BY restriction on query using real SQL syntax
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 299](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#299)
+* This method is defined in [classes/PrestaShopCollection.php line 299](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L299)
 
 
 #### Arguments
@@ -418,7 +480,7 @@ Add GROUP BY restriction on query using real SQL syntax
 
 
 
-### getAll
+### <a name="method-getAll"></a>getAll
 
     \PrestaShopCollection PrestaShopCollectionCore::getAll(boolean $display_query)
 
@@ -427,7 +489,7 @@ Launch sql query to create collection of objects
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 311](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#311)
+* This method is defined in [classes/PrestaShopCollection.php line 311](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L311)
 
 
 #### Arguments
@@ -435,7 +497,7 @@ Launch sql query to create collection of objects
 
 
 
-### getFirst
+### <a name="method-getFirst"></a>getFirst
 
     \ObjectModel PrestaShopCollectionCore::getFirst()
 
@@ -444,12 +506,12 @@ Retrieve the first result
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 370](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#370)
+* This method is defined in [classes/PrestaShopCollection.php line 370](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L370)
 
 
 
 
-### getResults
+### <a name="method-getResults"></a>getResults
 
     array PrestaShopCollectionCore::getResults()
 
@@ -458,12 +520,12 @@ Get results array
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#384)
+* This method is defined in [classes/PrestaShopCollection.php line 384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L384)
 
 
 
 
-### rewind
+### <a name="method-rewind"></a>rewind
 
     mixed PrestaShopCollectionCore::rewind()
 
@@ -472,12 +534,12 @@ This method is called when a foreach begin
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 395](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#395)
+* This method is defined in [classes/PrestaShopCollection.php line 395](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L395)
 
 
 
 
-### current
+### <a name="method-current"></a>current
 
     \ObjectModel PrestaShopCollectionCore::current()
 
@@ -486,12 +548,12 @@ Get current result
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 409](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#409)
+* This method is defined in [classes/PrestaShopCollection.php line 409](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L409)
 
 
 
 
-### valid
+### <a name="method-valid"></a>valid
 
     boolean PrestaShopCollectionCore::valid()
 
@@ -500,12 +562,12 @@ Check if there is a current result
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 420](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#420)
+* This method is defined in [classes/PrestaShopCollection.php line 420](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L420)
 
 
 
 
-### key
+### <a name="method-key"></a>key
 
     integer PrestaShopCollectionCore::key()
 
@@ -514,12 +576,12 @@ Get current result index
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 431](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#431)
+* This method is defined in [classes/PrestaShopCollection.php line 431](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L431)
 
 
 
 
-### next
+### <a name="method-next"></a>next
 
     mixed PrestaShopCollectionCore::next()
 
@@ -528,12 +590,12 @@ Go to next result
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 441](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#441)
+* This method is defined in [classes/PrestaShopCollection.php line 441](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L441)
 
 
 
 
-### count
+### <a name="method-count"></a>count
 
     integer PrestaShopCollectionCore::count()
 
@@ -542,12 +604,12 @@ Get total of results
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 452](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#452)
+* This method is defined in [classes/PrestaShopCollection.php line 452](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L452)
 
 
 
 
-### offsetExists
+### <a name="method-offsetExists"></a>offsetExists
 
     boolean PrestaShopCollectionCore::offsetExists($offset)
 
@@ -556,7 +618,7 @@ Check if a result exist
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 465](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#465)
+* This method is defined in [classes/PrestaShopCollection.php line 465](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L465)
 
 
 #### Arguments
@@ -564,7 +626,7 @@ Check if a result exist
 
 
 
-### offsetGet
+### <a name="method-offsetGet"></a>offsetGet
 
     \ObjectModel PrestaShopCollectionCore::offsetGet($offset)
 
@@ -573,7 +635,7 @@ Get a result by offset
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 478](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#478)
+* This method is defined in [classes/PrestaShopCollection.php line 478](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L478)
 
 
 #### Arguments
@@ -581,7 +643,7 @@ Get a result by offset
 
 
 
-### offsetSet
+### <a name="method-offsetSet"></a>offsetSet
 
     mixed PrestaShopCollectionCore::offsetSet($offset, $value)
 
@@ -590,7 +652,7 @@ Add an element in the collection
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 494](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#494)
+* This method is defined in [classes/PrestaShopCollection.php line 494](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L494)
 
 
 #### Arguments
@@ -599,7 +661,7 @@ Add an element in the collection
 
 
 
-### offsetUnset
+### <a name="method-offsetUnset"></a>offsetUnset
 
     mixed PrestaShopCollectionCore::offsetUnset($offset)
 
@@ -608,7 +670,7 @@ Delete an element from the collection
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#514)
+* This method is defined in [classes/PrestaShopCollection.php line 514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L514)
 
 
 #### Arguments
@@ -616,7 +678,7 @@ Delete an element from the collection
 
 
 
-### getDefinition
+### <a name="method-getDefinition"></a>getDefinition
 
     array PrestaShopCollectionCore::getDefinition(string $association)
 
@@ -625,7 +687,7 @@ Get definition of an association
 
 
 * Visibility: **protected**
-* This method is defined in [classes/PrestaShopCollection.php line 526](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#526)
+* This method is defined in [classes/PrestaShopCollection.php line 526](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L526)
 
 
 #### Arguments
@@ -633,7 +695,7 @@ Get definition of an association
 
 
 
-### parseFields
+### <a name="method-parseFields"></a>parseFields
 
     string PrestaShopCollectionCore::parseFields(string $str)
 
@@ -642,7 +704,7 @@ Parse all fields with {field} syntax in a string
 
 
 * Visibility: **protected**
-* This method is defined in [classes/PrestaShopCollection.php line 590](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#590)
+* This method is defined in [classes/PrestaShopCollection.php line 590](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L590)
 
 
 #### Arguments
@@ -650,7 +712,7 @@ Parse all fields with {field} syntax in a string
 
 
 
-### parseField
+### <a name="method-parseField"></a>parseField
 
     string PrestaShopCollectionCore::parseField(string $field)
 
@@ -659,7 +721,7 @@ Replace a field with its SQL version (E.g. manufacturer.name with a2.name)
 
 
 * Visibility: **protected**
-* This method is defined in [classes/PrestaShopCollection.php line 605](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#605)
+* This method is defined in [classes/PrestaShopCollection.php line 605](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L605)
 
 
 #### Arguments
@@ -667,7 +729,7 @@ Replace a field with its SQL version (E.g. manufacturer.name with a2.name)
 
 
 
-### formatValue
+### <a name="method-formatValue"></a>formatValue
 
     mixed PrestaShopCollectionCore::formatValue(mixed $value, string $field)
 
@@ -676,7 +738,7 @@ Format a value with the type of the given field
 
 
 * Visibility: **protected**
-* This method is defined in [classes/PrestaShopCollection.php line 618](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#618)
+* This method is defined in [classes/PrestaShopCollection.php line 618](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L618)
 
 
 #### Arguments
@@ -685,7 +747,7 @@ Format a value with the type of the given field
 
 
 
-### getFieldInfo
+### <a name="method-getFieldInfo"></a>getFieldInfo
 
     array PrestaShopCollectionCore::getFieldInfo(string $field)
 
@@ -694,7 +756,7 @@ Obtain some information on a field (alias, name, type, etc.)
 
 
 * Visibility: **protected**
-* This method is defined in [classes/PrestaShopCollection.php line 637](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#637)
+* This method is defined in [classes/PrestaShopCollection.php line 637](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L637)
 
 
 #### Arguments
@@ -702,7 +764,7 @@ Obtain some information on a field (alias, name, type, etc.)
 
 
 
-### setPageNumber
+### <a name="method-setPageNumber"></a>setPageNumber
 
     \PrestaShopCollection PrestaShopCollectionCore::setPageNumber(integer $page_number)
 
@@ -711,7 +773,7 @@ Set the page number
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 690](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#690)
+* This method is defined in [classes/PrestaShopCollection.php line 690](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L690)
 
 
 #### Arguments
@@ -719,7 +781,7 @@ Set the page number
 
 
 
-### setPageSize
+### <a name="method-setPageSize"></a>setPageSize
 
     \PrestaShopCollection PrestaShopCollectionCore::setPageSize(integer $page_size)
 
@@ -728,7 +790,7 @@ Set the nuber of item per page
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopCollection.php line 707](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#707)
+* This method is defined in [classes/PrestaShopCollection.php line 707](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L707)
 
 
 #### Arguments
@@ -736,7 +798,7 @@ Set the nuber of item per page
 
 
 
-### generateAlias
+### <a name="method-generateAlias"></a>generateAlias
 
     string PrestaShopCollectionCore::generateAlias(string $association)
 
@@ -745,7 +807,7 @@ Generate uniq alias from association name
 
 
 * Visibility: **protected**
-* This method is defined in [classes/PrestaShopCollection.php line 719](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#719)
+* This method is defined in [classes/PrestaShopCollection.php line 719](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L719)
 
 
 #### Arguments

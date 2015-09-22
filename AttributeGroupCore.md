@@ -17,8 +17,37 @@ AttributeGroupCore
 Properties
 ----------
 
+* [$name](#property-$name)
+* [$is_color_group](#property-$is_color_group)
+* [$position](#property-$position)
+* [$group_type](#property-$group_type)
+* [$public_name](#property-$public_name)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $name
+Methods
+-------
+* [add](#method-add)
+* [update](#method-update)
+* [cleanDeadCombinations](#method-cleanDeadCombinations)
+* [delete](#method-delete)
+* [getAttributes](#method-getAttributes)
+* [getAttributesGroups](#method-getAttributesGroups)
+* [deleteSelection](#method-deleteSelection)
+* [setWsProductOptionValues](#method-setWsProductOptionValues)
+* [getWsProductOptionValues](#method-getWsProductOptionValues)
+* [updatePosition](#method-updatePosition)
+* [cleanPositions](#method-cleanPositions)
+* [getHigherPosition](#method-getHigherPosition)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -27,10 +56,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/AttributeGroup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#30)
+* This property is defined in [classes/AttributeGroup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L30)
 
 
-### $is_color_group
+### <a name="property-$is_color_group"></a>$is_color_group
 
     public mixed $is_color_group
 
@@ -39,10 +68,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/AttributeGroup.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#31)
+* This property is defined in [classes/AttributeGroup.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L31)
 
 
-### $position
+### <a name="property-$position"></a>$position
 
     public mixed $position
 
@@ -51,10 +80,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/AttributeGroup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#32)
+* This property is defined in [classes/AttributeGroup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L32)
 
 
-### $group_type
+### <a name="property-$group_type"></a>$group_type
 
     public mixed $group_type
 
@@ -63,10 +92,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/AttributeGroup.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#33)
+* This property is defined in [classes/AttributeGroup.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L33)
 
 
-### $public_name
+### <a name="property-$public_name"></a>$public_name
 
     public string $public_name
 
@@ -75,10 +104,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/AttributeGroup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#36)
+* This property is defined in [classes/AttributeGroup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L36)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'attribute_group', 'primary' => 'id_attribute_group', 'multilang' => true, 'fields' => array('is_color_group' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'group_type' => array('type' => self::TYPE_STRING, 'required' => true), 'position' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 128), 'public_name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 64)))
 
@@ -88,10 +117,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/AttributeGroup.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#41)
+* This property is defined in [classes/AttributeGroup.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L41)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectsNodeName' => 'product_options', 'objectNodeName' => 'product_option', 'fields' => array(), 'associations' => array('product_option_values' => array('resource' => 'product_option_value', 'fields' => array('id' => array()))))
 
@@ -100,14 +129,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/AttributeGroup.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#57)
+* This property is defined in [classes/AttributeGroup.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L57)
 
 
 Methods
 -------
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed AttributeGroupCore::add($autodate, $nullValues)
 
@@ -116,7 +145,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/AttributeGroup.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#71)
+* This method is defined in [classes/AttributeGroup.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L71)
 
 
 #### Arguments
@@ -125,7 +154,7 @@ Methods
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed AttributeGroupCore::update($nullValues)
 
@@ -134,7 +163,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/AttributeGroup.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#88)
+* This method is defined in [classes/AttributeGroup.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L88)
 
 
 #### Arguments
@@ -142,7 +171,7 @@ Methods
 
 
 
-### cleanDeadCombinations
+### <a name="method-cleanDeadCombinations"></a>cleanDeadCombinations
 
     mixed AttributeGroupCore::cleanDeadCombinations()
 
@@ -152,12 +181,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/AttributeGroup.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#101)
+* This method is defined in [classes/AttributeGroup.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L101)
 
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed AttributeGroupCore::delete()
 
@@ -166,12 +195,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/AttributeGroup.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#125)
+* This method is defined in [classes/AttributeGroup.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L125)
 
 
 
 
-### getAttributes
+### <a name="method-getAttributes"></a>getAttributes
 
     array AttributeGroupCore::getAttributes(integer $id_lang, boolean $id_attribute_group)
 
@@ -181,7 +210,7 @@ Get all attributes for a given language / group
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/AttributeGroup.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#180)
+* This method is defined in [classes/AttributeGroup.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L180)
 
 
 #### Arguments
@@ -190,7 +219,7 @@ Get all attributes for a given language / group
 
 
 
-### getAttributesGroups
+### <a name="method-getAttributesGroups"></a>getAttributesGroups
 
     array AttributeGroupCore::getAttributesGroups(integer $id_lang)
 
@@ -200,7 +229,7 @@ Get all attributes groups for a given language
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/AttributeGroup.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#202)
+* This method is defined in [classes/AttributeGroup.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L202)
 
 
 #### Arguments
@@ -208,7 +237,7 @@ Get all attributes groups for a given language
 
 
 
-### deleteSelection
+### <a name="method-deleteSelection"></a>deleteSelection
 
     mixed AttributeGroupCore::deleteSelection($selection)
 
@@ -217,7 +246,7 @@ Delete several objects from database
 return boolean Deletion result
 
 * Visibility: **public**
-* This method is defined in [classes/AttributeGroup.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#223)
+* This method is defined in [classes/AttributeGroup.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L223)
 
 
 #### Arguments
@@ -225,7 +254,7 @@ return boolean Deletion result
 
 
 
-### setWsProductOptionValues
+### <a name="method-setWsProductOptionValues"></a>setWsProductOptionValues
 
     mixed AttributeGroupCore::setWsProductOptionValues($values)
 
@@ -234,7 +263,7 @@ return boolean Deletion result
 
 
 * Visibility: **public**
-* This method is defined in [classes/AttributeGroup.php line 235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#235)
+* This method is defined in [classes/AttributeGroup.php line 235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L235)
 
 
 #### Arguments
@@ -242,7 +271,7 @@ return boolean Deletion result
 
 
 
-### getWsProductOptionValues
+### <a name="method-getWsProductOptionValues"></a>getWsProductOptionValues
 
     mixed AttributeGroupCore::getWsProductOptionValues()
 
@@ -251,12 +280,12 @@ return boolean Deletion result
 
 
 * Visibility: **public**
-* This method is defined in [classes/AttributeGroup.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#260)
+* This method is defined in [classes/AttributeGroup.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L260)
 
 
 
 
-### updatePosition
+### <a name="method-updatePosition"></a>updatePosition
 
     boolean AttributeGroupCore::updatePosition(boolean $way, integer $position)
 
@@ -265,7 +294,7 @@ Move a group attribute
 
 
 * Visibility: **public**
-* This method is defined in [classes/AttributeGroup.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#277)
+* This method is defined in [classes/AttributeGroup.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L277)
 
 
 #### Arguments
@@ -274,7 +303,7 @@ Move a group attribute
 
 
 
-### cleanPositions
+### <a name="method-cleanPositions"></a>cleanPositions
 
     boolean AttributeGroupCore::cleanPositions()
 
@@ -285,12 +314,12 @@ Call it after deleting a group attribute.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/AttributeGroup.php line 320](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#320)
+* This method is defined in [classes/AttributeGroup.php line 320](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L320)
 
 
 
 
-### getHigherPosition
+### <a name="method-getHigherPosition"></a>getHigherPosition
 
     integer AttributeGroupCore::getHigherPosition()
 
@@ -300,7 +329,7 @@ Get the higher group attribute position
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/AttributeGroup.php line 348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#348)
+* This method is defined in [classes/AttributeGroup.php line 348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#L348)
 
 
 

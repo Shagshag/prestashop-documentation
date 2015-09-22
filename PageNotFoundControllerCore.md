@@ -17,8 +17,24 @@ PageNotFoundControllerCore
 Properties
 ----------
 
+* [$php_self](#property-$php_self)
+* [$page_name](#property-$page_name)
+* [$ssl](#property-$ssl)
 
-### $php_self
+Methods
+-------
+* [initContent](#method-initContent)
+* [canonicalRedirection](#method-canonicalRedirection)
+* [sslRedirection](#method-sslRedirection)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'pagenotfound'
 
@@ -27,10 +43,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/PageNotFoundController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#29)
+* This property is defined in [controllers/front/PageNotFoundController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L29)
 
 
-### $page_name
+### <a name="property-$page_name"></a>$page_name
 
     public mixed $page_name = 'pagenotfound'
 
@@ -39,10 +55,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/PageNotFoundController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#30)
+* This property is defined in [controllers/front/PageNotFoundController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L30)
 
 
-### $ssl
+### <a name="property-$ssl"></a>$ssl
 
     public mixed $ssl = true
 
@@ -51,14 +67,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/PageNotFoundController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#31)
+* This property is defined in [controllers/front/PageNotFoundController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L31)
 
 
 Methods
 -------
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed PageNotFoundControllerCore::initContent()
 
@@ -67,12 +83,12 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/PageNotFoundController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#37)
+* This method is defined in [controllers/front/PageNotFoundController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L37)
 
 
 
 
-### canonicalRedirection
+### <a name="method-canonicalRedirection"></a>canonicalRedirection
 
     mixed PageNotFoundControllerCore::canonicalRedirection($canonical_url)
 
@@ -81,7 +97,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/PageNotFoundController.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#106)
+* This method is defined in [controllers/front/PageNotFoundController.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L106)
 
 
 #### Arguments
@@ -89,7 +105,7 @@ Assign template vars related to page content
 
 
 
-### sslRedirection
+### <a name="method-sslRedirection"></a>sslRedirection
 
     mixed PageNotFoundControllerCore::sslRedirection()
 
@@ -98,7 +114,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/front/PageNotFoundController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#111)
+* This method is defined in [controllers/front/PageNotFoundController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#L111)
 
 
 

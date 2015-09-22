@@ -17,8 +17,52 @@ CombinationCore
 Properties
 ----------
 
+* [$id_product](#property-$id_product)
+* [$reference](#property-$reference)
+* [$supplier_reference](#property-$supplier_reference)
+* [$location](#property-$location)
+* [$ean13](#property-$ean13)
+* [$upc](#property-$upc)
+* [$wholesale_price](#property-$wholesale_price)
+* [$price](#property-$price)
+* [$unit_price_impact](#property-$unit_price_impact)
+* [$ecotax](#property-$ecotax)
+* [$minimal_quantity](#property-$minimal_quantity)
+* [$quantity](#property-$quantity)
+* [$weight](#property-$weight)
+* [$default_on](#property-$default_on)
+* [$available_date](#property-$available_date)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_product
+Methods
+-------
+* [delete](#method-delete)
+* [deleteFromSupplier](#method-deleteFromSupplier)
+* [add](#method-add)
+* [update](#method-update)
+* [deleteAssociations](#method-deleteAssociations)
+* [setAttributes](#method-setAttributes)
+* [setWsProductOptionValues](#method-setWsProductOptionValues)
+* [getWsProductOptionValues](#method-getWsProductOptionValues)
+* [getWsImages](#method-getWsImages)
+* [setImages](#method-setImages)
+* [setWsImages](#method-setWsImages)
+* [getAttributesName](#method-getAttributesName)
+* [isFeatureActive](#method-isFeatureActive)
+* [isCurrentlyUsed](#method-isCurrentlyUsed)
+* [getIdByReference](#method-getIdByReference)
+* [getColorsAttributes](#method-getColorsAttributes)
+* [getPrice](#method-getPrice)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_product"></a>$id_product
 
     public mixed $id_product
 
@@ -27,10 +71,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#29)
+* This property is defined in [classes/Combination.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L29)
 
 
-### $reference
+### <a name="property-$reference"></a>$reference
 
     public mixed $reference
 
@@ -39,10 +83,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#31)
+* This property is defined in [classes/Combination.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L31)
 
 
-### $supplier_reference
+### <a name="property-$supplier_reference"></a>$supplier_reference
 
     public mixed $supplier_reference
 
@@ -51,10 +95,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#33)
+* This property is defined in [classes/Combination.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L33)
 
 
-### $location
+### <a name="property-$location"></a>$location
 
     public mixed $location
 
@@ -63,10 +107,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#35)
+* This property is defined in [classes/Combination.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L35)
 
 
-### $ean13
+### <a name="property-$ean13"></a>$ean13
 
     public mixed $ean13
 
@@ -75,10 +119,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#37)
+* This property is defined in [classes/Combination.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L37)
 
 
-### $upc
+### <a name="property-$upc"></a>$upc
 
     public mixed $upc
 
@@ -87,10 +131,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#39)
+* This property is defined in [classes/Combination.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L39)
 
 
-### $wholesale_price
+### <a name="property-$wholesale_price"></a>$wholesale_price
 
     public mixed $wholesale_price
 
@@ -99,10 +143,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#41)
+* This property is defined in [classes/Combination.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L41)
 
 
-### $price
+### <a name="property-$price"></a>$price
 
     public mixed $price
 
@@ -111,10 +155,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#43)
+* This property is defined in [classes/Combination.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L43)
 
 
-### $unit_price_impact
+### <a name="property-$unit_price_impact"></a>$unit_price_impact
 
     public mixed $unit_price_impact
 
@@ -123,10 +167,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#45)
+* This property is defined in [classes/Combination.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L45)
 
 
-### $ecotax
+### <a name="property-$ecotax"></a>$ecotax
 
     public mixed $ecotax
 
@@ -135,10 +179,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#47)
+* This property is defined in [classes/Combination.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L47)
 
 
-### $minimal_quantity
+### <a name="property-$minimal_quantity"></a>$minimal_quantity
 
     public mixed $minimal_quantity = 1
 
@@ -147,10 +191,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#49)
+* This property is defined in [classes/Combination.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L49)
 
 
-### $quantity
+### <a name="property-$quantity"></a>$quantity
 
     public mixed $quantity
 
@@ -159,10 +203,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#51)
+* This property is defined in [classes/Combination.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L51)
 
 
-### $weight
+### <a name="property-$weight"></a>$weight
 
     public mixed $weight
 
@@ -171,10 +215,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#53)
+* This property is defined in [classes/Combination.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L53)
 
 
-### $default_on
+### <a name="property-$default_on"></a>$default_on
 
     public mixed $default_on
 
@@ -183,10 +227,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#55)
+* This property is defined in [classes/Combination.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L55)
 
 
-### $available_date
+### <a name="property-$available_date"></a>$available_date
 
     public mixed $available_date = '0000-00-00'
 
@@ -195,10 +239,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Combination.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#57)
+* This property is defined in [classes/Combination.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L57)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'product_attribute', 'primary' => 'id_product_attribute', 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'shop' => 'both', 'validate' => 'isUnsignedId', 'required' => true), 'location' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 64), 'ean13' => array('type' => self::TYPE_STRING, 'validate' => 'isEan13', 'size' => 13), 'upc' => array('type' => self::TYPE_STRING, 'validate' => 'isUpc', 'size' => 12), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'size' => 10), 'reference' => array('type' => self::TYPE_STRING, 'size' => 32), 'supplier_reference' => array('type' => self::TYPE_STRING, 'size' => 32), 'wholesale_price' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice', 'size' => 27), 'price' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isNegativePrice', 'size' => 20), 'ecotax' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isPrice', 'size' => 20), 'weight' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isFloat'), 'unit_price_impact' => array('type' => self::TYPE_FLOAT, 'shop' => true, 'validate' => 'isNegativePrice', 'size' => 20), 'minimal_quantity' => array('type' => self::TYPE_INT, 'shop' => true, 'validate' => 'isUnsignedId', 'required' => true), 'default_on' => array('type' => self::TYPE_BOOL, 'allow_null' => true, 'shop' => true, 'validate' => 'isBool'), 'available_date' => array('type' => self::TYPE_DATE, 'shop' => true, 'validate' => 'isDateFormat')))
 
@@ -208,10 +252,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Combination.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#62)
+* This property is defined in [classes/Combination.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L62)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectNodeName' => 'combination', 'objectsNodeName' => 'combinations', 'fields' => array('id_product' => array('required' => true, 'xlink_resource' => 'products')), 'associations' => array('product_option_values' => array('resource' => 'product_option_value'), 'images' => array('resource' => 'image', 'api' => 'images/products')))
 
@@ -220,14 +264,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Combination.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#86)
+* This property is defined in [classes/Combination.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L86)
 
 
 Methods
 -------
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed CombinationCore::delete()
 
@@ -236,12 +280,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#98)
+* This method is defined in [classes/Combination.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L98)
 
 
 
 
-### deleteFromSupplier
+### <a name="method-deleteFromSupplier"></a>deleteFromSupplier
 
     mixed CombinationCore::deleteFromSupplier($id_product)
 
@@ -250,7 +294,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#124)
+* This method is defined in [classes/Combination.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L124)
 
 
 #### Arguments
@@ -258,7 +302,7 @@ Methods
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed CombinationCore::add($autodate, $null_values)
 
@@ -267,7 +311,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#130)
+* This method is defined in [classes/Combination.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L130)
 
 
 #### Arguments
@@ -276,7 +320,7 @@ Methods
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed CombinationCore::update($null_values)
 
@@ -285,7 +329,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#156)
+* This method is defined in [classes/Combination.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L156)
 
 
 #### Arguments
@@ -293,7 +337,7 @@ Methods
 
 
 
-### deleteAssociations
+### <a name="method-deleteAssociations"></a>deleteAssociations
 
     mixed CombinationCore::deleteAssociations()
 
@@ -302,12 +346,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#170)
+* This method is defined in [classes/Combination.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L170)
 
 
 
 
-### setAttributes
+### <a name="method-setAttributes"></a>setAttributes
 
     mixed CombinationCore::setAttributes($ids_attribute)
 
@@ -316,7 +360,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#179)
+* This method is defined in [classes/Combination.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L179)
 
 
 #### Arguments
@@ -324,7 +368,7 @@ Methods
 
 
 
-### setWsProductOptionValues
+### <a name="method-setWsProductOptionValues"></a>setWsProductOptionValues
 
     mixed CombinationCore::setWsProductOptionValues($values)
 
@@ -333,7 +377,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#196)
+* This method is defined in [classes/Combination.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L196)
 
 
 #### Arguments
@@ -341,7 +385,7 @@ Methods
 
 
 
-### getWsProductOptionValues
+### <a name="method-getWsProductOptionValues"></a>getWsProductOptionValues
 
     mixed CombinationCore::getWsProductOptionValues()
 
@@ -350,12 +394,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#205)
+* This method is defined in [classes/Combination.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L205)
 
 
 
 
-### getWsImages
+### <a name="method-getWsImages"></a>getWsImages
 
     mixed CombinationCore::getWsImages()
 
@@ -364,12 +408,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#216)
+* This method is defined in [classes/Combination.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L216)
 
 
 
 
-### setImages
+### <a name="method-setImages"></a>setImages
 
     mixed CombinationCore::setImages($ids_image)
 
@@ -378,7 +422,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#226)
+* This method is defined in [classes/Combination.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L226)
 
 
 #### Arguments
@@ -386,7 +430,7 @@ Methods
 
 
 
-### setWsImages
+### <a name="method-setWsImages"></a>setWsImages
 
     mixed CombinationCore::setWsImages($values)
 
@@ -395,7 +439,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#251)
+* This method is defined in [classes/Combination.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L251)
 
 
 #### Arguments
@@ -403,7 +447,7 @@ Methods
 
 
 
-### getAttributesName
+### <a name="method-getAttributesName"></a>getAttributesName
 
     mixed CombinationCore::getAttributesName($id_lang)
 
@@ -412,7 +456,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#260)
+* This method is defined in [classes/Combination.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L260)
 
 
 #### Arguments
@@ -420,7 +464,7 @@ Methods
 
 
 
-### isFeatureActive
+### <a name="method-isFeatureActive"></a>isFeatureActive
 
     boolean CombinationCore::isFeatureActive()
 
@@ -430,12 +474,12 @@ This method is allow to know if a feature is active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Combination.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#274)
+* This method is defined in [classes/Combination.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L274)
 
 
 
 
-### isCurrentlyUsed
+### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
 
     boolean CombinationCore::isCurrentlyUsed($table, $has_active_column)
 
@@ -445,7 +489,7 @@ This method is allow to know if a Combination entity is currently used
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Combination.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#291)
+* This method is defined in [classes/Combination.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L291)
 
 
 #### Arguments
@@ -454,7 +498,7 @@ This method is allow to know if a Combination entity is currently used
 
 
 
-### getIdByReference
+### <a name="method-getIdByReference"></a>getIdByReference
 
     integer CombinationCore::getIdByReference(integer $id_product, string $reference)
 
@@ -464,7 +508,7 @@ For a given product_attribute reference, returns the corresponding id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Combination.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#303)
+* This method is defined in [classes/Combination.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L303)
 
 
 #### Arguments
@@ -473,7 +517,7 @@ For a given product_attribute reference, returns the corresponding id
 
 
 
-### getColorsAttributes
+### <a name="method-getColorsAttributes"></a>getColorsAttributes
 
     mixed CombinationCore::getColorsAttributes()
 
@@ -482,12 +526,12 @@ For a given product_attribute reference, returns the corresponding id
 
 
 * Visibility: **public**
-* This method is defined in [classes/Combination.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#318)
+* This method is defined in [classes/Combination.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L318)
 
 
 
 
-### getPrice
+### <a name="method-getPrice"></a>getPrice
 
     float CombinationCore::getPrice(integer $id_product_attribute)
 
@@ -497,7 +541,7 @@ Retrive the price of combination
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Combination.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#336)
+* This method is defined in [classes/Combination.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#L336)
 
 
 #### Arguments

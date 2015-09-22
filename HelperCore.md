@@ -16,8 +16,45 @@ HelperCore
 Properties
 ----------
 
+* [$currentIndex](#property-$currentIndex)
+* [$table](#property-$table)
+* [$identifier](#property-$identifier)
+* [$token](#property-$token)
+* [$toolbar_btn](#property-$toolbar_btn)
+* [$ps_help_context](#property-$ps_help_context)
+* [$title](#property-$title)
+* [$show_toolbar](#property-$show_toolbar)
+* [$context](#property-$context)
+* [$toolbar_scroll](#property-$toolbar_scroll)
+* [$bootstrap](#property-$bootstrap)
+* [$module](#property-$module)
+* [$base_folder](#property-$base_folder)
+* [$override_folder](#property-$override_folder)
+* [$tpl](#property-$tpl)
+* [$base_tpl](#property-$base_tpl)
+* [$tpl_vars](#property-$tpl_vars)
 
-### $currentIndex
+Methods
+-------
+* [__construct](#method-__construct)
+* [setTpl](#method-setTpl)
+* [createTemplate](#method-createTemplate)
+* [generate](#method-generate)
+* [renderAdminCategorieTree](#method-renderAdminCategorieTree)
+* [renderCategoryTree](#method-renderCategoryTree)
+* [l](#method-l)
+* [renderRequiredFields](#method-renderRequiredFields)
+* [renderModulesList](#method-renderModulesList)
+* [renderShopList](#method-renderShopList)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$currentIndex"></a>$currentIndex
 
     public mixed $currentIndex
 
@@ -26,10 +63,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#29)
+* This property is defined in [classes/helper/Helper.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L29)
 
 
-### $table
+### <a name="property-$table"></a>$table
 
     public mixed $table = 'configuration'
 
@@ -38,10 +75,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#30)
+* This property is defined in [classes/helper/Helper.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L30)
 
 
-### $identifier
+### <a name="property-$identifier"></a>$identifier
 
     public mixed $identifier
 
@@ -50,10 +87,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#31)
+* This property is defined in [classes/helper/Helper.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L31)
 
 
-### $token
+### <a name="property-$token"></a>$token
 
     public mixed $token
 
@@ -62,10 +99,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#32)
+* This property is defined in [classes/helper/Helper.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L32)
 
 
-### $toolbar_btn
+### <a name="property-$toolbar_btn"></a>$toolbar_btn
 
     public mixed $toolbar_btn
 
@@ -74,10 +111,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#33)
+* This property is defined in [classes/helper/Helper.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L33)
 
 
-### $ps_help_context
+### <a name="property-$ps_help_context"></a>$ps_help_context
 
     public mixed $ps_help_context
 
@@ -86,10 +123,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#34)
+* This property is defined in [classes/helper/Helper.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L34)
 
 
-### $title
+### <a name="property-$title"></a>$title
 
     public mixed $title
 
@@ -98,10 +135,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#35)
+* This property is defined in [classes/helper/Helper.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L35)
 
 
-### $show_toolbar
+### <a name="property-$show_toolbar"></a>$show_toolbar
 
     public mixed $show_toolbar = true
 
@@ -110,10 +147,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#36)
+* This property is defined in [classes/helper/Helper.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L36)
 
 
-### $context
+### <a name="property-$context"></a>$context
 
     public mixed $context
 
@@ -122,10 +159,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#37)
+* This property is defined in [classes/helper/Helper.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L37)
 
 
-### $toolbar_scroll
+### <a name="property-$toolbar_scroll"></a>$toolbar_scroll
 
     public mixed $toolbar_scroll = false
 
@@ -134,10 +171,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#38)
+* This property is defined in [classes/helper/Helper.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L38)
 
 
-### $bootstrap
+### <a name="property-$bootstrap"></a>$bootstrap
 
     public mixed $bootstrap = false
 
@@ -146,10 +183,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#39)
+* This property is defined in [classes/helper/Helper.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L39)
 
 
-### $module
+### <a name="property-$module"></a>$module
 
     public \Module $module
 
@@ -158,10 +195,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#44)
+* This property is defined in [classes/helper/Helper.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L44)
 
 
-### $base_folder
+### <a name="property-$base_folder"></a>$base_folder
 
     public string $base_folder
 
@@ -170,10 +207,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#47)
+* This property is defined in [classes/helper/Helper.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L47)
 
 
-### $override_folder
+### <a name="property-$override_folder"></a>$override_folder
 
     public string $override_folder
 
@@ -182,10 +219,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#50)
+* This property is defined in [classes/helper/Helper.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L50)
 
 
-### $tpl
+### <a name="property-$tpl"></a>$tpl
 
     protected \Smarty_Internal_Template $tpl
 
@@ -194,10 +231,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/helper/Helper.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#55)
+* This property is defined in [classes/helper/Helper.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L55)
 
 
-### $base_tpl
+### <a name="property-$base_tpl"></a>$base_tpl
 
     public string $base_tpl = 'content.tpl'
 
@@ -206,10 +243,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#60)
+* This property is defined in [classes/helper/Helper.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L60)
 
 
-### $tpl_vars
+### <a name="property-$tpl_vars"></a>$tpl_vars
 
     public mixed $tpl_vars = array()
 
@@ -218,14 +255,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/helper/Helper.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#62)
+* This property is defined in [classes/helper/Helper.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L62)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed HelperCore::__construct()
 
@@ -234,12 +271,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/Helper.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#64)
+* This method is defined in [classes/helper/Helper.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L64)
 
 
 
 
-### setTpl
+### <a name="method-setTpl"></a>setTpl
 
     mixed HelperCore::setTpl($tpl)
 
@@ -248,7 +285,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/Helper.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#69)
+* This method is defined in [classes/helper/Helper.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L69)
 
 
 #### Arguments
@@ -256,7 +293,7 @@ Methods
 
 
 
-### createTemplate
+### <a name="method-createTemplate"></a>createTemplate
 
     \Smarty_Internal_Template HelperCore::createTemplate(string $tpl_name)
 
@@ -265,7 +302,7 @@ Create a template from the override file, else from the base file.
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/Helper.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#80)
+* This method is defined in [classes/helper/Helper.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L80)
 
 
 #### Arguments
@@ -273,7 +310,7 @@ Create a template from the override file, else from the base file.
 
 
 
-### generate
+### <a name="method-generate"></a>generate
 
     string HelperCore::generate()
 
@@ -282,12 +319,12 @@ default behaviour for helper is to return a tpl fetched
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/Helper.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#110)
+* This method is defined in [classes/helper/Helper.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L110)
 
 
 
 
-### renderAdminCategorieTree
+### <a name="method-renderAdminCategorieTree"></a>renderAdminCategorieTree
 
     mixed HelperCore::renderAdminCategorieTree($translations, $selected_cat, $input_name, $use_radio, $use_search, $disabled_categories, $use_in_popup)
 
@@ -297,7 +334,7 @@ default behaviour for helper is to return a tpl fetched
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/helper/Helper.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#119)
+* This method is defined in [classes/helper/Helper.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L119)
 
 
 #### Arguments
@@ -311,7 +348,7 @@ default behaviour for helper is to return a tpl fetched
 
 
 
-### renderCategoryTree
+### <a name="method-renderCategoryTree"></a>renderCategoryTree
 
     string HelperCore::renderCategoryTree(array $root, array $selected_cat, string $input_name, boolean $use_radio, boolean $use_search, array $disabled_categories)
 
@@ -320,7 +357,7 @@ default behaviour for helper is to return a tpl fetched
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/Helper.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#166)
+* This method is defined in [classes/helper/Helper.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L166)
 
 
 #### Arguments
@@ -348,7 +385,7 @@ default behaviour for helper is to return a tpl fetched
 
 
 
-### l
+### <a name="method-l"></a>l
 
     string HelperCore::l(mixed $string, string $class, boolean $addslashes, boolean $htmlentities)
 
@@ -357,7 +394,7 @@ use translations files to replace english expression.
 
 
 * Visibility: **protected**
-* This method is defined in [classes/helper/Helper.php line 299](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#299)
+* This method is defined in [classes/helper/Helper.php line 299](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L299)
 
 
 #### Arguments
@@ -368,7 +405,7 @@ use translations files to replace english expression.
 
 
 
-### renderRequiredFields
+### <a name="method-renderRequiredFields"></a>renderRequiredFields
 
     string HelperCore::renderRequiredFields(string $class_name, string $identifier, array $table_fields)
 
@@ -377,7 +414,7 @@ Render a form with potentials required fields
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/Helper.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#318)
+* This method is defined in [classes/helper/Helper.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L318)
 
 
 #### Arguments
@@ -387,7 +424,7 @@ Render a form with potentials required fields
 
 
 
-### renderModulesList
+### <a name="method-renderModulesList"></a>renderModulesList
 
     mixed HelperCore::renderModulesList($modules_list)
 
@@ -396,7 +433,7 @@ Render a form with potentials required fields
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/Helper.php line 350](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#350)
+* This method is defined in [classes/helper/Helper.php line 350](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L350)
 
 
 #### Arguments
@@ -404,7 +441,7 @@ Render a form with potentials required fields
 
 
 
-### renderShopList
+### <a name="method-renderShopList"></a>renderShopList
 
     string HelperCore::renderShopList()
 
@@ -414,7 +451,7 @@ Render shop list
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/helper/Helper.php line 374](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#374)
+* This method is defined in [classes/helper/Helper.php line 374](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#L374)
 
 
 

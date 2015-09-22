@@ -17,8 +17,76 @@ AdminImportControllerCore
 Properties
 ----------
 
+* [$column_mask](#property-$column_mask)
+* [$entities](#property-$entities)
+* [$available_fields](#property-$available_fields)
+* [$required_fields](#property-$required_fields)
+* [$cache_image_deleted](#property-$cache_image_deleted)
+* [$default_values](#property-$default_values)
+* [$validators](#property-$validators)
+* [$separator](#property-$separator)
+* [$multiple_value_separator](#property-$multiple_value_separator)
 
-### $column_mask
+Methods
+-------
+* [__construct](#method-__construct)
+* [setMedia](#method-setMedia)
+* [renderForm](#method-renderForm)
+* [ajaxProcessuploadCsv](#method-ajaxProcessuploadCsv)
+* [renderView](#method-renderView)
+* [initToolbar](#method-initToolbar)
+* [generateContentTable](#method-generateContentTable)
+* [init](#method-init)
+* [initContent](#method-initContent)
+* [rewindBomAware](#method-rewindBomAware)
+* [getBoolean](#method-getBoolean)
+* [getPrice](#method-getPrice)
+* [split](#method-split)
+* [createMultiLangField](#method-createMultiLangField)
+* [getTypeValuesOptions](#method-getTypeValuesOptions)
+* [getAvailableFields](#method-getAvailableFields)
+* [receiveTab](#method-receiveTab)
+* [getMaskedRow](#method-getMaskedRow)
+* [setDefaultValues](#method-setDefaultValues)
+* [setEntityDefaultValues](#method-setEntityDefaultValues)
+* [fillInfo](#method-fillInfo)
+* [arrayWalk](#method-arrayWalk)
+* [copyImg](#method-copyImg)
+* [get_best_path](#method-get_best_path)
+* [categoryImport](#method-categoryImport)
+* [productImport](#method-productImport)
+* [productImportCreateCat](#method-productImportCreateCat)
+* [attributeImport](#method-attributeImport)
+* [customerImport](#method-customerImport)
+* [addressImport](#method-addressImport)
+* [manufacturerImport](#method-manufacturerImport)
+* [supplierImport](#method-supplierImport)
+* [aliasImport](#method-aliasImport)
+* [supplyOrdersImport](#method-supplyOrdersImport)
+* [supplyOrdersDetailsImport](#method-supplyOrdersDetailsImport)
+* [utf8EncodeArray](#method-utf8EncodeArray)
+* [getNbrColumn](#method-getNbrColumn)
+* [usortFiles](#method-usortFiles)
+* [openCsvFile](#method-openCsvFile)
+* [closeCsvFile](#method-closeCsvFile)
+* [truncateTables](#method-truncateTables)
+* [clearSmartyCache](#method-clearSmartyCache)
+* [postProcess](#method-postProcess)
+* [setLocale](#method-setLocale)
+* [addProductWarning](#method-addProductWarning)
+* [ajaxProcessSaveImportMatchs](#method-ajaxProcessSaveImportMatchs)
+* [ajaxProcessLoadImportMatchs](#method-ajaxProcessLoadImportMatchs)
+* [ajaxProcessDeleteImportMatchs](#method-ajaxProcessDeleteImportMatchs)
+* [getPath](#method-getPath)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$column_mask"></a>$column_mask
 
     public mixed $column_mask
 
@@ -28,10 +96,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [controllers/admin/AdminImportController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#42)
+* This property is defined in [controllers/admin/AdminImportController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L42)
 
 
-### $entities
+### <a name="property-$entities"></a>$entities
 
     public mixed $entities = array()
 
@@ -40,10 +108,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminImportController.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#44)
+* This property is defined in [controllers/admin/AdminImportController.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L44)
 
 
-### $available_fields
+### <a name="property-$available_fields"></a>$available_fields
 
     public mixed $available_fields = array()
 
@@ -52,10 +120,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminImportController.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#46)
+* This property is defined in [controllers/admin/AdminImportController.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L46)
 
 
-### $required_fields
+### <a name="property-$required_fields"></a>$required_fields
 
     public mixed $required_fields = array()
 
@@ -64,10 +132,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminImportController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#48)
+* This property is defined in [controllers/admin/AdminImportController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L48)
 
 
-### $cache_image_deleted
+### <a name="property-$cache_image_deleted"></a>$cache_image_deleted
 
     public mixed $cache_image_deleted = array()
 
@@ -76,10 +144,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminImportController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#50)
+* This property is defined in [controllers/admin/AdminImportController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L50)
 
 
-### $default_values
+### <a name="property-$default_values"></a>$default_values
 
     public mixed $default_values = array()
 
@@ -89,10 +157,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [controllers/admin/AdminImportController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#52)
+* This property is defined in [controllers/admin/AdminImportController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L52)
 
 
-### $validators
+### <a name="property-$validators"></a>$validators
 
     public mixed $validators = array('active' => array('AdminImportController', 'getBoolean'), 'tax_rate' => array('AdminImportController', 'getPrice'), 'price_tex' => array('AdminImportController', 'getPrice'), 'price_tin' => array('AdminImportController', 'getPrice'), 'reduction_price' => array('AdminImportController', 'getPrice'), 'reduction_percent' => array('AdminImportController', 'getPrice'), 'wholesale_price' => array('AdminImportController', 'getPrice'), 'ecotax' => array('AdminImportController', 'getPrice'), 'name' => array('AdminImportController', 'createMultiLangField'), 'description' => array('AdminImportController', 'createMultiLangField'), 'description_short' => array('AdminImportController', 'createMultiLangField'), 'meta_title' => array('AdminImportController', 'createMultiLangField'), 'meta_keywords' => array('AdminImportController', 'createMultiLangField'), 'meta_description' => array('AdminImportController', 'createMultiLangField'), 'link_rewrite' => array('AdminImportController', 'createMultiLangField'), 'available_now' => array('AdminImportController', 'createMultiLangField'), 'available_later' => array('AdminImportController', 'createMultiLangField'), 'category' => array('AdminImportController', 'split'), 'online_only' => array('AdminImportController', 'getBoolean'))
 
@@ -102,10 +170,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [controllers/admin/AdminImportController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#54)
+* This property is defined in [controllers/admin/AdminImportController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L54)
 
 
-### $separator
+### <a name="property-$separator"></a>$separator
 
     public mixed $separator
 
@@ -114,10 +182,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminImportController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#78)
+* This property is defined in [controllers/admin/AdminImportController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L78)
 
 
-### $multiple_value_separator
+### <a name="property-$multiple_value_separator"></a>$multiple_value_separator
 
     public mixed $multiple_value_separator
 
@@ -126,14 +194,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminImportController.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#79)
+* This property is defined in [controllers/admin/AdminImportController.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L79)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminImportControllerCore::__construct()
 
@@ -142,12 +210,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#81)
+* This method is defined in [controllers/admin/AdminImportController.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L81)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminImportControllerCore::setMedia()
 
@@ -156,12 +224,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 509](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#509)
+* This method is defined in [controllers/admin/AdminImportController.php line 509](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L509)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminImportControllerCore::renderForm()
 
@@ -170,12 +238,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 530](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#530)
+* This method is defined in [controllers/admin/AdminImportController.php line 530](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L530)
 
 
 
 
-### ajaxProcessuploadCsv
+### <a name="method-ajaxProcessuploadCsv"></a>ajaxProcessuploadCsv
 
     mixed AdminImportControllerCore::ajaxProcessuploadCsv()
 
@@ -184,12 +252,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 631](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#631)
+* This method is defined in [controllers/admin/AdminImportController.php line 631](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L631)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminImportControllerCore::renderView()
 
@@ -198,12 +266,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#670)
+* This method is defined in [controllers/admin/AdminImportController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L670)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminImportControllerCore::initToolbar()
 
@@ -212,12 +280,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 720](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#720)
+* This method is defined in [controllers/admin/AdminImportController.php line 720](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L720)
 
 
 
 
-### generateContentTable
+### <a name="method-generateContentTable"></a>generateContentTable
 
     mixed AdminImportControllerCore::generateContentTable($current_table, $nb_column, $handle, $glue)
 
@@ -226,7 +294,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminImportController.php line 743](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#743)
+* This method is defined in [controllers/admin/AdminImportController.php line 743](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L743)
 
 
 #### Arguments
@@ -237,7 +305,7 @@ Methods
 
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed AdminImportControllerCore::init()
 
@@ -246,12 +314,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 779](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#779)
+* This method is defined in [controllers/admin/AdminImportController.php line 779](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L779)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminImportControllerCore::initContent()
 
@@ -260,12 +328,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 787](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#787)
+* This method is defined in [controllers/admin/AdminImportController.php line 787](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L787)
 
 
 
 
-### rewindBomAware
+### <a name="method-rewindBomAware"></a>rewindBomAware
 
     mixed AdminImportControllerCore::rewindBomAware($handle)
 
@@ -275,7 +343,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 813](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#813)
+* This method is defined in [controllers/admin/AdminImportController.php line 813](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L813)
 
 
 #### Arguments
@@ -283,7 +351,7 @@ Methods
 
 
 
-### getBoolean
+### <a name="method-getBoolean"></a>getBoolean
 
     mixed AdminImportControllerCore::getBoolean($field)
 
@@ -293,7 +361,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 825](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#825)
+* This method is defined in [controllers/admin/AdminImportController.php line 825](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L825)
 
 
 #### Arguments
@@ -301,7 +369,7 @@ Methods
 
 
 
-### getPrice
+### <a name="method-getPrice"></a>getPrice
 
     mixed AdminImportControllerCore::getPrice($field)
 
@@ -311,7 +379,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 830](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#830)
+* This method is defined in [controllers/admin/AdminImportController.php line 830](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L830)
 
 
 #### Arguments
@@ -319,7 +387,7 @@ Methods
 
 
 
-### split
+### <a name="method-split"></a>split
 
     mixed AdminImportControllerCore::split($field)
 
@@ -329,7 +397,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 837](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#837)
+* This method is defined in [controllers/admin/AdminImportController.php line 837](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L837)
 
 
 #### Arguments
@@ -337,7 +405,7 @@ Methods
 
 
 
-### createMultiLangField
+### <a name="method-createMultiLangField"></a>createMultiLangField
 
     mixed AdminImportControllerCore::createMultiLangField($field)
 
@@ -347,7 +415,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 868](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#868)
+* This method is defined in [controllers/admin/AdminImportController.php line 868](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L868)
 
 
 #### Arguments
@@ -355,7 +423,7 @@ Methods
 
 
 
-### getTypeValuesOptions
+### <a name="method-getTypeValuesOptions"></a>getTypeValuesOptions
 
     mixed AdminImportControllerCore::getTypeValuesOptions($nb_c)
 
@@ -364,7 +432,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminImportController.php line 878](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#878)
+* This method is defined in [controllers/admin/AdminImportController.php line 878](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L878)
 
 
 #### Arguments
@@ -372,7 +440,7 @@ Methods
 
 
 
-### getAvailableFields
+### <a name="method-getAvailableFields"></a>getAvailableFields
 
     mixed AdminImportControllerCore::getAvailableFields($in_array)
 
@@ -381,7 +449,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 904](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#904)
+* This method is defined in [controllers/admin/AdminImportController.php line 904](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L904)
 
 
 #### Arguments
@@ -389,7 +457,7 @@ Methods
 
 
 
-### receiveTab
+### <a name="method-receiveTab"></a>receiveTab
 
     mixed AdminImportControllerCore::receiveTab()
 
@@ -398,12 +466,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminImportController.php line 933](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#933)
+* This method is defined in [controllers/admin/AdminImportController.php line 933](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L933)
 
 
 
 
-### getMaskedRow
+### <a name="method-getMaskedRow"></a>getMaskedRow
 
     mixed AdminImportControllerCore::getMaskedRow($row)
 
@@ -413,7 +481,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 943](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#943)
+* This method is defined in [controllers/admin/AdminImportController.php line 943](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L943)
 
 
 #### Arguments
@@ -421,7 +489,7 @@ Methods
 
 
 
-### setDefaultValues
+### <a name="method-setDefaultValues"></a>setDefaultValues
 
     mixed AdminImportControllerCore::setDefaultValues($info)
 
@@ -431,7 +499,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 955](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#955)
+* This method is defined in [controllers/admin/AdminImportController.php line 955](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L955)
 
 
 #### Arguments
@@ -439,7 +507,7 @@ Methods
 
 
 
-### setEntityDefaultValues
+### <a name="method-setEntityDefaultValues"></a>setEntityDefaultValues
 
     mixed AdminImportControllerCore::setEntityDefaultValues($entity)
 
@@ -449,7 +517,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 964](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#964)
+* This method is defined in [controllers/admin/AdminImportController.php line 964](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L964)
 
 
 #### Arguments
@@ -457,7 +525,7 @@ Methods
 
 
 
-### fillInfo
+### <a name="method-fillInfo"></a>fillInfo
 
     mixed AdminImportControllerCore::fillInfo($infos, $key, $entity)
 
@@ -467,7 +535,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 974](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#974)
+* This method is defined in [controllers/admin/AdminImportController.php line 974](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L974)
 
 
 #### Arguments
@@ -477,7 +545,7 @@ Methods
 
 
 
-### arrayWalk
+### <a name="method-arrayWalk"></a>arrayWalk
 
     boolean AdminImportControllerCore::arrayWalk($array, $funcname, mixed $user_data)
 
@@ -487,7 +555,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 998](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#998)
+* This method is defined in [controllers/admin/AdminImportController.php line 998](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L998)
 
 
 #### Arguments
@@ -497,7 +565,7 @@ Methods
 
 
 
-### copyImg
+### <a name="method-copyImg"></a>copyImg
 
     boolean AdminImportControllerCore::copyImg(integer $id_entity, integer $id_image, string $url, string $entity, boolean $regenerate)
 
@@ -508,7 +576,7 @@ $id_image is used if we need to add a watermark
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 1024](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#1024)
+* This method is defined in [controllers/admin/AdminImportController.php line 1024](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L1024)
 
 
 #### Arguments
@@ -520,7 +588,7 @@ $id_image is used if we need to add a watermark
 
 
 
-### get_best_path
+### <a name="method-get_best_path"></a>get_best_path
 
     mixed AdminImportControllerCore::get_best_path($tgt_width, $tgt_height, $path_infos)
 
@@ -530,7 +598,7 @@ $id_image is used if we need to add a watermark
 
 * Visibility: **private**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 1115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#1115)
+* This method is defined in [controllers/admin/AdminImportController.php line 1115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L1115)
 
 
 #### Arguments
@@ -540,7 +608,7 @@ $id_image is used if we need to add a watermark
 
 
 
-### categoryImport
+### <a name="method-categoryImport"></a>categoryImport
 
     mixed AdminImportControllerCore::categoryImport()
 
@@ -549,12 +617,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 1128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#1128)
+* This method is defined in [controllers/admin/AdminImportController.php line 1128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L1128)
 
 
 
 
-### productImport
+### <a name="method-productImport"></a>productImport
 
     mixed AdminImportControllerCore::productImport()
 
@@ -563,12 +631,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 1324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#1324)
+* This method is defined in [controllers/admin/AdminImportController.php line 1324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L1324)
 
 
 
 
-### productImportCreateCat
+### <a name="method-productImportCreateCat"></a>productImportCreateCat
 
     mixed AdminImportControllerCore::productImportCreateCat($default_language_id, $category_name, $id_parent_category)
 
@@ -577,7 +645,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 1968](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#1968)
+* This method is defined in [controllers/admin/AdminImportController.php line 1968](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L1968)
 
 
 #### Arguments
@@ -587,7 +655,7 @@ $id_image is used if we need to add a watermark
 
 
 
-### attributeImport
+### <a name="method-attributeImport"></a>attributeImport
 
     mixed AdminImportControllerCore::attributeImport()
 
@@ -596,12 +664,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 2001](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#2001)
+* This method is defined in [controllers/admin/AdminImportController.php line 2001](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L2001)
 
 
 
 
-### customerImport
+### <a name="method-customerImport"></a>customerImport
 
     mixed AdminImportControllerCore::customerImport()
 
@@ -610,12 +678,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 2433](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#2433)
+* This method is defined in [controllers/admin/AdminImportController.php line 2433](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L2433)
 
 
 
 
-### addressImport
+### <a name="method-addressImport"></a>addressImport
 
     mixed AdminImportControllerCore::addressImport()
 
@@ -624,12 +692,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 2642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#2642)
+* This method is defined in [controllers/admin/AdminImportController.php line 2642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L2642)
 
 
 
 
-### manufacturerImport
+### <a name="method-manufacturerImport"></a>manufacturerImport
 
     mixed AdminImportControllerCore::manufacturerImport()
 
@@ -638,12 +706,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 2839](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#2839)
+* This method is defined in [controllers/admin/AdminImportController.php line 2839](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L2839)
 
 
 
 
-### supplierImport
+### <a name="method-supplierImport"></a>supplierImport
 
     mixed AdminImportControllerCore::supplierImport()
 
@@ -652,12 +720,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 2925](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#2925)
+* This method is defined in [controllers/admin/AdminImportController.php line 2925](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L2925)
 
 
 
 
-### aliasImport
+### <a name="method-aliasImport"></a>aliasImport
 
     mixed AdminImportControllerCore::aliasImport()
 
@@ -666,12 +734,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 3009](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3009)
+* This method is defined in [controllers/admin/AdminImportController.php line 3009](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3009)
 
 
 
 
-### supplyOrdersImport
+### <a name="method-supplyOrdersImport"></a>supplyOrdersImport
 
     mixed AdminImportControllerCore::supplyOrdersImport()
 
@@ -680,12 +748,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 3067](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3067)
+* This method is defined in [controllers/admin/AdminImportController.php line 3067](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3067)
 
 
 
 
-### supplyOrdersDetailsImport
+### <a name="method-supplyOrdersDetailsImport"></a>supplyOrdersDetailsImport
 
     mixed AdminImportControllerCore::supplyOrdersDetailsImport()
 
@@ -694,12 +762,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 3180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3180)
+* This method is defined in [controllers/admin/AdminImportController.php line 3180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3180)
 
 
 
 
-### utf8EncodeArray
+### <a name="method-utf8EncodeArray"></a>utf8EncodeArray
 
     mixed AdminImportControllerCore::utf8EncodeArray($array)
 
@@ -708,7 +776,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 3300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3300)
+* This method is defined in [controllers/admin/AdminImportController.php line 3300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3300)
 
 
 #### Arguments
@@ -716,7 +784,7 @@ $id_image is used if we need to add a watermark
 
 
 
-### getNbrColumn
+### <a name="method-getNbrColumn"></a>getNbrColumn
 
     mixed AdminImportControllerCore::getNbrColumn($handle, $glue)
 
@@ -725,7 +793,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminImportController.php line 3305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3305)
+* This method is defined in [controllers/admin/AdminImportController.php line 3305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3305)
 
 
 #### Arguments
@@ -734,7 +802,7 @@ $id_image is used if we need to add a watermark
 
 
 
-### usortFiles
+### <a name="method-usortFiles"></a>usortFiles
 
     mixed AdminImportControllerCore::usortFiles($a, $b)
 
@@ -744,7 +812,7 @@ $id_image is used if we need to add a watermark
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 3315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3315)
+* This method is defined in [controllers/admin/AdminImportController.php line 3315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3315)
 
 
 #### Arguments
@@ -753,7 +821,7 @@ $id_image is used if we need to add a watermark
 
 
 
-### openCsvFile
+### <a name="method-openCsvFile"></a>openCsvFile
 
     mixed AdminImportControllerCore::openCsvFile()
 
@@ -762,12 +830,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminImportController.php line 3323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3323)
+* This method is defined in [controllers/admin/AdminImportController.php line 3323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3323)
 
 
 
 
-### closeCsvFile
+### <a name="method-closeCsvFile"></a>closeCsvFile
 
     mixed AdminImportControllerCore::closeCsvFile($handle)
 
@@ -776,7 +844,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminImportController.php line 3343](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3343)
+* This method is defined in [controllers/admin/AdminImportController.php line 3343](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3343)
 
 
 #### Arguments
@@ -784,7 +852,7 @@ $id_image is used if we need to add a watermark
 
 
 
-### truncateTables
+### <a name="method-truncateTables"></a>truncateTables
 
     mixed AdminImportControllerCore::truncateTables($case)
 
@@ -793,7 +861,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminImportController.php line 3348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3348)
+* This method is defined in [controllers/admin/AdminImportController.php line 3348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3348)
 
 
 #### Arguments
@@ -801,7 +869,7 @@ $id_image is used if we need to add a watermark
 
 
 
-### clearSmartyCache
+### <a name="method-clearSmartyCache"></a>clearSmartyCache
 
     mixed AdminImportControllerCore::clearSmartyCache()
 
@@ -810,12 +878,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 3462](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3462)
+* This method is defined in [controllers/admin/AdminImportController.php line 3462](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3462)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminImportControllerCore::postProcess()
 
@@ -824,12 +892,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 3469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3469)
+* This method is defined in [controllers/admin/AdminImportController.php line 3469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3469)
 
 
 
 
-### setLocale
+### <a name="method-setLocale"></a>setLocale
 
     mixed AdminImportControllerCore::setLocale()
 
@@ -839,12 +907,12 @@ $id_image is used if we need to add a watermark
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 3586](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3586)
+* This method is defined in [controllers/admin/AdminImportController.php line 3586](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3586)
 
 
 
 
-### addProductWarning
+### <a name="method-addProductWarning"></a>addProductWarning
 
     mixed AdminImportControllerCore::addProductWarning($product_name, $product_id, $message)
 
@@ -853,7 +921,7 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminImportController.php line 3593](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3593)
+* This method is defined in [controllers/admin/AdminImportController.php line 3593](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3593)
 
 
 #### Arguments
@@ -863,7 +931,7 @@ $id_image is used if we need to add a watermark
 
 
 
-### ajaxProcessSaveImportMatchs
+### <a name="method-ajaxProcessSaveImportMatchs"></a>ajaxProcessSaveImportMatchs
 
     mixed AdminImportControllerCore::ajaxProcessSaveImportMatchs()
 
@@ -872,12 +940,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 3599](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3599)
+* This method is defined in [controllers/admin/AdminImportController.php line 3599](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3599)
 
 
 
 
-### ajaxProcessLoadImportMatchs
+### <a name="method-ajaxProcessLoadImportMatchs"></a>ajaxProcessLoadImportMatchs
 
     mixed AdminImportControllerCore::ajaxProcessLoadImportMatchs()
 
@@ -886,12 +954,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 3620](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3620)
+* This method is defined in [controllers/admin/AdminImportController.php line 3620](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3620)
 
 
 
 
-### ajaxProcessDeleteImportMatchs
+### <a name="method-ajaxProcessDeleteImportMatchs"></a>ajaxProcessDeleteImportMatchs
 
     mixed AdminImportControllerCore::ajaxProcessDeleteImportMatchs()
 
@@ -900,12 +968,12 @@ $id_image is used if we need to add a watermark
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminImportController.php line 3630](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3630)
+* This method is defined in [controllers/admin/AdminImportController.php line 3630](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3630)
 
 
 
 
-### getPath
+### <a name="method-getPath"></a>getPath
 
     mixed AdminImportControllerCore::getPath($file)
 
@@ -915,7 +983,7 @@ $id_image is used if we need to add a watermark
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminImportController.php line 3639](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#3639)
+* This method is defined in [controllers/admin/AdminImportController.php line 3639](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L3639)
 
 
 #### Arguments

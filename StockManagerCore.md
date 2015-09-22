@@ -17,9 +17,27 @@ StockManager : implementation of StockManagerInterface
 
 Methods
 -------
+* [isAvailable](#method-isAvailable)
+* [addProduct](#method-addProduct)
+* [removeProduct](#method-removeProduct)
+* [getProductPhysicalQuantities](#method-getProductPhysicalQuantities)
+* [getProductRealQuantities](#method-getProductRealQuantities)
+* [transferBetweenWarehouses](#method-transferBetweenWarehouses)
+* [getProductCoverage](#method-getProductCoverage)
+* [calculateWA](#method-calculateWA)
+* [getStockCollection](#method-getStockCollection)
+* [getStockByCarrier](#method-getStockByCarrier)
 
 
-### isAvailable
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-isAvailable"></a>isAvailable
 
     \StockManagerInterface StockManagerInterface::isAvailable()
 
@@ -30,12 +48,12 @@ Checks if the StockManager is available
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in [classes/stock/StockManager.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#38)
+* This method is defined in [classes/stock/StockManager.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L38)
 
 
 
 
-### addProduct
+### <a name="method-addProduct"></a>addProduct
 
     boolean StockManagerInterface::addProduct(integer $id_product, integer $id_product_attribute, \Warehouse $warehouse, integer $quantity, integer $id_stock_movement_reason, float $price_te, boolean $is_usable, integer $id_supply_order)
 
@@ -45,7 +63,7 @@ For a given product, adds a given quantity
 
 * Visibility: **public**
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in [classes/stock/StockManager.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#53)
+* This method is defined in [classes/stock/StockManager.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L53)
 
 
 #### Arguments
@@ -60,7 +78,7 @@ For a given product, adds a given quantity
 
 
 
-### removeProduct
+### <a name="method-removeProduct"></a>removeProduct
 
     array StockManagerInterface::removeProduct(integer $id_product, integer $id_product_attribute, \Warehouse $warehouse, integer $quantity, integer $id_stock_movement_reason, boolean $is_usable, integer $id_order)
 
@@ -70,7 +88,7 @@ For a given product, removes a given quantity
 
 * Visibility: **public**
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in [classes/stock/StockManager.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#67)
+* This method is defined in [classes/stock/StockManager.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L67)
 
 
 #### Arguments
@@ -84,7 +102,7 @@ For a given product, removes a given quantity
 
 
 
-### getProductPhysicalQuantities
+### <a name="method-getProductPhysicalQuantities"></a>getProductPhysicalQuantities
 
     integer StockManagerInterface::getProductPhysicalQuantities(integer $id_product, integer $id_product_attribute, array|integer $ids_warehouse, boolean $usable)
 
@@ -95,7 +113,7 @@ If the given product has combinations and $id_product_attribute is null, returns
 
 * Visibility: **public**
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in [classes/stock/StockManager.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#79)
+* This method is defined in [classes/stock/StockManager.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L79)
 
 
 #### Arguments
@@ -106,7 +124,7 @@ If the given product has combinations and $id_product_attribute is null, returns
 
 
 
-### getProductRealQuantities
+### <a name="method-getProductRealQuantities"></a>getProductRealQuantities
 
     integer StockManagerInterface::getProductRealQuantities(integer $id_product, integer $id_product_attribute, array|integer $ids_warehouse, boolean $usable)
 
@@ -119,7 +137,7 @@ If $usable is defined, real quantity: usable_qty + supply_orders_qty - client_or
 
 * Visibility: **public**
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in [classes/stock/StockManager.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#93)
+* This method is defined in [classes/stock/StockManager.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L93)
 
 
 #### Arguments
@@ -130,7 +148,7 @@ If $usable is defined, real quantity: usable_qty + supply_orders_qty - client_or
 
 
 
-### transferBetweenWarehouses
+### <a name="method-transferBetweenWarehouses"></a>transferBetweenWarehouses
 
     boolean StockManagerInterface::transferBetweenWarehouses(integer $id_product, integer $id_product_attribute, integer $quantity, integer $warehouse_from, integer $warehouse_to, boolean $usable_from, boolean $usable_to)
 
@@ -143,7 +161,7 @@ It is also possible to transfer a usable quantity from warehouse 1 in an unusabl
 
 * Visibility: **public**
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in [classes/stock/StockManager.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#110)
+* This method is defined in [classes/stock/StockManager.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L110)
 
 
 #### Arguments
@@ -157,7 +175,7 @@ It is also possible to transfer a usable quantity from warehouse 1 in an unusabl
 
 
 
-### getProductCoverage
+### <a name="method-getProductCoverage"></a>getProductCoverage
 
     integer StockManagerInterface::getProductCoverage(integer $id_product, integer $id_product_attribute, integer $coverage, integer $id_warehouse)
 
@@ -167,7 +185,7 @@ By default, for the given product, it will use sum(quantities removed in all war
 
 * Visibility: **public**
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in [classes/stock/StockManager.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#122)
+* This method is defined in [classes/stock/StockManager.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L122)
 
 
 #### Arguments
@@ -178,7 +196,7 @@ By default, for the given product, it will use sum(quantities removed in all war
 
 
 
-### calculateWA
+### <a name="method-calculateWA"></a>calculateWA
 
     integer StockManagerCore::calculateWA(\Stock|\PrestaShopCollection $stock, integer $quantity, float $price_te)
 
@@ -188,7 +206,7 @@ Formula : (physicalStock * lastCump + quantityToAdd * unitPrice) / (physicalStoc
 
 
 * Visibility: **protected**
-* This method is defined in [classes/stock/StockManager.php line 778](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#778)
+* This method is defined in [classes/stock/StockManager.php line 778](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L778)
 
 
 #### Arguments
@@ -198,7 +216,7 @@ Formula : (physicalStock * lastCump + quantityToAdd * unitPrice) / (physicalStoc
 
 
 
-### getStockCollection
+### <a name="method-getStockCollection"></a>getStockCollection
 
     \PrestaShopCollection StockManagerCore::getStockCollection(integer $id_product, integer $id_product_attribute, integer $id_warehouse, integer $price_te)
 
@@ -207,7 +225,7 @@ For a given product, retrieves the stock collection
 
 
 * Visibility: **protected**
-* This method is defined in [classes/stock/StockManager.php line 792](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#792)
+* This method is defined in [classes/stock/StockManager.php line 792](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L792)
 
 
 #### Arguments
@@ -218,7 +236,7 @@ For a given product, retrieves the stock collection
 
 
 
-### getStockByCarrier
+### <a name="method-getStockByCarrier"></a>getStockByCarrier
 
     integer StockManagerCore::getStockByCarrier(integer $id_product, integer $id_product_attribute, array $delivery_option)
 
@@ -228,7 +246,7 @@ For a given product, retrieves the stock in function of the delivery option
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/stock/StockManager.php line 815](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#815)
+* This method is defined in [classes/stock/StockManager.php line 815](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L815)
 
 
 #### Arguments

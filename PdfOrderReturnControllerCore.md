@@ -17,8 +17,23 @@ PdfOrderReturnControllerCore
 Properties
 ----------
 
+* [$php_self](#property-$php_self)
+* [$display_header](#property-$display_header)
+* [$display_footer](#property-$display_footer)
 
-### $php_self
+Methods
+-------
+* [postProcess](#method-postProcess)
+* [display](#method-display)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'pdf-order-return'
 
@@ -27,10 +42,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/PdfOrderReturnController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#29)
+* This property is defined in [controllers/front/PdfOrderReturnController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#L29)
 
 
-### $display_header
+### <a name="property-$display_header"></a>$display_header
 
     protected mixed $display_header = false
 
@@ -39,10 +54,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/PdfOrderReturnController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#30)
+* This property is defined in [controllers/front/PdfOrderReturnController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#L30)
 
 
-### $display_footer
+### <a name="property-$display_footer"></a>$display_footer
 
     protected mixed $display_footer = false
 
@@ -51,14 +66,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/front/PdfOrderReturnController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#31)
+* This property is defined in [controllers/front/PdfOrderReturnController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#L31)
 
 
 Methods
 -------
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed PdfOrderReturnControllerCore::postProcess()
 
@@ -67,12 +82,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/PdfOrderReturnController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#33)
+* This method is defined in [controllers/front/PdfOrderReturnController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#L33)
 
 
 
 
-### display
+### <a name="method-display"></a>display
 
     mixed PdfOrderReturnControllerCore::display()
 
@@ -81,7 +96,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/PdfOrderReturnController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#54)
+* This method is defined in [controllers/front/PdfOrderReturnController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#L54)
 
 
 

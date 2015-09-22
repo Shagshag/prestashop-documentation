@@ -17,9 +17,24 @@ ProductSaleCore
 
 Methods
 -------
+* [fillProductSales](#method-fillProductSales)
+* [getNbSales](#method-getNbSales)
+* [getBestSales](#method-getBestSales)
+* [getBestSalesLight](#method-getBestSalesLight)
+* [addProductSale](#method-addProductSale)
+* [getNbrSales](#method-getNbrSales)
+* [removeProductSale](#method-removeProductSale)
 
 
-### fillProductSales
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-fillProductSales"></a>fillProductSales
 
     mixed ProductSaleCore::fillProductSales()
 
@@ -29,12 +44,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ProductSale.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#33)
+* This method is defined in [classes/ProductSale.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#L33)
 
 
 
 
-### getNbSales
+### <a name="method-getNbSales"></a>getNbSales
 
     mixed ProductSaleCore::getNbSales()
 
@@ -44,12 +59,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ProductSale.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#46)
+* This method is defined in [classes/ProductSale.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#L46)
 
 
 
 
-### getBestSales
+### <a name="method-getBestSales"></a>getBestSales
 
     mixed ProductSaleCore::getBestSales($id_lang, $page_number, $nb_products, $order_by, $order_way)
 
@@ -59,7 +74,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ProductSale.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#64)
+* This method is defined in [classes/ProductSale.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#L64)
 
 
 #### Arguments
@@ -71,7 +86,7 @@ Methods
 
 
 
-### getBestSalesLight
+### <a name="method-getBestSalesLight"></a>getBestSalesLight
 
     mixed ProductSaleCore::getBestSalesLight($id_lang, $page_number, $nb_products, \Context $context)
 
@@ -81,7 +96,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ProductSale.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#159)
+* This method is defined in [classes/ProductSale.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#L159)
 
 
 #### Arguments
@@ -92,7 +107,7 @@ Methods
 
 
 
-### addProductSale
+### <a name="method-addProductSale"></a>addProductSale
 
     mixed ProductSaleCore::addProductSale($product_id, $qty)
 
@@ -102,7 +117,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ProductSale.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#219)
+* This method is defined in [classes/ProductSale.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#L219)
 
 
 #### Arguments
@@ -111,7 +126,7 @@ Methods
 
 
 
-### getNbrSales
+### <a name="method-getNbrSales"></a>getNbrSales
 
     mixed ProductSaleCore::getNbrSales($id_product)
 
@@ -121,7 +136,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ProductSale.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#228)
+* This method is defined in [classes/ProductSale.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#L228)
 
 
 #### Arguments
@@ -129,7 +144,7 @@ Methods
 
 
 
-### removeProductSale
+### <a name="method-removeProductSale"></a>removeProductSale
 
     mixed ProductSaleCore::removeProductSale($id_product, $qty)
 
@@ -139,7 +154,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ProductSale.php line 237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#237)
+* This method is defined in [classes/ProductSale.php line 237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#L237)
 
 
 #### Arguments

@@ -30,8 +30,21 @@ needs please refer to http://www.prestashop.com for more information.
 Properties
 ----------
 
+* [$service_container](#property-$service_container)
 
-### $service_container
+Methods
+-------
+* [setServiceContainerInstance](#method-setServiceContainerInstance)
+* [get](#method-get)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$service_container"></a>$service_container
 
     private \Core_Foundation_IoC_Container $service_container
 
@@ -41,14 +54,14 @@ Set a service container Instance
 
 * Visibility: **private**
 * This property is **static**.
-* This property is defined in [Adapter/Adapter_ServiceLocator.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#33)
+* This property is defined in [Adapter/Adapter_ServiceLocator.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#L33)
 
 
 Methods
 -------
 
 
-### setServiceContainerInstance
+### <a name="method-setServiceContainerInstance"></a>setServiceContainerInstance
 
     mixed Adapter_ServiceLocator::setServiceContainerInstance(\Core_Foundation_IoC_Container $container)
 
@@ -58,7 +71,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [Adapter/Adapter_ServiceLocator.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#35)
+* This method is defined in [Adapter/Adapter_ServiceLocator.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#L35)
 
 
 #### Arguments
@@ -66,7 +79,7 @@ Methods
 
 
 
-### get
+### <a name="method-get"></a>get
 
     mixed|object Adapter_ServiceLocator::get($serviceName)
 
@@ -76,7 +89,7 @@ Get a service depending on its given $serviceName
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [Adapter/Adapter_ServiceLocator.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#46)
+* This method is defined in [Adapter/Adapter_ServiceLocator.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#L46)
 
 
 #### Arguments

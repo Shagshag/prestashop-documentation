@@ -17,8 +17,22 @@ CustomizationFieldCore
 Properties
 ----------
 
+* [$id_product](#property-$id_product)
+* [$type](#property-$type)
+* [$required](#property-$required)
+* [$name](#property-$name)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_product
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_product"></a>$id_product
 
     public integer $id_product
 
@@ -27,10 +41,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomizationField.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#30)
+* This property is defined in [classes/CustomizationField.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L30)
 
 
-### $type
+### <a name="property-$type"></a>$type
 
     public integer $type
 
@@ -39,10 +53,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomizationField.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#32)
+* This property is defined in [classes/CustomizationField.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L32)
 
 
-### $required
+### <a name="property-$required"></a>$required
 
     public boolean $required
 
@@ -51,10 +65,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomizationField.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#34)
+* This property is defined in [classes/CustomizationField.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L34)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -63,10 +77,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomizationField.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#36)
+* This property is defined in [classes/CustomizationField.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L36)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'customization_field', 'primary' => 'id_customization_field', 'multilang' => true, 'multilang_shop' => true, 'fields' => array('id_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'type' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'required' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool', 'required' => true), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'required' => true, 'size' => 255)))
 
@@ -76,10 +90,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/CustomizationField.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#41)
+* This property is defined in [classes/CustomizationField.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L41)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_product' => array('xlink_resource' => array('resourceName' => 'products'))))
 
@@ -88,7 +102,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/CustomizationField.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#56)
+* This property is defined in [classes/CustomizationField.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#L56)
 
 
 

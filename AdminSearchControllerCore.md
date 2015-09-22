@@ -18,9 +18,31 @@ AdminSearchControllerCore
 
 Methods
 -------
+* [__construct](#method-__construct)
+* [postProcess](#method-postProcess)
+* [searchIP](#method-searchIP)
+* [searchCatalog](#method-searchCatalog)
+* [searchCustomer](#method-searchCustomer)
+* [searchModule](#method-searchModule)
+* [searchFeatures](#method-searchFeatures)
+* [initOrderList](#method-initOrderList)
+* [initCustomerList](#method-initCustomerList)
+* [initProductList](#method-initProductList)
+* [setMedia](#method-setMedia)
+* [initToolbar](#method-initToolbar)
+* [initToolbarTitle](#method-initToolbarTitle)
+* [renderView](#method-renderView)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed AdminSearchControllerCore::__construct()
 
@@ -29,12 +51,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#29)
+* This method is defined in [controllers/admin/AdminSearchController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L29)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminSearchControllerCore::postProcess()
 
@@ -43,12 +65,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#35)
+* This method is defined in [controllers/admin/AdminSearchController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L35)
 
 
 
 
-### searchIP
+### <a name="method-searchIP"></a>searchIP
 
     mixed AdminSearchControllerCore::searchIP()
 
@@ -57,12 +79,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#148)
+* This method is defined in [controllers/admin/AdminSearchController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L148)
 
 
 
 
-### searchCatalog
+### <a name="method-searchCatalog"></a>searchCatalog
 
     mixed AdminSearchControllerCore::searchCatalog()
 
@@ -71,12 +93,12 @@ Search a specific string in the products and categories
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchController.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#162)
+* This method is defined in [controllers/admin/AdminSearchController.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L162)
 
 
 
 
-### searchCustomer
+### <a name="method-searchCustomer"></a>searchCustomer
 
     mixed AdminSearchControllerCore::searchCustomer()
 
@@ -85,12 +107,12 @@ Search a specific name in the customers
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#174)
+* This method is defined in [controllers/admin/AdminSearchController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L174)
 
 
 
 
-### searchModule
+### <a name="method-searchModule"></a>searchModule
 
     mixed AdminSearchControllerCore::searchModule()
 
@@ -99,12 +121,12 @@ Search a specific name in the customers
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchController.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#179)
+* This method is defined in [controllers/admin/AdminSearchController.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L179)
 
 
 
 
-### searchFeatures
+### <a name="method-searchFeatures"></a>searchFeatures
 
     mixed AdminSearchControllerCore::searchFeatures()
 
@@ -113,12 +135,12 @@ Search a feature in all store
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchController.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#209)
+* This method is defined in [controllers/admin/AdminSearchController.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L209)
 
 
 
 
-### initOrderList
+### <a name="method-initOrderList"></a>initOrderList
 
     mixed AdminSearchControllerCore::initOrderList()
 
@@ -127,12 +149,12 @@ Search a feature in all store
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSearchController.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#262)
+* This method is defined in [controllers/admin/AdminSearchController.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L262)
 
 
 
 
-### initCustomerList
+### <a name="method-initCustomerList"></a>initCustomerList
 
     mixed AdminSearchControllerCore::initCustomerList()
 
@@ -141,12 +163,12 @@ Search a feature in all store
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSearchController.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#275)
+* This method is defined in [controllers/admin/AdminSearchController.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L275)
 
 
 
 
-### initProductList
+### <a name="method-initProductList"></a>initProductList
 
     mixed AdminSearchControllerCore::initProductList()
 
@@ -155,12 +177,12 @@ Search a feature in all store
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminSearchController.php line 297](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#297)
+* This method is defined in [controllers/admin/AdminSearchController.php line 297](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L297)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminSearchControllerCore::setMedia()
 
@@ -169,12 +191,12 @@ Search a feature in all store
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchController.php line 311](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#311)
+* This method is defined in [controllers/admin/AdminSearchController.php line 311](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L311)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminSearchControllerCore::initToolbar()
 
@@ -183,12 +205,12 @@ Search a feature in all store
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchController.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#318)
+* This method is defined in [controllers/admin/AdminSearchController.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L318)
 
 
 
 
-### initToolbarTitle
+### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
     mixed AdminSearchControllerCore::initToolbarTitle()
 
@@ -197,12 +219,12 @@ Search a feature in all store
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchController.php line 322](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#322)
+* This method is defined in [controllers/admin/AdminSearchController.php line 322](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L322)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminSearchControllerCore::renderView()
 
@@ -211,7 +233,7 @@ Search a feature in all store
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminSearchController.php line 327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#327)
+* This method is defined in [controllers/admin/AdminSearchController.php line 327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchController.php#L327)
 
 
 

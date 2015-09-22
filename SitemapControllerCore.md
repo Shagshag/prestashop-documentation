@@ -17,8 +17,21 @@ SitemapControllerCore
 Properties
 ----------
 
+* [$php_self](#property-$php_self)
 
-### $php_self
+Methods
+-------
+* [setMedia](#method-setMedia)
+* [initContent](#method-initContent)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'sitemap'
 
@@ -27,14 +40,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/SitemapController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SitemapController.php#29)
+* This property is defined in [controllers/front/SitemapController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SitemapController.php#L29)
 
 
 Methods
 -------
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed SitemapControllerCore::setMedia()
 
@@ -43,12 +56,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/SitemapController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SitemapController.php#31)
+* This method is defined in [controllers/front/SitemapController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SitemapController.php#L31)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed SitemapControllerCore::initContent()
 
@@ -57,7 +70,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/SitemapController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SitemapController.php#42)
+* This method is defined in [controllers/front/SitemapController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SitemapController.php#L42)
 
 
 

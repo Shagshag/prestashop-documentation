@@ -15,21 +15,50 @@ PDFGeneratorCore
 Constants
 ----------
 
+* [DEFAULT_FONT](#constant-DEFAULT_FONT)
 
-### DEFAULT_FONT
+Properties
+----------
+
+* [$header](#property-$header)
+* [$footer](#property-$footer)
+* [$content](#property-$content)
+* [$font](#property-$font)
+* [$font_by_lang](#property-$font_by_lang)
+
+Methods
+-------
+* [__construct](#method-__construct)
+* [setEncoding](#method-setEncoding)
+* [createHeader](#method-createHeader)
+* [createFooter](#method-createFooter)
+* [createContent](#method-createContent)
+* [setFontForLang](#method-setFontForLang)
+* [Header](#method-Header)
+* [Footer](#method-Footer)
+* [render](#method-render)
+* [writePage](#method-writePage)
+* [getRandomSeed](#method-getRandomSeed)
+
+
+Constants
+----------
+
+
+### <a name="constant-DEFAULT_FONT"></a>DEFAULT_FONT
 
     const DEFAULT_FONT = 'helvetica'
 
 
 
-* This constant is defined in [classes/pdf/PDFGenerator.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#35)
+* This constant is defined in [classes/pdf/PDFGenerator.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L35)
 
 
 Properties
 ----------
 
 
-### $header
+### <a name="property-$header"></a>$header
 
     public mixed $header
 
@@ -38,10 +67,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/PDFGenerator.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#37)
+* This property is defined in [classes/pdf/PDFGenerator.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L37)
 
 
-### $footer
+### <a name="property-$footer"></a>$footer
 
     public mixed $footer
 
@@ -50,10 +79,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/PDFGenerator.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#38)
+* This property is defined in [classes/pdf/PDFGenerator.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L38)
 
 
-### $content
+### <a name="property-$content"></a>$content
 
     public mixed $content
 
@@ -62,10 +91,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/PDFGenerator.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#39)
+* This property is defined in [classes/pdf/PDFGenerator.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L39)
 
 
-### $font
+### <a name="property-$font"></a>$font
 
     public mixed $font
 
@@ -74,10 +103,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/PDFGenerator.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#40)
+* This property is defined in [classes/pdf/PDFGenerator.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L40)
 
 
-### $font_by_lang
+### <a name="property-$font_by_lang"></a>$font_by_lang
 
     public mixed $font_by_lang = array('ja' => 'cid0jp', 'bg' => 'freeserif', 'ru' => 'freeserif', 'uk' => 'freeserif', 'mk' => 'freeserif', 'el' => 'freeserif', 'en' => 'dejavusans', 'vn' => 'dejavusans', 'pl' => 'dejavusans', 'ar' => 'dejavusans', 'fa' => 'dejavusans', 'ur' => 'dejavusans', 'az' => 'dejavusans', 'ca' => 'dejavusans', 'gl' => 'dejavusans', 'hr' => 'dejavusans', 'sr' => 'dejavusans', 'si' => 'dejavusans', 'cs' => 'dejavusans', 'sk' => 'dejavusans', 'ka' => 'dejavusans', 'he' => 'dejavusans', 'lo' => 'dejavusans', 'lt' => 'dejavusans', 'lv' => 'dejavusans', 'tr' => 'dejavusans', 'ko' => 'cid0kr', 'zh' => 'cid0cs', 'tw' => 'cid0cs', 'th' => 'freeserif')
 
@@ -86,14 +115,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/pdf/PDFGenerator.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#42)
+* This property is defined in [classes/pdf/PDFGenerator.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L42)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed PDFGeneratorCore::__construct(boolean $use_cache, string $orientation)
 
@@ -102,7 +131,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/PDFGenerator.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#79)
+* This method is defined in [classes/pdf/PDFGenerator.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L79)
 
 
 #### Arguments
@@ -111,7 +140,7 @@ Methods
 
 
 
-### setEncoding
+### <a name="method-setEncoding"></a>setEncoding
 
     mixed PDFGeneratorCore::setEncoding(string $encoding)
 
@@ -120,7 +149,7 @@ set the PDF encoding
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/PDFGenerator.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#90)
+* This method is defined in [classes/pdf/PDFGenerator.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L90)
 
 
 #### Arguments
@@ -128,7 +157,7 @@ set the PDF encoding
 
 
 
-### createHeader
+### <a name="method-createHeader"></a>createHeader
 
     mixed PDFGeneratorCore::createHeader(string $header)
 
@@ -137,7 +166,7 @@ set the PDF header
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/PDFGenerator.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#101)
+* This method is defined in [classes/pdf/PDFGenerator.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L101)
 
 
 #### Arguments
@@ -145,7 +174,7 @@ set the PDF header
 
 
 
-### createFooter
+### <a name="method-createFooter"></a>createFooter
 
     mixed PDFGeneratorCore::createFooter(string $footer)
 
@@ -154,7 +183,7 @@ set the PDF footer
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/PDFGenerator.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#112)
+* This method is defined in [classes/pdf/PDFGenerator.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L112)
 
 
 #### Arguments
@@ -162,7 +191,7 @@ set the PDF footer
 
 
 
-### createContent
+### <a name="method-createContent"></a>createContent
 
     mixed PDFGeneratorCore::createContent(string $content)
 
@@ -171,7 +200,7 @@ create the PDF content
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/PDFGenerator.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#123)
+* This method is defined in [classes/pdf/PDFGenerator.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L123)
 
 
 #### Arguments
@@ -179,7 +208,7 @@ create the PDF content
 
 
 
-### setFontForLang
+### <a name="method-setFontForLang"></a>setFontForLang
 
     mixed PDFGeneratorCore::setFontForLang(string $iso_lang)
 
@@ -188,7 +217,7 @@ Change the font
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/PDFGenerator.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#133)
+* This method is defined in [classes/pdf/PDFGenerator.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L133)
 
 
 #### Arguments
@@ -196,7 +225,7 @@ Change the font
 
 
 
-### Header
+### <a name="method-Header"></a>Header
 
     mixed PDFGeneratorCore::Header()
 
@@ -205,12 +234,12 @@ Change the font
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/PDFGenerator.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#149)
+* This method is defined in [classes/pdf/PDFGenerator.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L149)
 
 
 
 
-### Footer
+### <a name="method-Footer"></a>Footer
 
     mixed PDFGeneratorCore::Footer()
 
@@ -219,12 +248,12 @@ Change the font
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/PDFGenerator.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#157)
+* This method is defined in [classes/pdf/PDFGenerator.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L157)
 
 
 
 
-### render
+### <a name="method-render"></a>render
 
     string PDFGeneratorCore::render(string $filename, boolean $display)
 
@@ -233,7 +262,7 @@ Render HTML template
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/PDFGenerator.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#170)
+* This method is defined in [classes/pdf/PDFGenerator.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L170)
 
 
 #### Arguments
@@ -242,7 +271,7 @@ Render HTML template
 
 
 
-### writePage
+### <a name="method-writePage"></a>writePage
 
     mixed PDFGeneratorCore::writePage()
 
@@ -251,12 +280,12 @@ Write a PDF page
 
 
 * Visibility: **public**
-* This method is defined in [classes/pdf/PDFGenerator.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#198)
+* This method is defined in [classes/pdf/PDFGenerator.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L198)
 
 
 
 
-### getRandomSeed
+### <a name="method-getRandomSeed"></a>getRandomSeed
 
     mixed PDFGeneratorCore::getRandomSeed($seed)
 
@@ -265,7 +294,7 @@ Override of TCPDF::getRandomSeed() - getmypid() is blocked on several hosting
 
 
 * Visibility: **protected**
-* This method is defined in [classes/pdf/PDFGenerator.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#210)
+* This method is defined in [classes/pdf/PDFGenerator.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L210)
 
 
 #### Arguments

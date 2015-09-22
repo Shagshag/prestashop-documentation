@@ -18,8 +18,35 @@ AdminStatsTabControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [init](#method-init)
+* [initContent](#method-initContent)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [displayCalendar](#method-displayCalendar)
+* [displayCalendarForm](#method-displayCalendarForm)
+* [displayEngines](#method-displayEngines)
+* [displayMenu](#method-displayMenu)
+* [checkModulesNames](#method-checkModulesNames)
+* [getModules](#method-getModules)
+* [displayStats](#method-displayStats)
+* [postProcess](#method-postProcess)
+* [processDateRange](#method-processDateRange)
+* [ajaxProcessSetDashboardDateRange](#method-ajaxProcessSetDashboardDateRange)
+* [getDate](#method-getDate)
+* [__construct](#method-__construct)
+* [updateOptionPsMultishopFeatureActive](#method-updateOptionPsMultishopFeatureActive)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Configuration $object
 
@@ -29,14 +56,14 @@ Properties
 
 * Visibility: **public**
 * This property is defined by [AdminPreferencesControllerCore](AdminPreferencesControllerCore)
-* This property is defined in [controllers/admin/AdminStatsTabController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#30)
+* This property is defined in [controllers/admin/AdminStatsTabController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L30)
 
 
 Methods
 -------
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed AdminStatsTabControllerCore::init()
 
@@ -45,12 +72,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#29)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L29)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminStatsTabControllerCore::initContent()
 
@@ -59,12 +86,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#37)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L37)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminStatsTabControllerCore::initPageHeaderToolbar()
 
@@ -73,12 +100,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#69)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L69)
 
 
 
 
-### displayCalendar
+### <a name="method-displayCalendar"></a>displayCalendar
 
     mixed AdminStatsTabControllerCore::displayCalendar()
 
@@ -87,12 +114,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#75)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L75)
 
 
 
 
-### displayCalendarForm
+### <a name="method-displayCalendarForm"></a>displayCalendarForm
 
     mixed AdminStatsTabControllerCore::displayCalendarForm($translations, $token, $action, $table, $identifier, $id)
 
@@ -102,7 +129,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#88)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L88)
 
 
 #### Arguments
@@ -115,7 +142,7 @@ Methods
 
 
 
-### displayEngines
+### <a name="method-displayEngines"></a>displayEngines
 
     mixed AdminStatsTabControllerCore::displayEngines()
 
@@ -124,12 +151,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#123)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L123)
 
 
 
 
-### displayMenu
+### <a name="method-displayMenu"></a>displayMenu
 
     mixed AdminStatsTabControllerCore::displayMenu()
 
@@ -138,12 +165,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#148)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L148)
 
 
 
 
-### checkModulesNames
+### <a name="method-checkModulesNames"></a>checkModulesNames
 
     mixed AdminStatsTabControllerCore::checkModulesNames($a, $b)
 
@@ -152,7 +179,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#176)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L176)
 
 
 #### Arguments
@@ -161,7 +188,7 @@ Methods
 
 
 
-### getModules
+### <a name="method-getModules"></a>getModules
 
     mixed AdminStatsTabControllerCore::getModules()
 
@@ -170,12 +197,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#181)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L181)
 
 
 
 
-### displayStats
+### <a name="method-displayStats"></a>displayStats
 
     mixed AdminStatsTabControllerCore::displayStats()
 
@@ -184,12 +211,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#194)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L194)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminStatsTabControllerCore::postProcess()
 
@@ -198,12 +225,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#223)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L223)
 
 
 
 
-### processDateRange
+### <a name="method-processDateRange"></a>processDateRange
 
     mixed AdminStatsTabControllerCore::processDateRange()
 
@@ -212,12 +239,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#241)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L241)
 
 
 
 
-### ajaxProcessSetDashboardDateRange
+### <a name="method-ajaxProcessSetDashboardDateRange"></a>ajaxProcessSetDashboardDateRange
 
     mixed AdminStatsTabControllerCore::ajaxProcessSetDashboardDateRange()
 
@@ -226,12 +253,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 285](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#285)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 285](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L285)
 
 
 
 
-### getDate
+### <a name="method-getDate"></a>getDate
 
     mixed AdminStatsTabControllerCore::getDate()
 
@@ -240,12 +267,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 307](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#307)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 307](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L307)
 
 
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminPreferencesControllerCore::__construct()
 
@@ -255,12 +282,12 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminPreferencesControllerCore](AdminPreferencesControllerCore)
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#32)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L32)
 
 
 
 
-### updateOptionPsMultishopFeatureActive
+### <a name="method-updateOptionPsMultishopFeatureActive"></a>updateOptionPsMultishopFeatureActive
 
     mixed AdminPreferencesControllerCore::updateOptionPsMultishopFeatureActive(string $value)
 
@@ -270,7 +297,7 @@ Enable / disable multishop menu if multishop feature is activated
 
 * Visibility: **public**
 * This method is defined by [AdminPreferencesControllerCore](AdminPreferencesControllerCore)
-* This method is defined in [controllers/admin/AdminStatsTabController.php line 238](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#238)
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 238](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#L238)
 
 
 #### Arguments

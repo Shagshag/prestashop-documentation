@@ -17,8 +17,29 @@ AdminAccessControllerCore
 Properties
 ----------
 
+* [$accesses_black_list](#property-$accesses_black_list)
+* [$object](#property-$object)
 
-### $accesses_black_list
+Methods
+-------
+* [__construct](#method-__construct)
+* [renderForm](#method-renderForm)
+* [initContent](#method-initContent)
+* [initToolbarTitle](#method-initToolbarTitle)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [ajaxProcessUpdateAccess](#method-ajaxProcessUpdateAccess)
+* [ajaxProcessUpdateModuleAccess](#method-ajaxProcessUpdateModuleAccess)
+* [getCurrentProfileId](#method-getCurrentProfileId)
+* [sortModuleByName](#method-sortModuleByName)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$accesses_black_list"></a>$accesses_black_list
 
     public mixed $accesses_black_list = array()
 
@@ -27,10 +48,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminAccessController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#33)
+* This property is defined in [controllers/admin/AdminAccessController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L33)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \Profile $object
 
@@ -39,14 +60,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminAccessController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#30)
+* This property is defined in [controllers/admin/AdminAccessController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminAccessControllerCore::__construct()
 
@@ -55,12 +76,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAccessController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#35)
+* This method is defined in [controllers/admin/AdminAccessController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L35)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminAccessControllerCore::renderForm()
 
@@ -69,12 +90,12 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAccessController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#55)
+* This method is defined in [controllers/admin/AdminAccessController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L55)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminAccessControllerCore::initContent()
 
@@ -83,12 +104,12 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAccessController.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#124)
+* This method is defined in [controllers/admin/AdminAccessController.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L124)
 
 
 
 
-### initToolbarTitle
+### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
     mixed AdminAccessControllerCore::initToolbarTitle()
 
@@ -97,12 +118,12 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAccessController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#144)
+* This method is defined in [controllers/admin/AdminAccessController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L144)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminAccessControllerCore::initPageHeaderToolbar()
 
@@ -111,12 +132,12 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAccessController.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#149)
+* This method is defined in [controllers/admin/AdminAccessController.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L149)
 
 
 
 
-### ajaxProcessUpdateAccess
+### <a name="method-ajaxProcessUpdateAccess"></a>ajaxProcessUpdateAccess
 
     mixed AdminAccessControllerCore::ajaxProcessUpdateAccess()
 
@@ -125,12 +146,12 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAccessController.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#155)
+* This method is defined in [controllers/admin/AdminAccessController.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L155)
 
 
 
 
-### ajaxProcessUpdateModuleAccess
+### <a name="method-ajaxProcessUpdateModuleAccess"></a>ajaxProcessUpdateModuleAccess
 
     mixed AdminAccessControllerCore::ajaxProcessUpdateModuleAccess()
 
@@ -139,12 +160,12 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAccessController.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#212)
+* This method is defined in [controllers/admin/AdminAccessController.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L212)
 
 
 
 
-### getCurrentProfileId
+### <a name="method-getCurrentProfileId"></a>getCurrentProfileId
 
     integer AdminAccessControllerCore::getCurrentProfileId()
 
@@ -153,12 +174,12 @@ Get the current profile id
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminAccessController.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#255)
+* This method is defined in [controllers/admin/AdminAccessController.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L255)
 
 
 
 
-### sortModuleByName
+### <a name="method-sortModuleByName"></a>sortModuleByName
 
     mixed AdminAccessControllerCore::sortModuleByName($a, $b)
 
@@ -167,7 +188,7 @@ Get the current profile id
 
 
 * Visibility: **private**
-* This method is defined in [controllers/admin/AdminAccessController.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#260)
+* This method is defined in [controllers/admin/AdminAccessController.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#L260)
 
 
 #### Arguments

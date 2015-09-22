@@ -17,8 +17,22 @@ CMSRoleCore
 Properties
 ----------
 
+* [$name](#property-$name)
+* [$id_cms](#property-$id_cms)
+* [$definition](#property-$definition)
 
-### $name
+Methods
+-------
+* [getRepositoryClassName](#method-getRepositoryClassName)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -27,10 +41,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSRole.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#31)
+* This property is defined in [classes/CMSRole.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L31)
 
 
-### $id_cms
+### <a name="property-$id_cms"></a>$id_cms
 
     public integer $id_cms
 
@@ -39,10 +53,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CMSRole.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#33)
+* This property is defined in [classes/CMSRole.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L33)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'cms_role', 'primary' => 'id_cms_role', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 50), 'id_cms' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt')))
 
@@ -52,14 +66,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/CMSRole.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#38)
+* This property is defined in [classes/CMSRole.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L38)
 
 
 Methods
 -------
 
 
-### getRepositoryClassName
+### <a name="method-getRepositoryClassName"></a>getRepositoryClassName
 
     mixed CMSRoleCore::getRepositoryClassName()
 
@@ -69,7 +83,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CMSRole.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#47)
+* This method is defined in [classes/CMSRole.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L47)
 
 
 

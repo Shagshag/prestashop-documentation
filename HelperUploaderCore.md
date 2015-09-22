@@ -15,57 +15,115 @@ HelperUploaderCore
 Constants
 ----------
 
+* [DEFAULT_TEMPLATE_DIRECTORY](#constant-DEFAULT_TEMPLATE_DIRECTORY)
+* [DEFAULT_TEMPLATE](#constant-DEFAULT_TEMPLATE)
+* [DEFAULT_AJAX_TEMPLATE](#constant-DEFAULT_AJAX_TEMPLATE)
+* [TYPE_IMAGE](#constant-TYPE_IMAGE)
+* [TYPE_FILE](#constant-TYPE_FILE)
 
-### DEFAULT_TEMPLATE_DIRECTORY
+Properties
+----------
+
+* [$_context](#property-$_context)
+* [$_drop_zone](#property-$_drop_zone)
+* [$_id](#property-$_id)
+* [$_files](#property-$_files)
+* [$_name](#property-$_name)
+* [$_max_files](#property-$_max_files)
+* [$_multiple](#property-$_multiple)
+* [$_post_max_size](#property-$_post_max_size)
+* [$_template](#property-$_template)
+* [$_template_directory](#property-$_template_directory)
+* [$_title](#property-$_title)
+* [$_url](#property-$_url)
+* [$_use_ajax](#property-$_use_ajax)
+
+Methods
+-------
+* [setContext](#method-setContext)
+* [getContext](#method-getContext)
+* [setDropZone](#method-setDropZone)
+* [getDropZone](#method-getDropZone)
+* [setId](#method-setId)
+* [getId](#method-getId)
+* [setFiles](#method-setFiles)
+* [getFiles](#method-getFiles)
+* [setMaxFiles](#method-setMaxFiles)
+* [getMaxFiles](#method-getMaxFiles)
+* [setMultiple](#method-setMultiple)
+* [setName](#method-setName)
+* [getName](#method-getName)
+* [setPostMaxSize](#method-setPostMaxSize)
+* [getPostMaxSize](#method-getPostMaxSize)
+* [setTemplate](#method-setTemplate)
+* [getTemplate](#method-getTemplate)
+* [setTemplateDirectory](#method-setTemplateDirectory)
+* [getTemplateDirectory](#method-getTemplateDirectory)
+* [getTemplateFile](#method-getTemplateFile)
+* [setTitle](#method-setTitle)
+* [getTitle](#method-getTitle)
+* [setUrl](#method-setUrl)
+* [getUrl](#method-getUrl)
+* [setUseAjax](#method-setUseAjax)
+* [isMultiple](#method-isMultiple)
+* [render](#method-render)
+* [useAjax](#method-useAjax)
+
+
+Constants
+----------
+
+
+### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
 
     const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/uploader'
 
 
 
-* This constant is defined in [classes/helper/HelperUploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#29)
+* This constant is defined in [classes/helper/HelperUploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L29)
 
 
-### DEFAULT_TEMPLATE
+### <a name="constant-DEFAULT_TEMPLATE"></a>DEFAULT_TEMPLATE
 
     const DEFAULT_TEMPLATE = 'simple.tpl'
 
 
 
-* This constant is defined in [classes/helper/HelperUploader.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#30)
+* This constant is defined in [classes/helper/HelperUploader.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L30)
 
 
-### DEFAULT_AJAX_TEMPLATE
+### <a name="constant-DEFAULT_AJAX_TEMPLATE"></a>DEFAULT_AJAX_TEMPLATE
 
     const DEFAULT_AJAX_TEMPLATE = 'ajax.tpl'
 
 
 
-* This constant is defined in [classes/helper/HelperUploader.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#31)
+* This constant is defined in [classes/helper/HelperUploader.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L31)
 
 
-### TYPE_IMAGE
+### <a name="constant-TYPE_IMAGE"></a>TYPE_IMAGE
 
     const TYPE_IMAGE = 'image'
 
 
 
-* This constant is defined in [classes/helper/HelperUploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#33)
+* This constant is defined in [classes/helper/HelperUploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L33)
 
 
-### TYPE_FILE
+### <a name="constant-TYPE_FILE"></a>TYPE_FILE
 
     const TYPE_FILE = 'file'
 
 
 
-* This constant is defined in [classes/helper/HelperUploader.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#34)
+* This constant is defined in [classes/helper/HelperUploader.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L34)
 
 
 Properties
 ----------
 
 
-### $_context
+### <a name="property-$_context"></a>$_context
 
     private mixed $_context
 
@@ -74,10 +132,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperUploader.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#36)
+* This property is defined in [classes/helper/HelperUploader.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L36)
 
 
-### $_drop_zone
+### <a name="property-$_drop_zone"></a>$_drop_zone
 
     private mixed $_drop_zone
 
@@ -86,10 +144,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperUploader.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#37)
+* This property is defined in [classes/helper/HelperUploader.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L37)
 
 
-### $_id
+### <a name="property-$_id"></a>$_id
 
     private mixed $_id
 
@@ -98,10 +156,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperUploader.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#38)
+* This property is defined in [classes/helper/HelperUploader.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L38)
 
 
-### $_files
+### <a name="property-$_files"></a>$_files
 
     private mixed $_files
 
@@ -110,10 +168,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperUploader.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#39)
+* This property is defined in [classes/helper/HelperUploader.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L39)
 
 
-### $_name
+### <a name="property-$_name"></a>$_name
 
     private mixed $_name
 
@@ -122,10 +180,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperUploader.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#40)
+* This property is defined in [classes/helper/HelperUploader.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L40)
 
 
-### $_max_files
+### <a name="property-$_max_files"></a>$_max_files
 
     private mixed $_max_files
 
@@ -134,10 +192,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperUploader.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#41)
+* This property is defined in [classes/helper/HelperUploader.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L41)
 
 
-### $_multiple
+### <a name="property-$_multiple"></a>$_multiple
 
     private mixed $_multiple
 
@@ -146,10 +204,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperUploader.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#42)
+* This property is defined in [classes/helper/HelperUploader.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L42)
 
 
-### $_post_max_size
+### <a name="property-$_post_max_size"></a>$_post_max_size
 
     private mixed $_post_max_size
 
@@ -158,10 +216,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperUploader.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#43)
+* This property is defined in [classes/helper/HelperUploader.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L43)
 
 
-### $_template
+### <a name="property-$_template"></a>$_template
 
     protected mixed $_template
 
@@ -170,10 +228,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/helper/HelperUploader.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#44)
+* This property is defined in [classes/helper/HelperUploader.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L44)
 
 
-### $_template_directory
+### <a name="property-$_template_directory"></a>$_template_directory
 
     private mixed $_template_directory
 
@@ -182,10 +240,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperUploader.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#45)
+* This property is defined in [classes/helper/HelperUploader.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L45)
 
 
-### $_title
+### <a name="property-$_title"></a>$_title
 
     private mixed $_title
 
@@ -194,10 +252,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperUploader.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#46)
+* This property is defined in [classes/helper/HelperUploader.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L46)
 
 
-### $_url
+### <a name="property-$_url"></a>$_url
 
     private mixed $_url
 
@@ -206,10 +264,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperUploader.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#47)
+* This property is defined in [classes/helper/HelperUploader.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L47)
 
 
-### $_use_ajax
+### <a name="property-$_use_ajax"></a>$_use_ajax
 
     private mixed $_use_ajax
 
@@ -218,14 +276,14 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/helper/HelperUploader.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#48)
+* This property is defined in [classes/helper/HelperUploader.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L48)
 
 
 Methods
 -------
 
 
-### setContext
+### <a name="method-setContext"></a>setContext
 
     mixed HelperUploaderCore::setContext($value)
 
@@ -234,7 +292,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#50)
+* This method is defined in [classes/helper/HelperUploader.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L50)
 
 
 #### Arguments
@@ -242,7 +300,7 @@ Methods
 
 
 
-### getContext
+### <a name="method-getContext"></a>getContext
 
     mixed HelperUploaderCore::getContext()
 
@@ -251,12 +309,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#56)
+* This method is defined in [classes/helper/HelperUploader.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L56)
 
 
 
 
-### setDropZone
+### <a name="method-setDropZone"></a>setDropZone
 
     mixed HelperUploaderCore::setDropZone($value)
 
@@ -265,7 +323,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#65)
+* This method is defined in [classes/helper/HelperUploader.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L65)
 
 
 #### Arguments
@@ -273,7 +331,7 @@ Methods
 
 
 
-### getDropZone
+### <a name="method-getDropZone"></a>getDropZone
 
     mixed HelperUploaderCore::getDropZone()
 
@@ -282,12 +340,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#71)
+* This method is defined in [classes/helper/HelperUploader.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L71)
 
 
 
 
-### setId
+### <a name="method-setId"></a>setId
 
     mixed HelperUploaderCore::setId($value)
 
@@ -296,7 +354,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#80)
+* This method is defined in [classes/helper/HelperUploader.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L80)
 
 
 #### Arguments
@@ -304,7 +362,7 @@ Methods
 
 
 
-### getId
+### <a name="method-getId"></a>getId
 
     mixed HelperUploaderCore::getId()
 
@@ -313,12 +371,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#86)
+* This method is defined in [classes/helper/HelperUploader.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L86)
 
 
 
 
-### setFiles
+### <a name="method-setFiles"></a>setFiles
 
     mixed HelperUploaderCore::setFiles($value)
 
@@ -327,7 +385,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#95)
+* This method is defined in [classes/helper/HelperUploader.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L95)
 
 
 #### Arguments
@@ -335,7 +393,7 @@ Methods
 
 
 
-### getFiles
+### <a name="method-getFiles"></a>getFiles
 
     mixed HelperUploaderCore::getFiles()
 
@@ -344,12 +402,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#101)
+* This method is defined in [classes/helper/HelperUploader.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L101)
 
 
 
 
-### setMaxFiles
+### <a name="method-setMaxFiles"></a>setMaxFiles
 
     mixed HelperUploaderCore::setMaxFiles($value)
 
@@ -358,7 +416,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#110)
+* This method is defined in [classes/helper/HelperUploader.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L110)
 
 
 #### Arguments
@@ -366,7 +424,7 @@ Methods
 
 
 
-### getMaxFiles
+### <a name="method-getMaxFiles"></a>getMaxFiles
 
     mixed HelperUploaderCore::getMaxFiles()
 
@@ -375,12 +433,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#116)
+* This method is defined in [classes/helper/HelperUploader.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L116)
 
 
 
 
-### setMultiple
+### <a name="method-setMultiple"></a>setMultiple
 
     mixed HelperUploaderCore::setMultiple($value)
 
@@ -389,7 +447,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#121)
+* This method is defined in [classes/helper/HelperUploader.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L121)
 
 
 #### Arguments
@@ -397,7 +455,7 @@ Methods
 
 
 
-### setName
+### <a name="method-setName"></a>setName
 
     mixed HelperUploaderCore::setName($value)
 
@@ -406,7 +464,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#127)
+* This method is defined in [classes/helper/HelperUploader.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L127)
 
 
 #### Arguments
@@ -414,7 +472,7 @@ Methods
 
 
 
-### getName
+### <a name="method-getName"></a>getName
 
     mixed HelperUploaderCore::getName()
 
@@ -423,12 +481,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#133)
+* This method is defined in [classes/helper/HelperUploader.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L133)
 
 
 
 
-### setPostMaxSize
+### <a name="method-setPostMaxSize"></a>setPostMaxSize
 
     mixed HelperUploaderCore::setPostMaxSize($value)
 
@@ -437,7 +495,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#138)
+* This method is defined in [classes/helper/HelperUploader.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L138)
 
 
 #### Arguments
@@ -445,7 +503,7 @@ Methods
 
 
 
-### getPostMaxSize
+### <a name="method-getPostMaxSize"></a>getPostMaxSize
 
     mixed HelperUploaderCore::getPostMaxSize()
 
@@ -454,12 +512,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#145)
+* This method is defined in [classes/helper/HelperUploader.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L145)
 
 
 
 
-### setTemplate
+### <a name="method-setTemplate"></a>setTemplate
 
     mixed HelperUploaderCore::setTemplate($value)
 
@@ -468,7 +526,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#154)
+* This method is defined in [classes/helper/HelperUploader.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L154)
 
 
 #### Arguments
@@ -476,7 +534,7 @@ Methods
 
 
 
-### getTemplate
+### <a name="method-getTemplate"></a>getTemplate
 
     mixed HelperUploaderCore::getTemplate()
 
@@ -485,12 +543,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#160)
+* This method is defined in [classes/helper/HelperUploader.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L160)
 
 
 
 
-### setTemplateDirectory
+### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
     mixed HelperUploaderCore::setTemplateDirectory($value)
 
@@ -499,7 +557,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#169)
+* This method is defined in [classes/helper/HelperUploader.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L169)
 
 
 #### Arguments
@@ -507,7 +565,7 @@ Methods
 
 
 
-### getTemplateDirectory
+### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
     mixed HelperUploaderCore::getTemplateDirectory()
 
@@ -516,12 +574,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#175)
+* This method is defined in [classes/helper/HelperUploader.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L175)
 
 
 
 
-### getTemplateFile
+### <a name="method-getTemplateFile"></a>getTemplateFile
 
     mixed HelperUploaderCore::getTemplateFile($template)
 
@@ -530,7 +588,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#184)
+* This method is defined in [classes/helper/HelperUploader.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L184)
 
 
 #### Arguments
@@ -538,7 +596,7 @@ Methods
 
 
 
-### setTitle
+### <a name="method-setTitle"></a>setTitle
 
     mixed HelperUploaderCore::setTitle($value)
 
@@ -547,7 +605,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#212)
+* This method is defined in [classes/helper/HelperUploader.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L212)
 
 
 #### Arguments
@@ -555,7 +613,7 @@ Methods
 
 
 
-### getTitle
+### <a name="method-getTitle"></a>getTitle
 
     mixed HelperUploaderCore::getTitle()
 
@@ -564,12 +622,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#218)
+* This method is defined in [classes/helper/HelperUploader.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L218)
 
 
 
 
-### setUrl
+### <a name="method-setUrl"></a>setUrl
 
     mixed HelperUploaderCore::setUrl($value)
 
@@ -578,7 +636,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#223)
+* This method is defined in [classes/helper/HelperUploader.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L223)
 
 
 #### Arguments
@@ -586,7 +644,7 @@ Methods
 
 
 
-### getUrl
+### <a name="method-getUrl"></a>getUrl
 
     mixed HelperUploaderCore::getUrl()
 
@@ -595,12 +653,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#229)
+* This method is defined in [classes/helper/HelperUploader.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L229)
 
 
 
 
-### setUseAjax
+### <a name="method-setUseAjax"></a>setUseAjax
 
     mixed HelperUploaderCore::setUseAjax($value)
 
@@ -609,7 +667,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#234)
+* This method is defined in [classes/helper/HelperUploader.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L234)
 
 
 #### Arguments
@@ -617,7 +675,7 @@ Methods
 
 
 
-### isMultiple
+### <a name="method-isMultiple"></a>isMultiple
 
     mixed HelperUploaderCore::isMultiple()
 
@@ -626,12 +684,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#240)
+* This method is defined in [classes/helper/HelperUploader.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L240)
 
 
 
 
-### render
+### <a name="method-render"></a>render
 
     mixed HelperUploaderCore::render()
 
@@ -640,12 +698,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#245)
+* This method is defined in [classes/helper/HelperUploader.php line 245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L245)
 
 
 
 
-### useAjax
+### <a name="method-useAjax"></a>useAjax
 
     mixed HelperUploaderCore::useAjax()
 
@@ -654,7 +712,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/helper/HelperUploader.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#291)
+* This method is defined in [classes/helper/HelperUploader.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperUploader.php#L291)
 
 
 

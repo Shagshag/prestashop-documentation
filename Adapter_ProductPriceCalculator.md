@@ -31,9 +31,18 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [getProductPrice](#method-getProductPrice)
 
 
-### getProductPrice
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-getProductPrice"></a>getProductPrice
 
     mixed Adapter_ProductPriceCalculator::getProductPrice($id_product, $usetax, $id_product_attribute, $decimals, $divisor, $only_reduc, $usereduc, $quantity, $force_associated_tax, $id_customer, $id_cart, $id_address, $specific_price_output, $with_ecotax, $use_group_reduction, \Context $context, $use_customer_price)
 
@@ -42,7 +51,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [Adapter/Adapter_ProductPriceCalculator.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ProductPriceCalculator.php#29)
+* This method is defined in [Adapter/Adapter_ProductPriceCalculator.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ProductPriceCalculator.php#L29)
 
 
 #### Arguments

@@ -17,8 +17,31 @@ AdminCountriesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [setMedia](#method-setMedia)
+* [renderList](#method-renderList)
+* [renderForm](#method-renderForm)
+* [processUpdate](#method-processUpdate)
+* [postProcess](#method-postProcess)
+* [processSave](#method-processSave)
+* [processStatus](#method-processStatus)
+* [processBulkStatusSelection](#method-processBulkStatusSelection)
+* [displayValidFields](#method-displayValidFields)
+* [displayCallPrefix](#method-displayCallPrefix)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Country $object
 
@@ -27,14 +50,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminCountriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#30)
+* This property is defined in [controllers/admin/AdminCountriesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminCountriesControllerCore::__construct()
 
@@ -43,12 +66,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCountriesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#32)
+* This method is defined in [controllers/admin/AdminCountriesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L32)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminCountriesControllerCore::initPageHeaderToolbar()
 
@@ -57,12 +80,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCountriesController.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#121)
+* This method is defined in [controllers/admin/AdminCountriesController.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L121)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminCountriesControllerCore::setMedia()
 
@@ -71,12 +94,12 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCountriesController.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#138)
+* This method is defined in [controllers/admin/AdminCountriesController.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L138)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminCountriesControllerCore::renderList()
 
@@ -85,12 +108,12 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCountriesController.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#145)
+* This method is defined in [controllers/admin/AdminCountriesController.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L145)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminCountriesControllerCore::renderForm()
 
@@ -99,12 +122,12 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCountriesController.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#155)
+* This method is defined in [controllers/admin/AdminCountriesController.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L155)
 
 
 
 
-### processUpdate
+### <a name="method-processUpdate"></a>processUpdate
 
     mixed AdminCountriesControllerCore::processUpdate()
 
@@ -113,12 +136,12 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCountriesController.php line 373](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#373)
+* This method is defined in [controllers/admin/AdminCountriesController.php line 373](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L373)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminCountriesControllerCore::postProcess()
 
@@ -127,12 +150,12 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCountriesController.php line 398](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#398)
+* This method is defined in [controllers/admin/AdminCountriesController.php line 398](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L398)
 
 
 
 
-### processSave
+### <a name="method-processSave"></a>processSave
 
     mixed AdminCountriesControllerCore::processSave()
 
@@ -141,12 +164,12 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCountriesController.php line 414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#414)
+* This method is defined in [controllers/admin/AdminCountriesController.php line 414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L414)
 
 
 
 
-### processStatus
+### <a name="method-processStatus"></a>processStatus
 
     mixed AdminCountriesControllerCore::processStatus()
 
@@ -155,12 +178,12 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCountriesController.php line 449](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#449)
+* This method is defined in [controllers/admin/AdminCountriesController.php line 449](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L449)
 
 
 
 
-### processBulkStatusSelection
+### <a name="method-processBulkStatusSelection"></a>processBulkStatusSelection
 
     mixed AdminCountriesControllerCore::processBulkStatusSelection($way)
 
@@ -169,7 +192,7 @@ AdminController::setMedia() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCountriesController.php line 461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#461)
+* This method is defined in [controllers/admin/AdminCountriesController.php line 461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L461)
 
 
 #### Arguments
@@ -177,7 +200,7 @@ AdminController::setMedia() override
 
 
 
-### displayValidFields
+### <a name="method-displayValidFields"></a>displayValidFields
 
     mixed AdminCountriesControllerCore::displayValidFields()
 
@@ -186,12 +209,12 @@ AdminController::setMedia() override
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCountriesController.php line 477](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#477)
+* This method is defined in [controllers/admin/AdminCountriesController.php line 477](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L477)
 
 
 
 
-### displayCallPrefix
+### <a name="method-displayCallPrefix"></a>displayCallPrefix
 
     mixed AdminCountriesControllerCore::displayCallPrefix($prefix)
 
@@ -201,7 +224,7 @@ AdminController::setMedia() override
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminCountriesController.php line 519](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#519)
+* This method is defined in [controllers/admin/AdminCountriesController.php line 519](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCountriesController.php#L519)
 
 
 #### Arguments

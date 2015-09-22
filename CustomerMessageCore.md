@@ -17,8 +17,34 @@ CustomerMessageCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$id_customer_thread](#property-$id_customer_thread)
+* [$id_employee](#property-$id_employee)
+* [$message](#property-$message)
+* [$file_name](#property-$file_name)
+* [$ip_address](#property-$ip_address)
+* [$user_agent](#property-$user_agent)
+* [$private](#property-$private)
+* [$date_add](#property-$date_add)
+* [$date_upd](#property-$date_upd)
+* [$read](#property-$read)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id
+Methods
+-------
+* [getMessagesByOrderId](#method-getMessagesByOrderId)
+* [getTotalCustomerMessages](#method-getTotalCustomerMessages)
+* [delete](#method-delete)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +53,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomerMessage.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#29)
+* This property is defined in [classes/CustomerMessage.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L29)
 
 
-### $id_customer_thread
+### <a name="property-$id_customer_thread"></a>$id_customer_thread
 
     public mixed $id_customer_thread
 
@@ -39,10 +65,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomerMessage.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#30)
+* This property is defined in [classes/CustomerMessage.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L30)
 
 
-### $id_employee
+### <a name="property-$id_employee"></a>$id_employee
 
     public mixed $id_employee
 
@@ -51,10 +77,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomerMessage.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#31)
+* This property is defined in [classes/CustomerMessage.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L31)
 
 
-### $message
+### <a name="property-$message"></a>$message
 
     public mixed $message
 
@@ -63,10 +89,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomerMessage.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#32)
+* This property is defined in [classes/CustomerMessage.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L32)
 
 
-### $file_name
+### <a name="property-$file_name"></a>$file_name
 
     public mixed $file_name
 
@@ -75,10 +101,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomerMessage.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#33)
+* This property is defined in [classes/CustomerMessage.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L33)
 
 
-### $ip_address
+### <a name="property-$ip_address"></a>$ip_address
 
     public mixed $ip_address
 
@@ -87,10 +113,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomerMessage.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#34)
+* This property is defined in [classes/CustomerMessage.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L34)
 
 
-### $user_agent
+### <a name="property-$user_agent"></a>$user_agent
 
     public mixed $user_agent
 
@@ -99,10 +125,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomerMessage.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#35)
+* This property is defined in [classes/CustomerMessage.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L35)
 
 
-### $private
+### <a name="property-$private"></a>$private
 
     public mixed $private
 
@@ -111,10 +137,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomerMessage.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#36)
+* This property is defined in [classes/CustomerMessage.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L36)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public mixed $date_add
 
@@ -123,10 +149,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomerMessage.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#37)
+* This property is defined in [classes/CustomerMessage.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L37)
 
 
-### $date_upd
+### <a name="property-$date_upd"></a>$date_upd
 
     public mixed $date_upd
 
@@ -135,10 +161,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomerMessage.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#38)
+* This property is defined in [classes/CustomerMessage.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L38)
 
 
-### $read
+### <a name="property-$read"></a>$read
 
     public mixed $read
 
@@ -147,10 +173,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/CustomerMessage.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#39)
+* This property is defined in [classes/CustomerMessage.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L39)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'customer_message', 'primary' => 'id_customer_message', 'fields' => array('id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'id_customer_thread' => array('type' => self::TYPE_INT), 'ip_address' => array('type' => self::TYPE_STRING, 'validate' => 'isIp2Long', 'size' => 15), 'message' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 16777216), 'file_name' => array('type' => self::TYPE_STRING), 'user_agent' => array('type' => self::TYPE_STRING), 'private' => array('type' => self::TYPE_INT), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'read' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
 
@@ -160,10 +186,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/CustomerMessage.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#44)
+* This property is defined in [classes/CustomerMessage.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L44)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_employee' => array('xlink_resource' => 'employees'), 'id_customer_thread' => array('xlink_resource' => 'customer_threads')))
 
@@ -172,14 +198,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/CustomerMessage.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#61)
+* This property is defined in [classes/CustomerMessage.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L61)
 
 
 Methods
 -------
 
 
-### getMessagesByOrderId
+### <a name="method-getMessagesByOrderId"></a>getMessagesByOrderId
 
     mixed CustomerMessageCore::getMessagesByOrderId($id_order, $private)
 
@@ -189,7 +215,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CustomerMessage.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#72)
+* This method is defined in [classes/CustomerMessage.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L72)
 
 
 #### Arguments
@@ -198,7 +224,7 @@ Methods
 
 
 
-### getTotalCustomerMessages
+### <a name="method-getTotalCustomerMessages"></a>getTotalCustomerMessages
 
     mixed CustomerMessageCore::getTotalCustomerMessages($where)
 
@@ -208,7 +234,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/CustomerMessage.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#95)
+* This method is defined in [classes/CustomerMessage.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L95)
 
 
 #### Arguments
@@ -216,7 +242,7 @@ Methods
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed CustomerMessageCore::delete()
 
@@ -225,7 +251,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/CustomerMessage.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#114)
+* This method is defined in [classes/CustomerMessage.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#L114)
 
 
 

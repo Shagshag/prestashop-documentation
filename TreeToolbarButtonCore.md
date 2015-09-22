@@ -15,21 +15,66 @@ TreeToolbarButtonCore
 Constants
 ----------
 
+* [DEFAULT_TEMPLATE_DIRECTORY](#constant-DEFAULT_TEMPLATE_DIRECTORY)
 
-### DEFAULT_TEMPLATE_DIRECTORY
+Properties
+----------
+
+* [$_attributes](#property-$_attributes)
+* [$_class](#property-$_class)
+* [$_context](#property-$_context)
+* [$_id](#property-$_id)
+* [$_label](#property-$_label)
+* [$_name](#property-$_name)
+* [$_template](#property-$_template)
+* [$_template_directory](#property-$_template_directory)
+
+Methods
+-------
+* [__construct](#method-__construct)
+* [__toString](#method-__toString)
+* [setAttribute](#method-setAttribute)
+* [getAttribute](#method-getAttribute)
+* [setAttributes](#method-setAttributes)
+* [getAttributes](#method-getAttributes)
+* [setClass](#method-setClass)
+* [getClass](#method-getClass)
+* [setContext](#method-setContext)
+* [getContext](#method-getContext)
+* [setId](#method-setId)
+* [getId](#method-getId)
+* [setLabel](#method-setLabel)
+* [getLabel](#method-getLabel)
+* [setName](#method-setName)
+* [getName](#method-getName)
+* [setTemplate](#method-setTemplate)
+* [getTemplate](#method-getTemplate)
+* [setTemplateDirectory](#method-setTemplateDirectory)
+* [getTemplateDirectory](#method-getTemplateDirectory)
+* [getTemplateFile](#method-getTemplateFile)
+* [hasAttribute](#method-hasAttribute)
+* [render](#method-render)
+* [_normalizeDirectory](#method-_normalizeDirectory)
+
+
+Constants
+----------
+
+
+### <a name="constant-DEFAULT_TEMPLATE_DIRECTORY"></a>DEFAULT_TEMPLATE_DIRECTORY
 
     const DEFAULT_TEMPLATE_DIRECTORY = 'helpers/tree'
 
 
 
-* This constant is defined in [classes/tree/TreeToolbarButton.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#29)
+* This constant is defined in [classes/tree/TreeToolbarButton.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L29)
 
 
 Properties
 ----------
 
 
-### $_attributes
+### <a name="property-$_attributes"></a>$_attributes
 
     protected mixed $_attributes
 
@@ -38,10 +83,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/tree/TreeToolbarButton.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#31)
+* This property is defined in [classes/tree/TreeToolbarButton.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L31)
 
 
-### $_class
+### <a name="property-$_class"></a>$_class
 
     private mixed $_class
 
@@ -50,10 +95,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tree/TreeToolbarButton.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#32)
+* This property is defined in [classes/tree/TreeToolbarButton.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L32)
 
 
-### $_context
+### <a name="property-$_context"></a>$_context
 
     private mixed $_context
 
@@ -62,10 +107,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tree/TreeToolbarButton.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#33)
+* This property is defined in [classes/tree/TreeToolbarButton.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L33)
 
 
-### $_id
+### <a name="property-$_id"></a>$_id
 
     private mixed $_id
 
@@ -74,10 +119,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tree/TreeToolbarButton.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#34)
+* This property is defined in [classes/tree/TreeToolbarButton.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L34)
 
 
-### $_label
+### <a name="property-$_label"></a>$_label
 
     private mixed $_label
 
@@ -86,10 +131,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tree/TreeToolbarButton.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#35)
+* This property is defined in [classes/tree/TreeToolbarButton.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L35)
 
 
-### $_name
+### <a name="property-$_name"></a>$_name
 
     private mixed $_name
 
@@ -98,10 +143,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [classes/tree/TreeToolbarButton.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#36)
+* This property is defined in [classes/tree/TreeToolbarButton.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L36)
 
 
-### $_template
+### <a name="property-$_template"></a>$_template
 
     protected mixed $_template
 
@@ -110,10 +155,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/tree/TreeToolbarButton.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#37)
+* This property is defined in [classes/tree/TreeToolbarButton.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L37)
 
 
-### $_template_directory
+### <a name="property-$_template_directory"></a>$_template_directory
 
     protected mixed $_template_directory
 
@@ -122,14 +167,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/tree/TreeToolbarButton.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#38)
+* This property is defined in [classes/tree/TreeToolbarButton.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L38)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed TreeToolbarButtonCore::__construct($label, $id, $name, $class)
 
@@ -138,7 +183,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#40)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L40)
 
 
 #### Arguments
@@ -149,7 +194,7 @@ Methods
 
 
 
-### __toString
+### <a name="method-__toString"></a>__toString
 
     mixed TreeToolbarButtonCore::__toString()
 
@@ -158,12 +203,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#48)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L48)
 
 
 
 
-### setAttribute
+### <a name="method-setAttribute"></a>setAttribute
 
     mixed TreeToolbarButtonCore::setAttribute($name, $value)
 
@@ -172,7 +217,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#53)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L53)
 
 
 #### Arguments
@@ -181,7 +226,7 @@ Methods
 
 
 
-### getAttribute
+### <a name="method-getAttribute"></a>getAttribute
 
     mixed TreeToolbarButtonCore::getAttribute($name)
 
@@ -190,7 +235,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#63)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L63)
 
 
 #### Arguments
@@ -198,7 +243,7 @@ Methods
 
 
 
-### setAttributes
+### <a name="method-setAttributes"></a>setAttributes
 
     mixed TreeToolbarButtonCore::setAttributes($value)
 
@@ -207,7 +252,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#68)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L68)
 
 
 #### Arguments
@@ -215,7 +260,7 @@ Methods
 
 
 
-### getAttributes
+### <a name="method-getAttributes"></a>getAttributes
 
     mixed TreeToolbarButtonCore::getAttributes()
 
@@ -224,12 +269,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#78)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L78)
 
 
 
 
-### setClass
+### <a name="method-setClass"></a>setClass
 
     mixed TreeToolbarButtonCore::setClass($value)
 
@@ -238,7 +283,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#87)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L87)
 
 
 #### Arguments
@@ -246,7 +291,7 @@ Methods
 
 
 
-### getClass
+### <a name="method-getClass"></a>getClass
 
     mixed TreeToolbarButtonCore::getClass()
 
@@ -255,12 +300,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#92)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L92)
 
 
 
 
-### setContext
+### <a name="method-setContext"></a>setContext
 
     mixed TreeToolbarButtonCore::setContext($value)
 
@@ -269,7 +314,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#97)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L97)
 
 
 #### Arguments
@@ -277,7 +322,7 @@ Methods
 
 
 
-### getContext
+### <a name="method-getContext"></a>getContext
 
     mixed TreeToolbarButtonCore::getContext()
 
@@ -286,12 +331,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#103)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L103)
 
 
 
 
-### setId
+### <a name="method-setId"></a>setId
 
     mixed TreeToolbarButtonCore::setId($value)
 
@@ -300,7 +345,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#112)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L112)
 
 
 #### Arguments
@@ -308,7 +353,7 @@ Methods
 
 
 
-### getId
+### <a name="method-getId"></a>getId
 
     mixed TreeToolbarButtonCore::getId()
 
@@ -317,12 +362,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#117)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L117)
 
 
 
 
-### setLabel
+### <a name="method-setLabel"></a>setLabel
 
     mixed TreeToolbarButtonCore::setLabel($value)
 
@@ -331,7 +376,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#122)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L122)
 
 
 #### Arguments
@@ -339,7 +384,7 @@ Methods
 
 
 
-### getLabel
+### <a name="method-getLabel"></a>getLabel
 
     mixed TreeToolbarButtonCore::getLabel()
 
@@ -348,12 +393,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#127)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L127)
 
 
 
 
-### setName
+### <a name="method-setName"></a>setName
 
     mixed TreeToolbarButtonCore::setName($value)
 
@@ -362,7 +407,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#132)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L132)
 
 
 #### Arguments
@@ -370,7 +415,7 @@ Methods
 
 
 
-### getName
+### <a name="method-getName"></a>getName
 
     mixed TreeToolbarButtonCore::getName()
 
@@ -379,12 +424,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#137)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L137)
 
 
 
 
-### setTemplate
+### <a name="method-setTemplate"></a>setTemplate
 
     mixed TreeToolbarButtonCore::setTemplate($value)
 
@@ -393,7 +438,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#142)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L142)
 
 
 #### Arguments
@@ -401,7 +446,7 @@ Methods
 
 
 
-### getTemplate
+### <a name="method-getTemplate"></a>getTemplate
 
     mixed TreeToolbarButtonCore::getTemplate()
 
@@ -410,12 +455,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#148)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L148)
 
 
 
 
-### setTemplateDirectory
+### <a name="method-setTemplateDirectory"></a>setTemplateDirectory
 
     mixed TreeToolbarButtonCore::setTemplateDirectory($value)
 
@@ -424,7 +469,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#153)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L153)
 
 
 #### Arguments
@@ -432,7 +477,7 @@ Methods
 
 
 
-### getTemplateDirectory
+### <a name="method-getTemplateDirectory"></a>getTemplateDirectory
 
     mixed TreeToolbarButtonCore::getTemplateDirectory()
 
@@ -441,12 +486,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#159)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L159)
 
 
 
 
-### getTemplateFile
+### <a name="method-getTemplateFile"></a>getTemplateFile
 
     mixed TreeToolbarButtonCore::getTemplateFile($template)
 
@@ -455,7 +500,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#168)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L168)
 
 
 #### Arguments
@@ -463,7 +508,7 @@ Methods
 
 
 
-### hasAttribute
+### <a name="method-hasAttribute"></a>hasAttribute
 
     mixed TreeToolbarButtonCore::hasAttribute($name)
 
@@ -472,7 +517,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#196)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L196)
 
 
 #### Arguments
@@ -480,7 +525,7 @@ Methods
 
 
 
-### render
+### <a name="method-render"></a>render
 
     mixed TreeToolbarButtonCore::render()
 
@@ -489,12 +534,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#202)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L202)
 
 
 
 
-### _normalizeDirectory
+### <a name="method-_normalizeDirectory"></a>_normalizeDirectory
 
     mixed TreeToolbarButtonCore::_normalizeDirectory($directory)
 
@@ -503,7 +548,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in [classes/tree/TreeToolbarButton.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#210)
+* This method is defined in [classes/tree/TreeToolbarButton.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L210)
 
 
 #### Arguments

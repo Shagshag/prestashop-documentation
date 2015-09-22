@@ -18,9 +18,28 @@ AdminDashboardControllerCore
 
 Methods
 -------
+* [__construct](#method-__construct)
+* [setMedia](#method-setMedia)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [getOptionFields](#method-getOptionFields)
+* [renderView](#method-renderView)
+* [postProcess](#method-postProcess)
+* [getWarningDomainName](#method-getWarningDomainName)
+* [ajaxProcessRefreshDashboard](#method-ajaxProcessRefreshDashboard)
+* [ajaxProcessSetSimulationMode](#method-ajaxProcessSetSimulationMode)
+* [ajaxProcessGetBlogRss](#method-ajaxProcessGetBlogRss)
+* [ajaxProcessSaveDashConfig](#method-ajaxProcessSaveDashConfig)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed AdminDashboardControllerCore::__construct()
 
@@ -29,12 +48,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDashboardController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#29)
+* This method is defined in [controllers/admin/AdminDashboardController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L29)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminDashboardControllerCore::setMedia()
 
@@ -43,12 +62,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDashboardController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#41)
+* This method is defined in [controllers/admin/AdminDashboardController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L41)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminDashboardControllerCore::initPageHeaderToolbar()
 
@@ -57,12 +76,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDashboardController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#54)
+* This method is defined in [controllers/admin/AdminDashboardController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L54)
 
 
 
 
-### getOptionFields
+### <a name="method-getOptionFields"></a>getOptionFields
 
     mixed AdminDashboardControllerCore::getOptionFields()
 
@@ -71,12 +90,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminDashboardController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#69)
+* This method is defined in [controllers/admin/AdminDashboardController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L69)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminDashboardControllerCore::renderView()
 
@@ -85,12 +104,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDashboardController.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#187)
+* This method is defined in [controllers/admin/AdminDashboardController.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L187)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminDashboardControllerCore::postProcess()
 
@@ -99,12 +118,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDashboardController.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#282)
+* This method is defined in [controllers/admin/AdminDashboardController.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L282)
 
 
 
 
-### getWarningDomainName
+### <a name="method-getWarningDomainName"></a>getWarningDomainName
 
     mixed AdminDashboardControllerCore::getWarningDomainName()
 
@@ -113,12 +132,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminDashboardController.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#331)
+* This method is defined in [controllers/admin/AdminDashboardController.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L331)
 
 
 
 
-### ajaxProcessRefreshDashboard
+### <a name="method-ajaxProcessRefreshDashboard"></a>ajaxProcessRefreshDashboard
 
     mixed AdminDashboardControllerCore::ajaxProcessRefreshDashboard()
 
@@ -127,12 +146,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDashboardController.php line 352](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#352)
+* This method is defined in [controllers/admin/AdminDashboardController.php line 352](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L352)
 
 
 
 
-### ajaxProcessSetSimulationMode
+### <a name="method-ajaxProcessSetSimulationMode"></a>ajaxProcessSetSimulationMode
 
     mixed AdminDashboardControllerCore::ajaxProcessSetSimulationMode()
 
@@ -141,12 +160,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDashboardController.php line 374](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#374)
+* This method is defined in [controllers/admin/AdminDashboardController.php line 374](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L374)
 
 
 
 
-### ajaxProcessGetBlogRss
+### <a name="method-ajaxProcessGetBlogRss"></a>ajaxProcessGetBlogRss
 
     mixed AdminDashboardControllerCore::ajaxProcessGetBlogRss()
 
@@ -155,12 +174,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDashboardController.php line 380](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#380)
+* This method is defined in [controllers/admin/AdminDashboardController.php line 380](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L380)
 
 
 
 
-### ajaxProcessSaveDashConfig
+### <a name="method-ajaxProcessSaveDashConfig"></a>ajaxProcessSaveDashConfig
 
     mixed AdminDashboardControllerCore::ajaxProcessSaveDashConfig()
 
@@ -169,7 +188,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminDashboardController.php line 441](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#441)
+* This method is defined in [controllers/admin/AdminDashboardController.php line 441](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L441)
 
 
 

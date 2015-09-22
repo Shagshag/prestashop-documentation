@@ -17,8 +17,47 @@ GroupCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$name](#property-$name)
+* [$reduction](#property-$reduction)
+* [$price_display_method](#property-$price_display_method)
+* [$show_prices](#property-$show_prices)
+* [$date_add](#property-$date_add)
+* [$date_upd](#property-$date_upd)
+* [$definition](#property-$definition)
+* [$cache_reduction](#property-$cache_reduction)
+* [$group_price_display_method](#property-$group_price_display_method)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id
+Methods
+-------
+* [__construct](#method-__construct)
+* [getGroups](#method-getGroups)
+* [getCustomers](#method-getCustomers)
+* [getReduction](#method-getReduction)
+* [getReductionByIdGroup](#method-getReductionByIdGroup)
+* [getPriceDisplayMethod](#method-getPriceDisplayMethod)
+* [getDefaultPriceDisplayMethod](#method-getDefaultPriceDisplayMethod)
+* [add](#method-add)
+* [update](#method-update)
+* [delete](#method-delete)
+* [isFeatureActive](#method-isFeatureActive)
+* [isCurrentlyUsed](#method-isCurrentlyUsed)
+* [truncateModulesRestrictions](#method-truncateModulesRestrictions)
+* [truncateRestrictionsByModule](#method-truncateRestrictionsByModule)
+* [addModulesRestrictions](#method-addModulesRestrictions)
+* [addRestrictionsForModule](#method-addRestrictionsForModule)
+* [getCurrent](#method-getCurrent)
+* [searchByName](#method-searchByName)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +66,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Group.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#29)
+* This property is defined in [classes/Group.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L29)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -39,10 +78,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Group.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#32)
+* This property is defined in [classes/Group.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L32)
 
 
-### $reduction
+### <a name="property-$reduction"></a>$reduction
 
     public string $reduction
 
@@ -51,10 +90,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Group.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#35)
+* This property is defined in [classes/Group.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L35)
 
 
-### $price_display_method
+### <a name="property-$price_display_method"></a>$price_display_method
 
     public integer $price_display_method
 
@@ -63,10 +102,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Group.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#38)
+* This property is defined in [classes/Group.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L38)
 
 
-### $show_prices
+### <a name="property-$show_prices"></a>$show_prices
 
     public boolean $show_prices = 1
 
@@ -75,10 +114,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Group.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#41)
+* This property is defined in [classes/Group.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L41)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -87,10 +126,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Group.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#44)
+* This property is defined in [classes/Group.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L44)
 
 
-### $date_upd
+### <a name="property-$date_upd"></a>$date_upd
 
     public string $date_upd
 
@@ -99,10 +138,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Group.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#47)
+* This property is defined in [classes/Group.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L47)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'group', 'primary' => 'id_group', 'multilang' => true, 'fields' => array('reduction' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'price_display_method' => array('type' => self::TYPE_INT, 'validate' => 'isPriceDisplayMethod', 'required' => true), 'show_prices' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32)))
 
@@ -112,10 +151,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Group.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#52)
+* This property is defined in [classes/Group.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L52)
 
 
-### $cache_reduction
+### <a name="property-$cache_reduction"></a>$cache_reduction
 
     protected mixed $cache_reduction = array()
 
@@ -125,10 +164,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Group.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#68)
+* This property is defined in [classes/Group.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L68)
 
 
-### $group_price_display_method
+### <a name="property-$group_price_display_method"></a>$group_price_display_method
 
     protected mixed $group_price_display_method = array()
 
@@ -138,10 +177,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Group.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#69)
+* This property is defined in [classes/Group.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L69)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array()
 
@@ -150,14 +189,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Group.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#71)
+* This property is defined in [classes/Group.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L71)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed GroupCore::__construct($id, $id_lang, $id_shop)
 
@@ -166,7 +205,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Group.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#73)
+* This method is defined in [classes/Group.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L73)
 
 
 #### Arguments
@@ -176,7 +215,7 @@ Methods
 
 
 
-### getGroups
+### <a name="method-getGroups"></a>getGroups
 
     mixed GroupCore::getGroups($id_lang, $id_shop)
 
@@ -186,7 +225,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#81)
+* This method is defined in [classes/Group.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L81)
 
 
 #### Arguments
@@ -195,7 +234,7 @@ Methods
 
 
 
-### getCustomers
+### <a name="method-getCustomers"></a>getCustomers
 
     mixed GroupCore::getCustomers($count, $start, $limit, $shop_filtering)
 
@@ -204,7 +243,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Group.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#96)
+* This method is defined in [classes/Group.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L96)
 
 
 #### Arguments
@@ -215,7 +254,7 @@ Methods
 
 
 
-### getReduction
+### <a name="method-getReduction"></a>getReduction
 
     mixed GroupCore::getReduction($id_customer)
 
@@ -225,7 +264,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#118)
+* This method is defined in [classes/Group.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L118)
 
 
 #### Arguments
@@ -233,7 +272,7 @@ Methods
 
 
 
-### getReductionByIdGroup
+### <a name="method-getReductionByIdGroup"></a>getReductionByIdGroup
 
     mixed GroupCore::getReductionByIdGroup($id_group)
 
@@ -243,7 +282,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#127)
+* This method is defined in [classes/Group.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L127)
 
 
 #### Arguments
@@ -251,7 +290,7 @@ Methods
 
 
 
-### getPriceDisplayMethod
+### <a name="method-getPriceDisplayMethod"></a>getPriceDisplayMethod
 
     mixed GroupCore::getPriceDisplayMethod($id_group)
 
@@ -261,7 +300,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#138)
+* This method is defined in [classes/Group.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L138)
 
 
 #### Arguments
@@ -269,7 +308,7 @@ Methods
 
 
 
-### getDefaultPriceDisplayMethod
+### <a name="method-getDefaultPriceDisplayMethod"></a>getDefaultPriceDisplayMethod
 
     mixed GroupCore::getDefaultPriceDisplayMethod()
 
@@ -279,12 +318,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#149)
+* This method is defined in [classes/Group.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L149)
 
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed GroupCore::add($autodate, $null_values)
 
@@ -293,7 +332,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Group.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#154)
+* This method is defined in [classes/Group.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L154)
 
 
 #### Arguments
@@ -302,7 +341,7 @@ Methods
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed GroupCore::update($autodate, $null_values)
 
@@ -311,7 +350,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Group.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#165)
+* This method is defined in [classes/Group.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L165)
 
 
 #### Arguments
@@ -320,7 +359,7 @@ Methods
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed GroupCore::delete()
 
@@ -329,12 +368,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Group.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#173)
+* This method is defined in [classes/Group.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L173)
 
 
 
 
-### isFeatureActive
+### <a name="method-isFeatureActive"></a>isFeatureActive
 
     boolean GroupCore::isFeatureActive()
 
@@ -344,12 +383,12 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#213)
+* This method is defined in [classes/Group.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L213)
 
 
 
 
-### isCurrentlyUsed
+### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
 
     boolean GroupCore::isCurrentlyUsed($table, $has_active_column)
 
@@ -359,7 +398,7 @@ This method is allow to know if there are other groups than the default ones
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#229)
+* This method is defined in [classes/Group.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L229)
 
 
 #### Arguments
@@ -368,7 +407,7 @@ This method is allow to know if there are other groups than the default ones
 
 
 
-### truncateModulesRestrictions
+### <a name="method-truncateModulesRestrictions"></a>truncateModulesRestrictions
 
     boolean GroupCore::truncateModulesRestrictions(integer $id_group)
 
@@ -378,7 +417,7 @@ Truncate all modules restrictions for the group
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#240)
+* This method is defined in [classes/Group.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L240)
 
 
 #### Arguments
@@ -386,7 +425,7 @@ Truncate all modules restrictions for the group
 
 
 
-### truncateRestrictionsByModule
+### <a name="method-truncateRestrictionsByModule"></a>truncateRestrictionsByModule
 
     boolean GroupCore::truncateRestrictionsByModule(integer $id_module)
 
@@ -396,7 +435,7 @@ Truncate all restrictions by module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#253)
+* This method is defined in [classes/Group.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L253)
 
 
 #### Arguments
@@ -404,7 +443,7 @@ Truncate all restrictions by module
 
 
 
-### addModulesRestrictions
+### <a name="method-addModulesRestrictions"></a>addModulesRestrictions
 
     boolean GroupCore::addModulesRestrictions($id_group, $modules, array $shops)
 
@@ -414,7 +453,7 @@ Adding restrictions modules to the group with id $id_group
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#267)
+* This method is defined in [classes/Group.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L267)
 
 
 #### Arguments
@@ -424,7 +463,7 @@ Adding restrictions modules to the group with id $id_group
 
 
 
-### addRestrictionsForModule
+### <a name="method-addRestrictionsForModule"></a>addRestrictionsForModule
 
     boolean GroupCore::addRestrictionsForModule(integer $id_module, array $shops)
 
@@ -434,7 +473,7 @@ We authorize every groups to the new module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 295](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#295)
+* This method is defined in [classes/Group.php line 295](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L295)
 
 
 #### Arguments
@@ -443,7 +482,7 @@ We authorize every groups to the new module
 
 
 
-### getCurrent
+### <a name="method-getCurrent"></a>getCurrent
 
     \Group GroupCore::getCurrent()
 
@@ -454,12 +493,12 @@ Use context
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#316)
+* This method is defined in [classes/Group.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L316)
 
 
 
 
-### searchByName
+### <a name="method-searchByName"></a>searchByName
 
     array GroupCore::searchByName(string $query)
 
@@ -469,7 +508,7 @@ Light back office search for Group
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Group.php line 357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#357)
+* This method is defined in [classes/Group.php line 357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#L357)
 
 
 #### Arguments

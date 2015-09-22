@@ -17,8 +17,72 @@ EmployeeCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$id_profile](#property-$id_profile)
+* [$id_lang](#property-$id_lang)
+* [$lastname](#property-$lastname)
+* [$firstname](#property-$firstname)
+* [$email](#property-$email)
+* [$passwd](#property-$passwd)
+* [$last_passwd_gen](#property-$last_passwd_gen)
+* [$stats_date_from](#property-$stats_date_from)
+* [$stats_date_to](#property-$stats_date_to)
+* [$stats_compare_from](#property-$stats_compare_from)
+* [$stats_compare_to](#property-$stats_compare_to)
+* [$stats_compare_option](#property-$stats_compare_option)
+* [$preselect_date_range](#property-$preselect_date_range)
+* [$bo_color](#property-$bo_color)
+* [$default_tab](#property-$default_tab)
+* [$bo_theme](#property-$bo_theme)
+* [$bo_css](#property-$bo_css)
+* [$bo_width](#property-$bo_width)
+* [$bo_menu](#property-$bo_menu)
+* [$bo_show_screencast](#property-$bo_show_screencast)
+* [$active](#property-$active)
+* [$optin](#property-$optin)
+* [$remote_addr](#property-$remote_addr)
+* [$id_last_order](#property-$id_last_order)
+* [$id_last_customer_message](#property-$id_last_customer_message)
+* [$id_last_customer](#property-$id_last_customer)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
+* [$associated_shops](#property-$associated_shops)
 
-### $id
+Methods
+-------
+* [__construct](#method-__construct)
+* [getFields](#method-getFields)
+* [add](#method-add)
+* [update](#method-update)
+* [updateTextDirection](#method-updateTextDirection)
+* [saveOptin](#method-saveOptin)
+* [getEmployees](#method-getEmployees)
+* [getByEmail](#method-getByEmail)
+* [employeeExists](#method-employeeExists)
+* [checkPassword](#method-checkPassword)
+* [countProfile](#method-countProfile)
+* [isLastAdmin](#method-isLastAdmin)
+* [setWsPasswd](#method-setWsPasswd)
+* [isLoggedBack](#method-isLoggedBack)
+* [logout](#method-logout)
+* [favoriteModulesList](#method-favoriteModulesList)
+* [hasAuthOnShop](#method-hasAuthOnShop)
+* [hasAuthOnShopGroup](#method-hasAuthOnShopGroup)
+* [getDefaultShopID](#method-getDefaultShopID)
+* [getEmployeesByProfile](#method-getEmployeesByProfile)
+* [isSuperAdmin](#method-isSuperAdmin)
+* [getImage](#method-getImage)
+* [getLastElementsForNotify](#method-getLastElementsForNotify)
+* [setLastConnectionDate](#method-setLastConnectionDate)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +91,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#29)
+* This property is defined in [classes/Employee.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L29)
 
 
-### $id_profile
+### <a name="property-$id_profile"></a>$id_profile
 
     public string $id_profile
 
@@ -39,10 +103,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#32)
+* This property is defined in [classes/Employee.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L32)
 
 
-### $id_lang
+### <a name="property-$id_lang"></a>$id_lang
 
     public string $id_lang
 
@@ -51,10 +115,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#35)
+* This property is defined in [classes/Employee.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L35)
 
 
-### $lastname
+### <a name="property-$lastname"></a>$lastname
 
     public string $lastname
 
@@ -63,10 +127,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#38)
+* This property is defined in [classes/Employee.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L38)
 
 
-### $firstname
+### <a name="property-$firstname"></a>$firstname
 
     public string $firstname
 
@@ -75,10 +139,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#41)
+* This property is defined in [classes/Employee.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L41)
 
 
-### $email
+### <a name="property-$email"></a>$email
 
     public string $email
 
@@ -87,10 +151,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#44)
+* This property is defined in [classes/Employee.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L44)
 
 
-### $passwd
+### <a name="property-$passwd"></a>$passwd
 
     public string $passwd
 
@@ -99,10 +163,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#47)
+* This property is defined in [classes/Employee.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L47)
 
 
-### $last_passwd_gen
+### <a name="property-$last_passwd_gen"></a>$last_passwd_gen
 
     public \datetime $last_passwd_gen
 
@@ -111,10 +175,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#50)
+* This property is defined in [classes/Employee.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L50)
 
 
-### $stats_date_from
+### <a name="property-$stats_date_from"></a>$stats_date_from
 
     public mixed $stats_date_from
 
@@ -123,10 +187,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#52)
+* This property is defined in [classes/Employee.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L52)
 
 
-### $stats_date_to
+### <a name="property-$stats_date_to"></a>$stats_date_to
 
     public mixed $stats_date_to
 
@@ -135,10 +199,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#53)
+* This property is defined in [classes/Employee.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L53)
 
 
-### $stats_compare_from
+### <a name="property-$stats_compare_from"></a>$stats_compare_from
 
     public mixed $stats_compare_from
 
@@ -147,10 +211,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#55)
+* This property is defined in [classes/Employee.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L55)
 
 
-### $stats_compare_to
+### <a name="property-$stats_compare_to"></a>$stats_compare_to
 
     public mixed $stats_compare_to
 
@@ -159,10 +223,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#56)
+* This property is defined in [classes/Employee.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L56)
 
 
-### $stats_compare_option
+### <a name="property-$stats_compare_option"></a>$stats_compare_option
 
     public mixed $stats_compare_option = 1
 
@@ -171,10 +235,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#57)
+* This property is defined in [classes/Employee.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L57)
 
 
-### $preselect_date_range
+### <a name="property-$preselect_date_range"></a>$preselect_date_range
 
     public mixed $preselect_date_range
 
@@ -183,10 +247,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#59)
+* This property is defined in [classes/Employee.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L59)
 
 
-### $bo_color
+### <a name="property-$bo_color"></a>$bo_color
 
     public string $bo_color
 
@@ -195,10 +259,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#62)
+* This property is defined in [classes/Employee.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L62)
 
 
-### $default_tab
+### <a name="property-$default_tab"></a>$default_tab
 
     public mixed $default_tab
 
@@ -207,10 +271,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#64)
+* This property is defined in [classes/Employee.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L64)
 
 
-### $bo_theme
+### <a name="property-$bo_theme"></a>$bo_theme
 
     public string $bo_theme
 
@@ -219,10 +283,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#67)
+* This property is defined in [classes/Employee.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L67)
 
 
-### $bo_css
+### <a name="property-$bo_css"></a>$bo_css
 
     public string $bo_css = 'admin-theme.css'
 
@@ -231,10 +295,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#70)
+* This property is defined in [classes/Employee.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L70)
 
 
-### $bo_width
+### <a name="property-$bo_width"></a>$bo_width
 
     public integer $bo_width
 
@@ -243,10 +307,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#73)
+* This property is defined in [classes/Employee.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L73)
 
 
-### $bo_menu
+### <a name="property-$bo_menu"></a>$bo_menu
 
     public \bool, $bo_menu = 1
 
@@ -255,10 +319,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#76)
+* This property is defined in [classes/Employee.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L76)
 
 
-### $bo_show_screencast
+### <a name="property-$bo_show_screencast"></a>$bo_show_screencast
 
     public mixed $bo_show_screencast = false
 
@@ -267,10 +331,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#79)
+* This property is defined in [classes/Employee.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L79)
 
 
-### $active
+### <a name="property-$active"></a>$active
 
     public boolean $active = 1
 
@@ -279,10 +343,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#82)
+* This property is defined in [classes/Employee.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L82)
 
 
-### $optin
+### <a name="property-$optin"></a>$optin
 
     public boolean $optin = 1
 
@@ -291,10 +355,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#85)
+* This property is defined in [classes/Employee.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L85)
 
 
-### $remote_addr
+### <a name="property-$remote_addr"></a>$remote_addr
 
     public mixed $remote_addr
 
@@ -303,10 +367,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#87)
+* This property is defined in [classes/Employee.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L87)
 
 
-### $id_last_order
+### <a name="property-$id_last_order"></a>$id_last_order
 
     public mixed $id_last_order
 
@@ -315,10 +379,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#90)
+* This property is defined in [classes/Employee.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L90)
 
 
-### $id_last_customer_message
+### <a name="property-$id_last_customer_message"></a>$id_last_customer_message
 
     public mixed $id_last_customer_message
 
@@ -327,10 +391,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#91)
+* This property is defined in [classes/Employee.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L91)
 
 
-### $id_last_customer
+### <a name="property-$id_last_customer"></a>$id_last_customer
 
     public mixed $id_last_customer
 
@@ -339,10 +403,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Employee.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#92)
+* This property is defined in [classes/Employee.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L92)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'employee', 'primary' => 'id_employee', 'fields' => array('lastname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'firstname' => array('type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 32), 'email' => array('type' => self::TYPE_STRING, 'validate' => 'isEmail', 'required' => true, 'size' => 128), 'id_lang' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true), 'passwd' => array('type' => self::TYPE_STRING, 'validate' => 'isPasswdAdmin', 'required' => true, 'size' => 32), 'last_passwd_gen' => array('type' => self::TYPE_STRING), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'optin' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'id_profile' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => true), 'bo_color' => array('type' => self::TYPE_STRING, 'validate' => 'isColor', 'size' => 32), 'default_tab' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'bo_theme' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 32), 'bo_css' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 64), 'bo_width' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'bo_menu' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'stats_date_from' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'stats_date_to' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'stats_compare_from' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'stats_compare_to' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'stats_compare_option' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'preselect_date_range' => array('type' => self::TYPE_STRING, 'size' => 32), 'id_last_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'id_last_customer_message' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'id_last_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt')))
 
@@ -352,10 +416,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Employee.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#97)
+* This property is defined in [classes/Employee.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L97)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('fields' => array('id_lang' => array('xlink_resource' => 'languages'), 'last_passwd_gen' => array('setter' => null), 'stats_date_from' => array('setter' => null), 'stats_date_to' => array('setter' => null), 'stats_compare_from' => array('setter' => null), 'stats_compare_to' => array('setter' => null), 'passwd' => array('setter' => 'setWsPasswd')))
 
@@ -364,10 +428,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Employee.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#128)
+* This property is defined in [classes/Employee.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L128)
 
 
-### $associated_shops
+### <a name="property-$associated_shops"></a>$associated_shops
 
     protected mixed $associated_shops = array()
 
@@ -376,14 +440,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Employee.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#140)
+* This property is defined in [classes/Employee.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L140)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed EmployeeCore::__construct($id, $id_lang, $id_shop)
 
@@ -392,7 +456,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#142)
+* This method is defined in [classes/Employee.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L142)
 
 
 #### Arguments
@@ -402,7 +466,7 @@ Methods
 
 
 
-### getFields
+### <a name="method-getFields"></a>getFields
 
     array EmployeeCore::getFields()
 
@@ -411,12 +475,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#161)
+* This method is defined in [classes/Employee.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L161)
 
 
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed EmployeeCore::add($autodate, $null_values)
 
@@ -425,7 +489,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#182)
+* This method is defined in [classes/Employee.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L182)
 
 
 #### Arguments
@@ -434,7 +498,7 @@ Methods
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed EmployeeCore::update($null_values)
 
@@ -443,7 +507,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#190)
+* This method is defined in [classes/Employee.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L190)
 
 
 #### Arguments
@@ -451,7 +515,7 @@ Methods
 
 
 
-### updateTextDirection
+### <a name="method-updateTextDirection"></a>updateTextDirection
 
     mixed EmployeeCore::updateTextDirection()
 
@@ -460,12 +524,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Employee.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#210)
+* This method is defined in [classes/Employee.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L210)
 
 
 
 
-### saveOptin
+### <a name="method-saveOptin"></a>saveOptin
 
     mixed EmployeeCore::saveOptin()
 
@@ -474,12 +538,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Employee.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#234)
+* This method is defined in [classes/Employee.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L234)
 
 
 
 
-### getEmployees
+### <a name="method-getEmployees"></a>getEmployees
 
     array|false EmployeeCore::getEmployees(boolean $active_only)
 
@@ -489,7 +553,7 @@ Return list of employees
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Employee.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#255)
+* This method is defined in [classes/Employee.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L255)
 
 
 #### Arguments
@@ -497,7 +561,7 @@ Return list of employees
 
 
 
-### getByEmail
+### <a name="method-getByEmail"></a>getByEmail
 
     \Employee EmployeeCore::getByEmail(string $email, string $passwd, boolean $active_only)
 
@@ -506,7 +570,7 @@ Return employee instance from its e-mail (optionnaly check password)
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#273)
+* This method is defined in [classes/Employee.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L273)
 
 
 #### Arguments
@@ -516,7 +580,7 @@ Return employee instance from its e-mail (optionnaly check password)
 
 
 
-### employeeExists
+### <a name="method-employeeExists"></a>employeeExists
 
     mixed EmployeeCore::employeeExists($email)
 
@@ -526,7 +590,7 @@ Return employee instance from its e-mail (optionnaly check password)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Employee.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#298)
+* This method is defined in [classes/Employee.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L298)
 
 
 #### Arguments
@@ -534,7 +598,7 @@ Return employee instance from its e-mail (optionnaly check password)
 
 
 
-### checkPassword
+### <a name="method-checkPassword"></a>checkPassword
 
     boolean EmployeeCore::checkPassword($id_employee, string $passwd)
 
@@ -544,7 +608,7 @@ Check if employee password is the right one
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Employee.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#316)
+* This method is defined in [classes/Employee.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L316)
 
 
 #### Arguments
@@ -553,7 +617,7 @@ Check if employee password is the right one
 
 
 
-### countProfile
+### <a name="method-countProfile"></a>countProfile
 
     mixed EmployeeCore::countProfile($id_profile, $active_only)
 
@@ -563,7 +627,7 @@ Check if employee password is the right one
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Employee.php line 330](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#330)
+* This method is defined in [classes/Employee.php line 330](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L330)
 
 
 #### Arguments
@@ -572,7 +636,7 @@ Check if employee password is the right one
 
 
 
-### isLastAdmin
+### <a name="method-isLastAdmin"></a>isLastAdmin
 
     mixed EmployeeCore::isLastAdmin()
 
@@ -581,12 +645,12 @@ Check if employee password is the right one
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#339)
+* This method is defined in [classes/Employee.php line 339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L339)
 
 
 
 
-### setWsPasswd
+### <a name="method-setWsPasswd"></a>setWsPasswd
 
     mixed EmployeeCore::setWsPasswd($passwd)
 
@@ -595,7 +659,7 @@ Check if employee password is the right one
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 347](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#347)
+* This method is defined in [classes/Employee.php line 347](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L347)
 
 
 #### Arguments
@@ -603,7 +667,7 @@ Check if employee password is the right one
 
 
 
-### isLoggedBack
+### <a name="method-isLoggedBack"></a>isLoggedBack
 
     boolean EmployeeCore::isLoggedBack()
 
@@ -612,12 +676,12 @@ Check employee informations saved into cookie and return employee validity
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 364](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#364)
+* This method is defined in [classes/Employee.php line 364](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L364)
 
 
 
 
-### logout
+### <a name="method-logout"></a>logout
 
     mixed EmployeeCore::logout()
 
@@ -626,12 +690,12 @@ Logout
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#381)
+* This method is defined in [classes/Employee.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L381)
 
 
 
 
-### favoriteModulesList
+### <a name="method-favoriteModulesList"></a>favoriteModulesList
 
     mixed EmployeeCore::favoriteModulesList()
 
@@ -640,12 +704,12 @@ Logout
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#390)
+* This method is defined in [classes/Employee.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L390)
 
 
 
 
-### hasAuthOnShop
+### <a name="method-hasAuthOnShop"></a>hasAuthOnShop
 
     boolean EmployeeCore::hasAuthOnShop(integer $id_shop)
 
@@ -654,7 +718,7 @@ Check if the employee is associated to a specific shop
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 406](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#406)
+* This method is defined in [classes/Employee.php line 406](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L406)
 
 
 #### Arguments
@@ -662,7 +726,7 @@ Check if the employee is associated to a specific shop
 
 
 
-### hasAuthOnShopGroup
+### <a name="method-hasAuthOnShopGroup"></a>hasAuthOnShopGroup
 
     boolean EmployeeCore::hasAuthOnShopGroup($id_shop_group)
 
@@ -671,7 +735,7 @@ Check if the employee is associated to a specific shop group
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 418](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#418)
+* This method is defined in [classes/Employee.php line 418](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L418)
 
 
 #### Arguments
@@ -679,7 +743,7 @@ Check if the employee is associated to a specific shop group
 
 
 
-### getDefaultShopID
+### <a name="method-getDefaultShopID"></a>getDefaultShopID
 
     integer EmployeeCore::getDefaultShopID()
 
@@ -688,12 +752,12 @@ Get default id_shop with auth for current employee
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#438)
+* This method is defined in [classes/Employee.php line 438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L438)
 
 
 
 
-### getEmployeesByProfile
+### <a name="method-getEmployeesByProfile"></a>getEmployeesByProfile
 
     mixed EmployeeCore::getEmployeesByProfile($id_profile, $active_only)
 
@@ -703,7 +767,7 @@ Get default id_shop with auth for current employee
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Employee.php line 446](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#446)
+* This method is defined in [classes/Employee.php line 446](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L446)
 
 
 #### Arguments
@@ -712,7 +776,7 @@ Get default id_shop with auth for current employee
 
 
 
-### isSuperAdmin
+### <a name="method-isSuperAdmin"></a>isSuperAdmin
 
     boolean EmployeeCore::isSuperAdmin()
 
@@ -721,12 +785,12 @@ Check if current employee is super administrator
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 460](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#460)
+* This method is defined in [classes/Employee.php line 460](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L460)
 
 
 
 
-### getImage
+### <a name="method-getImage"></a>getImage
 
     mixed EmployeeCore::getImage()
 
@@ -735,12 +799,12 @@ Check if current employee is super administrator
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 465](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#465)
+* This method is defined in [classes/Employee.php line 465](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L465)
 
 
 
 
-### getLastElementsForNotify
+### <a name="method-getLastElementsForNotify"></a>getLastElementsForNotify
 
     mixed EmployeeCore::getLastElementsForNotify($element)
 
@@ -749,7 +813,7 @@ Check if current employee is super administrator
 
 
 * Visibility: **public**
-* This method is defined in [classes/Employee.php line 473](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#473)
+* This method is defined in [classes/Employee.php line 473](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L473)
 
 
 #### Arguments
@@ -757,7 +821,7 @@ Check if current employee is super administrator
 
 
 
-### setLastConnectionDate
+### <a name="method-setLastConnectionDate"></a>setLastConnectionDate
 
     mixed EmployeeCore::setLastConnectionDate($id_employee)
 
@@ -767,7 +831,7 @@ Check if current employee is super administrator
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Employee.php line 488](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#488)
+* This method is defined in [classes/Employee.php line 488](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Employee.php#L488)
 
 
 #### Arguments

@@ -17,8 +17,36 @@ ImageTypeCore
 Properties
 ----------
 
+* [$id](#property-$id)
+* [$name](#property-$name)
+* [$width](#property-$width)
+* [$height](#property-$height)
+* [$products](#property-$products)
+* [$categories](#property-$categories)
+* [$manufacturers](#property-$manufacturers)
+* [$suppliers](#property-$suppliers)
+* [$scenes](#property-$scenes)
+* [$stores](#property-$stores)
+* [$definition](#property-$definition)
+* [$images_types_cache](#property-$images_types_cache)
+* [$images_types_name_cache](#property-$images_types_name_cache)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id
+Methods
+-------
+* [getImagesTypes](#method-getImagesTypes)
+* [typeAlreadyExists](#method-typeAlreadyExists)
+* [getByNameNType](#method-getByNameNType)
+* [getFormatedName](#method-getFormatedName)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id"></a>$id
 
     public mixed $id
 
@@ -27,10 +55,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/ImageType.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#29)
+* This property is defined in [classes/ImageType.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L29)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public string $name
 
@@ -39,10 +67,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/ImageType.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#32)
+* This property is defined in [classes/ImageType.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L32)
 
 
-### $width
+### <a name="property-$width"></a>$width
 
     public integer $width
 
@@ -51,10 +79,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/ImageType.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#35)
+* This property is defined in [classes/ImageType.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L35)
 
 
-### $height
+### <a name="property-$height"></a>$height
 
     public integer $height
 
@@ -63,10 +91,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/ImageType.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#38)
+* This property is defined in [classes/ImageType.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L38)
 
 
-### $products
+### <a name="property-$products"></a>$products
 
     public boolean $products
 
@@ -75,10 +103,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/ImageType.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#41)
+* This property is defined in [classes/ImageType.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L41)
 
 
-### $categories
+### <a name="property-$categories"></a>$categories
 
     public integer $categories
 
@@ -87,10 +115,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/ImageType.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#44)
+* This property is defined in [classes/ImageType.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L44)
 
 
-### $manufacturers
+### <a name="property-$manufacturers"></a>$manufacturers
 
     public integer $manufacturers
 
@@ -99,10 +127,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/ImageType.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#47)
+* This property is defined in [classes/ImageType.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L47)
 
 
-### $suppliers
+### <a name="property-$suppliers"></a>$suppliers
 
     public integer $suppliers
 
@@ -111,10 +139,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/ImageType.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#50)
+* This property is defined in [classes/ImageType.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L50)
 
 
-### $scenes
+### <a name="property-$scenes"></a>$scenes
 
     public integer $scenes
 
@@ -123,10 +151,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/ImageType.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#53)
+* This property is defined in [classes/ImageType.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L53)
 
 
-### $stores
+### <a name="property-$stores"></a>$stores
 
     public integer $stores
 
@@ -135,10 +163,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/ImageType.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#56)
+* This property is defined in [classes/ImageType.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L56)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'image_type', 'primary' => 'id_image_type', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isImageTypeName', 'required' => true, 'size' => 64), 'width' => array('type' => self::TYPE_INT, 'validate' => 'isImageSize', 'required' => true), 'height' => array('type' => self::TYPE_INT, 'validate' => 'isImageSize', 'required' => true), 'categories' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'products' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'manufacturers' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'suppliers' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'scenes' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'stores' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool')))
 
@@ -148,10 +176,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/ImageType.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#61)
+* This property is defined in [classes/ImageType.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L61)
 
 
-### $images_types_cache
+### <a name="property-$images_types_cache"></a>$images_types_cache
 
     protected array $images_types_cache = array()
 
@@ -161,10 +189,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/ImageType.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#80)
+* This property is defined in [classes/ImageType.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L80)
 
 
-### $images_types_name_cache
+### <a name="property-$images_types_name_cache"></a>$images_types_name_cache
 
     protected mixed $images_types_name_cache = array()
 
@@ -174,10 +202,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/ImageType.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#82)
+* This property is defined in [classes/ImageType.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L82)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array()
 
@@ -186,14 +214,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/ImageType.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#84)
+* This property is defined in [classes/ImageType.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L84)
 
 
 Methods
 -------
 
 
-### getImagesTypes
+### <a name="method-getImagesTypes"></a>getImagesTypes
 
     array ImageTypeCore::getImagesTypes($type, boolean $order_by_size)
 
@@ -203,7 +231,7 @@ Returns image type definitions
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ImageType.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#94)
+* This method is defined in [classes/ImageType.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L94)
 
 
 #### Arguments
@@ -212,7 +240,7 @@ Returns image type definitions
 
 
 
-### typeAlreadyExists
+### <a name="method-typeAlreadyExists"></a>typeAlreadyExists
 
     integer ImageTypeCore::typeAlreadyExists($type_name)
 
@@ -222,7 +250,7 @@ Check if type already is already registered in database
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ImageType.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#119)
+* This method is defined in [classes/ImageType.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L119)
 
 
 #### Arguments
@@ -230,7 +258,7 @@ Check if type already is already registered in database
 
 
 
-### getByNameNType
+### <a name="method-getByNameNType"></a>getByNameNType
 
     mixed ImageTypeCore::getByNameNType(string $name, string $type, $order)
 
@@ -240,7 +268,7 @@ Finds image type definition by name and type
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ImageType.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#138)
+* This method is defined in [classes/ImageType.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L138)
 
 
 #### Arguments
@@ -250,7 +278,7 @@ Finds image type definition by name and type
 
 
 
-### getFormatedName
+### <a name="method-getFormatedName"></a>getFormatedName
 
     mixed ImageTypeCore::getFormatedName($name)
 
@@ -260,7 +288,7 @@ Finds image type definition by name and type
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ImageType.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#166)
+* This method is defined in [classes/ImageType.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L166)
 
 
 #### Arguments

@@ -17,8 +17,70 @@ AdminModulesControllerCore
 Properties
 ----------
 
+* [$_modules_ad](#property-$_modules_ad)
+* [$map](#property-$map)
+* [$list_modules_categories](#property-$list_modules_categories)
+* [$list_partners_modules](#property-$list_partners_modules)
+* [$list_natives_modules](#property-$list_natives_modules)
+* [$nb_modules_total](#property-$nb_modules_total)
+* [$nb_modules_installed](#property-$nb_modules_installed)
+* [$nb_modules_activated](#property-$nb_modules_activated)
+* [$serial_modules](#property-$serial_modules)
+* [$modules_authors](#property-$modules_authors)
+* [$id_employee](#property-$id_employee)
+* [$iso_default_country](#property-$iso_default_country)
+* [$filter_configuration](#property-$filter_configuration)
+* [$xml_modules_list](#property-$xml_modules_list)
 
-### $_modules_ad
+Methods
+-------
+* [__construct](#method-__construct)
+* [checkCategoriesNames](#method-checkCategoriesNames)
+* [setMedia](#method-setMedia)
+* [ajaxProcessRefreshModuleList](#method-ajaxProcessRefreshModuleList)
+* [displayAjaxRefreshModuleList](#method-displayAjaxRefreshModuleList)
+* [ajaxProcessLogOnAddonsWebservices](#method-ajaxProcessLogOnAddonsWebservices)
+* [ajaxProcessLogOutAddonsWebservices](#method-ajaxProcessLogOutAddonsWebservices)
+* [ajaxProcessReloadModulesList](#method-ajaxProcessReloadModulesList)
+* [ajaxProcessGetTabModulesList](#method-ajaxProcessGetTabModulesList)
+* [ajaxProcessSetFilter](#method-ajaxProcessSetFilter)
+* [ajaxProcessSaveFavoritePreferences](#method-ajaxProcessSaveFavoritePreferences)
+* [ajaxProcessSaveTabModulePreferences](#method-ajaxProcessSaveTabModulePreferences)
+* [getCurrentUrl](#method-getCurrentUrl)
+* [extractArchive](#method-extractArchive)
+* [recursiveDeleteOnDisk](#method-recursiveDeleteOnDisk)
+* [setFilterModules](#method-setFilterModules)
+* [resetFilterModules](#method-resetFilterModules)
+* [postProcessFilterModules](#method-postProcessFilterModules)
+* [postProcessResetFilterModules](#method-postProcessResetFilterModules)
+* [postProcessFilterCategory](#method-postProcessFilterCategory)
+* [postProcessUnfilterCategory](#method-postProcessUnfilterCategory)
+* [postProcessReset](#method-postProcessReset)
+* [postProcessDownload](#method-postProcessDownload)
+* [postProcessEnable](#method-postProcessEnable)
+* [postProcessEnable_Device](#method-postProcessEnable_Device)
+* [postProcessDisable_Device](#method-postProcessDisable_Device)
+* [postProcessDelete](#method-postProcessDelete)
+* [postProcessCallback](#method-postProcessCallback)
+* [getModulesByInstallation](#method-getModulesByInstallation)
+* [postProcess](#method-postProcess)
+* [generateHtmlMessage](#method-generateHtmlMessage)
+* [initModulesList](#method-initModulesList)
+* [makeModulesStats](#method-makeModulesStats)
+* [isModuleFiltered](#method-isModuleFiltered)
+* [renderKpis](#method-renderKpis)
+* [initModal](#method-initModal)
+* [initContent](#method-initContent)
+* [ajaxProcessGetModuleQuickView](#method-ajaxProcessGetModuleQuickView)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$_modules_ad"></a>$_modules_ad
 
     private mixed $_modules_ad = array('blockcart' => array('cartabandonmentpro'), 'blocklayered' => array('pm_advancedsearch4'))
 
@@ -27,10 +89,10 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in [controllers/admin/AdminModulesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#29)
+* This property is defined in [controllers/admin/AdminModulesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L29)
 
 
-### $map
+### <a name="property-$map"></a>$map
 
     protected mixed $map = array('check' => 'check', 'install' => 'install', 'uninstall' => 'uninstall', 'configure' => 'getContent', 'update' => 'update', 'delete' => 'delete', 'checkAndUpdate' => 'checkAndUpdate', 'updateAll' => 'updateAll')
 
@@ -39,10 +101,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#37)
+* This property is defined in [controllers/admin/AdminModulesController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L37)
 
 
-### $list_modules_categories
+### <a name="property-$list_modules_categories"></a>$list_modules_categories
 
     protected mixed $list_modules_categories = array()
 
@@ -51,10 +113,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#48)
+* This property is defined in [controllers/admin/AdminModulesController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L48)
 
 
-### $list_partners_modules
+### <a name="property-$list_partners_modules"></a>$list_partners_modules
 
     protected mixed $list_partners_modules = array()
 
@@ -63,10 +125,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#49)
+* This property is defined in [controllers/admin/AdminModulesController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L49)
 
 
-### $list_natives_modules
+### <a name="property-$list_natives_modules"></a>$list_natives_modules
 
     protected mixed $list_natives_modules = array()
 
@@ -75,10 +137,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#50)
+* This property is defined in [controllers/admin/AdminModulesController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L50)
 
 
-### $nb_modules_total
+### <a name="property-$nb_modules_total"></a>$nb_modules_total
 
     protected mixed $nb_modules_total
 
@@ -87,10 +149,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#52)
+* This property is defined in [controllers/admin/AdminModulesController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L52)
 
 
-### $nb_modules_installed
+### <a name="property-$nb_modules_installed"></a>$nb_modules_installed
 
     protected mixed $nb_modules_installed
 
@@ -99,10 +161,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#53)
+* This property is defined in [controllers/admin/AdminModulesController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L53)
 
 
-### $nb_modules_activated
+### <a name="property-$nb_modules_activated"></a>$nb_modules_activated
 
     protected mixed $nb_modules_activated
 
@@ -111,10 +173,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#54)
+* This property is defined in [controllers/admin/AdminModulesController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L54)
 
 
-### $serial_modules
+### <a name="property-$serial_modules"></a>$serial_modules
 
     protected mixed $serial_modules = ''
 
@@ -123,10 +185,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#56)
+* This property is defined in [controllers/admin/AdminModulesController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L56)
 
 
-### $modules_authors
+### <a name="property-$modules_authors"></a>$modules_authors
 
     protected mixed $modules_authors = array()
 
@@ -135,10 +197,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#57)
+* This property is defined in [controllers/admin/AdminModulesController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L57)
 
 
-### $id_employee
+### <a name="property-$id_employee"></a>$id_employee
 
     protected mixed $id_employee
 
@@ -147,10 +209,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#59)
+* This property is defined in [controllers/admin/AdminModulesController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L59)
 
 
-### $iso_default_country
+### <a name="property-$iso_default_country"></a>$iso_default_country
 
     protected mixed $iso_default_country
 
@@ -159,10 +221,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#60)
+* This property is defined in [controllers/admin/AdminModulesController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L60)
 
 
-### $filter_configuration
+### <a name="property-$filter_configuration"></a>$filter_configuration
 
     protected mixed $filter_configuration = array()
 
@@ -171,10 +233,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#61)
+* This property is defined in [controllers/admin/AdminModulesController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L61)
 
 
-### $xml_modules_list
+### <a name="property-$xml_modules_list"></a>$xml_modules_list
 
     protected mixed $xml_modules_list = _PS_API_MODULES_LIST_16_
 
@@ -183,14 +245,14 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [controllers/admin/AdminModulesController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#63)
+* This property is defined in [controllers/admin/AdminModulesController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L63)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminModulesControllerCore::__construct()
 
@@ -203,12 +265,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#73)
+* This method is defined in [controllers/admin/AdminModulesController.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L73)
 
 
 
 
-### checkCategoriesNames
+### <a name="method-checkCategoriesNames"></a>checkCategoriesNames
 
     mixed AdminModulesControllerCore::checkCategoriesNames($a, $b)
 
@@ -217,7 +279,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#148)
+* This method is defined in [controllers/admin/AdminModulesController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L148)
 
 
 #### Arguments
@@ -226,7 +288,7 @@ Load cache file
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminModulesControllerCore::setMedia()
 
@@ -235,12 +297,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#157)
+* This method is defined in [controllers/admin/AdminModulesController.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L157)
 
 
 
 
-### ajaxProcessRefreshModuleList
+### <a name="method-ajaxProcessRefreshModuleList"></a>ajaxProcessRefreshModuleList
 
     mixed AdminModulesControllerCore::ajaxProcessRefreshModuleList($force_reload_cache)
 
@@ -249,7 +311,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#167)
+* This method is defined in [controllers/admin/AdminModulesController.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L167)
 
 
 #### Arguments
@@ -257,7 +319,7 @@ Load cache file
 
 
 
-### displayAjaxRefreshModuleList
+### <a name="method-displayAjaxRefreshModuleList"></a>displayAjaxRefreshModuleList
 
     mixed AdminModulesControllerCore::displayAjaxRefreshModuleList()
 
@@ -266,12 +328,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#219)
+* This method is defined in [controllers/admin/AdminModulesController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L219)
 
 
 
 
-### ajaxProcessLogOnAddonsWebservices
+### <a name="method-ajaxProcessLogOnAddonsWebservices"></a>ajaxProcessLogOnAddonsWebservices
 
     mixed AdminModulesControllerCore::ajaxProcessLogOnAddonsWebservices()
 
@@ -280,12 +342,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#225)
+* This method is defined in [controllers/admin/AdminModulesController.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L225)
 
 
 
 
-### ajaxProcessLogOutAddonsWebservices
+### <a name="method-ajaxProcessLogOutAddonsWebservices"></a>ajaxProcessLogOutAddonsWebservices
 
     mixed AdminModulesControllerCore::ajaxProcessLogOutAddonsWebservices()
 
@@ -294,12 +356,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#247)
+* This method is defined in [controllers/admin/AdminModulesController.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L247)
 
 
 
 
-### ajaxProcessReloadModulesList
+### <a name="method-ajaxProcessReloadModulesList"></a>ajaxProcessReloadModulesList
 
     mixed AdminModulesControllerCore::ajaxProcessReloadModulesList()
 
@@ -308,12 +370,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 256](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#256)
+* This method is defined in [controllers/admin/AdminModulesController.php line 256](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L256)
 
 
 
 
-### ajaxProcessGetTabModulesList
+### <a name="method-ajaxProcessGetTabModulesList"></a>ajaxProcessGetTabModulesList
 
     mixed AdminModulesControllerCore::ajaxProcessGetTabModulesList()
 
@@ -322,12 +384,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#270)
+* This method is defined in [controllers/admin/AdminModulesController.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L270)
 
 
 
 
-### ajaxProcessSetFilter
+### <a name="method-ajaxProcessSetFilter"></a>ajaxProcessSetFilter
 
     mixed AdminModulesControllerCore::ajaxProcessSetFilter()
 
@@ -336,12 +398,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#316)
+* This method is defined in [controllers/admin/AdminModulesController.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L316)
 
 
 
 
-### ajaxProcessSaveFavoritePreferences
+### <a name="method-ajaxProcessSaveFavoritePreferences"></a>ajaxProcessSaveFavoritePreferences
 
     mixed AdminModulesControllerCore::ajaxProcessSaveFavoritePreferences()
 
@@ -350,12 +412,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 322](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#322)
+* This method is defined in [controllers/admin/AdminModulesController.php line 322](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L322)
 
 
 
 
-### ajaxProcessSaveTabModulePreferences
+### <a name="method-ajaxProcessSaveTabModulePreferences"></a>ajaxProcessSaveTabModulePreferences
 
     mixed AdminModulesControllerCore::ajaxProcessSaveTabModulePreferences()
 
@@ -364,12 +426,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 349](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#349)
+* This method is defined in [controllers/admin/AdminModulesController.php line 349](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L349)
 
 
 
 
-### getCurrentUrl
+### <a name="method-getCurrentUrl"></a>getCurrentUrl
 
     mixed AdminModulesControllerCore::getCurrentUrl($remove)
 
@@ -378,7 +440,7 @@ Load cache file
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminModulesController.php line 372](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#372)
+* This method is defined in [controllers/admin/AdminModulesController.php line 372](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L372)
 
 
 #### Arguments
@@ -386,7 +448,7 @@ Load cache file
 
 
 
-### extractArchive
+### <a name="method-extractArchive"></a>extractArchive
 
     mixed AdminModulesControllerCore::extractArchive($file, $redirect)
 
@@ -395,7 +457,7 @@ Load cache file
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminModulesController.php line 391](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#391)
+* This method is defined in [controllers/admin/AdminModulesController.php line 391](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L391)
 
 
 #### Arguments
@@ -404,7 +466,7 @@ Load cache file
 
 
 
-### recursiveDeleteOnDisk
+### <a name="method-recursiveDeleteOnDisk"></a>recursiveDeleteOnDisk
 
     mixed AdminModulesControllerCore::recursiveDeleteOnDisk($dir)
 
@@ -413,7 +475,7 @@ Load cache file
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminModulesController.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#437)
+* This method is defined in [controllers/admin/AdminModulesController.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L437)
 
 
 #### Arguments
@@ -421,7 +483,7 @@ Load cache file
 
 
 
-### setFilterModules
+### <a name="method-setFilterModules"></a>setFilterModules
 
     mixed AdminModulesControllerCore::setFilterModules($module_type, $country_module_value, $module_install, $module_status)
 
@@ -430,7 +492,7 @@ Load cache file
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminModulesController.php line 463](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#463)
+* This method is defined in [controllers/admin/AdminModulesController.php line 463](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L463)
 
 
 #### Arguments
@@ -441,7 +503,7 @@ Load cache file
 
 
 
-### resetFilterModules
+### <a name="method-resetFilterModules"></a>resetFilterModules
 
     mixed AdminModulesControllerCore::resetFilterModules()
 
@@ -450,12 +512,12 @@ Load cache file
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminModulesController.php line 471](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#471)
+* This method is defined in [controllers/admin/AdminModulesController.php line 471](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L471)
 
 
 
 
-### postProcessFilterModules
+### <a name="method-postProcessFilterModules"></a>postProcessFilterModules
 
     mixed AdminModulesControllerCore::postProcessFilterModules()
 
@@ -464,12 +526,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 485](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#485)
+* This method is defined in [controllers/admin/AdminModulesController.php line 485](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L485)
 
 
 
 
-### postProcessResetFilterModules
+### <a name="method-postProcessResetFilterModules"></a>postProcessResetFilterModules
 
     mixed AdminModulesControllerCore::postProcessResetFilterModules()
 
@@ -478,12 +540,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 491](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#491)
+* This method is defined in [controllers/admin/AdminModulesController.php line 491](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L491)
 
 
 
 
-### postProcessFilterCategory
+### <a name="method-postProcessFilterCategory"></a>postProcessFilterCategory
 
     mixed AdminModulesControllerCore::postProcessFilterCategory()
 
@@ -492,12 +554,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 497](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#497)
+* This method is defined in [controllers/admin/AdminModulesController.php line 497](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L497)
 
 
 
 
-### postProcessUnfilterCategory
+### <a name="method-postProcessUnfilterCategory"></a>postProcessUnfilterCategory
 
     mixed AdminModulesControllerCore::postProcessUnfilterCategory()
 
@@ -506,12 +568,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 504](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#504)
+* This method is defined in [controllers/admin/AdminModulesController.php line 504](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L504)
 
 
 
 
-### postProcessReset
+### <a name="method-postProcessReset"></a>postProcessReset
 
     mixed AdminModulesControllerCore::postProcessReset()
 
@@ -520,12 +582,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 516](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#516)
+* This method is defined in [controllers/admin/AdminModulesController.php line 516](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L516)
 
 
 
 
-### postProcessDownload
+### <a name="method-postProcessDownload"></a>postProcessDownload
 
     mixed AdminModulesControllerCore::postProcessDownload()
 
@@ -534,12 +596,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 554](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#554)
+* This method is defined in [controllers/admin/AdminModulesController.php line 554](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L554)
 
 
 
 
-### postProcessEnable
+### <a name="method-postProcessEnable"></a>postProcessEnable
 
     mixed AdminModulesControllerCore::postProcessEnable()
 
@@ -548,12 +610,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#603)
+* This method is defined in [controllers/admin/AdminModulesController.php line 603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L603)
 
 
 
 
-### postProcessEnable_Device
+### <a name="method-postProcessEnable_Device"></a>postProcessEnable_Device
 
     mixed AdminModulesControllerCore::postProcessEnable_Device()
 
@@ -562,12 +624,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#626)
+* This method is defined in [controllers/admin/AdminModulesController.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L626)
 
 
 
 
-### postProcessDisable_Device
+### <a name="method-postProcessDisable_Device"></a>postProcessDisable_Device
 
     mixed AdminModulesControllerCore::postProcessDisable_Device()
 
@@ -576,12 +638,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 645](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#645)
+* This method is defined in [controllers/admin/AdminModulesController.php line 645](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L645)
 
 
 
 
-### postProcessDelete
+### <a name="method-postProcessDelete"></a>postProcessDelete
 
     mixed AdminModulesControllerCore::postProcessDelete()
 
@@ -590,12 +652,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 664](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#664)
+* This method is defined in [controllers/admin/AdminModulesController.php line 664](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L664)
 
 
 
 
-### postProcessCallback
+### <a name="method-postProcessCallback"></a>postProcessCallback
 
     mixed AdminModulesControllerCore::postProcessCallback()
 
@@ -604,12 +666,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#696)
+* This method is defined in [controllers/admin/AdminModulesController.php line 696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L696)
 
 
 
 
-### getModulesByInstallation
+### <a name="method-getModulesByInstallation"></a>getModulesByInstallation
 
     mixed AdminModulesControllerCore::getModulesByInstallation($tab_modules_list)
 
@@ -618,7 +680,7 @@ Load cache file
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminModulesController.php line 1040](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1040)
+* This method is defined in [controllers/admin/AdminModulesController.php line 1040](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L1040)
 
 
 #### Arguments
@@ -626,7 +688,7 @@ Load cache file
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminModulesControllerCore::postProcess()
 
@@ -635,12 +697,12 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 1085](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1085)
+* This method is defined in [controllers/admin/AdminModulesController.php line 1085](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L1085)
 
 
 
 
-### generateHtmlMessage
+### <a name="method-generateHtmlMessage"></a>generateHtmlMessage
 
     string AdminModulesControllerCore::generateHtmlMessage($module_errors)
 
@@ -649,7 +711,7 @@ Generate html errors for a module process
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminModulesController.php line 1129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1129)
+* This method is defined in [controllers/admin/AdminModulesController.php line 1129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L1129)
 
 
 #### Arguments
@@ -657,7 +719,7 @@ Generate html errors for a module process
 
 
 
-### initModulesList
+### <a name="method-initModulesList"></a>initModulesList
 
     mixed AdminModulesControllerCore::initModulesList($modules)
 
@@ -666,7 +728,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 1149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1149)
+* This method is defined in [controllers/admin/AdminModulesController.php line 1149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L1149)
 
 
 #### Arguments
@@ -674,7 +736,7 @@ Generate html errors for a module process
 
 
 
-### makeModulesStats
+### <a name="method-makeModulesStats"></a>makeModulesStats
 
     mixed AdminModulesControllerCore::makeModulesStats($module)
 
@@ -683,7 +745,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 1173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1173)
+* This method is defined in [controllers/admin/AdminModulesController.php line 1173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L1173)
 
 
 #### Arguments
@@ -691,7 +753,7 @@ Generate html errors for a module process
 
 
 
-### isModuleFiltered
+### <a name="method-isModuleFiltered"></a>isModuleFiltered
 
     mixed AdminModulesControllerCore::isModuleFiltered($module)
 
@@ -700,7 +762,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 1193](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1193)
+* This method is defined in [controllers/admin/AdminModulesController.php line 1193](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L1193)
 
 
 #### Arguments
@@ -708,7 +770,7 @@ Generate html errors for a module process
 
 
 
-### renderKpis
+### <a name="method-renderKpis"></a>renderKpis
 
     mixed AdminModulesControllerCore::renderKpis()
 
@@ -717,12 +779,12 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 1296](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1296)
+* This method is defined in [controllers/admin/AdminModulesController.php line 1296](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L1296)
 
 
 
 
-### initModal
+### <a name="method-initModal"></a>initModal
 
     mixed AdminModulesControllerCore::initModal()
 
@@ -731,12 +793,12 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 1344](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1344)
+* This method is defined in [controllers/admin/AdminModulesController.php line 1344](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L1344)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminModulesControllerCore::initContent()
 
@@ -745,12 +807,12 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 1379](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1379)
+* This method is defined in [controllers/admin/AdminModulesController.php line 1379](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L1379)
 
 
 
 
-### ajaxProcessGetModuleQuickView
+### <a name="method-ajaxProcessGetModuleQuickView"></a>ajaxProcessGetModuleQuickView
 
     mixed AdminModulesControllerCore::ajaxProcessGetModuleQuickView()
 
@@ -759,7 +821,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminModulesController.php line 1634](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1634)
+* This method is defined in [controllers/admin/AdminModulesController.php line 1634](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#L1634)
 
 
 

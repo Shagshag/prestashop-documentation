@@ -17,8 +17,32 @@ AdminStoresControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [renderOptions](#method-renderOptions)
+* [initToolbar](#method-initToolbar)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderList](#method-renderList)
+* [renderForm](#method-renderForm)
+* [postProcess](#method-postProcess)
+* [postImage](#method-postImage)
+* [_getDefaultFieldsContent](#method-_getDefaultFieldsContent)
+* [_buildOrderedFieldsShop](#method-_buildOrderedFieldsShop)
+* [beforeUpdateOptions](#method-beforeUpdateOptions)
+* [updateOptionPsShopCountryId](#method-updateOptionPsShopCountryId)
+* [updateOptionPsShopStateId](#method-updateOptionPsShopStateId)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Store $object
 
@@ -27,14 +51,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminStoresController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#30)
+* This property is defined in [controllers/admin/AdminStoresController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminStoresControllerCore::__construct()
 
@@ -43,12 +67,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStoresController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#32)
+* This method is defined in [controllers/admin/AdminStoresController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L32)
 
 
 
 
-### renderOptions
+### <a name="method-renderOptions"></a>renderOptions
 
     mixed AdminStoresControllerCore::renderOptions()
 
@@ -57,12 +81,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStoresController.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#118)
+* This method is defined in [controllers/admin/AdminStoresController.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L118)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminStoresControllerCore::initToolbar()
 
@@ -71,12 +95,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStoresController.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#129)
+* This method is defined in [controllers/admin/AdminStoresController.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L129)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminStoresControllerCore::initPageHeaderToolbar()
 
@@ -85,12 +109,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStoresController.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#140)
+* This method is defined in [controllers/admin/AdminStoresController.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L140)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminStoresControllerCore::renderList()
 
@@ -99,12 +123,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStoresController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#153)
+* This method is defined in [controllers/admin/AdminStoresController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L153)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminStoresControllerCore::renderForm()
 
@@ -113,12 +137,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStoresController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#173)
+* This method is defined in [controllers/admin/AdminStoresController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L173)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminStoresControllerCore::postProcess()
 
@@ -127,12 +151,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStoresController.php line 352](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#352)
+* This method is defined in [controllers/admin/AdminStoresController.php line 352](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L352)
 
 
 
 
-### postImage
+### <a name="method-postImage"></a>postImage
 
     mixed AdminStoresControllerCore::postImage($id)
 
@@ -141,7 +165,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStoresController.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#412)
+* This method is defined in [controllers/admin/AdminStoresController.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L412)
 
 
 #### Arguments
@@ -149,7 +173,7 @@ Methods
 
 
 
-### _getDefaultFieldsContent
+### <a name="method-_getDefaultFieldsContent"></a>_getDefaultFieldsContent
 
     mixed AdminStoresControllerCore::_getDefaultFieldsContent()
 
@@ -158,12 +182,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStoresController.php line 436](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#436)
+* This method is defined in [controllers/admin/AdminStoresController.php line 436](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L436)
 
 
 
 
-### _buildOrderedFieldsShop
+### <a name="method-_buildOrderedFieldsShop"></a>_buildOrderedFieldsShop
 
     mixed AdminStoresControllerCore::_buildOrderedFieldsShop($formFields)
 
@@ -172,7 +196,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminStoresController.php line 525](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#525)
+* This method is defined in [controllers/admin/AdminStoresController.php line 525](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L525)
 
 
 #### Arguments
@@ -180,7 +204,7 @@ Methods
 
 
 
-### beforeUpdateOptions
+### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
     mixed AdminStoresControllerCore::beforeUpdateOptions()
 
@@ -189,12 +213,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStoresController.php line 559](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#559)
+* This method is defined in [controllers/admin/AdminStoresController.php line 559](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L559)
 
 
 
 
-### updateOptionPsShopCountryId
+### <a name="method-updateOptionPsShopCountryId"></a>updateOptionPsShopCountryId
 
     mixed AdminStoresControllerCore::updateOptionPsShopCountryId($value)
 
@@ -203,7 +227,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStoresController.php line 572](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#572)
+* This method is defined in [controllers/admin/AdminStoresController.php line 572](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L572)
 
 
 #### Arguments
@@ -211,7 +235,7 @@ Methods
 
 
 
-### updateOptionPsShopStateId
+### <a name="method-updateOptionPsShopStateId"></a>updateOptionPsShopStateId
 
     mixed AdminStoresControllerCore::updateOptionPsShopStateId($value)
 
@@ -220,7 +244,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminStoresController.php line 583](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#583)
+* This method is defined in [controllers/admin/AdminStoresController.php line 583](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStoresController.php#L583)
 
 
 #### Arguments

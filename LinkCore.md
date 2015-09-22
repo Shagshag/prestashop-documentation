@@ -16,8 +16,47 @@ LinkCore
 Properties
 ----------
 
+* [$allow](#property-$allow)
+* [$url](#property-$url)
+* [$cache](#property-$cache)
+* [$protocol_link](#property-$protocol_link)
+* [$protocol_content](#property-$protocol_content)
+* [$ssl_enable](#property-$ssl_enable)
+* [$category_disable_rewrite](#property-$category_disable_rewrite)
 
-### $allow
+Methods
+-------
+* [__construct](#method-__construct)
+* [getProductDeletePictureLink](#method-getProductDeletePictureLink)
+* [getProductLink](#method-getProductLink)
+* [getCategoryLink](#method-getCategoryLink)
+* [getCMSCategoryLink](#method-getCMSCategoryLink)
+* [getCMSLink](#method-getCMSLink)
+* [getSupplierLink](#method-getSupplierLink)
+* [getManufacturerLink](#method-getManufacturerLink)
+* [getModuleLink](#method-getModuleLink)
+* [getAdminLink](#method-getAdminLink)
+* [getImageLink](#method-getImageLink)
+* [getMediaLink](#method-getMediaLink)
+* [getPageLink](#method-getPageLink)
+* [getCatImageLink](#method-getCatImageLink)
+* [getLanguageLink](#method-getLanguageLink)
+* [goPage](#method-goPage)
+* [getPaginationLink](#method-getPaginationLink)
+* [addSortDetails](#method-addSortDetails)
+* [getLangLink](#method-getLangLink)
+* [getBaseLink](#method-getBaseLink)
+* [getQuickLink](#method-getQuickLink)
+* [matchQuickLink](#method-matchQuickLink)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$allow"></a>$allow
 
     protected boolean $allow
 
@@ -26,10 +65,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Link.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#30)
+* This property is defined in [classes/Link.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L30)
 
 
-### $url
+### <a name="property-$url"></a>$url
 
     protected mixed $url
 
@@ -38,10 +77,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Link.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#31)
+* This property is defined in [classes/Link.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L31)
 
 
-### $cache
+### <a name="property-$cache"></a>$cache
 
     public mixed $cache = array('page' => array())
 
@@ -51,10 +90,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Link.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#32)
+* This property is defined in [classes/Link.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L32)
 
 
-### $protocol_link
+### <a name="property-$protocol_link"></a>$protocol_link
 
     public mixed $protocol_link
 
@@ -63,10 +102,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Link.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#34)
+* This property is defined in [classes/Link.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L34)
 
 
-### $protocol_content
+### <a name="property-$protocol_content"></a>$protocol_content
 
     public mixed $protocol_content
 
@@ -75,10 +114,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Link.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#35)
+* This property is defined in [classes/Link.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L35)
 
 
-### $ssl_enable
+### <a name="property-$ssl_enable"></a>$ssl_enable
 
     protected mixed $ssl_enable
 
@@ -87,10 +126,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/Link.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#37)
+* This property is defined in [classes/Link.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L37)
 
 
-### $category_disable_rewrite
+### <a name="property-$category_disable_rewrite"></a>$category_disable_rewrite
 
     protected mixed $category_disable_rewrite = null
 
@@ -100,14 +139,14 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/Link.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#39)
+* This property is defined in [classes/Link.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L39)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed LinkCore::__construct($protocol_link, $protocol_content)
 
@@ -116,7 +155,7 @@ Constructor (initialization only)
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#44)
+* This method is defined in [classes/Link.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L44)
 
 
 #### Arguments
@@ -125,7 +164,7 @@ Constructor (initialization only)
 
 
 
-### getProductDeletePictureLink
+### <a name="method-getProductDeletePictureLink"></a>getProductDeletePictureLink
 
     string LinkCore::getProductDeletePictureLink(mixed $product, integer $id_picture)
 
@@ -134,7 +173,7 @@ Create a link to delete a product
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#72)
+* This method is defined in [classes/Link.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L72)
 
 
 #### Arguments
@@ -143,7 +182,7 @@ Create a link to delete a product
 
 
 
-### getProductLink
+### <a name="method-getProductLink"></a>getProductLink
 
     string LinkCore::getProductLink(mixed $product, string $alias, string $category, string $ean13, integer $id_lang, integer $id_shop, integer $ipa, $force_routes, $relative_protocol, $add_anchor)
 
@@ -152,7 +191,7 @@ Create a link to a product
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#90)
+* This method is defined in [classes/Link.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L90)
 
 
 #### Arguments
@@ -169,7 +208,7 @@ Create a link to a product
 
 
 
-### getCategoryLink
+### <a name="method-getCategoryLink"></a>getCategoryLink
 
     string LinkCore::getCategoryLink(mixed $category, string $alias, integer $id_lang, string $selected_filters, $id_shop, $relative_protocol)
 
@@ -178,7 +217,7 @@ Create a link to a category
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#168)
+* This method is defined in [classes/Link.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L168)
 
 
 #### Arguments
@@ -191,7 +230,7 @@ Create a link to a category
 
 
 
-### getCMSCategoryLink
+### <a name="method-getCMSCategoryLink"></a>getCMSCategoryLink
 
     string LinkCore::getCMSCategoryLink($cms_category, string $alias, integer $id_lang, $id_shop, $relative_protocol)
 
@@ -200,7 +239,7 @@ Create a link to a CMS category
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 208](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#208)
+* This method is defined in [classes/Link.php line 208](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L208)
 
 
 #### Arguments
@@ -212,7 +251,7 @@ Create a link to a CMS category
 
 
 
-### getCMSLink
+### <a name="method-getCMSLink"></a>getCMSLink
 
     string LinkCore::getCMSLink(mixed $cms, string $alias, boolean $ssl, integer $id_lang, $id_shop, $relative_protocol)
 
@@ -221,7 +260,7 @@ Create a link to a CMS page
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#252)
+* This method is defined in [classes/Link.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L252)
 
 
 #### Arguments
@@ -234,7 +273,7 @@ Create a link to a CMS page
 
 
 
-### getSupplierLink
+### <a name="method-getSupplierLink"></a>getSupplierLink
 
     string LinkCore::getSupplierLink(mixed $supplier, string $alias, integer $id_lang, $id_shop, $relative_protocol)
 
@@ -243,7 +282,7 @@ Create a link to a supplier
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#294)
+* This method is defined in [classes/Link.php line 294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L294)
 
 
 #### Arguments
@@ -255,7 +294,7 @@ Create a link to a supplier
 
 
 
-### getManufacturerLink
+### <a name="method-getManufacturerLink"></a>getManufacturerLink
 
     string LinkCore::getManufacturerLink(mixed $manufacturer, string $alias, integer $id_lang, $id_shop, $relative_protocol)
 
@@ -264,7 +303,7 @@ Create a link to a manufacturer
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 328](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#328)
+* This method is defined in [classes/Link.php line 328](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L328)
 
 
 #### Arguments
@@ -276,7 +315,7 @@ Create a link to a manufacturer
 
 
 
-### getModuleLink
+### <a name="method-getModuleLink"></a>getModuleLink
 
     string LinkCore::getModuleLink(string $module, $controller, array $params, $ssl, integer $id_lang, $id_shop, $relative_protocol)
 
@@ -285,7 +324,7 @@ Create a link to a module
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 363](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#363)
+* This method is defined in [classes/Link.php line 363](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L363)
 
 
 #### Arguments
@@ -299,7 +338,7 @@ Create a link to a module
 
 
 
-### getAdminLink
+### <a name="method-getAdminLink"></a>getAdminLink
 
     string LinkCore::getAdminLink(string $controller, boolean $with_token)
 
@@ -308,7 +347,7 @@ Use controller name to create a link
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#390)
+* This method is defined in [classes/Link.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L390)
 
 
 #### Arguments
@@ -317,7 +356,7 @@ Use controller name to create a link
 
 
 
-### getImageLink
+### <a name="method-getImageLink"></a>getImageLink
 
     mixed LinkCore::getImageLink(string $name, string $ids, string $type)
 
@@ -327,7 +366,7 @@ Note: the new image filesystem stores product images in subdirectories of img/p/
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 406](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#406)
+* This method is defined in [classes/Link.php line 406](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L406)
 
 
 #### Arguments
@@ -337,7 +376,7 @@ Note: the new image filesystem stores product images in subdirectories of img/p/
 
 
 
-### getMediaLink
+### <a name="method-getMediaLink"></a>getMediaLink
 
     mixed LinkCore::getMediaLink($filepath)
 
@@ -346,7 +385,7 @@ Note: the new image filesystem stores product images in subdirectories of img/p/
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#440)
+* This method is defined in [classes/Link.php line 440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L440)
 
 
 #### Arguments
@@ -354,7 +393,7 @@ Note: the new image filesystem stores product images in subdirectories of img/p/
 
 
 
-### getPageLink
+### <a name="method-getPageLink"></a>getPageLink
 
     string LinkCore::getPageLink(string $controller, boolean $ssl, integer $id_lang, string|array $request, boolean $request_url_encode, $id_shop, $relative_protocol)
 
@@ -363,7 +402,7 @@ Create a simple link
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 456](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#456)
+* This method is defined in [classes/Link.php line 456](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L456)
 
 
 #### Arguments
@@ -377,7 +416,7 @@ Create a simple link
 
 
 
-### getCatImageLink
+### <a name="method-getCatImageLink"></a>getCatImageLink
 
     mixed LinkCore::getCatImageLink($name, $id_category, $type)
 
@@ -386,7 +425,7 @@ Create a simple link
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#493)
+* This method is defined in [classes/Link.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L493)
 
 
 #### Arguments
@@ -396,7 +435,7 @@ Create a simple link
 
 
 
-### getLanguageLink
+### <a name="method-getLanguageLink"></a>getLanguageLink
 
     string LinkCore::getLanguageLink(integer $id_lang, \Context $context)
 
@@ -405,7 +444,7 @@ Create link after language change, for the change language block
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 509](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#509)
+* This method is defined in [classes/Link.php line 509](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L509)
 
 
 #### Arguments
@@ -414,7 +453,7 @@ Create link after language change, for the change language block
 
 
 
-### goPage
+### <a name="method-goPage"></a>goPage
 
     mixed LinkCore::goPage($url, $p)
 
@@ -423,7 +462,7 @@ Create link after language change, for the change language block
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 553](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#553)
+* This method is defined in [classes/Link.php line 553](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L553)
 
 
 #### Arguments
@@ -432,7 +471,7 @@ Create link after language change, for the change language block
 
 
 
-### getPaginationLink
+### <a name="method-getPaginationLink"></a>getPaginationLink
 
     mixed LinkCore::getPaginationLink(string $type, integer $id_object, boolean $nb, boolean $sort, boolean $pagination, boolean $array)
 
@@ -441,7 +480,7 @@ Get pagination link
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 569](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#569)
+* This method is defined in [classes/Link.php line 569](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L569)
 
 
 #### Arguments
@@ -454,7 +493,7 @@ Get pagination link
 
 
 
-### addSortDetails
+### <a name="method-addSortDetails"></a>addSortDetails
 
     mixed LinkCore::addSortDetails($url, $orderby, $orderway)
 
@@ -463,7 +502,7 @@ Get pagination link
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 637](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#637)
+* This method is defined in [classes/Link.php line 637](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L637)
 
 
 #### Arguments
@@ -473,7 +512,7 @@ Get pagination link
 
 
 
-### getLangLink
+### <a name="method-getLangLink"></a>getLangLink
 
     mixed LinkCore::getLangLink($id_lang, \Context $context, $id_shop)
 
@@ -482,7 +521,7 @@ Get pagination link
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Link.php line 642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#642)
+* This method is defined in [classes/Link.php line 642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L642)
 
 
 #### Arguments
@@ -492,7 +531,7 @@ Get pagination link
 
 
 
-### getBaseLink
+### <a name="method-getBaseLink"></a>getBaseLink
 
     mixed LinkCore::getBaseLink($id_shop, $ssl, $relative_protocol)
 
@@ -501,7 +540,7 @@ Get pagination link
 
 
 * Visibility: **protected**
-* This method is defined in [classes/Link.php line 659](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#659)
+* This method is defined in [classes/Link.php line 659](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L659)
 
 
 #### Arguments
@@ -511,7 +550,7 @@ Get pagination link
 
 
 
-### getQuickLink
+### <a name="method-getQuickLink"></a>getQuickLink
 
     mixed LinkCore::getQuickLink($url)
 
@@ -521,7 +560,7 @@ Get pagination link
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Link.php line 685](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#685)
+* This method is defined in [classes/Link.php line 685](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L685)
 
 
 #### Arguments
@@ -529,7 +568,7 @@ Get pagination link
 
 
 
-### matchQuickLink
+### <a name="method-matchQuickLink"></a>matchQuickLink
 
     mixed LinkCore::matchQuickLink($url)
 
@@ -538,7 +577,7 @@ Get pagination link
 
 
 * Visibility: **public**
-* This method is defined in [classes/Link.php line 696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#696)
+* This method is defined in [classes/Link.php line 696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#L696)
 
 
 #### Arguments

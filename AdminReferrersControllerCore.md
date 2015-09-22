@@ -17,8 +17,30 @@ AdminReferrersControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [setMedia](#method-setMedia)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [renderList](#method-renderList)
+* [renderForm](#method-renderForm)
+* [displayCalendar](#method-displayCalendar)
+* [displayCalendarForm](#method-displayCalendarForm)
+* [displaySettings](#method-displaySettings)
+* [enableCalendar](#method-enableCalendar)
+* [postProcess](#method-postProcess)
+* [renderView](#method-renderView)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Referrer $object
 
@@ -27,14 +49,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminReferrersController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#59)
+* This property is defined in [controllers/admin/AdminReferrersController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L59)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminReferrersControllerCore::__construct()
 
@@ -43,12 +65,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminReferrersController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#61)
+* This method is defined in [controllers/admin/AdminReferrersController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L61)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminReferrersControllerCore::setMedia()
 
@@ -57,12 +79,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminReferrersController.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#160)
+* This method is defined in [controllers/admin/AdminReferrersController.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L160)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminReferrersControllerCore::initPageHeaderToolbar()
 
@@ -71,12 +93,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminReferrersController.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#166)
+* This method is defined in [controllers/admin/AdminReferrersController.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L166)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminReferrersControllerCore::renderList()
 
@@ -85,12 +107,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminReferrersController.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#179)
+* This method is defined in [controllers/admin/AdminReferrersController.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L179)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminReferrersControllerCore::renderForm()
 
@@ -99,12 +121,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminReferrersController.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#205)
+* This method is defined in [controllers/admin/AdminReferrersController.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L205)
 
 
 
 
-### displayCalendar
+### <a name="method-displayCalendar"></a>displayCalendar
 
     mixed AdminReferrersControllerCore::displayCalendar($action, $table, $identifier, $id)
 
@@ -113,7 +135,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminReferrersController.php line 385](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#385)
+* This method is defined in [controllers/admin/AdminReferrersController.php line 385](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L385)
 
 
 #### Arguments
@@ -124,7 +146,7 @@ Methods
 
 
 
-### displayCalendarForm
+### <a name="method-displayCalendarForm"></a>displayCalendarForm
 
     mixed AdminReferrersControllerCore::displayCalendarForm($translations, $token, $action, $table, $identifier, $id)
 
@@ -134,7 +156,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [controllers/admin/AdminReferrersController.php line 395](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#395)
+* This method is defined in [controllers/admin/AdminReferrersController.php line 395](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L395)
 
 
 #### Arguments
@@ -147,7 +169,7 @@ Methods
 
 
 
-### displaySettings
+### <a name="method-displaySettings"></a>displaySettings
 
     mixed AdminReferrersControllerCore::displaySettings()
 
@@ -156,12 +178,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminReferrersController.php line 417](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#417)
+* This method is defined in [controllers/admin/AdminReferrersController.php line 417](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L417)
 
 
 
 
-### enableCalendar
+### <a name="method-enableCalendar"></a>enableCalendar
 
     mixed AdminReferrersControllerCore::enableCalendar()
 
@@ -170,12 +192,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminReferrersController.php line 439](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#439)
+* This method is defined in [controllers/admin/AdminReferrersController.php line 439](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L439)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminReferrersControllerCore::postProcess()
 
@@ -184,12 +206,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminReferrersController.php line 444](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#444)
+* This method is defined in [controllers/admin/AdminReferrersController.php line 444](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L444)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminReferrersControllerCore::renderView()
 
@@ -198,7 +220,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminReferrersController.php line 472](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#472)
+* This method is defined in [controllers/admin/AdminReferrersController.php line 472](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#L472)
 
 
 

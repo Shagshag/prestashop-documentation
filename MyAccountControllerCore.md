@@ -17,8 +17,24 @@ MyAccountControllerCore
 Properties
 ----------
 
+* [$auth](#property-$auth)
+* [$php_self](#property-$php_self)
+* [$authRedirection](#property-$authRedirection)
+* [$ssl](#property-$ssl)
 
-### $auth
+Methods
+-------
+* [setMedia](#method-setMedia)
+* [initContent](#method-initContent)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$auth"></a>$auth
 
     public mixed $auth = true
 
@@ -27,10 +43,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/MyAccountController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#29)
+* This property is defined in [controllers/front/MyAccountController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#L29)
 
 
-### $php_self
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'my-account'
 
@@ -39,10 +55,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/MyAccountController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#30)
+* This property is defined in [controllers/front/MyAccountController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#L30)
 
 
-### $authRedirection
+### <a name="property-$authRedirection"></a>$authRedirection
 
     public mixed $authRedirection = 'my-account'
 
@@ -51,10 +67,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/MyAccountController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#31)
+* This property is defined in [controllers/front/MyAccountController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#L31)
 
 
-### $ssl
+### <a name="property-$ssl"></a>$ssl
 
     public mixed $ssl = true
 
@@ -63,14 +79,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/MyAccountController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#32)
+* This property is defined in [controllers/front/MyAccountController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#L32)
 
 
 Methods
 -------
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed MyAccountControllerCore::setMedia()
 
@@ -79,12 +95,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/MyAccountController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#34)
+* This method is defined in [controllers/front/MyAccountController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#L34)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed MyAccountControllerCore::initContent()
 
@@ -93,7 +109,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/MyAccountController.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#44)
+* This method is defined in [controllers/front/MyAccountController.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#L44)
 
 
 

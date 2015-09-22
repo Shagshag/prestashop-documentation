@@ -17,8 +17,37 @@ ConfigurationKPICore
 Properties
 ----------
 
+* [$definition_backup](#property-$definition_backup)
 
-### $definition_backup
+Methods
+-------
+* [setKpiDefinition](#method-setKpiDefinition)
+* [unsetKpiDefinition](#method-unsetKpiDefinition)
+* [getIdByName](#method-getIdByName)
+* [loadConfiguration](#method-loadConfiguration)
+* [get](#method-get)
+* [getGlobalValue](#method-getGlobalValue)
+* [getInt](#method-getInt)
+* [getMultiple](#method-getMultiple)
+* [hasKey](#method-hasKey)
+* [set](#method-set)
+* [updateGlobalValue](#method-updateGlobalValue)
+* [updateValue](#method-updateValue)
+* [deleteByName](#method-deleteByName)
+* [deleteFromContext](#method-deleteFromContext)
+* [hasContext](#method-hasContext)
+* [isOverridenByCurrentContext](#method-isOverridenByCurrentContext)
+* [isLangKey](#method-isLangKey)
+* [sqlRestriction](#method-sqlRestriction)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$definition_backup"></a>$definition_backup
 
     public mixed $definition_backup
 
@@ -28,14 +57,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/ConfigurationKPI.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#29)
+* This property is defined in [classes/ConfigurationKPI.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L29)
 
 
 Methods
 -------
 
 
-### setKpiDefinition
+### <a name="method-setKpiDefinition"></a>setKpiDefinition
 
     mixed ConfigurationKPICore::setKpiDefinition()
 
@@ -45,12 +74,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#31)
+* This method is defined in [classes/ConfigurationKPI.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L31)
 
 
 
 
-### unsetKpiDefinition
+### <a name="method-unsetKpiDefinition"></a>unsetKpiDefinition
 
     mixed ConfigurationKPICore::unsetKpiDefinition()
 
@@ -60,12 +89,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#38)
+* This method is defined in [classes/ConfigurationKPI.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L38)
 
 
 
 
-### getIdByName
+### <a name="method-getIdByName"></a>getIdByName
 
     mixed ConfigurationKPICore::getIdByName($key, $id_shop_group, $id_shop)
 
@@ -75,7 +104,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#43)
+* This method is defined in [classes/ConfigurationKPI.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L43)
 
 
 #### Arguments
@@ -85,7 +114,7 @@ Methods
 
 
 
-### loadConfiguration
+### <a name="method-loadConfiguration"></a>loadConfiguration
 
     mixed ConfigurationKPICore::loadConfiguration()
 
@@ -95,12 +124,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#51)
+* This method is defined in [classes/ConfigurationKPI.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L51)
 
 
 
 
-### get
+### <a name="method-get"></a>get
 
     mixed ConfigurationKPICore::get($key, $id_lang, $id_shop_group, $id_shop)
 
@@ -110,7 +139,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#59)
+* This method is defined in [classes/ConfigurationKPI.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L59)
 
 
 #### Arguments
@@ -121,7 +150,7 @@ Methods
 
 
 
-### getGlobalValue
+### <a name="method-getGlobalValue"></a>getGlobalValue
 
     mixed ConfigurationKPICore::getGlobalValue($key, $id_lang)
 
@@ -131,7 +160,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#67)
+* This method is defined in [classes/ConfigurationKPI.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L67)
 
 
 #### Arguments
@@ -140,7 +169,7 @@ Methods
 
 
 
-### getInt
+### <a name="method-getInt"></a>getInt
 
     mixed ConfigurationKPICore::getInt($key, $id_shop_group, $id_shop)
 
@@ -150,7 +179,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#75)
+* This method is defined in [classes/ConfigurationKPI.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L75)
 
 
 #### Arguments
@@ -160,7 +189,7 @@ Methods
 
 
 
-### getMultiple
+### <a name="method-getMultiple"></a>getMultiple
 
     mixed ConfigurationKPICore::getMultiple($keys, $id_lang, $id_shop_group, $id_shop)
 
@@ -170,7 +199,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#83)
+* This method is defined in [classes/ConfigurationKPI.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L83)
 
 
 #### Arguments
@@ -181,7 +210,7 @@ Methods
 
 
 
-### hasKey
+### <a name="method-hasKey"></a>hasKey
 
     mixed ConfigurationKPICore::hasKey($key, $id_lang, $id_shop_group, $id_shop)
 
@@ -191,7 +220,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#91)
+* This method is defined in [classes/ConfigurationKPI.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L91)
 
 
 #### Arguments
@@ -202,7 +231,7 @@ Methods
 
 
 
-### set
+### <a name="method-set"></a>set
 
     mixed ConfigurationKPICore::set($key, $values, $id_shop_group, $id_shop)
 
@@ -212,7 +241,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#99)
+* This method is defined in [classes/ConfigurationKPI.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L99)
 
 
 #### Arguments
@@ -223,7 +252,7 @@ Methods
 
 
 
-### updateGlobalValue
+### <a name="method-updateGlobalValue"></a>updateGlobalValue
 
     mixed ConfigurationKPICore::updateGlobalValue($key, $values, $html)
 
@@ -233,7 +262,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#107)
+* This method is defined in [classes/ConfigurationKPI.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L107)
 
 
 #### Arguments
@@ -243,7 +272,7 @@ Methods
 
 
 
-### updateValue
+### <a name="method-updateValue"></a>updateValue
 
     mixed ConfigurationKPICore::updateValue($key, $values, $html, $id_shop_group, $id_shop)
 
@@ -253,7 +282,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#115)
+* This method is defined in [classes/ConfigurationKPI.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L115)
 
 
 #### Arguments
@@ -265,7 +294,7 @@ Methods
 
 
 
-### deleteByName
+### <a name="method-deleteByName"></a>deleteByName
 
     mixed ConfigurationKPICore::deleteByName($key)
 
@@ -275,7 +304,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#123)
+* This method is defined in [classes/ConfigurationKPI.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L123)
 
 
 #### Arguments
@@ -283,7 +312,7 @@ Methods
 
 
 
-### deleteFromContext
+### <a name="method-deleteFromContext"></a>deleteFromContext
 
     mixed ConfigurationKPICore::deleteFromContext($key)
 
@@ -293,7 +322,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#131)
+* This method is defined in [classes/ConfigurationKPI.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L131)
 
 
 #### Arguments
@@ -301,7 +330,7 @@ Methods
 
 
 
-### hasContext
+### <a name="method-hasContext"></a>hasContext
 
     mixed ConfigurationKPICore::hasContext($key, $id_lang, $context)
 
@@ -311,7 +340,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#139)
+* This method is defined in [classes/ConfigurationKPI.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L139)
 
 
 #### Arguments
@@ -321,7 +350,7 @@ Methods
 
 
 
-### isOverridenByCurrentContext
+### <a name="method-isOverridenByCurrentContext"></a>isOverridenByCurrentContext
 
     mixed ConfigurationKPICore::isOverridenByCurrentContext($key)
 
@@ -331,7 +360,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#147)
+* This method is defined in [classes/ConfigurationKPI.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L147)
 
 
 #### Arguments
@@ -339,7 +368,7 @@ Methods
 
 
 
-### isLangKey
+### <a name="method-isLangKey"></a>isLangKey
 
     mixed ConfigurationKPICore::isLangKey($key)
 
@@ -349,7 +378,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#155)
+* This method is defined in [classes/ConfigurationKPI.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L155)
 
 
 #### Arguments
@@ -357,7 +386,7 @@ Methods
 
 
 
-### sqlRestriction
+### <a name="method-sqlRestriction"></a>sqlRestriction
 
     mixed ConfigurationKPICore::sqlRestriction($id_shop_group, $id_shop)
 
@@ -367,7 +396,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in [classes/ConfigurationKPI.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#163)
+* This method is defined in [classes/ConfigurationKPI.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#L163)
 
 
 #### Arguments

@@ -17,8 +17,20 @@ AdminMaintenanceControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Configuration $object
 
@@ -27,14 +39,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminMaintenanceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMaintenanceController.php#30)
+* This property is defined in [controllers/admin/AdminMaintenanceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMaintenanceController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminMaintenanceControllerCore::__construct()
 
@@ -43,7 +55,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminMaintenanceController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMaintenanceController.php#32)
+* This method is defined in [controllers/admin/AdminMaintenanceController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMaintenanceController.php#L32)
 
 
 

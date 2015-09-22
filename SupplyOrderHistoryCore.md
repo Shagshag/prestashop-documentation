@@ -17,8 +17,24 @@ SupplyOrderHistoryCore
 Properties
 ----------
 
+* [$id_supply_order](#property-$id_supply_order)
+* [$id_employee](#property-$id_employee)
+* [$employee_firstname](#property-$employee_firstname)
+* [$employee_lastname](#property-$employee_lastname)
+* [$id_state](#property-$id_state)
+* [$date_add](#property-$date_add)
+* [$definition](#property-$definition)
+* [$webserviceParameters](#property-$webserviceParameters)
 
-### $id_supply_order
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_supply_order"></a>$id_supply_order
 
     public integer $id_supply_order
 
@@ -27,10 +43,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderHistory.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#35)
+* This property is defined in [classes/stock/SupplyOrderHistory.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L35)
 
 
-### $id_employee
+### <a name="property-$id_employee"></a>$id_employee
 
     public integer $id_employee
 
@@ -39,10 +55,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderHistory.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#40)
+* This property is defined in [classes/stock/SupplyOrderHistory.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L40)
 
 
-### $employee_firstname
+### <a name="property-$employee_firstname"></a>$employee_firstname
 
     public string $employee_firstname
 
@@ -51,10 +67,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderHistory.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#45)
+* This property is defined in [classes/stock/SupplyOrderHistory.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L45)
 
 
-### $employee_lastname
+### <a name="property-$employee_lastname"></a>$employee_lastname
 
     public string $employee_lastname
 
@@ -63,10 +79,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderHistory.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#50)
+* This property is defined in [classes/stock/SupplyOrderHistory.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L50)
 
 
-### $id_state
+### <a name="property-$id_state"></a>$id_state
 
     public integer $id_state
 
@@ -75,10 +91,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderHistory.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#55)
+* This property is defined in [classes/stock/SupplyOrderHistory.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L55)
 
 
-### $date_add
+### <a name="property-$date_add"></a>$date_add
 
     public string $date_add
 
@@ -87,10 +103,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/stock/SupplyOrderHistory.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#60)
+* This property is defined in [classes/stock/SupplyOrderHistory.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L60)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'supply_order_history', 'primary' => 'id_supply_order_history', 'fields' => array('id_supply_order' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_employee' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'employee_firstname' => array('type' => self::TYPE_STRING, 'validate' => 'isName'), 'employee_lastname' => array('type' => self::TYPE_STRING, 'validate' => 'isName'), 'id_state' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true)))
 
@@ -100,10 +116,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/stock/SupplyOrderHistory.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#65)
+* This property is defined in [classes/stock/SupplyOrderHistory.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L65)
 
 
-### $webserviceParameters
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
 
     protected mixed $webserviceParameters = array('objectsNodeName' => 'supply_order_histories', 'objectNodeName' => 'supply_order_history', 'fields' => array('id_supply_order' => array('xlink_resource' => 'supply_orders'), 'id_employee' => array('xlink_resource' => 'employees'), 'id_state' => array('xlink_resource' => 'supply_order_states')))
 
@@ -112,7 +128,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/stock/SupplyOrderHistory.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#81)
+* This property is defined in [classes/stock/SupplyOrderHistory.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderHistory.php#L81)
 
 
 

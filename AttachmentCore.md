@@ -17,8 +17,35 @@ AttachmentCore
 Properties
 ----------
 
+* [$file](#property-$file)
+* [$file_name](#property-$file_name)
+* [$file_size](#property-$file_size)
+* [$name](#property-$name)
+* [$mime](#property-$mime)
+* [$description](#property-$description)
+* [$position](#property-$position)
+* [$definition](#property-$definition)
 
-### $file
+Methods
+-------
+* [add](#method-add)
+* [update](#method-update)
+* [delete](#method-delete)
+* [deleteSelection](#method-deleteSelection)
+* [getAttachments](#method-getAttachments)
+* [deleteProductAttachments](#method-deleteProductAttachments)
+* [attachProduct](#method-attachProduct)
+* [attachToProduct](#method-attachToProduct)
+* [getProductAttached](#method-getProductAttached)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$file"></a>$file
 
     public mixed $file
 
@@ -27,10 +54,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Attachment.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#29)
+* This property is defined in [classes/Attachment.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L29)
 
 
-### $file_name
+### <a name="property-$file_name"></a>$file_name
 
     public mixed $file_name
 
@@ -39,10 +66,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Attachment.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#30)
+* This property is defined in [classes/Attachment.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L30)
 
 
-### $file_size
+### <a name="property-$file_size"></a>$file_size
 
     public mixed $file_size
 
@@ -51,10 +78,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Attachment.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#31)
+* This property is defined in [classes/Attachment.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L31)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public mixed $name
 
@@ -63,10 +90,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Attachment.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#32)
+* This property is defined in [classes/Attachment.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L32)
 
 
-### $mime
+### <a name="property-$mime"></a>$mime
 
     public mixed $mime
 
@@ -75,10 +102,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Attachment.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#33)
+* This property is defined in [classes/Attachment.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L33)
 
 
-### $description
+### <a name="property-$description"></a>$description
 
     public mixed $description
 
@@ -87,10 +114,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Attachment.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#34)
+* This property is defined in [classes/Attachment.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L34)
 
 
-### $position
+### <a name="property-$position"></a>$position
 
     public integer $position
 
@@ -99,10 +126,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Attachment.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#37)
+* This property is defined in [classes/Attachment.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L37)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'attachment', 'primary' => 'id_attachment', 'multilang' => true, 'fields' => array('file' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'required' => true, 'size' => 40), 'mime' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 128), 'file_name' => array('type' => self::TYPE_STRING, 'validate' => 'isGenericName', 'size' => 128), 'file_size' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 32), 'description' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml')))
 
@@ -112,14 +139,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Attachment.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#42)
+* This property is defined in [classes/Attachment.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L42)
 
 
 Methods
 -------
 
 
-### add
+### <a name="method-add"></a>add
 
     mixed AttachmentCore::add($autodate, $null_values)
 
@@ -128,7 +155,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Attachment.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#58)
+* This method is defined in [classes/Attachment.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L58)
 
 
 #### Arguments
@@ -137,7 +164,7 @@ Methods
 
 
 
-### update
+### <a name="method-update"></a>update
 
     mixed AttachmentCore::update($null_values)
 
@@ -146,7 +173,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Attachment.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#64)
+* This method is defined in [classes/Attachment.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L64)
 
 
 #### Arguments
@@ -154,7 +181,7 @@ Methods
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed AttachmentCore::delete()
 
@@ -163,12 +190,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Attachment.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#70)
+* This method is defined in [classes/Attachment.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L70)
 
 
 
 
-### deleteSelection
+### <a name="method-deleteSelection"></a>deleteSelection
 
     mixed AttachmentCore::deleteSelection($attachments)
 
@@ -177,7 +204,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [classes/Attachment.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#88)
+* This method is defined in [classes/Attachment.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L88)
 
 
 #### Arguments
@@ -185,7 +212,7 @@ Methods
 
 
 
-### getAttachments
+### <a name="method-getAttachments"></a>getAttachments
 
     mixed AttachmentCore::getAttachments($id_lang, $id_product, $include)
 
@@ -195,7 +222,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Attachment.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#98)
+* This method is defined in [classes/Attachment.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L98)
 
 
 #### Arguments
@@ -205,7 +232,7 @@ Methods
 
 
 
-### deleteProductAttachments
+### <a name="method-deleteProductAttachments"></a>deleteProductAttachments
 
     boolean AttachmentCore::deleteProductAttachments($id_product)
 
@@ -215,7 +242,7 @@ Unassociate $id_product from the current object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Attachment.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#119)
+* This method is defined in [classes/Attachment.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L119)
 
 
 #### Arguments
@@ -223,7 +250,7 @@ Unassociate $id_product from the current object
 
 
 
-### attachProduct
+### <a name="method-attachProduct"></a>attachProduct
 
     boolean AttachmentCore::attachProduct(integer $id_product)
 
@@ -232,7 +259,7 @@ associate $id_product to the current object.
 
 
 * Visibility: **public**
-* This method is defined in [classes/Attachment.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#136)
+* This method is defined in [classes/Attachment.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L136)
 
 
 #### Arguments
@@ -240,7 +267,7 @@ associate $id_product to the current object.
 
 
 
-### attachToProduct
+### <a name="method-attachToProduct"></a>attachToProduct
 
     boolean AttachmentCore::attachToProduct($id_product, $array)
 
@@ -251,7 +278,7 @@ and remove eventual previous association
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Attachment.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#156)
+* This method is defined in [classes/Attachment.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L156)
 
 
 #### Arguments
@@ -260,7 +287,7 @@ and remove eventual previous association
 
 
 
-### getProductAttached
+### <a name="method-getProductAttached"></a>getProductAttached
 
     mixed AttachmentCore::getProductAttached($id_lang, $list)
 
@@ -270,7 +297,7 @@ and remove eventual previous association
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Attachment.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#181)
+* This method is defined in [classes/Attachment.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#L181)
 
 
 #### Arguments

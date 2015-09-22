@@ -17,8 +17,31 @@ AdminCurrenciesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [renderList](#method-renderList)
+* [renderForm](#method-renderForm)
+* [checkDeletion](#method-checkDeletion)
+* [checkDisableStatus](#method-checkDisableStatus)
+* [processDelete](#method-processDelete)
+* [processBulkDelete](#method-processBulkDelete)
+* [processStatus](#method-processStatus)
+* [processBulkDisableSelection](#method-processBulkDisableSelection)
+* [processExchangeRates](#method-processExchangeRates)
+* [initProcess](#method-initProcess)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \Currency $object
 
@@ -27,14 +50,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminCurrenciesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#30)
+* This property is defined in [controllers/admin/AdminCurrenciesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminCurrenciesControllerCore::__construct()
 
@@ -43,12 +66,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCurrenciesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#32)
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L32)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminCurrenciesControllerCore::renderList()
 
@@ -57,12 +80,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCurrenciesController.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#82)
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L82)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminCurrenciesControllerCore::renderForm()
 
@@ -71,12 +94,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCurrenciesController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#92)
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L92)
 
 
 
 
-### checkDeletion
+### <a name="method-checkDeletion"></a>checkDeletion
 
     mixed AdminCurrenciesControllerCore::checkDeletion($object)
 
@@ -85,7 +108,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCurrenciesController.php line 237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#237)
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L237)
 
 
 #### Arguments
@@ -93,7 +116,7 @@ Methods
 
 
 
-### checkDisableStatus
+### <a name="method-checkDisableStatus"></a>checkDisableStatus
 
     mixed AdminCurrenciesControllerCore::checkDisableStatus($object)
 
@@ -102,7 +125,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCurrenciesController.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#253)
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L253)
 
 
 #### Arguments
@@ -110,7 +133,7 @@ Methods
 
 
 
-### processDelete
+### <a name="method-processDelete"></a>processDelete
 
     mixed AdminCurrenciesControllerCore::processDelete()
 
@@ -119,12 +142,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCurrenciesController.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#272)
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L272)
 
 
 
 
-### processBulkDelete
+### <a name="method-processBulkDelete"></a>processBulkDelete
 
     mixed AdminCurrenciesControllerCore::processBulkDelete()
 
@@ -133,12 +156,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCurrenciesController.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#281)
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L281)
 
 
 
 
-### processStatus
+### <a name="method-processStatus"></a>processStatus
 
     mixed AdminCurrenciesControllerCore::processStatus()
 
@@ -147,12 +170,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCurrenciesController.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#298)
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L298)
 
 
 
 
-### processBulkDisableSelection
+### <a name="method-processBulkDisableSelection"></a>processBulkDisableSelection
 
     mixed AdminCurrenciesControllerCore::processBulkDisableSelection()
 
@@ -161,12 +184,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCurrenciesController.php line 308](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#308)
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 308](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L308)
 
 
 
 
-### processExchangeRates
+### <a name="method-processExchangeRates"></a>processExchangeRates
 
     mixed AdminCurrenciesControllerCore::processExchangeRates()
 
@@ -175,12 +198,12 @@ Update currency exchange rates
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCurrenciesController.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#324)
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L324)
 
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminCurrenciesControllerCore::initProcess()
 
@@ -189,12 +212,12 @@ Update currency exchange rates
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCurrenciesController.php line 334](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#334)
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 334](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L334)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminCurrenciesControllerCore::initPageHeaderToolbar()
 
@@ -203,7 +226,7 @@ Update currency exchange rates
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCurrenciesController.php line 352](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#352)
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 352](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#L352)
 
 
 

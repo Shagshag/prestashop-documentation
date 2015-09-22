@@ -14,21 +14,46 @@ PrestaShopAutoload
 Constants
 ----------
 
+* [INDEX_FILE](#constant-INDEX_FILE)
 
-### INDEX_FILE
+Properties
+----------
+
+* [$instance](#property-$instance)
+* [$root_dir](#property-$root_dir)
+* [$index](#property-$index)
+* [$_include_override_path](#property-$_include_override_path)
+* [$class_aliases](#property-$class_aliases)
+
+Methods
+-------
+* [__construct](#method-__construct)
+* [getInstance](#method-getInstance)
+* [load](#method-load)
+* [generateIndex](#method-generateIndex)
+* [getClassesFromDir](#method-getClassesFromDir)
+* [getClassPath](#method-getClassPath)
+* [normalizeDirectory](#method-normalizeDirectory)
+
+
+Constants
+----------
+
+
+### <a name="constant-INDEX_FILE"></a>INDEX_FILE
 
     const INDEX_FILE = 'cache/class_index.php'
 
 
 
-* This constant is defined in [classes/PrestaShopAutoload.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#35)
+* This constant is defined in [classes/PrestaShopAutoload.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L35)
 
 
 Properties
 ----------
 
 
-### $instance
+### <a name="property-$instance"></a>$instance
 
     protected \PrestaShopAutoload $instance
 
@@ -38,10 +63,10 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/PrestaShopAutoload.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#40)
+* This property is defined in [classes/PrestaShopAutoload.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L40)
 
 
-### $root_dir
+### <a name="property-$root_dir"></a>$root_dir
 
     protected string $root_dir
 
@@ -50,10 +75,10 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in [classes/PrestaShopAutoload.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#45)
+* This property is defined in [classes/PrestaShopAutoload.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L45)
 
 
-### $index
+### <a name="property-$index"></a>$index
 
     public array $index = array()
 
@@ -62,10 +87,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/PrestaShopAutoload.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#50)
+* This property is defined in [classes/PrestaShopAutoload.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L50)
 
 
-### $_include_override_path
+### <a name="property-$_include_override_path"></a>$_include_override_path
 
     public mixed $_include_override_path = true
 
@@ -74,10 +99,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/PrestaShopAutoload.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#52)
+* This property is defined in [classes/PrestaShopAutoload.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L52)
 
 
-### $class_aliases
+### <a name="property-$class_aliases"></a>$class_aliases
 
     protected mixed $class_aliases = array('Collection' => 'PrestaShopCollection', 'Autoload' => 'PrestaShopAutoload', 'Backup' => 'PrestaShopBackup', 'Logger' => 'PrestaShopLogger')
 
@@ -87,14 +112,14 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in [classes/PrestaShopAutoload.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#54)
+* This property is defined in [classes/PrestaShopAutoload.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L54)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed PrestaShopAutoload::__construct()
 
@@ -103,12 +128,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [classes/PrestaShopAutoload.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#61)
+* This method is defined in [classes/PrestaShopAutoload.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L61)
 
 
 
 
-### getInstance
+### <a name="method-getInstance"></a>getInstance
 
     \PrestaShopAutoload PrestaShopAutoload::getInstance()
 
@@ -118,12 +143,12 @@ Get instance of autoload (singleton)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/PrestaShopAutoload.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#77)
+* This method is defined in [classes/PrestaShopAutoload.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L77)
 
 
 
 
-### load
+### <a name="method-load"></a>load
 
     mixed PrestaShopAutoload::load(string $classname)
 
@@ -132,7 +157,7 @@ Retrieve informations about a class in classes index and load it
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopAutoload.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#91)
+* This method is defined in [classes/PrestaShopAutoload.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L91)
 
 
 #### Arguments
@@ -140,7 +165,7 @@ Retrieve informations about a class in classes index and load it
 
 
 
-### generateIndex
+### <a name="method-generateIndex"></a>generateIndex
 
     mixed PrestaShopAutoload::generateIndex()
 
@@ -149,12 +174,12 @@ Generate classes index
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopAutoload.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#136)
+* This method is defined in [classes/PrestaShopAutoload.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L136)
 
 
 
 
-### getClassesFromDir
+### <a name="method-getClassesFromDir"></a>getClassesFromDir
 
     array PrestaShopAutoload::getClassesFromDir(string $path, $host_mode)
 
@@ -163,7 +188,7 @@ Retrieve recursively all classes in a directory and its subdirectories
 
 
 * Visibility: **protected**
-* This method is defined in [classes/PrestaShopAutoload.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#179)
+* This method is defined in [classes/PrestaShopAutoload.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L179)
 
 
 #### Arguments
@@ -172,7 +197,7 @@ Retrieve recursively all classes in a directory and its subdirectories
 
 
 
-### getClassPath
+### <a name="method-getClassPath"></a>getClassPath
 
     mixed PrestaShopAutoload::getClassPath($classname)
 
@@ -181,7 +206,7 @@ Retrieve recursively all classes in a directory and its subdirectories
 
 
 * Visibility: **public**
-* This method is defined in [classes/PrestaShopAutoload.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#217)
+* This method is defined in [classes/PrestaShopAutoload.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L217)
 
 
 #### Arguments
@@ -189,7 +214,7 @@ Retrieve recursively all classes in a directory and its subdirectories
 
 
 
-### normalizeDirectory
+### <a name="method-normalizeDirectory"></a>normalizeDirectory
 
     mixed PrestaShopAutoload::normalizeDirectory($directory)
 
@@ -198,7 +223,7 @@ Retrieve recursively all classes in a directory and its subdirectories
 
 
 * Visibility: **private**
-* This method is defined in [classes/PrestaShopAutoload.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#222)
+* This method is defined in [classes/PrestaShopAutoload.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L222)
 
 
 #### Arguments

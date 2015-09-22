@@ -17,8 +17,25 @@ PageCore
 Properties
 ----------
 
+* [$id_page_type](#property-$id_page_type)
+* [$id_object](#property-$id_object)
+* [$name](#property-$name)
+* [$definition](#property-$definition)
 
-### $id_page_type
+Methods
+-------
+* [getCurrentId](#method-getCurrentId)
+* [getPageTypeByName](#method-getPageTypeByName)
+* [setPageViewed](#method-setPageViewed)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$id_page_type"></a>$id_page_type
 
     public mixed $id_page_type
 
@@ -27,10 +44,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Page.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#29)
+* This property is defined in [classes/Page.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L29)
 
 
-### $id_object
+### <a name="property-$id_object"></a>$id_object
 
     public mixed $id_object
 
@@ -39,10 +56,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Page.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#30)
+* This property is defined in [classes/Page.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L30)
 
 
-### $name
+### <a name="property-$name"></a>$name
 
     public mixed $name
 
@@ -51,10 +68,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [classes/Page.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#32)
+* This property is defined in [classes/Page.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L32)
 
 
-### $definition
+### <a name="property-$definition"></a>$definition
 
     public mixed $definition = array('table' => 'page', 'primary' => 'id_page', 'fields' => array('id_page_type' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true), 'id_object' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId')))
 
@@ -64,14 +81,14 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [classes/Page.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#37)
+* This property is defined in [classes/Page.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L37)
 
 
 Methods
 -------
 
 
-### getCurrentId
+### <a name="method-getCurrentId"></a>getCurrentId
 
     integer PageCore::getCurrentId()
 
@@ -81,12 +98,12 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Page.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#49)
+* This method is defined in [classes/Page.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L49)
 
 
 
 
-### getPageTypeByName
+### <a name="method-getPageTypeByName"></a>getPageTypeByName
 
     mixed PageCore::getPageTypeByName(string $name)
 
@@ -96,7 +113,7 @@ Return page type ID from page name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Page.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#91)
+* This method is defined in [classes/Page.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L91)
 
 
 #### Arguments
@@ -104,7 +121,7 @@ Return page type ID from page name
 
 
 
-### setPageViewed
+### <a name="method-setPageViewed"></a>setPageViewed
 
     mixed PageCore::setPageViewed($id_page)
 
@@ -114,7 +131,7 @@ Return page type ID from page name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [classes/Page.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#107)
+* This method is defined in [classes/Page.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#L107)
 
 
 #### Arguments

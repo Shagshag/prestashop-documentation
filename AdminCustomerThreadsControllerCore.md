@@ -17,8 +17,37 @@ AdminCustomerThreadsControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [renderList](#method-renderList)
+* [initToolbar](#method-initToolbar)
+* [postProcess](#method-postProcess)
+* [initContent](#method-initContent)
+* [openUploadedFile](#method-openUploadedFile)
+* [renderKpis](#method-renderKpis)
+* [renderView](#method-renderView)
+* [getTimeline](#method-getTimeline)
+* [displayMessage](#method-displayMessage)
+* [displayButton](#method-displayButton)
+* [renderOptions](#method-renderOptions)
+* [getList](#method-getList)
+* [updateOptionPsSavImapOpt](#method-updateOptionPsSavImapOpt)
+* [ajaxProcessMarkAsRead](#method-ajaxProcessMarkAsRead)
+* [ajaxProcessSyncImap](#method-ajaxProcessSyncImap)
+* [renderProcessSyncImap](#method-renderProcessSyncImap)
+* [syncImap](#method-syncImap)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \CustomerThread $object
 
@@ -27,14 +56,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminCustomerThreadsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#30)
+* This property is defined in [controllers/admin/AdminCustomerThreadsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminCustomerThreadsControllerCore::__construct()
 
@@ -43,12 +72,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#32)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L32)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminCustomerThreadsControllerCore::renderList()
 
@@ -57,12 +86,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#221)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L221)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminCustomerThreadsControllerCore::initToolbar()
 
@@ -71,12 +100,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#281)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L281)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminCustomerThreadsControllerCore::postProcess()
 
@@ -85,12 +114,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#287)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L287)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminCustomerThreadsControllerCore::initContent()
 
@@ -99,12 +128,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#440)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L440)
 
 
 
 
-### openUploadedFile
+### <a name="method-openUploadedFile"></a>openUploadedFile
 
     mixed AdminCustomerThreadsControllerCore::openUploadedFile()
 
@@ -113,12 +142,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 449](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#449)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 449](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L449)
 
 
 
 
-### renderKpis
+### <a name="method-renderKpis"></a>renderKpis
 
     mixed AdminCustomerThreadsControllerCore::renderKpis()
 
@@ -127,12 +156,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 487](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#487)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 487](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L487)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminCustomerThreadsControllerCore::renderView()
 
@@ -141,12 +170,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 538](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#538)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 538](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L538)
 
 
 
 
-### getTimeline
+### <a name="method-getTimeline"></a>getTimeline
 
     mixed AdminCustomerThreadsControllerCore::getTimeline($messages, $id_order)
 
@@ -155,7 +184,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 699](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#699)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 699](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L699)
 
 
 #### Arguments
@@ -164,7 +193,7 @@ Methods
 
 
 
-### displayMessage
+### <a name="method-displayMessage"></a>displayMessage
 
     mixed AdminCustomerThreadsControllerCore::displayMessage($message, $email, $id_employee)
 
@@ -173,7 +202,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 746](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#746)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 746](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L746)
 
 
 #### Arguments
@@ -183,7 +212,7 @@ Methods
 
 
 
-### displayButton
+### <a name="method-displayButton"></a>displayButton
 
     mixed AdminCustomerThreadsControllerCore::displayButton($content)
 
@@ -192,7 +221,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 797](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#797)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 797](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L797)
 
 
 #### Arguments
@@ -200,7 +229,7 @@ Methods
 
 
 
-### renderOptions
+### <a name="method-renderOptions"></a>renderOptions
 
     mixed AdminCustomerThreadsControllerCore::renderOptions()
 
@@ -209,12 +238,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 802](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#802)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 802](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L802)
 
 
 
 
-### getList
+### <a name="method-getList"></a>getList
 
     mixed AdminCustomerThreadsControllerCore::getList(integer $id_lang, string|null $order_by, string|null $order_way, integer $start, integer|null $limit, integer|boolean $id_lang_shop)
 
@@ -223,7 +252,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 829](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#829)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 829](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L829)
 
 
 #### Arguments
@@ -236,7 +265,7 @@ AdminController::getList() override
 
 
 
-### updateOptionPsSavImapOpt
+### <a name="method-updateOptionPsSavImapOpt"></a>updateOptionPsSavImapOpt
 
     mixed AdminCustomerThreadsControllerCore::updateOptionPsSavImapOpt($value)
 
@@ -245,7 +274,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 841](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#841)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 841](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L841)
 
 
 #### Arguments
@@ -253,7 +282,7 @@ AdminController::getList() override
 
 
 
-### ajaxProcessMarkAsRead
+### <a name="method-ajaxProcessMarkAsRead"></a>ajaxProcessMarkAsRead
 
     mixed AdminCustomerThreadsControllerCore::ajaxProcessMarkAsRead()
 
@@ -262,12 +291,12 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 852](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#852)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 852](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L852)
 
 
 
 
-### ajaxProcessSyncImap
+### <a name="method-ajaxProcessSyncImap"></a>ajaxProcessSyncImap
 
     mixed AdminCustomerThreadsControllerCore::ajaxProcessSyncImap()
 
@@ -276,12 +305,12 @@ Call the IMAP synchronization during an AJAX process.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 870](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#870)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 870](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L870)
 
 
 
 
-### renderProcessSyncImap
+### <a name="method-renderProcessSyncImap"></a>renderProcessSyncImap
 
     mixed AdminCustomerThreadsControllerCore::renderProcessSyncImap()
 
@@ -290,12 +319,12 @@ Call the IMAP synchronization during the render process.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 884](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#884)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 884](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L884)
 
 
 
 
-### syncImap
+### <a name="method-syncImap"></a>syncImap
 
     array AdminCustomerThreadsControllerCore::syncImap()
 
@@ -304,7 +333,7 @@ Imap synchronization method.
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 913](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#913)
+* This method is defined in [controllers/admin/AdminCustomerThreadsController.php line 913](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerThreadsController.php#L913)
 
 
 

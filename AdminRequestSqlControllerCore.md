@@ -17,8 +17,35 @@ AdminRequestSqlControllerCore
 Properties
 ----------
 
+* [$encoding_file](#property-$encoding_file)
+* [$object](#property-$object)
 
-### $encoding_file
+Methods
+-------
+* [__construct](#method-__construct)
+* [renderOptions](#method-renderOptions)
+* [initToolbar](#method-initToolbar)
+* [renderList](#method-renderList)
+* [renderForm](#method-renderForm)
+* [postProcess](#method-postProcess)
+* [ajaxProcess](#method-ajaxProcess)
+* [renderView](#method-renderView)
+* [_childValidation](#method-_childValidation)
+* [displayExportLink](#method-displayExportLink)
+* [initProcess](#method-initProcess)
+* [initContent](#method-initContent)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [generateExport](#method-generateExport)
+* [displayError](#method-displayError)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$encoding_file"></a>$encoding_file
 
     public array $encoding_file = array(array('value' => 1, 'name' => 'utf-8'), array('value' => 2, 'name' => 'iso-8859-1'))
 
@@ -28,10 +55,10 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in [controllers/admin/AdminRequestSqlController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#35)
+* This property is defined in [controllers/admin/AdminRequestSqlController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L35)
 
 
-### $object
+### <a name="property-$object"></a>$object
 
     public \RequestSql $object
 
@@ -40,14 +67,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminRequestSqlController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#30)
+* This property is defined in [controllers/admin/AdminRequestSqlController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminRequestSqlControllerCore::__construct()
 
@@ -56,12 +83,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#40)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L40)
 
 
 
 
-### renderOptions
+### <a name="method-renderOptions"></a>renderOptions
 
     mixed AdminRequestSqlControllerCore::renderOptions()
 
@@ -70,12 +97,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#84)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L84)
 
 
 
 
-### initToolbar
+### <a name="method-initToolbar"></a>initToolbar
 
     mixed AdminRequestSqlControllerCore::initToolbar()
 
@@ -84,12 +111,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#95)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L95)
 
 
 
 
-### renderList
+### <a name="method-renderList"></a>renderList
 
     mixed AdminRequestSqlControllerCore::renderList()
 
@@ -98,12 +125,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#111)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L111)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminRequestSqlControllerCore::renderForm()
 
@@ -112,12 +139,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#135)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L135)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminRequestSqlControllerCore::postProcess()
 
@@ -126,12 +153,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#171)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L171)
 
 
 
 
-### ajaxProcess
+### <a name="method-ajaxProcess"></a>ajaxProcess
 
     mixed AdminRequestSqlControllerCore::ajaxProcess()
 
@@ -140,12 +167,12 @@ method call when ajax request is made with the details row action
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#185)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L185)
 
 
 
 
-### renderView
+### <a name="method-renderView"></a>renderView
 
     mixed AdminRequestSqlControllerCore::renderView()
 
@@ -154,12 +181,12 @@ method call when ajax request is made with the details row action
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#204)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L204)
 
 
 
 
-### _childValidation
+### <a name="method-_childValidation"></a>_childValidation
 
     mixed AdminRequestSqlControllerCore::_childValidation()
 
@@ -168,12 +195,12 @@ method call when ajax request is made with the details row action
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#235)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L235)
 
 
 
 
-### displayExportLink
+### <a name="method-displayExportLink"></a>displayExportLink
 
     string AdminRequestSqlControllerCore::displayExportLink($token, integer $id)
 
@@ -182,7 +209,7 @@ Display export action link
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#258)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L258)
 
 
 #### Arguments
@@ -191,7 +218,7 @@ Display export action link
 
 
 
-### initProcess
+### <a name="method-initProcess"></a>initProcess
 
     mixed AdminRequestSqlControllerCore::initProcess()
 
@@ -200,12 +227,12 @@ Display export action link
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#270)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L270)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminRequestSqlControllerCore::initContent()
 
@@ -214,12 +241,12 @@ Display export action link
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#279)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L279)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminRequestSqlControllerCore::initPageHeaderToolbar()
 
@@ -228,12 +255,12 @@ Display export action link
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 313](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#313)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 313](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L313)
 
 
 
 
-### generateExport
+### <a name="method-generateExport"></a>generateExport
 
     mixed AdminRequestSqlControllerCore::generateExport()
 
@@ -242,12 +269,12 @@ Genrating a export file
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#329)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L329)
 
 
 
 
-### displayError
+### <a name="method-displayError"></a>displayError
 
     mixed AdminRequestSqlControllerCore::displayError($e)
 
@@ -256,7 +283,7 @@ Display all errors
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminRequestSqlController.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#381)
+* This method is defined in [controllers/admin/AdminRequestSqlController.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRequestSqlController.php#L381)
 
 
 #### Arguments

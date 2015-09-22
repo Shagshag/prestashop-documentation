@@ -18,9 +18,27 @@ AdminInvoicesControllerCore
 
 Methods
 -------
+* [__construct](#method-__construct)
+* [initFormByDate](#method-initFormByDate)
+* [initFormByStatus](#method-initFormByStatus)
+* [initContent](#method-initContent)
+* [initToolbarTitle](#method-initToolbarTitle)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [postProcess](#method-postProcess)
+* [beforeUpdateOptions](#method-beforeUpdateOptions)
+* [getInvoicesModels](#method-getInvoicesModels)
+* [getInvoicesModelsFromDir](#method-getInvoicesModelsFromDir)
 
 
-### __construct
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
 
     mixed AdminInvoicesControllerCore::__construct()
 
@@ -29,12 +47,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInvoicesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#29)
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#L29)
 
 
 
 
-### initFormByDate
+### <a name="method-initFormByDate"></a>initFormByDate
 
     mixed AdminInvoicesControllerCore::initFormByDate()
 
@@ -43,12 +61,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInvoicesController.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#104)
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#L104)
 
 
 
 
-### initFormByStatus
+### <a name="method-initFormByStatus"></a>initFormByStatus
 
     mixed AdminInvoicesControllerCore::initFormByStatus()
 
@@ -57,12 +75,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInvoicesController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#148)
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#L148)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed AdminInvoicesControllerCore::initContent()
 
@@ -71,12 +89,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInvoicesController.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#199)
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#L199)
 
 
 
 
-### initToolbarTitle
+### <a name="method-initToolbarTitle"></a>initToolbarTitle
 
     mixed AdminInvoicesControllerCore::initToolbarTitle()
 
@@ -85,12 +103,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInvoicesController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#219)
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#L219)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminInvoicesControllerCore::initPageHeaderToolbar()
 
@@ -99,12 +117,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInvoicesController.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#224)
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#L224)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminInvoicesControllerCore::postProcess()
 
@@ -113,12 +131,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInvoicesController.php line 230](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#230)
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 230](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#L230)
 
 
 
 
-### beforeUpdateOptions
+### <a name="method-beforeUpdateOptions"></a>beforeUpdateOptions
 
     mixed AdminInvoicesControllerCore::beforeUpdateOptions()
 
@@ -127,12 +145,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminInvoicesController.php line 265](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#265)
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 265](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#L265)
 
 
 
 
-### getInvoicesModels
+### <a name="method-getInvoicesModels"></a>getInvoicesModels
 
     mixed AdminInvoicesControllerCore::getInvoicesModels()
 
@@ -141,12 +159,12 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminInvoicesController.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#272)
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#L272)
 
 
 
 
-### getInvoicesModelsFromDir
+### <a name="method-getInvoicesModelsFromDir"></a>getInvoicesModelsFromDir
 
     mixed AdminInvoicesControllerCore::getInvoicesModelsFromDir($directory)
 
@@ -155,7 +173,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminInvoicesController.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#291)
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#L291)
 
 
 #### Arguments

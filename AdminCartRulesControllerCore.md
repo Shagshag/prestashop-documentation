@@ -17,8 +17,35 @@ AdminCartRulesControllerCore
 Properties
 ----------
 
+* [$object](#property-$object)
 
-### $object
+Methods
+-------
+* [__construct](#method-__construct)
+* [ajaxProcessLoadCartRules](#method-ajaxProcessLoadCartRules)
+* [setMedia](#method-setMedia)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [postProcess](#method-postProcess)
+* [afterUpdate](#method-afterUpdate)
+* [processAdd](#method-processAdd)
+* [afterAdd](#method-afterAdd)
+* [getProductRuleGroupsDisplay](#method-getProductRuleGroupsDisplay)
+* [getProductRuleGroupDisplay](#method-getProductRuleGroupDisplay)
+* [getProductRuleDisplay](#method-getProductRuleDisplay)
+* [ajaxProcess](#method-ajaxProcess)
+* [searchProducts](#method-searchProducts)
+* [ajaxProcessSearchProducts](#method-ajaxProcessSearchProducts)
+* [renderForm](#method-renderForm)
+* [displayAjaxSearchCartRuleVouchers](#method-displayAjaxSearchCartRuleVouchers)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$object"></a>$object
 
     public \CartRule $object
 
@@ -27,14 +54,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/admin/AdminCartRulesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#30)
+* This property is defined in [controllers/admin/AdminCartRulesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L30)
 
 
 Methods
 -------
 
 
-### __construct
+### <a name="method-__construct"></a>__construct
 
     mixed AdminCartRulesControllerCore::__construct()
 
@@ -43,12 +70,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#32)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L32)
 
 
 
 
-### ajaxProcessLoadCartRules
+### <a name="method-ajaxProcessLoadCartRules"></a>ajaxProcessLoadCartRules
 
     mixed AdminCartRulesControllerCore::ajaxProcessLoadCartRules()
 
@@ -57,12 +84,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#57)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L57)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed AdminCartRulesControllerCore::setMedia()
 
@@ -71,12 +98,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#125)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L125)
 
 
 
 
-### initPageHeaderToolbar
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
 
     mixed AdminCartRulesControllerCore::initPageHeaderToolbar()
 
@@ -85,12 +112,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#131)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L131)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed AdminCartRulesControllerCore::postProcess()
 
@@ -99,12 +126,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#144)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L144)
 
 
 
 
-### afterUpdate
+### <a name="method-afterUpdate"></a>afterUpdate
 
     mixed AdminCartRulesControllerCore::afterUpdate($current_object)
 
@@ -113,7 +140,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#234)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L234)
 
 
 #### Arguments
@@ -121,7 +148,7 @@ Methods
 
 
 
-### processAdd
+### <a name="method-processAdd"></a>processAdd
 
     mixed AdminCartRulesControllerCore::processAdd()
 
@@ -130,12 +157,12 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#252)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L252)
 
 
 
 
-### afterAdd
+### <a name="method-afterAdd"></a>afterAdd
 
     void AdminCartRulesControllerCore::afterAdd(\ObjectModel $currentObject)
 
@@ -144,7 +171,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#272)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L272)
 
 
 #### Arguments
@@ -152,7 +179,7 @@ Methods
 
 
 
-### getProductRuleGroupsDisplay
+### <a name="method-getProductRuleGroupsDisplay"></a>getProductRuleGroupsDisplay
 
     array AdminCartRulesControllerCore::getProductRuleGroupsDisplay(\CartRule $cart_rule)
 
@@ -162,7 +189,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 364](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#364)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 364](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L364)
 
 
 #### Arguments
@@ -170,7 +197,7 @@ if available, and in the database if there is none
 
 
 
-### getProductRuleGroupDisplay
+### <a name="method-getProductRuleGroupDisplay"></a>getProductRuleGroupDisplay
 
     mixed AdminCartRulesControllerCore::getProductRuleGroupDisplay($product_rule_group_id, $product_rule_group_quantity, $product_rules)
 
@@ -179,7 +206,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 403](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#403)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 403](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L403)
 
 
 #### Arguments
@@ -189,7 +216,7 @@ if available, and in the database if there is none
 
 
 
-### getProductRuleDisplay
+### <a name="method-getProductRuleDisplay"></a>getProductRuleDisplay
 
     mixed AdminCartRulesControllerCore::getProductRuleDisplay($product_rule_group_id, $product_rule_id, $product_rule_type, $selected)
 
@@ -198,7 +225,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#412)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L412)
 
 
 #### Arguments
@@ -209,7 +236,7 @@ if available, and in the database if there is none
 
 
 
-### ajaxProcess
+### <a name="method-ajaxProcess"></a>ajaxProcess
 
     mixed AdminCartRulesControllerCore::ajaxProcess()
 
@@ -218,12 +245,12 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 509](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#509)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 509](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L509)
 
 
 
 
-### searchProducts
+### <a name="method-searchProducts"></a>searchProducts
 
     mixed AdminCartRulesControllerCore::searchProducts($search)
 
@@ -232,7 +259,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **protected**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 541](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#541)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 541](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L541)
 
 
 #### Arguments
@@ -240,7 +267,7 @@ if available, and in the database if there is none
 
 
 
-### ajaxProcessSearchProducts
+### <a name="method-ajaxProcessSearchProducts"></a>ajaxProcessSearchProducts
 
     mixed AdminCartRulesControllerCore::ajaxProcessSearchProducts()
 
@@ -249,12 +276,12 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 577](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#577)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 577](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L577)
 
 
 
 
-### renderForm
+### <a name="method-renderForm"></a>renderForm
 
     mixed AdminCartRulesControllerCore::renderForm()
 
@@ -263,12 +290,12 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 583](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#583)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 583](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L583)
 
 
 
 
-### displayAjaxSearchCartRuleVouchers
+### <a name="method-displayAjaxSearchCartRuleVouchers"></a>displayAjaxSearchCartRuleVouchers
 
     mixed AdminCartRulesControllerCore::displayAjaxSearchCartRuleVouchers()
 
@@ -277,7 +304,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in [controllers/admin/AdminCartRulesController.php line 708](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#708)
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 708](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#L708)
 
 
 

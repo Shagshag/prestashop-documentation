@@ -17,8 +17,27 @@ OrderDetailControllerCore
 Properties
 ----------
 
+* [$php_self](#property-$php_self)
+* [$auth](#property-$auth)
+* [$authRedirection](#property-$authRedirection)
+* [$ssl](#property-$ssl)
 
-### $php_self
+Methods
+-------
+* [init](#method-init)
+* [postProcess](#method-postProcess)
+* [displayAjax](#method-displayAjax)
+* [initContent](#method-initContent)
+* [setMedia](#method-setMedia)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$php_self"></a>$php_self
 
     public mixed $php_self = 'order-detail'
 
@@ -27,10 +46,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/OrderDetailController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#29)
+* This property is defined in [controllers/front/OrderDetailController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#L29)
 
 
-### $auth
+### <a name="property-$auth"></a>$auth
 
     public mixed $auth = true
 
@@ -39,10 +58,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/OrderDetailController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#31)
+* This property is defined in [controllers/front/OrderDetailController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#L31)
 
 
-### $authRedirection
+### <a name="property-$authRedirection"></a>$authRedirection
 
     public mixed $authRedirection = 'history'
 
@@ -51,10 +70,10 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/OrderDetailController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#32)
+* This property is defined in [controllers/front/OrderDetailController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#L32)
 
 
-### $ssl
+### <a name="property-$ssl"></a>$ssl
 
     public mixed $ssl = true
 
@@ -63,14 +82,14 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in [controllers/front/OrderDetailController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#33)
+* This property is defined in [controllers/front/OrderDetailController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#L33)
 
 
 Methods
 -------
 
 
-### init
+### <a name="method-init"></a>init
 
     mixed OrderDetailControllerCore::init()
 
@@ -79,12 +98,12 @@ Initialize order detail controller
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderDetailController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#39)
+* This method is defined in [controllers/front/OrderDetailController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#L39)
 
 
 
 
-### postProcess
+### <a name="method-postProcess"></a>postProcess
 
     mixed OrderDetailControllerCore::postProcess()
 
@@ -93,12 +112,12 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderDetailController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#50)
+* This method is defined in [controllers/front/OrderDetailController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#L50)
 
 
 
 
-### displayAjax
+### <a name="method-displayAjax"></a>displayAjax
 
     mixed OrderDetailControllerCore::displayAjax()
 
@@ -107,12 +126,12 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderDetailController.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#136)
+* This method is defined in [controllers/front/OrderDetailController.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#L136)
 
 
 
 
-### initContent
+### <a name="method-initContent"></a>initContent
 
     mixed OrderDetailControllerCore::initContent()
 
@@ -121,12 +140,12 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderDetailController.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#145)
+* This method is defined in [controllers/front/OrderDetailController.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#L145)
 
 
 
 
-### setMedia
+### <a name="method-setMedia"></a>setMedia
 
     mixed OrderDetailControllerCore::setMedia()
 
@@ -135,7 +154,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in [controllers/front/OrderDetailController.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#228)
+* This method is defined in [controllers/front/OrderDetailController.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#L228)
 
 
 

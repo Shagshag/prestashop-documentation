@@ -21,7 +21,6 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Interface name: Core_Foundation_Database_EntityInterface
-* Namespace: 
 * This is an **interface**
 * This interface is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php#L27)
 
@@ -32,9 +31,21 @@ needs please refer to http://www.prestashop.com for more information.
 
 Methods
 -------
+* [getRepositoryClassName](#method-getRepositoryClassName)
+* [save](#method-save)
+* [delete](#method-delete)
+* [hydrate](#method-hydrate)
 
 
-### getRepositoryClassName
+
+
+
+
+Methods
+-------
+
+
+### <a name="method-getRepositoryClassName"></a>getRepositoryClassName
 
     string Core_Foundation_Database_EntityInterface::getRepositoryClassName()
 
@@ -44,12 +55,12 @@ If unspecified, a generic repository will be used for the entity.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php#35)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php#L35)
 
 
 
 
-### save
+### <a name="method-save"></a>save
 
     mixed Core_Foundation_Database_EntityInterface::save()
 
@@ -58,12 +69,12 @@ If unspecified, a generic repository will be used for the entity.
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php#37)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php#L37)
 
 
 
 
-### delete
+### <a name="method-delete"></a>delete
 
     mixed Core_Foundation_Database_EntityInterface::delete()
 
@@ -72,12 +83,12 @@ If unspecified, a generic repository will be used for the entity.
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php#39)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php#L39)
 
 
 
 
-### hydrate
+### <a name="method-hydrate"></a>hydrate
 
     mixed Core_Foundation_Database_EntityInterface::hydrate(array $keyValueData)
 
@@ -86,7 +97,7 @@ If unspecified, a generic repository will be used for the entity.
 
 
 * Visibility: **public**
-* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php#41)
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityInterface.php#L41)
 
 
 #### Arguments
