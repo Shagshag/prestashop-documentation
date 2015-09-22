@@ -6,7 +6,7 @@ Class imageLib
 
 
 * Class name: imageLib
-* Source: [admin/filemanager/include/php_image_magician.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L163)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L163)
 
 
 
@@ -142,7 +142,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L179).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L179).
 
 
 ### <a name="property-$captionBoxPositionArray"></a>$captionBoxPositionArray
@@ -154,7 +154,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L192).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L192).
 
 
 ### <a name="property-$cropFromTopPercent"></a>$cropFromTopPercent
@@ -166,7 +166,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L196).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L196).
 
 
 ### <a name="property-$debug"></a>$debug
@@ -178,7 +178,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L175).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L175).
 
 
 ### <a name="property-$errorArray"></a>$errorArray
@@ -190,7 +190,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L176).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L176).
 
 
 ### <a name="property-$fileExtension"></a>$fileExtension
@@ -202,7 +202,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L173).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L173).
 
 
 ### <a name="property-$fileName"></a>$fileName
@@ -214,7 +214,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L165).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L165).
 
 
 ### <a name="property-$fillColorArray"></a>$fillColorArray
@@ -226,7 +226,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L183).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L183).
 
 
 ### <a name="property-$filterOverlayPath"></a>$filterOverlayPath
@@ -238,7 +238,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L188).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L188).
 
 
 ### <a name="property-$fontDir"></a>$fontDir
@@ -250,7 +250,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L194).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L194).
 
 
 ### <a name="property-$forceStretch"></a>$forceStretch
@@ -262,7 +262,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L178).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L178).
 
 
 ### <a name="property-$height"></a>$height
@@ -274,7 +274,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L171).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L171).
 
 
 ### <a name="property-$heightOriginal"></a>$heightOriginal
@@ -286,7 +286,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L169).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L169).
 
 
 ### <a name="property-$image"></a>$image
@@ -298,7 +298,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L166).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L166).
 
 
 ### <a name="property-$imageResized"></a>$imageResized
@@ -310,7 +310,7 @@ Properties
 
 
 * Visibility: **protected**
-* Source: [admin/filemanager/include/php_image_magician.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L167).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L167).
 
 
 ### <a name="property-$imageSize"></a>$imageSize
@@ -322,7 +322,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L172).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L172).
 
 
 ### <a name="property-$isInterlace"></a>$isInterlace
@@ -334,7 +334,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L190).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L190).
 
 
 ### <a name="property-$keepTransparency"></a>$keepTransparency
@@ -346,7 +346,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L182).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L182).
 
 
 ### <a name="property-$psdReaderPath"></a>$psdReaderPath
@@ -358,7 +358,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L187).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L187).
 
 
 ### <a name="property-$sharpenArray"></a>$sharpenArray
@@ -370,7 +370,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L185).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L185).
 
 
 ### <a name="property-$transparentArray"></a>$transparentArray
@@ -382,7 +382,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L181).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L181).
 
 
 ### <a name="property-$width"></a>$width
@@ -394,7 +394,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L170).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L170).
 
 
 ### <a name="property-$widthOriginal"></a>$widthOriginal
@@ -406,7 +406,7 @@ Properties
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L168).
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L168).
 
 
 Methods
@@ -422,7 +422,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 3060](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3060)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 3060](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L3060)
 
 
 #### Arguments
@@ -439,7 +439,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 3113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3113)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 3113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L3113)
 
 
 #### Arguments
@@ -458,7 +458,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 3152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3152)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 3152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L3152)
 
 
 #### Arguments
@@ -475,7 +475,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 3130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3130)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 3130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L3130)
 
 
 #### Arguments
@@ -493,7 +493,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L201)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L201)
 
 
 #### Arguments
@@ -510,7 +510,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 3320](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3320)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 3320](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L3320)
 
 
 
@@ -524,7 +524,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 919](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L919)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 919](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L919)
 
 
 #### Arguments
@@ -542,7 +542,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1585](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1585)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1585](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1585)
 
 
 #### Arguments
@@ -563,7 +563,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1187)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1187)
 
 
 #### Arguments
@@ -585,7 +585,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1438)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1438)
 
 
 #### Arguments
@@ -604,7 +604,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2131)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2131)
 
 
 #### Arguments
@@ -627,7 +627,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1620](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1620)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1620](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1620)
 
 
 #### Arguments
@@ -648,7 +648,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2221)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2221)
 
 
 #### Arguments
@@ -668,7 +668,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1003](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1003)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1003](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1003)
 
 
 
@@ -682,7 +682,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 899](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L899)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 899](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L899)
 
 
 #### Arguments
@@ -699,7 +699,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 1670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1670)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1670)
 
 
 #### Arguments
@@ -718,7 +718,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2273)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2273)
 
 
 #### Arguments
@@ -739,7 +739,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2854](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2854)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2854](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2854)
 
 
 #### Arguments
@@ -756,7 +756,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 3049](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3049)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 3049](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L3049)
 
 
 #### Arguments
@@ -774,7 +774,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2924](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2924)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2924](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2924)
 
 
 #### Arguments
@@ -791,7 +791,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L438)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L438)
 
 
 #### Arguments
@@ -812,7 +812,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 383](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L383)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 383](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L383)
 
 
 #### Arguments
@@ -831,7 +831,7 @@ Methods
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2598](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2598)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2598](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2598)
 
 
 #### Arguments
@@ -849,7 +849,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2366)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2366)
 
 
 #### Arguments
@@ -867,7 +867,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 840](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L840)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 840](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L840)
 
 
 #### Arguments
@@ -885,7 +885,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2973](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2973)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2973](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2973)
 
 
 
@@ -899,7 +899,7 @@ Methods
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2950](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2950)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2950](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2950)
 
 
 
@@ -913,7 +913,7 @@ Methods
 
 
 * Visibility: **protected**
-* Source: [admin/filemanager/include/php_image_magician.php line 2864](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2864)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2864](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2864)
 
 
 #### Arguments
@@ -930,7 +930,7 @@ Apply a PNG overlay
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 1122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1122)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1122)
 
 
 #### Arguments
@@ -949,7 +949,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1095](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1095)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1095](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1095)
 
 
 
@@ -963,7 +963,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1107)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1107)
 
 
 
@@ -977,7 +977,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L469)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L469)
 
 
 #### Arguments
@@ -998,7 +998,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 562](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L562)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 562](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L562)
 
 
 #### Arguments
@@ -1017,7 +1017,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2839](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2839)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2839](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2839)
 
 
 
@@ -1031,7 +1031,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1711)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1711)
 
 
 #### Arguments
@@ -1048,7 +1048,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2796](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2796)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2796](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2796)
 
 
 
@@ -1062,7 +1062,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2811](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2811)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2811](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2811)
 
 
 
@@ -1076,7 +1076,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 726](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L726)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 726](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L726)
 
 
 #### Arguments
@@ -1094,7 +1094,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2825](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2825)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2825](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2825)
 
 
 
@@ -1108,7 +1108,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2832](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2832)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2832](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2832)
 
 
 
@@ -1122,7 +1122,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 663](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L663)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 663](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L663)
 
 
 #### Arguments
@@ -1140,7 +1140,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 621](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L621)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 621](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L621)
 
 
 #### Arguments
@@ -1158,7 +1158,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L642)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L642)
 
 
 #### Arguments
@@ -1176,7 +1176,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2169)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2169)
 
 
 #### Arguments
@@ -1193,7 +1193,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2201)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2201)
 
 
 #### Arguments
@@ -1213,7 +1213,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2818](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2818)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2818](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2818)
 
 
 
@@ -1227,7 +1227,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 955](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L955)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 955](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L955)
 
 
 
@@ -1241,7 +1241,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 992](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L992)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 992](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L992)
 
 
 
@@ -1255,7 +1255,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 972](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L972)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 972](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L972)
 
 
 
@@ -1269,7 +1269,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2904](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2904)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2904](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2904)
 
 
 #### Arguments
@@ -1286,7 +1286,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1161)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1161)
 
 
 #### Arguments
@@ -1303,7 +1303,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 3293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3293)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 3293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L3293)
 
 
 #### Arguments
@@ -1320,7 +1320,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L258)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L258)
 
 
 
@@ -1334,7 +1334,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2996](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2996)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2996](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2996)
 
 
 #### Arguments
@@ -1353,7 +1353,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2088](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2088)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2088](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2088)
 
 
 #### Arguments
@@ -1372,7 +1372,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L414)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L414)
 
 
 #### Arguments
@@ -1391,7 +1391,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1024](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1024)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1024](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1024)
 
 
 
@@ -1405,7 +1405,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2433](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2433)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2433](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2433)
 
 
 #### Arguments
@@ -1422,7 +1422,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 861](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L861)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 861](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L861)
 
 
 #### Arguments
@@ -1439,7 +1439,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2485](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2485)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2485](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2485)
 
 
 
@@ -1453,7 +1453,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L274)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L274)
 
 
 #### Arguments
@@ -1474,7 +1474,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 1897](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1897)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1897](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1897)
 
 
 #### Arguments
@@ -1491,7 +1491,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 1974](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1974)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1974](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1974)
 
 
 #### Arguments
@@ -1508,7 +1508,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 1937](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1937)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1937](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1937)
 
 
 #### Arguments
@@ -1525,7 +1525,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1274)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1274)
 
 
 #### Arguments
@@ -1543,7 +1543,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1342](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1342)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1342](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1342)
 
 
 #### Arguments
@@ -1561,7 +1561,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2500](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2500)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2500](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2500)
 
 
 #### Arguments
@@ -1579,7 +1579,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1044](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1044)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1044](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1044)
 
 
 
@@ -1593,7 +1593,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1064](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1064)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1064](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1064)
 
 
 
@@ -1607,7 +1607,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2680](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2680)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2680](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2680)
 
 
 #### Arguments
@@ -1624,7 +1624,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2781](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2781)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2781](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2781)
 
 
 #### Arguments
@@ -1641,7 +1641,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2662](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2662)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2662](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2662)
 
 
 #### Arguments
@@ -1658,7 +1658,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2766](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2766)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2766](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2766)
 
 
 #### Arguments
@@ -1675,7 +1675,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2654](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2654)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2654](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2654)
 
 
 #### Arguments
@@ -1692,7 +1692,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 784](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L784)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 784](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L784)
 
 
 
@@ -1706,7 +1706,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 829](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L829)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 829](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L829)
 
 
 #### Arguments
@@ -1723,7 +1723,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2935](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2935)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2935](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2935)
 
 
 #### Arguments
@@ -1740,7 +1740,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2709](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2709)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2709](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2709)
 
 
 
@@ -1754,7 +1754,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2751](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2751)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2751](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2751)
 
 
 
@@ -1768,7 +1768,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2688](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2688)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2688](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2688)
 
 
 
@@ -1782,7 +1782,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2730](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2730)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2730](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2730)
 
 
 #### Arguments
@@ -1799,7 +1799,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 3021](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L3021)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 3021](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L3021)
 
 
 #### Arguments
@@ -1816,7 +1816,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 1083](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L1083)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 1083](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L1083)
 
 
 
@@ -1830,7 +1830,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **private**
-* Source: [admin/filemanager/include/php_image_magician.php line 2076](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2076)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2076](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2076)
 
 
 #### Arguments
@@ -1848,7 +1848,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2061](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2061)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2061](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2061)
 
 
 #### Arguments
@@ -1865,7 +1865,7 @@ Apply 'Monopin' preset
 
 
 * Visibility: **public**
-* Source: [admin/filemanager/include/php_image_magician.php line 2069](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L2069)
+* Source: [admin-dev/filemanager/include/php_image_magician.php line 2069](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php#L2069)
 
 
 #### Arguments

@@ -8,7 +8,7 @@ Generate a new settings file, only transmitted parameters are updated
     mixed rewriteSettingsFile($base_urls, string $theme, array $array_db)
 
 * Function name: rewriteSettingsFile
-* Source: [admin/functions.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/functions.php#L86)
+* Source: [admin-dev/functions.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/functions.php#L86)
 
 #### Arguments
 * $base_urls **mixed**

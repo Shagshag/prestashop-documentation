@@ -28,7 +28,7 @@ _____________________________________
     array simpleXMLToArray(\simpleXMLElement $xml, boolean $flatten_values, boolean $flatten_attributes, boolean $flatten_children, string $value_key, string $attributes_key, string $children_key)
 
 * Function name: simpleXMLToArray
-* Source: [admin/functions.php line 343](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/functions.php#L343)
+* Source: [admin-dev/functions.php line 343](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/functions.php#L343)
 
 #### Arguments
 * $xml **simpleXMLElement** - the XML to convert
