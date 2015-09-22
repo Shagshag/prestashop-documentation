@@ -8,7 +8,8 @@ QqUploadedFileForm
 
 * Class name: QqUploadedFileForm
 * Namespace: 
-* This class is defined in classes\FileUploader.php line 95
+
+* This class is defined in [classes/FileUploader.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#95)
 
 
 
@@ -29,7 +30,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in classes\FileUploader.php line 101
+* This method is defined in [classes/FileUploader.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#101)
 
 
 
@@ -43,7 +44,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in classes\FileUploader.php line 137
+* This method is defined in [classes/FileUploader.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#137)
 
 
 #### Arguments
@@ -62,7 +63,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in classes\FileUploader.php line 165
+* This method is defined in [classes/FileUploader.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#165)
 
 
 
@@ -76,7 +77,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in classes\FileUploader.php line 170
+* This method is defined in [classes/FileUploader.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#170)
 
 
 

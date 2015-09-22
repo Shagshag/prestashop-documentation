@@ -9,7 +9,8 @@ Class FreeOrder to use PaymentModule (abstract class, cannot be instancied)
 * Class name: FreeOrder
 * Namespace: 
 * Parent class: [PaymentModule](PaymentModuleCore)
-* This class is defined in controllers\front\ParentOrderController.php line 30
+
+* This class is defined in [controllers/front/ParentOrderController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\ParentOrderController.php line 32
+* This property is defined in [controllers/front/ParentOrderController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#32)
 
 
 ### $name
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\ParentOrderController.php line 33
+* This property is defined in [controllers/front/ParentOrderController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#33)
 
 
 ### $displayName
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\ParentOrderController.php line 34
+* This property is defined in [controllers/front/ParentOrderController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#34)
 
 
 

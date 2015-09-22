@@ -9,7 +9,8 @@ QuickAccessCore
 * Class name: QuickAccessCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\QuickAccess.php line 27
+
+* This class is defined in [classes/QuickAccess.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\QuickAccess.php line 30
+* This property is defined in [classes/QuickAccess.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#30)
 
 
 ### $link
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\QuickAccess.php line 33
+* This property is defined in [classes/QuickAccess.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#33)
 
 
 ### $new_window
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\QuickAccess.php line 36
+* This property is defined in [classes/QuickAccess.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#36)
 
 
 ### $definition
@@ -65,7 +66,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\QuickAccess.php line 41
+* This property is defined in [classes/QuickAccess.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#41)
 
 
 Methods
@@ -82,7 +83,7 @@ Get all available quick_accesses
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\QuickAccess.php line 59
+* This method is defined in [classes/QuickAccess.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#59)
 
 
 #### Arguments
@@ -99,7 +100,7 @@ Get all available quick_accesses
 
 
 * Visibility: **public**
-* This method is defined in classes\QuickAccess.php line 68
+* This method is defined in [classes/QuickAccess.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/QuickAccess.php#68)
 
 
 

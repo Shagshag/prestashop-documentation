@@ -9,7 +9,8 @@ ManufacturerCore
 * Class name: ManufacturerCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Manufacturer.php line 27
+
+* This class is defined in [classes/Manufacturer.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 29
+* This property is defined in [classes/Manufacturer.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#29)
 
 
 ### $id_manufacturer
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 32
+* This property is defined in [classes/Manufacturer.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#32)
 
 
 ### $name
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 35
+* This property is defined in [classes/Manufacturer.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#35)
 
 
 ### $description
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 38
+* This property is defined in [classes/Manufacturer.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#38)
 
 
 ### $short_description
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 41
+* This property is defined in [classes/Manufacturer.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#41)
 
 
 ### $id_address
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 44
+* This property is defined in [classes/Manufacturer.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#44)
 
 
 ### $date_add
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 47
+* This property is defined in [classes/Manufacturer.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#47)
 
 
 ### $date_upd
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 50
+* This property is defined in [classes/Manufacturer.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#50)
 
 
 ### $link_rewrite
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 53
+* This property is defined in [classes/Manufacturer.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#53)
 
 
 ### $meta_title
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 56
+* This property is defined in [classes/Manufacturer.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#56)
 
 
 ### $meta_keywords
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 59
+* This property is defined in [classes/Manufacturer.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#59)
 
 
 ### $meta_description
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 62
+* This property is defined in [classes/Manufacturer.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#62)
 
 
 ### $active
@@ -172,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Manufacturer.php line 65
+* This property is defined in [classes/Manufacturer.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#65)
 
 
 ### $definition
@@ -185,7 +186,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Manufacturer.php line 70
+* This property is defined in [classes/Manufacturer.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#70)
 
 
 ### $webserviceParameters
@@ -197,7 +198,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Manufacturer.php line 89
+* This property is defined in [classes/Manufacturer.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#89)
 
 
 ### $cacheName
@@ -210,7 +211,7 @@ Return name from id
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Manufacturer.php line 239
+* This property is defined in [classes/Manufacturer.php line 239](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#239)
 
 
 Methods
@@ -226,7 +227,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Manufacturer.php line 101
+* This method is defined in [classes/Manufacturer.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#101)
 
 
 #### Arguments
@@ -244,7 +245,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Manufacturer.php line 109
+* This method is defined in [classes/Manufacturer.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#109)
 
 
 
@@ -258,7 +259,7 @@ Delete several objects from database
 return boolean Deletion result
 
 * Visibility: **public**
-* This method is defined in classes\Manufacturer.php line 128
+* This method is defined in [classes/Manufacturer.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#128)
 
 
 #### Arguments
@@ -275,7 +276,7 @@ return boolean Deletion result
 
 
 * Visibility: **protected**
-* This method is defined in classes\Manufacturer.php line 144
+* This method is defined in [classes/Manufacturer.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#144)
 
 
 
@@ -290,7 +291,7 @@ Return manufacturers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Manufacturer.php line 164
+* This method is defined in [classes/Manufacturer.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#164)
 
 
 #### Arguments
@@ -314,7 +315,7 @@ Return manufacturers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Manufacturer.php line 240
+* This method is defined in [classes/Manufacturer.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#240)
 
 
 #### Arguments
@@ -332,7 +333,7 @@ Return manufacturers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Manufacturer.php line 254
+* This method is defined in [classes/Manufacturer.php line 254](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#254)
 
 
 #### Arguments
@@ -349,7 +350,7 @@ Return manufacturers
 
 
 * Visibility: **public**
-* This method is defined in classes\Manufacturer.php line 269
+* This method is defined in [classes/Manufacturer.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#269)
 
 
 
@@ -364,7 +365,7 @@ Return manufacturers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Manufacturer.php line 274
+* This method is defined in [classes/Manufacturer.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#274)
 
 
 #### Arguments
@@ -390,7 +391,7 @@ Return manufacturers
 
 
 * Visibility: **public**
-* This method is defined in classes\Manufacturer.php line 399
+* This method is defined in [classes/Manufacturer.php line 399](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#399)
 
 
 #### Arguments
@@ -408,7 +409,7 @@ Return manufacturers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Manufacturer.php line 425
+* This method is defined in [classes/Manufacturer.php line 425](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#425)
 
 
 #### Arguments
@@ -425,7 +426,7 @@ Return manufacturers
 
 
 * Visibility: **public**
-* This method is defined in classes\Manufacturer.php line 436
+* This method is defined in [classes/Manufacturer.php line 436](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#436)
 
 
 #### Arguments
@@ -442,7 +443,7 @@ Return manufacturers
 
 
 * Visibility: **public**
-* This method is defined in classes\Manufacturer.php line 451
+* This method is defined in [classes/Manufacturer.php line 451](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#451)
 
 
 
@@ -456,7 +457,7 @@ Return manufacturers
 
 
 * Visibility: **public**
-* This method is defined in classes\Manufacturer.php line 462
+* This method is defined in [classes/Manufacturer.php line 462](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Manufacturer.php#462)
 
 
 #### Arguments

@@ -8,7 +8,8 @@ DispatcherCore
 
 * Class name: DispatcherCore
 * Namespace: 
-* This class is defined in classes\Dispatcher.php line 30
+
+* This class is defined in [classes/Dispatcher.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#30)
 
 
 
@@ -22,7 +23,7 @@ Constants
 
 
 
-* This constant is defined in classes\Dispatcher.php line 35
+* This constant is defined in [classes/Dispatcher.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#35)
 
 
 ### FC_ADMIN
@@ -31,7 +32,7 @@ Constants
 
 
 
-* This constant is defined in classes\Dispatcher.php line 36
+* This constant is defined in [classes/Dispatcher.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#36)
 
 
 ### FC_MODULE
@@ -40,7 +41,7 @@ Constants
 
 
 
-* This constant is defined in classes\Dispatcher.php line 37
+* This constant is defined in [classes/Dispatcher.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#37)
 
 
 Properties
@@ -57,7 +58,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Dispatcher.php line 42
+* This property is defined in [classes/Dispatcher.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#42)
 
 
 ### $default_routes
@@ -69,7 +70,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Dispatcher.php line 47
+* This property is defined in [classes/Dispatcher.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#47)
 
 
 ### $use_routes
@@ -81,7 +82,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Dispatcher.php line 145
+* This property is defined in [classes/Dispatcher.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#145)
 
 
 ### $multilang_activated
@@ -93,7 +94,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Dispatcher.php line 147
+* This property is defined in [classes/Dispatcher.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#147)
 
 
 ### $routes
@@ -105,7 +106,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Dispatcher.php line 152
+* This property is defined in [classes/Dispatcher.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#152)
 
 
 ### $controller
@@ -117,7 +118,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Dispatcher.php line 157
+* This property is defined in [classes/Dispatcher.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#157)
 
 
 ### $request_uri
@@ -129,7 +130,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Dispatcher.php line 162
+* This property is defined in [classes/Dispatcher.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#162)
 
 
 ### $empty_route
@@ -141,7 +142,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Dispatcher.php line 167
+* This property is defined in [classes/Dispatcher.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#167)
 
 
 ### $default_controller
@@ -153,7 +154,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Dispatcher.php line 172
+* This property is defined in [classes/Dispatcher.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#172)
 
 
 ### $use_default_controller
@@ -165,7 +166,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Dispatcher.php line 173
+* This property is defined in [classes/Dispatcher.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#173)
 
 
 ### $controller_not_found
@@ -177,7 +178,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Dispatcher.php line 178
+* This property is defined in [classes/Dispatcher.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#178)
 
 
 ### $front_controller
@@ -189,7 +190,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Dispatcher.php line 183
+* This property is defined in [classes/Dispatcher.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#183)
 
 
 Methods
@@ -206,7 +207,7 @@ Get current instance of dispatcher (singleton)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Dispatcher.php line 190
+* This method is defined in [classes/Dispatcher.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#190)
 
 
 
@@ -220,7 +221,7 @@ Need to be instancied from getInstance() method
 
 
 * Visibility: **protected**
-* This method is defined in classes\Dispatcher.php line 201
+* This method is defined in [classes/Dispatcher.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#201)
 
 
 
@@ -234,7 +235,7 @@ Need to be instancied from getInstance() method
 
 
 * Visibility: **public**
-* This method is defined in classes\Dispatcher.php line 231
+* This method is defined in [classes/Dispatcher.php line 231](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#231)
 
 
 
@@ -248,7 +249,7 @@ Find the controller and instantiate it
 
 
 * Visibility: **public**
-* This method is defined in classes\Dispatcher.php line 254
+* This method is defined in [classes/Dispatcher.php line 254](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#254)
 
 
 
@@ -262,7 +263,7 @@ Set request uri and iso lang
 
 
 * Visibility: **protected**
-* This method is defined in classes\Dispatcher.php line 376
+* This method is defined in [classes/Dispatcher.php line 376](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#376)
 
 
 
@@ -276,7 +277,7 @@ Load default routes group by languages
 
 
 * Visibility: **protected**
-* This method is defined in classes\Dispatcher.php line 402
+* This method is defined in [classes/Dispatcher.php line 402](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#402)
 
 
 #### Arguments
@@ -293,7 +294,7 @@ Load default routes group by languages
 
 
 * Visibility: **public**
-* This method is defined in classes\Dispatcher.php line 500
+* This method is defined in [classes/Dispatcher.php line 500](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#500)
 
 
 #### Arguments
@@ -316,7 +317,7 @@ Check if a route exists
 
 
 * Visibility: **public**
-* This method is defined in classes\Dispatcher.php line 564
+* This method is defined in [classes/Dispatcher.php line 564](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#564)
 
 
 #### Arguments
@@ -335,7 +336,7 @@ Check if a keyword is written in a route rule
 
 
 * Visibility: **public**
-* This method is defined in classes\Dispatcher.php line 585
+* This method is defined in [classes/Dispatcher.php line 585](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#585)
 
 
 #### Arguments
@@ -355,7 +356,7 @@ Check if a route rule contain all required keywords of default route definition
 
 
 * Visibility: **public**
-* This method is defined in classes\Dispatcher.php line 609
+* This method is defined in [classes/Dispatcher.php line 609](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#609)
 
 
 #### Arguments
@@ -374,7 +375,7 @@ Create an url from
 
 
 * Visibility: **public**
-* This method is defined in classes\Dispatcher.php line 634
+* This method is defined in [classes/Dispatcher.php line 634](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#634)
 
 
 #### Arguments
@@ -396,7 +397,7 @@ Retrieve the controller from url or request uri if routes are activated
 
 
 * Visibility: **public**
-* This method is defined in classes\Dispatcher.php line 719
+* This method is defined in [classes/Dispatcher.php line 719](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#719)
 
 
 #### Arguments
@@ -414,7 +415,7 @@ Get list of all available FO controllers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Dispatcher.php line 814
+* This method is defined in [classes/Dispatcher.php line 814](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#814)
 
 
 #### Arguments
@@ -432,7 +433,7 @@ Get list of all available Module Front controllers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Dispatcher.php line 832
+* This method is defined in [classes/Dispatcher.php line 832](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#832)
 
 
 #### Arguments
@@ -451,7 +452,7 @@ Get list of available controllers from the specified dir
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Dispatcher.php line 870
+* This method is defined in [classes/Dispatcher.php line 870](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Dispatcher.php#870)
 
 
 #### Arguments

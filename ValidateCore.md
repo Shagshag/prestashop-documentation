@@ -8,7 +8,8 @@ ValidateCore
 
 * Class name: ValidateCore
 * Namespace: 
-* This class is defined in classes\Validate.php line 27
+
+* This class is defined in [classes/Validate.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#27)
 
 
 
@@ -22,7 +23,7 @@ Constants
 
 
 
-* This constant is defined in classes\Validate.php line 29
+* This constant is defined in [classes/Validate.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#29)
 
 
 ### PASSWORD_LENGTH
@@ -31,7 +32,7 @@ Constants
 
 
 
-* This constant is defined in classes\Validate.php line 30
+* This constant is defined in [classes/Validate.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#30)
 
 
 
@@ -50,7 +51,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 32
+* This method is defined in [classes/Validate.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#32)
 
 
 #### Arguments
@@ -68,7 +69,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 37
+* This method is defined in [classes/Validate.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#37)
 
 
 
@@ -83,7 +84,7 @@ Check for e-mail validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 48
+* This method is defined in [classes/Validate.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#48)
 
 
 #### Arguments
@@ -101,7 +102,7 @@ Check for module URL validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 60
+* This method is defined in [classes/Validate.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#60)
 
 
 #### Arguments
@@ -120,7 +121,7 @@ Check for MD5 string validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 86
+* This method is defined in [classes/Validate.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#86)
 
 
 #### Arguments
@@ -138,7 +139,7 @@ Check for SHA1 string validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 97
+* This method is defined in [classes/Validate.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#97)
 
 
 #### Arguments
@@ -156,7 +157,7 @@ Check for a float number validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 108
+* This method is defined in [classes/Validate.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#108)
 
 
 #### Arguments
@@ -174,7 +175,7 @@ Check for a float number validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 113
+* This method is defined in [classes/Validate.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#113)
 
 
 #### Arguments
@@ -192,7 +193,7 @@ Check for a float number validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 124
+* This method is defined in [classes/Validate.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#124)
 
 
 #### Arguments
@@ -210,7 +211,7 @@ Check for a carrier name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 135
+* This method is defined in [classes/Validate.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#135)
 
 
 #### Arguments
@@ -228,7 +229,7 @@ Check for an image size validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 146
+* This method is defined in [classes/Validate.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#146)
 
 
 #### Arguments
@@ -246,7 +247,7 @@ Check for name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 157
+* This method is defined in [classes/Validate.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#157)
 
 
 #### Arguments
@@ -264,7 +265,7 @@ Check for hook name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 168
+* This method is defined in [classes/Validate.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#168)
 
 
 #### Arguments
@@ -282,7 +283,7 @@ Check for sender name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 179
+* This method is defined in [classes/Validate.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#179)
 
 
 #### Arguments
@@ -300,7 +301,7 @@ Check for e-mail subject validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 190
+* This method is defined in [classes/Validate.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#190)
 
 
 #### Arguments
@@ -318,7 +319,7 @@ Check for module name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 201
+* This method is defined in [classes/Validate.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#201)
 
 
 #### Arguments
@@ -336,7 +337,7 @@ Check for template name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 212
+* This method is defined in [classes/Validate.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#212)
 
 
 #### Arguments
@@ -354,7 +355,7 @@ Check for image type name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 223
+* This method is defined in [classes/Validate.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#223)
 
 
 #### Arguments
@@ -372,7 +373,7 @@ Check for price validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 234
+* This method is defined in [classes/Validate.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#234)
 
 
 #### Arguments
@@ -390,7 +391,7 @@ Check for price validity (including negative price)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 245
+* This method is defined in [classes/Validate.php line 245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#245)
 
 
 #### Arguments
@@ -408,7 +409,7 @@ Check for language code (ISO) validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 256
+* This method is defined in [classes/Validate.php line 256](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#256)
 
 
 #### Arguments
@@ -426,7 +427,7 @@ Check for language code (ISO) validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 261
+* This method is defined in [classes/Validate.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#261)
 
 
 #### Arguments
@@ -444,7 +445,7 @@ Check for language code (ISO) validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 266
+* This method is defined in [classes/Validate.php line 266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#266)
 
 
 #### Arguments
@@ -462,7 +463,7 @@ Check for language code (ISO) validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 271
+* This method is defined in [classes/Validate.php line 271](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#271)
 
 
 #### Arguments
@@ -480,7 +481,7 @@ Check for voucher name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 282
+* This method is defined in [classes/Validate.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#282)
 
 
 #### Arguments
@@ -498,7 +499,7 @@ Check for product or category name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 293
+* This method is defined in [classes/Validate.php line 293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#293)
 
 
 #### Arguments
@@ -516,7 +517,7 @@ Check for a message validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 304
+* This method is defined in [classes/Validate.php line 304](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#304)
 
 
 #### Arguments
@@ -534,7 +535,7 @@ Check for a country name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 315
+* This method is defined in [classes/Validate.php line 315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#315)
 
 
 #### Arguments
@@ -552,7 +553,7 @@ Check for a link (url-rewriting only) validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 326
+* This method is defined in [classes/Validate.php line 326](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#326)
 
 
 #### Arguments
@@ -570,7 +571,7 @@ Check for a route pattern validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 340
+* This method is defined in [classes/Validate.php line 340](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#340)
 
 
 #### Arguments
@@ -588,7 +589,7 @@ Check for a postal address validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 354
+* This method is defined in [classes/Validate.php line 354](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#354)
 
 
 #### Arguments
@@ -606,7 +607,7 @@ Check for city name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 365
+* This method is defined in [classes/Validate.php line 365](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#365)
 
 
 #### Arguments
@@ -624,7 +625,7 @@ Check for search query validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 376
+* This method is defined in [classes/Validate.php line 376](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#376)
 
 
 #### Arguments
@@ -642,7 +643,7 @@ Check for standard name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 387
+* This method is defined in [classes/Validate.php line 387](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#387)
 
 
 #### Arguments
@@ -660,7 +661,7 @@ Check for HTML field validity (no XSS please !)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 398
+* This method is defined in [classes/Validate.php line 398](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#398)
 
 
 #### Arguments
@@ -679,7 +680,7 @@ Check for product reference validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 425
+* This method is defined in [classes/Validate.php line 425](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#425)
 
 
 #### Arguments
@@ -697,7 +698,7 @@ Check for password validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 437
+* This method is defined in [classes/Validate.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#437)
 
 
 #### Arguments
@@ -716,7 +717,7 @@ Check for password validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 442
+* This method is defined in [classes/Validate.php line 442](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#442)
 
 
 #### Arguments
@@ -734,7 +735,7 @@ Check for configuration key validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 453
+* This method is defined in [classes/Validate.php line 453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#453)
 
 
 #### Arguments
@@ -752,7 +753,7 @@ Check date formats like http://php.net/manual/en/function.date.php
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 464
+* This method is defined in [classes/Validate.php line 464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#464)
 
 
 #### Arguments
@@ -770,7 +771,7 @@ Check for date format
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 477
+* This method is defined in [classes/Validate.php line 477](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#477)
 
 
 #### Arguments
@@ -788,7 +789,7 @@ Check for date validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 488
+* This method is defined in [classes/Validate.php line 488](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#488)
 
 
 #### Arguments
@@ -806,7 +807,7 @@ Check for birthDate validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 502
+* This method is defined in [classes/Validate.php line 502](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#502)
 
 
 #### Arguments
@@ -824,7 +825,7 @@ Check for boolean validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 524
+* This method is defined in [classes/Validate.php line 524](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#524)
 
 
 #### Arguments
@@ -842,7 +843,7 @@ Check for phone number validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 535
+* This method is defined in [classes/Validate.php line 535](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#535)
 
 
 #### Arguments
@@ -860,7 +861,7 @@ Check for barcode validity (EAN-13)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 546
+* This method is defined in [classes/Validate.php line 546](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#546)
 
 
 #### Arguments
@@ -878,7 +879,7 @@ Check for barcode validity (UPC)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 557
+* This method is defined in [classes/Validate.php line 557](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#557)
 
 
 #### Arguments
@@ -896,7 +897,7 @@ Check for postal code validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 568
+* This method is defined in [classes/Validate.php line 568](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#568)
 
 
 #### Arguments
@@ -914,7 +915,7 @@ Check for zip code format validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 579
+* This method is defined in [classes/Validate.php line 579](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#579)
 
 
 #### Arguments
@@ -933,7 +934,7 @@ Mostly used in database for ordering : ASC / DESC
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 594
+* This method is defined in [classes/Validate.php line 594](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#594)
 
 
 #### Arguments
@@ -952,7 +953,7 @@ Mostly used in database for ordering : ORDER BY field
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 606
+* This method is defined in [classes/Validate.php line 606](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#606)
 
 
 #### Arguments
@@ -971,7 +972,7 @@ Mostly used in database for table names and id_table
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 618
+* This method is defined in [classes/Validate.php line 618](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#618)
 
 
 #### Arguments
@@ -989,7 +990,7 @@ Mostly used in database for table names and id_table
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 626
+* This method is defined in [classes/Validate.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#626)
 
 
 
@@ -1004,7 +1005,7 @@ Check for tags list validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 640
+* This method is defined in [classes/Validate.php line 640](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#640)
 
 
 #### Arguments
@@ -1022,7 +1023,7 @@ Check for product visibility
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 651
+* This method is defined in [classes/Validate.php line 651](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#651)
 
 
 #### Arguments
@@ -1040,7 +1041,7 @@ Check for an integer validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 662
+* This method is defined in [classes/Validate.php line 662](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#662)
 
 
 #### Arguments
@@ -1058,7 +1059,7 @@ Check for an integer validity (unsigned)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 673
+* This method is defined in [classes/Validate.php line 673](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#673)
 
 
 #### Arguments
@@ -1076,7 +1077,7 @@ Check for an percentage validity (between 0 and 100)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 684
+* This method is defined in [classes/Validate.php line 684](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#684)
 
 
 #### Arguments
@@ -1095,7 +1096,7 @@ Mostly used in database for auto-increment
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 696
+* This method is defined in [classes/Validate.php line 696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#696)
 
 
 #### Arguments
@@ -1113,7 +1114,7 @@ Mostly used in database for auto-increment
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 701
+* This method is defined in [classes/Validate.php line 701](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#701)
 
 
 #### Arguments
@@ -1131,7 +1132,7 @@ Check object validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 712
+* This method is defined in [classes/Validate.php line 712](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#712)
 
 
 #### Arguments
@@ -1149,7 +1150,7 @@ Check object validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 723
+* This method is defined in [classes/Validate.php line 723](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#723)
 
 
 #### Arguments
@@ -1167,7 +1168,7 @@ Check url validity (disallowed empty string)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 734
+* This method is defined in [classes/Validate.php line 734](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#734)
 
 
 #### Arguments
@@ -1185,7 +1186,7 @@ Check tracking number validity (disallowed empty string)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 745
+* This method is defined in [classes/Validate.php line 745](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#745)
 
 
 #### Arguments
@@ -1203,7 +1204,7 @@ Check url validity (allowed empty string)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 756
+* This method is defined in [classes/Validate.php line 756](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#756)
 
 
 #### Arguments
@@ -1221,7 +1222,7 @@ Check if URL is absolute
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 767
+* This method is defined in [classes/Validate.php line 767](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#767)
 
 
 #### Arguments
@@ -1239,7 +1240,7 @@ Check if URL is absolute
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 775
+* This method is defined in [classes/Validate.php line 775](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#775)
 
 
 #### Arguments
@@ -1257,7 +1258,7 @@ Check if URL is absolute
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 780
+* This method is defined in [classes/Validate.php line 780](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#780)
 
 
 #### Arguments
@@ -1275,7 +1276,7 @@ Check if URL is absolute
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 785
+* This method is defined in [classes/Validate.php line 785](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#785)
 
 
 #### Arguments
@@ -1293,7 +1294,7 @@ Check for standard name file validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 797
+* This method is defined in [classes/Validate.php line 797](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#797)
 
 
 #### Arguments
@@ -1311,7 +1312,7 @@ Check for standard name directory validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 808
+* This method is defined in [classes/Validate.php line 808](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#808)
 
 
 #### Arguments
@@ -1329,7 +1330,7 @@ Check for admin panel tab name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 819
+* This method is defined in [classes/Validate.php line 819](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#819)
 
 
 #### Arguments
@@ -1347,7 +1348,7 @@ Check for admin panel tab name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 824
+* This method is defined in [classes/Validate.php line 824](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#824)
 
 
 #### Arguments
@@ -1365,7 +1366,7 @@ Check for admin panel tab name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 829
+* This method is defined in [classes/Validate.php line 829](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#829)
 
 
 #### Arguments
@@ -1383,7 +1384,7 @@ Check for admin panel tab name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 834
+* This method is defined in [classes/Validate.php line 834](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#834)
 
 
 #### Arguments
@@ -1401,7 +1402,7 @@ Check for admin panel tab name validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 839
+* This method is defined in [classes/Validate.php line 839](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#839)
 
 
 #### Arguments
@@ -1419,7 +1420,7 @@ Check if the value is a sort direction value (DESC/ASC)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 850
+* This method is defined in [classes/Validate.php line 850](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#850)
 
 
 #### Arguments
@@ -1437,7 +1438,7 @@ Customization fields' label validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 861
+* This method is defined in [classes/Validate.php line 861](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#861)
 
 
 #### Arguments
@@ -1455,7 +1456,7 @@ Price display method validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 872
+* This method is defined in [classes/Validate.php line 872](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#872)
 
 
 #### Arguments
@@ -1473,7 +1474,7 @@ Price display method validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 881
+* This method is defined in [classes/Validate.php line 881](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#881)
 
 
 #### Arguments
@@ -1491,7 +1492,7 @@ Check if $data is a PrestaShop cookie object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 892
+* This method is defined in [classes/Validate.php line 892](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#892)
 
 
 #### Arguments
@@ -1509,7 +1510,7 @@ Price display method validity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 903
+* This method is defined in [classes/Validate.php line 903](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#903)
 
 
 #### Arguments
@@ -1527,7 +1528,7 @@ Check if the data is a reduction type (amout or percentage)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 914
+* This method is defined in [classes/Validate.php line 914](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#914)
 
 
 #### Arguments
@@ -1545,7 +1546,7 @@ Check for bool_id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 925
+* This method is defined in [classes/Validate.php line 925](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#925)
 
 
 #### Arguments
@@ -1563,7 +1564,7 @@ Check for bool_id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 933
+* This method is defined in [classes/Validate.php line 933](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#933)
 
 
 #### Arguments
@@ -1581,7 +1582,7 @@ Check the localization pack part selected
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 945
+* This method is defined in [classes/Validate.php line 945](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#945)
 
 
 #### Arguments
@@ -1599,7 +1600,7 @@ Check for PHP serialized data
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 956
+* This method is defined in [classes/Validate.php line 956](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#956)
 
 
 #### Arguments
@@ -1617,7 +1618,7 @@ Check for Latitude/Longitude
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 967
+* This method is defined in [classes/Validate.php line 967](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#967)
 
 
 #### Arguments
@@ -1635,7 +1636,7 @@ Check for Language Iso Code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 978
+* This method is defined in [classes/Validate.php line 978](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#978)
 
 
 #### Arguments
@@ -1653,7 +1654,7 @@ Check for Language File Name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 989
+* This method is defined in [classes/Validate.php line 989](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#989)
 
 
 #### Arguments
@@ -1671,7 +1672,7 @@ Check for Language File Name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 999
+* This method is defined in [classes/Validate.php line 999](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#999)
 
 
 #### Arguments
@@ -1689,7 +1690,7 @@ Check for Language File Name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 1016
+* This method is defined in [classes/Validate.php line 1016](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#1016)
 
 
 #### Arguments
@@ -1707,7 +1708,7 @@ Check for Language File Name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 1043
+* This method is defined in [classes/Validate.php line 1043](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#1043)
 
 
 #### Arguments
@@ -1725,7 +1726,7 @@ Validate SIRET Code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 1057
+* This method is defined in [classes/Validate.php line 1057](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#1057)
 
 
 #### Arguments
@@ -1743,7 +1744,7 @@ Validate APE Code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 1079
+* This method is defined in [classes/Validate.php line 1079](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#1079)
 
 
 #### Arguments
@@ -1761,7 +1762,7 @@ Validate APE Code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 1084
+* This method is defined in [classes/Validate.php line 1084](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#1084)
 
 
 #### Arguments
@@ -1779,7 +1780,7 @@ Validate APE Code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 1089
+* This method is defined in [classes/Validate.php line 1089](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#1089)
 
 
 #### Arguments
@@ -1797,7 +1798,7 @@ Validate APE Code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Validate.php line 1094
+* This method is defined in [classes/Validate.php line 1094](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#1094)
 
 
 #### Arguments

@@ -8,7 +8,8 @@ Crypt_Blowfish
 
 * Class name: Crypt_Blowfish
 * Namespace: 
-* This class is defined in classes\Blowfish.php line 78
+
+* This class is defined in [classes/Blowfish.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#78)
 
 
 
@@ -27,7 +28,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Blowfish.php line 80
+* This property is defined in [classes/Blowfish.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#80)
 
 
 ### $_S
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Blowfish.php line 88
+* This property is defined in [classes/Blowfish.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#88)
 
 
 ### $_iv
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Blowfish.php line 355
+* This property is defined in [classes/Blowfish.php line 355](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#355)
 
 
 ### $_unpackMode
@@ -63,7 +64,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Blowfish.php line 357
+* This property is defined in [classes/Blowfish.php line 357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#357)
 
 
 Methods
@@ -79,7 +80,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Blowfish.php line 359
+* This method is defined in [classes/Blowfish.php line 359](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#359)
 
 
 #### Arguments
@@ -97,7 +98,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Blowfish.php line 410
+* This method is defined in [classes/Blowfish.php line 410](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#410)
 
 
 #### Arguments
@@ -115,7 +116,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Blowfish.php line 424
+* This method is defined in [classes/Blowfish.php line 424](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#424)
 
 
 #### Arguments
@@ -133,7 +134,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Blowfish.php line 438
+* This method is defined in [classes/Blowfish.php line 438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#438)
 
 
 #### Arguments
@@ -150,7 +151,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Blowfish.php line 451
+* This method is defined in [classes/Blowfish.php line 451](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#451)
 
 
 #### Arguments
@@ -167,7 +168,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Blowfish.php line 464
+* This method is defined in [classes/Blowfish.php line 464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#464)
 
 
 #### Arguments
@@ -184,7 +185,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Blowfish.php line 473
+* This method is defined in [classes/Blowfish.php line 473](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#473)
 
 
 #### Arguments

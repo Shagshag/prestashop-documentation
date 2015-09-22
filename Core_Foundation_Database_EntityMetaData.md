@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Foundation_Database_EntityMetaData
 * Namespace: 
-* This class is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 27
+
+* This class is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#27)
 
 
 
@@ -41,7 +42,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 29
+* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#29)
 
 
 ### $primaryKeyFieldnames
@@ -53,7 +54,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 30
+* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#30)
 
 
 Methods
@@ -69,7 +70,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 32
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#32)
 
 
 #### Arguments
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 38
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#38)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 43
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#43)
 
 
 #### Arguments
@@ -117,7 +118,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 49
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#49)
 
 
 
@@ -131,7 +132,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 54
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#54)
 
 
 #### Arguments
@@ -148,7 +149,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityMetaData.php line 60
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityMetaData.php#60)
 
 
 

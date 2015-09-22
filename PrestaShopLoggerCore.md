@@ -9,7 +9,8 @@ PrestaShopLoggerCore
 * Class name: PrestaShopLoggerCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\PrestaShopLogger.php line 27
+
+* This class is defined in [classes/PrestaShopLogger.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopLogger.php line 30
+* This property is defined in [classes/PrestaShopLogger.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#30)
 
 
 ### $severity
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopLogger.php line 33
+* This property is defined in [classes/PrestaShopLogger.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#33)
 
 
 ### $error_code
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopLogger.php line 36
+* This property is defined in [classes/PrestaShopLogger.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#36)
 
 
 ### $message
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopLogger.php line 39
+* This property is defined in [classes/PrestaShopLogger.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#39)
 
 
 ### $object_type
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopLogger.php line 42
+* This property is defined in [classes/PrestaShopLogger.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#42)
 
 
 ### $object_id
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopLogger.php line 45
+* This property is defined in [classes/PrestaShopLogger.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#45)
 
 
 ### $id_employee
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopLogger.php line 48
+* This property is defined in [classes/PrestaShopLogger.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#48)
 
 
 ### $date_add
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopLogger.php line 51
+* This property is defined in [classes/PrestaShopLogger.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#51)
 
 
 ### $date_upd
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopLogger.php line 54
+* This property is defined in [classes/PrestaShopLogger.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#54)
 
 
 ### $definition
@@ -137,7 +138,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\PrestaShopLogger.php line 59
+* This property is defined in [classes/PrestaShopLogger.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#59)
 
 
 ### $is_present
@@ -150,7 +151,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\PrestaShopLogger.php line 74
+* This property is defined in [classes/PrestaShopLogger.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#74)
 
 
 Methods
@@ -167,7 +168,7 @@ Send e-mail to the shop owner only if the minimal severity level has been reache
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\PrestaShopLogger.php line 82
+* This method is defined in [classes/PrestaShopLogger.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#82)
 
 
 #### Arguments
@@ -185,7 +186,7 @@ add a log item to the database and send a mail if configured for this $severity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\PrestaShopLogger.php line 106
+* This method is defined in [classes/PrestaShopLogger.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#106)
 
 
 #### Arguments
@@ -208,7 +209,7 @@ this function md5($this->message.$this->severity.$this->error_code.$this->object
 
 
 * Visibility: **public**
-* This method is defined in classes\PrestaShopLogger.php line 147
+* This method is defined in [classes/PrestaShopLogger.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#147)
 
 
 
@@ -223,7 +224,7 @@ this function md5($this->message.$this->severity.$this->error_code.$this->object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\PrestaShopLogger.php line 156
+* This method is defined in [classes/PrestaShopLogger.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#156)
 
 
 
@@ -237,7 +238,7 @@ check if this log message already exists in database.
 
 
 * Visibility: **protected**
-* This method is defined in classes\PrestaShopLogger.php line 166
+* This method is defined in [classes/PrestaShopLogger.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopLogger.php#166)
 
 
 

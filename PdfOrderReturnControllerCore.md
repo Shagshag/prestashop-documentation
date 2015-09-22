@@ -9,7 +9,8 @@ PdfOrderReturnControllerCore
 * Class name: PdfOrderReturnControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\PdfOrderReturnController.php line 27
+
+* This class is defined in [controllers/front/PdfOrderReturnController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\PdfOrderReturnController.php line 29
+* This property is defined in [controllers/front/PdfOrderReturnController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#29)
 
 
 ### $display_header
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\PdfOrderReturnController.php line 30
+* This property is defined in [controllers/front/PdfOrderReturnController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#30)
 
 
 ### $display_footer
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\PdfOrderReturnController.php line 31
+* This property is defined in [controllers/front/PdfOrderReturnController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#31)
 
 
 Methods
@@ -68,7 +69,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\PdfOrderReturnController.php line 33
+* This method is defined in [controllers/front/PdfOrderReturnController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#33)
 
 
 
@@ -82,7 +83,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\PdfOrderReturnController.php line 54
+* This method is defined in [controllers/front/PdfOrderReturnController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderReturnController.php#54)
 
 
 

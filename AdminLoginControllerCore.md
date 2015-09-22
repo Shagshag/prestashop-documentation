@@ -23,7 +23,8 @@ needs please refer to http://www.prestashop.com for more information.
 * Class name: AdminLoginControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminLoginController.php line 27
+
+* This class is defined in [controllers/admin/AdminLoginController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#27)
 
 
 
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLoginController.php line 29
+* This method is defined in [controllers/admin/AdminLoginController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#29)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLoginController.php line 47
+* This method is defined in [controllers/admin/AdminLoginController.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#47)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLoginController.php line 65
+* This method is defined in [controllers/admin/AdminLoginController.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#65)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLoginController.php line 144
+* This method is defined in [controllers/admin/AdminLoginController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#144)
 
 
 
@@ -100,7 +101,7 @@ All BO users can access the login page
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLoginController.php line 154
+* This method is defined in [controllers/admin/AdminLoginController.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#154)
 
 
 
@@ -114,7 +115,7 @@ All BO users can access the login page
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLoginController.php line 159
+* This method is defined in [controllers/admin/AdminLoginController.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#159)
 
 
 
@@ -128,7 +129,7 @@ All BO users can access the login page
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLoginController.php line 168
+* This method is defined in [controllers/admin/AdminLoginController.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#168)
 
 
 
@@ -142,7 +143,7 @@ All BO users can access the login page
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLoginController.php line 234
+* This method is defined in [controllers/admin/AdminLoginController.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLoginController.php#234)
 
 
 

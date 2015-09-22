@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Foundation_Database_EntityManager_QueryBuilder
 * Namespace: 
-* This class is defined in Core\Foundation\Database\EntityManager\Core_Foundation_Database_EntityManager_QueryBuilder.php line 27
+
+* This class is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#27)
 
 
 
@@ -41,7 +42,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in Core\Foundation\Database\EntityManager\Core_Foundation_Database_EntityManager_QueryBuilder.php line 29
+* This property is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#29)
 
 
 Methods
@@ -57,7 +58,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\EntityManager\Core_Foundation_Database_EntityManager_QueryBuilder.php line 31
+* This method is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#31)
 
 
 #### Arguments
@@ -74,7 +75,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\EntityManager\Core_Foundation_Database_EntityManager_QueryBuilder.php line 36
+* This method is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#36)
 
 
 #### Arguments
@@ -91,7 +92,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\EntityManager\Core_Foundation_Database_EntityManager_QueryBuilder.php line 47
+* This method is defined in [Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/EntityManager/Core_Foundation_Database_EntityManager_QueryBuilder.php#47)
 
 
 #### Arguments

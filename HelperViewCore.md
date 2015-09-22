@@ -9,7 +9,8 @@ HelperViewCore
 * Class name: HelperViewCore
 * Namespace: 
 * Parent class: [Helper](HelperCore)
-* This class is defined in classes\helper\HelperView.php line 27
+
+* This class is defined in [classes/helper/HelperView.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperView.php line 29
+* This property is defined in [classes/helper/HelperView.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#29)
 
 
 ### $toolbar
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperView.php line 30
+* This property is defined in [classes/helper/HelperView.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#30)
 
 
 ### $table
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperView.php line 31
+* This property is defined in [classes/helper/HelperView.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#31)
 
 
 ### $token
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperView.php line 32
+* This property is defined in [classes/helper/HelperView.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#32)
 
 
 ### $title
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperView.php line 35
+* This property is defined in [classes/helper/HelperView.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#35)
 
 
 Methods
@@ -92,7 +93,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperView.php line 37
+* This method is defined in [classes/helper/HelperView.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#37)
 
 
 
@@ -106,7 +107,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperView.php line 44
+* This method is defined in [classes/helper/HelperView.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#44)
 
 
 

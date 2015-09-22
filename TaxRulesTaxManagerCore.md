@@ -8,7 +8,8 @@ TaxRulesTaxManagerCore
 
 * Class name: TaxRulesTaxManagerCore
 * Namespace: 
-* This class implements: [TaxManagerInterface](TaxManagerInterface)* This class is defined in classes\tax\TaxRulesTaxManager.php line 30
+* This class implements: [TaxManagerInterface](TaxManagerInterface)
+* This class is defined in [classes/tax/TaxRulesTaxManager.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#30)
 
 
 
@@ -27,7 +28,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxRulesTaxManager.php line 32
+* This property is defined in [classes/tax/TaxRulesTaxManager.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#32)
 
 
 ### $type
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxRulesTaxManager.php line 33
+* This property is defined in [classes/tax/TaxRulesTaxManager.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#33)
 
 
 ### $tax_calculator
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxRulesTaxManager.php line 34
+* This property is defined in [classes/tax/TaxRulesTaxManager.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#34)
 
 
 ### $configurationManager
@@ -63,7 +64,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\tax\TaxRulesTaxManager.php line 39
+* This property is defined in [classes/tax/TaxRulesTaxManager.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#39)
 
 
 Methods
@@ -79,7 +80,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\TaxRulesTaxManager.php line 46
+* This method is defined in [classes/tax/TaxRulesTaxManager.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#46)
 
 
 #### Arguments
@@ -100,7 +101,7 @@ This method determine if the tax manager is available for the specified address.
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [TaxManagerInterface](TaxManagerInterface)
-* This method is defined in classes\tax\TaxRulesTaxManager.php line 40
+* This method is defined in [classes/tax/TaxRulesTaxManager.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#40)
 
 
 #### Arguments
@@ -118,7 +119,7 @@ Return the tax calculator associated to this address
 
 * Visibility: **public**
 * This method is defined by [TaxManagerInterface](TaxManagerInterface)
-* This method is defined in classes\tax\TaxRulesTaxManager.php line 47
+* This method is defined in [classes/tax/TaxRulesTaxManager.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#47)
 
 
 

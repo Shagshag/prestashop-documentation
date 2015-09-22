@@ -9,7 +9,8 @@ GroupReductionCore
 * Class name: GroupReductionCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\GroupReduction.php line 27
+
+* This class is defined in [classes/GroupReduction.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\GroupReduction.php line 29
+* This property is defined in [classes/GroupReduction.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#29)
 
 
 ### $id_category
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\GroupReduction.php line 30
+* This property is defined in [classes/GroupReduction.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#30)
 
 
 ### $reduction
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\GroupReduction.php line 31
+* This property is defined in [classes/GroupReduction.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#31)
 
 
 ### $definition
@@ -65,7 +66,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\GroupReduction.php line 36
+* This property is defined in [classes/GroupReduction.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#36)
 
 
 ### $reduction_cache
@@ -78,7 +79,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\GroupReduction.php line 46
+* This property is defined in [classes/GroupReduction.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#46)
 
 
 Methods
@@ -94,7 +95,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\GroupReduction.php line 48
+* This method is defined in [classes/GroupReduction.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#48)
 
 
 #### Arguments
@@ -112,7 +113,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\GroupReduction.php line 53
+* This method is defined in [classes/GroupReduction.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#53)
 
 
 #### Arguments
@@ -129,7 +130,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\GroupReduction.php line 58
+* This method is defined in [classes/GroupReduction.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#58)
 
 
 
@@ -143,7 +144,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\GroupReduction.php line 77
+* This method is defined in [classes/GroupReduction.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#77)
 
 
 
@@ -157,7 +158,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\GroupReduction.php line 82
+* This method is defined in [classes/GroupReduction.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#82)
 
 
 
@@ -171,7 +172,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\GroupReduction.php line 105
+* This method is defined in [classes/GroupReduction.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#105)
 
 
 
@@ -186,7 +187,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\GroupReduction.php line 128
+* This method is defined in [classes/GroupReduction.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#128)
 
 
 #### Arguments
@@ -205,7 +206,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\GroupReduction.php line 139
+* This method is defined in [classes/GroupReduction.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#139)
 
 
 #### Arguments
@@ -224,7 +225,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\GroupReduction.php line 155
+* This method is defined in [classes/GroupReduction.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#155)
 
 
 #### Arguments
@@ -243,7 +244,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\GroupReduction.php line 163
+* This method is defined in [classes/GroupReduction.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#163)
 
 
 #### Arguments
@@ -261,7 +262,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\GroupReduction.php line 177
+* This method is defined in [classes/GroupReduction.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#177)
 
 
 #### Arguments
@@ -279,7 +280,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\GroupReduction.php line 186
+* This method is defined in [classes/GroupReduction.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#186)
 
 
 #### Arguments
@@ -297,7 +298,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\GroupReduction.php line 200
+* This method is defined in [classes/GroupReduction.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#200)
 
 
 #### Arguments
@@ -315,7 +316,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\GroupReduction.php line 209
+* This method is defined in [classes/GroupReduction.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#209)
 
 
 #### Arguments
@@ -336,7 +337,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\GroupReduction.php line 231
+* This method is defined in [classes/GroupReduction.php line 231](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#231)
 
 
 #### Arguments
@@ -354,7 +355,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\GroupReduction.php line 240
+* This method is defined in [classes/GroupReduction.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#240)
 
 
 #### Arguments
@@ -373,7 +374,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\GroupReduction.php line 262
+* This method is defined in [classes/GroupReduction.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/GroupReduction.php#262)
 
 
 #### Arguments

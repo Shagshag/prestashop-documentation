@@ -9,7 +9,8 @@ OrderControllerCore
 * Class name: OrderControllerCore
 * Namespace: 
 * Parent class: [ParentOrderController](ParentOrderControllerCore)
-* This class is defined in controllers\front\OrderController.php line 27
+
+* This class is defined in [controllers/front/OrderController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#27)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in controllers\front\OrderController.php line 30
+* This constant is defined in [controllers/front/OrderController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#30)
 
 
 ### STEP_ADDRESSES
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in controllers\front\OrderController.php line 31
+* This constant is defined in [controllers/front/OrderController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#31)
 
 
 ### STEP_DELIVERY
@@ -41,7 +42,7 @@ Constants
 
 
 
-* This constant is defined in controllers\front\OrderController.php line 32
+* This constant is defined in [controllers/front/OrderController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#32)
 
 
 ### STEP_PAYMENT
@@ -50,7 +51,7 @@ Constants
 
 
 
-* This constant is defined in controllers\front\OrderController.php line 33
+* This constant is defined in [controllers/front/OrderController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#33)
 
 
 Properties
@@ -66,7 +67,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderController.php line 29
+* This property is defined in [controllers/front/OrderController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#29)
 
 
 Methods
@@ -82,7 +83,7 @@ Initialize order controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderController.php line 39
+* This method is defined in [controllers/front/OrderController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#39)
 
 
 
@@ -96,7 +97,7 @@ Initialize order controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderController.php line 110
+* This method is defined in [controllers/front/OrderController.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#110)
 
 
 
@@ -110,7 +111,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderController.php line 123
+* This method is defined in [controllers/front/OrderController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#123)
 
 
 
@@ -124,7 +125,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\OrderController.php line 246
+* This method is defined in [controllers/front/OrderController.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#246)
 
 
 
@@ -138,7 +139,7 @@ Order process controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderController.php line 262
+* This method is defined in [controllers/front/OrderController.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#262)
 
 
 
@@ -152,7 +153,7 @@ Manage address
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderController.php line 318
+* This method is defined in [controllers/front/OrderController.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#318)
 
 
 
@@ -166,7 +167,7 @@ Carrier step
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\OrderController.php line 390
+* This method is defined in [controllers/front/OrderController.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#390)
 
 
 
@@ -180,7 +181,7 @@ Address step
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\OrderController.php line 407
+* This method is defined in [controllers/front/OrderController.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#407)
 
 
 
@@ -194,7 +195,7 @@ Carrier step
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\OrderController.php line 421
+* This method is defined in [controllers/front/OrderController.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#421)
 
 
 
@@ -208,7 +209,7 @@ Payment step
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\OrderController.php line 440
+* This method is defined in [controllers/front/OrderController.php line 440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#440)
 
 
 
@@ -222,7 +223,7 @@ Payment step
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderController.php line 472
+* This method is defined in [controllers/front/OrderController.php line 472](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderController.php#472)
 
 
 

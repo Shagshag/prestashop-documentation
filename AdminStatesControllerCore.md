@@ -9,7 +9,8 @@ AdminStatesControllerCore
 * Class name: AdminStatesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminStatesController.php line 30
+
+* This class is defined in [controllers/admin/AdminStatesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminStatesController.php line 30
+* This property is defined in [controllers/admin/AdminStatesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatesController.php line 32
+* This method is defined in [controllers/admin/AdminStatesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatesController.php line 115
+* This method is defined in [controllers/admin/AdminStatesController.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#115)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatesController.php line 128
+* This method is defined in [controllers/admin/AdminStatesController.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#128)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatesController.php line 208
+* This method is defined in [controllers/admin/AdminStatesController.php line 208](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#208)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatesController.php line 252
+* This method is defined in [controllers/admin/AdminStatesController.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatesController.php#252)
 
 
 

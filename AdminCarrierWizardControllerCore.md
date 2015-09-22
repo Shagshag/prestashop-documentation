@@ -9,7 +9,8 @@ AdminCarrierWizardControllerCore
 * Class name: AdminCarrierWizardControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminCarrierWizardController.php line 30
+
+* This class is defined in [controllers/admin/AdminCarrierWizardController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminCarrierWizardController.php line 32
+* This property is defined in [controllers/admin/AdminCarrierWizardController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#32)
 
 
 ### $object
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminCarrierWizardController.php line 30
+* This property is defined in [controllers/admin/AdminCarrierWizardController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 34
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#34)
 
 
 
@@ -70,7 +71,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 59
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#59)
 
 
 
@@ -84,7 +85,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 67
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#67)
 
 
 
@@ -98,7 +99,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 97
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#97)
 
 
 
@@ -112,7 +113,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 150
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#150)
 
 
 #### Arguments
@@ -130,7 +131,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 163
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#163)
 
 
 
@@ -144,7 +145,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 173
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#173)
 
 
 #### Arguments
@@ -161,7 +162,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 227
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#227)
 
 
 #### Arguments
@@ -178,7 +179,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 246
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#246)
 
 
 #### Arguments
@@ -195,7 +196,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 376
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 376](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#376)
 
 
 #### Arguments
@@ -212,7 +213,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 440
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#440)
 
 
 #### Arguments
@@ -229,7 +230,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 486
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 486](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#486)
 
 
 #### Arguments
@@ -248,7 +249,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 532
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 532](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#532)
 
 
 #### Arguments
@@ -267,7 +268,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 553
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 553](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#553)
 
 
 #### Arguments
@@ -284,7 +285,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 564
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 564](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#564)
 
 
 #### Arguments
@@ -301,7 +302,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 569
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 569](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#569)
 
 
 #### Arguments
@@ -318,7 +319,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 585
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 585](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#585)
 
 
 #### Arguments
@@ -335,7 +336,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 597
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 597](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#597)
 
 
 #### Arguments
@@ -352,7 +353,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 602
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 602](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#602)
 
 
 
@@ -366,7 +367,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 633
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 633](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#633)
 
 
 #### Arguments
@@ -383,7 +384,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 661
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 661](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#661)
 
 
 
@@ -397,7 +398,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 666
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 666](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#666)
 
 
 #### Arguments
@@ -414,7 +415,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 739
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 739](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#739)
 
 
 
@@ -428,7 +429,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 767
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 767](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#767)
 
 
 
@@ -442,7 +443,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 873
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 873](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#873)
 
 
 #### Arguments
@@ -460,7 +461,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 883
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 883](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#883)
 
 
 #### Arguments
@@ -477,7 +478,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 904
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 904](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#904)
 
 
 
@@ -492,7 +493,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 937
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 937](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#937)
 
 
 #### Arguments
@@ -509,7 +510,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 942
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 942](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#942)
 
 
 #### Arguments
@@ -527,7 +528,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCarrierWizardController.php line 958
+* This method is defined in [controllers/admin/AdminCarrierWizardController.php line 958](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#958)
 
 
 

@@ -9,7 +9,8 @@ AdminModulesControllerCore
 * Class name: AdminModulesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminModulesController.php line 27
+
+* This class is defined in [controllers/admin/AdminModulesController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in controllers\admin\AdminModulesController.php line 29
+* This property is defined in [controllers/admin/AdminModulesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#29)
 
 
 ### $map
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 37
+* This property is defined in [controllers/admin/AdminModulesController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#37)
 
 
 ### $list_modules_categories
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 48
+* This property is defined in [controllers/admin/AdminModulesController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#48)
 
 
 ### $list_partners_modules
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 49
+* This property is defined in [controllers/admin/AdminModulesController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#49)
 
 
 ### $list_natives_modules
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 50
+* This property is defined in [controllers/admin/AdminModulesController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#50)
 
 
 ### $nb_modules_total
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 52
+* This property is defined in [controllers/admin/AdminModulesController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#52)
 
 
 ### $nb_modules_installed
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 53
+* This property is defined in [controllers/admin/AdminModulesController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#53)
 
 
 ### $nb_modules_activated
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 54
+* This property is defined in [controllers/admin/AdminModulesController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#54)
 
 
 ### $serial_modules
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 56
+* This property is defined in [controllers/admin/AdminModulesController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#56)
 
 
 ### $modules_authors
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 57
+* This property is defined in [controllers/admin/AdminModulesController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#57)
 
 
 ### $id_employee
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 59
+* This property is defined in [controllers/admin/AdminModulesController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#59)
 
 
 ### $iso_default_country
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 60
+* This property is defined in [controllers/admin/AdminModulesController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#60)
 
 
 ### $filter_configuration
@@ -172,7 +173,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 61
+* This property is defined in [controllers/admin/AdminModulesController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#61)
 
 
 ### $xml_modules_list
@@ -184,7 +185,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminModulesController.php line 63
+* This property is defined in [controllers/admin/AdminModulesController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#63)
 
 
 Methods
@@ -204,7 +205,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 73
+* This method is defined in [controllers/admin/AdminModulesController.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#73)
 
 
 
@@ -218,7 +219,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 148
+* This method is defined in [controllers/admin/AdminModulesController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#148)
 
 
 #### Arguments
@@ -236,7 +237,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 157
+* This method is defined in [controllers/admin/AdminModulesController.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#157)
 
 
 
@@ -250,7 +251,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 167
+* This method is defined in [controllers/admin/AdminModulesController.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#167)
 
 
 #### Arguments
@@ -267,7 +268,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 219
+* This method is defined in [controllers/admin/AdminModulesController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#219)
 
 
 
@@ -281,7 +282,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 225
+* This method is defined in [controllers/admin/AdminModulesController.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#225)
 
 
 
@@ -295,7 +296,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 247
+* This method is defined in [controllers/admin/AdminModulesController.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#247)
 
 
 
@@ -309,7 +310,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 256
+* This method is defined in [controllers/admin/AdminModulesController.php line 256](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#256)
 
 
 
@@ -323,7 +324,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 270
+* This method is defined in [controllers/admin/AdminModulesController.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#270)
 
 
 
@@ -337,7 +338,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 316
+* This method is defined in [controllers/admin/AdminModulesController.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#316)
 
 
 
@@ -351,7 +352,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 322
+* This method is defined in [controllers/admin/AdminModulesController.php line 322](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#322)
 
 
 
@@ -365,7 +366,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 349
+* This method is defined in [controllers/admin/AdminModulesController.php line 349](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#349)
 
 
 
@@ -379,7 +380,7 @@ Load cache file
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminModulesController.php line 372
+* This method is defined in [controllers/admin/AdminModulesController.php line 372](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#372)
 
 
 #### Arguments
@@ -396,7 +397,7 @@ Load cache file
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminModulesController.php line 391
+* This method is defined in [controllers/admin/AdminModulesController.php line 391](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#391)
 
 
 #### Arguments
@@ -414,7 +415,7 @@ Load cache file
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminModulesController.php line 437
+* This method is defined in [controllers/admin/AdminModulesController.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#437)
 
 
 #### Arguments
@@ -431,7 +432,7 @@ Load cache file
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminModulesController.php line 463
+* This method is defined in [controllers/admin/AdminModulesController.php line 463](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#463)
 
 
 #### Arguments
@@ -451,7 +452,7 @@ Load cache file
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminModulesController.php line 471
+* This method is defined in [controllers/admin/AdminModulesController.php line 471](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#471)
 
 
 
@@ -465,7 +466,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 485
+* This method is defined in [controllers/admin/AdminModulesController.php line 485](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#485)
 
 
 
@@ -479,7 +480,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 491
+* This method is defined in [controllers/admin/AdminModulesController.php line 491](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#491)
 
 
 
@@ -493,7 +494,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 497
+* This method is defined in [controllers/admin/AdminModulesController.php line 497](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#497)
 
 
 
@@ -507,7 +508,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 504
+* This method is defined in [controllers/admin/AdminModulesController.php line 504](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#504)
 
 
 
@@ -521,7 +522,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 516
+* This method is defined in [controllers/admin/AdminModulesController.php line 516](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#516)
 
 
 
@@ -535,7 +536,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 554
+* This method is defined in [controllers/admin/AdminModulesController.php line 554](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#554)
 
 
 
@@ -549,7 +550,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 603
+* This method is defined in [controllers/admin/AdminModulesController.php line 603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#603)
 
 
 
@@ -563,7 +564,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 626
+* This method is defined in [controllers/admin/AdminModulesController.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#626)
 
 
 
@@ -577,7 +578,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 645
+* This method is defined in [controllers/admin/AdminModulesController.php line 645](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#645)
 
 
 
@@ -591,7 +592,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 664
+* This method is defined in [controllers/admin/AdminModulesController.php line 664](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#664)
 
 
 
@@ -605,7 +606,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 696
+* This method is defined in [controllers/admin/AdminModulesController.php line 696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#696)
 
 
 
@@ -619,7 +620,7 @@ Load cache file
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminModulesController.php line 1040
+* This method is defined in [controllers/admin/AdminModulesController.php line 1040](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1040)
 
 
 #### Arguments
@@ -636,7 +637,7 @@ Load cache file
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 1085
+* This method is defined in [controllers/admin/AdminModulesController.php line 1085](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1085)
 
 
 
@@ -650,7 +651,7 @@ Generate html errors for a module process
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminModulesController.php line 1129
+* This method is defined in [controllers/admin/AdminModulesController.php line 1129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1129)
 
 
 #### Arguments
@@ -667,7 +668,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 1149
+* This method is defined in [controllers/admin/AdminModulesController.php line 1149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1149)
 
 
 #### Arguments
@@ -684,7 +685,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 1173
+* This method is defined in [controllers/admin/AdminModulesController.php line 1173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1173)
 
 
 #### Arguments
@@ -701,7 +702,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 1193
+* This method is defined in [controllers/admin/AdminModulesController.php line 1193](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1193)
 
 
 #### Arguments
@@ -718,7 +719,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 1296
+* This method is defined in [controllers/admin/AdminModulesController.php line 1296](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1296)
 
 
 
@@ -732,7 +733,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 1344
+* This method is defined in [controllers/admin/AdminModulesController.php line 1344](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1344)
 
 
 
@@ -746,7 +747,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 1379
+* This method is defined in [controllers/admin/AdminModulesController.php line 1379](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1379)
 
 
 
@@ -760,7 +761,7 @@ Generate html errors for a module process
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminModulesController.php line 1634
+* This method is defined in [controllers/admin/AdminModulesController.php line 1634](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminModulesController.php#1634)
 
 
 

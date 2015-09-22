@@ -9,7 +9,8 @@ AdminAddonsCatalogControllerCore
 * Class name: AdminAddonsCatalogControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminAddonsCatalogController.php line 27
+
+* This class is defined in [controllers/admin/AdminAddonsCatalogController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddonsCatalogController.php#27)
 
 
 
@@ -30,7 +31,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAddonsCatalogController.php line 29
+* This method is defined in [controllers/admin/AdminAddonsCatalogController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddonsCatalogController.php#29)
 
 
 
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAddonsCatalogController.php line 35
+* This method is defined in [controllers/admin/AdminAddonsCatalogController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddonsCatalogController.php#35)
 
 
 

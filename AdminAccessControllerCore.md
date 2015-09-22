@@ -9,7 +9,8 @@ AdminAccessControllerCore
 * Class name: AdminAccessControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminAccessController.php line 30
+
+* This class is defined in [controllers/admin/AdminAccessController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminAccessController.php line 33
+* This property is defined in [controllers/admin/AdminAccessController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#33)
 
 
 ### $object
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminAccessController.php line 30
+* This property is defined in [controllers/admin/AdminAccessController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAccessController.php line 35
+* This method is defined in [controllers/admin/AdminAccessController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#35)
 
 
 
@@ -70,7 +71,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAccessController.php line 55
+* This method is defined in [controllers/admin/AdminAccessController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#55)
 
 
 
@@ -84,7 +85,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAccessController.php line 124
+* This method is defined in [controllers/admin/AdminAccessController.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#124)
 
 
 
@@ -98,7 +99,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAccessController.php line 144
+* This method is defined in [controllers/admin/AdminAccessController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#144)
 
 
 
@@ -112,7 +113,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAccessController.php line 149
+* This method is defined in [controllers/admin/AdminAccessController.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#149)
 
 
 
@@ -126,7 +127,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAccessController.php line 155
+* This method is defined in [controllers/admin/AdminAccessController.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#155)
 
 
 
@@ -140,7 +141,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAccessController.php line 212
+* This method is defined in [controllers/admin/AdminAccessController.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#212)
 
 
 
@@ -154,7 +155,7 @@ Get the current profile id
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAccessController.php line 255
+* This method is defined in [controllers/admin/AdminAccessController.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#255)
 
 
 
@@ -168,7 +169,7 @@ Get the current profile id
 
 
 * Visibility: **private**
-* This method is defined in controllers\admin\AdminAccessController.php line 260
+* This method is defined in [controllers/admin/AdminAccessController.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAccessController.php#260)
 
 
 #### Arguments

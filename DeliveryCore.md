@@ -9,7 +9,8 @@ DeliveryCore
 * Class name: DeliveryCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Delivery.php line 27
+
+* This class is defined in [classes/Delivery.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Delivery.php line 30
+* This property is defined in [classes/Delivery.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#30)
 
 
 ### $id_shop
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Delivery.php line 33
+* This property is defined in [classes/Delivery.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#33)
 
 
 ### $id_shop_group
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Delivery.php line 36
+* This property is defined in [classes/Delivery.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#36)
 
 
 ### $id_carrier
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Delivery.php line 39
+* This property is defined in [classes/Delivery.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#39)
 
 
 ### $id_range_price
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Delivery.php line 42
+* This property is defined in [classes/Delivery.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#42)
 
 
 ### $id_range_weight
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Delivery.php line 45
+* This property is defined in [classes/Delivery.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#45)
 
 
 ### $id_zone
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Delivery.php line 48
+* This property is defined in [classes/Delivery.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#48)
 
 
 ### $price
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Delivery.php line 51
+* This property is defined in [classes/Delivery.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#51)
 
 
 ### $definition
@@ -125,7 +126,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Delivery.php line 56
+* This property is defined in [classes/Delivery.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#56)
 
 
 ### $webserviceParameters
@@ -137,7 +138,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Delivery.php line 70
+* This property is defined in [classes/Delivery.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#70)
 
 
 Methods
@@ -153,7 +154,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Delivery.php line 80
+* This method is defined in [classes/Delivery.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Delivery.php#80)
 
 
 

@@ -9,7 +9,8 @@ AdminCmsContentControllerCore
 * Class name: AdminCmsContentControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminCmsContentController.php line 30
+
+* This class is defined in [controllers/admin/AdminCmsContentController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminCmsContentController.php line 33
+* This property is defined in [controllers/admin/AdminCmsContentController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#33)
 
 
 ### $admin_cms
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminCmsContentController.php line 36
+* This property is defined in [controllers/admin/AdminCmsContentController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#36)
 
 
 ### $category
@@ -53,7 +54,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in controllers\admin\AdminCmsContentController.php line 39
+* This property is defined in [controllers/admin/AdminCmsContentController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#39)
 
 
 ### $object
@@ -65,7 +66,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminCmsContentController.php line 30
+* This property is defined in [controllers/admin/AdminCmsContentController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#30)
 
 
 Methods
@@ -81,7 +82,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCmsContentController.php line 41
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#41)
 
 
 
@@ -96,7 +97,7 @@ Return current category
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminCmsContentController.php line 73
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#73)
 
 
 
@@ -110,7 +111,7 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCmsContentController.php line 78
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#78)
 
 
 #### Arguments
@@ -127,7 +128,7 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCmsContentController.php line 86
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#86)
 
 
 
@@ -141,7 +142,7 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCmsContentController.php line 132
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#132)
 
 
 
@@ -155,7 +156,7 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCmsContentController.php line 196
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#196)
 
 
 
@@ -169,7 +170,7 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCmsContentController.php line 225
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#225)
 
 
 
@@ -183,7 +184,7 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCmsContentController.php line 232
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#232)
 
 
 
@@ -197,7 +198,7 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCmsContentController.php line 261
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#261)
 
 
 
@@ -211,7 +212,7 @@ Return current category
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCmsContentController.php line 290
+* This method is defined in [controllers/admin/AdminCmsContentController.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCmsContentController.php#290)
 
 
 

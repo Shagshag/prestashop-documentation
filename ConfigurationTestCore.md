@@ -8,7 +8,8 @@ ConfigurationTestCore
 
 * Class name: ConfigurationTestCore
 * Namespace: 
-* This class is defined in classes\ConfigurationTest.php line 27
+
+* This class is defined in [classes/ConfigurationTest.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\ConfigurationTest.php line 29
+* This property is defined in [classes/ConfigurationTest.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#29)
 
 
 Methods
@@ -46,7 +47,7 @@ all path are _PS_ROOT_DIR_ related
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 61
+* This method is defined in [classes/ConfigurationTest.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#61)
 
 
 
@@ -61,7 +62,7 @@ key are method name, value are parameters (false for no parameter)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 102
+* This method is defined in [classes/ConfigurationTest.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#102)
 
 
 
@@ -76,7 +77,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 123
+* This method is defined in [classes/ConfigurationTest.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#123)
 
 
 #### Arguments
@@ -94,7 +95,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 132
+* This method is defined in [classes/ConfigurationTest.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#132)
 
 
 #### Arguments
@@ -113,7 +114,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 140
+* This method is defined in [classes/ConfigurationTest.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#140)
 
 
 
@@ -128,7 +129,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 145
+* This method is defined in [classes/ConfigurationTest.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#145)
 
 
 
@@ -143,7 +144,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 150
+* This method is defined in [classes/ConfigurationTest.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#150)
 
 
 
@@ -158,7 +159,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 155
+* This method is defined in [classes/ConfigurationTest.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#155)
 
 
 
@@ -173,7 +174,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 160
+* This method is defined in [classes/ConfigurationTest.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#160)
 
 
 
@@ -188,7 +189,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 165
+* This method is defined in [classes/ConfigurationTest.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#165)
 
 
 
@@ -203,7 +204,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 170
+* This method is defined in [classes/ConfigurationTest.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#170)
 
 
 
@@ -218,7 +219,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 175
+* This method is defined in [classes/ConfigurationTest.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#175)
 
 
 #### Arguments
@@ -236,7 +237,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 185
+* This method is defined in [classes/ConfigurationTest.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#185)
 
 
 
@@ -251,7 +252,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 190
+* This method is defined in [classes/ConfigurationTest.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#190)
 
 
 
@@ -266,7 +267,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 195
+* This method is defined in [classes/ConfigurationTest.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#195)
 
 
 
@@ -281,7 +282,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 203
+* This method is defined in [classes/ConfigurationTest.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#203)
 
 
 #### Arguments
@@ -301,7 +302,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 236
+* This method is defined in [classes/ConfigurationTest.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#236)
 
 
 #### Arguments
@@ -319,7 +320,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 242
+* This method is defined in [classes/ConfigurationTest.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#242)
 
 
 #### Arguments
@@ -337,7 +338,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 247
+* This method is defined in [classes/ConfigurationTest.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#247)
 
 
 #### Arguments
@@ -355,7 +356,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 252
+* This method is defined in [classes/ConfigurationTest.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#252)
 
 
 #### Arguments
@@ -373,7 +374,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 257
+* This method is defined in [classes/ConfigurationTest.php line 257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#257)
 
 
 #### Arguments
@@ -391,7 +392,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 262
+* This method is defined in [classes/ConfigurationTest.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#262)
 
 
 #### Arguments
@@ -409,7 +410,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 267
+* This method is defined in [classes/ConfigurationTest.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#267)
 
 
 #### Arguments
@@ -427,7 +428,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 272
+* This method is defined in [classes/ConfigurationTest.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#272)
 
 
 #### Arguments
@@ -445,7 +446,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 277
+* This method is defined in [classes/ConfigurationTest.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#277)
 
 
 #### Arguments
@@ -463,7 +464,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 282
+* This method is defined in [classes/ConfigurationTest.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#282)
 
 
 #### Arguments
@@ -481,7 +482,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 287
+* This method is defined in [classes/ConfigurationTest.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#287)
 
 
 #### Arguments
@@ -499,7 +500,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 292
+* This method is defined in [classes/ConfigurationTest.php line 292](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#292)
 
 
 #### Arguments
@@ -517,7 +518,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 297
+* This method is defined in [classes/ConfigurationTest.php line 297](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#297)
 
 
 #### Arguments
@@ -535,7 +536,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 302
+* This method is defined in [classes/ConfigurationTest.php line 302](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#302)
 
 
 #### Arguments
@@ -553,7 +554,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 307
+* This method is defined in [classes/ConfigurationTest.php line 307](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#307)
 
 
 #### Arguments
@@ -571,7 +572,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 316
+* This method is defined in [classes/ConfigurationTest.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#316)
 
 
 #### Arguments
@@ -589,7 +590,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 325
+* This method is defined in [classes/ConfigurationTest.php line 325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#325)
 
 
 #### Arguments
@@ -607,7 +608,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 334
+* This method is defined in [classes/ConfigurationTest.php line 334](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#334)
 
 
 #### Arguments
@@ -625,7 +626,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 339
+* This method is defined in [classes/ConfigurationTest.php line 339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#339)
 
 
 #### Arguments
@@ -643,7 +644,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 344
+* This method is defined in [classes/ConfigurationTest.php line 344](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#344)
 
 
 
@@ -658,7 +659,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 349
+* This method is defined in [classes/ConfigurationTest.php line 349](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#349)
 
 
 
@@ -673,7 +674,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 354
+* This method is defined in [classes/ConfigurationTest.php line 354](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#354)
 
 
 
@@ -688,7 +689,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 362
+* This method is defined in [classes/ConfigurationTest.php line 362](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#362)
 
 
 
@@ -703,7 +704,7 @@ run all test defined in $tests
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationTest.php line 367
+* This method is defined in [classes/ConfigurationTest.php line 367](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationTest.php#367)
 
 
 #### Arguments

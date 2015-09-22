@@ -9,7 +9,8 @@ AdminAdminPreferencesControllerCore
 * Class name: AdminAdminPreferencesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminAdminPreferencesController.php line 30
+
+* This class is defined in [controllers/admin/AdminAdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminAdminPreferencesController.php line 30
+* This property is defined in [controllers/admin/AdminAdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAdminPreferencesController.php line 32
+* This method is defined in [controllers/admin/AdminAdminPreferencesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAdminPreferencesController.php line 157
+* This method is defined in [controllers/admin/AdminAdminPreferencesController.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#157)
 
 
 
@@ -72,7 +73,7 @@ Update PS_ATTACHMENT_MAXIMUM_SIZE
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAdminPreferencesController.php line 184
+* This method is defined in [controllers/admin/AdminAdminPreferencesController.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#184)
 
 
 #### Arguments

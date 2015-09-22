@@ -9,7 +9,8 @@ AdminZonesControllerCore
 * Class name: AdminZonesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminZonesController.php line 30
+
+* This class is defined in [controllers/admin/AdminZonesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminZonesController.php line 32
+* This property is defined in [controllers/admin/AdminZonesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#32)
 
 
 ### $object
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminZonesController.php line 30
+* This property is defined in [controllers/admin/AdminZonesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminZonesController.php line 34
+* This method is defined in [controllers/admin/AdminZonesController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#34)
 
 
 
@@ -70,7 +71,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminZonesController.php line 70
+* This method is defined in [controllers/admin/AdminZonesController.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#70)
 
 
 
@@ -84,7 +85,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminZonesController.php line 83
+* This method is defined in [controllers/admin/AdminZonesController.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#83)
 
 
 
@@ -98,7 +99,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminZonesController.php line 91
+* This method is defined in [controllers/admin/AdminZonesController.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminZonesController.php#91)
 
 
 

@@ -9,7 +9,8 @@ ProductSupplierCore
 * Class name: ProductSupplierCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\ProductSupplier.php line 30
+
+* This class is defined in [classes/ProductSupplier.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductSupplier.php line 35
+* This property is defined in [classes/ProductSupplier.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#35)
 
 
 ### $id_product_attribute
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductSupplier.php line 40
+* This property is defined in [classes/ProductSupplier.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#40)
 
 
 ### $id_supplier
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductSupplier.php line 45
+* This property is defined in [classes/ProductSupplier.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#45)
 
 
 ### $product_supplier_reference
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductSupplier.php line 50
+* This property is defined in [classes/ProductSupplier.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#50)
 
 
 ### $id_currency
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductSupplier.php line 55
+* This property is defined in [classes/ProductSupplier.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#55)
 
 
 ### $product_supplier_price_te
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductSupplier.php line 60
+* This property is defined in [classes/ProductSupplier.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#60)
 
 
 ### $definition
@@ -101,7 +102,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\ProductSupplier.php line 65
+* This property is defined in [classes/ProductSupplier.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#65)
 
 
 ### $webserviceParameters
@@ -113,7 +114,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ProductSupplier.php line 81
+* This property is defined in [classes/ProductSupplier.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#81)
 
 
 Methods
@@ -129,7 +130,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\ProductSupplier.php line 95
+* This method is defined in [classes/ProductSupplier.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#95)
 
 
 
@@ -144,7 +145,7 @@ For a given product and supplier, gets the product supplier reference
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductSupplier.php line 120
+* This method is defined in [classes/ProductSupplier.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#120)
 
 
 #### Arguments
@@ -164,7 +165,7 @@ For a given product and supplier, gets the product supplier unit price
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductSupplier.php line 143
+* This method is defined in [classes/ProductSupplier.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#143)
 
 
 #### Arguments
@@ -185,7 +186,7 @@ For a given product and supplier, gets corresponding ProductSupplier ID
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductSupplier.php line 177
+* This method is defined in [classes/ProductSupplier.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#177)
 
 
 #### Arguments
@@ -205,7 +206,7 @@ For a given product, retrieves its suppliers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductSupplier.php line 198
+* This method is defined in [classes/ProductSupplier.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#198)
 
 
 #### Arguments
@@ -224,7 +225,7 @@ For a given Supplier, Product, returns the purchased price
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductSupplier.php line 218
+* This method is defined in [classes/ProductSupplier.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSupplier.php#218)
 
 
 #### Arguments

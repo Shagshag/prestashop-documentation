@@ -9,7 +9,8 @@ AdminStockConfigurationControllerCore
 * Class name: AdminStockConfigurationControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminStockConfigurationController.php line 31
+
+* This class is defined in [controllers/admin/AdminStockConfigurationController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#31)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminStockConfigurationController.php line 31
+* This property is defined in [controllers/admin/AdminStockConfigurationController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#31)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 36
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#36)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 129
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#129)
 
 
 
@@ -72,7 +73,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 148
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#148)
 
 
 
@@ -86,7 +87,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 366
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#366)
 
 
 
@@ -100,7 +101,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 415
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 415](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#415)
 
 
 
@@ -114,7 +115,7 @@ AdminController::postProcess() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 493
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#493)
 
 
 
@@ -128,7 +129,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 530
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 530](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#530)
 
 
 #### Arguments
@@ -150,7 +151,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 550
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 550](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#550)
 
 
 
@@ -164,7 +165,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 559
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 559](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#559)
 
 
 
@@ -178,7 +179,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 568
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 568](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#568)
 
 
 
@@ -192,7 +193,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 582
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 582](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#582)
 
 
 
@@ -206,7 +207,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 596
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 596](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#596)
 
 
 
@@ -220,7 +221,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 610
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 610](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#610)
 
 
 
@@ -234,7 +235,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockConfigurationController.php line 624
+* This method is defined in [controllers/admin/AdminStockConfigurationController.php line 624](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockConfigurationController.php#624)
 
 
 

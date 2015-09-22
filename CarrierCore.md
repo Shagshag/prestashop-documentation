@@ -9,7 +9,8 @@ CarrierCore
 * Class name: CarrierCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Carrier.php line 27
+
+* This class is defined in [classes/Carrier.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#27)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 32
+* This constant is defined in [classes/Carrier.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#32)
 
 
 ### CARRIERS_MODULE
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 33
+* This constant is defined in [classes/Carrier.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#33)
 
 
 ### CARRIERS_MODULE_NEED_RANGE
@@ -41,7 +42,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 34
+* This constant is defined in [classes/Carrier.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#34)
 
 
 ### PS_CARRIERS_AND_CARRIER_MODULES_NEED_RANGE
@@ -50,7 +51,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 35
+* This constant is defined in [classes/Carrier.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#35)
 
 
 ### ALL_CARRIERS
@@ -59,7 +60,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 36
+* This constant is defined in [classes/Carrier.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#36)
 
 
 ### SHIPPING_METHOD_DEFAULT
@@ -68,7 +69,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 38
+* This constant is defined in [classes/Carrier.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#38)
 
 
 ### SHIPPING_METHOD_WEIGHT
@@ -77,7 +78,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 39
+* This constant is defined in [classes/Carrier.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#39)
 
 
 ### SHIPPING_METHOD_PRICE
@@ -86,7 +87,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 40
+* This constant is defined in [classes/Carrier.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#40)
 
 
 ### SHIPPING_METHOD_FREE
@@ -95,7 +96,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 41
+* This constant is defined in [classes/Carrier.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#41)
 
 
 ### SHIPPING_PRICE_EXCEPTION
@@ -104,7 +105,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 43
+* This constant is defined in [classes/Carrier.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#43)
 
 
 ### SHIPPING_WEIGHT_EXCEPTION
@@ -113,7 +114,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 44
+* This constant is defined in [classes/Carrier.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#44)
 
 
 ### SHIPPING_SIZE_EXCEPTION
@@ -122,7 +123,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 45
+* This constant is defined in [classes/Carrier.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#45)
 
 
 ### SORT_BY_PRICE
@@ -131,7 +132,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 47
+* This constant is defined in [classes/Carrier.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#47)
 
 
 ### SORT_BY_POSITION
@@ -140,7 +141,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 48
+* This constant is defined in [classes/Carrier.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#48)
 
 
 ### SORT_BY_ASC
@@ -149,7 +150,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 50
+* This constant is defined in [classes/Carrier.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#50)
 
 
 ### SORT_BY_DESC
@@ -158,7 +159,7 @@ Constants
 
 
 
-* This constant is defined in classes\Carrier.php line 51
+* This constant is defined in [classes/Carrier.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#51)
 
 
 Properties
@@ -174,7 +175,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 54
+* This property is defined in [classes/Carrier.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#54)
 
 
 ### $name
@@ -186,7 +187,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 57
+* This property is defined in [classes/Carrier.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#57)
 
 
 ### $url
@@ -198,7 +199,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 60
+* This property is defined in [classes/Carrier.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#60)
 
 
 ### $delay
@@ -210,7 +211,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 63
+* This property is defined in [classes/Carrier.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#63)
 
 
 ### $active
@@ -222,7 +223,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 66
+* This property is defined in [classes/Carrier.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#66)
 
 
 ### $deleted
@@ -234,7 +235,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 69
+* This property is defined in [classes/Carrier.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#69)
 
 
 ### $shipping_handling
@@ -246,7 +247,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 72
+* This property is defined in [classes/Carrier.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#72)
 
 
 ### $range_behavior
@@ -258,7 +259,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 75
+* This property is defined in [classes/Carrier.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#75)
 
 
 ### $is_module
@@ -270,7 +271,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 78
+* This property is defined in [classes/Carrier.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#78)
 
 
 ### $is_free
@@ -282,7 +283,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 81
+* This property is defined in [classes/Carrier.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#81)
 
 
 ### $shipping_method
@@ -294,7 +295,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 84
+* This property is defined in [classes/Carrier.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#84)
 
 
 ### $shipping_external
@@ -306,7 +307,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 87
+* This property is defined in [classes/Carrier.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#87)
 
 
 ### $external_module_name
@@ -318,7 +319,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 90
+* This property is defined in [classes/Carrier.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#90)
 
 
 ### $need_range
@@ -330,7 +331,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 93
+* This property is defined in [classes/Carrier.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#93)
 
 
 ### $position
@@ -342,7 +343,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 96
+* This property is defined in [classes/Carrier.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#96)
 
 
 ### $max_width
@@ -354,7 +355,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 99
+* This property is defined in [classes/Carrier.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#99)
 
 
 ### $max_height
@@ -366,7 +367,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 102
+* This property is defined in [classes/Carrier.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#102)
 
 
 ### $max_depth
@@ -378,7 +379,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 105
+* This property is defined in [classes/Carrier.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#105)
 
 
 ### $max_weight
@@ -390,7 +391,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 108
+* This property is defined in [classes/Carrier.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#108)
 
 
 ### $grade
@@ -402,7 +403,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Carrier.php line 111
+* This property is defined in [classes/Carrier.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#111)
 
 
 ### $definition
@@ -415,7 +416,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Carrier.php line 116
+* This property is defined in [classes/Carrier.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#116)
 
 
 ### $price_by_weight
@@ -428,7 +429,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Carrier.php line 148
+* This property is defined in [classes/Carrier.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#148)
 
 
 ### $price_by_weight2
@@ -441,7 +442,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Carrier.php line 149
+* This property is defined in [classes/Carrier.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#149)
 
 
 ### $price_by_price
@@ -454,7 +455,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Carrier.php line 150
+* This property is defined in [classes/Carrier.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#150)
 
 
 ### $price_by_price2
@@ -467,7 +468,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Carrier.php line 151
+* This property is defined in [classes/Carrier.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#151)
 
 
 ### $cache_tax_rule
@@ -480,7 +481,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Carrier.php line 153
+* This property is defined in [classes/Carrier.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#153)
 
 
 ### $webserviceParameters
@@ -492,7 +493,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Carrier.php line 155
+* This property is defined in [classes/Carrier.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#155)
 
 
 Methods
@@ -508,7 +509,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 169
+* This method is defined in [classes/Carrier.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#169)
 
 
 #### Arguments
@@ -526,7 +527,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 196
+* This method is defined in [classes/Carrier.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#196)
 
 
 #### Arguments
@@ -544,7 +545,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 221
+* This method is defined in [classes/Carrier.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#221)
 
 
 
@@ -558,7 +559,7 @@ Change carrier id in delivery prices when updating a carrier
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 236
+* This method is defined in [classes/Carrier.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#236)
 
 
 #### Arguments
@@ -575,7 +576,7 @@ Get delivery prices for a given order
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 248
+* This method is defined in [classes/Carrier.php line 248](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#248)
 
 
 #### Arguments
@@ -594,7 +595,7 @@ Get delivery prices for a given order
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 278
+* This method is defined in [classes/Carrier.php line 278](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#278)
 
 
 #### Arguments
@@ -613,7 +614,7 @@ Get delivery prices for a given order
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 304
+* This method is defined in [classes/Carrier.php line 304](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#304)
 
 
 #### Arguments
@@ -630,7 +631,7 @@ Get delivery prices for a given order
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 330
+* This method is defined in [classes/Carrier.php line 330](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#330)
 
 
 #### Arguments
@@ -650,7 +651,7 @@ Check delivery prices for a given order
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 373
+* This method is defined in [classes/Carrier.php line 373](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#373)
 
 
 #### Arguments
@@ -670,7 +671,7 @@ Check delivery prices for a given order
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 403
+* This method is defined in [classes/Carrier.php line 403](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#403)
 
 
 #### Arguments
@@ -688,7 +689,7 @@ Get delivery prices for a given shipping method (price/weight)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 426
+* This method is defined in [classes/Carrier.php line 426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#426)
 
 
 #### Arguments
@@ -707,7 +708,7 @@ Get all carriers in a given language
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 452
+* This method is defined in [classes/Carrier.php line 452](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#452)
 
 
 #### Arguments
@@ -730,7 +731,7 @@ Get all carriers in a given language
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 511
+* This method is defined in [classes/Carrier.php line 511](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#511)
 
 
 
@@ -745,7 +746,7 @@ Get all carriers in a given language
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 527
+* This method is defined in [classes/Carrier.php line 527](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#527)
 
 
 #### Arguments
@@ -766,7 +767,7 @@ Return the default carrier to use
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 573
+* This method is defined in [classes/Carrier.php line 573](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#573)
 
 
 #### Arguments
@@ -785,7 +786,7 @@ Return the default carrier to use
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 602
+* This method is defined in [classes/Carrier.php line 602](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#602)
 
 
 #### Arguments
@@ -806,7 +807,7 @@ Return the default carrier to use
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 689
+* This method is defined in [classes/Carrier.php line 689](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#689)
 
 
 #### Arguments
@@ -824,7 +825,7 @@ Get all zones
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 713
+* This method is defined in [classes/Carrier.php line 713](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#713)
 
 
 
@@ -838,7 +839,7 @@ Get a specific zones
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 727
+* This method is defined in [classes/Carrier.php line 727](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#727)
 
 
 #### Arguments
@@ -855,7 +856,7 @@ Add zone
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 739
+* This method is defined in [classes/Carrier.php line 739](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#739)
 
 
 #### Arguments
@@ -872,7 +873,7 @@ Delete zone
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 774
+* This method is defined in [classes/Carrier.php line 774](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#774)
 
 
 #### Arguments
@@ -889,7 +890,7 @@ Gets a specific group
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 795
+* This method is defined in [classes/Carrier.php line 795](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#795)
 
 
 
@@ -903,7 +904,7 @@ Clean delivery prices (weight/price)
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 809
+* This method is defined in [classes/Carrier.php line 809](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#809)
 
 
 #### Arguments
@@ -920,7 +921,7 @@ Add new delivery prices
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 830
+* This method is defined in [classes/Carrier.php line 830](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#830)
 
 
 #### Arguments
@@ -938,7 +939,7 @@ Copy old carrier informations when update carrier
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 887
+* This method is defined in [classes/Carrier.php line 887](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#887)
 
 
 #### Arguments
@@ -956,7 +957,7 @@ Get carrier using the reference id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 977
+* This method is defined in [classes/Carrier.php line 977](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#977)
 
 
 #### Arguments
@@ -973,7 +974,7 @@ Check if carrier is used (at least one order placed)
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 993
+* This method is defined in [classes/Carrier.php line 993](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#993)
 
 
 
@@ -987,7 +988,7 @@ Check if carrier is used (at least one order placed)
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 1003
+* This method is defined in [classes/Carrier.php line 1003](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1003)
 
 
 
@@ -1001,7 +1002,7 @@ Check if carrier is used (at least one order placed)
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 1023
+* This method is defined in [classes/Carrier.php line 1023](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1023)
 
 
 
@@ -1015,7 +1016,7 @@ Check if carrier is used (at least one order placed)
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 1034
+* This method is defined in [classes/Carrier.php line 1034](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1034)
 
 
 #### Arguments
@@ -1032,7 +1033,7 @@ Check if carrier is used (at least one order placed)
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 1048
+* This method is defined in [classes/Carrier.php line 1048](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1048)
 
 
 #### Arguments
@@ -1049,7 +1050,7 @@ Check if carrier is used (at least one order placed)
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 1060
+* This method is defined in [classes/Carrier.php line 1060](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1060)
 
 
 #### Arguments
@@ -1067,7 +1068,7 @@ Check if carrier is used (at least one order placed)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 1065
+* This method is defined in [classes/Carrier.php line 1065](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1065)
 
 
 #### Arguments
@@ -1085,7 +1086,7 @@ Check if carrier is used (at least one order placed)
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 1082
+* This method is defined in [classes/Carrier.php line 1082](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1082)
 
 
 #### Arguments
@@ -1102,7 +1103,7 @@ Check if carrier is used (at least one order placed)
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 1095
+* This method is defined in [classes/Carrier.php line 1095](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1095)
 
 
 #### Arguments
@@ -1120,7 +1121,7 @@ Returns the taxes rate associated to the carrier
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 1128
+* This method is defined in [classes/Carrier.php line 1128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1128)
 
 
 #### Arguments
@@ -1137,7 +1138,7 @@ Returns the taxes calculator associated to the carrier
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 1141
+* This method is defined in [classes/Carrier.php line 1141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1141)
 
 
 #### Arguments
@@ -1157,7 +1158,7 @@ This tricky method generates a sql clause to check if ranged data are overloaded
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 1158
+* This method is defined in [classes/Carrier.php line 1158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1158)
 
 
 #### Arguments
@@ -1175,7 +1176,7 @@ Moves a carrier
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 1190
+* This method is defined in [classes/Carrier.php line 1190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1190)
 
 
 #### Arguments
@@ -1194,7 +1195,7 @@ Called after deleting a carrier.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 1234
+* This method is defined in [classes/Carrier.php line 1234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1234)
 
 
 
@@ -1209,7 +1210,7 @@ Gets the highest carrier position
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 1261
+* This method is defined in [classes/Carrier.php line 1261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1261)
 
 
 
@@ -1224,7 +1225,7 @@ For a given {product, warehouse}, gets the carrier available
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 1283
+* This method is defined in [classes/Carrier.php line 1283](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1283)
 
 
 #### Arguments
@@ -1247,7 +1248,7 @@ Assign one (ore more) group to all carriers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 1420
+* This method is defined in [classes/Carrier.php line 1420](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1420)
 
 
 #### Arguments
@@ -1265,7 +1266,7 @@ Assign one (ore more) group to all carriers
 
 
 * Visibility: **public**
-* This method is defined in classes\Carrier.php line 1451
+* This method is defined in [classes/Carrier.php line 1451](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1451)
 
 
 #### Arguments
@@ -1284,7 +1285,7 @@ The returned carrier name is the shop name without '#' and ';' because this is n
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Carrier.php line 1474
+* This method is defined in [classes/Carrier.php line 1474](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#1474)
 
 
 

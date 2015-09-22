@@ -9,7 +9,8 @@ FeatureValueCore
 * Class name: FeatureValueCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\FeatureValue.php line 27
+
+* This class is defined in [classes/FeatureValue.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\FeatureValue.php line 30
+* This property is defined in [classes/FeatureValue.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#30)
 
 
 ### $value
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\FeatureValue.php line 33
+* This property is defined in [classes/FeatureValue.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#33)
 
 
 ### $custom
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\FeatureValue.php line 36
+* This property is defined in [classes/FeatureValue.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#36)
 
 
 ### $definition
@@ -65,7 +66,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\FeatureValue.php line 41
+* This property is defined in [classes/FeatureValue.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#41)
 
 
 ### $webserviceParameters
@@ -77,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\FeatureValue.php line 54
+* This property is defined in [classes/FeatureValue.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#54)
 
 
 Methods
@@ -94,7 +95,7 @@ Get all values for a given feature
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\FeatureValue.php line 68
+* This method is defined in [classes/FeatureValue.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#68)
 
 
 #### Arguments
@@ -112,7 +113,7 @@ Get all values for a given feature and language
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\FeatureValue.php line 84
+* This method is defined in [classes/FeatureValue.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#84)
 
 
 #### Arguments
@@ -132,7 +133,7 @@ Get all language for a given value
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\FeatureValue.php line 103
+* This method is defined in [classes/FeatureValue.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#103)
 
 
 #### Arguments
@@ -150,7 +151,7 @@ Select the good lang in tab
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\FeatureValue.php line 120
+* This method is defined in [classes/FeatureValue.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#120)
 
 
 #### Arguments
@@ -169,7 +170,7 @@ Select the good lang in tab
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\FeatureValue.php line 129
+* This method is defined in [classes/FeatureValue.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#129)
 
 
 #### Arguments
@@ -190,7 +191,7 @@ Select the good lang in tab
 
 
 * Visibility: **public**
-* This method is defined in classes\FeatureValue.php line 176
+* This method is defined in [classes/FeatureValue.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#176)
 
 
 #### Arguments
@@ -208,7 +209,7 @@ Select the good lang in tab
 
 
 * Visibility: **public**
-* This method is defined in classes\FeatureValue.php line 185
+* This method is defined in [classes/FeatureValue.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#185)
 
 
 
@@ -222,7 +223,7 @@ Select the good lang in tab
 
 
 * Visibility: **public**
-* This method is defined in classes\FeatureValue.php line 200
+* This method is defined in [classes/FeatureValue.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FeatureValue.php#200)
 
 
 #### Arguments

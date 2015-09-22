@@ -9,7 +9,8 @@ Holds Stock
 * Class name: WarehouseCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\stock\Warehouse.php line 32
+
+* This class is defined in [classes/stock/Warehouse.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#32)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\Warehouse.php line 35
+* This property is defined in [classes/stock/Warehouse.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#35)
 
 
 ### $id_address
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\Warehouse.php line 38
+* This property is defined in [classes/stock/Warehouse.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#38)
 
 
 ### $reference
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\Warehouse.php line 41
+* This property is defined in [classes/stock/Warehouse.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#41)
 
 
 ### $name
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\Warehouse.php line 44
+* This property is defined in [classes/stock/Warehouse.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#44)
 
 
 ### $id_employee
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\Warehouse.php line 47
+* This property is defined in [classes/stock/Warehouse.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#47)
 
 
 ### $id_currency
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\Warehouse.php line 50
+* This property is defined in [classes/stock/Warehouse.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#50)
 
 
 ### $deleted
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\Warehouse.php line 53
+* This property is defined in [classes/stock/Warehouse.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#53)
 
 
 ### $management_type
@@ -112,7 +113,7 @@ Describes the way a Warehouse is managed
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\Warehouse.php line 60
+* This property is defined in [classes/stock/Warehouse.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#60)
 
 
 ### $definition
@@ -125,7 +126,7 @@ Describes the way a Warehouse is managed
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\stock\Warehouse.php line 65
+* This property is defined in [classes/stock/Warehouse.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#65)
 
 
 ### $webserviceParameters
@@ -137,7 +138,7 @@ Describes the way a Warehouse is managed
 
 
 * Visibility: **protected**
-* This property is defined in classes\stock\Warehouse.php line 82
+* This property is defined in [classes/stock/Warehouse.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#82)
 
 
 Methods
@@ -153,7 +154,7 @@ Gets the shops associated to the current warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 118
+* This method is defined in [classes/stock/Warehouse.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#118)
 
 
 
@@ -167,7 +168,7 @@ Gets the carriers associated to the current warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 135
+* This method is defined in [classes/stock/Warehouse.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#135)
 
 
 #### Arguments
@@ -184,7 +185,7 @@ Sets the carriers associated to the current warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 169
+* This method is defined in [classes/stock/Warehouse.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#169)
 
 
 #### Arguments
@@ -203,7 +204,7 @@ If $id_warehouse is set, it only removes the carrier for this warehouse
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\Warehouse.php line 196
+* This method is defined in [classes/stock/Warehouse.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#196)
 
 
 #### Arguments
@@ -221,7 +222,7 @@ Checks if a warehouse is empty - i.e. has no stock
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 209
+* This method is defined in [classes/stock/Warehouse.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#209)
 
 
 
@@ -236,7 +237,7 @@ Checks if the given warehouse exists
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\Warehouse.php line 224
+* This method is defined in [classes/stock/Warehouse.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#224)
 
 
 #### Arguments
@@ -255,7 +256,7 @@ First, for the given parameters, it cleans the database before updating
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\Warehouse.php line 244
+* This method is defined in [classes/stock/Warehouse.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#244)
 
 
 #### Arguments
@@ -275,7 +276,7 @@ Resets all product locations for this warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 265
+* This method is defined in [classes/stock/Warehouse.php line 265](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#265)
 
 
 
@@ -290,7 +291,7 @@ For a given {product, product attribute} gets its location in the given warehous
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\Warehouse.php line 280
+* This method is defined in [classes/stock/Warehouse.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#280)
 
 
 #### Arguments
@@ -310,7 +311,7 @@ For a given {product, product attribute} gets warehouse list
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\Warehouse.php line 300
+* This method is defined in [classes/stock/Warehouse.php line 300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#300)
 
 
 #### Arguments
@@ -331,7 +332,7 @@ It is possible via ignore_shop and id_shop to filter the list with shop id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\Warehouse.php line 344
+* This method is defined in [classes/stock/Warehouse.php line 344](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#344)
 
 
 #### Arguments
@@ -350,7 +351,7 @@ Gets warehouses grouped by shops
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\Warehouse.php line 369
+* This method is defined in [classes/stock/Warehouse.php line 369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#369)
 
 
 
@@ -364,7 +365,7 @@ Gets the number of products in the current warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 390
+* This method is defined in [classes/stock/Warehouse.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#390)
 
 
 
@@ -378,7 +379,7 @@ Gets the number of quantities - for all products - in the current warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 410
+* This method is defined in [classes/stock/Warehouse.php line 410](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#410)
 
 
 
@@ -392,7 +393,7 @@ Gets the value of the stock in the current warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 427
+* This method is defined in [classes/stock/Warehouse.php line 427](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#427)
 
 
 
@@ -407,7 +408,7 @@ For a given employee, gets the warehouse(s) he/she manages
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\Warehouse.php line 443
+* This method is defined in [classes/stock/Warehouse.php line 443](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#443)
 
 
 #### Arguments
@@ -425,7 +426,7 @@ For a given product, returns the warehouses it is stored in
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\Warehouse.php line 460
+* This method is defined in [classes/stock/Warehouse.php line 460](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#460)
 
 
 #### Arguments
@@ -444,7 +445,7 @@ For a given $id_warehouse, returns its name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\Warehouse.php line 487
+* This method is defined in [classes/stock/Warehouse.php line 487](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#487)
 
 
 #### Arguments
@@ -462,7 +463,7 @@ For a given pack, returns the warehouse it can be shipped from
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\Warehouse.php line 502
+* This method is defined in [classes/stock/Warehouse.php line 502](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#502)
 
 
 #### Arguments
@@ -480,7 +481,7 @@ For a given pack, returns the warehouse it can be shipped from
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 547
+* This method is defined in [classes/stock/Warehouse.php line 547](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#547)
 
 
 
@@ -494,7 +495,7 @@ Webservice : gets the value of the warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 565
+* This method is defined in [classes/stock/Warehouse.php line 565](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#565)
 
 
 
@@ -508,7 +509,7 @@ Webservice : gets the ids stock associated to this warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 574
+* This method is defined in [classes/stock/Warehouse.php line 574](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#574)
 
 
 
@@ -522,7 +523,7 @@ Webservice : gets the ids shops associated to this warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 588
+* This method is defined in [classes/stock/Warehouse.php line 588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#588)
 
 
 
@@ -536,7 +537,7 @@ Webservice : gets the ids carriers associated to this warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\Warehouse.php line 604
+* This method is defined in [classes/stock/Warehouse.php line 604](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/Warehouse.php#604)
 
 
 

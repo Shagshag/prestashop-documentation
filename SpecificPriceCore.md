@@ -9,7 +9,8 @@ SpecificPriceCore
 * Class name: SpecificPriceCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\SpecificPrice.php line 27
+
+* This class is defined in [classes/SpecificPrice.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 29
+* This property is defined in [classes/SpecificPrice.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#29)
 
 
 ### $id_specific_price_rule
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 30
+* This property is defined in [classes/SpecificPrice.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#30)
 
 
 ### $id_cart
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 31
+* This property is defined in [classes/SpecificPrice.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#31)
 
 
 ### $id_product_attribute
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 32
+* This property is defined in [classes/SpecificPrice.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#32)
 
 
 ### $id_shop
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 33
+* This property is defined in [classes/SpecificPrice.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#33)
 
 
 ### $id_shop_group
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 34
+* This property is defined in [classes/SpecificPrice.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#34)
 
 
 ### $id_currency
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 35
+* This property is defined in [classes/SpecificPrice.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#35)
 
 
 ### $id_country
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 36
+* This property is defined in [classes/SpecificPrice.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#36)
 
 
 ### $id_group
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 37
+* This property is defined in [classes/SpecificPrice.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#37)
 
 
 ### $id_customer
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 38
+* This property is defined in [classes/SpecificPrice.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#38)
 
 
 ### $price
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 39
+* This property is defined in [classes/SpecificPrice.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#39)
 
 
 ### $from_quantity
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 40
+* This property is defined in [classes/SpecificPrice.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#40)
 
 
 ### $reduction
@@ -172,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 41
+* This property is defined in [classes/SpecificPrice.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#41)
 
 
 ### $reduction_tax
@@ -184,7 +185,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 42
+* This property is defined in [classes/SpecificPrice.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#42)
 
 
 ### $reduction_type
@@ -196,7 +197,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 43
+* This property is defined in [classes/SpecificPrice.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#43)
 
 
 ### $from
@@ -208,7 +209,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 44
+* This property is defined in [classes/SpecificPrice.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#44)
 
 
 ### $to
@@ -220,7 +221,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPrice.php line 45
+* This property is defined in [classes/SpecificPrice.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#45)
 
 
 ### $definition
@@ -233,7 +234,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\SpecificPrice.php line 50
+* This property is defined in [classes/SpecificPrice.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#50)
 
 
 ### $webserviceParameters
@@ -245,7 +246,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\SpecificPrice.php line 74
+* This property is defined in [classes/SpecificPrice.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#74)
 
 
 ### $_specificPriceCache
@@ -258,7 +259,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\SpecificPrice.php line 91
+* This property is defined in [classes/SpecificPrice.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#91)
 
 
 ### $_cache_priorities
@@ -271,7 +272,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\SpecificPrice.php line 92
+* This property is defined in [classes/SpecificPrice.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#92)
 
 
 Methods
@@ -287,7 +288,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\SpecificPrice.php line 94
+* This method is defined in [classes/SpecificPrice.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#94)
 
 
 #### Arguments
@@ -305,7 +306,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\SpecificPrice.php line 107
+* This method is defined in [classes/SpecificPrice.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#107)
 
 
 #### Arguments
@@ -322,7 +323,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\SpecificPrice.php line 118
+* This method is defined in [classes/SpecificPrice.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#118)
 
 
 
@@ -337,7 +338,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 131
+* This method is defined in [classes/SpecificPrice.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#131)
 
 
 #### Arguments
@@ -357,7 +358,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 141
+* This method is defined in [classes/SpecificPrice.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#141)
 
 
 #### Arguments
@@ -377,7 +378,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 149
+* This method is defined in [classes/SpecificPrice.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#149)
 
 
 #### Arguments
@@ -397,7 +398,7 @@ score generation for quantity discount
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 162
+* This method is defined in [classes/SpecificPrice.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#162)
 
 
 #### Arguments
@@ -420,7 +421,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 176
+* This method is defined in [classes/SpecificPrice.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#176)
 
 
 #### Arguments
@@ -438,7 +439,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 201
+* This method is defined in [classes/SpecificPrice.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#201)
 
 
 #### Arguments
@@ -465,7 +466,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 241
+* This method is defined in [classes/SpecificPrice.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#241)
 
 
 #### Arguments
@@ -483,7 +484,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 255
+* This method is defined in [classes/SpecificPrice.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#255)
 
 
 
@@ -498,7 +499,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 262
+* This method is defined in [classes/SpecificPrice.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#262)
 
 
 #### Arguments
@@ -517,7 +518,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 276
+* This method is defined in [classes/SpecificPrice.php line 276](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#276)
 
 
 #### Arguments
@@ -542,7 +543,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 323
+* This method is defined in [classes/SpecificPrice.php line 323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#323)
 
 
 #### Arguments
@@ -567,7 +568,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 353
+* This method is defined in [classes/SpecificPrice.php line 353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#353)
 
 
 #### Arguments
@@ -592,7 +593,7 @@ score generation for quantity discount
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 384
+* This method is defined in [classes/SpecificPrice.php line 384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#384)
 
 
 #### Arguments
@@ -609,7 +610,7 @@ score generation for quantity discount
 
 
 * Visibility: **public**
-* This method is defined in classes\SpecificPrice.php line 394
+* This method is defined in [classes/SpecificPrice.php line 394](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#394)
 
 
 #### Arguments
@@ -627,7 +628,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 408
+* This method is defined in [classes/SpecificPrice.php line 408](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#408)
 
 
 
@@ -642,7 +643,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPrice.php line 418
+* This method is defined in [classes/SpecificPrice.php line 418](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPrice.php#418)
 
 
 #### Arguments

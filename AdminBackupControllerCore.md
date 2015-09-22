@@ -9,7 +9,8 @@ AdminBackupControllerCore
 * Class name: AdminBackupControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminBackupController.php line 30
+
+* This class is defined in [controllers/admin/AdminBackupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminBackupController.php line 33
+* This property is defined in [controllers/admin/AdminBackupController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#33)
 
 
 ### $object
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminBackupController.php line 30
+* This property is defined in [controllers/admin/AdminBackupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminBackupController.php line 35
+* This method is defined in [controllers/admin/AdminBackupController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#35)
 
 
 
@@ -70,7 +71,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminBackupController.php line 82
+* This method is defined in [controllers/admin/AdminBackupController.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#82)
 
 
 
@@ -84,7 +85,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminBackupController.php line 90
+* This method is defined in [controllers/admin/AdminBackupController.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#90)
 
 
 
@@ -98,7 +99,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminBackupController.php line 106
+* This method is defined in [controllers/admin/AdminBackupController.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#106)
 
 
 
@@ -112,7 +113,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminBackupController.php line 113
+* This method is defined in [controllers/admin/AdminBackupController.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#113)
 
 
 
@@ -126,7 +127,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminBackupController.php line 133
+* This method is defined in [controllers/admin/AdminBackupController.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#133)
 
 
 
@@ -143,7 +144,7 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminBackupController.php line 150
+* This method is defined in [controllers/admin/AdminBackupController.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#150)
 
 
 #### Arguments
@@ -160,7 +161,7 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminBackupController.php line 162
+* This method is defined in [controllers/admin/AdminBackupController.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#162)
 
 
 
@@ -174,7 +175,7 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminBackupController.php line 191
+* This method is defined in [controllers/admin/AdminBackupController.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#191)
 
 
 #### Arguments
@@ -196,7 +197,7 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminBackupController.php line 301
+* This method is defined in [controllers/admin/AdminBackupController.php line 301](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#301)
 
 
 #### Arguments
@@ -214,7 +215,7 @@ This method overrides the one in AdminTab because AdminTab assumes the id is a U
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminBackupController.php line 307
+* This method is defined in [controllers/admin/AdminBackupController.php line 307](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminBackupController.php#307)
 
 
 #### Arguments

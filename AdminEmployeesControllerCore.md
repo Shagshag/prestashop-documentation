@@ -9,7 +9,8 @@ AdminEmployeesControllerCore
 * Class name: AdminEmployeesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminEmployeesController.php line 30
+
+* This class is defined in [controllers/admin/AdminEmployeesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminEmployeesController.php line 33
+* This property is defined in [controllers/admin/AdminEmployeesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#33)
 
 
 ### $themes
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminEmployeesController.php line 36
+* This property is defined in [controllers/admin/AdminEmployeesController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#36)
 
 
 ### $tabs_list
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminEmployeesController.php line 39
+* This property is defined in [controllers/admin/AdminEmployeesController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#39)
 
 
 ### $restrict_edition
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminEmployeesController.php line 41
+* This property is defined in [controllers/admin/AdminEmployeesController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#41)
 
 
 ### $object
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminEmployeesController.php line 30
+* This property is defined in [controllers/admin/AdminEmployeesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#30)
 
 
 Methods
@@ -92,7 +93,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 43
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#43)
 
 
 
@@ -106,7 +107,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 168
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#168)
 
 
 
@@ -120,7 +121,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 176
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#176)
 
 
 
@@ -134,7 +135,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 200
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#200)
 
 
 
@@ -148,7 +149,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 211
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 211](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#211)
 
 
 
@@ -162,7 +163,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 430
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 430](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#430)
 
 
 
@@ -176,7 +177,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 447
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 447](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#447)
 
 
 
@@ -190,7 +191,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 456
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 456](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#456)
 
 
 
@@ -204,7 +205,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 465
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 465](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#465)
 
 
 
@@ -218,7 +219,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 479
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 479](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#479)
 
 
 
@@ -232,7 +233,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 502
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 502](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#502)
 
 
 
@@ -246,7 +247,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 603
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#603)
 
 
 #### Arguments
@@ -263,7 +264,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 615
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#615)
 
 
 
@@ -277,7 +278,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 626
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#626)
 
 
 
@@ -291,7 +292,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 640
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 640](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#640)
 
 
 #### Arguments
@@ -308,7 +309,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 661
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 661](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#661)
 
 
 
@@ -322,7 +323,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 670
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#670)
 
 
 
@@ -336,7 +337,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmployeesController.php line 675
+* This method is defined in [controllers/admin/AdminEmployeesController.php line 675](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmployeesController.php#675)
 
 
 

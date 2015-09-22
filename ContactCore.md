@@ -9,7 +9,8 @@ ContactCore
 * Class name: ContactCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Contact.php line 27
+
+* This class is defined in [classes/Contact.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Contact.php line 29
+* This property is defined in [classes/Contact.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#29)
 
 
 ### $name
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Contact.php line 32
+* This property is defined in [classes/Contact.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#32)
 
 
 ### $email
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Contact.php line 35
+* This property is defined in [classes/Contact.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#35)
 
 
 ### $description
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Contact.php line 38
+* This property is defined in [classes/Contact.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#38)
 
 
 ### $customer_service
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Contact.php line 40
+* This property is defined in [classes/Contact.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#40)
 
 
 ### $definition
@@ -89,7 +90,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Contact.php line 45
+* This property is defined in [classes/Contact.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#45)
 
 
 Methods
@@ -106,7 +107,7 @@ Return available contacts
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Contact.php line 66
+* This method is defined in [classes/Contact.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#66)
 
 
 #### Arguments
@@ -124,7 +125,7 @@ Return available categories contacts
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Contact.php line 84
+* This method is defined in [classes/Contact.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#84)
 
 
 

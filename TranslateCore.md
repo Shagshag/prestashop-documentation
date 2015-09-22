@@ -8,7 +8,8 @@ TranslateCore
 
 * Class name: TranslateCore
 * Namespace: 
-* This class is defined in classes\Translate.php line 30
+
+* This class is defined in [classes/Translate.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#30)
 
 
 
@@ -30,7 +31,7 @@ Get a translation for an admin controller
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Translate.php line 41
+* This method is defined in [classes/Translate.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#41)
 
 
 #### Arguments
@@ -52,7 +53,7 @@ Return the translation for a string if it exists for the base AdminController or
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Translate.php line 98
+* This method is defined in [classes/Translate.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#98)
 
 
 #### Arguments
@@ -72,7 +73,7 @@ Get a translation for a module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Translate.php line 127
+* This method is defined in [classes/Translate.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#127)
 
 
 #### Arguments
@@ -94,7 +95,7 @@ Get a translation for a PDF
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Translate.php line 221
+* This method is defined in [classes/Translate.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#221)
 
 
 #### Arguments
@@ -113,7 +114,7 @@ Check if string use a specif syntax for sprintf and replace arguments if use it
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Translate.php line 264
+* This method is defined in [classes/Translate.php line 264](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#264)
 
 
 #### Arguments
@@ -132,7 +133,7 @@ Perform operations on translations after everything is escaped and before displa
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Translate.php line 279
+* This method is defined in [classes/Translate.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#279)
 
 
 #### Arguments
@@ -151,7 +152,7 @@ Compatibility method that just calls postProcessTranslation.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Translate.php line 306
+* This method is defined in [classes/Translate.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#306)
 
 
 #### Arguments
@@ -170,7 +171,7 @@ Helper function to make calls to postProcessTranslation more readable.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Translate.php line 314
+* This method is defined in [classes/Translate.php line 314](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#314)
 
 
 #### Arguments

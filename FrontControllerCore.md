@@ -23,7 +23,8 @@ needs please refer to http://www.prestashop.com for more information.
 * Class name: FrontControllerCore
 * Namespace: 
 * Parent class: [Controller](ControllerCore)
-* This class is defined in classes\controller\FrontController.php line 27
+
+* This class is defined in [classes/controller/FrontController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#27)
 
 
 
@@ -43,7 +44,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\controller\FrontController.php line 33
+* This property is defined in [classes/controller/FrontController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#33)
 
 
 ### $cookie
@@ -56,7 +57,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\controller\FrontController.php line 39
+* This property is defined in [classes/controller/FrontController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#39)
 
 
 ### $link
@@ -69,7 +70,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\controller\FrontController.php line 45
+* This property is defined in [classes/controller/FrontController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#45)
 
 
 ### $cart
@@ -82,7 +83,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\controller\FrontController.php line 51
+* This property is defined in [classes/controller/FrontController.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#51)
 
 
 ### $errors
@@ -94,7 +95,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 54
+* This property is defined in [classes/controller/FrontController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#54)
 
 
 ### $iso
@@ -106,7 +107,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 57
+* This property is defined in [classes/controller/FrontController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#57)
 
 
 ### $orderBy
@@ -118,7 +119,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 60
+* This property is defined in [classes/controller/FrontController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#60)
 
 
 ### $orderWay
@@ -130,7 +131,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 63
+* This property is defined in [classes/controller/FrontController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#63)
 
 
 ### $p
@@ -142,7 +143,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 66
+* This property is defined in [classes/controller/FrontController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#66)
 
 
 ### $n
@@ -154,7 +155,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 69
+* This property is defined in [classes/controller/FrontController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#69)
 
 
 ### $auth
@@ -166,7 +167,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 72
+* This property is defined in [classes/controller/FrontController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#72)
 
 
 ### $guestAllowed
@@ -178,7 +179,7 @@ If set to true, user can be logged in as guest when checking if logged in.
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 80
+* This property is defined in [classes/controller/FrontController.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#80)
 
 
 ### $authRedirection
@@ -190,7 +191,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 88
+* This property is defined in [classes/controller/FrontController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#88)
 
 
 ### $ssl
@@ -202,7 +203,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 91
+* This property is defined in [classes/controller/FrontController.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#91)
 
 
 ### $restrictedCountry
@@ -214,7 +215,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\FrontController.php line 94
+* This property is defined in [classes/controller/FrontController.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#94)
 
 
 ### $maintenance
@@ -226,7 +227,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\FrontController.php line 97
+* This property is defined in [classes/controller/FrontController.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#97)
 
 
 ### $display_column_left
@@ -238,7 +239,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 100
+* This property is defined in [classes/controller/FrontController.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#100)
 
 
 ### $display_column_right
@@ -250,7 +251,7 @@ Route of PrestaShop page to redirect to after forced login.
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 103
+* This property is defined in [classes/controller/FrontController.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#103)
 
 
 ### $initialized
@@ -263,7 +264,7 @@ Prevents initializing controller more than once.
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\controller\FrontController.php line 111
+* This property is defined in [classes/controller/FrontController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#111)
 
 
 ### $currentCustomerGroups
@@ -276,7 +277,7 @@ Prevents initializing controller more than once.
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\controller\FrontController.php line 116
+* This property is defined in [classes/controller/FrontController.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#116)
 
 
 ### $nb_items_per_page
@@ -288,7 +289,7 @@ Prevents initializing controller more than once.
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\FrontController.php line 121
+* This property is defined in [classes/controller/FrontController.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#121)
 
 
 Methods
@@ -304,7 +305,7 @@ Controller constructor
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 128
+* This method is defined in [classes/controller/FrontController.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#128)
 
 
 
@@ -318,7 +319,7 @@ Check if the controller is available for the current user/visitor
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 163
+* This method is defined in [classes/controller/FrontController.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#163)
 
 
 
@@ -332,7 +333,7 @@ Check if the current user/visitor has valid view permissions
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 174
+* This method is defined in [classes/controller/FrontController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#174)
 
 
 
@@ -347,7 +348,7 @@ class properties, redirects depending on context, etc.
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 198
+* This method is defined in [classes/controller/FrontController.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#198)
 
 
 
@@ -361,7 +362,7 @@ Method that is executed after init() and checkAccess().
 Used to process user input.
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 560
+* This method is defined in [classes/controller/FrontController.php line 560](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#560)
 
 
 
@@ -375,7 +376,7 @@ Initializes common front page content: header, footer and side columns
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 567
+* This method is defined in [classes/controller/FrontController.php line 567](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#567)
 
 
 
@@ -389,7 +390,7 @@ Compiles and outputs page header section (including HTML <head>)
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 595
+* This method is defined in [classes/controller/FrontController.php line 595](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#595)
 
 
 #### Arguments
@@ -406,7 +407,7 @@ Compiles and outputs page footer section
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 636
+* This method is defined in [classes/controller/FrontController.php line 636](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#636)
 
 
 #### Arguments
@@ -423,7 +424,7 @@ Renders and outputs maintenance page and ends controller process.
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 645
+* This method is defined in [classes/controller/FrontController.php line 645](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#645)
 
 
 
@@ -437,7 +438,7 @@ Called before compiling common page sections (header, footer, columns).
 Good place to modify smarty variables.
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 656
+* This method is defined in [classes/controller/FrontController.php line 656](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#656)
 
 
 
@@ -451,7 +452,7 @@ Redirects to redirect_after link
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\FrontController.php line 665
+* This method is defined in [classes/controller/FrontController.php line 665](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#665)
 
 
 
@@ -465,7 +466,7 @@ Renders page content.
 Used for retrocompatibility with PS 1.4
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 674
+* This method is defined in [classes/controller/FrontController.php line 674](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#674)
 
 
 
@@ -479,7 +480,7 @@ Compiles and outputs full page content
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 685
+* This method is defined in [classes/controller/FrontController.php line 685](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#685)
 
 
 
@@ -493,7 +494,7 @@ Displays maintenance page if shop is closed.
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\FrontController.php line 747
+* This method is defined in [classes/controller/FrontController.php line 747](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#747)
 
 
 
@@ -507,7 +508,7 @@ Displays 'country restricted' page if user's country is not allowed.
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\FrontController.php line 770
+* This method is defined in [classes/controller/FrontController.php line 770](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#770)
 
 
 
@@ -521,7 +522,7 @@ Redirects to correct protocol if settings and request methods don't match.
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\FrontController.php line 785
+* This method is defined in [classes/controller/FrontController.php line 785](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#785)
 
 
 
@@ -535,7 +536,7 @@ Redirects to canonical URL
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\FrontController.php line 806
+* This method is defined in [classes/controller/FrontController.php line 806](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#806)
 
 
 #### Arguments
@@ -552,7 +553,7 @@ Geolocation management
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\FrontController.php line 857
+* This method is defined in [classes/controller/FrontController.php line 857](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#857)
 
 
 #### Arguments
@@ -569,7 +570,7 @@ Specific medias for mobile device.
 If autoload directory is present in the mobile theme, these files will not be loaded
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 915
+* This method is defined in [classes/controller/FrontController.php line 915](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#915)
 
 
 
@@ -583,7 +584,7 @@ Sets controller CSS and JS files.
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 939
+* This method is defined in [classes/controller/FrontController.php line 939](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#939)
 
 
 
@@ -597,7 +598,7 @@ Initializes page header variables
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 997
+* This method is defined in [classes/controller/FrontController.php line 997](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#997)
 
 
 
@@ -611,7 +612,7 @@ Initializes page footer variables
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1019
+* This method is defined in [classes/controller/FrontController.php line 1019](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1019)
 
 
 
@@ -625,7 +626,7 @@ Checks if the user can use Live Edit feature
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1045
+* This method is defined in [classes/controller/FrontController.php line 1045](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1045)
 
 
 
@@ -639,7 +640,7 @@ Renders Live Edit widget
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1063
+* This method is defined in [classes/controller/FrontController.php line 1063](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1063)
 
 
 
@@ -653,7 +654,7 @@ Assigns product list page sorting variables
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1082
+* This method is defined in [classes/controller/FrontController.php line 1082](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1082)
 
 
 
@@ -667,7 +668,7 @@ Assigns product list page pagination variables
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1121
+* This method is defined in [classes/controller/FrontController.php line 1121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1121)
 
 
 #### Arguments
@@ -685,7 +686,7 @@ Sets and returns customer groups that the current customer(visitor) belongs to.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\controller\FrontController.php line 1196
+* This method is defined in [classes/controller/FrontController.php line 1196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1196)
 
 
 
@@ -700,7 +701,7 @@ Checks if user's location is whitelisted.
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\controller\FrontController.php line 1224
+* This method is defined in [classes/controller/FrontController.php line 1224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1224)
 
 
 
@@ -714,7 +715,7 @@ Checks if token is valid
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1262
+* This method is defined in [classes/controller/FrontController.php line 1262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1262)
 
 
 
@@ -728,7 +729,7 @@ Adds a media file(s) (CSS, JS) to page header
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1281
+* This method is defined in [classes/controller/FrontController.php line 1281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1281)
 
 
 #### Arguments
@@ -749,7 +750,7 @@ Removes media file(s) from page header
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1346
+* This method is defined in [classes/controller/FrontController.php line 1346](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1346)
 
 
 #### Arguments
@@ -768,7 +769,7 @@ Add one or several CSS for front, checking if css files are overridden in theme/
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1361
+* This method is defined in [classes/controller/FrontController.php line 1361](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1361)
 
 
 #### Arguments
@@ -788,7 +789,7 @@ Removes CSS file(s) from page header
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1373
+* This method is defined in [classes/controller/FrontController.php line 1373](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1373)
 
 
 #### Arguments
@@ -807,7 +808,7 @@ Add one or several JS files for front, checking if js files are overridden in th
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1386
+* This method is defined in [classes/controller/FrontController.php line 1386](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1386)
 
 
 #### Arguments
@@ -825,7 +826,7 @@ Removes JS file(s) from page header
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1397
+* This method is defined in [classes/controller/FrontController.php line 1397](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1397)
 
 
 #### Arguments
@@ -843,7 +844,7 @@ Recovers cart information
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\FrontController.php line 1407
+* This method is defined in [classes/controller/FrontController.php line 1407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1407)
 
 
 
@@ -857,7 +858,7 @@ Sets template file for page content output
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1437
+* This method is defined in [classes/controller/FrontController.php line 1437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1437)
 
 
 #### Arguments
@@ -875,7 +876,7 @@ If not overridden, will return false. This method can be easily overriden in a
 specific controller.
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1459
+* This method is defined in [classes/controller/FrontController.php line 1459](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1459)
 
 
 
@@ -889,7 +890,7 @@ Checks if mobile theme is active and in use.
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\FrontController.php line 1470
+* This method is defined in [classes/controller/FrontController.php line 1470](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1470)
 
 
 
@@ -903,7 +904,7 @@ Returns theme directory (regular or mobile)
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\FrontController.php line 1487
+* This method is defined in [classes/controller/FrontController.php line 1487](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1487)
 
 
 
@@ -917,7 +918,7 @@ Returns theme override directory (regular or mobile)
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\FrontController.php line 1498
+* This method is defined in [classes/controller/FrontController.php line 1498](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1498)
 
 
 
@@ -937,7 +938,7 @@ check if the layout exists in the following files (in that order), and return th
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1515
+* This method is defined in [classes/controller/FrontController.php line 1515](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1515)
 
 
 
@@ -951,7 +952,7 @@ Returns template path
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1545
+* This method is defined in [classes/controller/FrontController.php line 1545](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1545)
 
 
 #### Arguments
@@ -969,7 +970,7 @@ otherwise front template is chosen.
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1573
+* This method is defined in [classes/controller/FrontController.php line 1573](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1573)
 
 
 #### Arguments
@@ -987,7 +988,7 @@ on active theme type (regular or mobile)
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1612
+* This method is defined in [classes/controller/FrontController.php line 1612](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1612)
 
 
 
@@ -1001,7 +1002,7 @@ Renders and adds color list HTML for each product in a list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\FrontController.php line 1635
+* This method is defined in [classes/controller/FrontController.php line 1635](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1635)
 
 
 #### Arguments
@@ -1018,7 +1019,7 @@ Returns cache ID for product color list
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\FrontController.php line 1683
+* This method is defined in [classes/controller/FrontController.php line 1683](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/FrontController.php#1683)
 
 
 #### Arguments

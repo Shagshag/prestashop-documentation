@@ -9,7 +9,8 @@ PrestaShopExceptionCore
 * Class name: PrestaShopExceptionCore
 * Namespace: 
 * Parent class: Exception
-* This class is defined in classes\exception\PrestaShopException.php line 30
+
+* This class is defined in [classes/exception/PrestaShopException.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#30)
 
 
 
@@ -30,7 +31,7 @@ This method acts like an error handler, if dev mode is on, display the error els
 
 
 * Visibility: **public**
-* This method is defined in classes\exception\PrestaShopException.php line 35
+* This method is defined in [classes/exception/PrestaShopException.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#35)
 
 
 
@@ -44,7 +45,7 @@ Display lines around current line
 
 
 * Visibility: **protected**
-* This method is defined in classes\exception\PrestaShopException.php line 101
+* This method is defined in [classes/exception/PrestaShopException.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#101)
 
 
 #### Arguments
@@ -63,7 +64,7 @@ Display arguments list of traced function
 
 
 * Visibility: **protected**
-* This method is defined in classes\exception\PrestaShopException.php line 131
+* This method is defined in [classes/exception/PrestaShopException.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#131)
 
 
 #### Arguments
@@ -81,7 +82,7 @@ Log the error on the disk
 
 
 * Visibility: **protected**
-* This method is defined in classes\exception\PrestaShopException.php line 145
+* This method is defined in [classes/exception/PrestaShopException.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#145)
 
 
 
@@ -95,7 +96,7 @@ Log the error on the disk
 
 
 * Visibility: **protected**
-* This method is defined in classes\exception\PrestaShopException.php line 155
+* This method is defined in [classes/exception/PrestaShopException.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#155)
 
 
 #### Arguments
@@ -112,7 +113,7 @@ Return the content of the Exception
 
 
 * Visibility: **protected**
-* This method is defined in classes\exception\PrestaShopException.php line 165
+* This method is defined in [classes/exception/PrestaShopException.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#165)
 
 
 #### Arguments

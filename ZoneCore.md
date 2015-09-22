@@ -9,7 +9,8 @@ ZoneCore
 * Class name: ZoneCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Zone.php line 27
+
+* This class is defined in [classes/Zone.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Zone.php line 30
+* This property is defined in [classes/Zone.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#30)
 
 
 ### $active
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Zone.php line 33
+* This property is defined in [classes/Zone.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#33)
 
 
 ### $definition
@@ -53,7 +54,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Zone.php line 38
+* This property is defined in [classes/Zone.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#38)
 
 
 ### $webserviceParameters
@@ -65,7 +66,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Zone.php line 47
+* This property is defined in [classes/Zone.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#47)
 
 
 Methods
@@ -82,7 +83,7 @@ Get all available geographical zones
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Zone.php line 55
+* This method is defined in [classes/Zone.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#55)
 
 
 #### Arguments
@@ -100,7 +101,7 @@ Get a zone ID from its default language name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Zone.php line 77
+* This method is defined in [classes/Zone.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#77)
 
 
 #### Arguments
@@ -117,7 +118,7 @@ Delete a zone
 
 
 * Visibility: **public**
-* This method is defined in classes\Zone.php line 91
+* This method is defined in [classes/Zone.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Zone.php#91)
 
 
 

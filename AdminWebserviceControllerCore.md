@@ -9,7 +9,8 @@ AdminWebserviceControllerCore
 * Class name: AdminWebserviceControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminWebserviceController.php line 30
+
+* This class is defined in [controllers/admin/AdminWebserviceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#30)
 
 
 
@@ -28,7 +29,7 @@ this will be filled later
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminWebserviceController.php line 33
+* This property is defined in [controllers/admin/AdminWebserviceController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#33)
 
 
 ### $toolbar_scroll
@@ -40,7 +41,7 @@ this will be filled later
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminWebserviceController.php line 34
+* This property is defined in [controllers/admin/AdminWebserviceController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#34)
 
 
 ### $object
@@ -52,7 +53,7 @@ this will be filled later
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminWebserviceController.php line 30
+* This property is defined in [controllers/admin/AdminWebserviceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#30)
 
 
 Methods
@@ -68,7 +69,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWebserviceController.php line 36
+* This method is defined in [controllers/admin/AdminWebserviceController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#36)
 
 
 
@@ -82,7 +83,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWebserviceController.php line 103
+* This method is defined in [controllers/admin/AdminWebserviceController.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#103)
 
 
 
@@ -96,7 +97,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminWebserviceController.php line 117
+* This method is defined in [controllers/admin/AdminWebserviceController.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#117)
 
 
 
@@ -110,7 +111,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWebserviceController.php line 123
+* This method is defined in [controllers/admin/AdminWebserviceController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#123)
 
 
 
@@ -124,7 +125,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWebserviceController.php line 207
+* This method is defined in [controllers/admin/AdminWebserviceController.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#207)
 
 
 
@@ -138,7 +139,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWebserviceController.php line 219
+* This method is defined in [controllers/admin/AdminWebserviceController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#219)
 
 
 
@@ -152,7 +153,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWebserviceController.php line 237
+* This method is defined in [controllers/admin/AdminWebserviceController.php line 237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#237)
 
 
 
@@ -166,7 +167,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWebserviceController.php line 246
+* This method is defined in [controllers/admin/AdminWebserviceController.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#246)
 
 
 
@@ -180,7 +181,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminWebserviceController.php line 257
+* This method is defined in [controllers/admin/AdminWebserviceController.php line 257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#257)
 
 
 #### Arguments
@@ -197,7 +198,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminWebserviceController.php line 263
+* This method is defined in [controllers/admin/AdminWebserviceController.php line 263](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#263)
 
 
 #### Arguments
@@ -214,7 +215,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWebserviceController.php line 269
+* This method is defined in [controllers/admin/AdminWebserviceController.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#269)
 
 
 

@@ -9,7 +9,8 @@ DateRangeCore
 * Class name: DateRangeCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\DateRange.php line 27
+
+* This class is defined in [classes/DateRange.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/DateRange.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\DateRange.php line 29
+* This property is defined in [classes/DateRange.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/DateRange.php#29)
 
 
 ### $time_end
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\DateRange.php line 30
+* This property is defined in [classes/DateRange.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/DateRange.php#30)
 
 
 ### $definition
@@ -53,7 +54,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\DateRange.php line 35
+* This property is defined in [classes/DateRange.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/DateRange.php#35)
 
 
 Methods
@@ -70,7 +71,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\DateRange.php line 44
+* This method is defined in [classes/DateRange.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/DateRange.php#44)
 
 
 

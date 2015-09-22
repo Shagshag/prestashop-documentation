@@ -9,7 +9,8 @@ HelperListCore
 * Class name: HelperListCore
 * Namespace: 
 * Parent class: [Helper](HelperCore)
-* This class is defined in classes\helper\HelperList.php line 30
+
+* This class is defined in [classes/helper/HelperList.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperList.php line 33
+* This property is defined in [classes/helper/HelperList.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#33)
 
 
 ### $listTotal
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 36
+* This property is defined in [classes/helper/HelperList.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#36)
 
 
 ### $_filter
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperList.php line 39
+* This property is defined in [classes/helper/HelperList.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#39)
 
 
 ### $_pagination
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 42
+* This property is defined in [classes/helper/HelperList.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#42)
 
 
 ### $_default_pagination
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 45
+* This property is defined in [classes/helper/HelperList.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#45)
 
 
 ### $orderBy
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 48
+* This property is defined in [classes/helper/HelperList.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#48)
 
 
 ### $_defaultOrderBy
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 51
+* This property is defined in [classes/helper/HelperList.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#51)
 
 
 ### $tpl_delete_link_vars
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 54
+* This property is defined in [classes/helper/HelperList.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#54)
 
 
 ### $orderWay
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 57
+* This property is defined in [classes/helper/HelperList.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#57)
 
 
 ### $identifier
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 59
+* This property is defined in [classes/helper/HelperList.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#59)
 
 
 ### $deleted
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperList.php line 61
+* This property is defined in [classes/helper/HelperList.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#61)
 
 
 ### $cache_lang
@@ -161,7 +162,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\helper\HelperList.php line 64
+* This property is defined in [classes/helper/HelperList.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#64)
 
 
 ### $is_cms
@@ -173,7 +174,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 66
+* This property is defined in [classes/helper/HelperList.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#66)
 
 
 ### $position_identifier
@@ -185,7 +186,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 68
+* This property is defined in [classes/helper/HelperList.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#68)
 
 
 ### $table_id
@@ -197,7 +198,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 70
+* This property is defined in [classes/helper/HelperList.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#70)
 
 
 ### $fields_list
@@ -209,7 +210,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperList.php line 82
+* This property is defined in [classes/helper/HelperList.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#82)
 
 
 ### $no_link
@@ -221,7 +222,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 85
+* This property is defined in [classes/helper/HelperList.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#85)
 
 
 ### $header_tpl
@@ -233,7 +234,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperList.php line 88
+* This property is defined in [classes/helper/HelperList.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#88)
 
 
 ### $content_tpl
@@ -245,7 +246,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperList.php line 91
+* This property is defined in [classes/helper/HelperList.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#91)
 
 
 ### $footer_tpl
@@ -257,7 +258,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperList.php line 94
+* This property is defined in [classes/helper/HelperList.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#94)
 
 
 ### $actions
@@ -269,7 +270,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 97
+* This property is defined in [classes/helper/HelperList.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#97)
 
 
 ### $list_skip_actions
@@ -281,7 +282,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 100
+* This property is defined in [classes/helper/HelperList.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#100)
 
 
 ### $bulk_actions
@@ -293,7 +294,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 102
+* This property is defined in [classes/helper/HelperList.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#102)
 
 
 ### $force_show_bulk_actions
@@ -305,7 +306,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 103
+* This property is defined in [classes/helper/HelperList.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#103)
 
 
 ### $specificConfirmDelete
@@ -317,7 +318,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 104
+* This property is defined in [classes/helper/HelperList.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#104)
 
 
 ### $colorOnBackground
@@ -329,7 +330,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 105
+* This property is defined in [classes/helper/HelperList.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#105)
 
 
 ### $row_hover
@@ -341,7 +342,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 108
+* This property is defined in [classes/helper/HelperList.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#108)
 
 
 ### $title
@@ -353,7 +354,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 111
+* This property is defined in [classes/helper/HelperList.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#111)
 
 
 ### $simple_header
@@ -365,7 +366,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 114
+* This property is defined in [classes/helper/HelperList.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#114)
 
 
 ### $ajax_params
@@ -377,7 +378,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 116
+* This property is defined in [classes/helper/HelperList.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#116)
 
 
 ### $page
@@ -389,7 +390,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperList.php line 118
+* This property is defined in [classes/helper/HelperList.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#118)
 
 
 Methods
@@ -405,7 +406,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 120
+* This method is defined in [classes/helper/HelperList.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#120)
 
 
 
@@ -419,7 +420,7 @@ Return an html list given the data to fill it up
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 135
+* This method is defined in [classes/helper/HelperList.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#135)
 
 
 #### Arguments
@@ -437,7 +438,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 173
+* This method is defined in [classes/helper/HelperList.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#173)
 
 
 #### Arguments
@@ -460,7 +461,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 185
+* This method is defined in [classes/helper/HelperList.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#185)
 
 
 
@@ -474,7 +475,7 @@ Display duplicate action link
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 362
+* This method is defined in [classes/helper/HelperList.php line 362](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#362)
 
 
 #### Arguments
@@ -509,7 +510,7 @@ or somethins like this:
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 412
+* This method is defined in [classes/helper/HelperList.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#412)
 
 
 #### Arguments
@@ -528,7 +529,7 @@ Display view action link
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 439
+* This method is defined in [classes/helper/HelperList.php line 439](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#439)
 
 
 #### Arguments
@@ -547,7 +548,7 @@ Display edit action link
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 457
+* This method is defined in [classes/helper/HelperList.php line 457](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#457)
 
 
 #### Arguments
@@ -566,7 +567,7 @@ Display delete action link
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 476
+* This method is defined in [classes/helper/HelperList.php line 476](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#476)
 
 
 #### Arguments
@@ -585,7 +586,7 @@ Display default action link
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 514
+* This method is defined in [classes/helper/HelperList.php line 514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#514)
 
 
 #### Arguments
@@ -604,7 +605,7 @@ Display list header (filtering, pagination and column names)
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 533
+* This method is defined in [classes/helper/HelperList.php line 533](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#533)
 
 
 
@@ -618,7 +619,7 @@ Display list header (filtering, pagination and column names)
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 707
+* This method is defined in [classes/helper/HelperList.php line 707](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#707)
 
 
 #### Arguments
@@ -635,7 +636,7 @@ Close list table and submit button
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperList.php line 738
+* This method is defined in [classes/helper/HelperList.php line 738](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperList.php#738)
 
 
 

@@ -8,7 +8,8 @@ PrestaShopAutoload
 
 * Class name: PrestaShopAutoload
 * Namespace: 
-* This class is defined in classes\PrestaShopAutoload.php line 30
+
+* This class is defined in [classes/PrestaShopAutoload.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#30)
 
 
 
@@ -22,7 +23,7 @@ Constants
 
 
 
-* This constant is defined in classes\PrestaShopAutoload.php line 35
+* This constant is defined in [classes/PrestaShopAutoload.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#35)
 
 
 Properties
@@ -39,7 +40,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\PrestaShopAutoload.php line 40
+* This property is defined in [classes/PrestaShopAutoload.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#40)
 
 
 ### $root_dir
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\PrestaShopAutoload.php line 45
+* This property is defined in [classes/PrestaShopAutoload.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#45)
 
 
 ### $index
@@ -63,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopAutoload.php line 50
+* This property is defined in [classes/PrestaShopAutoload.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#50)
 
 
 ### $_include_override_path
@@ -75,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopAutoload.php line 52
+* This property is defined in [classes/PrestaShopAutoload.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#52)
 
 
 ### $class_aliases
@@ -88,7 +89,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\PrestaShopAutoload.php line 54
+* This property is defined in [classes/PrestaShopAutoload.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#54)
 
 
 Methods
@@ -104,7 +105,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\PrestaShopAutoload.php line 61
+* This method is defined in [classes/PrestaShopAutoload.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#61)
 
 
 
@@ -119,7 +120,7 @@ Get instance of autoload (singleton)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\PrestaShopAutoload.php line 77
+* This method is defined in [classes/PrestaShopAutoload.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#77)
 
 
 
@@ -133,7 +134,7 @@ Retrieve informations about a class in classes index and load it
 
 
 * Visibility: **public**
-* This method is defined in classes\PrestaShopAutoload.php line 91
+* This method is defined in [classes/PrestaShopAutoload.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#91)
 
 
 #### Arguments
@@ -150,7 +151,7 @@ Generate classes index
 
 
 * Visibility: **public**
-* This method is defined in classes\PrestaShopAutoload.php line 136
+* This method is defined in [classes/PrestaShopAutoload.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#136)
 
 
 
@@ -164,7 +165,7 @@ Retrieve recursively all classes in a directory and its subdirectories
 
 
 * Visibility: **protected**
-* This method is defined in classes\PrestaShopAutoload.php line 179
+* This method is defined in [classes/PrestaShopAutoload.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#179)
 
 
 #### Arguments
@@ -182,7 +183,7 @@ Retrieve recursively all classes in a directory and its subdirectories
 
 
 * Visibility: **public**
-* This method is defined in classes\PrestaShopAutoload.php line 217
+* This method is defined in [classes/PrestaShopAutoload.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#217)
 
 
 #### Arguments
@@ -199,7 +200,7 @@ Retrieve recursively all classes in a directory and its subdirectories
 
 
 * Visibility: **private**
-* This method is defined in classes\PrestaShopAutoload.php line 222
+* This method is defined in [classes/PrestaShopAutoload.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#222)
 
 
 #### Arguments

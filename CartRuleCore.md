@@ -9,7 +9,8 @@ CartRuleCore
 * Class name: CartRuleCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\CartRule.php line 27
+
+* This class is defined in [classes/CartRule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#27)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\CartRule.php line 30
+* This constant is defined in [classes/CartRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#30)
 
 
 ### FILTER_ACTION_SHIPPING
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in classes\CartRule.php line 31
+* This constant is defined in [classes/CartRule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#31)
 
 
 ### FILTER_ACTION_REDUCTION
@@ -41,7 +42,7 @@ Constants
 
 
 
-* This constant is defined in classes\CartRule.php line 32
+* This constant is defined in [classes/CartRule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#32)
 
 
 ### FILTER_ACTION_GIFT
@@ -50,7 +51,7 @@ Constants
 
 
 
-* This constant is defined in classes\CartRule.php line 33
+* This constant is defined in [classes/CartRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#33)
 
 
 ### FILTER_ACTION_ALL_NOCAP
@@ -59,7 +60,7 @@ Constants
 
 
 
-* This constant is defined in classes\CartRule.php line 34
+* This constant is defined in [classes/CartRule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#34)
 
 
 ### BO_ORDER_CODE_PREFIX
@@ -68,7 +69,7 @@ Constants
 
 
 
-* This constant is defined in classes\CartRule.php line 36
+* This constant is defined in [classes/CartRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#36)
 
 
 Properties
@@ -85,7 +86,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\CartRule.php line 39
+* This property is defined in [classes/CartRule.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#39)
 
 
 ### $id
@@ -97,7 +98,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 41
+* This property is defined in [classes/CartRule.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#41)
 
 
 ### $name
@@ -109,7 +110,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 42
+* This property is defined in [classes/CartRule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#42)
 
 
 ### $id_customer
@@ -121,7 +122,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 43
+* This property is defined in [classes/CartRule.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#43)
 
 
 ### $date_from
@@ -133,7 +134,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 44
+* This property is defined in [classes/CartRule.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#44)
 
 
 ### $date_to
@@ -145,7 +146,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 45
+* This property is defined in [classes/CartRule.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#45)
 
 
 ### $description
@@ -157,7 +158,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 46
+* This property is defined in [classes/CartRule.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#46)
 
 
 ### $quantity
@@ -169,7 +170,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 47
+* This property is defined in [classes/CartRule.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#47)
 
 
 ### $quantity_per_user
@@ -181,7 +182,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 48
+* This property is defined in [classes/CartRule.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#48)
 
 
 ### $priority
@@ -193,7 +194,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 49
+* This property is defined in [classes/CartRule.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#49)
 
 
 ### $partial_use
@@ -205,7 +206,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 50
+* This property is defined in [classes/CartRule.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#50)
 
 
 ### $code
@@ -217,7 +218,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 51
+* This property is defined in [classes/CartRule.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#51)
 
 
 ### $minimum_amount
@@ -229,7 +230,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 52
+* This property is defined in [classes/CartRule.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#52)
 
 
 ### $minimum_amount_tax
@@ -241,7 +242,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 53
+* This property is defined in [classes/CartRule.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#53)
 
 
 ### $minimum_amount_currency
@@ -253,7 +254,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 54
+* This property is defined in [classes/CartRule.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#54)
 
 
 ### $minimum_amount_shipping
@@ -265,7 +266,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 55
+* This property is defined in [classes/CartRule.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#55)
 
 
 ### $country_restriction
@@ -277,7 +278,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 56
+* This property is defined in [classes/CartRule.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#56)
 
 
 ### $carrier_restriction
@@ -289,7 +290,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 57
+* This property is defined in [classes/CartRule.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#57)
 
 
 ### $group_restriction
@@ -301,7 +302,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 58
+* This property is defined in [classes/CartRule.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#58)
 
 
 ### $cart_rule_restriction
@@ -313,7 +314,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 59
+* This property is defined in [classes/CartRule.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#59)
 
 
 ### $product_restriction
@@ -325,7 +326,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 60
+* This property is defined in [classes/CartRule.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#60)
 
 
 ### $shop_restriction
@@ -337,7 +338,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 61
+* This property is defined in [classes/CartRule.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#61)
 
 
 ### $free_shipping
@@ -349,7 +350,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 62
+* This property is defined in [classes/CartRule.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#62)
 
 
 ### $reduction_percent
@@ -361,7 +362,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 63
+* This property is defined in [classes/CartRule.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#63)
 
 
 ### $reduction_amount
@@ -373,7 +374,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 64
+* This property is defined in [classes/CartRule.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#64)
 
 
 ### $reduction_tax
@@ -385,7 +386,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 65
+* This property is defined in [classes/CartRule.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#65)
 
 
 ### $reduction_currency
@@ -397,7 +398,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 66
+* This property is defined in [classes/CartRule.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#66)
 
 
 ### $reduction_product
@@ -409,7 +410,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 67
+* This property is defined in [classes/CartRule.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#67)
 
 
 ### $gift_product
@@ -421,7 +422,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 68
+* This property is defined in [classes/CartRule.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#68)
 
 
 ### $gift_product_attribute
@@ -433,7 +434,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 69
+* This property is defined in [classes/CartRule.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#69)
 
 
 ### $highlight
@@ -445,7 +446,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 70
+* This property is defined in [classes/CartRule.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#70)
 
 
 ### $active
@@ -457,7 +458,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 71
+* This property is defined in [classes/CartRule.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#71)
 
 
 ### $date_add
@@ -469,7 +470,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 72
+* This property is defined in [classes/CartRule.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#72)
 
 
 ### $date_upd
@@ -481,7 +482,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CartRule.php line 73
+* This property is defined in [classes/CartRule.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#73)
 
 
 ### $definition
@@ -494,7 +495,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\CartRule.php line 78
+* This property is defined in [classes/CartRule.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#78)
 
 
 Methods
@@ -510,7 +511,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\CartRule.php line 123
+* This method is defined in [classes/CartRule.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#123)
 
 
 #### Arguments
@@ -528,7 +529,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\CartRule.php line 137
+* This method is defined in [classes/CartRule.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#137)
 
 
 #### Arguments
@@ -545,7 +546,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\CartRule.php line 151
+* This method is defined in [classes/CartRule.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#151)
 
 
 
@@ -560,7 +561,7 @@ Copy conditions from one cart rule to an other
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 180
+* This method is defined in [classes/CartRule.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#180)
 
 
 #### Arguments
@@ -579,7 +580,7 @@ Retrieves the id associated to the given code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 243
+* This method is defined in [classes/CartRule.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#243)
 
 
 #### Arguments
@@ -597,7 +598,7 @@ Retrieves the id associated to the given code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 263
+* This method is defined in [classes/CartRule.php line 263](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#263)
 
 
 #### Arguments
@@ -621,7 +622,7 @@ Retrieves the id associated to the given code
 
 
 * Visibility: **public**
-* This method is defined in classes\CartRule.php line 399
+* This method is defined in [classes/CartRule.php line 399](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#399)
 
 
 #### Arguments
@@ -639,7 +640,7 @@ Retrieves the id associated to the given code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 413
+* This method is defined in [classes/CartRule.php line 413](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#413)
 
 
 #### Arguments
@@ -657,7 +658,7 @@ Retrieves the id associated to the given code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 429
+* This method is defined in [classes/CartRule.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#429)
 
 
 #### Arguments
@@ -674,7 +675,7 @@ Retrieves the id associated to the given code
 
 
 * Visibility: **public**
-* This method is defined in classes\CartRule.php line 443
+* This method is defined in [classes/CartRule.php line 443](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#443)
 
 
 
@@ -688,7 +689,7 @@ Retrieves the id associated to the given code
 
 
 * Visibility: **public**
-* This method is defined in classes\CartRule.php line 464
+* This method is defined in [classes/CartRule.php line 464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#464)
 
 
 #### Arguments
@@ -705,7 +706,7 @@ Check if this cart rule can be applied
 
 
 * Visibility: **public**
-* This method is defined in classes\CartRule.php line 493
+* This method is defined in [classes/CartRule.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#493)
 
 
 #### Arguments
@@ -725,7 +726,7 @@ Check if this cart rule can be applied
 
 
 * Visibility: **protected**
-* This method is defined in classes\CartRule.php line 678
+* This method is defined in [classes/CartRule.php line 678](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#678)
 
 
 #### Arguments
@@ -746,7 +747,7 @@ Check if this cart rule can be applied
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 832
+* This method is defined in [classes/CartRule.php line 832](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#832)
 
 
 #### Arguments
@@ -765,7 +766,7 @@ Check if this cart rule can be applied
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 846
+* This method is defined in [classes/CartRule.php line 846](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#846)
 
 
 #### Arguments
@@ -783,7 +784,7 @@ The reduction value is POSITIVE
 
 
 * Visibility: **public**
-* This method is defined in classes\CartRule.php line 869
+* This method is defined in [classes/CartRule.php line 869](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#869)
 
 
 #### Arguments
@@ -806,7 +807,7 @@ Must be called before calling multiple time getContextualValue()
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 1136
+* This method is defined in [classes/CartRule.php line 1136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#1136)
 
 
 
@@ -820,7 +821,7 @@ Must be called before calling multiple time getContextualValue()
 
 
 * Visibility: **protected**
-* This method is defined in classes\CartRule.php line 1147
+* This method is defined in [classes/CartRule.php line 1147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#1147)
 
 
 #### Arguments
@@ -839,7 +840,7 @@ Must be called before calling multiple time getContextualValue()
 
 
 * Visibility: **public**
-* This method is defined in classes\CartRule.php line 1198
+* This method is defined in [classes/CartRule.php line 1198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#1198)
 
 
 #### Arguments
@@ -862,7 +863,7 @@ Must be called before calling multiple time getContextualValue()
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 1257
+* This method is defined in [classes/CartRule.php line 1257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#1257)
 
 
 #### Arguments
@@ -880,7 +881,7 @@ Must be called before calling multiple time getContextualValue()
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 1281
+* This method is defined in [classes/CartRule.php line 1281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#1281)
 
 
 #### Arguments
@@ -898,7 +899,7 @@ Must be called before calling multiple time getContextualValue()
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 1354
+* This method is defined in [classes/CartRule.php line 1354](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#1354)
 
 
 
@@ -913,7 +914,7 @@ Must be called before calling multiple time getContextualValue()
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 1364
+* This method is defined in [classes/CartRule.php line 1364](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#1364)
 
 
 #### Arguments
@@ -932,7 +933,7 @@ Must be called before calling multiple time getContextualValue()
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CartRule.php line 1412
+* This method is defined in [classes/CartRule.php line 1412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CartRule.php#1412)
 
 
 #### Arguments

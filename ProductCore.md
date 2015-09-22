@@ -9,7 +9,8 @@ ProductCore
 * Class name: ProductCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Product.php line 36
+
+* This class is defined in [classes/Product.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#36)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\Product.php line 465
+* This constant is defined in [classes/Product.php line 465](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#465)
 
 
 ### CUSTOMIZE_TEXTFIELD
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in classes\Product.php line 466
+* This constant is defined in [classes/Product.php line 466](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#466)
 
 
 ### PTYPE_SIMPLE
@@ -41,7 +42,7 @@ Constants
 
 
 
-* This constant is defined in classes\Product.php line 471
+* This constant is defined in [classes/Product.php line 471](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#471)
 
 
 ### PTYPE_PACK
@@ -50,7 +51,7 @@ Constants
 
 
 
-* This constant is defined in classes\Product.php line 472
+* This constant is defined in [classes/Product.php line 472](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#472)
 
 
 ### PTYPE_VIRTUAL
@@ -59,7 +60,7 @@ Constants
 
 
 
-* This constant is defined in classes\Product.php line 473
+* This constant is defined in [classes/Product.php line 473](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#473)
 
 
 Properties
@@ -75,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 39
+* This property is defined in [classes/Product.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#39)
 
 
 ### $tax_rate
@@ -87,7 +88,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 42
+* This property is defined in [classes/Product.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#42)
 
 
 ### $id_manufacturer
@@ -99,7 +100,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 45
+* This property is defined in [classes/Product.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#45)
 
 
 ### $id_supplier
@@ -111,7 +112,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 48
+* This property is defined in [classes/Product.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#48)
 
 
 ### $id_category_default
@@ -123,7 +124,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 51
+* This property is defined in [classes/Product.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#51)
 
 
 ### $id_shop_default
@@ -135,7 +136,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 54
+* This property is defined in [classes/Product.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#54)
 
 
 ### $manufacturer_name
@@ -147,7 +148,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 57
+* This property is defined in [classes/Product.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#57)
 
 
 ### $supplier_name
@@ -159,7 +160,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 60
+* This property is defined in [classes/Product.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#60)
 
 
 ### $name
@@ -171,7 +172,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 63
+* This property is defined in [classes/Product.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#63)
 
 
 ### $description
@@ -183,7 +184,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 66
+* This property is defined in [classes/Product.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#66)
 
 
 ### $description_short
@@ -195,7 +196,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 69
+* This property is defined in [classes/Product.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#69)
 
 
 ### $quantity
@@ -207,7 +208,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 72
+* This property is defined in [classes/Product.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#72)
 
 
 ### $minimal_quantity
@@ -219,7 +220,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 75
+* This property is defined in [classes/Product.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#75)
 
 
 ### $available_now
@@ -231,7 +232,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 78
+* This property is defined in [classes/Product.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#78)
 
 
 ### $available_later
@@ -243,7 +244,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 81
+* This property is defined in [classes/Product.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#81)
 
 
 ### $price
@@ -255,7 +256,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 84
+* This property is defined in [classes/Product.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#84)
 
 
 ### $specificPrice
@@ -267,7 +268,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 86
+* This property is defined in [classes/Product.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#86)
 
 
 ### $additional_shipping_cost
@@ -279,7 +280,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 89
+* This property is defined in [classes/Product.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#89)
 
 
 ### $wholesale_price
@@ -291,7 +292,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 92
+* This property is defined in [classes/Product.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#92)
 
 
 ### $on_sale
@@ -303,7 +304,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 95
+* This property is defined in [classes/Product.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#95)
 
 
 ### $online_only
@@ -315,7 +316,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 98
+* This property is defined in [classes/Product.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#98)
 
 
 ### $unity
@@ -327,7 +328,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 101
+* This property is defined in [classes/Product.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#101)
 
 
 ### $unit_price
@@ -339,7 +340,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 104
+* This property is defined in [classes/Product.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#104)
 
 
 ### $unit_price_ratio
@@ -351,7 +352,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 107
+* This property is defined in [classes/Product.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#107)
 
 
 ### $ecotax
@@ -363,7 +364,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 110
+* This property is defined in [classes/Product.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#110)
 
 
 ### $reference
@@ -375,7 +376,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 113
+* This property is defined in [classes/Product.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#113)
 
 
 ### $supplier_reference
@@ -387,7 +388,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 116
+* This property is defined in [classes/Product.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#116)
 
 
 ### $location
@@ -399,7 +400,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 119
+* This property is defined in [classes/Product.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#119)
 
 
 ### $width
@@ -411,7 +412,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 122
+* This property is defined in [classes/Product.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#122)
 
 
 ### $height
@@ -423,7 +424,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 125
+* This property is defined in [classes/Product.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#125)
 
 
 ### $depth
@@ -435,7 +436,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 128
+* This property is defined in [classes/Product.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#128)
 
 
 ### $weight
@@ -447,7 +448,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 131
+* This property is defined in [classes/Product.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#131)
 
 
 ### $ean13
@@ -459,7 +460,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 134
+* This property is defined in [classes/Product.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#134)
 
 
 ### $upc
@@ -471,7 +472,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 137
+* This property is defined in [classes/Product.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#137)
 
 
 ### $link_rewrite
@@ -483,7 +484,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 140
+* This property is defined in [classes/Product.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#140)
 
 
 ### $meta_description
@@ -495,7 +496,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 143
+* This property is defined in [classes/Product.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#143)
 
 
 ### $meta_keywords
@@ -507,7 +508,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 146
+* This property is defined in [classes/Product.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#146)
 
 
 ### $meta_title
@@ -519,7 +520,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 149
+* This property is defined in [classes/Product.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#149)
 
 
 ### $quantity_discount
@@ -531,7 +532,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 152
+* This property is defined in [classes/Product.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#152)
 
 
 ### $customizable
@@ -543,7 +544,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 155
+* This property is defined in [classes/Product.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#155)
 
 
 ### $new
@@ -555,7 +556,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 158
+* This property is defined in [classes/Product.php line 158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#158)
 
 
 ### $uploadable_files
@@ -567,7 +568,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 161
+* This property is defined in [classes/Product.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#161)
 
 
 ### $text_fields
@@ -579,7 +580,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 164
+* This property is defined in [classes/Product.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#164)
 
 
 ### $active
@@ -591,7 +592,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 167
+* This property is defined in [classes/Product.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#167)
 
 
 ### $redirect_type
@@ -603,7 +604,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 170
+* This property is defined in [classes/Product.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#170)
 
 
 ### $id_product_redirected
@@ -615,7 +616,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 173
+* This property is defined in [classes/Product.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#173)
 
 
 ### $available_for_order
@@ -627,7 +628,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 176
+* This property is defined in [classes/Product.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#176)
 
 
 ### $available_date
@@ -639,7 +640,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 179
+* This property is defined in [classes/Product.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#179)
 
 
 ### $condition
@@ -651,7 +652,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 182
+* This property is defined in [classes/Product.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#182)
 
 
 ### $show_price
@@ -663,7 +664,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 185
+* This property is defined in [classes/Product.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#185)
 
 
 ### $indexed
@@ -675,7 +676,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 188
+* This property is defined in [classes/Product.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#188)
 
 
 ### $visibility
@@ -687,7 +688,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 191
+* This property is defined in [classes/Product.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#191)
 
 
 ### $date_add
@@ -699,7 +700,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 194
+* This property is defined in [classes/Product.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#194)
 
 
 ### $date_upd
@@ -711,7 +712,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 197
+* This property is defined in [classes/Product.php line 197](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#197)
 
 
 ### $tags
@@ -723,7 +724,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 200
+* This property is defined in [classes/Product.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#200)
 
 
 ### $base_price
@@ -735,7 +736,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 206
+* This property is defined in [classes/Product.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#206)
 
 
 ### $id_tax_rules_group
@@ -747,7 +748,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 208
+* This property is defined in [classes/Product.php line 208](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#208)
 
 
 ### $id_color_default
@@ -759,7 +760,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 214
+* This property is defined in [classes/Product.php line 214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#214)
 
 
 ### $advanced_stock_management
@@ -771,7 +772,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 220
+* This property is defined in [classes/Product.php line 220](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#220)
 
 
 ### $out_of_stock
@@ -783,7 +784,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 221
+* This property is defined in [classes/Product.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#221)
 
 
 ### $depends_on_stock
@@ -795,7 +796,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 222
+* This property is defined in [classes/Product.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#222)
 
 
 ### $isFullyLoaded
@@ -807,7 +808,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 224
+* This property is defined in [classes/Product.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#224)
 
 
 ### $cache_is_pack
@@ -819,7 +820,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 226
+* This property is defined in [classes/Product.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#226)
 
 
 ### $cache_has_attachments
@@ -831,7 +832,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 227
+* This property is defined in [classes/Product.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#227)
 
 
 ### $is_virtual
@@ -843,7 +844,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 228
+* This property is defined in [classes/Product.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#228)
 
 
 ### $id_pack_product_attribute
@@ -855,7 +856,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 229
+* This property is defined in [classes/Product.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#229)
 
 
 ### $cache_default_attribute
@@ -867,7 +868,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 230
+* This property is defined in [classes/Product.php line 230](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#230)
 
 
 ### $category
@@ -879,7 +880,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 235
+* This property is defined in [classes/Product.php line 235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#235)
 
 
 ### $pack_stock_type
@@ -891,7 +892,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **public**
-* This property is defined in classes\Product.php line 240
+* This property is defined in [classes/Product.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#240)
 
 
 ### $_taxCalculationMethod
@@ -904,7 +905,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Product.php line 242
+* This property is defined in [classes/Product.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#242)
 
 
 ### $_prices
@@ -917,7 +918,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Product.php line 243
+* This property is defined in [classes/Product.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#243)
 
 
 ### $_pricesLevel2
@@ -930,7 +931,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Product.php line 244
+* This property is defined in [classes/Product.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#244)
 
 
 ### $_incat
@@ -943,7 +944,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Product.php line 245
+* This property is defined in [classes/Product.php line 245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#245)
 
 
 ### $_cart_quantity
@@ -956,7 +957,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Product.php line 251
+* This property is defined in [classes/Product.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#251)
 
 
 ### $_tax_rules_group
@@ -969,7 +970,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Product.php line 253
+* This property is defined in [classes/Product.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#253)
 
 
 ### $_cacheFeatures
@@ -982,7 +983,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Product.php line 254
+* This property is defined in [classes/Product.php line 254](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#254)
 
 
 ### $_frontFeaturesCache
@@ -995,7 +996,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Product.php line 255
+* This property is defined in [classes/Product.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#255)
 
 
 ### $producPropertiesCache
@@ -1008,7 +1009,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Product.php line 256
+* This property is defined in [classes/Product.php line 256](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#256)
 
 
 ### $cacheStock
@@ -1021,7 +1022,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Product.php line 259
+* This property is defined in [classes/Product.php line 259](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#259)
 
 
 ### $definition
@@ -1034,7 +1035,7 @@ We keep this variable for retrocompatibility for themes
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Product.php line 261
+* This property is defined in [classes/Product.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#261)
 
 
 ### $webserviceParameters
@@ -1046,7 +1047,7 @@ We keep this variable for retrocompatibility for themes
 
 
 * Visibility: **protected**
-* This property is defined in classes\Product.php line 346
+* This property is defined in [classes/Product.php line 346](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#346)
 
 
 Methods
@@ -1062,7 +1063,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 475
+* This method is defined in [classes/Product.php line 475](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#475)
 
 
 #### Arguments
@@ -1083,7 +1084,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 517
+* This method is defined in [classes/Product.php line 517](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#517)
 
 
 
@@ -1097,7 +1098,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 528
+* This method is defined in [classes/Product.php line 528](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#528)
 
 
 #### Arguments
@@ -1115,7 +1116,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 554
+* This method is defined in [classes/Product.php line 554](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#554)
 
 
 #### Arguments
@@ -1133,7 +1134,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 577
+* This method is defined in [classes/Product.php line 577](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#577)
 
 
 #### Arguments
@@ -1151,7 +1152,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 603
+* This method is defined in [classes/Product.php line 603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#603)
 
 
 #### Arguments
@@ -1168,7 +1169,7 @@ Move a product inside its category
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 618
+* This method is defined in [classes/Product.php line 618](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#618)
 
 
 #### Arguments
@@ -1187,7 +1188,7 @@ Move a product inside its category
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 662
+* This method is defined in [classes/Product.php line 662](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#662)
 
 
 #### Arguments
@@ -1206,7 +1207,7 @@ Get the default attribute for a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 694
+* This method is defined in [classes/Product.php line 694](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#694)
 
 
 #### Arguments
@@ -1225,7 +1226,7 @@ Get the default attribute for a product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 763
+* This method is defined in [classes/Product.php line 763](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#763)
 
 
 #### Arguments
@@ -1243,7 +1244,7 @@ For a given id_product and id_product_attribute, return available date
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 779
+* This method is defined in [classes/Product.php line 779](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#779)
 
 
 #### Arguments
@@ -1262,7 +1263,7 @@ For a given id_product and id_product_attribute, return available date
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 816
+* This method is defined in [classes/Product.php line 816](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#816)
 
 
 #### Arguments
@@ -1280,7 +1281,7 @@ For a given id_product and id_product_attribute, return available date
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 826
+* This method is defined in [classes/Product.php line 826](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#826)
 
 
 #### Arguments
@@ -1301,7 +1302,7 @@ For a given id_product and id_product_attribute, return available date
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 841
+* This method is defined in [classes/Product.php line 841](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#841)
 
 
 
@@ -1315,7 +1316,7 @@ For a given id_product and id_product_attribute, return available date
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 857
+* This method is defined in [classes/Product.php line 857](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#857)
 
 
 
@@ -1329,7 +1330,7 @@ For a given id_product and id_product_attribute, return available date
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 921
+* This method is defined in [classes/Product.php line 921](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#921)
 
 
 #### Arguments
@@ -1346,7 +1347,7 @@ For a given id_product and id_product_attribute, return available date
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 938
+* This method is defined in [classes/Product.php line 938](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#938)
 
 
 
@@ -1360,7 +1361,7 @@ For a given id_product and id_product_attribute, return available date
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 944
+* This method is defined in [classes/Product.php line 944](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#944)
 
 
 
@@ -1374,7 +1375,7 @@ addToCategories add this product to the category/ies if not exists.
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 955
+* This method is defined in [classes/Product.php line 955](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#955)
 
 
 #### Arguments
@@ -1391,7 +1392,7 @@ Update categories to index product into
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1012
+* This method is defined in [classes/Product.php line 1012](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1012)
 
 
 #### Arguments
@@ -1409,7 +1410,7 @@ deleteCategory delete this product from the category $id_category
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1051
+* This method is defined in [classes/Product.php line 1051](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1051)
 
 
 #### Arguments
@@ -1427,7 +1428,7 @@ Delete all association to category where product is indexed
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1076
+* This method is defined in [classes/Product.php line 1076](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1076)
 
 
 #### Arguments
@@ -1444,7 +1445,7 @@ Delete products tags entries
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1101
+* This method is defined in [classes/Product.php line 1101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1101)
 
 
 
@@ -1458,7 +1459,7 @@ Delete product from cart
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1113
+* This method is defined in [classes/Product.php line 1113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1113)
 
 
 
@@ -1472,7 +1473,7 @@ Delete product images from database
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1123
+* This method is defined in [classes/Product.php line 1123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1123)
 
 
 
@@ -1487,7 +1488,7 @@ Delete product images from database
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 1144
+* This method is defined in [classes/Product.php line 1144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1144)
 
 
 #### Arguments
@@ -1505,7 +1506,7 @@ Get all available products
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 1159
+* This method is defined in [classes/Product.php line 1159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1159)
 
 
 #### Arguments
@@ -1530,7 +1531,7 @@ Get all available products
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 1212
+* This method is defined in [classes/Product.php line 1212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1212)
 
 
 #### Arguments
@@ -1548,7 +1549,7 @@ Get all available products
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1233
+* This method is defined in [classes/Product.php line 1233](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1233)
 
 
 
@@ -1562,7 +1563,7 @@ Get all available products
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1251
+* This method is defined in [classes/Product.php line 1251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1251)
 
 
 #### Arguments
@@ -1584,7 +1585,7 @@ The quantity params now set StockAvailable for the current shop with the specifi
 The supplier_reference params now set the supplier reference of the default supplier of the product if possible
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1310
+* This method is defined in [classes/Product.php line 1310](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1310)
 
 
 #### Arguments
@@ -1613,7 +1614,7 @@ The supplier_reference params now set the supplier reference of the default supp
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1330
+* This method is defined in [classes/Product.php line 1330](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1330)
 
 
 #### Arguments
@@ -1631,7 +1632,7 @@ The supplier_reference params now set the supplier reference of the default supp
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1372
+* This method is defined in [classes/Product.php line 1372](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1372)
 
 
 #### Arguments
@@ -1663,7 +1664,7 @@ The supplier_reference params now set the supplier reference of the default supp
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1396
+* This method is defined in [classes/Product.php line 1396](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1396)
 
 
 #### Arguments
@@ -1681,7 +1682,7 @@ Del all default attributes for product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1431
+* This method is defined in [classes/Product.php line 1431](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1431)
 
 
 
@@ -1695,7 +1696,7 @@ Del all default attributes for product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1438
+* This method is defined in [classes/Product.php line 1438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1438)
 
 
 #### Arguments
@@ -1713,7 +1714,7 @@ Del all default attributes for product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 1451
+* This method is defined in [classes/Product.php line 1451](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1451)
 
 
 #### Arguments
@@ -1730,7 +1731,7 @@ Update a product attribute
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1478
+* This method is defined in [classes/Product.php line 1478](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1478)
 
 
 #### Arguments
@@ -1761,7 +1762,7 @@ Sets or updates Supplier Reference
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1501
+* This method is defined in [classes/Product.php line 1501](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1501)
 
 
 #### Arguments
@@ -1782,7 +1783,7 @@ Update a product attribute
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1544
+* This method is defined in [classes/Product.php line 1544](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1544)
 
 
 #### Arguments
@@ -1814,7 +1815,7 @@ Add a product attribute
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1623
+* This method is defined in [classes/Product.php line 1623](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1623)
 
 
 #### Arguments
@@ -1843,7 +1844,7 @@ Add a product attribute
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1700
+* This method is defined in [classes/Product.php line 1700](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1700)
 
 
 
@@ -1857,7 +1858,7 @@ Delete product attributes
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1719
+* This method is defined in [classes/Product.php line 1719](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1719)
 
 
 
@@ -1871,7 +1872,7 @@ Delete product attributes impacts
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1739
+* This method is defined in [classes/Product.php line 1739](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1739)
 
 
 
@@ -1885,7 +1886,7 @@ Delete product features
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1752
+* This method is defined in [classes/Product.php line 1752](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1752)
 
 
 
@@ -1900,7 +1901,7 @@ Delete product features
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 1759
+* This method is defined in [classes/Product.php line 1759](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1759)
 
 
 #### Arguments
@@ -1917,7 +1918,7 @@ Delete product attachments
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1778
+* This method is defined in [classes/Product.php line 1778](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1778)
 
 
 #### Arguments
@@ -1934,7 +1935,7 @@ Delete product customizations
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1797
+* This method is defined in [classes/Product.php line 1797](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1797)
 
 
 
@@ -1948,7 +1949,7 @@ Delete product pack details
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1818
+* This method is defined in [classes/Product.php line 1818](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1818)
 
 
 
@@ -1962,7 +1963,7 @@ Delete product sales
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1832
+* This method is defined in [classes/Product.php line 1832](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1832)
 
 
 
@@ -1976,7 +1977,7 @@ Delete product in its scenes
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1845
+* This method is defined in [classes/Product.php line 1845](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1845)
 
 
 
@@ -1990,7 +1991,7 @@ Delete product indexed words
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1858
+* This method is defined in [classes/Product.php line 1858](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1858)
 
 
 
@@ -2004,7 +2005,7 @@ Add a product attributes combinaison
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1878
+* This method is defined in [classes/Product.php line 1878](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1878)
 
 
 #### Arguments
@@ -2022,7 +2023,7 @@ Add a product attributes combinaison
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1899
+* This method is defined in [classes/Product.php line 1899](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1899)
 
 
 #### Arguments
@@ -2040,7 +2041,7 @@ Delete a product attributes combination
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1924
+* This method is defined in [classes/Product.php line 1924](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1924)
 
 
 #### Arguments
@@ -2057,7 +2058,7 @@ Delete features
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1949
+* This method is defined in [classes/Product.php line 1949](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1949)
 
 
 
@@ -2071,7 +2072,7 @@ Get all available product attributes resume
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 1983
+* This method is defined in [classes/Product.php line 1983](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#1983)
 
 
 #### Arguments
@@ -2090,7 +2091,7 @@ Get all available product attributes combinations
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 2042
+* This method is defined in [classes/Product.php line 2042](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2042)
 
 
 #### Arguments
@@ -2107,7 +2108,7 @@ Get product attribute combination by id_product_attribute
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 2087
+* This method is defined in [classes/Product.php line 2087](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2087)
 
 
 #### Arguments
@@ -2125,7 +2126,7 @@ Get product attribute combination by id_product_attribute
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 2127
+* This method is defined in [classes/Product.php line 2127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2127)
 
 
 #### Arguments
@@ -2143,7 +2144,7 @@ Get product attribute combination by id_product_attribute
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 2170
+* This method is defined in [classes/Product.php line 2170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2170)
 
 
 #### Arguments
@@ -2161,7 +2162,7 @@ Check if product has attributes combinations
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 2196
+* This method is defined in [classes/Product.php line 2196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2196)
 
 
 
@@ -2176,7 +2177,7 @@ Get new products
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 2217
+* This method is defined in [classes/Product.php line 2217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2217)
 
 
 #### Arguments
@@ -2200,7 +2201,7 @@ Get new products
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\Product.php line 2330
+* This method is defined in [classes/Product.php line 2330](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2330)
 
 
 #### Arguments
@@ -2221,7 +2222,7 @@ Get a random special
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 2358
+* This method is defined in [classes/Product.php line 2358](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2358)
 
 
 #### Arguments
@@ -2242,7 +2243,7 @@ Get prices drop
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 2448
+* This method is defined in [classes/Product.php line 2448](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2448)
 
 
 #### Arguments
@@ -2268,7 +2269,7 @@ getProductCategories return an array of categories which this product belongs to
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 2574
+* This method is defined in [classes/Product.php line 2574](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2574)
 
 
 #### Arguments
@@ -2286,7 +2287,7 @@ getProductCategories return an array of categories which this product belongs to
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 2596
+* This method is defined in [classes/Product.php line 2596](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2596)
 
 
 #### Arguments
@@ -2304,7 +2305,7 @@ getCategories return an array of categories which this product belongs to
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 2624
+* This method is defined in [classes/Product.php line 2624](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2624)
 
 
 
@@ -2318,7 +2319,7 @@ Gets carriers assigned to the product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 2632
+* This method is defined in [classes/Product.php line 2632](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2632)
 
 
 
@@ -2332,7 +2333,7 @@ Sets carriers assigned to the product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 2646
+* This method is defined in [classes/Product.php line 2646](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2646)
 
 
 #### Arguments
@@ -2349,7 +2350,7 @@ Get product images and legends
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 2681
+* This method is defined in [classes/Product.php line 2681](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2681)
 
 
 #### Arguments
@@ -2368,7 +2369,7 @@ Get product cover image
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 2698
+* This method is defined in [classes/Product.php line 2698](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2698)
 
 
 #### Arguments
@@ -2387,7 +2388,7 @@ Returns product price
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 2745
+* This method is defined in [classes/Product.php line 2745](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2745)
 
 
 #### Arguments
@@ -2427,7 +2428,7 @@ Price calculation / Get product price
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 2896
+* This method is defined in [classes/Product.php line 2896](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#2896)
 
 
 #### Arguments
@@ -2465,7 +2466,7 @@ Price calculation / Get product price
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3095
+* This method is defined in [classes/Product.php line 3095](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3095)
 
 
 #### Arguments
@@ -2485,7 +2486,7 @@ Price calculation / Get product price
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3106
+* This method is defined in [classes/Product.php line 3106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3106)
 
 
 #### Arguments
@@ -2505,7 +2506,7 @@ Same as static function getPriceStatic, no need to specify product id
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3136
+* This method is defined in [classes/Product.php line 3136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3136)
 
 
 #### Arguments
@@ -2528,7 +2529,7 @@ Same as static function getPriceStatic, no need to specify product id
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3142
+* This method is defined in [classes/Product.php line 3142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3142)
 
 
 #### Arguments
@@ -2551,7 +2552,7 @@ Same as static function getPriceStatic, no need to specify product id
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3150
+* This method is defined in [classes/Product.php line 3150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3150)
 
 
 
@@ -2565,7 +2566,7 @@ Same as static function getPriceStatic, no need to specify product id
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3166
+* This method is defined in [classes/Product.php line 3166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3166)
 
 
 
@@ -2579,7 +2580,7 @@ Same as static function getPriceStatic, no need to specify product id
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3183
+* This method is defined in [classes/Product.php line 3183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3183)
 
 
 #### Arguments
@@ -2599,7 +2600,7 @@ Display price with right format and currency
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3195
+* This method is defined in [classes/Product.php line 3195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3195)
 
 
 #### Arguments
@@ -2618,7 +2619,7 @@ Convert price with currency
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3207
+* This method is defined in [classes/Product.php line 3207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3207)
 
 
 #### Arguments
@@ -2637,7 +2638,7 @@ Convert price with currency
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3212
+* This method is defined in [classes/Product.php line 3212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3212)
 
 
 #### Arguments
@@ -2656,7 +2657,7 @@ Display WT price with currency
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3224
+* This method is defined in [classes/Product.php line 3224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3224)
 
 
 #### Arguments
@@ -2675,7 +2676,7 @@ Get available product quantities
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3236
+* This method is defined in [classes/Product.php line 3236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3236)
 
 
 #### Arguments
@@ -2695,7 +2696,7 @@ Create JOIN query with 'stock_available' table
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3257
+* This method is defined in [classes/Product.php line 3257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3257)
 
 
 #### Arguments
@@ -2716,7 +2717,7 @@ Create JOIN query with 'stock_available' table
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3291
+* This method is defined in [classes/Product.php line 3291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3291)
 
 
 
@@ -2731,7 +2732,7 @@ Create JOIN query with 'stock_available' table
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3309
+* This method is defined in [classes/Product.php line 3309](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3309)
 
 
 
@@ -2746,7 +2747,7 @@ Create JOIN query with 'stock_available' table
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3316
+* This method is defined in [classes/Product.php line 3316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3316)
 
 
 #### Arguments
@@ -2763,7 +2764,7 @@ Check product availability
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3342
+* This method is defined in [classes/Product.php line 3342](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3342)
 
 
 #### Arguments
@@ -2780,7 +2781,7 @@ Check if there is no default attribute and create it if not
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3364
+* This method is defined in [classes/Product.php line 3364](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3364)
 
 
 
@@ -2795,7 +2796,7 @@ Check if there is no default attribute and create it if not
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3408
+* This method is defined in [classes/Product.php line 3408](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3408)
 
 
 #### Arguments
@@ -2813,7 +2814,7 @@ Get all available attribute groups
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3453
+* This method is defined in [classes/Product.php line 3453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3453)
 
 
 #### Arguments
@@ -2830,7 +2831,7 @@ Delete product accessories
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3485
+* This method is defined in [classes/Product.php line 3485](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3485)
 
 
 
@@ -2844,7 +2845,7 @@ Delete product from other products accessories
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3495
+* This method is defined in [classes/Product.php line 3495](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3495)
 
 
 
@@ -2859,7 +2860,7 @@ Get product accessories (only names)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3507
+* This method is defined in [classes/Product.php line 3507](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3507)
 
 
 #### Arguments
@@ -2877,7 +2878,7 @@ Get product accessories
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3528
+* This method is defined in [classes/Product.php line 3528](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3528)
 
 
 #### Arguments
@@ -2896,7 +2897,7 @@ Get product accessories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3573
+* This method is defined in [classes/Product.php line 3573](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3573)
 
 
 #### Arguments
@@ -2913,7 +2914,7 @@ Link accessories with product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3583
+* This method is defined in [classes/Product.php line 3583](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3583)
 
 
 #### Arguments
@@ -2930,7 +2931,7 @@ Add new feature to product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3596
+* This method is defined in [classes/Product.php line 3596](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3596)
 
 
 #### Arguments
@@ -2949,7 +2950,7 @@ Add new feature to product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3602
+* This method is defined in [classes/Product.php line 3602](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3602)
 
 
 #### Arguments
@@ -2969,7 +2970,7 @@ Add new feature to product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3617
+* This method is defined in [classes/Product.php line 3617](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3617)
 
 
 #### Arguments
@@ -2988,7 +2989,7 @@ Select all features for the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 3631
+* This method is defined in [classes/Product.php line 3631](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3631)
 
 
 
@@ -3003,7 +3004,7 @@ Select all features for the object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3636
+* This method is defined in [classes/Product.php line 3636](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3636)
 
 
 #### Arguments
@@ -3021,7 +3022,7 @@ Select all features for the object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3652
+* This method is defined in [classes/Product.php line 3652](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3652)
 
 
 #### Arguments
@@ -3039,7 +3040,7 @@ Select all features for the object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3680
+* This method is defined in [classes/Product.php line 3680](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3680)
 
 
 #### Arguments
@@ -3058,7 +3059,7 @@ Admin panel product search
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3723
+* This method is defined in [classes/Product.php line 3723](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3723)
 
 
 #### Arguments
@@ -3078,7 +3079,7 @@ Duplicate attributes when duplicating a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3778
+* This method is defined in [classes/Product.php line 3778](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3778)
 
 
 #### Arguments
@@ -3097,7 +3098,7 @@ Duplicate attributes when duplicating a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3869
+* This method is defined in [classes/Product.php line 3869](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3869)
 
 
 #### Arguments
@@ -3115,7 +3116,7 @@ Get product attribute image associations
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3892
+* This method is defined in [classes/Product.php line 3892](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3892)
 
 
 #### Arguments
@@ -3133,7 +3134,7 @@ Get product attribute image associations
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3905
+* This method is defined in [classes/Product.php line 3905](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3905)
 
 
 #### Arguments
@@ -3152,7 +3153,7 @@ Get product attribute image associations
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3922
+* This method is defined in [classes/Product.php line 3922](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3922)
 
 
 #### Arguments
@@ -3171,7 +3172,7 @@ Get product attribute image associations
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3941
+* This method is defined in [classes/Product.php line 3941](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3941)
 
 
 #### Arguments
@@ -3190,7 +3191,7 @@ Get product attribute image associations
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 3971
+* This method is defined in [classes/Product.php line 3971](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#3971)
 
 
 #### Arguments
@@ -3209,7 +3210,7 @@ Duplicate features when duplicating a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4003
+* This method is defined in [classes/Product.php line 4003](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4003)
 
 
 #### Arguments
@@ -3228,7 +3229,7 @@ Duplicate features when duplicating a product
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4048
+* This method is defined in [classes/Product.php line 4048](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4048)
 
 
 #### Arguments
@@ -3247,7 +3248,7 @@ Duplicate features when duplicating a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4091
+* This method is defined in [classes/Product.php line 4091](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4091)
 
 
 #### Arguments
@@ -3266,7 +3267,7 @@ Duplicate features when duplicating a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4102
+* This method is defined in [classes/Product.php line 4102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4102)
 
 
 #### Arguments
@@ -3285,7 +3286,7 @@ Adds suppliers from old product onto a newly duplicated product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4149
+* This method is defined in [classes/Product.php line 4149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4149)
 
 
 #### Arguments
@@ -3303,7 +3304,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4170
+* This method is defined in [classes/Product.php line 4170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4170)
 
 
 #### Arguments
@@ -3320,7 +3321,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4178
+* This method is defined in [classes/Product.php line 4178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4178)
 
 
 #### Arguments
@@ -3338,7 +3339,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4196
+* This method is defined in [classes/Product.php line 4196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4196)
 
 
 #### Arguments
@@ -3357,7 +3358,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4205
+* This method is defined in [classes/Product.php line 4205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4205)
 
 
 #### Arguments
@@ -3377,7 +3378,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4359
+* This method is defined in [classes/Product.php line 4359](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4359)
 
 
 #### Arguments
@@ -3396,7 +3397,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4381
+* This method is defined in [classes/Product.php line 4381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4381)
 
 
 #### Arguments
@@ -3415,7 +3416,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4402
+* This method is defined in [classes/Product.php line 4402](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4402)
 
 
 #### Arguments
@@ -3433,7 +3434,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4422
+* This method is defined in [classes/Product.php line 4422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4422)
 
 
 #### Arguments
@@ -3451,7 +3452,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4427
+* This method is defined in [classes/Product.php line 4427](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4427)
 
 
 #### Arguments
@@ -3469,7 +3470,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4437
+* This method is defined in [classes/Product.php line 4437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4437)
 
 
 #### Arguments
@@ -3487,7 +3488,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4446
+* This method is defined in [classes/Product.php line 4446](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4446)
 
 
 #### Arguments
@@ -3508,7 +3509,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4500
+* This method is defined in [classes/Product.php line 4500](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4500)
 
 
 #### Arguments
@@ -3526,7 +3527,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **protected**
-* This method is defined in classes\Product.php line 4557
+* This method is defined in [classes/Product.php line 4557](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4557)
 
 
 #### Arguments
@@ -3544,7 +3545,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **protected**
-* This method is defined in classes\Product.php line 4569
+* This method is defined in [classes/Product.php line 4569](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4569)
 
 
 
@@ -3558,7 +3559,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **protected**
-* This method is defined in classes\Product.php line 4633
+* This method is defined in [classes/Product.php line 4633](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4633)
 
 
 #### Arguments
@@ -3576,7 +3577,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4665
+* This method is defined in [classes/Product.php line 4665](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4665)
 
 
 #### Arguments
@@ -3594,7 +3595,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4687
+* This method is defined in [classes/Product.php line 4687](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4687)
 
 
 
@@ -3608,7 +3609,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4735
+* This method is defined in [classes/Product.php line 4735](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4735)
 
 
 #### Arguments
@@ -3626,7 +3627,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4767
+* This method is defined in [classes/Product.php line 4767](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4767)
 
 
 
@@ -3640,7 +3641,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4778
+* This method is defined in [classes/Product.php line 4778](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4778)
 
 
 
@@ -3655,7 +3656,7 @@ Get the link of the product page of this product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4786
+* This method is defined in [classes/Product.php line 4786](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4786)
 
 
 #### Arguments
@@ -3672,7 +3673,7 @@ Get the link of the product page of this product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4799
+* This method is defined in [classes/Product.php line 4799](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4799)
 
 
 #### Arguments
@@ -3690,7 +3691,7 @@ Checks if the product is in at least one of the submited categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4836
+* This method is defined in [classes/Product.php line 4836](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4836)
 
 
 #### Arguments
@@ -3708,7 +3709,7 @@ Checks if the product is in at least one of the submited categories
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4857
+* This method is defined in [classes/Product.php line 4857](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4857)
 
 
 
@@ -3722,7 +3723,7 @@ Checks if the product is in at least one of the submited categories
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4862
+* This method is defined in [classes/Product.php line 4862](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4862)
 
 
 #### Arguments
@@ -3740,7 +3741,7 @@ Checks if the product is in at least one of the submited categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4867
+* This method is defined in [classes/Product.php line 4867](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4867)
 
 
 #### Arguments
@@ -3758,7 +3759,7 @@ Add a stock movement for current product
 Since 1.5, this method only permit to add/remove available quantities of the current product in the current shop
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4913
+* This method is defined in [classes/Product.php line 4913](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4913)
 
 
 #### Arguments
@@ -3785,7 +3786,7 @@ Since 1.5, this method only permit to add/remove available quantities of the cur
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4936
+* This method is defined in [classes/Product.php line 4936](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4936)
 
 
 #### Arguments
@@ -3803,7 +3804,7 @@ Since 1.5, this method only permit to add/remove available quantities of the cur
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4967
+* This method is defined in [classes/Product.php line 4967](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4967)
 
 
 #### Arguments
@@ -3820,7 +3821,7 @@ Since 1.5, this method only permit to add/remove available quantities of the cur
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 4981
+* This method is defined in [classes/Product.php line 4981](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4981)
 
 
 
@@ -3835,7 +3836,7 @@ Since 1.5, this method only permit to add/remove available quantities of the cur
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 4986
+* This method is defined in [classes/Product.php line 4986](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#4986)
 
 
 #### Arguments
@@ -3853,7 +3854,7 @@ Returns tax rate.
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5009
+* This method is defined in [classes/Product.php line 5009](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5009)
 
 
 #### Arguments
@@ -3870,7 +3871,7 @@ Webservice getter : get product features association
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5026
+* This method is defined in [classes/Product.php line 5026](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5026)
 
 
 
@@ -3884,7 +3885,7 @@ Webservice setter : set product features association
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5049
+* This method is defined in [classes/Product.php line 5049](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5049)
 
 
 #### Arguments
@@ -3901,7 +3902,7 @@ Webservice getter : get virtual field default combination
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5066
+* This method is defined in [classes/Product.php line 5066](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5066)
 
 
 
@@ -3915,7 +3916,7 @@ Webservice setter : set virtual field default combination
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5077
+* This method is defined in [classes/Product.php line 5077](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5077)
 
 
 #### Arguments
@@ -3932,7 +3933,7 @@ Webservice getter : get category ids of current product for association
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5088
+* This method is defined in [classes/Product.php line 5088](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5088)
 
 
 
@@ -3946,7 +3947,7 @@ Webservice setter : set category ids of current product for association
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5106
+* This method is defined in [classes/Product.php line 5106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5106)
 
 
 #### Arguments
@@ -3963,7 +3964,7 @@ Webservice getter : get product accessories ids of current product for associati
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5136
+* This method is defined in [classes/Product.php line 5136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5136)
 
 
 
@@ -3977,7 +3978,7 @@ Webservice setter : set product accessories ids of current product for associati
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5154
+* This method is defined in [classes/Product.php line 5154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5154)
 
 
 #### Arguments
@@ -3994,7 +3995,7 @@ Webservice getter : get combination ids of current product for association
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5169
+* This method is defined in [classes/Product.php line 5169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5169)
 
 
 
@@ -4008,7 +4009,7 @@ Webservice setter : set combination ids of current product for association
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5186
+* This method is defined in [classes/Product.php line 5186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5186)
 
 
 #### Arguments
@@ -4025,7 +4026,7 @@ Webservice getter : get product option ids of current product for association
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5254
+* This method is defined in [classes/Product.php line 5254](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5254)
 
 
 
@@ -4039,7 +4040,7 @@ Webservice getter : get virtual field position in category
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5269
+* This method is defined in [classes/Product.php line 5269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5269)
 
 
 
@@ -4053,7 +4054,7 @@ Webservice setter : set virtual field position in category
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5286
+* This method is defined in [classes/Product.php line 5286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5286)
 
 
 #### Arguments
@@ -4070,7 +4071,7 @@ Webservice getter : get virtual field id_default_image in category
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5325
+* This method is defined in [classes/Product.php line 5325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5325)
 
 
 
@@ -4084,7 +4085,7 @@ Webservice setter : set virtual field id_default_image in category
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5336
+* This method is defined in [classes/Product.php line 5336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5336)
 
 
 #### Arguments
@@ -4101,7 +4102,7 @@ Webservice getter : get image ids of current product for association
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5353
+* This method is defined in [classes/Product.php line 5353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5353)
 
 
 
@@ -4115,7 +4116,7 @@ Webservice getter : get image ids of current product for association
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5363
+* This method is defined in [classes/Product.php line 5363](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5363)
 
 
 
@@ -4129,7 +4130,7 @@ Webservice getter : get image ids of current product for association
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5370
+* This method is defined in [classes/Product.php line 5370](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5370)
 
 
 
@@ -4143,7 +4144,7 @@ Webservice setter : set tag ids of current product for association
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5383
+* This method is defined in [classes/Product.php line 5383](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5383)
 
 
 #### Arguments
@@ -4160,7 +4161,7 @@ Delete products tags entries without delete tags for webservice usage
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5412
+* This method is defined in [classes/Product.php line 5412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5412)
 
 
 
@@ -4174,7 +4175,7 @@ Delete products tags entries without delete tags for webservice usage
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5418
+* This method is defined in [classes/Product.php line 5418](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5418)
 
 
 
@@ -4189,7 +4190,7 @@ Delete products tags entries without delete tags for webservice usage
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 5423
+* This method is defined in [classes/Product.php line 5423](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5423)
 
 
 
@@ -4203,7 +4204,7 @@ Set Group reduction if needed
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5433
+* This method is defined in [classes/Product.php line 5433](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5433)
 
 
 
@@ -4217,7 +4218,7 @@ Checks if reference exists
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5442
+* This method is defined in [classes/Product.php line 5442](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5442)
 
 
 #### Arguments
@@ -4235,7 +4236,7 @@ Get all product attributes ids
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 5459
+* This method is defined in [classes/Product.php line 5459](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5459)
 
 
 #### Arguments
@@ -4254,7 +4255,7 @@ Get label by lang and value by lang too
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 5475
+* This method is defined in [classes/Product.php line 5475](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5475)
 
 
 #### Arguments
@@ -4273,7 +4274,7 @@ Get label by lang and value by lang too
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 5568
+* This method is defined in [classes/Product.php line 5568](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5568)
 
 
 #### Arguments
@@ -4290,7 +4291,7 @@ Get the combination url anchor of the product
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5667
+* This method is defined in [classes/Product.php line 5667](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5667)
 
 
 #### Arguments
@@ -4309,7 +4310,7 @@ Gets the name of a given product, in the given lang
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 5690
+* This method is defined in [classes/Product.php line 5690](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5690)
 
 
 #### Arguments
@@ -4328,7 +4329,7 @@ Gets the name of a given product, in the given lang
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5728
+* This method is defined in [classes/Product.php line 5728](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5728)
 
 
 #### Arguments
@@ -4346,7 +4347,7 @@ Gets the name of a given product, in the given lang
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5737
+* This method is defined in [classes/Product.php line 5737](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5737)
 
 
 #### Arguments
@@ -4364,7 +4365,7 @@ For a given product, returns its real quantity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 5757
+* This method is defined in [classes/Product.php line 5757](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5757)
 
 
 #### Arguments
@@ -4385,7 +4386,7 @@ For a given product, tells if it uses the advanced stock management
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 5780
+* This method is defined in [classes/Product.php line 5780](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5780)
 
 
 #### Arguments
@@ -4403,7 +4404,7 @@ This method allows to flush price cache
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 5796
+* This method is defined in [classes/Product.php line 5796](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5796)
 
 
 
@@ -4417,7 +4418,7 @@ Get list of parent categories
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5809
+* This method is defined in [classes/Product.php line 5809](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5809)
 
 
 #### Arguments
@@ -4434,7 +4435,7 @@ Fill the variables used for stock management
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5828
+* This method is defined in [classes/Product.php line 5828](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5828)
 
 
 
@@ -4448,7 +4449,7 @@ Fill the variables used for stock management
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5841
+* This method is defined in [classes/Product.php line 5841](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5841)
 
 
 
@@ -4462,7 +4463,7 @@ Fill the variables used for stock management
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5850
+* This method is defined in [classes/Product.php line 5850](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5850)
 
 
 #### Arguments
@@ -4479,7 +4480,7 @@ get the default category according to the shop
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5868
+* This method is defined in [classes/Product.php line 5868](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5868)
 
 
 
@@ -4494,7 +4495,7 @@ get the default category according to the shop
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 5883
+* This method is defined in [classes/Product.php line 5883](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5883)
 
 
 #### Arguments
@@ -4511,7 +4512,7 @@ Remove all downloadable files for product and its attributes
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5896
+* This method is defined in [classes/Product.php line 5896](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5896)
 
 
 
@@ -4525,7 +4526,7 @@ Remove all downloadable files for product and its attributes
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5913
+* This method is defined in [classes/Product.php line 5913](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5913)
 
 
 #### Arguments
@@ -4542,7 +4543,7 @@ Remove all downloadable files for product and its attributes
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5924
+* This method is defined in [classes/Product.php line 5924](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5924)
 
 
 #### Arguments
@@ -4559,7 +4560,7 @@ Get the product type (simple, virtual, pack)
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5936
+* This method is defined in [classes/Product.php line 5936](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5936)
 
 
 
@@ -4573,7 +4574,7 @@ Get the product type (simple, virtual, pack)
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 5951
+* This method is defined in [classes/Product.php line 5951](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5951)
 
 
 
@@ -4588,7 +4589,7 @@ Get the product type (simple, virtual, pack)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 5961
+* This method is defined in [classes/Product.php line 5961](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5961)
 
 
 
@@ -4603,7 +4604,7 @@ For a given ean13 reference, returns the corresponding id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 5984
+* This method is defined in [classes/Product.php line 5984](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#5984)
 
 
 #### Arguments
@@ -4620,7 +4621,7 @@ For a given ean13 reference, returns the corresponding id
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 6002
+* This method is defined in [classes/Product.php line 6002](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#6002)
 
 
 
@@ -4634,7 +4635,7 @@ For a given ean13 reference, returns the corresponding id
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 6015
+* This method is defined in [classes/Product.php line 6015](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#6015)
 
 
 
@@ -4648,7 +4649,7 @@ For a given ean13 reference, returns the corresponding id
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 6028
+* This method is defined in [classes/Product.php line 6028](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#6028)
 
 
 
@@ -4662,7 +4663,7 @@ For a given ean13 reference, returns the corresponding id
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 6033
+* This method is defined in [classes/Product.php line 6033](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#6033)
 
 
 #### Arguments
@@ -4679,7 +4680,7 @@ For a given ean13 reference, returns the corresponding id
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 6057
+* This method is defined in [classes/Product.php line 6057](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#6057)
 
 
 #### Arguments
@@ -4696,7 +4697,7 @@ For a given ean13 reference, returns the corresponding id
 
 
 * Visibility: **public**
-* This method is defined in classes\Product.php line 6073
+* This method is defined in [classes/Product.php line 6073](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#6073)
 
 
 #### Arguments
@@ -4715,7 +4716,7 @@ For a given ean13 reference, returns the corresponding id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 6092
+* This method is defined in [classes/Product.php line 6092](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#6092)
 
 
 #### Arguments
@@ -4733,7 +4734,7 @@ For a given ean13 reference, returns the corresponding id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Product.php line 6097
+* This method is defined in [classes/Product.php line 6097](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Product.php#6097)
 
 
 #### Arguments

@@ -9,7 +9,8 @@ Uses CollectionCore
 
 * Class name: CSVCore
 * Namespace: 
-* This class is defined in classes\CSV.php line 32
+
+* This class is defined in [classes/CSV.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#32)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CSV.php line 34
+* This property is defined in [classes/CSV.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#34)
 
 
 ### $collection
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CSV.php line 35
+* This property is defined in [classes/CSV.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#35)
 
 
 ### $delimiter
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CSV.php line 36
+* This property is defined in [classes/CSV.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#36)
 
 
 Methods
@@ -68,7 +69,7 @@ Loads objects, filename and optionnaly a delimiter.
 
 
 * Visibility: **public**
-* This method is defined in classes\CSV.php line 44
+* This method is defined in [classes/CSV.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#44)
 
 
 #### Arguments
@@ -89,7 +90,7 @@ Outputs
 
 
 * Visibility: **public**
-* This method is defined in classes\CSV.php line 56
+* This method is defined in [classes/CSV.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#56)
 
 
 
@@ -104,7 +105,7 @@ Uses defined delimiter
 
 
 * Visibility: **public**
-* This method is defined in classes\CSV.php line 79
+* This method is defined in [classes/CSV.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#79)
 
 
 #### Arguments
@@ -122,7 +123,7 @@ Escapes data
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CSV.php line 90
+* This method is defined in [classes/CSV.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#90)
 
 
 #### Arguments
@@ -139,7 +140,7 @@ Adds headers
 
 
 * Visibility: **public**
-* This method is defined in classes\CSV.php line 99
+* This method is defined in [classes/CSV.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#99)
 
 
 

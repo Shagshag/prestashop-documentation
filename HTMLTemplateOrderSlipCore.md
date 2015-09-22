@@ -9,7 +9,8 @@ HTMLTemplateOrderSlipCore
 * Class name: HTMLTemplateOrderSlipCore
 * Namespace: 
 * Parent class: [HTMLTemplateInvoice](HTMLTemplateInvoiceCore)
-* This class is defined in classes\pdf\HTMLTemplateOrderSlip.php line 30
+
+* This class is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateOrderSlip.php line 32
+* This property is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#32)
 
 
 ### $order_slip
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateOrderSlip.php line 33
+* This property is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#33)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 40
+* This method is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#40)
 
 
 #### Arguments
@@ -74,7 +75,7 @@ Returns the template's HTML header
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 65
+* This method is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#65)
 
 
 
@@ -88,7 +89,7 @@ Returns the template's HTML content
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 80
+* This method is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#80)
 
 
 
@@ -102,7 +103,7 @@ Returns the template filename when using bulk rendering
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 189
+* This method is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#189)
 
 
 
@@ -116,7 +117,7 @@ Returns the template filename
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 199
+* This method is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#199)
 
 
 
@@ -130,7 +131,7 @@ Returns the tax tab content
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 209
+* This method is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#209)
 
 
 
@@ -144,7 +145,7 @@ Returns different tax breakdown elements
 
 
 * Visibility: **protected**
-* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 235
+* This method is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#235)
 
 
 
@@ -158,7 +159,7 @@ Returns different tax breakdown elements
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 269
+* This method is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#269)
 
 
 
@@ -172,7 +173,7 @@ Returns Shipping tax breakdown elements
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderSlip.php line 308
+* This method is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 308](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#308)
 
 
 

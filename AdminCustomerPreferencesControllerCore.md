@@ -9,7 +9,8 @@ AdminCustomerPreferencesControllerCore
 * Class name: AdminCustomerPreferencesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminCustomerPreferencesController.php line 30
+
+* This class is defined in [controllers/admin/AdminCustomerPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerPreferencesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminCustomerPreferencesController.php line 30
+* This property is defined in [controllers/admin/AdminCustomerPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerPreferencesController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomerPreferencesController.php line 32
+* This method is defined in [controllers/admin/AdminCustomerPreferencesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerPreferencesController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Update PS_B2B_ENABLE and enables / disables the associated tabs
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomerPreferencesController.php line 126
+* This method is defined in [controllers/admin/AdminCustomerPreferencesController.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomerPreferencesController.php#126)
 
 
 #### Arguments

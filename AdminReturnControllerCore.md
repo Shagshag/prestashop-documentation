@@ -9,7 +9,8 @@ AdminReturnControllerCore
 * Class name: AdminReturnControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminReturnController.php line 30
+
+* This class is defined in [controllers/admin/AdminReturnController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReturnController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminReturnController.php line 30
+* This property is defined in [controllers/admin/AdminReturnController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReturnController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReturnController.php line 32
+* This method is defined in [controllers/admin/AdminReturnController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReturnController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReturnController.php line 82
+* This method is defined in [controllers/admin/AdminReturnController.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReturnController.php#82)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReturnController.php line 185
+* This method is defined in [controllers/admin/AdminReturnController.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReturnController.php#185)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReturnController.php line 202
+* This method is defined in [controllers/admin/AdminReturnController.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReturnController.php#202)
 
 
 

@@ -23,7 +23,8 @@ needs please refer to http://www.prestashop.com for more information.
 * Class name: OrderReturnControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\OrderReturnController.php line 27
+
+* This class is defined in [controllers/front/OrderReturnController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#27)
 
 
 
@@ -42,7 +43,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderReturnController.php line 29
+* This property is defined in [controllers/front/OrderReturnController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#29)
 
 
 ### $php_self
@@ -54,7 +55,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderReturnController.php line 30
+* This property is defined in [controllers/front/OrderReturnController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#30)
 
 
 ### $authRedirection
@@ -66,7 +67,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderReturnController.php line 31
+* This property is defined in [controllers/front/OrderReturnController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#31)
 
 
 ### $ssl
@@ -78,7 +79,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderReturnController.php line 32
+* This property is defined in [controllers/front/OrderReturnController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#32)
 
 
 Methods
@@ -94,7 +95,7 @@ Initialize order return controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderReturnController.php line 38
+* This method is defined in [controllers/front/OrderReturnController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#38)
 
 
 
@@ -108,7 +109,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderReturnController.php line 77
+* This method is defined in [controllers/front/OrderReturnController.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#77)
 
 
 
@@ -122,7 +123,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderReturnController.php line 88
+* This method is defined in [controllers/front/OrderReturnController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#88)
 
 
 

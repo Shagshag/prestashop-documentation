@@ -9,7 +9,8 @@ StoreCore
 * Class name: StoreCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Store.php line 27
+
+* This class is defined in [classes/Store.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 30
+* This property is defined in [classes/Store.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#30)
 
 
 ### $id_state
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 33
+* This property is defined in [classes/Store.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#33)
 
 
 ### $name
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 36
+* This property is defined in [classes/Store.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#36)
 
 
 ### $address1
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 39
+* This property is defined in [classes/Store.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#39)
 
 
 ### $address2
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 42
+* This property is defined in [classes/Store.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#42)
 
 
 ### $postcode
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 45
+* This property is defined in [classes/Store.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#45)
 
 
 ### $city
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 48
+* This property is defined in [classes/Store.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#48)
 
 
 ### $latitude
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 51
+* This property is defined in [classes/Store.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#51)
 
 
 ### $longitude
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 54
+* This property is defined in [classes/Store.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#54)
 
 
 ### $hours
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 57
+* This property is defined in [classes/Store.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#57)
 
 
 ### $phone
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 60
+* This property is defined in [classes/Store.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#60)
 
 
 ### $fax
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 63
+* This property is defined in [classes/Store.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#63)
 
 
 ### $note
@@ -172,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 66
+* This property is defined in [classes/Store.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#66)
 
 
 ### $email
@@ -184,7 +185,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 69
+* This property is defined in [classes/Store.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#69)
 
 
 ### $date_add
@@ -196,7 +197,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 72
+* This property is defined in [classes/Store.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#72)
 
 
 ### $date_upd
@@ -208,7 +209,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 75
+* This property is defined in [classes/Store.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#75)
 
 
 ### $active
@@ -220,7 +221,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Store.php line 78
+* This property is defined in [classes/Store.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#78)
 
 
 ### $definition
@@ -233,7 +234,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Store.php line 83
+* This property is defined in [classes/Store.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#83)
 
 
 ### $webserviceParameters
@@ -245,7 +246,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Store.php line 107
+* This property is defined in [classes/Store.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#107)
 
 
 Methods
@@ -261,7 +262,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Store.php line 115
+* This method is defined in [classes/Store.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#115)
 
 
 #### Arguments
@@ -279,7 +280,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Store.php line 122
+* This method is defined in [classes/Store.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#122)
 
 
 
@@ -293,7 +294,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Store.php line 127
+* This method is defined in [classes/Store.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#127)
 
 
 #### Arguments

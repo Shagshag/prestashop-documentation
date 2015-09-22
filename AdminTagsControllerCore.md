@@ -9,7 +9,8 @@ AdminTagsControllerCore
 * Class name: AdminTagsControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminTagsController.php line 30
+
+* This class is defined in [controllers/admin/AdminTagsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminTagsController.php line 32
+* This property is defined in [controllers/admin/AdminTagsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#32)
 
 
 ### $object
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminTagsController.php line 30
+* This property is defined in [controllers/admin/AdminTagsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTagsController.php line 34
+* This method is defined in [controllers/admin/AdminTagsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#34)
 
 
 
@@ -70,7 +71,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTagsController.php line 72
+* This method is defined in [controllers/admin/AdminTagsController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#72)
 
 
 
@@ -84,7 +85,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTagsController.php line 85
+* This method is defined in [controllers/admin/AdminTagsController.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#85)
 
 
 
@@ -98,7 +99,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTagsController.php line 101
+* This method is defined in [controllers/admin/AdminTagsController.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#101)
 
 
 
@@ -112,7 +113,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTagsController.php line 126
+* This method is defined in [controllers/admin/AdminTagsController.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTagsController.php#126)
 
 
 

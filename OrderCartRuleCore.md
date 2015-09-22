@@ -9,7 +9,8 @@ OrderCartRuleCore
 * Class name: OrderCartRuleCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\order\OrderCartRule.php line 27
+
+* This class is defined in [classes/order/OrderCartRule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderCartRule.php line 30
+* This property is defined in [classes/order/OrderCartRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#30)
 
 
 ### $id_order
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderCartRule.php line 33
+* This property is defined in [classes/order/OrderCartRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#33)
 
 
 ### $id_cart_rule
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderCartRule.php line 36
+* This property is defined in [classes/order/OrderCartRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#36)
 
 
 ### $id_order_invoice
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderCartRule.php line 39
+* This property is defined in [classes/order/OrderCartRule.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#39)
 
 
 ### $name
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderCartRule.php line 42
+* This property is defined in [classes/order/OrderCartRule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#42)
 
 
 ### $value
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderCartRule.php line 45
+* This property is defined in [classes/order/OrderCartRule.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#45)
 
 
 ### $value_tax_excl
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderCartRule.php line 48
+* This property is defined in [classes/order/OrderCartRule.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#48)
 
 
 ### $free_shipping
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderCartRule.php line 51
+* This property is defined in [classes/order/OrderCartRule.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#51)
 
 
 ### $definition
@@ -125,7 +126,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\order\OrderCartRule.php line 56
+* This property is defined in [classes/order/OrderCartRule.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#56)
 
 
 ### $webserviceParameters
@@ -137,7 +138,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\order\OrderCartRule.php line 70
+* This property is defined in [classes/order/OrderCartRule.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderCartRule.php#70)
 
 
 

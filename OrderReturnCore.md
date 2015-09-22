@@ -9,7 +9,8 @@ OrderReturnCore
 * Class name: OrderReturnCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\order\OrderReturn.php line 27
+
+* This class is defined in [classes/order/OrderReturn.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderReturn.php line 30
+* This property is defined in [classes/order/OrderReturn.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#30)
 
 
 ### $id_customer
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderReturn.php line 33
+* This property is defined in [classes/order/OrderReturn.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#33)
 
 
 ### $id_order
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderReturn.php line 36
+* This property is defined in [classes/order/OrderReturn.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#36)
 
 
 ### $state
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderReturn.php line 39
+* This property is defined in [classes/order/OrderReturn.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#39)
 
 
 ### $question
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderReturn.php line 42
+* This property is defined in [classes/order/OrderReturn.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#42)
 
 
 ### $date_add
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderReturn.php line 45
+* This property is defined in [classes/order/OrderReturn.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#45)
 
 
 ### $date_upd
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderReturn.php line 48
+* This property is defined in [classes/order/OrderReturn.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#48)
 
 
 ### $definition
@@ -113,7 +114,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\order\OrderReturn.php line 53
+* This property is defined in [classes/order/OrderReturn.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#53)
 
 
 Methods
@@ -129,7 +130,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderReturn.php line 66
+* This method is defined in [classes/order/OrderReturn.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#66)
 
 
 #### Arguments
@@ -149,7 +150,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderReturn.php line 88
+* This method is defined in [classes/order/OrderReturn.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#88)
 
 
 #### Arguments
@@ -169,7 +170,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderReturn.php line 132
+* This method is defined in [classes/order/OrderReturn.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#132)
 
 
 
@@ -184,7 +185,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderReturn.php line 143
+* This method is defined in [classes/order/OrderReturn.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#143)
 
 
 #### Arguments
@@ -205,7 +206,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderReturn.php line 166
+* This method is defined in [classes/order/OrderReturn.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#166)
 
 
 #### Arguments
@@ -223,7 +224,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderReturn.php line 179
+* This method is defined in [classes/order/OrderReturn.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#179)
 
 
 #### Arguments
@@ -242,7 +243,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderReturn.php line 199
+* This method is defined in [classes/order/OrderReturn.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#199)
 
 
 #### Arguments
@@ -260,7 +261,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderReturn.php line 218
+* This method is defined in [classes/order/OrderReturn.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#218)
 
 
 #### Arguments
@@ -280,7 +281,7 @@ Get return details for one product line
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderReturn.php line 228
+* This method is defined in [classes/order/OrderReturn.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#228)
 
 
 #### Arguments
@@ -298,7 +299,7 @@ Add returned quantity to products list
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderReturn.php line 246
+* This method is defined in [classes/order/OrderReturn.php line 246](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturn.php#246)
 
 
 #### Arguments

@@ -9,7 +9,8 @@ CustomizationFieldCore
 * Class name: CustomizationFieldCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\CustomizationField.php line 27
+
+* This class is defined in [classes/CustomizationField.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomizationField.php line 30
+* This property is defined in [classes/CustomizationField.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#30)
 
 
 ### $type
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomizationField.php line 32
+* This property is defined in [classes/CustomizationField.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#32)
 
 
 ### $required
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomizationField.php line 34
+* This property is defined in [classes/CustomizationField.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#34)
 
 
 ### $name
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomizationField.php line 36
+* This property is defined in [classes/CustomizationField.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#36)
 
 
 ### $definition
@@ -77,7 +78,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\CustomizationField.php line 41
+* This property is defined in [classes/CustomizationField.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#41)
 
 
 ### $webserviceParameters
@@ -89,7 +90,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\CustomizationField.php line 56
+* This property is defined in [classes/CustomizationField.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomizationField.php#56)
 
 
 

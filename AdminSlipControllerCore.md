@@ -9,7 +9,8 @@ AdminSlipControllerCore
 * Class name: AdminSlipControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminSlipController.php line 30
+
+* This class is defined in [controllers/admin/AdminSlipController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSlipController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminSlipController.php line 30
+* This property is defined in [controllers/admin/AdminSlipController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSlipController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSlipController.php line 32
+* This method is defined in [controllers/admin/AdminSlipController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSlipController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSlipController.php line 90
+* This method is defined in [controllers/admin/AdminSlipController.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSlipController.php#90)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSlipController.php line 101
+* This method is defined in [controllers/admin/AdminSlipController.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSlipController.php#101)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSlipController.php line 142
+* This method is defined in [controllers/admin/AdminSlipController.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSlipController.php#142)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSlipController.php line 163
+* This method is defined in [controllers/admin/AdminSlipController.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSlipController.php#163)
 
 
 
@@ -114,7 +115,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSlipController.php line 181
+* This method is defined in [controllers/admin/AdminSlipController.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSlipController.php#181)
 
 
 
@@ -128,7 +129,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSlipController.php line 189
+* This method is defined in [controllers/admin/AdminSlipController.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSlipController.php#189)
 
 
 #### Arguments

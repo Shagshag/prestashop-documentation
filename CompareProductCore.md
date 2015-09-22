@@ -9,7 +9,8 @@ CompareProductCore
 * Class name: CompareProductCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\CompareProduct.php line 27
+
+* This class is defined in [classes/CompareProduct.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CompareProduct.php line 29
+* This property is defined in [classes/CompareProduct.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#29)
 
 
 ### $id_customer
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CompareProduct.php line 31
+* This property is defined in [classes/CompareProduct.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#31)
 
 
 ### $date_add
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CompareProduct.php line 33
+* This property is defined in [classes/CompareProduct.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#33)
 
 
 ### $date_upd
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CompareProduct.php line 35
+* This property is defined in [classes/CompareProduct.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#35)
 
 
 ### $definition
@@ -77,7 +78,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\CompareProduct.php line 40
+* This property is defined in [classes/CompareProduct.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#40)
 
 
 Methods
@@ -94,7 +95,7 @@ Get all compare products of the customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CompareProduct.php line 54
+* This method is defined in [classes/CompareProduct.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#54)
 
 
 #### Arguments
@@ -112,7 +113,7 @@ Add a compare product for the customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CompareProduct.php line 79
+* This method is defined in [classes/CompareProduct.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#79)
 
 
 #### Arguments
@@ -131,7 +132,7 @@ Remove a compare product for the customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CompareProduct.php line 111
+* This method is defined in [classes/CompareProduct.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#111)
 
 
 #### Arguments
@@ -150,7 +151,7 @@ Get the number of compare products of the customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CompareProduct.php line 125
+* This method is defined in [classes/CompareProduct.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#125)
 
 
 #### Arguments
@@ -168,7 +169,7 @@ Clean entries which are older than the period
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CompareProduct.php line 139
+* This method is defined in [classes/CompareProduct.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#139)
 
 
 #### Arguments
@@ -186,7 +187,7 @@ Get the id_compare by id_customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CompareProduct.php line 163
+* This method is defined in [classes/CompareProduct.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CompareProduct.php#163)
 
 
 #### Arguments

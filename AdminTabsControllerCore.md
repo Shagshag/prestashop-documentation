@@ -9,7 +9,8 @@ AdminTabsControllerCore
 * Class name: AdminTabsControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminTabsController.php line 30
+
+* This class is defined in [controllers/admin/AdminTabsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminTabsController.php line 32
+* This property is defined in [controllers/admin/AdminTabsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#32)
 
 
 ### $object
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminTabsController.php line 30
+* This property is defined in [controllers/admin/AdminTabsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTabsController.php line 34
+* This method is defined in [controllers/admin/AdminTabsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#34)
 
 
 
@@ -70,7 +71,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTabsController.php line 89
+* This method is defined in [controllers/admin/AdminTabsController.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#89)
 
 
 
@@ -84,7 +85,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTabsController.php line 114
+* This method is defined in [controllers/admin/AdminTabsController.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#114)
 
 
 
@@ -98,7 +99,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTabsController.php line 214
+* This method is defined in [controllers/admin/AdminTabsController.php line 214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#214)
 
 
 
@@ -112,7 +113,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTabsController.php line 226
+* This method is defined in [controllers/admin/AdminTabsController.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#226)
 
 
 
@@ -126,7 +127,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTabsController.php line 241
+* This method is defined in [controllers/admin/AdminTabsController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#241)
 
 
 
@@ -140,7 +141,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTabsController.php line 266
+* This method is defined in [controllers/admin/AdminTabsController.php line 266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#266)
 
 
 
@@ -154,7 +155,7 @@ AdminController::renderList() override
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminTabsController.php line 337
+* This method is defined in [controllers/admin/AdminTabsController.php line 337](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#337)
 
 
 
@@ -168,7 +169,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTabsController.php line 346
+* This method is defined in [controllers/admin/AdminTabsController.php line 346](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTabsController.php#346)
 
 
 

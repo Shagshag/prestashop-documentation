@@ -8,7 +8,8 @@ AverageTaxOfProductsTaxCalculator
 
 * Class name: AverageTaxOfProductsTaxCalculator
 * Namespace: 
-* This class is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 3
+
+* This class is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 3](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#3)
 
 
 
@@ -27,7 +28,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 5
+* This property is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 5](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#5)
 
 
 ### $configuration
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 6
+* This property is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 6](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#6)
 
 
 ### $db
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 7
+* This property is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 7](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#7)
 
 
 ### $computation_method
@@ -63,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 9
+* This property is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 9](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#9)
 
 
 Methods
@@ -79,7 +80,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 11
+* This method is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 11](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#11)
 
 
 #### Arguments
@@ -97,7 +98,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 17
+* This method is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 17](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#17)
 
 
 
@@ -111,7 +112,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 30
+* This method is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#30)
 
 
 #### Arguments
@@ -128,7 +129,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\AverageTaxOfProductsTaxCalculator.php line 36
+* This method is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#36)
 
 
 #### Arguments

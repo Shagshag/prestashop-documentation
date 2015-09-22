@@ -9,7 +9,8 @@ MetaCore
 * Class name: MetaCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Meta.php line 27
+
+* This class is defined in [classes/Meta.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Meta.php line 29
+* This property is defined in [classes/Meta.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#29)
 
 
 ### $configurable
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Meta.php line 30
+* This property is defined in [classes/Meta.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#30)
 
 
 ### $title
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Meta.php line 31
+* This property is defined in [classes/Meta.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#31)
 
 
 ### $description
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Meta.php line 32
+* This property is defined in [classes/Meta.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#32)
 
 
 ### $keywords
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Meta.php line 33
+* This property is defined in [classes/Meta.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#33)
 
 
 ### $url_rewrite
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Meta.php line 34
+* This property is defined in [classes/Meta.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#34)
 
 
 ### $definition
@@ -101,7 +102,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Meta.php line 39
+* This property is defined in [classes/Meta.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#39)
 
 
 Methods
@@ -118,7 +119,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 56
+* This method is defined in [classes/Meta.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#56)
 
 
 #### Arguments
@@ -137,7 +138,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 122
+* This method is defined in [classes/Meta.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#122)
 
 
 
@@ -152,7 +153,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 127
+* This method is defined in [classes/Meta.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#127)
 
 
 #### Arguments
@@ -170,7 +171,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 138
+* This method is defined in [classes/Meta.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#138)
 
 
 #### Arguments
@@ -188,7 +189,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Meta.php line 152
+* This method is defined in [classes/Meta.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#152)
 
 
 #### Arguments
@@ -205,7 +206,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Meta.php line 161
+* This method is defined in [classes/Meta.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#161)
 
 
 
@@ -219,7 +220,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Meta.php line 170
+* This method is defined in [classes/Meta.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#170)
 
 
 #### Arguments
@@ -237,7 +238,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 184
+* This method is defined in [classes/Meta.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#184)
 
 
 #### Arguments
@@ -257,7 +258,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 202
+* This method is defined in [classes/Meta.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#202)
 
 
 #### Arguments
@@ -277,7 +278,7 @@ Get meta tags for a given page
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 232
+* This method is defined in [classes/Meta.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#232)
 
 
 #### Arguments
@@ -296,7 +297,7 @@ Get product meta tags
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 250
+* This method is defined in [classes/Meta.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#250)
 
 
 #### Arguments
@@ -316,7 +317,7 @@ Get category meta tags
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 278
+* This method is defined in [classes/Meta.php line 278](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#278)
 
 
 #### Arguments
@@ -337,7 +338,7 @@ Get manufacturer meta tags
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 326
+* This method is defined in [classes/Meta.php line 326](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#326)
 
 
 #### Arguments
@@ -357,7 +358,7 @@ Get supplier meta tags
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 355
+* This method is defined in [classes/Meta.php line 355](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#355)
 
 
 #### Arguments
@@ -377,7 +378,7 @@ Get CMS meta tags
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 384
+* This method is defined in [classes/Meta.php line 384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#384)
 
 
 #### Arguments
@@ -397,7 +398,7 @@ Get CMS category meta tags
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 410
+* This method is defined in [classes/Meta.php line 410](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#410)
 
 
 #### Arguments
@@ -417,7 +418,7 @@ Get CMS category meta tags
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Meta.php line 429
+* This method is defined in [classes/Meta.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Meta.php#429)
 
 
 #### Arguments

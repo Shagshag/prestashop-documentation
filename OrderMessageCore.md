@@ -9,7 +9,8 @@ OrderMessageCore
 * Class name: OrderMessageCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\order\OrderMessage.php line 27
+
+* This class is defined in [classes/order/OrderMessage.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderMessage.php line 30
+* This property is defined in [classes/order/OrderMessage.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#30)
 
 
 ### $message
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderMessage.php line 33
+* This property is defined in [classes/order/OrderMessage.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#33)
 
 
 ### $date_add
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderMessage.php line 36
+* This property is defined in [classes/order/OrderMessage.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#36)
 
 
 ### $definition
@@ -65,7 +66,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\order\OrderMessage.php line 41
+* This property is defined in [classes/order/OrderMessage.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#41)
 
 
 ### $webserviceParameters
@@ -77,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\order\OrderMessage.php line 54
+* This property is defined in [classes/order/OrderMessage.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#54)
 
 
 Methods
@@ -94,7 +95,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderMessage.php line 61
+* This method is defined in [classes/order/OrderMessage.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#61)
 
 
 #### Arguments

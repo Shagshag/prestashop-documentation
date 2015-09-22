@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Business_ContainerBuilder
 * Namespace: 
-* This class is defined in Core\Business\Core_Business_ContainerBuilder.php line 27
+
+* This class is defined in [Core/Business/Core_Business_ContainerBuilder.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Core_Business_ContainerBuilder.php#27)
 
 
 
@@ -43,7 +44,7 @@ Construct PrestaShop Core Service container
 
 
 * Visibility: **public**
-* This method is defined in Core\Business\Core_Business_ContainerBuilder.php line 34
+* This method is defined in [Core/Business/Core_Business_ContainerBuilder.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Core_Business_ContainerBuilder.php#34)
 
 
 

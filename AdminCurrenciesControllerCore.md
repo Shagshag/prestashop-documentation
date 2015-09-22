@@ -9,7 +9,8 @@ AdminCurrenciesControllerCore
 * Class name: AdminCurrenciesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminCurrenciesController.php line 30
+
+* This class is defined in [controllers/admin/AdminCurrenciesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminCurrenciesController.php line 30
+* This property is defined in [controllers/admin/AdminCurrenciesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCurrenciesController.php line 32
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCurrenciesController.php line 82
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#82)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCurrenciesController.php line 92
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#92)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCurrenciesController.php line 237
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#237)
 
 
 #### Arguments
@@ -103,7 +104,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCurrenciesController.php line 253
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#253)
 
 
 #### Arguments
@@ -120,7 +121,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCurrenciesController.php line 272
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#272)
 
 
 
@@ -134,7 +135,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCurrenciesController.php line 281
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#281)
 
 
 
@@ -148,7 +149,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCurrenciesController.php line 298
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#298)
 
 
 
@@ -162,7 +163,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCurrenciesController.php line 308
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 308](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#308)
 
 
 
@@ -176,7 +177,7 @@ Update currency exchange rates
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCurrenciesController.php line 324
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#324)
 
 
 
@@ -190,7 +191,7 @@ Update currency exchange rates
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCurrenciesController.php line 334
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 334](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#334)
 
 
 
@@ -204,7 +205,7 @@ Update currency exchange rates
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCurrenciesController.php line 352
+* This method is defined in [controllers/admin/AdminCurrenciesController.php line 352](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCurrenciesController.php#352)
 
 
 

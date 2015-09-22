@@ -9,7 +9,8 @@ WarehouseProductLocationCore
 * Class name: WarehouseProductLocationCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\stock\WarehouseProductLocation.php line 29
+
+* This class is defined in [classes/stock/WarehouseProductLocation.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#29)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\WarehouseProductLocation.php line 34
+* This property is defined in [classes/stock/WarehouseProductLocation.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#34)
 
 
 ### $id_product_attribute
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\WarehouseProductLocation.php line 39
+* This property is defined in [classes/stock/WarehouseProductLocation.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#39)
 
 
 ### $id_warehouse
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\WarehouseProductLocation.php line 44
+* This property is defined in [classes/stock/WarehouseProductLocation.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#44)
 
 
 ### $location
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\WarehouseProductLocation.php line 49
+* This property is defined in [classes/stock/WarehouseProductLocation.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#49)
 
 
 ### $definition
@@ -77,7 +78,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\stock\WarehouseProductLocation.php line 54
+* This property is defined in [classes/stock/WarehouseProductLocation.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#54)
 
 
 ### $webserviceParameters
@@ -89,7 +90,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\stock\WarehouseProductLocation.php line 68
+* This property is defined in [classes/stock/WarehouseProductLocation.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#68)
 
 
 Methods
@@ -106,7 +107,7 @@ For a given product and warehouse, gets the location
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\WarehouseProductLocation.php line 86
+* This method is defined in [classes/stock/WarehouseProductLocation.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#86)
 
 
 #### Arguments
@@ -126,7 +127,7 @@ For a given product and warehouse, gets the WarehouseProductLocation correspondi
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\WarehouseProductLocation.php line 108
+* This method is defined in [classes/stock/WarehouseProductLocation.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#108)
 
 
 #### Arguments
@@ -146,7 +147,7 @@ For a given product, gets its warehouses
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\WarehouseProductLocation.php line 128
+* This method is defined in [classes/stock/WarehouseProductLocation.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#128)
 
 
 #### Arguments
@@ -164,7 +165,7 @@ For a given product, gets its warehouses
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\WarehouseProductLocation.php line 135
+* This method is defined in [classes/stock/WarehouseProductLocation.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#135)
 
 
 #### Arguments

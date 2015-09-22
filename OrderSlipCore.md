@@ -9,7 +9,8 @@ OrderSlipCore
 * Class name: OrderSlipCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\order\OrderSlip.php line 27
+
+* This class is defined in [classes/order/OrderSlip.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 30
+* This property is defined in [classes/order/OrderSlip.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#30)
 
 
 ### $id_customer
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 33
+* This property is defined in [classes/order/OrderSlip.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#33)
 
 
 ### $id_order
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 36
+* This property is defined in [classes/order/OrderSlip.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#36)
 
 
 ### $conversion_rate
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 39
+* This property is defined in [classes/order/OrderSlip.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#39)
 
 
 ### $total_products_tax_excl
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 42
+* This property is defined in [classes/order/OrderSlip.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#42)
 
 
 ### $total_products_tax_incl
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 45
+* This property is defined in [classes/order/OrderSlip.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#45)
 
 
 ### $total_shipping_tax_excl
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 48
+* This property is defined in [classes/order/OrderSlip.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#48)
 
 
 ### $total_shipping_tax_incl
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 51
+* This property is defined in [classes/order/OrderSlip.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#51)
 
 
 ### $amount
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 54
+* This property is defined in [classes/order/OrderSlip.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#54)
 
 
 ### $shipping_cost
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 57
+* This property is defined in [classes/order/OrderSlip.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#57)
 
 
 ### $shipping_cost_amount
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 60
+* This property is defined in [classes/order/OrderSlip.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#60)
 
 
 ### $partial
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 63
+* This property is defined in [classes/order/OrderSlip.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#63)
 
 
 ### $date_add
@@ -172,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 66
+* This property is defined in [classes/order/OrderSlip.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#66)
 
 
 ### $date_upd
@@ -184,7 +185,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 69
+* This property is defined in [classes/order/OrderSlip.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#69)
 
 
 ### $order_slip_type
@@ -196,7 +197,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderSlip.php line 72
+* This property is defined in [classes/order/OrderSlip.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#72)
 
 
 ### $definition
@@ -209,7 +210,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\order\OrderSlip.php line 77
+* This property is defined in [classes/order/OrderSlip.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#77)
 
 
 ### $webserviceParameters
@@ -221,7 +222,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\order\OrderSlip.php line 98
+* This property is defined in [classes/order/OrderSlip.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#98)
 
 
 Methods
@@ -237,7 +238,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderSlip.php line 117
+* This method is defined in [classes/order/OrderSlip.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#117)
 
 
 #### Arguments
@@ -256,7 +257,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderSlip.php line 136
+* This method is defined in [classes/order/OrderSlip.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#136)
 
 
 #### Arguments
@@ -275,7 +276,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderSlip.php line 146
+* This method is defined in [classes/order/OrderSlip.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#146)
 
 
 #### Arguments
@@ -294,7 +295,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderSlip.php line 160
+* This method is defined in [classes/order/OrderSlip.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#160)
 
 
 #### Arguments
@@ -313,7 +314,7 @@ Get resume of all refund for one product line
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderSlip.php line 186
+* This method is defined in [classes/order/OrderSlip.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#186)
 
 
 #### Arguments
@@ -331,7 +332,7 @@ Get refund details for one product line
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderSlip.php line 199
+* This method is defined in [classes/order/OrderSlip.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#199)
 
 
 #### Arguments
@@ -348,7 +349,7 @@ Get refund details for one product line
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderSlip.php line 209
+* This method is defined in [classes/order/OrderSlip.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#209)
 
 
 
@@ -363,7 +364,7 @@ Get refund details for one product line
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderSlip.php line 226
+* This method is defined in [classes/order/OrderSlip.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#226)
 
 
 #### Arguments
@@ -382,7 +383,7 @@ Get refund details for one product line
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderSlip.php line 247
+* This method is defined in [classes/order/OrderSlip.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#247)
 
 
 #### Arguments
@@ -403,7 +404,7 @@ Get refund details for one product line
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderSlip.php line 267
+* This method is defined in [classes/order/OrderSlip.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#267)
 
 
 #### Arguments
@@ -425,7 +426,7 @@ Get refund details for one product line
 
 
 * Visibility: **protected**
-* This method is defined in classes\order\OrderSlip.php line 406
+* This method is defined in [classes/order/OrderSlip.php line 406](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#406)
 
 
 #### Arguments
@@ -443,7 +444,7 @@ Get refund details for one product line
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderSlip.php line 421
+* This method is defined in [classes/order/OrderSlip.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#421)
 
 
 #### Arguments
@@ -463,7 +464,7 @@ Get refund details for one product line
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderSlip.php line 440
+* This method is defined in [classes/order/OrderSlip.php line 440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#440)
 
 
 #### Arguments
@@ -480,7 +481,7 @@ Get refund details for one product line
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderSlip.php line 496
+* This method is defined in [classes/order/OrderSlip.php line 496](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#496)
 
 
 
@@ -494,7 +495,7 @@ Get refund details for one product line
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderSlip.php line 517
+* This method is defined in [classes/order/OrderSlip.php line 517](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#517)
 
 
 
@@ -508,7 +509,7 @@ Get refund details for one product line
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderSlip.php line 526
+* This method is defined in [classes/order/OrderSlip.php line 526](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#526)
 
 
 #### Arguments

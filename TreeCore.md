@@ -8,7 +8,8 @@ TreeCore
 
 * Class name: TreeCore
 * Namespace: 
-* This class is defined in classes\tree\Tree.php line 27
+
+* This class is defined in [classes/tree/Tree.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#27)
 
 
 
@@ -22,7 +23,7 @@ Constants
 
 
 
-* This constant is defined in classes\tree\Tree.php line 29
+* This constant is defined in [classes/tree/Tree.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#29)
 
 
 ### DEFAULT_TEMPLATE
@@ -31,7 +32,7 @@ Constants
 
 
 
-* This constant is defined in classes\tree\Tree.php line 30
+* This constant is defined in [classes/tree/Tree.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#30)
 
 
 ### DEFAULT_HEADER_TEMPLATE
@@ -40,7 +41,7 @@ Constants
 
 
 
-* This constant is defined in classes\tree\Tree.php line 31
+* This constant is defined in [classes/tree/Tree.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#31)
 
 
 ### DEFAULT_NODE_FOLDER_TEMPLATE
@@ -49,7 +50,7 @@ Constants
 
 
 
-* This constant is defined in classes\tree\Tree.php line 32
+* This constant is defined in [classes/tree/Tree.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#32)
 
 
 ### DEFAULT_NODE_ITEM_TEMPLATE
@@ -58,7 +59,7 @@ Constants
 
 
 
-* This constant is defined in classes\tree\Tree.php line 33
+* This constant is defined in [classes/tree/Tree.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#33)
 
 
 Properties
@@ -74,7 +75,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\tree\Tree.php line 35
+* This property is defined in [classes/tree/Tree.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#35)
 
 
 ### $_context
@@ -86,7 +87,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\tree\Tree.php line 36
+* This property is defined in [classes/tree/Tree.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#36)
 
 
 ### $_data
@@ -98,7 +99,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\tree\Tree.php line 37
+* This property is defined in [classes/tree/Tree.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#37)
 
 
 ### $_data_search
@@ -110,7 +111,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\tree\Tree.php line 38
+* This property is defined in [classes/tree/Tree.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#38)
 
 
 ### $_headerTemplate
@@ -122,7 +123,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\tree\Tree.php line 39
+* This property is defined in [classes/tree/Tree.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#39)
 
 
 ### $_id_tree
@@ -134,7 +135,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\tree\Tree.php line 40
+* This property is defined in [classes/tree/Tree.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#40)
 
 
 ### $_id
@@ -146,7 +147,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\tree\Tree.php line 41
+* This property is defined in [classes/tree/Tree.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#41)
 
 
 ### $_node_folder_template
@@ -158,7 +159,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\tree\Tree.php line 42
+* This property is defined in [classes/tree/Tree.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#42)
 
 
 ### $_node_item_template
@@ -170,7 +171,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\tree\Tree.php line 43
+* This property is defined in [classes/tree/Tree.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#43)
 
 
 ### $_template
@@ -182,7 +183,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\tree\Tree.php line 44
+* This property is defined in [classes/tree/Tree.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#44)
 
 
 ### $_template_directory
@@ -194,7 +195,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\tree\Tree.php line 47
+* This property is defined in [classes/tree/Tree.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#47)
 
 
 ### $_title
@@ -206,7 +207,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\tree\Tree.php line 48
+* This property is defined in [classes/tree/Tree.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#48)
 
 
 ### $_no_js
@@ -218,7 +219,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\tree\Tree.php line 49
+* This property is defined in [classes/tree/Tree.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#49)
 
 
 ### $_toolbar
@@ -230,7 +231,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\tree\Tree.php line 52
+* This property is defined in [classes/tree/Tree.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#52)
 
 
 Methods
@@ -246,7 +247,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 54
+* This method is defined in [classes/tree/Tree.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#54)
 
 
 #### Arguments
@@ -264,7 +265,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 63
+* This method is defined in [classes/tree/Tree.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#63)
 
 
 
@@ -278,7 +279,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 68
+* This method is defined in [classes/tree/Tree.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#68)
 
 
 #### Arguments
@@ -295,7 +296,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 78
+* This method is defined in [classes/tree/Tree.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#78)
 
 
 
@@ -309,7 +310,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 87
+* This method is defined in [classes/tree/Tree.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#87)
 
 
 #### Arguments
@@ -327,7 +328,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 97
+* This method is defined in [classes/tree/Tree.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#97)
 
 
 #### Arguments
@@ -344,7 +345,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 102
+* This method is defined in [classes/tree/Tree.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#102)
 
 
 #### Arguments
@@ -361,7 +362,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 112
+* This method is defined in [classes/tree/Tree.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#112)
 
 
 #### Arguments
@@ -378,7 +379,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 118
+* This method is defined in [classes/tree/Tree.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#118)
 
 
 
@@ -392,7 +393,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 123
+* This method is defined in [classes/tree/Tree.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#123)
 
 
 
@@ -406,7 +407,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 132
+* This method is defined in [classes/tree/Tree.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#132)
 
 
 #### Arguments
@@ -423,7 +424,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 138
+* This method is defined in [classes/tree/Tree.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#138)
 
 
 
@@ -437,7 +438,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 147
+* This method is defined in [classes/tree/Tree.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#147)
 
 
 #### Arguments
@@ -454,7 +455,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 157
+* This method is defined in [classes/tree/Tree.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#157)
 
 
 
@@ -468,7 +469,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 166
+* This method is defined in [classes/tree/Tree.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#166)
 
 
 #### Arguments
@@ -485,7 +486,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 176
+* This method is defined in [classes/tree/Tree.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#176)
 
 
 
@@ -499,7 +500,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 185
+* This method is defined in [classes/tree/Tree.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#185)
 
 
 #### Arguments
@@ -516,7 +517,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 191
+* This method is defined in [classes/tree/Tree.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#191)
 
 
 
@@ -530,7 +531,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 200
+* This method is defined in [classes/tree/Tree.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#200)
 
 
 #### Arguments
@@ -547,7 +548,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 206
+* This method is defined in [classes/tree/Tree.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#206)
 
 
 
@@ -561,7 +562,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 211
+* This method is defined in [classes/tree/Tree.php line 211](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#211)
 
 
 #### Arguments
@@ -578,7 +579,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 217
+* This method is defined in [classes/tree/Tree.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#217)
 
 
 
@@ -592,7 +593,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 226
+* This method is defined in [classes/tree/Tree.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#226)
 
 
 #### Arguments
@@ -609,7 +610,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 232
+* This method is defined in [classes/tree/Tree.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#232)
 
 
 
@@ -623,7 +624,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 241
+* This method is defined in [classes/tree/Tree.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#241)
 
 
 #### Arguments
@@ -640,7 +641,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 247
+* This method is defined in [classes/tree/Tree.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#247)
 
 
 
@@ -654,7 +655,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 261
+* This method is defined in [classes/tree/Tree.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#261)
 
 
 #### Arguments
@@ -671,7 +672,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 270
+* This method is defined in [classes/tree/Tree.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#270)
 
 
 
@@ -685,7 +686,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 280
+* This method is defined in [classes/tree/Tree.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#280)
 
 
 #### Arguments
@@ -702,7 +703,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 312
+* This method is defined in [classes/tree/Tree.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#312)
 
 
 #### Arguments
@@ -719,7 +720,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 318
+* This method is defined in [classes/tree/Tree.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#318)
 
 
 #### Arguments
@@ -736,7 +737,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 324
+* This method is defined in [classes/tree/Tree.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#324)
 
 
 
@@ -750,7 +751,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 329
+* This method is defined in [classes/tree/Tree.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#329)
 
 
 #### Arguments
@@ -767,7 +768,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 345
+* This method is defined in [classes/tree/Tree.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#345)
 
 
 
@@ -781,7 +782,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 358
+* This method is defined in [classes/tree/Tree.php line 358](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#358)
 
 
 #### Arguments
@@ -798,7 +799,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 368
+* This method is defined in [classes/tree/Tree.php line 368](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#368)
 
 
 
@@ -812,7 +813,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 378
+* This method is defined in [classes/tree/Tree.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#378)
 
 
 #### Arguments
@@ -829,7 +830,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 429
+* This method is defined in [classes/tree/Tree.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#429)
 
 
 #### Arguments
@@ -846,7 +847,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 464
+* This method is defined in [classes/tree/Tree.php line 464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#464)
 
 
 
@@ -860,7 +861,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 469
+* This method is defined in [classes/tree/Tree.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#469)
 
 
 
@@ -874,7 +875,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\Tree.php line 474
+* This method is defined in [classes/tree/Tree.php line 474](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#474)
 
 
 
@@ -888,7 +889,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in classes\tree\Tree.php line 479
+* This method is defined in [classes/tree/Tree.php line 479](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/Tree.php#479)
 
 
 #### Arguments

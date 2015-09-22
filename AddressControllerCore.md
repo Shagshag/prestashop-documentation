@@ -9,7 +9,8 @@ AddressControllerCore
 * Class name: AddressControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\AddressController.php line 27
+
+* This class is defined in [controllers/front/AddressController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\AddressController.php line 29
+* This property is defined in [controllers/front/AddressController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#29)
 
 
 ### $guestAllowed
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\AddressController.php line 30
+* This property is defined in [controllers/front/AddressController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#30)
 
 
 ### $php_self
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\AddressController.php line 31
+* This property is defined in [controllers/front/AddressController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#31)
 
 
 ### $authRedirection
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\AddressController.php line 32
+* This property is defined in [controllers/front/AddressController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#32)
 
 
 ### $ssl
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\AddressController.php line 33
+* This property is defined in [controllers/front/AddressController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#33)
 
 
 ### $_address
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\AddressController.php line 38
+* This property is defined in [controllers/front/AddressController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#38)
 
 
 ### $id_country
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\AddressController.php line 39
+* This property is defined in [controllers/front/AddressController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#39)
 
 
 Methods
@@ -116,7 +117,7 @@ Set default medias for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\AddressController.php line 44
+* This method is defined in [controllers/front/AddressController.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#44)
 
 
 
@@ -130,7 +131,7 @@ Initialize address controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\AddressController.php line 58
+* This method is defined in [controllers/front/AddressController.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#58)
 
 
 
@@ -144,7 +145,7 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\AddressController.php line 104
+* This method is defined in [controllers/front/AddressController.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#104)
 
 
 
@@ -158,7 +159,7 @@ Process changes on an address
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\AddressController.php line 118
+* This method is defined in [controllers/front/AddressController.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#118)
 
 
 
@@ -172,7 +173,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\AddressController.php line 255
+* This method is defined in [controllers/front/AddressController.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#255)
 
 
 
@@ -186,7 +187,7 @@ Assign template vars related to countries display
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\AddressController.php line 293
+* This method is defined in [controllers/front/AddressController.php line 293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#293)
 
 
 
@@ -200,7 +201,7 @@ Assign template vars related to address format
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\AddressController.php line 321
+* This method is defined in [controllers/front/AddressController.php line 321](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#321)
 
 
 
@@ -214,7 +215,7 @@ Assign template vars related to vat number
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\AddressController.php line 338
+* This method is defined in [controllers/front/AddressController.php line 338](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#338)
 
 
 
@@ -228,7 +229,7 @@ Assign template vars related to vat number
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\AddressController.php line 360
+* This method is defined in [controllers/front/AddressController.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressController.php#360)
 
 
 

@@ -9,7 +9,7 @@ WebserviceSpecificManagementInterface
 * Interface name: WebserviceSpecificManagementInterface
 * Namespace: 
 * This is an **interface**
-* This interface is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 27
+* This interface is defined in [classes/webservice/WebserviceSpecificManagementInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementInterface.php#27)
 
 
 
@@ -29,7 +29,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 29
+* This method is defined in [classes/webservice/WebserviceSpecificManagementInterface.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementInterface.php#29)
 
 
 #### Arguments
@@ -46,7 +46,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 30
+* This method is defined in [classes/webservice/WebserviceSpecificManagementInterface.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementInterface.php#30)
 
 
 
@@ -60,7 +60,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 31
+* This method is defined in [classes/webservice/WebserviceSpecificManagementInterface.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementInterface.php#31)
 
 
 #### Arguments
@@ -77,7 +77,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 32
+* This method is defined in [classes/webservice/WebserviceSpecificManagementInterface.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementInterface.php#32)
 
 
 
@@ -91,7 +91,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 34
+* This method is defined in [classes/webservice/WebserviceSpecificManagementInterface.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementInterface.php#34)
 
 
 
@@ -105,7 +105,7 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceSpecificManagementInterface.php line 41
+* This method is defined in [classes/webservice/WebserviceSpecificManagementInterface.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementInterface.php#41)
 
 
 

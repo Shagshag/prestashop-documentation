@@ -9,7 +9,8 @@ AdminLanguagesControllerCore
 * Class name: AdminLanguagesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminLanguagesController.php line 30
+
+* This class is defined in [controllers/admin/AdminLanguagesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminLanguagesController.php line 30
+* This property is defined in [controllers/admin/AdminLanguagesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 32
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 108
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#108)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 121
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#121)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 133
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#133)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 298
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#298)
 
 
 
@@ -114,7 +115,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 311
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 311](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#311)
 
 
 
@@ -128,7 +129,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 329
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#329)
 
 
 #### Arguments
@@ -145,7 +146,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 351
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#351)
 
 
 #### Arguments
@@ -162,7 +163,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 369
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#369)
 
 
 
@@ -176,7 +177,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 379
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 379](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#379)
 
 
 
@@ -190,7 +191,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 393
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 393](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#393)
 
 
 
@@ -204,7 +205,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 415
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 415](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#415)
 
 
 
@@ -218,7 +219,7 @@ Copy a no-product image
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 450
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 450](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#450)
 
 
 #### Arguments
@@ -235,7 +236,7 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 492
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 492](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#492)
 
 
 #### Arguments
@@ -252,7 +253,7 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 520
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 520](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#520)
 
 
 #### Arguments
@@ -270,7 +271,7 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 530
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 530](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#530)
 
 
 
@@ -284,7 +285,7 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 560
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 560](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#560)
 
 
 #### Arguments
@@ -301,7 +302,7 @@ deleteNoPictureImages will delete all default image created for the language id_
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminLanguagesController.php line 566
+* This method is defined in [controllers/admin/AdminLanguagesController.php line 566](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLanguagesController.php#566)
 
 
 

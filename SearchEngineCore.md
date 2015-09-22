@@ -9,7 +9,8 @@ SearchEngineCore
 * Class name: SearchEngineCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\SearchEngine.php line 27
+
+* This class is defined in [classes/SearchEngine.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SearchEngine.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SearchEngine.php line 29
+* This property is defined in [classes/SearchEngine.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SearchEngine.php#29)
 
 
 ### $getvar
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SearchEngine.php line 30
+* This property is defined in [classes/SearchEngine.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SearchEngine.php#30)
 
 
 ### $definition
@@ -53,7 +54,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\SearchEngine.php line 35
+* This property is defined in [classes/SearchEngine.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SearchEngine.php#35)
 
 
 Methods
@@ -70,7 +71,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SearchEngine.php line 44
+* This method is defined in [classes/SearchEngine.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SearchEngine.php#44)
 
 
 #### Arguments

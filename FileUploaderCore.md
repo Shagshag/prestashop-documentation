@@ -8,7 +8,8 @@ FileUploaderCore
 
 * Class name: FileUploaderCore
 * Namespace: 
-* This class is defined in classes\FileUploader.php line 27
+
+* This class is defined in [classes/FileUploader.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#27)
 
 
 
@@ -27,7 +28,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\FileUploader.php line 29
+* This property is defined in [classes/FileUploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#29)
 
 
 ### $file
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\FileUploader.php line 32
+* This property is defined in [classes/FileUploader.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#32)
 
 
 ### $sizeLimit
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\FileUploader.php line 33
+* This property is defined in [classes/FileUploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#33)
 
 
 Methods
@@ -67,7 +68,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\FileUploader.php line 35
+* This method is defined in [classes/FileUploader.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#35)
 
 
 #### Arguments
@@ -85,7 +86,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\FileUploader.php line 51
+* This method is defined in [classes/FileUploader.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#51)
 
 
 #### Arguments
@@ -102,7 +103,7 @@ Returns array('success'=>true) or array('error'=>'error message')
 
 
 * Visibility: **public**
-* This method is defined in classes\FileUploader.php line 66
+* This method is defined in [classes/FileUploader.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#66)
 
 
 

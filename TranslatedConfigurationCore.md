@@ -9,7 +9,8 @@ TranslatedConfigurationCore
 * Class name: TranslatedConfigurationCore
 * Namespace: 
 * Parent class: [Configuration](ConfigurationCore)
-* This class is defined in classes\TranslatedConfiguration.php line 27
+
+* This class is defined in [classes/TranslatedConfiguration.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\TranslatedConfiguration.php line 29
+* This property is defined in [classes/TranslatedConfiguration.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#29)
 
 
 ### $definition
@@ -41,7 +42,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\TranslatedConfiguration.php line 39
+* This property is defined in [classes/TranslatedConfiguration.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#39)
 
 
 Methods
@@ -57,7 +58,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\TranslatedConfiguration.php line 53
+* This method is defined in [classes/TranslatedConfiguration.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#53)
 
 
 #### Arguments
@@ -75,7 +76,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\TranslatedConfiguration.php line 71
+* This method is defined in [classes/TranslatedConfiguration.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#71)
 
 
 #### Arguments
@@ -93,7 +94,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\TranslatedConfiguration.php line 76
+* This method is defined in [classes/TranslatedConfiguration.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#76)
 
 
 #### Arguments
@@ -110,7 +111,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\TranslatedConfiguration.php line 98
+* This method is defined in [classes/TranslatedConfiguration.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#98)
 
 
 #### Arguments

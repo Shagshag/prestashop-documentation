@@ -9,7 +9,8 @@ AdminPaymentControllerCore
 * Class name: AdminPaymentControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminPaymentController.php line 27
+
+* This class is defined in [controllers/admin/AdminPaymentController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminPaymentController.php line 29
+* This property is defined in [controllers/admin/AdminPaymentController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#29)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPaymentController.php line 31
+* This method is defined in [controllers/admin/AdminPaymentController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#31)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPaymentController.php line 90
+* This method is defined in [controllers/admin/AdminPaymentController.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#90)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPaymentController.php line 95
+* This method is defined in [controllers/admin/AdminPaymentController.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#95)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPaymentController.php line 101
+* This method is defined in [controllers/admin/AdminPaymentController.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#101)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPaymentController.php line 111
+* This method is defined in [controllers/admin/AdminPaymentController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#111)
 
 
 
@@ -114,7 +115,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminPaymentController.php line 127
+* This method is defined in [controllers/admin/AdminPaymentController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#127)
 
 
 #### Arguments
@@ -131,7 +132,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPaymentController.php line 163
+* This method is defined in [controllers/admin/AdminPaymentController.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#163)
 
 
 
@@ -145,7 +146,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPaymentController.php line 169
+* This method is defined in [controllers/admin/AdminPaymentController.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#169)
 
 
 
@@ -159,7 +160,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPaymentController.php line 175
+* This method is defined in [controllers/admin/AdminPaymentController.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#175)
 
 
 
@@ -173,7 +174,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPaymentController.php line 278
+* This method is defined in [controllers/admin/AdminPaymentController.php line 278](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#278)
 
 
 

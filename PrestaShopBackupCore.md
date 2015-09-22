@@ -8,7 +8,8 @@ PrestaShopBackupCore
 
 * Class name: PrestaShopBackupCore
 * Namespace: 
-* This class is defined in classes\PrestaShopBackup.php line 27
+
+* This class is defined in [classes/PrestaShopBackup.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#27)
 
 
 
@@ -27,7 +28,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopBackup.php line 30
+* This property is defined in [classes/PrestaShopBackup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#30)
 
 
 ### $error
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopBackup.php line 32
+* This property is defined in [classes/PrestaShopBackup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#32)
 
 
 ### $backupDir
@@ -52,7 +53,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\PrestaShopBackup.php line 34
+* This property is defined in [classes/PrestaShopBackup.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#34)
 
 
 ### $customBackupDir
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopBackup.php line 36
+* This property is defined in [classes/PrestaShopBackup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#36)
 
 
 ### $psBackupAll
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopBackup.php line 38
+* This property is defined in [classes/PrestaShopBackup.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#38)
 
 
 ### $psBackupDropTable
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\PrestaShopBackup.php line 39
+* This property is defined in [classes/PrestaShopBackup.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#39)
 
 
 Methods
@@ -104,7 +105,7 @@ Creates a new backup object
 
 
 * Visibility: **public**
-* This method is defined in classes\PrestaShopBackup.php line 46
+* This method is defined in [classes/PrestaShopBackup.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#46)
 
 
 #### Arguments
@@ -121,7 +122,7 @@ you can set a different path with that function
 
 
 * Visibility: **public**
-* This method is defined in classes\PrestaShopBackup.php line 65
+* This method is defined in [classes/PrestaShopBackup.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#65)
 
 
 #### Arguments
@@ -138,7 +139,7 @@ get the path to use for backup (customBackupDir if specified, or default)
 
 
 * Visibility: **public**
-* This method is defined in classes\PrestaShopBackup.php line 83
+* This method is defined in [classes/PrestaShopBackup.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#83)
 
 
 #### Arguments
@@ -156,7 +157,7 @@ Get the full path of the backup file
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\PrestaShopBackup.php line 103
+* This method is defined in [classes/PrestaShopBackup.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#103)
 
 
 #### Arguments
@@ -174,7 +175,7 @@ Check if a backup file exist
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\PrestaShopBackup.php line 131
+* This method is defined in [classes/PrestaShopBackup.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#131)
 
 
 #### Arguments
@@ -191,7 +192,7 @@ Get the URL used to retrieve this backup file
 
 
 * Visibility: **public**
-* This method is defined in classes\PrestaShopBackup.php line 146
+* This method is defined in [classes/PrestaShopBackup.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#146)
 
 
 
@@ -205,7 +206,7 @@ Delete the current backup file
 
 
 * Visibility: **public**
-* This method is defined in classes\PrestaShopBackup.php line 156
+* This method is defined in [classes/PrestaShopBackup.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#156)
 
 
 
@@ -219,7 +220,7 @@ Deletes a range of backup files
 
 
 * Visibility: **public**
-* This method is defined in classes\PrestaShopBackup.php line 171
+* This method is defined in [classes/PrestaShopBackup.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#171)
 
 
 #### Arguments
@@ -236,7 +237,7 @@ Creates a new backup file
 
 
 * Visibility: **public**
-* This method is defined in classes\PrestaShopBackup.php line 188
+* This method is defined in [classes/PrestaShopBackup.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopBackup.php#188)
 
 
 

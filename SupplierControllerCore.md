@@ -9,7 +9,8 @@ SupplierControllerCore
 * Class name: SupplierControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\SupplierController.php line 27
+
+* This class is defined in [controllers/front/SupplierController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\SupplierController.php line 29
+* This property is defined in [controllers/front/SupplierController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#29)
 
 
 ### $supplier
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\SupplierController.php line 32
+* This property is defined in [controllers/front/SupplierController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#32)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\SupplierController.php line 34
+* This method is defined in [controllers/front/SupplierController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#34)
 
 
 
@@ -70,7 +71,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\SupplierController.php line 40
+* This method is defined in [controllers/front/SupplierController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#40)
 
 
 #### Arguments
@@ -87,7 +88,7 @@ Initialize supplier controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\SupplierController.php line 54
+* This method is defined in [controllers/front/SupplierController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#54)
 
 
 
@@ -101,7 +102,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\SupplierController.php line 75
+* This method is defined in [controllers/front/SupplierController.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#75)
 
 
 
@@ -115,7 +116,7 @@ Assign template vars if displaying one supplier
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\SupplierController.php line 92
+* This method is defined in [controllers/front/SupplierController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#92)
 
 
 
@@ -129,7 +130,7 @@ Assign template vars if displaying the supplier list
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\SupplierController.php line 123
+* This method is defined in [controllers/front/SupplierController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#123)
 
 
 
@@ -143,7 +144,7 @@ Get instance of current supplier
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\SupplierController.php line 150
+* This method is defined in [controllers/front/SupplierController.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SupplierController.php#150)
 
 
 

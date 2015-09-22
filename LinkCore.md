@@ -8,7 +8,8 @@ LinkCore
 
 * Class name: LinkCore
 * Namespace: 
-* This class is defined in classes\Link.php line 27
+
+* This class is defined in [classes/Link.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#27)
 
 
 
@@ -27,7 +28,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Link.php line 30
+* This property is defined in [classes/Link.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#30)
 
 
 ### $url
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Link.php line 31
+* This property is defined in [classes/Link.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#31)
 
 
 ### $cache
@@ -52,7 +53,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Link.php line 32
+* This property is defined in [classes/Link.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#32)
 
 
 ### $protocol_link
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Link.php line 34
+* This property is defined in [classes/Link.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#34)
 
 
 ### $protocol_content
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Link.php line 35
+* This property is defined in [classes/Link.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#35)
 
 
 ### $ssl_enable
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Link.php line 37
+* This property is defined in [classes/Link.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#37)
 
 
 ### $category_disable_rewrite
@@ -101,7 +102,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Link.php line 39
+* This property is defined in [classes/Link.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#39)
 
 
 Methods
@@ -117,7 +118,7 @@ Constructor (initialization only)
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 44
+* This method is defined in [classes/Link.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#44)
 
 
 #### Arguments
@@ -135,7 +136,7 @@ Create a link to delete a product
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 72
+* This method is defined in [classes/Link.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#72)
 
 
 #### Arguments
@@ -153,7 +154,7 @@ Create a link to a product
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 90
+* This method is defined in [classes/Link.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#90)
 
 
 #### Arguments
@@ -179,7 +180,7 @@ Create a link to a category
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 168
+* This method is defined in [classes/Link.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#168)
 
 
 #### Arguments
@@ -201,7 +202,7 @@ Create a link to a CMS category
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 208
+* This method is defined in [classes/Link.php line 208](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#208)
 
 
 #### Arguments
@@ -222,7 +223,7 @@ Create a link to a CMS page
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 252
+* This method is defined in [classes/Link.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#252)
 
 
 #### Arguments
@@ -244,7 +245,7 @@ Create a link to a supplier
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 294
+* This method is defined in [classes/Link.php line 294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#294)
 
 
 #### Arguments
@@ -265,7 +266,7 @@ Create a link to a manufacturer
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 328
+* This method is defined in [classes/Link.php line 328](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#328)
 
 
 #### Arguments
@@ -286,7 +287,7 @@ Create a link to a module
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 363
+* This method is defined in [classes/Link.php line 363](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#363)
 
 
 #### Arguments
@@ -309,7 +310,7 @@ Use controller name to create a link
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 390
+* This method is defined in [classes/Link.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#390)
 
 
 #### Arguments
@@ -328,7 +329,7 @@ Note: the new image filesystem stores product images in subdirectories of img/p/
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 406
+* This method is defined in [classes/Link.php line 406](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#406)
 
 
 #### Arguments
@@ -347,7 +348,7 @@ Note: the new image filesystem stores product images in subdirectories of img/p/
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 440
+* This method is defined in [classes/Link.php line 440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#440)
 
 
 #### Arguments
@@ -364,7 +365,7 @@ Create a simple link
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 456
+* This method is defined in [classes/Link.php line 456](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#456)
 
 
 #### Arguments
@@ -387,7 +388,7 @@ Create a simple link
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 493
+* This method is defined in [classes/Link.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#493)
 
 
 #### Arguments
@@ -406,7 +407,7 @@ Create link after language change, for the change language block
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 509
+* This method is defined in [classes/Link.php line 509](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#509)
 
 
 #### Arguments
@@ -424,7 +425,7 @@ Create link after language change, for the change language block
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 553
+* This method is defined in [classes/Link.php line 553](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#553)
 
 
 #### Arguments
@@ -442,7 +443,7 @@ Get pagination link
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 569
+* This method is defined in [classes/Link.php line 569](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#569)
 
 
 #### Arguments
@@ -464,7 +465,7 @@ Get pagination link
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 637
+* This method is defined in [classes/Link.php line 637](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#637)
 
 
 #### Arguments
@@ -483,7 +484,7 @@ Get pagination link
 
 
 * Visibility: **protected**
-* This method is defined in classes\Link.php line 642
+* This method is defined in [classes/Link.php line 642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#642)
 
 
 #### Arguments
@@ -502,7 +503,7 @@ Get pagination link
 
 
 * Visibility: **protected**
-* This method is defined in classes\Link.php line 659
+* This method is defined in [classes/Link.php line 659](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#659)
 
 
 #### Arguments
@@ -522,7 +523,7 @@ Get pagination link
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Link.php line 685
+* This method is defined in [classes/Link.php line 685](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#685)
 
 
 #### Arguments
@@ -539,7 +540,7 @@ Get pagination link
 
 
 * Visibility: **public**
-* This method is defined in classes\Link.php line 696
+* This method is defined in [classes/Link.php line 696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Link.php#696)
 
 
 #### Arguments

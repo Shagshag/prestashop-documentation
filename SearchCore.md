@@ -8,7 +8,8 @@ SearchCore
 
 * Class name: SearchCore
 * Namespace: 
-* This class is defined in classes\Search.php line 94
+
+* This class is defined in [classes/Search.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#94)
 
 
 
@@ -30,7 +31,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Search.php line 96
+* This method is defined in [classes/Search.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#96)
 
 
 #### Arguments
@@ -51,7 +52,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Search.php line 175
+* This method is defined in [classes/Search.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#175)
 
 
 #### Arguments
@@ -77,7 +78,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Search.php line 372
+* This method is defined in [classes/Search.php line 372](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#372)
 
 
 #### Arguments
@@ -97,7 +98,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Search.php line 391
+* This method is defined in [classes/Search.php line 391](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#391)
 
 
 #### Arguments
@@ -117,7 +118,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Search.php line 416
+* This method is defined in [classes/Search.php line 416](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#416)
 
 
 #### Arguments
@@ -137,7 +138,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\Search.php line 437
+* This method is defined in [classes/Search.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#437)
 
 
 #### Arguments
@@ -155,7 +156,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\Search.php line 463
+* This method is defined in [classes/Search.php line 463](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#463)
 
 
 #### Arguments
@@ -176,7 +177,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\Search.php line 549
+* This method is defined in [classes/Search.php line 549](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#549)
 
 
 #### Arguments
@@ -196,7 +197,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\Search.php line 563
+* This method is defined in [classes/Search.php line 563](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#563)
 
 
 #### Arguments
@@ -219,7 +220,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Search.php line 580
+* This method is defined in [classes/Search.php line 580](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#580)
 
 
 #### Arguments
@@ -238,7 +239,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Search.php line 745
+* This method is defined in [classes/Search.php line 745](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#745)
 
 
 #### Arguments
@@ -256,7 +257,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\Search.php line 753
+* This method is defined in [classes/Search.php line 753](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#753)
 
 
 #### Arguments
@@ -274,7 +275,7 @@ $queryArray3 is automatically emptied in order to be reused immediatly
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\Search.php line 761
+* This method is defined in [classes/Search.php line 761](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#761)
 
 
 #### Arguments
@@ -292,7 +293,7 @@ $queryArray3 is automatically emptied in order to be reused immediatly
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Search.php line 773
+* This method is defined in [classes/Search.php line 773](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#773)
 
 
 #### Arguments

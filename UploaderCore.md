@@ -8,7 +8,8 @@ UploaderCore
 
 * Class name: UploaderCore
 * Namespace: 
-* This class is defined in classes\Uploader.php line 27
+
+* This class is defined in [classes/Uploader.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#27)
 
 
 
@@ -22,7 +23,7 @@ Constants
 
 
 
-* This constant is defined in classes\Uploader.php line 29
+* This constant is defined in [classes/Uploader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#29)
 
 
 Properties
@@ -38,7 +39,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\Uploader.php line 31
+* This property is defined in [classes/Uploader.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#31)
 
 
 ### $_accept_types
@@ -50,7 +51,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\Uploader.php line 32
+* This property is defined in [classes/Uploader.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#32)
 
 
 ### $_files
@@ -62,7 +63,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\Uploader.php line 33
+* This property is defined in [classes/Uploader.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#33)
 
 
 ### $_max_size
@@ -74,7 +75,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\Uploader.php line 34
+* This property is defined in [classes/Uploader.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#34)
 
 
 ### $_name
@@ -86,7 +87,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\Uploader.php line 35
+* This property is defined in [classes/Uploader.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#35)
 
 
 ### $_save_path
@@ -98,7 +99,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\Uploader.php line 36
+* This property is defined in [classes/Uploader.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#36)
 
 
 Methods
@@ -114,7 +115,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 38
+* This method is defined in [classes/Uploader.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#38)
 
 
 #### Arguments
@@ -131,7 +132,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 45
+* This method is defined in [classes/Uploader.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#45)
 
 
 #### Arguments
@@ -148,7 +149,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 51
+* This method is defined in [classes/Uploader.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#51)
 
 
 
@@ -162,7 +163,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 56
+* This method is defined in [classes/Uploader.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#56)
 
 
 #### Arguments
@@ -179,7 +180,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 62
+* This method is defined in [classes/Uploader.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#62)
 
 
 #### Arguments
@@ -196,7 +197,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 71
+* This method is defined in [classes/Uploader.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#71)
 
 
 
@@ -210,7 +211,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 80
+* This method is defined in [classes/Uploader.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#80)
 
 
 #### Arguments
@@ -227,7 +228,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 86
+* This method is defined in [classes/Uploader.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#86)
 
 
 
@@ -241,7 +242,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 95
+* This method is defined in [classes/Uploader.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#95)
 
 
 #### Arguments
@@ -258,7 +259,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 101
+* This method is defined in [classes/Uploader.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#101)
 
 
 
@@ -272,7 +273,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 106
+* This method is defined in [classes/Uploader.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#106)
 
 
 #### Arguments
@@ -289,7 +290,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 112
+* This method is defined in [classes/Uploader.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#112)
 
 
 
@@ -303,7 +304,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 130
+* This method is defined in [classes/Uploader.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#130)
 
 
 
@@ -317,7 +318,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 139
+* This method is defined in [classes/Uploader.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#139)
 
 
 #### Arguments
@@ -334,7 +335,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 144
+* This method is defined in [classes/Uploader.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#144)
 
 
 
@@ -348,7 +349,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 149
+* This method is defined in [classes/Uploader.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#149)
 
 
 #### Arguments
@@ -365,7 +366,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Uploader.php line 173
+* This method is defined in [classes/Uploader.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#173)
 
 
 #### Arguments
@@ -383,7 +384,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\Uploader.php line 203
+* This method is defined in [classes/Uploader.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#203)
 
 
 #### Arguments
@@ -400,7 +401,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\Uploader.php line 234
+* This method is defined in [classes/Uploader.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#234)
 
 
 #### Arguments
@@ -417,7 +418,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\Uploader.php line 266
+* This method is defined in [classes/Uploader.php line 266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#266)
 
 
 #### Arguments
@@ -435,7 +436,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\Uploader.php line 275
+* This method is defined in [classes/Uploader.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#275)
 
 
 #### Arguments
@@ -452,7 +453,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\Uploader.php line 280
+* This method is defined in [classes/Uploader.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Uploader.php#280)
 
 
 #### Arguments

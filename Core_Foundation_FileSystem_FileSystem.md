@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Foundation_FileSystem_FileSystem
 * Namespace: 
-* This class is defined in Core\Foundation\Filesystem\Core_Foundation_FileSystem_FileSystem.php line 27
+
+* This class is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#27)
 
 
 
@@ -44,7 +45,7 @@ and trims the trailing separator.
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Filesystem\Core_Foundation_FileSystem_FileSystem.php line 33
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#33)
 
 
 #### Arguments
@@ -61,7 +62,7 @@ and trims the trailing separator.
 
 
 * Visibility: **private**
-* This method is defined in Core\Foundation\Filesystem\Core_Foundation_FileSystem_FileSystem.php line 41
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#41)
 
 
 #### Arguments
@@ -79,7 +80,7 @@ Joins an arbitrary number of paths, normalizing them along the way.
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Filesystem\Core_Foundation_FileSystem_FileSystem.php line 49
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#49)
 
 
 
@@ -95,7 +96,7 @@ If $path is a file and not a directory, just gets the file info for it
 and return it in an array.
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Filesystem\Core_Foundation_FileSystem_FileSystem.php line 80
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#80)
 
 
 #### Arguments
@@ -112,7 +113,7 @@ Filter used by listFilesRecursively.
 
 
 * Visibility: **private**
-* This method is defined in Core\Foundation\Filesystem\Core_Foundation_FileSystem_FileSystem.php line 126
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#126)
 
 
 #### Arguments
@@ -129,7 +130,7 @@ Same as listEntriesRecursively but returns only files.
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Filesystem\Core_Foundation_FileSystem_FileSystem.php line 134
+* This method is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_FileSystem.php#134)
 
 
 #### Arguments

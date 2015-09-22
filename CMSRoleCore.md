@@ -9,7 +9,8 @@ CMSRoleCore
 * Class name: CMSRoleCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\CMSRole.php line 28
+
+* This class is defined in [classes/CMSRole.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#28)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CMSRole.php line 31
+* This property is defined in [classes/CMSRole.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#31)
 
 
 ### $id_cms
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CMSRole.php line 33
+* This property is defined in [classes/CMSRole.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#33)
 
 
 ### $definition
@@ -53,7 +54,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\CMSRole.php line 38
+* This property is defined in [classes/CMSRole.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#38)
 
 
 Methods
@@ -70,7 +71,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CMSRole.php line 47
+* This method is defined in [classes/CMSRole.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#47)
 
 
 

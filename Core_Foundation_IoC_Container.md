@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Foundation_IoC_Container
 * Namespace: 
-* This class is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 27
+
+* This class is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#27)
 
 
 
@@ -41,7 +42,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 29
+* This property is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#29)
 
 
 ### $instances
@@ -53,7 +54,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 30
+* This property is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#30)
 
 
 ### $namespaceAliases
@@ -65,7 +66,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 31
+* This property is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#31)
 
 
 Methods
@@ -81,7 +82,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 33
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#33)
 
 
 #### Arguments
@@ -98,7 +99,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 38
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#38)
 
 
 #### Arguments
@@ -115,7 +116,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 43
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#43)
 
 
 #### Arguments
@@ -134,7 +135,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 59
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#59)
 
 
 #### Arguments
@@ -152,7 +153,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 74
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#74)
 
 
 #### Arguments
@@ -169,7 +170,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 88
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#88)
 
 
 #### Arguments
@@ -187,7 +188,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 128
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#128)
 
 
 #### Arguments
@@ -205,7 +206,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\IoC\Core_Foundation_IoC_Container.php line 168
+* This method is defined in [Core/Foundation/IoC/Core_Foundation_IoC_Container.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/IoC/Core_Foundation_IoC_Container.php#168)
 
 
 #### Arguments

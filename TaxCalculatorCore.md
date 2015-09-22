@@ -8,7 +8,8 @@ TaxCalculatorCore
 
 * Class name: TaxCalculatorCore
 * Namespace: 
-* This class is defined in classes\tax\TaxCalculator.php line 32
+
+* This class is defined in [classes/tax/TaxCalculator.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#32)
 
 
 
@@ -22,7 +23,7 @@ Constants
 
 
 
-* This constant is defined in classes\tax\TaxCalculator.php line 38
+* This constant is defined in [classes/tax/TaxCalculator.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#38)
 
 
 ### ONE_AFTER_ANOTHER_METHOD
@@ -31,7 +32,7 @@ Constants
 
 
 
-* This constant is defined in classes\tax\TaxCalculator.php line 44
+* This constant is defined in [classes/tax/TaxCalculator.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#44)
 
 
 Properties
@@ -47,7 +48,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxCalculator.php line 49
+* This property is defined in [classes/tax/TaxCalculator.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#49)
 
 
 ### $computation_method
@@ -59,7 +60,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxCalculator.php line 54
+* This property is defined in [classes/tax/TaxCalculator.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#54)
 
 
 Methods
@@ -75,7 +76,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\TaxCalculator.php line 61
+* This method is defined in [classes/tax/TaxCalculator.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#61)
 
 
 #### Arguments
@@ -93,7 +94,7 @@ Compute and add the taxes to the specified price
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\TaxCalculator.php line 80
+* This method is defined in [classes/tax/TaxCalculator.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#80)
 
 
 #### Arguments
@@ -110,7 +111,7 @@ Compute and remove the taxes to the specified price
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\TaxCalculator.php line 92
+* This method is defined in [classes/tax/TaxCalculator.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#92)
 
 
 #### Arguments
@@ -127,7 +128,7 @@ Compute and remove the taxes to the specified price
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\TaxCalculator.php line 100
+* This method is defined in [classes/tax/TaxCalculator.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#100)
 
 
 
@@ -141,7 +142,7 @@ Compute and remove the taxes to the specified price
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\TaxCalculator.php line 120
+* This method is defined in [classes/tax/TaxCalculator.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#120)
 
 
 
@@ -155,7 +156,7 @@ Return the tax amount associated to each taxes of the TaxCalculator
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\TaxCalculator.php line 138
+* This method is defined in [classes/tax/TaxCalculator.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#138)
 
 
 #### Arguments
@@ -172,7 +173,7 @@ Return the total taxes amount
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\TaxCalculator.php line 160
+* This method is defined in [classes/tax/TaxCalculator.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#160)
 
 
 #### Arguments

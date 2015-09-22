@@ -9,7 +9,7 @@ StockManagerInterface : defines a way to manage stock
 * Interface name: StockManagerInterface
 * Namespace: 
 * This is an **interface**
-* This interface is defined in classes\stock\StockManagerInterface.php line 31
+* This interface is defined in [classes/stock/StockManagerInterface.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerInterface.php#31)
 
 
 
@@ -30,7 +30,7 @@ Checks if the StockManager is available
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\StockManagerInterface.php line 38
+* This method is defined in [classes/stock/StockManagerInterface.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerInterface.php#38)
 
 
 
@@ -44,7 +44,7 @@ For a given product, adds a given quantity
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\StockManagerInterface.php line 53
+* This method is defined in [classes/stock/StockManagerInterface.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerInterface.php#53)
 
 
 #### Arguments
@@ -68,7 +68,7 @@ For a given product, removes a given quantity
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\StockManagerInterface.php line 67
+* This method is defined in [classes/stock/StockManagerInterface.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerInterface.php#67)
 
 
 #### Arguments
@@ -92,7 +92,7 @@ If the given product has combinations and $id_product_attribute is null, returns
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\StockManagerInterface.php line 79
+* This method is defined in [classes/stock/StockManagerInterface.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerInterface.php#79)
 
 
 #### Arguments
@@ -115,7 +115,7 @@ If $usable is defined, real quantity: usable_qty + supply_orders_qty - client_or
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\StockManagerInterface.php line 93
+* This method is defined in [classes/stock/StockManagerInterface.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerInterface.php#93)
 
 
 #### Arguments
@@ -138,7 +138,7 @@ It is also possible to transfer a usable quantity from warehouse 1 in an unusabl
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\StockManagerInterface.php line 110
+* This method is defined in [classes/stock/StockManagerInterface.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerInterface.php#110)
 
 
 #### Arguments
@@ -161,7 +161,7 @@ For a given product, returns the time left before being out of stock.
 By default, for the given product, it will use sum(quantities removed in all warehouses)
 
 * Visibility: **public**
-* This method is defined in classes\stock\StockManagerInterface.php line 122
+* This method is defined in [classes/stock/StockManagerInterface.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerInterface.php#122)
 
 
 #### Arguments

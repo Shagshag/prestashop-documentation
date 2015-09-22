@@ -9,7 +9,8 @@ HTMLTemplateInvoiceCore
 * Class name: HTMLTemplateInvoiceCore
 * Namespace: 
 * Parent class: [HTMLTemplate](HTMLTemplateCore)
-* This class is defined in classes\pdf\HTMLTemplateInvoice.php line 30
+
+* This class is defined in [classes/pdf/HTMLTemplateInvoice.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateInvoice.php line 32
+* This property is defined in [classes/pdf/HTMLTemplateInvoice.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#32)
 
 
 ### $order_invoice
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateInvoice.php line 33
+* This property is defined in [classes/pdf/HTMLTemplateInvoice.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#33)
 
 
 ### $available_in_your_account
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateInvoice.php line 34
+* This property is defined in [classes/pdf/HTMLTemplateInvoice.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#34)
 
 
 Methods
@@ -68,7 +69,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 41
+* This method is defined in [classes/pdf/HTMLTemplateInvoice.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#41)
 
 
 #### Arguments
@@ -87,7 +88,7 @@ Returns the template's HTML header
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 71
+* This method is defined in [classes/pdf/HTMLTemplateInvoice.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#71)
 
 
 
@@ -101,7 +102,7 @@ Compute layout elements size
 
 
 * Visibility: **private**
-* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 86
+* This method is defined in [classes/pdf/HTMLTemplateInvoice.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#86)
 
 
 #### Arguments
@@ -118,7 +119,7 @@ Returns the template's HTML content
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 143
+* This method is defined in [classes/pdf/HTMLTemplateInvoice.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#143)
 
 
 
@@ -132,7 +133,7 @@ Returns the tax tab content
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 362
+* This method is defined in [classes/pdf/HTMLTemplateInvoice.php line 362](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#362)
 
 
 
@@ -146,7 +147,7 @@ Returns different tax breakdown elements
 
 
 * Visibility: **protected**
-* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 402
+* This method is defined in [classes/pdf/HTMLTemplateInvoice.php line 402](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#402)
 
 
 
@@ -160,7 +161,7 @@ Returns the invoice template associated to the country iso_code
 
 
 * Visibility: **protected**
-* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 464
+* This method is defined in [classes/pdf/HTMLTemplateInvoice.php line 464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#464)
 
 
 #### Arguments
@@ -177,7 +178,7 @@ Returns the template filename when using bulk rendering
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 484
+* This method is defined in [classes/pdf/HTMLTemplateInvoice.php line 484](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#484)
 
 
 
@@ -191,7 +192,7 @@ Returns the template filename
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateInvoice.php line 494
+* This method is defined in [classes/pdf/HTMLTemplateInvoice.php line 494](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#494)
 
 
 

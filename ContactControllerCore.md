@@ -9,7 +9,8 @@ ContactControllerCore
 * Class name: ContactControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\ContactController.php line 27
+
+* This class is defined in [controllers/front/ContactController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ContactController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\ContactController.php line 29
+* This property is defined in [controllers/front/ContactController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ContactController.php#29)
 
 
 ### $ssl
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\ContactController.php line 30
+* This property is defined in [controllers/front/ContactController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ContactController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ContactController.php line 36
+* This method is defined in [controllers/front/ContactController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ContactController.php#36)
 
 
 
@@ -70,7 +71,7 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ContactController.php line 207
+* This method is defined in [controllers/front/ContactController.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ContactController.php#207)
 
 
 
@@ -84,7 +85,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ContactController.php line 219
+* This method is defined in [controllers/front/ContactController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ContactController.php#219)
 
 
 
@@ -98,7 +99,7 @@ Assign template vars related to order list and product list ordered by the custo
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ContactController.php line 261
+* This method is defined in [controllers/front/ContactController.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ContactController.php#261)
 
 
 
@@ -112,7 +113,7 @@ Assign template vars related to order list and product list ordered by the custo
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ContactController.php line 290
+* This method is defined in [controllers/front/ContactController.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ContactController.php#290)
 
 
 

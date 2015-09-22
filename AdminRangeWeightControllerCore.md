@@ -9,7 +9,8 @@ AdminRangeWeightControllerCore
 * Class name: AdminRangeWeightControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminRangeWeightController.php line 30
+
+* This class is defined in [controllers/admin/AdminRangeWeightController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangeWeightController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminRangeWeightController.php line 30
+* This property is defined in [controllers/admin/AdminRangeWeightController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangeWeightController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminRangeWeightController.php line 32
+* This method is defined in [controllers/admin/AdminRangeWeightController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangeWeightController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminRangeWeightController.php line 57
+* This method is defined in [controllers/admin/AdminRangeWeightController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangeWeightController.php#57)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminRangeWeightController.php line 69
+* This method is defined in [controllers/admin/AdminRangeWeightController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangeWeightController.php#69)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminRangeWeightController.php line 123
+* This method is defined in [controllers/admin/AdminRangeWeightController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangeWeightController.php#123)
 
 
 #### Arguments
@@ -108,7 +109,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminRangeWeightController.php line 135
+* This method is defined in [controllers/admin/AdminRangeWeightController.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangeWeightController.php#135)
 
 
 

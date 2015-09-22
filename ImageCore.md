@@ -9,7 +9,8 @@ ImageCore
 * Class name: ImageCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Image.php line 27
+
+* This class is defined in [classes/Image.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Image.php line 29
+* This property is defined in [classes/Image.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#29)
 
 
 ### $id_image
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Image.php line 32
+* This property is defined in [classes/Image.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#32)
 
 
 ### $id_product
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Image.php line 35
+* This property is defined in [classes/Image.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#35)
 
 
 ### $position
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Image.php line 38
+* This property is defined in [classes/Image.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#38)
 
 
 ### $cover
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Image.php line 41
+* This property is defined in [classes/Image.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#41)
 
 
 ### $legend
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Image.php line 44
+* This property is defined in [classes/Image.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#44)
 
 
 ### $image_format
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Image.php line 47
+* This property is defined in [classes/Image.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#47)
 
 
 ### $source_index
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Image.php line 50
+* This property is defined in [classes/Image.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#50)
 
 
 ### $folder
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Image.php line 53
+* This property is defined in [classes/Image.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#53)
 
 
 ### $existing_path
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Image.php line 56
+* This property is defined in [classes/Image.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#56)
 
 
 ### $access_rights
@@ -149,7 +150,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Image.php line 59
+* This property is defined in [classes/Image.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#59)
 
 
 ### $definition
@@ -162,7 +163,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Image.php line 64
+* This property is defined in [classes/Image.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#64)
 
 
 ### $_cacheGetSize
@@ -175,7 +176,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Image.php line 76
+* This property is defined in [classes/Image.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#76)
 
 
 Methods
@@ -191,7 +192,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 78
+* This method is defined in [classes/Image.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#78)
 
 
 #### Arguments
@@ -209,7 +210,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 85
+* This method is defined in [classes/Image.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#85)
 
 
 #### Arguments
@@ -227,7 +228,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 100
+* This method is defined in [classes/Image.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#100)
 
 
 #### Arguments
@@ -244,7 +245,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 112
+* This method is defined in [classes/Image.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#112)
 
 
 
@@ -259,7 +260,7 @@ Return first image (by position) associated with a product attribute
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 143
+* This method is defined in [classes/Image.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#143)
 
 
 #### Arguments
@@ -280,7 +281,7 @@ Return available images for a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 174
+* This method is defined in [classes/Image.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#174)
 
 
 #### Arguments
@@ -300,7 +301,7 @@ Check if a product has an image available
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 198
+* This method is defined in [classes/Image.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#198)
 
 
 #### Arguments
@@ -320,7 +321,7 @@ Return Images
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 218
+* This method is defined in [classes/Image.php line 218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#218)
 
 
 
@@ -335,7 +336,7 @@ Return number of images for a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 232
+* This method is defined in [classes/Image.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#232)
 
 
 #### Arguments
@@ -353,7 +354,7 @@ Return highest position of images for a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 247
+* This method is defined in [classes/Image.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#247)
 
 
 #### Arguments
@@ -371,7 +372,7 @@ Delete product cover
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 262
+* This method is defined in [classes/Image.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#262)
 
 
 #### Arguments
@@ -389,7 +390,7 @@ Get product cover
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 290
+* This method is defined in [classes/Image.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#290)
 
 
 #### Arguments
@@ -407,7 +408,7 @@ Copy images from a product to another
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 305
+* This method is defined in [classes/Image.php line 305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#305)
 
 
 #### Arguments
@@ -427,7 +428,7 @@ Copy images from a product to another
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\Image.php line 350
+* This method is defined in [classes/Image.php line 350](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#350)
 
 
 #### Arguments
@@ -447,7 +448,7 @@ Duplicate product attribute image associations
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 369
+* This method is defined in [classes/Image.php line 369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#369)
 
 
 #### Arguments
@@ -464,7 +465,7 @@ Reposition image
 
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 391
+* This method is defined in [classes/Image.php line 391](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#391)
 
 
 #### Arguments
@@ -482,7 +483,7 @@ Change an image position and update relative positions
 
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 426
+* This method is defined in [classes/Image.php line 426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#426)
 
 
 #### Arguments
@@ -501,7 +502,7 @@ Change an image position and update relative positions
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 450
+* This method is defined in [classes/Image.php line 450](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#450)
 
 
 #### Arguments
@@ -519,7 +520,7 @@ Change an image position and update relative positions
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 462
+* This method is defined in [classes/Image.php line 462](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#462)
 
 
 #### Arguments
@@ -538,7 +539,7 @@ Change an image position and update relative positions
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 468
+* This method is defined in [classes/Image.php line 468](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#468)
 
 
 #### Arguments
@@ -557,7 +558,7 @@ Clear all images in tmp dir
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 477
+* This method is defined in [classes/Image.php line 477](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#477)
 
 
 
@@ -571,7 +572,7 @@ Delete Image - Product attribute associations for this image
 
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 488
+* This method is defined in [classes/Image.php line 488](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#488)
 
 
 
@@ -586,7 +587,7 @@ Handles both legacy and new image filesystems
 
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 501
+* This method is defined in [classes/Image.php line 501](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#501)
 
 
 #### Arguments
@@ -604,7 +605,7 @@ Recursively deletes all product images in the given folder tree and removes empt
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 563
+* This method is defined in [classes/Image.php line 563](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#563)
 
 
 #### Arguments
@@ -622,7 +623,7 @@ Returns image path in the old or in the new filesystem
 @ returns string image path
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 603
+* This method is defined in [classes/Image.php line 603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#603)
 
 
 
@@ -636,7 +637,7 @@ Returns the path to the folder containing the image in the new filesystem
 
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 625
+* This method is defined in [classes/Image.php line 625](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#625)
 
 
 
@@ -650,7 +651,7 @@ Create parent folders for the image in the new filesystem
 
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 643
+* This method is defined in [classes/Image.php line 643](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#643)
 
 
 
@@ -664,7 +665,7 @@ Returns the path to the image without file extension
 
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 669
+* This method is defined in [classes/Image.php line 669](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#669)
 
 
 
@@ -679,7 +680,7 @@ Returns the path to the folder containing the image in the new filesystem
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 685
+* This method is defined in [classes/Image.php line 685](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#685)
 
 
 #### Arguments
@@ -698,7 +699,7 @@ If any image cannot be moved, stops and returns "false"
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 702
+* This method is defined in [classes/Image.php line 702](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#702)
 
 
 #### Arguments
@@ -716,7 +717,7 @@ Try to create and delete some folders to check if moving images to new file syst
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Image.php line 752
+* This method is defined in [classes/Image.php line 752](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#752)
 
 
 
@@ -730,7 +731,7 @@ Returns the path where a product image should be created (without file format)
 
 
 * Visibility: **public**
-* This method is defined in classes\Image.php line 787
+* This method is defined in [classes/Image.php line 787](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#787)
 
 
 

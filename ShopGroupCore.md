@@ -9,7 +9,8 @@ ShopGroupCore
 * Class name: ShopGroupCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\shop\ShopGroup.php line 30
+
+* This class is defined in [classes/shop/ShopGroup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopGroup.php line 32
+* This property is defined in [classes/shop/ShopGroup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#32)
 
 
 ### $active
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopGroup.php line 33
+* This property is defined in [classes/shop/ShopGroup.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#33)
 
 
 ### $share_customer
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopGroup.php line 34
+* This property is defined in [classes/shop/ShopGroup.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#34)
 
 
 ### $share_stock
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopGroup.php line 35
+* This property is defined in [classes/shop/ShopGroup.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#35)
 
 
 ### $share_order
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopGroup.php line 36
+* This property is defined in [classes/shop/ShopGroup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#36)
 
 
 ### $deleted
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopGroup.php line 37
+* This property is defined in [classes/shop/ShopGroup.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#37)
 
 
 ### $definition
@@ -101,7 +102,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\shop\ShopGroup.php line 42
+* This property is defined in [classes/shop/ShopGroup.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#42)
 
 
 Methods
@@ -117,7 +118,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\shop\ShopGroup.php line 59
+* This method is defined in [classes/shop/ShopGroup.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#59)
 
 
 
@@ -132,7 +133,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\shop\ShopGroup.php line 68
+* This method is defined in [classes/shop/ShopGroup.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#68)
 
 
 #### Arguments
@@ -150,7 +151,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\shop\ShopGroup.php line 81
+* This method is defined in [classes/shop/ShopGroup.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#81)
 
 
 #### Arguments
@@ -167,7 +168,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\shop\ShopGroup.php line 86
+* This method is defined in [classes/shop/ShopGroup.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#86)
 
 
 
@@ -181,7 +182,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\shop\ShopGroup.php line 91
+* This method is defined in [classes/shop/ShopGroup.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#91)
 
 
 
@@ -196,7 +197,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\shop\ShopGroup.php line 99
+* This method is defined in [classes/shop/ShopGroup.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#99)
 
 
 #### Arguments
@@ -214,7 +215,7 @@ Return a group shop ID from group shop name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\shop\ShopGroup.php line 113
+* This method is defined in [classes/shop/ShopGroup.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#113)
 
 
 #### Arguments
@@ -232,7 +233,7 @@ Detect dependency with customer or orders
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\shop\ShopGroup.php line 128
+* This method is defined in [classes/shop/ShopGroup.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#128)
 
 
 #### Arguments
@@ -250,7 +251,7 @@ Detect dependency with customer or orders
 
 
 * Visibility: **public**
-* This method is defined in classes\shop\ShopGroup.php line 160
+* This method is defined in [classes/shop/ShopGroup.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#160)
 
 
 #### Arguments

@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_ServiceLocator
 * Namespace: 
-* This class is defined in Adapter\Adapter_ServiceLocator.php line 27
+
+* This class is defined in [Adapter/Adapter_ServiceLocator.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#27)
 
 
 
@@ -42,7 +43,7 @@ Set a service container Instance
 
 * Visibility: **private**
 * This property is **static**.
-* This property is defined in Adapter\Adapter_ServiceLocator.php line 33
+* This property is defined in [Adapter/Adapter_ServiceLocator.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#33)
 
 
 Methods
@@ -59,7 +60,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in Adapter\Adapter_ServiceLocator.php line 35
+* This method is defined in [Adapter/Adapter_ServiceLocator.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#35)
 
 
 #### Arguments
@@ -77,7 +78,7 @@ Get a service depending on its given $serviceName
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in Adapter\Adapter_ServiceLocator.php line 46
+* This method is defined in [Adapter/Adapter_ServiceLocator.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ServiceLocator.php#46)
 
 
 #### Arguments

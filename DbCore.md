@@ -9,7 +9,8 @@ Class DbCore
 * Class name: DbCore
 * Namespace: 
 * This is an **abstract** class
-* This class is defined in classes\db\Db.php line 34
+
+* This class is defined in [classes/db/Db.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#34)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\db\Db.php line 37
+* This constant is defined in [classes/db/Db.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#37)
 
 
 ### INSERT_IGNORE
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in classes\db\Db.php line 40
+* This constant is defined in [classes/db/Db.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#40)
 
 
 ### REPLACE
@@ -41,7 +42,7 @@ Constants
 
 
 
-* This constant is defined in classes\db\Db.php line 43
+* This constant is defined in [classes/db/Db.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#43)
 
 
 ### ON_DUPLICATE_KEY
@@ -50,7 +51,7 @@ Constants
 
 
 
-* This constant is defined in classes\db\Db.php line 46
+* This constant is defined in [classes/db/Db.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#46)
 
 
 Properties
@@ -66,7 +67,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\Db.php line 49
+* This property is defined in [classes/db/Db.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#49)
 
 
 ### $user
@@ -78,7 +79,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\Db.php line 52
+* This property is defined in [classes/db/Db.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#52)
 
 
 ### $password
@@ -90,7 +91,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\Db.php line 55
+* This property is defined in [classes/db/Db.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#55)
 
 
 ### $database
@@ -102,7 +103,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\Db.php line 58
+* This property is defined in [classes/db/Db.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#58)
 
 
 ### $is_cache_enabled
@@ -114,7 +115,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\Db.php line 61
+* This property is defined in [classes/db/Db.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#61)
 
 
 ### $link
@@ -126,7 +127,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\Db.php line 64
+* This property is defined in [classes/db/Db.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#64)
 
 
 ### $result
@@ -138,7 +139,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\Db.php line 67
+* This property is defined in [classes/db/Db.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#67)
 
 
 ### $instance
@@ -151,7 +152,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\db\Db.php line 70
+* This property is defined in [classes/db/Db.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#70)
 
 
 ### $_servers
@@ -164,7 +165,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\db\Db.php line 73
+* This property is defined in [classes/db/Db.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#73)
 
 
 ### $_slave_servers_loaded
@@ -177,7 +178,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\db\Db.php line 78
+* This property is defined in [classes/db/Db.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#78)
 
 
 ### $last_query
@@ -189,7 +190,7 @@ Store last executed query
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\Db.php line 85
+* This property is defined in [classes/db/Db.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#85)
 
 
 ### $last_query_hash
@@ -201,7 +202,7 @@ Store hash of the last executed query
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\Db.php line 92
+* This property is defined in [classes/db/Db.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#92)
 
 
 ### $last_cached
@@ -213,7 +214,7 @@ Last cached query
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\Db.php line 99
+* This property is defined in [classes/db/Db.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#99)
 
 
 Methods
@@ -230,7 +231,7 @@ Opens a database connection
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 106
+* This method is defined in [classes/db/Db.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#106)
 
 
 
@@ -245,7 +246,7 @@ Closes database connection
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 111
+* This method is defined in [classes/db/Db.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#111)
 
 
 
@@ -260,7 +261,7 @@ Execute a query and get result resource
 
 * Visibility: **protected**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 119
+* This method is defined in [classes/db/Db.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#119)
 
 
 #### Arguments
@@ -278,7 +279,7 @@ Get number of rows in a result
 
 * Visibility: **protected**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 127
+* This method is defined in [classes/db/Db.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#127)
 
 
 #### Arguments
@@ -296,7 +297,7 @@ Get the ID generated from the previous INSERT operation
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 134
+* This method is defined in [classes/db/Db.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#134)
 
 
 
@@ -311,7 +312,7 @@ Get number of affected rows in previous database operation
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 141
+* This method is defined in [classes/db/Db.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#141)
 
 
 
@@ -326,7 +327,7 @@ Get next row for a query which does not return an array
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 149
+* This method is defined in [classes/db/Db.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#149)
 
 
 #### Arguments
@@ -344,7 +345,7 @@ Get all rows for a query which return an array
 
 * Visibility: **protected**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 157
+* This method is defined in [classes/db/Db.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#157)
 
 
 #### Arguments
@@ -362,7 +363,7 @@ Get database version
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 164
+* This method is defined in [classes/db/Db.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#164)
 
 
 
@@ -377,7 +378,7 @@ Protect string against SQL injections
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 172
+* This method is defined in [classes/db/Db.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#172)
 
 
 #### Arguments
@@ -395,7 +396,7 @@ Returns the text of the error message from previous database operation
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 179
+* This method is defined in [classes/db/Db.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#179)
 
 
 
@@ -410,7 +411,7 @@ Returns the number of the error from previous database operation
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 186
+* This method is defined in [classes/db/Db.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#186)
 
 
 
@@ -425,7 +426,7 @@ Do not remove, useful for some modules.
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 195
+* This method is defined in [classes/db/Db.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#195)
 
 
 #### Arguments
@@ -443,7 +444,7 @@ Selects best table engine.
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\db\Db.php line 202
+* This method is defined in [classes/db/Db.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#202)
 
 
 
@@ -458,7 +459,7 @@ Returns database object instance.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 210
+* This method is defined in [classes/db/Db.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#210)
 
 
 #### Arguments
@@ -476,7 +477,7 @@ Returns database object instance.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 250
+* This method is defined in [classes/db/Db.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#250)
 
 
 #### Arguments
@@ -495,7 +496,7 @@ Unit testing purpose only
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 258
+* This method is defined in [classes/db/Db.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#258)
 
 
 
@@ -510,7 +511,7 @@ Loads configuration settings for slave servers if needed.
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 266
+* This method is defined in [classes/db/Db.php line 266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#266)
 
 
 
@@ -525,7 +526,7 @@ Returns the best child layer database class.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 285
+* This method is defined in [classes/db/Db.php line 285](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#285)
 
 
 
@@ -539,7 +540,7 @@ Instantiates a database connection
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 306
+* This method is defined in [classes/db/Db.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#306)
 
 
 #### Arguments
@@ -560,7 +561,7 @@ Disable the use of the cache
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 327
+* This method is defined in [classes/db/Db.php line 327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#327)
 
 
 
@@ -574,7 +575,7 @@ Enable & flush the cache
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 336
+* This method is defined in [classes/db/Db.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#336)
 
 
 
@@ -588,7 +589,7 @@ Closes connection to database
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 345
+* This method is defined in [classes/db/Db.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#345)
 
 
 
@@ -602,7 +603,7 @@ Executes SQL query based on selected type
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 366
+* This method is defined in [classes/db/Db.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#366)
 
 
 #### Arguments
@@ -625,7 +626,7 @@ Filter SQL query within a blacklist
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 398
+* This method is defined in [classes/db/Db.php line 398](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#398)
 
 
 #### Arguments
@@ -646,7 +647,7 @@ Execute a query and get result resource
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 410
+* This method is defined in [classes/db/Db.php line 410](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#410)
 
 
 #### Arguments
@@ -663,7 +664,7 @@ Executes an INSERT query
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 443
+* This method is defined in [classes/db/Db.php line 443](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#443)
 
 
 #### Arguments
@@ -685,7 +686,7 @@ Executes an UPDATE query
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 529
+* This method is defined in [classes/db/Db.php line 529](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#529)
 
 
 #### Arguments
@@ -708,7 +709,7 @@ Executes a DELETE query
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 572
+* This method is defined in [classes/db/Db.php line 572](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#572)
 
 
 #### Arguments
@@ -729,7 +730,7 @@ Executes a query
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 595
+* This method is defined in [classes/db/Db.php line 595](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#595)
 
 
 #### Arguments
@@ -747,7 +748,7 @@ Executes return the result of $sql as array
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 618
+* This method is defined in [classes/db/Db.php line 618](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#618)
 
 
 #### Arguments
@@ -767,7 +768,7 @@ This function automatically adds "LIMIT 1" to the query
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 672
+* This method is defined in [classes/db/Db.php line 672](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#672)
 
 
 #### Arguments
@@ -785,7 +786,7 @@ Returns a value from the first row, first column of a SELECT query
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 717
+* This method is defined in [classes/db/Db.php line 717](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#717)
 
 
 #### Arguments
@@ -803,7 +804,7 @@ Get number of rows for last result
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 735
+* This method is defined in [classes/db/Db.php line 735](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#735)
 
 
 
@@ -817,7 +818,7 @@ Executes a query
 
 
 * Visibility: **protected**
-* This method is defined in classes\db\Db.php line 756
+* This method is defined in [classes/db/Db.php line 756](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#756)
 
 
 #### Arguments
@@ -835,7 +836,7 @@ Displays last SQL error
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 781
+* This method is defined in [classes/db/Db.php line 781](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#781)
 
 
 #### Arguments
@@ -852,7 +853,7 @@ Sanitize data which will be injected into SQL query
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 805
+* This method is defined in [classes/db/Db.php line 805](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#805)
 
 
 #### Arguments
@@ -872,7 +873,7 @@ Try a connection to the database
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 838
+* This method is defined in [classes/db/Db.php line 838](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#838)
 
 
 #### Arguments
@@ -896,7 +897,7 @@ Try a connection to the database and set names to UTF-8
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 851
+* This method is defined in [classes/db/Db.php line 851](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#851)
 
 
 #### Arguments
@@ -916,7 +917,7 @@ Try a connection to the database and check if at least one table with same prefi
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 866
+* This method is defined in [classes/db/Db.php line 866](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#866)
 
 
 #### Arguments
@@ -938,7 +939,7 @@ Tries to connect to the database and create a table (checking creation privilege
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 882
+* This method is defined in [classes/db/Db.php line 882](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#882)
 
 
 #### Arguments
@@ -961,7 +962,7 @@ Checks if auto increment value and offset is 1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 895
+* This method is defined in [classes/db/Db.php line 895](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#895)
 
 
 #### Arguments
@@ -981,7 +982,7 @@ Executes a query
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 909
+* This method is defined in [classes/db/Db.php line 909](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#909)
 
 
 #### Arguments
@@ -1000,7 +1001,7 @@ Executes a query
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 923
+* This method is defined in [classes/db/Db.php line 923](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#923)
 
 
 #### Arguments
@@ -1019,7 +1020,7 @@ Executes a query and kills process (dies)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\Db.php line 937
+* This method is defined in [classes/db/Db.php line 937](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#937)
 
 
 #### Arguments
@@ -1037,7 +1038,7 @@ Get used link instance
 
 
 * Visibility: **public**
-* This method is defined in classes\db\Db.php line 949
+* This method is defined in [classes/db/Db.php line 949](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#949)
 
 
 

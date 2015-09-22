@@ -9,7 +9,8 @@ SearchControllerCore
 * Class name: SearchControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\SearchController.php line 27
+
+* This class is defined in [controllers/front/SearchController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\SearchController.php line 29
+* This property is defined in [controllers/front/SearchController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#29)
 
 
 ### $instant_search
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\SearchController.php line 30
+* This property is defined in [controllers/front/SearchController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#30)
 
 
 ### $ajax_search
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\SearchController.php line 31
+* This property is defined in [controllers/front/SearchController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#31)
 
 
 Methods
@@ -68,7 +69,7 @@ Initialize search controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\SearchController.php line 37
+* This method is defined in [controllers/front/SearchController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#37)
 
 
 
@@ -82,7 +83,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\SearchController.php line 55
+* This method is defined in [controllers/front/SearchController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#55)
 
 
 
@@ -96,7 +97,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\SearchController.php line 144
+* This method is defined in [controllers/front/SearchController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#144)
 
 
 #### Arguments
@@ -113,7 +114,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\SearchController.php line 153
+* This method is defined in [controllers/front/SearchController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#153)
 
 
 #### Arguments
@@ -130,7 +131,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\SearchController.php line 160
+* This method is defined in [controllers/front/SearchController.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/SearchController.php#160)
 
 
 

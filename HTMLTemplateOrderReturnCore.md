@@ -9,7 +9,8 @@ HTMLTemplateOrderReturnCore
 * Class name: HTMLTemplateOrderReturnCore
 * Namespace: 
 * Parent class: [HTMLTemplate](HTMLTemplateCore)
-* This class is defined in classes\pdf\HTMLTemplateOrderReturn.php line 30
+
+* This class is defined in [classes/pdf/HTMLTemplateOrderReturn.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateOrderReturn.php line 32
+* This property is defined in [classes/pdf/HTMLTemplateOrderReturn.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#32)
 
 
 ### $order
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateOrderReturn.php line 33
+* This property is defined in [classes/pdf/HTMLTemplateOrderReturn.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#33)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderReturn.php line 40
+* This method is defined in [classes/pdf/HTMLTemplateOrderReturn.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#40)
 
 
 #### Arguments
@@ -74,7 +75,7 @@ Returns the template's HTML content
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderReturn.php line 59
+* This method is defined in [classes/pdf/HTMLTemplateOrderReturn.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#59)
 
 
 
@@ -88,7 +89,7 @@ Returns the template filename
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderReturn.php line 96
+* This method is defined in [classes/pdf/HTMLTemplateOrderReturn.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#96)
 
 
 
@@ -102,7 +103,7 @@ Returns the template filename when using bulk rendering
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderReturn.php line 106
+* This method is defined in [classes/pdf/HTMLTemplateOrderReturn.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#106)
 
 
 
@@ -116,7 +117,7 @@ Returns the template's HTML header
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateOrderReturn.php line 116
+* This method is defined in [classes/pdf/HTMLTemplateOrderReturn.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderReturn.php#116)
 
 
 

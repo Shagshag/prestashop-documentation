@@ -9,7 +9,8 @@ SmartyCustomCore
 * Class name: SmartyCustomCore
 * Namespace: 
 * Parent class: Smarty
-* This class is defined in classes\SmartyCustom.php line 27
+
+* This class is defined in [classes/SmartyCustom.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#27)
 
 
 
@@ -30,7 +31,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\SmartyCustom.php line 29
+* This method is defined in [classes/SmartyCustom.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#29)
 
 
 
@@ -44,7 +45,7 @@ Delete compiled template file (lazy delete if resource_name is not specified)
 
 
 * Visibility: **public**
-* This method is defined in classes\SmartyCustom.php line 44
+* This method is defined in [classes/SmartyCustom.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#44)
 
 
 #### Arguments
@@ -63,7 +64,7 @@ Mark all template files to be regenerated
 
 
 * Visibility: **public**
-* This method is defined in classes\SmartyCustom.php line 62
+* This method is defined in [classes/SmartyCustom.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#62)
 
 
 #### Arguments
@@ -81,7 +82,7 @@ Mark file to be regenerated for a specific template
 
 
 * Visibility: **public**
-* This method is defined in classes\SmartyCustom.php line 79
+* This method is defined in [classes/SmartyCustom.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#79)
 
 
 #### Arguments
@@ -102,7 +103,7 @@ Check the compile cache needs to be invalidated (multi front + local cache compa
 
 
 * Visibility: **public**
-* This method is defined in classes\SmartyCustom.php line 87
+* This method is defined in [classes/SmartyCustom.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#87)
 
 
 
@@ -116,7 +117,7 @@ Check the compile cache needs to be invalidated (multi front + local cache compa
 
 
 * Visibility: **public**
-* This method is defined in classes\SmartyCustom.php line 107
+* This method is defined in [classes/SmartyCustom.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#107)
 
 
 #### Arguments
@@ -139,7 +140,7 @@ Check the compile cache needs to be invalidated (multi front + local cache compa
 
 
 * Visibility: **public**
-* This method is defined in classes\SmartyCustom.php line 116
+* This method is defined in [classes/SmartyCustom.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#116)
 
 
 #### Arguments
@@ -160,7 +161,7 @@ Handle the lazy template cache invalidation
 
 
 * Visibility: **public**
-* This method is defined in classes\SmartyCustom.php line 134
+* This method is defined in [classes/SmartyCustom.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#134)
 
 
 #### Arguments
@@ -179,7 +180,7 @@ Store the cache file path
 
 
 * Visibility: **public**
-* This method is defined in classes\SmartyCustom.php line 170
+* This method is defined in [classes/SmartyCustom.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#170)
 
 
 #### Arguments
@@ -200,7 +201,7 @@ Entry in the lazy cache = no need to regenerate the template
 
 
 * Visibility: **public**
-* This method is defined in classes\SmartyCustom.php line 196
+* This method is defined in [classes/SmartyCustom.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#196)
 
 
 #### Arguments
@@ -219,7 +220,7 @@ Insert the current template in the lazy cache
 
 
 * Visibility: **public**
-* This method is defined in classes\SmartyCustom.php line 248
+* This method is defined in [classes/SmartyCustom.php line 248](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#248)
 
 
 #### Arguments
@@ -238,7 +239,7 @@ Delete the current template from the lazy cache or the whole cache if no templat
 
 
 * Visibility: **public**
-* This method is defined in classes\SmartyCustom.php line 275
+* This method is defined in [classes/SmartyCustom.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#275)
 
 
 #### Arguments

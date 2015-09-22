@@ -8,7 +8,8 @@ CookieCore
 
 * Class name: CookieCore
 * Namespace: 
-* This class is defined in classes\Cookie.php line 27
+
+* This class is defined in [classes/Cookie.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#27)
 
 
 
@@ -27,7 +28,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Cookie.php line 30
+* This property is defined in [classes/Cookie.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#30)
 
 
 ### $_name
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Cookie.php line 33
+* This property is defined in [classes/Cookie.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#33)
 
 
 ### $_expire
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Cookie.php line 36
+* This property is defined in [classes/Cookie.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#36)
 
 
 ### $_domain
@@ -63,7 +64,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Cookie.php line 39
+* This property is defined in [classes/Cookie.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#39)
 
 
 ### $_path
@@ -75,7 +76,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Cookie.php line 42
+* This property is defined in [classes/Cookie.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#42)
 
 
 ### $_cipherTool
@@ -87,7 +88,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Cookie.php line 45
+* This property is defined in [classes/Cookie.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#45)
 
 
 ### $_modified
@@ -99,7 +100,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Cookie.php line 47
+* This property is defined in [classes/Cookie.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#47)
 
 
 ### $_allow_writing
@@ -111,7 +112,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Cookie.php line 49
+* This property is defined in [classes/Cookie.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#49)
 
 
 ### $_salt
@@ -123,7 +124,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Cookie.php line 51
+* This property is defined in [classes/Cookie.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#51)
 
 
 ### $_standalone
@@ -135,7 +136,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Cookie.php line 53
+* This property is defined in [classes/Cookie.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#53)
 
 
 ### $_secure
@@ -147,7 +148,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Cookie.php line 55
+* This property is defined in [classes/Cookie.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#55)
 
 
 Methods
@@ -163,7 +164,7 @@ Get data if the cookie exists and else initialize an new one
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 63
+* This method is defined in [classes/Cookie.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#63)
 
 
 #### Arguments
@@ -185,7 +186,7 @@ Get data if the cookie exists and else initialize an new one
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 91
+* This method is defined in [classes/Cookie.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#91)
 
 
 
@@ -199,7 +200,7 @@ Get data if the cookie exists and else initialize an new one
 
 
 * Visibility: **protected**
-* This method is defined in classes\Cookie.php line 96
+* This method is defined in [classes/Cookie.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#96)
 
 
 #### Arguments
@@ -216,7 +217,7 @@ Set expiration date
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 136
+* This method is defined in [classes/Cookie.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#136)
 
 
 #### Arguments
@@ -233,7 +234,7 @@ Magic method wich return cookie data from _content array
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 147
+* This method is defined in [classes/Cookie.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#147)
 
 
 #### Arguments
@@ -250,7 +251,7 @@ Magic method which check if key exists in the cookie
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 158
+* This method is defined in [classes/Cookie.php line 158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#158)
 
 
 #### Arguments
@@ -267,7 +268,7 @@ Magic method which adds data into _content array
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 170
+* This method is defined in [classes/Cookie.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#170)
 
 
 #### Arguments
@@ -285,7 +286,7 @@ Magic method wich delete data into _content array
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 189
+* This method is defined in [classes/Cookie.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#189)
 
 
 #### Arguments
@@ -302,7 +303,7 @@ Check customer informations saved into cookie and return customer validity
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 203
+* This method is defined in [classes/Cookie.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#203)
 
 
 #### Arguments
@@ -319,7 +320,7 @@ Check employee informations saved into cookie and return employee validity
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 223
+* This method is defined in [classes/Cookie.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#223)
 
 
 
@@ -334,7 +335,7 @@ As of version 1.5 don't call this function, use Customer::logout() or Employee::
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 238
+* This method is defined in [classes/Cookie.php line 238](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#238)
 
 
 
@@ -349,7 +350,7 @@ but leave there affiliate's informations.
 As of version 1.5 don't call this function, use Customer::mylogout() instead;
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 251
+* This method is defined in [classes/Cookie.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#251)
 
 
 
@@ -363,7 +364,7 @@ As of version 1.5 don't call this function, use Customer::mylogout() instead;
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 269
+* This method is defined in [classes/Cookie.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#269)
 
 
 
@@ -377,7 +378,7 @@ Get cookie content
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 280
+* This method is defined in [classes/Cookie.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#280)
 
 
 #### Arguments
@@ -394,7 +395,7 @@ Setcookie according to php version
 
 
 * Visibility: **protected**
-* This method is defined in classes\Cookie.php line 331
+* This method is defined in [classes/Cookie.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#331)
 
 
 #### Arguments
@@ -411,7 +412,7 @@ Setcookie according to php version
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 347
+* This method is defined in [classes/Cookie.php line 347](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#347)
 
 
 
@@ -425,7 +426,7 @@ Save cookie with setcookie()
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 355
+* This method is defined in [classes/Cookie.php line 355](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#355)
 
 
 
@@ -439,7 +440,7 @@ Get a family of variables (e.g. "filter_")
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 381
+* This method is defined in [classes/Cookie.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#381)
 
 
 #### Arguments
@@ -456,7 +457,7 @@ Get a family of variables (e.g. "filter_")
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 398
+* This method is defined in [classes/Cookie.php line 398](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#398)
 
 
 #### Arguments
@@ -473,7 +474,7 @@ Get a family of variables (e.g. "filter_")
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 406
+* This method is defined in [classes/Cookie.php line 406](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#406)
 
 
 
@@ -487,7 +488,7 @@ Get a family of variables (e.g. "filter_")
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 414
+* This method is defined in [classes/Cookie.php line 414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#414)
 
 
 
@@ -501,7 +502,7 @@ Check if the cookie exists
 
 
 * Visibility: **public**
-* This method is defined in classes\Cookie.php line 425
+* This method is defined in [classes/Cookie.php line 425](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Cookie.php#425)
 
 
 

@@ -10,7 +10,8 @@ ModuleAdminControllerCore
 * Namespace: 
 * This is an **abstract** class
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in classes\controller\ModuleAdminController.php line 30
+
+* This class is defined in [classes/controller/ModuleAdminController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#30)
 
 
 
@@ -29,7 +30,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\ModuleAdminController.php line 33
+* This property is defined in [classes/controller/ModuleAdminController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#33)
 
 
 Methods
@@ -45,7 +46,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\ModuleAdminController.php line 38
+* This method is defined in [classes/controller/ModuleAdminController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#38)
 
 
 
@@ -59,7 +60,7 @@ Creates a template object
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\ModuleAdminController.php line 61
+* This method is defined in [classes/controller/ModuleAdminController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#61)
 
 
 #### Arguments
@@ -76,7 +77,7 @@ Get path to back office templates for the module
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\ModuleAdminController.php line 77
+* This method is defined in [classes/controller/ModuleAdminController.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#77)
 
 
 

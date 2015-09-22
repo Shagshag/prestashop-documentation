@@ -9,7 +9,8 @@ AdminTrackingControllerCore
 * Class name: AdminTrackingControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminTrackingController.php line 30
+
+* This class is defined in [controllers/admin/AdminTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminTrackingController.php line 32
+* This property is defined in [controllers/admin/AdminTrackingController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#32)
 
 
 ### $_helper_list
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminTrackingController.php line 35
+* This property is defined in [controllers/admin/AdminTrackingController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#35)
 
 
 ### $object
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminTrackingController.php line 30
+* This property is defined in [controllers/admin/AdminTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#30)
 
 
 Methods
@@ -68,7 +69,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTrackingController.php line 37
+* This method is defined in [controllers/admin/AdminTrackingController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#37)
 
 
 
@@ -82,7 +83,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTrackingController.php line 56
+* This method is defined in [controllers/admin/AdminTrackingController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#56)
 
 
 
@@ -96,7 +97,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTrackingController.php line 88
+* This method is defined in [controllers/admin/AdminTrackingController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#88)
 
 
 
@@ -110,7 +111,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTrackingController.php line 125
+* This method is defined in [controllers/admin/AdminTrackingController.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#125)
 
 
 
@@ -124,7 +125,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTrackingController.php line 169
+* This method is defined in [controllers/admin/AdminTrackingController.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#169)
 
 
 
@@ -138,7 +139,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTrackingController.php line 213
+* This method is defined in [controllers/admin/AdminTrackingController.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#213)
 
 
 
@@ -152,7 +153,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTrackingController.php line 244
+* This method is defined in [controllers/admin/AdminTrackingController.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#244)
 
 
 
@@ -166,7 +167,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTrackingController.php line 277
+* This method is defined in [controllers/admin/AdminTrackingController.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#277)
 
 
 #### Arguments
@@ -188,7 +189,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTrackingController.php line 286
+* This method is defined in [controllers/admin/AdminTrackingController.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#286)
 
 
 #### Arguments
@@ -207,7 +208,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTrackingController.php line 295
+* This method is defined in [controllers/admin/AdminTrackingController.php line 295](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#295)
 
 
 #### Arguments
@@ -226,7 +227,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminTrackingController.php line 304
+* This method is defined in [controllers/admin/AdminTrackingController.php line 304](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#304)
 
 
 
@@ -240,7 +241,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTrackingController.php line 323
+* This method is defined in [controllers/admin/AdminTrackingController.php line 323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#323)
 
 
 
@@ -254,7 +255,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTrackingController.php line 338
+* This method is defined in [controllers/admin/AdminTrackingController.php line 338](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#338)
 
 
 #### Arguments
@@ -277,7 +278,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminTrackingController.php line 343
+* This method is defined in [controllers/admin/AdminTrackingController.php line 343](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTrackingController.php#343)
 
 
 #### Arguments

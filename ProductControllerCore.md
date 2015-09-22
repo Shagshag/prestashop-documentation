@@ -9,7 +9,8 @@ ProductControllerCore
 * Class name: ProductControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\ProductController.php line 27
+
+* This class is defined in [controllers/front/ProductController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\ProductController.php line 29
+* This property is defined in [controllers/front/ProductController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#29)
 
 
 ### $product
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\ProductController.php line 32
+* This property is defined in [controllers/front/ProductController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#32)
 
 
 ### $category
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\ProductController.php line 35
+* This property is defined in [controllers/front/ProductController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#35)
 
 
 Methods
@@ -68,7 +69,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ProductController.php line 37
+* This method is defined in [controllers/front/ProductController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#37)
 
 
 
@@ -82,7 +83,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ProductController.php line 66
+* This method is defined in [controllers/front/ProductController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#66)
 
 
 #### Arguments
@@ -99,7 +100,7 @@ Initialize product controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ProductController.php line 80
+* This method is defined in [controllers/front/ProductController.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#80)
 
 
 
@@ -113,7 +114,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ProductController.php line 170
+* This method is defined in [controllers/front/ProductController.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#170)
 
 
 
@@ -127,7 +128,7 @@ Assign price and tax to the template
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ProductController.php line 302
+* This method is defined in [controllers/front/ProductController.php line 302](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#302)
 
 
 
@@ -141,7 +142,7 @@ Assign template vars related to images
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ProductController.php line 367
+* This method is defined in [controllers/front/ProductController.php line 367](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#367)
 
 
 
@@ -155,7 +156,7 @@ Assign template vars related to attribute groups and colors
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ProductController.php line 416
+* This method is defined in [controllers/front/ProductController.php line 416](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#416)
 
 
 
@@ -169,7 +170,7 @@ Get and assign attributes combinations informations
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ProductController.php line 560
+* This method is defined in [controllers/front/ProductController.php line 560](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#560)
 
 
 
@@ -183,7 +184,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ProductController.php line 582
+* This method is defined in [controllers/front/ProductController.php line 582](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#582)
 
 
 
@@ -197,7 +198,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ProductController.php line 615
+* This method is defined in [controllers/front/ProductController.php line 615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#615)
 
 
 #### Arguments
@@ -214,7 +215,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ProductController.php line 627
+* This method is defined in [controllers/front/ProductController.php line 627](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#627)
 
 
 
@@ -228,7 +229,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ProductController.php line 670
+* This method is defined in [controllers/front/ProductController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#670)
 
 
 
@@ -242,7 +243,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ProductController.php line 697
+* This method is defined in [controllers/front/ProductController.php line 697](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#697)
 
 
 
@@ -256,7 +257,7 @@ Assign template vars related to category
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ProductController.php line 711
+* This method is defined in [controllers/front/ProductController.php line 711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#711)
 
 
 #### Arguments
@@ -276,7 +277,7 @@ Assign template vars related to category
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ProductController.php line 745
+* This method is defined in [controllers/front/ProductController.php line 745](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#745)
 
 
 
@@ -290,7 +291,7 @@ Assign template vars related to category
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ProductController.php line 750
+* This method is defined in [controllers/front/ProductController.php line 750](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ProductController.php#750)
 
 
 

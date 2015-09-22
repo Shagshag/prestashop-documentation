@@ -9,7 +9,8 @@ ShopUrlCore
 * Class name: ShopUrlCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\shop\ShopUrl.php line 27
+
+* This class is defined in [classes/shop/ShopUrl.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopUrl.php line 29
+* This property is defined in [classes/shop/ShopUrl.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#29)
 
 
 ### $domain
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopUrl.php line 30
+* This property is defined in [classes/shop/ShopUrl.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#30)
 
 
 ### $domain_ssl
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopUrl.php line 31
+* This property is defined in [classes/shop/ShopUrl.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#31)
 
 
 ### $physical_uri
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopUrl.php line 32
+* This property is defined in [classes/shop/ShopUrl.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#32)
 
 
 ### $virtual_uri
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopUrl.php line 33
+* This property is defined in [classes/shop/ShopUrl.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#33)
 
 
 ### $main
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopUrl.php line 34
+* This property is defined in [classes/shop/ShopUrl.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#34)
 
 
 ### $active
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\shop\ShopUrl.php line 35
+* This property is defined in [classes/shop/ShopUrl.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#35)
 
 
 ### $main_domain
@@ -113,7 +114,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\shop\ShopUrl.php line 37
+* This property is defined in [classes/shop/ShopUrl.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#37)
 
 
 ### $main_domain_ssl
@@ -126,7 +127,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\shop\ShopUrl.php line 38
+* This property is defined in [classes/shop/ShopUrl.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#38)
 
 
 ### $definition
@@ -139,7 +140,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\shop\ShopUrl.php line 43
+* This property is defined in [classes/shop/ShopUrl.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#43)
 
 
 ### $webserviceParameters
@@ -151,7 +152,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\shop\ShopUrl.php line 57
+* This property is defined in [classes/shop/ShopUrl.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#57)
 
 
 Methods
@@ -167,7 +168,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\shop\ShopUrl.php line 67
+* This method is defined in [classes/shop/ShopUrl.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#67)
 
 
 
@@ -181,7 +182,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\shop\ShopUrl.php line 87
+* This method is defined in [classes/shop/ShopUrl.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#87)
 
 
 
@@ -195,7 +196,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\shop\ShopUrl.php line 92
+* This method is defined in [classes/shop/ShopUrl.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#92)
 
 
 #### Arguments
@@ -213,7 +214,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\shop\ShopUrl.php line 108
+* This method is defined in [classes/shop/ShopUrl.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#108)
 
 
 #### Arguments
@@ -230,7 +231,7 @@ Get list of shop urls
 
 
 * Visibility: **public**
-* This method is defined in classes\shop\ShopUrl.php line 117
+* This method is defined in [classes/shop/ShopUrl.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#117)
 
 
 
@@ -244,7 +245,7 @@ Get list of shop urls
 
 
 * Visibility: **public**
-* This method is defined in classes\shop\ShopUrl.php line 138
+* This method is defined in [classes/shop/ShopUrl.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#138)
 
 
 #### Arguments
@@ -265,7 +266,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\shop\ShopUrl.php line 162
+* This method is defined in [classes/shop/ShopUrl.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#162)
 
 
 #### Arguments
@@ -283,7 +284,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\shop\ShopUrl.php line 175
+* This method is defined in [classes/shop/ShopUrl.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#175)
 
 
 
@@ -298,7 +299,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\shop\ShopUrl.php line 181
+* This method is defined in [classes/shop/ShopUrl.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#181)
 
 
 #### Arguments
@@ -316,7 +317,7 @@ Get list of shop urls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\shop\ShopUrl.php line 187
+* This method is defined in [classes/shop/ShopUrl.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopUrl.php#187)
 
 
 #### Arguments

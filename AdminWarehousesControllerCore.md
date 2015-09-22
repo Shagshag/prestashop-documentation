@@ -9,7 +9,8 @@ AdminWarehousesControllerCore
 * Class name: AdminWarehousesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminWarehousesController.php line 31
+
+* This class is defined in [controllers/admin/AdminWarehousesController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#31)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminWarehousesController.php line 31
+* This property is defined in [controllers/admin/AdminWarehousesController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#31)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 33
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#33)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 86
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#86)
 
 
 
@@ -72,7 +73,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 103
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#103)
 
 
 
@@ -86,7 +87,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 142
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#142)
 
 
 
@@ -100,7 +101,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 422
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#422)
 
 
 
@@ -114,7 +115,7 @@ Called once $object is set.
 Used to process the associations with address/shops/carriers
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 466
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 466](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#466)
 
 
 #### Arguments
@@ -131,7 +132,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 499
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 499](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#499)
 
 
 #### Arguments
@@ -153,7 +154,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 525
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 525](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#525)
 
 
 
@@ -167,7 +168,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 534
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 534](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#534)
 
 
 
@@ -181,7 +182,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 546
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 546](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#546)
 
 
 
@@ -195,7 +196,7 @@ AdminController::getList() override
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 562
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 562](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#562)
 
 
 
@@ -209,7 +210,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 618
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 618](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#618)
 
 
 
@@ -223,7 +224,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 649
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 649](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#649)
 
 
 
@@ -237,7 +238,7 @@ AdminController::getList() override
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminWarehousesController.php line 670
+* This method is defined in [controllers/admin/AdminWarehousesController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWarehousesController.php#670)
 
 
 #### Arguments

@@ -9,7 +9,8 @@ ConnectionsSourceCore
 * Class name: ConnectionsSourceCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\ConnectionsSource.php line 27
+
+* This class is defined in [classes/ConnectionsSource.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ConnectionsSource.php line 29
+* This property is defined in [classes/ConnectionsSource.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#29)
 
 
 ### $http_referer
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ConnectionsSource.php line 30
+* This property is defined in [classes/ConnectionsSource.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#30)
 
 
 ### $request_uri
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ConnectionsSource.php line 31
+* This property is defined in [classes/ConnectionsSource.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#31)
 
 
 ### $keywords
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ConnectionsSource.php line 32
+* This property is defined in [classes/ConnectionsSource.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#32)
 
 
 ### $date_add
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ConnectionsSource.php line 33
+* This property is defined in [classes/ConnectionsSource.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#33)
 
 
 ### $uri_max_size
@@ -89,7 +90,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\ConnectionsSource.php line 34
+* This property is defined in [classes/ConnectionsSource.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#34)
 
 
 ### $definition
@@ -102,7 +103,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\ConnectionsSource.php line 39
+* This property is defined in [classes/ConnectionsSource.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#39)
 
 
 Methods
@@ -118,7 +119,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\ConnectionsSource.php line 51
+* This method is defined in [classes/ConnectionsSource.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#51)
 
 
 #### Arguments
@@ -137,7 +138,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConnectionsSource.php line 59
+* This method is defined in [classes/ConnectionsSource.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#59)
 
 
 #### Arguments
@@ -155,7 +156,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConnectionsSource.php line 108
+* This method is defined in [classes/ConnectionsSource.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConnectionsSource.php#108)
 
 
 #### Arguments

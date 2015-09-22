@@ -8,7 +8,8 @@ UpgraderCore
 
 * Class name: UpgraderCore
 * Namespace: 
-* This class is defined in classes\Upgrader.php line 27
+
+* This class is defined in [classes/Upgrader.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#27)
 
 
 
@@ -22,7 +23,7 @@ Constants
 
 
 
-* This constant is defined in classes\Upgrader.php line 29
+* This constant is defined in [classes/Upgrader.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#29)
 
 
 Properties
@@ -38,7 +39,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Upgrader.php line 30
+* This property is defined in [classes/Upgrader.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#30)
 
 
 ### $rss_md5file_link_dir
@@ -50,7 +51,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Upgrader.php line 31
+* This property is defined in [classes/Upgrader.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#31)
 
 
 ### $need_upgrade
@@ -62,7 +63,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Upgrader.php line 35
+* This property is defined in [classes/Upgrader.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#35)
 
 
 ### $changed_files
@@ -74,7 +75,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Upgrader.php line 36
+* This property is defined in [classes/Upgrader.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#36)
 
 
 ### $missing_files
@@ -86,7 +87,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Upgrader.php line 37
+* This property is defined in [classes/Upgrader.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#37)
 
 
 ### $version_name
@@ -98,7 +99,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Upgrader.php line 39
+* This property is defined in [classes/Upgrader.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#39)
 
 
 ### $version_num
@@ -110,7 +111,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Upgrader.php line 40
+* This property is defined in [classes/Upgrader.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#40)
 
 
 ### $version_is_modified
@@ -122,7 +123,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Upgrader.php line 41
+* This property is defined in [classes/Upgrader.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#41)
 
 
 ### $link
@@ -134,7 +135,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Upgrader.php line 45
+* This property is defined in [classes/Upgrader.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#45)
 
 
 ### $autoupgrade
@@ -146,7 +147,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Upgrader.php line 46
+* This property is defined in [classes/Upgrader.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#46)
 
 
 ### $autoupgrade_module
@@ -158,7 +159,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Upgrader.php line 47
+* This property is defined in [classes/Upgrader.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#47)
 
 
 ### $autoupgrade_last_version
@@ -170,7 +171,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Upgrader.php line 48
+* This property is defined in [classes/Upgrader.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#48)
 
 
 ### $autoupgrade_module_link
@@ -182,7 +183,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Upgrader.php line 49
+* This property is defined in [classes/Upgrader.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#49)
 
 
 ### $changelog
@@ -194,7 +195,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Upgrader.php line 50
+* This property is defined in [classes/Upgrader.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#50)
 
 
 ### $md5
@@ -206,7 +207,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Upgrader.php line 51
+* This property is defined in [classes/Upgrader.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#51)
 
 
 Methods
@@ -222,7 +223,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Upgrader.php line 53
+* This method is defined in [classes/Upgrader.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#53)
 
 
 #### Arguments
@@ -239,7 +240,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Upgrader.php line 64
+* This method is defined in [classes/Upgrader.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#64)
 
 
 #### Arguments
@@ -256,7 +257,7 @@ downloadLast download the last version of PrestaShop and save it in $dest/$filen
 
 
 * Visibility: **public**
-* This method is defined in classes\Upgrader.php line 80
+* This method is defined in [classes/Upgrader.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#80)
 
 
 #### Arguments
@@ -274,7 +275,7 @@ downloadLast download the last version of PrestaShop and save it in $dest/$filen
 
 
 * Visibility: **public**
-* This method is defined in classes\Upgrader.php line 93
+* This method is defined in [classes/Upgrader.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#93)
 
 
 
@@ -288,7 +289,7 @@ checkPSVersion ask to prestashop.com if there is a new version. return an array 
 
 
 * Visibility: **public**
-* This method is defined in classes\Upgrader.php line 107
+* This method is defined in [classes/Upgrader.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#107)
 
 
 #### Arguments
@@ -305,7 +306,7 @@ load the last version informations stocked in base
 
 
 * Visibility: **public**
-* This method is defined in classes\Upgrader.php line 165
+* This method is defined in [classes/Upgrader.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#165)
 
 
 
@@ -320,7 +321,7 @@ that the md5file does not match to the original md5file (provided by $rss_md5fil
 
 
 * Visibility: **public**
-* This method is defined in classes\Upgrader.php line 208
+* This method is defined in [classes/Upgrader.php line 208](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#208)
 
 
 
@@ -335,7 +336,7 @@ in sub arrays  mail, translation and core items
 
 
 * Visibility: **protected**
-* This method is defined in classes\Upgrader.php line 226
+* This method is defined in [classes/Upgrader.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#226)
 
 
 #### Arguments
@@ -352,7 +353,7 @@ populate $this->missing_files with $path
 
 
 * Visibility: **protected**
-* This method is defined in classes\Upgrader.php line 249
+* This method is defined in [classes/Upgrader.php line 249](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#249)
 
 
 #### Arguments
@@ -369,7 +370,7 @@ populate $this->missing_files with $path
 
 
 * Visibility: **protected**
-* This method is defined in classes\Upgrader.php line 255
+* This method is defined in [classes/Upgrader.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#255)
 
 
 #### Arguments
@@ -388,7 +389,7 @@ populate $this->missing_files with $path
 
 
 * Visibility: **protected**
-* This method is defined in classes\Upgrader.php line 286
+* This method is defined in [classes/Upgrader.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#286)
 
 
 #### Arguments
@@ -406,7 +407,7 @@ populate $this->missing_files with $path
 
 
 * Visibility: **public**
-* This method is defined in classes\Upgrader.php line 294
+* This method is defined in [classes/Upgrader.php line 294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Upgrader.php#294)
 
 
 

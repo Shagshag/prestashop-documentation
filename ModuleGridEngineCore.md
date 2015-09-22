@@ -10,7 +10,8 @@ ModuleGridEngineCore
 * Namespace: 
 * This is an **abstract** class
 * Parent class: [Module](ModuleCore)
-* This class is defined in classes\module\ModuleGridEngine.php line 27
+
+* This class is defined in [classes/module/ModuleGridEngine.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGridEngine.php#27)
 
 
 
@@ -29,7 +30,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGridEngine.php line 29
+* This property is defined in [classes/module/ModuleGridEngine.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGridEngine.php#29)
 
 
 Methods
@@ -45,7 +46,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGridEngine.php line 31
+* This method is defined in [classes/module/ModuleGridEngine.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGridEngine.php#31)
 
 
 #### Arguments
@@ -62,7 +63,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGridEngine.php line 36
+* This method is defined in [classes/module/ModuleGridEngine.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGridEngine.php#36)
 
 
 
@@ -77,7 +78,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\ModuleGridEngine.php line 44
+* This method is defined in [classes/module/ModuleGridEngine.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGridEngine.php#44)
 
 
 
@@ -92,7 +93,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\module\ModuleGridEngine.php line 66
+* This method is defined in [classes/module/ModuleGridEngine.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGridEngine.php#66)
 
 
 #### Arguments
@@ -110,7 +111,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\module\ModuleGridEngine.php line 67
+* This method is defined in [classes/module/ModuleGridEngine.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGridEngine.php#67)
 
 
 #### Arguments
@@ -128,7 +129,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\module\ModuleGridEngine.php line 68
+* This method is defined in [classes/module/ModuleGridEngine.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGridEngine.php#68)
 
 
 #### Arguments
@@ -147,7 +148,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\module\ModuleGridEngine.php line 69
+* This method is defined in [classes/module/ModuleGridEngine.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGridEngine.php#69)
 
 
 #### Arguments
@@ -165,7 +166,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\module\ModuleGridEngine.php line 70
+* This method is defined in [classes/module/ModuleGridEngine.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGridEngine.php#70)
 
 
 #### Arguments
@@ -184,7 +185,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\module\ModuleGridEngine.php line 71
+* This method is defined in [classes/module/ModuleGridEngine.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGridEngine.php#71)
 
 
 

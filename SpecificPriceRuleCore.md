@@ -9,7 +9,8 @@ SpecificPriceRuleCore
 * Class name: SpecificPriceRuleCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\SpecificPriceRule.php line 27
+
+* This class is defined in [classes/SpecificPriceRule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPriceRule.php line 29
+* This property is defined in [classes/SpecificPriceRule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#29)
 
 
 ### $id_shop
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPriceRule.php line 30
+* This property is defined in [classes/SpecificPriceRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#30)
 
 
 ### $id_currency
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPriceRule.php line 31
+* This property is defined in [classes/SpecificPriceRule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#31)
 
 
 ### $id_country
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPriceRule.php line 32
+* This property is defined in [classes/SpecificPriceRule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#32)
 
 
 ### $id_group
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPriceRule.php line 33
+* This property is defined in [classes/SpecificPriceRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#33)
 
 
 ### $from_quantity
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPriceRule.php line 34
+* This property is defined in [classes/SpecificPriceRule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#34)
 
 
 ### $price
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPriceRule.php line 35
+* This property is defined in [classes/SpecificPriceRule.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#35)
 
 
 ### $reduction
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPriceRule.php line 36
+* This property is defined in [classes/SpecificPriceRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#36)
 
 
 ### $reduction_tax
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPriceRule.php line 37
+* This property is defined in [classes/SpecificPriceRule.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#37)
 
 
 ### $reduction_type
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPriceRule.php line 38
+* This property is defined in [classes/SpecificPriceRule.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#38)
 
 
 ### $from
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPriceRule.php line 39
+* This property is defined in [classes/SpecificPriceRule.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#39)
 
 
 ### $to
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\SpecificPriceRule.php line 40
+* This property is defined in [classes/SpecificPriceRule.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#40)
 
 
 ### $rules_application_enable
@@ -173,7 +174,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\SpecificPriceRule.php line 42
+* This property is defined in [classes/SpecificPriceRule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#42)
 
 
 ### $definition
@@ -186,7 +187,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\SpecificPriceRule.php line 47
+* This property is defined in [classes/SpecificPriceRule.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#47)
 
 
 ### $webserviceParameters
@@ -198,7 +199,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\SpecificPriceRule.php line 66
+* This property is defined in [classes/SpecificPriceRule.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#66)
 
 
 Methods
@@ -214,7 +215,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\SpecificPriceRule.php line 77
+* This method is defined in [classes/SpecificPriceRule.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#77)
 
 
 
@@ -228,7 +229,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\SpecificPriceRule.php line 84
+* This method is defined in [classes/SpecificPriceRule.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#84)
 
 
 
@@ -243,7 +244,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPriceRule.php line 97
+* This method is defined in [classes/SpecificPriceRule.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#97)
 
 
 
@@ -258,7 +259,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPriceRule.php line 102
+* This method is defined in [classes/SpecificPriceRule.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#102)
 
 
 
@@ -272,7 +273,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\SpecificPriceRule.php line 107
+* This method is defined in [classes/SpecificPriceRule.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#107)
 
 
 #### Arguments
@@ -289,7 +290,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\SpecificPriceRule.php line 133
+* This method is defined in [classes/SpecificPriceRule.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#133)
 
 
 #### Arguments
@@ -306,7 +307,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\SpecificPriceRule.php line 146
+* This method is defined in [classes/SpecificPriceRule.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#146)
 
 
 #### Arguments
@@ -324,7 +325,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPriceRule.php line 158
+* This method is defined in [classes/SpecificPriceRule.php line 158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#158)
 
 
 #### Arguments
@@ -341,7 +342,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\SpecificPriceRule.php line 171
+* This method is defined in [classes/SpecificPriceRule.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#171)
 
 
 
@@ -355,7 +356,7 @@ Return the product list affected by this specific rule.
 
 
 * Visibility: **public**
-* This method is defined in classes\SpecificPriceRule.php line 205
+* This method is defined in [classes/SpecificPriceRule.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#205)
 
 
 #### Arguments
@@ -373,7 +374,7 @@ Return the product list affected by this specific rule.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\SpecificPriceRule.php line 288
+* This method is defined in [classes/SpecificPriceRule.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SpecificPriceRule.php#288)
 
 
 #### Arguments

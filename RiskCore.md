@@ -9,7 +9,8 @@ RiskCore
 * Class name: RiskCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Risk.php line 30
+
+* This class is defined in [classes/Risk.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Risk.php line 32
+* This property is defined in [classes/Risk.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#32)
 
 
 ### $name
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Risk.php line 33
+* This property is defined in [classes/Risk.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#33)
 
 
 ### $color
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Risk.php line 34
+* This property is defined in [classes/Risk.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#34)
 
 
 ### $percent
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Risk.php line 35
+* This property is defined in [classes/Risk.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#35)
 
 
 ### $definition
@@ -77,7 +78,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Risk.php line 37
+* This property is defined in [classes/Risk.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#37)
 
 
 Methods
@@ -93,7 +94,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Risk.php line 48
+* This method is defined in [classes/Risk.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#48)
 
 
 
@@ -107,7 +108,7 @@ Check then return multilingual fields for database interaction
 
 
 * Visibility: **public**
-* This method is defined in classes\Risk.php line 62
+* This method is defined in [classes/Risk.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#62)
 
 
 
@@ -122,7 +123,7 @@ Check then return multilingual fields for database interaction
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Risk.php line 68
+* This method is defined in [classes/Risk.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#68)
 
 
 #### Arguments

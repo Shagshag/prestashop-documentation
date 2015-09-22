@@ -9,7 +9,8 @@ SupplyOrderStateCore
 * Class name: SupplyOrderStateCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\stock\SupplyOrderState.php line 30
+
+* This class is defined in [classes/stock/SupplyOrderState.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderState.php line 35
+* This property is defined in [classes/stock/SupplyOrderState.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#35)
 
 
 ### $delivery_note
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderState.php line 40
+* This property is defined in [classes/stock/SupplyOrderState.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#40)
 
 
 ### $editable
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderState.php line 45
+* This property is defined in [classes/stock/SupplyOrderState.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#45)
 
 
 ### $receipt_state
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderState.php line 50
+* This property is defined in [classes/stock/SupplyOrderState.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#50)
 
 
 ### $pending_receipt
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderState.php line 55
+* This property is defined in [classes/stock/SupplyOrderState.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#55)
 
 
 ### $enclosed
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderState.php line 60
+* This property is defined in [classes/stock/SupplyOrderState.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#60)
 
 
 ### $color
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderState.php line 65
+* This property is defined in [classes/stock/SupplyOrderState.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#65)
 
 
 ### $definition
@@ -113,7 +114,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\stock\SupplyOrderState.php line 70
+* This property is defined in [classes/stock/SupplyOrderState.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#70)
 
 
 ### $webserviceParameters
@@ -125,7 +126,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\stock\SupplyOrderState.php line 88
+* This property is defined in [classes/stock/SupplyOrderState.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#88)
 
 
 Methods
@@ -142,7 +143,7 @@ Gets the list of supply order statuses
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\SupplyOrderState.php line 102
+* This method is defined in [classes/stock/SupplyOrderState.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#102)
 
 
 #### Arguments
@@ -161,7 +162,7 @@ Gets the list of supply order statuses
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\SupplyOrderState.php line 154
+* This method is defined in [classes/stock/SupplyOrderState.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderState.php#154)
 
 
 #### Arguments

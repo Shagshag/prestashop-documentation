@@ -9,7 +9,8 @@ AdminPreferencesControllerCore
 * Class name: AdminPreferencesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminPreferencesController.php line 30
+
+* This class is defined in [controllers/admin/AdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPreferencesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminPreferencesController.php line 30
+* This property is defined in [controllers/admin/AdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPreferencesController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPreferencesController.php line 32
+* This method is defined in [controllers/admin/AdminPreferencesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPreferencesController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Enable / disable multishop menu if multishop feature is activated
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPreferencesController.php line 238
+* This method is defined in [controllers/admin/AdminPreferencesController.php line 238](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPreferencesController.php#238)
 
 
 #### Arguments

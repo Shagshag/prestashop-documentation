@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_HookManager
 * Namespace: 
-* This class is defined in Adapter\Adapter_HookManager.php line 27
+
+* This class is defined in [Adapter/Adapter_HookManager.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_HookManager.php#27)
 
 
 
@@ -43,7 +44,7 @@ Execute modules for specified hook
 
 
 * Visibility: **public**
-* This method is defined in Adapter\Adapter_HookManager.php line 44
+* This method is defined in [Adapter/Adapter_HookManager.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_HookManager.php#44)
 
 
 #### Arguments

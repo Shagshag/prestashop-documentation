@@ -23,7 +23,8 @@ needs please refer to http://www.prestashop.com for more information.
 * Class name: ObjectModelCore
 * Namespace: 
 * This is an **abstract** class
-* This class implements: [Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)* This class is defined in classes\ObjectModel.php line 27
+* This class implements: [Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)
+* This class is defined in [classes/ObjectModel.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#27)
 
 
 
@@ -37,7 +38,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 32
+* This constant is defined in [classes/ObjectModel.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#32)
 
 
 ### TYPE_BOOL
@@ -46,7 +47,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 33
+* This constant is defined in [classes/ObjectModel.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#33)
 
 
 ### TYPE_STRING
@@ -55,7 +56,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 34
+* This constant is defined in [classes/ObjectModel.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#34)
 
 
 ### TYPE_FLOAT
@@ -64,7 +65,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 35
+* This constant is defined in [classes/ObjectModel.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#35)
 
 
 ### TYPE_DATE
@@ -73,7 +74,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 36
+* This constant is defined in [classes/ObjectModel.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#36)
 
 
 ### TYPE_HTML
@@ -82,7 +83,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 37
+* This constant is defined in [classes/ObjectModel.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#37)
 
 
 ### TYPE_NOTHING
@@ -91,7 +92,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 38
+* This constant is defined in [classes/ObjectModel.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#38)
 
 
 ### TYPE_SQL
@@ -100,7 +101,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 39
+* This constant is defined in [classes/ObjectModel.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#39)
 
 
 ### FORMAT_COMMON
@@ -109,7 +110,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 44
+* This constant is defined in [classes/ObjectModel.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#44)
 
 
 ### FORMAT_LANG
@@ -118,7 +119,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 45
+* This constant is defined in [classes/ObjectModel.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#45)
 
 
 ### FORMAT_SHOP
@@ -127,7 +128,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 46
+* This constant is defined in [classes/ObjectModel.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#46)
 
 
 ### HAS_ONE
@@ -136,7 +137,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 51
+* This constant is defined in [classes/ObjectModel.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#51)
 
 
 ### HAS_MANY
@@ -145,7 +146,7 @@ Constants
 
 
 
-* This constant is defined in classes\ObjectModel.php line 52
+* This constant is defined in [classes/ObjectModel.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#52)
 
 
 Properties
@@ -161,7 +162,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ObjectModel.php line 55
+* This property is defined in [classes/ObjectModel.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#55)
 
 
 ### $id_lang
@@ -173,7 +174,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 58
+* This property is defined in [classes/ObjectModel.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#58)
 
 
 ### $id_shop
@@ -185,7 +186,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 61
+* This property is defined in [classes/ObjectModel.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#61)
 
 
 ### $id_shop_list
@@ -197,7 +198,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ObjectModel.php line 64
+* This property is defined in [classes/ObjectModel.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#64)
 
 
 ### $get_shop_from_context
@@ -209,7 +210,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 67
+* This property is defined in [classes/ObjectModel.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#67)
 
 
 ### $fieldsRequiredDatabase
@@ -222,7 +223,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\ObjectModel.php line 70
+* This property is defined in [classes/ObjectModel.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#70)
 
 
 ### $table
@@ -234,7 +235,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 76
+* This property is defined in [classes/ObjectModel.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#76)
 
 
 ### $identifier
@@ -246,7 +247,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 82
+* This property is defined in [classes/ObjectModel.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#82)
 
 
 ### $fieldsRequired
@@ -258,7 +259,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 88
+* This property is defined in [classes/ObjectModel.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#88)
 
 
 ### $fieldsSize
@@ -270,7 +271,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 94
+* This property is defined in [classes/ObjectModel.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#94)
 
 
 ### $fieldsValidate
@@ -282,7 +283,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 100
+* This property is defined in [classes/ObjectModel.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#100)
 
 
 ### $fieldsRequiredLang
@@ -294,7 +295,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 106
+* This property is defined in [classes/ObjectModel.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#106)
 
 
 ### $fieldsSizeLang
@@ -306,7 +307,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 112
+* This property is defined in [classes/ObjectModel.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#112)
 
 
 ### $fieldsValidateLang
@@ -318,7 +319,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 118
+* This property is defined in [classes/ObjectModel.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#118)
 
 
 ### $tables
@@ -330,7 +331,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 124
+* This property is defined in [classes/ObjectModel.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#124)
 
 
 ### $webserviceParameters
@@ -342,7 +343,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 127
+* This property is defined in [classes/ObjectModel.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#127)
 
 
 ### $image_dir
@@ -354,7 +355,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 130
+* This property is defined in [classes/ObjectModel.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#130)
 
 
 ### $image_format
@@ -366,7 +367,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 133
+* This property is defined in [classes/ObjectModel.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#133)
 
 
 ### $definition
@@ -379,7 +380,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\ObjectModel.php line 139
+* This property is defined in [classes/ObjectModel.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#139)
 
 
 ### $loaded_classes
@@ -392,7 +393,7 @@ Values are assigned during object initialization.
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\ObjectModel.php line 147
+* This property is defined in [classes/ObjectModel.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#147)
 
 
 ### $def
@@ -404,7 +405,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 150
+* This property is defined in [classes/ObjectModel.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#150)
 
 
 ### $update_fields
@@ -416,7 +417,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **protected**
-* This property is defined in classes\ObjectModel.php line 153
+* This property is defined in [classes/ObjectModel.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#153)
 
 
 ### $db
@@ -429,7 +430,7 @@ Values are assigned during object initialization.
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\ObjectModel.php line 156
+* This property is defined in [classes/ObjectModel.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#156)
 
 
 ### $force_id
@@ -441,7 +442,7 @@ Values are assigned during object initialization.
 
 
 * Visibility: **public**
-* This property is defined in classes\ObjectModel.php line 159
+* This property is defined in [classes/ObjectModel.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#159)
 
 
 ### $cache_objects
@@ -454,7 +455,7 @@ Values are assigned during object initialization.
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\ObjectModel.php line 164
+* This property is defined in [classes/ObjectModel.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#164)
 
 
 Methods
@@ -472,7 +473,7 @@ If unspecified, a generic repository will be used for the entity.
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)
-* This method is defined in classes\ObjectModel.php line 35
+* This method is defined in [classes/ObjectModel.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#35)
 
 
 
@@ -487,7 +488,7 @@ Returns object validation rules (fields validity)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ObjectModel.php line 178
+* This method is defined in [classes/ObjectModel.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#178)
 
 
 #### Arguments
@@ -504,7 +505,7 @@ Builds the object
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 201
+* This method is defined in [classes/ObjectModel.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#201)
 
 
 #### Arguments
@@ -524,7 +525,7 @@ All fields are verified (pSQL, intval, .
 ..)
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 244
+* This method is defined in [classes/ObjectModel.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#244)
 
 
 
@@ -540,7 +541,7 @@ this is not the best solution but this is the only one possible for retro compat
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 270
+* This method is defined in [classes/ObjectModel.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#270)
 
 
 
@@ -554,7 +555,7 @@ Prepare multilang fields
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 288
+* This method is defined in [classes/ObjectModel.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#288)
 
 
 
@@ -568,7 +569,7 @@ Formats values of each fields.
 
 
 * Visibility: **protected**
-* This method is defined in classes\ObjectModel.php line 327
+* This method is defined in [classes/ObjectModel.php line 327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#327)
 
 
 #### Arguments
@@ -587,7 +588,7 @@ Formats a value
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ObjectModel.php line 381
+* This method is defined in [classes/ObjectModel.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#381)
 
 
 #### Arguments
@@ -609,7 +610,7 @@ Formats a value
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)
-* This method is defined in classes\ObjectModel.php line 37
+* This method is defined in [classes/ObjectModel.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#37)
 
 
 
@@ -623,7 +624,7 @@ Adds current object to the database
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 458
+* This method is defined in [classes/ObjectModel.php line 458](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#458)
 
 
 #### Arguments
@@ -642,7 +643,7 @@ saves them in a new row and loads newly saved values as a new object.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 549
+* This method is defined in [classes/ObjectModel.php line 549](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#549)
 
 
 
@@ -656,7 +657,7 @@ Updates the current object in the database
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 619
+* This method is defined in [classes/ObjectModel.php line 619](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#619)
 
 
 #### Arguments
@@ -674,7 +675,7 @@ Updates the current object in the database
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)
-* This method is defined in classes\ObjectModel.php line 39
+* This method is defined in [classes/ObjectModel.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#39)
 
 
 
@@ -688,7 +689,7 @@ Deletes multiple objects from the database at once
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 790
+* This method is defined in [classes/ObjectModel.php line 790](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#790)
 
 
 #### Arguments
@@ -705,7 +706,7 @@ Toggles object status in database
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 807
+* This method is defined in [classes/ObjectModel.php line 807](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#807)
 
 
 
@@ -719,7 +720,7 @@ Toggles object status in database
 
 
 * Visibility: **protected**
-* This method is defined in classes\ObjectModel.php line 831
+* This method is defined in [classes/ObjectModel.php line 831](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#831)
 
 
 #### Arguments
@@ -736,7 +737,7 @@ Toggles object status in database
 
 
 * Visibility: **protected**
-* This method is defined in classes\ObjectModel.php line 854
+* This method is defined in [classes/ObjectModel.php line 854](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#854)
 
 
 #### Arguments
@@ -755,7 +756,7 @@ Checks if object field values are valid before database interaction
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 895
+* This method is defined in [classes/ObjectModel.php line 895](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#895)
 
 
 #### Arguments
@@ -773,7 +774,7 @@ Checks if multilingual object field values are valid before database interaction
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 927
+* This method is defined in [classes/ObjectModel.php line 927](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#927)
 
 
 #### Arguments
@@ -791,7 +792,7 @@ Validate a single field
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 977
+* This method is defined in [classes/ObjectModel.php line 977](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#977)
 
 
 #### Arguments
@@ -813,7 +814,7 @@ Returns field name translation
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ObjectModel.php line 1083
+* This method is defined in [classes/ObjectModel.php line 1083](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1083)
 
 
 #### Arguments
@@ -833,7 +834,7 @@ Returns field name translation
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1105
+* This method is defined in [classes/ObjectModel.php line 1105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1105)
 
 
 #### Arguments
@@ -850,7 +851,7 @@ Validates submitted values and returns an array of errors, if any.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1118
+* This method is defined in [classes/ObjectModel.php line 1118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1118)
 
 
 #### Arguments
@@ -867,7 +868,7 @@ Returns webservice parameters of this object.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1176
+* This method is defined in [classes/ObjectModel.php line 1176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1176)
 
 
 #### Arguments
@@ -884,7 +885,7 @@ Returns webservice object list.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1279
+* This method is defined in [classes/ObjectModel.php line 1279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1279)
 
 
 #### Arguments
@@ -904,7 +905,7 @@ Validate required fields.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1322
+* This method is defined in [classes/ObjectModel.php line 1322](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1322)
 
 
 #### Arguments
@@ -921,7 +922,7 @@ Returns an array of required fields
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1355
+* This method is defined in [classes/ObjectModel.php line 1355](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1355)
 
 
 #### Arguments
@@ -938,7 +939,7 @@ Caches data about required objects fields in memory
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1368
+* This method is defined in [classes/ObjectModel.php line 1368](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1368)
 
 
 #### Arguments
@@ -955,7 +956,7 @@ Sets required field for this class in the database.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1390
+* This method is defined in [classes/ObjectModel.php line 1390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1390)
 
 
 #### Arguments
@@ -972,7 +973,7 @@ Clears cache entries that have this object's ID.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1414
+* This method is defined in [classes/ObjectModel.php line 1414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1414)
 
 
 #### Arguments
@@ -989,7 +990,7 @@ Checks if current object is associated to a shop.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1430
+* This method is defined in [classes/ObjectModel.php line 1430](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1430)
 
 
 #### Arguments
@@ -1006,7 +1007,7 @@ This function associate an item to its context
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1464
+* This method is defined in [classes/ObjectModel.php line 1464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1464)
 
 
 #### Arguments
@@ -1023,7 +1024,7 @@ Gets the list of associated shop IDs
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1499
+* This method is defined in [classes/ObjectModel.php line 1499](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1499)
 
 
 
@@ -1037,7 +1038,7 @@ Copies shop association data from object with specified ID.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1523
+* This method is defined in [classes/ObjectModel.php line 1523](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1523)
 
 
 #### Arguments
@@ -1054,7 +1055,7 @@ Checks if there is more than one entry in associated shop table for current obje
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1550
+* This method is defined in [classes/ObjectModel.php line 1550](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1550)
 
 
 
@@ -1068,7 +1069,7 @@ Checks if object is multi-shop object.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1564
+* This method is defined in [classes/ObjectModel.php line 1564](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1564)
 
 
 
@@ -1082,7 +1083,7 @@ Checks if a field is a multi-shop field.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1576
+* This method is defined in [classes/ObjectModel.php line 1576](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1576)
 
 
 #### Arguments
@@ -1099,7 +1100,7 @@ Checks if the object is both multi-language and multi-shop.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1586
+* This method is defined in [classes/ObjectModel.php line 1586](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1586)
 
 
 
@@ -1114,7 +1115,7 @@ Updates a table and splits the common datas and the shop datas.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ObjectModel.php line 1602
+* This method is defined in [classes/ObjectModel.php line 1602](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1602)
 
 
 #### Arguments
@@ -1134,7 +1135,7 @@ Delete images associated with the object
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1643
+* This method is defined in [classes/ObjectModel.php line 1643](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1643)
 
 
 #### Arguments
@@ -1152,7 +1153,7 @@ Checks if an object exists in database.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ObjectModel.php line 1686
+* This method is defined in [classes/ObjectModel.php line 1686](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1686)
 
 
 #### Arguments
@@ -1171,7 +1172,7 @@ Checks if an object type exists in the database.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ObjectModel.php line 1706
+* This method is defined in [classes/ObjectModel.php line 1706](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1706)
 
 
 #### Arguments
@@ -1190,7 +1191,7 @@ Checks if an object type exists in the database.
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)
-* This method is defined in classes\ObjectModel.php line 41
+* This method is defined in [classes/ObjectModel.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#41)
 
 
 #### Arguments
@@ -1208,7 +1209,7 @@ Fill (hydrate) a list of objects in order to get a collection of these objects
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ObjectModel.php line 1755
+* This method is defined in [classes/ObjectModel.php line 1755](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1755)
 
 
 #### Arguments
@@ -1228,7 +1229,7 @@ Returns object definition
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ObjectModel.php line 1809
+* This method is defined in [classes/ObjectModel.php line 1809](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1809)
 
 
 #### Arguments
@@ -1246,7 +1247,7 @@ Retrocompatibility for classes without $definition static
 
 
 * Visibility: **protected**
-* This method is defined in classes\ObjectModel.php line 1855
+* This method is defined in [classes/ObjectModel.php line 1855](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1855)
 
 
 
@@ -1261,7 +1262,7 @@ else the field value.
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1927
+* This method is defined in [classes/ObjectModel.php line 1927](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1927)
 
 
 #### Arguments
@@ -1281,7 +1282,7 @@ langfield1 => array(1 => true, 2 => false))
 
 
 * Visibility: **public**
-* This method is defined in classes\ObjectModel.php line 1953
+* This method is defined in [classes/ObjectModel.php line 1953](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1953)
 
 
 #### Arguments
@@ -1299,7 +1300,7 @@ Enables object caching
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ObjectModel.php line 1961
+* This method is defined in [classes/ObjectModel.php line 1961](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1961)
 
 
 
@@ -1314,7 +1315,7 @@ Disables object caching
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ObjectModel.php line 1969
+* This method is defined in [classes/ObjectModel.php line 1969](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#1969)
 
 
 

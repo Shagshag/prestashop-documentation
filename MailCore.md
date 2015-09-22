@@ -9,7 +9,8 @@ MailCore
 * Class name: MailCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Mail.php line 32
+
+* This class is defined in [classes/Mail.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#32)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\Mail.php line 66
+* This constant is defined in [classes/Mail.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#66)
 
 
 ### TYPE_TEXT
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in classes\Mail.php line 67
+* This constant is defined in [classes/Mail.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#67)
 
 
 ### TYPE_BOTH
@@ -41,7 +42,7 @@ Constants
 
 
 
-* This constant is defined in classes\Mail.php line 68
+* This constant is defined in [classes/Mail.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#68)
 
 
 Properties
@@ -57,7 +58,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Mail.php line 34
+* This property is defined in [classes/Mail.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#34)
 
 
 ### $recipient
@@ -69,7 +70,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Mail.php line 37
+* This property is defined in [classes/Mail.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#37)
 
 
 ### $template
@@ -81,7 +82,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Mail.php line 40
+* This property is defined in [classes/Mail.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#40)
 
 
 ### $subject
@@ -93,7 +94,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Mail.php line 43
+* This property is defined in [classes/Mail.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#43)
 
 
 ### $id_lang
@@ -105,7 +106,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Mail.php line 46
+* This property is defined in [classes/Mail.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#46)
 
 
 ### $date_add
@@ -117,7 +118,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Mail.php line 49
+* This property is defined in [classes/Mail.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#49)
 
 
 ### $definition
@@ -130,7 +131,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Mail.php line 54
+* This property is defined in [classes/Mail.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#54)
 
 
 Methods
@@ -147,7 +148,7 @@ Send Email
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Mail.php line 87
+* This method is defined in [classes/Mail.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#87)
 
 
 #### Arguments
@@ -179,7 +180,7 @@ Send Email
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Mail.php line 402
+* This method is defined in [classes/Mail.php line 402](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#402)
 
 
 #### Arguments
@@ -197,7 +198,7 @@ Send Email
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Mail.php line 407
+* This method is defined in [classes/Mail.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#407)
 
 
 
@@ -212,7 +213,7 @@ Send Email
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Mail.php line 412
+* This method is defined in [classes/Mail.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#412)
 
 
 #### Arguments
@@ -241,7 +242,7 @@ we have to return a sentence with accents.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Mail.php line 450
+* This method is defined in [classes/Mail.php line 450](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#450)
 
 
 #### Arguments
@@ -261,7 +262,7 @@ we have to return a sentence with accents.
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\Mail.php line 481
+* This method is defined in [classes/Mail.php line 481](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#481)
 
 
 #### Arguments
@@ -279,7 +280,7 @@ we have to return a sentence with accents.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Mail.php line 492
+* This method is defined in [classes/Mail.php line 492](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#492)
 
 
 #### Arguments
@@ -297,7 +298,7 @@ we have to return a sentence with accents.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Mail.php line 503
+* This method is defined in [classes/Mail.php line 503](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#503)
 
 
 #### Arguments

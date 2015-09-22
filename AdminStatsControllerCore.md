@@ -9,7 +9,8 @@ AdminStatsControllerCore
 * Class name: AdminStatsControllerCore
 * Namespace: 
 * Parent class: [AdminStatsTabController](AdminStatsTabControllerCore)
-* This class is defined in controllers\admin\AdminStatsController.php line 27
+
+* This class is defined in [controllers/admin/AdminStatsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#27)
 
 
 
@@ -31,7 +32,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 29
+* This method is defined in [controllers/admin/AdminStatsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#29)
 
 
 #### Arguments
@@ -52,7 +53,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 82
+* This method is defined in [controllers/admin/AdminStatsController.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#82)
 
 
 #### Arguments
@@ -71,7 +72,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 92
+* This method is defined in [controllers/admin/AdminStatsController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#92)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 100
+* This method is defined in [controllers/admin/AdminStatsController.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#100)
 
 
 
@@ -101,7 +102,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 109
+* This method is defined in [controllers/admin/AdminStatsController.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#109)
 
 
 
@@ -116,7 +117,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 127
+* This method is defined in [controllers/admin/AdminStatsController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#127)
 
 
 
@@ -131,7 +132,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 139
+* This method is defined in [controllers/admin/AdminStatsController.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#139)
 
 
 
@@ -146,7 +147,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 152
+* This method is defined in [controllers/admin/AdminStatsController.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#152)
 
 
 
@@ -161,7 +162,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 164
+* This method is defined in [controllers/admin/AdminStatsController.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#164)
 
 
 
@@ -176,7 +177,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 173
+* This method is defined in [controllers/admin/AdminStatsController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#173)
 
 
 
@@ -191,7 +192,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 181
+* This method is defined in [controllers/admin/AdminStatsController.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#181)
 
 
 
@@ -206,7 +207,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 190
+* This method is defined in [controllers/admin/AdminStatsController.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#190)
 
 
 
@@ -221,7 +222,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 198
+* This method is defined in [controllers/admin/AdminStatsController.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#198)
 
 
 #### Arguments
@@ -241,7 +242,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 236
+* This method is defined in [controllers/admin/AdminStatsController.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#236)
 
 
 #### Arguments
@@ -260,7 +261,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 250
+* This method is defined in [controllers/admin/AdminStatsController.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#250)
 
 
 #### Arguments
@@ -280,7 +281,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 290
+* This method is defined in [controllers/admin/AdminStatsController.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#290)
 
 
 
@@ -295,7 +296,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 308
+* This method is defined in [controllers/admin/AdminStatsController.php line 308](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#308)
 
 
 
@@ -310,7 +311,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 326
+* This method is defined in [controllers/admin/AdminStatsController.php line 326](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#326)
 
 
 #### Arguments
@@ -329,7 +330,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 351
+* This method is defined in [controllers/admin/AdminStatsController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#351)
 
 
 #### Arguments
@@ -348,7 +349,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 367
+* This method is defined in [controllers/admin/AdminStatsController.php line 367](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#367)
 
 
 
@@ -363,7 +364,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 377
+* This method is defined in [controllers/admin/AdminStatsController.php line 377](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#377)
 
 
 
@@ -378,7 +379,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 382
+* This method is defined in [controllers/admin/AdminStatsController.php line 382](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#382)
 
 
 #### Arguments
@@ -397,7 +398,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 405
+* This method is defined in [controllers/admin/AdminStatsController.php line 405](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#405)
 
 
 #### Arguments
@@ -416,7 +417,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 426
+* This method is defined in [controllers/admin/AdminStatsController.php line 426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#426)
 
 
 #### Arguments
@@ -436,7 +437,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsController.php line 463
+* This method is defined in [controllers/admin/AdminStatsController.php line 463](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#463)
 
 
 #### Arguments
@@ -455,7 +456,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatsController.php line 517
+* This method is defined in [controllers/admin/AdminStatsController.php line 517](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#517)
 
 
 

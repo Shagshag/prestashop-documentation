@@ -9,7 +9,8 @@ StockMvtReasonCore
 * Class name: StockMvtReasonCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\stock\StockMvtReason.php line 27
+
+* This class is defined in [classes/stock/StockMvtReason.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvtReason.php line 30
+* This property is defined in [classes/stock/StockMvtReason.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#30)
 
 
 ### $name
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvtReason.php line 33
+* This property is defined in [classes/stock/StockMvtReason.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#33)
 
 
 ### $sign
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvtReason.php line 36
+* This property is defined in [classes/stock/StockMvtReason.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#36)
 
 
 ### $date_add
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvtReason.php line 39
+* This property is defined in [classes/stock/StockMvtReason.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#39)
 
 
 ### $date_upd
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvtReason.php line 42
+* This property is defined in [classes/stock/StockMvtReason.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#42)
 
 
 ### $deleted
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvtReason.php line 45
+* This property is defined in [classes/stock/StockMvtReason.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#45)
 
 
 ### $definition
@@ -101,7 +102,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\stock\StockMvtReason.php line 51
+* This property is defined in [classes/stock/StockMvtReason.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#51)
 
 
 ### $webserviceParameters
@@ -113,7 +114,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\stock\StockMvtReason.php line 67
+* This property is defined in [classes/stock/StockMvtReason.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#67)
 
 
 Methods
@@ -130,7 +131,7 @@ Gets Stock Mvt Reasons
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\StockMvtReason.php line 82
+* This method is defined in [classes/stock/StockMvtReason.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#82)
 
 
 #### Arguments
@@ -149,7 +150,7 @@ Same as StockMvtReason::getStockMvtReasons(), ignoring a specific lists of ids
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\StockMvtReason.php line 105
+* This method is defined in [classes/stock/StockMvtReason.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#105)
 
 
 #### Arguments
@@ -169,7 +170,7 @@ For a given id_stock_mvt_reason, tells if it exists
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\StockMvtReason.php line 132
+* This method is defined in [classes/stock/StockMvtReason.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#132)
 
 
 #### Arguments

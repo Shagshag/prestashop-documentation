@@ -9,7 +9,8 @@ CustomerCore
 * Class name: CustomerCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Customer.php line 27
+
+* This class is defined in [classes/Customer.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 29
+* This property is defined in [classes/Customer.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#29)
 
 
 ### $id_shop
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 31
+* This property is defined in [classes/Customer.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#31)
 
 
 ### $id_shop_group
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 33
+* This property is defined in [classes/Customer.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#33)
 
 
 ### $secure_key
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 36
+* This property is defined in [classes/Customer.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#36)
 
 
 ### $note
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 39
+* This property is defined in [classes/Customer.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#39)
 
 
 ### $id_gender
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 42
+* This property is defined in [classes/Customer.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#42)
 
 
 ### $id_default_group
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 45
+* This property is defined in [classes/Customer.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#45)
 
 
 ### $id_lang
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 48
+* This property is defined in [classes/Customer.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#48)
 
 
 ### $lastname
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 51
+* This property is defined in [classes/Customer.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#51)
 
 
 ### $firstname
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 54
+* This property is defined in [classes/Customer.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#54)
 
 
 ### $birthday
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 57
+* This property is defined in [classes/Customer.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#57)
 
 
 ### $email
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 60
+* This property is defined in [classes/Customer.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#60)
 
 
 ### $newsletter
@@ -172,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 63
+* This property is defined in [classes/Customer.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#63)
 
 
 ### $ip_registration_newsletter
@@ -184,7 +185,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 66
+* This property is defined in [classes/Customer.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#66)
 
 
 ### $newsletter_date_add
@@ -196,7 +197,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 69
+* This property is defined in [classes/Customer.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#69)
 
 
 ### $optin
@@ -208,7 +209,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 72
+* This property is defined in [classes/Customer.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#72)
 
 
 ### $website
@@ -220,7 +221,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 75
+* This property is defined in [classes/Customer.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#75)
 
 
 ### $company
@@ -232,7 +233,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 78
+* This property is defined in [classes/Customer.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#78)
 
 
 ### $siret
@@ -244,7 +245,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 81
+* This property is defined in [classes/Customer.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#81)
 
 
 ### $ape
@@ -256,7 +257,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 84
+* This property is defined in [classes/Customer.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#84)
 
 
 ### $outstanding_allow_amount
@@ -268,7 +269,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 87
+* This property is defined in [classes/Customer.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#87)
 
 
 ### $show_public_prices
@@ -280,7 +281,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 90
+* This property is defined in [classes/Customer.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#90)
 
 
 ### $id_risk
@@ -292,7 +293,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 93
+* This property is defined in [classes/Customer.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#93)
 
 
 ### $max_payment_days
@@ -304,7 +305,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 96
+* This property is defined in [classes/Customer.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#96)
 
 
 ### $passwd
@@ -316,7 +317,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 99
+* This property is defined in [classes/Customer.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#99)
 
 
 ### $last_passwd_gen
@@ -328,7 +329,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 102
+* This property is defined in [classes/Customer.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#102)
 
 
 ### $active
@@ -340,7 +341,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 105
+* This property is defined in [classes/Customer.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#105)
 
 
 ### $is_guest
@@ -352,7 +353,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 108
+* This property is defined in [classes/Customer.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#108)
 
 
 ### $deleted
@@ -364,7 +365,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 111
+* This property is defined in [classes/Customer.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#111)
 
 
 ### $date_add
@@ -376,7 +377,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 114
+* This property is defined in [classes/Customer.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#114)
 
 
 ### $date_upd
@@ -388,7 +389,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 117
+* This property is defined in [classes/Customer.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#117)
 
 
 ### $years
@@ -400,7 +401,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 119
+* This property is defined in [classes/Customer.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#119)
 
 
 ### $days
@@ -412,7 +413,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 120
+* This property is defined in [classes/Customer.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#120)
 
 
 ### $months
@@ -424,7 +425,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 121
+* This property is defined in [classes/Customer.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#121)
 
 
 ### $geoloc_id_country
@@ -436,7 +437,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 124
+* This property is defined in [classes/Customer.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#124)
 
 
 ### $geoloc_id_state
@@ -448,7 +449,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 126
+* This property is defined in [classes/Customer.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#126)
 
 
 ### $geoloc_postcode
@@ -460,7 +461,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 128
+* This property is defined in [classes/Customer.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#128)
 
 
 ### $logged
@@ -472,7 +473,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 131
+* This property is defined in [classes/Customer.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#131)
 
 
 ### $id_guest
@@ -484,7 +485,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 134
+* This property is defined in [classes/Customer.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#134)
 
 
 ### $groupBox
@@ -496,7 +497,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Customer.php line 136
+* This property is defined in [classes/Customer.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#136)
 
 
 ### $webserviceParameters
@@ -508,7 +509,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Customer.php line 138
+* This property is defined in [classes/Customer.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#138)
 
 
 ### $definition
@@ -521,7 +522,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Customer.php line 157
+* This property is defined in [classes/Customer.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#157)
 
 
 ### $_defaultGroupId
@@ -534,7 +535,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Customer.php line 194
+* This property is defined in [classes/Customer.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#194)
 
 
 ### $_customerHasAddress
@@ -547,7 +548,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Customer.php line 195
+* This property is defined in [classes/Customer.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#195)
 
 
 ### $_customer_groups
@@ -560,7 +561,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Customer.php line 196
+* This property is defined in [classes/Customer.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#196)
 
 
 Methods
@@ -576,7 +577,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 198
+* This method is defined in [classes/Customer.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#198)
 
 
 #### Arguments
@@ -593,7 +594,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 204
+* This method is defined in [classes/Customer.php line 204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#204)
 
 
 #### Arguments
@@ -611,7 +612,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 234
+* This method is defined in [classes/Customer.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#234)
 
 
 #### Arguments
@@ -628,7 +629,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 256
+* This method is defined in [classes/Customer.php line 256](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#256)
 
 
 
@@ -643,7 +644,7 @@ Return customers list
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 299
+* This method is defined in [classes/Customer.php line 299](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#299)
 
 
 
@@ -657,7 +658,7 @@ Return customer instance from its e-mail (optionnaly check password)
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 315
+* This method is defined in [classes/Customer.php line 315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#315)
 
 
 #### Arguments
@@ -677,7 +678,7 @@ Retrieve customers by email address
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 348
+* This method is defined in [classes/Customer.php line 348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#348)
 
 
 #### Arguments
@@ -695,7 +696,7 @@ Check id the customer is active or not
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 364
+* This method is defined in [classes/Customer.php line 364](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#364)
 
 
 #### Arguments
@@ -713,7 +714,7 @@ Check if e-mail is already registered in database
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 391
+* This method is defined in [classes/Customer.php line 391](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#391)
 
 
 #### Arguments
@@ -733,7 +734,7 @@ Check if an address is owned by a customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 416
+* This method is defined in [classes/Customer.php line 416](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#416)
 
 
 #### Arguments
@@ -752,7 +753,7 @@ Check if an address is owned by a customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 430
+* This method is defined in [classes/Customer.php line 430](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#430)
 
 
 #### Arguments
@@ -770,7 +771,7 @@ Return customer addresses
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 444
+* This method is defined in [classes/Customer.php line 444](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#444)
 
 
 #### Arguments
@@ -788,7 +789,7 @@ Count the number of addresses for a customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 470
+* This method is defined in [classes/Customer.php line 470](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#470)
 
 
 #### Arguments
@@ -806,7 +807,7 @@ Check if customer password is the right one
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 486
+* This method is defined in [classes/Customer.php line 486](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#486)
 
 
 #### Arguments
@@ -825,7 +826,7 @@ Light back office search for customers
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 512
+* This method is defined in [classes/Customer.php line 512](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#512)
 
 
 #### Arguments
@@ -844,7 +845,7 @@ Search for customers by ip address
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 534
+* This method is defined in [classes/Customer.php line 534](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#534)
 
 
 #### Arguments
@@ -861,7 +862,7 @@ Return several useful statistics about customer
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 549
+* This method is defined in [classes/Customer.php line 549](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#549)
 
 
 
@@ -875,7 +876,7 @@ Return several useful statistics about customer
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 573
+* This method is defined in [classes/Customer.php line 573](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#573)
 
 
 
@@ -889,7 +890,7 @@ Return several useful statistics about customer
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 587
+* This method is defined in [classes/Customer.php line 587](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#587)
 
 
 
@@ -903,7 +904,7 @@ Return several useful statistics about customer
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 610
+* This method is defined in [classes/Customer.php line 610](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#610)
 
 
 #### Arguments
@@ -921,7 +922,7 @@ Return several useful statistics about customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 615
+* This method is defined in [classes/Customer.php line 615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#615)
 
 
 #### Arguments
@@ -938,7 +939,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 634
+* This method is defined in [classes/Customer.php line 634](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#634)
 
 
 #### Arguments
@@ -955,7 +956,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 644
+* This method is defined in [classes/Customer.php line 644](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#644)
 
 
 
@@ -969,7 +970,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 649
+* This method is defined in [classes/Customer.php line 649](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#649)
 
 
 #### Arguments
@@ -987,7 +988,7 @@ Update customer groups associated to the object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 657
+* This method is defined in [classes/Customer.php line 657](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#657)
 
 
 #### Arguments
@@ -1004,7 +1005,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 680
+* This method is defined in [classes/Customer.php line 680](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#680)
 
 
 
@@ -1018,7 +1019,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 688
+* This method is defined in [classes/Customer.php line 688](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#688)
 
 
 
@@ -1032,7 +1033,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 694
+* This method is defined in [classes/Customer.php line 694](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#694)
 
 
 
@@ -1047,7 +1048,7 @@ Update customer groups associated to the object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 702
+* This method is defined in [classes/Customer.php line 702](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#702)
 
 
 #### Arguments
@@ -1065,7 +1066,7 @@ Update customer groups associated to the object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Customer.php line 722
+* This method is defined in [classes/Customer.php line 722](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#722)
 
 
 #### Arguments
@@ -1083,7 +1084,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 741
+* This method is defined in [classes/Customer.php line 741](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#741)
 
 
 
@@ -1097,7 +1098,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 753
+* This method is defined in [classes/Customer.php line 753](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#753)
 
 
 
@@ -1111,7 +1112,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 758
+* This method is defined in [classes/Customer.php line 758](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#758)
 
 
 #### Arguments
@@ -1129,7 +1130,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 802
+* This method is defined in [classes/Customer.php line 802](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#802)
 
 
 #### Arguments
@@ -1146,7 +1147,7 @@ Check customer informations and return customer validity
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 817
+* This method is defined in [classes/Customer.php line 817](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#817)
 
 
 #### Arguments
@@ -1163,7 +1164,7 @@ Logout
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 832
+* This method is defined in [classes/Customer.php line 832](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#832)
 
 
 
@@ -1178,7 +1179,7 @@ but leave there affiliate's informations
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 851
+* This method is defined in [classes/Customer.php line 851](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#851)
 
 
 
@@ -1192,7 +1193,7 @@ but leave there affiliate's informations
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 864
+* This method is defined in [classes/Customer.php line 864](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#864)
 
 
 #### Arguments
@@ -1209,7 +1210,7 @@ but leave there affiliate's informations
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 875
+* This method is defined in [classes/Customer.php line 875](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#875)
 
 
 
@@ -1223,7 +1224,7 @@ but leave there affiliate's informations
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 897
+* This method is defined in [classes/Customer.php line 897](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#897)
 
 
 
@@ -1237,7 +1238,7 @@ but leave there affiliate's informations
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 907
+* This method is defined in [classes/Customer.php line 907](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#907)
 
 
 #### Arguments
@@ -1254,7 +1255,7 @@ but leave there affiliate's informations
 
 
 * Visibility: **public**
-* This method is defined in classes\Customer.php line 921
+* This method is defined in [classes/Customer.php line 921](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Customer.php#921)
 
 
 #### Arguments

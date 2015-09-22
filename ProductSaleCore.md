@@ -8,7 +8,8 @@ ProductSaleCore
 
 * Class name: ProductSaleCore
 * Namespace: 
-* This class is defined in classes\ProductSale.php line 27
+
+* This class is defined in [classes/ProductSale.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#27)
 
 
 
@@ -30,7 +31,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductSale.php line 33
+* This method is defined in [classes/ProductSale.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#33)
 
 
 
@@ -45,7 +46,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductSale.php line 46
+* This method is defined in [classes/ProductSale.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#46)
 
 
 
@@ -60,7 +61,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductSale.php line 64
+* This method is defined in [classes/ProductSale.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#64)
 
 
 #### Arguments
@@ -82,7 +83,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductSale.php line 159
+* This method is defined in [classes/ProductSale.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#159)
 
 
 #### Arguments
@@ -103,7 +104,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductSale.php line 219
+* This method is defined in [classes/ProductSale.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#219)
 
 
 #### Arguments
@@ -122,7 +123,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductSale.php line 228
+* This method is defined in [classes/ProductSale.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#228)
 
 
 #### Arguments
@@ -140,7 +141,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductSale.php line 237
+* This method is defined in [classes/ProductSale.php line 237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductSale.php#237)
 
 
 #### Arguments

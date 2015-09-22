@@ -9,7 +9,8 @@ AdminImagesControllerCore
 * Class name: AdminImagesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminImagesController.php line 30
+
+* This class is defined in [controllers/admin/AdminImagesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminImagesController.php line 32
+* This property is defined in [controllers/admin/AdminImagesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#32)
 
 
 ### $max_execution_time
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminImagesController.php line 33
+* This property is defined in [controllers/admin/AdminImagesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#33)
 
 
 ### $display_move
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminImagesController.php line 34
+* This property is defined in [controllers/admin/AdminImagesController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#34)
 
 
 ### $object
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminImagesController.php line 30
+* This property is defined in [controllers/admin/AdminImagesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#30)
 
 
 Methods
@@ -80,7 +81,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminImagesController.php line 36
+* This method is defined in [controllers/admin/AdminImagesController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#36)
 
 
 
@@ -94,7 +95,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminImagesController.php line 360
+* This method is defined in [controllers/admin/AdminImagesController.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#360)
 
 
 
@@ -109,7 +110,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminImagesController.php line 407
+* This method is defined in [controllers/admin/AdminImagesController.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#407)
 
 
 #### Arguments
@@ -127,7 +128,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminImagesController.php line 412
+* This method is defined in [controllers/admin/AdminImagesController.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#412)
 
 
 
@@ -141,7 +142,7 @@ Init display for the thumbnails regeneration block
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminImagesController.php line 422
+* This method is defined in [controllers/admin/AdminImagesController.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#422)
 
 
 
@@ -155,7 +156,7 @@ Delete resized image then regenerate new one with updated settings
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminImagesController.php line 453
+* This method is defined in [controllers/admin/AdminImagesController.php line 453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#453)
 
 
 #### Arguments
@@ -174,7 +175,7 @@ Regenerate images
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminImagesController.php line 502
+* This method is defined in [controllers/admin/AdminImagesController.php line 502](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#502)
 
 
 #### Arguments
@@ -193,7 +194,7 @@ Regenerate no-pictures images
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminImagesController.php line 581
+* This method is defined in [controllers/admin/AdminImagesController.php line 581](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#581)
 
 
 #### Arguments
@@ -212,7 +213,7 @@ Regenerate no-pictures images
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminImagesController.php line 609
+* This method is defined in [controllers/admin/AdminImagesController.php line 609](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#609)
 
 
 #### Arguments
@@ -230,7 +231,7 @@ Regenerate no-pictures images
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminImagesController.php line 637
+* This method is defined in [controllers/admin/AdminImagesController.php line 637](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#637)
 
 
 #### Arguments
@@ -248,7 +249,7 @@ Init display for move images block
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminImagesController.php line 700
+* This method is defined in [controllers/admin/AdminImagesController.php line 700](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#700)
 
 
 
@@ -262,7 +263,7 @@ Init display for move images block
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminImagesController.php line 708
+* This method is defined in [controllers/admin/AdminImagesController.php line 708](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#708)
 
 
 
@@ -276,7 +277,7 @@ Move product images to the new filesystem
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminImagesController.php line 724
+* This method is defined in [controllers/admin/AdminImagesController.php line 724](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#724)
 
 
 
@@ -290,7 +291,7 @@ Move product images to the new filesystem
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminImagesController.php line 741
+* This method is defined in [controllers/admin/AdminImagesController.php line 741](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImagesController.php#741)
 
 
 

@@ -9,7 +9,8 @@ ConnectionCore
 * Class name: ConnectionCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Connection.php line 27
+
+* This class is defined in [classes/Connection.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Connection.php line 30
+* This property is defined in [classes/Connection.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#30)
 
 
 ### $id_page
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Connection.php line 33
+* This property is defined in [classes/Connection.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#33)
 
 
 ### $ip_address
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Connection.php line 36
+* This property is defined in [classes/Connection.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#36)
 
 
 ### $http_referer
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Connection.php line 39
+* This property is defined in [classes/Connection.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#39)
 
 
 ### $id_shop
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Connection.php line 42
+* This property is defined in [classes/Connection.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#42)
 
 
 ### $id_shop_group
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Connection.php line 45
+* This property is defined in [classes/Connection.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#45)
 
 
 ### $date_add
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Connection.php line 48
+* This property is defined in [classes/Connection.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#48)
 
 
 ### $definition
@@ -113,7 +114,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Connection.php line 53
+* This property is defined in [classes/Connection.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#53)
 
 
 Methods
@@ -129,7 +130,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Connection.php line 71
+* This method is defined in [classes/Connection.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#71)
 
 
 
@@ -144,7 +145,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Connection.php line 81
+* This method is defined in [classes/Connection.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#81)
 
 
 #### Arguments
@@ -163,7 +164,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Connection.php line 115
+* This method is defined in [classes/Connection.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#115)
 
 
 #### Arguments
@@ -181,7 +182,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Connection.php line 164
+* This method is defined in [classes/Connection.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#164)
 
 
 #### Arguments
@@ -202,7 +203,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Connection.php line 184
+* This method is defined in [classes/Connection.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#184)
 
 
 

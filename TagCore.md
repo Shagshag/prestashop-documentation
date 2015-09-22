@@ -9,7 +9,8 @@ TagCore
 * Class name: TagCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Tag.php line 27
+
+* This class is defined in [classes/Tag.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Tag.php line 30
+* This property is defined in [classes/Tag.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#30)
 
 
 ### $name
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Tag.php line 33
+* This property is defined in [classes/Tag.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#33)
 
 
 ### $definition
@@ -53,7 +54,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Tag.php line 38
+* This property is defined in [classes/Tag.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#38)
 
 
 ### $webserviceParameters
@@ -65,7 +66,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Tag.php line 48
+* This property is defined in [classes/Tag.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#48)
 
 
 Methods
@@ -81,7 +82,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Tag.php line 54
+* This method is defined in [classes/Tag.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#54)
 
 
 #### Arguments
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Tag.php line 75
+* This method is defined in [classes/Tag.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#75)
 
 
 #### Arguments
@@ -119,7 +120,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tag.php line 93
+* This method is defined in [classes/Tag.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#93)
 
 
 #### Arguments
@@ -140,7 +141,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tag.php line 138
+* This method is defined in [classes/Tag.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#138)
 
 
 
@@ -155,7 +156,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tag.php line 170
+* This method is defined in [classes/Tag.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#170)
 
 
 #### Arguments
@@ -174,7 +175,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tag.php line 194
+* This method is defined in [classes/Tag.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#194)
 
 
 #### Arguments
@@ -191,7 +192,7 @@ Add several tags in database and link it to a product
 
 
 * Visibility: **public**
-* This method is defined in classes\Tag.php line 210
+* This method is defined in [classes/Tag.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#210)
 
 
 #### Arguments
@@ -209,7 +210,7 @@ Add several tags in database and link it to a product
 
 
 * Visibility: **public**
-* This method is defined in classes\Tag.php line 233
+* This method is defined in [classes/Tag.php line 233](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#233)
 
 
 #### Arguments
@@ -227,7 +228,7 @@ Add several tags in database and link it to a product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tag.php line 255
+* This method is defined in [classes/Tag.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tag.php#255)
 
 
 #### Arguments

@@ -11,7 +11,8 @@ Import module management
 * Namespace: 
 * This is an **abstract** class
 * Parent class: [Module](ModuleCore)
-* This class is defined in classes\module\ImportModule.php line 34
+
+* This class is defined in [classes/module/ImportModule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#34)
 
 
 
@@ -30,7 +31,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ImportModule.php line 36
+* This property is defined in [classes/module/ImportModule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#36)
 
 
 ### $server
@@ -42,7 +43,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\ImportModule.php line 38
+* This property is defined in [classes/module/ImportModule.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#38)
 
 
 ### $user
@@ -54,7 +55,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\ImportModule.php line 40
+* This property is defined in [classes/module/ImportModule.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#40)
 
 
 ### $passwd
@@ -66,7 +67,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\ImportModule.php line 42
+* This property is defined in [classes/module/ImportModule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#42)
 
 
 ### $database
@@ -78,7 +79,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\ImportModule.php line 44
+* This property is defined in [classes/module/ImportModule.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#44)
 
 
 ### $prefix
@@ -90,7 +91,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\ImportModule.php line 47
+* This property is defined in [classes/module/ImportModule.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#47)
 
 
 Methods
@@ -106,7 +107,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ImportModule.php line 50
+* This method is defined in [classes/module/ImportModule.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#50)
 
 
 
@@ -120,7 +121,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\ImportModule.php line 57
+* This method is defined in [classes/module/ImportModule.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#57)
 
 
 
@@ -134,7 +135,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ImportModule.php line 75
+* This method is defined in [classes/module/ImportModule.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#75)
 
 
 #### Arguments
@@ -151,7 +152,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ImportModule.php line 88
+* This method is defined in [classes/module/ImportModule.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#88)
 
 
 #### Arguments
@@ -168,7 +169,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ImportModule.php line 94
+* This method is defined in [classes/module/ImportModule.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#94)
 
 
 #### Arguments
@@ -186,7 +187,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\ImportModule.php line 105
+* This method is defined in [classes/module/ImportModule.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#105)
 
 
 
@@ -201,7 +202,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\module\ImportModule.php line 116
+* This method is defined in [classes/module/ImportModule.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ImportModule.php#116)
 
 
 

@@ -9,7 +9,8 @@ AdminCustomersControllerCore
 * Class name: AdminCustomersControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminCustomersController.php line 30
+
+* This class is defined in [controllers/admin/AdminCustomersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminCustomersController.php line 32
+* This property is defined in [controllers/admin/AdminCustomersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#32)
 
 
 ### $_defaultOrderBy
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminCustomersController.php line 34
+* This property is defined in [controllers/admin/AdminCustomersController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#34)
 
 
 ### $_defaultOrderWay
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminCustomersController.php line 35
+* This property is defined in [controllers/admin/AdminCustomersController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#35)
 
 
 ### $can_add_customer
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminCustomersController.php line 36
+* This property is defined in [controllers/admin/AdminCustomersController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#36)
 
 
 ### $meaning_status
@@ -77,7 +78,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in controllers\admin\AdminCustomersController.php line 37
+* This property is defined in [controllers/admin/AdminCustomersController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#37)
 
 
 ### $object
@@ -89,7 +90,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminCustomersController.php line 30
+* This property is defined in [controllers/admin/AdminCustomersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#30)
 
 
 Methods
@@ -105,7 +106,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 39
+* This method is defined in [controllers/admin/AdminCustomersController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#39)
 
 
 
@@ -119,7 +120,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 186
+* This method is defined in [controllers/admin/AdminCustomersController.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#186)
 
 
 
@@ -133,7 +134,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 195
+* This method is defined in [controllers/admin/AdminCustomersController.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#195)
 
 
 
@@ -147,7 +148,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 212
+* This method is defined in [controllers/admin/AdminCustomersController.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#212)
 
 
 
@@ -161,7 +162,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 226
+* This method is defined in [controllers/admin/AdminCustomersController.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#226)
 
 
 #### Arguments
@@ -183,7 +184,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 238
+* This method is defined in [controllers/admin/AdminCustomersController.php line 238](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#238)
 
 
 
@@ -197,7 +198,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 273
+* This method is defined in [controllers/admin/AdminCustomersController.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#273)
 
 
 
@@ -211,7 +212,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 286
+* This method is defined in [controllers/admin/AdminCustomersController.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#286)
 
 
 
@@ -225,7 +226,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 320
+* This method is defined in [controllers/admin/AdminCustomersController.php line 320](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#320)
 
 
 
@@ -239,7 +240,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 333
+* This method is defined in [controllers/admin/AdminCustomersController.php line 333](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#333)
 
 
 
@@ -253,7 +254,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 626
+* This method is defined in [controllers/admin/AdminCustomersController.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#626)
 
 
 #### Arguments
@@ -270,7 +271,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 631
+* This method is defined in [controllers/admin/AdminCustomersController.php line 631](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#631)
 
 
 
@@ -284,7 +285,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 695
+* This method is defined in [controllers/admin/AdminCustomersController.php line 695](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#695)
 
 
 
@@ -298,7 +299,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 876
+* This method is defined in [controllers/admin/AdminCustomersController.php line 876](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#876)
 
 
 
@@ -312,7 +313,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCustomersController.php line 882
+* This method is defined in [controllers/admin/AdminCustomersController.php line 882](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#882)
 
 
 
@@ -326,7 +327,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCustomersController.php line 894
+* This method is defined in [controllers/admin/AdminCustomersController.php line 894](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#894)
 
 
 
@@ -340,7 +341,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 900
+* This method is defined in [controllers/admin/AdminCustomersController.php line 900](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#900)
 
 
 
@@ -354,7 +355,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 926
+* This method is defined in [controllers/admin/AdminCustomersController.php line 926](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#926)
 
 
 
@@ -368,7 +369,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 949
+* This method is defined in [controllers/admin/AdminCustomersController.php line 949](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#949)
 
 
 
@@ -382,7 +383,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCustomersController.php line 963
+* This method is defined in [controllers/admin/AdminCustomersController.php line 963](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#963)
 
 
 #### Arguments
@@ -400,7 +401,7 @@ Transform a guest account into a registered customer account
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 977
+* This method is defined in [controllers/admin/AdminCustomersController.php line 977](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#977)
 
 
 
@@ -414,7 +415,7 @@ Toggle the newsletter flag
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 999
+* This method is defined in [controllers/admin/AdminCustomersController.php line 999](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#999)
 
 
 
@@ -428,7 +429,7 @@ Toggle newsletter optin flag
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 1015
+* This method is defined in [controllers/admin/AdminCustomersController.php line 1015](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#1015)
 
 
 
@@ -442,7 +443,7 @@ Toggle newsletter optin flag
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 1028
+* This method is defined in [controllers/admin/AdminCustomersController.php line 1028](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#1028)
 
 
 #### Arguments
@@ -460,7 +461,7 @@ Toggle newsletter optin flag
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 1036
+* This method is defined in [controllers/admin/AdminCustomersController.php line 1036](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#1036)
 
 
 #### Arguments
@@ -478,7 +479,7 @@ Toggle newsletter optin flag
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 1050
+* This method is defined in [controllers/admin/AdminCustomersController.php line 1050](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#1050)
 
 
 #### Arguments
@@ -498,7 +499,7 @@ add to $this->content the result of Customer::SearchByName
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 1074
+* This method is defined in [controllers/admin/AdminCustomersController.php line 1074](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#1074)
 
 
 
@@ -512,7 +513,7 @@ Uodate the customer note
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCustomersController.php line 1106
+* This method is defined in [controllers/admin/AdminCustomersController.php line 1106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCustomersController.php#1106)
 
 
 

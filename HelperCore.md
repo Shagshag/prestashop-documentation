@@ -8,7 +8,8 @@ HelperCore
 
 * Class name: HelperCore
 * Namespace: 
-* This class is defined in classes\helper\Helper.php line 27
+
+* This class is defined in [classes/helper/Helper.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#27)
 
 
 
@@ -27,7 +28,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 29
+* This property is defined in [classes/helper/Helper.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#29)
 
 
 ### $table
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 30
+* This property is defined in [classes/helper/Helper.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#30)
 
 
 ### $identifier
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 31
+* This property is defined in [classes/helper/Helper.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#31)
 
 
 ### $token
@@ -63,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 32
+* This property is defined in [classes/helper/Helper.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#32)
 
 
 ### $toolbar_btn
@@ -75,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 33
+* This property is defined in [classes/helper/Helper.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#33)
 
 
 ### $ps_help_context
@@ -87,7 +88,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 34
+* This property is defined in [classes/helper/Helper.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#34)
 
 
 ### $title
@@ -99,7 +100,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 35
+* This property is defined in [classes/helper/Helper.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#35)
 
 
 ### $show_toolbar
@@ -111,7 +112,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 36
+* This property is defined in [classes/helper/Helper.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#36)
 
 
 ### $context
@@ -123,7 +124,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 37
+* This property is defined in [classes/helper/Helper.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#37)
 
 
 ### $toolbar_scroll
@@ -135,7 +136,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 38
+* This property is defined in [classes/helper/Helper.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#38)
 
 
 ### $bootstrap
@@ -147,7 +148,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 39
+* This property is defined in [classes/helper/Helper.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#39)
 
 
 ### $module
@@ -159,7 +160,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 44
+* This property is defined in [classes/helper/Helper.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#44)
 
 
 ### $base_folder
@@ -171,7 +172,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 47
+* This property is defined in [classes/helper/Helper.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#47)
 
 
 ### $override_folder
@@ -183,7 +184,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 50
+* This property is defined in [classes/helper/Helper.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#50)
 
 
 ### $tpl
@@ -195,7 +196,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\Helper.php line 55
+* This property is defined in [classes/helper/Helper.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#55)
 
 
 ### $base_tpl
@@ -207,7 +208,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 60
+* This property is defined in [classes/helper/Helper.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#60)
 
 
 ### $tpl_vars
@@ -219,7 +220,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\Helper.php line 62
+* This property is defined in [classes/helper/Helper.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#62)
 
 
 Methods
@@ -235,7 +236,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\Helper.php line 64
+* This method is defined in [classes/helper/Helper.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#64)
 
 
 
@@ -249,7 +250,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\Helper.php line 69
+* This method is defined in [classes/helper/Helper.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#69)
 
 
 #### Arguments
@@ -266,7 +267,7 @@ Create a template from the override file, else from the base file.
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\Helper.php line 80
+* This method is defined in [classes/helper/Helper.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#80)
 
 
 #### Arguments
@@ -283,7 +284,7 @@ default behaviour for helper is to return a tpl fetched
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\Helper.php line 110
+* This method is defined in [classes/helper/Helper.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#110)
 
 
 
@@ -298,7 +299,7 @@ default behaviour for helper is to return a tpl fetched
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\helper\Helper.php line 119
+* This method is defined in [classes/helper/Helper.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#119)
 
 
 #### Arguments
@@ -321,7 +322,7 @@ default behaviour for helper is to return a tpl fetched
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\Helper.php line 166
+* This method is defined in [classes/helper/Helper.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#166)
 
 
 #### Arguments
@@ -358,7 +359,7 @@ use translations files to replace english expression.
 
 
 * Visibility: **protected**
-* This method is defined in classes\helper\Helper.php line 299
+* This method is defined in [classes/helper/Helper.php line 299](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#299)
 
 
 #### Arguments
@@ -378,7 +379,7 @@ Render a form with potentials required fields
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\Helper.php line 318
+* This method is defined in [classes/helper/Helper.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#318)
 
 
 #### Arguments
@@ -397,7 +398,7 @@ Render a form with potentials required fields
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\Helper.php line 350
+* This method is defined in [classes/helper/Helper.php line 350](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#350)
 
 
 #### Arguments
@@ -415,7 +416,7 @@ Render shop list
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\helper\Helper.php line 374
+* This method is defined in [classes/helper/Helper.php line 374](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/Helper.php#374)
 
 
 

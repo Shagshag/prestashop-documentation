@@ -8,7 +8,8 @@ WebserviceOutputXMLCore
 
 * Class name: WebserviceOutputXMLCore
 * Namespace: 
-* This class implements: [WebserviceOutputInterface](WebserviceOutputInterface)* This class is defined in classes\webservice\WebserviceOutputXML.php line 27
+* This class implements: [WebserviceOutputInterface](WebserviceOutputInterface)
+* This class is defined in [classes/webservice/WebserviceOutputXML.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#27)
 
 
 
@@ -27,7 +28,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceOutputXML.php line 29
+* This property is defined in [classes/webservice/WebserviceOutputXML.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#29)
 
 
 ### $languages
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceOutputXML.php line 30
+* This property is defined in [classes/webservice/WebserviceOutputXML.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#30)
 
 
 ### $wsUrl
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceOutputXML.php line 31
+* This property is defined in [classes/webservice/WebserviceOutputXML.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#31)
 
 
 ### $schemaToDisplay
@@ -63,7 +64,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceOutputXML.php line 32
+* This property is defined in [classes/webservice/WebserviceOutputXML.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#32)
 
 
 Methods
@@ -80,7 +81,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 33
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#33)
 
 
 #### Arguments
@@ -98,7 +99,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 34
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#34)
 
 
 
@@ -113,7 +114,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 30
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#30)
 
 
 #### Arguments
@@ -131,7 +132,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 31
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#31)
 
 
 
@@ -146,7 +147,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 32
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#32)
 
 
 
@@ -161,7 +162,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 29
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#29)
 
 
 #### Arguments
@@ -178,7 +179,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 64
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#64)
 
 
 #### Arguments
@@ -196,7 +197,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 41
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#41)
 
 
 
@@ -211,7 +212,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 42
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#42)
 
 
 
@@ -226,7 +227,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 43
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#43)
 
 
 #### Arguments
@@ -245,7 +246,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 35
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#35)
 
 
 #### Arguments
@@ -263,7 +264,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 36
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#36)
 
 
 #### Arguments
@@ -282,7 +283,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 162
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#162)
 
 
 #### Arguments
@@ -300,7 +301,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 37
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#37)
 
 
 #### Arguments
@@ -319,7 +320,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 40
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#40)
 
 
 #### Arguments
@@ -336,7 +337,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 182
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#182)
 
 
 
@@ -350,7 +351,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 186
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#186)
 
 
 
@@ -365,7 +366,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 38
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#38)
 
 
 #### Arguments
@@ -385,7 +386,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceOutputInterface](WebserviceOutputInterface)
-* This method is defined in classes\webservice\WebserviceOutputXML.php line 39
+* This method is defined in [classes/webservice/WebserviceOutputXML.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#39)
 
 
 #### Arguments

@@ -9,7 +9,8 @@ AdminSpecificPriceRuleControllerCore
 * Class name: AdminSpecificPriceRuleControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminSpecificPriceRuleController.php line 30
+
+* This class is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminSpecificPriceRuleController.php line 32
+* This property is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#32)
 
 
 ### $object
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminSpecificPriceRuleController.php line 30
+* This property is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSpecificPriceRuleController.php line 34
+* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#34)
 
 
 
@@ -70,7 +71,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSpecificPriceRuleController.php line 136
+* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#136)
 
 
 
@@ -84,7 +85,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSpecificPriceRuleController.php line 149
+* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#149)
 
 
 #### Arguments
@@ -106,7 +107,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSpecificPriceRuleController.php line 162
+* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#162)
 
 
 
@@ -120,7 +121,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSpecificPriceRuleController.php line 345
+* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#345)
 
 
 
@@ -134,7 +135,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSpecificPriceRuleController.php line 366
+* This method is defined in [controllers/admin/AdminSpecificPriceRuleController.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSpecificPriceRuleController.php#366)
 
 
 

@@ -9,7 +9,8 @@ AdminInvoicesControllerCore
 * Class name: AdminInvoicesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminInvoicesController.php line 27
+
+* This class is defined in [controllers/admin/AdminInvoicesController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#27)
 
 
 
@@ -30,7 +31,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInvoicesController.php line 29
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#29)
 
 
 
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInvoicesController.php line 104
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#104)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInvoicesController.php line 148
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#148)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInvoicesController.php line 199
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#199)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInvoicesController.php line 219
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#219)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInvoicesController.php line 224
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#224)
 
 
 
@@ -114,7 +115,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInvoicesController.php line 230
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 230](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#230)
 
 
 
@@ -128,7 +129,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInvoicesController.php line 265
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 265](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#265)
 
 
 
@@ -142,7 +143,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminInvoicesController.php line 272
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#272)
 
 
 
@@ -156,7 +157,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminInvoicesController.php line 291
+* This method is defined in [controllers/admin/AdminInvoicesController.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInvoicesController.php#291)
 
 
 #### Arguments

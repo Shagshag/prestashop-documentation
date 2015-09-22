@@ -9,7 +9,8 @@ OrderHistoryCore
 * Class name: OrderHistoryCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\order\OrderHistory.php line 27
+
+* This class is defined in [classes/order/OrderHistory.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderHistory.php line 30
+* This property is defined in [classes/order/OrderHistory.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#30)
 
 
 ### $id_order_state
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderHistory.php line 33
+* This property is defined in [classes/order/OrderHistory.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#33)
 
 
 ### $id_employee
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderHistory.php line 36
+* This property is defined in [classes/order/OrderHistory.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#36)
 
 
 ### $date_add
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderHistory.php line 39
+* This property is defined in [classes/order/OrderHistory.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#39)
 
 
 ### $date_upd
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderHistory.php line 42
+* This property is defined in [classes/order/OrderHistory.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#42)
 
 
 ### $definition
@@ -89,7 +90,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\order\OrderHistory.php line 47
+* This property is defined in [classes/order/OrderHistory.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#47)
 
 
 ### $webserviceParameters
@@ -101,7 +102,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\order\OrderHistory.php line 61
+* This property is defined in [classes/order/OrderHistory.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#61)
 
 
 Methods
@@ -117,7 +118,7 @@ Sets the new state of the given order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderHistory.php line 80
+* This method is defined in [classes/order/OrderHistory.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#80)
 
 
 #### Arguments
@@ -137,7 +138,7 @@ Returns the last order status
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderHistory.php line 371
+* This method is defined in [classes/order/OrderHistory.php line 371](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#371)
 
 
 #### Arguments
@@ -154,7 +155,7 @@ Returns the last order status
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderHistory.php line 395
+* This method is defined in [classes/order/OrderHistory.php line 395](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#395)
 
 
 #### Arguments
@@ -173,7 +174,7 @@ Returns the last order status
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderHistory.php line 410
+* This method is defined in [classes/order/OrderHistory.php line 410](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#410)
 
 
 #### Arguments
@@ -191,7 +192,7 @@ Returns the last order status
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderHistory.php line 480
+* This method is defined in [classes/order/OrderHistory.php line 480](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#480)
 
 
 #### Arguments
@@ -209,7 +210,7 @@ Returns the last order status
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderHistory.php line 499
+* This method is defined in [classes/order/OrderHistory.php line 499](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#499)
 
 
 
@@ -224,7 +225,7 @@ If sendemail=1 GET parameter is present sends email to customer otherwise does n
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderHistory.php line 514
+* This method is defined in [classes/order/OrderHistory.php line 514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderHistory.php#514)
 
 
 

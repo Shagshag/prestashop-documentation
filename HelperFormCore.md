@@ -9,7 +9,8 @@ HelperFormCore
 * Class name: HelperFormCore
 * Namespace: 
 * Parent class: [Helper](HelperCore)
-* This class is defined in classes\helper\HelperForm.php line 30
+
+* This class is defined in [classes/helper/HelperForm.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperForm.php line 32
+* This property is defined in [classes/helper/HelperForm.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#32)
 
 
 ### $first_call
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperForm.php line 33
+* This property is defined in [classes/helper/HelperForm.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#33)
 
 
 ### $fields_form
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperForm.php line 36
+* This property is defined in [classes/helper/HelperForm.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#36)
 
 
 ### $fields_value
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperForm.php line 39
+* This property is defined in [classes/helper/HelperForm.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#39)
 
 
 ### $name_controller
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperForm.php line 40
+* This property is defined in [classes/helper/HelperForm.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#40)
 
 
 ### $title
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperForm.php line 43
+* This property is defined in [classes/helper/HelperForm.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#43)
 
 
 ### $submit_action
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperForm.php line 46
+* This property is defined in [classes/helper/HelperForm.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#46)
 
 
 ### $token
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperForm.php line 48
+* This property is defined in [classes/helper/HelperForm.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#48)
 
 
 ### $languages
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperForm.php line 49
+* This property is defined in [classes/helper/HelperForm.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#49)
 
 
 ### $default_form_language
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperForm.php line 50
+* This property is defined in [classes/helper/HelperForm.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#50)
 
 
 ### $allow_employee_form_lang
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperForm.php line 51
+* This property is defined in [classes/helper/HelperForm.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#51)
 
 
 ### $show_cancel_button
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperForm.php line 52
+* This property is defined in [classes/helper/HelperForm.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#52)
 
 
 ### $back_url
@@ -172,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperForm.php line 53
+* This property is defined in [classes/helper/HelperForm.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#53)
 
 
 Methods
@@ -188,7 +189,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperForm.php line 55
+* This method is defined in [classes/helper/HelperForm.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#55)
 
 
 
@@ -202,7 +203,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperForm.php line 62
+* This method is defined in [classes/helper/HelperForm.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#62)
 
 
 #### Arguments
@@ -219,7 +220,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperForm.php line 68
+* This method is defined in [classes/helper/HelperForm.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#68)
 
 
 
@@ -233,7 +234,7 @@ Return true if there are required fields
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperForm.php line 260
+* This method is defined in [classes/helper/HelperForm.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#260)
 
 
 
@@ -247,7 +248,7 @@ Render an area to determinate shop association
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperForm.php line 279
+* This method is defined in [classes/helper/HelperForm.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#279)
 
 
 #### Arguments

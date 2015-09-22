@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Business_Stock_StockManager
 * Namespace: 
-* This class is defined in Core\Business\Stock\Core_Business_Stock_StockManager.php line 27
+
+* This class is defined in [Core/Business/Stock/Core_Business_Stock_StockManager.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Stock/Core_Business_Stock_StockManager.php#27)
 
 
 
@@ -43,7 +44,7 @@ This will update a Pack quantity and will decrease the quantity of containing Pr
 
 
 * Visibility: **public**
-* This method is defined in Core\Business\Stock\Core_Business_Stock_StockManager.php line 37
+* This method is defined in [Core/Business/Stock/Core_Business_Stock_StockManager.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Stock/Core_Business_Stock_StockManager.php#37)
 
 
 #### Arguments
@@ -64,7 +65,7 @@ This will decrease (if needed) Packs containing this product
 
 
 * Visibility: **public**
-* This method is defined in Core\Business\Stock\Core_Business_Stock_StockManager.php line 72
+* This method is defined in [Core/Business/Stock/Core_Business_Stock_StockManager.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Stock/Core_Business_Stock_StockManager.php#72)
 
 
 #### Arguments
@@ -84,7 +85,7 @@ Will update Product available stock int he given declinaison. If product is a Pa
 If Product is contained in a Pack, Pack could be decreased or not (only if sub product stocks become not sufficient).
 
 * Visibility: **public**
-* This method is defined in Core\Business\Stock\Core_Business_Stock_StockManager.php line 112
+* This method is defined in [Core/Business/Stock/Core_Business_Stock_StockManager.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Stock/Core_Business_Stock_StockManager.php#112)
 
 
 #### Arguments

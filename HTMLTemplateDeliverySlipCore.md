@@ -9,7 +9,8 @@ HTMLTemplateDeliverySlipCore
 * Class name: HTMLTemplateDeliverySlipCore
 * Namespace: 
 * Parent class: [HTMLTemplate](HTMLTemplateCore)
-* This class is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 30
+
+* This class is defined in [classes/pdf/HTMLTemplateDeliverySlip.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateDeliverySlip.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 32
+* This property is defined in [classes/pdf/HTMLTemplateDeliverySlip.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateDeliverySlip.php#32)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 39
+* This method is defined in [classes/pdf/HTMLTemplateDeliverySlip.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateDeliverySlip.php#39)
 
 
 #### Arguments
@@ -63,7 +64,7 @@ Returns the template's HTML header
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 69
+* This method is defined in [classes/pdf/HTMLTemplateDeliverySlip.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateDeliverySlip.php#69)
 
 
 
@@ -77,7 +78,7 @@ Returns the template's HTML content
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 82
+* This method is defined in [classes/pdf/HTMLTemplateDeliverySlip.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateDeliverySlip.php#82)
 
 
 
@@ -91,7 +92,7 @@ Returns the template filename when using bulk rendering
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 146
+* This method is defined in [classes/pdf/HTMLTemplateDeliverySlip.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateDeliverySlip.php#146)
 
 
 
@@ -105,7 +106,7 @@ Returns the template filename
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateDeliverySlip.php line 156
+* This method is defined in [classes/pdf/HTMLTemplateDeliverySlip.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateDeliverySlip.php#156)
 
 
 

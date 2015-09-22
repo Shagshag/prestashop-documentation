@@ -9,7 +9,8 @@ CompareControllerCore
 * Class name: CompareControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\CompareController.php line 27
+
+* This class is defined in [controllers/front/CompareController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\CompareController.php line 29
+* This property is defined in [controllers/front/CompareController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#29)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\CompareController.php line 31
+* This method is defined in [controllers/front/CompareController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#31)
 
 
 
@@ -58,7 +59,7 @@ Display ajax content (this function is called instead of classic display, in aja
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\CompareController.php line 40
+* This method is defined in [controllers/front/CompareController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#40)
 
 
 
@@ -72,7 +73,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\CompareController.php line 69
+* This method is defined in [controllers/front/CompareController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CompareController.php#69)
 
 
 

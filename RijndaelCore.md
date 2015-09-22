@@ -8,7 +8,8 @@ RijndaelCore
 
 * Class name: RijndaelCore
 * Namespace: 
-* This class is defined in classes\Rijndael.php line 27
+
+* This class is defined in [classes/Rijndael.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#27)
 
 
 
@@ -27,7 +28,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Rijndael.php line 29
+* This property is defined in [classes/Rijndael.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#29)
 
 
 ### $_iv
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Rijndael.php line 30
+* This property is defined in [classes/Rijndael.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#30)
 
 
 Methods
@@ -55,7 +56,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Rijndael.php line 32
+* This method is defined in [classes/Rijndael.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#32)
 
 
 #### Arguments
@@ -73,7 +74,7 @@ Base64 is not required, but it is be more compact than urlencode
 
 
 * Visibility: **public**
-* This method is defined in classes\Rijndael.php line 44
+* This method is defined in [classes/Rijndael.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#44)
 
 
 #### Arguments
@@ -90,7 +91,7 @@ Base64 is not required, but it is be more compact than urlencode
 
 
 * Visibility: **public**
-* This method is defined in classes\Rijndael.php line 54
+* This method is defined in [classes/Rijndael.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Rijndael.php#54)
 
 
 #### Arguments

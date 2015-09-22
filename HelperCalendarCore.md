@@ -9,7 +9,8 @@ HelperCalendarCore
 * Class name: HelperCalendarCore
 * Namespace: 
 * Parent class: [Helper](HelperCore)
-* This class is defined in classes\helper\HelperCalendar.php line 27
+
+* This class is defined in [classes/helper/HelperCalendar.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#27)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\helper\HelperCalendar.php line 29
+* This constant is defined in [classes/helper/HelperCalendar.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#29)
 
 
 ### DEFAULT_COMPARE_OPTION
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in classes\helper\HelperCalendar.php line 30
+* This constant is defined in [classes/helper/HelperCalendar.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#30)
 
 
 Properties
@@ -48,7 +49,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperCalendar.php line 32
+* This property is defined in [classes/helper/HelperCalendar.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#32)
 
 
 ### $_compare_actions
@@ -60,7 +61,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperCalendar.php line 33
+* This property is defined in [classes/helper/HelperCalendar.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#33)
 
 
 ### $_compare_date_from
@@ -72,7 +73,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperCalendar.php line 34
+* This property is defined in [classes/helper/HelperCalendar.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#34)
 
 
 ### $_compare_date_to
@@ -84,7 +85,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperCalendar.php line 35
+* This property is defined in [classes/helper/HelperCalendar.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#35)
 
 
 ### $_compare_date_option
@@ -96,7 +97,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperCalendar.php line 36
+* This property is defined in [classes/helper/HelperCalendar.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#36)
 
 
 ### $_date_format
@@ -108,7 +109,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperCalendar.php line 37
+* This property is defined in [classes/helper/HelperCalendar.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#37)
 
 
 ### $_date_from
@@ -120,7 +121,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperCalendar.php line 38
+* This property is defined in [classes/helper/HelperCalendar.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#38)
 
 
 ### $_date_to
@@ -132,7 +133,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperCalendar.php line 39
+* This property is defined in [classes/helper/HelperCalendar.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#39)
 
 
 ### $_rtl
@@ -144,7 +145,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperCalendar.php line 40
+* This property is defined in [classes/helper/HelperCalendar.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#40)
 
 
 Methods
@@ -160,7 +161,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 42
+* This method is defined in [classes/helper/HelperCalendar.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#42)
 
 
 
@@ -174,7 +175,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 49
+* This method is defined in [classes/helper/HelperCalendar.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#49)
 
 
 #### Arguments
@@ -191,7 +192,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 59
+* This method is defined in [classes/helper/HelperCalendar.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#59)
 
 
 
@@ -205,7 +206,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 68
+* This method is defined in [classes/helper/HelperCalendar.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#68)
 
 
 #### Arguments
@@ -222,7 +223,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 78
+* This method is defined in [classes/helper/HelperCalendar.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#78)
 
 
 
@@ -236,7 +237,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 87
+* This method is defined in [classes/helper/HelperCalendar.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#87)
 
 
 #### Arguments
@@ -253,7 +254,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 93
+* This method is defined in [classes/helper/HelperCalendar.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#93)
 
 
 
@@ -267,7 +268,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 98
+* This method is defined in [classes/helper/HelperCalendar.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#98)
 
 
 #### Arguments
@@ -284,7 +285,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 104
+* This method is defined in [classes/helper/HelperCalendar.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#104)
 
 
 
@@ -298,7 +299,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 109
+* This method is defined in [classes/helper/HelperCalendar.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#109)
 
 
 #### Arguments
@@ -315,7 +316,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 115
+* This method is defined in [classes/helper/HelperCalendar.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#115)
 
 
 
@@ -329,7 +330,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 124
+* This method is defined in [classes/helper/HelperCalendar.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#124)
 
 
 #### Arguments
@@ -346,7 +347,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 134
+* This method is defined in [classes/helper/HelperCalendar.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#134)
 
 
 
@@ -360,7 +361,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 143
+* This method is defined in [classes/helper/HelperCalendar.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#143)
 
 
 #### Arguments
@@ -377,7 +378,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 157
+* This method is defined in [classes/helper/HelperCalendar.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#157)
 
 
 
@@ -391,7 +392,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 166
+* This method is defined in [classes/helper/HelperCalendar.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#166)
 
 
 #### Arguments
@@ -408,7 +409,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 180
+* This method is defined in [classes/helper/HelperCalendar.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#180)
 
 
 
@@ -422,7 +423,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 189
+* This method is defined in [classes/helper/HelperCalendar.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#189)
 
 
 #### Arguments
@@ -439,7 +440,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 195
+* This method is defined in [classes/helper/HelperCalendar.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#195)
 
 
 #### Arguments
@@ -456,7 +457,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 206
+* This method is defined in [classes/helper/HelperCalendar.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#206)
 
 
 #### Arguments
@@ -473,7 +474,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 217
+* This method is defined in [classes/helper/HelperCalendar.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#217)
 
 
 
@@ -487,7 +488,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperCalendar.php line 260
+* This method is defined in [classes/helper/HelperCalendar.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperCalendar.php#260)
 
 
 

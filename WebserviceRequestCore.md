@@ -8,7 +8,8 @@ WebserviceRequestCore
 
 * Class name: WebserviceRequestCore
 * Namespace: 
-* This class is defined in classes\webservice\WebserviceRequest.php line 27
+
+* This class is defined in [classes/webservice/WebserviceRequest.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#27)
 
 
 
@@ -22,7 +23,7 @@ Constants
 
 
 
-* This constant is defined in classes\webservice\WebserviceRequest.php line 29
+* This constant is defined in [classes/webservice/WebserviceRequest.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#29)
 
 
 ### HTTP_POST
@@ -31,7 +32,7 @@ Constants
 
 
 
-* This constant is defined in classes\webservice\WebserviceRequest.php line 30
+* This constant is defined in [classes/webservice/WebserviceRequest.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#30)
 
 
 ### HTTP_PUT
@@ -40,7 +41,7 @@ Constants
 
 
 
-* This constant is defined in classes\webservice\WebserviceRequest.php line 31
+* This constant is defined in [classes/webservice/WebserviceRequest.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#31)
 
 
 Properties
@@ -56,7 +57,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceRequest.php line 33
+* This property is defined in [classes/webservice/WebserviceRequest.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#33)
 
 
 ### $errors
@@ -68,7 +69,7 @@ Errors triggered at execution
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceRequest.php line 38
+* This property is defined in [classes/webservice/WebserviceRequest.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#38)
 
 
 ### $_outputEnabled
@@ -80,7 +81,7 @@ Set if return should display content or not
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceRequest.php line 44
+* This property is defined in [classes/webservice/WebserviceRequest.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#44)
 
 
 ### $objectSpecificManagement
@@ -92,7 +93,7 @@ Set if the management is specific or if it is classic (entity management)
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceRequest.php line 50
+* This property is defined in [classes/webservice/WebserviceRequest.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#50)
 
 
 ### $wsUrl
@@ -104,7 +105,7 @@ Base PrestaShop webservice URL
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceRequest.php line 56
+* This property is defined in [classes/webservice/WebserviceRequest.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#56)
 
 
 ### $_docUrl
@@ -116,7 +117,7 @@ PrestaShop Webservice Documentation URL
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceRequest.php line 62
+* This property is defined in [classes/webservice/WebserviceRequest.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#62)
 
 
 ### $_authenticated
@@ -128,7 +129,7 @@ Set if the authentication key was checked
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceRequest.php line 68
+* This property is defined in [classes/webservice/WebserviceRequest.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#68)
 
 
 ### $method
@@ -140,7 +141,7 @@ HTTP Method to support
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceRequest.php line 74
+* This property is defined in [classes/webservice/WebserviceRequest.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#74)
 
 
 ### $urlSegment
@@ -152,7 +153,7 @@ The segment of the URL
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceRequest.php line 80
+* This property is defined in [classes/webservice/WebserviceRequest.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#80)
 
 
 ### $urlFragments
@@ -164,7 +165,7 @@ The segment list of the URL after the "api" segment
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceRequest.php line 86
+* This property is defined in [classes/webservice/WebserviceRequest.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#86)
 
 
 ### $_startTime
@@ -176,7 +177,7 @@ The time in microseconds of the start of the execution of the web service reques
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceRequest.php line 92
+* This property is defined in [classes/webservice/WebserviceRequest.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#92)
 
 
 ### $resourceList
@@ -188,7 +189,7 @@ The list of each resources manageable via web service
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceRequest.php line 98
+* This property is defined in [classes/webservice/WebserviceRequest.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#98)
 
 
 ### $resourceConfiguration
@@ -200,7 +201,7 @@ The configuration parameters of the current resource
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceRequest.php line 104
+* This property is defined in [classes/webservice/WebserviceRequest.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#104)
 
 
 ### $keyPermissions
@@ -212,7 +213,7 @@ The permissions for the current key
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceRequest.php line 110
+* This property is defined in [classes/webservice/WebserviceRequest.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#110)
 
 
 ### $specificOutput
@@ -224,7 +225,7 @@ The XML string to display if web service call succeed
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceRequest.php line 116
+* This property is defined in [classes/webservice/WebserviceRequest.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#116)
 
 
 ### $objects
@@ -236,7 +237,7 @@ The list of objects to display
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceRequest.php line 122
+* This property is defined in [classes/webservice/WebserviceRequest.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#122)
 
 
 ### $_object
@@ -248,7 +249,7 @@ The current object to support, it extends the PrestaShop ObjectModel
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceRequest.php line 128
+* This property is defined in [classes/webservice/WebserviceRequest.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#128)
 
 
 ### $schemaToDisplay
@@ -260,7 +261,7 @@ The schema to display.
 If null, no schema have to be displayed and normal management has to be performed
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceRequest.php line 135
+* This property is defined in [classes/webservice/WebserviceRequest.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#135)
 
 
 ### $fieldsToDisplay
@@ -272,7 +273,7 @@ The fields to display. These fields will be displayed when retrieving objects
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceRequest.php line 141
+* This property is defined in [classes/webservice/WebserviceRequest.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#141)
 
 
 ### $_inputXml
@@ -284,7 +285,7 @@ If we are in PUT or POST case, we use this attribute to store the xml string val
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceRequest.php line 147
+* This property is defined in [classes/webservice/WebserviceRequest.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#147)
 
 
 ### $_instance
@@ -297,7 +298,7 @@ Object instance for singleton
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\webservice\WebserviceRequest.php line 153
+* This property is defined in [classes/webservice/WebserviceRequest.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#153)
 
 
 ### $_key
@@ -309,7 +310,7 @@ Key used for authentication
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceRequest.php line 159
+* This property is defined in [classes/webservice/WebserviceRequest.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#159)
 
 
 ### $depth
@@ -321,7 +322,7 @@ This is used to have a deeper tree diagram.
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceRequest.php line 165
+* This property is defined in [classes/webservice/WebserviceRequest.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#165)
 
 
 ### $outputFormat
@@ -333,7 +334,7 @@ Name of the output format
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceRequest.php line 171
+* This property is defined in [classes/webservice/WebserviceRequest.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#171)
 
 
 ### $objOutput
@@ -345,7 +346,7 @@ The object to build the output.
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceRequest.php line 177
+* This property is defined in [classes/webservice/WebserviceRequest.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#177)
 
 
 ### $ws_current_classname
@@ -358,7 +359,7 @@ Save the class name for override used in getInstance()
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\webservice\WebserviceRequest.php line 183
+* This property is defined in [classes/webservice/WebserviceRequest.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#183)
 
 
 ### $shopIDs
@@ -371,7 +372,7 @@ Save the class name for override used in getInstance()
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\webservice\WebserviceRequest.php line 186
+* This property is defined in [classes/webservice/WebserviceRequest.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#186)
 
 
 Methods
@@ -387,7 +388,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 189
+* This method is defined in [classes/webservice/WebserviceRequest.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#189)
 
 
 
@@ -401,7 +402,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 194
+* This method is defined in [classes/webservice/WebserviceRequest.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#194)
 
 
 #### Arguments
@@ -419,7 +420,7 @@ Get WebserviceRequest object instance (Singleton)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\webservice\WebserviceRequest.php line 207
+* This method is defined in [classes/webservice/WebserviceRequest.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#207)
 
 
 
@@ -433,7 +434,7 @@ Get WebserviceRequest object instance (Singleton)
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 228
+* This method is defined in [classes/webservice/WebserviceRequest.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#228)
 
 
 #### Arguments
@@ -451,7 +452,7 @@ Get WebserviceRequest object instance (Singleton)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\webservice\WebserviceRequest.php line 255
+* This method is defined in [classes/webservice/WebserviceRequest.php line 255](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#255)
 
 
 
@@ -465,7 +466,7 @@ This method is used for calculate the price for products on the output details
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 340
+* This method is defined in [classes/webservice/WebserviceRequest.php line 340](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#340)
 
 
 #### Arguments
@@ -484,7 +485,7 @@ This method is used for calculate the price for products on a virtual fields
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 357
+* This method is defined in [classes/webservice/WebserviceRequest.php line 357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#357)
 
 
 #### Arguments
@@ -502,7 +503,7 @@ This method is used for calculate the price for products on a virtual fields
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 366
+* This method is defined in [classes/webservice/WebserviceRequest.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#366)
 
 
 #### Arguments
@@ -519,7 +520,7 @@ This method is used for calculate the price for products on a virtual fields
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 398
+* This method is defined in [classes/webservice/WebserviceRequest.php line 398](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#398)
 
 
 #### Arguments
@@ -543,7 +544,7 @@ Start Webservice request
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 425
+* This method is defined in [classes/webservice/WebserviceRequest.php line 425](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#425)
 
 
 #### Arguments
@@ -565,7 +566,7 @@ Start Webservice request
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 566
+* This method is defined in [classes/webservice/WebserviceRequest.php line 566](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#566)
 
 
 
@@ -579,7 +580,7 @@ Set a webservice error
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 579
+* This method is defined in [classes/webservice/WebserviceRequest.php line 579](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#579)
 
 
 #### Arguments
@@ -598,7 +599,7 @@ Set a webservice error and propose a new value near from the available values
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 601
+* This method is defined in [classes/webservice/WebserviceRequest.php line 601](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#601)
 
 
 #### Arguments
@@ -619,7 +620,7 @@ Return the nearest value picked in the values list
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 613
+* This method is defined in [classes/webservice/WebserviceRequest.php line 613](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#613)
 
 
 #### Arguments
@@ -637,7 +638,7 @@ Used to replace the default PHP error handler, in order to display PHP errors in
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 640
+* This method is defined in [classes/webservice/WebserviceRequest.php line 640](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#640)
 
 
 #### Arguments
@@ -657,7 +658,7 @@ Check if there is one or more error
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 716
+* This method is defined in [classes/webservice/WebserviceRequest.php line 716](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#716)
 
 
 
@@ -671,7 +672,7 @@ Check request authentication
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 726
+* This method is defined in [classes/webservice/WebserviceRequest.php line 726](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#726)
 
 
 
@@ -685,7 +686,7 @@ Check webservice activation
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 765
+* This method is defined in [classes/webservice/WebserviceRequest.php line 765](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#765)
 
 
 
@@ -699,7 +700,7 @@ Check webservice activation
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 774
+* This method is defined in [classes/webservice/WebserviceRequest.php line 774](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#774)
 
 
 #### Arguments
@@ -716,7 +717,7 @@ Check webservice activation
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 791
+* This method is defined in [classes/webservice/WebserviceRequest.php line 791](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#791)
 
 
 #### Arguments
@@ -733,7 +734,7 @@ Check webservice activation
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 815
+* This method is defined in [classes/webservice/WebserviceRequest.php line 815](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#815)
 
 
 #### Arguments
@@ -750,7 +751,7 @@ Check HTTP method
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 835
+* This method is defined in [classes/webservice/WebserviceRequest.php line 835](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#835)
 
 
 
@@ -764,7 +765,7 @@ Check resource validity
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 854
+* This method is defined in [classes/webservice/WebserviceRequest.php line 854](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#854)
 
 
 
@@ -778,7 +779,7 @@ Check resource validity
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 873
+* This method is defined in [classes/webservice/WebserviceRequest.php line 873](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#873)
 
 
 
@@ -792,7 +793,7 @@ Check resource validity
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 903
+* This method is defined in [classes/webservice/WebserviceRequest.php line 903](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#903)
 
 
 #### Arguments
@@ -809,7 +810,7 @@ Check resource validity
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 946
+* This method is defined in [classes/webservice/WebserviceRequest.php line 946](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#946)
 
 
 
@@ -823,7 +824,7 @@ Check resource validity
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 989
+* This method is defined in [classes/webservice/WebserviceRequest.php line 989](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#989)
 
 
 
@@ -837,7 +838,7 @@ Check resource validity
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 1178
+* This method is defined in [classes/webservice/WebserviceRequest.php line 1178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#1178)
 
 
 
@@ -851,7 +852,7 @@ Check resource validity
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 1210
+* This method is defined in [classes/webservice/WebserviceRequest.php line 1210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#1210)
 
 
 
@@ -868,7 +869,7 @@ Build sort
 Build limit
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 1266
+* This method is defined in [classes/webservice/WebserviceRequest.php line 1266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#1266)
 
 
 
@@ -882,7 +883,7 @@ Execute POST method on a PrestaShop entity
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 1289
+* This method is defined in [classes/webservice/WebserviceRequest.php line 1289](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#1289)
 
 
 
@@ -896,7 +897,7 @@ Execute PUT method on a PrestaShop entity
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 1299
+* This method is defined in [classes/webservice/WebserviceRequest.php line 1299](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#1299)
 
 
 
@@ -910,7 +911,7 @@ Execute DELETE method on a PrestaShop entity
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 1309
+* This method is defined in [classes/webservice/WebserviceRequest.php line 1309](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#1309)
 
 
 
@@ -924,7 +925,7 @@ save Entity Object from XML
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 1364
+* This method is defined in [classes/webservice/WebserviceRequest.php line 1364](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#1364)
 
 
 #### Arguments
@@ -941,7 +942,7 @@ get SQL retrieve Filter
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 1538
+* This method is defined in [classes/webservice/WebserviceRequest.php line 1538](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#1538)
 
 
 #### Arguments
@@ -960,7 +961,7 @@ get SQL retrieve Filter
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceRequest.php line 1576
+* This method is defined in [classes/webservice/WebserviceRequest.php line 1576](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#1576)
 
 
 
@@ -976,7 +977,7 @@ and set HTTP header parameters.
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceRequest.php line 1636
+* This method is defined in [classes/webservice/WebserviceRequest.php line 1636](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#1636)
 
 
 
@@ -991,7 +992,7 @@ and set HTTP header parameters.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\webservice\WebserviceRequest.php line 1733
+* This method is defined in [classes/webservice/WebserviceRequest.php line 1733](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceRequest.php#1733)
 
 
 

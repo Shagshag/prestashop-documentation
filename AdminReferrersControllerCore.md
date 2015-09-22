@@ -9,7 +9,8 @@ AdminReferrersControllerCore
 * Class name: AdminReferrersControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminReferrersController.php line 59
+
+* This class is defined in [controllers/admin/AdminReferrersController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#59)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminReferrersController.php line 59
+* This property is defined in [controllers/admin/AdminReferrersController.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#59)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReferrersController.php line 61
+* This method is defined in [controllers/admin/AdminReferrersController.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#61)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReferrersController.php line 160
+* This method is defined in [controllers/admin/AdminReferrersController.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#160)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReferrersController.php line 166
+* This method is defined in [controllers/admin/AdminReferrersController.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#166)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReferrersController.php line 179
+* This method is defined in [controllers/admin/AdminReferrersController.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#179)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReferrersController.php line 205
+* This method is defined in [controllers/admin/AdminReferrersController.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#205)
 
 
 
@@ -114,7 +115,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReferrersController.php line 385
+* This method is defined in [controllers/admin/AdminReferrersController.php line 385](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#385)
 
 
 #### Arguments
@@ -135,7 +136,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminReferrersController.php line 395
+* This method is defined in [controllers/admin/AdminReferrersController.php line 395](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#395)
 
 
 #### Arguments
@@ -157,7 +158,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReferrersController.php line 417
+* This method is defined in [controllers/admin/AdminReferrersController.php line 417](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#417)
 
 
 
@@ -171,7 +172,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminReferrersController.php line 439
+* This method is defined in [controllers/admin/AdminReferrersController.php line 439](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#439)
 
 
 
@@ -185,7 +186,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReferrersController.php line 444
+* This method is defined in [controllers/admin/AdminReferrersController.php line 444](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#444)
 
 
 
@@ -199,7 +200,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminReferrersController.php line 472
+* This method is defined in [controllers/admin/AdminReferrersController.php line 472](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminReferrersController.php#472)
 
 
 

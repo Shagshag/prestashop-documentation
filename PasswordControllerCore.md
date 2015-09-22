@@ -9,7 +9,8 @@ PasswordControllerCore
 * Class name: PasswordControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\PasswordController.php line 27
+
+* This class is defined in [controllers/front/PasswordController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PasswordController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\PasswordController.php line 29
+* This property is defined in [controllers/front/PasswordController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PasswordController.php#29)
 
 
 ### $auth
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\PasswordController.php line 30
+* This property is defined in [controllers/front/PasswordController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PasswordController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\PasswordController.php line 36
+* This method is defined in [controllers/front/PasswordController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PasswordController.php#36)
 
 
 
@@ -70,7 +71,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\PasswordController.php line 107
+* This method is defined in [controllers/front/PasswordController.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PasswordController.php#107)
 
 
 

@@ -9,7 +9,8 @@ StateCore
 * Class name: StateCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\State.php line 27
+
+* This class is defined in [classes/State.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\State.php line 30
+* This property is defined in [classes/State.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#30)
 
 
 ### $id_zone
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\State.php line 33
+* This property is defined in [classes/State.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#33)
 
 
 ### $iso_code
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\State.php line 36
+* This property is defined in [classes/State.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#36)
 
 
 ### $name
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\State.php line 39
+* This property is defined in [classes/State.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#39)
 
 
 ### $active
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\State.php line 42
+* This property is defined in [classes/State.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#42)
 
 
 ### $definition
@@ -89,7 +90,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\State.php line 47
+* This property is defined in [classes/State.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#47)
 
 
 ### $webserviceParameters
@@ -101,7 +102,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\State.php line 59
+* This property is defined in [classes/State.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#59)
 
 
 Methods
@@ -118,7 +119,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\State.php line 66
+* This method is defined in [classes/State.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#66)
 
 
 #### Arguments
@@ -137,7 +138,7 @@ Get a state name with its ID
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\State.php line 81
+* This method is defined in [classes/State.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#81)
 
 
 #### Arguments
@@ -155,7 +156,7 @@ Get a state id with its name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\State.php line 105
+* This method is defined in [classes/State.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#105)
 
 
 #### Arguments
@@ -173,7 +174,7 @@ Get a state id with its iso code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\State.php line 129
+* This method is defined in [classes/State.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#129)
 
 
 #### Arguments
@@ -191,7 +192,7 @@ Delete a state only if is not in use
 
 
 * Visibility: **public**
-* This method is defined in classes\State.php line 143
+* This method is defined in [classes/State.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#143)
 
 
 
@@ -205,7 +206,7 @@ Check if a state is used
 
 
 * Visibility: **public**
-* This method is defined in classes\State.php line 167
+* This method is defined in [classes/State.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#167)
 
 
 
@@ -219,7 +220,7 @@ Returns the number of utilisation of a state
 
 
 * Visibility: **public**
-* This method is defined in classes\State.php line 177
+* This method is defined in [classes/State.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#177)
 
 
 
@@ -234,7 +235,7 @@ Returns the number of utilisation of a state
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\State.php line 187
+* This method is defined in [classes/State.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#187)
 
 
 #### Arguments
@@ -252,7 +253,7 @@ Returns the number of utilisation of a state
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\State.php line 200
+* This method is defined in [classes/State.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#200)
 
 
 #### Arguments
@@ -270,7 +271,7 @@ Returns the number of utilisation of a state
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\State.php line 205
+* This method is defined in [classes/State.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#205)
 
 
 #### Arguments
@@ -287,7 +288,7 @@ Returns the number of utilisation of a state
 
 
 * Visibility: **public**
-* This method is defined in classes\State.php line 223
+* This method is defined in [classes/State.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/State.php#223)
 
 
 #### Arguments

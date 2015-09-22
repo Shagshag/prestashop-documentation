@@ -23,7 +23,7 @@ needs please refer to http://www.prestashop.com for more information.
 * Interface name: Core_Foundation_Database_DatabaseInterface
 * Namespace: 
 * This is an **interface**
-* This interface is defined in Core\Foundation\Database\Core_Foundation_Database_DatabaseInterface.php line 27
+* This interface is defined in [Core/Foundation/Database/Core_Foundation_Database_DatabaseInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_DatabaseInterface.php#27)
 
 
 
@@ -43,7 +43,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_DatabaseInterface.php line 29
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_DatabaseInterface.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_DatabaseInterface.php#29)
 
 
 #### Arguments
@@ -60,7 +60,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_DatabaseInterface.php line 30
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_DatabaseInterface.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_DatabaseInterface.php#30)
 
 
 #### Arguments

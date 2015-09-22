@@ -9,7 +9,8 @@ ModuleCore
 * Class name: ModuleCore
 * Namespace: 
 * This is an **abstract** class
-* This class is defined in classes\module\Module.php line 27
+
+* This class is defined in [classes/module/Module.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#27)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\module\Module.php line 167
+* This constant is defined in [classes/module/Module.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#167)
 
 
 ### CACHE_FILE_TAB_MODULES_LIST
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in classes\module\Module.php line 169
+* This constant is defined in [classes/module/Module.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#169)
 
 
 ### CACHE_FILE_ALL_COUNTRY_MODULES_LIST
@@ -41,7 +42,7 @@ Constants
 
 
 
-* This constant is defined in classes\module\Module.php line 171
+* This constant is defined in [classes/module/Module.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#171)
 
 
 ### CACHE_FILE_DEFAULT_COUNTRY_MODULES_LIST
@@ -50,7 +51,7 @@ Constants
 
 
 
-* This constant is defined in classes\module\Module.php line 172
+* This constant is defined in [classes/module/Module.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#172)
 
 
 ### CACHE_FILE_CUSTOMER_MODULES_LIST
@@ -59,7 +60,7 @@ Constants
 
 
 
-* This constant is defined in classes\module\Module.php line 174
+* This constant is defined in [classes/module/Module.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#174)
 
 
 ### CACHE_FILE_MUST_HAVE_MODULES_LIST
@@ -68,7 +69,7 @@ Constants
 
 
 
-* This constant is defined in classes\module\Module.php line 176
+* This constant is defined in [classes/module/Module.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#176)
 
 
 ### CACHE_FILE_TRUSTED_MODULES_LIST
@@ -77,7 +78,7 @@ Constants
 
 
 
-* This constant is defined in classes\module\Module.php line 178
+* This constant is defined in [classes/module/Module.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#178)
 
 
 ### CACHE_FILE_UNTRUSTED_MODULES_LIST
@@ -86,7 +87,7 @@ Constants
 
 
 
-* This constant is defined in classes\module\Module.php line 179
+* This constant is defined in [classes/module/Module.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#179)
 
 
 Properties
@@ -102,7 +103,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 30
+* This property is defined in [classes/module/Module.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#30)
 
 
 ### $version
@@ -114,7 +115,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 33
+* This property is defined in [classes/module/Module.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#33)
 
 
 ### $database_version
@@ -126,7 +127,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 34
+* This property is defined in [classes/module/Module.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#34)
 
 
 ### $registered_version
@@ -138,7 +139,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 40
+* This property is defined in [classes/module/Module.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#40)
 
 
 ### $ps_versions_compliancy
@@ -150,7 +151,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 43
+* This property is defined in [classes/module/Module.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#43)
 
 
 ### $dependencies
@@ -162,7 +163,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 46
+* This property is defined in [classes/module/Module.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#46)
 
 
 ### $name
@@ -174,7 +175,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 49
+* This property is defined in [classes/module/Module.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#49)
 
 
 ### $displayName
@@ -186,7 +187,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 52
+* This property is defined in [classes/module/Module.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#52)
 
 
 ### $description
@@ -198,7 +199,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 55
+* This property is defined in [classes/module/Module.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#55)
 
 
 ### $author
@@ -210,7 +211,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 58
+* This property is defined in [classes/module/Module.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#58)
 
 
 ### $author_uri
@@ -222,7 +223,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 61
+* This property is defined in [classes/module/Module.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#61)
 
 
 ### $module_key
@@ -234,7 +235,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 64
+* This property is defined in [classes/module/Module.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#64)
 
 
 ### $description_full
@@ -246,7 +247,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 66
+* This property is defined in [classes/module/Module.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#66)
 
 
 ### $additional_description
@@ -258,7 +259,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 68
+* This property is defined in [classes/module/Module.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#68)
 
 
 ### $compatibility
@@ -270,7 +271,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 70
+* This property is defined in [classes/module/Module.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#70)
 
 
 ### $nb_rates
@@ -282,7 +283,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 72
+* This property is defined in [classes/module/Module.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#72)
 
 
 ### $avg_rate
@@ -294,7 +295,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 74
+* This property is defined in [classes/module/Module.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#74)
 
 
 ### $badges
@@ -306,7 +307,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 76
+* This property is defined in [classes/module/Module.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#76)
 
 
 ### $need_instance
@@ -318,7 +319,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 79
+* This property is defined in [classes/module/Module.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#79)
 
 
 ### $tab
@@ -330,7 +331,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 82
+* This property is defined in [classes/module/Module.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#82)
 
 
 ### $active
@@ -342,7 +343,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 85
+* This property is defined in [classes/module/Module.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#85)
 
 
 ### $trusted
@@ -354,7 +355,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 88
+* This property is defined in [classes/module/Module.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#88)
 
 
 ### $warning
@@ -366,7 +367,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 91
+* This property is defined in [classes/module/Module.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#91)
 
 
 ### $enable_device
@@ -378,7 +379,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 93
+* This property is defined in [classes/module/Module.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#93)
 
 
 ### $limited_countries
@@ -390,7 +391,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 96
+* This property is defined in [classes/module/Module.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#96)
 
 
 ### $controllers
@@ -402,7 +403,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 99
+* This property is defined in [classes/module/Module.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#99)
 
 
 ### $classInModule
@@ -415,7 +416,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 102
+* This property is defined in [classes/module/Module.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#102)
 
 
 ### $_lang
@@ -427,7 +428,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\Module.php line 105
+* This property is defined in [classes/module/Module.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#105)
 
 
 ### $_path
@@ -439,7 +440,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\Module.php line 108
+* This property is defined in [classes/module/Module.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#108)
 
 
 ### $local_path
@@ -451,7 +452,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\Module.php line 113
+* This property is defined in [classes/module/Module.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#113)
 
 
 ### $_errors
@@ -463,7 +464,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\Module.php line 116
+* This property is defined in [classes/module/Module.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#116)
 
 
 ### $_confirmations
@@ -475,7 +476,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\Module.php line 119
+* This property is defined in [classes/module/Module.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#119)
 
 
 ### $table
@@ -487,7 +488,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\Module.php line 122
+* This property is defined in [classes/module/Module.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#122)
 
 
 ### $identifier
@@ -499,7 +500,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\Module.php line 125
+* This property is defined in [classes/module/Module.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#125)
 
 
 ### $modules_cache
@@ -512,7 +513,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 128
+* This property is defined in [classes/module/Module.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#128)
 
 
 ### $_INSTANCE
@@ -525,7 +526,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 131
+* This property is defined in [classes/module/Module.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#131)
 
 
 ### $_generate_config_xml_mode
@@ -538,7 +539,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 134
+* This property is defined in [classes/module/Module.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#134)
 
 
 ### $l_cache
@@ -551,7 +552,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 137
+* This property is defined in [classes/module/Module.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#137)
 
 
 ### $cache_permissions
@@ -564,7 +565,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 140
+* This property is defined in [classes/module/Module.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#140)
 
 
 ### $context
@@ -576,7 +577,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\Module.php line 143
+* This property is defined in [classes/module/Module.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#143)
 
 
 ### $smarty
@@ -588,7 +589,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\Module.php line 146
+* This property is defined in [classes/module/Module.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#146)
 
 
 ### $current_subtemplate
@@ -600,7 +601,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\Module.php line 149
+* This property is defined in [classes/module/Module.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#149)
 
 
 ### $update_translations_after_install
@@ -613,7 +614,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 151
+* This property is defined in [classes/module/Module.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#151)
 
 
 ### $_batch_mode
@@ -626,7 +627,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 153
+* This property is defined in [classes/module/Module.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#153)
 
 
 ### $_defered_clearCache
@@ -639,7 +640,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 154
+* This property is defined in [classes/module/Module.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#154)
 
 
 ### $_defered_func_call
@@ -652,7 +653,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 155
+* This property is defined in [classes/module/Module.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#155)
 
 
 ### $allow_push
@@ -664,7 +665,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 158
+* This property is defined in [classes/module/Module.php line 158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#158)
 
 
 ### $push_time_limit
@@ -676,7 +677,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\module\Module.php line 160
+* This property is defined in [classes/module/Module.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#160)
 
 
 ### $_log_modules_perfs
@@ -689,7 +690,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 163
+* This property is defined in [classes/module/Module.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#163)
 
 
 ### $_log_modules_perfs_session
@@ -702,7 +703,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 165
+* This property is defined in [classes/module/Module.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#165)
 
 
 ### $hosted_modules_blacklist
@@ -715,7 +716,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\module\Module.php line 181
+* This property is defined in [classes/module/Module.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#181)
 
 
 Methods
@@ -732,7 +733,7 @@ Set the flag to indicate we are doing an import
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 188
+* This method is defined in [classes/module/Module.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#188)
 
 
 #### Arguments
@@ -750,7 +751,7 @@ Set the flag to indicate we are doing an import
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 196
+* This method is defined in [classes/module/Module.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#196)
 
 
 
@@ -765,7 +766,7 @@ Set the flag to indicate we are doing an import
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 201
+* This method is defined in [classes/module/Module.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#201)
 
 
 
@@ -780,7 +781,7 @@ Clear the caches stored in $_defered_clearCache
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 215
+* This method is defined in [classes/module/Module.php line 215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#215)
 
 
 
@@ -794,7 +795,7 @@ Constructor
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 232
+* This method is defined in [classes/module/Module.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#232)
 
 
 #### Arguments
@@ -812,7 +813,7 @@ Insert module into datable
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 306
+* This method is defined in [classes/module/Module.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#306)
 
 
 
@@ -826,7 +827,7 @@ Insert module into datable
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 398
+* This method is defined in [classes/module/Module.php line 398](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#398)
 
 
 
@@ -841,7 +842,7 @@ Insert module into datable
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 407
+* This method is defined in [classes/module/Module.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#407)
 
 
 #### Arguments
@@ -858,7 +859,7 @@ Insert module into datable
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 412
+* This method is defined in [classes/module/Module.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#412)
 
 
 
@@ -872,7 +873,7 @@ Set errors, warning or success message of a module upgrade
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\Module.php line 422
+* This method is defined in [classes/module/Module.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#422)
 
 
 #### Arguments
@@ -890,7 +891,7 @@ Init the upgrade module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 452
+* This method is defined in [classes/module/Module.php line 452](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#452)
 
 
 #### Arguments
@@ -907,7 +908,7 @@ Run the upgrade for a given module name and version
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 481
+* This method is defined in [classes/module/Module.php line 481](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#481)
 
 
 
@@ -922,7 +923,7 @@ Upgrade the registered version to a new one
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 535
+* This method is defined in [classes/module/Module.php line 535](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#535)
 
 
 #### Arguments
@@ -941,7 +942,7 @@ This method modify the module_cache adding an upgrade list file
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 550
+* This method is defined in [classes/module/Module.php line 550](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#550)
 
 
 #### Arguments
@@ -960,7 +961,7 @@ with an associated version
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 573
+* This method is defined in [classes/module/Module.php line 573](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#573)
 
 
 #### Arguments
@@ -980,7 +981,7 @@ Return the status of the upgraded module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 627
+* This method is defined in [classes/module/Module.php line 627](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#627)
 
 
 #### Arguments
@@ -997,7 +998,7 @@ Delete module from datable
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 638
+* This method is defined in [classes/module/Module.php line 638](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#638)
 
 
 
@@ -1013,7 +1014,7 @@ this will enable all of them
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 696
+* This method is defined in [classes/module/Module.php line 696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#696)
 
 
 #### Arguments
@@ -1030,7 +1031,7 @@ Activate current module.
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 717
+* This method is defined in [classes/module/Module.php line 717](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#717)
 
 
 #### Arguments
@@ -1047,7 +1048,7 @@ Activate current module.
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 749
+* This method is defined in [classes/module/Module.php line 749](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#749)
 
 
 #### Arguments
@@ -1064,7 +1065,7 @@ Activate current module.
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 761
+* This method is defined in [classes/module/Module.php line 761](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#761)
 
 
 #### Arguments
@@ -1083,7 +1084,7 @@ this will disable all of them
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 781
+* This method is defined in [classes/module/Module.php line 781](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#781)
 
 
 #### Arguments
@@ -1100,7 +1101,7 @@ Desactivate current module.
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 802
+* This method is defined in [classes/module/Module.php line 802](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#802)
 
 
 #### Arguments
@@ -1117,7 +1118,7 @@ Display flags in forms for translations
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 820
+* This method is defined in [classes/module/Module.php line 820](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#820)
 
 
 #### Arguments
@@ -1139,7 +1140,7 @@ Connect module to a hook
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 854
+* This method is defined in [classes/module/Module.php line 854](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#854)
 
 
 #### Arguments
@@ -1157,7 +1158,7 @@ Unregister module from hook
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 948
+* This method is defined in [classes/module/Module.php line 948](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#948)
 
 
 #### Arguments
@@ -1175,7 +1176,7 @@ Unregister exceptions linked to module
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 985
+* This method is defined in [classes/module/Module.php line 985](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#985)
 
 
 #### Arguments
@@ -1193,7 +1194,7 @@ Add exceptions for module->Hook
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 1001
+* This method is defined in [classes/module/Module.php line 1001](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1001)
 
 
 #### Arguments
@@ -1212,7 +1213,7 @@ Edit exceptions for module->Hook
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 1036
+* This method is defined in [classes/module/Module.php line 1036](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1036)
 
 
 #### Arguments
@@ -1233,7 +1234,7 @@ related to a module in its directory (instead of $_LANGADM)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1057
+* This method is defined in [classes/module/Module.php line 1057](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1057)
 
 
 #### Arguments
@@ -1251,7 +1252,7 @@ Return an instance of the specified module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1095
+* This method is defined in [classes/module/Module.php line 1095](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1095)
 
 
 #### Arguments
@@ -1269,7 +1270,7 @@ Return an instance of the specified module
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1113
+* This method is defined in [classes/module/Module.php line 1113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1113)
 
 
 #### Arguments
@@ -1287,7 +1288,7 @@ Return an instance of the specified module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1164
+* This method is defined in [classes/module/Module.php line 1164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1164)
 
 
 #### Arguments
@@ -1305,7 +1306,7 @@ Return an instance of the specified module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1185
+* This method is defined in [classes/module/Module.php line 1185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1185)
 
 
 #### Arguments
@@ -1323,7 +1324,7 @@ Return an instance of the specified module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1191
+* This method is defined in [classes/module/Module.php line 1191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1191)
 
 
 #### Arguments
@@ -1341,7 +1342,7 @@ Return an instance of the specified module
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1230
+* This method is defined in [classes/module/Module.php line 1230](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1230)
 
 
 
@@ -1356,7 +1357,7 @@ Return available modules
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1251
+* This method is defined in [classes/module/Module.php line 1251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1251)
 
 
 #### Arguments
@@ -1376,7 +1377,7 @@ Return modules directory list
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1578
+* This method is defined in [classes/module/Module.php line 1578](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1578)
 
 
 
@@ -1391,7 +1392,7 @@ Return non native module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1603
+* This method is defined in [classes/module/Module.php line 1603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1603)
 
 
 
@@ -1406,7 +1407,7 @@ Return non native module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1630
+* This method is defined in [classes/module/Module.php line 1630](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1630)
 
 
 
@@ -1421,7 +1422,7 @@ Return installed modules
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1665
+* This method is defined in [classes/module/Module.php line 1665](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1665)
 
 
 #### Arguments
@@ -1439,7 +1440,7 @@ Return if the module is provided by addons.prestashop.com or not
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1684
+* This method is defined in [classes/module/Module.php line 1684](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1684)
 
 
 #### Arguments
@@ -1457,7 +1458,7 @@ Generate XML files for trusted and untrusted modules
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1752
+* This method is defined in [classes/module/Module.php line 1752](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1752)
 
 
 
@@ -1472,7 +1473,7 @@ Create the Addons API call from the module name only
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1840
+* This method is defined in [classes/module/Module.php line 1840](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1840)
 
 
 #### Arguments
@@ -1490,7 +1491,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1866
+* This method is defined in [classes/module/Module.php line 1866](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1866)
 
 
 #### Arguments
@@ -1510,7 +1511,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1877
+* This method is defined in [classes/module/Module.php line 1877](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1877)
 
 
 
@@ -1525,7 +1526,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1883
+* This method is defined in [classes/module/Module.php line 1883](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1883)
 
 
 #### Arguments
@@ -1543,7 +1544,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1891
+* This method is defined in [classes/module/Module.php line 1891](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1891)
 
 
 
@@ -1558,7 +1559,7 @@ Returns the list of the payment module associated to the current customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1902
+* This method is defined in [classes/module/Module.php line 1902](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1902)
 
 
 
@@ -1573,7 +1574,7 @@ Returns the list of the payment module associated to the current customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 1948
+* This method is defined in [classes/module/Module.php line 1948](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1948)
 
 
 #### Arguments
@@ -1594,7 +1595,7 @@ Otherwise, translation key will not match for Module library
 when module is loaded with eval() Module::getModulesOnDisk()
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 1964
+* This method is defined in [classes/module/Module.php line 1964](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1964)
 
 
 #### Arguments
@@ -1612,7 +1613,7 @@ when module is loaded with eval() Module::getModulesOnDisk()
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 1980
+* This method is defined in [classes/module/Module.php line 1980](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#1980)
 
 
 #### Arguments
@@ -1631,7 +1632,7 @@ when module is loaded with eval() Module::getModulesOnDisk()
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2033
+* This method is defined in [classes/module/Module.php line 2033](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2033)
 
 
 #### Arguments
@@ -1649,7 +1650,7 @@ Helper displaying error message(s)
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2063
+* This method is defined in [classes/module/Module.php line 2063](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2063)
 
 
 #### Arguments
@@ -1666,7 +1667,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2092
+* This method is defined in [classes/module/Module.php line 2092](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2092)
 
 
 #### Arguments
@@ -1683,7 +1684,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2115
+* This method is defined in [classes/module/Module.php line 2115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2115)
 
 
 #### Arguments
@@ -1701,7 +1702,7 @@ Helper displaying warning message(s)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 2134
+* This method is defined in [classes/module/Module.php line 2134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2134)
 
 
 #### Arguments
@@ -1720,7 +1721,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2188
+* This method is defined in [classes/module/Module.php line 2188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2188)
 
 
 #### Arguments
@@ -1739,7 +1740,7 @@ Helper displaying warning message(s)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 2193
+* This method is defined in [classes/module/Module.php line 2193](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2193)
 
 
 #### Arguments
@@ -1756,7 +1757,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2203
+* This method is defined in [classes/module/Module.php line 2203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2203)
 
 
 
@@ -1771,7 +1772,7 @@ Helper displaying warning message(s)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 2214
+* This method is defined in [classes/module/Module.php line 2214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2214)
 
 
 #### Arguments
@@ -1788,7 +1789,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2228
+* This method is defined in [classes/module/Module.php line 2228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2228)
 
 
 #### Arguments
@@ -1806,7 +1807,7 @@ Helper displaying warning message(s)
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 2244
+* This method is defined in [classes/module/Module.php line 2244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2244)
 
 
 #### Arguments
@@ -1824,7 +1825,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\Module.php line 2262
+* This method is defined in [classes/module/Module.php line 2262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2262)
 
 
 #### Arguments
@@ -1841,7 +1842,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\Module.php line 2267
+* This method is defined in [classes/module/Module.php line 2267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2267)
 
 
 #### Arguments
@@ -1858,7 +1859,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2291
+* This method is defined in [classes/module/Module.php line 2291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2291)
 
 
 #### Arguments
@@ -1878,7 +1879,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\Module.php line 2328
+* This method is defined in [classes/module/Module.php line 2328](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2328)
 
 
 #### Arguments
@@ -1897,7 +1898,7 @@ Helper displaying warning message(s)
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\Module.php line 2341
+* This method is defined in [classes/module/Module.php line 2341](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2341)
 
 
 #### Arguments
@@ -1916,7 +1917,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2353
+* This method is defined in [classes/module/Module.php line 2353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2353)
 
 
 #### Arguments
@@ -1933,7 +1934,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\Module.php line 2373
+* This method is defined in [classes/module/Module.php line 2373](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2373)
 
 
 #### Arguments
@@ -1950,7 +1951,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2378
+* This method is defined in [classes/module/Module.php line 2378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2378)
 
 
 #### Arguments
@@ -1969,7 +1970,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\Module.php line 2399
+* This method is defined in [classes/module/Module.php line 2399](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2399)
 
 
 #### Arguments
@@ -1989,7 +1990,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 2444
+* This method is defined in [classes/module/Module.php line 2444](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2444)
 
 
 #### Arguments
@@ -2008,7 +2009,7 @@ Get realpath of a template of current module (check if template is overriden too
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\Module.php line 2453
+* This method is defined in [classes/module/Module.php line 2453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2453)
 
 
 
@@ -2022,7 +2023,7 @@ Check if the module is transplantable on the hook in parameter
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2490
+* This method is defined in [classes/module/Module.php line 2490](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2490)
 
 
 #### Arguments
@@ -2039,7 +2040,7 @@ Check employee permission for module
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2502
+* This method is defined in [classes/module/Module.php line 2502](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2502)
 
 
 #### Arguments
@@ -2058,7 +2059,7 @@ Check employee permission for module (static method)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 2514
+* This method is defined in [classes/module/Module.php line 2514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2514)
 
 
 #### Arguments
@@ -2078,7 +2079,7 @@ Get Unauthorized modules for a client group
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 2551
+* This method is defined in [classes/module/Module.php line 2551](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2551)
 
 
 #### Arguments
@@ -2096,7 +2097,7 @@ Get ID module by name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\Module.php line 2565
+* This method is defined in [classes/module/Module.php line 2565](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2565)
 
 
 #### Arguments
@@ -2113,7 +2114,7 @@ Get module errors
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2582
+* This method is defined in [classes/module/Module.php line 2582](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2582)
 
 
 
@@ -2127,7 +2128,7 @@ Get module messages confirmation
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2593
+* This method is defined in [classes/module/Module.php line 2593](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2593)
 
 
 
@@ -2141,7 +2142,7 @@ Get local path for module
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2604
+* This method is defined in [classes/module/Module.php line 2604](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2604)
 
 
 
@@ -2155,7 +2156,7 @@ Get uri path for module
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2615
+* This method is defined in [classes/module/Module.php line 2615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2615)
 
 
 
@@ -2169,7 +2170,7 @@ Get uri path for module
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2626
+* This method is defined in [classes/module/Module.php line 2626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2626)
 
 
 #### Arguments
@@ -2186,7 +2187,7 @@ add a warning message to display at the top of the admin page
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2652
+* This method is defined in [classes/module/Module.php line 2652](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2652)
 
 
 #### Arguments
@@ -2203,7 +2204,7 @@ add a info message to display at the top of the admin page
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\Module.php line 2665
+* This method is defined in [classes/module/Module.php line 2665](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2665)
 
 
 #### Arguments
@@ -2220,7 +2221,7 @@ Install module's controllers using public property $controllers
 
 
 * Visibility: **private**
-* This method is defined in classes\module\Module.php line 2677
+* This method is defined in [classes/module/Module.php line 2677](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2677)
 
 
 
@@ -2234,7 +2235,7 @@ Install overrides files for the module
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2718
+* This method is defined in [classes/module/Module.php line 2718](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2718)
 
 
 
@@ -2248,7 +2249,7 @@ Uninstall overrides files for the module
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2740
+* This method is defined in [classes/module/Module.php line 2740](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2740)
 
 
 
@@ -2262,7 +2263,7 @@ Add all methods in a module override to the override class
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2763
+* This method is defined in [classes/module/Module.php line 2763](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2763)
 
 
 #### Arguments
@@ -2279,7 +2280,7 @@ Remove all methods in a module override from the override class
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 2912
+* This method is defined in [classes/module/Module.php line 2912](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#2912)
 
 
 #### Arguments
@@ -2296,7 +2297,7 @@ Return the hooks list where this module can be hooked.
 
 
 * Visibility: **public**
-* This method is defined in classes\module\Module.php line 3062
+* This method is defined in [classes/module/Module.php line 3062](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/Module.php#3062)
 
 
 

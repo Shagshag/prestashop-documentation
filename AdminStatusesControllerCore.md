@@ -9,7 +9,8 @@ AdminStatusesControllerCore
 * Class name: AdminStatusesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminStatusesController.php line 30
+
+* This class is defined in [controllers/admin/AdminStatusesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminStatusesController.php line 30
+* This property is defined in [controllers/admin/AdminStatusesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatusesController.php line 32
+* This method is defined in [controllers/admin/AdminStatusesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatusesController.php line 51
+* This method is defined in [controllers/admin/AdminStatusesController.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#51)
 
 
 
@@ -72,7 +73,7 @@ init all variables to render the order status list
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatusesController.php line 66
+* This method is defined in [controllers/admin/AdminStatusesController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#66)
 
 
 
@@ -86,7 +87,7 @@ init all variables to render the order return list
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatusesController.php line 124
+* This method is defined in [controllers/admin/AdminStatusesController.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#124)
 
 
 
@@ -100,7 +101,7 @@ init all variables to render the order return list
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatusesController.php line 148
+* This method is defined in [controllers/admin/AdminStatusesController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#148)
 
 
 
@@ -114,7 +115,7 @@ init all variables to render the order return list
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatusesController.php line 188
+* This method is defined in [controllers/admin/AdminStatusesController.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#188)
 
 
 
@@ -128,7 +129,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatusesController.php line 209
+* This method is defined in [controllers/admin/AdminStatusesController.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#209)
 
 
 
@@ -142,7 +143,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatusesController.php line 242
+* This method is defined in [controllers/admin/AdminStatusesController.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#242)
 
 
 
@@ -156,7 +157,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatusesController.php line 257
+* This method is defined in [controllers/admin/AdminStatusesController.php line 257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#257)
 
 
 
@@ -170,7 +171,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatusesController.php line 419
+* This method is defined in [controllers/admin/AdminStatusesController.php line 419](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#419)
 
 
 
@@ -184,7 +185,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatusesController.php line 446
+* This method is defined in [controllers/admin/AdminStatusesController.php line 446](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#446)
 
 
 
@@ -198,7 +199,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatusesController.php line 493
+* This method is defined in [controllers/admin/AdminStatusesController.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#493)
 
 
 
@@ -212,7 +213,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatusesController.php line 527
+* This method is defined in [controllers/admin/AdminStatusesController.php line 527](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#527)
 
 
 
@@ -226,7 +227,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatusesController.php line 615
+* This method is defined in [controllers/admin/AdminStatusesController.php line 615](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#615)
 
 
 #### Arguments
@@ -244,7 +245,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatusesController.php line 626
+* This method is defined in [controllers/admin/AdminStatusesController.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#626)
 
 
 
@@ -258,7 +259,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatusesController.php line 642
+* This method is defined in [controllers/admin/AdminStatusesController.php line 642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#642)
 
 
 
@@ -272,7 +273,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatusesController.php line 656
+* This method is defined in [controllers/admin/AdminStatusesController.php line 656](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#656)
 
 
 
@@ -286,7 +287,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatusesController.php line 670
+* This method is defined in [controllers/admin/AdminStatusesController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatusesController.php#670)
 
 
 

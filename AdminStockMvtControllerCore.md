@@ -9,7 +9,8 @@ AdminStockMvtControllerCore
 * Class name: AdminStockMvtControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminStockMvtController.php line 31
+
+* This class is defined in [controllers/admin/AdminStockMvtController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#31)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminStockMvtController.php line 31
+* This property is defined in [controllers/admin/AdminStockMvtController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#31)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockMvtController.php line 33
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#33)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockMvtController.php line 114
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#114)
 
 
 
@@ -72,7 +73,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockMvtController.php line 134
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#134)
 
 
 
@@ -86,7 +87,7 @@ Gets the current warehouse for this controller
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStockMvtController.php line 209
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#209)
 
 
 
@@ -100,7 +101,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockMvtController.php line 236
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#236)
 
 
 #### Arguments
@@ -122,7 +123,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockMvtController.php line 263
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 263](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#263)
 
 
 
@@ -136,7 +137,7 @@ Exports CSV
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockMvtController.php line 281
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#281)
 
 
 
@@ -150,7 +151,7 @@ Exports CSV
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockMvtController.php line 316
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#316)
 
 
 
@@ -164,7 +165,7 @@ Exports CSV
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockMvtController.php line 325
+* This method is defined in [controllers/admin/AdminStockMvtController.php line 325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockMvtController.php#325)
 
 
 

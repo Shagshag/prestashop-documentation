@@ -9,7 +9,8 @@ AdminDashboardControllerCore
 * Class name: AdminDashboardControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminDashboardController.php line 27
+
+* This class is defined in [controllers/admin/AdminDashboardController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#27)
 
 
 
@@ -30,7 +31,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminDashboardController.php line 29
+* This method is defined in [controllers/admin/AdminDashboardController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#29)
 
 
 
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminDashboardController.php line 41
+* This method is defined in [controllers/admin/AdminDashboardController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#41)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminDashboardController.php line 54
+* This method is defined in [controllers/admin/AdminDashboardController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#54)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminDashboardController.php line 69
+* This method is defined in [controllers/admin/AdminDashboardController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#69)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminDashboardController.php line 187
+* This method is defined in [controllers/admin/AdminDashboardController.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#187)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminDashboardController.php line 282
+* This method is defined in [controllers/admin/AdminDashboardController.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#282)
 
 
 
@@ -114,7 +115,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminDashboardController.php line 331
+* This method is defined in [controllers/admin/AdminDashboardController.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#331)
 
 
 
@@ -128,7 +129,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminDashboardController.php line 352
+* This method is defined in [controllers/admin/AdminDashboardController.php line 352](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#352)
 
 
 
@@ -142,7 +143,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminDashboardController.php line 374
+* This method is defined in [controllers/admin/AdminDashboardController.php line 374](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#374)
 
 
 
@@ -156,7 +157,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminDashboardController.php line 380
+* This method is defined in [controllers/admin/AdminDashboardController.php line 380](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#380)
 
 
 
@@ -170,7 +171,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminDashboardController.php line 441
+* This method is defined in [controllers/admin/AdminDashboardController.php line 441](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#441)
 
 
 

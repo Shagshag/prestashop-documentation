@@ -9,7 +9,8 @@ AdminOutstandingControllerCore
 * Class name: AdminOutstandingControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminOutstandingController.php line 30
+
+* This class is defined in [controllers/admin/AdminOutstandingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminOutstandingController.php line 30
+* This property is defined in [controllers/admin/AdminOutstandingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminOutstandingController.php line 32
+* This method is defined in [controllers/admin/AdminOutstandingController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Toolbar initialisation
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminOutstandingController.php line 119
+* This method is defined in [controllers/admin/AdminOutstandingController.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#119)
 
 
 
@@ -72,7 +73,7 @@ Column callback for print PDF incon
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminOutstandingController.php line 130
+* This method is defined in [controllers/admin/AdminOutstandingController.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#130)
 
 
 #### Arguments
@@ -90,7 +91,7 @@ Column callback for print PDF incon
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminOutstandingController.php line 139
+* This method is defined in [controllers/admin/AdminOutstandingController.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#139)
 
 
 #### Arguments
@@ -108,7 +109,7 @@ View render
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminOutstandingController.php line 161
+* This method is defined in [controllers/admin/AdminOutstandingController.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOutstandingController.php#161)
 
 
 

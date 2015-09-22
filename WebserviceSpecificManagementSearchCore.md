@@ -8,7 +8,8 @@ WebserviceSpecificManagementSearchCore
 
 * Class name: WebserviceSpecificManagementSearchCore
 * Namespace: 
-* This class implements: [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)* This class is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 27
+* This class implements: [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This class is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#27)
 
 
 
@@ -27,7 +28,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 30
+* This property is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#30)
 
 
 ### $output
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 31
+* This property is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#31)
 
 
 ### $wsObject
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 34
+* This property is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#34)
 
 
 Methods
@@ -68,7 +69,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 29
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#29)
 
 
 #### Arguments
@@ -86,7 +87,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 31
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#31)
 
 
 #### Arguments
@@ -104,7 +105,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 32
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#32)
 
 
 
@@ -119,7 +120,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 30
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#30)
 
 
 
@@ -133,7 +134,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 65
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#65)
 
 
 #### Arguments
@@ -150,7 +151,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 71
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#71)
 
 
 
@@ -165,7 +166,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 34
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#34)
 
 
 
@@ -180,7 +181,7 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in classes\webservice\WebserviceSpecificManagementSearch.php line 41
+* This method is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#41)
 
 
 

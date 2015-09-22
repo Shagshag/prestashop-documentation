@@ -9,7 +9,8 @@ PdfOrderSlipControllerCore
 * Class name: PdfOrderSlipControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\PdfOrderSlipController.php line 27
+
+* This class is defined in [controllers/front/PdfOrderSlipController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\PdfOrderSlipController.php line 29
+* This property is defined in [controllers/front/PdfOrderSlipController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#29)
 
 
 ### $display_header
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\PdfOrderSlipController.php line 30
+* This property is defined in [controllers/front/PdfOrderSlipController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#30)
 
 
 ### $display_footer
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\PdfOrderSlipController.php line 31
+* This property is defined in [controllers/front/PdfOrderSlipController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#31)
 
 
 ### $order_slip
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\PdfOrderSlipController.php line 33
+* This property is defined in [controllers/front/PdfOrderSlipController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#33)
 
 
 Methods
@@ -80,7 +81,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\PdfOrderSlipController.php line 36
+* This method is defined in [controllers/front/PdfOrderSlipController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#36)
 
 
 
@@ -94,7 +95,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\PdfOrderSlipController.php line 53
+* This method is defined in [controllers/front/PdfOrderSlipController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfOrderSlipController.php#53)
 
 
 

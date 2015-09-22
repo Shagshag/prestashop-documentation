@@ -9,7 +9,8 @@ PackCore
 * Class name: PackCore
 * Namespace: 
 * Parent class: [Product](ProductCore)
-* This class is defined in classes\Pack.php line 27
+
+* This class is defined in [classes/Pack.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#27)
 
 
 
@@ -29,7 +30,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Pack.php line 29
+* This property is defined in [classes/Pack.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#29)
 
 
 ### $cacheIsPack
@@ -42,7 +43,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Pack.php line 30
+* This property is defined in [classes/Pack.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#30)
 
 
 ### $cacheIsPacked
@@ -55,7 +56,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Pack.php line 31
+* This property is defined in [classes/Pack.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#31)
 
 
 Methods
@@ -72,7 +73,7 @@ Is product a pack?
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 39
+* This method is defined in [classes/Pack.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#39)
 
 
 #### Arguments
@@ -92,7 +93,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 65
+* This method is defined in [classes/Pack.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#65)
 
 
 #### Arguments
@@ -111,7 +112,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 90
+* This method is defined in [classes/Pack.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#90)
 
 
 #### Arguments
@@ -129,7 +130,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 103
+* This method is defined in [classes/Pack.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#103)
 
 
 #### Arguments
@@ -147,7 +148,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 113
+* This method is defined in [classes/Pack.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#113)
 
 
 #### Arguments
@@ -166,7 +167,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 153
+* This method is defined in [classes/Pack.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#153)
 
 
 #### Arguments
@@ -184,7 +185,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 171
+* This method is defined in [classes/Pack.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#171)
 
 
 #### Arguments
@@ -204,7 +205,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 242
+* This method is defined in [classes/Pack.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#242)
 
 
 #### Arguments
@@ -225,7 +226,7 @@ else this method will match a product if at least one of all its combination is 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 290
+* This method is defined in [classes/Pack.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#290)
 
 
 #### Arguments
@@ -243,7 +244,7 @@ Add an item to the pack
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 307
+* This method is defined in [classes/Pack.php line 307](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#307)
 
 
 #### Arguments
@@ -264,7 +265,7 @@ Add an item to the pack
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 320
+* This method is defined in [classes/Pack.php line 320](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#320)
 
 
 #### Arguments
@@ -283,7 +284,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 334
+* This method is defined in [classes/Pack.php line 334](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#334)
 
 
 
@@ -298,7 +299,7 @@ This method is allow to know if a Pack entity is currently used
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 346
+* This method is defined in [classes/Pack.php line 346](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#346)
 
 
 #### Arguments
@@ -317,7 +318,7 @@ For a given pack, tells if it has at least one product using the advanced stock 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 361
+* This method is defined in [classes/Pack.php line 361](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#361)
 
 
 #### Arguments
@@ -335,7 +336,7 @@ For a given pack, tells if all products using the advanced stock management
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 384
+* This method is defined in [classes/Pack.php line 384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#384)
 
 
 #### Arguments
@@ -353,7 +354,7 @@ Returns Packs that conatins the given product in the right declinaison.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Pack.php line 409
+* This method is defined in [classes/Pack.php line 409](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#409)
 
 
 #### Arguments

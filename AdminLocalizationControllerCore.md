@@ -9,7 +9,8 @@ AdminLocalizationControllerCore
 * Class name: AdminLocalizationControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminLocalizationController.php line 27
+
+* This class is defined in [controllers/admin/AdminLocalizationController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#27)
 
 
 
@@ -30,7 +31,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLocalizationController.php line 29
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#29)
 
 
 
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLocalizationController.php line 161
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#161)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLocalizationController.php line 219
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#219)
 
 
 #### Arguments
@@ -76,7 +77,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLocalizationController.php line 224
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#224)
 
 
 
@@ -90,7 +91,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLocalizationController.php line 377
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 377](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#377)
 
 
 
@@ -104,7 +105,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLocalizationController.php line 396
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 396](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#396)
 
 
 
@@ -118,7 +119,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLocalizationController.php line 402
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 402](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#402)
 
 
 
@@ -132,7 +133,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminLocalizationController.php line 412
+* This method is defined in [controllers/admin/AdminLocalizationController.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminLocalizationController.php#412)
 
 
 #### Arguments

@@ -9,7 +9,8 @@ AdminFeaturesControllerCore
 * Class name: AdminFeaturesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminFeaturesController.php line 30
+
+* This class is defined in [controllers/admin/AdminFeaturesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminFeaturesController.php line 32
+* This property is defined in [controllers/admin/AdminFeaturesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#32)
 
 
 ### $position_identifier
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminFeaturesController.php line 33
+* This property is defined in [controllers/admin/AdminFeaturesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#33)
 
 
 ### $feature_name
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminFeaturesController.php line 34
+* This property is defined in [controllers/admin/AdminFeaturesController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#34)
 
 
 ### $object
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminFeaturesController.php line 30
+* This property is defined in [controllers/admin/AdminFeaturesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#30)
 
 
 Methods
@@ -80,7 +81,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 36
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#36)
 
 
 
@@ -94,7 +95,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 85
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#85)
 
 
 
@@ -108,7 +109,7 @@ Change object type to feature value (use when processing a feature value)
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 97
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#97)
 
 
 
@@ -122,7 +123,7 @@ Change object type to feature (use when processing a feature)
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 107
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#107)
 
 
 
@@ -136,7 +137,7 @@ Change object type to feature (use when processing a feature)
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 114
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#114)
 
 
 
@@ -150,7 +151,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 154
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#154)
 
 
 
@@ -164,7 +165,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 190
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 190](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#190)
 
 
 
@@ -178,7 +179,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 221
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 221](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#221)
 
 
 
@@ -192,7 +193,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 267
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#267)
 
 
 
@@ -206,7 +207,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 317
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 317](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#317)
 
 
 
@@ -220,7 +221,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 405
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 405](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#405)
 
 
 
@@ -234,7 +235,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 448
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 448](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#448)
 
 
 
@@ -248,7 +249,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 475
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 475](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#475)
 
 
 
@@ -262,7 +263,7 @@ Override processAdd to change SaveAndStay button action
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 501
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 501](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#501)
 
 
 
@@ -276,7 +277,7 @@ Override processUpdate to change SaveAndStay button action
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 522
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 522](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#522)
 
 
 
@@ -290,7 +291,7 @@ Call the right method for creating or updating object
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 538
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 538](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#538)
 
 
 
@@ -304,7 +305,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 573
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 573](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#573)
 
 
 #### Arguments
@@ -326,7 +327,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminFeaturesController.php line 598
+* This method is defined in [controllers/admin/AdminFeaturesController.php line 598](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminFeaturesController.php#598)
 
 
 

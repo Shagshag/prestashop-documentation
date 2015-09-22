@@ -9,7 +9,8 @@ RangeWeightCore
 * Class name: RangeWeightCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\range\RangeWeight.php line 27
+
+* This class is defined in [classes/range/RangeWeight.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\range\RangeWeight.php line 29
+* This property is defined in [classes/range/RangeWeight.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#29)
 
 
 ### $delimiter1
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\range\RangeWeight.php line 30
+* This property is defined in [classes/range/RangeWeight.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#30)
 
 
 ### $delimiter2
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\range\RangeWeight.php line 31
+* This property is defined in [classes/range/RangeWeight.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#31)
 
 
 ### $definition
@@ -65,7 +66,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\range\RangeWeight.php line 36
+* This property is defined in [classes/range/RangeWeight.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#36)
 
 
 ### $webserviceParameters
@@ -77,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\range\RangeWeight.php line 46
+* This property is defined in [classes/range/RangeWeight.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#46)
 
 
 Methods
@@ -93,7 +94,7 @@ Override add to create delivery value for all zones
 
 
 * Visibility: **public**
-* This method is defined in classes\range\RangeWeight.php line 62
+* This method is defined in [classes/range/RangeWeight.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#62)
 
 
 #### Arguments
@@ -112,7 +113,7 @@ Get all available price ranges
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\range\RangeWeight.php line 89
+* This method is defined in [classes/range/RangeWeight.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#89)
 
 
 #### Arguments
@@ -130,7 +131,7 @@ Get all available price ranges
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\range\RangeWeight.php line 98
+* This method is defined in [classes/range/RangeWeight.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#98)
 
 
 #### Arguments
@@ -150,7 +151,7 @@ Get all available price ranges
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\range\RangeWeight.php line 107
+* This method is defined in [classes/range/RangeWeight.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/range/RangeWeight.php#107)
 
 
 #### Arguments

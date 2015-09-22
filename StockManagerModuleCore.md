@@ -10,7 +10,8 @@ StockManagerModuleCore
 * Namespace: 
 * This is an **abstract** class
 * Parent class: [Module](ModuleCore)
-* This class is defined in classes\stock\StockManagerModule.php line 30
+
+* This class is defined in [classes/stock/StockManagerModule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerModule.php#30)
 
 
 
@@ -29,7 +30,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockManagerModule.php line 32
+* This property is defined in [classes/stock/StockManagerModule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerModule.php#32)
 
 
 Methods
@@ -45,7 +46,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\StockManagerModule.php line 34
+* This method is defined in [classes/stock/StockManagerModule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerModule.php#34)
 
 
 
@@ -59,7 +60,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\stock\StockManagerModule.php line 39
+* This method is defined in [classes/stock/StockManagerModule.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerModule.php#39)
 
 
 

@@ -9,7 +9,8 @@ AdminMarketingControllerCore
 * Class name: AdminMarketingControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminMarketingController.php line 27
+
+* This class is defined in [controllers/admin/AdminMarketingController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#27)
 
 
 
@@ -30,7 +31,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMarketingController.php line 29
+* This method is defined in [controllers/admin/AdminMarketingController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#29)
 
 
 
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMarketingController.php line 35
+* This method is defined in [controllers/admin/AdminMarketingController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#35)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMarketingController.php line 41
+* This method is defined in [controllers/admin/AdminMarketingController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#41)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMarketingController.php line 46
+* This method is defined in [controllers/admin/AdminMarketingController.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#46)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMarketingController.php line 52
+* This method is defined in [controllers/admin/AdminMarketingController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#52)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMarketingController.php line 57
+* This method is defined in [controllers/admin/AdminMarketingController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMarketingController.php#57)
 
 
 

@@ -9,7 +9,8 @@ AdminShopGroupControllerCore
 * Class name: AdminShopGroupControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminShopGroupController.php line 30
+
+* This class is defined in [controllers/admin/AdminShopGroupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminShopGroupController.php line 30
+* This property is defined in [controllers/admin/AdminShopGroupController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminShopGroupController.php line 32
+* This method is defined in [controllers/admin/AdminShopGroupController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminShopGroupController.php line 93
+* This method is defined in [controllers/admin/AdminShopGroupController.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#93)
 
 
 #### Arguments
@@ -75,7 +76,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminShopGroupController.php line 98
+* This method is defined in [controllers/admin/AdminShopGroupController.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#98)
 
 
 
@@ -89,7 +90,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminShopGroupController.php line 154
+* This method is defined in [controllers/admin/AdminShopGroupController.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#154)
 
 
 
@@ -103,7 +104,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminShopGroupController.php line 172
+* This method is defined in [controllers/admin/AdminShopGroupController.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#172)
 
 
 
@@ -117,7 +118,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminShopGroupController.php line 184
+* This method is defined in [controllers/admin/AdminShopGroupController.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#184)
 
 
 
@@ -131,7 +132,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminShopGroupController.php line 311
+* This method is defined in [controllers/admin/AdminShopGroupController.php line 311](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#311)
 
 
 #### Arguments
@@ -153,7 +154,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminShopGroupController.php line 326
+* This method is defined in [controllers/admin/AdminShopGroupController.php line 326](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#326)
 
 
 
@@ -167,7 +168,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminShopGroupController.php line 345
+* This method is defined in [controllers/admin/AdminShopGroupController.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#345)
 
 
 #### Arguments
@@ -184,7 +185,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminShopGroupController.php line 351
+* This method is defined in [controllers/admin/AdminShopGroupController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#351)
 
 
 #### Arguments
@@ -201,7 +202,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminShopGroupController.php line 357
+* This method is defined in [controllers/admin/AdminShopGroupController.php line 357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShopGroupController.php#357)
 
 
 

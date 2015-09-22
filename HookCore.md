@@ -23,7 +23,8 @@ needs please refer to http://www.prestashop.com for more information.
 * Class name: HookCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Hook.php line 27
+
+* This class is defined in [classes/Hook.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#27)
 
 
 
@@ -42,7 +43,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Hook.php line 32
+* This property is defined in [classes/Hook.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#32)
 
 
 ### $title
@@ -54,7 +55,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Hook.php line 37
+* This property is defined in [classes/Hook.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#37)
 
 
 ### $description
@@ -66,7 +67,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Hook.php line 42
+* This property is defined in [classes/Hook.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#42)
 
 
 ### $position
@@ -78,7 +79,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Hook.php line 47
+* This property is defined in [classes/Hook.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#47)
 
 
 ### $live_edit
@@ -90,7 +91,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Hook.php line 52
+* This property is defined in [classes/Hook.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#52)
 
 
 ### $executed_hooks
@@ -103,7 +104,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Hook.php line 57
+* This property is defined in [classes/Hook.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#57)
 
 
 ### $native_module
@@ -116,7 +117,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Hook.php line 59
+* This property is defined in [classes/Hook.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#59)
 
 
 ### $definition
@@ -129,7 +130,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Hook.php line 64
+* This property is defined in [classes/Hook.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#64)
 
 
 ### $_hook_modules_cache
@@ -142,7 +143,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Hook.php line 79
+* This property is defined in [classes/Hook.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#79)
 
 
 ### $_hook_modules_cache_exec
@@ -155,7 +156,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Hook.php line 84
+* This property is defined in [classes/Hook.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#84)
 
 
 Methods
@@ -171,7 +172,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Hook.php line 86
+* This method is defined in [classes/Hook.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#86)
 
 
 #### Arguments
@@ -190,7 +191,7 @@ Return Hooks List
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 98
+* This method is defined in [classes/Hook.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#98)
 
 
 #### Arguments
@@ -208,7 +209,7 @@ Return hook ID from name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 113
+* This method is defined in [classes/Hook.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#113)
 
 
 #### Arguments
@@ -226,7 +227,7 @@ Return hook ID from name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 146
+* This method is defined in [classes/Hook.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#146)
 
 
 #### Arguments
@@ -244,7 +245,7 @@ Return hook live edit bool from ID
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 163
+* This method is defined in [classes/Hook.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#163)
 
 
 #### Arguments
@@ -262,7 +263,7 @@ Get list of hook alias
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 183
+* This method is defined in [classes/Hook.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#183)
 
 
 
@@ -277,7 +278,7 @@ Return backward compatibility hook name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 207
+* This method is defined in [classes/Hook.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#207)
 
 
 #### Arguments
@@ -295,7 +296,7 @@ Get list of all registered hooks with modules
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 227
+* This method is defined in [classes/Hook.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#227)
 
 
 
@@ -310,7 +311,7 @@ Return Hooks List
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 273
+* This method is defined in [classes/Hook.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#273)
 
 
 #### Arguments
@@ -329,7 +330,7 @@ Get list of modules we can execute per hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 291
+* This method is defined in [classes/Hook.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#291)
 
 
 #### Arguments
@@ -347,7 +348,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 421
+* This method is defined in [classes/Hook.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#421)
 
 
 #### Arguments
@@ -371,7 +372,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 574
+* This method is defined in [classes/Hook.php line 574](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#574)
 
 
 #### Arguments
@@ -391,7 +392,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 607
+* This method is defined in [classes/Hook.php line 607](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#607)
 
 
 #### Arguments
@@ -411,7 +412,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 625
+* This method is defined in [classes/Hook.php line 625](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#625)
 
 
 #### Arguments
@@ -430,7 +431,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 639
+* This method is defined in [classes/Hook.php line 639](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#639)
 
 
 #### Arguments
@@ -449,7 +450,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 651
+* This method is defined in [classes/Hook.php line 651](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#651)
 
 
 #### Arguments
@@ -467,7 +468,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 675
+* This method is defined in [classes/Hook.php line 675](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#675)
 
 
 #### Arguments
@@ -486,7 +487,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 699
+* This method is defined in [classes/Hook.php line 699](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#699)
 
 
 #### Arguments
@@ -505,7 +506,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 711
+* This method is defined in [classes/Hook.php line 711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#711)
 
 
 #### Arguments
@@ -523,7 +524,7 @@ Execute modules for specified hook
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 722
+* This method is defined in [classes/Hook.php line 722](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#722)
 
 
 #### Arguments
@@ -542,7 +543,7 @@ Preload hook modules cache
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 738
+* This method is defined in [classes/Hook.php line 738](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#738)
 
 
 
@@ -557,7 +558,7 @@ Return hook ID from name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 758
+* This method is defined in [classes/Hook.php line 758](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#758)
 
 
 #### Arguments
@@ -575,7 +576,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 788
+* This method is defined in [classes/Hook.php line 788](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#788)
 
 
 #### Arguments
@@ -597,7 +598,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 802
+* This method is defined in [classes/Hook.php line 802](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#802)
 
 
 #### Arguments
@@ -616,7 +617,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 811
+* This method is defined in [classes/Hook.php line 811](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#811)
 
 
 #### Arguments
@@ -635,7 +636,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 820
+* This method is defined in [classes/Hook.php line 820](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#820)
 
 
 #### Arguments
@@ -653,7 +654,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 829
+* This method is defined in [classes/Hook.php line 829](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#829)
 
 
 #### Arguments
@@ -671,7 +672,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 838
+* This method is defined in [classes/Hook.php line 838](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#838)
 
 
 #### Arguments
@@ -689,7 +690,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 847
+* This method is defined in [classes/Hook.php line 847](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#847)
 
 
 #### Arguments
@@ -707,7 +708,7 @@ Called when quantity of a product is updated.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Hook.php line 856
+* This method is defined in [classes/Hook.php line 856](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Hook.php#856)
 
 
 #### Arguments

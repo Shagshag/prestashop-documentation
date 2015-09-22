@@ -9,7 +9,8 @@ GuestCore
 * Class name: GuestCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Guest.php line 27
+
+* This class is defined in [classes/Guest.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 29
+* This property is defined in [classes/Guest.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#29)
 
 
 ### $id_web_browser
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 30
+* This property is defined in [classes/Guest.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#30)
 
 
 ### $id_customer
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 31
+* This property is defined in [classes/Guest.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#31)
 
 
 ### $javascript
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 32
+* This property is defined in [classes/Guest.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#32)
 
 
 ### $screen_resolution_x
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 33
+* This property is defined in [classes/Guest.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#33)
 
 
 ### $screen_resolution_y
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 34
+* This property is defined in [classes/Guest.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#34)
 
 
 ### $screen_color
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 35
+* This property is defined in [classes/Guest.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#35)
 
 
 ### $sun_java
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 36
+* This property is defined in [classes/Guest.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#36)
 
 
 ### $adobe_flash
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 37
+* This property is defined in [classes/Guest.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#37)
 
 
 ### $adobe_director
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 38
+* This property is defined in [classes/Guest.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#38)
 
 
 ### $apple_quicktime
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 39
+* This property is defined in [classes/Guest.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#39)
 
 
 ### $real_player
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 40
+* This property is defined in [classes/Guest.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#40)
 
 
 ### $windows_media
@@ -172,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 41
+* This property is defined in [classes/Guest.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#41)
 
 
 ### $accept_language
@@ -184,7 +185,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 42
+* This property is defined in [classes/Guest.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#42)
 
 
 ### $mobile_theme
@@ -196,7 +197,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Guest.php line 43
+* This property is defined in [classes/Guest.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#43)
 
 
 ### $definition
@@ -209,7 +210,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Guest.php line 48
+* This property is defined in [classes/Guest.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#48)
 
 
 ### $webserviceParameters
@@ -221,7 +222,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Guest.php line 70
+* This property is defined in [classes/Guest.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#70)
 
 
 Methods
@@ -237,7 +238,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Guest.php line 76
+* This method is defined in [classes/Guest.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#76)
 
 
 
@@ -251,7 +252,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\Guest.php line 86
+* This method is defined in [classes/Guest.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#86)
 
 
 #### Arguments
@@ -268,7 +269,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\Guest.php line 105
+* This method is defined in [classes/Guest.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#105)
 
 
 #### Arguments
@@ -285,7 +286,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\Guest.php line 133
+* This method is defined in [classes/Guest.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#133)
 
 
 #### Arguments
@@ -303,7 +304,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Guest.php line 158
+* This method is defined in [classes/Guest.php line 158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#158)
 
 
 #### Arguments
@@ -320,7 +321,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Guest.php line 170
+* This method is defined in [classes/Guest.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#170)
 
 
 #### Arguments
@@ -339,7 +340,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Guest.php line 189
+* This method is defined in [classes/Guest.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Guest.php#189)
 
 
 #### Arguments

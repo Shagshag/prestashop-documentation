@@ -9,7 +9,8 @@ PdfInvoiceControllerCore
 * Class name: PdfInvoiceControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\PdfInvoiceController.php line 27
+
+* This class is defined in [controllers/front/PdfInvoiceController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\PdfInvoiceController.php line 29
+* This property is defined in [controllers/front/PdfInvoiceController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#29)
 
 
 ### $display_header
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\PdfInvoiceController.php line 30
+* This property is defined in [controllers/front/PdfInvoiceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#30)
 
 
 ### $display_footer
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\PdfInvoiceController.php line 31
+* This property is defined in [controllers/front/PdfInvoiceController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#31)
 
 
 ### $content_only
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\PdfInvoiceController.php line 33
+* This property is defined in [controllers/front/PdfInvoiceController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#33)
 
 
 ### $template
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\PdfInvoiceController.php line 35
+* This property is defined in [controllers/front/PdfInvoiceController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#35)
 
 
 ### $filename
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\PdfInvoiceController.php line 36
+* This property is defined in [controllers/front/PdfInvoiceController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#36)
 
 
 Methods
@@ -104,7 +105,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\PdfInvoiceController.php line 38
+* This method is defined in [controllers/front/PdfInvoiceController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#38)
 
 
 
@@ -118,7 +119,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\PdfInvoiceController.php line 68
+* This method is defined in [controllers/front/PdfInvoiceController.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PdfInvoiceController.php#68)
 
 
 

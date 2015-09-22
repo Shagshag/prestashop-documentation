@@ -10,7 +10,8 @@ AdminStatsTabControllerCore
 * Namespace: 
 * This is an **abstract** class
 * Parent class: [AdminPreferencesControllerCore](AdminPreferencesControllerCore)
-* This class is defined in controllers\admin\AdminStatsTabController.php line 27
+
+* This class is defined in [controllers/admin/AdminStatsTabController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#27)
 
 
 
@@ -30,7 +31,7 @@ Properties
 
 * Visibility: **public**
 * This property is defined by [AdminPreferencesControllerCore](AdminPreferencesControllerCore)
-* This property is defined in controllers\admin\AdminStatsTabController.php line 30
+* This property is defined in [controllers/admin/AdminStatsTabController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#30)
 
 
 Methods
@@ -46,7 +47,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 29
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#29)
 
 
 
@@ -60,7 +61,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 37
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#37)
 
 
 
@@ -74,7 +75,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 69
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#69)
 
 
 
@@ -88,7 +89,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 75
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#75)
 
 
 
@@ -103,7 +104,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminStatsTabController.php line 88
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#88)
 
 
 #### Arguments
@@ -125,7 +126,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 123
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#123)
 
 
 
@@ -139,7 +140,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 148
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#148)
 
 
 
@@ -153,7 +154,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 176
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#176)
 
 
 #### Arguments
@@ -171,7 +172,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 181
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#181)
 
 
 
@@ -185,7 +186,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 194
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#194)
 
 
 
@@ -199,7 +200,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 223
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#223)
 
 
 
@@ -213,7 +214,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 241
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#241)
 
 
 
@@ -227,7 +228,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 285
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 285](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#285)
 
 
 
@@ -241,7 +242,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStatsTabController.php line 307
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 307](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#307)
 
 
 
@@ -256,7 +257,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [AdminPreferencesControllerCore](AdminPreferencesControllerCore)
-* This method is defined in controllers\admin\AdminStatsTabController.php line 32
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#32)
 
 
 
@@ -271,7 +272,7 @@ Enable / disable multishop menu if multishop feature is activated
 
 * Visibility: **public**
 * This method is defined by [AdminPreferencesControllerCore](AdminPreferencesControllerCore)
-* This method is defined in controllers\admin\AdminStatsTabController.php line 238
+* This method is defined in [controllers/admin/AdminStatsTabController.php line 238](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsTabController.php#238)
 
 
 #### Arguments

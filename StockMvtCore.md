@@ -9,7 +9,8 @@ StockMvtCore
 * Class name: StockMvtCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\stock\StockMvt.php line 30
+
+* This class is defined in [classes/stock/StockMvt.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 32
+* This property is defined in [classes/stock/StockMvt.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#32)
 
 
 ### $date_add
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 37
+* This property is defined in [classes/stock/StockMvt.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#37)
 
 
 ### $id_employee
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 42
+* This property is defined in [classes/stock/StockMvt.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#42)
 
 
 ### $employee_firstname
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 48
+* This property is defined in [classes/stock/StockMvt.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#48)
 
 
 ### $employee_lastname
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 54
+* This property is defined in [classes/stock/StockMvt.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#54)
 
 
 ### $id_stock
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 60
+* This property is defined in [classes/stock/StockMvt.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#60)
 
 
 ### $physical_quantity
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 66
+* This property is defined in [classes/stock/StockMvt.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#66)
 
 
 ### $id_stock_mvt_reason
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 71
+* This property is defined in [classes/stock/StockMvt.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#71)
 
 
 ### $id_order
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 76
+* This property is defined in [classes/stock/StockMvt.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#76)
 
 
 ### $sign
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 82
+* This property is defined in [classes/stock/StockMvt.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#82)
 
 
 ### $id_supply_order
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 88
+* This property is defined in [classes/stock/StockMvt.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#88)
 
 
 ### $last_wa
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 94
+* This property is defined in [classes/stock/StockMvt.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#94)
 
 
 ### $current_wa
@@ -172,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 100
+* This property is defined in [classes/stock/StockMvt.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#100)
 
 
 ### $price_te
@@ -184,7 +185,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 106
+* This property is defined in [classes/stock/StockMvt.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#106)
 
 
 ### $referer
@@ -196,7 +197,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 112
+* This property is defined in [classes/stock/StockMvt.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#112)
 
 
 ### $date_upd
@@ -208,7 +209,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 118
+* This property is defined in [classes/stock/StockMvt.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#118)
 
 
 ### $quantity
@@ -220,7 +221,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\StockMvt.php line 125
+* This property is defined in [classes/stock/StockMvt.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#125)
 
 
 ### $definition
@@ -233,7 +234,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\stock\StockMvt.php line 130
+* This property is defined in [classes/stock/StockMvt.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#130)
 
 
 ### $webserviceParameters
@@ -245,7 +246,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\stock\StockMvt.php line 151
+* This property is defined in [classes/stock/StockMvt.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#151)
 
 
 Methods
@@ -262,7 +263,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\StockMvt.php line 169
+* This method is defined in [classes/stock/StockMvt.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#169)
 
 
 #### Arguments
@@ -281,7 +282,7 @@ the given product, in the given quantity.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\StockMvt.php line 187
+* This method is defined in [classes/stock/StockMvt.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#187)
 
 
 #### Arguments
@@ -303,7 +304,7 @@ For a given product, gets the last positive stock mvt
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\StockMvt.php line 232
+* This method is defined in [classes/stock/StockMvt.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#232)
 
 
 #### Arguments

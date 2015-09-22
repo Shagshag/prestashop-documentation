@@ -8,7 +8,8 @@ PDFCore
 
 * Class name: PDFCore
 * Namespace: 
-* This class is defined in classes\pdf\PDF.php line 30
+
+* This class is defined in [classes/pdf/PDF.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#30)
 
 
 
@@ -22,7 +23,7 @@ Constants
 
 
 
-* This constant is defined in classes\pdf\PDF.php line 38
+* This constant is defined in [classes/pdf/PDF.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#38)
 
 
 ### TEMPLATE_ORDER_RETURN
@@ -31,7 +32,7 @@ Constants
 
 
 
-* This constant is defined in classes\pdf\PDF.php line 39
+* This constant is defined in [classes/pdf/PDF.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#39)
 
 
 ### TEMPLATE_ORDER_SLIP
@@ -40,7 +41,7 @@ Constants
 
 
 
-* This constant is defined in classes\pdf\PDF.php line 40
+* This constant is defined in [classes/pdf/PDF.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#40)
 
 
 ### TEMPLATE_DELIVERY_SLIP
@@ -49,7 +50,7 @@ Constants
 
 
 
-* This constant is defined in classes\pdf\PDF.php line 41
+* This constant is defined in [classes/pdf/PDF.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#41)
 
 
 ### TEMPLATE_SUPPLY_ORDER_FORM
@@ -58,7 +59,7 @@ Constants
 
 
 
-* This constant is defined in classes\pdf\PDF.php line 42
+* This constant is defined in [classes/pdf/PDF.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#42)
 
 
 Properties
@@ -74,7 +75,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\PDF.php line 32
+* This property is defined in [classes/pdf/PDF.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#32)
 
 
 ### $pdf_renderer
@@ -86,7 +87,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\PDF.php line 33
+* This property is defined in [classes/pdf/PDF.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#33)
 
 
 ### $objects
@@ -98,7 +99,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\PDF.php line 34
+* This property is defined in [classes/pdf/PDF.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#34)
 
 
 ### $template
@@ -110,7 +111,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\PDF.php line 35
+* This property is defined in [classes/pdf/PDF.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#35)
 
 
 ### $send_bulk_flag
@@ -122,7 +123,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\PDF.php line 36
+* This property is defined in [classes/pdf/PDF.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#36)
 
 
 Methods
@@ -138,7 +139,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDF.php line 50
+* This method is defined in [classes/pdf/PDF.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#50)
 
 
 #### Arguments
@@ -158,7 +159,7 @@ Render PDF
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDF.php line 73
+* This method is defined in [classes/pdf/PDF.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#73)
 
 
 #### Arguments
@@ -175,7 +176,7 @@ Get correct PDF template classes
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDF.php line 117
+* This method is defined in [classes/pdf/PDF.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#117)
 
 
 #### Arguments

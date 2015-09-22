@@ -9,7 +9,8 @@ WebserviceExceptionCore
 * Class name: WebserviceExceptionCore
 * Namespace: 
 * Parent class: Exception
-* This class is defined in classes\webservice\WebserviceException.php line 27
+
+* This class is defined in [classes/webservice/WebserviceException.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#27)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\webservice\WebserviceException.php line 34
+* This constant is defined in [classes/webservice/WebserviceException.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#34)
 
 
 ### DID_YOU_MEAN
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in classes\webservice\WebserviceException.php line 35
+* This constant is defined in [classes/webservice/WebserviceException.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#35)
 
 
 Properties
@@ -48,7 +49,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceException.php line 29
+* This property is defined in [classes/webservice/WebserviceException.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#29)
 
 
 ### $wrong_value
@@ -60,7 +61,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceException.php line 30
+* This property is defined in [classes/webservice/WebserviceException.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#30)
 
 
 ### $available_values
@@ -72,7 +73,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceException.php line 31
+* This property is defined in [classes/webservice/WebserviceException.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#31)
 
 
 ### $type
@@ -84,7 +85,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceException.php line 32
+* This property is defined in [classes/webservice/WebserviceException.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#32)
 
 
 Methods
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceException.php line 37
+* This method is defined in [classes/webservice/WebserviceException.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#37)
 
 
 #### Arguments
@@ -118,7 +119,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceException.php line 47
+* This method is defined in [classes/webservice/WebserviceException.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#47)
 
 
 
@@ -132,7 +133,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceException.php line 51
+* This method is defined in [classes/webservice/WebserviceException.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#51)
 
 
 #### Arguments
@@ -149,7 +150,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceException.php line 56
+* This method is defined in [classes/webservice/WebserviceException.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#56)
 
 
 #### Arguments
@@ -166,7 +167,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceException.php line 63
+* This method is defined in [classes/webservice/WebserviceException.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#63)
 
 
 
@@ -180,7 +181,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceException.php line 67
+* This method is defined in [classes/webservice/WebserviceException.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#67)
 
 
 
@@ -194,7 +195,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceException.php line 71
+* This method is defined in [classes/webservice/WebserviceException.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#71)
 
 
 #### Arguments
@@ -212,7 +213,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceException.php line 78
+* This method is defined in [classes/webservice/WebserviceException.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#78)
 
 
 

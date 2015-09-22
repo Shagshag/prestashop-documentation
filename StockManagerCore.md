@@ -8,7 +8,8 @@ StockManager : implementation of StockManagerInterface
 
 * Class name: StockManagerCore
 * Namespace: 
-* This class implements: [StockManagerInterface](StockManagerInterface)* This class is defined in classes\stock\StockManager.php line 31
+* This class implements: [StockManagerInterface](StockManagerInterface)
+* This class is defined in [classes/stock/StockManager.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#31)
 
 
 
@@ -31,7 +32,7 @@ Checks if the StockManager is available
 * Visibility: **public**
 * This method is **static**.
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in classes\stock\StockManager.php line 38
+* This method is defined in [classes/stock/StockManager.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#38)
 
 
 
@@ -46,7 +47,7 @@ For a given product, adds a given quantity
 
 * Visibility: **public**
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in classes\stock\StockManager.php line 53
+* This method is defined in [classes/stock/StockManager.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#53)
 
 
 #### Arguments
@@ -71,7 +72,7 @@ For a given product, removes a given quantity
 
 * Visibility: **public**
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in classes\stock\StockManager.php line 67
+* This method is defined in [classes/stock/StockManager.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#67)
 
 
 #### Arguments
@@ -96,7 +97,7 @@ If the given product has combinations and $id_product_attribute is null, returns
 
 * Visibility: **public**
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in classes\stock\StockManager.php line 79
+* This method is defined in [classes/stock/StockManager.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#79)
 
 
 #### Arguments
@@ -120,7 +121,7 @@ If $usable is defined, real quantity: usable_qty + supply_orders_qty - client_or
 
 * Visibility: **public**
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in classes\stock\StockManager.php line 93
+* This method is defined in [classes/stock/StockManager.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#93)
 
 
 #### Arguments
@@ -144,7 +145,7 @@ It is also possible to transfer a usable quantity from warehouse 1 in an unusabl
 
 * Visibility: **public**
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in classes\stock\StockManager.php line 110
+* This method is defined in [classes/stock/StockManager.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#110)
 
 
 #### Arguments
@@ -168,7 +169,7 @@ By default, for the given product, it will use sum(quantities removed in all war
 
 * Visibility: **public**
 * This method is defined by [StockManagerInterface](StockManagerInterface)
-* This method is defined in classes\stock\StockManager.php line 122
+* This method is defined in [classes/stock/StockManager.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#122)
 
 
 #### Arguments
@@ -189,7 +190,7 @@ Formula : (physicalStock * lastCump + quantityToAdd * unitPrice) / (physicalStoc
 
 
 * Visibility: **protected**
-* This method is defined in classes\stock\StockManager.php line 778
+* This method is defined in [classes/stock/StockManager.php line 778](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#778)
 
 
 #### Arguments
@@ -208,7 +209,7 @@ For a given product, retrieves the stock collection
 
 
 * Visibility: **protected**
-* This method is defined in classes\stock\StockManager.php line 792
+* This method is defined in [classes/stock/StockManager.php line 792](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#792)
 
 
 #### Arguments
@@ -229,7 +230,7 @@ For a given product, retrieves the stock in function of the delivery option
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\stock\StockManager.php line 815
+* This method is defined in [classes/stock/StockManager.php line 815](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#815)
 
 
 #### Arguments

@@ -9,7 +9,8 @@ AdminSearchConfControllerCore
 * Class name: AdminSearchConfControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminSearchConfController.php line 30
+
+* This class is defined in [controllers/admin/AdminSearchConfController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminSearchConfController.php line 32
+* This property is defined in [controllers/admin/AdminSearchConfController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#32)
 
 
 ### $object
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminSearchConfController.php line 30
+* This property is defined in [controllers/admin/AdminSearchConfController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSearchConfController.php line 34
+* This method is defined in [controllers/admin/AdminSearchConfController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#34)
 
 
 
@@ -70,7 +71,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSearchConfController.php line 243
+* This method is defined in [controllers/admin/AdminSearchConfController.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#243)
 
 
 
@@ -84,7 +85,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSearchConfController.php line 262
+* This method is defined in [controllers/admin/AdminSearchConfController.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#262)
 
 
 
@@ -98,7 +99,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSearchConfController.php line 274
+* This method is defined in [controllers/admin/AdminSearchConfController.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#274)
 
 
 
@@ -112,7 +113,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSearchConfController.php line 292
+* This method is defined in [controllers/admin/AdminSearchConfController.php line 292](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#292)
 
 
 
@@ -126,7 +127,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminSearchConfController.php line 328
+* This method is defined in [controllers/admin/AdminSearchConfController.php line 328](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSearchConfController.php#328)
 
 
 

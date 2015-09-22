@@ -9,7 +9,8 @@ AttachmentCore
 * Class name: AttachmentCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Attachment.php line 27
+
+* This class is defined in [classes/Attachment.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Attachment.php line 29
+* This property is defined in [classes/Attachment.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#29)
 
 
 ### $file_name
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Attachment.php line 30
+* This property is defined in [classes/Attachment.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#30)
 
 
 ### $file_size
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Attachment.php line 31
+* This property is defined in [classes/Attachment.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#31)
 
 
 ### $name
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Attachment.php line 32
+* This property is defined in [classes/Attachment.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#32)
 
 
 ### $mime
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Attachment.php line 33
+* This property is defined in [classes/Attachment.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#33)
 
 
 ### $description
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Attachment.php line 34
+* This property is defined in [classes/Attachment.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#34)
 
 
 ### $position
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Attachment.php line 37
+* This property is defined in [classes/Attachment.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#37)
 
 
 ### $definition
@@ -113,7 +114,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Attachment.php line 42
+* This property is defined in [classes/Attachment.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#42)
 
 
 Methods
@@ -129,7 +130,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Attachment.php line 58
+* This method is defined in [classes/Attachment.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#58)
 
 
 #### Arguments
@@ -147,7 +148,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Attachment.php line 64
+* This method is defined in [classes/Attachment.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#64)
 
 
 #### Arguments
@@ -164,7 +165,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Attachment.php line 70
+* This method is defined in [classes/Attachment.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#70)
 
 
 
@@ -178,7 +179,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Attachment.php line 88
+* This method is defined in [classes/Attachment.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#88)
 
 
 #### Arguments
@@ -196,7 +197,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Attachment.php line 98
+* This method is defined in [classes/Attachment.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#98)
 
 
 #### Arguments
@@ -216,7 +217,7 @@ Unassociate $id_product from the current object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Attachment.php line 119
+* This method is defined in [classes/Attachment.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#119)
 
 
 #### Arguments
@@ -233,7 +234,7 @@ associate $id_product to the current object.
 
 
 * Visibility: **public**
-* This method is defined in classes\Attachment.php line 136
+* This method is defined in [classes/Attachment.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#136)
 
 
 #### Arguments
@@ -252,7 +253,7 @@ and remove eventual previous association
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Attachment.php line 156
+* This method is defined in [classes/Attachment.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#156)
 
 
 #### Arguments
@@ -271,7 +272,7 @@ and remove eventual previous association
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Attachment.php line 181
+* This method is defined in [classes/Attachment.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attachment.php#181)
 
 
 #### Arguments

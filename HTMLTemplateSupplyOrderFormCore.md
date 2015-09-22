@@ -9,7 +9,8 @@ HTMLTemplateSupplyOrderFormCore
 * Class name: HTMLTemplateSupplyOrderFormCore
 * Namespace: 
 * Parent class: [HTMLTemplate](HTMLTemplateCore)
-* This class is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 30
+
+* This class is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 32
+* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#32)
 
 
 ### $warehouse
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 33
+* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#33)
 
 
 ### $address_warehouse
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 34
+* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#34)
 
 
 ### $address_supplier
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 35
+* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#35)
 
 
 ### $context
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 36
+* This property is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#36)
 
 
 Methods
@@ -92,7 +93,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 43
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#43)
 
 
 #### Arguments
@@ -110,7 +111,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 62
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#62)
 
 
 
@@ -124,7 +125,7 @@ Returns the invoice logo
 
 
 * Visibility: **protected**
-* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 99
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#99)
 
 
 
@@ -138,7 +139,7 @@ Returns the invoice logo
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 115
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#115)
 
 
 
@@ -152,7 +153,7 @@ Returns the invoice logo
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 123
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#123)
 
 
 
@@ -166,7 +167,7 @@ Get order taxes summary
 
 
 * Visibility: **protected**
-* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 135
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#135)
 
 
 
@@ -180,7 +181,7 @@ Get order taxes summary
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 163
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#163)
 
 
 
@@ -194,7 +195,7 @@ Get order taxes summary
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 191
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#191)
 
 
 
@@ -208,7 +209,7 @@ Rounds values of a SupplyOrderDetail object
 
 
 * Visibility: **protected**
-* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 213
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#213)
 
 
 #### Arguments
@@ -225,7 +226,7 @@ Rounds values of a SupplyOrder object
 
 
 * Visibility: **protected**
-* This method is defined in classes\pdf\HTMLTemplateSupplyOrderForm.php line 231
+* This method is defined in [classes/pdf/HTMLTemplateSupplyOrderForm.php line 231](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateSupplyOrderForm.php#231)
 
 
 #### Arguments

@@ -9,7 +9,8 @@ AdminScenesControllerCore
 * Class name: AdminScenesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminScenesController.php line 30
+
+* This class is defined in [controllers/admin/AdminScenesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminScenesController.php line 32
+* This property is defined in [controllers/admin/AdminScenesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#32)
 
 
 ### $object
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminScenesController.php line 30
+* This property is defined in [controllers/admin/AdminScenesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminScenesController.php line 34
+* This method is defined in [controllers/admin/AdminScenesController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#34)
 
 
 
@@ -70,7 +71,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminScenesController.php line 71
+* This method is defined in [controllers/admin/AdminScenesController.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#71)
 
 
 
@@ -84,7 +85,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminScenesController.php line 107
+* This method is defined in [controllers/admin/AdminScenesController.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#107)
 
 
 
@@ -98,7 +99,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminScenesController.php line 121
+* This method is defined in [controllers/admin/AdminScenesController.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#121)
 
 
 
@@ -112,7 +113,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminScenesController.php line 134
+* This method is defined in [controllers/admin/AdminScenesController.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#134)
 
 
 
@@ -126,7 +127,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminScenesController.php line 147
+* This method is defined in [controllers/admin/AdminScenesController.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#147)
 
 
 
@@ -140,7 +141,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminScenesController.php line 314
+* This method is defined in [controllers/admin/AdminScenesController.php line 314](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminScenesController.php#314)
 
 
 

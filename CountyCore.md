@@ -9,8 +9,9 @@ CountyCore
 * Class name: CountyCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
+
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
-* This class is defined in classes\County.php line 31
+* This class is defined in [classes/County.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#31)
 
 
 
@@ -25,7 +26,7 @@ Constants
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* This constant is defined in classes\County.php line 54
+* This constant is defined in [classes/County.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#54)
 
 
 ### USE_COUNTY_TAX
@@ -35,7 +36,7 @@ Constants
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* This constant is defined in classes\County.php line 55
+* This constant is defined in [classes/County.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#55)
 
 
 ### USE_STATE_TAX
@@ -45,7 +46,7 @@ Constants
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* This constant is defined in classes\County.php line 56
+* This constant is defined in [classes/County.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#56)
 
 
 Properties
@@ -62,7 +63,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\County.php line 33
+* This property is defined in [classes/County.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#33)
 
 
 ### $name
@@ -75,7 +76,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\County.php line 34
+* This property is defined in [classes/County.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#34)
 
 
 ### $id_state
@@ -88,7 +89,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\County.php line 35
+* This property is defined in [classes/County.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#35)
 
 
 ### $active
@@ -101,7 +102,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\County.php line 36
+* This property is defined in [classes/County.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#36)
 
 
 ### $definition
@@ -115,7 +116,7 @@ Properties
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* This property is defined in classes\County.php line 41
+* This property is defined in [classes/County.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#41)
 
 
 ### $_cache_get_counties
@@ -129,7 +130,7 @@ Properties
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* This property is defined in classes\County.php line 51
+* This property is defined in [classes/County.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#51)
 
 
 ### $_cache_county_zipcode
@@ -143,7 +144,7 @@ Properties
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* This property is defined in classes\County.php line 52
+* This property is defined in [classes/County.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#52)
 
 
 ### $webserviceParameters
@@ -156,7 +157,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\County.php line 58
+* This property is defined in [classes/County.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#58)
 
 
 Methods
@@ -173,7 +174,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\County.php line 64
+* This method is defined in [classes/County.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#64)
 
 
 
@@ -189,7 +190,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\County.php line 72
+* This method is defined in [classes/County.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#72)
 
 
 #### Arguments
@@ -207,7 +208,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\County.php line 81
+* This method is defined in [classes/County.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#81)
 
 
 
@@ -222,7 +223,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\County.php line 90
+* This method is defined in [classes/County.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#90)
 
 
 #### Arguments
@@ -240,7 +241,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\County.php line 99
+* This method is defined in [classes/County.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#99)
 
 
 #### Arguments
@@ -258,7 +259,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\County.php line 108
+* This method is defined in [classes/County.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#108)
 
 
 #### Arguments
@@ -277,7 +278,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\County.php line 117
+* This method is defined in [classes/County.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#117)
 
 
 #### Arguments
@@ -296,7 +297,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\County.php line 126
+* This method is defined in [classes/County.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#126)
 
 
 #### Arguments
@@ -314,7 +315,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\County.php line 135
+* This method is defined in [classes/County.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#135)
 
 
 #### Arguments
@@ -333,7 +334,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\County.php line 144
+* This method is defined in [classes/County.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#144)
 
 
 #### Arguments
@@ -352,7 +353,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\County.php line 153
+* This method is defined in [classes/County.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#153)
 
 
 #### Arguments

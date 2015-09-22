@@ -9,7 +9,8 @@ OrderInvoiceCore
 * Class name: OrderInvoiceCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\order\OrderInvoice.php line 27
+
+* This class is defined in [classes/order/OrderInvoice.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#27)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\order\OrderInvoice.php line 29
+* This constant is defined in [classes/order/OrderInvoice.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#29)
 
 
 ### TAX_INCL
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in classes\order\OrderInvoice.php line 30
+* This constant is defined in [classes/order/OrderInvoice.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#30)
 
 
 ### DETAIL
@@ -41,7 +42,7 @@ Constants
 
 
 
-* This constant is defined in classes\order\OrderInvoice.php line 31
+* This constant is defined in [classes/order/OrderInvoice.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#31)
 
 
 Properties
@@ -57,7 +58,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 34
+* This property is defined in [classes/order/OrderInvoice.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#34)
 
 
 ### $number
@@ -69,7 +70,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 37
+* This property is defined in [classes/order/OrderInvoice.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#37)
 
 
 ### $delivery_number
@@ -81,7 +82,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 40
+* This property is defined in [classes/order/OrderInvoice.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#40)
 
 
 ### $delivery_date
@@ -93,7 +94,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 43
+* This property is defined in [classes/order/OrderInvoice.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#43)
 
 
 ### $total_discount_tax_excl
@@ -105,7 +106,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 46
+* This property is defined in [classes/order/OrderInvoice.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#46)
 
 
 ### $total_discount_tax_incl
@@ -117,7 +118,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 49
+* This property is defined in [classes/order/OrderInvoice.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#49)
 
 
 ### $total_paid_tax_excl
@@ -129,7 +130,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 52
+* This property is defined in [classes/order/OrderInvoice.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#52)
 
 
 ### $total_paid_tax_incl
@@ -141,7 +142,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 55
+* This property is defined in [classes/order/OrderInvoice.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#55)
 
 
 ### $total_products
@@ -153,7 +154,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 58
+* This property is defined in [classes/order/OrderInvoice.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#58)
 
 
 ### $total_products_wt
@@ -165,7 +166,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 61
+* This property is defined in [classes/order/OrderInvoice.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#61)
 
 
 ### $total_shipping_tax_excl
@@ -177,7 +178,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 64
+* This property is defined in [classes/order/OrderInvoice.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#64)
 
 
 ### $total_shipping_tax_incl
@@ -189,7 +190,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 67
+* This property is defined in [classes/order/OrderInvoice.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#67)
 
 
 ### $shipping_tax_computation_method
@@ -201,7 +202,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 70
+* This property is defined in [classes/order/OrderInvoice.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#70)
 
 
 ### $total_wrapping_tax_excl
@@ -213,7 +214,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 73
+* This property is defined in [classes/order/OrderInvoice.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#73)
 
 
 ### $total_wrapping_tax_incl
@@ -225,7 +226,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 76
+* This property is defined in [classes/order/OrderInvoice.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#76)
 
 
 ### $shop_address
@@ -237,7 +238,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 79
+* This property is defined in [classes/order/OrderInvoice.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#79)
 
 
 ### $invoice_address
@@ -249,7 +250,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 82
+* This property is defined in [classes/order/OrderInvoice.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#82)
 
 
 ### $delivery_address
@@ -261,7 +262,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 85
+* This property is defined in [classes/order/OrderInvoice.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#85)
 
 
 ### $note
@@ -273,7 +274,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 88
+* This property is defined in [classes/order/OrderInvoice.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#88)
 
 
 ### $date_add
@@ -285,7 +286,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderInvoice.php line 91
+* This property is defined in [classes/order/OrderInvoice.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#91)
 
 
 ### $_total_paid_cache
@@ -298,7 +299,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\order\OrderInvoice.php line 94
+* This property is defined in [classes/order/OrderInvoice.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#94)
 
 
 ### $order
@@ -310,7 +311,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\order\OrderInvoice.php line 97
+* This property is defined in [classes/order/OrderInvoice.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#97)
 
 
 ### $definition
@@ -323,7 +324,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\order\OrderInvoice.php line 102
+* This property is defined in [classes/order/OrderInvoice.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#102)
 
 
 Methods
@@ -339,7 +340,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 129
+* This method is defined in [classes/order/OrderInvoice.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#129)
 
 
 #### Arguments
@@ -357,7 +358,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 146
+* This method is defined in [classes/order/OrderInvoice.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#146)
 
 
 
@@ -372,7 +373,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderInvoice.php line 158
+* This method is defined in [classes/order/OrderInvoice.php line 158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#158)
 
 
 #### Arguments
@@ -389,7 +390,7 @@ Get order products
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 186
+* This method is defined in [classes/order/OrderInvoice.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#186)
 
 
 #### Arguments
@@ -408,7 +409,7 @@ Get order products
 
 
 * Visibility: **protected**
-* This method is defined in classes\order\OrderInvoice.php line 267
+* This method is defined in [classes/order/OrderInvoice.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#267)
 
 
 #### Arguments
@@ -426,7 +427,7 @@ This method allow to add stock information on a product detail
 
 
 * Visibility: **protected**
-* This method is defined in classes\order\OrderInvoice.php line 282
+* This method is defined in [classes/order/OrderInvoice.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#282)
 
 
 #### Arguments
@@ -443,7 +444,7 @@ This method allow to add image information on a product detail
 
 
 * Visibility: **protected**
-* This method is defined in classes\order\OrderInvoice.php line 298
+* This method is defined in [classes/order/OrderInvoice.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#298)
 
 
 #### Arguments
@@ -461,7 +462,7 @@ One After Another tax computation method.
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 331
+* This method is defined in [classes/order/OrderInvoice.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#331)
 
 
 
@@ -475,7 +476,7 @@ One After Another tax computation method.
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 344
+* This method is defined in [classes/order/OrderInvoice.php line 344](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#344)
 
 
 
@@ -489,7 +490,7 @@ One After Another tax computation method.
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 349
+* This method is defined in [classes/order/OrderInvoice.php line 349](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#349)
 
 
 
@@ -503,7 +504,7 @@ One After Another tax computation method.
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 358
+* This method is defined in [classes/order/OrderInvoice.php line 358](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#358)
 
 
 #### Arguments
@@ -520,7 +521,7 @@ Returns the shipping taxes breakdown
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 425
+* This method is defined in [classes/order/OrderInvoice.php line 425](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#425)
 
 
 #### Arguments
@@ -537,7 +538,7 @@ Returns the wrapping taxes breakdown
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 494
+* This method is defined in [classes/order/OrderInvoice.php line 494](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#494)
 
 
 
@@ -551,7 +552,7 @@ Returns the ecotax taxes breakdown
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 557
+* This method is defined in [classes/order/OrderInvoice.php line 557](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#557)
 
 
 
@@ -566,7 +567,7 @@ Returns all the order invoice that match the date interval
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderInvoice.php line 585
+* This method is defined in [classes/order/OrderInvoice.php line 585](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#585)
 
 
 #### Arguments
@@ -585,7 +586,7 @@ Returns all the order invoice that match the date interval
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderInvoice.php line 606
+* This method is defined in [classes/order/OrderInvoice.php line 606](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#606)
 
 
 #### Arguments
@@ -603,7 +604,7 @@ Returns all the order invoice that match the date interval
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderInvoice.php line 627
+* This method is defined in [classes/order/OrderInvoice.php line 627](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#627)
 
 
 #### Arguments
@@ -622,7 +623,7 @@ Returns all the order invoice that match the date interval
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderInvoice.php line 646
+* This method is defined in [classes/order/OrderInvoice.php line 646](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#646)
 
 
 #### Arguments
@@ -640,7 +641,7 @@ Returns all the order invoice that match the date interval
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderInvoice.php line 660
+* This method is defined in [classes/order/OrderInvoice.php line 660](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#660)
 
 
 #### Arguments
@@ -658,7 +659,7 @@ Returns all the order invoice that match the date interval
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderInvoice.php line 674
+* This method is defined in [classes/order/OrderInvoice.php line 674](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#674)
 
 
 #### Arguments
@@ -675,7 +676,7 @@ Amounts of payments
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 688
+* This method is defined in [classes/order/OrderInvoice.php line 688](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#688)
 
 
 
@@ -689,7 +690,7 @@ Rest Paid
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 709
+* This method is defined in [classes/order/OrderInvoice.php line 709](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#709)
 
 
 
@@ -703,7 +704,7 @@ Return collection of order invoice object linked to the payments of the current 
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 720
+* This method is defined in [classes/order/OrderInvoice.php line 720](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#720)
 
 
 
@@ -717,7 +718,7 @@ Return total to paid of sibling invoices
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 753
+* This method is defined in [classes/order/OrderInvoice.php line 753](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#753)
 
 
 #### Arguments
@@ -736,7 +737,7 @@ Get global rest to paid
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 782
+* This method is defined in [classes/order/OrderInvoice.php line 782](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#782)
 
 
 
@@ -750,7 +751,7 @@ Get global rest to paid
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 812
+* This method is defined in [classes/order/OrderInvoice.php line 812](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#812)
 
 
 
@@ -764,7 +765,7 @@ Get global rest to paid
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 821
+* This method is defined in [classes/order/OrderInvoice.php line 821](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#821)
 
 
 
@@ -778,7 +779,7 @@ Get the formatted number of invoice
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 832
+* This method is defined in [classes/order/OrderInvoice.php line 832](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#832)
 
 
 #### Arguments
@@ -796,7 +797,7 @@ Get the formatted number of invoice
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 848
+* This method is defined in [classes/order/OrderInvoice.php line 848](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#848)
 
 
 #### Arguments
@@ -813,7 +814,7 @@ Get the formatted number of invoice
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderInvoice.php line 861
+* This method is defined in [classes/order/OrderInvoice.php line 861](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#861)
 
 
 #### Arguments
@@ -831,7 +832,7 @@ Get the formatted number of invoice
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderInvoice.php line 874
+* This method is defined in [classes/order/OrderInvoice.php line 874](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#874)
 
 
 #### Arguments
@@ -851,7 +852,7 @@ This method is triggered once during a (non bulk) creation of a PDF from an Orde
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderInvoice.php line 895
+* This method is defined in [classes/order/OrderInvoice.php line 895](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#895)
 
 
 

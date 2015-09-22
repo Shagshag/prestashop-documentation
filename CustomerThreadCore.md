@@ -9,7 +9,8 @@ CustomerThreadCore
 * Class name: CustomerThreadCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\CustomerThread.php line 27
+
+* This class is defined in [classes/CustomerThread.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerThread.php line 29
+* This property is defined in [classes/CustomerThread.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#29)
 
 
 ### $id_shop
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerThread.php line 30
+* This property is defined in [classes/CustomerThread.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#30)
 
 
 ### $id_lang
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerThread.php line 31
+* This property is defined in [classes/CustomerThread.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#31)
 
 
 ### $id_contact
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerThread.php line 32
+* This property is defined in [classes/CustomerThread.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#32)
 
 
 ### $id_customer
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerThread.php line 33
+* This property is defined in [classes/CustomerThread.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#33)
 
 
 ### $id_order
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerThread.php line 34
+* This property is defined in [classes/CustomerThread.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#34)
 
 
 ### $id_product
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerThread.php line 35
+* This property is defined in [classes/CustomerThread.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#35)
 
 
 ### $status
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerThread.php line 36
+* This property is defined in [classes/CustomerThread.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#36)
 
 
 ### $email
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerThread.php line 37
+* This property is defined in [classes/CustomerThread.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#37)
 
 
 ### $token
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerThread.php line 38
+* This property is defined in [classes/CustomerThread.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#38)
 
 
 ### $date_add
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerThread.php line 39
+* This property is defined in [classes/CustomerThread.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#39)
 
 
 ### $date_upd
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerThread.php line 40
+* This property is defined in [classes/CustomerThread.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#40)
 
 
 ### $definition
@@ -173,7 +174,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\CustomerThread.php line 45
+* This property is defined in [classes/CustomerThread.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#45)
 
 
 ### $webserviceParameters
@@ -185,7 +186,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\CustomerThread.php line 63
+* This property is defined in [classes/CustomerThread.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#63)
 
 
 Methods
@@ -201,7 +202,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\CustomerThread.php line 88
+* This method is defined in [classes/CustomerThread.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#88)
 
 
 
@@ -215,7 +216,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\CustomerThread.php line 96
+* This method is defined in [classes/CustomerThread.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#96)
 
 
 
@@ -230,7 +231,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CustomerThread.php line 123
+* This method is defined in [classes/CustomerThread.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#123)
 
 
 #### Arguments
@@ -250,7 +251,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CustomerThread.php line 141
+* This method is defined in [classes/CustomerThread.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#141)
 
 
 #### Arguments
@@ -269,7 +270,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CustomerThread.php line 152
+* This method is defined in [classes/CustomerThread.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#152)
 
 
 
@@ -284,7 +285,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CustomerThread.php line 174
+* This method is defined in [classes/CustomerThread.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#174)
 
 
 #### Arguments
@@ -302,7 +303,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CustomerThread.php line 191
+* This method is defined in [classes/CustomerThread.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#191)
 
 
 #### Arguments
@@ -320,7 +321,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CustomerThread.php line 210
+* This method is defined in [classes/CustomerThread.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerThread.php#210)
 
 
 #### Arguments

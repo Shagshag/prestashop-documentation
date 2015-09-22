@@ -9,7 +9,8 @@ OrderFollowControllerCore
 * Class name: OrderFollowControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\OrderFollowController.php line 27
+
+* This class is defined in [controllers/front/OrderFollowController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderFollowController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderFollowController.php line 29
+* This property is defined in [controllers/front/OrderFollowController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderFollowController.php#29)
 
 
 ### $php_self
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderFollowController.php line 30
+* This property is defined in [controllers/front/OrderFollowController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderFollowController.php#30)
 
 
 ### $authRedirection
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderFollowController.php line 31
+* This property is defined in [controllers/front/OrderFollowController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderFollowController.php#31)
 
 
 ### $ssl
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderFollowController.php line 32
+* This property is defined in [controllers/front/OrderFollowController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderFollowController.php#32)
 
 
 Methods
@@ -80,7 +81,7 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderFollowController.php line 38
+* This method is defined in [controllers/front/OrderFollowController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderFollowController.php#38)
 
 
 
@@ -94,7 +95,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderFollowController.php line 91
+* This method is defined in [controllers/front/OrderFollowController.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderFollowController.php#91)
 
 
 
@@ -108,7 +109,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderFollowController.php line 120
+* This method is defined in [controllers/front/OrderFollowController.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderFollowController.php#120)
 
 
 

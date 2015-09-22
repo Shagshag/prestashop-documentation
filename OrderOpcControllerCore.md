@@ -9,7 +9,8 @@ OrderOpcControllerCore
 * Class name: OrderOpcControllerCore
 * Namespace: 
 * Parent class: [ParentOrderController](ParentOrderControllerCore)
-* This class is defined in controllers\front\OrderOpcController.php line 27
+
+* This class is defined in [controllers/front/OrderOpcController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderOpcController.php line 29
+* This property is defined in [controllers/front/OrderOpcController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#29)
 
 
 ### $isLogged
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderOpcController.php line 30
+* This property is defined in [controllers/front/OrderOpcController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#30)
 
 
 ### $ajax_refresh
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\OrderOpcController.php line 32
+* This property is defined in [controllers/front/OrderOpcController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#32)
 
 
 Methods
@@ -68,7 +69,7 @@ Initialize order opc controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderOpcController.php line 38
+* This method is defined in [controllers/front/OrderOpcController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#38)
 
 
 
@@ -82,7 +83,7 @@ Initialize order opc controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderOpcController.php line 325
+* This method is defined in [controllers/front/OrderOpcController.php line 325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#325)
 
 
 
@@ -96,7 +97,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderOpcController.php line 351
+* This method is defined in [controllers/front/OrderOpcController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#351)
 
 
 
@@ -110,7 +111,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\OrderOpcController.php line 437
+* This method is defined in [controllers/front/OrderOpcController.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#437)
 
 
 
@@ -124,7 +125,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\OrderOpcController.php line 506
+* This method is defined in [controllers/front/OrderOpcController.php line 506](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#506)
 
 
 
@@ -138,7 +139,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\OrderOpcController.php line 527
+* This method is defined in [controllers/front/OrderOpcController.php line 527](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#527)
 
 
 
@@ -152,7 +153,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\OrderOpcController.php line 544
+* This method is defined in [controllers/front/OrderOpcController.php line 544](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#544)
 
 
 
@@ -166,7 +167,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\OrderOpcController.php line 609
+* This method is defined in [controllers/front/OrderOpcController.php line 609](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#609)
 
 
 
@@ -180,7 +181,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\OrderOpcController.php line 695
+* This method is defined in [controllers/front/OrderOpcController.php line 695](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#695)
 
 
 
@@ -194,7 +195,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\OrderOpcController.php line 738
+* This method is defined in [controllers/front/OrderOpcController.php line 738](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderOpcController.php#738)
 
 
 

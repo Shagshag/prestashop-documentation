@@ -9,7 +9,8 @@ ParentOrderControllerCore
 * Class name: ParentOrderControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\ParentOrderController.php line 37
+
+* This class is defined in [controllers/front/ParentOrderController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#37)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\ParentOrderController.php line 39
+* This property is defined in [controllers/front/ParentOrderController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#39)
 
 
 ### $php_self
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\ParentOrderController.php line 40
+* This property is defined in [controllers/front/ParentOrderController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#40)
 
 
 ### $nbProducts
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\ParentOrderController.php line 42
+* This property is defined in [controllers/front/ParentOrderController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#42)
 
 
 Methods
@@ -68,7 +69,7 @@ Initialize parent order controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ParentOrderController.php line 48
+* This method is defined in [controllers/front/ParentOrderController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#48)
 
 
 
@@ -82,7 +83,7 @@ Initialize parent order controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ParentOrderController.php line 141
+* This method is defined in [controllers/front/ParentOrderController.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#141)
 
 
 
@@ -96,7 +97,7 @@ Check if order is free
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ParentOrderController.php line 167
+* This method is defined in [controllers/front/ParentOrderController.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#167)
 
 
 
@@ -110,7 +111,7 @@ Check if order is free
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ParentOrderController.php line 178
+* This method is defined in [controllers/front/ParentOrderController.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#178)
 
 
 #### Arguments
@@ -127,7 +128,7 @@ Check if order is free
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ParentOrderController.php line 203
+* This method is defined in [controllers/front/ParentOrderController.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#203)
 
 
 
@@ -141,7 +142,7 @@ Validate get/post param delivery option
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ParentOrderController.php line 269
+* This method is defined in [controllers/front/ParentOrderController.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#269)
 
 
 #### Arguments
@@ -158,7 +159,7 @@ Validate get/post param delivery option
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ParentOrderController.php line 284
+* This method is defined in [controllers/front/ParentOrderController.php line 284](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#284)
 
 
 
@@ -172,7 +173,7 @@ Validate get/post param delivery option
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ParentOrderController.php line 376
+* This method is defined in [controllers/front/ParentOrderController.php line 376](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#376)
 
 
 
@@ -186,7 +187,7 @@ Validate get/post param delivery option
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ParentOrderController.php line 479
+* This method is defined in [controllers/front/ParentOrderController.php line 479](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#479)
 
 
 
@@ -200,7 +201,7 @@ Validate get/post param delivery option
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ParentOrderController.php line 514
+* This method is defined in [controllers/front/ParentOrderController.php line 514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#514)
 
 
 
@@ -214,7 +215,7 @@ Validate get/post param delivery option
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ParentOrderController.php line 556
+* This method is defined in [controllers/front/ParentOrderController.php line 556](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#556)
 
 
 
@@ -228,7 +229,7 @@ Set id_carrier to 0 (no shipping price)
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ParentOrderController.php line 586
+* This method is defined in [controllers/front/ParentOrderController.php line 586](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#586)
 
 
 
@@ -242,7 +243,7 @@ Decides what the default carrier is and update the cart with it
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ParentOrderController.php line 603
+* This method is defined in [controllers/front/ParentOrderController.php line 603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#603)
 
 
 #### Arguments
@@ -259,7 +260,7 @@ Decides what the default carrier is and update the cart with it
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ParentOrderController.php line 619
+* This method is defined in [controllers/front/ParentOrderController.php line 619](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#619)
 
 
 #### Arguments

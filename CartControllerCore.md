@@ -9,7 +9,8 @@ CartControllerCore
 * Class name: CartControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\CartController.php line 27
+
+* This class is defined in [controllers/front/CartController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\CartController.php line 29
+* This property is defined in [controllers/front/CartController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#29)
 
 
 ### $id_product
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\CartController.php line 31
+* This property is defined in [controllers/front/CartController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#31)
 
 
 ### $id_product_attribute
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\CartController.php line 32
+* This property is defined in [controllers/front/CartController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#32)
 
 
 ### $id_address_delivery
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\CartController.php line 33
+* This property is defined in [controllers/front/CartController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#33)
 
 
 ### $customization_id
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\CartController.php line 34
+* This property is defined in [controllers/front/CartController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#34)
 
 
 ### $qty
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\CartController.php line 35
+* This property is defined in [controllers/front/CartController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#35)
 
 
 ### $ssl
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\CartController.php line 36
+* This property is defined in [controllers/front/CartController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#36)
 
 
 ### $ajax_refresh
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\CartController.php line 38
+* This property is defined in [controllers/front/CartController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#38)
 
 
 Methods
@@ -128,7 +129,7 @@ This is not a public page, so the canonical redirection is disabled
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\CartController.php line 45
+* This method is defined in [controllers/front/CartController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#45)
 
 
 #### Arguments
@@ -145,7 +146,7 @@ Initialize cart controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\CartController.php line 53
+* This method is defined in [controllers/front/CartController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#53)
 
 
 
@@ -159,7 +160,7 @@ Initialize cart controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\CartController.php line 68
+* This method is defined in [controllers/front/CartController.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#68)
 
 
 
@@ -173,7 +174,7 @@ This process delete a product from the cart
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\CartController.php line 108
+* This method is defined in [controllers/front/CartController.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#108)
 
 
 
@@ -187,7 +188,7 @@ This process delete a product from the cart
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\CartController.php line 157
+* This method is defined in [controllers/front/CartController.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#157)
 
 
 
@@ -201,7 +202,7 @@ This process delete a product from the cart
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\CartController.php line 180
+* This method is defined in [controllers/front/CartController.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#180)
 
 
 
@@ -215,7 +216,7 @@ This process delete a product from the cart
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\CartController.php line 195
+* This method is defined in [controllers/front/CartController.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#195)
 
 
 
@@ -229,7 +230,7 @@ This process add or update a product in the cart
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\CartController.php line 216
+* This method is defined in [controllers/front/CartController.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#216)
 
 
 
@@ -243,7 +244,7 @@ Remove discounts on cart
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\CartController.php line 331
+* This method is defined in [controllers/front/CartController.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#331)
 
 
 
@@ -257,7 +258,7 @@ Remove discounts on cart
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\CartController.php line 340
+* This method is defined in [controllers/front/CartController.php line 340](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#340)
 
 
 
@@ -271,7 +272,7 @@ Display ajax content (this function is called instead of classic display, in aja
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\CartController.php line 351
+* This method is defined in [controllers/front/CartController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/CartController.php#351)
 
 
 

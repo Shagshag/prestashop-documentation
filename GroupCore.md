@@ -9,7 +9,8 @@ GroupCore
 * Class name: GroupCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Group.php line 27
+
+* This class is defined in [classes/Group.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Group.php line 29
+* This property is defined in [classes/Group.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#29)
 
 
 ### $name
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Group.php line 32
+* This property is defined in [classes/Group.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#32)
 
 
 ### $reduction
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Group.php line 35
+* This property is defined in [classes/Group.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#35)
 
 
 ### $price_display_method
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Group.php line 38
+* This property is defined in [classes/Group.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#38)
 
 
 ### $show_prices
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Group.php line 41
+* This property is defined in [classes/Group.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#41)
 
 
 ### $date_add
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Group.php line 44
+* This property is defined in [classes/Group.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#44)
 
 
 ### $date_upd
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Group.php line 47
+* This property is defined in [classes/Group.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#47)
 
 
 ### $definition
@@ -113,7 +114,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Group.php line 52
+* This property is defined in [classes/Group.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#52)
 
 
 ### $cache_reduction
@@ -126,7 +127,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Group.php line 68
+* This property is defined in [classes/Group.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#68)
 
 
 ### $group_price_display_method
@@ -139,7 +140,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Group.php line 69
+* This property is defined in [classes/Group.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#69)
 
 
 ### $webserviceParameters
@@ -151,7 +152,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Group.php line 71
+* This property is defined in [classes/Group.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#71)
 
 
 Methods
@@ -167,7 +168,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Group.php line 73
+* This method is defined in [classes/Group.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#73)
 
 
 #### Arguments
@@ -187,7 +188,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 81
+* This method is defined in [classes/Group.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#81)
 
 
 #### Arguments
@@ -205,7 +206,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Group.php line 96
+* This method is defined in [classes/Group.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#96)
 
 
 #### Arguments
@@ -226,7 +227,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 118
+* This method is defined in [classes/Group.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#118)
 
 
 #### Arguments
@@ -244,7 +245,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 127
+* This method is defined in [classes/Group.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#127)
 
 
 #### Arguments
@@ -262,7 +263,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 138
+* This method is defined in [classes/Group.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#138)
 
 
 #### Arguments
@@ -280,7 +281,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 149
+* This method is defined in [classes/Group.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#149)
 
 
 
@@ -294,7 +295,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Group.php line 154
+* This method is defined in [classes/Group.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#154)
 
 
 #### Arguments
@@ -312,7 +313,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Group.php line 165
+* This method is defined in [classes/Group.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#165)
 
 
 #### Arguments
@@ -330,7 +331,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Group.php line 173
+* This method is defined in [classes/Group.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#173)
 
 
 
@@ -345,7 +346,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 213
+* This method is defined in [classes/Group.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#213)
 
 
 
@@ -360,7 +361,7 @@ This method is allow to know if there are other groups than the default ones
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 229
+* This method is defined in [classes/Group.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#229)
 
 
 #### Arguments
@@ -379,7 +380,7 @@ Truncate all modules restrictions for the group
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 240
+* This method is defined in [classes/Group.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#240)
 
 
 #### Arguments
@@ -397,7 +398,7 @@ Truncate all restrictions by module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 253
+* This method is defined in [classes/Group.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#253)
 
 
 #### Arguments
@@ -415,7 +416,7 @@ Adding restrictions modules to the group with id $id_group
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 267
+* This method is defined in [classes/Group.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#267)
 
 
 #### Arguments
@@ -435,7 +436,7 @@ We authorize every groups to the new module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 295
+* This method is defined in [classes/Group.php line 295](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#295)
 
 
 #### Arguments
@@ -455,7 +456,7 @@ Use context
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 316
+* This method is defined in [classes/Group.php line 316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#316)
 
 
 
@@ -470,7 +471,7 @@ Light back office search for Group
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Group.php line 357
+* This method is defined in [classes/Group.php line 357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Group.php#357)
 
 
 #### Arguments

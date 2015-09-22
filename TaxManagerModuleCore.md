@@ -10,7 +10,8 @@ TaxManagerModuleCore
 * Namespace: 
 * This is an **abstract** class
 * Parent class: [Module](ModuleCore)
-* This class is defined in classes\tax\TaxManagerModule.php line 27
+
+* This class is defined in [classes/tax/TaxManagerModule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#27)
 
 
 
@@ -29,7 +30,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxManagerModule.php line 29
+* This property is defined in [classes/tax/TaxManagerModule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#29)
 
 
 Methods
@@ -45,7 +46,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\TaxManagerModule.php line 31
+* This method is defined in [classes/tax/TaxManagerModule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#31)
 
 
 
@@ -59,7 +60,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\TaxManagerModule.php line 36
+* This method is defined in [classes/tax/TaxManagerModule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerModule.php#36)
 
 
 #### Arguments

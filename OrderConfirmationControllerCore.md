@@ -9,7 +9,8 @@ OrderConfirmationControllerCore
 * Class name: OrderConfirmationControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\OrderConfirmationController.php line 27
+
+* This class is defined in [controllers/front/OrderConfirmationController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderConfirmationController.php line 29
+* This property is defined in [controllers/front/OrderConfirmationController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#29)
 
 
 ### $php_self
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderConfirmationController.php line 30
+* This property is defined in [controllers/front/OrderConfirmationController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#30)
 
 
 ### $id_cart
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderConfirmationController.php line 31
+* This property is defined in [controllers/front/OrderConfirmationController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#31)
 
 
 ### $id_module
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderConfirmationController.php line 32
+* This property is defined in [controllers/front/OrderConfirmationController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#32)
 
 
 ### $id_order
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderConfirmationController.php line 33
+* This property is defined in [controllers/front/OrderConfirmationController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#33)
 
 
 ### $reference
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderConfirmationController.php line 34
+* This property is defined in [controllers/front/OrderConfirmationController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#34)
 
 
 ### $secure_key
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderConfirmationController.php line 35
+* This property is defined in [controllers/front/OrderConfirmationController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#35)
 
 
 Methods
@@ -116,7 +117,7 @@ Initialize order confirmation controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderConfirmationController.php line 41
+* This method is defined in [controllers/front/OrderConfirmationController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#41)
 
 
 
@@ -130,7 +131,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderConfirmationController.php line 81
+* This method is defined in [controllers/front/OrderConfirmationController.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#81)
 
 
 
@@ -144,7 +145,7 @@ Execute the hook displayPaymentReturn
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderConfirmationController.php line 108
+* This method is defined in [controllers/front/OrderConfirmationController.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#108)
 
 
 
@@ -158,7 +159,7 @@ Execute the hook displayOrderConfirmation
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderConfirmationController.php line 130
+* This method is defined in [controllers/front/OrderConfirmationController.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderConfirmationController.php#130)
 
 
 

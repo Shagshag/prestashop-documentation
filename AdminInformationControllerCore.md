@@ -9,7 +9,8 @@ AdminInformationControllerCore
 * Class name: AdminInformationControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminInformationController.php line 27
+
+* This class is defined in [controllers/admin/AdminInformationController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#27)
 
 
 
@@ -30,7 +31,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInformationController.php line 29
+* This method is defined in [controllers/admin/AdminInformationController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#29)
 
 
 
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInformationController.php line 35
+* This method is defined in [controllers/admin/AdminInformationController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#35)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInformationController.php line 42
+* This method is defined in [controllers/admin/AdminInformationController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#42)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInformationController.php line 47
+* This method is defined in [controllers/admin/AdminInformationController.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#47)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInformationController.php line 53
+* This method is defined in [controllers/admin/AdminInformationController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#53)
 
 
 
@@ -100,7 +101,7 @@ get all tests
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInformationController.php line 106
+* This method is defined in [controllers/admin/AdminInformationController.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#106)
 
 
 
@@ -114,7 +115,7 @@ get all tests
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInformationController.php line 165
+* This method is defined in [controllers/admin/AdminInformationController.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#165)
 
 
 
@@ -128,7 +129,7 @@ get all tests
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminInformationController.php line 177
+* This method is defined in [controllers/admin/AdminInformationController.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminInformationController.php#177)
 
 
 #### Arguments

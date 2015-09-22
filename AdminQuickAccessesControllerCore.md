@@ -9,7 +9,8 @@ AdminQuickAccessesControllerCore
 * Class name: AdminQuickAccessesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminQuickAccessesController.php line 30
+
+* This class is defined in [controllers/admin/AdminQuickAccessesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminQuickAccessesController.php line 30
+* This property is defined in [controllers/admin/AdminQuickAccessesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminQuickAccessesController.php line 32
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminQuickAccessesController.php line 127
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#127)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminQuickAccessesController.php line 140
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#140)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminQuickAccessesController.php line 153
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#153)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminQuickAccessesController.php line 159
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#159)
 
 
 #### Arguments
@@ -117,7 +118,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminQuickAccessesController.php line 168
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#168)
 
 
 
@@ -131,7 +132,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminQuickAccessesController.php line 204
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#204)
 
 
 
@@ -145,7 +146,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminQuickAccessesController.php line 210
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#210)
 
 
 
@@ -159,7 +160,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminQuickAccessesController.php line 227
+* This method is defined in [controllers/admin/AdminQuickAccessesController.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminQuickAccessesController.php#227)
 
 
 

@@ -9,7 +9,8 @@ AdminPerformanceControllerCore
 * Class name: AdminPerformanceControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminPerformanceController.php line 30
+
+* This class is defined in [controllers/admin/AdminPerformanceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminPerformanceController.php line 30
+* This property is defined in [controllers/admin/AdminPerformanceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 32
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 39
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#39)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 144
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#144)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 202
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#202)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 286
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#286)
 
 
 
@@ -114,7 +115,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 421
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#421)
 
 
 
@@ -128,7 +129,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 463
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 463](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#463)
 
 
 
@@ -142,7 +143,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 512
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 512](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#512)
 
 
 
@@ -156,7 +157,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 618
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 618](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#618)
 
 
 
@@ -170,7 +171,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 640
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 640](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#640)
 
 
 
@@ -184,7 +185,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 659
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 659](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#659)
 
 
 
@@ -198,7 +199,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 670
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 670](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#670)
 
 
 
@@ -212,7 +213,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPerformanceController.php line 990
+* This method is defined in [controllers/admin/AdminPerformanceController.php line 990](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#990)
 
 
 

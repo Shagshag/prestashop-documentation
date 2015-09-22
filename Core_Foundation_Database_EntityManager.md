@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Core_Foundation_Database_EntityManager
 * Namespace: 
-* This class is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 27
+
+* This class is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#27)
 
 
 
@@ -41,7 +42,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 29
+* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#29)
 
 
 ### $configuration
@@ -53,7 +54,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 30
+* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#30)
 
 
 ### $entityMetaData
@@ -65,7 +66,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 32
+* This property is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#32)
 
 
 Methods
@@ -81,7 +82,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 34
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#34)
 
 
 #### Arguments
@@ -99,7 +100,7 @@ Return current database object used
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 46
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#46)
 
 
 
@@ -113,7 +114,7 @@ Return current repository used
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 56
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#56)
 
 
 #### Arguments
@@ -130,7 +131,7 @@ Return entity's meta data
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 83
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#83)
 
 
 #### Arguments
@@ -147,7 +148,7 @@ Flush entity to DB
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 98
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#98)
 
 
 #### Arguments
@@ -164,7 +165,7 @@ DElete entity from DB
 
 
 * Visibility: **public**
-* This method is defined in Core\Foundation\Database\Core_Foundation_Database_EntityManager.php line 109
+* This method is defined in [Core/Foundation/Database/Core_Foundation_Database_EntityManager.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_EntityManager.php#109)
 
 
 #### Arguments

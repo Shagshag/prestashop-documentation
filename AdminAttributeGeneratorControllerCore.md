@@ -9,7 +9,8 @@ AdminAttributeGeneratorControllerCore
 * Class name: AdminAttributeGeneratorControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminAttributeGeneratorController.php line 32
+
+* This class is defined in [controllers/admin/AdminAttributeGeneratorController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#32)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminAttributeGeneratorController.php line 34
+* This property is defined in [controllers/admin/AdminAttributeGeneratorController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#34)
 
 
 ### $product
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminAttributeGeneratorController.php line 37
+* This property is defined in [controllers/admin/AdminAttributeGeneratorController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#37)
 
 
 ### $object
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminAttributeGeneratorController.php line 32
+* This property is defined in [controllers/admin/AdminAttributeGeneratorController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#32)
 
 
 Methods
@@ -68,7 +69,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 39
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#39)
 
 
 
@@ -82,7 +83,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 49
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#49)
 
 
 
@@ -96,7 +97,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 55
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#55)
 
 
 #### Arguments
@@ -116,7 +117,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 76
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#76)
 
 
 #### Arguments
@@ -133,7 +134,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 92
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#92)
 
 
 
@@ -147,7 +148,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 108
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#108)
 
 
 
@@ -161,7 +162,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 115
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#115)
 
 
 
@@ -176,7 +177,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 175
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#175)
 
 
 #### Arguments
@@ -194,7 +195,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 192
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#192)
 
 
 
@@ -208,7 +209,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 212
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#212)
 
 
 
@@ -222,7 +223,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 223
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#223)
 
 
 #### Arguments
@@ -240,7 +241,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributeGeneratorController.php line 229
+* This method is defined in [controllers/admin/AdminAttributeGeneratorController.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#229)
 
 
 

@@ -9,7 +9,8 @@ HelperTreeCategoriesCore
 * Class name: HelperTreeCategoriesCore
 * Namespace: 
 * Parent class: [TreeCore](TreeCore)
-* This class is defined in classes\helper\HelperTreeCategories.php line 27
+
+* This class is defined in [classes/helper/HelperTreeCategories.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#27)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\helper\HelperTreeCategories.php line 30
+* This constant is defined in [classes/helper/HelperTreeCategories.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#30)
 
 
 ### DEFAULT_NODE_FOLDER_TEMPLATE
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in classes\helper\HelperTreeCategories.php line 32
+* This constant is defined in [classes/helper/HelperTreeCategories.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#32)
 
 
 ### DEFAULT_NODE_ITEM_TEMPLATE
@@ -41,7 +42,7 @@ Constants
 
 
 
-* This constant is defined in classes\helper\HelperTreeCategories.php line 33
+* This constant is defined in [classes/helper/HelperTreeCategories.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#33)
 
 
 ### DEFAULT_TEMPLATE_DIRECTORY
@@ -50,7 +51,7 @@ Constants
 
 
 
-* This constant is defined in classes\helper\HelperTreeCategories.php line 29
+* This constant is defined in [classes/helper/HelperTreeCategories.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#29)
 
 
 ### DEFAULT_HEADER_TEMPLATE
@@ -59,7 +60,7 @@ Constants
 
 
 
-* This constant is defined in classes\helper\HelperTreeCategories.php line 31
+* This constant is defined in [classes/helper/HelperTreeCategories.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#31)
 
 
 Properties
@@ -75,7 +76,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 33
+* This property is defined in [classes/helper/HelperTreeCategories.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#33)
 
 
 ### $_input_name
@@ -87,7 +88,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 34
+* This property is defined in [classes/helper/HelperTreeCategories.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#34)
 
 
 ### $_lang
@@ -99,7 +100,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 35
+* This property is defined in [classes/helper/HelperTreeCategories.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#35)
 
 
 ### $_root_category
@@ -111,7 +112,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 36
+* This property is defined in [classes/helper/HelperTreeCategories.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#36)
 
 
 ### $_selected_categories
@@ -123,7 +124,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 37
+* This property is defined in [classes/helper/HelperTreeCategories.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#37)
 
 
 ### $_full_tree
@@ -135,7 +136,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 38
+* This property is defined in [classes/helper/HelperTreeCategories.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#38)
 
 
 ### $_shop
@@ -147,7 +148,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 39
+* This property is defined in [classes/helper/HelperTreeCategories.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#39)
 
 
 ### $_use_checkbox
@@ -159,7 +160,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 40
+* This property is defined in [classes/helper/HelperTreeCategories.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#40)
 
 
 ### $_use_search
@@ -171,7 +172,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 41
+* This property is defined in [classes/helper/HelperTreeCategories.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#41)
 
 
 ### $_use_shop_restriction
@@ -183,7 +184,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 42
+* This property is defined in [classes/helper/HelperTreeCategories.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#42)
 
 
 ### $_children_only
@@ -195,7 +196,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 43
+* This property is defined in [classes/helper/HelperTreeCategories.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#43)
 
 
 ### $_attributes
@@ -207,7 +208,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperTreeCategories.php line 35
+* This property is defined in [classes/helper/HelperTreeCategories.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#35)
 
 
 ### $_context
@@ -219,7 +220,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 36
+* This property is defined in [classes/helper/HelperTreeCategories.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#36)
 
 
 ### $_data
@@ -231,7 +232,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperTreeCategories.php line 37
+* This property is defined in [classes/helper/HelperTreeCategories.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#37)
 
 
 ### $_data_search
@@ -243,7 +244,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperTreeCategories.php line 38
+* This property is defined in [classes/helper/HelperTreeCategories.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#38)
 
 
 ### $_headerTemplate
@@ -255,7 +256,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperTreeCategories.php line 39
+* This property is defined in [classes/helper/HelperTreeCategories.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#39)
 
 
 ### $_id_tree
@@ -267,7 +268,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperTreeCategories.php line 40
+* This property is defined in [classes/helper/HelperTreeCategories.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#40)
 
 
 ### $_id
@@ -279,7 +280,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 41
+* This property is defined in [classes/helper/HelperTreeCategories.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#41)
 
 
 ### $_node_folder_template
@@ -291,7 +292,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperTreeCategories.php line 42
+* This property is defined in [classes/helper/HelperTreeCategories.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#42)
 
 
 ### $_node_item_template
@@ -303,7 +304,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperTreeCategories.php line 43
+* This property is defined in [classes/helper/HelperTreeCategories.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#43)
 
 
 ### $_template
@@ -315,7 +316,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\helper\HelperTreeCategories.php line 44
+* This property is defined in [classes/helper/HelperTreeCategories.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#44)
 
 
 ### $_template_directory
@@ -327,7 +328,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 47
+* This property is defined in [classes/helper/HelperTreeCategories.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#47)
 
 
 ### $_title
@@ -339,7 +340,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 48
+* This property is defined in [classes/helper/HelperTreeCategories.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#48)
 
 
 ### $_no_js
@@ -351,7 +352,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 49
+* This property is defined in [classes/helper/HelperTreeCategories.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#49)
 
 
 ### $_toolbar
@@ -363,7 +364,7 @@ Properties
 
 
 * Visibility: **private**
-* This property is defined in classes\helper\HelperTreeCategories.php line 52
+* This property is defined in [classes/helper/HelperTreeCategories.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#52)
 
 
 Methods
@@ -380,7 +381,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 54
+* This method is defined in [classes/helper/HelperTreeCategories.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#54)
 
 
 #### Arguments
@@ -398,7 +399,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in classes\helper\HelperTreeCategories.php line 62
+* This method is defined in [classes/helper/HelperTreeCategories.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#62)
 
 
 #### Arguments
@@ -417,7 +418,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 176
+* This method is defined in [classes/helper/HelperTreeCategories.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#176)
 
 
 
@@ -431,7 +432,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 132
+* This method is defined in [classes/helper/HelperTreeCategories.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#132)
 
 
 #### Arguments
@@ -448,7 +449,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 138
+* This method is defined in [classes/helper/HelperTreeCategories.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#138)
 
 
 #### Arguments
@@ -465,7 +466,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 144
+* This method is defined in [classes/helper/HelperTreeCategories.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#144)
 
 
 
@@ -479,7 +480,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 150
+* This method is defined in [classes/helper/HelperTreeCategories.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#150)
 
 
 #### Arguments
@@ -496,7 +497,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 156
+* This method is defined in [classes/helper/HelperTreeCategories.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#156)
 
 
 
@@ -510,7 +511,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 161
+* This method is defined in [classes/helper/HelperTreeCategories.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#161)
 
 
 #### Arguments
@@ -527,7 +528,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 167
+* This method is defined in [classes/helper/HelperTreeCategories.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#167)
 
 
 
@@ -541,7 +542,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 176
+* This method is defined in [classes/helper/HelperTreeCategories.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#176)
 
 
 #### Arguments
@@ -558,7 +559,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 182
+* This method is defined in [classes/helper/HelperTreeCategories.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#182)
 
 
 
@@ -573,7 +574,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 217
+* This method is defined in [classes/helper/HelperTreeCategories.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#217)
 
 
 
@@ -588,7 +589,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 232
+* This method is defined in [classes/helper/HelperTreeCategories.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#232)
 
 
 
@@ -602,7 +603,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 209
+* This method is defined in [classes/helper/HelperTreeCategories.php line 209](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#209)
 
 
 #### Arguments
@@ -619,7 +620,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 219
+* This method is defined in [classes/helper/HelperTreeCategories.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#219)
 
 
 
@@ -633,7 +634,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 224
+* This method is defined in [classes/helper/HelperTreeCategories.php line 224](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#224)
 
 
 #### Arguments
@@ -650,7 +651,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 234
+* This method is defined in [classes/helper/HelperTreeCategories.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#234)
 
 
 
@@ -664,7 +665,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 243
+* This method is defined in [classes/helper/HelperTreeCategories.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#243)
 
 
 #### Arguments
@@ -681,7 +682,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 249
+* This method is defined in [classes/helper/HelperTreeCategories.php line 249](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#249)
 
 
 
@@ -696,7 +697,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 247
+* This method is defined in [classes/helper/HelperTreeCategories.php line 247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#247)
 
 
 
@@ -710,7 +711,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 275
+* This method is defined in [classes/helper/HelperTreeCategories.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#275)
 
 
 #### Arguments
@@ -727,7 +728,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 281
+* This method is defined in [classes/helper/HelperTreeCategories.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#281)
 
 
 #### Arguments
@@ -744,7 +745,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 287
+* This method is defined in [classes/helper/HelperTreeCategories.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#287)
 
 
 #### Arguments
@@ -761,7 +762,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 293
+* This method is defined in [classes/helper/HelperTreeCategories.php line 293](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#293)
 
 
 
@@ -775,7 +776,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 298
+* This method is defined in [classes/helper/HelperTreeCategories.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#298)
 
 
 
@@ -789,7 +790,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperTreeCategories.php line 303
+* This method is defined in [classes/helper/HelperTreeCategories.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#303)
 
 
 
@@ -804,7 +805,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 378
+* This method is defined in [classes/helper/HelperTreeCategories.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#378)
 
 
 #### Arguments
@@ -822,7 +823,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 429
+* This method is defined in [classes/helper/HelperTreeCategories.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#429)
 
 
 #### Arguments
@@ -839,7 +840,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in classes\helper\HelperTreeCategories.php line 411
+* This method is defined in [classes/helper/HelperTreeCategories.php line 411](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#411)
 
 
 #### Arguments
@@ -857,7 +858,7 @@ Methods
 
 
 * Visibility: **private**
-* This method is defined in classes\helper\HelperTreeCategories.php line 425
+* This method is defined in [classes/helper/HelperTreeCategories.php line 425](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#425)
 
 
 #### Arguments
@@ -877,7 +878,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 63
+* This method is defined in [classes/helper/HelperTreeCategories.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#63)
 
 
 
@@ -892,7 +893,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 68
+* This method is defined in [classes/helper/HelperTreeCategories.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#68)
 
 
 #### Arguments
@@ -910,7 +911,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 78
+* This method is defined in [classes/helper/HelperTreeCategories.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#78)
 
 
 
@@ -925,7 +926,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 87
+* This method is defined in [classes/helper/HelperTreeCategories.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#87)
 
 
 #### Arguments
@@ -944,7 +945,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 97
+* This method is defined in [classes/helper/HelperTreeCategories.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#97)
 
 
 #### Arguments
@@ -962,7 +963,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 102
+* This method is defined in [classes/helper/HelperTreeCategories.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#102)
 
 
 #### Arguments
@@ -980,7 +981,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 112
+* This method is defined in [classes/helper/HelperTreeCategories.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#112)
 
 
 #### Arguments
@@ -998,7 +999,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 118
+* This method is defined in [classes/helper/HelperTreeCategories.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#118)
 
 
 
@@ -1013,7 +1014,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 123
+* This method is defined in [classes/helper/HelperTreeCategories.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#123)
 
 
 
@@ -1028,7 +1029,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 132
+* This method is defined in [classes/helper/HelperTreeCategories.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#132)
 
 
 #### Arguments
@@ -1046,7 +1047,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 138
+* This method is defined in [classes/helper/HelperTreeCategories.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#138)
 
 
 
@@ -1061,7 +1062,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 147
+* This method is defined in [classes/helper/HelperTreeCategories.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#147)
 
 
 #### Arguments
@@ -1079,7 +1080,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 157
+* This method is defined in [classes/helper/HelperTreeCategories.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#157)
 
 
 
@@ -1094,7 +1095,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 166
+* This method is defined in [classes/helper/HelperTreeCategories.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#166)
 
 
 #### Arguments
@@ -1112,7 +1113,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 185
+* This method is defined in [classes/helper/HelperTreeCategories.php line 185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#185)
 
 
 #### Arguments
@@ -1130,7 +1131,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 191
+* This method is defined in [classes/helper/HelperTreeCategories.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#191)
 
 
 
@@ -1145,7 +1146,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 200
+* This method is defined in [classes/helper/HelperTreeCategories.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#200)
 
 
 #### Arguments
@@ -1163,7 +1164,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 206
+* This method is defined in [classes/helper/HelperTreeCategories.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#206)
 
 
 
@@ -1178,7 +1179,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 211
+* This method is defined in [classes/helper/HelperTreeCategories.php line 211](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#211)
 
 
 #### Arguments
@@ -1196,7 +1197,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 226
+* This method is defined in [classes/helper/HelperTreeCategories.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#226)
 
 
 #### Arguments
@@ -1214,7 +1215,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 241
+* This method is defined in [classes/helper/HelperTreeCategories.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#241)
 
 
 #### Arguments
@@ -1232,7 +1233,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 261
+* This method is defined in [classes/helper/HelperTreeCategories.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#261)
 
 
 #### Arguments
@@ -1250,7 +1251,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 270
+* This method is defined in [classes/helper/HelperTreeCategories.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#270)
 
 
 
@@ -1265,7 +1266,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 280
+* This method is defined in [classes/helper/HelperTreeCategories.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#280)
 
 
 #### Arguments
@@ -1283,7 +1284,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 312
+* This method is defined in [classes/helper/HelperTreeCategories.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#312)
 
 
 #### Arguments
@@ -1301,7 +1302,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 318
+* This method is defined in [classes/helper/HelperTreeCategories.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#318)
 
 
 #### Arguments
@@ -1319,7 +1320,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 324
+* This method is defined in [classes/helper/HelperTreeCategories.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#324)
 
 
 
@@ -1334,7 +1335,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 329
+* This method is defined in [classes/helper/HelperTreeCategories.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#329)
 
 
 #### Arguments
@@ -1352,7 +1353,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 345
+* This method is defined in [classes/helper/HelperTreeCategories.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#345)
 
 
 
@@ -1367,7 +1368,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 358
+* This method is defined in [classes/helper/HelperTreeCategories.php line 358](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#358)
 
 
 #### Arguments
@@ -1385,7 +1386,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 368
+* This method is defined in [classes/helper/HelperTreeCategories.php line 368](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#368)
 
 
 
@@ -1400,7 +1401,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 464
+* This method is defined in [classes/helper/HelperTreeCategories.php line 464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#464)
 
 
 
@@ -1415,7 +1416,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 469
+* This method is defined in [classes/helper/HelperTreeCategories.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#469)
 
 
 
@@ -1430,7 +1431,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 474
+* This method is defined in [classes/helper/HelperTreeCategories.php line 474](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#474)
 
 
 
@@ -1445,7 +1446,7 @@ Methods
 
 * Visibility: **private**
 * This method is defined by [TreeCore](TreeCore)
-* This method is defined in classes\helper\HelperTreeCategories.php line 479
+* This method is defined in [classes/helper/HelperTreeCategories.php line 479](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperTreeCategories.php#479)
 
 
 #### Arguments

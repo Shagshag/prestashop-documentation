@@ -8,7 +8,8 @@ Handle file uploads via XMLHttpRequest
 
 * Class name: QqUploadedFileXhr
 * Namespace: 
-* This class is defined in classes\FileUploader.php line 178
+
+* This class is defined in [classes/FileUploader.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#178)
 
 
 
@@ -29,7 +30,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in classes\FileUploader.php line 184
+* This method is defined in [classes/FileUploader.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#184)
 
 
 #### Arguments
@@ -46,7 +47,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in classes\FileUploader.php line 200
+* This method is defined in [classes/FileUploader.php line 200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#200)
 
 
 
@@ -60,7 +61,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in classes\FileUploader.php line 236
+* This method is defined in [classes/FileUploader.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#236)
 
 
 #### Arguments
@@ -79,7 +80,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in classes\FileUploader.php line 269
+* This method is defined in [classes/FileUploader.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#269)
 
 
 
@@ -93,7 +94,7 @@ Save the file to the specified path
 
 
 * Visibility: **public**
-* This method is defined in classes\FileUploader.php line 274
+* This method is defined in [classes/FileUploader.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#274)
 
 
 

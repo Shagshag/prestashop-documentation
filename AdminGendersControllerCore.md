@@ -9,7 +9,8 @@ AdminGendersControllerCore
 * Class name: AdminGendersControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminGendersController.php line 30
+
+* This class is defined in [controllers/admin/AdminGendersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGendersController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminGendersController.php line 30
+* This property is defined in [controllers/admin/AdminGendersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGendersController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminGendersController.php line 32
+* This method is defined in [controllers/admin/AdminGendersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGendersController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminGendersController.php line 98
+* This method is defined in [controllers/admin/AdminGendersController.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGendersController.php#98)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminGendersController.php line 111
+* This method is defined in [controllers/admin/AdminGendersController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGendersController.php#111)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminGendersController.php line 193
+* This method is defined in [controllers/admin/AdminGendersController.php line 193](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGendersController.php#193)
 
 
 #### Arguments
@@ -104,7 +105,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminGendersController.php line 198
+* This method is defined in [controllers/admin/AdminGendersController.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGendersController.php#198)
 
 
 #### Arguments
@@ -121,7 +122,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminGendersController.php line 217
+* This method is defined in [controllers/admin/AdminGendersController.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGendersController.php#217)
 
 
 

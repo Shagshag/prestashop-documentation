@@ -9,7 +9,8 @@ AdminAttributesGroupsControllerCore
 * Class name: AdminAttributesGroupsControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminAttributesGroupsController.php line 30
+
+* This class is defined in [controllers/admin/AdminAttributesGroupsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminAttributesGroupsController.php line 32
+* This property is defined in [controllers/admin/AdminAttributesGroupsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#32)
 
 
 ### $id_attribute
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminAttributesGroupsController.php line 33
+* This property is defined in [controllers/admin/AdminAttributesGroupsController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#33)
 
 
 ### $position_identifier
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminAttributesGroupsController.php line 34
+* This property is defined in [controllers/admin/AdminAttributesGroupsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#34)
 
 
 ### $attribute_name
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminAttributesGroupsController.php line 35
+* This property is defined in [controllers/admin/AdminAttributesGroupsController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#35)
 
 
 ### $object
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminAttributesGroupsController.php line 30
+* This property is defined in [controllers/admin/AdminAttributesGroupsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#30)
 
 
 Methods
@@ -92,7 +93,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 37
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#37)
 
 
 
@@ -106,7 +107,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 91
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#91)
 
 
 
@@ -120,7 +121,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 101
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#101)
 
 
 
@@ -134,7 +135,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 165
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#165)
 
 
 
@@ -148,7 +149,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 244
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#244)
 
 
 
@@ -162,7 +163,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 380
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 380](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#380)
 
 
 
@@ -176,7 +177,7 @@ Override processAdd to change SaveAndStay button action
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 397
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 397](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#397)
 
 
 
@@ -190,7 +191,7 @@ Override processUpdate to change SaveAndStay button action
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 437
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#437)
 
 
 
@@ -204,7 +205,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 464
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 464](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#464)
 
 
 
@@ -218,7 +219,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 507
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 507](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#507)
 
 
 
@@ -232,7 +233,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 533
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 533](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#533)
 
 
 
@@ -246,7 +247,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 586
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 586](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#586)
 
 
 
@@ -260,7 +261,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 636
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 636](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#636)
 
 
 
@@ -274,7 +275,7 @@ AdminController::initContent() override
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 658
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 658](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#658)
 
 
 
@@ -288,7 +289,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 671
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 671](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#671)
 
 
 
@@ -302,7 +303,7 @@ Call the right method for creating or updating object
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 698
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 698](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#698)
 
 
 
@@ -316,7 +317,7 @@ Call the right method for creating or updating object
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 711
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#711)
 
 
 
@@ -330,7 +331,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 827
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 827](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#827)
 
 
 #### Arguments
@@ -352,7 +353,7 @@ Overrides parent to delete items from sublist
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 863
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 863](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#863)
 
 
 
@@ -366,7 +367,7 @@ Overrides parent to delete items from sublist
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 881
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 881](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#881)
 
 
 
@@ -380,7 +381,7 @@ Overrides parent to delete items from sublist
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAttributesGroupsController.php line 914
+* This method is defined in [controllers/admin/AdminAttributesGroupsController.php line 914](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributesGroupsController.php#914)
 
 
 

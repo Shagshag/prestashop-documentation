@@ -9,7 +9,8 @@ AdminPdfControllerCore
 * Class name: AdminPdfControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminPdfController.php line 27
+
+* This class is defined in [controllers/admin/AdminPdfController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#27)
 
 
 
@@ -30,7 +31,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 29
+* This method is defined in [controllers/admin/AdminPdfController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#29)
 
 
 
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 37
+* This method is defined in [controllers/admin/AdminPdfController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#37)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 49
+* This method is defined in [controllers/admin/AdminPdfController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#49)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 56
+* This method is defined in [controllers/admin/AdminPdfController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#56)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 67
+* This method is defined in [controllers/admin/AdminPdfController.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#67)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 80
+* This method is defined in [controllers/admin/AdminPdfController.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#80)
 
 
 
@@ -114,7 +115,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 94
+* This method is defined in [controllers/admin/AdminPdfController.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#94)
 
 
 
@@ -128,7 +129,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 105
+* This method is defined in [controllers/admin/AdminPdfController.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#105)
 
 
 
@@ -142,7 +143,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 121
+* This method is defined in [controllers/admin/AdminPdfController.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#121)
 
 
 
@@ -156,7 +157,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 136
+* This method is defined in [controllers/admin/AdminPdfController.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#136)
 
 
 
@@ -170,7 +171,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 147
+* This method is defined in [controllers/admin/AdminPdfController.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#147)
 
 
 
@@ -184,7 +185,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 163
+* This method is defined in [controllers/admin/AdminPdfController.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#163)
 
 
 #### Arguments
@@ -201,7 +202,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 174
+* This method is defined in [controllers/admin/AdminPdfController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#174)
 
 
 #### Arguments
@@ -218,7 +219,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 184
+* This method is defined in [controllers/admin/AdminPdfController.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#184)
 
 
 #### Arguments
@@ -235,7 +236,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 196
+* This method is defined in [controllers/admin/AdminPdfController.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#196)
 
 
 #### Arguments
@@ -252,7 +253,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPdfController.php line 207
+* This method is defined in [controllers/admin/AdminPdfController.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#207)
 
 
 #### Arguments

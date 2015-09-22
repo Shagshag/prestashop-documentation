@@ -9,7 +9,8 @@ RequestSqlCore
 * Class name: RequestSqlCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\RequestSql.php line 27
+
+* This class is defined in [classes/RequestSql.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\RequestSql.php line 29
+* This property is defined in [classes/RequestSql.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#29)
 
 
 ### $sql
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\RequestSql.php line 30
+* This property is defined in [classes/RequestSql.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#30)
 
 
 ### $definition
@@ -53,7 +54,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\RequestSql.php line 35
+* This property is defined in [classes/RequestSql.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#35)
 
 
 ### $tested
@@ -65,7 +66,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\RequestSql.php line 45
+* This property is defined in [classes/RequestSql.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#45)
 
 
 ### $attributes
@@ -77,7 +78,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\RequestSql.php line 68
+* This property is defined in [classes/RequestSql.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#68)
 
 
 ### $error_sql
@@ -89,7 +90,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\RequestSql.php line 74
+* This property is defined in [classes/RequestSql.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#74)
 
 
 Methods
@@ -106,7 +107,7 @@ Get list of request SQL
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\RequestSql.php line 81
+* This method is defined in [classes/RequestSql.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#81)
 
 
 
@@ -121,7 +122,7 @@ Get list of request SQL by id request
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\RequestSql.php line 101
+* This method is defined in [classes/RequestSql.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#101)
 
 
 #### Arguments
@@ -139,7 +140,7 @@ Cut the request in table for check it
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 113
+* This method is defined in [classes/RequestSql.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#113)
 
 
 #### Arguments
@@ -156,7 +157,7 @@ Check if the parsing of the SQL request is good or not
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 126
+* This method is defined in [classes/RequestSql.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#126)
 
 
 #### Arguments
@@ -175,7 +176,7 @@ Cut the request for check each cutting
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 151
+* This method is defined in [classes/RequestSql.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#151)
 
 
 #### Arguments
@@ -194,7 +195,7 @@ Get list of all tables
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 194
+* This method is defined in [classes/RequestSql.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#194)
 
 
 
@@ -208,7 +209,7 @@ Get list of all attributes by an table
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 210
+* This method is defined in [classes/RequestSql.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#210)
 
 
 #### Arguments
@@ -225,7 +226,7 @@ Cut an join sentence
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 222
+* This method is defined in [classes/RequestSql.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#222)
 
 
 #### Arguments
@@ -243,7 +244,7 @@ Cut an attribute with or without the alias
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 245
+* This method is defined in [classes/RequestSql.php line 245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#245)
 
 
 #### Arguments
@@ -261,7 +262,7 @@ Get name of table by alias
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 278
+* This method is defined in [classes/RequestSql.php line 278](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#278)
 
 
 #### Arguments
@@ -280,7 +281,7 @@ Check if an attributes existe in an table
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 317
+* This method is defined in [classes/RequestSql.php line 317](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#317)
 
 
 #### Arguments
@@ -298,7 +299,7 @@ Check if all required sentence existing
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 340
+* This method is defined in [classes/RequestSql.php line 340](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#340)
 
 
 #### Arguments
@@ -315,7 +316,7 @@ Check if an unauthorized existing in an array
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 357
+* This method is defined in [classes/RequestSql.php line 357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#357)
 
 
 #### Arguments
@@ -332,7 +333,7 @@ Check a "FROM" sentence
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 374
+* This method is defined in [classes/RequestSql.php line 374](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#374)
 
 
 #### Arguments
@@ -349,7 +350,7 @@ Check a "SELECT" sentence
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 414
+* This method is defined in [classes/RequestSql.php line 414](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#414)
 
 
 #### Arguments
@@ -368,7 +369,7 @@ Check a "WHERE" sentence
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 452
+* This method is defined in [classes/RequestSql.php line 452](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#452)
 
 
 #### Arguments
@@ -387,7 +388,7 @@ Check a "HAVING" sentence
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 492
+* This method is defined in [classes/RequestSql.php line 492](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#492)
 
 
 #### Arguments
@@ -405,7 +406,7 @@ Check a "ORDER" sentence
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 531
+* This method is defined in [classes/RequestSql.php line 531](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#531)
 
 
 #### Arguments
@@ -423,7 +424,7 @@ Check a "GROUP BY" sentence
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 560
+* This method is defined in [classes/RequestSql.php line 560](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#560)
 
 
 #### Arguments
@@ -441,7 +442,7 @@ Check a "LIMIT" sentence
 
 
 * Visibility: **public**
-* This method is defined in classes\RequestSql.php line 588
+* This method is defined in [classes/RequestSql.php line 588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/RequestSql.php#588)
 
 
 #### Arguments

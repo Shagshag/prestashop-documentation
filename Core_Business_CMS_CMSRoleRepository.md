@@ -23,7 +23,8 @@ needs please refer to http://www.prestashop.com for more information.
 * Class name: Core_Business_CMS_CMSRoleRepository
 * Namespace: 
 * Parent class: [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This class is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 27
+
+* This class is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#27)
 
 
 
@@ -42,7 +43,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 29
+* This property is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#29)
 
 
 ### $db
@@ -54,7 +55,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 30
+* This property is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#30)
 
 
 ### $tablesPrefix
@@ -66,7 +67,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 31
+* This property is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#31)
 
 
 ### $entityMetaData
@@ -78,7 +79,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 32
+* This property is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#32)
 
 
 ### $queryBuilder
@@ -90,7 +91,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 33
+* This property is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#33)
 
 
 Methods
@@ -106,7 +107,7 @@ Return all CMSRoles which are already associated
 
 
 * Visibility: **public**
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 33
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#33)
 
 
 
@@ -121,7 +122,7 @@ Return all CMSRoles which are already associated
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 35
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#35)
 
 
 #### Arguments
@@ -141,7 +142,7 @@ Return all CMSRoles which are already associated
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 47
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#47)
 
 
 #### Arguments
@@ -161,7 +162,7 @@ e.g.: findAllByIdCMS => id_cms
 
 * Visibility: **private**
 * This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 80
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#80)
 
 
 #### Arguments
@@ -179,7 +180,7 @@ Return ID field name
 
 * Visibility: **protected**
 * This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 90
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#90)
 
 
 
@@ -194,7 +195,7 @@ Returns escaped+prefixed current table name
 
 * Visibility: **protected**
 * This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 117
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#117)
 
 
 
@@ -209,7 +210,7 @@ Returns escaped DB table prefix
 
 * Visibility: **protected**
 * This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 126
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#126)
 
 
 
@@ -224,7 +225,7 @@ Return a new empty Entity depending on current Repository selected
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 135
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#135)
 
 
 
@@ -241,7 +242,7 @@ if there are too many rows.
 
 * Visibility: **protected**
 * This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 150
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#150)
 
 
 #### Arguments
@@ -259,7 +260,7 @@ if there are too many rows.
 
 * Visibility: **protected**
 * This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 164
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#164)
 
 
 #### Arguments
@@ -277,7 +278,7 @@ Constructs and performs 'SELECT' in DB
 
 * Visibility: **private**
 * This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 182
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#182)
 
 
 #### Arguments
@@ -296,7 +297,7 @@ Find one entity in DB
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 203
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#203)
 
 
 #### Arguments
@@ -314,7 +315,7 @@ Find all entities in DB
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-* This method is defined in Core\Business\CMS\Core_Business_CMS_CMSRoleRepository.php line 215
+* This method is defined in [Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php line 215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRoleRepository.php#215)
 
 
 

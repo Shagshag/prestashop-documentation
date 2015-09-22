@@ -9,7 +9,8 @@ GuestTrackingControllerCore
 * Class name: GuestTrackingControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\GuestTrackingController.php line 27
+
+* This class is defined in [controllers/front/GuestTrackingController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\GuestTrackingController.php line 29
+* This property is defined in [controllers/front/GuestTrackingController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#29)
 
 
 ### $php_self
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\GuestTrackingController.php line 30
+* This property is defined in [controllers/front/GuestTrackingController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Initialize guest tracking controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\GuestTrackingController.php line 36
+* This method is defined in [controllers/front/GuestTrackingController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#36)
 
 
 
@@ -70,7 +71,7 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\GuestTrackingController.php line 48
+* This method is defined in [controllers/front/GuestTrackingController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#48)
 
 
 
@@ -84,7 +85,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\GuestTrackingController.php line 112
+* This method is defined in [controllers/front/GuestTrackingController.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#112)
 
 
 
@@ -98,7 +99,7 @@ Assigns template vars related to order tracking information
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\GuestTrackingController.php line 135
+* This method is defined in [controllers/front/GuestTrackingController.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#135)
 
 
 #### Arguments
@@ -115,7 +116,7 @@ Assigns template vars related to order tracking information
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\GuestTrackingController.php line 188
+* This method is defined in [controllers/front/GuestTrackingController.php line 188](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#188)
 
 
 
@@ -129,7 +130,7 @@ Assigns template vars related to order tracking information
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\GuestTrackingController.php line 196
+* This method is defined in [controllers/front/GuestTrackingController.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/GuestTrackingController.php#196)
 
 
 #### Arguments

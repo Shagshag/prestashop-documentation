@@ -9,7 +9,8 @@ FeatureCore
 * Class name: FeatureCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Feature.php line 27
+
+* This class is defined in [classes/Feature.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Feature.php line 30
+* This property is defined in [classes/Feature.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#30)
 
 
 ### $position
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Feature.php line 31
+* This property is defined in [classes/Feature.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#31)
 
 
 ### $definition
@@ -53,7 +54,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Feature.php line 36
+* This property is defined in [classes/Feature.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#36)
 
 
 ### $webserviceParameters
@@ -65,7 +66,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Feature.php line 49
+* This property is defined in [classes/Feature.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#49)
 
 
 Methods
@@ -82,7 +83,7 @@ Get a feature data for a given id_feature and id_lang
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Feature.php line 62
+* This method is defined in [classes/Feature.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#62)
 
 
 #### Arguments
@@ -101,7 +102,7 @@ Get all features for a given language
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Feature.php line 79
+* This method is defined in [classes/Feature.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#79)
 
 
 #### Arguments
@@ -119,7 +120,7 @@ Delete several objects from database
 
 
 * Visibility: **public**
-* This method is defined in classes\Feature.php line 95
+* This method is defined in [classes/Feature.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#95)
 
 
 #### Arguments
@@ -136,7 +137,7 @@ Delete several objects from database
 
 
 * Visibility: **public**
-* This method is defined in classes\Feature.php line 107
+* This method is defined in [classes/Feature.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#107)
 
 
 #### Arguments
@@ -154,7 +155,7 @@ Delete several objects from database
 
 
 * Visibility: **public**
-* This method is defined in classes\Feature.php line 118
+* This method is defined in [classes/Feature.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#118)
 
 
 
@@ -168,7 +169,7 @@ Delete several objects from database
 
 
 * Visibility: **public**
-* This method is defined in classes\Feature.php line 152
+* This method is defined in [classes/Feature.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#152)
 
 
 #### Arguments
@@ -186,7 +187,7 @@ Count number of features for a given language
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Feature.php line 186
+* This method is defined in [classes/Feature.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#186)
 
 
 #### Arguments
@@ -204,7 +205,7 @@ Create a feature from import
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Feature.php line 203
+* This method is defined in [classes/Feature.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#203)
 
 
 #### Arguments
@@ -223,7 +224,7 @@ Create a feature from import
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Feature.php line 234
+* This method is defined in [classes/Feature.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#234)
 
 
 #### Arguments
@@ -242,7 +243,7 @@ This metohd is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Feature.php line 270
+* This method is defined in [classes/Feature.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#270)
 
 
 
@@ -256,7 +257,7 @@ Move a feature
 
 
 * Visibility: **public**
-* This method is defined in classes\Feature.php line 281
+* This method is defined in [classes/Feature.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#281)
 
 
 #### Arguments
@@ -277,7 +278,7 @@ Call it after deleting a feature.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Feature.php line 323
+* This method is defined in [classes/Feature.php line 323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#323)
 
 
 
@@ -292,7 +293,7 @@ Get the higher feature position
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Feature.php line 337
+* This method is defined in [classes/Feature.php line 337](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Feature.php#337)
 
 
 

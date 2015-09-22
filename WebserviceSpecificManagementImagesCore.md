@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: WebserviceSpecificManagementImagesCore
 * Namespace: 
-* This class implements: [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)* This class is defined in classes\webservice\WebserviceSpecificManagementImages.php line 27
+* This class implements: [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
+* This class is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#27)
 
 
 
@@ -41,7 +42,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 30
+* This property is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#30)
 
 
 ### $output
@@ -53,7 +54,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 31
+* This property is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#31)
 
 
 ### $wsObject
@@ -65,7 +66,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 34
+* This property is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#34)
 
 
 ### $imgExtension
@@ -77,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 39
+* This property is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#39)
 
 
 ### $imageTypes
@@ -89,7 +90,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 44
+* This property is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#44)
 
 
 ### $imageType
@@ -101,7 +102,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 62
+* This property is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#62)
 
 
 ### $imgMaxUploadSize
@@ -113,7 +114,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 67
+* This property is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#67)
 
 
 ### $acceptedImgMimeTypes
@@ -125,7 +126,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 72
+* This property is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#72)
 
 
 ### $productImageDeclinationId
@@ -137,7 +138,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 77
+* This property is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#77)
 
 
 ### $defaultImage
@@ -149,7 +150,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 82
+* This property is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#82)
 
 
 ### $imgToDisplay
@@ -161,7 +162,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 87
+* This property is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#87)
 
 
 ### $imageResource
@@ -173,7 +174,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceSpecificManagementImages.php line 88
+* This property is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#88)
 
 
 Methods
@@ -190,7 +191,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 29
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#29)
 
 
 #### Arguments
@@ -208,7 +209,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 30
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#30)
 
 
 
@@ -223,7 +224,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 31
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#31)
 
 
 #### Arguments
@@ -241,7 +242,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 32
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#32)
 
 
 
@@ -256,7 +257,7 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 41
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#41)
 
 
 
@@ -271,7 +272,7 @@ This must be return an array with specific values as WebserviceRequest expects.
 
 * Visibility: **public**
 * This method is defined by [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 34
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#34)
 
 
 
@@ -285,7 +286,7 @@ Management of images URL segment
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 181
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#181)
 
 
 
@@ -299,7 +300,7 @@ Management of general images
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 348
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#348)
 
 
 
@@ -313,7 +314,7 @@ Management of general images
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 437
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#437)
 
 
 #### Arguments
@@ -331,7 +332,7 @@ Management of general images
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 479
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 479](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#479)
 
 
 #### Arguments
@@ -349,7 +350,7 @@ Management of general images
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 523
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 523](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#523)
 
 
 #### Arguments
@@ -367,7 +368,7 @@ Management of normal images (as categories, suppliers, manufacturers and stores)
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 633
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 633](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#633)
 
 
 #### Arguments
@@ -384,7 +385,7 @@ Management of normal images (as categories, suppliers, manufacturers and stores)
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 652
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 652](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#652)
 
 
 
@@ -398,7 +399,7 @@ Management of normal images (as categories, suppliers, manufacturers and stores)
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 657
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 657](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#657)
 
 
 
@@ -412,7 +413,7 @@ Management of normal images (as categories, suppliers, manufacturers and stores)
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 674
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 674](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#674)
 
 
 
@@ -426,7 +427,7 @@ Management of normal images CRUD
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 774
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 774](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#774)
 
 
 #### Arguments
@@ -446,7 +447,7 @@ Delete the image on disk
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 843
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 843](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#843)
 
 
 #### Arguments
@@ -465,7 +466,7 @@ Write the image on disk
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 883
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 883](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#883)
 
 
 #### Arguments
@@ -487,7 +488,7 @@ Write the posted image on disk
 
 
 * Visibility: **protected**
-* This method is defined in classes\webservice\WebserviceSpecificManagementImages.php line 1003
+* This method is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 1003](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#1003)
 
 
 #### Arguments

@@ -9,7 +9,8 @@ MessageCore
 * Class name: MessageCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Message.php line 27
+
+* This class is defined in [classes/Message.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Message.php line 29
+* This property is defined in [classes/Message.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#29)
 
 
 ### $message
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Message.php line 32
+* This property is defined in [classes/Message.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#32)
 
 
 ### $id_cart
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Message.php line 35
+* This property is defined in [classes/Message.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#35)
 
 
 ### $id_order
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Message.php line 38
+* This property is defined in [classes/Message.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#38)
 
 
 ### $id_customer
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Message.php line 41
+* This property is defined in [classes/Message.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#41)
 
 
 ### $id_employee
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Message.php line 44
+* This property is defined in [classes/Message.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#44)
 
 
 ### $private
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Message.php line 47
+* This property is defined in [classes/Message.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#47)
 
 
 ### $date_add
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Message.php line 50
+* This property is defined in [classes/Message.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#50)
 
 
 ### $definition
@@ -125,7 +126,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Message.php line 55
+* This property is defined in [classes/Message.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#55)
 
 
 Methods
@@ -142,7 +143,7 @@ Return the last message from cart
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Message.php line 75
+* This method is defined in [classes/Message.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#75)
 
 
 #### Arguments
@@ -160,7 +161,7 @@ Return messages from Order ID
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Message.php line 91
+* This method is defined in [classes/Message.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#91)
 
 
 #### Arguments
@@ -180,7 +181,7 @@ Return messages from Cart ID
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Message.php line 124
+* This method is defined in [classes/Message.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#124)
 
 
 #### Arguments
@@ -200,7 +201,7 @@ Registered a message 'readed'
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Message.php line 154
+* This method is defined in [classes/Message.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Message.php#154)
 
 
 #### Arguments

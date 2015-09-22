@@ -9,7 +9,8 @@ OrderDetailControllerCore
 * Class name: OrderDetailControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\OrderDetailController.php line 27
+
+* This class is defined in [controllers/front/OrderDetailController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderDetailController.php line 29
+* This property is defined in [controllers/front/OrderDetailController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#29)
 
 
 ### $auth
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderDetailController.php line 31
+* This property is defined in [controllers/front/OrderDetailController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#31)
 
 
 ### $authRedirection
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderDetailController.php line 32
+* This property is defined in [controllers/front/OrderDetailController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#32)
 
 
 ### $ssl
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\OrderDetailController.php line 33
+* This property is defined in [controllers/front/OrderDetailController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#33)
 
 
 Methods
@@ -80,7 +81,7 @@ Initialize order detail controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderDetailController.php line 39
+* This method is defined in [controllers/front/OrderDetailController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#39)
 
 
 
@@ -94,7 +95,7 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderDetailController.php line 50
+* This method is defined in [controllers/front/OrderDetailController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#50)
 
 
 
@@ -108,7 +109,7 @@ Start forms process
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderDetailController.php line 136
+* This method is defined in [controllers/front/OrderDetailController.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#136)
 
 
 
@@ -122,7 +123,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderDetailController.php line 145
+* This method is defined in [controllers/front/OrderDetailController.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#145)
 
 
 
@@ -136,7 +137,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\OrderDetailController.php line 228
+* This method is defined in [controllers/front/OrderDetailController.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderDetailController.php#228)
 
 
 

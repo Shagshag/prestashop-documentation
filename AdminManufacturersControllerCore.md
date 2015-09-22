@@ -9,7 +9,8 @@ AdminManufacturersControllerCore
 * Class name: AdminManufacturersControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminManufacturersController.php line 30
+
+* This class is defined in [controllers/admin/AdminManufacturersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminManufacturersController.php line 32
+* This property is defined in [controllers/admin/AdminManufacturersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#32)
 
 
 ### $countries_array
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminManufacturersController.php line 34
+* This property is defined in [controllers/admin/AdminManufacturersController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#34)
 
 
 ### $object
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminManufacturersController.php line 30
+* This property is defined in [controllers/admin/AdminManufacturersController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#30)
 
 
 Methods
@@ -68,7 +69,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 36
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#36)
 
 
 
@@ -82,7 +83,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 103
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#103)
 
 
 
@@ -96,7 +97,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 110
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#110)
 
 
 
@@ -110,7 +111,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 141
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#141)
 
 
 
@@ -124,7 +125,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 162
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#162)
 
 
 
@@ -138,7 +139,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 204
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#204)
 
 
 #### Arguments
@@ -155,7 +156,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 214
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#214)
 
 
 
@@ -169,7 +170,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 270
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#270)
 
 
 
@@ -183,7 +184,7 @@ Display editaddresses action link
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 282
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#282)
 
 
 #### Arguments
@@ -201,7 +202,7 @@ Display editaddresses action link
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 298
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#298)
 
 
 
@@ -215,7 +216,7 @@ Display editaddresses action link
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 439
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 439](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#439)
 
 
 
@@ -229,7 +230,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 649
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 649](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#649)
 
 
 
@@ -243,7 +244,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 685
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 685](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#685)
 
 
 
@@ -257,7 +258,7 @@ AdminController::initToolbar() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 746
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 746](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#746)
 
 
 
@@ -271,7 +272,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 783
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 783](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#783)
 
 
 
@@ -285,7 +286,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 800
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 800](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#800)
 
 
 
@@ -299,7 +300,7 @@ AdminController::init() override
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 812
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 812](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#812)
 
 
 
@@ -313,7 +314,7 @@ AdminController::init() override
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 855
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 855](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#855)
 
 
 #### Arguments
@@ -330,7 +331,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminManufacturersController.php line 860
+* This method is defined in [controllers/admin/AdminManufacturersController.php line 860](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminManufacturersController.php#860)
 
 
 

@@ -8,7 +8,8 @@ Class ContextCore
 
 * Class name: ContextCore
 * Namespace: 
-* This class is defined in classes\Context.php line 32
+
+* This class is defined in [classes/Context.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#32)
 
 
 
@@ -22,7 +23,7 @@ Constants
 
 
 
-* This constant is defined in classes\Context.php line 99
+* This constant is defined in [classes/Context.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#99)
 
 
 ### DEVICE_TABLET
@@ -31,7 +32,7 @@ Constants
 
 
 
-* This constant is defined in classes\Context.php line 102
+* This constant is defined in [classes/Context.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#102)
 
 
 ### DEVICE_MOBILE
@@ -40,7 +41,7 @@ Constants
 
 
 
-* This constant is defined in classes\Context.php line 105
+* This constant is defined in [classes/Context.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#105)
 
 
 ### MODE_STD
@@ -49,7 +50,7 @@ Constants
 
 
 
-* This constant is defined in classes\Context.php line 108
+* This constant is defined in [classes/Context.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#108)
 
 
 ### MODE_STD_CONTRIB
@@ -58,7 +59,7 @@ Constants
 
 
 
-* This constant is defined in classes\Context.php line 111
+* This constant is defined in [classes/Context.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#111)
 
 
 ### MODE_HOST_CONTRIB
@@ -67,7 +68,7 @@ Constants
 
 
 
-* This constant is defined in classes\Context.php line 114
+* This constant is defined in [classes/Context.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#114)
 
 
 ### MODE_HOST
@@ -76,7 +77,7 @@ Constants
 
 
 
-* This constant is defined in classes\Context.php line 117
+* This constant is defined in [classes/Context.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#117)
 
 
 Properties
@@ -93,7 +94,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Context.php line 35
+* This property is defined in [classes/Context.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#35)
 
 
 ### $cart
@@ -105,7 +106,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 38
+* This property is defined in [classes/Context.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#38)
 
 
 ### $customer
@@ -117,7 +118,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 41
+* This property is defined in [classes/Context.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#41)
 
 
 ### $cookie
@@ -129,7 +130,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 44
+* This property is defined in [classes/Context.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#44)
 
 
 ### $link
@@ -141,7 +142,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 47
+* This property is defined in [classes/Context.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#47)
 
 
 ### $country
@@ -153,7 +154,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 50
+* This property is defined in [classes/Context.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#50)
 
 
 ### $employee
@@ -165,7 +166,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 53
+* This property is defined in [classes/Context.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#53)
 
 
 ### $controller
@@ -177,7 +178,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 56
+* This property is defined in [classes/Context.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#56)
 
 
 ### $override_controller_name_for_translations
@@ -189,7 +190,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 59
+* This property is defined in [classes/Context.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#59)
 
 
 ### $language
@@ -201,7 +202,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 62
+* This property is defined in [classes/Context.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#62)
 
 
 ### $currency
@@ -213,7 +214,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 65
+* This property is defined in [classes/Context.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#65)
 
 
 ### $tab
@@ -225,7 +226,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 68
+* This property is defined in [classes/Context.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#68)
 
 
 ### $shop
@@ -237,7 +238,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 71
+* This property is defined in [classes/Context.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#71)
 
 
 ### $theme
@@ -249,7 +250,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 74
+* This property is defined in [classes/Context.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#74)
 
 
 ### $smarty
@@ -261,7 +262,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 77
+* This property is defined in [classes/Context.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#77)
 
 
 ### $mobile_detect
@@ -273,7 +274,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 80
+* This property is defined in [classes/Context.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#80)
 
 
 ### $mode
@@ -285,7 +286,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Context.php line 83
+* This property is defined in [classes/Context.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#83)
 
 
 ### $mobile_device
@@ -297,7 +298,7 @@ Mobile device of the customer
 
 
 * Visibility: **protected**
-* This property is defined in classes\Context.php line 90
+* This property is defined in [classes/Context.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#90)
 
 
 ### $is_mobile
@@ -309,7 +310,7 @@ Mobile device of the customer
 
 
 * Visibility: **protected**
-* This property is defined in classes\Context.php line 93
+* This property is defined in [classes/Context.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#93)
 
 
 ### $is_tablet
@@ -321,7 +322,7 @@ Mobile device of the customer
 
 
 * Visibility: **protected**
-* This property is defined in classes\Context.php line 96
+* This property is defined in [classes/Context.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#96)
 
 
 Methods
@@ -337,7 +338,7 @@ Sets Mobile_Detect tool object
 
 
 * Visibility: **public**
-* This method is defined in classes\Context.php line 124
+* This method is defined in [classes/Context.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#124)
 
 
 
@@ -351,7 +352,7 @@ Checks if visitor's device is a mobile device
 
 
 * Visibility: **public**
-* This method is defined in classes\Context.php line 138
+* This method is defined in [classes/Context.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#138)
 
 
 
@@ -365,7 +366,7 @@ Checks if visitor's device is a tablet device
 
 
 * Visibility: **public**
-* This method is defined in classes\Context.php line 152
+* This method is defined in [classes/Context.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#152)
 
 
 
@@ -379,7 +380,7 @@ Sets mobile_device context variable
 
 
 * Visibility: **public**
-* This method is defined in classes\Context.php line 166
+* This method is defined in [classes/Context.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#166)
 
 
 
@@ -393,7 +394,7 @@ Returns mobile device type
 
 
 * Visibility: **public**
-* This method is defined in classes\Context.php line 202
+* This method is defined in [classes/Context.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#202)
 
 
 
@@ -407,7 +408,7 @@ Checks if mobile context is possible
 
 
 * Visibility: **protected**
-* This method is defined in classes\Context.php line 225
+* This method is defined in [classes/Context.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#225)
 
 
 
@@ -422,7 +423,7 @@ Get a singleton instance of Context object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Context.php line 256
+* This method is defined in [classes/Context.php line 256](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#256)
 
 
 
@@ -437,7 +438,7 @@ Get a singleton instance of Context object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Context.php line 269
+* This method is defined in [classes/Context.php line 269](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#269)
 
 
 #### Arguments
@@ -456,7 +457,7 @@ Unit testing purpose only
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Context.php line 277
+* This method is defined in [classes/Context.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#277)
 
 
 
@@ -470,7 +471,7 @@ Clone current context object
 
 
 * Visibility: **public**
-* This method is defined in classes\Context.php line 287
+* This method is defined in [classes/Context.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#287)
 
 
 

@@ -9,7 +9,8 @@ Use this helper to generate preferences forms, with values stored in the configu
 * Class name: HelperOptionsCore
 * Namespace: 
 * Parent class: [Helper](HelperCore)
-* This class is defined in classes\helper\HelperOptions.php line 30
+
+* This class is defined in [classes/helper/HelperOptions.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperOptions.php line 32
+* This property is defined in [classes/helper/HelperOptions.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#32)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperOptions.php line 34
+* This method is defined in [classes/helper/HelperOptions.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#34)
 
 
 
@@ -58,7 +59,7 @@ Generate a form for options
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperOptions.php line 46
+* This method is defined in [classes/helper/HelperOptions.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#46)
 
 
 #### Arguments
@@ -75,7 +76,7 @@ Type = image
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperOptions.php line 233
+* This method is defined in [classes/helper/HelperOptions.php line 233](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#233)
 
 
 #### Arguments
@@ -94,7 +95,7 @@ Type = price
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperOptions.php line 260
+* This method is defined in [classes/helper/HelperOptions.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#260)
 
 
 #### Arguments
@@ -113,7 +114,7 @@ Type = disabled
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperOptions.php line 270
+* This method is defined in [classes/helper/HelperOptions.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#270)
 
 
 #### Arguments
@@ -132,7 +133,7 @@ Type = disabled
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperOptions.php line 275
+* This method is defined in [classes/helper/HelperOptions.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#275)
 
 
 #### Arguments

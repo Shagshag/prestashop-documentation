@@ -10,7 +10,8 @@ CarrierModuleCore
 * Namespace: 
 * This is an **abstract** class
 * Parent class: [Module](ModuleCore)
-* This class is defined in classes\module\CarrierModule.php line 27
+
+* This class is defined in [classes/module/CarrierModule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/CarrierModule.php#27)
 
 
 
@@ -32,7 +33,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\module\CarrierModule.php line 29
+* This method is defined in [classes/module/CarrierModule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/CarrierModule.php#29)
 
 
 #### Arguments
@@ -51,7 +52,7 @@ Methods
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\module\CarrierModule.php line 30
+* This method is defined in [classes/module/CarrierModule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/CarrierModule.php#30)
 
 
 #### Arguments

@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_AddressFactory
 * Namespace: 
-* This class is defined in Adapter\Adapter_AddressFactory.php line 27
+
+* This class is defined in [Adapter/Adapter_AddressFactory.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_AddressFactory.php#27)
 
 
 
@@ -44,7 +45,7 @@ default shop configuration
 
 
 * Visibility: **public**
-* This method is defined in Adapter\Adapter_AddressFactory.php line 36
+* This method is defined in [Adapter/Adapter_AddressFactory.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_AddressFactory.php#36)
 
 
 #### Arguments
@@ -62,7 +63,7 @@ Check if an address exists depending on given $id_address
 
 
 * Visibility: **public**
-* This method is defined in Adapter\Adapter_AddressFactory.php line 47
+* This method is defined in [Adapter/Adapter_AddressFactory.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_AddressFactory.php#47)
 
 
 #### Arguments

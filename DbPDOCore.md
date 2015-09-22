@@ -9,7 +9,8 @@ Class DbPDOCore
 * Class name: DbPDOCore
 * Namespace: 
 * Parent class: [Db](DbCore)
-* This class is defined in classes\db\DbPDO.php line 32
+
+* This class is defined in [classes/db/DbPDO.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#32)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\DbPDO.php line 35
+* This property is defined in [classes/db/DbPDO.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#35)
 
 
 ### $result
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\DbPDO.php line 38
+* This property is defined in [classes/db/DbPDO.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#38)
 
 
 Methods
@@ -57,7 +58,7 @@ Returns a new PDO object (database link)
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\db\DbPDO.php line 50
+* This method is defined in [classes/db/DbPDO.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#50)
 
 
 #### Arguments
@@ -79,7 +80,7 @@ Tries to connect and create a new database
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\DbPDO.php line 77
+* This method is defined in [classes/db/DbPDO.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#77)
 
 
 #### Arguments
@@ -100,7 +101,7 @@ Tries to connect to the database
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbPDO.php line 97
+* This method is defined in [classes/db/DbPDO.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#97)
 
 
 
@@ -114,7 +115,7 @@ Destroys the database connection link
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbPDO.php line 118
+* This method is defined in [classes/db/DbPDO.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#118)
 
 
 
@@ -128,7 +129,7 @@ Executes an SQL statement, returning a result set as a PDOStatement object or tr
 
 
 * Visibility: **protected**
-* This method is defined in classes\db\DbPDO.php line 130
+* This method is defined in [classes/db/DbPDO.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#130)
 
 
 #### Arguments
@@ -145,7 +146,7 @@ Returns the next row from the result set.
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbPDO.php line 142
+* This method is defined in [classes/db/DbPDO.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#142)
 
 
 #### Arguments
@@ -162,7 +163,7 @@ Returns all rows from the result set.
 
 
 * Visibility: **protected**
-* This method is defined in classes\db\DbPDO.php line 162
+* This method is defined in [classes/db/DbPDO.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#162)
 
 
 #### Arguments
@@ -179,7 +180,7 @@ Returns row count from the result set.
 
 
 * Visibility: **protected**
-* This method is defined in classes\db\DbPDO.php line 182
+* This method is defined in [classes/db/DbPDO.php line 182](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#182)
 
 
 #### Arguments
@@ -196,7 +197,7 @@ Returns ID of the last inserted row.
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbPDO.php line 193
+* This method is defined in [classes/db/DbPDO.php line 193](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#193)
 
 
 
@@ -210,7 +211,7 @@ Return the number of rows affected by the last SQL query.
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbPDO.php line 204
+* This method is defined in [classes/db/DbPDO.php line 204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#204)
 
 
 
@@ -224,7 +225,7 @@ Returns error message.
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbPDO.php line 216
+* This method is defined in [classes/db/DbPDO.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#216)
 
 
 #### Arguments
@@ -241,7 +242,7 @@ Returns error code.
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbPDO.php line 228
+* This method is defined in [classes/db/DbPDO.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#228)
 
 
 
@@ -255,7 +256,7 @@ Returns database server version.
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbPDO.php line 240
+* This method is defined in [classes/db/DbPDO.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#240)
 
 
 
@@ -269,7 +270,7 @@ Escapes illegal characters in a string.
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbPDO.php line 252
+* This method is defined in [classes/db/DbPDO.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#252)
 
 
 #### Arguments
@@ -286,7 +287,7 @@ Switches to a different database.
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbPDO.php line 266
+* This method is defined in [classes/db/DbPDO.php line 266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#266)
 
 
 #### Arguments
@@ -304,7 +305,7 @@ Try a connection to the database and check if at least one table with same prefi
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\DbPDO.php line 282
+* This method is defined in [classes/db/DbPDO.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#282)
 
 
 #### Arguments
@@ -326,7 +327,7 @@ Tries to connect to the database and create a table (checking creation privilege
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\DbPDO.php line 306
+* This method is defined in [classes/db/DbPDO.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#306)
 
 
 #### Arguments
@@ -349,7 +350,7 @@ Try a connection to the database
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\DbPDO.php line 343
+* This method is defined in [classes/db/DbPDO.php line 343](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#343)
 
 
 #### Arguments
@@ -372,7 +373,7 @@ Selects best table engine.
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbPDO.php line 360
+* This method is defined in [classes/db/DbPDO.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#360)
 
 
 
@@ -387,7 +388,7 @@ Try a connection to the database and set names to UTF-8
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\DbPDO.php line 398
+* This method is defined in [classes/db/DbPDO.php line 398](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#398)
 
 
 #### Arguments
@@ -407,7 +408,7 @@ Checks if auto increment value and offset is 1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\db\DbPDO.php line 419
+* This method is defined in [classes/db/DbPDO.php line 419](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbPDO.php#419)
 
 
 #### Arguments

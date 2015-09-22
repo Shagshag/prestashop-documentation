@@ -9,7 +9,8 @@ History of receipts
 * Class name: SupplyOrderReceiptHistoryCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\stock\SupplyOrderReceiptHistory.php line 31
+
+* This class is defined in [classes/stock/SupplyOrderReceiptHistory.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#31)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderReceiptHistory.php line 36
+* This property is defined in [classes/stock/SupplyOrderReceiptHistory.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#36)
 
 
 ### $id_employee
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderReceiptHistory.php line 41
+* This property is defined in [classes/stock/SupplyOrderReceiptHistory.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#41)
 
 
 ### $employee_firstname
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderReceiptHistory.php line 46
+* This property is defined in [classes/stock/SupplyOrderReceiptHistory.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#46)
 
 
 ### $employee_lastname
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderReceiptHistory.php line 51
+* This property is defined in [classes/stock/SupplyOrderReceiptHistory.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#51)
 
 
 ### $id_supply_order_state
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderReceiptHistory.php line 56
+* This property is defined in [classes/stock/SupplyOrderReceiptHistory.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#56)
 
 
 ### $quantity
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderReceiptHistory.php line 61
+* This property is defined in [classes/stock/SupplyOrderReceiptHistory.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#61)
 
 
 ### $date_add
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\stock\SupplyOrderReceiptHistory.php line 66
+* This property is defined in [classes/stock/SupplyOrderReceiptHistory.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#66)
 
 
 ### $definition
@@ -113,7 +114,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\stock\SupplyOrderReceiptHistory.php line 71
+* This property is defined in [classes/stock/SupplyOrderReceiptHistory.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#71)
 
 
 ### $webserviceParameters
@@ -125,7 +126,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\stock\SupplyOrderReceiptHistory.php line 88
+* This property is defined in [classes/stock/SupplyOrderReceiptHistory.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#88)
 
 
 

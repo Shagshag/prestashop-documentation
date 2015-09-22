@@ -9,7 +9,8 @@ PageNotFoundControllerCore
 * Class name: PageNotFoundControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\PageNotFoundController.php line 27
+
+* This class is defined in [controllers/front/PageNotFoundController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\PageNotFoundController.php line 29
+* This property is defined in [controllers/front/PageNotFoundController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#29)
 
 
 ### $page_name
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\PageNotFoundController.php line 30
+* This property is defined in [controllers/front/PageNotFoundController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#30)
 
 
 ### $ssl
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\PageNotFoundController.php line 31
+* This property is defined in [controllers/front/PageNotFoundController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#31)
 
 
 Methods
@@ -68,7 +69,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\PageNotFoundController.php line 37
+* This method is defined in [controllers/front/PageNotFoundController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#37)
 
 
 
@@ -82,7 +83,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\PageNotFoundController.php line 106
+* This method is defined in [controllers/front/PageNotFoundController.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#106)
 
 
 #### Arguments
@@ -99,7 +100,7 @@ Assign template vars related to page content
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\PageNotFoundController.php line 111
+* This method is defined in [controllers/front/PageNotFoundController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/PageNotFoundController.php#111)
 
 
 

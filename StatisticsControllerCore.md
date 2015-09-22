@@ -9,7 +9,8 @@ StatisticsControllerCore
 * Class name: StatisticsControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\StatisticsController.php line 27
+
+* This class is defined in [controllers/front/StatisticsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\StatisticsController.php line 29
+* This property is defined in [controllers/front/StatisticsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#29)
 
 
 ### $display_footer
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\StatisticsController.php line 30
+* This property is defined in [controllers/front/StatisticsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#30)
 
 
 ### $param_token
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\StatisticsController.php line 32
+* This property is defined in [controllers/front/StatisticsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#32)
 
 
 Methods
@@ -68,7 +69,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\StatisticsController.php line 34
+* This method is defined in [controllers/front/StatisticsController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#34)
 
 
 
@@ -82,7 +83,7 @@ Log statistics on navigation (resolution, plugins, etc.)
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\StatisticsController.php line 53
+* This method is defined in [controllers/front/StatisticsController.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#53)
 
 
 
@@ -96,7 +97,7 @@ Log statistics on time spend on pages
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\StatisticsController.php line 77
+* This method is defined in [controllers/front/StatisticsController.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/StatisticsController.php#77)
 
 
 

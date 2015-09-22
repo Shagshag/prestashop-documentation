@@ -9,7 +9,8 @@ AdminShippingControllerCore
 * Class name: AdminShippingControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminShippingController.php line 27
+
+* This class is defined in [controllers/admin/AdminShippingController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShippingController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminShippingController.php line 29
+* This property is defined in [controllers/admin/AdminShippingController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShippingController.php#29)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminShippingController.php line 31
+* This method is defined in [controllers/admin/AdminShippingController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShippingController.php#31)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminShippingController.php line 123
+* This method is defined in [controllers/admin/AdminShippingController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminShippingController.php#123)
 
 
 

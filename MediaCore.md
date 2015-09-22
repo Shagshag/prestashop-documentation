@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: MediaCore
 * Namespace: 
-* This class is defined in classes\Media.php line 27
+
+* This class is defined in [classes/Media.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#27)
 
 
 
@@ -42,7 +43,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Media.php line 29
+* This property is defined in [classes/Media.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#29)
 
 
 ### $js_def
@@ -55,7 +56,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Media.php line 69
+* This property is defined in [classes/Media.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#69)
 
 
 ### $inline_script
@@ -68,7 +69,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Media.php line 74
+* This property is defined in [classes/Media.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#74)
 
 
 ### $inline_script_src
@@ -81,7 +82,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Media.php line 79
+* This property is defined in [classes/Media.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#79)
 
 
 ### $pattern_callback
@@ -94,7 +95,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Media.php line 84
+* This property is defined in [classes/Media.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#84)
 
 
 ### $current_css_file
@@ -107,7 +108,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Media.php line 89
+* This property is defined in [classes/Media.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#89)
 
 
 ### $pattern_js
@@ -120,7 +121,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Media.php line 94
+* This property is defined in [classes/Media.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#94)
 
 
 Methods
@@ -137,7 +138,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 96
+* This method is defined in [classes/Media.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#96)
 
 
 #### Arguments
@@ -155,7 +156,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 117
+* This method is defined in [classes/Media.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#117)
 
 
 #### Arguments
@@ -173,7 +174,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 132
+* This method is defined in [classes/Media.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#132)
 
 
 #### Arguments
@@ -191,7 +192,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 155
+* This method is defined in [classes/Media.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#155)
 
 
 #### Arguments
@@ -209,7 +210,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 168
+* This method is defined in [classes/Media.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#168)
 
 
 #### Arguments
@@ -227,7 +228,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 184
+* This method is defined in [classes/Media.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#184)
 
 
 #### Arguments
@@ -247,7 +248,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 216
+* This method is defined in [classes/Media.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#216)
 
 
 #### Arguments
@@ -265,7 +266,7 @@ addJS return javascript path
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 239
+* This method is defined in [classes/Media.php line 239](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#239)
 
 
 #### Arguments
@@ -283,7 +284,7 @@ addCSS return stylesheet path.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 253
+* This method is defined in [classes/Media.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#253)
 
 
 #### Arguments
@@ -303,7 +304,7 @@ addCSS return stylesheet path.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 267
+* This method is defined in [classes/Media.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#267)
 
 
 #### Arguments
@@ -322,7 +323,7 @@ return jquery path.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 319
+* This method is defined in [classes/Media.php line 319](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#319)
 
 
 #### Arguments
@@ -342,7 +343,7 @@ return jqueryUI component path.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 370
+* This method is defined in [classes/Media.php line 370](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#370)
 
 
 #### Arguments
@@ -362,7 +363,7 @@ return jquery plugin path.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 438
+* This method is defined in [classes/Media.php line 438](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#438)
 
 
 #### Arguments
@@ -381,7 +382,7 @@ return jquery plugin css path if exist.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 469
+* This method is defined in [classes/Media.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#469)
 
 
 #### Arguments
@@ -400,7 +401,7 @@ Combine Compress and Cache CSS (ccc) calls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 495
+* This method is defined in [classes/Media.php line 495](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#495)
 
 
 #### Arguments
@@ -418,7 +419,7 @@ Combine Compress and Cache CSS (ccc) calls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 602
+* This method is defined in [classes/Media.php line 602](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#602)
 
 
 
@@ -433,7 +434,7 @@ Combine Compress and Cache (ccc) JS calls
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 622
+* This method is defined in [classes/Media.php line 622](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#622)
 
 
 #### Arguments
@@ -451,7 +452,7 @@ Clear theme cache
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 711
+* This method is defined in [classes/Media.php line 711](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#711)
 
 
 
@@ -466,7 +467,7 @@ Get JS definitions
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 734
+* This method is defined in [classes/Media.php line 734](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#734)
 
 
 
@@ -481,7 +482,7 @@ Get JS inline script
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 745
+* This method is defined in [classes/Media.php line 745](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#745)
 
 
 
@@ -496,7 +497,7 @@ Add a new javascript definition at bottom of page
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 757
+* This method is defined in [classes/Media.php line 757](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#757)
 
 
 #### Arguments
@@ -514,7 +515,7 @@ Add a new javascript definition from a capture at bottom of page
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 778
+* This method is defined in [classes/Media.php line 778](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#778)
 
 
 #### Arguments
@@ -535,7 +536,7 @@ Add a new javascript definition from a capture at bottom of page
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 791
+* This method is defined in [classes/Media.php line 791](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#791)
 
 
 #### Arguments
@@ -554,7 +555,7 @@ To be used in callback with deferInlineScripts
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Media.php line 851
+* This method is defined in [classes/Media.php line 851](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Media.php#851)
 
 
 #### Arguments

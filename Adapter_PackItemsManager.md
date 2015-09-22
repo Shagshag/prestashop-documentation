@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_PackItemsManager
 * Namespace: 
-* This class is defined in Adapter\Adapter_PackItemsManager.php line 27
+
+* This class is defined in [Adapter/Adapter_PackItemsManager.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#27)
 
 
 
@@ -43,7 +44,7 @@ Get the Products contained in the given Pack.
 
 
 * Visibility: **public**
-* This method is defined in Adapter\Adapter_PackItemsManager.php line 36
+* This method is defined in [Adapter/Adapter_PackItemsManager.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#36)
 
 
 #### Arguments
@@ -61,7 +62,7 @@ Get all Packs that contains the given item in the corresponding declination.
 
 
 * Visibility: **public**
-* This method is defined in Adapter\Adapter_PackItemsManager.php line 53
+* This method is defined in [Adapter/Adapter_PackItemsManager.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#53)
 
 
 #### Arguments
@@ -80,7 +81,7 @@ Is this product a pack?
 
 
 * Visibility: **public**
-* This method is defined in Adapter\Adapter_PackItemsManager.php line 68
+* This method is defined in [Adapter/Adapter_PackItemsManager.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#68)
 
 
 #### Arguments
@@ -99,7 +100,7 @@ else this method will match a product if at least one of all its combination is 
 
 
 * Visibility: **public**
-* This method is defined in Adapter\Adapter_PackItemsManager.php line 82
+* This method is defined in [Adapter/Adapter_PackItemsManager.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_PackItemsManager.php#82)
 
 
 #### Arguments

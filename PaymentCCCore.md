@@ -9,8 +9,9 @@ PaymentCCCore
 * Class name: PaymentCCCore
 * Namespace: 
 * Parent class: [OrderPayment](OrderPaymentCore)
+
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
-* This class is defined in classes\PaymentCC.php line 33
+* This class is defined in [classes/PaymentCC.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#33)
 
 
 
@@ -30,7 +31,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\PaymentCC.php line 35
+* This property is defined in [classes/PaymentCC.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#35)
 
 
 ### $id_currency
@@ -43,7 +44,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\PaymentCC.php line 36
+* This property is defined in [classes/PaymentCC.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#36)
 
 
 ### $amount
@@ -56,7 +57,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\PaymentCC.php line 37
+* This property is defined in [classes/PaymentCC.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#37)
 
 
 ### $transaction_id
@@ -69,7 +70,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\PaymentCC.php line 38
+* This property is defined in [classes/PaymentCC.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#38)
 
 
 ### $card_number
@@ -82,7 +83,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\PaymentCC.php line 39
+* This property is defined in [classes/PaymentCC.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#39)
 
 
 ### $card_brand
@@ -95,7 +96,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\PaymentCC.php line 40
+* This property is defined in [classes/PaymentCC.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#40)
 
 
 ### $card_expiration
@@ -108,7 +109,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\PaymentCC.php line 41
+* This property is defined in [classes/PaymentCC.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#41)
 
 
 ### $card_holder
@@ -121,7 +122,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\PaymentCC.php line 42
+* This property is defined in [classes/PaymentCC.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#42)
 
 
 ### $date_add
@@ -134,7 +135,7 @@ Properties
 
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\PaymentCC.php line 43
+* This property is defined in [classes/PaymentCC.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#43)
 
 
 ### $fieldsRequired
@@ -147,7 +148,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\PaymentCC.php line 45
+* This property is defined in [classes/PaymentCC.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#45)
 
 
 ### $fieldsSize
@@ -160,7 +161,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\PaymentCC.php line 46
+* This property is defined in [classes/PaymentCC.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#46)
 
 
 ### $fieldsValidate
@@ -173,7 +174,7 @@ Properties
 
 * Visibility: **protected**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
-* This property is defined in classes\PaymentCC.php line 47
+* This property is defined in [classes/PaymentCC.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#47)
 
 
 ### $definition
@@ -187,7 +188,7 @@ Properties
 * Visibility: **public**
 * **Warning:** this property is **deprecated**. This means that this property will likely be removed in a future version.
 * This property is **static**.
-* This property is defined in classes\PaymentCC.php line 51
+* This property is defined in [classes/PaymentCC.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#51)
 
 
 Methods
@@ -204,7 +205,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\PaymentCC.php line 61
+* This method is defined in [classes/PaymentCC.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#61)
 
 
 #### Arguments
@@ -224,7 +225,7 @@ Get the detailed payment of an order
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\PaymentCC.php line 74
+* This method is defined in [classes/PaymentCC.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#74)
 
 
 #### Arguments

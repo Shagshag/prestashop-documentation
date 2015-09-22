@@ -8,7 +8,8 @@ ChartCore
 
 * Class name: ChartCore
 * Namespace: 
-* This class is defined in classes\Chart.php line 27
+
+* This class is defined in [classes/Chart.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Chart.php line 29
+* This property is defined in [classes/Chart.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#29)
 
 
 ### $width
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Chart.php line 31
+* This property is defined in [classes/Chart.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#31)
 
 
 ### $height
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Chart.php line 32
+* This property is defined in [classes/Chart.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#32)
 
 
 ### $timeMode
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Chart.php line 35
+* This property is defined in [classes/Chart.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#35)
 
 
 ### $from
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Chart.php line 36
+* This property is defined in [classes/Chart.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#36)
 
 
 ### $to
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Chart.php line 37
+* This property is defined in [classes/Chart.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#37)
 
 
 ### $format
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Chart.php line 38
+* This property is defined in [classes/Chart.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#38)
 
 
 ### $granularity
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Chart.php line 39
+* This property is defined in [classes/Chart.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#39)
 
 
 ### $curves
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Chart.php line 41
+* This property is defined in [classes/Chart.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#41)
 
 
 Methods
@@ -141,7 +142,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Chart.php line 44
+* This method is defined in [classes/Chart.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#44)
 
 
 
@@ -155,7 +156,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Chart.php line 53
+* This method is defined in [classes/Chart.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#53)
 
 
 
@@ -169,7 +170,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Chart.php line 59
+* This method is defined in [classes/Chart.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#59)
 
 
 #### Arguments
@@ -187,7 +188,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Chart.php line 66
+* This method is defined in [classes/Chart.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#66)
 
 
 #### Arguments
@@ -206,7 +207,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Chart.php line 95
+* This method is defined in [classes/Chart.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#95)
 
 
 #### Arguments
@@ -223,7 +224,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Chart.php line 104
+* This method is defined in [classes/Chart.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#104)
 
 
 
@@ -237,7 +238,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Chart.php line 109
+* This method is defined in [classes/Chart.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Chart.php#109)
 
 
 

@@ -9,7 +9,7 @@ ITreeToolbarButtonCore
 * Interface name: ITreeToolbarButtonCore
 * Namespace: 
 * This is an **interface**
-* This interface is defined in classes\tree\ITreeToolbarButton.php line 27
+* This interface is defined in [classes/tree/ITreeToolbarButton.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#27)
 
 
 
@@ -29,7 +29,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 29
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#29)
 
 
 
@@ -43,7 +43,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 30
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#30)
 
 
 #### Arguments
@@ -61,7 +61,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 31
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#31)
 
 
 #### Arguments
@@ -78,7 +78,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 32
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#32)
 
 
 #### Arguments
@@ -95,7 +95,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 33
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#33)
 
 
 
@@ -109,7 +109,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 34
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#34)
 
 
 #### Arguments
@@ -126,7 +126,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 35
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#35)
 
 
 
@@ -140,7 +140,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 36
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#36)
 
 
 #### Arguments
@@ -157,7 +157,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 37
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#37)
 
 
 
@@ -171,7 +171,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 38
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#38)
 
 
 #### Arguments
@@ -188,7 +188,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 39
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#39)
 
 
 
@@ -202,7 +202,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 40
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#40)
 
 
 #### Arguments
@@ -219,7 +219,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 41
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#41)
 
 
 
@@ -233,7 +233,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 42
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#42)
 
 
 #### Arguments
@@ -250,7 +250,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 43
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#43)
 
 
 
@@ -264,7 +264,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 44
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#44)
 
 
 #### Arguments
@@ -281,7 +281,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 45
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#45)
 
 
 
@@ -295,7 +295,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 46
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#46)
 
 
 #### Arguments
@@ -312,7 +312,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 47
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#47)
 
 
 
@@ -326,7 +326,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 48
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#48)
 
 
 #### Arguments
@@ -343,7 +343,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tree\ITreeToolbarButton.php line 49
+* This method is defined in [classes/tree/ITreeToolbarButton.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbarButton.php#49)
 
 
 

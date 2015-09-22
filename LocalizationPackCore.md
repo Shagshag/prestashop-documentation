@@ -8,7 +8,8 @@ LocalizationPackCore
 
 * Class name: LocalizationPackCore
 * Namespace: 
-* This class is defined in classes\LocalizationPack.php line 27
+
+* This class is defined in [classes/LocalizationPack.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#27)
 
 
 
@@ -27,7 +28,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\LocalizationPack.php line 29
+* This property is defined in [classes/LocalizationPack.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#29)
 
 
 ### $version
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\LocalizationPack.php line 30
+* This property is defined in [classes/LocalizationPack.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#30)
 
 
 ### $iso_code_lang
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\LocalizationPack.php line 32
+* This property is defined in [classes/LocalizationPack.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#32)
 
 
 ### $iso_currency
@@ -63,7 +64,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\LocalizationPack.php line 33
+* This property is defined in [classes/LocalizationPack.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#33)
 
 
 ### $_errors
@@ -75,7 +76,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\LocalizationPack.php line 34
+* This property is defined in [classes/LocalizationPack.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#34)
 
 
 Methods
@@ -91,7 +92,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\LocalizationPack.php line 36
+* This method is defined in [classes/LocalizationPack.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#36)
 
 
 #### Arguments
@@ -111,7 +112,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\LocalizationPack.php line 109
+* This method is defined in [classes/LocalizationPack.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#109)
 
 
 #### Arguments
@@ -128,7 +129,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\LocalizationPack.php line 175
+* This method is defined in [classes/LocalizationPack.php line 175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#175)
 
 
 #### Arguments
@@ -145,7 +146,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\LocalizationPack.php line 280
+* This method is defined in [classes/LocalizationPack.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#280)
 
 
 #### Arguments
@@ -163,7 +164,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\LocalizationPack.php line 330
+* This method is defined in [classes/LocalizationPack.php line 330](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#330)
 
 
 #### Arguments
@@ -181,7 +182,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\LocalizationPack.php line 361
+* This method is defined in [classes/LocalizationPack.php line 361](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#361)
 
 
 #### Arguments
@@ -200,7 +201,7 @@ Install/Uninstall a module from a localization file
 
 
 * Visibility: **protected**
-* This method is defined in classes\LocalizationPack.php line 389
+* This method is defined in [classes/LocalizationPack.php line 389](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#389)
 
 
 #### Arguments
@@ -219,7 +220,7 @@ Update a configuration variable from a localization file
 
 
 * Visibility: **protected**
-* This method is defined in classes\LocalizationPack.php line 429
+* This method is defined in [classes/LocalizationPack.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#429)
 
 
 #### Arguments
@@ -236,7 +237,7 @@ Update a configuration variable from a localization file
 
 
 * Visibility: **protected**
-* This method is defined in classes\LocalizationPack.php line 452
+* This method is defined in [classes/LocalizationPack.php line 452](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#452)
 
 
 #### Arguments
@@ -253,7 +254,7 @@ Update a configuration variable from a localization file
 
 
 * Visibility: **protected**
-* This method is defined in classes\LocalizationPack.php line 461
+* This method is defined in [classes/LocalizationPack.php line 461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#461)
 
 
 #### Arguments
@@ -270,7 +271,7 @@ Update a configuration variable from a localization file
 
 
 * Visibility: **public**
-* This method is defined in classes\LocalizationPack.php line 483
+* This method is defined in [classes/LocalizationPack.php line 483](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#483)
 
 
 

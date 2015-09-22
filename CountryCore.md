@@ -9,7 +9,8 @@ CountryCore
 * Class name: CountryCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Country.php line 27
+
+* This class is defined in [classes/Country.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Country.php line 29
+* This property is defined in [classes/Country.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#29)
 
 
 ### $id_zone
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Country.php line 32
+* This property is defined in [classes/Country.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#32)
 
 
 ### $id_currency
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Country.php line 35
+* This property is defined in [classes/Country.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#35)
 
 
 ### $iso_code
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Country.php line 38
+* This property is defined in [classes/Country.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#38)
 
 
 ### $call_prefix
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Country.php line 41
+* This property is defined in [classes/Country.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#41)
 
 
 ### $name
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Country.php line 44
+* This property is defined in [classes/Country.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#44)
 
 
 ### $contains_states
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Country.php line 47
+* This property is defined in [classes/Country.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#47)
 
 
 ### $need_identification_number
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Country.php line 50
+* This property is defined in [classes/Country.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#50)
 
 
 ### $need_zip_code
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Country.php line 53
+* This property is defined in [classes/Country.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#53)
 
 
 ### $zip_code_format
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Country.php line 56
+* This property is defined in [classes/Country.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#56)
 
 
 ### $display_tax_label
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Country.php line 59
+* This property is defined in [classes/Country.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#59)
 
 
 ### $active
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Country.php line 62
+* This property is defined in [classes/Country.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#62)
 
 
 ### $_idZones
@@ -173,7 +174,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Country.php line 64
+* This property is defined in [classes/Country.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#64)
 
 
 ### $definition
@@ -186,7 +187,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Country.php line 69
+* This property is defined in [classes/Country.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#69)
 
 
 ### $cache_iso_by_id
@@ -199,7 +200,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Country.php line 94
+* This property is defined in [classes/Country.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#94)
 
 
 ### $webserviceParameters
@@ -211,7 +212,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Country.php line 96
+* This property is defined in [classes/Country.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#96)
 
 
 Methods
@@ -227,7 +228,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Country.php line 104
+* This method is defined in [classes/Country.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#104)
 
 
 
@@ -242,7 +243,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 122
+* This method is defined in [classes/Country.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#122)
 
 
 #### Arguments
@@ -263,7 +264,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 147
+* This method is defined in [classes/Country.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#147)
 
 
 #### Arguments
@@ -282,7 +283,7 @@ Get a country ID with its iso code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 164
+* This method is defined in [classes/Country.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#164)
 
 
 #### Arguments
@@ -301,7 +302,7 @@ Get a country ID with its iso code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 183
+* This method is defined in [classes/Country.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#183)
 
 
 #### Arguments
@@ -319,7 +320,7 @@ Get a country name with its ID
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 213
+* This method is defined in [classes/Country.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#213)
 
 
 #### Arguments
@@ -338,7 +339,7 @@ Get a country iso with its ID
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 235
+* This method is defined in [classes/Country.php line 235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#235)
 
 
 #### Arguments
@@ -356,7 +357,7 @@ Get a country id with its name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 257
+* This method is defined in [classes/Country.php line 257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#257)
 
 
 #### Arguments
@@ -375,7 +376,7 @@ Get a country id with its name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 276
+* This method is defined in [classes/Country.php line 276](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#276)
 
 
 #### Arguments
@@ -393,7 +394,7 @@ Get a country id with its name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 288
+* This method is defined in [classes/Country.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#288)
 
 
 #### Arguments
@@ -411,7 +412,7 @@ Returns the default country Id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 312
+* This method is defined in [classes/Country.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#312)
 
 
 
@@ -426,7 +427,7 @@ Returns the default country Id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 318
+* This method is defined in [classes/Country.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#318)
 
 
 #### Arguments
@@ -444,7 +445,7 @@ Returns the default country Id
 
 
 * Visibility: **public**
-* This method is defined in classes\Country.php line 334
+* This method is defined in [classes/Country.php line 334](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#334)
 
 
 
@@ -459,7 +460,7 @@ Returns the default country Id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 339
+* This method is defined in [classes/Country.php line 339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#339)
 
 
 #### Arguments
@@ -477,7 +478,7 @@ Returns the default country Id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 347
+* This method is defined in [classes/Country.php line 347](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#347)
 
 
 #### Arguments
@@ -494,7 +495,7 @@ Returns the default country Id
 
 
 * Visibility: **public**
-* This method is defined in classes\Country.php line 360
+* This method is defined in [classes/Country.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#360)
 
 
 #### Arguments
@@ -512,7 +513,7 @@ Replace letters of zip code format And check this format on the zip code
 
 
 * Visibility: **public**
-* This method is defined in classes\Country.php line 374
+* This method is defined in [classes/Country.php line 374](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#374)
 
 
 #### Arguments
@@ -530,7 +531,7 @@ Replace letters of zip code format And check this format on the zip code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Country.php line 386
+* This method is defined in [classes/Country.php line 386](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#386)
 
 
 #### Arguments
@@ -549,7 +550,7 @@ Replace letters of zip code format And check this format on the zip code
 
 
 * Visibility: **public**
-* This method is defined in classes\Country.php line 417
+* This method is defined in [classes/Country.php line 417](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Country.php#417)
 
 
 #### Arguments

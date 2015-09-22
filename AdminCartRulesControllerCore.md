@@ -9,7 +9,8 @@ AdminCartRulesControllerCore
 * Class name: AdminCartRulesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminCartRulesController.php line 30
+
+* This class is defined in [controllers/admin/AdminCartRulesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminCartRulesController.php line 30
+* This property is defined in [controllers/admin/AdminCartRulesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 32
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 57
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#57)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 125
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#125)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 131
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#131)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 144
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#144)
 
 
 
@@ -114,7 +115,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 234
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#234)
 
 
 #### Arguments
@@ -131,7 +132,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 252
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#252)
 
 
 
@@ -145,7 +146,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 272
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#272)
 
 
 #### Arguments
@@ -163,7 +164,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 364
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 364](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#364)
 
 
 #### Arguments
@@ -180,7 +181,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 403
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 403](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#403)
 
 
 #### Arguments
@@ -199,7 +200,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 412
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 412](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#412)
 
 
 #### Arguments
@@ -219,7 +220,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 509
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 509](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#509)
 
 
 
@@ -233,7 +234,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 541
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 541](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#541)
 
 
 #### Arguments
@@ -250,7 +251,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 577
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 577](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#577)
 
 
 
@@ -264,7 +265,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 583
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 583](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#583)
 
 
 
@@ -278,7 +279,7 @@ if available, and in the database if there is none
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminCartRulesController.php line 708
+* This method is defined in [controllers/admin/AdminCartRulesController.php line 708](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCartRulesController.php#708)
 
 
 

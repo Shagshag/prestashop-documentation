@@ -9,7 +9,8 @@ OrderPaymentCore
 * Class name: OrderPaymentCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\order\OrderPayment.php line 27
+
+* This class is defined in [classes/order/OrderPayment.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderPayment.php line 29
+* This property is defined in [classes/order/OrderPayment.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#29)
 
 
 ### $id_currency
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderPayment.php line 30
+* This property is defined in [classes/order/OrderPayment.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#30)
 
 
 ### $amount
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderPayment.php line 31
+* This property is defined in [classes/order/OrderPayment.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#31)
 
 
 ### $payment_method
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderPayment.php line 32
+* This property is defined in [classes/order/OrderPayment.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#32)
 
 
 ### $conversion_rate
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderPayment.php line 33
+* This property is defined in [classes/order/OrderPayment.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#33)
 
 
 ### $transaction_id
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderPayment.php line 34
+* This property is defined in [classes/order/OrderPayment.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#34)
 
 
 ### $card_number
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderPayment.php line 35
+* This property is defined in [classes/order/OrderPayment.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#35)
 
 
 ### $card_brand
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderPayment.php line 36
+* This property is defined in [classes/order/OrderPayment.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#36)
 
 
 ### $card_expiration
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderPayment.php line 37
+* This property is defined in [classes/order/OrderPayment.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#37)
 
 
 ### $card_holder
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderPayment.php line 38
+* This property is defined in [classes/order/OrderPayment.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#38)
 
 
 ### $date_add
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderPayment.php line 39
+* This property is defined in [classes/order/OrderPayment.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#39)
 
 
 ### $definition
@@ -161,7 +162,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\order\OrderPayment.php line 44
+* This property is defined in [classes/order/OrderPayment.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#44)
 
 
 Methods
@@ -177,7 +178,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderPayment.php line 62
+* This method is defined in [classes/order/OrderPayment.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#62)
 
 
 #### Arguments
@@ -196,7 +197,7 @@ Get the detailed payment of an order
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderPayment.php line 78
+* This method is defined in [classes/order/OrderPayment.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#78)
 
 
 #### Arguments
@@ -214,7 +215,7 @@ Get the detailed payment of an order
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderPayment.php line 91
+* This method is defined in [classes/order/OrderPayment.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#91)
 
 
 #### Arguments
@@ -232,7 +233,7 @@ Get Order Payments By Invoice ID
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderPayment.php line 107
+* This method is defined in [classes/order/OrderPayment.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#107)
 
 
 #### Arguments
@@ -249,7 +250,7 @@ Return order invoice object linked to the payment
 
 
 * Visibility: **public**
-* This method is defined in classes\order\OrderPayment.php line 131
+* This method is defined in [classes/order/OrderPayment.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#131)
 
 
 #### Arguments

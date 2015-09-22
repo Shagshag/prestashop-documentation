@@ -9,7 +9,8 @@ ThemeCore
 * Class name: ThemeCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Theme.php line 27
+
+* This class is defined in [classes/Theme.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#27)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\Theme.php line 36
+* This constant is defined in [classes/Theme.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#36)
 
 
 ### CACHE_FILE_MUST_HAVE_THEMES_LIST
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in classes\Theme.php line 38
+* This constant is defined in [classes/Theme.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#38)
 
 
 ### UPLOADED_THEME_DIR_NAME
@@ -41,7 +42,7 @@ Constants
 
 
 
-* This constant is defined in classes\Theme.php line 40
+* This constant is defined in [classes/Theme.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#40)
 
 
 Properties
@@ -57,7 +58,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Theme.php line 29
+* This property is defined in [classes/Theme.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#29)
 
 
 ### $directory
@@ -69,7 +70,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Theme.php line 30
+* This property is defined in [classes/Theme.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#30)
 
 
 ### $responsive
@@ -81,7 +82,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Theme.php line 31
+* This property is defined in [classes/Theme.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#31)
 
 
 ### $default_left_column
@@ -93,7 +94,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Theme.php line 32
+* This property is defined in [classes/Theme.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#32)
 
 
 ### $default_right_column
@@ -105,7 +106,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Theme.php line 33
+* This property is defined in [classes/Theme.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#33)
 
 
 ### $product_per_page
@@ -117,7 +118,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Theme.php line 34
+* This property is defined in [classes/Theme.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#34)
 
 
 ### $access_rights
@@ -130,7 +131,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Theme.php line 43
+* This property is defined in [classes/Theme.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#43)
 
 
 ### $definition
@@ -143,7 +144,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Theme.php line 47
+* This property is defined in [classes/Theme.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#47)
 
 
 Methods
@@ -160,7 +161,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Theme.php line 60
+* This method is defined in [classes/Theme.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#60)
 
 
 
@@ -175,7 +176,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Theme.php line 67
+* This method is defined in [classes/Theme.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#67)
 
 
 #### Arguments
@@ -193,7 +194,7 @@ return an array of all available theme (installed or not)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Theme.php line 85
+* This method is defined in [classes/Theme.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#85)
 
 
 #### Arguments
@@ -210,7 +211,7 @@ check if a theme is used by a shop
 
 
 * Visibility: **public**
-* This method is defined in classes\Theme.php line 123
+* This method is defined in [classes/Theme.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#123)
 
 
 
@@ -224,7 +225,7 @@ add only theme if the directory exists
 
 
 * Visibility: **public**
-* This method is defined in classes\Theme.php line 136
+* This method is defined in [classes/Theme.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#136)
 
 
 #### Arguments
@@ -243,7 +244,7 @@ Checks if theme exists (by folder) and returns Theme object.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Theme.php line 152
+* This method is defined in [classes/Theme.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#152)
 
 
 #### Arguments
@@ -261,7 +262,7 @@ Checks if theme exists (by folder) and returns Theme object.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Theme.php line 163
+* This method is defined in [classes/Theme.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#163)
 
 
 
@@ -276,7 +277,7 @@ Checks if theme exists (by folder) and returns Theme object.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Theme.php line 174
+* This method is defined in [classes/Theme.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#174)
 
 
 #### Arguments
@@ -294,7 +295,7 @@ Checks if theme exists (by folder) and returns Theme object.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Theme.php line 214
+* This method is defined in [classes/Theme.php line 214](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#214)
 
 
 
@@ -308,7 +309,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in classes\Theme.php line 244
+* This method is defined in [classes/Theme.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#244)
 
 
 #### Arguments
@@ -326,7 +327,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in classes\Theme.php line 268
+* This method is defined in [classes/Theme.php line 268](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#268)
 
 
 #### Arguments
@@ -343,7 +344,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in classes\Theme.php line 278
+* This method is defined in [classes/Theme.php line 278](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#278)
 
 
 #### Arguments
@@ -360,7 +361,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in classes\Theme.php line 288
+* This method is defined in [classes/Theme.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#288)
 
 
 #### Arguments
@@ -377,7 +378,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in classes\Theme.php line 305
+* This method is defined in [classes/Theme.php line 305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#305)
 
 
 #### Arguments
@@ -394,7 +395,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in classes\Theme.php line 324
+* This method is defined in [classes/Theme.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#324)
 
 
 
@@ -408,7 +409,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in classes\Theme.php line 336
+* This method is defined in [classes/Theme.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#336)
 
 
 
@@ -422,7 +423,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in classes\Theme.php line 345
+* This method is defined in [classes/Theme.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#345)
 
 
 
@@ -436,7 +437,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in classes\Theme.php line 362
+* This method is defined in [classes/Theme.php line 362](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#362)
 
 
 
@@ -450,7 +451,7 @@ update the table PREFIX_theme_meta for the current theme
 
 
 * Visibility: **public**
-* This method is defined in classes\Theme.php line 375
+* This method is defined in [classes/Theme.php line 375](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Theme.php#375)
 
 
 

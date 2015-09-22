@@ -9,7 +9,8 @@ ProductDownloadCore
 * Class name: ProductDownloadCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\ProductDownload.php line 27
+
+* This class is defined in [classes/ProductDownload.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductDownload.php line 30
+* This property is defined in [classes/ProductDownload.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#30)
 
 
 ### $display_filename
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductDownload.php line 33
+* This property is defined in [classes/ProductDownload.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#33)
 
 
 ### $filename
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductDownload.php line 36
+* This property is defined in [classes/ProductDownload.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#36)
 
 
 ### $date_add
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductDownload.php line 39
+* This property is defined in [classes/ProductDownload.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#39)
 
 
 ### $date_expiration
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductDownload.php line 42
+* This property is defined in [classes/ProductDownload.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#42)
 
 
 ### $nb_days_accessible
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductDownload.php line 45
+* This property is defined in [classes/ProductDownload.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#45)
 
 
 ### $nb_downloadable
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductDownload.php line 48
+* This property is defined in [classes/ProductDownload.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#48)
 
 
 ### $active
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductDownload.php line 51
+* This property is defined in [classes/ProductDownload.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#51)
 
 
 ### $is_shareable
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ProductDownload.php line 54
+* This property is defined in [classes/ProductDownload.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#54)
 
 
 ### $_productIds
@@ -137,7 +138,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\ProductDownload.php line 56
+* This property is defined in [classes/ProductDownload.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#56)
 
 
 ### $definition
@@ -150,7 +151,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\ProductDownload.php line 61
+* This property is defined in [classes/ProductDownload.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#61)
 
 
 Methods
@@ -166,7 +167,7 @@ Build a virtual product
 
 
 * Visibility: **public**
-* This method is defined in classes\ProductDownload.php line 82
+* This method is defined in [classes/ProductDownload.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#82)
 
 
 #### Arguments
@@ -183,7 +184,7 @@ Build a virtual product
 
 
 * Visibility: **public**
-* This method is defined in classes\ProductDownload.php line 92
+* This method is defined in [classes/ProductDownload.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#92)
 
 
 
@@ -197,7 +198,7 @@ Build a virtual product
 
 
 * Visibility: **public**
-* This method is defined in classes\ProductDownload.php line 102
+* This method is defined in [classes/ProductDownload.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#102)
 
 
 #### Arguments
@@ -215,7 +216,7 @@ Build a virtual product
 
 
 * Visibility: **public**
-* This method is defined in classes\ProductDownload.php line 107
+* This method is defined in [classes/ProductDownload.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#107)
 
 
 #### Arguments
@@ -232,7 +233,7 @@ Build a virtual product
 
 
 * Visibility: **public**
-* This method is defined in classes\ProductDownload.php line 117
+* This method is defined in [classes/ProductDownload.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#117)
 
 
 #### Arguments
@@ -249,7 +250,7 @@ Delete the file
 
 
 * Visibility: **public**
-* This method is defined in classes\ProductDownload.php line 132
+* This method is defined in [classes/ProductDownload.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#132)
 
 
 #### Arguments
@@ -266,7 +267,7 @@ Check if file exists
 
 
 * Visibility: **public**
-* This method is defined in classes\ProductDownload.php line 147
+* This method is defined in [classes/ProductDownload.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#147)
 
 
 
@@ -281,7 +282,7 @@ Check if download repository is writable
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductDownload.php line 160
+* This method is defined in [classes/ProductDownload.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#160)
 
 
 
@@ -296,7 +297,7 @@ Return the id_product_download from an id_product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductDownload.php line 171
+* This method is defined in [classes/ProductDownload.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#171)
 
 
 #### Arguments
@@ -314,7 +315,7 @@ Return the display filename from a physical filename
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductDownload.php line 198
+* This method is defined in [classes/ProductDownload.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#198)
 
 
 #### Arguments
@@ -332,7 +333,7 @@ Return the filename from an id_product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductDownload.php line 212
+* This method is defined in [classes/ProductDownload.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#212)
 
 
 #### Arguments
@@ -350,7 +351,7 @@ Return the display filename from a physical filename
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductDownload.php line 228
+* This method is defined in [classes/ProductDownload.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#228)
 
 
 #### Arguments
@@ -367,7 +368,7 @@ Return html link
 
 
 * Visibility: **public**
-* This method is defined in classes\ProductDownload.php line 244
+* This method is defined in [classes/ProductDownload.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#244)
 
 
 #### Arguments
@@ -385,7 +386,7 @@ Return html link
 
 
 * Visibility: **public**
-* This method is defined in classes\ProductDownload.php line 260
+* This method is defined in [classes/ProductDownload.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#260)
 
 
 #### Arguments
@@ -404,7 +405,7 @@ Return a deadline
 
 
 * Visibility: **public**
-* This method is defined in classes\ProductDownload.php line 276
+* This method is defined in [classes/ProductDownload.php line 276](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#276)
 
 
 
@@ -418,7 +419,7 @@ Return a hash for control download access
 
 
 * Visibility: **public**
-* This method is defined in classes\ProductDownload.php line 290
+* This method is defined in [classes/ProductDownload.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#290)
 
 
 
@@ -433,7 +434,7 @@ Return a sha1 filename
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductDownload.php line 301
+* This method is defined in [classes/ProductDownload.php line 301](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#301)
 
 
 
@@ -448,7 +449,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ProductDownload.php line 314
+* This method is defined in [classes/ProductDownload.php line 314](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ProductDownload.php#314)
 
 
 

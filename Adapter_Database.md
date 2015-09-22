@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: Adapter_Database
 * Namespace: 
-* This class implements: [Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface)* This class is defined in Adapter\Adapter_Database.php line 27
+* This class implements: [Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface)
+* This class is defined in [Adapter/Adapter_Database.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_Database.php#27)
 
 
 
@@ -44,7 +45,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface)
-* This method is defined in Adapter\Adapter_Database.php line 29
+* This method is defined in [Adapter/Adapter_Database.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_Database.php#29)
 
 
 #### Arguments
@@ -62,7 +63,7 @@ Methods
 
 * Visibility: **public**
 * This method is defined by [Core_Foundation_Database_DatabaseInterface](Core_Foundation_Database_DatabaseInterface)
-* This method is defined in Adapter\Adapter_Database.php line 30
+* This method is defined in [Adapter/Adapter_Database.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_Database.php#30)
 
 
 #### Arguments

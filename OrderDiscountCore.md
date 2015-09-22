@@ -9,8 +9,9 @@ OrderDiscountCore
 * Class name: OrderDiscountCore
 * Namespace: 
 * Parent class: [OrderCartRule](OrderCartRuleCore)
+
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
-* This class is defined in classes\order\OrderDiscount.php line 30
+* This class is defined in [classes/order/OrderDiscount.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDiscount.php#30)
 
 
 
@@ -32,7 +33,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\order\OrderDiscount.php line 32
+* This method is defined in [classes/order/OrderDiscount.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDiscount.php#32)
 
 
 #### Arguments
@@ -50,7 +51,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\order\OrderDiscount.php line 44
+* This method is defined in [classes/order/OrderDiscount.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDiscount.php#44)
 
 
 #### Arguments
@@ -69,7 +70,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\order\OrderDiscount.php line 56
+* This method is defined in [classes/order/OrderDiscount.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderDiscount.php#56)
 
 
 #### Arguments

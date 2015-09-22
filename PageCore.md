@@ -9,7 +9,8 @@ PageCore
 * Class name: PageCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Page.php line 27
+
+* This class is defined in [classes/Page.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Page.php line 29
+* This property is defined in [classes/Page.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#29)
 
 
 ### $id_object
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Page.php line 30
+* This property is defined in [classes/Page.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#30)
 
 
 ### $name
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Page.php line 32
+* This property is defined in [classes/Page.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#32)
 
 
 ### $definition
@@ -65,7 +66,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Page.php line 37
+* This property is defined in [classes/Page.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#37)
 
 
 Methods
@@ -82,7 +83,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Page.php line 49
+* This method is defined in [classes/Page.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#49)
 
 
 
@@ -97,7 +98,7 @@ Return page type ID from page name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Page.php line 91
+* This method is defined in [classes/Page.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#91)
 
 
 #### Arguments
@@ -115,7 +116,7 @@ Return page type ID from page name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Page.php line 107
+* This method is defined in [classes/Page.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Page.php#107)
 
 
 #### Arguments

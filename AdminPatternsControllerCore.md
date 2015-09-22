@@ -9,7 +9,8 @@ AdminPatternsControllerCore
 * Class name: AdminPatternsControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminPatternsController.php line 27
+
+* This class is defined in [controllers/admin/AdminPatternsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminPatternsController.php line 29
+* This property is defined in [controllers/admin/AdminPatternsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#29)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPatternsController.php line 31
+* This method is defined in [controllers/admin/AdminPatternsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#31)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPatternsController.php line 40
+* This method is defined in [controllers/admin/AdminPatternsController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#40)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPatternsController.php line 45
+* This method is defined in [controllers/admin/AdminPatternsController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#45)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPatternsController.php line 422
+* This method is defined in [controllers/admin/AdminPatternsController.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#422)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPatternsController.php line 428
+* This method is defined in [controllers/admin/AdminPatternsController.php line 428](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#428)
 
 
 
@@ -114,7 +115,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPatternsController.php line 439
+* This method is defined in [controllers/admin/AdminPatternsController.php line 439](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#439)
 
 
 
@@ -128,7 +129,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPatternsController.php line 504
+* This method is defined in [controllers/admin/AdminPatternsController.php line 504](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#504)
 
 
 
@@ -142,7 +143,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPatternsController.php line 609
+* This method is defined in [controllers/admin/AdminPatternsController.php line 609](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#609)
 
 
 
@@ -156,7 +157,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPatternsController.php line 631
+* This method is defined in [controllers/admin/AdminPatternsController.php line 631](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#631)
 
 
 
@@ -170,7 +171,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPatternsController.php line 662
+* This method is defined in [controllers/admin/AdminPatternsController.php line 662](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#662)
 
 
 
@@ -184,7 +185,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminPatternsController.php line 675
+* This method is defined in [controllers/admin/AdminPatternsController.php line 675](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPatternsController.php#675)
 
 
 

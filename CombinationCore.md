@@ -9,7 +9,8 @@ CombinationCore
 * Class name: CombinationCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Combination.php line 27
+
+* This class is defined in [classes/Combination.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 29
+* This property is defined in [classes/Combination.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#29)
 
 
 ### $reference
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 31
+* This property is defined in [classes/Combination.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#31)
 
 
 ### $supplier_reference
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 33
+* This property is defined in [classes/Combination.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#33)
 
 
 ### $location
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 35
+* This property is defined in [classes/Combination.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#35)
 
 
 ### $ean13
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 37
+* This property is defined in [classes/Combination.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#37)
 
 
 ### $upc
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 39
+* This property is defined in [classes/Combination.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#39)
 
 
 ### $wholesale_price
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 41
+* This property is defined in [classes/Combination.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#41)
 
 
 ### $price
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 43
+* This property is defined in [classes/Combination.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#43)
 
 
 ### $unit_price_impact
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 45
+* This property is defined in [classes/Combination.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#45)
 
 
 ### $ecotax
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 47
+* This property is defined in [classes/Combination.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#47)
 
 
 ### $minimal_quantity
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 49
+* This property is defined in [classes/Combination.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#49)
 
 
 ### $quantity
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 51
+* This property is defined in [classes/Combination.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#51)
 
 
 ### $weight
@@ -172,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 53
+* This property is defined in [classes/Combination.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#53)
 
 
 ### $default_on
@@ -184,7 +185,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 55
+* This property is defined in [classes/Combination.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#55)
 
 
 ### $available_date
@@ -196,7 +197,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Combination.php line 57
+* This property is defined in [classes/Combination.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#57)
 
 
 ### $definition
@@ -209,7 +210,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Combination.php line 62
+* This property is defined in [classes/Combination.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#62)
 
 
 ### $webserviceParameters
@@ -221,7 +222,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Combination.php line 86
+* This property is defined in [classes/Combination.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#86)
 
 
 Methods
@@ -237,7 +238,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 98
+* This method is defined in [classes/Combination.php line 98](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#98)
 
 
 
@@ -251,7 +252,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 124
+* This method is defined in [classes/Combination.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#124)
 
 
 #### Arguments
@@ -268,7 +269,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 130
+* This method is defined in [classes/Combination.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#130)
 
 
 #### Arguments
@@ -286,7 +287,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 156
+* This method is defined in [classes/Combination.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#156)
 
 
 #### Arguments
@@ -303,7 +304,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 170
+* This method is defined in [classes/Combination.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#170)
 
 
 
@@ -317,7 +318,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 179
+* This method is defined in [classes/Combination.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#179)
 
 
 #### Arguments
@@ -334,7 +335,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 196
+* This method is defined in [classes/Combination.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#196)
 
 
 #### Arguments
@@ -351,7 +352,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 205
+* This method is defined in [classes/Combination.php line 205](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#205)
 
 
 
@@ -365,7 +366,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 216
+* This method is defined in [classes/Combination.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#216)
 
 
 
@@ -379,7 +380,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 226
+* This method is defined in [classes/Combination.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#226)
 
 
 #### Arguments
@@ -396,7 +397,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 251
+* This method is defined in [classes/Combination.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#251)
 
 
 #### Arguments
@@ -413,7 +414,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 260
+* This method is defined in [classes/Combination.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#260)
 
 
 #### Arguments
@@ -431,7 +432,7 @@ This method is allow to know if a feature is active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Combination.php line 274
+* This method is defined in [classes/Combination.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#274)
 
 
 
@@ -446,7 +447,7 @@ This method is allow to know if a Combination entity is currently used
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Combination.php line 291
+* This method is defined in [classes/Combination.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#291)
 
 
 #### Arguments
@@ -465,7 +466,7 @@ For a given product_attribute reference, returns the corresponding id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Combination.php line 303
+* This method is defined in [classes/Combination.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#303)
 
 
 #### Arguments
@@ -483,7 +484,7 @@ For a given product_attribute reference, returns the corresponding id
 
 
 * Visibility: **public**
-* This method is defined in classes\Combination.php line 318
+* This method is defined in [classes/Combination.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#318)
 
 
 
@@ -498,7 +499,7 @@ Retrive the price of combination
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Combination.php line 336
+* This method is defined in [classes/Combination.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Combination.php#336)
 
 
 #### Arguments

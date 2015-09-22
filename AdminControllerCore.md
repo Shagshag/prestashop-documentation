@@ -23,7 +23,8 @@ needs please refer to http://www.prestashop.com for more information.
 * Class name: AdminControllerCore
 * Namespace: 
 * Parent class: [Controller](ControllerCore)
-* This class is defined in classes\controller\AdminController.php line 27
+
+* This class is defined in [classes/controller/AdminController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#27)
 
 
 
@@ -42,7 +43,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 30
+* This property is defined in [classes/controller/AdminController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#30)
 
 
 ### $currentIndex
@@ -55,7 +56,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\controller\AdminController.php line 33
+* This property is defined in [classes/controller/AdminController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#33)
 
 
 ### $content
@@ -67,7 +68,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 36
+* This property is defined in [classes/controller/AdminController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#36)
 
 
 ### $warnings
@@ -79,7 +80,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 39
+* This property is defined in [classes/controller/AdminController.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#39)
 
 
 ### $informations
@@ -91,7 +92,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 42
+* This property is defined in [classes/controller/AdminController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#42)
 
 
 ### $confirmations
@@ -103,7 +104,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 45
+* This property is defined in [classes/controller/AdminController.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#45)
 
 
 ### $shopShareDatas
@@ -115,7 +116,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 48
+* This property is defined in [classes/controller/AdminController.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#48)
 
 
 ### $_languages
@@ -127,7 +128,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 51
+* This property is defined in [classes/controller/AdminController.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#51)
 
 
 ### $default_form_language
@@ -139,7 +140,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 54
+* This property is defined in [classes/controller/AdminController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#54)
 
 
 ### $allow_employee_form_lang
@@ -151,7 +152,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 57
+* This property is defined in [classes/controller/AdminController.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#57)
 
 
 ### $layout
@@ -163,7 +164,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 60
+* This property is defined in [classes/controller/AdminController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#60)
 
 
 ### $bootstrap
@@ -175,7 +176,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 63
+* This property is defined in [classes/controller/AdminController.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#63)
 
 
 ### $meta_title
@@ -187,7 +188,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 66
+* This property is defined in [classes/controller/AdminController.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#66)
 
 
 ### $template
@@ -199,7 +200,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 69
+* This property is defined in [classes/controller/AdminController.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#69)
 
 
 ### $table
@@ -211,7 +212,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 72
+* This property is defined in [classes/controller/AdminController.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#72)
 
 
 ### $list_id
@@ -223,7 +224,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 75
+* This property is defined in [classes/controller/AdminController.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#75)
 
 
 ### $identifier
@@ -235,7 +236,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 78
+* This property is defined in [classes/controller/AdminController.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#78)
 
 
 ### $identifier_name
@@ -247,7 +248,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 81
+* This property is defined in [classes/controller/AdminController.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#81)
 
 
 ### $className
@@ -259,7 +260,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 84
+* This property is defined in [classes/controller/AdminController.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#84)
 
 
 ### $tabAccess
@@ -271,7 +272,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 87
+* This property is defined in [classes/controller/AdminController.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#87)
 
 
 ### $id
@@ -283,7 +284,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 90
+* This property is defined in [classes/controller/AdminController.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#90)
 
 
 ### $required_database
@@ -295,7 +296,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 93
+* This property is defined in [classes/controller/AdminController.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#93)
 
 
 ### $token
@@ -307,7 +308,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 96
+* This property is defined in [classes/controller/AdminController.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#96)
 
 
 ### $shopLinkType
@@ -319,7 +320,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 99
+* This property is defined in [classes/controller/AdminController.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#99)
 
 
 ### $_defaultOrderBy
@@ -331,7 +332,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 102
+* This property is defined in [classes/controller/AdminController.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#102)
 
 
 ### $_defaultOrderWay
@@ -343,7 +344,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 105
+* This property is defined in [classes/controller/AdminController.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#105)
 
 
 ### $tpl_form_vars
@@ -355,7 +356,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 108
+* This property is defined in [classes/controller/AdminController.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#108)
 
 
 ### $tpl_list_vars
@@ -367,7 +368,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 111
+* This property is defined in [classes/controller/AdminController.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#111)
 
 
 ### $tpl_delete_link_vars
@@ -379,7 +380,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 114
+* This property is defined in [classes/controller/AdminController.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#114)
 
 
 ### $tpl_option_vars
@@ -391,7 +392,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 117
+* This property is defined in [classes/controller/AdminController.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#117)
 
 
 ### $tpl_view_vars
@@ -403,7 +404,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 120
+* This property is defined in [classes/controller/AdminController.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#120)
 
 
 ### $tpl_required_fields_vars
@@ -415,7 +416,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 123
+* This property is defined in [classes/controller/AdminController.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#123)
 
 
 ### $base_tpl_view
@@ -427,7 +428,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 126
+* This property is defined in [classes/controller/AdminController.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#126)
 
 
 ### $base_tpl_form
@@ -439,7 +440,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 129
+* This property is defined in [classes/controller/AdminController.php line 129](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#129)
 
 
 ### $multiple_fieldsets
@@ -451,7 +452,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 132
+* This property is defined in [classes/controller/AdminController.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#132)
 
 
 ### $fields_value
@@ -463,7 +464,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 135
+* This property is defined in [classes/controller/AdminController.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#135)
 
 
 ### $errors
@@ -475,7 +476,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 138
+* This property is defined in [classes/controller/AdminController.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#138)
 
 
 ### $list_simple_header
@@ -487,7 +488,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 141
+* This property is defined in [classes/controller/AdminController.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#141)
 
 
 ### $fields_list
@@ -499,7 +500,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 144
+* This property is defined in [classes/controller/AdminController.php line 144](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#144)
 
 
 ### $filter_modules_list
@@ -511,7 +512,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 147
+* This property is defined in [classes/controller/AdminController.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#147)
 
 
 ### $modules_list
@@ -523,7 +524,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 150
+* This property is defined in [classes/controller/AdminController.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#150)
 
 
 ### $fields_form
@@ -535,7 +536,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 153
+* This property is defined in [classes/controller/AdminController.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#153)
 
 
 ### $fields_form_override
@@ -547,7 +548,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 156
+* This property is defined in [classes/controller/AdminController.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#156)
 
 
 ### $submit_action
@@ -559,7 +560,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 159
+* This property is defined in [classes/controller/AdminController.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#159)
 
 
 ### $fields_options
@@ -571,7 +572,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 162
+* This property is defined in [classes/controller/AdminController.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#162)
 
 
 ### $shopLink
@@ -583,7 +584,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 165
+* This property is defined in [classes/controller/AdminController.php line 165](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#165)
 
 
 ### $_listsql
@@ -595,7 +596,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 168
+* This property is defined in [classes/controller/AdminController.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#168)
 
 
 ### $_list
@@ -607,7 +608,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 171
+* This property is defined in [classes/controller/AdminController.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#171)
 
 
 ### $toolbar_title
@@ -619,7 +620,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 174
+* This property is defined in [classes/controller/AdminController.php line 174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#174)
 
 
 ### $toolbar_btn
@@ -631,7 +632,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 177
+* This property is defined in [classes/controller/AdminController.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#177)
 
 
 ### $toolbar_scroll
@@ -643,7 +644,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 180
+* This property is defined in [classes/controller/AdminController.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#180)
 
 
 ### $show_toolbar
@@ -655,7 +656,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 183
+* This property is defined in [classes/controller/AdminController.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#183)
 
 
 ### $show_toolbar_options
@@ -667,7 +668,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 186
+* This property is defined in [classes/controller/AdminController.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#186)
 
 
 ### $_listTotal
@@ -679,7 +680,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 189
+* This property is defined in [classes/controller/AdminController.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#189)
 
 
 ### $lang
@@ -691,7 +692,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 192
+* This property is defined in [classes/controller/AdminController.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#192)
 
 
 ### $_filter
@@ -703,7 +704,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 195
+* This property is defined in [classes/controller/AdminController.php line 195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#195)
 
 
 ### $_filterHaving
@@ -715,7 +716,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 198
+* This property is defined in [classes/controller/AdminController.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#198)
 
 
 ### $_tmpTableFilter
@@ -727,7 +728,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 201
+* This property is defined in [classes/controller/AdminController.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#201)
 
 
 ### $_pagination
@@ -739,7 +740,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 204
+* This property is defined in [classes/controller/AdminController.php line 204](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#204)
 
 
 ### $_default_pagination
@@ -751,7 +752,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 207
+* This property is defined in [classes/controller/AdminController.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#207)
 
 
 ### $_orderBy
@@ -763,7 +764,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 210
+* This property is defined in [classes/controller/AdminController.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#210)
 
 
 ### $_orderWay
@@ -775,7 +776,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 213
+* This property is defined in [classes/controller/AdminController.php line 213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#213)
 
 
 ### $actions_available
@@ -787,7 +788,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 216
+* This property is defined in [classes/controller/AdminController.php line 216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#216)
 
 
 ### $actions
@@ -799,7 +800,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 219
+* This property is defined in [classes/controller/AdminController.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#219)
 
 
 ### $list_skip_actions
@@ -811,7 +812,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 222
+* This property is defined in [classes/controller/AdminController.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#222)
 
 
 ### $lite_display
@@ -823,7 +824,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 225
+* This property is defined in [classes/controller/AdminController.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#225)
 
 
 ### $list_no_link
@@ -835,7 +836,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 228
+* This property is defined in [classes/controller/AdminController.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#228)
 
 
 ### $allow_export
@@ -847,7 +848,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 231
+* This property is defined in [classes/controller/AdminController.php line 231](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#231)
 
 
 ### $cache_lang
@@ -860,7 +861,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\controller\AdminController.php line 234
+* This property is defined in [classes/controller/AdminController.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#234)
 
 
 ### $required_fields
@@ -872,7 +873,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 237
+* This property is defined in [classes/controller/AdminController.php line 237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#237)
 
 
 ### $helper
@@ -884,7 +885,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 240
+* This property is defined in [classes/controller/AdminController.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#240)
 
 
 ### $bulk_actions
@@ -905,7 +906,7 @@ array(
 If your action is named 'actionName', you need to have a method named bulkactionName() that will be executed when the button is clicked.
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 258
+* This property is defined in [classes/controller/AdminController.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#258)
 
 
 ### $boxes
@@ -917,7 +918,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 261
+* This property is defined in [classes/controller/AdminController.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#261)
 
 
 ### $explicitSelect
@@ -929,7 +930,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 264
+* This property is defined in [classes/controller/AdminController.php line 264](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#264)
 
 
 ### $_select
@@ -941,7 +942,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 267
+* This property is defined in [classes/controller/AdminController.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#267)
 
 
 ### $_join
@@ -953,7 +954,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 270
+* This property is defined in [classes/controller/AdminController.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#270)
 
 
 ### $_where
@@ -965,7 +966,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 273
+* This property is defined in [classes/controller/AdminController.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#273)
 
 
 ### $_group
@@ -977,7 +978,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 276
+* This property is defined in [classes/controller/AdminController.php line 276](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#276)
 
 
 ### $_having
@@ -989,7 +990,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 279
+* This property is defined in [classes/controller/AdminController.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#279)
 
 
 ### $_use_found_rows
@@ -1001,7 +1002,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 282
+* This property is defined in [classes/controller/AdminController.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#282)
 
 
 ### $is_cms
@@ -1013,7 +1014,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 285
+* This property is defined in [classes/controller/AdminController.php line 285](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#285)
 
 
 ### $position_identifier
@@ -1025,7 +1026,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 288
+* This property is defined in [classes/controller/AdminController.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#288)
 
 
 ### $position_group_identifier
@@ -1037,7 +1038,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 291
+* This property is defined in [classes/controller/AdminController.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#291)
 
 
 ### $deleted
@@ -1049,7 +1050,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 294
+* This property is defined in [classes/controller/AdminController.php line 294](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#294)
 
 
 ### $filter
@@ -1061,7 +1062,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 297
+* This property is defined in [classes/controller/AdminController.php line 297](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#297)
 
 
 ### $noLink
@@ -1073,7 +1074,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 300
+* This property is defined in [classes/controller/AdminController.php line 300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#300)
 
 
 ### $specificConfirmDelete
@@ -1085,7 +1086,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 303
+* This property is defined in [classes/controller/AdminController.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#303)
 
 
 ### $colorOnBackground
@@ -1097,7 +1098,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 306
+* This property is defined in [classes/controller/AdminController.php line 306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#306)
 
 
 ### $row_hover
@@ -1109,7 +1110,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 309
+* This property is defined in [classes/controller/AdminController.php line 309](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#309)
 
 
 ### $action
@@ -1121,7 +1122,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 312
+* This property is defined in [classes/controller/AdminController.php line 312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#312)
 
 
 ### $display
@@ -1133,7 +1134,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 315
+* This property is defined in [classes/controller/AdminController.php line 315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#315)
 
 
 ### $_includeContainer
@@ -1145,7 +1146,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 318
+* This property is defined in [classes/controller/AdminController.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#318)
 
 
 ### $tab_modules_list
@@ -1157,7 +1158,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 321
+* This property is defined in [classes/controller/AdminController.php line 321](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#321)
 
 
 ### $tpl_folder
@@ -1169,7 +1170,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 324
+* This property is defined in [classes/controller/AdminController.php line 324](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#324)
 
 
 ### $bo_theme
@@ -1181,7 +1182,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 327
+* This property is defined in [classes/controller/AdminController.php line 327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#327)
 
 
 ### $_redirect
@@ -1193,7 +1194,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 330
+* This property is defined in [classes/controller/AdminController.php line 330](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#330)
 
 
 ### $fieldImageSettings
@@ -1205,7 +1206,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 333
+* This property is defined in [classes/controller/AdminController.php line 333](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#333)
 
 
 ### $imageType
@@ -1217,7 +1218,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 336
+* This property is defined in [classes/controller/AdminController.php line 336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#336)
 
 
 ### $object
@@ -1229,7 +1230,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 339
+* This property is defined in [classes/controller/AdminController.php line 339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#339)
 
 
 ### $id_object
@@ -1241,7 +1242,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 342
+* This property is defined in [classes/controller/AdminController.php line 342](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#342)
 
 
 ### $controller_name
@@ -1253,7 +1254,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 345
+* This property is defined in [classes/controller/AdminController.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#345)
 
 
 ### $multishop_context
@@ -1265,7 +1266,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 348
+* This property is defined in [classes/controller/AdminController.php line 348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#348)
 
 
 ### $multishop_context_group
@@ -1277,7 +1278,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 351
+* This property is defined in [classes/controller/AdminController.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#351)
 
 
 ### $breadcrumbs
@@ -1289,7 +1290,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 354
+* This property is defined in [classes/controller/AdminController.php line 354](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#354)
 
 
 ### $show_page_header_toolbar
@@ -1301,7 +1302,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 357
+* This property is defined in [classes/controller/AdminController.php line 357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#357)
 
 
 ### $page_header_toolbar_title
@@ -1313,7 +1314,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 360
+* This property is defined in [classes/controller/AdminController.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#360)
 
 
 ### $page_header_toolbar_btn
@@ -1325,7 +1326,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 363
+* This property is defined in [classes/controller/AdminController.php line 363](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#363)
 
 
 ### $show_form_cancel_button
@@ -1337,7 +1338,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 366
+* This property is defined in [classes/controller/AdminController.php line 366](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#366)
 
 
 ### $admin_webpath
@@ -1349,7 +1350,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 369
+* This property is defined in [classes/controller/AdminController.php line 369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#369)
 
 
 ### $list_natives_modules
@@ -1361,7 +1362,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 372
+* This property is defined in [classes/controller/AdminController.php line 372](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#372)
 
 
 ### $list_partners_modules
@@ -1373,7 +1374,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 375
+* This property is defined in [classes/controller/AdminController.php line 375](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#375)
 
 
 ### $modals
@@ -1385,7 +1386,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\AdminController.php line 378
+* This property is defined in [classes/controller/AdminController.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#378)
 
 
 ### $logged_on_addons
@@ -1397,7 +1398,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 381
+* This property is defined in [classes/controller/AdminController.php line 381](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#381)
 
 
 ### $can_import
@@ -1409,7 +1410,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 384
+* This property is defined in [classes/controller/AdminController.php line 384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#384)
 
 
 ### $is_prestashop_up
@@ -1422,7 +1423,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\controller\AdminController.php line 3976
+* This property is defined in [classes/controller/AdminController.php line 3976](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3976)
 
 
 ### $translationsTab
@@ -1434,7 +1435,7 @@ If your action is named 'actionName', you need to have a method named bulkaction
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\AdminController.php line 4038
+* This property is defined in [classes/controller/AdminController.php line 4038](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#4038)
 
 
 Methods
@@ -1450,7 +1451,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 386
+* This method is defined in [classes/controller/AdminController.php line 386](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#386)
 
 
 
@@ -1464,7 +1465,7 @@ Set breadcrumbs array for the controller page
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 537
+* This method is defined in [classes/controller/AdminController.php line 537](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#537)
 
 
 #### Arguments
@@ -1482,7 +1483,7 @@ Set default toolbar_title to admin breadcrumb
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 617
+* This method is defined in [classes/controller/AdminController.php line 617](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#617)
 
 
 
@@ -1496,7 +1497,7 @@ Set default toolbar_title to admin breadcrumb
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 646
+* This method is defined in [classes/controller/AdminController.php line 646](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#646)
 
 
 
@@ -1510,7 +1511,7 @@ Check rights to view the current tab
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 693
+* This method is defined in [classes/controller/AdminController.php line 693](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#693)
 
 
 #### Arguments
@@ -1527,7 +1528,7 @@ Check for security token
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 710
+* This method is defined in [classes/controller/AdminController.php line 710](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#710)
 
 
 
@@ -1541,7 +1542,7 @@ Set the filters used for the list display
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 743
+* This method is defined in [classes/controller/AdminController.php line 743](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#743)
 
 
 
@@ -1555,7 +1556,7 @@ Set the filters used for the list display
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 860
+* This method is defined in [classes/controller/AdminController.php line 860](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#860)
 
 
 
@@ -1569,7 +1570,7 @@ Object Delete images
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 915
+* This method is defined in [classes/controller/AdminController.php line 915](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#915)
 
 
 
@@ -1583,7 +1584,7 @@ Object Delete images
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 935
+* This method is defined in [classes/controller/AdminController.php line 935](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#935)
 
 
 #### Arguments
@@ -1600,7 +1601,7 @@ Object Delete
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1002
+* This method is defined in [classes/controller/AdminController.php line 1002](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1002)
 
 
 
@@ -1614,7 +1615,7 @@ Call the right method for creating or updating object
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1048
+* This method is defined in [classes/controller/AdminController.php line 1048](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1048)
 
 
 
@@ -1628,7 +1629,7 @@ Object creation
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1064
+* This method is defined in [classes/controller/AdminController.php line 1064](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1064)
 
 
 
@@ -1642,7 +1643,7 @@ Object update
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1115
+* This method is defined in [classes/controller/AdminController.php line 1115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1115)
 
 
 
@@ -1656,7 +1657,7 @@ Change object required fields
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1208
+* This method is defined in [classes/controller/AdminController.php line 1208](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1208)
 
 
 
@@ -1670,7 +1671,7 @@ Change object status (active, inactive)
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1232
+* This method is defined in [classes/controller/AdminController.php line 1232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1232)
 
 
 
@@ -1684,7 +1685,7 @@ Change object position
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1266
+* This method is defined in [classes/controller/AdminController.php line 1266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1266)
 
 
 
@@ -1698,7 +1699,7 @@ Cancel all filters for this tab
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1286
+* This method is defined in [classes/controller/AdminController.php line 1286](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1286)
 
 
 #### Arguments
@@ -1715,7 +1716,7 @@ Update options and preferences
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 1323
+* This method is defined in [classes/controller/AdminController.php line 1323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1323)
 
 
 
@@ -1729,7 +1730,7 @@ Update options and preferences
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1443
+* This method is defined in [classes/controller/AdminController.php line 1443](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1443)
 
 
 
@@ -1743,7 +1744,7 @@ assign default action in toolbar_btn smarty var, if they are not set.
 uses override to specifically add, modify or remove items
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1508
+* This method is defined in [classes/controller/AdminController.php line 1508](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1508)
 
 
 
@@ -1758,7 +1759,7 @@ otherwise return an empty object, or die
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 1576
+* This method is defined in [classes/controller/AdminController.php line 1576](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1576)
 
 
 #### Arguments
@@ -1775,7 +1776,7 @@ Check if the token is valid, else display a warning page
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1609
+* This method is defined in [classes/controller/AdminController.php line 1609](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1609)
 
 
 
@@ -1789,7 +1790,7 @@ Check if the token is valid, else display a warning page
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 1634
+* This method is defined in [classes/controller/AdminController.php line 1634](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1634)
 
 
 #### Arguments
@@ -1807,7 +1808,7 @@ Check if the token is valid, else display a warning page
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1651
+* This method is defined in [classes/controller/AdminController.php line 1651](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1651)
 
 
 
@@ -1821,7 +1822,7 @@ Check if the token is valid, else display a warning page
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1658
+* This method is defined in [classes/controller/AdminController.php line 1658](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1658)
 
 
 
@@ -1835,7 +1836,7 @@ Check if the token is valid, else display a warning page
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 1673
+* This method is defined in [classes/controller/AdminController.php line 1673](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1673)
 
 
 
@@ -1849,7 +1850,7 @@ Check if the token is valid, else display a warning page
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1683
+* This method is defined in [classes/controller/AdminController.php line 1683](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1683)
 
 
 
@@ -1863,7 +1864,7 @@ Add a warning message to display at the top of the page
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 1767
+* This method is defined in [classes/controller/AdminController.php line 1767](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1767)
 
 
 #### Arguments
@@ -1880,7 +1881,7 @@ Add a info message to display at the top of the page
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 1777
+* This method is defined in [classes/controller/AdminController.php line 1777](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1777)
 
 
 #### Arguments
@@ -1897,7 +1898,7 @@ Assign smarty variables for the header
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1785
+* This method is defined in [classes/controller/AdminController.php line 1785](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1785)
 
 
 
@@ -1911,7 +1912,7 @@ Declare an action to use for each row in the list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1967
+* This method is defined in [classes/controller/AdminController.php line 1967](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1967)
 
 
 #### Arguments
@@ -1928,7 +1929,7 @@ Add an action to use for each row in the list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1979
+* This method is defined in [classes/controller/AdminController.php line 1979](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1979)
 
 
 #### Arguments
@@ -1946,7 +1947,7 @@ Assign smarty variables for all default views, list and form, then call other in
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 1994
+* This method is defined in [classes/controller/AdminController.php line 1994](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#1994)
 
 
 
@@ -1960,7 +1961,7 @@ Init tab modules list and add button in toolbar
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 2048
+* This method is defined in [classes/controller/AdminController.php line 2048](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2048)
 
 
 
@@ -1974,7 +1975,7 @@ Init tab modules list and add button in toolbar
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 2087
+* This method is defined in [classes/controller/AdminController.php line 2087](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2087)
 
 
 
@@ -1988,7 +1989,7 @@ Init tab modules list and add button in toolbar
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 2099
+* This method is defined in [classes/controller/AdminController.php line 2099](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2099)
 
 
 
@@ -2002,7 +2003,7 @@ Init tab modules list and add button in toolbar
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 2111
+* This method is defined in [classes/controller/AdminController.php line 2111](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2111)
 
 
 
@@ -2016,7 +2017,7 @@ Initialize the invalid doom page of death
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2179
+* This method is defined in [classes/controller/AdminController.php line 2179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2179)
 
 
 
@@ -2030,7 +2031,7 @@ Assign smarty variables for the footer
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2187
+* This method is defined in [classes/controller/AdminController.php line 2187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2187)
 
 
 
@@ -2044,7 +2045,7 @@ Assign smarty variables for the footer
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2213
+* This method is defined in [classes/controller/AdminController.php line 2213](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2213)
 
 
 
@@ -2058,7 +2059,7 @@ Assign smarty variables for the footer
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2256
+* This method is defined in [classes/controller/AdminController.php line 2256](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2256)
 
 
 
@@ -2072,7 +2073,7 @@ Assign smarty variables for the footer
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2271
+* This method is defined in [classes/controller/AdminController.php line 2271](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2271)
 
 
 
@@ -2086,7 +2087,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2325
+* This method is defined in [classes/controller/AdminController.php line 2325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2325)
 
 
 
@@ -2100,7 +2101,7 @@ Function used to render the list to display for this controller
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2382
+* This method is defined in [classes/controller/AdminController.php line 2382](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2382)
 
 
 
@@ -2114,7 +2115,7 @@ Override to render the view page
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2392
+* This method is defined in [classes/controller/AdminController.php line 2392](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2392)
 
 
 
@@ -2128,7 +2129,7 @@ Override to render the view page
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2405
+* This method is defined in [classes/controller/AdminController.php line 2405](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2405)
 
 
 
@@ -2142,7 +2143,7 @@ Override to render the view page
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2415
+* This method is defined in [classes/controller/AdminController.php line 2415](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2415)
 
 
 
@@ -2156,7 +2157,7 @@ Function used to render the form for this controller
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2427
+* This method is defined in [classes/controller/AdminController.php line 2427](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2427)
 
 
 
@@ -2170,7 +2171,7 @@ Function used to render the form for this controller
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2485
+* This method is defined in [classes/controller/AdminController.php line 2485](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2485)
 
 
 
@@ -2184,7 +2185,7 @@ Function used to render the form for this controller
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2490
+* This method is defined in [classes/controller/AdminController.php line 2490](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2490)
 
 
 
@@ -2198,7 +2199,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2499
+* This method is defined in [classes/controller/AdminController.php line 2499](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2499)
 
 
 
@@ -2212,7 +2213,7 @@ This function sets various display options for helper list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2531
+* This method is defined in [classes/controller/AdminController.php line 2531](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2531)
 
 
 #### Arguments
@@ -2229,7 +2230,7 @@ This function sets various display options for helper list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2586
+* This method is defined in [classes/controller/AdminController.php line 2586](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2586)
 
 
 
@@ -2243,7 +2244,7 @@ This function sets various display options for helper list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2590
+* This method is defined in [classes/controller/AdminController.php line 2590](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2590)
 
 
 
@@ -2257,7 +2258,7 @@ Non-static method which uses AdminController::translate()
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 2648
+* This method is defined in [classes/controller/AdminController.php line 2648](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2648)
 
 
 #### Arguments
@@ -2277,7 +2278,7 @@ Init context and dependencies, handles POST and GET
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2662
+* This method is defined in [classes/controller/AdminController.php line 2662](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2662)
 
 
 
@@ -2291,7 +2292,7 @@ Init context and dependencies, handles POST and GET
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2751
+* This method is defined in [classes/controller/AdminController.php line 2751](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2751)
 
 
 
@@ -2305,7 +2306,7 @@ Retrieve GET and POST value and translate them to actions
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 2821
+* This method is defined in [classes/controller/AdminController.php line 2821](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#2821)
 
 
 
@@ -2319,7 +2320,7 @@ Get the current objects' list form the database
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3005
+* This method is defined in [classes/controller/AdminController.php line 3005](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3005)
 
 
 #### Arguments
@@ -2341,7 +2342,7 @@ Get the current objects' list form the database
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3241
+* This method is defined in [classes/controller/AdminController.php line 3241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3241)
 
 
 #### Arguments
@@ -2358,7 +2359,7 @@ Get the current objects' list form the database
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3282
+* This method is defined in [classes/controller/AdminController.php line 3282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3282)
 
 
 
@@ -2372,7 +2373,7 @@ Return the list of fields value
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3314
+* This method is defined in [classes/controller/AdminController.php line 3314](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3314)
 
 
 #### Arguments
@@ -2390,7 +2391,7 @@ Case 1 : Return value if present in $_POST / $_GET
 Case 2 : Return object value
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3365
+* This method is defined in [classes/controller/AdminController.php line 3365](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3365)
 
 
 #### Arguments
@@ -2409,7 +2410,7 @@ Manage page display (form, list.
 ..)
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3382
+* This method is defined in [classes/controller/AdminController.php line 3382](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3382)
 
 
 #### Arguments
@@ -2426,7 +2427,7 @@ Overload this method for custom checking
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3460
+* This method is defined in [classes/controller/AdminController.php line 3460](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3460)
 
 
 
@@ -2440,7 +2441,7 @@ Display object details
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3467
+* This method is defined in [classes/controller/AdminController.php line 3467](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3467)
 
 
 
@@ -2454,7 +2455,7 @@ Called before deletion
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3477
+* This method is defined in [classes/controller/AdminController.php line 3477](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3477)
 
 
 #### Arguments
@@ -2471,7 +2472,7 @@ Called before deletion
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3489
+* This method is defined in [classes/controller/AdminController.php line 3489](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3489)
 
 
 #### Arguments
@@ -2489,7 +2490,7 @@ Called before deletion
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3498
+* This method is defined in [classes/controller/AdminController.php line 3498](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3498)
 
 
 #### Arguments
@@ -2506,7 +2507,7 @@ Called before deletion
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3507
+* This method is defined in [classes/controller/AdminController.php line 3507](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3507)
 
 
 #### Arguments
@@ -2523,7 +2524,7 @@ Check rights to view the current tab
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3517
+* This method is defined in [classes/controller/AdminController.php line 3517](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3517)
 
 
 
@@ -2537,7 +2538,7 @@ Copy data values from $_POST to object
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3528
+* This method is defined in [classes/controller/AdminController.php line 3528](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3528)
 
 
 #### Arguments
@@ -2555,7 +2556,7 @@ Returns an array with selected shops and type (group or boutique shop)
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3569
+* This method is defined in [classes/controller/AdminController.php line 3569](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3569)
 
 
 #### Arguments
@@ -2572,7 +2573,7 @@ Update the associations of shops
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3599
+* This method is defined in [classes/controller/AdminController.php line 3599](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3599)
 
 
 #### Arguments
@@ -2589,7 +2590,7 @@ Update the associations of shops
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3635
+* This method is defined in [classes/controller/AdminController.php line 3635](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3635)
 
 
 #### Arguments
@@ -2607,7 +2608,7 @@ Can be overridden
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3653
+* This method is defined in [classes/controller/AdminController.php line 3653](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3653)
 
 
 
@@ -2621,7 +2622,7 @@ Overload this method for custom checking
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3663
+* This method is defined in [classes/controller/AdminController.php line 3663](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3663)
 
 
 #### Arguments
@@ -2638,7 +2639,7 @@ Overload this method for custom checking
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3686
+* This method is defined in [classes/controller/AdminController.php line 3686](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3686)
 
 
 #### Arguments
@@ -2660,7 +2661,7 @@ Delete multiple items
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3738
+* This method is defined in [classes/controller/AdminController.php line 3738](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3738)
 
 
 
@@ -2674,7 +2675,7 @@ Delete multiple items
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3791
+* This method is defined in [classes/controller/AdminController.php line 3791](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3791)
 
 
 
@@ -2688,7 +2689,7 @@ Enable multiple items
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3825
+* This method is defined in [classes/controller/AdminController.php line 3825](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3825)
 
 
 
@@ -2702,7 +2703,7 @@ Disable multiple items
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3835
+* This method is defined in [classes/controller/AdminController.php line 3835](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3835)
 
 
 
@@ -2716,7 +2717,7 @@ Toggle status of multiple items
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3847
+* This method is defined in [classes/controller/AdminController.php line 3847](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3847)
 
 
 #### Arguments
@@ -2733,7 +2734,7 @@ Toggle status of multiple items
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3864
+* This method is defined in [classes/controller/AdminController.php line 3864](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3864)
 
 
 
@@ -2747,7 +2748,7 @@ Called before Add
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\AdminController.php line 3889
+* This method is defined in [classes/controller/AdminController.php line 3889](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3889)
 
 
 #### Arguments
@@ -2764,7 +2765,7 @@ Prepare the view to display the required fields form
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3899
+* This method is defined in [classes/controller/AdminController.php line 3899](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3899)
 
 
 
@@ -2778,7 +2779,7 @@ Create a template from the override file, else from the base file.
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3918
+* This method is defined in [classes/controller/AdminController.php line 3918](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3918)
 
 
 #### Arguments
@@ -2795,7 +2796,7 @@ Shortcut to set up a json success payload
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3938
+* This method is defined in [classes/controller/AdminController.php line 3938](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3938)
 
 
 #### Arguments
@@ -2812,7 +2813,7 @@ Shortcut to set up a json error payload
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3952
+* This method is defined in [classes/controller/AdminController.php line 3952](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3952)
 
 
 #### Arguments
@@ -2829,7 +2830,7 @@ Shortcut to set up a json error payload
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3966
+* This method is defined in [classes/controller/AdminController.php line 3966](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3966)
 
 
 #### Arguments
@@ -2847,7 +2848,7 @@ Shortcut to set up a json error payload
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3983
+* This method is defined in [classes/controller/AdminController.php line 3983](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3983)
 
 
 #### Arguments
@@ -2865,7 +2866,7 @@ Shortcut to set up a json error payload
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 3997
+* This method is defined in [classes/controller/AdminController.php line 3997](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#3997)
 
 
 #### Arguments
@@ -2884,7 +2885,7 @@ Display modules list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 4048
+* This method is defined in [classes/controller/AdminController.php line 4048](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#4048)
 
 
 #### Arguments
@@ -2903,7 +2904,7 @@ Display modules list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 4316
+* This method is defined in [classes/controller/AdminController.php line 4316](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#4316)
 
 
 
@@ -2917,7 +2918,7 @@ Add an entry to the meta title.
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\AdminController.php line 4357
+* This method is defined in [classes/controller/AdminController.php line 4357](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/AdminController.php#4357)
 
 
 #### Arguments

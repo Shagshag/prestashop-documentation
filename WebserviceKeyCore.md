@@ -9,7 +9,8 @@ WebserviceKeyCore
 * Class name: WebserviceKeyCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\webservice\WebserviceKey.php line 27
+
+* This class is defined in [classes/webservice/WebserviceKey.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceKey.php line 30
+* This property is defined in [classes/webservice/WebserviceKey.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#30)
 
 
 ### $active
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceKey.php line 33
+* This property is defined in [classes/webservice/WebserviceKey.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#33)
 
 
 ### $description
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\webservice\WebserviceKey.php line 36
+* This property is defined in [classes/webservice/WebserviceKey.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#36)
 
 
 ### $definition
@@ -65,7 +66,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\webservice\WebserviceKey.php line 41
+* This property is defined in [classes/webservice/WebserviceKey.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#41)
 
 
 Methods
@@ -81,7 +82,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceKey.php line 51
+* This method is defined in [classes/webservice/WebserviceKey.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#51)
 
 
 #### Arguments
@@ -100,7 +101,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\webservice\WebserviceKey.php line 59
+* This method is defined in [classes/webservice/WebserviceKey.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#59)
 
 
 #### Arguments
@@ -117,7 +118,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceKey.php line 67
+* This method is defined in [classes/webservice/WebserviceKey.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#67)
 
 
 
@@ -131,7 +132,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\webservice\WebserviceKey.php line 72
+* This method is defined in [classes/webservice/WebserviceKey.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#72)
 
 
 
@@ -146,7 +147,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\webservice\WebserviceKey.php line 77
+* This method is defined in [classes/webservice/WebserviceKey.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#77)
 
 
 #### Arguments
@@ -164,7 +165,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\webservice\WebserviceKey.php line 94
+* This method is defined in [classes/webservice/WebserviceKey.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#94)
 
 
 #### Arguments
@@ -182,7 +183,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\webservice\WebserviceKey.php line 102
+* This method is defined in [classes/webservice/WebserviceKey.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#102)
 
 
 #### Arguments
@@ -200,7 +201,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\webservice\WebserviceKey.php line 110
+* This method is defined in [classes/webservice/WebserviceKey.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceKey.php#110)
 
 
 #### Arguments

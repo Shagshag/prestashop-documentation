@@ -9,7 +9,8 @@ TabCore
 * Class name: TabCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Tab.php line 27
+
+* This class is defined in [classes/Tab.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#27)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\Tab.php line 49
+* This constant is defined in [classes/Tab.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#49)
 
 
 Properties
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Tab.php line 30
+* This property is defined in [classes/Tab.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#30)
 
 
 ### $class_name
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Tab.php line 33
+* This property is defined in [classes/Tab.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#33)
 
 
 ### $module
@@ -63,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Tab.php line 35
+* This property is defined in [classes/Tab.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#35)
 
 
 ### $id_parent
@@ -75,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Tab.php line 38
+* This property is defined in [classes/Tab.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#38)
 
 
 ### $position
@@ -87,7 +88,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Tab.php line 41
+* This property is defined in [classes/Tab.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#41)
 
 
 ### $active
@@ -99,7 +100,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Tab.php line 44
+* This property is defined in [classes/Tab.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#44)
 
 
 ### $hide_host_mode
@@ -111,7 +112,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Tab.php line 47
+* This property is defined in [classes/Tab.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#47)
 
 
 ### $definition
@@ -124,7 +125,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Tab.php line 54
+* This property is defined in [classes/Tab.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#54)
 
 
 ### $_getIdFromClassName
@@ -137,7 +138,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Tab.php line 70
+* This property is defined in [classes/Tab.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#70)
 
 
 ### $_cache_tabs
@@ -150,7 +151,7 @@ Get tabs
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Tab.php line 251
+* This property is defined in [classes/Tab.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#251)
 
 
 Methods
@@ -168,7 +169,7 @@ additionnal treatments for Tab when creating new one :
 
 
 * Visibility: **public**
-* This method is defined in classes\Tab.php line 81
+* This method is defined in [classes/Tab.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#81)
 
 
 #### Arguments
@@ -186,7 +187,7 @@ additionnal treatments for Tab when creating new one :
 
 
 * Visibility: **public**
-* This method is defined in classes\Tab.php line 113
+* This method is defined in [classes/Tab.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#113)
 
 
 #### Arguments
@@ -205,7 +206,7 @@ When creating a new tab $id_tab, this add default rights to the table access
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 126
+* This method is defined in [classes/Tab.php line 126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#126)
 
 
 #### Arguments
@@ -223,7 +224,7 @@ When creating a new tab $id_tab, this add default rights to the table access
 
 
 * Visibility: **public**
-* This method is defined in classes\Tab.php line 153
+* This method is defined in [classes/Tab.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#153)
 
 
 
@@ -238,7 +239,7 @@ Get tab id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 169
+* This method is defined in [classes/Tab.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#169)
 
 
 
@@ -253,7 +254,7 @@ Get tab parent id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 184
+* This method is defined in [classes/Tab.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#184)
 
 
 
@@ -268,7 +269,7 @@ Get tab
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 206
+* This method is defined in [classes/Tab.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#206)
 
 
 #### Arguments
@@ -287,7 +288,7 @@ Return the list of tab used by a module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 229
+* This method is defined in [classes/Tab.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#229)
 
 
 
@@ -302,7 +303,7 @@ Return the list of tab used by a module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 252
+* This method is defined in [classes/Tab.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#252)
 
 
 #### Arguments
@@ -321,7 +322,7 @@ Get tab id from name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 291
+* This method is defined in [classes/Tab.php line 291](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#291)
 
 
 #### Arguments
@@ -339,7 +340,7 @@ Get collection from module name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 314
+* This method is defined in [classes/Tab.php line 314](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#314)
 
 
 #### Arguments
@@ -358,7 +359,7 @@ Enabling tabs for module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 335
+* This method is defined in [classes/Tab.php line 335](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#335)
 
 
 #### Arguments
@@ -376,7 +377,7 @@ Disabling tabs for module
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 354
+* This method is defined in [classes/Tab.php line 354](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#354)
 
 
 #### Arguments
@@ -394,7 +395,7 @@ Get Instance from tab class name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 374
+* This method is defined in [classes/Tab.php line 374](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#374)
 
 
 #### Arguments
@@ -413,7 +414,7 @@ Get Instance from tab class name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 380
+* This method is defined in [classes/Tab.php line 380](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#380)
 
 
 #### Arguments
@@ -431,7 +432,7 @@ return an available position in subtab for parent $id_parent
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 395
+* This method is defined in [classes/Tab.php line 395](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#395)
 
 
 #### Arguments
@@ -448,7 +449,7 @@ return an available position in subtab for parent $id_parent
 
 
 * Visibility: **public**
-* This method is defined in classes\Tab.php line 404
+* This method is defined in [classes/Tab.php line 404](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#404)
 
 
 #### Arguments
@@ -465,7 +466,7 @@ return an available position in subtab for parent $id_parent
 
 
 * Visibility: **public**
-* This method is defined in classes\Tab.php line 431
+* This method is defined in [classes/Tab.php line 431](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#431)
 
 
 #### Arguments
@@ -482,7 +483,7 @@ return an available position in subtab for parent $id_parent
 
 
 * Visibility: **public**
-* This method is defined in classes\Tab.php line 450
+* This method is defined in [classes/Tab.php line 450](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#450)
 
 
 #### Arguments
@@ -501,7 +502,7 @@ return an available position in subtab for parent $id_parent
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 488
+* This method is defined in [classes/Tab.php line 488](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#488)
 
 
 #### Arguments
@@ -519,7 +520,7 @@ return an available position in subtab for parent $id_parent
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 506
+* This method is defined in [classes/Tab.php line 506](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#506)
 
 
 #### Arguments
@@ -537,7 +538,7 @@ Overrides update to set position to last when changing parent tab
 
 
 * Visibility: **public**
-* This method is defined in classes\Tab.php line 523
+* This method is defined in [classes/Tab.php line 523](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#523)
 
 
 #### Arguments
@@ -555,7 +556,7 @@ Overrides update to set position to last when changing parent tab
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 534
+* This method is defined in [classes/Tab.php line 534](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#534)
 
 
 #### Arguments
@@ -574,7 +575,7 @@ Overrides update to set position to last when changing parent tab
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 558
+* This method is defined in [classes/Tab.php line 558](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#558)
 
 
 #### Arguments
@@ -592,7 +593,7 @@ Overrides update to set position to last when changing parent tab
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tab.php line 563
+* This method is defined in [classes/Tab.php line 563](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#563)
 
 
 #### Arguments

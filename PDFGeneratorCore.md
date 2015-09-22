@@ -9,7 +9,8 @@ PDFGeneratorCore
 * Class name: PDFGeneratorCore
 * Namespace: 
 * Parent class: TCPDF
-* This class is defined in classes\pdf\PDFGenerator.php line 33
+
+* This class is defined in [classes/pdf/PDFGenerator.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#33)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\pdf\PDFGenerator.php line 35
+* This constant is defined in [classes/pdf/PDFGenerator.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#35)
 
 
 Properties
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\PDFGenerator.php line 37
+* This property is defined in [classes/pdf/PDFGenerator.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#37)
 
 
 ### $footer
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\PDFGenerator.php line 38
+* This property is defined in [classes/pdf/PDFGenerator.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#38)
 
 
 ### $content
@@ -63,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\PDFGenerator.php line 39
+* This property is defined in [classes/pdf/PDFGenerator.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#39)
 
 
 ### $font
@@ -75,7 +76,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\PDFGenerator.php line 40
+* This property is defined in [classes/pdf/PDFGenerator.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#40)
 
 
 ### $font_by_lang
@@ -87,7 +88,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\pdf\PDFGenerator.php line 42
+* This property is defined in [classes/pdf/PDFGenerator.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#42)
 
 
 Methods
@@ -103,7 +104,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDFGenerator.php line 79
+* This method is defined in [classes/pdf/PDFGenerator.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#79)
 
 
 #### Arguments
@@ -121,7 +122,7 @@ set the PDF encoding
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDFGenerator.php line 90
+* This method is defined in [classes/pdf/PDFGenerator.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#90)
 
 
 #### Arguments
@@ -138,7 +139,7 @@ set the PDF header
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDFGenerator.php line 101
+* This method is defined in [classes/pdf/PDFGenerator.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#101)
 
 
 #### Arguments
@@ -155,7 +156,7 @@ set the PDF footer
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDFGenerator.php line 112
+* This method is defined in [classes/pdf/PDFGenerator.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#112)
 
 
 #### Arguments
@@ -172,7 +173,7 @@ create the PDF content
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDFGenerator.php line 123
+* This method is defined in [classes/pdf/PDFGenerator.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#123)
 
 
 #### Arguments
@@ -189,7 +190,7 @@ Change the font
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDFGenerator.php line 133
+* This method is defined in [classes/pdf/PDFGenerator.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#133)
 
 
 #### Arguments
@@ -206,7 +207,7 @@ Change the font
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDFGenerator.php line 149
+* This method is defined in [classes/pdf/PDFGenerator.php line 149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#149)
 
 
 
@@ -220,7 +221,7 @@ Change the font
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDFGenerator.php line 157
+* This method is defined in [classes/pdf/PDFGenerator.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#157)
 
 
 
@@ -234,7 +235,7 @@ Render HTML template
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDFGenerator.php line 170
+* This method is defined in [classes/pdf/PDFGenerator.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#170)
 
 
 #### Arguments
@@ -252,7 +253,7 @@ Write a PDF page
 
 
 * Visibility: **public**
-* This method is defined in classes\pdf\PDFGenerator.php line 198
+* This method is defined in [classes/pdf/PDFGenerator.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#198)
 
 
 
@@ -266,7 +267,7 @@ Override of TCPDF::getRandomSeed() - getmypid() is blocked on several hosting
 
 
 * Visibility: **protected**
-* This method is defined in classes\pdf\PDFGenerator.php line 210
+* This method is defined in [classes/pdf/PDFGenerator.php line 210](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#210)
 
 
 #### Arguments

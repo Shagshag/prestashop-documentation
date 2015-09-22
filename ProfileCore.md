@@ -9,7 +9,8 @@ ProfileCore
 * Class name: ProfileCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Profile.php line 27
+
+* This class is defined in [classes/Profile.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Profile.php line 30
+* This property is defined in [classes/Profile.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#30)
 
 
 ### $definition
@@ -41,7 +42,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Profile.php line 35
+* This property is defined in [classes/Profile.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#35)
 
 
 ### $_cache_accesses
@@ -54,7 +55,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Profile.php line 45
+* This property is defined in [classes/Profile.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#45)
 
 
 Methods
@@ -71,7 +72,7 @@ Get all available profiles
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Profile.php line 52
+* This method is defined in [classes/Profile.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#52)
 
 
 #### Arguments
@@ -89,7 +90,7 @@ Get the current profile name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Profile.php line 66
+* This method is defined in [classes/Profile.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#66)
 
 
 #### Arguments
@@ -107,7 +108,7 @@ Get the current profile name
 
 
 * Visibility: **public**
-* This method is defined in classes\Profile.php line 81
+* This method is defined in [classes/Profile.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#81)
 
 
 #### Arguments
@@ -125,7 +126,7 @@ Get the current profile name
 
 
 * Visibility: **public**
-* This method is defined in classes\Profile.php line 95
+* This method is defined in [classes/Profile.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#95)
 
 
 
@@ -140,7 +141,7 @@ Get the current profile name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Profile.php line 106
+* This method is defined in [classes/Profile.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#106)
 
 
 #### Arguments
@@ -159,7 +160,7 @@ Get the current profile name
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Profile.php line 113
+* This method is defined in [classes/Profile.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Profile.php#113)
 
 
 #### Arguments

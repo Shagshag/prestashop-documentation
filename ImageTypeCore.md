@@ -9,7 +9,8 @@ ImageTypeCore
 * Class name: ImageTypeCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\ImageType.php line 27
+
+* This class is defined in [classes/ImageType.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ImageType.php line 29
+* This property is defined in [classes/ImageType.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#29)
 
 
 ### $name
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ImageType.php line 32
+* This property is defined in [classes/ImageType.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#32)
 
 
 ### $width
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ImageType.php line 35
+* This property is defined in [classes/ImageType.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#35)
 
 
 ### $height
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ImageType.php line 38
+* This property is defined in [classes/ImageType.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#38)
 
 
 ### $products
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ImageType.php line 41
+* This property is defined in [classes/ImageType.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#41)
 
 
 ### $categories
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ImageType.php line 44
+* This property is defined in [classes/ImageType.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#44)
 
 
 ### $manufacturers
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ImageType.php line 47
+* This property is defined in [classes/ImageType.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#47)
 
 
 ### $suppliers
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ImageType.php line 50
+* This property is defined in [classes/ImageType.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#50)
 
 
 ### $scenes
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ImageType.php line 53
+* This property is defined in [classes/ImageType.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#53)
 
 
 ### $stores
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\ImageType.php line 56
+* This property is defined in [classes/ImageType.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#56)
 
 
 ### $definition
@@ -149,7 +150,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\ImageType.php line 61
+* This property is defined in [classes/ImageType.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#61)
 
 
 ### $images_types_cache
@@ -162,7 +163,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\ImageType.php line 80
+* This property is defined in [classes/ImageType.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#80)
 
 
 ### $images_types_name_cache
@@ -175,7 +176,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\ImageType.php line 82
+* This property is defined in [classes/ImageType.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#82)
 
 
 ### $webserviceParameters
@@ -187,7 +188,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\ImageType.php line 84
+* This property is defined in [classes/ImageType.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#84)
 
 
 Methods
@@ -204,7 +205,7 @@ Returns image type definitions
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ImageType.php line 94
+* This method is defined in [classes/ImageType.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#94)
 
 
 #### Arguments
@@ -223,7 +224,7 @@ Check if type already is already registered in database
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ImageType.php line 119
+* This method is defined in [classes/ImageType.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#119)
 
 
 #### Arguments
@@ -241,7 +242,7 @@ Finds image type definition by name and type
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ImageType.php line 138
+* This method is defined in [classes/ImageType.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#138)
 
 
 #### Arguments
@@ -261,7 +262,7 @@ Finds image type definition by name and type
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ImageType.php line 166
+* This method is defined in [classes/ImageType.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#166)
 
 
 #### Arguments

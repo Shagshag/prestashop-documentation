@@ -9,7 +9,8 @@ AddressesControllerCore
 * Class name: AddressesControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\AddressesController.php line 27
+
+* This class is defined in [controllers/front/AddressesController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressesController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\AddressesController.php line 29
+* This property is defined in [controllers/front/AddressesController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressesController.php#29)
 
 
 ### $php_self
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\AddressesController.php line 30
+* This property is defined in [controllers/front/AddressesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressesController.php#30)
 
 
 ### $authRedirection
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\AddressesController.php line 31
+* This property is defined in [controllers/front/AddressesController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressesController.php#31)
 
 
 ### $ssl
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\AddressesController.php line 32
+* This property is defined in [controllers/front/AddressesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressesController.php#32)
 
 
 Methods
@@ -80,7 +81,7 @@ Set default medias for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\AddressesController.php line 37
+* This method is defined in [controllers/front/AddressesController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressesController.php#37)
 
 
 
@@ -94,7 +95,7 @@ Initialize addresses controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\AddressesController.php line 49
+* This method is defined in [controllers/front/AddressesController.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressesController.php#49)
 
 
 
@@ -108,7 +109,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\AddressesController.php line 62
+* This method is defined in [controllers/front/AddressesController.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AddressesController.php#62)
 
 
 

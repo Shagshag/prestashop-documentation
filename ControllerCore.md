@@ -9,7 +9,8 @@ ControllerCore
 * Class name: ControllerCore
 * Namespace: 
 * This is an **abstract** class
-* This class is defined in classes\controller\Controller.php line 31
+
+* This class is defined in [classes/controller/Controller.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#31)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\Controller.php line 34
+* This property is defined in [classes/controller/Controller.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#34)
 
 
 ### $css_files
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\Controller.php line 37
+* This property is defined in [classes/controller/Controller.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#37)
 
 
 ### $js_files
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\Controller.php line 40
+* This property is defined in [classes/controller/Controller.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#40)
 
 
 ### $php_errors
@@ -65,7 +66,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\controller\Controller.php line 43
+* This property is defined in [classes/controller/Controller.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#43)
 
 
 ### $display_header
@@ -77,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\Controller.php line 46
+* This property is defined in [classes/controller/Controller.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#46)
 
 
 ### $display_header_javascript
@@ -89,7 +90,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\Controller.php line 49
+* This property is defined in [classes/controller/Controller.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#49)
 
 
 ### $template
@@ -101,7 +102,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\Controller.php line 52
+* This property is defined in [classes/controller/Controller.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#52)
 
 
 ### $display_footer
@@ -113,7 +114,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\Controller.php line 55
+* This property is defined in [classes/controller/Controller.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#55)
 
 
 ### $content_only
@@ -125,7 +126,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\Controller.php line 58
+* This property is defined in [classes/controller/Controller.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#58)
 
 
 ### $ajax
@@ -137,7 +138,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\Controller.php line 61
+* This property is defined in [classes/controller/Controller.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#61)
 
 
 ### $json
@@ -149,7 +150,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\Controller.php line 64
+* This property is defined in [classes/controller/Controller.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#64)
 
 
 ### $status
@@ -161,7 +162,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\Controller.php line 67
+* This property is defined in [classes/controller/Controller.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#67)
 
 
 ### $redirect_after
@@ -173,7 +174,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\controller\Controller.php line 73
+* This property is defined in [classes/controller/Controller.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#73)
 
 
 ### $controller_type
@@ -185,7 +186,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\Controller.php line 76
+* This property is defined in [classes/controller/Controller.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#76)
 
 
 ### $php_self
@@ -197,7 +198,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\controller\Controller.php line 79
+* This property is defined in [classes/controller/Controller.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#79)
 
 
 Methods
@@ -214,7 +215,7 @@ Check if the controller is available for the current user/visitor
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\controller\Controller.php line 84
+* This method is defined in [classes/controller/Controller.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#84)
 
 
 
@@ -229,7 +230,7 @@ Check if the current user/visitor has valid view permissions
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\controller\Controller.php line 89
+* This method is defined in [classes/controller/Controller.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#89)
 
 
 
@@ -243,7 +244,7 @@ Initialize the page
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 94
+* This method is defined in [classes/controller/Controller.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#94)
 
 
 
@@ -258,7 +259,7 @@ Do the page treatment: process input, process AJAX, etc.
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\controller\Controller.php line 112
+* This method is defined in [classes/controller/Controller.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#112)
 
 
 
@@ -273,7 +274,7 @@ Displays page view
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\controller\Controller.php line 117
+* This method is defined in [classes/controller/Controller.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#117)
 
 
 
@@ -288,7 +289,7 @@ Sets default media list for this controller
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\controller\Controller.php line 122
+* This method is defined in [classes/controller/Controller.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#122)
 
 
 
@@ -303,7 +304,7 @@ returns a new instance of this controller
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\controller\Controller.php line 132
+* This method is defined in [classes/controller/Controller.php line 132](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#132)
 
 
 #### Arguments
@@ -322,7 +323,7 @@ returns a new instance of this controller
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 137
+* This method is defined in [classes/controller/Controller.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#137)
 
 
 
@@ -336,7 +337,7 @@ Starts the controller process (this method should not be overridden!)
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 168
+* This method is defined in [classes/controller/Controller.php line 168](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#168)
 
 
 
@@ -350,7 +351,7 @@ Sets page header display
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 222
+* This method is defined in [classes/controller/Controller.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#222)
 
 
 #### Arguments
@@ -367,7 +368,7 @@ Sets page header javascript display
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 232
+* This method is defined in [classes/controller/Controller.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#232)
 
 
 #### Arguments
@@ -384,7 +385,7 @@ Sets page header display
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 242
+* This method is defined in [classes/controller/Controller.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#242)
 
 
 #### Arguments
@@ -401,7 +402,7 @@ Sets template file for page content output
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 252
+* This method is defined in [classes/controller/Controller.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#252)
 
 
 #### Arguments
@@ -419,7 +420,7 @@ Assigns Smarty variables for the page header
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\controller\Controller.php line 260
+* This method is defined in [classes/controller/Controller.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#260)
 
 
 
@@ -434,7 +435,7 @@ Assigns Smarty variables for the page main content
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\controller\Controller.php line 265
+* This method is defined in [classes/controller/Controller.php line 265](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#265)
 
 
 
@@ -449,7 +450,7 @@ Assigns Smarty variables when access is forbidden
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\controller\Controller.php line 270
+* This method is defined in [classes/controller/Controller.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#270)
 
 
 
@@ -464,7 +465,7 @@ Assigns Smarty variables for the page footer
 
 * Visibility: **public**
 * This method is **abstract**.
-* This method is defined in classes\controller\Controller.php line 275
+* This method is defined in [classes/controller/Controller.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#275)
 
 
 
@@ -479,7 +480,7 @@ Redirects to $this->redirect_after after the process if there is no error
 
 * Visibility: **protected**
 * This method is **abstract**.
-* This method is defined in classes\controller\Controller.php line 280
+* This method is defined in [classes/controller/Controller.php line 280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#280)
 
 
 
@@ -493,7 +494,7 @@ Set $this->redirect_after that will be used by redirect() after the process
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 285
+* This method is defined in [classes/controller/Controller.php line 285](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#285)
 
 
 #### Arguments
@@ -510,7 +511,7 @@ Adds a new stylesheet(s) to the page header.
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 299
+* This method is defined in [classes/controller/Controller.php line 299](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#299)
 
 
 #### Arguments
@@ -530,7 +531,7 @@ Removes CSS stylesheet(s) from the queued stylesheet list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 339
+* This method is defined in [classes/controller/Controller.php line 339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#339)
 
 
 #### Arguments
@@ -549,7 +550,7 @@ Adds a new JavaScript file(s) to the page header.
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 373
+* This method is defined in [classes/controller/Controller.php line 373](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#373)
 
 
 #### Arguments
@@ -567,7 +568,7 @@ Removes JS file(s) from the queued JS file list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 405
+* This method is defined in [classes/controller/Controller.php line 405](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#405)
 
 
 #### Arguments
@@ -585,7 +586,7 @@ Adds jQuery library file to queued JS file list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 437
+* This method is defined in [classes/controller/Controller.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#437)
 
 
 #### Arguments
@@ -604,7 +605,7 @@ Adds jQuery UI component(s) to queued JS file list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 449
+* This method is defined in [classes/controller/Controller.php line 449](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#449)
 
 
 #### Arguments
@@ -623,7 +624,7 @@ Adds jQuery plugin(s) to queued JS file list
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 469
+* This method is defined in [classes/controller/Controller.php line 469](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#469)
 
 
 #### Arguments
@@ -642,7 +643,7 @@ Checks if the controller has been called from XmlHttpRequest (AJAX)
 
 
 * Visibility: **public**
-* This method is defined in classes\controller\Controller.php line 494
+* This method is defined in [classes/controller/Controller.php line 494](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#494)
 
 
 
@@ -656,7 +657,7 @@ Renders controller templates and generates page content
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\Controller.php line 506
+* This method is defined in [classes/controller/Controller.php line 506](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#506)
 
 
 #### Arguments
@@ -673,7 +674,7 @@ Checks if a template is cached
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\Controller.php line 565
+* This method is defined in [classes/controller/Controller.php line 565](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#565)
 
 
 #### Arguments
@@ -693,7 +694,7 @@ Custom error handler
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\controller\Controller.php line 583
+* This method is defined in [classes/controller/Controller.php line 583](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#583)
 
 
 #### Arguments
@@ -713,7 +714,7 @@ Dies and echoes output value
 
 
 * Visibility: **protected**
-* This method is defined in classes\controller\Controller.php line 626
+* This method is defined in [classes/controller/Controller.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#626)
 
 
 #### Arguments

@@ -9,7 +9,8 @@ AttributeGroupCore
 * Class name: AttributeGroupCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\AttributeGroup.php line 27
+
+* This class is defined in [classes/AttributeGroup.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\AttributeGroup.php line 30
+* This property is defined in [classes/AttributeGroup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#30)
 
 
 ### $is_color_group
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\AttributeGroup.php line 31
+* This property is defined in [classes/AttributeGroup.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#31)
 
 
 ### $position
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\AttributeGroup.php line 32
+* This property is defined in [classes/AttributeGroup.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#32)
 
 
 ### $group_type
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\AttributeGroup.php line 33
+* This property is defined in [classes/AttributeGroup.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#33)
 
 
 ### $public_name
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\AttributeGroup.php line 36
+* This property is defined in [classes/AttributeGroup.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#36)
 
 
 ### $definition
@@ -89,7 +90,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\AttributeGroup.php line 41
+* This property is defined in [classes/AttributeGroup.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#41)
 
 
 ### $webserviceParameters
@@ -101,7 +102,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\AttributeGroup.php line 57
+* This property is defined in [classes/AttributeGroup.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#57)
 
 
 Methods
@@ -117,7 +118,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\AttributeGroup.php line 71
+* This method is defined in [classes/AttributeGroup.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#71)
 
 
 #### Arguments
@@ -135,7 +136,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\AttributeGroup.php line 88
+* This method is defined in [classes/AttributeGroup.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#88)
 
 
 #### Arguments
@@ -153,7 +154,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AttributeGroup.php line 101
+* This method is defined in [classes/AttributeGroup.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#101)
 
 
 
@@ -167,7 +168,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\AttributeGroup.php line 125
+* This method is defined in [classes/AttributeGroup.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#125)
 
 
 
@@ -182,7 +183,7 @@ Get all attributes for a given language / group
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AttributeGroup.php line 180
+* This method is defined in [classes/AttributeGroup.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#180)
 
 
 #### Arguments
@@ -201,7 +202,7 @@ Get all attributes groups for a given language
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AttributeGroup.php line 202
+* This method is defined in [classes/AttributeGroup.php line 202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#202)
 
 
 #### Arguments
@@ -218,7 +219,7 @@ Delete several objects from database
 return boolean Deletion result
 
 * Visibility: **public**
-* This method is defined in classes\AttributeGroup.php line 223
+* This method is defined in [classes/AttributeGroup.php line 223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#223)
 
 
 #### Arguments
@@ -235,7 +236,7 @@ return boolean Deletion result
 
 
 * Visibility: **public**
-* This method is defined in classes\AttributeGroup.php line 235
+* This method is defined in [classes/AttributeGroup.php line 235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#235)
 
 
 #### Arguments
@@ -252,7 +253,7 @@ return boolean Deletion result
 
 
 * Visibility: **public**
-* This method is defined in classes\AttributeGroup.php line 260
+* This method is defined in [classes/AttributeGroup.php line 260](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#260)
 
 
 
@@ -266,7 +267,7 @@ Move a group attribute
 
 
 * Visibility: **public**
-* This method is defined in classes\AttributeGroup.php line 277
+* This method is defined in [classes/AttributeGroup.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#277)
 
 
 #### Arguments
@@ -286,7 +287,7 @@ Call it after deleting a group attribute.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AttributeGroup.php line 320
+* This method is defined in [classes/AttributeGroup.php line 320](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#320)
 
 
 
@@ -301,7 +302,7 @@ Get the higher group attribute position
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AttributeGroup.php line 348
+* This method is defined in [classes/AttributeGroup.php line 348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AttributeGroup.php#348)
 
 
 

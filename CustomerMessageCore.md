@@ -9,7 +9,8 @@ CustomerMessageCore
 * Class name: CustomerMessageCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\CustomerMessage.php line 27
+
+* This class is defined in [classes/CustomerMessage.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerMessage.php line 29
+* This property is defined in [classes/CustomerMessage.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#29)
 
 
 ### $id_customer_thread
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerMessage.php line 30
+* This property is defined in [classes/CustomerMessage.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#30)
 
 
 ### $id_employee
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerMessage.php line 31
+* This property is defined in [classes/CustomerMessage.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#31)
 
 
 ### $message
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerMessage.php line 32
+* This property is defined in [classes/CustomerMessage.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#32)
 
 
 ### $file_name
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerMessage.php line 33
+* This property is defined in [classes/CustomerMessage.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#33)
 
 
 ### $ip_address
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerMessage.php line 34
+* This property is defined in [classes/CustomerMessage.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#34)
 
 
 ### $user_agent
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerMessage.php line 35
+* This property is defined in [classes/CustomerMessage.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#35)
 
 
 ### $private
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerMessage.php line 36
+* This property is defined in [classes/CustomerMessage.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#36)
 
 
 ### $date_add
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerMessage.php line 37
+* This property is defined in [classes/CustomerMessage.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#37)
 
 
 ### $date_upd
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerMessage.php line 38
+* This property is defined in [classes/CustomerMessage.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#38)
 
 
 ### $read
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CustomerMessage.php line 39
+* This property is defined in [classes/CustomerMessage.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#39)
 
 
 ### $definition
@@ -161,7 +162,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\CustomerMessage.php line 44
+* This property is defined in [classes/CustomerMessage.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#44)
 
 
 ### $webserviceParameters
@@ -173,7 +174,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\CustomerMessage.php line 61
+* This property is defined in [classes/CustomerMessage.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#61)
 
 
 Methods
@@ -190,7 +191,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CustomerMessage.php line 72
+* This method is defined in [classes/CustomerMessage.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#72)
 
 
 #### Arguments
@@ -209,7 +210,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CustomerMessage.php line 95
+* This method is defined in [classes/CustomerMessage.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#95)
 
 
 #### Arguments
@@ -226,7 +227,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\CustomerMessage.php line 114
+* This method is defined in [classes/CustomerMessage.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CustomerMessage.php#114)
 
 
 

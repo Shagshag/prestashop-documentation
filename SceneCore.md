@@ -9,7 +9,8 @@ SceneCore
 * Class name: SceneCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Scene.php line 27
+
+* This class is defined in [classes/Scene.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Scene.php line 30
+* This property is defined in [classes/Scene.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#30)
 
 
 ### $active
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Scene.php line 33
+* This property is defined in [classes/Scene.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#33)
 
 
 ### $zones
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Scene.php line 36
+* This property is defined in [classes/Scene.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#36)
 
 
 ### $categories
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Scene.php line 39
+* This property is defined in [classes/Scene.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#39)
 
 
 ### $products
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Scene.php line 42
+* This property is defined in [classes/Scene.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#42)
 
 
 ### $definition
@@ -89,7 +90,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Scene.php line 47
+* This property is defined in [classes/Scene.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#47)
 
 
 ### $feature_active
@@ -102,7 +103,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Scene.php line 59
+* This property is defined in [classes/Scene.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#59)
 
 
 Methods
@@ -118,7 +119,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Scene.php line 61
+* This method is defined in [classes/Scene.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#61)
 
 
 #### Arguments
@@ -138,7 +139,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Scene.php line 74
+* This method is defined in [classes/Scene.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#74)
 
 
 #### Arguments
@@ -155,7 +156,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Scene.php line 91
+* This method is defined in [classes/Scene.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#91)
 
 
 #### Arguments
@@ -173,7 +174,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Scene.php line 110
+* This method is defined in [classes/Scene.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#110)
 
 
 
@@ -187,7 +188,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Scene.php line 121
+* This method is defined in [classes/Scene.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#121)
 
 
 #### Arguments
@@ -204,7 +205,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Scene.php line 133
+* This method is defined in [classes/Scene.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#133)
 
 
 #### Arguments
@@ -221,7 +222,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Scene.php line 145
+* This method is defined in [classes/Scene.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#145)
 
 
 
@@ -235,7 +236,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Scene.php line 152
+* This method is defined in [classes/Scene.php line 152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#152)
 
 
 
@@ -249,7 +250,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Scene.php line 163
+* This method is defined in [classes/Scene.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#163)
 
 
 #### Arguments
@@ -266,7 +267,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Scene.php line 180
+* This method is defined in [classes/Scene.php line 180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#180)
 
 
 
@@ -280,7 +281,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Scene.php line 187
+* This method is defined in [classes/Scene.php line 187](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#187)
 
 
 
@@ -295,7 +296,7 @@ Get all scenes of a category
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Scene.php line 203
+* This method is defined in [classes/Scene.php line 203](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#203)
 
 
 #### Arguments
@@ -317,7 +318,7 @@ Get all products of this scene
 
 
 * Visibility: **public**
-* This method is defined in classes\Scene.php line 245
+* This method is defined in [classes/Scene.php line 245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#245)
 
 
 #### Arguments
@@ -338,7 +339,7 @@ Get categories where scene is indexed
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Scene.php line 289
+* This method is defined in [classes/Scene.php line 289](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#289)
 
 
 #### Arguments
@@ -356,7 +357,7 @@ Hide scene prefix used for position
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Scene.php line 303
+* This method is defined in [classes/Scene.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#303)
 
 
 #### Arguments
@@ -374,7 +375,7 @@ This method is allow to know if a feature is used or active
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Scene.php line 313
+* This method is defined in [classes/Scene.php line 313](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Scene.php#313)
 
 
 

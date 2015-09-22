@@ -10,7 +10,8 @@ ModuleGridCore
 * Namespace: 
 * This is an **abstract** class
 * Parent class: [Module](ModuleCore)
-* This class is defined in classes\module\ModuleGrid.php line 27
+
+* This class is defined in [classes/module/ModuleGrid.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#27)
 
 
 
@@ -29,7 +30,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGrid.php line 29
+* This property is defined in [classes/module/ModuleGrid.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#29)
 
 
 ### $_values
@@ -41,7 +42,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGrid.php line 32
+* This property is defined in [classes/module/ModuleGrid.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#32)
 
 
 ### $_totalCount
@@ -53,7 +54,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGrid.php line 35
+* This property is defined in [classes/module/ModuleGrid.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#35)
 
 
 ### $_title
@@ -65,7 +66,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGrid.php line 38
+* This property is defined in [classes/module/ModuleGrid.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#38)
 
 
 ### $_start
@@ -77,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGrid.php line 41
+* This property is defined in [classes/module/ModuleGrid.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#41)
 
 
 ### $_limit
@@ -89,7 +90,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGrid.php line 44
+* This property is defined in [classes/module/ModuleGrid.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#44)
 
 
 ### $_sort
@@ -101,7 +102,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGrid.php line 47
+* This property is defined in [classes/module/ModuleGrid.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#47)
 
 
 ### $_direction
@@ -113,7 +114,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGrid.php line 50
+* This property is defined in [classes/module/ModuleGrid.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#50)
 
 
 ### $_render
@@ -125,7 +126,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGrid.php line 53
+* This property is defined in [classes/module/ModuleGrid.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#53)
 
 
 Methods
@@ -142,7 +143,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **abstract**.
-* This method is defined in classes\module\ModuleGrid.php line 55
+* This method is defined in [classes/module/ModuleGrid.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#55)
 
 
 
@@ -156,7 +157,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGrid.php line 57
+* This method is defined in [classes/module/ModuleGrid.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#57)
 
 
 #### Arguments
@@ -173,7 +174,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGrid.php line 62
+* This method is defined in [classes/module/ModuleGrid.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#62)
 
 
 #### Arguments
@@ -190,7 +191,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGrid.php line 67
+* This method is defined in [classes/module/ModuleGrid.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#67)
 
 
 #### Arguments
@@ -214,7 +215,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGrid.php line 92
+* This method is defined in [classes/module/ModuleGrid.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#92)
 
 
 
@@ -228,7 +229,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGrid.php line 97
+* This method is defined in [classes/module/ModuleGrid.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#97)
 
 
 #### Arguments
@@ -245,7 +246,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\ModuleGrid.php line 153
+* This method is defined in [classes/module/ModuleGrid.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#153)
 
 
 #### Arguments
@@ -262,7 +263,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\ModuleGrid.php line 181
+* This method is defined in [classes/module/ModuleGrid.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#181)
 
 
 
@@ -276,7 +277,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGrid.php line 192
+* This method is defined in [classes/module/ModuleGrid.php line 192](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#192)
 
 
 
@@ -290,7 +291,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGrid.php line 197
+* This method is defined in [classes/module/ModuleGrid.php line 197](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGrid.php#197)
 
 
 

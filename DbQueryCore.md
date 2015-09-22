@@ -8,7 +8,8 @@ SQL query builder
 
 * Class name: DbQueryCore
 * Namespace: 
-* This class is defined in classes\db\DbQuery.php line 32
+
+* This class is defined in [classes/db/DbQuery.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#32)
 
 
 
@@ -27,7 +28,7 @@ List of data to build the query
 
 
 * Visibility: **protected**
-* This property is defined in classes\db\DbQuery.php line 39
+* This property is defined in [classes/db/DbQuery.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#39)
 
 
 Methods
@@ -43,7 +44,7 @@ Sets type of the query
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 58
+* This method is defined in [classes/db/DbQuery.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#58)
 
 
 #### Arguments
@@ -60,7 +61,7 @@ Adds fields to SELECT clause
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 76
+* This method is defined in [classes/db/DbQuery.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#76)
 
 
 #### Arguments
@@ -77,7 +78,7 @@ Sets table for FROM clause
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 93
+* This method is defined in [classes/db/DbQuery.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#93)
 
 
 #### Arguments
@@ -96,7 +97,7 @@ E.g. $this->join('RIGHT JOIN '._DB_PREFIX_.'product p ON .
 ..');
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 110
+* This method is defined in [classes/db/DbQuery.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#110)
 
 
 #### Arguments
@@ -113,7 +114,7 @@ Adds a LEFT JOIN clause
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 128
+* This method is defined in [classes/db/DbQuery.php line 128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#128)
 
 
 #### Arguments
@@ -133,7 +134,7 @@ E.g. $this->innerJoin('product p ON .
 ..')
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 143
+* This method is defined in [classes/db/DbQuery.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#143)
 
 
 #### Arguments
@@ -152,7 +153,7 @@ Adds a LEFT OUTER JOIN clause
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 157
+* This method is defined in [classes/db/DbQuery.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#157)
 
 
 #### Arguments
@@ -171,7 +172,7 @@ Adds a NATURAL JOIN clause
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 170
+* This method is defined in [classes/db/DbQuery.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#170)
 
 
 #### Arguments
@@ -189,7 +190,7 @@ Adds a RIGHT JOIN clause
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 184
+* This method is defined in [classes/db/DbQuery.php line 184](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#184)
 
 
 #### Arguments
@@ -208,7 +209,7 @@ Adds a restriction in WHERE clause (each restriction will be separated by AND st
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 196
+* This method is defined in [classes/db/DbQuery.php line 196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#196)
 
 
 #### Arguments
@@ -225,7 +226,7 @@ Adds a restriction in HAVING clause (each restriction will be separated by AND s
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 212
+* This method is defined in [classes/db/DbQuery.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#212)
 
 
 #### Arguments
@@ -242,7 +243,7 @@ Adds an ORDER BY restriction
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 228
+* This method is defined in [classes/db/DbQuery.php line 228](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#228)
 
 
 #### Arguments
@@ -259,7 +260,7 @@ Adds a GROUP BY restriction
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 244
+* This method is defined in [classes/db/DbQuery.php line 244](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#244)
 
 
 #### Arguments
@@ -276,7 +277,7 @@ Sets query offset and limit
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 261
+* This method is defined in [classes/db/DbQuery.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#261)
 
 
 #### Arguments
@@ -294,7 +295,7 @@ Generates query and return SQL string
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 282
+* This method is defined in [classes/db/DbQuery.php line 282](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#282)
 
 
 
@@ -308,7 +309,7 @@ Converts object to string
 
 
 * Visibility: **public**
-* This method is defined in classes\db\DbQuery.php line 329
+* This method is defined in [classes/db/DbQuery.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#329)
 
 
 

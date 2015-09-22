@@ -9,7 +9,8 @@ AdminStockInstantStateControllerCore
 * Class name: AdminStockInstantStateControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminStockInstantStateController.php line 31
+
+* This class is defined in [controllers/admin/AdminStockInstantStateController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#31)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminStockInstantStateController.php line 33
+* This property is defined in [controllers/admin/AdminStockInstantStateController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#33)
 
 
 ### $object
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminStockInstantStateController.php line 31
+* This property is defined in [controllers/admin/AdminStockInstantStateController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#31)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockInstantStateController.php line 35
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#35)
 
 
 
@@ -70,7 +71,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockInstantStateController.php line 110
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#110)
 
 
 
@@ -84,7 +85,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockInstantStateController.php line 143
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 143](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#143)
 
 
 
@@ -98,7 +99,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockInstantStateController.php line 206
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 206](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#206)
 
 
 
@@ -112,7 +113,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockInstantStateController.php line 270
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 270](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#270)
 
 
 #### Arguments
@@ -134,7 +135,7 @@ CMP
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockInstantStateController.php line 382
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 382](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#382)
 
 
 #### Arguments
@@ -152,7 +153,7 @@ CMP
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockInstantStateController.php line 399
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 399](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#399)
 
 
 #### Arguments
@@ -170,7 +171,7 @@ Gets the current warehouse used
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStockInstantStateController.php line 413
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 413](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#413)
 
 
 
@@ -184,7 +185,7 @@ Gets the current warehouse used
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockInstantStateController.php line 429
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#429)
 
 
 
@@ -198,7 +199,7 @@ Exports CSV
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockInstantStateController.php line 453
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#453)
 
 
 
@@ -212,7 +213,7 @@ Exports CSV
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockInstantStateController.php line 529
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 529](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#529)
 
 
 
@@ -226,7 +227,7 @@ Exports CSV
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockInstantStateController.php line 538
+* This method is defined in [controllers/admin/AdminStockInstantStateController.php line 538](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#538)
 
 
 

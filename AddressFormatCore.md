@@ -9,7 +9,8 @@ AddressFormatCore
 * Class name: AddressFormatCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\AddressFormat.php line 27
+
+* This class is defined in [classes/AddressFormat.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#27)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\AddressFormat.php line 107
+* This constant is defined in [classes/AddressFormat.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#107)
 
 
 Properties
@@ -39,7 +40,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\AddressFormat.php line 30
+* This property is defined in [classes/AddressFormat.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#30)
 
 
 ### $id_country
@@ -51,7 +52,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\AddressFormat.php line 33
+* This property is defined in [classes/AddressFormat.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#33)
 
 
 ### $format
@@ -63,7 +64,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\AddressFormat.php line 36
+* This property is defined in [classes/AddressFormat.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#36)
 
 
 ### $_errorFormatList
@@ -75,7 +76,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\AddressFormat.php line 38
+* This property is defined in [classes/AddressFormat.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#38)
 
 
 ### $definition
@@ -88,7 +89,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\AddressFormat.php line 43
+* This property is defined in [classes/AddressFormat.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#43)
 
 
 ### $requireFormFieldsList
@@ -101,7 +102,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\AddressFormat.php line 52
+* This property is defined in [classes/AddressFormat.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#52)
 
 
 ### $forbiddenPropertyList
@@ -114,7 +115,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\AddressFormat.php line 59
+* This property is defined in [classes/AddressFormat.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#59)
 
 
 ### $forbiddenClassList
@@ -127,7 +128,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\AddressFormat.php line 103
+* This property is defined in [classes/AddressFormat.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#103)
 
 
 Methods
@@ -143,7 +144,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\AddressFormat.php line 116
+* This method is defined in [classes/AddressFormat.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#116)
 
 
 #### Arguments
@@ -162,7 +163,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\AddressFormat.php line 155
+* This method is defined in [classes/AddressFormat.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#155)
 
 
 #### Arguments
@@ -180,7 +181,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\AddressFormat.php line 198
+* This method is defined in [classes/AddressFormat.php line 198](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#198)
 
 
 
@@ -194,7 +195,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\AddressFormat.php line 229
+* This method is defined in [classes/AddressFormat.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#229)
 
 
 
@@ -209,7 +210,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\AddressFormat.php line 239
+* This method is defined in [classes/AddressFormat.php line 239](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#239)
 
 
 #### Arguments
@@ -229,7 +230,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AddressFormat.php line 290
+* This method is defined in [classes/AddressFormat.php line 290](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#290)
 
 
 #### Arguments
@@ -247,7 +248,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AddressFormat.php line 311
+* This method is defined in [classes/AddressFormat.php line 311](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#311)
 
 
 #### Arguments
@@ -267,7 +268,7 @@ Generates the full address text
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AddressFormat.php line 372
+* This method is defined in [classes/AddressFormat.php line 372](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#372)
 
 
 #### Arguments
@@ -289,7 +290,7 @@ Generates the full address text
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AddressFormat.php line 401
+* This method is defined in [classes/AddressFormat.php line 401](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#401)
 
 
 #### Arguments
@@ -308,7 +309,7 @@ Returns selected fields required for an address in an array according to a selec
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AddressFormat.php line 416
+* This method is defined in [classes/AddressFormat.php line 416](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#416)
 
 
 #### Arguments
@@ -326,7 +327,7 @@ Returns selected fields required for an address in an array according to a selec
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AddressFormat.php line 442
+* This method is defined in [classes/AddressFormat.php line 442](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#442)
 
 
 #### Arguments
@@ -344,7 +345,7 @@ Returns address format fields in array by country
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AddressFormat.php line 476
+* This method is defined in [classes/AddressFormat.php line 476](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#476)
 
 
 #### Arguments
@@ -364,7 +365,7 @@ Returns address format fields in array by country
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AddressFormat.php line 500
+* This method is defined in [classes/AddressFormat.php line 500](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#500)
 
 
 #### Arguments
@@ -382,7 +383,7 @@ Returns address format by country if not defined using default country
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AddressFormat.php line 526
+* This method is defined in [classes/AddressFormat.php line 526](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#526)
 
 
 #### Arguments
@@ -399,7 +400,7 @@ Returns address format by country
 
 
 * Visibility: **public**
-* This method is defined in classes\AddressFormat.php line 543
+* This method is defined in [classes/AddressFormat.php line 543](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#543)
 
 
 #### Arguments
@@ -416,7 +417,7 @@ Returns address format by country
 
 
 * Visibility: **protected**
-* This method is defined in classes\AddressFormat.php line 552
+* This method is defined in [classes/AddressFormat.php line 552](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#552)
 
 
 #### Arguments
@@ -434,7 +435,7 @@ Returns address format by country
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\AddressFormat.php line 566
+* This method is defined in [classes/AddressFormat.php line 566](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AddressFormat.php#566)
 
 
 

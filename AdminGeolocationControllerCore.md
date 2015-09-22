@@ -23,7 +23,8 @@ needs please refer to http://www.prestashop.com for more information.
 * Class name: AdminGeolocationControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminGeolocationController.php line 27
+
+* This class is defined in [controllers/admin/AdminGeolocationController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#27)
 
 
 
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminGeolocationController.php line 29
+* This method is defined in [controllers/admin/AdminGeolocationController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#29)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminGeolocationController.php line 87
+* This method is defined in [controllers/admin/AdminGeolocationController.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#87)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminGeolocationController.php line 122
+* This method is defined in [controllers/admin/AdminGeolocationController.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#122)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminGeolocationController.php line 138
+* This method is defined in [controllers/admin/AdminGeolocationController.php line 138](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#138)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminGeolocationController.php line 151
+* This method is defined in [controllers/admin/AdminGeolocationController.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGeolocationController.php#151)
 
 
 

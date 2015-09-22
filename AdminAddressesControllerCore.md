@@ -9,7 +9,8 @@ AdminAddressesControllerCore
 * Class name: AdminAddressesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminAddressesController.php line 30
+
+* This class is defined in [controllers/admin/AdminAddressesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminAddressesController.php line 33
+* This property is defined in [controllers/admin/AdminAddressesController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#33)
 
 
 ### $object
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminAddressesController.php line 30
+* This property is defined in [controllers/admin/AdminAddressesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#30)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAddressesController.php line 35
+* This method is defined in [controllers/admin/AdminAddressesController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#35)
 
 
 
@@ -70,7 +71,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAddressesController.php line 88
+* This method is defined in [controllers/admin/AdminAddressesController.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#88)
 
 
 
@@ -84,7 +85,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAddressesController.php line 100
+* This method is defined in [controllers/admin/AdminAddressesController.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#100)
 
 
 
@@ -98,7 +99,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAddressesController.php line 113
+* This method is defined in [controllers/admin/AdminAddressesController.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#113)
 
 
 
@@ -112,7 +113,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAddressesController.php line 340
+* This method is defined in [controllers/admin/AdminAddressesController.php line 340](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#340)
 
 
 
@@ -126,7 +127,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAddressesController.php line 431
+* This method is defined in [controllers/admin/AdminAddressesController.php line 431](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#431)
 
 
 
@@ -140,7 +141,7 @@ Get Address formats used by the country where the address id retrieved from POST
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminAddressesController.php line 445
+* This method is defined in [controllers/admin/AdminAddressesController.php line 445](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#445)
 
 
 
@@ -154,7 +155,7 @@ Method called when an ajax request is made
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAddressesController.php line 477
+* This method is defined in [controllers/admin/AdminAddressesController.php line 477](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#477)
 
 
 
@@ -168,7 +169,7 @@ Object Delete
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminAddressesController.php line 493
+* This method is defined in [controllers/admin/AdminAddressesController.php line 493](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#493)
 
 
 
@@ -182,7 +183,7 @@ Delete multiple items
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminAddressesController.php line 516
+* This method is defined in [controllers/admin/AdminAddressesController.php line 516](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAddressesController.php#516)
 
 
 

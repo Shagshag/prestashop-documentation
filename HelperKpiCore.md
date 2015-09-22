@@ -9,7 +9,8 @@ HelperKpiCore
 * Class name: HelperKpiCore
 * Namespace: 
 * Parent class: [Helper](HelperCore)
-* This class is defined in classes\helper\HelperKpi.php line 27
+
+* This class is defined in [classes/helper/HelperKpi.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 29
+* This property is defined in [classes/helper/HelperKpi.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#29)
 
 
 ### $base_tpl
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 30
+* This property is defined in [classes/helper/HelperKpi.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#30)
 
 
 ### $id
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 32
+* This property is defined in [classes/helper/HelperKpi.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#32)
 
 
 ### $icon
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 33
+* This property is defined in [classes/helper/HelperKpi.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#33)
 
 
 ### $chart
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 34
+* This property is defined in [classes/helper/HelperKpi.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#34)
 
 
 ### $color
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 35
+* This property is defined in [classes/helper/HelperKpi.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#35)
 
 
 ### $title
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 36
+* This property is defined in [classes/helper/HelperKpi.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#36)
 
 
 ### $subtitle
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 37
+* This property is defined in [classes/helper/HelperKpi.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#37)
 
 
 ### $value
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 38
+* This property is defined in [classes/helper/HelperKpi.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#38)
 
 
 ### $data
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 39
+* This property is defined in [classes/helper/HelperKpi.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#39)
 
 
 ### $source
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 40
+* This property is defined in [classes/helper/HelperKpi.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#40)
 
 
 ### $refresh
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 41
+* This property is defined in [classes/helper/HelperKpi.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#41)
 
 
 ### $href
@@ -172,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 42
+* This property is defined in [classes/helper/HelperKpi.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#42)
 
 
 ### $tooltip
@@ -184,7 +185,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\helper\HelperKpi.php line 43
+* This property is defined in [classes/helper/HelperKpi.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#43)
 
 
 Methods
@@ -200,7 +201,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\helper\HelperKpi.php line 45
+* This method is defined in [classes/helper/HelperKpi.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperKpi.php#45)
 
 
 

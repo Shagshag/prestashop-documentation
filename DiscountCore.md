@@ -9,8 +9,9 @@ DiscountCore
 * Class name: DiscountCore
 * Namespace: 
 * Parent class: [CartRule](CartRuleCore)
+
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
-* This class is defined in classes\Discount.php line 30
+* This class is defined in [classes/Discount.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#30)
 
 
 
@@ -25,7 +26,7 @@ Constants
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* This constant is defined in classes\Discount.php line 32
+* This constant is defined in [classes/Discount.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#32)
 
 
 ### AMOUNT
@@ -35,7 +36,7 @@ Constants
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* This constant is defined in classes\Discount.php line 33
+* This constant is defined in [classes/Discount.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#33)
 
 
 ### FREE_SHIPPING
@@ -45,7 +46,7 @@ Constants
 
 
 * **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
-* This constant is defined in classes\Discount.php line 34
+* This constant is defined in [classes/Discount.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#34)
 
 
 
@@ -64,7 +65,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\Discount.php line 36
+* This method is defined in [classes/Discount.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#36)
 
 
 #### Arguments
@@ -82,7 +83,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\Discount.php line 87
+* This method is defined in [classes/Discount.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#87)
 
 
 #### Arguments
@@ -101,7 +102,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\Discount.php line 137
+* This method is defined in [classes/Discount.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#137)
 
 
 #### Arguments
@@ -120,7 +121,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\Discount.php line 150
+* This method is defined in [classes/Discount.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#150)
 
 
 #### Arguments
@@ -140,7 +141,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\Discount.php line 160
+* This method is defined in [classes/Discount.php line 160](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#160)
 
 
 #### Arguments
@@ -161,7 +162,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\Discount.php line 170
+* This method is defined in [classes/Discount.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#170)
 
 
 #### Arguments
@@ -180,7 +181,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\Discount.php line 178
+* This method is defined in [classes/Discount.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#178)
 
 
 #### Arguments
@@ -204,7 +205,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\Discount.php line 186
+* This method is defined in [classes/Discount.php line 186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#186)
 
 
 #### Arguments
@@ -223,7 +224,7 @@ Methods
 
 * Visibility: **public**
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\Discount.php line 194
+* This method is defined in [classes/Discount.php line 194](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#194)
 
 
 #### Arguments
@@ -248,7 +249,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\Discount.php line 212
+* This method is defined in [classes/Discount.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#212)
 
 
 #### Arguments
@@ -268,7 +269,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\Discount.php line 222
+* This method is defined in [classes/Discount.php line 222](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#222)
 
 
 #### Arguments
@@ -293,7 +294,7 @@ Methods
 * Visibility: **public**
 * This method is **static**.
 * **Warning:** this method is **deprecated**. This means that this method will likely be removed in a future version.
-* This method is defined in classes\Discount.php line 277
+* This method is defined in [classes/Discount.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#277)
 
 
 #### Arguments

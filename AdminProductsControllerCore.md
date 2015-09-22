@@ -9,7 +9,8 @@ AdminProductsControllerCore
 * Class name: AdminProductsControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminProductsController.php line 30
+
+* This class is defined in [controllers/admin/AdminProductsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminProductsController.php line 35
+* This property is defined in [controllers/admin/AdminProductsController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#35)
 
 
 ### $max_image_size
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminProductsController.php line 36
+* This property is defined in [controllers/admin/AdminProductsController.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#36)
 
 
 ### $_category
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminProductsController.php line 38
+* This property is defined in [controllers/admin/AdminProductsController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#38)
 
 
 ### $tab_display
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminProductsController.php line 42
+* This property is defined in [controllers/admin/AdminProductsController.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#42)
 
 
 ### $tab_display_module
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminProductsController.php line 43
+* This property is defined in [controllers/admin/AdminProductsController.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#43)
 
 
 ### $available_tabs
@@ -88,7 +89,7 @@ The order in the array decides the order in the list of tab. If an element's val
 The tabs are preloaded from the smallest to the highest number.
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminProductsController.php line 50
+* This property is defined in [controllers/admin/AdminProductsController.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#50)
 
 
 ### $default_tab
@@ -100,7 +101,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminProductsController.php line 52
+* This property is defined in [controllers/admin/AdminProductsController.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#52)
 
 
 ### $available_tabs_lang
@@ -112,7 +113,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminProductsController.php line 54
+* This property is defined in [controllers/admin/AdminProductsController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#54)
 
 
 ### $position_identifier
@@ -124,7 +125,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminProductsController.php line 56
+* This property is defined in [controllers/admin/AdminProductsController.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#56)
 
 
 ### $submitted_tabs
@@ -136,7 +137,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminProductsController.php line 58
+* This property is defined in [controllers/admin/AdminProductsController.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#58)
 
 
 ### $id_current_category
@@ -148,7 +149,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminProductsController.php line 60
+* This property is defined in [controllers/admin/AdminProductsController.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#60)
 
 
 ### $object
@@ -160,7 +161,7 @@ The tabs are preloaded from the smallest to the highest number.
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminProductsController.php line 30
+* This property is defined in [controllers/admin/AdminProductsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#30)
 
 
 Methods
@@ -176,7 +177,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 62
+* This method is defined in [controllers/admin/AdminProductsController.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#62)
 
 
 
@@ -191,7 +192,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminProductsController.php line 278
+* This method is defined in [controllers/admin/AdminProductsController.php line 278](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#278)
 
 
 #### Arguments
@@ -209,7 +210,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 287
+* This method is defined in [controllers/admin/AdminProductsController.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#287)
 
 
 
@@ -223,7 +224,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 307
+* This method is defined in [controllers/admin/AdminProductsController.php line 307](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#307)
 
 
 #### Arguments
@@ -240,7 +241,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 328
+* This method is defined in [controllers/admin/AdminProductsController.php line 328](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#328)
 
 
 #### Arguments
@@ -258,7 +259,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 373
+* This method is defined in [controllers/admin/AdminProductsController.php line 373](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#373)
 
 
 #### Arguments
@@ -276,7 +277,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 401
+* This method is defined in [controllers/admin/AdminProductsController.php line 401](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#401)
 
 
 #### Arguments
@@ -298,7 +299,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 443
+* This method is defined in [controllers/admin/AdminProductsController.php line 443](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#443)
 
 
 #### Arguments
@@ -315,7 +316,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 465
+* This method is defined in [controllers/admin/AdminProductsController.php line 465](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#465)
 
 
 
@@ -329,7 +330,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 492
+* This method is defined in [controllers/admin/AdminProductsController.php line 492](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#492)
 
 
 
@@ -343,7 +344,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 509
+* This method is defined in [controllers/admin/AdminProductsController.php line 509](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#509)
 
 
 
@@ -357,7 +358,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 526
+* This method is defined in [controllers/admin/AdminProductsController.php line 526](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#526)
 
 
 
@@ -371,7 +372,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 543
+* This method is defined in [controllers/admin/AdminProductsController.php line 543](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#543)
 
 
 
@@ -385,7 +386,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 561
+* This method is defined in [controllers/admin/AdminProductsController.php line 561](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#561)
 
 
 
@@ -399,7 +400,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 694
+* This method is defined in [controllers/admin/AdminProductsController.php line 694](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#694)
 
 
 
@@ -413,7 +414,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 705
+* This method is defined in [controllers/admin/AdminProductsController.php line 705](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#705)
 
 
 
@@ -427,7 +428,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 753
+* This method is defined in [controllers/admin/AdminProductsController.php line 753](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#753)
 
 
 
@@ -441,7 +442,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 792
+* This method is defined in [controllers/admin/AdminProductsController.php line 792](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#792)
 
 
 
@@ -455,7 +456,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 827
+* This method is defined in [controllers/admin/AdminProductsController.php line 827](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#827)
 
 
 
@@ -469,7 +470,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 893
+* This method is defined in [controllers/admin/AdminProductsController.php line 893](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#893)
 
 
 
@@ -483,7 +484,7 @@ Attach an existing attachment to the product
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1033
+* This method is defined in [controllers/admin/AdminProductsController.php line 1033](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1033)
 
 
 
@@ -497,7 +498,7 @@ This function is never called at the moment (specific prices cannot be edited)
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1071
+* This method is defined in [controllers/admin/AdminProductsController.php line 1071](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1071)
 
 
 
@@ -511,7 +512,7 @@ This function is never called at the moment (specific prices cannot be edited)
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1114
+* This method is defined in [controllers/admin/AdminProductsController.php line 1114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1114)
 
 
 
@@ -525,7 +526,7 @@ This function is never called at the moment (specific prices cannot be edited)
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1171
+* This method is defined in [controllers/admin/AdminProductsController.php line 1171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1171)
 
 
 
@@ -539,7 +540,7 @@ This function is never called at the moment (specific prices cannot be edited)
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1202
+* This method is defined in [controllers/admin/AdminProductsController.php line 1202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1202)
 
 
 
@@ -553,7 +554,7 @@ This function is never called at the moment (specific prices cannot be edited)
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1220
+* This method is defined in [controllers/admin/AdminProductsController.php line 1220](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1220)
 
 
 
@@ -567,7 +568,7 @@ This function is never called at the moment (specific prices cannot be edited)
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1249
+* This method is defined in [controllers/admin/AdminProductsController.php line 1249](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1249)
 
 
 
@@ -581,7 +582,7 @@ Overrides parent for custom redirect link
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1271
+* This method is defined in [controllers/admin/AdminProductsController.php line 1271](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1271)
 
 
 
@@ -595,7 +596,7 @@ Overrides parent for custom redirect link
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1288
+* This method is defined in [controllers/admin/AdminProductsController.php line 1288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1288)
 
 
 
@@ -609,7 +610,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1437
+* This method is defined in [controllers/admin/AdminProductsController.php line 1437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1437)
 
 
 
@@ -623,7 +624,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1481
+* This method is defined in [controllers/admin/AdminProductsController.php line 1481](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1481)
 
 
 
@@ -637,7 +638,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1537
+* This method is defined in [controllers/admin/AdminProductsController.php line 1537](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1537)
 
 
 
@@ -651,7 +652,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1562
+* This method is defined in [controllers/admin/AdminProductsController.php line 1562](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1562)
 
 
 
@@ -665,7 +666,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1578
+* This method is defined in [controllers/admin/AdminProductsController.php line 1578](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1578)
 
 
 
@@ -679,7 +680,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1586
+* This method is defined in [controllers/admin/AdminProductsController.php line 1586](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1586)
 
 
 
@@ -693,7 +694,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1637
+* This method is defined in [controllers/admin/AdminProductsController.php line 1637](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1637)
 
 
 
@@ -707,7 +708,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1660
+* This method is defined in [controllers/admin/AdminProductsController.php line 1660](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1660)
 
 
 
@@ -721,7 +722,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1679
+* This method is defined in [controllers/admin/AdminProductsController.php line 1679](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1679)
 
 
 
@@ -735,7 +736,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 1718
+* This method is defined in [controllers/admin/AdminProductsController.php line 1718](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1718)
 
 
 #### Arguments
@@ -763,7 +764,7 @@ postProcess handle every checks before saving products information
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 1739
+* This method is defined in [controllers/admin/AdminProductsController.php line 1739](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1739)
 
 
 #### Arguments
@@ -781,7 +782,7 @@ Add or update a product image
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1780
+* This method is defined in [controllers/admin/AdminProductsController.php line 1780](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1780)
 
 
 #### Arguments
@@ -799,7 +800,7 @@ Copy a product image
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1822
+* This method is defined in [controllers/admin/AdminProductsController.php line 1822](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1822)
 
 
 #### Arguments
@@ -818,7 +819,7 @@ Copy a product image
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 1853
+* This method is defined in [controllers/admin/AdminProductsController.php line 1853](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1853)
 
 
 #### Arguments
@@ -835,7 +836,7 @@ Copy a product image
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1859
+* This method is defined in [controllers/admin/AdminProductsController.php line 1859](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1859)
 
 
 
@@ -849,7 +850,7 @@ Copy a product image
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 1940
+* This method is defined in [controllers/admin/AdminProductsController.php line 1940](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1940)
 
 
 #### Arguments
@@ -866,7 +867,7 @@ Copy a product image
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1953
+* This method is defined in [controllers/admin/AdminProductsController.php line 1953](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1953)
 
 
 
@@ -880,7 +881,7 @@ Copy a product image
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 1983
+* This method is defined in [controllers/admin/AdminProductsController.php line 1983](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#1983)
 
 
 
@@ -894,7 +895,7 @@ Check that a saved product is valid
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2133
+* This method is defined in [controllers/admin/AdminProductsController.php line 2133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2133)
 
 
 
@@ -909,7 +910,7 @@ This method will do something only for multishop with a context all / group
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 2287
+* This method is defined in [controllers/admin/AdminProductsController.php line 2287](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2287)
 
 
 #### Arguments
@@ -927,7 +928,7 @@ This method will do something only for multishop with a context all / group
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 2306
+* This method is defined in [controllers/admin/AdminProductsController.php line 2306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2306)
 
 
 
@@ -941,7 +942,7 @@ This method will do something only for multishop with a context all / group
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 2313
+* This method is defined in [controllers/admin/AdminProductsController.php line 2313](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2313)
 
 
 #### Arguments
@@ -958,7 +959,7 @@ Update product download
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2328
+* This method is defined in [controllers/admin/AdminProductsController.php line 2328](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2328)
 
 
 #### Arguments
@@ -976,7 +977,7 @@ Update product accessories
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2404
+* This method is defined in [controllers/admin/AdminProductsController.php line 2404](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2404)
 
 
 #### Arguments
@@ -993,7 +994,7 @@ Update product tags
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2423
+* This method is defined in [controllers/admin/AdminProductsController.php line 2423](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2423)
 
 
 #### Arguments
@@ -1011,7 +1012,7 @@ Update product tags
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2444
+* This method is defined in [controllers/admin/AdminProductsController.php line 2444](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2444)
 
 
 #### Arguments
@@ -1028,7 +1029,7 @@ Update product tags
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2520
+* This method is defined in [controllers/admin/AdminProductsController.php line 2520](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2520)
 
 
 
@@ -1042,7 +1043,7 @@ Update product tags
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2593
+* This method is defined in [controllers/admin/AdminProductsController.php line 2593](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2593)
 
 
 
@@ -1056,7 +1057,7 @@ Update product tags
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2602
+* This method is defined in [controllers/admin/AdminProductsController.php line 2602](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2602)
 
 
 
@@ -1071,7 +1072,7 @@ Build a categories tree
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in controllers\admin\AdminProductsController.php line 2630
+* This method is defined in [controllers/admin/AdminProductsController.php line 2630](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2630)
 
 
 #### Arguments
@@ -1094,7 +1095,7 @@ Build a categories tree
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 2679
+* This method is defined in [controllers/admin/AdminProductsController.php line 2679](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2679)
 
 
 #### Arguments
@@ -1111,7 +1112,7 @@ Build a categories tree
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2689
+* This method is defined in [controllers/admin/AdminProductsController.php line 2689](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2689)
 
 
 
@@ -1125,7 +1126,7 @@ Build a categories tree
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2750
+* This method is defined in [controllers/admin/AdminProductsController.php line 2750](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2750)
 
 
 
@@ -1139,7 +1140,7 @@ renderForm contains all necessary initialization needed for all tabs
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2790
+* This method is defined in [controllers/admin/AdminProductsController.php line 2790](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2790)
 
 
 
@@ -1153,7 +1154,7 @@ renderForm contains all necessary initialization needed for all tabs
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2911
+* This method is defined in [controllers/admin/AdminProductsController.php line 2911](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2911)
 
 
 #### Arguments
@@ -1170,7 +1171,7 @@ Post treatment for suppliers
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 2943
+* This method is defined in [controllers/admin/AdminProductsController.php line 2943](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#2943)
 
 
 
@@ -1184,7 +1185,7 @@ Post treatment for warehouses
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 3104
+* This method is defined in [controllers/admin/AdminProductsController.php line 3104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3104)
 
 
 
@@ -1198,7 +1199,7 @@ Post treatment for warehouses
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 3180
+* This method is defined in [controllers/admin/AdminProductsController.php line 3180](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3180)
 
 
 #### Arguments
@@ -1215,7 +1216,7 @@ Post treatment for warehouses
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 3254
+* This method is defined in [controllers/admin/AdminProductsController.php line 3254](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3254)
 
 
 #### Arguments
@@ -1232,7 +1233,7 @@ Post treatment for warehouses
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 3364
+* This method is defined in [controllers/admin/AdminProductsController.php line 3364](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3364)
 
 
 #### Arguments
@@ -1249,7 +1250,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 3401
+* This method is defined in [controllers/admin/AdminProductsController.php line 3401](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3401)
 
 
 #### Arguments
@@ -1266,7 +1267,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 3449
+* This method is defined in [controllers/admin/AdminProductsController.php line 3449](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3449)
 
 
 #### Arguments
@@ -1283,7 +1284,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 3480
+* This method is defined in [controllers/admin/AdminProductsController.php line 3480](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3480)
 
 
 #### Arguments
@@ -1300,7 +1301,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 3547
+* This method is defined in [controllers/admin/AdminProductsController.php line 3547](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3547)
 
 
 #### Arguments
@@ -1319,7 +1320,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 3552
+* This method is defined in [controllers/admin/AdminProductsController.php line 3552](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3552)
 
 
 #### Arguments
@@ -1340,7 +1341,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 3769
+* This method is defined in [controllers/admin/AdminProductsController.php line 3769](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3769)
 
 
 #### Arguments
@@ -1359,7 +1360,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 3793
+* This method is defined in [controllers/admin/AdminProductsController.php line 3793](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3793)
 
 
 #### Arguments
@@ -1381,7 +1382,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 3822
+* This method is defined in [controllers/admin/AdminProductsController.php line 3822](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3822)
 
 
 #### Arguments
@@ -1402,7 +1403,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 3842
+* This method is defined in [controllers/admin/AdminProductsController.php line 3842](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3842)
 
 
 #### Arguments
@@ -1419,7 +1420,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 3874
+* This method is defined in [controllers/admin/AdminProductsController.php line 3874](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3874)
 
 
 #### Arguments
@@ -1436,7 +1437,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 3930
+* This method is defined in [controllers/admin/AdminProductsController.php line 3930](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#3930)
 
 
 #### Arguments
@@ -1453,7 +1454,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4034
+* This method is defined in [controllers/admin/AdminProductsController.php line 4034](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4034)
 
 
 #### Arguments
@@ -1470,7 +1471,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 4048
+* This method is defined in [controllers/admin/AdminProductsController.php line 4048](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4048)
 
 
 
@@ -1484,7 +1485,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 4067
+* This method is defined in [controllers/admin/AdminProductsController.php line 4067](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4067)
 
 
 #### Arguments
@@ -1501,7 +1502,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4084
+* This method is defined in [controllers/admin/AdminProductsController.php line 4084](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4084)
 
 
 
@@ -1515,7 +1516,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4216
+* This method is defined in [controllers/admin/AdminProductsController.php line 4216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4216)
 
 
 #### Arguments
@@ -1532,7 +1533,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4297
+* This method is defined in [controllers/admin/AdminProductsController.php line 4297](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4297)
 
 
 #### Arguments
@@ -1549,7 +1550,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4307
+* This method is defined in [controllers/admin/AdminProductsController.php line 4307](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4307)
 
 
 #### Arguments
@@ -1566,7 +1567,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4385
+* This method is defined in [controllers/admin/AdminProductsController.php line 4385](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4385)
 
 
 #### Arguments
@@ -1584,7 +1585,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4484
+* This method is defined in [controllers/admin/AdminProductsController.php line 4484](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4484)
 
 
 #### Arguments
@@ -1601,7 +1602,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4638
+* This method is defined in [controllers/admin/AdminProductsController.php line 4638](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4638)
 
 
 #### Arguments
@@ -1618,7 +1619,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4720
+* This method is defined in [controllers/admin/AdminProductsController.php line 4720](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4720)
 
 
 #### Arguments
@@ -1635,7 +1636,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4775
+* This method is defined in [controllers/admin/AdminProductsController.php line 4775](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4775)
 
 
 #### Arguments
@@ -1652,7 +1653,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4834
+* This method is defined in [controllers/admin/AdminProductsController.php line 4834](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4834)
 
 
 
@@ -1666,7 +1667,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4935
+* This method is defined in [controllers/admin/AdminProductsController.php line 4935](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4935)
 
 
 
@@ -1680,7 +1681,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4956
+* This method is defined in [controllers/admin/AdminProductsController.php line 4956](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4956)
 
 
 #### Arguments
@@ -1698,7 +1699,7 @@ Get an array of pack items for display from the product object if specified, els
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 4966
+* This method is defined in [controllers/admin/AdminProductsController.php line 4966](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4966)
 
 
 #### Arguments
@@ -1715,7 +1716,7 @@ AdminProducts display hook
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 4999
+* This method is defined in [controllers/admin/AdminProductsController.php line 4999](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#4999)
 
 
 #### Arguments
@@ -1732,7 +1733,7 @@ delete all items in pack, then check if type_product value is 2.
 if yes, add the pack items from input "inputPackItems"
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 5012
+* This method is defined in [controllers/admin/AdminProductsController.php line 5012](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#5012)
 
 
 #### Arguments
@@ -1749,7 +1750,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 5040
+* This method is defined in [controllers/admin/AdminProductsController.php line 5040](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#5040)
 
 
 #### Arguments
@@ -1766,7 +1767,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminProductsController.php line 5053
+* This method is defined in [controllers/admin/AdminProductsController.php line 5053](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#5053)
 
 
 
@@ -1780,7 +1781,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 5063
+* This method is defined in [controllers/admin/AdminProductsController.php line 5063](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#5063)
 
 
 
@@ -1794,7 +1795,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 5086
+* This method is defined in [controllers/admin/AdminProductsController.php line 5086](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#5086)
 
 
 
@@ -1808,7 +1809,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 5126
+* This method is defined in [controllers/admin/AdminProductsController.php line 5126](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#5126)
 
 
 
@@ -1822,7 +1823,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 5152
+* This method is defined in [controllers/admin/AdminProductsController.php line 5152](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#5152)
 
 
 
@@ -1836,7 +1837,7 @@ if yes, add the pack items from input "inputPackItems"
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminProductsController.php line 5169
+* This method is defined in [controllers/admin/AdminProductsController.php line 5169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminProductsController.php#5169)
 
 
 #### Arguments

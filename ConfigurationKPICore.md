@@ -9,7 +9,8 @@ ConfigurationKPICore
 * Class name: ConfigurationKPICore
 * Namespace: 
 * Parent class: [Configuration](ConfigurationCore)
-* This class is defined in classes\ConfigurationKPI.php line 27
+
+* This class is defined in [classes/ConfigurationKPI.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#27)
 
 
 
@@ -29,7 +30,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\ConfigurationKPI.php line 29
+* This property is defined in [classes/ConfigurationKPI.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#29)
 
 
 Methods
@@ -46,7 +47,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 31
+* This method is defined in [classes/ConfigurationKPI.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#31)
 
 
 
@@ -61,7 +62,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 38
+* This method is defined in [classes/ConfigurationKPI.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#38)
 
 
 
@@ -76,7 +77,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 43
+* This method is defined in [classes/ConfigurationKPI.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#43)
 
 
 #### Arguments
@@ -96,7 +97,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 51
+* This method is defined in [classes/ConfigurationKPI.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#51)
 
 
 
@@ -111,7 +112,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 59
+* This method is defined in [classes/ConfigurationKPI.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#59)
 
 
 #### Arguments
@@ -132,7 +133,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 67
+* This method is defined in [classes/ConfigurationKPI.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#67)
 
 
 #### Arguments
@@ -151,7 +152,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 75
+* This method is defined in [classes/ConfigurationKPI.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#75)
 
 
 #### Arguments
@@ -171,7 +172,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 83
+* This method is defined in [classes/ConfigurationKPI.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#83)
 
 
 #### Arguments
@@ -192,7 +193,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 91
+* This method is defined in [classes/ConfigurationKPI.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#91)
 
 
 #### Arguments
@@ -213,7 +214,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 99
+* This method is defined in [classes/ConfigurationKPI.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#99)
 
 
 #### Arguments
@@ -234,7 +235,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 107
+* This method is defined in [classes/ConfigurationKPI.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#107)
 
 
 #### Arguments
@@ -254,7 +255,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 115
+* This method is defined in [classes/ConfigurationKPI.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#115)
 
 
 #### Arguments
@@ -276,7 +277,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 123
+* This method is defined in [classes/ConfigurationKPI.php line 123](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#123)
 
 
 #### Arguments
@@ -294,7 +295,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 131
+* This method is defined in [classes/ConfigurationKPI.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#131)
 
 
 #### Arguments
@@ -312,7 +313,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 139
+* This method is defined in [classes/ConfigurationKPI.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#139)
 
 
 #### Arguments
@@ -332,7 +333,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 147
+* This method is defined in [classes/ConfigurationKPI.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#147)
 
 
 #### Arguments
@@ -350,7 +351,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 155
+* This method is defined in [classes/ConfigurationKPI.php line 155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#155)
 
 
 #### Arguments
@@ -368,7 +369,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\ConfigurationKPI.php line 163
+* This method is defined in [classes/ConfigurationKPI.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ConfigurationKPI.php#163)
 
 
 #### Arguments

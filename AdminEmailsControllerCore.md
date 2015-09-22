@@ -9,7 +9,8 @@ AdminEmailsControllerCore
 * Class name: AdminEmailsControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminEmailsController.php line 30
+
+* This class is defined in [controllers/admin/AdminEmailsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminEmailsController.php line 30
+* This property is defined in [controllers/admin/AdminEmailsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmailsController.php line 32
+* This method is defined in [controllers/admin/AdminEmailsController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmailsController.php line 227
+* This method is defined in [controllers/admin/AdminEmailsController.php line 227](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#227)
 
 
 
@@ -72,7 +73,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmailsController.php line 241
+* This method is defined in [controllers/admin/AdminEmailsController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#241)
 
 
 
@@ -86,7 +87,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmailsController.php line 252
+* This method is defined in [controllers/admin/AdminEmailsController.php line 252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#252)
 
 
 
@@ -100,7 +101,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmailsController.php line 263
+* This method is defined in [controllers/admin/AdminEmailsController.php line 263](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#263)
 
 
 #### Arguments
@@ -117,7 +118,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmailsController.php line 276
+* This method is defined in [controllers/admin/AdminEmailsController.php line 276](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#276)
 
 
 
@@ -131,7 +132,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmailsController.php line 303
+* This method is defined in [controllers/admin/AdminEmailsController.php line 303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#303)
 
 
 
@@ -145,7 +146,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminEmailsController.php line 323
+* This method is defined in [controllers/admin/AdminEmailsController.php line 323](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#323)
 
 
 

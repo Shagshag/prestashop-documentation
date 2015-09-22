@@ -9,7 +9,8 @@ NewProductsControllerCore
 * Class name: NewProductsControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\NewProductsController.php line 27
+
+* This class is defined in [controllers/front/NewProductsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/NewProductsController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\NewProductsController.php line 29
+* This property is defined in [controllers/front/NewProductsController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/NewProductsController.php#29)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\NewProductsController.php line 31
+* This method is defined in [controllers/front/NewProductsController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/NewProductsController.php#31)
 
 
 
@@ -58,7 +59,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\NewProductsController.php line 41
+* This method is defined in [controllers/front/NewProductsController.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/NewProductsController.php#41)
 
 
 

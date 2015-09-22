@@ -23,7 +23,8 @@ needs please refer to http://www.prestashop.com for more information.
 * Class name: AddressCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Address.php line 27
+
+* This class is defined in [classes/Address.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#27)
 
 
 
@@ -42,7 +43,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 30
+* This property is defined in [classes/Address.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#30)
 
 
 ### $id_manufacturer
@@ -54,7 +55,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 33
+* This property is defined in [classes/Address.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#33)
 
 
 ### $id_supplier
@@ -66,7 +67,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 36
+* This property is defined in [classes/Address.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#36)
 
 
 ### $id_warehouse
@@ -78,7 +79,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 42
+* This property is defined in [classes/Address.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#42)
 
 
 ### $id_country
@@ -90,7 +91,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 45
+* This property is defined in [classes/Address.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#45)
 
 
 ### $id_state
@@ -102,7 +103,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 48
+* This property is defined in [classes/Address.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#48)
 
 
 ### $country
@@ -114,7 +115,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 51
+* This property is defined in [classes/Address.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#51)
 
 
 ### $alias
@@ -126,7 +127,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 54
+* This property is defined in [classes/Address.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#54)
 
 
 ### $company
@@ -138,7 +139,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 57
+* This property is defined in [classes/Address.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#57)
 
 
 ### $lastname
@@ -150,7 +151,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 60
+* This property is defined in [classes/Address.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#60)
 
 
 ### $firstname
@@ -162,7 +163,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 63
+* This property is defined in [classes/Address.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#63)
 
 
 ### $address1
@@ -174,7 +175,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 66
+* This property is defined in [classes/Address.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#66)
 
 
 ### $address2
@@ -186,7 +187,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 69
+* This property is defined in [classes/Address.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#69)
 
 
 ### $postcode
@@ -198,7 +199,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 72
+* This property is defined in [classes/Address.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#72)
 
 
 ### $city
@@ -210,7 +211,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 75
+* This property is defined in [classes/Address.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#75)
 
 
 ### $other
@@ -222,7 +223,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 78
+* This property is defined in [classes/Address.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#78)
 
 
 ### $phone
@@ -234,7 +235,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 81
+* This property is defined in [classes/Address.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#81)
 
 
 ### $phone_mobile
@@ -246,7 +247,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 84
+* This property is defined in [classes/Address.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#84)
 
 
 ### $vat_number
@@ -258,7 +259,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 87
+* This property is defined in [classes/Address.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#87)
 
 
 ### $dni
@@ -270,7 +271,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 90
+* This property is defined in [classes/Address.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#90)
 
 
 ### $date_add
@@ -282,7 +283,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 93
+* This property is defined in [classes/Address.php line 93](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#93)
 
 
 ### $date_upd
@@ -294,7 +295,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 96
+* This property is defined in [classes/Address.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#96)
 
 
 ### $deleted
@@ -306,7 +307,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Address.php line 99
+* This property is defined in [classes/Address.php line 99](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#99)
 
 
 ### $_idZones
@@ -319,7 +320,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Address.php line 101
+* This property is defined in [classes/Address.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#101)
 
 
 ### $_idCountries
@@ -332,7 +333,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Address.php line 102
+* This property is defined in [classes/Address.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#102)
 
 
 ### $definition
@@ -345,7 +346,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Address.php line 107
+* This property is defined in [classes/Address.php line 107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#107)
 
 
 ### $_includeVars
@@ -357,7 +358,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Address.php line 136
+* This property is defined in [classes/Address.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#136)
 
 
 ### $_includeContainer
@@ -369,7 +370,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Address.php line 137
+* This property is defined in [classes/Address.php line 137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#137)
 
 
 ### $webserviceParameters
@@ -381,7 +382,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Address.php line 139
+* This property is defined in [classes/Address.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#139)
 
 
 Methods
@@ -397,7 +398,7 @@ Build an address
 
 
 * Visibility: **public**
-* This method is defined in classes\Address.php line 156
+* This method is defined in [classes/Address.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#156)
 
 
 #### Arguments
@@ -415,7 +416,7 @@ Build an address
 
 
 * Visibility: **public**
-* This method is defined in classes\Address.php line 169
+* This method is defined in [classes/Address.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#169)
 
 
 #### Arguments
@@ -433,7 +434,7 @@ Build an address
 
 
 * Visibility: **public**
-* This method is defined in classes\Address.php line 181
+* This method is defined in [classes/Address.php line 181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#181)
 
 
 #### Arguments
@@ -450,7 +451,7 @@ Build an address
 
 
 * Visibility: **public**
-* This method is defined in classes\Address.php line 201
+* This method is defined in [classes/Address.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#201)
 
 
 
@@ -465,7 +466,7 @@ Returns fields required for an address in an array hash
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Address.php line 219
+* This method is defined in [classes/Address.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#219)
 
 
 
@@ -479,7 +480,7 @@ Returns fields required for an address in an array hash
 
 
 * Visibility: **public**
-* This method is defined in classes\Address.php line 231
+* This method is defined in [classes/Address.php line 231](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#231)
 
 
 #### Arguments
@@ -497,7 +498,7 @@ Get zone id for a given address
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Address.php line 249
+* This method is defined in [classes/Address.php line 249](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#249)
 
 
 #### Arguments
@@ -515,7 +516,7 @@ Check if country is active for a given address
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Address.php line 283
+* This method is defined in [classes/Address.php line 283](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#283)
 
 
 #### Arguments
@@ -532,7 +533,7 @@ Check if address is used (at least one order placed)
 
 
 * Visibility: **public**
-* This method is defined in classes\Address.php line 307
+* This method is defined in [classes/Address.php line 307](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#307)
 
 
 
@@ -547,7 +548,7 @@ Check if address is used (at least one order placed)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Address.php line 318
+* This method is defined in [classes/Address.php line 318](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#318)
 
 
 #### Arguments
@@ -565,7 +566,7 @@ Specify if an address is already in base
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Address.php line 340
+* This method is defined in [classes/Address.php line 340](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#340)
 
 
 #### Arguments
@@ -583,7 +584,7 @@ Specify if an address is already in base
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Address.php line 351
+* This method is defined in [classes/Address.php line 351](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#351)
 
 
 #### Arguments
@@ -603,7 +604,7 @@ default shop configuration
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Address.php line 379
+* This method is defined in [classes/Address.php line 379](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#379)
 
 
 #### Arguments
@@ -622,7 +623,7 @@ Returns id_address for a given id_supplier
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Address.php line 428
+* This method is defined in [classes/Address.php line 428](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#428)
 
 
 #### Arguments
@@ -640,7 +641,7 @@ Returns id_address for a given id_supplier
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Address.php line 441
+* This method is defined in [classes/Address.php line 441](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#441)
 
 
 #### Arguments
@@ -659,7 +660,7 @@ Returns id_address for a given id_supplier
 
 
 * Visibility: **public**
-* This method is defined in classes\Address.php line 454
+* This method is defined in [classes/Address.php line 454](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#454)
 
 
 

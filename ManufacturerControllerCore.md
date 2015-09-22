@@ -9,7 +9,8 @@ ManufacturerControllerCore
 * Class name: ManufacturerControllerCore
 * Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-* This class is defined in controllers\front\ManufacturerController.php line 27
+
+* This class is defined in [controllers/front/ManufacturerController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ManufacturerController.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\front\ManufacturerController.php line 29
+* This property is defined in [controllers/front/ManufacturerController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ManufacturerController.php#29)
 
 
 ### $manufacturer
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\front\ManufacturerController.php line 32
+* This property is defined in [controllers/front/ManufacturerController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ManufacturerController.php#32)
 
 
 Methods
@@ -56,7 +57,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ManufacturerController.php line 34
+* This method is defined in [controllers/front/ManufacturerController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ManufacturerController.php#34)
 
 
 
@@ -70,7 +71,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ManufacturerController.php line 40
+* This method is defined in [controllers/front/ManufacturerController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ManufacturerController.php#40)
 
 
 #### Arguments
@@ -87,7 +88,7 @@ Initialize manufaturer controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ManufacturerController.php line 54
+* This method is defined in [controllers/front/ManufacturerController.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ManufacturerController.php#54)
 
 
 
@@ -101,7 +102,7 @@ Assign template vars related to page content
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ManufacturerController.php line 74
+* This method is defined in [controllers/front/ManufacturerController.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ManufacturerController.php#74)
 
 
 
@@ -115,7 +116,7 @@ Assign template vars if displaying one manufacturer
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ManufacturerController.php line 91
+* This method is defined in [controllers/front/ManufacturerController.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ManufacturerController.php#91)
 
 
 
@@ -129,7 +130,7 @@ Assign template vars if displaying the manufacturer list
 
 
 * Visibility: **protected**
-* This method is defined in controllers\front\ManufacturerController.php line 113
+* This method is defined in [controllers/front/ManufacturerController.php line 113](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ManufacturerController.php#113)
 
 
 
@@ -143,7 +144,7 @@ Get instance of current manufacturer
 
 
 * Visibility: **public**
-* This method is defined in controllers\front\ManufacturerController.php line 142
+* This method is defined in [controllers/front/ManufacturerController.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ManufacturerController.php#142)
 
 
 

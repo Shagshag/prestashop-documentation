@@ -9,7 +9,8 @@ CategoryCore
 * Class name: CategoryCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Category.php line 27
+
+* This class is defined in [classes/Category.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 29
+* This property is defined in [classes/Category.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#29)
 
 
 ### $id_category
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 32
+* This property is defined in [classes/Category.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#32)
 
 
 ### $name
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 35
+* This property is defined in [classes/Category.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#35)
 
 
 ### $active
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 38
+* This property is defined in [classes/Category.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#38)
 
 
 ### $position
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 41
+* This property is defined in [classes/Category.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#41)
 
 
 ### $description
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 44
+* This property is defined in [classes/Category.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#44)
 
 
 ### $id_parent
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 47
+* This property is defined in [classes/Category.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#47)
 
 
 ### $id_category_default
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 50
+* This property is defined in [classes/Category.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#50)
 
 
 ### $level_depth
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 53
+* This property is defined in [classes/Category.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#53)
 
 
 ### $nleft
@@ -136,7 +137,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 56
+* This property is defined in [classes/Category.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#56)
 
 
 ### $nright
@@ -148,7 +149,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 59
+* This property is defined in [classes/Category.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#59)
 
 
 ### $link_rewrite
@@ -160,7 +161,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 62
+* This property is defined in [classes/Category.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#62)
 
 
 ### $meta_title
@@ -172,7 +173,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 65
+* This property is defined in [classes/Category.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#65)
 
 
 ### $meta_keywords
@@ -184,7 +185,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 68
+* This property is defined in [classes/Category.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#68)
 
 
 ### $meta_description
@@ -196,7 +197,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 71
+* This property is defined in [classes/Category.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#71)
 
 
 ### $date_add
@@ -208,7 +209,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 74
+* This property is defined in [classes/Category.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#74)
 
 
 ### $date_upd
@@ -220,7 +221,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 77
+* This property is defined in [classes/Category.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#77)
 
 
 ### $is_root_category
@@ -232,7 +233,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 80
+* This property is defined in [classes/Category.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#80)
 
 
 ### $id_shop_default
@@ -244,7 +245,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 83
+* This property is defined in [classes/Category.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#83)
 
 
 ### $groupBox
@@ -256,7 +257,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 85
+* This property is defined in [classes/Category.php line 85](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#85)
 
 
 ### $_links
@@ -269,7 +270,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Category.php line 87
+* This property is defined in [classes/Category.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#87)
 
 
 ### $definition
@@ -282,7 +283,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Category.php line 92
+* This property is defined in [classes/Category.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#92)
 
 
 ### $id_image
@@ -294,7 +295,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Category.php line 119
+* This property is defined in [classes/Category.php line 119](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#119)
 
 
 ### $webserviceParameters
@@ -306,7 +307,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Category.php line 121
+* This property is defined in [classes/Category.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#121)
 
 
 Methods
@@ -322,7 +323,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 135
+* This method is defined in [classes/Category.php line 135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#135)
 
 
 #### Arguments
@@ -342,7 +343,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 142
+* This method is defined in [classes/Category.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#142)
 
 
 #### Arguments
@@ -359,7 +360,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 147
+* This method is defined in [classes/Category.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#147)
 
 
 #### Arguments
@@ -377,7 +378,7 @@ update category positions in parent
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 183
+* This method is defined in [classes/Category.php line 183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#183)
 
 
 #### Arguments
@@ -394,7 +395,7 @@ update category positions in parent
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 232
+* This method is defined in [classes/Category.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#232)
 
 
 
@@ -408,7 +409,7 @@ Recursive scan of subcategories
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 249
+* This method is defined in [classes/Category.php line 249](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#249)
 
 
 #### Arguments
@@ -429,7 +430,7 @@ Recursive scan of subcategories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 283
+* This method is defined in [classes/Category.php line 283](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#283)
 
 
 #### Arguments
@@ -449,7 +450,7 @@ Recursively add specified category childs to $to_delete array
 
 
 * Visibility: **protected**
-* This method is defined in classes\Category.php line 305
+* This method is defined in [classes/Category.php line 305](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#305)
 
 
 #### Arguments
@@ -467,7 +468,7 @@ Recursively add specified category childs to $to_delete array
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 321
+* This method is defined in [classes/Category.php line 321](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#321)
 
 
 
@@ -481,7 +482,7 @@ Recursively add specified category childs to $to_delete array
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 327
+* This method is defined in [classes/Category.php line 327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#327)
 
 
 
@@ -495,7 +496,7 @@ Delete several categories from database
 return boolean Deletion result
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 369
+* This method is defined in [classes/Category.php line 369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#369)
 
 
 #### Arguments
@@ -512,7 +513,7 @@ Get the depth level for the category
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 388
+* This method is defined in [classes/Category.php line 388](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#388)
 
 
 
@@ -527,7 +528,7 @@ Re-calculate the values of all branches of the nested tree
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 405
+* This method is defined in [classes/Category.php line 405](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#405)
 
 
 
@@ -542,7 +543,7 @@ Re-calculate the values of all branches of the nested tree
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\Category.php line 426
+* This method is defined in [classes/Category.php line 426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#426)
 
 
 #### Arguments
@@ -561,7 +562,7 @@ Updates level_depth for all children of the given id_category
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 447
+* This method is defined in [classes/Category.php line 447](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#447)
 
 
 #### Arguments
@@ -579,7 +580,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 480
+* This method is defined in [classes/Category.php line 480](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#480)
 
 
 #### Arguments
@@ -602,7 +603,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 509
+* This method is defined in [classes/Category.php line 509](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#509)
 
 
 #### Arguments
@@ -627,7 +628,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 552
+* This method is defined in [classes/Category.php line 552](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#552)
 
 
 #### Arguments
@@ -652,7 +653,7 @@ Return available categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 613
+* This method is defined in [classes/Category.php line 613](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#613)
 
 
 #### Arguments
@@ -669,7 +670,7 @@ Return available categories
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 626
+* This method is defined in [classes/Category.php line 626](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#626)
 
 
 
@@ -683,7 +684,7 @@ Return current category childs
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 638
+* This method is defined in [classes/Category.php line 638](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#638)
 
 
 #### Arguments
@@ -701,7 +702,7 @@ Returns category products
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 686
+* This method is defined in [classes/Category.php line 686](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#686)
 
 
 #### Arguments
@@ -730,7 +731,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 803
+* This method is defined in [classes/Category.php line 803](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#803)
 
 
 #### Arguments
@@ -750,7 +751,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 808
+* This method is defined in [classes/Category.php line 808](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#808)
 
 
 #### Arguments
@@ -769,7 +770,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 841
+* This method is defined in [classes/Category.php line 841](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#841)
 
 
 #### Arguments
@@ -790,7 +791,7 @@ Return main categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 873
+* This method is defined in [classes/Category.php line 873](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#873)
 
 
 #### Arguments
@@ -810,7 +811,7 @@ Return an array of all children of the current category
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 901
+* This method is defined in [classes/Category.php line 901](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#901)
 
 
 #### Arguments
@@ -827,7 +828,7 @@ Return an array of all parents of the current category
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 919
+* This method is defined in [classes/Category.php line 919](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#919)
 
 
 #### Arguments
@@ -845,7 +846,7 @@ This method allow to return children categories with the number of sub children 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 939
+* This method is defined in [classes/Category.php line 939](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#939)
 
 
 #### Arguments
@@ -867,7 +868,7 @@ Copy products from a category to another
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 983
+* This method is defined in [classes/Category.php line 983](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#983)
 
 
 #### Arguments
@@ -886,7 +887,7 @@ The category cannot be moved in a child category.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1016
+* This method is defined in [classes/Category.php line 1016](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1016)
 
 
 #### Arguments
@@ -905,7 +906,7 @@ The category cannot be moved in a child category.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1041
+* This method is defined in [classes/Category.php line 1041](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1041)
 
 
 #### Arguments
@@ -923,7 +924,7 @@ The category cannot be moved in a child category.
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1058
+* This method is defined in [classes/Category.php line 1058](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1058)
 
 
 #### Arguments
@@ -941,7 +942,7 @@ The category cannot be moved in a child category.
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1072
+* This method is defined in [classes/Category.php line 1072](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1072)
 
 
 #### Arguments
@@ -959,7 +960,7 @@ Light back office search for categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1094
+* This method is defined in [classes/Category.php line 1094](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1094)
 
 
 #### Arguments
@@ -980,7 +981,7 @@ Retrieve category by name and parent category id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1128
+* This method is defined in [classes/Category.php line 1128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1128)
 
 
 #### Arguments
@@ -1000,7 +1001,7 @@ Search with Pathes for categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1150
+* This method is defined in [classes/Category.php line 1150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1150)
 
 
 #### Arguments
@@ -1021,7 +1022,7 @@ Get Each parent category of this category until the root category
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1181
+* This method is defined in [classes/Category.php line 1181](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1181)
 
 
 #### Arguments
@@ -1039,7 +1040,7 @@ Specify if a category already in base
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1237
+* This method is defined in [classes/Category.php line 1237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1237)
 
 
 #### Arguments
@@ -1056,7 +1057,7 @@ Specify if a category already in base
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1247
+* This method is defined in [classes/Category.php line 1247](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1247)
 
 
 
@@ -1070,7 +1071,7 @@ Specify if a category already in base
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1252
+* This method is defined in [classes/Category.php line 1252](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1252)
 
 
 
@@ -1084,7 +1085,7 @@ Specify if a category already in base
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1257
+* This method is defined in [classes/Category.php line 1257](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1257)
 
 
 #### Arguments
@@ -1101,7 +1102,7 @@ Specify if a category already in base
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1266
+* This method is defined in [classes/Category.php line 1266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1266)
 
 
 
@@ -1115,7 +1116,7 @@ Specify if a category already in base
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1284
+* This method is defined in [classes/Category.php line 1284](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1284)
 
 
 #### Arguments
@@ -1132,7 +1133,7 @@ checkAccess return true if id_customer is in a group allowed to see this categor
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1300
+* This method is defined in [classes/Category.php line 1300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1300)
 
 
 #### Arguments
@@ -1149,7 +1150,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1327
+* This method is defined in [classes/Category.php line 1327](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1327)
 
 
 #### Arguments
@@ -1167,7 +1168,7 @@ Update customer groups associated to the object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1336
+* This method is defined in [classes/Category.php line 1336](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1336)
 
 
 #### Arguments
@@ -1184,7 +1185,7 @@ Update customer groups associated to the object
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1347
+* This method is defined in [classes/Category.php line 1347](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1347)
 
 
 #### Arguments
@@ -1205,7 +1206,7 @@ are clean at the beginning !
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1396
+* This method is defined in [classes/Category.php line 1396](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1396)
 
 
 #### Arguments
@@ -1223,7 +1224,7 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1426
+* This method is defined in [classes/Category.php line 1426](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1426)
 
 
 #### Arguments
@@ -1242,7 +1243,7 @@ this function return the number of category + 1 having $id_category_parent as pa
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1443
+* This method is defined in [classes/Category.php line 1443](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1443)
 
 
 #### Arguments
@@ -1260,7 +1261,7 @@ Return nleft and nright fields for a given category
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1461
+* This method is defined in [classes/Category.php line 1461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1461)
 
 
 #### Arguments
@@ -1277,7 +1278,7 @@ Check if current category is a child of shop root category
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1482
+* This method is defined in [classes/Category.php line 1482](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1482)
 
 
 #### Arguments
@@ -1295,7 +1296,7 @@ Check if current category is a child of shop root category
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1494
+* This method is defined in [classes/Category.php line 1494](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1494)
 
 
 #### Arguments
@@ -1313,7 +1314,7 @@ Check if current category is a child of shop root category
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1507
+* This method is defined in [classes/Category.php line 1507](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1507)
 
 
 
@@ -1327,7 +1328,7 @@ Check if current category is a child of shop root category
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1519
+* This method is defined in [classes/Category.php line 1519](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1519)
 
 
 
@@ -1341,7 +1342,7 @@ Search for another category with the same parent and the same position
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1534
+* This method is defined in [classes/Category.php line 1534](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1534)
 
 
 
@@ -1355,7 +1356,7 @@ Search for another category with the same parent and the same position
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1545
+* This method is defined in [classes/Category.php line 1545](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1545)
 
 
 
@@ -1370,7 +1371,7 @@ Search for another category with the same parent and the same position
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1573
+* This method is defined in [classes/Category.php line 1573](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1573)
 
 
 #### Arguments
@@ -1388,7 +1389,7 @@ Search for another category with the same parent and the same position
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1603
+* This method is defined in [classes/Category.php line 1603](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1603)
 
 
 #### Arguments
@@ -1405,7 +1406,7 @@ Add association between shop and categories
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1620
+* This method is defined in [classes/Category.php line 1620](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1620)
 
 
 #### Arguments
@@ -1423,7 +1424,7 @@ Add association between shop and categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1642
+* This method is defined in [classes/Category.php line 1642](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1642)
 
 
 #### Arguments
@@ -1442,7 +1443,7 @@ Add association between shop and categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1656
+* This method is defined in [classes/Category.php line 1656](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1656)
 
 
 
@@ -1456,7 +1457,7 @@ Add association between shop and categories
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1671
+* This method is defined in [classes/Category.php line 1671](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1671)
 
 
 
@@ -1471,7 +1472,7 @@ Add association between shop and categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1683
+* This method is defined in [classes/Category.php line 1683](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1683)
 
 
 #### Arguments
@@ -1488,7 +1489,7 @@ Add association between shop and categories
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1701
+* This method is defined in [classes/Category.php line 1701](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1701)
 
 
 #### Arguments
@@ -1507,7 +1508,7 @@ Add association between shop and categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1730
+* This method is defined in [classes/Category.php line 1730](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1730)
 
 
 #### Arguments
@@ -1525,7 +1526,7 @@ Update categories for a shop
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1745
+* This method is defined in [classes/Category.php line 1745](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1745)
 
 
 #### Arguments
@@ -1543,7 +1544,7 @@ Delete category from shop $id_shop
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1765
+* This method is defined in [classes/Category.php line 1765](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1765)
 
 
 #### Arguments
@@ -1561,7 +1562,7 @@ Delete every categories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1777
+* This method is defined in [classes/Category.php line 1777](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1777)
 
 
 #### Arguments
@@ -1579,7 +1580,7 @@ Add some categories to a shop
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Category.php line 1787
+* This method is defined in [classes/Category.php line 1787](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1787)
 
 
 #### Arguments
@@ -1597,7 +1598,7 @@ Add some categories to a shop
 
 
 * Visibility: **public**
-* This method is defined in classes\Category.php line 1811
+* This method is defined in [classes/Category.php line 1811](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Category.php#1811)
 
 
 #### Arguments

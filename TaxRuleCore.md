@@ -9,7 +9,8 @@ TaxRuleCore
 * Class name: TaxRuleCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\tax\TaxRule.php line 27
+
+* This class is defined in [classes/tax/TaxRule.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxRule.php line 29
+* This property is defined in [classes/tax/TaxRule.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#29)
 
 
 ### $id_country
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxRule.php line 30
+* This property is defined in [classes/tax/TaxRule.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#30)
 
 
 ### $id_state
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxRule.php line 31
+* This property is defined in [classes/tax/TaxRule.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#31)
 
 
 ### $zipcode_from
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxRule.php line 32
+* This property is defined in [classes/tax/TaxRule.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#32)
 
 
 ### $zipcode_to
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxRule.php line 33
+* This property is defined in [classes/tax/TaxRule.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#33)
 
 
 ### $id_tax
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxRule.php line 34
+* This property is defined in [classes/tax/TaxRule.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#34)
 
 
 ### $behavior
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxRule.php line 35
+* This property is defined in [classes/tax/TaxRule.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#35)
 
 
 ### $description
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\tax\TaxRule.php line 36
+* This property is defined in [classes/tax/TaxRule.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#36)
 
 
 ### $definition
@@ -125,7 +126,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\tax\TaxRule.php line 41
+* This property is defined in [classes/tax/TaxRule.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#41)
 
 
 ### $webserviceParameters
@@ -137,7 +138,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\tax\TaxRule.php line 56
+* This property is defined in [classes/tax/TaxRule.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#56)
 
 
 Methods
@@ -154,7 +155,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\tax\TaxRule.php line 64
+* This method is defined in [classes/tax/TaxRule.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#64)
 
 
 #### Arguments
@@ -172,7 +173,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\tax\TaxRule.php line 76
+* This method is defined in [classes/tax/TaxRule.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#76)
 
 
 #### Arguments
@@ -190,7 +191,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\tax\TaxRule.php line 83
+* This method is defined in [classes/tax/TaxRule.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#83)
 
 
 #### Arguments
@@ -209,7 +210,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\tax\TaxRule.php line 104
+* This method is defined in [classes/tax/TaxRule.php line 104](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#104)
 
 
 #### Arguments
@@ -227,7 +228,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\tax\TaxRule.php line 115
+* This method is defined in [classes/tax/TaxRule.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#115)
 
 
 #### Arguments
@@ -245,7 +246,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\tax\TaxRule.php line 125
+* This method is defined in [classes/tax/TaxRule.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#125)
 
 
 #### Arguments
@@ -262,7 +263,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\tax\TaxRule.php line 141
+* This method is defined in [classes/tax/TaxRule.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#141)
 
 
 #### Arguments
@@ -280,7 +281,7 @@ Replace a tax_rule id by an other one in the tax_rule table
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\tax\TaxRule.php line 171
+* This method is defined in [classes/tax/TaxRule.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRule.php#171)
 
 
 #### Arguments

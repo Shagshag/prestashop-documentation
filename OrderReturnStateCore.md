@@ -9,7 +9,8 @@ OrderReturnStateCore
 * Class name: OrderReturnStateCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\order\OrderReturnState.php line 27
+
+* This class is defined in [classes/order/OrderReturnState.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderReturnState.php line 30
+* This property is defined in [classes/order/OrderReturnState.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#30)
 
 
 ### $color
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\OrderReturnState.php line 33
+* This property is defined in [classes/order/OrderReturnState.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#33)
 
 
 ### $definition
@@ -53,7 +54,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\order\OrderReturnState.php line 38
+* This property is defined in [classes/order/OrderReturnState.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#38)
 
 
 Methods
@@ -70,7 +71,7 @@ Get all available order statuses
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\OrderReturnState.php line 56
+* This method is defined in [classes/order/OrderReturnState.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderReturnState.php#56)
 
 
 #### Arguments

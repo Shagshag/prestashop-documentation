@@ -9,7 +9,8 @@ AdminMetaControllerCore
 * Class name: AdminMetaControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminMetaController.php line 30
+
+* This class is defined in [controllers/admin/AdminMetaController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminMetaController.php line 32
+* This property is defined in [controllers/admin/AdminMetaController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#32)
 
 
 ### $className
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminMetaController.php line 33
+* This property is defined in [controllers/admin/AdminMetaController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#33)
 
 
 ### $lang
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminMetaController.php line 34
+* This property is defined in [controllers/admin/AdminMetaController.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#34)
 
 
 ### $url
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminMetaController.php line 37
+* This property is defined in [controllers/admin/AdminMetaController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#37)
 
 
 ### $toolbar_scroll
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in controllers\admin\AdminMetaController.php line 38
+* This property is defined in [controllers/admin/AdminMetaController.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#38)
 
 
 ### $object
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminMetaController.php line 30
+* This property is defined in [controllers/admin/AdminMetaController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#30)
 
 
 Methods
@@ -104,7 +105,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 40
+* This method is defined in [controllers/admin/AdminMetaController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#40)
 
 
 
@@ -118,7 +119,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 229
+* This method is defined in [controllers/admin/AdminMetaController.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#229)
 
 
 
@@ -132,7 +133,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 242
+* This method is defined in [controllers/admin/AdminMetaController.php line 242](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#242)
 
 
 
@@ -146,7 +147,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 251
+* This method is defined in [controllers/admin/AdminMetaController.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#251)
 
 
 
@@ -160,7 +161,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 258
+* This method is defined in [controllers/admin/AdminMetaController.php line 258](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#258)
 
 
 #### Arguments
@@ -178,7 +179,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 275
+* This method is defined in [controllers/admin/AdminMetaController.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#275)
 
 
 
@@ -192,7 +193,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 388
+* This method is defined in [controllers/admin/AdminMetaController.php line 388](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#388)
 
 
 
@@ -206,7 +207,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 460
+* This method is defined in [controllers/admin/AdminMetaController.php line 460](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#460)
 
 
 
@@ -220,7 +221,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 540
+* This method is defined in [controllers/admin/AdminMetaController.php line 540](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#540)
 
 
 #### Arguments
@@ -242,7 +243,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 545
+* This method is defined in [controllers/admin/AdminMetaController.php line 545](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#545)
 
 
 
@@ -256,7 +257,7 @@ Validate route syntax and save it in configuration
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 559
+* This method is defined in [controllers/admin/AdminMetaController.php line 559](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#559)
 
 
 #### Arguments
@@ -273,7 +274,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 589
+* This method is defined in [controllers/admin/AdminMetaController.php line 589](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#589)
 
 
 
@@ -287,7 +288,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 614
+* This method is defined in [controllers/admin/AdminMetaController.php line 614](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#614)
 
 
 
@@ -301,7 +302,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 619
+* This method is defined in [controllers/admin/AdminMetaController.php line 619](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#619)
 
 
 
@@ -315,7 +316,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 624
+* This method is defined in [controllers/admin/AdminMetaController.php line 624](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#624)
 
 
 
@@ -329,7 +330,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 629
+* This method is defined in [controllers/admin/AdminMetaController.php line 629](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#629)
 
 
 
@@ -343,7 +344,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 634
+* This method is defined in [controllers/admin/AdminMetaController.php line 634](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#634)
 
 
 
@@ -357,7 +358,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 639
+* This method is defined in [controllers/admin/AdminMetaController.php line 639](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#639)
 
 
 
@@ -371,7 +372,7 @@ Called when PS_REWRITING_SETTINGS option is saved
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 644
+* This method is defined in [controllers/admin/AdminMetaController.php line 644](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#644)
 
 
 
@@ -385,7 +386,7 @@ Update shop domain (for mono shop)
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 656
+* This method is defined in [controllers/admin/AdminMetaController.php line 656](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#656)
 
 
 #### Arguments
@@ -402,7 +403,7 @@ Update shop SSL domain (for mono shop)
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 676
+* This method is defined in [controllers/admin/AdminMetaController.php line 676](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#676)
 
 
 #### Arguments
@@ -419,7 +420,7 @@ Update shop physical uri for mono shop)
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 696
+* This method is defined in [controllers/admin/AdminMetaController.php line 696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#696)
 
 
 #### Arguments
@@ -436,7 +437,7 @@ Function used to render the options for this controller
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 707
+* This method is defined in [controllers/admin/AdminMetaController.php line 707](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#707)
 
 
 
@@ -450,7 +451,7 @@ Add all custom route fields to the options form
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 735
+* This method is defined in [controllers/admin/AdminMetaController.php line 735](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#735)
 
 
 
@@ -464,7 +465,7 @@ Check if a file is writable
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 753
+* This method is defined in [controllers/admin/AdminMetaController.php line 753](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#753)
 
 
 #### Arguments
@@ -481,7 +482,7 @@ Check if a file is writable
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminMetaController.php line 761
+* This method is defined in [controllers/admin/AdminMetaController.php line 761](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminMetaController.php#761)
 
 
 

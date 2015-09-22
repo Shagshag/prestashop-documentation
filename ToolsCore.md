@@ -22,7 +22,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 * Class name: ToolsCore
 * Namespace: 
-* This class is defined in classes\Tools.php line 27
+
+* This class is defined in [classes/Tools.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#27)
 
 
 
@@ -42,7 +43,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Tools.php line 29
+* This property is defined in [classes/Tools.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#29)
 
 
 ### $_forceCompile
@@ -55,7 +56,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Tools.php line 30
+* This property is defined in [classes/Tools.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#30)
 
 
 ### $_caching
@@ -68,7 +69,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Tools.php line 31
+* This property is defined in [classes/Tools.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#31)
 
 
 ### $_user_plateform
@@ -81,7 +82,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Tools.php line 32
+* This property is defined in [classes/Tools.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#32)
 
 
 ### $_user_browser
@@ -94,7 +95,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Tools.php line 33
+* This property is defined in [classes/Tools.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#33)
 
 
 ### $round_mode
@@ -107,7 +108,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Tools.php line 35
+* This property is defined in [classes/Tools.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#35)
 
 
 ### $_cache_nb_media_servers
@@ -120,7 +121,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Tools.php line 2251
+* This property is defined in [classes/Tools.php line 2251](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2251)
 
 
 ### $is_addons_up
@@ -133,7 +134,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\Tools.php line 3347
+* This property is defined in [classes/Tools.php line 3347](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3347)
 
 
 Methods
@@ -150,7 +151,7 @@ Random password generator
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 44
+* This method is defined in [classes/Tools.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#44)
 
 
 #### Arguments
@@ -169,7 +170,7 @@ Thanks to Zend for entropy
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 89
+* This method is defined in [classes/Tools.php line 89](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#89)
 
 
 #### Arguments
@@ -187,7 +188,7 @@ Thanks to Zend for entropy
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 166
+* This method is defined in [classes/Tools.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#166)
 
 
 #### Arguments
@@ -208,7 +209,7 @@ Redirect user to another page
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 179
+* This method is defined in [classes/Tools.php line 179](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#179)
 
 
 #### Arguments
@@ -229,7 +230,7 @@ Redirect URLs already containing PS_BASE_URI
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 226
+* This method is defined in [classes/Tools.php line 226](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#226)
 
 
 #### Arguments
@@ -247,7 +248,7 @@ Redirect user to another admin page
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 250
+* This method is defined in [classes/Tools.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#250)
 
 
 #### Arguments
@@ -266,7 +267,7 @@ SSL if Configuration is set on and available for the server
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 262
+* This method is defined in [classes/Tools.php line 262](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#262)
 
 
 
@@ -281,7 +282,7 @@ getProtocol return the set protocol according to configuration (http[s])
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 274
+* This method is defined in [classes/Tools.php line 274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#274)
 
 
 #### Arguments
@@ -300,7 +301,7 @@ Use Tools::getShopDomain() or Tools::getShopDomainSsl instead
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 288
+* This method is defined in [classes/Tools.php line 288](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#288)
 
 
 #### Arguments
@@ -320,7 +321,7 @@ getShopDomain returns domain name according to configuration and ignoring ssl
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 310
+* This method is defined in [classes/Tools.php line 310](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#310)
 
 
 #### Arguments
@@ -339,7 +340,7 @@ getShopDomainSsl returns domain name according to configuration and depending on
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 331
+* This method is defined in [classes/Tools.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#331)
 
 
 #### Arguments
@@ -358,7 +359,7 @@ Get the server variable SERVER_NAME
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 350
+* This method is defined in [classes/Tools.php line 350](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#350)
 
 
 
@@ -373,7 +374,7 @@ Get the server variable REMOTE_ADDR, or the first ip of HTTP_X_FORWARDED_FOR (wh
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 363
+* This method is defined in [classes/Tools.php line 363](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#363)
 
 
 
@@ -388,7 +389,7 @@ Check if the current page use SSL connection on not
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 394
+* This method is defined in [classes/Tools.php line 394](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#394)
 
 
 
@@ -403,7 +404,7 @@ Get the current url prefix protocol (https/http)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 422
+* This method is defined in [classes/Tools.php line 422](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#422)
 
 
 
@@ -418,7 +419,7 @@ Secure an URL referrer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 437
+* This method is defined in [classes/Tools.php line 437](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#437)
 
 
 #### Arguments
@@ -437,7 +438,7 @@ if unavailable, take a default value
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 453
+* This method is defined in [classes/Tools.php line 453](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#453)
 
 
 #### Arguments
@@ -456,7 +457,7 @@ Get all values from $_POST/$_GET
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 473
+* This method is defined in [classes/Tools.php line 473](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#473)
 
 
 
@@ -471,7 +472,7 @@ Get all values from $_POST/$_GET
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 478
+* This method is defined in [classes/Tools.php line 478](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#478)
 
 
 #### Arguments
@@ -489,7 +490,7 @@ Change language in cookie while clicking on a flag
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 491
+* This method is defined in [classes/Tools.php line 491](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#491)
 
 
 #### Arguments
@@ -507,7 +508,7 @@ Set cookie id_lang
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 541
+* This method is defined in [classes/Tools.php line 541](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#541)
 
 
 #### Arguments
@@ -525,7 +526,7 @@ Set cookie id_lang
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 576
+* This method is defined in [classes/Tools.php line 576](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#576)
 
 
 #### Arguments
@@ -543,7 +544,7 @@ Set cookie currency from POST or default currency
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 597
+* This method is defined in [classes/Tools.php line 597](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#597)
 
 
 #### Arguments
@@ -561,7 +562,7 @@ Return price with currency sign for a given product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 637
+* This method is defined in [classes/Tools.php line 637](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#637)
 
 
 #### Arguments
@@ -582,7 +583,7 @@ Return price with currency sign for a given product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 720
+* This method is defined in [classes/Tools.php line 720](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#720)
 
 
 #### Arguments
@@ -601,7 +602,7 @@ Return price with currency sign for a given product
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 731
+* This method is defined in [classes/Tools.php line 731](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#731)
 
 
 #### Arguments
@@ -620,7 +621,7 @@ Return price converted
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 751
+* This method is defined in [classes/Tools.php line 751](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#751)
 
 
 #### Arguments
@@ -641,7 +642,7 @@ Implement array_replace for PHP <= 5.2
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 787
+* This method is defined in [classes/Tools.php line 787](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#787)
 
 
 
@@ -656,7 +657,7 @@ Convert amount from a currency to an other currency automatically
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 816
+* This method is defined in [classes/Tools.php line 816](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#816)
 
 
 #### Arguments
@@ -676,7 +677,7 @@ Display date regarding to language preferences
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 849
+* This method is defined in [classes/Tools.php line 849](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#849)
 
 
 #### Arguments
@@ -695,7 +696,7 @@ Display date regarding to language preferences
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 863
+* This method is defined in [classes/Tools.php line 863](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#863)
 
 
 #### Arguments
@@ -716,7 +717,7 @@ Sanitize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 896
+* This method is defined in [classes/Tools.php line 896](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#896)
 
 
 #### Arguments
@@ -735,7 +736,7 @@ Sanitize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 904
+* This method is defined in [classes/Tools.php line 904](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#904)
 
 
 #### Arguments
@@ -754,7 +755,7 @@ Sanitize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 913
+* This method is defined in [classes/Tools.php line 913](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#913)
 
 
 #### Arguments
@@ -772,7 +773,7 @@ Sanitize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 922
+* This method is defined in [classes/Tools.php line 922](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#922)
 
 
 
@@ -787,7 +788,7 @@ Delete directory and subdirectories
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 936
+* This method is defined in [classes/Tools.php line 936](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#936)
 
 
 #### Arguments
@@ -806,7 +807,7 @@ Delete file
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 969
+* This method is defined in [classes/Tools.php line 969](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#969)
 
 
 #### Arguments
@@ -825,7 +826,7 @@ Clear XML cache folder
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 984
+* This method is defined in [classes/Tools.php line 984](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#984)
 
 
 
@@ -840,7 +841,7 @@ Display an error according to an error code
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1006
+* This method is defined in [classes/Tools.php line 1006](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1006)
 
 
 #### Arguments
@@ -860,7 +861,7 @@ Display an error with detailed object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1034
+* This method is defined in [classes/Tools.php line 1034](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1034)
 
 
 #### Arguments
@@ -879,7 +880,7 @@ Display a var dump in firebug console
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1052
+* This method is defined in [classes/Tools.php line 1052](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1052)
 
 
 #### Arguments
@@ -898,7 +899,7 @@ ALIAS OF dieObject() - Display an error with detailed object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1072
+* This method is defined in [classes/Tools.php line 1072](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1072)
 
 
 #### Arguments
@@ -917,7 +918,7 @@ ALIAS OF dieObject() - Display an error with detailed object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1077
+* This method is defined in [classes/Tools.php line 1077](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1077)
 
 
 #### Arguments
@@ -936,7 +937,7 @@ ALIAS OF dieObject() - Display an error with detailed object but don't stop the 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1110
+* This method is defined in [classes/Tools.php line 1110](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1110)
 
 
 #### Arguments
@@ -954,7 +955,7 @@ Prints object information into error log
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1125
+* This method is defined in [classes/Tools.php line 1125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1125)
 
 
 #### Arguments
@@ -975,7 +976,7 @@ Check if submit has been posted
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1135
+* This method is defined in [classes/Tools.php line 1135](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1135)
 
 
 #### Arguments
@@ -993,7 +994,7 @@ Check if submit has been posted
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1146
+* This method is defined in [classes/Tools.php line 1146](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1146)
 
 
 #### Arguments
@@ -1013,7 +1014,7 @@ Check if submit has been posted
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1155
+* This method is defined in [classes/Tools.php line 1155](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1155)
 
 
 #### Arguments
@@ -1032,7 +1033,7 @@ Check if submit has been posted
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1164
+* This method is defined in [classes/Tools.php line 1164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1164)
 
 
 #### Arguments
@@ -1052,7 +1053,7 @@ Encrypt password
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1175
+* This method is defined in [classes/Tools.php line 1175](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1175)
 
 
 #### Arguments
@@ -1070,7 +1071,7 @@ Encrypt data string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1185
+* This method is defined in [classes/Tools.php line 1185](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1185)
 
 
 #### Arguments
@@ -1088,7 +1089,7 @@ Get token to prevent CSRF
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1195
+* This method is defined in [classes/Tools.php line 1195](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1195)
 
 
 #### Arguments
@@ -1107,7 +1108,7 @@ Tokenize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1212
+* This method is defined in [classes/Tools.php line 1212](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1212)
 
 
 #### Arguments
@@ -1125,7 +1126,7 @@ Tokenize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1217
+* This method is defined in [classes/Tools.php line 1217](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1217)
 
 
 #### Arguments
@@ -1144,7 +1145,7 @@ Tokenize a string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1225
+* This method is defined in [classes/Tools.php line 1225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1225)
 
 
 #### Arguments
@@ -1163,7 +1164,7 @@ Get a valid URL to use from BackOffice
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1237
+* This method is defined in [classes/Tools.php line 1237](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1237)
 
 
 #### Arguments
@@ -1182,7 +1183,7 @@ Get a valid image URL to use from BackOffice
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1254
+* This method is defined in [classes/Tools.php line 1254](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1254)
 
 
 #### Arguments
@@ -1201,7 +1202,7 @@ Get the user's journey
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1267
+* This method is defined in [classes/Tools.php line 1267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1267)
 
 
 #### Arguments
@@ -1223,7 +1224,7 @@ Get the user's journey
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1335
+* This method is defined in [classes/Tools.php line 1335](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1335)
 
 
 #### Arguments
@@ -1244,7 +1245,7 @@ Return the friendly url from the provided string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1369
+* This method is defined in [classes/Tools.php line 1369](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1369)
 
 
 #### Arguments
@@ -1264,7 +1265,7 @@ If the mbstring library is available, the output is the same as the js function 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1384
+* This method is defined in [classes/Tools.php line 1384](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1384)
 
 
 #### Arguments
@@ -1282,7 +1283,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1445
+* This method is defined in [classes/Tools.php line 1445](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1445)
 
 
 #### Arguments
@@ -1300,7 +1301,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1553
+* This method is defined in [classes/Tools.php line 1553](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1553)
 
 
 #### Arguments
@@ -1320,7 +1321,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1563
+* This method is defined in [classes/Tools.php line 1563](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1563)
 
 
 #### Arguments
@@ -1340,7 +1341,7 @@ Replace all accented chars by their equivalent non accented chars.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1680
+* This method is defined in [classes/Tools.php line 1680](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1680)
 
 
 #### Arguments
@@ -1358,7 +1359,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1694
+* This method is defined in [classes/Tools.php line 1694](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1694)
 
 
 
@@ -1373,7 +1374,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1703
+* This method is defined in [classes/Tools.php line 1703](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1703)
 
 
 
@@ -1388,7 +1389,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1712
+* This method is defined in [classes/Tools.php line 1712](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1712)
 
 
 
@@ -1403,7 +1404,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1721
+* This method is defined in [classes/Tools.php line 1721](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1721)
 
 
 #### Arguments
@@ -1423,7 +1424,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1726
+* This method is defined in [classes/Tools.php line 1726](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1726)
 
 
 #### Arguments
@@ -1441,7 +1442,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1735
+* This method is defined in [classes/Tools.php line 1735](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1735)
 
 
 #### Arguments
@@ -1459,7 +1460,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1744
+* This method is defined in [classes/Tools.php line 1744](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1744)
 
 
 #### Arguments
@@ -1477,7 +1478,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1755
+* This method is defined in [classes/Tools.php line 1755](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1755)
 
 
 #### Arguments
@@ -1496,7 +1497,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1767
+* This method is defined in [classes/Tools.php line 1767](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1767)
 
 
 #### Arguments
@@ -1514,7 +1515,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1775
+* This method is defined in [classes/Tools.php line 1775](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1775)
 
 
 #### Arguments
@@ -1532,7 +1533,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1786
+* This method is defined in [classes/Tools.php line 1786](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1786)
 
 
 #### Arguments
@@ -1553,7 +1554,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1797
+* This method is defined in [classes/Tools.php line 1797](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1797)
 
 
 #### Arguments
@@ -1574,7 +1575,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1805
+* This method is defined in [classes/Tools.php line 1805](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1805)
 
 
 #### Arguments
@@ -1595,7 +1596,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1813
+* This method is defined in [classes/Tools.php line 1813](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1813)
 
 
 #### Arguments
@@ -1613,7 +1614,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1818
+* This method is defined in [classes/Tools.php line 1818](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1818)
 
 
 #### Arguments
@@ -1631,7 +1632,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1826
+* This method is defined in [classes/Tools.php line 1826](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1826)
 
 
 #### Arguments
@@ -1650,7 +1651,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1844
+* This method is defined in [classes/Tools.php line 1844](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1844)
 
 
 #### Arguments
@@ -1670,7 +1671,7 @@ Generate date form
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1852
+* This method is defined in [classes/Tools.php line 1852](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1852)
 
 
 #### Arguments
@@ -1688,7 +1689,7 @@ returns the rounded value of $value to specified precision, according to your co
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1866
+* This method is defined in [classes/Tools.php line 1866](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1866)
 
 
 #### Arguments
@@ -1708,7 +1709,7 @@ returns the rounded value of $value to specified precision, according to your co
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1891
+* This method is defined in [classes/Tools.php line 1891](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1891)
 
 
 #### Arguments
@@ -1728,7 +1729,7 @@ returns the rounded value of $value to specified precision, according to your co
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1949
+* This method is defined in [classes/Tools.php line 1949](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1949)
 
 
 #### Arguments
@@ -1747,7 +1748,7 @@ returns the rounded value up of $value to specified precision
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 1979
+* This method is defined in [classes/Tools.php line 1979](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#1979)
 
 
 #### Arguments
@@ -1766,7 +1767,7 @@ returns the rounded value down of $value to specified precision
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2001
+* This method is defined in [classes/Tools.php line 2001](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2001)
 
 
 #### Arguments
@@ -1785,7 +1786,7 @@ file_exists() wrapper with cache to speedup performance
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2022
+* This method is defined in [classes/Tools.php line 2022](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2022)
 
 
 #### Arguments
@@ -1803,7 +1804,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2036
+* This method is defined in [classes/Tools.php line 2036](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2036)
 
 
 #### Arguments
@@ -1821,7 +1822,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2042
+* This method is defined in [classes/Tools.php line 2042](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2042)
 
 
 #### Arguments
@@ -1842,7 +1843,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2074
+* This method is defined in [classes/Tools.php line 2074](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2074)
 
 
 #### Arguments
@@ -1861,7 +1862,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2085
+* This method is defined in [classes/Tools.php line 2085](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2085)
 
 
 #### Arguments
@@ -1881,7 +1882,7 @@ file_exists() wrapper with a call to clearstatcache prior
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2096
+* This method is defined in [classes/Tools.php line 2096](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2096)
 
 
 #### Arguments
@@ -1899,7 +1900,7 @@ Translates a string with underscores into camel case (e.g. first_name -> firstNa
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2106
+* This method is defined in [classes/Tools.php line 2106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2106)
 
 
 #### Arguments
@@ -1918,7 +1919,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2121
+* This method is defined in [classes/Tools.php line 2121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2121)
 
 
 #### Arguments
@@ -1936,7 +1937,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2128
+* This method is defined in [classes/Tools.php line 2128](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2128)
 
 
 #### Arguments
@@ -1954,7 +1955,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2149
+* This method is defined in [classes/Tools.php line 2149](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2149)
 
 
 #### Arguments
@@ -1972,7 +1973,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2158
+* This method is defined in [classes/Tools.php line 2158](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2158)
 
 
 #### Arguments
@@ -1990,7 +1991,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2167
+* This method is defined in [classes/Tools.php line 2167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2167)
 
 
 #### Arguments
@@ -2008,7 +2009,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2176
+* This method is defined in [classes/Tools.php line 2176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2176)
 
 
 #### Arguments
@@ -2026,7 +2027,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2183
+* This method is defined in [classes/Tools.php line 2183](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2183)
 
 
 #### Arguments
@@ -2044,7 +2045,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2196
+* This method is defined in [classes/Tools.php line 2196](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2196)
 
 
 #### Arguments
@@ -2063,7 +2064,7 @@ Transform a CamelCase string to underscore_case string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2202
+* This method is defined in [classes/Tools.php line 2202](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2202)
 
 
 #### Arguments
@@ -2081,7 +2082,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2215
+* This method is defined in [classes/Tools.php line 2215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2215)
 
 
 #### Arguments
@@ -2099,7 +2100,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2225
+* This method is defined in [classes/Tools.php line 2225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2225)
 
 
 #### Arguments
@@ -2118,7 +2119,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2235
+* This method is defined in [classes/Tools.php line 2235](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2235)
 
 
 #### Arguments
@@ -2136,7 +2137,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2245
+* This method is defined in [classes/Tools.php line 2245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2245)
 
 
 #### Arguments
@@ -2154,7 +2155,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2253
+* This method is defined in [classes/Tools.php line 2253](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2253)
 
 
 #### Arguments
@@ -2172,7 +2173,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2274
+* This method is defined in [classes/Tools.php line 2274](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2274)
 
 
 #### Arguments
@@ -2196,7 +2197,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2572
+* This method is defined in [classes/Tools.php line 2572](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2572)
 
 
 
@@ -2211,7 +2212,7 @@ addJS load a javascript file in the header
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2580
+* This method is defined in [classes/Tools.php line 2580](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2580)
 
 
 
@@ -2226,7 +2227,7 @@ jsonDecode convert json string to php array / object
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2627
+* This method is defined in [classes/Tools.php line 2627](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2627)
 
 
 #### Arguments
@@ -2245,7 +2246,7 @@ Convert an array to json string
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2644
+* This method is defined in [classes/Tools.php line 2644](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2644)
 
 
 #### Arguments
@@ -2263,7 +2264,7 @@ Display a warning message indicating that the method is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2658
+* This method is defined in [classes/Tools.php line 2658](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2658)
 
 
 #### Arguments
@@ -2281,7 +2282,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2674
+* This method is defined in [classes/Tools.php line 2674](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2674)
 
 
 #### Arguments
@@ -2299,7 +2300,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2685
+* This method is defined in [classes/Tools.php line 2685](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2685)
 
 
 
@@ -2314,7 +2315,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2696
+* This method is defined in [classes/Tools.php line 2696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2696)
 
 
 #### Arguments
@@ -2334,7 +2335,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2704
+* This method is defined in [classes/Tools.php line 2704](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2704)
 
 
 #### Arguments
@@ -2353,7 +2354,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2723
+* This method is defined in [classes/Tools.php line 2723](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2723)
 
 
 #### Arguments
@@ -2371,7 +2372,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2737
+* This method is defined in [classes/Tools.php line 2737](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2737)
 
 
 #### Arguments
@@ -2389,7 +2390,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2743
+* This method is defined in [classes/Tools.php line 2743](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2743)
 
 
 #### Arguments
@@ -2408,7 +2409,7 @@ Display a warning message indicating that the parameter is deprecated
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2752
+* This method is defined in [classes/Tools.php line 2752](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2752)
 
 
 #### Arguments
@@ -2428,7 +2429,7 @@ Function property_exists does not exist in PHP < 5.1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2772
+* This method is defined in [classes/Tools.php line 2772](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2772)
 
 
 #### Arguments
@@ -2447,7 +2448,7 @@ Function property_exists does not exist in PHP < 5.1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2793
+* This method is defined in [classes/Tools.php line 2793](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2793)
 
 
 
@@ -2462,7 +2463,7 @@ Function property_exists does not exist in PHP < 5.1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2815
+* This method is defined in [classes/Tools.php line 2815](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2815)
 
 
 #### Arguments
@@ -2480,7 +2481,7 @@ Function property_exists does not exist in PHP < 5.1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2827
+* This method is defined in [classes/Tools.php line 2827](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2827)
 
 
 
@@ -2495,7 +2496,7 @@ Function property_exists does not exist in PHP < 5.1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2839
+* This method is defined in [classes/Tools.php line 2839](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2839)
 
 
 #### Arguments
@@ -2514,7 +2515,7 @@ Function property_exists does not exist in PHP < 5.1
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2863
+* This method is defined in [classes/Tools.php line 2863](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2863)
 
 
 #### Arguments
@@ -2533,7 +2534,7 @@ Get products order field name for queries.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2898
+* This method is defined in [classes/Tools.php line 2898](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2898)
 
 
 #### Arguments
@@ -2553,7 +2554,7 @@ Convert a shorthand byte value from a PHP configuration directive to an integer 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2935
+* This method is defined in [classes/Tools.php line 2935](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2935)
 
 
 #### Arguments
@@ -2571,7 +2572,7 @@ Convert a shorthand byte value from a PHP configuration directive to an integer 
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2961
+* This method is defined in [classes/Tools.php line 2961](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2961)
 
 
 
@@ -2586,7 +2587,7 @@ Concat $begin and $end, add ? or & between strings
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2977
+* This method is defined in [classes/Tools.php line 2977](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2977)
 
 
 #### Arguments
@@ -2605,7 +2606,7 @@ Display error and dies or silently log the error.
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 2989
+* This method is defined in [classes/Tools.php line 2989](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#2989)
 
 
 #### Arguments
@@ -2624,7 +2625,7 @@ Convert \n and \r\n and \r to <br />
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3003
+* This method is defined in [classes/Tools.php line 3003](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3003)
 
 
 #### Arguments
@@ -2642,7 +2643,7 @@ Clear cache for Smarty
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3013
+* This method is defined in [classes/Tools.php line 3013](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3013)
 
 
 #### Arguments
@@ -2663,7 +2664,7 @@ Clear compile for Smarty
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3033
+* This method is defined in [classes/Tools.php line 3033](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3033)
 
 
 #### Arguments
@@ -2681,7 +2682,7 @@ Clear Smarty cache and compile folders
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3049
+* This method is defined in [classes/Tools.php line 3049](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3049)
 
 
 
@@ -2696,7 +2697,7 @@ Clear Smarty cache and compile folders
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3056
+* This method is defined in [classes/Tools.php line 3056](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3056)
 
 
 #### Arguments
@@ -2714,7 +2715,7 @@ getMemoryLimit allow to get the memory limit in octet
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3072
+* This method is defined in [classes/Tools.php line 3072](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3072)
 
 
 
@@ -2729,7 +2730,7 @@ getOctet allow to gets the value of a configuration option in octet
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3085
+* This method is defined in [classes/Tools.php line 3085](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3085)
 
 
 #### Arguments
@@ -2747,7 +2748,7 @@ getOctet allow to gets the value of a configuration option in octet
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3106
+* This method is defined in [classes/Tools.php line 3106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3106)
 
 
 
@@ -2762,7 +2763,7 @@ getOctet allow to gets the value of a configuration option in octet
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3115
+* This method is defined in [classes/Tools.php line 3115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3115)
 
 
 
@@ -2777,7 +2778,7 @@ getOctet allow to gets the value of a configuration option in octet
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3120
+* This method is defined in [classes/Tools.php line 3120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3120)
 
 
 #### Arguments
@@ -2796,7 +2797,7 @@ Get max file upload size considering server settings and optional max value
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3141
+* This method is defined in [classes/Tools.php line 3141](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3141)
 
 
 #### Arguments
@@ -2814,7 +2815,7 @@ apacheModExists return true if the apache module $name is loaded
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3164
+* This method is defined in [classes/Tools.php line 3164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3164)
 
 
 #### Arguments
@@ -2832,7 +2833,7 @@ Copy the folder $src into $dst, $dst is created if it do not exist
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3189
+* This method is defined in [classes/Tools.php line 3189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3189)
 
 
 #### Arguments
@@ -2852,7 +2853,7 @@ Copy the folder $src into $dst, $dst is created if it do not exist
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3225
+* This method is defined in [classes/Tools.php line 3225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3225)
 
 
 #### Arguments
@@ -2873,7 +2874,7 @@ Align version sent and use internal function
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3266
+* This method is defined in [classes/Tools.php line 3266](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3266)
 
 
 #### Arguments
@@ -2895,7 +2896,7 @@ version_compare will work better for its comparison :)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3280
+* This method is defined in [classes/Tools.php line 3280](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3280)
 
 
 #### Arguments
@@ -2914,7 +2915,7 @@ version_compare will work better for its comparison :)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3300
+* This method is defined in [classes/Tools.php line 3300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3300)
 
 
 
@@ -2929,7 +2930,7 @@ version_compare will work better for its comparison :)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3311
+* This method is defined in [classes/Tools.php line 3311](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3311)
 
 
 #### Arguments
@@ -2948,7 +2949,7 @@ Reproduce array_unique working before php version 5.2.9
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3325
+* This method is defined in [classes/Tools.php line 3325](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3325)
 
 
 #### Arguments
@@ -2966,7 +2967,7 @@ Delete unicode class from regular expression patterns
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3339
+* This method is defined in [classes/Tools.php line 3339](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3339)
 
 
 #### Arguments
@@ -2984,7 +2985,7 @@ Delete unicode class from regular expression patterns
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3348
+* This method is defined in [classes/Tools.php line 3348](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3348)
 
 
 #### Arguments
@@ -3004,7 +3005,7 @@ HTTP file upload variable ($_FILES)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3448
+* This method is defined in [classes/Tools.php line 3448](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3448)
 
 
 #### Arguments
@@ -3023,7 +3024,7 @@ HTTP file upload variable ($_FILES)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3466
+* This method is defined in [classes/Tools.php line 3466](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3466)
 
 
 #### Arguments
@@ -3041,7 +3042,7 @@ HTTP file upload variable ($_FILES)
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3471
+* This method is defined in [classes/Tools.php line 3471](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3471)
 
 
 #### Arguments
@@ -3060,7 +3061,7 @@ Delete a substring from another one starting from the right
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3497
+* This method is defined in [classes/Tools.php line 3497](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3497)
 
 
 #### Arguments
@@ -3080,7 +3081,7 @@ e.g. 24962496 => 23.81M
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3514
+* This method is defined in [classes/Tools.php line 3514](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3514)
 
 
 #### Arguments
@@ -3099,7 +3100,7 @@ e.g. 24962496 => 23.81M
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3525
+* This method is defined in [classes/Tools.php line 3525](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3525)
 
 
 #### Arguments
@@ -3117,7 +3118,7 @@ e.g. 24962496 => 23.81M
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3533
+* This method is defined in [classes/Tools.php line 3533](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3533)
 
 
 
@@ -3132,7 +3133,7 @@ e.g. 24962496 => 23.81M
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3553
+* This method is defined in [classes/Tools.php line 3553](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3553)
 
 
 
@@ -3147,7 +3148,7 @@ Allows to display the category description without HTML tags and slashes
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3583
+* This method is defined in [classes/Tools.php line 3583](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3583)
 
 
 #### Arguments
@@ -3165,7 +3166,7 @@ Allows to display the category description without HTML tags and slashes
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3588
+* This method is defined in [classes/Tools.php line 3588](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3588)
 
 
 #### Arguments
@@ -3185,7 +3186,7 @@ Check if a constant was already defined
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3665
+* This method is defined in [classes/Tools.php line 3665](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3665)
 
 
 #### Arguments
@@ -3212,7 +3213,7 @@ spreadAmount(0.3, 1, $rows, 'a');
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3693
+* This method is defined in [classes/Tools.php line 3693](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3693)
 
 
 #### Arguments
@@ -3236,7 +3237,7 @@ Replaces elements from passed arrays into the first array recursively
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Tools.php line 3731
+* This method is defined in [classes/Tools.php line 3731](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#3731)
 
 
 #### Arguments

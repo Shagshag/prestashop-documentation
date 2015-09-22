@@ -9,7 +9,8 @@ AdminStockManagementControllerCore
 * Class name: AdminStockManagementControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminStockManagementController.php line 31
+
+* This class is defined in [controllers/admin/AdminStockManagementController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#31)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminStockManagementController.php line 31
+* This property is defined in [controllers/admin/AdminStockManagementController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#31)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 33
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#33)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 80
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 80](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#80)
 
 
 
@@ -72,7 +73,7 @@ AdminController::renderList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 97
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#97)
 
 
 
@@ -86,7 +87,7 @@ AdminController::renderForm() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 134
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 134](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#134)
 
 
 
@@ -100,7 +101,7 @@ AdminController::postProcess() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 544
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 544](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#544)
 
 
 
@@ -114,7 +115,7 @@ assign default action in toolbar_btn smarty var, if they are not set.
 uses override to specifically add, modify or remove items
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 755
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 755](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#755)
 
 
 
@@ -128,7 +129,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 792
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 792](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#792)
 
 
 
@@ -142,7 +143,7 @@ AdminController::init() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 812
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 812](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#812)
 
 
 
@@ -156,7 +157,7 @@ AdminController::getList() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 895
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 895](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#895)
 
 
 #### Arguments
@@ -179,7 +180,7 @@ and manage available actions in consequence
 
 
 * Visibility: **protected**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 952
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 952](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#952)
 
 
 #### Arguments
@@ -197,7 +198,7 @@ AdminController::initContent() override
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 977
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 977](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#977)
 
 
 
@@ -211,7 +212,7 @@ Display addstock action link
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 1117
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 1117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#1117)
 
 
 #### Arguments
@@ -229,7 +230,7 @@ Display removestock action link
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 1139
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 1139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#1139)
 
 
 #### Arguments
@@ -247,7 +248,7 @@ Display transferstock action link
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 1161
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 1161](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#1161)
 
 
 #### Arguments
@@ -265,7 +266,7 @@ Display transferstock action link
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminStockManagementController.php line 1177
+* This method is defined in [controllers/admin/AdminStockManagementController.php line 1177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#1177)
 
 
 

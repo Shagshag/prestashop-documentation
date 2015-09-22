@@ -9,7 +9,8 @@ AdminTaxesControllerCore
 * Class name: AdminTaxesControllerCore
 * Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-* This class is defined in controllers\admin\AdminTaxesController.php line 30
+
+* This class is defined in [controllers/admin/AdminTaxesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#30)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in controllers\admin\AdminTaxesController.php line 30
+* This property is defined in [controllers/admin/AdminTaxesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#30)
 
 
 Methods
@@ -44,7 +45,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTaxesController.php line 32
+* This method is defined in [controllers/admin/AdminTaxesController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#32)
 
 
 
@@ -58,7 +59,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTaxesController.php line 117
+* This method is defined in [controllers/admin/AdminTaxesController.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#117)
 
 
 
@@ -72,7 +73,7 @@ Display delete action link
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTaxesController.php line 140
+* This method is defined in [controllers/admin/AdminTaxesController.php line 140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#140)
 
 
 #### Arguments
@@ -90,7 +91,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTaxesController.php line 173
+* This method is defined in [controllers/admin/AdminTaxesController.php line 173](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#173)
 
 
 #### Arguments
@@ -112,7 +113,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTaxesController.php line 189
+* This method is defined in [controllers/admin/AdminTaxesController.php line 189](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#189)
 
 
 
@@ -126,7 +127,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTaxesController.php line 241
+* This method is defined in [controllers/admin/AdminTaxesController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#241)
 
 
 
@@ -140,7 +141,7 @@ Fetch the template for action enable
 
 
 * Visibility: **public**
-* This method is defined in controllers\admin\AdminTaxesController.php line 284
+* This method is defined in [controllers/admin/AdminTaxesController.php line 284](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTaxesController.php#284)
 
 
 #### Arguments

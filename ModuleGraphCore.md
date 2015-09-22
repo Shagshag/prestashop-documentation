@@ -10,7 +10,8 @@ ModuleGraphCore
 * Namespace: 
 * This is an **abstract** class
 * Parent class: [Module](ModuleCore)
-* This class is defined in classes\module\ModuleGraph.php line 27
+
+* This class is defined in [classes/module/ModuleGraph.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#27)
 
 
 
@@ -29,7 +30,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGraph.php line 29
+* This property is defined in [classes/module/ModuleGraph.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#29)
 
 
 ### $_values
@@ -41,7 +42,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGraph.php line 32
+* This property is defined in [classes/module/ModuleGraph.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#32)
 
 
 ### $_legend
@@ -53,7 +54,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGraph.php line 35
+* This property is defined in [classes/module/ModuleGraph.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#35)
 
 
 ### $_titles
@@ -65,7 +66,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGraph.php line 38
+* This property is defined in [classes/module/ModuleGraph.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#38)
 
 
 ### $_render
@@ -77,7 +78,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\module\ModuleGraph.php line 41
+* This property is defined in [classes/module/ModuleGraph.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#41)
 
 
 Methods
@@ -94,7 +95,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **abstract**.
-* This method is defined in classes\module\ModuleGraph.php line 43
+* This method is defined in [classes/module/ModuleGraph.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#43)
 
 
 #### Arguments
@@ -111,7 +112,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGraph.php line 45
+* This method is defined in [classes/module/ModuleGraph.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#45)
 
 
 #### Arguments
@@ -128,7 +129,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGraph.php line 50
+* This method is defined in [classes/module/ModuleGraph.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#50)
 
 
 #### Arguments
@@ -145,7 +146,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\ModuleGraph.php line 55
+* This method is defined in [classes/module/ModuleGraph.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#55)
 
 
 #### Arguments
@@ -163,7 +164,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\ModuleGraph.php line 167
+* This method is defined in [classes/module/ModuleGraph.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#167)
 
 
 #### Arguments
@@ -180,7 +181,7 @@ Methods
 
 
 * Visibility: **protected**
-* This method is defined in classes\module\ModuleGraph.php line 234
+* This method is defined in [classes/module/ModuleGraph.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#234)
 
 
 
@@ -194,7 +195,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGraph.php line 245
+* This method is defined in [classes/module/ModuleGraph.php line 245](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#245)
 
 
 #### Arguments
@@ -215,7 +216,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGraph.php line 263
+* This method is defined in [classes/module/ModuleGraph.php line 263](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#263)
 
 
 
@@ -229,7 +230,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGraph.php line 271
+* This method is defined in [classes/module/ModuleGraph.php line 271](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#271)
 
 
 #### Arguments
@@ -247,7 +248,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGraph.php line 275
+* This method is defined in [classes/module/ModuleGraph.php line 275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#275)
 
 
 #### Arguments
@@ -265,7 +266,7 @@ Methods
 
 * Visibility: **protected**
 * This method is **static**.
-* This method is defined in classes\module\ModuleGraph.php line 315
+* This method is defined in [classes/module/ModuleGraph.php line 315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#315)
 
 
 #### Arguments
@@ -283,7 +284,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGraph.php line 340
+* This method is defined in [classes/module/ModuleGraph.php line 340](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#340)
 
 
 
@@ -298,7 +299,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\module\ModuleGraph.php line 345
+* This method is defined in [classes/module/ModuleGraph.php line 345](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#345)
 
 
 #### Arguments
@@ -315,7 +316,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\module\ModuleGraph.php line 353
+* This method is defined in [classes/module/ModuleGraph.php line 353](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/module/ModuleGraph.php#353)
 
 
 

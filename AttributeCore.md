@@ -9,7 +9,8 @@ AttributeCore
 * Class name: AttributeCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\Attribute.php line 27
+
+* This class is defined in [classes/Attribute.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Attribute.php line 30
+* This property is defined in [classes/Attribute.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#30)
 
 
 ### $name
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Attribute.php line 33
+* This property is defined in [classes/Attribute.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#33)
 
 
 ### $color
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Attribute.php line 34
+* This property is defined in [classes/Attribute.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#34)
 
 
 ### $position
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Attribute.php line 35
+* This property is defined in [classes/Attribute.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#35)
 
 
 ### $default
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\Attribute.php line 36
+* This property is defined in [classes/Attribute.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#36)
 
 
 ### $definition
@@ -89,7 +90,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\Attribute.php line 41
+* This property is defined in [classes/Attribute.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#41)
 
 
 ### $image_dir
@@ -101,7 +102,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Attribute.php line 56
+* This property is defined in [classes/Attribute.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#56)
 
 
 ### $webserviceParameters
@@ -113,7 +114,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\Attribute.php line 58
+* This property is defined in [classes/Attribute.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#58)
 
 
 Methods
@@ -129,7 +130,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Attribute.php line 66
+* This method is defined in [classes/Attribute.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#66)
 
 
 #### Arguments
@@ -148,7 +149,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Attribute.php line 73
+* This method is defined in [classes/Attribute.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#73)
 
 
 
@@ -162,7 +163,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Attribute.php line 114
+* This method is defined in [classes/Attribute.php line 114](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#114)
 
 
 #### Arguments
@@ -179,7 +180,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\Attribute.php line 125
+* This method is defined in [classes/Attribute.php line 125](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#125)
 
 
 #### Arguments
@@ -198,7 +199,7 @@ Get all attributes for a given language
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Attribute.php line 147
+* This method is defined in [classes/Attribute.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#147)
 
 
 #### Arguments
@@ -217,7 +218,7 @@ Get all attributes for a given language
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Attribute.php line 169
+* This method is defined in [classes/Attribute.php line 169](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#169)
 
 
 #### Arguments
@@ -238,7 +239,7 @@ Check if quantity is enough to deserve customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Attribute.php line 201
+* This method is defined in [classes/Attribute.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#201)
 
 
 #### Arguments
@@ -258,7 +259,7 @@ Check if quantity is enough to deserve customer
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Attribute.php line 215
+* This method is defined in [classes/Attribute.php line 215](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#215)
 
 
 #### Arguments
@@ -276,7 +277,7 @@ Update array with veritable quantity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Attribute.php line 229
+* This method is defined in [classes/Attribute.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#229)
 
 
 #### Arguments
@@ -293,7 +294,7 @@ Return true if attribute is color type
 
 
 * Visibility: **public**
-* This method is defined in classes\Attribute.php line 250
+* This method is defined in [classes/Attribute.php line 250](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#250)
 
 
 
@@ -308,7 +309,7 @@ Get minimal quantity for product with attributes quantity
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Attribute.php line 273
+* This method is defined in [classes/Attribute.php line 273](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#273)
 
 
 #### Arguments
@@ -325,7 +326,7 @@ Move an attribute inside its group
 
 
 * Visibility: **public**
-* This method is defined in classes\Attribute.php line 295
+* This method is defined in [classes/Attribute.php line 295](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#295)
 
 
 #### Arguments
@@ -343,7 +344,7 @@ Reorder attribute position in group $id_attribute_group.
 Call it after deleting an attribute from a group.
 
 * Visibility: **public**
-* This method is defined in classes\Attribute.php line 352
+* This method is defined in [classes/Attribute.php line 352](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#352)
 
 
 #### Arguments
@@ -362,7 +363,7 @@ Get the higher attribute position from a group attribute
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\Attribute.php line 374
+* This method is defined in [classes/Attribute.php line 374](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#374)
 
 
 #### Arguments

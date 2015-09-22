@@ -9,7 +9,8 @@ OrderCore
 * Class name: OrderCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\order\Order.php line 27
+
+* This class is defined in [classes/order/Order.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#27)
 
 
 
@@ -23,7 +24,7 @@ Constants
 
 
 
-* This constant is defined in classes\order\Order.php line 29
+* This constant is defined in [classes/order/Order.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#29)
 
 
 ### ROUND_LINE
@@ -32,7 +33,7 @@ Constants
 
 
 
-* This constant is defined in classes\order\Order.php line 30
+* This constant is defined in [classes/order/Order.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#30)
 
 
 ### ROUND_TOTAL
@@ -41,7 +42,7 @@ Constants
 
 
 
-* This constant is defined in classes\order\Order.php line 31
+* This constant is defined in [classes/order/Order.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#31)
 
 
 Properties
@@ -57,7 +58,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 35
+* This property is defined in [classes/order/Order.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#35)
 
 
 ### $id_address_invoice
@@ -69,7 +70,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 38
+* This property is defined in [classes/order/Order.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#38)
 
 
 ### $id_shop_group
@@ -81,7 +82,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 40
+* This property is defined in [classes/order/Order.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#40)
 
 
 ### $id_shop
@@ -93,7 +94,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 42
+* This property is defined in [classes/order/Order.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#42)
 
 
 ### $id_cart
@@ -105,7 +106,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 45
+* This property is defined in [classes/order/Order.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#45)
 
 
 ### $id_currency
@@ -117,7 +118,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 48
+* This property is defined in [classes/order/Order.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#48)
 
 
 ### $id_lang
@@ -129,7 +130,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 51
+* This property is defined in [classes/order/Order.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#51)
 
 
 ### $id_customer
@@ -141,7 +142,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 54
+* This property is defined in [classes/order/Order.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#54)
 
 
 ### $id_carrier
@@ -153,7 +154,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 57
+* This property is defined in [classes/order/Order.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#57)
 
 
 ### $current_state
@@ -165,7 +166,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 60
+* This property is defined in [classes/order/Order.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#60)
 
 
 ### $secure_key
@@ -177,7 +178,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 63
+* This property is defined in [classes/order/Order.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#63)
 
 
 ### $payment
@@ -189,7 +190,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 66
+* This property is defined in [classes/order/Order.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#66)
 
 
 ### $module
@@ -201,7 +202,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 69
+* This property is defined in [classes/order/Order.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#69)
 
 
 ### $conversion_rate
@@ -213,7 +214,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 72
+* This property is defined in [classes/order/Order.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#72)
 
 
 ### $recyclable
@@ -225,7 +226,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 75
+* This property is defined in [classes/order/Order.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#75)
 
 
 ### $gift
@@ -237,7 +238,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 78
+* This property is defined in [classes/order/Order.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#78)
 
 
 ### $gift_message
@@ -249,7 +250,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 81
+* This property is defined in [classes/order/Order.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#81)
 
 
 ### $mobile_theme
@@ -261,7 +262,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 84
+* This property is defined in [classes/order/Order.php line 84](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#84)
 
 
 ### $shipping_number
@@ -273,7 +274,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 91
+* This property is defined in [classes/order/Order.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#91)
 
 
 ### $total_discounts
@@ -285,7 +286,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 94
+* This property is defined in [classes/order/Order.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#94)
 
 
 ### $total_discounts_tax_incl
@@ -297,7 +298,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 96
+* This property is defined in [classes/order/Order.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#96)
 
 
 ### $total_discounts_tax_excl
@@ -309,7 +310,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 97
+* This property is defined in [classes/order/Order.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#97)
 
 
 ### $total_paid
@@ -321,7 +322,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 100
+* This property is defined in [classes/order/Order.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#100)
 
 
 ### $total_paid_tax_incl
@@ -333,7 +334,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 103
+* This property is defined in [classes/order/Order.php line 103](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#103)
 
 
 ### $total_paid_tax_excl
@@ -345,7 +346,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 106
+* This property is defined in [classes/order/Order.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#106)
 
 
 ### $total_paid_real
@@ -357,7 +358,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 109
+* This property is defined in [classes/order/Order.php line 109](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#109)
 
 
 ### $total_products
@@ -369,7 +370,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 112
+* This property is defined in [classes/order/Order.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#112)
 
 
 ### $total_products_wt
@@ -381,7 +382,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 115
+* This property is defined in [classes/order/Order.php line 115](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#115)
 
 
 ### $total_shipping
@@ -393,7 +394,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 118
+* This property is defined in [classes/order/Order.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#118)
 
 
 ### $total_shipping_tax_incl
@@ -405,7 +406,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 121
+* This property is defined in [classes/order/Order.php line 121](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#121)
 
 
 ### $total_shipping_tax_excl
@@ -417,7 +418,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 124
+* This property is defined in [classes/order/Order.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#124)
 
 
 ### $carrier_tax_rate
@@ -429,7 +430,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 127
+* This property is defined in [classes/order/Order.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#127)
 
 
 ### $total_wrapping
@@ -441,7 +442,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 130
+* This property is defined in [classes/order/Order.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#130)
 
 
 ### $total_wrapping_tax_incl
@@ -453,7 +454,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 133
+* This property is defined in [classes/order/Order.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#133)
 
 
 ### $total_wrapping_tax_excl
@@ -465,7 +466,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 136
+* This property is defined in [classes/order/Order.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#136)
 
 
 ### $invoice_number
@@ -477,7 +478,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 139
+* This property is defined in [classes/order/Order.php line 139](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#139)
 
 
 ### $delivery_number
@@ -489,7 +490,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 142
+* This property is defined in [classes/order/Order.php line 142](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#142)
 
 
 ### $invoice_date
@@ -501,7 +502,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 145
+* This property is defined in [classes/order/Order.php line 145](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#145)
 
 
 ### $delivery_date
@@ -513,7 +514,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 148
+* This property is defined in [classes/order/Order.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#148)
 
 
 ### $valid
@@ -525,7 +526,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 151
+* This property is defined in [classes/order/Order.php line 151](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#151)
 
 
 ### $date_add
@@ -537,7 +538,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 154
+* This property is defined in [classes/order/Order.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#154)
 
 
 ### $date_upd
@@ -549,7 +550,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 157
+* This property is defined in [classes/order/Order.php line 157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#157)
 
 
 ### $reference
@@ -561,7 +562,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 162
+* This property is defined in [classes/order/Order.php line 162](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#162)
 
 
 ### $round_mode
@@ -573,7 +574,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 167
+* This property is defined in [classes/order/Order.php line 167](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#167)
 
 
 ### $round_type
@@ -585,7 +586,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\order\Order.php line 172
+* This property is defined in [classes/order/Order.php line 172](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#172)
 
 
 ### $definition
@@ -598,7 +599,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\order\Order.php line 177
+* This property is defined in [classes/order/Order.php line 177](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#177)
 
 
 ### $webserviceParameters
@@ -610,7 +611,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\order\Order.php line 229
+* This property is defined in [classes/order/Order.php line 229](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#229)
 
 
 ### $_taxCalculationMethod
@@ -622,7 +623,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\order\Order.php line 277
+* This property is defined in [classes/order/Order.php line 277](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#277)
 
 
 ### $_historyCache
@@ -635,7 +636,7 @@ Properties
 
 * Visibility: **protected**
 * This property is **static**.
-* This property is defined in classes\order\Order.php line 279
+* This property is defined in [classes/order/Order.php line 279](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#279)
 
 
 ### $cacheCustomer
@@ -647,7 +648,7 @@ used to cache order customer
 
 
 * Visibility: **protected**
-* This property is defined in classes\order\Order.php line 1048
+* This property is defined in [classes/order/Order.php line 1048](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1048)
 
 
 Methods
@@ -663,7 +664,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 281
+* This method is defined in [classes/order/Order.php line 281](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#281)
 
 
 #### Arguments
@@ -681,7 +682,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 298
+* This method is defined in [classes/order/Order.php line 298](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#298)
 
 
 
@@ -695,7 +696,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 307
+* This method is defined in [classes/order/Order.php line 307](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#307)
 
 
 #### Arguments
@@ -713,7 +714,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 315
+* This method is defined in [classes/order/Order.php line 315](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#315)
 
 
 
@@ -727,7 +728,7 @@ Does NOT delete a product but "cancel" it (which means return/refund/delete it d
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 329
+* This method is defined in [classes/order/Order.php line 329](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#329)
 
 
 #### Arguments
@@ -747,7 +748,7 @@ It's similar to Order::getProducts but with similar outputs of Cart::getProducts
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 354
+* This method is defined in [classes/order/Order.php line 354](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#354)
 
 
 
@@ -761,7 +762,7 @@ DOES delete the product
 
 
 * Visibility: **protected**
-* This method is defined in classes\order\Order.php line 390
+* This method is defined in [classes/order/Order.php line 390](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#390)
 
 
 #### Arguments
@@ -779,7 +780,7 @@ DOES delete the product
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 461
+* This method is defined in [classes/order/Order.php line 461](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#461)
 
 
 #### Arguments
@@ -798,7 +799,7 @@ Get order history
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 491
+* This method is defined in [classes/order/Order.php line 491](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#491)
 
 
 #### Arguments
@@ -818,7 +819,7 @@ Get order history
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 544
+* This method is defined in [classes/order/Order.php line 544](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#544)
 
 
 
@@ -832,7 +833,7 @@ Get order history
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 554
+* This method is defined in [classes/order/Order.php line 554](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#554)
 
 
 
@@ -848,7 +849,7 @@ This function is used in order to keep front office backward compatibility 14 ->
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 571
+* This method is defined in [classes/order/Order.php line 571](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#571)
 
 
 #### Arguments
@@ -865,7 +866,7 @@ Get order products
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 597
+* This method is defined in [classes/order/Order.php line 597](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#597)
 
 
 #### Arguments
@@ -885,7 +886,7 @@ Get order products
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 648
+* This method is defined in [classes/order/Order.php line 648](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#648)
 
 
 #### Arguments
@@ -903,7 +904,7 @@ Get order products
 
 
 * Visibility: **protected**
-* This method is defined in classes\order\Order.php line 661
+* This method is defined in [classes/order/Order.php line 661](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#661)
 
 
 #### Arguments
@@ -922,7 +923,7 @@ If advanced stock management is active, get physical stock of this product in th
 Else get the available quantity of the product in fucntion of the shop associated to the order
 
 * Visibility: **protected**
-* This method is defined in classes\order\Order.php line 680
+* This method is defined in [classes/order/Order.php line 680](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#680)
 
 
 #### Arguments
@@ -939,7 +940,7 @@ This method allow to add image information on a product detail
 
 
 * Visibility: **protected**
-* This method is defined in classes\order\Order.php line 696
+* This method is defined in [classes/order/Order.php line 696](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#696)
 
 
 #### Arguments
@@ -956,7 +957,7 @@ This method allow to add image information on a product detail
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 724
+* This method is defined in [classes/order/Order.php line 724](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#724)
 
 
 
@@ -970,7 +971,7 @@ Count virtual products in order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 734
+* This method is defined in [classes/order/Order.php line 734](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#734)
 
 
 
@@ -984,7 +985,7 @@ Check if order contains (only) virtual products
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 751
+* This method is defined in [classes/order/Order.php line 751](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#751)
 
 
 #### Arguments
@@ -1001,7 +1002,7 @@ Check if order contains (only) virtual products
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 774
+* This method is defined in [classes/order/Order.php line 774](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#774)
 
 
 #### Arguments
@@ -1018,7 +1019,7 @@ Check if order contains (only) virtual products
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 780
+* This method is defined in [classes/order/Order.php line 780](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#780)
 
 
 
@@ -1033,7 +1034,7 @@ Check if order contains (only) virtual products
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 788
+* This method is defined in [classes/order/Order.php line 788](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#788)
 
 
 #### Arguments
@@ -1051,7 +1052,7 @@ Get current order status (eg. Awaiting payment, Delivered.
 ..)
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 808
+* This method is defined in [classes/order/Order.php line 808](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#808)
 
 
 
@@ -1065,7 +1066,7 @@ Get current order status name (eg. Awaiting payment, Delivered.
 ..)
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 818
+* This method is defined in [classes/order/Order.php line 818](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#818)
 
 
 #### Arguments
@@ -1082,7 +1083,7 @@ Get current order status name (eg. Awaiting payment, Delivered.
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 827
+* This method is defined in [classes/order/Order.php line 827](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#827)
 
 
 
@@ -1096,7 +1097,7 @@ Has products returned by the merchant or by the customer?
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 835
+* This method is defined in [classes/order/Order.php line 835](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#835)
 
 
 
@@ -1110,7 +1111,7 @@ Has products returned by the merchant or by the customer?
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 847
+* This method is defined in [classes/order/Order.php line 847](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#847)
 
 
 
@@ -1124,7 +1125,7 @@ Has products returned by the merchant or by the customer?
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 852
+* This method is defined in [classes/order/Order.php line 852](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#852)
 
 
 
@@ -1138,7 +1139,7 @@ Has products returned by the merchant or by the customer?
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 857
+* This method is defined in [classes/order/Order.php line 857](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#857)
 
 
 
@@ -1152,7 +1153,7 @@ Checks if the current order status is paid and shipped
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 867
+* This method is defined in [classes/order/Order.php line 867](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#867)
 
 
 
@@ -1167,7 +1168,7 @@ Get customer orders
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 883
+* This method is defined in [classes/order/Order.php line 883](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#883)
 
 
 #### Arguments
@@ -1187,7 +1188,7 @@ Get customer orders
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 916
+* This method is defined in [classes/order/Order.php line 916](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#916)
 
 
 #### Arguments
@@ -1208,7 +1209,7 @@ Get customer orders
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 933
+* This method is defined in [classes/order/Order.php line 933](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#933)
 
 
 #### Arguments
@@ -1227,7 +1228,7 @@ Get customer orders
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 965
+* This method is defined in [classes/order/Order.php line 965](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#965)
 
 
 #### Arguments
@@ -1248,7 +1249,7 @@ Get customer orders
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 990
+* This method is defined in [classes/order/Order.php line 990](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#990)
 
 
 #### Arguments
@@ -1265,7 +1266,7 @@ Get product total without taxes
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1012
+* This method is defined in [classes/order/Order.php line 1012](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1012)
 
 
 #### Arguments
@@ -1282,7 +1283,7 @@ Get product total with taxes
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1022
+* This method is defined in [classes/order/Order.php line 1022](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1022)
 
 
 #### Arguments
@@ -1299,7 +1300,7 @@ Get order customer
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1055
+* This method is defined in [classes/order/Order.php line 1055](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1055)
 
 
 
@@ -1314,7 +1315,7 @@ Get customer orders number
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 1070
+* This method is defined in [classes/order/Order.php line 1070](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1070)
 
 
 #### Arguments
@@ -1332,7 +1333,7 @@ Get an order by its cart id
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 1087
+* This method is defined in [classes/order/Order.php line 1087](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1087)
 
 
 #### Arguments
@@ -1349,7 +1350,7 @@ Get an order by its cart id
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1106
+* This method is defined in [classes/order/Order.php line 1106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1106)
 
 
 #### Arguments
@@ -1368,7 +1369,7 @@ Get an order by its cart id
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1120
+* This method is defined in [classes/order/Order.php line 1120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1120)
 
 
 #### Arguments
@@ -1389,7 +1390,7 @@ Get an order by its cart id
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1137
+* This method is defined in [classes/order/Order.php line 1137](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1137)
 
 
 
@@ -1403,7 +1404,7 @@ Can this order be returned by the client?
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1157
+* This method is defined in [classes/order/Order.php line 1157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1157)
 
 
 
@@ -1418,7 +1419,7 @@ Can this order be returned by the client?
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 1166
+* This method is defined in [classes/order/Order.php line 1166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1166)
 
 
 
@@ -1433,7 +1434,7 @@ Can this order be returned by the client?
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 1174
+* This method is defined in [classes/order/Order.php line 1174](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1174)
 
 
 #### Arguments
@@ -1451,7 +1452,7 @@ Can this order be returned by the client?
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1200
+* This method is defined in [classes/order/Order.php line 1200](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1200)
 
 
 #### Arguments
@@ -1468,7 +1469,7 @@ This method allows to generate first invoice of the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1216
+* This method is defined in [classes/order/Order.php line 1216](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1216)
 
 
 #### Arguments
@@ -1485,7 +1486,7 @@ This method allows to fulfill the object order_invoice with sales figures
 
 
 * Visibility: **protected**
-* This method is defined in classes\order\Order.php line 1312
+* This method is defined in [classes/order/Order.php line 1312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1312)
 
 
 #### Arguments
@@ -1502,7 +1503,7 @@ This method allows to generate first delivery slip of the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1362
+* This method is defined in [classes/order/Order.php line 1362](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1362)
 
 
 
@@ -1516,7 +1517,7 @@ This method allows to generate first delivery slip of the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1375
+* This method is defined in [classes/order/Order.php line 1375](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1375)
 
 
 #### Arguments
@@ -1534,7 +1535,7 @@ This method allows to generate first delivery slip of the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1403
+* This method is defined in [classes/order/Order.php line 1403](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1403)
 
 
 #### Arguments
@@ -1551,7 +1552,7 @@ This method allows to generate first delivery slip of the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1416
+* This method is defined in [classes/order/Order.php line 1416](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1416)
 
 
 
@@ -1566,7 +1567,7 @@ This method allows to generate first delivery slip of the current order
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 1442
+* This method is defined in [classes/order/Order.php line 1442](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1442)
 
 
 #### Arguments
@@ -1584,7 +1585,7 @@ Get a collection of orders using reference
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 1460
+* This method is defined in [classes/order/Order.php line 1460](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1460)
 
 
 #### Arguments
@@ -1601,7 +1602,7 @@ Get a collection of orders using reference
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1467
+* This method is defined in [classes/order/Order.php line 1467](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1467)
 
 
 
@@ -1616,7 +1617,7 @@ Get a collection of orders using reference
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 1481
+* This method is defined in [classes/order/Order.php line 1481](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1481)
 
 
 #### Arguments
@@ -1633,7 +1634,7 @@ Get a collection of orders using reference
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1490
+* This method is defined in [classes/order/Order.php line 1490](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1490)
 
 
 #### Arguments
@@ -1651,7 +1652,7 @@ Get a collection of orders using reference
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 1510
+* This method is defined in [classes/order/Order.php line 1510](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1510)
 
 
 #### Arguments
@@ -1669,7 +1670,7 @@ Get a collection of orders using reference
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1519
+* This method is defined in [classes/order/Order.php line 1519](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1519)
 
 
 
@@ -1683,7 +1684,7 @@ Set current order status
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1545
+* This method is defined in [classes/order/Order.php line 1545](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1545)
 
 
 #### Arguments
@@ -1701,7 +1702,7 @@ Set current order status
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1567
+* This method is defined in [classes/order/Order.php line 1567](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1567)
 
 
 #### Arguments
@@ -1719,7 +1720,7 @@ Set current order status
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1577
+* This method is defined in [classes/order/Order.php line 1577](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1577)
 
 
 
@@ -1733,7 +1734,7 @@ This method return the ID of the previous order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1589
+* This method is defined in [classes/order/Order.php line 1589](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1589)
 
 
 
@@ -1747,7 +1748,7 @@ This method return the ID of the next order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1604
+* This method is defined in [classes/order/Order.php line 1604](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1604)
 
 
 
@@ -1761,7 +1762,7 @@ Get the an order detail list of the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1618
+* This method is defined in [classes/order/Order.php line 1618](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1618)
 
 
 
@@ -1777,7 +1778,7 @@ This references, is usefull for check payment
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 1629
+* This method is defined in [classes/order/Order.php line 1629](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1629)
 
 
 
@@ -1791,7 +1792,7 @@ This references, is usefull for check payment
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1634
+* This method is defined in [classes/order/Order.php line 1634](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1634)
 
 
 #### Arguments
@@ -1809,7 +1810,7 @@ One After Another tax computation method.
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1651
+* This method is defined in [classes/order/Order.php line 1651](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1651)
 
 
 
@@ -1823,7 +1824,7 @@ This method allows to get all Order Payment for the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1668
+* This method is defined in [classes/order/Order.php line 1668](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1668)
 
 
 
@@ -1837,7 +1838,7 @@ This method allows to add a payment to the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1687
+* This method is defined in [classes/order/Order.php line 1687](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1687)
 
 
 #### Arguments
@@ -1859,7 +1860,7 @@ Returns the correct product taxes breakdown.
 Get all documents linked to the current order
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1739
+* This method is defined in [classes/order/Order.php line 1739](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1739)
 
 
 
@@ -1873,7 +1874,7 @@ Get all documents linked to the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1764
+* This method is defined in [classes/order/Order.php line 1764](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1764)
 
 
 
@@ -1887,7 +1888,7 @@ Get all documents linked to the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1773
+* This method is defined in [classes/order/Order.php line 1773](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1773)
 
 
 
@@ -1901,7 +1902,7 @@ Get all order_slips for the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1797
+* This method is defined in [classes/order/Order.php line 1797](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1797)
 
 
 
@@ -1915,7 +1916,7 @@ Get all invoices for the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1810
+* This method is defined in [classes/order/Order.php line 1810](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1810)
 
 
 
@@ -1929,7 +1930,7 @@ Get all delivery slips for the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1823
+* This method is defined in [classes/order/Order.php line 1823](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1823)
 
 
 
@@ -1943,7 +1944,7 @@ Get all not paid invoices for the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1836
+* This method is defined in [classes/order/Order.php line 1836](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1836)
 
 
 
@@ -1957,7 +1958,7 @@ Get total paid
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1856
+* This method is defined in [classes/order/Order.php line 1856](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1856)
 
 
 #### Arguments
@@ -1974,7 +1975,7 @@ Get the sum of total_paid_tax_incl of the orders with similar reference
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1888
+* This method is defined in [classes/order/Order.php line 1888](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1888)
 
 
 
@@ -1988,7 +1989,7 @@ This method allows to change the shipping cost of the current order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1905
+* This method is defined in [classes/order/Order.php line 1905](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1905)
 
 
 #### Arguments
@@ -2005,7 +2006,7 @@ Returns the correct product taxes breakdown.
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1928
+* This method is defined in [classes/order/Order.php line 1928](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1928)
 
 
 
@@ -2019,7 +2020,7 @@ Returns the shipping taxes breakdown
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 1983
+* This method is defined in [classes/order/Order.php line 1983](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#1983)
 
 
 
@@ -2033,7 +2034,7 @@ Returns the wrapping taxes breakdown
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2006
+* This method is defined in [classes/order/Order.php line 2006](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2006)
 
 
 
@@ -2047,7 +2048,7 @@ Returns the ecotax taxes breakdown
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2018
+* This method is defined in [classes/order/Order.php line 2018](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2018)
 
 
 
@@ -2061,7 +2062,7 @@ Has invoice return true if this order has already an invoice
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2032
+* This method is defined in [classes/order/Order.php line 2032](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2032)
 
 
 
@@ -2075,7 +2076,7 @@ Has Delivery return true if this order has already a delivery slip
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2047
+* This method is defined in [classes/order/Order.php line 2047](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2047)
 
 
 
@@ -2089,7 +2090,7 @@ Get warehouse associated to the order
 return array List of warehouse
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2062
+* This method is defined in [classes/order/Order.php line 2062](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2062)
 
 
 
@@ -2103,7 +2104,7 @@ return array List of warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2085
+* This method is defined in [classes/order/Order.php line 2085](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2085)
 
 
 
@@ -2117,7 +2118,7 @@ return array List of warehouse
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2096
+* This method is defined in [classes/order/Order.php line 2096](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2096)
 
 
 #### Arguments
@@ -2137,7 +2138,7 @@ Get all other orders with the same reference
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2107
+* This method is defined in [classes/order/Order.php line 2107](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2107)
 
 
 
@@ -2151,7 +2152,7 @@ Get a collection of order payments
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2120
+* This method is defined in [classes/order/Order.php line 2120](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2120)
 
 
 
@@ -2166,7 +2167,7 @@ With multishipping, order reference are the same for all orders made with the sa
 in this case this method suffix the order reference by a # and the order number
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2133
+* This method is defined in [classes/order/Order.php line 2133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2133)
 
 
 
@@ -2182,7 +2183,7 @@ in this case this method suffix the order reference by a # and the order number
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 2157
+* This method is defined in [classes/order/Order.php line 2157](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2157)
 
 
 #### Arguments
@@ -2199,7 +2200,7 @@ Return id of carrier
 Get id of the carrier used in order
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2170
+* This method is defined in [classes/order/Order.php line 2170](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2170)
 
 
 
@@ -2214,7 +2215,7 @@ Get id of the carrier used in order
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\order\Order.php line 2178
+* This method is defined in [classes/order/Order.php line 2178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2178)
 
 
 #### Arguments
@@ -2232,7 +2233,7 @@ Get id of the carrier used in order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2186
+* This method is defined in [classes/order/Order.php line 2186](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2186)
 
 
 
@@ -2246,7 +2247,7 @@ Get id of the carrier used in order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2199
+* This method is defined in [classes/order/Order.php line 2199](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2199)
 
 
 #### Arguments
@@ -2263,7 +2264,7 @@ Get id of the carrier used in order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2218
+* This method is defined in [classes/order/Order.php line 2218](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2218)
 
 
 
@@ -2277,7 +2278,7 @@ Get id of the carrier used in order
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2223
+* This method is defined in [classes/order/Order.php line 2223](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2223)
 
 
 #### Arguments
@@ -2295,7 +2296,7 @@ If you provide $limitToOrderDetails, only these item will be taken into account.
 where only sublist of the order is refunded.
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2240
+* This method is defined in [classes/order/Order.php line 2240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2240)
 
 
 #### Arguments
@@ -2319,7 +2320,7 @@ products without tax.
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2393
+* This method is defined in [classes/order/Order.php line 2393](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2393)
 
 
 
@@ -2333,7 +2334,7 @@ products without tax.
 
 
 * Visibility: **public**
-* This method is defined in classes\order\Order.php line 2419
+* This method is defined in [classes/order/Order.php line 2419](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/Order.php#2419)
 
 
 

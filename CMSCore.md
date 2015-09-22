@@ -9,7 +9,8 @@ CMSCore
 * Class name: CMSCore
 * Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-* This class is defined in classes\CMS.php line 27
+
+* This class is defined in [classes/CMS.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#27)
 
 
 
@@ -28,7 +29,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CMS.php line 30
+* This property is defined in [classes/CMS.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#30)
 
 
 ### $meta_description
@@ -40,7 +41,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CMS.php line 31
+* This property is defined in [classes/CMS.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#31)
 
 
 ### $meta_keywords
@@ -52,7 +53,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CMS.php line 32
+* This property is defined in [classes/CMS.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#32)
 
 
 ### $content
@@ -64,7 +65,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CMS.php line 33
+* This property is defined in [classes/CMS.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#33)
 
 
 ### $link_rewrite
@@ -76,7 +77,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CMS.php line 34
+* This property is defined in [classes/CMS.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#34)
 
 
 ### $id_cms_category
@@ -88,7 +89,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CMS.php line 35
+* This property is defined in [classes/CMS.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#35)
 
 
 ### $position
@@ -100,7 +101,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CMS.php line 36
+* This property is defined in [classes/CMS.php line 36](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#36)
 
 
 ### $indexation
@@ -112,7 +113,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CMS.php line 37
+* This property is defined in [classes/CMS.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#37)
 
 
 ### $active
@@ -124,7 +125,7 @@ Properties
 
 
 * Visibility: **public**
-* This property is defined in classes\CMS.php line 38
+* This property is defined in [classes/CMS.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#38)
 
 
 ### $definition
@@ -137,7 +138,7 @@ Properties
 
 * Visibility: **public**
 * This property is **static**.
-* This property is defined in classes\CMS.php line 43
+* This property is defined in [classes/CMS.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#43)
 
 
 ### $webserviceParameters
@@ -149,7 +150,7 @@ Properties
 
 
 * Visibility: **protected**
-* This property is defined in classes\CMS.php line 63
+* This property is defined in [classes/CMS.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#63)
 
 
 Methods
@@ -165,7 +166,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\CMS.php line 68
+* This method is defined in [classes/CMS.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#68)
 
 
 #### Arguments
@@ -183,7 +184,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\CMS.php line 74
+* This method is defined in [classes/CMS.php line 74](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#74)
 
 
 #### Arguments
@@ -200,7 +201,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\CMS.php line 82
+* This method is defined in [classes/CMS.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#82)
 
 
 
@@ -215,7 +216,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CMS.php line 90
+* This method is defined in [classes/CMS.php line 90](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#90)
 
 
 #### Arguments
@@ -236,7 +237,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CMS.php line 116
+* This method is defined in [classes/CMS.php line 116](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#116)
 
 
 #### Arguments
@@ -255,7 +256,7 @@ Methods
 
 
 * Visibility: **public**
-* This method is defined in classes\CMS.php line 133
+* This method is defined in [classes/CMS.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#133)
 
 
 #### Arguments
@@ -274,7 +275,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CMS.php line 171
+* This method is defined in [classes/CMS.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#171)
 
 
 #### Arguments
@@ -292,7 +293,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CMS.php line 191
+* This method is defined in [classes/CMS.php line 191](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#191)
 
 
 #### Arguments
@@ -310,7 +311,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CMS.php line 201
+* This method is defined in [classes/CMS.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#201)
 
 
 #### Arguments
@@ -331,7 +332,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CMS.php line 232
+* This method is defined in [classes/CMS.php line 232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#232)
 
 
 #### Arguments
@@ -349,7 +350,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CMS.php line 243
+* This method is defined in [classes/CMS.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#243)
 
 
 #### Arguments
@@ -369,7 +370,7 @@ Methods
 
 * Visibility: **public**
 * This method is **static**.
-* This method is defined in classes\CMS.php line 261
+* This method is defined in [classes/CMS.php line 261](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#261)
 
 
 
