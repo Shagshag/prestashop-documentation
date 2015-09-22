@@ -9,7 +9,7 @@ ITreeToolbarCore
 * Interface name: ITreeToolbarCore
 * Namespace: 
 * This is an **interface**
-* This interface is defined in [classes/tree/ITreeToolbar.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#27)
+* This interface is defined in [classes/tree/ITreeToolbar.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/ITreeToolbar.php#L27)
 
 
 

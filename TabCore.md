@@ -7,10 +7,8 @@ TabCore
 
 
 * Class name: TabCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/Tab.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#27)
+* This class is defined in [classes/Tab.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tab.php#L27)
 
 
 

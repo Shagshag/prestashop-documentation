@@ -7,10 +7,8 @@ AdminCarrierWizardControllerCore
 
 
 * Class name: AdminCarrierWizardControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminCarrierWizardController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#30)
+* This class is defined in [controllers/admin/AdminCarrierWizardController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminCarrierWizardController.php#L30)
 
 
 

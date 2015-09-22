@@ -7,10 +7,8 @@ AdminGroupsControllerCore
 
 
 * Class name: AdminGroupsControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminGroupsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#30)
+* This class is defined in [controllers/admin/AdminGroupsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminGroupsController.php#L30)
 
 
 

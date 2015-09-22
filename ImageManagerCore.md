@@ -7,9 +7,7 @@ This class includes functions for image manipulation
 
 
 * Class name: ImageManagerCore
-* Namespace: 
-
-* This class is defined in [classes/ImageManager.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageManager.php#32)
+* This class is defined in [classes/ImageManager.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageManager.php#L32)
 
 
 

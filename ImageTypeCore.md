@@ -7,10 +7,8 @@ ImageTypeCore
 
 
 * Class name: ImageTypeCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/ImageType.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#27)
+* This class is defined in [classes/ImageType.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ImageType.php#L27)
 
 
 

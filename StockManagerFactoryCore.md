@@ -7,9 +7,7 @@ StockManagerFactoryCore
 
 
 * Class name: StockManagerFactoryCore
-* Namespace: 
-
-* This class is defined in [classes/stock/StockManagerFactory.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerFactory.php#31)
+* This class is defined in [classes/stock/StockManagerFactory.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerFactory.php#L31)
 
 
 

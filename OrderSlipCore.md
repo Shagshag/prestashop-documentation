@@ -7,10 +7,8 @@ OrderSlipCore
 
 
 * Class name: OrderSlipCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/order/OrderSlip.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#27)
+* This class is defined in [classes/order/OrderSlip.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderSlip.php#L27)
 
 
 

@@ -7,10 +7,8 @@ StockMvtReasonCore
 
 
 * Class name: StockMvtReasonCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/stock/StockMvtReason.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#27)
+* This class is defined in [classes/stock/StockMvtReason.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtReason.php#L27)
 
 
 

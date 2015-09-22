@@ -10,10 +10,8 @@ needs please refer to http://doc.prestashop.com/display/PS15/Overriding+default+
 
 
 * Class name: Mail
-* Namespace: 
 * Parent class: [MailCore](MailCore)
-
-* This class is defined in [override/classes/Mail.php line 14](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#14)
+* This class is defined in [override/classes/Mail.php line 14](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/classes/Mail.php#L14)
 
 
 

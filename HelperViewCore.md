@@ -7,10 +7,8 @@ HelperViewCore
 
 
 * Class name: HelperViewCore
-* Namespace: 
 * Parent class: [Helper](HelperCore)
-
-* This class is defined in [classes/helper/HelperView.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#27)
+* This class is defined in [classes/helper/HelperView.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperView.php#L27)
 
 
 

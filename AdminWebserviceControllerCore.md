@@ -7,10 +7,8 @@ AdminWebserviceControllerCore
 
 
 * Class name: AdminWebserviceControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminWebserviceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#30)
+* This class is defined in [controllers/admin/AdminWebserviceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminWebserviceController.php#L30)
 
 
 

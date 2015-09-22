@@ -7,9 +7,7 @@ QqUploadedFileForm
 
 
 * Class name: QqUploadedFileForm
-* Namespace: 
-
-* This class is defined in [classes/FileUploader.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#95)
+* This class is defined in [classes/FileUploader.php line 95](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L95)
 
 
 

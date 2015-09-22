@@ -7,10 +7,8 @@ AdminPerformanceControllerCore
 
 
 * Class name: AdminPerformanceControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminPerformanceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#30)
+* This class is defined in [controllers/admin/AdminPerformanceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPerformanceController.php#L30)
 
 
 

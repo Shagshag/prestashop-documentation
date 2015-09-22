@@ -8,10 +8,8 @@ It is either synchronized with Stock or manualy set by the seller
 
 
 * Class name: StockAvailableCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/stock/StockAvailable.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#33)
+* This class is defined in [classes/stock/StockAvailable.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockAvailable.php#L33)
 
 
 

@@ -21,10 +21,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: WebserviceSpecificManagementImagesCore
-* Namespace: 
+* This class is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#L27)
 * This class implements: [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This class is defined in [classes/webservice/WebserviceSpecificManagementImages.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementImages.php#27)
-
 
 
 

@@ -7,9 +7,7 @@ SearchCore
 
 
 * Class name: SearchCore
-* Namespace: 
-
-* This class is defined in [classes/Search.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#94)
+* This class is defined in [classes/Search.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Search.php#L94)
 
 
 

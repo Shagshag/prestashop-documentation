@@ -21,9 +21,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: Adapter_EntityMetaDataRetriever
-* Namespace: 
-
-* This class is defined in [Adapter/Adapter_EntityMetaDataRetriever.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_EntityMetaDataRetriever.php#27)
+* This class is defined in [Adapter/Adapter_EntityMetaDataRetriever.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_EntityMetaDataRetriever.php#L27)
 
 
 

@@ -7,10 +7,8 @@ ParentOrderControllerCore
 
 
 * Class name: ParentOrderControllerCore
-* Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-
-* This class is defined in [controllers/front/ParentOrderController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#37)
+* This class is defined in [controllers/front/ParentOrderController.php line 37](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/ParentOrderController.php#L37)
 
 
 

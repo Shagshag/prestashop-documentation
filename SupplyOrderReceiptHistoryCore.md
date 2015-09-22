@@ -7,10 +7,8 @@ History of receipts
 
 
 * Class name: SupplyOrderReceiptHistoryCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/stock/SupplyOrderReceiptHistory.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#31)
+* This class is defined in [classes/stock/SupplyOrderReceiptHistory.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderReceiptHistory.php#L31)
 
 
 

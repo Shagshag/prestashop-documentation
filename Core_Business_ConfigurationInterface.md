@@ -23,7 +23,7 @@ needs please refer to http://www.prestashop.com for more information.
 * Interface name: Core_Business_ConfigurationInterface
 * Namespace: 
 * This is an **interface**
-* This interface is defined in [Core/Business/Core_Business_ConfigurationInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Core_Business_ConfigurationInterface.php#27)
+* This interface is defined in [Core/Business/Core_Business_ConfigurationInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Core_Business_ConfigurationInterface.php#L27)
 
 
 

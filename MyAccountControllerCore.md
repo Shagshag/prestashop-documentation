@@ -7,10 +7,8 @@ MyAccountControllerCore
 
 
 * Class name: MyAccountControllerCore
-* Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-
-* This class is defined in [controllers/front/MyAccountController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#27)
+* This class is defined in [controllers/front/MyAccountController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/MyAccountController.php#L27)
 
 
 

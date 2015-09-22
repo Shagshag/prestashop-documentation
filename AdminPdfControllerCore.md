@@ -7,10 +7,8 @@ AdminPdfControllerCore
 
 
 * Class name: AdminPdfControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminPdfController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#27)
+* This class is defined in [controllers/admin/AdminPdfController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPdfController.php#L27)
 
 
 

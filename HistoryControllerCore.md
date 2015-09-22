@@ -7,10 +7,8 @@ HistoryControllerCore
 
 
 * Class name: HistoryControllerCore
-* Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-
-* This class is defined in [controllers/front/HistoryController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/HistoryController.php#27)
+* This class is defined in [controllers/front/HistoryController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/HistoryController.php#L27)
 
 
 

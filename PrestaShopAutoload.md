@@ -7,9 +7,7 @@ PrestaShopAutoload
 
 
 * Class name: PrestaShopAutoload
-* Namespace: 
-
-* This class is defined in [classes/PrestaShopAutoload.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#30)
+* This class is defined in [classes/PrestaShopAutoload.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopAutoload.php#L30)
 
 
 

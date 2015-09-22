@@ -7,10 +7,8 @@ TaxRulesGroupCore
 
 
 * Class name: TaxRulesGroupCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/tax/TaxRulesGroup.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#28)
+* This class is defined in [classes/tax/TaxRulesGroup.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesGroup.php#L28)
 
 
 

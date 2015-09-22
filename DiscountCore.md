@@ -7,11 +7,9 @@ DiscountCore
 
 
 * Class name: DiscountCore
-* Namespace: 
 * Parent class: [CartRule](CartRuleCore)
-
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
-* This class is defined in [classes/Discount.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#30)
+* This class is defined in [classes/Discount.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Discount.php#L30)
 
 
 

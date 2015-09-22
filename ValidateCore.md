@@ -7,9 +7,7 @@ ValidateCore
 
 
 * Class name: ValidateCore
-* Namespace: 
-
-* This class is defined in [classes/Validate.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#27)
+* This class is defined in [classes/Validate.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Validate.php#L27)
 
 
 

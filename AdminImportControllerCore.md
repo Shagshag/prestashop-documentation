@@ -7,10 +7,8 @@ AdminImportControllerCore
 
 
 * Class name: AdminImportControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminImportController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#40)
+* This class is defined in [controllers/admin/AdminImportController.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminImportController.php#L40)
 
 
 

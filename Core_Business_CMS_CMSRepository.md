@@ -21,10 +21,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: Core_Business_CMS_CMSRepository
-* Namespace: 
 * Parent class: [Core_Foundation_Database_EntityRepository](Core_Foundation_Database_EntityRepository)
-
-* This class is defined in [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#27)
+* This class is defined in [Core/Business/CMS/Core_Business_CMS_CMSRepository.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/CMS/Core_Business_CMS_CMSRepository.php#L27)
 
 
 

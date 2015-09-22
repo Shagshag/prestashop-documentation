@@ -7,10 +7,8 @@ HelperFormCore
 
 
 * Class name: HelperFormCore
-* Namespace: 
 * Parent class: [Helper](HelperCore)
-
-* This class is defined in [classes/helper/HelperForm.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#30)
+* This class is defined in [classes/helper/HelperForm.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperForm.php#L30)
 
 
 

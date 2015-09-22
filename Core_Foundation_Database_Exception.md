@@ -21,10 +21,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: Core_Foundation_Database_Exception
-* Namespace: 
 * Parent class: [Core_Foundation_Exception_Exception](Core_Foundation_Exception_Exception)
-
-* This class is defined in [Core/Foundation/Database/Core_Foundation_Database_Exception.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_Exception.php#27)
+* This class is defined in [Core/Foundation/Database/Core_Foundation_Database_Exception.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Database/Core_Foundation_Database_Exception.php#L27)
 
 
 

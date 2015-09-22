@@ -7,10 +7,8 @@ Class DbCore
 
 
 * Class name: DbCore
-* Namespace: 
 * This is an **abstract** class
-
-* This class is defined in [classes/db/Db.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#34)
+* This class is defined in [classes/db/Db.php line 34](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/Db.php#L34)
 
 
 

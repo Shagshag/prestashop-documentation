@@ -7,10 +7,8 @@ Controllers don&#039;t need to be loaded with includeController anymore since th
 
 
 * Class name: ControllerFactoryCore
-* Namespace: 
-
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
-* This class is defined in [classes/ControllerFactory.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ControllerFactory.php#32)
+* This class is defined in [classes/ControllerFactory.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ControllerFactory.php#L32)
 
 
 

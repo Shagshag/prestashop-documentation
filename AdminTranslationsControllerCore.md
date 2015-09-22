@@ -7,10 +7,8 @@ AdminTranslationsControllerCore
 
 
 * Class name: AdminTranslationsControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminTranslationsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#27)
+* This class is defined in [controllers/admin/AdminTranslationsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminTranslationsController.php#L27)
 
 
 

@@ -7,10 +7,8 @@ SearchEngineCore
 
 
 * Class name: SearchEngineCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/SearchEngine.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SearchEngine.php#27)
+* This class is defined in [classes/SearchEngine.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SearchEngine.php#L27)
 
 
 

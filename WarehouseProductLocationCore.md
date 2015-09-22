@@ -7,10 +7,8 @@ WarehouseProductLocationCore
 
 
 * Class name: WarehouseProductLocationCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/stock/WarehouseProductLocation.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#29)
+* This class is defined in [classes/stock/WarehouseProductLocation.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/WarehouseProductLocation.php#L29)
 
 
 

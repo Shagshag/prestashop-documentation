@@ -7,10 +7,8 @@ OrderMessageCore
 
 
 * Class name: OrderMessageCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/order/OrderMessage.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#27)
+* This class is defined in [classes/order/OrderMessage.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderMessage.php#L27)
 
 
 

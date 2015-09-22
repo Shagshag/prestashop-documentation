@@ -7,10 +7,8 @@ ReferrerCore
 
 
 * Class name: ReferrerCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/Referrer.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#27)
+* This class is defined in [classes/Referrer.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Referrer.php#L27)
 
 
 

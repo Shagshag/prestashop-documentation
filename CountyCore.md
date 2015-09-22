@@ -7,11 +7,9 @@ CountyCore
 
 
 * Class name: CountyCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
-* This class is defined in [classes/County.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#31)
+* This class is defined in [classes/County.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/County.php#L31)
 
 
 

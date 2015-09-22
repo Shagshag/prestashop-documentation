@@ -7,10 +7,8 @@ AttributeCore
 
 
 * Class name: AttributeCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/Attribute.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#27)
+* This class is defined in [classes/Attribute.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Attribute.php#L27)
 
 
 

@@ -7,10 +7,8 @@ AdminDashboardControllerCore
 
 
 * Class name: AdminDashboardControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminDashboardController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#27)
+* This class is defined in [controllers/admin/AdminDashboardController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminDashboardController.php#L27)
 
 
 

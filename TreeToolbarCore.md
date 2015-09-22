@@ -7,10 +7,8 @@ TreeToolbarCore
 
 
 * Class name: TreeToolbarCore
-* Namespace: 
+* This class is defined in [classes/tree/TreeToolbar.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#L27)
 * This class implements: [ITreeToolbarCore](ITreeToolbarCore)
-* This class is defined in [classes/tree/TreeToolbar.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbar.php#27)
-
 
 
 Constants

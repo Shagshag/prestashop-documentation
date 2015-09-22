@@ -7,10 +7,8 @@ StockMvtCore
 
 
 * Class name: StockMvtCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/stock/StockMvt.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#30)
+* This class is defined in [classes/stock/StockMvt.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvt.php#L30)
 
 
 

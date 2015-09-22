@@ -7,9 +7,7 @@ Handle file uploads via XMLHttpRequest
 
 
 * Class name: QqUploadedFileXhr
-* Namespace: 
-
-* This class is defined in [classes/FileUploader.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#178)
+* This class is defined in [classes/FileUploader.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/FileUploader.php#L178)
 
 
 

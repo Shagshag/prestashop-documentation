@@ -21,10 +21,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: StockMvtWSCore
-* Namespace: 
 * Parent class: [ObjectModelCore](ObjectModelCore)
-
-* This class is defined in [classes/stock/StockMvtWS.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#31)
+* This class is defined in [classes/stock/StockMvtWS.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockMvtWS.php#L31)
 
 
 

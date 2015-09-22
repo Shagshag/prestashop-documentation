@@ -7,11 +7,9 @@ TreeToolbarLinkCore
 
 
 * Class name: TreeToolbarLinkCore
-* Namespace: 
 * Parent class: [TreeToolbarButtonCore](TreeToolbarButtonCore)
+* This class is defined in [classes/tree/TreeToolbarLink.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#L27)
 * This class implements: [ITreeToolbarButtonCore](ITreeToolbarButtonCore)
-* This class is defined in [classes/tree/TreeToolbarLink.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarLink.php#27)
-
 
 
 Constants

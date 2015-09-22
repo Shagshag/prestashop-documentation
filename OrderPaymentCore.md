@@ -7,10 +7,8 @@ OrderPaymentCore
 
 
 * Class name: OrderPaymentCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/order/OrderPayment.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#27)
+* This class is defined in [classes/order/OrderPayment.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderPayment.php#L27)
 
 
 

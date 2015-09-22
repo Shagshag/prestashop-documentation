@@ -7,10 +7,8 @@ PackCore
 
 
 * Class name: PackCore
-* Namespace: 
 * Parent class: [Product](ProductCore)
-
-* This class is defined in [classes/Pack.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#27)
+* This class is defined in [classes/Pack.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Pack.php#L27)
 
 
 

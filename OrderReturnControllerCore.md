@@ -21,10 +21,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: OrderReturnControllerCore
-* Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-
-* This class is defined in [controllers/front/OrderReturnController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#27)
+* This class is defined in [controllers/front/OrderReturnController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/OrderReturnController.php#L27)
 
 
 

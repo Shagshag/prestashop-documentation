@@ -7,10 +7,8 @@ Smarty_Custom_Template
 
 
 * Class name: Smarty_Custom_Template
-* Namespace: 
 * Parent class: Smarty_Internal_Template
-
-* This class is defined in [classes/SmartyCustom.php line 300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#300)
+* This class is defined in [classes/SmartyCustom.php line 300](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#L300)
 
 
 

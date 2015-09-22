@@ -7,9 +7,7 @@ SQL query builder
 
 
 * Class name: DbQueryCore
-* Namespace: 
-
-* This class is defined in [classes/db/DbQuery.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#32)
+* This class is defined in [classes/db/DbQuery.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbQuery.php#L32)
 
 
 

@@ -7,10 +7,8 @@ TreeToolbarButtonCore
 
 
 * Class name: TreeToolbarButtonCore
-* Namespace: 
 * This is an **abstract** class
-
-* This class is defined in [classes/tree/TreeToolbarButton.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#27)
+* This class is defined in [classes/tree/TreeToolbarButton.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarButton.php#L27)
 
 
 

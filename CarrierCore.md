@@ -7,10 +7,8 @@ CarrierCore
 
 
 * Class name: CarrierCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/Carrier.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#27)
+* This class is defined in [classes/Carrier.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Carrier.php#L27)
 
 
 

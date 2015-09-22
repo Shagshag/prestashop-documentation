@@ -9,7 +9,7 @@ StockManagerInterface : defines a way to manage stock
 * Interface name: StockManagerInterface
 * Namespace: 
 * This is an **interface**
-* This interface is defined in [classes/stock/StockManagerInterface.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerInterface.php#31)
+* This interface is defined in [classes/stock/StockManagerInterface.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManagerInterface.php#L31)
 
 
 

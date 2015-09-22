@@ -7,10 +7,8 @@ Create a collection of ObjectModel objects
 
 
 * Class name: PrestaShopCollectionCore
-* Namespace: 
+* This class is defined in [classes/PrestaShopCollection.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#L32)
 * This class implements: Iterator, ArrayAccess, Countable
-* This class is defined in [classes/PrestaShopCollection.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PrestaShopCollection.php#32)
-
 
 
 Constants

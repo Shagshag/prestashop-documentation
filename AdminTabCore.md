@@ -7,11 +7,9 @@ AdminTabCore
 
 
 * Class name: AdminTabCore
-* Namespace: 
 * This is an **abstract** class
-
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
-* This class is defined in [classes/AdminTab.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#30)
+* This class is defined in [classes/AdminTab.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/AdminTab.php#L30)
 
 
 

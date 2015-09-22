@@ -10,10 +10,8 @@ needs please refer to http://doc.prestashop.com/display/PS15/Overriding+default+
 
 
 * Class name: OrderOpcController
-* Namespace: 
 * Parent class: [OrderOpcControllerCore](OrderOpcControllerCore)
-
-* This class is defined in [override/controllers/front/OrderOpcController.php line 16](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/front/OrderOpcController.php#16)
+* This class is defined in [override/controllers/front/OrderOpcController.php line 16](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/front/OrderOpcController.php#L16)
 
 
 

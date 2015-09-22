@@ -7,10 +7,8 @@ ContactCore
 
 
 * Class name: ContactCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/Contact.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#27)
+* This class is defined in [classes/Contact.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Contact.php#L27)
 
 
 

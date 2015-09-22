@@ -7,10 +7,8 @@ WebserviceExceptionCore
 
 
 * Class name: WebserviceExceptionCore
-* Namespace: 
 * Parent class: Exception
-
-* This class is defined in [classes/webservice/WebserviceException.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#27)
+* This class is defined in [classes/webservice/WebserviceException.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceException.php#L27)
 
 
 

@@ -7,10 +7,8 @@ CurrencyCore
 
 
 * Class name: CurrencyCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/Currency.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#27)
+* This class is defined in [classes/Currency.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Currency.php#L27)
 
 
 

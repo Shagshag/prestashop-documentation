@@ -7,10 +7,8 @@ ShopGroupCore
 
 
 * Class name: ShopGroupCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/shop/ShopGroup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#30)
+* This class is defined in [classes/shop/ShopGroup.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/shop/ShopGroup.php#L30)
 
 
 

@@ -9,7 +9,7 @@ WebserviceSpecificManagementInterface
 * Interface name: WebserviceSpecificManagementInterface
 * Namespace: 
 * This is an **interface**
-* This interface is defined in [classes/webservice/WebserviceSpecificManagementInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementInterface.php#27)
+* This interface is defined in [classes/webservice/WebserviceSpecificManagementInterface.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementInterface.php#L27)
 
 
 

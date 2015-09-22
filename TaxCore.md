@@ -7,10 +7,8 @@ TaxCore
 
 
 * Class name: TaxCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/tax/Tax.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#28)
+* This class is defined in [classes/tax/Tax.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/Tax.php#L28)
 
 
 

@@ -7,11 +7,9 @@ TreeToolbarSearchCore
 
 
 * Class name: TreeToolbarSearchCore
-* Namespace: 
 * Parent class: [TreeToolbarButtonCore](TreeToolbarButtonCore)
+* This class is defined in [classes/tree/TreeToolbarSearch.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarSearch.php#L27)
 * This class implements: [ITreeToolbarButtonCore](ITreeToolbarButtonCore)
-* This class is defined in [classes/tree/TreeToolbarSearch.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tree/TreeToolbarSearch.php#27)
-
 
 
 Constants

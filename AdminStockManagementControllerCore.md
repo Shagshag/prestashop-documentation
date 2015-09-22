@@ -7,10 +7,8 @@ AdminStockManagementControllerCore
 
 
 * Class name: AdminStockManagementControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminStockManagementController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#31)
+* This class is defined in [controllers/admin/AdminStockManagementController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockManagementController.php#L31)
 
 
 

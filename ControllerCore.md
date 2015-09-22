@@ -7,10 +7,8 @@ ControllerCore
 
 
 * Class name: ControllerCore
-* Namespace: 
 * This is an **abstract** class
-
-* This class is defined in [classes/controller/Controller.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#31)
+* This class is defined in [classes/controller/Controller.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/Controller.php#L31)
 
 
 

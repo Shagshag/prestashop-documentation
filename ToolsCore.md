@@ -21,9 +21,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: ToolsCore
-* Namespace: 
-
-* This class is defined in [classes/Tools.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#27)
+* This class is defined in [classes/Tools.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Tools.php#L27)
 
 
 

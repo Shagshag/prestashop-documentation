@@ -7,10 +7,8 @@ ConnectionCore
 
 
 * Class name: ConnectionCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/Connection.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#27)
+* This class is defined in [classes/Connection.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Connection.php#L27)
 
 
 

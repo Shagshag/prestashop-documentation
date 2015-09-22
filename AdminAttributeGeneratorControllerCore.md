@@ -7,10 +7,8 @@ AdminAttributeGeneratorControllerCore
 
 
 * Class name: AdminAttributeGeneratorControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminAttributeGeneratorController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#32)
+* This class is defined in [controllers/admin/AdminAttributeGeneratorController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAttributeGeneratorController.php#L32)
 
 
 

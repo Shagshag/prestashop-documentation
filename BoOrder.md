@@ -7,10 +7,8 @@ BoOrder
 
 
 * Class name: BoOrder
-* Namespace: 
 * Parent class: [PaymentModule](PaymentModuleCore)
-
-* This class is defined in [controllers/admin/AdminOrdersController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#27)
+* This class is defined in [controllers/admin/AdminOrdersController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminOrdersController.php#L27)
 
 
 

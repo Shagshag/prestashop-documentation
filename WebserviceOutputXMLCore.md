@@ -7,10 +7,8 @@ WebserviceOutputXMLCore
 
 
 * Class name: WebserviceOutputXMLCore
-* Namespace: 
+* This class is defined in [classes/webservice/WebserviceOutputXML.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#L27)
 * This class implements: [WebserviceOutputInterface](WebserviceOutputInterface)
-* This class is defined in [classes/webservice/WebserviceOutputXML.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputXML.php#27)
-
 
 
 

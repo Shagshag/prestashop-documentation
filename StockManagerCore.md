@@ -7,10 +7,8 @@ StockManager : implementation of StockManagerInterface
 
 
 * Class name: StockManagerCore
-* Namespace: 
+* This class is defined in [classes/stock/StockManager.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#L31)
 * This class implements: [StockManagerInterface](StockManagerInterface)
-* This class is defined in [classes/stock/StockManager.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/StockManager.php#31)
-
 
 
 

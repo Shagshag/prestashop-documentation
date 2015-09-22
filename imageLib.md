@@ -7,9 +7,7 @@ imageLib
 
 
 * Class name: imageLib
-* Namespace: 
-
-* This class is defined in [admin/filemanager/include/php_image_magician.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#163)
+* This class is defined in [admin/filemanager/include/php_image_magician.php line 163](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin/filemanager/include/php_image_magician.php#L163)
 
 
 

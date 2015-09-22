@@ -7,10 +7,8 @@ Represents one product ordered
 
 
 * Class name: SupplyOrderDetailCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/stock/SupplyOrderDetail.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#31)
+* This class is defined in [classes/stock/SupplyOrderDetail.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/stock/SupplyOrderDetail.php#L31)
 
 
 

@@ -21,10 +21,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: Core_Foundation_FileSystem_Exception
-* Namespace: 
 * Parent class: [Core_Foundation_Exception_Exception](Core_Foundation_Exception_Exception)
-
-* This class is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_Exception.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_Exception.php#27)
+* This class is defined in [Core/Foundation/Filesystem/Core_Foundation_FileSystem_Exception.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Foundation/Filesystem/Core_Foundation_FileSystem_Exception.php#L27)
 
 
 

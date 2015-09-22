@@ -7,10 +7,8 @@ AdminAdminPreferencesControllerCore
 
 
 * Class name: AdminAdminPreferencesControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminAdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#30)
+* This class is defined in [controllers/admin/AdminAdminPreferencesController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminAdminPreferencesController.php#L30)
 
 
 

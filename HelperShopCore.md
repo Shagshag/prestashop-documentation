@@ -21,10 +21,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: HelperShopCore
-* Namespace: 
 * Parent class: [Helper](HelperCore)
-
-* This class is defined in [classes/helper/HelperShop.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperShop.php#27)
+* This class is defined in [classes/helper/HelperShop.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperShop.php#L27)
 
 
 

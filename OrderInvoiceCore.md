@@ -7,10 +7,8 @@ OrderInvoiceCore
 
 
 * Class name: OrderInvoiceCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/order/OrderInvoice.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#27)
+* This class is defined in [classes/order/OrderInvoice.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/order/OrderInvoice.php#L27)
 
 
 

@@ -7,10 +7,8 @@ Smarty_CacheResource_Mysql
 
 
 * Class name: Smarty_CacheResource_Mysql
-* Namespace: 
 * Parent class: Smarty_CacheResource_Custom
-
-* This class is defined in [classes/SmartyCacheResourceMysql.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCacheResourceMysql.php#29)
+* This class is defined in [classes/SmartyCacheResourceMysql.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCacheResourceMysql.php#L29)
 
 
 

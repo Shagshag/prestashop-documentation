@@ -21,9 +21,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: Core_Business_Stock_StockManager
-* Namespace: 
-
-* This class is defined in [Core/Business/Stock/Core_Business_Stock_StockManager.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Stock/Core_Business_Stock_StockManager.php#27)
+* This class is defined in [Core/Business/Stock/Core_Business_Stock_StockManager.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Core/Business/Stock/Core_Business_Stock_StockManager.php#L27)
 
 
 

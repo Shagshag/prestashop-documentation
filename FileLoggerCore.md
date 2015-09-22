@@ -7,10 +7,8 @@ FileLoggerCore
 
 
 * Class name: FileLoggerCore
-* Namespace: 
 * Parent class: [AbstractLogger](AbstractLoggerCore)
-
-* This class is defined in [classes/log/FileLogger.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#27)
+* This class is defined in [classes/log/FileLogger.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/log/FileLogger.php#L27)
 
 
 

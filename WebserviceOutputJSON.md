@@ -7,10 +7,8 @@ WebserviceOutputJSON
 
 
 * Class name: WebserviceOutputJSON
-* Namespace: 
+* This class is defined in [classes/webservice/WebserviceOutputJSON.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#L28)
 * This class implements: [WebserviceOutputInterface](WebserviceOutputInterface)
-* This class is defined in [classes/webservice/WebserviceOutputJSON.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceOutputJSON.php#28)
-
 
 
 

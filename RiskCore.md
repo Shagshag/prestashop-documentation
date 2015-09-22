@@ -7,10 +7,8 @@ RiskCore
 
 
 * Class name: RiskCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/Risk.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#30)
+* This class is defined in [classes/Risk.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Risk.php#L30)
 
 
 

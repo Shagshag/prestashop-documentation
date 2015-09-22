@@ -10,10 +10,8 @@ needs please refer to http://doc.prestashop.com/display/PS15/Overriding+default+
 
 
 * Class name: AdminOrdersController
-* Namespace: 
 * Parent class: [AdminOrdersControllerCore](AdminOrdersControllerCore)
-
-* This class is defined in [override/controllers/admin/AdminOrdersController.php line 16](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#16)
+* This class is defined in [override/controllers/admin/AdminOrdersController.php line 16](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/override/controllers/admin/AdminOrdersController.php#L16)
 
 
 

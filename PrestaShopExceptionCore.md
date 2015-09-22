@@ -7,10 +7,8 @@ PrestaShopExceptionCore
 
 
 * Class name: PrestaShopExceptionCore
-* Namespace: 
 * Parent class: Exception
-
-* This class is defined in [classes/exception/PrestaShopException.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#30)
+* This class is defined in [classes/exception/PrestaShopException.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopException.php#L30)
 
 
 

@@ -7,10 +7,8 @@ Use this helper to generate preferences forms, with values stored in the configu
 
 
 * Class name: HelperOptionsCore
-* Namespace: 
 * Parent class: [Helper](HelperCore)
-
-* This class is defined in [classes/helper/HelperOptions.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#30)
+* This class is defined in [classes/helper/HelperOptions.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/helper/HelperOptions.php#L30)
 
 
 

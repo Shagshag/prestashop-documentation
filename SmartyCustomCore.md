@@ -7,10 +7,8 @@ SmartyCustomCore
 
 
 * Class name: SmartyCustomCore
-* Namespace: 
 * Parent class: Smarty
-
-* This class is defined in [classes/SmartyCustom.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#27)
+* This class is defined in [classes/SmartyCustom.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/SmartyCustom.php#L27)
 
 
 

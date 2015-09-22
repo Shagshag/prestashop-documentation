@@ -7,9 +7,7 @@ PDFCore
 
 
 * Class name: PDFCore
-* Namespace: 
-
-* This class is defined in [classes/pdf/PDF.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#30)
+* This class is defined in [classes/pdf/PDF.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDF.php#L30)
 
 
 

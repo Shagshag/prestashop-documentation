@@ -21,10 +21,8 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: AddressCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/Address.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#27)
+* This class is defined in [classes/Address.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Address.php#L27)
 
 
 

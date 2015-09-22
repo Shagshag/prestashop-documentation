@@ -7,9 +7,7 @@ Crypt_Blowfish
 
 
 * Class name: Crypt_Blowfish
-* Namespace: 
-
-* This class is defined in [classes/Blowfish.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#78)
+* This class is defined in [classes/Blowfish.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Blowfish.php#L78)
 
 
 

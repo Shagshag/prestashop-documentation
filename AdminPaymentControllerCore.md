@@ -7,10 +7,8 @@ AdminPaymentControllerCore
 
 
 * Class name: AdminPaymentControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminPaymentController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#27)
+* This class is defined in [controllers/admin/AdminPaymentController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminPaymentController.php#L27)
 
 
 

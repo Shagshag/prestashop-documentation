@@ -7,11 +7,9 @@ ModuleAdminControllerCore
 
 
 * Class name: ModuleAdminControllerCore
-* Namespace: 
 * This is an **abstract** class
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [classes/controller/ModuleAdminController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#30)
+* This class is defined in [classes/controller/ModuleAdminController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/controller/ModuleAdminController.php#L30)
 
 
 

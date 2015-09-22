@@ -7,9 +7,7 @@ TranslateCore
 
 
 * Class name: TranslateCore
-* Namespace: 
-
-* This class is defined in [classes/Translate.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#30)
+* This class is defined in [classes/Translate.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Translate.php#L30)
 
 
 

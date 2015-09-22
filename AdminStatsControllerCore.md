@@ -7,10 +7,8 @@ AdminStatsControllerCore
 
 
 * Class name: AdminStatsControllerCore
-* Namespace: 
 * Parent class: [AdminStatsTabController](AdminStatsTabControllerCore)
-
-* This class is defined in [controllers/admin/AdminStatsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#27)
+* This class is defined in [controllers/admin/AdminStatsController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStatsController.php#L27)
 
 
 

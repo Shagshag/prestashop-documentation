@@ -7,10 +7,8 @@ ImageCore
 
 
 * Class name: ImageCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/Image.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#27)
+* This class is defined in [classes/Image.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Image.php#L27)
 
 
 

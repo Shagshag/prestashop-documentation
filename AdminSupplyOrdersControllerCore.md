@@ -7,10 +7,8 @@ AdminSupplyOrdersControllerCore
 
 
 * Class name: AdminSupplyOrdersControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminSupplyOrdersController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#31)
+* This class is defined in [controllers/admin/AdminSupplyOrdersController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminSupplyOrdersController.php#L31)
 
 
 

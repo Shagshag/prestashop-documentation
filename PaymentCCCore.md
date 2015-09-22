@@ -7,11 +7,9 @@ PaymentCCCore
 
 
 * Class name: PaymentCCCore
-* Namespace: 
 * Parent class: [OrderPayment](OrderPaymentCore)
-
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
-* This class is defined in [classes/PaymentCC.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#33)
+* This class is defined in [classes/PaymentCC.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/PaymentCC.php#L33)
 
 
 

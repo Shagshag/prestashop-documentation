@@ -7,10 +7,8 @@ PrestaShopDatabaseExceptionCore
 
 
 * Class name: PrestaShopDatabaseExceptionCore
-* Namespace: 
 * Parent class: [PrestaShopException](PrestaShopExceptionCore)
-
-* This class is defined in [classes/exception/PrestaShopDatabaseException.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopDatabaseException.php#30)
+* This class is defined in [classes/exception/PrestaShopDatabaseException.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/exception/PrestaShopDatabaseException.php#L30)
 
 
 

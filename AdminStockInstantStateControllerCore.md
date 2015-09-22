@@ -7,10 +7,8 @@ AdminStockInstantStateControllerCore
 
 
 * Class name: AdminStockInstantStateControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminStockInstantStateController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#31)
+* This class is defined in [controllers/admin/AdminStockInstantStateController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminStockInstantStateController.php#L31)
 
 
 

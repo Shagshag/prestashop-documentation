@@ -8,9 +8,7 @@ Uses CollectionCore
 
 
 * Class name: CSVCore
-* Namespace: 
-
-* This class is defined in [classes/CSV.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#32)
+* This class is defined in [classes/CSV.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CSV.php#L32)
 
 
 

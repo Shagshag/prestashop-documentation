@@ -7,10 +7,8 @@ PDFGeneratorCore
 
 
 * Class name: PDFGeneratorCore
-* Namespace: 
 * Parent class: TCPDF
-
-* This class is defined in [classes/pdf/PDFGenerator.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#33)
+* This class is defined in [classes/pdf/PDFGenerator.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/PDFGenerator.php#L33)
 
 
 

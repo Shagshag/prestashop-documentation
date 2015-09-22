@@ -7,10 +7,8 @@ StoreCore
 
 
 * Class name: StoreCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/Store.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#27)
+* This class is defined in [classes/Store.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Store.php#L27)
 
 
 

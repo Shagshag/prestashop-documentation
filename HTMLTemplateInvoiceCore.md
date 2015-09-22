@@ -7,10 +7,8 @@ HTMLTemplateInvoiceCore
 
 
 * Class name: HTMLTemplateInvoiceCore
-* Namespace: 
 * Parent class: [HTMLTemplate](HTMLTemplateCore)
-
-* This class is defined in [classes/pdf/HTMLTemplateInvoice.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#30)
+* This class is defined in [classes/pdf/HTMLTemplateInvoice.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateInvoice.php#L30)
 
 
 

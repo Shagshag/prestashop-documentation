@@ -7,10 +7,8 @@ TranslatedConfigurationCore
 
 
 * Class name: TranslatedConfigurationCore
-* Namespace: 
 * Parent class: [Configuration](ConfigurationCore)
-
-* This class is defined in [classes/TranslatedConfiguration.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#27)
+* This class is defined in [classes/TranslatedConfiguration.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/TranslatedConfiguration.php#L27)
 
 
 

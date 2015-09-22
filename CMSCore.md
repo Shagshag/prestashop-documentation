@@ -7,10 +7,8 @@ CMSCore
 
 
 * Class name: CMSCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/CMS.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#27)
+* This class is defined in [classes/CMS.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMS.php#L27)
 
 
 

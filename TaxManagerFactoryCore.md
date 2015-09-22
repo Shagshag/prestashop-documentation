@@ -7,9 +7,7 @@ TaxManagerFactoryCore
 
 
 * Class name: TaxManagerFactoryCore
-* Namespace: 
-
-* This class is defined in [classes/tax/TaxManagerFactory.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerFactory.php#30)
+* This class is defined in [classes/tax/TaxManagerFactory.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerFactory.php#L30)
 
 
 

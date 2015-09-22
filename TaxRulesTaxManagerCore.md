@@ -7,10 +7,8 @@ TaxRulesTaxManagerCore
 
 
 * Class name: TaxRulesTaxManagerCore
-* Namespace: 
+* This class is defined in [classes/tax/TaxRulesTaxManager.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#L30)
 * This class implements: [TaxManagerInterface](TaxManagerInterface)
-* This class is defined in [classes/tax/TaxRulesTaxManager.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxRulesTaxManager.php#30)
-
 
 
 

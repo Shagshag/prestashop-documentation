@@ -7,10 +7,8 @@ HTMLTemplateOrderSlipCore
 
 
 * Class name: HTMLTemplateOrderSlipCore
-* Namespace: 
 * Parent class: [HTMLTemplateInvoice](HTMLTemplateInvoiceCore)
-
-* This class is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#30)
+* This class is defined in [classes/pdf/HTMLTemplateOrderSlip.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/pdf/HTMLTemplateOrderSlip.php#L30)
 
 
 

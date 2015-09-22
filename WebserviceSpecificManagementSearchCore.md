@@ -7,10 +7,8 @@ WebserviceSpecificManagementSearchCore
 
 
 * Class name: WebserviceSpecificManagementSearchCore
-* Namespace: 
+* This class is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#L27)
 * This class implements: [WebserviceSpecificManagementInterface](WebserviceSpecificManagementInterface)
-* This class is defined in [classes/webservice/WebserviceSpecificManagementSearch.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/webservice/WebserviceSpecificManagementSearch.php#27)
-
 
 
 

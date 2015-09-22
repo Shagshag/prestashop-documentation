@@ -21,11 +21,9 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: ObjectModelCore
-* Namespace: 
 * This is an **abstract** class
+* This class is defined in [classes/ObjectModel.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#L27)
 * This class implements: [Core_Foundation_Database_EntityInterface](Core_Foundation_Database_EntityInterface)
-* This class is defined in [classes/ObjectModel.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/ObjectModel.php#27)
-
 
 
 Constants

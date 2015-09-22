@@ -7,9 +7,7 @@ TaxCalculatorCore
 
 
 * Class name: TaxCalculatorCore
-* Namespace: 
-
-* This class is defined in [classes/tax/TaxCalculator.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#32)
+* This class is defined in [classes/tax/TaxCalculator.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxCalculator.php#L32)
 
 
 

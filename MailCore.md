@@ -7,10 +7,8 @@ MailCore
 
 
 * Class name: MailCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/Mail.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#32)
+* This class is defined in [classes/Mail.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Mail.php#L32)
 
 
 

@@ -21,9 +21,7 @@ needs please refer to http://www.prestashop.com for more information.
 
 
 * Class name: Adapter_ProductPriceCalculator
-* Namespace: 
-
-* This class is defined in [Adapter/Adapter_ProductPriceCalculator.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ProductPriceCalculator.php#27)
+* This class is defined in [Adapter/Adapter_ProductPriceCalculator.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/Adapter/Adapter_ProductPriceCalculator.php#L27)
 
 
 

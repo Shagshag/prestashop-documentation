@@ -7,10 +7,8 @@ AuthControllerCore
 
 
 * Class name: AuthControllerCore
-* Namespace: 
 * Parent class: [FrontController](FrontControllerCore)
-
-* This class is defined in [controllers/front/AuthController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#27)
+* This class is defined in [controllers/front/AuthController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/front/AuthController.php#L27)
 
 
 

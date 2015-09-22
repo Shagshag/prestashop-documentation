@@ -7,10 +7,8 @@ AdminRangePriceControllerCore
 
 
 * Class name: AdminRangePriceControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminRangePriceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#30)
+* This class is defined in [controllers/admin/AdminRangePriceController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminRangePriceController.php#L30)
 
 
 

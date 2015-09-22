@@ -7,9 +7,7 @@ Class ContextCore
 
 
 * Class name: ContextCore
-* Namespace: 
-
-* This class is defined in [classes/Context.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#32)
+* This class is defined in [classes/Context.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/Context.php#L32)
 
 
 

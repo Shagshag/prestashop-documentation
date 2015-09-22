@@ -9,7 +9,7 @@ A TaxManager define a way to retrieve tax.
 * Interface name: TaxManagerInterface
 * Namespace: 
 * This is an **interface**
-* This interface is defined in [classes/tax/TaxManagerInterface.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerInterface.php#31)
+* This interface is defined in [classes/tax/TaxManagerInterface.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/TaxManagerInterface.php#L31)
 
 
 

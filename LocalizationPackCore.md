@@ -7,9 +7,7 @@ LocalizationPackCore
 
 
 * Class name: LocalizationPackCore
-* Namespace: 
-
-* This class is defined in [classes/LocalizationPack.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#27)
+* This class is defined in [classes/LocalizationPack.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/LocalizationPack.php#L27)
 
 
 

@@ -7,10 +7,8 @@ CMSRoleCore
 
 
 * Class name: CMSRoleCore
-* Namespace: 
 * Parent class: [ObjectModel](ObjectModelCore)
-
-* This class is defined in [classes/CMSRole.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#28)
+* This class is defined in [classes/CMSRole.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/CMSRole.php#L28)
 
 
 

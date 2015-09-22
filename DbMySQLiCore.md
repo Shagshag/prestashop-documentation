@@ -7,10 +7,8 @@ Class DbMySQLiCore
 
 
 * Class name: DbMySQLiCore
-* Namespace: 
 * Parent class: [Db](DbCore)
-
-* This class is defined in [classes/db/DbMySQLi.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#32)
+* This class is defined in [classes/db/DbMySQLi.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/db/DbMySQLi.php#L32)
 
 
 

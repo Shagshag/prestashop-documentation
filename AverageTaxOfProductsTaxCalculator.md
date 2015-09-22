@@ -7,9 +7,7 @@ AverageTaxOfProductsTaxCalculator
 
 
 * Class name: AverageTaxOfProductsTaxCalculator
-* Namespace: 
-
-* This class is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 3](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#3)
+* This class is defined in [classes/tax/AverageTaxOfProductsTaxCalculator.php line 3](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/classes/tax/AverageTaxOfProductsTaxCalculator.php#L3)
 
 
 

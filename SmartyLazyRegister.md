@@ -7,9 +7,7 @@ Used to delay loading of external classes with smarty-&gt;register_plugin
 
 
 * Class name: SmartyLazyRegister
-* Namespace: 
-
-* This class is defined in [config/smarty.config.inc.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#225)
+* This class is defined in [config/smarty.config.inc.php line 225](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/config/smarty.config.inc.php#L225)
 
 
 

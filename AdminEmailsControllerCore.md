@@ -7,10 +7,8 @@ AdminEmailsControllerCore
 
 
 * Class name: AdminEmailsControllerCore
-* Namespace: 
 * Parent class: [AdminController](AdminControllerCore)
-
-* This class is defined in [controllers/admin/AdminEmailsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#30)
+* This class is defined in [controllers/admin/AdminEmailsController.php line 30](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/controllers/admin/AdminEmailsController.php#L30)
 
 
 
