@@ -1,4 +1,4 @@
-File admin/filemanager/dialog.php
+File admin-dev/filemanager/dialog.php
 =========
 
 Source: [admin-dev/filemanager/dialog.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/dialog.php)

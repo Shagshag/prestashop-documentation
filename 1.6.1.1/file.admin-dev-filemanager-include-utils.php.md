@@ -1,4 +1,4 @@
-File admin/filemanager/include/utils.php
+File admin-dev/filemanager/include/utils.php
 =========
 
 Source: [admin-dev/filemanager/include/utils.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/utils.php)

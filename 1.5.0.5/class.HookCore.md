@@ -1,0 +1,1786 @@
+Class HookCore
+=====================
+
+
+
+
+
+* Class name: HookCore
+* Parent class: [ObjectModel](class.ObjectModelCore.md)
+* Source: [classes/Hook.php line 28](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L28)
+
+
+Contents
+--------
+
+
+### Properties
+
+* [$_hook_modules_cache](#property-$_hook_modules_cache)
+* [$_hook_modules_cache_exec](#property-$_hook_modules_cache_exec)
+* [$definition](#property-$definition)
+* [$description](#property-$description)
+* [$executed_hooks](#property-$executed_hooks)
+* [$live_edit](#property-$live_edit)
+* [$name](#property-$name)
+* [$position](#property-$position)
+* [$title](#property-$title)
+* [$def](#property-$def)
+* [$fieldsRequired](#property-$fieldsRequired)
+* [$fieldsRequiredDatabase](#property-$fieldsRequiredDatabase)
+* [$fieldsRequiredLang](#property-$fieldsRequiredLang)
+* [$fieldsSize](#property-$fieldsSize)
+* [$fieldsSizeLang](#property-$fieldsSizeLang)
+* [$fieldsValidate](#property-$fieldsValidate)
+* [$fieldsValidateLang](#property-$fieldsValidateLang)
+* [$id](#property-$id)
+* [$id_lang](#property-$id_lang)
+* [$id_shop](#property-$id_shop)
+* [$identifier](#property-$identifier)
+* [$image_dir](#property-$image_dir)
+* [$image_format](#property-$image_format)
+* [$table](#property-$table)
+* [$tables](#property-$tables)
+* [$webserviceParameters](#property-$webserviceParameters)
+
+### Methods
+
+* [PDFInvoice](#method-PDFInvoice)
+* [__construct](#method-__construct)
+* [add](#method-add)
+* [addFieldsRequiredDatabase](#method-addFieldsRequiredDatabase)
+* [addProduct](#method-addProduct)
+* [associateTo](#method-associateTo)
+* [backBeforePayment](#method-backBeforePayment)
+* [clearCache](#method-clearCache)
+* [delete](#method-delete)
+* [deleteImage](#method-deleteImage)
+* [deleteProduct](#method-deleteProduct)
+* [deleteSelection](#method-deleteSelection)
+* [displayFieldName](#method-displayFieldName)
+* [duplicateShops](#method-duplicateShops)
+* [exec](#method-exec)
+* [existsInDatabase](#method-existsInDatabase)
+* [formatFields](#method-formatFields)
+* [formatValue](#method-formatValue)
+* [get](#method-get)
+* [getDefinition](#method-getDefinition)
+* [getFieldByLang](#method-getFieldByLang)
+* [getFields](#method-getFields)
+* [getFieldsLang](#method-getFieldsLang)
+* [getFieldsRequiredDatabase](#method-getFieldsRequiredDatabase)
+* [getHookAliasList](#method-getHookAliasList)
+* [getHookModuleExecList](#method-getHookModuleExecList)
+* [getHookModuleList](#method-getHookModuleList)
+* [getHooks](#method-getHooks)
+* [getIdByName](#method-getIdByName)
+* [getModulesFromHook](#method-getModulesFromHook)
+* [getRetroHookName](#method-getRetroHookName)
+* [getTranslationsFields](#method-getTranslationsFields)
+* [getValidationRules](#method-getValidationRules)
+* [getWebserviceObjectList](#method-getWebserviceObjectList)
+* [getWebserviceParameters](#method-getWebserviceParameters)
+* [hydrate](#method-hydrate)
+* [hydrateCollection](#method-hydrateCollection)
+* [isAssociatedToGroupShop](#method-isAssociatedToGroupShop)
+* [isAssociatedToShop](#method-isAssociatedToShop)
+* [isCurrentlyUsed](#method-isCurrentlyUsed)
+* [isLangMultishop](#method-isLangMultishop)
+* [makeTranslationFields](#method-makeTranslationFields)
+* [newOrder](#method-newOrder)
+* [orderConfirmation](#method-orderConfirmation)
+* [paymentReturn](#method-paymentReturn)
+* [postUpdateOrderStatus](#method-postUpdateOrderStatus)
+* [preloadHookModulesCache](#method-preloadHookModulesCache)
+* [productFooter](#method-productFooter)
+* [productOutOfStock](#method-productOutOfStock)
+* [save](#method-save)
+* [setDefinitionRetrocompatibility](#method-setDefinitionRetrocompatibility)
+* [toggleStatus](#method-toggleStatus)
+* [update](#method-update)
+* [updateCarrier](#method-updateCarrier)
+* [updateOrderStatus](#method-updateOrderStatus)
+* [updateProduct](#method-updateProduct)
+* [updateProductAttribute](#method-updateProductAttribute)
+* [updateQuantity](#method-updateQuantity)
+* [validateControler](#method-validateControler)
+* [validateController](#method-validateController)
+* [validateField](#method-validateField)
+* [validateFields](#method-validateFields)
+* [validateFieldsLang](#method-validateFieldsLang)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$_hook_modules_cache"></a>$_hook_modules_cache
+
+```php
+protected mixed $_hook_modules_cache = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is **static**.
+* Source: [classes/Hook.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L78).
+
+
+### <a name="property-$_hook_modules_cache_exec"></a>$_hook_modules_cache_exec
+
+```php
+protected mixed $_hook_modules_cache_exec = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is **static**.
+* Source: [classes/Hook.php line 83](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L83).
+
+
+### <a name="property-$definition"></a>$definition
+
+```php
+public mixed $definition = array('table' => 'hook', 'primary' => 'id_hook', 'fields' => array('name' => array('type' => self::TYPE_STRING, 'validate' => 'isHookName', 'required' => true, 'size' => 32), 'title' => array('type' => self::TYPE_STRING), 'description' => array('type' => self::TYPE_HTML), 'position' => array('type' => self::TYPE_BOOL), 'live_edit' => array('type' => self::TYPE_BOOL)))
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is **static**.
+* Source: [classes/Hook.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L63).
+
+
+### <a name="property-$description"></a>$description
+
+```php
+public string $description
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [classes/Hook.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L43).
+
+
+### <a name="property-$executed_hooks"></a>$executed_hooks
+
+```php
+public array $executed_hooks = array()
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is **static**.
+* Source: [classes/Hook.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L58).
+
+
+### <a name="property-$live_edit"></a>$live_edit
+
+```php
+public boolean $live_edit = false
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [classes/Hook.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L53).
+
+
+### <a name="property-$name"></a>$name
+
+```php
+public string $name
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [classes/Hook.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L33).
+
+
+### <a name="property-$position"></a>$position
+
+```php
+public boolean $position = false
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [classes/Hook.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L48).
+
+
+### <a name="property-$title"></a>$title
+
+```php
+public string $title
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [classes/Hook.php line 38](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L38).
+
+
+### <a name="property-$def"></a>$def
+
+```php
+protected array $def
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 122](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L122).
+
+
+### <a name="property-$fieldsRequired"></a>$fieldsRequired
+
+```php
+protected mixed $fieldsRequired = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L72).
+
+
+### <a name="property-$fieldsRequiredDatabase"></a>$fieldsRequiredDatabase
+
+```php
+protected mixed $fieldsRequiredDatabase = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is **static**.
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L57).
+
+
+### <a name="property-$fieldsRequiredLang"></a>$fieldsRequiredLang
+
+```php
+protected mixed $fieldsRequiredLang = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 87](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L87).
+
+
+### <a name="property-$fieldsSize"></a>$fieldsSize
+
+```php
+protected mixed $fieldsSize = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L77).
+
+
+### <a name="property-$fieldsSizeLang"></a>$fieldsSizeLang
+
+```php
+protected mixed $fieldsSizeLang = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 92](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L92).
+
+
+### <a name="property-$fieldsValidate"></a>$fieldsValidate
+
+```php
+protected mixed $fieldsValidate = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L82).
+
+
+### <a name="property-$fieldsValidateLang"></a>$fieldsValidateLang
+
+```php
+protected mixed $fieldsValidateLang = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 97](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L97).
+
+
+### <a name="property-$id"></a>$id
+
+```php
+public integer $id
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L48).
+
+
+### <a name="property-$id_lang"></a>$id_lang
+
+```php
+protected integer $id_lang = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L51).
+
+
+### <a name="property-$id_shop"></a>$id_shop
+
+```php
+protected mixed $id_shop = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L53).
+
+
+### <a name="property-$identifier"></a>$identifier
+
+```php
+protected mixed $identifier
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L67).
+
+
+### <a name="property-$image_dir"></a>$image_dir
+
+```php
+protected string $image_dir = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 108](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L108).
+
+
+### <a name="property-$image_format"></a>$image_format
+
+```php
+protected string $image_format = 'jpg'
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L111).
+
+
+### <a name="property-$table"></a>$table
+
+```php
+protected mixed $table
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L62).
+
+
+### <a name="property-$tables"></a>$tables
+
+```php
+protected mixed $tables = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 102](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L102).
+
+
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
+
+```php
+protected array $webserviceParameters = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L105).
+
+
+Methods
+-------
+
+
+### <a name="method-PDFInvoice"></a>PDFInvoice
+
+```php
+mixed HookCore::PDFInvoice($pdf, $id_order)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 485](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L485)
+
+
+#### Arguments
+* $pdf **mixed**
+* $id_order **mixed**
+
+
+
+### <a name="method-__construct"></a>__construct
+
+```php
+mixed ObjectModelCore::__construct(integer $id, integer $id_lang, integer $id_shop)
+```
+
+Build object
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L150)
+
+
+#### Arguments
+* $id **integer** - Existing object id in order to load object (optional)
+* $id_lang **integer** - Required if object is multilingual (optional)
+* $id_shop **integer** - ID shop for objects with multishop on langs
+
+
+
+### <a name="method-add"></a>add
+
+```php
+boolean ObjectModelCore::add(boolean $autodate, boolean $null_values)
+```
+
+Add current object to database
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 372](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L372)
+
+
+#### Arguments
+* $autodate **boolean**
+* $null_values **boolean**
+
+
+
+### <a name="method-addFieldsRequiredDatabase"></a>addFieldsRequiredDatabase
+
+```php
+mixed ObjectModelCore::addFieldsRequiredDatabase($fields)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 925](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L925)
+
+
+#### Arguments
+* $fields **mixed**
+
+
+
+### <a name="method-addProduct"></a>addProduct
+
+```php
+mixed HookCore::addProduct($product)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 602](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L602)
+
+
+#### Arguments
+* $product **mixed**
+
+
+
+### <a name="method-associateTo"></a>associateTo
+
+```php
+boolean ObjectModelCore::associateTo(integer|array $id_shops, string $type)
+```
+
+This function associate an item to its context
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 973](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L973)
+
+
+#### Arguments
+* $id_shops **integer|array**
+* $type **string**
+
+
+
+### <a name="method-backBeforePayment"></a>backBeforePayment
+
+```php
+mixed HookCore::backBeforePayment($module)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 496](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L496)
+
+
+#### Arguments
+* $module **mixed**
+
+
+
+### <a name="method-clearCache"></a>clearCache
+
+```php
+mixed ObjectModelCore::clearCache($all)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 939](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L939)
+
+
+#### Arguments
+* $all **mixed**
+
+
+
+### <a name="method-delete"></a>delete
+
+```php
+boolean ObjectModelCore::delete()
+```
+
+Delete current object from database
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 521](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L521)
+
+
+
+
+### <a name="method-deleteImage"></a>deleteImage
+
+```php
+boolean ObjectModelCore::deleteImage()
+```
+
+Delete images associated with the object
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1047](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L1047)
+
+
+
+
+### <a name="method-deleteProduct"></a>deleteProduct
+
+```php
+mixed HookCore::deleteProduct($product)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 620](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L620)
+
+
+#### Arguments
+* $product **mixed**
+
+
+
+### <a name="method-deleteSelection"></a>deleteSelection
+
+```php
+boolean ObjectModelCore::deleteSelection(array $selection)
+```
+
+Delete several objects from database
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 559](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L559)
+
+
+#### Arguments
+* $selection **array**
+
+
+
+### <a name="method-displayFieldName"></a>displayFieldName
+
+```php
+mixed ObjectModelCore::displayFieldName($field, $class, $htmlentities, \Context $context)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 757](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L757)
+
+
+#### Arguments
+* $field **mixed**
+* $class **mixed**
+* $htmlentities **mixed**
+* $context **[Context](class.ContextCore.md)**
+
+
+
+### <a name="method-duplicateShops"></a>duplicateShops
+
+```php
+mixed ObjectModelCore::duplicateShops($id)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1017](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L1017)
+
+
+#### Arguments
+* $id **mixed**
+
+
+
+### <a name="method-exec"></a>exec
+
+```php
+string HookCore::exec(string $hook_name, array $hookArgs, integer $id_module)
+```
+
+Execute modules for specified hook
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 319](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L319)
+
+
+#### Arguments
+* $hook_name **string** - Hook Name
+* $hookArgs **array** - Parameters for the functions
+* $id_module **integer** - Execute hook for this module only
+
+
+
+### <a name="method-existsInDatabase"></a>existsInDatabase
+
+```php
+boolean ObjectModelCore::existsInDatabase(integer $id_entity, string $table)
+```
+
+Specify if an ObjectModel is already in database
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1081](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L1081)
+
+
+#### Arguments
+* $id_entity **integer**
+* $table **string**
+
+
+
+### <a name="method-formatFields"></a>formatFields
+
+```php
+array ObjectModelCore::formatFields(integer $id_lang)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 272](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L272)
+
+
+#### Arguments
+* $id_lang **integer** - If this parameter is given, only take lang fields
+
+
+
+### <a name="method-formatValue"></a>formatValue
+
+```php
+mixed ObjectModelCore::formatValue(mixed $value, integer $type, $with_quotes)
+```
+
+Format a data
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 319](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L319)
+
+
+#### Arguments
+* $value **mixed**
+* $type **integer**
+* $with_quotes **mixed**
+
+
+
+### <a name="method-get"></a>get
+
+```php
+integer HookCore::get(string $hookName)
+```
+
+Return hook ID from name
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 541](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L541)
+
+
+#### Arguments
+* $hookName **string** - Hook name
+
+
+
+### <a name="method-getDefinition"></a>getDefinition
+
+```php
+array ObjectModelCore::getDefinition(string $class, string $field)
+```
+
+Get object definition
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1184](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L1184)
+
+
+#### Arguments
+* $class **string** - Name of object
+* $field **string** - Name of field if we want the definition of one field only
+
+
+
+### <a name="method-getFieldByLang"></a>getFieldByLang
+
+```php
+mixed ObjectModelCore::getFieldByLang($field_name, null $id_lang)
+```
+
+Return the field value for the specified language if the field is multilang, else the field value.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1261](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L1261)
+
+
+#### Arguments
+* $field_name **mixed**
+* $id_lang **null**
+
+
+
+### <a name="method-getFields"></a>getFields
+
+```php
+array ObjectModelCore::getFields()
+```
+
+Prepare fields for ObjectModel class (add, update)
+All fields are verified (pSQL, intval.
+
+..)
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 234](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L234)
+
+
+
+
+### <a name="method-getFieldsLang"></a>getFieldsLang
+
+```php
+array ObjectModelCore::getFieldsLang()
+```
+
+Prepare multilang fields
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 249](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L249)
+
+
+
+
+### <a name="method-getFieldsRequiredDatabase"></a>getFieldsRequiredDatabase
+
+```php
+mixed ObjectModelCore::getFieldsRequiredDatabase($all)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 917](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L917)
+
+
+#### Arguments
+* $all **mixed**
+
+
+
+### <a name="method-getHookAliasList"></a>getHookAliasList
+
+```php
+array HookCore::getHookAliasList()
+```
+
+Get list of hook alias
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L131)
+
+
+
+
+### <a name="method-getHookModuleExecList"></a>getHookModuleExecList
+
+```php
+array HookCore::getHookModuleExecList(string $hook_name)
+```
+
+Get list of modules we can execute per hook
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 236](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L236)
+
+
+#### Arguments
+* $hook_name **string** - Get list of modules for this hook if given
+
+
+
+### <a name="method-getHookModuleList"></a>getHookModuleList
+
+```php
+array HookCore::getHookModuleList()
+```
+
+Get list of all registered hooks with modules
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 171](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L171)
+
+
+
+
+### <a name="method-getHooks"></a>getHooks
+
+```php
+array HookCore::getHooks(boolean $position)
+```
+
+Return Hooks List
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L91)
+
+
+#### Arguments
+* $position **boolean**
+
+
+
+### <a name="method-getIdByName"></a>getIdByName
+
+```php
+integer HookCore::getIdByName(string $hook_name)
+```
+
+Return hook ID from name
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 105](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L105)
+
+
+#### Arguments
+* $hook_name **string** - Hook name
+
+
+
+### <a name="method-getModulesFromHook"></a>getModulesFromHook
+
+```php
+array HookCore::getModulesFromHook(integer $id_hook, integer $id_module)
+```
+
+Return Hooks List
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 219](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L219)
+
+
+#### Arguments
+* $id_hook **integer**
+* $id_module **integer**
+
+
+
+### <a name="method-getRetroHookName"></a>getRetroHookName
+
+```php
+integer HookCore::getRetroHookName(string $hook_name)
+```
+
+Return retrocompatible hook name
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L153)
+
+
+#### Arguments
+* $hook_name **string** - Hook name
+
+
+
+### <a name="method-getTranslationsFields"></a>getTranslationsFields
+
+```php
+mixed ObjectModelCore::getTranslationsFields($fields_array)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 595](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L595)
+
+
+#### Arguments
+* $fields_array **mixed**
+
+
+
+### <a name="method-getValidationRules"></a>getValidationRules
+
+```php
+array ObjectModelCore::getValidationRules(string $class)
+```
+
+Returns object validation rules (fields validity)
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L130)
+
+
+#### Arguments
+* $class **string** - Child class name for static use (optional)
+
+
+
+### <a name="method-getWebserviceObjectList"></a>getWebserviceObjectList
+
+```php
+mixed ObjectModelCore::getWebserviceObjectList($sql_join, $sql_filter, $sql_sort, $sql_limit)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 890](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L890)
+
+
+#### Arguments
+* $sql_join **mixed**
+* $sql_filter **mixed**
+* $sql_sort **mixed**
+* $sql_limit **mixed**
+
+
+
+### <a name="method-getWebserviceParameters"></a>getWebserviceParameters
+
+```php
+mixed ObjectModelCore::getWebserviceParameters($ws_params_attribute_name)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 816](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L816)
+
+
+#### Arguments
+* $ws_params_attribute_name **mixed**
+
+
+
+### <a name="method-hydrate"></a>hydrate
+
+```php
+mixed ObjectModelCore::hydrate(array $data, integer $id_lang)
+```
+
+Fill an object with given data. Data must be an array with this syntax: array(objProperty => value, objProperty2 => value, etc.)
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1116](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L1116)
+
+
+#### Arguments
+* $data **array**
+* $id_lang **integer**
+
+
+
+### <a name="method-hydrateCollection"></a>hydrateCollection
+
+```php
+array ObjectModelCore::hydrateCollection(string $class, array $datas, integer $id_lang)
+```
+
+Fill (hydrate) a list of objects in order to get a collection of these objects
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1135](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L1135)
+
+
+#### Arguments
+* $class **string** - Class of objects to hydrate
+* $datas **array** - List of data (multi-dimensional array)
+* $id_lang **integer**
+
+
+
+### <a name="method-isAssociatedToGroupShop"></a>isAssociatedToGroupShop
+
+```php
+boolean ObjectModelCore::isAssociatedToGroupShop(integer $id_group_shop)
+```
+
+Check if current object is associated to a group shop
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1003](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L1003)
+
+
+#### Arguments
+* $id_group_shop **integer**
+
+
+
+### <a name="method-isAssociatedToShop"></a>isAssociatedToShop
+
+```php
+boolean ObjectModelCore::isAssociatedToShop(integer $id_shop)
+```
+
+Check if current object is associated to a shop
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 954](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L954)
+
+
+#### Arguments
+* $id_shop **integer**
+
+
+
+### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
+
+```php
+boolean ObjectModelCore::isCurrentlyUsed(string $table, boolean $has_active_column)
+```
+
+This method is allow to know if a entity is currently used
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1099](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L1099)
+
+
+#### Arguments
+* $table **string** - name of table linked to entity
+* $has_active_column **boolean** - true if the table has an active column
+
+
+
+### <a name="method-isLangMultishop"></a>isLangMultishop
+
+```php
+mixed ObjectModelCore::isLangMultishop()
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1037](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L1037)
+
+
+
+
+### <a name="method-makeTranslationFields"></a>makeTranslationFields
+
+```php
+mixed ObjectModelCore::makeTranslationFields($fields, $fields_array, $id_language)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 611](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L611)
+
+
+#### Arguments
+* $fields **mixed**
+* $fields_array **mixed**
+* $id_language **mixed**
+
+
+
+### <a name="method-newOrder"></a>newOrder
+
+```php
+mixed HookCore::newOrder($cart, $order, $customer, $currency, $orderStatus)
+```
+
+Called when quantity of a product is updated.
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 561](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L561)
+
+
+#### Arguments
+* $cart **mixed**
+* $order **mixed**
+* $customer **mixed**
+* $currency **mixed**
+* $orderStatus **mixed**
+
+
+
+### <a name="method-orderConfirmation"></a>orderConfirmation
+
+```php
+mixed HookCore::orderConfirmation($id_order)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 433](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L433)
+
+
+#### Arguments
+* $id_order **mixed**
+
+
+
+### <a name="method-paymentReturn"></a>paymentReturn
+
+```php
+mixed HookCore::paymentReturn($id_order, $id_module)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 459](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L459)
+
+
+#### Arguments
+* $id_order **mixed**
+* $id_module **mixed**
+
+
+
+### <a name="method-postUpdateOrderStatus"></a>postUpdateOrderStatus
+
+```php
+mixed HookCore::postUpdateOrderStatus($newOrderStatusId, $id_order)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 421](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L421)
+
+
+#### Arguments
+* $newOrderStatusId **mixed**
+* $id_order **mixed**
+
+
+
+### <a name="method-preloadHookModulesCache"></a>preloadHookModulesCache
+
+```php
+boolean HookCore::preloadHookModulesCache()
+```
+
+Preload hook modules cache
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 522](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L522)
+
+
+
+
+### <a name="method-productFooter"></a>productFooter
+
+```php
+mixed HookCore::productFooter($product, $category)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 584](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L584)
+
+
+#### Arguments
+* $product **mixed**
+* $category **mixed**
+
+
+
+### <a name="method-productOutOfStock"></a>productOutOfStock
+
+```php
+mixed HookCore::productOutOfStock($product)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 593](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L593)
+
+
+#### Arguments
+* $product **mixed**
+
+
+
+### <a name="method-save"></a>save
+
+```php
+boolean ObjectModelCore::save(boolean $null_values, boolean $autodate)
+```
+
+Save current object to database (add or update)
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 360](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L360)
+
+
+#### Arguments
+* $null_values **boolean**
+* $autodate **boolean**
+
+
+
+### <a name="method-setDefinitionRetrocompatibility"></a>setDefinitionRetrocompatibility
+
+```php
+mixed ObjectModelCore::setDefinitionRetrocompatibility()
+```
+
+Retrocompatibility for classes without $definition static
+Remove this in 1.6 !
+
+
+
+* Visibility: **protected**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1207](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L1207)
+
+
+
+
+### <a name="method-toggleStatus"></a>toggleStatus
+
+```php
+boolean ObjectModelCore::toggleStatus()
+```
+
+Toggle object status in database
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 575](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L575)
+
+
+
+
+### <a name="method-update"></a>update
+
+```php
+boolean ObjectModelCore::update(boolean $null_values)
+```
+
+Update current object to database
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 446](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L446)
+
+
+#### Arguments
+* $null_values **boolean**
+
+
+
+### <a name="method-updateCarrier"></a>updateCarrier
+
+```php
+mixed HookCore::updateCarrier($id_carrier, $carrier)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 508](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L508)
+
+
+#### Arguments
+* $id_carrier **mixed**
+* $carrier **mixed**
+
+
+
+### <a name="method-updateOrderStatus"></a>updateOrderStatus
+
+```php
+mixed HookCore::updateOrderStatus($newOrderStatusId, $id_order)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 407](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L407)
+
+
+#### Arguments
+* $newOrderStatusId **mixed**
+* $id_order **mixed**
+
+
+
+### <a name="method-updateProduct"></a>updateProduct
+
+```php
+mixed HookCore::updateProduct($product)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 611](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L611)
+
+
+#### Arguments
+* $product **mixed**
+
+
+
+### <a name="method-updateProductAttribute"></a>updateProductAttribute
+
+```php
+mixed HookCore::updateProductAttribute($id_product_attribute)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 629](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L629)
+
+
+#### Arguments
+* $id_product_attribute **mixed**
+
+
+
+### <a name="method-updateQuantity"></a>updateQuantity
+
+```php
+mixed HookCore::updateQuantity($product, $order)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* Source: [classes/Hook.php line 575](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/Hook.php#L575)
+
+
+#### Arguments
+* $product **mixed**
+* $order **mixed**
+
+
+
+### <a name="method-validateControler"></a>validateControler
+
+```php
+mixed ObjectModelCore::validateControler($htmlentities)
+```
+
+TODO: refactor rename all calls to this to validateController
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 772](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L772)
+
+
+#### Arguments
+* $htmlentities **mixed**
+
+
+
+### <a name="method-validateController"></a>validateController
+
+```php
+mixed ObjectModelCore::validateController($htmlentities)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 778](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L778)
+
+
+#### Arguments
+* $htmlentities **mixed**
+
+
+
+### <a name="method-validateField"></a>validateField
+
+```php
+boolean|string ObjectModelCore::validateField(string $field, mixed $value, integer $id_lang)
+```
+
+Validate a single field
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 710](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L710)
+
+
+#### Arguments
+* $field **string** - Field name
+* $value **mixed** - Field value
+* $id_lang **integer**
+
+
+
+### <a name="method-validateFields"></a>validateFields
+
+```php
+boolean|string ObjectModelCore::validateFields(boolean $die, boolean $error_return)
+```
+
+Check for fields validity before database interaction
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 649](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L649)
+
+
+#### Arguments
+* $die **boolean**
+* $error_return **boolean**
+
+
+
+### <a name="method-validateFieldsLang"></a>validateFieldsLang
+
+```php
+boolean|string ObjectModelCore::validateFieldsLang(boolean $die, boolean $error_return)
+```
+
+Check for multilingual fields validity before database interaction
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 675](https://github.com/PrestaShop/PrestaShop/blob/1.5.0.5/classes/ObjectModel.php#L675)
+
+
+#### Arguments
+* $die **boolean**
+* $error_return **boolean**
+
+

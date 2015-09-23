@@ -130,12 +130,30 @@ Contents
 * [$tpl_view_vars](#property-$tpl_view_vars)
 * [$translationsTab](#property-$translationsTab)
 * [$warnings](#property-$warnings)
+* [$ajax](#property-$ajax)
+* [$content_only](#property-$content_only)
+* [$context](#property-$context)
+* [$controller_type](#property-$controller_type)
+* [$css_files](#property-$css_files)
+* [$display_footer](#property-$display_footer)
+* [$display_header](#property-$display_header)
+* [$js_files](#property-$js_files)
+* [$json](#property-$json)
+* [$php_errors](#property-$php_errors)
+* [$php_self](#property-$php_self)
+* [$redirect_after](#property-$redirect_after)
+* [$status](#property-$status)
 
 ### Methods
 
 * [__construct](#method-__construct)
 * [_childValidation](#method-_childValidation)
+* [addCSS](#method-addCSS)
 * [addFiltersToBreadcrumbs](#method-addFiltersToBreadcrumbs)
+* [addJS](#method-addJS)
+* [addJquery](#method-addJquery)
+* [addJqueryPlugin](#method-addJqueryPlugin)
+* [addJqueryUI](#method-addJqueryUI)
 * [addPageHeaderToolBarModulesListButton](#method-addPageHeaderToolBarModulesListButton)
 * [addRowAction](#method-addRowAction)
 * [addRowActionSkipList](#method-addRowActionSkipList)
@@ -155,6 +173,8 @@ Contents
 * [createTemplate](#method-createTemplate)
 * [display](#method-display)
 * [displayAjax](#method-displayAjax)
+* [displayFooter](#method-displayFooter)
+* [displayHeader](#method-displayHeader)
 * [displayInformation](#method-displayInformation)
 * [displayModuleOptions](#method-displayModuleOptions)
 * [displayNoSmarty](#method-displayNoSmarty)
@@ -163,6 +183,7 @@ Contents
 * [fillModuleData](#method-fillModuleData)
 * [filterTabModuleList](#method-filterTabModuleList)
 * [filterToField](#method-filterToField)
+* [getController](#method-getController)
 * [getFieldValue](#method-getFieldValue)
 * [getFieldsValue](#method-getFieldsValue)
 * [getLanguages](#method-getLanguages)
@@ -185,11 +206,14 @@ Contents
 * [initTabModuleList](#method-initTabModuleList)
 * [initToolbar](#method-initToolbar)
 * [initToolbarTitle](#method-initToolbarTitle)
+* [isCached](#method-isCached)
 * [isFresh](#method-isFresh)
+* [isXmlHttpRequest](#method-isXmlHttpRequest)
 * [jsonConfirmation](#method-jsonConfirmation)
 * [jsonError](#method-jsonError)
 * [l](#method-l)
 * [loadObject](#method-loadObject)
+* [myErrorHandler](#method-myErrorHandler)
 * [postImage](#method-postImage)
 * [postProcess](#method-postProcess)
 * [processAdd](#method-processAdd)
@@ -211,6 +235,8 @@ Contents
 * [processUpdateOptions](#method-processUpdateOptions)
 * [redirect](#method-redirect)
 * [refresh](#method-refresh)
+* [removeCSS](#method-removeCSS)
+* [removeJS](#method-removeJS)
 * [renderDetails](#method-renderDetails)
 * [renderForm](#method-renderForm)
 * [renderKpis](#method-renderKpis)
@@ -219,9 +245,12 @@ Contents
 * [renderModulesList](#method-renderModulesList)
 * [renderOptions](#method-renderOptions)
 * [renderView](#method-renderView)
+* [run](#method-run)
 * [setDeprecatedMedia](#method-setDeprecatedMedia)
 * [setHelperDisplay](#method-setHelperDisplay)
 * [setMedia](#method-setMedia)
+* [setTemplate](#method-setTemplate)
+* [smartyOutputContent](#method-smartyOutputContent)
 * [updateAssoShop](#method-updateAssoShop)
 * [uploadImage](#method-uploadImage)
 * [validateField](#method-validateField)
@@ -1835,6 +1864,202 @@ public mixed $warnings = array()
 * Source: [classes/controller/AdminController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/AdminController.php#L32).
 
 
+### <a name="property-$ajax"></a>$ajax
+
+```php
+public boolean $ajax = false
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 75](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L75).
+
+
+### <a name="property-$content_only"></a>$content_only
+
+```php
+protected string $content_only = false
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L70).
+
+
+### <a name="property-$context"></a>$context
+
+```php
+protected \Context $context
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L35).
+
+
+### <a name="property-$controller_type"></a>$controller_type
+
+```php
+public mixed $controller_type
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L81).
+
+
+### <a name="property-$css_files"></a>$css_files
+
+```php
+public array $css_files = array()
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 40](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L40).
+
+
+### <a name="property-$display_footer"></a>$display_footer
+
+```php
+protected string $display_footer
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L65).
+
+
+### <a name="property-$display_header"></a>$display_header
+
+```php
+protected boolean $display_header
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L55).
+
+
+### <a name="property-$js_files"></a>$js_files
+
+```php
+public array $js_files = array()
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L45).
+
+
+### <a name="property-$json"></a>$json
+
+```php
+protected mixed $json = false
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L76).
+
+
+### <a name="property-$php_errors"></a>$php_errors
+
+```php
+public array $php_errors = array()
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is **static**.
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L50).
+
+
+### <a name="property-$php_self"></a>$php_self
+
+```php
+public mixed $php_self
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L82).
+
+
+### <a name="property-$redirect_after"></a>$redirect_after
+
+```php
+protected mixed $redirect_after = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 79](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L79).
+
+
+### <a name="property-$status"></a>$status
+
+```php
+protected mixed $status = ''
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 77](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L77).
+
+
 Methods
 -------
 
@@ -1871,6 +2096,29 @@ Overload this method for custom checking
 
 
 
+### <a name="method-addCSS"></a>addCSS
+
+```php
+true ControllerCore::addCSS(mixed $css_uri, string $css_media_type, integer $offset, boolean $check_path)
+```
+
+Add a new stylesheet in page header.
+
+
+
+* Visibility: **public**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 251](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L251)
+
+
+#### Arguments
+* $css_uri **mixed** - Path to css file, or list of css files like this : array(array(uri =&gt; media_type), ...)
+* $css_media_type **string**
+* $offset **integer**
+* $check_path **boolean**
+
+
+
 ### <a name="method-addFiltersToBreadcrumbs"></a>addFiltersToBreadcrumbs
 
 ```php
@@ -1884,6 +2132,93 @@ mixed AdminControllerCore::addFiltersToBreadcrumbs()
 * Visibility: **public**
 * Source: [classes/controller/AdminController.php line 521](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/AdminController.php#L521)
 
+
+
+
+### <a name="method-addJS"></a>addJS
+
+```php
+void ControllerCore::addJS(mixed $js_uri, boolean $check_path)
+```
+
+Add a new javascript file in page header.
+
+
+
+* Visibility: **public**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 319](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L319)
+
+
+#### Arguments
+* $js_uri **mixed**
+* $check_path **boolean**
+
+
+
+### <a name="method-addJquery"></a>addJquery
+
+```php
+void ControllerCore::addJquery($version, $folder, $minifier)
+```
+
+Add a new javascript file in page header.
+
+
+
+* Visibility: **public**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 372](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L372)
+
+
+#### Arguments
+* $version **mixed**
+* $folder **mixed**
+* $minifier **mixed**
+
+
+
+### <a name="method-addJqueryPlugin"></a>addJqueryPlugin
+
+```php
+mixed ControllerCore::addJqueryPlugin($name, null $folder, boolean $css)
+```
+
+Add a new javascript file in page header.
+
+
+
+* Visibility: **public**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 404](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L404)
+
+
+#### Arguments
+* $name **mixed**
+* $folder **null**
+* $css **boolean**
+
+
+
+### <a name="method-addJqueryUI"></a>addJqueryUI
+
+```php
+void ControllerCore::addJqueryUI($component, $theme, $check_dependencies)
+```
+
+Add a new javascript file in page header.
+
+
+
+* Visibility: **public**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 383](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L383)
+
+
+#### Arguments
+* $component **mixed**
+* $theme **mixed**
+* $check_dependencies **mixed**
 
 
 
@@ -2221,6 +2556,46 @@ mixed AdminControllerCore::displayAjax()
 
 
 
+### <a name="method-displayFooter"></a>displayFooter
+
+```php
+mixed ControllerCore::displayFooter($display)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 212](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L212)
+
+
+#### Arguments
+* $display **mixed**
+
+
+
+### <a name="method-displayHeader"></a>displayHeader
+
+```php
+mixed ControllerCore::displayHeader($display)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L207)
+
+
+#### Arguments
+* $display **mixed**
+
+
+
 ### <a name="method-displayInformation"></a>displayInformation
 
 ```php
@@ -2366,6 +2741,29 @@ mixed AdminControllerCore::filterToField($key, $filter)
 #### Arguments
 * $key **mixed**
 * $filter **mixed**
+
+
+
+### <a name="method-getController"></a>getController
+
+```php
+mixed ControllerCore::getController(string $class_name, boolean $auth, boolean $ssl)
+```
+
+Get an instance of a controller
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L133)
+
+
+#### Arguments
+* $class_name **string**
+* $auth **boolean**
+* $ssl **boolean**
 
 
 
@@ -2748,6 +3146,28 @@ set default toolbar_title to admin breadcrumb
 
 
 
+### <a name="method-isCached"></a>isCached
+
+```php
+mixed ControllerCore::isCached($template, $cacheId, $compileId)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 472](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L472)
+
+
+#### Arguments
+* $template **mixed**
+* $cacheId **mixed**
+* $compileId **mixed**
+
+
+
 ### <a name="method-isFresh"></a>isFresh
 
 ```php
@@ -2765,6 +3185,23 @@ mixed AdminControllerCore::isFresh($file, $timeout)
 #### Arguments
 * $file **mixed**
 * $timeout **mixed**
+
+
+
+### <a name="method-isXmlHttpRequest"></a>isXmlHttpRequest
+
+```php
+boolean ControllerCore::isXmlHttpRequest()
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 426](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L426)
+
 
 
 
@@ -2845,6 +3282,30 @@ otherwise return an empty object, or die
 
 #### Arguments
 * $opt **boolean** - Return an empty object if load fail
+
+
+
+### <a name="method-myErrorHandler"></a>myErrorHandler
+
+```php
+mixed ControllerCore::myErrorHandler($errno, $errstr, $errfile, $errline)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 480](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L480)
+
+
+#### Arguments
+* $errno **mixed**
+* $errstr **mixed**
+* $errfile **mixed**
+* $errline **mixed**
 
 
 
@@ -3200,6 +3661,48 @@ mixed AdminControllerCore::refresh($file_to_refresh, $external_file)
 
 
 
+### <a name="method-removeCSS"></a>removeCSS
+
+```php
+mixed ControllerCore::removeCSS($css_uri, $css_media_type, $check_path)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 285](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L285)
+
+
+#### Arguments
+* $css_uri **mixed**
+* $css_media_type **mixed**
+* $check_path **mixed**
+
+
+
+### <a name="method-removeJS"></a>removeJS
+
+```php
+mixed ControllerCore::removeJS($js_uri)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 344](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L344)
+
+
+#### Arguments
+* $js_uri **mixed**
+
+
+
 ### <a name="method-renderDetails"></a>renderDetails
 
 ```php
@@ -3328,6 +3831,23 @@ Override to render the view page
 
 
 
+### <a name="method-run"></a>run
+
+```php
+mixed ControllerCore::run()
+```
+
+Start controller process (this method shouldn't be overriden !)
+
+
+
+* Visibility: **public**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 161](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L161)
+
+
+
+
 ### <a name="method-setDeprecatedMedia"></a>setDeprecatedMedia
 
 ```php
@@ -3376,6 +3896,46 @@ mixed AdminControllerCore::setMedia()
 * Visibility: **public**
 * Source: [classes/controller/AdminController.php line 2317](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/AdminController.php#L2317)
 
+
+
+
+### <a name="method-setTemplate"></a>setTemplate
+
+```php
+mixed ControllerCore::setTemplate($template)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L217)
+
+
+#### Arguments
+* $template **mixed**
+
+
+
+### <a name="method-smartyOutputContent"></a>smartyOutputContent
+
+```php
+mixed ControllerCore::smartyOutputContent($content)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is defined by [ControllerCore](class.ControllerCore.md).
+* Source: [classes/controller/Controller.php line 431](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.11/classes/controller/Controller.php#L431)
+
+
+#### Arguments
+* $content **mixed**
 
 
 

@@ -1,4 +1,4 @@
-File admin/filemanager/include/php_image_magician.php
+File admin-dev/filemanager/include/php_image_magician.php
 =========
 
 Source: [admin-dev/filemanager/include/php_image_magician.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.1/admin-dev/filemanager/include/php_image_magician.php)

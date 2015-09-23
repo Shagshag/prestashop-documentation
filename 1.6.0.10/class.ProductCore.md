@@ -100,6 +100,27 @@ Contents
 * [$weight](#property-$weight)
 * [$wholesale_price](#property-$wholesale_price)
 * [$width](#property-$width)
+* [$db](#property-$db)
+* [$def](#property-$def)
+* [$fieldsRequired](#property-$fieldsRequired)
+* [$fieldsRequiredDatabase](#property-$fieldsRequiredDatabase)
+* [$fieldsRequiredLang](#property-$fieldsRequiredLang)
+* [$fieldsSize](#property-$fieldsSize)
+* [$fieldsSizeLang](#property-$fieldsSizeLang)
+* [$fieldsValidate](#property-$fieldsValidate)
+* [$fieldsValidateLang](#property-$fieldsValidateLang)
+* [$force_id](#property-$force_id)
+* [$get_shop_from_context](#property-$get_shop_from_context)
+* [$id](#property-$id)
+* [$id_lang](#property-$id_lang)
+* [$id_shop](#property-$id_shop)
+* [$id_shop_list](#property-$id_shop_list)
+* [$identifier](#property-$identifier)
+* [$image_dir](#property-$image_dir)
+* [$image_format](#property-$image_format)
+* [$table](#property-$table)
+* [$tables](#property-$tables)
+* [$update_fields](#property-$update_fields)
 
 ### Methods
 
@@ -119,12 +140,15 @@ Contents
 * [addFeatureProductImport](#method-addFeatureProductImport)
 * [addFeaturesCustomToDB](#method-addFeaturesCustomToDB)
 * [addFeaturesToDB](#method-addFeaturesToDB)
+* [addFieldsRequiredDatabase](#method-addFieldsRequiredDatabase)
 * [addProductAttribute](#method-addProductAttribute)
 * [addProductAttributeMultiple](#method-addProductAttributeMultiple)
 * [addStockMvt](#method-addStockMvt)
 * [addSupplierReference](#method-addSupplierReference)
 * [addToCategories](#method-addToCategories)
 * [addWs](#method-addWs)
+* [associateTo](#method-associateTo)
+* [cacheFieldsRequiredDatabase](#method-cacheFieldsRequiredDatabase)
 * [cacheFrontFeatures](#method-cacheFrontFeatures)
 * [cacheProductsFeatures](#method-cacheProductsFeatures)
 * [changeAccessories](#method-changeAccessories)
@@ -132,6 +156,7 @@ Contents
 * [checkDefaultAttributes](#method-checkDefaultAttributes)
 * [checkQty](#method-checkQty)
 * [cleanPositions](#method-cleanPositions)
+* [clearCache](#method-clearCache)
 * [convertAndFormatPrice](#method-convertAndFormatPrice)
 * [convertPrice](#method-convertPrice)
 * [convertPriceWithCurrency](#method-convertPriceWithCurrency)
@@ -153,6 +178,7 @@ Contents
 * [deleteFromAccessories](#method-deleteFromAccessories)
 * [deleteFromCartRules](#method-deleteFromCartRules)
 * [deleteFromSupplier](#method-deleteFromSupplier)
+* [deleteImage](#method-deleteImage)
 * [deleteImages](#method-deleteImages)
 * [deletePack](#method-deletePack)
 * [deleteProductAttributes](#method-deleteProductAttributes)
@@ -163,6 +189,7 @@ Contents
 * [deleteSelection](#method-deleteSelection)
 * [deleteTags](#method-deleteTags)
 * [deleteWsTags](#method-deleteWsTags)
+* [displayFieldName](#method-displayFieldName)
 * [displayWtPrice](#method-displayWtPrice)
 * [displayWtPriceWithCurrency](#method-displayWtPriceWithCurrency)
 * [duplicateAccessories](#method-duplicateAccessories)
@@ -171,16 +198,22 @@ Contents
 * [duplicateCustomizationFields](#method-duplicateCustomizationFields)
 * [duplicateDownload](#method-duplicateDownload)
 * [duplicateFeatures](#method-duplicateFeatures)
+* [duplicateObject](#method-duplicateObject)
+* [duplicateShops](#method-duplicateShops)
 * [duplicateSpecificPrices](#method-duplicateSpecificPrices)
 * [duplicateTags](#method-duplicateTags)
+* [existsInDatabase](#method-existsInDatabase)
 * [existsRefInDatabase](#method-existsRefInDatabase)
 * [flushPriceCache](#method-flushPriceCache)
+* [formatFields](#method-formatFields)
+* [formatValue](#method-formatValue)
 * [generateMultipleCombinations](#method-generateMultipleCombinations)
 * [getAccessories](#method-getAccessories)
 * [getAccessoriesLight](#method-getAccessoriesLight)
 * [getAccessoryById](#method-getAccessoryById)
 * [getAllCustomizedDatas](#method-getAllCustomizedDatas)
 * [getAnchor](#method-getAnchor)
+* [getAssociatedShops](#method-getAssociatedShops)
 * [getAttachments](#method-getAttachments)
 * [getAttachmentsStatic](#method-getAttachmentsStatic)
 * [getAttributeCombinaisons](#method-getAttributeCombinaisons)
@@ -204,8 +237,13 @@ Contents
 * [getDefaultAttribute](#method-getDefaultAttribute)
 * [getDefaultCategory](#method-getDefaultCategory)
 * [getDefaultIdProductAttribute](#method-getDefaultIdProductAttribute)
+* [getDefinition](#method-getDefinition)
 * [getFeatures](#method-getFeatures)
 * [getFeaturesStatic](#method-getFeaturesStatic)
+* [getFieldByLang](#method-getFieldByLang)
+* [getFields](#method-getFields)
+* [getFieldsLang](#method-getFieldsLang)
+* [getFieldsRequiredDatabase](#method-getFieldsRequiredDatabase)
 * [getFieldsShop](#method-getFieldsShop)
 * [getFrontFeatures](#method-getFrontFeatures)
 * [getFrontFeaturesStatic](#method-getFrontFeaturesStatic)
@@ -244,8 +282,12 @@ Contents
 * [getTaxCalculationMethod](#method-getTaxCalculationMethod)
 * [getTaxesInformations](#method-getTaxesInformations)
 * [getTaxesRate](#method-getTaxesRate)
+* [getTranslationsFields](#method-getTranslationsFields)
 * [getType](#method-getType)
 * [getUrlRewriteInformations](#method-getUrlRewriteInformations)
+* [getValidationRules](#method-getValidationRules)
+* [getWebserviceObjectList](#method-getWebserviceObjectList)
+* [getWebserviceParameters](#method-getWebserviceParameters)
 * [getWsAccessories](#method-getWsAccessories)
 * [getWsCategories](#method-getWsCategories)
 * [getWsCombinations](#method-getWsCombinations)
@@ -262,24 +304,36 @@ Contents
 * [hasAllRequiredCustomizableFields](#method-hasAllRequiredCustomizableFields)
 * [hasAttributes](#method-hasAttributes)
 * [hasAttributesInOtherShops](#method-hasAttributesInOtherShops)
+* [hasMultishopEntries](#method-hasMultishopEntries)
+* [hydrate](#method-hydrate)
+* [hydrateCollection](#method-hydrateCollection)
 * [idIsOnCategoryId](#method-idIsOnCategoryId)
 * [initPricesComputation](#method-initPricesComputation)
+* [isAssociatedToShop](#method-isAssociatedToShop)
 * [isAvailableWhenOutOfStock](#method-isAvailableWhenOutOfStock)
 * [isColorUnavailable](#method-isColorUnavailable)
+* [isCurrentlyUsed](#method-isCurrentlyUsed)
 * [isDiscounted](#method-isDiscounted)
+* [isLangMultishop](#method-isLangMultishop)
+* [isMultiShopField](#method-isMultiShopField)
+* [isMultishop](#method-isMultishop)
 * [isNew](#method-isNew)
 * [loadStockData](#method-loadStockData)
+* [makeTranslationFields](#method-makeTranslationFields)
 * [modifierWsLinkRewrite](#method-modifierWsLinkRewrite)
 * [priceCalculation](#method-priceCalculation)
 * [productAttributeExists](#method-productAttributeExists)
 * [reinjectQuantities](#method-reinjectQuantities)
 * [resetEcoTax](#method-resetEcoTax)
+* [save](#method-save)
 * [searchByName](#method-searchByName)
 * [setAdvancedStockManagement](#method-setAdvancedStockManagement)
 * [setAvailableDate](#method-setAvailableDate)
 * [setCarriers](#method-setCarriers)
 * [setCoverWs](#method-setCoverWs)
 * [setDefaultAttribute](#method-setDefaultAttribute)
+* [setDefinitionRetrocompatibility](#method-setDefinitionRetrocompatibility)
+* [setFieldsToUpdate](#method-setFieldsToUpdate)
 * [setGroupReduction](#method-setGroupReduction)
 * [setWsAccessories](#method-setWsAccessories)
 * [setWsCategories](#method-setWsCategories)
@@ -299,6 +353,7 @@ Contents
 * [updateDefaultAttribute](#method-updateDefaultAttribute)
 * [updateIsVirtual](#method-updateIsVirtual)
 * [updateLabels](#method-updateLabels)
+* [updateMultishopTable](#method-updateMultishopTable)
 * [updatePosition](#method-updatePosition)
 * [updateProductAttribute](#method-updateProductAttribute)
 * [updateQuantity](#method-updateQuantity)
@@ -306,7 +361,12 @@ Contents
 * [updateWs](#method-updateWs)
 * [useAdvancedStockManagement](#method-useAdvancedStockManagement)
 * [usesAdvancedStockManagement](#method-usesAdvancedStockManagement)
+* [validateControler](#method-validateControler)
+* [validateController](#method-validateController)
 * [validateField](#method-validateField)
+* [validateFields](#method-validateFields)
+* [validateFieldsLang](#method-validateFieldsLang)
+* [validateFieldsRequiredDatabase](#method-validateFieldsRequiredDatabase)
 
 
 Constants
@@ -1471,6 +1531,323 @@ public string $width
 * Source: [classes/Product.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/Product.php#L120).
 
 
+### <a name="property-$db"></a>$db
+
+```php
+protected \Db $db = false
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is **static**.
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 141](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L141).
+
+
+### <a name="property-$def"></a>$def
+
+```php
+protected array $def
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 131](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L131).
+
+
+### <a name="property-$fieldsRequired"></a>$fieldsRequired
+
+```php
+protected mixed $fieldsRequired = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 81](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L81).
+
+
+### <a name="property-$fieldsRequiredDatabase"></a>$fieldsRequiredDatabase
+
+```php
+protected mixed $fieldsRequiredDatabase = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is **static**.
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L66).
+
+
+### <a name="property-$fieldsRequiredLang"></a>$fieldsRequiredLang
+
+```php
+protected mixed $fieldsRequiredLang = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 96](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L96).
+
+
+### <a name="property-$fieldsSize"></a>$fieldsSize
+
+```php
+protected mixed $fieldsSize = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 86](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L86).
+
+
+### <a name="property-$fieldsSizeLang"></a>$fieldsSizeLang
+
+```php
+protected mixed $fieldsSizeLang = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 101](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L101).
+
+
+### <a name="property-$fieldsValidate"></a>$fieldsValidate
+
+```php
+protected mixed $fieldsValidate = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 91](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L91).
+
+
+### <a name="property-$fieldsValidateLang"></a>$fieldsValidateLang
+
+```php
+protected mixed $fieldsValidateLang = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L106).
+
+
+### <a name="property-$force_id"></a>$force_id
+
+```php
+public \boolean, $force_id = false
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 146](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L146).
+
+
+### <a name="property-$get_shop_from_context"></a>$get_shop_from_context
+
+```php
+protected mixed $get_shop_from_context = true
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L64).
+
+
+### <a name="property-$id"></a>$id
+
+```php
+public integer $id
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L55).
+
+
+### <a name="property-$id_lang"></a>$id_lang
+
+```php
+protected integer $id_lang = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L58).
+
+
+### <a name="property-$id_shop"></a>$id_shop
+
+```php
+protected mixed $id_shop = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L60).
+
+
+### <a name="property-$id_shop_list"></a>$id_shop_list
+
+```php
+public mixed $id_shop_list = null
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L62).
+
+
+### <a name="property-$identifier"></a>$identifier
+
+```php
+protected mixed $identifier
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L76).
+
+
+### <a name="property-$image_dir"></a>$image_dir
+
+```php
+protected string $image_dir = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 117](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L117).
+
+
+### <a name="property-$image_format"></a>$image_format
+
+```php
+protected string $image_format = 'jpg'
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 120](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L120).
+
+
+### <a name="property-$table"></a>$table
+
+```php
+protected mixed $table
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L71).
+
+
+### <a name="property-$tables"></a>$tables
+
+```php
+protected mixed $tables = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 111](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L111).
+
+
+### <a name="property-$update_fields"></a>$update_fields
+
+```php
+protected array $update_fields = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 136](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L136).
+
+
 Methods
 -------
 
@@ -1827,6 +2204,26 @@ mixed ProductCore::addFeaturesToDB($id_feature, $id_value, $cust)
 
 
 
+### <a name="method-addFieldsRequiredDatabase"></a>addFieldsRequiredDatabase
+
+```php
+mixed ObjectModelCore::addFieldsRequiredDatabase($fields)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1227](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1227)
+
+
+#### Arguments
+* $fields **mixed**
+
+
+
 ### <a name="method-addProductAttribute"></a>addProductAttribute
 
 ```php
@@ -1970,6 +2367,46 @@ mixed ProductCore::addWs($autodate, $null_values)
 
 
 
+### <a name="method-associateTo"></a>associateTo
+
+```php
+boolean ObjectModelCore::associateTo(integer|array $id_shops)
+```
+
+This function associate an item to its context
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1279](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1279)
+
+
+#### Arguments
+* $id_shops **integer|array**
+
+
+
+### <a name="method-cacheFieldsRequiredDatabase"></a>cacheFieldsRequiredDatabase
+
+```php
+mixed ObjectModelCore::cacheFieldsRequiredDatabase($all)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1214](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1214)
+
+
+#### Arguments
+* $all **mixed**
+
+
+
 ### <a name="method-cacheFrontFeatures"></a>cacheFrontFeatures
 
 ```php
@@ -2101,6 +2538,26 @@ mixed ProductCore::cleanPositions($id_category)
 
 #### Arguments
 * $id_category **mixed**
+
+
+
+### <a name="method-clearCache"></a>clearCache
+
+```php
+mixed ObjectModelCore::clearCache($all)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1241](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1241)
+
+
+#### Arguments
+* $all **mixed**
 
 
 
@@ -2481,6 +2938,26 @@ mixed ProductCore::deleteFromSupplier()
 
 
 
+### <a name="method-deleteImage"></a>deleteImage
+
+```php
+boolean ObjectModelCore::deleteImage($force_delete)
+```
+
+Delete images associated with the object
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1410](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1410)
+
+
+#### Arguments
+* $force_delete **mixed**
+
+
+
 ### <a name="method-deleteImages"></a>deleteImages
 
 ```php
@@ -2641,6 +3118,30 @@ Delete products tags entries without delete tags for webservice usage
 * Visibility: **public**
 * Source: [classes/Product.php line 4992](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/Product.php#L4992)
 
+
+
+
+### <a name="method-displayFieldName"></a>displayFieldName
+
+```php
+mixed ObjectModelCore::displayFieldName($field, $class, $htmlentities, \Context $context)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 997](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L997)
+
+
+#### Arguments
+* $field **mixed**
+* $class **mixed**
+* $htmlentities **mixed**
+* $context **[Context](class.ContextCore.md)**
 
 
 
@@ -2812,6 +3313,43 @@ Duplicate features when duplicating a product
 
 
 
+### <a name="method-duplicateObject"></a>duplicateObject
+
+```php
+\new ObjectModelCore::duplicateObject()
+```
+
+Duplicate current object to database
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 532](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L532)
+
+
+
+
+### <a name="method-duplicateShops"></a>duplicateShops
+
+```php
+mixed ObjectModelCore::duplicateShops($id)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1323](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1323)
+
+
+#### Arguments
+* $id **mixed**
+
+
+
 ### <a name="method-duplicateSpecificPrices"></a>duplicateSpecificPrices
 
 ```php
@@ -2854,6 +3392,28 @@ mixed ProductCore::duplicateTags($id_product_old, $id_product_new)
 
 
 
+### <a name="method-existsInDatabase"></a>existsInDatabase
+
+```php
+boolean ObjectModelCore::existsInDatabase(integer $id_entity, string $table)
+```
+
+Specify if an ObjectModel is already in database
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1447](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1447)
+
+
+#### Arguments
+* $id_entity **integer**
+* $table **string**
+
+
+
 ### <a name="method-existsRefInDatabase"></a>existsRefInDatabase
 
 ```php
@@ -2887,6 +3447,51 @@ This method allows to flush price cache
 * This method is **static**.
 * Source: [classes/Product.php line 5381](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/Product.php#L5381)
 
+
+
+
+### <a name="method-formatFields"></a>formatFields
+
+```php
+array ObjectModelCore::formatFields(integer $type, integer $id_lang)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 331](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L331)
+
+
+#### Arguments
+* $type **integer** - FORMAT_COMMON or FORMAT_LANG or FORMAT_SHOP
+* $id_lang **integer** - If this parameter is given, only take lang fields
+
+
+
+### <a name="method-formatValue"></a>formatValue
+
+```php
+mixed ObjectModelCore::formatValue(mixed $value, integer $type, $with_quotes, $purify)
+```
+
+Format a data
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 378](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L378)
+
+
+#### Arguments
+* $value **mixed**
+* $type **integer**
+* $with_quotes **mixed**
+* $purify **mixed**
 
 
 
@@ -3011,6 +3616,23 @@ Get the combination url anchor of the product
 
 #### Arguments
 * $id_product_attribute **integer**
+
+
+
+### <a name="method-getAssociatedShops"></a>getAssociatedShops
+
+```php
+array ObjectModelCore::getAssociatedShops()
+```
+
+Get the list of associated id_shop
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1308](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1308)
+
 
 
 
@@ -3451,6 +4073,28 @@ mixed ProductCore::getDefaultIdProductAttribute()
 
 
 
+### <a name="method-getDefinition"></a>getDefinition
+
+```php
+array ObjectModelCore::getDefinition(string $class, string $field)
+```
+
+Get object definition
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1553](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1553)
+
+
+#### Arguments
+* $class **string** - Name of object
+* $field **string** - Name of field if we want the definition of one field only
+
+
+
 ### <a name="method-getFeatures"></a>getFeatures
 
 ```php
@@ -3484,6 +4128,82 @@ mixed ProductCore::getFeaturesStatic($id_product)
 
 #### Arguments
 * $id_product **mixed**
+
+
+
+### <a name="method-getFieldByLang"></a>getFieldByLang
+
+```php
+mixed ObjectModelCore::getFieldByLang($field_name, null $id_lang)
+```
+
+Return the field value for the specified language if the field is multilang, else the field value.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1660](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1660)
+
+
+#### Arguments
+* $field_name **mixed**
+* $id_lang **null**
+
+
+
+### <a name="method-getFields"></a>getFields
+
+```php
+array ObjectModelCore::getFields()
+```
+
+Prepare fields for ObjectModel class (add, update)
+All fields are verified (pSQL, intval.
+
+..)
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 259](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L259)
+
+
+
+
+### <a name="method-getFieldsLang"></a>getFieldsLang
+
+```php
+array ObjectModelCore::getFieldsLang()
+```
+
+Prepare multilang fields
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 296](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L296)
+
+
+
+
+### <a name="method-getFieldsRequiredDatabase"></a>getFieldsRequiredDatabase
+
+```php
+mixed ObjectModelCore::getFieldsRequiredDatabase($all)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1206](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1206)
+
+
+#### Arguments
+* $all **mixed**
 
 
 
@@ -4286,6 +5006,26 @@ mixed ProductCore::getTaxesInformations($row, \Context $context)
 
 
 
+### <a name="method-getTranslationsFields"></a>getTranslationsFields
+
+```php
+mixed ObjectModelCore::getTranslationsFields($fields_array)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 787](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L787)
+
+
+#### Arguments
+* $fields_array **mixed**
+
+
+
 ### <a name="method-getType"></a>getType
 
 ```php
@@ -4319,6 +5059,70 @@ mixed ProductCore::getUrlRewriteInformations($id_product)
 
 #### Arguments
 * $id_product **mixed**
+
+
+
+### <a name="method-getValidationRules"></a>getValidationRules
+
+```php
+array ObjectModelCore::getValidationRules(string $class)
+```
+
+Returns object validation rules (fields validity)
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 154](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L154)
+
+
+#### Arguments
+* $class **string** - Child class name for static use (optional)
+
+
+
+### <a name="method-getWebserviceObjectList"></a>getWebserviceObjectList
+
+```php
+mixed ObjectModelCore::getWebserviceObjectList($sql_join, $sql_filter, $sql_sort, $sql_limit)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1147](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1147)
+
+
+#### Arguments
+* $sql_join **mixed**
+* $sql_filter **mixed**
+* $sql_sort **mixed**
+* $sql_limit **mixed**
+
+
+
+### <a name="method-getWebserviceParameters"></a>getWebserviceParameters
+
+```php
+mixed ObjectModelCore::getWebserviceParameters($ws_params_attribute_name)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1069](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1069)
+
+
+#### Arguments
+* $ws_params_attribute_name **mixed**
 
 
 
@@ -4581,6 +5385,67 @@ mixed ProductCore::hasAttributesInOtherShops()
 
 
 
+### <a name="method-hasMultishopEntries"></a>hasMultishopEntries
+
+```php
+boolean ObjectModelCore::hasMultishopEntries()
+```
+
+Check if there is more than one entries in associated shop table for current entity
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1348](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1348)
+
+
+
+
+### <a name="method-hydrate"></a>hydrate
+
+```php
+mixed ObjectModelCore::hydrate(array $data, integer $id_lang)
+```
+
+Fill an object with given data. Data must be an array with this syntax: array(objProperty => value, objProperty2 => value, etc.)
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1485](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1485)
+
+
+#### Arguments
+* $data **array**
+* $id_lang **integer**
+
+
+
+### <a name="method-hydrateCollection"></a>hydrateCollection
+
+```php
+array ObjectModelCore::hydrateCollection(string $class, array $datas, integer $id_lang)
+```
+
+Fill (hydrate) a list of objects in order to get a collection of these objects
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1504](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1504)
+
+
+#### Arguments
+* $class **string** - Class of objects to hydrate
+* $datas **array** - List of data (multi-dimensional array)
+* $id_lang **integer**
+
+
+
 ### <a name="method-idIsOnCategoryId"></a>idIsOnCategoryId
 
 ```php
@@ -4619,6 +5484,26 @@ mixed ProductCore::initPricesComputation($id_customer)
 
 #### Arguments
 * $id_customer **mixed**
+
+
+
+### <a name="method-isAssociatedToShop"></a>isAssociatedToShop
+
+```php
+boolean ObjectModelCore::isAssociatedToShop(integer $id_shop)
+```
+
+Check if current object is associated to a shop
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1256](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1256)
+
+
+#### Arguments
+* $id_shop **integer**
 
 
 
@@ -4662,6 +5547,28 @@ mixed ProductCore::isColorUnavailable($id_attribute, $id_shop)
 
 
 
+### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
+
+```php
+boolean ObjectModelCore::isCurrentlyUsed(string $table, boolean $has_active_column)
+```
+
+This method is allow to know if a entity is currently used
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1465](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1465)
+
+
+#### Arguments
+* $table **string** - name of table linked to entity
+* $has_active_column **boolean** - true if the table has an active column
+
+
+
 ### <a name="method-isDiscounted"></a>isDiscounted
 
 ```php
@@ -4681,6 +5588,60 @@ mixed ProductCore::isDiscounted($id_product, $quantity, \Context $context)
 * $id_product **mixed**
 * $quantity **mixed**
 * $context **[Context](class.ContextCore.md)**
+
+
+
+### <a name="method-isLangMultishop"></a>isLangMultishop
+
+```php
+mixed ObjectModelCore::isLangMultishop()
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1365](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1365)
+
+
+
+
+### <a name="method-isMultiShopField"></a>isMultiShopField
+
+```php
+mixed ObjectModelCore::isMultiShopField($field)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1360](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1360)
+
+
+#### Arguments
+* $field **mixed**
+
+
+
+### <a name="method-isMultishop"></a>isMultishop
+
+```php
+mixed ObjectModelCore::isMultishop()
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1355](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1355)
+
 
 
 
@@ -4713,6 +5674,28 @@ Fill the variables used for stock management
 * Visibility: **public**
 * Source: [classes/Product.php line 5412](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/Product.php#L5412)
 
+
+
+
+### <a name="method-makeTranslationFields"></a>makeTranslationFields
+
+```php
+mixed ObjectModelCore::makeTranslationFields($fields, $fields_array, $id_language)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 803](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L803)
+
+
+#### Arguments
+* $fields **mixed**
+* $fields_array **mixed**
+* $id_language **mixed**
 
 
 
@@ -4825,6 +5808,27 @@ mixed ProductCore::resetEcoTax()
 * This method is **static**.
 * Source: [classes/Product.php line 5003](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/Product.php#L5003)
 
+
+
+
+### <a name="method-save"></a>save
+
+```php
+boolean ObjectModelCore::save(boolean $null_values, boolean $autodate)
+```
+
+Save current object to database (add or update)
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L429)
+
+
+#### Arguments
+* $null_values **boolean**
+* $autodate **boolean**
 
 
 
@@ -4942,6 +5946,45 @@ mixed ProductCore::setDefaultAttribute($id_product_attribute)
 
 #### Arguments
 * $id_product_attribute **mixed**
+
+
+
+### <a name="method-setDefinitionRetrocompatibility"></a>setDefinitionRetrocompatibility
+
+```php
+mixed ObjectModelCore::setDefinitionRetrocompatibility()
+```
+
+Retrocompatibility for classes without $definition static
+Remove this in 1.6 !
+
+
+
+* Visibility: **protected**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1591](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1591)
+
+
+
+
+### <a name="method-setFieldsToUpdate"></a>setFieldsToUpdate
+
+```php
+mixed ObjectModelCore::setFieldsToUpdate(array $fields)
+```
+
+Set a list of specific fields to update
+array(field1 => true, field2 => false, langfield1 => array(1 => true, 2 => false))
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1686](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1686)
+
+
+#### Arguments
+* $fields **array**
 
 
 
@@ -5320,6 +6363,30 @@ mixed ProductCore::updateLabels()
 
 
 
+### <a name="method-updateMultishopTable"></a>updateMultishopTable
+
+```php
+boolean ObjectModelCore::updateMultishopTable(string $classname, array $data, string $where, string $specific_where)
+```
+
+Update a table and splits the common datas and the shop datas
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1380](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1380)
+
+
+#### Arguments
+* $classname **string**
+* $data **array**
+* $where **string**
+* $specific_where **string** - Only executed for common table
+
+
+
 ### <a name="method-updatePosition"></a>updatePosition
 
 ```php
@@ -5461,6 +6528,46 @@ For a given product, tells if it uses the advanced stock management
 
 
 
+### <a name="method-validateControler"></a>validateControler
+
+```php
+mixed ObjectModelCore::validateControler($htmlentities)
+```
+
+TODO: refactor rename all calls to this to validateController
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1015](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1015)
+
+
+#### Arguments
+* $htmlentities **mixed**
+
+
+
+### <a name="method-validateController"></a>validateController
+
+```php
+mixed ObjectModelCore::validateController($htmlentities)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1021](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1021)
+
+
+#### Arguments
+* $htmlentities **mixed**
+
+
+
 ### <a name="method-validateField"></a>validateField
 
 ```php
@@ -5481,5 +6588,67 @@ mixed ProductCore::validateField($field, $value, $id_lang, $skip, $human_errors)
 * $id_lang **mixed**
 * $skip **mixed**
 * $human_errors **mixed**
+
+
+
+### <a name="method-validateFields"></a>validateFields
+
+```php
+boolean|string ObjectModelCore::validateFields(boolean $die, boolean $error_return)
+```
+
+Check for fields validity before database interaction
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 841](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L841)
+
+
+#### Arguments
+* $die **boolean**
+* $error_return **boolean**
+
+
+
+### <a name="method-validateFieldsLang"></a>validateFieldsLang
+
+```php
+boolean|string ObjectModelCore::validateFieldsLang(boolean $die, boolean $error_return)
+```
+
+Check for multilingual fields validity before database interaction
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 870](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L870)
+
+
+#### Arguments
+* $die **boolean**
+* $error_return **boolean**
+
+
+
+### <a name="method-validateFieldsRequiredDatabase"></a>validateFieldsRequiredDatabase
+
+```php
+mixed ObjectModelCore::validateFieldsRequiredDatabase($htmlentities)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1183](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.10/classes/ObjectModel.php#L1183)
+
+
+#### Arguments
+* $htmlentities **mixed**
 
 

@@ -20,21 +20,150 @@ Contents
 * [FREE_SHIPPING](#constant-FREE_SHIPPING)
 * [PERCENT](#constant-PERCENT)
 
+### Properties
+
+* [$active](#property-$active)
+* [$carrier_restriction](#property-$carrier_restriction)
+* [$cart_rule_restriction](#property-$cart_rule_restriction)
+* [$code](#property-$code)
+* [$country_restriction](#property-$country_restriction)
+* [$date_add](#property-$date_add)
+* [$date_from](#property-$date_from)
+* [$date_to](#property-$date_to)
+* [$date_upd](#property-$date_upd)
+* [$definition](#property-$definition)
+* [$description](#property-$description)
+* [$free_shipping](#property-$free_shipping)
+* [$gift_product](#property-$gift_product)
+* [$gift_product_attribute](#property-$gift_product_attribute)
+* [$group_restriction](#property-$group_restriction)
+* [$highlight](#property-$highlight)
+* [$id](#property-$id)
+* [$id_customer](#property-$id_customer)
+* [$minimum_amount](#property-$minimum_amount)
+* [$minimum_amount_currency](#property-$minimum_amount_currency)
+* [$minimum_amount_shipping](#property-$minimum_amount_shipping)
+* [$minimum_amount_tax](#property-$minimum_amount_tax)
+* [$name](#property-$name)
+* [$only_one_gift](#property-$only_one_gift)
+* [$partial_use](#property-$partial_use)
+* [$priority](#property-$priority)
+* [$product_restriction](#property-$product_restriction)
+* [$quantity](#property-$quantity)
+* [$quantity_per_user](#property-$quantity_per_user)
+* [$reduction_amount](#property-$reduction_amount)
+* [$reduction_currency](#property-$reduction_currency)
+* [$reduction_percent](#property-$reduction_percent)
+* [$reduction_product](#property-$reduction_product)
+* [$reduction_tax](#property-$reduction_tax)
+* [$shop_restriction](#property-$shop_restriction)
+* [$cache_objects](#property-$cache_objects)
+* [$db](#property-$db)
+* [$def](#property-$def)
+* [$fieldsRequired](#property-$fieldsRequired)
+* [$fieldsRequiredDatabase](#property-$fieldsRequiredDatabase)
+* [$fieldsRequiredLang](#property-$fieldsRequiredLang)
+* [$fieldsSize](#property-$fieldsSize)
+* [$fieldsSizeLang](#property-$fieldsSizeLang)
+* [$fieldsValidate](#property-$fieldsValidate)
+* [$fieldsValidateLang](#property-$fieldsValidateLang)
+* [$force_id](#property-$force_id)
+* [$get_shop_from_context](#property-$get_shop_from_context)
+* [$id_lang](#property-$id_lang)
+* [$id_shop](#property-$id_shop)
+* [$id_shop_list](#property-$id_shop_list)
+* [$identifier](#property-$identifier)
+* [$image_dir](#property-$image_dir)
+* [$image_format](#property-$image_format)
+* [$loaded_classes](#property-$loaded_classes)
+* [$table](#property-$table)
+* [$tables](#property-$tables)
+* [$update_fields](#property-$update_fields)
+* [$webserviceParameters](#property-$webserviceParameters)
 
 ### Methods
 
 * [__call](#method-__call)
+* [__construct](#method-__construct)
 * [__get](#method-__get)
 * [__set](#method-__set)
 * [add](#method-add)
+* [addFieldsRequiredDatabase](#method-addFieldsRequiredDatabase)
+* [array_uintersect](#method-array_uintersect)
+* [array_uintersect_compare](#method-array_uintersect_compare)
+* [associateTo](#method-associateTo)
+* [autoAddToCart](#method-autoAddToCart)
+* [autoRemoveFromCart](#method-autoRemoveFromCart)
+* [cacheFieldsRequiredDatabase](#method-cacheFieldsRequiredDatabase)
+* [cartRuleExists](#method-cartRuleExists)
+* [checkProductRestrictions](#method-checkProductRestrictions)
+* [checkValidity](#method-checkValidity)
+* [cleanCache](#method-cleanCache)
+* [cleanProductRuleIntegrity](#method-cleanProductRuleIntegrity)
+* [clearCache](#method-clearCache)
+* [copyConditions](#method-copyConditions)
 * [createOrderDiscount](#method-createOrderDiscount)
+* [delete](#method-delete)
+* [deleteByIdCustomer](#method-deleteByIdCustomer)
+* [deleteImage](#method-deleteImage)
+* [deleteSelection](#method-deleteSelection)
+* [disableCache](#method-disableCache)
 * [discountExists](#method-discountExists)
 * [display](#method-display)
+* [displayFieldName](#method-displayFieldName)
+* [duplicateObject](#method-duplicateObject)
+* [duplicateShops](#method-duplicateShops)
+* [enableCache](#method-enableCache)
+* [existsInDatabase](#method-existsInDatabase)
+* [formatFields](#method-formatFields)
+* [formatValue](#method-formatValue)
+* [getAssociatedRestrictions](#method-getAssociatedRestrictions)
+* [getAssociatedShops](#method-getAssociatedShops)
+* [getCartRuleCombinations](#method-getCartRuleCombinations)
+* [getCartsRuleByCode](#method-getCartsRuleByCode)
+* [getContextualValue](#method-getContextualValue)
+* [getCustomerCartRules](#method-getCustomerCartRules)
 * [getCustomerDiscounts](#method-getCustomerDiscounts)
+* [getDefinition](#method-getDefinition)
+* [getFieldByLang](#method-getFieldByLang)
+* [getFields](#method-getFields)
+* [getFieldsLang](#method-getFieldsLang)
+* [getFieldsRequiredDatabase](#method-getFieldsRequiredDatabase)
+* [getFieldsShop](#method-getFieldsShop)
+* [getIdByCode](#method-getIdByCode)
 * [getIdByName](#method-getIdByName)
+* [getProductRuleGroups](#method-getProductRuleGroups)
+* [getProductRules](#method-getProductRules)
+* [getRepositoryClassName](#method-getRepositoryClassName)
+* [getTranslationsFields](#method-getTranslationsFields)
+* [getValidationRules](#method-getValidationRules)
 * [getValue](#method-getValue)
 * [getVouchersToCartDisplay](#method-getVouchersToCartDisplay)
+* [getWebserviceObjectList](#method-getWebserviceObjectList)
+* [getWebserviceParameters](#method-getWebserviceParameters)
+* [hasMultishopEntries](#method-hasMultishopEntries)
+* [hydrate](#method-hydrate)
+* [hydrateCollection](#method-hydrateCollection)
+* [isAssociatedToShop](#method-isAssociatedToShop)
+* [isCurrentlyUsed](#method-isCurrentlyUsed)
+* [isFeatureActive](#method-isFeatureActive)
+* [isLangMultishop](#method-isLangMultishop)
+* [isMultiShopField](#method-isMultiShopField)
+* [isMultishop](#method-isMultishop)
+* [makeTranslationFields](#method-makeTranslationFields)
+* [save](#method-save)
+* [setDefinitionRetrocompatibility](#method-setDefinitionRetrocompatibility)
+* [setFieldsToUpdate](#method-setFieldsToUpdate)
+* [toggleStatus](#method-toggleStatus)
 * [update](#method-update)
+* [updateMultishopTable](#method-updateMultishopTable)
+* [usedByCustomer](#method-usedByCustomer)
+* [validateControler](#method-validateControler)
+* [validateController](#method-validateController)
+* [validateField](#method-validateField)
+* [validateFields](#method-validateFields)
+* [validateFieldsLang](#method-validateFieldsLang)
+* [validateFieldsRequiredDatabase](#method-validateFieldsRequiredDatabase)
 
 
 Constants
@@ -83,6 +212,884 @@ const PERCENT = 1
 * Source: [classes/Discount.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/Discount.php#L32).
 
 
+Properties
+----------
+
+
+### <a name="property-$active"></a>$active
+
+```php
+public mixed $active = 1
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 71](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L71).
+
+
+### <a name="property-$carrier_restriction"></a>$carrier_restriction
+
+```php
+public mixed $carrier_restriction
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 57](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L57).
+
+
+### <a name="property-$cart_rule_restriction"></a>$cart_rule_restriction
+
+```php
+public mixed $cart_rule_restriction
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 59](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L59).
+
+
+### <a name="property-$code"></a>$code
+
+```php
+public mixed $code
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 51](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L51).
+
+
+### <a name="property-$country_restriction"></a>$country_restriction
+
+```php
+public mixed $country_restriction
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 56](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L56).
+
+
+### <a name="property-$date_add"></a>$date_add
+
+```php
+public mixed $date_add
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 72](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L72).
+
+
+### <a name="property-$date_from"></a>$date_from
+
+```php
+public mixed $date_from
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 44](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L44).
+
+
+### <a name="property-$date_to"></a>$date_to
+
+```php
+public mixed $date_to
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 45](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L45).
+
+
+### <a name="property-$date_upd"></a>$date_upd
+
+```php
+public mixed $date_upd
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 73](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L73).
+
+
+### <a name="property-$definition"></a>$definition
+
+```php
+public mixed $definition = array('table' => 'cart_rule', 'primary' => 'id_cart_rule', 'multilang' => true, 'fields' => array('id_customer' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'date_from' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true), 'date_to' => array('type' => self::TYPE_DATE, 'validate' => 'isDate', 'required' => true), 'description' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 65534), 'quantity' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'quantity_per_user' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'priority' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedInt'), 'partial_use' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'code' => array('type' => self::TYPE_STRING, 'validate' => 'isCleanHtml', 'size' => 254), 'minimum_amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'minimum_amount_tax' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'minimum_amount_currency' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'minimum_amount_shipping' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'country_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'carrier_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'group_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'cart_rule_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'product_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'shop_restriction' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'free_shipping' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'reduction_percent' => array('type' => self::TYPE_FLOAT, 'validate' => 'isPercentage'), 'reduction_amount' => array('type' => self::TYPE_FLOAT, 'validate' => 'isFloat'), 'reduction_tax' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'reduction_currency' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'reduction_product' => array('type' => self::TYPE_INT, 'validate' => 'isInt'), 'gift_product' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'gift_product_attribute' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'), 'highlight' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'active' => array('type' => self::TYPE_BOOL, 'validate' => 'isBool'), 'date_add' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'date_upd' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'), 'name' => array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isCleanHtml', 'required' => true, 'size' => 254)))
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is **static**.
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 78](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L78).
+
+
+### <a name="property-$description"></a>$description
+
+```php
+public mixed $description
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 46](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L46).
+
+
+### <a name="property-$free_shipping"></a>$free_shipping
+
+```php
+public mixed $free_shipping
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 62](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L62).
+
+
+### <a name="property-$gift_product"></a>$gift_product
+
+```php
+public mixed $gift_product
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 68](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L68).
+
+
+### <a name="property-$gift_product_attribute"></a>$gift_product_attribute
+
+```php
+public mixed $gift_product_attribute
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 69](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L69).
+
+
+### <a name="property-$group_restriction"></a>$group_restriction
+
+```php
+public mixed $group_restriction
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L58).
+
+
+### <a name="property-$highlight"></a>$highlight
+
+```php
+public mixed $highlight
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L70).
+
+
+### <a name="property-$id"></a>$id
+
+```php
+public mixed $id
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 41](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L41).
+
+
+### <a name="property-$id_customer"></a>$id_customer
+
+```php
+public mixed $id_customer
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 43](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L43).
+
+
+### <a name="property-$minimum_amount"></a>$minimum_amount
+
+```php
+public mixed $minimum_amount
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 52](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L52).
+
+
+### <a name="property-$minimum_amount_currency"></a>$minimum_amount_currency
+
+```php
+public mixed $minimum_amount_currency
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 54](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L54).
+
+
+### <a name="property-$minimum_amount_shipping"></a>$minimum_amount_shipping
+
+```php
+public mixed $minimum_amount_shipping
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 55](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L55).
+
+
+### <a name="property-$minimum_amount_tax"></a>$minimum_amount_tax
+
+```php
+public mixed $minimum_amount_tax
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 53](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L53).
+
+
+### <a name="property-$name"></a>$name
+
+```php
+public mixed $name
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 42](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L42).
+
+
+### <a name="property-$only_one_gift"></a>$only_one_gift
+
+```php
+protected mixed $only_one_gift = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is **static**.
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 39](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L39).
+
+
+### <a name="property-$partial_use"></a>$partial_use
+
+```php
+public mixed $partial_use = 1
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 50](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L50).
+
+
+### <a name="property-$priority"></a>$priority
+
+```php
+public mixed $priority = 1
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 49](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L49).
+
+
+### <a name="property-$product_restriction"></a>$product_restriction
+
+```php
+public mixed $product_restriction
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 60](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L60).
+
+
+### <a name="property-$quantity"></a>$quantity
+
+```php
+public mixed $quantity = 1
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 47](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L47).
+
+
+### <a name="property-$quantity_per_user"></a>$quantity_per_user
+
+```php
+public mixed $quantity_per_user = 1
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 48](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L48).
+
+
+### <a name="property-$reduction_amount"></a>$reduction_amount
+
+```php
+public mixed $reduction_amount
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L64).
+
+
+### <a name="property-$reduction_currency"></a>$reduction_currency
+
+```php
+public mixed $reduction_currency
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 66](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L66).
+
+
+### <a name="property-$reduction_percent"></a>$reduction_percent
+
+```php
+public mixed $reduction_percent
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 63](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L63).
+
+
+### <a name="property-$reduction_product"></a>$reduction_product
+
+```php
+public mixed $reduction_product
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L67).
+
+
+### <a name="property-$reduction_tax"></a>$reduction_tax
+
+```php
+public mixed $reduction_tax
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 65](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L65).
+
+
+### <a name="property-$shop_restriction"></a>$shop_restriction
+
+```php
+public mixed $shop_restriction
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L61).
+
+
+### <a name="property-$cache_objects"></a>$cache_objects
+
+```php
+protected boolean $cache_objects = true
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is **static**.
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 164](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L164).
+
+
+### <a name="property-$db"></a>$db
+
+```php
+protected \Db $db = false
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is **static**.
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 156](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L156).
+
+
+### <a name="property-$def"></a>$def
+
+```php
+protected array $def
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 150](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L150).
+
+
+### <a name="property-$fieldsRequired"></a>$fieldsRequired
+
+```php
+protected array $fieldsRequired = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 88](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L88).
+
+
+### <a name="property-$fieldsRequiredDatabase"></a>$fieldsRequiredDatabase
+
+```php
+protected array $fieldsRequiredDatabase = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is **static**.
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 70](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L70).
+
+
+### <a name="property-$fieldsRequiredLang"></a>$fieldsRequiredLang
+
+```php
+protected array $fieldsRequiredLang = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 106](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L106).
+
+
+### <a name="property-$fieldsSize"></a>$fieldsSize
+
+```php
+protected array $fieldsSize = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 94](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L94).
+
+
+### <a name="property-$fieldsSizeLang"></a>$fieldsSizeLang
+
+```php
+protected array $fieldsSizeLang = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 112](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L112).
+
+
+### <a name="property-$fieldsValidate"></a>$fieldsValidate
+
+```php
+protected array $fieldsValidate = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 100](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L100).
+
+
+### <a name="property-$fieldsValidateLang"></a>$fieldsValidateLang
+
+```php
+protected array $fieldsValidateLang = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 118](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L118).
+
+
+### <a name="property-$force_id"></a>$force_id
+
+```php
+public boolean $force_id = false
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 159](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L159).
+
+
+### <a name="property-$get_shop_from_context"></a>$get_shop_from_context
+
+```php
+protected boolean $get_shop_from_context = true
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 67](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L67).
+
+
+### <a name="property-$id_lang"></a>$id_lang
+
+```php
+protected integer $id_lang = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 58](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L58).
+
+
+### <a name="property-$id_shop"></a>$id_shop
+
+```php
+protected integer $id_shop = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 61](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L61).
+
+
+### <a name="property-$id_shop_list"></a>$id_shop_list
+
+```php
+public array $id_shop_list = null
+```
+
+
+
+
+
+* Visibility: **public**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 64](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L64).
+
+
+### <a name="property-$identifier"></a>$identifier
+
+```php
+protected string $identifier
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 82](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L82).
+
+
+### <a name="property-$image_dir"></a>$image_dir
+
+```php
+protected string $image_dir = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 130](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L130).
+
+
+### <a name="property-$image_format"></a>$image_format
+
+```php
+protected String $image_format = 'jpg'
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 133](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L133).
+
+
+### <a name="property-$loaded_classes"></a>$loaded_classes
+
+```php
+protected array $loaded_classes = array()
+```
+
+Holds compiled definitions of each ObjectModel class.
+
+Values are assigned during object initialization.
+
+* Visibility: **protected**
+* This property is **static**.
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 147](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L147).
+
+
+### <a name="property-$table"></a>$table
+
+```php
+protected string $table
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 76](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L76).
+
+
+### <a name="property-$tables"></a>$tables
+
+```php
+protected array $tables = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 124](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L124).
+
+
+### <a name="property-$update_fields"></a>$update_fields
+
+```php
+protected array $update_fields = null
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 153](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L153).
+
+
+### <a name="property-$webserviceParameters"></a>$webserviceParameters
+
+```php
+protected array $webserviceParameters = array()
+```
+
+
+
+
+
+* Visibility: **protected**
+* This property is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 127](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L127).
 
 
 Methods
@@ -107,6 +1114,28 @@ mixed DiscountCore::__call($method, $args)
 #### Arguments
 * $method **mixed**
 * $args **mixed**
+
+
+
+### <a name="method-__construct"></a>__construct
+
+```php
+mixed ObjectModelCore::__construct(integer|null $id, integer|null $id_lang, integer|null $id_shop)
+```
+
+Builds the object
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 201](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L201)
+
+
+#### Arguments
+* $id **integer|null** - If specified, loads and existing object from DB (optional).
+* $id_lang **integer|null** - Required if object is multilingual (optional).
+* $id_shop **integer|null** - ID shop for objects with multishop tables.
 
 
 
@@ -173,6 +1202,302 @@ mixed DiscountCore::add($autodate, $nullValues, $categories)
 
 
 
+### <a name="method-addFieldsRequiredDatabase"></a>addFieldsRequiredDatabase
+
+```php
+boolean ObjectModelCore::addFieldsRequiredDatabase(array $fields)
+```
+
+Sets required field for this class in the database.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1340](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1340)
+
+
+#### Arguments
+* $fields **array**
+
+
+
+### <a name="method-array_uintersect"></a>array_uintersect
+
+```php
+mixed CartRuleCore::array_uintersect($array1, $array2)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 788](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L788)
+
+
+#### Arguments
+* $array1 **mixed**
+* $array2 **mixed**
+
+
+
+### <a name="method-array_uintersect_compare"></a>array_uintersect_compare
+
+```php
+mixed CartRuleCore::array_uintersect_compare($a, $b)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 801](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L801)
+
+
+#### Arguments
+* $a **mixed**
+* $b **mixed**
+
+
+
+### <a name="method-associateTo"></a>associateTo
+
+```php
+boolean|void ObjectModelCore::associateTo(integer|array $id_shops)
+```
+
+This function associate an item to its context
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1408](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1408)
+
+
+#### Arguments
+* $id_shops **integer|array**
+
+
+
+### <a name="method-autoAddToCart"></a>autoAddToCart
+
+```php
+mixed CartRuleCore::autoAddToCart(\Context|null $context)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 1232](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L1232)
+
+
+#### Arguments
+* $context **[Context](class.ContextCore.md)|null**
+
+
+
+### <a name="method-autoRemoveFromCart"></a>autoRemoveFromCart
+
+```php
+mixed CartRuleCore::autoRemoveFromCart($context)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 1208](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L1208)
+
+
+#### Arguments
+* $context **mixed**
+
+
+
+### <a name="method-cacheFieldsRequiredDatabase"></a>cacheFieldsRequiredDatabase
+
+```php
+mixed ObjectModelCore::cacheFieldsRequiredDatabase(boolean $all)
+```
+
+Caches data about required objects fields in memory
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1319](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1319)
+
+
+#### Arguments
+* $all **boolean** - If true, caches required fields of all object classes.
+
+
+
+### <a name="method-cartRuleExists"></a>cartRuleExists
+
+```php
+boolean CartRuleCore::cartRuleExists($name)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 400](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L400)
+
+
+#### Arguments
+* $name **mixed**
+
+
+
+### <a name="method-checkProductRestrictions"></a>checkProductRestrictions
+
+```php
+mixed CartRuleCore::checkProductRestrictions(\Context $context, $return_products, $display_error, $already_in_cart)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 643](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L643)
+
+
+#### Arguments
+* $context **[Context](class.ContextCore.md)**
+* $return_products **mixed**
+* $display_error **mixed**
+* $already_in_cart **mixed**
+
+
+
+### <a name="method-checkValidity"></a>checkValidity
+
+```php
+boolean|mixed|string CartRuleCore::checkValidity(\Context $context, boolean $alreadyInCart, boolean $display_error, $check_carrier)
+```
+
+Check if this cart rule can be applied
+
+
+
+* Visibility: **public**
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 476](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L476)
+
+
+#### Arguments
+* $context **[Context](class.ContextCore.md)**
+* $alreadyInCart **boolean** - Check if the voucher is already on the cart
+* $display_error **boolean** - Display error
+* $check_carrier **mixed**
+
+
+
+### <a name="method-cleanCache"></a>cleanCache
+
+```php
+mixed CartRuleCore::cleanCache()
+```
+
+Make sure caches are empty
+Must be called before calling multiple time getContextualValue()
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 1087](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L1087)
+
+
+
+
+### <a name="method-cleanProductRuleIntegrity"></a>cleanProductRuleIntegrity
+
+```php
+mixed CartRuleCore::cleanProductRuleIntegrity($type, $list)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 1312](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L1312)
+
+
+#### Arguments
+* $type **mixed**
+* $list **mixed**
+
+
+
+### <a name="method-clearCache"></a>clearCache
+
+```php
+mixed ObjectModelCore::clearCache(boolean $all)
+```
+
+Clears cache entries that have this object's ID.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1360](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1360)
+
+
+#### Arguments
+* $all **boolean** - If true, clears cache for all objects
+
+
+
+### <a name="method-copyConditions"></a>copyConditions
+
+```php
+mixed CartRuleCore::copyConditions(integer $id_cart_rule_source, integer $id_cart_rule_destination)
+```
+
+Copy conditions from one cart rule to an other
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 176](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L176)
+
+
+#### Arguments
+* $id_cart_rule_source **integer**
+* $id_cart_rule_destination **integer**
+
+
+
 ### <a name="method-createOrderDiscount"></a>createOrderDiscount
 
 ```php
@@ -197,6 +1522,102 @@ mixed DiscountCore::add($autodate, $nullValues, $categories)
 * $shipping_cost **mixed**
 * $id_category **mixed**
 * $subcategory **mixed**
+
+
+
+### <a name="method-delete"></a>delete
+
+```php
+mixed CartRuleCore::delete()
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L148)
+
+
+
+
+### <a name="method-deleteByIdCustomer"></a>deleteByIdCustomer
+
+```php
+boolean CartRuleCore::deleteByIdCustomer($id_customer)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 415](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L415)
+
+
+#### Arguments
+* $id_customer **mixed**
+
+
+
+### <a name="method-deleteImage"></a>deleteImage
+
+```php
+boolean ObjectModelCore::deleteImage(boolean $force_delete)
+```
+
+Delete images associated with the object
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1585](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1585)
+
+
+#### Arguments
+* $force_delete **boolean**
+
+
+
+### <a name="method-deleteSelection"></a>deleteSelection
+
+```php
+boolean ObjectModelCore::deleteSelection(array $ids)
+```
+
+Deletes multiple objects from the database at once
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 765](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L765)
+
+
+#### Arguments
+* $ids **array** - Array of objects IDs.
+
+
+
+### <a name="method-disableCache"></a>disableCache
+
+```php
+mixed ObjectModelCore::disableCache()
+```
+
+Disables object caching
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1892](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1892)
+
 
 
 
@@ -245,6 +1666,293 @@ mixed DiscountCore::display($value, $type, $currency)
 
 
 
+### <a name="method-displayFieldName"></a>displayFieldName
+
+```php
+string ObjectModelCore::displayFieldName(string $field, string $class, boolean $htmlentities, \Context|null $context)
+```
+
+Returns field name translation
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1051](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1051)
+
+
+#### Arguments
+* $field **string** - Field name
+* $class **string** - ObjectModel class name
+* $htmlentities **boolean** - If true, applies htmlentities() to result string
+* $context **[Context](class.ContextCore.md)|null** - Context object
+
+
+
+### <a name="method-duplicateObject"></a>duplicateObject
+
+```php
+\ObjectModel|false ObjectModelCore::duplicateObject()
+```
+
+Takes current object ID, gets its values from database,
+saves them in a new row and loads newly saved values as a new object.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 534](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L534)
+
+
+
+
+### <a name="method-duplicateShops"></a>duplicateShops
+
+```php
+boolean|void ObjectModelCore::duplicateShops($id)
+```
+
+Copies shop association data from object with specified ID.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1462](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1462)
+
+
+#### Arguments
+* $id **mixed**
+
+
+
+### <a name="method-enableCache"></a>enableCache
+
+```php
+mixed ObjectModelCore::enableCache()
+```
+
+Enables object caching
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1884](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1884)
+
+
+
+
+### <a name="method-existsInDatabase"></a>existsInDatabase
+
+```php
+boolean ObjectModelCore::existsInDatabase(integer $id_entity, string $table)
+```
+
+Checks if an object exists in database.
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1624](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1624)
+
+
+#### Arguments
+* $id_entity **integer**
+* $table **string**
+
+
+
+### <a name="method-formatFields"></a>formatFields
+
+```php
+array ObjectModelCore::formatFields(integer $type, integer $id_lang)
+```
+
+Formats values of each fields.
+
+
+
+* Visibility: **protected**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 322](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L322)
+
+
+#### Arguments
+* $type **integer** - FORMAT_COMMON or FORMAT_LANG or FORMAT_SHOP
+* $id_lang **integer** - If this parameter is given, only take lang fields
+
+
+
+### <a name="method-formatValue"></a>formatValue
+
+```php
+mixed ObjectModelCore::formatValue(mixed $value, integer $type, boolean $with_quotes, boolean $purify, boolean $allow_null)
+```
+
+Formats a value
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 373](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L373)
+
+
+#### Arguments
+* $value **mixed**
+* $type **integer**
+* $with_quotes **boolean**
+* $purify **boolean**
+* $allow_null **boolean**
+
+
+
+### <a name="method-getAssociatedRestrictions"></a>getAssociatedRestrictions
+
+```php
+array|boolean CartRuleCore::getAssociatedRestrictions(string $type, boolean $active_only, boolean $i18n, integer $offset, integer $limit, string $search_cart_rule_name)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 1148](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L1148)
+
+
+#### Arguments
+* $type **string**
+* $active_only **boolean**
+* $i18n **boolean**
+* $offset **integer**
+* $limit **integer**
+* $search_cart_rule_name **string**
+
+
+
+### <a name="method-getAssociatedShops"></a>getAssociatedShops
+
+```php
+array ObjectModelCore::getAssociatedShops()
+```
+
+Gets the list of associated shop IDs
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1440](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1440)
+
+
+
+
+### <a name="method-getCartRuleCombinations"></a>getCartRuleCombinations
+
+```php
+array CartRuleCore::getCartRuleCombinations(integer $offset, integer $limit, string $search)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 1098](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L1098)
+
+
+#### Arguments
+* $offset **integer**
+* $limit **integer**
+* $search **string**
+
+
+
+### <a name="method-getCartsRuleByCode"></a>getCartsRuleByCode
+
+```php
+array CartRuleCore::getCartsRuleByCode($name, $id_lang, $extended)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 1355](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L1355)
+
+
+#### Arguments
+* $name **mixed**
+* $id_lang **mixed**
+* $extended **mixed**
+
+
+
+### <a name="method-getContextualValue"></a>getContextualValue
+
+```php
+float|integer|string CartRuleCore::getContextualValue(boolean $use_tax, \Context $context, $filter, $package, boolean $use_cache)
+```
+
+The reduction value is POSITIVE
+
+
+
+* Visibility: **public**
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 822](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L822)
+
+
+#### Arguments
+* $use_tax **boolean**
+* $context **[Context](class.ContextCore.md)**
+* $filter **mixed**
+* $package **mixed**
+* $use_cache **boolean** - Allow using cache to avoid multiple free gift using multishipping
+
+
+
+### <a name="method-getCustomerCartRules"></a>getCustomerCartRules
+
+```php
+array CartRuleCore::getCustomerCartRules($id_lang, $id_customer, boolean $active, boolean $includeGeneric, boolean $inStock, \Cart|null $cart, boolean $free_shipping_only, boolean $highlight_only)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 259](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L259)
+
+
+#### Arguments
+* $id_lang **mixed**
+* $id_customer **mixed**
+* $active **boolean**
+* $includeGeneric **boolean**
+* $inStock **boolean**
+* $cart **[Cart](class.CartCore.md)|null**
+* $free_shipping_only **boolean**
+* $highlight_only **boolean**
+
+
+
 ### <a name="method-getCustomerDiscounts"></a>getCustomerDiscounts
 
 ```php
@@ -271,6 +1979,145 @@ mixed DiscountCore::getCustomerDiscounts($id_lang, $id_customer, $active, $inclu
 
 
 
+### <a name="method-getDefinition"></a>getDefinition
+
+```php
+array ObjectModelCore::getDefinition(string $class, string|null $field)
+```
+
+Returns object definition
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1740](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1740)
+
+
+#### Arguments
+* $class **string** - Name of object
+* $field **string|null** - Name of field if we want the definition of one field only
+
+
+
+### <a name="method-getFieldByLang"></a>getFieldByLang
+
+```php
+mixed ObjectModelCore::getFieldByLang(string $field_name, integer|null $id_lang)
+```
+
+Return the field value for the specified language if the field is multilang,
+else the field value.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1849](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1849)
+
+
+#### Arguments
+* $field_name **string**
+* $id_lang **integer|null**
+
+
+
+### <a name="method-getFields"></a>getFields
+
+```php
+array ObjectModelCore::getFields()
+```
+
+Prepare fields for ObjectModel class (add, update)
+All fields are verified (pSQL, intval, .
+
+..)
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 243](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L243)
+
+
+
+
+### <a name="method-getFieldsLang"></a>getFieldsLang
+
+```php
+array ObjectModelCore::getFieldsLang()
+```
+
+Prepare multilang fields
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 284](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L284)
+
+
+
+
+### <a name="method-getFieldsRequiredDatabase"></a>getFieldsRequiredDatabase
+
+```php
+array|null ObjectModelCore::getFieldsRequiredDatabase(boolean $all)
+```
+
+Returns an array of required fields
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1306](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1306)
+
+
+#### Arguments
+* $all **boolean** - If true, returns required fields of all object classes.
+
+
+
+### <a name="method-getFieldsShop"></a>getFieldsShop
+
+```php
+array ObjectModelCore::getFieldsShop()
+```
+
+Prepare fields for multishop
+Fields are not validated here, we consider they are already validated in getFields() method,
+this is not the best solution but this is the only one possible for retro compatibility.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 267](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L267)
+
+
+
+
+### <a name="method-getIdByCode"></a>getIdByCode
+
+```php
+integer|boolean CartRuleCore::getIdByCode(string $code)
+```
+
+Retrieves the id associated to the given code
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 240](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L240)
+
+
+#### Arguments
+* $code **string**
+
+
+
 ### <a name="method-getIdByName"></a>getIdByName
 
 ```php
@@ -289,6 +2136,102 @@ mixed DiscountCore::getIdByName($code)
 
 #### Arguments
 * $code **mixed**
+
+
+
+### <a name="method-getProductRuleGroups"></a>getProductRuleGroups
+
+```php
+array CartRuleCore::getProductRuleGroups()
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 428](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L428)
+
+
+
+
+### <a name="method-getProductRules"></a>getProductRules
+
+```php
+array CartRuleCore::getProductRules($id_product_rule_group)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 448](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L448)
+
+
+#### Arguments
+* $id_product_rule_group **mixed**
+
+
+
+### <a name="method-getRepositoryClassName"></a>getRepositoryClassName
+
+```php
+mixed ObjectModelCore::getRepositoryClassName()
+```
+
+Returns the name of the repository class for this entity.
+
+If unspecified, a generic repository will be used for the entity.
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 166](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L166)
+
+
+
+
+### <a name="method-getTranslationsFields"></a>getTranslationsFields
+
+```php
+array ObjectModelCore::getTranslationsFields(array $fields_array)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 806](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L806)
+
+
+#### Arguments
+* $fields_array **array**
+
+
+
+### <a name="method-getValidationRules"></a>getValidationRules
+
+```php
+array ObjectModelCore::getValidationRules(string $class)
+```
+
+Returns object validation rules (fields validity)
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L178)
+
+
+#### Arguments
+* $class **string** - Child class name for static use (optional)
 
 
 
@@ -340,6 +2283,324 @@ mixed DiscountCore::getVouchersToCartDisplay($id_lang, $id_customer)
 
 
 
+### <a name="method-getWebserviceObjectList"></a>getWebserviceObjectList
+
+```php
+array|null ObjectModelCore::getWebserviceObjectList(string $sql_join, string $sql_filter, string $sql_sort, string $sql_limit)
+```
+
+Returns webservice object list.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1230](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1230)
+
+
+#### Arguments
+* $sql_join **string**
+* $sql_filter **string**
+* $sql_sort **string**
+* $sql_limit **string**
+
+
+
+### <a name="method-getWebserviceParameters"></a>getWebserviceParameters
+
+```php
+array ObjectModelCore::getWebserviceParameters(string|null $ws_params_attribute_name)
+```
+
+Returns webservice parameters of this object.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1140](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1140)
+
+
+#### Arguments
+* $ws_params_attribute_name **string|null**
+
+
+
+### <a name="method-hasMultishopEntries"></a>hasMultishopEntries
+
+```php
+boolean ObjectModelCore::hasMultishopEntries()
+```
+
+Checks if there is more than one entry in associated shop table for current object.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1488](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1488)
+
+
+
+
+### <a name="method-hydrate"></a>hydrate
+
+```php
+mixed ObjectModelCore::hydrate(array $data, integer|null $id_lang)
+```
+
+Fill an object with given data. Data must be an array with this syntax:
+array(objProperty => value, objProperty2 => value, etc.)
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1666](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1666)
+
+
+#### Arguments
+* $data **array**
+* $id_lang **integer|null**
+
+
+
+### <a name="method-hydrateCollection"></a>hydrateCollection
+
+```php
+array ObjectModelCore::hydrateCollection(string $class, array $datas, integer|null $id_lang)
+```
+
+Fill (hydrate) a list of objects in order to get a collection of these objects
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1688](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1688)
+
+
+#### Arguments
+* $class **string** - Class of objects to hydrate
+* $datas **array** - List of data (multi-dimensional array)
+* $id_lang **integer|null**
+
+
+
+### <a name="method-isAssociatedToShop"></a>isAssociatedToShop
+
+```php
+boolean ObjectModelCore::isAssociatedToShop(integer|null $id_shop)
+```
+
+Checks if current object is associated to a shop.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1375](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1375)
+
+
+#### Arguments
+* $id_shop **integer|null**
+
+
+
+### <a name="method-isCurrentlyUsed"></a>isCurrentlyUsed
+
+```php
+boolean ObjectModelCore::isCurrentlyUsed(string|null $table, boolean $has_active_column)
+```
+
+Checks if an object type exists in the database.
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1644](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1644)
+
+
+#### Arguments
+* $table **string|null** - Name of table linked to entity
+* $has_active_column **boolean** - True if the table has an active column
+
+
+
+### <a name="method-isFeatureActive"></a>isFeatureActive
+
+```php
+boolean CartRuleCore::isFeatureActive()
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 1303](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L1303)
+
+
+
+
+### <a name="method-isLangMultishop"></a>isLangMultishop
+
+```php
+boolean ObjectModelCore::isLangMultishop()
+```
+
+Checks if the object is both multi-language and multi-shop.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1523](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1523)
+
+
+
+
+### <a name="method-isMultiShopField"></a>isMultiShopField
+
+```php
+boolean ObjectModelCore::isMultiShopField(string $field)
+```
+
+Checks if a field is a multi-shop field.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1513](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1513)
+
+
+#### Arguments
+* $field **string**
+
+
+
+### <a name="method-isMultishop"></a>isMultishop
+
+```php
+boolean ObjectModelCore::isMultishop()
+```
+
+Checks if object is multi-shop object.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1501](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1501)
+
+
+
+
+### <a name="method-makeTranslationFields"></a>makeTranslationFields
+
+```php
+mixed ObjectModelCore::makeTranslationFields(array $fields, array $fields_array, integer $id_language)
+```
+
+
+
+
+
+* Visibility: **protected**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 827](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L827)
+
+
+#### Arguments
+* $fields **array**
+* $fields_array **array**
+* $id_language **integer**
+
+
+
+### <a name="method-save"></a>save
+
+```php
+boolean ObjectModelCore::save(boolean $null_values, boolean $auto_date)
+```
+
+Saves current object to database (add or update)
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 429](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L429)
+
+
+#### Arguments
+* $null_values **boolean**
+* $auto_date **boolean**
+
+
+
+### <a name="method-setDefinitionRetrocompatibility"></a>setDefinitionRetrocompatibility
+
+```php
+mixed ObjectModelCore::setDefinitionRetrocompatibility()
+```
+
+Retrocompatibility for classes without $definition static
+
+
+
+* Visibility: **protected**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1778](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1778)
+
+
+
+
+### <a name="method-setFieldsToUpdate"></a>setFieldsToUpdate
+
+```php
+mixed ObjectModelCore::setFieldsToUpdate(array $fields)
+```
+
+Set a list of specific fields to update
+array(field1 => true, field2 => false,
+langfield1 => array(1 => true, 2 => false))
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1876](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1876)
+
+
+#### Arguments
+* $fields **array**
+
+
+
+### <a name="method-toggleStatus"></a>toggleStatus
+
+```php
+boolean ObjectModelCore::toggleStatus()
+```
+
+Toggles object status in database
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 783](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L783)
+
+
+
+
 ### <a name="method-update"></a>update
 
 ```php
@@ -359,5 +2620,175 @@ mixed DiscountCore::update($autodate, $nullValues, $categories)
 * $autodate **mixed**
 * $nullValues **mixed**
 * $categories **mixed**
+
+
+
+### <a name="method-updateMultishopTable"></a>updateMultishopTable
+
+```php
+boolean ObjectModelCore::updateMultishopTable(string $classname, array $data, string $where, string $specific_where)
+```
+
+Updates a table and splits the common datas and the shop datas.
+
+
+
+* Visibility: **public**
+* This method is **static**.
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1539](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1539)
+
+
+#### Arguments
+* $classname **string**
+* $data **array**
+* $where **string**
+* $specific_where **string** - Only executed for common table
+
+
+
+### <a name="method-usedByCustomer"></a>usedByCustomer
+
+```php
+boolean CartRuleCore::usedByCustomer($id_customer)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [CartRuleCore](class.CartRuleCore.md).
+* Source: [classes/CartRule.php line 386](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/CartRule.php#L386)
+
+
+#### Arguments
+* $id_customer **mixed**
+
+
+
+### <a name="method-validateControler"></a>validateControler
+
+```php
+array ObjectModelCore::validateControler(boolean $htmlentities)
+```
+
+
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1071](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1071)
+
+
+#### Arguments
+* $htmlentities **boolean**
+
+
+
+### <a name="method-validateController"></a>validateController
+
+```php
+array ObjectModelCore::validateController(boolean $htmlentities)
+```
+
+Validates submitted values and returns an array of errors, if any.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1084](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1084)
+
+
+#### Arguments
+* $htmlentities **boolean** - If true, uses htmlentities() for field name translations in errors.
+
+
+
+### <a name="method-validateField"></a>validateField
+
+```php
+true|string ObjectModelCore::validateField(string $field, mixed $value, integer|null $id_lang, array $skip, boolean $human_errors)
+```
+
+Validate a single field
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 946](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L946)
+
+
+#### Arguments
+* $field **string** - Field name
+* $value **mixed** - Field value
+* $id_lang **integer|null** - Language ID
+* $skip **array** - Array of fields to skip.
+* $human_errors **boolean** - If true, uses more descriptive, translatable error strings.
+
+
+
+### <a name="method-validateFields"></a>validateFields
+
+```php
+boolean|string ObjectModelCore::validateFields(boolean $die, boolean $error_return)
+```
+
+Checks if object field values are valid before database interaction
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 867](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L867)
+
+
+#### Arguments
+* $die **boolean**
+* $error_return **boolean**
+
+
+
+### <a name="method-validateFieldsLang"></a>validateFieldsLang
+
+```php
+boolean|string ObjectModelCore::validateFieldsLang(boolean $die, boolean $error_return)
+```
+
+Checks if multilingual object field values are valid before database interaction.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 898](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L898)
+
+
+#### Arguments
+* $die **boolean**
+* $error_return **boolean**
+
+
+
+### <a name="method-validateFieldsRequiredDatabase"></a>validateFieldsRequiredDatabase
+
+```php
+array ObjectModelCore::validateFieldsRequiredDatabase(boolean $htmlentities)
+```
+
+Validate required fields.
+
+
+
+* Visibility: **public**
+* This method is defined by [ObjectModelCore](class.ObjectModelCore.md).
+* Source: [classes/ObjectModel.php line 1275](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.0/classes/ObjectModel.php#L1275)
+
+
+#### Arguments
+* $htmlentities **boolean**
 
 
