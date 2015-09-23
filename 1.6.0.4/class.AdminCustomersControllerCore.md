@@ -1,0 +1,597 @@
+Class AdminCustomersControllerCore
+=====================
+
+
+
+
+
+* Class name: AdminCustomersControllerCore
+* Parent class: [AdminController](class.AdminControllerCore.md)
+* Source: [controllers/admin/AdminCustomersController.php line 27](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L27)
+
+
+Contents
+--------
+
+
+### Properties
+
+* [$_defaultOrderBy](#property-$_defaultOrderBy)
+* [$_defaultOrderWay](#property-$_defaultOrderWay)
+* [$can_add_customer](#property-$can_add_customer)
+* [$delete_mode](#property-$delete_mode)
+
+### Methods
+
+* [__construct](#method-__construct)
+* [_setDeletedMode](#method-_setDeletedMode)
+* [afterDelete](#method-afterDelete)
+* [ajaxProcessSearchCustomers](#method-ajaxProcessSearchCustomers)
+* [ajaxProcessUpdateCustomerNote](#method-ajaxProcessUpdateCustomerNote)
+* [beforeAdd](#method-beforeAdd)
+* [displayDeleteLink](#method-displayDeleteLink)
+* [getList](#method-getList)
+* [initContent](#method-initContent)
+* [initPageHeaderToolbar](#method-initPageHeaderToolbar)
+* [initProcess](#method-initProcess)
+* [initToolbar](#method-initToolbar)
+* [initToolbarTitle](#method-initToolbarTitle)
+* [postProcess](#method-postProcess)
+* [printNewsIcon](#method-printNewsIcon)
+* [printOptinIcon](#method-printOptinIcon)
+* [processAdd](#method-processAdd)
+* [processBulkDelete](#method-processBulkDelete)
+* [processChangeNewsletterVal](#method-processChangeNewsletterVal)
+* [processChangeOptinVal](#method-processChangeOptinVal)
+* [processDelete](#method-processDelete)
+* [processGuestToCustomer](#method-processGuestToCustomer)
+* [processSave](#method-processSave)
+* [processUpdate](#method-processUpdate)
+* [renderForm](#method-renderForm)
+* [renderKpis](#method-renderKpis)
+* [renderList](#method-renderList)
+* [renderView](#method-renderView)
+
+
+
+
+Properties
+----------
+
+
+### <a name="property-$_defaultOrderBy"></a>$_defaultOrderBy
+
+```php
+protected mixed $_defaultOrderBy = 'date_add'
+```
+
+
+
+
+
+* Visibility: **protected**
+* Source: [controllers/admin/AdminCustomersController.php line 31](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L31).
+
+
+### <a name="property-$_defaultOrderWay"></a>$_defaultOrderWay
+
+```php
+protected mixed $_defaultOrderWay = 'DESC'
+```
+
+
+
+
+
+* Visibility: **protected**
+* Source: [controllers/admin/AdminCustomersController.php line 32](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L32).
+
+
+### <a name="property-$can_add_customer"></a>$can_add_customer
+
+```php
+protected mixed $can_add_customer = true
+```
+
+
+
+
+
+* Visibility: **protected**
+* Source: [controllers/admin/AdminCustomersController.php line 33](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L33).
+
+
+### <a name="property-$delete_mode"></a>$delete_mode
+
+```php
+protected mixed $delete_mode
+```
+
+
+
+
+
+* Visibility: **protected**
+* Source: [controllers/admin/AdminCustomersController.php line 29](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L29).
+
+
+Methods
+-------
+
+
+### <a name="method-__construct"></a>__construct
+
+```php
+mixed AdminCustomersControllerCore::__construct()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 35](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L35)
+
+
+
+
+### <a name="method-_setDeletedMode"></a>_setDeletedMode
+
+```php
+mixed AdminCustomersControllerCore::_setDeletedMode()
+```
+
+
+
+
+
+* Visibility: **protected**
+* Source: [controllers/admin/AdminCustomersController.php line 828](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L828)
+
+
+
+
+### <a name="method-afterDelete"></a>afterDelete
+
+```php
+mixed AdminCustomersControllerCore::afterDelete($object, $old_id)
+```
+
+
+
+
+
+* Visibility: **protected**
+* Source: [controllers/admin/AdminCustomersController.php line 912](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L912)
+
+
+#### Arguments
+* $object **mixed**
+* $old_id **mixed**
+
+
+
+### <a name="method-ajaxProcessSearchCustomers"></a>ajaxProcessSearchCustomers
+
+```php
+void AdminCustomersControllerCore::ajaxProcessSearchCustomers()
+```
+
+add to $this->content the result of Customer::SearchByName
+(encoded in json)
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 1014](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L1014)
+
+
+
+
+### <a name="method-ajaxProcessUpdateCustomerNote"></a>ajaxProcessUpdateCustomerNote
+
+```php
+void AdminCustomersControllerCore::ajaxProcessUpdateCustomerNote()
+```
+
+Uodate the customer note
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 1029](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L1029)
+
+
+
+
+### <a name="method-beforeAdd"></a>beforeAdd
+
+```php
+mixed AdminCustomersControllerCore::beforeAdd($customer)
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 583](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L583)
+
+
+#### Arguments
+* $customer **mixed**
+
+
+
+### <a name="method-displayDeleteLink"></a>displayDeleteLink
+
+```php
+mixed AdminCustomersControllerCore::displayDeleteLink(string $token, integer $id, string $name)
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 990](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L990)
+
+
+#### Arguments
+* $token **string**
+* $id **integer**
+* $name **string**
+
+
+
+### <a name="method-getList"></a>getList
+
+```php
+mixed AdminCustomersControllerCore::getList($id_lang, $orderBy, $orderWay, $start, $limit, $id_lang_shop)
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 207](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L207)
+
+
+#### Arguments
+* $id_lang **mixed**
+* $orderBy **mixed**
+* $orderWay **mixed**
+* $start **mixed**
+* $limit **mixed**
+* $id_lang_shop **mixed**
+
+
+
+### <a name="method-initContent"></a>initContent
+
+```php
+mixed AdminCustomersControllerCore::initContent()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 178](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L178)
+
+
+
+
+### <a name="method-initPageHeaderToolbar"></a>initPageHeaderToolbar
+
+```php
+mixed AdminCustomersControllerCore::initPageHeaderToolbar()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 241](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L241)
+
+
+
+
+### <a name="method-initProcess"></a>initProcess
+
+```php
+mixed AdminCustomersControllerCore::initProcess()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 253](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L253)
+
+
+
+
+### <a name="method-initToolbar"></a>initToolbar
+
+```php
+mixed AdminCustomersControllerCore::initToolbar()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 193](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L193)
+
+
+
+
+### <a name="method-initToolbarTitle"></a>initToolbarTitle
+
+```php
+mixed AdminCustomersControllerCore::initToolbarTitle()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 217](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L217)
+
+
+
+
+### <a name="method-postProcess"></a>postProcess
+
+```php
+mixed AdminCustomersControllerCore::postProcess()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 170](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L170)
+
+
+
+
+### <a name="method-printNewsIcon"></a>printNewsIcon
+
+```php
+mixed AdminCustomersControllerCore::printNewsIcon($value, $customer)
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 968](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L968)
+
+
+#### Arguments
+* $value **mixed**
+* $customer **mixed**
+
+
+
+### <a name="method-printOptinIcon"></a>printOptinIcon
+
+```php
+mixed AdminCustomersControllerCore::printOptinIcon($value, $customer)
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 976](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L976)
+
+
+#### Arguments
+* $value **mixed**
+* $customer **mixed**
+
+
+
+### <a name="method-processAdd"></a>processAdd
+
+```php
+mixed AdminCustomersControllerCore::processAdd()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 847](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L847)
+
+
+
+
+### <a name="method-processBulkDelete"></a>processBulkDelete
+
+```php
+mixed AdminCustomersControllerCore::processBulkDelete()
+```
+
+
+
+
+
+* Visibility: **protected**
+* Source: [controllers/admin/AdminCustomersController.php line 841](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L841)
+
+
+
+
+### <a name="method-processChangeNewsletterVal"></a>processChangeNewsletterVal
+
+```php
+mixed AdminCustomersControllerCore::processChangeNewsletterVal()
+```
+
+Toggle the newsletter flag
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 943](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L943)
+
+
+
+
+### <a name="method-processChangeOptinVal"></a>processChangeOptinVal
+
+```php
+mixed AdminCustomersControllerCore::processChangeOptinVal()
+```
+
+Toggle newsletter optin flag
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 957](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L957)
+
+
+
+
+### <a name="method-processDelete"></a>processDelete
+
+```php
+mixed AdminCustomersControllerCore::processDelete()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 822](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L822)
+
+
+
+
+### <a name="method-processGuestToCustomer"></a>processGuestToCustomer
+
+```php
+mixed AdminCustomersControllerCore::processGuestToCustomer()
+```
+
+Transform a guest account into a registered customer account
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 927](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L927)
+
+
+
+
+### <a name="method-processSave"></a>processSave
+
+```php
+mixed AdminCustomersControllerCore::processSave()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 899](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L899)
+
+
+
+
+### <a name="method-processUpdate"></a>processUpdate
+
+```php
+mixed AdminCustomersControllerCore::processUpdate()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 876](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L876)
+
+
+
+
+### <a name="method-renderForm"></a>renderForm
+
+```php
+mixed AdminCustomersControllerCore::renderForm()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 299](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L299)
+
+
+
+
+### <a name="method-renderKpis"></a>renderKpis
+
+```php
+mixed AdminCustomersControllerCore::renderKpis()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 588](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L588)
+
+
+
+
+### <a name="method-renderList"></a>renderList
+
+```php
+mixed AdminCustomersControllerCore::renderList()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 287](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L287)
+
+
+
+
+### <a name="method-renderView"></a>renderView
+
+```php
+mixed AdminCustomersControllerCore::renderView()
+```
+
+
+
+
+
+* Visibility: **public**
+* Source: [controllers/admin/AdminCustomersController.php line 648](https://github.com/PrestaShop/PrestaShop/blob/1.6.0.4/controllers/admin/AdminCustomersController.php#L648)
+
+
+

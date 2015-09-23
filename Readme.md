@@ -6,13 +6,26 @@ This is not an user documentation, if you want to know how to use Prestashop, re
 
 ## Prestashop versions
 
+* [1.6.0.1](1.6.0.1/Home.md)
+* [1.6.0.2](1.6.0.2/Home.md)
+* [1.6.0.3](1.6.0.3/Home.md)
+* [1.6.0.4](1.6.0.4/Home.md)
+* [1.6.0.5](1.6.0.5/Home.md)
+* [1.6.0.6](1.6.0.6/Home.md)
+* [1.6.0.7](1.6.0.7/Home.md)
+* [1.6.0.8](1.6.0.8/Home.md)
+* [1.6.0.9](1.6.0.9/Home.md)
+* [1.6.0.10](1.6.0.10/Home.md)
+* [1.6.0.11](1.6.0.11/Home.md)
+* [1.6.0.12](1.6.0.12/Home.md)
+* [1.6.0.13](1.6.0.13/Home.md)
 * [1.6.0.14](1.6.0.14/Home.md)
 * [1.6.1.0](1.6.1.0/Home.md)
 * [1.6.1.1](1.6.1.1/Home.md)
 
 ## Contributions
 
-If you have anything to fix or details to add, first [file an issue](http://github.com/Shagshag/prestashop-doc/issues) on GitHub to see if it is likely to be accepted, then file a pull request with your change (one PR per issue).
+If you have anything to fix or details to add, [file an issue](http://github.com/Shagshag/prestashop-documentation/issues) or [add a pull request](http://github.com/Shagshag/prestashop-documentation/pulls).
 
 ## Licence
 
