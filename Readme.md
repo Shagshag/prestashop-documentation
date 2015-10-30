@@ -41,6 +41,7 @@ This is not an user documentation, if you want to know how to use Prestashop, re
 * [1.6.0.14](1.6.0.14/Home.md)
 * [1.6.1.0](1.6.1.0/Home.md)
 * [1.6.1.1](1.6.1.1/Home.md)
+* [1.6.1.2](1.6.1.2/Home.md)
 
 ## Contributions
 
