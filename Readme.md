@@ -42,6 +42,7 @@ This is not an user documentation, if you want to know how to use Prestashop, re
 * [1.6.1.0](1.6.1.0/Home.md)
 * [1.6.1.1](1.6.1.1/Home.md)
 * [1.6.1.2](1.6.1.2/Home.md)
+* [1.6.1.3](1.6.1.3/Home.md)
 
 ## Contributions
 
@@ -49,6 +50,6 @@ If you have anything to fix or details to add, [file an issue](http://github.com
 
 ## Licence
 
-Unless otherwise specified, everything in this repository is covered by the 
+Unless otherwise specified, everything in this repository is covered by the
 
 [Open Software License (OSL 3.0)](http://opensource.org/licenses/OSL-3.0)

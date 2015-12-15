@@ -1,0 +1,11 @@
+File Adapter/Adapter_PackItemsManager.php
+=========
+
+Source: [Adapter/Adapter_PackItemsManager.php](https://github.com/PrestaShop/PrestaShop/blob/1.6.1.3/Adapter/Adapter_PackItemsManager.php)
+
+
+Classes
+-------
+
+* [Adapter_PackItemsManager](class.Adapter_PackItemsManager.md)
+
