@@ -47,7 +47,7 @@ Constants
 ### <a name="constant-DEFAULT_FONT"></a>DEFAULT_FONT
 
 ```php
-const DEFAULT_FONT = 'helvetica'
+const DEFAULT_FONT = 'dejavusans'
 ```
 
 
